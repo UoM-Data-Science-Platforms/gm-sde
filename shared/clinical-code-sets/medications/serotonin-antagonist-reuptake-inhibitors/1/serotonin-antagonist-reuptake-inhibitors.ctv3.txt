@@ -25,3 +25,6 @@ d7e4.	Molipaxin 150mg tablets x28CP
 d7e4.	Molipaxin 150mg tablets x28CP
 d7e6.	Molipaxin CR 150mg m/r tablets x28
 d7e6.	Molipaxin CR 150mg m/r tablets x28
+x02an	Dutonin
+x02jl	Molipaxin
+x03sq	Molipaxin CR

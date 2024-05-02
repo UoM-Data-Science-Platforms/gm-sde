@@ -1,0 +1,18 @@
+d7e..	Trazodone hydrochloride
+d7e5.	Trazodone hydrochloride 150mg tablet
+x00fa	Molipaxin 150mg tablet
+d7e4.	Molipaxin 150mg tablets x28CP
+d7e7.	Trazodone hydrochloride 150mg m/r tablet
+x00fb	Molipaxin CR 150mg tablet
+d7e6.	Molipaxin CR 150mg m/r tablets x28
+d7ew.	Trazodone hydrochloride 100mg capsule
+x00E5	Molipaxin 100mg capsule
+d7e2.	Molipaxin 100mg capsules x56CP
+d7ex.	Trazodone hydrochloride 50mg capsule
+x00E4	Molipaxin 50mg capsule
+d7e1.	Molipaxin 50mg capsules x84CP
+d7ez.	Trazodone hydrochloride 50mg/5mL liquid
+d7e3.	Molipaxin 50mg/5mL liquid
+x01B2	Trazodone
+x02jl	Molipaxin
+x03sq	Molipaxin CR

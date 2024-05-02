@@ -1,74 +1,14 @@
-7336002	Trazodone product
-108435006	Nefazodone product
+7336002	Product containing trazodone (medicinal product)
 321877001	Product containing precisely trazodone hydrochloride 150 milligram/1 each conventional release oral tablet (clinical drug)
-321880000	Product containing precisely trazodone hydrochloride 100 milligram/1 each conventional release oral capsule
-321881001	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral capsule
-321980001	Product containing precisely nefazodone hydrochloride 100 milligram/1 each conventional release oral tablet (clinical drug)
-321981002	Product containing precisely nefazodone hydrochloride 200 milligram/1 each conventional release oral tablet (clinical drug)
-376658002	Product containing precisely nefazodone hydrochloride 50 milligram/1 each conventional release oral tablet (clinical drug)
-376660000	Product containing precisely nefazodone hydrochloride 150 milligram/1 each conventional release oral tablet
-376661001	Product containing precisely nefazodone hydrochloride 250 milligram/1 each conventional release oral tablet
-376689003	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral tablet
+321880000	Product containing precisely trazodone hydrochloride 100 milligram/1 each conventional release oral capsule (clinical drug)
+321881001	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral capsule (clinical drug)
+321882008	Trazodone hydrochloride 50mg/5mL liquid (product)
+376689003	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral tablet (clinical drug)
 376690007	Product containing precisely trazodone hydrochloride 100 milligram/1 each conventional release oral tablet (clinical drug)
 376695002	Product containing precisely trazodone hydrochloride 300 milligram/1 each conventional release oral tablet (clinical drug)
-412646001	Product containing precisely nefazodone hydrochloride 300 milligram/1 each conventional release oral tablet
-444774009	Trazodone hydrochloride 300mg extended release tablet
-445292007	Trazodone hydrochloride 150mg extended release tablet
-768373008	Nefazodone in oral dosage form
-768414008	Product containing trazodone in oral dosage form
-58956008	Trazodone hydrochloride (substance)
-372829000	Trazodone
-108436007	Nefazodone hydrochloride (substance)
-372491002	Nefazodone
-1811000001101	Molipaxin 150mg tablets (Zentiva Pharma UK Ltd) (product)
-369211000001100	Molipaxin 50mg capsules (Zentiva Pharma UK Ltd) (product)
-3904511000001104	Molipaxin 50mg/5ml oral liquid (Aventis Pharma) (product)
-3909411000001104	Trazodone 50mg/5ml oral solution sugar free (product)
-3937311000001108	Dutonin tablets treatment initiation pack (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
-4549511000001102	Molipaxin CR 150mg tablets (Aventis Pharma) (product)
-4557211000001109	Trazodone 150mg modified-release tablets (product)
-666211000001104	Dutonin 200mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
-75511000001108	Molipaxin 100mg capsules (Zentiva Pharma UK Ltd) (product)
-864911000001105	Dutonin 100mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
-321984005	Nefazodone hydrochloride 50mg+100mg+200mg initiation tablet pack (product)
-375934007	Nefazodone hydrochloride 100mg (product)
-375935008	Nefazodone hydrochloride 150mg (product)
-412442009	Product containing nefazodone hydrochloride (medicinal product)
-776881007	Nefazodone (product)
-779982000	Product containing only nefazodone in oral dose form (medicinal product form)
-42275111000001107	Nefazodone 100mg tablets (product)
-11480511000001101	Nefazodone 100mg tablets (Special Order) (product)
-42275311000001109	Nefazodone 50mg tablets (product)
-42275211000001101	Nefazodone 200mg tablets (product)
-11485411000001107	Nefazodone 200mg tablets (Special Order) (product)
-3948311000001108	Nefazodone 50mg tablets (product)
-3936911000001106	Nefazodone 200mg tablets 28 tablet (product)
-3936711000001109	Nefazodone 100mg tablets 14 tablet (product)
-3936211000001102	Nefazodone 50mg tablets 14 tablet (product)
-986111000001106	Nefazodone 200mg tablets 56 tablet (product)
-1155311000001107	Nefazodone 100mg tablets 56 tablet (product)
-11485311000001100	Nefazodone 200mg tablets 1 tablet (product)
-11485511000001106	Nefazodone 200mg tablets (Special Order) 1 tablet (product)
-11480411000001100	Nefazodone 100mg tablets 1 tablet (product)
-11480611000001102	Nefazodone 100mg tablets (Special Order) 1 tablet (product)
-2448601000001105	Nefazodone hydrochloride 100mg tablet - product
-2448701000001100	Nefazodone hydrochloride 200mg tablet - product
-3023601000001103	Nefazodone hydrochloride 50mg+100mg+200mg initiation tablet pack - product
-3936411000001103	Dutonin 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) (product)
-36061911000001105	Generic Dutonin tablets treatment initiation pack (product)
-3937011000001105	Dutonin 200mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) 28 tablet (product)
-3936811000001101	Dutonin 100mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) 14 tablet (product)
-3936511000001104	Dutonin 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) 14 tablet (product)
-2154511000001103	Dutonin 200mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) 56 tablet 4 x 14 tablets (product)
-2153811000001103	Dutonin 100mg tablets (Bristol-Myers Squibb Pharmaceuticals Limited) 56 tablet 4 x 14 tablets (product)
-3937111000001106	Generic Dutonin tablets treatment initiation pack 56 tablet (product)
-3937411000001101	Dutonin tablets treatment initiation pack (Bristol-Myers Squibb Pharmaceuticals Limited) 56 tablet 1 x (14tabs + 14tabs + 28tabs) (product)
-9270001000001108	Dutonin (product)
-13178301000001107	Generic Dutonin tablets treatment initiation pack (product)
-2448801000001109	Dutonin 100mg tablet
-2448901000001103	Dutonin 200mg tablet
-3023701000001108	Dutonin 50mg+100mg+200mg treatment initiation tablet pack
-321882008	Trazodone hydrochloride 50mg/5mL liquid (product)
+444774009	Product containing precisely trazodone hydrochloride 300 milligram/1 each prolonged-release oral tablet (clinical drug)
+445292007	Product containing precisely trazodone hydrochloride 150 milligram/1 each prolonged-release oral tablet (clinical drug)
+768414008	Product containing trazodone in oral dose form (medicinal product form)
 777826006	Trazodone (product)
 780685002	Product containing only trazodone in oral dose form (medicinal product form)
 1254961007	Product containing precisely trazodone hydrochloride 10 milligram/1 milliliter conventional release oral solution (clinical drug)
@@ -83,6 +23,7 @@
 42505911000001106	Trazodone 150mg tablets (Noumed Life Sciences Ltd) (product)
 120311000001104	Trazodone 150mg tablets (Zentiva Pharma UK Ltd) (product)
 38161711000001106	Trazodone 150mg tablets (Medreich Plc) (product)
+1811000001101	Molipaxin 150mg tablets (Zentiva Pharma UK Ltd) (product)
 23615711000001107	Trazodone 150mg tablets (Creo Pharma Ltd) (product)
 21893511000001101	Trazodone 150mg tablets (Waymade Healthcare Plc) (product)
 151911000001106	Trazodone 150mg tablets (Viatris UK Healthcare Ltd) (product)
@@ -113,6 +54,7 @@
 41296911000001105	Trazodone 100mg capsules (Medreich Plc) (product)
 500911000001100	Trazodone 100mg capsules (Kent Pharma (UK) Ltd) (product)
 41209511000001106	Trazodone 100mg capsules (Milpharm Ltd) (product)
+75511000001108	Molipaxin 100mg capsules (Zentiva Pharma UK Ltd) (product)
 42163611000001106	Trazodone 100mg capsules (Strides Pharma UK Ltd) (product)
 656611000001106	Trazodone 100mg capsules (Approved Prescription Services) (product)
 9361411000001106	Trazodone 100mg capsules (IVAX Pharmaceuticals UK Ltd) (product)
@@ -133,6 +75,7 @@
 36778311000001106	Trazodone 100mg capsules (Flamingo Pharma (UK) Ltd) (product)
 42280711000001105	Trazodone 50mg capsules (product)
 42506111000001102	Trazodone 50mg capsules (Noumed Life Sciences Ltd) (product)
+369211000001100	Molipaxin 50mg capsules (Zentiva Pharma UK Ltd) (product)
 39919811000001103	Trazodone 50mg capsules (Medihealth (Northern) Ltd) (product)
 16238311000001102	Trazodone 50mg capsules (Accord-UK Ltd) (product)
 17863611000001104	Trazodone 50mg capsules (Phoenix Healthcare Distribution Ltd) (product)
@@ -179,8 +122,11 @@
 13342111000001101	Trazodone 250mg/5ml oral suspension (Special Order) (product)
 13358711000001100	Trazodone 100mg/5ml oral solution (product)
 13343511000001103	Trazodone 100mg/5ml oral solution (Special Order) (product)
+4557211000001109	Trazodone 150mg modified-release tablets (product)
+4549511000001102	Molipaxin CR 150mg tablets (Aventis Pharma) (product)
 13358811000001108	Trazodone 100mg/5ml oral suspension (product)
 13341211000001100	Trazodone 100mg/5ml oral suspension (Special Order) (product)
+3909411000001104	Trazodone 50mg/5ml oral solution sugar free (product)
 36906511000001100	Trazodone 50mg/5ml oral solution sugar free (Alissa Healthcare Research Ltd) (product)
 36889111000001105	Trazodone 50mg/5ml oral solution sugar free (Thame Laboratories Ltd) (product)
 36235011000001106	Trazodone 50mg/5ml oral solution sugar free (Accord-UK Ltd) (product)
@@ -195,6 +141,7 @@
 41808911000001103	Trazodone 50mg/5ml oral solution sugar free (Dawa Ltd) (product)
 42160711000001106	Trazodone 50mg/5ml oral solution sugar free (Strides Pharma UK Ltd) (product)
 39921011000001101	Trazodone 50mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) (product)
+3904511000001104	Molipaxin 50mg/5ml oral liquid (Aventis Pharma) (product)
 37828411000001102	Trazodone 50mg/5ml oral solution sugar free (DE Pharmaceuticals) (product)
 37847911000001106	Trazodone 50mg/5ml oral solution sugar free (NorthStar Healthcare Unlimited Company) (product)
 13359611000001100	Trazodone 25mg/5ml oral suspension (product)
@@ -248,7 +195,13 @@
 42506011000001103	Trazodone 150mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets (product)
 42506211000001108	Trazodone 50mg capsules (Noumed Life Sciences Ltd) 84 capsule 6 x 14 capsules (product)
 42505811000001101	Trazodone 100mg capsules (Noumed Life Sciences Ltd) 56 capsule 4 x 14 capsules (product)
+739601000001106	Trazodone hydrochloride 150mg m/r tablet
+334901000001101	Trazodone hydrochloride 150mg tablet - product
+461301000001103	Trazodone hydrochloride 100mg capsule - product
+462801000001103	Trazodone hydrochloride 50mg/5mL liquid - product
+531401000001106	Trazodone hydrochloride 50mg capsule - product
 4549411000001101	Trazodone 150mg modified-release tablets 28 tablet (product)
+4549611000001103	Molipaxin CR 150mg tablets (Aventis Pharma) 28 tablet (product)
 3904311000001105	Trazodone 50mg/5ml oral solution sugar free 120 ml (product)
 36906611000001101	Trazodone 50mg/5ml oral solution sugar free (Alissa Healthcare Research Ltd) 120 ml (product)
 36889211000001104	Trazodone 50mg/5ml oral solution sugar free (Thame Laboratories Ltd) 120 ml (product)
@@ -258,6 +211,7 @@
 19684011000001106	Trazodone 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 120 ml (product)
 19570111000001100	Trazodone 50mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd) 120 ml (product)
 18752211000001105	Trazodone 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 120 ml (product)
+3905111000001107	Molipaxin 50mg/5ml oral liquid (Aventis Pharma) 120 ml (product)
 1159811000001100	Trazodone 100mg capsules 56 capsule (product)
 36778411000001104	Trazodone 100mg capsules (Flamingo Pharma (UK) Ltd) 56 capsule 4 x 14 capsules (product)
 36601311000001104	Trazodone 100mg capsules (Bristol Laboratories Ltd) 56 capsule 4 x 14 capsules (product)
@@ -273,6 +227,7 @@
 15198811000001104	Trazodone 100mg capsules (Sigma Pharmaceuticals Plc) 56 capsule (product)
 9361511000001105	Trazodone 100mg capsules (IVAX Pharmaceuticals UK Ltd) 56 capsule 4 x 14 capsules (product)
 1592211000001108	Trazodone 100mg capsules (Unichem Plc) 56 capsule (product)
+1591811000001100	Molipaxin 100mg capsules (Zentiva Pharma UK Ltd) 56 capsule 4 x 14 capsules (product)
 1591711000001108	Trazodone 100mg capsules (Approved Prescription Services) 56 capsule 4 x 14 capsules (product)
 1591611000001104	Trazodone 100mg capsules (A A H Pharmaceuticals Ltd) 56 capsule (product)
 1098311000001100	Trazodone 50mg capsules 84 capsule (product)
@@ -290,6 +245,7 @@
 15199011000001100	Trazodone 50mg capsules (Sigma Pharmaceuticals Plc) 84 capsule (product)
 9361311000001104	Trazodone 50mg capsules (IVAX Pharmaceuticals UK Ltd) 84 capsule 7 x 12 capsules (product)
 1591511000001103	Trazodone 50mg capsules (Unichem Plc) 84 capsule (product)
+1591111000001107	Molipaxin 50mg capsules (Zentiva Pharma UK Ltd) 84 capsule 6 x 14 capsules (product)
 1591011000001106	Trazodone 50mg capsules (Approved Prescription Services) 84 capsule 6 x 14 capsules (product)
 1590911000001103	Trazodone 50mg capsules (A A H Pharmaceuticals Ltd) 84 capsule (product)
 1183711000001102	Trazodone 150mg tablets 28 tablet (product)
@@ -303,6 +259,7 @@
 17864711000001105	Trazodone 150mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet (product)
 16238811000001106	Trazodone 150mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets (product)
 2397411000001108	Trazodone 150mg tablets (Unichem Plc) 28 tablet (product)
+2396611000001109	Molipaxin 150mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets (product)
 2396311000001104	Trazodone 150mg tablets (Approved Prescription Services) 28 tablet 2 x 14 tablets (product)
 2396111000001101	Trazodone 150mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets (product)
 13345211000001102	Trazodone 75mg/5ml oral solution 1 ml (product)
@@ -336,18 +293,6 @@
 35101511000001108	Trazodone 100mg/5ml oral solution sugar free 120 ml (product)
 35211411000001109	Trazodone 100mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 120 ml (product)
 35109311000001103	Trazodone 100mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 120 ml (product)
-739601000001106	Trazodone hydrochloride 150mg m/r tablet
-334901000001101	Trazodone hydrochloride 150mg tablet - product
-461301000001103	Trazodone hydrochloride 100mg capsule - product
-462801000001103	Trazodone hydrochloride 50mg/5mL liquid - product
-531401000001106	Trazodone hydrochloride 50mg capsule - product
-4549611000001103	Molipaxin CR 150mg tablets (Aventis Pharma) 28 tablet (product)
-3905111000001107	Molipaxin 50mg/5ml oral liquid (Aventis Pharma) 120 ml (product)
-1591811000001100	Molipaxin 100mg capsules (Zentiva Pharma UK Ltd) 56 capsule 4 x 14 capsules (product)
-1591111000001107	Molipaxin 50mg capsules (Zentiva Pharma UK Ltd) 84 capsule 6 x 14 capsules (product)
-2396611000001109	Molipaxin 150mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets (product)
-9481301000001108	Molipaxin CR (product)
-9505001000001100	Molipaxin (product)
 25801000001108	Molipaxin 150mg tablet
 458401000001109	Molipaxin CR 150mg tablet
 596301000001103	Molipaxin 50mg capsule
@@ -357,3 +302,5 @@
 877601000001101	Molipaxin 100mg capsules x56CP
 877701000001106	Molipaxin 150mg tablets x28CP
 877801000001102	Molipaxin CR 150mg m/r tablets x28
+9481301000001108	Molipaxin CR (product)
+9505001000001100	Molipaxin (product)

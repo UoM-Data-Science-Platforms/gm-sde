@@ -1,141 +1,3 @@
-^ESCT1178178	Product containing only trazodone hydrochloride 50 mg/1 each oral capsule
-^ESCT1179287	Product containing only nefazodone hydrochloride 150 mg/1 each oral tablet
-^ESCT1181102	Product containing only trazodone hydrochloride 100 mg/1 each oral capsule
-^ESCT1181112	Product containing only nefazodone hydrochloride 200 mg/1 each oral tablet
-^ESCT1181391	Product containing only trazodone hydrochloride 150 mg/1 each oral tablet
-^ESCT1181899	Product containing only nefazodone hydrochloride 100 mg/1 each oral tablet
-^ESCT1185382	Product containing only nefazodone hydrochloride 250 mg/1 each oral tablet
-^ESCT1185387	Product containing only trazodone hydrochloride 50 mg/1 each oral tablet
-^ESCT1185388	Product containing only trazodone hydrochloride 100 mg/1 each oral tablet
-^ESCT1188313	Product containing only nefazodone hydrochloride 300 mg/1 each oral tablet
-^ESCT1188475	Product containing only nefazodone hydrochloride 50 mg/1 each oral tablet
-^ESCT1188478	Product containing only trazodone hydrochloride 300 mg/1 each oral tablet
-^ESCT1207166	Nefazodone in oral dosage form
-^ESCT1207167	Product containing nefazodone in oral dosage form
-^ESCT1207248	Trazodone in oral dosage form
-^ESCT1207249	Product containing trazodone in oral dosage form
-^ESCT1216755	Trazodone
-^ESCT1216756	Trazodone product
-^ESCT1220834	Nefazodone
-^ESCT1220835	Nefazodone product
-^ESCT1223547	Product containing precisely trazodone hydrochloride 150 milligram/1 each conventional release oral tablet
-^ESCT1223548	Trazodone hydrochloride 100 mg oral capsule
-^ESCT1223549	Product containing precisely trazodone hydrochloride 100 milligram/1 each conventional release oral capsule
-^ESCT1223550	Trazodone hydrochloride 50 mg oral capsule
-^ESCT1223551	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral capsule
-^ESCT1223599	Product containing precisely nefazodone hydrochloride 100 milligram/1 each conventional release oral tablet
-^ESCT1223600	Product containing precisely nefazodone hydrochloride 200 milligram/1 each conventional release oral tablet
-^ESCT1228697	Product containing precisely nefazodone hydrochloride 50 milligram/1 each conventional release oral tablet
-^ESCT1228698	Product containing precisely nefazodone hydrochloride 150 milligram/1 each conventional release oral tablet
-^ESCT1228699	Product containing precisely nefazodone hydrochloride 250 milligram/1 each conventional release oral tablet
-^ESCT1228719	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral tablet
-^ESCT1228720	Product containing precisely trazodone hydrochloride 100 milligram/1 each conventional release oral tablet
-^ESCT1228724	Product containing precisely trazodone hydrochloride 300 milligram/1 each conventional release oral tablet
-^ESCT1232184	Product containing precisely nefazodone hydrochloride 300 milligram/1 each conventional release oral tablet
-^ESCT1301176	Trazodone 50mg tablets
-^ESCT1301177	Trazodone 100mg tablets
-^ESCT1384172	Trazodone hydrochloride 300 mg prolonged-release oral tablet
-^ESCT1384181	Trazodone hydrochloride 150 mg prolonged-release oral tablet
-^ESCT1386624	Nefazodone-containing product in oral dose form
-^ESCT1386665	Trazodone-containing product in oral dose form
-^ESCT1421584	Molipaxin 150mg tablets (Zentiva Pharma UK Ltd)
-^ESCT1421659	Molipaxin 100mg capsules (Zentiva Pharma UK Ltd)
-^ESCT1421702	Molipaxin 50mg capsules (Zentiva Pharma UK Ltd)
-^ESCTDU820881	Dutonin 200mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
-^ESCTDU829986	Dutonin 100mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
-^ESCTDU865718	Dutonin tablets treatment initiation pack (Bristol-Myers Squibb Pharmaceuticals Ltd)
-^ESCTMO797054	Molipaxin 150mg tablets (Zentiva)
-^ESCTMO802355	Molipaxin 100mg capsules (Zentiva)
-^ESCTMO812072	Molipaxin 50mg capsules (Zentiva)
-^ESCTMO865467	Molipaxin 50mg/5ml oral liquid (Sanofi)
-^ESCTMO870851	Molipaxin CR 150mg tablets (Aventis Pharma)
-^ESCTNE415421	Nefazodone
-^ESCTNE415423	Nefazodone hydrochloride
-^ESCTNE609806	Nefazodone 100mg tablets
-^ESCTNE609808	Nefazodone hydrochloride 100 mg oral tablet
-^ESCTNE609809	Nefazodone 200mg tablets
-^ESCTNE609811	Nefazodone hydrochloride 200 mg oral tablet
-^ESCTNE636847	Nefazodone
-^ESCTNE641325	Nefazodone 50mg tablets
-^ESCTNE641327	Nefazodone hydrochloride 50 mg oral tablet
-^ESCTNE641328	Nefazodone hydrochloride 150 mg oral tablet
-^ESCTNE641330	Nefazodone hydrochloride 250 mg oral tablet
-^ESCTNE683022	Nefazodone hydrochloride 300 mg oral tablet
-^ESCTPR261677	Product containing trazodone
-^ESCTPR415422	Product containing nefazodone
-^ESCTPR609696	Product containing trazodone hydrochloride 150 mg/1 each oral tablet
-^ESCTPR609700	Product containing trazodone hydrochloride 100 mg/1 each oral capsule
-^ESCTPR609703	Product containing trazodone hydrochloride 50 mg/1 each oral capsule
-^ESCTPR609807	Product containing nefazodone hydrochloride 100 mg/1 each oral tablet
-^ESCTPR609810	Product containing nefazodone hydrochloride 200 mg/1 each oral tablet
-^ESCTPR641326	Product containing nefazodone hydrochloride 50 mg/1 each oral tablet
-^ESCTPR641329	Product containing nefazodone hydrochloride 150 mg/1 each oral tablet
-^ESCTPR641331	Product containing nefazodone hydrochloride 250 mg/1 each oral tablet
-^ESCTPR641363	Product containing trazodone hydrochloride 50 mg/1 each oral tablet
-^ESCTPR641365	Product containing trazodone hydrochloride 100 mg/1 each oral tablet
-^ESCTPR641369	Product containing trazodone hydrochloride 300 mg/1 each oral tablet
-^ESCTPR683023	Product containing nefazodone hydrochloride 300 mg/1 each oral tablet
-^ESCTTR261676	Trazodone
-^ESCTTR345776	Trazodone hydrochloride
-^ESCTTR609695	Trazodone 150mg tablets
-^ESCTTR609697	Trazodone hydrochloride 150 mg oral tablet
-^ESCTTR609698	Trazodone 100mg capsules
-^ESCTTR609699	Trazodone hydrochloride 100 mg/1 each oral capsule
-^ESCTTR609701	Trazodone 50mg capsules
-^ESCTTR609702	Trazodone hydrochloride 50 mg/1 each oral capsule
-^ESCTTR637218	Trazodone
-^ESCTTR641362	Trazodone hydrochloride 50 mg oral tablet
-^ESCTTR641364	Trazodone hydrochloride 100 mg oral tablet
-^ESCTTR641368	Trazodone hydrochloride 300 mg oral tablet
-^ESCTTR729765	Trazodone hydrochloride 300mg extended release tablet
-^ESCTTR730576	Trazodone hydrochloride 150mg extended release tablet
-^ESCTTR865497	Trazodone 50mg/5ml oral solution sugar free
-^ESCTTR870912	Trazodone 150mg modified-release tablets
-DUTA26639EMIS	Dutonin  Tablets  100 mg
-DUTA26640EMIS	Dutonin  Tablets  200 mg
-DUTA31429EMIS	Dutonin  Tablets (starter pack)  14 x 50 mg, 14 x 100 mg, 28 x 200 mg
-MOCA1869	Molipaxin  Capsules  50 mg
-MOCA3965	Molipaxin  Capsules  100 mg
-MOLI1870	Molipaxin  Liquid  50 mg/5 ml
-MOM/19682EMIS	Molipaxin  M/R tablets  150 mg
-MOTA3966	Molipaxin  Tablets  150 mg
-NETA26643EMIS	Nefazodone Hydrochloride  Tablets  100 mg
-NETA26644EMIS	Nefazodone Hydrochloride  Tablets  200 mg
-NETA31431EMIS	Nefazodone Hydrochloride  Tablets (starter pack)  14 x 50 mg, 14 x 100 mg, 28 x 200 mg
-TRCA2900	Trazodone Hydrochloride  Capsules  50 mg
-TRCA5464	Trazodone Hydrochloride  Capsules  100 mg
-TRLI2901	Trazodone Hydrochloride  Oral Solution, Sugar Free  50 mg/5 ml
-TRM/19684EMIS	Trazodone Hydrochloride  M/R tablets  150 mg
-TRTA135916NEMIS	Trazodone Hydrochloride  Tablets  50 mg
-TRTA135919NEMIS	Trazodone Hydrochloride  Tablets  100 mg
-TRTA5465	Trazodone Hydrochloride  Tablets  150 mg
-^ESCT1215711	Generic Dutonin tablets treatment initiation pack
-^ESCT1356028	Nefazodone only product
-^ESCT1359328	Nefazodone only product in oral dose form
-^ESCTDU854859	Dutonin 100mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
-^ESCTDU854864	Dutonin 200mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
-^ESCTDU865710	Dutonin 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
-^ESCTDU865711	Dutonin 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 14 tablet
-^ESCTDU865713	Dutonin 100mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 14 tablet
-^ESCTDU865715	Dutonin 200mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 28 tablet
-^ESCTDU865719	Dutonin tablets treatment initiation pack (Bristol-Myers Squibb Pharmaceuticals Ltd) 56 tablet 1 x (14tabs + 14tabs + 28tabs)
-^ESCTDU914949	Dutonin
-^ESCTGE609812	Generic Dutonin tablets treatment initiation pack
-^ESCTGE865716	Generic Dutonin tablets treatment initiation pack 56 tablet
-^ESCTNE609813	Nefazodone hydrochloride 50mg+100mg+200mg initiation tablet pack
-^ESCTNE682657	Nefazodone hydrochloride
-^ESCTNE836599	Nefazodone 200mg tablets 56 tablet
-^ESCTNE847321	Nefazodone 100mg tablets 56 tablet
-^ESCTNE865709	Nefazodone 50mg tablets 14 tablet
-^ESCTNE865712	Nefazodone 100mg tablets 14 tablet
-^ESCTNE865714	Nefazodone 200mg tablets 28 tablet
-^ESCTNE940196	Nefazodone 100mg tablets 1 tablet
-^ESCTNE940197	Nefazodone 100mg tablets (Special Order)
-^ESCTNE940198	Nefazodone 100mg tablets (Special Order) 1 tablet
-^ESCTNE940237	Nefazodone 200mg tablets 1 tablet
-^ESCTNE940238	Nefazodone 200mg tablets (Special Order)
-^ESCTNE940239	Nefazodone 200mg tablets (Special Order) 1 tablet
-^ESCTPR682658	Product containing nefazodone hydrochloride
 ^ESCT1174795	Trazodone 50mg/5ml oral solution sugar free (Creo Pharma Ltd)
 ^ESCT1174796	Trazodone 50mg/5ml oral solution sugar free (Creo Pharma Ltd) 120 ml
 ^ESCT1176671	Trazodone 100mg/5ml oral solution sugar free 120 ml
@@ -146,20 +8,38 @@ TRTA5465	Trazodone Hydrochloride  Tablets  150 mg
 ^ESCT1176767	Trazodone 100mg/5ml oral solution sugar free
 ^ESCT1177606	Trazodone 100mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
 ^ESCT1177607	Trazodone 100mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 120 ml
+^ESCT1178178	Product containing only trazodone hydrochloride 50 mg/1 each oral capsule
 ^ESCT1179264	Trazodone 100mg capsules (Mylan) 56 capsule 4 x 14 capsules
+^ESCT1181102	Product containing only trazodone hydrochloride 100 mg/1 each oral capsule
+^ESCT1181391	Product containing only trazodone hydrochloride 150 mg/1 each oral tablet
 ^ESCT1183473	Trazodone 50mg capsules (Mylan) 84 capsule 6 x 14 capsules
 ^ESCT1183731	Trazodone 150mg tablets (Mylan)
+^ESCT1185387	Product containing only trazodone hydrochloride 50 mg/1 each oral tablet
+^ESCT1185388	Product containing only trazodone hydrochloride 100 mg/1 each oral tablet
 ^ESCT1185728	Trazodone 150mg tablets (Mylan) 28 tablet 2 x 14 tablets
 ^ESCT1185951	Trazodone 50mg capsules (Mylan)
 ^ESCT1186379	Trazodone 100mg capsules (Mylan)
+^ESCT1188478	Product containing only trazodone hydrochloride 300 mg/1 each oral tablet
 ^ESCT1193928	Trazodone 150mg tablets (Accord Healthcare Ltd)
 ^ESCT1193929	Trazodone 150mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCT1207248	Trazodone in oral dosage form
+^ESCT1207249	Product containing trazodone in oral dosage form
 ^ESCT1213874	Trazodone 100mg capsules (Dawa Ltd)
 ^ESCT1213876	Trazodone 100mg capsules (Dawa Ltd) 56 capsule
 ^ESCT1213879	Trazodone 50mg capsules (Dawa Ltd)
 ^ESCT1213881	Trazodone 50mg capsules (Dawa Ltd) 84 capsule
 ^ESCT1216158	Trazodone 50mg/5ml oral solution sugar free (Accord Healthcare Ltd)
 ^ESCT1216159	Trazodone 50mg/5ml oral solution sugar free (Accord Healthcare Ltd) 120 ml
+^ESCT1216755	Trazodone
+^ESCT1216756	Trazodone product
+^ESCT1223547	Product containing precisely trazodone hydrochloride 150 milligram/1 each conventional release oral tablet
+^ESCT1223548	Trazodone hydrochloride 100 mg oral capsule
+^ESCT1223549	Product containing precisely trazodone hydrochloride 100 milligram/1 each conventional release oral capsule
+^ESCT1223550	Trazodone hydrochloride 50 mg oral capsule
+^ESCT1223551	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral capsule
+^ESCT1228719	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1228720	Product containing precisely trazodone hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1228724	Product containing precisely trazodone hydrochloride 300 milligram/1 each conventional release oral tablet
 ^ESCT1237595	Trazodone 50mg capsules (Actavis UK Ltd) 84 capsule
 ^ESCT1237596	Trazodone 100mg capsules (Actavis UK Ltd) 56 capsule
 ^ESCT1237597	Trazodone 150mg tablets (Actavis UK Ltd) 28 tablet
@@ -211,17 +91,25 @@ TRTA5465	Trazodone Hydrochloride  Tablets  150 mg
 ^ESCT1300947	Trazodone 150mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
 ^ESCT1301149	Trazodone 100mg/5ml oral solution sugar free (DE Pharmaceuticals)
 ^ESCT1301150	Trazodone 100mg/5ml oral solution sugar free (DE Pharmaceuticals) 120 ml
+^ESCT1301176	Trazodone 50mg tablets
+^ESCT1301177	Trazodone 100mg tablets
 ^ESCT1357037	Trazodone only product
 ^ESCT1360093	Trazodone only product in oral dose form
+^ESCT1384172	Trazodone hydrochloride 300 mg prolonged-release oral tablet
+^ESCT1384181	Trazodone hydrochloride 150 mg prolonged-release oral tablet
+^ESCT1386665	Trazodone-containing product in oral dose form
 ^ESCT1411025	Trazodone 50mg capsules (Accord Healthcare Ltd)
 ^ESCT1411026	Trazodone 50mg capsules (Accord Healthcare Ltd) 84 capsule
 ^ESCT1411027	Trazodone 100mg capsules (Accord Healthcare Ltd)
 ^ESCT1411028	Trazodone 100mg capsules (Accord Healthcare Ltd) 56 capsule
 ^ESCT1418329	Trazodone 100mg tablets (A A H Pharmaceuticals Ltd)
 ^ESCT1418330	Trazodone 100mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCT1421584	Molipaxin 150mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421659	Molipaxin 100mg capsules (Zentiva Pharma UK Ltd)
 ^ESCT1421664	Trazodone 150mg tablets (Zentiva Pharma UK Ltd)
 ^ESCT1421669	Trazodone 100mg capsules (Zentiva Pharma UK Ltd)
 ^ESCT1421676	Trazodone 50mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1421702	Molipaxin 50mg capsules (Zentiva Pharma UK Ltd)
 ^ESCT1421915	Molipaxin 50mg capsules (Zentiva Pharma UK Ltd) 84 capsule 6 x 14 capsules
 ^ESCT1421916	Trazodone 50mg capsules (Zentiva Pharma UK Ltd) 84 capsule 6 x 14 capsules
 ^ESCT1421917	Molipaxin 100mg capsules (Zentiva Pharma UK Ltd) 56 capsule 4 x 14 capsules
@@ -252,13 +140,25 @@ TRTA5465	Trazodone Hydrochloride  Tablets  150 mg
 ^ESCT1437310	Trazodone 50mg capsules (Viatris UK Healthcare Ltd) 84 capsule 6 x 14 capsules
 ^ESCT1437311	Trazodone 100mg capsules (Viatris UK Healthcare Ltd) 56 capsule 4 x 14 capsules
 ^ESCT1437442	Trazodone 150mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTMO797054	Molipaxin 150mg tablets (Zentiva)
+^ESCTMO802355	Molipaxin 100mg capsules (Zentiva)
+^ESCTMO812072	Molipaxin 50mg capsules (Zentiva)
 ^ESCTMO851425	Molipaxin 50mg capsules (Zentiva) 84 capsule 6 x 14 capsules
 ^ESCTMO851432	Molipaxin 100mg capsules (Zentiva) 56 capsule 4 x 14 capsules
 ^ESCTMO855847	Molipaxin 150mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTMO865467	Molipaxin 50mg/5ml oral liquid (Sanofi)
 ^ESCTMO865472	Molipaxin 50mg/5ml oral liquid (Sanofi) 120 ml
+^ESCTMO870851	Molipaxin CR 150mg tablets (Aventis Pharma)
 ^ESCTMO870852	Molipaxin CR 150mg tablets (Aventis Pharma) 28 tablet
 ^ESCTMO918692	Molipaxin CR
 ^ESCTMO919115	Molipaxin
+^ESCTPR261677	Product containing trazodone
+^ESCTPR609696	Product containing trazodone hydrochloride 150 mg/1 each oral tablet
+^ESCTPR609700	Product containing trazodone hydrochloride 100 mg/1 each oral capsule
+^ESCTPR609703	Product containing trazodone hydrochloride 50 mg/1 each oral capsule
+^ESCTPR641363	Product containing trazodone hydrochloride 50 mg/1 each oral tablet
+^ESCTPR641365	Product containing trazodone hydrochloride 100 mg/1 each oral tablet
+^ESCTPR641369	Product containing trazodone hydrochloride 300 mg/1 each oral tablet
 ^ESCTTR1005385	Trazodone 50mg capsules (Phoenix Healthcare Distribution Ltd)
 ^ESCTTR1005391	Trazodone 50mg capsules (Phoenix Healthcare Distribution Ltd) 84 capsule
 ^ESCTTR1005392	Trazodone 100mg capsules (Phoenix Healthcare Distribution Ltd)
@@ -311,7 +211,19 @@ TRTA5465	Trazodone Hydrochloride  Tablets  150 mg
 ^ESCTTR1119863	Trazodone 100mg capsules (DE Pharmaceuticals) 56 capsule
 ^ESCTTR1119864	Trazodone 150mg tablets (DE Pharmaceuticals)
 ^ESCTTR1119865	Trazodone 150mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTTR261676	Trazodone
+^ESCTTR609695	Trazodone 150mg tablets
+^ESCTTR609697	Trazodone hydrochloride 150 mg oral tablet
+^ESCTTR609698	Trazodone 100mg capsules
+^ESCTTR609699	Trazodone hydrochloride 100 mg/1 each oral capsule
+^ESCTTR609701	Trazodone 50mg capsules
+^ESCTTR609702	Trazodone hydrochloride 50 mg/1 each oral capsule
 ^ESCTTR609704	Trazodone hydrochloride 50mg/5mL liquid
+^ESCTTR641362	Trazodone hydrochloride 50 mg oral tablet
+^ESCTTR641364	Trazodone hydrochloride 100 mg oral tablet
+^ESCTTR641368	Trazodone hydrochloride 300 mg oral tablet
+^ESCTTR729765	Trazodone hydrochloride 300mg extended release tablet
+^ESCTTR730576	Trazodone hydrochloride 150mg extended release tablet
 ^ESCTTR803614	Trazodone 150mg tablets (Kent Pharmaceuticals Ltd)
 ^ESCTTR803773	Trazodone 150mg tablets (Zentiva)
 ^ESCTTR804479	Trazodone 100mg capsules (Alliance Healthcare (Distribution) Ltd)
@@ -352,7 +264,9 @@ TRTA5465	Trazodone Hydrochloride  Tablets  150 mg
 ^ESCTTR855852	Trazodone 150mg tablets (Zentiva) 28 tablet 2 x 14 tablets
 ^ESCTTR855853	Trazodone 150mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
 ^ESCTTR865466	Trazodone 50mg/5ml oral solution sugar free 120 ml
+^ESCTTR865497	Trazodone 50mg/5ml oral solution sugar free
 ^ESCTTR870850	Trazodone 150mg modified-release tablets 28 tablet
+^ESCTTR870912	Trazodone 150mg modified-release tablets
 ^ESCTTR916634	Trazodone 50mg capsules (IVAX Pharmaceuticals UK Ltd)
 ^ESCTTR916636	Trazodone 50mg capsules (IVAX Pharmaceuticals UK Ltd) 84 capsule 7 x 12 capsules
 ^ESCTTR916638	Trazodone 100mg capsules (IVAX Pharmaceuticals UK Ltd)
@@ -423,24 +337,36 @@ TRTA5465	Trazodone Hydrochloride  Tablets  150 mg
 ^ESCTTR989841	Trazodone 100mg capsules (Actavis UK Ltd) 56 capsule 4 x 14 capsules
 ^ESCTTR989842	Trazodone 150mg tablets (Actavis UK Ltd)
 ^ESCTTR989843	Trazodone 150mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
-TRCA37278MGEMIS	Trazodone Hydrochloride Capsules 50 mg (Winthrop Pharmaceuticals )
-TRCA37279MGEMIS	Trazodone Hydrochloride Capsules 50 mg (Generics (UK))
-TRCA37280MGEMIS	Trazodone Hydrochloride Capsules 50 mg (Kent Pharm)
-TRCA37281MGEMIS	Trazodone Hydrochloride Capsules 50 mg (Unichem)
-TRCA37282MGEMIS	Trazodone Hydrochloride Capsules 50 mg (Teva UK)
-TRCA37283MGEMIS	Trazodone Hydrochloride Capsules 50 mg (A.A.H. Pharm)
-TRCA37284MGEMIS	Trazodone Hydrochloride Capsules 50 mg (Ivax Pharmaceuticals)
-TRCA37290MGEMIS	Trazodone Hydrochloride Capsules 100 mg (Unichem)
-TRCA37291MGEMIS	Trazodone Hydrochloride Capsules 100 mg (Winthrop Pharmaceuticals )
-TRCA37292MGEMIS	Trazodone Hydrochloride Capsules 100 mg (A.A.H. Pharm)
-TRCA37293MGEMIS	Trazodone Hydrochloride Capsules 100 mg (Kent Pharm)
-TRCA37294MGEMIS	Trazodone Hydrochloride Capsules 100 mg (Teva UK)
-TRCA37295MGEMIS	Trazodone Hydrochloride Capsules 100 mg (Generics (UK))
-TRCA37296MGEMIS	Trazodone Hydrochloride Capsules 100 mg (Ivax Pharmaceuticals)
-TROR125688NEMIS	Trazodone Hydrochloride Oral Solution, Sugar Free 100 mg/5 ml
-TRTA37345MGEMIS	Trazodone Hydrochloride Tablets 150 mg (Kent Pharm)
-TRTA37346MGEMIS	Trazodone Hydrochloride Tablets 150 mg (Winthrop Pharmaceuticals )
-TRTA37347MGEMIS	Trazodone Hydrochloride Tablets 150 mg (Generics (UK))
-TRTA37348MGEMIS	Trazodone Hydrochloride Tablets 150 mg (Unichem)
-TRTA37349MGEMIS	Trazodone Hydrochloride Tablets 150 mg (Teva UK)
-TRTA37350MGEMIS	Trazodone Hydrochloride Tablets 150 mg (A.A.H. Pharm)
+MOCA1869	Molipaxin  Capsules  50 mg
+MOCA3965	Molipaxin  Capsules  100 mg
+MOLI1870	Molipaxin  Liquid  50 mg/5 ml
+MOM/19682EMIS	Molipaxin  M/R tablets  150 mg
+MOTA3966	Molipaxin  Tablets  150 mg
+TRCA2900	Trazodone Hydrochloride  Capsules  50 mg
+TRCA37278MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (Winthrop Pharmaceuticals )
+TRCA37279MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (Generics (UK))
+TRCA37280MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (Kent Pharm)
+TRCA37281MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (Unichem)
+TRCA37282MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (Teva UK)
+TRCA37283MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (A.A.H. Pharm)
+TRCA37284MGEMIS	Trazodone Hydrochloride  Capsules  50 mg (Ivax Pharmaceuticals)
+TRCA37290MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (Unichem)
+TRCA37291MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (Winthrop Pharmaceuticals )
+TRCA37292MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (A.A.H. Pharm)
+TRCA37293MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (Kent Pharm)
+TRCA37294MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (Teva UK)
+TRCA37295MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (Generics (UK))
+TRCA37296MGEMIS	Trazodone Hydrochloride  Capsules  100 mg (Ivax Pharmaceuticals)
+TRCA5464	Trazodone Hydrochloride  Capsules  100 mg
+TRLI2901	Trazodone Hydrochloride  Oral Solution, Sugar Free  50 mg/5 ml
+TRM/19684EMIS	Trazodone Hydrochloride  M/R tablets  150 mg
+TROR125688NEMIS	Trazodone Hydrochloride  Oral Solution, Sugar Free  100 mg/5 ml
+TRTA135916NEMIS	Trazodone Hydrochloride  Tablets  50 mg
+TRTA135919NEMIS	Trazodone Hydrochloride  Tablets  100 mg
+TRTA37345MGEMIS	Trazodone Hydrochloride  Tablets  150 mg (Kent Pharm)
+TRTA37346MGEMIS	Trazodone Hydrochloride  Tablets  150 mg (Winthrop Pharmaceuticals )
+TRTA37347MGEMIS	Trazodone Hydrochloride  Tablets  150 mg (Generics (UK))
+TRTA37348MGEMIS	Trazodone Hydrochloride  Tablets  150 mg (Unichem)
+TRTA37349MGEMIS	Trazodone Hydrochloride  Tablets  150 mg (Teva UK)
+TRTA37350MGEMIS	Trazodone Hydrochloride  Tablets  150 mg (A.A.H. Pharm)
+TRTA5465	Trazodone Hydrochloride  Tablets  150 mg
