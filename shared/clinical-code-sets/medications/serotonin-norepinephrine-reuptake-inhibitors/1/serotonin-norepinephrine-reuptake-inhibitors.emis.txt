@@ -176,8 +176,8 @@ DUGA105986NEMIS	Duciltia Gastro-resistant Capsules 30 mg
 DUGA105987NEMIS	Duciltia Gastro-resistant Capsules 60 mg
 DUGA131626NEMIS	Dutor Gastro-resistant Capsules 30 mg
 DUGA131627NEMIS	Dutor Gastro-resistant Capsules 60 mg
-DUGA140220NEMIS	NULL
-DUGA140224NEMIS	NULL
+DUGA140220NEMIS	Duloxetine Gastro-resistant Capsules  90 mg
+DUGA140224NEMIS	Duloxetine Gastro-resistant Capsules  120 mg
 ^ESCT1172622	Depalta
 ^ESCT1173688	Duloxetine 20mg gastro-resistant capsules (Wockhardt UK Ltd)
 ^ESCT1173689	Duloxetine 20mg gastro-resistant capsules (Wockhardt UK Ltd) 28 capsule 4 x 7 capsules
@@ -798,8 +798,8 @@ VEM/47156NEMIS	Venlaneo Xl M/R capsules 75 mg
 VEM/48724NEMIS	Venlalic Xl M/R tablets 37.5 mg
 VEM/86017NEMIS	Venlafaxine M/R capsules 37.5 mg
 VEM/86018NEMIS	Venlablue Xl M/R capsules 37.5 mg
-VEOR140460NEMIS	NULL
-VEOR140461NEMIS	NULL
+VEOR140460NEMIS	Venlafaxine Oral Solution, Sugar Free  37.5 mg/5 ml
+VEOR140461NEMIS	Venlafaxine Oral Solution, Sugar Free  75 mg/5 ml
 VEOR29840NEMIS	Venlafaxine Oral suspension 37.5 mg/5 ml
 VEOR35744NEMIS	Venlafaxine Oral solution 75 mg/5 ml
 VEOR46826NEMIS	Venlafaxine Oral solution 37.5 mg/5 ml
