@@ -56,23 +56,42 @@ WHERE ROWNUM = 1
 
 -- RX OF MEDS SINCE 01.03.18 FOR COHORT, WITH CONCEPT AND DESCRIPTION
 
+
+IF OBJECT_ID('tempdb..#meds_deduped') IS NOT NULL DROP TABLE #meds_deduped;
+SELECT 
+	 m.FK_Patient_Link_ID,
+	 m.SuppliedCode,
+	 m.FK_Reference_SnomedCT_ID,
+	 m.FK_Reference_Coding_ID,
+	 Quantity,
+	 CAST(MedicationDate AS DATE) as PrescriptionDate
+INTO #meds_deduped
+FROM SharedCare.GP_Medications m
+WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	AND m.MedicationDate BETWEEN @StartDate AND @EndDate
+	AND (
+		m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1 WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio','glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis')))
+		OR
+		m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1 WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio','glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis')))
+		)
+GROUP BY m.FK_Patient_Link_ID,
+	 m.SuppliedCode,
+	 m.FK_Reference_SnomedCT_ID,
+	 m.FK_Reference_Coding_ID,
+	 Quantity,
+	 CAST(MedicationDate AS DATE)
+
 IF OBJECT_ID('tempdb..#meds') IS NOT NULL DROP TABLE #meds;
 SELECT 
 	 m.FK_Patient_Link_ID,
-	 CAST(MedicationDate AS DATE) as PrescriptionDate,
+	 PrescriptionDate,
 	 [concept] = CASE WHEN s.[concept] IS NOT NULL THEN s.[concept] ELSE c.[concept] END,
 	 Quantity,
 	 [description] = CASE WHEN s.[description] IS NOT NULL THEN s.[description] ELSE c.[description] END
 INTO #meds
-FROM SharedCare.GP_Medications m
+FROM #meds_deduped m
 LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSets_1 c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
-WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-	AND m.MedicationDate BETWEEN @StartDate and @EndDate
-	AND (m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1 WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio','glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis'))) OR
-		m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1 WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio','glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis'))))
-	AND UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
-	AND RepeatMedicationFlag = 'N' 				-- exclude duplicate prescriptions 
 
 -- Produce final table of all medication prescriptions for main and matched cohort
 SELECT	 

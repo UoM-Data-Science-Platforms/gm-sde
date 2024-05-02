@@ -1609,6 +1609,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-06-28 | EMIS            | 2664831    |   259198 (9.73%) |  269103 (10.10%)  |
 | 2022-06-28 | TPP             | 212907     |   26115 (12.27%) |    20152 (9.47%)  |
 | 2022-06-28 | Vision          | 343146     |   34874 (10.16%) |    33414 (9.74%)  |
+| 2024-04-29 | EMIS | 2530242 | 285100 (11.3%) | 192696 (7.62%) | 
+| 2024-04-29 | TPP | 201774 | 27026 (13.4%) | 26559 (13.2%) | 
+| 2024-04-29 | Vision | 335373 | 40709 (12.1%) | 28150 (8.39%) | 
 LINK: [https://github.com/rw251/.../medications/hormone-replacement-therapy-meds/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/hormone-replacement-therapy-meds/1)
 
 ### Female sex hormones medications
@@ -1641,7 +1644,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-07-11 | EMIS            | 2664831    |   252718 (9.48%) |   263048 (9.87%)  |
 | 2022-07-11 | TPP             | 212907     |   25361 (11.91%) |   26008 (12.22%)  |
 | 2022-07-11 | Vision          | 343146     |    34128 (9.95%) |   35227 (10.27%)  |
-
+| 2024-04-30 | EMIS | 2530927 | 279172 (11%) | 279172 (11%) | 
+| 2024-04-30 | TPP | 201816 | 26343 (13.1%) | 26343 (13.1%) | 
+| 2024-04-30 | Vision | 335411 | 39856 (11.9%) | 39856 (11.9%) | 
 
 LINK: [https://github.com/rw251/.../medications/female-sex-hormones/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/female-sex-hormones/1)
 
@@ -1687,23 +1692,27 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2023-03-22 | EMIS | 2444244 | 106 (0.00%) | 106 (0.00%) | 
 | 2023-03-22 | TPP | 199056 | 4 (0.00%) | 4 (0.00%) | 
 | 2023-03-22 | Vision | 328968 | 15 (0.00%) | 15 (0.00%) | 
-
+| 2024-04-29 | EMIS | 2530242 | 130 (0.00514%) | 130 (0.00514%) | 
+| 2024-04-29 | TPP | 201774 | 4 (0.00198%) | 4 (0.00198%) | 
+| 2024-04-29 | Vision | 335373 | 20 (0.00596%) | 20 (0.00596%) | 
 
 LINK: [https://github.com/rw251/.../medications/anabolic-steroids/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/anabolic-steroids/1)
 
 ### Statins
 
-This code set was based on the list of statins provided here: https://www.opencodelists.org/codelist/opensafely/statin-medication/2020-04-20/#full-list
+This code set was based on the 'statins prescribable within general practice' list from NHS refsets: https://nhs-drug-refset.pages.dev/
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `9.89% - 10.86%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `16.8% - 20.4%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2022-04-04 | EMIS            | 2659647    |  269007 (10.11%) |   269007 (10.11%) |
 | 2022-04-04 | TPP             |  212621    |   23123 (10.86%) |    23123 (10.86%) |
 | 2022-04-04 | Vision          |  341774    |    33781 (9.89%) |     33781 (9.89%) |
-
+| 2024-04-30 | EMIS | 2530927 | 425554 (16.8%) | 425194 (16.8%) | 
+| 2024-04-30 | TPP | 201816 | 41150 (20.4%) | 41148 (20.4%) | 
+| 2024-04-30 | Vision | 335411 | 57413 (17.1%) | 57380 (17.1%) | 
 LINK: [https://github.com/rw251/.../medications/statins/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/statins/1)
 
 ### ACE Inhibitors
@@ -1711,6 +1720,8 @@ LINK: [https://github.com/rw251/.../medications/statins/1](https://github.com/rw
 This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
 
 **_NB this code set is for ACE inhibitors AND angiotensin receptor blockers (ARBs). If you just want ACEIs please use v2._**
+
+** UPDATE (April 2024) - extra codes have now been added from the 'Angiotensin II receptor antagonists prescribable within general practice' and 'Angiotensin-converting enzyme inhibitors prescribable within general practice' code lists at https://nhs-drug-refset.pages.dev/.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.36% - 13.02%` suggests that this code set is well defined.
@@ -1720,7 +1731,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-07 | EMIS            | 2605681    |  321934 (12.36%) |   321952 (12.36%) |
 | 2021-05-07 | TPP             | 210817     |   27450 (13.02%) |    27450 (13.02%) |
 | 2021-05-07 | Vision          | 334632     |   41775 (12.48%) |    41775 (12.48%) |
-
+| 2024-04-29 | EMIS | 2530927 | 313827 (12.4%) | 313827 (12.4%) | 
+| 2024-04-29 | TPP | 201816 | 31325 (15.5%) | 31325 (15.5%) | 
+| 2024-04-29 | Vision | 335411 | 41534 (12.4%) | 41534 (12.4%) | 
 LINK: [https://github.com/rw251/.../medications/ace-inhibitor/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/ace-inhibitor/1)
 
 ### Aspirin
@@ -1728,14 +1741,16 @@ LINK: [https://github.com/rw251/.../medications/ace-inhibitor/1](https://github.
 This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `8.45% - 8.76%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `8.22% - 10.1%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-05-07 | EMIS            | 2605681    |   228074 (8.75%) |    228315 (8.76%) |
 | 2021-05-07 | TPP             | 210817     |    18418 (8.74%) |     18418 (8.74%) |
 | 2021-05-07 | Vision          | 334632     |    28276 (8.45%) |     28276 (8.45%) |
-
+| 2024-04-30 | EMIS | 2530927 | 208033 (8.22%) | 208033 (8.22%) | 
+| 2024-04-30 | TPP | 201816 | 20322 (10.1%) | 20322 (10.1%) | 
+| 2024-04-30 | Vision | 335411 | 26899 (8.02%) | 26899 (8.02%) | 
 LINK: [https://github.com/rw251/.../medications/aspirin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/aspirin/1)
 
 ### Clopidogrel
@@ -1750,7 +1765,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-07 | EMIS            | 2605681    |    72859 (2.80%) |     72859 (2.80%) |
 | 2021-05-07 | TPP             | 210817     |     5515 (2.62%) |      5515 (2.62%) |
 | 2021-05-07 | Vision          | 334632     |     9568 (2.86%) |      9568 (2.86%) |
-
+| 2024-04-26 | EMIS | 2530666 | 71321 (2.82%) | 71321 (2.82%) | 
+| 2024-04-26 | TPP | 201812 | 6441 (3.19%) | 6441 (3.19%) | 
+| 2024-04-26 | Vision | 335433 | 9699 (2.89%) | 9699 (2.89%) | 
 LINK: [https://github.com/rw251/.../medications/clopidogrel/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/clopidogrel/1)
 
 ### SGLT2 inhibitors (gliflozins)
@@ -1775,6 +1792,9 @@ _Update **2024-03-06**: Prevalence is now in the range `2.2% - 2.4%`._
 | 2024-03-06 | EMIS            | 2525894    |    56629 (2.24%) |     56634 (2.24%) |
 | 2024-03-06 | TPP             | 201753     |     4879 (2.42%) |      4880 (2.42%) |
 | 2024-03-06 | Vision          | 335117     |     7604 (2.27%) |      7605 (2.27%) |
+| 2024-04-26 | EMIS | 2530666 | 58361 (2.31%) | 58361 (2.31%) | 
+| 2024-04-26 | TPP | 201812 | 5032 (2.49%) | 5032 (2.49%) | 
+| 2024-04-26 | Vision | 335433 | 7868 (2.35%) | 7868 (2.35%) | 
 #### Audit log
 
 - Find_missing_codes last run 2024-03-06
@@ -1797,6 +1817,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-02-02 | EMIS            | 2652511    | 1295120 (48.82%) |  1295123 (48.82%) |
 | 2022-02-02 | TPP             | 212213     |  106565 (50.22%) |   106565 (50.22%) |
 | 2022-02-02 | Vision          | 340640     |  156717 (46.01%) |   156717 (46.01%) |
+| 2024-04-26 | EMIS | 2530666 | 1189003 (47%) | 1189004 (47%) | 
+| 2024-04-26 | TPP | 201812 | 109145 (54.1%) | 109145 (54.1%) | 
+| 2024-04-26 | Vision | 335433 | 155663 (46.4%) | 155663 (46.4%) | 
 LINK: [https://github.com/rw251/.../medications/nsaids/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/nsaids/1)
 
 ### HbA1c
