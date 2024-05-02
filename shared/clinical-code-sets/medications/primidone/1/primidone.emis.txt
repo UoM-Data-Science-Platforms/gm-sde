@@ -144,3 +144,4 @@ MYTA4006	Mysoline  Tablets  250 mg
 MYTA47631NEMIS	Mysoline  Tablets  50 mg
 ^ESCTDE646847	Desoxyphenobarbital
 ^ESCTPR646848	Primaclone
+^ESCTMY918924	Mysoline

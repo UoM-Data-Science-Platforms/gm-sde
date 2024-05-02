@@ -71,3 +71,4 @@
 3717611000001103	Tuinal 100mg Pulvules (Special Order) (product)
 3717811000001104	Tuinal 100mg Pulvules (Special Order) 100 capsule (product)
 741901000001102	Tuinal 100mg capsule
+9374201000001104	Tuinal (product)

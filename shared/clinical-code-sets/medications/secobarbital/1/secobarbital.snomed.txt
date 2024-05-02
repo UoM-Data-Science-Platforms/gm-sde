@@ -1,5 +1,4 @@
 42444000	Product containing secobarbital (medicinal product)
-81171006	Secobarbital measurement (procedure)
 321347002	Product containing precisely secobarbital sodium 50 milligram/1 each conventional release oral capsule (clinical drug)
 321357001	Product containing precisely secobarbital sodium 100 milligram/1 each conventional release oral capsule (clinical drug)
 371198000	Amobarbital+secobarbital 100mg/100mg capsule (product)

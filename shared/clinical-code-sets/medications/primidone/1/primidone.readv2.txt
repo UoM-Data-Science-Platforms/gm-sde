@@ -1,3 +1,4 @@
+dna..00	PRIMIDONE
 dna1.00	*MYSOLINE 250mg tablets
 dna2.00	MYSOLINE 250mg/5mL oral suspension
 dna3.00	*MYSOLINE 50mg tablets

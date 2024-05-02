@@ -888,3 +888,9 @@ PHTA2234	Phenobarbitone  Tablets  60 mg
 ^ESCTGA856921	Gardenal Sodium 200mg/1ml solution for injection ampoules (Concord Pharmaceuticals Ltd) 10 ampoule
 ^ESCTGA918826	Gardenal Sodium
 GAIN3629	Gardenal Sodium  Injection  200mg/ml, 1 ml ampoule
+LUTA3855	Luminal  Tablets  15 mg
+LUTA3856	Luminal  Tablets  30 mg
+LUTA3857	Luminal  Tablets  60 mg
+PHTA2231	Phenobarbitone  Tablets  100 mg
+PHTA2235	Phenobarbitone Sodium  Tablets  30 mg
+PHTA2236	Phenobarbitone Sodium  Tablets  60 mg

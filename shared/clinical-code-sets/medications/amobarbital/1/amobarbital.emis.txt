@@ -95,3 +95,20 @@ SOCA2596	Sodium Amytal  Capsules  60 mg
 ^ESCTTU863726	Tuinal 100mg Pulvules (Flynn Pharma Ltd) 100 capsule
 TUCA2972	Tuinal  Capsules  
 AMCA4599	Amylobarbitone Sodium  Capsules  200 mg
+AMIN10052HILLI	Amylobarbitone Sodium  Injection  500 mg/vial
+AMIN4600	Amylobarbitone Sodium  Injection  250 mg
+AMTA152	Amylobarbitone  Tablets  100 mg
+AMTA153	Amylobarbitone  Tablets  15 mg
+AMTA154	Amylobarbitone  Tablets  200 mg
+AMTA155	Amylobarbitone  Tablets  30 mg
+AMTA158	Amytal  Tablets  100 mg
+AMTA160	Amytal  Tablets  200 mg
+AMTA161	Amytal  Tablets  30 mg
+AMTA4601	Amylobarbitone Sodium  Tablets  200 mg
+AMTA7070	Amylobarbitone Sodium  Tablets  60 mg
+AMTAEGTON7178	Amytal  Tablets  15 mg
+SOIN19837EMIS	Sodium Amytal  Injection  500 mg/vial
+SOIN2597	Sodium Amytal  Injection  250 mg
+SOTA2598	Sodium Amytal  Tablets  200 mg
+SOTA2599	Sodium Amytal  Tablets  60 mg
+^ESCTTU916885	Tuinal
