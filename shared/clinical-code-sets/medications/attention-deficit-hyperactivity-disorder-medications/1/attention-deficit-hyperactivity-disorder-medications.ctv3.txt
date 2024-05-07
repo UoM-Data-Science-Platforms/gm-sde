@@ -81,3 +81,39 @@ dw2y.	Atomoxetine 18mg capsule
 dw2y.	Atomoxetine 18mg capsule
 dw2z.	Atomoxetine 10mg capsule
 dw2z.	Atomoxetine 10mg capsule
+dw2..	Atomoxetine
+dw21.	Strattera 10mg capsule
+dw22.	Strattera 18mg capsule
+dw23.	Strattera 25mg capsule
+dw24.	Strattera 40mg capsule
+dw25.	Strattera 60mg capsule
+dw2s.	ATOMOXETINE 4mg/mL oral solution
+dw28.	STRATTERA 4mg/mL oral solution
+dw27.	STRATTERA 100mg capsules
+dw26.	STRATTERA 80mg capsules
+x05ti	Strattera
+dw4..	GUANFACINE
+dw48.	GUANFACINE 4mg m/r tablets
+dw47.	INTUNIV 4mg m/r tablets
+dw46.	GUANFACINE 3mg m/r tablets
+dw45.	INTUNIV 3mg m/r tablets
+dw44.	GUANFACINE 2mg m/r tablets
+dw43.	INTUNIV 2mg m/r tablets
+dw42.	GUANFACINE 1mg m/r tablets
+dw41.	INTUNIV 1mg m/r tablets
+dw3..	LISDEXAMFETAMINE
+dw39.	ELVANSE 60mg capsules
+dw38.	ELVANSE 40mg capsules
+dw37.	ELVANSE 20mg capsules
+dw36.	ELVANSE ADULT 70mg capsules
+dw35.	ELVANSE ADULT 50mg capsules
+dw34.	ELVANSE ADULT 30mg capsules
+dw33.	ELVANSE 70mg capsules
+dw32.	ELVANSE 50mg capsules
+dw31.	ELVANSE 30mg capsules
+dw1..	Methylphenidate
+dw1T.	XENIDATE XL 36mg m/r tablets
+dw1S.	XENIDATE XL 18mg m/r tablets
+dw1R.	MATORIDE XL 54mg m/r tablets
+dw1Q.	MATORIDE XL 36mg m/r tablets
+dw1P.	MATORIDE XL 18mg m/r tablets

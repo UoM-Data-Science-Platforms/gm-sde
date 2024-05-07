@@ -15,6 +15,21 @@ d82z.00	*IPRONIAZID 50mg tablets
 d82y.00	*IPRONIAZID 25mg tablets
 d822.00	*MARSILID 50mg tablets
 d821.00	*MARSILID 25mg tablets
-d811.	NARDIL 15mg tablets
-d81z.	PHENELZINE 15mg tablets
-d84z.	TRANYLCYPROMINE 10mg tablets
+d811.00	NARDIL 15mg tablets
+d81z.00	PHENELZINE 15mg tablets
+d84z.00	TRANYLCYPROMINE 10mg tablets
+d81..00	PHENELZINE
+dq6..00	SELEGILINE
+dq6A.00	ZELAPAR 1.25mg tablets
+dq69.00	*CENTRAPRYL 10 tablets
+dq68.00	*CENTRAPRYL 5 tablets
+dq67.00	*STILLINE 10mg tablets
+dq66.00	*STILLINE 5mg tablets
+dq65.00	*VIVAPRYL 10mg tablets
+dq64.00	*VIVAPRYL 5mg tablets
+dq63.00	*ELDEPRYL 10mg/5mL syrup
+dq62.00	ELDEPRYL 10mg tablets
+dq61.00	ELDEPRYL 5mg tablets
+d84..00	TRANYLCYPROMINE
+d841.00	*PARNATE 10mg tablets
+d915.00	*PARSTELIN tablets
