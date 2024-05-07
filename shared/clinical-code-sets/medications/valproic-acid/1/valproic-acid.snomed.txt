@@ -101,3 +101,5 @@
 476301000001103	Convulex 150mg e/c capsule
 546801000001101	Convulex 300mg e/c capsule
 616501000001102	Convulex 500mg e/c capsule
+134537008	Valproic acid 500mg e/c tablet (substance)
+134538003	Valproic acid 250mg e/c tablet (substance)

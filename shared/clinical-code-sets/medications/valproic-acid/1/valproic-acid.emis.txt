@@ -89,5 +89,10 @@ VAOR116966NEMIS	Valproic Acid  Oral suspension  500 mg/5 ml
 COE/23444EMIS	Convulex  E/c capsules  150 mg
 COE/23445EMIS	Convulex  E/c capsules  300 mg
 COE/23446EMIS	Convulex  E/c capsules  500 mg
-
-
+^ESCTVA450830	Valproic acid 500mg gastro-resistant tablets
+^ESCTVA450831	Valproic acid 500mg e/c tablet
+^ESCTVA450832	Valproic acid 500mg gastro-resistant tablet
+^ESCTVA450833	Valproic acid 250mg gastro-resistant tablets
+^ESCTVA450834	Valproic acid 250mg e/c tablet
+^ESCTVA450835	Valproic acid 250mg gastro-resistant tablet
+^ESCTVA646544	Valproic acid

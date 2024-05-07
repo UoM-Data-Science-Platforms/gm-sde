@@ -579,3 +579,16 @@ TEM/1958NEMIS	Teril Cr  M/R tablets  400 mg
 ^ESCTTE990137	Tegretol 100mg/5ml liquid (Lexon (UK) Ltd) 250 ml
 ^ESCTTE994223	Tegretol Prolonged Release 400mg tablets (Stephar (U.K.) Ltd)
 ^ESCTTE994224	Tegretol Prolonged Release 400mg tablets (Stephar (U.K.) Ltd) 30 tablet
+^ESCTAR913912	Arbil MR
+^ESCTCA914291	Carbagen SR
+^ESCTCA946112	Carbagen
+^ESCTEP915101	Epimaz
+^ESCTEP915103	Epimaz Retard
+^ESCTTE916647	Tegretol
+^ESCTTE916649	Tegretol Chewtabs
+^ESCTTE916651	Tegretol Prolonged Release
+^ESCTTE916652	Tegretol Retard
+^ESCTTE916683	Teril Retard
+TIM/1960NEMIS	Timonil Retard  M/R tablets  200 mg
+TIM/1961NEMIS	Timonil Retard  M/R tablets  400 mg
+^ESCTCA646781	Carbamazepine
