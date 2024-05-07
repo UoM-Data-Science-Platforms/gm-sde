@@ -2,3 +2,31 @@ ASSU51779NEMIS	Asenapine  Sublingual Tablets Sugar Free  5 mg
 ASSU51781NEMIS	Asenapine  Sublingual Tablets Sugar Free  10 mg
 ASSU51779NEMIS	Asenapine  Sublingual Tablets Sugar Free  5 mg
 ASSU51781NEMIS	Asenapine  Sublingual Tablets Sugar Free  10 mg
+^ESCT1183369	Product containing asenapine
+^ESCT1235258	Asenapine
+^ESCT1235259	Asenapine product
+^ESCT1353562	Asenapine only product
+^ESCT1364782	Asenapine-containing product in oromucosal dose form
+^ESCT1365578	Asenapine only product in oromucosal dose form
+^ESCT1384146	Asenapine 5 mg sublingual tablet
+^ESCT1384147	Asenapine 10 mg sublingual tablet
+^ESCT1394465	Asenapine-containing product in transdermal dose form
+^ESCT1394466	Asenapine only product in transdermal dose form
+^ESCT1411457	Sycrest 10mg sublingual tablets (Organon Pharma (UK) Ltd)
+^ESCT1411458	Sycrest 10mg sublingual tablets (Organon Pharma (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCT1411459	Sycrest 5mg sublingual tablets (Organon Pharma (UK) Ltd)
+^ESCT1411460	Sycrest 5mg sublingual tablets (Organon Pharma (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTAS1020578	Asenapine 10mg sublingual tablets sugar free 60 tablet
+^ESCTAS1020581	Asenapine 5mg sublingual tablets sugar free 60 tablet
+^ESCTAS1020631	Asenapine 10mg sublingual tablets sugar free
+^ESCTAS1020632	Asenapine 5mg sublingual tablets sugar free
+^ESCTAS727479	Asenapine 5mg sublingual tablet
+^ESCTAS727646	Asenapine
+^ESCTAS727648	Asenapine 10mg sublingual tablet
+^ESCTSY1020579	Sycrest 10mg sublingual tablets (Lundbeck Ltd)
+^ESCTSY1020580	Sycrest 10mg sublingual tablets (Lundbeck Ltd) 60 tablet 6 x 10 tablets
+^ESCTSY1020582	Sycrest 5mg sublingual tablets (Lundbeck Ltd)
+^ESCTSY1020583	Sycrest 5mg sublingual tablets (Lundbeck Ltd) 60 tablet 6 x 10 tablets
+^ESCTSY935960	Sycrest
+SYSU51783NEMIS	Sycrest  Sublingual tablets  5 mg
+SYSU51784NEMIS	Sycrest  Sublingual tablets  10 mg

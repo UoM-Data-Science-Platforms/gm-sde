@@ -1,0 +1,22 @@
+443268002	Product containing precisely asenapine 5 milligram/1 each conventional release sublingual tablet (clinical drug)
+443374004	Product containing asenapine (medicinal product)
+443376002	Product containing precisely asenapine 10 milligram/1 each conventional release sublingual tablet (clinical drug)
+774652006	Asenapine (product)
+785410009	Product containing asenapine in oromucosal dose form (medicinal product form)
+786108005	Product containing only asenapine in oromucosal dose form (medicinal product form)
+840556003	Product containing asenapine in transdermal dose form (medicinal product form)
+840557007	Product containing only asenapine in transdermal dose form (medicinal product form)
+19504311000001103	Asenapine 10mg sublingual tablets sugar free (product)
+19504411000001105	Asenapine 5mg sublingual tablets sugar free (product)
+19496511000001106	Asenapine 5mg sublingual tablets sugar free 60 tablet (product)
+19496211000001108	Asenapine 10mg sublingual tablets sugar free 60 tablet (product)
+11379001000001101	ASENAPINE
+11379201000001107	ASENAPINE 5mg sublingual tablets
+11379401000001106	ASENAPINE 10mg sublingual tablets
+19496311000001100	Sycrest 10mg sublingual tablets (Organon Pharma (UK) Ltd) (product)
+19496611000001105	Sycrest 5mg sublingual tablets (Organon Pharma (UK) Ltd) (product)
+19496711000001101	Sycrest 5mg sublingual tablets (Organon Pharma (UK) Ltd) 60 tablet 6 x 10 tablets (product)
+19496411000001107	Sycrest 10mg sublingual tablets (Organon Pharma (UK) Ltd) 60 tablet 6 x 10 tablets (product)
+11074201000001109	Sycrest (product)
+11379101000001100	SYCREST 5mg sublingual tablets
+11379301000001103	SYCREST 10mg sublingual tablets

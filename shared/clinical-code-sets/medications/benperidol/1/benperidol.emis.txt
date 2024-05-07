@@ -1,0 +1,41 @@
+^ESCT1178156	Product containing only benperidol 250 microgram/1 each oral tablet
+^ESCT1206508	Benperidol in oral dosage form
+^ESCT1206509	Product containing benperidol in oral dosage form
+^ESCT1223395	Benperidol
+^ESCT1223396	Benperidol product
+^ESCT1223397	Benperidol 250 microgram oral tablet
+^ESCT1223398	Product containing precisely benperidol 250 microgram/1 each conventional release oral tablet
+^ESCT1353696	Benperidol only product
+^ESCT1357634	Benperidol only product in oral dose form
+^ESCT1386311	Benperidol-containing product in oral dose form
+^ESCT1387327	Anquil 250microgram tablets (Neon Healthcare Ltd)
+^ESCT1387328	Anquil 250microgram tablets (Neon Healthcare Ltd) 112 tablet 4 x 28 tablets
+^ESCTAN913857	Anquil
+^ESCTAN918732	Anquil 250microgram tablets (Kyowa Kirin Ltd)
+^ESCTAN918735	Anquil 250microgram tablets (Kyowa Kirin Ltd) 112 tablet 4 x 28 tablets
+^ESCTBE609236	Benperidol
+^ESCTBE609238	Benperidol 250microgram tablets
+^ESCTBE609239	Benperidol 250 microgram/1 each oral tablet
+^ESCTBE863437	Benperidol 250microgram tablets 112 tablet
+^ESCTBE863439	Benperidol 250microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTBE863445	Benperidol 250microgram tablets (A A H Pharmaceuticals Ltd) 112 tablet
+^ESCTBE863450	Benquil 250microgram tablets (Concord Pharmaceuticals Ltd)
+^ESCTBE863452	Benquil 250microgram tablets (Concord Pharmaceuticals Ltd) 112 tablet
+^ESCTBE863453	Benperidol 250microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTBE863456	Benperidol 250microgram tablets (Alliance Healthcare (Distribution) Ltd) 112 tablet 4 x 28 tablets
+^ESCTBE914077	Benquil
+^ESCTBE947663	Benperidol 250micrograms/5ml oral suspension 1 ml
+^ESCTBE947665	Benperidol 250micrograms/5ml oral suspension (Special Order)
+^ESCTBE947667	Benperidol 250micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTBE947669	Benperidol 500micrograms/5ml oral suspension 1 ml
+^ESCTBE947671	Benperidol 500micrograms/5ml oral suspension (Special Order)
+^ESCTBE947673	Benperidol 500micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTBE948371	Benperidol 250micrograms/5ml oral suspension
+^ESCTBE948372	Benperidol 500micrograms/5ml oral suspension
+^ESCTPR609237	Product containing benperidol
+^ESCTPR609240	Product containing benperidol 250 microgram/1 each oral tablet
+ANTA173	Tablets  250 micrograms
+BETA14415NEMIS	Benquil  Tablets  250 micrograms
+BETA33961MGEMIS	Benperidol  Tablets  250 micrograms (A.A.H. Pharm)
+BETA33962MGEMIS	Benperidol  Tablets  250 micrograms (Unichem)
+BETA4628	Benperidol  Tablets  250 micrograms

@@ -1,6 +1,6 @@
-# Asenapine
+# Benperidol
 
-Any prescription of Asenapine. Other names: Sycrest.
+Any prescription of Benperidol. Other names: Anquil/Benquil.
 
 Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
 
@@ -13,9 +13,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-03-24 | EMIS            | 2658708    |     3 (0.00011%) |      3 (0.00011%) |
 | 2022-03-24 | TPP             | 212645     |           0 (0%) |            0 (0%) |
 | 2022-03-24 | Vision          | 341667     |     1 (0.00029%) |      1 (0.00029%) |
-| 2024-05-07 | EMIS            | 2516912    |           2 (0%) |            2 (0%) |
+| 2024-05-07 | EMIS            | 2516912    |    33 (0.00131%) |     33 (0.00131%) |
 | 2024-05-07 | TPP             | 200013     |           0 (0%) |            0 (0%) |
-| 2024-05-07 | Vision          | 334384     |    1 (0.000299%) |     1 (0.000299%) |
+| 2024-05-07 | Vision          | 334384     |     8 (0.00239%) |      8 (0.00239%) |
 
 ## Audit log
 

@@ -1,0 +1,14 @@
+57002000	Product containing chlorprothixene (medicinal product)
+775218006	Chlorprothixene (product)
+39389311000001104	Chlorprothixene 15mg tablets (product)
+39385611000001106	Truxal 15mg tablets (Imported (Denmark)) (product)
+23611711000001105	Chlorprothixene 50mg tablets (product)
+23608211000001105	Truxal 50mg tablets (Imported (Denmark)) (product)
+39385511000001107	Chlorprothixene 15mg tablets 100 tablet (product)
+39385711000001102	Truxal 15mg tablets (Imported (Denmark)) 100 tablet (product)
+875801000001108	Chlorprothixene 15mg tablet
+1952501000001108	Chlorprothixene 50mg tablet
+23608111000001104	Chlorprothixene 50mg tablets 100 tablet (product)
+23608311000001102	Truxal 50mg tablets (Imported (Denmark)) 100 tablet (product)
+1952301000001101	Taractan 15mg tablet
+1952401000001109	Taractan 50mg tablet
