@@ -1,0 +1,11 @@
+^ESCT1223494	Fluspirilene
+^ESCT1223495	Product containing fluspirilene
+^ESCT1223496	Fluspirilene product
+^ESCT1355093	Fluspirilene only product
+^ESCTFL1034598	Fluspirilene 12mg/6ml suspension for injection vials
+^ESCTFL1034599	Fluspirilene 12mg/6ml suspension for injection vials 1 vial
+^ESCTFL609539	Fluspirilene
+^ESCTIM1034600	Imap 12mg/6ml suspension for injection vials (Imported (Belgium))
+^ESCTIM1034601	Imap 12mg/6ml suspension for injection vials (Imported (Belgium)) 1 vial
+FLIN1218	Fluspirilene  Injection  2 mg/ ml
+REIN2439	Redeptin  Injection  2 mg/ ml

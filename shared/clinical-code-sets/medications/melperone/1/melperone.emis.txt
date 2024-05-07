@@ -1,0 +1,49 @@
+^ESCT1174061	Melperone hydrochloride 100mg tablets 1 tablet
+^ESCT1174062	Melperone hydrochloride 100mg tablets (Special Order)
+^ESCT1174063	Melperone hydrochloride 100mg tablets (Special Order) 1 tablet
+^ESCT1235133	Melperone
+^ESCT1235134	Product containing melperone
+^ESCT1235135	Melperone product
+^ESCT1355790	Melperone only product
+^ESCT1402801	Melperone hydrochloride 10mg tablets 25 tablet
+^ESCT1402802	Melperone hydrochloride 10mg tablets 50 tablet
+^ESCT1402803	Melperone hydrochloride 10mg tablets 100 tablet
+^ESCT1402804	Melperone hydrochloride 10mg tablets (Imported (Germany))
+^ESCT1402805	Melperone hydrochloride 10mg tablets (Imported (Germany)) 25 tablet
+^ESCT1402806	Melperone hydrochloride 10mg tablets (Imported (Germany)) 50 tablet
+^ESCT1402807	Melperone hydrochloride 10mg tablets (Imported (Germany)) 100 tablet
+^ESCT1402808	Melperone hydrochloride 25mg tablets (Imported (Germany))
+^ESCT1402809	Melperone hydrochloride 25mg tablets 25 tablet
+^ESCT1402810	Melperone hydrochloride 25mg tablets 50 tablet
+^ESCT1402811	Melperone hydrochloride 25mg tablets 100 tablet
+^ESCT1402812	Melperone hydrochloride 25mg tablets (Imported (Germany)) 25 tablet
+^ESCT1402813	Melperone hydrochloride 25mg tablets (Imported (Germany)) 50 tablet
+^ESCT1402814	Melperone hydrochloride 25mg tablets (Imported (Germany)) 100 tablet
+^ESCT1402815	Melperone hydrochloride 50mg tablets 25 tablet
+^ESCT1402816	Melperone hydrochloride 50mg tablets 50 tablet
+^ESCT1402817	Melperone hydrochloride 50mg tablets 100 tablet
+^ESCT1402818	Melperone hydrochloride 50mg tablets (Imported (Germany))
+^ESCT1402819	Melperone hydrochloride 50mg tablets (Imported (Germany)) 25 tablet
+^ESCT1402820	Melperone hydrochloride 50mg tablets (Imported (Germany)) 50 tablet
+^ESCT1402821	Melperone hydrochloride 50mg tablets (Imported (Germany)) 100 tablet
+^ESCT1402921	Melperone hydrochloride 10mg tablets
+^ESCT1402924	Melperone hydrochloride 100mg tablets (Imported (Germany))
+^ESCT1402925	Melperone hydrochloride 100mg tablets 25 tablet
+^ESCT1402926	Melperone hydrochloride 100mg tablets 100 tablet
+^ESCT1402927	Melperone hydrochloride 100mg tablets (Imported (Germany)) 25 tablet
+^ESCT1402928	Melperone hydrochloride 100mg tablets (Imported (Germany)) 50 tablet
+^ESCT1402929	Melperone hydrochloride 100mg tablets (Imported (Germany)) 100 tablet
+^ESCTME1100221	Melperone hydrochloride 25mg tablets
+^ESCTME1100222	Melperon-ratiopharm 25mg tablets (Imported (Germany))
+^ESCTME1100223	Melperone hydrochloride 25mg tablets 20 tablet
+^ESCTME1100224	Melperon-ratiopharm 25mg tablets (Imported (Germany)) 20 tablet
+^ESCTME1100225	Melperone hydrochloride 50mg tablets
+^ESCTME1100226	Melperon-ratiopharm 50mg tablets (Imported (Germany))
+^ESCTME1100227	Melperone hydrochloride 50mg tablets 20 tablet
+^ESCTME1100228	Melperon-ratiopharm 50mg tablets (Imported (Germany)) 20 tablet
+^ESCTME725565	Melperone
+^ESCTME954386	Melperone hydrochloride 100mg tablets 50 tablet
+^ESCTME954412	Melperone hydrochloride 100mg tablets (Imported (Sweden))
+^ESCTME954414	Melperone hydrochloride 100mg tablets (Imported (Sweden)) 50 tablet
+^ESCTME954471	Melperone hydrochloride 100mg tablets
+META101092NEMIS	Melperone Hydrochloride  Tablets  100 mg

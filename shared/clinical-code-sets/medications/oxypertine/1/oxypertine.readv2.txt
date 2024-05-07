@@ -1,0 +1,5 @@
+d49..00	OXYPERTINE
+d49z.00	*OXYPERTINE 40mg tablets
+d49y.00	*OXYPERTINE 10mg capsules
+d492.00	*INTEGRIN 40mg tablets
+d491.00	*INTEGRIN 10mg capsules

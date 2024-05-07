@@ -1,0 +1,6 @@
+d49..	Oxypertine hydrochloride
+d49y.	Oxypertine 10mg capsule
+d491.	Integrin 10mg capsule
+d49z.	Oxypertine 40mg tablet
+d492.	Integrin 40mg tablet
+x01BZ	Oxypertine

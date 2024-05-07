@@ -1,0 +1,8 @@
+d54..	Fluspirilene
+d546.	Fluspirilene 12mg/6mL injection
+d543.	Redeptin 12mg/6mL injection
+d545.	Fluspirilene 6mg/3mL injection
+d542.	Redeptin 6mg/3mL injection
+d544.	Fluspirilene 2mg/1mL injection
+d541.	Redeptin 2mg/1mL injection
+x02p5	Redeptin
