@@ -547,8 +547,6 @@ d41b.	Largactil 25mg tablet
 d416.	Chloractil 25mg tablet
 d411.	Chlorpromazine hydrochloride 10mg tablet
 d41a.	Largactil 10mg tablet
-o52..	Chlorpromazine hydrochloride [anaesthesia]
-dh2..	Chlorpromazine hydrochloride [nausea] [see dh2..]
 d41..	Chlorpromazine hydrochloride
 d4c..	Pimozide
 d4cz.	Pimozide 10mg tablet
@@ -615,12 +613,6 @@ x02eM	Haldol
 x02je	Modecate Concentrate
 x02jd	Modecate
 x02jf	Moditen
-h8A..	NATALIZUMAB
-h8Az.	NATALIZUMAB 300mg/15mL solution for injection
-h8A1.	TYSABRI 300mg/15mL solution for injection
-h8P..	VEDOLIZUMAB
-h8P1.	ENTYVIO 300mg powder for concentrate for soln for infusion
-h8P2.	VEDOLIZUMAB 300mg pdr for concentrate for soln for injection
 x02qq	Serenace
 x03hI	Serdolect
 x02kn	Neulactil Forte
@@ -635,12 +627,6 @@ x02tP	Triptafen-M
 x02tO	Triptafen
 x05Ku	Amisulpride - chemical
 x05Lt	Benperidol - chemical
-X77Wv	Chlorpromazine stimulation test
-dj24.	Diamorphine/cocaine/chlorpromazine elixir
-dj26.	Morphine/cocaine/chlorpromazine elixir
-XaJPR	Clozapine monitoring
-gd6..	Nortriptyline hydrochloride [enuresis - no drugs here]
-XaE6Z	Thioridazine retinopathy
 x02iZ	Melleril
 x03qI	Seroquel
 x02m5	Orap
@@ -660,14 +646,6 @@ dhg2.	VERTIGON 25mg tablets
 x02cz	Fluanxol
 x02pc	Rideril
 x02mx	Parstelin
-d84z.	Tranylcypromine 10mg tablet
-d84z.	Tranylcypromine 10mg tablet
-dw19.	Tranquilyn 5mg tablet
-dw19.	Tranquilyn 5mg tablet
-dw1A.	Tranquilyn 10mg tablet
-dw1A.	Tranquilyn 10mg tablet
-dw1B.	Tranquilyn 20mg tablet
-dw1B.	Tranquilyn 20mg tablet
 d481.	Nozinan 25mg/1mL injection
 d481.	Nozinan 25mg/1mL injection
 d483.	Nozinan 25mg tablet
@@ -682,3 +660,22 @@ d4x2.	ASENAPINE 5mg sublingual tablets
 d4x2.	ASENAPINE 5mg sublingual tablets
 d4x4.	ASENAPINE 10mg sublingual tablets
 d4x4.	ASENAPINE 10mg sublingual tablets
+d4x..	ASENAPINE
+d4x3.	SYCREST 10mg sublingual tablets
+d4x1.	SYCREST 5mg sublingual tablets
+d48..	Levomepromazine
+d482.	Veractil 25mg tablet
+x02lR	Nozinan
+d4y..	LURASIDONE
+d4y5.	LATUDA 74mg tablets
+d4y3.	LATUDA 37mg tablets
+d4y1.	LATUDA 18.5mg tablets
+d4y6.	LURASIDONE 74mg tablets
+d4y4.	LURASIDONE 37mg tablets
+d4y2.	LURASIDONE 18.5mg tablets
+d4m..	Remoxipride hydrochloride
+d4m1.	Remoxipride hydrochloride 150mg m/r capsule
+d4m3.	Roxiam 150mg m/r capsule
+d4m2.	Remoxipride hydrochloride 300mg m/r capsule
+d4m4.	Roxiam 300mg m/r capsule
+x01Ba	Remoxipride

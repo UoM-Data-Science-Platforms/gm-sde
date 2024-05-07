@@ -532,13 +532,11 @@ dhe4.00	STEMETIL 12.5mg/1mL injection
 dhe3.00	STEMETIL 5mg/5mL syrup
 dhe2.00	*STEMETIL 25mg tablets
 dhe1.00	STEMETIL 5mg tablets
-dh2..00	CHLORPROMAZINE HCL [NAUSEA] [see dh2..]
 o58..00	*PERPHENAZINE [ANAESTHESIA]
 o58z.00	PERPHENAZINE 5mg/1mL injection
 o581.00	*FENTAZIN 5mg/1mL injection
 o54..00	*DROPERIDOL [ANAESTHESIA]
 o541.00	*DROLEPTAN 10mg injection
-o52..00	CHLORPROMAZINE HYDROCHLORIDE [ANAESTHESIA]
 o52z.00	CHLORPROMAZINE 50mg/2mL injection
 o52y.00	CHLORPROMAZINE 25mg/1mL injection
 o522.00	LARGACTIL 50mg injection
@@ -551,30 +549,42 @@ da1y.11	FLUPENTHIXOL 500micrograms tablets
 da1y.00	FLUPENTIXOL 500micrograms tablets
 da12.00	FLUANXOL 1mg tablets
 da11.00	FLUANXOL 500micrograms tablets
-h8P..00	VEDOLIZUMAB
-h8P2.00	VEDOLIZUMAB 300mg pdr for concentrate for soln for injection
-h8P1.00	ENTYVIO 300mg powder for concentrate for soln for infusion
-h8A..00	NATALIZUMAB
-h8Az.00	NATALIZUMAB 300mg/15mL solution for injection
-h8A1.00	TYSABRI 300mg/15mL solution for injection
 d917.00	*TRIPTAFEN-M tablets
 d916.00	TRIPTAFEN tablets
 d915.00	*PARSTELIN tablets
 d914.00	*MOTIVAL tablets
 d913.00	*MOTIPRESS tablets x28CP
-dj26.00	MORPHINE/COCAINE/CHLORPROMAZINE elixir
-dj24.00	DIAMORPHINE/COCAINE/CHLORPROMAZINE elixir
 o423.00	THALAMONAL 100micrograms injection
 o42w.00	FENTANYL + DROPERIDOL 100micrograms/5mg injection
 ds1..00	HALOPERIDOL [TICS, CHOREA] [see d47..]
 dhg2.00	VERTIGON 25mg tablets
-d481.	NOZINAN 25mg/1mL injection
-d483.	NOZINAN 25mg tablets
-d48y.	LEVOMEPROMAZINE 25mg/1mL injection
-d48z.	LEVOMEPROMAZINE 25mg tablets
-d4x2.	ASENAPINE 5mg sublingual tablets
-d4x4.	ASENAPINE 10mg sublingual tablets
-d84z.	TRANYLCYPROMINE 10mg tablets
-dw19.	*TRANQUILYN 5mg tablets
-dw1A.	*TRANQUILYN 10mg tablets
-dw1B.	*TRANQUILYN 20mg tablets
+d481.00	NOZINAN 25mg/1mL injection
+d483.00	NOZINAN 25mg tablets
+d48y.00	LEVOMEPROMAZINE 25mg/1mL injection
+d48z.00	LEVOMEPROMAZINE 25mg tablets
+d4x2.00	ASENAPINE 5mg sublingual tablets
+d4x4.00	ASENAPINE 10mg sublingual tablets
+d4x..00	ASENAPINE
+d4x4.00	ASENAPINE 10mg sublingual tablets
+d4x2.00	ASENAPINE 5mg sublingual tablets
+d4x3.00	SYCREST 10mg sublingual tablets
+d4x1.00	SYCREST 5mg sublingual tablets
+d48..00	LEVOMEPROMAZINE
+d48z.00	LEVOMEPROMAZINE 25mg tablets
+d48y.00	LEVOMEPROMAZINE 25mg/1mL injection
+d483.00	NOZINAN 25mg tablets
+d482.00	*VERACTIL 25mg tablets
+d481.00	NOZINAN 25mg/1mL injection
+d4y..00	LURASIDONE
+d4y6.00	LURASIDONE 74mg tablets
+d4y4.00	LURASIDONE 37mg tablets
+d4y2.00	LURASIDONE 18.5mg tablets
+d4y5.00	LATUDA 74mg tablets
+d4y3.00	LATUDA 37mg tablets
+d4y1.00	LATUDA 18.5mg tablets
+dhd..00	*PERPHENAZINE [NO DRUGS HERE]
+d4m..00	REMOXIPRIDE
+d4m4.00	*ROXIAM 300mg m/r capsules
+d4m3.00	*ROXIAM 150mg m/r capsules
+d4m2.00	REMOXIPRIDE 300mg m/r capsules
+d4m1.00	REMOXIPRIDE 150mg m/r capsules
