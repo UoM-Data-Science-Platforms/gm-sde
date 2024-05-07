@@ -1,0 +1,10 @@
+^ESCT1216631	Trifluperidol
+^ESCT1216632	Product containing trifluperidol
+^ESCT1216633	Trifluperidol product
+^ESCT1357060	Trifluperidol only product
+^ESCT1376410	Trifluperidol-containing product
+^ESCTTR258706	Trifluperidol
+TRTA2944	Triperidol  Tablets  1 mg
+TRTA2945	Triperidol  Tablets  500 mcg
+TRTA5473	Trifluperidol  Tablets  1 mg
+TRTA7103	Trifluperidol  Tablets  500 mcg

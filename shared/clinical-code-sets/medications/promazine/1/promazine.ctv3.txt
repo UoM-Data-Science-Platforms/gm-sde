@@ -1,0 +1,15 @@
+d4e..	Promazine hydrochloride
+d4e4.	Promazine hydrochloride 25mg tablet
+d4e5.	Promazine hydrochloride 50mg tablet
+d4e6.	Promazine 12.5mg/5mL syrup
+d4ev.	Promazine hydrochloride 25mg/5mL syrup
+d4ew.	Promazine hydrochloride 50mg/5mL syrup
+d4ex.	Promazine hydrochloride 50mg/5mL suspension
+d4e1.	Sparine 50mg/5mL suspension
+d4ey.	Promazine hydrochloride 50mg/1mL injection
+d4e2.	Sparine 50mg/1mL injection
+d4ez.	Promazine 100mg/2mL injection
+d4e3.	Sparine 100mg/2mL injection
+x01BX	Promazine
+x02Ad	Promazine hydrochloride 50mg/5mL s/f syrup
+x02rK	Sparine

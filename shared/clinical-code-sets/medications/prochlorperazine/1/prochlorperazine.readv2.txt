@@ -1,0 +1,27 @@
+d4d..00	PROCHLORPERAZINE [antipsych] [see dhe..]
+dhe..00	PROCHLORPERAZINE [NAUSEA]
+dhez.00	PROCHLORPERAZINE 15mg m/r capsules
+dhey.00	PROCHLORPERAZINE 10mg m/r capsules
+dhex.00	PROCHLORPERAZINE 25mg suppositories
+dhew.00	PROCHLORPERAZINE 5mg suppositories
+dhev.00	PROCHLORPERAZINE 25mg/2mL injection
+dheu.00	PROCHLORPERAZINE 12.5mg/1mL injection
+dhet.00	PROCHLORPERAZINE 5mg/5mL syrup
+dhes.00	*PROCHLORPERAZINE 25mg tablets
+dher.00	PROCHLORPERAZINE 5mg tablets
+dhed.00	PROCHLORPERAZINE 3mg bucc.tabs
+dhec.00	PROCHLORPERAZINE 5mg/sachet granules
+dheb.00	STEMETIL EFF 5mg/sachet granules
+dhea.00	BUCCASTEM 3mg buccal tablets
+dheB.00	BUCCASTEM M 3mg buccal tablets
+dheA.00	*PROZIERE 5mg tablets
+dhe9.00	*VERTIGON 15mg m/r capsules
+dhe8.00	*VERTIGON 10mg m/r capsules
+dhe7.00	*STEMETIL 25mg suppositories
+dhe6.00	*STEMETIL 5mg suppositories
+dhe5.00	*STEMETIL 25mg/2mL injection
+dhe4.00	STEMETIL 12.5mg/1mL injection
+dhe3.00	STEMETIL 5mg/5mL syrup
+dhe2.00	*STEMETIL 25mg tablets
+dhe1.00	STEMETIL 5mg tablets
+dhg2.00	VERTIGON 25mg tablets

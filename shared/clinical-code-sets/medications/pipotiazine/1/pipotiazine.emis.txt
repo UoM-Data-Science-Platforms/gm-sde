@@ -1,0 +1,47 @@
+^ESCT1178537	Product containing pipothiazine
+^ESCT1178538	Product containing pipotiazine
+^ESCT1210001	Pipotiazine palmitate 50 mg/mL solution for injection ampoule
+^ESCT1210002	Product containing precisely pipotiazine palmitate 50 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210003	Pipothiazine palmitate 50 mg/mL solution for injection ampule
+^ESCT1210004	Pipotiazine palmitate 100 mg/2 mL solution for injection ampoule
+^ESCT1210005	Product containing precisely pipotiazine palmitate 100 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1210006	Pipothiazine palmitate 100 mg/2 mL solution for injection ampule
+^ESCT1215261	Pipotiazine 100mg/2ml solution for injection ampoules
+^ESCT1215263	Pipotiazine 50mg/1ml solution for injection ampoules
+^ESCT1226773	Pipotiazine
+^ESCT1226774	Pipotiazine product
+^ESCT1226775	Pipothiazine product
+^ESCT1299607	Pipotiazine 100mg/4ml solution for injection ampoules 1 ampoule
+^ESCT1299608	Piportil L4 100mg/4ml solution for injection ampoules (Imported (France))
+^ESCT1299609	Piportil L4 100mg/4ml solution for injection ampoules (Imported (France)) 1 ampoule
+^ESCT1299620	Pipotiazine 100mg/4ml solution for injection ampoules
+^ESCT1351659	Pipotiazine-containing product in parenteral dose form
+^ESCT1351660	Pipothiazine-containing product in parenteral dose form
+^ESCT1356397	Pipotiazine only product
+^ESCT1356398	Pipothiazine only product
+^ESCT1359593	Pipotiazine only product in parenteral dose form
+^ESCT1359594	Pipothiazine only product in parenteral dose form
+^ESCT1361246	Pipotiazine palmitate 50 mg/mL solution for injection
+^ESCT1361247	Pipothiazine palmitate 50 mg/mL solution for injection
+^ESCTPI609545	Pipotiazine 50mg/1ml solution for injection ampoules
+^ESCTPI609546	Pipothiazine palmitate 50mg/1mL oily injection
+^ESCTPI609547	Pipothiazine palmitate 50mg/mL injection solution 1mL ampoule
+^ESCTPI609548	Pipothiazine palmitate 50mg/mL injection solution 1mL ampule
+^ESCTPI609549	Pipotiazine 100mg/2ml solution for injection ampoules
+^ESCTPI609550	Pipothiazine palmitate 100mg/2mL oily injection
+^ESCTPI609551	Pipothiazine palmitate 50mg/mL injection solution 2mL ampoule
+^ESCTPI609552	Pipothiazine palmitate 50mg/mL injection solution 2mL ampule
+^ESCTPI618962	Pipotiazine
+^ESCTPI618963	Pipothiazine
+^ESCTPI864683	Pipotiazine 50mg/1ml solution for injection ampoules 10 ampoule
+^ESCTPI864685	Piportil Depot 50mg/1ml solution for injection ampoules (Sanofi)
+^ESCTPI864687	Piportil Depot 50mg/1ml solution for injection ampoules (Sanofi) 10 ampoule
+^ESCTPI909898	Pipotiazine 100mg/2ml solution for injection ampoules 10 ampoule
+^ESCTPI909899	Piportil Depot 100mg/2ml solution for injection ampoules (Sanofi)
+^ESCTPI909900	Piportil Depot 100mg/2ml solution for injection ampoules (Sanofi) 10 ampoule
+^ESCTPI915636	Piportil Depot
+PIIN17829NEMIS	Pipotiazine  Injection  50 mg/ml, 2 ml ampoule
+PIIN17830NEMIS	Pipotiazine  Injection  50 mg/ml, 1 ml ampoule
+PIIN2270	Piportil Depot  Injection  50 mg/1 ml ampoule
+PIIN27780EMIS	Piportil Depot  Injection  100 mg/2 ml ampoule
+PIIN5296	Pipothiazine Palmitate  Injection  50 mg/1 ml ampoule
