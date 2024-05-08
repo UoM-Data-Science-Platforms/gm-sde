@@ -187,3 +187,4 @@ KEIN6952	Ketamine (As Hydrochloride)  Injection  50 mg
 KEINEGTON6365	Ketalar  Injection  10 mg
 KEINEGTON6366	Ketalar  Injection  100 mg
 KEINEGTON6367	Ketalar  Injection  50 mg
+^ESCTKE918183	Ketalar

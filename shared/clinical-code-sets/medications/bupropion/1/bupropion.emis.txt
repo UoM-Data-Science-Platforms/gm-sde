@@ -80,3 +80,5 @@ MYM/123801NEMIS	Mysimba  M/R tablets  8 mg + 90 mg
 ZYTA4578NEMIS	Zyban  M/R tablets  150 mg
 ^ESCTAM406861	Amfebutamone
 ^ESCTAM611024	Amfebutamone hydrochloride 150mg m/r tablet
+^ESCTMY958492	Mysimba
+^ESCTZY917450	Zyban

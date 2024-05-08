@@ -10,3 +10,4 @@
 ^ESCT1391630	Esketamine only product in nasal dose form
 ESNA136488NEMIS	Esketamine  Nasal spray  28 mg/0.2 ml unit dose
 SPNA136490NEMIS	Spravato  Nasal spray  28 mg/0.2 ml unit dose
+^ESCT1304510	Spravato

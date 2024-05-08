@@ -43,3 +43,4 @@
 ^ESCTVA981820	Valdoxan 25mg tablets (Servier Laboratories Ltd) 28 tablet 2 x 14 tablets
 AGTA36504NEMIS	Agomelatine  Tablets  25 mg
 VATA36507NEMIS	Valdoxan  Tablets  25 mg
+^ESCTVA926284	Valdoxan

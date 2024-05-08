@@ -8,3 +8,4 @@
 38500111000001109	Spravato 28mg/0.2ml nasal spray unit dose (Janssen-Cilag Ltd) 1 unit dose 1 x 0.2ml unit doses (product)
 38500211000001103	Spravato 28mg/0.2ml nasal spray unit dose (Janssen-Cilag Ltd) 2 unit dose 2 x 0.2ml unit doses (product)
 38500311000001106	Spravato 28mg/0.2ml nasal spray unit dose (Janssen-Cilag Ltd) 3 unit dose 3 x 0.2ml unit doses (product)
+226381000001108	Spravato (product)

@@ -31,3 +31,9 @@ L-TA1581	L-Tryptophan  Tablets  500 mg
 OPPO4080	Optimax  Powder  
 OPTA4082	Optimax Wv  Tablets  500 mg
 PATA2151	Pacitron  Tablets  500 mg
+^ESCT1221199	Tryptophan
+^ESCT1221200	Product containing tryptophan
+^ESCTLT415885	L-Tryptophan
+^ESCTOP915337	Optimax
+^ESCTTR415884	Tryptophan
+^ESCTTR415886	Tryptophan product

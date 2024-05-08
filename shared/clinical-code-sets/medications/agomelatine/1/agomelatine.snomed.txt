@@ -38,3 +38,4 @@
 38172511000001102	Valdoxan 25mg tablets (DE Pharmaceuticals) 28 tablet (product)
 37536811000001100	Valdoxan 25mg tablets (CST Pharma Ltd) 28 tablet (product)
 10379401000001104	VALDOXAN 25mg tablets
+10107901000001100	Valdoxan (product)

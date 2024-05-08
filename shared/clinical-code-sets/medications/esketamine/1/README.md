@@ -10,10 +10,10 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-03-28 | EMIS            | 2528013    |           0 (0%) |            0 (0%) |
-| 2024-03-28 | TPP             | 201816     |           0 (0%) |            0 (0%) |
-| 2024-03-28 | Vision          | 335311     |    1 (0.000298%) |     1 (0.000298%) |
+| 2024-05-08 | EMIS            | 2516912    |           0 (0%) |            0 (0%) |
+| 2024-05-08 | TPP             | 200013     |           0 (0%) |            0 (0%) |
+| 2024-05-08 | Vision          | 334384     |    1 (0.000299%) |     1 (0.000299%) |
 
 ## Audit log
 
-- Find_missing_codes last run 2024-03-28
+- Find_missing_codes last run 2024-05-08

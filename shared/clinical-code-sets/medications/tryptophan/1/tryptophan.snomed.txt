@@ -19,3 +19,8 @@
 21757311000001107	Optimax 500mg capsules (Special Order) 84 capsule (product)
 41966711000001106	Optimax 500mg capsules (Esteve Pharmaceuticals Ltd) 84 capsule (product)
 1955101000001106	Pacitron 500mg tablet
+108952000	Product containing tryptophan (medicinal product)
+1076601000001102	Optimax 500mg tablet
+1955001000001105	Optimax 1g/6g powder
+878301000001108	Optimax WV 500mg tablets
+9290301000001100	Optimax (product)

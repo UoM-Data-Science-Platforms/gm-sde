@@ -1,2 +1,4 @@
+du6..	Amfebutamone
 du61.	Zyban 150mg m/r tablet
 du6z.	Bupropion hydrochloride 150mg m/r tablet
+x059G	Zyban

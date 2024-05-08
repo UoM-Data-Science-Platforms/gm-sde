@@ -167,3 +167,4 @@
 11424611000001102	Ketamin 100mg/2ml solution for injection ampoules (DeltaSelect GmbH) (product)
 10637911000001108	Ketamin 10 Curamed 50mg/5ml solution for injection ampoules (CuraMED Pharma GmbH) 10 ampoule (product)
 11424711000001106	Ketamin 100mg/2ml solution for injection ampoules (DeltaSelect GmbH) 10 ampoule (product)
+9452701000001108	Ketalar (product)

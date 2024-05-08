@@ -55,3 +55,5 @@
 1923111000001106	Zyban 150mg modified-release tablets (GlaxoSmithKline) 60 tablet 6 x 10 tablets (product)
 5606611000001102	Zyban 150mg modified-release tablets (PI) (Dowelhurst Ltd) 100 tablet 10 x 10 tablets (product)
 3765001000001101	Zyban 150mg m/r tablet
+9403101000001108	Zyban (product)
+13055901000001106	Mysimba (product)
