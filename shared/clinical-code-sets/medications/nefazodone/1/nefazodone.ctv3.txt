@@ -1,0 +1,8 @@
+da8..	Nefazodone
+da85.	Nefazodone hydrochloride 50mg+100mg+200mg initiation tablet pack
+da86.	Dutonin 50mg+100mg+200mg treatment initiation tablet pack
+da82.	Nefazodone hydrochloride 200mg tablet
+da84.	Dutonin 200mg tablet
+da81.	Nefazodone hydrochloride 100mg tablet
+da83.	Dutonin 100mg tablet
+x02an	Dutonin

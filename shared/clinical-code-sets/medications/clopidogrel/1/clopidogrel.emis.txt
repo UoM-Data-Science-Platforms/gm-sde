@@ -4,3 +4,94 @@ GRTA38472NEMIS	Grepid  Tablets  75 mg
 PLTA30107NEMIS	Plavix  Tablets  300 mg
 PLTA34066EMIS	Plavix  Tablets  75 mg
 CLOR78956NEMIS	Clopidogrel  Oral solution  75 mg/5 ml
+^ESCT1178107	Product containing only clopidogrel 75 mg/1 each oral tablet
+^ESCT1184404	Clopidogrel 75mg tablets (Mylan)
+^ESCT1185105	Product containing only clopidogrel 300 mg/1 each oral tablet
+^ESCT1223141	Product containing precisely clopidogrel bisulfate 75 milligram/1 each conventional release oral tablet
+^ESCT1223142	Clopidogrel bisulfate 75 mg oral tablet
+^ESCT1234790	Product containing precisely clopidogrel (as clopidogrel bisulfate) 300 milligram/1 each conventional release oral tablet
+^ESCT1234791	Clopidogrel (as clopidogrel bisulfate) 300 mg oral tablet
+^ESCT1259617	Clopidogrel 75mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259834	Clopidogrel 5mg/5ml oral solution (Special Order)
+^ESCT1259924	Clopidogrel 5mg/5ml oral solution
+^ESCT1384919	Clopidogrel-containing product in oral dose form
+^ESCT1422612	Clopidogrel 75mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1424742	Clopidogrel 75mg tablets
+^ESCT1427243	Grepid 75mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427654	Clopidogrel 75mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1438187	Clopidogrel 75mg tablets (Viatris UK Healthcare Ltd)
+^ESCTCL1002510	Clopidogrel 75mg tablets (Dexcel-Pharma Ltd)
+^ESCTCL1005368	Clopidogrel 75mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCL1007045	Clopidogrel 75mg tablets (Aspire Pharma Ltd)
+^ESCTCL1008663	Clopidogrel 75mg tablets (Necessity Supplies Ltd)
+^ESCTCL1011005	Clopidogrel 75mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTCL1011676	Clopidogrel 75mg tablets (Wockhardt UK Ltd)
+^ESCTCL1013254	Clopidogrel 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCL1013441	Clopidogrel 1mg/ml oral suspension (Drug Tariff Special Order)
+^ESCTCL1013516	Clopidogrel 1mg/ml oral suspension
+^ESCTCL1040205	Clopidogrel 75mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCL1042868	Clopidogrel 75mg tablets (Waymade Healthcare Plc)
+^ESCTCL1045779	Clopidogrel 75mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTCL1046608	Clopidogrel 4mg oral powder sachets (Special Order)
+^ESCTCL1046681	Clopidogrel 4mg oral powder sachets
+^ESCTCL1047229	Clopidogrel 75mg/5ml oral solution
+^ESCTCL1049873	Clopidogrel 75mg tablets (Zentiva)
+^ESCTCL1061740	Clopidogrel 75mg tablets (Milpharm Ltd)
+^ESCTCL1063184	Clopidogrel 75mg tablets (Sandoz Ltd)
+^ESCTCL1098899	Clopidogrel 75mg tablets (Accord Healthcare Ltd)
+^ESCTCL1104216	Clopidogrel 5mg oral powder sachets (Special Order)
+^ESCTCL1104293	Clopidogrel 5mg oral powder sachets
+^ESCTCL1115953	Clopidogrel 75mg tablets (Macleods Pharma UK Ltd)
+^ESCTCL1119091	Clopidogrel 75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCL1120157	Clopidogrel 75mg tablets (DE Pharmaceuticals)
+^ESCTCL1127212	Clopidogrel 6mg oral powder sachets (Special Order)
+^ESCTCL1127613	Clopidogrel 6mg oral powder sachets
+^ESCTCL1129563	Clopidogrel 3.5mg oral powder sachets (Special Order)
+^ESCTCL1129603	Clopidogrel 3.5mg oral powder sachets
+^ESCTCL1141190	Clopidogrel 6mg/ml oral suspension (Special Order)
+^ESCTCL1141718	Clopidogrel 6mg/ml oral suspension
+^ESCTCL1141780	Clopidogrel 75mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCL1162857	Clopidogrel 7mg/ml oral suspension (Special Order)
+^ESCTCL1162909	Clopidogrel 7mg/ml oral suspension
+^ESCTCL608123	Clopidogrel 75mg tablets
+^ESCTCL608125	Clopidogrel 75 mg oral tablet
+^ESCTCL710501	Clopidogrel 300mg tablets
+^ESCTCL710503	Clopidogrel 300 mg oral tablet
+^ESCTCL771473	Clopidogrel in oral dosage form
+^ESCTCL905887	Clopidogrel 75mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTCL906141	Clopidogrel 75mg/5ml oral suspension
+^ESCTCL909764	Clopidogrel 75mg oral powder sachets (Special Order)
+^ESCTCL909833	Clopidogrel 75mg oral powder sachets
+^ESCTCL929726	Clopidogrel 75mg tablets (Dowelhurst Ltd)
+^ESCTCL929989	Clopidogrel 75mg tablets (Waymade Healthcare Plc)
+^ESCTCL966441	Clopidogrel 75mg tablets (DE Pharmaceuticals)
+^ESCTCL974809	Clopidogrel 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCL986488	Clopidogrel 75mg tablets (Arrow Generics Ltd)
+^ESCTCL986516	Clopidogrel 75mg tablets (Teva UK Ltd)
+^ESCTCL986533	Clopidogrel 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCL986611	Clopidogrel 75mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCL987050	Clopidogrel 75mg tablets (Actavis UK Ltd)
+^ESCTCL987936	Clopidogrel 25mg/5ml oral suspension (Special Order)
+^ESCTCL988060	Clopidogrel 25mg/5ml oral suspension
+^ESCTCL988199	Clopidogrel 11mg oral powder sachets (Special Order)
+^ESCTCL988226	Clopidogrel 11mg oral powder sachets
+^ESCTCL989930	Clopidogrel 75mg tablets (Mylan Ltd)
+^ESCTCL992619	Clopidogrel 75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCL999361	Clopidogrel 75mg tablets (Consilient Health Ltd)
+^ESCTGR986339	Grepid 75mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPL1001206	Plavix 75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPL1003070	Plavix 75mg tablets (Necessity Supplies Ltd)
+^ESCTPL1007212	Plavix 75mg tablets (Lexon (UK) Ltd)
+^ESCTPL817113	Plavix 75mg tablets (Sanofi)
+^ESCTPL878185	Plavix 75mg tablets (Waymade Healthcare Plc)
+^ESCTPL929744	Plavix 75mg tablets (Dowelhurst Ltd)
+^ESCTPL964663	Plavix 300mg tablets (Sanofi)
+^ESCTPL967340	Plavix 75mg tablets (DE Pharmaceuticals)
+^ESCTPL974879	Plavix 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR608124	Product containing clopidogrel 75 mg/1 each oral tablet
+^ESCTPR710502	Product containing clopidogrel 300 mg/1 each oral tablet
+^ESCTPR771474	Product containing clopidogrel in oral dosage form
+CLOR134003NEMIS	Clopidogrel  Oral suspension  25 mg/5 ml
+CLOR48250NEMIS	Clopidogrel  Oral suspension  75 mg/5 ml
+CLOR75772NEMIS	Clopidogrel  Oral suspension  1 mg/ml
+CLOR78950NEMIS	Clopidogrel  Oral powder sachets  4 mg

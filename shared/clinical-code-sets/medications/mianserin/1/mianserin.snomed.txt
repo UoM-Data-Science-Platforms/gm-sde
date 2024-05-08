@@ -91,3 +91,20 @@
 12968211000001102	Mianserin 30mg/5ml oral liquid
 12968411000001103	Mianserin 30mg/5ml oral liquid
 12968611000001100	Mianserin 30mg/5ml oral liquid
+96200003	Product containing mianserin (medicinal product)
+321845004	Product containing mianserin hydrochloride (medicinal product)
+768358007	Product containing mianserin in oral dose form (medicinal product form)
+776779000	Mianserin (product)
+779889005	Product containing only mianserin in oral dose form (medicinal product form)
+42274311000001105	Mianserin 30mg tablets (product)
+42274211000001102	Mianserin 20mg tablets (product)
+42274111000001108	Mianserin 10mg tablets (product)
+596101000001100	Mianserin hydrochloride 10mg tablet - product
+666401000001102	Mianserin hydrochloride 20mg tablet - product
+736501000001101	Mianserin hydrochloride 30mg tablet - product
+433401000001103	Bolvidon 10mg tablet
+502901000001103	Bolvidon 20mg tablet
+572901000001107	Bolvidon 30mg tablet
+600501000001101	Norval 10mg tablet
+670801000001109	Norval 20mg tablet
+740901000001105	Norval 30mg tablet

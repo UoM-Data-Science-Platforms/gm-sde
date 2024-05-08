@@ -1,0 +1,121 @@
+^ESCTAC534768	Acantholytic squamous cell carcinoma of skin
+^ESCTAC668933	Acantholytic squamous cell carcinoma
+^ESCTCA662755	Carcinosarcomatous squamous cell carcinoma
+^ESCTCA668918	Cancer of the scalp, squamous cell
+^ESCTCA668922	Cancer of the forehead, squamous cell
+^ESCTCA698864	Cancer of the bridge of nose, squamous cell
+^ESCTCA699259	Cancer of the back, squamous cell
+^ESCTCA700485	Cancer of skin of neck, squamous cell
+^ESCTCA701612	Cancer of tip of nose, squamous cell
+^ESCTCA702296	Cancer of nasolabial fold, squamous cell
+^ESCTCA703943	Cancer of temple, squamous cell
+^ESCTCI735452	CIN III with early stromal invasion
+^ESCTCL534764	Clear cell squamous cell carcinoma of skin
+^ESCTCO283907	Combined small cell carcinoma
+^ESCTCO283910	Combined small cell-squamous cell carcinoma
+^ESCTCO283911	Combined small cell-adenocarcinoma
+^ESCTCO396160	Condylomatous carcinoma
+^ESCTCU534761	Cutaneous squamous cell carcinoma
+^ESCTDI588753	Disseminated squamous cell carcinoma
+^ESCTEP266364	Epidermoid carcinoma, spindle cell
+^ESCTEP266366	Epidermoid carcinoma - spindle cell
+^ESCTGR735451	Grade III squamous intraepithelial neoplasia with microinvasive squamous cell carcinoma
+^ESCTMA735079	Marjolin's ulcer
+^ESCTME354420	Metastatic squamous cell carcinoma
+^ESCTME662754	Metaplastic squamous cell carcinoma
+^ESCTME668940	Metastatic squamous cell carcinoma
+^ESCTME796977	Metastasis to lymph node from squamous cell carcinoma
+^ESCTMI283909	Mixed small cell carcinoma
+^ESCTNO774503	Nodular basal cell carcinoma of skin
+^ESCTPA312868	Papillary epidermoid carcinoma
+^ESCTPA441239	Papillary squamous cell carcinoma, non-invasive
+^ESCTPA441240	Papillary squamous cell carcinoma in situ
+^ESCTPO356825	Polypoid squamous cell carcinoma
+^ESCTPR723871	Primary squamous cell carcinoma of naris
+^ESCTPR782749	Primary squamous cell carcinoma of ear
+^ESCTPR795694	Primary squamous cell carcinoma of lip
+^ESCTPR801192	Primary squamous cell carcinoma of upper limb
+^ESCTPR802773	Primary squamous cell carcinoma of chest wall
+^ESCTPR807691	Primary squamous cell carcinoma of vermilion border of lip
+^ESCTPR845800	Primary squamous cell carcinoma of left ear
+^ESCTPR845804	Primary squamous cell carcinoma of skin of left lower limb
+^ESCTPR845815	Primary squamous cell carcinoma of right ear
+^ESCTPR845820	Primary squamous cell carcinoma of skin of right lower limb
+^ESCTPS534767	Pseudosarcoma of skin
+^ESCTPS668568	Psoralen and long-wave ultraviolet radiation (PUVA) therapy-associated squamous cell carcinoma
+^ESCTPS668569	Psoralen and long-wave ultraviolet radiation therapy-associated squamous cell carcinoma
+^ESCTPS796178	Pseudovascular squamous cell carcinoma
+^ESCTPU668567	PUVA therapy-associated squamous cell carcinoma
+^ESCTRE778099	Recurrent squamous cell carcinoma
+^ESCTRE778100	Recurrent SCC (squamous cell carcinoma)
+^ESCTSC296473	SCC - Squamous cell carcinoma
+^ESCTSC396161	SCC - Verrucous squamous cell carcinoma
+^ESCTSC534760	SCC - Cutaneous squamous cell carcinoma
+^ESCTSC534762	SCC - Squamous cell carcinoma of skin
+^ESCTSC534765	SCC - Clear cell squamous cell carcinoma of skin
+^ESCTSC534769	SCC - Acantholytic squamous cell carcinoma of skin
+^ESCTSC535562	SCC - Squamous cell carcinoma of lip
+^ESCTSI668936	Signet ring squamous cell carcinoma
+^ESCTSM283908	Small cell-large cell carcinoma
+^ESCTSP534763	Spinous cell carcinoma
+^ESCTSP534766	Spindle cell squamous carcinoma of skin
+^ESCTSQ266363	Squamous cell carcinoma, spindle cell
+^ESCTSQ266365	Squamous cell carcinoma, sarcomatoid
+^ESCTSQ266367	Squamous cell carcinoma - spindle cell
+^ESCTSQ269861	Squamous cell carcinoma, microinvasive
+^ESCTSQ296469	Squamous cell carcinoma
+^ESCTSQ296470	Squamous carcinoma
+^ESCTSQ296471	Squamous cell epithelioma
+^ESCTSQ296474	Squamous cell carcinoma, no ICD-O subtype
+^ESCTSQ296475	Squamous cell carcinoma, no International Classification of Diseases for Oncology subtype
+^ESCTSQ354419	Squamous cell carcinoma, metastatic
+^ESCTSQ441214	Squamous cell carcinoma with horn formation
+^ESCTSQ441216	Squamous cell carcinoma, clear cell type
+^ESCTSQ502810	Squamous cell carcinoma of eyelid
+^ESCTSQ535561	Squamous cell carcinoma of lip
+^ESCTSQ559155	Squamous cell carcinoma of scrotum
+^ESCTSQ569969	Squamous cell carcinoma of skin of upper lip
+^ESCTSQ569970	Squamous cell carcinoma of skin of lower lip
+^ESCTSQ569971	Squamous cell carcinoma of skin of cheek
+^ESCTSQ662373	Squamous cell carcinoma in post-traumatic skin lesion
+^ESCTSQ662512	Squamous cell carcinoma, nonkeratinising, differentiated
+^ESCTSQ662513	Squamous cell carcinoma, nonkeratinizing, differentiated
+^ESCTSQ662690	Squamous cell carcinoma, nonkeratinising, mixed differentiated and undifferentiated
+^ESCTSQ662691	Squamous cell carcinoma, nonkeratinizing, mixed differentiated and undifferentiated
+^ESCTSQ663579	Squamous cell carcinoma - category
+^ESCTSQ667033	Squamous cell carcinoma
+^ESCTSQ667034	Squamous cell carcinoma of anogenital area
+^ESCTSQ667035	Squamous cell carcinoma of nail apparatus
+^ESCTSQ668916	Squamous cell carcinoma of vulva due to lichen sclerosus
+^ESCTSQ668917	Squamous cell carcinoma of scalp
+^ESCTSQ668919	Squamous cell carcinoma of skin of face
+^ESCTSQ668920	Squamous cell cancer of skin of face
+^ESCTSQ668921	Squamous cell carcinoma of forehead
+^ESCTSQ668923	Squamous cell carcinoma of skin of ear
+^ESCTSQ668924	Squamous cell cancer of skin of ear
+^ESCTSQ668925	Squamous cell carcinoma of foot
+^ESCTSQ668926	Squamous cell carcinoma of hand
+^ESCTSQ668927	Squamous cell carcinoma of upper extremity
+^ESCTSQ668928	Squamous cell carcinoma of skin of lower extremity
+^ESCTSQ668929	Squamous cell cancer of skin of lower limb
+^ESCTSQ668930	Squamous cell carcinoma of skin of trunk
+^ESCTSQ698863	Squamous cell carcinoma of bridge of nose
+^ESCTSQ699209	Squamous cell carcinoma of chin
+^ESCTSQ699258	Squamous cell carcinoma of back
+^ESCTSQ699403	Squamous cell carcinoma of ala nasi
+^ESCTSQ700484	Squamous cell carcinoma of skin of neck
+^ESCTSQ700875	Squamous cell carcinoma of external auditory canal
+^ESCTSQ701222	Squamous cell carcinoma of auricle of ear
+^ESCTSQ701223	Squamous cell carcinoma of pinna
+^ESCTSQ701224	Squamous cell carcinoma of auricle
+^ESCTSQ701611	Squamous cell carcinoma of tip of nose
+^ESCTSQ702295	Squamous cell carcinoma of nasolabial fold
+^ESCTSQ703942	Squamous cell carcinoma of temple
+^ESCTSQ735080	Squamous cell carcinoma arising in chronic ulcer
+^ESCTSQ736206	Squamous cell carcinoma of nose
+^ESCTSQ736207	Squamous cell carcinoma of shoulder
+^ESCTSQ775025	Squamous cell carcinoma of head and neck
+^ESCTUN737473	Undifferentiated nonkeratinizing squamous cell carcinoma
+^ESCTVE396157	Verrucous squamous cell carcinoma
+^ESCTVE396158	Verrucous epidermoid carcinoma
+^ESCTWA396159	Warty carcinoma

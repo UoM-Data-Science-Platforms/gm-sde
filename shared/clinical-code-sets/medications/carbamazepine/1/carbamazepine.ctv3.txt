@@ -29,3 +29,13 @@ dn3w.	Carbamazepine 250mg suppository
 dn3x.	Carbamazepine 200mg chewable tablet
 dn3y.	Carbamazepine 100mg chewable tablet
 dn3z.	Carbamazepine 100mg/5mL oral liquid
+dn3..	Carbamazepine product
+dn3G.	Timonil Retard 400mg m/r tablet
+dn3F.	Timonil Retard 200mg m/r tablet
+x05cb	Arbil MR
+x02bU	Epimaz
+x04Ox	Timonil Retard
+x04tE	Teril Retard
+x05CD	Carbagen SR
+x02sG	Tegretol
+x02sH	Tegretol Retard

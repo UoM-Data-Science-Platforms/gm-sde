@@ -36,7 +36,7 @@ This project required the following reusable queries:
 - Lower level super output area
 - GET practice and ccg for each patient
 - CCG lookup table
-- Year and quarter month of birth
+- Year, month, week, and day of birth
 - Index Multiple Deprivation
 - Sex
 
@@ -118,16 +118,16 @@ _File_: `query-ccg-lookup.sql`
 _Link_: [https://github.com/rw251/.../query-ccg-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql)
 
 ---
-### Year and quarter month of birth
-To get the year of birth for each patient.
+### Year, month, week, and day of birth
+To get the date of birth for each patient, in various formats.
 
 _Assumptions_
 
-- Patient data is obtained from multiple sources. Where patients have multiple YearAndQuarterMonthOfBirths we determine the YearAndQuarterMonthOfBirth as follows:
-- If the patients has a YearAndQuarterMonthOfBirth in their primary care data feed we use that as most likely to be up to date
-- If every YearAndQuarterMonthOfBirth for a patient is the same, then we use that
-- If there is a single most recently updated YearAndQuarterMonthOfBirth in the database then we use that
-- Otherwise we take the highest YearAndQuarterMonthOfBirth for the patient that is not in the future
+- Patient data is obtained from multiple sources. Where patients have multiple DateOfBirths we determine the DateOfBirth as follows:
+- If the patients has a DateOfBirth in their primary care data feed we use that as most likely to be up to date
+- If every DateOfBirth for a patient is the same, then we use that
+- If there is a single most recently updated DateOfBirth in the database then we use that
+- Otherwise we take the highest DateOfBirth for the patient that is not in the future
 
 _Input_
 ```
@@ -139,13 +139,17 @@ Assumes there exists a temp table as follows:
 _Output_
 ```
 A temp table as follows:
- #PatientYearAndQuarterMonthOfBirth (FK_Patient_Link_ID, YearAndQuarterMonthOfBirth)
+ #PatientWeekOfBirth (FK_Patient_Link_ID, WeekOfBirth)
  	- FK_Patient_Link_ID - unique patient id
-	- YearAndQuarterMonthOfBirth - (YYYY-MM-01)
+  - DateOfBirthPID (yyyy-mm-dd)  **not to be provided to study teams
+  - DayOfBirth (dd) (1 to 31)
+	- WeekOfBirth (ww) (1 to 52)
+  - MonthOfBirth (mm) (1 to 12)
+  - YearOfBirth (yyyy)
 ```
-_File_: `query-patient-year-and-quarter-month-of-birth.sql`
+_File_: `query-patient-date-of-birth.sql`
 
-_Link_: [https://github.com/rw251/.../query-patient-year-and-quarter-month-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-and-quarter-month-of-birth.sql)
+_Link_: [https://github.com/rw251/.../query-patient-date-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-date-of-birth.sql)
 
 ---
 ### Index Multiple Deprivation
@@ -214,6 +218,9 @@ This project required the following clinical code sets:
 - contraceptives-progesterone-only v1
 - polycystic-ovarian-syndrome v1
 - hormone-replacement-therapy-meds v1
+- subcutaneous-squamous-cell-carcinoma v1
+- basal-cell-carcinoma v1
+- malignant-melanoma v1
 - smoking-status-current v1
 - smoking-status-currently-not v1
 - smoking-status-ex v1
@@ -246,24 +253,24 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-11-29 | EMIS            | 2435334    |  400305 (16.4%)  |  266578 (10.9%)   |
 | 2022-11-29 | TPP             | 198557     |   30248 (15.2%)  |   20248 (10.1%)   |
 | 2022-11-29 | Vision          | 326778     |   61828 (18.9%)  |   49780 (15.2%)   |
+| 2023-10-09 | EMIS            | 2464992    |  421529 (17.1%)  |  414325 (16.8%)   |
+| 2023-10-09 | TPP             | 200426     |   32335 (16.1%)  |    18717 (9.3%)   |
+| 2023-10-09 | Vision          | 331938     |   64774 (19.5%)  |   64270 (19.4%)   |
 LINK: [https://github.com/rw251/.../conditions/skin-cancer/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/skin-cancer/1)
 
 ### Gynaecological cancer related codes
 
-Developed from https://getset.ga.
+Developed from https://getset.ga and https://www.bgcs.org.uk/wp-content/uploads/2019/05/BAGP-SNOMED-CT-all-code-list-for-gynaecological-neoplasms.pdf
 
-Please note that these codes are not stricly about gynaecological cancer diagnosis but any codes related to gynaecological cancer. 
-
-This list was reviewed by RQ047 team.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `8.2% - 14.6%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.7% - 1.8%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-11-29 | EMIS            | 2435334    |  260581 (10.7%)  |  253827 (10.4%)   |
-| 2022-11-29 | TPP             | 198557     |   25985 (13.1%)  |   29003 (14.6%)   |
-| 2022-11-29 | Vision          | 326778     |   27188 (8.3%)   |    27005 (8.2%)   |
+| 2023-10-12 | EMIS            | 2470460    |    48650 (1.9%)  |    18311 (0.7%)   |
+| 2023-10-12 | TPP             | 200512     |     5555 (2.7%)  |     3714 (1.8%)   |
+| 2023-10-12 | Vision          | 332318     |     6337 (1.9%)  |     2612 (0.8%)   |
 LINK: [https://github.com/rw251/.../conditions/gynaecological-cancer/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/gynaecological-cancer/1)
 
 ### Immunosuppression
@@ -410,6 +417,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-10-13 | EMIS            | 2629848    |    37029 (1.41%) |     37029 (1.41%) |
 | 2021-10-13 | TPP             | 211812     |     2348 (1.11%) |      2348 (1.11%) |
 | 2021-10-13 | Vision          | 338205     |     3829 (1.13%) |      3829 (1.13%) |
+| 2023-10-09 | EMIS            | 2470638    |    31614 (1.28%) |     31493 (1.27%) |
+| 2023-10-09 | TPP             | 200543     |     2577 (1.28%) |      2575 (1.28%) |
+| 2023-10-09 | Vision          | 332371     |     3502 (1.05%) |      3471 (1.04%) |
 
 LINK: [https://github.com/rw251/.../conditions/polycystic-ovarian-syndrome/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/polycystic-ovarian-syndrome/1)
 
@@ -427,36 +437,177 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-06-28 | Vision          | 343146     |   34874 (10.16%) |    33414 (9.74%)  |
 LINK: [https://github.com/rw251/.../medications/hormone-replacement-therapy-meds/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/hormone-replacement-therapy-meds/1)
 
+### Subcutaneous squamous cell carcinoma
+
+Code set for patients with a diagnosis of SCC.
+
+SNOMED codes provided by RQ047 (Lai)
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions.
+Here is a log for this code set. The prevalence range (% - %)
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------- | ----------------- |
+| 2024-04-08 | EMIS | 2528955 | 8532 (0.337%) | 8532 (0.337%) | 
+| 2024-04-08 | TPP | 201791 | 636 (0.315%) | 636 (0.315%) | 
+| 2024-04-08 | Vision | 335318 | 1039 (0.31%) | 1038 (0.31%) | 
+LINK: [https://github.com/rw251/.../conditions/subcutaneous-squamous-cell-carcinoma/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/subcutaneous-squamous-cell-carcinoma/1)
+
+### Basal cell carcinoma
+
+Code set for patients with a diagnosis of BCC.
+
+Codes retrieved manually from GMCR using any mention of 'basal cell carcinoma'
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions.
+Here is a log for this code set. The prevalence range (1.41% - 1.79%)
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------- | ----------------- |
+| 2024-04-19 | EMIS | 2529782 | 35602 (1.41%) | 35601 (1.41%) | 
+| 2024-04-19 | TPP | 201840 | 3623 (1.79%) | 3623 (1.79%) | 
+| 2024-04-19 | Vision | 335411 | 4917 (1.47%) | 4880 (1.45%) | 
+LINK: [https://github.com/rw251/.../conditions/basal-cell-carcinoma/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/basal-cell-carcinoma/1)
+
+### Malignant melanoma
+
+This code set was created manually via the reference coding table in the GMCR, from all IDC10 codes beginning with 'C43'. The SNOMED term browser was also used to find the main term and all of its children.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.25% - 0.28%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-04-19 | EMIS | 2529782 | 6390 (0.253%) | 6389 (0.253%) | 
+| 2024-04-19 | TPP | 201840 | 555 (0.275%) | 555 (0.275%) | 
+| 2024-04-19 | Vision | 335411 | 893 (0.266%) | 893 (0.266%) | 
+LINK: [https://github.com/rw251/.../conditions/malignant-melanoma/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/malignant-melanoma/1)
+
 ### Smoking status current
 
 Any code suggestive that a patient is a current smoker.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `22% - 27%` is sufficiently narrow that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-01-19 | EMIS            | 2519438    |   613314 (24.3%) |    607924 (24.1%) |
+| 2024-01-19 | TPP             | 201469     |    53798 (26.7%) |     53814 (26.7%) |
+| 2024-01-19 | Vision          | 334528     |    74805 (22.4%) |     74677 (22.3%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-current/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-current/1)
 
 ### Smoking status currently not
 
 Any code suggestive that a patient is currently a non-smoker. This is different to the "never smoked" code set.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `17% - 21%` is sufficiently narrow that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-01-19 | EMIS            | 2519438    |   521439 (20.7%) |    521519 (20.7%) |
+| 2024-01-19 | TPP             | 201469     |    37505 (18.6%) |     37506 (18.6%) |
+| 2024-01-19 | Vision          | 334528     |    57671 (17.2%) |     57505 (17.2%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-currently-not/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-currently-not/1)
 
 ### Smoking status ex
 
 Any code suggestive that a patient is an ex-smoker.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `24% - 29%` is sufficiently narrow that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-01-19 | EMIS            | 2519438    |   596405 (23.7%) |    596734 (23.7%) |
+| 2024-01-19 | TPP             | 201469     |    57707 (28.6%) |     57720 (28.6%) |
+| 2024-01-19 | Vision          | 334528     |    80560 (24.1%) |     80597 (24.1%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-ex/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex/1)
 
+### Smoking status ex trivial
+
+Codes showing a patient is currently a non smoker but has been a trivial smoker in the past.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.3% - 1.0%` is sufficiently narrow that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-01-19 | EMIS            | 2519438    |   24616 (0.977%) |    24630 (0.978%) |
+| 2024-01-19 | TPP             | 201469     |     1632 (0.81%) |     1633 (0.811%) |
+| 2024-01-19 | Vision          | 334528     |    1076 (0.322%) |     1076 (0.322%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-ex-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex-trivial/1)
 
 ### Smoking status never
 
 Any code suggestive that a patient has never smoked. This is different to the "currently not" code set.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `51% - 55%` is sufficiently narrow that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-01-19 | EMIS            | 2519438    |  1392255 (55.3%) |   1353278 (53.7%) |
+| 2024-01-19 | TPP             | 201469     |   110979 (55.1%) |      110723 (55%) |
+| 2024-01-19 | Vision          | 334528     |   176702 (52.8%) |    172037 (51.4%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-never/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-never/1)
 
+### Passive smoker
+
+Any code suggesting the patient has been exposed to cigarette smoke passively.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.2% - 1.5%` is sufficiently narrow that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-01-19 | EMIS            | 2519438    |    29106 (1.16%) |     29111 (1.16%) |
+| 2024-01-19 | TPP             | 201469     |     2404 (1.19%) |      2404 (1.19%) |
+| 2024-01-19 | Vision          | 334528     |     4931 (1.47%) |      4931 (1.47%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-passive/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-passive/1)
 
+### Smoking status trivial
+
+Any code suggesting the patient is currently smoking a trivial amount (on average less than 1 per day).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.2% - 1.7%` is sufficiently narrow that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-01-19 | EMIS            | 2519438    |    38988 (1.55%) |     38950 (1.55%) |
+| 2024-01-19 | TPP             | 201469     |     2919 (1.45%) |       2426 (1.2%) |
+| 2024-01-19 | Vision          | 334528     |     5709 (1.71%) |      5708 (1.71%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-trivial/1)
 
@@ -471,6 +622,8 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 **UPDATE** By looking at the prevalence of patients with a BMI code that also has a non-zero value the range becomes `62.48% - 64.93%` which suggests that this code set is well defined.
 
+_Update **2023/11/01**: prevalence now `61.2% - 65.7%` for EMIS and VISION. TPP higher at 73%._
+
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-05-07 | EMIS            | 2605681    | 1709250 (65.60%) |  1709224 (65.60%) |
@@ -479,6 +632,12 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-11 | EMIS            | 2606497    | 1692442 (64.93%) |  1692422 (64.93%) |
 | 2021-05-11 | TPP             | 210810     |  134652 (63.87%) |   134646 (63.87%) |
 | 2021-05-11 | Vision          | 334784     |  209175 (62.48%) |   209175 (62.48%) |
+| 2023-11-01 | EMIS            | 2472595    |  1624196 (65.7%) |   1624289 (65.7%) |
+| 2023-11-01 | TPP             | 200603     |     146449 (73%) |      146448 (73%) |
+| 2023-11-01 | Vision          | 332447     |   203333 (61.2%) |    203347 (61.2%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-01
 
 LINK: [https://github.com/rw251/.../patient/bmi/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2)
 

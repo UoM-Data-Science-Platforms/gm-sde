@@ -5,11 +5,9 @@
 371193009	Primidone product (product)
 371194003	Product containing precisely primidone 50 milligram/1 milliliter conventional release oral suspension (clinical drug)
 375136008	Product containing precisely primidone 50 milligram/1 each conventional release oral tablet (clinical drug)
-387256009	Primidone (substance)
 772701003	Product containing primidone in oral dose form (medicinal product form)
 777315005	Primidone (product)
 780287000	Product containing only primidone in oral dose form (medicinal product form)
-3577211000001109	Primidone (substance)
 42135811000001101	Primidone 250mg tablets (product)
 17637011000001104	Primidone 250mg tablets (Sigma Pharmaceuticals Plc) (product)
 16569011000001109	Primidone 250mg tablets (PI) (Waymade Healthcare Plc) (product)
@@ -140,3 +138,5 @@
 265401000001105	Mysoline 250mg/5mL oral suspension
 668801000001104	Mysoline 250mg tablet
 11000701000001101	MYSOLINE 50mg tablets
+9493501000001101	Mysoline (product)
+911381000001107	Enodama (product)

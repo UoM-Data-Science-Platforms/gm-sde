@@ -11,3 +11,4 @@
 3681311000001105	Soneryl 100mg tablets (Special Order) (product)
 3681411000001103	Soneryl 100mg tablets (Special Order) 56 tablet (product)
 685601000001107	Soneryl 100mg tablet
+9347101000001104	Soneryl (product)

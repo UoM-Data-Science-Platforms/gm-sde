@@ -3,6 +3,7 @@
 --+--------------------------------------------------------------------------------+
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
+-- George Tilston 06/10/23
 
 -- OUTPUT: Data with the following fields
 -- PatientId
@@ -213,7 +214,7 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2011-01-01';
-SET @EndDate = GETDATE();
+SET @EndDate = '2023-09-22';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;

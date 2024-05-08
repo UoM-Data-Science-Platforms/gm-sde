@@ -1,0 +1,15 @@
+da4..00	FLUOXETINE HYDROCHLORIDE
+da4E.00	FLUOXETINE 20mg dispersible tablets
+da4D.00	OLENA 20mg dispersible tablets
+da4C.00	PROZEP 20mg/5mL oral solution
+da4B.00	PROZIT 20mg/5mL oral solution
+da4A.00	RANFLUTIN 20mg capsules
+da49.00	OXACTIN 20mg capsules
+da48.00	*FELICIUM 20mg capsules
+da47.00	*PROZAC 60mg capsules
+da46.00	FLUOXETINE 60mg capsules
+da45.00	PROZAC 20mg capsules
+da44.00	PROZAC 20mg/5mL oral liquid
+da43.00	FLUOXETINE 20mg/5mL oral liquid
+da42.00	*PROZAC 20mg capsules x30
+da41.00	FLUOXETINE 20mg capsules

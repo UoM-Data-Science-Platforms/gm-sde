@@ -1,0 +1,21 @@
+da4..	Fluoxetine hydrochloride
+da4E.	FLUOXETINE 20mg dispersible tablets
+da4D.	OLENA 20mg dispersible tablets
+da41.	Fluoxetine 20mg capsule
+da4A.	Ranflutin 20mg capsule
+da49.	Oxactin 20mg capsule
+da48.	Felicium 20mg capsule
+da45.	Prozac 20mg capsule
+da42.	Prozac 20mg capsules x30
+da43.	Fluoxetine 20mg/5mL oral liquid
+da4C.	PROZEP 20mg/5mL oral solution
+da4B.	Prozit 20mg/5mL oral solution
+da44.	Prozac 20mg/5mL liquid
+da46.	Fluoxetine 60mg capsule
+da47.	Prozac 60mg capsule
+x01Ar	Fluoxetine
+x05pd	Prozit
+x05ZY	Ranflutin
+x02oh	Prozac
+x05JP	Oxactin
+x055r	Felicium

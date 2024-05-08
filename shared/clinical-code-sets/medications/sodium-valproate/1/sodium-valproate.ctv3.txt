@@ -37,3 +37,22 @@ dnbu.	Sodium valproate 400mg injection+diluent
 dnbU.	EPILIM CHRONOSPHERE 1g/sachet m/r granules
 dnbv.	Sodium valproate 100mg crushable tablet
 dnby.	Sodium valproate 200mg/5mL s/f oral liquid
+dnb..	Sodium valproate
+x01Bk	Parenteral sodium valproate
+x01Bj	Oral sodium valproate
+dnbz.	Sodium valproate 200mg/5mL syrup
+dnbx.	Sodium valproate 500mg tablets
+dnbw.	Sodium valproate 200mg crushable tablets
+dnbq.	SODIUM VALPROATE 750mg/sachet m/r granules
+dnbp.	SODIUM VALPROATE 250mg/sachet m/r granules
+dnbo.	SODIUM VALPROATE 100mg/sachet m/r granules
+dnbn.	SODIUM VALPROATE 50mg/sachet m/r granules
+x041D	Epilim Intravenous
+x02bS	Epilim
+x041C	Epilim Chrono 500
+x041B	Epilim Chrono 300
+x041A	Epilim Chrono 200
+x02bT	Epilim Chrono
+x05gO	Epival CR
+dnb9.	Orlept starter Pack 200mg e/c tablets x10
+x02mA	Orlept

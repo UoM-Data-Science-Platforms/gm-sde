@@ -1,0 +1,1458 @@
+75879005	Abdominal migraine
+162040008	Abdominal migraine - symptom
+21522001	Abdominal pain
+162042000	Abdominal wall pain
+57676002	Ache in joint
+162307009	Aching headache
+275318002	Aching leg syndrome
+11939005	Acute arthritis
+278862001	Acute back pain - disc
+278862001	Acute back pain - lumbar
+279035001	Acute back pain - thoracic
+161891005	Acute back pain - unspecified
+247366003	Acute back pain with sciatica
+129131007	Acute infective polyneuritis
+129131007	Acute infective polyneuritis NOS
+193183000	Acute painful diabetic neuropathy
+75822003	Acute polyarticular juvenile rheumatoid arthritis
+7916009	Alcoholic polyneuropathy
+16935003	Allergic arthritis
+16935003	Allergic arthritis NOS
+201972000	Allergic arthritis of multiple sites
+16935003	Allergic arthritis of other specified site
+201970008	Allergic arthritis of the ankle and foot
+16935003	Allergic arthritis of the forearm
+201967009	Allergic arthritis of the hand
+16935003	Allergic arthritis of the lower leg
+201968004	Allergic arthritis of the pelvic region and thigh
+201964002	Allergic arthritis of the shoulder region
+16935003	Allergic arthritis of the upper arm
+16935003	Allergic arthritis of unspecified site
+237876008	Amyloid arthropathy
+398229007	Amyloid polyneuropathy type I
+398229007	Andrade type amyloid polyneuropathy
+239874001	Ankle arthritis NOS
+202318002	Ankle joint ankylosis
+202490009	Ankle joint pain
+239874001	Ankle osteoarthritis NOS
+247373008	Ankle pain
+247373008	Ankle pain
+267954009	Ankle/foot joint pain
+9631008	Ankylosing spondylitis
+267936005	Ankylosis - ankle/foot
+267932007	Ankylosis - elbow joint
+56923001	Ankylosis - hand joint
+267934008	Ankylosis - hip joint
+267935009	Ankylosis - knee joint
+202264009	Ankylosis - multiple joint
+701541000000104	Ankylosis - other joint
+202298000	Ankylosis - shoulder joint
+267933002	Ankylosis - wrist joint
+202315004	Ankylosis of DIP joint
+202313006	Ankylosis of MCP joint
+202321000	Ankylosis of MTP joint
+202314000	Ankylosis of PIP joint
+111227009	Ankylosis of joint
+111227009	Ankylosis of joint NOS
+90242006	Ankylosis of multiple joints
+202310009	Ankylosis of other CMC joint
+302154007	Ankylosis of other joint of the shoulder girdle
+267934008	Ankylosis of other pelvic joint
+267936005	Ankylosis of other tarsal joint
+47049007	Ankylosis of spine NOS
+202311008	Ankylosis of the 1st CMC joint
+202318002	Ankylosis of the ankle joint
+202307002	Ankylosis of the elbow joint
+24273009	Ankylosis of the hip joint
+202309004	Ankylosis of the inferior radio-ulnar joint
+202317007	Ankylosis of the knee joint
+202298000	Ankylosis of the shoulder joint
+202319005	Ankylosis of the subtalar joint
+202308007	Ankylosis of the superior radio-ulnar joint
+202310009	Ankylosis of the wrist joint
+202322007	Ankylosis of toe joint
+47049007	Ankylosis/instability of cervical,thoracic or lumbar spine
+239733006	Anterior knee pain
+239733006	Anterior knee pain
+102556003	Arm pain
+57676002	Arthralgia NOS
+202495004	Arthralgia of 1st MTP joint
+202485006	Arthralgia of DIP joint of finger
+202497007	Arthralgia of IP joint of toe
+202483004	Arthralgia of MCP joint
+202484005	Arthralgia of PIP joint of finger
+202479004	Arthralgia of acromioclavicular joint
+202490009	Arthralgia of ankle
+202481002	Arthralgia of distal radio-ulnar joint
+202480001	Arthralgia of elbow
+49218002	Arthralgia of hip
+30989003	Arthralgia of knee
+202496003	Arthralgia of lesser MTP joint
+35678005	Arthralgia of multiple joints
+57676002	Arthralgia of other specified site
+57676002	Arthralgia of other tarsal joint
+202487003	Arthralgia of sacro-iliac joint
+267949000	Arthralgia of shoulder
+202478007	Arthralgia of sternoclavicular joint
+202491008	Arthralgia of subtalar joint
+202493006	Arthralgia of talonavicular joint
+267954009	Arthralgia of the ankle and foot
+267950000	Arthralgia of the forearm
+202472008	Arthralgia of the hand
+267953003	Arthralgia of the lower leg
+267952008	Arthralgia of the pelvic region and thigh
+267949000	Arthralgia of the shoulder region
+267950000	Arthralgia of the upper arm
+202489000	Arthralgia of tibio-fibular joint
+57676002	Arthralgia of unspecified site
+202482009	Arthralgia of wrist
+3723001	Arthritis
+239821006	Arthritis associated with other disease, 1st MTP joint
+239821006	Arthritis associated with other disease, DIP joint of finger
+239821006	Arthritis associated with other disease, IP joint of toe
+239821006	Arthritis associated with other disease, MCP joint
+239821006	Arthritis associated with other disease, PIP joint of finger
+429459001	Arthritis associated with other disease, acromioclavic joint
+239821006	Arthritis associated with other disease, ankle
+239821006	Arthritis associated with other disease, dist rad-uln joint
+239821006	Arthritis associated with other disease, elbow
+239821006	Arthritis associated with other disease, hip
+201752004	Arthritis associated with other disease, knee
+239821006	Arthritis associated with other disease, lesser MTP joint
+239821006	Arthritis associated with other disease, other tarsal joint
+239821006	Arthritis associated with other disease, sacro-iliac joint
+239821006	Arthritis associated with other disease, shoulder
+239821006	Arthritis associated with other disease, sternoclavic joint
+239821006	Arthritis associated with other disease, subtalar joint
+239821006	Arthritis associated with other disease, talonavicular joint
+239821006	Arthritis associated with other disease, tibio-fibular joint
+239821006	Arthritis associated with other disease, wrist
+19431000	Arthritis due to rubella
+33937009	Arthritis in Lyme disease
+19514005	Arthritis mutilans
+8847002	Arthritis of spine
+274135002	Arthritis/arthrosis
+399269003	Arthropathies NOS
+399269003	Arthropathies and related disorders
+399269003	Arthropathy NOS
+399269003	Arthropathy NOS
+36186002	Arthropathy NOS, of multiple sites
+399269003	Arthropathy NOS, of other specified site
+442246002	Arthropathy NOS, of the ankle and foot
+399269003	Arthropathy NOS, of the forearm
+428360003	Arthropathy NOS, of the hand
+399269003	Arthropathy NOS, of the lower leg
+399269003	Arthropathy NOS, of the pelvic region and thigh
+444003007	Arthropathy NOS, of the shoulder region
+399269003	Arthropathy NOS, of the upper arm
+399269003	Arthropathy NOS, of unspecified site
+201726005	Arthropathy assoc with non-infect gastrointestinal disorders
+201732000	Arthropathy associated with dermatological disorders
+35524003	Arthropathy associated with disorders EC
+35524003	Arthropathy associated with disorders EC NOS
+39710007	Arthropathy associated with endocrine and metabolic disorder
+23961005	Arthropathy associated with haematological disorders
+111214005	Arthropathy associated with mycoses
+111214005	Arthropathy associated with mycoses NOS
+201541008	Arthropathy associated with mycoses, of multiple sites
+111214005	Arthropathy associated with mycoses, of other specified site
+201538004	Arthropathy associated with mycoses, of pelvic region/thigh
+201540009	Arthropathy associated with mycoses, of the ankle and foot
+111214005	Arthropathy associated with mycoses, of the forearm
+201537009	Arthropathy associated with mycoses, of the hand
+111214005	Arthropathy associated with mycoses, of the lower leg
+201534002	Arthropathy associated with mycoses, of the shoulder region
+111214005	Arthropathy associated with mycoses, of the upper arm
+111214005	Arthropathy associated with mycoses, of unspecified site
+111212009	Arthropathy associated with other bacterial disease NOS
+111212009	Arthropathy associated with other bacterial diseases
+35524003	Arthropathy associated with other conditions EC
+239780003	Arthropathy associated with other viral disease NOS
+239780003	Arthropathy associated with other viral diseases
+201733005	Arthropathy associated with respiratory disorders
+111214005	Arthropathy due to fungal infection
+80813006	Arthropathy due to haemophilia
+53338001	Arthropathy due to hypersensitivity reaction
+239782006	Arthropathy due to parasitic infection
+239790006	Arthropathy following intestinal bypass
+62918002	Arthropathy in Behcet's syndrome
+62918002	Arthropathy in Behcet's syndrome NOS
+201492003	Arthropathy in Behcet's syndrome of multiple sites
+62918002	Arthropathy in Behcet's syndrome of other specified sites
+201491005	Arthropathy in Behcet's syndrome of the ankle and foot
+62918002	Arthropathy in Behcet's syndrome of the forearm
+201488005	Arthropathy in Behcet's syndrome of the hand
+62918002	Arthropathy in Behcet's syndrome of the lower leg
+201489002	Arthropathy in Behcet's syndrome of the pelvis/thigh
+201485008	Arthropathy in Behcet's syndrome of the shoulder region
+201485008	Arthropathy in Behcet's syndrome of the upper arm
+62918002	Arthropathy in Behcet's syndrome of unspecified site
+201728006	Arthropathy in Crohn's disease
+1709161000006100	Arthropathy in Cystic Fibrosis
+415141001	Arthropathy in Reiter's disease
+201517005	Arthropathy in Whipple's disease
+201517005	Arthropathy in Whipple's disease
+237876008	Arthropathy in amyloidosis
+526071000000104	Arthropathy in cystic fibrosis
+202046009	Arthropathy in neoplastic disease
+39992005	Arthropathy in nonspecific urethritis
+201727001	Arthropathy in ulcerative colitis
+193185007	Asymptomatic diabetic neuropathy
+202813002	Atlanto-axial ankylosis
+202820009	Atlanto-axial instability
+209560003	Atlanto-axial joint sprain
+202812007	Atlanto-occipital ankylosis
+202819003	Atlanto-occipital instability
+209561004	Atlanto-occipital joint sprain
+56097005	Atypical migraine
+1898101000006106	Axial spondyloarthritis
+723116002	Axial spondyloarthritis
+1672021000006104	Axonal sensorimotor neuropathy
+230657007	Axonal sensorimotor neuropathy
+161891005	Back pain without radiation NOS
+161893008	Back pain worse on sneezing
+161891005	Back pain, unspecified
+281598004	Back sprain NOS
+262995003	Back sprain excluding lumbosacral
+249921008	Back stiffness
+161891005	Backache
+643261000000101	Backache NOS
+161891005	Backache symptom
+161891005	Backache symptom NOS
+161892003	Backache with radiation
+161891005	Backache, unspecified
+83351003	Basilar migraine
+62918002	Behcet's syndrome arthropathy
+162301005	Bilateral headache
+12584003	Bone pain
+939721000006109	Bone pain present
+203508001	Bony pelvic pain
+267977009	Brachial (cervical) neuritis
+9133005	British type amyloid polyneuropathy
+202698007	Brucella spondylitis
+36349006	Burning pain
+272027003	C/O - a headache
+272008009	C/O - a neck symptom
+267104002	C/O - an ache
+272047006	C/O - loin pain
+161894002	C/O - low back pain
+161894002	C/O - lumbar pain
+310484009	C/O - pain in big toe
+310484009	C/O - pain in hallux
+310483003	C/O - pain in toes
+161896000	C/O - upper back ache
+162147009	C/O pelvic pain
+162148004	C/O perineal pain
+267104002	C/O: a pain
+28753006	C1 vertebra closed fracture - no spinal cord lesion
+263188003	C1 vertebra open fracture without spinal cord lesion
+11782000	C2 vertebra closed fracture without spinal cord lesion
+263189006	C2 vertebra open fracture without spinal cord lesion
+111622009	C3 vertebra closed fracture without spinal cord lesion
+269073001	C3 vertebra open fracture without spinal cord lesion
+52622006	C4 vertebra closed fracture without spinal cord lesion
+269074007	C4 vertebra open fracture without spinal cord lesion
+87804006	C5 vertebra closed fracture without spinal cord lesion
+269075008	C5 vertebra open fracture without spinal cord lesion
+8303001	C6 vertebra closed fracture without spinal cord lesion
+269076009	C6 vertebra open fracture without spinal cord lesion
+21573009	C7 vertebra closed fracture without spinal cord lesion
+269077000	C7 vertebra open fracture without spinal cord lesion
+300954003	Calf pain
+1726581000006100	Central post-stroke pain
+277286006	Central post-stroke pain
+118939000	Cervical and neck disorders NOS
+209559008	Cervical anterior longitudinal ligament sprain
+405759003	Cervical cord injury without evidence of spinal bone injury
+405759003	Cervical cord injury without spinal bone injury NOS
+103014001	Cervical root pain
+203980004	Cervical spinal meningocele
+83561009	Cervical spinal stenosis
+83561009	Cervical spinal stenosis secondary to other disease
+202814008	Cervical spine ankylosis
+202821008	Cervical spine instability
+622651000000109	Cervical/neck disorder NOS
+81680005	Cervicalgia - pain in neck
+202815009	Cervico-thoracic ankylosis
+202822001	Cervico-thoracic instability
+359554008	Charcot's arthropathy
+35908007	Chronic arthritis
+1708841000006104	Chronic headache disorder
+278860009	Chronic low back pain
+82423001	Chronic pain
+860381000000107	Chronic pain review
+1841501000006102	Chronic pain review
+193184006	Chronic painful diabetic neuropathy
+84801008	Chronic post-rheumatic arthropathy
+230477005	Chronic post-traumatic headache
+128200000	Chronic regional pain syndrome
+230471006	Chronic tension-type headache
+230462002	Classical migraine
+203509009	Clavicle pain
+77888002	Climacteric arthritis
+77888002	Climacteric arthritis NOS
+201985002	Climacteric arthritis of multiple sites
+77888002	Climacteric arthritis of other specified site
+201983009	Climacteric arthritis of the ankle and foot
+77888002	Climacteric arthritis of the forearm
+201980007	Climacteric arthritis of the hand
+77888002	Climacteric arthritis of the lower leg
+201981006	Climacteric arthritis of the pelvic region and thigh
+201977006	Climacteric arthritis of the shoulder region
+201977006	Climacteric arthritis of the upper arm
+77888002	Climacteric arthritis of unspecified site
+49822004	Closed dislocation of sacroiliac joint
+28753006	Closed fracture of atlas without spinal cord lesion
+11782000	Closed fracture of axis without spinal cord lesion
+269062008	Closed fracture of cervical spine
+269062008	Closed fracture of cervical spine not otherwise specified
+207998001	Closed fracture of cervical spine with cord lesion
+207998001	Closed fracture of cervical spine with cord lesion NOS
+208082008	Closed fracture of coccyx with other spinal cord injury
+208082008	Closed fracture of coccyx with spinal cord lesion
+208082008	Closed fracture of coccyx with spinal cord lesion NOS
+208082008	Closed fracture of coccyx with unspec spinal cord lesion
+208054001	Closed fracture of lumbar spine with spinal cord lesion
+208069000	Closed fracture of sacrum with other spinal cord injury
+208069000	Closed fracture of sacrum with spinal cord lesion
+208069000	Closed fracture of sacrum with spinal cord lesion NOS
+208069000	Closed fracture of sacrum with unspec spinal cord lesion
+269078005	Closed fracture of spine with spinal cord lesion unspecified
+42157000	Closed fracture of spine, unspecified,
+208026008	Closed fracture of thoracic spine with cord lesion NOS
+208026008	Closed fracture of thoracic spine with spinal cord lesion
+311847006	Closed fractures involving head with neck
+212311000	Closed injury sciatic nerve
+208057008	Closed spinal fracture with anterior lumbar cord lesion
+208060001	Closed spinal fracture with cauda equina lesion
+208058003	Closed spinal fracture with central lumbar cord lesion
+208056004	Closed spinal fracture with complete lumbar cord lesion
+208059006	Closed spinal fracture with posterior lumbar cord lesion
+274158004	Closed spinal fracture with unspecified lumbar cord lesion
+208001004	Cls spinal fracture with anterior cervcl cord lesion, C1-4
+208007000	Cls spinal fracture with anterior cervcl cord lesion, C5-7
+208035001	Cls spinal fracture with anterior thorac cord lesion, T7-12
+208002006	Cls spinal fracture with central cervical cord lesion, C1-4
+208008005	Cls spinal fracture with central cervical cord lesion, C5-7
+208030006	Cls spinal fracture with central thoracic cord lesion, T1-6
+208036000	Cls spinal fracture with central thoracid cord lesion, T7-12
+208000003	Cls spinal fracture with complete cervcl cord lesion, C1-4
+208006009	Cls spinal fracture with complete cervcl cord lesion, C5-7
+208034002	Cls spinal fracture with complete thorac cord lesion, T7-12
+208003001	Cls spinal fracture with posterior cervcl cord lesion, C1-4
+208009002	Cls spinal fracture with posterior cervcl cord lesion, C5-7
+208031005	Cls spinal fracture with posterior thorac cord lesion, T1-6
+208037009	Cls spinal fracture with posterior thorac cord lesion, T7-12
+8840000	Cls spinal fracture with unspec cervical cord lesion, C1-4
+46995009	Cls spinal fracture with unspec cervical cord lesion, C5-7
+274157009	Cls spinal fracture with unspec thoracic cord lesion, T7-12
+274157009	Cls spinal fracture with unspec thoracic cord lesion,T1-6
+208029001	Cls spinal fracture wth anterior thoracic cord lesion,T1-6
+208028009	Cls spinal fracture wth complete thoracic cord lesion,T1-6
+193031009	Cluster headache
+56097005	Common migraine
+56097005	Common migraine NOS
+178675004	Complex decompression of fracture of spine
+128200000	Complex regional pain syndrome
+1727541000006109	Complex regional pain syndrome NOS
+128200000	Complex regional pain syndrome type I
+408751001	Complex regional pain syndrome type II
+193039006	Complicated migraine
+851271000006107	Compression neuropathy
+73573004	Congenital deformity of musculoskeletal system NEC
+18132009	Congenital deformity of sacroiliac joint
+5968001	Congenital fusion of sacroiliac joint
+271015004	Congenital instability of hip joint
+73573004	Congenital musculoskeletal anomalies NOS
+73573004	Congenital musculoskeletal deformities
+73573004	Congenital musculoskeletal deformity NOS
+426206001	Constant pain
+279093005	Cramping pain
+961861000006103	Cramping/pain of extremities
+230594005	Critical illness polyneuropathy
+269224001	Crush injury - head/neck
+269224001	Crush injury, face, scalp and neck
+269224001	Crush injury, face, scalp and neck NOS
+50001009	Crush injury, neck
+50001009	Crush injury, neck NOS
+213373003	Crushing injuries involving head with neck
+265721002	Crutchfield skull traction for fracture of spine
+178674000	Decompression of fracture of spine
+178674000	Decompression of fracture of spine NOS
+202761002	Degenerative cervical spinal stenosis
+202788007	Degenerative lumbar spinal stenosis
+202783003	Degenerative thoracic spinal stenosis
+283843007	Degloving injury of neck
+230572002	Diabetes + neuropathy
+230572002	Diabetes mellitus with neuropathy
+49455004	Diabetes mellitus with polyneuropathy
+201724008	Diabetic Charcot arthropathy
+201723002	Diabetic cheiroarthropathy
+193141005	Diabetic mononeuritis NOS
+193141005	Diabetic mononeuritis multiplex
+230577008	Diabetic mononeuropathy
+230572002	Diabetic neuropathy
+944141000000108	Diabetic peripheral neuropathic pain
+49455004	Diabetic polyneuropathy
+724810001	Diabetic radiculoplexus neuropathy
+213368009	Dislocations, sprains and strains involving head with neck
+596481000000102	Dislocations/sprains NOS
+209409002	Dislocations/sprains/strains
+239812005	Distal interphalangeal psoriatic arthropathy
+212169004	Dorsal cord injury without spinal bone injury
+7339009	Drug/toxic polyneuropathy
+439656005	Elbow arthritis NOS
+202307002	Elbow joint ankylosis
+202480001	Elbow joint pain
+202480001	Elbow joint pain
+239866002	Elbow osteoarthritis NOS
+74323005	Elbow pain
+239779001	Elbow pyogenic arthritis
+263128001	Elbow sprain NOS
+270505009	Endemic polyarthritis
+202699004	Enterobacterial spondylitis
+76821002	Epidemic cervical myalgia
+135860001	Exacerbation of backache
+192929006	Exacerbation of multiple sclerosis
+932071000006100	Exacerbation of osteoarthritis
+247369005	Facet joint syndrome
+4463009	Familial amyloid polyneuropathy type II
+9133005	Familial amyloid polyneuropathy type III
+9133005	Familial amyloid polyneuropathy, Iowa type
+42295001	Familial neuropathic amyloid
+203082005	Fibromyalgia
+203082005	Fibromyalgia
+10713006	Fibrosing alveolitis associated with rheumatoid arthritis
+239868001	Finger osteoarthritis NOS
+18876004	Finger pain
+265721002	Fixation of fracture of spine
+265721002	Fixation of fracture of spine NOS
+265721002	Fixation of fracture of spine and skull traction HFQ
+178734002	Fixation of fracture of spine using Harrington rod
+247355005	Flank pain
+201791009	Flare of rheumatoid arthritis
+448394006	Foot arthritis NOS
+309246000	Foot osteoarthritis NOS
+47933007	Foot pain
+47933007	Foot pain
+47933007	Foot pain
+207986006	Fracture of lumbar spine and pelvis
+125606003	Fracture of neck
+207884008	Fracture of neck and trunk
+207884008	Fracture of neck and trunk NOS
+269078005	Fracture of spine with spinal cord lesion
+269078005	Fracture of spine with spinal cord lesion NOS
+269061001	Fracture of spine without mention of spinal cord injury
+269061001	Fracture of spine without mention of spinal cord lesion NOS
+263179007	Fracture of transverse process of spine + spinal cord lesion
+263178004	Fracture of transverse process spine - no spinal cord lesion
+269078005	Fracture of vertebra with spinal cord lesion
+269061001	Fracture of vertebra without spinal cord lesion
+213347008	Fractures involving head with neck
+722982003	Frequent episodic tension-type headache
+267096005	Frontal headache
+202031002	Generalised arthritis
+162299003	Generalised headache
+201819000	Generalised osteoarthritis - OA
+201819000	Generalised osteoarthritis NOS
+201819000	Generalised osteoarthritis of multiple sites
+267889007	Generalised osteoarthritis of the hand
+201819000	Generalised osteoarthritis of unspecified site
+82991003	Generalised pain [symptom]
+43763009	Glossopharyngeal neuralgia
+80813006	Haemophilic arthropathy
+178686002	Halo skull traction for fracture of spine
+448589005	Hand arthritis NOS
+202472008	Hand joint pain
+53057004	Hand pain
+53057004	Hand pain
+203106009	Hand rheumatism
+269255007	Head and neck superficial nerve injury
+269255007	Head and neck superficial nerve injury
+25064002	Headache
+230477005	Headache - post traumatic
+429051000000106	Headache symptom NOS [D]
+279095003	Heavy pain
+2733002	Heel pain
+59292006	Hemiplegic migraine
+302226006	Hereditary and idiopathic peripheral neuropathy
+398100001	Hereditary motor and sensory neuropathy
+398040009	Hereditary motor and sensory neuropathy type I
+398187000	Hereditary motor and sensory neuropathy type II
+111499002	Hereditary motor and sensory neuropathy type III
+25362006	Hereditary motor and sensory neuropathy type IV
+128123007	Hereditary or idiopathic peripheral neuropathy NOS
+65017003	Hereditary peripheral neuropathy
+65017003	Hereditary peripheral neuropathy NOS
+11442006	Hereditary sensory neuropathy
+68449006	Hip arthritis NOS
+823841000006100	Hip girdle aches
+49218002	Hip joint pain
+239872002	Hip osteoarthritis NOS
+49218002	Hip pain
+193031009	Horton's (histamine) neuralgia
+202762009	Iatrogenic cervical spinal stenosis
+202789004	Iatrogenic lumbar spinal stenosis
+202785005	Iatrogenic thoracic spinal stenosis
+202760001	Idiopathic cervical spinal stenosis
+202787002	Idiopathic lumbar spinal stenosis
+86489003	Idiopathic peripheral autonomic neuropathy
+86489003	Idiopathic peripheral autonomic neuropathy NOS
+33209009	Idiopathic progressive polyneuropathy
+202782008	Idiopathic thoracic spinal stenosis
+247354009	Iliac fossa pain
+417373000	Inflammatory polyarthropathy
+417373000	Inflammatory polyarthropathy NOS
+76886005	Inflammatory polyneuropathy, unspecified
+722981005	Infrequent episodic tension-type headache
+600761000000107	Injury face/neck NOS
+212355006	Injury of nerves and spinal cord at neck level
+212357003	Injury of nerves and spinal cord at thorax level
+212351002	Injury of peripheral nerves of neck
+201724008	Insulin dependent diab mell with neuropathic arthropathy
+201724008	Insulin dependent diab mell with neuropathic arthropathy
+39710007	Insulin dependent diabetes mellitus with arthropathy
+39710007	Insulin dependent diabetes mellitus with arthropathy
+230577008	Insulin dependent diabetes mellitus with mononeuropathy
+230577008	Insulin dependent diabetes mellitus with mononeuropathy
+49455004	Insulin dependent diabetes mellitus with polyneuropathy
+49455004	Insulin dependent diabetes mellitus with polyneuropathy
+230646002	Intercostal neuropathy
+314642004	Intermittent pain
+275093002	Internal fixation of fracture of spine
+213134006	Internal prosthetic device causing pain
+111227009	Joint ankylosis of other specified site
+267936005	Joint ankylosis of the ankle and foot
+202310009	Joint ankylosis of the forearm
+56923001	Joint ankylosis of the hand
+302156009	Joint ankylosis of the lower leg
+267934008	Joint ankylosis of the pelvic region and thigh
+202298000	Joint ankylosis of the shoulder region
+302154007	Joint ankylosis of the upper arm
+111227009	Joint ankylosis of unspecified site
+57676002	Joint pain NOS
+687011000000105	Joint pain NOS
+239805001	Juvenile ankylosing spondylitis
+201805000	Juvenile arthritis in Crohn's disease
+239803008	Juvenile arthritis in psoriasis
+201807008	Juvenile arthritis in ulcerative colitis
+410795001	Juvenile rheumatoid arthritis
+410795001	Juvenile rheumatoid arthritis - Still's disease
+410795001	Juvenile rheumatoid arthritis NOS
+410793008	Juvenile rheumatoid arthropathy unspecified
+410797009	Juvenile seronegative polyarthritis
+371081002	Knee arthritis NOS
+202317007	Knee joint ankylosis
+30989003	Knee joint pain
+239873007	Knee osteoarthritis NOS
+30989003	Knee pain
+239777004	Knee pyogenic arthritis
+191471000	Korsakov's alcoholic psychosis with peripheral neuritis
+10601006	Leg pain
+84241008	Lipoid dermatoarthritis
+189015008	Lipoma of spinal canal - extradural
+189016009	Lipoma of spinal canal - intradural
+189017000	Lipoma of spinal column
+189017000	Lipoma of spinal cord
+33952002	Localised osteoarthritis, unspecified
+33952002	Localised osteoarthritis, unspecified, NOS
+33952002	Localised osteoarthritis, unspecified, of other spec site
+67315001	Localised osteoarthritis, unspecified, of shoulder region
+201837004	Localised osteoarthritis, unspecified, of the ankle and foot
+43270005	Localised osteoarthritis, unspecified, of the forearm
+22193007	Localised osteoarthritis, unspecified, of the hand
+33952002	Localised osteoarthritis, unspecified, of the lower leg
+33952002	Localised osteoarthritis, unspecified, of the upper arm
+33952002	Localised osteoarthritis, unspecified, of unspecified site
+267891004	Localised osteoarthritis, unspecified, pelvic region/thigh
+201829007	Localised, primary osteoarthritis
+201829007	Localised, primary osteoarthritis NOS
+313259008	Localised, primary osteoarthritis of elbow
+201829007	Localised, primary osteoarthritis of other specified site
+201837004	Localised, primary osteoarthritis of the ankle and foot
+313257005	Localised, primary osteoarthritis of the forearm
+201834006	Localised, primary osteoarthritis of the hand
+201829007	Localised, primary osteoarthritis of the lower leg
+201835007	Localised, primary osteoarthritis of the pelvic region/thigh
+201831003	Localised, primary osteoarthritis of the shoulder region
+313259008	Localised, primary osteoarthritis of the upper arm
+313257005	Localised, primary osteoarthritis of the wrist
+313258000	Localised, primary osteoarthritis of toe
+201829007	Localised, primary osteoarthritis of unspecified site
+201847001	Localised, secondary osteoarthritis
+201847001	Localised, secondary osteoarthritis NOS
+201847001	Localised, secondary osteoarthritis of other specified site
+267890003	Localised, secondary osteoarthritis of pelvic region/thigh
+201855008	Localised, secondary osteoarthritis of the ankle and foot
+201847001	Localised, secondary osteoarthritis of the forearm
+201852006	Localised, secondary osteoarthritis of the hand
+201847001	Localised, secondary osteoarthritis of the lower leg
+201849003	Localised, secondary osteoarthritis of the shoulder region
+201847001	Localised, secondary osteoarthritis of the upper arm
+201847001	Localised, secondary osteoarthritis of unspecified site
+279039007	Low back pain
+279039007	Lumbago
+202794004	Lumbago with sciatica
+279039007	Lumbalgia
+209565008	Lumbar back sprain
+212183002	Lumbar cord injury without spinal bone injury
+18347007	Lumbar spinal stenosis
+18347007	Lumbar spinal stenosis secondary to other disease
+202818006	Lumbar spine ankylosis
+202824000	Lumbar spine instability
+209565008	Lumbar sprain
+87823004	Lumbosacral ankylosis
+38253002	Lumbosacral instability
+62195001	Lumbosacral neuritis, unspecified
+209548004	Lumbosacral sprain
+309710005	Lumbosacral strain
+33937009	Lyme arthritis
+194333008	Malleus ankylosis
+178684004	Manipulative reduction of fracture of spine
+9631008	Marie - Strumpell spondylitis
+279040009	Mechanical low back pain
+17689009	Median nerve neuritis
+77888002	Menopausal arthritis
+198438009	Menopausal headache
+37796009	Migraine
+37796009	Migraine NOS
+193030005	Migraine variant NOS
+193030005	Migraine variants
+4473006	Migraine with aura
+56097005	Migraine without aura
+49605003	Moebius' ophthalmoplegic migraine
+201799006	Monarticular juvenile rheumatoid arthritis
+193125009	Mononeuritis - upper limb
+609592007	Mononeuritis lower limb
+30292005	Mononeuritis multiplex
+128189008	Mononeuritis of unspecified site NOS
+193125009	Mononeuritis of upper limb and mononeuritis multiplex
+609591000	Mononeuritis upper limb NOS
+162310002	Morning headache
+30085007	Morton's neuralgia
+207985005	Multiple fractures of cervical spine
+207993005	Multiple fractures of lumbar spine and pelvis
+208215006	Multiple fractures of thoracic spine
+212486001	Multiple injuries of neck
+35678005	Multiple joint pain
+212484003	Multiple superficial injuries of neck
+68962001	Muscle pain
+398126006	Muscular headache
+203102006	Muscular rheumatism
+1954441000006109	Musculoskeletal (primary group)
+312225001	Musculoskeletal and connective tissue diseases
+312225001	Musculoskeletal and connective tissue diseases NOS
+268238001	Musculoskeletal congen anomal
+661371000000108	Musculoskeletal disease NOS
+302293008	Musculoskeletal limb symptoms NOS
+312225001	Musculoskeletal or connective tissue diseases OS
+57676002	Musculoskeletal pain - joints
+939761000006103	Musculoskeletal pain mild
+939771000006105	Musculoskeletal pain moderate
+939751000006100	Musculoskeletal pain present
+939781000006108	Musculoskeletal pain severe
+939791000006106	Musculoskeletal pain very severe
+660111000000108	Musculoskeletal problems NOS
+84869007	Musculoskeletal symptom
+203108005	Myalgia and myositis unspecified
+203113009	Myalgia or myositis NOS
+68962001	Myalgia unspecified
+667631000000107	Myalgia/myositis - NOS
+667611000000104	Myalgia/myositis - ankle/foot
+667611000000104	Myalgia/myositis - fore-arm
+667611000000104	Myalgia/myositis - hand
+667611000000104	Myalgia/myositis - lower leg
+667611000000104	Myalgia/myositis - multiple
+667611000000104	Myalgia/myositis - shoulder
+667611000000104	Myalgia/myositis - upper arm
+667611000000104	Myalgia/myositis -pelvis/thigh
+667611000000104	Myalgia/myositis NOS
+24693007	Myofascial pain syndrome
+24693007	Myofascial pain syndrome
+193250002	Myopathy due to rheumatoid arthritis
+697431000000108	Neck injury
+1954651000006108	Neck injury (secondary group)
+81680005	Neck pain
+209557005	Neck sprain
+209557005	Neck sprain NOS
+209557005	Neck sprain, unspecified
+269255007	Neck superficial nerve injury
+90584004	Nerve and spinal cord injuries
+90584004	Nerve and spinal cord injury NOS
+212236009	Nerve root and spinal plexus injuries NOS
+212236009	Nerve root and spinal plexus injuries of multiple sites
+939681000006102	Nerve root pain present
+212236009	Nerve roots and spinal plexus injuries
+16269008	Neuralgia unspecified
+16269008	Neuralgia, neuritis and radiculitis unspecified
+16269008	Neuralgia, neuritis or radiculitis NOS
+667651000000100	Neuralgia/neurit.-pelvis/thigh
+16269008	Neuralgia/neuritis - NOS
+667651000000100	Neuralgia/neuritis - fore arm
+667651000000100	Neuralgia/neuritis - hand
+667651000000100	Neuralgia/neuritis - lower leg
+667651000000100	Neuralgia/neuritis - multiple
+667651000000100	Neuralgia/neuritis - shoulder
+667651000000100	Neuralgia/neuritis - upper arm
+667651000000100	Neuralgia/neuritis -ankle/foot
+667651000000100	Neuralgia/neuritis NOS
+95675005	Neuritis ulnar nerve
+84299009	Neuritis unspecified
+67536000	Neuropathic arthritis
+67536000	Neuropathic arthropathy
+201251005	Neuropathic diabetic ulcer - foot
+211412006	Neuropathic foot blister
+1724321000006104	Neuropathic foot ulcer
+59483006	Neuropathic foot ulcer
+247398009	Neuropathic pain
+202700003	Neuropathic spondylopathy
+193165008	Neuropathy in association with hereditary ataxia
+314904008	Non-insulin dependent d m with neuropathic arthropathy
+314903002	Non-insulin dependent diabetes mellitus with arthropathy
+420436000	Non-insulin dependent diabetes mellitus with mononeuropathy
+713706002	Non-insulin dependent diabetes mellitus with polyneuropathy
+1573621000006105	Non-mechanical back pain
+713777005	Non-radiographic axial spondyloarthritis
+202833003	Nonarticular rheumatism NOS
+330007	Occipital headache
+39838007	Ochronotic arthropathy
+268054009	Oligoarticular osteoarthritis, unspec, of unspecified sites
+268054009	Oligoarticular osteoarthritis, unspecified
+268054009	Oligoarticular osteoarthritis, unspecified, multiple sites
+396275006	Oligoarticular osteoarthritis, unspecified, of ankle/foot
+396275006	Oligoarticular osteoarthritis, unspecified, of forearm
+22193007	Oligoarticular osteoarthritis, unspecified, of hand
+396275006	Oligoarticular osteoarthritis, unspecified, of lower leg
+396275006	Oligoarticular osteoarthritis, unspecified, of pelvis/thigh
+396275006	Oligoarticular osteoarthritis, unspecified, of shoulder
+396275006	Oligoarticular osteoarthritis, unspecified, of upper arm
+396275006	Oligoarticular osteoarthritis, unspecified, other spec sites
+208050005	Op spinal fracture with central thoracic cord lesion, T7-12
+269070003	Open fracture of cervical spine
+269070003	Open fracture of cervical spine not otherwise specified
+208012004	Open fracture of cervical spine with spinal cord lesion
+208012004	Open fracture of cervical spine with spinal cord lesion NOS
+208088007	Open fracture of coccyx with other spinal cord injury
+208088007	Open fracture of coccyx with spinal cord lesion
+208088007	Open fracture of coccyx with spinal cord lesion NOS
+208088007	Open fracture of coccyx with unspecified spinal cord lesion
+208061002	Open fracture of lumbar spine with spinal cord lesion
+208076005	Open fracture of sacrum with other spinal cord injury
+208076005	Open fracture of sacrum with spinal cord lesion
+208076005	Open fracture of sacrum with spinal cord lesion NOS
+208076005	Open fracture of sacrum with unspecified spinal cord lesion
+269078005	Open fracture of spine with spinal cord lesion unspecified
+82419009	Open fracture of spine, unspecified,
+208040009	Open fracture of thoracic spine with spinal cord lesion
+208040009	Open fracture of thoracic spine with spinal cord lesion NOS
+311848001	Open fractures involving head with neck
+212312007	Open injury sciatic nerve
+311815001	Open multiple fracture of thoracic spine
+178682000	Open reduction of fracture of spine & excis facet of spine
+19688005	Open reduction of fracture of spine NEC
+208064005	Open spinal fracture with anterior lumbar cord lesion
+208067003	Open spinal fracture with cauda equina lesion
+208016001	Open spinal fracture with central cervical cord lesion, C1-4
+208022005	Open spinal fracture with central cervical cord lesion, C5-7
+208065006	Open spinal fracture with central lumbar cord lesion
+208044000	Open spinal fracture with central thoracic cord lesion, T1-6
+208063004	Open spinal fracture with complete lumbar cord lesion
+274158004	Open spinal fracture with incomplete lumbar cord lesion NOS
+208066007	Open spinal fracture with posterior lumbar cord lesion
+274158004	Open spinal fracture with unspecified lumbar cord lesion
+95655001	Ophthalmic migraine
+49605003	Ophthalmoplegic migraine
+208015002	Opn spinal fracture with anterior cervcl cord lesion, C1-4
+208021003	Opn spinal fracture with anterior cervcl cord lesion, C5-7
+208043006	Opn spinal fracture with anterior thorac cord lesion, T1-6
+208049005	Opn spinal fracture with anterior thorac cord lesion, T7-12
+208014003	Opn spinal fracture with complete cervcl cord lesion, C1-4
+208020002	Opn spinal fracture with complete cervcl cord lesion, C5-7
+208042001	Opn spinal fracture with complete thorac cord lesion, T1-6
+208048002	Opn spinal fracture with complete thorac cord lesion, T7-12
+208017005	Opn spinal fracture with posterior cervcl cord lesion, C1-4
+208023000	Opn spinal fracture with posterior cervcl cord lesion, C5-7
+208045004	Opn spinal fracture with posterior thorac cord lesion, T1-6
+208051009	Opn spinal fracture with posterior thorac cord lesion, T7-12
+274156000	Opn spinal fracture with unspec cervical cord lesion, C1-4
+274156000	Opn spinal fracture with unspec cervical cord lesion, C5-7
+274157009	Opn spinal fracture with unspec thoracic cord lesion, T1-6
+274157009	Opn spinal fracture with unspec thoracic cord lesion, T7-12
+66760008	Optic neuritis
+66760008	Optic neuritis NOS
+396275006	Osteoarthritis
+396275006	Osteoarthritis - ankle/foot
+576511000000100	Osteoarthritis - elbow joint
+396275006	Osteoarthritis - elbow joint
+396275006	Osteoarthritis - hand joint
+396275006	Osteoarthritis - hip joint
+587231000000100	Osteoarthritis - hip joint
+637091000000105	Osteoarthritis - knee joint
+667531000000106	Osteoarthritis - knee joint
+666451000000100	Osteoarthritis - other joint
+653461000000100	Osteoarthritis - wrist joint
+396275006	Osteoarthritis - wrist joint
+201819000	Osteoarthritis -multiple joint
+666441000000103	Osteoarthritis -shoulder joint
+396275006	Osteoarthritis NOS
+396275006	Osteoarthritis NOS
+239877008	Osteoarthritis NOS, of 1st MTP joint
+239869009	Osteoarthritis NOS, of DIP joint of finger
+239878003	Osteoarthritis NOS, of IP joint of toe
+275324008	Osteoarthritis NOS, of MCP joint
+239870005	Osteoarthritis NOS, of PIP joint of finger
+239865003	Osteoarthritis NOS, of acromioclavicular joint
+239874001	Osteoarthritis NOS, of ankle
+201837004	Osteoarthritis NOS, of ankle and foot
+396275006	Osteoarthritis NOS, of distal radio-ulnar joint
+239866002	Osteoarthritis NOS, of elbow
+239872002	Osteoarthritis NOS, of hip
+239873007	Osteoarthritis NOS, of knee
+239878003	Osteoarthritis NOS, of lesser MTP joint
+396275006	Osteoarthritis NOS, of other tarsal joint
+55146009	Osteoarthritis NOS, of sacro-iliac joint
+67315001	Osteoarthritis NOS, of shoulder
+67315001	Osteoarthritis NOS, of shoulder region
+850791000000102	Osteoarthritis NOS, of sternoclavicular joint
+239876004	Osteoarthritis NOS, of subtalar joint
+700324005	Osteoarthritis NOS, of talonavicular joint
+396275006	Osteoarthritis NOS, of the forearm
+22193007	Osteoarthritis NOS, of the hand
+396275006	Osteoarthritis NOS, of the lower leg
+396275006	Osteoarthritis NOS, of the upper arm
+396275006	Osteoarthritis NOS, of tibio-fibular joint
+396275006	Osteoarthritis NOS, of unspecified site
+239867006	Osteoarthritis NOS, of wrist
+396275006	Osteoarthritis NOS, other specified site
+445478004	Osteoarthritis NOS, pelvic region/thigh
+396275006	Osteoarthritis and allied disorders
+387800004	Osteoarthritis cervical spine
+387800004	Osteoarthritis of cervical spine
+239873007	Osteoarthritis of knee
+239880009	Osteoarthritis of lumbar spine
+268054009	Osteoarthritis of more than one site, unspecified, NOS
+239863005	Osteoarthritis of spinal facet joint
+239863005	Osteoarthritis of spinal facet joint
+8847002	Osteoarthritis of spine
+8847002	Osteoarthritis of spine
+8847002	Osteoarthritis of spine NOS
+387802007	Osteoarthritis of thoracic spine
+8847002	Osteoarthritis spine
+73573004	Other congenital musculoskeletal anomalies
+73573004	Other congenital musculoskeletal deformity
+37796009	Other forms of migraine
+37796009	Other forms of migraine NOS
+22722001	Other idiopathic peripheral neuropathy
+22722001	Other idiopathic peripheral neuropathy NOS
+629831000000105	Other joint pain
+298266002	Other joint symptoms
+118952005	Other joint symptoms NOS
+118952005	Other joint symptoms of multiple sites
+118952005	Other joint symptoms of other specified site
+267954009	Other joint symptoms of the ankle and foot
+118952005	Other joint symptoms of the forearm
+118952005	Other joint symptoms of the hand
+267953003	Other joint symptoms of the lower leg
+118952005	Other joint symptoms of the pelvic region and thigh
+267949000	Other joint symptoms of the shoulder region
+128131002	Other joint symptoms of the upper arm
+57676002	Other joint symptoms of unspecified site
+239796000	Other juvenile arthritis
+620651000000108	Other mononeuritis -lower limb
+609592007	Other mononeuritis lower limb
+928000	Other musculoskeletal disorder NOS
+302293008	Other musculoskeletal limb symptoms
+90460009	Other neck injuries
+302226006	Other peripheral neuropathy
+636121000000109	Other peripheral neuropathy
+302226006	Other peripheral neuropathy
+239548003	Other reduction of fracture of spine
+239548003	Other reduction of fracture of spine NOS
+239548003	Other reduction of fracture of spine and stabilisation
+9631008	Other rheumatoid arthritis of spine
+239793008	Other rheumatoid arthropathy + visceral/systemic involvement
+178674000	Other specified decompression of fracture of spine
+265721002	Other specified fixation of fracture of spine
+3723001	Other specified inflammatory polyarthropathy
+417373000	Other specified inflammatory polyarthropathy NOS
+399269003	Other specified joint disorders
+399269003	Other specified joint disorders NOS
+399269003	Other specified joint disorders of multiple sites
+399269003	Other specified joint disorders of other specified site
+399269003	Other specified joint disorders of pelvic region and thigh
+399269003	Other specified joint disorders of the ankle and foot
+399269003	Other specified joint disorders of the forearm
+399269003	Other specified joint disorders of the hand
+399269003	Other specified joint disorders of the lower leg
+399269003	Other specified joint disorders of the shoulder region
+399269003	Other specified joint disorders of the upper arm
+399269003	Other specified joint disorders of unspecified site
+928000	Other specified musculoskeletal disorders
+202833003	Other specified nonarticular rheumatism
+239548003	Other specified other reduction of fracture of spine
+12519004	Other specified sacroiliac sprains
+31681005	Other specified trigeminal neuralgia
+45600000	Other toxic agent polyneuropathy
+267601009	Other toxic or inflammatory neuropathy
+22253000	Pain
+22253000	Pain
+958711000006108	Pain
+309765009	Pain due to hip joint prosthesis
+309767001	Pain due to knee joint prosthesis
+309768006	Pain due to shoulder joint prosthesis
+102556003	Pain in arm
+279043006	Pain in buttock
+279029001	Pain in cervical spine
+34789001	Pain in coccyx
+74323005	Pain in elbow
+95668009	Pain in face
+57676002	Pain in joint - arthralgia
+57676002	Pain in joint - coxalgia
+267952008	Pain in joint - coxalgia
+90834002	Pain in left arm
+102556003	Pain in left arm
+10601006	Pain in left leg
+287047008	Pain in left leg
+10601006	Pain in leg
+90834002	Pain in limb
+288241003	Pain in limb - multiple
+90834002	Pain in limb NOS
+10601006	Pain in lower limb
+267982002	Pain in lumbar spine
+102556003	Pain in right arm
+90834002	Pain in right arm
+10601006	Pain in right leg
+287048003	Pain in right leg
+267981009	Pain in thoracic spine
+102556003	Pain in upper limb
+56608008	Pain in wrist
+278414003	Pain management
+394882004	Pain management (specialty)
+904701000006105	Pain management referral
+301365009	Pain of head and neck region
+267949000	Painful Shoulder
+853951000006106	Painful elbow
+853861000006100	Painful left arm
+853731000006101	Painful right knee
+50442003	Palindromic rheumatism
+50442003	Palindromic rheumatism NOS
+202465007	Palindromic rheumatism of multiple sites
+50442003	Palindromic rheumatism of other specified site
+202463000	Palindromic rheumatism of the ankle and foot
+50442003	Palindromic rheumatism of the forearm
+202460002	Palindromic rheumatism of the hand
+50442003	Palindromic rheumatism of the lower leg
+202461003	Palindromic rheumatism of the pelvic region and thigh
+202457009	Palindromic rheumatism of the shoulder region
+50442003	Palindromic rheumatism of the upper arm
+50442003	Palindromic rheumatism of unspecified site
+162304002	Parietal headache
+450521003	Patellofemoral osteoarthritis
+74391003	Pauciarticular juvenile rheumatoid arthritis
+74391003	Pauciarticular onset juvenile chronic arthritis
+50921008	Periarthritis NOS
+399114005	Periarthritis of shoulder
+111242007	Periarthritis of wrist
+193031009	Periodic migrainous neuralgia
+128123007	Peripheral autonomic neuropathy disease EC
+11060002	Peripheral autonomic neuropathy due to disease NOS
+302226006	Peripheral neuropathy
+302226006	Peripheral neuropathy - hereditary or idiopathic
+1978751000006107	Persistent neuropathic pain
+239166000	Persistent wound pain
+193114000	Phantom limb syndrome
+5771000119106	Phantom limb syndrome with pain
+1832361000006100	Physiotherapy treatment modality: pain management program
+201467001	Pneumococcal arthritis and polyarthritis
+417373000	Polyarthritis
+36186002	Polyarthropathy NEC
+653531000000106	Polyarthropathy NOS -inflammat
+65323003	Polymyalgia
+65323003	Polymyalgia rheumatica
+56795008	Polyneuritis cranialis
+42345000	Polyneuropathy
+193187004	Polyneuropathy in amyloidosis
+79389008	Polyneuropathy in beriberi
+193177003	Polyneuropathy in collagen vascular disease
+193177003	Polyneuropathy in collagen vascular disease NOS
+49455004	Polyneuropathy in diabetes
+230596007	Polyneuropathy in diphtheria
+193186008	Polyneuropathy in disease EC
+193186008	Polyneuropathy in disease NOS
+193178008	Polyneuropathy in disseminated lupus erythematosus
+193190005	Polyneuropathy in herpes zoster
+193191009	Polyneuropathy in hypoglycaemia
+77659000	Polyneuropathy in malignant disease
+31524007	Polyneuropathy in mumps
+193193007	Polyneuropathy in pellagra
+193179000	Polyneuropathy in polyarteritis nodosa
+129616004	Polyneuropathy in porphyria
+193180002	Polyneuropathy in rheumatoid arthritis
+193195000	Polyneuropathy in sarcoidosis
+193196004	Polyneuropathy in uraemia
+193188009	Polyneuropathy in vitamin B deficiency
+42345000	Polyneuropathy unspecified
+2177002	Post-herpetic neuralgia
+17974002	Post-herpetic trigeminal neuralgia
+213299007	Post-operative pain
+662681000000109	Post-viral arthropathy
+56528004	Postdysenteric reactive arthropathy
+56528004	Postdysenteric reactive arthropathy NOS
+201504007	Postdysenteric reactive arthropathy of multiple sites
+56528004	Postdysenteric reactive arthropathy of other specified sites
+201503001	Postdysenteric reactive arthropathy of the ankle and foot
+56528004	Postdysenteric reactive arthropathy of the forearm
+201500003	Postdysenteric reactive arthropathy of the hand
+56528004	Postdysenteric reactive arthropathy of the lower leg
+201501004	Postdysenteric reactive arthropathy of the pelvis/thigh
+201497009	Postdysenteric reactive arthropathy of the shoulder region
+56528004	Postdysenteric reactive arthropathy of the upper arm
+56528004	Postdysenteric reactive arthropathy of unspecified site
+178677007	Posterior decompression of fracture of spine
+178677007	Posterior decompression of fracture of spine NEC
+2177002	Postherpetic neuralgia
+76462000	Postherpetic polyneuropathy
+17974002	Postherpetic trigeminal neuralgia
+239789002	Postimmunization arthropathy
+193174005	Postinfectious polyneuritis
+201738001	Postinfective arthropathy in syphilis
+240428000	Postmeningococcal arthritis
+213299007	Postoperative pain
+271988006	Postprocedural musculoskeletal disorder, unspecified
+2177002	Postzoster neuralgia
+178688001	Primary bedrest stabilisation of spinal fracture
+178691001	Primary cast stabilisation of spinal fracture
+311488002	Primary closed reduction spinal fracture alone
+178703001	Primary cls reduc spinal fracture+skull traction stabilisatn
+311488002	Primary cls reduct spinal fracture+oth external stabilisatn
+178702006	Primary cls reduction spinal fracture+bedrest stabilisation
+178704007	Primary cls reduction spinal fracture+cast stabilisation
+178701004	Primary cls reduction spinal fracture+collar stabilisation
+178705008	Primary cls reduction spinal fracture+external fixation
+178689009	Primary collar stabilisation of spinal fracture
+178692008	Primary external fixation stabilisation of spinal fracture
+178733008	Primary open reduc spinal fracture+internal fix+plate
+178737009	Primary open reduc spinal fracture+internal fix+rod system
+178736000	Primary open reduc spinal fracture+internal fix+wire
+265721002	Primary open reduc spinal fracture+other internal fix
+311490001	Primary open reduction spinal fracture alone
+178719008	Primary open reduction spinal fracture and external fixation
+311490001	Primary opn reduc spinal fracture+other external stabilisatn
+178717005	Primary opn reduc spinal fracture+skull traction stabilisatn
+178716001	Primary opn reduction spinal fracture+bedrest stabilisation
+178718000	Primary opn reduction spinal fracture+cast stabilisation
+178715002	Primary opn reduction spinal fracture+collar stabilisation
+239548003	Primary other external stabilisation of spinal fracture
+428700003	Primary progressive multiple sclerosis
+178690000	Primary skull traction stabilisation of spinal fracture
+885251000000103	Private referral to pain management service
+311804006	Prolapsed lumbar intervertebral disc with sciatica
+33339001	Psoriatic arthritis
+33339001	Psoriatic arthropathy
+33339001	Psoriatic arthropathy NOS
+724810001	Radiculoplexoneuropathy due to diabetes mellitus
+67224007	Reactive arthropathies
+201575009	Reactive arthropathy of 1st MTP joint
+201566007	Reactive arthropathy of DIP joint of finger
+201577001	Reactive arthropathy of IP joint of toe
+201564005	Reactive arthropathy of MCP joint
+201565006	Reactive arthropathy of PIP joint of finger
+201560001	Reactive arthropathy of acromioclavicular joint
+201571000	Reactive arthropathy of ankle
+201562009	Reactive arthropathy of distal radio-ulnar joint
+201561002	Reactive arthropathy of elbow
+201567003	Reactive arthropathy of hip
+201569000	Reactive arthropathy of knee
+201576005	Reactive arthropathy of lesser MTP joint
+239783001	Reactive arthropathy of other tarsal joint
+201568008	Reactive arthropathy of sacro-iliac joint
+201558003	Reactive arthropathy of shoulder
+201559006	Reactive arthropathy of sternoclavicular joint
+201572007	Reactive arthropathy of subtalar joint
+201573002	Reactive arthropathy of talonavicular joint
+201570004	Reactive arthropathy of tibio-fibular joint
+201563004	Reactive arthropathy of wrist
+239783001	Reactive arthropathy, unspecified
+1776891000006100	Reason for referral: Pain/Symptom Control
+183568002	Refer to pain clinic
+183868005	Referral to back pain clinic
+841261000000105	Referral to community musculoskeletal service
+307051000000100	Referral to headache special interest general practitioner
+413159000	Referral to musculoskeletal clinic
+374471000000101	Referral to musculoskeletal special interest GP
+306109009	Referral to pain management service
+306265007	Referral to pain management specialist
+1979101000006100	Referred for pain control
+1775471000006108	Referred to Musculoskeletal Service
+1775521000006106	Referred to Pain Management Service
+178709002	Revision cls reduc spinal fracture+bedrest stabilisation
+178711006	Revision cls reduc spinal fracture+cast stabilisation
+178712004	Revision cls reduc spinal fracture+external fixation
+311489005	Revision cls reduc spinal fracture+other external stabilistn
+178710007	Revision cls reduc spinal fracture+skull traction stabilistn
+178708005	Revision cls reduction spinal fracture+collar stabilisation
+178694009	Revision to bedrest stabilisation of spinal fracture
+178697002	Revision to cast stabilisation of spinal fracture
+311489005	Revision to closed reduction spinal fracture alone
+178695005	Revision to collar stabilisation of spinal fracture
+178698007	Revision to external fixation stabilisation spinal fracture
+311491002	Revision to open reduction spinal fracture alone
+239548003	Revision to other external stabilisation of spinal fracture
+178696006	Revision to skull traction stabilisation of spinal fracture
+279069000	Rheumatic pain
+685371000000108	Rheumatism NOS - ankle/foot
+685371000000108	Rheumatism NOS - elbow
+685371000000108	Rheumatism NOS - hand
+685371000000108	Rheumatism NOS - hip
+685371000000108	Rheumatism NOS - knee
+685371000000108	Rheumatism NOS - multiple
+685371000000108	Rheumatism NOS - shoulder
+685371000000108	Rheumatism NOS - wrist
+203099006	Rheumatism and fibrositis unspecified
+203107000	Rheumatism or fibrositis NOS
+396332003	Rheumatism unspecified
+202833003	Rheumatism, excluding the back
+685331000000106	Rheumatism/fibrositis NOS
+678131000000109	Rheumatism/fibrositis NOS
+69896004	Rheumatoid arthritis
+287006005	Rheumatoid arthritis - multiple joint
+69896004	Rheumatoid arthritis NOS
+69896004	Rheumatoid arthritis and other inflammatory polyarthropathy
+201783000	Rheumatoid arthritis of 1st MTP joint
+201774005	Rheumatoid arthritis of DIP joint of finger
+201785007	Rheumatoid arthritis of IP joint of toe
+201772009	Rheumatoid arthritis of MCP joint
+201773004	Rheumatoid arthritis of PIP joint of finger
+201768005	Rheumatoid arthritis of acromioclavicular joint
+201779000	Rheumatoid arthritis of ankle
+201764007	Rheumatoid arthritis of cervical spine
+201770001	Rheumatoid arthritis of distal radio-ulnar joint
+201769002	Rheumatoid arthritis of elbow
+201775006	Rheumatoid arthritis of hip
+201777003	Rheumatoid arthritis of knee
+201784006	Rheumatoid arthritis of lesser MTP joint
+429192004	Rheumatoid arthritis of other tarsal joint
+201776007	Rheumatoid arthritis of sacro-iliac joint
+201766009	Rheumatoid arthritis of shoulder
+201767000	Rheumatoid arthritis of sternoclavicular joint
+201780002	Rheumatoid arthritis of subtalar joint
+201781003	Rheumatoid arthritis of talonavicular joint
+201778008	Rheumatoid arthritis of tibio-fibular joint
+201771002	Rheumatoid arthritis of wrist
+239793008	Rheumatoid arthropathy + visceral/systemic involvement NOS
+297217002	Rib pain
+178723000	Rvsn open reduc spinal fracture+bedrest stabilisation
+178725007	Rvsn open reduc spinal fracture+cast stabilisation
+178722005	Rvsn open reduc spinal fracture+collar stabilisation
+178726008	Rvsn open reduc spinal fracture+external fix
+178745004	Rvsn open reduc spinal fracture+internal fix+internl fixator
+178742001	Rvsn open reduc spinal fracture+internal fix+plate
+178743006	Rvsn open reduc spinal fracture+internal fix+rod system
+178741008	Rvsn open reduc spinal fracture+internal fix+wire
+311491002	Rvsn open reduc spinal fracture+other external stabilisation
+265721002	Rvsn open reduc spinal fracture+other internal fix
+178724006	Rvsn open reduc spinal fracture+skull traction stabilisation
+16065006	Sacral ankylosis NOS
+67374007	Sacral instability NOS
+16065006	Sacroiliac ankylosis
+71299003	Salmonella arthritis
+86269002	Sciatic nerve injury
+367137004	Sciatic nerve lesion
+23056005	Sciatica
+425500002	Secondary progressive multiple sclerosis
+399112009	Sero negative arthritis
+399112009	Sero negative polyarthritis
+856221000006104	Sero-negative polyarthritis
+239792003	Seronegative rheumatoid arthritis
+308143008	Seropositive errosive rheumatoid arthritis
+239791005	Seropositive rheumatoid arthritis, unspecified
+267883008	Sexually acquired reactive arthropathy
+267883008	Sexually acquired reactive arthropathy NOS
+201481004	Sexually acquired reactive arthropathy of multiple sites
+267883008	Sexually acquired reactive arthropathy of other specif site
+201474006	Sexually acquired reactive arthropathy of shoulder region
+201480003	Sexually acquired reactive arthropathy of the ankle and foot
+267883008	Sexually acquired reactive arthropathy of the forearm
+201477004	Sexually acquired reactive arthropathy of the hand
+267883008	Sexually acquired reactive arthropathy of the lower leg
+201478009	Sexually acquired reactive arthropathy of the pelvis/thigh
+267883008	Sexually acquired reactive arthropathy of the upper arm
+267883008	Sexually acquired reactive arthropathy of unspecified site
+162309007	Shooting headache
+443798008	Shoulder arthritis NOS
+140651000006100	Shoulder girdle aches
+267949000	Shoulder joint pain
+45326000	Shoulder pain
+45326000	Shoulder pain
+193028008	Sick headache
+196944005	Simple sciatic hernia
+4969004	Sinus headache
+4969004	Sinus headache
+26738009	Spinal cord lesion - no #
+26738009	Spinal cord/nerve root injury
+178685003	Spinal extension traction for fracture of spine
+1620811000006101	Spinal injuries
+262521009	Spinal injury
+269253000	Spinal nerve root injury
+230615001	Spinal plexus injury
+76107001	Spinal stenosis
+76107001	Spinal stenosis NOS
+267980005	Spinal stenosis excl. cervical
+76107001	Spinal stenosis of unspecified region
+267980005	Spinal stenosis, excluding cervical region
+239550006	Spinal traction for fracture of spine NEC
+206220004	Spine or spinal cord injury due to birth trauma
+206220004	Spine or spinal cord injury due to birth trauma NOS
+279097006	Splitting pain
+84172003	Spondylitis NOS
+161882006	Stiff neck
+161882006	Stiff neck NOS
+161880003	Stiff neck symptom
+161880003	Stiff neck symptom NOS
+283024006	Superficial injuries involving head with neck
+635631000000109	Superficial injury NOS: neck
+283024006	Superficial injury of face/neck/scalp NOS, infected
+283024006	Superficial injury of face/neck/scalp, no infection, NOS
+274182009	Superficial injury of neck NOS
+283024006	Superficial injury of neck NOS, infected
+210985000	Superficial injury: neck
+635631000000109	Superficial injury: neck
+398057008	Tension headache
+202796002	Thoracic and lumbosacral neuritis
+202796002	Thoracic and lumbosacral neuritis NOS
+279038004	Thoracic back pain
+212169004	Thoracic cord injury without spinal bone injury
+212169004	Thoracic cord injury without spinal bone injury, NOS
+103015000	Thoracic nerve root pain
+58856009	Thoracic neuritis, unspecified
+203981000	Thoracic spinal meningocele
+41341006	Thoracic spinal stenosis
+41341006	Thoracic spinal stenosis secondary to other disease
+202816005	Thoracic spine ankylosis
+202823006	Thoracic spine instability
+202817001	Thoraco-lumbar ankylosis
+162308004	Throbbing headache
+37895003	Thumb osteoarthritis NOS
+300955002	Thumb pain
+239878003	Toe osteoarthritis NOS
+285365001	Toe pain
+267601009	Toxic or inflammatory neuropathy NOS
+661551000000105	Traumatic arthritis NOS
+58188004	Traumatic arthropathy
+125610000	Traumatic arthropathy NOS
+201958009	Traumatic arthropathy of 1st MTP joint
+201949002	Traumatic arthropathy of DIP joint of finger
+201960006	Traumatic arthropathy of IP joint of toe
+201947000	Traumatic arthropathy of MCP joint
+201948005	Traumatic arthropathy of PIP joint of finger
+201943001	Traumatic arthropathy of acromioclavicular joint
+201945008	Traumatic arthropathy of distal radio-ulnar joint
+201959001	Traumatic arthropathy of lesser MTP joint
+201940003	Traumatic arthropathy of multiple sites
+58188004	Traumatic arthropathy of other specified site
+58188004	Traumatic arthropathy of other tarsal joint
+201951003	Traumatic arthropathy of sacro-iliac joint
+201941004	Traumatic arthropathy of shoulder
+201942006	Traumatic arthropathy of sternoclavicular joint
+201955007	Traumatic arthropathy of subtalar joint
+201956008	Traumatic arthropathy of talonavicular joint
+201938008	Traumatic arthropathy of the ankle and foot
+201944007	Traumatic arthropathy of the forearm
+201935006	Traumatic arthropathy of the hand
+373575008	Traumatic arthropathy of the lower leg
+201936007	Traumatic arthropathy of the pelvic region and thigh
+201932009	Traumatic arthropathy of the shoulder region
+201944007	Traumatic arthropathy of the upper arm
+201953000	Traumatic arthropathy of tibio-fibular joint
+58188004	Traumatic arthropathy of unspecified site
+201954006	Traumatic arthropathy-ankle
+201944007	Traumatic arthropathy-elbow
+201950002	Traumatic arthropathy-hip
+201952005	Traumatic arthropathy-knee
+201946009	Traumatic arthropathy-wrist
+38311000033103	Treatment Of Diabetic Neuropathy
+31681005	Trigeminal neuralgia NOS
+190710003	Tuberculous arthritis
+190710003	Tuberculous arthritis
+314893005	Type 1 diabetes mellitus with arthropathy
+314893005	Type 1 diabetes mellitus with arthropathy
+420918009	Type 1 diabetes mellitus with mononeuropathy
+420918009	Type 1 diabetes mellitus with mononeuropathy
+71771000119100	Type 1 diabetes mellitus with neuropathic arthropathy
+71771000119100	Type 1 diabetes mellitus with neuropathic arthropathy
+713705003	Type 1 diabetes mellitus with polyneuropathy
+713705003	Type 1 diabetes mellitus with polyneuropathy
+314903002	Type 2 diabetes mellitus with arthropathy
+314903002	Type 2 diabetes mellitus with arthropathy
+420436000	Type 2 diabetes mellitus with mononeuropathy
+420436000	Type 2 diabetes mellitus with mononeuropathy
+314904008	Type 2 diabetes mellitus with neuropathic arthropathy
+314904008	Type 2 diabetes mellitus with neuropathic arthropathy
+713706002	Type 2 diabetes mellitus with polyneuropathy
+713706002	Type 2 diabetes mellitus with polyneuropathy
+314893005	Type I diabetes mellitus with arthropathy
+314893005	Type I diabetes mellitus with arthropathy
+420918009	Type I diabetes mellitus with mononeuropathy
+420918009	Type I diabetes mellitus with mononeuropathy
+71771000119100	Type I diabetes mellitus with neuropathic arthropathy
+71771000119100	Type I diabetes mellitus with neuropathic arthropathy
+713705003	Type I diabetes mellitus with polyneuropathy
+713705003	Type I diabetes mellitus with polyneuropathy
+314903002	Type II diabetes mellitus with arthropathy
+314903002	Type II diabetes mellitus with arthropathy
+420436000	Type II diabetes mellitus with mononeuropathy
+420436000	Type II diabetes mellitus with mononeuropathy
+314904008	Type II diabetes mellitus with neuropathic arthropathy
+314904008	Type II diabetes mellitus with neuropathic arthropathy
+713706002	Type II diabetes mellitus with polyneuropathy
+713706002	Type II diabetes mellitus with polyneuropathy
+95675005	Ulnar neuritis
+359837005	Ulnar neuropathy
+305469009	Under care of pain management specialist
+417180005	Undifferentiated inflammatory arthritis
+1977851000006102	Unexplained recurrent headaches
+103006007	Unilateral headache
+699462004	Unspecified monoarthritis
+699462004	Unspecified monoarthritis NOS
+699462004	Unspecified monoarthritis of other specified site
+699462004	Unspecified monoarthritis of the ankle and foot
+699462004	Unspecified monoarthritis of the forearm
+698475006	Unspecified monoarthritis of the hand
+699462004	Unspecified monoarthritis of the lower leg
+699462004	Unspecified monoarthritis of the pelvic region and thigh
+699462004	Unspecified monoarthritis of the shoulder region
+699462004	Unspecified monoarthritis of the upper arm
+699462004	Unspecified monoarthritis of unspecified site
+609592007	Unspecified mononeuritis lower limb
+36186002	Unspecified polyarthropathy of multiple sites
+399269003	Unspecified polyarthropathy of other specified site
+399269003	Unspecified polyarthropathy of the ankle and foot
+399269003	Unspecified polyarthropathy of the forearm
+399269003	Unspecified polyarthropathy of the hand
+399269003	Unspecified polyarthropathy of the lower leg
+399269003	Unspecified polyarthropathy of the pelvic region and thigh
+399269003	Unspecified polyarthropathy of the shoulder region
+399269003	Unspecified polyarthropathy of the upper arm
+36186002	Unspecified polyarthropathy of unspecified site
+36186002	Unspecified polyarthropathy or polyarthritis
+36186002	Unspecified polyarthropathy or polyarthritis NOS
+9133005	Van Allen type amyloid polyneuropathy
+128187005	Vascular headache, not elsewhere classified
+230411000000106	Vertebroplasty of fracture of spine
+1935901000006104	Worsening pain
+1771000119109	Wrist arthritis NOS
+202310009	Wrist joint ankylosis
+202482009	Wrist joint pain
+239867006	Wrist osteoarthritis NOS
+56608008	Wrist pain
+239778009	Wrist pyogenic arthritis
+162147009	[D] Pelvic pain
+75879005	[D]Abdominal migraine
+274665008	[D]Chronic intractable pain
+267106000	[D]Head and neck symptoms
+267106000	[D]Head and neck symptoms NOS
+25064002	[D]Headache
+271857006	[D]Loin pain
+281245003	[D]Musculoskeletal chest pain
+279069000	[D]Musculoskeletal pain
+496031000000102	[D]Musculoskeletal symptoms
+496031000000102	[D]Nervous and musculoskeletal symptoms
+462111000000109	[D]Nervous or musculoskeletal symptoms NOS
+496271000000108	[D]Other nervous and musculoskeletal symptoms
+301717006	[D]Right upper quadrant pain
+452471000000100	[Q] Central and lateral spinal stenosis
+415881000000101	[Q] Central spinal stenosis
+440721000000109	[Q] Lateral spinal stenosis
+465041000000100	[X] Pain due to internal orthopaedic prosthesis
+42345000	[X] Polyneuropathy, unspecified
+395688005	[X]Benign coital headache
+279016001	[X]Cervicogenic headache
+431237007	[X]Chronic headache disorder
+30077003	[X]Chronic pain personality syndrome
+73573004	[X]Congenital malformations+deformations musculoskeletal sys
+50001009	[X]Crushing injury of neck, part unspecified
+50001009	[X]Crushing injury of other parts of neck
+125606003	[X]Fracture of other parts of neck
+477941000000100	[X]Inflammatory polyarthropathies
+76886005	[X]Inflammatory polyneuropathy, unspecified
+428721000000109	[X]Injuries of nerves and spinal cord of other multiple bod
+90460009	[X]Injuries to the neck
+212351002	[X]Injury of other and unspecified nerves of neck
+410793008	[X]Juvenile arthritis in other diseases CE
+240226003	[X]Oth specified acquired deformities/musculoskeletal system
+90584004	[X]Other and unspecified injuries of cervical spinal cord
+90584004	[X]Other and unspecified injuries of thoracic spinal cord
+82423001	[X]Other chronic pain
+73573004	[X]Other congenital malforms of the musculoskeletal system
+203357004	[X]Other hypertrophic osteoarthropathy
+722653002	[X]Other injury of lumbar spinal cord
+239796000	[X]Other juvenile arthritis
+37796009	[X]Other migraine
+33339001	[X]Other psoriatic arthropathies
+239791005	[X]Other seropositive rheumatoid arthritis
+3723001	[X]Other specified arthritis
+73573004	[X]Other specified congenital musculoskeletal deformities
+230461009	[X]Other specified headache syndromes
+90460009	[X]Other specified injuries of neck
+399269003	[X]Other specified joint disorders
+69896004	[X]Other specified rheumatoid arthritis
+230595006	[X]Polyneuropathy in infectious+parasitic diseases CE
+54509008	[X]Polyneuropathy in nutritional deficiency CE
+386033004	[X]Polyneuropathy in other diseases classified elsewhere
+230571009	[X]Polyneuropathy/other endocrine+metabolic diseases CE
+386033004	[X]Polyneuropathy/other musculoskeletal disorders CE
+193177003	[X]Polyneuropathy/systemic connective tissue disorders CE
+103011009	[X]Primary exertional headache
+239793008	[X]Rheumatoid arthritis+involvement/other organs or systems
+285235009	[X]Sequelae of other specified injuries of neck and trunk
+285235009	[X]Sequelae of unspecified injury of neck and trunk
+239791005	[X]Seropositive rheumatoid arthritis, unspecified
+281537007	[X]Sprain/strain of joint/ligam of oth & unsp part of head
+209557005	[X]Sprain/strain of joint/ligam of oth & unsp part of neck
+398057008	[X]Tension type headache
+128187005	[X]Vascular headache, not elsewhere classified
+10085004	Metatarsalgia (finding)
+105969002	Disease of connective tissues (disorder)
+11049006	Cervical radiculitis (disorder)
+1734006	Fracture of vertebral column with spinal cord injury (disorder)
+1771000119109	Arthritis of wrist (disorder)
+17769000	Injury of cranial nerve (disorder)
+20243008	Bouchard's node (disorder)
+230411000000106	Vertebroplasty of fracture of spine (procedure)
+230650009	Traumatic neuroma (disorder)
+239881008	Otto's pelvis (disorder)
+250082003	Hand cramps (finding)
+250102002	Unstable knee (finding)
+262576002	Crushing injury of skull and intracranial contents (disorder)
+267070008	Nervous system symptoms (finding)
+2764000	Joint crepitus (finding)
+27830001	Brachial radiculitis (disorder)
+27982003	Brown-S+¬quard syndrome (disorder)
+301813003	Irritable hip (disorder)
+307051000000100	Referral to headache special interest general practitioner (procedure)
+35688006	Complication of medical care (disorder)
+360444002	Traumatic torticollis (disorder)
+36540006	Calcification of joint (disorder)
+371598009	Heberden's node (finding)
+374471000000101	Referral to musculoskeletal special interest general practitioner (procedure)
+39848009	Whiplash injury to neck (disorder)
+423849004	Iliotibial band friction syndrome (disorder)
+462111000000109	[D]Nervous or musculoskeletal symptoms NOS (situation)
+477941000000100	[X]Inflammatory polyarthropathies (disorder)
+496031000000102	[D]Nervous and musculoskeletal symptoms (context-dependent category)
+496271000000108	[D]Other nervous and musculoskeletal symptoms (context-dependent category)
+526071000000104	Arthropathy in cystic fibrosis (disorder)
+55176002	Coxae malum senilis (disorder)
+5771000119106	Phantom limb syndrome with pain (disorder)
+69234007	Fistula of joint (disorder)
+698499006	Spine injury due to birth trauma (disorder)
+711286009	Intermittent effusion of joint (disorder)
+71771000119100	Diabetic neuropathic arthropathy due to type 1 diabetes mellitus (disorder)
+78514002	Thigh pain (finding)
+813001	Ankle instability (finding)
+841261000000105	Referral to community musculoskeletal service (procedure)
+850791000000102	Osteoarthritis of sternoclavicular joint (disorder)
+860381000000107	Chronic pain review (regime/therapy)
+885251000000103	Private referral to pain management service (procedure)
+944141000000108	Diabetic peripheral neuropathic pain (finding)
+95421005	Intercostal myalgia (finding)

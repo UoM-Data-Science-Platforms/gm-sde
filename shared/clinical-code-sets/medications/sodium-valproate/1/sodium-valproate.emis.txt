@@ -579,3 +579,14 @@ SOM/37015MGEMIS	Sodium Valproate  M/R tablets  500 mg (Unichem)
 ^ESCT1440875	Epival CR 500mg tablets (G.L. Pharma UK Ltd) 100 tablet
 ^ESCT1441211	Epival CR 300mg tablets (G.L. Pharma UK Ltd) 30 tablet
 ^ESCT1441212	Epival CR 500mg tablets (G.L. Pharma UK Ltd) 30 tablet
+^ESCTSO647238	Sodium valproate
+^ESCTVA647239	Valproate sodium
+SOSY2628	Sodium Valproate Syrup 200 mg/5 ml
+^ESCT1367554	Dyzantil
+^ESCTEP915097	Epilim
+^ESCTEP915098	Epilim Chrono
+^ESCTEP915105	Episenta
+^ESCTEP915107	Epival CR
+^ESCTEP923002	Epilim Chronosphere MR
+^ESCTOR915386	Orlept
+^ESCTOR915388	Orlept SF

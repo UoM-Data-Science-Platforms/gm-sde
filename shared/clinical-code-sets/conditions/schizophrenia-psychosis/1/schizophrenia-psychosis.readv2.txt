@@ -9,12 +9,12 @@
 1BH1.00	Grandiose delusions
 1BH2.00	Ideas of reference
 1BH3.00	Paranoid ideation
-212T.00	"Psychosis, schizophrenia and bipolar affective disorder resolved"
+212T.00	Psychosis, schizophrenia and bipolar affective disorder resolved
 212W.00	Schizophrenia resolved
 212X.00	Psychosis resolved
 225E.00	O/E - paranoid delusions
 225F.00	O/E - delusion of persecution
-285..11	"Psychotic condition, insight present"
+285..11	Psychotic condition, insight present
 286..11	Poor insight into psychotic condition
 38Q4.00	HCL-32-R1 - hypomania checklist 32 item revised
 8G13100	CBTp - cognitive behavioural therapy for psychosis
@@ -155,9 +155,7 @@ E212200	Schizotypal personality
 Eu05200	[X]Organic delusional [schizophrenia-like] disorder
 Eu05200	[X]Paranoid organic state
 Eu05200	[X]Schizophrenia-like psychosis in epilepsy
-Eu02z12	[X] Presenile psychosis NOS
-Eu02z15	[X] Senile psychosis NOS
-Eu03.11	"[X]Korsakov's psychosis, nonalcoholic"
+Eu03.11	[X]Korsakov's psychosis, nonalcoholic
 Eu04.13	[X]Acute / subacute infective psychosis
 Eu05200	[X]Organic delusional [schizophrenia-like] disorder
 Eu05211	[X]Paranoid organic state
@@ -165,7 +163,7 @@ Eu05212	[X]Schizophrenia-like psychosis in epilepsy
 Eu05300	[X]Organic mood [affective] disorders
 Eu05y11	[X]Epileptic psychosis NOS
 Eu0z.12	[X]Symptomatic psychosis NOS
-Eu2..00	"[X]Schizophrenia, schizotypal and delusional disorders"
+Eu2..00	[X]Schizophrenia, schizotypal and delusional disorders
 Eu20.00	[X]Schizophrenia
 Eu20000	[X]Paranoid schizophrenia
 Eu20011	[X]Paraphrenic schizophrenia
@@ -187,7 +185,7 @@ Eu20y00	[X]Other schizophrenia
 Eu20y11	[X]Cenesthopathic schizophrenia
 Eu20y12	[X]Schizophreniform disord NOS
 Eu20y13	[X]Schizophrenifrm psychos NOS
-Eu20z00	"[X]Schizophrenia, unspecified"
+Eu20z00	[X]Schizophrenia, unspecified
 Eu21.00	[X]Schizotypal disorder
 Eu21.11	[X]Latent schizophrenic reaction
 Eu21.12	[X]Borderline schizophrenia
@@ -210,7 +208,7 @@ Eu22y00	[X]Other persistent delusional disorders
 Eu22y11	[X]Delusional dysmorphophobia
 Eu22y12	[X]Involutional paranoid state
 Eu22y13	[X]Paranoia querulans
-Eu22z00	"[X]Persistent delusional disorder, unspecified"
+Eu22z00	[X]Persistent delusional disorder, unspecified
 Eu23000	[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia
 Eu23011	[X]Bouffee delirante
 Eu23012	[X]Cycloid psychosis
@@ -229,17 +227,17 @@ Eu23z12	[X]Reactive psychosis
 Eu24.00	[X]Induced delusional disorder
 Eu24.11	[X]Folie a deux
 Eu25.00	[X]Schizoaffective disorders
-Eu25000	"[X]Schizoaffective disorder, manic type"
-Eu25011	"[X]Schizoaffective psychosis, manic type"
-Eu25012	"[X]Schizophreniform psychosis, manic type"
-Eu25100	"[X]Schizoaffective disorder, depressive type"
-Eu25111	"[X]Schizoaffective psychosis, depressive type"
-Eu25112	"[X]Schizophreniform psychosis, depressive type"
-Eu25200	"[X]Schizoaffective disorder, mixed type"
+Eu25000	[X]Schizoaffective disorder, manic type
+Eu25011	[X]Schizoaffective psychosis, manic type
+Eu25012	[X]Schizophreniform psychosis, manic type
+Eu25100	[X]Schizoaffective disorder, depressive type
+Eu25111	[X]Schizoaffective psychosis, depressive type
+Eu25112	[X]Schizophreniform psychosis, depressive type
+Eu25200	[X]Schizoaffective disorder, mixed type
 Eu25211	[X]Cyclic schizophrenia
 Eu25212	[X]Mixed schizophrenic and affective psychosis
 Eu25y00	[X]Other schizoaffective disorders
-Eu25z00	"[X]Schizoaffective disorder, unspecified"
+Eu25z00	[X]Schizoaffective disorder, unspecified
 Eu25z11	[X]Schizoaffective psychosis NOS
 Eu2y.00	[X]Other nonorganic psychotic disorders
 Eu2y.11	[X]Chronic hallucinatory psychosis
@@ -250,13 +248,13 @@ Eu30211	[X]Mania with mood-congruent psychotic symptoms
 Eu30212	[X]Mania with mood-incongruent psychotic symptoms
 Eu30213	[X]Manic stupor
 Eu31.12	[X]Manic-depressive psychosis
-Eu31200	"[X]Bipolar affective disorder, current episode manic with psychotic symptoms"
-Eu31500	"[X]Bipolar affective disorder, current episode severe depression with psychotic symptoms"
+Eu31200	[X]Bipolar affective disorder, current episode manic with psychotic symptoms
+Eu31500	[X]Bipolar affective disorder, current episode severe depression with psychotic symptoms
 Eu32300	[X]Severe depressive episode with psychotic symptoms
-Eu32900	"[X]Single major depressive episode, severe, with psychosis, psychosis in remission"
-Eu32A00	"[X]Recurrent major depressive episodes, severe, with psychosis, psychosis in remission"
-Eu33300	"[X]Recurrent depressive disorder, current episode severe with psychotic symptoms"
-Eu33312	"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"
+Eu32900	[X]Single major depressive episode, severe, with psychosis, psychosis in remission
+Eu32A00	[X]Recurrent major depressive episodes, severe, with psychosis, psychosis in remission
+Eu33300	[X]Recurrent depressive disorder, current episode severe with psychotic symptoms
+Eu33312	[X]Manic-depressive psychosis, depressed type with psychotic symptoms
 Eu33314	[X]Recurrent severe episodes of psychogenic depressive psychosis
 Eu33316	[X]Recurrent severe episodes of reactive depressive psychosis
 Eu3z.11	[X]Affective psychosis NOS
@@ -278,10 +276,10 @@ Eu84314	[X]Symbiotic psychosis
 Eu84512	[X]Schizoid disorder of childhood
 F481K00	Visual hallucinations
 R001.00	[D]Hallucinations
-R001000	"[D]Hallucinations, auditory"
-R001100	"[D]Hallucinations, gustatory"
-R001200	"[D]Hallucinations, olfactory"
-R001300	"[D]Hallucinations, tactile"
+R001000	[D]Hallucinations, auditory
+R001100	[D]Hallucinations, gustatory
+R001200	[D]Hallucinations, olfactory
+R001300	[D]Hallucinations, tactile
 R001400	[D]Visual hallucinations
 R001z00	[D]Hallucinations NOS
 Ryu5300	[X]Other hallucinations

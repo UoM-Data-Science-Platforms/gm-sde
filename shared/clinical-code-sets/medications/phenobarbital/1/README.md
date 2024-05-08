@@ -1,6 +1,8 @@
 # Phenobarbital
 
-Any code for a prescription of Phenobarbital. Other names: Phenobarbitone/Gardenal. Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+Any code for a prescription of Phenobarbital. Other names: Phenobarbitone/Gardenal/Luminal.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
 
 ## Prevalence log
 
@@ -8,10 +10,10 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-03-27 | EMIS            | 2528013    |    956 (0.0378%) |     956 (0.0378%) |
-| 2024-03-27 | TPP             | 201816     |     94 (0.0466%) |      94 (0.0466%) |
-| 2024-03-27 | Vision          | 335311     |    141 (0.0421%) |     141 (0.0421%) |
+| 2024-05-02 | EMIS            | 2530927    |    952 (0.0376%) |     952 (0.0376%) |
+| 2024-05-02 | TPP             | 201816     |     94 (0.0466%) |      94 (0.0466%) |
+| 2024-05-02 | Vision          | 335411     |     141 (0.042%) |      141 (0.042%) |
 
 ## Audit log
 
-- Find_missing_codes last run 2024-03-27
+- Find_missing_codes last run 2024-05-02

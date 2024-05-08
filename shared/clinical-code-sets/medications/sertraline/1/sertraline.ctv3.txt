@@ -2,3 +2,5 @@ da51.	Sertraline 50mg tablet
 da52.	Sertraline 100mg tablet
 da53.	Lustral 50mg tablet
 da54.	Lustral 100mg tablet
+da5..	Sertraline
+x02i2	Lustral

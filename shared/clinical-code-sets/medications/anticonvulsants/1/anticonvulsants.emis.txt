@@ -40,7 +40,6 @@
 ^ESCT1215471	Lamotrigine 2mg dispersible tablets sugar free
 ^ESCT1217001	Valproic acid
 ^ESCT1217002	Valproic acid product
-^ESCT1217135	Congenital malformation due to valproic acid
 ^ESCT1218167	Carbamazepine
 ^ESCT1218168	Carbamazepine product
 ^ESCT1220614	Lamotrigine
@@ -108,8 +107,6 @@
 ^ESCT1402844	Sodium valproate 500mg modified-release tablets
 ^ESCT1409202	Sodium valproate 400 mg powder for solution for injection vial
 ^ESCT1409204	Sodium valproate 40 mg/mL oral solution
-^ESCT1419537	Foetal valproate spectrum disorder
-^ESCT1419538	Fetal valproate spectrum disorder
 ^ESCT1436890	Carbagen SR 200mg tablets (Viatris UK Healthcare Ltd)
 ^ESCT1436984	Carbagen SR 400mg tablets (Viatris UK Healthcare Ltd)
 ^ESCT1440872	Epival CR 300mg tablets (G.L. Pharma UK Ltd)
@@ -142,7 +139,6 @@
 ^ESCTCA646781	Carbamazepine
 ^ESCTCA812076	Carbagen SR 200mg tablets (Mylan Ltd)
 ^ESCTCA820666	Carbagen SR 400mg tablets (Mylan Ltd)
-^ESCTCO277333	Congenital malformation due to valproate
 ^ESCTCO865583	Convulex 150mg gastro-resistant capsules (Pfizer Ltd)
 ^ESCTCO865586	Convulex 300mg gastro-resistant capsules (Pfizer Ltd)
 ^ESCTCO865589	Convulex 500mg gastro-resistant capsules (Pfizer Ltd)
@@ -205,8 +201,6 @@
 ^ESCTLA859546	Lamictal 25mg dispersible tablets (GlaxoSmithKline UK Ltd)
 ^ESCTLA859566	Lamictal 100mg dispersible tablets (GlaxoSmithKline UK Ltd)
 ^ESCTLA866476	Lamictal 2mg dispersible tablets (GlaxoSmithKline UK Ltd)
-^ESCTOR316334	Organic compound
-^ESCTOR316335	Organic chemical
 ^ESCTOR806815	Orlept 500mg gastro-resistant tablets (Wockhardt UK Ltd)
 ^ESCTOR819030	Orlept 200mg gastro-resistant tablets (Wockhardt UK Ltd)
 ^ESCTOR830391	Orlept SF 200mg/5ml liquid (Wockhardt UK Ltd)

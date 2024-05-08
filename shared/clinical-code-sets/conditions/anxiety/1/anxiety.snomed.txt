@@ -250,3 +250,173 @@
 89225005	Anxiety about blushing (finding)
 908541000000103	Patient given advice about management of anxiety (situation)
 933461000000100	Referral for guided self-help for anxiety declined (situation)
+109006	Anxiety disorder of childhood OR adolescence
+1380006	Agoraphobia without history of panic disorder with limited symptom attacks
+1686006	Sedative, hypnotic AND/OR anxiolytic-induced anxiety disorder
+1816003	Panic disorder with agoraphobia, severe agoraphobic avoidance AND mild panic attacks
+3158007	Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND panic attacks in partial remission
+4932002	Panic disorder with agoraphobia, moderate agoraphobic avoidance AND mild panic attacks
+5509004	Panic disorder with agoraphobia AND severe panic attacks
+5874002	Anticipatory anxiety, severe
+8185002	Panic disorder with agoraphobia AND moderate panic attacks
+10586006	Occupation-related stress disorder
+11458009	Anticipatory anxiety, mild
+11941006	Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND panic attacks in full remission
+15277004	Hallucinogen-induced anxiety disorder
+19766004	Panic disorder with agoraphobia, mild agoraphobic avoidance AND severe panic attacks
+20876004	Inhalant-induced anxiety disorder
+22230001	Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND panic attacks in full remission
+24781009	Panic disorder with agoraphobia, mild agoraphobic avoidance AND panic attacks in full remission
+30059008	Panic disorder with agoraphobia, severe agoraphobic avoidance AND moderate panic attacks
+31781004	Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND mild panic attacks
+32388005	Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND moderate panic attacks
+34116005	Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND severe panic attacks
+34938008	Alcohol-induced anxiety disorder
+35429005	Anticipatory anxiety
+35607004	Panic disorder with agoraphobia
+36646009	Anticipatory anxiety, moderate
+37868008	Anxiety disorder of adolescence
+37872007	Avoidant disorder of childhood OR adolescence
+38328002	Panic disorder with agoraphobia, severe agoraphobic avoidance AND panic attacks in full remission
+39951001	Cannabis-induced anxiety disorder
+43150009	Panic disorder without agoraphobia with severe panic attacks
+49564006	Panic disorder with agoraphobia, mild agoraphobic avoidance AND moderate panic attacks
+50026000	Psychoactive substance-induced organic anxiety disorder
+50983008	Panic disorder with agoraphobia, mild agoraphobic avoidance AND panic attacks in partial remission
+51493001	Cocaine-induced anxiety disorder
+52910006	Anxiety disorder due to a general medical condition
+53467004	Anxiety disorder of childhood
+53956006	Panic disorder without agoraphobia with panic attacks in partial remission
+55967005	Phencyclidine-induced anxiety disorder
+59923000	Panic disorder with agoraphobia AND panic attacks in full remission
+61212007	Panic disorder with agoraphobia, severe agoraphobic avoidance AND severe panic attacks
+61387006	Moderate anxiety
+62351001	Generalized social phobia
+63701002	Panic disorder with agoraphobia, mild agoraphobic avoidance AND mild panic attacks
+63909006	Panic disorder with agoraphobia AND panic attacks in partial remission
+64060000	Panic disorder with agoraphobia, moderate agoraphobic avoidance AND panic attacks in full remission
+65064003	Panic disorder without agoraphobia with moderate panic attacks
+65673007	Anxiety disorder
+69479009	Anxiety hyperventilation
+70655008	Caffeine-induced anxiety disorder
+70997004	Mild anxiety
+72861004	Panic disorder without agoraphobia with mild panic attacks
+74010007	Panic disorder with agoraphobia, severe agoraphobic avoidance AND panic attacks in partial remission
+76812003	Panic disorder with agoraphobia, moderate agoraphobic avoidance AND panic attacks in partial remission
+76868007	Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND mild panic attacks
+79823003	Panic
+80583007	Severe anxiety (panic)
+81350009	Free-floating anxiety
+82339009	Amphetamine-induced anxiety disorder
+82415003	Agoraphobia without history of panic disorder without limited symptom attacks
+82494000	Panic disorder without agoraphobia with panic attacks in full remission
+82738004	Panic disorder with agoraphobia, moderate agoraphobic avoidance AND moderate panic attacks
+83253003	Shyness disorder of childhood
+83631006	Panic disorder with agoraphobia, moderate agoraphobic avoidance AND severe panic attacks
+85061001	Separation anxiety disorder of childhood, early onset
+87798009	Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND moderate panic attacks
+89948007	Panic disorder with agoraphobia AND mild panic attacks
+90790003	Avoidant disorder of adolescence
+111487009	Dream anxiety disorder
+111490003	Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND severe panic attacks
+111491004	Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND panic attacks in partial remission
+129869000	Death anxiety
+139476005	Anxiousness (& symptom)
+139598003	Anxious cognitions
+139948007	O/E - anxious
+154882009	(Anxiety state (& [states] or [panic attack])) or (pseudocyesis)
+154884005	Phobic anxiety disorder
+154964007	Mixed anxiety and depressive disorder
+162192002	Anxiousness (& symptom)
+191703000	Anxiety disorder
+191704006	Anxiety state unspecified
+191706008	Generalised anxiety disorder
+191707004	Mixed anxiety and depressive disorder
+191711005	Anxiety state NOS
+192014006	Psychogenic rumination
+192041001	Acute situational disturbance
+192044009	Stress reaction causing mixed disturbance of emotion and conduct
+192109009	Childhood overanxious disorder
+192110004	Childhood and adolescent fearfulness disturbance
+192111000	Disturbance of anxiety and fearfulness in childhood and adolescence NOS
+192192006	Organic anxiety disorder
+192393009	[X]Phobic anxiety disorders
+192397005	[X]Other phobic anxiety disorders
+192398000	[X]Phobic anxiety disorder, unspecified
+192399008	[X]Other anxiety disorders
+192400001	[X]Panic disorder [episodic paroxysmal anxiety]
+192401002	Generalised anxiety disorder
+192402009	[X]Mixed anxiety and depressive disorder (& mild anxiety depression)
+192403004	[X]Other mixed anxiety disorders
+192404005	[X] Anxiety disorders: [other specified] or [anxiety hysteria]
+192405006	[X]Anxiety disorder, unspecified
+192459009	[X] Nightmares or dream anxiety disorder
+192491005	Anxious personality disorder
+192612006	[X] Social anxiety disorder of childhood (avoidant disorder)
+225638007	Anxiety about resuming sexual relations
+225639004	Worried about not coping with baby
+225640002	Worried about being a bad father
+225641003	Worried about being a bad mother
+225642005	Anxiety about not coping with parenthood
+247649009	Anxious cognitions
+247814004	Anxiety about blushing
+268714001	[X]Other specified anxiety disorders
+270472006	Maternal concern
+279611005	Shell shock
+286544004	Panic
+318784009	Posttraumatic stress disorder, delayed onset
+403593004	Phobic fear of skin cancer
+426174008	Chronic stress disorder
+428687006	Nightmares associated with chronic post-traumatic stress disorder
+431432003	Anxiety about loss of memory
+443919007	Complex posttraumatic stress disorder
+698693004	Adjustment disorder with anxious mood in remission
+723913009	Olfactory reference disorder
+724654009	Anxiety disorder caused by opioid
+724693000	Obsessive compulsive disorder caused by cocaine
+724708007	Anxiety disorder caused by methylenedioxymethamphetamine
+724722007	Anxiety disorder caused by dissociative drug
+724723002	Anxiety disorder caused by ketamine
+724730008	Obsessive compulsive disorder caused by psychoactive substance
+737341006	Anxiety disorder caused by synthetic cannabinoid
+762331007	Anxiety disorder caused by stimulant
+762332000	Obsessive compulsive disorder caused by stimulant
+762515000	Anxiety disorder caused by synthetic cathinone
+762516004	Obsessive compulsive disorder caused by synthetic cathinone
+782501005	Adjustment disorder with mixed anxiety and depressed mood
+788866004	Anxiety due to dementia
+1010649005	Acute vestibular syndrome due to anxiety and fear
+22621000119103	Anxiety disorder caused by drug
+41201000000107	Chronic anxiety
+41211000000109	Recurrent anxiety
+78541000000103	Chronic anxiety
+78551000000100	Recurrent anxiety
+94641000119109	Anxiety in pregnancy
+323331000000106	Anxiety about loss of memory
+323341000000102	Anxiety about lethargy
+323351000000104	Anxiety about mood
+402191000000101	[X] Anxiety disorders: [other specified] or [anxiety hysteria]
+402951000000107	[X]Other phobic anxiety disorders
+416621000000108	[X]Panic disorder [episodic paroxysmal anxiety]
+450751000000102	[X]Anxiety disorder, unspecified
+464911000000101	[X]Phobic anxiety disorder, unspecified
+468761000000105	[X]Other anxiety disorders
+469151000000104	[X]Other specified anxiety disorders
+472131000000109	[X]Phobic anxiety disorders
+478661000000105	[X]Other mixed anxiety disorders
+621271000000109	Anxiety state unspecified
+633361000000109	Anxiety state NOS
+657791000000107	Disturbance of anxiety and fearfulness in childhood and adolescence NOS
+887741000000102	Anxiety about breathlessness
+887751000000104	Anxiety about breathlessness
+10743001000119103	Anxiety disorder in mother complicating childbirth
+12398201000119102	Anxiety disorder caused by methamphetamine
+16264621000119109	Recurrent mild major depressive disorder co-occurrent with anxiety
+16264821000119108	Recurrent severe major depressive disorder co-occurrent with anxiety
+16264901000119109	Recurrent moderate major depressive disorder co-occurrent with anxiety
+16265061000119105	Recurrent major depressive disorder co-occurrent with anxiety in full remission
+16265301000119106	Recurrent major depressive disorder in partial remission co-occurrent with anxiety
+16265701000119107	Illness anxiety disorder
+16265951000119109	Mild major depressive disorder co-occurrent with anxiety single episode
+16266831000119100	Moderate major depressive disorder co-occurrent with anxiety single episode
+16266991000119108	Severe major depressive disorder co-occurrent with anxiety single episode

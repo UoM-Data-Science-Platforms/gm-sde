@@ -760,3 +760,6 @@
 204111000001102	Gardenal Sodium 200mg/1ml solution for injection ampoules (Concord Pharmaceutical Ltd) (product)
 9488501000001107	Gardenal Sodium (product)
 218601000001100	Gardenal Sodium 200mg/1mL injection
+1962301000001105	Luminal 15mg tablet
+1962401000001102	Luminal 30mg tablet
+1962501000001103	Luminal 60mg tablet

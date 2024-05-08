@@ -17,3 +17,12 @@ R036.00	[D]Polyphagia
 R036000	[D]Excessive eating
 R036011	[D]Bulimia NOS
 R036z00	[D]Polyphagia NOS
+1467.00	H/O: anorexia nervosa
+1FF..00	Binge eating
+E275.00	Other and unspecified non-organic eating disorders
+E275000	Unspecified non-organic eating disorder
+E275y00	Other specified non-organic eating disorder
+E275z00	Non-organic eating disorder NOS
+Eu50.00	[X]Eating disorders
+Eu50y00	[X]Other eating disorders
+Eu50z00	[X]Eating disorder, unspecified

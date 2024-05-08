@@ -1,5 +1,5 @@
 --┌──────────────────────────────────────────┐
---│ SDE Lighthouse study 03 - Kontopantelis  │
+--│ SDE Lighthouse study 06 - Chen           │
 --└──────────────────────────────────────────┘
 
 --Just want the output, not the messages
@@ -7,18 +7,28 @@ SET NOCOUNT ON;
 
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
-SET @StartDate = '2006-01-01'; -- CHECK THIS AND  - CURRENTLY EXCLUDING ANY PATIENTS THAT WEREN'T 18 IN 2006
-SET @EndDate = '2022-12-31';
+SET @StartDate = '2017-01-01';
+SET @EndDate = '2023-12-31';
 
 --> EXECUTE query-build-lh006-cohort.sql
+
+--> EXECUTE query-patient-sex.sql
+--> EXECUTE query-patient-lsoa.sql
+--> EXECUTE query-patient-imd.sql
+--> EXECUTE query-patient-practice-and-ccg.sql
 
 --bring together for final output
 --patients in main cohort
 SELECT	 PatientId = FK_Patient_Link_ID
-		,YearOfBirth
-		,Sex
-		,LSOA_Code
-		,EthnicMainGroup ----- CHANGE TO MORE SPECIFIC ETHNICITY ?
-		,IMD2019Decile1IsMostDeprived10IsLeastDeprived
-		,DeathDate
-FROM #Cohort m
+		,p.YearOfBirth
+		,sex.Sex
+		,LSOA = lsoa.LSOA_Code
+		,Ethnicity = p.EthnicGroupDescription
+		,imd.IMD2019Decile1IsMostDeprived10IsLeastDeprived
+		,DeathYearAndMonth,
+		,prac.GPPracticeCode
+FROM #Cohort p
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Patient_Link_ID

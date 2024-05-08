@@ -18,3 +18,51 @@ da77.00	VENLAFAXINE 75mg m/r capsules
 da75.00	*VENLAFAXINE 50mg tablets
 da72.00	VENLAFAXINE 75mg tablets
 da71.00	VENLAFAXINE 37.5mg tablets
+da73.00	*EFEXOR 37.5mg tablets
+da74.00	*EFEXOR 75mg tablets
+da76.00	*EFEXOR 50mg tablets
+da78.00	EFEXOR XL 75mg m/r capsules
+da7a.00	VENAXX XL 150mg m/r capsules
+da7A.00	EFEXOR XL 150mg m/r capsules
+da7b.00	VAXALIN XL 75mg m/r capsules
+da7B.00	RODOMEL XL 75mg m/r capsules
+da7c.00	VAXALIN XL 150mg m/r capsules
+da7C.00	RODOMEL XL 150mg m/r capsules
+da7d.00	ALVENTA XL 75mg m/r capsules
+da7D.00	WINFEX XL 75mg m/r capsules
+da7e.00	ALVENTA XL 150mg m/r capsules
+da7E.00	WINFEX XL 150mg m/r capsules
+da7f.00	RANFAXINE XL 150mg m/r capsules
+da7g.00	RANFAXINE XL 75mg m/r capsules
+da7H.00	VIEPAX XL 75mg m/r tablets
+da7j.00	TONPULAR XL 75mg m/r capsules
+da7J.00	VIEPAX XL 150mg m/r tablets
+da7k.00	TONPULAR XL 150mg m/r capsules
+da7l.00	FORAVEN XL 75mg m/r capsules
+da7L.00	*TARDCAPS XL 75mg m/r capsules
+da7m.00	FORAVEN XL 150mg m/r capsules
+da7M.00	*TARDCAPS XL 150mg m/r capsule
+da7n.00	DEPEFEX XL 75mg m/r capsules
+da7N.00	VIEPAX 37.5mg tablets
+da7o.00	DEPEFEX XL 150mg m/r capsules
+da7O.00	VIEPAX 75mg tablets
+da7p.00	VENLALIC XL 37.5mg m/r tablets
+da7P.00	VENSIR XL 75mg m/r capsules
+da7Q.00	VENSIR XL 150mg m/r capsules
+da7r.00	SUNVENIZ XL 75mg m/r tablets
+da7R.00	TIFAXIN XL 75mg m/r capsules
+da7s.00	SUNVENIZ XL 150mg m/r tablets
+da7S.00	TIFAXIN XL 150mg m/r capsules
+da7T.00	VEXARIN XL 75mg m/r capsules
+da7U.00	VEXARIN XL 150mg m/r capsules
+da7V.00	VENLALIC XL 75mg m/r tablets
+da7W.00	VENLALIC XL 150mg m/r tablets
+da7X.00	VENLALIC XL 225mg m/r tablets
+da7Z.00	VENAXX XL 75mg m/r capsules
+da7v.00	EFEXOR XL 225mg m/r capsules
+da7u.00	VENLADEX XL 150mg m/r tablets
+da7t.00	VENLADEX XL 75mg m/r tablets
+da7i.00	BONILUX XL 150mg m/r capsules
+da7h.00	BONILUX XL 75mg m/r capsules
+da7G.00	TRIXAT XL 150mg m/r capsules
+da7F.00	TRIXAT XL 75mg m/r capsules

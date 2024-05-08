@@ -143,3 +143,61 @@ ESOR37169NEMIS	Escitalopram  Oral Drops, Solution  Sugar Free 20 mg/ml
 ESTA13085NEMIS	Escitalopram  Tablets  10 mg
 ESTA15859NEMIS	Escitalopram  Tablets  20 mg
 ESTA16904NEMIS	Escitalopram  Tablets  5 mg
+^ESCT1206866	Escitalopram in oral dosage form
+^ESCT1206867	Product containing escitalopram in oral dosage form
+^ESCT1229619	Escitalopram
+^ESCT1229620	Escitalopram product
+^ESCT1266850	Cipralex 10mg tablets (CST Pharma Ltd)
+^ESCT1266851	Cipralex 10mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1354886	Escitalopram only product
+^ESCT1358443	Escitalopram only product in oral dose form
+^ESCT1382525	Escitalopram (as escitalopram oxalate) 1 mg/mL oral solution
+^ESCT1386480	Escitalopram-containing product in oral dose form
+^ESCT1438694	Escitalopram 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438695	Escitalopram 20mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438696	Escitalopram 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438698	Escitalopram 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438700	Escitalopram 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438701	Escitalopram 5mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCTCI1002254	Cipralex 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI1002255	Cipralex 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI1002256	Cipralex 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI1002257	Cipralex 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI1008648	Cipralex 10mg tablets (Necessity Supplies Ltd)
+^ESCTCI1008649	Cipralex 10mg tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTCI1008651	Cipralex 20mg tablets (Necessity Supplies Ltd)
+^ESCTCI1008652	Cipralex 20mg tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTCI1012405	Cipralex 20mg tablets (DE Pharmaceuticals)
+^ESCTCI1012406	Cipralex 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI1020915	Cipralex 5mg tablets (DE Pharmaceuticals)
+^ESCTCI1020916	Cipralex 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI1121382	Cipralex 20mg tablets (Lexon (UK) Ltd)
+^ESCTCI1121383	Cipralex 20mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTCI914413	Cipralex
+^ESCTCI929938	Cipralex 10mg tablets (Waymade Healthcare Plc)
+^ESCTCI929941	Cipralex 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI939181	Cipralex 20mg tablets (Waymade Healthcare Plc)
+^ESCTCI939182	Cipralex 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI959246	Cipralex 10mg tablets (Dowelhurst Ltd)
+^ESCTCI959247	Cipralex 10mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCI959248	Cipralex 20mg tablets (Dowelhurst Ltd)
+^ESCTCI959249	Cipralex 20mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCI961776	Cipralex 5mg tablets (Waymade Healthcare Plc)
+^ESCTCI961777	Cipralex 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI966407	Cipralex 10mg tablets (DE Pharmaceuticals)
+^ESCTCI966408	Cipralex 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI988796	Cipralex 10mg tablets (Lexon (UK) Ltd)
+^ESCTCI988798	Cipralex 10mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTCI992549	Cipralex 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCI992550	Cipralex 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTCI992552	Cipralex 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCI992553	Cipralex 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTCI992554	Cipralex 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCI992555	Cipralex 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTES1140322	Escitalopram 20mg/ml oral drops sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTES1140323	Escitalopram 20mg/ml oral drops sugar free (Colorama Pharmaceuticals Ltd) 15 ml
+^ESCTES655283	Escitalopram
+^ESCTES677395	Escitalopram 5mg/5mL oral solution
+^ESCTES970033	Escitalopram 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTES970034	Escitalopram 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTPR655284	Product containing escitalopram

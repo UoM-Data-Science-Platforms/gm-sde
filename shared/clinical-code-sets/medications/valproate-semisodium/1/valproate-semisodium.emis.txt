@@ -61,3 +61,6 @@ VAE/12514NEMIS	Valproic Acid (As Semisodium Valproate)  E/c tablets  500 mg
 ^ESCTDI640918	Divalproex sodium 125mg tablet delayed release
 ^ESCTDI640919	Divalproex sodium 250mg tablet delayed release
 ^ESCTDI640920	Divalproex sodium 500mg m/r tablet
+^ESCTVA258956	Valproate semisodium
+^ESCTDE914717	Depakote
+^ESCTDI258957	Divalproex sodium

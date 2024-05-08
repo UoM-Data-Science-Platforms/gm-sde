@@ -1,0 +1,8 @@
+B338.	Squamous cell carcinoma of skin
+BB1D.	[M]Spindle cell carcinoma
+BB1N.	[M]Small cell-large cell carcinoma
+BB24.	[M]Verrucous carcinoma NOS
+BB26.	[M]Papillary squamous cell carcinoma
+BB2B.	[M]Squamous cell carcinoma, metastatic NOS
+BB2F.	[M]Squamous cell carcinoma, spindle cell type
+BB2J.	[M]Squamous cell carcinoma, microinvasive

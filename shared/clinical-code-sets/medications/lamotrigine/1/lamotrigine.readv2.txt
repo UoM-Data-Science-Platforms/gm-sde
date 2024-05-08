@@ -14,3 +14,7 @@ dnfD.00	LAMICTAL 200mg tablets
 dnfE.00	LAMOTRIGINE 200mg tablets
 dnfJ.00	LAMICTAL 2mg dispersible tablets
 dnfz.00	LAMOTRIGINE 2mg dispersible tablets
+dnf..00	LAMOTRIGINE
+dnfH.00	LAMICTAL NON-VALPROATE ADD-ON 50mg starter pack
+dnfG.00	LAMICTAL VALPROATE ADD-ON 25mg starter pack
+dnfF.00	LAMICTAL MONOTHERAPY 25mg starter pack

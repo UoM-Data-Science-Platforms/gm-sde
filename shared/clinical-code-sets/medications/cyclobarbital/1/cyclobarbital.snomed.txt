@@ -1,1 +1,4 @@
 718401000001107	Cyclobarbitone 200mg tablet
+1951001000001108	Phanodorm 200mg tablet
+346394000	Product containing cyclobarbital (medicinal product)
+775414006	Product containing only cyclobarbital (medicinal product)
