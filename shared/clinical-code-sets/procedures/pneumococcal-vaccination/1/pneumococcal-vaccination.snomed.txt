@@ -23,3 +23,6 @@
 10245211000001108	Pneumococcal polysaccharide conjugated vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
 27396511000001105	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (Merck Sharp & Dohme Ltd)
 3003511000001107	Pneumococcal polysaccharide vaccine solution for injection 0.5ml pre-filled syringes
+1324631000000100	Pneumococcal vaccination given by other healthcare provider (situation)
+1119367000	Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (procedure)
+571631000119106	Administration of pneumococcal polysaccharide 23 valent vaccine (procedure)
