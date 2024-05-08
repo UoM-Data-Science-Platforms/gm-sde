@@ -1,0 +1,145 @@
+^ESCT1248800	Main spoken language Iba
+^ESCT1249078	Main spoken language Iban
+^ESCTMA605961	Main spoken language Iba
+^ESCTMA675005	Main spoken language Croat
+^ESCTMA676350	Main spoken language French Cr?ole
+^ESCTMA676358	Main spoken language Ganda
+^ESCTMA751104	Main spoken language Abkhaz
+^ESCTMA751114	Main spoken language Faroese
+^ESCTMA751439	Main spoken language Jonkha
+^ESCTMA751447	Main spoken language Occidental
+^ESCTMA751450	Main spoken language West Greenlandic
+^ESCTMA751453	Main spoken language Kanarese
+^ESCTMA751456	Main spoken language Ruanda
+^ESCTMA751457	Main spoken language Rwanda
+^ESCTMA751459	Main spoken language Kirgiz
+^ESCTMA751463	Main spoken language Moldovan
+^ESCTMA751465	Main spoken language Nauruan
+^ESCTMA751477	Main spoken language Swazi
+^ESCTMA751479	Main spoken language Tartar
+^ESCTMA751483	Main spoken language Tonga
+^ESCTMA751486	Main spoken language Uigur
+^ESCTMA751493	Main spoken language Chuang
+^ESCTMA822830	Main spoken language Fulani
+^ESCTMA822831	Main spoken language Fulah
+^ESCTMA822832	Main spoken language Kikuyu
+^ESCTMA835582	Main spoken language Avaric
+^ESCTMA835583	Main spoken language Avestan
+^ESCTMA835584	Main spoken language Bambara
+^ESCTMA835585	Main spoken language Bosnian
+^ESCTMA835586	Main spoken language Chamorro
+^ESCTMA835587	Main spoken language Chechen
+^ESCTMA835588	Main spoken language Chinese
+^ESCTMA835589	Main spoken language Church Slavic
+^ESCTMA835590	Main spoken language Church Slavonic
+^ESCTMA835592	Main spoken language Chuvash
+^ESCTMA835593	Main spoken language Cornish
+^ESCTMA835594	Main spoken language Cree
+^ESCTMA835595	Main spoken language Dhivehi
+^ESCTMA835596	Main spoken language Ewe
+^ESCTMA835597	Main spoken language Haitian
+^ESCTMA835598	Main spoken language Herero
+^ESCTMA835600	Main spoken language Hiri Motu
+^ESCTMA835601	Main spoken language Ido
+^ESCTMA835602	Main spoken language Kanuri
+^ESCTMA835603	Main spoken language Komi
+^ESCTMA835604	Main spoken language Kongo
+^ESCTMA835605	Main spoken language Kuanyama
+^ESCTMA835606	Main spoken language Latin
+^ESCTMA835607	Main spoken language Limburgan
+^ESCTMA835608	Main spoken language Luba-Katanga
+^ESCTMA835610	Main spoken language Luxembourgish
+^ESCTMA835611	Main spoken language Manx
+^ESCTMA835612	Main spoken language Marshallese
+^ESCTMA835613	Main spoken language Navajo
+^ESCTMA835614	Main spoken language Navaho
+^ESCTMA835615	Main spoken language Ndonga
+^ESCTMA835616	Main spoken language Northern Ndebele
+^ESCTMA835617	Main spoken language North Ndebele
+^ESCTMA835618	Main spoken language Northern Sami
+^ESCTMA835619	Main spoken language Norwegian Bokmal
+^ESCTMA835620	Main spoken language Norwegian Bokm?l
+^ESCTMA835621	Main spoken language Norwegian Nynorsk
+^ESCTMA835622	Main spoken language Ojibwa
+^ESCTMA835623	Main spoken language Ossetian
+^ESCTMA835624	Main spoken language Pali
+^ESCTMA835627	Main spoken language Sanskrit
+^ESCTMA835628	Main spoken language Sardinian
+^ESCTMA835629	Main spoken language Scottish Gaelic
+^ESCTMA835630	Main spoken language Nuosu
+^ESCTMA835632	Main spoken language South Ndebele
+^ESCTMA835633	Main spoken language Tahitian
+^ESCTMA835634	Main spoken language Venda
+^ESCTMA835636	Main spoken language Volap?k
+^ESCTMA835637	Main spoken language Volapuk
+^ESCTMA835638	Main spoken language Walloon
+^ESCTMA835639	Main spoken language Western Frisian
+EMISNQBA9	Main spoken language Konkani
+EMISNQMA107	Main spoken language Sorani Kurdish
+EMISNQMA17	Main spoken language Romanian
+EMISNQMA18	Main spoken language Bulgarian
+EMISNQMA23	Main spoken language Finnish
+EMISNQMA26	Main spoken language Slovak
+EMISNQMA28	Main spoken language Aragonese
+EMISNQMA29	Main spoken language Avaric
+EMISNQMA30	Main spoken language Avestan
+EMISNQMA31	Main spoken language Bambara
+EMISNQMA32	Main spoken language Bosnian
+EMISNQMA33	Main spoken language Chamorro
+EMISNQMA34	Main spoken language Chechen
+EMISNQMA35	Main spoken language Chinese
+EMISNQMA36	Main spoken language Church Slavic
+EMISNQMA37	Main spoken language Chuvash
+EMISNQMA38	Main spoken language Cornish
+EMISNQMA39	Main spoken language Cree
+EMISNQMA40	Main spoken language Divehi
+EMISNQMA41	Main spoken language Ewe
+EMISNQMA42	Main spoken language Faroese
+EMISNQMA43	Main spoken language Western Frisian
+EMISNQMA44	Main spoken language Fulah
+EMISNQMA45	Main spoken language Manx
+EMISNQMA46	Main spoken language Gujarati
+EMISNQMA47	Main spoken language Haitian
+EMISNQMA48	Main spoken language Herero
+EMISNQMA49	Main spoken language Hiri Motu
+EMISNQMA50	Main spoken language Ido
+EMISNQMA51	Main spoken language Sichuan Yi
+EMISNQMA52	Main spoken language Kanuri
+EMISNQMA53	Main spoken language Kikuyu
+EMISNQMA54	Main spoken language Komi
+EMISNQMA55	Main spoken language Kongo
+EMISNQMA56	Main spoken language Kuanyama
+EMISNQMA57	Main spoken language Latin
+EMISNQMA58	Main spoken language Limburgan
+EMISNQMA59	Main spoken language Luxembourgish
+EMISNQMA60	Main spoken language Luba-Katanga
+EMISNQMA61	Main spoken language Marshallese
+EMISNQMA62	Main spoken language Navajo
+EMISNQMA63	Main spoken language Ndebele, South
+EMISNQMA64	Main spoken language Ndebele, North
+EMISNQMA65	Main spoken language Ndonga
+EMISNQMA66	Main spoken language Norwegian Nynorsk
+EMISNQMA67	Main spoken language Bokmal, Norwegian
+EMISNQMA68	Main spoken language Chichewa
+EMISNQMA69	Main spoken language Ojibwa
+EMISNQMA70	Main spoken language Ossetian
+EMISNQMA71	Main spoken language Pali
+EMISNQMA72	Main spoken language Pushto
+EMISNQMA73	Main spoken language Sanskrit
+EMISNQMA74	Main spoken language Northern Sami
+EMISNQMA75	Main spoken language Sardinian
+EMISNQMA76	Main spoken language Tahitian
+EMISNQMA77	Main spoken language Venda
+EMISNQMA78	Main spoken language Volapuk
+EMISNQMA79	Main spoken language Walloon
+EMISNQMA83	Main spoken language Bamoun
+EMISNQMA84	Main spoken language Tetum
+EMISNQMA85	Main spoken language NOS
+ESCTMA8	Main spoken language Nyanja
+ESCTMA8-1	Main spoken language Chewa
+^ESCTUS450746	Using British sign language, function
+^ESCTUS688367	Uses British sign language
+^ESCTUS688368	Uses BSL (British Sign Language)
+^ESCTUS688369	Uses Makaton sign language
+^ESCTUS688370	Uses Makaton
+EMISNQFI35	First language not English
