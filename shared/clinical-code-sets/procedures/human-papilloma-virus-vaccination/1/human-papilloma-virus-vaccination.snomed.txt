@@ -1,0 +1,32 @@
+429396009	Administration of second dose of vaccine product containing only Human papillomavirus antigen (procedure)
+1209197008	Vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigens (medicinal product)
+149481000000105	Administration of vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigens (procedure)
+424125009	Quadrivalent human papillomavirus recombinant vaccine 0.5mL vial (product)
+33493111000001108	Gardasil 9 vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd) (product)
+308731000000109	First human papillomavirus vaccination
+303181000000101	Third human papillomavirus vaccination (procedure)
+309161000000108	Second human papillomavirus vaccination
+1209199006	Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 vaccination given (situation)
+777611000000100	Quadrivalent human papillomavirus vaccination (procedure)
+422732009	Quadrivalent human papillomavirus recombinant vaccine 0.5mL prefilled syringe (product)
+428741008	Administration of first dose of vaccine product containing only Human papillomavirus antigen (procedure)
+33494711000001106	Human papillomavirus (type 6, 11, 16, 18, 31, 33, 45, 52, 58) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes (product)
+303151000000107	Second human papillomavirus vaccination (procedure)
+2001000221108	Vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens (medicinal product)
+10880311000001107	Gardasil vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd) 1 pre-filled disposable injection (product)
+10879911000001108	Human papillomavirus vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes 1 pre-filled disposable injection (product)
+965851000000105	Human papillomavirus vaccination given by other healthcare provider (situation)
+734152003	Administration of vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens (procedure)
+303121000000102	First human papillomavirus vaccination (procedure)
+10880211000001104	Gardasil vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd) (product)
+734154002	Administration of human papilloma virus type 6, 11, 16, and 18 vaccine done (situation)
+12299011000001104	Human papillomavirus (type 16, 18) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes (product)
+149501000000101	Vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigens (medicinal product)
+309151000000105	First human papillomavirus vaccination
+308751000000102	Third human papillomavirus vaccination
+428931000	Administration of third dose of vaccine product containing only Human papillomavirus antigen (procedure)
+308741000000100	Second human papillomavirus vaccination
+12238911000001100	Cervarix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline) (product)
+10893611000001107	Human papillomavirus vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes (product)
+309171000000101	Third human papillomavirus vaccination
+1209198003	Administration of vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigen (procedure)
