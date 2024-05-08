@@ -53,7 +53,6 @@
 ^ESCTZI805190	Zimovane LS 3.75mg tablets (Sanofi)
 ^ESCTZI826033	Zimovane 7.5mg tablets (Sanofi)
 ^ESCTZO406900	Zolpidem
-^ESCTZO411787	Zolpidem measurement
 ^ESCTZO609071	Zopiclone
 ^ESCTZO609073	Zopiclone 7.5mg tablets
 ^ESCTZO609075	Zopiclone 7.5 mg oral tablet
@@ -82,3 +81,333 @@ ZOTA24422EMIS	Zolpidem Tartrate  Tablets  5 mg
 ZOTA29572EMIS	Zopiclone  Tablets  3.75 mg
 ZOTA30024EMIS	Zolpidem Tartrate  Tablets  10 mg
 ZOTA9167BRIDL	Zopiclone  Tablets  7.5 mg
+^ESCT1177481	Zopiclone 3.75mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1177482	Zopiclone 3.75mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1177483	Zopiclone 7.5mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1177484	Zopiclone 7.5mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1179505	Zopiclone 3.75mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1183421	Zopiclone 7.5mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1183716	Zopiclone 7.5mg tablets (Mylan)
+^ESCT1188659	Zopiclone 3.75mg tablets (Mylan)
+^ESCT1189263	Zolpidem 10mg tablets (Mylan)
+^ESCT1189264	Zolpidem 10mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1264368	Zopiclone 3.75mg tablets (Ria Generics Ltd)
+^ESCT1264369	Zopiclone 3.75mg tablets (Ria Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1264370	Zopiclone 7.5mg tablets (Ria Generics Ltd)
+^ESCT1264371	Zopiclone 7.5mg tablets (Ria Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1265890	Zolpidem 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1265891	Zolpidem 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1266458	Zopiclone 3.75mg tablets (Aristo Pharma Ltd)
+^ESCT1266459	Zopiclone 3.75mg tablets (Aristo Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1266462	Zopiclone 7.5mg tablets (Aristo Pharma Ltd)
+^ESCT1266463	Zopiclone 7.5mg tablets (Aristo Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1357183	Zaleplon only product
+^ESCT1357205	Zolpidem only product
+^ESCT1357207	Zopiclone only product
+^ESCT1360201	Zaleplon only product in oral dose form
+^ESCT1360219	Zolpidem only product in oral dose form
+^ESCT1360221	Zopiclone only product in oral dose form
+^ESCT1364445	Zolpidem tartrate 10 mg orodispersible tablet
+^ESCT1364446	Zolpidem tartrate 10 mg sublingual tablet
+^ESCT1364447	Zolpidem tartrate 5 mg orodispersible tablet
+^ESCT1364448	Zolpidem tartrate 5 mg sublingual tablet
+^ESCT1365017	Zolpidem-containing product in oromucosal dose form
+^ESCT1365807	Zolpidem only product in oromucosal dose form
+^ESCT1374063	Zopiclone 7.5mg tablets (Milpharm Ltd)
+^ESCT1374064	Zopiclone 7.5mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1409574	Zopiclone 3.75mg tablets (Accord Healthcare Ltd)
+^ESCT1409682	Zopiclone 7.5mg tablets (Accord Healthcare Ltd)
+^ESCT1409822	Zopiclone 3.75mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1409823	Zopiclone 7.5mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422545	Zolpidem 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422546	Zolpidem 5mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422547	Zolpidem 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422548	Zolpidem 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1425589	Zopiclone 7.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425687	Zopiclone 3.75mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426017	Zopiclone 3.75mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426018	Zopiclone 7.5mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426573	Zolpidem 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426575	Zolpidem 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426578	Zolpidem 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426579	Zolpidem 5mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1429560	Zopiclone 7.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429561	Zopiclone 7.5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1429564	Zopiclone 3.75mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429565	Zopiclone 3.75mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1429572	Zolpidem 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429573	Zolpidem 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1429574	Zolpidem 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429575	Zolpidem 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1436762	Zopiclone 7.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437083	Zopiclone 3.75mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437179	Zopiclone 3.75mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437180	Zopiclone 7.5mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437762	Zolpidem 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437763	Zolpidem 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTSO1001505	Sonata 5mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTSO1001506	Sonata 5mg capsules (Mawdsley-Brooks & Company Ltd) 14 capsule
+^ESCTSO854869	Sonata 5mg capsules (Meda Pharmaceuticals Ltd) 14 capsule 2 x 7 capsules
+^ESCTSO854876	Sonata 10mg capsules (Meda Pharmaceuticals Ltd) 14 capsule 2 x 7 capsules
+^ESCTSO878307	Sonata 5mg capsules (Waymade Healthcare Plc)
+^ESCTSO878309	Sonata 5mg capsules (Waymade Healthcare Plc) 14 capsule
+^ESCTSO878310	Sonata 10mg capsules (Waymade Healthcare Plc)
+^ESCTSO878312	Sonata 10mg capsules (Waymade Healthcare Plc) 14 capsule
+^ESCTSO916355	Sonata
+^ESCTSO929600	Sonata 5mg capsules (Dowelhurst Ltd)
+^ESCTSO929601	Sonata 5mg capsules (Dowelhurst Ltd) 14 capsule
+^ESCTSO929604	Sonata 10mg capsules (Dowelhurst Ltd)
+^ESCTSO929605	Sonata 10mg capsules (Dowelhurst Ltd) 14 capsule
+^ESCTSO967908	Sonata 5mg capsules (DE Pharmaceuticals)
+^ESCTSO967909	Sonata 5mg capsules (DE Pharmaceuticals) 14 capsule
+^ESCTSO967910	Sonata 10mg capsules (DE Pharmaceuticals)
+^ESCTSO967912	Sonata 10mg capsules (DE Pharmaceuticals) 14 capsule
+^ESCTSO971477	Sonata 5mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTSO971481	Sonata 5mg capsules (Sigma Pharmaceuticals Plc) 14 capsule
+^ESCTST860049	Stilnoct 10mg tablets (Sanofi) 28 tablet 2 x 14 tablets
+^ESCTST860115	Stilnoct 5mg tablets (Sanofi) 28 tablet 2 x 14 tablets
+^ESCTST878316	Stilnoct 10mg tablets (Waymade Healthcare Plc)
+^ESCTST878317	Stilnoct 10mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTST879723	Stilnoct 10mg tablets (Dowelhurst Ltd)
+^ESCTST879724	Stilnoct 10mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTST916436	Stilnoct
+^ESCTST951089	Stilnoct 5mg tablets (Waymade Healthcare Plc)
+^ESCTST951090	Stilnoct 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTST951091	Stilnoct 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTST989966	Stilnoct 10mg tablets (Lexon (UK) Ltd)
+^ESCTST989967	Stilnoct 10mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTZA843184	Zaleplon 5mg capsules 14 capsule
+^ESCTZA848282	Zaleplon 10mg capsules 14 capsule
+^ESCTZI1025170	Zimovane 7.5mg tablets (Lexon (UK) Ltd)
+^ESCTZI1025171	Zimovane 7.5mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTZI807010	Zileze 3.75 tablets (Opus Pharmaceuticals Ltd)
+^ESCTZI820028	Zileze 7.5 tablets (Opus Pharmaceuticals Ltd)
+^ESCTZI849666	Zimovane LS 3.75mg tablets (Sanofi) 28 tablet 2 x 14 tablets
+^ESCTZI849679	Zileze 3.75 tablets (Opus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZI849687	Zimovane 7.5mg tablets (Sanofi) 28 tablet
+^ESCTZI849696	Zileze 7.5 tablets (Opus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZI917378	Zileze
+^ESCTZI917382	Zimovane
+^ESCTZI929526	Zimovane 7.5mg tablets (Dowelhurst Ltd)
+^ESCTZI929530	Zimovane 7.5mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTZI929531	Zimovane LS 3.75mg tablets (Dowelhurst Ltd)
+^ESCTZI929532	Zimovane LS 3.75mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTZI929717	Zimovane 7.5mg tablets (Waymade Healthcare Plc)
+^ESCTZI929719	Zimovane 7.5mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTZI933519	Zimovane 7.5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTZI933522	Zimovane LS 3.75mg tablets (Waymade Healthcare Plc)
+^ESCTZI933523	Zimovane LS 3.75mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTZI967712	Zimovane 7.5mg tablets (DE Pharmaceuticals)
+^ESCTZI967722	Zimovane 7.5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTZO1005519	Zolpidem 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTZO1005520	Zolpidem 5mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTZO1005521	Zolpidem 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTZO1005522	Zolpidem 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTZO1005523	Zopiclone 3.75mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTZO1005524	Zopiclone 7.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTZO1005525	Zopiclone 3.75mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTZO1005537	Zopiclone 7.5mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTZO1011780	Zolpidem 5mg tablets (Bristol Laboratories Ltd)
+^ESCTZO1011781	Zolpidem 5mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCTZO1011782	Zolpidem 10mg tablets (Bristol Laboratories Ltd)
+^ESCTZO1011783	Zolpidem 10mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCTZO1021460	Zopiclone 3.75mg/5ml oral suspension 100 ml
+^ESCTZO1021461	Zopiclone 3.75mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTZO1021524	Zopiclone 3.75mg/5ml oral solution 1 ml
+^ESCTZO1021525	Zopiclone 3.75mg/5ml oral solution 150 ml
+^ESCTZO1021526	Zopiclone 3.75mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTZO1021527	Zopiclone 3.75mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTZO1021528	Zopiclone 3.75mg/5ml oral solution (Drug Tariff Special Order) 150 ml
+^ESCTZO1021534	Zopiclone 3.75mg/5ml oral solution
+^ESCTZO1033638	Zolpidem 5mg tablets (Zentiva)
+^ESCTZO1033639	Zolpidem 5mg tablets (Zentiva) 28 tablet
+^ESCTZO1033640	Zolpidem 10mg tablets (Zentiva)
+^ESCTZO1033641	Zolpidem 10mg tablets (Zentiva) 28 tablet
+^ESCTZO1034741	Zopiclone 3.75mg tablets (Bristol Laboratories Ltd)
+^ESCTZO1034742	Zopiclone 3.75mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCTZO1034743	Zopiclone 7.5mg tablets (Bristol Laboratories Ltd)
+^ESCTZO1034744	Zopiclone 7.5mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCTZO1042742	Zolpidem 5mg tablets (Waymade Healthcare Plc)
+^ESCTZO1042743	Zolpidem 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTZO1042744	Zolpidem 10mg tablets (Waymade Healthcare Plc)
+^ESCTZO1042745	Zolpidem 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTZO1042746	Zopiclone 3.75mg tablets (Waymade Healthcare Plc)
+^ESCTZO1042747	Zopiclone 3.75mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTZO1042748	Zopiclone 7.5mg tablets (Waymade Healthcare Plc)
+^ESCTZO1042749	Zopiclone 7.5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTZO1049474	Zopiclone 3.75mg tablets (DE Pharmaceuticals)
+^ESCTZO1049484	Zopiclone 3.75mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTZO1049485	Zopiclone 7.5mg tablets (DE Pharmaceuticals)
+^ESCTZO1049486	Zopiclone 7.5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTZO1049487	Zolpidem 5mg tablets (DE Pharmaceuticals)
+^ESCTZO1049488	Zolpidem 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTZO1049976	Zolpidem 10mg tablets (DE Pharmaceuticals)
+^ESCTZO1049978	Zolpidem 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTZO1056489	Zopiclone 7.5mg/5ml oral suspension 100 ml
+^ESCTZO1056490	Zopiclone 7.5mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTZO1066347	Zopiclone 7.5mg/5ml oral solution 1 ml
+^ESCTZO1066348	Zopiclone 7.5mg/5ml oral solution 100 ml
+^ESCTZO1066349	Zopiclone 7.5mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTZO1066350	Zopiclone 7.5mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTZO1066351	Zopiclone 7.5mg/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTZO1067001	Zopiclone 7.5mg/5ml oral solution
+^ESCTZO1127849	Zolpidem 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZO1127850	Zolpidem 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTZO1127851	Zopiclone 3.75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZO1127852	Zopiclone 3.75mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTZO1127853	Zopiclone 7.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZO1127854	Zopiclone 7.5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTZO700378	Zolpidem 12.5mg m/r tablet
+^ESCTZO704170	Zolpidem 6.25mg m/r tablet
+^ESCTZO726032	Zolpidem 5mg/dose oral spray
+^ESCTZO800816	Zopiclone 7.5mg tablets (Mylan Ltd)
+^ESCTZO802635	Zopiclone 7.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTZO803318	Zopiclone 3.75mg tablets (Teva UK Ltd)
+^ESCTZO808077	Zopiclone 7.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTZO808782	Zopiclone 7.5mg tablets (Teva UK Ltd)
+^ESCTZO809514	Zopiclone 3.75mg tablets (Actavis UK Ltd)
+^ESCTZO810613	Zopiclone 3.75mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTZO817852	Zopiclone 7.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTZO817879	Zopiclone 3.75mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTZO820298	Zopiclone 7.5mg tablets (Actavis UK Ltd)
+^ESCTZO822877	Zopiclone 3.75mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTZO822943	Zopiclone 7.5mg tablets (Wockhardt UK Ltd)
+^ESCTZO830673	Zopiclone 7.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTZO830694	Zopiclone 3.75mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTZO832911	Zopiclone 3.75mg tablets (Mylan Ltd)
+^ESCTZO847417	Zopiclone 7.5mg tablets 28 tablet
+^ESCTZO848665	Zopiclone 3.75mg tablets 28 tablet
+^ESCTZO849654	Zopiclone 3.75mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO849657	Zopiclone 3.75mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO849663	Zopiclone 3.75mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO849668	Zopiclone 3.75mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO849673	Zopiclone 3.75mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO849678	Zopiclone 3.75mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO849680	Zopiclone 3.75mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO849684	Zopiclone 7.5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO849685	Zopiclone 7.5mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO849686	Zopiclone 7.5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO849688	Zopiclone 7.5mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO849690	Zopiclone 7.5mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO849693	Zopiclone 7.5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO849697	Zopiclone 7.5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO855320	Zopiclone 7.5mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO860042	Zolpidem 10mg tablets 28 tablet
+^ESCTZO860053	Zolpidem 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTZO860057	Zolpidem 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO860060	Zolpidem 10mg tablets (Teva UK Ltd)
+^ESCTZO860063	Zolpidem 10mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO860065	Zolpidem 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTZO860068	Zolpidem 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTZO860082	Zolpidem 10mg tablets (Sandoz Ltd)
+^ESCTZO860089	Zolpidem 10mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO860094	Zolpidem 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTZO860098	Zolpidem 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO860107	Zolpidem 5mg tablets 28 tablet
+^ESCTZO860119	Zolpidem 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTZO860123	Zolpidem 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO860127	Zolpidem 5mg tablets (Teva UK Ltd)
+^ESCTZO860130	Zolpidem 5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO860137	Zolpidem 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTZO860139	Zolpidem 5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTZO860154	Zolpidem 5mg tablets (Sandoz Ltd)
+^ESCTZO860155	Zolpidem 5mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO860158	Zolpidem 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTZO860159	Zolpidem 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTZO863191	Zolpidem 10mg tablets (Actavis UK Ltd)
+^ESCTZO863193	Zolpidem 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO863198	Zolpidem 5mg tablets (Actavis UK Ltd)
+^ESCTZO863200	Zolpidem 5mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO868234	Zolpidem 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTZO868235	Zolpidem 5mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO868236	Zolpidem 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTZO868237	Zolpidem 10mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO873056	Zolpidem 5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTZO873057	Zolpidem 5mg tablets (Genus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO873059	Zolpidem 10mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTZO873061	Zolpidem 10mg tablets (Genus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO877560	Zolpidem 10mg tablets (Mylan Ltd)
+^ESCTZO877564	Zolpidem 10mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO878314	Zolpidem 10mg tablets 30 tablet
+^ESCTZO880060	Zolpidem 10mg tablets (Dowelhurst Ltd)
+^ESCTZO880061	Zolpidem 10mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTZO896836	Zopiclone 7.5mg tablets (Sandoz Ltd)
+^ESCTZO896837	Zopiclone 7.5mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO909106	Zopiclone 3.75mg/5ml oral suspension 1 ml
+^ESCTZO909113	Zopiclone 3.75mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTZO909115	Zopiclone 3.75mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTZO909118	Zopiclone 7.5mg/5ml oral suspension 1 ml
+^ESCTZO909120	Zopiclone 7.5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTZO909122	Zopiclone 7.5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTZO909709	Zopiclone 7.5mg/5ml oral suspension
+^ESCTZO909710	Zopiclone 3.75mg/5ml oral suspension
+^ESCTZO923608	Zopiclone 7.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTZO923610	Zopiclone 7.5mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO923612	Zopiclone 3.75mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTZO923613	Zopiclone 3.75mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO929125	Zopiclone 7.5mg tablets (Arrow Generics Ltd)
+^ESCTZO929126	Zopiclone 7.5mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTZO929529	Zopiclone 7.5mg tablets 30 tablet
+^ESCTZO939488	Zopiclone 7.5mg tablets (PLIVA Pharma Ltd)
+^ESCTZO939489	Zopiclone 7.5mg tablets (PLIVA Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO957284	Zopiclone 1.88mg/5ml oral suspension 1 ml
+^ESCTZO957285	Zopiclone 1.88mg/5ml oral suspension (Special Order)
+^ESCTZO957286	Zopiclone 1.88mg/5ml oral suspension (Special Order) 1 ml
+^ESCTZO957293	Zopiclone 5mg/5ml oral suspension 1 ml
+^ESCTZO957294	Zopiclone 5mg/5ml oral suspension (Special Order)
+^ESCTZO957296	Zopiclone 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTZO957765	Zopiclone 1.88mg/5ml oral suspension
+^ESCTZO957767	Zopiclone 5mg/5ml oral suspension
+^ESCTZO962781	Zopiclone 3.75mg tablets (Arrow Generics Ltd)
+^ESCTZO962782	Zopiclone 3.75mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTZO965618	Zolpidem 10mg tablets (Tillomed Laboratories Ltd)
+^ESCTZO965619	Zolpidem 10mg tablets (Tillomed Laboratories Ltd) 30 tablet
+^ESCTZO965694	Zopiclone 7.5mg tablets (Apotex UK Ltd)
+^ESCTZO965695	Zopiclone 7.5mg tablets (Apotex UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZO979380	Zopiclone 3.75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTZO979382	Zopiclone 3.75mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTZO979383	Zopiclone 7.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTZO979384	Zopiclone 7.5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTZO985869	Zolpidem 5mg oral powder sachets 1 sachet
+^ESCTZO985870	Zolpidem 5mg oral powder sachets (Special Order)
+^ESCTZO985873	Zolpidem 5mg oral powder sachets (Special Order) 1 sachet
+^ESCTZO985898	Zolpidem 5mg oral powder sachets
+ZITA32941EMIS	Zileze 3.75  Tablets  3.75 mg
+ZITA32943EMIS	Zileze 7.5  Tablets  7.5 mg
+ZOOR35190NEMIS	Zopiclone  Oral suspension  3.75 mg/5 ml
+ZOOR46569NEMIS	Zopiclone  Oral suspension  7.5 mg/5 ml
+ZOOR51975NEMIS	Zopiclone  Oral solution  3.75 mg/5 ml
+ZOOR89444NEMIS	Zopiclone  Oral solution  7.5 mg/5 ml
+ZOTA37468MGEMIS	Zolpidem Tartrate  Tablets  5 mg (A.A.H. Pharm)
+ZOTA37469MGEMIS	Zolpidem Tartrate  Tablets  5 mg (Teva UK)
+ZOTA37470MGEMIS	Zolpidem Tartrate  Tablets  5 mg (Kent Pharm)
+ZOTA37471MGEMIS	Zolpidem Tartrate  Tablets  5 mg (Sandoz)
+ZOTA37472MGEMIS	Zolpidem Tartrate  Tablets  5 mg (Unichem)
+ZOTA37473MGEMIS	Zolpidem Tartrate  Tablets  5 mg (Alpharma)
+ZOTA37474MGEMIS	Zolpidem Tartrate  Tablets  5 mg (Ivax Pharmaceuticals)
+ZOTA37475MGEMIS	Zolpidem Tartrate  Tablets  5 mg (Genus Pharm)
+ZOTA37476MGEMIS	Zopiclone  Tablets  3.75 mg (Teva UK)
+ZOTA37477MGEMIS	Zopiclone  Tablets  3.75 mg (Alpharma)
+ZOTA37478MGEMIS	Zopiclone  Tablets  3.75 mg (Ivax Pharmaceuticals)
+ZOTA37479MGEMIS	Zopiclone  Tablets  3.75 mg (Kent Pharm)
+ZOTA37480MGEMIS	Zopiclone  Tablets  3.75 mg (A.A.H. Pharm)
+ZOTA37481MGEMIS	Zopiclone  Tablets  3.75 mg (Unichem)
+ZOTA37482MGEMIS	Zopiclone  Tablets  3.75 mg (Generics (UK))
+ZOTA37483MGEMIS	Zolpidem Tartrate  Tablets  10 mg (A.A.H. Pharm)
+ZOTA37484MGEMIS	Zolpidem Tartrate  Tablets  10 mg (Teva UK)
+ZOTA37485MGEMIS	Zolpidem Tartrate  Tablets  10 mg (Kent Pharm)
+ZOTA37486MGEMIS	Zolpidem Tartrate  Tablets  10 mg (Sandoz)
+ZOTA37487MGEMIS	Zolpidem Tartrate  Tablets  10 mg (Unichem)
+ZOTA37488MGEMIS	Zolpidem Tartrate  Tablets  10 mg (Alpharma)
+ZOTA37489MGEMIS	Zolpidem Tartrate  Tablets  10 mg (Ivax Pharmaceuticals)
+ZOTA37490MGEMIS	Zolpidem Tartrate  Tablets  10 mg (Genus Pharm)
+ZOTA37491MGEMIS	Zolpidem Tartrate  Tablets  10 mg (Generics (UK))
+ZOTA37492MGEMIS	Zopiclone  Tablets  7.5 mg (Generics (UK))
+ZOTA37493MGEMIS	Zopiclone  Tablets  7.5 mg (Unichem)
+ZOTA37494MGEMIS	Zopiclone  Tablets  7.5 mg (Kent Pharm)
+ZOTA37495MGEMIS	Zopiclone  Tablets  7.5 mg (Teva UK)
+ZOTA37496MGEMIS	Zopiclone  Tablets  7.5 mg (A.A.H. Pharm)
+ZOTA37497MGEMIS	Zopiclone  Tablets  7.5 mg (Alpharma)
+ZOTA37498MGEMIS	Zopiclone  Tablets  7.5 mg (Wockhardt UK)
+ZOTA37499MGEMIS	Zopiclone  Tablets  7.5 mg (Ivax Pharmaceuticals)
+ZOTA37500MGEMIS	Zopiclone  Tablets  7.5 mg (Sandoz)
