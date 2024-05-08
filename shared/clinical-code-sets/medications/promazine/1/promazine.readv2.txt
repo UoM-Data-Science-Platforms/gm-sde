@@ -1,0 +1,11 @@
+d4e..00	PROMAZINE HYDROCHLORIDE
+d4ez.00	*PROMAZINE 100mg/2mL injection
+d4ey.00	PROMAZINE 50mg/1mL injection
+d4ex.00	*PROMAZINE 50mg/5mL suspension
+d4ew.00	PROMAZINE 50mg/5mL syrup
+d4ev.00	PROMAZINE 25mg/5mL syrup
+d4e5.00	PROMAZINE 50mg tablets
+d4e4.00	PROMAZINE 25mg tablets
+d4e3.00	*SPARINE 100mg/2mL injection
+d4e2.00	*SPARINE 50mg/1mL injection
+d4e1.00	*SPARINE 50mg/5mL suspension

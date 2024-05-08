@@ -6,3 +6,37 @@ SETA29201EMIS	Serdolect  Tablets  4 mg
 SETA29206EMIS	Sertindole  Tablets  12 mg
 SETA29208EMIS	Sertindole  Tablets  20 mg
 SETA29209EMIS	Sertindole  Tablets  4 mg
+^ESCT1223466	Sertindole
+^ESCT1223467	Product containing sertindole
+^ESCT1223468	Sertindole product
+^ESCT1356714	Sertindole only product
+^ESCT1387229	Serdolect 4mg tablets (Imported (Denmark))
+^ESCT1387230	Serdolect 4mg tablets (Imported (Denmark)) 30 tablet 3 x 10 tablets
+^ESCT1387231	Serdolect 12mg tablets (Imported (Denmark))
+^ESCT1387232	Serdolect 12mg tablets (Imported (Denmark)) 28 tablet 2 x 14 tablets
+^ESCT1387233	Serdolect 16mg tablets (Imported (Denmark))
+^ESCT1387234	Serdolect 16mg tablets (Imported (Denmark)) 28 tablet 2 x 14 tablets
+^ESCT1387235	Serdolect 20mg tablets (Imported (Denmark))
+^ESCT1387236	Serdolect 20mg tablets (Imported (Denmark)) 28 tablet 2 x 14 tablets
+^ESCTSE609437	Sertindole
+^ESCTSE872310	Sertindole 4mg tablets 30 tablet
+^ESCTSE872314	Serdolect 4mg tablets (Lundbeck Ltd)
+^ESCTSE872321	Serdolect 4mg tablets (Lundbeck Ltd) 30 tablet 3 x 10 tablets
+^ESCTSE872334	Sertindole 12mg tablets 28 tablet
+^ESCTSE872335	Serdolect 12mg tablets (Lundbeck Ltd)
+^ESCTSE872336	Serdolect 12mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE872337	Sertindole 16mg tablets 28 tablet
+^ESCTSE872338	Serdolect 16mg tablets (Lundbeck Ltd)
+^ESCTSE872339	Serdolect 16mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE872340	Sertindole 20mg tablets 28 tablet
+^ESCTSE872341	Serdolect 20mg tablets (Lundbeck Ltd)
+^ESCTSE872342	Serdolect 20mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE872440	Sertindole 12mg tablets
+^ESCTSE872441	Sertindole 16mg tablets
+^ESCTSE872442	Sertindole 20mg tablets
+^ESCTSE872443	Sertindole 4mg tablets
+^ESCTSE916233	Serdolect
+SETA29198EMIS	Serdolect  Tablets  12 mg
+SETA29199EMIS	Serdolect  Tablets  16 mg
+SETA29200EMIS	Serdolect  Tablets  20 mg
+SETA29207EMIS	Sertindole  Tablets  16 mg

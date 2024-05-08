@@ -1,0 +1,108 @@
+^ESCT1178161	Product containing only periciazine 2.5 mg/1 each oral tablet
+^ESCT1181376	Product containing only periciazine 10 mg/1 each oral tablet
+^ESCT1208434	Periciazine 2 mg/mL oral solution
+^ESCT1208435	Product containing precisely periciazine 2 milligram/1 milliliter conventional release oral solution
+^ESCT1215373	Pericyazine 10mg/5ml oral solution
+^ESCT1223422	Product containing precisely periciazine 2.5 milligram/1 each conventional release oral tablet
+^ESCT1223423	Product containing precisely periciazine 10 milligram/1 each conventional release oral tablet
+^ESCT1275478	Pericyazine 2.5mg tablets (DE Pharmaceuticals)
+^ESCT1275479	Pericyazine 2.5mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCT1275480	Pericyazine 10mg tablets (DE Pharmaceuticals)
+^ESCT1275481	Pericyazine 10mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCT1356313	Periciazine only product
+^ESCT1359536	Periciazine only product in oral dose form
+^ESCT1404523	Pericyazine 2.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404526	Pericyazine 2.5mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1422317	Pericyazine 2.5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422318	Pericyazine 2.5mg tablets (Zentiva Pharma UK Ltd) 84 tablet 3 x 28 tablets
+^ESCT1422319	Pericyazine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422320	Pericyazine 10mg tablets (Zentiva Pharma UK Ltd) 84 tablet 3 x 28 tablets
+^ESCT1422375	Pericyazine 10mg/5ml oral solution (Zentiva Pharma UK Ltd)
+^ESCT1422376	Pericyazine 10mg/5ml oral solution (Zentiva Pharma UK Ltd) 100 ml
+^ESCT1429433	Pericyazine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429434	Pericyazine 10mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCTNE810882	Neulactil 10mg tablets (Sanofi)
+^ESCTNE822974	Neulactil 2.5mg tablets (Sanofi)
+^ESCTNE832921	Neulactil Forte syrup (Sanofi)
+^ESCTNE854909	Neulactil 10mg tablets (Sanofi) 84 tablet 3 x 28 tablets
+^ESCTNE854916	Neulactil 2.5mg tablets (Sanofi) 84 tablet 6 x 14 tablets
+^ESCTNE855141	Neulactil Forte syrup (Sanofi) 100 ml
+^ESCTNE919346	Neulactil
+^ESCTPE1000050	Pericyazine 10mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTPE1000051	Pericyazine 10mg/5ml oral solution (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTPE1049038	Pericyazine 10mg tablets (Colorama Pharmaceuticals Ltd)
+^ESCTPE1049039	Pericyazine 10mg tablets (Colorama Pharmaceuticals Ltd) 84 tablet
+^ESCTPE1049040	Pericyazine 2.5mg tablets (Colorama Pharmaceuticals Ltd)
+^ESCTPE1049041	Pericyazine 2.5mg tablets (Colorama Pharmaceuticals Ltd) 84 tablet
+^ESCTPE1063074	Pericyazine 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPE1063075	Pericyazine 2.5mg tablets (Mawdsley-Brooks & Company Ltd) 84 tablet
+^ESCTPE1063076	Pericyazine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPE1063077	Pericyazine 10mg tablets (Mawdsley-Brooks & Company Ltd) 84 tablet
+^ESCTPE1067744	Pericyazine 10mg tablets 100 tablet
+^ESCTPE1067745	Pericyazine 10mg tablets (Waymade Healthcare Plc)
+^ESCTPE1067746	Pericyazine 10mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTPE1079948	Pericyazine 2.5mg tablets (Icarus Pharmaceuticals Ltd)
+^ESCTPE1079951	Pericyazine 2.5mg tablets (Icarus Pharmaceuticals Ltd) 84 tablet
+^ESCTPE1089369	Pericyazine 10mg tablets (Ennogen Healthcare Ltd)
+^ESCTPE1089370	Pericyazine 10mg tablets (Ennogen Healthcare Ltd) 84 tablet
+^ESCTPE1089371	Pericyazine 2.5mg tablets (Ennogen Healthcare Ltd)
+^ESCTPE1089372	Pericyazine 2.5mg tablets (Ennogen Healthcare Ltd) 84 tablet
+^ESCTPE1101121	Pericyazine 10mg tablets (J M McGill Ltd)
+^ESCTPE1101126	Pericyazine 10mg tablets (J M McGill Ltd) 84 tablet
+^ESCTPE1101128	Pericyazine 10mg tablets (J M McGill Ltd) 100 tablet
+^ESCTPE1101132	Pericyazine 2.5mg tablets (J M McGill Ltd)
+^ESCTPE1101134	Pericyazine 2.5mg tablets (J M McGill Ltd) 84 tablet
+^ESCTPE1101136	Pericyazine 2.5mg tablets 100 tablet
+^ESCTPE1101139	Pericyazine 2.5mg tablets (J M McGill Ltd) 100 tablet
+^ESCTPE1101572	Pericyazine 2.5mg tablets (Pharma-z Ltd)
+^ESCTPE1101573	Pericyazine 2.5mg tablets (Pharma-z Ltd) 84 tablet
+^ESCTPE1101602	Pericyazine 10mg tablets (Pharma-z Ltd)
+^ESCTPE1101604	Pericyazine 10mg tablets (Pharma-z Ltd) 84 tablet
+^ESCTPE1109010	Pericyazine 10mg tablets (Niche Pharma Ltd)
+^ESCTPE1109011	Pericyazine 10mg tablets (Niche Pharma Ltd) 84 tablet
+^ESCTPE1109012	Pericyazine 2.5mg tablets (Niche Pharma Ltd)
+^ESCTPE1109013	Pericyazine 2.5mg tablets (Niche Pharma Ltd) 84 tablet
+^ESCTPE609302	Pericyazine 2.5mg tablets
+^ESCTPE609304	Periciazine 2.5 mg oral tablet
+^ESCTPE609305	Pericyazine 10mg tablets
+^ESCTPE609307	Periciazine 10 mg oral tablet
+^ESCTPE609308	Pericyazine 10mg/5ml oral solution
+^ESCTPE609309	Periciazine 10mg/5mL syrup
+^ESCTPE609310	Pericyazine 10mg/5mL syrup
+^ESCTPE846909	Pericyazine 10mg/5ml oral solution 100 ml
+^ESCTPE848361	Pericyazine 2.5mg tablets 84 tablet
+^ESCTPE848485	Pericyazine 10mg tablets 84 tablet
+^ESCTPE957497	Pericyazine 2.5mg/5ml oral suspension 1 ml
+^ESCTPE957498	Pericyazine 2.5mg/5ml oral suspension (Special Order)
+^ESCTPE957499	Pericyazine 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPE957503	Pericyazine 2.5mg/5ml oral solution 1 ml
+^ESCTPE957504	Pericyazine 2.5mg/5ml oral solution (Special Order)
+^ESCTPE957506	Pericyazine 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPE957667	Pericyazine 2.5mg/5ml oral solution
+^ESCTPE957668	Pericyazine 2.5mg/5ml oral suspension
+^ESCTPE988607	Pericyazine 2.5mg tablets (Zentiva)
+^ESCTPE988608	Pericyazine 2.5mg tablets (Zentiva) 84 tablet 3 x 28 tablets
+^ESCTPE988609	Pericyazine 10mg tablets (Zentiva)
+^ESCTPE988610	Pericyazine 10mg tablets (Zentiva) 84 tablet 3 x 28 tablets
+^ESCTPE991966	Pericyazine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE991967	Pericyazine 10mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets
+^ESCTPE991981	Pericyazine 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE991982	Pericyazine 2.5mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets
+^ESCTPE992940	Pericyazine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE992941	Pericyazine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 3 x 28 tablets
+^ESCTPE992942	Pericyazine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE992943	Pericyazine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 3 x 28 tablets
+^ESCTPE993875	Pericyazine 10mg/5ml oral solution (Zentiva)
+^ESCTPE993876	Pericyazine 10mg/5ml oral solution (Zentiva) 100 ml
+^ESCTPE998911	Pericyazine 10mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE998912	Pericyazine 10mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTPR609303	Product containing periciazine 2.5 mg/1 each oral tablet
+^ESCTPR609306	Product containing periciazine 10 mg/1 each oral tablet
+NESY1969	Neulactil  Syrup forte  10mg/5 ml
+NETA1970	Neulactil  Tablets  10 mg
+NETA1971	Neulactil  Tablets  2.5 mg
+NETA1972	Neulactil  Tablets  25 mg
+PESY5253	Pericyazine  Oral solution  10mg/5 ml
+PETA5254	Pericyazine  Tablets  10 mg
+PETA7008	Pericyazine  Tablets  2.5 mg
+PETA7009	Pericyazine  Tablets  25 mg

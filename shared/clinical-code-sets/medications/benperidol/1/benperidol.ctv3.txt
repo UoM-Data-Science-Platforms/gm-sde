@@ -1,0 +1,7 @@
+d421.	ANQUIL 250micrograms tablets
+d422.	*BENQUIL 250micrograms tablets
+d42z.	BENPERIDOL 250microgram tablets
+d42..	Benperidol
+x05Lt	Benperidol - chemical
+x02U0	Anquil
+x05h1	Benquil

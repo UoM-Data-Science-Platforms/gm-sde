@@ -1,0 +1,7 @@
+321579005	Remoxipride hydrochloride (product)
+349884002	Product containing remoxipride (medicinal product)
+777418008	Product containing only remoxipride (medicinal product)
+241101000001105	Remoxipride hydrochloride 150mg m/r capsule
+311901000001109	Remoxipride hydrochloride 300mg m/r capsule
+382101000001102	Roxiam 300mg m/r capsule
+593601000001102	Roxiam 150mg m/r capsule

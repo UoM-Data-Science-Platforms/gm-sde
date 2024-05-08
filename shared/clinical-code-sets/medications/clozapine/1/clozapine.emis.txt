@@ -26,3 +26,160 @@ DETA36519NEMIS	Denzapine  Tablets  200 mg
 DETA36520NEMIS	Denzapine  Tablets  50 mg
 ZATA19394NEMIS	Zaponex  Tablets  25 mg
 ZATA19395NEMIS	Zaponex  Tablets  100 mg
+^ESCT1178599	Product containing only clozapine orally disintegrating 25 mg/1 each oral tablet
+^ESCT1180331	Clozaril 25mg tablets (Mylan) 100 tablet
+^ESCT1180332	Clozaril 100mg tablets (Mylan)
+^ESCT1180333	Clozaril 100mg tablets (Mylan) 84 tablet 6 x 14 tablets
+^ESCT1180334	Clozaril 100mg tablets (Mylan) 100 tablet
+^ESCT1181085	Product containing only clozapine 100 mg/1 each oral tablet
+^ESCT1182205	Product containing only clozapine 50 mg/1 each oral tablet
+^ESCT1182660	Product containing only clozapine orally disintegrating 100 mg/1 each oral tablet
+^ESCT1183084	Product containing only clozapine orally disintegrating 12.5 mg/1 each oral tablet
+^ESCT1184321	Clozaril 25mg tablets (Mylan)
+^ESCT1184322	Clozaril 25mg tablets (Mylan) 84 tablet 6 x 14 tablets
+^ESCT1185104	Product containing only clozapine orally disintegrating 50 mg/1 each oral tablet
+^ESCT1185301	Product containing only clozapine 12.5 mg/1 each oral tablet
+^ESCT1186410	Clozaril 25mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1187282	Product containing only clozapine 25 mg/1 each oral tablet
+^ESCT1189515	Clozaril 100mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1195350	Clozapine 200mg tablets 100 tablet
+^ESCT1195351	Denzapine 200mg tablets (Britannia Pharmaceuticals Ltd) 100 tablet
+^ESCT1195352	Clozapine 50mg tablets 100 tablet
+^ESCT1195353	Denzapine 50mg tablets (Britannia Pharmaceuticals Ltd) 100 tablet
+^ESCT1220630	Clozapine
+^ESCT1220631	Clozapine product
+^ESCT1223455	Product containing precisely clozapine 25 milligram/1 each conventional release oral tablet
+^ESCT1223456	Product containing precisely clozapine 100 milligram/1 each conventional release oral tablet
+^ESCT1230596	Product containing precisely clozapine 12.5 milligram/1 each conventional release oral tablet
+^ESCT1232825	Product containing precisely clozapine 50 milligram/1 each conventional release oral tablet
+^ESCT1271054	Clozapine 125mg/5ml solution for injection ampoules 10 ampoule
+^ESCT1271055	Clozapine 125mg/5ml solution for injection ampoules (Imported (Netherlands))
+^ESCT1271056	Clozapine 125mg/5ml solution for injection ampoules (Imported (Netherlands)) 10 ampoule
+^ESCT1271086	Clozapine 125mg/5ml solution for injection ampoules
+^ESCT1274731	Clozapine 12.5mg orodispersible tablets sugar free 28 tablet
+^ESCT1274733	Zaponex 12.5mg orodispersible tablets (Leyden Delta B.V.)
+^ESCT1274734	Zaponex 12.5mg orodispersible tablets (Leyden Delta B.V.) 28 tablet 4 x 7 tablets
+^ESCT1274735	Clozapine 25mg orodispersible tablets sugar free 28 tablet
+^ESCT1274736	Zaponex 25mg orodispersible tablets (Leyden Delta B.V.)
+^ESCT1274737	Zaponex 25mg orodispersible tablets (Leyden Delta B.V.) 28 tablet 4 x 7 tablets
+^ESCT1274738	Clozapine 50mg orodispersible tablets sugar free 28 tablet
+^ESCT1274739	Zaponex 50mg orodispersible tablets (Leyden Delta B.V.)
+^ESCT1274741	Zaponex 50mg orodispersible tablets (Leyden Delta B.V.) 28 tablet 4 x 7 tablets
+^ESCT1274743	Zaponex 100mg orodispersible tablets (Leyden Delta B.V.)
+^ESCT1274744	Clozapine 100mg orodispersible tablets sugar free 28 tablet
+^ESCT1274745	Zaponex 100mg orodispersible tablets (Leyden Delta B.V.) 28 tablet 4 x 7 tablets
+^ESCT1274747	Clozapine 200mg orodispersible tablets sugar free 28 tablet
+^ESCT1274749	Zaponex 200mg orodispersible tablets (Leyden Delta B.V.)
+^ESCT1274750	Zaponex 200mg orodispersible tablets (Leyden Delta B.V.) 28 tablet 4 x 7 tablets
+^ESCT1274836	Clozapine 100mg orodispersible tablets sugar free
+^ESCT1274838	Clozapine 12.5mg orodispersible tablets sugar free
+^ESCT1274839	Clozapine 200mg orodispersible tablets sugar free
+^ESCT1274840	Clozapine 25mg orodispersible tablets sugar free
+^ESCT1274841	Clozapine 50mg orodispersible tablets sugar free
+^ESCT1354320	Clozapine only product
+^ESCT1358049	Clozapine only product in oral dose form
+^ESCT1384920	Clozapine-containing product in oral dose form
+^ESCT1437650	Clozaril 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437651	Clozaril 25mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437652	Clozaril 25mg tablets (Viatris UK Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1437653	Clozaril 25mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437654	Clozaril 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437655	Clozaril 100mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437656	Clozaril 100mg tablets (Viatris UK Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1437657	Clozaril 100mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCTCL1008193	Clozapine 50mg/ml oral suspension sugar free 1 ml
+^ESCTCL1008194	Clozapine 50mg/ml oral suspension sugar free (Special Order)
+^ESCTCL1008195	Clozapine 50mg/ml oral suspension sugar free (Special Order) 1 ml
+^ESCTCL1030341	Clozapine 100mg/5ml oral suspension 100 ml
+^ESCTCL1030342	Clozapine 100mg/5ml oral suspension 300 ml
+^ESCTCL1030344	Clozapine 100mg/5ml oral suspension (Special Order) 100 ml
+^ESCTCL1030345	Clozapine 100mg/5ml oral suspension (Special Order) 300 ml
+^ESCTCL1037018	Clozapine diluent oral solution
+^ESCTCL1037019	Clozapine diluent oral solution 1 ml
+^ESCTCL1037021	Clozapine diluent oral solution (Special Order)
+^ESCTCL1037022	Clozapine diluent oral solution (Special Order) 1 ml
+^ESCTCL406888	Clozapine
+^ESCTCL609401	Clozapine 25mg tablets
+^ESCTCL609403	Clozapine 25 mg oral tablet
+^ESCTCL609404	Clozapine 100mg tablets
+^ESCTCL609406	Clozapine 100 mg oral tablet
+^ESCTCL677359	Clozapine orally disintegrating 25 mg oral tablet
+^ESCTCL677361	Clozapine orally disintegrating 100 mg oral tablet
+^ESCTCL677418	Clozapine 12.5 mg oral tablet
+^ESCTCL692639	Clozapine 50mg tablets
+^ESCTCL692641	Clozapine 50 mg oral tablet
+^ESCTCL705853	Clozapine orally disintegrating 12.5 mg oral tablet
+^ESCTCL710440	Clozapine orally disintegrating 50 mg oral tablet
+^ESCTCL771475	Clozapine in oral dosage form
+^ESCTCL864758	Clozapine 25mg tablets 28 tablet
+^ESCTCL864760	Clozapine 25mg tablets 84 tablet
+^ESCTCL864761	Clozapine 25mg tablets 100 tablet
+^ESCTCL864764	Clozaril 25mg tablets (Mylan Ltd)
+^ESCTCL864768	Clozaril 25mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTCL864770	Clozaril 25mg tablets (Mylan Ltd) 84 tablet 6 x 14 tablets
+^ESCTCL864772	Clozaril 25mg tablets (Mylan Ltd) 100 tablet
+^ESCTCL864777	Clozapine 100mg tablets 28 tablet
+^ESCTCL864778	Clozapine 100mg tablets 84 tablet
+^ESCTCL864779	Clozapine 100mg tablets 100 tablet
+^ESCTCL864782	Clozaril 100mg tablets (Mylan Ltd)
+^ESCTCL864784	Clozaril 100mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTCL864789	Clozaril 100mg tablets (Mylan Ltd) 84 tablet 6 x 14 tablets
+^ESCTCL864790	Clozaril 100mg tablets (Mylan Ltd) 100 tablet
+^ESCTCL914469	Clozaril
+^ESCTCL926462	Clozapine 25mg tablets 500 tablet
+^ESCTCL926468	Clozapine 100mg tablets 500 tablet
+^ESCTCL982172	Clozapine 50mg tablets 50 tablet
+^ESCTCL982238	Clozapine 200mg tablets 50 tablet
+^ESCTCL982241	Clozapine 50mg/ml oral suspension sugar free 100 ml
+^ESCTCL982244	Clozapine 200mg tablets
+^ESCTCL982245	Clozapine 50mg/ml oral suspension sugar free
+^ESCTCL989375	Clozapine 100mg/5ml oral solution 1 ml
+^ESCTCL989377	Clozapine 100mg/5ml oral solution (Special Order)
+^ESCTCL989378	Clozapine 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTCL989379	Clozapine 100mg/5ml oral suspension 1 ml
+^ESCTCL989381	Clozapine 100mg/5ml oral suspension (Special Order)
+^ESCTCL989384	Clozapine 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCL989405	Clozapine 100mg/5ml oral solution
+^ESCTCL989406	Clozapine 100mg/5ml oral suspension
+^ESCTDE901997	Denzapine 25mg tablets (Britannia Pharmaceuticals Ltd)
+^ESCTDE901998	Denzapine 25mg tablets (Britannia Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDE901999	Denzapine 25mg tablets (Britannia Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTDE902004	Denzapine 100mg tablets (Britannia Pharmaceuticals Ltd)
+^ESCTDE902005	Denzapine 100mg tablets (Britannia Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDE902006	Denzapine 100mg tablets (Britannia Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTDE914715	Denzapine
+^ESCTDE982173	Denzapine 50mg tablets (Britannia Pharmaceuticals Ltd)
+^ESCTDE982174	Denzapine 50mg tablets (Britannia Pharmaceuticals Ltd) 50 tablet 5 x 10 tablets
+^ESCTDE982239	Denzapine 200mg tablets (Britannia Pharmaceuticals Ltd)
+^ESCTDE982240	Denzapine 200mg tablets (Britannia Pharmaceuticals Ltd) 50 tablet 5 x 10 tablets
+^ESCTDE982242	Denzapine 50mg/ml oral suspension (Britannia Pharmaceuticals Ltd)
+^ESCTDE982243	Denzapine 50mg/ml oral suspension (Britannia Pharmaceuticals Ltd) 100 ml
+^ESCTDE993619	Denzapine 100mg tablets (Britannia Pharmaceuticals Ltd) 100 tablet
+^ESCTDE993620	Denzapine 25mg tablets (Britannia Pharmaceuticals Ltd) 100 tablet
+^ESCTPR406889	Product containing clozapine
+^ESCTPR609402	Product containing clozapine 25 mg/1 each oral tablet
+^ESCTPR609405	Product containing clozapine 100 mg/1 each oral tablet
+^ESCTPR677360	Product containing clozapine orally disintegrating 25 mg/1 each oral tablet
+^ESCTPR677362	Product containing clozapine orally disintegrating 100 mg/1 each oral tablet
+^ESCTPR677419	Product containing clozapine 12.5 mg/1 each oral tablet
+^ESCTPR692640	Product containing clozapine 50 mg/1 each oral tablet
+^ESCTPR705854	Product containing clozapine orally disintegrating 12.5 mg/1 each oral tablet
+^ESCTPR710441	Product containing clozapine orally disintegrating 50 mg/1 each oral tablet
+^ESCTPR771476	Product containing clozapine in oral dosage form
+^ESCTZA910050	Zaponex 25mg tablets (Leyden Delta B.V.)
+^ESCTZA910052	Zaponex 25mg tablets (Leyden Delta B.V.) 84 tablet 6 x 14 tablets
+^ESCTZA910056	Zaponex 100mg tablets (Leyden Delta B.V.)
+^ESCTZA910072	Zaponex 100mg tablets (Leyden Delta B.V.) 84 tablet 6 x 14 tablets
+^ESCTZA917333	Zaponex
+^ESCTZA926466	Zaponex 25mg tablets (Leyden Delta B.V.) 500 tablet
+^ESCTZA926469	Zaponex 100mg tablets (Leyden Delta B.V.) 500 tablet
+CLOR133653NEMIS	Clozapine  Orodispersible Tablets (Sugar Free)  100 mg
+CLOR133654NEMIS	Clozapine  Orodispersible Tablets (Sugar Free)  12.5 mg
+CLOR133655NEMIS	Clozapine  Orodispersible Tablets (Sugar Free)  200 mg
+CLOR133656NEMIS	Clozapine  Orodispersible Tablets (Sugar Free)  25 mg
+CLOR133657NEMIS	Clozapine  Orodispersible Tablets (Sugar Free)  50 mg
+ZAOR133658NEMIS	Zaponex  Orodispersible tablets  100 mg
+ZAOR133659NEMIS	Zaponex  Orodispersible tablets  12.5 mg
+ZAOR133660NEMIS	Zaponex  Orodispersible tablets  200 mg
+ZAOR133661NEMIS	Zaponex  Orodispersible tablets  25 mg
+ZAOR133662NEMIS	Zaponex  Orodispersible tablets  50 mg

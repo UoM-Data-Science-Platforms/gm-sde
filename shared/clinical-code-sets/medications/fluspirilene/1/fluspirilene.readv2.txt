@@ -1,0 +1,7 @@
+d54..00	FLUSPIRILENE
+d546.00	FLUSPIRILENE 12mg/6mL injection
+d545.00	FLUSPIRILENE 6mg/3mL injection
+d544.00	FLUSPIRILENE 2mg/1mL injection
+d543.00	*REDEPTIN 12mg/6mL injection
+d542.00	*REDEPTIN 6mg/3mL injection
+d541.00	*REDEPTIN 2mg/1mL injection

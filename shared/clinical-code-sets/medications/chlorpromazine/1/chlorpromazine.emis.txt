@@ -30,3 +30,395 @@ CHTAEGTON6694	Chloractil  Tablets  50 mg
 CHTA596	Chlorpromazine Hydrochloride  Tablets  10 mg
 LASY1616	Largactil  Syrup  25 mg/5 ml
 CHTA596	Chlorpromazine Hydrochloride  Tablets  10 mg
+^ESCT1178155	Product containing only chlorpromazine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181074	Product containing only chlorpromazine hydrochloride 10 mg/1 each oral tablet
+^ESCT1181075	Product containing only chlorpromazine hydrochloride 25 mg/1 each oral tablet
+^ESCT1185627	Chlorpromazine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1185665	Chlorpromazine 100mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1187272	Product containing only chlorpromazine hydrochloride 100 mg/1 each oral tablet
+^ESCT1188504	Product containing only chlorpromazine hydrochloride 200 mg/1 each oral tablet
+^ESCT1203629	Chlorpromazine hydrochloride 30mg prolonged-release oral capsule
+^ESCT1203710	Chlorpromazine hydrochloride 150mg prolonged-release oral capsule
+^ESCT1203887	Chlorpromazine hydrochloride 75mg prolonged-release oral capsule
+^ESCT1204479	Chlorpromazine hydrochloride 100mg/5mL conventional release oral solution
+^ESCT1204480	Chlorpromazine hydrochloride 5 mg/mL oral solution
+^ESCT1204481	Product containing precisely chlorpromazine hydrochloride 5 milligram/1 milliliter conventional release oral solution
+^ESCT1204574	Chlorpromazine hydrochloride (as chlorpromazine embonate) 20 mg/mL oral suspension
+^ESCT1204575	Product containing precisely chlorpromazine hydrochloride (as chlorpromazine embonate) 20 milligram/1 milliliter conventional release oral suspension
+^ESCT1209149	Chlorpromazine hydrochloride 50 mg/2 mL solution for injection ampoule
+^ESCT1209150	Chlorpromazine hydrochloride 50 mg/2 mL solution for injection ampule
+^ESCT1209151	Product containing precisely chlorpromazine hydrochloride 50 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1210299	Chlorpromazine hydrochloride 25 mg/mL solution for injection ampoule
+^ESCT1210300	Product containing precisely chlorpromazine hydrochloride 25 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210301	Chlorpromazine hydrochloride 25 mg/mL solution for injection ampule
+^ESCT1216076	Chlorpromazine 100mg/5ml oral suspension sugar free
+^ESCT1216077	Chlorpromazine 25mg/1ml solution for injection ampoules
+^ESCT1216078	Chlorpromazine 25mg/5ml oral solution
+^ESCT1216079	Chlorpromazine 50mg/2ml solution for injection ampoules
+^ESCT1218441	Chlorpromazine
+^ESCT1218442	Chlorpromazine product
+^ESCT1223389	Product containing precisely chlorpromazine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223390	Product containing precisely chlorpromazine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223391	Product containing precisely chlorpromazine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223392	Product containing precisely chlorpromazine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1223393	Product containing precisely chlorpromazine (as chlorpromazine hydrochloride) 100 milligram/1 each conventional release rectal suppository
+^ESCT1223394	Chlorpromazine (as chlorpromazine hydrochloride) 100 mg rectal suppository
+^ESCT1226708	Product containing precisely chlorpromazine (as chlorpromazine hydrochloride) 25 milligram/1 each conventional release rectal suppository
+^ESCT1226709	Chlorpromazine (as chlorpromazine hydrochloride) 25 mg rectal suppository
+^ESCT1228898	Product containing precisely chlorpromazine hydrochloride 200 milligram/1 each conventional release oral tablet
+^ESCT1264947	Chlorpromazine 25mg/5ml oral solution (DE Pharmaceuticals)
+^ESCT1264948	Chlorpromazine 25mg/5ml oral solution (DE Pharmaceuticals) 150 ml
+^ESCT1268141	Chlorpromazine 25mg tablets (Teva UK Ltd) 28 tablet
+^ESCT1268142	Chlorpromazine 50mg tablets (Teva UK Ltd) 28 tablet
+^ESCT1268143	Chlorpromazine 100mg tablets (Teva UK Ltd) 28 tablet
+^ESCT1354197	Chlorpromazine only product
+^ESCT1357951	Chlorpromazine only product in oral dose form
+^ESCT1357952	Chlorpromazine only product in parenteral dose form
+^ESCT1357953	Chlorpromazine only product in rectal dose form
+^ESCT1360960	Chlorpromazine hydrochloride 25 mg/mL solution for injection
+^ESCT1364399	Chlorpromazine hydrochloride 2 mg/mL oral solution
+^ESCT1364400	Chlorpromazine hydrochloride 10 mg/mL oral solution
+^ESCT1373360	Chlorpromazine 25mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1373361	Chlorpromazine 25mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1373362	Chlorpromazine 50mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1373365	Chlorpromazine 50mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1373369	Chlorpromazine 100mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1373370	Chlorpromazine 100mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1375103	Chlorpromazine 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375106	Chlorpromazine 100mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375107	Chlorpromazine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375108	Chlorpromazine 25mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375109	Chlorpromazine 25mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1375110	Chlorpromazine 25mg/5ml oral solution (Medihealth (Northern) Ltd) 150 ml
+^ESCT1375111	Chlorpromazine 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375112	Chlorpromazine 50mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375113	Chlorpromazine 100mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1375114	Chlorpromazine 100mg/5ml oral solution (Medihealth (Northern) Ltd) 150 ml
+^ESCT1381263	Chlorpromazine 50 mg rectal suppository
+^ESCT1381264	Chlorpromazine 300 mg rectal suppository
+^ESCT1381304	Chlorpromazine-containing product in oral dose form
+^ESCT1381305	Chlorpromazine-containing product in parenteral dose form
+^ESCT1381306	Chlorpromazine-containing product in rectal dose form
+^ESCT1385911	Chlorpromazine hydrochloride 20 mg/mL oral solution
+^ESCT1425572	Chlorpromazine 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425583	Chlorpromazine 25mg/5ml oral solution (Kent Pharma (UK) Ltd)
+^ESCT1425665	Chlorpromazine 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425759	Chlorpromazine 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426182	Chlorpromazine 25mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426187	Chlorpromazine 50mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426189	Chlorpromazine 100mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426386	Chlorpromazine 25mg/5ml oral solution (Kent Pharma (UK) Ltd) 150 ml
+^ESCT1431314	Chlorpromazine 10mg tablets 28 tablet
+^ESCT1431315	Chlorpromazine 10mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1431316	Chlorpromazine 10mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1434656	Chlorpromazine 100mg/5ml oral solution (DE Pharmaceuticals)
+^ESCT1434657	Chlorpromazine 100mg/5ml oral solution (DE Pharmaceuticals) 150 ml
+^ESCT1439658	Chlorpromazine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1439660	Chlorpromazine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH1005309	Chlorpromazine 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCH1005310	Chlorpromazine 25mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCH1005311	Chlorpromazine 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCH1005312	Chlorpromazine 50mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCH1005313	Chlorpromazine 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCH1005314	Chlorpromazine 100mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCH1015478	Chlorpromazine 25mg/5ml oral solution sugar free 150 ml
+^ESCTCH1015479	Chlorpromazine 25mg/5ml oral solution sugar free (Pinewood Healthcare)
+^ESCTCH1015480	Chlorpromazine 25mg/5ml oral solution sugar free (Pinewood Healthcare) 150 ml
+^ESCTCH1015516	Chlorpromazine 25mg/5ml oral solution sugar free
+^ESCTCH1017741	Chlorpromazine 25mg tablets 1000 tablet
+^ESCTCH1017742	Chlorpromazine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 1000 tablet
+^ESCTCH1026477	Chlorpromazine 10mg capsules 1 capsule
+^ESCTCH1026478	Chlorpromazine 10mg capsules (Special Order)
+^ESCTCH1026479	Chlorpromazine 10mg capsules (Special Order) 1 capsule
+^ESCTCH1026531	Chlorpromazine 10mg capsules
+^ESCTCH1035557	Chlorpromazine 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTCH1035558	Chlorpromazine 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTCH1042019	Chlorpromazine 25mg tablets (Waymade Healthcare Plc)
+^ESCTCH1042020	Chlorpromazine 25mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCH1042021	Chlorpromazine 50mg tablets (Waymade Healthcare Plc)
+^ESCTCH1042022	Chlorpromazine 50mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCH1042023	Chlorpromazine 100mg tablets (Waymade Healthcare Plc)
+^ESCTCH1042026	Chlorpromazine 100mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCH1042060	Chlorpromazine 25mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTCH1042061	Chlorpromazine 25mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTCH1055632	Chlorpromazine 100mg suppositories 1 suppository
+^ESCTCH1055633	Chlorpromazine 100mg suppositories (Special Order)
+^ESCTCH1055634	Chlorpromazine 100mg suppositories (Special Order) 1 suppository
+^ESCTCH1060434	Chlorpromazine 100mg tablets (DE Pharmaceuticals)
+^ESCTCH1060438	Chlorpromazine 100mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCH1060439	Chlorpromazine 50mg tablets (DE Pharmaceuticals)
+^ESCTCH1060440	Chlorpromazine 50mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCH1117012	Chlorpromazine 25mg/5ml oral solution (Sigma Pharmaceuticals Plc)
+^ESCTCH1117013	Chlorpromazine 25mg/5ml oral solution (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTCH1117014	Chlorpromazine 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCH1117015	Chlorpromazine 100mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCH1117016	Chlorpromazine 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCH1117017	Chlorpromazine 25mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCH1117018	Chlorpromazine 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCH1117019	Chlorpromazine 50mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCH1119077	Chlorpromazine 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCH1119078	Chlorpromazine 25mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTCH1120145	Chlorpromazine 25mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTCH1120146	Chlorpromazine 25mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTCH1120147	Chlorpromazine 25mg tablets (DE Pharmaceuticals)
+^ESCTCH1120148	Chlorpromazine 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCH1126950	Chlorpromazine 10mg tablets 1 tablet
+^ESCTCH1126951	Chlorpromazine 10mg tablets (Special Order)
+^ESCTCH1126952	Chlorpromazine 10mg tablets (Special Order) 1 tablet
+^ESCTCH1147675	Chlorpromazine 25mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTCH1147676	Chlorpromazine 25mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH1147677	Chlorpromazine 50mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTCH1147678	Chlorpromazine 50mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH1147679	Chlorpromazine 100mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTCH1147680	Chlorpromazine 100mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH326519	Chlorpromazine
+^ESCTCH609205	Chlorpromazine 10mg tablets
+^ESCTCH609207	Chlorpromazine hydrochloride 10 mg oral tablet
+^ESCTCH609208	Chlorpromazine 25mg tablets
+^ESCTCH609210	Chlorpromazine hydrochloride 25 mg oral tablet
+^ESCTCH609211	Chlorpromazine 50mg tablets
+^ESCTCH609213	Chlorpromazine hydrochloride 50 mg oral tablet
+^ESCTCH609214	Chlorpromazine 100mg tablets
+^ESCTCH609216	Chlorpromazine hydrochloride 100 mg oral tablet
+^ESCTCH609217	Chlorpromazine 25mg/5ml oral solution
+^ESCTCH609218	Chlorpromazine hydrochloride 25mg/5mL syrup
+^ESCTCH609221	Chlorpromazine 25mg/5ml oral solution sugar free
+^ESCTCH609222	Chlorpromazine hydrochloride 25mg/5mL s/f oral solution
+^ESCTCH609223	Chlorpromazine hydrochloride 100mg/5mL s/f oral solution
+^ESCTCH609224	Chlorpromazine 100mg/5ml oral suspension sugar free
+^ESCTCH609225	Chlorpromazine hydrochloride 100mg/5mL s/f suspension
+^ESCTCH609226	Chlorpromazine 100mg suppositories
+^ESCTCH609227	Chlorpromazine 100mg suppository
+^ESCTCH609228	Chlorpromazine 25mg/1ml solution for injection ampoules
+^ESCTCH609229	Chlorpromazine hydrochloride 25mg/1mL injection
+^ESCTCH609230	Chlorpromazine hydrochloride 25mg injection solution 1mL vial
+^ESCTCH609231	Chlorpromazine 50mg/2ml solution for injection ampoules
+^ESCTCH609232	Chlorpromazine hydrochloride 50mg/2mL injection
+^ESCTCH609233	Chlorpromazine hydrochloride 25mg/mL injection solution 2mL ampoule
+^ESCTCH609234	Chlorpromazine hydrochloride 25mg/mL injection solution 2mL ampule
+^ESCTCH609235	Chlorpromazine hydrochloride 50mg/5mL syrup
+^ESCTCH618749	Chlorpromazine 25mg suppositories
+^ESCTCH618750	Chlorpromazine 25mg suppository
+^ESCTCH618751	Chlorpromazine 50mg suppository
+^ESCTCH618752	Chlorpromazine 300mg suppository
+^ESCTCH618956	Chlorpromazine in oral dosage form
+^ESCTCH618958	Chlorpromazine in parenteral dosage form
+^ESCTCH618960	Chlorpromazine in rectal dosage form
+^ESCTCH641788	Chlorpromazine hydrochloride 10mg/5mL syrup
+^ESCTCH641789	Chlorpromazine hydrochloride 200 mg oral tablet
+^ESCTCH645674	Chlorpromazine hydrochloride 30mg m/r capsule
+^ESCTCH645675	Chlorpromazine hydrochloride 75mg m/r capsule
+^ESCTCH645676	Chlorpromazine hydrochloride 150mg m/r capsule
+^ESCTCH799094	Chlorpromazine 50mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCH801754	Chlorpromazine 100mg tablets (Teva UK Ltd)
+^ESCTCH802132	Chlorpromazine 25mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTCH803563	Chlorpromazine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCH804585	Chlorpromazine 25mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+^ESCTCH806700	Chlorpromazine 50mg tablets (Teva UK Ltd)
+^ESCTCH807029	Chlorpromazine 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCH807106	Chlorpromazine 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCH807751	Chlorpromazine 25mg/5ml oral solution (Kent Pharmaceuticals Ltd)
+^ESCTCH808032	Chlorpromazine 25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCH808122	Chlorpromazine 25mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTCH808903	Chlorpromazine 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCH808948	Chlorpromazine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCH809724	Chlorpromazine 50mg tablets (The Boots Company Plc)
+^ESCTCH810283	Chlorpromazine 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCH813057	Chlorpromazine 25mg tablets (Teva UK Ltd)
+^ESCTCH814308	Chlorpromazine 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCH815180	Chlorpromazine 25mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCH815520	Chlorpromazine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCH820207	Chlorpromazine 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCH820494	Chlorpromazine 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCH821364	Chlorpromazine 100mg tablets (The Boots Company Plc)
+^ESCTCH824117	Chlorpromazine 100mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCH833884	Chlorpromazine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCH834359	Chlorpromazine 100mg tablets 56 tablet
+^ESCTCH836430	Chlorpromazine 25mg tablets 56 tablet
+^ESCTCH836857	Chlorpromazine 50mg/2ml solution for injection ampoules 10 ampoule
+^ESCTCH836957	Chlorpromazine 25mg/5ml oral solution 150 ml
+^ESCTCH842969	Chlorpromazine 50mg tablets 28 tablet
+^ESCTCH846202	Chlorpromazine 50mg tablets 500 tablet
+^ESCTCH847025	Chlorpromazine 25mg/5ml oral solution 100 ml
+^ESCTCH847172	Chlorpromazine 50mg tablets 56 tablet
+^ESCTCH847975	Chlorpromazine 25mg tablets 28 tablet
+^ESCTCH848299	Chlorpromazine 100mg tablets 500 tablet
+^ESCTCH848355	Chlorpromazine 100mg tablets 28 tablet
+^ESCTCH848694	Chlorpromazine 10mg tablets 56 tablet
+^ESCTCH851054	Chlorpromazine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCH851059	Chlorpromazine 25mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH851084	Chlorpromazine 25mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH851091	Chlorpromazine 25mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH851093	Chlorpromazine 25mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH851095	Chlorpromazine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH851108	Chlorpromazine 50mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCH851113	Chlorpromazine 50mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH851118	Chlorpromazine 50mg tablets (The Boots Company Plc) 500 tablet
+^ESCTCH851126	Chlorpromazine 50mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH851129	Chlorpromazine 50mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH851131	Chlorpromazine 50mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH851134	Chlorpromazine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH851145	Chlorpromazine 100mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCH851147	Chlorpromazine 100mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH851148	Chlorpromazine 100mg tablets (The Boots Company Plc) 500 tablet
+^ESCTCH851150	Chlorpromazine 100mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH851151	Chlorpromazine 100mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTCH851170	Chlorpromazine 100mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH851177	Chlorpromazine 100mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH855480	Chlorpromazine 25mg/5ml oral solution (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTCH855484	Chlorpromazine 25mg/5ml oral solution (Kent Pharmaceuticals Ltd) 150 ml
+^ESCTCH855485	Chlorpromazine 25mg/5ml syrup (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTCH855487	Chlorpromazine 25mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTCH857710	Chlorpromazine 100mg/5ml oral suspension sugar free 100 ml
+^ESCTCH873028	Chlorpromazine 25mg tablets (Thornton & Ross Ltd)
+^ESCTCH873029	Chlorpromazine 25mg tablets (Thornton & Ross Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH873031	Chlorpromazine 50mg tablets (Thornton & Ross Ltd)
+^ESCTCH873034	Chlorpromazine 50mg tablets (Thornton & Ross Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH873041	Chlorpromazine 100mg tablets (Thornton & Ross Ltd)
+^ESCTCH873044	Chlorpromazine 100mg tablets (Thornton & Ross Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH876729	Chlorpromazine 25mg/1ml solution for injection ampoules 10 ampoule
+^ESCTCH876732	Chlorpromazine 25mg/1ml solution for injection ampoules (Mercury Pharma Group Ltd)
+^ESCTCH876733	Chlorpromazine 25mg/1ml solution for injection ampoules (Mercury Pharma Group Ltd) 10 ampoule
+^ESCTCH905362	Chlorpromazine 50mg/5ml oral solution 1 ml
+^ESCTCH905365	Chlorpromazine 10mg/5ml oral solution 1 ml
+^ESCTCH905366	Chlorpromazine 50mg/5ml oral solution (Special Order)
+^ESCTCH905367	Chlorpromazine 10mg/5ml oral solution (Special Order)
+^ESCTCH905368	Chlorpromazine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTCH905369	Chlorpromazine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTCH905370	Chlorpromazine 100mg/5ml oral solution 1 ml
+^ESCTCH905371	Chlorpromazine 100mg/5ml oral solution (Special Order)
+^ESCTCH905373	Chlorpromazine 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTCH905374	Chlorpromazine 50mg/5ml oral suspension 1 ml
+^ESCTCH905375	Chlorpromazine 10mg/5ml oral suspension 1 ml
+^ESCTCH905377	Chlorpromazine 10mg/5ml oral suspension (Special Order)
+^ESCTCH905378	Chlorpromazine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCH905379	Chlorpromazine 50mg/5ml oral suspension (Special Order)
+^ESCTCH905381	Chlorpromazine 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCH905531	Chlorpromazine 100mg/5ml oral solution
+^ESCTCH905532	Chlorpromazine 10mg/5ml oral solution
+^ESCTCH905533	Chlorpromazine 10mg/5ml oral suspension
+^ESCTCH905534	Chlorpromazine 50mg/5ml oral solution
+^ESCTCH905535	Chlorpromazine 50mg/5ml oral suspension
+^ESCTCH928850	Chlorpromazine 25mg tablets (Arrow Generics Ltd)
+^ESCTCH928851	Chlorpromazine 25mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTCH928852	Chlorpromazine 50mg tablets (Arrow Generics Ltd)
+^ESCTCH928853	Chlorpromazine 50mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTCH928854	Chlorpromazine 100mg tablets (Arrow Generics Ltd)
+^ESCTCH928855	Chlorpromazine 100mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTCH935344	Chlorpromazine 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTCH935345	Chlorpromazine 25mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTCH935348	Chlorpromazine 50mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTCH935349	Chlorpromazine 50mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTCH935356	Chlorpromazine 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTCH935357	Chlorpromazine 100mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTCH936660	Chlorpromazine 100mg suppositories 10 suppository
+^ESCTCH936661	Chlorazin 100mg suppositories (Imported (Switzerland))
+^ESCTCH936662	Chlorazin 100mg suppositories (Imported (Switzerland)) 10 suppository
+^ESCTCH945076	Chlorpromazine 1.5mg/5ml oral suspension 1 ml
+^ESCTCH945077	Chlorpromazine 1.5mg/5ml oral suspension (Special Order)
+^ESCTCH945078	Chlorpromazine 1.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCH945079	Chlorpromazine 1.5mg/5ml oral solution 1 ml
+^ESCTCH945080	Chlorpromazine 1.5mg/5ml oral solution (Special Order)
+^ESCTCH945081	Chlorpromazine 1.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCH945082	Chlorpromazine 12.5mg/5ml oral suspension 1 ml
+^ESCTCH945083	Chlorpromazine 12.5mg/5ml oral suspension (Special Order)
+^ESCTCH945084	Chlorpromazine 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCH945085	Chlorpromazine 12.5mg/5ml oral solution 1 ml
+^ESCTCH945086	Chlorpromazine 12.5mg/5ml oral solution (Special Order)
+^ESCTCH945087	Chlorpromazine 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCH945427	Chlorpromazine 1.5mg/5ml oral solution
+^ESCTCH945429	Chlorpromazine 1.5mg/5ml oral suspension
+^ESCTCH945430	Chlorpromazine 12.5mg/5ml oral solution
+^ESCTCH945432	Chlorpromazine 12.5mg/5ml oral suspension
+^ESCTCH960305	Chlorpromazine 25mg/5ml oral solution (Dowelhurst Ltd)
+^ESCTCH960306	Chlorpromazine 25mg/5ml oral solution (Dowelhurst Ltd) 150 ml
+^ESCTCH960318	Chlorpromazine 100mg tablets (Dowelhurst Ltd)
+^ESCTCH960319	Chlorpromazine 100mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCH960320	Chlorpromazine 25mg tablets (Dowelhurst Ltd)
+^ESCTCH960322	Chlorpromazine 25mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCH960357	Chlorpromazine 50mg tablets (Dowelhurst Ltd)
+^ESCTCH960358	Chlorpromazine 50mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCH962896	Chlorpromazine 25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCH962897	Chlorpromazine 25mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH962898	Chlorpromazine 50mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCH962899	Chlorpromazine 50mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH962900	Chlorpromazine 100mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCH962901	Chlorpromazine 100mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCH966794	Chlorpromazine 100mg/5ml oral suspension 1 ml
+^ESCTCH966795	Chlorpromazine 100mg/5ml oral suspension (Special Order)
+^ESCTCH966799	Chlorpromazine 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCH966818	Chlorpromazine 100mg/5ml oral suspension
+^ESCTCH981115	Chlorpromazine 100mg/5ml oral solution 150 ml
+^ESCTCH981116	Chlorpromazine 100mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTCH981117	Chlorpromazine 100mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTCH987486	Chlorpromazine 25mg suppositories 1 suppository
+^ESCTCH987487	Chlorpromazine 25mg suppositories (Special Order)
+^ESCTCH987488	Chlorpromazine 25mg suppositories (Special Order) 1 suppository
+^ESCTCH988110	Chlorpromazine 100mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTCH988111	Chlorpromazine 100mg/5ml oral solution (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTCH988112	Chlorpromazine 100mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTCH988113	Chlorpromazine 100mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTLA796585	Largactil 25mg tablets (Sanofi)
+^ESCTLA812416	Largactil 25mg/5ml syrup (Sanofi)
+^ESCTLA815597	Largactil 100mg tablets (Sanofi)
+^ESCTLA830243	Largactil 50mg/2ml solution for injection ampoules (Sanofi)
+^ESCTLA832466	Largactil 50mg tablets (Sanofi)
+^ESCTLA832540	Largactil 10mg tablets (Sanofi)
+^ESCTLA851063	Largactil 25mg tablets (Sanofi) 56 tablet 2 x 28 tablets
+^ESCTLA851124	Largactil 50mg tablets (Sanofi) 56 tablet 2 x 28 tablets
+^ESCTLA851149	Largactil 100mg tablets (Sanofi) 56 tablet 4 x 14 tablets
+^ESCTLA855478	Largactil 10mg tablets (Sanofi) 56 tablet 2 x 28 tablets
+^ESCTLA855483	Largactil 25mg/5ml syrup (Sanofi) 100 ml
+^ESCTLA856913	Largactil 50mg/2ml solution for injection ampoules (Sanofi) 10 ampoule
+^ESCTLA857711	Largactil Forte 100mg/5ml oral suspension (Sanofi)
+^ESCTLA857712	Largactil Forte 100mg/5ml oral suspension (Sanofi) 100 ml
+^ESCTLA918988	Largactil
+^ESCTLA934904	Largactil 50mg tablets (Waymade Healthcare Plc)
+^ESCTLA934907	Largactil 50mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTOR645673	Oral form chlorpromazine m/r capsule
+^ESCTPR326520	Product containing chlorpromazine
+^ESCTPR609206	Product containing chlorpromazine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609209	Product containing chlorpromazine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609212	Product containing chlorpromazine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR609215	Product containing chlorpromazine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR618957	Product containing chlorpromazine in oral dosage form
+^ESCTPR618959	Product containing chlorpromazine in parenteral dosage form
+^ESCTPR618961	Product containing chlorpromazine in rectal dosage form
+^ESCTPR641790	Product containing chlorpromazine hydrochloride 200 mg/1 each oral tablet
+CHCA86024NEMIS	Chlorpromazine Hydrochloride  Capsules  10 mg
+CHIN21661NEMIS	Chlorpromazine Hydrochloride  Injection  25 mg/1 ml ampoule
+CHOR118786NEMIS	Chlorpromazine Hydrochloride  Oral Solution, Sugar Free  25 mg/5 ml
+CHOR34236MGEMIS	Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml (A.A.H. Pharm)
+CHOR34237MGEMIS	Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml (Rosemont Pharm)
+CHOR34238MGEMIS	Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml (Kent Pharm)
+CHOR34239MGEMIS	Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml (Unichem)
+CHSU128016NEMIS	Chlorpromazine  Suppositories  100 mg
+CHSU593	Chlorpromazine Hydrochloride  Suspension forte  Sugar Free 100 mg/5 ml
+CHSU86023NEMIS	Chlorpromazine  Suppositories  25 mg
+CHSY21510NEMIS	Chlorpromazine Hydrochloride  Oral solution  50 mg/5 ml
+CHTA34259MGEMIS	Chlorpromazine Hydrochloride  Tablets  100 mg (Teva UK)
+CHTA34260MGEMIS	Chlorpromazine Hydrochloride  Tablets  100 mg (Kent Pharm)
+CHTA34261MGEMIS	Chlorpromazine Hydrochloride  Tablets  100 mg (Ivax Pharmaceuticals)
+CHTA34262MGEMIS	Chlorpromazine Hydrochloride  Tablets  100 mg (Unichem)
+CHTA34263MGEMIS	Chlorpromazine Hydrochloride  Tablets  100 mg (A.A.H. Pharm)
+CHTA34264MGEMIS	Chlorpromazine Hydrochloride  Tablets  100 mg (The Boots Company)
+CHTA34265MGEMIS	Chlorpromazine Hydrochloride  Tablets  100 mg (Ranbaxy)
+CHTA34266MGEMIS	Chlorpromazine Hydrochloride  Tablets  100 mg (Genus Pharm)
+CHTA34267MGEMIS	Chlorpromazine Hydrochloride  Tablets  25 mg (Ivax Pharmaceuticals)
+CHTA34268MGEMIS	Chlorpromazine Hydrochloride  Tablets  25 mg (A.A.H. Pharm)
+CHTA34269MGEMIS	Chlorpromazine Hydrochloride  Tablets  25 mg (Teva UK)
+CHTA34270MGEMIS	Chlorpromazine Hydrochloride  Tablets  25 mg (Ranbaxy)
+CHTA34271MGEMIS	Chlorpromazine Hydrochloride  Tablets  25 mg (Kent Pharm)
+CHTA34272MGEMIS	Chlorpromazine Hydrochloride  Tablets  25 mg (Unichem)
+CHTA34273MGEMIS	Chlorpromazine Hydrochloride  Tablets  25 mg (Genus Pharm)
+CHTA34274MGEMIS	Chlorpromazine Hydrochloride  Tablets  50 mg (Ranbaxy)
+CHTA34275MGEMIS	Chlorpromazine Hydrochloride  Tablets  50 mg (Unichem)
+CHTA34276MGEMIS	Chlorpromazine Hydrochloride  Tablets  50 mg (Teva UK)
+CHTA34277MGEMIS	Chlorpromazine Hydrochloride  Tablets  50 mg (The Boots Company)
+CHTA34278MGEMIS	Chlorpromazine Hydrochloride  Tablets  50 mg (Kent Pharm)
+CHTA34279MGEMIS	Chlorpromazine Hydrochloride  Tablets  50 mg (A.A.H. Pharm)
+CHTA34280MGEMIS	Chlorpromazine Hydrochloride  Tablets  50 mg (Ivax Pharmaceuticals)
+CHTA34281MGEMIS	Chlorpromazine Hydrochloride  Tablets  50 mg (Genus Pharm)
+CHTAEGTON6692	Chloractil  Tablets  100 mg
+CHTAEGTON6693	Chloractil  Tablets  25 mg
+LASU1614	Largactil  Suppositories  100 mg

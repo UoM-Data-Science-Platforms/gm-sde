@@ -1,0 +1,36 @@
+d4d..	Prochlorperazine [antipsych] [see dhe..]
+dhe..	Prochlorperazine [nausea]
+dhec.	Prochlorperazine mesylate 5mg/sachet effervescent granules
+dheb.	Stemetil Eff 5mg/sachet granules
+dhed.	Prochlorperazine maleate 3mg buccal tablet
+dhea.	Buccastem 3mg tablet
+dheB.	Buccastem M 3mg buccal tablet
+dher.	Prochlorperazine maleate 5mg tablet
+dheA.	Proziere 5mg tablet
+dhe1.	Stemetil 5mg tablet
+dhes.	Prochlorperazine maleate 25mg tablet
+dhe2.	Stemetil 25mg tablet
+dhet.	Prochlorperazine mesylate 5mg/5mL syrup
+dhe3.	Stemetil 5mg/5ml syrup
+dheu.	Prochlorperazine mesylate 12.5mg/1mL injection
+dhe4.	Stemetil 12.5mg/1mL injection
+dhev.	Prochlorperazine mesylate 25mg/2mL injection
+dhe5.	Stemetil 25mg/2mL injection
+dhew.	Prochlorperazine maleate 5mg suppository
+dhe6.	Stemetil 5mg suppository
+dhex.	Prochlorperazine maleate 25mg suppository
+dhe7.	Stemetil 25mg suppository
+dhey.	Prochlorperazine 10mg m/r capsule
+dhe8.	Vertigon 10mg Spansule
+dhez.	Prochlorperazine 15mg m/r capsule
+dhe9.	Vertigon 15mg Spansule
+x01BU	Oral prochlorperazine
+x01BV	Parenteral prochlorperazine
+x01BW	Rectal prochlorperazine
+x02LV	Prochlorperazine
+x02rY	Stemetil
+x048H	Stemetil Eff
+x02WA	Buccastem
+x05Zv	Buccastem M
+x02oi	Proziere
+dhg2.	VERTIGON 25mg tablets

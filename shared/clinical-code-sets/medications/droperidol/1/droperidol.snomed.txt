@@ -1,0 +1,55 @@
+26574002	Product containing droperidol (medicinal product)
+321398008	Droperidol [central nervous system use] (product)
+334009009	Droperidol [anesthesia] (product)
+346438004	Product containing droperidol and fentanyl (medicinal product)
+349872004	Product containing droperidol in oral dose form (medicinal product form)
+349873009	Product containing droperidol in parenteral dose form (medicinal product form)
+374875007	Droperidol 2.5mg/mL injection (product)
+400346006	Droperidol 2.5mg/mL injection solution 5mL vial (product)
+400429009	Droperidol 2.5mg/mL injection solution 2mL vial (product)
+400502002	Droperidol 2.5mg/mL injection solution 10mL vial (product)
+400580008	Droperidol 2.5mg/mL injection solution 20mL vial (product)
+401343008	Droperidol 2.5mg/mL injection solution 1mL vial (product)
+775704003	Droperidol (product)
+775705002	Product containing only droperidol and fentanyl (medicinal product)
+779078004	Product containing only droperidol in oral dose form (medicinal product form)
+779079007	Product containing only droperidol in parenteral dose form (medicinal product form)
+1149559004	Product containing precisely droperidol 2.5 milligram/1 milliliter conventional release solution for injection (clinical drug)
+41481711000001100	Droperidol 2.5mg/1ml solution for injection vials (product)
+41467211000001100	Droperidol 2.5mg/1ml solution for injection vials (Consilient Health Ltd) (product)
+12084911000001107	Droperidol 5mg/5ml oral solution (product)
+12072011000001108	Droperidol 5mg/5ml oral solution (Special Order) (product)
+8793511000001105	Droperidol 1mg capsules (product)
+8747811000001107	Droperidol 1mg capsules (Special Order) (product)
+8793611000001109	Droperidol 500microgram capsules (product)
+8748911000001101	Droperidol 500microgram capsules (Special Order) (product)
+15432411000001108	Droperidol 2.5mg/1ml solution for injection ampoules (product)
+34153711000001101	Droperidol 2.5mg/1ml solution for injection ampoules (Panpharma UK Ltd) (product)
+15432611000001106	Xomolix 2.5mg/1ml solution for injection ampoules (ProStrakan Ltd) (product)
+12085011000001107	Droperidol 5mg/5ml oral suspension (product)
+12071611000001107	Droperidol 5mg/5ml oral suspension (Special Order) (product)
+41466611000001100	Droperidol 2.5mg/1ml solution for injection vials 10 vial (product)
+41467311000001108	Droperidol 2.5mg/1ml solution for injection vials (Consilient Health Ltd) 10 vial (product)
+9101000001105	Droperidol 10mg tablet
+150401000001105	Fentanyl+droperidol 100micrograms/5mg/2mL injection
+261501000001106	Droperidol 1mg/mL oral liquid
+429501000001100	Droperidol 10mg/2mL injection
+8748711000001103	Droperidol 500microgram capsules 1 capsule (product)
+8749111000001106	Droperidol 500microgram capsules (Special Order) 1 capsule (product)
+8747611000001108	Droperidol 1mg capsules 1 capsule (product)
+8747911000001102	Droperidol 1mg capsules (Special Order) 1 capsule (product)
+12071911000001101	Droperidol 5mg/5ml oral solution 1 ml (product)
+12072111000001109	Droperidol 5mg/5ml oral solution (Special Order) 1 ml (product)
+12071511000001108	Droperidol 5mg/5ml oral suspension 1 ml (product)
+12071711000001103	Droperidol 5mg/5ml oral suspension (Special Order) 1 ml (product)
+15432511000001107	Droperidol 2.5mg/1ml solution for injection ampoules 10 ampoule (product)
+34153811000001109	Droperidol 2.5mg/1ml solution for injection ampoules (Panpharma UK Ltd) 10 ampoule (product)
+15432711000001102	Xomolix 2.5mg/1ml solution for injection ampoules (ProStrakan Ltd) 10 ampoule (product)
+10384601000001109	DROPERIDOL 2.5mg/1mL solution for injection
+190801000001101	Droleptan 1mg/mL oral liquid
+359001000001100	Droleptan 10mg/2mL injection
+721401000001109	Droleptan 10mg tablet
+1038201000001100	Droleptan 10mg injection
+10106501000001106	Xomolix (product)
+10384501000001105	XOMOLIX 2.5mg/1mL solution for injection
+644901000001108	Thalamonal injection

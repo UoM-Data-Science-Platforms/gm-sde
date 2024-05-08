@@ -6,3 +6,51 @@ LATA96316NEMIS	Latuda  Tablets  74 mg
 LUTA96309NEMIS	Lurasidone  Tablets  18.5 mg
 LUTA96311NEMIS	Lurasidone  Tablets  37 mg
 LUTA96312NEMIS	Lurasidone  Tablets  74 mg
+^ESCT1236719	Lurasidone
+^ESCT1236720	Product containing lurasidone
+^ESCT1236721	Lurasidone product
+^ESCT1259057	Latuda 37mg tablets (Originalis B.V.)
+^ESCT1259059	Latuda 37mg tablets (Originalis B.V.) 28 tablet
+^ESCT1267891	Latuda 18.5mg tablets (CST Pharma Ltd)
+^ESCT1267892	Latuda 18.5mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1267893	Latuda 37mg tablets (CST Pharma Ltd)
+^ESCT1267894	Latuda 37mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1267895	Latuda 74mg tablets (CST Pharma Ltd)
+^ESCT1267896	Latuda 74mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1274604	Latuda 74mg tablets (Pilsco Ltd)
+^ESCT1274605	Latuda 74mg tablets (Pilsco Ltd) 28 tablet
+^ESCT1300800	Latuda 18.5mg tablets (DE Pharmaceuticals)
+^ESCT1300801	Latuda 18.5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1300802	Latuda 37mg tablets (DE Pharmaceuticals)
+^ESCT1300803	Latuda 37mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1300804	Latuda 74mg tablets (DE Pharmaceuticals)
+^ESCT1300805	Latuda 74mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1355705	Lurasidone only product
+^ESCT1359080	Lurasidone only product in oral dose form
+^ESCT1385187	Lurasidone-containing product in oral dose form
+^ESCT1389535	Latuda 74mg tablets (Ethigen Ltd)
+^ESCT1389536	Latuda 74mg tablets (Ethigen Ltd) 28 tablet
+^ESCT1438533	Latuda 18.5mg tablets (CNX Therapeutics Ltd)
+^ESCT1438534	Latuda 18.5mg tablets (CNX Therapeutics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438535	Latuda 37mg tablets (CNX Therapeutics Ltd)
+^ESCT1438536	Latuda 37mg tablets (CNX Therapeutics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438537	Latuda 74mg tablets (CNX Therapeutics Ltd)
+^ESCT1438538	Latuda 74mg tablets (CNX Therapeutics Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA1087437	Latuda 18.5mg tablets (Sunovion Pharmaceuticals Europe Ltd)
+^ESCTLA1087438	Latuda 18.5mg tablets (Sunovion Pharmaceuticals Europe Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA1087440	Latuda 37mg tablets (Sunovion Pharmaceuticals Europe Ltd)
+^ESCTLA1087441	Latuda 37mg tablets (Sunovion Pharmaceuticals Europe Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA1087443	Latuda 74mg tablets (Sunovion Pharmaceuticals Europe Ltd)
+^ESCTLA1087444	Latuda 74mg tablets (Sunovion Pharmaceuticals Europe Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA947485	Latuda
+^ESCTLU1087436	Lurasidone 18.5mg tablets 28 tablet
+^ESCTLU1087439	Lurasidone 37mg tablets 28 tablet
+^ESCTLU1087442	Lurasidone 74mg tablets 28 tablet
+^ESCTLU1087446	Lurasidone 18.5mg tablets
+^ESCTLU1087447	Lurasidone 37mg tablets
+^ESCTLU1087448	Lurasidone 74mg tablets
+^ESCTLU773442	Lurasidone
+^ESCTLU773443	Lurasidone in oral dosage form
+^ESCTPR773444	Product containing lurasidone in oral dosage form
+LATA96314NEMIS	Latuda  Tablets  18.5 mg
+LATA96315NEMIS	Latuda  Tablets  37 mg

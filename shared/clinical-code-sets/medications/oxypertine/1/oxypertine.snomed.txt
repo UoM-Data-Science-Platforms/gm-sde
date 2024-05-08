@@ -1,0 +1,20 @@
+321462001	Oxypertine hydrochloride (product)
+321465004	Product containing precisely oxypertine 10 milligram/1 each conventional release oral capsule (clinical drug)
+321466003	Product containing precisely oxypertine 40 milligram/1 each conventional release oral tablet (clinical drug)
+349883008	Product containing oxypertine (medicinal product)
+772661005	Product containing oxypertine in oral dose form (medicinal product form)
+777033005	Oxypertine (product)
+780100005	Product containing only oxypertine in oral dose form (medicinal product form)
+42276411000001106	Oxypertine 40mg tablets (product)
+4981011000001106	Oxypertine 40mg tablets (Sanofi-Synthelabo Ltd) (product)
+42276311000001104	Oxypertine 10mg capsules (product)
+4547611000001108	Integrin 10mg capsules (Sterling-Winthrop) (product)
+391901000001105	Oxypertine 40mg tablet
+528201000001104	Oxypertine 10mg capsule
+4547511000001109	Oxypertine 10mg capsules 100 capsule (product)
+4547711000001104	Integrin 10mg capsules (Sterling-Winthrop) 100 capsule (product)
+4980811000001108	Oxypertine 40mg tablets 250 tablet (product)
+4981111000001107	Oxypertine 40mg tablets (Sanofi-Synthelabo Ltd) 250 tablet (product)
+876201000001100	Integrin 40mg tablet
+1953101000001105	Integrin 10mg capsule
+9532501000001107	Integrin (product)

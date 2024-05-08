@@ -1,0 +1,7 @@
+d56..	Pipotiazine palmitate
+d563.	Pipotiazine palmitate 50mg/1mL oily injection
+d561.	Piportil Depot 50mg/1mL oily injection
+d564.	Pipotiazine palmitate 100mg/2mL oily injection
+d562.	Piportil Depot 100mg/2mL oily injection
+x01BT	Pipotiazine
+x02nW	Piportil Depot

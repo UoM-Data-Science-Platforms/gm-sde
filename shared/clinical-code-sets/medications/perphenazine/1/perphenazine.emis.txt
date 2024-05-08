@@ -14,3 +14,127 @@ PETA2202	Perphenazine  Tablets  2 mg
 PETA2203	Perphenazine  Tablets  4 mg
 TRTA4462	Triptafen  Tablets  
 TRTA4463	Triptafen-M  Tablets  
+^ESCT1178162	Product containing only perphenazine 2 mg/1 each oral tablet
+^ESCT1178163	Product containing only perphenazine 4 mg/1 each oral tablet
+^ESCT1179414	Product containing only amitriptyline hydrochloride 25 mg and perphenazine 4 mg/1 each oral tablet
+^ESCT1181106	Product containing only amitriptyline hydrochloride 25 mg and perphenazine 2 mg/1 each oral tablet
+^ESCT1181692	Product containing only perphenazine 16 mg/1 each oral tablet
+^ESCT1181894	Product containing only amitriptyline hydrochloride 10 mg and perphenazine 2 mg/1 each oral tablet
+^ESCT1183319	Product containing only amitriptyline hydrochloride 50 mg and perphenazine 4 mg/1 each oral tablet
+^ESCT1188471	Product containing only perphenazine 8 mg/1 each oral tablet
+^ESCT1188546	Product containing only amitriptyline hydrochloride 10 mg and perphenazine 4 mg/1 each oral tablet
+^ESCT1204531	Perphenazine 2mg/5mL conventional release oral solution
+^ESCT1204532	Perphenazine 4mg/5mL conventional release oral solution
+^ESCT1206207	Amitriptyline and perphenazine in oral dosage form
+^ESCT1206208	Product containing amitriptyline and perphenazine in oral dosage form
+^ESCT1218188	Perphenazine
+^ESCT1218189	Perphenazine product
+^ESCT1223424	Product containing precisely perphenazine 2 milligram/1 each conventional release oral tablet
+^ESCT1223425	Product containing precisely perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1223571	Product containing precisely amitriptyline 25 milligram and perphenazine 2 milligram/1 each conventional release oral tablet
+^ESCT1223572	Amitriptyline 25 mg and perphenazine 2 mg oral tablet
+^ESCT1223573	Product containing precisely amitriptyline 10 milligram and perphenazine 2 milligram/1 each conventional release oral tablet
+^ESCT1223574	Amitriptyline 10 mg and perphenazine 2 mg oral tablet
+^ESCT1228652	Product containing precisely perphenazine 16 milligram/1 each conventional release oral tablet
+^ESCT1228654	Product containing precisely perphenazine 8 milligram/1 each conventional release oral tablet
+^ESCT1229246	Amitriptyline hydrochloride 10 mg and perphenazine 4 mg oral tablet
+^ESCT1229247	Product containing precisely amitriptyline 10 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1229248	Amitriptyline 10 mg and perphenazine 4 mg oral tablet
+^ESCT1229447	Amitriptyline hydrochloride 25 mg and perphenazine 4 mg oral tablet
+^ESCT1229448	Amitriptyline 25 mg and perphenazine 4 mg oral tablet
+^ESCT1229449	Product containing precisely amitriptyline 25 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1229450	Amitriptyline hydrochloride 50 mg and perphenazine 4 mg oral tablet
+^ESCT1229451	Amitriptyline 50 mg and perphenazine 4 mg oral tablet
+^ESCT1229452	Product containing precisely amitriptyline 50 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
+^ESCT1233412	Amitriptyline and perphenazine product
+^ESCT1250043	Triptafen tablets (Advanz Pharma)
+^ESCT1250127	Triptafen tablets (Advanz Pharma) 100 tablet 10 x 10 tablets
+^ESCT1250218	Fentazin 2mg tablets (Advanz Pharma)
+^ESCT1250219	Fentazin 2mg tablets (Advanz Pharma) 100 tablet 10 x 10 tablets
+^ESCT1250220	Fentazin 4mg tablets (Advanz Pharma)
+^ESCT1250221	Fentazin 4mg tablets (Advanz Pharma) 100 tablet 10 x 10 tablets
+^ESCT1353460	Amitriptyline and perphenazine only product
+^ESCT1356318	Perphenazine only product
+^ESCT1357468	Amitriptyline and perphenazine only product in oral dose form
+^ESCT1359540	Perphenazine only product in oral dose form
+^ESCT1359541	Perphenazine only product in parenteral dose form
+^ESCT1362591	Amitriptyline hydrochloride 10 mg and perphenazine 2 mg oral tablet
+^ESCT1362592	Amitriptyline hydrochloride 25 mg and perphenazine 2 mg oral tablet
+^ESCT1367176	Amitriptyline 25mg / Perphenazine 2mg tablets
+^ESCT1367281	Amitriptyline 10mg / Perphenazine 2mg tablets
+^ESCT1382056	Perphenazine-containing product in oral dose form
+^ESCT1382057	Perphenazine-containing product in parenteral dose form
+^ESCT1385919	Perphenazine 400 microgram/mL oral solution
+^ESCT1385920	Perphenazine 800 microgram/mL oral solution
+^ESCT1386161	Amitriptyline- and perphenazine-containing product in oral dose form
+^ESCT1425158	Amitriptyline 10mg / Perphenazine 2mg tablets
+^ESCT1425159	Amitriptyline 25mg / Perphenazine 2mg tablets
+^ESCTAM609744	Amitriptyline 25mg / Perphenazine 2mg tablets
+^ESCTAM609746	Amitriptyline hydrochloride 25 mg and perphenazine 2 mg oral tablet
+^ESCTAM609747	Amitriptyline 10mg / Perphenazine 2mg tablets
+^ESCTAM609749	Amitriptyline hydrochloride 10 mg and perphenazine 2 mg oral tablet
+^ESCTAM642559	Amitriptyline hydrochloride 10 mg and perphenazine 4 mg oral tablet
+^ESCTAM645166	Amitriptyline hydrochloride 25 mg and perphenazine 4 mg oral tablet
+^ESCTAM645168	Amitriptyline hydrochloride 50 mg and perphenazine 4 mg oral tablet
+^ESCTAM696985	Amitriptyline + Perphenazine
+^ESCTAM696986	Amitriptyline + perphenazine
+^ESCTAM836965	Amitriptyline 10mg / Perphenazine 2mg tablets 100 tablet
+^ESCTAM837962	Amitriptyline 25mg / Perphenazine 2mg tablets 100 tablet
+^ESCTFE863375	Fentazin 2mg tablets (AMCo)
+^ESCTFE863376	Fentazin 2mg tablets (AMCo) 100 tablet 10 x 10 tablets
+^ESCTFE863382	Fentazin 4mg tablets (AMCo)
+^ESCTFE863384	Fentazin 4mg tablets (AMCo) 100 tablet 10 x 10 tablets
+^ESCTFE918210	Fentazin
+^ESCTPE1099872	Perphenazine 2mg tablets 1 tablet
+^ESCTPE1099873	Perphenazine 2mg tablets (Special Order)
+^ESCTPE1099874	Perphenazine 2mg tablets (Special Order) 1 tablet
+^ESCTPE1099875	Perphenazine 4mg tablets 1 tablet
+^ESCTPE1099876	Perphenazine 4mg tablets (Special Order)
+^ESCTPE1099877	Perphenazine 4mg tablets (Special Order) 1 tablet
+^ESCTPE316278	Perphenazine
+^ESCTPE609311	Perphenazine 2mg/5mL s/f oral solution
+^ESCTPE609312	Perphenazine 4mg/5mL s/f oral solution
+^ESCTPE609313	Perphenazine 2mg tablets
+^ESCTPE609315	Perphenazine 2 mg oral tablet
+^ESCTPE609316	Perphenazine 4mg tablets
+^ESCTPE609318	Perphenazine 4 mg oral tablet
+^ESCTPE641228	Perphenazine 16 mg oral tablet
+^ESCTPE641238	Perphenazine 8 mg oral tablet
+^ESCTPE645731	Perphenazine in oral dosage form
+^ESCTPE645733	Perphenazine in parenteral dosage form
+^ESCTPE645740	Perphenazine 16mg/5ml oral concentrate
+^ESCTPE664085	Perphenazine 5mg/mL injection solution 1mL vial
+^ESCTPE664086	Perphenazine 5mg/mL injection
+^ESCTPE863371	Perphenazine 2mg tablets 100 tablet
+^ESCTPE863380	Perphenazine 4mg tablets 100 tablet
+^ESCTPE957530	Perphenazine 2mg/5ml oral suspension 1 ml
+^ESCTPE957534	Perphenazine 2mg/5ml oral suspension (Special Order)
+^ESCTPE957535	Perphenazine 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPE957539	Perphenazine 4mg/5ml oral suspension 1 ml
+^ESCTPE957541	Perphenazine 4mg/5ml oral suspension (Special Order)
+^ESCTPE957542	Perphenazine 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPE957671	Perphenazine 2mg/5ml oral suspension
+^ESCTPE957672	Perphenazine 4mg/5ml oral suspension
+^ESCTPR316279	Product containing perphenazine
+^ESCTPR609314	Product containing perphenazine 2 mg/1 each oral tablet
+^ESCTPR609317	Product containing perphenazine 4 mg/1 each oral tablet
+^ESCTPR609745	Product containing amitriptyline hydrochloride 25 mg and perphenazine 2 mg/1 each oral tablet
+^ESCTPR609748	Product containing amitriptyline hydrochloride 10 mg and perphenazine 2 mg/1 each oral tablet
+^ESCTPR641229	Product containing perphenazine 16 mg/1 each oral tablet
+^ESCTPR641239	Product containing perphenazine 8 mg/1 each oral tablet
+^ESCTPR642560	Product containing amitriptyline hydrochloride 10 mg and perphenazine 4 mg/1 each oral tablet
+^ESCTPR645167	Product containing amitriptyline hydrochloride 25 mg and perphenazine 4 mg/1 each oral tablet
+^ESCTPR645169	Product containing amitriptyline hydrochloride 50 mg and perphenazine 4 mg/1 each oral tablet
+^ESCTPR645732	Product containing perphenazine in oral dosage form
+^ESCTPR645734	Product containing perphenazine in parenteral dosage form
+^ESCTPR696987	Product containing amitriptyline and perphenazine
+^ESCTTR818528	Triptafen-M tablets (Mercury Pharma Group Ltd)
+^ESCTTR819322	Triptafen tablets (AMCo)
+^ESCTTR854989	Triptafen-M tablets (Mercury Pharma Group Ltd) 100 tablet 10 x 10 tablets
+^ESCTTR854995	Triptafen tablets (AMCo) 100 tablet 10 x 10 tablets
+^ESCTTR916865	Triptafen
+^ESCTTR916867	Triptafen-M
+FEIN1163	Fentazin  Injection  5 mg/ml
+FETA1166	Fentazin  Tablets  8 mg
+PEIN2201	Perphenazine  Injection  5 mg/ml
+PETA2204	Perphenazine  Tablets  8 mg

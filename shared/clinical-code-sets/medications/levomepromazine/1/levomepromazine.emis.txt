@@ -6,3 +6,225 @@ LEIN17312NEMIS	Levomepromazine  Solution for injection  25 mg/ml, 1 ml ampoule
 LETA17313NEMIS	Levomepromazine  Tablets  25 mg
 NOIN2038	Nozinan  Solution for injection  25mg/ml, 1 ml ampoule
 VETA3038	Nozinan  Tablets  25 mg
+^ESCT1187274	Product containing only levomepromazine maleate 25 mg/1 each oral tablet
+^ESCT1187275	Product containing only methotrimeprazine maleate 25 mg/1 each oral tablet
+^ESCT1210382	Levomepromazine hydrochloride 25 mg/mL solution for injection ampoule
+^ESCT1210383	Methotrimeprazine hydrochloride 25 mg/mL solution for injection ampule
+^ESCT1210384	Product containing precisely levomepromazine hydrochloride 25 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1212354	Levomepromazine 25mg/1ml solution for injection ampoules
+^ESCT1215115	Levomepromazine 1mg capsules 1 capsule
+^ESCT1215116	Levomepromazine 1mg capsules (Special Order)
+^ESCT1215117	Levomepromazine 1mg capsules (Special Order) 1 capsule
+^ESCT1215195	Levomepromazine 1mg capsules
+^ESCT1220356	Levomepromazine
+^ESCT1220357	Methotrimeprazine product
+^ESCT1220358	Product containing levomeprazine
+^ESCT1220359	Levomeprazine product
+^ESCT1223416	Product containing precisely levomepromazine maleate 25 milligram/1 each conventional release oral tablet
+^ESCT1267071	Nozinan 25mg/1ml solution for injection ampoules (CST Pharma Ltd)
+^ESCT1267072	Nozinan 25mg/1ml solution for injection ampoules (CST Pharma Ltd) 10 ampoule
+^ESCT1274821	Nozinan 25mg/1ml solution for injection ampoules (Pilsco Ltd)
+^ESCT1274823	Nozinan 25mg/1ml solution for injection ampoules (Pilsco Ltd) 10 ampoule
+^ESCT1299211	Levomepromazine 6mg/5ml oral suspension 100 ml
+^ESCT1299212	Levomepromazine 6mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCT1299809	Levomepromazine 6mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1299810	Levomepromazine 6mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1300902	Nozinan 25mg/1ml solution for injection ampoules (DE Pharmaceuticals)
+^ESCT1300903	Nozinan 25mg/1ml solution for injection ampoules (DE Pharmaceuticals) 10 ampoule
+^ESCT1351509	Levomepromazine product in parenteral dose form
+^ESCT1351510	Methotrimeprazine-containing product in parenteral dose form
+^ESCT1351511	Levomepromazine-containing product in oral dose form
+^ESCT1351512	Methotrimeprazine-containing product in oral dose form
+^ESCT1355631	Levomepromazine only product
+^ESCT1355632	Methotrimeprazine only product
+^ESCT1359007	Levomepromazine only product in oral dose form
+^ESCT1359008	Methotrimeprazine only product in oral dose form
+^ESCT1359009	Levomepromazine only product in parenteral dose form
+^ESCT1359010	Methotrimeprazine only product in parenteral dose form
+^ESCT1361160	Levomepromazine hydrochloride 25 mg/mL solution for injection
+^ESCT1361161	Methotrimeprazine hydrochloride 25 mg/mL solution for injection
+^ESCT1375622	Levomepromazine 6mg tablets (Morningside Healthcare Ltd)
+^ESCT1375623	Levomepromazine 6mg tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1375681	Levomepromazine 25mg/1ml solution for injection ampoules
+^ESCT1375947	Levomepromazine 25mg tablets (Morningside Healthcare Ltd)
+^ESCT1375948	Levomepromazine 25mg tablets 28 tablet
+^ESCT1375949	Levomepromazine 25mg tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1375950	Levomepromazine 25mg tablets (Morningside Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1375992	Levomepromazine 50mg tablets 28 tablet
+^ESCT1375994	Levomepromazine 50mg tablets (Morningside Healthcare Ltd)
+^ESCT1375995	Levomepromazine 50mg tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1376006	Levomepromazine 50mg tablets
+^ESCT1376011	Levomepromazine 50mg tablets 84 tablet
+^ESCT1376012	Levomepromazine 50mg tablets (Morningside Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1376027	Levomepromazine 100mg tablets (Morningside Healthcare Ltd)
+^ESCT1376028	Levomepromazine 100mg tablets 28 tablet
+^ESCT1376031	Levomepromazine 100mg tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1376032	Levomepromazine 100mg tablets 84 tablet
+^ESCT1376034	Levomepromazine 100mg tablets (Morningside Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1376185	Levomepromazine 6mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1376186	Levomepromazine 6mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1402661	Levomepromazine 6mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1402662	Levomepromazine 6mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1405052	Levomepromazine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1405053	Levomepromazine 50mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1405054	Levomepromazine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1405055	Levomepromazine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1409275	Levomepromazine-containing product in parenteral dose form
+^ESCT1418785	Levomepromazine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1418786	Levomepromazine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1418787	Levomepromazine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1418788	Levomepromazine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1425365	Levomepromazine 3mg tablets 1 tablet
+^ESCT1425366	Levomepromazine 3mg tablets (Special Order)
+^ESCT1425368	Levomepromazine 3mg tablets (Special Order) 1 tablet
+^ESCT1425400	Levomepromazine 3mg tablets
+^ESCT1429320	Levomepromazine 6mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429321	Levomepromazine 6mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1430110	Levomepromazine 25mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCT1430111	Levomepromazine 50mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCT1434724	Levomepromazine 6mg tablets (DE Pharmaceuticals)
+^ESCT1434725	Levomepromazine 6mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1436568	Levomepromazine 25mg/1ml solution for injection ampoules (CST Pharma Ltd)
+^ESCT1436569	Levomepromazine 25mg/1ml solution for injection ampoules (CST Pharma Ltd) 10 ampoule
+^ESCTLE1023359	Levinan 6mg tablets (Kyowa Kirin Ltd)
+^ESCTLE1023360	Levomepromazine 6mg tablets 28 tablet
+^ESCTLE1023361	Levinan 6mg tablets (Kyowa Kirin Ltd) 28 tablet
+^ESCTLE1040539	Levomepromazine 25mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTLE1040540	Levomepromazine 25mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTLE1049502	Levomepromazine 25mg/1ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTLE1049503	Levomepromazine 25mg/1ml solution for injection ampoules (Wockhardt UK Ltd) 10 ampoule
+^ESCTLE1099237	Levomepromazine 2.5mg/5ml oral suspension 100 ml
+^ESCTLE1099238	Levomepromazine 2.5mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTLE1099904	Levomepromazine 100mg tablets
+^ESCTLE1099906	Levomepromazine 100mg tablets 100 tablet
+^ESCTLE1153759	Levomepromazine 62.5mg/5ml oral suspension 1 ml
+^ESCTLE1153760	Levomepromazine 62.5mg/5ml oral suspension (Special Order)
+^ESCTLE1153761	Levomepromazine 62.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLE1153782	Levomepromazine 62.5mg/5ml oral suspension
+^ESCTLE394706	Levomepromazine
+^ESCTLE609284	Levomepromazine 25mg/1ml solution for injection ampoules
+^ESCTLE609285	Levomepromazine hydrochloride 25mg/1mL injection
+^ESCTLE609287	Levomepromazine 25mg tablets
+^ESCTLE609290	Levomepromazine maleate 25 mg oral tablet
+^ESCTLE843185	Levomepromazine 25mg tablets 84 tablet
+^ESCTLE867780	Levomepromazine 25mg/1ml solution for injection ampoules 10 ampoule
+^ESCTLE907471	Levomepromazine 2.5mg/5ml oral solution 1 ml
+^ESCTLE907474	Levomepromazine 2.5mg/5ml oral solution (Special Order)
+^ESCTLE907476	Levomepromazine 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTLE907478	Levomepromazine 2.5mg/5ml oral suspension 1 ml
+^ESCTLE907481	Levomepromazine 2.5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTLE907483	Levomepromazine 2.5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTLE907484	Levomepromazine 50mg/5ml oral solution 1 ml
+^ESCTLE907485	Levomepromazine 25mg/5ml oral solution 1 ml
+^ESCTLE907486	Levomepromazine 50mg/5ml oral solution (Special Order)
+^ESCTLE907487	Levomepromazine 25mg/5ml oral solution (Special Order)
+^ESCTLE907488	Levomepromazine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTLE907489	Levomepromazine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTLE907490	Levomepromazine 50mg/5ml oral suspension 1 ml
+^ESCTLE907491	Levomepromazine 25mg/5ml oral suspension 1 ml
+^ESCTLE907492	Levomepromazine 25mg/5ml oral suspension (Special Order)
+^ESCTLE907494	Levomepromazine 5mg/5ml oral solution 1 ml
+^ESCTLE907496	Levomepromazine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLE907498	Levomepromazine 5mg/5ml oral solution (Special Order)
+^ESCTLE907500	Levomepromazine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTLE907501	Levomepromazine 50mg/5ml oral suspension (Special Order)
+^ESCTLE907504	Levomepromazine 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLE907505	Levomepromazine 5mg/5ml oral suspension 1 ml
+^ESCTLE907506	Levomepromazine 5mg/5ml oral suspension (Special Order)
+^ESCTLE907507	Levomepromazine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLE907638	Levomepromazine 2.5mg/5ml oral solution
+^ESCTLE907639	Levomepromazine 2.5mg/5ml oral suspension
+^ESCTLE907640	Levomepromazine 25mg/5ml oral solution
+^ESCTLE907641	Levomepromazine 25mg/5ml oral suspension
+^ESCTLE907642	Levomepromazine 5mg/5ml oral solution
+^ESCTLE907643	Levomepromazine 5mg/5ml oral suspension
+^ESCTLE907644	Levomepromazine 50mg/5ml oral solution
+^ESCTLE907645	Levomepromazine 50mg/5ml oral suspension
+^ESCTLE919651	Levomepromazine 6mg tablets 60 tablet
+^ESCTLE919653	Levomepromazine 6mg tablets (Link Pharmaceuticals Ltd)
+^ESCTLE919655	Levomepromazine 6mg tablets (Link Pharmaceuticals Ltd) 60 tablet
+^ESCTLE919696	Levomepromazine 6mg tablets
+^ESCTLE936068	Levinan
+^ESCTLE951608	Levomepromazine 10mg/5ml oral suspension 1 ml
+^ESCTLE951610	Levomepromazine 10mg/5ml oral suspension (Special Order)
+^ESCTLE951611	Levomepromazine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLE951618	Levomepromazine 10mg/5ml oral solution 1 ml
+^ESCTLE951620	Levomepromazine 10mg/5ml oral solution (Special Order)
+^ESCTLE951622	Levomepromazine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTLE951628	Levomepromazine 12.5mg/5ml oral suspension 1 ml
+^ESCTLE951632	Levomepromazine 12.5mg/5ml oral suspension (Special Order)
+^ESCTLE951633	Levomepromazine 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLE951669	Levomepromazine 12.5mg/5ml oral solution 1 ml
+^ESCTLE951673	Levomepromazine 12.5mg/5ml oral solution (Special Order)
+^ESCTLE951675	Levomepromazine 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTLE951681	Levomepromazine 4mg/5ml oral suspension 1 ml
+^ESCTLE951683	Levomepromazine 4mg/5ml oral suspension (Special Order)
+^ESCTLE951685	Levomepromazine 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLE951710	Levomepromazine 4mg/5ml oral solution 1 ml
+^ESCTLE951714	Levomepromazine 4mg/5ml oral solution (Special Order)
+^ESCTLE951720	Levomepromazine 4mg/5ml oral solution (Special Order) 1 ml
+^ESCTLE951905	Levomepromazine 6.25mg/5ml oral suspension 1 ml
+^ESCTLE951909	Levomepromazine 6.25mg/5ml oral suspension (Special Order)
+^ESCTLE951915	Levomepromazine 6.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLE951917	Levomepromazine 6.25mg/5ml oral solution 1 ml
+^ESCTLE951919	Levomepromazine 6.25mg/5ml oral solution (Special Order)
+^ESCTLE951921	Levomepromazine 6.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTLE951925	Levomepromazine 6mg/5ml oral suspension 1 ml
+^ESCTLE951929	Levomepromazine 6mg/5ml oral suspension (Special Order)
+^ESCTLE951933	Levomepromazine 6mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLE951935	Levomepromazine 6mg/5ml oral solution 1 ml
+^ESCTLE951939	Levomepromazine 6mg/5ml oral solution (Special Order)
+^ESCTLE951943	Levomepromazine 6mg/5ml oral solution (Special Order) 1 ml
+^ESCTLE952282	Levomepromazine 10mg/5ml oral solution
+^ESCTLE952283	Levomepromazine 10mg/5ml oral suspension
+^ESCTLE952285	Levomepromazine 12.5mg/5ml oral solution
+^ESCTLE952287	Levomepromazine 12.5mg/5ml oral suspension
+^ESCTLE952289	Levomepromazine 4mg/5ml oral solution
+^ESCTLE952291	Levomepromazine 4mg/5ml oral suspension
+^ESCTLE952293	Levomepromazine 6.25mg/5ml oral solution
+^ESCTLE952295	Levomepromazine 6.25mg/5ml oral suspension
+^ESCTLE952297	Levomepromazine 6mg/5ml oral solution
+^ESCTLE952299	Levomepromazine 6mg/5ml oral suspension
+^ESCTLE965123	Levomepromazine 3mg/5ml oral solution 1 ml
+^ESCTLE965124	Levomepromazine 3mg/5ml oral solution (Special Order)
+^ESCTLE965125	Levomepromazine 3mg/5ml oral solution (Special Order) 1 ml
+^ESCTLE965126	Levomepromazine 3mg/5ml oral suspension 1 ml
+^ESCTLE965127	Levomepromazine 3mg/5ml oral suspension (Special Order)
+^ESCTLE965128	Levomepromazine 3mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLE965168	Levomepromazine 3mg/5ml oral solution
+^ESCTLE965169	Levomepromazine 3mg/5ml oral suspension
+^ESCTLE967628	Levomepromazine 6mg tablets 1 tablet
+^ESCTLE967629	Levomepromazine 6mg tablets (Special Order)
+^ESCTLE967631	Levomepromazine 6mg tablets (Special Order) 1 tablet
+^ESCTME394707	Methotrimeprazine
+^ESCTME609286	Methotrimeprazine hydrochloride 25mg/1mL injection
+^ESCTME609291	Methotrimeprazine maleate 25 mg oral tablet
+^ESCTME650851	Methotrimeprazine hydrochloride 20mg/1mL injection
+^ESCTNO1000485	Nozinan 25mg/1ml solution for injection ampoules (Mawdsley-Brooks & Company Ltd)
+^ESCTNO1000486	Nozinan 25mg/1ml solution for injection ampoules (Mawdsley-Brooks & Company Ltd) 10 ampoule
+^ESCTNO1061539	Nozinan 25mg/1ml solution for injection ampoules (Waymade Healthcare Plc)
+^ESCTNO1061540	Nozinan 25mg/1ml solution for injection ampoules (Waymade Healthcare Plc) 10 ampoule
+^ESCTNO1099905	Nozinan 100mg tablets (Imported (New Zealand))
+^ESCTNO1099907	Nozinan 100mg tablets (Imported (New Zealand)) 100 tablet
+^ESCTNO821322	Nozinan 25mg tablets (Sanofi)
+^ESCTNO856441	Nozinan 25mg tablets (Sanofi) 84 tablet 3 x 28 tablets
+^ESCTNO867784	Nozinan 25mg/1ml solution for injection ampoules (Sanofi)
+^ESCTNO867785	Nozinan 25mg/1ml solution for injection ampoules (Sanofi) 10 ampoule
+^ESCTNO919821	Nozinan
+^ESCTNO989517	Nozinan 25mg/1ml solution for injection ampoules (Lexon (UK) Ltd)
+^ESCTNO989520	Nozinan 25mg/1ml solution for injection ampoules (Lexon (UK) Ltd) 10 ampoule
+^ESCTPR394708	Product containing methotrimeprazine
+^ESCTPR394709	Product containing levomepromazine
+^ESCTPR609288	Product containing methotrimeprazine maleate 25 mg/1 each oral tablet
+^ESCTPR609289	Product containing levomepromazine maleate 25 mg/1 each oral tablet
+LEOR118193NEMIS	Levomepromazine  Oral suspension  62.5 mg/5 ml
+LEOR143744NEMIS	Levomepromazine  Oral Solution, Sugar Free  25 mg/5 ml
+LEOR143746NEMIS	Levorol  Oral solution  5 mg/ml
+LEOR44744NEMIS	Levomepromazine  Oral suspension  2.5 mg/5 ml
+LEOR51826NEMIS	Levomepromazine  Oral suspension  6 mg/5 ml
+LETA11827NEMIS	Levinan  Tablets  6 mg
+LETA137924NEMIS	Levomepromazine  Tablets  50 mg
+LETA137925NEMIS	Levomepromazine  Tablets  100 mg
+LETA17314NEMIS	Levomepromazine  Tablets  6 mg
+MEIN5137	Methotrimeprazine Hydrochloride  Injection  25mg/ml, 1 ml ampoule
+META5138	Methotrimeprazine Maleate  Tablets  25 mg

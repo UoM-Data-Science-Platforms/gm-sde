@@ -1,0 +1,33 @@
+^ESCT1200769	Cariprazine
+^ESCT1200770	Product containing cariprazine
+^ESCT1200771	Cariprazine product
+^ESCT1201334	Cariprazine in oral dosage form
+^ESCT1201335	Product containing cariprazine in oral dosage form
+^ESCT1212510	Reagila
+^ESCT1213552	Cariprazine 1.5mg capsules 28 capsule
+^ESCT1213553	Reagila 1.5mg capsules (Recordati Pharmaceuticals Ltd)
+^ESCT1213554	Reagila 1.5mg capsules (Recordati Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1213555	Cariprazine 3mg capsules 28 capsule
+^ESCT1213556	Reagila 3mg capsules (Recordati Pharmaceuticals Ltd)
+^ESCT1213557	Reagila 3mg capsules (Recordati Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1213558	Cariprazine 4.5mg capsules 28 capsule
+^ESCT1213559	Reagila 4.5mg capsules (Recordati Pharmaceuticals Ltd)
+^ESCT1213560	Reagila 4.5mg capsules (Recordati Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1213561	Cariprazine 6mg capsules 28 capsule
+^ESCT1213562	Reagila 6mg capsules (Recordati Pharmaceuticals Ltd)
+^ESCT1213563	Reagila 6mg capsules (Recordati Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1214257	Cariprazine 1.5mg capsules
+^ESCT1214258	Cariprazine 3mg capsules
+^ESCT1214259	Cariprazine 4.5mg capsules
+^ESCT1214260	Cariprazine 6mg capsules
+^ESCT1354021	Cariprazine only product
+^ESCT1357853	Cariprazine only product in oral dose form
+^ESCT1385653	Cariprazine-containing product in oral dose form
+CACA127987NEMIS	Cariprazine  Capsules  1.5 mg
+CACA127989NEMIS	Cariprazine  Capsules  3 mg
+CACA127990NEMIS	Cariprazine  Capsules  4.5 mg
+CACA127991NEMIS	Cariprazine  Capsules  6 mg
+RECA127993NEMIS	Reagila  Capsules  1.5 mg
+RECA127994NEMIS	Reagila  Capsules  3 mg
+RECA127995NEMIS	Reagila  Capsules  4.5 mg
+RECA127996NEMIS	Reagila  Capsules  6 mg

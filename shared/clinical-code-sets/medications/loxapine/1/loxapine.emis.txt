@@ -10,3 +10,65 @@ LOCA20613EMIS	Loxapine Succinate  Capsules  50 mg
 LOCA9548BRIDL	Loxapac  Capsules  10 mg
 LOCA9550BRIDL	Loxapac  Capsules  25 mg
 LOCA9552BRIDL	Loxapac  Capsules  50 mg
+^ESCT1181084	Product containing only loxapine 10 mg/1 each oral capsule
+^ESCT1181380	Product containing only loxapine 25 mg/1 each oral capsule
+^ESCT1185357	Product containing only loxapine succinate 5 mg/1 each oral capsule
+^ESCT1187281	Product containing only loxapine 50 mg/1 each oral capsule
+^ESCT1218986	Loxapine
+^ESCT1218987	Loxapine product
+^ESCT1223449	Loxapine 10 mg oral capsule
+^ESCT1223450	Product containing precisely loxapine 10 milligram/1 each conventional release oral capsule
+^ESCT1223451	Product containing precisely loxapine 25 milligram/1 each conventional release oral capsule
+^ESCT1223452	Loxapine 25 mg oral capsule
+^ESCT1223453	Product containing precisely loxapine 50 milligram/1 each conventional release oral capsule
+^ESCT1223454	Loxapine 50 mg oral capsule
+^ESCT1228584	Loxapine succinate 5 mg/1 each oral capsule
+^ESCT1228585	Product containing precisely loxapine succinate 5 milligram/1 each conventional release oral capsule
+^ESCT1228586	Loxapine succinate 5 mg oral capsule
+^ESCT1351524	Loxapine-containing product in oral dose form
+^ESCT1355699	Loxapine only product
+^ESCT1359076	Loxapine only product in oral dose form
+^ESCT1363181	Loxapine (as loxapine succinate) 10 mg oral capsule
+^ESCT1363182	Loxapine (as loxapine succinate) 25 mg oral capsule
+^ESCT1363183	Loxapine (as loxapine succinate) 50 mg oral capsule
+^ESCT1367163	Loxapine 25mg capsules
+^ESCT1367280	Loxapine 10mg capsules
+^ESCT1367317	Loxapine 50mg capsules
+^ESCT1424838	Loxapine 10mg capsules
+^ESCT1424839	Loxapine 25mg capsules
+^ESCT1424840	Loxapine 50mg capsules
+^ESCTAD1144472	Adasuve 9.1mg/dose inhalation powder (Galen Ltd)
+^ESCTAD1144474	Adasuve 9.1mg/dose inhalation powder (Galen Ltd) 1 dose
+^ESCTAD953648	Adasuve
+^ESCTLO1100216	Loxapine 100mg tablets
+^ESCTLO1100217	Loxapac 100mg tablets (Imported (France))
+^ESCTLO1100218	Loxapine 100mg tablets 30 tablet
+^ESCTLO1100219	Loxapac 100mg tablets (Imported (France)) 30 tablet
+^ESCTLO1144471	Loxapine 9.1mg/dose inhalation powder
+^ESCTLO1144473	Loxapine 9.1mg/dose inhalation powder 1 dose
+^ESCTLO346275	Loxapine
+^ESCTLO609392	Loxapine 10mg capsules
+^ESCTLO609393	Loxapine 10 mg/1 each oral capsule
+^ESCTLO609395	Loxapine 25mg capsules
+^ESCTLO609396	Loxapine 25 mg/1 each oral capsule
+^ESCTLO609398	Loxapine 50mg capsules
+^ESCTLO609399	Loxapine 50 mg/1 each oral capsule
+^ESCTLO641028	Loxapine succinate 5 mg/1 each oral capsule
+^ESCTLO645669	Loxapine 25mg/ml oral concentrate
+^ESCTLO865175	Loxapine 10mg capsules 56 capsule
+^ESCTLO865177	Loxapac 10mg capsules (Wyeth Pharmaceuticals)
+^ESCTLO865179	Loxapac 10mg capsules (Wyeth Pharmaceuticals) 56 capsule
+^ESCTLO865182	Loxapine 50mg capsules 28 capsule
+^ESCTLO865185	Loxapac 50mg capsules (Wyeth Pharmaceuticals)
+^ESCTLO865186	Loxapac 50mg capsules (Wyeth Pharmaceuticals) 28 capsule
+^ESCTLO866489	Loxapine 25mg capsules 56 capsule
+^ESCTLO866491	Loxapac 25mg capsules (Wyeth Pharmaceuticals)
+^ESCTLO866493	Loxapac 25mg capsules (Wyeth Pharmaceuticals) 56 capsule
+^ESCTLO919064	Loxapac
+^ESCTPR346276	Product containing loxapine
+^ESCTPR609394	Product containing loxapine 10 mg/1 each oral capsule
+^ESCTPR609397	Product containing loxapine 25 mg/1 each oral capsule
+^ESCTPR609400	Product containing loxapine 50 mg/1 each oral capsule
+^ESCTPR641029	Product containing loxapine succinate 5 mg/1 each oral capsule
+ADIN115337NEMIS	Adasuve  Inhalation Powder  9.1 mg/dose
+LOIN115334NEMIS	Loxapine  Inhalation Powder  9.1 mg/dose

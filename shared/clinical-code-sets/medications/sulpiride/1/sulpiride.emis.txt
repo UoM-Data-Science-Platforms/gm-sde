@@ -13,3 +13,235 @@ SUSU32911EMIS	Sulpiride  Sugar-free oral solution  200 mg/5 ml
 SUTA2733	Sulpiride  Tablets  200 mg
 SUTA2734	Sulpitil  Tablets  200 mg
 SUTA28248EMIS	Sulpiride  Tablets  400 mg
+^ESCT1179625	Sulpiride 200mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1179626	Sulpiride 400mg tablets (Mylan) 100 tablet 5 x 20 tablets
+^ESCT1179840	Sulpiride 200mg tablets (Mylan)
+^ESCT1181081	Product containing only sulpiride 200 mg/1 each oral tablet
+^ESCT1183699	Sulpiride 200mg tablets (Mylan) 30 tablet
+^ESCT1184301	Sulpiride 400mg tablets (Mylan)
+^ESCT1187278	Product containing only sulpiride 400 mg/1 each oral tablet
+^ESCT1188818	Sulpiride 200mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCT1188819	Sulpiride 400mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCT1208785	Sulpiride in oral dosage form
+^ESCT1208786	Product containing sulpiride in oral dosage form
+^ESCT1214960	Sulpiride 200mg/5ml oral solution sugar free
+^ESCT1223430	Sulpiride
+^ESCT1223431	Sulpiride product
+^ESCT1223432	Product containing precisely sulpiride 400 milligram/1 each conventional release oral tablet
+^ESCT1223433	Product containing precisely sulpiride 200 milligram/1 each conventional release oral tablet
+^ESCT1230377	Product containing precisely sulpiride 40 milligram/1 milliliter conventional release oral solution
+^ESCT1230378	Sulpiride 40 mg/mL oral solution
+^ESCT1300646	Dolmatil 400mg tablets (DE Pharmaceuticals)
+^ESCT1300647	Dolmatil 400mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCT1356857	Sulpiride only product
+^ESCT1359943	Sulpiride only product in oral dose form
+^ESCT1387110	Sulpiride-containing product in oral dose form
+^ESCT1404160	Sulpiride 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404161	Sulpiride 200mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1404162	Sulpiride 200mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1404163	Sulpiride 200mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1404164	Sulpiride 400mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404165	Sulpiride 400mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1425658	Sulpiride 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425673	Sulpiride 400mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426456	Sulpiride 200mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426457	Sulpiride 400mg tablets (Kent Pharma (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCT1427113	Sulpiride 200mg tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1434957	Sulpiride 200mg/5ml oral solution sugar free (Essential Pharma Ltd)
+^ESCT1434958	Sulpiride 200mg/5ml oral solution sugar free (Essential Pharma Ltd) 150 ml
+^ESCT1436871	Sulpiride 200mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437057	Sulpiride 400mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437457	Sulpiride 200mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437459	Sulpiride 400mg tablets (Viatris UK Healthcare Ltd) 100 tablet 5 x 20 tablets
+^ESCT1438079	Sulpiride 200mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCTDO801713	Dolmatil 200mg tablets (Sanofi)
+^ESCTDO814650	Dolmatil 400mg tablets (Sanofi)
+^ESCTDO856256	Dolmatil 200mg tablets (Sanofi) 100 tablet 10 x 10 tablets
+^ESCTDO856268	Dolmatil 400mg tablets (Sanofi) 100 tablet 5 x 20 tablets
+^ESCTDO914883	Dolmatil
+^ESCTPR609337	Product containing sulpiride
+^ESCTPR609339	Product containing sulpiride 400 mg/1 each oral tablet
+^ESCTPR609344	Product containing sulpiride 200 mg/1 each oral tablet
+^ESCTSU1025925	Sulpiride 200mg/5ml oral suspension 100 ml
+^ESCTSU1025926	Sulpiride 200mg/5ml oral suspension (Special Order) 100 ml
+^ESCTSU1038079	Sulpiride 200mg tablets (Medreich Plc)
+^ESCTSU1038080	Sulpiride 200mg tablets (Medreich Plc) 30 tablet
+^ESCTSU1038081	Sulpiride 400mg tablets (Medreich Plc)
+^ESCTSU1038082	Sulpiride 400mg tablets (Medreich Plc) 30 tablet
+^ESCTSU1041472	Sulpiride 200mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTSU1041473	Sulpiride 200mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTSU1041474	Sulpiride 200mg tablets (Waymade Healthcare Plc)
+^ESCTSU1041475	Sulpiride 200mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTSU1041476	Sulpiride 400mg tablets (Waymade Healthcare Plc)
+^ESCTSU1041477	Sulpiride 400mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTSU1119979	Sulpiride 200mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTSU1119980	Sulpiride 200mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTSU1119984	Sulpiride 200mg tablets (DE Pharmaceuticals)
+^ESCTSU1119985	Sulpiride 200mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTSU1119986	Sulpiride 400mg tablets (DE Pharmaceuticals)
+^ESCTSU1119987	Sulpiride 400mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTSU1127597	Sulpiride 400mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSU1127598	Sulpiride 400mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTSU1145164	Sulpiride 200mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTSU1145165	Sulpiride 200mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTSU1148603	Sulpiride 200mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTSU1148604	Sulpiride 200mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTSU1152618	Sulpiride 200mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTSU1152619	Sulpiride 200mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTSU609336	Sulpiride
+^ESCTSU609338	Sulpiride 400mg tablets
+^ESCTSU609340	Sulpiride 400 mg oral tablet
+^ESCTSU609341	Sulpiride 200mg/5ml oral solution sugar free
+^ESCTSU609342	Sulpiride 200mg/5mL s/f oral solution
+^ESCTSU609343	Sulpiride 200mg tablets
+^ESCTSU609345	Sulpiride 200 mg oral tablet
+^ESCTSU675213	Sulpiride 200mg/5ml oral solution
+^ESCTSU675214	Sulpiride 200mg/5mL oral solution
+^ESCTSU801879	Sulpiride 400mg tablets (Wockhardt UK Ltd)
+^ESCTSU802007	Sulpiride 200mg tablets (Teva UK Ltd)
+^ESCTSU804626	Sulpor 200mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTSU807847	Sulpitil 200mg tablets (Pfizer Ltd)
+^ESCTSU808054	Sulpiride 400mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSU809018	Sulpiride 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSU810240	Sulpiride 200mg tablets (Mylan Ltd)
+^ESCTSU813795	Sulpiride 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSU814841	Sulpiride 200mg tablets (Wockhardt UK Ltd)
+^ESCTSU815161	Sulpiride 400mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSU819918	Sulpiride 200mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSU820169	Sulpiride 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSU824569	Sulpiride 400mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSU830058	Sulpiride 400mg tablets (Mylan Ltd)
+^ESCTSU836012	Sulpiride 400mg tablets 30 tablet
+^ESCTSU837896	Sulpiride 200mg tablets 112 tablet
+^ESCTSU839908	Sulpiride 200mg tablets 100 tablet
+^ESCTSU843787	Sulpiride 400mg tablets 100 tablet
+^ESCTSU848580	Sulpiride 200mg tablets 28 tablet
+^ESCTSU848592	Sulpiride 200mg tablets 56 tablet
+^ESCTSU848601	Sulpiride 200mg tablets 30 tablet
+^ESCTSU848607	Sulpiride 200mg/5ml oral solution sugar free 150 ml
+^ESCTSU856241	Sulpiride 200mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTSU856242	Sulpiride 200mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTSU856244	Sulpiride 200mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTSU856245	Sulpiride 200mg tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTSU856247	Sulpiride 200mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTSU856250	Sulpiride 200mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTSU856253	Sulpiride 200mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTSU856254	Sulpitil 200mg tablets (Pfizer Ltd) 28 tablet
+^ESCTSU856255	Sulpitil 200mg tablets (Pfizer Ltd) 112 tablet
+^ESCTSU856258	Sulpiride 200mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTSU856259	Sulpiride 200mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTSU856265	Sulpiride 400mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTSU856266	Sulpiride 400mg tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTSU856267	Sulpiride 400mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTSU856269	Sulpiride 400mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTSU856270	Sulpiride 400mg tablets (Mylan Ltd) 100 tablet 5 x 20 tablets
+^ESCTSU856355	Sulpor 200mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTSU916512	Sulpitil
+^ESCTSU916514	Sulpor
+^ESCTSU929109	Sulpiride 200mg tablets (Arrow Generics Ltd)
+^ESCTSU929110	Sulpiride 200mg tablets (Arrow Generics Ltd) 30 tablet
+^ESCTSU929111	Sulpiride 400mg tablets (Arrow Generics Ltd)
+^ESCTSU929112	Sulpiride 400mg tablets (Arrow Generics Ltd) 30 tablet
+^ESCTSU931224	Sulpiride 200mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTSU936691	Sulpiride 200mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTSU962024	Sulpiride 100mg/5ml oral suspension 1 ml
+^ESCTSU962025	Sulpiride 100mg/5ml oral suspension (Special Order)
+^ESCTSU962026	Sulpiride 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSU962027	Sulpiride 100mg/5ml oral solution 1 ml
+^ESCTSU962028	Sulpiride 100mg/5ml oral solution (Special Order)
+^ESCTSU962029	Sulpiride 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTSU962030	Sulpiride 10mg/5ml oral suspension 1 ml
+^ESCTSU962031	Sulpiride 10mg/5ml oral suspension (Special Order)
+^ESCTSU962032	Sulpiride 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSU962033	Sulpiride 10mg/5ml oral solution 1 ml
+^ESCTSU962034	Sulpiride 10mg/5ml oral solution (Special Order)
+^ESCTSU962035	Sulpiride 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTSU962036	Sulpiride 150mg/5ml oral suspension 1 ml
+^ESCTSU962037	Sulpiride 150mg/5ml oral suspension (Special Order)
+^ESCTSU962038	Sulpiride 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSU962039	Sulpiride 150mg/5ml oral solution 1 ml
+^ESCTSU962040	Sulpiride 150mg/5ml oral solution (Special Order)
+^ESCTSU962041	Sulpiride 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTSU962042	Sulpiride 200mg/5ml oral suspension 1 ml
+^ESCTSU962043	Sulpiride 200mg/5ml oral suspension (Special Order)
+^ESCTSU962044	Sulpiride 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSU962045	Sulpiride 200mg/5ml oral solution 1 ml
+^ESCTSU962046	Sulpiride 200mg/5ml oral solution (Special Order)
+^ESCTSU962047	Sulpiride 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTSU962048	Sulpiride 250mg/5ml oral suspension 1 ml
+^ESCTSU962049	Sulpiride 250mg/5ml oral suspension (Special Order)
+^ESCTSU962050	Sulpiride 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSU962051	Sulpiride 250mg/5ml oral solution 1 ml
+^ESCTSU962052	Sulpiride 250mg/5ml oral solution (Special Order)
+^ESCTSU962053	Sulpiride 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTSU962054	Sulpiride 25mg/5ml oral suspension 1 ml
+^ESCTSU962055	Sulpiride 25mg/5ml oral suspension (Special Order)
+^ESCTSU962056	Sulpiride 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSU962057	Sulpiride 25mg/5ml oral solution 1 ml
+^ESCTSU962058	Sulpiride 25mg/5ml oral solution (Special Order)
+^ESCTSU962059	Sulpiride 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTSU962060	Sulpiride 300mg/5ml oral suspension 1 ml
+^ESCTSU962061	Sulpiride 300mg/5ml oral suspension (Special Order)
+^ESCTSU962062	Sulpiride 300mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSU962063	Sulpiride 300mg/5ml oral solution 1 ml
+^ESCTSU962064	Sulpiride 300mg/5ml oral solution (Special Order)
+^ESCTSU962065	Sulpiride 300mg/5ml oral solution (Special Order) 1 ml
+^ESCTSU962066	Sulpiride 100mg/5ml oral solution
+^ESCTSU962067	Sulpiride 100mg/5ml oral suspension
+^ESCTSU962068	Sulpiride 10mg/5ml oral solution
+^ESCTSU962069	Sulpiride 10mg/5ml oral suspension
+^ESCTSU962070	Sulpiride 150mg/5ml oral solution
+^ESCTSU962071	Sulpiride 150mg/5ml oral suspension
+^ESCTSU962072	Sulpiride 200mg/5ml oral suspension
+^ESCTSU962073	Sulpiride 250mg/5ml oral solution
+^ESCTSU962074	Sulpiride 250mg/5ml oral suspension
+^ESCTSU962075	Sulpiride 25mg/5ml oral solution
+^ESCTSU962076	Sulpiride 25mg/5ml oral suspension
+^ESCTSU962077	Sulpiride 300mg/5ml oral solution
+^ESCTSU962078	Sulpiride 300mg/5ml oral suspension
+^ESCTSU962084	Sulpiride 400mg/5ml oral suspension 1 ml
+^ESCTSU962085	Sulpiride 400mg/5ml oral suspension (Special Order)
+^ESCTSU962086	Sulpiride 400mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSU962087	Sulpiride 400mg/5ml oral solution 1 ml
+^ESCTSU962088	Sulpiride 400mg/5ml oral solution (Special Order)
+^ESCTSU962089	Sulpiride 400mg/5ml oral solution (Special Order) 1 ml
+^ESCTSU962090	Sulpiride 500mg/5ml oral suspension 1 ml
+^ESCTSU962091	Sulpiride 500mg/5ml oral suspension (Special Order)
+^ESCTSU962092	Sulpiride 500mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSU962093	Sulpiride 500mg/5ml oral solution 1 ml
+^ESCTSU962094	Sulpiride 500mg/5ml oral solution (Special Order)
+^ESCTSU962095	Sulpiride 500mg/5ml oral solution (Special Order) 1 ml
+^ESCTSU962096	Sulpiride 50mg/5ml oral suspension 1 ml
+^ESCTSU962097	Sulpiride 50mg/5ml oral suspension (Special Order)
+^ESCTSU962098	Sulpiride 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSU962099	Sulpiride 50mg/5ml oral solution (Special Order)
+^ESCTSU962100	Sulpiride 50mg/5ml oral solution 1 ml
+^ESCTSU962101	Sulpiride 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTSU962103	Sulpiride 70mg/5ml oral suspension 1 ml
+^ESCTSU962104	Sulpiride 70mg/5ml oral suspension (Special Order)
+^ESCTSU962105	Sulpiride 70mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSU962106	Sulpiride 70mg/5ml oral solution 1 ml
+^ESCTSU962107	Sulpiride 70mg/5ml oral solution (Special Order)
+^ESCTSU962108	Sulpiride 70mg/5ml oral solution (Special Order) 1 ml
+^ESCTSU962127	Sulpiride 400mg/5ml oral solution
+^ESCTSU962128	Sulpiride 400mg/5ml oral suspension
+^ESCTSU962129	Sulpiride 500mg/5ml oral solution
+^ESCTSU962130	Sulpiride 500mg/5ml oral suspension
+^ESCTSU962131	Sulpiride 50mg/5ml oral solution
+^ESCTSU962132	Sulpiride 50mg/5ml oral suspension
+^ESCTSU962133	Sulpiride 70mg/5ml oral solution
+^ESCTSU962134	Sulpiride 70mg/5ml oral suspension
+^ESCTSU962466	Sulpiride 200mg tablets (Mylan Ltd) 30 tablet
+^ESCTSU991991	Sulpiride 200mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+SUTA37099MGEMIS	Sulpiride  Tablets  200 mg (Teva UK)
+SUTA37100MGEMIS	Sulpiride  Tablets  200 mg (A.A.H. Pharm)
+SUTA37101MGEMIS	Sulpiride  Tablets  200 mg (Generics (UK))
+SUTA37102MGEMIS	Sulpiride  Tablets  200 mg (Kent Pharm)
+SUTA37103MGEMIS	Sulpiride  Tablets  200 mg (Wockhardt UK)
+SUTA37104MGEMIS	Sulpiride  Tablets  200 mg (Ivax Pharmaceuticals)
+SUTA37105MGEMIS	Sulpiride  Tablets  200 mg (Unichem)
+SUTA37106MGEMIS	Sulpiride  Tablets  400 mg (Wockhardt UK)
+SUTA37107MGEMIS	Sulpiride  Tablets  400 mg (A.A.H. Pharm)
+SUTA37108MGEMIS	Sulpiride  Tablets  400 mg (Kent Pharm)
+SUTA37109MGEMIS	Sulpiride  Tablets  400 mg (Unichem)
+SUTA37110MGEMIS	Sulpiride  Tablets  400 mg (Generics (UK))

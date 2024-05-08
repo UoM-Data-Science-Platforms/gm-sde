@@ -26,3 +26,142 @@ ZUIN5510	Zuclopenthixol Decanoate  Injection  500mg/ml, 1 ml ampoule
 ZUTA5511	Zuclopenthixol Dihydrochloride  Tablets  10 mg
 ZUTA6848	Zuclopenthixol Dihydrochloride  Tablets  2 mg
 ZUTA6849	Zuclopenthixol Dihydrochloride  Tablets  25 mg
+^ESCT1178166	Product containing only zuclopenthixol 10 mg/1 each oral tablet
+^ESCT1181094	Product containing zuclopenthixol decanoate
+^ESCT1181379	Product containing only zuclopenthixol 2 mg/1 each oral tablet
+^ESCT1187280	Product containing only zuclopenthixol 25 mg/1 each oral tablet
+^ESCT1187283	Product containing zuclopenthixol acetate
+^ESCT1205503	Zuclopenthixol in parenteral dosage form
+^ESCT1205504	Product containing zuclopenthixol in parenteral dosage form
+^ESCT1205508	Zuclopenthixol decanoate in parenteral dosage form
+^ESCT1205509	Product containing zuclopenthixol decanoate in parenteral dosage form
+^ESCT1210237	Zuclopenthixol acetate 50 mg/mL solution for injection ampoule
+^ESCT1210238	Product containing precisely zuclopenthixol acetate 50 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210239	Zuclopenthixol acetate 50 mg/mL solution for injection ampule
+^ESCT1210240	Zuclopenthixol acetate 100 mg/2 mL solution for injection ampoule
+^ESCT1210241	Product containing precisely zuclopenthixol acetate 100 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1210242	Zuclopenthixol acetate 100 mg/2 mL solution for injection ampule
+^ESCT1210243	Zuclopenthixol decanoate 200 mg/mL solution for injection ampoule
+^ESCT1210244	Product containing precisely zuclopenthixol decanoate 200 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210245	Zuclopenthixol decanoate 200 mg/mL solution for injection ampule
+^ESCT1210246	Zuclopenthixol decanoate 500 mg/mL solution for injection ampoule
+^ESCT1210247	Product containing precisely zuclopenthixol decanoate 500 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210248	Zuclopenthixol decanoate 500 mg/mL solution for injection ampule
+^ESCT1216140	Zuclopenthixol acetate 100mg/2ml solution for injection ampoules
+^ESCT1216141	Zuclopenthixol acetate 50mg/1ml solution for injection ampoules
+^ESCT1216142	Zuclopenthixol decanoate 200mg/1ml solution for injection ampoules
+^ESCT1216143	Zuclopenthixol decanoate 500mg/1ml solution for injection ampoules
+^ESCT1216343	Zuclopenthixol acetate
+^ESCT1223446	Product containing precisely zuclopenthixol 2 milligram/1 each conventional release oral tablet
+^ESCT1223447	Product containing precisely zuclopenthixol 10 milligram/1 each conventional release oral tablet
+^ESCT1223448	Product containing precisely zuclopenthixol 25 milligram/1 each conventional release oral tablet
+^ESCT1223500	Zuclopenthixol decanoate
+^ESCT1223501	Zuclopenthixol decanoate product
+^ESCT1234593	Clopenthixol
+^ESCT1234594	Product containing clopenthixol
+^ESCT1234595	Clopenthixol product
+^ESCT1234758	Zuclopenthixol
+^ESCT1234759	Zuclopenthixol product
+^ESCT1275229	Clopixol 200mg/1ml solution for injection ampoules (CST Pharma Ltd)
+^ESCT1275230	Clopixol 200mg/1ml solution for injection ampoules (CST Pharma Ltd) 10 ampoule
+^ESCT1354307	Clopenthixol only product
+^ESCT1357210	Zuclopenthixol only product
+^ESCT1360223	Zuclopenthixol only product in oral dose form
+^ESCT1360224	Zuclopenthixol only product in parenteral dose form
+^ESCT1361332	Zuclopenthixol acetate 50 mg/mL solution for injection
+^ESCT1361333	Zuclopenthixol decanoate 200 mg/mL solution for injection
+^ESCT1361334	Zuclopenthixol decanoate 500 mg/mL solution for injection
+^ESCT1362999	Zuclopenthixol (as zuclopenthixol dihydrochloride) 10 mg oral tablet
+^ESCT1363000	Zuclopenthixol (as zuclopenthixol dihydrochloride) 2 mg oral tablet
+^ESCT1363001	Zuclopenthixol (as zuclopenthixol dihydrochloride) 25 mg oral tablet
+^ESCT1365018	Clopenthixol-containing product in oral dose form
+^ESCT1365019	Clopenthixol-containing product in parenteral dose form
+^ESCT1365029	Clopenthixol only product in oral dose form
+^ESCT1365030	Clopenthixol only product in parenteral dose form
+^ESCT1367200	Zuclopenthixol 2mg tablets
+^ESCT1367321	Zuclopenthixol 10mg tablets
+^ESCT1367339	Zuclopenthixol 25mg tablets
+^ESCT1370618	Zuclopenthixol decanoate
+^ESCT1382066	Zuclopenthixol-containing product in oral dose form
+^ESCT1383570	Clopenthixol-containing product
+^ESCT1386019	Zuclopenthixol-containing product in parenteral dose form
+^ESCT1424920	Zuclopenthixol 10mg tablets
+^ESCT1424922	Zuclopenthixol 2mg tablets
+^ESCT1424924	Zuclopenthixol 25mg tablets
+^ESCT1429844	Clopixol 10mg tablets (Pilsco Ltd)
+^ESCT1429845	Clopixol 10mg tablets (Pilsco Ltd) 100 tablet
+^ESCTCI939226	Ciatyl-Z 20mg/ml oral drops (Imported (Germany))
+^ESCTCI939227	Ciatyl-Z 20mg/ml oral drops (Imported (Germany)) 30 ml
+^ESCTCL1008665	Clopixol 25mg tablets (Necessity Supplies Ltd)
+^ESCTCL1008666	Clopixol 25mg tablets (Necessity Supplies Ltd) 100 tablet
+^ESCTCL1023872	Clopixol 2mg tablets (Lexon (UK) Ltd)
+^ESCTCL1023873	Clopixol 2mg tablets (Lexon (UK) Ltd) 100 tablet
+^ESCTCL708109	Clopenthixol
+^ESCTCL801484	Clopixol Conc 500mg/1ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTCL804789	Clopixol 2mg tablets (Lundbeck Ltd)
+^ESCTCL805199	Clopixol 200mg/1ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTCL820479	Clopixol 25mg tablets (Lundbeck Ltd)
+^ESCTCL827413	Clopixol 10mg tablets (Lundbeck Ltd)
+^ESCTCL856149	Clopixol 25mg tablets (Lundbeck Ltd) 100 tablet
+^ESCTCL856150	Clopixol 10mg tablets (Lundbeck Ltd) 100 tablet
+^ESCTCL856152	Clopixol 2mg tablets (Lundbeck Ltd) 100 tablet
+^ESCTCL857019	Clopixol 200mg/1ml solution for injection ampoules (Lundbeck Ltd) 10 ampoule
+^ESCTCL857029	Clopixol Conc 500mg/1ml solution for injection ampoules (Lundbeck Ltd) 5 ampoule
+^ESCTCL867461	Clopixol Acuphase 50mg/1ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTCL867464	Clopixol Acuphase 50mg/1ml solution for injection ampoules (Lundbeck Ltd) 5 ampoule
+^ESCTCL867466	Clopixol Acuphase 100mg/2ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTCL867468	Clopixol Acuphase 100mg/2ml solution for injection ampoules (Lundbeck Ltd) 5 ampoule
+^ESCTCL877725	Clopixol 2mg tablets (Waymade Healthcare Plc)
+^ESCTCL877726	Clopixol 2mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTCL914461	Clopixol Acuphase
+^ESCTCL924428	Clopixol (Zuclopenthixol)
+^ESCTCL924429	Clopixol (Zuclopenthixol decanoate)
+^ESCTCL940747	Clopixol 10mg tablets (Waymade Healthcare Plc)
+^ESCTCL940748	Clopixol 10mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTCL974814	Clopixol 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCL974815	Clopixol 2mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTCL974824	Clopixol 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCL974825	Clopixol 10mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTCL992623	Clopixol 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCL992641	Clopixol 2mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTPR609384	Product containing zuclopenthixol 2 mg/1 each oral tablet
+^ESCTPR609387	Product containing zuclopenthixol 10 mg/1 each oral tablet
+^ESCTPR609390	Product containing zuclopenthixol 25 mg/1 each oral tablet
+^ESCTPR645762	Product containing zuclopenthixol in oral dosage form
+^ESCTPR710193	Product containing zuclopenthixol
+^ESCTZU609382	Zuclopenthixol dihydrochloride
+^ESCTZU609383	Zuclopenthixol 2mg tablets
+^ESCTZU609385	Zuclopenthixol 2 mg oral tablet
+^ESCTZU609386	Zuclopenthixol 10mg tablets
+^ESCTZU609388	Zuclopenthixol 10 mg oral tablet
+^ESCTZU609389	Zuclopenthixol 25mg tablets
+^ESCTZU609391	Zuclopenthixol 25 mg oral tablet
+^ESCTZU609407	Zuclopenthixol acetate
+^ESCTZU609408	Zuclopenthixol acetate 50mg/1ml solution for injection ampoules
+^ESCTZU609409	Zuclopenthixol acetate 50mg/1mL oily injection
+^ESCTZU609410	Zuclopenthixol acetate 50mg/mL injection solution 1mL ampoule
+^ESCTZU609411	Zuclopenthixol acetate 50mg/mL injection solution 1mL ampule
+^ESCTZU609412	Zuclopenthixol acetate 100mg/2ml solution for injection ampoules
+^ESCTZU609413	Zuclopenthixol acetate 100mg/2mL oily injection
+^ESCTZU609414	Zuclopenthixol acetate 50mg/mL injection solution 2mL ampoule
+^ESCTZU609415	Zuclopenthixol acetate 50mg/mL injection solution 2mL ampule
+^ESCTZU609553	Zuclopenthixol decanoate
+^ESCTZU609554	Zuclopenthixol decanoate 200mg/1ml solution for injection ampoules
+^ESCTZU609555	Zuclopenthixol decanoate 200mg/1mL oily injection
+^ESCTZU609556	Zuclopenthixol decanoate 200mg/mL injection solution 1mL ampoule
+^ESCTZU609557	Zuclopenthixol decanoate 200mg/mL injection solution 1mL ampule
+^ESCTZU609560	Zuclopenthixol decanoate 500mg/1ml solution for injection ampoules
+^ESCTZU609561	Zuclopenthixol decanoate 500mg/1mL oily injection
+^ESCTZU609562	Zuclopenthixol decanoate 500mg/mL injection solution 1mL ampoule
+^ESCTZU609563	Zuclopenthixol decanoate 500mg/mL injection solution 1mL ampule
+^ESCTZU645761	Zuclopenthixol in oral dosage form
+^ESCTZU710192	Zuclopenthixol
+^ESCTZU836896	Zuclopenthixol 10mg tablets 100 tablet
+^ESCTZU846833	Zuclopenthixol 2mg tablets 100 tablet
+^ESCTZU847122	Zuclopenthixol 25mg tablets 100 tablet
+^ESCTZU847413	Zuclopenthixol decanoate 200mg/1ml solution for injection ampoules 10 ampoule
+^ESCTZU848452	Zuclopenthixol decanoate 500mg/1ml solution for injection ampoules 5 ampoule
+^ESCTZU867460	Zuclopenthixol acetate 50mg/1ml solution for injection ampoules 5 ampoule
+^ESCTZU867465	Zuclopenthixol acetate 100mg/2ml solution for injection ampoules 5 ampoule
+^ESCTZU939224	Zuclopenthixol 20mg/ml oral drops
+^ESCTZU939225	Zuclopenthixol 20mg/ml oral drops 30 ml

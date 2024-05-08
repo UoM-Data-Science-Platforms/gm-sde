@@ -4,3 +4,46 @@ ZOTA34932EMIS	Zotepine  Tablets  50 mg
 ZOTA34930EMIS	Zotepine  Tablets  100 mg
 ZOTA34931EMIS	Zotepine  Tablets  25 mg
 ZOTA34932EMIS	Zotepine  Tablets  50 mg
+^ESCT1178170	Product containing only zotepine 100 mg/1 each oral tablet
+^ESCT1181093	Product containing only zotepine 50 mg/1 each oral tablet
+^ESCT1187288	Product containing only zotepine 25 mg/1 each oral tablet
+^ESCT1205866	Zotepine in oral dosage form
+^ESCT1205867	Product containing zotepine in oral dosage form
+^ESCT1223484	Zotepine
+^ESCT1223485	Zotepine product
+^ESCT1223486	Product containing precisely zotepine 25 milligram/1 each conventional release oral tablet
+^ESCT1223487	Product containing precisely zotepine 50 milligram/1 each conventional release oral tablet
+^ESCT1223488	Product containing precisely zotepine 100 milligram/1 each conventional release oral tablet
+^ESCT1357209	Zotepine only product
+^ESCT1360222	Zotepine only product in oral dose form
+^ESCT1386066	Zotepine-containing product in oral dose form
+^ESCTPR609476	Product containing zotepine
+^ESCTPR609478	Product containing zotepine 25 mg/1 each oral tablet
+^ESCTPR609481	Product containing zotepine 50 mg/1 each oral tablet
+^ESCTPR609484	Product containing zotepine 100 mg/1 each oral tablet
+^ESCTZO609475	Zotepine
+^ESCTZO609477	Zotepine 25mg tablets
+^ESCTZO609479	Zotepine 25 mg oral tablet
+^ESCTZO609480	Zotepine 50mg tablets
+^ESCTZO609482	Zotepine 50 mg oral tablet
+^ESCTZO609483	Zotepine 100mg tablets
+^ESCTZO609485	Zotepine 100 mg oral tablet
+^ESCTZO865468	Zotepine 25mg tablets 30 tablet
+^ESCTZO865469	Zotepine 25mg tablets 90 tablet
+^ESCTZO865470	Zoleptil 25 tablets (Movianto UK Ltd)
+^ESCTZO865471	Zoleptil 25 tablets (Movianto UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTZO865473	Zoleptil 25 tablets (Movianto UK Ltd) 90 tablet 9 x 10 tablets
+^ESCTZO865474	Zotepine 50mg tablets 30 tablet
+^ESCTZO865475	Zotepine 50mg tablets 90 tablet
+^ESCTZO865476	Zoleptil 50 tablets (Movianto UK Ltd)
+^ESCTZO865477	Zoleptil 50 tablets (Movianto UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTZO865478	Zoleptil 50 tablets (Movianto UK Ltd) 90 tablet 9 x 10 tablets
+^ESCTZO867404	Zotepine 100mg tablets 30 tablet
+^ESCTZO867405	Zotepine 100mg tablets 90 tablet
+^ESCTZO867407	Zoleptil 100 tablets (Movianto UK Ltd)
+^ESCTZO867409	Zoleptil 100 tablets (Movianto UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTZO867411	Zoleptil 100 tablets (Movianto UK Ltd) 90 tablet 9 x 10 tablets
+^ESCTZO917422	Zoleptil
+ZOTA34924EMIS	Zoleptil  Tablets  100 mg
+ZOTA34925EMIS	Zoleptil  Tablets  25 mg
+ZOTA34926EMIS	Zoleptil  Tablets  50 mg
