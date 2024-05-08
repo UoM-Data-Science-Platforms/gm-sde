@@ -143,3 +143,31 @@ LOTA35823MGEMIS	Lofepramine  Tablets  70 mg (Ivax Pharmaceuticals)
 LOTA35824MGEMIS	Lofepramine  Tablets  70 mg (Generics (UK))
 LOTA35825MGEMIS	Lofepramine  Tablets  70 mg (Kent Pharm)
 LOTA35826MGEMIS	Lofepramine  Tablets  70 mg (Sandoz)
+^ESCT1181098	Product containing only lofepramine 70 mg/1 each oral tablet
+^ESCT1204581	Lofepramine (as lofepramine hydrochloride) 14 mg/mL oral suspension
+^ESCT1204582	Product containing precisely lofepramine (as lofepramine hydrochloride) 14 milligram/1 milliliter conventional release oral suspension
+^ESCT1207133	Lofepramine in oral dosage form
+^ESCT1207134	Product containing lofepramine in oral dosage form
+^ESCT1223535	Lofepramine
+^ESCT1223536	Lofepramine product
+^ESCT1223537	Product containing precisely lofepramine 70 milligram/1 each conventional release oral tablet
+^ESCT1355677	Lofepramine only product
+^ESCT1359052	Lofepramine only product in oral dose form
+^ESCT1363118	Lofepramine (as lofepramine hydrochloride) 70 mg oral tablet
+^ESCT1367158	Lofepramine 70mg tablets
+^ESCT1386612	Lofepramine-containing product in oral dose form
+^ESCT1434955	Lofepramine 70mg/5ml oral suspension sugar free (Essential Pharma Ltd)
+^ESCT1434956	Lofepramine 70mg/5ml oral suspension sugar free (Essential Pharma Ltd) 150 ml
+^ESCT1437008	Lofepramine 70mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437429	Lofepramine 70mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1437430	Lofepramine 70mg tablets (Viatris UK Healthcare Ltd) 250 tablet
+^ESCTFE918611	Feprapax
+^ESCTGA918249	Gamanil
+^ESCTLO609656	Lofepramine
+^ESCTLO609658	Lofepramine 70mg/5ml oral suspension sugar free
+^ESCTLO609659	Lofepramine 70mg/5mL s/f suspension
+^ESCTLO609660	Lofepramine 70mg tablets
+^ESCTLO609662	Lofepramine 70 mg oral tablet
+^ESCTLO919486	Lomont
+^ESCTPR609657	Product containing lofepramine
+^ESCTPR609661	Product containing lofepramine 70 mg/1 each oral tablet

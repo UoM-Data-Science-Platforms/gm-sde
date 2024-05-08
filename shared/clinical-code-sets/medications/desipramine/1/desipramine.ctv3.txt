@@ -1,0 +1,5 @@
+d74..	Desipramine hydrochloride
+d74z.	Desipramine hydrochloride 25mg tablet
+d741.	Pertofran 25mg tablet
+x01Ay	Desipramine
+x02nL	Pertofran

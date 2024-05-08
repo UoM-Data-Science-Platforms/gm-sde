@@ -1,0 +1,29 @@
+^ESCT1185380	Product containing only protriptyline hydrochloride 5 mg/1 each oral tablet
+^ESCT1188474	Product containing only protriptyline hydrochloride 10 mg/1 each oral tablet
+^ESCT1208088	Protriptyline in oral dosage form
+^ESCT1208089	Product containing protriptyline in oral dosage form
+^ESCT1218537	Protriptyline
+^ESCT1218538	Protriptyline product
+^ESCT1228686	Product containing precisely protriptyline hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1228687	Product containing precisely protriptyline hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1356540	Protriptyline only product
+^ESCT1359697	Protriptyline only product in oral dose form
+^ESCT1386987	Protriptyline-containing product in oral dose form
+^ESCTPR329767	Protriptyline
+^ESCTPR329768	Product containing protriptyline
+^ESCTPR641306	Protriptyline 5mg tablets
+^ESCTPR641307	Product containing protriptyline hydrochloride 5 mg/1 each oral tablet
+^ESCTPR641308	Protriptyline hydrochloride 5 mg oral tablet
+^ESCTPR641309	Protriptyline 10mg tablets
+^ESCTPR641310	Product containing protriptyline hydrochloride 10 mg/1 each oral tablet
+^ESCTPR641311	Protriptyline hydrochloride 10 mg oral tablet
+^ESCTPR940350	Protriptyline 10mg tablets 100 tablet
+^ESCTPR940353	Protriptyline 5mg tablets 100 tablet
+^ESCTVI940351	Vivactil 10mg tablets (Imported (United States))
+^ESCTVI940352	Vivactil 10mg tablets (Imported (United States)) 100 tablet
+^ESCTVI940354	Vivactil 5mg tablets (Imported (United States))
+^ESCTVI940355	Vivactil 5mg tablets (Imported (United States)) 100 tablet
+COTA720	Concordin  Tablets  10 mg
+COTA721	Concordin  Tablets  5 mg
+PRTA2403	Protriptyline Hydrochloride  Tablets  10 mg
+PRTA2404	Protriptyline Hydrochloride  Tablets  5 mg

@@ -8,3 +8,16 @@ d73v.	Clomipramine hydrochloride 25mg capsule
 d73w.	Clomipramine hydrochloride 50mg capsule
 d73x.	Clomipramine hydrochloride 25mg/5mL syrup
 d73z.	Clomipramine hydrochloride 75mg m/r tablet
+d73..	Clomipramine hydrochloride
+d73r.	Clomipramine hydrochloride 50mg tablet
+d73s.	Clomipramine hydrochloride 10mg tablet
+d73t.	Clomipramine hydrochloride 25mg tablet
+d737.	Tranquax 10mg capsule
+d738.	Tranquax 25mg capsule
+d739.	Tranquax 50mg capsule
+d73y.	Clomipramine hydrochloride 25mg/2mL injection
+d735.	Anafranil 25mg/2mL injection
+x01Ax	Clomipramine
+x02t2	Tranquax
+x02Tr	Anafranil
+x02Ts	Anafranil SR

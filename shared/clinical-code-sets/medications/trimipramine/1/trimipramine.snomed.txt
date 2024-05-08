@@ -122,3 +122,49 @@
 13449311000001103	Trimipramine 50mg/5ml oral liquid
 13449411000001105	Trimipramine 50mg/5ml oral liquid
 13449511000001109	Trimipramine 50mg/5ml oral liquid
+90426002	Product containing trimipramine (medicinal product)
+373968003	Product containing precisely trimipramine maleate 25 milligram/1 each conventional release oral capsule (clinical drug)
+373969006	Trimipramine maleate 50mg capsule (product)
+373971006	Product containing precisely trimipramine maleate 100 milligram/1 each conventional release oral capsule (clinical drug)
+768320008	Product containing trimipramine in oral dose form (medicinal product form)
+777861000	Trimipramine (product)
+780718004	Product containing only trimipramine in oral dose form (medicinal product form)
+1208598002	Product containing precisely trimipramine (as trimipramine maleate) 25 milligram/1 each conventional release oral capsule (clinical drug)
+1208599005	Product containing precisely trimipramine (as trimipramine maleate) 100 milligram/1 each conventional release oral capsule (clinical drug)
+42281111000001103	Trimipramine 50mg capsules (product)
+39076511000001106	Trimipramine 50mg capsules (Pharmaram Ltd) (product)
+41424511000001103	Trimipramine 50mg capsules (Glenmark Pharmaceuticals Europe Ltd) (product)
+38171611000001109	Trimipramine 50mg capsules (DE Pharmaceuticals) (product)
+37659511000001102	Trimipramine 50mg capsules (CST Pharma Ltd) (product)
+14622311000001109	Surmontil 50mg capsules (Sigma Pharmaceuticals Plc) (product)
+42124511000001103	Trimipramine 50mg capsules (Teva UK Ltd) (product)
+37736311000001105	Trimipramine 50mg capsules (Pilsco Ltd) (product)
+42280911000001107	Trimipramine 10mg tablets (product)
+37742111000001108	Trimipramine 10mg tablets (CST Pharma Ltd) (product)
+37735311000001100	Trimipramine 10mg tablets (Pilsco Ltd) (product)
+42281011000001104	Trimipramine 25mg tablets (product)
+37736111000001108	Trimipramine 25mg tablets (Pilsco Ltd) (product)
+37708211000001108	Trimipramine 25mg tablets (CST Pharma Ltd) (product)
+38171811000001108	Trimipramine 25mg tablets (PI) (DE Pharmaceuticals) (product)
+37659611000001103	Trimipramine 50mg capsules (CST Pharma Ltd) 28 capsule (product)
+38171911000001103	Trimipramine 25mg tablets (DE Pharmaceuticals) 50 tablet (product)
+37708411000001107	Trimipramine 25mg tablets (CST Pharma Ltd) 50 tablet (product)
+37736211000001102	Trimipramine 25mg tablets (Pilsco Ltd) 100 tablet (product)
+37712011000001103	Trimipramine 25mg tablets (CST Pharma Ltd) 100 tablet (product)
+37735511000001106	Trimipramine 10mg tablets (Pilsco Ltd) 25 tablet (product)
+37742211000001102	Trimipramine 10mg tablets (CST Pharma Ltd) 50 tablet (product)
+37735911000001104	Trimipramine 10mg tablets (Pilsco Ltd) 50 tablet (product)
+37736711000001109	Trimipramine 50mg capsules (Pilsco Ltd) 28 capsule (product)
+38171711000001100	Trimipramine 50mg capsules (DE Pharmaceuticals) 28 capsule (product)
+39076611000001105	Trimipramine 50mg capsules (Pharmaram Ltd) 28 capsule (product)
+41424611000001104	Trimipramine 50mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule (product)
+42124611000001104	Trimipramine 50mg capsules (Teva UK Ltd) 28 capsule (product)
+116201000001101	Trimipramine 10mg tablet - product
+194601000001108	Trimipramine 25mg tablet - product
+250401000001107	Trimipramine 50mg capsule - product
+14622411000001102	Surmontil 50mg capsules (Sigma Pharmaceuticals Plc) 28 capsule (product)
+600601000001102	Surmontil 50mg capsule
+682001000001105	Surmontil 10mg tablet
+752001000001107	Surmontil 25mg tablet
+877901000001108	Surmontil 50mg capsules x28CP
+9356501000001105	Surmontil (product)

@@ -1,0 +1,6 @@
+321826008	Product containing iprindole (medicinal product)
+776389003	Product containing only iprindole (medicinal product)
+16701000001103	Iprindole 15mg tablet
+1954501000001102	Iprindole 30mg tablet
+676301000001101	Prondol 15mg tablet
+1954401000001101	Prondol 30mg tablet

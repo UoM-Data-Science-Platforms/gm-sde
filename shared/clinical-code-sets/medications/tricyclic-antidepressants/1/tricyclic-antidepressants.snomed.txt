@@ -354,102 +354,6 @@
 30015211000001109	Clomipramine 50mg capsules
 38844811000001102	Clomipramine 50mg capsules
 38844911000001107	Clomipramine 50mg capsules
-321881001	Trazodone 50mg capsules
-1098311000001100	Trazodone 50mg capsules
-868211000001107	Trazodone 50mg capsules
-1590911000001103	Trazodone 50mg capsules
-667211000001102	Trazodone 50mg capsules
-1591011000001106	Trazodone 50mg capsules
-369211000001100	Molipaxin 50mg capsules
-1591111000001107	Molipaxin 50mg capsules
-266411000001103	Trazodone 50mg capsules
-1591211000001101	Trazodone 50mg capsules
-423511000001100	Trazodone 50mg capsules
-1591311000001109	Trazodone 50mg capsules
-226111000001100	Trazodone 50mg capsules
-1591411000001102	Trazodone 50mg capsules
-578911000001107	Trazodone 50mg capsules
-1591511000001103	Trazodone 50mg capsules
-9361211000001107	Trazodone 50mg capsules
-9361311000001104	Trazodone 50mg capsules
-15198911000001109	Trazodone 50mg capsules
-15199011000001100	Trazodone 50mg capsules
-16238311000001102	Trazodone 50mg capsules
-16238411000001109	Trazodone 50mg capsules
-17863611000001104	Trazodone 50mg capsules
-17864311000001106	Trazodone 50mg capsules
-19311111000001104	Trazodone 50mg capsules
-19311211000001105	Trazodone 50mg capsules
-21893111000001105	Trazodone 50mg capsules
-21893211000001104	Trazodone 50mg capsules
-23615311000001108	Trazodone 50mg capsules
-23615411000001101	Trazodone 50mg capsules
-28698311000001104	Trazodone 50mg capsules
-28698411000001106	Trazodone 50mg capsules
-29923511000001109	Trazodone 50mg capsules
-29923711000001104	Trazodone 50mg capsules
-30105511000001104	Trazodone 50mg capsules
-30105611000001100	Trazodone 50mg capsules
-35807411000001107	Trazodone 50mg capsules
-35807611000001105	Trazodone 50mg capsules
-36531211000001108	Trazodone 50mg capsules
-36531311000001100	Trazodone 50mg capsules
-36600811000001100	Trazodone 50mg capsules
-36600911000001105	Trazodone 50mg capsules
-36777911000001106	Trazodone 50mg capsules
-36778011000001108	Trazodone 50mg capsules
-37102511000001104	Trazodone 50mg capsules
-37104111000001100	Trazodone 50mg capsules
-39919811000001103	Trazodone 50mg capsules
-39919911000001108	Trazodone 50mg capsules
-321880000	Trazodone 100mg capsules
-1159811000001100	Trazodone 100mg capsules
-173311000001109	Trazodone 100mg capsules
-1591611000001104	Trazodone 100mg capsules
-656611000001106	Trazodone 100mg capsules
-1591711000001108	Trazodone 100mg capsules
-75511000001108	Molipaxin 100mg capsules
-1591811000001100	Molipaxin 100mg capsules
-733411000001108	Trazodone 100mg capsules
-1591911000001105	Trazodone 100mg capsules
-500911000001100	Trazodone 100mg capsules
-1592011000001103	Trazodone 100mg capsules
-158611000001108	Trazodone 100mg capsules
-1592111000001102	Trazodone 100mg capsules
-141811000001103	Trazodone 100mg capsules
-1592211000001108	Trazodone 100mg capsules
-9361411000001106	Trazodone 100mg capsules
-9361511000001105	Trazodone 100mg capsules
-15198711000001107	Trazodone 100mg capsules
-15198811000001104	Trazodone 100mg capsules
-16238511000001108	Trazodone 100mg capsules
-16238611000001107	Trazodone 100mg capsules
-17864411000001104	Trazodone 100mg capsules
-17864511000001100	Trazodone 100mg capsules
-19311311000001102	Trazodone 100mg capsules
-19311411000001109	Trazodone 100mg capsules
-21893311000001107	Trazodone 100mg capsules
-21893411000001100	Trazodone 100mg capsules
-23615511000001102	Trazodone 100mg capsules
-23615611000001103	Trazodone 100mg capsules
-28698511000001105	Trazodone 100mg capsules
-28698811000001108	Trazodone 100mg capsules
-29923911000001102	Trazodone 100mg capsules
-29924011000001104	Trazodone 100mg capsules
-30105711000001109	Trazodone 100mg capsules
-30105811000001101	Trazodone 100mg capsules
-35806911000001102	Trazodone 100mg capsules
-35807111000001102	Trazodone 100mg capsules
-36531411000001107	Trazodone 100mg capsules
-36531511000001106	Trazodone 100mg capsules
-36601211000001107	Trazodone 100mg capsules
-36601311000001104	Trazodone 100mg capsules
-36778311000001106	Trazodone 100mg capsules
-36778411000001104	Trazodone 100mg capsules
-37104211000001106	Trazodone 100mg capsules
-37107311000001107	Trazodone 100mg capsules
-39918011000001104	Trazodone 100mg capsules
-39918111000001103	Trazodone 100mg capsules
 39731711000001107	Amitriptyline 10mg / Perphenazine 2mg tablets
 991011000001104	Amitriptyline 10mg / Perphenazine 2mg tablets
 479411000001101	Triptafen-M tablets
@@ -745,46 +649,6 @@
 37760311000001103	Nortriptyline 25mg tablets
 39061511000001106	Nortriptyline 25mg tablets
 39061611000001105	Nortriptyline 25mg tablets
-321877001	Trazodone 150mg tablets
-1183711000001102	Trazodone 150mg tablets
-782911000001101	Trazodone 150mg tablets
-2396111000001101	Trazodone 150mg tablets
-620611000001108	Trazodone 150mg tablets
-2396311000001104	Trazodone 150mg tablets
-1811000001101	Molipaxin 150mg tablets
-2396611000001109	Molipaxin 150mg tablets
-151911000001106	Trazodone 150mg tablets
-2396811000001108	Trazodone 150mg tablets
-114611000001106	Trazodone 150mg tablets
-2397111000001103	Trazodone 150mg tablets
-120311000001104	Trazodone 150mg tablets
-2397211000001109	Trazodone 150mg tablets
-342711000001105	Trazodone 150mg tablets
-2397411000001108	Trazodone 150mg tablets
-16238711000001103	Trazodone 150mg tablets
-16238811000001106	Trazodone 150mg tablets
-17864611000001101	Trazodone 150mg tablets
-17864711000001105	Trazodone 150mg tablets
-21893511000001101	Trazodone 150mg tablets
-21893611000001102	Trazodone 150mg tablets
-23615711000001107	Trazodone 150mg tablets
-23615811000001104	Trazodone 150mg tablets
-28699011000001107	Trazodone 150mg tablets
-28699211000001102	Trazodone 150mg tablets
-29922811000001104	Trazodone 150mg tablets
-29922911000001109	Trazodone 150mg tablets
-30105911000001106	Trazodone 150mg tablets
-30106011000001103	Trazodone 150mg tablets
-35241311000001105	Trazodone 150mg tablets
-35241411000001103	Trazodone 150mg tablets
-36601011000001102	Trazodone 150mg tablets
-36601111000001101	Trazodone 150mg tablets
-36777711000001109	Trazodone 150mg tablets
-36777811000001101	Trazodone 150mg tablets
-38161711000001106	Trazodone 150mg tablets
-38161811000001103	Trazodone 150mg tablets
-39919211000001104	Trazodone 150mg tablets
-39919411000001100	Trazodone 150mg tablets
 321888007	Trimipramine 25mg tablets
 1298211000001104	Trimipramine 25mg tablets
 984311000001102	Trimipramine 25mg tablets
@@ -877,75 +741,6 @@
 30942611000001103	Trimipramine 50mg capsules
 39926511000001100	Trimipramine 50mg capsules
 39926611000001101	Trimipramine 50mg capsules
-321846003	Mianserin 10mg tablets
-1087611000001107	Mianserin 10mg tablets
-1052111000001107	Mianserin 10mg tablets
-597611000001108	Mianserin 10mg tablets
-2634011000001106	Mianserin 10mg tablets
-2634311000001109	Mianserin 10mg tablets
-886011000001104	Mianserin 10mg tablets
-2634611000001104	Mianserin 10mg tablets
-244911000001108	Mianserin 10mg tablets
-2634711000001108	Mianserin 10mg tablets
-2634911000001105	Mianserin 10mg tablets
-442111000001101	Mianserin 10mg tablets
-2635411000001101	Mianserin 10mg tablets
-788711000001100	Mianserin 10mg tablets
-2635711000001107	Mianserin 10mg tablets
-178211000001109	Mianserin 10mg tablets
-2635911000001109	Mianserin 10mg tablets
-2636111000001100	Mianserin 10mg tablets
-24385211000001106	Mianserin 10mg tablets
-24385311000001103	Mianserin 10mg tablets
-30830611000001109	Mianserin 10mg tablets
-30830711000001100	Mianserin 10mg tablets
-38963111000001108	Mianserin 10mg tablets
-38963411000001103	Mianserin 10mg tablets
-321847007	Mianserin 20mg tablets
-1089111000001105	Mianserin 20mg tablets
-1235411000001103	Mianserin 20mg tablets
-566811000001108	Mianserin 20mg tablets
-2636411000001105	Mianserin 20mg tablets
-2636611000001108	Mianserin 20mg tablets
-935311000001106	Mianserin 20mg tablets
-2636811000001107	Mianserin 20mg tablets
-702411000001105	Mianserin 20mg tablets
-2636911000001102	Mianserin 20mg tablets
-2637011000001103	Mianserin 20mg tablets
-449211000001104	Mianserin 20mg tablets
-2637111000001102	Mianserin 20mg tablets
-747011000001109	Mianserin 20mg tablets
-2637211000001108	Mianserin 20mg tablets
-464911000001102	Mianserin 20mg tablets
-2637311000001100	Mianserin 20mg tablets
-2637411000001107	Mianserin 20mg tablets
-321848002	Mianserin 30mg tablets
-1085811000001101	Mianserin 30mg tablets
-1220211000001109	Mianserin 30mg tablets
-550311000001107	Mianserin 30mg tablets
-2637611000001105	Mianserin 30mg tablets
-2637711000001101	Mianserin 30mg tablets
-673211000001100	Mianserin 30mg tablets
-2637811000001109	Mianserin 30mg tablets
-911411000001109	Mianserin 30mg tablets
-2637911000001104	Mianserin 30mg tablets
-536811000001100	Mianserin 30mg tablets
-2638011000001102	Mianserin 30mg tablets
-2638111000001101	Mianserin 30mg tablets
-656811000001105	Mianserin 30mg tablets
-2638211000001107	Mianserin 30mg tablets
-595311000001106	Mianserin 30mg tablets
-2638311000001104	Mianserin 30mg tablets
-21800511000001109	Mianserin 30mg tablets
-21800611000001108	Mianserin 30mg tablets
-24385411000001105	Mianserin 30mg tablets
-24385511000001109	Mianserin 30mg tablets
-29922411000001101	Mianserin 30mg tablets
-29922511000001102	Mianserin 30mg tablets
-30830811000001108	Mianserin 30mg tablets
-30830911000001103	Mianserin 30mg tablets
-38963811000001101	Mianserin 30mg tablets
-38963911000001106	Mianserin 30mg tablets
 321811006	Doxepin 10mg capsules
 1254311000001105	Doxepin 10mg capsules
 28417711000001103	Doxepin 10mg capsules
@@ -1018,69 +813,6 @@
 1313711000001105	Nortriptyline 30mg / Fluphenazine 1.5mg tablets
 491811000001108	Motipress tablets
 2729511000001107	Motipress tablets
-321842001	Maprotiline 25mg tablets
-3683911000001107	Maprotiline 25mg tablets
-3684011000001105	Ludiomil 25mg tablets
-3684511000001102	Ludiomil 25mg tablets
-321893005	Amoxapine 50mg tablets
-3798511000001102	Amoxapine 50mg tablets
-3798611000001103	Asendis 50mg tablets
-3798711000001107	Asendis 50mg tablets
-321844000	Maprotiline 75mg tablets
-3808711000001107	Maprotiline 75mg tablets
-3808811000001104	Ludiomil 75mg tablets
-3808911000001109	Ludiomil 75mg tablets
-321841008	Maprotiline 10mg tablets
-3864811000001106	Maprotiline 10mg tablets
-3864911000001101	Ludiomil 10mg tablets
-3865011000001101	Ludiomil 10mg tablets
-321843006	Maprotiline 50mg tablets
-3865111000001100	Maprotiline 50mg tablets
-36894511000001104	Maprotiline 50mg tablets
-3865211000001106	Ludiomil 50mg tablets
-3865311000001103	Ludiomil 50mg tablets
-36894611000001100	Maprotiline 50mg tablets
-36894711000001109	Maprotiline 50mg tablets
-3909411000001104	Trazodone 50mg/5ml oral solution sugar free
-3904311000001105	Trazodone 50mg/5ml oral solution sugar free
-3904511000001104	Molipaxin 50mg/5ml oral liquid
-3905111000001107	Molipaxin 50mg/5ml oral liquid
-18520911000001100	Trazodone 50mg/5ml oral solution sugar free
-18521011000001108	Trazodone 50mg/5ml oral solution sugar free
-18752111000001104	Trazodone 50mg/5ml oral solution sugar free
-18752211000001105	Trazodone 50mg/5ml oral solution sugar free
-19570011000001101	Trazodone 50mg/5ml oral solution sugar free
-19570111000001100	Trazodone 50mg/5ml oral solution sugar free
-19683911000001108	Trazodone 50mg/5ml oral solution sugar free
-19684011000001106	Trazodone 50mg/5ml oral solution sugar free
-21893711000001106	Trazodone 50mg/5ml oral solution sugar free
-21893811000001103	Trazodone 50mg/5ml oral solution sugar free
-29925611000001107	Trazodone 50mg/5ml oral solution sugar free
-29925811000001106	Trazodone 50mg/5ml oral solution sugar free
-34888611000001104	Trazodone 50mg/5ml oral solution sugar free
-34888711000001108	Trazodone 50mg/5ml oral solution sugar free
-36235011000001106	Trazodone 50mg/5ml oral solution sugar free
-36235111000001107	Trazodone 50mg/5ml oral solution sugar free
-36889111000001105	Trazodone 50mg/5ml oral solution sugar free
-36889211000001104	Trazodone 50mg/5ml oral solution sugar free
-36906511000001100	Trazodone 50mg/5ml oral solution sugar free
-36906611000001101	Trazodone 50mg/5ml oral solution sugar free
-37828411000001102	Trazodone 50mg/5ml oral solution sugar free
-37828511000001103	Trazodone 50mg/5ml oral solution sugar free
-37847911000001106	Trazodone 50mg/5ml oral solution sugar free
-37848011000001108	Trazodone 50mg/5ml oral solution sugar free
-39921011000001101	Trazodone 50mg/5ml oral solution sugar free
-39921111000001100	Trazodone 50mg/5ml oral solution sugar free
-321894004	Amoxapine 100mg tablets
-3934111000001101	Amoxapine 100mg tablets
-28785311000001100	Amoxapine 100mg tablets
-32248311000001100	Amoxapine 100mg tablets
-3934511000001105	Asendis 100mg tablets
-3934711000001100	Asendis 100mg tablets
-28802211000001104	Defanyl 100mg tablets
-28802311000001107	Defanyl 100mg tablets
-32248411000001107	Amoxapine 100mg tablets
-32248511000001106	Amoxapine 100mg tablets
 36040411000001100	Lofepramine 70mg/5ml oral suspension sugar free
 4071211000001104	Lofepramine 70mg/5ml oral suspension sugar free
 4071311000001107	Lomont 70mg/5ml oral suspension
@@ -1118,10 +850,6 @@
 4535011000001107	Anafranil 25mg/5ml syrup
 8372211000001108	Clomipramine 25mg/5ml oral liquid
 8372511000001106	Clomipramine 25mg/5ml oral liquid
-4557211000001109	Trazodone 150mg modified-release tablets
-4549411000001101	Trazodone 150mg modified-release tablets
-4549511000001102	Molipaxin CR 150mg tablets
-4549611000001103	Molipaxin CR 150mg tablets
 36089011000001108	Clomipramine 25mg/2ml solution for injection ampoules
 4551111000001105	Clomipramine 25mg/2ml solution for injection ampoules
 4551211000001104	Anafranil 25mg/2ml solution for injection ampoules
@@ -1348,86 +1076,6 @@
 12800011000001103	Lofepramine 70mg/5ml oral liquid
 12800211000001108	Lofepramine 70mg/5ml oral liquid
 12800411000001107	Lofepramine 70mg/5ml oral liquid
-13008611000001103	Mianserin 10mg/5ml oral liquid
-12964611000001105	Mianserin 10mg/5ml oral liquid
-12964711000001101	Mianserin 10mg/5ml oral liquid
-12964911000001104	Mianserin 10mg/5ml oral liquid
-13008511000001102	Mianserin 10mg/5ml oral liquid
-12965211000001109	Mianserin 10mg/5ml oral liquid
-12965411000001108	Mianserin 10mg/5ml oral liquid
-12965711000001102	Mianserin 10mg/5ml oral liquid
-13008811000001104	Mianserin 20mg/5ml oral liquid
-12966711000001105	Mianserin 20mg/5ml oral liquid
-12966911000001107	Mianserin 20mg/5ml oral liquid
-12967111000001107	Mianserin 20mg/5ml oral liquid
-13008711000001107	Mianserin 20mg/5ml oral liquid
-12967311000001109	Mianserin 20mg/5ml oral liquid
-12967611000001104	Mianserin 20mg/5ml oral liquid
-12967711000001108	Mianserin 20mg/5ml oral liquid
-13009011000001100	Mianserin 30mg/5ml oral liquid
-12967811000001100	Mianserin 30mg/5ml oral liquid
-12967911000001105	Mianserin 30mg/5ml oral liquid
-12968011000001107	Mianserin 30mg/5ml oral liquid
-13008911000001109	Mianserin 30mg/5ml oral liquid
-12968211000001102	Mianserin 30mg/5ml oral liquid
-12968411000001103	Mianserin 30mg/5ml oral liquid
-12968611000001100	Mianserin 30mg/5ml oral liquid
-13358811000001108	Trazodone 100mg/5ml oral liquid
-13341111000001106	Trazodone 100mg/5ml oral liquid
-13341211000001100	Trazodone 100mg/5ml oral liquid
-13341311000001108	Trazodone 100mg/5ml oral liquid
-13359011000001107	Trazodone 10mg/5ml oral liquid
-13341411000001101	Trazodone 10mg/5ml oral liquid
-13341511000001102	Trazodone 10mg/5ml oral liquid
-13341611000001103	Trazodone 10mg/5ml oral liquid
-13359211000001102	Trazodone 150mg/5ml oral liquid
-13341711000001107	Trazodone 150mg/5ml oral liquid
-13341811000001104	Trazodone 150mg/5ml oral liquid
-13341911000001109	Trazodone 150mg/5ml oral liquid
-13359411000001103	Trazodone 250mg/5ml oral liquid
-13342011000001102	Trazodone 250mg/5ml oral liquid
-13342111000001101	Trazodone 250mg/5ml oral liquid
-13342211000001107	Trazodone 250mg/5ml oral liquid
-13359611000001100	Trazodone 25mg/5ml oral liquid
-13342311000001104	Trazodone 25mg/5ml oral liquid
-13342411000001106	Trazodone 25mg/5ml oral liquid
-13342611000001109	Trazodone 25mg/5ml oral liquid
-13359811000001101	Trazodone 50mg/5ml oral liquid
-13342811000001108	Trazodone 50mg/5ml oral liquid
-13342911000001103	Trazodone 50mg/5ml oral liquid
-13343011000001106	Trazodone 50mg/5ml oral liquid
-13360011000001108	Trazodone 75mg/5ml oral liquid
-13343111000001107	Trazodone 75mg/5ml oral liquid
-13343211000001101	Trazodone 75mg/5ml oral liquid
-13343311000001109	Trazodone 75mg/5ml oral liquid
-13358711000001100	Trazodone 100mg/5ml oral liquid
-13343411000001102	Trazodone 100mg/5ml oral liquid
-13343511000001103	Trazodone 100mg/5ml oral liquid
-13343611000001104	Trazodone 100mg/5ml oral liquid
-13358911000001103	Trazodone 10mg/5ml oral liquid
-13343711000001108	Trazodone 10mg/5ml oral liquid
-13343811000001100	Trazodone 10mg/5ml oral liquid
-13343911000001105	Trazodone 10mg/5ml oral liquid
-13359111000001108	Trazodone 150mg/5ml oral liquid
-13344011000001108	Trazodone 150mg/5ml oral liquid
-13344111000001109	Trazodone 150mg/5ml oral liquid
-13344211000001103	Trazodone 150mg/5ml oral liquid
-13359311000001105	Trazodone 250mg/5ml oral liquid
-13344311000001106	Trazodone 250mg/5ml oral liquid
-13344411000001104	Trazodone 250mg/5ml oral liquid
-13344511000001100	Trazodone 250mg/5ml oral liquid
-13359511000001104	Trazodone 25mg/5ml oral liquid
-13344611000001101	Trazodone 25mg/5ml oral liquid
-13344711000001105	Trazodone 25mg/5ml oral liquid
-13344811000001102	Trazodone 25mg/5ml oral liquid
-13359711000001109	Trazodone 50mg/5ml oral liquid
-13344911000001107	Trazodone 50mg/5ml oral liquid
-13345011000001107	Trazodone 50mg/5ml oral liquid
-13345111000001108	Trazodone 50mg/5ml oral liquid
-13359911000001106	Trazodone 75mg/5ml oral liquid
-13345211000001102	Trazodone 75mg/5ml oral liquid
-13345311000001105	Trazodone 75mg/5ml oral liquid
-13345411000001103	Trazodone 75mg/5ml oral liquid
 13455011000001100	Trimipramine 10mg/5ml oral liquid
 13445911000001104	Trimipramine 10mg/5ml oral liquid
 13446011000001107	Trimipramine 10mg/5ml oral liquid
@@ -1556,16 +1204,6 @@
 34824811000001103	Nortriptyline 50mg/5ml oral suspension
 34824911000001108	Nortriptyline 50mg/5ml oral suspension
 34825011000001108	Nortriptyline 50mg/5ml oral suspension
-35113311000001104	Trazodone 100mg/5ml oral solution sugar free
-35101511000001108	Trazodone 100mg/5ml oral solution sugar free
-35101611000001107	Trazodone 100mg/5ml oral solution sugar free
-35101711000001103	Trazodone 100mg/5ml oral solution sugar free
-35109211000001106	Trazodone 100mg/5ml oral solution sugar free
-35109311000001103	Trazodone 100mg/5ml oral solution sugar free
-35211311000001102	Trazodone 100mg/5ml oral solution sugar free
-35211411000001109	Trazodone 100mg/5ml oral solution sugar free
-38192711000001101	Trazodone 100mg/5ml oral solution sugar free
-38192811000001109	Trazodone 100mg/5ml oral solution sugar free
 35611511000001105	Nortriptyline 50mg/5ml oral solution
 35604911000001102	Nortriptyline 50mg/5ml oral solution
 35605011000001102	Nortriptyline 50mg/5ml oral solution
@@ -1586,16 +1224,6 @@
 37857711000001106	Nortriptyline 25mg/5ml oral solution sugar free
 37875211000001109	Nortriptyline 25mg/5ml oral solution sugar free
 37875311000001101	Nortriptyline 25mg/5ml oral solution sugar free
-376689003	Trazodone 50mg tablets
-38159411000001105	Trazodone 50mg tablets
-38159511000001109	Trazodone 50mg tablets
-38159611000001108	Trazodone 50mg tablets
-376690007	Trazodone 100mg tablets
-38159711000001104	Trazodone 100mg tablets
-38159811000001107	Trazodone 100mg tablets
-38159911000001102	Trazodone 100mg tablets
-39419911000001105	Trazodone 100mg tablets
-39420011000001107	Trazodone 100mg tablets
 38285911000001106	Nortriptyline 25mg capsules
 38235711000001103	Nortriptyline 25mg capsules
 38235811000001106	Nortriptyline 25mg capsules
@@ -1621,12 +1249,9 @@
 33378002	Desipramine product
 36113004	Imipramine product
 40589005	Amitriptyline product
-41147003	Perphenazine product
 49299006	Protriptyline product
 90426002	Trimipramine product
 96209002	Clomipramine product
-321484001	Product containing precisely perphenazine 2 milligram/1 each conventional release oral tablet
-321485000	Product containing precisely perphenazine 4 milligram/1 each conventional release oral tablet
 321745007	Product containing precisely amitriptyline hydrochloride 10 milligram/1 each conventional release oral tablet (clinical drug)
 321746008	Product containing precisely amitriptyline hydrochloride 25 milligram/1 each conventional release oral tablet (clinical drug)
 321747004	Product containing precisely amitriptyline hydrochloride 50 milligram/1 each conventional release oral tablet (clinical drug)
@@ -1653,7 +1278,6 @@
 321927000	Product containing precisely fluphenazine hydrochloride 500 microgram and nortriptyline 10 milligram/1 each conventional release oral tablet
 321929002	Amitriptyline 25 mg and perphenazine 2 mg oral tablet
 321930007	Amitriptyline 10 mg and perphenazine 2 mg oral tablet
-331643002	Product containing precisely doxepin hydrochloride 50 milligram/1 gram conventional release cutaneous cream (clinical drug)
 349856007	Dosulepin product
 373968003	Product containing precisely trimipramine maleate 25 milligram/1 each conventional release oral capsule (clinical drug)
 373971006	Trimipramine maleate 100 mg oral capsule
@@ -1679,16 +1303,12 @@
 376474003	Product containing precisely nortriptyline hydrochloride 10 milligram/1 each conventional release oral capsule (clinical drug)
 376524003	Clomipramine hydrochloride 75 mg oral capsule
 376546006	Nortriptyline hydrochloride 25 mg oral capsule
-376553002	Product containing precisely perphenazine 16 milligram/1 each conventional release oral tablet
-376567006	Product containing precisely perphenazine 8 milligram/1 each conventional release oral tablet
 376650009	Product containing precisely protriptyline hydrochloride 5 milligram/1 each conventional release oral tablet
 376651008	Product containing precisely protriptyline hydrochloride 10 milligram/1 each conventional release oral tablet (clinical drug)
 377576008	Product containing precisely amitriptyline hydrochloride 12.5 milligram and chlordiazepoxide 5 milligram/1 each conventional release oral tablet
 377587000	Amitriptyline 10 mg and perphenazine 4 mg oral tablet
 386209001	Product containing precisely amitriptyline 25 milligram and perphenazine 4 milligram/1 each conventional release oral tablet
 386210006	Product containing precisely amitriptyline 50 milligram and perphenazine 4 milligram/1 each conventional release oral tablet (clinical drug)
-386563002	Perphenazine in oral dosage form
-386564008	Perphenazine in parenteral dosage form
 386599007	Product containing amitriptyline in oral dosage form
 386601009	Product containing amitriptyline in parenteral dosage form
 386687006	Product containing imipramine in parenteral dosage form
@@ -1708,8 +1328,6 @@
 766450009	Dothiepin hydrochloride 75mg/5mL conventional release oral elixir (product)
 766459005	Amitriptyline hydrochloride 5 mg/mL oral solution
 766460000	Amitriptyline hydrochloride 10 mg/mL oral solution
-766506005	Perphenazine 2mg/5mL conventional release oral solution (product)
-766507001	Perphenazine 4mg/5mL conventional release oral solution
 766556000	Product containing precisely lofepramine (as lofepramine hydrochloride) 14 milligram/1 milliliter conventional release oral suspension
 767871004	Product containing amitriptyline and chlordiazepoxide
 767872006	Amitriptyline and chlordiazepoxide in oral dosage form
@@ -1724,13 +1342,6 @@
 768906006	Protriptyline in oral dosage form
 769132005	Imipramine hydrochloride 5 mg/mL oral solution
 769646009	Product containing precisely clomipramine hydrochloride 25 milligram/2 milliliter conventional release solution for injection ampule
-3378009	Imipramine hydrochloride (substance)
-4203009	Imipramine pamoate (substance)
-26120001	Desipramine hydrochloride (substance)
-46950002	Protriptyline hydrochloride (substance)
-48384000	Amitriptyline hydrochloride (substance)
-85037008	Doxepin hydrochloride (substance)
-87831009	Trimipramine maleate (substance)
 372587005	Doxepin
 372652004	Nortriptyline
 372705002	Desipramine
@@ -1741,14 +1352,526 @@
 373550009	Trimipramine
 387027004	Clomipramine hydrochloride
 395772004	Lofepramine
-396037001	Dosulepin hydrochloride (substance)
 414047005	Dothiepin
 419144003	Iprindole
-441539007	Lofepramine hydrochloride (substance)
 734496007	Trimipramine mesylate
-387229007	Perphenazine
 115544001	Butriptyline product
 386997004	Butriptyline
-3680311000001100	Fentazin 2mg tablets (Goldshield Healthcare Ltd) (product)
-3680911000001104	Fentazin 4mg tablets (Goldshield Healthcare Ltd) (product)
-3762111000001105	Xepin 5% cream (Cambridge Healthcare supplies Ltd) (product)
+321744006	Amitriptyline hydrochloride [antidepressant] (product)
+321761009	Amitriptyline 25mg/5mL s/f oral solution (product)
+321762002	Amitriptyline 50mg/5mL s/f oral solution (product)
+321763007	Amitriptyline hydrochloride 25mg m/r capsule (product)
+321765000	Amitriptyline hydrochloride 50mg m/r capsule (product)
+326527008	Amitriptyline hydrochloride [enuresis - no drugs here] (product)
+374039009	Amitriptyline hydrochloride 10mg solution (product)
+376558006	Amitriptyline hydrochloride 10mg (product)
+376696001	Amitriptyline hydrochloride 50mg (product)
+376774004	Amitriptyline hydrochloride 75mg (product)
+376775003	Amitriptyline hydrochloride 100mg (product)
+376820003	Amitriptyline hydrochloride 150mg (product)
+376870000	Amitriptyline hydrochloride 10mg/cc (product)
+376893006	Amitriptyline hydrochloride 25mg (product)
+377585008	Amitriptyline hydrochloride + perphenazine 10mg/2mg tablet (product)
+377588005	Amitriptyline hydrochloride + perphenazine 25mg/2mg tablet (product)
+377589002	Amitriptyline hydrochloride + perphenazine 25mg/4mg tablet (product)
+377590006	Amitriptyline hydrochloride + perphenazine 50mg/4mg tablet (product)
+386208009	Amitriptyline hydrochloride+perphenazine 10mg/4mg tablet (product)
+386600005	Oral form amitriptyline m/r (product)
+398657007	Product containing amitriptyline hydrochloride and chlordiazepoxide (medicinal product)
+398861003	Amitriptyline hydrochloride + perphenazine (product)
+774553005	Amitriptyline (product)
+774554004	Product containing only amitriptyline and chlordiazepoxide (medicinal product)
+774555003	Amitriptyline + Perphenazine (product)
+778299003	Product containing only amitriptyline and chlordiazepoxide in oral dose form (medicinal product form)
+778300006	Product containing only amitriptyline and perphenazine in oral dose form (medicinal product form)
+778301005	Product containing only amitriptyline in oral dose form (medicinal product form)
+778302003	Product containing only amitriptyline in parenteral dose form (medicinal product form)
+783046007	Product containing precisely amitriptyline hydrochloride 10 milligram and perphenazine 2 milligram/1 each conventional release oral tablet (clinical drug)
+783047003	Product containing precisely amitriptyline hydrochloride 25 milligram and perphenazine 2 milligram/1 each conventional release oral tablet (clinical drug)
+1149464002	Product containing precisely amitriptyline hydrochloride 10 milligram and perphenazine 4 milligram/1 each conventional release oral tablet (clinical drug)
+1149465001	Product containing precisely amitriptyline hydrochloride 50 milligram and perphenazine 4 milligram/1 each conventional release oral tablet (clinical drug)
+1149466000	Product containing precisely amitriptyline hydrochloride 25 milligram and perphenazine 4 milligram/1 each conventional release oral tablet (clinical drug)
+1231486002	Product containing precisely amitriptyline (as amitriptyline hydrochloride) 25 milligram and chlordiazepoxide 10 milligram/1 each conventional release oral tablet (clinical drug)
+1251628004	Product containing precisely amitriptyline (as amitriptyline hydrochloride) 12.5 milligram and chlordiazepoxide 5 milligram/1 each conventional release oral tablet (clinical drug)
+1251635007	Product containing precisely amitriptyline (as amitriptyline hydrochloride) 12.5 milligram and chlordiazepoxide 10 milligram/1 each conventional release oral tablet (clinical drug)
+42291211000001105	Amitriptyline 25mg tablets (product)
+42543811000001105	Amitriptyline 25mg tablets (Flamingo Pharma (UK) Ltd) (product)
+13110011000001104	Amitriptyline 25mg tablets (Dowelhurst Ltd) (product)
+42142311000001100	Amitriptyline 25mg tablets (Strides Pharma UK Ltd) (product)
+41544011000001101	Amitriptyline 25mg tablets (Brown & Burk UK Ltd) (product)
+42291311000001102	Amitriptyline 50mg tablets (product)
+41544211000001106	Amitriptyline 50mg tablets (Brown & Burk UK Ltd) (product)
+42141911000001105	Amitriptyline 50mg tablets (Strides Pharma UK Ltd) (product)
+13110411000001108	Amitriptyline 50mg tablets (Dowelhurst Ltd) (product)
+42291111000001104	Amitriptyline 10mg tablets (product)
+41543311000001100	Amitriptyline 10mg tablets (Brown & Burk UK Ltd) (product)
+13109811000001104	Amitriptyline 10mg tablets (Dowelhurst Ltd) (product)
+42141111000001107	Amitriptyline 10mg tablets (Strides Pharma UK Ltd) (product)
+13109111000001106	Amitriptyline 25mg/5ml oral solution sugar free (Dowelhurst Ltd) (product)
+13109611000001103	Amitriptyline 50mg/5ml oral solution sugar free (Dowelhurst Ltd) (product)
+110771000001100	Amitriptyline 25mg / Perphenazine 2mg tablets (product)
+112081000001100	Amitriptyline 10mg / Perphenazine 2mg tablets (product)
+41544111000001100	Amitriptyline 25mg tablets (Brown & Burk UK Ltd) 28 tablet 2 x 14 tablets (product)
+41543511000001106	Amitriptyline 10mg tablets (Brown & Burk UK Ltd) 28 tablet 2 x 14 tablets (product)
+41544311000001103	Amitriptyline 50mg tablets (Brown & Burk UK Ltd) 28 tablet 2 x 14 tablets (product)
+42142411000001107	Amitriptyline 25mg tablets (Strides Pharma UK Ltd) 28 tablet 2 x 14 tablets (product)
+42142211000001108	Amitriptyline 10mg tablets (Strides Pharma UK Ltd) 28 tablet 2 x 14 tablets (product)
+42141011000001106	Amitriptyline 50mg tablets (Strides Pharma UK Ltd) 28 tablet 2 x 14 tablets (product)
+42543911000001100	Amitriptyline 25mg tablets (Flamingo Pharma (UK) Ltd) 28 tablet 2 x 14 tablets (product)
+3805411000001106	Amitriptyline 10mg/5ml oral solution sugar free (product)
+3794511000001109	Amitriptyline 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) (product)
+3794111000001100	Amitriptyline 10mg/5ml oral solution sugar free 150 ml (product)
+13110611000001106	Amitriptyline 50mg tablets (Dowelhurst Ltd) 28 tablet (product)
+13110111000001103	Amitriptyline 25mg tablets (Dowelhurst Ltd) 28 tablet (product)
+13109911000001109	Amitriptyline 10mg tablets (Dowelhurst Ltd) 28 tablet (product)
+13109711000001107	Amitriptyline 50mg/5ml oral solution sugar free (Dowelhurst Ltd) 150 ml (product)
+13109311000001108	Amitriptyline 25mg/5ml oral solution sugar free (Dowelhurst Ltd) 150 ml (product)
+3794911000001102	Amitriptyline 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml (product)
+9812111000001108	Amitriptyline + Perphenazine (product)
+20448811000001100	Amitriptyline + Ketamine (product)
+20453311000001103	Amitriptyline 2% / Ketamine 1% cream (product)
+20434011000001103	Amitriptyline 2% / Ketamine 1% cream (Special Order) (product)
+20433911000001101	Amitriptyline 2% / Ketamine 1% cream 1 gram (product)
+20434111000001102	Amitriptyline 2% / Ketamine 1% cream (Special Order) 1 gram (product)
+13177201000001102	Amitriptyline 25mg/5ml oral solution sugar free (product)
+13177301000001106	Amitriptyline 50mg/5ml oral solution sugar free (product)
+13177401000001103	Amitriptyline 25mg modified-release capsules (product)
+13177501000001104	Amitriptyline 50mg modified-release capsules (product)
+306801000001107	Amitriptyline+chlordiazepoxide 12.5mg/5mg capsule
+309201000001101	Amitriptyline hydrochloride 75mg m/r capsule
+427501000001108	Amitriptyline hydrochloride 100mg/10mL injection
+755301000001103	Amitriptyline 10mg/5mL oral suspension
+68401000001105	Amitriptyline hydrochloride 25mg tablet - product
+143101000001109	Amitriptyline hydrochloride 50mg tablet - product
+165301000001100	Amitriptyline hydrochloride 25mg m/r capsule
+218901000001107	Amitriptyline hydrochloride+perphenazine 25mg/2mg tablet - product
+238301000001103	Amitriptyline hydrochloride 50mg m/r capsule
+290101000001106	Amitriptyline hydrochloride+perphenazine 10mg/2mg tablet - product
+780001000001101	Amitriptyline hydrochloride 10mg tablet - product
+2474701000001105	Amitriptyline 25mg/5mL s/f oral solution - product
+2474901000001107	Amitriptyline 50mg/5mL s/f oral solution - product
+12659401000001103	AMITRIPTYLINE 10mg/5mL sugar free oral solution
+90001000001104	Lentizol 25mg m/r capsule
+167401000001101	Lentizol 50mg m/r capsule
+9373201000001102	Triptafen (product)
+9373301000001106	Triptafen-M (product)
+265501000001109	Triptafen tablet
+336001000001106	Triptafen-M tablet
+774954009	Product containing only butriptyline (medicinal product)
+876801000001104	Butriptyline 25mg tablet
+1954101000001107	Butriptyline 50mg tablet
+116520006	Product containing clomipramine hydrochloride (medicinal product)
+321789007	Clomipramine hydrochloride 12.5mg/mL injection solution 2mL ampule (product)
+321790003	Clomipramine hydrochloride 75mg m/r tablet (product)
+775307008	Clomipramine (product)
+778810007	Product containing only clomipramine in oral dose form (medicinal product form)
+778811006	Product containing only clomipramine in parenteral dose form (medicinal product form)
+781812003	Product containing precisely clomipramine hydrochloride 12.5 milligram/1 milliliter conventional release solution for injection (clinical drug)
+42269911000001104	Clomipramine 50mg capsules (product)
+13229011000001103	Clomipramine 50mg capsules (Dowelhurst Ltd) (product)
+42269711000001101	Clomipramine 10mg capsules (product)
+13227611000001100	Clomipramine 10mg capsules (Dowelhurst Ltd) (product)
+42269811000001109	Clomipramine 25mg capsules (product)
+13228111000001109	Clomipramine 25mg capsules (Dowelhurst Ltd) (product)
+13229311000001100	Clomipramine 50mg capsules (Dowelhurst Ltd) 28 capsule (product)
+13228611000001101	Clomipramine 25mg capsules (Dowelhurst Ltd) 100 capsule (product)
+13228211000001103	Clomipramine 25mg capsules (Dowelhurst Ltd) 28 capsule (product)
+13227811000001101	Clomipramine 10mg capsules (Dowelhurst Ltd) 28 capsule (product)
+13177601000001100	Clomipramine 25mg/2ml solution for injection ampoules (product)
+13177701000001105	Clomipramine 75mg modified-release tablets (product)
+215901000001100	Clomipramine hydrochloride 25mg/5mL syrup
+646301000001100	Clomipramine hydrochloride 50mg tablet
+684901000001104	Clomipramine hydrochloride 10mg tablet
+716601000001109	Clomipramine hydrochloride 25mg tablet
+314101000001109	Clomipramine hydrochloride 75mg m/r tablet - product
+379201000001108	Clomipramine hydrochloride 10mg capsule - product
+449401000001102	Clomipramine hydrochloride 25mg capsule - product
+519701000001109	Clomipramine hydrochloride 50mg capsule - product
+707901000001102	Clomipramine hydrochloride 25mg/2mL injection
+5333911000001100	Anafranil SR 75mg tablets (PI) (Waymade Ltd) (product)
+5615711000001101	Anafranil SR 75mg tablets (PI) (Dowelhurst Ltd) (product)
+13828111000001103	Anafranil SR 75mg tablets (Doncaster Pharmaceuticals Ltd) (product)
+14193311000001106	Anafranil SR 75mg tablets (Sigma Pharmaceuticals Plc) (product)
+16138211000001108	Anafranil SR 75mg tablets (Lexon (UK) Ltd) (product)
+16262311000001107	Anafranil SR 75mg tablets (Mawdsley-Brooks & Company Ltd) (product)
+16540611000001101	Anafranil SR 75mg tablets (Stephar (U.K.) Ltd) (product)
+17584911000001106	Anafranil SR 75mg tablets (Necessity Supplies Ltd) (product)
+19691811000001101	Anafranil SR 75mg tablets (Sigma Pharmaceuticals Plc) 28 tablet (product)
+17585411000001102	Anafranil SR 75mg tablets (Necessity Supplies Ltd) 28 tablet (product)
+16262511000001101	Anafranil SR 75mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet (product)
+16138411000001107	Anafranil SR 75mg tablets (Lexon (UK) Ltd) 28 tablet (product)
+13828211000001109	Anafranil SR 75mg tablets (Doncaster Pharmaceuticals Ltd) 28 tablet (product)
+5616011000001107	Anafranil SR 75mg tablets (PI) (Dowelhurst Ltd) 28 tablet 2 x 14 tablets (product)
+5334011000001102	Anafranil SR 75mg tablets (PI) (Waymade Ltd) 28 tablet 2 x 14 tablets (product)
+5616211000001102	Anafranil SR 75mg tablets (PI) (Dowelhurst Ltd) 30 tablet 3 x 10 tablets (product)
+18522411000001109	Anafranil SR 75mg tablets (Mawdsley-Brooks & Company Ltd) 20 tablet (product)
+17585011000001106	Anafranil SR 75mg tablets (Necessity Supplies Ltd) 20 tablet (product)
+16540811000001102	Anafranil SR 75mg tablets (Stephar (U.K.) Ltd) 20 tablet (product)
+16138311000001100	Anafranil SR 75mg tablets (Lexon (UK) Ltd) 20 tablet (product)
+14193411000001104	Anafranil SR 75mg tablets (Sigma Pharmaceuticals Plc) 20 tablet (product)
+13618511000001106	Anafranil SR 75mg tablets (Waymade Healthcare Plc) 20 tablet (product)
+5615911000001104	Anafranil SR 75mg tablets (PI) (Dowelhurst Ltd) 20 tablet 2 x 10 tablets (product)
+65001000001109	Anafranil 25mg/5mL syrup
+86301000001104	Anafranil 10mg capsule
+163201000001105	Anafranil 25mg capsule
+219101000001101	Anafranil SR 75mg tablet
+236501000001109	Anafranil 50mg capsule
+567001000001101	Anafranil 25mg/2mL injection
+775486003	Product containing only desipramine (medicinal product)
+778938000	Product containing only desipramine in oral dose form (medicinal product form)
+579101000001104	Desipramine hydrochloride 25mg tablet
+96203001	Doxepin metabolite (product)
+331642007	Doxepin hydrochloride [antipruritic] (product)
+374539004	Doxepin hydrochloride 10mg capsule (product)
+374540002	Doxepin hydrochloride 25mg capsule (product)
+374541003	Doxepin hydrochloride 50mg capsule (product)
+374543000	Doxepin hydrochloride 75mg capsule (product)
+412378003	Doxepin hydrochloride (product)
+771967008	Product containing doxepin in cutaneous dose form (medicinal product form)
+775696004	Doxepin (product)
+779066003	Product containing only doxepin in cutaneous dose form (medicinal product form)
+779067007	Product containing only doxepin in oral dose form (medicinal product form)
+784767008	Product containing precisely doxepin (as doxepin hydrochloride) 10 milligram/1 milliliter conventional release oral solution (clinical drug)
+1156028003	Product containing precisely doxepin (as doxepin hydrochloride) 100 milligram/1 each conventional release oral capsule (clinical drug)
+1156030001	Product containing precisely doxepin (as doxepin hydrochloride) 150 milligram/1 each conventional release oral capsule (clinical drug)
+42270811000001106	Doxepin 10mg capsules (product)
+40721911000001105	Doxepin 10mg capsules (Alliance Healthcare (Distribution) Ltd) (product)
+42271111000001105	Doxepin 75mg capsules (product)
+42270911000001101	Doxepin 25mg capsules (product)
+41925211000001102	Doxepin 25mg capsules (Rivopharm (UK) Ltd) (product)
+41106111000001108	Doxepin 25mg capsules (Accord-UK Ltd) (product)
+24669011000001109	Doxepin 25mg capsules (Waymade Healthcare Plc) (product)
+42271011000001109	Doxepin 50mg capsules (product)
+24668811000001105	Doxepin 50mg capsules (Waymade Healthcare Plc) (product)
+41106311000001105	Doxepin 50mg capsules (Accord-UK Ltd) (product)
+41925711000001109	Doxepin 50mg capsules (Rivopharm (UK) Ltd) (product)
+40722011000001103	Doxepin 10mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules (product)
+41106211000001102	Doxepin 25mg capsules (Accord-UK Ltd) 28 capsule (product)
+41106411000001103	Doxepin 50mg capsules (Accord-UK Ltd) 28 capsule (product)
+41926011000001103	Doxepin 50mg capsules (Rivopharm (UK) Ltd) 28 capsule 2 x 14 capsules (product)
+41925611000001100	Doxepin 25mg capsules (Rivopharm (UK) Ltd) 28 capsule 4 x 7 capsules (product)
+24668911000001100	Doxepin 50mg capsules (Waymade Healthcare Plc) 28 capsule (product)
+24669111000001105	Doxepin 25mg capsules (Waymade Healthcare Plc) 28 capsule (product)
+19201000001101	Doxepin 25mg capsule - product
+89901000001108	Doxepin 50mg capsule - product
+167301000001109	Doxepin 75mg capsule - product
+790601000001108	Doxepin 10mg capsule - product
+249301000001106	Sinequan 10mg capsule
+319901000001108	Sinequan 25mg capsule
+390301000001103	Sinequan 50mg capsule
+460501000001102	Sinequan 75mg capsule
+876901000001105	Sinequan 25mg capsules x28CP
+877001000001109	Sinequan 50mg capsules x28CP
+877101000001105	Sinequan 75mg capsules x28CP
+2100301000001105	Sinequan 10mg capsules x56CP
+8961901000001106	SINEPIN 25mg capsules
+8962001000001103	SINEPIN 50mg capsules
+321815002	Imipramine hydrochloride [antidepressant] (product)
+321823000	Imipramine hydrochloride 10mg tablet (product)
+321824006	Imipramine hydrochloride 25mg tablet (product)
+321825007	Imipramine hydrochloride 25mg/5mL syrup (product)
+326541004	Imipramine hydrochloride [enuresis - no drugs here] (product)
+374620003	Imipramine pamoate 150mg (product)
+374622006	Imipramine pamoate 100mg (product)
+374623001	Imipramine pamoate 125mg (product)
+375013002	Imipramine hydrochloride 25mg/amp (product)
+386685003	Imipramine hydrochloride (product)
+386686002	Imipramine pamoate (product)
+776314002	Imipramine (product)
+779542002	Product containing only imipramine in oral dose form (medicinal product form)
+779543007	Product containing only imipramine in parenteral dose form (medicinal product form)
+1263409006	Product containing precisely imipramine hydrochloride 75 milligram/1 each conventional release oral tablet (clinical drug)
+42295311000001100	Imipramine 10mg tablets (product)
+42295411000001107	Imipramine 25mg tablets (product)
+13177801000001101	Imipramine 25mg/5ml oral solution (product)
+16001000001100	Imipramine hydrochloride 10mg tablet - product
+86801000001109	Imipramine hydrochloride 25mg tablet - product
+216401000001104	Imipramine hydrochloride 25mg/5mL syrup
+10587301000001105	IMIPRAMINE HYDROCHLORIDE 25mg/5mL oral solution
+5425111000001109	Tofranil 25mg tablets (PI) (Waymade Ltd) (product)
+16276511000001109	Tofranil 25mg tablets (Lexon (UK) Ltd) (product)
+16276611000001108	Tofranil 25mg tablets (Lexon (UK) Ltd) 100 tablet (product)
+5425311000001106	Tofranil 25mg tablets (PI) (Waymade Ltd) 100 tablet 10 x 10 tablets (product)
+193001000001102	Tofranil 10mg tablet
+263601000001109	Tofranil 25mg tablet
+638601000001106	Tofranil 25mg/5mL syrup
+776389003	Product containing only iprindole (medicinal product)
+16701000001103	Iprindole 15mg tablet
+1954501000001102	Iprindole 30mg tablet
+321834002	Lofepramine 70mg/5mL s/f suspension (product)
+776562009	Lofepramine (product)
+779730009	Product containing only lofepramine in oral dose form (medicinal product form)
+783591008	Product containing precisely lofepramine (as lofepramine hydrochloride) 70 milligram/1 each conventional release oral tablet (clinical drug)
+110551000001104	Lofepramine 70mg tablets (product)
+13177901000001107	Lofepramine 70mg/5ml oral suspension sugar free (product)
+312001000001101	Lofepramine 70mg tablet - product
+2477801000001106	Lofepramine 70mg/5mL s/f suspension - product
+3844801000001103	Feprapax 70mg tablet
+2893101000001106	Lomont 70mg/5mL s/f suspension
+13501000001100	Gamanil 70mg tablet
+877201000001103	Gamanil 70mg tablets x56CP
+8962101000001102	Gamanil 70mg tablet
+376430000	Nortriptyline hydrochloride 10mg/5mL (product)
+376439004	Nortriptyline hydrochloride 50mg (product)
+376440002	Nortriptyline hydrochloride 75mg (product)
+376441003	Nortriptyline hydrochloride 10mg (product)
+376442005	Nortriptyline hydrochloride 25mg (product)
+377058009	Nortriptyline hydrochloride 10mg/5mL liquid (product)
+398661001	Fluphenazine hydrochloride+nortriptyline (product)
+412451001	Product containing nortriptyline hydrochloride (medicinal product)
+776008004	Nortriptyline + Fluphenazine (product)
+776948005	Nortriptyline (product)
+779299006	Product containing only fluphenazine and nortriptyline in oral dose form (medicinal product form)
+780036006	Product containing only nortriptyline in oral dose form (medicinal product form)
+783363004	Product containing precisely nortriptyline (as nortriptyline hydrochloride) 10 milligram/1 each conventional release oral tablet (clinical drug)
+783364005	Product containing precisely nortriptyline (as nortriptyline hydrochloride) 25 milligram/1 each conventional release oral tablet (clinical drug)
+783592001	Product containing precisely fluphenazine hydrochloride 1.5 milligram and nortriptyline (as nortriptyline hydrochloride) 30 milligram/1 each conventional release oral tablet (clinical drug)
+783593006	Product containing precisely fluphenazine hydrochloride 500 microgram and nortriptyline (as nortriptyline hydrochloride) 10 milligram/1 each conventional release oral tablet (clinical drug)
+1208681005	Product containing precisely nortriptyline (as nortriptyline hydrochloride) 10 milligram/1 each conventional release oral capsule (clinical drug)
+1208682003	Product containing precisely nortriptyline (as nortriptyline hydrochloride) 25 milligram/1 each conventional release oral capsule (clinical drug)
+1208683008	Product containing precisely nortriptyline (as nortriptyline hydrochloride) 50 milligram/1 each conventional release oral capsule (clinical drug)
+1208684002	Product containing precisely nortriptyline (as nortriptyline hydrochloride) 75 milligram/1 each conventional release oral capsule (clinical drug)
+1231347000	Product containing gabapentin and nortriptyline (medicinal product)
+1231348005	Product containing only gabapentin and nortriptyline (medicinal product)
+1231349002	Product containing gabapentin and nortriptyline in oral dose form (medicinal product form)
+1231350002	Product containing only gabapentin and nortriptyline in oral dose form (medicinal product form)
+1231351003	Product containing precisely gabapentin 100 milligram and nortriptyline (as nortriptyline hydrochloride) 10 milligram/1 each conventional release oral tablet (clinical drug)
+1231352005	Product containing precisely gabapentin 400 milligram and nortriptyline (as nortriptyline hydrochloride) 10 milligram/1 each conventional release oral tablet (clinical drug)
+40669811000001104	Nortriptyline 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) (product)
+41506211000001107	Nortriptyline 25mg tablets (Glenmark Pharmaceuticals Europe Ltd) (product)
+42564511000001101	Nortriptyline 25mg tablets (Rudipharm Ltd) (product)
+42332111000001107	Nortriptyline 25mg tablets (Key Pharmaceuticals Ltd) (product)
+19618311000001102	Nortriptyline 25mg tablets (Doncaster Pharmaceuticals Ltd) (product)
+21204111000001100	Nortriptyline 25mg tablets (Waymade Healthcare Plc) (product)
+16214311000001104	Nortriptyline 25mg tablets (Lexon (UK) Ltd) (product)
+14377311000001101	Nortriptyline 25mg tablets (Sigma Pharmaceuticals Plc) (product)
+40708711000001107	Nortriptyline 25mg tablets (Wockhardt UK Ltd) (product)
+42242711000001103	Nortriptyline 25mg tablets (Brown & Burk UK Ltd) (product)
+41171311000001109	Nortriptyline 25mg tablets (Milpharm Ltd) (product)
+42578911000001109	Nortriptyline 25mg tablets (Rivopharm (UK) Ltd) (product)
+40669611000001103	Nortriptyline 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) (product)
+40708911000001109	Nortriptyline 50mg tablets (Wockhardt UK Ltd) (product)
+42243311000001107	Nortriptyline 50mg tablets (Brown & Burk UK Ltd) (product)
+41797411000001107	Nortriptyline 50mg tablets (Macleods Pharma UK Ltd) (product)
+42587411000001108	Nortriptyline 50mg tablets (Flamingo Pharma (UK) Ltd) (product)
+41506011000001102	Nortriptyline 10mg tablets (Glenmark Pharmaceuticals Europe Ltd) (product)
+42564311000001107	Nortriptyline 10mg tablets (Rudipharm Ltd) (product)
+23931311000001100	Nortriptyline 10mg tablets (Waymade Healthcare Plc) (product)
+42326811000001101	Nortriptyline 10mg tablets (Key Pharmaceuticals Ltd) (product)
+40708511000001102	Nortriptyline 10mg tablets (Wockhardt UK Ltd) (product)
+42242211000001105	Nortriptyline 10mg tablets (Brown & Burk UK Ltd) (product)
+41171111000001107	Nortriptyline 10mg tablets (Milpharm Ltd) (product)
+42578711000001107	Nortriptyline 10mg tablets (Rivopharm (UK) Ltd) (product)
+40669911000001109	Nortriptyline 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 250 ml (product)
+40669711000001107	Nortriptyline 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 250 ml (product)
+111531000001104	Nortriptyline 25mg tablets (product)
+111021000001106	Nortriptyline 10mg / Fluphenazine 500microgram tablets (product)
+110021000001102	Nortriptyline 10mg tablets (product)
+112021000001101	Nortriptyline 30mg / Fluphenazine 1.5mg tablets (product)
+40709011000001100	Nortriptyline 50mg tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets (product)
+40708611000001103	Nortriptyline 10mg tablets (Wockhardt UK Ltd) 100 tablet 10 x 10 tablets (product)
+40708811000001104	Nortriptyline 25mg tablets (Wockhardt UK Ltd) 100 tablet 10 x 10 tablets (product)
+41171411000001102	Nortriptyline 25mg tablets (Milpharm Ltd) 100 tablet 10 x 10 tablets (product)
+41171211000001101	Nortriptyline 10mg tablets (Milpharm Ltd) 100 tablet 10 x 10 tablets (product)
+42587611000001106	Nortriptyline 50mg tablets (Flamingo Pharma (UK) Ltd) 30 tablet 3 x 10 tablets (product)
+41506111000001101	Nortriptyline 10mg tablets (Glenmark Pharmaceuticals Europe Ltd) 100 tablet (product)
+41506411000001106	Nortriptyline 25mg tablets (Glenmark Pharmaceuticals Europe Ltd) 100 tablet (product)
+41797511000001106	Nortriptyline 50mg tablets (Macleods Pharma UK Ltd) 30 tablet 3 x 10 tablets (product)
+42242911000001101	Nortriptyline 25mg tablets (Brown & Burk UK Ltd) 100 tablet 10 x 10 tablets (product)
+42243811000001103	Nortriptyline 50mg tablets (Brown & Burk UK Ltd) 30 tablet 3 x 10 tablets (product)
+42242311000001102	Nortriptyline 10mg tablets (Brown & Burk UK Ltd) 100 tablet 10 x 10 tablets (product)
+42327011000001105	Nortriptyline 10mg tablets (Key Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets (product)
+42332211000001101	Nortriptyline 25mg tablets (Key Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets (product)
+42564411000001100	Nortriptyline 10mg tablets (Rudipharm Ltd) 100 tablet (product)
+42564611000001102	Nortriptyline 25mg tablets (Rudipharm Ltd) 100 tablet (product)
+42578811000001104	Nortriptyline 10mg tablets (Rivopharm (UK) Ltd) 100 tablet 10 x 10 tablets (product)
+42579011000001100	Nortriptyline 25mg tablets (Rivopharm (UK) Ltd) 100 tablet 10 x 10 tablets (product)
+21204211000001106	Nortriptyline 25mg tablets (Waymade Healthcare Plc) 100 tablet (product)
+19697011000001102	Nortriptyline 25mg tablets (Sigma Pharmaceuticals Plc) 100 tablet (product)
+19618411000001109	Nortriptyline 25mg tablets (Doncaster Pharmaceuticals Ltd) 100 tablet (product)
+16214411000001106	Nortriptyline 25mg tablets (Lexon (UK) Ltd) 100 tablet (product)
+23931411000001107	Nortriptyline 10mg tablets (Waymade Healthcare Plc) 100 tablet (product)
+10053411000001100	Fluphenazine + Nortriptyline (product)
+30272411000001101	Nortriptyline 25mg tablets (Waymade Healthcare Plc) 25 tablet (product)
+14377611000001106	Nortriptyline 25mg tablets (Sigma Pharmaceuticals Plc) 25 tablet (product)
+246501000001105	Nortriptyline 10mg capsule
+317101000001103	Nortriptyline 25mg capsule
+877401000001104	Nortriptyline 10mg/5mL liquid
+460701000001108	Nortriptyline 10mg tablet - product
+514501000001102	Fluphenazine hydrochloride+nortriptyline 1.5mg/30mg tablet
+530801000001104	Nortriptyline 25mg tablet - product
+584401000001103	Fluphenazine hydrochloride+nortriptyline 500micrograms/10mg tablet - product
+14053811000001100	Allegron 25mg tablets (Sigma Pharmaceuticals Plc) (product)
+16259211000001104	Allegron 25mg tablets (Mawdsley-Brooks & Company Ltd) (product)
+17579111000001104	Allegron 25mg tablets (Necessity Supplies Ltd) (product)
+16136811000001108	Allegron 25mg tablets (Lexon (UK) Ltd) (product)
+18544911000001108	Allegron 25mg tablets (Doncaster Pharmaceuticals Ltd) (product)
+16259011000001109	Allegron 10mg tablets (Mawdsley-Brooks & Company Ltd) (product)
+17532311000001107	Allegron 10mg tablets (Sigma Pharmaceuticals Plc) (product)
+16136611000001109	Allegron 10mg tablets (Lexon (UK) Ltd) (product)
+18545011000001108	Allegron 25mg tablets (Doncaster Pharmaceuticals Ltd) 100 tablet (product)
+17579611000001107	Allegron 25mg tablets (Necessity Supplies Ltd) 100 tablet (product)
+17532511000001101	Allegron 25mg tablets (Sigma Pharmaceuticals Plc) 100 tablet (product)
+16259311000001107	Allegron 25mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet (product)
+16136911000001103	Allegron 25mg tablets (Lexon (UK) Ltd) 100 tablet (product)
+17532411000001100	Allegron 10mg tablets (Sigma Pharmaceuticals Plc) 100 tablet (product)
+16259111000001105	Allegron 10mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet (product)
+16136711000001100	Allegron 10mg tablets (Lexon (UK) Ltd) 100 tablet (product)
+14053911000001105	Allegron 25mg tablets (Sigma Pharmaceuticals Plc) 25 tablet (product)
+387001000001101	Allegron 25mg tablet
+639501000001100	Allegron 10mg tablet
+317701000001102	Motival tablet
+247101000001102	Motipress tablet
+878201000001104	Motipress tablets X28CP
+777354006	Protriptyline (product)
+780319009	Product containing only protriptyline in oral dose form (medicinal product form)
+42277911000001100	Protriptyline 5mg tablets (product)
+42277811000001105	Protriptyline 10mg tablets (product)
+11498411000001103	Protriptyline 5mg tablets 100 tablet (product)
+11498111000001108	Protriptyline 10mg tablets 100 tablet (product)
+396701000001101	Protriptyline hydrochloride 5mg tablet
+466501000001100	Protriptyline hydrochloride 10mg tablet
+11498511000001104	Vivactil 5mg tablets (Odyssey Pharmaceuticals Inc) (product)
+11498211000001102	Vivactil 10mg tablets (Odyssey Pharmaceuticals Inc) (product)
+11498611000001100	Vivactil 5mg tablets (Odyssey Pharmaceuticals Inc) 100 tablet (product)
+11498311000001105	Vivactil 10mg tablets (Odyssey Pharmaceuticals Inc) 100 tablet (product)
+373969006	Trimipramine maleate 50mg capsule (product)
+777861000	Trimipramine (product)
+780718004	Product containing only trimipramine in oral dose form (medicinal product form)
+1208598002	Product containing precisely trimipramine (as trimipramine maleate) 25 milligram/1 each conventional release oral capsule (clinical drug)
+1208599005	Product containing precisely trimipramine (as trimipramine maleate) 100 milligram/1 each conventional release oral capsule (clinical drug)
+42281111000001103	Trimipramine 50mg capsules (product)
+39076511000001106	Trimipramine 50mg capsules (Pharmaram Ltd) (product)
+41424511000001103	Trimipramine 50mg capsules (Glenmark Pharmaceuticals Europe Ltd) (product)
+38171611000001109	Trimipramine 50mg capsules (DE Pharmaceuticals) (product)
+37659511000001102	Trimipramine 50mg capsules (CST Pharma Ltd) (product)
+42124511000001103	Trimipramine 50mg capsules (Teva UK Ltd) (product)
+37736311000001105	Trimipramine 50mg capsules (Pilsco Ltd) (product)
+42280911000001107	Trimipramine 10mg tablets (product)
+37742111000001108	Trimipramine 10mg tablets (CST Pharma Ltd) (product)
+37735311000001100	Trimipramine 10mg tablets (Pilsco Ltd) (product)
+42281011000001104	Trimipramine 25mg tablets (product)
+37736111000001108	Trimipramine 25mg tablets (Pilsco Ltd) (product)
+37708211000001108	Trimipramine 25mg tablets (CST Pharma Ltd) (product)
+38171811000001108	Trimipramine 25mg tablets (PI) (DE Pharmaceuticals) (product)
+37659611000001103	Trimipramine 50mg capsules (CST Pharma Ltd) 28 capsule (product)
+38171911000001103	Trimipramine 25mg tablets (DE Pharmaceuticals) 50 tablet (product)
+37708411000001107	Trimipramine 25mg tablets (CST Pharma Ltd) 50 tablet (product)
+37736211000001102	Trimipramine 25mg tablets (Pilsco Ltd) 100 tablet (product)
+37712011000001103	Trimipramine 25mg tablets (CST Pharma Ltd) 100 tablet (product)
+37735511000001106	Trimipramine 10mg tablets (Pilsco Ltd) 25 tablet (product)
+37742211000001102	Trimipramine 10mg tablets (CST Pharma Ltd) 50 tablet (product)
+37735911000001104	Trimipramine 10mg tablets (Pilsco Ltd) 50 tablet (product)
+37736711000001109	Trimipramine 50mg capsules (Pilsco Ltd) 28 capsule (product)
+38171711000001100	Trimipramine 50mg capsules (DE Pharmaceuticals) 28 capsule (product)
+39076611000001105	Trimipramine 50mg capsules (Pharmaram Ltd) 28 capsule (product)
+41424611000001104	Trimipramine 50mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule (product)
+42124611000001104	Trimipramine 50mg capsules (Teva UK Ltd) 28 capsule (product)
+116201000001101	Trimipramine 10mg tablet - product
+194601000001108	Trimipramine 25mg tablet - product
+250401000001107	Trimipramine 50mg capsule - product
+14622311000001109	Surmontil 50mg capsules (Sigma Pharmaceuticals Plc) (product)
+14622411000001102	Surmontil 50mg capsules (Sigma Pharmaceuticals Plc) 28 capsule (product)
+600601000001102	Surmontil 50mg capsule
+682001000001105	Surmontil 10mg tablet
+752001000001107	Surmontil 25mg tablet
+877901000001108	Surmontil 50mg capsules x28CP
+44201000001108	Tryptizol 50mg tablet
+148601000001108	Tryptizol 100mg/10mL injection
+169301000001103	Tryptizol 75mg m/r capsule
+524701000001103	Tryptizol 10mg/5mL mixture
+756401000001101	Tryptizol 10mg tablet
+802801000001108	Tryptizol 25mg tablet
+80101000001104	Elavil 10mg tablet
+156501000001106	Elavil 25mg tablet
+9497301000001100	Lentizol (product)
+510701000001101	Domical 10mg tablet
+580701000001103	Domical 25mg tablet
+650601000001107	Domical 50mg tablet
+314801000001101	Limbitrol-5 capsule
+878101000001106	Limbitrol 10 capsule
+1953901000001108	Evadyne 25mg tablet
+1954001000001106	Evadyne 50mg tablet
+2447701000001101	Tranquax 10mg capsule
+2447801000001105	Tranquax 25mg capsule
+2447901000001104	Tranquax 50mg capsule
+9207501000001108	Anafranil (product)
+9207601000001107	Anafranil SR (product)
+102701000001107	Pertofran 25mg tablet
+321794007	Product containing dosulepin hydrochloride (medicinal product)
+321801004	Dothiepin hydrochloride 25mg/5mL s/f elixir (product)
+321802006	Dothiepin hydrochloride 75mg/5mL s/f elixir (product)
+775693007	Dosulepin (product)
+779064000	Product containing only dosulepin in oral dose form (medicinal product form)
+785110003	Product containing precisely dosulepin 5 milligram/1 milliliter conventional release oral solution (clinical drug)
+785111004	Product containing precisely dosulepin 15 milligram/1 milliliter conventional release oral solution (clinical drug)
+42270611000001107	Dosulepin 25mg capsules (product)
+42301811000001101	Dosulepin 25mg capsules (Medreich Plc) (product)
+10528711000001102	Prothiaden 25mg capsules (PI) (Waymade Ltd) (product)
+14344411000001102	Prothiaden 25mg capsules (Sigma Pharmaceuticals Plc) (product)
+16228611000001105	Prothiaden 25mg capsules (Lexon (UK) Ltd) (product)
+16586411000001105	Prothiaden 25mg capsules (Stephar (U.K.) Ltd) (product)
+42270711000001103	Dosulepin 75mg tablets (product)
+41745711000001101	Dosulepin 75mg tablets (Medreich Plc) (product)
+5403111000001102	Prothiaden 75mg tablets (PI) (Waymade Ltd) (product)
+5575311000001101	Prothiaden 75mg tablets (PI) (Dowelhurst Ltd) (product)
+5503211000001103	Dosulepin 75mg tablets (PI) (Dowelhurst Ltd) (product)
+41745811000001109	Dosulepin 75mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets (product)
+42302011000001104	Dosulepin 25mg capsules (Medreich Plc) 28 capsule 2 x 14 capsules (product)
+5503311000001106	Dosulepin 75mg tablets (PI) (Dowelhurst Ltd) 28 tablet 2 x 14 tablets (product)
+5403311000001100	Prothiaden 75mg tablets (PI) (Waymade Ltd) 28 tablet 2 x 14 tablets (product)
+5575411000001108	Prothiaden 75mg tablets (PI) (Dowelhurst Ltd) 28 tablet 2 x 14 tablets (product)
+16586511000001109	Prothiaden 25mg capsules (Stephar (U.K.) Ltd) 100 capsule (product)
+16228711000001101	Prothiaden 25mg capsules (Lexon (UK) Ltd) 100 capsule (product)
+14344511000001103	Prothiaden 25mg capsules (Sigma Pharmaceuticals Plc) 100 capsule (product)
+10528911000001100	Prothiaden 25mg capsules (PI) (Waymade Ltd) 100 capsule (product)
+17589611000001101	Prothiaden 25mg capsules (Sigma Pharmaceuticals Plc) 28 capsule (product)
+11612211000001103	Dosulepin 25mg/5ml oral solution sugar free (product)
+11612311000001106	Dosulepin 75mg/5ml oral solution sugar free (product)
+11598211000001109	Dosulepin 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) (product)
+11598511000001107	Dosulepin 75mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) (product)
+11603211000001106	Dosulepin 25mg/5ml oral solution sugar free (Special Order) (product)
+11603511000001109	Dosulepin 75mg/5ml oral solution sugar free (Special Order) (product)
+11603411000001105	Dosulepin 75mg/5ml oral solution sugar free 1 ml (product)
+11603111000001100	Dosulepin 25mg/5ml oral solution sugar free 1 ml (product)
+11598411000001108	Dosulepin 75mg/5ml oral solution sugar free 500 ml (product)
+11598111000001103	Dosulepin 25mg/5ml oral solution sugar free 500 ml (product)
+11598311000001101	Dosulepin 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 500 ml (product)
+11598611000001106	Dosulepin 75mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 500 ml (product)
+11603311000001103	Dosulepin 25mg/5ml oral solution sugar free (Special Order) 1 ml (product)
+11603611000001108	Dosulepin 75mg/5ml oral solution sugar free (Special Order) 1 ml (product)
+309001000001107	Dothiepin hydrochloride 25mg capsule - product
+370601000001103	Dothiepin hydrochloride 75mg tablet - product
+2335701000001100	Dothiepin hydrochloride 25mg/5mL s/f elixir - product
+2335801000001109	Dothiepin hydrochloride 75mg/5mL s/f elixir - product
+3814401000001106	Thaden 25mg capsule
+3814501000001105	Thaden 75mg tablet
+9365101000001101	Thaden (product)
+300701000001101	Dothapax 75mg tablet
+731401000001107	Dothapax 25mg capsule
+9267001000001100	Dothapax (product)
+104901000001104	Prepadine 75mg tablet
+459301000001108	Prepadine 25mg capsule
+9310501000001104	Prepadine (product)
+326201000001102	Prothiaden 75mg tablet
+669401000001105	Prothiaden 25mg capsule
+9316001000001106	Prothiaden (product)
+9341601000001103	Sinepin (product)
+9341701000001108	Sinequan (product)
+9368801000001104	Tofranil (product)
+1954201000001100	Praminil 10mg tablet
+1954301000001109	Praminil 25mg tablet
+676301000001101	Prondol 15mg tablet
+1954401000001101	Prondol 30mg tablet
+9525201000001101	Lomont (product)
+9475601000001105	Feprapax (product)
+9456101000001106	Gamanil (product)
+86601000001105	Aventyl 10mg capsule
+163701000001102	Aventyl 25mg capsule
+1954601000001103	Aventyl 10mg/5mL liquid
+9202201000001107	Allegron (product)
+9481801000001103	Motipress (product)
+9540601000001106	Motival (product)
+367301000001100	Concordin 5mg tablet
+437801000001108	Concordin 10mg tablet
+9356501000001105	Surmontil (product)

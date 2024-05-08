@@ -111,3 +111,23 @@
 12800011000001103	Lofepramine 70mg/5ml oral liquid
 12800211000001108	Lofepramine 70mg/5ml oral liquid
 12800411000001107	Lofepramine 70mg/5ml oral liquid
+321831005	Product containing lofepramine (medicinal product)
+321834002	Lofepramine 70mg/5mL s/f suspension (product)
+321835001	Product containing precisely lofepramine 70 milligram/1 each conventional release oral tablet (clinical drug)
+766556000	Product containing precisely lofepramine (as lofepramine hydrochloride) 14 milligram/1 milliliter conventional release oral suspension (clinical drug)
+768354009	Product containing lofepramine in oral dose form (medicinal product form)
+776562009	Lofepramine (product)
+779730009	Product containing only lofepramine in oral dose form (medicinal product form)
+783591008	Product containing precisely lofepramine (as lofepramine hydrochloride) 70 milligram/1 each conventional release oral tablet (clinical drug)
+110551000001104	Lofepramine 70mg tablets (product)
+312001000001101	Lofepramine 70mg tablet - product
+2477801000001106	Lofepramine 70mg/5mL s/f suspension - product
+13177901000001107	Lofepramine 70mg/5ml oral suspension sugar free (product)
+2893101000001106	Lomont 70mg/5mL s/f suspension
+9525201000001101	Lomont (product)
+3844801000001103	Feprapax 70mg tablet
+9475601000001105	Feprapax (product)
+13501000001100	Gamanil 70mg tablet
+877201000001103	Gamanil 70mg tablets x56CP
+8962101000001102	Gamanil 70mg tablet
+9456101000001106	Gamanil (product)

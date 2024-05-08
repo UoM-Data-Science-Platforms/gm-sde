@@ -211,3 +211,128 @@ NOTA123310NEMIS	Nortriptyline  Tablets  50 mg
 NOTA18780NEMIS	Nortriptyline And Fluphenazine  Tablets  10 mg + 500 micrograms
 NOTA5215	Nortriptyline  Tablets  10 mg
 NOTA6760	Nortriptyline  Tablets  25 mg
+^ESCT1179274	Product containing only nortriptyline hydrochloride 10 mg/1 each oral capsule
+^ESCT1181101	Product containing only nortriptyline 25 mg/1 each oral tablet
+^ESCT1181104	Product containing only fluphenazine hydrochloride 1.5 mg and nortriptyline 30 mg/1 each oral tablet
+^ESCT1181105	Product containing only fluphenazine hydrochloride 0.5 milligram and nortriptyline 10 milligram/1 each oral tablet
+^ESCT1181390	Product containing only nortriptyline 10 mg/1 each oral tablet
+^ESCT1181750	Product containing only nortriptyline hydrochloride 50 mg/1 each oral capsule
+^ESCT1185371	Product containing only nortriptyline hydrochloride 25 mg/1 each oral capsule
+^ESCT1187582	Product containing only nortriptyline hydrochloride 75 mg/1 each oral capsule
+^ESCT1206665	Nortriptyline in oral dosage form
+^ESCT1206666	Product containing nortriptyline in oral dosage form
+^ESCT1207214	Fluphenazine and nortriptyline in oral dosage form
+^ESCT1207215	Product containing fluphenazine and nortriptyline in oral dosage form
+^ESCT1216973	Nortriptyline
+^ESCT1216974	Nortriptyline product
+^ESCT1223545	Product containing precisely nortriptyline 10 milligram/1 each conventional release oral tablet
+^ESCT1223546	Product containing precisely nortriptyline 25 milligram/1 each conventional release oral tablet
+^ESCT1223568	Product containing precisely fluphenazine hydrochloride 1.5 milligram and nortriptyline 30 milligram/1 each conventional release oral tablet
+^ESCT1223569	Fluphenazine hydrochloride 500 microgram and nortriptyline 10 mg oral tablet
+^ESCT1223570	Product containing precisely fluphenazine hydrochloride 500 microgram and nortriptyline 10 milligram/1 each conventional release oral tablet
+^ESCT1228159	Nortriptyline hydrochloride 50 mg/1 each oral capsule
+^ESCT1228160	Product containing precisely nortriptyline hydrochloride 50 milligram/1 each conventional release oral capsule
+^ESCT1228161	Nortriptyline hydrochloride 50 mg oral capsule
+^ESCT1228497	Nortriptyline hydrochloride 75 mg/1 each oral capsule
+^ESCT1228498	Product containing precisely nortriptyline hydrochloride 75 milligram/1 each conventional release oral capsule
+^ESCT1228499	Nortriptyline hydrochloride 75 mg oral capsule
+^ESCT1228628	Nortriptyline hydrochloride 10 mg/1 each oral capsule
+^ESCT1228629	Nortriptyline hydrochloride 10 mg oral capsule
+^ESCT1228630	Product containing precisely nortriptyline hydrochloride 10 milligram/1 each conventional release oral capsule
+^ESCT1228643	Nortriptyline hydrochloride 25 mg/1 each oral capsule
+^ESCT1228644	Product containing precisely nortriptyline hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1228645	Nortriptyline hydrochloride 25 mg oral capsule
+^ESCT1233410	Fluphenazine and nortriptyline product
+^ESCT1355087	Fluphenazine and nortriptyline only product
+^ESCT1356102	Nortriptyline only product
+^ESCT1358593	Fluphenazine and nortriptyline only product in oral dose form
+^ESCT1359389	Nortriptyline only product in oral dose form
+^ESCT1362973	Nortriptyline (as nortriptyline hydrochloride) 10 mg oral tablet
+^ESCT1362974	Nortriptyline (as nortriptyline hydrochloride) 25 mg oral tablet
+^ESCT1363119	Fluphenazine hydrochloride 1.5 mg and nortriptyline (as nortriptyline hydrochloride) 30 mg oral tablet
+^ESCT1363120	Fluphenazine hydrochloride 500 microgram and nortriptyline (as nortriptyline hydrochloride) 10 mg oral tablet
+^ESCT1367115	Nortriptyline 10mg tablets
+^ESCT1367195	Nortriptyline 10mg / Fluphenazine 500microgram tablets
+^ESCT1367236	Nortriptyline 25mg tablets
+^ESCT1367275	Nortriptyline 30mg / Fluphenazine 1.5mg tablets
+^ESCT1386389	Nortriptyline-containing product in oral dose form
+^ESCT1386647	Fluphenazine- and nortriptyline-containing product in oral dose form
+^ESCT1434751	Nortriptyline 10mg capsules (DE Pharmaceuticals)
+^ESCT1434752	Nortriptyline 10mg capsules (DE Pharmaceuticals) 100 capsule
+^ESCT1434756	Nortriptyline 25mg capsules (DE Pharmaceuticals)
+^ESCT1434757	Nortriptyline 25mg capsules (DE Pharmaceuticals) 100 capsule
+^ESCT1434760	Nortriptyline 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1434767	Nortriptyline 25mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1439152	Nortriptyline 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439153	Nortriptyline 10mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1439154	Nortriptyline 10mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1439155	Nortriptyline 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439156	Nortriptyline 25mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1439157	Nortriptyline 25mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1439158	Nortriptyline 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439159	Nortriptyline 50mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCTAL1002229	Allegron 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAL1002230	Allegron 10mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTAL1002231	Allegron 25mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTAL1002672	Allegron 25mg tablets (Necessity Supplies Ltd)
+^ESCTAL1002677	Allegron 25mg tablets (Necessity Supplies Ltd) 100 tablet
+^ESCTAL1011640	Allegron 25mg tablets (DE Pharmaceuticals)
+^ESCTAL1011641	Allegron 25mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTAL913710	Allegron
+^ESCTAL968364	Allegron 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAL968365	Allegron 25mg tablets (Sigma Pharmaceuticals Plc) 25 tablet
+^ESCTAL988686	Allegron 10mg tablets (Lexon (UK) Ltd)
+^ESCTAL988687	Allegron 10mg tablets (Lexon (UK) Ltd) 100 tablet
+^ESCTAL988688	Allegron 25mg tablets (Lexon (UK) Ltd)
+^ESCTAL988689	Allegron 25mg tablets (Lexon (UK) Ltd) 100 tablet
+^ESCTAL990043	Allegron 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAL990044	Allegron 10mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTAL990045	Allegron 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAL990046	Allegron 25mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTFL609740	Fluphenazine hydrochloride 1.5 mg and nortriptyline 30 mg oral tablet
+^ESCTFL609743	Fluphenazine hydrochloride 0.5 mg and nortriptyline 10 mg oral tablet
+^ESCTFL696968	Fluphenazine + nortriptyline
+^ESCTMO918702	Motipress
+^ESCTMO919780	Motival
+^ESCTNO1021610	Nortriptyline 25mg tablets (DE Pharmaceuticals)
+^ESCTNO1021611	Nortriptyline 25mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTNO1022328	Nortriptyline 25mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTNO1036227	Nortriptyline 25mg tablets (Waymade Healthcare Plc)
+^ESCTNO1036228	Nortriptyline 25mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTNO1061535	Nortriptyline 10mg tablets (Waymade Healthcare Plc)
+^ESCTNO1061536	Nortriptyline 10mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTNO1121429	Nortriptyline 25mg tablets (Waymade Healthcare Plc) 25 tablet
+^ESCTNO271283	Nortriptyline
+^ESCTNO609686	Nortriptyline 10mg tablets
+^ESCTNO609688	Nortriptyline 10 mg oral tablet
+^ESCTNO609692	Nortriptyline 25mg tablets
+^ESCTNO609694	Nortriptyline 25 mg oral tablet
+^ESCTNO609738	Nortriptyline 30mg / Fluphenazine 1.5mg tablets
+^ESCTNO609741	Nortriptyline 10mg / Fluphenazine 500microgram tablets
+^ESCTNO639954	Nortriptyline hydrochloride 50 mg/1 each oral capsule
+^ESCTNO640769	Nortriptyline hydrochloride 75 mg/1 each oral capsule
+^ESCTNO641162	Nortriptyline hydrochloride 10 mg/1 each oral capsule
+^ESCTNO641216	Nortriptyline hydrochloride 25 mg/1 each oral capsule
+^ESCTNO641731	Nortriptyline hydrochloride 10mg/5mL liquid
+^ESCTNO682673	Nortriptyline hydrochloride
+^ESCTNO696967	Nortriptyline + Fluphenazine
+^ESCTNO696970	Nortriptyline +Fluphenazine
+^ESCTNO971546	Nortriptyline 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTNO971549	Nortriptyline 25mg tablets (Sigma Pharmaceuticals Plc) 25 tablet
+^ESCTNO989510	Nortriptyline 25mg tablets (Lexon (UK) Ltd)
+^ESCTNO989513	Nortriptyline 25mg tablets (Lexon (UK) Ltd) 100 tablet
+^ESCTPR271284	Product containing nortriptyline
+^ESCTPR609687	Product containing nortriptyline 10 mg/1 each oral tablet
+^ESCTPR609693	Product containing nortriptyline 25 mg/1 each oral tablet
+^ESCTPR609739	Product containing fluphenazine hydrochloride 1.5 mg and nortriptyline 30 mg/1 each oral tablet
+^ESCTPR609742	Product containing fluphenazine hydrochloride 0.5 milligram and nortriptyline 10 milligram/1 each oral tablet
+^ESCTPR639955	Product containing nortriptyline hydrochloride 50 mg/1 each oral capsule
+^ESCTPR640770	Product containing nortriptyline hydrochloride 75 mg/1 each oral capsule
+^ESCTPR641163	Product containing nortriptyline hydrochloride 10 mg/1 each oral capsule
+^ESCTPR641217	Product containing nortriptyline hydrochloride 25 mg/1 each oral capsule
+^ESCTPR682674	Product containing nortriptyline hydrochloride
+^ESCTPR696969	Product containing fluphenazine and nortriptyline
+AVCA3205	Aventyl  Capsules  10 mg
+AVCA9002BRIDL	Aventyl  Capsules  25 mg
+AVLI3206	Aventyl  Liquid  10mg/5 ml
+NOLI5214	Nortriptyline  Liquid  10mg/5 ml

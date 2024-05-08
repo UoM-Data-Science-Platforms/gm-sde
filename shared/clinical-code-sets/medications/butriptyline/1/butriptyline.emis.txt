@@ -1,0 +1,10 @@
+^ESCT1221498	Butriptyline
+^ESCT1221499	Product containing butriptyline
+^ESCT1221500	Butriptyline product
+^ESCT1353893	Butriptyline only product
+^ESCT1378569	Butriptyline-containing product
+^ESCTBU425999	Butriptyline
+BUTA4670	Butriptyline  Tablets  25 mg
+BUTA6888	Butriptyline  Tablets  50 mg
+EVTA3554	Evadyne  Tablets  25 mg
+EVTA3555	Evadyne  Tablets  50 mg
