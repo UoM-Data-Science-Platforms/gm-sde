@@ -1,0 +1,16 @@
+653..	Administration of Bacillus Calmette-Guerin vaccine
+x00S6	Tice Bacillus Calmette-Guerin injection (pdr for recon)+diluent
+x00Ru	Connaught strain Bacillus Calmette-Guerin injection (pdr for recon)+diluent
+x05Zo	Connaught strain Bacillus Calmette-Guerin 81mg injection (pdr for recon)
+x05GQ	Tice Bacillus Calmette-Guerin 12.5mg powder for reconstitution
+n42A.	BCG Danish strain 1331 vaccine pdr+solvent for suspension for injection
+ZV032	[V]Tuberculosis (BCG) vaccination
+n42..	BCG vaccine
+XaLK7	Booster tuberculosis (BCG) vaccination
+653..	Tuberculosis (BCG) vaccination
+n421.	BCG dried vaccine injection
+n422.	BCG isoniazid-resistant vaccine
+XaLK7	Booster BCG vaccination
+653..	BCG vaccination
+n423.	BCG percutaneous vaccine
+653..	BCG administration
