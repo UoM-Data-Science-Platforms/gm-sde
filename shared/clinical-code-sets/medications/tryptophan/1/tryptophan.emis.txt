@@ -1,0 +1,39 @@
+^ESCT1178180	Product containing only tryptophan 500 mg/1 each oral tablet
+^ESCT1207074	Tryptophan in oral dosage form
+^ESCT1207075	Product containing tryptophan in oral dosage form
+^ESCT1223579	Product containing precisely tryptophan 500 milligram/1 each conventional release oral tablet
+^ESCT1357093	Tryptophan only product
+^ESCT1360138	Tryptophan only product in oral dose form
+^ESCT1386581	Tryptophan-containing product in oral dose form
+^ESCTPR609757	Product containing tryptophan 500 mg/1 each oral tablet
+^ESCTTR1041221	Tryptophan 500mg capsules 84 capsule
+^ESCTTR1041456	Tryptophan 500mg capsules
+^ESCTTR609756	Tryptophan 500mg tablets
+^ESCTTR609758	Tryptophan 500 mg oral tablet
+^ESCTTR863640	Tryptophan 500mg tablets 84 tablet
+^ESCTTR963777	Tryptophan 50mg capsules 1 capsule
+^ESCTTR963778	Tryptophan 50mg capsules (Special Order)
+^ESCTTR963779	Tryptophan 50mg capsules (Special Order) 1 capsule
+^ESCTTR963792	Tryptophan 50mg capsules
+TRCA78286NEMIS	Tryptophan  Capsules  500 mg
+TRTA5484	Tryptophan  Tablets  500 mg
+^ESCT1389017	Optimax 500mg capsules (Special Order)
+^ESCT1389018	Optimax 500mg capsules (Special Order) 84 capsule
+^ESCT1434823	Optimax 500mg tablets (Esteve Pharmaceuticals Ltd)
+^ESCT1434824	Optimax 500mg tablets (Esteve Pharmaceuticals Ltd) 84 tablet
+^ESCTOP1041222	Optimax 500mg capsules (Intrapharm Laboratories Ltd)
+^ESCTOP1041224	Optimax 500mg capsules (Intrapharm Laboratories Ltd) 84 capsule
+^ESCTOP863641	Optimax 500mg tablets (Intrapharm Laboratories Ltd)
+^ESCTOP863642	Optimax 500mg tablets (Intrapharm Laboratories Ltd) 84 tablet
+OPCA78287NEMIS	Optimax  Capsules  500 mg
+OPTA24400EMIS	Optimax  Tablets  500 mg
+L-TA1581	L-Tryptophan  Tablets  500 mg
+OPPO4080	Optimax  Powder  
+OPTA4082	Optimax Wv  Tablets  500 mg
+PATA2151	Pacitron  Tablets  500 mg
+^ESCT1221199	Tryptophan
+^ESCT1221200	Product containing tryptophan
+^ESCTLT415885	L-Tryptophan
+^ESCTOP915337	Optimax
+^ESCTTR415884	Tryptophan
+^ESCTTR415886	Tryptophan product

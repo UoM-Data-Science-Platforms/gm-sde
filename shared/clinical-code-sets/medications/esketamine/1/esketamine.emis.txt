@@ -1,0 +1,13 @@
+^ESCT1305022	Esketamine 28mg/0.2ml nasal spray unit dose 1 unit dose
+^ESCT1305023	Esketamine 28mg/0.2ml nasal spray unit dose 2 unit dose
+^ESCT1305024	Esketamine 28mg/0.2ml nasal spray unit dose 3 unit dose
+^ESCT1305026	Spravato 28mg/0.2ml nasal spray unit dose (Janssen-Cilag Ltd)
+^ESCT1305029	Spravato 28mg/0.2ml nasal spray unit dose (Janssen-Cilag Ltd) 1 unit dose 1 x 0.2ml unit doses
+^ESCT1305030	Spravato 28mg/0.2ml nasal spray unit dose (Janssen-Cilag Ltd) 2 unit dose 2 x 0.2ml unit doses
+^ESCT1305031	Spravato 28mg/0.2ml nasal spray unit dose (Janssen-Cilag Ltd) 3 unit dose 3 x 0.2ml unit doses
+^ESCT1305175	Esketamine 28mg/0.2ml nasal spray unit dose
+^ESCT1391629	Esketamine-containing product in nasal dose form
+^ESCT1391630	Esketamine only product in nasal dose form
+ESNA136488NEMIS	Esketamine  Nasal spray  28 mg/0.2 ml unit dose
+SPNA136490NEMIS	Spravato  Nasal spray  28 mg/0.2 ml unit dose
+^ESCT1304510	Spravato

@@ -1,0 +1,8 @@
+da21.	*OPTIMAX 500mg tablets
+da22.	*OPTIMAX 1g/6g powder
+da23.	*OPTIMAX WV 500mg tablets
+da24.	*PACITRON 500mg tablets
+da2y.	*TRYPTOPHAN 500mg tablets
+da2z.	*TRYPTOPHAN 1g/6g powder
+da2..	Tryptophan product
+x02lx	Optimax
