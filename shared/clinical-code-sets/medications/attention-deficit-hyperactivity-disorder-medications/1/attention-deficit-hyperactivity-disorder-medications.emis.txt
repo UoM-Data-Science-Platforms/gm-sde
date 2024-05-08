@@ -216,3 +216,1506 @@ RITA23978EMIS	Ritalin  Tablets  10 mg
 TRTA13267NEMIS	Tranquilyn  Tablets  5 mg
 TRTA13268NEMIS	Tranquilyn  Tablets  10 mg
 TRTA13269NEMIS	Tranquilyn  Tablets  20 mg
+^ESCT1174100	Atomoxetine 36mg/5ml oral suspension 1 ml
+^ESCT1174101	Atomoxetine 36mg/5ml oral suspension (Special Order)
+^ESCT1174102	Atomoxetine 36mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1174177	Atomoxetine 36mg/5ml oral suspension
+^ESCT1174702	Atomoxetine 10mg/5ml oral solution 1 ml
+^ESCT1174703	Atomoxetine 10mg/5ml oral solution (Special Order)
+^ESCT1174704	Atomoxetine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCT1174706	Atomoxetine 10mg/5ml oral solution
+^ESCT1179421	Product containing only lisdexamfetamine 60 mg/1 each oral capsule
+^ESCT1179550	Methylphenidate 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCT1180481	Modafinil 100mg tablets (Mylan) 30 tablet 2 x 15 tablets
+^ESCT1180529	Xenidate XL 36mg tablets (Mylan) 30 tablet
+^ESCT1180763	Xenidate XL 27mg tablets (Mylan)
+^ESCT1180924	Modafinil 200mg tablets (Mylan) 30 tablet
+^ESCT1180931	Methylphenidate 5mg tablets (Mylan)
+^ESCT1180932	Methylphenidate 20mg tablets (Mylan) 30 tablet
+^ESCT1181902	Product containing only dexamphetamine sulfate 5 mg/1 each oral tablet
+^ESCT1182754	Product containing only methylphenidate hydrochloride 2.5 mg/1 each oral tablet
+^ESCT1183322	Product containing only dexamphetamine sulfate 10 mg/1 each oral tablet
+^ESCT1183328	Product containing only lisdexamfetamine 40 mg/1 each oral capsule
+^ESCT1184698	Atomoxetine 4mg/ml oral solution sugar free
+^ESCT1184788	Xenidate XL 27mg tablets (Mylan) 30 tablet
+^ESCT1184813	Xenidate XL 18mg tablets (Mylan) 30 tablet
+^ESCT1184983	Methylphenidate 10mg tablets (Mylan) 30 tablet
+^ESCT1186540	Modafinil 100mg tablets (Mylan)
+^ESCT1186813	Xenidate XL 18mg tablets (Mylan)
+^ESCT1187012	Modafinil 200mg tablets (Mylan)
+^ESCT1187110	Xenidate XL 54mg tablets (Mylan)
+^ESCT1187111	Xenidate XL 54mg tablets (Mylan) 30 tablet
+^ESCT1187112	Intuniv 2mg modified-release tablets (Shire Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCT1188290	Amfetamine and dexamfetamine
+^ESCT1188291	Product containing amfetamine and dexamfetamine
+^ESCT1188606	Product containing only lisdexamfetamine 20 mg/1 each oral capsule
+^ESCT1189679	Xenidate XL 36mg tablets (Mylan)
+^ESCT1189847	Atomoxetine 4mg/ml oral solution sugar free 300 ml
+^ESCT1190139	Methylphenidate 5mg tablets (Mylan) 30 tablet
+^ESCT1190140	Methylphenidate 10mg tablets (Mylan)
+^ESCT1190141	Methylphenidate 20mg tablets (Mylan)
+^ESCT1195779	Modafinil 100mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1196491	Modafinil 200mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1203189	Methylphenidate hydrochloride 18 mg prolonged-release oral tablet
+^ESCT1203190	Product containing precisely methylphenidate hydrochloride 18 milligram/1 each prolonged-release oral tablet
+^ESCT1203214	Methylphenidate hydrochloride 27 mg prolonged-release oral tablet
+^ESCT1203215	Product containing precisely methylphenidate hydrochloride 27 milligram/1 each prolonged-release oral tablet
+^ESCT1203266	Methylphenidate hydrochloride 54 mg prolonged-release oral tablet
+^ESCT1203267	Product containing precisely methylphenidate hydrochloride 54 milligram/1 each prolonged-release oral tablet
+^ESCT1203339	Methylphenidate hydrochloride 72mg prolonged-release oral tablet
+^ESCT1203360	Methylphenidate hydrochloride 36 mg prolonged-release oral tablet
+^ESCT1203361	Product containing precisely methylphenidate hydrochloride 36 milligram/1 each prolonged-release oral tablet
+^ESCT1203469	Methylphenidate hydrochloride 10mg prolonged-release oral tablet
+^ESCT1203500	Methylphenidate hydrochloride 20 mg prolonged-release oral tablet
+^ESCT1203501	Product containing precisely methylphenidate hydrochloride 20 milligram/1 each prolonged-release oral tablet
+^ESCT1203633	Methylphenidate hydrochloride 10 mg prolonged-release oral capsule
+^ESCT1203634	Product containing precisely methylphenidate hydrochloride 10 milligram/1 each prolonged-release oral capsule
+^ESCT1203646	Dextroamphetamine sulfate 15mg prolonged-release oral capsule
+^ESCT1203647	Dextroamphetamine sulphate 15mg m/r capsule
+^ESCT1203675	Methylphenidate hydrochloride 40 mg prolonged-release oral capsule
+^ESCT1203676	Product containing precisely methylphenidate hydrochloride 40 milligram/1 each prolonged-release oral capsule
+^ESCT1203695	Methylphenidate hydrochloride 20 mg prolonged-release oral capsule
+^ESCT1203696	Product containing precisely methylphenidate hydrochloride 20 milligram/1 each prolonged-release oral capsule
+^ESCT1203697	Methylphenidate hydrochloride 50 mg prolonged-release oral capsule
+^ESCT1203698	Product containing precisely methylphenidate hydrochloride 50 milligram/1 each prolonged-release oral capsule
+^ESCT1203720	Amphetamine/dextroamphetamine 15mg prolonged-release oral capsule
+^ESCT1203749	Amphetamine/dextroamphetamine 30mg prolonged-release oral capsule
+^ESCT1203770	Amphetamine/dextroamphetamine 10mg prolonged-release oral capsule
+^ESCT1203780	Amphetamine/dextroamphetamine 20mg prolonged-release oral capsule
+^ESCT1203803	Dextroamphetamine sulfate 10mg prolonged-release oral capsule
+^ESCT1203846	Dextroamphetamine sulfate 5mg prolonged-release oral capsule
+^ESCT1203852	Methylphenidate hydrochloride 30 mg prolonged-release oral capsule
+^ESCT1203853	Product containing precisely methylphenidate hydrochloride 30 milligram/1 each prolonged-release oral capsule
+^ESCT1203886	Amphetamine/dextroamphetamine 25mg prolonged-release oral capsule
+^ESCT1203892	Amphetamine/dextroamphetamine 5mg prolonged-release oral capsule
+^ESCT1205986	Dexmethylphenidate product
+^ESCT1205987	Product containing dexmethylphenidate
+^ESCT1206004	Dexmethylphenidate in oral dosage form
+^ESCT1206005	Product containing dexmethylphenidate in oral dosage form
+^ESCT1206246	Atomoxetine in oral dosage form
+^ESCT1206247	Product containing atomoxetine in oral dosage form
+^ESCT1206704	Dexamfetamine in oral dosage form
+^ESCT1206705	Product containing dexamfetamine in oral dosage form
+^ESCT1206706	Dextroamphetamine in oral dosage form
+^ESCT1207120	Lisdexamfetamine in oral dosage form
+^ESCT1207121	Product containing lisdexamfetamine in oral dosage form
+^ESCT1207445	Guanfacine in oral dosage form
+^ESCT1207446	Product containing guanfacine in oral dosage form
+^ESCT1213883	Modafinil 100mg tablets (Dawa Ltd)
+^ESCT1213884	Modafinil 100mg tablets (Dawa Ltd) 30 tablet
+^ESCT1213885	Modafinil 200mg tablets (Dawa Ltd)
+^ESCT1213887	Modafinil 200mg tablets (Dawa Ltd) 30 tablet
+^ESCT1215896	Dexmethylphenidate 10mg modified-release capsules
+^ESCT1215991	Methylphenidate 20mg modified-release tablets
+^ESCT1216371	Dexmethylphenidate
+^ESCT1217199	Methylphenidate
+^ESCT1217200	Methylphenidate product
+^ESCT1218606	Dexamfetamine
+^ESCT1218607	Dexamfetamine product
+^ESCT1218608	Dextroamphetamine product
+^ESCT1220908	Guanfacine
+^ESCT1220909	Guanfacine product
+^ESCT1221518	Modafinil
+^ESCT1221519	Modafinil product
+^ESCT1223615	Dexamfetamine 5 mg oral tablet
+^ESCT1223616	Dextroamphetamine 5 mg oral tablet
+^ESCT1223617	Product containing precisely dexamfetamine 5 milligram/1 each conventional release oral tablet
+^ESCT1229470	Dexamphetamine sulfate 10 mg oral tablet
+^ESCT1229471	Dexamfetamine 10 mg oral tablet
+^ESCT1229472	Product containing precisely dexamfetamine 10 milligram/1 each conventional release oral tablet
+^ESCT1229473	Dextroamphetamine 10 mg oral tablet
+^ESCT1230332	Atomoxetine
+^ESCT1230333	Atomoxetine product
+^ESCT1230814	Product containing precisely methylphenidate hydrochloride 2.5 milligram/1 each conventional release oral tablet
+^ESCT1230960	Amfetamine and dexamfetamine product
+^ESCT1230961	Amphetamine and dextroamphetamine product
+^ESCT1234388	Lisdexamfetamine
+^ESCT1234389	Lisdexamfetamine product
+^ESCT1234927	Product containing precisely lisdexamfetamine dimesylate 20 milligram/1 each conventional release oral capsule
+^ESCT1234928	Lisdexamfetamine dimesylate 20 mg oral capsule
+^ESCT1234936	Lisdexamfetamine dimesylate 40 mg oral capsule
+^ESCT1234937	Product containing precisely lisdexamfetamine dimesylate 40 milligram/1 each conventional release oral capsule
+^ESCT1234953	Product containing precisely lisdexamfetamine dimesylate 60 milligram/1 each conventional release oral capsule
+^ESCT1234954	Lisdexamfetamine dimesylate 60 mg oral capsule
+^ESCT1259198	Modafinil 100mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259199	Modafinil 100mg tablets (Torrent Pharma (UK) Ltd) 30 tablet
+^ESCT1262850	Atomoxetine 10mg capsules (Mylan)
+^ESCT1262851	Atomoxetine 10mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1262853	Atomoxetine 18mg capsules (Mylan)
+^ESCT1262854	Atomoxetine 18mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1262858	Atomoxetine 25mg capsules (Mylan)
+^ESCT1262861	Atomoxetine 25mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1262862	Atomoxetine 40mg capsules (Mylan)
+^ESCT1262863	Atomoxetine 40mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1262864	Atomoxetine 60mg capsules (Mylan)
+^ESCT1262865	Atomoxetine 60mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1262866	Atomoxetine 80mg capsules (Mylan)
+^ESCT1262867	Atomoxetine 80mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1262868	Atomoxetine 100mg capsules (Mylan)
+^ESCT1262869	Atomoxetine 100mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1263019	Guanfacine 2mg tablets 1 tablet
+^ESCT1263020	Guanfacine 2mg tablets (Special Order)
+^ESCT1263021	Guanfacine 2mg tablets (Special Order) 1 tablet
+^ESCT1263226	Guanfacine 2mg tablets
+^ESCT1264635	Atomoxetine 10mg capsules (Sandoz Ltd)
+^ESCT1264636	Atomoxetine 10mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1264638	Atomoxetine 10mg capsules (Sandoz Ltd) 7 capsule
+^ESCT1264640	Atomoxetine 18mg capsules (Sandoz Ltd)
+^ESCT1264642	Atomoxetine 18mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1264644	Atomoxetine 18mg capsules (Sandoz Ltd) 7 capsule
+^ESCT1264656	Atomoxetine 40mg capsules (Sandoz Ltd)
+^ESCT1264657	Atomoxetine 40mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1264659	Atomoxetine 40mg capsules (Sandoz Ltd) 7 capsule
+^ESCT1264661	Atomoxetine 25mg capsules (Sandoz Ltd)
+^ESCT1264663	Atomoxetine 25mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1264665	Atomoxetine 25mg capsules (Sandoz Ltd) 7 capsule
+^ESCT1264667	Atomoxetine 60mg capsules (Sandoz Ltd)
+^ESCT1264669	Atomoxetine 60mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1264671	Atomoxetine 80mg capsules (Sandoz Ltd)
+^ESCT1264673	Atomoxetine 80mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1264675	Atomoxetine 100mg capsules (Sandoz Ltd)
+^ESCT1264676	Atomoxetine 100mg capsules (Sandoz Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265587	Dexamfetamine 5mg tablets (DE Pharmaceuticals)
+^ESCT1265589	Dexamfetamine 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1265646	Atomoxetine 10mg capsules (Aspire Pharma Ltd)
+^ESCT1265647	Atomoxetine 10mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265648	Atomoxetine 18mg capsules (Aspire Pharma Ltd)
+^ESCT1265649	Atomoxetine 18mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265650	Atomoxetine 25mg capsules (Aspire Pharma Ltd)
+^ESCT1265651	Atomoxetine 25mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265652	Atomoxetine 40mg capsules (Aspire Pharma Ltd)
+^ESCT1265653	Atomoxetine 40mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265654	Atomoxetine 60mg capsules (Aspire Pharma Ltd)
+^ESCT1265655	Atomoxetine 60mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265656	Atomoxetine 80mg capsules (Aspire Pharma Ltd)
+^ESCT1265657	Atomoxetine 80mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265658	Atomoxetine 100mg capsules (Aspire Pharma Ltd)
+^ESCT1265659	Atomoxetine 100mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265724	Atomoxetine 10mg capsules (Zentiva)
+^ESCT1265725	Atomoxetine 10mg capsules (Zentiva) 7 capsule
+^ESCT1265726	Atomoxetine 10mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265727	Atomoxetine 18mg capsules (Zentiva)
+^ESCT1265728	Atomoxetine 18mg capsules (Zentiva) 7 capsule
+^ESCT1265729	Atomoxetine 18mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265730	Atomoxetine 25mg capsules (Zentiva)
+^ESCT1265731	Atomoxetine 25mg capsules (Zentiva) 7 capsule
+^ESCT1265732	Atomoxetine 25mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265733	Atomoxetine 40mg capsules (Zentiva)
+^ESCT1265734	Atomoxetine 40mg capsules (Zentiva) 7 capsule
+^ESCT1265735	Atomoxetine 40mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265736	Atomoxetine 60mg capsules (Zentiva)
+^ESCT1265737	Atomoxetine 60mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265738	Atomoxetine 80mg capsules (Zentiva)
+^ESCT1265739	Atomoxetine 80mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265740	Atomoxetine 100mg capsules (Zentiva)
+^ESCT1265741	Atomoxetine 100mg capsules (Zentiva) 28 capsule 4 x 7 capsules
+^ESCT1265913	Atomoxetine 80mg capsules (Accord Healthcare Ltd)
+^ESCT1265914	Atomoxetine 80mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265915	Atomoxetine 100mg capsules (Accord Healthcare Ltd)
+^ESCT1265916	Atomoxetine 100mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265917	Atomoxetine 60mg capsules (Accord Healthcare Ltd)
+^ESCT1265918	Atomoxetine 60mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265919	Atomoxetine 18mg capsules (Accord Healthcare Ltd)
+^ESCT1265920	Atomoxetine 18mg capsules (Accord Healthcare Ltd) 7 capsule
+^ESCT1265921	Atomoxetine 18mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265922	Atomoxetine 25mg capsules (Accord Healthcare Ltd)
+^ESCT1265923	Atomoxetine 25mg capsules (Accord Healthcare Ltd) 7 capsule
+^ESCT1265924	Atomoxetine 25mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265925	Atomoxetine 40mg capsules (Accord Healthcare Ltd)
+^ESCT1265926	Atomoxetine 40mg capsules (Accord Healthcare Ltd) 7 capsule
+^ESCT1265927	Atomoxetine 40mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1265928	Atomoxetine 10mg capsules (Accord Healthcare Ltd)
+^ESCT1265929	Atomoxetine 10mg capsules (Accord Healthcare Ltd) 7 capsule
+^ESCT1265930	Atomoxetine 10mg capsules (Accord Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266159	Atomoxetine 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266160	Atomoxetine 10mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266161	Atomoxetine 18mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266162	Atomoxetine 18mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266163	Atomoxetine 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266164	Atomoxetine 25mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266165	Atomoxetine 40mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266166	Atomoxetine 40mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266167	Atomoxetine 60mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266168	Atomoxetine 60mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266169	Atomoxetine 80mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266170	Atomoxetine 80mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266171	Atomoxetine 100mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266172	Atomoxetine 100mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCT1266182	Atomoxetine 10mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266183	Atomoxetine 10mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266184	Atomoxetine 18mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266185	Atomoxetine 18mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266186	Atomoxetine 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266187	Atomoxetine 25mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266188	Atomoxetine 40mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266189	Atomoxetine 40mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266190	Atomoxetine 60mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266191	Atomoxetine 60mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266192	Atomoxetine 80mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266193	Atomoxetine 80mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266194	Atomoxetine 100mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1266195	Atomoxetine 100mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266342	Atomoxetine 10mg capsules (A A H Pharmaceuticals Ltd) 7 capsule
+^ESCT1266344	Atomoxetine 18mg capsules (A A H Pharmaceuticals Ltd) 7 capsule
+^ESCT1266408	Atomoxetine 10mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266409	Atomoxetine 10mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266410	Atomoxetine 18mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266411	Atomoxetine 18mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266414	Atomoxetine 25mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266415	Atomoxetine 25mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266416	Atomoxetine 40mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266417	Atomoxetine 40mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266418	Atomoxetine 60mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266419	Atomoxetine 60mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266421	Atomoxetine 80mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266422	Atomoxetine 80mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266423	Atomoxetine 100mg capsules (Genus Pharmaceuticals Ltd)
+^ESCT1266424	Atomoxetine 100mg capsules (Genus Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCT1266730	Equasym XL 10mg capsules (CST Pharma Ltd)
+^ESCT1266732	Equasym XL 10mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1266733	Equasym XL 20mg capsules (CST Pharma Ltd)
+^ESCT1266735	Equasym XL 20mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1266736	Equasym XL 30mg capsules (CST Pharma Ltd)
+^ESCT1266737	Equasym XL 30mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1266759	Concerta XL 18mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1266761	Concerta XL 27mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1266762	Concerta XL 27mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1266767	Concerta XL 54mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1266768	Concerta XL 54mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1266820	Medikinet XL 10mg capsules (CST Pharma Ltd)
+^ESCT1266821	Medikinet XL 10mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1266822	Medikinet XL 20mg capsules (CST Pharma Ltd)
+^ESCT1266823	Medikinet XL 20mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1266824	Medikinet XL 30mg capsules (CST Pharma Ltd)
+^ESCT1266825	Medikinet XL 30mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1266826	Medikinet XL 40mg capsules (CST Pharma Ltd)
+^ESCT1266827	Medikinet XL 40mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1266951	Concerta XL 36mg tablets (CST Pharma Ltd)
+^ESCT1266953	Concerta XL 36mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1266954	Concerta XL 27mg tablets (CST Pharma Ltd)
+^ESCT1266956	Concerta XL 27mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1266958	Concerta XL 18mg tablets (CST Pharma Ltd)
+^ESCT1266959	Concerta XL 18mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1267104	Atomoxetine 10mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267105	Atomoxetine 10mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267106	Atomoxetine 18mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267107	Atomoxetine 18mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267108	Atomoxetine 25mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267109	Atomoxetine 25mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267113	Atomoxetine 40mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267120	Atomoxetine 40mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267125	Atomoxetine 60mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267126	Atomoxetine 60mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267132	Atomoxetine 80mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267134	Atomoxetine 80mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267144	Atomoxetine 100mg capsules (Macleods Pharma UK Ltd)
+^ESCT1267147	Atomoxetine 100mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1267155	Concerta XL 54mg tablets (CST Pharma Ltd)
+^ESCT1267156	Concerta XL 54mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1267166	Medikinet XL 60mg capsules (CST Pharma Ltd)
+^ESCT1267168	Medikinet XL 60mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1267169	Medikinet XL 5mg capsules (CST Pharma Ltd)
+^ESCT1267171	Medikinet XL 5mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1267173	Medikinet XL 50mg capsules (CST Pharma Ltd)
+^ESCT1267174	Medikinet XL 50mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1267223	Ritalin 10mg tablets (CST Pharma Ltd)
+^ESCT1267224	Ritalin 10mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1267628	Atomoxetine 25mg capsules (A A H Pharmaceuticals Ltd) 7 capsule
+^ESCT1267629	Atomoxetine 40mg capsules (A A H Pharmaceuticals Ltd) 7 capsule
+^ESCT1270813	Atomoxetine 25mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270815	Atomoxetine 25mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1270819	Atomoxetine 60mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270821	Atomoxetine 60mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1270827	Atomoxetine 80mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270828	Atomoxetine 80mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1270832	Atomoxetine 100mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270833	Atomoxetine 100mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1270837	Atomoxetine 10mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270844	Atomoxetine 10mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1270847	Atomoxetine 18mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270848	Atomoxetine 18mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1270849	Atomoxetine 40mg capsules (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1270850	Atomoxetine 40mg capsules (Glenmark Pharmaceuticals Europe Ltd) 28 capsule 4 x 7 capsules
+^ESCT1270902	Medikinet XL 5mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1270903	Medikinet XL 5mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCT1270904	Medikinet XL 10mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1270905	Medikinet XL 10mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCT1270906	Medikinet XL 20mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1270907	Medikinet XL 20mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCT1270908	Medikinet XL 30mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1270909	Medikinet XL 30mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCT1270910	Medikinet XL 40mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1270911	Medikinet XL 40mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCT1271203	Atomoxetine 10mg capsules (DE Pharmaceuticals)
+^ESCT1271204	Atomoxetine 10mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1271206	Atomoxetine 18mg capsules (DE Pharmaceuticals)
+^ESCT1271208	Atomoxetine 18mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1271209	Atomoxetine 25mg capsules (DE Pharmaceuticals)
+^ESCT1271210	Atomoxetine 25mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1271211	Atomoxetine 40mg capsules (DE Pharmaceuticals)
+^ESCT1271212	Atomoxetine 40mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1271214	Atomoxetine 60mg capsules (DE Pharmaceuticals)
+^ESCT1271216	Atomoxetine 60mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1271218	Atomoxetine 80mg capsules (DE Pharmaceuticals)
+^ESCT1271219	Atomoxetine 80mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1271220	Atomoxetine 100mg capsules (DE Pharmaceuticals)
+^ESCT1271221	Atomoxetine 100mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1271366	Modafinil 100mg/5ml oral suspension (Special Order)
+^ESCT1271367	Modafinil 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1271515	Modafinil 100mg/5ml oral suspension (Special Order) 100 ml
+^ESCT1274173	Concerta XL 18mg tablets (Pilsco Ltd)
+^ESCT1274174	Concerta XL 18mg tablets (Pilsco Ltd) 30 tablet
+^ESCT1274175	Concerta XL 27mg tablets (Pilsco Ltd)
+^ESCT1274176	Concerta XL 27mg tablets (Pilsco Ltd) 30 tablet
+^ESCT1274177	Concerta XL 36mg tablets (Pilsco Ltd)
+^ESCT1274178	Concerta XL 36mg tablets (Pilsco Ltd) 30 tablet
+^ESCT1274179	Concerta XL 54mg tablets (Pilsco Ltd)
+^ESCT1274180	Concerta XL 54mg tablets (Pilsco Ltd) 30 tablet
+^ESCT1274260	Equasym XL 10mg capsules (Pilsco Ltd)
+^ESCT1274261	Equasym XL 10mg capsules (Pilsco Ltd) 30 capsule
+^ESCT1274262	Equasym XL 20mg capsules (Pilsco Ltd)
+^ESCT1274263	Equasym XL 20mg capsules (Pilsco Ltd) 30 capsule
+^ESCT1274264	Equasym XL 30mg capsules (Pilsco Ltd)
+^ESCT1274265	Equasym XL 30mg capsules (Pilsco Ltd) 30 capsule
+^ESCT1275051	Medikinet 10mg tablets (Pilsco Ltd)
+^ESCT1275052	Medikinet 10mg tablets (Pilsco Ltd) 30 tablet
+^ESCT1275053	Medikinet 20mg tablets (Pilsco Ltd)
+^ESCT1275054	Medikinet 20mg tablets (Pilsco Ltd) 30 tablet
+^ESCT1275055	Medikinet XL 5mg capsules (Pilsco Ltd)
+^ESCT1275056	Medikinet XL 5mg capsules (Pilsco Ltd) 30 capsule
+^ESCT1275057	Medikinet XL 10mg capsules (Pilsco Ltd)
+^ESCT1275058	Medikinet XL 10mg capsules (Pilsco Ltd) 30 capsule
+^ESCT1275059	Medikinet XL 20mg capsules (Pilsco Ltd)
+^ESCT1275060	Medikinet XL 20mg capsules (Pilsco Ltd) 30 capsule
+^ESCT1275061	Medikinet XL 30mg capsules (Pilsco Ltd)
+^ESCT1275062	Medikinet XL 30mg capsules (Pilsco Ltd) 30 capsule
+^ESCT1275063	Medikinet XL 40mg capsules (Pilsco Ltd)
+^ESCT1275064	Medikinet XL 40mg capsules (Pilsco Ltd) 30 capsule
+^ESCT1276759	Atomoxetine 10mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1276760	Atomoxetine 10mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1276761	Atomoxetine 18mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1276762	Atomoxetine 18mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1276763	Atomoxetine 25mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1276764	Atomoxetine 25mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1278952	Modafinil 100mg tablets (Zentiva)
+^ESCT1278953	Modafinil 100mg tablets (Zentiva) 30 tablet 3 x 10 tablets
+^ESCT1278954	Modafinil 200mg tablets (Zentiva)
+^ESCT1278955	Modafinil 200mg tablets (Zentiva) 30 tablet 3 x 10 tablets
+^ESCT1279351	Atomoxetine 40mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1279352	Atomoxetine 40mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1279353	Atomoxetine 60mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1279354	Atomoxetine 60mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1279370	Atomoxetine 80mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1279371	Atomoxetine 80mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1279372	Atomoxetine 100mg capsules (Neuraxpharm Arzneimittal GmbH)
+^ESCT1279373	Atomoxetine 100mg capsules (Neuraxpharm Arzneimittal GmbH) 28 capsule 4 x 7 capsules
+^ESCT1279585	Ritalin XL 10mg capsules (Sandoz Ltd)
+^ESCT1279586	Ritalin XL 10mg capsules (Sandoz Ltd) 30 capsule
+^ESCT1279587	Ritalin XL 20mg capsules (Sandoz Ltd)
+^ESCT1279588	Ritalin XL 20mg capsules (Sandoz Ltd) 30 capsule
+^ESCT1279589	Ritalin XL 30mg capsules (Sandoz Ltd)
+^ESCT1279590	Ritalin XL 30mg capsules (Sandoz Ltd) 30 capsule
+^ESCT1279591	Ritalin XL 60mg capsules (Sandoz Ltd)
+^ESCT1279592	Ritalin XL 60mg capsules (Sandoz Ltd) 30 capsule
+^ESCT1279595	Ritalin XL 40mg capsules (Sandoz Ltd)
+^ESCT1279596	Ritalin XL 40mg capsules (Sandoz Ltd) 30 capsule
+^ESCT1299642	Medikinet XL 50mg capsules (Pilsco Ltd)
+^ESCT1299643	Medikinet XL 50mg capsules (Pilsco Ltd) 30 capsule
+^ESCT1300617	Concerta XL 18mg tablets (DE Pharmaceuticals)
+^ESCT1300618	Concerta XL 18mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1300619	Concerta XL 27mg tablets (DE Pharmaceuticals)
+^ESCT1300620	Concerta XL 27mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1300621	Concerta XL 36mg tablets (DE Pharmaceuticals)
+^ESCT1300622	Concerta XL 36mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1300623	Concerta XL 54mg tablets (DE Pharmaceuticals)
+^ESCT1300624	Concerta XL 54mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1300831	Medikinet 5mg tablets (DE Pharmaceuticals)
+^ESCT1300832	Medikinet 5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1300833	Medikinet 20mg tablets (DE Pharmaceuticals)
+^ESCT1300834	Medikinet 20mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1300835	Medikinet XL 5mg capsules (DE Pharmaceuticals)
+^ESCT1300836	Medikinet XL 5mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1300837	Medikinet XL 10mg capsules (DE Pharmaceuticals)
+^ESCT1300838	Medikinet XL 10mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1300839	Medikinet XL 20mg capsules (DE Pharmaceuticals)
+^ESCT1300840	Medikinet XL 20mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1300841	Medikinet XL 30mg capsules (DE Pharmaceuticals)
+^ESCT1300842	Medikinet XL 30mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1300843	Medikinet XL 40mg capsules (DE Pharmaceuticals)
+^ESCT1300844	Medikinet XL 40mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1300845	Medikinet XL 50mg capsules (DE Pharmaceuticals)
+^ESCT1300846	Medikinet XL 50mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1300934	Medikinet XL 60mg capsules (DE Pharmaceuticals)
+^ESCT1300935	Medikinet XL 60mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1306682	Atomoxetine 10mg capsules (Neuraxpharm Arzneimittal GmbH) 7 capsule
+^ESCT1306683	Atomoxetine 18mg capsules (Neuraxpharm Arzneimittal GmbH) 7 capsule
+^ESCT1306684	Atomoxetine 25mg capsules (Neuraxpharm Arzneimittal GmbH) 7 capsule
+^ESCT1306685	Atomoxetine 40mg capsules (Neuraxpharm Arzneimittal GmbH) 7 capsule
+^ESCT1350832	Methylphenidate-containing product in cutaneous dose form
+^ESCT1351587	Modafinil-containing product in oral dose form
+^ESCT1353435	Amfetamine and dexamfetamine only product
+^ESCT1353436	Amphetamine and dextroamphetamine only product
+^ESCT1353604	Atomoxetine only product
+^ESCT1354514	Dexamfetamine only product
+^ESCT1354515	Dextroamphetamine only product
+^ESCT1354530	Dexmethylphenidate only product
+^ESCT1355252	Guanfacine only product
+^ESCT1355888	Methylphenidate only product
+^ESCT1355957	Modafinil only product
+^ESCT1357561	Atomoxetine only product in oral dose form
+^ESCT1358197	Dexamfetamine only product in oral dose form
+^ESCT1358198	Dextroamphetamine only product in oral dose form
+^ESCT1358203	Dexmethylphenidate only product in oral dose form
+^ESCT1358731	Guanfacine only product in oral dose form
+^ESCT1359202	Methylphenidate only product in cutaneous dose form
+^ESCT1359203	Methylphenidate only product in oral dose form
+^ESCT1359268	Modafinil only product in oral dose form
+^ESCT1362659	Dexamfetamine sulfate 5 mg oral tablet
+^ESCT1362660	Dextroamphetamine sulfate 5 mg oral tablet
+^ESCT1362689	Guanfacine (as guanfacine hydrochloride) 1 mg oral tablet
+^ESCT1364129	Guanfacine (as guanfacine hydrochloride) 1 mg prolonged-release oral tablet
+^ESCT1364130	Guanfacine (as guanfacine hydrochloride) 2 mg prolonged-release oral tablet
+^ESCT1364131	Guanfacine (as guanfacine hydrochloride) 3 mg prolonged-release oral tablet
+^ESCT1364132	Guanfacine (as guanfacine hydrochloride) 4 mg prolonged-release oral tablet
+^ESCT1364213	Dexmethylphenidate hydrochloride 20 mg prolonged-release oral capsule
+^ESCT1364214	Dexmethylphenidate hydrochloride 5 mg prolonged-release oral capsule
+^ESCT1364497	Methylphenidate hydrochloride 10 mg chewable tablet
+^ESCT1364498	Methylphenidate hydrochloride 2.5 mg chewable tablet
+^ESCT1364499	Methylphenidate hydrochloride 5 mg chewable tablet
+^ESCT1364742	Lisdexamfetamine only product
+^ESCT1364743	Lisdexamfetamine only product in oral dose form
+^ESCT1367191	Dexamfetamine 5mg tablets
+^ESCT1367379	Guanfacine 1mg tablets
+^ESCT1374807	Atomoxetine 100mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374808	Atomoxetine 100mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1374809	Atomoxetine 10mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374810	Atomoxetine 10mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1374812	Atomoxetine 18mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374813	Atomoxetine 18mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1374814	Atomoxetine 25mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374815	Atomoxetine 25mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1374816	Atomoxetine 40mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374817	Atomoxetine 40mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1374818	Atomoxetine 60mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374819	Atomoxetine 60mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1374820	Atomoxetine 80mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374821	Atomoxetine 80mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1375451	Dexamfetamine 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375452	Dexamfetamine 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1382084	Methylphenidate-containing product in oral dose form
+^ESCT1382584	Methylphenidate hydrochloride 1 mg/mL oral solution
+^ESCT1382585	Methylphenidate hydrochloride 2 mg/mL oral solution
+^ESCT1386080	Dexmethylphenidate-containing product
+^ESCT1386081	Dexmethylphenidate-containing product in oral dose form
+^ESCT1386182	Atomoxetine-containing product in oral dose form
+^ESCT1386409	Dexamfetamine-containing product in oral dose form
+^ESCT1386410	Dextroamphetamine-containing product in oral dose form
+^ESCT1386605	Lisdexamfetamine-containing product in oral dose form
+^ESCT1386748	Guanfacine-containing product in oral dose form
+^ESCT1389280	Delmosart 18mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1389281	Delmosart 18mg modified-release tablets (Accord Healthcare Ltd) 30 tablet
+^ESCT1389282	Delmosart 27mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1389283	Delmosart 27mg modified-release tablets (Accord Healthcare Ltd) 30 tablet
+^ESCT1389284	Delmosart 36mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1389285	Delmosart 36mg modified-release tablets (Accord Healthcare Ltd) 30 tablet
+^ESCT1389286	Delmosart 54mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1389287	Delmosart 54mg modified-release tablets (Accord Healthcare Ltd) 30 tablet
+^ESCT1391522	Pitolisant-containing product
+^ESCT1391523	Pitolisant only product
+^ESCT1391524	Pitolisant-containing product in oral dose form
+^ESCT1391525	Pitolisant only product in oral dose form
+^ESCT1402243	Methylphenidate 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402244	Methylphenidate 10mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1402245	Methylphenidate 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402246	Methylphenidate 20mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1402247	Methylphenidate 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402248	Methylphenidate 5mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1402309	Modafinil 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402310	Modafinil 100mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1402311	Modafinil 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402312	Modafinil 200mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1411470	Modafinil 100mg tablets (Accord Healthcare Ltd)
+^ESCT1411471	Modafinil 100mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1411587	Modafinil 200mg tablets (Accord Healthcare Ltd)
+^ESCT1411588	Modafinil 200mg tablets (Accord Healthcare Ltd) 30 tablet
+^ESCT1412395	Wakix 18mg tablets (Bioprojet UK Ltd)
+^ESCT1412396	Wakix 18mg tablets (Bioprojet UK Ltd) 30 tablet
+^ESCT1412397	Wakix 4.5mg tablets (Bioprojet UK Ltd)
+^ESCT1412398	Wakix 4.5mg tablets (Bioprojet UK Ltd) 30 tablet
+^ESCT1422746	Modafinil 100mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422747	Modafinil 100mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1422748	Modafinil 200mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422749	Modafinil 200mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1422925	Atomoxetine 10mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422926	Atomoxetine 10mg capsules (Zentiva Pharma UK Ltd) 7 capsule
+^ESCT1422927	Atomoxetine 10mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1422928	Atomoxetine 18mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422929	Atomoxetine 18mg capsules (Zentiva Pharma UK Ltd) 7 capsule
+^ESCT1422930	Atomoxetine 18mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1422931	Atomoxetine 25mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422932	Atomoxetine 25mg capsules (Zentiva Pharma UK Ltd) 7 capsule
+^ESCT1422933	Atomoxetine 25mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1422934	Atomoxetine 40mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422935	Atomoxetine 40mg capsules (Zentiva Pharma UK Ltd) 7 capsule
+^ESCT1422936	Atomoxetine 40mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1422937	Atomoxetine 60mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422938	Atomoxetine 60mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1422939	Atomoxetine 80mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422940	Atomoxetine 80mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1422941	Atomoxetine 100mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422942	Atomoxetine 100mg capsules (Zentiva Pharma UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423007	Atomoxetine 10mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423008	Atomoxetine 10mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423009	Atomoxetine 18mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423010	Atomoxetine 18mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423011	Atomoxetine 25mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423012	Atomoxetine 25mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423013	Atomoxetine 40mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423014	Atomoxetine 40mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423015	Atomoxetine 60mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423016	Atomoxetine 60mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423017	Atomoxetine 80mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423018	Atomoxetine 80mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423019	Atomoxetine 100mg capsules (Neuraxpharm UK Ltd)
+^ESCT1423020	Atomoxetine 100mg capsules (Neuraxpharm UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1423071	Atomoxetine 10mg capsules (Neuraxpharm UK Ltd) 7 capsule
+^ESCT1423072	Atomoxetine 18mg capsules (Neuraxpharm UK Ltd) 7 capsule
+^ESCT1423073	Atomoxetine 25mg capsules (Neuraxpharm UK Ltd) 7 capsule
+^ESCT1423074	Atomoxetine 40mg capsules (Neuraxpharm UK Ltd) 7 capsule
+^ESCT1423224	ATOMAID
+^ESCT1424460	Atomoxetine 100mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424461	Atomoxetine 100mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424462	Atomoxetine 80mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424463	Atomoxetine 80mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424464	Atomoxetine 60mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424465	Atomoxetine 60mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424466	Atomoxetine 40mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424467	Atomoxetine 40mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424468	Atomoxetine 25mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424469	Atomoxetine 25mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424470	Atomoxetine 18mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424471	Atomoxetine 18mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424472	Atomoxetine 10mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424473	Atomoxetine 10mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424474	ATOMAID 100mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424475	ATOMAID 100mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424476	ATOMAID 80mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424477	ATOMAID 80mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424478	ATOMAID 60mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424479	ATOMAID 60mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424480	ATOMAID 40mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424481	ATOMAID 40mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424482	ATOMAID 25mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424483	ATOMAID 25mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424484	ATOMAID 18mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424485	ATOMAID 18mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424486	ATOMAID 10mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1424487	ATOMAID 10mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1424776	Guanfacine 1mg tablets
+^ESCT1426960	Equasym XL 10mg capsules (Takeda UK Ltd) 30 capsule 3 x 10 capsules
+^ESCT1426962	Equasym XL 20mg capsules (Takeda UK Ltd) 30 capsule 3 x 10 capsules
+^ESCT1426964	Equasym XL 30mg capsules (Takeda UK Ltd) 30 capsule 3 x 10 capsules
+^ESCT1427316	Methylphenidate 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427317	Methylphenidate 5mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1427318	Methylphenidate 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427319	Methylphenidate 10mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1427320	Methylphenidate 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427321	Methylphenidate 20mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1427391	Elvanse 70mg capsules (Takeda UK Ltd)
+^ESCT1427392	Elvanse 70mg capsules (Takeda UK Ltd) 28 capsule
+^ESCT1427393	Elvanse 50mg capsules (Takeda UK Ltd)
+^ESCT1427394	Elvanse 50mg capsules (Takeda UK Ltd) 28 capsule
+^ESCT1427405	Elvanse 30mg capsules (Takeda UK Ltd)
+^ESCT1427406	Elvanse 30mg capsules (Takeda UK Ltd) 28 capsule
+^ESCT1427549	Elvanse Adult 30mg capsules (Takeda UK Ltd)
+^ESCT1427550	Elvanse Adult 30mg capsules (Takeda UK Ltd) 28 capsule
+^ESCT1427551	Elvanse Adult 50mg capsules (Takeda UK Ltd)
+^ESCT1427552	Elvanse Adult 50mg capsules (Takeda UK Ltd) 28 capsule
+^ESCT1427553	Elvanse Adult 70mg capsules (Takeda UK Ltd)
+^ESCT1427554	Elvanse Adult 70mg capsules (Takeda UK Ltd) 28 capsule
+^ESCT1427557	Intuniv 1mg modified-release tablets (Takeda UK Ltd)
+^ESCT1427558	Intuniv 1mg modified-release tablets (Takeda UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1427559	Intuniv 2mg modified-release tablets (Takeda UK Ltd)
+^ESCT1427560	Intuniv 2mg modified-release tablets (Takeda UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1427561	Intuniv 3mg modified-release tablets (Takeda UK Ltd)
+^ESCT1427562	Intuniv 3mg modified-release tablets (Takeda UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1427563	Intuniv 4mg modified-release tablets (Takeda UK Ltd)
+^ESCT1427564	Intuniv 4mg modified-release tablets (Takeda UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1427601	Elvanse 20mg capsules (Takeda UK Ltd)
+^ESCT1427602	Elvanse 20mg capsules (Takeda UK Ltd) 28 capsule
+^ESCT1427603	Elvanse 40mg capsules (Takeda UK Ltd)
+^ESCT1427604	Elvanse 40mg capsules (Takeda UK Ltd) 28 capsule
+^ESCT1427605	Elvanse 60mg capsules (Takeda UK Ltd)
+^ESCT1427606	Elvanse 60mg capsules (Takeda UK Ltd) 28 capsule
+^ESCT1429161	Lisdexamfetamine 50mg capsules 30 capsule
+^ESCT1429162	Elvanse 50mg capsules (CST Pharma Ltd)
+^ESCT1429163	Elvanse 50mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1429164	Lisdexamfetamine 70mg capsules 30 capsule
+^ESCT1429165	Elvanse 70mg capsules (CST Pharma Ltd)
+^ESCT1429166	Elvanse 70mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1429873	Elvanse 60mg capsules (CST Pharma Ltd)
+^ESCT1429874	Lisdexamfetamine 60mg capsules 30 capsule
+^ESCT1429875	Elvanse 60mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1432475	Elvanse 70mg capsules (Pilsco Ltd)
+^ESCT1432476	Elvanse 70mg capsules (Pilsco Ltd) 30 capsule
+^ESCT1434611	Atomoxetine 10mg capsules (DE Pharmaceuticals) 7 capsule
+^ESCT1434612	Atomoxetine 18mg capsules (DE Pharmaceuticals) 7 capsule
+^ESCT1434613	Atomoxetine 25mg capsules (DE Pharmaceuticals) 7 capsule
+^ESCT1434614	Atomoxetine 40mg capsules (DE Pharmaceuticals) 7 capsule
+^ESCT1434932	Dexamfetamine 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCT1434933	Dexamfetamine 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCT1436535	Medikinet 10mg tablets (DE Pharmaceuticals)
+^ESCT1436536	Medikinet 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1438384	Modafinil 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438385	Modafinil 100mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1438545	Xenidate XL 18mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438546	Xenidate XL 18mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1438547	Xenidate XL 36mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438548	Xenidate XL 36mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1438558	Xenidate XL 54mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438559	Xenidate XL 54mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1438579	Xenidate XL 27mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438580	Xenidate XL 27mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1438731	Modafinil 200mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438732	Modafinil 200mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1438751	Methylphenidate 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438752	Methylphenidate 5mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1438753	Methylphenidate 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438754	Methylphenidate 10mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1438755	Methylphenidate 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438756	Methylphenidate 20mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1439092	Atomoxetine 10mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439093	Atomoxetine 10mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439094	Atomoxetine 18mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439095	Atomoxetine 18mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439096	Atomoxetine 25mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439097	Atomoxetine 25mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439098	Atomoxetine 40mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439099	Atomoxetine 40mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439100	Atomoxetine 60mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439101	Atomoxetine 60mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439102	Atomoxetine 80mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439103	Atomoxetine 80mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439104	Atomoxetine 100mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1439105	Atomoxetine 100mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCTAD985686	Adderall 10mg tablets (Imported (United States))
+^ESCTAD985687	Adderall 10mg tablets (Imported (United States)) 100 tablet
+^ESCTAD985689	Adderall XR 10mg capsules (Imported (United States))
+^ESCTAD985690	Adderall XR 10mg capsules (Imported (United States)) 100 capsule
+^ESCTAD985797	Adderall XR 5mg capsules (Imported (United States))
+^ESCTAD985798	Adderall XR 15mg capsules (Imported (United States))
+^ESCTAD985799	Adderall XR 20mg capsules (Imported (United States))
+^ESCTAD985800	Adderall XR 25mg capsules (Imported (United States))
+^ESCTAD985801	Adderall XR 30mg capsules (Imported (United States))
+^ESCTAD985802	Adderall XR 5mg capsules (Imported (United States)) 100 capsule
+^ESCTAD985803	Adderall XR 15mg capsules (Imported (United States)) 100 capsule
+^ESCTAD985804	Adderall XR 20mg capsules (Imported (United States)) 100 capsule
+^ESCTAD985805	Adderall XR 25mg capsules (Imported (United States)) 100 capsule
+^ESCTAD985806	Adderall XR 30mg capsules (Imported (United States)) 100 capsule
+^ESCTAM1125986	Amfexa 5mg tablets (Flynn Pharma Ltd)
+^ESCTAM1125987	Amfexa 5mg tablets (Flynn Pharma Ltd) 30 tablet
+^ESCTAM1152873	Amfexa 10mg tablets (Flynn Pharma Ltd)
+^ESCTAM1152874	Amfexa 10mg tablets (Flynn Pharma Ltd) 30 tablet
+^ESCTAM1152878	Amfexa 20mg tablets (Flynn Pharma Ltd)
+^ESCTAM1152879	Amfexa 20mg tablets (Flynn Pharma Ltd) 30 tablet
+^ESCTAM677412	Amphetamine/dextroamphetamine 10mg m/r capsule
+^ESCTAM677413	Amphetamine/dextroamphetamine 5mg m/r capsule
+^ESCTAM677414	Amphetamine/dextroamphetamine 15mg m/r capsule
+^ESCTAM677415	Amphetamine/dextroamphetamine 20mg m/r capsule
+^ESCTAM677416	Amphetamine/dextroamphetamine 25mg m/r capsule
+^ESCTAM677417	Amphetamine/dextroamphetamine 30mg m/r capsule
+^ESCTAM680701	Amfetamine + Dexamfetamine
+^ESCTAM680702	Amphetamine+dextroamphetamine
+^ESCTAM680703	Amphetamine/dextroamphetamine 10mg tablet
+^ESCTAM680704	Amphetamine/dextroamphetamine 15mg tablet
+^ESCTAM680705	Amphetamine/dextroamphetamine 20mg tablet
+^ESCTAM680706	Amphetamine/dextroamphetamine 7.5mg tablet
+^ESCTAM680707	Amphetamine/dextroamphetamine 30mg tablet
+^ESCTAM680708	Amphetamine/dextroamphetamine 5mg tablet
+^ESCTAM680709	Amphetamine/dextroamphetamine 12.5mg tablet
+^ESCTAM951654	Amfexa
+^ESCTAM985685	Amfetamine 5mg / Dexamfetamine 5mg tablets 100 tablet
+^ESCTAM985688	Amfetamine 5mg / Dexamfetamine 5mg modified-release capsules 100 capsule
+^ESCTAM985792	Amfetamine 2.5mg / Dexamfetamine 2.5mg modified-release capsules 100 capsule
+^ESCTAM985793	Amfetamine 7.5mg / Dexamfetamine 7.5mg modified-release capsules 100 capsule
+^ESCTAM985794	Amfetamine 10mg / Dexamfetamine 10mg modified-release capsules 100 capsule
+^ESCTAM985795	Amfetamine 12.5mg / Dexamfetamine 12.5mg modified-release capsules 100 capsule
+^ESCTAM985796	Amfetamine 15mg / Dexamfetamine 15mg modified-release capsules 100 capsule
+^ESCTAM985848	Amfetamine 10mg / Dexamfetamine 10mg modified-release capsules
+^ESCTAM985849	Amfetamine 12.5mg / Dexamfetamine 12.5mg modified-release capsules
+^ESCTAM985850	Amfetamine 15mg / Dexamfetamine 15mg modified-release capsules
+^ESCTAM985851	Amfetamine 2.5mg / Dexamfetamine 2.5mg modified-release capsules
+^ESCTAM985852	Amfetamine 5mg / Dexamfetamine 5mg modified-release capsules
+^ESCTAM985853	Amfetamine 5mg / Dexamfetamine 5mg tablets
+^ESCTAM985854	Amfetamine 7.5mg / Dexamfetamine 7.5mg modified-release capsules
+^ESCTAT1030283	Atomoxetine 5mg/5ml oral solution 1 ml
+^ESCTAT1030284	Atomoxetine 5mg/5ml oral solution (Special Order)
+^ESCTAT1030285	Atomoxetine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAT1030371	Atomoxetine 5mg/5ml oral solution
+^ESCTAT1040767	Atomoxetine 100mg capsules 28 capsule
+^ESCTAT1058608	Atomoxetine 25mg/5ml oral solution 1 ml
+^ESCTAT1058609	Atomoxetine 25mg/5ml oral solution (Special Order)
+^ESCTAT1058610	Atomoxetine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTAT1058695	Atomoxetine 25mg/5ml oral solution
+^ESCTAT1094436	Atomoxetine 25mg/5ml oral suspension 1 ml
+^ESCTAT1094438	Atomoxetine 25mg/5ml oral suspension (Special Order)
+^ESCTAT1094439	Atomoxetine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT1095085	Atomoxetine 25mg/5ml oral suspension
+^ESCTAT1095963	Atomoxetine 40mg/5ml oral suspension 1 ml
+^ESCTAT1095964	Atomoxetine 40mg/5ml oral suspension (Special Order)
+^ESCTAT1095965	Atomoxetine 40mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT1096884	Atomoxetine 40mg/5ml oral suspension
+^ESCTAT1120443	Atomoxetine 4mg/1ml oral solution sugar free 300 ml
+^ESCTAT1120711	Atomoxetine 4mg/1ml oral solution sugar free
+^ESCTAT1128339	Atomoxetine 20mg/5ml oral suspension 1 ml
+^ESCTAT1128340	Atomoxetine 20mg/5ml oral suspension (Special Order)
+^ESCTAT1128341	Atomoxetine 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT1128342	Atomoxetine 5mg/5ml oral suspension 1 ml
+^ESCTAT1128343	Atomoxetine 5mg/5ml oral suspension (Special Order)
+^ESCTAT1128344	Atomoxetine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT1128362	Atomoxetine 20mg/5ml oral suspension
+^ESCTAT1128363	Atomoxetine 5mg/5ml oral suspension
+^ESCTAT1129122	Atomoxetine 60mg/5ml oral solution 1 ml
+^ESCTAT1129123	Atomoxetine 60mg/5ml oral solution (Special Order)
+^ESCTAT1129124	Atomoxetine 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTAT1129598	Atomoxetine 60mg/5ml oral solution
+^ESCTAT1162628	Atomoxetine 30mg/5ml oral suspension 1 ml
+^ESCTAT1162629	Atomoxetine 30mg/5ml oral suspension (Special Order)
+^ESCTAT1162630	Atomoxetine 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT1162754	Atomoxetine 30mg/5ml oral suspension
+^ESCTAT673863	Atomoxetine
+^ESCTAT899028	Atomoxetine 10mg capsules 7 capsule
+^ESCTAT899029	Atomoxetine 10mg capsules 28 capsule
+^ESCTAT899078	Atomoxetine 18mg capsules 7 capsule
+^ESCTAT899079	Atomoxetine 18mg capsules 28 capsule
+^ESCTAT899083	Atomoxetine 25mg capsules 7 capsule
+^ESCTAT899084	Atomoxetine 25mg capsules 28 capsule
+^ESCTAT899088	Atomoxetine 40mg capsules 7 capsule
+^ESCTAT899089	Atomoxetine 40mg capsules 28 capsule
+^ESCTAT899093	Atomoxetine 60mg capsules 28 capsule
+^ESCTAT966586	Atomoxetine 80mg capsules 28 capsule
+^ESCTCO1022711	Concerta XL 36mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTCO1109270	Concerta XL 54mg tablets (Janssen-Cilag Ltd) 30 tablet
+^ESCTCO856666	Concerta XL 18mg tablets (Janssen-Cilag Ltd) 30 tablet
+^ESCTCO856667	Concerta XL 36mg tablets (Janssen-Cilag Ltd) 30 tablet
+^ESCTCO897019	Concerta 27mg modified-release tablets (Imported (Belgium))
+^ESCTCO897020	Concerta 27mg modified-release tablets (Imported (Belgium)) 100 tablet
+^ESCTCO897022	Concerta 54mg modified-release tablets (Imported (Belgium))
+^ESCTCO897023	Concerta 54mg modified-release tablets (Imported (Belgium)) 100 tablet
+^ESCTCO914522	Concerta
+^ESCTCO914524	Concerta XL
+^ESCTCO939942	Concerta XL 27mg tablets (Janssen-Cilag Ltd) 30 tablet
+^ESCTCO981496	Concerta XL 18mg tablets (Waymade Healthcare Plc)
+^ESCTCO981497	Concerta XL 18mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCO981498	Concerta XL 36mg tablets (Waymade Healthcare Plc)
+^ESCTCO981500	Concerta XL 36mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCO992715	Concerta XL 18mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO992716	Concerta XL 18mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTCO992717	Concerta XL 36mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO992719	Concerta XL 36mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTDE1005463	Dexamfetamine 5mg tablets (Teva UK Ltd)
+^ESCTDE1005464	Dexamfetamine 5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDE1006950	Dexamfetamine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1006951	Dexamfetamine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTDE1006960	Dexamfetamine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDE1006961	Dexamfetamine 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDE1007609	Dexamfetamine 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDE1007610	Dexamfetamine 5mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTDE1028924	Dexamfetamine 5mg/5ml oral solution 500 ml
+^ESCTDE1028925	Dexamfetamine 5mg/5ml oral solution (Special Order) 500 ml
+^ESCTDE1028926	Dexamfetamine 5mg/5ml oral suspension 100 ml
+^ESCTDE1028927	Dexamfetamine 5mg/5ml oral suspension (Special Order) 100 ml
+^ESCTDE1068405	Dexamfetamine 5mg/5ml oral solution sugar free 500 ml
+^ESCTDE1068406	Dexamfetamine 5mg/5ml oral solution sugar free (Martindale Pharmaceuticals Ltd)
+^ESCTDE1068407	Dexamfetamine 5mg/5ml oral solution sugar free (Martindale Pharmaceuticals Ltd) 500 ml
+^ESCTDE1068408	Dexamfetamine 5mg/5ml oral solution sugar free
+^ESCTDE1069569	Dexamfetamine 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1069570	Dexamfetamine 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 500 ml
+^ESCTDE1118995	Dexamfetamine 5mg/5ml oral solution sugar free 150 ml
+^ESCTDE1118996	Dexamfetamine 5mg/5ml oral solution sugar free (Essential Pharmaceuticals Ltd)
+^ESCTDE1118997	Dexamfetamine 5mg/5ml oral solution sugar free (Essential Pharmaceuticals Ltd) 150 ml
+^ESCTDE1119959	Dexamfetamine 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTDE1124596	Dexamfetamine 5mg tablets 30 tablet
+^ESCTDE1152872	Dexamfetamine 10mg tablets 30 tablet
+^ESCTDE1152877	Dexamfetamine 20mg tablets 30 tablet
+^ESCTDE1152928	Dexamfetamine 10mg tablets
+^ESCTDE1152929	Dexamfetamine 20mg tablets
+^ESCTDE1156722	Delmosart 18mg modified-release tablets (Actavis UK Ltd)
+^ESCTDE1156726	Delmosart 18mg modified-release tablets (Actavis UK Ltd) 30 tablet
+^ESCTDE1156731	Delmosart 27mg modified-release tablets (Actavis UK Ltd)
+^ESCTDE1156732	Delmosart 27mg modified-release tablets (Actavis UK Ltd) 30 tablet
+^ESCTDE1156733	Delmosart 36mg modified-release tablets (Actavis UK Ltd)
+^ESCTDE1156734	Delmosart 36mg modified-release tablets (Actavis UK Ltd) 30 tablet
+^ESCTDE1156735	Delmosart 54mg modified-release tablets (Actavis UK Ltd)
+^ESCTDE1156736	Delmosart 54mg modified-release tablets (Actavis UK Ltd) 30 tablet
+^ESCTDE332392	Dexamfetamine
+^ESCTDE332393	Dextroamphetamine
+^ESCTDE609835	Dexamfetamine 5mg tablets
+^ESCTDE609837	Dexamphetamine sulfate 5 mg oral tablet
+^ESCTDE641776	Dexamfetamine sulphate 5mg m/r capsule
+^ESCTDE641777	Dextroamphetamine sulfate 5mg m/r capsule
+^ESCTDE641778	Dextroamphetamine sulphate 5mg m/r capsule
+^ESCTDE641779	Dexamfetamine sulphate 10mg m/r capsule
+^ESCTDE641780	Dextroamphetamine sulfate 10mg m/r capsule
+^ESCTDE641781	Dextroamphetamine sulphate 10mg m/r capsule
+^ESCTDE641782	Dexamfetamine sulphate 15mg m/r capsule
+^ESCTDE641783	Dextroamphetamine sulfate 15mg m/r capsule
+^ESCTDE641784	Dextroamphetamine sulphate 15mg m/r capsule
+^ESCTDE643945	Dexmethylphenidate
+^ESCTDE646094	Dextroamphetamine m/r capsule
+^ESCTDE646095	Dexamphetamine sulfate 10 mg oral tablet
+^ESCTDE692814	Dexmethylphenidate 20mg m/r capsule
+^ESCTDE692815	Dexmethylphenidate hydrochloride 20mg m/r capsule
+^ESCTDE694231	Dexmethylphenidate 10mg modified-release capsules
+^ESCTDE694232	Dexmethylphenidate 10mg m/r capsule
+^ESCTDE694233	Dexmethylphenidate hydrochloride 10mg m/r capsule
+^ESCTDE694403	Dexmethylphenidate 5mg m/r capsule
+^ESCTDE694404	Dexmethylphenidate hydrochloride 5mg m/r capsule
+^ESCTDE859518	Dexamfetamine 5mg tablets 28 tablet
+^ESCTDE859531	Dexedrine 5mg tablets (Auden McKenzie (Pharma Division) Ltd) 28 tablet 2 x 14 tablets
+^ESCTDE899562	Dexamfetamine 15mg modified-release capsules 100 capsule
+^ESCTDE899570	Dexedrine 15mg Spansules (Imported (United States))
+^ESCTDE899573	Dexedrine 15mg Spansules (Imported (United States)) 100 capsule
+^ESCTDE899709	Dexamfetamine 15mg modified-release capsules
+^ESCTDE914776	Dexedrine
+^ESCTDE914778	Dexedrine Spansules
+^ESCTDE941826	Dexamfetamine 7.5mg/5ml oral suspension 1 ml
+^ESCTDE941828	Dexamfetamine 7.5mg/5ml oral suspension (Special Order)
+^ESCTDE941829	Dexamfetamine 7.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE941832	Dexamfetamine 7.5mg/5ml oral solution 1 ml
+^ESCTDE941834	Dexamfetamine 7.5mg/5ml oral solution (Special Order)
+^ESCTDE941836	Dexamfetamine 7.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE941839	Dexamfetamine 100mg/5ml oral suspension 1 ml
+^ESCTDE941844	Dexamfetamine 100mg/5ml oral suspension (Special Order)
+^ESCTDE941848	Dexamfetamine 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE941852	Dexamfetamine 100mg/5ml oral solution 1 ml
+^ESCTDE941853	Dexamfetamine 100mg/5ml oral solution (Special Order)
+^ESCTDE941854	Dexamfetamine 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE941855	Dexamfetamine 10mg/5ml oral suspension 1 ml
+^ESCTDE941856	Dexamfetamine 10mg/5ml oral suspension (Special Order)
+^ESCTDE941857	Dexamfetamine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE941858	Dexamfetamine 10mg/5ml oral solution 1 ml
+^ESCTDE941859	Dexamfetamine 10mg/5ml oral solution (Special Order)
+^ESCTDE941860	Dexamfetamine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE941861	Dexamfetamine 125mg/5ml oral suspension 1 ml
+^ESCTDE941863	Dexamfetamine 125mg/5ml oral suspension (Special Order)
+^ESCTDE941865	Dexamfetamine 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE941867	Dexamfetamine 125mg/5ml oral solution 1 ml
+^ESCTDE941869	Dexamfetamine 125mg/5ml oral solution (Special Order)
+^ESCTDE941872	Dexamfetamine 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE941874	Dexamfetamine 2.5mg/5ml oral suspension 1 ml
+^ESCTDE941876	Dexamfetamine 2.5mg/5ml oral suspension (Special Order)
+^ESCTDE941878	Dexamfetamine 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE941880	Dexamfetamine 2.5mg/5ml oral solution 1 ml
+^ESCTDE941883	Dexamfetamine 2.5mg/5ml oral solution (Special Order)
+^ESCTDE941884	Dexamfetamine 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE941889	Dexamfetamine 3mg/5ml oral suspension 1 ml
+^ESCTDE941892	Dexamfetamine 3mg/5ml oral suspension (Special Order)
+^ESCTDE941893	Dexamfetamine 3mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE941896	Dexamfetamine 3mg/5ml oral solution 1 ml
+^ESCTDE941898	Dexamfetamine 3mg/5ml oral solution (Special Order)
+^ESCTDE941899	Dexamfetamine 3mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE941903	Dexamfetamine 45mg/5ml oral suspension 1 ml
+^ESCTDE941904	Dexamfetamine 45mg/5ml oral suspension (Special Order)
+^ESCTDE941905	Dexamfetamine 45mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE941907	Dexamfetamine 45mg/5ml oral solution 1 ml
+^ESCTDE941909	Dexamfetamine 45mg/5ml oral solution (Special Order)
+^ESCTDE941910	Dexamfetamine 45mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE942378	Dexamfetamine 100mg/5ml oral solution
+^ESCTDE942380	Dexamfetamine 100mg/5ml oral suspension
+^ESCTDE942382	Dexamfetamine 10mg/5ml oral solution
+^ESCTDE942384	Dexamfetamine 10mg/5ml oral suspension
+^ESCTDE942386	Dexamfetamine 125mg/5ml oral solution
+^ESCTDE942387	Dexamfetamine 125mg/5ml oral suspension
+^ESCTDE942388	Dexamfetamine 2.5mg/5ml oral solution
+^ESCTDE942390	Dexamfetamine 2.5mg/5ml oral suspension
+^ESCTDE942391	Dexamfetamine 3mg/5ml oral solution
+^ESCTDE942392	Dexamfetamine 3mg/5ml oral suspension
+^ESCTDE942393	Dexamfetamine 45mg/5ml oral solution
+^ESCTDE942395	Dexamfetamine 45mg/5ml oral suspension
+^ESCTDE942397	Dexamfetamine 7.5mg/5ml oral solution
+^ESCTDE942399	Dexamfetamine 7.5mg/5ml oral suspension
+^ESCTDE943016	Dexamfetamine 5mg/5ml oral solution 1 ml
+^ESCTDE943018	Dexamfetamine 5mg/5ml oral solution (Special Order)
+^ESCTDE943020	Dexamfetamine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE943021	Dexamfetamine 5mg/5ml oral suspension 1 ml
+^ESCTDE943022	Dexamfetamine 5mg/5ml oral suspension (Special Order)
+^ESCTDE943023	Dexamfetamine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE943078	Dexamfetamine 5mg/5ml oral suspension
+^ESCTDE956657	Delmosart
+^ESCTDE959789	Dexmethylphenidate 10mg modified-release capsules 100 capsule
+^ESCTDE961915	Dexamfetamine powder 1 gram
+^ESCTDE961916	Dexamfetamine powder (Special Order)
+^ESCTDE961917	Dexamfetamine powder (Special Order) 1 gram
+^ESCTDE961965	Dexamfetamine powder
+^ESCTDE962511	Dexamfetamine 10mg modified-release capsules 100 capsule
+^ESCTDE962512	Dexedrine 10mg Spansules (Imported (United States))
+^ESCTDE962513	Dexedrine 10mg Spansules (Imported (United States)) 100 capsule
+^ESCTDE962514	Dexamfetamine 5mg modified-release capsules 100 capsule
+^ESCTDE962515	Dexedrine 5mg Spansules (Imported (United States))
+^ESCTDE962516	Dexedrine 5mg Spansules (Imported (United States)) 100 capsule
+^ESCTDE962629	Dexamfetamine 10mg modified-release capsules
+^ESCTDE962630	Dexamfetamine 5mg modified-release capsules
+^ESCTDE977378	Dexamfetamine 20mg/5ml oral solution 1 ml
+^ESCTDE977379	Dexamfetamine 20mg/5ml oral solution (Special Order)
+^ESCTDE977380	Dexamfetamine 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE977506	Dexamfetamine 20mg/5ml oral solution
+^ESCTDE986004	Dexamfetamine 10mg modified-release capsules 1 capsule
+^ESCTDE986005	Dexamfetamine 10mg modified-release capsules (Special Order)
+^ESCTDE986006	Dexamfetamine 10mg modified-release capsules (Special Order) 1 capsule
+^ESCTDE986007	Dexamfetamine 15mg modified-release capsules 1 capsule
+^ESCTDE986008	Dexamfetamine 15mg modified-release capsules (Special Order)
+^ESCTDE986009	Dexamfetamine 15mg modified-release capsules (Special Order) 1 capsule
+^ESCTDE986010	Dexamfetamine 5mg modified-release capsules 1 capsule
+^ESCTDE986011	Dexamfetamine 5mg modified-release capsules (Special Order)
+^ESCTDE986012	Dexamfetamine 5mg modified-release capsules (Special Order) 1 capsule
+^ESCTDE986013	Dexmethylphenidate 10mg modified-release capsules 1 capsule
+^ESCTDE986014	Dexmethylphenidate 10mg modified-release capsules (Special Order)
+^ESCTDE986015	Dexmethylphenidate 10mg modified-release capsules (Special Order) 1 capsule
+^ESCTEL1043122	Elvanse 70mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTEL1043123	Elvanse 70mg capsules (Shire Pharmaceuticals Ltd) 28 capsule
+^ESCTEL1043125	Elvanse 50mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTEL1043126	Elvanse 50mg capsules (Shire Pharmaceuticals Ltd) 28 capsule
+^ESCTEL1045919	Elvanse 30mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTEL1045920	Elvanse 30mg capsules (Shire Pharmaceuticals Ltd) 28 capsule
+^ESCTEL1116794	Elvanse Adult 30mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTEL1116795	Elvanse Adult 30mg capsules (Shire Pharmaceuticals Ltd) 28 capsule
+^ESCTEL1116798	Elvanse Adult 50mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTEL1116800	Elvanse Adult 50mg capsules (Shire Pharmaceuticals Ltd) 28 capsule
+^ESCTEL1116802	Elvanse Adult 70mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTEL1116804	Elvanse Adult 70mg capsules (Shire Pharmaceuticals Ltd) 28 capsule
+^ESCTEL1140531	Elvanse 20mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTEL1140532	Elvanse 20mg capsules (Shire Pharmaceuticals Ltd) 28 capsule
+^ESCTEL1140540	Elvanse 40mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTEL1140541	Elvanse 40mg capsules (Shire Pharmaceuticals Ltd) 28 capsule
+^ESCTEL1140544	Elvanse 60mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTEL1140546	Elvanse 60mg capsules (Shire Pharmaceuticals Ltd) 28 capsule
+^ESCTEL942189	Elvanse
+^ESCTEQ1008505	Equasym XL 10mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTEQ1008506	Equasym XL 10mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTEQ1008540	Equasym XL 20mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTEQ1008542	Equasym XL 20mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTEQ1008547	Equasym XL 30mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTEQ1008549	Equasym XL 30mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTEQ1011930	Equasym XL 10mg capsules (DE Pharmaceuticals)
+^ESCTEQ1011931	Equasym XL 10mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCTEQ1011932	Equasym XL 20mg capsules (DE Pharmaceuticals)
+^ESCTEQ1011933	Equasym XL 30mg capsules (DE Pharmaceuticals)
+^ESCTEQ1011934	Equasym XL 20mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCTEQ1011945	Equasym XL 30mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCTEQ1030137	Equasym XL 10mg capsules (Waymade Healthcare Plc)
+^ESCTEQ1030138	Equasym XL 10mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTEQ1030139	Equasym XL 20mg capsules (Waymade Healthcare Plc)
+^ESCTEQ1030140	Equasym XL 20mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTEQ1030141	Equasym XL 30mg capsules (Waymade Healthcare Plc)
+^ESCTEQ1030142	Equasym XL 30mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTEQ855657	Equasym 5mg tablets (Shire Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTEQ855658	Equasym 10mg tablets (Shire Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTEQ855662	Equasym 20mg tablets (Shire Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTEQ912636	Equasym XL 10mg capsules (Shire Pharmaceuticals Ltd) 30 capsule 3 x 10 capsules
+^ESCTEQ912640	Equasym XL 20mg capsules (Shire Pharmaceuticals Ltd) 30 capsule 3 x 10 capsules
+^ESCTEQ912646	Equasym XL 30mg capsules (Shire Pharmaceuticals Ltd) 30 capsule 3 x 10 capsules
+^ESCTEQ915119	Equasym
+^ESCTEQ915121	Equasym XL
+^ESCTFO959790	Focalin XR 10mg capsules (Imported (United States))
+^ESCTFO959791	Focalin XR 10mg capsules (Imported (United States)) 100 capsule
+^ESCTGU1128989	Guanfacine 1mg modified-release tablets 28 tablet
+^ESCTGU1128992	Guanfacine 2mg modified-release tablets 28 tablet
+^ESCTGU1128995	Guanfacine 3mg modified-release tablets 28 tablet
+^ESCTGU1128998	Guanfacine 4mg modified-release tablets 28 tablet
+^ESCTGU1129112	Guanfacine 1mg modified-release tablets
+^ESCTGU1129113	Guanfacine 2mg modified-release tablets
+^ESCTGU1129114	Guanfacine 3mg modified-release tablets
+^ESCTGU1129115	Guanfacine 4mg modified-release tablets
+^ESCTGU1146147	Guanfacine 1mg tablets 1 tablet
+^ESCTGU1146148	Guanfacine 1mg tablets (Special Order)
+^ESCTGU1146149	Guanfacine 1mg tablets (Special Order) 1 tablet
+^ESCTGU415525	Guanfacine
+^ESCTGU682609	Guanfacine hydrochloride
+^ESCTGU983131	Guanfacine 1mg tablets 100 tablet
+^ESCTIN1128990	Intuniv 1mg modified-release tablets (Shire Pharmaceuticals Ltd)
+^ESCTIN1128991	Intuniv 1mg modified-release tablets (Shire Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTIN1128993	Intuniv 2mg modified-release tablets (Shire Pharmaceuticals Ltd)
+^ESCTIN1128994	Intuniv 2mg modified-release tablets (Shire Pharmaceuticals Ltd) 28 tablet 4 x7 tablets
+^ESCTIN1128996	Intuniv 3mg modified-release tablets (Shire Pharmaceuticals Ltd)
+^ESCTIN1128997	Intuniv 3mg modified-release tablets (Shire Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTIN1128999	Intuniv 4mg modified-release tablets (Shire Pharmaceuticals Ltd)
+^ESCTIN1129000	Intuniv 4mg modified-release tablets (Shire Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTIN952152	Intuniv
+^ESCTLI1006516	Lisdexamfetamine 20mg capsules 100 capsule
+^ESCTLI1009910	Lisdexamfetamine 30mg capsules 100 capsule
+^ESCTLI1009913	Lisdexamfetamine 40mg capsules 100 capsule
+^ESCTLI1009916	Lisdexamfetamine 50mg capsules 100 capsule
+^ESCTLI1009919	Lisdexamfetamine 60mg capsules 100 capsule
+^ESCTLI1009922	Lisdexamfetamine 70mg capsules 100 capsule
+^ESCTLI1043066	Lisdexamfetamine 30mg capsules 28 capsule
+^ESCTLI1043121	Lisdexamfetamine 70mg capsules 28 capsule
+^ESCTLI1043124	Lisdexamfetamine 50mg capsules 28 capsule
+^ESCTLI1140524	Lisdexamfetamine 20mg capsules 28 capsule
+^ESCTLI1140537	Lisdexamfetamine 40mg capsules 28 capsule
+^ESCTLI1140543	Lisdexamfetamine 60mg capsules 28 capsule
+^ESCTLI705608	Lisdexamfetamine
+^ESCTLI715986	Lisdexamfetamine 20mg capsules
+^ESCTLI715987	Lisdexamfetamine 20 mg/1 each oral capsule
+^ESCTLI716523	Lisdexamfetamine 40mg capsules
+^ESCTLI716524	Lisdexamfetamine 40 mg/1 each oral capsule
+^ESCTLI717211	Lisdexamfetamine 60mg capsules
+^ESCTLI717212	Lisdexamfetamine 60 mg/1 each oral capsule
+^ESCTMA1093665	Matoride XL 36mg tablets (Sandoz Ltd)
+^ESCTMA1093666	Matoride XL 36mg tablets (Sandoz Ltd) 30 tablet
+^ESCTMA1093672	Matoride XL 54mg tablets (Sandoz Ltd)
+^ESCTMA1093673	Matoride XL 54mg tablets (Sandoz Ltd) 30 tablet
+^ESCTMA1100410	Matoride XL 18mg tablets (Sandoz Ltd)
+^ESCTMA1100411	Matoride XL 18mg tablets (Sandoz Ltd) 30 tablet
+^ESCTMA947507	Matoride XL
+^ESCTME1007363	Methylphenidate 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME1007364	Methylphenidate 5mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTME1007365	Methylphenidate 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME1007366	Methylphenidate 10mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTME1007367	Methylphenidate 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME1007368	Methylphenidate 20mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTME1013319	Methylphenidate 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME1013320	Methylphenidate 20mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTME1013682	Medikinet XL 10mg capsules (Flynn Pharma Ltd) 30 capsule 3 x 10 capsules
+^ESCTME1013683	Medikinet XL 20mg capsules (Flynn Pharma Ltd) 30 capsule 3 x 10 capsules
+^ESCTME1013684	Medikinet XL 30mg capsules (Flynn Pharma Ltd) 30 capsule 3 x 10 capsules
+^ESCTME1013685	Methylphenidate 40mg modified-release capsules 30 capsule
+^ESCTME1013686	Medikinet XL 40mg capsules (Flynn Pharma Ltd) 30 capsule 3 x 10 capsules
+^ESCTME1019492	Methylphenidate 5mg modified-release capsules 30 capsule
+^ESCTME1019494	Medikinet XL 5mg capsules (Flynn Pharma Ltd) 30 capsule 3 x 10 capsules
+^ESCTME1041599	Methylphenidate 5mg tablets (Waymade Healthcare Plc)
+^ESCTME1041600	Methylphenidate 5mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTME1041601	Methylphenidate 10mg tablets (Waymade Healthcare Plc)
+^ESCTME1041602	Methylphenidate 10mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTME1041603	Methylphenidate 20mg tablets (Waymade Healthcare Plc)
+^ESCTME1041604	Methylphenidate 20mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTME1047262	Methylphenidate 5mg tablets (Actavis UK Ltd)
+^ESCTME1047263	Methylphenidate 5mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTME1047269	Methylphenidate 20mg tablets (Actavis UK Ltd)
+^ESCTME1047270	Methylphenidate 20mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTME1047271	Methylphenidate 10mg tablets (Actavis UK Ltd)
+^ESCTME1047272	Methylphenidate 10mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTME1055445	Medikinet XL 10mg capsules (Waymade Healthcare Plc)
+^ESCTME1055446	Medikinet XL 10mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTME1055447	Medikinet XL 20mg capsules (Waymade Healthcare Plc)
+^ESCTME1055448	Medikinet XL 20mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTME1055449	Medikinet XL 40mg capsules (Waymade Healthcare Plc)
+^ESCTME1055450	Medikinet XL 40mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTME1065813	Methylphenidate 10mg tablets (DE Pharmaceuticals)
+^ESCTME1065814	Methylphenidate 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTME1065815	Methylphenidate 20mg tablets (DE Pharmaceuticals)
+^ESCTME1065816	Methylphenidate 20mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTME1065817	Methylphenidate 5mg tablets (DE Pharmaceuticals)
+^ESCTME1065818	Methylphenidate 5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTME1066882	Medikinet XL 30mg capsules (Waymade Healthcare Plc)
+^ESCTME1066883	Medikinet XL 30mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTME1066913	Methylphenidate 50mg modified-release capsules 30 capsule
+^ESCTME1066915	Medikinet XL 50mg capsules (Flynn Pharma Ltd) 30 capsule 3 x 10 capsules
+^ESCTME1066916	Methylphenidate 60mg modified-release capsules 30 capsule
+^ESCTME1066918	Medikinet XL 60mg capsules (Flynn Pharma Ltd) 30 capsule 3 x 10 capsules
+^ESCTME1093670	Methylphenidate 54mg modified-release tablets 30 tablet
+^ESCTME1099254	Methylphenidate 5mg/5ml oral suspension 1 ml
+^ESCTME1099255	Methylphenidate 5mg/5ml oral suspension 150 ml
+^ESCTME1099256	Methylphenidate 5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTME1099257	Methylphenidate 5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTME1099258	Methylphenidate 5mg/5ml oral suspension (Drug Tariff Special Order) 150 ml
+^ESCTME1100468	Methylphenidate 5mg/5ml oral suspension
+^ESCTME1153016	Methylphenidate 5mg tablets (Mylan Ltd)
+^ESCTME1153019	Methylphenidate 5mg tablets (Mylan Ltd) 30 tablet
+^ESCTME1153023	Methylphenidate 10mg tablets (Mylan Ltd)
+^ESCTME1153024	Methylphenidate 10mg tablets (Mylan Ltd) 30 tablet
+^ESCTME1153028	Methylphenidate 20mg tablets (Mylan Ltd)
+^ESCTME1153029	Methylphenidate 20mg tablets (Mylan Ltd) 30 tablet
+^ESCTME279433	Methylphenidate
+^ESCTME646090	Methylphenidate in oral dosage form
+^ESCTME675219	Methylphenidate 20mg modified-release capsules
+^ESCTME675220	Methylphenidate hydrochloride 20mg m/r capsule
+^ESCTME675405	Methylphenidate 18mg modified-release tablets
+^ESCTME675406	Methylphenidate hydrochloride 18mg m/r tablet
+^ESCTME675407	Methylphenidate 36mg modified-release tablets
+^ESCTME675408	Methylphenidate hydrochloride 36mg m/r tablet
+^ESCTME677884	Methylphenidate 10mg modified-release capsules
+^ESCTME677885	Methylphenidate hydrochloride 10mg m/r capsule
+^ESCTME677886	Methylphenidate hydrochloride 10mg m/r tablet
+^ESCTME677887	Methylphenidate 20mg modified-release tablets
+^ESCTME677888	Methylphenidate hydrochloride 20mg m/r tablet
+^ESCTME677889	Methylphenidate 27mg modified-release tablets
+^ESCTME677890	Methylphenidate hydrochloride 27mg m/r tablet
+^ESCTME677891	Methylphenidate 54mg modified-release tablets
+^ESCTME677892	Methylphenidate hydrochloride 54mg m/r tablet
+^ESCTME677893	Methylphenidate 30mg modified-release capsules
+^ESCTME677894	Methylphenidate hydrochloride 30mg m/r capsule
+^ESCTME677895	Methylphenidate 40mg modified-release capsules
+^ESCTME677896	Methylphenidate hydrochloride 40mg m/r capsule
+^ESCTME677898	Methylphenidate hydrochloride 2.5 mg oral tablet
+^ESCTME677900	Methylphenidate hydrochloride 5mg/5mL oral solution
+^ESCTME677901	Methylphenidate hydrochloride 10mg/5mL oral solution
+^ESCTME682647	Methylphenidate hydrochloride
+^ESCTME686228	Methylphenidate hydrochloride 72mg m/r tablet
+^ESCTME695434	Methylphenidate in topical dosage form
+^ESCTME695940	Methylphenidate 82.5mg transdermal patch
+^ESCTME696393	Methylphenidate 41.3mg transdermal patch
+^ESCTME697308	Methylphenidate 55mg transdermal patch
+^ESCTME698759	Methylphenidate 27.5mg transdermal patch
+^ESCTME708422	Methylphenidate 2.5mg chewable tablet
+^ESCTME708893	Methylphenidate 10mg chewable tablet
+^ESCTME710728	Methylphenidate 5mg chewable tablet
+^ESCTME723779	Methylphenidate 50mg modified-release capsules
+^ESCTME723780	Methylphenidate hydrochloride 50mg m/r capsule
+^ESCTME836566	Methylphenidate 20mg tablets 30 tablet
+^ESCTME838259	Methylphenidate 10mg tablets 30 tablet
+^ESCTME847398	Methylphenidate 18mg modified-release tablets 30 tablet
+^ESCTME847627	Methylphenidate 36mg modified-release tablets 30 tablet
+^ESCTME848572	Methylphenidate 5mg tablets 30 tablet
+^ESCTME897018	Methylphenidate 27mg modified-release tablets 100 tablet
+^ESCTME897021	Methylphenidate 54mg modified-release tablets 100 tablet
+^ESCTME898850	Methylphenidate 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME898851	Methylphenidate 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTME898852	Methylphenidate 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME898854	Methylphenidate 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTME898857	Methylphenidate 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME898858	Methylphenidate 20mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTME900838	Methylphenidate 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME900840	Methylphenidate 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 2 x 15 tablets
+^ESCTME901695	Methylphenidate 10mg tablets (Teva UK Ltd)
+^ESCTME901697	Methylphenidate 10mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTME907538	Methylphenidate 20mg modified-release tablets 100 tablet
+^ESCTME912634	Methylphenidate 10mg modified-release capsules 30 capsule
+^ESCTME912637	Methylphenidate 20mg modified-release capsules 30 capsule
+^ESCTME912644	Methylphenidate 30mg modified-release capsules 30 capsule
+^ESCTME918883	Medikinet XL
+^ESCTME919755	Medikinet
+^ESCTME930260	Methylphenidate 10mg tablets (Waymade Healthcare Plc)
+^ESCTME930269	Methylphenidate 10mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTME930275	Methylphenidate 20mg tablets (Waymade Healthcare Plc)
+^ESCTME930277	Methylphenidate 20mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTME930279	Methylphenidate 5mg tablets (Waymade Healthcare Plc)
+^ESCTME930281	Methylphenidate 5mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTME937956	Medikinet 5mg tablets (Flynn Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTME937958	Medikinet 10mg tablets (Flynn Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTME937960	Medikinet 20mg tablets (Flynn Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTME937962	Methylphenidate 20mg modified-release capsules 28 capsule
+^ESCTME937963	Medikinet XL 20mg capsules (Flynn Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTME937964	Methylphenidate 10mg modified-release capsules 28 capsule
+^ESCTME937966	Medikinet XL 10mg capsules (Flynn Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTME937967	Methylphenidate 30mg modified-release capsules 28 capsule
+^ESCTME937969	Medikinet XL 30mg capsules (Flynn Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTME937970	Methylphenidate 40mg modified-release capsules 28 capsule
+^ESCTME937972	Medikinet XL 40mg capsules (Flynn Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTME939940	Methylphenidate 27mg modified-release tablets 30 tablet
+^ESCTME940225	Methylphenidate 20mg modified-release tablets 1 tablet
+^ESCTME940226	Methylphenidate 20mg modified-release tablets (Special Order)
+^ESCTME940227	Methylphenidate 20mg modified-release tablets (Special Order) 1 tablet
+^ESCTME946579	Methylphenidate 10mg/5ml oral solution 1 ml
+^ESCTME946580	Methylphenidate 10mg/5ml oral solution (Special Order)
+^ESCTME946581	Methylphenidate 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTME946582	Methylphenidate 12.5mg/5ml oral solution 1 ml
+^ESCTME946583	Methylphenidate 12.5mg/5ml oral solution (Special Order)
+^ESCTME946584	Methylphenidate 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTME946585	Methylphenidate 2.5mg/5ml oral solution 1 ml
+^ESCTME946586	Methylphenidate 2.5mg/5ml oral solution (Special Order)
+^ESCTME946587	Methylphenidate 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTME946588	Methylphenidate 20mg/5ml oral solution 1 ml
+^ESCTME946589	Methylphenidate 20mg/5ml oral solution (Special Order)
+^ESCTME946590	Methylphenidate 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTME946591	Methylphenidate 6.25mg/5ml oral solution 1 ml
+^ESCTME946592	Methylphenidate 6.25mg/5ml oral solution (Special Order)
+^ESCTME946593	Methylphenidate 6.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTME946693	Methylphenidate 10mg/5ml oral solution
+^ESCTME946694	Methylphenidate 12.5mg/5ml oral solution
+^ESCTME946695	Methylphenidate 2.5mg/5ml oral solution
+^ESCTME946696	Methylphenidate 20mg/5ml oral solution
+^ESCTME946697	Methylphenidate 6.25mg/5ml oral solution
+^ESCTME948711	Methylphenidate 5mg/5ml oral solution 1 ml
+^ESCTME948712	Methylphenidate 5mg/5ml oral solution (Special Order)
+^ESCTME948713	Methylphenidate 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTME949218	Methylphenidate 5mg/5ml oral solution
+^ESCTME981318	Methylphenidate 15mg/5ml oral solution 1 ml
+^ESCTME981319	Methylphenidate 15mg/5ml oral solution (Special Order)
+^ESCTME981320	Methylphenidate 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTME981390	Methylphenidate 15mg/5ml oral solution
+^ESCTME981434	Methylphenidate 18mg modified-release tablets 28 tablet
+^ESCTME981499	Methylphenidate 36mg modified-release tablets 28 tablet
+^ESCTME986098	Methylphenidate 54mg modified-release tablets 1 tablet
+^ESCTME986099	Methylphenidate 54mg modified-release tablets (Special Order)
+^ESCTME986100	Methylphenidate 54mg modified-release tablets (Special Order) 1 tablet
+^ESCTMO1019370	Modafinil 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMO1019372	Modafinil 100mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO1022192	Modafinil 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO1022193	Modafinil 100mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTMO1023158	Modafinil 100mg tablets (Actavis UK Ltd)
+^ESCTMO1023159	Modafinil 100mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO1023579	Modafinil 100mg tablets (Mylan Ltd)
+^ESCTMO1023580	Modafinil 100mg tablets (Mylan Ltd) 30 tablet 2 x 15 tablets
+^ESCTMO1036023	Modafinil 200mg tablets (Milpharm Ltd)
+^ESCTMO1036024	Modafinil 200mg tablets (Milpharm Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO1036025	Modafinil 100mg tablets (Milpharm Ltd)
+^ESCTMO1036026	Modafinil 100mg tablets (Milpharm Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO1039379	Modafinil 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO1039380	Modafinil 200mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO1041692	Modafinil 100mg tablets (Waymade Healthcare Plc)
+^ESCTMO1041693	Modafinil 100mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTMO1041694	Modafinil 200mg tablets (Waymade Healthcare Plc)
+^ESCTMO1041695	Modafinil 200mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTMO1042908	Modafinil 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMO1042909	Modafinil 200mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO1045907	Modafinil 200mg tablets (Actavis UK Ltd)
+^ESCTMO1045908	Modafinil 200mg tablets (Actavis UK Ltd) 30 tablet
+^ESCTMO1063443	Modafinil 100mg tablets (Morningside Healthcare Ltd)
+^ESCTMO1063444	Modafinil 100mg tablets (Morningside Healthcare Ltd) 30 tablet
+^ESCTMO1065992	Modafinil 100mg tablets (DE Pharmaceuticals)
+^ESCTMO1065993	Modafinil 100mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTMO1065994	Modafinil 200mg tablets (DE Pharmaceuticals)
+^ESCTMO1065995	Modafinil 200mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTMO1099263	Modafinil 100mg/5ml oral suspension 100 ml
+^ESCTMO1099264	Modafinil 100mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTMO1118269	Modafinil 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMO1118271	Modafinil 100mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTMO1118273	Modafinil 200mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMO1118274	Modafinil 200mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTMO1126807	Modafinil 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMO1126808	Modafinil 100mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTMO1126809	Modafinil 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMO1126810	Modafinil 200mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTMO1136680	Modafinil 100mg tablets (Creo Pharma Ltd)
+^ESCTMO1136683	Modafinil 100mg tablets (Creo Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO1136685	Modafinil 200mg tablets (Creo Pharma Ltd)
+^ESCTMO1136686	Modafinil 200mg tablets (Creo Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO1145011	Modafinil 200mg/5ml oral solution 1 ml
+^ESCTMO1145012	Modafinil 200mg/5ml oral solution (Special Order)
+^ESCTMO1145013	Modafinil 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO1145076	Modafinil 200mg/5ml oral solution
+^ESCTMO1152963	Modafinil 200mg tablets (Mylan Ltd)
+^ESCTMO1152964	Modafinil 200mg tablets (Mylan Ltd) 30 tablet
+^ESCTMO426777	Modafinil
+^ESCTMO863394	Modafinil 100mg tablets 30 tablet
+^ESCTMO869359	Modafinil 200mg tablets 30 tablet
+^ESCTMO878099	Modafinil 100mg tablets (Waymade Healthcare Plc)
+^ESCTMO878100	Modafinil 100mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTMO977318	Modafinil 100mg/5ml oral solution 1 ml
+^ESCTMO977319	Modafinil 100mg/5ml oral solution (Special Order)
+^ESCTMO977320	Modafinil 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO977321	Modafinil 100mg/5ml oral suspension 1 ml
+^ESCTMO977323	Modafinil 100mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTMO977324	Modafinil 100mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTMO977357	Modafinil 100mg/5ml oral solution
+^ESCTMO977358	Modafinil 100mg/5ml oral suspension
+^ESCTPI1151554	Pitolisant 18mg tablets 30 tablet
+^ESCTPI1151564	Pitolisant 4.5mg tablets 30 tablet
+^ESCTPI1151786	Pitolisant 18mg tablets
+^ESCTPI1151787	Pitolisant 4.5mg tablets
+^ESCTPI1151822	Pitolisant
+^ESCTPR1001249	Provigil 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1001250	Provigil 100mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTPR1008197	Provigil 100mg tablets (Necessity Supplies Ltd)
+^ESCTPR1008198	Provigil 100mg tablets (Necessity Supplies Ltd) 30 tablet
+^ESCTPR279434	Product containing methylphenidate
+^ESCTPR332394	Product containing dexamfetamine
+^ESCTPR332395	Product containing dextroamphetamine
+^ESCTPR415526	Product containing guanfacine
+^ESCTPR426778	Product containing modafinil
+^ESCTPR609836	Product containing dexamphetamine sulfate 5 mg/1 each oral tablet
+^ESCTPR643946	Product containing dexmethylphenidate hydrochloride
+^ESCTPR646091	Product containing methylphenidate in oral dosage form
+^ESCTPR646096	Product containing dexamphetamine sulfate 10 mg/1 each oral tablet
+^ESCTPR673864	Product containing atomoxetine
+^ESCTPR677899	Product containing methylphenidate hydrochloride 2.5 mg/1 each oral tablet
+^ESCTPR682610	Product containing guanfacine hydrochloride
+^ESCTPR682648	Product containing methylphenidate hydrochloride
+^ESCTPR695435	Product containing methylphenidate in topical dosage form
+^ESCTPR705609	Product containing lisdexamfetamine
+^ESCTPR715988	Product containing lisdexamfetamine 20 mg/1 each oral capsule
+^ESCTPR716525	Product containing lisdexamfetamine 40 mg/1 each oral capsule
+^ESCTPR717213	Product containing lisdexamfetamine 60 mg/1 each oral capsule
+^ESCTPR863396	Provigil 100mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPR869362	Provigil 200mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPR879655	Provigil 100mg tablets (Dowelhurst Ltd)
+^ESCTPR879656	Provigil 100mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTPR915795	Provigil
+^ESCTPR933410	Provigil 100mg tablets (Waymade Healthcare Plc)
+^ESCTPR933415	Provigil 100mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTPR967375	Provigil 100mg tablets (DE Pharmaceuticals)
+^ESCTPR967376	Provigil 100mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTPR971558	Provigil 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR971561	Provigil 100mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTPR989752	Provigil 100mg tablets (Lexon (UK) Ltd)
+^ESCTPR989753	Provigil 100mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTRI1001385	Ritalin 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1001386	Ritalin 10mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTRI1026414	Ritalin 10mg tablets (DE Pharmaceuticals)
+^ESCTRI1026415	Ritalin 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTRI855659	Ritalin 10mg tablets (Novartis Pharmaceuticals UK Ltd) 30 tablet
+^ESCTRI907539	Ritalin-SR 20mg tablets (Imported (United States))
+^ESCTRI907540	Ritalin-SR 20mg tablets (Imported (United States)) 100 tablet
+^ESCTRI916060	Ritalin
+^ESCTRI920330	Ritalin-SR
+^ESCTRI944446	Ritalin 10mg tablets (Waymade Healthcare Plc)
+^ESCTRI944447	Ritalin 10mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTST1040768	Strattera 100mg capsules (Eli Lilly and Company Ltd)
+^ESCTST1040769	Strattera 100mg capsules (Eli Lilly and Company Ltd) 28 capsule 4 x 7 capsules
+^ESCTST1120444	Strattera 4mg/1ml oral solution (Eli Lilly and Company Ltd)
+^ESCTST1120445	Strattera 4mg/1ml oral solution (Eli Lilly and Company Ltd) 300 ml 3 x 100ml bottles
+^ESCTST899030	Strattera 10mg capsules (Eli Lilly and Company Ltd)
+^ESCTST899031	Strattera 10mg capsules (Eli Lilly and Company Ltd) 7 capsule
+^ESCTST899033	Strattera 10mg capsules (Eli Lilly and Company Ltd) 28 capsule 2 x 14 capsules
+^ESCTST899080	Strattera 18mg capsules (Eli Lilly and Company Ltd)
+^ESCTST899081	Strattera 18mg capsules (Eli Lilly and Company Ltd) 7 capsule
+^ESCTST899082	Strattera 18mg capsules (Eli Lilly and Company Ltd) 28 capsule 2 x 14 capsules
+^ESCTST899085	Strattera 25mg capsules (Eli Lilly and Company Ltd)
+^ESCTST899086	Strattera 25mg capsules (Eli Lilly and Company Ltd) 7 capsule
+^ESCTST899087	Strattera 25mg capsules (Eli Lilly and Company Ltd) 28 capsule 2 x 14 capsules
+^ESCTST899090	Strattera 40mg capsules (Eli Lilly and Company Ltd)
+^ESCTST899091	Strattera 40mg capsules (Eli Lilly and Company Ltd) 7 capsule
+^ESCTST899092	Strattera 40mg capsules (Eli Lilly and Company Ltd) 28 capsule 2 x 14 capsules
+^ESCTST899094	Strattera 60mg capsules (Eli Lilly and Company Ltd)
+^ESCTST899095	Strattera 60mg capsules (Eli Lilly and Company Ltd) 28 capsule 2 x 14 capsules
+^ESCTST916440	Strattera
+^ESCTST966587	Strattera 80mg capsules (Eli Lilly and Company Ltd)
+^ESCTST966588	Strattera 80mg capsules (Eli Lilly and Company Ltd) 28 capsule 2 x 14 capsules
+^ESCTTE983132	Tenex 1mg tablets (Imported (United States))
+^ESCTTE983133	Tenex 1mg tablets (Imported (United States)) 100 tablet
+^ESCTTR855656	Tranquilyn 5mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTTR855660	Tranquilyn 10mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTTR855663	Tranquilyn 20mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTTR916820	Tranquilyn
+^ESCTVY1006517	Vyvanse 20mg capsules (Imported (United States))
+^ESCTVY1006518	Vyvanse 20mg capsules (Imported (United States)) 100 capsule
+^ESCTVY1009911	Vyvanse 30mg capsules (Imported (United States))
+^ESCTVY1009912	Vyvanse 30mg capsules (Imported (United States)) 100 capsule
+^ESCTVY1009914	Vyvanse 40mg capsules (Imported (United States))
+^ESCTVY1009915	Vyvanse 40mg capsules (Imported (United States)) 100 capsule
+^ESCTVY1009917	Vyvanse 50mg capsules (Imported (United States))
+^ESCTVY1009918	Vyvanse 50mg capsules (Imported (United States)) 100 capsule
+^ESCTVY1009920	Vyvanse 60mg capsules (Imported (United States))
+^ESCTVY1009921	Vyvanse 60mg capsules (Imported (United States)) 100 capsule
+^ESCTVY1009923	Vyvanse 70mg capsules (Imported (United States))
+^ESCTVY1009924	Vyvanse 70mg capsules (Imported (United States)) 100 capsule
+^ESCTWA1151556	Wakix 18mg tablets (Lincoln Medical Ltd)
+^ESCTWA1151562	Wakix 18mg tablets (Lincoln Medical Ltd) 30 tablet
+^ESCTWA1151565	Wakix 4.5mg tablets (Lincoln Medical Ltd)
+^ESCTWA1151566	Wakix 4.5mg tablets (Lincoln Medical Ltd) 30 tablet
+^ESCTWA955235	Wakix
+^ESCTXA1158955	Xaggitin XL 18mg tablets (Ethypharm UK Ltd)
+^ESCTXA1158956	Xaggitin XL 18mg tablets (Ethypharm UK Ltd) 30 tablet
+^ESCTXA1158957	Xaggitin XL 36mg tablets (Ethypharm UK Ltd)
+^ESCTXA1158958	Xaggitin XL 36mg tablets (Ethypharm UK Ltd) 30 tablet
+^ESCTXA1158959	Xaggitin XL 54mg tablets (Ethypharm UK Ltd)
+^ESCTXA1158960	Xaggitin XL 54mg tablets (Ethypharm UK Ltd) 30 tablet
+^ESCTXA1158961	Xaggitin XL 27mg tablets (Ethypharm UK Ltd)
+^ESCTXA1158962	Xaggitin XL 27mg tablets (Ethypharm UK Ltd) 30 tablet
+^ESCTXA958258	Xaggitin XL
+^ESCTXE1098372	Xenidate XL 18mg tablets (Mylan Ltd)
+^ESCTXE1098381	Xenidate XL 18mg tablets (Mylan Ltd) 30 tablet
+^ESCTXE1098384	Xenidate XL 36mg tablets (Mylan Ltd)
+^ESCTXE1098386	Xenidate XL 36mg tablets (Mylan Ltd) 30 tablet
+^ESCTXE1126454	Xenidate XL 54mg tablets (Mylan Ltd)
+^ESCTXE1126455	Xenidate XL 54mg tablets (Mylan Ltd) 30 tablet
+^ESCTXE1143879	Xenidate XL 27mg tablets (Mylan Ltd)
+^ESCTXE1143880	Xenidate XL 27mg tablets (Mylan Ltd) 30 tablet
+^ESCTXE947518	Xenidate XL
+ADM/38535NEMIS	Adderall Xr  M/R capsules  5 mg
+ADM/38536NEMIS	Adderall Xr  M/R capsules  30 mg
+ADM/38538NEMIS	Adderall Xr  M/R capsules  25 mg
+ADM/38540NEMIS	Adderall Xr  M/R capsules  20 mg
+ADM/38542NEMIS	Adderall Xr  M/R capsules  15 mg
+ADM/38543NEMIS	Adderall Xr  M/R capsules  10 mg
+AFM/143068NEMIS	Affenid XL  M/R tablets  18 mg
+AFM/143069NEMIS	Affenid XL  M/R tablets  27 mg
+AFM/143070NEMIS	Affenid XL  M/R tablets  36 mg
+AFM/143071NEMIS	Affenid XL  M/R tablets  54 mg
+AMM/38505NEMIS	Amfetamine And Dexamfetamine  M/R capsules  5 mg + 5 mg
+AMM/38525NEMIS	Amfetamine And Dexamfetamine  M/R capsules  7.5 mg + 7.5 mg
+AMM/38528NEMIS	Amfetamine And Dexamfetamine  M/R capsules  10 mg + 10 mg
+AMM/38531NEMIS	Amfetamine And Dexamfetamine  M/R capsules  12.5 mg + 12.5 mg
+AMM/38532NEMIS	Amfetamine And Dexamfetamine  M/R capsules  15 mg + 15 mg
+AMM/38533NEMIS	Amfetamine And Dexamfetamine  M/R capsules  2.5 mg + 2.5 mg
+AMTA105019NEMIS	Amfexa  Tablets  5 mg
+AMTA117765NEMIS	Amfexa  Tablets  20 mg
+AMTA117766NEMIS	Amfexa  Tablets  10 mg
+ATCA139681NEMIS	Atomaid  Capsules  10 mg
+ATCA139682NEMIS	Atomaid  Capsules  18 mg
+ATCA139685NEMIS	Atomaid  Capsules  25 mg
+ATCA139687NEMIS	Atomaid  Capsules  40 mg
+ATCA139688NEMIS	Atomaid  Capsules  60 mg
+ATCA139689NEMIS	Atomaid  Capsules  80 mg
+ATCA139690NEMIS	Atomaid  Capsules  100 mg
+ATCA144441NEMIS	Atomoxetine (Imported)  Capsules  40 mg
+ATCA144442NEMIS	Atomoxetine (Imported)  Capsules  60 mg
+ATOR104777NEMIS	Atomoxetine  Oral Solution, Sugar Free  4 mg/ml
+ATOR94964NEMIS	Atomoxetine  Oral solution  25 mg/5 ml
+ATOR95044NEMIS	Atomoxetine  Oral suspension  25 mg/5 ml
+DEM/120497NEMIS	Delmosart  M/R tablets  18 mg
+DEM/120498NEMIS	Delmosart  M/R tablets  27 mg
+DEM/120499NEMIS	Delmosart  M/R tablets  36 mg
+DEM/120500NEMIS	Delmosart  M/R tablets  54 mg
+DEM/17620NEMIS	Dexamfetamine  M/R capsules  15 mg
+DEOR45620NEMIS	Dexamfetamine  Oral suspension  5 mg/5 ml
+DEOR90855NEMIS	Dexamfetamine  Oral Solution, Sugar Free  5 mg/5 ml
+DESP16183NEMIS	Dexedrine  Spansules  15 mg
+DETA117763NEMIS	Dexamfetamine  Tablets  10 mg
+DETA117764NEMIS	Dexamfetamine  Tablets  20 mg
+ELCA102553NEMIS	Elvanse Adult  Capsules  30 mg
+ELCA102554NEMIS	Elvanse Adult  Capsules  50 mg
+ELCA102555NEMIS	Elvanse Adult  Capsules  70 mg
+ELCA111770NEMIS	Elvanse  Capsules  20 mg
+ELCA111772NEMIS	Elvanse  Capsules  40 mg
+ELCA111773NEMIS	Elvanse  Capsules  60 mg
+ELCA78520NEMIS	Elvanse  Capsules  30 mg
+ELCA78521NEMIS	Elvanse  Capsules  50 mg
+ELCA78522NEMIS	Elvanse  Capsules  70 mg
+GUM/106444NEMIS	Guanfacine  M/R tablets  1 mg
+GUM/106446NEMIS	Guanfacine  M/R tablets  2 mg
+GUM/106447NEMIS	Guanfacine  M/R tablets  3 mg
+GUM/106448NEMIS	Guanfacine  M/R tablets  4 mg
+INM/106450NEMIS	Intuniv  M/R tablets  1 mg
+INM/106451NEMIS	Intuniv  M/R tablets  2 mg
+INM/106452NEMIS	Intuniv  M/R tablets  3 mg
+INM/106453NEMIS	Intuniv  M/R tablets  4 mg
+LICA111765NEMIS	Lisdexamfetamine  Capsules  20 mg
+LICA111767NEMIS	Lisdexamfetamine  Capsules  40 mg
+LICA111768NEMIS	Lisdexamfetamine  Capsules  60 mg
+MAM/95145NEMIS	Matoride Xl  M/R tablets  36 mg
+MAM/95147NEMIS	Matoride Xl  M/R tablets  54 mg
+MAM/96294NEMIS	Matoride Xl  M/R tablets  18 mg
+MECA141827NEMIS	Metyrol XL  M/R capsules  10 mg
+MECA141828NEMIS	Metyrol XL  M/R capsules  20 mg
+MECA141829NEMIS	Metyrol XL  M/R capsules  30 mg
+MECA141830NEMIS	Metyrol XL  M/R capsules  40 mg
+MECA141831NEMIS	Metyrol XL  M/R capsules  60 mg
+MEM/15526NEMIS	Methylphenidate Hydrochloride  M/R tablets  20 mg
+MEOR130258NEMIS	Methylphenidate Hydrochloride  Oral solution  10 mg/5 ml
+MEOR30805NEMIS	Methylphenidate Hydrochloride  Oral solution  5 mg/5 ml
+MEOR95955NEMIS	Methylphenidate Hydrochloride  Oral suspension  5 mg/5 ml
+META36026MGEMIS	Methylphenidate Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+META36027MGEMIS	Methylphenidate Hydrochloride  Tablets  10 mg (Unichem)
+META36028MGEMIS	Methylphenidate Hydrochloride  Tablets  10 mg (Teva UK)
+META37714MGEMIS	Methylphenidate Hydrochloride  Tablets  5 mg (A.A.H. Pharm)
+META37715MGEMIS	Methylphenidate Hydrochloride  Tablets  20 mg (A.A.H. Pharm)
+MOOR38989NEMIS	Modafinil  Oral solution  100 mg/5 ml
+MOOR95954NEMIS	Modafinil  Oral suspension  100 mg/5 ml
+PITA117355NEMIS	Pitolisant  Tablets  18 mg
+PITA117357NEMIS	Pitolisant  Tablets  4.5 mg
+RIM/12595NEMIS	Ritalin Sr  M/R tablets  20 mg
+RIM/134398NEMIS	Ritalin Xl  M/R capsules  10 mg
+RIM/134399NEMIS	Ritalin Xl  M/R capsules  20 mg
+RIM/134400NEMIS	Ritalin Xl  M/R capsules  30 mg
+RIM/134401NEMIS	Ritalin Xl  M/R capsules  40 mg
+RIM/134402NEMIS	Ritalin Xl  M/R capsules  60 mg
+STCA18459NEMIS	Strattera  Capsules  10 mg
+STCA18460NEMIS	Strattera  Capsules  18 mg
+STCA18461NEMIS	Strattera  Capsules  25 mg
+STCA18462NEMIS	Strattera  Capsules  40 mg
+STCA18463NEMIS	Strattera  Capsules  60 mg
+STCA31797NEMIS	Strattera  Capsules  80 mg
+STCA78105NEMIS	Strattera  Capsules  100 mg
+STOR104778NEMIS	Strattera  Oral solution  4 mg/ml
+WATA117359NEMIS	Wakix  Tablets  18 mg
+WATA117360NEMIS	Wakix  Tablets  4.5 mg
+XAM/123300NEMIS	Xaggitin Xl  M/R tablets  18 mg
+XAM/123301NEMIS	Xaggitin Xl  M/R tablets  27 mg
+XAM/123302NEMIS	Xaggitin Xl  M/R tablets  36 mg
+XAM/123303NEMIS	Xaggitin Xl  M/R tablets  54 mg
+XEM/105347NEMIS	Xenidate Xl  M/R tablets  54 mg
+XEM/115292NEMIS	Xenidate Xl  M/R tablets  27 mg
+XEM/95188NEMIS	Xenidate Xl  M/R tablets  18 mg
+XEM/95189NEMIS	Xenidate Xl  M/R tablets  36 mg
