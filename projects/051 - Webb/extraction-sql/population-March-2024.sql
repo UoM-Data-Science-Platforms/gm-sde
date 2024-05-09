@@ -1,5 +1,5 @@
 ﻿--+--------------------------------------------------------------------------------+
---¦ GP population counts in May 2022     					   ¦
+--¦ GP population counts in March 2024     					   ¦
 --+--------------------------------------------------------------------------------+
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
@@ -447,7 +447,7 @@ IF OBJECT_ID('tempdb..#Table') IS NOT NULL DROP TABLE #Table;
 SELECT h.FK_Patient_Link_ID, h.GPPracticeCode, h.StartDate, h.EndDate, l.DeathDate
 INTO #Table
 FROM #GPHistory h
-LEFT OUTER JOIN [RLS].[vw_Patient_Link] l ON h.FK_Patient_Link_ID = l.PK_Patient_Link_ID;
+LEFT OUTER JOIN SharedCare.Patient_Link l ON h.FK_Patient_Link_ID = l.PK_Patient_Link_ID;
 
 
 -- Update the table with death date information===========================================================================================================
