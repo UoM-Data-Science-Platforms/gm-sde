@@ -20,33 +20,31 @@
 
 -- Table for first episode using all of record as lookback
 IF OBJECT_ID('tempdb..#First{param:conditionname}FullLookback') IS NOT NULL DROP TABLE #First{param:conditionname}FullLookback;
-SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstOccurrence
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstOccurrence
 INTO #First{param:conditionname}FullLookback
 FROM #GPEvents
-WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = '{param:condition}' AND Version = '{param:version}') OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = '{param:condition}' AND Version = '{param:version}')
-) AND EventDate < '2022-06-01' AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
+WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = '{param:condition}' AND Version = '{param:version}')
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID
-HAVING MIN(CAST(EventDate AS DATE)) >= '2019-01-01'; -- HAVING is applied after the GROUPing so ensures that we only get people whose first occurrence was 2019 onwards, but the WHERE clause still looks at records before this date.
+HAVING MIN(EventDate) >= '2019-01-01'; -- HAVING is applied after the GROUPing so ensures that we only get people whose first occurrence was 2019 onwards, but the WHERE clause still looks at records before this date.
 
 -- Table for first episode since 2019
 IF OBJECT_ID('tempdb..#First{param:conditionname}2019Lookback') IS NOT NULL DROP TABLE #First{param:conditionname}2019Lookback;
-SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstOccurrenceFrom2019Onwards
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstOccurrenceFrom2019Onwards
 INTO #First{param:conditionname}2019Lookback
 FROM #GPEvents
-WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = '{param:condition}' AND Version = '{param:version}') OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = '{param:condition}' AND Version = '{param:version}')
-) AND EventDate < '2022-06-01' AND CAST(EventDate AS DATE) >= '2019-01-01' AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
-GROUP BY FK_Patient_Link_ID; -- The date range is now fully in the WHERE clause so we�re looking at first episode, but only considering post 2019 data.
+WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = '{param:condition}' AND Version = '{param:version}')
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate >= '2019-01-01'
+GROUP BY FK_Patient_Link_ID; -- The date range is now fully in the WHERE clause so we're looking at first episode, but only considering post 2019 data.
 
 -- Table for episode counts
 IF OBJECT_ID('tempdb..#First{param:conditionname}Counts') IS NOT NULL DROP TABLE #First{param:conditionname}Counts;
-SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EpisodeDate  --DISTINCT + CAST to ensure only one episode per day per patient is counted
+SELECT FK_Patient_Link_ID, YEAR(EventDate) AS YearOfEpisode, MONTH(EventDate) AS MonthOfEpisode, COUNT(*) AS Frequency --need number per month per person
 INTO #First{param:conditionname}Counts
 FROM #GPEvents
-WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = '{param:condition}' AND Version = '{param:version}') OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = '{param:condition}' AND Version = '{param:version}')
-) AND EventDate < '2022-06-01' AND CAST(EventDate AS DATE) >= '2019-01-01' AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude); 
+WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = '{param:condition}' AND Version = '{param:version}')
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate >= '2019-01-01'
+GROUP BY FK_Patient_Link_ID, YEAR(EventDate), MONTH(EventDate);
+
