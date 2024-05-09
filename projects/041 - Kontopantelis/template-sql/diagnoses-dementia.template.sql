@@ -70,4 +70,3 @@ SELECT DISTINCT PatientId = FK_Patient_Link_ID, -- ASSUME THAT CODES FROM SAME C
 	SuppliedCode,
 	[Description] = REPLACE([Description], ',', '|')
 FROM #DiagnosesAndSymptoms
-ORDER BY FK_Patient_Link_ID, EventDate, Concept
