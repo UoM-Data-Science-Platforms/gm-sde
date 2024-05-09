@@ -18,10 +18,10 @@
 
 -- Table for episode counts
 IF OBJECT_ID('tempdb..#First{param:medicationname}Counts') IS NOT NULL DROP TABLE #First{param:medicationname}Counts;
-SELECT DISTINCT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) AS EpisodeDate  --DISTINCT + CAST to ensure only one episode per day per patient is counted
+SELECT FK_Patient_Link_ID, YEAR(MedicationDate) AS YearOfEpisode, MONTH(MedicationDate) AS MonthOfEpisode, COUNT(*) AS Frequency --need number per month per person
 INTO #First{param:medicationname}Counts
 FROM #GPMedications
-WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = '{param:medication}' AND Version = '{param:version}') OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = '{param:medication}' AND Version = '{param:version}')
-) AND MedicationDate < '2022-06-01' AND CAST(MedicationDate AS DATE) >= '2019-01-01' AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude); 
+WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = '{param:medication}' AND Version = '{param:version}') 
+AND MedicationDate >= '2019-01-01'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID, YEAR(MedicationDate), MONTH(MedicationDate);
