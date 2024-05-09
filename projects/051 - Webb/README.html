@@ -290,10 +290,10 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </ul>
 <p>Further details for each code set can be found below.</p>
 <h3>Anxiety</h3>
-<p>Any code indicating a diagnosis of anxiety or other somatoform disorder.</p>
+<p>Any code indicating a diagnosis of anxiety or other somatoform disorder. Developed from SNOMED searches and the opencodelist code set: https://www.opencodelists.org/codelist/opensafely/anxiety-disorders/6aef605a/.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
-<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>18.23% - 18.77%</code> suggests that this code set is well defined.</p>
+<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>21.3% - 22%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -324,18 +324,49 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>Vision</td>
 <td>342344</td>
 <td style="text-align:right">65130 (19.02%)</td>
-<td style="text-align:right">64271 (18.77%))</td>
+<td style="text-align:right">64271 (18.77%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">766186 (30.3%)</td>
+<td style="text-align:right">549512 (21.7%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">46335 (23%)</td>
+<td style="text-align:right">42913 (21.3%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">77888 (23.2%)</td>
+<td style="text-align:right">73817 (22%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-04-30</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/anxiety/1">https://github.com/rw251/.../conditions/anxiety/1</a></p>
 <h3>Depression</h3>
 <p>Code set for patients with a diagnosis of depression.</p>
 <p>Developed from www.opencodelists.org</p>
+<ul>
+<li>No &quot;affective disorder&quot; codes unless mention of depression e.g. 191632009: Bipolar affective disorder, currently depressed, severe, with psychosis (disorder)</li>
+<li>Seasonal affective disorder included as that is a depressive condition</li>
+<li>Includes non-diagnosis codes such as monitoring invites</li>
+<li>Codes indicating grief from bereavement or other life events are included on the grounds that if they are coded in a person's record they are likely clinically important</li>
+</ul>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system,
 we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-Prevalence range: 21.09% - 22.83%</p>
+The prevalence range <code>23% - 25%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -369,20 +400,38 @@ Prevalence range: 21.09% - 22.83%</p>
 <td>73277 (21.40%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/depression/1">https://github.com/rw251/.../conditions/depression/1</a></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>2024-01-19</td>
+<td>EMIS</td>
+<td>2519438</td>
+<td>676518 (26.9%)</td>
+<td>572943 (22.7%)</td>
+</tr>
+<tr>
+<td>2024-01-19</td>
+<td>TPP</td>
+<td>201469</td>
+<td>51022 (25.3%)</td>
+<td>50682 (25.2%)</td>
+</tr>
+<tr>
+<td>2024-01-19</td>
+<td>Vision</td>
+<td>334528</td>
+<td>80546 (24.1%)</td>
+<td>78271 (23.4%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-01-17</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/depression/1">https://github.com/rw251/.../conditions/depression/1</a></p>
 <h3>Schizophrenia and Psychosis</h3>
 <p>Code set for patients with a diagnosis of psychosis or schizophrenia.</p>
 <p>Developed from www.opencodelists.org</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions.
-Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. The prevalence range <code>1% - 1.3%</code> suggests this is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -415,14 +464,39 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td>49565 (1.90%)</td>
 <td>49565 (1.90%)</td>
 </tr>
+<tr>
+<td>2024-04-30</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td>42592 (1.68%)</td>
+<td>25346 (1%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>TPP</td>
+<td>201816</td>
+<td>2709 (1.34%)</td>
+<td>2692 (1.33%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>Vision</td>
+<td>335411</td>
+<td>5057 (1.51%)</td>
+<td>3253 (0.97%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-04-30</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/schizophrenia-psychosis/1">https://github.com/rw251/.../conditions/schizophrenia-psychosis/1</a></p>
 <h3>Bipolar affective disorder</h3>
 <p>Code set for patients with a diagnosis of bipolar.</p>
-<p>Developed from www.opencodelists.org</p>
+<p>Developed from www.opencodelists.org and the NHS PCD refsets.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. Prevalence range: 0.28% - 0.54%</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. Prevalence range: <code>0.28% - 0.31%</code> suggests this is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -455,14 +529,42 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td>1608 (0.48%)</td>
 <td>1608 (0.48%)</td>
 </tr>
+<tr>
+<td>2024-04-30</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td>322887 (12.8%)</td>
+<td>7791 (0.308%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>TPP</td>
+<td>201816</td>
+<td>1096 (0.543%)</td>
+<td>570 (0.282%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>Vision</td>
+<td>335411</td>
+<td>8076 (2.41%)</td>
+<td>972 (0.29%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-04-30</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/bipolar/1">https://github.com/rw251/.../conditions/bipolar/1</a></p>
 <h3>Eating disorders</h3>
-<p>Any code indicating a diagnosis of anorexia or bulimia or similar eating disorders.</p>
+<p>Any code indicating a diagnosis of anorexia or bulimia or similar eating disorders. SNOMED codes from the NHS PCD refset.</p>
+<ul>
+<li>Does not include &quot;loss of appetite codes&quot; unless there is an indication that it is a symptom of anorexia.</li>
+</ul>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
-<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>0.42% - 0.84%</code> suggests that this code set is well defined.</p>
+<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>0.68% - 0.85%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -495,16 +597,40 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">1999 (0.58%)</td>
 <td style="text-align:right">1935 (0.57%)</td>
 </tr>
+<tr>
+<td>2024-04-30</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">34267 (1.35%)</td>
+<td style="text-align:right">21377 (0.845%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">3067 (1.52%)</td>
+<td style="text-align:right">1362 (0.675%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">3719 (1.11%)</td>
+<td style="text-align:right">2472 (0.737%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-04-30</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/eating-disorders/1">https://github.com/rw251/.../conditions/eating-disorders/1</a></p>
 <h3>Self-harm Episodes</h3>
 <p>Defined as any episode of self-harm (except accidental) or attempted suicide</p>
 <p>Readv2 code set supplied by the PI for RQ-029(Steeg)</p>
 <p>CTV3 and SNOMED code sets created using the Reference_Coding table in the GMCR, based on the Readv2 code set.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
-<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. The prevalence range <code>3.83% - 4.17%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -538,18 +664,38 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">11975 (3.59%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/selfharm-episodes/1">https://github.com/rw251/.../patient/selfharm-episodes/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-04-30</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">105617 (4.17%)</td>
+<td style="text-align:right">105491 (4.17%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">8865 (4.39%)</td>
+<td style="text-align:right">8072 (4%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">12867 (3.84%)</td>
+<td style="text-align:right">12836 (3.83%)</td>
 </tr>
 </tbody>
 </table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/selfharm-episodes/1">https://github.com/rw251/.../patient/selfharm-episodes/1</a></p>
 <h3>Attention deficit hyperactivity disorder</h3>
 <p>This code set was created from getset.ga.</p>
+<ul>
+<li>Includes codes suggesting ADHD such as monitoring letters and annual reviews</li>
+<li>Does not include ADHD assessment scales</li>
+<li>Includes attention deficit disorder (i.e. without hyperactivity). This might not be what you want.</li>
+</ul>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.70 - 0.78%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.08 - 1.39%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -562,39 +708,61 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 </thead>
 <tbody>
 <tr>
-<td>2022-09-27</td>
+<td>2024-01-19</td>
 <td>EMIS</td>
-<td>2449912</td>
-<td style="text-align:right">17633 (0.71%)</td>
-<td style="text-align:right">17132 (0.70%)</td>
+<td>2519438</td>
+<td style="text-align:right">25644 (1.02%)</td>
+<td style="text-align:right">25648 (1.02%)</td>
 </tr>
 <tr>
-<td>2022-09-27</td>
+<td>2024-01-19</td>
 <td>TPP</td>
-<td>198140</td>
-<td style="text-align:right">1474 (0.74%)</td>
-<td style="text-align:right">1555(0.78%)</td>
+<td>201469</td>
+<td style="text-align:right">2059 (1.02%)</td>
+<td style="text-align:right">2066 (1.03%)</td>
 </tr>
 <tr>
-<td>2022-09-27</td>
+<td>2024-01-19</td>
 <td>Vision</td>
-<td>325784</td>
-<td style="text-align:right">2966 (0.91%)</td>
-<td style="text-align:right">2457(0.75%)</td>
+<td>334528</td>
+<td style="text-align:right">4394 (1.31%)</td>
+<td style="text-align:right">4377 (1.31%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/attention-deficit-hyperactivity-disorder/1">https://github.com/rw251/.../conditions/attention-deficit-hyperactivity-disorder/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-04-30</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">27454 (1.08%)</td>
+<td style="text-align:right">27454 (1.08%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">2147 (1.06%)</td>
+<td style="text-align:right">2153 (1.07%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">4674 (1.39%)</td>
+<td style="text-align:right">4657 (1.39%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-04-30</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/attention-deficit-hyperactivity-disorder/1">https://github.com/rw251/.../conditions/attention-deficit-hyperactivity-disorder/1</a></p>
 <h3>Autism spectrum disorder</h3>
 <p>This code set was created from getset.ga.</p>
+<ul>
+<li>Includes &quot;suspected autism&quot; codes. This might not be what you want.</li>
+</ul>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.80 - 0.89%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.17 - 1.28%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -628,23 +796,65 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">2614 (0.80%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/autism-spectrum-disorder/1">https://github.com/rw251/.../conditions/autism-spectrum-disorder/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-01-19</td>
+<td>EMIS</td>
+<td>2519438</td>
+<td style="text-align:right">30794 (1.22%)</td>
+<td style="text-align:right">30797 (1.22%)</td>
+</tr>
+<tr>
+<td>2024-01-19</td>
+<td>TPP</td>
+<td>201469</td>
+<td style="text-align:right">2239 (1.11%)</td>
+<td style="text-align:right">2239 (1.11%)</td>
+</tr>
+<tr>
+<td>2024-01-19</td>
+<td>Vision</td>
+<td>334528</td>
+<td style="text-align:right">3851 (1.15%)</td>
+<td style="text-align:right">3840 (1.15%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">32491 (1.28%)</td>
+<td style="text-align:right">32491 (1.28%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">2359 (1.17%)</td>
+<td style="text-align:right">2359 (1.17%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">4183 (1.25%)</td>
+<td style="text-align:right">4171 (1.24%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-04-30</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/autism-spectrum-disorder/1">https://github.com/rw251/.../conditions/autism-spectrum-disorder/1</a></p>
 <h3>Monoamine Axidase Inhibitors (MAOI)</h3>
-<p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Iproniazid
--- Isocarboxazid
--- Moclobemide
--- Phenelzine sulfate
--- Selegiline hydrochloride
--- Tranylcypromine sulfate
--- Trifluoperazine Hydrochloride/Tranylcypromine Sulphate</p>
+<p>This code set was created from getset.ga, using the following list from the PI of RQ051:</p>
+<ul>
+<li>Iproniazid (marsilid)</li>
+<li>Isocarboxazid (marplan)</li>
+<li>Moclobemide (Manerix)</li>
+<li>Phenelzine sulfate (Nardil)</li>
+<li>Selegiline hydrochloride (Centrapryl/Eldepryl/Stilline/Vivapryl/Zelapar)</li>
+<li>Tranylcypromine sulfate (parnate)</li>
+<li>Trifluoperazine Hydrochloride/Tranylcypromine Sulphate (parstelin)</li>
+</ul>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.03 - 0.05%</code> suggests that this code set is well defined.</p>
 <table>
@@ -680,21 +890,42 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">107 (0.03%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/monoamine-oxidase-inhibitor/1">https://github.com/rw251/.../medications/monoamine-oxidase-inhibitor/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-07</td>
+<td>EMIS</td>
+<td>2516912</td>
+<td style="text-align:right">893 (0.0355%)</td>
+<td style="text-align:right">893 (0.0355%)</td>
+</tr>
+<tr>
+<td>2024-05-07</td>
+<td>TPP</td>
+<td>200013</td>
+<td style="text-align:right">94 (0.047%)</td>
+<td style="text-align:right">94 (0.047%)</td>
+</tr>
+<tr>
+<td>2024-05-07</td>
+<td>Vision</td>
+<td>334384</td>
+<td style="text-align:right">114 (0.0341%)</td>
+<td style="text-align:right">114 (0.0341%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-07</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/monoamine-oxidase-inhibitor/1">https://github.com/rw251/.../medications/monoamine-oxidase-inhibitor/1</a></p>
 <h3>Norepinephrine Reuptake Inhibitors (NRI)</h3>
-<p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Atomoxetine hydrochloride
--- Reboxetine
--- Viloxazine Hydrochloride</p>
+<p>This code set was created from getset.ga, using the following list from the PI of RQ051:</p>
+<ul>
+<li>Atomoxetine hydrochloride (Strattera/Atomaid)</li>
+<li>Reboxetine (Edronax)</li>
+<li>Viloxazine Hydrochloride (Vivalan)</li>
+</ul>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.14 - 0.17%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.15 - 0.21%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -728,22 +959,41 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">534 (0.16%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/norepinephrine-reuptake-inhibitors/1">https://github.com/rw251/.../medications/norepinephrine-reuptake-inhibitors/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-02</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">3906 (0.154%)</td>
+<td style="text-align:right">3906 (0.154%)</td>
+</tr>
+<tr>
+<td>2024-05-02</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">381 (0.189%)</td>
+<td style="text-align:right">381 (0.189%)</td>
+</tr>
+<tr>
+<td>2024-05-02</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">687 (0.205%)</td>
+<td style="text-align:right">687 (0.205%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-01</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/norepinephrine-reuptake-inhibitors/1">https://github.com/rw251/.../medications/norepinephrine-reuptake-inhibitors/1</a></p>
 <h3>Serotonin Antagonist and Reuptake Inhibitors (SARI)</h3>
 <p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Nefazodone
+-- Nefazodone (Dutonin)
 -- Nefazodone hydrochloride
--- Trazodone
+-- Trazodone (Molipaxin)
 -- Trazodone hydrochloride</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.6 - 1.2%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.7 - 1.2%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -777,19 +1027,39 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">2032 (0.6%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/serotonin-antagonist-reuptake-inhibitors/1">https://github.com/rw251/.../medications/serotonin-antagonist-reuptake-inhibitors/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-01</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">20341 (0.804%)</td>
+<td style="text-align:right">20341 (0.804%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">2384 (1.18%)</td>
+<td style="text-align:right">2384 (1.18%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">2448 (0.73%)</td>
+<td style="text-align:right">2448 (0.73%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-01</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/serotonin-antagonist-reuptake-inhibitors/1">https://github.com/rw251/.../medications/serotonin-antagonist-reuptake-inhibitors/1</a></p>
 <h3>Serotonin Modulator and Stimulator (SMS)</h3>
 <p>This code set was created from getset.ga, using the following list from the PI of RQ051:
 -- Vortioxetine hydrobromide</p>
+<p><em>NB - at some point we should remove this code set as it is a duplicate of the vortioxetine code set.</em></p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.001 - 0.003%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.058% - 0.076%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -823,22 +1093,40 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">4 (0.001%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/serotonin-modulator-stimulator/1">https://github.com/rw251/.../medications/serotonin-modulator-stimulator/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-01</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">1474 (0.0582%)</td>
+<td style="text-align:right">1474 (0.0582%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">154 (0.0763%)</td>
+<td style="text-align:right">154 (0.0763%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">211 (0.0629%)</td>
+<td style="text-align:right">211 (0.0629%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-01</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/serotonin-modulator-stimulator/1">https://github.com/rw251/.../medications/serotonin-modulator-stimulator/1</a></p>
 <h3>Serotonin and Norepinephrine Reuptake Inhibitors (SNRI)</h3>
 <p>This code set was created from getset.ga, using the following list from the PI of RQ051:
 -- Desvenlafaxine
--- Duloxetine
--- Duloxetine hydrochloride
--- Venlafaxine hydrochloride</p>
+-- Duloxetine (Cymbalta/Dutor/Depalta/Duciltia/Yentreve)
+-- Venlafaxine hydrochloride (Alventa/Apclaven/Amphero/Bonilux/Depefex/Efexor/Foraven/Majoven/Mentaven/Politid/Ranfaxine/Rodomel/Sunveniz/Tardcaps/Tifaxin/Tonpular/Trixat/Vaxalin/Venaxx/Vencarm/Venlablue/Venladex/Venlalic/Venlaneo/Venlasov/Vensir/Venzip/Vexarin/ViePax)</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>3.57 - 4.35%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.0 - 4.4%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -872,28 +1160,47 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">11705 (3.59%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/serotonin-norepinephrine-reuptake-inhibitors/1">https://github.com/rw251/.../medications/serotonin-norepinephrine-reuptake-inhibitors/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-01</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">100387 (3.97%)</td>
+<td style="text-align:right">100387 (3.97%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">8873 (4.4%)</td>
+<td style="text-align:right">8873 (4.4%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">14357 (4.28%)</td>
+<td style="text-align:right">14357 (4.28%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-01</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/serotonin-norepinephrine-reuptake-inhibitors/1">https://github.com/rw251/.../medications/serotonin-norepinephrine-reuptake-inhibitors/1</a></p>
 <h3>Selective Serotonin Reuptake Inhibitors (SSRI)</h3>
 <p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Citalopram hydrobromide
+-- Citalopram hydrobromide (Cipramil)
 -- Citalopram hydrochloride
--- Escitalopram oxalate
--- Fluoxetine
+-- Escitalopram oxalate (Cipralex)
+-- Fluoxetine (Felicium/Olena/Oxactin/Prozep/Prozit/Ranflutin/Prozac)
 -- Fluoxetine hydrochloride
--- Fluvoxamine
+-- Fluvoxamine (Faverin)
 -- Fluvoxamine maleate
--- Paroxetine hydrochloride
--- Sertraline
+-- Paroxetine hydrochloride (Seroxat)
+-- Sertraline (Contulen/Lustral)
 -- Sertraline hydrochloride</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>21.1 - 26.6%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>22 - 26.1%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -927,40 +1234,59 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">69295 (21.3%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/selective-serotonin-reuptake-inhibitors/1">https://github.com/rw251/.../medications/selective-serotonin-reuptake-inhibitors/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-01</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">556431 (22%)</td>
+<td style="text-align:right">556431 (22%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">52604 (26.1%)</td>
+<td style="text-align:right">52604 (26.1%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">77183 (23%)</td>
+<td style="text-align:right">77183 (23%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-01</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/selective-serotonin-reuptake-inhibitors/1">https://github.com/rw251/.../medications/selective-serotonin-reuptake-inhibitors/1</a></p>
 <h3>Tricyclic (TCA)</h3>
 <p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Amitriptyline
+-- Amitriptyline (Lentizol)
 -- Amitriptyline hydrochloride
 -- Amitriptyline hydrochloride/ Perphenazine
 -- Butriptyline Hydrochloride
--- Clomipramine
+-- Clomipramine (Anafranil)
 -- Clomipramine hydrochloride
 -- Desipramine
 -- Dosulepin
 -- Dosulepin hydrochloride
--- Doxepin
+-- Doxepin (Sinequan/Sinepin/Xepin)
 -- Doxepin hydrochloride
--- Imipramine
+-- Imipramine (Tofranil)
 -- Imipramine hydrochloride
 -- Iprindole
--- Lofepramine
+-- Lofepramine (Feprapax/Lomont/Gamanil)
 -- Lofepramine hydrochloride
--- Nortriptyline
+-- Nortriptyline (Allegron/Motival/Motipress)
 -- Nortriptyline hydrochloride
--- Protriptyline
+-- Protriptyline (Vivactil)
 -- Protriptyline hydrochloride
--- Trimipramine
+-- Trimipramine (Surmontil)
 -- Trimipramine maleate</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>14.1 - 17.8%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>14.3 - 17.3%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -994,24 +1320,43 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">45430 (13.9%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/tricyclic-antidepressants/1">https://github.com/rw251/.../medications/tricyclic-antidepressants/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-01</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">362600 (14.3%)</td>
+<td style="text-align:right">362600 (14.3%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">34912 (17.3%)</td>
+<td style="text-align:right">34912 (17.3%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">50609 (15.1%)</td>
+<td style="text-align:right">50609 (15.1%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-01</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/tricyclic-antidepressants/1">https://github.com/rw251/.../medications/tricyclic-antidepressants/1</a></p>
 <h3>Tetracyclic (TeCA)</h3>
 <p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Amoxapine
--- Maprotiline
+-- Amoxapine (Asendis/Defanyl)
+-- Maprotiline (Ludiomil)
 -- Maprotiline hydrochloride
 -- Mianserin
 -- Mianserin hydrochloride
--- Mirtazapine</p>
+-- Mirtazapine (Zispin)</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>5.4 - 8.3%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>6.3% - 8.4%</code> suggests that this code set is reasonably defined, but with a higher prevalence in TPP practices.</p>
 <table>
 <thead>
 <tr>
@@ -1045,27 +1390,45 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">17687 (5.4%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/tetracyclic/1">https://github.com/rw251/.../medications/tetracyclic/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-01</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">174811 (6.91%)</td>
+<td style="text-align:right">174811 (6.91%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">16998 (8.42%)</td>
+<td style="text-align:right">16998 (8.42%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">21158 (6.31%)</td>
+<td style="text-align:right">21158 (6.31%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-01</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/tetracyclic/1">https://github.com/rw251/.../medications/tetracyclic/1</a></p>
 <h3>Other antidepressants</h3>
-<p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Agomelatine
--- Ascorbic Acid/Tryptophan/Pyridoxine Hydrochloride
--- Bupropion hydrochloride
--- Bupropion hydrochloride/Naltrexone hydrochloride
--- Esketamine hydrochloride
--- Ketamine
--- Ketamine hydrochloride
--- Oxitriptan
--- Tryptophan</p>
+<p>This code set was created as the union of the following drugs as specified from the PI of RQ051:</p>
+<ul>
+<li>Agomelatine</li>
+<li>Bupropion</li>
+<li>Esketamine</li>
+<li>Ketamine</li>
+<li>Oxitriptan</li>
+<li>Tryptophan</li>
+</ul>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.3 - 1.9%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.73 - 0.85%</code> for EMIS and Vision practices suggests this is well defined. However TPP practices have a rate of <code>1.4%</code>, nearly double that of EMIS and Vision, suggesting extra prescribing in those practices. TPP has the smallest footprint in terms of patient numbers which may also be a contributing factor.</p>
 <table>
 <thead>
 <tr>
@@ -1099,29 +1462,50 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">4693 (1.4%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/other-antidepressants/1">https://github.com/rw251/.../medications/other-antidepressants/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-08</td>
+<td>EMIS</td>
+<td>2516912</td>
+<td style="text-align:right">18340 (0.729%)</td>
+<td style="text-align:right">18340 (0.729%)</td>
+</tr>
+<tr>
+<td>2024-05-08</td>
+<td>TPP</td>
+<td>200013</td>
+<td style="text-align:right">2779 (1.39%)</td>
+<td style="text-align:right">2779 (1.39%)</td>
+</tr>
+<tr>
+<td>2024-05-08</td>
+<td>Vision</td>
+<td>334384</td>
+<td style="text-align:right">2856 (0.854%)</td>
+<td style="text-align:right">2856 (0.854%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-08</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/other-antidepressants/1">https://github.com/rw251/.../medications/other-antidepressants/1</a></p>
 <h3>Barbituates</h3>
-<p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Amobarbital
--- Amobarbital/Secobarbital
--- Barbital
--- Butobarbital
--- Cyclobarbital
--- Methylphenobarbital
--- Pentobarbital
--- Phenobarbital
--- Primidone
--- Secobarbital
--- Thiopental</p>
+<p>This code set was created from getset.ga, using the following list from the PI of RQ051:</p>
+<ul>
+<li>Amobarbital</li>
+<li>Amobarbital/Secobarbital</li>
+<li>Barbital</li>
+<li>Butobarbital</li>
+<li>Cyclobarbital</li>
+<li>Methylphenobarbital</li>
+<li>Pentobarbital</li>
+<li>Phenobarbital</li>
+<li>Primidone</li>
+<li>Secobarbital</li>
+<li>Thiopental</li>
+</ul>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.09 - 0.15%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.11 - 0.14%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1155,38 +1539,59 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">314 (0.09%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/barbituates/1">https://github.com/rw251/.../medications/barbituates/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-02</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">2737 (0.108%)</td>
+<td style="text-align:right">2737 (0.108%)</td>
+</tr>
+<tr>
+<td>2024-05-02</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">283 (0.14%)</td>
+<td style="text-align:right">283 (0.14%)</td>
+</tr>
+<tr>
+<td>2024-05-02</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">366 (0.109%)</td>
+<td style="text-align:right">366 (0.109%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-02</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/barbituates/1">https://github.com/rw251/.../medications/barbituates/1</a></p>
 <h3>Benzodiazepine</h3>
-<p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Alprazolam
--- Bromazepam
--- Chlordiazepoxide
--- Clobazam
--- Clonazepam
--- Clorazepate
--- Diazepam
--- Flunitrazepam
--- Flurazepam
--- Ketazolam
--- Loprazolam
--- Lorazepam
--- Lormetazepam
--- Medazepam
--- Midazolam
--- Nitrazepam
--- Oxazepam
--- Prazepam
--- Temazepam
--- Triazolam</p>
+<p>This code set was created from getset.ga, using the following list from the PI of RQ051:</p>
+<ul>
+<li>Alprazolam (Xanax)</li>
+<li>Bromazepam (Lexotan)</li>
+<li>Chlordiazepoxide (librium/tropium/limbitrol/librax )</li>
+<li>Clobazam (frisium/perizam/tapclob/zacco)</li>
+<li>Clonazepam (rivotril/klonopin )</li>
+<li>Clorazepate (tranxene)</li>
+<li>Diazepam (valium/tensium/stesolid/solis/rectubes/alupram/rimapam/dialar/valclair/atensine/diazemuls/evacalm )</li>
+<li>Flunitrazepam (rohypnol)</li>
+<li>Flurazepam (dalmane/paxane )</li>
+<li>Ketazolam (anxon)</li>
+<li>Loprazolam (dormonoct)</li>
+<li>Lorazepam (ativan/almazine )</li>
+<li>Lormetazepam (noctamid)</li>
+<li>Medazepam (nobrium)</li>
+<li>Midazolam (hypnovel/buccolam/dormicum/miprosed/ozalin/epistatus)</li>
+<li>Nitrazepam (unisomnia/surem/somnite/remnos/noctesed/nitrados/mogadon )</li>
+<li>Oxazepam (oxanid)</li>
+<li>Prazepam (centrax)</li>
+<li>Temazepam (normison/euhypnos )</li>
+<li>Triazolam (halcion)</li>
+</ul>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>10.4 - 11.7%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>10.4 - 11.6%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1220,21 +1625,42 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">36313 (11.1%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/benzodiazepines/2">https://github.com/rw251/.../medications/benzodiazepines/2</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-07</td>
+<td>EMIS</td>
+<td>2516912</td>
+<td style="text-align:right">261145 (10.4%)</td>
+<td style="text-align:right">261145 (10.4%)</td>
+</tr>
+<tr>
+<td>2024-05-07</td>
+<td>TPP</td>
+<td>200013</td>
+<td style="text-align:right">23182 (11.6%)</td>
+<td style="text-align:right">23182 (11.6%)</td>
+</tr>
+<tr>
+<td>2024-05-07</td>
+<td>Vision</td>
+<td>334384</td>
+<td style="text-align:right">37288 (11.2%)</td>
+<td style="text-align:right">37288 (11.2%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-07</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/benzodiazepines/2">https://github.com/rw251/.../medications/benzodiazepines/2</a></p>
 <h3>Non-benzodiazepine benzodiazepine receptor agonist (NBBRA)</h3>
-<p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Zaleplon
--- Zolpidem
--- Zopiclone</p>
+<p>This code set was created from getset.ga, using the following list from the PI of RQ051:</p>
+<ul>
+<li>Zaleplon (Sonata)</li>
+<li>Zolpidem (Stilnoct)</li>
+<li>Zopiclone (Zimovane/Zileze)</li>
+</ul>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>7.2 - 9.4%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>7.4 - 9.2%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1268,35 +1694,53 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">23547 (7.2%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/nonbenzodiazepine-benzodiazepine-receptor-agonist/1">https://github.com/rw251/.../medications/nonbenzodiazepine-benzodiazepine-receptor-agonist/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-02</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">211298 (8.35%)</td>
+<td style="text-align:right">211298 (8.35%)</td>
+</tr>
+<tr>
+<td>2024-05-02</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">18524 (9.18%)</td>
+<td style="text-align:right">18524 (9.18%)</td>
+</tr>
+<tr>
+<td>2024-05-02</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">24765 (7.38%)</td>
+<td style="text-align:right">24765 (7.38%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-01</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/nonbenzodiazepine-benzodiazepine-receptor-agonist/1">https://github.com/rw251/.../medications/nonbenzodiazepine-benzodiazepine-receptor-agonist/1</a></p>
 <h3>Other anxiolytics and hypnotics</h3>
 <p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Alimemazine
--- Buspirone
--- Chloral
+-- Alimemazine (Alfresed/Itzenal/Timeprazine/Vallergan)
+-- Buspirone (Buspar)
+-- Chloral (Amfecloral/Cloral betaine/Chlorobutanol/Eludril?/Frador/Petrichloral/Soothake?/Triclofos/Welldorm)
 -- Chlormezanone
--- Clomethiazole
+-- Clomethiazole (Heminevrin)
 -- Dichloralphenazone
 -- Diphenhydramine
--- Hydroxyzine
--- Melatonin
+-- Hydroxyzine (Atarax/Ucerax)
+-- Melatonin (Adaflex/Agomelatine?/Ceyesto/Circadin/Ramelteon/Slenyto/Syncrodin/S.Gard/Tasimelteon?/Valdoxan?)
 -- Meprobamate
 -- Methyprylone
--- Potassium bromide
+-- Potassium bromide (Dibro-Be)
 -- Potassium bromide/chloral
--- Promethazine
+-- Promethazine (Avomine/Night Nurse/Pamergan/Phenergan/Sominex/Tixylix/Vertigon/Ziz)
 -- Sodium hydroxybutyrate
--- Sodium oxybate
--- Triclofos</p>
+-- Sodium oxybate (Xyrem)</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>5.3 - 7.0%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>6.7 - 9.0%</code> suggests that this code set is well defined, but with a higher prevalence in Vision practices.</p>
 <table>
 <thead>
 <tr>
@@ -1330,81 +1774,76 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">22896 (7.0%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/other-anxiolytics-and-hypnotics/1">https://github.com/rw251/.../medications/other-anxiolytics-and-hypnotics/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-01</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">185302 (7.32%)</td>
+<td style="text-align:right">185302 (7.32%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">13455 (6.67%)</td>
+<td style="text-align:right">13455 (6.67%)</td>
+</tr>
+<tr>
+<td>2024-05-01</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">30439 (9.08%)</td>
+<td style="text-align:right">30439 (9.08%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-01</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/other-anxiolytics-and-hypnotics/1">https://github.com/rw251/.../medications/other-anxiolytics-and-hypnotics/1</a></p>
 <h3>Antipsychotics</h3>
-<p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Amisulpride
--- Amitriptyline hydrochloride/Perphenazine
--- Aripiprazole
--- Asenapine maleate
--- Benperidol
--- Cariprazine hydrochloride
--- Chlorpromazine
--- Chlorpromazine embonate
--- Chlorpromazine hydrochloride
--- Chlorprothixene
--- Clozapine
--- Droperidol
--- Flupentixol
--- Flupentixol decanoate
--- Flupentixol dihydrochloride
--- Fluphenazine
--- Fluphenazine decanoate
--- Fluphenazine Enantate
--- Fluphenazine hydrochloride
--- Fluphenazine hydrochloride/Nortriptyline hydrochloride
--- Fluspirilene
--- Haloperidol
--- Haloperidol decanoate
--- Isopropamide Iodide/Trifluoperazine Hydrochloride
--- Levomepromazine hydrochloride
--- Levomepromazine maleate
--- Loxapine
--- Loxapine succinate
--- Lurasidone hydrochloride
--- Melperone hydrochloride
--- Nortriptyline hydrochloride/Fluphenazine hydrochloride
--- Olanzapine
--- Olanzapine embonate monohydrate
--- Oxypertine
--- Paliperidone
--- Paliperidone palmitate
--- Pericyazine
--- Perphenazine
--- Pimozide
--- Pipotiazine palmitate
--- Prochlorperazine
--- Prochlorperazine maleate
--- Prochlorperazine mesilate
--- Promazine
--- Promazine hydrochloride
--- Quetiapine
--- Quetiapine fumarate
--- Remoxipride Hydrochloride Monohydrate
--- Risperidone
--- Sertindole
--- Sulpiride
--- Thioridazine
--- Thioridazine hydrochloride
--- Trifluoperazine
--- Trifluoperazine hydrochloride
--- Trifluoperazine Hydrochloride/Tranylcypromine Sulphate
--- Trifluperidol
--- Ziprasidone hydrochloride
--- Zotepine
--- Zuclopenthixol
--- Zuclopenthixol acetate
--- Zuclopenthixol decanoate
--- Zuclopenthixol dihydrochloride</p>
+<p>Code set created using the following list from the PI of RQ051. Each component drug has its own code set and this is the union of the following:</p>
+<ul>
+<li>Amisulpride (Solian)</li>
+<li>Aripiprazole (Ablify/Arpoya)</li>
+<li>Asenapine maleate (Sycrest)</li>
+<li>Benperidol (Anquil/Benquil)</li>
+<li>Cariprazine hydrochloride (Reagila)</li>
+<li>Chlorpromazine (Chloractil/Chlorazin/Dozine/Largactil)</li>
+<li>Chlorprothixene (Taractan/Truxal)</li>
+<li>Clozapine (Clozaril/Denzapine/Zaponex)</li>
+<li>Droperidol (Droleptan/Thalamonal/Xomolix)</li>
+<li>Flupentixol (Depixol/Fluanxol/Flupenthixol/Psytixol)</li>
+<li>Fluphenazine (Decazate/Modecate/Motipress/Moditen/Motival)</li>
+<li>Fluspirilene (Imap/Redeptin)</li>
+<li>Haloperidol (Dozic/Fortunan/Haldol/Halkid/Kentace/Serenace)</li>
+<li>Levomepromazine (Levinan/Levorol/Methotrimeprazine/Nozinan/Veractil)</li>
+<li>Loxapine (Adasuve/Loxapac)</li>
+<li>Lurasidone hydrochloride (Latuda)</li>
+<li>Melperone hydrochloride (Melperon-ratiopharm)</li>
+<li>Olanzapine (Arkolamyl/Xyquila /Zalasta/Zypadhera/Zyprexa)</li>
+<li>Oxypertine (Integrin)</li>
+<li>Paliperidone (Byannli/Invega/Trevicta/Xeplion)</li>
+<li>Pericyazine</li>
+<li>Perphenazine</li>
+<li>Pimozide</li>
+<li>Pipotiazine palmitate</li>
+<li>Prochlorperazine</li>
+<li>Promazine</li>
+<li>Quetiapine</li>
+<li>Remoxipride Hydrochloride Monohydrate</li>
+<li>Risperidone</li>
+<li>Sertindole</li>
+<li>Sulpiride</li>
+<li>Thioridazine</li>
+<li>Trifluoperazine</li>
+<li>Trifluperidol</li>
+<li>Ziprasidone hydrochloride</li>
+<li>Zotepine</li>
+<li>Zuclopenthixol</li>
+</ul>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>12.9 - 15.7%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>13% - 15.7%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1438,23 +1877,44 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">45098 (13.8%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antipsychotics/2">https://github.com/rw251/.../medications/antipsychotics/2</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-07</td>
+<td>EMIS</td>
+<td>2516912</td>
+<td style="text-align:right">326391 (13%)</td>
+<td style="text-align:right">326391 (13%)</td>
+</tr>
+<tr>
+<td>2024-05-07</td>
+<td>TPP</td>
+<td>200013</td>
+<td style="text-align:right">31318 (15.7%)</td>
+<td style="text-align:right">31318 (15.7%)</td>
+</tr>
+<tr>
+<td>2024-05-07</td>
+<td>Vision</td>
+<td>334384</td>
+<td style="text-align:right">46957 (14%)</td>
+<td style="text-align:right">46957 (14%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-07</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antipsychotics/2">https://github.com/rw251/.../medications/antipsychotics/2</a></p>
 <h3>Antoconvusants</h3>
-<p>This code set was created from getset.ga, using the following list from the PI of RQ051:
-Carbamazepine
-Lamotrigine
-Sodium valproate
-Valproate semisodium
-Valproic acid</p>
+<p>This code set was created from getset.ga, using the following list from the PI of RQ051:</p>
+<ul>
+<li>Carbamazepine</li>
+<li>Lamotrigine</li>
+<li>Sodium valproate</li>
+<li>Valproate semisodium</li>
+<li>Valproic acid</li>
+</ul>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range from the code is <code>1.9% - 2.4%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range from the code is <code>1.9% - 2.1%</code> suggesting that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1487,12 +1947,38 @@ Valproic acid</p>
 <td style="text-align:right">6704 (2.1%)</td>
 <td style="text-align:right">6707 (2.1%)</td>
 </tr>
+<tr>
+<td>2024-05-02</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">48541 (1.92%)</td>
+<td style="text-align:right">48541 (1.92%)</td>
+</tr>
+<tr>
+<td>2024-05-02</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">4268 (2.11%)</td>
+<td style="text-align:right">4268 (2.11%)</td>
+</tr>
+<tr>
+<td>2024-05-02</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">7019 (2.09%)</td>
+<td style="text-align:right">7019 (2.09%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-02</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/anticonvulsants/1">https://github.com/rw251/.../medications/anticonvulsants/1</a></p>
 <h3>Lithium</h3>
+<p>Any code for a prescription of lithium. Taken from the NHS drug refsets.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.11% - 0.15%</code> suggests the code set is well defined across systems, however the prevalence seems low and may need checking.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.11% - 0.15%</code> suggests the code set is well defined across systems, with a slightly lower prevalence in TPP practices.</p>
 <table>
 <thead>
 <tr>
@@ -1525,16 +2011,43 @@ Valproic acid</p>
 <td style="text-align:right">460 (0.14%)</td>
 <td style="text-align:right">460 (0.14%)</td>
 </tr>
+<tr>
+<td>2024-05-02</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">3678 (0.145%)</td>
+<td style="text-align:right">3678 (0.145%)</td>
+</tr>
+<tr>
+<td>2024-05-02</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">213 (0.106%)</td>
+<td style="text-align:right">213 (0.106%)</td>
+</tr>
+<tr>
+<td>2024-05-02</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">470 (0.14%)</td>
+<td style="text-align:right">470 (0.14%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-01</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/lithium/1">https://github.com/rw251/.../medications/lithium/1</a></p>
 <h3>Off label mood stabilisers</h3>
-<p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Gabapentin
--- Oxcarbazepine
--- Topiramate</p>
+<p>This code set was created from getset.ga, using the following list from the PI of RQ051:</p>
+<ul>
+<li>Gabapentin (Neurontin)</li>
+<li>Oxcarbazepine (Trileptal)</li>
+<li>Topiramate (Topamax)</li>
+</ul>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>5.9 - 6.7%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>6.1 - 6.6%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1568,30 +2081,48 @@ Valproic acid</p>
 <td style="text-align:right">21084 (6.5%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/off-label-mood-stabilisers/1">https://github.com/rw251/.../medications/off-label-mood-stabilisers/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-02</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">153657 (6.07%)</td>
+<td style="text-align:right">153657 (6.07%)</td>
+</tr>
+<tr>
+<td>2024-05-02</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">13147 (6.51%)</td>
+<td style="text-align:right">13147 (6.51%)</td>
+</tr>
+<tr>
+<td>2024-05-02</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">22262 (6.64%)</td>
+<td style="text-align:right">22262 (6.64%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-01</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/off-label-mood-stabilisers/1">https://github.com/rw251/.../medications/off-label-mood-stabilisers/1</a></p>
 <h3>Attention deficit hyperactivity disorder medications</h3>
-<p>This code set was created from getset.ga, using the following list from the PI of RQ051:
--- Amfetamine/Dexamfetamine
--- Amfetamine/Dexamfetamine Sulphate
--- Atomoxetine hydrochloride
--- Dexamfetamine Sulphate
--- Dexedrine
--- Dexmethylphenidate hydrochloride
--- Guanfacine hydrochloride
--- Lisdexamfetamine dimesylate
--- Methylphenidate hydrochloride
--- Modafinil
--- Pitolisant hydrochloride
--- Ritalin</p>
+<p>This code set was created from getset.ga, using the following list from the PI of RQ051:</p>
+<ul>
+<li>Amfetamine/Dexamfetamine (Adderall/Durophet)</li>
+<li>Atomoxetine hydrochloride (Atomaid/Strattera)</li>
+<li>Dexamfetamine Sulphate (Amfexa/Dexamphetamine/Dexedrine/Dextroamphetamine)</li>
+<li>Dexmethylphenidate hydrochloride (Focalin)</li>
+<li>Guanfacine hydrochloride (Intuniv/Tenex)</li>
+<li>Lisdexamfetamine dimesylate (Elvanse/Vyvanse)</li>
+<li>Methylphenidate hydrochloride (Affenid/Concerta/Delmosart/Equasym/Matoride/Medikinet/Meflynate/Metyrol/Ritalin/Tranquilyn/Xaggitin/Xenidate)</li>
+<li>Modafinil (Provigil)</li>
+<li>Pitolisant hydrochloride (Wakix)</li>
+</ul>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.5 - 0.7%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.7% - 0.9%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1625,13 +2156,32 @@ Valproic acid</p>
 <td style="text-align:right">2229 (0.7%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/attention-deficit-hyperactivity-disorder-medications/1">https://github.com/rw251/.../medications/attention-deficit-hyperactivity-disorder-medications/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-05-07</td>
+<td>EMIS</td>
+<td>2516912</td>
+<td style="text-align:right">18135 (0.721%)</td>
+<td style="text-align:right">18135 (0.721%)</td>
+</tr>
+<tr>
+<td>2024-05-07</td>
+<td>TPP</td>
+<td>200013</td>
+<td style="text-align:right">1444 (0.722%)</td>
+<td style="text-align:right">1444 (0.722%)</td>
+</tr>
+<tr>
+<td>2024-05-07</td>
+<td>Vision</td>
+<td>334384</td>
+<td style="text-align:right">3158 (0.944%)</td>
+<td style="text-align:right">3158 (0.944%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-05-07</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/attention-deficit-hyperactivity-disorder-medications/1">https://github.com/rw251/.../medications/attention-deficit-hyperactivity-disorder-medications/1</a></p>
 <h1>Clinical code sets</h1>
 <p>All code sets required for this analysis are available here: <a href="https://github.com/rw251/gm-idcr/tree/master/projects/051%20-%20Webb/clinical-code-sets.csv">https://github.com/rw251/.../051 - Webb/clinical-code-sets.csv</a>. Individual lists for each concept can also be found by using the links above.</p>
