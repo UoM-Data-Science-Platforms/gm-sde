@@ -33,7 +33,6 @@ C0A4.00	Iodine-deficiency-related multinodular (endemic) goitre
 C0AX.00	Iodine-deficiency-related (endemic) goitre, unspecified
 Cyu1200	[X]Other specified nontoxic goitre
 Cyu1600	[X]Iodine-deficiency-related (endemic) goitre, unspecified
-
 C02z.00	Thyrotoxicosis without mention of goitre or other cause
 C02z000	Thyrotoxicosis without mention of goitre or other cause with no crisis
 C02z100	Thyrotoxicosis without mention of goitre or other cause with crisis
@@ -52,7 +51,6 @@ C02zz00	Thyrotoxicosis NOS
 Cyu1300	[X]Other thyrotoxicosis
 F381600	Myasthenic syndrome due to thyrotoxicosis
 F395400	Myopathy due to thyrotoxicosis
-
 C05y400	Chronic thyroiditis with transient thyrotoxicosis
 C05..00	Thyroiditis
 C050.00	Acute thyroiditis
