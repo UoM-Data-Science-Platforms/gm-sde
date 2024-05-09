@@ -28,6 +28,8 @@ SET NOCOUNT ON;
 --> CODESET depression:1 schizophrenia-psychosis:1 bipolar:1 eating-disorders:1 anxiety:1 selfharm-episodes:1 uti:1
 --> CODESET palliative-and-end-of-life-care:1 hypogonadotropic-hypogonadism:1
 
+--> CODESET dementia:1
+
 -- CREATE TABLES OF DISTINCT CODES AND CONCEPTS - TO REMOVE DUPLICATES IN FINAL TABLE
 
 IF OBJECT_ID('tempdb..#VersionedCodeSetsUnique') IS NOT NULL DROP TABLE #VersionedCodeSetsUnique;
@@ -81,7 +83,8 @@ SELECT PatientId = FK_Patient_Link_ID,
 	selfharm = ISNULL(SUM(CASE WHEN Concept = 'selfharm-episodes' THEN 1 ELSE 0 END),0),
 	uti = ISNULL(SUM(CASE WHEN Concept = 'uti' THEN 1 ELSE 0 END),0),
 	palliative_and_eol_care = ISNULL(SUM(CASE WHEN Concept = 'palliative-and-end-of-life-care' THEN 1 ELSE 0 END),0),
-	hypogonadotropic_hypogonadism = ISNULL(SUM(CASE WHEN Concept = 'hypogonadotropic-hypogonadism' THEN 1 ELSE 0 END),0)
+	hypogonadotropic_hypogonadism = ISNULL(SUM(CASE WHEN Concept = 'hypogonadotropic-hypogonadism' THEN 1 ELSE 0 END),0),
+	dementia = ISNULL(SUM(CASE WHEN Concept = 'dementia' THEN 1 ELSE 0 END),0)
 FROM #DiagnosesAndSymptoms
 GROUP BY FK_Patient_Link_ID, YEAR(EventDate)
 ORDER BY FK_Patient_Link_ID, YEAR(EventDate)
