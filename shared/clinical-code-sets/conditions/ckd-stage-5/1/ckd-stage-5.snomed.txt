@@ -28,3 +28,4 @@
 153891000119101	End stage renal disease on dialysis due to hypertension (disorder)
 285841000119104	Malignant hypertensive end stage renal disease (disorder)
 286371000119107	Malignant hypertensive end stage renal disease on dialysis (disorder)
+368461000119103	Chronic kidney disease stage 5 due to drug induced diabetes mellitus (disorder)
