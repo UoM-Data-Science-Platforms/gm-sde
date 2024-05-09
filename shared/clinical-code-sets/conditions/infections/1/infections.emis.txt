@@ -1,0 +1,1847 @@
+^ESCT1177677	Mononucleosis syndrome
+^ESCT1177799	Bronchiolitis obliterans organizing pneumonia
+^ESCT1177801	BOOP - Bronchiolitis obliterans organising pneumonia
+^ESCT1177802	Bronchiolitis obliterans with usual interstitial pneumonitis
+^ESCT1177803	BOOP - Bronchiolitis obliterans organizing pneumonia
+^ESCT1179006	Bursitis caused by Neisseria gonorrhoeae
+^ESCT1181250	Candida cystitis
+^ESCT1181251	Cystitis caused by Candida
+^ESCT1182611	Dermatitis exfoliativa neonatorum
+^ESCT1185119	Perforation and abscess co-occurrent and due to diverticular disease of both small and large intestine
+^ESCT1185120	Perforation and abscess with diverticular disease of small and large intestine
+^ESCT1187644	Abscess of colon co-occurrent and due to diverticular disease of colon
+^ESCT1187645	Abscess with diverticular disease of colon
+^ESCT1190240	Arbovirus hemorrhagic fever
+^ESCT1190324	Toxemia of pregnancy
+^ESCT1190584	Bacteremia
+^ESCT1191544	[X]Encephalitis,myelitis+encephalomyelitis/viral disease CE
+^ESCT1191722	Infection of cesarean section AND/OR perineal wound
+^ESCT1192005	[X]Other specified puerperal infection
+^ESCT1192261	[X]Viral infection, unspecified
+^ESCT1192364	Chronic gonorrhea of upper genitourinary tract
+^ESCT1192610	Major puerperal infection
+^ESCT1192947	Infection due to Panton-Valentine leukocidin producing Staphylococcus aureus
+^ESCT1193099	Westley Croup Score
+^ESCT1198969	HIV disease resulting in mycobacterial infection
+^ESCT1205537	Nabothian cyst of cervix
+^ESCT1205538	Naboth follicles
+^ESCT1217236	Arthritis co-occurrent and due to rubella
+^ESCT1221867	Encephalomyelitis co-occurrent and due to rubella
+^ESCT1222081	Pneumonia co-occurrent and due to measles
+^ESCT1222087	Chronic metritis
+^ESCT1233448	Gastrointestinal infection caused by Klebsiella aerogenes
+^ESCT1233449	Gastrointestinal infection due to Klebsiella aerogenes
+^ESCT1245125	Suspected UTI
+^ESCT1245674	[V]Asymptomatic human immunodeficiency virus infection status
+^ESCT1247724	[X]Other diseases of the upper respiratory tract
+^ESCT1248065	[X]Special screening examination for other bacterial diseases
+^ESCT1248069	[X]Suppurative and necrotic conditions of the lower respiratory tract
+^ESCT1248540	Female pelvic inflammatory diseases NOS
+^ESCT1270410	Gastrointestinal infection due to Klebsiella mobilis
+^ESCT1270436	Viral disease characterized by exanthem
+^ESCT1270533	Sepsis due to Salmonella
+^ESCT1271689	Tuberculous encephalitis or myelitis
+^ESCT1271690	Other diseases of conjunctiva due to viruses and chlamydiae NEC
+^ESCT1271705	Tracheopharyngitis
+^ESCT1271706	Acute bronchitis and/or bronchiolitis
+^ESCT1271718	Endometritis following abortive pregnancy
+^ESCT1272014	Pyogenic arthritis of the forearm
+^ESCT1272015	Pyogenic arthritis of the lower leg
+^ESCT1275820	Pharyngotracheitis
+^ESCT1275847	Septic arthritis of lower leg
+^ESCT1303160	Croup
+^ESCT1376682	Gramme-positive septic shock
+^ESCT1376992	Primate erythroparvovirus 1 infection
+^ESCT1377839	Chlamydia psittaci infection
+^ESCT1377849	Septic enteritis
+^ESCT1378981	Clostridioides difficile infection
+^ESCT1378982	Clostridioides difficile gastrointestinal tract infection
+^ESCT1378984	Timorian filariasis
+^ESCT1378985	Hepatitis caused by Toxoplasma
+^ESCT1387119	Symptomatic HIV (human immunodeficiency virus) infection
+^ESCT1405525	Listeria monocytogenes infection
+^ESCT1405642	Lassa haemorrhagic fever
+^ESCT1405851	Air-conditioner and humidifier lung
+^ESCT1407102	Hepatic coma due to acute hepatitis B with delta agent
+^ESCT1407103	Hepatic coma due to viral hepatitis C
+^ESCT1407139	COPD (chronic obstructive pulmonary disease) with acute lower respiratory infection
+^ESCT1407142	Inflammation of testis and epididymis
+^ESCT1407144	Cellulitis of foot due to diabetes mellitus
+^ESCT1407474	Gas gangrene caused by Clostridium oedematiens
+^ESCT1421008	Swine influenza
+^ESCTAB261791	Abscess of ovary
+^ESCTAB337817	Abscess of omentum
+^ESCTAB342490	Abscess of trachea
+^ESCTAB344504	Abacterial meningitis
+^ESCTAB370252	Abscess of peritoneum
+^ESCTAB388061	Abscess of parapharyngeal space
+^ESCTAB388062	Abscess of lateral pharyngeal space
+^ESCTAB405930	Abscess of testis
+^ESCTAB508836	Abscess iliopsoas non-tuberculous
+^ESCTAB660183	Abscess of fallopian tube
+^ESCTAC258088	Actinomycotic cystitis
+^ESCTAC262074	Acute osteomyelitis of shoulder
+^ESCTAC266217	Acute osteomyelitis of hand
+^ESCTAC268822	Actinomycosis
+^ESCTAC273016	Acute nonparalytic poliomyelitis
+^ESCTAC273697	Acute suppurative otitis media without spontaneous rupture of ear drum
+^ESCTAC274865	Active rheumatic fever with pericarditis
+^ESCTAC274866	Acute rheumatic fever with pericarditis
+^ESCTAC275070	Acute inflammation of nasal sinus
+^ESCTAC275071	Acute inflammation of sinus
+^ESCTAC275072	Acute infection of sinus
+^ESCTAC278905	Active rheumatic fever with endocarditis
+^ESCTAC278906	Acute rheumatic fever with endocarditis
+^ESCTAC290109	Acute type A viral hepatitis
+^ESCTAC290111	Acute hepatitis A
+^ESCTAC292317	Active rheumatic fever
+^ESCTAC292319	Acute rheumatic attack
+^ESCTAC296374	Acute appendicitis with generalized peritonitis
+^ESCTAC297620	Acute epiglottitis and supraglottitis
+^ESCTAC309135	Acute PN - pyelonephritis
+^ESCTAC309137	Acute kidney infection
+^ESCTAC316430	ACL - Anthroponotic cutaneous leishmaniasis
+^ESCTAC332570	Acute gonorrhea of upper genitourinary tract
+^ESCTAC334891	Acute mucoid otitis media
+^ESCTAC338265	Acute URI
+^ESCTAC338267	Acute upper respiratory tract infection
+^ESCTAC338980	Acute gonorrhea of lower genitourinary tract
+^ESCTAC351578	Acquired immunodeficiency syndrome
+^ESCTAC351581	Acquired immune deficiency syndrome (AIDS)
+^ESCTAC355330	Acute paralytic poliomyelitis, bulbar
+^ESCTAC355331	Acute infantile paralysis
+^ESCTAC355332	Acute anterior poliomyelitis
+^ESCTAC355333	Acute anterior bulbar polioencephalomyelitis
+^ESCTAC360324	Acute ethmoiditis
+^ESCTAC371843	Acute pyometra
+^ESCTAC376059	Acute sanguinous otitis media
+^ESCTAC376060	Acute non-suppurative otitis media with haemotympanum
+^ESCTAC376061	Acute non-suppurative otitis media with hemotympanum
+^ESCTAC376062	Acute non-suppurative otitis media - sanguinous
+^ESCTAC376063	Acute non-suppurative otitis media - bloody
+^ESCTAC380945	Acute osteomyelitis of pelvis
+^ESCTAC383819	Acute nasal catarrh
+^ESCTAC383825	Acute infective rhinitis
+^ESCTAC390295	Acute suppurative otitis media with spontaneous rupture of ear drum
+^ESCTAC390297	Acute suppurative otitis media with discharge
+^ESCTAC419709	Acute mastoiditis with complications
+^ESCTAC420080	Acute human immunodeficiency virus seroconversion illness
+^ESCTAC420081	Acute human immunodeficiency virus infection
+^ESCTAC420086	Acute necrotizing encephalitis
+^ESCTAC420087	Acute necrotizing viral encephalitis
+^ESCTAC420088	Acute necrotising viral encephalitis
+^ESCTAC465637	Acute necrotising ulcerative gingivostomatitis
+^ESCTAC465639	Acute necrotizing ulcerative gingivostomatitis
+^ESCTAC474164	Actinomycosis of cecum
+^ESCTAC474168	Actinomycotic madura foot
+^ESCTAC474170	Actinomycotic mycetoma of foot
+^ESCTAC474439	Actinomycotic mycetoma
+^ESCTAC474441	Actinomycotic mycetema
+^ESCTAC476935	Acute and subacute haemorrhagic leucoencephalitis [Hurst]
+^ESCTAC476936	Acute and subacute hemorrhagic leukoencephalitis [Hurst]
+^ESCTAC477455	Acute serous otitis media
+^ESCTAC477470	Acute purulent otitis media
+^ESCTAC477471	Acute suppurative otitis media due to another disease
+^ESCTAC477550	Acute rheumatic fever with myocarditis
+^ESCTAC477551	Active rheumatic fever with myocarditis
+^ESCTAC477637	Acute pericarditis caused by human coxsackievirus
+^ESCTAC477638	Acute meningococcal pericarditis
+^ESCTAC477641	Acute tuberculous pericarditis
+^ESCTAC477647	Acute pneumococcal pericarditis
+^ESCTAC477649	Acute streptococcal pericarditis
+^ESCTAC478015	Acute exudative tonsillitis
+^ESCTAC478025	Acute edematous laryngitis
+^ESCTAC478042	Acute Moraxella catarrhalis bronchitis
+^ESCTAC478045	Acute coxsackievirus bronchitis
+^ESCTAC478046	Acute coxsackieviral bronchitis
+^ESCTAC478047	Acute bronchitis caused by coxsackievirus
+^ESCTAC478048	Acute parainfluenza virus bronchitis
+^ESCTAC478049	Acute respiratory syncytial virus bronchitis
+^ESCTAC478051	Acute bronchitis caused by rhinovirus
+^ESCTAC478052	Acute echovirus bronchitis
+^ESCTAC478053	Acute echoviral bronchitis
+^ESCTAC478054	Acute bronchitis due to echovirus
+^ESCTAC478057	Acute bronchiolitis caused by respiratory syncytial virus
+^ESCTAC478126	Actinomycotic pneumonia
+^ESCTAC480734	Acquired poliosis
+^ESCTAC481831	Acute osteomyelitis of lower leg
+^ESCTAC481834	Acute osteomyelitis of cervical spine
+^ESCTAC481836	Acute osteomyelitis of thoracic spine
+^ESCTAC481838	Acute osteomyelitis of lumbar spine
+^ESCTAC481840	Acute osteomyelitis of sacrum
+^ESCTAC481842	Acute osteomyelitis of coccyx
+^ESCTAC481844	Acute osteomyelitis of clavicle
+^ESCTAC481847	Acute osteomyelitis of humerus
+^ESCTAC481850	Acute osteomyelitis of radius
+^ESCTAC481852	Acute osteomyelitis of ulna
+^ESCTAC481858	Acute osteomyelitis of metacarpal
+^ESCTAC481860	Acute osteomyelitis of phalanx of hand
+^ESCTAC481861	Acute osteomyelitis of femur
+^ESCTAC481865	Acute osteomyelitis of patella
+^ESCTAC481866	Acute osteomyelitis of tibia
+^ESCTAC481868	Acute osteomyelitis of fibula
+^ESCTAC481871	Acute osteomyelitis of calcaneum
+^ESCTAC481873	Acute osteomyelitis of talus
+^ESCTAC481875	Acute osteomyelitis of metatarsal
+^ESCTAC481877	Acute osteomyelitis of phalanx of toe
+^ESCTAC481879	Acute hematogenous osteomyelitis
+^ESCTAC500429	Acute viral encephalitis
+^ESCTAC505333	Acute mycoplasmal bronchitis
+^ESCTAC505337	Acute viral bronchiolitis
+^ESCTAC510257	Acute pelvic inflammatory disease of the female pelvic organs AND/OR tissues
+^ESCTAC510259	Acute PID - acute pelvic inflammatory disease
+^ESCTAC510262	Acute abscess of female pelvis
+^ESCTAC510264	Acute female pelvic abscess
+^ESCTAC512591	Acnitis
+^ESCTAC514398	Acute osteomyelitis of ankle
+^ESCTAC549158	Acquired syphilis - early latent
+^ESCTAC550278	Acute osteomyelitis of pelvic region and/or thigh
+^ESCTAC550280	Acute osteomyelitis of pelvic region and thigh
+^ESCTAC550281	Acute osteomyelitis of pelvis and/or femur
+^ESCTAC550282	Acute osteomyelitis of ankle and/or foot
+^ESCTAC572189	Acute osteomyelitis - hip
+^ESCTAC601856	Acute rheumatic carditis
+^ESCTAC601857	Acute rheumatic fever with heart involvement
+^ESCTAC601858	Active rheumatic fever with heart involvement
+^ESCTAC620426	Acute nonsuppurative otitis media
+^ESCTAC661640	Acute necrotizing ulcerative gingivitis
+^ESCTAC661644	Acute ulceromembranous gingivitis
+^ESCTAC697343	Acquired immune deficiency syndrome-related dementia
+^ESCTAC697346	Acquired immune deficiency syndrome dementia complex
+^ESCTAC730285	Acute bronchiolitis caused by Human metapneumovirus
+^ESCTAC750728	Acute appendicitis with localized peritonitis
+^ESCTAD316384	Adenoviral pneumonia
+^ESCTAD365276	Adenoviral enteritis
+^ESCTAD474131	Addison's disease due to tuberculosis
+^ESCTAD697345	ADC - Acquired immune deficiency syndrome dementia complex
+^ESCTAH345639	AHF - Argentinian hemorrhagic fever
+^ESCTAH345646	AHF - Argentinian haemorrhagic fever
+^ESCTAI328221	Air conditioner lung
+^ESCTAI351576	AIDS
+^ESCTAI351580	AIDS - Acquired immunodeficiency syndrome
+^ESCTAI697344	AIDS - Acquired immune deficiency syndrome dementia complex
+^ESCTAL283418	Alveolar hydatid disease
+^ESCTAL316441	Aleppo boil
+^ESCTAL350416	Alveolitis sicca dolorosa
+^ESCTAL350417	Alveoalgia
+^ESCTAL350418	Alveolalgia
+^ESCTAL372150	ALA - Amoebic liver abscess
+^ESCTAL372151	ALA - Amebic liver abscess
+^ESCTAM263999	Amoebic cystitis
+^ESCTAM264003	Amebic cystitis
+^ESCTAM294787	Amebic brain abscess
+^ESCTAM355839	Amebic lung abscess
+^ESCTAM372149	Amebic liver abscess
+^ESCTAM376116	American trypanosomiasis
+^ESCTAN273017	Anterior acute poliomyelitis specified as nonparalytic
+^ESCTAN273019	Anterior acute poliomyelitis, nonparalytic
+^ESCTAN273812	Angina tonsillaris
+^ESCTAN316437	Anthroponotic cutaneous leishmaniasis
+^ESCTAN474233	Anogenital herpes simplex virus infection
+^ESCTAN478123	Anthrax pneumonia
+^ESCTAN578746	Antiviral drug adverse reaction
+^ESCTAN661642	ANUG
+^ESCTAP309136	APN - Acute pyelonephritis
+^ESCTAP351097	Appendicular abscess
+^ESCTAR256479	Argyll-Robertson pupil
+^ESCTAR276607	Arbovirus haemorrhagic fever
+^ESCTAR276609	Arthropod-borne hemorrhagic fever
+^ESCTAR276611	Arboviral haemorrhagic fever
+^ESCTAR276612	Arboviral hemorrhagic fever
+^ESCTAR292320	ARF - Acute rheumatic fever
+^ESCTAR315363	Arthropod-borne viral infection
+^ESCTAR315364	Arboviral disease
+^ESCTAR328050	Arthritis due to bacterial infection
+^ESCTAR333696	Arthritis due to Streptococcus
+^ESCTAR345632	Argentinian haemorrhagic fever
+^ESCTAR345633	Argentinian hemorrhagic fever
+^ESCTAR359861	Arthropathy associated with a neurological disorder
+^ESCTAR369866	Arenaviral hemorrhagic fever
+^ESCTAR475938	Arthritis caused by Mycobacterium tuberculosis
+^ESCTAR478001	ARI - Acute respiratory infections
+^ESCTAR480833	Arthropathy of the shoulder region associated with helminthiasis
+^ESCTAR513907	Arthritis due to viral infection
+^ESCTAR513909	Arthritis caused by viral infection
+^ESCTAR513915	Arthritis due to parasitic infection
+^ESCTAR515253	Armed tapeworm infection
+^ESCTAR659843	Armstrong's disease
+^ESCTAS344503	Aseptic meningitis, viral
+^ESCTAS399451	Asymptomatic HIV infection
+^ESCTAS420093	Aspergillus pneumonia
+^ESCTAS451493	Aspiration pneumonitis
+^ESCTAS477469	ASOM - Acute suppurative otitis media
+^ESCTAS596656	Aspiration of brain abscess
+^ESCTAS672072	Asthmatic bronchitis
+^ESCTAT337708	Atypical verrucal endocarditis
+^ESCTAT337709	Atypical verrucous endocarditis
+^ESCTAU338266	AURTI - Acute upper respiratory tract infection
+^ESCTAU358061	Australian encephalitis
+^ESCTAU358062	Australian arboencephalitis
+^ESCTAU358063	Australian X disease
+^ESCTAV340289	Avian flu
+^ESCTAV343297	AVH - Acute viral hepatitis
+^ESCTAX330782	Axillary trichomycosis due to Corynebacterium tenuis
+^ESCTBA259142	Bacteraemia
+^ESCTBA267162	Bacterial infection due to Morganella morganii
+^ESCTBA267163	Bacterial infection due to Proteus morganii
+^ESCTBA267166	Bacterial infection caused by Proteus morganii
+^ESCTBA267167	Bacterial infection caused by Morganella morganii
+^ESCTBA286664	Bacterial zoonosis
+^ESCTBA291928	Bacterial infection due to Proteus mirabilis
+^ESCTBA291930	Bacterial infection caused by Proteus mirabilis
+^ESCTBA298839	Bacterial myositis
+^ESCTBA316438	Baghdad boil
+^ESCTBA328048	Bacterial arthritis
+^ESCTBA353112	Bacterial infection caused by Pseudomonas
+^ESCTBA365585	Bacterial infection due to E. coli
+^ESCTBA365589	Bacterial infection caused by E. coli
+^ESCTBA365693	Bacterial infection caused by Serratia
+^ESCTBA392429	Bacterial disease
+^ESCTBA729126	Bacillus fragilis infection
+^ESCTBE293311	Benign tertian malaria
+^ESCTBE335446	Benign myalgic encephalomyelitis
+^ESCTBE383305	Benign multirecurrent endothelioleucocytal meningitis
+^ESCTBE383306	Benign multirecurrent endothelioleukocytal meningitis
+^ESCTBE589016	BE - Bacterial endocarditis
+^ESCTBH359386	BHF - Bolivian hemorrhagic fever
+^ESCTBH359388	BHF - Bolivian haemorrhagic fever
+^ESCTBI266078	Bilharziasis
+^ESCTBI266081	Bilharzia
+^ESCTBI291488	Biliary calculus with cholecystitis
+^ESCTBI309230	Bile peritonitis
+^ESCTBI309232	Biliary peritonitis
+^ESCTBI316440	Biskra button
+^ESCTBI340290	Bird flu
+^ESCTBI478772	Bile duct calculus with acute cholecystitis and obstruction
+^ESCTBL266083	Blood fluke infection
+^ESCTBL289719	Bladder gonorrhea - acute
+^ESCTBL312487	Bladder infection
+^ESCTBL334892	Blue drum syndrome
+^ESCTBL341985	Black water fever
+^ESCTBL345441	Black death
+^ESCTBL349072	Bladder schistosomiasis
+^ESCTBL359384	Black typhus
+^ESCTBL514726	BL - Borderline lepromatous leprosy
+^ESCTBM406377	BM - Bacterial meningitis
+^ESCTBO292413	Bordetellosis
+^ESCTBO359382	Bolivian hemorrhagic fever
+^ESCTBO376027	Boston exanthem
+^ESCTBO387996	Body tinea
+^ESCTBO549168	Bone and/or joint yaws lesions
+^ESCTBR353080	Brodie abscess
+^ESCTBR375181	Brugia filariasis
+^ESCTBR375182	Brugiosis
+^ESCTBR375183	Brugiasis
+^ESCTBR480275	Breast abscess after childbirth
+^ESCTBR656692	Bronchial pneumonia
+^ESCTBR730282	Bronchiolitis due to Human metapneumovirus
+^ESCTBR730286	Bronchiolitis caused by Human metapneumovirus
+^ESCTBT293313	BT - Benign tertian malaria
+^ESCTBT293314	BTM - Benign tertian malaria
+^ESCTBT514723	BT - Borderline tuberculoid leprosy
+^ESCTBU364897	Buba
+^ESCTBU379078	Bunyamwera virus disease
+^ESCTBU474335	Burdwan fever
+^ESCTBU771113	Burkitt's lymphoma co-occurrent with human immunodeficiency virus infection
+^ESCTBV308702	B virus infection
+^ESCTBW321855	Bwamba virus disease
+^ESCTCA255466	Candidosis of lung
+^ESCTCA258740	Capillary pneumonia
+^ESCTCA278697	Campylobacter diarrhoea
+^ESCTCA278698	Campylobacter diarrhea
+^ESCTCA347073	Calculus of gallbladder with acute cholecystitis
+^ESCTCA358309	Carrier, infectious agent
+^ESCTCA375863	Cane cutter's fever
+^ESCTCA478713	CAH - Chronic active hepatitis
+^ESCTCA478715	CAH - Chronic aggressive hepatitis
+^ESCTCA478770	Calculus of bile duct with acute cholecystitis
+^ESCTCA698192	Cachexia associated with AIDS
+^ESCTCA698197	Cachexia associated with acquired immunodeficiency syndrome
+^ESCTCE286934	Cellulitis of pharynx
+^ESCTCE308703	Cercopithecine herpesvirus 1 disease
+^ESCTCE310578	Cervicitis
+^ESCTCE337727	Cervical tuberculous lymphadenitis
+^ESCTCE474458	Cercarial dermatitis
+^ESCTCE476759	Cerebrospinal meningitis
+^ESCTCE476804	Cerebral toxoplasmosis
+^ESCTCE503338	Cellulitis of pinna
+^ESCTCE591130	Central nervous system viral infection
+^ESCTCH250069	Chronic sore throat
+^ESCTCH253655	Chronic granular pharyngitis
+^ESCTCH254459	Childbed fever
+^ESCTCH271115	Chronic osteomyelitis of hand
+^ESCTCH291079	Chronic eosinophilic meningitis
+^ESCTCH291489	Cholelithiasis with cholecystitis
+^ESCTCH300707	Chronic abscess of parametrium
+^ESCTCH311848	Chronic otitis media with perforation
+^ESCTCH312100	Cheloid leishmaniasis
+^ESCTCH312614	Chicken pox
+^ESCTCH314461	Chronic infection of sinus
+^ESCTCH324572	Chronic rheumatic endocarditis
+^ESCTCH324573	Chronic rheumatic heart disease with endocarditis
+^ESCTCH347074	Cholelithiasis with acute cholecystitis
+^ESCTCH350719	Chronic type B viral hepatitis
+^ESCTCH354943	Chronic abscess of female pelvis
+^ESCTCH354944	Chronic pelvic abscess - female
+^ESCTCH373259	Chronic sleeping sickness
+^ESCTCH373401	Chronic nonsuppurative osteitis
+^ESCTCH373403	Chronic sclerosing nonsuppurative osteomyelitis
+^ESCTCH374878	CH - Chronic hepatitis
+^ESCTCH375749	Chiclero ulcer
+^ESCTCH375753	Chiclero's ulcer
+^ESCTCH376117	Chagas' disease
+^ESCTCH376119	Chagas-Mazza disease
+^ESCTCH381797	Cholera due to Vibrio cholerae El Tor
+^ESCTCH381798	Cholera - Vibrio cholerae O1 El Tor biotype
+^ESCTCH381799	Cholera caused by Vibrio cholerae El Tor
+^ESCTCH382629	Chronic non-suppurative otitis media with effusion - serous
+^ESCTCH392454	Chronic rheumatic carditis
+^ESCTCH395854	Chronic tympanitis
+^ESCTCH395856	Chronic myringitis
+^ESCTCH398121	Chronic abscess of pouch of Douglas
+^ESCTCH412139	Chlamydia
+^ESCTCH420063	Chikungunya hemorrhagic fever
+^ESCTCH440701	Chronic type C viral hepatitis
+^ESCTCH474126	Chronic tuberculous iridocyclitis
+^ESCTCH474368	Chronic gonorrhea lower genitourinary tract
+^ESCTCH474369	Chronic gonorrhoea of lower genitourinary tract
+^ESCTCH474370	Chronic gonorrhea of lower genitourinary tract
+^ESCTCH477980	Chylocele - non-filarial
+^ESCTCH478086	Chronic hyperplastic laryngitis
+^ESCTCH478132	Chicken pox pneumonia
+^ESCTCH478766	Cholelithiasis AND acute cholecystitis without obstruction
+^ESCTCH478768	Cholelithiasis AND acute cholecystitis with obstruction
+^ESCTCH478924	Chronic non-obstructive atrophic pyelonephritis
+^ESCTCH479151	Chronic pelvic cellulitis
+^ESCTCH479153	Chronic female pelvic peritonitis
+^ESCTCH481880	Chronic osteomyelitis of shoulder
+^ESCTCH481882	Chronic osteomyelitis of upper arm
+^ESCTCH481884	Chronic osteomyelitis of humerus
+^ESCTCH481885	Chronic osteomyelitis of forearm
+^ESCTCH481887	Chronic osteomyelitis of radius and/or ulna
+^ESCTCH481888	Chronic osteomyelitis of lower leg
+^ESCTCH481891	Chronic osteomyelitis of cervical spine
+^ESCTCH481895	Chronic osteomyelitis of lumbar spine
+^ESCTCH481897	Chronic osteomyelitis of sacrum
+^ESCTCH508665	Chronic viral hepatitis B with hepatitis D
+^ESCTCH508734	Cholecystolithiasis
+^ESCTCH510272	Chronic PID - Chronic pelvic inflammatory disease
+^ESCTCH514400	Chronic osteomyelitis of foot
+^ESCTCH514402	Chronic osteomyelitis of ankle
+^ESCTCH514405	Chronic osteomyelitis of thigh
+^ESCTCH514406	Chronic osteomyelitis of femur
+^ESCTCH514408	Chronic osteomyelitis of pelvic region
+^ESCTCH514409	Chronic osteomyelitis of pelvis
+^ESCTCH514414	Chronic osteomyelitis with draining fistula
+^ESCTCH550284	Chronic osteomyelitis of pelvic region and/or thigh
+^ESCTCH550286	Chronic osteomyelitis of ankle and/or foot
+^ESCTCH620348	Charcot's joint
+^ESCTCH620349	Charcot arthropathy
+^ESCTCH677978	Charbon
+^ESCTCI256656	Circling disease
+^ESCTCL274786	Clap
+^ESCTCL312949	Classical typhus
+^ESCTCL343180	CLH - Chronic lobular hepatitis
+^ESCTCL355940	Clostridium perfringens infection
+^ESCTCL380874	Clostridial myositis
+^ESCTCL380875	Clostridial myonecrosis
+^ESCTCL474192	Clostridium difficile gastrointestinal tract infection
+^ESCTCL474452	Clam-digger's itch
+^ESCTCL474459	Clam digger's itch
+^ESCTCL514666	Clostridial enteric disease
+^ESCTCL701030	Clostridium difficile colitis
+^ESCTCM474278	CMV - Cytomegalovirus hepatitis
+^ESCTCN476835	CNS abscess
+^ESCTCO251572	Congenital sepsis
+^ESCTCO252186	Cold sores
+^ESCTCO252189	Cold sore
+^ESCTCO258072	Complicated systemic gonorrhoea
+^ESCTCO258073	Complicated systemic gonorrhea
+^ESCTCO311162	Concato disease
+^ESCTCO324814	Coccidioidomycosis meningitis
+^ESCTCO354258	Costal chondritis
+^ESCTCO365584	Colibacillosis
+^ESCTCO454553	Complaining of catarrh
+^ESCTCO478742	Coxsackie virus hepatitis
+^ESCTCO508537	Colonic diverticular abscess
+^ESCTCO778351	COP - Cryptogenic organising pneumonitis
+^ESCTCO778352	COP - Cryptogenic organizing pneumonitis
+^ESCTCP317507	CPH - Chronic persistent hepatitis
+^ESCTCP352946	CPN - Chronic pyelonephritis
+^ESCTCR365782	Croup syndrome
+^ESCTCR514411	CRMO - Chronic multifocal osteomyelitis
+^ESCTCR778350	Cryptogenic organizing pneumonia
+^ESCTCS311845	CSOM - Chronic suppurative otitis media
+^ESCTCT260290	CTF - Colorado tick fever
+^ESCTCU260134	Cutaneous actinomycosis infection
+^ESCTCU275136	Cutaneous mycobacterium ulcerans infection
+^ESCTCU290993	Cutaneous infectious disease due to Mycobacteria
+^ESCTCU290995	Cutaneous infectious disease caused by Mycobacteria
+^ESCTCU316439	Cutaneous urban leishmaniasis
+^ESCTCU320032	Cutaneous plague
+^ESCTCU358922	Cutaneous tuberculosis
+^ESCTCU514825	Cutaneous herpes simplex infection
+^ESCTCU515027	Cutaneous leishmaniasis
+^ESCTCU666028	Cutaneous involvement by listeriosis
+^ESCTCU777146	Cutaneous B-cell pseudolymphoma caused by Borrelia
+^ESCTCY258086	Cystitis with actinomycosis
+^ESCTCY262207	Cytomegaloviral pneumonia
+^ESCTCY262208	Cytomegalic inclusion virus pneumonia
+^ESCTCY262210	Cytomegaloviral (CMV) pneumonia
+^ESCTCY264000	Cystitis with amebiasis
+^ESCTCY264001	Cystitis with amoebiasis
+^ESCTCY264004	Cystitis in amebiasis
+^ESCTCY296542	Cytomegalovirus disease
+^ESCTCY474276	Cytomegalovirus hepatitis
+^ESCTCY474280	Cytomegalic inclusion virus hepatitis
+^ESCTCY478980	Cystitis in gonorrhea
+^ESCTDA476795	Dawson's inclusion body encephalitis
+^ESCTDC312096	DCL - Diffuse cutaneous leishmaniasis
+^ESCTDE283296	Dengue hemorrhagic fever
+^ESCTDE311794	Dengue
+^ESCTDE311795	Dengue fever
+^ESCTDE316436	Delhi boil
+^ESCTDE334164	Dementia paralytica
+^ESCTDE387997	Dermatophytosis of the trunk
+^ESCTDE389945	Dermatitis herpetiformis of pregnancy
+^ESCTDE419238	Dermatosis herpetiformis
+^ESCTDE697342	Dementia associated with AIDS
+^ESCTDE697347	Dementia associated with acquired immunodeficiency syndrome
+^ESCTDG258075	DGI - Disseminated gonococcal infection
+^ESCTDH283297	DHF - Dengue haemorrhagic fever
+^ESCTDH283298	DHF - Dengue hemorrhagic fever
+^ESCTDH419240	DH - Dermatitis herpetiformis
+^ESCTDI255355	Diphtheritic membranous angina
+^ESCTDI255356	Diphtheritic membrane
+^ESCTDI262920	Disease with a predominantly sexual mode of transmission
+^ESCTDI290313	Disease due to Adenovirus
+^ESCTDI290315	Disease caused by Adenovirus
+^ESCTDI291748	Distomiasis
+^ESCTDI291750	Disease due to Trematoda
+^ESCTDI296540	Disease due to Cytomegalovirus
+^ESCTDI304453	Diverticulitis of duodenum
+^ESCTDI304769	Disease caused by virus
+^ESCTDI304772	Disease due to virus
+^ESCTDI312095	Diffuse cutaneous leishmaniasis
+^ESCTDI315584	Disorder due to infection
+^ESCTDI315585	Disease due to infection
+^ESCTDI316941	Disease due to Rhinovirus
+^ESCTDI316943	Disease caused by Rhinovirus
+^ESCTDI331335	Diphtheritic laryngotracheitis
+^ESCTDI336995	Disease due to Enterovirus
+^ESCTDI336998	Disease caused by Enterovirus
+^ESCTDI354942	Discharge from nose
+^ESCTDI359179	Diverticulitis of ileum
+^ESCTDI392427	Disease caused by bacteria
+^ESCTDI412153	Disease due to Retroviridae
+^ESCTDI412155	Disease caused by Retroviridae
+^ESCTDI412293	Disease due to superfamily Filarioidea
+^ESCTDI412296	Disease caused by superfamily Filarioidea
+^ESCTDI500985	Diphtheritic neuropathy
+^ESCTDI660739	Diarrhea due to staphylococcus
+^ESCTDI660740	Diarrhoea due to staphylococcus toxin
+^ESCTDI660741	Diarrhea due to staphylococcus toxin
+^ESCTDI660742	Diarrhoea caused by staphylococcus
+^ESCTDI660743	Diarrhea caused by staphylococcus
+^ESCTDI660744	Diarrhea caused by staphylococcus toxin
+^ESCTDI660745	Diarrhoea caused by staphylococcus toxin
+^ESCTDI690206	Disease caused by West Nile virus
+^ESCTDR316429	Dry form of cutaneous leishmaniasis
+^ESCTDR350419	Dry tooth socket
+^ESCTDR514413	Draining sinus co-occurrent and due to chronic osteomyelitis
+^ESCTDR653082	Drainage of abscess of peritonsillar tissues
+^ESCTDR656791	Dracontiasis - guinea-worm
+^ESCTDR656792	Dracontiasis
+^ESCTDR656793	Dracunculosis
+^ESCTDR656796	Dracunculiasis
+^ESCTDU419237	Duhring's disease
+^ESCTDU419239	Duhring-Brocq disease
+^ESCTDU474334	Dum Dum fever
+^ESCTDU474336	Dum-dum fever
+^ESCTDU606064	Duchenne's disease
+^ESCTDY325658	Dysenteric diarrhea
+^ESCTDY420143	Dysentery
+^ESCTEA325915	Eaton's agent pneumonia
+^ESCTEA591138	Early yaws skin lesion
+^ESCTEA689945	Eastern equine encephalitis virus infection
+^ESCTEB309772	Ebola hemorrhagic fever
+^ESCTEB309773	Ebola haemorrhagic fever
+^ESCTEB591321	EBV - Epstein-Barr virus hepatitis
+^ESCTEC283417	Echinococcus multilocularis infection
+^ESCTEC357268	Echinococcus granulosus thyroid gland infection
+^ESCTEC371835	Echinococciasis
+^ESCTEC371838	Echinococcus disease
+^ESCTEC372604	Echinococcus granulosus pulmonary infection
+^ESCTEC372605	Echinococcus granulosus lung infection
+^ESCTEC376028	Echovirus exanthem
+^ESCTEC474227	Eczema herpeticum
+^ESCTEC476785	Echovirus meningitis
+^ESCTEC552559	Echovirus infection
+^ESCTEM295250	EM - Enteroviral meningitis
+^ESCTEM299025	Empyema necessitans
+^ESCTEM345110	Empyema thoracis
+^ESCTEM552523	Empyema of pleura without fistula
+^ESCTEN291069	Endemic typhus
+^ESCTEN302488	Enterovirus enteritis
+^ESCTEN305522	Encephalitis, viral
+^ESCTEN314725	Encephalitis due to Langat virus
+^ESCTEN314727	Encephalitis caused by Langat virus
+^ESCTEN318247	Enteric paratyphosis
+^ESCTEN325909	Endemic pneumonia
+^ESCTEN326834	Encephalitis, Western equine
+^ESCTEN335865	Encephalitis, Japanese
+^ESCTEN336996	Enterovirus infection
+^ESCTEN336997	Enteroviral infection
+^ESCTEN345640	Endoepidemic hemorrhagic viremia
+^ESCTEN345645	Endoepidemic haemorrhagic viraemia
+^ESCTEN369944	Endocarditis lenta
+^ESCTEN420032	Enteric colibacillosis
+^ESCTEN474095	Enteritis caused by rotavirus
+^ESCTEN474247	Encephalitis due to Far Eastern tick-borne encephalitis virus
+^ESCTEN474266	Enteroviral vesicular pharyngitis
+^ESCTEN514654	Enterotoxigenic Escherichia coli gastrointestinal tract infection
+^ESCTEN514656	Enteropathogenic Escherichia coli gastrointestinal tract infection
+^ESCTEN514660	Enterohaemorrhagic Escherichia coli gastrointestinal tract infection
+^ESCTEN514661	Enterohemorrhagic Escherichia coli gastrointestinal tract infection
+^ESCTEN514662	Enterohemorrhagic Escherichia coli infection
+^ESCTEN514663	Enteroinvasive Escherichia coli gastrointestinal tract infection
+^ESCTEN549123	Enteritis caused by specified virus
+^ESCTEN549139	Enteroviral vesicular stomatitis with exanthem
+^ESCTEN599275	Encephalitis due to influenza
+^ESCTEN599276	Encephalitis caused by influenza
+^ESCTEN599301	Encephalitis caused by influenza-virus identified
+^ESCTEN689946	Encephalitis, Eastern equine
+^ESCTEN690941	Encephalitis, St-Louis
+^ESCTEN694431	Encephalitis due to rickettsia
+^ESCTEN694432	Encephalitis caused by rickettsia
+^ESCTEN707893	Encephalitis caused by human herpes simplex virus
+^ESCTEN768414	Enteritis caused by Yersinia enterocolitica
+^ESCTEO561388	Eosinophilic lung
+^ESCTEP273018	Epidemic acute poliomyelitis specified as non paralytic
+^ESCTEP273020	Epidemic acute poliomyelitis, non paralytic
+^ESCTEP312948	Epidemic typhus
+^ESCTEP334511	Epidemic arthritic erythema
+^ESCTEP476758	Epidemic meningitis
+^ESCTEP479062	Epididymitis associated with another disorder
+^ESCTEP479064	Epididymo-orchitis associated with another disorder
+^ESCTEP591320	Epstein-Barr virus hepatitis
+^ESCTER253099	Erythema induratum
+^ESCTER305918	Erythema contagiosum
+^ESCTER334512	Erythema arthriticum epidemicum
+^ESCTER363181	Erythema chronica migrans
+^ESCTER363184	Erythema chronicum migrans skin condition
+^ESCTER629756	Erysipelothrix
+^ESCTER629757	Erysipelothrix (disease)
+^ESCTER629759	Erysipelothrix disease
+^ESCTES420031	Escherichia gastroenteritis
+^ESCTEU312953	European typhus
+^ESCTEU678863	Eumycotic mycetoma
+^ESCTEU678865	Eumycetoma
+^ESCTEV309776	EVD - Ebola virus disease
+^ESCTEV464568	Evacuation of intracranial subdural abscess
+^ESCTEX312951	Exanthematic typhus
+^ESCTEX338238	Exanthema subitum
+^ESCTEX350717	Extradural abscess
+^ESCTEX378964	Expanded rubella syndrome
+^ESCTEX378966	Extended congenital rubella syndrome
+^ESCTEX514791	Extrapulmonary legionella infection
+^ESCTEX729419	Exposure to rubella in pregnancy
+^ESCTFA351901	Falciparum malaria
+^ESCTFA474249	Far Eastern tick-borne encephalitis
+^ESCTFE252187	Fever blister
+^ESCTFE292054	Fever due to Leptospira autumnalis
+^ESCTFE479133	Female pelvic inflammation
+^ESCTFE508823	Fecal peritonitis
+^ESCTFE563886	Female pelvic cellulitis
+^ESCTFI375452	Fibrinous pleuritis
+^ESCTFI412294	Filariosis
+^ESCTFI412295	Filariasis
+^ESCTFI474311	Fievre boutonneuse
+^ESCTFI474474	Filariasis caused by Brugia timori
+^ESCTFI510266	Fitz-Hugh and Curtis syndrome
+^ESCTFI510268	Fitz-Hugh-Curtis syndrome - gonococcal
+^ESCTFI561386	Filarial hypereosinophilia
+^ESCTFL259791	Flu
+^ESCTFL291070	Flea-borne typhus
+^ESCTFL291747	Fluke infection
+^ESCTFL291751	Fluke disease
+^ESCTFL308325	Flexner's dysentery
+^ESCTFL312955	Fleckfieber
+^ESCTFL389358	Flexner-Strong bacillus
+^ESCTFL406389	Flu-like symptoms
+^ESCTFO281571	Food poisoning due to Bacillus cereus
+^ESCTFO281573	Food poisoning caused by Bacillus cereus
+^ESCTFO292052	Fort Bragg Fever
+^ESCTFO340288	Fowl plague
+^ESCTFO357301	Follicular salpingitis
+^ESCTFO357503	Food poisoning due to bacteria
+^ESCTFO363840	Food poisoning due to Clostridium perfringens
+^ESCTFO363842	Food poisoning caused by Clostridium perfringens
+^ESCTFO382016	Food poisoning due to Vibrio parahaemolyticus
+^ESCTFO382018	Food poisoning caused by Vibrio parahaemolyticus
+^ESCTFO387648	Food poisoning due to staphylococcus
+^ESCTFO387654	Food poisoning caused by staphylococcus
+^ESCTFR364895	Frambesia
+^ESCTFR552479	Framboesioma
+^ESCTFR591139	Framboeside of early yaws
+^ESCTFU284297	Full lepromatous leprosy
+^ESCTFU364040	Full tuberculoid leprosy
+^ESCTFU474385	Fusospirochetal pharyngitis
+^ESCTFU474386	Fusospirochaetal pharyngitis
+^ESCTFU505349	Fungal pneumonia
+^ESCTFU514790	Fusobacterial necrotizing tonsillitis
+^ESCTFU678864	Fungal mycetoma
+^ESCTGA288423	Gangosa of yaws
+^ESCTGA288427	Gangosa
+^ESCTGA373258	Gambian sleeping sickness
+^ESCTGA373260	Gambiense trypanosomiasis infection
+^ESCTGA380872	Gas bacillus infection
+^ESCTGA380876	Gas gangrene due to Clostridia
+^ESCTGA474189	Gas gangrene of foot
+^ESCTGA478515	Gangrenous epigastric hernia
+^ESCTGA508736	Gallbladder stones
+^ESCTGA549129	Gas gangrene caused by clostridium edematiens
+^ESCTGA549130	Gas gangrene caused by Clostridium edematiens
+^ESCTGA697174	Gastrointestinal infection caused by Klebsiella mobilis
+^ESCTGA697175	Gastrointestinal infection caused by Enterobacter aerogenes
+^ESCTGA697176	Gastrointestinal infection caused by Aerobacter aerogenes
+^ESCTGA773864	Gastrointestinal infection
+^ESCTGC274785	GC - Gonococcus infection
+^ESCTGC274787	GCI - Gonococcal infection
+^ESCTGE284922	Geniculate herpes zoster infection
+^ESCTGE334163	General paresis
+^ESCTGE334167	General paresis of the insane
+^ESCTGE471162	Generalized tuberculosis
+^ESCTGE471163	Generalised tuberculosis
+^ESCTGE724120	Genital Herpes simplex type 1 infection
+^ESCTGE761230	Genital tract infection in puerperium
+^ESCTGF552596	GF - Glandular fever
+^ESCTGH393589	Ghon tubercle
+^ESCTGH393590	Ghon complex
+^ESCTGI266981	Giardial enteritis
+^ESCTGI344680	Giardiosis
+^ESCTGL382626	Glue ear - serous
+^ESCTGO258068	Gonococcaemia
+^ESCTGO258069	Gonococcemia
+^ESCTGO258070	Gonococcal septicemia
+^ESCTGO318918	Gonorrhea of rectum
+^ESCTGO322153	Gonococcal infection of joint
+^ESCTGO322155	Gonococcal rheumatism
+^ESCTGO370896	Gonorrhoea of pharynx
+^ESCTGO370897	Gonorrhea of pharynx
+^ESCTGO370898	Gonococcal pharyngitis
+^ESCTGO474373	Gonorrhoea of anus
+^ESCTGO474374	Gonorrhea of anus
+^ESCTGO478979	Gonococcal cystitis
+^ESCTGO479051	Gonococcal prostatitis
+^ESCTGP334168	GPI - General paresis of the insane
+^ESCTGR256739	Group D shigella
+^ESCTGR259792	Grippe
+^ESCTGR272798	Group I leprosy
+^ESCTGR311090	Gradenigo syndrome
+^ESCTGR320234	Group A shigella
+^ESCTGR345637	Gripon
+^ESCTGR376106	Green monkey disease
+^ESCTGR389360	Group B shigella
+^ESCTGR478114	Group B streptococcal pneumonia
+^ESCTGR635993	Gram-negative septic shock
+^ESCTGR635994	Gram-negative shock
+^ESCTGS508738	GS - Gallstone
+^ESCTGU549148	Guaitara fever
+^ESCTGU656794	Guinea-worm infection
+^ESCTGU656795	Guinea worm disease
+^ESCTHA266084	Haemic distomiasis
+^ESCTHA341988	Haemoglobinuric fever
+^ESCTHA345638	Haemorrhagic fever due to Junin virus
+^ESCTHA359385	Haemorrhagic fever due to Machupo virus
+^ESCTHA375864	Harvest fever
+^ESCTHA549142	Hand, foot and mouth disease
+^ESCTHA659993	Haemorrhagic leptospiral jaundice
+^ESCTHA704473	HAP - hospital acquired pneumonia
+^ESCTHB459617	HBsAg positive
+^ESCTHE252188	Herpes simplex labialis
+^ESCTHE259860	Helicobacter-associated disease
+^ESCTHE266079	Hemic distomiasis
+^ESCTHE284916	Herpes zoster auricularis
+^ESCTHE284918	Herpetic geniculate ganglionitis
+^ESCTHE284919	Herpes zoster oticus
+^ESCTHE284920	Herpes zoster cephalicus
+^ESCTHE287152	Herpesviral meningitis
+^ESCTHE287534	Herpes infection
+^ESCTHE287535	Herpes
+^ESCTHE294272	Helminth infection
+^ESCTHE294274	Helminthosis
+^ESCTHE294808	Hepatic abscess
+^ESCTHE304456	Herpes genitalis
+^ESCTHE308700	Herpesvirus B infection
+^ESCTHE308701	Herpes simiae infection
+^ESCTHE315149	Hepatitis A
+^ESCTHE320661	Herpetic whitlow
+^ESCTHE320662	Herpetic felon
+^ESCTHE341987	Hemoglobinuric fever
+^ESCTHE344092	Herpes stomatitis
+^ESCTHE344094	Herpes simplex gingivostomatitis
+^ESCTHE345634	Hemorrhagic fever due to Junin virus
+^ESCTHE347155	Herpes simplex vulvitis
+^ESCTHE357442	Hepatitis B
+^ESCTHE357444	Hepatitis B infection
+^ESCTHE359383	Hemorrhagic fever due to Machupo virus
+^ESCTHE383824	Head cold
+^ESCTHE387995	Herpes circinatus
+^ESCTHE392245	Herpes zoster with ophthalmic complications
+^ESCTHE393988	Herpes simplex infection
+^ESCTHE393990	Herpes simplex complex
+^ESCTHE474225	Herpes zoster dermatitis of eyelids
+^ESCTHE474235	Herpes simplex ophthalmicus
+^ESCTHE474261	Hepatitis non-A non-B
+^ESCTHE508657	Hepatitis due to infection
+^ESCTHE508660	Hepatitis D superinfection of hepatitis B carrier
+^ESCTHE514823	Herpes simplex infection of skin
+^ESCTHE607638	Herpetiform aphthous stomatitis
+^ESCTHE607640	Herpetiform aphthae
+^ESCTHE659994	Hemorrhagic leptospiral jaundice
+^ESCTHE700665	Herpes simplex type 2 genital infection
+^ESCTHI390497	HIV infection
+^ESCTHI390498	HIV - Human immunodeficiency virus infection
+^ESCTHI474283	HIV - Human immunodeficiency virus infection constitutional disease
+^ESCTHI698194	HIV - Human immunodeficiency virus infection wasting syndrome
+^ESCTHI819039	HIV (Human immunodeficiency virus) positive general health check service declined - enhanced services administration
+^ESCTHI834271	HIV (human immunodeficiency virus) disease resulting in haematological and immunological abnormalities
+^ESCTHS474232	HSV - Anogenital herpes simplex virus infection
+^ESCTHT771730	HTLV-I-associated myelopathy
+^ESCTHU328220	Humidifier lung
+^ESCTHU328223	Humidifier AND/OR air conditioning pneumonitis
+^ESCTHU406396	Human immunodeficiency virus infection with persistent generalized lymphadenopathy
+^ESCTHU459634	Human immunodeficiency virus (HIV) positive
+^ESCTHU459635	Human immunodeficiency virus positive
+^ESCTHU474282	Human immunodeficiency virus infection constitutional disease
+^ESCTHU474284	Human immunodeficiency virus infection with neurological disease
+^ESCTHU514909	Human papillomavirus infection
+^ESCTHU698196	Human immunodeficiency virus infection wasting syndrome
+^ESCTHU752209	Human immunodeficiency virus (HIV) carrier
+^ESCTHU771728	Human T-cell lymphotropic virus 1-associated myelopathy
+^ESCTHY272445	Hydrophobia
+^ESCTHY337129	Hyperkeratosis of yaws
+^ESCTHY371837	Hydatidosis
+^ESCTHZ284921	HZO - Herpes zoster oticus
+^ESCTIC335445	Iceland disease
+^ESCTIC647638	Icterus neonatorum
+^ESCTIC659726	Icteric leptospirosis
+^ESCTID578771	Idoxuridine adverse reaction
+^ESCTIH315150	IH - Infectious hepatitis
+^ESCTIM351579	Immunodeficiency due to human immunodeficiency virus infection
+^ESCTIM552598	IM - Infective mononucleosis
+^ESCTIM552599	IM - Infectious mononucleosis
+^ESCTIN251571	Intrauterine sepsis of fetus
+^ESCTIN251573	Intrauterine fetal sepsis
+^ESCTIN251574	Intrauterine foetal sepsis
+^ESCTIN251575	Intrauterine sepsis of foetus
+^ESCTIN256655	Infection due to Listeria monocytogenes
+^ESCTIN257607	Infection by Salmonella Typhi
+^ESCTIN265464	Inflammation of prostate
+^ESCTIN266076	Infection by Schistosoma
+^ESCTIN266085	Infection caused by Schistosoma
+^ESCTIN266978	Infection by Giardia lamblia
+^ESCTIN266982	Infection caused by Giardia lamblia
+^ESCTIN268145	Inhalational anthrax
+^ESCTIN272797	Indeterminate leprosy
+^ESCTIN272826	Intraspinal subdural abscess
+^ESCTIN274784	Infection due to Neisseria gonorrhoeae
+^ESCTIN275134	Infection due to Mycobacterium ulcerans
+^ESCTIN278156	Infective tonsillitis
+^ESCTIN286102	Infective myocarditis
+^ESCTIN286543	Infection by Physaloptera
+^ESCTIN286546	Infection caused by Physaloptera
+^ESCTIN287516	Infection due to Borrelia burgdorferi sensu lato
+^ESCTIN287528	Infection due to Neisseria meningitidis
+^ESCTIN288838	Infection of caesarean section AND/OR perineal wound
+^ESCTIN291746	Infection by Trematode
+^ESCTIN292015	Intestinal infection due to Class Cestoda and/or Class Trematoda and/or Phylum Nemata
+^ESCTIN292016	Intestinal infection caused by Class Cestoda and/or Class Trematoda and/or Phylum Nemata
+^ESCTIN294278	Infection due to Class Cestoda and/or Class Trematoda and/or Phylum Nemata
+^ESCTIN294279	Infection caused by Class Cestoda and/or Class Trematoda and/or Phylum Nemata
+^ESCTIN294674	Infection due to Bordetella pertussis
+^ESCTIN296270	Inflammatory disease of the uterus
+^ESCTIN297761	Infectious myositis
+^ESCTIN310576	Inflammatory disease of the cervix
+^ESCTIN312043	Infection by Onchocerca volvulus
+^ESCTIN312046	Infection caused by Onchocerca volvulus
+^ESCTIN315581	Infectious disease
+^ESCTIN315582	Infection
+^ESCTIN316435	Infection by Leishmania tropica major
+^ESCTIN316487	Influenzal bronchopneumonia
+^ESCTIN325148	Inflammation of ovary and fallopian tube
+^ESCTIN325910	Infection by PPLO
+^ESCTIN345438	Infection by Yersinia pestis
+^ESCTIN349323	Infective polyarthritis
+^ESCTIN349324	Infective arthritis of multiple sites
+^ESCTIN353472	Intraspinal epidural abscess
+^ESCTIN353474	Intraspinal extradural abscess
+^ESCTIN355186	Interstitial pneumonitis
+^ESCTIN355941	Infection caused by Clostridium perfringens
+^ESCTIN362491	Infection by Taenia saginata
+^ESCTIN364898	Infection by Treponema pertenue
+^ESCTIN365588	Infection caused by Escherichia coli
+^ESCTIN372575	Intestinal infection due to bacteria
+^ESCTIN373256	Infection by Trypanosoma gambiense
+^ESCTIN373261	Infection caused by Trypanosoma gambiense
+^ESCTIN373689	Inflammation of ovary
+^ESCTIN373898	Infection by Taenia
+^ESCTIN373903	Infection caused by Taenia
+^ESCTIN374068	Infection by Treponema pallidum
+^ESCTIN374552	Inflamed gallbladder
+^ESCTIN375179	Infection by Brugia malayi
+^ESCTIN375184	Infection caused by Brugia malayi
+^ESCTIN375747	Infection by Leishmania mexicana
+^ESCTIN375756	Infection caused by Leishmania mexicana
+^ESCTIN375858	Infection due to Leptospira
+^ESCTIN376115	Infection by Trypanosoma cruzi
+^ESCTIN376120	Infection caused by Trypanosoma cruzi
+^ESCTIN376799	Infection by Wuchereria bancrofti
+^ESCTIN376803	Infection caused by Wuchereria bancrofti
+^ESCTIN381757	Infection due to Mycobacterium leprae
+^ESCTIN383821	Infective rhinitis
+^ESCTIN383823	Infective nasopharyngitis
+^ESCTIN393251	Inflammation of fallopian tube
+^ESCTIN393680	Infection due to mycobacteria
+^ESCTIN406391	Influenza like illness
+^ESCTIN420030	Intestinal infection due to E. coli
+^ESCTIN420034	Intestinal infection due to Escherichia coli
+^ESCTIN420035	Intestinal infection caused by E. coli
+^ESCTIN420036	Intestinal infection caused by Escherichia coli
+^ESCTIN440615	Inflammatory disorder of liver
+^ESCTIN440617	Inflammatory liver disease
+^ESCTIN440834	Infection of digestive system
+^ESCTIN442266	Infection of ear
+^ESCTIN474087	Infection of gastrointestinal tract by Salmonella enterica subspecies arizonae
+^ESCTIN474101	Infiltrative tuberculosis of lung
+^ESCTIN474333	Indian visceral leishmaniasis
+^ESCTIN474454	Infection by cercariae of schistosoma
+^ESCTIN481723	Infective myositis of neck
+^ESCTIN481733	Infective myositis of hand
+^ESCTIN481739	Infective myositis of lower leg
+^ESCTIN487153	Infected arthroplasty
+^ESCTIN515252	Infection by Taenia solium
+^ESCTIN549136	Infection due to Methicillin resistant Staphylococcus aureus
+^ESCTIN549191	Intestinal taenia solium infection
+^ESCTIN552594	Infective mononucleosis
+^ESCTIN556554	Inflammation of testis
+^ESCTIN578748	Inosine pranobex adverse reaction
+^ESCTIN591322	Infectious mononucleosis hepatitis
+^ESCTIN601382	Infective encephalitis
+^ESCTIN601383	Infective meningitis
+^ESCTIN656622	Infection-associated arthritis
+^ESCTIN656790	Infection by Dracunculus medinensis
+^ESCTIN656797	Infection caused by Dracunculus medinensis
+^ESCTIN659995	Infection due to Leptospira interrogans
+^ESCTIN659996	Infection due to Leptospira icterohemorrhagiae
+^ESCTIN660726	Infection due to Clostridium botulinum
+^ESCTIN660727	Infection caused by Clostridium botulinum
+^ESCTIN672975	Infection caused by Mycoplasma pneumoniae
+^ESCTIN677976	Infection due to Bacillus anthracis
+^ESCTIN678460	Infection caused by ESBL bacteria
+^ESCTIN678461	Infection caused by extended spectrum beta-lactamase producing bacteria
+^ESCTIN699238	Inhalation pneumonia
+^ESCTIN706646	Infection due to Streptococcus group B
+^ESCTIN708362	Infection due to Burkholderia pseudomallei
+^ESCTIN708363	Infection due to Whitmore's bacillus
+^ESCTIN708364	Infection due to Pseudomonas pseudomallei
+^ESCTIN708366	Infection due to Malleomyces pseudomallei
+^ESCTIN725165	Inflammation of larynx due to virus
+^ESCTIN725166	Inflammation of larynx caused by virus
+^ESCTIN726705	Influenza A (H1N1)
+^ESCTIN726706	Influenza caused by Influenza A virus subtype H1N1
+^ESCTIN729127	Infection caused by Bacteroides fragilis
+^ESCTIN730283	Inflammation of bronchiole due to Human metapneumovirus
+^ESCTIN730287	Inflammation of bronchiole caused by Human metapneumovirus
+^ESCTIN732410	Infection due to Panton-Valentine leucocidin producing Staphylococcus aureus
+^ESCTIN732412	Infection caused by Panton-Valentine leucocidin producing Staphylococcus aureus
+^ESCTIN732413	Infection caused by Panton-Valentine leukocidin producing Staphylococcus aureus
+^ESCTIN749876	Induced termination of pregnancy complicated by parametritis
+^ESCTIN749878	Induced termination of pregnancy complicated by pelvic peritonitis
+^ESCTIN749894	Induced termination of pregnancy complicated by salpingitis
+^ESCTIN749898	Induced termination of pregnancy complicated by sepsis
+^ESCTIN749900	Induced termination of pregnancy complicated by septic embolism
+^ESCTIN773335	Infection of central nervous system caused by Borrelia burgdorferi
+^ESCTIN773865	Infection of gastrointestinal tract
+^ESCTIR671793	Irritation of the throat
+^ESCTJA308324	Japanese dysentery
+^ESCTJA335860	Japanese encephalitis virus disease
+^ESCTJA335861	Japanese encephalitis
+^ESCTJA335862	Japanese B encephalitis
+^ESCTJA375865	Japanese autumnal fever
+^ESCTJB335864	JBE - Japanese B encephalitis
+^ESCTJU317856	Jungle yellow fever
+^ESCTJU345641	Junin hemorrhagic fever
+^ESCTJU474389	Juxta-articular nodules of yaws
+^ESCTKA474228	Kaposi's varicelliform eruption
+^ESCTKA550307	Katamaya syndrome
+^ESCTKA550308	Katamaya fever
+^ESCTKA695571	Kaposi sarcoma associated with AIDS
+^ESCTKA695572	Kaposi's sarcoma associated with acquired immunodeficiency syndrome
+^ESCTKE372109	Kew Gardens spotted fever
+^ESCTKE474315	Kenyan tick typhus
+^ESCTKE477321	Keratitis caused by syphilis
+^ESCTKE477323	Keratitis caused by tuberculosis
+^ESCTLA251163	Late congenital syphilis, latent (+ sero., - C.S.F., 2 years OR more)
+^ESCTLA251164	Late congenital syphilis - latent
+^ESCTLA251165	Late congenital syphilis, latent (positive serology - cerebrospinal fluid, 2 years OR more)
+^ESCTLA266979	Lambliasis
+^ESCTLA269475	Late quaternary syphilitic aortic aneurysm
+^ESCTLA280263	Lassa hemorrhagic fever
+^ESCTLA282966	Late quaternary syphilitic aortitis
+^ESCTLA364390	Laryngeal tuberculosis
+^ESCTLA367268	Late tertiary syphilis
+^ESCTLA417715	Late effects of poliomyelitis
+^ESCTLA474509	Late effects of tuberculosis of bones and/or joints
+^ESCTLA549159	Late quaternary neurosyphilis
+^ESCTLA660725	Lame sickness
+^ESCTLC659842	LCM - Lymphocytic choriomeningitis
+^ESCTLE284295	Lepromatous leprosy
+^ESCTLE292805	Legionellosis
+^ESCTLE312098	Lepromatous cutaneous leishmaniasis
+^ESCTLE312099	Leproid leishmaniasis
+^ESCTLE375750	Leishmaniasis tegumentaria diffusa
+^ESCTLE375754	Leishmania mexicana complex
+^ESCTLE375755	Leishmania mexicana complex - infection
+^ESCTLE381116	Leishmaniosis
+^ESCTLE478117	Legionnaire's disease
+^ESCTLE478118	Legionnaires' disease
+^ESCTLE478119	Legionnaires disease
+^ESCTLE659992	Leptospirosis icterohemorrhagica
+^ESCTLG474378	LGV - Lymphogranuloma venereum
+^ESCTLI256657	Listerellosis
+^ESCTLI265565	Lichen scrofulosorum
+^ESCTLI300853	Listeria meningitis
+^ESCTLI337707	Libman-Sacks endocarditis
+^ESCTLI478736	Liver abscess due to portal pyemia
+^ESCTLL284298	LL - Full lepromatous leprosy
+^ESCTLO312947	Louse-borne typhus
+^ESCTLO312956	Louse-borne typhus fever
+^ESCTLO326588	Localized Salmonella infection
+^ESCTLO331638	Lower respiratory infection
+^ESCTLO382023	Louisiana pneumonia
+^ESCTLO478212	Loculated empyema
+^ESCTLO514713	Localised cutaneous erysipeloid
+^ESCTLO514714	Localized cutaneous erysipeloid
+^ESCTLO588768	Lower lobe pneumonia
+^ESCTLO656693	Lobular pneumonia
+^ESCTLR331640	LRTI - Lower respiratory tract infection
+^ESCTLT389641	LTB - Laryngotracheobronchitis
+^ESCTLU266735	Lupus exedens
+^ESCTLU374067	Lues
+^ESCTLU374071	Luetic disease
+^ESCTLU512590	Lupus miliaris disseminatum faciei
+^ESCTLV266737	LV - Lupus vulgaris
+^ESCTLY272446	Lyssa
+^ESCTLY474379	Lymphogranuloma inguinale
+^ESCTLY505995	Lymphatic oedema
+^ESCTLY505996	Lymphatic edema
+^ESCTLY505997	Lymphedema
+^ESCTMA280697	Malaria by Plasmodium ovale
+^ESCTMA283504	Malaria by more than one parasite
+^ESCTMA293312	Malaria by Plasmodium vivax
+^ESCTMA294311	Malaria by Plasmodium malariae
+^ESCTMA294312	Malariae malaria
+^ESCTMA334979	Mastoid empyema
+^ESCTMA341986	Malarial hemoglobinuria
+^ESCTMA341989	Malarial haemoglobinuria
+^ESCTMA345636	Mal de Rastrojos
+^ESCTMA351902	Malignant tertian malaria
+^ESCTMA351903	Malaria by Plasmodium falciparum
+^ESCTMA359387	Machupo hemorrhagic fever
+^ESCTMA376104	Marburg virus disease
+^ESCTMA376107	Marburg haemorrhagic fever
+^ESCTMA376108	Marburg hemorrhagic fever
+^ESCTMA380873	Malignant edema
+^ESCTMA380878	Malignant oedema
+^ESCTMA385183	Malarial hepatitis
+^ESCTMA474169	Madura foot - actinomycotic
+^ESCTMA474330	Malaria caused by simian plasmodia
+^ESCTMA474339	Mard el bicha
+^ESCTMA479595	Maternal gonorrhea during pregnancy, childbirth and the puerperium
+^ESCTMA479603	Maternal gonorrhea during pregnancy - baby not yet delivered
+^ESCTME256413	Meningococcemia
+^ESCTME256414	Meningococcal septicemia
+^ESCTME265093	Meningococcal arthritis
+^ESCTME271268	Measles complicated by otitis media
+^ESCTME272549	Meningitis due to Cryptococcus
+^ESCTME274380	Metritis
+^ESCTME287527	Meningococcal infectious disease
+^ESCTME287530	Meningococcal disease
+^ESCTME344506	Meningitis, viral
+^ESCTME406378	Meningitis, bacterial
+^ESCTME474314	Mediterranean spotted fever
+^ESCTME474337	Mediterranean leishmaniasis
+^ESCTME476760	Meningococcal cerebrospinal fever
+^ESCTME476764	Meningitis caused by typhoid fever
+^ESCTME476768	Meningitis caused by pertussis
+^ESCTME476770	Meningitis caused by bacillus pyocyaneus
+^ESCTME476776	Meningitis caused by Friedlander bacillus
+^ESCTME476777	Meningitis caused by klebsiella pneumoniae
+^ESCTME476790	Meningeal sarcoidosis
+^ESCTME476792	Meningitis with clear cerebrospinal fluid
+^ESCTME478418	Megaesophagus in Chagas' disease
+^ESCTME549135	Methicillin resistant Staphylococcus aureus infection
+^ESCTME603005	Meningococcal meningitis with acute meningococcal septicemia
+^ESCTME604295	Meningococcal meningitis with meningococcal septicemia
+^ESCTME770685	Meningitis caused by Histoplasma capsulatum
+^ESCTMI293641	Milker's node
+^ESCTMI293642	Milker's nodule
+^ESCTMI359766	Miscarriage with sepsis
+^ESCTMI397365	Mixed intestinal infection due to Class Cestoda and/or Class Trematoda and/or Phylum Nemata
+^ESCTMI397366	Mixed intestinal infection caused by Class Cestoda and/or Class Trematoda and/or Phylum Nemata
+^ESCTMI552448	Mite-borne typhus due to Rickettsia tsutsugamushi
+^ESCTMI552449	Mite-borne typhus
+^ESCTMI677975	Milzbrand
+^ESCTMO267164	Morganella morganii infection
+^ESCTMO383307	Mollaret's meningitis
+^ESCTMO383309	Mollaret meningitis
+^ESCTMO476780	Morganella morganii meningitis
+^ESCTMO478982	Monilial cystitis
+^ESCTMO552597	Monocytic angina
+^ESCTMR549137	MRSA (Methicillin resistant Staphylococcus aureus) infection
+^ESCTMT326982	MTB - Miliary tuberculosis
+^ESCTMT351907	MT - Malignant tertian malaria
+^ESCTMT351910	MTM - Malignant tertian malaria
+^ESCTMU291068	Murine typhus
+^ESCTMU358066	Murray River encephalitis
+^ESCTMU358067	Murray Valley encephalitis
+^ESCTMU481744	Muscle abscess of neck
+^ESCTMU481748	Muscle abscess of shoulder
+^ESCTMU481750	Muscle abscess of upper arm
+^ESCTMU481752	Muscle abscess of forearm
+^ESCTMU481756	Muscle abscess of pelvis
+^ESCTMU481758	Muscle abscess of thigh
+^ESCTMU481760	Muscle abscess of lower leg
+^ESCTMU481762	Muscle abscess of foot
+^ESCTMU552480	Multiple papillomata of yaws
+^ESCTMV358064	MVE
+^ESCTMV358065	MVE - Murray Valley encephalitis
+^ESCTMY286101	Myocarditis due to infectious agent
+^ESCTMY325912	Mycoplasma pneumoniae pneumonia
+^ESCTMY335447	Myalgic encephalomyelitis syndrome
+^ESCTMY335451	Myalgic encephalitis
+^ESCTMY335452	Myalgic encephalopathy
+^ESCTMY381758	Mycobacterium leprae infection
+^ESCTMY474204	Mycoplasmosis
+^ESCTMY678866	Mycotic mycetoma
+^ESCTMY678868	Mycetomata
+^ESCTMY696095	Mycobacteriosis associated with AIDS
+^ESCTMY696096	Mycobacteriosis associated with acquired immunodeficiency syndrome
+^ESCTMY771732	Myelopathy caused by Human T-lymphotropic virus 1
+^ESCTNA288398	Nairobi sheep virus disease
+^ESCTNA354938	Nasal discharge
+^ESCTNA354941	Nasal catarrh
+^ESCTNA405504	Nail bed infection
+^ESCTNE261082	Negishi encephalitis
+^ESCTNE261264	Necrotic pneumonia
+^ESCTNE261265	Necrotizing pneumonia
+^ESCTNE261266	Necrotising pneumonia
+^ESCTNE335089	Necrotizing fasciitis
+^ESCTNE335090	Necrotizing myositis
+^ESCTNE335091	Necrotising myositis
+^ESCTNE335092	Necrotising cellulitis
+^ESCTNE335093	Necrotizing cellulitis
+^ESCTNE375751	Neotropical leishmaniasis
+^ESCTNE375752	New World cutaneous leishmaniasis
+^ESCTNE478925	Nephropathy associated with vesicoureteral reflux
+^ESCTNE558892	Neonatal sepsis
+^ESCTNE667328	Neonatal systemic candidiasis
+^ESCTNE667329	Neonatal systemic candidosis
+^ESCTNE690934	Neuroinvasive St. Louis encephalitis virus infection
+^ESCTNE690940	Neuroinvasive Saint Louis encephalitis virus infection
+^ESCTNI474377	Nicholas Favre disease
+^ESCTNO337706	Nonbacterial verrucal endocardiosis
+^ESCTNO337710	Nonbacterial verrucous endocarditis
+^ESCTNO345642	North-east Buenos Aires hemorrhagic viremia
+^ESCTNO345643	North-east Buenos Aires haemorrhagic viraemia
+^ESCTNO362190	North Queensland tick typhus
+^ESCTNO364039	Nodular leprosy
+^ESCTNO381104	Nodular tuberculosis of lung
+^ESCTNO463422	Notification of acquired immune deficiency syndrome
+^ESCTNO474316	North Asian tick typhus
+^ESCTNO477979	Nonfilarial chylocele
+^ESCTNO478127	Nocardial pneumonia
+^ESCTNO478923	Non-obstructive reflux-associated chronic pyelonephritis
+^ESCTNO518866	Non-enveloped dsDNA virus
+^ESCTNO518867	Non-enveloped double-stranded deoxyribonucleic acid virus
+^ESCTNO552454	Non-venereal endemic syphilis
+^ESCTNO556553	Non-specific orchitis
+^ESCTNO704472	Nosocomial pneumonia
+^ESCTOB480281	Obstetric non-purulent mastitis - delivered with postnatal complication
+^ESCTOB480282	Obstetric non-purulent mastitis with antenatal complication
+^ESCTOB480285	Obstetric non-purulent mastitis with postnatal complication
+^ESCTOB549980	Obstetric pyemic and septic pulmonary embolism
+^ESCTOC329457	Ocular tuberculosis
+^ESCTOH327851	OHF - Omsk haemorrhagic fever
+^ESCTOH327852	OHF - Omsk hemorrhagic fever
+^ESCTOH345635	O'Higgins' disease
+^ESCTOL316434	Old World cutaneous leishmaniasis
+^ESCTOM327850	Omsk hemorrhagic fever
+^ESCTOM347716	OM - Osteomyelitis
+^ESCTOM356273	OM - Otitis media
+^ESCTON312045	Onchocercosis
+^ESCTON455550	On examination - consolidation present
+^ESCTON457758	On examination - tonsils - quinsy present
+^ESCTON457760	On examination - follicular tonsillitis
+^ESCTON457764	On examination - granular pharyngitis
+^ESCTOR316432	Oriental sore
+^ESCTOR316433	Oriental leishmaniasis
+^ESCTOR561882	Oral sinus
+^ESCTOR607641	Oral herpetiform aphthous ulceration
+^ESCTOS347715	OSTM - Osteomyelitis
+^ESCTOS481915	Osteomyelitis of coccyx
+^ESCTOS481917	Osteomyelitis of clavicle
+^ESCTOT311847	Otitis media with effusion - purulent
+^ESCTOV280698	Ovale tertian malaria
+^ESCTPA274796	Palmar hyperkeratosis of yaws
+^ESCTPA274798	Palmar yaws hyperkeratosis
+^ESCTPA293640	Paravaccinia
+^ESCTPA305919	Parvovirus B19 infection
+^ESCTPA316295	Papulonecrotic tuberculid
+^ESCTPA316296	Papulonecrotic tuberculide
+^ESCTPA322005	Patch of erysipelas
+^ESCTPA325908	PAP due to Mycoplasma pneumoniae
+^ESCTPA325918	PAP caused by Mycoplasma pneumoniae
+^ESCTPA334166	Paretic neurosyphilis
+^ESCTPA334170	Paralytic dementia
+^ESCTPA348111	Parenchymal intracranial abscess
+^ESCTPA349857	Paludism
+^ESCTPA355587	Parainfluenza virus pneumonia
+^ESCTPA355588	Parainfluenzal pneumonia
+^ESCTPA355590	Parainfluenza pneumonia
+^ESCTPA365625	Paratyphoid B fever
+^ESCTPA365626	Paratyphoid B
+^ESCTPA372143	Parrot fever due to Chlamydia psitacci
+^ESCTPA374624	Paratyphoid A fever
+^ESCTPA374625	Paratyphoid A
+^ESCTPA388927	Passive pneumonia
+^ESCTPA454834	Pain in the pharynx
+^ESCTPA478656	Paracolic abscess
+^ESCTPC687051	PCP - Pneumocystis pneumonia
+^ESCTPE270476	Periostitis of ankle AND/OR foot
+^ESCTPE273499	Penile cellulitis
+^ESCTPE328733	Peritonitis of undetermined cause
+^ESCTPE345439	Pest
+^ESCTPE345440	Pestilential fever
+^ESCTPE351908	Pernicious malaria
+^ESCTPE366963	Perionychia
+^ESCTPE381166	Perirenal abscess
+^ESCTPE388063	Peripharyngeal abscess
+^ESCTPE389946	Pemphigoid gestationis
+^ESCTPE406392	Persistent generalised lymphadenopathy
+^ESCTPE406393	Persistent generalized lymphadenopathy
+^ESCTPE474140	Pestis minor
+^ESCTPE478659	Pericecal abscess
+^ESCTPE481940	Periostitis without osteomyelitis, of the pelvic region and/or thigh
+^ESCTPE515074	Periostitis of yaws
+^ESCTPE559205	Peritonitis secondary to peritoneal dialysis
+^ESCTPE599238	Perinatal coagulase-negative staphylococcus
+^ESCTPE650997	Perionychia of toe
+^ESCTPG406394	PGL - Persistent generalised lymphadenopathy
+^ESCTPG406397	PGL - Persistent generalized lymphadenopathy
+^ESCTPH253365	PHN - Post-herpetic neuralgia
+^ESCTPH286545	Physalopterosis
+^ESCTPH286935	Pharyngeal cellulitis
+^ESCTPH454837	Pharyngeal pain
+^ESCTPH474430	Phaeohyphomycotic brain abscess
+^ESCTPH474431	Pheohyphomycotic brain abscess
+^ESCTPH474432	Pheomycotic brain abscess
+^ESCTPI316630	Piry virus disease
+^ESCTPI364896	Pian
+^ESCTPI510258	PID - Acute pelvic inflammatory disease
+^ESCTPL349520	Plantar hyperkeratosis of yaws
+^ESCTPL349522	Plantar yaws hyperkeratosis
+^ESCTPL349858	Plasmodiosis
+^ESCTPL351911	Plasmodium falciparum malaria
+^ESCTPL478215	Pleuritis
+^ESCTPL552521	Pleural empyema with fistula
+^ESCTPL552522	Pleural empyema with no fistula
+^ESCTPM659782	PM - Poliomyelitis
+^ESCTPN276690	Pneumococcal disease
+^ESCTPN302015	Pneumonia in Q fever
+^ESCTPN304781	Pneumonia due to Streptococcus
+^ESCTPN304783	Pneumonia caused by Streptococcus
+^ESCTPN316680	Pneumonia due to Pseudomonas
+^ESCTPN316682	Pneumonia caused by Pseudomonas
+^ESCTPN323103	Pneumonia in typhoid fever
+^ESCTPN325911	Pneumonia due to PPLO
+^ESCTPN325914	Pneumonia due to Mycoplasma pneumoniae
+^ESCTPN325916	Pneumonia caused by Mycoplasma pneumoniae
+^ESCTPN325919	Pneumonia caused by PPLO
+^ESCTPN333490	Pneumonia due to Escherichia coli
+^ESCTPN333491	Pneumonia due to E. coli
+^ESCTPN333493	Pneumonia caused by E. coli
+^ESCTPN333494	Pneumonia caused by Escherichia coli
+^ESCTPN346596	Pneumonia in pertussis
+^ESCTPN346597	Pneumonia in whooping cough
+^ESCTPN354859	Pneumonia caused by Klebsiella pneumoniae
+^ESCTPN355589	Pneumonia due to parainfluenza virus
+^ESCTPN420092	Pneumonia in aspergillosis
+^ESCTPN478113	Pneumonia caused by respiratory syncytial virus
+^ESCTPN478120	Pneumonia due to pleuropneumonia-like organism
+^ESCTPN478121	Pneumonia caused by pleuropneumonia-like organism
+^ESCTPN505345	Pneumonia caused by Chlamydiaceae
+^ESCTPN687053	Pneumocystosis jirovecii pneumonia
+^ESCTPN695354	Pneumocystosis associated with acquired immunodeficiency syndrome
+^ESCTPN697594	Pneumonia associated with AIDS
+^ESCTPN697595	Pneumonia associated with acquired immunodeficiency syndrome
+^ESCTPN730276	Pneumonia caused by Human metapneumovirus
+^ESCTPO254461	Postpartum sepsis
+^ESCTPO271266	Post measles otitis media
+^ESCTPO284925	Postherpetic geniculate ganglionitis
+^ESCTPO286704	Post-tuberculous bronchiectasis
+^ESCTPO307971	Pott's disease
+^ESCTPO320653	Postauricular fistula
+^ESCTPO320654	Postaural fistula
+^ESCTPO320655	Postaural mastoid fistula
+^ESCTPO367300	Postauricular mastoid abscess
+^ESCTPO420074	Post measles encephalitis
+^ESCTPO468257	Postnatal infection
+^ESCTPO468258	Postpartum infection
+^ESCTPO474221	Postchickenpox encephalitis
+^ESCTPO476476	Post measles pneumonia
+^ESCTPO476809	Post-immunisation encephalitis
+^ESCTPO476810	Post-immunization encephalitis
+^ESCTPO476812	Post-bacillus Calmette-Guerin vaccination encephalitis
+^ESCTPO477372	Postseptal orbital cellulitis
+^ESCTPO479565	Postpartum urinary tract infection
+^ESCTPO480270	Postpartum nipple infection
+^ESCTPO480276	Postpartum breast abscess
+^ESCTPO480732	Poliosis - acquired
+^ESCTPO481972	Poliomyelitis osteopathy of the ankle and/or foot
+^ESCTPO659781	Polio
+^ESCTPO659783	Poliomyelitis
+^ESCTPO811450	Positive virology findings
+^ESCTPO819101	Possible influenza due to Influenza A virus subtype H1N1
+^ESCTPO819102	Possible swine influenza
+^ESCTPR266453	Primary syphilis of tonsils
+^ESCTPR268848	Primary bacterial peritonitis
+^ESCTPR294014	Primary syphilis of breast
+^ESCTPR295258	Primary syphilis of lip
+^ESCTPR304534	Prosector's wart
+^ESCTPR311161	Progressive malignant polyserositis
+^ESCTPR325907	Primary atypical pneumonia due to Mycoplasma pneumoniae
+^ESCTPR325917	Primary atypical pneumonia caused by Mycoplasma pneumoniae
+^ESCTPR334165	Progressive general paresis
+^ESCTPR344093	Primary herpetic gingivostomatitis
+^ESCTPR352961	Primary tuberculosis
+^ESCTPR352963	Primary (TB) tuberculosis
+^ESCTPR359768	Pregnancy loss with sepsis
+^ESCTPR373402	Proliferative Garre's osteomyelitis
+^ESCTPR380877	Progressive emphysematous necrosis
+^ESCTPR474099	Primary progressive tuberculosis with tuberculous pleurisy
+^ESCTPR478115	Proteus pneumonia
+^ESCTPR487152	Prosthetic joint infection
+^ESCTPR549155	Primary syphilis - chancre
+^ESCTPS293639	Pseudocowpox
+^ESCTPS338239	Pseudorubella
+^ESCTPS549300	Psoas muscle abscess
+^ESCTPS701031	Pseudomembranous enterocolitis
+^ESCTPT451460	PTB - Pulmonary tuberculosis
+^ESCTPU254457	Puerperal septicemia
+^ESCTPU254458	Puerperal fever
+^ESCTPU255464	Pulmonary candidiasis
+^ESCTPU255465	Pulmonary candidosis
+^ESCTPU365093	Purulent dermatitis
+^ESCTPU365097	Pustuloderma
+^ESCTPU387234	Pulmonary disease caused by Mycobacteria
+^ESCTPU474156	Pulmonary Mycobacterium avium complex infection
+^ESCTPU508819	Purulent peritonitis
+^ESCTPU626187	Puumala virus nephropathy
+^ESCTPU687052	Pulmonary pneumocystosis
+^ESCTPY299024	Pyothorax with bronchocutaneous fistula
+^ESCTPY309114	Pyogenic arthritis of shoulder region
+^ESCTPY347714	Pyogenic inflammation of bone
+^ESCTPY349302	Pyogenic arthritis of hand
+^ESCTPY355154	Pyogranulomatous dermatitis
+^ESCTPY355864	Pyomyositis
+^ESCTPY365092	Pyodermia
+^ESCTPY365096	Pyogenic dermatitis
+^ESCTPY394618	Pyometrium
+^ESCTPY478933	Pyelonephritis associated with another disorder
+^ESCTPY478936	Pyelitis associated with another disorder
+^ESCTPY550219	Pyogenic arthritis of the ankle and/or foot
+^ESCTPY637357	Pyoarthrosis
+^ESCTPY637361	Pyogenic arthritis of hip
+^ESCTPY638326	Pyocystis
+^ESCTPY659317	Pyosalpingitis
+^ESCTQF302016	Q fever pneumonia
+^ESCTQU375866	Queensland fever
+^ESCTRA284924	Ramsay Hunt syndrome - auricular
+^ESCTRA284926	Ramsay Hunt syndrome 2
+^ESCTRA320672	Ray fungus disease of the intestines
+^ESCTRA334510	Rat-bite fever due to Streptobacillus moniliformis
+^ESCTRA478023	RAT - Recurrent acute tonsillitis
+^ESCTRA500472	Rasmussen encephalitis
+^ESCTRB837474	RBC (red blood cell) malaria parasitaemia count
+^ESCTRE268147	Respiratory anthrax
+^ESCTRE276024	Retroperitoneal tuberculosis
+^ESCTRE278718	Retrocecal abscess
+^ESCTRE318920	Rectal gonorrhoea
+^ESCTRE318921	Rectal gonorrhea
+^ESCTRE327261	Recrudescent typhus fever
+^ESCTRE327262	Recrudescent typhus due to Rickettsia prowazekii
+^ESCTRE478927	Reflux nephropathy
+^ESCTRE479024	Recurrent UTI - urinary tract infection
+^ESCTRE694791	Recurrent fever
+^ESCTRE694792	Recurrent fever due to Borrelia
+^ESCTRE694793	Relapsing fever due to Borrelia
+^ESCTRE826531	Referral to community HIV (human immunodeficiency virus) nurse specialist
+^ESCTRH262001	Rheumatic pneumonitis
+^ESCTRH269134	Rheumatic disease of aortic valve
+^ESCTRH287799	Rheumatic pancarditis
+^ESCTRH288424	Rhinopharyngitis mutilans of yaws
+^ESCTRH329084	Rheumatic disease of endocardium
+^ESCTRH341793	Rheumatic adherent pericardium
+^ESCTRH354940	Rhinorrhea
+^ESCTRH477573	Rheumatic degeneration of myocardium
+^ESCTRI372108	Rickettsialpox due to Rickettsia akari
+^ESCTRI375867	Rice-field worker's disease
+^ESCTRI578765	Ribavirin adverse reaction
+^ESCTRN478926	RN - Reflux nephropathy
+^ESCTRO474094	Rotavirus enteritis
+^ESCTRO549149	Rochalimaea infection
+^ESCTRS340541	RSV - Respiratory syncytial virus infection
+^ESCTRT557383	RTI - Respiratory tract infection
+^ESCTRU272476	Rubeola
+^ESCTRU280839	Rubella arthritis
+^ESCTRU349283	Rubeola scarlatinosa
+^ESCTRU349284	Rubella scarlatiniforma
+^ESCTRU388156	Rubella in mother complicating pregnancy, childbirth AND/OR puerperium
+^ESCTRU474248	Russian spring-summer encephalitis
+^ESCTSA325147	Salpingo-oophoritis
+^ESCTSA325149	Salpingitis and oophoritis
+^ESCTSA328224	Sauna takers lung
+^ESCTSA476788	Sarcoid meningitis
+^ESCTSA477724	Sarcoid heart muscle disease
+^ESCTSA690937	Saint Louis encephalitis
+^ESCTSB268850	SBP - Spontaneous bacterial peritonitis
+^ESCTSB369943	SBE
+^ESCTSB369945	SBE - Subacute bacterial endocarditis
+^ESCTSC266080	Schistosomosis
+^ESCTSC337728	Scrofula
+^ESCTSC349070	Schistosoma haematobium infection
+^ESCTSC349073	Schistosomiasis of bladder
+^ESCTSC373399	Sclerosing osteomyelitis of Garr?
+^ESCTSC373400	Sclerosing osteomyelitis of Garre
+^ESCTSC384703	Scrofuloderma
+^ESCTSC474451	Schistosome dermatitis
+^ESCTSC474453	Schistosomal cercarial dermatitis
+^ESCTSC480570	Scalded skin syndrome
+^ESCTSC550306	Schistosoma japonicum infection
+^ESCTSC552447	Scrub typhus
+^ESCTSE262919	Sexually transmissible disease
+^ESCTSE264404	Septicemic plague
+^ESCTSE275135	Searles's ulcer
+^ESCTSE282342	Septic arthritis of ankle
+^ESCTSE283299	Severe dengue
+^ESCTSE306274	Septic arthritis of multiple sites
+^ESCTSE309116	Septic arthritis of shoulder region
+^ESCTSE320635	Septic sore throat
+^ESCTSE347331	Secondary syphilitic adenopathy
+^ESCTSE347332	Secondary syphilitic lymphadenitis
+^ESCTSE347334	Secondary syphilitic lymphadenopathy
+^ESCTSE349304	Septic arthritis of hand
+^ESCTSE365095	Septic dermatitis
+^ESCTSE374534	Septicaemic shock
+^ESCTSE374535	Septicemic shock
+^ESCTSE374536	Sepsis-associated hypotension
+^ESCTSE375861	Seven day fever
+^ESCTSE381364	Secondary syphilis of liver
+^ESCTSE382274	Secondary syphilis of tonsil
+^ESCTSE417716	Sequelae of poliomyelitis
+^ESCTSE417718	Sequela of infection caused by Human poliovirus
+^ESCTSE474354	Secondary syphilis of skin and mucous membrane
+^ESCTSE474505	Sequelae of central nervous system tuberculosis
+^ESCTSE474508	Sequelae of genitourinary tuberculosis
+^ESCTSE474512	Sequelae of tuberculosis of bones and joints
+^ESCTSE478935	Secondary pyelonephritis
+^ESCTSE479883	Sepsis during labour, delivered
+^ESCTSE479884	Septicemia during labor - delivered
+^ESCTSE479886	Sepsis during labor, delivered
+^ESCTSE483729	Sepsis of newborn caused by Staphylococcus aureus
+^ESCTSE483731	Sepsis of newborn caused by Escherichia coli
+^ESCTSE513904	Septic arthritis of wrist
+^ESCTSE513906	Septic arthritis of elbow
+^ESCTSE549157	Secondary syphilis of viscera or bone
+^ESCTSE550218	Septic arthritis of the pelvic region and thigh
+^ESCTSE550221	Septic arthritis of the ankle and/or foot
+^ESCTSE558893	Sepsis neonatorum
+^ESCTSE600272	Septicemia due to enterococcus
+^ESCTSE600273	Sepsis due to enterococcus
+^ESCTSE600274	Septicemia caused by enterococcus
+^ESCTSE600275	Sepsis caused by enterococcus
+^ESCTSE600276	Septicaemia caused by enterococcus
+^ESCTSE637363	Septic arthritis of hip
+^ESCTSE734459	Sepsis caused by Haemophilus influenzae
+^ESCTSE734652	Sepsis caused by Candida
+^ESCTSE734655	Sepsis caused by anaerobic bacteria
+^ESCTSE734717	Sepsis caused by Staphylococcus
+^ESCTSE734723	Sepsis caused by Actinomyces
+^ESCTSE734725	Sepsis caused by Escherichia coli
+^ESCTSE735466	Sepsis caused by Staphylococcus aureus
+^ESCTSE735468	Sepsis caused by Streptococcus
+^ESCTSE735469	Sepsis due to Streptococcus agalactiae
+^ESCTSE735471	Sepsis caused by Streptococcus agalactiae
+^ESCTSE735472	Sepsis caused by Streptococcus group B
+^ESCTSE735476	Sepsis caused by Streptococcus pneumoniae
+^ESCTSE736013	Sepsis due to herpes simplex
+^ESCTSE736014	Sepsis caused by herpes simplex
+^ESCTSE736053	Sepsis caused by Pseudomonas
+^ESCTSE736445	Sepsis caused by Gram negative bacteria
+^ESCTSE736447	Sepsis caused by Salmonella
+^ESCTSE736448	Sepsis due to Serratia
+^ESCTSE736449	Sepsis caused by Serratia
+^ESCTSE736853	Sepsis caused by Listeria monocytogenes
+^ESCTSE737110	Sepsis due to Streptococcus pyogenes
+^ESCTSE737112	Sepsis caused by Streptococcus pyogenes
+^ESCTSE737113	Sepsis caused by Streptococcus group A
+^ESCTSE737115	Sepsis caused by coagulase negative Staphylococcus
+^ESCTSH256737	Shigella sonne
+^ESCTSH256738	Shigella biogroup D
+^ESCTSH291073	Shop typhus
+^ESCTSH308323	Shigella gastroenteritis
+^ESCTSH308326	Shigella dysentery
+^ESCTSH320232	Shiga's bacillus
+^ESCTSH320233	Shigella serogroup A
+^ESCTSH320235	Shigella biogroup A
+^ESCTSH357443	SH - Serum hepatitis
+^ESCTSH389359	Shigella biogroup B
+^ESCTSI338240	Sixth disease
+^ESCTSI382625	Simple chronic serous otitis media
+^ESCTSI474340	Sirkari disease
+^ESCTSL690936	SLE - Saint Louis encephalitis
+^ESCTSL698193	Slim disease
+^ESCTSM364038	Smooth leprosy
+^ESCTSO376118	South American trypanosomiasis
+^ESCTSP293223	Spermatocystitis
+^ESCTSP316229	Spirochetal infection
+^ESCTSP316230	Spirochetosis
+^ESCTSP353470	Spinal epidural abscess
+^ESCTSP353471	Spinal extradural abscess
+^ESCTSP362191	Spotted fever due to Rickettsia australis
+^ESCTSP375860	Spirochetal jaundice
+^ESCTSP474207	Spinal paralytic poliomyelitis
+^ESCTSP677977	Splenic fever
+^ESCTSS476794	SSPE - Subacute sclerosing panencephalitis
+^ESCTSS480571	SSSS - Staphylococcal scalded skin syndrome
+^ESCTST262922	STD - Sexually transmitted disease
+^ESCTST262923	Statutory venereal disease
+^ESCTST287514	Steere's disease
+^ESCTST320637	Strept throat
+^ESCTST320638	Strep throat
+^ESCTST334508	Streptobacillary fever
+^ESCTST341051	Staphylococcosis
+^ESCTST351906	ST - Subtertian malaria
+^ESCTST351909	STM - Subtertian malaria
+^ESCTST387649	Staphylococcal toxemia specified as due to food
+^ESCTST387650	Staphylococcal toxemia due to food
+^ESCTST387651	Staphylococcal toxaemia due to food
+^ESCTST387652	Staphylococcal toxaemia specified as due to food
+^ESCTST387655	Staphylococcal toxemia caused by food
+^ESCTST387656	Staphylococcal toxaemia specified as caused by food
+^ESCTST387657	Staphylococcal toxaemia caused by food
+^ESCTST387658	Staphylococcal toxemia specified as caused by food
+^ESCTST389422	Streptococcosis
+^ESCTST591125	Streptococcus pyogenes infection
+^ESCTST607639	Stomatitis herpetiformis
+^ESCTST660315	Staphylococcus aureus food poisoning
+^ESCTST690935	St. Louis encephalitis virus neuroinvasive disease
+^ESCTST690938	St. Louis encephalitis
+^ESCTST706645	Streptococcus agalactiae infection
+^ESCTSU313204	Suppurative otitis media
+^ESCTSU335078	Subdiaphragmatic abscess
+^ESCTSU345109	Suppurative pleurisy
+^ESCTSU359507	Subacute osteomyelitis with or without periostitis
+^ESCTSU365094	Suppurative dermatitis
+^ESCTSU367298	Subperiosteal abscess of mastoid
+^ESCTSU508820	Suppurative peritonitis
+^ESCTSU605174	Suspected UTI (urinary tract infection)
+^ESCTSU605176	Suspected urinary tract infection
+^ESCTSU637356	Suppurative arthritis
+^ESCTSU762463	Suspected Ebola virus disease
+^ESCTSU762464	Suspected Ebola hemorrhagic fever
+^ESCTSU762465	Suspected Ebola haemorrhagic fever
+^ESCTSU819051	Suspected influenza A virus subtype H1N1 infection
+^ESCTSW474455	Swamp itch
+^ESCTSW474457	Swimmer's itch
+^ESCTSY258074	Systemic gonococcal infection
+^ESCTSY269472	Syphilitic aneurysm of aorta
+^ESCTSY269473	Syphilitic dilatation of aorta
+^ESCTSY282967	Syphilis-associated aortitis
+^ESCTSY291660	Syphilis of central nervous system
+^ESCTSY317857	Sylvan yellow fever
+^ESCTSY346220	Syphilid
+^ESCTSY398346	Systemic infection
+^ESCTSY549154	Syphilitic chancre
+^ESCTTA271098	Taboparesis
+^ESCTTA271099	Tabo paresis
+^ESCTTA312954	Tabardillo
+^ESCTTA362493	Taenia saginata taeniasis
+^ESCTTA373899	Taeniasis
+^ESCTTA373900	Taeniosis
+^ESCTTA373902	Taenia infection
+^ESCTTA515250	Taenia solium infection
+^ESCTTA549190	Taenia solium infection, intestinal form
+^ESCTTA606063	Tabes dorsalis
+^ESCTTB256970	TB - Urogenital tuberculosis
+^ESCTTB301956	TB - Tuberculous cystitis
+^ESCTTB321405	TB - Renal tuberculosis
+^ESCTTB342137	TB - Tuberculosis
+^ESCTTB344953	TB - Tuberculous meningitis
+^ESCTTB344954	TBM - Tuberculous meningitis
+^ESCTTB382304	TB - Tuberculosis of ureter
+^ESCTTB420023	TB - Urinary tuberculosis
+^ESCTTB451461	TB - Pulmonary tuberculosis
+^ESCTTE367267	Tertiary syphilis
+^ESCTTE373901	Teniasis
+^ESCTTE405931	Testicular abscess
+^ESCTTE476807	TE - Toxoplasma encephalitis
+^ESCTTE749877	Termination of pregnancy complicated by parametritis
+^ESCTTE749879	Termination of pregnancy complicated by pelvic peritonitis
+^ESCTTE749895	Termination of pregnancy complicated by salpingitis
+^ESCTTE749899	Termination of pregnancy complicated by sepsis
+^ESCTTE749901	Termination of pregnancy complicated by septic embolism
+^ESCTTH284748	Thoracic actinomycosis
+^ESCTTH338242	Three day fever
+^ESCTTI312957	Tifus exanthematico
+^ESCTTI362189	Tick typhus due to Rickettsia australis
+^ESCTTI387994	Tinea circinata
+^ESCTTI387998	Tinea circinatus
+^ESCTTI474312	Tick typhus due to Rickettsia conorii
+^ESCTTI474317	Tick fever due to Rickettsia siberica
+^ESCTTO274425	Toxaemia of pregnancy
+^ESCTTO476803	Toxoplasmosis of brain
+^ESCTTR258825	Trypanosomiasis with meningitis
+^ESCTTR276378	Transverse myelopathy syndrome
+^ESCTTR291745	Trematodosis
+^ESCTTR291749	Trematode infestation
+^ESCTTR293252	Trachomatous granular conjunctivitis
+^ESCTTR298261	Trachoma, initial stage
+^ESCTTR298262	Trachoma dubium
+^ESCTTR310577	Trachelitis
+^ESCTTR326603	Tropical steatorrhea
+^ESCTTR326604	Tropical steatorrhoea
+^ESCTTR326606	Tropical enteropathy
+^ESCTTR330781	Trichonocardiasis axillaris
+^ESCTTR330783	Trichomycosis nodosa
+^ESCTTR335633	Trachoma, active stage
+^ESCTTR342491	Tracheal abscess
+^ESCTTR355863	Tropical myositis
+^ESCTTR374070	Treponemal disease
+^ESCTTR378387	Trypanosomosis
+^ESCTTR478984	Trichomonal cystitis
+^ESCTTR552455	Treponarid
+^ESCTTR561384	Tropical pulmonary eosinophilia
+^ESCTTR578763	Tribavirin adverse reaction
+^ESCTTR771731	Tropical spastic paraparesis
+^ESCTTS279378	TSS - Toxic shock syndrome
+^ESCTTS326605	TS - Tropical sprue
+^ESCTTT364042	TT - Full tuberculoid leprosy
+^ESCTTU256969	Tuberculosis of genitourinary system
+^ESCTTU265564	Tuberculosis cutis lichenoides
+^ESCTTU266736	Tuberculosis cutis luposa
+^ESCTTU266738	Tuberculosis lupus exedens
+^ESCTTU266739	Tuberculosis luposa cutis
+^ESCTTU267323	Tuberculous lymphadenopathy
+^ESCTTU267324	Tuberculosis of lymph node
+^ESCTTU269096	Tuberculosis infection latent
+^ESCTTU269313	Tuberculous enteritis
+^ESCTTU270621	Tuberculosis of seminal vesicle
+^ESCTTU272473	Tuberculosis of hip
+^ESCTTU272474	Tuberculosis of hip joint
+^ESCTTU273007	Tuberculous pleural empyema
+^ESCTTU274235	Tuberculosis of oesophagus
+^ESCTTU274236	Tuberculosis of esophagus
+^ESCTTU277193	Tuberculosis of knee
+^ESCTTU277194	Tuberculosis of knee joint
+^ESCTTU278008	Tuberculosis of bones and/or joints
+^ESCTTU295606	Tuberculosis of spleen
+^ESCTTU307972	Tuberculous spondylitis
+^ESCTTU311651	Tuberculous osteitis
+^ESCTTU321835	Tuberculosis of peritoneum
+^ESCTTU321837	Tuberculosis (TB) peritonitis
+^ESCTTU325146	Tubo-ovarian inflammatory disease
+^ESCTTU326459	Tuberculosis of myocardium
+^ESCTTU330213	Tuberculosis (TB) salpingitis
+^ESCTTU335929	Tuberculosis of endocardium
+^ESCTTU337729	Tuberculosis of cervical lymph nodes
+^ESCTTU344951	Tuberculosis of meninges
+^ESCTTU345467	Tuberculous osteomyelitis
+^ESCTTU345770	Tubo ovarian abscess
+^ESCTTU352120	Tuberculosis (TB) of uterine cervix
+^ESCTTU358919	Tuberculosis of skin
+^ESCTTU358921	Tuberculoderma
+^ESCTTU359400	Tuberculosis of pericardium
+^ESCTTU359401	Tuberculous pericarditis
+^ESCTTU364036	Tuberculoid leprosy
+^ESCTTU364043	Tuberculoid Hansen's disease (leprosy)
+^ESCTTU364389	Tuberculosis of larynx
+^ESCTTU364391	Tuberculosis (TB) with laryngitis
+^ESCTTU366119	Tuberculosis of mastoid process
+^ESCTTU371263	Tuberculosis with erythema nodosum AND hypersensitivity reaction
+^ESCTTU371264	Tuberculosis (TB) with erythema nodosum
+^ESCTTU376360	Tuberculosis of trachea
+^ESCTTU384705	Tuberculosis colliquativa cutis
+^ESCTTU386111	Tuberculosis of epididymis
+^ESCTTU386112	Tuberculous epididymitis
+^ESCTTU389296	Tuberculous tracheobronchial adenopathy
+^ESCTTU471915	Tuberculosis chemotherapy
+^ESCTTU474106	Tuberculous pleuritis
+^ESCTTU474129	Tuberculous Addison's disease
+^ESCTTU474132	Tuberculous Addison disease
+^ESCTTU475936	Tuberculous arthropathy
+^ESCTTU475937	Tuberculous rheumatism
+^ESCTTU479607	Tuberculosis in mother complicating pregnancy, childbirth AND/OR puerperium
+^ESCTTU481953	Tuberculosis of humerus
+^ESCTTU481955	Tuberculosis of the pelvic and/or thigh bones
+^ESCTTU481961	Tuberculosis of the bones of the ankle and/or foot
+^ESCTTU505987	Tuberculous mesenteric adenitis
+^ESCTTY272799	Type I leprosy
+^ESCTTY284296	Type L leprosy
+^ESCTTY284299	Type LL leprosy
+^ESCTTY291071	Typhus due to Rickettsia typhi
+^ESCTTY312950	Typhus due to Rickettsia prowazekii
+^ESCTTY323104	Typhoid pneumonia
+^ESCTTY332123	Type C viral hepatitis
+^ESCTTY357440	Type B viral hepatitis
+^ESCTTY364037	Type T leprosy
+^ESCTTY364041	Type TT leprosy
+^ESCTTY514722	Type BT leprosy
+^ESCTTY514725	Type BL leprosy
+^ESCTTY515009	Typhus
+^ESCTTY690939	Type C lethargic encephalitis
+^ESCTUN362492	Unarmed tapeworm infection
+^ESCTUP337838	Upper respiratory tract infection
+^ESCTUP480667	Upper respiratory disease
+^ESCTUR256971	Urogenital tuberculosis
+^ESCTUR291074	Urban typhus
+^ESCTUR320277	Urine peritonitis
+^ESCTUR320278	Uroperitonitis
+^ESCTUR320279	Urinary peritonitis
+^ESCTUR337837	URTI - Infection of the upper respiratory tract
+^ESCTUR337839	URI - Upper respiratory infection
+^ESCTUR361568	Urinary tract infectious disease
+^ESCTUR420022	Urinary tuberculosis
+^ESCTUR565587	URTI - Viral upper respiratory tract infection
+^ESCTUR753430	Urinary tract infection associated with catheter
+^ESCTUT296271	Uterine inflammatory disease
+^ESCTUT301534	Uterus - chronic gonorrhea
+^ESCTUT356157	Uterus - acute gonorrhea
+^ESCTUT361570	UTI - Urinary tract infection
+^ESCTUT371842	Uterine abscess
+^ESCTVA266688	Varicella-zoster meningitis
+^ESCTVA474223	Varicella encephalitis
+^ESCTVA478131	Varicella pneumonia
+^ESCTVA600252	Vancomycin resistant enterococcal septicaemia
+^ESCTVA600253	Vancomycin resistant enterococcal septicemia
+^ESCTVD262924	VD - Venereal disease
+^ESCTVE255138	Vesical blood fluke
+^ESCTVE262918	Venereal disease
+^ESCTVE304532	Verruca necrogenica
+^ESCTVE328222	Ventilation pneumonitis
+^ESCTVE372107	Vesicular rickettsiosis
+^ESCTVE376105	Vervet monkey disease
+^ESCTVE514658	Verotoxigenic Escherichia coli gastrointestinal tract infection
+^ESCTVH255858	VH - Viral hepatitis
+^ESCTVH514889	VHF - Viral haemorrhagic fever
+^ESCTVH514890	VHF - Viral hemorrhagic fever
+^ESCTVI253928	Viremia
+^ESCTVI253929	Viral sepsis
+^ESCTVI275471	Viral hepatitis A with hepatic coma
+^ESCTVI291948	Viral hepatitis B with hepatic coma
+^ESCTVI304770	Viral infectious disease
+^ESCTVI309774	Viral hemorrhagic fever, Ebola
+^ESCTVI309775	Viral haemorrhagic fever, Ebola
+^ESCTVI315147	Viral hepatitis, type A
+^ESCTVI330762	Viral rash
+^ESCTVI332125	Viral hepatitis type C
+^ESCTVI345647	Viral hemorrhagic fever, Argentine
+^ESCTVI345648	Viral haemorrhagic fever, Argentine
+^ESCTVI353526	Vibrio cholerae infection
+^ESCTVI357445	Viral hepatitis type B
+^ESCTVI373507	Vibrio comma
+^ESCTVI373508	Vibrio albensis
+^ESCTVI376109	Viral haemorrhagic fever, Marburg
+^ESCTVI376110	Viral hemorrhagic fever, Marburg
+^ESCTVI420042	Viral diarrhea
+^ESCTVI442043	Viral dermatological disorders
+^ESCTVI474218	Viral disease characterized by exanthem
+^ESCTVI474383	Vincent's angina - pharyngitis
+^ESCTVI474384	Vincent angina - pharyngitis
+^ESCTVI503608	Vincent tonsillitis
+^ESCTVI503622	Vincent laryngitis
+^ESCTVI513908	Viral arthritis
+^ESCTVI514891	Viral hemorrhagic fever
+^ESCTVI578768	Vidarabine adverse reaction
+^ESCTVI591129	Viral disease of central nervous system
+^ESCTVI678284	Viral otitis interna
+^ESCTVL474341	VL - Visceral leishmaniasis
+^ESCTVO474215	Von Economo's disease
+^ESCTWA304533	Warty tuberculosis
+^ESCTWC294676	WC - Whooping cough
+^ESCTWE326831	WEE
+^ESCTWE326832	Western equine encephalomyelitis
+^ESCTWE326833	WEE - Western equine encephalitis
+^ESCTWE561387	Weingarten's syndrome
+^ESCTWE659727	Weil disease
+^ESCTWE690205	West Nile virus infection
+^ESCTWH708365	Whitmore's disease
+^ESCTWO268146	Woolsorters' disease
+^ESCTWO294275	Worms
+^ESCTWO294276	Worm infestation
+^ESCTWO294277	Worm infection
+^ESCTWU376801	Wuchereriasis
+^ESCTWU376802	Wuchereriosis
+^ESCTXG312595	XGP - Xanthogranulomatous pyelonephritis
+^ESCTXG312596	XGPN - Xanthogranulomatous pyelonephritis
+^ESCTYA288428	Yaws gumma of nose
+^ESCTYA301481	Yaws gumma of bone
+^ESCTYA337130	Yaws hyperkeratosis
+^ESCTYA515072	Yaws of bone
+^ESCTYE385789	Yersiniosis
+^ESCTYF276215	YF - Yellow fever
+^ESCTZI256163	Zika virus disease
+^ESCTZI578750	Zidovudine adverse reaction
+^ESCTZO257445	Zona
+^ESCTZO257447	Zoster
+^ESCTZO286663	Zoonotic bacterial disease
+^ESCTZO392246	Zoster ocular disease
+^ESCTZO392247	Zoster ophthalmicus
+EGTON42	Chlamydial genital infection
+EGTONAC2	Acute tonsilitis/pharyngitis
+EGTONPO1	Post influenzal debility
+EMISNQAB1	Abscess of antecubital fossa related to intravenous drug use
+EMISNQAZ5	Azithromycin resistant gonococcal infection
+EMISNQBR25	Bronchopneumonia
+EMISNQCA1058	Carbapenemase producing Enterobacteriacea carrier
+EMISNQCL27	Clostridium difficile carrier
+EMISNQCO110	Colomycin resistant pseudomonas aeruginosa
+EMISNQCO132	Community acquired pneumonia
+EMISNQFI13	First tick-borne encephalitis vaccination
+EMISNQGR6	Group B streptococcus infection
+EMISNQHE6	Hepatitis C carrier
+EMISNQHI36	HIV monitoring telephone invite
+EMISNQHO51	Hospital acquired pneumonia
+EMISNQIN117	Infection due to streptococcus group A
+EMISNQIN122	Infection due to ESBL bacteria
+EMISNQIN194	Infection due to carbapenemase producing Enterobacteriacea
+EMISNQIN95	Infection by macrolide sensitive Staphylococcus aureus
+EMISNQLO10	Lobar pneumonia
+EMISNQMA86	Macrolide resistant staphylococcus aureus
+EMISNQMI223	Middle East respiratory syndrome
+EMISNQNO54	Nonspecific interstitial pneumonia
+EMISNQPA95	Panton-Valentine Leukocidin (PVL) associated staph. aureus infec
+EMISNQPU11	Purulent cervicitis
+EMISNQSE30	Second tick-borne encephalitis vaccination
+EMISNQSU55	Suspected sepsis
+EMISNQSU81	Suspected ebola virus infection
+EMISNQTH17	Third tick-borne encephalitis vaccination
+EMISNQTU1	Tuberculosis of urinary tract
+EMISNQUR11	Urosepsis
+EMISNQVI15	Viral hepatitis D
+ESCTPO6	Postoperative wound cellulitis
+ESCTSE5	Septic shock
+ESCTWO9	Wound cellulitis
