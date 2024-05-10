@@ -30,3 +30,4 @@
 10893611000001107	Human papillomavirus vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes (product)
 309171000000101	Third human papillomavirus vaccination
 1209198003	Administration of vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigen (procedure)
+428570002	Vaccination for human papillomavirus (procedure)

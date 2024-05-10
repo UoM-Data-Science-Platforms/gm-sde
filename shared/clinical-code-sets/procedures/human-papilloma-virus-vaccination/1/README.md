@@ -8,7 +8,7 @@ Includes procedure codes and admin codes confirming a vaccination has been admin
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `11.8% - 13.1%` is sufficiently narrow that this code set is likely well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.85% - 7.41%` suggests either missing codes or a difference in coding of this vaccination between GP practice systems.
 
 The tables below show that this vaccination is either mostly coded using procedure codes, or there are some medication codes missing.
 

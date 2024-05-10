@@ -12,3 +12,7 @@
 39165611000001102	Benlysta 200mg/1ml solution for injection pre-filled pens (GlaxoSmithKline UK Ltd)
 39165711000001106	Benlysta 200mg/1ml solution for injection pre-filled pens (GlaxoSmithKline UK Ltd)
 40109511000001100	Benlysta 200mg/1ml solution for injection pre-filled pens (GlaxoSmithKline UK Ltd)
+11116001000001106	BELIMUMAB 120mg powder for conc for solution for injection
+11116201000001100	BELIMUMAB 400mg powder for conc for solution for injection
+11115901000001102	BENLYSTA 120mg powder for concentrate for soln for infusion
+11116101000001107	BENLYSTA 400mg powder for concentrate for soln for infusion

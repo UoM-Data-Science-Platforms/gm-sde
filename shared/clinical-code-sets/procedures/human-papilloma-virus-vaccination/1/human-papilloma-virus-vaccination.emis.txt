@@ -53,3 +53,5 @@ HUSU28317NEMIS	Human Papillomavirus Vaccine Adsorbed  Suspension For Injection  
 JHCFI18	First quadrivalent human papillomavirus vaccination
 JHCSE13	Second quadrivalent human papillomavirus vaccination
 JHCTH5	Third quadrivalent human papillomavirus vaccination
+^ESCTHU709041	Human papillomavirus vaccination
+^ESCTVA709040	Vaccination for human papillomavirus
