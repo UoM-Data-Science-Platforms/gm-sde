@@ -536,6 +536,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>covid-positive-antigen-test v1</li>
 <li>covid-positive-pcr-test v1</li>
 <li>covid-positive-test-other v1</li>
+<li>dementia v1</li>
 <li>sle v1</li>
 <li>gout v1</li>
 <li>haematuria v1</li>
@@ -1193,6 +1194,93 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Find_missing_codes last run 2024-01-23</li>
 </ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-test-other/1">https://github.com/rw251/.../tests/covid-positive-test-other/1</a></p>
+<h3>Dementia</h3>
+<p>Any code indicating that a person has dementia, including Alzheimer's disease.</p>
+<p>Code set from https://www.opencodelists.org/codelist/opensafely/dementia-complete/48c76cf8/ supplemented with codes from the NHS PCD refsets.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.67% - 0.81%</code> suggests that this code set is likely well defined.</p>
+<p><em>Update <strong>2024-03-15</strong>: Prevalence now 0.83% - 0.99%.</em></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-12-20</td>
+<td>EMIS</td>
+<td>2438146</td>
+<td style="text-align:right">19770 (0.811%)</td>
+<td style="text-align:right">21772 (0.893%)</td>
+</tr>
+<tr>
+<td>2022-12-20</td>
+<td>TPP</td>
+<td>198637</td>
+<td style="text-align:right">1427 (0.718%)</td>
+<td style="text-align:right">7445 (3.75%)</td>
+</tr>
+<tr>
+<td>2022-12-20</td>
+<td>Vision</td>
+<td>327196</td>
+<td style="text-align:right">2244 (0.686%)</td>
+<td style="text-align:right">2265 (0.692%)</td>
+</tr>
+<tr>
+<td>2024-02-26</td>
+<td>EMIS</td>
+<td>2522441</td>
+<td style="text-align:right">27712 (1.1%)</td>
+<td style="text-align:right">27745 (1.1%)</td>
+</tr>
+<tr>
+<td>2024-02-26</td>
+<td>TPP</td>
+<td>201679</td>
+<td style="text-align:right">2216 (1.1%)</td>
+<td style="text-align:right">1872 (0.928%)</td>
+</tr>
+<tr>
+<td>2024-02-26</td>
+<td>Vision</td>
+<td>334812</td>
+<td style="text-align:right">3169 (0.947%)</td>
+<td style="text-align:right">3170 (0.947%)</td>
+</tr>
+<tr>
+<td>2024-03-15</td>
+<td>EMIS</td>
+<td>2526522</td>
+<td style="text-align:right">24910 (0.986%)</td>
+<td style="text-align:right">24994 (0.989%)</td>
+</tr>
+<tr>
+<td>2024-03-15</td>
+<td>TPP</td>
+<td>201758</td>
+<td style="text-align:right">1928 (0.956%)</td>
+<td style="text-align:right">1948 (0.966%)</td>
+</tr>
+<tr>
+<td>2024-03-15</td>
+<td>Vision</td>
+<td>335186</td>
+<td style="text-align:right">2772 (0.827%)</td>
+<td style="text-align:right">2780 (0.829%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-03-15</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/dementia/1">https://github.com/rw251/.../conditions/dementia/1</a></p>
 <h3>Systemic Lupus Erythematosus (SLE)</h3>
 <p>Codes from: https://www.opencodelists.org/codelist/opensafely/systemic-lupus-erythematosus-sle/2020-05-12/#full-list</p>
 <p>Includes codes for other diagnoses that are &quot;due to&quot; or &quot;caused by&quot; SLE.</p>
@@ -2036,8 +2124,7 @@ The prevalence range <code>23% - 25%</code> suggests that this code set is well 
 <p>Code set for patients with a diagnosis of psychosis or schizophrenia.</p>
 <p>Developed from www.opencodelists.org</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions.
-Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. The prevalence range <code>1% - 1.3%</code> suggests this is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -2070,14 +2157,39 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td>49565 (1.90%)</td>
 <td>49565 (1.90%)</td>
 </tr>
+<tr>
+<td>2024-04-30</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td>42592 (1.68%)</td>
+<td>25346 (1%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>TPP</td>
+<td>201816</td>
+<td>2709 (1.34%)</td>
+<td>2692 (1.33%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>Vision</td>
+<td>335411</td>
+<td>5057 (1.51%)</td>
+<td>3253 (0.97%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-04-30</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/schizophrenia-psychosis/1">https://github.com/rw251/.../conditions/schizophrenia-psychosis/1</a></p>
 <h3>Bipolar affective disorder</h3>
 <p>Code set for patients with a diagnosis of bipolar.</p>
-<p>Developed from www.opencodelists.org</p>
+<p>Developed from www.opencodelists.org and the NHS PCD refsets.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. Prevalence range: 0.28% - 0.54%</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. Prevalence range: <code>0.28% - 0.31%</code> suggests this is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -2110,14 +2222,42 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td>1608 (0.48%)</td>
 <td>1608 (0.48%)</td>
 </tr>
+<tr>
+<td>2024-04-30</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td>322887 (12.8%)</td>
+<td>7791 (0.308%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>TPP</td>
+<td>201816</td>
+<td>1096 (0.543%)</td>
+<td>570 (0.282%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>Vision</td>
+<td>335411</td>
+<td>8076 (2.41%)</td>
+<td>972 (0.29%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-04-30</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/bipolar/1">https://github.com/rw251/.../conditions/bipolar/1</a></p>
 <h3>Eating disorders</h3>
-<p>Any code indicating a diagnosis of anorexia or bulimia or similar eating disorders.</p>
+<p>Any code indicating a diagnosis of anorexia or bulimia or similar eating disorders. SNOMED codes from the NHS PCD refset.</p>
+<ul>
+<li>Does not include &quot;loss of appetite codes&quot; unless there is an indication that it is a symptom of anorexia.</li>
+</ul>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
-<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>0.42% - 0.84%</code> suggests that this code set is well defined.</p>
+<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>0.68% - 0.85%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -2150,14 +2290,39 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">1999 (0.58%)</td>
 <td style="text-align:right">1935 (0.57%)</td>
 </tr>
+<tr>
+<td>2024-04-30</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">34267 (1.35%)</td>
+<td style="text-align:right">21377 (0.845%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">3067 (1.52%)</td>
+<td style="text-align:right">1362 (0.675%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">3719 (1.11%)</td>
+<td style="text-align:right">2472 (0.737%)</td>
+</tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-04-30</li>
+</ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/eating-disorders/1">https://github.com/rw251/.../conditions/eating-disorders/1</a></p>
 <h3>Anxiety</h3>
-<p>Any code indicating a diagnosis of anxiety or other somatoform disorder.</p>
+<p>Any code indicating a diagnosis of anxiety or other somatoform disorder. Developed from SNOMED searches and the opencodelist code set: https://www.opencodelists.org/codelist/opensafely/anxiety-disorders/6aef605a/.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
-<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>18.23% - 18.77%</code> suggests that this code set is well defined.</p>
+<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>21.3% - 22%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -2188,45 +2353,42 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td>Vision</td>
 <td>342344</td>
 <td style="text-align:right">65130 (19.02%)</td>
-<td style="text-align:right">64271 (18.77%))</td>
+<td style="text-align:right">64271 (18.77%)</td>
 </tr>
 <tr>
-<td>2024-02-22</td>
+<td>2024-04-30</td>
 <td>EMIS</td>
-<td>2524209</td>
-<td style="text-align:right">747035 (29.6%)</td>
-<td style="text-align:right">531288 (21%)</td>
+<td>2530927</td>
+<td style="text-align:right">766186 (30.3%)</td>
+<td style="text-align:right">549512 (21.7%)</td>
 </tr>
 <tr>
-<td>2024-02-22</td>
+<td>2024-04-30</td>
 <td>TPP</td>
-<td>201752</td>
-<td style="text-align:right">44715 (22.2%)</td>
-<td style="text-align:right">42585 (21.1%)</td>
+<td>201816</td>
+<td style="text-align:right">46335 (23%)</td>
+<td style="text-align:right">42913 (21.3%)</td>
 </tr>
 <tr>
-<td>2024-02-22</td>
+<td>2024-04-30</td>
 <td>Vision</td>
-<td>335007</td>
-<td style="text-align:right">73840 (22%)</td>
-<td style="text-align:right">69987 (20.9%)</td>
-</tr>
-<tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/anxiety/1">https://github.com/rw251/.../conditions/anxiety/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>335411</td>
+<td style="text-align:right">77888 (23.2%)</td>
+<td style="text-align:right">73817 (22%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-04-30</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/anxiety/1">https://github.com/rw251/.../conditions/anxiety/1</a></p>
 <h3>Self-harm Episodes</h3>
 <p>Defined as any episode of self-harm (except accidental) or attempted suicide</p>
 <p>Readv2 code set supplied by the PI for RQ-029(Steeg)</p>
 <p>CTV3 and SNOMED code sets created using the Reference_Coding table in the GMCR, based on the Readv2 code set.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
-<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. The prevalence range <code>3.83% - 4.17%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -2260,14 +2422,29 @@ Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
 <td style="text-align:right">11975 (3.59%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/selfharm-episodes/1">https://github.com/rw251/.../patient/selfharm-episodes/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>2024-04-30</td>
+<td>EMIS</td>
+<td>2530927</td>
+<td style="text-align:right">105617 (4.17%)</td>
+<td style="text-align:right">105491 (4.17%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>TPP</td>
+<td>201816</td>
+<td style="text-align:right">8865 (4.39%)</td>
+<td style="text-align:right">8072 (4%)</td>
+</tr>
+<tr>
+<td>2024-04-30</td>
+<td>Vision</td>
+<td>335411</td>
+<td style="text-align:right">12867 (3.84%)</td>
+<td style="text-align:right">12836 (3.83%)</td>
 </tr>
 </tbody>
 </table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/selfharm-episodes/1">https://github.com/rw251/.../patient/selfharm-episodes/1</a></p>
 <h3>Urinary tract infection</h3>
 <p>Codes taken from https://phenotypes.healthdatagateway.org/concepts/C2679/version/6771/detail/#home</p>
 <h4>Prevalence log</h4>
