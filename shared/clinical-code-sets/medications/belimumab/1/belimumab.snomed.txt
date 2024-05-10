@@ -1,0 +1,14 @@
+19482111000001102	Belimumab 400mg powder for solution for infusion vials
+19480211000001107	Belimumab 400mg powder for solution for infusion vials
+19480311000001104	Benlysta 400mg powder for concentrate for solution for infusion vials (GlaxoSmithKline UK Ltd)
+19480411000001106	Benlysta 400mg powder for concentrate for solution for infusion vials (GlaxoSmithKline UK Ltd)
+19482011000001103	Belimumab 120mg powder for solution for infusion vials
+19480511000001105	Belimumab 120mg powder for solution for infusion vials
+19480611000001109	Benlysta 120mg powder for concentrate for solution for infusion vials (GlaxoSmithKline UK Ltd)
+19480711000001100	Benlysta 120mg powder for concentrate for solution for infusion vials (GlaxoSmithKline UK Ltd)
+39176811000001101	Belimumab 200mg/1ml solution for injection pre-filled disposable devices
+39165511000001101	Belimumab 200mg/1ml solution for injection pre-filled disposable devices
+40109411000001104	Belimumab 200mg/1ml solution for injection pre-filled disposable devices
+39165611000001102	Benlysta 200mg/1ml solution for injection pre-filled pens (GlaxoSmithKline UK Ltd)
+39165711000001106	Benlysta 200mg/1ml solution for injection pre-filled pens (GlaxoSmithKline UK Ltd)
+40109511000001100	Benlysta 200mg/1ml solution for injection pre-filled pens (GlaxoSmithKline UK Ltd)

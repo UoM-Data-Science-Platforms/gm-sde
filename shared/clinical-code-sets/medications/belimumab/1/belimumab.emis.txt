@@ -1,0 +1,20 @@
+^ESCT1403325	Belimumab 200mg/1ml solution for injection pre-filled disposable devices 1 pre-filled disposable injection
+^ESCT1403326	Benlysta 200mg/1ml solution for injection pre-filled pens (GlaxoSmithKline UK Ltd)
+^ESCT1403327	Benlysta 200mg/1ml solution for injection pre-filled pens (GlaxoSmithKline UK Ltd) 1 pre-filled disposable injection
+^ESCT1403430	Belimumab 200mg/1ml solution for injection pre-filled disposable devices
+^ESCT1432378	Belimumab 200mg/1ml solution for injection pre-filled disposable devices 4 pre-filled disposable injection
+^ESCT1432379	Benlysta 200mg/1ml solution for injection pre-filled pens (GlaxoSmithKline UK Ltd) 4 pre-filled disposable injection
+^ESCTBE1020467	Belimumab 400mg powder for solution for infusion vials 1 vial
+^ESCTBE1020468	Benlysta 400mg powder for concentrate for solution for infusion vials (GlaxoSmithKline UK Ltd)
+^ESCTBE1020469	Benlysta 400mg powder for concentrate for solution for infusion vials (GlaxoSmithKline UK Ltd) 1 vial
+^ESCTBE1020470	Belimumab 120mg powder for solution for infusion vials 1 vial
+^ESCTBE1020471	Benlysta 120mg powder for concentrate for solution for infusion vials (GlaxoSmithKline UK Ltd)
+^ESCTBE1020472	Benlysta 120mg powder for concentrate for solution for infusion vials (GlaxoSmithKline UK Ltd) 1 vial
+^ESCTBE1020481	Belimumab 120mg powder for solution for infusion vials
+^ESCTBE1020482	Belimumab 400mg powder for solution for infusion vials
+BEPO51819NEMIS	Belimumab  Powder for concentrate for solution for infusion  120 mg vial
+BEPO51821NEMIS	Belimumab  Powder for concentrate for solution for infusion  400 mg vial
+BEPO51822NEMIS	Benlysta  Powder for concentrate for solution for infusion  120 mg vial
+BEPO51824NEMIS	Benlysta  Powder for concentrate for solution for infusion  400 mg vial
+BESO138384NEMIS	Belimumab  Solution for injection  200 mg/1 ml, pre-filled disposable device
+BESO138385NEMIS	Benlysta  Solution for injection  200 mg/1 ml, pre-filled pen
