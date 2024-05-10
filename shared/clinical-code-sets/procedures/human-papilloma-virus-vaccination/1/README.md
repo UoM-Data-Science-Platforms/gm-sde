@@ -2,6 +2,8 @@
 
 Any code that indicates that the patient has had a HPV vaccine. Codes taken from 'Human papilloma virus vaccination given' at https://nhs-pcd-refset.pages.dev/.
 
+Other names: Gardasil, Cervarix 
+
 Includes procedure codes and admin codes confirming a vaccination has been administered, as well as medicaiton codes for the vaccination product. 
 
 ## Prevalence log
