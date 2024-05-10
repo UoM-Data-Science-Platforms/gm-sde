@@ -72,6 +72,7 @@ INNER JOIN (
 GROUP BY a.FK_Patient_Link_ID;
 
 -- bring together for final table, which can be joined to, to get first language (where recorded)
+-- use replace function to remove the unnecessary text and be left with just the language
 
 IF OBJECT_ID('tempdb..#FirstLanguage') IS NOT NULL DROP TABLE #FirstLanguage;
 SELECT FK_Patient_Link_ID, 
