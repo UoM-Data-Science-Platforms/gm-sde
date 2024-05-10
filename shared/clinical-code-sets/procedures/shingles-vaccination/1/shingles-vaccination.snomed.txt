@@ -7,3 +7,5 @@
 20110511000001107	Zostavax vaccine powder and solvent for suspension for injection 0.65ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd) (product)
 4639911000001104	Varicella vaccine (live) powder and solvent for solution for injection 0.5ml vials (product)
 7990711000001108	Varicella vaccine (live) powder and solvent for suspension for injection 0.5ml vials (product)
+871899004	Administration of vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen via subcutaneous route (procedure)
+871898007	Administration of vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (procedure)

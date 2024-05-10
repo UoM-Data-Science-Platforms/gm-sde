@@ -1,0 +1,9 @@
+^ESCTBA318149	Bacillus Calmette-Guerin (BCG) vaccination
+^ESCTBA318150	Bacillus Calmette-Guerin vaccination
+^ESCTBA915960	Bacillus Calmette-Guerin vaccine powder and solvent for suspension for injection vials
+^ESCTBC318146	BCG immunization
+^ESCTBO806130	Booster BCG (Bacillus Calmette-Guerin) vaccination
+^ESCTTU318144	Tuberculosis vaccination
+^ESCTTU318145	Tuberculosis immunization
+^ESCTTU318147	Tuberculosis immunisation
+BAIN8798EGTON	Bacillus Calmette-Guerin Vaccine  Injection  
