@@ -1,0 +1,2668 @@
+H06z011	Chest infection
+H05z.00	Upper respiratory infection NOS
+A72..00	Mumps
+H03..00	Acute tonsillitis
+H040.00	Acute laryngitis
+A52..00	Chickenpox - varicella
+K190z00	Urinary tract infection, site not specified NOS
+H302.00	Wheezy bronchitis
+K240.00	Orchitis
+M038.00	Cellulitis of external ear
+H01..11	Sinusitis
+A75..11	Glandular fever
+F52z.00	Otitis media NOS
+A98z.11	Gonorrhoea
+H06z111	Respiratory tract infection
+A55..00	Measles
+M03z.00	Cellulitis and abscess NOS
+H02..13	Throat infection - pharyngitis
+H060.00	Acute bronchitis
+J511.00	Diverticulitis
+H00..11	Common cold
+F540.00	Acute myringitis without otitis media
+K15..00	Cystitis
+A53..00	Herpes zoster
+H02z.00	Acute pharyngitis NOS
+A360.00	Meningococcal meningitis
+A341.11	Scarlet fever
+A56..11	German measles
+K310.13	Mastitis
+J650.00	Acute cholecystitis
+A53..11	Shingles
+A54..00	Herpes simplex
+H27..00	Influenza
+K242.00	Epididymo-orchitis
+H26..00	Pneumonia due to unspecified organism
+K400300	Acute salpingitis
+L124.12	Toxaemia NOS
+A11..00	Pulmonary tuberculosis
+K420100	Endocervicitis unspecified
+M036z00	Cellulitis and abscess of leg NOS
+A020.12	Salmonella food poisoning
+A32..00	Diphtheria
+A33..00	Whooping cough
+G0...00	Acute rheumatic fever
+A84..00	Malaria
+H120.00	Chronic rhinitis
+H120100	Chronic catarrhal rhinitis
+A38..00	Septicaemia
+H25..00	Bronchopneumonia due to unspecified organism
+A02..00	Other salmonella infections
+H043z00	Acute epiglottitis NOS
+H02..00	Acute pharyngitis
+H00..14	Nasal catarrh - acute
+J633.00	Hepatitis unspecified
+H15..11	Quinsy
+A56..00	Rubella
+J650.12	Empyema of gallbladder
+A3...00	Other bacterial diseases
+A541.00	Genital herpes simplex
+H51..00	Pleurisy
+H01..00	Acute sinusitis
+H061.00	Acute bronchiolitis
+F286.15	Myalgic encephalomyelitis
+A79z.00	Viral infection NOS
+K21z.00	Prostatitis NOS
+F563500	Viral labyrinthitis
+K318.00	Breast abscess
+A544.00	Ophthalmic herpes simplex
+K40z.12	Female pelvic infection
+K10y100	Pyelitis unspecified
+AC0..00	Schistosomiasis - bilharziasis
+J552600	Retroperitoneal abscess
+F528.00	Acute bilateral otitis media
+H044.00	Croup
+A35..00	Erysipelas
+A074300	Campylobacter gastrointestinal tract infection
+H00..12	Coryza - acute
+H041.00	Acute tracheitis
+H042.11	Laryngotracheitis
+N010.11	Pyogenic arthritis, unspecified
+K190.00	Urinary tract infection, site not specified
+K420000	Cervicitis unspecified
+M081.00	[X]Cellulitis of other parts of limb
+K155.00	Recurrent cystitis
+H060w00	Acute viral bronchitis unspecified
+M034.11	Cellulitis and abscess of hand
+A3B1.00	Staphylococcal infection
+A701.11	Infective hepatitis
+J632000	Hepatitis in malaria
+F52z.11	Infection ear
+J552C12	Psoas abscess
+R107.00	[D]Unspecified viraemia
+K190.11	Recurrent urinary tract infection
+K402600	Salpingitis unspecified
+H231.00	Pneumonia due to mycoplasma pneumoniae
+A54z.11	Herpes labialis
+A362.00	Meningococcal septicaemia
+A36..00	Meningococcal infection
+K241.00	Epididymitis
+H037.00	Recurrent acute tonsillitis
+J614.00	Chronic hepatitis
+J614200	Chronic aggressive hepatitis
+K41z000	Endometritis unspecified
+A52..11	Chickenpox
+A340.00	Streptococcal sore throat
+M033100	Cellulitis and abscess of axilla
+K10..00	Infections of kidney
+K4...00	Female pelvic inflammatory diseases
+A1...00	Tuberculosis
+H21..00	Lobar (pneumococcal) pneumonia
+M032200	Cellulitis and abscess of back
+K10y000	Pyelonephritis unspecified
+M032600	Cellulitis and abscess of groin
+J651z00	Cholecystitis NOS
+H301.00	Laryngotracheobronchitis
+K401500	Hydrosalpinx
+K403111	Acute pelvic abscess - female
+A980200	Acute gonococcal vulvovaginitis
+J200.00	Acute appendicitis with peritonitis
+M037000	Cellulitis and abscess of foot unspecified
+H03..12	Tonsillitis
+N302.00	Osteomyelitis, unspecified
+A082000	Dysenteric diarrhoea
+A38z.11	Sepsis
+F520.00	Acute suppurative otitis media
+H27z.11	Flu like illness
+AA0..00	Leptospirosis
+A42z.00	Viral meningitis NOS
+J55..00	Peritonitis
+A14..00	Tuberculosis of intestines, peritoneum and mesenteric glands
+A151.00	Tuberculosis of bones and joints
+M036200	Cellulitis and abscess of knee
+K210.00	Acute prostatitis
+A020.00	Salmonella gastroenteritis
+K404300	Chronic abscess of the female pelvis
+K241400	Acute epididymitis
+K40z.00	Female pelvic inflammatory diseases NOS
+H50..00	Empyema
+F02z.00	Unspecified meningitis
+A033.00	Shigella sonnei (group D)
+A70z000	Hepatitis C
+F011500	Meningitis due to lymphocytic choriomeningitis virus
+F03z.00	Encephalitis NOS
+N301.11	Other chronic osteomyelitis
+A3By300	Mycoplasma infection
+H07..00	Chest cold
+K101.00	Acute pyelonephritis
+F53z.00	Mastoiditis NOS
+H06z000	Chest infection NOS
+A075.00	Unspecified bacterial enteritis
+L166.11	Cystitis of pregnancy
+H05z.11	Upper respiratory tract infection NOS
+K190400	Chronic urinary tract infection
+M030011	Cellulitis and abscess of cheek
+N301.00	Other chronic osteomyelitis
+M031.00	Cellulitis and abscess of neck
+A40..00	Acute poliomyelitis
+H120111	Catarrhal child
+K405000	Parametritis unspecified
+A570.11	Fifth disease
+A705000	Viral hepatitis C without mention of hepatic coma
+43C3.11	HIV positive
+F000.00	Haemophilus meningitis
+M036100	Cellulitis and abscess of thigh
+A703.00	Viral (serum) hepatitis B
+M035.00	Cellulitis and abscess of buttock
+M034000	Cellulitis and abscess of hand unspecified
+N241300	Viral myalgia
+K402200	Tubo-ovarian abscess
+A75..00	Infectious mononucleosis
+K100600	Calculous pyelonephritis
+K211.00	Chronic prostatitis
+K190311	Recurrent UTI
+L166500	Infections of kidney in pregnancy
+A07y000	Viral gastroenteritis
+A79z.11	Viral illness
+A061.00	Giardiasis - Lambliasis
+A701.00	Viral (infectious) hepatitis A
+A70..00	Viral hepatitis
+H300.00	Tracheobronchitis NOS
+A341.12	Scarlatina
+M033300	Cellulitis and abscess of elbow
+H00..00	Acute nasopharyngitis
+A150.00	Tuberculosis of spine
+A160.00	Tuberculosis of kidney
+A080z00	Infectious colitis, enteritis and gastroenteritis NOS
+H06z100	Lower resp tract infection
+M021000	Cellulitis and abscess of toe unspecified
+A3B0.00	Streptococcal infection
+M033.00	Cellulitis and abscess of arm
+M034100	Cellulitis and abscess of wrist
+K152y00	Chronic cystitis unspecified
+A76..00	Trachoma
+A743.00	Hand, foot and mouth disease
+M140.00	Dermatitis herpetiformis
+M020000	Cellulitis and abscess of finger unspecified
+A15..00	Tuberculosis of bones and joints
+M036000	Cellulitis and abscess of hip
+H15..00	Peritonsillar abscess - quinsy
+K102100	Perinephric abscess
+Q40A.00	Sepsis of the newborn
+H261.00	Basal pneumonia due to unspecified organism
+F526.00	Acute left otitis media
+A172000	Tuberculous - cervical lymphadenitis
+AB64.00	Mycotic mycetomas
+A97..12	Treponemal infection
+H00..16	Rhinitis - acute
+A161.00	Tuberculosis of bladder
+A330.00	Bordetella pertussis
+A074400	Enteritis due to Yersinia enterocolitica
+F023.00	Arachnoiditis
+F02..00	Meningitis of unspecified cause
+A61..00	Dengue - breakbone fever
+A030.11	Bacillary dysentery
+M021.00	Cellulitis and abscess of toe
+A98..00	Gonococcal infections
+M030.00	Cellulitis and abscess of face
+H031.00	Acute follicular tonsillitis
+F030511	Mumps encephalitis
+A98yy14	Gonococcal cellulitis
+J201.12	Appendix abscess
+AC8z.00	Helminthiasis NOS
+A010.00	Typhoid fever
+N010.00	Pyogenic arthritis, unspecified
+M03z000	Cellulitis NOS
+H054.00	Recurrent upper respiratory tract infection
+A871000	Lyme disease
+8BAD100	TB chemotherapy
+K10z.00	Infection of kidney NOS
+A172.00	Tuberculosis of peripheral lymph nodes
+H160400	Laryngitis sicca
+A01z.00	Paratyphoid fever NOS
+A543.00	Herpetic meningoencephalitis
+H121.00	Chronic pharyngitis
+F4G0100	Orbital cellulitis
+F527.00	Acute right otitis media
+M032000	Cellulitis and abscess of chest wall
+F002.00	Streptococcal meningitis
+M032700	Cellulitis and abscess of perineum
+J631100	Hepatitis in cytomegalic inclusion virus
+K190100	Pyuria, site not specified
+J620z00	Liver abscess NOS
+K284300	Cellulitis of scrotum
+A570.00	Erythema infectiosum - fifth disease
+A784.11	Aphthous fever
+N303000	Osteomyelitis, unspecified
+K40z.13	PID - pelvic inflammatory disease
+A97..11	Syphilis
+F001.00	Pneumococcal meningitis
+AC7z.00	Intestinal helminthiases NOS
+A170600	Tuberculosis lichenoides
+K100.00	Chronic pyelonephritis
+K401300	Chronic salpingitis
+H055.00	Pharyngolaryngitis
+K241200	Epididymitis unspecified
+J552100	Subphrenic abscess
+N302500	Osteomyelitis, unspecified
+M020.00	Cellulitis and abscess of finger
+A980100	Acute gonococcal urethritis
+H024.00	Acute viral pharyngitis
+H06z200	Recurrent chest infection
+A340200	Streptococcal pharyngitis
+A153.00	Tuberculosis of bones and joints
+H56y100	Interstitial pneumonia
+A85..00	Leishmaniasis
+G510.11	Bacterial endocarditis
+M032300	Cellulitis and abscess of abdominal wall
+23E2.00	O/E - consolidation present
+A57z.11	Non specific viral rash
+L452400	Obstetric nonpurulent mastitis with postnatal complication
+F03..12	Myelitis
+F03..11	Encephalomyelitis
+A544000	Unspecified ophthalmic herpes
+M033000	Cellulitis and abscess of shoulder
+AA1..00	Vincent's angina
+A172200	Tuberculous adenitis
+A98yz12	Gonococcal septicaemia
+H040w00	Acute viral laryngitis unspecified
+A121000	Tuberculosis of hilar lymph nodes
+F510011	Acute secretory otitis media
+H20..00	Viral pneumonia
+J633z00	Hepatitis unspecified NOS
+J083000	Cellulitis of floor of mouth
+F531.00	Chronic mastoiditis
+H28..00	Atypical pneumonia
+G02..00	Rheumatic chorea
+AC2..11	Hydatid disease
+A540.00	Eczema herpeticum - Kaposi's varicelliform eruption
+A4zz.11	Viral encephalitis NOS
+G510100	Subacute bacterial endocarditis - SBE
+A070.00	Escherichia coli gastrointestinal tract infection
+A3B2.00	Pneumococcal infection
+A076.00	Enteritis due to specified virus
+A553.00	Measles complicated by meningitis
+J552.11	Abscess of suppurative peritonitis
+F51..00	Nonsuppurative otitis media + eustachian tube disorders
+M080.00	[X]Cellulitis of finger and toe
+H224.00	Pneumonia due to staphylococcus
+A02z.00	Salmonella infection NOS
+A792.00	Coxsackie virus
+J513.00	Diverticular abscess
+M02..00	Cellulitis and abscess of finger and toe
+L166600	Urinary tract infection following delivery
+F510.00	Acute non suppurative otitis media
+N300.00	Other acute osteomyelitis
+A5...00	Viral diseases with exanthem
+A552.00	Postmeasles otitis media
+A3By800	Coliform bacteria
+H27z.12	Influenza like illness
+H060.11	Acute wheezy bronchitis
+A074311	Diarrhoea due to Campylobacter jejuni
+H02..11	Sore throat NOS
+L394500	Infection of obstetric surgical wound
+H2z..00	Pneumonia or influenza NOS
+Q40y100	Neonatal urinary tract infection
+H062.00	Acute lower respiratory tract infection
+H16z.00	Chronic laryngitis NOS
+A541400	Herpesviral infection of perianal skin and rectum
+H051.00	Acute upper respiratory tract infection
+M085.00	Cellulitis of leg
+H05z.12	Viral upper respiratory tract infection NOS
+K409.00	Acute pelvic inflammatory disease
+H02..12	Viral sore throat NOS
+N304.11	Tuberculosis of bones and joints
+F511.00	Chronic otitis media with effusion, serous
+7531100	Drainage of peritonsillar abscess
+H00..13	Febrile cold
+H501000	Pleural abscess
+L166800	Urinary tract infection complicating pregnancy
+A3Ay200	Clostridium difficile infection
+K401600	Salpingitis follicularis
+K241500	Chronic epididymitis
+J552400	Peritoneal abscess
+K40y100	Female chlamydial pelvic inflammatory disease
+M08..00	Cutaneous cellulitis
+F00..00	Bacterial meningitis
+A3B7.00	Pseudomonas infection
+A57y111	Roseola infantum
+F011.00	Meningitis due to viral organisms EC
+A661100	American mountain tick fever
+2DB5.11	O/E - quinsy present
+A94y400	Syphilitic retrobulbar neuritis
+H010.00	Acute maxillary sinusitis
+H30..12	Recurrent wheezy bronchitis
+K21..11	Prostatitis and other inflammatory diseases of prostate
+K420.00	Cervicitis and endocervicitis
+A125.00	Respiratory TB not confirmed bact or histologically
+N302.11	Osteomyelitis, unspecified
+A31..00	Other mycobacterial diseases
+2DB6.00	O/E - follicular tonsillitis
+65VA.00	Notification of whooping cough
+M037200	Cellulitis in diabetic foot
+Lyu6A00	[X]Infection of caesarean section wound following delivery
+N010611	Pyogenic arthritis, unspecified
+L420z00	Puerperal pyrexia NOS
+K400.00	Acute salpingitis and oophoritis
+J651000	Chronic cholecystitis
+L169.00	Herpes gestationis
+A074312	Campylobacter enteritis
+1J4..00	Suspected UTI
+M08B.00	Cellulitis of foot
+A3B5.00	Haemophilus influenzae infection
+F510100	Acute serous otitis media
+L403.00	Puerperal septicaemia
+A382.00	Pneumococcal septicaemia
+F4D1400	Cellulitis of eyelid
+65V7.00	Notification of scarlet fever
+M036.00	Cellulitis and abscess of leg excluding foot
+J631200	Hepatitis in infectious mononucleosis
+7531111	Drainage of quinsy
+M082.00	Cellulitis of face
+H0...00	Acute respiratory infections
+J552000	Subhepatic abscess
+F040400	Extradural intracranial abscess
+F033011	Meningococcal encephalitis
+A341.00	Scarlet fever - scarlatina
+H011.00	Acute frontal sinusitis
+A789A00	HIV disease resulting in wasting syndrome
+H260000	Lung consolidation
+A3B4.11	E.coli infection
+A79y.11	Epstein-Barr virus
+G50z111	Viral pericarditis NOS
+A9...00	Syphilis and other venereal diseases
+H032.00	Acute ulcerative tonsillitis
+A340300	Streptococcal tonsillitis
+N042000	Rheumatic carditis
+A3B1100	Methicillin resistant staphylococcus aureus
+N035.11	Charcot's arthropathy
+A981600	Acute gonococcal endometritis
+F501112	Cellulitis, external ear
+A84X.00	Plasmodium falciparum malaria, unspecified
+A532300	Ophthalmic herpes zoster infection
+A074500	Helicobacter pylori gastrointestinal tract infection
+H120.11	Catarrh unspecified
+16L..00	Influenza-like symptoms
+J614100	Chronic active hepatitis
+H060600	Acute pneumococcal bronchitis
+H00..15	Pyrexial cold
+A742100	Coxsackie pericarditis
+A78A.00	Chlamydial infection
+A788.11	Human immunodeficiency virus infection
+M080.13	[X]Cellulitis of thumb
+A785X00	Cytomegaloviral disease, unspecified
+H036.00	Acute viral tonsillitis
+A020.11	Salmonellosis
+1AG..00	Recurrent urinary tract infections
+H20..11	Chest infection - viral pneumonia
+A03..00	Shigellosis
+A740.00	Herpangina
+H260.00	Lobar pneumonia due to unspecified organism
+M088.00	Cellulitis of arm
+A78X.00	Unspecified viral haemorrhagic fever
+F541.00	Chronic myringitis without mention of otitis media
+K410000	Acute endometritis
+L400.00	Puerperal endometritis
+A116.00	Tuberculous pneumonia
+F525.00	Recurrent acute otitis media
+H12..00	Chronic pharyngitis and nasopharyngitis
+H2...00	Pneumonia and influenza
+H042.00	Acute laryngotracheitis
+H053.00	Tracheopharyngitis
+H035.00	Acute bacterial tonsillitis
+A796.00	Parvovirus infection
+N300Z00	Acute haematogenous osteomyelitis
+K44..00	Female gonococcal pelvic inflammatory disease
+A981100	Acute gonococcal cystitis
+23E2.11	O/E - consolidation
+M036.11	Cellulitis and abscess of leg
+M15y012	Staphylococcal scalded skin syndrome
+J661.00	Cholangitis
+J511z00	Diverticulitis NOS
+J511500	Diverticulitis of the colon
+M030111	Cellulitis and abscess of nose
+K190300	Recurrent urinary tract infection
+R055500	[D]Septic shock
+H043.00	Acute epiglottitis (non strep)
+A7...00	Other viral and chlamydial diseases
+H040200	Acute catarrhal laryngitis
+F520000	Acute suppurative otitis media tympanic membrane intact
+K410500	Subacute endometritis
+A384200	Escherichia coli septicaemia
+A031.00	Shigella flexneri (group B)
+J154400	Helicobacter gastritis
+M036400	Cellulitis and abscess of ankle
+A380100	Septicaemia due to streptococcus, group B
+H47..11	Aspiration pneumonitis
+A79B.00	Human papilloma virus infection
+H060300	Acute purulent bronchitis
+H060500	Acute tracheobronchitis
+A790.00	Adenovirus
+H530z00	Abscess of lung NOS
+F530z00	Acute mastoiditis NOS
+A3Ay100	Toxic shock syndrome
+F53..00	Mastoiditis and related conditions
+H03..11	Throat infection - tonsillitis
+L40..11	Sepsis - puerperal
+A3A6.00	Necrotising fasciitis
+F005.00	Meningitis - meningococcal
+K402100	Ovarian abscess
+A542.00	Herpetic gingivostomatitis
+H2y..00	Other specified pneumonia or influenza
+N000400	Systemic lupus erythematosus with pericarditis
+F011z00	Meningitis - viral NOS
+A076200	Enteritis due to rotavirus
+H16..00	Chronic laryngitis and laryngotracheitis
+A541100	Herpetic vulvovaginitis
+A130.00	Tuberculous meningitis
+F004.00	Meningitis - tuberculous
+F040011	Cerebral abscess
+H030.00	Acute erythematous tonsillitis
+A982100	Chronic gonococcal urethritis
+H22y200	Pneumonia - Legionella
+A3B4.00	Escherichia coli infection
+M03zz00	Cellulitis and abscess NOS
+A654.12	Dengue haemorrhagic fever
+H1y2200	Parapharyngeal abscess
+A991.00	Lymphogranuloma venereum
+N306.00	Tuberculosis of bones and joints
+J511000	Diverticulitis of the duodenum
+A384300	Pseudomonas septicaemia
+H223.00	Pneumonia due to streptococcus
+A167100	Tuberculous endometritis
+H041000	Acute tracheitis without obstruction
+K15z.00	Cystitis NOS
+A570.12	Slapped cheek syndrome
+A42..00	Meningitis due to enterovirus
+K190200	Post operative urinary tract infection
+A79A.00	Respiratory syncytial virus infection
+A380400	Septicaemia due to enterococcus
+H122.00	Chronic nasopharyngitis
+AA41.00	Erythema chronicum migrans
+A37..00	Tetanus
+H270000	Influenza with bronchopneumonia
+42YA.00	Malarial parasites
+L166z11	UTI - urinary tract infection in pregnancy
+H120z00	Chronic rhinitis NOS
+H1y2600	Pharynx or nasopharynx abscess
+K10y200	Pyonephrosis unspecified
+A532.00	Herpes zoster with ophthalmic complication
+A784.00	Foot and mouth disease
+N302000	Osteomyelitis, unspecified
+H27y100	Influenza with gastrointestinal tract involvement
+A3B1111	Multiple resistent staphylococcus aureus
+K402500	Salpingo-oophoritis unspecified
+K101200	Acute pyelitis
+G0z..00	Acute rheumatic fever NOS
+A560200	Rubella deafness
+A120200	Tuberculous hydrothorax
+H121z00	Chronic pharyngitis NOS
+A074313	Helicobacter gastritis
+M032400	Cellulitis and abscess of umbilicus
+A00..00	Cholera
+M03y.00	Other specified cellulitis and abscess
+N010y00	Pyogenic arthritis, unspecified
+H20z.00	Viral pneumonia NOS
+F531z00	Chronic mastoiditis NOS
+J552B00	Male pelvic abscess
+K150.00	Acute cystitis
+G14z.00	Rheumatic endocarditis NOS
+A57..00	Other viral exanthemata
+A1z..00	Tuberculosis NOS
+K41z400	Pyometra unspecified
+A380.00	Streptococcal septicaemia
+H160.00	Chronic laryngitis
+AC33.00	Unspecified taeniasis
+A076.11	Viral diarrhoea
+A3A4.00	Legionella
+M030300	Cellulitis and abscess of submandibular region
+K102000	Renal abscess
+A076z00	Enteritis due to specified virus NOS
+L166300	Genitourinary tract infection in pregnancy - not delivered
+F041.00	Intraspinal abscess
+M030400	Cellulitis and abscess of forehead
+J614z00	Chronic hepatitis NOS
+L40z.00	Major puerperal infection NOS
+L451400	Obstetric breast abscess with postnatal complication
+M030200	Cellulitis and abscess of chin
+H120200	Chronic hypertrophic rhinitis
+F524.00	Purulent otitis media NOS
+A311.11	Buruli ulcer
+AC00.00	Schistosoma haematobium
+A22..00	Anthrax
+K406.11	Acute pelvic inflammatory disease
+H05y.00	Other upper respiratory infections of multiple sites
+L166z00	Genitourinary tract infection in pregnancy NOS
+M037100	Cellulitis and abscess of heel
+J661200	Recurrent cholangitis
+K405.00	Parametritis and pelvic cellulitis unspecified
+A115.00	Tuberculous bronchiectasis
+L452000	Obstetric nonpurulent mastitis unspecified
+N302N00	Osteomyelitis, unspecified
+L45y.00	Other obstetric breast infections
+H012.00	Acute ethmoidal sinusitis
+J650z00	Acute cholecystitis NOS
+A331.00	Bordetella parapertussis
+H271000	Influenza with laryngitis
+J552z00	Other suppurative peritonitis NOS
+AA24.00	Yaws gummata and ulcers
+A39..00	Actinomycotic infections
+H270.00	Influenza with pneumonia
+A3Bz.00	Bacterial infection NOS
+H501100	Thorax abscess NOS
+A076.12	Viral vomiting
+A541000	Genital herpes unspecified
+N300800	Other acute osteomyelitis
+H035z00	Acute bacterial tonsillitis NOS
+F510300	Acute sanguinous otitis media
+A42z.11	Aseptic meningitis
+L166100	Genitourinary tract infection in pregnancy - delivered
+M030500	Cellulitis and abscess of temple region
+J201.00	Acute appendicitis with appendix abscess
+N300600	Other acute osteomyelitis
+J064500	Inflammatory conditions of jaws
+AA1z.11	Vincent's laryngitis
+A57z.00	Other viral exanthemata NOS
+A983700	Chronic gonococcal salpingitis
+K40z.11	PID
+A381.00	Staphylococcal septicaemia
+H04z.00	Acute laryngitis and tracheitis NOS
+H120400	Chronic infective rhinitis
+A061.11	Colitis - giardial
+A401.00	Acute paralytic non-bulbar poliomyelitis
+M032100	Cellulitis and abscess of breast
+A34z.00	Streptococcal sore throat with scarlatina NOS
+A394.00	Madura foot - actinomycosis
+AA1..11	Trench mouth
+N302X00	Osteomyelitis, unspecified
+A340z00	Streptococcal sore throat NOS
+A100.00	Primary tuberculous complex
+N015.00	Arthropathy associated with other viral diseases
+L45z400	Obstetric breast infection NOS with postnatal complication
+H25..11	Chest infection - unspecified bronchopneumonia
+K272300	Cellulitis of penis
+H041z00	Acute tracheitis NOS
+A011.00	Paratyphoid fever A
+A720.00	Mumps orchitis
+A112.00	Tuberculosis of lung with cavitation
+A791.00	ECHO virus
+A170100	Tuberculosis - lupus vulgaris
+H27z.00	Influenza NOS
+A3B6.00	Proteus infection
+A73..00	Ornithosis - psittacosis
+A18..00	Miliary tuberculosis
+L451.11	Purulent mastitis - obstetric
+A79..00	Specific viral infections
+H583100	Tropical eosinophilia
+H120300	Chronic atrophic rhinitis
+A77..00	Other disease conjunctiva due to viruses and chlamydiae NEC
+A541200	Herpetic ulceration of vulva
+N302Y00	Osteomyelitis, unspecified
+M03..00	Other cellulitis and abscess
+65V9.11	TB - tuberculosis notification
+M03..13	Cellulitis of skin area excluding digits of hand or foot
+A07z.00	Gastrointestinal tract infection specified organism NOS
+K420900	Chlamydia cervicitis
+A56x000	Arthritis due to rubella
+J201.11	Abscess of appendix
+A340100	Streptococcal laryngitis
+A114.00	Tuberculous fibrosis of lung
+A364100	Meningococcal pericarditis
+AC...00	Helminthiases
+K172.00	Candidal urethritis
+A3BX500	Oth streptococcus/cause/diseases classified/oth chapters
+AA1z.12	Vincent's tonsillitis
+K400200	Acute salpingo-oophoritis
+G500311	TB - acute pericarditis
+1B1G100	Viral headache
+A07y100	Infantile viral gastroenteritis
+H233.00	Chlamydial pneumonia
+A3BX200	Streptococc,group B/cause/disease classified/oth chapters
+A54x300	Herpesviral vesicular dermatitis
+A154.00	Tuberculous mastoiditis
+H061200	Acute bronchiolitis with bronchospasm
+A36y000	Meningococcal optic neuritis
+J635300	Toxic liver disease with chronic persistent hepatitis
+M08A.00	Cellulitis of axilla
+A541500	Anogenital herpesviral infection
+A7y0X00	Adenovirus/cause of diseases classified to other chapters
+A983500	Chronic gonococcal cervicitis
+H30..11	Chest infection - unspecified bronchitis
+H160100	Chronic catarrhal laryngitis
+N010511	Pyogenic arthritis, unspecified
+J085100	Cellulitis of lip
+N010211	Pyogenic arthritis, unspecified
+L40..00	Major puerperal infection
+J054.00	Orofacial sinus
+K420200	Acute cervicitis
+H023.00	Acute bacterial pharyngitis
+H061z00	Acute bronchiolitis NOS
+A981200	Acute gonococcal prostatitis
+N301M00	Chronic osteomyelitis with draining sinus
+N301.13	Other chronic osteomyelitis
+Nyu0000	[X]Other streptococcal arthritis and polyarthritis
+R106.00	[D]Unspecified bacteraemia
+ZV02100	[V]Typhoid carrier
+A3BX700	Staphylococ aureus/cause/diseases classified/oth chapters
+F510000	Acute otitis media with effusion
+H061500	Acute bronchiolitis due to respiratory syncytial virus
+A3BX100	Streptococc,gp A/cause/disease classified/to oth chapters
+A723.00	Mumps pancreatitis
+H010.11	Antritis - acute
+A021.00	Salmonella septicaemia
+H050.00	Acute laryngopharyngitis
+A532400	Herpes zoster ophthalmicus
+A11y.00	Other specified pulmonary tuberculosis
+H510300	Acute dry pleurisy
+A983200	Chronic gonococcal prostatitis
+H01y000	Acute pansinusitis
+A98y600	Fitzhugh Curtis syndrome
+H26..11	Chest infection - pnemonia due to unspecified organism
+A705400	Hepatitis non A non B
+H043211	Croup
+A3A0.11	Clostridium infection
+A173100	Tuberculous episcleritis
+L450.12	Nipple infection - obstetric
+J511y00	Diverticulitis unspecified
+A782.00	Sweating fever
+AC21.00	Lung echinococcus granulosus
+K402.00	Salpingitis and oophoritis unspecified
+A042.00	Clostridium perfringens food poisoning
+A981300	Acute gonococcal epididymo-orchitis
+A550.00	Postmeasles encephalitis
+H03z.00	Acute tonsillitis NOS
+N300511	Other acute osteomyelitis
+A70z.00	Unspecified viral hepatitis
+L090y00	Sepsis NOS following abortion/ectopic/molar pregnancy
+A301.00	Tuberculoid leprosy (type T)
+K240200	Orchitis unspecified
+H060z00	Acute bronchitis NOS
+A261.00	Rat-bite Streptobacillary fever
+G02..11	Sydenham's chorea
+A361.00	Meningococcal encephalitis
+K402011	Pyosalpinx
+A55z.00	Measles with no complication NOS
+A27y.00	Other specified zoonotic bacterial disease
+A123.00	Tuberculous laryngitis
+N30..00	Osteomyelitis
+L451.00	Obstetric breast abscess
+F520z00	Acute suppurative otitis media NOS
+F510z00	Acute nonsuppurative otitis media NOS
+L452.00	Obstetric nonpurulent mastitis
+M021z00	Cellulitis and abscess of toe NOS
+M030z00	Cellulitis and abscess of face NOS
+A52x.00	Varicella with other specified complications
+A030.00	Shigella dysenteriae (group A)
+A082111	Viral gastroenteritis
+A541z00	Genital herpes simplex NOS
+L452100	Obstetric nonpurulent mastitis - delivered
+A821000	African tick virus
+F520100	Acute suppurative otitis media tympanic membrane ruptured
+F524000	Bilateral suppurative otitis media
+AA11.00	Vincent's gingivitis
+K406000	Acute female pelvic peritonitis
+A5z..00	Viral diseases with exanthemata NOS
+F510200	Acute mucoid otitis media
+H3y0.00	Chronic obstruct pulmonary dis with acute lower resp infectn
+A53y.00	Herpes zoster with unspecified complication
+H0z..00	Acute respiratory infection NOS
+A785.11	Salivary gland virus disease
+H060400	Acute croupous bronchitis
+K100200	Chronic pyelitis
+H53..00	Abscess of lung and mediastinum
+M034013	Cellulitis of dorsum of hand
+A54..11	Herpes simplex viral infection
+H052.00	Pharyngotracheitis
+A87..00	Relapsing fever
+A53z.00	Herpes zoster NOS
+H022.00	Acute ulcerative pharyngitis
+H060800	Acute haemophilus influenzae bronchitis
+K241600	Chlamydial epididymitis
+H121200	Granular pharyngitis
+M030100	Cellulitis and abscess of nose (external)
+A541300	Herpetic infection of penis
+N302b00	Other osteomyelitis
+AA23.00	Hyperkeratosis due to yaws
+J064.12	Inflammatory conditions of jaws
+A78A000	Chlamydial infection of lower genitourinary tract
+A365.00	Meningococcal meningitis with acute meningococcal septicaem
+AD10200	Trichomonal urethritis
+A3BX400	Streptococ pneumon/cause/disease classified/oth chapters
+A10..00	Primary tuberculous infection
+Q40y200	Septicaemia of newborn
+A033.11	Bacillary dysentery Shigella sonnei
+A546.00	Herpes simplex whitlow
+A751.00	Cytomegaloviral mononucleosis
+A841X00	Plasmodium vivax malaria without complication
+65V4.00	Notification of malaria
+A79X.00	Enterovirus infection, unspecified
+A15..11	Tuberculosis of bones and joints
+H040z00	Acute laryngitis NOS
+H22..11	Chest infection - other bacterial pneumonia
+H564.00	Bronchiolitis obliterans organising pneumonia
+R055511	[D]Septicaemic shock
+H22z.00	Bacterial pneumonia NOS
+A7y..00	Other specified viral or chlamydial diseases
+4J35.00	HIV p24 antigen level
+A761.00	Trachoma - active stage
+H540000	Hypostatic pneumonia
+K402000	Fallopian tube abscess
+K240z00	Orchitis NOS
+G861.11	Elephantiasis-non filarial-NOS
+A985000	Gonococcal infection of musculoskeletal system
+A910.11	Genital chancre
+A152.00	Tuberculous arthritis
+A742300	Coxsackie myocarditis
+A931.00	Syphilitic aortitis
+A980.00	Acute gonorrhoea of lower genitourinary tract
+F04z.00	Intracranial or intraspinal abscess NOS
+A120.00	Tuberculous pleurisy
+H510.00	Pleurisy without effusion or active tuberculosis
+L17..00	Infective/parasitic disease in preg/childbirth/puerperium
+H271z00	Influenza with respiratory manifestations NOS
+A840.00	Falciparum malaria - malignant
+H220.00	Pneumonia due to klebsiella pneumoniae
+J614000	Chronic persistent hepatitis
+M032500	Cellulitis and abscess of flank
+A81..00	Other typhus
+N300000	Other acute osteomyelitis
+M034z00	Cellulitis and abscess of hand NOS
+A511.00	Pseudocowpox - Milker's node
+G01y000	Acute rheumatic pancarditis
+N230.11	Purulent myositis
+A60..00	Yellow fever
+H0y..00	Other specified acute respiratory infections
+N309.00	Subacute osteomyelitis
+H24y700	Pneumonia with varicella
+65QA.00	AIDS carrier
+A788.00	Acquired immune deficiency syndrome
+K102.00	Renal and perinephric abscess
+A560100	Rubella encephalomyelitis
+AB64000	Actinomycetoma
+L090z00	Septicaemia NOS following abortive pregnancy
+A160.11	Renal tuberculosis
+A789200	HIV disease resulting in candidiasis
+A171000	Bazin's disease - erythema induratum - TB hypersensitivity
+A384211	E.coli septicaemia
+A7z..00	Other viral or chlamydial disease NOS
+N302a00	Osteomyelitis of vertebra
+AE1..00	Late effects of acute poliomyelitis
+A905200	Syphilitic saddle nose
+A340000	Streptococcal angina
+K404000	Chronic female pelvic cellulitis
+N302700	Osteomyelitis, unspecified
+H24..11	Chest infection with infectious disease EC
+H540100	Hypostatic bronchopneumonia
+N305.00	Tuberculosis of bone
+A076000	Enteritis due to adenovirus
+N301700	Other chronic osteomyelitis
+M030000	Cellulitis and abscess of cheek (external)
+A124000	TB lung confirm sputum microscopy with or without culture
+A310000	Pulmonary mycobacterium avium-intracellulare infection
+N300700	Other acute osteomyelitis
+A7y0200	Resp syncytial virus as cause of dis class to other chapters
+H042z00	Acute laryngotracheitis NOS
+A124700	Primary respiratory TB confirm bact and histologically
+A54y.00	Herpes simplex with unspecified complication
+A366.00	Meningococcal meningitis with meningococcal septicaemia
+2DB5.00	O/E - tonsils - quinsy present
+A15..12	Tuberculosis of bones and joints
+G010.00	Acute rheumatic pericarditis
+H021.00	Acute phlegmonous pharyngitis
+F511.11	Chronic secretory otitis media, serous
+A270400	Listerial endocarditis
+2DC2.00	O/E - granular pharyngitis
+H060x00	Acute bacterial bronchitis unspecified
+A707000	Chronic viral hepatitis B with delta-agent
+J646.00	Calculus of bile duct with cholangitis
+ZV01A00	[V]Asymptomatic human immunodeficency virus infection status
+K404400	Chronic abscess of the pouch of Douglas
+M03y000	Cellulitis and abscess of head unspecified
+M083.00	Cellulitis of trunk
+K100300	Chronic pyonephrosis
+A03y.00	Other specified shigella infection
+M02z.00	Cellulitis and abscess of digit NOS
+AB05.11	Herpes circinatus
+H1y2100	Pharynx or nasopharynx cellulitis
+F03..00	Encephalitis, myelitis and encephalomyelitis
+H042000	Acute laryngotracheitis without obstruction
+A532000	Herpes zoster with dermatitis of eyelid
+J620100	Liver abscess due to cholangitis
+K280.00	Seminal vesiculitis
+H160000	Chronic simple laryngitis
+A521.00	Varicella pneumonitis
+N302600	Osteomyelitis, unspecified
+A78AX00	Chlamydial infection of genitourinary tract, unspecified
+G510.00	Acute and subacute bacterial endocarditis
+A752.00	Pfeiffer's disease
+K241z00	Epididymitis NOS
+M143.00	Impetigo herpetiformis
+H23..00	Pneumonia due to other specified organisms
+M036300	Cellulitis and abscess of lower leg
+A380300	Septicaemia due to streptococcus pneumoniae
+H05..00	Other acute upper respiratory infections
+L284.12	Chorioamnionitis
+H040000	Acute oedematous laryngitis
+M020z00	Cellulitis and abscess of finger NOS
+J550300	Peritonitis - bacterial
+A794.00	Ebola virus disease
+H357.00	pneumonitis
+A3BXB00	Klebsiella pneumoniae/cause/disease classifd/oth chapters
+A172z00	Tuberculosis of peripheral lymph nodes NOS
+A707.00	Chronic viral hepatitis
+A7y0500	Papillomavirus as cause of diseases classif to oth chapters
+J644.00	Bile duct calculus with other cholecystitis
+4J34.00	HIV viral load
+43B4.00	Hepatitis B surface antig +ve
+4JU..00	Presence of virus
+H1y2300	Retropharyngeal abscess
+J55z.00	Peritonitis NOS
+J552800	Pericolic abscess
+A851.00	Urban cutaneous leishmaniasis
+K400000	Acute oophoritis
+A311.13	Cutaneous mycobacterial infections
+A3A0500	Gas gangrene
+AC32.00	Taenia saginata infection
+A164.00	Tuberculosis of epididymis
+A531100	Geniculate herpes zoster
+A04y.00	Other specified bacterial food poisoning
+L166000	Genitourinary tract infection in pregnancy unspecified
+F040.11	Brain abscess
+AC5z.00	Filariasis NOS
+A3A0211	Clostridium perfringens infection
+H24y200	Pneumonia with pneumocystis carinii
+A56z.00	Rubella with no complication NOS
+K43..00	Female tuberculous pelvic inflammatory disease
+M034014	Cellulitis of palm of hand
+F01..00	Meningitis due to other organisms
+A789300	HIV disease resulting in Pneumocystis carinii pneumonia
+J63X.00	Granulomatous hepatitis, not elsewhere classified
+L400z00	Puerperal endometritis NOS
+M030600	Cellulitis of face
+M032.00	Cellulitis and abscess of trunk
+M037.11	Cellulitis and abscess of foot
+A789500	HIV disease resulting in Kaposi's sarcoma
+M033400	Cellulitis and abscess of forearm
+M034.00	Cellulitis and abscess of hand excluding digits
+K411000	Chronic endometritis
+J54..11	Cellulitis - anus or rectum
+A78AW00	Chlamydial infection, unspecified
+A076100	Enteritis due to enterovirus
+K410.00	Acute uterine inflammatory disease
+F032011	Malarial encephalitis
+M089.00	Cellulitis of neck
+K242z00	Epididymo-orchitis NOS
+F530.12	Empyema of mastoid
+F011411	Mumps meningitis
+A36y100	Meningococcal arthropathy
+7423200	Incision of retropharyngeal abscess
+A86..11	Sleeping sickness
+F04..00	Intracranial and intraspinal abscesses
+H120000	Chronic simple rhinitis
+A384100	Haemophilus influenzae septicaemia
+A311.12	Mycobacterium marinum infection
+H22..00	Other bacterial pneumonia
+F4K4400	Argyll Robertson pupil
+A96..00	Late latent syphilis
+J553.00	Acute peritonitis
+J55y500	Faecal peritonitis
+A97z.00	Syphilis NOS
+K40y000	Female syphilitic pelvic inflammatory disease
+H530.00	Abscess of lung
+A911.00	Primary anal syphilis
+A053.00	Amoebic liver abscess
+A39z100	Nocardiosis NOS
+M037z00	Cellulitis and abscess of foot NOS
+A940.11	Locomotor ataxia
+H21..11	Chest infection - pneumococcal pneumonia
+H060C00	Acute bronchitis due to parainfluenza virus
+M084.00	[X]Cellulitis of breast
+AE0..00	Late effects of tuberculosis
+H270.11	Chest infection - influenza with pneumonia
+A14y300	Tuberculosis of mesenteric lymph glands
+K213.00	Prostatocystitis
+K402300	Oophoritis unspecified
+A55..11	Morbilli
+A03z.00	Shigellosis NOS
+A71..00	Rabies - hydrophobia
+H023100	Acute staphylococcal pharyngitis
+K242200	Epididymo-orchitis unspecified
+A79y.00	Other specific viral infection
+H271100	Influenza with pharyngitis
+H06..00	Acute bronchitis and bronchiolitis
+A55xz00	Measles with other specified complication NOS
+H01y.00	Other acute sinusitis
+N303600	Osteomyelitis, unspecified
+A022300	Arthritis in other bacterial diseases classified elsewhere
+A84W.00	Plasmodium malariae malaria without complication
+A54z.00	Herpes simplex no complication NOS
+A721.00	Mumps meningitis
+A380000	Septicaemia due to streptococcus, group A
+A54..12	Scrum pox
+A661.00	Tick-borne fever
+A381000	Septicaemia due to Staphylococcus aureus
+K406100	Female pelvic peritonitis unspecified
+F530.11	Abscess of mastoid
+M08y.00	[X]Cellulitis of other sites
+L090000	Endometritis following abortive pregnancy
+A173400	Tuberculous keratoconjunctivitis
+7426100	Drainage of retropharyngeal abscess
+H243.00	Pneumonia with whooping cough
+K401.00	Chronic salpingitis and oophoritis
+A52z.00	Varicella with no complication NOS
+SP13200	Post operative chest infection
+A707200	Chronic viral hepatitis C
+H221.00	Pneumonia due to pseudomonas
+H23..11	Chest infection - pneumonia organism OS
+A170z00	Tuberculosis of skin and subcutaneous tissue NOS
+A705.00	Other specified viral hepatitis without coma
+M15y000	Ritter's disease
+A165200	Tuberculosis of testis
+K280000	Seminal vesiculitis unspecified
+K405100	Pelvic cellulitis unspecified
+A3BXA00	Mycoplasma pneumoniae [PPLO] cause/dis classifd/oth chaptr
+F04z000	Epidural abscess
+M037.00	Cellulitis and abscess of foot excluding toe
+SP38000	Septic shock due to transfusion
+H201.00	Pneumonia due to respiratory syncytial virus
+G510000	Acute bacterial endocarditis
+K241000	Epididymitis with abscess
+K240000	Orchitis with abscess
+K214.00	Prostatitis in diseases EC
+A166111	Fallopian tube tuberculosis
+AA2..00	Yaws
+A3y..00	Other specified bacterial diseases
+H27yz00	Influenza with other manifestations NOS
+J511300	Diverticulitis of the small intestine unspecified
+A981500	Acute gonococcal cervicitis
+A6...00	Arthropod-borne viral diseases
+A981700	Acute gonococcal salpingitis
+A72z.11	Epidemic parotitis
+A140.00	Tuberculous peritonitis
+J552C00	Iliopsoas abscess
+A30..00	Leprosy
+A012.00	Paratyphoid fever B
+J55y300	Peritonitis due to bile
+A14y200	Tuberculosis of small intestine
+A94..00	Neurosyphilis
+A170800	Tuberculosis verrucosa cutis
+F040511	Subdural intracranial abscess
+J691.00	Tropical sprue
+7004000	Drainage of abscess of brain tissue
+H040300	Acute phlegmonous laryngitis
+F034.00	Postimmunisation encephalitis
+A384000	Gram negative septicaemia NOS
+A74..00	Specific diseases due to coxsackie virus
+M086.00	Cellulitis of ankle
+AA12.00	Vincent's pharyngitis
+F034H00	Post hepatitis A vaccination encephalitis
+A915.00	Uveitis due to secondary syphilis
+H510A00	Staphylococcal pleurisy
+K4z..00	Female pelvic inflammatory disease NOS
+H510z00	Pleurisy without effusion or active tuberculosis NOS
+J643100	Bile duct calculus + acute cholecystitis and obstruction
+L402.00	Puerperal peritonitis
+A124.00	Resp TB bacteriologically and histologically confirmed
+A136100	Tuberculous myelitis
+H511.00	Bacterial pleurisy with effusion
+A383.00	Septicaemia due to anaerobes
+K410400	Acute pyometra or uterine abscess
+A180000	Acute miliary tuberculosis of a single specified site
+H060A00	Acute bronchitis due to mycoplasma pneumoniae
+J62..00	Liver abscess and sequelae of chronic liver disease
+L45..00	Obstetric breast infections
+A94y600	Rupture of syphilitic cerebral aneurysm
+F030611	Rubella encephalitis
+F010000	Meningitis due to cryptococcus
+A722.00	Mumps encephalitis
+A793.00	Rhinovirus
+A041.00	Botulism
+A703000	Acute hep B with delta-agent (coinfectn) without hep coma
+A551.00	Postmeasles pneumonia
+65V9.00	Notification of tuberculosis
+A4zy300	Encephalitis lethargica
+A310.00	Pulmonary mycobacterial infection
+A707X00	Chronic viral hepatitis, unspecified
+K410100	Acute endomyometritis
+A18y.00	Other specified miliary tuberculosis
+A841.00	Vivax malaria - benign tertian
+A705100	Acute delta-(super)infection of hepatitis B carrier
+A364200	Meningococcal endocarditis
+H510900	Pneumococcal pleurisy
+A3z..00	Other bacterial disease NOS
+A78A500	Chlamydial infection of genital organs NEC
+J550200	Peritonitis - tuberculous
+A848.00	Blackwater fever
+K154200	Cystitis in bilharziasis
+A623.00	St. Louis encephalitis
+A200.00	Bubonic plague
+N010800	Staphylococcal arthritis and polyarthritis
+A3BXJ00	Helicobacter pylori cause diseases classified other chapters
+42Y5.00	RBC malaria parasitaemia count
+J661y00	Other cholangitis
+AC50.00	Bancroftian filariasis
+43D3.00	Legionella antibody positive
+A98y300	Gonococcal endocarditis
+A270.00	Listeriosis
+A14yz00	Other gastrointestinal tract tuberculosis NOS
+A3Byz00	Other specified bacterial infection NOS
+AyuDG00	[X]Viral infection, unspecified
+A010.11	Enteric fever
+H20y.00	Viral pneumonia NEC
+M145200	Senile dermatitis herpetiformis
+K242100	Epididymo-orchitis with no abscess
+A4z0.00	Lymphocytic choriomeningitis
+L45zz00	Obstetric breast infection NOS
+2J23.00	Hepatitis A - current infection
+K403100	Acute pelvic cellulitis
+H01z.00	Acute sinusitis NOS
+A02y.00	Other specified salmonella infection
+SP06000	Infect and inflammatory reaction due to internal joint pros
+AB2y300	Candidal septicaemia
+H530000	Single lung abscess
+A38z.00	Septicaemia NOS
+L400000	Puerperal endometritis unspecified
+A532z00	Herpes zoster with other ophthalmic complication
+K24z.00	Orchitis and epididymitis NOS
+65VE.00	Notification of AIDS
+N010500	Pyogenic arthritis, unspecified
+A785200	Cytomegaloviral hepatitis
+A654000	Dengue haemorrhagic fever
+A6z..00	Arthropod-borne viral disease NOS
+N303.00	Osteomyelitis, unspecified
+H23z.00	Pneumonia due to specified organism NOS
+AC0z.00	Schistosomiasis NOS
+H246.00	Pneumonia with aspergillosis
+H50z.00	Empyema NOS
+A54x.00	Herpes simplex with other specified complication
+H262.00	Postoperative pneumonia
+J632.00	Hepatitis in other infectious diseases EC
+Lyu6C00	[X]Cervicitis following delivery
+A420.00	Coxsackie viral meningitis
+F01z.00	Meningitis due to organism NOS
+N300S00	Other acute osteomyelitis
+A1y..00	Other specified tuberculosis
+G5y7.00	Sarcoid myocarditis
+AC25.00	Liver echinococcus multilocularis
+N302z00	Osteomyelitis, unspecified
+A171100	Tuberculous erythema nodosum
+A78y500	Lassa fever
+K15y200	Abscess of bladder
+A86..00	Trypanosomiasis
+H500100	Empyema with bronchopleural fistula
+H1y7500	Abscess of larynx
+A163.00	Tuberculosis of other urinary organs
+H53z.00	Abscess of lung and mediastinum NOS
+J643.00	Bile duct calculus with acute cholecystitis
+A850.12	Kala-azar
+A054.00	Amoebic lung abscess
+J661400	Ascending cholangitis
+M15y600	Erythema marginatum in acute rheumatic fever
+K420z00	Cervicitis and endocervicitis NOS
+J640.00	Gallbladder calculus with acute cholecystitis
+H243.11	Pneumonia with pertussis
+N300Q00	Other acute osteomyelitis
+H530300	Abscess of lung with pneumonia
+A384.00	Septicaemia due to other gram negative organisms
+H14y600	Lingular tonsillitis
+F033z00	Unspecified encephalitis due to other infection EC
+K100400	Nonobstructive reflux-associated chronic pyelonephritis
+F033.00	Encephalitis due to other infection EC
+A124600	Tuberculous pleurisy, conf bacteriologically/histologically
+AC53.00	Onchocerciasis
+4J32.00	Sample: virus identified
+Q434000	Perinatal hepatitis causing jaundice, unspecified
+A04..00	Other bacterial food poisoning
+J552200	Omental abscess
+A3A3.00	Necrobacillosis
+K40..00	Ovarian, fallopian tube and pelvic inflammatory diseases
+L452z00	Obstetric nonpurulent mastitis NOS
+A040.00	Staphylococcal food poisoning
+H270z00	Influenza with pneumonia NOS
+AA10.00	Vincent's stomatitis
+A176.00	Tuberculosis of adrenal glands - Addison's disease
+M03..12	Acute lymphangitis of skin excluding digits of hand or foot
+N014.00	Arthritis in other bacterial diseases classified elsewhere
+F030211	Poliomyelitis encephalitis
+A3A4000	Nonpneumonic Legionnaires' disease
+A849100	Cerebral malaria
+N015z00	Arthropathy associated with other viral disease NOS
+A823.00	Queensland tick typhus
+A78y.00	Other specified viral and chlamydial diseases
+A080500	Haemorrhagic dysentery
+J55yz00	Other specified peritonitis NOS
+H020.00	Acute gangrenous pharyngitis
+A54xz00	Herpes simplex with other specified complication NOS
+A788z00	Acquired human immunodeficiency virus infection syndrome NOS
+A520.00	Postvaricella encephalitis
+M032z00	Cellulitis and abscess of trunk NOS
+Q403.00	Tetanus neonatorum
+G50z200	Acute pericarditis - pneumococcal
+N035.12	Neuropathic arthritis
+H202.00	Pneumonia due to parainfluenza virus
+F034B00	Post yellow fever vaccination encephalitis
+AA...00	Other spirochaetal diseases
+N230.00	Infective myositis
+G011.00	Acute rheumatic endocarditis
+A789000	HIV disease resulting in mycobacterial infection
+J431311	Pseudomembranous colitis
+AC23000	Echinococcus granulosus infection of bone
+A913400	Secondary syphilis of tonsils
+AC1..00	Other trematode infections
+Ayu8D00	[X]Viral meningitis, unspecified
+A403200	Acute paralytic poliomyelitis, wild virus, indigenous
+N302P00	Osteomyelitis, unspecified
+A173000	Tuberculous chorioretinitis
+Ayu0E00	[X]Other viral enteritis
+A271.11	Rosenbach erysipeloid
+K214600	Prostatitis in trichomoniasis
+H033.00	Acute catarrhal tonsillitis
+J064200	Inflammatory conditions of jaws
+A16..00	Tuberculosis of genitourinary system
+J540.11	Perianal cellulitis
+F035100	Encephalitis following measles
+AC02.11	Asiatic schistosomiasis
+F530.00	Acute mastoiditis
+H06z112	Acute lower respiratory tract infection
+A170300	Tuberculosis - lupus NOS
+A00..11	Vibrio cholerae
+A98z.00	Gonococcal infections NOS
+A12y000	Tuberculosis of mediastinum
+H510500	Basal pleurisy
+N300712	Other acute osteomyelitis
+A10z.00	Primary tuberculous infection NOS
+H530100	Multiple lung abscess
+K41z100	Endomyometritis unspecified
+A919.00	Unspecified secondary syphilis
+A120000	Tuberculosis of pleura
+H222.00	Pneumonia due to haemophilus influenzae
+A15x.00	Tuberculosis of bones and joints
+N30zz00	Osteomyelitis, unspecified
+N300N00	Other acute osteomyelitis
+H501300	Lung empyema NOS
+H263.00	Pneumonitis, unspecified
+A11z.00	Pulmonary tuberculosis NOS
+683B.00	Clostridium difficile toxin detection
+H043200	Acute obstructive laryngitis
+M070300	Pyoderma ulcerosum tropicalum
+J650300	Acute suppurative cholecystitis
+A85z.00	Leishmaniasis NOS
+A173300	Tuberculous chronic iridocyclitis
+A53xz00	Herpes zoster with other specified complication NOS
+A31z.00	Mycobacterial disease NOS
+K104.00	Xanthogranulomatous pyelonephritis
+A851000	Aleppo boil
+A271200	Cutaneous erysipeloid
+A851100	Baghdad boil
+N301600	Other chronic osteomyelitis
+K101z00	Acute pyelonephritis NOS
+A821400	Mediterranean tick fever
+AA26.14	Bone and joint lesions of yaws
+K404500	Female chronic pelvic peritonitis
+H013.00	Acute sphenoidal sinusitis
+H121100	Atrophic pharyngitis
+A166100	Tuberculous salpingitis
+J512800	Divertic disease/both sml+lge intestin with perforat+abscess
+M243200	Poliosis eccentrica
+J643000	Bile duct calculus + acute cholecystitis and no obstruction
+H1y..00	Other specified diseases of upper respiratory tract
+A64..00	Viral encephalitis from other arthropods
+A510.00	Cowpox
+A14y100	Tuberculosis of large intestine
+A073.00	Proteus gastrointestinal tract infection
+N010400	Pyogenic arthritis, unspecified
+F034J00	Post hepatitis B vaccination encephalitis
+J635500	Toxic liver disease with chronic active hepatitis
+F034D00	Post polio vaccination encephalitis
+A043.00	Other clostridia causing food poisoning
+A4...00	Poliomyelitis & other non-arthropod-borne viral diseases-CNS
+A32y100	Diphtheritic myocarditis
+A120100	Tuberculous empyema
+N300711	Other acute osteomyelitis
+K284500	Vasitis
+Q40A000	Sepsis of newborn due to Staphylococcus aureus
+F374400	Polyneuropathy in herpes zoster
+J082300	Herpetic aphthous ulceration
+A98y500	Gonococcal peritonitis
+A36z.00	Meningococcal infection NOS
+AA26.15	Periostitis of yaws
+L45z.00	Obstetric breast infection NOS
+N300.12	Other acute osteomyelitis
+F531100	Post aural mastoid fistula
+F01y000	Meningitis due to leptospira
+A98yy00	Other gonococcal infection of other specified site
+A980z00	Acute gonorrhoea of lower genitourinary tract NOS
+A17y200	Tuberculosis pericardium
+AA2..12	Pian (yaws)
+AC7y.00	Mixed intestinal helminthiasis
+A3BXD00	H influenzae as cause/diseases classified/other chapters
+L040011	Spontaneous abortion with sepsis
+A322.00	Anterior nasal diphtheria
+AB24.11	Pneumonia - candidal
+A851200	Delhi boil
+F03X.00	Bacterial meningoencephalitis+meningomyelitis,NEC
+F53y000	Postauricular fistula
+A271.00	Erysipelothrix infection, unspecified
+J661000	Acute cholangitis
+N300U00	Other acute osteomyelitis
+N301L00	Chronic multifocal osteomyelitis
+H24..00	Pneumonia with infectious diseases EC
+AA40.00	Nonvenereal endemic syphilis
+A172011	Scrofula - tuberculous cervical lymph nodes
+G510200	Chronic bacterial endocarditis
+F011000	Meningitis due to coxsackie virus
+A273.00	Extraintestinal yersiniosis
+A125200	Prim respiratory TB without mention of bact or hist confirm
+7008100	Aspiration of abscess of brain tissue
+F040111	Cerebellar abscess
+N302Q00	Osteomyelitis, unspecified
+L169z00	Herpes gestationis NOS
+H510400	Diaphragmatic pleurisy
+AC8y100	Capillaria hepatica
+A95y.00	Other specified late syphilis
+N302D00	Osteomyelitis of vertebra
+G100.00	Adherent rheumatic pericardium
+AE02.00	Late effects of genitourinary system tuberculosis
+J650400	Acute gangrenous cholecystitis
+H240.00	Pneumonia with measles
+A125100	Tuberculosis lung bact and histological examin not done
+A221.11	Wool-sorters' disease
+A707100	Chronic viral hepatitis B without delta-agent
+L45z000	Obstetric breast infection NOS, unspecified
+H06z.00	Acute bronchitis or bronchiolitis NOS
+A311.00	Cutaneous mycobacterial infections
+Eu02400	[X]Dementia in human immunodef virus [HIV] disease
+A13..00	Tuberculosis of meninges and central nervous system
+J631.00	Hepatitis in viral diseases EC
+F030411	Herpes simplex encephalitis
+H160z00	Chronic laryngitis NOS
+A6y..00	Other specified arthropod-borne viral diseases
+A66y100	Piry fever
+H04..00	Acute laryngitis and tracheitis
+M243300	Poliosis -acquired
+N010000	Pyogenic arthritis, unspecified
+A074000	Staphylococcal gastrointestinal tract infection
+A13y.00	Other specified tuberculosis of central nervous system
+A761.11	Trachoma inclusion conjunctivitis
+J661300	Suppurative cholangitis
+L401.00	Puerperal salpingitis
+J552900	Pericaecal abscess
+A3Bx.00	Bacteria causing diseases classified elsewhere
+H061100	Acute obliterating bronchiolitis
+A3Ayz00	Other specified bacterial disease NOS
+F53y.00	Other mastoid disorders
+AA0z.00	Leptospirosis NOS
+N301100	Other chronic osteomyelitis
+K401200	Chronic salpingo-oophoritis
+A3By.00	Other specified bacterial infection
+AyuKH11	[X]Coliform bacteria/cause/disease classifd/oth chapters
+Q403100	Tetanus omphalitis
+F011y00	Other viral meningitis
+L171300	Maternal gonorrhoea in pregnancy - baby not yet delivered
+L171.00	Maternal gonorrhoea during pregnancy/childbirth/puerperium
+H120600	Chronic membranous rhinitis
+N302200	Osteomyelitis, unspecified
+A15y.00	Tuberculous arthritis
+J631z00	Hepatitis in viral diseases EC NOS
+F030z00	Encephalitis in viral disease NOS
+K404z00	Chronic pelvic inflammatory diseases NOS
+J632z00	Hepatitis in infectious diseases EC NOS
+J552.00	Other suppurative peritonitis
+A941.11	General paralysis of insane
+A940.00	Tabes dorsalis - neurosyphilis
+A985200	Gonococcal bursitis
+F04X.00	Extradural and subdural abscess, unspecified
+A32y.00	Other specified diphtheria
+A180100	Acute miliary tuberculosis of multiple sites
+Lyu6200	[X]Other specified puerperal infection
+A33z.00	Whooping cough NOS
+H120500	Chronic ulcerative rhinitis
+J55y.00	Other specified peritonitis
+L175.00	Maternal rubella in pregnancy, childbirth and the puerperium
+AC22.00	Thyroid echinococcus granulosus
+A10y.00	Other primary progressive tuberculosis
+F00y211	Meningitis due to escherichia coli
+F035000	Encephalitis following chickenpox
+A620.00	Japanese encephalitis
+A381100	Septicaemia due to coagulase-negative staphylococcus
+A854.00	American cutaneous leishmaniasis
+N300X00	Other acute osteomyelitis
+N300100	Other acute osteomyelitis
+N30z.00	Osteomyelitis, unspecified
+A53x.00	Herpes zoster with other specified complication
+SP20100	Postoperative septic shock
+H241.00	Pneumonia with cytomegalic inclusion disease
+N302M00	Osteomyelitis, unspecified
+A41..00	Slow viral central nervous system infection
+H040400	Acute haemophilus influenzae laryngitis
+H511000	Pneumococcal pleurisy with effusion
+H060700	Acute streptococcal bronchitis
+7034100	Drainage of abscess of subdural space
+N304.00	Tuberculosis of spine
+F011700	Varicella meningitis
+A3BX800	Oth staphylococcus/cause/diseases classified/oth chapters
+A985112	Gonococcal tenosynovitis
+A3Ay000	Tropical pyomyositis
+A31y.00	Other specified mycobacterial disease
+A797.00	Papovavirus infection
+A785.00	Cytomegalic inclusion disease
+H271.00	Influenza with other respiratory manifestation
+A403100	Acute paralytic poliomyelitis, wild virus, imported
+A57y.00	Other specified viral exanthemata
+N300.11	Other acute osteomyelitis
+A822000	Siberian tick typhus
+A130300	Tuberculous meningoencephalitis
+M261G00	Acne agminata
+G5yA.00	Rheumatoid carditis
+H22yz00	Pneumonia due to bacteria NOS
+N010A00	Arthritis in Lyme disease
+SP25400	Postoperative septicaemia
+A173.00	Tuberculosis of eye
+M033200	Cellulitis and abscess of upper arm
+A124500	Tuberculosis of larynx, trachea & bronchus conf bact/hist'y
+A917.00	Secondary syphilis relapse
+A860.00	Chagas' disease with heart involvement
+A15z.00	Tuberculosis of bones and joints
+A121100	Tuberculosis of mediastinal lymph nodes
+A702000	Acute hep B with delta-agent (coinfection) with hep coma
+A742z00	Unspecified coxsackie carditis
+A94y300	Syphilitic optic atrophy
+A022400	Osteopathy in other infectious diseases classified elsewhere
+A785100	Cytomegaloviral pancreatitis
+R109.00	[D]Laboratory evidence of human immunodefiency virus [HIV]
+A72z.00	Mumps with no complication
+A789.00	Human immunodef virus resulting in other disease
+A261.11	Haverhill fever
+H501200	Pleural empyema
+AC57.00	Dracontiasis - guinea worm
+L451z00	Obstetric breast abscess NOS
+A74z.00	Coxsackie viral diseases NOS
+A171.00	Tuberculosis with erythema nodosum hypersensitivity reaction
+J650000	Acute cholecystitis unspecified
+A789600	HIV disease resulting in Burkitt's lymphoma
+F01yz00	Other non-bacterial meningitis NOS
+J644100	Bile duct calculus + other cholecystitis and obstruction
+A124400	TB intrathoracic lymph nodes confirm bact histologically
+N010100	Pyogenic arthritis, unspecified
+N302S00	Osteomyelitis, unspecified
+N300F00	Other acute osteomyelitis
+G01..00	Rheumatic fever with heart involvement
+N302B00	Osteomyelitis of vertebra
+H511z00	Bacterial pleurisy with effusion NOS
+F011100	Meningitis due to ECHO virus
+K154700	Cystitis in trichomoniasis
+J650.11	Abscess of gallbladder
+A530.00	Herpes zoster with meningitis
+A812.00	Scrub mite-borne typhus
+K24..00	Orchitis and epididymitis
+N307z00	Poliomyelitis osteopathy NOS
+A54x100	Herpes simplex meningitis
+A785000	Cytomegaloviral pneumonitis
+A3BX600	Unspecf streptococ/cause/diseases classified/oth chapters
+J55y000	Chronic proliferative peritonitis
+A221.00	Pulmonary anthrax
+J651.00	Other cholecystitis
+G510z00	Acute and subacute bacterial endocarditis NOS
+F011311	Herpes simplex meningitis
+A56..13	Liberty measles
+A56xz00	Rubella with other specified complication NOS
+A15..13	Tuberculous synovitis
+A904.00	Juvenile neurosyphilis
+A74y.00	Other specified coxsackie virus disease
+H22y100	Pneumonia due to proteus
+AA00.11	Spirochaetal jaundice
+A20..00	Plague
+A3BXF00	Pseudomonas as cause/diseases classifd to other chapters
+A403.00	Acute paralytic poliomyelitis, unspecified
+F011511	Lymphocytic choriomeningitis
+A300.00	Lepromatous leprosy (type L)
+A12y300	Tuberculosis of nasal sinus
+N300300	Other acute osteomyelitis
+F040211	Otogenic intracranial abscess
+A17z.00	Tuberculosis of other organs NOS
+AE23.00	Sequelae of viral hepatitis
+A7y0400	Parvovirus as cause of diseases classified to oth chapters
+A17y300	Tuberculosis of stomach
+J620.00	Liver abscess - excluding amoebic liver abscess
+N010600	Pyogenic arthritis, unspecified
+A134.00	Tuberculoma of spinal cord
+A135.00	Tuberculous abscess of spinal cord
+R055200	[D]Endotoxic shock
+A910.00	Primary genital syphilis
+A75..12	Pfeiffer's disease
+N300512	Other acute osteomyelitis
+A17y400	Tuberculosis of liver
+K242000	Epididymo-orchitis with abscess
+H27y000	Influenza with encephalopathy
+A30..11	Hansen's disease
+J650200	Acute emphysematous cholecystitis
+A101.00	Tuberculous pleurisy in primary progressive tuberculosis
+K411100	Chronic endomyometritis
+A17yz00	Tuberculosis of other specified organs NOS
+F00y212	Escherichia coli meningitis
+A220.00	Cutaneous anthrax
+SP05613	[X] Peritoneal dialysis associated peritonitis
+K403000	Acute parametritis
+A798.00	Retrovirus infection
+F034200	Post paratyphoid vaccination encephalitis
+A847.00	Induced malaria
+N301712	Other chronic osteomyelitis
+N300z00	Other acute osteomyelitis
+H501500	Pyopneumothorax
+A170.11	Lupus - tuberculous
+AC7x.11	Physalopteriasis
+A73..11	Parrot fever
+AC7x.00	Other specified intestinal helminthiases
+A17y.00	Tuberculosis of other specified organs
+A370.00	Obstetrical tetanus
+AC01.00	Schistosoma mansoni
+A4zy400	Von Economo's encephalitis
+A130100	Tuberculosis of spinal meninges
+A852.00	Asian desert cutaneous leishmaniasis
+A121z00	Tuberculosis of intrathoracic lymph nodes NOS
+65Y1.00	On tuberculosis chemoprophylaxis
+A987.00	Gonococcal proctitis
+N017.11	Arthritis in other infectious and parasitic diseases EC
+H121600	Chronic follicular pharyngitis
+AC30.00	Taenia solium infection, intestinal form
+A205.00	Pneumonic plague, unspecified
+A11..11	Lung tuberculosis
+H510700	Fibrinous pleurisy
+J551.00	Pneumococcal peritonitis
+A4y..00	Other enterovirus diseases of central nervous system
+A0...11	Bacterial food poisoning
+A531400	Zoster encephalitis
+A554.00	Measles with intestinal complications
+H121000	Simple chronic pharyngitis
+A170200	Tuberculosis - scrofuloderma
+H27y.00	Influenza with other manifestations
+A78..00	Other viral or chlamydial diseases
+K400800	Subacute salpingitis
+J641100	Gallbladder calculus with other cholecystitis + obstruct
+A788U00	HIV disease result/haematological+immunologic abnorms,NEC
+F033411	Toxoplasmosis encephalitis
+AC32.11	Beef tapeworm infection
+Q40W.00	Sepsis of newborn due to other+unspecified streptococci
+65VD.00	Notification of acute polio
+J550400	Chlamydial peritonitis
+K101300	Acute pyonephrosis
+N302C00	Osteomyelitis of vertebra
+A125000	Tuberculosis of lung, bacteriologically & histolog'y neg
+A074.00	Other specified gastrointestinal tract bacterial infection
+A170.00	Tuberculosis of skin and subcutaneous tissue
+A33..11	Bordetella
+L090300	Salpingitis following abortive pregnancy
+K400700	Subacute salpingo-oophoritis
+A54x400	Herpes simplex pneumonia
+N302800	Osteomyelitis, unspecified
+G012.00	Acute rheumatic myocarditis
+A981311	Acute gonococcal orchitis
+F040.00	Intracranial abscess
+F020.00	Nonpyogenic meningitis
+K100z00	Chronic pyelonephritis NOS
+J512100	Perforated diverticulum of jejunum
+G00..00	Rheumatic fever without heart involvement
+F4A5400	Keratitis due to syphilis
+A912300	Primary tonsil syphilis
+F53y100	Other mastoid disorder NOS
+A846.00	Unspecified malaria
+A55y.00	Measles with unspecified complication
+A39z.00	Actinomycosis unspecified site
+N301.12	Other chronic osteomyelitis
+A742200	Coxsackie endocarditis
+A111.00	Nodular lung tuberculosis
+J640100	Gallbladder calculus with acute cholecystitis + obstruction
+H060D00	Acute bronchitis due to respiratory syncytial virus
+M033z00	Cellulitis and abscess of arm NOS
+N300500	Other acute osteomyelitis
+K404.00	Chronic parametritis and pelvic cellulitis
+H043100	Acute epiglottitis with obstruction
+A871.00	Tick-borne relapsing fever
+A545.00	Herpes simplex septicaemia
+F530000	Acute mastoiditis without complications
+A906.00	Latent late congenital syphilis
+AAz..00	Spirochaetal infection NOS
+H222.11	Pneumonia due to haemophilus influenzae
+K100500	Chronic obstructive pyelonephritis
+N301z00	Other chronic osteomyelitis
+A983100	Chronic gonococcal cystitis
+J552A00	Retrocaecal abscess
+A220.11	Malignant pustule
+A844100	Plasmodium malariae malaria with nephropathy
+F034G00	Post influenza vaccination encephalitis
+K4y..00	Other specified female pelvic inflammatory disease
+J641.00	Gallbladder calculus with other cholecystitis
+A167000	Tuberculous cervicitis
+A392.00	Abdominal actinomycosis
+A812.12	Kedani fever
+J641000	Gallbladder calculus with other cholecystitis +no obstruct
+AC51.00	Malayan filariasis
+K102200	Renal carbuncle
+A160200	Tuberculous pyelonephritis
+AD10300	Trichomonal prostatitis
+F530200	Gradenigo's syndrome
+A32z.00	Diphtheria NOS
+A985100	Gonococcal synovitis or tenosynovitis
+L174.00	Maternal malaria in pregnancy, childbirth and the puerperium
+H24y600	Pneumonia with typhoid fever
+A14y500	Tuberculosis of retroperitoneal lymph nodes
+A844000	Malaria due to simian plasmodia
+H501400	Purulent pleurisy
+F013.00	Meningitis due to sarcoidosis
+A57y400	Pseudoscarlatina
+A861000	Chagas' disease with digestive system involvement
+A165100	Tuberculosis seminal vesicle
+A121200	Tuberculosis of tracheobronchial lymph nodes
+A3BXG00	Bacillus fragilis/cause/diseases classified/oth chapters
+L40zz00	Major puerperal infection NOS
+N035.00	Neuropathic arthropathy
+A380500	Vancomycin resistant enterococcal septicaemia
+A3B6000	Proteus mirabilis infection
+F022.00	Chronic meningitis
+N301000	Other chronic osteomyelitis
+A7y0.00	Viral agent as the cause of other diseases
+A070000	Enteropathogenic Escherichia coli infection
+N11y100	Enterobacterial spondylitis
+K420700	Endocervicitis with Nabothian cyst
+G5y8.00	Rheumatoid myocarditis
+H060900	Acute neisseria catarrhalis bronchitis
+H160200	Chronic hypertrophic laryngitis
+K154000	Cystitis in actinomycosis
+F530100	Subperiosteal mastoid abscess
+Ayu8C00	[X]Other viral meningitis
+A795.00	Coronavirus infection
+A302.00	Indeterminate leprosy (type I)
+A789400	HIV disease resulting in multiple infections
+L452.11	Lymphangitis of breast - obstetric
+A2...00	Zoonotic bacterial diseases
+A12yz00	Other specified respiratory tuberculosis NOS
+N301512	Other chronic osteomyelitis
+A16z.00	Genitourinary tuberculosis NOS
+A903.00	Syphilitic interstitial keratitis
+F003.00	Staphylococcal meningitis
+N302400	Osteomyelitis, unspecified
+A912.00	Other primary syphilis
+H060000	Acute fibrinous bronchitis
+A730.00	Ornithosis with pneumonia
+A168.00	Tuberculosis of urinary tract
+A531000	Herpes zoster with other CNS complications
+A983300	Chronic gonococcal epididymo-orchitis
+L090100	Parametritis following abortive pregnancy
+M142.00	Juvenile dermatitis herpetiformis
+A36yz00	Other specified meningococcal infection NOS
+F040300	Epidural intracranial abscess
+A270300	Listerial cerebral arteritis
+F041000	Epidural intraspinal abscess
+A160100	Tuberculous pyelitis
+A070300	Enterohaemorrhagic Escherichia coli infection
+H22y.00	Pneumonia due to other specified bacteria
+A17y100	Tuberculosis myocardium
+F007100	Meningitis due to listeriosis
+A986.00	Gonococcal pharynx infection
+A3BX300	Streptococc,group D/cause/disease classified/oth chapters
+A12y.00	Other specified respiratory tuberculosis
+A421.00	ECHO viral meningitis
+A070200	Enteroinvasive Escherichia coli infection
+A663000	Bunyamwera fever
+A4y1.00	Enteroviral exanthematous fever
+AA2..11	Framboesia
+A172100	Scrofulous tuberculous abscess
+A04y000	Foodborne Bacillus cereus intoxication
+N010311	Pyogenic arthritis, unspecified
+A3A0.00	Gas gangrene
+N302100	Osteomyelitis, unspecified
+L090200	Pelvic peritonitis following abortive pregnancy
+F035011	Encephalitis due to varicella
+A3By400	Pleuropneumonia-like organism (PPLO) infection
+A983600	Chronic gonococcal endometritis
+A78yz00	Other specified viral and chlamydial diseases NOS
+J511600	Diverticulitis of the large intestine unspecified
+J661100	Chronic cholangitis
+H040600	Acute suppurative laryngitis
+A01..00	Typhoid and paratyphoid fevers
+N015x00	Arthropathy with other viral disease, of multiple sites
+A270000	Listeria infection
+F030900	Encephalitis due to herpes zoster
+A789X00	HIV dis reslt/oth mal neopl/lymph,h'matopoetc+reltd tissu
+AC8..00	Other and unspecified helminthiases
+H1yz000	Abscess of trachea
+A985300	Gonococcal spondylitis
+AD00.00	Toxoplasma meningoencephalitis
+A270100	Listeria septicaemia
+A663D00	Zika fever
+H247000	Pneumonia with candidiasis
+F374300	Polyneuropathy in diphtheria
+A531.00	Herpes zoster with other central nervous system complication
+A132.00	Tuberculoma of brain
+K401000	Chronic oophoritis
+A160000	Tuberculous nephropathy
+A53x100	Disseminated zoster
+A3BXC00	E coli as cause of diseases classified to other chapters
+A705200	Acute hepatitis E
+M032800	Cellulitis of trunk
+A987100	Gonococcal rectal infection
+H22yX00	Pneumonia due to other aerobic gram-negative bacteria
+F031.00	Encephalitis due to rickettsia EC
+A663100	Bwamba fever
+N301500	Other chronic osteomyelitis
+F00y200	Meningitis due to escherichia coli
+A4y0.00	Enteroviral encephalitis
+Hyu0800	[X]Other viral pneumonia
+K1A..00	Urinary calculus in schistosomiasis
+Q402500	Congenital falciparum malaria
+A94y100	Syphilitic parkinsonism
+A412.00	Subacute sclerosing panencephalitis
+F00y611	Pseudomonas meningitis
+AyuK100	[X]Streptococc,group B/cause/disease classified/oth chapters
+H040x00	Acute bacterial laryngitis unspecified
+Ayu3S00	[X]Staphylococcal infection, unspecified
+N300M00	Other acute osteomyelitis
+Ayu3R00	[X]Other specified bacterial diseases
+AyuK600	[X]Staphylococ aureus/cause/diseases classified/oth chapters
+A5y..00	Other specified viral diseases with exanthemata
+Hyu0.00	[X]Acute upper respiratory infections
+AyuA700	[X]Measles without complication
+A78A300	Chlamydial inf of pelviperitoneum oth genitourinary organs
+F03y.00	Other causes of encephalitis
+A38y.00	Other specified septicaemias
+N010200	Pyogenic arthritis, unspecified
+A18z.00	Miliary tuberculosis NOS
+N300T00	Other acute osteomyelitis
+H023z00	Acute bacterial pharyngitis NOS
+F040200	Otogenic intracranial abscess
+A122z00	Isolated tracheal or bronchial tuberculosis NOS
+J614300	Recurrent hepatitis
+A80..00	Louse-borne epidemic typhus
+H501.00	Empyema with no fistula
+G520100	Acute myocarditis - coxsackie
+A162.00	Tuberculosis of ureter
+A072.00	Aerobacter aerogenes gastrointestinal tract infection
+A840000	Plasmodium falciparum malaria with cerebral complications
+A402.00	Acute non-paralytic poliomyelitis
+A788400	Human immunodeficiency virus with neurological disease
+L451100	Obstetric breast abscess - delivered
+L452300	Obstetric nonpurulent mastitis with antenatal complication
+A110.00	Infiltrative lung tuberculosis
+AA25.11	Rhinopharyngitis mutilans
+FyuP200	[X]Other chronic suppurative otitis media
+A074011	Diarrhoea due to staphylococcus
+Ayu6200	[X]Chlamydial infection, unspecified
+Hyu0H00	[X]Other pneumonia, organism unspecified
+Ayu3J00	[X]Septicaemia, unspecified
+A3B6z00	Proteus infection NOS
+Ayu3L00	[X]Actinomycosis, unspecified
+N30z400	Osteomyelitis, unspecified
+N306100	Tuberculosis of bones and joints
+AyuER00	[X]Mycetoma, unspecified
+J614y00	Chronic hepatitis unspecified
+A33y.00	Whooping cough - other specified organism
+AyuDF00	[X]Other viral infections of unspecified site
+AyuD300	[X]Mumps without complication
+K10y.00	Pyelonephritis and pyonephrosis unspecified
+Hyu0D00	[X]Pneumonia in viral diseases classified elsewhere
+H247z00	Pneumonia with systemic mycosis NOS
+A9z..00	Syphilis or venereal disease NOS
+F035200	Rasmussen syndrome
+H5y0100	Tracheostomy sepsis
+L169300	Herpes gestationis - not delivered
+A3By600	Coccal infection NEC
+AA0y000	Leptospiral meningitis
+K400.11	Oophoritis - acute
+N307.00	Osteopathy from poliomyelitis
+L45z100	Obstetric breast infection NOS - delivered
+K408.00	Other chronic female pelvic peritonitis
+F011400	Meningitis due to mumps virus
+N300Y00	Other acute osteomyelitis
+F011300	Meningitis due to herpes simplex virus
+A3B..00	Bacterial infections - causative organisms
+N30z800	Osteomyelitis, unspecified
+A20y200	Plague - pestis minor
+AC2..00	Echinococcosis
+A7y0100	Retrovirus as cause of diseases classified to other chapters
+A92..00	Latent early syphilis
+A271000	Erysipelothrix infection
+H061000	Acute capillary bronchiolitis
+A384400	Serratia septicaemia
+AC02.00	Schistosoma japonicum
+A074100	Pseudomonas gastrointestinal tract infection
+A98yz11	Gonococcaemia NOS
+A14y.00	Other gastrointestinal tract tuberculosis
+A14z.00	Tuberculosis of gastrointestinal tract NOS
+A957100	Syphilis of tendon
+H12z.00	Chronic pharyngitis and nasopharyngitis NOS
+Hyu6.00	[X]Suppurative & necrotic conditions of lower respir tract
+A850.11	Dumdum fever
+L170.00	Maternal syphilis in pregnancy/childbirth/puerperium
+L40z000	Major puerperal infection NOS, unspecified
+A34..00	Streptococcal sore throat and scarlatina
+A621.00	Western equine encephalitis
+A130000	Tuberculosis of cerebral meninges
+F040600	Tuberculous intracranial abscess
+N303700	Osteomyelitis, unspecified
+F030400	Encephalitis due to herpes simplex virus
+N301C00	Osteomyelitis of vertebra
+F040500	Subdural intracranial abscess
+A3By500	Serratia infection
+K154600	Cystitis in moniliasis
+A57y200	Fourth disease
+Ayu1300	[X]Resp TB unspcf,w'out mention/bacterial or histol confrmtn
+H060v00	Subacute bronchitis unspecified
+A57yz00	Other specified viral exanthemata NOS
+K411400	Chronic pyometra
+K242300	Epididymo-orchitis in diseases EC
+AB64.11	Madura foot, mycotic
+A3A..00	Other bacterial diseases
+Q40y011	Congenital sepsis NOS
+A044.00	Vibrio parahaemolyticus food poisoning
+A54x000	Visceral herpes simplex
+A173200	Tuberculous interstitial keratitis
+G520300	Acute myocarditis - influenzal
+Q407500	Neonatal candida septicaemia
+K410900	Subacute pyometra
+A55x.00	Measles with other specified complication
+A17..00	Tuberculosis of other organs
+L175300	Maternal rubella during pregnancy - baby not yet delivered
+A932100	Syphilitic endocarditis of mitral valve
+A72x.00	Mumps with other specified complications
+A700.00	Viral hepatitis A with coma
+N303z00	Osteomyelitis, unspecified
+A40z.00	Acute poliomyelitis NOS
+A971.00	Latent syphilis unspecified
+N300200	Other acute osteomyelitis
+AA23.11	Ghoul hand
+G532000	Concato's disease
+AyuK.00	[X]Bacterial, viral and other infectious agents
+N302H00	Osteomyelitis, unspecified
+N302W00	Osteomyelitis, unspecified
+A4zy.00	Other specified non-arthropod-borne viral disease of the CNS
+Q40A100	Sepsis of newborn due to Escherichia coli
+A94z.00	Neurosyphilis NOS
+F007800	Meningitis due to pertussis
+A941.12	Taboparesis
+AA21.00	Multiple papillomata and wet crab yaws
+A98y000	Gonococcal keratosis
+F4Cy000	Filarial infection of conjunctiva
+A32y500	Diphtheria of penis
+A070100	Enterotoxigenic Escherichia coli infection
+A56..12	French measles
+A7A..00	Viral carditis
+A178.00	Tuberculosis oesophagus
+J552300	Mesenteric abscess
+AD04.00	Toxoplasma pneumonitis
+K154800	Cystitis in tuberculosis
+A251.00	Subacute and chronic melioidosis
+A022000	Local salmonella infection unspecified
+A321.00	Nasopharyngeal diphtheria
+A4zz.00	Non-arthropod-borne viral diseases of CNS NOS
+A171z00	Erythema nodosum with tuberculosis NOS
+A120z00	Tuberculous pleurisy NOS
+N01zK00	Pyogenic arthritis, unspecified
+AA21.11	Butter yaws
+A074111	Diarrhoea due to Pseudomonas pyocyanea
+J552C11	Abscess iliopsoas non tuberculous
+N301200	Other chronic osteomyelitis
+K410200	Acute myometritis
+H51y000	Encysted pleurisy
+A843.00	Ovale malaria
+G500300	Acute pericarditis - tuberculous
+N300C00	Osteomyelitis of vertebra
+L400200	Puerperal endometritis with postnatal complication
+N300R00	Other acute osteomyelitis
+F040311	Epidural intracranial abscess
+A3BX.00	Bacterial causes of diseases classified elsewhere
+F030500	Encephalitis due to mumps virus
+A904200	Congenital syphilitic meningitis
+A022100	Salmonella meningitis
+AA00.00	Leptospirosis icterohaemorrhagica
+G767.00	Aortitis - syphilitic
+A133.00	Tuberculous abscess of brain
+N301711	Other chronic osteomyelitis
+A131.00	Tuberculoma of meninges
+AC03.00	Cutaneous schistosomiasis
+A3BXK00	Met resist stap aureus cause disease class other chapters
+A166.00	Tuberculous oophoritis or salpingitis
+K410300	Acute perimetritis
+F024.00	Benign recurrent meningitis
+F040000	Cerebral intracranial abscess
+K100100	Chronic pyelonephritis with medullary necrosis
+J065000	Alveolitis of jaws
+N305400	Tuberculosis of bones and joints
+N300900	Other acute osteomyelitis
+H530200	Gangrenous pneumonia
+A39zz00	Actinomycosis unspecified site NOS
+A985.00	Gonococcal infection of musculoskeletal system
+N000100	Libman-Sacks disease
+F531000	Caries of mastoid
+N300K00	Other acute osteomyelitis
+F011211	Herpes zoster meningitis
+G1yz.00	Other and unspecified rheumatic heart disease
+AC20.00	Liver echinococcus granulosus
+N33z300	Other osteomyelitis
+N302300	Osteomyelitis, unspecified
+A32y200	Diphtheritic peritonitis
+L173000	Maternal tuberculosis,unspec whether in pregnancy/puerperium
+H035000	Acute pneumococcal tonsillitis
+A383000	Fusobacterial necrotising tonsillitis
+F030.00	Encephalitis in viral disease EC
+F038.00	Tropical spastic paraplegia
+A124300	Tuberculosis of lung, confirmed by unspecified means
+A174.00	Tuberculosis of ear
+N302R00	Osteomyelitis, unspecified
+N01zB00	Pyogenic arthritis, unspecified
+A94y200	Syphilitic disseminated retinochoroiditis
+A91..00	Early symptomatic syphilis
+G500000	Acute pericarditis - coxsackie
+A121.00	Tuberculosis of intrathoracic lymph nodes
+A788000	Acute human immunodeficiency virus infection
+A788100	Asymptomatic human immunodeficiency virus infection
+A52y.00	Varicella with unspecified complications NOS
+J631500	Hepatitis in other viral disease
+L45y000	Other obstetric breast infection unspecified
+A3BXH00	Clostridium perfring/cause/diseases classfd/oth chapters
+A022200	Salmonella pneumonia
+43v..00	CD4 immune monitoring
+K241100	Epididymitis with no abscess
+A787100	Machupo haemorrhagic fever
+A202.00	Septicaemic plague
+J55y400	Peritonitis due to urine
+L433.12	Septic obstetric embolism
+A14y400	Tuberculosis of rectum
+K10yz00	Unspecified pyelonephritis NOS
+A136.00	Tuberculous encephalitis or myelitis
+A78A200	Chlamydial infection of anus and rectum
+H500.00	Empyema with fistula
+A861.00	Chagas' disease with other organ involvement
+A76z.00	Unspecified trachoma
+A982.00	Chronic gonorrhoea lower genitourinary tract
+L090400	Salpingo-oophoritis following abortive pregnancy
+A918000	Acute secondary syphilitic meningitis
+AC0y300	Schistosoma spindale
+K310700	Retromammary breast abscess
+L176500	Viral hepatitis comp pregnancy, childbirth & the puerperium
+H501600	Pyothorax
+AC7..00	Other intestinal helminthiases
+A862.00	Chagas' disease without mention of organ involvement
+G50z400	Acute pericarditis - streptococcal
+F034000	Post BCG vaccination encephalitis
+L450z00	Obstetric nipple infection NOS
+G1yzz00	Other rheumatic heart disease NOS
+N305300	Tuberculosis of bones and joints
+K406z00	Acute and unspecified female pelvic peritonitis NOS
+G0y..00	Other specified acute rheumatic fever
+H034.00	Acute gangrenous tonsillitis
+A165000	Tuberculosis of prostate
+A985111	Gonococcal synovitis
+AC8yz00	Other specified helminthiasis NOS
+H230.00	Pneumonia due to Eaton's agent
+H51z000	Exudative pleurisy NOS
+A821100	India tick virus
+AB40100	Histoplasma capsulatum with meningitis
+H22y011	E.coli pneumonia
+A25..00	Melioidosis
+A863.00	Gambian trypanosomiasis
+N300J00	Other acute osteomyelitis
+A3BX900	Unspcfd staphlococ/cause/diseases classified/oth chapters
+N010700	Pyogenic arthritis, unspecified
+H24y300	Pneumonia with Q-fever
+F041z00	Intraspinal abscess NOS
+Q40A300	Perinatal coagulase negative staphylococcus
+N010711	Pyogenic arthritis, unspecified
+A250.00	Acute and fulminating melioidosis
+A941.00	General paresis - neurosyphilis
+H01yz00	Other acute sinusitis NOS
+A942.00	Syphilitic meningitis
+L452200	Obstetric nonpurulent mastitis - deliv with p/n complication
+K401z00	Chronic salpingitis and oophoritis NOS
+A206.00	Plague meningitis
+A91X.00	Early syphilis, unspecified
+A916.00	Secondary syphilis of viscera or bone
+A981z00	Acute gonorrhoea upper genitourinary tract NOS
+AA4z.00	Other spirochaetal infection NOS
+A913.00	Secondary syphilis of skin or mucus membranes
+J644z00	Bile duct calculus + other cholecystitis - obstruction NOS
+A3By100	Eaton's agent infection
+N300B00	Osteomyelitis of vertebra
+G500100	Acute pericarditis - meningococcal
+A932300	Syphilitic endocarditis of tricuspid valve
+AE0z.00	Late effects of tuberculosis NOS
+A626.00	Rocio virus disease
+A4zy100	Acute necrotising encephalitis
+A600.00	Sylvatic yellow fever
+F520300	Acute suppurative otitis media due to disease EC
+A074012	Diarrhoea due to staphylococcal toxin
+A932.00	Syphilitic endocarditis
+N300513	Other acute osteomyelitis
+H24y000	Pneumonia with actinomycosis
+A60z.00	Yellow fever unspecified
+A222.00	Gastrointestinal anthrax
+F010.00	Meningitis due to fungal organisms
+J511200	Diverticulitis of the ileum
+AA26.00	Bone and joint yaws lesions
+A39z000	Maduromycosis NOS
+F03y.11	Encephalomyelitis NOS
+A62..00	Mosquito-borne viral encephalitis
+J511100	Diverticulitis of the jejunum
+A770.11	Paratrachoma
+N010300	Pyogenic arthritis, unspecified
+Fyu0400	[X]Meningitis due to other specified causes
+A2z..00	Zoonotic bacterial disease NOS
+N01z.00	Pyogenic arthritis, unspecified
+AA4y.00	Other specified spirochaetal infection
+N300V00	Other acute osteomyelitis
+N300A00	Osteomyelitis of vertebra
+N301900	Other chronic osteomyelitis
+A170700	Tuberculosis papulonecrotica
+A930.00	Syphilitic aortic aneurysm
+A62y.11	Ilheus virus encephalitis
+A913500	Secondary syphilis of vulva
+A3BXE00	Proteus(mirabilis)(morganii)cause/dis classfd/oth chapter
+G1y0.00	Rheumatic myocarditis
+A113.00	Tuberculosis of bronchus
+G511400	Endocarditis - typhoid
+A880100	Cutaneous and mucocutaneous bartonellosis
+AyuA100	[X]Herpesviral infection, unspecified
+A124200	Tuberculosis of lung, confirmed histologically
+Fyu0B00	[X]Intracranial+intraspinal abscess+granuloma in diseases CE
+H242.00	Pneumonia with ornithosis
+H270100	Influenza with pneumonia, influenza virus identified
+A63..00	Tick-borne viral encephalitis
+N015500	Arthropathy with other viral disease, of pelvic region/thigh
+AA0yz12	Pretibial fever
+AyuC.00	[X]Human immunodeficiency virus disease
+H040100	Acute ulcerative laryngitis
+L400100	Puerperal endometritis - delivered with postnatal comp
+A788y00	Human immunodeficiency virus with other clinical findings
+H510600	Chronic dry pleurisy
+L401z00	Puerperal salpingitis NOS
+N305100	Tuberculosis of bone
+A33y000	Bordetella bronchiseptica
+J511700	Diverticulitis of the large intestine NOS
+F041100	Extradural intraspinal abscess
+F00z.00	Bacterial meningitis NOS
+H450.00	Pneumoconiosis associated with tuberculosis
+J640000	Gallbladder calculus with acute cholecystitis +no obstruct
+A787.00	Arenaviral haemorrhagic fever
+G021.00	Rheumatic chorea without mention of heart involvement
+J651y00	Other cholecystitis OS
+A543.11	Simian B disease
+A663500	Mucambo fever
+A170500	Tuberculosis cutis	
+A72y.00	Mumps with unspecified complication
+AB2y200	Candidal meningitis
+J632200	Hepatitis in secondary syphilis
+AC56000	Filariasis due to Brugia timori
+A073z00	Proteus gastrointestinal tract infection NOS
+G86y000	Chylocele - nonfilarial
+A400.00	Acute paralytic bulbar poliomyelitis
+A97..00	Other and unspecified syphilis
+Hyu2200	[X]Other chronic sinusitis
+A531z00	Herpes zoster with other CNS complication NOS
+L451000	Obstetric breast abscess unspecified
+Hyu0A00	[X]Other bacterial pneumonia
+K406.00	Acute and unspecified female pelvic peritonitis
+Ayu3U00	[X]Haemophilus influenzae infection, unspecified
+Q46y000	Neonatal peritonitis NOS
+A166z00	Tuberculous oophoritis or salpingitis NOS
+A880.00	Bartonellosis
+N300H00	Other acute osteomyelitis
+H223000	Pneumonia due to streptococcus, group B
+A12..00	Other respiratory tuberculosis
+F01y.00	Other non-bacterial meningitis
+J640z00	Gallbladder calculus with acute cholecystitis - obst NOS
+K402z00	Unspecified salpingitis and oophoritis NOS
+N301400	Other chronic osteomyelitis
+A4zy500	Adenoviral encephalitis
+A850.00	Visceral leishmaniasis
+N302G00	Osteomyelitis, unspecified
+A33yz00	Other whooping cough NOS
+L450.00	Obstetric nipple infection
+A391.00	Pulmonary actinomycosis
+AC02.12	Katayama disease
+J661z00	Cholangitis NOS
+K101000	Acute pyelonephritis without medullary necrosis
+A300000	Borderline lepromatous leprosy
+F021.00	Eosinophilic meningitis
+L175100	Maternal rubella during pregnancy - baby delivered
+A000.00	Cholera - Vibrio cholerae
+A055.00	Amoebic brain abscess
+A72xz00	Mumps with other specified complications NOS
+H571.00	Rheumatic pneumonia
+H060E00	Acute bronchitis due to rhinovirus
+AC5..00	Filarial infection and dracontiasis
+K410z00	Acute uterine inflammatory diseases NOS
+H035100	Acute staphylococcal tonsillitis
+AA2x000	Juxta-articular yaws nodules
+A624.00	Australian encephalitis
+A957000	Syphilis of synovium
+A704000	Viral hepatitis C with coma
+A789900	HIV disease resulting in lymphoid interstitial pneumonitis
+F034x00	Post mixed vaccination encephalitis
+A071.00	Arizona paracolon gastrointestinal tract infection
+A970.00	Late syphilis unspecified
+A705z00	Other specified viral hepatitis without mention of coma NOS
+A810.00	Murine endemic flea typhus
+A913z00	Secondary syphilis of skin or mucus membranes NOS
+H22y000	Pneumonia due to escherichia coli
+AE00.00	Late effects of respiratory tuberculosis
+F034800	Post smallpox vaccination encephalitis
+A73z.00	Unspecified Ornithosis
+F035z00	Postinfectious encephalitis NOS
+H043000	Acute epiglottitis without obstruction
+J552500	Subperitoneal abscess
+A832.00	Rickettsialpox
+A81z.00	Other typhus NOS
+A42y.00	Other specified viral meningitis
+A93y000	Syphilitic pericarditis
+H060F00	Acute bronchitis due to echovirus
+Ayu4D00	[X]Sexually transmitted chlamydial infection of other sites
+A912z00	Other primary syphilis NOS
+Ayu4K00	[X]Chlamydial infection of genitourinary tract, unspecified
+N304200	Tuberculosis of bones and joints
+A4zy200	Epidemic encephalitis
+A3A0111	Clostridium oedematiens infection
+Gy0..00	Cardiovascular syphilis
+F00y100	Meningitis due to bacillus pyocyaneus
+A916.11	Secondary syphilis of bone
+A663.00	Other mosquito-borne fever
+A56y.00	Rubella with unspecified complication
+AD05.00	Toxoplasma hepatitis
+H061600	Acute bronchiolitis due to other specified organisms
+F033400	Encephalitis due to toxoplasmosis
+N015600	Arthropathy with other viral disease, of lower leg
+AC00.11	Vesical schistosomiasis
+H24z.00	Pneumonia with infectious diseases EC NOS
+A789700	HIV dis resulting oth types of non-Hodgkin's lymphoma
+A789100	HIV disease resulting in cytomegaloviral disease
+AA2z.00	Unspecified yaws
+Hyu1.00	[X]Other acute lower respiratory infections
+N301800	Other chronic osteomyelitis
+A117.00	Tuberculous pneumothorax
+N01zH00	Pyogenic arthritis, unspecified
+J614400	Chronic lobular hepatitis
+L170100	Maternal syphilis during pregnancy - baby delivered
+U601500	[X]Antiviral drugs causing adverse effects in therapeut use
+F007z00	Unspecified meningitis in bacterial disease EC
+A167.00	Tuberculosis of other female genital organs
+AA4..00	Other spirochaetal infections
+K41..00	Uterine inflammatory diseases excluding the cervix
+A364.00	Meningococcal carditis
+N010900	Pneumococcal arthritis and polyarthritis
+A00z.00	Cholera NOS
+A913300	Secondary syphilis of skin
+H500000	Empyema with bronchocutaneous fistula
+N303800	Osteomyelitis, unspecified
+F034500	Post tetanus vaccination encephalitis
+F212.00	Acute and subacute haemorrhagic leukoencephalitis [Hurst]
+N010z00	Pyogenic arthritis, unspecified
+A177.00	Tuberculosis spleen
+N015400	Arthropathy with other viral disease, of hand
+A786.00	Haemorrhagic nephrosonephritis
+AC0y.00	Other specified schistosomiasis
+K411.00	Chronic uterine inflammatory disease
+A160z00	Tuberculosis of kidney NOS
+AC2y.00	Liver echinococcus unspecified
+A390.00	Cutaneous actinomycosis
+N304100	Tuberculosis of bones and joints
+N300400	Other acute osteomyelitis
+N300E00	Osteomyelitis of vertebra
+A39y100	Cutaneous nocardiosis
+Lyu6100	[X]Other genitourinary tract infections following delivery
+F011z11	Acute aseptic meningitis
+M162400	Parapsoriasis herpetiformis
+Q40y000	Intrauterine fetal sepsis, unspecified
+N230000	Infective myositis-neck
+A880.13	Verruga peruana
+AC27.00	Unspecified echinococcus multilocularis
+A622.00	Eastern equine encephalitis
+A663200	Chikungunya fever
+A750.00	Gammaherpesviral mononucleosis
+A987000	Gonococcal anal infection
+ZV05000	[V]Arthropod-borne viral encephalitis vaccination
+A788W00	HIV disease resulting in unspecified malignant neoplasm
+N306300	Tuberculosis of bone
+A170000	Tuberculosis - lupus exedens
+N303100	Osteomyelitis, unspecified
+A3Ay.00	Other specified bacterial disease
+F033000	Encephalitis due to meningococcus
+F034C00	Post measles vaccination encephalitis
+AA40.12	Njovera
+H200.00	Pneumonia due to adenovirus
+A032.00	Shigella boydii (group C)
+H24y100	Pneumonia with nocardiasis
+A985z11	Rheumatism - gonococcal
+F040100	Cerebellar intracranial abscess
+L166.00	Genitourinary tract infections in pregnancy
+G14..00	Other chronic rheumatic endocardial disease
+N305200	Tuberculosis of bones and joints
+N015700	Arthropathy with other viral disease, of ankle and foot
+A841000	Plasmodium vivax malaria with rupture of spleen
+F030711	Cytomegaloviral encephalitis
+A4z1.00	Adenoviral meningitis
+Hyu2.00	[X]Other diseases of the upper respiratory tract
+Ayu3800	[X]Diphtheria, unspecified
+A393.00	Cervicofacial actinomycosis
+F034700	Post pertussis vaccination encephalitis
+A39y.00	Other specified actinomycosis
+G520700	Acute myocarditis - meningococcal
+A742.00	Coxsackie carditis
+K400z00	Acute salpingitis and oophoritis NOS
+A364300	Meningococcal myocarditis
+J620000	Liver abscess due to portal pyaemia
+A201.00	Cellulocutaneous plague
+K410700	Subacute myometritis
+A932.11	Syphilitic valve disease
+A165.00	Tuberculosis of other male genital organs
+N30z700	Osteomyelitis, unspecified
+N301300	Other chronic osteomyelitis
+G01z.00	Acute rheumatic heart disease NOS
+H041100	Acute tracheitis with obstruction
+N015300	Arthropathy with other viral disease, of forearm
+K154500	Cystitis in gonorrhoea
+AyuB.00	[X]Viral hepatitis
+A167z00	Tuberculosis of other female genital organs NOS
+AA2y.00	Latent yaws
+F00y411	Klebsiella meningitis
+A702.00	Viral hepatitis B with coma
+A7y0300	Reovirus as cause of diseases classified to other chapters
+K41z300	Perimetritis unspecified
+A32y300	Diphtheritic cystitis
+A165z00	Tuberculosis of other male genital organs NOS
+A821200	Kenya tick virus
+H061300	Acute exudative bronchiolitis
+AA23.12	Worm-eaten soles
+L169000	Herpes gestationis unspecified
+A122.00	Isolated tracheal or bronchial tuberculosis
+N30z600	Osteomyelitis, unspecified
+Q402200	Congenital malaria
+A130z00	Tuberculous meningitis NOS
+F030800	Encephalitis due to influenza-specific virus not identified
+H510B00	Streptococcal pleurisy
+N015000	Arthropathy with other viral disease, of unspecified site
+F030911	Herpes zoster encephalitis
+A982200	Chronic gonococcal vulvovaginitis
+N307600	Poliomyelitis osteopathy of the lower leg
+A125X00	Resp TB unspcf,w'out mention/bacterial or histol confrmtn
+H043.11	Viral epiglottitis
+AB65200	Cryptococcal meningitis
+A704.00	Other specified viral hepatitis with coma
+A845.00	Mixed malaria
+L17y200	Other mat.infect/parasit dis in puerperium - baby delivered
+G511100	Endocarditis - coxsackie
+AB32.00	Coccidioidal meningitis
+A654.11	Chikungunya haemorrhagic fever
+J100000	Megaoesophagus in Chagas' disease
+A788200	HIV infection with persistent generalised lymphadenopathy
+AyuC600	[X]HIV disease resulting in other non-Hodgkin's lymphoma
+Ayu0300	[X]Salmonella infection, unspecified
+AyuF100	[X]Plasmodium falciparum malaria, unspecified
+H24y.00	Pneumonia with other infectious diseases EC
+A001.00	Cholera - Vibrio cholerae El Tor
+A4z..00	Non-arthropod-borne viral dis.central nervous system OS/NOS
+N017100	Helminthiasis with arthropathy of the shoulder region
+A918100	Syphilitic alopecia
+A940.12	Syphilitic posterior spinal sclerosis
+H042100	Acute laryngotracheitis with obstruction
+A73y.00	Ornithosis with unspecified complications
+A844.00	Other malaria
+G020.00	Rheumatic chorea with heart involvement
+A912000	Primary breast syphilis
+A20z.00	Plague unspecified
+A13z.00	Tuberculosis of central nervous system NOS
+F00y511	Proteus morganii meningitis
+N30z200	Osteomyelitis, unspecified
+Kyu5100	[X]Other cystitis
+N230D00	Muscle abscess-shoulder
+N230E00	Muscle abscess-arm
+AyuA500	[X]Zoster without complications
+Ayu3X00	[X]Bacterial infection, unspecified
+N230F00	Muscle abscess-forearm
+AyuF700	[X]Unspecified malaria
+Ayu3600	[X]Other tetanus
+AyuA300	[X]Varicella without complications
+Ayu3V00	[X]Mycoplasma infection, unspecified
+A94y.00	Other specified neurosyphilis
+G717.00	Aortic aneurysm - syphilitic
+N304000	Tuberculosis of spine
+AC0y000	Schistosoma bovis
+A56x.00	Rubella with other specified complication
+F00y500	Meningitis due to proteus morganii
+J550000	Peritonitis - gonococcal
+A173z00	Tuberculosis of eye NOS
+A849.00	Other malaria complications
+K214400	Prostatitis in gonorrhoea
+J620300	Liver abscess via umbilicus
+A788500	Human immunodeficiency virus with secondary infection
+H24yz00	Pneumonia with other infectious diseases EC NOS
+N301D00	Osteomyelitis of vertebra
+N301A00	Osteomyelitis of vertebra
+A72x000	Mumps hepatitis
+N303300	Osteomyelitis, unspecified
+A203.00	Primary pneumonic plague
+J521.12	Pseudomembranous colitis
+K240100	Orchitis with no abscess
+K403.00	Acute parametritis and pelvic cellulitis
+N014700	Arthritis in other bacterial diseases classified elsewhere
+N308.00	Subacute osteomyelitis
+N01zz00	Arthritis in other infectious and parasitic diseases EC
+Ayu8.00	[X]Viral infections of the central nervous system
+AC8y.00	Other specified helminthiases
+A782.11	Miliary fever
+N306z00	Tuberculosis of bone
+A788300	Human immunodeficiency virus with constitutional disease
+AE04.00	Late effects of tuberculosis of other specified organs
+Hyu2A00	[X]Other specified diseases of upper respiratory tract
+A916100	Secondary syphilitic hepatitis
+K41z200	Myometritis unspecified
+A98yy11	Gonococcal hepatitis
+J641z00	Gallbladder calculus with other cholecystitis - obstruct NOS
+N306400	Tuberculosis of bones and joints
+AA25.00	Gangosa - tertiary yaws
+A654.00	Mosquito-borne haemorrhagic fever
+K404200	Chronic abscess of the parametrium
+N300P00	Other acute osteomyelitis
+N30z900	Osteomyelitis, unspecified
+H060200	Acute pseudomembranous bronchitis
+A788X00	HIV disease resulting/unspcf infectious+parasitic disease
+F011200	Meningitis due to herpes zoster virus
+A63y000	Langat encephalitis
+Ayu8400	[X]Rabies, unspecified
+A3B6100	Proteus morganii infection
+L450000	Obstetric nipple infection unspecified
+K0y0.00	Late syphilis of kidney
+F030A00	Encephalitis due to influenza-virus identified
+N300D00	Osteomyelitis of vertebra
+J631000	Hepatitis in coxsackie virus
+K10y400	Pyelitis in diseases EC
+J330200	Epigastric hernia with gangrene
+NyuC200	Other chronic osteomyelitis
+G52y600	Septic myocarditis NOS
+K241300	Epididymitis in diseases EC
+L169200	Herpes gestationis - delivered with postnatal complication
+A98y.00	Gonococcal infection of other specified sites
+A180.00	Acute miliary tuberculosis
+A136z00	Tuberculous encephalitis or myelitis NOS
+F00yz00	Other specified bacterial meningitis NOS
+Ayu3H00	[X]Other specified septicaemia
+N302900	Osteomyelitis, unspecified
+A93y100	Syphilitic myocarditis
+AA1z.00	Vincent's angina NOS
+AA2x100	Mucosal yaws
+H24y400	Pneumonia with salmonellosis
+A3By200	Mima polymorpha infection
+F00y400	Meningitis due to klebsiella pneumoniae
+L450400	Obstetric nipple infection with postnatal complication
+J064400	Inflammatory conditions of jaws
+F007300	Meningitis due to salmonella
+AA0yz00	Other specified leptospiral infection NOS
+F030200	Encephalitis due to poliomyelitis
+A272z11	Pseudotuberculosis
+AAy..00	Other specified spirochaetal infections
+A12y100	Tuberculosis of nasopharynx
+F007600	Meningitis due to typhoid fever
+F033111	Syphilis encephalitis
+J511400	Diverticulitis of the small intestine NOS
+A94y500	Syphilitic acoustic neuritis
+A3A0F00	Gas gangrene-foot
+AB62100	Phaeomycotic brain abscess
+Ayu0F00	[X]Viral intestinal infection, unspecified
+F012.00	Meningitis due to trypanosomiasis
+Ayu1600	[X]Tuberculosis of other specified organs
+Kyu5000	[X]Other chronic cystitis
+N307700	Poliomyelitis osteopathy of the ankle and foot
+F011600	Meningitis due to adenovirus
+A166000	Tuberculous oophoritis
+A32yz00	Other specified diphtheria NOS
+NyuC300	Other osteomyelitis
+A384z00	Other gram negative septicaemia NOS
+Ayu3G00	[X]Septicaemia due to other gram-negative organisms
+ZVu1300	[X]Carrier of other specified bacterial diseases
+AyuAA00	[X]Rubella without complication
+A915100	Secondary syphilitic chorioretinitis
+J650100	Acute angiocholecystitis
+FyuP500	[X]Otitis media in other diseases classified elsewhere
+FyuP400	[X]Otitis media in viral diseases classified elsewhere
+AyuD900	[X]Other specified viral diseases
+AyuDD00	[X]Parvovirus infection, unspecified
+Ayu3D00	[X]Meningococcal infection, unspecified
+L450100	Obstetric nipple infection - delivered
+G02z.00	Rheumatic chorea NOS
+K41z.00	Unspecified uterine inflammatory disease
+L176.00	Other maternal viral dis. in pregnancy/childbirth/puerperium
+N303500	Osteomyelitis, unspecified
+Hyu1000	[X]Acute bronchitis due to other specified organisms
+N230A00	Muscle abscess
+Hyu0200	[X]Acute tonsillitis due to other specified organisms
+Ayu8B00	[X]Unspecified viral encephalitis
+Ayu1.00	[X]Tuberculosis
+Gyu5J00	[X]Myocarditis in viral diseases classified elsewhere
+Ayu1000	[X]Other resp tubercul,confirmd bacteriologicly+histologicly
+AyuD.00	[X]Other viral diseases
+Ayu1100	[X]Resp tuberculos unspcfd,confirmd bacteriolog+histologicly
+Ayu4C00	[X]Gonococcal infection, unspecified
+AE01.00	Late effects of central nervous system tuberculosis
+N010x00	Pyogenic arthritis, unspecified
+A36y.00	Other specified meningococcal infection
+A39y000	Pulmonary nocardiosis
+K102z00	Renal and perinephric abscess NOS
+N014000	Arthritis in other bacterial diseases classified elsewhere
+J615D00	Bacterial portal cirrhosis
+A880000	Systemic bartonellosis
+A912200	Primary lip syphilis
+F040z00	Intracranial abscess NOS
+G01y.00	Other acute rheumatic heart disease
+H160300	Chronic atrophic laryngitis
+AE03.00	Late effects of tuberculosis of bones and joints
+F530300	Acute mastoiditis with other complication
+A9y..00	Other specified syphilis or other venereal diseases
+A918z00	Other secondary syphilis NOS
+A175.00	Tuberculosis of thyroid gland
+A73x.00	Ornithosis with other specified complications
+A918.00	Other forms of secondary syphilis
+L402000	Puerperal peritonitis unspecified
+A987z00	Gonococcal proctitis NOS
+A849z00	Other malaria complications NOS
+ZVu0J00	[X]Special screening examinat for other bacterial diseases
+H232.00	Pneumonia due to pleuropneumonia like organisms
+F041200	Subdural intraspinal abscess
+A661z00	Tick-borne fever NOS
+N230B00	Muscle abscess-neck
+N303900	Osteomyelitis, unspecified
+L175z00	Maternal rubella in pregnancy/childbirth/puerperium NOS
+Ayu3200	[X]Other Mycobacterium infections
+AyuD100	[X]Cytomegaloviral disease, unspecified
+Ayu6100	[X]Other chlamydial diseases
+AyuG600	[X]Taeniasis, unspecified
+A95..00	Other forms of late syphilis with symptoms
+173e.00	Viral wheeze
+173e.11	Viral induced wheeze
+K401100	Chronic perioophoritis
+A22z.00	Anthrax NOS
+745F.00	Tuberculosis support
+8BP5.00	Antiviral therapy
+A3A0011	Clostridium histolyticum infection
+N302A00	Osteomyelitis of vertebra
+A86z.00	Trypanosomiasis NOS
+A916.12	Secondary syphilis of viscera
+A630.00	Russian spring-summer (taiga) encephalitis
+A704z00	Other specified viral hepatitis with hepatic coma NOS
+A4zy000	Acute inclusion body encephalitis
+F00y600	Meningitis due to pseudomonas
+AA0yz13	Swamp fever
+A55x000	Measles keratoconjunctivitis
+A073000	Proteus mirabilis gastrointestinal tract infection
+65Y2.00	Streptomycin resistant tuberculosis
+G520600	Acute myocarditis - tuberculous
+N302E00	Osteomyelitis of vertebra
+A950.00	Syphilitic episcleritis
+A932200	Syphilitic endocarditis of aortic valve
+H023000	Acute pneumococcal pharyngitis
+F034E00	Post mumps vaccination encephalitis
+F037000	Varicella transverse myelitis
+A78y400	Tanapox
+H511100	Staphylococcal pleurisy with effusion
+A122000	Isolated tracheal tuberculosis
+A92z.00	Latent early syphilis NOS
+A914.00	Adenopathy due to secondary syphilis
+A320.00	Faucial diphtheria
+A124100	Tuberculosis of lung, confirmed by culture only
+A301000	Borderline tuberculoid leprosy
+H060B00	Acute bronchitis due to coxsackievirus
+A811.00	Brill's disease
+N230800	Infective myositis-leg
+A136000	Tuberculous encephalitis
+A651.00	Omsk haemorrhagic fever
+43w3.00	Human immunodeficiency virus RNA/DNA ratio
+L293100	Septicaemia during labour - delivered
+AyuJ400	[X]Sequelae of respiratory and unspecified tuberculosis
+A601.00	Urban yellow fever
+A98yy13	Gonococcal perihepatitis
+A122100	Isolated bronchial tuberculosis
+Hyu0100	[X]Acute pharyngitis due to other specified organisms
+Qyu4200	[X]Other bacterial sepsis of newborn
+A661200	Colorado tick fever
+A3B1112	Methicillin resistant staphylococcus aureus
+AyuA.00	[X]Viral infections characterized by skin and mucous membra
+Q400.11	Extended rubella syndrome
+Ayu5700	[X]Spirochaetal infection, unspecified
+AyuD500	[X]Infectious mononucleosis, unspecified
+H014.00	Acute rhinosinusitis
+F4A5500	Keratitis due to tuberculosis
+A3B0000	Group B streptococcus infection
+L175000	Maternal rubella, unspecified whether pregnancy/puerperium
+AC2z.00	Echinococcus NOS
+ZV02000	[V]Cholera carrier
+AC0yz00	Other specified schistosoma NOS
+N230500	Infective myositis-hand
+Gyu1100	[X]Other rheumatic aortic valve diseases
+A981.00	Acute gonorrhoea of upper genitourinary tract
+N01z700	Arthritis in other infectious and parasitic diseases EC
+AyuG.00	[X]Helminthiasis
+A71..11	Lyssa - rabies
+AyuA600	[X]Measles with other complications
+FyuP700	[X]Other mastoiditis and related conditions
+N230K00	Muscle abscess-leg
+N30z500	Osteomyelitis, unspecified
+N01z500	Arthritis in other infectious and parasitic diseases EC
+N230.12	Suppurative myositis
+N230L00	Muscle abscess-foot
+AA22.00	Other early yaws skin lesions
+F011611	Adenovirus meningitis
+N230J00	Muscle abscess-thigh
+L096600	Septic embolism following abortive pregnancy
+A270200	Cutaneous listeriosis
+AC01.11	Intestinal schistosomiasis
+M08C.00	Cellulitis of toe
+H29..00	Avian influenza
+A93..00	Cardiovascular syphilis
+Jyu6000	[X]Other peritonitis
+F381200	Myasthenic syndrome due to botulism
+N230H00	Muscle abscess-pelvis
+Q407511	Neonatal monilial septicaemia
+7005400	Excision of abscess of tissue of brain
+N305500	Tuberculosis of bone
+Fyu0500	[X]Bacterial meningoencephalitis+meningomyelitis,NEC
+N01z800	Pyogenic arthritis, unspecified
+Ayu3T00	[X]Streptococcal infection, unspecified
+Ayu8100	[X]Acute poliomyelitis, unspecified
+A3A0311	Clostridium septicum infection
+N303400	Osteomyelitis, unspecified
+K400400	Acute perisalpingitis
+F03z.11	Encephalomyelitis NOS
+A392100	Actinomycosis of caecum
+K10y300	Pyelonephritis in diseases EC
+A65..00	Arthropod-borne haemorrhagic fever
+65Y9.11	Latent tuberculosis
+4JU5.00	Influenza B virus detected
+4JU2.00	Influenza H3 virus detected
+4JU0.00	Influenza H1 virus detected
+4JUB.00	Respiratory syncytial virus untyped strain detected
+4JUK.00	Mycoplasma pneumoniae detected
+A853.00	Ethiopian cutaneous leishmaniasis
+A541600	Genital herpes simplex type 1
+Ayu9800	[X]Unspecified viral haemorrhagic fever
+Nyu0100	[X]Arthritis+polyarthritis due/other specfd bacterial agents
+A541700	Genital herpes simplex type 2
+A625.00	California viral encephalitis
+AyuDA00	[X]Adenovirus infection, unspecified
+4JUF.00	Human parainfluenza virus detected
+4JUA.00	Respiratory syncytial virus B detected
+A323.00	Laryngeal diphtheria
+A364z00	Meningococcal carditis NOS
+A981400	Acute gonococcal seminal vesiculitis
+F034z00	Postimmunisation encephalitis NOS
+L170000	Maternal syphilis, unspec whether in pregnancy or puerperium
+A98y200	Gonococcal pericarditis
+65Y9.00	Inactive tuberculosis
+A760.00	Trachoma dubium - initial stage
+N302F00	Osteomyelitis, unspecified
+4JU9.00	Respiratory syncytial virus A detected
+AyuKA00	[X]Klebsiella pneumoniae/cause/disease classifd/oth chapters
+4JU8.00	Amantadine resistant virus detected
+H57y500	Lung disease with syphilis
+A17y000	Tuberculosis endocardium
+J643z00	Bile duct calculus + acute cholecystitis - obstruct NOS
+Q408600	Pseudomonas pyocyaneus congenital infection
+AyuCB00	[X]HIV disease result/haematological+immunologic abnorms,NEC
+NyuC100	Other chronic haematogenous osteomyelitis
+A661000	Nairobi sheep disease
+A844.11	Monkey malaria
+Ayu3300	[X]Mycobacterium infection, unspecified
+4JUC.00	Human metapneumovirus detected
+4J3F.00	Human immunodeficiency virus viral load by log rank
+K190500	Urinary tract infection
+K154100	Cystitis in amoebiasis
+4JU4.00	Influenza A virus, other or untyped strain detected
+7Q05600	Antiretroviral drugs Band 1
+Ayu0100	[X]Paratyphoid fever, unspecified
+N302K00	Osteomyelitis, unspecified
+F030700	Encephalitis due to cytomegalovirus
+L401200	Puerperal salpingitis with postnatal complication
+Hyu0700	[X]Influenza+other manifestations, virus not identified
+N304300	Tuberculosis of bones and joints
+Hyu0000	[X]Other acute sinusitis
+F00y.00	Other specified bacterial meningitis
+A981611	Uterus - acute gonorrhoea
+Ayu5000	[X]Other early skin lesions of yaws
+A983.00	Chronic gonorrhoea of upper genitourinary tract
+A981111	Bladder gonorrhoea - acute
+Ayu4500	[X]Other secondary syphilis
+L403000	Puerperal septicaemia unspecified
+65Y8.00	Ciprofloxacin resistant tuberculosis
+4JUD.00	Human bocavirus detected
+N018.00	Tuberculous arthritis
+Ayu4G00	[X]Anogenital herpes viral infection, unspecified
+Ayu4900	[X]Late syphilis, unspecified
+Hyu0600	[X]Influenza+oth respiratory manifestatns,virus not identifd
+F007200	Meningitis due to neurosyphilis
+A30z.00	Leprosy NOS
+A12y200	Tuberculosis of nasal septum
+Ayu8200	[X]Other slow virus infections of central nervous system
+4JUH.00	Human enterovirus detected
+F033311	Tuberculous encephalitis
+F034A00	Post typhus vaccination encephalitis
+A72x100	Mumps polyneuropathy
+F034100	Post typhoid vaccination encephalitis
+AyuJ500	[X]Sequelae of poliomyelitis
+Ayu0700	[X]Bacterial intestinal infection, unspecified
+AyuD200	[X]Mumps with other complications
+AyuKN00	[X]Resp syncytial virus/cause/diseases classfd/oth chapters
+Ayu1900	[X]Miliary tuberculosis, unspecified
+Hyu0500	[X]Influenza+other manifestations,influenza virus identified
+4JUJ.00	Other respiratory virus detected
+H2A..11	Influenza A (H1N1) swine flu
+1W0..00	Possible influenza A virus H1N1 subtype
+1J72.11	Suspected swine influenza
+1J72.00	Suspected influenza A virus subtype H1N1 infection
+H2A..00	Influenza due to Influenza A virus subtype H1N1
+4J3L.00	Influenza A virus H1N1 subtype detected
+4JU3.00	Influenza H5 virus detected
+66j..00	Human immunodeficiency virus monitoring
+4JUG.00	Human adenovirus detected
+4JU6.00	Oseltamivir resistant virus detected
+9kR..00	Chronic hepatitis annual review - enhanced services admin
+7Q05200	Hepatitis B treatment drugs Band 1
+J666.00	Biliary sepsis
+66j0.00	Human immunodeficiency virus annual review
+H470.11	Aspiration pneumonia
+A3B1200	Panton-Valentine leucocidin associat staph aureus infection
+4JUE.00	Human rhinovirus detected
+65Y5.00	Isoniazid resistant tuberculosis
+4JU1.00	Influenza H2 virus detected
+H564.11	Cryptogenic organising pneumonia
+A78y300	Marburg disease
+A3C..00	Sepsis
+H2B..00	Community acquired pneumonia
+K190600	Urosepsis
+A3Cy.00	Other specified sepsis
+A3C0100	Sepsis due to Streptococcus group B
+AB2y500	Candidal sepsis
+A3Cz.00	Sepsis NOS
+H2C..00	Hospital acquired pneumonia
+A396.00	Sepsis due to Actinomyces
+A3C0300	Sepsis due to Streptococcus pneumoniae
+A70A.00	Hepatitis C genotype 1
+A70C.00	Hepatitis C genotype 3
+A70z100	Acute viral hepatitis NOS
+L179.00	HIV disease complicating pregnancy childbirth puerperium
+A023.00	Salmonella sepsis
+A3C1000	Sepsis due to Staphylococcus aureus
+J203.00	Acute appendicitis with generalised peritonitis
+9NgR.00	On hepatitis C treatment plan
+A3B0100	Group A streptococcus infection
+A3C1.00	Sepsis due to Staphylococcus
+A70G.00	Acute hepatitis C
+A3C2.11	Sepsis due to anaerobes
+A789311	HIV disease resulting in Pneumocystis jirovecii pneumonia
+J204.00	Acute appendicitis with localised peritonitis
+A3C0000	Sepsis due to Streptococcus group A
+A70D.00	Hepatitis C genotype 4
+A3C0y00	Other streptococcal sepsis
+9kl..00	HIV pos gen health check serv declind - enhanc service admin
+A3C3y00	Sepsis due to other Gram negative organisms
+A3C3.00	Sepsis due to Gram negative bacteria
+A3C2.00	Sepsis due to anaerobic bacteria
+A270611	Listerial sepsis
+A799.00	Cytomegalovirus infection
+A3BC.00	Infection due to ESBL producing bacteria
+A270600	Sepsis due to Listeria monocytogenes
+A3C0.00	Sepsis due to Streptococcus
+A724.00	Mumps parotitis
+J550311	Bacterial peritonitis
+J554.00	Spontaneous bacterial peritonitis
+K106.00	Candida pyelonephritis
+J558.00	Ventriculoperitoneal shunt-associated peritonitis
+A70B.00	Hepatitis C genotype 2
+A799.11	CMV - Cytomegalovirus infection
+A3C0z00	Streptococcal sepsis, unspecified
+J557.00	Streptococcal peritonitis
+H061700	Acute bronchiolitis due to human metapneumovirus
+AB2y511	Sepsis due to Candida
+A709.00	Viral hepatitis without hepatic coma
+H203.00	Pneumonia due to human metapneumovirus
+1JN0.00	Suspected sepsis
+A78B.11	Hantavirus cardio-pulmonary syndrome
+A707300	Chronic viral hepatitis B
+8CMWE00	On urinary tract infection care pathway
+745Fy00	Other specified tuberculosis support
+A663E00	Disease due to West Nile virus
+GA...00	Rheumatic heart disease
+SP07Q00	Catheter-associated urinary tract infection
+GA0..00	Carditis due to rheumatic fever
+9Nt1000	Seen by community HIV (human immunodeficiency virus) nurse
+SP07Q11	CAUTI - catheter-associated urinary tract infection
+A3C3.11	Sepsis due to Gram negative organisms
+A789511	HIV disease resulting in Kaposi sarcoma
+38QB.00	Westley Croup Score
+9mN..00	Human immunodeficiency virus infection monitoring invitation
+8Hle.00	Referral to community HIV nurse specialist
+A3BD.00	Infection due to carbapenemase producing Enterobacteriacea
+N010A11	Lyme arthritis
+A871011	Lyme borreliosis
+9mN0.00	HIV infection monitoring telephone invitation
+A871300	Borrelial lymphocytoma
+4J3Q.00	Human immunodeficiency virus IgG avidity
+4J3N.00	Human immunodeficiency virus drug resistance test
+A871100	Lyme neuroborreliosis
+1JN3.00	Suspected Ebola virus infection
+K101400	Emphysematous pyelonephritis
+A3C1z00	Sepsis due to staphylococcus NOS
+A3C1y00	Sepsis due to other specified staphylococcus
+A19..00	Disseminated tuberculosis
+4J3P.00	Human immunodeficiency virus type 1 subtype identification
+AA41.11	Erythema migrans
+745Fz00	Tuberculosis support NOS
+4L17.00	Hepatitis E virus genotype determination
+A1A..00	Multidrug resistant tuberculosis
+65Y0.00	Tuberculosis index case
+A78B.00	Hantavirus pulmonary syndrome
+A396.11	Actinomycotic sepsis

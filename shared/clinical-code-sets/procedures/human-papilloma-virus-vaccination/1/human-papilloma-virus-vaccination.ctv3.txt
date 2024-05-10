@@ -1,0 +1,8 @@
+n4z1.	GARDASIL VACCINE 0.5mL prefilled syringe
+n4z2.	CERVARIX 0.5mL prefilled syringe
+XacWR	Human papillomavirus vaccination given by other healthcare provider
+XaNNI	First human papillomavirus vaccination
+XaNNJ	Second human papillomavirus vaccination
+XaNNK	Third human papillomavirus vaccination
+XaXjc	Quadrivalent human papillomavirus vaccination
+XaNQd	Human papillomavirus vaccination

@@ -1,0 +1,1662 @@
+^ESCT1164321	Alpha-thalassaemia intellectual disability syndrome linked to chromosome 16
+^ESCT1164322	Alpha-thalassemia intellectual disability syndrome linked to chromosome 16
+^ESCT1164323	ATR-16 syndrome
+^ESCT1164324	Alpha thalassaemia intellectual disability syndrome, deletion type
+^ESCT1164325	Alpha thalassemia intellectual disability syndrome, deletion type
+^ESCT1165854	Narcolepsy type 1
+^ESCT1171788	Profound intellectual development disorder without impairment of behaviour
+^ESCT1171789	Profound mental retardation without impairment of behaviour
+^ESCT1171790	Profound intellectual development disorder with significant impairment of behaviour
+^ESCT1171791	Profound mental retardation with significant impairment of behaviour
+^ESCT1171792	Profound intellectual development disorder with minimal impairment of behaviour
+^ESCT1171793	Profound mental retardation with minimal impairment of behaviour
+^ESCT1171794	Profound intellectual development disorder with impairment of behaviour
+^ESCT1171795	Profound mental retardation with impairment of behaviour
+^ESCT1171796	Severe intellectual development disorder without significant impairment of behaviour
+^ESCT1171797	Severe mental retardation without significant impairment of behaviour
+^ESCT1171798	Severe intellectual development disorder with significant impairment of behaviour
+^ESCT1171799	Severe mental retardation with significant impairment of behaviour
+^ESCT1171800	Severe intellectual development disorder with minimal impairment of behaviour
+^ESCT1171801	Severe mental retardation with minimal impairment of behaviour
+^ESCT1171802	Severe intellectual development disorder with impairment of behaviour
+^ESCT1171803	Severe mental retardation with impairment of behaviour
+^ESCT1171804	Moderate intellectual development disorder without significant impairment of behaviour
+^ESCT1171805	Moderate mental retardation without significant impairment of behaviour
+^ESCT1171806	Moderate intellectual development disorder with significant impairment of behaviour
+^ESCT1171807	Moderate mental retardation with significant impairment of behaviour
+^ESCT1171808	Moderate intellectual development disorder with minimal impairment of behaviour
+^ESCT1171809	Moderate mental retardation with minimal impairment of behaviour
+^ESCT1171810	Moderate intellectual development disorder with impairment of behaviour
+^ESCT1171811	Moderate mental retardation with impairment of behaviour
+^ESCT1171812	Mild intellectual development disorder without significant impairment of behaviour
+^ESCT1171813	Mild mental retardation without significant impairment of behaviour
+^ESCT1171814	Mild intellectual development disorder with significant impairment of behaviour
+^ESCT1171815	Mild mental retardation with significant impairment of behaviour
+^ESCT1171816	Mild intellectual development disorder with minimal impairment of behaviour
+^ESCT1171817	Mild mental retardation with minimal impairment of behaviour
+^ESCT1172257	Mild intellectual development disorder with impairment of behaviour
+^ESCT1172258	Mild mental retardation with impairment of behaviour
+^ESCT1172259	Intellectual development disorder without significant impairment of behaviour
+^ESCT1172260	Mental retardation without significant impairment of behaviour
+^ESCT1172261	Intellectual development disorder with significant impairment of behaviour
+^ESCT1172262	Mental retardation with significant impairment of behaviour
+^ESCT1172263	Intellectual development disorder with minimal impairment of behaviour
+^ESCT1172264	Mental retardation with minimal impairment of behaviour
+^ESCT1172265	Intellectual development disorder with impairment of behaviour
+^ESCT1172266	Mental retardation with impairment of behaviour
+^ESCT1179073	Pseudoadrenoleukodystrophy
+^ESCT1199810	Intellectual developmental disorder
+^ESCT1200038	Charcot-Marie-Tooth disease, deafness, intellectual disability syndrome
+^ESCT1200039	Hereditary motor and sensory neuropathy with deafness, intellectual disability and absent sensory large myelinated fibers
+^ESCT1200040	Hereditary motor and sensory neuropathy with deafness, intellectual disability and absent sensory large myelinated fibres
+^ESCT1200081	Grubben, De Cock, Borghgraef syndrome
+^ESCT1200082	Developmental delay, hypotonia, extremities hypertrophy syndrome
+^ESCT1200195	Facial dysmorphism, cleft palate, loose skin syndrome
+^ESCT1200196	Dysmorphism, cleft palate, loose skin syndrome
+^ESCT1200263	Craniofaciofrontodigital syndrome
+^ESCT1200264	Cantu craniofaciofrontodigital syndrome
+^ESCT1200293	Cerebellar ataxia, intellectual disability, oculomotor apraxia, cerebellar cysts syndrome
+^ESCT1200294	Poretti Boltshauser syndrome
+^ESCT1200306	Intellectual disability, obesity, brain malformation, facial dysmorphism syndrome
+^ESCT1200307	Autosomal recessive intellectual disability due to TRAPPC9 (trafficking protein particle complex 9) deficiency
+^ESCT1200400	Ichthyosis, alopecia, eclabion, ectropion, intellectual disability syndrome
+^ESCT1200401	Jagell, Holmgren, Hofer syndrome
+^ESCT1200628	Distal monosomy 7q36 syndrome
+^ESCT1200629	Distal deletion 7q36
+^ESCT1200630	Distal monosomy 7q36
+^ESCT1200631	Distal monosomy 9p syndrome
+^ESCT1200632	Distal deletion 9p
+^ESCT1200633	Distal monosomy 9p
+^ESCT1200784	Aortic arch anomaly, facial dysmorphism, intellectual disability syndrome
+^ESCT1200789	Wiedemann Steiner syndrome
+^ESCT1200790	Hypertrichosis, short stature, facial dysmorphism, developmental delay syndrome
+^ESCT1200805	Intellectual disability due to nutritional deficiency
+^ESCT1200855	Craniodigital syndrome and intellectual disability syndrome
+^ESCT1200856	Scott craniodigital syndrome
+^ESCT1200857	Scott Bryant Graham syndrome
+^ESCT1200916	Sporadic fetal brain disruption sequence
+^ESCT1200917	Sporadic foetal brain disruption sequence
+^ESCT1200930	Hypotonia, speech impairment, severe cognitive delay syndrome
+^ESCT1200931	IHPRF (infantile hypotonia, psychomotor retardation, characteristic facies )syndrome
+^ESCT1200952	Intellectual disability, alacrima, achalasia syndrome
+^ESCT1200953	Intellectual disability, polydactyly, uncombable hair syndrome
+^ESCT1200954	Kozlowski Krajewska syndrome
+^ESCT1200955	Intellectual disability, spasticity, ectrodactyly syndrome
+^ESCT1200956	Jancar syndrome
+^ESCT1200957	Intellectual disability, brachydactyly, Pierre Robin syndrome
+^ESCT1200958	Intellectual disability Wolff type
+^ESCT1200959	Wolff Zimmermann syndrome
+^ESCT1200991	Macrocephaly and developmental delay syndrome
+^ESCT1201019	Malan overgrowth syndrome
+^ESCT1201020	Sotos syndrome 2
+^ESCT1201023	Agenesis of corpus callosum and abnormal genitalia syndrome
+^ESCT1201024	Microcephaly, corpus callosum agenesis, abnormal genitalia syndrome
+^ESCT1201025	Proud syndrome
+^ESCT1201026	Proud Levine Carpenter syndrome
+^ESCT1201027	Corpus callosum agenesis, abnormal genitalia syndrome
+^ESCT1201082	Oro-facial digital syndrome type 14
+^ESCT1201083	Microcephaly, cerebral malformation, orofaciodigital syndrome
+^ESCT1201084	Orofaciodigital syndrome type 14
+^ESCT1201122	Otofaciocervical syndrome
+^ESCT1201123	Fara Chlupackova syndrome
+^ESCT1201124	Pachygyria, intellectual disability, epilepsy syndrome
+^ESCT1201125	Kuzniecky syndrome
+^ESCT1201669	Cognitive impairment, coarse facies, heart defects, obesity, pulmonary involvement, short stature, skeletal dysplasia syndrome
+^ESCT1201670	CHOPS syndrome
+^ESCT1201693	Mosaic trisomy 14 syndrome
+^ESCT1201694	Mosaic trisomy chromosome 14
+^ESCT1201695	Trisomy 14 mosaicism
+^ESCT1201696	Mosaic trisomy 14
+^ESCT1202052	Xq12-q13.3 duplication syndrome
+^ESCT1202254	Intellectual disability Birk-Barel type
+^ESCT1202255	Intellectual disability, hypotonia, facial dysmorphism syndrome
+^ESCT1202256	Birk Barel mental retardation dysmorphism syndrome
+^ESCT1202257	KCNK9 (potassium two pore domain channel subfamily K member 9) imprinting syndrome
+^ESCT1202385	Cryptorchidism, arachnodactyly, intellectual disability syndrome
+^ESCT1202386	Van Benthem Driessen Hanveld syndrome
+^ESCT1202402	Intellectual disability, myopathy, short stature, endocrine defect syndrome
+^ESCT1202403	Chudley Rozdilsky syndrome
+^ESCT1202452	Mosaic trisomy 9 syndrome
+^ESCT1202453	Trisomy 9 mosaicism
+^ESCT1202454	Mosaic trisomy chromosome 9
+^ESCT1202611	Focal epilepsy, intellectual disability, cerebro-cerebellar malformation syndrome
+^ESCT1202612	Focal epilepsy, intellectual disability, dysarthria, ataxia syndrome
+^ESCT1202707	Proximal 16p11.2 microduplication syndrome
+^ESCT1202708	Proximal trisomy 16p11.2
+^ESCT1202745	SCN8A-related epilepsy with encephalopathy
+^ESCT1202746	SCN8A encephalopathy
+^ESCT1202747	SCN8A (sodium voltage-gated channel alpha subunit 8) related epilepsy with encephalopathy
+^ESCT1202748	Early infantile epileptic encephalopathy 13
+^ESCT1202749	Sodium voltage-gated channel alpha subunit 8-related epilepsy with encephalopathy
+^ESCT1202981	Peripheral demyelinating neuropathy, central dysmyelinating leukodystrophy, Waardenburg syndrome, Hirschsprung disease
+^ESCT1202982	Neurologic Waardenburg Shah syndrome
+^ESCT1202983	PCWH - peripheral demyelinating neuropathy, central dysmyelinating leukodystrophy, Waardenburg syndrome, Hirschsprung disease
+^ESCT1203125	HIVEP2-related intellectual disability
+^ESCT1203126	Human immunodeficiency virus type I enhancer binding protein 2 related intellectual disability
+^ESCT1203127	HIVEP2 (human immunodeficiency virus type I enhancer binding protein 2) related intellectual disability
+^ESCT1203152	X-linked intellectual disability, hypogonadism, ichthyosis, obesity, short stature syndrome
+^ESCT1203153	Young Hughes syndrome
+^ESCT1203578	Autosomal recessive spastic paraplegia type 45
+^ESCT1203585	Microcephalic primordial dwarfism Montreal type
+^ESCT1203586	Bird-headed dwarfism Montreal type
+^ESCT1203589	Brachydactyly, mesomelia, intellectual disability, heart defect syndrome
+^ESCT1203590	Stratton Garcia Young syndrome
+^ESCT1203932	Distal trisomy 17q
+^ESCT1203933	Distal duplication 17q
+^ESCT1203934	Telomeric duplication 17q
+^ESCT1203935	Distal trisomy 17q syndrome
+^ESCT1204729	Monosomy 13q34
+^ESCT1204730	Subtelomeric deletion 13q34
+^ESCT1204731	Distal deletion 13q34
+^ESCT1204771	Nijmegen breakage syndrome-like disorder
+^ESCT1204772	NBS-like (Nijmegen breakage syndrome-like) disorder
+^ESCT1204773	Microcephaly and chromosomal instability without immunodeficiency
+^ESCT1204774	RAD50 deficiency
+^ESCT1204785	X small rings
+^ESCT1204786	Small ring X chromosome
+^ESCT1204899	Epiphyseal dysplasia, hearing loss, dysmorphism syndrome
+^ESCT1204900	Finucane Kurtz Scott syndrome
+^ESCT1204901	Diencephalic mesencephalic junction dysplasia
+^ESCT1204904	Cono-spondylar dysplasia
+^ESCT1204905	Short stature, kyphosis, hypoplasia of basal ilia-cone epiphyses, facial dysmorphism syndrome
+^ESCT1207364	PURA syndrome
+^ESCT1207365	Purine rich element binding protein A syndrome
+^ESCT1207366	PURA-related neurodevelopmental disorder
+^ESCT1207367	PURA (purine rich element binding protein A) syndrome
+^ESCT1207368	PURA-related severe neonatal hypotonia, seizure, encephalopathy syndrome
+^ESCT1207727	PPP2R5D-related intellectual disability
+^ESCT1207728	PPP2R5D (protein phosphatase 2 regulatory subunit b (b56) delta) related intellectual disability
+^ESCT1207729	Protein phosphatase 2 regulatory subunit b (b56) delta-related intellectual disability
+^ESCT1208127	Trisomy 1q syndrome
+^ESCT1208128	Duplication 1q
+^ESCT1217753	Profound intellectual disability
+^ESCT1217754	Profound intellectual development disorder
+^ESCT1217871	Hyperphosphatasaemia with intellectual disability
+^ESCT1217872	Hyperphosphatasemia with intellectual disability
+^ESCT1218161	Severe intellectual disability
+^ESCT1218162	Severe intellectual development disorder
+^ESCT1219077	Moderate intellectual disability
+^ESCT1219078	Moderate intellectual development disorder
+^ESCT1220244	Mild intellectual disability
+^ESCT1220245	Mild intellectual development disorder
+^ESCT1220494	NF1 - Neurofibromatosis type 1
+^ESCT12272325	12p partial trisomy syndrome
+^ESCT1232189	Intellectual disability, congenital heart disease, blepharophimosis, blepharoptosis and hypoplastic teeth
+^ESCT1233764	X-linked intellectual disability with marfanoid habitus
+^ESCT1235787	Blepharophimosis-intellectual disability syndrome Maat-Kievit-Brunner type
+^ESCT1235866	X-linked intellectual disability-psychosis-macroorchidism syndrome
+^ESCT1235868	Partington X-linked intellectual disability syndrome
+^ESCT1235869	X-linked intellectual disability Snyder type
+^ESCT1235902	Lubs X-linked intellectual disability syndrome
+^ESCT1235958	Progressive epilepsy-intellectual disability syndrome Finnish type
+^ESCT1235959	Hirschsprung disease-intellectual disability syndrome
+^ESCT1236890	Intellectual disability, epileptic seizures, hypogonadism and hypogenitalism, microcephaly, obesity syndrome
+^ESCT1236891	X-linked intellectual disability, epileptic seizures, hypogonadism and hypogenitalism, microcephaly, obesity syndrome
+^ESCT1248334	Carpenter's syndrome
+^ESCT1270221	Specific learning difficulty
+^ESCT1270378	Mild mental retardation (I.Q. 50-70)
+^ESCT1270379	Moderate mental retardation (I.Q. 35-49)
+^ESCT1270392	Profound mental retardation (I.Q. below 20)
+^ESCT1270394	Severe mental retardation (I.Q. 20-34)
+^ESCT12778088	12q14 microdeletion syndrome
+^ESCT1349116	10q22.3q23.3 microdeletion syndrome
+^ESCT1349117	Deletion 10q22.3q23.3
+^ESCT1349118	Monosomy 10q22.3q23.3
+^ESCT1349135	Distal monosomy 19p13.3
+^ESCT1349209	Microcephalic primordial dwarfism Alazami type
+^ESCT1349210	Alazami syndrome
+^ESCT1349212	Monosomy 13q14 syndrome
+^ESCT1349213	Deletion 13q14
+^ESCT1349214	Monosomy 13q14
+^ESCT1349271	Ring chromosome 12 syndrome
+^ESCT1349272	Ring chromosome 12
+^ESCT1349358	Tetrasomy 11q24.1
+^ESCT1349359	Microtriplication 11q24.1
+^ESCT1349379	Progressive encephalopathy with oedema, hypsarrhythmia, and optic atrophy-like syndrome
+^ESCT1349380	PEHO-like syndrome
+^ESCT1349381	PEHOL (progressive encephalopathy with oedema, hypsarrhythmia, and optic atrophy-like) syndrome
+^ESCT1349382	Polyneuropathy, intellectual disability, acromicria, premature menopause syndrome
+^ESCT1349383	Lundberg syndrome
+^ESCT1349442	3q27.3 microdeletion syndrome
+^ESCT1349490	Intellectual disability, seizures, macrocephaly, obesity syndrome
+^ESCT1349497	Intellectual disability, seizures, hypotonia, ophthalmologic, skeletal anomalies syndrome
+^ESCT1349498	MCAHS (multiple congenital anomalies, hypotonia, seizures syndrome) type 3
+^ESCT1349499	Congenital disorder of glycosylation due to PIGT (phosphatidylinositol glycan anchor biosynthesis class T) deficiency
+^ESCT1349500	Congenital disorder of glycosylation due to PIGT deficiency
+^ESCT1349719	Autosomal recessive intellectual disability, motor dysfunction, multiple joint contracture syndrome
+^ESCT1349720	Recessive intellectual disability, motor dysfunction, multiple joint contractures syndrome
+^ESCT1349732	Kagami Ogata syndrome
+^ESCT1349733	Multiple congenital anomalies due to 14q32.2 maternally expressed gene defect
+^ESCT1349734	49,XXXYY syndrome
+^ESCT1349781	Rhizomelic syndrome Urbach type
+^ESCT1349842	Monosomy 9p
+^ESCT1349843	9p deletion syndrome
+^ESCT1349844	Alfi syndrome
+^ESCT1349959	Hepatic fibrosis, renal cyst, intellectual disability syndrome
+^ESCT1349960	Thompson Baraitser syndrome
+^ESCT1349978	Edinburgh malformation syndrome
+^ESCT1349979	Typus Edinburgensis
+^ESCT1350075	Pseudoleprechaunism syndrome Patterson type
+^ESCT1350076	Patterson syndrome
+^ESCT1350077	Patterson pseudoleprechaunism syndrome
+^ESCT1350163	Polymicrogyria with optic nerve hypoplasia
+^ESCT1350164	1q21.1 microduplication syndrome
+^ESCT1350165	Trisomy 1q21.1
+^ESCT1350312	Developmental and speech delay due to SOX5 deficiency
+^ESCT1350313	Developmental and speech delay due to SRY-box 5 deficiency
+^ESCT1350314	Developmental and speech delay due to SOX5 (SRY-box 5) deficiency
+^ESCT1350370	Autism spectrum disorder due to AUTS2 deficiency
+^ESCT1350371	Autism spectrum disorder due to AUTS2 activator of transcription and developmental regulator deficiency
+^ESCT1350372	AUTS2 syndrome
+^ESCT1350380	Solute carrier family 35 member A2 congenital disorder of glycosylation
+^ESCT1350381	SLC35A2-CDG - solute carrier family 35 member A2 congenital disorder of glycosylation
+^ESCT1350382	Congenital disorder of glycosylation type 2m
+^ESCT1350383	Congenital disorder of glycosylation type IIm
+^ESCT1350384	CDG2M - congenital disorder of glycosylation type 2m
+^ESCT1351066	White Sutton syndrome
+^ESCT1351176	Warburg micro syndrome
+^ESCT1351177	Micro syndrome
+^ESCT1352060	Cyclin-dependent kinase-like 5 deficiency
+^ESCT1352061	CDKL5 (cyclin-dependent kinase-like 5) deficiency
+^ESCT1352062	CDKL5 deficiency disorder
+^ESCT1352063	CDKL5-related epileptic encephalopathy
+^ESCT1352105	X-linked intellectual disability, craniofacioskeletal syndrome
+^ESCT1352177	Distal 7q11.23 microduplication syndrome
+^ESCT1352178	Distal trisomy 7q11.23
+^ESCT1352183	CK syndrome
+^ESCT1352184	X-linked intellectual disability, microcephaly, cortical malformation, thin habitus syndrome
+^ESCT1352249	Autosomal recessive frontotemporal pachygyria
+^ESCT1352264	Severe feeding difficulties, failure to thrive, microcephaly due to ASXL3 deficiency syndrome
+^ESCT1352265	Bainbridge Roppers syndrome
+^ESCT1352266	Severe feeding difficulties, failure to thrive, microcephaly due to ASXL transcriptional regulator 3 deficiency syndrome
+^ESCT1352269	Intellectual disability with strabismus syndrome
+^ESCT1352300	Severe intellectual disability, short stature, behavioural abnormalities, facial dysmorphism syndrome
+^ESCT1352397	Autosomal recessive cerebellar ataxia, epilepsy, intellectual disability syndrome due to TUD deficiency
+^ESCT1352398	Spinocerebellar ataxia autosomal recessive type 23
+^ESCT1352399	SCAR23 - spinocerebellar ataxia autosomal recessive type 23
+^ESCT1352485	Intellectual disability, craniofacial dysmorphism, cryptorchidism syndrome
+^ESCT1352494	X-linked intellectual disability, cardiomegaly, congestive heart failure syndrome
+^ESCT1352525	Craniofacial dysplasia osteopenia syndrome
+^ESCT1352526	Hamamy syndrome
+^ESCT1352577	Rapid-onset childhood obesity, hypothalamic dysfunction, hypoventilation, autonomic dysregulation syndrome
+^ESCT1352578	ROHHADNET (rapid-onset childhood obesity, hypothalamic dysfunction, hypoventilation, autonomic dysregulation, neural tumours) syndrome
+^ESCT1352579	ROHHAD (rapid-onset childhood obesity, hypothalamic dysfunction, hypoventilation, autonomic dysregulation) syndrome
+^ESCT1352582	Hypogonadotropic hypogonadism, severe microcephaly, sensorineural hearing loss, dysmorphism syndrome
+^ESCT1352583	Hypogonadotropic hypogonadism, severe microcephaly, sensorineural deafness, dysmorphism syndrome
+^ESCT1352593	Distal Xq28 microduplication syndrome
+^ESCT1352594	Distal trisomy Xq28
+^ESCT1352629	Pitt Hopkins-like syndrome
+^ESCT1352707	Ataxia, photosensitivity, short stature syndrome
+^ESCT1352708	Fenton Wilkinson Toselano syndrome
+^ESCT1352712	Rare non-syndromic intellectual disability
+^ESCT1353005	AHDC1-related intellectual disability, obstructive sleep apnoea, mild dysmorphism syndrome
+^ESCT1353006	Xia Gibbs syndrome
+^ESCT1353007	AT-hook DNA binding motif containing 1-related intellectual disability, obstructive sleep apnoea, mild dysmorphism syndrome
+^ESCT1357219	KCNQ2-related epileptic encephalopathy
+^ESCT1357220	KCNQ2-related neonatal epileptic encephalopathy
+^ESCT1357221	KCNQ2-NEE - potassium voltage-gated channel subfamily Q member 2-related neonatal epileptic encephalopathy
+^ESCT1357222	Potassium voltage-gated channel subfamily Q member 2 related epileptic encephalopathy
+^ESCT1357229	Duplication of pituitary gland
+^ESCT1357230	Hypophyseal duplication
+^ESCT1357231	Duplication of pituitary gland plus syndrome
+^ESCT1357242	Severe intellectual disability and progressive spastic paraplegia
+^ESCT1357243	AP4 deficiency syndrome
+^ESCT1362117	Distal trisomy 18q
+^ESCT1362118	Distal duplication 18q
+^ESCT1362119	Telomeric duplication 18q
+^ESCT1362200	Severe intellectual disability, progressive spastic diplegia syndrome
+^ESCT1362205	Intellectual disability, facial dysmorphism syndrome due to SETD5 haploinsufficiency
+^ESCT1362206	Intellectual disability, facial dysmorphism syndrome due to SET domain containing 5 haploinsufficiency
+^ESCT1362230	Intellectual disability, coarse face, macrocephaly, cerebellar hypotrophy syndrome
+^ESCT1362231	SCAR20 - autosomal recessive spinocerebellar ataxia type 20
+^ESCT1362232	Autosomal recessive spinocerebellar ataxia type 20
+^ESCT1362236	Primary microcephaly, mild intellectual disability, young-onset diabetes syndrome
+^ESCT1362256	Congenital muscular dystrophy with intellectual disability and severe epilepsy
+^ESCT1362257	Congenital disorder of glycosylation type 1u
+^ESCT1362258	Carbohydrate deficient glycoprotein syndrome type 1u
+^ESCT1362407	Xp22.13p22.2 duplication syndrome
+^ESCT1362418	Infantile spasms, psychomotor retardation, progressive brain atrophy, basal ganglia disease syndrome
+^ESCT1362447	Dermotrichic syndrome
+^ESCT1362470	Richieri Costa-da Silva syndrome
+^ESCT1362471	Myotonia, intellectual disability, skeletal anomalies syndrome
+^ESCT1362477	Ophthalmoplegia, intellectual disability, lingua scrotalis syndrome
+^ESCT1362478	Levic Stefanovic Nikolic syndrome
+^ESCT1362542	Severe microbrachycephaly, intellectual disability, athetoid cerebral palsy syndrome
+^ESCT1362618	Autosomal recessive cerebellar ataxia, psychomotor delay syndrome
+^ESCT1362619	Autosomal recessive spinocerebellar ataxia type 11
+^ESCT1362620	Facial dysmorphism, developmental delay, behavioural abnormalities syndrome due to 10p11.21p12.31 microdeletion
+^ESCT1362621	Monosomy 10p11.21p12.31
+^ESCT1362622	10p12p11 microdeletion syndrome
+^ESCT1362623	Deletion 10p11.21p12.31
+^ESCT1362677	Autosomal recessive spastic paraplegia type 14
+^ESCT1362791	Congenital muscular dystrophy with intellectual disability
+^ESCT1363136	DYRK1A-related intellectual disability syndrome due to 21q22.13q22.2 microdeletion
+^ESCT1363137	Dual specificity tyrosine phosphorylation regulated kinase 1A-related intellectual disability syndrome due to 21q22.13q22.2 microdeletion
+^ESCT1363138	21q22.13q22.2 microdeletion syndrome
+^ESCT1363139	Monosomy 21q22.13q22.2
+^ESCT1363221	X-linked intellectual disability due to GRIA3 mutations
+^ESCT1363222	X-linked intellectual disability due to glutamate ionotropic receptor AMPA type subunit 3 mutations
+^ESCT1363223	White matter hypoplasia, corpus callosum agenesis, intellectual disability syndrome
+^ESCT1363224	Curatolo Cilio Pessagno syndrome
+^ESCT1363245	Paternal uniparental disomy of chromosome X
+^ESCT1363246	UPD(X)pat - paternal uniparental disomy of chromosome X
+^ESCT1363274	Maternal uniparental disomy of chromosome X
+^ESCT1363275	UPD(X)mat - maternal uniparental disomy of chromosome X
+^ESCT1363785	Beta-mercaptolactate cysteine disulfiduria
+^ESCT1363786	Ampola syndrome
+^ESCT1363798	Autosomal recessive cutis laxa type 2A
+^ESCT1363799	ARCL2A - autosomal recessive cutis laxa type 2A
+^ESCT1366210	Developmental delay, facial dysmorphism syndrome due to MED13L deficiency
+^ESCT1366211	Developmental delay, facial dysmorphism syndrome due to mediator complex subunit 13 like deficiency
+^ESCT1369781	Significant learning disability
+^ESCT1369782	Significant intellectual disability
+^ESCT1378444	Learning disability
+^ESCT1378445	General learning disability
+^ESCT1379228	ECCL - encephalocraniocutaneous lipomatosis
+^ESCT1384118	PEHO (progressive encephalopathy with oedema, hypsarrhythmia and optic atrophy) syndrome
+^ESCT1390483	Alopecia, epilepsy, intellectual disability syndrome Moynahan type
+^ESCT1390484	Moynahan syndrome
+^ESCT1392245	Woodhouse Sakati syndrome
+^ESCT1392246	Diabetes, hypogonadism, deafness, intellectual disability syndrome
+^ESCT1393930	MASA syndrome
+^ESCT1393931	MASA (mental retardation, adducted thumbs, shuffling gait, aphasia) syndrome
+^ESCT1393932	Intellectual disability, aphasia, shuffling gait, adducted thumbs syndrome
+^ESCT1393933	Mental retardation, adducted thumbs, shuffling gait, aphasia syndrome
+^ESCT1394420	Down syndrome co-occurrent with leukaemoid reaction associated transient neonatal pustulosis
+^ESCT1396336	Pervasive developmental disorder with disorder of intellectual development without loss of previously acquired skills
+^ESCT1396337	Autism spectrum disorder with disorder of intellectual development and with mild or no impairment of functional language without loss of previously acquired skills
+^ESCT1396340	Pervasive developmental disorder with disorder of intellectual development and pervasive impairment of functional language without loss of previously acquired skills
+^ESCT1396341	Autism spectrum disorder with disorder of intellectual development and absence of functional language without loss of previously acquired skills
+^ESCT1396342	Pervasive developmental disorder with disorder of intellectual development with loss of previously acquired skills
+^ESCT1396343	Autism spectrum disorder with disorder of intellectual development and with mild or no impairment of functional language with loss of previously acquired skills
+^ESCT1396344	Pervasive developmental disorder with disorder of intellectual development and marked impairment of functional language with loss of previously acquired skills
+^ESCT1396345	Autism spectrum disorder with disorder of intellectual development and with impaired functional language with loss of previously acquired skills
+^ESCT1396346	Pervasive developmental disorder with disorder of intellectual development and marked impairment of functional language without loss of previously acquired skills
+^ESCT1396347	Autism spectrum disorder with disorder of intellectual development and impaired functional language without loss of previously acquired skills
+^ESCT1396348	Pervasive developmental disorder with disorder of intellectual development and complete impairment of functional language without loss of previously acquired skills
+^ESCT1396349	Autism spectrum disorder with disorder of intellectual development and complete impairment of functional language without loss of previously acquired skills
+^ESCT1396350	Pervasive developmental disorder with disorder of intellectual development and abscence of functional language with loss of previously acquired skills
+^ESCT1396351	Autism spectrum disorder with disorder of intellectual development and absence of functional language with loss of previously acquired skills
+^ESCT1396352	Pervasive developmental disorder with disorder of intellectual development and complete impairment of functional language with loss of previously acquired skills
+^ESCT1396353	Autism spectrum disorder with disorder of intellectual development and complete impairment of functional language with loss of previously acquired skills
+^ESCT1396406	Pervasive developmental disorder with cognitive developmental delay and marked impairment of functional language
+^ESCT1396407	Autism spectrum disorder with disorder of intellectual development and impaired functional language
+^ESCT1396412	Pervasive developmental disorder with cognitive developmental delay and complete impairment of functional language
+^ESCT1396413	Autism spectrum disorder with disorder of intellectual development and complete impairment of functional language
+^ESCT1405626	Oculocerebral hypopigmentation syndrome Cross type
+^ESCT1405627	Kramer syndrome
+^ESCT1405710	Burton syndrome
+^ESCT1405711	Catel Hempel syndrome
+^ESCT1405712	Aberfeld syndrome
+^ESCT1405713	Burton skeletal dysplasia
+^ESCT1405872	4-Hydroxybutyric aciduria
+^ESCT1405975	Williams Beuren syndrome
+^ESCT1405976	Deletion 7q11.23
+^ESCT1405977	Monosomy 7q11.23
+^ESCT1406054	Accelerated skeletal maturation, facial dysmorphism, failure to thrive syndrome
+^ESCT1406099	Oculocerebrorenal syndrome of Lowe
+^ESCT1406186	Prader Labhart Willi syndrome
+^ESCT1407276	Hennekam syndrome
+^ESCT1407277	Lymphoedema, lymphangiectasia, intellectual disability syndrome
+^ESCT1407403	Aniridia, cerebellar ataxia, intellectual disability syndrome
+^ESCT1407409	Desbuquois dysplasia
+^ESCT1408648	Hypothyroidism, dysmorphism, postaxial polydactyly, intellectual disability syndrome
+^ESCT1408715	Lindsay Burn syndrome
+^ESCT1409003	Leucoencephalopathy co-occurrent with bilateral anterior temporal lobe cysts
+^ESCT1409040	EAST (Epilepsy, ataxia, sensorineural deafness, and tubulopathy) syndrome
+^ESCT1409084	ALX4 (human aristaless-like 4) related frontonasal dysplasia with alopecia and genital anomaly
+^ESCT1409085	AICA (5-amino-4-imidazole carboxamide) ribosiduria
+^ESCT1409189	IHPRF (infantile hypotonia, psychomotor retardation, characteristic facies) syndrome
+^ESCT1412907	Severe achondroplasia, developmental delay, acanthosis nigricans syndrome
+^ESCT1412908	SADDAN (severe achondroplasia, developmental delay, acanthosis nigricans) syndrome
+^ESCT1413256	Bilateral megalencephaly
+^ESCT1413274	Alpha-N-acetylgalactosaminidase deficiency type 1
+^ESCT1413275	NAGA - Alpha-N-acetylgalactosaminidase deficiency type 1
+^ESCT1413276	Schindler disease type 1
+^ESCT1413403	Alpha-N-acetylgalactosaminidase deficiency type 2
+^ESCT1413404	NAGA - Alpha-N-acetylgalactosaminidase deficiency type 2
+^ESCT1413405	Schindler disease type 2
+^ESCT1413406	Alpha-N-acetylgalactosaminidase deficiency type 3
+^ESCT1413407	NAGA - Alpha-N-acetylgalactosaminidase deficiency type 3
+^ESCT1413408	Schindler disease type 3
+^ESCT1413423	12q15 deletion syndrome
+^ESCT1413539	Mowat-Wilson syndrome due to monosomy 2q22
+^ESCT1413540	Hirschsprung disease and intellectual disability due to del(2)(q22)
+^ESCT1413541	Hirschsprung disease and intellectual disability due to monosomy 2q22
+^ESCT1413542	Hirschsprung disease and intellectual disability due to 2q22 microdeletion
+^ESCT1413543	Mowat-Wilson syndrome due to del(2)q(22)
+^ESCT1413544	Mowat-Wilson syndrome due to 2q22 microdeletion
+^ESCT1413549	3p25.3 deletion syndrome
+^ESCT1413550	3p25.3 microdeletion syndrome
+^ESCT1413557	9q34 deletion syndrome
+^ESCT1413692	Acrocardiofacial syndrome
+^ESCT1413693	Acro-cardio-facial syndrome
+^ESCT1413694	ACFS - acrocardiofacial syndrome
+^ESCT1413695	CCGE - cleft palate, cardiac defect, genital anomalies, ectrodactyly syndrome
+^ESCT1413696	Cleft palate, cardiac defect, genital anomalies, and ectrodactyly
+^ESCT1413752	Bilateral frontal polymicrogyria
+^ESCT1413753	Bilateral frontoparietal polymicrogyria
+^ESCT1413754	BFPP - bilateral frontoparietal polymicrogyria
+^ESCT1413996	Cockayne syndrome type 1
+^ESCT1413997	Classical Cockayne syndrome
+^ESCT1413998	Cockayne syndrome type A
+^ESCT1413999	Cockayne syndrome type 2
+^ESCT1414000	Early onset Cockayne syndrome
+^ESCT1415258	Molybdenum cofactor deficiency complementation group A
+^ESCT1415259	Molybdenum cofactor deficiency complementation group B
+^ESCT1415261	Microphthalmos due to Fryns syndrome
+^ESCT1415264	Microcephaly with simplified gyral pattern
+^ESCT1415265	Microlissencephaly
+^ESCT1415281	Molybdenum cofactor deficiency complementation group C
+^ESCT1415283	Mosaic 1q duplication
+^ESCT1415304	Maternal 15q11q13 deletion
+^ESCT1416336	X-linked complicated corpus callosum dysgenesis
+^ESCT1419511	Tyrosinaemia due to tyrosine aminotransferase deficiency
+^ESCT1421305	9q22.3 deletion syndrome
+^ESCT1421528	Pervasive developmental disorder with disorder of intellectual development and absence of functional language with loss of previously acquired skills
+^ESCT14778091	14q11.2 microdeletion syndrome
+^ESCT14778840	14q12 microdeletion syndrome
+^ESCT15778668	15q11q13 microduplication syndrome
+^ESCT15778842	15q14 microdeletion syndrome
+^ESCT16778844	16p11.2p12.2 microdeletion syndrome
+^ESCT16778846	16p13.11 microdeletion syndrome
+^ESCT17775061	17q21.31 microduplication syndrome
+^ESCT17796317	17p11.2 microduplication syndrome
+^ESCT18256594	18p partial trisomy syndrome
+^ESCT19778876	19q13.11 microdeletion syndrome
+^ESCT1P752016	1p36 deletion syndrome
+^ESCT1P778878	1p21.3 microdeletion syndrome
+^ESCT1Q774786	1q41q42 microdeletion syndrome
+^ESCT1Q774788	1q41-q42 microdeletion syndrome
+^ESCT1Q778935	1q44 microdeletion syndrome
+^ESCT20795899	20q13.33 microdeletion syndrome
+^ESCT2P778939	2p15p16.1 microdeletion syndrome
+^ESCT2P778941	2p21 microdeletion syndrome
+^ESCT2Q755881	2q37 deletion syndrome
+^ESCT2Q774637	2q31.1 microdeletion syndrome
+^ESCT2Q778950	2q23.1 microdeletion syndrome
+^ESCT2Q778953	2q24 microdeletion syndrome
+^ESCT2Q778955	2q32q33 microdeletion syndrome
+^ESCT3C777391	3C syndrome
+^ESCT3M583785	3-Methylglutaconic aciduria type 4
+^ESCT3Q774719	3q29 microdeletion syndrome
+^ESCT3Q774720	3q subtelomere deletion syndrome
+^ESCT48795969	48,XYYY syndrome
+^ESCT49796334	49,XYYYY syndrome
+^ESCT4H330534	4--Hydroxybutyric aciduria
+^ESCT4P277170	4p partial monosomy syndrome
+^ESCT4P277172	4p minus syndrome
+^ESCT4Q778957	4q21 microdeletion syndrome
+^ESCT5A786714	5-amino-4-imidazole carboxamide ribosiduria
+^ESCT5P364093	5p partial monosomy syndrome
+^ESCT5P364096	5p minus syndrome
+^ESCT5P370319	5p partial trisomy syndrome
+^ESCT5Q778959	5q14.3 microdeletion syndrome
+^ESCT5Q778968	5q35 microduplication syndrome
+^ESCT6P778961	6p22 microdeletion syndrome
+^ESCT6Q778963	6q25 microdeletion syndrome
+^ESCT6Q778970	6q terminal deletion syndrome
+^ESCT7D320736	7-Dehydrocholesterol reductase deficiency
+^ESCT8P774635	8p23.1 microdeletion syndrome
+^ESCT8P776891	8p inverted duplication deletion syndrome
+^ESCT8P778931	8p11.2 deletion syndrome
+^ESCT8Q777491	8q21.11 microdeletion syndrome
+^ESCTAB795346	Absent eyebrows and eyelashes with intellectual disability syndrome
+^ESCTAC511676	Acyl-CoA oxidase deficiency
+^ESCTAC511678	Acyl-coenzyme A oxidase deficiency
+^ESCTAC668683	Acrocephalopolysyndactyly type II
+^ESCTAC668685	Acrocephalopolysyndactyly type 2
+^ESCTAC773200	Acromelic frontonasal dysplasia
+^ESCTAC774012	Acrocallosal syndrome
+^ESCTAC777418	Achalasia microcephaly syndrome
+^ESCTAC780311	Acrofrontofacionasal dysostosis
+^ESCTAC780312	Acro-fronto-facio-nasal dysostosis
+^ESCTAC780336	Acrofacial dysostosis Catania type
+^ESCTAC781026	ACD (alopecia, contracture, dwarfism) syndrome
+^ESCTAC781027	ACD (alopecia, contracture, dwarfism) mental retardation syndrome
+^ESCTAD256902	Adenosylcobalamin and methylcobalamin synthesis defect
+^ESCTAD274237	Adenylosuccinate lyase deficiency
+^ESCTAD274240	Adenylosuccinate deficiency
+^ESCTAD356305	Adrenoleukodystrophy
+^ESCTAD356306	Adrenomyeloneuropathy
+^ESCTAD781200	Adult polyglucosan body disease
+^ESCTAG756077	Agenesis of corpus callosum with polyneuropathy
+^ESCTAG756079	Agenesis of corpus callosum with peripheral neuropathy
+^ESCTAG782942	Agammaglobulinaemia, microcephaly, craniosynostosis, severe dermatitis syndrome
+^ESCTAG782943	Agammaglobulinemia, microcephaly, craniosynostosis, severe dermatitis syndrome
+^ESCTAG782944	Agenesis of corpus callosum, intellectual disability, coloboma, micrognathia syndrome
+^ESCTAH777872	Ahn Lerman Sagie syndrome
+^ESCTAI381187	Aicardi's syndrome
+^ESCTAI381188	AIC - Aicardi syndrome
+^ESCTAI786715	AICA (5-amino-4-imidazole carboxamide ) ribosiduria
+^ESCTAL355256	alpha-L-fucosidase deficiency
+^ESCTAL355257	Alpha-L-fucosidase deficiency
+^ESCTAL356311	ALD - adrenoleukodystrophy
+^ESCTAL356551	alpha-Mannosidase deficiency
+^ESCTAL356552	Alpha-D-mannosidosis
+^ESCTAL356553	Alpha-mannosidase deficiency
+^ESCTAL383101	Alexander's disease
+^ESCTAL383103	Alexander disease
+^ESCTAL511646	Alpha-N-acetylgalactosaminidase deficiency
+^ESCTAL755808	Allan-Herndon-Dudley syndrome
+^ESCTAL755810	Allan-Herndon syndrome
+^ESCTAL755883	Albright hereditary osteodystrophy-like syndrome
+^ESCTAL773069	Alpha thalassaemia X-linked intellectual disability syndrome
+^ESCTAL773070	Alpha thalassemia X-linked intellectual disability syndrome
+^ESCTAL773071	Alpha thalassemia X-linked intellectual deficit
+^ESCTAL773072	Alpha thalassaemia X-linked intellectual deficit
+^ESCTAL774366	Alopecia and intellectual disability syndrome
+^ESCTAL779123	Aldred syndrome
+^ESCTAL780953	ALG1 congenital disorder of glycosylation
+^ESCTAL780958	ALG1-CDG - asparagine-linked glycosylation 1 congenital disorder of glycosylation
+^ESCTAL781018	ALG9 congenital disorder of glycosylation
+^ESCTAL781024	ALG9-CDG - asparagine-linked glycosylation 9 congenital disorder of glycosylation
+^ESCTAL781025	Alopecia, contracture, dwarfism, intellectual disability syndrome
+^ESCTAL781028	Alopecia, psychomotor epilepsy, periodontal pyorrhoea, intellectual disability syndrome
+^ESCTAL781030	Alopecia, psychomotor epilepsy, periodontal pyorrhea, intellectual disability syndrome
+^ESCTAL781031	Alopecia and intellectual disability with hypergonadotropic hypogonadism syndrome
+^ESCTAL781033	Alport syndrome, intellectual disability, midface hypoplasia, elliptocytosis syndrome
+^ESCTAL781154	Al Gazali Aziz Salem syndrome
+^ESCTAL782747	Al Gazali Nair syndrome
+^ESCTAL786432	ALX4 (human aristaless-like 4 ) related frontonasal dysplasia with alopecia and genital anomaly
+^ESCTAL795319	Alaninuria, microcephaly, dwarfism, enamel hypoplasia, diabetes mellitus syndrome
+^ESCTAL795343	ALG11-CDG - asparagine-linked glycosylation 11 congenital disorder of glycosylation
+^ESCTAM358832	Amylo-1,6-glucosidase deficiency
+^ESCTAM416492	Amelocerebrohypohidrotic syndrome
+^ESCTAM781034	AMME complex
+^ESCTAM781035	AMME syndrome
+^ESCTAN321904	Angioma pigmentosum atrophicum
+^ESCTAN375005	Angelman syndrome
+^ESCTAN756076	Andermann syndrome
+^ESCTAN780396	Aniridia and intellectual disability syndrome
+^ESCTAN781045	Aniridia, ptosis, intellectual disability, familial obesity syndrome
+^ESCTAN783198	Anophthalmia with pulmonary hypoplasia syndrome
+^ESCTAR287506	Arginase deficiency
+^ESCTAR287507	Argininemia
+^ESCTAR287509	ARGI deficiency
+^ESCTAR287510	Argininaemia
+^ESCTAR778043	Armfield syndrome
+^ESCTAR780453	Arachnodactyly with abnormal ossification and intellectual disability syndrome
+^ESCTAR782445	Arima syndrome
+^ESCTAS274242	ASase - Adenylosuccinate lyase deficiency
+^ESCTAS339184	Aspartylglycosaminuria
+^ESCTAS339185	Aspartylglucosaminidase deficiency
+^ESCTAS339186	Aspartylglycosylaminase deficiency
+^ESCTAS780954	Asparagine-linked glycosylation 1 congenital disorder of glycosylation
+^ESCTAS781019	Asparagine-linked glycosylation 9 congenital disorder of glycosylation
+^ESCTAS795341	Asparagine-linked glycosylation 11 congenital disorder of glycosylation
+^ESCTAT321903	Atrophoderma pigmentosum
+^ESCTAT344649	Atypical phenylketonuria
+^ESCTAT344652	Atypical PKU
+^ESCTAT777171	Atypical Rett syndrome
+^ESCTAT777426	Atkin Flaitz syndrome
+^ESCTAT780481	Ataxia with deafness and intellectual disability syndrome
+^ESCTAT780488	Attenuated Ch?diak-Higashi syndrome
+^ESCTAT780489	Atypical Ch?diak-Higashi syndrome
+^ESCTAT783051	Athyroidal hypothyroidism with spiky hair and cleft palate syndrome
+^ESCTAT786716	ATIC (5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/imp cyclohydrolase) deficiency
+^ESCTAU352387	Autosomal recessive hereditary sensory neuropathy
+^ESCTAU773116	Autosomal recessive cerebelloparenchymal disorder type 3
+^ESCTAU773303	Autosomal recessive distal osteolysis syndrome
+^ESCTAU773310	Autosomal recessive spastic paraplegia type 11
+^ESCTAU774051	Autosomal recessive primary microcephaly
+^ESCTAU779114	Autosomal recessive deafness onychodystrophy syndrome
+^ESCTAU780493	Autosomal recessive limb girdle muscular dystrophy type 2K
+^ESCTAU780762	Aural atresia with multiple congenital anomalies and intellectual disability syndrome
+^ESCTAU784802	Autosomal recessive spastic paraplegia type 54
+^ESCTAU788062	Autosomal recessive spastic paraplegia type 32
+^ESCTAU795142	Autosomal recessive spastic paraplegia type 18
+^ESCTBA258917	Bardet-Biedl syndrome
+^ESCTBA510977	Bangstad syndrome
+^ESCTBA783050	Bamforth Lazarus syndrome
+^ESCTBA795275	Battaglia Neri syndrome
+^ESCTBC294466	BCKD deficiency
+^ESCTBC294473	BCKD - Branched chain alpha-ketoacid dehydrogenase deficiency
+^ESCTBE320711	beta-Glucuronidase deficiency
+^ESCTBE476954	Benign myoclonic epilepsy in infancy
+^ESCTBE511644	Beta-D-mannosidosis
+^ESCTBE511645	Beta-mannosidase deficiency
+^ESCTBE512935	Berlin syndrome
+^ESCTBE780846	Berant syndrome
+^ESCTBF284417	BFLS
+^ESCTBI344085	Bird-headed dwarf of Seckel
+^ESCTBI344087	Bird-headed dwarf
+^ESCTBI510975	Bird-headed dwarfism with progressive ataxia, insulin-resistant diabetes, goitre, and primary gonadal insufficiency
+^ESCTBI510976	Bird-headed dwarfism with progressive ataxia, insulin-resistant diabetes, goiter, and primary gonadal insufficiency
+^ESCTBI776384	Biemond syndrome type 2
+^ESCTBI784280	Bindewald Ulmer Muller syndrome
+^ESCTBL751985	Blepharophimosis-mental retardation syndrome, Maat-Kievit-Brunner type
+^ESCTBL751988	Blepharophimosis-mental retardation syndrome, Say-Barber-Biesecker-Young-Simpson type
+^ESCTBL751990	Blepharophimosis-intellectual deficit syndrome, Say-Barber/Biesecker/Young-Simpson type
+^ESCTBO284418	Borjeson syndrome
+^ESCTBO795290	Bonnemann Meinecke Reich syndrome
+^ESCTBR294465	Branched-chain alpha-keto acid dehydrogenase deficiency
+^ESCTBR294470	Branched chain ketoaciduria
+^ESCTBR294472	Branched chain ketoacid dehydrogenase deficiency
+^ESCTBR314923	Brachmann-de Lange syndrome
+^ESCTBR356307	Bronze Schilder disease
+^ESCTBR755882	Brachydactyly mental retardation syndrome
+^ESCTBR776481	BRESEK syndrome
+^ESCTBR776482	Brain anomaly, severe mental retardation, ectodermal dysplasia, skeletal deformity, ear anomaly, kidney dysplasia syndrome
+^ESCTBR778148	Branchio-skeleto-genital syndrome
+^ESCTBR778149	Branchioskeletogenital syndrome
+^ESCTBR780974	Brachycephaly, deafness, cataract, intellectual disability syndrome
+^ESCTBR787500	Brooks Wisniewski Brown syndrome
+^ESCTBR795186	Branchial dysplasia, intellectual disability, inguinal hernia syndrome
+^ESCTBS778147	BSG syndrome
+^ESCTBU787099	Bullous dystrophy macular type
+^ESCTCA668684	Carpenter syndrome
+^ESCTCA757490	CASK related intellectual disability
+^ESCTCA757491	CASK - Calcium/calmodulin-dependent serine protein kinase related intellectual disability
+^ESCTCA757492	Calcium/calmodulin-dependent serine protein kinase related intellectual disability
+^ESCTCA779128	Cabezas syndrome
+^ESCTCA780844	Capra DeMarco syndrome
+^ESCTCA780956	Carbohydrate deficient glycoprotein syndrome type Ik
+^ESCTCA781020	Carbohydrate deficient glycoprotein syndrome type IL
+^ESCTCA781071	Calder?n Gonz?lez Cantu syndrome
+^ESCTCA782423	Cantalamessa Baldini Ambrosi syndrome
+^ESCTCA783062	CAHMR syndrome
+^ESCTCA783063	CAHMR (cataract, hypertrichosis, mental retardation) syndrome
+^ESCTCA785160	Carbohydrate deficient glycoprotein syndrome type If
+^ESCTCA787635	CAMOS syndrome
+^ESCTCA787636	CAMOS (cerebellar ataxia, mental retardation, optic atrophy, skin abnormalities) syndrome
+^ESCTCA795342	Carbohydrate deficient glycoprotein syndrome type Ip
+^ESCTCA795386	Carbohydrate deficient glycoprotein syndrome type Ix
+^ESCTCA795394	Carbohydrate deficient glycoprotein syndrome type Iy
+^ESCTCA795801	Carbohydrate deficient glycoprotein syndrome type II due to MAN1B1 deficiency
+^ESCTCA795802	Carbohydrate deficient glycoprotein syndrome type 2 due to deficiency of mannosidase alpha class 1B member 1
+^ESCTCB288794	CBS deficiency
+^ESCTCB300342	CblD methylmalonic acidaemia and homocystinuria
+^ESCTCB300343	CblD methylmalonic acidemia and homocystinuria
+^ESCTCB300344	CblD - Cobalamin locus D
+^ESCTCB371325	CblC methylmalonic acidaemia and homocystinuria
+^ESCTCB371326	CblC methylmalonic acidemia and homocystinuria
+^ESCTCB371328	CblC - Cobalamin locus C
+^ESCTCC756069	CCFDN - congenital cataracts, facial dysmorphism and neuropathy
+^ESCTCD483065	CDD - Craniodiaphyseal dysplasia
+^ESCTCE361655	Cerebroatrophic hyperammonemia
+^ESCTCE361656	Cerebroatrophic hyperammonaemia
+^ESCTCE379097	Cerebro-oculorenal dystrophy
+^ESCTCE773117	Cerebelloparenchymal disorder III
+^ESCTCE780640	Cerebro-facio-thoracic dysplasia
+^ESCTCE782435	Cerebellar vermis hypoplasia, oligophrenia, congenital ataxia, coloboma, hepatic fibrosis
+^ESCTCE782446	Cerebello-oculo-renal syndrome
+^ESCTCE783073	CEDNIK syndrome
+^ESCTCE783074	Cerebral dysgenesis, neuropathy, ichthyosis, palmoplantar keratoderma syndrome
+^ESCTCE783075	CEDNIK (cerebral dysgenesis, neuropathy, ichthyosis, keratoderma) syndrome
+^ESCTCE783184	Cerebellotrigeminal dermal dysplasia syndrome
+^ESCTCE787637	Cerebellar ataxia, intellectual disability, optic atrophy, skin abnormalities syndrome
+^ESCTCH266557	Choreoathetosis self-mutilation syndrome
+^ESCTCH277171	Chromosome 4 short arm deletion syndrome
+^ESCTCH296857	Chondrodystrophic myotonia
+^ESCTCH752019	Chromosome 1p36 deletion syndrome
+^ESCTCH755872	Christianson syndrome
+^ESCTCH755880	Chromosome 2q37 deletion syndrome
+^ESCTCH756078	Charlevoix disease
+^ESCTCH774059	Chromosome 8 derived supernumerary ring
+^ESCTCH776197	Chudley Lowry Hoar syndrome
+^ESCTCH776198	Chudley Lowry syndrome
+^ESCTCH777873	Chromosome Xq27.3q28 duplication syndrome
+^ESCTCH779122	Chromosome Xp11.3 microdeletion syndrome
+^ESCTCH779277	Chromosome Xq28 trisomy syndrome
+^ESCTCH780648	CHIME syndrome
+^ESCTCH780649	CHIME (coloboma, congenital heart disease, ichthyosiform dermatosis, intellectual disability, ear anomaly) syndrome
+^ESCTCH780902	Chondrodysplasia with disorder of sex development syndrome
+^ESCTCH780903	Chondrodysplasia pseudohermaphroditism syndrome
+^ESCTCH783222	Christian syndrome
+^ESCTCH785311	Choroid plexus calcification and mental retardation
+^ESCTCL262045	Classical phenylketonuria
+^ESCTCL274061	CLS - Coffin-Lowry syndrome
+^ESCTCO256903	Combined methylmalonic acidaemia and homocystinuria due to defects in adenosylcobalamin and methylcobalamin synthesis
+^ESCTCO256904	Combined methylmalonic acidemia and homocystinuria due to defects in adenosylcobalamin and methylcobalamin synthesis
+^ESCTCO266556	Complete HGPRT deficiency
+^ESCTCO266561	Complete hypoxanthine-guanine phosphoribosyltransferase deficiency
+^ESCTCO283554	Complete trisomy 13 syndrome
+^ESCTCO297764	Combined molybdoflavoprotein enzyme deficiency
+^ESCTCO297770	Combined xanthine oxidase and aldehyde oxidase deficiency
+^ESCTCO297772	Combined xanthine oxidase and sulfite oxidase and aldehyde oxidase deficiency
+^ESCTCO297773	Combined xanthine oxidase and sulphite oxidase and aldehyde oxidase deficiency
+^ESCTCO300341	Cobalamin D disease
+^ESCTCO307469	Combined deficiency of sialidase AND beta galactosidase
+^ESCTCO307475	Combined deficiency of neuroaminidase and beta galactosidase
+^ESCTCO316103	Complete trisomy 21 syndrome
+^ESCTCO333449	Complete trisomy 18 syndrome
+^ESCTCO352388	Congenital insensitivity to pain, anhidrosis and mental retardation
+^ESCTCO352389	Congenital sensory neuropathy with anhidrosis
+^ESCTCO358831	Cori's disease
+^ESCTCO358836	Cori disease
+^ESCTCO371324	Cobalamin C disease
+^ESCTCO371327	Cobalamin locus C variant
+^ESCTCO393857	Copper storage disease
+^ESCTCO756068	Congenital cataracts, facial dysmorphism and neuropathy
+^ESCTCO774074	Congenital cataract with intellectual disability and anal atresia and urinary defect syndrome
+^ESCTCO775316	Cohen-Hayden syndrome
+^ESCTCO777396	Complete mevalonate kinase deficiency
+^ESCTCO778155	Congenital cataract with ataxia and deafness syndrome
+^ESCTCO779180	Congenital hypoplasia of ulna and intellectual disability syndrome
+^ESCTCO780647	Coloboma, congenital heart disease, ichthyosiform dermatosis, intellectual disability ear anomaly syndrome
+^ESCTCO780758	Contracture with ectodermal dysplasia and orofacial cleft syndrome
+^ESCTCO780761	Cooper Jabs syndrome
+^ESCTCO780955	Congenital disorder of glycosylation type 1K
+^ESCTCO781021	Congenital disorder of glycosylation type 1L
+^ESCTCO781022	Congenital disorder of glycosylation type IL
+^ESCTCO782436	COACH syndrome
+^ESCTCO782438	COACH (cerebellar vermis hypoplasia, oligophrenia, congenital ataxia, coloboma, hepatic fibrosis) syndrome
+^ESCTCO783061	Congenital cataract with hypertrichosis and intellectual disability syndrome
+^ESCTCO783065	Congenital cataract with intellectual disability and hypogonadotropic hypogonadism syndrome
+^ESCTCO783067	Congenital cataract, nephropathy, encephalopathy syndrome
+^ESCTCO784475	Corneal anesthesia, deafness, intellectual disability syndrome
+^ESCTCO784476	Corneal anaesthesia, deafness, intellectual disability syndrome
+^ESCTCO785159	Congenital disorder of glycosylation type 1f
+^ESCTCO793812	Cortical blindness, intellectual disability, polydactyly syndrome
+^ESCTCO795339	Congenital disorder of glycosylation type 1p
+^ESCTCO795340	Congenital disorder of glycosylation type Ip
+^ESCTCO795380	Congenital disorder of glycosylation type 1w
+^ESCTCO795382	Congenital disorder of glycosylation type Iw
+^ESCTCO795383	Congenital disorder of glycosylation type 1x
+^ESCTCO795384	Congenital disorder of glycosylation type Ix
+^ESCTCO795390	Congenital disorder of glycosylation type 1y
+^ESCTCO795392	Congenital disorder of glycosylation type Iy
+^ESCTCO795804	Congenital disorder of glycosylation type II due to MAN1B1 deficiency
+^ESCTCO795946	Congenital disorder of glycosylation type 1q
+^ESCTCO795948	Congenital disorder of glycosylation type Iq
+^ESCTCR278276	Cross syndrome
+^ESCTCR750723	Creatine transporter deficiency
+^ESCTCR774214	Cranio-facio-digito-genital syndrome
+^ESCTCR774215	Craniofacial digital and genital anomalies syndrome
+^ESCTCR775516	CRASH syndrome
+^ESCTCR777392	Craniocerebellocardiac dysplasia
+^ESCTCR777394	Cranio-cerebello-cardiac dysplasia syndrome
+^ESCTCR779338	Craniofacial dysmorphism with coloboma of eye and corpus callosum agenesis syndrome
+^ESCTCR780847	Craniosynostosis, hydrocephalus, Arnold Chiari I malformation, radioulnar synostosis
+^ESCTCR783066	Crome syndrome
+^ESCTCR786433	Craniofrontonasal dysplasia with alopecia and hypogonadism
+^ESCTCS773166	C syndrome
+^ESCTCU346242	Cutis laxa-corneal clouding-oligophrenia syndrome
+^ESCTCU346246	Cutis laxa, corneal clouding AND mental retardation
+^ESCTCU346460	Cutis laxa, x-linked
+^ESCTCU346466	Cutis laxa, X-linked
+^ESCTCY288793	Cystathionine beta-synthase deficiency
+^ESCTCY780301	Cystic fibrosis with gastritis and megaloblastic anaemia syndrome
+^ESCTCY780302	Cystic fibrosis with gastritis and megaloblastic anemia syndrome
+^ESCTD1283556	D>1< trisomy syndrome
+^ESCTDA693181	Danon disease
+^ESCTDA783192	Da Silva syndrome
+^ESCTDE274243	Deficiency of adenylosuccinate lyase
+^ESCTDE287512	Deficiency of arginase
+^ESCTDE288795	Deficiency of serine sulphydrase
+^ESCTDE288796	Deficiency of serine sulfhydrase
+^ESCTDE288797	Deficiency of methylcysteine synthase
+^ESCTDE288798	Deficiency of beta-thionase
+^ESCTDE297766	Deficiency of molybdenum cofactor
+^ESCTDE314921	De Lange syndrome
+^ESCTDE314925	Degenerative amstelodamensis typus
+^ESCTDE346243	de Barsey syndrome
+^ESCTDE346245	de Barsey-Moens-Dierckx syndrome
+^ESCTDE358833	Debrancher deficiency glycogen storage disease
+^ESCTDE358837	Debrancher enzyme deficiency
+^ESCTDE501245	DES - Dysequilibrium syndrome
+^ESCTDE511596	Deficiency of beta-galactosidase isoenzymes A, B AND C
+^ESCTDE533779	Desbuquois syndrome
+^ESCTDE621769	Deficiency of carnosinase
+^ESCTDE668295	Delleman-Oorthuys syndrome
+^ESCTDE765058	Desmosterolosis
+^ESCTDE779116	Deafness, onychodystrophy, osteodystrophy, intellectual disability syndrome
+^ESCTDE780979	Deafness with skeletal dysplasia and lip granuloma syndrome
+^ESCTDE780980	Deafness, skeletal dysplasia, coarse face with full lips syndrome
+^ESCTDE781032	Devriendt Vandenberghe Fryns syndrome
+^ESCTDE781172	Deafness, enamel hypoplasia, nail defect syndrome
+^ESCTDE781174	Deafness, genital anomaly, metacarpal and metatarsal synostosis syndrome
+^ESCTDE781176	Deafness and intellectual disability Martin Probst type syndrome
+^ESCTDE781182	Dentinogenesis imperfecta, short stature, hearing loss, intellectual disability syndrome
+^ESCTDE781188	Developmental malformation, deafness, dystonia syndrome
+^ESCTDE795285	Dermatoleukodystrophy
+^ESCTDH344650	DHPR deficiency
+^ESCTDH344654	DHPR - Dihydropteridine reductase deficiency
+^ESCTDI344648	Dihydropteridine reductase deficiency
+^ESCTDI501246	Disequilibrium
+^ESCTDI752017	Distal monosomy 1p36
+^ESCTDI756020	Diaphragmatic hernia-exomphalos-corpus callosum agenesis
+^ESCTDI756021	Diaphragmatic hernia-exomphalos-hypertelorism syndrome
+^ESCTDI756067	Diaphragmatic hernia, abnormal face and distal limb anomalies
+^ESCTDI773220	Distal partial deletion of long arm of chromosome 11
+^ESCTDI773221	Distal deletion 11q
+^ESCTDI773222	Distal monosomy 11q
+^ESCTDI773304	Distal osteolysis, short stature and intellectual disability
+^ESCTDI776020	Distal monosomy 1q
+^ESCTDI776021	Distal deletion 1q
+^ESCTDI777611	Distal monosomy 10q
+^ESCTDI777612	Distal deletion 10q
+^ESCTDI777613	Distal monosomy 6p
+^ESCTDI777614	Distal deletion 6p
+^ESCTDI778689	Disorder of sex development with intellectual disability syndrome
+^ESCTDI778987	Distal monosomy 10p
+^ESCTDI778988	Distal 10p deletion
+^ESCTDI779151	Dionisi Vici Sabetta Gambarara syndrome
+^ESCTDI796335	Distal 22q11.2 microdeletion syndrome
+^ESCTDI796336	Distal monosomy 22q11.2
+^ESCTDO316104	Down syndrome
+^ESCTDO316106	Downs syndrome
+^ESCTDO756019	Donnai-Barrow syndrome
+^ESCTDO779113	DOORS syndrome
+^ESCTDO779115	DOOR syndrome
+^ESCTDU254025	Dubowitz's syndrome
+^ESCTDU784270	Duplication/inversion 15q11
+^ESCTDY356212	Dysostosis multiplex syndrome
+^ESCTDY501247	Dysequilibrium
+^ESCTDY533804	Dysosteosclerosis
+^ESCTEA774251	Early onset parkinsonism and intellectual disability syndrome
+^ESCTEA784275	Eastman Bixler syndrome
+^ESCTEC512787	ECCL - Encephalocraniocutaneous lipomatosis
+^ESCTEC781279	Ectodermal dysplasia with skin anomaly and intellectual disability
+^ESCTEC781372	Ectodermal dysplasia with blindness syndrome
+^ESCTEC796320	Ectodermal dysplasia, intellectual disability, central nervous system malformation syndrome
+^ESCTED333450	Edwards syndrome
+^ESCTEH346461	Ehlers-Danlos syndrome, mental retardation type
+^ESCTEH346462	Ehlers-Danlos syndrome, occipital horn type
+^ESCTEH346463	Ehlers-Danlos syndrome, x-linked skeletal type
+^ESCTEH346464	Ehlers-Danlos syndrome, type 9
+^ESCTEH346467	Ehlers-Danlos syndrome type 9 X-linked
+^ESCTEL785150	Elejalde disease
+^ESCTEN512786	Encephalocraniocutaneous lipomatosis
+^ESCTEN774049	Encephalopathy due to sulphite oxidase deficiency
+^ESCTEN774050	Encephalopathy due to sulfite oxidase deficiency
+^ESCTEN795289	Encephalopathy, intracerebral calcification, retinal degeneration syndrome
+^ESCTEP264134	Epimerase deficiency
+^ESCTEP416490	Epilepsy, dementia and amelogenesis imperfecta
+^ESCTEP416491	Epilepsy, mental deterioration and yellow teeth
+^ESCTEP795274	Epilepsy, microcephaly, skeletal dysplasia syndrome
+^ESCTEP795276	Epilepsy telangiectasia syndrome
+^ESCTER782649	Erythrokeratodermia variabilis 3
+^ESCTER782650	Erythrokeratodermia variabilis Kamouraska type
+^ESCTFA419373	Fatty alcohol-nicotinamide adenine dinucleotide oxidoreductase deficiency
+^ESCTFA419374	FAO - Fatty alcohol-nicotinamide adenine dinucleotide oxidase-reductase deficiency
+^ESCTFA483174	FAS - Fetal alcohol syndrome
+^ESCTFA483176	FAS - Foetal alcohol syndrome
+^ESCTFA752044	Facial dysmorphism, intellectual deficit, short stature and hearing loss
+^ESCTFA756022	Faciooculoacousticorenal syndrome
+^ESCTFA780845	Familial scaphocephaly with radioulnar synostosis syndrome
+^ESCTFA784274	Faciocardiorenal syndrome
+^ESCTFA784279	Fallot complex with intellectual disability and growth delay syndrome
+^ESCTFA795768	Facial dysmorphism, macrocephaly, myopia, Dandy-Walker malformation syndrome
+^ESCTFE357897	Fetal trimethadione syndrome
+^ESCTFE776954	Fetal iodine syndrome
+^ESCTFI383102	Fibrinoid leukodystrophy
+^ESCTFI780971	Filippi syndrome
+^ESCTFI780973	Fine Lubinsky syndrome
+^ESCTFI782863	Fitzsimmons McLachlan Gilbert syndrome
+^ESCTFI795352	Fitzsimmons Watson Mellor syndrome
+^ESCTFO262046	Folling's syndrome
+^ESCTFO357896	Foetal trimethadione syndrome
+^ESCTFO483175	Foetal alcohol syndrome
+^ESCTFO776955	Foetal iodine syndrome
+^ESCTFO780978	Fountain syndrome
+^ESCTFO783194	Foot contracture, muscle atrophy, oculomotor apraxia syndrome
+^ESCTFR250831	FRAXA - Fragile X syndrome
+^ESCTFR756066	Fryns syndrome
+^ESCTFR774254	Fryns macrocephaly
+^ESCTFR775093	FRAXE intellectual disability syndrome
+^ESCTFR777825	Fried syndrome
+^ESCTFR780981	Frank-Ter Haar syndrome
+^ESCTFR786431	Frontonasal dysplasia with alopecia and genital anomaly syndrome
+^ESCTFR786434	Frontonasal dysplasia with alopecia and genital abnomality
+^ESCTFR787489	Freire Maia Pinheiro Opitz syndrome
+^ESCTFU355255	Fucosidase deficiency
+^ESCTFU419653	Fukuyama congenital muscular dystrophy
+^ESCTFU419654	Fukuyama muscular dystrophy
+^ESCTGA264126	Galactose epimerase deficiency
+^ESCTGA264129	GALE
+^ESCTGA264130	Galactosemia III
+^ESCTGA264131	Galactosaemia III
+^ESCTGA264132	Galactosaemia - epimerase deficiency
+^ESCTGA264133	Galactosemia - epimerase deficiency
+^ESCTGA307472	Galactosialidosis
+^ESCTGA330530	GABAuria
+^ESCTGA330531	gamma-Hydroxybutyric aciduria
+^ESCTGA330532	GABA metabolic defect
+^ESCTGA330535	Gamma-hydroxybutyric acidaemia
+^ESCTGA330536	Gamma-hydroxybutyric acidemia
+^ESCTGA356209	Gargoylism
+^ESCTGE511594	Generalised gangliosidosis
+^ESCTGE511595	Generalized gangliosidosis
+^ESCTGE755905	Genitopatellar syndrome
+^ESCTGE782437	Gentile syndrome
+^ESCTGE795281	German syndrome
+^ESCTGI278278	Gingival fibromatosis, hypopigmentation, microphthalmia, oligophrenia AND athetosis
+^ESCTGI778261	Giuffre Tsukahara syndrome
+^ESCTGL358829	Glycogen storage disease type III
+^ESCTGL358830	Glycogen storage disease, type III
+^ESCTGL358839	Glycogen storage disease type 3
+^ESCTGL583819	Glycerol kinase deficiency - isolated
+^ESCTGM511598	GM>1< gangliosidosis, type 1
+^ESCTGM774116	GMS syndrome
+^ESCTGO307471	Goldberg syndrome
+^ESCTGO752544	Golabi-Ito-Hall syndrome
+^ESCTGO774117	Goniodysgenesis with intellectual disability and short stature syndrome
+^ESCTGO774118	Goniodysgenesis with mental deficiency and short stature
+^ESCTGO774228	Goldblatt Wallis syndrome
+^ESCTGO776291	Goldberg Shprintzen megacolon syndrome
+^ESCTGO783183	Gomez Lopez Hernandez syndrome
+^ESCTGO795956	Gonadal dysgenesis XY type with associated anomalies
+^ESCTGR776297	Grange syndrome
+^ESCTGR776299	Grange occlusive arterial syndrome
+^ESCTGR782945	Graham Cox syndrome
+^ESCTGR785506	Growth delay due to insulin-like growth factor type 1 deficiency
+^ESCTGR785507	Growth delay, deafness, intellectual disability syndrome
+^ESCTGS307473	GSL - Galactosialidosis
+^ESCTGS358835	GSD III
+^ESCTGU320712	GUSB deficiency
+^ESCTGU320713	GUS deficiency
+^ESCTGU773203	Gurrieri Sammito Bellussi syndrome
+^ESCTHA419659	HARD - Hydrocephalus, agyria and retinal dysplasia
+^ESCTHA752543	Hamel cerebropalatocardiac syndrome
+^ESCTHA774213	Harrod syndrome
+^ESCTHA774216	Haspeslagh Fryns Muelenaere syndrome
+^ESCTHA781070	Hair defect with photosensitivity and intellectual disability syndrome
+^ESCTHA781072	Hall Riggs syndrome
+^ESCTHA781280	Halal Setton Wang syndrome
+^ESCTHA795345	Hall Berg Rudolph syndrome
+^ESCTHC755935	HCC - hypomyelination and congenital cataract
+^ESCTHE257707	Hereditary hypertyrosinemia, type II
+^ESCTHE257713	Hereditary hypertyrosinaemia, type II
+^ESCTHE297765	Hereditary xanthinuria, type 2
+^ESCTHE297768	Hereditary xanthinuria type 2
+^ESCTHE352383	Hereditary insensitivity to pain with anhidrosis
+^ESCTHE352385	Hereditary sensory and autonomic neuropathy, type IV
+^ESCTHE352390	Hereditary sensory and autonomic neuropathy type IV
+^ESCTHE393856	Hepatolenticular degeneration syndrome
+^ESCTHE393858	Hepatocerebral degeneration
+^ESCTHE393859	Hepatolenticular degeneration
+^ESCTHE506064	Hennekam lymphangiectasia-lymphoedema syndrome
+^ESCTHE506065	Hennekam lymphangiectasia-lymphedema syndrome
+^ESCTHE774362	Heide syndrome
+^ESCTHE781173	Heimler syndrome
+^ESCTHE781277	Hernandez Aguirre Negrete syndrome
+^ESCTHG266559	HGPRT deficiency
+^ESCTHI377385	Histidine transport defect
+^ESCTHI757726	Hirschsprung disease-mental retardation syndrome
+^ESCTHI781278	Hidrotic ectodermal dysplasia Halal type
+^ESCTHO761473	Hoyeraal-Hreidarsson syndrome
+^ESCTHO781391	Holmes Gang syndrome
+^ESCTHP266560	HPRT - Hypoxanthine-guanine phosphoribosyltransferase deficiency
+^ESCTHS352386	HSAN IV
+^ESCTHU356211	Hurler-Pfaundler syndrome
+^ESCTHU356215	Hurler disease MPS type 1H
+^ESCTHY257702	Hypertyrosinaemia, Richner-Hanhart type
+^ESCTHY257703	Hypertyrosinemia, Richner-Hanhart type
+^ESCTHY257708	Hypertyrosinemia, Oregon type
+^ESCTHY257714	Hypertyrosinaemia, Oregon type
+^ESCTHY262051	Hyperphenylalaninemia, type I
+^ESCTHY262058	Hyperphenylalaninaemia, type I
+^ESCTHY266563	Hypoxanthine-guanine phosphoribosyltransferase deficiency
+^ESCTHY278279	Hypopigmentation AND microphthalmia
+^ESCTHY287508	Hyperargininemia
+^ESCTHY304701	Hyperphosphatasaemia with mental retardation
+^ESCTHY304702	Hyperphosphatasemia with mental retardation
+^ESCTHY304703	Hyperphosphatasia with seizures and neurologic deficit
+^ESCTHY344651	Hyperphenylalaninemia, type IV
+^ESCTHY344655	Hyperphenylalaninaemia, type IV
+^ESCTHY377386	Hyperhistidinuria
+^ESCTHY419657	Hydrocephalus, agyria and retinal dysplasia
+^ESCTHY532608	Hydrocephalus with anomaly of aqueduct of Sylvius
+^ESCTHY755934	Hypomyelination and congenital cataract
+^ESCTHY774229	Hypospadias and intellectual disability syndrome Goldblatt type
+^ESCTHY775515	Hypoplasia of corpus callosum and mental retardation with adducted thumbs and spasticity and hydrocephalus syndrome
+^ESCTHY775751	Hyperprolinaemia type 2
+^ESCTHY775752	Hyperprolinemia type 2
+^ESCTHY775753	Hyperprolinemia type II
+^ESCTHY775754	Hyperprolinaemia type II
+^ESCTHY779130	Hyde Forster McCarthy Berry syndrome
+^ESCTHY781402	Hydrocephalus with obesity and hypogonadism syndrome
+^ESCTHY782422	Hypogonadism with mitral valve prolapse and intellectual disability syndrome
+^ESCTHY783052	Hypothyroidism and cleft palate syndrome
+^ESCTHY784317	Hypotrichosis and intellectual disability syndrome Lopes type
+^ESCTIC668711	Ichthyosis follicularis with alopecia and photophobia (IFAP)
+^ESCTIC668713	Ichthyosis follicularis with alopecia and photophobia
+^ESCTIC795365	Ichthyosis, intellectual disability, dwarfism, renal impairment syndrome
+^ESCTIF668712	IFAP - ichthyosis follicularis with alopecia and photophobia
+^ESCTIG785508	IGF-1 (insulin-like growth factor 1) deficiency
+^ESCTIM262049	Imbecilitus phenylpyruvica
+^ESCTIN305659	Infantile sialic acid storage disease
+^ESCTIN351264	Infantile mannosidosis
+^ESCTIN511592	Infantile GM1 gangliosidosis
+^ESCTIN511593	Infantile gangliosidosis with bony involvement
+^ESCTIN511597	Infantile GM>1< gangliosidosis
+^ESCTIN773500	Intellectual disability, truncal obesity, retinal dystrophy and micropenis syndrome
+^ESCTIN774575	Intellectual disability and short stature with hand contracture and genital anomaly syndrome
+^ESCTIN775094	Intellectual disability associated with fragile site FRAXE
+^ESCTIN781276	Intellectual disability, epilepsy, bulbous nose syndrome
+^ESCTIN782608	Intellectual disability, balding, patella luxation, acromicria syndrome
+^ESCTIN782610	Intellectual disability with cataract and kyphosis syndrome
+^ESCTIN782647	Intellectual disability, enteropathy, deafness, peripheral neuropathy, ichthyosis, keratoderma syndrome
+^ESCTIN783189	Intellectual disability, craniofacial dysmorphism, hypogonadism, diabetes mellitus syndrome
+^ESCTIN783191	Intellectual disability, hypoplastic corpus callosum, preauricular tag syndrome
+^ESCTIN783193	Intellectual disability, developmental delay, contracture syndrome
+^ESCTIN784272	Inverted duplication 15
+^ESCTIN785310	Infantile choroidocerebral calcification syndrome
+^ESCTIN787482	Intellectual disability Buenos Aires type
+^ESCTIN788191	Intellectual disability, cataract, calcified pinna, myopathy syndrome
+^ESCTIR782613	Iron-refractory iron deficiency anaemia
+^ESCTIR782614	Iron-refractory iron deficiency anemia
+^ESCTIR782615	IRIDA syndrome
+^ESCTIR782616	IRIDA (iron-refractory iron deficiency anaemia) syndrome
+^ESCTIR782617	IRIDA (iron-refractory iron deficiency anemia) syndrome
+^ESCTIS784269	Isodicentric chromosome 15 syndrome
+^ESCTIS784271	Isodicentric 15 chromosome
+^ESCTJO775518	Joubert syndrome with ocular defect
+^ESCTJO775519	Joubert syndrome with retinopathy
+^ESCTJO775520	Joubert syndrome with renal defect
+^ESCTJO779153	Johnson syndrome
+^ESCTJO782433	Joubert syndrome with congenital hepatic fibrosis
+^ESCTJO782434	Joubert syndrome with hepatic defect
+^ESCTJO782444	Joubert syndrome with oculorenal defect
+^ESCTJU339092	Juvenile sulfatidosis, Austin type
+^ESCTJU339095	Juvenile sulphatidosis, Austin type
+^ESCTJU339096	Juvenile sulphatidosis Austin type
+^ESCTJU339097	Juvenile sulfatidosis Austin type
+^ESCTJU344390	Juvenile mannosidosis
+^ESCTJU668819	Jung syndrome
+^ESCTJU782458	Juberg Marsidi syndrome
+^ESCTKA321901	Kaposi dermatosis
+^ESCTKA774073	Karandikar Maria Kamble syndrome
+^ESCTKA774258	Kawashima Tsuji syndrome
+^ESCTKA782641	Kapur Toriello syndrome
+^ESCTKA782671	Kaufman oculocerebrofacial syndrome
+^ESCTKA795170	Kaler Garrity Stern syndrome
+^ESCTKE257709	Keratosis palmoplantaris with corneal dystrophy
+^ESCTKE294468	Ketoacid decarboxylase deficiency
+^ESCTKE294469	Ketoacidemia
+^ESCTKE294471	Ketoacidaemia
+^ESCTKE795354	Kelly Kirson Wyatt syndrome
+^ESCTKI265190	Killian-Teschler-Nicola syndrome
+^ESCTKI393860	Kinnier-Wilson disease
+^ESCTKL483143	Klinefelter syndrome, XXYY
+^ESCTKL557137	Klinefelter's syndrome XXXY
+^ESCTKL557138	Klinefelter syndrome XXXY
+^ESCTKL557139	Klinefelter's syndrome XXXXY
+^ESCTKL557140	Klinefelter syndrome XXXXY
+^ESCTKO416489	Kohlschutter's syndrome
+^ESCTKO416493	Kohlschutter syndrome
+^ESCTKO775975	Koolen De Vries syndrome
+^ESCTKO780454	Kosztolanyi syndrome
+^ESCTL1775514	L1 syndrome
+^ESCTL2511494	L-2(OH) glutaric aciduria
+^ESCTL2511495	L-2-hydroxy-glutaric aciduria
+^ESCTL2511496	L-2-hydroxyglutaric aciduria
+^ESCTL2511497	L-2-HGA
+^ESCTLA503130	Laurence-Moon syndrome
+^ESCTLA752045	Laryngotracheal stenosis, arthropathy, prognathism and short stature
+^ESCTLA774252	Laxova Opitz syndrome
+^ESCTLA780759	Ladda Zonana Ramer syndrome
+^ESCTLA795187	Lambert syndrome
+^ESCTLE252071	Lenz-Majewski hyperostosis syndrome
+^ESCTLE252072	Lenz-Majewski dysplasia
+^ESCTLE266562	Lesch-Nyhan disease
+^ESCTLE364095	Lejeune syndrome
+^ESCTLE778631	Leukoencephalopathy co-occurrent with bilateral anterior temporal lobe cysts
+^ESCTLI356207	L-iduronidase deficiency, Hurler type
+^ESCTLI356208	Lipochondrodystrophy
+^ESCTLI358834	Limit dextrinosis
+^ESCTLI358838	Limit dextrin - glycogen
+^ESCTLI776537	Lissencephaly syndrome Norman Roberts type
+^ESCTLI780494	Limb girdle muscular dystrophy with intellectual disability syndrome
+^ESCTLI782583	Lipodystrophy, intellectual disability, deafness syndrome
+^ESCTLM258919	LMBB - Laurence-Moon-Bardet-Biedl syndrome
+^ESCTLO379091	Lowe syndrome
+^ESCTLO379094	Lowe-Terrey-MacLachlan syndrome
+^ESCTLO379095	Lowe-Bickel syndrome
+^ESCTLO782585	Lowry MacLean syndrome
+^ESCTLO784318	Lopes Marques de Faria syndrome
+^ESCTLU756701	Lubs X-linked mental retardation syndrome
+^ESCTLU780303	Lubani Al-Saleh Teebi syndrome
+^ESCTM0300345	M0E.321 Cobalamin locus D variant
+^ESCTMA250829	Martin-Bell syndrome
+^ESCTMA250830	Marker X syndrome
+^ESCTMA304704	Mabry syndrome
+^ESCTMA344387	Mannosidosis, type II
+^ESCTMA344388	Mannosidosis, juvenile-adult onset
+^ESCTMA344389	Mannosidosis, mild form
+^ESCTMA351261	Mannosidosis, type I
+^ESCTMA351262	Mannosidosis infantile onset
+^ESCTMA351263	Mannosidosis, severe form
+^ESCTMA381305	Marinesco-Sj?gren syndrome
+^ESCTMA768985	Mandibulofacial dysostosis with microcephaly
+^ESCTMA768986	Mandibulofacial dysostosis, Guion-Almeida type
+^ESCTMA774255	Macrocephaly with spastic paraplegia and dysmorphism syndrome
+^ESCTMA778108	Marfanoid craniosynostosis syndrome
+^ESCTMA780957	Mannosyltransferase 1 deficiency
+^ESCTMA781023	Mannosyltransferase 7-9 deficiency
+^ESCTMA781177	Martin Probst syndrome
+^ESCTMA782643	Macrocephaly, short stature, paraplegia syndrome
+^ESCTMA783064	Martsolf syndrome
+^ESCTMA783197	Matthew Wood syndrome
+^ESCTMA783200	Male hypergonadotropic hypogonadism, intellectual disability, skeletal anomaly syndrome
+^ESCTMA785161	Mannose-P-dolichol utilization defect 1
+^ESCTMA785163	Mannose-P-dolichol utilisation defect 1
+^ESCTMA785175	Macrocephaly, obesity, mental disability, ocular abnormality syndrome
+^ESCTMA795803	MAN1B1-CDG - mannosidase alpha class 1B member 1 deficiency congenital disorder of glycosylation
+^ESCTMC773229	McDonough syndrome
+^ESCTME321900	Melanosis lenticularis progressiva
+^ESCTME756013	Mental retardation, x-linked, Snyder-Robinson type
+^ESCTME756698	Methyl-cytosine phosphate guanine binding protein-2 duplication syndrome
+^ESCTME756699	Methyl-CpG (cytosine phosphate guanine) binding protein-2 duplication syndrome
+^ESCTME773501	Mental retardation, truncal obesity, retinal dystrophy and micropenis syndrome
+^ESCTME776292	Megacolon microcephaly syndrome
+^ESCTME777395	Mevalonic aciduria
+^ESCTME782646	MEDNIK syndrome
+^ESCTME782648	MEDNIK (mental retardation, enteropathy, deafness, peripheral neuropathy, ichtyosis, keratodermia) syndrome
+^ESCTME782654	MEHMO syndrome
+^ESCTME782655	Mental retardation, epileptic seizures, hypogonadism and hypogenitalism, microcephaly, obesity syndrome
+^ESCTME782656	MEHMO (mental retardation, epileptic seizures, hypogonadism and hypogenitalism, microcephaly, obesity) syndrome
+^ESCTME783190	Mental retardation syndrome Belgian type
+^ESCTME795771	Metaphyseal dysostosis, intellectual disability, conductive deafness syndrome
+^ESCTME795903	Megalocornea with intellectual disability syndrome
+^ESCTMI277173	Midline fusion defect syndrome
+^ESCTMI314837	Mietens syndrome
+^ESCTMI391090	Mild mental handicap
+^ESCTMI391092	Mild mental retardation (Intelligence Quotient 50-70)
+^ESCTMI391093	Mild learning disability, intelligence quotient in range 50-70
+^ESCTMI391094	Mild learning impairment, intelligence quotient in range 50-70
+^ESCTMI391095	Mild learning disability
+^ESCTMI757725	Microcephaly, mental retardation and distinct features, with or without Hirschsprung disease
+^ESCTMI773256	Microcephaly with cervical spine fusion anomaly
+^ESCTMI773257	Microcephalus co-occurrent with cervical spine fusion anomaly
+^ESCTMI773262	Microcephalus microcornea syndrome of Seemanova type
+^ESCTMI773263	Microcephaly microcornea syndrome Seemanova type
+^ESCTMI773293	Microcephalic primordial dwarfism Toriello type
+^ESCTMI773294	Microcephalic primordial dwarfism of Toriello type
+^ESCTMI773373	Microcephaly, microphthalmia, ectrodactyly of lower limbs and prognathism syndrome
+^ESCTMI774052	Microcephalia vera
+^ESCTMI774259	Microcephaly with deafness and intellectual disability syndrome
+^ESCTMI775807	Microphthalmia with ankyloblepharon and intellectual disability syndrome
+^ESCTMI776538	Microlissencephaly type A
+^ESCTMI776925	Mitochondrial encephalocardiomyopathy due to transmembrane protein 70 mutation
+^ESCTMI778590	Microcephalus with brachydactyly and kyphoscoliosis syndrome
+^ESCTMI778591	Microcephaly with brachydactyly and kyphoscoliosis syndrome
+^ESCTMI778596	Microcephalus cardiomyopathy syndrome
+^ESCTMI778598	Microcephaly cardiomyopathy syndrome
+^ESCTMI778617	Microcephalus and intellectual disability with phalangeal and neurological anomaly syndrome
+^ESCTMI778618	Microcephaly and intellectual disability with phalangeal and neurological anomaly syndrome
+^ESCTMI782471	Microduplication Xp11.22p11.23 syndrome
+^ESCTMI784238	Microcephaly, seizure, intellectual disability, heart disease syndrome
+^ESCTMI784361	Microbrachycephaly, ptosis, cleft lip syndrome
+^ESCTMI785168	Microdeletion 9q22.3
+^ESCTMI786926	Microcephalic osteodysplastic primordial dwarfism types I and III
+^ESCTMI786927	Microcephalic osteodysplastic primordial dwarfism Taybi Linder type
+^ESCTMI795353	Microcephalus, digital anomaly, intellectual disability syndrome
+^ESCTMI795839	Microcephalus, glomerulonephritis, marfanoid habitus syndrome
+^ESCTMM773372	MMEP syndrome
+^ESCTMM795904	MMR (megalocornea, mental retardation) syndrome
+^ESCTMO297769	Molybdenum cofactor deficiency
+^ESCTMO349364	Moderate mental handicap
+^ESCTMO349365	Moderate mental retardation (Intelligence Quotient 35-49)
+^ESCTMO349366	Moderate learning disability, intelligence quotient in range 35-49
+^ESCTMO349367	Moderate learning impairment, intelligence quotient in range 35-49
+^ESCTMO349368	Moderate learning disability
+^ESCTMO483096	Mosaic Down syndrome
+^ESCTMO483097	Mosaic Down's syndrome
+^ESCTMO752018	Monosomy 1p36 syndrome
+^ESCTMO755809	Monocarboxylate transporter 8 deficiency
+^ESCTMO773499	MORM syndrome
+^ESCTMO773502	MORM (mental retardation, truncal obesity, retinal dystrophy, micropenis) syndrome
+^ESCTMO774636	Monosomy 8p23.1
+^ESCTMO774638	Monosomy 2q31.1
+^ESCTMO774721	Monosomy 3q29
+^ESCTMO774787	Monosomy 1q41q42
+^ESCTMO775965	Mosaic trisomy 8 syndrome
+^ESCTMO775967	Mosaic trisomy 8
+^ESCTMO776022	Monosomy 1qter
+^ESCTMO777492	Monosomy 8q21.11
+^ESCTMO778090	Monosomy 12q14
+^ESCTMO778092	Monosomy 14q11.2
+^ESCTMO778841	Monosomy 14q12
+^ESCTMO778843	Monosomy 15q14
+^ESCTMO778845	Monosomy 16p11.2p12.2
+^ESCTMO778847	Monosomy 16p13.11
+^ESCTMO778877	Monosomy 19q13.11
+^ESCTMO778879	Monosomy 1p21.3
+^ESCTMO778932	Monosomy 8p11.2
+^ESCTMO778936	Monosomy 1q44
+^ESCTMO778940	Monosomy 2p15p16.1
+^ESCTMO778942	Monosomy 2p21
+^ESCTMO778951	Monosomy 2q23.1
+^ESCTMO778954	Monosomy 2q24
+^ESCTMO778956	Monosomy 2q32q33
+^ESCTMO778958	Monosomy 4q21
+^ESCTMO778960	Monosomy 5q14.3
+^ESCTMO778962	Monosomy 6p22
+^ESCTMO778964	Monosomy 6q25
+^ESCTMO785167	Monosomy 9q22.3 syndrome
+^ESCTMO785169	Monosomy 9q22.3
+^ESCTMO785174	MOMO syndrome
+^ESCTMO785176	MOMO (macrocephaly, obesity, mental disability, ocular abnormality) syndrome
+^ESCTMO785233	Moebius syndrome, axonal neuropathy, hypogonadotropic hypogonadism syndrome
+^ESCTMO795900	Monosomy 20q13.33
+^ESCTMP320717	MPS VII - Mucopolysaccharidosis VII
+^ESCTMP356213	MPS 1-H - Mucopolysaccharidosis type I-H
+^ESCTMP785162	MPDU1-CDG - mannose-P-dolichol utilization defect 1 - congenital disorder of glycosylation
+^ESCTMP785164	MPDU1-CDG - mannose-P-dolichol utilisation defect 1 - congenital disorder of glycosylation
+^ESCTMS294467	MSUD
+^ESCTMS294474	MSUD - Maple syrup urine disease
+^ESCTMU320709	Mucopolysaccharidosis, MPS-VII
+^ESCTMU339091	Multiple sulfatase deficiency
+^ESCTMU339093	Mucosulfatidosis
+^ESCTMU339094	Mucosulphatidosis
+^ESCTMU356206	Mucopolysaccharidosis, MPS-I-H
+^ESCTMU356214	Mucopolysaccharidosis type I-H
+^ESCTMU356216	Mucopolysaccharidosis type I severe form
+^ESCTMU393645	Mucopolysaccharidosis, MPS-III
+^ESCTMU778991	Multiple epiphyseal dysplasia Al-Gazali type
+^ESCTMU778992	Multiple epiphyseal dysplasia and macrocephaly with distinctive facies syndrome
+^ESCTMU786731	Mucolipidosis type IV
+^ESCTMU787483	Mutchinick syndrome
+^ESCTMY296855	Myotonia chondrodystrophica
+^ESCTMY752043	Myhre syndrome
+^ESCTNA344086	Nanocephalic dwarf
+^ESCTNA773311	Nakamura Osame syndrome
+^ESCTNE307470	Neuraminidase deficiency with beta-galactosidase deficiency
+^ESCTNE393861	Neurohepatic degeneration
+^ESCTNE400995	Neurofibromatosis, type 1
+^ESCTNE400997	Neurofibromatosis 1
+^ESCTNE400998	Neurofibromatosis, peripheral type
+^ESCTNE757704	Neuronal ceroid lipofuscinosis 8
+^ESCTNE774383	Nephrogenic diabetes insipidus and intracranial calcification syndrome
+^ESCTNE780650	Neuroectodermal dysplasia CHIME type
+^ESCTNE785149	Neuroectodermal melanolysosomal disease
+^ESCTNE787488	Neurofaciodigitorenal syndrome
+^ESCTNE795905	Neuh?user syndrome
+^ESCTNF400999	NF1
+^ESCTNF787490	NFDR (neurofaciodigitorenal) syndrome
+^ESCTNI780904	Nivelon Nivelon Mabille syndrome
+^ESCTNO483198	Noonan-Ehmke syndrome
+^ESCTNO483200	Noonan syndrome
+^ESCTNO757706	Northern epilepsy
+^ESCTNO784273	Non-distal tetrasomy 15q
+^ESCTNO784406	Non-progressive cerebellar ataxia with intellectual disability
+^ESCTNS784377	N syndrome
+^ESCTOC257705	Oculocutaneous tyrosinemia
+^ESCTOC257716	Oculocutaneous tyrosinaemia
+^ESCTOC278277	Oculocerebral-hypopigmentation syndrome
+^ESCTOC346465	Occipital horn syndrome
+^ESCTOC668294	Oculo-cerebro-cutaneous syndrome (aplasia cutis, skin tags, eye & brain defects)
+^ESCTOC774345	Oculocerebral hypopigmentation syndrome of Preus type
+^ESCTOC774346	Oculocerebral hypopigmentation syndrome of Preus
+^ESCTOC782667	Oculopalatocerebral syndrome
+^ESCTOC782668	Oculo-palato-cerebral syndrome
+^ESCTOC782669	Oculo-palato-cerebral dwarfism
+^ESCTOC782670	Oculocerebrofacial syndrome Kaufman type
+^ESCTOF512934	OFD IV - Orofacial-digital syndrome IV
+^ESCTOH751984	Ohdo syndrome, Maat-Kievit-Brunner type
+^ESCTOH751987	Ohdo syndrome, Say-Barber-Biesecker-Young-Simpson variant
+^ESCTOK782687	Okamoto syndrome
+^ESCTOL262052	Oligophrenia phenylpyruvica
+^ESCTOL381307	Oligophrenic cerebellolenticular degeneration
+^ESCTOL778218	Oligophrenin-1 syndrome
+^ESCTOL781089	Oliver syndrome
+^ESCTOP778217	OPHN1 syndrome
+^ESCTOP780337	Opitz Caltabiano syndrome
+^ESCTOR512933	Orofacial-digital syndrome IV
+^ESCTOR777592	Oro-facial digital syndrome type 9
+^ESCTOR777593	Oral-facial-digital syndrome type 9
+^ESCTOR777594	Orofaciodigital syndrome type 9
+^ESCTOR777595	Orofaciodigital syndrome with retinal abnormality
+^ESCTOR777596	Oro-facial digital syndrome type 11
+^ESCTOR777597	Oral-facial-digital syndrome type 11
+^ESCTOR777598	Orofaciodigital syndrome type 11
+^ESCTOR777599	Oral-facial-digital syndrome Gabrielli type
+^ESCTOR777600	Orofaciodigital syndrome Gabrielli type
+^ESCTOS296856	Osteochondromuscular dystrophy
+^ESCTOS774363	Osteoporosis and macrocephaly with blindness and joint hypermobility syndrome
+^ESCTOS774364	Osteoporosis and macrocephaly with blindness and joint hyperlaxity syndrome
+^ESCTOS778089	Osteopoikilosis with short stature and intellectual disability syndrome
+^ESCTOS782746	Osteogenesis imperfecta, retinopathy, seizures, intellectual disability syndrome
+^ESCTOS782748	Osteopenia, myopia, hearing loss, intellectual disability, facial dysmorphism syndrome
+^ESCTOS795169	Osteopenia, intellectual disability, sparse hair syndrome
+^ESCTOT337658	Oto-palato-digital syndrome, type I
+^ESCTOT725739	Oto-onycho-peroneal syndrome
+^ESCTOX294475	Oxo-acid decarboxylase deficiency
+^ESCTPA262048	PAH deficiency
+^ESCTPA262057	PAH - Phenylalanine hydroxylase deficiency
+^ESCTPA265191	Pallister mosaic syndrome
+^ESCTPA364097	Partial deletion of short arm of chromosome 5 syndrome
+^ESCTPA533992	Partial trisomy 21 in Down syndrome
+^ESCTPA533998	Partial trisomy 13 in Patau syndrome
+^ESCTPA756002	Partington syndrome
+^ESCTPA756003	Partington-Mulley syndrome
+^ESCTPA756005	Partington x-linked mental retardation syndrome
+^ESCTPA778046	Pallister W syndrome
+^ESCTPA780641	Pascual Castroviejo syndrome type 1
+^ESCTPA785118	Paternal 20q13.2q13.3 microdeletion syndrome
+^ESCTPA785119	Paternal monosomy 20q13.2q13.3
+^ESCTPA795366	Passwell Goodman Siprkowski syndrome
+^ESCTPE257710	Persistent hypertyrosinemia
+^ESCTPE257718	Persistent hypertyrosinaemia
+^ESCTPE346874	Pelizaeus-Merzbacher disease, connatal variant
+^ESCTPE358550	Peripheral dysostosis
+^ESCTPE392398	Pelizaeus-Merzbacher disease, classic form
+^ESCTPE511679	Peroxisomal acyl-CoA oxidase deficiency
+^ESCTPE773305	Petit Fryns syndrome
+^ESCTPE774365	Perniola Krajewska Carnevale syndrome
+^ESCTPE778221	Pettigrew syndrome
+^ESCTPE782889	Perlman syndrome
+^ESCTPF781175	Pfeiffer Kapferer syndrome
+^ESCTPF788144	Pfeiffer Palm Teller syndrome
+^ESCTPF795350	Pfeiffer Mayer syndrome
+^ESCTPH262047	Phenylalanine hydroxylase deficiency
+^ESCTPH262054	Phenylpyruvic oligophrenia
+^ESCTPH344653	Phenylketonuria II
+^ESCTPH379099	Phosphatidylinositol-4,5-bisphosphate-5-phosphatase deficiency
+^ESCTPI321902	Pigmented epitheliomatosis
+^ESCTPI795398	Piussan Lenaerts Mathieu syndrome
+^ESCTPK262050	PKU
+^ESCTPK262053	PKU - Phenylketonuria
+^ESCTPK262056	PKU1 - Phenylketonuria
+^ESCTPO752540	Porteous syndrome
+^ESCTPO781090	Postaxial polydactyly and intellectual disability syndrome
+^ESCTPO781201	Polyglucosan body disease adult form
+^ESCTPO796318	Potocki Lupski syndrome
+^ESCTPP755877	PPM-X syndrome
+^ESCTPP755878	PPMX - Mental retardation with psychosis, pyramidal signs, and macroorchidism
+^ESCTPP788145	PPT (Pfeiffer Palm Teller) syndrome
+^ESCTPR300330	Profound mental handicap
+^ESCTPR300331	Profound mental retardation (Intelligence Quotient below 20)
+^ESCTPR300332	Profound learning disability with intelligence quotient less than 20
+^ESCTPR300333	Profound learning impairment with intelligence quotient less than 20
+^ESCTPR300334	Profound learning disability, intelligence quotient less than 20
+^ESCTPR300335	Profound learning impairment, intelligence quotient less than 20
+^ESCTPR300336	Profound learning disability
+^ESCTPR307474	Protective protein deficiency
+^ESCTPR346244	Progeroid syndrome of de Barsey
+^ESCTPR393862	Progressive lenticular degeneration
+^ESCTPR726536	Progressive encephalopathy with oedema, hypsarrhythmia and optic atrophy syndrome
+^ESCTPR726537	Progressive encephalopathy with edema, hypsarrhythmia and optic atrophy syndrome
+^ESCTPR757705	Progressive epilepsy with mental retardation
+^ESCTPR774576	Prader Willi habitus with osteopenia and camptodactyly
+^ESCTPR775315	Proteus like syndrome
+^ESCTPR776298	Progressive arterial occlusive disease, hypertension, heart defect, bone fragility, brachysyndactyly syndrome
+^ESCTPR778223	Prieto Badia Mulas syndrome
+^ESCTPR785509	Primary insulin-like growth factor deficiency
+^ESCTPR786928	Primordial microcephalic dwarfism Crachami type
+^ESCTPR788192	Primrose syndrome
+^ESCTPR795349	Preaxial polydactyly, colobomata, intellectual disability syndrome
+^ESCTPS511677	Pseudo-neonatal adrenoleucodystrophy
+^ESCTPS778690	Pseudohermaphroditism with intellectual disability syndrome
+^ESCTPS778952	Pseudo-Angelman syndrome
+^ESCTPS795344	Pseudoprogeria syndrome
+^ESCTPT755846	PTHS - Pitt-Hopkins syndrome
+^ESCTR?376155	R?thor? syndrome
+^ESCTRA778260	Radioulnar synostosis with microcephaly and scoliosis syndrome
+^ESCTRA782584	Rajab Spranger syndrome
+^ESCTRA784474	Ramos Arroyo syndrome
+^ESCTRE361653	Rett's disorder
+^ESCTRE361658	Rett disorder
+^ESCTRE361659	Retts syndrome
+^ESCTRE376157	Rethore syndrome
+^ESCTRE377388	Renal histidinuria
+^ESCTRE379093	Renal-oculocerebrodystrophy
+^ESCTRE752539	Renpenning syndrome
+^ESCTRE776892	Recombinant chromosome 8 syndrome
+^ESCTRE780482	Reardon Baraitser syndrome
+^ESCTRE784470	Renier Gabreels Jasper syndrome
+^ESCTRE785038	Retinitis pigmentosa, intellectual disability, deafness, hypogenitalism syndrome
+^ESCTRE785039	Retinitis pigmentosa, deafness, mental retardation, hypogonadism syndrome
+^ESCTRI257706	Richner-Hanhart syndrome
+^ESCTRI257711	Richner syndrome
+^ESCTRI391457	Ring chromosome 10 syndrome
+^ESCTRI774058	Ring chromosome 8 syndrome
+^ESCTRI777393	Ritscher Schinzel syndrome
+^ESCTRI780313	Richieri Costa Colletto syndrome
+^ESCTRI784362	Richieri Costa Guion Almeida Ramos syndrome
+^ESCTRI788203	Ring chromosome 13 syndrome
+^ESCTRI788204	Ring chromosome 13
+^ESCTRP296355	RP - Retinitis pigmentosa
+^ESCTRT361657	RTS - Rett syndrome
+^ESCTRU254819	Ruvalcaba syndrome
+^ESCTSA393646	Sanfilippo disease
+^ESCTSA715284	Savant syndrome
+^ESCTSA751989	Say-Barber-Biesecker-Young-Simpson syndrome
+^ESCTSA751991	Say-Barber-Biesecker-Young-Simpson variant of Ohdo syndrome
+^ESCTSA776893	San Luis Valley syndrome
+^ESCTSC356308	Schilder-Addison complex
+^ESCTSC511647	Schindler disease
+^ESCTSC773118	SCAR2 (spinocerebellar ataxia autosomal recessive 2)
+^ESCTSC774382	Schofer Beetz Bohl syndrome
+^ESCTSC782607	Scholte syndrome
+^ESCTSC782609	Scholte Begeer-van Essen syndrome
+^ESCTSC787638	SCAR5 - spinocerebellar ataxia autosomal recessive 5
+^ESCTSE262055	Severe phenylalanine hydroxylase deficiency
+^ESCTSE315515	Severe learning disability
+^ESCTSE315517	Severe mental handicap
+^ESCTSE315518	Severe mental retardation (Intelligence Quotient 20-34)
+^ESCTSE315519	Severe learning disability, intelligence quotient in range 20-34
+^ESCTSE315520	Severe learning impairment, intelligence quotient in range 20-34
+^ESCTSE773261	Seemanova Lesny syndrome
+^ESCTSE781369	Seizure, sensorineural deafness, ataxia, intellectual disability, electrolyte imbalance syndrome
+^ESCTSE781370	SESAME syndrome
+^ESCTSE781371	SESAME (seizures, sensorineural deafness, ataxia, mental retardation, electrolyte imbalance) syndrome
+^ESCTSE781403	Sengers Hamel Otten syndrome
+^ESCTSE782869	Severe X-linked intellectual disability Gustavson type
+^ESCTSE784665	Severe intellectual disability, epilepsy, anal anomaly, distal phalangeal hypoplasia syndrome
+^ESCTSE785019	Seizures and intellectual disability due to hydroxylysinuria
+^ESCTSE785020	Seizures and intellectual disability due to hydroxylysinuria syndrome
+^ESCTSE786592	Severe intellectual disability, hypoplasia of thumb and hallux syndrome
+^ESCTSH774217	Short stature with craniofacial anomalies and genital hypoplasia syndrome
+^ESCTSH778107	Shprintzen Goldberg craniosynostosis syndrome
+^ESCTSH778109	Shprintzen-Goldberg syndrome
+^ESCTSH781029	Shokeir syndrome
+^ESCTSH781153	Short stature with webbed neck and congenital heart disease syndrome
+^ESCTSH788143	Short stature, unique facies, enamel hypoplasia, progressive joint stiffness, high-pitched voice syndrome
+^ESCTSI305656	Sialic acid storage disease, severe infantile type
+^ESCTSI305657	Sialuria, French type
+^ESCTSI305658	Sialuria, infantile type
+^ESCTSI356309	Siemerling-Creutzfeldt disease
+^ESCTSI511653	Sialuria
+^ESCTSI795391	Signal sequence receptor subunit 4 congenital disorder of glycosylation
+^ESCTSI833756	Significant learning disability
+^ESCTSI833757	Significant intellectual development disorder
+^ESCTSI833758	Significant developmental disability
+^ESCTSI833759	Significant intellectual disability
+^ESCTSJ419370	Sj?gren-Larsson syndrome
+^ESCTSJ419371	Sjogren-Larsson syndrome
+^ESCTSK773202	Skeletal dysplasia with epilepsy and short stature syndrome
+^ESCTSK783221	Skeletal dysplasia with intellectual disability syndrome
+^ESCTSL320714	Sly disease
+^ESCTSL750722	SLC6A8 related creatine transporter deficiency
+^ESCTSM320735	Smith-Lemli-Opitz syndrome
+^ESCTSM778338	Smith Fineman Myers syndrome
+^ESCTSN756011	Snyder-Robinson syndrome
+^ESCTSN756012	Snyder-Robinson x-linked mental retardation syndrome
+^ESCTSO783201	Sohval Soffer syndrome
+^ESCTSP773312	Spastic paraplegia, intellectual disability and thin corpus callosum
+^ESCTSP777756	Spondyloepiphyseal dysplasia, craniosynostosis, cleft palate, cataract and intellectual disability syndrome
+^ESCTSP777757	Spondyloepiphyseal dysplasia Nishimura type
+^ESCTSP778328	Spondyloepiphyseal dysplasia tarda Kohn type
+^ESCTSP782862	Spastic paraplegia, intellectual disability, palmoplantar hyperkeratosis syndrome
+^ESCTSP784592	Spastic tetraplegia, retinitis pigmentosa, intellectual disability syndrome
+^ESCTSP784593	Spastic quadriplegia, retinitis pigmentosa, intellectual disability syndrome
+^ESCTSP795351	Spastic paraplegia, nephritis, deafness syndrome
+^ESCTSP795814	Spastic paraplegia, glaucoma, intellectual disability syndrome
+^ESCTSR795947	SRD5A3-CDG - steroid 5 alpha-reductase 3 congenital disorder of glycosylation
+^ESCTSS795393	SSR4-CDG - signal sequence receptor subunit 4 congenital disorder of glycosylation
+^ESCTST511680	Straight-chain acyl-CoA oxidase deficiency
+^ESCTST795318	Stimmler syndrome
+^ESCTST795381	STT3A-CDG (congenital disorder of glycosylation)
+^ESCTST795385	STT3B-CDG (congenital disorder of glycosylation)
+^ESCTSU274238	Succinylpurinemic autism
+^ESCTSU274239	Succinyladenosinuria
+^ESCTSU274241	Succinylpurinaemic autism
+^ESCTSU330529	Succinate-semialdehyde dehydrogenase deficiency
+^ESCTSU752541	Sutherland-Haan syndrome
+^ESCTSW352384	Swanson-Buchanan-Alvord neuropathy syndrome
+^ESCTSY773374	Syndromic microphthalmia type 8
+^ESCTSY775808	Syndromic microphthalmia type 4
+^ESCTSY777909	Syndromic X-linked intellectual disability type 11
+^ESCTSY778255	Syndromic X-linked intellectual disability type 7
+^ESCTSY778257	Syndromic X-linked intellectual disability due to JARID1C mutation
+^ESCTSY778258	Syndromic X-linked intellectual disability due to jumonji at-rich interactive domain 1c mutation
+^ESCTSY778259	Syndromic X-linked intellectual disability due to JARID1C (jumonji at-rich interactive domain 1c) mutation
+^ESCTSY783199	Syndromic microphthalmia type 9
+^ESCTT2316105	T21 - Trisomy 21
+^ESCTTA337659	Taybi syndrome
+^ESCTTA786929	Taybi Linder syndrome
+^ESCTTD297203	TD - Thanatophoric dwarfism
+^ESCTTE265189	Tetrasomy 12p
+^ESCTTE776023	Telomeric deletion 1q
+^ESCTTE778989	Telomeric deletion 10p
+^ESCTTE779336	Temtamy syndrome
+^ESCTTE779337	Temtamy Shalash syndrome
+^ESCTTE780982	Ter Haar syndrome
+^ESCTTE786591	Temple Baraitser syndrome
+^ESCTTH297200	Thanatophoric dwarfism syndrome
+^ESCTTH297201	Thanatophoric dwarf
+^ESCTTH297204	Thanatophoric short stature
+^ESCTTH651264	Thanatophoric dysplasia, type 1
+^ESCTTH795397	Thumb stiffness, brachydactyly, intellectual disability syndrome
+^ESCTTM776924	TMEM70 related mitochondrial encephalo-cardio-myopathy
+^ESCTTO266558	Total HGPRT deficiency
+^ESCTTO773201	Toriello syndrome
+^ESCTTR483094	Trisomy 21- meiotic nondisjunction
+^ESCTTR533991	Trisomy 21 - translocation
+^ESCTTR533997	Trisomy 13 - translocation
+^ESCTTR634837	Translocation Down syndrome
+^ESCTTR634838	Translocation Down's syndrome
+^ESCTTR773167	Trigonocephaly C syndrome
+^ESCTTR774053	True microcephaly
+^ESCTTR775062	Trisomy 17q21.31
+^ESCTTR775603	Trisomy 17p
+^ESCTTR775728	Trisomy 10p
+^ESCTTR778669	Trisomy 15q11q13
+^ESCTTR778969	Trisomy 5q35
+^ESCTTR779126	Tranebjaerg Svejgaard syndrome
+^ESCTTR779276	Trisomy Xq28 syndrome
+^ESCTTR782472	Trisomy Xp11.22-p11.23
+^ESCTTR796319	Trisomy 17p11.2
+^ESCTTS778262	Tsukahara syndrome
+^ESCTTU483199	Turner-like syndrome
+^ESCTTY257704	Tyrosine transaminase deficiency
+^ESCTTY257712	Tyrosinemia without hepatorenal dysfunction
+^ESCTTY257715	Tyrosinemia type II
+^ESCTTY257717	Tyrosinaemia type II
+^ESCTTY257719	Tyrosinaemia without hepatorenal dysfunction
+^ESCTTY257720	Tyrosinaemia type 2
+^ESCTTY257721	Tyrosinemia type 2
+^ESCTTY314927	Typus degenerativus amstelodamensis
+^ESCTTY346875	Type II congenital Pelizaeus-Merzbacher disease
+^ESCTTY392399	Type I classic Pelizaeus-Merzbacher disease
+^ESCTTY780972	Type 1 syndactyly, microcephaly, intellectual disability syndrome
+^ESCTUD264125	UDPglucose-4-epimerase deficiency
+^ESCTUD264127	UDPgalactose-4-epimerase deficiency
+^ESCTUL779181	Ulna hypoplasia with intellectual disability syndrome
+^ESCTUR264128	Uridine diphosphate galactose-4 epimerase deficiency
+^ESCTUR264135	Uridine diphosphate galactose-4-epimerase deficiency
+^ESCTUR264136	Uridine diphosphate (UDP) glucose-4-epimerase deficiency
+^ESCTUR264137	Uridine diphosphate glucose-4-epimerase deficiency
+^ESCTUR774574	Urban Rogers Meyer syndrome
+^ESCTUS503128	Usher syndrome type 1
+^ESCTVA778081	VACTERL syndrome with hydrocephalus
+^ESCTVA795379	Van den Bosch syndrome
+^ESCTVE778082	Vertebral abnormality, anal atresia, cardiac abnormality, tracheo-esophageal fistula, renal anomaly, limb defect syndrome with hydrocephalus
+^ESCTVE778083	Vertebral abnormality, anal atresia, cardiac abnormality, tracheo-oesophageal fistula, renal anomaly, limb defect syndrome with hydrocephalus
+^ESCTVE778691	Verloes Gillerot Fryns syndrome
+^ESCTVI773375	Viljoen Smart syndrome
+^ESCTVI778592	Viljoen Kallis Voges syndrome
+^ESCTVI779150	Vici syndrome
+^ESCTVO401000	Von Recklinghausen disease
+^ESCTVO782644	Volcke Soekarman syndrome
+^ESCTWA419656	Walker-Warburg congenital muscular dystrophy
+^ESCTWA419658	Walker Warburg syndrome
+^ESCTWA774253	Waisman syndrome
+^ESCTWA775966	Warkany syndrome
+^ESCTWD393863	WD - Wilson's disease
+^ESCTWE788141	Weaver Williams syndrome
+^ESCTWI352863	Williams syndrome
+^ESCTWI393864	Wilson disease
+^ESCTWI778597	Winship Viljoen Leary syndrome
+^ESCTWI779163	Wilson Turner syndrome
+^ESCTWI783195	Wieacker Wolff syndrome
+^ESCTWO776952	Wolf Hirschhorn syndrome
+^ESCTWO778619	Woods Crouchman Huson syndrome
+^ESCTWS778047	W syndrome
+^ESCTXA297767	Xanthine oxidase-sulfite oxidase deficiency
+^ESCTXA297771	Xanthine oxidase-sulphite oxidase deficiency
+^ESCTXE321899	Xeroderma of Kaposi
+^ESCTXE779142	Xeroderma pigmentosum and Cockayne syndrome complex
+^ESCTXL266564	X-linked hyperuricemia
+^ESCTXL266565	X-linked hyperuricaemia
+^ESCTXL698977	X-linked mental retardation with marfanoid habitus syndrome
+^ESCTXL750720	X-linked creatine deficiency
+^ESCTXL750721	X-linked creatine deficiency syndrome
+^ESCTXL751986	X-linked Ohdo syndrome
+^ESCTXL752542	X-linked intellectual deficit due to PQBP1 mutation
+^ESCTXL755873	X-linked mental retardation syndrome, Christianson type
+^ESCTXL755874	X-linked intellectual deficit, South African type
+^ESCTXL755879	X-linked mental retardation, syndromic 13
+^ESCTXL756004	X-linked intellectual deficit-dystonia-dysarthria syndrome
+^ESCTXL757493	X-linked intellectual deficit, Najm type
+^ESCTXL775809	X-linked epilepsy with learning disability and behaviour disorder syndrome
+^ESCTXL775810	X-linked epilepsy with learning disability and behavior disorder syndrome
+^ESCTXL776017	X-linked lissencephaly with abnormal genitalia syndrome
+^ESCTXL776018	X-linked lissencephaly with ambiguous genitalia
+^ESCTXL776019	X-linked lissencephaly with agenesis of corpus callosum and genital anomaly syndrome
+^ESCTXL776483	X-linked mental retardation Reish type
+^ESCTXL777427	X-linked intellectual disability Atkin type
+^ESCTXL777822	X-linked intellectual disability with ataxia and apraxia syndrome
+^ESCTXL777823	X-linked intellectual disability Zorick type
+^ESCTXL777824	X-linked neurodegenerative syndrome Hamel type
+^ESCTXL777826	X-linked neurodegenerative syndrome Bertini type
+^ESCTXL777904	X-linked intellectual disability Seemanova type
+^ESCTXL777910	X-linked intellectual disability Shashi type
+^ESCTXL777917	X-linked intellectual disability Shrimpton type
+^ESCTXL777922	X-linked intellectual disability Siderius type
+^ESCTXL777923	X-linked intellectual disability Stevenson type
+^ESCTXL777924	X-linked intellectual disability Stocco Dos Santos type
+^ESCTXL777925	X-linked intellectual disability Stoll type
+^ESCTXL777926	X-linked intellectual disability Turner type
+^ESCTXL777929	X-linked intellectual disability Van Esch type
+^ESCTXL778034	X-linked intellectual disability Wilson type
+^ESCTXL778035	X-linked intellectual disability Schimke type
+^ESCTXL778036	X-linked intellectual disability Pai type
+^ESCTXL778037	X-linked intellectual disability Miles Carpenter type
+^ESCTXL778038	X-linked intellectual disability Miles-Carpenter type
+^ESCTXL778039	X-linked intellectual disability Cilliers type
+^ESCTXL778040	X-linked intellectual disability, microcephaly, testicular failure syndrome
+^ESCTXL778041	X-linked intellectual disability Cantagrel type
+^ESCTXL778042	X-linked intellectual disability Armfield type
+^ESCTXL778044	X-linked intellectual disability Abidi type
+^ESCTXL778216	X-linked intellectual disability with cerebellar hypoplasia syndrome
+^ESCTXL778219	X-linked intellectual disability with corpus callosum agenesis and spastic quadriparesis syndrome
+^ESCTXL778220	X-linked intellectual disability with cubitus valgus and dysmorphism syndrome
+^ESCTXL778222	X-linked Dandy-Walker malformation with intellectual disability, basal ganglia disease and seizure syndrome
+^ESCTXL778224	X-linked intellectual disability with dysmorphism and cerebral atrophy syndrome
+^ESCTXL778247	X-linked intellectual disability and epilepsy with progressive joint contracture and facial dysmorphism syndrome
+^ESCTXL778248	X-linked intellectual disability with hypogammaglobulinaemia and progressive neurological deterioration syndrome
+^ESCTXL778249	X-linked intellectual disability with hypogammaglobulinemia and progressive neurological deterioration syndrome
+^ESCTXL778250	X-linked intellectual disability and hypotonia with facial dysmorphism and aggressive behaviour syndrome
+^ESCTXL778251	X-linked intellectual disability and hypotonia with facial dysmorphism and aggressive behavior syndrome
+^ESCTXL778256	X-linked intellectual disability Ahmad type
+^ESCTXL779125	X-linked intellectual disability with seizure and psoriasis syndrome
+^ESCTXL779127	X-linked intellectual disability Cabezas type
+^ESCTXL779129	X-linked intellectual disability with plagiocephaly syndrome
+^ESCTXL779152	X-linked intellectual disability, macrocephaly, macroorchidism syndrome
+^ESCTXL779154	X-linked intellectual disability with acromegaly and hyperactivity syndrome
+^ESCTXL781178	X-linked deafness and intellectual disability syndrome
+^ESCTXL786620	X-linked spasticity, intellectual disability, epilepsy syndrome
+^ESCTXL787499	X-linked intellectual disability Brooks type
+^ESCTXL788208	X-linked intellectual disability Hedera type
+^ESCTXL788214	X-linked intellectual disability Nascimento type
+^ESCTXL788215	X-linked intellectual disability, nail dystrophy, seizures syndrome
+^ESCTXL793804	X-linked intellectual disability, limb spasticity, retinal dystrophy, diabetes insipidus syndrome
+^ESCTXP321905	XP - Xeroderma pigmentosum
+^ESCTXS819141	[X]Severe learning disability
+^ESCTXX312520	XXXXY syndrome
+^ESCTXX377407	XXXY syndrome
+^ESCTXX668675	XXYY syndrome
+^ESCTXY795955	XY type gonadal dysgenesis with associated anomalies syndrome
+^ESCTYO751992	Young-Simpson syndrome
+^ESCTZE777871	Zellweger-like syndrome without peroxisomal anomaly
+^ESCTZU780651	Zunich Kaye syndrome
+EMISNQAC767	Acrodysostosis
+EMISNQAD62	Adrenoleucodystrophy
+EMISNQFR2	Fragile X syndrome
+EMISNQPI5	Pitt-Hopkins syndrome
+ESCTCO12	Coffin-Siris syndrome
