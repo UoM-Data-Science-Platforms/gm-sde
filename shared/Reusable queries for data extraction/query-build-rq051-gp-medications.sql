@@ -18,10 +18,15 @@
 
 -- Table for episode counts
 IF OBJECT_ID('tempdb..#First{param:medicationname}Counts') IS NOT NULL DROP TABLE #First{param:medicationname}Counts;
-SELECT FK_Patient_Link_ID, YEAR(MedicationDate) AS YearOfEpisode, MONTH(MedicationDate) AS MonthOfEpisode, COUNT(*) AS Frequency --need number per month per person
+SELECT YEAR(MedicationDate) AS YearOfEpisode, MONTH(MedicationDate) AS MonthOfEpisode, COUNT(*) AS Frequency --need number per month per person
 INTO #First{param:medicationname}Counts
-FROM #GPMedications
-WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = '{param:medication}' AND Version = '{param:version}') 
-AND MedicationDate >= '2019-01-01'
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+FROM (
+  -- First we deduplicate to ensure only 1 med per day is counted
+  SELECT FK_Patient_Link_ID, MedicationDate
+  FROM #GPMedications
+  WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = '{param:medication}' AND Version = '{param:version}') 
+  AND MedicationDate >= '2019-01-01'
+  AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+  GROUP BY FK_Patient_Link_ID, MedicationDate
+) sub
 GROUP BY FK_Patient_Link_ID, YEAR(MedicationDate), MONTH(MedicationDate);

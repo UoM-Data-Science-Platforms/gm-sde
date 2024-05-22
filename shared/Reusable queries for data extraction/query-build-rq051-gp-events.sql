@@ -42,9 +42,14 @@ GROUP BY FK_Patient_Link_ID; -- The date range is now fully in the WHERE clause 
 IF OBJECT_ID('tempdb..#First{param:conditionname}Counts') IS NOT NULL DROP TABLE #First{param:conditionname}Counts;
 SELECT FK_Patient_Link_ID, YEAR(EventDate) AS YearOfEpisode, MONTH(EventDate) AS MonthOfEpisode, COUNT(*) AS Frequency --need number per month per person
 INTO #First{param:conditionname}Counts
-FROM #GPEvents
-WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = '{param:condition}' AND Version = '{param:version}')
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= '2019-01-01'
+FROM (
+  -- First we deduplicate to ensure only 1 diagnosis per day is counted
+  SELECT FK_Patient_Link_ID, EventDate
+  FROM #GPEvents
+  WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = '{param:condition}' AND Version = '{param:version}')
+  AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+  AND EventDate >= '2019-01-01'
+  GROUP BY FK_Patient_Link_ID, EventDate
+) sub
 GROUP BY FK_Patient_Link_ID, YEAR(EventDate), MONTH(EventDate);
 
