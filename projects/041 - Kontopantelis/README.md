@@ -556,6 +556,7 @@ This project required the following clinical code sets:
 - covid-positive-antigen-test v1
 - covid-positive-pcr-test v1
 - covid-positive-test-other v1
+- dementia v1
 - sle v1
 - gout v1
 - haematuria v1
@@ -854,6 +855,34 @@ _Update **2024-01-23**: Prevalence now 23% - 25%._
 - Find_missing_codes last run 2024-01-23
 
 LINK: [https://github.com/rw251/.../tests/covid-positive-test-other/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-test-other/1)
+
+### Dementia
+
+Any code indicating that a person has dementia, including Alzheimer's disease.
+
+Code set from https://www.opencodelists.org/codelist/opensafely/dementia-complete/48c76cf8/ supplemented with codes from the NHS PCD refsets.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.67% - 0.81%` suggests that this code set is likely well defined.
+
+_Update **2024-03-15**: Prevalence now 0.83% - 0.99%._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-12-20 | EMIS            | 2438146    |   19770 (0.811%) |    21772 (0.893%) |
+| 2022-12-20 | TPP             | 198637     |    1427 (0.718%) |      7445 (3.75%) |
+| 2022-12-20 | Vision          | 327196     |    2244 (0.686%) |     2265 (0.692%) |
+| 2024-02-26 | EMIS            | 2522441    |     27712 (1.1%) |      27745 (1.1%) |
+| 2024-02-26 | TPP             | 201679     |      2216 (1.1%) |     1872 (0.928%) |
+| 2024-02-26 | Vision          | 334812     |    3169 (0.947%) |     3170 (0.947%) |
+| 2024-03-15 | EMIS            | 2526522    |   24910 (0.986%) |    24994 (0.989%) |
+| 2024-03-15 | TPP             | 201758     |    1928 (0.956%) |     1948 (0.966%) |
+| 2024-03-15 | Vision          | 335186     |    2772 (0.827%) |     2780 (0.829%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-03-15
+
+LINK: [https://github.com/rw251/.../conditions/dementia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/dementia/1)
 
 ### Systemic Lupus Erythematosus (SLE)
 
@@ -1195,14 +1224,19 @@ Code set for patients with a diagnosis of psychosis or schizophrenia.
 Developed from www.opencodelists.org
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions.
-Here is a log for this code set. The prevalence range (1.10% - 1.90%)
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. The prevalence range `1% - 1.3%` suggests this is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------- | ----------------- |
 | 2021-06-16 | EMIS            | 2608685    | 46695 (1.79%)    | 46695 (1.79%)     |
 | 2021-06-16 | TPP             | 210985     | 28695 (1.10%)    | 28695 (1.10%)     |
 | 2021-06-16 | Vision          | 335010     | 49565 (1.90%)    | 49565 (1.90%)     |
+| 2024-04-30 | EMIS            | 2530927    | 42592 (1.68%)    | 25346 (1%)        |
+| 2024-04-30 | TPP             | 201816     | 2709 (1.34%)     | 2692 (1.33%)      |
+| 2024-04-30 | Vision          | 335411     | 5057 (1.51%)     | 3253 (0.97%)      |
+#### Audit log
+
+- Find_missing_codes last run 2024-04-30
 
 LINK: [https://github.com/rw251/.../conditions/schizophrenia-psychosis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/schizophrenia-psychosis/1)
 
@@ -1210,73 +1244,93 @@ LINK: [https://github.com/rw251/.../conditions/schizophrenia-psychosis/1](https:
 
 Code set for patients with a diagnosis of bipolar.
 
-Developed from www.opencodelists.org
+Developed from www.opencodelists.org and the NHS PCD refsets.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. Prevalence range: 0.28% - 0.54%
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. Prevalence range: `0.28% - 0.31%` suggests this is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------- | ----------------- |
 | 2021-06-30 | EMIS            | 2608685    | 14087 (0.54%)    | 14087 (0.54%)     |
 | 2021-06-30 | TPP             | 210985     | 591 (0.28%)      | 591 (0.28%)       |
 | 2021-06-30 | Vision          | 335010     | 1608 (0.48%)     | 1608 (0.48%)      |
+| 2024-04-30 | EMIS            | 2530927    | 322887 (12.8%)   | 7791 (0.308%)     |
+| 2024-04-30 | TPP             | 201816     | 1096 (0.543%)    | 570 (0.282%)      |
+| 2024-04-30 | Vision          | 335411     | 8076 (2.41%)     | 972 (0.29%)       |
+#### Audit log
+
+- Find_missing_codes last run 2024-04-30
 
 LINK: [https://github.com/rw251/.../conditions/bipolar/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/bipolar/1)
 
 ### Eating disorders
 
-Any code indicating a diagnosis of anorexia or bulimia or similar eating disorders.
+Any code indicating a diagnosis of anorexia or bulimia or similar eating disorders. SNOMED codes from the NHS PCD refset.
+
+- Does not include "loss of appetite codes" unless there is an indication that it is a symptom of anorexia.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
 
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.42% - 0.84%` suggests that this code set is well defined.
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.68% - 0.85%` suggests that this code set is well defined.
 
-| Date        | Practice system | Population | Patients from ID | Patient from code |
-| ----------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-06  | EMIS            | 2662112    |    22407 (0.84%) |     22407 (0.84%) |
-| 2022-05-06  | TPP             | 212726     |      885 (0.42%) |       885 (0.42%) |
-| 2022-05-06  | Vision          | 342310     |     1999 (0.58%) |      1935 (0.57%) |
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-06 | EMIS            | 2662112    |    22407 (0.84%) |     22407 (0.84%) |
+| 2022-05-06 | TPP             | 212726     |      885 (0.42%) |       885 (0.42%) |
+| 2022-05-06 | Vision          | 342310     |     1999 (0.58%) |      1935 (0.57%) |
+| 2024-04-30 | EMIS            | 2530927    |    34267 (1.35%) |    21377 (0.845%) |
+| 2024-04-30 | TPP             | 201816     |     3067 (1.52%) |     1362 (0.675%) |
+| 2024-04-30 | Vision          | 335411     |     3719 (1.11%) |     2472 (0.737%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-04-30
 
 LINK: [https://github.com/rw251/.../conditions/eating-disorders/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/eating-disorders/1)
 
 ### Anxiety
 
-Any code indicating a diagnosis of anxiety or other somatoform disorder.
+Any code indicating a diagnosis of anxiety or other somatoform disorder. Developed from SNOMED searches and the opencodelist code set: https://www.opencodelists.org/codelist/opensafely/anxiety-disorders/6aef605a/.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
 
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `18.23% - 18.77%` suggests that this code set is well defined.
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `21.3% - 22%` suggests that this code set is well defined.
 
-| Date        | Practice system | Population | Patients from ID | Patient from code |
-| ----------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-16  | EMIS            | 2662570    |  499713 (18.77%) |   502416 (18.87%) |
-| 2022-05-16  | TPP             | 212696     |   38757 (18.22%) |    38769 (18.23%) |
-| 2022-05-16  | Vision          | 342344     |   65130 (19.02%) |    64271 (18.77%)) |
-| 2024-02-22 | EMIS | 2524209 | 747035 (29.6%) | 531288 (21%) | 
-| 2024-02-22 | TPP | 201752 | 44715 (22.2%) | 42585 (21.1%) | 
-| 2024-02-22 | Vision | 335007 | 73840 (22%) | 69987 (20.9%) | 
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-16 | EMIS            | 2662570    |  499713 (18.77%) |   502416 (18.87%) |
+| 2022-05-16 | TPP             | 212696     |   38757 (18.22%) |    38769 (18.23%) |
+| 2022-05-16 | Vision          | 342344     |   65130 (19.02%) |    64271 (18.77%) |
+| 2024-04-30 | EMIS            | 2530927    |   766186 (30.3%) |    549512 (21.7%) |
+| 2024-04-30 | TPP             | 201816     |      46335 (23%) |     42913 (21.3%) |
+| 2024-04-30 | Vision          | 335411     |    77888 (23.2%) |       73817 (22%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-04-30
+
 LINK: [https://github.com/rw251/.../conditions/anxiety/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/anxiety/1)
 
 ### Self-harm Episodes
 
 Defined as any episode of self-harm (except accidental) or attempted suicide
 
-Readv2 code set supplied by the PI for RQ-029(Steeg) 
+Readv2 code set supplied by the PI for RQ-029(Steeg)
 
 CTV3 and SNOMED code sets created using the Reference_Coding table in the GMCR, based on the Readv2 code set.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. The prevalence range `3.83% - 4.17%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-04-14 | EMIS            | 2603707    |   102353 (3.97%) |     95004 (3.65%) |
 | 2021-04-14 | TPP             | 210613     |     7591 (3.61%) |      7257 (3.45%) |
 | 2021-04-14 | Vision          | 333786     |    12661 (3.79%) |     11975 (3.59%) |
+| 2024-04-30 | EMIS            | 2530927    |   105617 (4.17%) |    105491 (4.17%) |
+| 2024-04-30 | TPP             | 201816     |     8865 (4.39%) |         8072 (4%) |
+| 2024-04-30 | Vision          | 335411     |    12867 (3.84%) |     12836 (3.83%) |
+
 LINK: [https://github.com/rw251/.../patient/selfharm-episodes/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/selfharm-episodes/1)
 
 ### Urinary tract infection
