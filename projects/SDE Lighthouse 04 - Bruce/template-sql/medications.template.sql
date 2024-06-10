@@ -28,7 +28,10 @@ SET @EndDate = '2023-10-31'; --CHECK
 --> CODESET prednisolone:1
 
 -- immunosuppressants
---> CODESET methotrexate:1 tacrolimus:1 azathioprine:1 mycophenolate-mofetil:1 ciclosporin:1 hydroxychloroquine:1 Chloroquine:1
+--> CODESET methotrexate:1 tacrolimus:1 azathioprine:1 mycophenolate-mofetil:1 ciclosporin:1 hydroxychloroquine:1 
+
+-- to add: chloroquine
+
 --> CODESET cyclophosphamide:1 rituximab:1
 
 -- cardiovascular

@@ -65,6 +65,7 @@ INNER JOIN #AllCodes a ON a.Code = gp.SuppliedCode
 WHERE Concept IN 
 	('chronic-kidney-disease', 'ckd-stage-1', 'ckd-stage-2', 'ckd-stage-3', 'ckd-stage-4', 'ckd-stage-5')
 
+IF OBJECT_ID('tempdb..#ckd_stages') IS NOT NULL DROP TABLE #ckd_stages;
 SELECT FK_Patient_Link_ID,
 		CKDStage = CASE WHEN concept = 'ckd-stage-1' then 1
 			WHEN concept = 'ckd-stage-2' then 2
@@ -75,90 +76,20 @@ SELECT FK_Patient_Link_ID,
 INTO #ckd_stages
 FROM #ckd
 
+IF OBJECT_ID('tempdb..#CKDStage') IS NOT NULL DROP TABLE #CKDStage;
 SELECT FK_Patient_Link_ID, 
 		CKDStageMax = MAX(CKDStage)
 INTO #CKDStage
 FROM #ckd_stages
 GROUP BY FK_Patient_Link_ID
 
------------ GET MOST RECENT EGFR AND CREATININE MEASUREMENT FOR EACH PATIENT
+----------- GET MOST RECENT TEST RESULTS FOR EACH PATIENT
 
---> EXECUTE query-get-most-recent-value-before-index-date.sql min-value:0 max-value:500 unit:% gp-events-table:#GPEvents code-set:egfr max-or-min:min temp-table-name:#egfr 
-
-
-
-
-
--- GET VALUES FOR OBSERVATIONS OF INTEREST
-/*
-IF OBJECT_ID('tempdb..#egfr_creat') IS NOT NULL DROP TABLE #egfr_creat;
-SELECT 
-	FK_Patient_Link_ID,
-	CAST(EventDate AS DATE) AS EventDate,
-	Concept = CASE WHEN sn.Concept IS NOT NULL THEN sn.Concept ELSE co.Concept END,
-	[Version] =  CASE WHEN sn.[Version] IS NOT NULL THEN sn.[Version] ELSE co.[Version] END,
-	[Value],
-	[Units]
-INTO #egfr_creat
-FROM SharedCare.GP_Events gp
-LEFT JOIN #VersionedSnomedSets sn ON sn.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
-LEFT JOIN #VersionedCodeSets co ON co.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
-WHERE
-	(
-	 gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('egfr', 'creatinine')) ) OR
-     gp.FK_Reference_Coding_ID   IN (SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets WHERE (Concept IN ('egfr', 'creatinine'))  ) 
-	 )
-AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-AND EventDate BETWEEN @MinDate and @IndexDate
-AND Value <> ''
-
--- For Egfr and Creatinine we want closest prior to index date
-IF OBJECT_ID('tempdb..#TempCurrentEgfr') IS NOT NULL DROP TABLE #TempCurrentEgfr;
-SELECT 
-	a.FK_Patient_Link_ID, 
-	a.Concept,
-	Max([Value]) as [Value],
-	Max(EventDate) as EventDate
-INTO #TempCurrentEgfr
-FROM #egfr_creat a
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(EventDate) AS MostRecentDate 
-	FROM #egfr_creat
-	WHERE Concept = 'egfr'
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.MostRecentDate = a.EventDate and sub.FK_Patient_Link_ID = a.FK_Patient_Link_ID
-GROUP BY a.FK_Patient_Link_ID, a.Concept;
-
-IF OBJECT_ID('tempdb..#TempCurrentCreatinine') IS NOT NULL DROP TABLE #TempCurrentCreatinine;
-SELECT 
-	a.FK_Patient_Link_ID, 
-	a.Concept,
-	Max([Value]) as [Value],
-	Max(EventDate) as EventDate
-INTO #TempCurrentCreatinine
-FROM #egfr_creat a
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(EventDate) AS MostRecentDate 
-	FROM #egfr_creat
-	WHERE Concept = 'creatinine'
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.MostRecentDate = a.EventDate and sub.FK_Patient_Link_ID = a.FK_Patient_Link_ID
-GROUP BY a.FK_Patient_Link_ID, a.Concept;
-
--- bring together in a table that can be joined to
-IF OBJECT_ID('tempdb..#PatientEgfrCreatinine') IS NOT NULL DROP TABLE #PatientEgfrCreatinine;
-SELECT 
-	p.FK_Patient_Link_ID,
-	Egfr = MAX(CASE WHEN e.Concept = 'Egfr' THEN TRY_CONVERT(NUMERIC(16,5), e.[Value]) ELSE NULL END),
-	Egfr_dt = MAX(CASE WHEN e.Concept = 'Egfr' THEN e.EventDate ELSE NULL END),
-	Creatinine = MAX(CASE WHEN c.Concept = 'Creatinine' THEN TRY_CONVERT(NUMERIC(16,5), c.[Value]) ELSE NULL END),
-	Creatinine_dt = MAX(CASE WHEN c.Concept = 'Creatinine' THEN c.EventDate ELSE NULL END)
-INTO #PatientEgfrCreatinine
-FROM #Cohort p
-LEFT OUTER JOIN #TempCurrentEgfr e on e.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #TempCurrentCreatinine c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-GROUP BY p.FK_Patient_Link_ID
-*/
+--> EXECUTE query-get-closest-value-to-date.sql all-patients:#false date:2023-10-31 min-value:0 max-value:500 unit:% gp-events-table:#GPEvents code-set:egfr version:1 comparison:< temp-table-name:#egfr 
+--> EXECUTE query-get-closest-value-to-date.sql all-patients:#false date:2023-10-31 min-value:0 max-value:500 unit:% gp-events-table:#GPEvents code-set:creatinine version:1 comparison:< temp-table-name:#creatinine 
+--> EXECUTE query-get-closest-value-to-date.sql all-patients:#false date:2023-10-31 min-value:0 max-value:500 unit:% gp-events-table:#GPEvents code-set:hdl-cholesterol version:1 comparison:< temp-table-name:#hdl_cholesterol 
+--> EXECUTE query-get-closest-value-to-date.sql all-patients:#false date:2023-10-31 min-value:0 max-value:500 unit:% gp-events-table:#GPEvents code-set:ldl-cholesterol version:1 comparison:< temp-table-name:#ldl_cholesterol 
+--> EXECUTE query-get-closest-value-to-date.sql all-patients:#false date:2023-10-31 min-value:0 max-value:500 unit:% gp-events-table:#GPEvents code-set:triglycerides version:1 comparison:< temp-table-name:#triglycerides 
 
 --bring together for final output
 SELECT	 PatientId = m.FK_Patient_Link_ID
@@ -175,10 +106,16 @@ SELECT	 PatientId = m.FK_Patient_Link_ID
 		,alc.CurrentAlcoholIntake
 		,sle.SLEFirstDiagnosisDate
 		,CKDStage = ckd.CKDStageMax
-		,Egfr
-		,Egfr_dt
-		,Creatinine
-		,Creatinine_dt
+		,Egfr = egf.[Value]
+		,Egfr_dt = egf.DateOfFirstValue
+		,Creatinine = cre.[Value]
+		,Creatinine_dt = cre.DateOfFirstValue
+		,HDL_Cholesterol = hdl.[Value]
+		,HDL_dt = hdl.DateOfFirstValue
+		,LDL_Cholesterol = ldl.[Value]
+		,LDL_dt = ldl.DateOfFirstValue
+		,Triglycerides = tri.[Value]
+		,Triglycerides_dt = tri.DateOfFirstValue
 FROM #Cohort m
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -188,7 +125,11 @@ LEFT OUTER JOIN #PatientBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientAlcoholIntake alc ON alc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #SLEFirstDiagnosis sle ON sle.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #CKDStage ckd ON ckd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientEgfrCreatinine ec ON ec.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #egfr egf ON egf.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #creatinine cre ON cre.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #hdl_cholesterol hdl ON hdl.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #ldl_cholesterol ldl ON ldl.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #triglycerides tri ON tri.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 
 
 

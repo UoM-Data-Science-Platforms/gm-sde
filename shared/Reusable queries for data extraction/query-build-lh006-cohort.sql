@@ -22,7 +22,7 @@ SET @StudyEndDate = '2023-12-31'
 --> EXECUTE query-get-possible-patients.sql
 --> EXECUTE query-patient-date-of-birth.sql
 
---> CODESET cancer:1 
+--> CODESET cancer:1 chronic-pain:1
 
 --> CODESET opioid-analgesics:1      
 

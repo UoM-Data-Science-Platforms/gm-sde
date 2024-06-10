@@ -33,7 +33,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
-- Find the closest value to a particular date
 - Smoking status
 - Alcohol Intake
 - BMI
@@ -47,34 +46,6 @@ This project required the following reusable queries:
 
 Further details for each query can be found below.
 
-### Find the closest value to a particular date
-To find the closest value for a particular test to a given date.
-
-_Input_
-```
-A variable:
-  - min-value: number - the smallest permitted value. Values lower than this will be disregarded.
-  - max-value: number - the largest permitted value. Values higher than this will be disregarded.
-  - unit: string - if a particular unit is required can enter it here. If any then use '%'
-  - date: date - (YYYY-MM-DD) the date to look around
-  - comparison: inequality sign (>, <, >= or <=) e.g. if '>' then will look for the first value strictly after the date
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
-  - code-set: string - the name of the code set to be used. Must be one from the repository.
-  - version: number - the code set version
-  - temp-table-name: string - the name of the temp table that this will produce
-```
-
-_Output_
-```
-Temp tables as follows:
- #Patients - list of patient ids of the cohort
-```
-_File_: `query-get-closest-value-to-date.sql`
-
-_Link_: [https://github.com/rw251/.../query-get-closest-value-to-date.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-closest-value-to-date.sql)
-
----
 ### Smoking status
 To get the smoking status for each patient in a cohort.
 
@@ -274,11 +245,13 @@ _Link_: [https://github.com/rw251/.../query-patient-ltcs-date-range.sql](https:/
 
 ---
 ### Define Cohort for LH004: patients that had an SLE diagnosis
-To build the cohort of patients needed for LH004. This reduces duplication of code in the template scripts.
+To build the cohort of patients needed for LH003. This reduces duplication of code in the template scripts.
 
 _Input_
 ```
-None
+assumes there exists one temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 ```
 
 _Output_
@@ -341,9 +314,7 @@ _Link_: [https://github.com/rw251/.../query-get-possible-patients.sql](https://g
 This project required the following clinical code sets:
 
 - sle v1
-- tuberculosis v1
 - antiphospholipid-syndrome v1
-- infections v1
 - prednisolone v1
 - methotrexate v1
 - tacrolimus v1
@@ -357,6 +328,8 @@ This project required the following clinical code sets:
 - sglt2-inhibitors v1
 - statins v1
 - antiplatelet-medications v1
+- creatinine v1
+- egfr v1
 - bmi v2
 - alcohol-non-drinker v1
 - alcohol-light-drinker v1
@@ -376,61 +349,28 @@ This project required the following clinical code sets:
 - ckd-stage-3 v1
 - ckd-stage-4 v1
 - ckd-stage-5 v1
-- creatinine v1
-- egfr v1
-- hdl-cholesterol v1
-- ldl-cholesterol v1
-- triglycerides v1
-- flu-vaccination v1
-- covid-vaccination v1
-- pneumococcal-vaccination v1
-- shingles-vaccination v1
 
 Further details for each code set can be found below.
 
-### Systemic Lupus Erythematosus (SLE)
-
-Codes from: https://www.opencodelists.org/codelist/opensafely/systemic-lupus-erythematosus-sle/2020-05-12/#full-list
-
-Includes codes for other diagnoses that are "due to" or "caused by" SLE.
+### Systemic Lupus Erythematosus
+ 
+Codes from: https://www.opencodelists.org/codelist/opensafely/systemic-lupus-erythematosus-sle/2020-05-12/#full-list 
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
 
-The prevalence range `0.11% - 0.125%` suggests that this code set is well defined.
+The prevalence range `0.16% - 0.21%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2023-10-03 | EMIS            | 2469004    |    4340 (0.176%) |     2866 (0.116%) |
-| 2023-10-03 | TPP             | 200687     |     326 (0.162%) |      209 (0.104%) |
-| 2023-10-03 | Vision          | 332247     |     712 (0.214%) |      420 (0.126%) |
-| 2024-01-19 | EMIS            | 2519438    |    2912 (0.116%) |     2913 (0.116%) |
-| 2024-01-19 | TPP             | 201469     |     215 (0.107%) |      215 (0.107%) |
-| 2024-01-19 | Vision          | 334528     |     419 (0.125%) |      419 (0.125%) |
-#### Audit log
-
-- Find_missing_codes last run 2024-01-19
-
+| 2023-10-03 | EMIS | 2469004 | 4340 (0.176%) | 2866 (0.116%) | 
+| 2023-10-03 | TPP | 200687 | 326 (0.162%) | 209 (0.104%) | 
+| 2023-10-03 | Vision | 332247 | 712 (0.214%) | 420 (0.126%) | 
 LINK: [https://github.com/rw251/.../conditions/sle/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/sle/1)
-
-### Tuberculosis
-
-Any code indicating a diagnosis of tuberculosis. This code set was developed using the reference coding table in the GMCR environment, converting from ICD10 codes A15 - A19.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.31 -0.46%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-05-09 | EMIS | 2516912 | 11598 (0.461%) | 11598 (0.461%) | 
-| 2024-05-09 | TPP | 200013 | 689 (0.344%) | 689 (0.344%) | 
-| 2024-05-09 | Vision | 334384 | 1058 (0.316%) | 1058 (0.316%) | 
-LINK: [https://github.com/rw251/.../conditions/tuberculosis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/tuberculosis/1)
 
 ### Antiphospholipid syndrome
 
-Any code indicating a diagnosis of antiphospholipid syndrome. Taken from: https://nhs-pcd-refset.pages.dev/
-
+Any code indicating a diagnosis of antiphospholipid syndrome. Taken from: https://www.opencodelists.org/codelist/opensafely/antiphospholipid-syndrome/3a8c6298/#full-list
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.03% - 0.05%` suggests that this code set is well defined.
@@ -438,26 +378,10 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2023-12-15 | EMIS | 2515618 | 1178 (0.0468%) | 1178 (0.0468%) | 
-| 2023-12-15 | TPP | 201264 | 55 (0.0273%) | 55 (0.0273%) | 
-| 2023-12-15 | Vision | 334040 | 123 (0.0368%) | 121 (0.0362%) | 
+| 2023-12-06 | EMIS | 2514724 | 1179 (0.0469%) | 1179 (0.0469%) | 
+| 2023-12-06 | TPP | 201240 | 55 (0.0273%) | 55 (0.0273%) | 
+| 2023-12-06 | Vision | 333881 | 120 (0.0359%) | 120 (0.0359%) | 
 LINK: [https://github.com/rw251/.../conditions/antiphospholipid-syndrome/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/antiphospholipid-syndrome/1)
-
-### Infections
-
-Any code indicating an infection. Codes from https://research-information.bris.ac.uk/en/datasets/cprd-codes-infections-and-autoimmune-diseases.
-
-This code set was built for lighthouse study number 4 (Bruce - SLE).
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `74.1% - 80.1%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-05-01 | EMIS | 2530927 | 1875578 (74.1%) | 1875483 (74.1%) | 
-| 2024-05-01 | TPP | 201816 | 161930 (80.2%) | 161753 (80.1%) | 
-| 2024-05-01 | Vision | 335411 | 253518 (75.6%) | 253503 (75.6%) | 
-LINK: [https://github.com/rw251/.../conditions/infections/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/infections/1)
 
 ### Prednisolone
 
@@ -498,61 +422,62 @@ LINK: [https://github.com/rw251/.../medications/methotrexate/1](https://github.c
 ### Tacrolimus
 
 This code set was created from BNF codes beginning with 1305030C0: https://openprescribing.net/chemical/1305030C0/
-
-Extra codes were added from the tacrolimus codelist at: https://nhs-drug-refset.pages.dev/ 
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.40% - 0.60%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.34% - 0.53%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2023-12-21 | EMIS | 2516480 | 9987 (0.397%) | 10144 (0.403%) | 
-| 2023-12-21 | TPP | 201282 | 1125 (0.559%) | 1125 (0.559%) | 
-| 2023-12-21 | Vision | 334130 | 1982 (0.593%) | 1994 (0.597%) | 
+| 2023-12-07 | EMIS | 2514724 | 8457 (0.336%) | 8457 (0.336%) | 
+| 2023-12-07 | TPP | 201240 | 986 (0.49%) | 986 (0.49%) | 
+| 2023-12-07 | Vision | 333881 | 1782 (0.534%) | 1782 (0.534%) | 
+
 LINK: [https://github.com/rw251/.../medications/tacrolimus/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/tacrolimus/1)
 
 ### Azathioprine
 
-This code set was created from: https://nhs-drug-refset.pages.dev/
+This code set was created from BNF codes beginning with 0802010G0.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.32% - 0.36%` suggests this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.05% - 0.34%` suggests overreporting from TPP practices.
 
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-01-26 | EMIS | 2520311 | 8061 (0.32%) | 8062 (0.32%) | 
-| 2024-01-26 | TPP | 201513 | 718 (0.356%) | 718 (0.356%) | 
-| 2024-01-26 | Vision | 334747 | 1107 (0.331%) | 1107 (0.331%) | 
+| 2023-12-06 | EMIS | 2514724 | 805 (0.032%) | 806 (0.0321%) | 
+| 2023-12-06 | TPP | 201240 | 691 (0.343%) | 691 (0.343%) | 
+| 2023-12-06 | Vision | 333881 | 164 (0.0491%) | 164 (0.0491%) | 
+
 LINK: [https://github.com/rw251/.../medications/azathioprine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/azathioprine/1)
 
 ### Mycophenolate-mofetil
 
-This code set was created from BNF codes beginning with 0802010M0. Codes were added from: https://nhs-drug-refset.pages.dev/
+This code set was created from BNF codes beginning with 0802010M0.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.10% - 0.12%` suggests overreporting from TPP practices.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.01% - 0.1%` suggests overreporting from TPP practices.
 
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2023-12-21 | EMIS | 2516480 | 819 (0.0325%) | 2913 (0.116%) | 
-| 2023-12-21 | TPP | 201282 | 241 (0.12%) | 249 (0.124%) | 
-| 2023-12-21 | Vision | 334130 | 108 (0.0323%) | 327 (0.0979%) | 
+| 2023-12-06 | EMIS | 2514724 | 394 (0.0157%) | 394 (0.0157%) | 
+| 2023-12-06 | TPP | 201240 | 202 (0.1%) | 202 (0.1%) | 
+| 2023-12-06 | Vision | 333881 | 48 (0.0144%) | 48 (0.0144%) | 
+
 LINK: [https://github.com/rw251/.../medications/mycophenolate-mofetil/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/mycophenolate-mofetil/1)
 
 ### Ciclosporin
 
-This code set was created from the ciclosporin code set at: https://nhs-drug-refset.pages.dev/ .
+This code set was created from BNF codes beginning with 0802020G0.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.05% - 0.09%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2023-12-21 | EMIS | 2516480 | 1429 (0.0568%) | 2422 (0.0962%) | 
-| 2023-12-21 | TPP | 201282 | 183 (0.0909%) | 187 (0.0929%) | 
-| 2023-12-21 | Vision | 334130 | 163 (0.0488%) | 212 (0.0634%) | 
+| 2023-12-06 | EMIS | 2514724 | 1424 (0.0566%) | 1425 (0.0567%) | 
+| 2023-12-06 | TPP | 201240 | 183 (0.0909%) | 183 (0.0909%) | 
+| 2023-12-06 | Vision | 333881 | 160 (0.0479%) | 160 (0.0479%) | 
 
 LINK: [https://github.com/rw251/.../medications/ciclosporin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/ciclosporin/1)
 
@@ -604,8 +529,6 @@ LINK: [https://github.com/rw251/.../medications/rituximab/1](https://github.com/
 This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
 
 **_NB this code set is for ACE inhibitors AND angiotensin receptor blockers (ARBs). If you just want ACEIs please use v2._**
-
-** UPDATE (April 2024) - extra codes have now been added from the 'Angiotensin II receptor antagonists prescribable within general practice' and 'Angiotensin-converting enzyme inhibitors prescribable within general practice' code lists at https://nhs-drug-refset.pages.dev/.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.36% - 13.02%` suggests that this code set is well defined.
@@ -615,21 +538,17 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-07 | EMIS            | 2605681    |  321934 (12.36%) |   321952 (12.36%) |
 | 2021-05-07 | TPP             | 210817     |   27450 (13.02%) |    27450 (13.02%) |
 | 2021-05-07 | Vision          | 334632     |   41775 (12.48%) |    41775 (12.48%) |
-| 2024-04-29 | EMIS | 2530927 | 313827 (12.4%) | 313827 (12.4%) | 
-| 2024-04-29 | TPP | 201816 | 31325 (15.5%) | 31325 (15.5%) | 
-| 2024-04-29 | Vision | 335411 | 41534 (12.4%) | 41534 (12.4%) | 
+
 LINK: [https://github.com/rw251/.../medications/ace-inhibitor/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/ace-inhibitor/1)
 
 ### SGLT2 inhibitors (gliflozins)
 
-Any prescription of a sodium-glucose co-transporter-2 inhibitor (SGLT2i aka gliflozin). Code set created by searching for each named gliflozin (canagliflozin/vokanamet/invokana/dapagliflozin/xigduo/forxiga/qtern/empagliflozin/synjardy/jardiance/glyxambi/ertugliflozin/steglatro/ipragliflozin/luseogliflozin/remogliflozin/sergliflozin/sotagliflozin/tofogliflozin) in the SNOMED browser.
+Any prescription of a SGLT2 inhibitor (gliflozin).
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.25% - 1.25%` for EMIS and Vision suggests that this code set is well defined. The figure of `0.90%` for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.
 
 _Update **2023-10-27**: Prevalence is now in the range `2.07% - 2.19%` which suggests this code set is now more consistent._
-
-_Update **2024-03-06**: Prevalence is now in the range `2.2% - 2.4%`._
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
@@ -639,48 +558,90 @@ _Update **2024-03-06**: Prevalence is now in the range `2.2% - 2.4%`._
 | 2023-10-27 | EMIS            | 2472595    |    51233 (2.07%) |     51239 (2.07%) |
 | 2023-10-27 | TPP             | 200603     |     4387 (2.19%) |      4387 (2.19%) |
 | 2023-10-27 | Vision          | 332447     |     6960 (2.09%) |      6961 (2.09%) |
-| 2024-03-06 | EMIS            | 2525894    |    56629 (2.24%) |     56634 (2.24%) |
-| 2024-03-06 | TPP             | 201753     |     4879 (2.42%) |      4880 (2.42%) |
-| 2024-03-06 | Vision          | 335117     |     7604 (2.27%) |      7605 (2.27%) |
-| 2024-04-26 | EMIS | 2530666 | 58361 (2.31%) | 58361 (2.31%) | 
-| 2024-04-26 | TPP | 201812 | 5032 (2.49%) | 5032 (2.49%) | 
-| 2024-04-26 | Vision | 335433 | 7868 (2.35%) | 7868 (2.35%) | 
 #### Audit log
 
-- Find_missing_codes last run 2024-03-06
+- Find_missing_codes last run 2023-10-27
 
 LINK: [https://github.com/rw251/.../medications/sglt2-inhibitors/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sglt2-inhibitors/1)
 
 ### Statins
 
-This code set was based on the 'statins prescribable within general practice' list from NHS refsets: https://nhs-drug-refset.pages.dev/
+This code set was based on the list of statins provided here: https://www.opencodelists.org/codelist/opensafely/statin-medication/2020-04-20/#full-list
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `16.8% - 20.4%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `9.89% - 10.86%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2022-04-04 | EMIS            | 2659647    |  269007 (10.11%) |   269007 (10.11%) |
 | 2022-04-04 | TPP             |  212621    |   23123 (10.86%) |    23123 (10.86%) |
 | 2022-04-04 | Vision          |  341774    |    33781 (9.89%) |     33781 (9.89%) |
-| 2024-04-30 | EMIS | 2530927 | 425554 (16.8%) | 425194 (16.8%) | 
-| 2024-04-30 | TPP | 201816 | 41150 (20.4%) | 41148 (20.4%) | 
-| 2024-04-30 | Vision | 335411 | 57413 (17.1%) | 57380 (17.1%) | 
+
 LINK: [https://github.com/rw251/.../medications/statins/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/statins/1)
 
 ### Antiplatelet medications
 
-This code set was built from the two antiplatelet code lists at: https://nhs-drug-refset.pages.dev/. One was excluding aspirin, and one was based on salicylate. 
+This code set for antiplatelet medications was created from BNF codes beginning with 0209.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range from the code is `8.01% - 10.9%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range from the code is `8.54% - 10.5%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2023-12-21 | EMIS | 2516480 | 205067 (8.15%) | 205618 (8.17%) | 
-| 2023-12-21 | TPP | 201282 | 21955 (10.9%) | 21973 (10.9%) | 
-| 2023-12-21 | Vision | 334130 | 26873 (8.04%) | 26760 (8.01%) | 
+| 2023-12-06 | EMIS | 2514724 | 214824 (8.54%) | 214842 (8.54%) | 
+| 2023-12-06 | TPP | 201240 | 21148 (10.5%) | 21152 (10.5%) | 
+| 2023-12-06 | Vision | 333881 | 28641 (8.58%) | 28644 (8.58%) | 
+
+
 LINK: [https://github.com/rw251/.../medications/antiplatelet-medications/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antiplatelet-medications/1)
+
+### Creatinine (level)
+
+A patient's creatinine level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44J3.00 - Serum creatinine`). It does not include codes that indicate a patient's creatinine (`44J3300 - Serum creatinine raised') without giving the actual value.
+
+Codes taken from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.91% - 6.24%` suggests that this code set is likely well defined.
+
+_Update **2023/11/01**: prevalence now `59% - 61%` for EMIS and VISION. TPP higher at 67%._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1518402 (57.74%) |  1518402 (57.74%) |
+| 2021-10-13 | TPP             | 211812     |  125622 (59.31%) |   125622 (59.31%) |
+| 2021-10-13 | Vision          | 338205     |  207191 (61.26%) |   207191 (61.26%) |
+| 2023-11-01 | EMIS            | 2472595    |  1453342 (58.8%) |   1453495 (58.8%) |
+| 2023-11-01 | TPP             | 200603     |   134652 (67.1%) |    134654 (67.1%) |
+| 2023-11-01 | Vision          | 332447     |     202923 (61%) |      202947 (61%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-01
+
+LINK: [https://github.com/rw251/.../tests/creatinine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/creatinine/1)
+
+### Glomerular filtration rate (GFR)
+
+Any code that gives the value of a patient's GFR (or estimated GFR - EGFR).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `52.43% - 57.73%` suggests that this code set is likely well defined.
+
+_Update **2023/11/01**: prevalence now `54.1% - 55.3%` for EMIS and VISION. TPP higher at 66.5%._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-06-10 | EMIS            | 2610073    | 1369349 (52.46%) |  1368468 (52.43%) |
+| 2021-06-10 | TPP             | 211034     |  121897 (57.76%) |   121835 (57.73%) |
+| 2021-06-10 | Vision          | 335344     |  184635 (55.06%) |   184523 (55.02%) |
+| 2023-11-01 | EMIS            | 2472595    |  1336794 (54.1%) |   1336942 (54.1%) |
+| 2023-11-01 | TPP             | 200603     |   133383 (66.5%) |    133388 (66.5%) |
+| 2023-11-01 | Vision          | 332447     |   183868 (55.3%) |    183888 (55.3%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-01
+
+LINK: [https://github.com/rw251/.../tests/egfr/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/egfr/1)
 
 ### Body Mass Index (BMI)
 
@@ -744,126 +705,33 @@ LINK: [https://github.com/rw251/.../patient/alcohol-weekly-intake/1](https://git
 ### Smoking status current
 
 Any code suggestive that a patient is a current smoker.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `22% - 27%` is sufficiently narrow that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-01-19 | EMIS            | 2519438    |   613314 (24.3%) |    607924 (24.1%) |
-| 2024-01-19 | TPP             | 201469     |    53798 (26.7%) |     53814 (26.7%) |
-| 2024-01-19 | Vision          | 334528     |    74805 (22.4%) |     74677 (22.3%) |
-#### Audit log
-
-- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-current/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-current/1)
 
 ### Smoking status currently not
 
 Any code suggestive that a patient is currently a non-smoker. This is different to the "never smoked" code set.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `17% - 21%` is sufficiently narrow that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-01-19 | EMIS            | 2519438    |   521439 (20.7%) |    521519 (20.7%) |
-| 2024-01-19 | TPP             | 201469     |    37505 (18.6%) |     37506 (18.6%) |
-| 2024-01-19 | Vision          | 334528     |    57671 (17.2%) |     57505 (17.2%) |
-#### Audit log
-
-- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-currently-not/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-currently-not/1)
 
 ### Smoking status ex
 
 Any code suggestive that a patient is an ex-smoker.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `24% - 29%` is sufficiently narrow that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-01-19 | EMIS            | 2519438    |   596405 (23.7%) |    596734 (23.7%) |
-| 2024-01-19 | TPP             | 201469     |    57707 (28.6%) |     57720 (28.6%) |
-| 2024-01-19 | Vision          | 334528     |    80560 (24.1%) |     80597 (24.1%) |
-#### Audit log
-
-- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-ex/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex/1)
 
-### Smoking status ex trivial
-
-Codes showing a patient is currently a non smoker but has been a trivial smoker in the past.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.3% - 1.0%` is sufficiently narrow that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-01-19 | EMIS            | 2519438    |   24616 (0.977%) |    24630 (0.978%) |
-| 2024-01-19 | TPP             | 201469     |     1632 (0.81%) |     1633 (0.811%) |
-| 2024-01-19 | Vision          | 334528     |    1076 (0.322%) |     1076 (0.322%) |
-#### Audit log
-
-- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-ex-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex-trivial/1)
 
 ### Smoking status never
 
 Any code suggestive that a patient has never smoked. This is different to the "currently not" code set.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `51% - 55%` is sufficiently narrow that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-01-19 | EMIS            | 2519438    |  1392255 (55.3%) |   1353278 (53.7%) |
-| 2024-01-19 | TPP             | 201469     |   110979 (55.1%) |      110723 (55%) |
-| 2024-01-19 | Vision          | 334528     |   176702 (52.8%) |    172037 (51.4%) |
-#### Audit log
-
-- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-never/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-never/1)
 
-### Passive smoker
-
-Any code suggesting the patient has been exposed to cigarette smoke passively.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.2% - 1.5%` is sufficiently narrow that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-01-19 | EMIS            | 2519438    |    29106 (1.16%) |     29111 (1.16%) |
-| 2024-01-19 | TPP             | 201469     |     2404 (1.19%) |      2404 (1.19%) |
-| 2024-01-19 | Vision          | 334528     |     4931 (1.47%) |      4931 (1.47%) |
-#### Audit log
-
-- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-passive/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-passive/1)
 
-### Smoking status trivial
-
-Any code suggesting the patient is currently smoking a trivial amount (on average less than 1 per day).
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.2% - 1.7%` is sufficiently narrow that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-01-19 | EMIS            | 2519438    |    38988 (1.55%) |     38950 (1.55%) |
-| 2024-01-19 | TPP             | 201469     |     2919 (1.45%) |       2426 (1.2%) |
-| 2024-01-19 | Vision          | 334528     |     5709 (1.71%) |      5708 (1.71%) |
-#### Audit log
-
-- Find_missing_codes last run 2024-01-17
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-trivial/1)
 
@@ -967,247 +835,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 - Find_missing_codes last run 2023-10-31
 
 LINK: [https://github.com/rw251/.../conditions/ckd-stage-5/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-5/1)
-
-### Creatinine (level)
-
-A patient's creatinine level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44J3.00 - Serum creatinine`). It does not include codes that indicate a patient's creatinine (`44J3300 - Serum creatinine raised') without giving the actual value.
-
-Codes taken from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.91% - 6.24%` suggests that this code set is likely well defined.
-
-_Update **2023/11/01**: prevalence now `59% - 61%` for EMIS and VISION. TPP higher at 67%._
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 1518402 (57.74%) |  1518402 (57.74%) |
-| 2021-10-13 | TPP             | 211812     |  125622 (59.31%) |   125622 (59.31%) |
-| 2021-10-13 | Vision          | 338205     |  207191 (61.26%) |   207191 (61.26%) |
-| 2023-11-01 | EMIS            | 2472595    |  1453342 (58.8%) |   1453495 (58.8%) |
-| 2023-11-01 | TPP             | 200603     |   134652 (67.1%) |    134654 (67.1%) |
-| 2023-11-01 | Vision          | 332447     |     202923 (61%) |      202947 (61%) |
-#### Audit log
-
-- Find_missing_codes last run 2023-11-01
-
-LINK: [https://github.com/rw251/.../tests/creatinine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/creatinine/1)
-
-### Glomerular filtration rate (GFR)
-
-Any code that gives the value of a patient's GFR (or estimated GFR - EGFR).
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `52.43% - 57.73%` suggests that this code set is likely well defined.
-
-_Update **2023/11/01**: prevalence now `54.1% - 55.3%` for EMIS and VISION. TPP higher at 66.5%._
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-06-10 | EMIS            | 2610073    | 1369349 (52.46%) |  1368468 (52.43%) |
-| 2021-06-10 | TPP             | 211034     |  121897 (57.76%) |   121835 (57.73%) |
-| 2021-06-10 | Vision          | 335344     |  184635 (55.06%) |   184523 (55.02%) |
-| 2023-11-01 | EMIS            | 2472595    |  1336794 (54.1%) |   1336942 (54.1%) |
-| 2023-11-01 | TPP             | 200603     |   133383 (66.5%) |    133388 (66.5%) |
-| 2023-11-01 | Vision          | 332447     |   183868 (55.3%) |    183888 (55.3%) |
-#### Audit log
-
-- Find_missing_codes last run 2023-11-01
-
-LINK: [https://github.com/rw251/.../tests/egfr/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/egfr/1)
-
-### HDL Cholesterol
-
-A patient's HDL cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P5.00 - Serum HDL cholesterol level`).
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `43.66% - 48.97%` suggests that this code set is likely well defined.
-
-_Update **2024/03/01**: prevalence now `46% - 55%%`._
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 1168326 (44.42%) |  1168326 (44.42%) |
-| 2021-10-13 | TPP             | 211812     |  100823 (47.60%) |   100823 (47.60%) |
-| 2021-10-13 | Vision          | 338205     |  165935 (49.06%) |   165935 (49.06%) |
-| 2024-03-06 | EMIS            | 2525894    |    1162124 (46%) |     1162354 (46%) |
-| 2024-03-06 | TPP             | 201753     |   110692 (54.9%) |    110708 (54.9%) |
-| 2024-03-06 | Vision          | 335117     |   163929 (48.9%) |    163958 (48.9%) |
-#### Audit log
-
-- Find_missing_codes last run 2024-03-01
-
-LINK: [https://github.com/rw251/.../tests/hdl-cholesterol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hdl-cholesterol/1)
-
-### LDL Cholesterol
-
-A patient's LDL cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P6.00 - Serum LDL cholesterol level`).
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `41.22% - 45.54%` suggests that this code set is likely well defined.
-
-_Update **2024/03/01**: prevalence now `43% - 48%%`._
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 1102872 (41.94%) |  1102872 (41.94%) |
-| 2021-10-13 | TPP             | 211812     |   91673 (43.28%) |    91673 (43.28%) |
-| 2021-10-13 | Vision          | 338205     |  154055 (45.55%) |   154055 (45.55%) |
-| 2024-03-06 | EMIS            | 2525894    |    1086503 (43%) |     1086736 (43%) |
-| 2024-03-06 | TPP             | 201753     |      96837 (48%) |       96849 (48%) |
-| 2024-03-06 | Vision          | 335117     |   149075 (44.5%) |    149103 (44.5%) |
-#### Audit log
-
-- Find_missing_codes last run 2024-03-01
-
-LINK: [https://github.com/rw251/.../tests/ldl-cholesterol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/ldl-cholesterol/1)
-
-### Triglyceride (level)
-
-A patient's triglyceride level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44Q..00 - Serum triglycerides`). It does not include codes that indicate a patient's triglyceride level (`44Q3.00 - Serum triglycerides raised') without giving the actual value.
-
-Codes taken from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf and the NHS PCD refsets.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `43.18% - 48.34%` suggests that this code set is likely well defined.
-
-_Update **2024/03/01**: prevalence now `45% - 54%%`._
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 1135572 (43.18%) |  1135572 (43.18%) |
-| 2021-10-13 | TPP             | 211812     |   99188 (46.82%) |    99188 (46.82%) |
-| 2021-10-13 | Vision          | 338205     |  163502 (48.34%) |   163502 (48.34%) |
-| 2024-03-06 | EMIS            | 2525894    |  1146848 (45.4%) |   1147073 (45.4%) |
-| 2024-03-06 | TPP             | 201753     |   109632 (54.3%) |    109648 (54.3%) |
-| 2024-03-06 | Vision          | 335117     |   162700 (48.6%) |    162729 (48.6%) |
-#### Audit log
-
-- Find_missing_codes last run 2024-03-01
-
-LINK: [https://github.com/rw251/.../tests/triglycerides/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/triglycerides/1)
-
-### Flu vaccination
-
-Any code that indicates that the patient has had a flu vaccine. Includes procedure codes and admin codes confirming a vaccination has been administered. **NB it does not include the flu vaccine product - see the `flu-vaccine` code set**
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-02-27 | EMIS | 2525130 | 1269267 (50.3%) | 1269291 (50.3%) | 
-| 2024-02-27 | TPP | 201782 | 91527 (45.4%) | 91540 (45.4%) | 
-| 2024-02-27 | Vision | 335118 | 169002 (50.4%) | 169017 (50.4%) | 
-LINK: [https://github.com/rw251/.../procedures/flu-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/flu-vaccination/1)
-
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `1.19% - 26.55%` as of 11th March 2021 is too wide. However the prevalence figure of 26.55% from EMIS is close to public data and is likely ok.
-
-**UPDATE - 25th March 2021** Missing Read and CTV3 codes were added to the vaccination list and now the range of `26.91% - 32.96%` seems reasonable. It should be noted that there is an approx 2 week lag between events occurring and them being entered in the record.
-
-**UPDATE - 12th April 2021**, latest prevalence figures.
-
-**UPDATE - 18th March 2022** There are now new codes for things like 3rd/4th/booster dose of vaccine. The latest prevalence shows `65.0% - 66.3%` have at least one vaccine code in the GP_Events table, and `88.2% - 93.6%` have at least one code for the vaccine in the GP_Medications table.
-
-**UPDATE - 24th January 2024** There has clearly been a reporting change as the prevalence of the vaccine as a medication has gone down. The event codes for the administration of the COVID vaccine seem to be the reliable place to find this informaiton.
-##### MED
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-12 | EMIS            | 2606497    |           0 (0%) |    379577(14.56%) |
-| 2021-05-12 | TPP             | 210810     |           0 (0%) |       1637(0.78%) |
-| 2021-05-12 | Vision          | 334784     |           0 (0%) |         93(0.03%) |
-| 2022-03-18 | EMIS            | 2658131    |  1750506 (65.9%) |    1763420(66.3%) |
-| 2022-03-18 | TPP             | 212662     |      8207 (3.9%) |     138285(65.0%) |
-| 2022-03-18 | Vision          | 341594     |   122060 (35.7%) |     225844(66.1%) |
-| 2024-01-23 | EMIS            | 2520311    |  1547833 (61.4%) |   1547833 (61.4%) |
-| 2024-01-23 | TPP             | 201513     |     8819 (4.38%) |      8819 (4.38%) |
-| 2024-01-23 | Vision          | 334747     |   127541 (38.1%) |    127541 (38.1%) |
-| 2024-04-23 | EMIS 		   | 2530666    |  1538265 (60.8%) |   1538265 (60.8%) | 
-| 2024-04-23 | TPP 			   | 201812     |     9383 (4.65%) |      9383 (4.65%) | 
-| 2024-04-23 | Vision 		   | 335433     |   127287 (37.9%) |    127287 (37.9%) | 
-##### EVENT
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-12 | EMIS            | 2606497    |     4446 (0.17%) |  1101577 (42.26%) |
-| 2021-05-12 | TPP             | 210810     |        7 (0.00%) |    87841 (41.66%) |
-| 2021-05-12 | Vision          | 334784     |        1 (0.00%) |   142724 (42.63%) |
-| 2022-03-18 | EMIS            | 2658131    |  2486786 (93.6%) |   1676951 (63.1%) |
-| 2022-03-18 | TPP             | 212662     |   187463 (88.2%) |      7314 (3.44%) |
-| 2022-03-18 | Vision          | 341594     |   312617 (91.5%) |     62512 (18.3%) |
-| 2024-01-23 | EMIS            | 2520311    |   243506 (9.66%) |   1571372 (62.3%) |
-| 2024-01-23 | TPP             | 201513     |     2322 (1.15%) |    137349 (68.2%) |
-| 2024-01-23 | Vision          | 334747     |     32138 (9.6%) |    209223 (62.5%) |
-| 2024-04-23 | EMIS 		   | 2530666    |  1611670 (63.7%) |   1573511 (62.2%) | 
-| 2024-04-23 | TPP 			   | 201812     |    10713 (5.31%) |    136355 (67.6%) | 
-| 2024-04-23 | Vision 		   | 335433     |     214580 (64%) |    208920 (62.3%) | 
-#### Audit log
-
-- Find_missing_codes last run 2024-01-23
-
-LINK: [https://github.com/rw251/.../procedures/covid-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1)
-
-### Pneumococcal vaccination
-
-Codes taken from OpenCodelists https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/pcv_cod/20200812/#full-list and https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/pneuvac1_cod/20210127/#full-list
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `34.2% - 34.8%` for EMIS and Vision suggests that this code set is well defined. TPP practices are a lot lower at `16.2%` which may be down to the way the codes are recorded there.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2023-11-01 | EMIS            | 2472595    |   722523 (29.2%) |    862422 (34.8%) |
-| 2023-11-01 | TPP             | 200603     |    30992 (15.4%) |     32488 (16.2%) |
-| 2023-11-01 | Vision          | 332447     |   110871 (33.3%) |    113668 (34.2%) |
-
-
-MED
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2023-11-10 | EMIS            | 2482563    |    43312 (1.74%) |     43313 (1.74%) | 
-| 2023-11-10 | TPP             | 201030     |     73 (0.0363%) |      74 (0.0368%) | 
-| 2023-11-10 | Vision          | 333490     |     2702 (0.81%) |      2702 (0.81%) | 
-
-EVENT
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2023-11-10 | EMIS            | 2482563    |   722186 (29.1%) |    860756 (34.7%) | 
-| 2023-11-10 | TPP             | 201030     |    31354 (15.6%) |     32487 (16.2%) | 
-| 2023-11-10 | Vision          | 333490     |   110696 (33.2%) |      113431 (34%) | 
-
-LINK: [https://github.com/rw251/.../procedures/pneumococcal-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/pneumococcal-vaccination/1)
-
-### Shingles vaccination
-
-Codes taken from OpenCodelists https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/shvacgp_cod/20200812/#full-list and https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/shvacgp1_cod/20211221/#full-list and https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/shvacgp2_cod/20211221/#full-list 
-
-Also the following codes were added as advised by RQ062 PI: n4v1, n4v4.
-
-** 01.05.24: codes were added from [NHS ref](https://nhs-pcd-refset.pages.dev/)
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence `6.26 - 7.55%` suggests that this code set is well defined.
-
-From GP_Events:
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-02-27 | EMIS | 2525130 | 158147 (6.26%) | 159573 (6.32%) | 
-| 2024-02-27 | TPP | 201782 | 15218 (7.54%) | 15232 (7.55%) | 
-| 2024-02-27 | Vision | 335118 | 21409 (6.39%) | 21616 (6.45%) | 
-
-From GP_Medications:
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-02-27 | EMIS | 2525130 | 9011 (0.357%) | 9011 (0.357%) | 
-| 2024-02-27 | TPP | 201782 | 145 (0.0719%) | 145 (0.0719%) | 
-| 2024-02-27 | Vision | 335118 | 473 (0.141%) | 473 (0.141%) | 
-LINK: [https://github.com/rw251/.../procedures/shingles-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/shingles-vaccination/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../SDE Lighthouse 04 - Bruce/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/SDE%20Lighthouse%2004%20-%20Bruce/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.
