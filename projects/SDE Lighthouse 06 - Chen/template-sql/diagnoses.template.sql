@@ -12,9 +12,9 @@ SET @EndDate = '2023-12-31';
 
 --> EXECUTE query-build-lh006-cohort.sql
 
---> CODESET chronic-pain:1 rheumatoid-arthritis:1 osteoarthritis:1 back-problems:2 neck-problems:1 
---> CODESET post-herpetic-neuralgia:1 ankylosing-spondylitis:1 neuropathic-pain:1 chest-pain:1
---> CODESET psoriatic-arthritis:1 fibromyalgia:1 temporomandibular-pain:1
+-- CODESET chronic-pain:1 rheumatoid-arthritis:1 osteoarthritis:1 back-problems:1 neck-problems:1 neuropathic-pain:1 chest-pain:1
+--> CODESET post-herpetic-neuralgia:1 ankylosing-spondylitis:1 
+-- CODESET psoriatic-arthritis:1 fibromyalgia:1 temporomandibular-pain:1
 
 -- !!NOTE!! : many codes will feature in both the 'chronic pain' code set and the more specific code set, aned therefore feature twice in the final table.
 

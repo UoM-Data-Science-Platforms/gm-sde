@@ -122,117 +122,12 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Reusable queries</h2>
 <p>This project required the following reusable queries:</p>
 <ul>
-<li>GET practice and ccg for each patient</li>
-<li>CCG lookup table</li>
-<li>Index Multiple Deprivation</li>
-<li>Lower level super output area</li>
-<li>Sex</li>
 <li>Classify secondary admissions</li>
 <li>Secondary admissions and length of stay</li>
 <li>Secondary discharges</li>
-<li>Define Cohort for LH006: patients that had a dementia diagnosis</li>
-<li>Year, month, week, and day of birth</li>
-<li>Create table of patients who are registered with a GM GP</li>
+<li>Define Cohort for LH006: patients that had multiple opioid prescriptions</li>
 </ul>
 <p>Further details for each query can be found below.</p>
-<h3>GET practice and ccg for each patient</h3>
-<p>For each patient to get the practice id that they are registered to, and the CCG name that the practice belongs to.</p>
-<p><em>Input</em></p>
-<pre><code>Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>Two temp tables as follows:
- #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
-	- FK_Patient_Link_ID - unique patient id
-	- GPPracticeCode - the nationally recognised practice id for the patient
- #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
-	- FK_Patient_Link_ID - unique patient id
-	- GPPracticeCode - the nationally recognised practice id for the patient
-	- CCG - the name of the patient's CCG
-</code></pre>
-<p><em>File</em>: <code>query-patient-practice-and-ccg.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-practice-and-ccg.sql">https://github.com/rw251/.../query-patient-practice-and-ccg.sql</a></p>
-<hr>
-<h3>CCG lookup table</h3>
-<p>To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name. This table can be used in other queries when the output is required to be a ccg name rather than an id.</p>
-<p><em>Input</em></p>
-<pre><code>No pre-requisites
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #CCGLookup (CcgId, CcgName)
- 	- CcgId - Nationally recognised ccg id
-	- CcgName - Bolton, Stockport etc..
-</code></pre>
-<p><em>File</em>: <code>query-ccg-lookup.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql">https://github.com/rw251/.../query-ccg-lookup.sql</a></p>
-<hr>
-<h3>Index Multiple Deprivation</h3>
-<p>To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.</p>
-<p><em>Input</em></p>
-<pre><code>Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
- 	- FK_Patient_Link_ID - unique patient id
-	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
-</code></pre>
-<p><em>File</em>: <code>query-patient-imd.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql">https://github.com/rw251/.../query-patient-imd.sql</a></p>
-<hr>
-<h3>Lower level super output area</h3>
-<p>To get the LSOA for each patient.</p>
-<p><em>Assumptions</em></p>
-<ul>
-<li>Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:</li>
-<li>If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date</li>
-<li>If every LSOA for a paitent is the same, then we use that</li>
-<li>If there is a single most recently updated LSOA in the database then we use that</li>
-<li>Otherwise the patient's LSOA is considered unknown</li>
-</ul>
-<p><em>Input</em></p>
-<pre><code>Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #PatientLSOA (FK_Patient_Link_ID, LSOA)
- 	- FK_Patient_Link_ID - unique patient id
-	- LSOA_Code - nationally recognised LSOA identifier
-</code></pre>
-<p><em>File</em>: <code>query-patient-lsoa.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql">https://github.com/rw251/.../query-patient-lsoa.sql</a></p>
-<hr>
-<h3>Sex</h3>
-<p>To get the Sex for each patient.</p>
-<p><em>Assumptions</em></p>
-<ul>
-<li>Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:</li>
-<li>If the patients has a sex in their primary care data feed we use that as most likely to be up to date</li>
-<li>If every sex for a patient is the same, then we use that</li>
-<li>If there is a single most recently updated sex in the database then we use that</li>
-<li>Otherwise the patient's sex is considered unknown</li>
-</ul>
-<p><em>Input</em></p>
-<pre><code>Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #PatientSex (FK_Patient_Link_ID, Sex)
- 	- FK_Patient_Link_ID - unique patient id
-	- Sex - M/F
-</code></pre>
-<p><em>File</em>: <code>query-patient-sex.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql">https://github.com/rw251/.../query-patient-sex.sql</a></p>
-<hr>
 <h3>Classify secondary admissions</h3>
 <p>To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.</p>
 <p><em>Assumptions</em></p>
@@ -307,73 +202,25 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-get-discharges.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql">https://github.com/rw251/.../query-get-discharges.sql</a></p>
 <hr>
-<h3>Define Cohort for LH006: patients that had a dementia diagnosis</h3>
+<h3>Define Cohort for LH006: patients that had multiple opioid prescriptions</h3>
 <p>To build the cohort of patients needed for LH006. This reduces duplication of code in the template scripts.</p>
 <p><em>Input</em></p>
 <pre><code>none
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>Temp tables as follows:
- #Cohort
- #Patients (reduced to cohort only)
+ Cohort
 </code></pre>
 <p><em>File</em>: <code>query-build-lh006-cohort.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-lh006-cohort.sql">https://github.com/rw251/.../query-build-lh006-cohort.sql</a></p>
-<hr>
-<h3>Year, month, week, and day of birth</h3>
-<p>To get the date of birth for each patient, in various formats.</p>
-<p><em>Assumptions</em></p>
-<ul>
-<li>Patient data is obtained from multiple sources. Where patients have multiple DateOfBirths we determine the DateOfBirth as follows:</li>
-<li>If the patients has a DateOfBirth in their primary care data feed we use that as most likely to be up to date</li>
-<li>If every DateOfBirth for a patient is the same, then we use that</li>
-<li>If there is a single most recently updated DateOfBirth in the database then we use that</li>
-<li>Otherwise we take the highest DateOfBirth for the patient that is not in the future</li>
-</ul>
-<p><em>Input</em></p>
-<pre><code>Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #PatientWeekOfBirth (FK_Patient_Link_ID, WeekOfBirth)
- 	- FK_Patient_Link_ID - unique patient id
-  - DateOfBirthPID (yyyy-mm-dd)  **not to be provided to study teams
-  - DayOfBirth (dd) (1 to 31)
-	- WeekOfBirth (ww) (1 to 52)
-  - MonthOfBirth (mm) (1 to 12)
-  - YearOfBirth (yyyy)
-</code></pre>
-<p><em>File</em>: <code>query-patient-date-of-birth.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-date-of-birth.sql">https://github.com/rw251/.../query-patient-date-of-birth.sql</a></p>
-<hr>
-<h3>Create table of patients who are registered with a GM GP</h3>
-<p>undefined</p>
-<p><em>Input</em></p>
-<pre><code>undefined
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>undefined
-</code></pre>
-<p><em>File</em>: <code>query-get-possible-patients.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql">https://github.com/rw251/.../query-get-possible-patients.sql</a></p>
 <h2>Clinical code sets</h2>
 <p>This project required the following clinical code sets:</p>
 <ul>
 <li>cancer v1</li>
 <li>chronic-pain v1</li>
-<li>opioid-analgesics v1</li>
-<li>rheumatoid-arthritis v1</li>
-<li>osteoarthritis v1</li>
-<li>back-problems v2</li>
-<li>neck-problems v1</li>
+<li>opioids v1</li>
 <li>post-herpetic-neuralgia v1</li>
 <li>ankylosing-spondylitis v1</li>
-<li>neuropathic-pain v1</li>
-<li>chest-pain v1</li>
-<li>psoriatic-arthritis v1</li>
-<li>fibromyalgia v1</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
 <h3>Cancer</h3>
@@ -519,10 +366,11 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tr>
 </tbody>
 </table>
-<h3>Opioid analgesics</h3>
-<p>A prescription of any opioid analgesics.</p>
+<h3>Opioids, excluding those used for treating opioid dependence</h3>
+<p>Any prescription of an opioid, excluding those commonly used to treat opioid dependence, such as methadone.</p>
+<p>This code set was created from NHS ref sets: &quot;Opioid medications excluding opioids for treating opioid dependence simple reference set&quot;</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range from the code is <code>15.7% - 19.1%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>34% - 36.7%</code> suggests this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -535,226 +383,33 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2022-07-05</td>
+<td>2024-06-14</td>
 <td>EMIS</td>
-<td>2664831</td>
-<td style="text-align:right">410584 (15.4%)</td>
-<td style="text-align:right">429274 (16.1%)</td>
+<td>2533061</td>
+<td style="text-align:right">861608 (34%)</td>
+<td style="text-align:right">861608 (34%)</td>
 </tr>
 <tr>
-<td>2022-07-05</td>
+<td>2024-06-14</td>
 <td>TPP</td>
-<td>212907</td>
-<td style="text-align:right">39459 (18.5%)</td>
-<td style="text-align:right">40687 (19.1%)</td>
+<td>201812</td>
+<td style="text-align:right">74130 (36.7%)</td>
+<td style="text-align:right">74130 (36.7%)</td>
 </tr>
 <tr>
-<td>2022-07-05</td>
+<td>2024-06-14</td>
 <td>Vision</td>
-<td>343146</td>
-<td style="text-align:right">52274 (15.2%)</td>
-<td style="text-align:right">53983 (15.7%)</td>
-</tr>
-</tbody>
-</table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/opioid-analgesics/1">https://github.com/rw251/.../medications/opioid-analgesics/1</a></p>
-<h3>Rheumatoid arthritis</h3>
-<p>Any code indicating a diagnosis of rheumatoid arthritis.</p>
-<ul>
-<li>Does not include lupus</li>
-<li>Does not include ankylosing spondylitis</li>
-</ul>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.55% - 0.66%</code> suggests that this code set is well defined.</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2022-05-16</td>
-<td>EMIS</td>
-<td>2662570</td>
-<td style="text-align:right">15603 (0.59%)</td>
-<td style="text-align:right">15603 (0.59%)</td>
-</tr>
-<tr>
-<td>2022-05-16</td>
-<td>TPP</td>
-<td>212696</td>
-<td style="text-align:right">1130 (0.53%)</td>
-<td style="text-align:right">1137 (0.53%)</td>
-</tr>
-<tr>
-<td>2022-05-16</td>
-<td>Vision</td>
-<td>342344</td>
-<td style="text-align:right">2126 (0.62%)</td>
-<td style="text-align:right">2126 (0.62%)</td>
-</tr>
-<tr>
-<td>2024-01-23</td>
-<td>EMIS</td>
-<td>2520311</td>
-<td style="text-align:right">17971 (0.713%)</td>
-<td style="text-align:right">13940 (0.553%)</td>
-</tr>
-<tr>
-<td>2024-01-23</td>
-<td>TPP</td>
-<td>201513</td>
-<td style="text-align:right">1591 (0.79%)</td>
-<td style="text-align:right">1337 (0.663%)</td>
-</tr>
-<tr>
-<td>2024-01-23</td>
-<td>Vision</td>
-<td>334747</td>
-<td style="text-align:right">2488 (0.743%)</td>
-<td style="text-align:right">1909 (0.57%)</td>
+<td>335579</td>
+<td style="text-align:right">117636 (35.1%)</td>
+<td style="text-align:right">117636 (35.1%)</td>
 </tr>
 </tbody>
 </table>
 <h4>Audit log</h4>
 <ul>
-<li>Find_missing_codes last run 2024-01-23</li>
+<li>Find_missing_codes last run 2024-06-14</li>
 </ul>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/rheumatoid-arthritis/1">https://github.com/rw251/.../conditions/rheumatoid-arthritis/1</a></p>
-<h3>Osteoarthritis</h3>
-<p>Code set for patients with a code related to osteoarthritis</p>
-<p>Developed from https://www.opencodelists.org/codelist/opensafely/osteoarthritis/2020-06-04/#full-list</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system,
-we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-The prevalence range <code>% - %</code> suggests that this code set is well defined.</p>
-<p>UPDATE:</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th>Patients from ID</th>
-<th>Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2022-04-11</td>
-<td>EMIS</td>
-<td>2660237</td>
-<td>1500 (0.06%)</td>
-<td>1500 (0.06%)</td>
-</tr>
-<tr>
-<td>2022-04-11</td>
-<td>TPP</td>
-<td>212647</td>
-<td>212 (0.10%)</td>
-<td>212 (0.10%)</td>
-</tr>
-<tr>
-<td>2022-04-11</td>
-<td>Vision</td>
-<td>341912</td>
-<td>169 (0.05%)</td>
-<td>169 (0.05%)</td>
-</tr>
-</tbody>
-</table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/osteoarthritis/1">https://github.com/rw251/.../conditions/osteoarthritis/1</a></p>
-<h3>Back problems (pain only)</h3>
-<p>Read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/6/codelist/back-pain/</p>
-<p>this code set is for back pain only - for broader back problems, see version 1.</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
-<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>27.9% - 29.6%</code> suggests this code set is well defined.</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2024-04-10</td>
-<td>EMIS</td>
-<td>2528955</td>
-<td style="text-align:right">705600 (27.9%)</td>
-<td style="text-align:right">705078 (27.9%)</td>
-</tr>
-<tr>
-<td>2024-04-10</td>
-<td>TPP</td>
-<td>201791</td>
-<td style="text-align:right">59365 (29.4%)</td>
-<td style="text-align:right">59364 (29.4%)</td>
-</tr>
-<tr>
-<td>2024-04-10</td>
-<td>Vision</td>
-<td>335318</td>
-<td style="text-align:right">99170 (29.6%)</td>
-<td style="text-align:right">99277 (29.6%)</td>
-</tr>
-</tbody>
-</table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/back-problems/2">https://github.com/rw251/.../conditions/back-problems/2</a></p>
-<h3>Neck problems</h3>
-<p>Any code indicating neck problems. SNOMED codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/174/codelist/res174-neck-diagnoses/</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>14.4% - 16%</code> suggests that this code set is well defined.</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2024-04-10</td>
-<td>EMIS</td>
-<td>2528955</td>
-<td style="text-align:right">376021 (14.9%)</td>
-<td style="text-align:right">375153 (14.8%)</td>
-</tr>
-<tr>
-<td>2024-04-10</td>
-<td>TPP</td>
-<td>201791</td>
-<td style="text-align:right">33444 (16.6%)</td>
-<td style="text-align:right">29081 (14.4%)</td>
-</tr>
-<tr>
-<td>2024-04-10</td>
-<td>Vision</td>
-<td>335318</td>
-<td style="text-align:right">53983 (16.1%)</td>
-<td style="text-align:right">53559 (16%)</td>
-</tr>
-<tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/neck-problems/1">https://github.com/rw251/.../conditions/neck-problems/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-</tr>
-</tbody>
-</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/opioids/1">https://github.com/rw251/.../medications/opioids/1</a></p>
 <h3>Post herpetic neuralgia codes</h3>
 <p>Developed from https://getset.ga with inclusion terms and exclusion terms as below:</p>
 <p>&quot;includeTerms&quot;: [
@@ -851,181 +506,5 @@ The prevalence range <code>% - %</code> suggests that this code set is well defi
 <li>Find_missing_codes last run 2024-01-19</li>
 </ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ankylosing-spondylitis/1">https://github.com/rw251/.../conditions/ankylosing-spondylitis/1</a></p>
-<h3>Neuropathic pain</h3>
-<p>Readcodes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/176/codelist/res176-neuropathic-pain/</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
-<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>9.34% - 10.3%</code> is perhaps too wide to suggest that this code set is well defined.</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2024-04-10</td>
-<td>EMIS</td>
-<td>2528955</td>
-<td style="text-align:right">236155 (9.34%)</td>
-<td style="text-align:right">236110 (9.34%)</td>
-</tr>
-<tr>
-<td>2024-04-10</td>
-<td>TPP</td>
-<td>201791</td>
-<td style="text-align:right">20713 (10.3%)</td>
-<td style="text-align:right">20721 (10.3%)</td>
-</tr>
-<tr>
-<td>2024-04-10</td>
-<td>Vision</td>
-<td>335318</td>
-<td style="text-align:right">32262 (9.62%)</td>
-<td style="text-align:right">32256 (9.62%)</td>
-</tr>
-</tbody>
-</table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/neuropathic-pain/1">https://github.com/rw251/.../conditions/neuropathic-pain/1</a></p>
-<h3>Chest pain</h3>
-<p>Any code indicating chest pain.</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>14.2% - 15.4%</code>  indicates that this code set is well defined.</p>
-<p>update:</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2024-04-10</td>
-<td>EMIS</td>
-<td>2528955</td>
-<td style="text-align:right">376475 (14.9%)</td>
-<td style="text-align:right">376475 (14.9%)</td>
-</tr>
-<tr>
-<td>2024-04-10</td>
-<td>TPP</td>
-<td>201791</td>
-<td style="text-align:right">28648 (14.2%)</td>
-<td style="text-align:right">28648 (14.2%)</td>
-</tr>
-<tr>
-<td>2024-04-10</td>
-<td>Vision</td>
-<td>335318</td>
-<td style="text-align:right">51659 (15.4%)</td>
-<td style="text-align:right">51656 (15.4%)</td>
-</tr>
-<tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chest-pain/1">https://github.com/rw251/.../conditions/chest-pain/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-</tr>
-</tbody>
-</table>
-<h3>Psoriatic arthritis</h3>
-<p>Any code indicating a diagnosis of psoriatic arthritis. Read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/34/codelist/res34-psoriatic_arthritis/</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.19% - 0.23%</code> suggests that this code set is well defined.</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2024-04-10</td>
-<td>EMIS</td>
-<td>2528955</td>
-<td style="text-align:right">4819 (0.191%)</td>
-<td style="text-align:right">4819 (0.191%)</td>
-</tr>
-<tr>
-<td>2024-04-10</td>
-<td>TPP</td>
-<td>201791</td>
-<td style="text-align:right">469 (0.232%)</td>
-<td style="text-align:right">469 (0.232%)</td>
-</tr>
-<tr>
-<td>2024-04-10</td>
-<td>Vision</td>
-<td>335318</td>
-<td style="text-align:right">740 (0.221%)</td>
-<td style="text-align:right">740 (0.221%)</td>
-</tr>
-<tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/psoriatic-arthritis/1">https://github.com/rw251/.../conditions/psoriatic-arthritis/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-</tr>
-</tbody>
-</table>
-<h3>Fibromyalgia</h3>
-<p>This list contains any code indicating fibromyalgia or generalised pain. Read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/176/codelist/res176-fibromyalgia-and-generalized-pain-short/</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>2.19% - 2.76%</code> suggests that this code set is well defined.</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2024-04-11</td>
-<td>EMIS</td>
-<td>2528955</td>
-<td style="text-align:right">69969 (2.77%)</td>
-<td style="text-align:right">69768 (2.76%)</td>
-</tr>
-<tr>
-<td>2024-04-11</td>
-<td>TPP</td>
-<td>201791</td>
-<td style="text-align:right">4422 (2.19%)</td>
-<td style="text-align:right">2850 (1.41%)</td>
-</tr>
-<tr>
-<td>2024-04-11</td>
-<td>Vision</td>
-<td>335318</td>
-<td style="text-align:right">8841 (2.64%)</td>
-<td style="text-align:right">8687 (2.59%)</td>
-</tr>
-<tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/fibromyalgia/1">https://github.com/rw251/.../conditions/fibromyalgia/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-</tr>
-</tbody>
-</table>
 <h1>Clinical code sets</h1>
 <p>All code sets required for this analysis are available here: <a href="https://github.com/rw251/gm-idcr/tree/master/projects/SDE%20Lighthouse%2006%20-%20Chen/clinical-code-sets.csv">https://github.com/rw251/.../SDE Lighthouse 06 - Chen/clinical-code-sets.csv</a>. Individual lists for each concept can also be found by using the links above.</p>
