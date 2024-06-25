@@ -8,12 +8,11 @@ Developed from https://www.opencodelists.org/codelist/opensafely/osteoarthritis/
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, 
 we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-The prevalence range `% - %` suggests that this code set is well defined.
+The prevalence range `9.46% - 11.6%` suggests that this code set is well defined.
 
-UPDATE:
 
 |    Date    | Practice system |  Population | Patients from ID | Patient from code |
 | ---------- | ----------------| ------------| ---------------- | ----------------- |
-| 2022-04-11 |	EMIS	       |   2660237   |	 1500 (0.06%)   |    1500 (0.06%)   |
-| 2022-04-11 |	TPP	           |   212647    |    212 (0.10%)   |     212 (0.10%)   |
-| 2022-04-11 |	Vision	       |   341912    |    169 (0.05%)   |     169 (0.05%)   |
+| 2024-06-25 | EMIS | 2533968 | 265237 (10.5%) | 265148 (10.5%) | 
+| 2024-06-25 | TPP | 201949 | 23984 (11.9%) | 23432 (11.6%) | 
+| 2024-06-25 | Vision | 335813 | 31787 (9.47%) | 31764 (9.46%) | 
