@@ -3,5 +3,4 @@
 ^ESCTRE594987	Referral by pain management nurse
 ^ESCTRE594988	Referral from pain management nurse
 ^ESCTRE595478	Referral to pain management nurse
-^ESCTRE596752	Referral to acute pain service
 ^ESCTRE825971	Referral to pain management clinic

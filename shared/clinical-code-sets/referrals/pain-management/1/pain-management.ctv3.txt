@@ -6,6 +6,4 @@ XaAfZ	Referral to pain management specialist
 XaAh2	Referral to pain management nurse
 XaAZh	Referral from pain management specialist
 XaAZh	Referral by pain management specialist
-XaB4p	Referral to acute pain service
-XaFs5	Referral to rapid access chest pain clinic
 XaYWk	Referral to pain management clinic
