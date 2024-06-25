@@ -1,0 +1,5 @@
+h8K..	BELIMUMAB
+h8K1.	BENLYSTA 120mg powder for concentrate for soln for infusion
+h8K2.	BELIMUMAB 120mg powder for conc for solution for injection
+h8K3.	BENLYSTA 400mg powder for concentrate for soln for infusion
+h8K4.	BELIMUMAB 400mg powder for conc for solution for injection
