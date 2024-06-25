@@ -1,0 +1,8 @@
+^ESCTCA588800	Calcific chronic pancreatitis
+^ESCTCH508775	Chronic pancreatitis due to acute alcohol intoxication
+^ESCTCP508106	CP - Chronic pancreatitis
+^ESCTDR508778	Drug-induced chronic pancreatitis
+^ESCTFA508779	Familial chronic pancreatitis
+^ESCTHE508780	Hereditary chronic pancreatitis
+^ESCTID508776	Idiopathic chronic pancreatitis
+^ESCTOB508777	Obstructive chronic pancreatitis

@@ -1,0 +1,12 @@
+Jyu84	[X]Other chronic pancreatitis
+XaLov	History of chronic pancreatitis
+X308v	Alcohol-induced chronic pancreatitis
+J671.	CP - Chronic pancreatitis
+J671.	Chronic pancreatitis
+Xa7na	Calcific chronic pancreatitis
+X308u	Gallstone chronic pancreatitis
+X308w	Idiopathic chronic pancreatitis
+X308x	Obstructive chronic pancreatitis
+X308y	Drug-induced chronic pancreatitis
+X308z	Familial chronic pancreatitis
+X308z	Hereditary chronic pancreatitis
