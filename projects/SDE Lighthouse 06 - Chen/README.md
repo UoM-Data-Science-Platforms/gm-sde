@@ -154,6 +154,7 @@ This project required the following clinical code sets:
 - opioids v1
 - post-herpetic-neuralgia v1
 - ankylosing-spondylitis v1
+- nsaids v1
 
 Further details for each code set can be found below.
 
@@ -264,6 +265,27 @@ By examining the prevalence of codes (number of patients with the code in their 
 - Find_missing_codes last run 2024-01-19
 
 LINK: [https://github.com/rw251/.../conditions/ankylosing-spondylitis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ankylosing-spondylitis/1)
+
+### Nonsteroidal anti inflammatory drugs (NSAIDs) oral
+
+This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
+
+This code set only includes codes that indicates oral NSAIDs. It does not include codes that indicate cream or suppository NSAIDs.
+
+**NB: This code set is intended to indicate only oral NSAIDs, NOT all NSAIDs. If you require all NSAIDs then this is not the code set for you.**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `46.01% - 50.22%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-02-02 | EMIS            | 2652511    | 1295120 (48.82%) |  1295123 (48.82%) |
+| 2022-02-02 | TPP             | 212213     |  106565 (50.22%) |   106565 (50.22%) |
+| 2022-02-02 | Vision          | 340640     |  156717 (46.01%) |   156717 (46.01%) |
+| 2024-04-26 | EMIS | 2530666 | 1189003 (47%) | 1189004 (47%) | 
+| 2024-04-26 | TPP | 201812 | 109145 (54.1%) | 109145 (54.1%) | 
+| 2024-04-26 | Vision | 335433 | 155663 (46.4%) | 155663 (46.4%) | 
+LINK: [https://github.com/rw251/.../medications/nsaids/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/nsaids/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../SDE Lighthouse 06 - Chen/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/SDE%20Lighthouse%2006%20-%20Chen/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.

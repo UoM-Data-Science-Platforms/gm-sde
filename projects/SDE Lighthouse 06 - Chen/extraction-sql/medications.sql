@@ -653,7 +653,7 @@ WHERE dem.ROWNUM = 1
 ---------------------------------------------------------------------------------------------------------------
 
 
--- codesets already added (from buid-lh006-cohort file): opioids:1 cancer:1  
+-- codesets already added (from buid-lh006-cohort file): opioids:1 cancer:1 chronic-pain:1
 
 -- CODESET nsaids:1 benzodiazepines:1 gabapentinoid:1
 

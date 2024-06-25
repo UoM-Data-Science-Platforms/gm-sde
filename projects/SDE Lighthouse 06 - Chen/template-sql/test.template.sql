@@ -5,10 +5,32 @@
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
 
-
---> CODESET opioids:1
---> CODESET chronic-pain:1
+--> CODESET nsaids:1
  
+-- Deaths 
+ 
+DROP TABLE IF EXISTS Death;
+CREATE TEMPORARY TABLE Death AS
+SELECT 
+    DEATH."GmPseudo",
+    TO_DATE(DEATH."RegisteredDateOfDeath") AS DeathDate
+FROM PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" DEATH;
+
+-- GET LATEST SNAPSHOT OF DEMOGRAPHICS TABLE
+
+DROP TABLE IF EXISTS LatestSnapshotAdults;
+CREATE TEMPORARY TABLE LatestSnapshotAdults AS
+SELECT 
+    p.*
+FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p 
+INNER JOIN (
+    SELECT "GmPseudo", MAX("Snapshot") AS LatestSnapshot
+    FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p 
+    WHERE DATEDIFF(YEAR, TO_DATE("DateOfBirth"), $StudyStartDate) >= 18 -- adults only
+    GROUP BY "GmPseudo"
+    ) t2
+ON t2."GmPseudo" = p."GmPseudo" AND t2.LatestSnapshot = p."Snapshot";
+
 -- FIND ALL ADULT PATIENTS ALIVE AT STUDY START DATE
 
 DROP TABLE IF EXISTS AlivePatientsAtStart;
@@ -21,60 +43,22 @@ LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
 WHERE 
     (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
 
--- 	CHRONIC PAIN PATIENTS
+-- 	Prescriptions
 
-DROP TABLE IF EXISTS ChronicPain;
-CREATE TEMPORARY TABLE ChronicPain AS
-SELECT gp."FK_Patient_ID", "EventDate"
-FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" gp
-WHERE (
-  "FK_Reference_Coding_ID" IN (SELECT FK_Reference_Coding_ID FROM VersionedCodeSets WHERE Concept = 'chronic-pain' AND Version = 1) OR
-  "FK_Reference_SnomedCT_ID" IN (SELECT FK_Reference_SnomedCT_ID FROM VersionedSnomedSets WHERE Concept = 'chronic-pain' AND Version = 1)
-) 
-AND "EventDate" BETWEEN $StudyStartDate and $StudyEndDate ;
-
--- find first chronic pain code in the study period 
-DROP TABLE IF EXISTS FirstPain;
-CREATE TEMPORARY TABLE FirstPain AS
-SELECT 
-	FK_Patient_ID, 
-	MIN(TO_DATE(EventDate)) AS FirstPainCodeDate
-FROM ChronicPain
-GROUP BY FK_Patient_ID;
-
-
-DROP TABLE IF EXISTS OpioidPrescriptions;
-CREATE TEMPORARY TABLE OpioidPrescriptions AS
+DROP TABLE IF EXISTS Prescriptions;
+CREATE TEMPORARY TABLE Prescriptions AS
 SELECT 
 	gp."FK_Patient_ID", 
 	TO_DATE("MedicationDate") AS "MedicationDate", 
 	"Dosage", 
 	"Quantity", 
-	"SuppliedCode",
-	fp.FirstPainCodeDate,
-	Lag("MedicationDate", 1) OVER 
-		(PARTITION BY gp."FK_Patient_ID" ORDER BY "MedicationDate" ASC) AS "PreviousOpioidDate"
+	"SuppliedCode"
 FROM INTERMEDIATE.GP_RECORD."GP_Medications_SecondaryUses" gp
-INNER JOIN FirstPain fp ON fp.FK_Patient_ID = gp."FK_Patient_ID" 
+INNER JOIN VersionedCodeSets vcs ON vcs.FK_Reference_Coding_ID = gp."FK_Reference_Coding_ID" AND Version =1
+INNER JOIN VersionedSnomedSets vss ON vss.FK_Reference_SnomedCT_ID = gp."FK_Reference_SnomedCT_ID" AND Version =1
 WHERE 
-	(
-  "FK_Reference_Coding_ID" IN (SELECT FK_Reference_Coding_ID FROM VersionedCodeSets WHERE Concept = 'opioids' AND Version = 1) OR
-  "FK_Reference_SnomedCT_ID" IN (SELECT FK_Reference_SnomedCT_ID FROM VersionedSnomedSets WHERE Concept = 'opioids' AND Version = 1)
-  	)
-AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM ChronicPain) -- chronic pain patients only 
---AND gp."FK_Patient_ID" NOT IN (SELECT FK_Patient_ID FROM cancer)  -- exclude cancer patients
-AND "MedicationDate" BETWEEN $StudyStartDate and $StudyEndDate;    -- only looking at opioid prescriptions in the study period
-AND gp."MedicationDate" > fp.FirstPainCodeDate                    -- looking at opioid prescriptions after the first chronic pain code
-
--- find all patients that have had two prescriptions within 90 days, and calculate the index date as
--- the first prescription that meets the criteria
-
-DROP TABLE IF EXISTS IndexDates;
-CREATE TEMPORARY TABLE IndexDates AS
-SELECT "FK_Patient_ID", 
-	MIN(TO_DATE("PreviousOpioidDate")) AS IndexDate 
-FROM OpioidPrescriptions
-WHERE DATEDIFF(dd, "PreviousOpioidDate", "MedicationDate") <= 90
-GROUP BY "FK_Patient_ID";
-
+GP."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
+-- vcs.Concept not in ('chronic-pain', 'opioids', 'cancer') AND
+-- vss.Concept not in ('chronic-pain', 'opioids', 'cancer') AND
+"MedicationDate" BETWEEN $StudyStartDate and $StudyEndDate;    -- only looking at prescriptions in the study period
 
