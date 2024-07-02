@@ -1,0 +1,139 @@
+14G2.	H/O: osteoarthritis
+2G26.	O/E - hands - Heberden's nodes
+7P204	Delivery of rehabilitation for osteoarthritis
+F1632	Myelopathy due to spondylosis
+N0...	Arthropathies and related disorders
+N05..	Osteoarthritis and allied disorders
+N050.	Generalised osteoarthritis - OA
+N0500	Generalised osteoarthritis of unspecified site
+N0502	Generalised osteoarthritis of multiple sites
+N0503	Bouchard's nodes with arthropathy
+N0504	Primary generalized osteoarthrosis
+N0506	Erosive osteoarthrosis
+N0507	Heberden's nodes with arthropathy
+N050z	Generalised osteoarthritis NOS
+N051.	Localised, primary osteoarthritis
+N0510	Localised, primary osteoarthritis of unspecified site
+N0511	Localised, primary osteoarthritis of the shoulder region
+N0512	Localised, primary osteoarthritis of the upper arm
+N0513	Localised, primary osteoarthritis of the forearm
+N0514	Localised, primary osteoarthritis of the hand
+N0515	Localised, primary osteoarthritis of the pelvic region and thigh
+N0516	Localised, primary osteoarthritis of the lower leg
+N0517	Localised, primary osteoarthritis of the ankle and foot
+N0518	Localised, primary osteoarthritis of other specified site
+N0519	Primary coxarthrosis, bilateral
+N051D	Localised, primary osteoarthritis of the wrist
+N051E	Localised, primary osteoarthritis of toe
+N051F	Localised, primary osteoarthritis of elbow
+N051G	Osteoarthritis of spinal facet joint
+N051z	Localised, primary osteoarthritis NOS
+N052.	Localised, secondary osteoarthritis
+N0520	Localised, secondary osteoarthritis of unspecified site
+N0521	Localised, secondary osteoarthritis of the shoulder region
+N0522	Localised, secondary osteoarthritis of the upper arm
+N0523	Localised, secondary osteoarthritis of the forearm
+N0524	Localised, secondary osteoarthritis of the hand
+N0526	Localised, secondary osteoarthritis of the lower leg
+N0527	Localised, secondary osteoarthritis of the ankle and foot
+N0528	Localised, secondary osteoarthritis of other specified site
+N0529	Post-traumatic coxarthrosis, bilateral
+N052z	Localised, secondary osteoarthritis NOS
+N053.	Localised osteoarthritis, unspecified
+N0530	Localised osteoarthritis, unspecified, of unspecified site
+N0531	Localised osteoarthritis, unspecified, of the shoulder region
+N0532	Localised osteoarthritis, unspecified, of the upper arm
+N0533	Localised osteoarthritis, unspecified, of the forearm
+N0534	Localised osteoarthritis, unspecified, of the hand
+N0537	Localised osteoarthritis, unspecified, of the ankle and foot
+N0538	Localised osteoarthritis, unspecified, of other specified site
+N0539	Arthrosis of first carpometacarpal joint, unspecified
+N053z	Localised osteoarthritis, unspecified, NOS
+N054.	Oligoarticular osteoarthritis, unspecified
+N0540	Oligoarticular osteoarthritis, unspecified, of unspecified sites
+N0541	Oligoarticular osteoarthritis, unspecified, of the shoulder region
+N0542	Oligoarticular osteoarthritis, unspecified, of upper arm
+N0543	Oligoarticular osteoarthritis, unspecified, of forearm
+N0544	Oligoarticular osteoarthritis, unspecified, of hand
+N0545	Oligoarticular osteoarthritis, unspecified, of the pelvic region and thigh
+N0546	Oligoarticular osteoarthritis, unspecified, of lower leg
+N0547	Oligoarticular osteoarthritis, unspecified, of ankle and foot
+N0548	Oligoarticular osteoarthritis, unspecified, of other specified sites
+N0549	Oligoarticular osteoarthritis, unspecified, of multiple sites
+N054z	Osteoarthritis of more than one site, unspecified, NOS
+N05z.	Osteoarthritis NOS
+N05z0	Osteoarthritis NOS, of unspecified site
+N05z1	Osteoarthritis NOS, of shoulder region
+N05z8	Osteoarthritis NOS, other specified site
+N05z9	Osteoarthritis NOS, of shoulder
+N05zA	Osteoarthritis NOS, of sternoclavicular joint
+N05zB	Osteoarthritis NOS, of acromioclavicular joint
+N05zC	Osteoarthritis NOS, of elbow
+N05zD	Osteoarthritis NOS, of distal radio-ulnar joint
+N05zE	Osteoarthritis NOS, of wrist
+N05zF	Osteoarthritis NOS, of metacarpophalangeal joint
+N05zG	Osteoarthritis NOS, of proximal interphalangeal joint of finger
+N05zH	Osteoarthritis NOS, of distal interphalangeal joint of finger
+N05zJ	Osteoarthritis NOS, of hip
+N05zK	Osteoarthritis NOS, of sacro-iliac joint
+N05zL	Osteoarthritis NOS, of knee
+N05zM	Osteoarthritis NOS, of tibio-fibular joint
+N05zN	Osteoarthritis NOS, of ankle
+N05zP	Osteoarthritis NOS, of subtalar joint
+N05zQ	Osteoarthritis NOS, of talonavicular joint
+N05zR	Osteoarthritis NOS, of other tarsal joint
+N05zS	Osteoarthritis NOS, of 1st metatarsophalangeal joint
+N05zT	Osteoarthritis NOS, of lesser metatarsophalangeal joint
+N05zU	Osteoarthritis NOS, of interphalangeal joint of toe
+N05zz	Osteoarthritis NOS
+N102.	Sacroiliitis NEC
+N11..	Spondylosis and allied disorders
+N1100	Single-level cervical spondylosis without myelopathy
+N1101	Two-level cervical spondylosis without myelopathy
+N1102	Multiple-level cervical spondylosis without myelopathy
+N1110	Single-level cervical spondylosis with myelopathy
+N1111	Two-level cervical spondylosis with myelopathy
+N1112	Multiple-level cervical spondylosis with myelopathy
+N1120	Single-level thoracic spondylosis without myelopathy
+N1121	Two-level thoracic spondylosis without myelopathy
+N1122	Multiple-level thoracic spondylosis without myelopathy
+N1123	Dorsal spondylosis without myelopathy
+N113.	Thoracic spondylosis with myelopathy
+N1130	Single-level thoracic spondylosis with myelopathy
+N1131	Two-level thoracic spondylosis with myelopathy
+N1132	Multiple-level thoracic spondylosis with myelopathy
+N1140	Single-level lumbosacral spondylosis without myelopathy
+N1141	Two-level lumbosacral spondylosis without myelopathy
+N1142	Multiple-level lumbosacral spondylosis without myelopathy
+N115.	Lumbosacral spondylosis with myelopathy
+N1150	Single-level lumbosacral spondylosis with myelopathy
+N1151	Two-level lumbosacral spondylosis with myelopathy
+N1152	Multiple-level lumbosacral spondylosis with myelopathy
+N119.	Cervical spondylosis with radiculopathy
+N1190	Single-level cervical spondylosis with radiculopathy
+N1191	Two-level cervical spondylosis with radiculopathy
+N1192	Multiple-level cervical spondylosis with radiculopathy
+N11A.	Cervical spondylosis with vascular compression
+N11B.	Thoracic spondylosis with radiculopathy
+N11B0	Single-level thoracic spondylosis with radiculopathy
+N11B1	Two-level thoracic spondylosis with radiculopathy
+N11B2	Multiple-level thoracic spondylosis with radiculopathy
+N11C.	Lumbosacral spondylosis with radiculopathy
+N11C0	Single-level lumbosacral spondylosis with radiculopathy
+N11C1	Two-level lumbosacral spondylosis with radiculopathy
+N11C2	Multiple-level lumbosacral spondylosis with radiculopathy
+N11D.	Osteoarthritis of spine
+N11D0	Osteoarthritis of cervical spine
+N11D1	Osteoarthritis of thoracic spine
+N11D2	Osteoarthritis of lumbar spine
+N11D3	Osteoarthritis of spine NOS
+N11E.	Cervical spondylosis
+N11y.	Other spondyloses and allied disorders
+N11z.	Spondylosis NOS
+N11z0	Spondylosis without myelopathy, NOS
+N11z1	Spondylosis with myelopathy, NOS
+N11zz	Spondylosis NOS
+N22z.	Synovial, tendon or bursa disorder NOS
+Nyu62	[X]Other spondylosis with myelopathy
+Nyu63	[X]Other spondylosis with radiculopathy
+Nyu64	[X]Other spondylosis

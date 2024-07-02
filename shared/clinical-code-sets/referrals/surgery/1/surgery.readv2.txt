@@ -1,0 +1,13 @@
+8H4l.	Referral to general surgery special interest general practitioner
+8H4m.	Referral to minor surgery special interest general practitioner
+8H5A.	Referred for oral surgery
+8HHS.	Referral for minor surgery
+8HJI.	Plastic surgery self-referral
+8HkM.	Referral to hepatobiliary and pancreatic surgery service
+8HlJ2	Internal practice referral for minor surgery
+8Hlv.	Referral for pre-bariatric surgery assessment
+8Hm2.	Referral to minor surgery clinical assessment service
+8Ho0.	Referral to dental surgery service
+8Ho4.	Referral to oral surgery service
+8T01.	Referral to podiatric surgery service
+8T0V.	Referral to hand surgery service

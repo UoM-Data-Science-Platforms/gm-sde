@@ -1,0 +1,3 @@
+5771000119106	Phantom limb syndrome with pain (disorder)
+711057003	Phantom pain following amputation of lower limb (disorder)
+711058008	Phantom pain following amputation of upper limb (disorder)

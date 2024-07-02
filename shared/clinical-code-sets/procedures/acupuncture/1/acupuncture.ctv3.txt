@@ -1,0 +1,86 @@
+X404t	Acupuncture for induction of labour
+X90Hr	Acupuncture needle
+XM0Rw	Acupuncture points
+XM0Rx	Lung acupuncture points
+XM0S9	Large intestine acupuncture points
+XM0SU	Stomach acupuncture points
+XM0TE	Spleen acupuncture points
+XM0Ta	Heart acupuncture points
+XM0Tk	Small intestine acupuncture points
+XM0U4	Bladder acupuncture points
+XM0V8	Kidney acupuncture points
+XM0Va	Pericardium acupuncture points
+XM0Vk	Triple energiser acupuncture points
+XM0W8	Gallbladder acupuncture points
+XM0Wq	Liver acupuncture points
+XM0X5	Governing vessel acupuncture points
+XM0XY	Conception vessel acupuncture points
+XM0YU	Spinal acupuncture points
+XM0YV	Spinal acupuncture C1
+XM0YW	Spinal acupuncture C2
+XM0YX	Spinal acupuncture C3
+XM0YY	Spinal acupuncture C4
+XM0YZ	Spinal acupuncture C5
+XM0Ya	Spinal acupuncture C6
+XM0Yb	Spinal acupuncture C7
+XM0Yc	Spinal acupuncture C8
+XM0Yd	Spinal acupuncture T1
+XM0Ye	Spinal acupuncture T2
+XM0Yf	Spinal acupuncture T3
+XM0Yg	Spinal acupuncture T4
+XM0Yh	Spinal acupuncture T5
+XM0Yi	Spinal acupuncture T6
+XM0Yj	Spinal acupuncture T7
+XM0Yk	Spinal acupuncture T8
+XM0Yl	Spinal acupuncture T9
+XM0Ym	Spinal acupuncture T10
+XM0Yn	Spinal acupuncture T11
+XM0Yo	Spinal acupuncture T12
+XM0Yp	Spinal acupuncture L1
+XM0Yq	Spinal acupuncture L2
+XM0Yr	Spinal acupuncture L3
+XM0Ys	Spinal acupuncture L4
+XM0Yt	Spinal acupuncture L5
+XM0Yu	Spinal acupuncture S1
+XM0Yv	Spinal acupuncture S2
+XM0Yw	Spinal acupuncture S3
+XM0Yx	Spinal acupuncture S4
+856..	ACP - Acupuncture
+8H7Y.	Refer to acupuncture
+8561.	Acupuncture for anaesthesia
+XaLmX	Electroacupuncture
+XaMlu	Acupuncture NEC
+XaaXX	Internal practice referral for acupuncture
+7M0N0	Acupuncture of organ NOC
+X00KS	Acupuncture and allied techniques
+856..	Acupuncture
+8562.	Acupuncture for analgesia
+856Z.	Acupuncture NOS
+X00KT	Dry needle acupuncture
+X00KZ	Laser acupuncture
+X00Kg	Electroacupuncture after Voll
+X00Kh	VEGA electroacupuncture therapy
+X00Kk	Acupuncture procedures
+X00Kl	Insertion of acupuncture needle
+X00Km	Stimulation of acupuncture needle
+X00Kn	Manual stimulation of acupuncture needle
+X00Ko	Electrical stimulation of acupuncture needle
+X00Kp	Thermal stimulation of acupuncture needle
+X00Kq	Removal of acupuncture needle
+X00Kr	Infiltration of acupuncture point
+X00Ks	Application of laser acupuncture
+X00Ky	Acupuncture-like transcutaneous electrical nerve stimulation
+XaQyE	Internal practice referral
+XM0SD	LI4
+XM0T4	ST36
+XM0Th	HT7
+XM0TK	SP6
+XM0Tn	SI3
+XM0Tv	SI11
+XM0Uz	BL57
+XM0Vg	PC6
+XM0Wb	GB30
+XM0Wl	GB40
+XM0Wt	LR3
+XM0Yz	Chinese auricular points
+XM0Zv	Chinese scalp

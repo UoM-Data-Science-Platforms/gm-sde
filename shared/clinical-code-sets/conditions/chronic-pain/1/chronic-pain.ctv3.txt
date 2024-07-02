@@ -1060,6 +1060,7 @@ Syu1F	[X]Other specified injuries of neck
 Syu2B	[X]Other and unspecified injuries of thoracic spinal cord
 Syu36	[X]Sprain and strain of other and unspecified parts of lumbar spine and pelvis
 Syu38	[X]Other injury of lumbar spinal cord
+SyuK.	[X]Complications of surgical and medical care, not elsewhere classified
 SyuK1	[X]Other complications following infusion, transfusion and therapeutic injection
 SyuK2	[X]Other complications of procedures, not elsewhere classified
 SyuK3	[X]Mechanical complication of other vascular grafts

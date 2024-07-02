@@ -1,0 +1,904 @@
+^ESCT1175192	Gabapentin 400mg capsules (Accord Healthcare Ltd)
+^ESCT1175194	Gabapentin 300mg capsules (Accord Healthcare Ltd)
+^ESCT1175196	Gabapentin 100mg capsules (Accord Healthcare Ltd)
+^ESCT1176531	Pregabalin 20mg/ml oral solution sugar free (Aspire Pharma Ltd)
+^ESCT1177207	Gabapentin 100mg capsules (Aurobindo Pharma Ltd)
+^ESCT1177209	Gabapentin 300mg capsules (Aurobindo Pharma Ltd)
+^ESCT1177211	Gabapentin 400mg capsules (Aurobindo Pharma Ltd)
+^ESCT1177316	Pregabalin 25mg capsules (Milpharm Ltd)
+^ESCT1177319	Pregabalin 50mg capsules (Milpharm Ltd)
+^ESCT1177321	Pregabalin 75mg capsules (Milpharm Ltd)
+^ESCT1177323	Pregabalin 100mg capsules (Milpharm Ltd)
+^ESCT1177325	Pregabalin 150mg capsules (Milpharm Ltd)
+^ESCT1177327	Pregabalin 200mg capsules (Milpharm Ltd)
+^ESCT1177329	Pregabalin 225mg capsules (Milpharm Ltd)
+^ESCT1177331	Pregabalin 300mg capsules (Milpharm Ltd)
+^ESCT1178207	Product containing only gabapentin 100 mg/1 each oral capsule
+^ESCT1178208	Product containing only gabapentin 300 mg/1 each oral capsule
+^ESCT1178905	Product containing only pregabalin 100 mg/1 each oral capsule
+^ESCT1178906	Product containing only pregabalin 150 mg/1 each oral capsule
+^ESCT1178907	Product containing only pregabalin 50 mg/1 each oral capsule
+^ESCT1178908	Product containing only pregabalin 75 mg/1 each oral capsule
+^ESCT1179900	Gabapentin 300mg capsules (Mylan)
+^ESCT1180933	Pregabalin 300mg capsules (Mylan)
+^ESCT1180936	Pregabalin 25mg capsules (Mylan)
+^ESCT1181149	Product containing only gabapentin 400 mg/1 each oral capsule
+^ESCT1181985	Product containing only gabapentin 800 mg/1 each oral tablet
+^ESCT1182492	Product containing only pregabalin 200 mg/1 each oral capsule
+^ESCT1182493	Product containing only pregabalin 25 mg/1 each oral capsule
+^ESCT1182838	Product containing only pregabalin 225 mg/1 each oral capsule
+^ESCT1184984	Pregabalin 200mg capsules (Mylan)
+^ESCT1184985	Pregabalin 150mg capsules (Mylan)
+^ESCT1185999	Gabapentin 100mg capsules (Mylan)
+^ESCT1187018	Pregabalin 75mg capsules (Mylan)
+^ESCT1187019	Pregabalin 50mg capsules (Mylan)
+^ESCT1187321	Product containing only gabapentin 600 mg/1 each oral tablet
+^ESCT1188346	Product containing only pregabalin 300 mg/1 each oral capsule
+^ESCT1189297	Gabapentin 400mg capsules (Mylan)
+^ESCT1190142	Pregabalin 225mg capsules (Mylan)
+^ESCT1190144	Pregabalin 100mg capsules (Mylan)
+^ESCT1194637	Pregabalin 20mg/ml oral solution sugar free (Actavis UK Ltd)
+^ESCT1197711	Gabapentin 50mg/ml oral solution sugar free (Teva UK Ltd)
+^ESCT1199373	Gabapentin 100mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199375	Gabapentin 300mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199377	Gabapentin 400mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199383	Pregabalin 25mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199387	Pregabalin 50mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199390	Pregabalin 75mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199392	Pregabalin 100mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199394	Pregabalin 150mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199396	Pregabalin 200mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199398	Pregabalin 225mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199400	Pregabalin 300mg capsules (Tillomed Laboratories Ltd)
+^ESCT1214127	Pregabalin 20mg/ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCT1215709	Gabapentin 600mg tablets and Gabapentin 300mg capsules
+^ESCT1223942	Product containing precisely gabapentin 100 milligram/1 each conventional release oral capsule
+^ESCT1223943	Gabapentin 100 mg oral capsule
+^ESCT1223944	Gabapentin 300 mg oral capsule
+^ESCT1223945	Product containing precisely gabapentin 300 milligram/1 each conventional release oral capsule
+^ESCT1223946	Product containing precisely gabapentin 400 milligram/1 each conventional release oral capsule
+^ESCT1223947	Gabapentin 400 mg oral capsule
+^ESCT1223948	Product containing precisely gabapentin 600 milligram/1 each conventional release oral tablet
+^ESCT1223949	Product containing precisely gabapentin 800 milligram/1 each conventional release oral tablet
+^ESCT1230824	Gabapentin 50 mg/mL oral solution
+^ESCT1230825	Product containing precisely gabapentin 50 milligram/1 milliliter conventional release oral solution
+^ESCT1232417	Pregabalin 100 mg oral capsule
+^ESCT1232418	Product containing precisely pregabalin 100 milligram/1 each conventional release oral capsule
+^ESCT1232419	Product containing precisely pregabalin 150 milligram/1 each conventional release oral capsule
+^ESCT1232420	Pregabalin 150 mg oral capsule
+^ESCT1232421	Pregabalin 200 mg oral capsule
+^ESCT1232422	Product containing precisely pregabalin 200 milligram/1 each conventional release oral capsule
+^ESCT1232423	Product containing precisely pregabalin 25 milligram/1 each conventional release oral capsule
+^ESCT1232424	Pregabalin 25 mg oral capsule
+^ESCT1232425	Product containing precisely pregabalin 300 milligram/1 each conventional release oral capsule
+^ESCT1232426	Pregabalin 300 mg oral capsule
+^ESCT1232427	Pregabalin 50 mg oral capsule
+^ESCT1232428	Product containing precisely pregabalin 50 milligram/1 each conventional release oral capsule
+^ESCT1232429	Pregabalin 75 mg oral capsule
+^ESCT1232430	Product containing precisely pregabalin 75 milligram/1 each conventional release oral capsule
+^ESCT1233327	Pregabalin 225 mg oral capsule
+^ESCT1233328	Product containing precisely pregabalin 225 milligram/1 each conventional release oral capsule
+^ESCT1249566	Pregabalin 25mg capsules (Consilient Health Ltd)
+^ESCT1249581	Pregabalin 50mg capsules (Consilient Health Ltd)
+^ESCT1249585	Pregabalin 75mg capsules (Consilient Health Ltd)
+^ESCT1249589	Pregabalin 100mg capsules (Consilient Health Ltd)
+^ESCT1249592	Pregabalin 150mg capsules (Consilient Health Ltd)
+^ESCT1249595	Pregabalin 200mg capsules (Consilient Health Ltd)
+^ESCT1249597	Pregabalin 225mg capsules (Consilient Health Ltd)
+^ESCT1249599	Pregabalin 300mg capsules (Consilient Health Ltd)
+^ESCT1250900	Pregabalin 20mg/ml oral solution sugar free (Advanz Pharma)
+^ESCT1258000	Pregabalin 20mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCT1259061	Lyrica 50mg capsules (Originalis B.V.)
+^ESCT1259064	Lyrica 75mg capsules (Originalis B.V.)
+^ESCT1259068	Lyrica 100mg capsules (Originalis B.V.)
+^ESCT1259072	Lyrica 150mg capsules (Originalis B.V.)
+^ESCT1259074	Lyrica 300mg capsules (Originalis B.V.)
+^ESCT1259530	Pregabalin 25mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259536	Pregabalin 50mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259539	Pregabalin 75mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259543	Pregabalin 100mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259548	Pregabalin 150mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259550	Pregabalin 200mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259553	Pregabalin 225mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259565	Pregabalin 300mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259784	Gabapentin 50mg/ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCT1264239	Gabapentin 100mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264240	Gabapentin 300mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264243	Gabapentin 400mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264246	Gabapentin 600mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264645	Pregabalin 25mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264652	Pregabalin 50mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264654	Pregabalin 75mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264658	Pregabalin 100mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264662	Pregabalin 150mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264666	Pregabalin 200mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264670	Pregabalin 225mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264674	Pregabalin 300mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264678	Pregabalin 20mg/ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1266083	Pregabalin 300mg capsules (Sciecure Pharma Ltd)
+^ESCT1266085	Pregabalin 225mg capsules (Sciecure Pharma Ltd)
+^ESCT1266087	Pregabalin 200mg capsules (Sciecure Pharma Ltd)
+^ESCT1266089	Pregabalin 150mg capsules (Sciecure Pharma Ltd)
+^ESCT1266091	Pregabalin 100mg capsules (Sciecure Pharma Ltd)
+^ESCT1266093	Pregabalin 75mg capsules (Sciecure Pharma Ltd)
+^ESCT1266095	Pregabalin 50mg capsules (Sciecure Pharma Ltd)
+^ESCT1266097	Pregabalin 25mg capsules (Sciecure Pharma Ltd)
+^ESCT1266368	Pregabalin 20mg/ml oral solution sugar free (Genus Pharmaceuticals Ltd)
+^ESCT1266412	Pregabalin 25mg capsules (Creo Pharma Ltd)
+^ESCT1266425	Pregabalin 50mg capsules (Creo Pharma Ltd)
+^ESCT1266427	Pregabalin 75mg capsules (Creo Pharma Ltd)
+^ESCT1266429	Pregabalin 100mg capsules (Creo Pharma Ltd)
+^ESCT1266434	Pregabalin 150mg capsules (Creo Pharma Ltd)
+^ESCT1266445	Pregabalin 200mg capsules (Creo Pharma Ltd)
+^ESCT1266452	Pregabalin 225mg capsules (Creo Pharma Ltd)
+^ESCT1266456	Pregabalin 300mg capsules (Creo Pharma Ltd)
+^ESCT1267810	Gabapentin 100mg capsules (Noumed Life Sciences Ltd)
+^ESCT1267812	Gabapentin 300mg capsules (Noumed Life Sciences Ltd)
+^ESCT1267814	Gabapentin 400mg capsules (Noumed Life Sciences Ltd)
+^ESCT1267897	Lyrica 100mg capsules (CST Pharma Ltd)
+^ESCT1267900	Lyrica 150mg capsules (CST Pharma Ltd)
+^ESCT1267902	Lyrica 200mg capsules (CST Pharma Ltd)
+^ESCT1267904	Lyrica 25mg capsules (CST Pharma Ltd)
+^ESCT1267908	Lyrica 50mg capsules (CST Pharma Ltd)
+^ESCT1267910	Lyrica 75mg capsules (CST Pharma Ltd)
+^ESCT1278919	Lecaent 200mg capsules (Accord Healthcare Ltd)
+^ESCT1278921	Lecaent 225mg capsules (Accord Healthcare Ltd)
+^ESCT1279399	Pregabalin 50mg capsules (Ranbaxy (UK) Ltd)
+^ESCT1279402	Pregabalin 75mg capsules (Ranbaxy (UK) Ltd)
+^ESCT1279404	Pregabalin 100mg capsules (Ranbaxy (UK) Ltd)
+^ESCT1279406	Pregabalin 150mg capsules (Ranbaxy (UK) Ltd)
+^ESCT1280149	Lecaent 25mg capsules (Accord Healthcare Ltd)
+^ESCT1280152	Lecaent 50mg capsules (Accord Healthcare Ltd)
+^ESCT1280154	Lecaent 100mg capsules (Accord Healthcare Ltd)
+^ESCT1280156	Lecaent 150mg capsules (Accord Healthcare Ltd)
+^ESCT1280313	Pregabalin 75mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280316	Pregabalin 150mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280319	Pregabalin 225mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280322	Pregabalin 25mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280325	Pregabalin 50mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280328	Pregabalin 100mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280331	Pregabalin 200mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280334	Pregabalin 300mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280911	Pregabalin 100mg tablets
+^ESCT1280912	Pregabalin 150mg tablets
+^ESCT1280913	Pregabalin 200mg tablets
+^ESCT1280914	Pregabalin 225mg tablets
+^ESCT1280915	Pregabalin 25mg tablets
+^ESCT1280916	Pregabalin 300mg tablets
+^ESCT1280917	Pregabalin 50mg tablets
+^ESCT1280918	Pregabalin 75mg tablets
+^ESCT1299818	Gabapentin 400mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1300821	Lyrica 225mg capsules (DE Pharmaceuticals)
+^ESCT1300889	Neurontin 100mg capsules (DE Pharmaceuticals)
+^ESCT1300891	Neurontin 300mg capsules (DE Pharmaceuticals)
+^ESCT1301183	Neurontin 800mg tablets (Upjohn Ltd)
+^ESCT1301189	Neurontin 400mg capsules (Upjohn Ltd)
+^ESCT1301191	Neurontin 300mg capsules (Upjohn Ltd)
+^ESCT1301194	Neurontin 100mg capsules (Upjohn Ltd)
+^ESCT1301196	Neurontin 600mg tablets (Upjohn Ltd)
+^ESCT1301373	Lyrica 25mg capsules (Upjohn Ltd)
+^ESCT1301376	Lyrica 50mg capsules (Upjohn Ltd)
+^ESCT1301378	Lyrica 75mg capsules (Upjohn Ltd)
+^ESCT1301380	Lyrica 100mg capsules (Upjohn Ltd)
+^ESCT1301382	Lyrica 150mg capsules (Upjohn Ltd)
+^ESCT1301384	Lyrica 200mg capsules (Upjohn Ltd)
+^ESCT1301386	Lyrica 300mg capsules (Upjohn Ltd)
+^ESCT1301645	Lyrica 225mg capsules (Upjohn Ltd)
+^ESCT1302348	Lyrica 20mg/ml oral solution (Upjohn Ltd)
+^ESCT1303900	Neurontin 800mg tablets (Upjohn UK Ltd)
+^ESCT1303906	Neurontin 400mg capsules (Upjohn UK Ltd)
+^ESCT1303908	Neurontin 300mg capsules (Upjohn UK Ltd)
+^ESCT1303911	Neurontin 100mg capsules (Upjohn UK Ltd)
+^ESCT1303913	Neurontin 600mg tablets (Upjohn UK Ltd)
+^ESCT1304093	Lyrica 25mg capsules (Upjohn UK Ltd)
+^ESCT1304096	Lyrica 50mg capsules (Upjohn UK Ltd)
+^ESCT1304098	Lyrica 75mg capsules (Upjohn UK Ltd)
+^ESCT1304100	Lyrica 100mg capsules (Upjohn UK Ltd)
+^ESCT1304102	Lyrica 150mg capsules (Upjohn UK Ltd)
+^ESCT1304104	Lyrica 200mg capsules (Upjohn UK Ltd)
+^ESCT1304106	Lyrica 300mg capsules (Upjohn UK Ltd)
+^ESCT1304146	Lyrica 225mg capsules (Upjohn UK Ltd)
+^ESCT1304253	Lyrica 20mg/ml oral solution (Upjohn UK Ltd)
+^ESCT1304664	Pregabalin 225mg capsules (Ranbaxy (UK) Ltd)
+^ESCT1304667	Pregabalin 300mg capsules (Ranbaxy (UK) Ltd)
+^ESCT1373820	Pregabalin 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1373822	Pregabalin 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1373824	Pregabalin 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1373826	Pregabalin 150mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1373828	Pregabalin 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1373830	Pregabalin 225mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1373832	Pregabalin 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1374311	Pregabalin 75mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1375278	Pregabalin 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375280	Pregabalin 150mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375282	Pregabalin 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375284	Pregabalin 225mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375288	Pregabalin 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375292	Pregabalin 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375294	Pregabalin 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375300	Pregabalin 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375971	Gabapentin 100mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375973	Gabapentin 300mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375975	Gabapentin 400mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375977	Gabapentin 600mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375979	Gabapentin 800mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375981	Gabapentin 50mg/ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1384164	Pregabalin 20 mg/mL oral solution
+^ESCT1389036	Gabapentin 600mg tablets (Milpharm Ltd)
+^ESCT1389038	Gabapentin 800mg tablets (Milpharm Ltd)
+^ESCT1389356	Gabapentin 100mg capsules (Milpharm Ltd)
+^ESCT1389358	Gabapentin 300mg capsules (Milpharm Ltd)
+^ESCT1389360	Gabapentin 400mg capsules (Milpharm Ltd)
+^ESCT1401596	Pregabalin 25mg capsules (Relonchem Ltd)
+^ESCT1401598	Pregabalin 50mg capsules (Relonchem Ltd)
+^ESCT1401600	Pregabalin 75mg capsules (Relonchem Ltd)
+^ESCT1401602	Pregabalin 100mg capsules (Relonchem Ltd)
+^ESCT1401604	Pregabalin 150mg capsules (Relonchem Ltd)
+^ESCT1401606	Pregabalin 200mg capsules (Relonchem Ltd)
+^ESCT1401608	Pregabalin 225mg capsules (Relonchem Ltd)
+^ESCT1401610	Pregabalin 300mg capsules (Relonchem Ltd)
+^ESCT1403443	Pregabalin 200mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403445	Pregabalin 20mg/ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1403447	Pregabalin 225mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403449	Pregabalin 25mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403452	Pregabalin 300mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403464	Pregabalin 100mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403466	Pregabalin 150mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403468	Pregabalin 50mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403470	Pregabalin 75mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403489	Pregabalin 50mg capsules (Bristol Laboratories Ltd)
+^ESCT1403491	Pregabalin 100mg capsules (Bristol Laboratories Ltd)
+^ESCT1403494	Pregabalin 150mg capsules (Bristol Laboratories Ltd)
+^ESCT1403496	Pregabalin 200mg capsules (Bristol Laboratories Ltd)
+^ESCT1404081	Pregabalin 25mg capsules (Bristol Laboratories Ltd)
+^ESCT1404085	Pregabalin 75mg capsules (Bristol Laboratories Ltd)
+^ESCT1404993	Pregabalin 150mg capsules (Noumed Life Sciences Ltd)
+^ESCT1412440	Gabapentin 50mg/ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1412480	Pregabalin 20mg/ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1418839	Pregabalin 225mg capsules (Bristol Laboratories Ltd)
+^ESCT1418969	Pregabalin 20mg/ml oral solution sugar free (Aristo Pharma Ltd)
+^ESCT1422135	Gabapentin 100mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422137	Gabapentin 300mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422139	Gabapentin 400mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422295	Gabapentin 600mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422297	Gabapentin 800mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422710	Pregabalin 150mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422712	Pregabalin 200mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422714	Pregabalin 225mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422716	Pregabalin 300mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422718	Pregabalin 50mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422720	Pregabalin 75mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422722	Pregabalin 100mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422724	Pregabalin 25mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422999	Pregabalin 75mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423001	Pregabalin 150mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423003	Pregabalin 225mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423021	Pregabalin 25mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423023	Pregabalin 50mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423025	Pregabalin 100mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423027	Pregabalin 200mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423029	Pregabalin 300mg tablets (Neuraxpharm UK Ltd)
+^ESCT1426760	Gabapentin 100mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426762	Gabapentin 300mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426764	Gabapentin 400mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426766	Gabapentin 600mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426768	Gabapentin 800mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427203	Pregabalin 75mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1427801	Pregabalin 25mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427803	Pregabalin 50mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427805	Pregabalin 75mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427807	Pregabalin 100mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427816	Pregabalin 150mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427818	Pregabalin 200mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427820	Pregabalin 225mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427840	Pregabalin 300mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427887	Axalid 25mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427889	Axalid 50mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427891	Axalid 75mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427893	Axalid 100mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427895	Axalid 150mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427897	Axalid 200mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427899	Axalid 225mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427901	Axalid 300mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1429439	Pregabalin 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429441	Pregabalin 150mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429443	Pregabalin 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429445	Pregabalin 225mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429447	Pregabalin 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429449	Pregabalin 300mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429451	Pregabalin 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429453	Pregabalin 75mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429809	Pregabalin 75mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1429811	Pregabalin 100mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1429813	Pregabalin 150mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1429815	Pregabalin 225mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1429817	Pregabalin 200mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1429819	Pregabalin 300mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1430309	Pregabalin 25mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1430311	Pregabalin 50mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1435494	Pregabalin 100mg tablets (DE Pharmaceuticals)
+^ESCT1435499	Pregabalin 150mg tablets (DE Pharmaceuticals)
+^ESCT1435501	Pregabalin 200mg tablets (DE Pharmaceuticals)
+^ESCT1435503	Pregabalin 225mg tablets (DE Pharmaceuticals)
+^ESCT1435505	Pregabalin 25mg tablets (DE Pharmaceuticals)
+^ESCT1435509	Pregabalin 300mg tablets (DE Pharmaceuticals)
+^ESCT1435512	Pregabalin 50mg tablets (DE Pharmaceuticals)
+^ESCT1435515	Pregabalin 75mg tablets (DE Pharmaceuticals)
+^ESCT1436705	Pregabalin 300mg capsules (Bristol Laboratories Ltd)
+^ESCT1436810	Neurontin 800mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436866	Neurontin 400mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436898	Neurontin 300mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436923	Neurontin 100mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436938	Neurontin 600mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437824	Lyrica 25mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437827	Lyrica 50mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437829	Lyrica 75mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437831	Lyrica 100mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437833	Lyrica 150mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437835	Lyrica 200mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437837	Lyrica 300mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437886	Gabapentin 100mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437888	Gabapentin 300mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437890	Gabapentin 400mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438061	Lyrica 225mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438431	Lyrica 20mg/ml oral solution (Viatris UK Healthcare Ltd)
+^ESCT1438757	Pregabalin 300mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438759	Pregabalin 225mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438761	Pregabalin 200mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438763	Pregabalin 150mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438765	Pregabalin 100mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438767	Pregabalin 75mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438769	Pregabalin 50mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438771	Pregabalin 25mg capsules (Viatris UK Healthcare Ltd)
+^ESCTAL1109776	Alzain 25mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109778	Alzain 50mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109781	Alzain 75mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109783	Alzain 100mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109785	Alzain 150mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109787	Alzain 200mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109789	Alzain 225mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109791	Alzain 300mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAX1153957	Axalid 25mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1153963	Axalid 50mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1153969	Axalid 75mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1153971	Axalid 100mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1153987	Axalid 150mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1153991	Axalid 200mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1154019	Axalid 225mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1154021	Axalid 300mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTGA1005833	Gabapentin 100mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTGA1005851	Gabapentin 300mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTGA1005853	Gabapentin 400mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTGA1006408	Gabapentin 100mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTGA1006412	Gabapentin 300mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTGA1006416	Gabapentin 400mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTGA1006419	Gabapentin 600mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTGA1006422	Gabapentin 800mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTGA1007624	Gabapentin 600mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGA1034668	Gabapentin 100mg capsules (Bristol Laboratories Ltd)
+^ESCTGA1034670	Gabapentin 300mg capsules (Bristol Laboratories Ltd)
+^ESCTGA1034672	Gabapentin 400mg capsules (Bristol Laboratories Ltd)
+^ESCTGA1036907	Gabapentin 600mg tablets (Accord Healthcare Ltd)
+^ESCTGA1036919	Gabapentin 800mg tablets (Accord Healthcare Ltd)
+^ESCTGA1040352	Gabapentin 50mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTGA1040366	Gabapentin 50mg/ml oral solution sugar free
+^ESCTGA1040707	Gabapentin 50mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA1040992	Gabapentin 50mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTGA1043662	Gabapentin 100mg capsules (Waymade Healthcare Plc)
+^ESCTGA1043664	Gabapentin 300mg capsules (Waymade Healthcare Plc)
+^ESCTGA1043666	Gabapentin 400mg capsules (Waymade Healthcare Plc)
+^ESCTGA1043668	Gabapentin 600mg tablets (Waymade Healthcare Plc)
+^ESCTGA1043715	Gabapentin 800mg tablets (Waymade Healthcare Plc)
+^ESCTGA1046744	Gabapentin 600mg tablets (Aurobindo Pharma Ltd)
+^ESCTGA1046746	Gabapentin 800mg tablets (Aurobindo Pharma Ltd)
+^ESCTGA1049004	Gabapentin 600mg tablets (Creo Pharma Ltd)
+^ESCTGA1049007	Gabapentin 800mg tablets (Creo Pharma Ltd)
+^ESCTGA1056561	Gabapentin 100mg capsules (Medreich Plc)
+^ESCTGA1056563	Gabapentin 300mg capsules (Medreich Plc)
+^ESCTGA1056565	Gabapentin 400mg capsules (Medreich Plc)
+^ESCTGA1058472	Gabapentin 100mg capsules (Creo Pharma Ltd)
+^ESCTGA1058474	Gabapentin 300mg capsules (Creo Pharma Ltd)
+^ESCTGA1058476	Gabapentin 400mg capsules (Creo Pharma Ltd)
+^ESCTGA1063153	Gabapentin 100mg capsules (DE Pharmaceuticals)
+^ESCTGA1063155	Gabapentin 300mg capsules (DE Pharmaceuticals)
+^ESCTGA1063157	Gabapentin 400mg capsules (DE Pharmaceuticals)
+^ESCTGA1063159	Gabapentin 50mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTGA1063161	Gabapentin 600mg tablets (DE Pharmaceuticals)
+^ESCTGA1063163	Gabapentin 800mg tablets (DE Pharmaceuticals)
+^ESCTGA1063416	Gabapentin 100mg capsules (Morningside Healthcare Ltd)
+^ESCTGA1063418	Gabapentin 300mg capsules (Morningside Healthcare Ltd)
+^ESCTGA1063420	Gabapentin 600mg tablets (Morningside Healthcare Ltd)
+^ESCTGA1063424	Gabapentin 800mg tablets (Morningside Healthcare Ltd)
+^ESCTGA1106948	Gabapentin 100mg capsules (Rivopharm (UK) Ltd)
+^ESCTGA1106951	Gabapentin 300mg capsules (Rivopharm (UK) Ltd)
+^ESCTGA1106954	Gabapentin 400mg capsules (Rivopharm (UK) Ltd)
+^ESCTGA1117780	Gabapentin 50mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTGA1117968	Gabapentin 100mg capsules (Wockhardt UK Ltd)
+^ESCTGA1117970	Gabapentin 300mg capsules (Wockhardt UK Ltd)
+^ESCTGA1117972	Gabapentin 400mg capsules (Wockhardt UK Ltd)
+^ESCTGA1120120	Gabapentin 800mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGA1142626	Gabapentin 100mg capsules (Brown & Burk UK Ltd)
+^ESCTGA1142628	Gabapentin 300mg capsules (Brown & Burk UK Ltd)
+^ESCTGA1142630	Gabapentin 400mg capsules (Brown & Burk UK Ltd)
+^ESCTGA1142633	Gabapentin 600mg tablets (Brown & Burk UK Ltd)
+^ESCTGA1142635	Gabapentin 800mg tablets (Brown & Burk UK Ltd)
+^ESCTGA1159206	Gabapentin 50mg/ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCTGA1160978	Gabapentin 50mg/ml oral solution sugar free (Actavis UK Ltd)
+^ESCTGA610746	Gabapentin 100mg capsules
+^ESCTGA610747	Gabapentin 100 mg/1 each oral capsule
+^ESCTGA610749	Gabapentin 300mg capsules
+^ESCTGA610750	Gabapentin 300 mg/1 each oral capsule
+^ESCTGA610752	Gabapentin 400mg capsules
+^ESCTGA610753	Gabapentin 400 mg/1 each oral capsule
+^ESCTGA610755	Gabapentin 600mg tablets
+^ESCTGA610757	Gabapentin 600 mg oral tablet
+^ESCTGA610758	Gabapentin 800mg tablets
+^ESCTGA610760	Gabapentin 800 mg oral tablet
+^ESCTGA675675	Gabapentin 600mg tablets and Gabapentin 300mg capsules
+^ESCTGA675676	Gabapentin 300mg capsule and 600mg tablet titration pack
+^ESCTGA677926	Gabapentin 250mg/5ml oral solution
+^ESCTGA677927	Gabapentin 250mg/5mL oral solution
+^ESCTGA677928	Gabapentin 50mg/mL oral solution
+^ESCTGA878722	Gabapentin 300mg capsules (Dowelhurst Ltd)
+^ESCTGA878728	Gabapentin 400mg capsules (Dowelhurst Ltd)
+^ESCTGA878763	Gabapentin 100mg capsules (Teva UK Ltd)
+^ESCTGA878765	Gabapentin 300mg capsules (Teva UK Ltd)
+^ESCTGA878771	Gabapentin 400mg capsules (Teva UK Ltd)
+^ESCTGA878773	Gabapentin 600mg tablets (Teva UK Ltd)
+^ESCTGA878779	Gabapentin 800mg tablets (Teva UK Ltd)
+^ESCTGA878959	Gabapentin 100mg capsules (Dowelhurst Ltd)
+^ESCTGA879578	Gabapentin 100mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTGA879589	Gabapentin 300mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTGA879591	Gabapentin 400mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTGA879598	Gabapentin 600mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGA879603	Gabapentin 800mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGA880150	Gabapentin 100mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTGA880152	Gabapentin 300mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTGA880154	Gabapentin 400mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTGA880161	Gabapentin 600mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGA880165	Gabapentin 800mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGA900827	Gabapentin 100mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA900829	Gabapentin 300mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA900831	Gabapentin 400mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA900833	Gabapentin 800mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA906775	Gabapentin 100mg/5ml oral solution (Special Order)
+^ESCTGA906783	Gabapentin 100mg/5ml oral suspension (Special Order)
+^ESCTGA906786	Gabapentin 250mg/5ml oral solution (Special Order)
+^ESCTGA906791	Gabapentin 250mg/5ml oral suspension (Special Order)
+^ESCTGA906795	Gabapentin 450mg/5ml oral solution (Special Order)
+^ESCTGA906798	Gabapentin 300mg/5ml oral solution (Special Order)
+^ESCTGA906801	Gabapentin 450mg/5ml oral suspension (Special Order)
+^ESCTGA906807	Gabapentin 300mg/5ml oral suspension (Special Order)
+^ESCTGA906811	Gabapentin 50mg/5ml oral solution (Special Order)
+^ESCTGA906826	Gabapentin 50mg/5ml oral suspension (Special Order)
+^ESCTGA907056	Gabapentin 100mg/5ml oral solution
+^ESCTGA907057	Gabapentin 100mg/5ml oral suspension
+^ESCTGA907058	Gabapentin 250mg/5ml oral suspension
+^ESCTGA907059	Gabapentin 300mg/5ml oral solution
+^ESCTGA907085	Gabapentin 300mg/5ml oral suspension
+^ESCTGA907086	Gabapentin 450mg/5ml oral solution
+^ESCTGA907087	Gabapentin 450mg/5ml oral suspension
+^ESCTGA907088	Gabapentin 50mg/5ml oral solution
+^ESCTGA907089	Gabapentin 50mg/5ml oral suspension
+^ESCTGA910819	Gabapentin 100mg capsules (Mylan Ltd)
+^ESCTGA910823	Gabapentin 300mg capsules (Mylan Ltd)
+^ESCTGA910826	Gabapentin 400mg capsules (Mylan Ltd)
+^ESCTGA915491	Gabapentin 100mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTGA915495	Gabapentin 300mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTGA915500	Gabapentin 400mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTGA915684	Gabapentin 300mg capsules (Sandoz Ltd)
+^ESCTGA920079	Gabapentin 100mg capsules (Zentiva)
+^ESCTGA920083	Gabapentin 300mg capsules (Zentiva)
+^ESCTGA920087	Gabapentin 400mg capsules (Zentiva)
+^ESCTGA926868	Gabapentin 600mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA927876	Gabapentin 100mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTGA927880	Gabapentin 300mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTGA927883	Gabapentin 400mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTGA940678	Gabapentin 100mg capsules (Sandoz Ltd)
+^ESCTGA940680	Gabapentin 400mg capsules (Sandoz Ltd)
+^ESCTGA945903	Gabapentin 150mg/5ml oral suspension (Special Order)
+^ESCTGA945916	Gabapentin 150mg/5ml oral solution (Special Order)
+^ESCTGA945927	Gabapentin 200mg/5ml oral suspension (Special Order)
+^ESCTGA945937	Gabapentin 200mg/5ml oral solution (Special Order)
+^ESCTGA945954	Gabapentin 500mg/5ml oral suspension (Special Order)
+^ESCTGA945960	Gabapentin 500mg/5ml oral solution (Special Order)
+^ESCTGA946149	Gabapentin 150mg/5ml oral solution
+^ESCTGA946151	Gabapentin 150mg/5ml oral suspension
+^ESCTGA946153	Gabapentin 200mg/5ml oral solution
+^ESCTGA946155	Gabapentin 200mg/5ml oral suspension
+^ESCTGA946157	Gabapentin 500mg/5ml oral solution
+^ESCTGA946159	Gabapentin 500mg/5ml oral suspension
+^ESCTGA957049	Gabapentin 100mg capsules (Actavis UK Ltd)
+^ESCTGA957054	Gabapentin 300mg capsules (Actavis UK Ltd)
+^ESCTGA957055	Gabapentin 400mg capsules (Actavis UK Ltd)
+^ESCTGA961998	Gabapentin 100mg capsules (Arrow Generics Ltd)
+^ESCTGA962000	Gabapentin 300mg capsules (Arrow Generics Ltd)
+^ESCTGA962002	Gabapentin 400mg capsules (Arrow Generics Ltd)
+^ESCTGA963695	Gabapentin 600mg/5ml oral solution (Special Order)
+^ESCTGA963698	Gabapentin 600mg/5ml oral suspension (Special Order)
+^ESCTGA963712	Gabapentin 600mg/5ml oral solution
+^ESCTGA963714	Gabapentin 600mg/5ml oral suspension
+^ESCTGA965201	Gabapentin 800mg tablets (Ranbaxy (UK) Ltd)
+^ESCTGA965222	Gabapentin 100mg capsules (Ranbaxy (UK) Ltd)
+^ESCTGA965225	Gabapentin 300mg capsules (Ranbaxy (UK) Ltd)
+^ESCTGA965227	Gabapentin 400mg capsules (Ranbaxy (UK) Ltd)
+^ESCTGA965229	Gabapentin 600mg tablets (Ranbaxy (UK) Ltd)
+^ESCTGA967576	Gabapentin 400mg/5ml oral suspension (Special Order)
+^ESCTGA967581	Gabapentin 400mg/5ml oral solution (Special Order)
+^ESCTGA967959	Gabapentin 400mg/5ml oral solution
+^ESCTGA967987	Gabapentin 400mg/5ml oral suspension
+^ESCTGA969038	Gabapentin 100mg capsules (Consilient Health Ltd)
+^ESCTGA969040	Gabapentin 300mg capsules (Consilient Health Ltd)
+^ESCTGA969042	Gabapentin 400mg capsules (Consilient Health Ltd)
+^ESCTGA969044	Gabapentin 600mg tablets (Consilient Health Ltd)
+^ESCTGA969046	Gabapentin 800mg tablets (Consilient Health Ltd)
+^ESCTGA969978	Gabapentin 800mg/5ml oral solution (Special Order)
+^ESCTGA969985	Gabapentin 800mg/5ml oral suspension (Special Order)
+^ESCTGA970305	Gabapentin 800mg/5ml oral solution
+^ESCTGA970306	Gabapentin 800mg/5ml oral suspension
+^ESCTGA978371	Gabapentin 100mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTGA978373	Gabapentin 300mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTGA978375	Gabapentin 400mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTGA978377	Gabapentin 600mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGA978379	Gabapentin 800mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGA978675	Gabapentin 800mg tablets (PLIVA Pharma Ltd)
+^ESCTGA978677	Gabapentin 600mg tablets (PLIVA Pharma Ltd)
+^ESCTGA979010	Gabapentin 600mg tablets (Actavis UK Ltd)
+^ESCTGA979012	Gabapentin 800mg tablets (Actavis UK Ltd)
+^ESCTGA980892	Gabapentin 600mg tablets (Zentiva)
+^ESCTGA980894	Gabapentin 800mg tablets (Zentiva)
+^ESCTLE1108964	Lecaent 25mg capsules (Actavis UK Ltd)
+^ESCTLE1108967	Lecaent 50mg capsules (Actavis UK Ltd)
+^ESCTLE1108969	Lecaent 75mg capsules (Actavis UK Ltd)
+^ESCTLE1108971	Lecaent 100mg capsules (Actavis UK Ltd)
+^ESCTLE1108973	Lecaent 150mg capsules (Actavis UK Ltd)
+^ESCTLE1108975	Lecaent 200mg capsules (Actavis UK Ltd)
+^ESCTLE1108977	Lecaent 225mg capsules (Actavis UK Ltd)
+^ESCTLE1108979	Lecaent 300mg capsules (Actavis UK Ltd)
+^ESCTLY1002572	Lyrica 200mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTLY1002574	Lyrica 300mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTLY1002619	Lyrica 100mg capsules (Necessity Supplies Ltd)
+^ESCTLY1002622	Lyrica 150mg capsules (Necessity Supplies Ltd)
+^ESCTLY1002628	Lyrica 200mg capsules (Necessity Supplies Ltd)
+^ESCTLY1002657	Lyrica 25mg capsules (Necessity Supplies Ltd)
+^ESCTLY1002666	Lyrica 50mg capsules (Necessity Supplies Ltd)
+^ESCTLY1002674	Lyrica 75mg capsules (Necessity Supplies Ltd)
+^ESCTLY1012413	Lyrica 200mg capsules (DE Pharmaceuticals)
+^ESCTLY1030002	Lyrica 20mg/ml oral solution (Pfizer Ltd)
+^ESCTLY901216	Lyrica 25mg capsules (Pfizer Ltd)
+^ESCTLY901224	Lyrica 50mg capsules (Pfizer Ltd)
+^ESCTLY901227	Lyrica 75mg capsules (Pfizer Ltd)
+^ESCTLY901230	Lyrica 100mg capsules (Pfizer Ltd)
+^ESCTLY901234	Lyrica 150mg capsules (Pfizer Ltd)
+^ESCTLY901238	Lyrica 200mg capsules (Pfizer Ltd)
+^ESCTLY901243	Lyrica 300mg capsules (Pfizer Ltd)
+^ESCTLY930335	Lyrica 75mg capsules (Waymade Healthcare Plc)
+^ESCTLY930339	Lyrica 25mg capsules (Waymade Healthcare Plc)
+^ESCTLY930343	Lyrica 150mg capsules (Waymade Healthcare Plc)
+^ESCTLY936637	Lyrica 100mg capsules (Waymade Healthcare Plc)
+^ESCTLY940751	Lyrica 200mg capsules (Waymade Healthcare Plc)
+^ESCTLY958891	Lyrica 225mg capsules (Pfizer Ltd)
+^ESCTLY959905	Lyrica 25mg capsules (Dowelhurst Ltd)
+^ESCTLY959909	Lyrica 75mg capsules (Dowelhurst Ltd)
+^ESCTLY959912	Lyrica 150mg capsules (Dowelhurst Ltd)
+^ESCTLY963725	Lyrica 50mg capsules (Waymade Healthcare Plc)
+^ESCTLY967164	Lyrica 25mg capsules (DE Pharmaceuticals)
+^ESCTLY967169	Lyrica 50mg capsules (DE Pharmaceuticals)
+^ESCTLY967171	Lyrica 75mg capsules (DE Pharmaceuticals)
+^ESCTLY967173	Lyrica 100mg capsules (DE Pharmaceuticals)
+^ESCTLY967175	Lyrica 150mg capsules (DE Pharmaceuticals)
+^ESCTLY967177	Lyrica 300mg capsules (DE Pharmaceuticals)
+^ESCTLY971538	Lyrica 100mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTLY971548	Lyrica 150mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTLY971560	Lyrica 25mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTLY971576	Lyrica 50mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTLY971593	Lyrica 75mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTLY989322	Lyrica 25mg capsules (Lexon (UK) Ltd)
+^ESCTLY989328	Lyrica 50mg capsules (Lexon (UK) Ltd)
+^ESCTLY989331	Lyrica 75mg capsules (Lexon (UK) Ltd)
+^ESCTLY989333	Lyrica 100mg capsules (Lexon (UK) Ltd)
+^ESCTLY989335	Lyrica 150mg capsules (Lexon (UK) Ltd)
+^ESCTLY992681	Lyrica 25mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTLY992693	Lyrica 50mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTLY992696	Lyrica 75mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTLY992705	Lyrica 100mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTLY992892	Lyrica 150mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTLY992897	Lyrica 200mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTLY992901	Lyrica 300mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTLY993401	Lyrica 25mg capsules (Stephar (U.K.) Ltd)
+^ESCTLY993407	Lyrica 50mg capsules (Stephar (U.K.) Ltd)
+^ESCTLY993410	Lyrica 75mg capsules (Stephar (U.K.) Ltd)
+^ESCTLY993417	Lyrica 100mg capsules (Stephar (U.K.) Ltd)
+^ESCTLY993419	Lyrica 150mg capsules (Stephar (U.K.) Ltd)
+^ESCTNE1002111	Neurontin 100mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTNE1002113	Neurontin 300mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTNE1002829	Neurontin 100mg capsules (Necessity Supplies Ltd)
+^ESCTNE1002843	Neurontin 300mg capsules (Necessity Supplies Ltd)
+^ESCTNE1002997	Neurontin 400mg capsules (Necessity Supplies Ltd)
+^ESCTNE1003001	Neurontin 600mg tablets (Necessity Supplies Ltd)
+^ESCTNE1003005	Neurontin 800mg tablets (Necessity Supplies Ltd)
+^ESCTNE1005567	Neurontin 100mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTNE1008020	Neurontin 400mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTNE1034924	Neurontin 250mg/5ml oral solution (Imported (United States))
+^ESCTNE804864	Neurontin 800mg tablets (Pfizer Ltd)
+^ESCTNE809630	Neurontin 400mg capsules (Pfizer Ltd)
+^ESCTNE813721	Neurontin 300mg capsules (Pfizer Ltd)
+^ESCTNE817395	Neurontin 100mg capsules (Pfizer Ltd)
+^ESCTNE819215	Neurontin 600mg tablets (Pfizer Ltd)
+^ESCTNE870891	Neurontin titration pack (Pfizer Ltd)
+^ESCTNE878160	Neurontin 100mg capsules (Waymade Healthcare Plc)
+^ESCTNE878162	Neurontin 300mg capsules (Waymade Healthcare Plc)
+^ESCTNE878164	Neurontin 400mg capsules (Waymade Healthcare Plc)
+^ESCTNE878178	Neurontin 600mg tablets (Waymade Healthcare Plc)
+^ESCTNE878180	Neurontin 800mg tablets (Waymade Healthcare Plc)
+^ESCTNE879386	Neurontin 300mg capsules (Dowelhurst Ltd)
+^ESCTNE879393	Neurontin 400mg capsules (Dowelhurst Ltd)
+^ESCTNE879558	Neurontin 100mg capsules (Dowelhurst Ltd)
+^ESCTNE879568	Neurontin 600mg tablets (Dowelhurst Ltd)
+^ESCTNE879574	Neurontin 800mg tablets (Dowelhurst Ltd)
+^ESCTNE971451	Neurontin 300mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTNE971457	Neurontin 400mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTPR1030097	Pregabalin 20mg/ml oral solution sugar free
+^ESCTPR1109471	Pregabalin 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109477	Pregabalin 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109480	Pregabalin 75mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109482	Pregabalin 100mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109484	Pregabalin 150mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109486	Pregabalin 200mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109488	Pregabalin 225mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109490	Pregabalin 300mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1118190	Pregabalin 20mg/ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTPR1118366	Pregabalin 75mg capsules (Teva UK Ltd)
+^ESCTPR1118373	Pregabalin 50mg capsules (Teva UK Ltd)
+^ESCTPR1118375	Pregabalin 100mg capsules (Teva UK Ltd)
+^ESCTPR1118379	Pregabalin 150mg capsules (Teva UK Ltd)
+^ESCTPR1118383	Pregabalin 200mg capsules (Teva UK Ltd)
+^ESCTPR1118386	Pregabalin 225mg capsules (Teva UK Ltd)
+^ESCTPR1118388	Pregabalin 300mg capsules (Teva UK Ltd)
+^ESCTPR1118390	Pregabalin 25mg capsules (Teva UK Ltd)
+^ESCTPR1119825	Pregabalin 20mg/ml oral solution sugar free (Teva UK Ltd)
+^ESCTPR1119951	Pregabalin 25mg capsules (DE Pharmaceuticals)
+^ESCTPR1119954	Pregabalin 50mg capsules (DE Pharmaceuticals)
+^ESCTPR1119957	Pregabalin 75mg capsules (DE Pharmaceuticals)
+^ESCTPR1119960	Pregabalin 100mg capsules (DE Pharmaceuticals)
+^ESCTPR1119962	Pregabalin 150mg capsules (DE Pharmaceuticals)
+^ESCTPR1119964	Pregabalin 200mg capsules (DE Pharmaceuticals)
+^ESCTPR1119966	Pregabalin 225mg capsules (DE Pharmaceuticals)
+^ESCTPR1119968	Pregabalin 300mg capsules (DE Pharmaceuticals)
+^ESCTPR1120075	Pregabalin 20mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTPR1120966	Pregabalin 25mg capsules (Sandoz Ltd)
+^ESCTPR1120969	Pregabalin 300mg capsules (Sandoz Ltd)
+^ESCTPR1120971	Pregabalin 50mg capsules (Sandoz Ltd)
+^ESCTPR1120973	Pregabalin 225mg capsules (Sandoz Ltd)
+^ESCTPR1120975	Pregabalin 75mg capsules (Sandoz Ltd)
+^ESCTPR1120977	Pregabalin 200mg capsules (Sandoz Ltd)
+^ESCTPR1120979	Pregabalin 100mg capsules (Sandoz Ltd)
+^ESCTPR1120981	Pregabalin 150mg capsules (Sandoz Ltd)
+^ESCTPR1126343	Pregabalin 150mg capsules (Zentiva)
+^ESCTPR1126345	Pregabalin 200mg capsules (Zentiva)
+^ESCTPR1126347	Pregabalin 225mg capsules (Zentiva)
+^ESCTPR1126349	Pregabalin 300mg capsules (Zentiva)
+^ESCTPR1126351	Pregabalin 50mg capsules (Zentiva)
+^ESCTPR1126353	Pregabalin 75mg capsules (Zentiva)
+^ESCTPR1126355	Pregabalin 100mg capsules (Zentiva)
+^ESCTPR1126357	Pregabalin 25mg capsules (Zentiva)
+^ESCTPR1126383	Pregabalin 25mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126385	Pregabalin 50mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126388	Pregabalin 75mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126390	Pregabalin 100mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126392	Pregabalin 150mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126394	Pregabalin 200mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126396	Pregabalin 225mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126398	Pregabalin 300mg capsules (Accord Healthcare Ltd)
+^ESCTPR1128952	Pregabalin 20mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136902	Pregabalin 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136912	Pregabalin 50mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136927	Pregabalin 75mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136933	Pregabalin 100mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136940	Pregabalin 150mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136945	Pregabalin 200mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136952	Pregabalin 225mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136960	Pregabalin 300mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1137847	Pregabalin 20mg/ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTPR1139479	Pregabalin 25mg capsules (Wockhardt UK Ltd)
+^ESCTPR1139486	Pregabalin 50mg capsules (Wockhardt UK Ltd)
+^ESCTPR1139489	Pregabalin 100mg capsules (Wockhardt UK Ltd)
+^ESCTPR1139493	Pregabalin 200mg capsules (Wockhardt UK Ltd)
+^ESCTPR1139496	Pregabalin 300mg capsules (Wockhardt UK Ltd)
+^ESCTPR1141040	Pregabalin 75mg capsules (Wockhardt UK Ltd)
+^ESCTPR1141042	Pregabalin 150mg capsules (Wockhardt UK Ltd)
+^ESCTPR1141045	Pregabalin 225mg capsules (Wockhardt UK Ltd)
+^ESCTPR1142199	Pregabalin 25mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142207	Pregabalin 50mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142209	Pregabalin 75mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142211	Pregabalin 100mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142228	Pregabalin 150mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142234	Pregabalin 200mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142236	Pregabalin 225mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142265	Pregabalin 300mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1145240	Pregabalin 20mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTPR1146105	Pregabalin 50mg/5ml oral suspension (Special Order)
+^ESCTPR1146223	Pregabalin 50mg/5ml oral suspension
+^ESCTPR1153035	Pregabalin 300mg capsules (Mylan Ltd)
+^ESCTPR1153037	Pregabalin 225mg capsules (Mylan Ltd)
+^ESCTPR1153039	Pregabalin 200mg capsules (Mylan Ltd)
+^ESCTPR1153041	Pregabalin 150mg capsules (Mylan Ltd)
+^ESCTPR1153043	Pregabalin 100mg capsules (Mylan Ltd)
+^ESCTPR1153045	Pregabalin 75mg capsules (Mylan Ltd)
+^ESCTPR1153047	Pregabalin 50mg capsules (Mylan Ltd)
+^ESCTPR1153049	Pregabalin 25mg capsules (Mylan Ltd)
+^ESCTPR1162868	Pregabalin 300mg/5ml oral suspension (Special Order)
+^ESCTPR1162921	Pregabalin 300mg/5ml oral suspension
+^ESCTPR1163132	Pregabalin 20mg/ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTPR610748	Product containing gabapentin 100 mg/1 each oral capsule
+^ESCTPR610751	Product containing gabapentin 300 mg/1 each oral capsule
+^ESCTPR610754	Product containing gabapentin 400 mg/1 each oral capsule
+^ESCTPR610756	Product containing gabapentin 600 mg/1 each oral tablet
+^ESCTPR610759	Product containing gabapentin 800 mg/1 each oral tablet
+^ESCTPR687121	Pregabalin 100mg capsules
+^ESCTPR687122	Pregabalin 100 mg/1 each oral capsule
+^ESCTPR687123	Product containing pregabalin 100 mg/1 each oral capsule
+^ESCTPR687124	Pregabalin 150mg capsules
+^ESCTPR687125	Pregabalin 150 mg/1 each oral capsule
+^ESCTPR687126	Product containing pregabalin 150 mg/1 each oral capsule
+^ESCTPR687127	Pregabalin 200mg capsules
+^ESCTPR687128	Pregabalin 200 mg/1 each oral capsule
+^ESCTPR687129	Product containing pregabalin 200 mg/1 each oral capsule
+^ESCTPR687130	Pregabalin 25mg capsules
+^ESCTPR687131	Pregabalin 25 mg/1 each oral capsule
+^ESCTPR687132	Product containing pregabalin 25 mg/1 each oral capsule
+^ESCTPR687133	Pregabalin 300mg capsules
+^ESCTPR687134	Pregabalin 300 mg/1 each oral capsule
+^ESCTPR687135	Product containing pregabalin 300 mg/1 each oral capsule
+^ESCTPR687136	Pregabalin 50mg capsules
+^ESCTPR687137	Pregabalin 50 mg/1 each oral capsule
+^ESCTPR687138	Product containing pregabalin 50 mg/1 each oral capsule
+^ESCTPR687139	Pregabalin 75mg capsules
+^ESCTPR687140	Pregabalin 75 mg/1 each oral capsule
+^ESCTPR687141	Product containing pregabalin 75 mg/1 each oral capsule
+^ESCTPR696545	Pregabalin 225mg capsules
+^ESCTPR696546	Pregabalin 225 mg/1 each oral capsule
+^ESCTPR696547	Product containing pregabalin 225 mg/1 each oral capsule
+^ESCTPR729583	Pregabalin 20mg/mL oral solution
+^ESCTPR967734	Pregabalin 75mg/5ml oral solution (Special Order)
+^ESCTPR967737	Pregabalin 75mg/5ml oral suspension (Special Order)
+^ESCTPR968010	Pregabalin 75mg/5ml oral solution
+^ESCTPR968011	Pregabalin 75mg/5ml oral suspension
+^ESCTPR978646	Pregabalin 150mg/5ml oral solution (Special Order)
+^ESCTPR978649	Pregabalin 150mg/5ml oral suspension (Special Order)
+^ESCTPR978663	Pregabalin 150mg/5ml oral solution
+^ESCTPR978664	Pregabalin 150mg/5ml oral suspension
+^ESCTPR979732	Pregabalin 200mg/5ml oral solution (Special Order)
+^ESCTPR979735	Pregabalin 200mg/5ml oral suspension (Special Order)
+^ESCTPR979771	Pregabalin 200mg/5ml oral solution
+^ESCTPR979772	Pregabalin 200mg/5ml oral suspension
+^ESCTPR982447	Pregabalin 75mg oral powder sachets (Special Order)
+^ESCTPR982517	Pregabalin 75mg oral powder sachets
+^ESCTPR986228	Pregabalin 25mg/5ml oral solution (Special Order)
+^ESCTPR986233	Pregabalin 25mg/5ml oral suspension (Special Order)
+^ESCTPR986410	Pregabalin 25mg/5ml oral solution
+^ESCTPR986411	Pregabalin 25mg/5ml oral suspension
+^ESCTRE1107348	Rewisca 100mg capsules (Consilient Health Ltd)
+^ESCTRE1107353	Rewisca 25mg capsules (Consilient Health Ltd)
+^ESCTRE1107362	Rewisca 50mg capsules (Consilient Health Ltd)
+^ESCTRE1107367	Rewisca 75mg capsules (Consilient Health Ltd)
+^ESCTRE1107372	Rewisca 150mg capsules (Consilient Health Ltd)
+^ESCTRE1107376	Rewisca 200mg capsules (Consilient Health Ltd)
+^ESCTRE1107386	Rewisca 225mg capsules (Consilient Health Ltd)
+^ESCTRE1107405	Rewisca 300mg capsules (Consilient Health Ltd)
+ALCA101095NEMIS	Alzain  Capsules  25 mg
+ALCA101096NEMIS	Alzain  Capsules  50 mg
+ALCA101097NEMIS	Alzain  Capsules  75 mg
+ALCA101098NEMIS	Alzain  Capsules  100 mg
+ALCA101099NEMIS	Alzain  Capsules  150 mg
+ALCA101100NEMIS	Alzain  Capsules  200 mg
+ALCA101101NEMIS	Alzain  Capsules  225 mg
+ALCA101102NEMIS	Alzain  Capsules  300 mg
+AXCA118197NEMIS	Axalid  Capsules  25 mg
+AXCA118198NEMIS	Axalid  Capsules  50 mg
+AXCA118199NEMIS	Axalid  Capsules  75 mg
+AXCA118200NEMIS	Axalid  Capsules  100 mg
+AXCA118201NEMIS	Axalid  Capsules  150 mg
+AXCA118202NEMIS	Axalid  Capsules  200 mg
+AXCA118203NEMIS	Axalid  Capsules  225 mg
+AXCA118204NEMIS	Axalid  Capsules  300 mg
+GACA15344NEMIS	Gabapentin Titration Pack  Capsules And Tablets  300 mg x 40, 600 mg x 10
+GACA23645EMIS	Gabapentin  Capsules  100 mg
+GACA23646EMIS	Gabapentin  Capsules  300 mg
+GACA23647EMIS	Gabapentin  Capsules  400 mg
+GACA35251MGEMIS	Gabapentin  Capsules  100 mg (Teva UK)
+GACA35252MGEMIS	Gabapentin  Capsules  100 mg (A.A.H. Pharm)
+GACA35253MGEMIS	Gabapentin  Capsules  100 mg (Kent Pharm)
+GACA35254MGEMIS	Gabapentin  Capsules  100 mg (Unichem)
+GACA35255MGEMIS	Gabapentin  Capsules  100 mg (Generics (UK))
+GACA35256MGEMIS	Gabapentin  Capsules  100 mg (Ivax Pharmaceuticals)
+GACA35257MGEMIS	Gabapentin  Capsules  100 mg (Winthrop Pharmaceuticals )
+GACA35258MGEMIS	Gabapentin  Capsules  300 mg (Teva UK)
+GACA35259MGEMIS	Gabapentin  Capsules  300 mg (A.A.H. Pharm)
+GACA35260MGEMIS	Gabapentin  Capsules  300 mg (Kent Pharm)
+GACA35261MGEMIS	Gabapentin  Capsules  300 mg (Unichem)
+GACA35262MGEMIS	Gabapentin  Capsules  300 mg (Generics (UK))
+GACA35263MGEMIS	Gabapentin  Capsules  300 mg (Ivax Pharmaceuticals)
+GACA35264MGEMIS	Gabapentin  Capsules  300 mg (Sandoz)
+GACA35265MGEMIS	Gabapentin  Capsules  300 mg (Winthrop Pharmaceuticals )
+GACA35266MGEMIS	Gabapentin  Capsules  400 mg (Teva UK)
+GACA35267MGEMIS	Gabapentin  Capsules  400 mg (A.A.H. Pharm)
+GACA35268MGEMIS	Gabapentin  Capsules  400 mg (Kent Pharm)
+GACA35269MGEMIS	Gabapentin  Capsules  400 mg (Unichem)
+GACA35270MGEMIS	Gabapentin  Capsules  400 mg (Generics (UK))
+GACA35271MGEMIS	Gabapentin  Capsules  400 mg (Ivax Pharmaceuticals)
+GACA35272MGEMIS	Gabapentin  Capsules  400 mg (Winthrop Pharmaceuticals )
+GAOR13764NEMIS	Gabapentin  Oral solution  250 mg/5 ml
+GAOR36800NEMIS	Gabapentin  Oral solution  400 mg/5 ml
+GAOR45622NEMIS	Gabapentin  Oral suspension  250 mg/5 ml
+GAOR46454NEMIS	Gabapentin  Oral solution  100 mg/5 ml
+GAOR46455NEMIS	Gabapentin  Oral suspension  100 mg/5 ml
+GAOR46456NEMIS	Gabapentin  Oral suspension  200 mg/5 ml
+GAOR46457NEMIS	Gabapentin  Oral solution  200 mg/5 ml
+GAOR46458NEMIS	Gabapentin  Oral solution  300 mg/5 ml
+GAOR46459NEMIS	Gabapentin  Oral suspension  300 mg/5 ml
+GAOR46744NEMIS	Gabapentin  Oral suspension  400 mg/5 ml
+GAOR76871NEMIS	Gabapentin  Oral suspension  500 mg/5 ml
+GAOR78151NEMIS	Gabapentin  Oral Solution, Sugar Free  250 mg/5 ml (50 mg/ml)
+GATA37731MGEMIS	Gabapentin  Tablets  600 mg (Teva UK)
+GATA37732MGEMIS	Gabapentin  Tablets  600 mg (A.A.H. Pharm)
+GATA37733MGEMIS	Gabapentin  Tablets  600 mg (Kent Pharm)
+GATA37734MGEMIS	Gabapentin  Tablets  800 mg (Teva UK)
+GATA37735MGEMIS	Gabapentin  Tablets  800 mg (A.A.H. Pharm)
+GATA37736MGEMIS	Gabapentin  Tablets  800 mg (Kent Pharm)
+GATA37737MGEMIS	Gabapentin  Tablets  800 mg (Unichem)
+GATA4733NEMIS	Gabapentin  Tablets  600 mg
+GATA4734NEMIS	Gabapentin  Tablets  800 mg
+LETA100730NEMIS	Lecaent  Capsules  25 mg
+LETA100731NEMIS	Lecaent  Capsules  50 mg
+LETA100732NEMIS	Lecaent  Capsules  75 mg
+LETA100733NEMIS	Lecaent  Capsules  100 mg
+LETA100734NEMIS	Lecaent  Capsules  150 mg
+LETA100735NEMIS	Lecaent  Capsules  200 mg
+LETA100736NEMIS	Lecaent  Capsules  225 mg
+LETA100738NEMIS	Lecaent  Capsules  300 mg
+LYCA18437NEMIS	Lyrica  Capsules  25 mg
+LYCA18438NEMIS	Lyrica  Capsules  50 mg
+LYCA18439NEMIS	Lyrica  Capsules  75 mg
+LYCA18440NEMIS	Lyrica  Capsules  100 mg
+LYCA18441NEMIS	Lyrica  Capsules  150 mg
+LYCA18442NEMIS	Lyrica  Capsules  200 mg
+LYCA18443NEMIS	Lyrica  Capsules  300 mg
+LYCA28504NEMIS	Lyrica  Capsules  225 mg
+LYOR74092NEMIS	Lyrica  Oral solution  20 mg/ml
+NECA15349NEMIS	Neurontin Titration Pack  Capsules And Tablets  300 mg x 40, 600 mg x 10
+NECA23639EMIS	Neurontin  Capsules  100 mg
+NECA23640EMIS	Neurontin  Capsules  300 mg
+NECA23641EMIS	Neurontin  Capsules  400 mg
+NEOR13765NEMIS	Neurontin  Oral solution  250 mg/5 ml
+NETA4735NEMIS	Neurontin  Tablets  600 mg
+NETA4736NEMIS	Neurontin  Tablets  800 mg
+PRCA18428NEMIS	Pregabalin  Capsules  25 mg
+PRCA18430NEMIS	Pregabalin  Capsules  50 mg
+PRCA18431NEMIS	Pregabalin  Capsules  75 mg
+PRCA18432NEMIS	Pregabalin  Capsules  100 mg
+PRCA18433NEMIS	Pregabalin  Capsules  150 mg
+PRCA18434NEMIS	Pregabalin  Capsules  200 mg
+PRCA18435NEMIS	Pregabalin  Capsules  300 mg
+PRCA28503NEMIS	Pregabalin  Capsules  225 mg
+PROR23497NEMIS	Pregabalin  Oral suspension  75 mg/5 ml
+PROR35191NEMIS	Pregabalin  Oral suspension  150 mg/5 ml
+PROR46792NEMIS	Pregabalin  Oral solution  75 mg/5 ml
+PROR46978NEMIS	Pregabalin  Oral powder sachets  75 mg
+PROR74091NEMIS	Pregabalin  Oral Solution, Sugar Free  20 mg/ml
+PRTA134745NEMIS	Pregabalin  Tablets  25 mg
+PRTA134747NEMIS	Pregabalin  Tablets  50 mg
+PRTA134748NEMIS	Pregabalin  Tablets  75 mg
+PRTA134749NEMIS	Pregabalin  Tablets  100 mg
+PRTA134750NEMIS	Pregabalin  Tablets  150 mg
+PRTA134751NEMIS	Pregabalin  Tablets  200 mg
+PRTA134752NEMIS	Pregabalin  Tablets  225 mg
+PRTA134753NEMIS	Pregabalin  Tablets  300 mg
+RECA100513NEMIS	Rewisca  Capsules  25 mg
+RECA100514NEMIS	Rewisca  Capsules  50 mg
+RECA100515NEMIS	Rewisca  Capsules  75 mg
+RECA100516NEMIS	Rewisca  Capsules  100 mg
+RECA100517NEMIS	Rewisca  Capsules  150 mg
+RECA100518NEMIS	Rewisca  Capsules  200 mg
+RECA100519NEMIS	Rewisca  Capsules  225 mg
+RECA100520NEMIS	Rewisca  Capsules  300 mg

@@ -1,0 +1,40 @@
+11049006	Cervical radiculitis
+1121000119107	Chronic neck pain
+122494005	Cervical spine structure
+161882006	Stiff neck
+169068008	CT of neck
+202664003	Cervical myelopathy
+209557005	Neck sprain
+239541009	Excision of cervical intervertebral disc
+240215009	Prolapsed cervical intervertebral disc
+241578008	CT of cervical spine
+241646009	MRI of cervical spine
+262522002	Injury of cervical spine
+279016001	Cervicogenic headache
+279029001	Pain in cervical spine
+298393001	cervical kyphosis
+301000119104 	Muscle spasm of cervical muscle of neck
+33420007	Diffuse cervicobrachial syndrome
+360437006	Strain of tendon of neck
+360450007	Strain of neck muscle
+387800004	Cervical spine Degeneration
+387801000	Cervical arthritis
+39848009	Whiplash injury to neck
+405773007	Kyphoscoliosis deformity of spine
+414564002	Kyphosis deformity of spine
+425878001	Cervical disc disorder
+445429009	Cervical laminectomy
+45048000	Neck structure
+54404000	Cervical radiculopathy
+59703009	cervical spinal fusion by anterior technique
+66769009	Radiography of cervical spine
+69195002	Degeneration of cervical intervertebral disc
+70070008	Torticollis
+71760005	Cervico-occipital neuralgia
+72221006	Magnetic resonance imaging of neck
+72535009	Cervical rib
+81099000	Cervical arthrodesis
+81680005	Neck pain
+83561009	Spinal stenosis in cervical region
+90460009	Neck injury
+95671001	Cervical nerve root compression

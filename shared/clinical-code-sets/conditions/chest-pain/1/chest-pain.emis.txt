@@ -1,0 +1,5 @@
+^ESCTBR372748	Breathing painful
+^ESCTNO556519	Noncardiac chest pain
+^ESCTPL253464	Pleuralgia
+^ESCTPL253465	Pleural pain
+^ESCTTI288167	Tight chest

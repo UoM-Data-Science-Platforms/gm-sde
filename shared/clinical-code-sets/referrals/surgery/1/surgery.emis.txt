@@ -1,0 +1,21 @@
+^ESCTRE595266	Referral to breast surgery service
+^ESCTRE595267	Referral to cardiothoracic surgery service
+^ESCTRE595269	Referral to thoracic surgery service
+^ESCTRE595270	Referral to cardiac surgery service
+^ESCTRE595276	Referral to endocrine surgery service
+^ESCTRE595277	Referral to gastrointestinal surgery service
+^ESCTRE595278	Referral to GI surgery service
+^ESCTRE595279	Referral to general gastrointestinal surgery service
+^ESCTRE595280	Referral to general GI surgery service
+^ESCTRE595281	Referral to upper gastrointestinal surgery service
+^ESCTRE595282	Referral to upper GI surgery service
+^ESCTRE595283	Referral to colorectal surgery service
+^ESCTRE595285	Referral to pancreatic surgery service
+^ESCTRE595286	Referral to plastic surgery service
+^ESCTRE595288	Referral to trauma surgery service
+^ESCTRE595338	Referral for general surgery domiciliary visit
+^ESCTRE595339	Referral for general surgery DV
+^ESCTRE596004	Referral to general dental surgery service
+ESCTRE37	Referral to vascular surgery service
+EMISD_RE68	Referral to dental surgery service
+EMISD_RE78	Referral to oral surgery service

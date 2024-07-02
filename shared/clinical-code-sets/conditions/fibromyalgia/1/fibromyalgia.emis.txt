@@ -1,0 +1,5 @@
+^ESCT1190544	Generalized aches and pains
+^ESCTGE385030	Generalized body aches
+^ESCTGE385031	Generalized pain
+^ESCTGE385032	Generalised pain
+^ESCTGE385034	Generalised body aches
