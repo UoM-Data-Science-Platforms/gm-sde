@@ -75,8 +75,30 @@ dna1.	Mysoline 250mg tablet
 d31f.	Soneryl 100mg tablet
 dna3.	MYSOLINE 50mg tablets
 dna3.	MYSOLINE 50mg tablets
-X796h	Phenobarbital - chemical
-X796h	Phenobarbital - chemical
-X796h	Phenobarbitone
-X796h	Phenobarbitone - chemical
-
+d31g.	Tuinal 100mg capsule
+d31x.	Amylobarbitone sodium+quinalbarbitone sodium 50mg/50mg capsule
+x05L9	Amylobarbitone - chemical
+x05LA	Amylobarbitone sodium - chemical
+x02To	Amytal
+x02r7	Sodium Amytal
+x02tY	Tuinal
+x02rG	Soneryl
+dn61.	*PROMINAL 30mg tablets
+dn62.	*PROMINAL 60mg tablets
+dn63.	*PROMINAL 200mg tablets
+x02oS	Prominal
+a517.	Cantil+phenobarbitone tablet
+x02dn	Gardenal Sodium
+x02kG	Mysoline
+d31g.	Tuinal 100mg capsule
+x02qf	Seconal Sodium
+x02tY	Tuinal
+d31x.	Amylobarbitone sodium+quinalbarbitone sodium 50mg/50mg capsule
+o11p.	Intraval Sodium 500mg injection (pdr for recon)+diluent
+o119.	Intraval + water 500mg injection
+o11n.	Intraval Sodium 2.5g injection (pdr for recon)
+o116.	Add-A-Med Thiopentone 2.5g injection
+o11o.	Intraval Sodium 2.5g injection (pdr for recon)+diluent
+o117.	Add-A-Med Thiopentone 5g injection
+o11e.	Intraval + water 5g injection
+x02fo	Intraval Sodium

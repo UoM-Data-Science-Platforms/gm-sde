@@ -258,3 +258,138 @@
 33670811000001102	Amitriptyline 25mg/5ml oral suspension
 33670911000001107	Amitriptyline 25mg/5ml oral suspension
 33671011000001104	Amitriptyline 25mg/5ml oral suspension
+40589005	Product containing amitriptyline (medicinal product)
+321744006	Amitriptyline hydrochloride [antidepressant] (product)
+321761009	Amitriptyline 25mg/5mL s/f oral solution (product)
+321762002	Amitriptyline 50mg/5mL s/f oral solution (product)
+321763007	Amitriptyline hydrochloride 25mg m/r capsule (product)
+321765000	Amitriptyline hydrochloride 50mg m/r capsule (product)
+321929002	Product containing precisely amitriptyline 25 milligram and perphenazine 2 milligram/1 each conventional release oral tablet (clinical drug)
+321930007	Product containing precisely amitriptyline 10 milligram and perphenazine 2 milligram/1 each conventional release oral tablet (clinical drug)
+326527008	Amitriptyline hydrochloride [enuresis - no drugs here] (product)
+374035003	Product containing precisely amitriptyline hydrochloride 75 milligram/1 each conventional release oral tablet (clinical drug)
+374037006	Product containing precisely amitriptyline hydrochloride 100 milligram/1 each conventional release oral tablet (clinical drug)
+374038001	Product containing precisely amitriptyline hydrochloride 150 milligram/1 each conventional release oral tablet (clinical drug)
+374039009	Amitriptyline hydrochloride 10mg solution (product)
+376558006	Amitriptyline hydrochloride 10mg (product)
+376696001	Amitriptyline hydrochloride 50mg (product)
+376774004	Amitriptyline hydrochloride 75mg (product)
+376775003	Amitriptyline hydrochloride 100mg (product)
+376820003	Amitriptyline hydrochloride 150mg (product)
+376870000	Amitriptyline hydrochloride 10mg/cc (product)
+376893006	Amitriptyline hydrochloride 25mg (product)
+377576008	Product containing precisely amitriptyline hydrochloride 12.5 milligram and chlordiazepoxide 5 milligram/1 each conventional release oral tablet (clinical drug)
+377585008	Amitriptyline hydrochloride + perphenazine 10mg/2mg tablet (product)
+377587000	Product containing precisely amitriptyline 10 milligram and perphenazine 4 milligram/1 each conventional release oral tablet (clinical drug)
+377588005	Amitriptyline hydrochloride + perphenazine 25mg/2mg tablet (product)
+377589002	Amitriptyline hydrochloride + perphenazine 25mg/4mg tablet (product)
+377590006	Amitriptyline hydrochloride + perphenazine 50mg/4mg tablet (product)
+386208009	Amitriptyline hydrochloride+perphenazine 10mg/4mg tablet (product)
+386209001	Product containing precisely amitriptyline 25 milligram and perphenazine 4 milligram/1 each conventional release oral tablet (clinical drug)
+386210006	Product containing precisely amitriptyline 50 milligram and perphenazine 4 milligram/1 each conventional release oral tablet (clinical drug)
+386599007	Product containing amitriptyline in oral dose form (medicinal product form)
+386600005	Oral form amitriptyline m/r (product)
+386601009	Product containing amitriptyline in parenteral dose form (medicinal product form)
+398657007	Product containing amitriptyline hydrochloride and chlordiazepoxide (medicinal product)
+398861003	Amitriptyline hydrochloride + perphenazine (product)
+421323008	Product containing amitriptyline and perphenazine (medicinal product)
+429315009	Product containing precisely amitriptyline hydrochloride 12.5 milligram and chlordiazepoxide 10 milligram/1 each conventional release oral tablet (clinical drug)
+766028001	Product containing precisely amitriptyline hydrochloride 50 milligram/1 each prolonged-release oral capsule (clinical drug)
+766056006	Product containing precisely amitriptyline hydrochloride 25 milligram/1 each prolonged-release oral capsule (clinical drug)
+766459005	Product containing precisely amitriptyline hydrochloride 5 milligram/1 milliliter conventional release oral solution (clinical drug)
+766460000	Product containing precisely amitriptyline hydrochloride 10 milligram/1 milliliter conventional release oral solution (clinical drug)
+767871004	Product containing amitriptyline and chlordiazepoxide (medicinal product)
+767872006	Product containing amitriptyline and chlordiazepoxide in oral dose form (medicinal product form)
+767873001	Product containing amitriptyline and perphenazine in oral dose form (medicinal product form)
+774553005	Amitriptyline (product)
+774554004	Product containing only amitriptyline and chlordiazepoxide (medicinal product)
+774555003	Amitriptyline + Perphenazine (product)
+778299003	Product containing only amitriptyline and chlordiazepoxide in oral dose form (medicinal product form)
+778300006	Product containing only amitriptyline and perphenazine in oral dose form (medicinal product form)
+778301005	Product containing only amitriptyline in oral dose form (medicinal product form)
+778302003	Product containing only amitriptyline in parenteral dose form (medicinal product form)
+783046007	Product containing precisely amitriptyline hydrochloride 10 milligram and perphenazine 2 milligram/1 each conventional release oral tablet (clinical drug)
+783047003	Product containing precisely amitriptyline hydrochloride 25 milligram and perphenazine 2 milligram/1 each conventional release oral tablet (clinical drug)
+1149464002	Product containing precisely amitriptyline hydrochloride 10 milligram and perphenazine 4 milligram/1 each conventional release oral tablet (clinical drug)
+1149465001	Product containing precisely amitriptyline hydrochloride 50 milligram and perphenazine 4 milligram/1 each conventional release oral tablet (clinical drug)
+1149466000	Product containing precisely amitriptyline hydrochloride 25 milligram and perphenazine 4 milligram/1 each conventional release oral tablet (clinical drug)
+1231486002	Product containing precisely amitriptyline (as amitriptyline hydrochloride) 25 milligram and chlordiazepoxide 10 milligram/1 each conventional release oral tablet (clinical drug)
+1251628004	Product containing precisely amitriptyline (as amitriptyline hydrochloride) 12.5 milligram and chlordiazepoxide 5 milligram/1 each conventional release oral tablet (clinical drug)
+1251635007	Product containing precisely amitriptyline (as amitriptyline hydrochloride) 12.5 milligram and chlordiazepoxide 10 milligram/1 each conventional release oral tablet (clinical drug)
+42291211000001105	Amitriptyline 25mg tablets (product)
+42543811000001105	Amitriptyline 25mg tablets (Flamingo Pharma (UK) Ltd) (product)
+13110011000001104	Amitriptyline 25mg tablets (Dowelhurst Ltd) (product)
+42142311000001100	Amitriptyline 25mg tablets (Strides Pharma UK Ltd) (product)
+41544011000001101	Amitriptyline 25mg tablets (Brown & Burk UK Ltd) (product)
+42291311000001102	Amitriptyline 50mg tablets (product)
+41544211000001106	Amitriptyline 50mg tablets (Brown & Burk UK Ltd) (product)
+42141911000001105	Amitriptyline 50mg tablets (Strides Pharma UK Ltd) (product)
+13110411000001108	Amitriptyline 50mg tablets (Dowelhurst Ltd) (product)
+42291111000001104	Amitriptyline 10mg tablets (product)
+41543311000001100	Amitriptyline 10mg tablets (Brown & Burk UK Ltd) (product)
+13109811000001104	Amitriptyline 10mg tablets (Dowelhurst Ltd) (product)
+42141111000001107	Amitriptyline 10mg tablets (Strides Pharma UK Ltd) (product)
+13109111000001106	Amitriptyline 25mg/5ml oral solution sugar free (Dowelhurst Ltd) (product)
+13109611000001103	Amitriptyline 50mg/5ml oral solution sugar free (Dowelhurst Ltd) (product)
+110771000001100	Amitriptyline 25mg / Perphenazine 2mg tablets (product)
+112081000001100	Amitriptyline 10mg / Perphenazine 2mg tablets (product)
+41544111000001100	Amitriptyline 25mg tablets (Brown & Burk UK Ltd) 28 tablet 2 x 14 tablets (product)
+41543511000001106	Amitriptyline 10mg tablets (Brown & Burk UK Ltd) 28 tablet 2 x 14 tablets (product)
+41544311000001103	Amitriptyline 50mg tablets (Brown & Burk UK Ltd) 28 tablet 2 x 14 tablets (product)
+42142411000001107	Amitriptyline 25mg tablets (Strides Pharma UK Ltd) 28 tablet 2 x 14 tablets (product)
+42142211000001108	Amitriptyline 10mg tablets (Strides Pharma UK Ltd) 28 tablet 2 x 14 tablets (product)
+42141011000001106	Amitriptyline 50mg tablets (Strides Pharma UK Ltd) 28 tablet 2 x 14 tablets (product)
+42543911000001100	Amitriptyline 25mg tablets (Flamingo Pharma (UK) Ltd) 28 tablet 2 x 14 tablets (product)
+306801000001107	Amitriptyline+chlordiazepoxide 12.5mg/5mg capsule
+309201000001101	Amitriptyline hydrochloride 75mg m/r capsule
+427501000001108	Amitriptyline hydrochloride 100mg/10mL injection
+755301000001103	Amitriptyline 10mg/5mL oral suspension
+68401000001105	Amitriptyline hydrochloride 25mg tablet - product
+143101000001109	Amitriptyline hydrochloride 50mg tablet - product
+165301000001100	Amitriptyline hydrochloride 25mg m/r capsule
+218901000001107	Amitriptyline hydrochloride+perphenazine 25mg/2mg tablet - product
+238301000001103	Amitriptyline hydrochloride 50mg m/r capsule
+290101000001106	Amitriptyline hydrochloride+perphenazine 10mg/2mg tablet - product
+780001000001101	Amitriptyline hydrochloride 10mg tablet - product
+2474701000001105	Amitriptyline 25mg/5mL s/f oral solution - product
+2474901000001107	Amitriptyline 50mg/5mL s/f oral solution - product
+3805411000001106	Amitriptyline 10mg/5ml oral solution sugar free (product)
+3794511000001109	Amitriptyline 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) (product)
+3794111000001100	Amitriptyline 10mg/5ml oral solution sugar free 150 ml (product)
+13110611000001106	Amitriptyline 50mg tablets (Dowelhurst Ltd) 28 tablet (product)
+13110111000001103	Amitriptyline 25mg tablets (Dowelhurst Ltd) 28 tablet (product)
+13109911000001109	Amitriptyline 10mg tablets (Dowelhurst Ltd) 28 tablet (product)
+13109711000001107	Amitriptyline 50mg/5ml oral solution sugar free (Dowelhurst Ltd) 150 ml (product)
+13109311000001108	Amitriptyline 25mg/5ml oral solution sugar free (Dowelhurst Ltd) 150 ml (product)
+3794911000001102	Amitriptyline 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml (product)
+9812111000001108	Amitriptyline + Perphenazine (product)
+20448811000001100	Amitriptyline + Ketamine (product)
+20453311000001103	Amitriptyline 2% / Ketamine 1% cream (product)
+20434011000001103	Amitriptyline 2% / Ketamine 1% cream (Special Order) (product)
+20433911000001101	Amitriptyline 2% / Ketamine 1% cream 1 gram (product)
+20434111000001102	Amitriptyline 2% / Ketamine 1% cream (Special Order) 1 gram (product)
+12659401000001103	AMITRIPTYLINE 10mg/5mL sugar free oral solution
+13177201000001102	Amitriptyline 25mg/5ml oral solution sugar free (product)
+13177301000001106	Amitriptyline 50mg/5ml oral solution sugar free (product)
+13177401000001103	Amitriptyline 25mg modified-release capsules (product)
+13177501000001104	Amitriptyline 50mg modified-release capsules (product)
+44201000001108	Tryptizol 50mg tablet
+148601000001108	Tryptizol 100mg/10mL injection
+169301000001103	Tryptizol 75mg m/r capsule
+524701000001103	Tryptizol 10mg/5mL mixture
+756401000001101	Tryptizol 10mg tablet
+802801000001108	Tryptizol 25mg tablet
+80101000001104	Elavil 10mg tablet
+156501000001106	Elavil 25mg tablet
+90001000001104	Lentizol 25mg m/r capsule
+167401000001101	Lentizol 50mg m/r capsule
+9497301000001100	Lentizol (product)
+510701000001101	Domical 10mg tablet
+580701000001103	Domical 25mg tablet
+650601000001107	Domical 50mg tablet
+265501000001109	Triptafen tablet
+336001000001106	Triptafen-M tablet
+9373201000001102	Triptafen (product)
+9373301000001106	Triptafen-M (product)
+314801000001101	Limbitrol-5 capsule
+878101000001106	Limbitrol 10 capsule

@@ -1,0 +1,70 @@
+^ESCT1179287	Product containing only nefazodone hydrochloride 150 mg/1 each oral tablet
+^ESCT1181112	Product containing only nefazodone hydrochloride 200 mg/1 each oral tablet
+^ESCT1181899	Product containing only nefazodone hydrochloride 100 mg/1 each oral tablet
+^ESCT1185382	Product containing only nefazodone hydrochloride 250 mg/1 each oral tablet
+^ESCT1188313	Product containing only nefazodone hydrochloride 300 mg/1 each oral tablet
+^ESCT1188475	Product containing only nefazodone hydrochloride 50 mg/1 each oral tablet
+^ESCT1207166	Nefazodone in oral dosage form
+^ESCT1207167	Product containing nefazodone in oral dosage form
+^ESCT1215711	Generic Dutonin tablets treatment initiation pack
+^ESCT1220834	Nefazodone
+^ESCT1220835	Nefazodone product
+^ESCT1223599	Product containing precisely nefazodone hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1223600	Product containing precisely nefazodone hydrochloride 200 milligram/1 each conventional release oral tablet
+^ESCT1228697	Product containing precisely nefazodone hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1228698	Product containing precisely nefazodone hydrochloride 150 milligram/1 each conventional release oral tablet
+^ESCT1228699	Product containing precisely nefazodone hydrochloride 250 milligram/1 each conventional release oral tablet
+^ESCT1232184	Product containing precisely nefazodone hydrochloride 300 milligram/1 each conventional release oral tablet
+^ESCT1356028	Nefazodone only product
+^ESCT1359328	Nefazodone only product in oral dose form
+^ESCT1386624	Nefazodone-containing product in oral dose form
+^ESCTDU820881	Dutonin 200mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTDU829986	Dutonin 100mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTDU854859	Dutonin 100mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTDU854864	Dutonin 200mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTDU865710	Dutonin 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTDU865711	Dutonin 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 14 tablet
+^ESCTDU865713	Dutonin 100mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 14 tablet
+^ESCTDU865715	Dutonin 200mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 28 tablet
+^ESCTDU865718	Dutonin tablets treatment initiation pack (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTDU865719	Dutonin tablets treatment initiation pack (Bristol-Myers Squibb Pharmaceuticals Ltd) 56 tablet 1 x (14tabs + 14tabs + 28tabs)
+^ESCTDU914949	Dutonin
+^ESCTGE609812	Generic Dutonin tablets treatment initiation pack
+^ESCTGE865716	Generic Dutonin tablets treatment initiation pack 56 tablet
+^ESCTNE415421	Nefazodone
+^ESCTNE609806	Nefazodone 100mg tablets
+^ESCTNE609808	Nefazodone hydrochloride 100 mg oral tablet
+^ESCTNE609809	Nefazodone 200mg tablets
+^ESCTNE609811	Nefazodone hydrochloride 200 mg oral tablet
+^ESCTNE609813	Nefazodone hydrochloride 50mg+100mg+200mg initiation tablet pack
+^ESCTNE641325	Nefazodone 50mg tablets
+^ESCTNE641327	Nefazodone hydrochloride 50 mg oral tablet
+^ESCTNE641328	Nefazodone hydrochloride 150 mg oral tablet
+^ESCTNE641330	Nefazodone hydrochloride 250 mg oral tablet
+^ESCTNE682657	Nefazodone hydrochloride
+^ESCTNE683022	Nefazodone hydrochloride 300 mg oral tablet
+^ESCTNE836599	Nefazodone 200mg tablets 56 tablet
+^ESCTNE847321	Nefazodone 100mg tablets 56 tablet
+^ESCTNE865709	Nefazodone 50mg tablets 14 tablet
+^ESCTNE865712	Nefazodone 100mg tablets 14 tablet
+^ESCTNE865714	Nefazodone 200mg tablets 28 tablet
+^ESCTNE940196	Nefazodone 100mg tablets 1 tablet
+^ESCTNE940197	Nefazodone 100mg tablets (Special Order)
+^ESCTNE940198	Nefazodone 100mg tablets (Special Order) 1 tablet
+^ESCTNE940237	Nefazodone 200mg tablets 1 tablet
+^ESCTNE940238	Nefazodone 200mg tablets (Special Order)
+^ESCTNE940239	Nefazodone 200mg tablets (Special Order) 1 tablet
+^ESCTPR415422	Product containing nefazodone
+^ESCTPR609807	Product containing nefazodone hydrochloride 100 mg/1 each oral tablet
+^ESCTPR609810	Product containing nefazodone hydrochloride 200 mg/1 each oral tablet
+^ESCTPR641326	Product containing nefazodone hydrochloride 50 mg/1 each oral tablet
+^ESCTPR641329	Product containing nefazodone hydrochloride 150 mg/1 each oral tablet
+^ESCTPR641331	Product containing nefazodone hydrochloride 250 mg/1 each oral tablet
+^ESCTPR682658	Product containing nefazodone hydrochloride
+^ESCTPR683023	Product containing nefazodone hydrochloride 300 mg/1 each oral tablet
+DUTA26639EMIS	Dutonin  Tablets  100 mg
+DUTA26640EMIS	Dutonin  Tablets  200 mg
+DUTA31429EMIS	Dutonin  Tablets (starter pack)  14 x 50 mg, 14 x 100 mg, 28 x 200 mg
+NETA26643EMIS	Nefazodone Hydrochloride  Tablets  100 mg
+NETA26644EMIS	Nefazodone Hydrochloride  Tablets  200 mg
+NETA31431EMIS	Nefazodone Hydrochloride  Tablets (starter pack)  14 x 50 mg, 14 x 100 mg, 28 x 200 mg

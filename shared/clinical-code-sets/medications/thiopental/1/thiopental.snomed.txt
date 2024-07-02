@@ -38,3 +38,16 @@
 775901000001104	Thiopentone sodium 5g injection+diluent
 1037001000001105	Add-A-Med Thiopentone 2.5g injection
 2018701000001103	Add-A-Med Thiopentone 5g injection
+333818001	Intraval Sodium 500mg injection (pdr for recon) (product)
+333820003	Intraval Sodium 2.5g injection (pdr for recon) (product)
+333827000	Intraval Sodium 2.5g injection (pdr for recon)+diluent (product)
+333832004	Intraval Sodium 500mg injection (pdr for recon)+diluent (product)
+63901000001107	Intraval Sodium 500mg injection (pdr for recon)+diluent
+579401000001105	Intraval Sodium 2.5g injection (pdr for recon)
+775701000001101	Intraval Sodium 2.5g injection (pdr for recon)+diluent
+1037101000001106	Intraval + water 500mg injection
+2018501000001109	Intraval 1g injection
+2018601000001108	Intraval + water 1g injection
+2018801000001107	Intraval 5g injection
+2018901000001101	Intraval + water 5g injection
+2144801000001104	Intraval Sodium 500mg injection (pdr for recon)

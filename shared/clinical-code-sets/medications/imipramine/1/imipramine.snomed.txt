@@ -145,3 +145,44 @@
 28917211000001108	Imipramine 25mg/5ml oral solution sugar free
 37422211000001109	Imipramine 25mg/5ml oral solution sugar free
 37422311000001101	Imipramine 25mg/5ml oral solution sugar free
+36113004	Product containing imipramine (medicinal product)
+321815002	Imipramine hydrochloride [antidepressant] (product)
+321823000	Imipramine hydrochloride 10mg tablet (product)
+321824006	Imipramine hydrochloride 25mg tablet (product)
+321825007	Imipramine hydrochloride 25mg/5mL syrup (product)
+326541004	Imipramine hydrochloride [enuresis - no drugs here] (product)
+374247003	Product containing precisely imipramine pamoate 100 milligram/1 each conventional release oral capsule (clinical drug)
+374248008	Product containing precisely imipramine pamoate 125 milligram/1 each conventional release oral capsule (clinical drug)
+374249000	Product containing precisely imipramine pamoate 150 milligram/1 each conventional release oral capsule (clinical drug)
+374619009	Product containing precisely imipramine pamoate 75 milligram/1 each conventional release oral capsule (clinical drug)
+374620003	Imipramine pamoate 150mg (product)
+374622006	Imipramine pamoate 100mg (product)
+374623001	Imipramine pamoate 125mg (product)
+374626009	Product containing precisely imipramine hydrochloride 50 milligram/1 each conventional release oral tablet (clinical drug)
+375013002	Imipramine hydrochloride 25mg/amp (product)
+386685003	Imipramine hydrochloride (product)
+386686002	Imipramine pamoate (product)
+386687006	Product containing imipramine in parenteral dose form (medicinal product form)
+428719008	Product containing imipramine in oral dose form (medicinal product form)
+769132005	Product containing precisely imipramine hydrochloride 5 milligram/1 milliliter conventional release oral solution (clinical drug)
+776314002	Imipramine (product)
+779542002	Product containing only imipramine in oral dose form (medicinal product form)
+779543007	Product containing only imipramine in parenteral dose form (medicinal product form)
+1263409006	Product containing precisely imipramine hydrochloride 75 milligram/1 each conventional release oral tablet (clinical drug)
+42295311000001100	Imipramine 10mg tablets (product)
+42295411000001107	Imipramine 25mg tablets (product)
+5425111000001109	Tofranil 25mg tablets (PI) (Waymade Ltd) (product)
+16276511000001109	Tofranil 25mg tablets (Lexon (UK) Ltd) (product)
+16001000001100	Imipramine hydrochloride 10mg tablet - product
+86801000001109	Imipramine hydrochloride 25mg tablet - product
+216401000001104	Imipramine hydrochloride 25mg/5mL syrup
+16276611000001108	Tofranil 25mg tablets (Lexon (UK) Ltd) 100 tablet (product)
+5425311000001106	Tofranil 25mg tablets (PI) (Waymade Ltd) 100 tablet 10 x 10 tablets (product)
+10587301000001105	IMIPRAMINE HYDROCHLORIDE 25mg/5mL oral solution
+13177801000001101	Imipramine 25mg/5ml oral solution (product)
+193001000001102	Tofranil 10mg tablet
+263601000001109	Tofranil 25mg tablet
+638601000001106	Tofranil 25mg/5mL syrup
+9368801000001104	Tofranil (product)
+1954201000001100	Praminil 10mg tablet
+1954301000001109	Praminil 25mg tablet

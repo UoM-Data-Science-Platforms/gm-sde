@@ -26,3 +26,179 @@ THTA2846	Thioridazine  Tablets  10 mg
 THTA2847	Thioridazine  Tablets  100 mg
 THTA2848	Thioridazine  Tablets  25 mg
 THTA2849	Thioridazine  Tablets  50 mg
+^ESCT1179271	Product containing only thioridazine hydrochloride 200 mg/1 each oral tablet
+^ESCT1181082	Product containing only thioridazine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181083	Product containing only thioridazine hydrochloride 100 mg/1 each oral tablet
+^ESCT1181377	Product containing only thioridazine hydrochloride 10 mg/1 each oral tablet
+^ESCT1181378	Product containing only thioridazine hydrochloride 50 mg/1 each oral tablet
+^ESCT1185365	Product containing only thioridazine hydrochloride 150 mg/1 each oral tablet
+^ESCT1188466	Product containing only thioridazine hydrochloride 15 mg/1 each oral tablet
+^ESCT1204552	Thioridazine 100mg/mL conventional release oral solution
+^ESCT1204553	Thioridazine 50mg/5mL conventional release oral solution
+^ESCT1204554	Thioridazine hydrochloride 30mg/ml conventional release oral solution
+^ESCT1217851	Thioridazine
+^ESCT1217852	Thioridazine product
+^ESCT1223434	Product containing precisely thioridazine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223435	Product containing precisely thioridazine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223436	Product containing precisely thioridazine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223437	Product containing precisely thioridazine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1223438	Thioridazine 5 mg/mL oral suspension
+^ESCT1223439	Product containing precisely thioridazine 5 milligram/1 milliliter conventional release oral suspension
+^ESCT1223440	Product containing precisely thioridazine 20 milligram/1 milliliter conventional release oral suspension
+^ESCT1223441	Thioridazine 20 mg/mL oral suspension
+^ESCT1223442	Thioridazine (as thioridazine hydrochloride) 5 mg/mL oral solution
+^ESCT1223443	Product containing precisely thioridazine (as thioridazine hydrochloride) 5 milligram/1 milliliter conventional release oral solution
+^ESCT1228614	Product containing precisely thioridazine hydrochloride 150 milligram/1 each conventional release oral tablet
+^ESCT1228615	Product containing precisely thioridazine hydrochloride 200 milligram/1 each conventional release oral tablet
+^ESCT1228616	Product containing precisely thioridazine hydrochloride 15 milligram/1 each conventional release oral tablet
+^ESCT1356952	Thioridazine only product
+^ESCT1360027	Thioridazine only product in oral dose form
+^ESCT1364075	Thioridazine hydrochloride 10 mg/mL oral solution
+^ESCT1364156	Thioridazine 2 mg/mL oral solution
+^ESCT1364157	Thioridazine 30 mg/mL oral solution
+^ESCT1382065	Thioridazine-containing product in oral dose form
+^ESCT1385923	Thioridazine (as thioridazine hydrochloride) 100 mg/mL oral solution
+^ESCT1425683	Thioridazine 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425718	Thioridazine 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425792	Thioridazine 25mg/5ml oral solution (Kent Pharma (UK) Ltd)
+^ESCT1425836	Thioridazine 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426394	Thioridazine 25mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426395	Thioridazine 25mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1426396	Thioridazine 50mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426397	Thioridazine 100mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426430	Thioridazine 25mg/5ml oral solution (Kent Pharma (UK) Ltd) 150 ml
+^ESCTME801893	Melleril 25mg/5ml oral suspension (Novartis Pharmaceuticals UK Ltd)
+^ESCTME804868	Melleril 25mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTME819977	Melleril 100mg/5ml oral suspension (Novartis Pharmaceuticals UK Ltd)
+^ESCTME821470	Melleril 10mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTME824777	Melleril 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd)
+^ESCTME830892	Melleril 50mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTME830912	Melleril 100mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTME855570	Melleril 10mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTME855580	Melleril 25mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTME855589	Melleril 50mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTME855597	Melleril 100mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTME855618	Melleril 25mg/5ml oral suspension (Novartis Pharmaceuticals UK Ltd) 300 ml
+^ESCTME855620	Melleril 100mg/5ml oral suspension (Novartis Pharmaceuticals UK Ltd) 300 ml
+^ESCTME855973	Melleril 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd) 300 ml
+^ESCTME919288	Melleril
+^ESCTPR304038	Product containing thioridazine
+^ESCTPR609349	Product containing thioridazine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609352	Product containing thioridazine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609355	Product containing thioridazine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR609358	Product containing thioridazine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR641126	Product containing thioridazine hydrochloride 150 mg/1 each oral tablet
+^ESCTPR641128	Product containing thioridazine hydrochloride 200 mg/1 each oral tablet
+^ESCTPR641130	Product containing thioridazine hydrochloride 15 mg/1 each oral tablet
+^ESCTPR645760	Product containing thioridazine in oral dosage form
+^ESCTRI818110	Rideril 50mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI820793	Rideril 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI833784	Rideril 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI855578	Rideril 25mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTRI855579	Rideril 25mg tablets (Dr Reddy's Laboratories (UK) Ltd) 500 tablet
+^ESCTRI855587	Rideril 50mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTRI855588	Rideril 50mg tablets (Dr Reddy's Laboratories (UK) Ltd) 500 tablet
+^ESCTRI855596	Rideril 100mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTRI916036	Rideril
+^ESCTTH1011373	Thioridazine 10mg tablets 1 tablet
+^ESCTTH1011374	Thioridazine 10mg tablets (Special Order)
+^ESCTTH1011375	Thioridazine 10mg tablets (Special Order) 1 tablet
+^ESCTTH1011376	Thioridazine 25mg tablets 1 tablet
+^ESCTTH1011377	Thioridazine 25mg tablets (Special Order)
+^ESCTTH1011378	Thioridazine 25mg tablets (Special Order) 1 tablet
+^ESCTTH1011379	Thioridazine 50mg tablets 1 tablet
+^ESCTTH1011381	Thioridazine 50mg tablets (Special Order)
+^ESCTTH1011383	Thioridazine 50mg tablets (Special Order) 1 tablet
+^ESCTTH304037	Thioridazine
+^ESCTTH609346	Thioridazine 10mg/5mL syrup
+^ESCTTH609347	Thioridazine 50mg/5mL s/f oral solution
+^ESCTTH609348	Thioridazine 10mg tablets
+^ESCTTH609350	Thioridazine hydrochloride 10 mg oral tablet
+^ESCTTH609351	Thioridazine 25mg tablets
+^ESCTTH609353	Thioridazine hydrochloride 25 mg oral tablet
+^ESCTTH609354	Thioridazine 50mg tablets
+^ESCTTH609356	Thioridazine hydrochloride 50 mg oral tablet
+^ESCTTH609357	Thioridazine 100mg tablets
+^ESCTTH609359	Thioridazine hydrochloride 100 mg oral tablet
+^ESCTTH609360	Thioridazine 25mg/5ml oral suspension
+^ESCTTH609361	Thioridazine 25mg/5mL oral suspension
+^ESCTTH609362	Thioridazine 100mg/5ml oral suspension
+^ESCTTH609363	Thioridazine 100mg/5mL oral suspension
+^ESCTTH609364	Thioridazine 25mg/5ml oral solution
+^ESCTTH609365	Thioridazine 25mg/5mL oral solution
+^ESCTTH641124	Thioridazine hydrochloride 30mg/ml oral concentrate
+^ESCTTH641125	Thioridazine hydrochloride 150 mg oral tablet
+^ESCTTH641127	Thioridazine hydrochloride 200 mg oral tablet
+^ESCTTH641129	Thioridazine hydrochloride 15 mg oral tablet
+^ESCTTH641146	Thioridazine 100mg/mL oral concentrate
+^ESCTTH645759	Thioridazine in oral dosage form
+^ESCTTH800116	Thioridazine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTH800416	Thioridazine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTH800932	Thioridazine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTH804366	Thioridazine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTH808052	Thioridazine 25mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTTH816612	Thioridazine 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTH819280	Thioridazine 25mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTTH819536	Thioridazine 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTH819681	Thioridazine 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTH819957	Thioridazine 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTH821289	Thioridazine 25mg/5ml oral solution (Kent Pharmaceuticals Ltd)
+^ESCTTH824319	Thioridazine 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTH829460	Thioridazine 25mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTTH839182	Thioridazine 25mg/5ml oral solution 300 ml
+^ESCTTH839778	Thioridazine 100mg tablets 84 tablet
+^ESCTTH842611	Thioridazine 50mg tablets 100 tablet
+^ESCTTH844211	Thioridazine 25mg/5ml oral solution 150 ml
+^ESCTTH844596	Thioridazine 50mg tablets 84 tablet
+^ESCTTH845305	Thioridazine 100mg tablets 100 tablet
+^ESCTTH846919	Thioridazine 100mg/5ml oral suspension 300 ml
+^ESCTTH847178	Thioridazine 25mg tablets 500 tablet
+^ESCTTH847314	Thioridazine 50mg tablets 28 tablet
+^ESCTTH847330	Thioridazine 100mg tablets 28 tablet
+^ESCTTH847434	Thioridazine 25mg tablets 100 tablet
+^ESCTTH847601	Thioridazine 50mg tablets 500 tablet
+^ESCTTH847648	Thioridazine 25mg/5ml oral suspension 300 ml
+^ESCTTH848109	Thioridazine 25mg tablets 28 tablet
+^ESCTTH848303	Thioridazine 10mg tablets 84 tablet
+^ESCTTH848658	Thioridazine 25mg tablets 84 tablet
+^ESCTTH855574	Thioridazine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTTH855575	Thioridazine 25mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTTH855576	Thioridazine 25mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTTH855577	Thioridazine 25mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTTH855581	Thioridazine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTTH855582	Thioridazine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTTH855583	Thioridazine 50mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTTH855584	Thioridazine 50mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTTH855585	Thioridazine 50mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTTH855586	Thioridazine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTTH855592	Thioridazine 100mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTTH855594	Thioridazine 100mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTTH855595	Thioridazine 100mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTTH855598	Thioridazine 100mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTTH855970	Thioridazine 25mg/5ml oral solution (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTTH855972	Thioridazine 25mg/5ml oral solution (Kent Pharmaceuticals Ltd) 150 ml
+^ESCTTH855975	Thioridazine 25mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTTH855977	Thioridazine 25mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTTH940219	Thioridazine 25mg/5ml oral solution 1 ml
+^ESCTTH940220	Thioridazine 25mg/5ml oral solution (Special Order)
+^ESCTTH940221	Thioridazine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTTH975414	Thioridazine 50mg/5ml oral suspension 1 ml
+^ESCTTH975415	Thioridazine 50mg/5ml oral suspension (Special Order)
+^ESCTTH975416	Thioridazine 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTH975458	Thioridazine 50mg/5ml oral suspension
+^ESCTTH978672	Thioridazine 100mg tablets (Special Order)
+^ESCTTH978673	Thioridazine 100mg tablets 1 tablet
+^ESCTTH978674	Thioridazine 100mg tablets (Special Order) 1 tablet
+THSY37209MGEMIS	Thioridazine  Syrup  25 mg/5 ml (Unichem)
+THSY37210MGEMIS	Thioridazine  Syrup  25 mg/5 ml (Rosemont Pharm)
+THSY37211MGEMIS	Thioridazine  Syrup  25 mg/5 ml (Kent Pharm)
+THSY37212MGEMIS	Thioridazine  Syrup  25 mg/5 ml (A.A.H. Pharm)
+THTA37213MGEMIS	Thioridazine  Tablets  100 mg (Unichem)
+THTA37214MGEMIS	Thioridazine  Tablets  100 mg (A.A.H. Pharm)
+THTA37215MGEMIS	Thioridazine  Tablets  100 mg (Kent Pharm)
+THTA37216MGEMIS	Thioridazine  Tablets  25 mg (Unichem)
+THTA37217MGEMIS	Thioridazine  Tablets  25 mg (A.A.H. Pharm)
+THTA37218MGEMIS	Thioridazine  Tablets  25 mg (Kent Pharm)
+THTA37219MGEMIS	Thioridazine  Tablets  50 mg (Unichem)
+THTA37220MGEMIS	Thioridazine  Tablets  50 mg (A.A.H. Pharm)
+THTA37221MGEMIS	Thioridazine  Tablets  50 mg (Kent Pharm)

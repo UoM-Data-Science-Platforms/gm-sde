@@ -1,0 +1,53 @@
+^ESCTAR475938	Arthritis caused by Mycobacterium tuberculosis
+^ESCTCE337727	Cervical tuberculous lymphadenitis
+^ESCTCO311162	Concato disease
+^ESCTGH393589	Ghon tubercle
+^ESCTGH393590	Ghon complex
+^ESCTIN474101	Infiltrative tuberculosis of lung
+^ESCTLA364390	Laryngeal tuberculosis
+^ESCTLI265565	Lichen scrofulosorum
+^ESCTLU266735	Lupus exedens
+^ESCTLV266737	LV - Lupus vulgaris
+^ESCTMT326982	MTB - Miliary tuberculosis
+^ESCTNO381104	Nodular tuberculosis of lung
+^ESCTOC329457	Ocular tuberculosis
+^ESCTPA316295	Papulonecrotic tuberculid
+^ESCTPA316296	Papulonecrotic tuberculide
+^ESCTPO286704	Post-tuberculous bronchiectasis
+^ESCTPR304534	Prosector's wart
+^ESCTPR311161	Progressive malignant polyserositis
+^ESCTPR352961	Primary tuberculosis
+^ESCTPR352963	Primary (TB) tuberculosis
+^ESCTPR474099	Primary progressive tuberculosis with tuberculous pleurisy
+^ESCTPT451460	PTB - Pulmonary tuberculosis
+^ESCTRE276024	Retroperitoneal tuberculosis
+^ESCTSC337728	Scrofula
+^ESCTSC384703	Scrofuloderma
+^ESCTTB256970	TB - Urogenital tuberculosis
+^ESCTTB342137	TB - Tuberculosis
+^ESCTTB420023	TB - Urinary tuberculosis
+^ESCTTB451461	TB - Pulmonary tuberculosis
+^ESCTTU256969	Tuberculosis of genitourinary system
+^ESCTTU265564	Tuberculosis cutis lichenoides
+^ESCTTU266736	Tuberculosis cutis luposa
+^ESCTTU266738	Tuberculosis lupus exedens
+^ESCTTU266739	Tuberculosis luposa cutis
+^ESCTTU273007	Tuberculous pleural empyema
+^ESCTTU278008	Tuberculosis of bones and/or joints
+^ESCTTU337729	Tuberculosis of cervical lymph nodes
+^ESCTTU345467	Tuberculous osteomyelitis
+^ESCTTU364389	Tuberculosis of larynx
+^ESCTTU364391	Tuberculosis (TB) with laryngitis
+^ESCTTU371263	Tuberculosis with erythema nodosum AND hypersensitivity reaction
+^ESCTTU371264	Tuberculosis (TB) with erythema nodosum
+^ESCTTU376360	Tuberculosis of trachea
+^ESCTTU384705	Tuberculosis colliquativa cutis
+^ESCTTU389296	Tuberculous tracheobronchial adenopathy
+^ESCTTU474106	Tuberculous pleuritis
+^ESCTTU475936	Tuberculous arthropathy
+^ESCTTU475937	Tuberculous rheumatism
+^ESCTUR256971	Urogenital tuberculosis
+^ESCTUR420022	Urinary tuberculosis
+^ESCTVE304532	Verruca necrogenica
+^ESCTWA304533	Warty tuberculosis
+EMISNQTU1	Tuberculosis of urinary tract

@@ -7,3 +7,13 @@ d7cy.	Nortriptyline 25mg capsule
 d914.	Motival tablet
 d91A.	Fluphenazine hydrochloride+nortriptyline 500micrograms/10mg tablet
 x00fc	Motipress tablet
+d7c..	Nortriptyline
+d7c4.	Aventyl 25mg capsule
+d7c3.	Aventyl 10mg capsule
+d7c7.	Nortriptyline 10mg/5mL liquid
+d7c5.	Aventyl 10mg/5mL liquid
+d919.	Fluphenazine hydrochloride+nortriptyline 1.5mg/30mg tablet
+d913.	Motipress tablets X28CP
+x02TH	Allegron
+x03sw	Motipress
+x02jy	Motival

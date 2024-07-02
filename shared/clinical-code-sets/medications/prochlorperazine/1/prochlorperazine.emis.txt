@@ -1,0 +1,286 @@
+^ESCT1181115	Product containing only prochlorperazine maleate 25 mg/1 each oral tablet
+^ESCT1181908	Product containing only prochlorperazine maleate 5 mg/1 each oral tablet
+^ESCT1185418	Product containing only prochlorperazine 15 mg/1 each oral capsule
+^ESCT1185419	Product containing only prochlorperazine maleate 10 mg/1 each oral tablet
+^ESCT1185932	Prochlorperazine 5mg tablets (Mylan)
+^ESCT1188503	Product containing only prochlorperazine 10 mg/1 each oral capsule
+^ESCT1188688	Prochlorperazine 5mg tablets (Mylan) 84 tablet 3 x 28 tablets
+^ESCT1197914	Prochlorperazine 3mg buccal tablets (Teva UK Ltd)
+^ESCT1197915	Prochlorperazine 3mg buccal tablets (Teva UK Ltd) 50 tablet
+^ESCT1206066	Prochlorperazine in oromucosal dosage form
+^ESCT1206067	Product containing prochlorperazine in oromucosal dosage form
+^ESCT1208748	Prochlorperazine mesylate 1 mg/mL oral solution
+^ESCT1208749	Product containing precisely prochlorperazine mesylate 1 milligram/1 milliliter conventional release oral solution
+^ESCT1210045	Prochlorperazine mesylate 12.5 mg/mL solution for injection ampoule
+^ESCT1210046	Product containing precisely prochlorperazine mesylate 12.5 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210047	Prochlorperazine mesylate 12.5 mg/mL solution for injection ampule
+^ESCT1212487	Vertigon
+^ESCT1213524	Vertigon 25mg tablets (Manx Healthcare Ltd)
+^ESCT1213526	Vertigon 25mg tablets (Manx Healthcare Ltd) 28 tablet
+^ESCT1213527	Vertigon 25mg tablets (Manx Healthcare Ltd) 10 tablet
+^ESCT1214247	Prochlorperazine 3mg buccal tablets (Medreich Plc)
+^ESCT1214248	Prochlorperazine 3mg buccal tablets (Medreich Plc) 50 tablet 5 x 10 tablets
+^ESCT1215096	Prochlorperazine 3mg buccal tablets (Morningside Healthcare Ltd)
+^ESCT1215097	Prochlorperazine 3mg buccal tablets (Morningside Healthcare Ltd) 8 tablet
+^ESCT1215098	Prochlorperazine 3mg buccal tablets (Morningside Healthcare Ltd) 50 tablet
+^ESCT1215309	Prochlorperazine 12.5mg/1ml solution for injection ampoules
+^ESCT1215310	Prochlorperazine 5mg/5ml oral solution
+^ESCT1215518	Prochlorperazine 3mg buccal tablets (Medreich Plc) 8 tablet
+^ESCT1215519	Prochlorperazine 5mg tablets (Medreich Plc)
+^ESCT1215520	Prochlorperazine 5mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1215521	Prochlorperazine 5mg tablets (Medreich Plc) 84 tablet 6 x 14 tablets
+^ESCT1219878	Prochlorperazine
+^ESCT1219879	Prochlorperazine product
+^ESCT1223644	Prochlorperazine mesylate 5 mg effervescent oral granules sachet
+^ESCT1223645	Product containing precisely prochlorperazine mesylate 5 milligram/1 sachet conventional release effervescent oral granules
+^ESCT1223646	Product containing precisely prochlorperazine maleate 3 milligram/1 each conventional release buccal tablet
+^ESCT1223647	Prochlorperazine maleate 3 mg buccal tablet
+^ESCT1223648	Product containing precisely prochlorperazine maleate 5 milligram/1 each conventional release oral tablet
+^ESCT1223649	Product containing precisely prochlorperazine maleate 25 milligram/1 each conventional release oral tablet
+^ESCT1223650	Prochlorperazine maleate 5 mg rectal suppository
+^ESCT1223651	Product containing precisely prochlorperazine maleate 5 milligram/1 each conventional release rectal suppository
+^ESCT1223652	Prochlorperazine maleate 25 mg rectal suppository
+^ESCT1223653	Product containing precisely prochlorperazine maleate 25 milligram/1 each conventional release rectal suppository
+^ESCT1228888	Prochlorperazine 10 mg/1 each oral capsule
+^ESCT1228889	Prochlorperazine 10 mg oral capsule
+^ESCT1228890	Product containing precisely prochlorperazine 10 milligram/1 each conventional release oral capsule
+^ESCT1228891	Prochlorperazine 15 mg/1 each oral capsule
+^ESCT1228892	Product containing precisely prochlorperazine 15 milligram/1 each conventional release oral capsule
+^ESCT1228893	Prochlorperazine 15 mg oral capsule
+^ESCT1228894	Product containing precisely prochlorperazine maleate 10 milligram/1 each conventional release oral tablet
+^ESCT1250376	Prochlorperazine 12.5mg/1ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250377	Prochlorperazine 12.5mg/1ml solution for injection ampoules (Advanz Pharma) 10 ampoule
+^ESCT1250716	Prochlorperazine 3mg buccal tablets (Advanz Pharma)
+^ESCT1250717	Prochlorperazine 3mg buccal tablets (Advanz Pharma) 50 tablet
+^ESCT1275535	Prochlorperazine 3mg buccal tablets (DE Pharmaceuticals)
+^ESCT1275536	Prochlorperazine 3mg buccal tablets (DE Pharmaceuticals) 50 tablet
+^ESCT1276771	Prochlorperazine 5mg tablets (Accord Healthcare Ltd)
+^ESCT1276772	Prochlorperazine 5mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCT1280884	Prochlorperazine 3mg buccal tablets (A A H Pharmaceuticals Ltd) 8 tablet
+^ESCT1356508	Prochlorperazine only product
+^ESCT1359670	Prochlorperazine only product in oral dose form
+^ESCT1359671	Prochlorperazine only product in oromucosal dose form
+^ESCT1359672	Prochlorperazine only product in parenteral dose form
+^ESCT1359673	Prochlorperazine only product in rectal dose form
+^ESCT1361264	Prochlorperazine mesilate 12.5 mg/mL solution for injection
+^ESCT1361265	Prochlorperazine mesylate 12.5 mg/mL solution for injection
+^ESCT1364182	Prochlorperazine 1 mg/mL oral solution
+^ESCT1381307	Prochlorperazine-containing product in oral dose form
+^ESCT1381308	Prochlorperazine-containing product in parenteral dose form
+^ESCT1381309	Prochlorperazine-containing product in rectal dose form
+^ESCT1381967	Prochlorperazine 2.5 mg rectal suppository
+^ESCT1386108	Prochlorperazine-containing product in oromucosal dose form
+^ESCT1387106	Prochlorperazine mesilate 1 mg/mL oral solution
+^ESCT1402387	Prochlorperazine 5mg tablets (Accord Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1403076	Prochlorperazine 3mg buccal tablets (Alliance Healthcare (Distribution) Ltd) 8 tablet
+^ESCT1403476	Prochlorperazine 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403477	Prochlorperazine 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403478	Prochlorperazine 3mg buccal tablets (Medihealth (Northern) Ltd)
+^ESCT1403479	Prochlorperazine 5mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1403481	Prochlorperazine 3mg buccal tablets (Medihealth (Northern) Ltd) 50 tablet
+^ESCT1425802	Prochlorperazine 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426062	Prochlorperazine 5mg tablets (Kent Pharma (UK) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1426063	Prochlorperazine 5mg tablets (Kent Pharma (UK) Ltd) 1000 tablet
+^ESCT1426838	Prochlorperazine 5mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1435521	Prochlorperazine 3mg buccal tablets (DE Pharmaceuticals) 8 tablet
+^ESCT1436786	Prochlorperazine 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437209	Prochlorperazine 5mg tablets (Viatris UK Healthcare Ltd) 84 tablet 3 x 28 tablets
+^ESCTBU805624	Buccastem M 3mg tablets (Alliance Pharmaceuticals Ltd)
+^ESCTBU833063	Buccastem 3mg tablets (Alliance Pharmaceuticals Ltd)
+^ESCTBU850166	Buccastem 3mg tablets (Alliance Pharmaceuticals Ltd) 50 tablet
+^ESCTBU850170	Buccastem M 3mg tablets (Alliance Pharmaceuticals Ltd) 8 tablet
+^ESCTBU920195	Buccastem
+^ESCTBU966299	Buccastem 3mg tablets (DE Pharmaceuticals)
+^ESCTBU966302	Buccastem 3mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTOR645747	Oral form prochlorperazine m/r capsule
+^ESCTPR1005890	Prochlorperazine 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPR1005891	Prochlorperazine 5mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTPR1005892	Prochlorperazine 5mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTPR1027961	Prochlorperazine 5mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTPR1027962	Prochlorperazine 5mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet
+^ESCTPR1042111	Prochlorperazine 5mg tablets (Waymade Healthcare Plc)
+^ESCTPR1042112	Prochlorperazine 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTPR1042113	Prochlorperazine 5mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTPR1054285	Prochlorperazine 3mg buccal tablets (Focus Pharmaceuticals Ltd)
+^ESCTPR1054287	Prochlorperazine 3mg buccal tablets (Focus Pharmaceuticals Ltd) 50 tablet
+^ESCTPR1057210	Prochlorperazine 3mg buccal tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1057211	Prochlorperazine 3mg buccal tablets (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTPR1059083	Prochlorperazine 3mg buccal tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR1059086	Prochlorperazine 3mg buccal tablets (A A H Pharmaceuticals Ltd) 50 tablet
+^ESCTPR1119605	Prochlorperazine 5mg tablets (DE Pharmaceuticals)
+^ESCTPR1119606	Prochlorperazine 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTPR1119607	Prochlorperazine 5mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCTPR1127066	Prochlorperazine 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1127067	Prochlorperazine 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTPR1127068	Prochlorperazine 5mg tablets (Mawdsley-Brooks & Company Ltd) 84 tablet
+^ESCTPR378684	Prochlorperazine
+^ESCTPR378685	Product containing prochlorperazine
+^ESCTPR609902	Prochlorperazine 5mg effervescent granules sachets sugar free
+^ESCTPR609903	Prochlorperazine mesylate 5mg/sachet effervescent granules
+^ESCTPR609904	Prochlorperazine 3mg buccal tablets
+^ESCTPR609905	Prochlorperazine maleate 3mg buccal tablet
+^ESCTPR609906	Prochlorperazine 5mg tablets
+^ESCTPR609907	Product containing prochlorperazine maleate 5 mg/1 each oral tablet
+^ESCTPR609908	Prochlorperazine maleate 5 mg oral tablet
+^ESCTPR609909	Prochlorperazine 25mg tablets
+^ESCTPR609910	Product containing prochlorperazine maleate 25 mg/1 each oral tablet
+^ESCTPR609911	Prochlorperazine maleate 25 mg oral tablet
+^ESCTPR609912	Prochlorperazine 5mg/5ml oral solution
+^ESCTPR609913	Prochlorperazine mesylate 5mg/5mL syrup
+^ESCTPR609914	Prochlorperazine 12.5mg/1ml solution for injection ampoules
+^ESCTPR609915	Prochlorperazine mesylate 12.5mg/1mL injection
+^ESCTPR609916	Prochlorperazine mesylate 12.5mg/mL injection solution 1mL ampoule
+^ESCTPR609917	Prochlorperazine mesylate 12.5mg/mL injection solution 1mL ampule
+^ESCTPR609918	Prochlorperazine 5mg suppositories
+^ESCTPR609919	Prochlorperazine maleate 5mg suppository
+^ESCTPR609920	Prochlorperazine 25mg suppositories
+^ESCTPR609921	Prochlorperazine maleate 25mg suppository
+^ESCTPR609922	Prochlorperazine maleate 25mg pessary
+^ESCTPR609923	Prochlorperazine 25mg suppository
+^ESCTPR618964	Prochlorperazine in oral dosage form
+^ESCTPR618965	Product containing prochlorperazine in oral dosage form
+^ESCTPR618966	Prochlorperazine in parenteral dosage form
+^ESCTPR618967	Product containing prochlorperazine in parenteral dosage form
+^ESCTPR618968	Prochlorperazine in rectal dosage form
+^ESCTPR618969	Product containing prochlorperazine in rectal dosage form
+^ESCTPR640744	Prochlorperazine maleate 15mg spanule capsule
+^ESCTPR641766	Prochlorperazine 10 mg/1 each oral capsule
+^ESCTPR641767	Product containing prochlorperazine 10 mg/1 each oral capsule
+^ESCTPR641768	Prochlorperazine 15 mg/1 each oral capsule
+^ESCTPR641769	Product containing prochlorperazine 15 mg/1 each oral capsule
+^ESCTPR641770	Prochlorperazine 2.5mg suppository
+^ESCTPR641773	Prochlorperazine edisylate 5mg/5mL syrup
+^ESCTPR641774	Prochlorperazine maleate 10 mg oral tablet
+^ESCTPR641775	Product containing prochlorperazine maleate 10 mg/1 each oral tablet
+^ESCTPR663804	Prochlorperazine edisylate 5mg/mL injection solution 2mL vial
+^ESCTPR664004	Prochlorperazine edisylate 5mg/mL injection solution 1mL vial
+^ESCTPR664005	Prochlorperazine edisylate 5mg/mL injection
+^ESCTPR664482	Prochlorperazine edisylate 5mg/mL injection solution 10mL vial
+^ESCTPR802514	Prochlorperazine 5mg tablets (Mylan Ltd)
+^ESCTPR807845	Prochlorperazine 5mg tablets (Actavis UK Ltd)
+^ESCTPR810945	Prochlorperazine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR811390	Proziere 5mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTPR819407	Prochlorperazine 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTPR821503	Prochlorperazine 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR824549	Prochlorperazine 5mg tablets (Teva UK Ltd)
+^ESCTPR831825	Prochlorperazine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR835414	Prochlorperazine 5mg tablets 28 tablet
+^ESCTPR841189	Prochlorperazine 12.5mg/1ml solution for injection ampoules 10 ampoule
+^ESCTPR847055	Prochlorperazine 5mg suppositories 10 suppository
+^ESCTPR847231	Prochlorperazine 3mg buccal tablets 50 tablet
+^ESCTPR847562	Prochlorperazine 5mg/5ml oral solution 100 ml
+^ESCTPR847822	Prochlorperazine 5mg effervescent granules sachets sugar free 21 sachet
+^ESCTPR848000	Prochlorperazine 25mg suppositories 10 suppository
+^ESCTPR848513	Prochlorperazine 5mg tablets 84 tablet
+^ESCTPR848590	Prochlorperazine 5mg tablets 1000 tablet
+^ESCTPR848625	Prochlorperazine 25mg tablets 56 tablet
+^ESCTPR848644	Prochlorperazine 3mg buccal tablets 8 tablet
+^ESCTPR849972	Prochlorperazine 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR849987	Prochlorperazine 5mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTPR849991	Prochlorperazine 5mg tablets (A A H Pharmaceuticals Ltd) 1000 tablet
+^ESCTPR850002	Prochlorperazine 5mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR850004	Prochlorperazine 5mg tablets (Actavis UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTPR850008	Prochlorperazine 5mg tablets (Teva UK Ltd) 84 tablet 3 x 28 tablets
+^ESCTPR850052	Proziere 5mg tablets (Ashbourne Pharmaceuticals Ltd) 84 tablet
+^ESCTPR850069	Prochlorperazine 5mg tablets (Mylan Ltd) 84 tablet 3 x 28 tablets
+^ESCTPR850072	Prochlorperazine 5mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR850074	Prochlorperazine 5mg tablets (IVAX Pharmaceuticals UK Ltd) 84 tablet
+^ESCTPR850076	Prochlorperazine 5mg tablets (Kent Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTPR850078	Prochlorperazine 5mg tablets (Kent Pharmaceuticals Ltd) 1000 tablet
+^ESCTPR850083	Prochlorperazine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR850087	Prochlorperazine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 3 x 28 tablets
+^ESCTPR850089	Prochlorperazine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 1000 tablet
+^ESCTPR866275	Prochlorperazine 12.5mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPR866276	Prochlorperazine 12.5mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTPR878311	Prochlorperazine 5mg tablets 100 tablet
+^ESCTPR898405	Prochlorperazine 5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR915803	Proziere
+^ESCTPR931214	Prochlorperazine 5mg tablets (Teva UK Ltd) 28 tablet
+^ESCTPR931558	Prochlorperazine 12.5mg/1ml solution for injection ampoules (AMCo)
+^ESCTPR931559	Prochlorperazine 12.5mg/1ml solution for injection ampoules (AMCo) 10 ampoule
+^ESCTPR935303	Prochlorperazine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTPR935305	Prochlorperazine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 1000 tablet
+^ESCTPR935306	Prochlorperazine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 84 tablet
+^ESCTPR935307	Prochlorperazine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTPR960604	Prochlorperazine 5mg tablets (Dowelhurst Ltd)
+^ESCTPR960605	Prochlorperazine 5mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTPR960606	Prochlorperazine 5mg tablets (Dowelhurst Ltd) 1000 tablet
+^ESCTPR960607	Prochlorperazine 5mg tablets (Dowelhurst Ltd) 84 tablet
+^ESCTPR962914	Prochlorperazine 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPR962915	Prochlorperazine 5mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR979129	Prochlorperazine 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR979130	Prochlorperazine 5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTPR979131	Prochlorperazine 5mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTPR982466	Prochlorperazine 5mg suppositories 1 suppository
+^ESCTPR982467	Prochlorperazine 5mg suppositories (Special Order)
+^ESCTPR982469	Prochlorperazine 5mg suppositories (Special Order) 1 suppository
+^ESCTPR982480	Prochlorperazine 25mg suppositories 1 suppository
+^ESCTPR982481	Prochlorperazine 25mg suppositories (Special Order)
+^ESCTPR982482	Prochlorperazine 25mg suppositories (Special Order) 1 suppository
+^ESCTPR987970	Prochlorperazine 5mg tablets (Bristol Laboratories Ltd)
+^ESCTPR987971	Prochlorperazine 5mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR987972	Prochlorperazine 5mg tablets (Bristol Laboratories Ltd) 84 tablet 7 x 12 tablets
+^ESCTST1001522	Stemetil 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTST1001523	Stemetil 5mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTST1007997	Stemetil 5mg tablets (Sanofi) 28 tablet
+^ESCTST1012279	Stemetil 5mg tablets (DE Pharmaceuticals)
+^ESCTST1012280	Stemetil 5mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTST1017633	Stemetil 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTST801755	Stemetil 25mg suppositories (Sanofi)
+^ESCTST803069	Stemetil 5mg tablets (Sanofi)
+^ESCTST811085	Stemetil 5mg/5ml syrup (Sanofi)
+^ESCTST811877	Stemetil 25mg tablets (Sanofi)
+^ESCTST820306	Stemetil Eff 5mg sachets (Sanofi)
+^ESCTST820496	Stemetil 5mg suppositories (Sanofi)
+^ESCTST823854	Stemetil 12.5mg/1ml solution for injection ampoules (Sanofi)
+^ESCTST850055	Stemetil 5mg tablets (Sanofi) 84 tablet 3 x 28 tablets
+^ESCTST855365	Stemetil 5mg/5ml syrup (Sanofi) 100 ml
+^ESCTST855374	Stemetil 25mg tablets (Sanofi) 56 tablet 2 x 28 tablets
+^ESCTST855377	Stemetil 25mg suppositories (Sanofi) 10 suppository
+^ESCTST855378	Stemetil 5mg suppositories (Sanofi) 10 suppository
+^ESCTST856760	Stemetil Eff 5mg sachets (Sanofi) 21 sachet
+^ESCTST857008	Stemetil 12.5mg/1ml solution for injection ampoules (Sanofi) 10 ampoule
+^ESCTST878313	Stemetil 5mg tablets (Waymade Healthcare Plc)
+^ESCTST878315	Stemetil 5mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTST916410	Stemetil
+^ESCTST933536	Stemetil 5mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTST971793	Stemetil 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTST971796	Stemetil 5mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTST989951	Stemetil 5mg tablets (Lexon (UK) Ltd)
+^ESCTST989953	Stemetil 5mg tablets (Lexon (UK) Ltd) 100 tablet
+BUBU16112NEMIS	Buccastem M  Buccal tablets  3 mg
+BUTA5692	Buccastem  Buccal tablets  3 mg
+PREF10691BRIDL	Prochlorperazine Mesylate  Eff sachets  Sugar Free 5 mg/sachet
+PREF17898NEMIS	Prochlorperazine Mesilate  Effervescent Granules, Sugar Free  5 mg/sachet
+PRIN17899NEMIS	Prochlorperazine Mesilate  Injection  12.5 mg/ml, 1 ml ampoule
+PRIN18855EMIS	Prochlorperazine Mesylate  Injection  12.5 mg/1 ml ampoule
+PRIN18856EMIS	Prochlorperazine Mesylate  Injection  25 mg/2 ml
+PRIN38315MGEMIS	Prochlorperazine Mesilate  Injection  12.5 mg/ml, 1 ml ampoule (A.A.H. Pharm)
+PRSP5338	Prochlorperazine Maleate  Spansules  10 mg
+PRSP7111	Prochlorperazine Maleate  Spansules  15 mg
+PRSU2354	Prochlorperazine Maleate  Suppositories  25 mg
+PRSU2355	Prochlorperazine Maleate  Suppositories  5 mg
+PRSY17901NEMIS	Prochlorperazine Mesilate  Oral solution  5 mg/5 ml
+PRSY7189	Prochlorperazine Mesylate  Syrup  5 mg/5 ml
+PRTA18850EMIS	Proziere  Tablets  5 mg
+PRTA2357	Prochlorperazine Maleate  Tablets  25 mg
+PRTA2358	Prochlorperazine Maleate  Tablets  5 mg
+PRTA36694MGEMIS	Prochlorperazine Maleate  Tablets  5 mg (Generics (UK))
+PRTA36695MGEMIS	Prochlorperazine Maleate  Tablets  5 mg (Alpharma)
+PRTA36696MGEMIS	Prochlorperazine Maleate  Tablets  5 mg (A.A.H. Pharm)
+PRTA36697MGEMIS	Prochlorperazine Maleate  Tablets  5 mg (Ivax Pharmaceuticals)
+PRTA36698MGEMIS	Prochlorperazine Maleate  Tablets  5 mg (Kent Pharm)
+PRTA36699MGEMIS	Prochlorperazine Maleate  Tablets  5 mg (Teva UK)
+PRTA36700MGEMIS	Prochlorperazine Maleate  Tablets  5 mg (Unichem)
+PRTA6825	Prochlorperazine Maleate  Buccal tablets  3 mg
+STIN10926BRIDL	Stemetil  Injection  25 mg/2 ml
+STIN15751NEMIS	Stemetil  Injection  12.5 mg/ml, 1 ml ampoule
+STIN2690	Stemetil  Injection  12.5 mg/ml
+STSA8854BRIDL	Stemetil Eff  Sachets  5 mg/sachet
+STSU2691	Stemetil  Suppositories  25 mg
+STSU2692	Stemetil  Suppositories  5 mg
+STSYEGTON7190	Stemetil  Syrup  5 mg/5 ml
+STTA2694	Stemetil  Tablets  25 mg
+STTA2695	Stemetil  Tablets  5 mg
+VESP4500	Vertigon  Spansules  10 mg
+VESP4501	Vertigon  Spansules  15 mg

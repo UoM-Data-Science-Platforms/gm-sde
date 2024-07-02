@@ -1,0 +1,10 @@
+^ESCT1223532	Iprindole
+^ESCT1223533	Product containing iprindole
+^ESCT1223534	Iprindole product
+^ESCT1355491	Iprindole only product
+^ESCT1381072	Iprindole-containing product
+^ESCTIP609655	Iprindole
+IPTA5038	Iprindole  Tablets  15 mg
+IPTA7050	Iprindole  Tablets  30 mg
+PRTA4219	Prondol  Tablets  15 mg
+PRTA4220	Prondol  Tablets  30 mg

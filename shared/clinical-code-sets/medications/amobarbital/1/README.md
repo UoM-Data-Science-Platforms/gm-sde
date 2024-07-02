@@ -1,6 +1,10 @@
 # Amobarbital
 
-Any code for a prescription of Amobarbital. Other names: Amylobarbitone/Sodium Amytal. This code set includes combination drugs of Amobarbital and Secobarbital (also known as Tuinal). Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+Any code for a prescription of Amobarbital. Other names: Amylobarbitone/Sodium Amytal.
+
+This code set includes combination drugs of Amobarbital and Secobarbital (also known as Tuinal).
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
 
 ## Prevalence log
 
@@ -8,10 +12,10 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-03-27 | EMIS            | 2528013    |   14 (0.000554%) |    14 (0.000554%) |
-| 2024-03-27 | TPP             | 201816     |           0 (0%) |            0 (0%) |
-| 2024-03-27 | Vision          | 335311     |    1 (0.000298%) |     1 (0.000298%) |
+| 2024-05-02 | EMIS            | 2530927    |   14 (0.000553%) |    14 (0.000553%) |
+| 2024-05-02 | TPP             | 201816     |           0 (0%) |            0 (0%) |
+| 2024-05-02 | Vision          | 335411     |    1 (0.000298%) |     1 (0.000298%) |
 
 ## Audit log
 
-- Find_missing_codes last run 2024-03-27
+- Find_missing_codes last run 2024-05-02

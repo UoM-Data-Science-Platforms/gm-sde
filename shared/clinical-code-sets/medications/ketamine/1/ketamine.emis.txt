@@ -1,0 +1,190 @@
+^ESCT1174031	Ketamine hydrochloride powder 1 gram
+^ESCT1174032	Ketamine hydrochloride powder (Special Order)
+^ESCT1174033	Ketamine hydrochloride powder (Special Order) 1 gram
+^ESCT1187936	Product containing ketamine
+^ESCT1195516	Ketamine 40mg capsules (Special Order)
+^ESCT1195517	Ketamine 40mg capsules 1 capsule
+^ESCT1195518	Ketamine 40mg capsules (Special Order) 1 capsule
+^ESCT1195645	Ketamine 40mg capsules
+^ESCT1209677	Ketamine (as ketamine hydrochloride) 1 g/10 mL solution for injection vial
+^ESCT1209678	Product containing precisely ketamine (as ketamine hydrochloride) 1 gram/10 milliliter conventional release solution for injection vial
+^ESCT1209679	Ketamine (as ketamine hydrochloride) 200 mg/20 mL solution for injection vial
+^ESCT1209680	Product containing precisely ketamine (as ketamine hydrochloride) 200 milligram/20 milliliter conventional release solution for injection vial
+^ESCT1209681	Ketamine (as ketamine hydrochloride) 500 mg/10 mL solution for injection vial
+^ESCT1209682	Product containing precisely ketamine (as ketamine hydrochloride) 500 milligram/10 milliliter conventional release solution for injection vial
+^ESCT1215461	Ketamine 1g/10ml solution for injection vials
+^ESCT1215462	Ketamine 200mg/20ml solution for injection vials
+^ESCT1215463	Ketamine 500mg/10ml solution for injection vials
+^ESCT1226377	Ketamine
+^ESCT1226378	Ketamine product
+^ESCT1280858	Ketamine 500mg/10ml solution for injection ampoules 10 ampoule
+^ESCT1280859	Ketamine 500mg/10ml solution for injection ampoules (Kent Pharmaceuticals Ltd)
+^ESCT1280860	Ketamine 500mg/10ml solution for injection ampoules (Kent Pharmaceuticals Ltd) 10 ampoule
+^ESCT1280908	Ketamine 500mg/10ml solution for injection ampoules
+^ESCT1304335	Ketamine 500mg/10ml solution for injection vials (hameln pharma Ltd)
+^ESCT1304336	Ketamine 500mg/10ml solution for injection vials (hameln pharma Ltd) 10 vial
+^ESCT1355556	Ketamine only product
+^ESCT1358944	Ketamine only product in parenteral dose form
+^ESCT1361122	Ketamine (as ketamine hydrochloride) 10 mg/mL solution for injection
+^ESCT1361123	Ketamine (as ketamine hydrochloride) 100 mg/mL solution for injection
+^ESCT1361124	Ketamine (as ketamine hydrochloride) 50 mg/mL solution for injection
+^ESCT1374859	Ketamine 200mg/2ml solution for injection vials 5 vial
+^ESCT1374938	Ketamine 200mg/2ml solution for injection vials
+^ESCT1384974	Ketamine-containing product in parenteral dose form
+^ESCT1428060	Ketamine 500mg/10ml solution for injection ampoules (Kent Pharma (UK) Ltd)
+^ESCT1428061	Ketamine 500mg/10ml solution for injection ampoules (Kent Pharma (UK) Ltd) 10 ampoule
+^ESCTAM1028962	Amitriptyline 2% / Ketamine 1% cream 1 gram
+^ESCTAM1028963	Amitriptyline 2% / Ketamine 1% cream (Special Order)
+^ESCTAM1028964	Amitriptyline 2% / Ketamine 1% cream (Special Order) 1 gram
+^ESCTAM1029108	Amitriptyline + Ketamine
+^ESCTAM1029152	Amitriptyline 2% / Ketamine 1% cream
+^ESCTKE1028940	Ketamine 50mg/5ml oral solution 200 ml
+^ESCTKE1028941	Ketamine 50mg/5ml oral solution (Drug Tariff Special Order) 200 ml
+^ESCTKE1028945	Ketamine 50mg/5ml oral suspension 1 ml
+^ESCTKE1028946	Ketamine 50mg/5ml oral suspension 200 ml
+^ESCTKE1028947	Ketamine 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTKE1028948	Ketamine 50mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTKE1028949	Ketamine 50mg/5ml oral suspension (Drug Tariff Special Order) 200 ml
+^ESCTKE1029389	Ketamine 50mg/5ml oral suspension
+^ESCTKE1077598	Ketamine 100mg/50ml / Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes
+^ESCTKE1077600	Ketamine 100mg/50ml / Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes 1 pre-filled disposable injection
+^ESCTKE1077601	Ketamine 100mg/50ml / Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes 10 pre-filled disposable injection
+^ESCTKE1077603	Ketamine 100mg/50ml / Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes (Special Order)
+^ESCTKE1077605	Ketamine 100mg/50ml / Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTKE1077607	Ketamine 100mg/50ml / Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCTKE1077609	Ketamine + Morphine
+^ESCTKE1090748	Ketamine 250mg/5ml oral solution 100 ml
+^ESCTKE1090750	Ketamine 250mg/5ml oral solution (Special Order) 100 ml
+^ESCTKE1094485	Ketamine 15mg/5ml oral solution 1 ml
+^ESCTKE1094486	Ketamine 15mg/5ml oral solution (Special Order)
+^ESCTKE1094487	Ketamine 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTKE1095119	Ketamine 15mg/5ml oral solution
+^ESCTKE1104023	Ketamine 5% nasal spray
+^ESCTKE1104024	Ketamine 5% nasal spray 1 ml
+^ESCTKE1104025	Ketamine 5% nasal spray 5 ml
+^ESCTKE1104026	Ketamine 5% nasal spray (Special Order)
+^ESCTKE1104027	Ketamine 5% nasal spray (Special Order) 1 ml
+^ESCTKE1104028	Ketamine 5% nasal spray (Special Order) 5 ml
+^ESCTKE1126340	Ketamine 500mg/10ml solution for injection vials 10 vial
+^ESCTKE1126341	Ketamine 500mg/10ml solution for injection vials (Hameln Pharmaceuticals Ltd)
+^ESCTKE1126342	Ketamine 500mg/10ml solution for injection vials (Hameln Pharmaceuticals Ltd) 10 vial
+^ESCTKE1161735	Ketamine 500mg/10ml solution for injection vials (Panpharma UK Ltd)
+^ESCTKE1161736	Ketamine 500mg/10ml solution for injection vials (Panpharma UK Ltd) 10 vial
+^ESCTKE616801	Ketamine
+^ESCTKE616802	Ketamine 1g/10ml solution for injection vials
+^ESCTKE616803	Ketamine 1g/10mL injection
+^ESCTKE616804	Ketamine 100mg/mL injection solution 10mL vial
+^ESCTKE616805	Ketamine 200mg/20ml solution for injection vials
+^ESCTKE616806	Ketamine 200mg/20mL injection
+^ESCTKE616807	Ketamine 10mg/mL injection solution 20mL vial
+^ESCTKE616808	Ketamine 500mg/10ml solution for injection vials
+^ESCTKE616809	Ketamine 500mg/10mL injection
+^ESCTKE616810	Ketamine 50mg/mL injection solution 10mL vial
+^ESCTKE641086	Ketamine hydrochloride 10mg/mL injection solution vial
+^ESCTKE641087	Ketamine hydrochloride 10mg/mL injection
+^ESCTKE682631	Ketamine hydrochloride
+^ESCTKE771639	Ketamine in parenteral dosage form
+^ESCTKE866144	Ketamine 1g/10ml solution for injection vials 1 vial
+^ESCTKE866155	Ketamine 200mg/20ml solution for injection vials 1 vial
+^ESCTKE866174	Ketamine 500mg/10ml solution for injection vials 1 vial
+^ESCTKE907361	Ketamine 100mg/5ml oral solution 1 ml
+^ESCTKE907362	Ketamine 20mg/5ml oral solution 1 ml
+^ESCTKE907363	Ketamine 100mg/5ml oral solution (Special Order)
+^ESCTKE907364	Ketamine 20mg/5ml oral solution (Special Order)
+^ESCTKE907365	Ketamine 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTKE907366	Ketamine 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTKE907367	Ketamine 50mg/5ml oral solution 1 ml
+^ESCTKE907368	Ketamine 250mg/5ml oral solution 1 ml
+^ESCTKE907369	Ketamine 50mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTKE907370	Ketamine 50mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTKE907371	Ketamine 250mg/5ml oral solution (Special Order)
+^ESCTKE907372	Ketamine 10mg/5ml oral solution 1 ml
+^ESCTKE907373	Ketamine 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTKE907374	Ketamine 5mg/5ml oral solution 1 ml
+^ESCTKE907375	Ketamine 10mg/5ml oral solution (Special Order)
+^ESCTKE907376	Ketamine 5mg/5ml oral solution (Special Order)
+^ESCTKE907377	Ketamine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTKE907378	Ketamine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTKE907379	Ketamine 25mg/5ml oral solution 1 ml
+^ESCTKE907380	Ketamine 25mg/5ml oral solution (Special Order)
+^ESCTKE907381	Ketamine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTKE907386	Ketamine 40mg/5ml oral solution 1 ml
+^ESCTKE907389	Ketamine 40mg/5ml oral solution (Special Order)
+^ESCTKE907392	Ketamine 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTKE907450	Ketamine 100mg/5ml oral solution
+^ESCTKE907451	Ketamine 10mg/5ml oral solution
+^ESCTKE907452	Ketamine 25mg/5ml oral solution
+^ESCTKE907453	Ketamine 40mg/5ml oral solution
+^ESCTKE907605	Ketamine 20mg/5ml oral solution
+^ESCTKE907606	Ketamine 250mg/5ml oral solution
+^ESCTKE907607	Ketamine 50mg/5ml oral solution
+^ESCTKE907608	Ketamine 5mg/5ml oral solution
+^ESCTKE931100	Ketamine 50mg/5ml solution for injection ampoules
+^ESCTKE931101	Ketamine 50mg/5ml solution for injection ampoules 10 ampoule
+^ESCTKE932947	Ketamine 25mg/5ml solution for injection ampoules
+^ESCTKE932948	Ketamine 25mg/5ml solution for injection ampoules 10 ampoule
+^ESCTKE932949	Ketamine 50mg/2ml solution for injection ampoules
+^ESCTKE932950	Ketamine 50mg/2ml solution for injection ampoules 10 ampoule
+^ESCTKE932951	Ketamine hydrochloride powder
+^ESCTKE932952	Ketamine hydrochloride powder 10 gram
+^ESCTKE932953	Ketamine hydrochloride powder 100 gram
+^ESCTKE932954	Ketamine hydrochloride powder 25 gram
+^ESCTKE932955	Ketamine hydrochloride powder (Imported (Germany))
+^ESCTKE932956	Ketamine hydrochloride powder (Imported (Germany)) 10 gram
+^ESCTKE932957	Ketamine hydrochloride powder (Imported (Germany)) 100 gram
+^ESCTKE932958	Ketamine hydrochloride powder (Imported (Germany)) 25 gram
+^ESCTKE939541	Ketamine 100mg/2ml solution for injection ampoules
+^ESCTKE939542	Ketamine 100mg/2ml solution for injection ampoules 10 ampoule
+^ESCTKE963257	Ketamine 500mg/5ml oral solution 1 ml
+^ESCTKE963258	Ketamine 500mg/5ml oral solution (Special Order)
+^ESCTKE963260	Ketamine 500mg/5ml oral solution (Special Order) 1 ml
+^ESCTKE963387	Ketamine 500mg/5ml oral solution
+^ESCTKE986030	Ketamine 100mg/2ml solution for injection ampoules 1 ampoule
+^ESCTKE986032	Ketamine 100mg/2ml solution for injection ampoules (Special Order)
+^ESCTKE986033	Ketamine 100mg/2ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTKE986034	Ketamine 25mg/5ml solution for injection ampoules 1 ampoule
+^ESCTKE986035	Ketamine 25mg/5ml solution for injection ampoules (Special Order)
+^ESCTKE986036	Ketamine 25mg/5ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTKE986037	Ketamine 50mg/2ml solution for injection ampoules 1 ampoule
+^ESCTKE986038	Ketamine 50mg/2ml solution for injection ampoules (Special Order)
+^ESCTKE986039	Ketamine 50mg/2ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTKE986040	Ketamine 50mg/5ml solution for injection ampoules 1 ampoule
+^ESCTKE986041	Ketamine 50mg/5ml solution for injection ampoules (Special Order)
+^ESCTKE986042	Ketamine 50mg/5ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTKE988293	Ketamine 30mg/5ml oral solution 1 ml
+^ESCTKE988294	Ketamine 30mg/5ml oral solution (Special Order)
+^ESCTKE988295	Ketamine 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTKE988348	Ketamine 30mg/5ml oral solution
+^ESCTPR771640	Product containing ketamine in parenteral dosage form
+KEIN15443NEMIS	Ketamine Hydrochloride  Injection  10 mg/ml, 20 ml vial
+KEIN15445NEMIS	Ketamine Hydrochloride  Injection  50 mg/ml, 10 ml vial
+KEIN15446NEMIS	Ketamine Hydrochloride  Injection  100 mg/ml, 10 ml vial
+KEOR52753NEMIS	Ketamine  Oral solution  10 mg/5 ml
+KEOR52754NEMIS	Ketamine  Oral solution  25 mg/5 ml
+KEOR52755NEMIS	Ketamine  Oral solution  5 mg/5 ml
+KEOR52756NEMIS	Ketamine  Oral solution  50 mg/5 ml
+KEOR52757NEMIS	Ketamine  Oral solution  100 mg/5 ml
+KEOR52758NEMIS	Ketamine  Oral solution  500 mg/5 ml
+KEOR72198NEMIS	Ketamine  Oral suspension  50 mg/5 ml
+^ESCT1374860	Ketalar 200mg/2ml solution for injection vials (Imported (Australia))
+^ESCT1374861	Ketalar 200mg/2ml solution for injection vials (Imported (Australia)) 5 vial
+^ESCTKE866146	Ketalar 1g/10ml solution for injection vials (Pfizer Ltd)
+^ESCTKE866149	Ketalar 1g/10ml solution for injection vials (Pfizer Ltd) 1 vial
+^ESCTKE866161	Ketalar 200mg/20ml solution for injection vials (Pfizer Ltd)
+^ESCTKE866164	Ketalar 200mg/20ml solution for injection vials (Pfizer Ltd) 1 vial
+^ESCTKE866176	Ketalar 500mg/10ml solution for injection vials (Pfizer Ltd)
+^ESCTKE866177	Ketalar 500mg/10ml solution for injection vials (Pfizer Ltd) 1 vial
+^ESCTKE931104	Ketamin 10 Curamed 50mg/5ml solution for injection ampoules (Imported (Germany))
+^ESCTKE931107	Ketamin 10 Curamed 50mg/5ml solution for injection ampoules (Imported (Germany)) 10 ampoule
+^ESCTKE939543	Ketamin 100mg/2ml solution for injection ampoules (Imported (Germany))
+^ESCTKE939544	Ketamin 100mg/2ml solution for injection ampoules (Imported (Germany)) 10 ampoule
+KEIN15447NEMIS	Ketalar  Injection  10 mg/ml, 20 ml vial
+KEIN15448NEMIS	Ketalar  Injection  50 mg/ml, 10 ml vial
+KEIN15449NEMIS	Ketalar  Injection  100 mg/ml, 10 ml vial
+KEIN6950	Ketamine (As Hydrochloride)  Injection  10 mg
+KEIN6951	Ketamine (As Hydrochloride)  Injection  100 mg
+KEIN6952	Ketamine (As Hydrochloride)  Injection  50 mg
+KEINEGTON6365	Ketalar  Injection  10 mg
+KEINEGTON6366	Ketalar  Injection  100 mg
+KEINEGTON6367	Ketalar  Injection  50 mg
+^ESCTKE918183	Ketalar

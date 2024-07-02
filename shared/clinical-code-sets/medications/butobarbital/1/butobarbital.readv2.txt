@@ -1,2 +1,2 @@
-d31f.	SONERYL 100mg tablets
-d31y.	BUTOBARBITAL 100mg tablets
+d31f.00	SONERYL 100mg tablets
+d31y.00	BUTOBARBITAL 100mg tablets

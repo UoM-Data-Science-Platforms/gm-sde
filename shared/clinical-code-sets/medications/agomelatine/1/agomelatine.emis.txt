@@ -1,0 +1,46 @@
+^ESCT1235906	Agomelatine
+^ESCT1235907	Product containing agomelatine
+^ESCT1235908	Agomelatine product
+^ESCT1256453	Agomelatine 25mg tablets (Aristo Pharma Ltd)
+^ESCT1256454	Agomelatine 25mg tablets (Aristo Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257910	Agomelatine 25mg tablets (Teva UK Ltd)
+^ESCT1257911	Agomelatine 25mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1258005	Agomelatine 25mg tablets (Accord Healthcare Ltd)
+^ESCT1258006	Agomelatine 25mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1259165	Agomelatine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1259166	Agomelatine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCT1259180	Agomelatine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1259181	Agomelatine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCT1264401	Agomelatine 25mg tablets (DE Pharmaceuticals)
+^ESCT1264402	Agomelatine 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1265637	Agomelatine 25mg tablets (Zentiva)
+^ESCT1265638	Agomelatine 25mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCT1270858	Valdoxan 25mg tablets (CST Pharma Ltd)
+^ESCT1270859	Valdoxan 25mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1276756	Agomelatine 25mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1276758	Agomelatine 25mg tablets (Neuraxpharm Arzneimittal GmbH) 28 tablet 2 x 14 tablets
+^ESCT1301048	Valdoxan 25mg tablets (DE Pharmaceuticals)
+^ESCT1301049	Valdoxan 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1353339	Agomelatine only product
+^ESCT1374478	Agomelatine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374479	Agomelatine 25mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1414257	Agomelatine 25 mg oral tablet
+^ESCT1414261	Agomelatine-containing product in oral dose form
+^ESCT1414262	Agomelatine only product in oral dose form
+^ESCT1416694	Agomelatine (as agomelatine citric acid) 25 mg oral tablet
+^ESCT1422904	Agomelatine 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422905	Agomelatine 25mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1423005	Agomelatine 25mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423006	Agomelatine 25mg tablets (Neuraxpharm UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAG756866	Agomelatine
+^ESCTAG981818	Agomelatine 25mg tablets 28 tablet
+^ESCTAG982175	Agomelatine 25mg tablets
+^ESCTVA1001655	Valdoxan 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTVA1001656	Valdoxan 25mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTVA1025149	Valdoxan 25mg tablets (Lexon (UK) Ltd)
+^ESCTVA1025150	Valdoxan 25mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTVA981819	Valdoxan 25mg tablets (Servier Laboratories Ltd)
+^ESCTVA981820	Valdoxan 25mg tablets (Servier Laboratories Ltd) 28 tablet 2 x 14 tablets
+AGTA36504NEMIS	Agomelatine  Tablets  25 mg
+VATA36507NEMIS	Valdoxan  Tablets  25 mg
+^ESCTVA926284	Valdoxan

@@ -270,3 +270,6 @@ Xaef1	Referral for psychological management of anxiety declined
 XafF0	Signposting to Anxiety UK
 XafMI	Signposting to OCD-UK (Obsessive-Compulsive Disorder-UK)
 XafMJ	Signposting to OCD (Obsessive-Compulsive Disorder) Action
+Eu932	[X] Social anxiety disorder of childhood (avoidant disorder)
+Ua1qn	Anxiety about not coping with parenthood
+XE1aD	Childhood social anxiety disorder

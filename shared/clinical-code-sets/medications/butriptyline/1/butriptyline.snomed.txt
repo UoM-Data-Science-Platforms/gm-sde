@@ -1,0 +1,6 @@
+115544001	Product containing butriptyline (medicinal product)
+774954009	Product containing only butriptyline (medicinal product)
+876801000001104	Butriptyline 25mg tablet
+1954101000001107	Butriptyline 50mg tablet
+1953901000001108	Evadyne 25mg tablet
+1954001000001106	Evadyne 50mg tablet

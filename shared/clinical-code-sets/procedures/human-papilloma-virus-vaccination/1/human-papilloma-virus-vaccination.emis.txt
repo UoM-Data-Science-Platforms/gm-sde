@@ -1,0 +1,57 @@
+^ESCT1236969	Vaccination using human papilloma virus quadrivalent vaccine
+^ESCT1397890	Human papillomavirus 6, 11, 16 and 18 antigens only vaccine product
+^ESCT1397891	Human papillomavirus 6, 11, 16 and 18 vaccine
+^ESCT1408508	Administration of first dose of human papilloma virus vaccine
+^ESCT1408509	First human papillomavirus immunisation
+^ESCT1408510	Administration of first dose of vaccine product containing only Human papillomavirus antigen
+^ESCT1408511	Administration of third dose of human papilloma virus vaccine
+^ESCT1408512	Third human papillomavirus immunisation
+^ESCT1408513	Administration of third dose of vaccine product containing only Human papillomavirus antigen
+^ESCT1408520	Administration of second dose of human papilloma virus vaccine
+^ESCT1408521	Second human papillomavirus immunisation
+^ESCT1408522	Administration of second dose of vaccine product containing only Human papillomavirus antigen
+^ESCT1409134	Administration of quadrivalent HPV (human papillomavirus) vaccine
+^ESCT1409135	Administration of vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens
+^ESCT1409136	Administration of Human papillomavirus 6, 11, 16 and 18 vaccine
+^ESCT1409137	Human papillomavirus 6, 11, 16 and 18 vaccination
+^ESCT1409138	Human papillomavirus 6, 11, 16 and 18 immunisation
+^ESCT1410783	Gardasil vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1410784	Gardasil vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd) 1 pre-filled disposable injection
+^ESCT1412401	Gardasil 9 vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1412741	Administration of human papilloma virus type 6, 11, 16, and 18 vaccine
+^ESCT1435123	Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigens only vaccine product
+^ESCT1435124	Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 vaccine
+^ESCT1435742	Administration of HPV (Human papillomavirus) 9-valent vaccine
+^ESCT1435743	Administration of Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 vaccine
+^ESCT1435744	Administration of 9vHPV (9-valent Human papillomavirus) vaccine
+^ESCT1435745	Administration of vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigens
+^ESCTAD796461	Administration of human papilloma virus type 6, 11, 16, and 18 vaccine
+^ESCTAD796462	Administration of human papilloma virus quadrivalent vaccine
+^ESCTAD796463	Administration of human papilloma virus type 6, 11, 16, and 18 vaccine done
+^ESCTCE947843	Cervarix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+^ESCTGA1152009	Gardasil 9 vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme Ltd)
+^ESCTGA933862	Gardasil vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme Ltd)
+^ESCTGA933863	Gardasil vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme Ltd) 1 pre-filled disposable injection
+^ESCTHU1152023	Human papillomavirus (type 6, 11, 16, 18, 31, 33, 45, 52, 58) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+^ESCTHU933859	Human papillomavirus (type 6, 11, 16, 18) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes 1 pre-filled disposable injection
+^ESCTHU933993	Human papillomavirus (type 6, 11, 16, 18) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+^ESCTHU948506	Human papillomavirus (type 16, 18) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+^ESCTQU699491	Quadrivalent human papillomavirus recombinant vaccine 0.5mL prefilled syringe
+^ESCTQU702029	Quadrivalent human papillomavirus recombinant vaccine 0.5mL vial
+^ESCTVA709291	Vaccination with first dose of human papillomavirus
+^ESCTVA709575	Vaccination with third dose of human papillomavirus
+^ESCTVA710263	Vaccination with second dose of human papillomavirus
+CESU27108NEMIS	Cervarix  Suspension For Injection  0.5 ml pre-filled syringe
+EMISNQFI44	First human papillomavirus vacc gvn by other healthcare provider
+EMISNQSE141	Second human papillomavirus vacc gvn by othr healthcare provider
+EMISNQTH43	Third human papillomavirus vacc gvn by other healthcare provider
+GASU117381NEMIS	Gardasil 9  Suspension For Injection  0.5 ml pre-filled syringe
+GASU23370NEMIS	Gardasil  Suspension For Injection  0.5 ml pre-filled syringe
+HUIN117371NEMIS	Human Papillomavirus Vaccine Adsorbed  Injection  (type 6,11,16,18,31,33,45,52,58) 0.5 ml syringe
+HUSU28316NEMIS	Human Papillomavirus Vaccine Adsorbed  Suspension For Injection  (type 6, 11, 16, 18) 0.5 ml pre-filled syringe
+HUSU28317NEMIS	Human Papillomavirus Vaccine Adsorbed  Suspension For Injection  (type 16, 18) 0.5 ml pre-filled syringe
+JHCFI18	First quadrivalent human papillomavirus vaccination
+JHCSE13	Second quadrivalent human papillomavirus vaccination
+JHCTH5	Third quadrivalent human papillomavirus vaccination
+^ESCTHU709041	Human papillomavirus vaccination
+^ESCTVA709040	Vaccination for human papillomavirus

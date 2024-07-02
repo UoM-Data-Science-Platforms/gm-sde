@@ -1,0 +1,13 @@
+^ESCT1218882	Chlorprothixene
+^ESCT1218883	Product containing chlorprothixene
+^ESCT1218884	Chlorprothixene product
+^ESCT1354199	Chlorprothixene only product
+^ESCT1405225	Chlorprothixene 15mg tablets 100 tablet
+^ESCT1405226	Truxal 15mg tablets (Imported (Denmark))
+^ESCT1405227	Truxal 15mg tablets (Imported (Denmark)) 100 tablet
+^ESCT1405261	Chlorprothixene 15mg tablets
+^ESCTCH1058420	Chlorprothixene 50mg tablets 100 tablet
+^ESCTCH1058449	Chlorprothixene 50mg tablets
+^ESCTCH342624	Chlorprothixene
+^ESCTTR1058421	Truxal 50mg tablets (Imported (Denmark))
+^ESCTTR1058422	Truxal 50mg tablets (Imported (Denmark)) 100 tablet

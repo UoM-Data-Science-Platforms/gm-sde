@@ -43,7 +43,6 @@
 ^ESCTSE1030053	Secobarbital sodium 50mg capsules (Special Order)
 ^ESCTSE1030054	Secobarbital sodium 50mg capsules (Special Order) 1 capsule
 ^ESCTSE318436	Secobarbital
-^ESCTSE382040	Secobarbital measurement
 ^ESCTSE609187	Secobarbital sodium 50mg capsules
 ^ESCTSE609196	Secobarbital sodium 100mg capsules
 ^ESCTSE864866	Secobarbital sodium 100mg capsules 100 capsule

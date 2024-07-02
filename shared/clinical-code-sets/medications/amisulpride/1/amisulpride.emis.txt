@@ -18,3 +18,353 @@ SOTA14268NEMIS	Solian  Tablets  100 mg
 SOTA31581EMIS	Solian  Tablets  200 mg
 SOTA31582EMIS	Solian  Tablets  50 mg
 SOTA5673NEMIS	Solian  Tablets  400 mg
+^ESCT1178029	Product containing only amisulpride 400 mg/1 each oral tablet
+^ESCT1180899	Amisulpride 400mg tablets (Mylan)
+^ESCT1181091	Product containing only amisulpride 50 mg/1 each oral tablet
+^ESCT1181092	Product containing only amisulpride 200 mg/1 each oral tablet
+^ESCT1182563	Product containing only amisulpride 100 mg/1 each oral tablet
+^ESCT1183788	Amisulpride 400mg tablets (A A H Pharmaceuticals Ltd) 60 tablet 4 x 15 tablets
+^ESCT1184952	Amisulpride 100mg tablets (Mylan)
+^ESCT1184953	Amisulpride 200mg tablets (Mylan) 60 tablet
+^ESCT1184954	Amisulpride 400mg tablets (Mylan) 60 tablet
+^ESCT1186975	Amisulpride 200mg tablets (Mylan)
+^ESCT1189298	Amisulpride 200mg tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCT1190101	Amisulpride 100mg tablets (Mylan) 60 tablet
+^ESCT1190102	Amisulpride 50mg tablets (Mylan)
+^ESCT1190103	Amisulpride 50mg tablets (Mylan) 60 tablet
+^ESCT1204467	Amisulpride 100 mg/mL oral solution
+^ESCT1204468	Product containing precisely amisulpride 100 milligram/1 milliliter conventional release oral solution
+^ESCT1206155	Amisulpride in oral dosage form
+^ESCT1206156	Product containing amisulpride in oral dosage form
+^ESCT1214685	Amisulpride 100mg/ml oral solution sugar free
+^ESCT1221940	Product containing precisely amisulpride 400 milligram/1 each conventional release oral tablet
+^ESCT1223480	Amisulpride
+^ESCT1223481	Amisulpride product
+^ESCT1223482	Product containing precisely amisulpride 50 milligram/1 each conventional release oral tablet
+^ESCT1223483	Product containing precisely amisulpride 200 milligram/1 each conventional release oral tablet
+^ESCT1230139	Product containing precisely amisulpride 100 milligram/1 each conventional release oral tablet
+^ESCT1250652	Amisulpride 100mg/ml oral solution sugar free (Advanz Pharma)
+^ESCT1250653	Amisulpride 100mg/ml oral solution sugar free (Advanz Pharma) 60 ml
+^ESCT1353457	Amisulpride only product
+^ESCT1357466	Amisulpride only product in oral dose form
+^ESCT1374649	Amisulpride 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374651	Amisulpride 100mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1374653	Amisulpride 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374654	Amisulpride 200mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1374655	Amisulpride 400mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374656	Amisulpride 400mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1374657	Amisulpride 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374658	Amisulpride 50mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1374662	Amisulpride 100mg/ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1374664	Amisulpride 100mg/ml oral solution sugar free (Medihealth (Northern) Ltd) 60 ml
+^ESCT1386144	Amisulpride-containing product in oral dose form
+^ESCT1394992	Amisulpride-containing product in parenteral dose form
+^ESCT1394993	Amisulpride only product in parenteral dose form
+^ESCT1410709	Amisulpride 50mg tablets (Accord Healthcare Ltd)
+^ESCT1410710	Amisulpride 50mg tablets (Accord Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1410711	Amisulpride 100mg tablets (Accord Healthcare Ltd)
+^ESCT1410712	Amisulpride 100mg tablets (Accord Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1410713	Amisulpride 200mg tablets (Accord Healthcare Ltd)
+^ESCT1410714	Amisulpride 200mg tablets (Accord Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1410715	Amisulpride 400mg tablets (Accord Healthcare Ltd)
+^ESCT1410716	Amisulpride 400mg tablets (Accord Healthcare Ltd) 60 tablet 4 x 15 tablets
+^ESCT1422084	Amisulpride 50mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422085	Amisulpride 50mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1422086	Amisulpride 100mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422087	Amisulpride 100mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1422088	Amisulpride 200mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422089	Amisulpride 200mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1422090	Amisulpride 400mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422091	Amisulpride 400mg tablets (Zentiva Pharma UK Ltd) 60 tablet 4 x 15 tablets
+^ESCT1426871	Amisulpride 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426872	Amisulpride 50mg tablets (Kent Pharma (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCT1426873	Amisulpride 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426874	Amisulpride 100mg tablets (Kent Pharma (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCT1426875	Amisulpride 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426876	Amisulpride 200mg tablets (Kent Pharma (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCT1426877	Amisulpride 400mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426878	Amisulpride 400mg tablets (Kent Pharma (UK) Ltd) 60 tablet 4 x 15 tablets
+^ESCT1438609	Amisulpride 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438610	Amisulpride 100mg tablets (Viatris UK Healthcare Ltd) 60 tablet
+^ESCT1438611	Amisulpride 200mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438612	Amisulpride 200mg tablets (Viatris UK Healthcare Ltd) 60 tablet
+^ESCT1438613	Amisulpride 400mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438614	Amisulpride 400mg tablets (Viatris UK Healthcare Ltd) 60 tablet
+^ESCT1438615	Amisulpride 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438616	Amisulpride 50mg tablets (Viatris UK Healthcare Ltd) 60 tablet
+^ESCTAM1004552	Amisulpride 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1004554	Amisulpride 50mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTAM1004557	Amisulpride 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1004560	Amisulpride 100mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTAM1004566	Amisulpride 200mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1004568	Amisulpride 200mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTAM1004571	Amisulpride 400mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1004574	Amisulpride 400mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTAM1008091	Amisulpride 100mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAM1008093	Amisulpride 100mg tablets (Almus Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM1008094	Amisulpride 200mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAM1008095	Amisulpride 200mg tablets (Almus Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM1008096	Amisulpride 400mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAM1008097	Amisulpride 400mg tablets (Almus Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM1008098	Amisulpride 50mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAM1008100	Amisulpride 50mg tablets (Almus Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM1017745	Amisulpride 50mg tablets (Milpharm Ltd)
+^ESCTAM1017746	Amisulpride 50mg tablets (Milpharm Ltd) 60 tablet
+^ESCTAM1017747	Amisulpride 100mg tablets (Milpharm Ltd)
+^ESCTAM1017748	Amisulpride 100mg tablets (Milpharm Ltd) 60 tablet
+^ESCTAM1017749	Amisulpride 200mg tablets (Milpharm Ltd)
+^ESCTAM1017750	Amisulpride 200mg tablets (Milpharm Ltd) 60 tablet
+^ESCTAM1017751	Amisulpride 400mg tablets (Milpharm Ltd)
+^ESCTAM1017752	Amisulpride 400mg tablets (Milpharm Ltd) 60 tablet
+^ESCTAM1019315	Amisulpride 100mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTAM1019316	Amisulpride 100mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 60 ml
+^ESCTAM1019531	Amisulpride 100mg/ml oral solution sugar free (Teva UK Ltd)
+^ESCTAM1019532	Amisulpride 100mg/ml oral solution sugar free (Teva UK Ltd) 60 ml
+^ESCTAM1020362	Amisulpride 100mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM1020363	Amisulpride 100mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 60 ml
+^ESCTAM1021357	Amisulpride 25mg/5ml oral solution 100 ml
+^ESCTAM1021358	Amisulpride 25mg/5ml oral solution (Special Order) 100 ml
+^ESCTAM1021385	Amisulpride 25mg/5ml oral suspension 100 ml
+^ESCTAM1021386	Amisulpride 25mg/5ml oral suspension (Special Order) 100 ml
+^ESCTAM1022383	Amisulpride 100mg tablets (DE Pharmaceuticals)
+^ESCTAM1022384	Amisulpride 100mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTAM1022385	Amisulpride 200mg tablets (DE Pharmaceuticals)
+^ESCTAM1022386	Amisulpride 200mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTAM1022387	Amisulpride 400mg tablets (DE Pharmaceuticals)
+^ESCTAM1022388	Amisulpride 400mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTAM1022389	Amisulpride 50mg tablets (DE Pharmaceuticals)
+^ESCTAM1022390	Amisulpride 50mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTAM1024248	Amisulpride 25mg/5ml oral suspension 150 ml
+^ESCTAM1024249	Amisulpride 25mg/5ml oral suspension (Special Order) 150 ml
+^ESCTAM1027517	Amisulpride 100mg tablets (Sandoz Ltd)
+^ESCTAM1027518	Amisulpride 100mg tablets (Sandoz Ltd) 60 tablet
+^ESCTAM1027519	Amisulpride 200mg tablets (Sandoz Ltd)
+^ESCTAM1027520	Amisulpride 200mg tablets (Sandoz Ltd) 60 tablet
+^ESCTAM1027521	Amisulpride 400mg tablets (Sandoz Ltd)
+^ESCTAM1027522	Amisulpride 400mg tablets (Sandoz Ltd) 60 tablet
+^ESCTAM1027523	Amisulpride 50mg tablets (Sandoz Ltd)
+^ESCTAM1027524	Amisulpride 50mg tablets (Sandoz Ltd) 60 tablet
+^ESCTAM1034060	Amisulpride 100mg/ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTAM1034061	Amisulpride 100mg/ml oral solution sugar free (Focus Pharmaceuticals Ltd) 60 ml
+^ESCTAM1041251	Amisulpride 100mg/ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTAM1041252	Amisulpride 100mg/ml oral solution sugar free (Waymade Healthcare Plc) 60 ml
+^ESCTAM1041253	Amisulpride 50mg tablets (Waymade Healthcare Plc)
+^ESCTAM1041254	Amisulpride 50mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTAM1041255	Amisulpride 100mg tablets (Waymade Healthcare Plc)
+^ESCTAM1041256	Amisulpride 100mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTAM1041258	Amisulpride 200mg tablets (Waymade Healthcare Plc)
+^ESCTAM1041263	Amisulpride 200mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTAM1041265	Amisulpride 400mg tablets (Waymade Healthcare Plc)
+^ESCTAM1041266	Amisulpride 400mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTAM1045387	Amisulpride 100mg/ml oral solution sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1045388	Amisulpride 100mg/ml oral solution sugar free (Phoenix Healthcare Distribution Ltd) 60 ml
+^ESCTAM1048880	Amisulpride 100mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTAM1048881	Amisulpride 100mg/ml oral solution sugar free (DE Pharmaceuticals) 60 ml
+^ESCTAM1048989	Amisulpride 50mg tablets (Creo Pharma Ltd)
+^ESCTAM1048990	Amisulpride 50mg tablets (Creo Pharma Ltd) 60 tablet
+^ESCTAM1048991	Amisulpride 100mg tablets (Creo Pharma Ltd)
+^ESCTAM1048992	Amisulpride 100mg tablets (Creo Pharma Ltd) 60 tablet
+^ESCTAM1048993	Amisulpride 200mg tablets (Creo Pharma Ltd)
+^ESCTAM1048994	Amisulpride 200mg tablets (Creo Pharma Ltd) 60 tablet
+^ESCTAM1048995	Amisulpride 400mg tablets (Creo Pharma Ltd)
+^ESCTAM1048996	Amisulpride 400mg tablets (Creo Pharma Ltd) 60 tablet
+^ESCTAM1106862	Amisulpride 50mg tablets (Rivopharm (UK) Ltd)
+^ESCTAM1106866	Amisulpride 50mg tablets (Rivopharm (UK) Ltd) 60 tablet
+^ESCTAM1106891	Amisulpride 100mg tablets (Rivopharm (UK) Ltd)
+^ESCTAM1106893	Amisulpride 100mg tablets (Rivopharm (UK) Ltd) 60 tablet
+^ESCTAM1106895	Amisulpride 200mg tablets (Rivopharm (UK) Ltd)
+^ESCTAM1106897	Amisulpride 200mg tablets (Rivopharm (UK) Ltd) 60 tablet
+^ESCTAM1106900	Amisulpride 400mg tablets (Rivopharm (UK) Ltd)
+^ESCTAM1106902	Amisulpride 400mg tablets (Rivopharm (UK) Ltd) 60 tablet
+^ESCTAM1107831	Amisulpride 200mg/5ml oral solution 1 ml
+^ESCTAM1107832	Amisulpride 200mg/5ml oral solution (Special Order)
+^ESCTAM1107833	Amisulpride 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM1108006	Amisulpride 200mg/5ml oral solution
+^ESCTAM1116806	Amisulpride 100mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTAM1116807	Amisulpride 100mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc) 60 ml
+^ESCTAM1118871	Amisulpride 400mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAM1118872	Amisulpride 400mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTAM1152541	Amisulpride 100mg tablets (Mylan Ltd)
+^ESCTAM1152542	Amisulpride 100mg tablets (Mylan Ltd) 60 tablet
+^ESCTAM1152543	Amisulpride 200mg tablets (Mylan Ltd)
+^ESCTAM1152544	Amisulpride 200mg tablets (Mylan Ltd) 60 tablet
+^ESCTAM1152545	Amisulpride 400mg tablets (Mylan Ltd)
+^ESCTAM1152546	Amisulpride 400mg tablets (Mylan Ltd) 60 tablet
+^ESCTAM1152547	Amisulpride 50mg tablets (Mylan Ltd)
+^ESCTAM1152548	Amisulpride 50mg tablets (Mylan Ltd) 60 tablet
+^ESCTAM1158938	Amisulpride 100mg/ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTAM1158939	Amisulpride 100mg/ml oral solution sugar free (Thame Laboratories Ltd) 60 ml
+^ESCTAM450813	Amisulpride 400mg tablets
+^ESCTAM450815	Amisulpride 400 mg oral tablet
+^ESCTAM609467	Amisulpride
+^ESCTAM609469	Amisulpride 50mg tablets
+^ESCTAM609471	Amisulpride 50 mg oral tablet
+^ESCTAM609472	Amisulpride 200mg tablets
+^ESCTAM609474	Amisulpride 200 mg oral tablet
+^ESCTAM664224	Amisulpride 100mg tablets
+^ESCTAM664226	Amisulpride 100 mg oral tablet
+^ESCTAM676473	Amisulpride 100mg/ml oral solution sugar free
+^ESCTAM676474	Amisulpride 100mg/mL s/f oral solution
+^ESCTAM834475	Amisulpride 200mg tablets 60 tablet
+^ESCTAM847400	Amisulpride 400mg tablets 60 tablet
+^ESCTAM847997	Amisulpride 50mg tablets 60 tablet
+^ESCTAM857458	Amisulpride 100mg tablets 60 tablet
+^ESCTAM865684	Amisulpride 100mg/ml oral solution sugar free 60 ml
+^ESCTAM877537	Amisulpride 200mg tablets (Waymade Healthcare Plc)
+^ESCTAM877538	Amisulpride 200mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTAM878561	Amisulpride 200mg tablets (Dowelhurst Ltd)
+^ESCTAM878562	Amisulpride 200mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTAM879715	Amisulpride 400mg tablets 30 tablet
+^ESCTAM879725	Amisulpride 50mg tablets 30 tablet
+^ESCTAM880042	Amisulpride 50mg tablets (Dowelhurst Ltd)
+^ESCTAM880043	Amisulpride 50mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTAM900727	Amisulpride 50mg tablets (Zentiva)
+^ESCTAM900728	Amisulpride 50mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTAM900732	Amisulpride 100mg tablets (Zentiva)
+^ESCTAM900734	Amisulpride 100mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTAM900736	Amisulpride 200mg tablets (Zentiva)
+^ESCTAM900737	Amisulpride 200mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTAM900738	Amisulpride 400mg tablets (Zentiva)
+^ESCTAM900739	Amisulpride 400mg tablets (Zentiva) 60 tablet 4 x 15 tablets
+^ESCTAM902015	Amisulpride 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM902017	Amisulpride 50mg tablets (Kent Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM902018	Amisulpride 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM902019	Amisulpride 100mg tablets (Kent Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM902020	Amisulpride 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM902021	Amisulpride 200mg tablets (Kent Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM902022	Amisulpride 400mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM902024	Amisulpride 400mg tablets (Kent Pharmaceuticals Ltd) 60 tablet 4 x 15 tablets
+^ESCTAM904347	Amisulpride 25mg/5ml oral solution 1 ml
+^ESCTAM904348	Amisulpride 25mg/5ml oral solution (Special Order)
+^ESCTAM904349	Amisulpride 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM904350	Amisulpride 25mg/5ml oral suspension 1 ml
+^ESCTAM904352	Amisulpride 25mg/5ml oral suspension (Special Order)
+^ESCTAM904354	Amisulpride 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM904401	Amisulpride 50mg/5ml oral solution 1 ml
+^ESCTAM904404	Amisulpride 50mg/5ml oral solution (Special Order)
+^ESCTAM904405	Amisulpride 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM904411	Amisulpride 50mg/5ml oral suspension 1 ml
+^ESCTAM904413	Amisulpride 50mg/5ml oral suspension (Special Order)
+^ESCTAM904414	Amisulpride 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM904730	Amisulpride 25mg/5ml oral solution
+^ESCTAM904731	Amisulpride 25mg/5ml oral suspension
+^ESCTAM904732	Amisulpride 50mg/5ml oral solution
+^ESCTAM904733	Amisulpride 50mg/5ml oral suspension
+^ESCTAM910877	Amisulpride 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM910878	Amisulpride 50mg tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM910879	Amisulpride 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM910880	Amisulpride 100mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTAM910881	Amisulpride 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM910882	Amisulpride 200mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTAM910883	Amisulpride 400mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM910884	Amisulpride 400mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTAM916295	Amisulpride 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM916297	Amisulpride 50mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTAM916299	Amisulpride 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM916301	Amisulpride 100mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM916303	Amisulpride 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM916305	Amisulpride 200mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTAM916307	Amisulpride 400mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM916309	Amisulpride 400mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet 4 x 15 tablets
+^ESCTAM922754	Amisulpride 50mg tablets (Actavis UK Ltd)
+^ESCTAM922755	Amisulpride 50mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM922758	Amisulpride 100mg tablets (Actavis UK Ltd)
+^ESCTAM922761	Amisulpride 100mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM922763	Amisulpride 200mg tablets (Actavis UK Ltd)
+^ESCTAM922765	Amisulpride 200mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM922767	Amisulpride 400mg tablets (Actavis UK Ltd)
+^ESCTAM922769	Amisulpride 400mg tablets (Actavis UK Ltd) 60 tablet 4 x 15 tablets
+^ESCTAM959255	Amisulpride 100mg tablets (Dowelhurst Ltd)
+^ESCTAM959260	Amisulpride 100mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTAM959263	Amisulpride 400mg tablets (Dowelhurst Ltd)
+^ESCTAM959264	Amisulpride 400mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTAM959266	Amisulpride 50mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTAM962709	Amisulpride 12.5mg/5ml oral suspension 1 ml
+^ESCTAM962710	Amisulpride 12.5mg/5ml oral suspension (Special Order)
+^ESCTAM962711	Amisulpride 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM962712	Amisulpride 12.5mg/5ml oral solution 1 ml
+^ESCTAM962713	Amisulpride 12.5mg/5ml oral solution (Special Order)
+^ESCTAM962714	Amisulpride 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM962749	Amisulpride 12.5mg/5ml oral solution
+^ESCTAM962750	Amisulpride 12.5mg/5ml oral suspension
+^ESCTAM978111	Amisulpride 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM978112	Amisulpride 100mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTAM978113	Amisulpride 200mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM978114	Amisulpride 200mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTAM978115	Amisulpride 400mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM978117	Amisulpride 400mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTAM978119	Amisulpride 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM978120	Amisulpride 50mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTAM980966	Amisulpride 50mg tablets (Arrow Generics Ltd)
+^ESCTAM980967	Amisulpride 50mg tablets (Arrow Generics Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM980968	Amisulpride 100mg tablets (Arrow Generics Ltd)
+^ESCTAM980969	Amisulpride 100mg tablets (Arrow Generics Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM980970	Amisulpride 200mg tablets (Arrow Generics Ltd)
+^ESCTAM980971	Amisulpride 200mg tablets (Arrow Generics Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM980972	Amisulpride 400mg tablets (Arrow Generics Ltd)
+^ESCTAM980973	Amisulpride 400mg tablets (Arrow Generics Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM981075	Amisulpride 50mg tablets (Teva UK Ltd)
+^ESCTAM981076	Amisulpride 50mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM981077	Amisulpride 100mg tablets (Teva UK Ltd)
+^ESCTAM981078	Amisulpride 100mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM981079	Amisulpride 200mg tablets (Teva UK Ltd)
+^ESCTAM981080	Amisulpride 200mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTAM981081	Amisulpride 400mg tablets (Teva UK Ltd)
+^ESCTAM981082	Amisulpride 400mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTPR450814	Product containing amisulpride 400 mg/1 each oral tablet
+^ESCTPR609468	Product containing amisulpride
+^ESCTPR609470	Product containing amisulpride 50 mg/1 each oral tablet
+^ESCTPR609473	Product containing amisulpride 200 mg/1 each oral tablet
+^ESCTPR664225	Product containing amisulpride 100 mg/1 each oral tablet
+^ESCTSO1001503	Solian 200 tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSO1001504	Solian 200 tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTSO1008362	Solian 200 tablets (Necessity Supplies Ltd)
+^ESCTSO1008363	Solian 200 tablets (Necessity Supplies Ltd) 60 tablet
+^ESCTSO1008366	Solian 400 tablets (Necessity Supplies Ltd)
+^ESCTSO1008371	Solian 400 tablets (Necessity Supplies Ltd) 30 tablet
+^ESCTSO801200	Solian 50 tablets (Sanofi)
+^ESCTSO808069	Solian 400 tablets (Sanofi)
+^ESCTSO810216	Solian 200 tablets (Sanofi)
+^ESCTSO853977	Solian 50 tablets (Sanofi) 60 tablet 6 x 10 tablets
+^ESCTSO853978	Solian 200 tablets (Sanofi) 60 tablet 6 x 10 tablets
+^ESCTSO853981	Solian 400 tablets (Sanofi) 60 tablet 4 x 15 tablets
+^ESCTSO857460	Solian 100 tablets (Sanofi)
+^ESCTSO857464	Solian 100 tablets (Sanofi) 60 tablet 6 x 10 tablets
+^ESCTSO865688	Solian 100mg/ml oral solution (Sanofi)
+^ESCTSO865692	Solian 100mg/ml oral solution (Sanofi) 60 ml
+^ESCTSO878300	Solian 200 tablets (Waymade Healthcare Plc)
+^ESCTSO878302	Solian 200 tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTSO879133	Solian 200 tablets (Dowelhurst Ltd)
+^ESCTSO879135	Solian 200 tablets (Dowelhurst Ltd) 60 tablet
+^ESCTSO879716	Solian 400 tablets (Dowelhurst Ltd)
+^ESCTSO879717	Solian 400 tablets (Dowelhurst Ltd) 30 tablet
+^ESCTSO879718	Solian 400 tablets (Dowelhurst Ltd) 60 tablet
+^ESCTSO879727	Solian 50 tablets (Dowelhurst Ltd)
+^ESCTSO879729	Solian 50 tablets (Dowelhurst Ltd) 30 tablet
+^ESCTSO916328	Solian
+^ESCTSO929976	Solian 400 tablets (Waymade Healthcare Plc)
+^ESCTSO929977	Solian 400 tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTSO929978	Solian 100mg/ml oral solution (Waymade Healthcare Plc)
+^ESCTSO929979	Solian 100mg/ml oral solution (Waymade Healthcare Plc) 60 ml
+^ESCTSO935508	Solian 100 tablets (Waymade Healthcare Plc)
+^ESCTSO935509	Solian 100 tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTSO971454	Solian 100 tablets (Sigma Pharmaceuticals Plc)
+^ESCTSO971455	Solian 100 tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTSO971461	Solian 200 tablets (Sigma Pharmaceuticals Plc)
+^ESCTSO971462	Solian 200 tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTSO971465	Solian 400 tablets (Sigma Pharmaceuticals Plc)
+^ESCTSO971468	Solian 400 tablets (Sigma Pharmaceuticals Plc) 30 tablet
+AMOR34979NEMIS	Amisulpride  Oral solution  25 mg/5 ml
+AMOR45623NEMIS	Amisulpride  Oral suspension  25 mg/5 ml
+AMTA33751MGEMIS	Amisulpride  Tablets  200 mg (Winthrop Pharmaceuticals )
+AMTA33752MGEMIS	Amisulpride  Tablets  200 mg (Kent Pharm)
+AMTA33753MGEMIS	Amisulpride  Tablets  200 mg (A.A.H. Pharm)
+AMTA33754MGEMIS	Amisulpride  Tablets  200 mg (Unichem)
+AMTA33755MGEMIS	Amisulpride  Tablets  50 mg (Winthrop Pharmaceuticals )
+AMTA33756MGEMIS	Amisulpride  Tablets  50 mg (Kent Pharm)
+AMTA33757MGEMIS	Amisulpride  Tablets  50 mg (A.A.H. Pharm)
+AMTA33758MGEMIS	Amisulpride  Tablets  50 mg (Unichem)
+AMTA37768MGEMIS	Amisulpride  Tablets  400 mg (Winthrop Pharmaceuticals )
+AMTA37769MGEMIS	Amisulpride  Tablets  400 mg (Kent Pharm)
+AMTA37770MGEMIS	Amisulpride  Tablets  400 mg (A.A.H. Pharm)
+AMTA37771MGEMIS	Amisulpride  Tablets  400 mg (Unichem)

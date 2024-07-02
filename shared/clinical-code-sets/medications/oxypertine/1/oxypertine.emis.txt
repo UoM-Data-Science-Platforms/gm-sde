@@ -1,0 +1,29 @@
+^ESCT1181373	Product containing only oxypertine 40 mg/1 each oral tablet
+^ESCT1187276	Product containing only oxypertine 10 mg/1 each oral capsule
+^ESCT1223417	Oxypertine 10 mg oral capsule
+^ESCT1223418	Product containing precisely oxypertine 10 milligram/1 each conventional release oral capsule
+^ESCT1223419	Product containing precisely oxypertine 40 milligram/1 each conventional release oral tablet
+^ESCT1226776	Oxypertine
+^ESCT1226777	Oxypertine product
+^ESCT1351623	Oxypertine-containing product in oral dose form
+^ESCT1356195	Oxypertine only product
+^ESCT1359456	Oxypertine only product in oral dose form
+^ESCTIN870832	Integrin 10mg capsules (Sterling-Winthrop)
+^ESCTIN870833	Integrin 10mg capsules (Sterling-Winthrop) 100 capsule
+^ESCTIN919624	Integrin
+^ESCTOX609292	Oxypertine 10mg capsules
+^ESCTOX609293	Oxypertine 10 mg/1 each oral capsule
+^ESCTOX609295	Oxypertine 40mg tablets
+^ESCTOX609297	Oxypertine 40 mg oral tablet
+^ESCTOX618970	Oxypertine
+^ESCTOX870831	Oxypertine 10mg capsules 100 capsule
+^ESCTOX874412	Oxypertine 40mg tablets 250 tablet
+^ESCTOX874414	Oxypertine 40mg tablets (Sanofi-Synthelabo Ltd)
+^ESCTOX874415	Oxypertine 40mg tablets (Sanofi-Synthelabo Ltd) 250 tablet
+^ESCTPR609294	Product containing oxypertine 10 mg/1 each oral capsule
+^ESCTPR609296	Product containing oxypertine 40 mg/1 each oral tablet
+^ESCTPR618971	Product containing oxypertine
+INCA1485	Integrin  Capsules  10 mg
+INTA1486	Integrin  Tablets  40 mg
+OXCA5237	Oxypertine  Capsules  10 mg
+OXTA5238	Oxypertine  Tablets  40 mg

@@ -1,0 +1,50 @@
+^ESCT1190528	[D]Anorexia NOS
+^ESCT1271767	[D]Anorexia
+^ESCT1272787	Other and unspecified non-organic eating disorders
+^ESCT1272788	Unspecified non-organic eating disorder
+^ESCT1396705	Orthorexia nervosa
+^ESCT1396706	Orthorexia
+^ESCT1418090	Bulimia nervosa in partial remission
+^ESCTAL486883	Always eating
+^ESCTAN342385	AN - Anorexia nervosa
+^ESCTAN353102	Anorexia nervosa, binge-eating purging type
+^ESCTAN376379	Anorexia nervosa, restricting type
+^ESCTAN376380	Anorexia nervosa, restricting subtype
+^ESCTAN379925	Anorexia
+^ESCTAN379926	Anorexic
+^ESCTAN783864	Anorexia nervosa co-occurrent with dangerously low body weight
+^ESCTAN783865	Anorexia nervosa co-occurrent with significantly low body weight
+^ESCTAN784919	Anorexia nervosa of restricting type with dangerously low body weight
+^ESCTAN784921	Anorexia nervosa, binge-eating purging type with dangerously low body weight
+^ESCTAN784923	Anorexia nervosa, restricting type with significantly low body weight
+^ESCTAN784925	Anorexia nervosa of binge-eating purging type with significantly low body weight
+^ESCTAV753221	Avoidant restrictive food intake disorder
+^ESCTBI525318	Bingeing
+^ESCTBI525319	Binging
+^ESCTBI525321	Binges
+^ESCTBI525324	Binge overeating
+^ESCTBI723010	Binge eating disorder
+^ESCTBN376902	BN - Bulimia nervosa
+^ESCTBO525322	Bouts of overeating
+^ESCTBU302709	Bulimia nervosa, purging type
+^ESCTBU346892	Bulimia nervosa, nonpurging type
+^ESCTBU554859	Bulimia test
+^ESCTBU554860	BULIT - Bulimia test
+^ESCTCO486884	Constantly eating
+^ESCTDA784918	Dangerously low body weight co-occurrent and due to anorexia nervosa of restricting type
+^ESCTDA784920	Dangerously low body weight co-occurrent and due to anorexia nervosa of binge-eating purging type
+^ESCTDI844025	Diabulimia
+^ESCTEA844023	Eating disorder co-occurrent with diabetes mellitus type 1
+^ESCTED844024	ED-DMT1 - Eating disorder-diabetes mellitus type 1
+^ESCTEP525323	Episodes of overeating
+^ESCTEX549755	Excessive eating
+^ESCTGL549757	Gluttony
+^ESCTHI454001	History of anorexia nervosa
+^ESCTHI803937	History of eating disorder
+^ESCTHI803938	History of bulimia nervosa
+^ESCTHY549756	Hyperphagia
+^ESCTPO549754	Polyphagia
+^ESCTPS557361	Psychogenic overeating
+^ESCTSE759710	Self-induced vomiting to lose weight
+^ESCTSI784922	Significantly low body weight co-occurrent and due to anorexia nervosa of restricting type
+^ESCTSI784924	Significantly low body weight co-occurrent and due to anorexia nervosa of binge-eating purging type

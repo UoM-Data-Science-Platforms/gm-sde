@@ -1,0 +1,125 @@
+918e.	On learning disability register
+B927.	Neurofibromatosis - Von Recklinghausen's disease
+C3005	Succinic semialdehyde dehydrogenase deficiency
+C301.	Phenylketonuria
+C3025	Lowe disease
+C3033	Maple syrup urine disease
+C3052	Histidinuria
+C3063	Hyperargininaemia
+C3082	X-linked adrenoleucodystrophy
+C31y1	Fucosidosis
+C31y3	Mannosidosis
+C31y7	Aspartylglucosaminuria
+C3510	Hepatolenticular degeneration (Wilson's disease)
+C3723	Lesch-Nyhan syndrome
+C3753	Mucopolysaccharidosis, type III
+C3757	Mucopolysaccharidosis, type VII
+C3758	Multiple sulphatase deficiency
+E3...	Mental retardation
+E31..	Other specified mental retardation
+E310.	Moderate mental retardation, IQ in range 35-49
+E311.	Severe mental retardation, IQ in range 20-34
+E312.	Profound mental retardation with IQ less than 20
+E31z.	Other specified mental retardation NOS
+E3y..	Other specified mental retardation
+E3z..	Mental retardation NOS
+Eu7..	[X]Mental retardation
+Eu70.	[X]Mild mental retardation
+Eu700	[X]Mild mental retardation with the statement of no, or minimal, impairment of behaviour
+Eu701	[X]Mild mental retardation, significant impairment of behaviour requiring attention or treatment
+Eu70y	[X]Mild mental retardation, other impairments of behaviour
+Eu70z	[X]Mild mental retardation without mention of impairment of behaviour
+Eu71.	[X]Moderate mental retardation
+Eu710	[X]Moderate mental retardation with the statement of no, or minimal, impairment of behaviour
+Eu711	[X]Moderate mental retardation, significant impairment of behaviour requiring attention or treatment
+Eu71y	[X]Mod retard oth behav impair
+Eu71z	[X]Moderate mental retardation without mention of impairment of behaviour
+Eu72.	[X]Severe mental retardation
+Eu720	[X]Severe mental retardation with the statement of no, or minimal, impairment of behaviour
+Eu721	[X]Severe mental retardation, significant impairment of behaviour requiring attention or treatment
+Eu72y	[X]Severe mental retardation, other impairments of behaviour
+Eu72z	[X]Severe mental retardation without mention of impairment of behaviour
+Eu73.	[X]Profound mental retardation
+Eu730	[X]Profound mental retardation with the statement of no, or minimal, impairment of behaviour
+Eu731	[X]Profound mental retardation, significant impairment of behaviour requiring attention or treatment
+Eu73y	[X]Profound mental retardation, other impairments of behaviour
+Eu73z	[X]Profound mental retardation without mention of impairment of behaviour
+Eu7y.	[X]Other mental retardation
+Eu7y0	[X]Other mental retardation with the statement of no, or minimal, impairment of behaviour
+Eu7y1	[X]Other mental retardation, significant impairment of behaviour requiring attention or treatment
+Eu7yy	[X]Other mental retardation, other impairments of behaviour
+Eu7yz	[X]Other mental retardation without mention of impairment of behaviour
+Eu7z.	[X]Unspecified mental retardation
+Eu7z0	[X]Unspecified mental retardation with the statement of no, or minimal, impairment of behaviour
+Eu7z1	[X]Unspecified mental retardation, significant impairment of behaviour requiring attention or treatment
+Eu7zy	[X]Unspecified mental retardation, other impairments of behaviour
+Eu7zz	[X]Unspecified mental retardation without mention of impairment of behaviour
+Eu814	[X]Moderate learning disability
+Eu815	[X]Severe learning disability
+Eu816	[X]Mild learning disability
+Eu817	[X]Profound learning disability
+Eu818	[X]Specific learning disability
+Eu842	[X]Rett's syndrome
+F1306	Aicardi Goutieres syndrome
+F2505	Lennox-Gastaut syndrome
+F2511	Neonatal myoclonic epilepsy
+F28y2	Enlarged brain
+F4276	Retinitis pigmentosa
+P2283	Aicardi syndrome
+P22y2	Gillespie syndrome
+P249.	Megalencephaly
+P3423	Peters-plus syndrome
+PG421	Myotonic chondrodysplasia
+PG442	Thanatophoric dwarfism
+PG4G.	Dyggve-Melchior-Clausen dysplasia
+PG5D.	Craniodiaphyseal dysplasia
+PG5F.	Acrodysostosis
+PH322	Xeroderma pigmentosum
+PJ00.	Trisomy 21, meiotic nondisjunction
+PJ01.	Trisomy 21, mosaicism
+PJ02.	Trisomy 21, translocation
+PJ0z.	Down's syndrome NOS
+PJ1..	Patau's syndrome - trisomy 13
+PJ12.	Trisomy 13, translocation
+PJ1z.	Patau's syndrome NOS
+PJ2..	Edward's syndrome - trisomy 18
+PJ2z.	Edward's syndrome NOS
+PJ31.	Cri-du-chat syndrome
+PJ32.	Deletion of short arm of chromosome 4
+PJ333	Smith-Magenis syndrome
+PJ334	Jacobsen syndrome
+PJ33A	Kleefstra syndrome
+PJ514	Trisomy 9p syndrome
+PJ73.	Klinefelter's syndrome, XXYY
+PJ9..	Mowat-Wilson syndrome
+PJyy4	Fragile X syndrome
+PJz31	MeCP2 duplication syndrome
+PK80.	Fetal alcohol syndrome
+PKy0.	Multiple system congenital anomalies NEC
+PKy03	Weaver syndrome
+PKy04	Marshall-Smith syndrome
+PKy1.	Laurence-Moon-Biedl syndrome
+PKy4.	William syndrome
+PKy5F	Coffin-Lowry syndrome
+PKy5K	Cohen syndrome
+PKy5L	Cardio-facio-cutaneous syndrome
+PKy60	Amsterdam dwarf
+PKy63	Smith - Lemli - Opitz syndrome
+PKy64	Seckel syndrome
+PKy66	Dubowitz syndrome
+PKy69	Borjeson-Forssman-Lehmann syndrome
+PKy70	Carpenter's syndrome
+PKy73	Rubenstein - Tayi syndrome
+PKy80	Noonan's syndrome
+PKy93	Prader - Willi syndrome
+PKyD.	Nicolaides-Baraitser syndrome
+PKyG.	Mental retardation, congenital heart disease, blepharophimosis, blepharoptosis and hypoplastic teeth
+PKyJ.	Lujan-Fryns syndrome
+PKyN.	Marden-Walker syndrome
+PKyz.	Other specified anomalies NOS
+PKyz0	Ullrich - Feichtiger syndrome, chimaera
+PKyz5	Happy puppet syndrome
+PKyz7	Angelman's syndrome
+PyuAB	[X]Pallister-Killian syndrome
+Q48y5	Megalencephaly
+SP3y8	Dysequilibrium syndrome

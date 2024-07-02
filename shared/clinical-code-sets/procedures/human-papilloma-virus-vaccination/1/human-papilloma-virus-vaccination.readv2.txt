@@ -1,0 +1,7 @@
+65Fa.	Human papillomavirus vaccination given by other healthcare provider
+65FS.	First human papillomavirus vaccination
+65FT.	Second human papillomavirus vaccination
+65FV.	Third human papillomavirus vaccination
+65FW.	Quadrivalent human papillomavirus vaccination
+n4z1.	GARDASIL VACCINE 0.5mL prefilled syringe
+n4z2.	CERVARIX 0.5mL prefilled syringe

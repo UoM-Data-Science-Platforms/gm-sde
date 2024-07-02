@@ -22,3 +22,4 @@ SOTA2642	Soneryl  Tablets  100 mg
 ^ESCTBU617650	Butobarbitone
 ^ESCTBU617651	Butethal
 BUTA449	Butobarbitone  Tablets  100 mg
+^ESCTSO916357	Soneryl

@@ -1,0 +1,9 @@
+d4a..00	PERICYAZINE
+d4az.00	PERICYAZINE 10mg/5mL syrup
+d4ay.00	*PERICYAZINE 25mg tablets
+d4ax.00	PERICYAZINE 10mg tablets
+d4aw.00	PERICYAZINE 2.5mg tablets
+d4a4.00	*NEULACTIL FORTE 10mg/5mL syrp
+d4a3.00	*NEULACTIL 25mg tablets
+d4a2.00	*NEULACTIL 10mg tablets
+d4a1.00	*NEULACTIL 2.5mg tablets

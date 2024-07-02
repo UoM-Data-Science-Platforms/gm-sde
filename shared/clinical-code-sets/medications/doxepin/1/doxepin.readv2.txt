@@ -1,10 +1,11 @@
-d761.	*SINEQUAN 10mg capsules x56CP
-d762.	*SINEQUAN 25mg capsules x28CP
-d763.	*SINEQUAN 50mg capsules x28CP
-d764.	*SINEQUAN 75mg capsules x28CP
-d765.	*SINEPIN 25mg capsules
-d766.	*SINEPIN 50mg capsules
-d76w.	*DOXEPIN 10mg capsules
-d76x.	DOXEPIN 25mg capsules
-d76y.	DOXEPIN 50mg capsules
-d76z.	*DOXEPIN 75mg capsules
+d76..00	DOXEPIN
+d761.00	*SINEQUAN 10mg capsules x56CP
+d762.00	*SINEQUAN 25mg capsules x28CP
+d763.00	*SINEQUAN 50mg capsules x28CP
+d764.00	*SINEQUAN 75mg capsules x28CP
+d765.00	*SINEPIN 25mg capsules
+d766.00	*SINEPIN 50mg capsules
+d76w.00	*DOXEPIN 10mg capsules
+d76x.00	DOXEPIN 25mg capsules
+d76y.00	DOXEPIN 50mg capsules
+d76z.00	*DOXEPIN 75mg capsules

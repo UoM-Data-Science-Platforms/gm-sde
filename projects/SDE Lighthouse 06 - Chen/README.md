@@ -33,100 +33,13 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
-- Index Multiple Deprivation
-- Lower level super output area
-- Sex
 - Classify secondary admissions
 - Secondary admissions and length of stay
 - Secondary discharges
-- Define Cohort for LH006: patients that had a dementia diagnosis
-- Year of birth
-- Create table of patients who are registered with a GM GP
+- Define Cohort for LH006: patients that had multiple opioid prescriptions
 
 Further details for each query can be found below.
 
-### Index Multiple Deprivation
-To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
- 	- FK_Patient_Link_ID - unique patient id
-	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
-```
-_File_: `query-patient-imd.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-imd.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql)
-
----
-### Lower level super output area
-To get the LSOA for each patient.
-
-_Assumptions_
-
-- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
-- If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date
-- If every LSOA for a paitent is the same, then we use that
-- If there is a single most recently updated LSOA in the database then we use that
-- Otherwise the patient's LSOA is considered unknown
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #PatientLSOA (FK_Patient_Link_ID, LSOA)
- 	- FK_Patient_Link_ID - unique patient id
-	- LSOA_Code - nationally recognised LSOA identifier
-```
-_File_: `query-patient-lsoa.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-lsoa.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql)
-
----
-### Sex
-To get the Sex for each patient.
-
-_Assumptions_
-
-- Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:
-- If the patients has a sex in their primary care data feed we use that as most likely to be up to date
-- If every sex for a patient is the same, then we use that
-- If there is a single most recently updated sex in the database then we use that
-- Otherwise the patient's sex is considered unknown
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #PatientSex (FK_Patient_Link_ID, Sex)
- 	- FK_Patient_Link_ID - unique patient id
-	- Sex - M/F
-```
-_File_: `query-patient-sex.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-sex.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql)
-
----
 ### Classify secondary admissions
 To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.
 
@@ -216,7 +129,7 @@ _File_: `query-get-discharges.sql`
 _Link_: [https://github.com/rw251/.../query-get-discharges.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql)
 
 ---
-### Define Cohort for LH006: patients that had a dementia diagnosis
+### Define Cohort for LH006: patients that had multiple opioid prescriptions
 To build the cohort of patients needed for LH006. This reduces duplication of code in the template scripts.
 
 _Input_
@@ -227,65 +140,21 @@ none
 _Output_
 ```
 Temp tables as follows:
- #Cohort
- #Patients (reduced to cohort only)
+ Cohort
 ```
 _File_: `query-build-lh006-cohort.sql`
 
 _Link_: [https://github.com/rw251/.../query-build-lh006-cohort.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-lh006-cohort.sql)
-
----
-### Year of birth
-To get the year of birth for each patient.
-
-_Assumptions_
-
-- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
-- If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
-- If every YOB for a patient is the same, then we use that
-- If there is a single most recently updated YOB in the database then we use that
-- Otherwise we take the highest YOB for the patient that is not in the future
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
- 	- FK_Patient_Link_ID - unique patient id
-	- YearOfBirth - INT
-```
-_File_: `query-patient-year-of-birth.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
-
----
-### Create table of patients who are registered with a GM GP
-undefined
-
-_Input_
-```
-undefined
-```
-
-_Output_
-```
-undefined
-```
-_File_: `query-get-possible-patients.sql`
-
-_Link_: [https://github.com/rw251/.../query-get-possible-patients.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
 
 - cancer v1
-- opioid-analgesics v1
+- chronic-pain v1
+- opioids v1
+- post-herpetic-neuralgia v1
+- ankylosing-spondylitis v1
+- nsaids v1
 
 Further details for each code set can be found below.
 
@@ -317,20 +186,106 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2024-02-22 | Vision | 335007 | 16786 (5.01%) | 16713 (4.99%) | 
 LINK: [https://github.com/rw251/.../conditions/cancer/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/1)
 
-### Opioid analgesics
+### Chronic Pain
 
-A prescription of any opioid analgesics.
+SNOMED and Read codes from study team for SDE-LS-006, used in previous CPRD studies.
+
+EMIS and CTV3 codes retrieved from reference lookup in Graphnet database.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range from the code is `15.7% - 19.1%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `57.9% - 60.4%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-07-05 | EMIS            | 2664831    |   410584 (15.4%) |    429274 (16.1%) |
-| 2022-07-05 | TPP             | 212907     |    39459 (18.5%) |     40687 (19.1%) |
-| 2022-07-05 | Vision          | 343146     |    52274 (15.2%) |     53983 (15.7%) |
+| 2024-04-03 | EMIS | 2528256 | 1462328 (57.8%) | 1462676 (57.9%) | 
+| 2024-04-03 | TPP | 201811 | 122547 (60.7%) | 121811 (60.4%) | 
+| 2024-04-03 | Vision | 335377 | 201681 (60.1%) | 201637 (60.1%) | 
+LINK: [https://github.com/rw251/.../conditions/chronic-pain/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-pain/1)
 
-LINK: [https://github.com/rw251/.../medications/opioid-analgesics/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/opioid-analgesics/1)
+### Opioids, excluding those used for treating opioid dependence
+
+Any prescription of an opioid, excluding those commonly used to treat opioid dependence, such as methadone.
+
+This code set was created from NHS ref sets: "Opioid medications excluding opioids for treating opioid dependence simple reference set"
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `34% - 36.7%` suggests this code set is well defined. 
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-06-14 | EMIS | 2533061 | 861608 (34%) | 861608 (34%) | 
+| 2024-06-14 | TPP | 201812 | 74130 (36.7%) | 74130 (36.7%) | 
+| 2024-06-14 | Vision | 335579 | 117636 (35.1%) | 117636 (35.1%) | 
+#### Audit log
+
+- Find_missing_codes last run 2024-06-14
+
+LINK: [https://github.com/rw251/.../medications/opioids/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/opioids/1)
+
+###  Post herpetic neuralgia codes
+
+Developed from https://getset.ga with inclusion terms and exclusion terms as below:
+
+  "includeTerms": [
+    "post-herpetic neuralgia",
+    "post-zoster",
+    "post-herpetic",
+    "post zoster",
+    "post herpetic"
+  ],
+  "excludeTerms": [],
+
+  ## Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.18% - 0.24%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-10-12 | EMIS            | 2470460    |    5882 (0.24%)  |    5886 (0.24%)   |
+| 2023-10-12 | TPP             | 200512     |     374 (0.18%)  |     374 (0.18%)   |
+| 2023-10-12 | Vision          | 332318     |     695 (0.21%)  |     692 (0.21%)   |
+LINK: [https://github.com/rw251/.../conditions/post-herpetic-neuralgia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/post-herpetic-neuralgia/1)
+
+### Ankylosing Spondylitis
+
+A code indicating a diagnosis of ankylosing Spondylitis.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.12% - 0.14%` suggests this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-01-19 | EMIS            | 2519438    |    3089 (0.123%) |     3090 (0.123%) |
+| 2024-01-19 | TPP             | 201469     |     269 (0.134%) |      267 (0.133%) |
+| 2024-01-19 | Vision          | 334528     |      470 (0.14%) |       470 (0.14%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-01-19
+
+LINK: [https://github.com/rw251/.../conditions/ankylosing-spondylitis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ankylosing-spondylitis/1)
+
+### Nonsteroidal anti inflammatory drugs (NSAIDs) oral
+
+This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
+
+This code set only includes codes that indicates oral NSAIDs. It does not include codes that indicate cream or suppository NSAIDs.
+
+**NB: This code set is intended to indicate only oral NSAIDs, NOT all NSAIDs. If you require all NSAIDs then this is not the code set for you.**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `46.01% - 50.22%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-02-02 | EMIS            | 2652511    | 1295120 (48.82%) |  1295123 (48.82%) |
+| 2022-02-02 | TPP             | 212213     |  106565 (50.22%) |   106565 (50.22%) |
+| 2022-02-02 | Vision          | 340640     |  156717 (46.01%) |   156717 (46.01%) |
+| 2024-04-26 | EMIS | 2530666 | 1189003 (47%) | 1189004 (47%) | 
+| 2024-04-26 | TPP | 201812 | 109145 (54.1%) | 109145 (54.1%) | 
+| 2024-04-26 | Vision | 335433 | 155663 (46.4%) | 155663 (46.4%) | 
+LINK: [https://github.com/rw251/.../medications/nsaids/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/nsaids/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../SDE Lighthouse 06 - Chen/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/SDE%20Lighthouse%2006%20-%20Chen/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.

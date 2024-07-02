@@ -82,3 +82,73 @@ c8ky.	Trimeprazine tartrate 7.5mg/5mL syrup
 c8kz.	Alimemazine tartrate 30mg/5mL syrup
 c8kz.	Alimemazine tartrate 30mg/5mL syrup
 c8kz.	Trimeprazine tartrate 30mg/5mL syrup
+o5b..	Trimeprazine tartrate [anaesthesia]
+c8k3.	Vallergan Forte 30mg/5mL syrup
+c8k2.	Vallergan 7.5mg/5mL syrup
+c8k1.	Vallergan 10mg tablet
+c8k4.	Vallergan 10mg tablets 28CP
+c8k..	Trimeprazine tartrate [antihistamine]
+x02u1	Vallergan
+x02u2	Vallergan Forte
+d2f2.	Buspar 5mg tablet
+d2f3.	Buspar 5mg tablets x126
+d2f4.	Buspar 10mg tablet
+x02WF	Buspar
+d121.	Heminevrin 192mg capsule
+d122.	Heminevrin 250mg/5mL syrup
+d12z.	Chlormethiazole edisylate 8mg/mL infusion
+d123.	Heminevrin 8mg/mL infusion
+d12..	Chlormethiazole edisylate [hypnotic]
+x02eb	Heminevrin
+d132.	Welldorm 225mg/5mL elixir
+d131.	Welldorm 650mg tablet
+d115.	Welldorm 143mg/5mL elixir
+d116.	Welldorm tablet
+x02uf	Welldorm
+d281.	Atarax 10mg tablet
+d284.	Ucerax 25mg tablet
+d282.	Atarax 25mg tablet
+d285.	Ucerax 10mg/5mL syrup
+d283.	Atarax 10mg/5mL syrup
+x02td	Ucerax
+x02Ue	Atarax
+d1h1.	CIRCADIN 2mg m/r tablets
+daD..	AGOMELATINE
+daD2.	AGOMELATINE 25mg tablets
+daD1.	VALDOXAN 25mg tablets
+d2c6.	Tenavoid tablet
+d2c5.	Meprate 400mg tablet
+d2c4.	Equanil 400mg tablet
+d2c3.	Equanil 200mg tablet
+x02ib	Meprate
+x02ba	Equanil
+c8i9.	SOMINEX 20mg tablets
+c8i1.	Phenergan 10mg tablet
+c8i8.	Ziz Forte 25mg tablet
+c8i6.	Phenergan Nightime 25mg tablet
+c8i2.	Phenergan 25mg tablet
+x02KI	Q-Mazine 5mg/5mL syrup
+c8i3.	Phenergan 5mg/5mL elixir
+c8i4.	Phenergan 25mg/1mL injection
+c8i5.	Phenergan 50mg/2mL injection
+dhg2.	VERTIGON 25mg tablets
+dhg1.	Avomine 25mg tablet
+dic2.	Medised colour free s/f suspension
+djg5.	Pamergan P100 injection
+x00g1	Sominex 20mg tablet
+x02rE	Sominex
+ch35.	Phenergan comp expect linctus
+x02nO	Phenergan
+x03uk	Phenergan Nightime
+dhe8.	Vertigon 10mg Spansule
+dhe9.	Vertigon 15mg Spansule
+x02Uq	Avomine
+x02md	Pamergan P100
+c886.	Nytol One-A-Night 50mg tablet
+c888.	Nightcalm 25mg tablet
+c88B.	Dreemon 25mg tablet
+ch2n.	Covonia Night Time Formula syrup
+dC11.	Xyrem 500mg/mL oral solution
+lf1D.	Frador tincture
+x00WC	Eludril mouthwash
+x027F	Eludril spray

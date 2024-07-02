@@ -30,6 +30,7 @@ SET NOCOUNT ON;
 --> CODESET renal-replacement-therapy:1 acute-kidney-injury:1 polycystic-kidney-disease:1 family-history-kidney-disease:1 end-stage-renal-disease:1
 --> CODESET ckd-stage-1:1 ckd-stage-2:1 ckd-stage-3:1 ckd-stage-4:1 ckd-stage-5:1 chronic-kidney-disease:1
 --> CODESET allergy-ace:1 allergy-arb:1 allergy-aspirin:1 allergy-clopidogrel:1 allergy-statin:1
+--> CODESET dementia:1
 
 -- CREATE TABLES OF DISTINCT CODES AND CONCEPTS - TO REMOVE DUPLICATES IN FINAL TABLE
 
@@ -104,7 +105,8 @@ SELECT PatientId = FK_Patient_Link_ID,
 	HO_glomerulonephritis = ISNULL(SUM(CASE WHEN Concept = 'glomerulonephritis' THEN 1 ELSE 0 END),0),
 	HO_kidney_transplant = ISNULL(SUM(CASE WHEN Concept = 'kidney-transplant' THEN 1 ELSE 0 END),0),
 	HO_kidney_stones = ISNULL(SUM(CASE WHEN Concept = 'kidney-stones' THEN 1 ELSE 0 END),0),
-	HO_vasculitis = ISNULL(SUM(CASE WHEN Concept = 'vasculitis' THEN 1 ELSE 0 END),0)
+	HO_vasculitis = ISNULL(SUM(CASE WHEN Concept = 'vasculitis' THEN 1 ELSE 0 END),0),
+	HO_dementia = ISNULL(SUM(CASE WHEN Concept = 'dementia' THEN 1 ELSE 0 END),0)
 FROM #DiagnosesAndSymptoms
 GROUP BY FK_Patient_Link_ID
 ORDER BY FK_Patient_Link_ID

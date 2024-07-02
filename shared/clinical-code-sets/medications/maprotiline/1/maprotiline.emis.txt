@@ -1,0 +1,51 @@
+^ESCT1181099	Product containing only maprotiline hydrochloride 10 mg/1 each oral tablet
+^ESCT1181100	Product containing only maprotiline hydrochloride 50 mg/1 each oral tablet
+^ESCT1181388	Product containing only maprotiline hydrochloride 75 mg/1 each oral tablet
+^ESCT1187293	Product containing only maprotiline hydrochloride 25 mg/1 each oral tablet
+^ESCT1217822	Maprotiline
+^ESCT1217823	Maprotiline product
+^ESCT1223538	Product containing precisely maprotiline hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223539	Product containing precisely maprotiline hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223540	Product containing precisely maprotiline hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223541	Product containing precisely maprotiline hydrochloride 75 milligram/1 each conventional release oral tablet
+^ESCT1259839	Maprotiline 50mg tablets 1 tablet
+^ESCT1259840	Maprotiline 50mg tablets (Special Order)
+^ESCT1259841	Maprotiline 50mg tablets (Special Order) 1 tablet
+^ESCT1351529	Maprotiline-containing product in oral dose form
+^ESCT1355755	Maprotiline only product
+^ESCT1359095	Maprotiline only product in oral dose form
+^ESCTLU863407	Ludiomil 25mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTLU863412	Ludiomil 25mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTLU864559	Ludiomil 75mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTLU864560	Ludiomil 75mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTLU865094	Ludiomil 10mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTLU865095	Ludiomil 10mg tablets (Novartis Pharmaceuticals UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTLU865097	Ludiomil 50mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTLU865098	Ludiomil 50mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTLU919268	Ludiomil
+^ESCTMA302837	Maprotiline
+^ESCTMA609663	Maprotiline 10mg tablets
+^ESCTMA609665	Maprotiline hydrochloride 10 mg oral tablet
+^ESCTMA609666	Maprotiline 25mg tablets
+^ESCTMA609668	Maprotiline hydrochloride 25 mg oral tablet
+^ESCTMA609669	Maprotiline 50mg tablets
+^ESCTMA609671	Maprotiline hydrochloride 50 mg oral tablet
+^ESCTMA609672	Maprotiline 75mg tablets
+^ESCTMA609674	Maprotiline hydrochloride 75 mg oral tablet
+^ESCTMA863406	Maprotiline 25mg tablets 28 tablet
+^ESCTMA864558	Maprotiline 75mg tablets 28 tablet
+^ESCTMA865093	Maprotiline 10mg tablets 30 tablet
+^ESCTMA865096	Maprotiline 50mg tablets 28 tablet
+^ESCTPR302838	Product containing maprotiline
+^ESCTPR609664	Product containing maprotiline hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609667	Product containing maprotiline hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609670	Product containing maprotiline hydrochloride 50 mg/1 each oral tablet
+^ESCTPR609673	Product containing maprotiline hydrochloride 75 mg/1 each oral tablet
+LUTA3851	Ludiomil  Tablets  10 mg
+LUTA3852	Ludiomil  Tablets  25 mg
+LUTA3853	Ludiomil  Tablets  50 mg
+LUTA3854	Ludiomil  Tablets  75 mg
+MATA5110	Maprotiline Hydrochloride  Tablets  10 mg
+MATA6967	Maprotiline Hydrochloride  Tablets  25 mg
+MATA6968	Maprotiline Hydrochloride  Tablets  50 mg
+MATA6969	Maprotiline Hydrochloride  Tablets  75 mg

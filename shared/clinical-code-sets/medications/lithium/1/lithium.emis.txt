@@ -60,3 +60,51 @@ LITA1676	Litarex  M/R tablets  564 mg
 PRLI9836HILLI	Priadel  Liquid  520 mg/5 ml
 PRTA2344	Priadel  M/R tablets  200 mg
 PRTA2345	Priadel  M/R tablets  400 mg
+^ESCT1267779	Camcolit 400 modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1426731	Lithium carbonate 400mg modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1429159	Camcolit 400 modified-release tablets (CST Pharma Ltd)
+^ESCT1429842	Camcolit 400 modified-release tablets (Pilsco Ltd)
+^ESCTCA944369	Camcolit 250 tablets (Waymade Healthcare Plc)
+^ESCTCA944371	Camcolit 400 modified-release tablets (Waymade Healthcare Plc)
+^ESCTCA970834	Camcolit 400 modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTLI1037150	Lithium citrate 509mg/5ml oral solution (Sigma Pharmaceuticals Plc)
+^ESCTLI1037154	Lithium citrate 1.018g/5ml oral solution (Sigma Pharmaceuticals Plc)
+^ESCTLI1042423	Lithium citrate 509mg/5ml oral solution (Cubic Pharmaceuticals Ltd)
+^ESCTLI1042425	Lithium citrate 1.018g/5ml oral solution (Cubic Pharmaceuticals Ltd)
+^ESCTLI1047287	Lithium citrate 509mg/5ml oral solution (DE Pharmaceuticals)
+^ESCTLI1067542	Lithium citrate 509mg/5ml oral solution (Mawdsley-Brooks & Company Ltd)
+^ESCTLI1089343	Lithium citrate 1.018g/5ml oral solution (Ennogen Healthcare Ltd)
+^ESCTLI1089345	Lithium citrate 520mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTLI1100349	Lithium carbonate 400mg modified-release tablets (J M McGill Ltd)
+^ESCTLI1100658	Lithium citrate 509mg/5ml oral solution (Ennogen Healthcare Ltd)
+^ESCTLI1107736	Lithium carbonate 400mg modified-release tablets (Colorama Pharmaceuticals Ltd)
+^ESCTLI1107738	Lithium citrate 1.018g/5ml oral solution (Colorama Pharmaceuticals Ltd)
+^ESCTLI1107740	Lithium citrate 509mg/5ml oral solution (Colorama Pharmaceuticals Ltd)
+^ESCTLI1109008	Lithium carbonate 400mg modified-release tablets (Niche Pharma Ltd)
+^ESCTLI1111849	Lithium carbonate 400mg modified-release tablets (Ennogen Healthcare Ltd)
+^ESCTLI1126160	Lithium carbonate 400mg modified-release tablets (AM Distributions (Yorkshire) Ltd)
+^ESCTLI1126523	Lithium carbonate 250mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLI1127697	Lithium carbonate 400mg modified-release tablets (DE Pharmaceuticals)
+^ESCTLI1128242	Lithium carbonate 250mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLI1133048	Lithium citrate 1.018g/5ml oral solution (J M McGill Ltd)
+^ESCTLI1133051	Lithium citrate 509mg/5ml oral solution (J M McGill Ltd)
+^ESCTLI1133061	Lithium citrate 520mg/5ml oral solution sugar free (J M McGill Ltd)
+^ESCTLI609566	Lithium carbonate 200mg modified-release tablets
+^ESCTLI609567	Lithium carbonate 200mg m/r tablet
+^ESCTLI609571	Lithium carbonate 450mg modified-release tablets
+^ESCTLI609572	Lithium carbonate 450mg m/r tablet
+^ESCTLI609573	Lithium carbonate cr 450mg tablet
+^ESCTLI609574	Lithium carbonate 400mg modified-release tablets
+^ESCTLI609575	Lithium carbonate 400mg m/r tablet
+^ESCTLI609576	Lithium citrate 520mg/5ml oral solution sugar free
+^ESCTLI609577	Lithium citrate 520mg/5mL s/f oral liquid
+^ESCTLI609578	Lithium citrate 5.4mmol/5mL s/f oral liquid
+^ESCTLI873026	Lithium carbonate 400mg modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTLI908061	Lithium carbonate 200mg/5ml oral suspension (Special Order)
+^ESCTLI925833	Lithium citrate 1.018g/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1001222	Priadel 400mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1003110	Priadel 400mg modified-release tablets (Necessity Supplies Ltd)
+^ESCTPR1040859	Priadel 400mg modified-release tablets (Waymade Healthcare Plc)
+^ESCTPR879664	Priadel 400mg modified-release tablets (Dowelhurst Ltd)
+^ESCTPR967356	Priadel 400mg modified-release tablets (DE Pharmaceuticals)
+^ESCTPR974944	Priadel 400mg modified-release tablets (Sigma Pharmaceuticals Plc)

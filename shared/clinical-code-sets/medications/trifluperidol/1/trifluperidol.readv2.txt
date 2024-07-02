@@ -1,0 +1,5 @@
+d4i..00	TRIFLUPERIDOL
+d4iz.00	*TRIFLUPERIDOL 1mg tablets
+d4iy.00	TRIFLUPERIDOL 500microgram tablets
+d4i2.00	*TRIPERIDOL 1mg tablets
+d4i1.00	TRIPERIDOL 500micrograms tablets

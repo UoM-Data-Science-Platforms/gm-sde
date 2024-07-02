@@ -67,3 +67,13 @@
 14721411000001102	Plavix 75mg tablets (Sigma Pharmaceuticals Plc)
 5400911000001107	Plavix 75mg tablets (Waymade Healthcare Plc)
 15907411000001101	Grepid 75mg tablets (Kent Pharmaceuticals Ltd)
+39689111000001106	Clopidogrel 75mg tablets (product)
+42293111000001103	Clopidogrel 300mg tablets (product)
+40020611000001107	Clopidogrel 75mg tablets (Relonchem Ltd)
+37528411000001103	Plavix 75mg tablets (CST Pharma Ltd)
+37693411000001108	Plavix 75mg tablets (Ethigen Ltd)
+42525911000001102	Clopidogrel 75mg tablets (Bristol Laboratories Ltd)
+40559511000001104	Clopidogrel 75mg tablets (NorthStar Healthcare Unlimited Company)
+40314811000001109	Clopidogrel 75mg tablets (Medreich Plc)
+38846011000001103	Clopidogrel 75mg tablets (Medihealth (Northern) Ltd)
+

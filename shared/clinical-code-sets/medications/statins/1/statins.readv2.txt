@@ -55,3 +55,21 @@ bxdD.	Ranzolont 10mg tablet
 bxdE.	Ranzolont 20mg tablet
 bxdF.	Ranzolont 40mg tablet
 bxg7.	STEFLUVIN XL 80mg m/r tablets
+bxd4.	ZOCOR 20mg tablets 28CP
+bxd9.	ZOCOR 80mg tablets
+bxdJ.	INEGY 10mg/80mg tablets
+bxg1.	LESCOL 20mg capsules
+bxg2.	LESCOL 40mg capsules
+bxj3.	CERIVASTATIN SODIUM 300micrograms tablets
+bxjz.	CERIVASTATIN SODIUM 800micrograms tablets
+bxg3.	FLUVASTATIN 20mg capsules
+bxg4.	FLUVASTATIN 40mg capsules
+bxi1.	ATORVASTATIN 10mg tablets
+bxi2.	ATORVASTATIN 20mg tablets
+bxi3.	ATORVASTATIN 40mg tablets
+bxiz.	ATORVASTATIN 80mg tablets
+bxj4.	*LIPOBAY 100micrograms tablets
+bxj5.	*LIPOBAY 200micrograms tablets
+bxj6.	*LIPOBAY 300micrograms tablets
+bxj8.	*LIPOBAY 400micrograms tablets
+bxj9.	*LIPOBAY 800micrograms tablets

@@ -1,0 +1,31 @@
+29840005	Product containing amoxapine (medicinal product)
+321893005	Product containing precisely amoxapine 50 milligram/1 each conventional release oral tablet (clinical drug)
+321894004	Product containing precisely amoxapine 100 milligram/1 each conventional release oral tablet (clinical drug)
+386602002	Product containing precisely amoxapine 150 milligram/1 each conventional release oral tablet (clinical drug)
+386603007	Product containing precisely amoxapine 25 milligram/1 each conventional release oral tablet (clinical drug)
+767874007	Product containing amoxapine in oral dose form (medicinal product form)
+774585008	Amoxapine (product)
+778314006	Product containing only amoxapine in oral dose form (medicinal product form)
+42268011000001108	Amoxapine 50mg tablets (product)
+3798611000001103	Asendis 50mg tablets (Goldshield Healthcare Ltd) (product)
+42206311000001108	Amoxapine 100mg tablets (product)
+32248411000001107	Amoxapine 100mg tablets (Special Order) (product)
+28802211000001104	Defanyl 100mg tablets (Imported (France)) (product)
+3934511000001105	Asendis 100mg tablets (Goldshield Healthcare Ltd) (product)
+500201000001107	Amoxapine 25mg tablet
+709801000001104	Amoxapine 150mg tablet
+570001000001109	Amoxapine 50mg tablet - product
+640201000001107	Amoxapine 100mg tablet - product
+3934111000001101	Amoxapine 100mg tablets 56 tablet (product)
+3934711000001100	Asendis 100mg tablets (Goldshield Healthcare Ltd) 56 tablet (product)
+3798511000001102	Amoxapine 50mg tablets 84 tablet (product)
+3798711000001107	Asendis 50mg tablets (Goldshield Healthcare Ltd) 84 tablet (product)
+28785311000001100	Amoxapine 100mg tablets 30 tablet (product)
+28802311000001107	Defanyl 100mg tablets (Imported (France)) 30 tablet (product)
+32248311000001100	Amoxapine 100mg tablets 1 tablet (product)
+32248511000001106	Amoxapine 100mg tablets (Special Order) 1 tablet (product)
+431701000001109	Asendis 25mg tablet
+501201000001100	Asendis 100mg tablet
+527301000001107	Asendis 50mg tablet
+571101000001103	Asendis 150mg tablet
+9215001000001109	Asendis (product)

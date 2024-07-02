@@ -1,0 +1,7 @@
+d7d..	Protriptyline hydrochloride
+d7d3.	Protriptyline hydrochloride 5mg tablet
+d7d1.	Concordin 5mg tablet
+d7d4.	Protriptyline hydrochloride 10mg tablet
+d7d2.	Concordin 10mg tablet
+x01B1	Protriptyline
+x02Xv	Concordin

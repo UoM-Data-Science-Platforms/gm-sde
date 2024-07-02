@@ -20,3 +20,94 @@ PASU50809NEMIS	Paliperidone  Suspension For Injection  100 mg/1 ml pre-filled sy
 PASU50810NEMIS	Paliperidone  Suspension For Injection  150 mg/1.5 ml pre-filled syringe
 XESU50813NEMIS	Xeplion  Suspension For Injection  75 mg/0.75 ml pre-filled syringe
 XESU50814NEMIS	Xeplion  Suspension For Injection  100 mg/1 ml pre-filled syringe
+^ESCT1184481	Product containing paliperidone
+^ESCT1234317	Paliperidone
+^ESCT1234318	Paliperidone product
+^ESCT1356211	Paliperidone only product
+^ESCT1363648	Paliperidone-containing product in oral dose form
+^ESCT1363650	Paliperidone only product in oral dose form
+^ESCT1383506	Paliperidone 3 mg prolonged-release oral tablet
+^ESCT1383525	Paliperidone 6 mg prolonged-release oral tablet
+^ESCT1383545	Paliperidone 9 mg prolonged-release oral tablet
+^ESCT1384097	Paliperidone 1.5 mg prolonged-release oral tablet
+^ESCT1438298	Xeplion 100mg/1ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCT1438299	Xeplion 100mg/1ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd) 1 pre-filled disposable injection
+^ESCT1438300	Xeplion 150mg/1.5ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCT1438301	Xeplion 150mg/1.5ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd) 1 pre-filled disposable injection
+^ESCTIN918395	Invega
+^ESCTIN942711	Invega 3mg modified-release tablets (Janssen-Cilag Ltd)
+^ESCTIN942712	Invega 3mg modified-release tablets (Janssen-Cilag Ltd) 28 tablet 4 x 7 tablets
+^ESCTIN942716	Invega 6mg modified-release tablets (Janssen-Cilag Ltd)
+^ESCTIN942717	Invega 6mg modified-release tablets (Janssen-Cilag Ltd) 28 tablet 4 x 7 tablets
+^ESCTIN942728	Invega 9mg modified-release tablets (Janssen-Cilag Ltd)
+^ESCTIN942729	Invega 9mg modified-release tablets (Janssen-Cilag Ltd) 28 tablet 4 x 7 tablets
+^ESCTPA1017953	Paliperidone 50mg/0.5ml suspension for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTPA1017965	Paliperidone 75mg/0.75ml suspension for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTPA1017971	Paliperidone 100mg/1ml suspension for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTPA1017974	Paliperidone 150mg/1.5ml suspension for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTPA1018100	Paliperidone 100mg/1ml suspension for injection pre-filled syringes
+^ESCTPA1018101	Paliperidone 150mg/1.5ml suspension for injection pre-filled syringes
+^ESCTPA1018102	Paliperidone 50mg/0.5ml suspension for injection pre-filled syringes
+^ESCTPA1018103	Paliperidone 75mg/0.75ml suspension for injection pre-filled syringes
+^ESCTPA1036189	Paliperidone 150mg/1.5ml suspension for injection pre-filled syringes and Paliperidone 100mg/1ml suspension for injection pre-filled syringes 2 pre-filled disposable injection
+^ESCTPA1036199	Paliperidone 150mg/1.5ml suspension for injection pre-filled syringes and Paliperidone 100mg/1ml suspension for injection pre-filled syringes
+^ESCTPA1133095	Paliperidone 3mg modified-release tablets (J M McGill Ltd)
+^ESCTPA1133096	Paliperidone 3mg modified-release tablets (J M McGill Ltd) 28 tablet
+^ESCTPA1133097	Paliperidone 6mg modified-release tablets (J M McGill Ltd)
+^ESCTPA1133098	Paliperidone 6mg modified-release tablets (J M McGill Ltd) 28 tablet
+^ESCTPA1133099	Paliperidone 9mg modified-release tablets (J M McGill Ltd)
+^ESCTPA1133100	Paliperidone 9mg modified-release tablets (J M McGill Ltd) 28 tablet
+^ESCTPA1146101	Paliperidone 175mg/0.875ml prolonged-release suspension for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTPA1146110	Paliperidone 263mg/1.315ml prolonged-release suspension for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTPA1146113	Paliperidone 350mg/1.75ml prolonged-release suspension for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTPA1146116	Paliperidone 525mg/2.625ml prolonged-release suspension for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTPA1146218	Paliperidone 175mg/0.875ml prolonged-release suspension for injection pre-filled syringes
+^ESCTPA1146219	Paliperidone 263mg/1.315ml prolonged-release suspension for injection pre-filled syringes
+^ESCTPA1146220	Paliperidone 350mg/1.75ml prolonged-release suspension for injection pre-filled syringes
+^ESCTPA1146221	Paliperidone 525mg/2.625ml prolonged-release suspension for injection pre-filled syringes
+^ESCTPA704502	Paliperidone
+^ESCTPA705443	Paliperidone 3mg extended release tablet
+^ESCTPA706421	Paliperidone 6mg extended release tablet
+^ESCTPA707226	Paliperidone 9mg extended release tablet
+^ESCTPA725090	Paliperidone 1.5mg extended release tablet
+^ESCTPA942710	Paliperidone 3mg modified-release tablets 28 tablet
+^ESCTPA942715	Paliperidone 6mg modified-release tablets 28 tablet
+^ESCTPA942727	Paliperidone 9mg modified-release tablets 28 tablet
+^ESCTPA942842	Paliperidone 3mg modified-release tablets
+^ESCTPA942843	Paliperidone 6mg modified-release tablets
+^ESCTPA942844	Paliperidone 9mg modified-release tablets
+^ESCTTR1146102	Trevicta 175mg/0.875ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCTTR1146103	Trevicta 175mg/0.875ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd) 1 pre-filled disposable injection
+^ESCTTR1146111	Trevicta 263mg/1.315ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCTTR1146112	Trevicta 263mg/1.315ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd) 1 pre-filled disposable injection
+^ESCTTR1146114	Trevicta 350mg/1.75ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCTTR1146115	Trevicta 350mg/1.75ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd) 1 pre-filled disposable injection
+^ESCTTR1146117	Trevicta 525mg/2.625ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCTTR1146118	Trevicta 525mg/2.625ml prolonged-release suspension for injection pre-filled syringes (Janssen-Cilag Ltd) 1 pre-filled disposable injection
+^ESCTTR953774	Trevicta
+^ESCTXE1017955	Xeplion 50mg/0.5ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCTXE1017957	Xeplion 50mg/0.5ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd) 1 pre-filled disposable injection
+^ESCTXE1017966	Xeplion 75mg/0.75ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCTXE1017967	Xeplion 75mg/0.75ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd) 1 pre-filled disposable injection
+^ESCTXE1017972	Xeplion 100mg/1ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCTXE1017973	Xeplion 100mg/1ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd) 1 pre-filled disposable injection
+^ESCTXE1017975	Xeplion 150mg/1.5ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd)
+^ESCTXE1017976	Xeplion 150mg/1.5ml suspension for injection pre-filled syringes (Janssen-Cilag Ltd) 1 pre-filled disposable injection
+^ESCTXE1036190	Xeplion 150mg/1.5ml and 100mg/1ml suspension for injection treatment initiation pack (Janssen-Cilag Ltd)
+^ESCTXE1036191	Xeplion 150mg/1.5ml and 100mg/1ml suspension for injection treatment initiation pack (Janssen-Cilag Ltd) 2 pre-filled disposable injection 1 x (1 inj + 1 inj)
+^ESCTXE934852	Xeplion
+BYPR141846NEMIS	Byannli  Prolonged release suspension for injection  1,000 mg/5 ml pre-filled syringe
+BYPR141847NEMIS	Byannli  Prolonged release suspension for injection  700 mg/3.5 ml pre-filled syringe
+INM/26220NEMIS	Invega  M/R tablets  9 mg
+PAPR116577NEMIS	Paliperidone  Prolonged release suspension for injection  175 mg/0.875 ml pre-filled syringe
+PAPR116578NEMIS	Paliperidone  Prolonged release suspension for injection  263 mg/1.315 ml pre-filled syringe
+PAPR116579NEMIS	Paliperidone  Prolonged release suspension for injection  350 mg/1.75 ml pre-filled syringe
+PAPR116580NEMIS	Paliperidone  Prolonged release suspension for injection  525 mg/2.625 ml pre-filled syringe
+PAPR141843NEMIS	Paliperidone  Prolonged release suspension for injection  1 gram/5 ml pre-filled syringe
+PAPR141844NEMIS	Paliperidone  Prolonged release suspension for injection  700 mg/3.5 ml pre-filled syringe
+TRPR116582NEMIS	Trevicta  Prolonged release suspension for injection  175 mg/0.875 ml pre-filled syringe
+TRPR116583NEMIS	Trevicta  Prolonged release suspension for injection  263 mg/1.315 ml pre-filled syringe
+TRPR116584NEMIS	Trevicta  Prolonged release suspension for injection  350 mg/1.75 ml pre-filled syringe
+TRPR116585NEMIS	Trevicta  Prolonged release suspension for injection  525 mg/2.625 ml pre-filled syringe
+XESU50812NEMIS	Xeplion  Prolonged release suspension for injection  50 mg/0.5 ml pre-filled syringe
+XESU50815NEMIS	Xeplion  Prolonged release suspension for injection  150 mg/1.5 ml pre-filled syringe

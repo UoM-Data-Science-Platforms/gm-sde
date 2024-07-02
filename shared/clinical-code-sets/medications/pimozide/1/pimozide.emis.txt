@@ -8,3 +8,66 @@ ORTA2095	Orap  Tablets  2 mg
 ORTA2096	Orap  Tablets  4 mg
 PITA2263	Pimozide  Tablets  2 mg
 PITA2264	Pimozide  Tablets  4 mg
+^ESCT1178164	Product containing only pimozide 2 mg/1 each oral tablet
+^ESCT1187277	Product containing only pimozide 4 mg/1 each oral tablet
+^ESCT1188480	Product containing only pimozide 1 mg/1 each oral tablet
+^ESCT1206929	Pimozide in oral dosage form
+^ESCT1206930	Product containing pimozide in oral dosage form
+^ESCT1220836	Pimozide
+^ESCT1220837	Pimozide product
+^ESCT1223426	Product containing precisely pimozide 2 milligram/1 each conventional release oral tablet
+^ESCT1223427	Product containing precisely pimozide 4 milligram/1 each conventional release oral tablet
+^ESCT1228772	Product containing precisely pimozide 1 milligram/1 each conventional release oral tablet
+^ESCT1356378	Pimozide only product
+^ESCT1359589	Pimozide only product in oral dose form
+^ESCT1386512	Pimozide-containing product in oral dose form
+^ESCT1410159	Orap 4mg tablets (Eumedica Pharma Ltd)
+^ESCT1410160	Orap 4mg tablets (Eumedica Pharma Ltd) 100 tablet 5 x 20 tablets
+^ESCTOR1003026	Orap 4mg tablets (Necessity Supplies Ltd)
+^ESCTOR1003027	Orap 4mg tablets (Necessity Supplies Ltd) 20 tablet
+^ESCTOR1040689	Orap 4mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTOR1075105	Orap 1mg tablets (Imported (United States))
+^ESCTOR1075107	Orap 1mg tablets (Imported (United States)) 100 tablet
+^ESCTOR863447	Orap 4mg tablets (Eumedica Pharmaceuticals)
+^ESCTOR863451	Orap 4mg tablets (Eumedica Pharmaceuticals) 100 tablet 5 x 20 tablets
+^ESCTOR870805	Orap 2mg tablets (Janssen-Cilag Ltd)
+^ESCTOR870808	Orap 2mg tablets (Janssen-Cilag Ltd) 100 tablet
+^ESCTOR878146	Orap 4mg tablets (Waymade Healthcare Plc)
+^ESCTOR878151	Orap 4mg tablets (Waymade Healthcare Plc) 20 tablet
+^ESCTOR915369	Orap
+^ESCTOR974409	Orap 4mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOR974411	Orap 4mg tablets (Sigma Pharmaceuticals Plc) 20 tablet
+^ESCTOR993437	Orap 4mg tablets (Stephar (U.K.) Ltd)
+^ESCTOR993438	Orap 4mg tablets (Stephar (U.K.) Ltd) 20 tablet
+^ESCTPI1042457	Pimozide 3mg/5ml oral suspension
+^ESCTPI1042458	Pimozide 3mg/5ml oral suspension 1 ml
+^ESCTPI1042459	Pimozide 3mg/5ml oral suspension 100 ml
+^ESCTPI1042460	Pimozide 3mg/5ml oral suspension (Special Order)
+^ESCTPI1042461	Pimozide 3mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPI1042462	Pimozide 3mg/5ml oral suspension (Special Order) 100 ml
+^ESCTPI1075106	Pimozide 1mg tablets 100 tablet
+^ESCTPI1133103	Pimozide 4mg tablets (J M McGill Ltd)
+^ESCTPI1133104	Pimozide 4mg tablets (J M McGill Ltd) 100 tablet
+^ESCTPI415424	Pimozide
+^ESCTPI609319	Pimozide 2mg tablets
+^ESCTPI609321	Pimozide 2 mg oral tablet
+^ESCTPI609322	Pimozide 4mg tablets
+^ESCTPI609324	Pimozide 4 mg oral tablet
+^ESCTPI641456	Pimozide 1mg tablets
+^ESCTPI641458	Pimozide 1 mg oral tablet
+^ESCTPI863443	Pimozide 4mg tablets 100 tablet
+^ESCTPI870803	Pimozide 2mg tablets 100 tablet
+^ESCTPI878145	Pimozide 4mg tablets 20 tablet
+^ESCTPI958139	Pimozide 1.25mg/5ml oral suspension 1 ml
+^ESCTPI958141	Pimozide 1.25mg/5ml oral suspension (Special Order)
+^ESCTPI958143	Pimozide 1.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPI958145	Pimozide 2mg/5ml oral suspension 1 ml
+^ESCTPI958147	Pimozide 2mg/5ml oral suspension (Special Order)
+^ESCTPI958149	Pimozide 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPI958557	Pimozide 1.25mg/5ml oral suspension
+^ESCTPI958559	Pimozide 2mg/5ml oral suspension
+^ESCTPR415425	Product containing pimozide
+^ESCTPR609320	Product containing pimozide 2 mg/1 each oral tablet
+^ESCTPR609323	Product containing pimozide 4 mg/1 each oral tablet
+^ESCTPR641457	Product containing pimozide 1 mg/1 each oral tablet
+PIOR117895NEMIS	Pimozide  Oral suspension  2 mg/5 ml

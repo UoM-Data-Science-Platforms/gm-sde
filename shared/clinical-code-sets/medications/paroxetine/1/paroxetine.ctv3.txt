@@ -6,3 +6,7 @@ da65.	Paroxetine 10mg/5mL s/f liquid
 da66.	Seroxat 10mg/5mL s/f liquid
 da67.	PAROXETINE 10mg tablets
 da68.	SEROXAT 10mg tablets
+da6..	Paroxetine
+x00g0	Seroxat 30mg tablet
+x00fz	Seroxat 20mg tablet
+x03h0	Seroxat

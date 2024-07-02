@@ -14,6 +14,10 @@
 -- #Cohort (FK_Patient_Link_ID)
 -- #PatientEventData
 
+
+DECLARE @StudyStartDate datetime;
+SET @StudyStartDate = '2018-03-01';
+
 --> EXECUTE query-get-possible-patients.sql
 
 -- LOAD CODESETS NEEDED FOR DEFINING COHORT

@@ -2,8 +2,11 @@ const rp = require('request-promise');
 const cheerio = require('cheerio');
 const { join } = require('path');
 const fs = require('fs');
+const { Readable } = require('stream');
+const { finished } = require('stream/promises');
 const archiver = require('archiver');
 const chalk = require('chalk');
+const unzip = require('unzip-stream');
 
 const CACHED_DIR = join(__dirname, 'cached-data-files');
 const OUTPUT_DIR = join(__dirname, 'output');
@@ -95,13 +98,13 @@ async function getDataFileUrls(datesToGetDataFor) {
       })
         .then((html) => {
           var $ = cheerio.load(html);
-          var maleUrl = $('a[onclick*="gp-reg-pat-prac-sing-age-male"]').attr('href');
-          var femaleUrl = $('a[onclick*="gp-reg-pat-prac-sing-age-female"]').attr('href');
+          var maleUrl = $('a[href*="gp-reg-pat-prac-sing-age-male"]').attr('href');
+          var femaleUrl = $('a[href*="gp-reg-pat-prac-sing-age-female"]').attr('href');
           var singleUrl =
-            $('a[onclick*="gp-reg-patients-prac-sing-year-age"]').attr('href') ||
-            $('a[onclick*="gp_syoa"]').attr('href');
+            $('a[href*="gp-reg-patients-prac-sing-year-age"]').attr('href') ||
+            $('a[href*="gp_syoa"]').attr('href');
           const { month, year4chars } = getDateParts(date);
-          var single5YrUrl = $(`a[onclick*="gp-reg-patients-${month}-${year4chars}.csv"]`).attr(
+          var single5YrUrl = $(`a[href*="gp-reg-patients-${month}-${year4chars}.csv"]`).attr(
             'href'
           );
           return { date, maleUrl, femaleUrl, singleUrl, single5YrUrl };
@@ -438,6 +441,7 @@ async function downloadFileIfNotAlready(uri, date, filePrefix, force) {
     fs.mkdirSync(rawDir);
   }
   const rawFile = join(rawDir, `${filePrefix}-${year4chars}-${month}.csv`);
+  const rawZipFile = join(rawDir, `${filePrefix}-${year4chars}-${month}.zip`);
   if (fs.existsSync(rawFile) && !force) {
     console.log(`${filePrefix} data for ${readableDate(date)} already exists.`);
   } else {
@@ -449,8 +453,30 @@ async function downloadFileIfNotAlready(uri, date, filePrefix, force) {
       );
     }
     console.log(`Loading ${filePrefix} data for ${readableDate(date)} from NHS digital website...`);
-    const dataToCache = await rp({ uri });
-    fs.writeFileSync(rawFile, dataToCache.replace(/\r\n/g, '\n'));
+
+    if (uri.match(/\.csv$/)) {
+      const dataToCache = await rp({ uri });
+      fs.writeFileSync(rawFile, dataToCache.replace(/\r\n/g, '\n'));
+    } else if (uri.match(/\.zip$/)) {
+      const stream = fs.createWriteStream(rawZipFile);
+      const { body } = await fetch(uri);
+      await finished(Readable.fromWeb(body).pipe(stream));
+
+      // now unzip
+      await new Promise((resolve) => {
+        fs.createReadStream(rawZipFile)
+          .pipe(unzip.Parse())
+          .on('entry', function (entry) {
+            const outStream = fs.createWriteStream(rawFile);
+
+            entry.pipe(outStream);
+          })
+          .on('end', () => {
+            console.log(`Finished reading zip file.`);
+            return resolve();
+          });
+      });
+    }
     console.log('File saved to local cache.');
   }
 }
@@ -484,7 +510,19 @@ async function getDataFiles(fileUrls, force) {
       );
       process.exit(1);
     }
-    if (!maleUrl && !femaleUrl && !singleUrl && !single5YrUrl) {
+    if (
+      !maleUrl &&
+      !femaleUrl &&
+      !singleUrl &&
+      !single5YrUrl &&
+      !(
+        // check it's not this month
+        (
+          date.getFullYear() === new Date().getFullYear() &&
+          date.getMonth() === new Date().getMonth()
+        )
+      )
+    ) {
       console.log(
         `For ${readableDate(
           date
@@ -505,11 +543,14 @@ async function getDataFiles(fileUrls, force) {
     if (single5YrUrl) {
       await downloadFileIfNotAlready(single5YrUrl, date, 'single5yr', force);
     }
+
+    await Promise.resolve();
   }
 }
 
 function processDataFiles(force) {
   fs.readdirSync(CACHED_DIR).forEach((year) => {
+    if (year === '.gitignore') return;
     const rawDir = join(CACHED_DIR, year, 'raw');
     const processedDir = join(CACHED_DIR, year, 'processed');
     if (!fs.existsSync(rawDir)) {
@@ -522,6 +563,7 @@ function processDataFiles(force) {
       fs.mkdirSync(processedDir);
     }
     fs.readdirSync(rawDir).forEach((rawFile) => {
+      if (!rawFile.match(/\.csv$/)) return;
       const rawFileStub = rawFile.replace('.csv', '');
       const processedFile = join(processedDir, `processed-${rawFileStub}.json`);
       if (fs.existsSync(processedFile)) {
@@ -566,6 +608,7 @@ function processDataFiles(force) {
 function combineFiles() {
   const output = [];
   fs.readdirSync(CACHED_DIR).forEach((year) => {
+    if (year === '.gitignore') return;
     const processedDir = join(CACHED_DIR, year, 'processed');
     if (!fs.existsSync(processedDir)) {
       console.log(

@@ -1,0 +1,58 @@
+^ESCT1187877	Product containing droperidol
+^ESCT1217557	Droperidol
+^ESCT1217558	Droperidol product
+^ESCT1226490	Fentanyl+droperidol
+^ESCT1226491	Product containing droperidol and fentanyl
+^ESCT1226492	Droperidol and fentanyl product
+^ESCT1354743	Droperidol only product
+^ESCT1354744	Droperidol and fentanyl only product
+^ESCT1358337	Droperidol only product in oral dose form
+^ESCT1358338	Droperidol only product in parenteral dose form
+^ESCT1381226	Droperidol- and fentanyl-containing product
+^ESCT1381300	Droperidol-containing product in oral dose form
+^ESCT1381301	Droperidol-containing product in parenteral dose form
+^ESCTDR1158129	Droperidol 2.5mg/1ml solution for injection ampoules (Panpharma UK Ltd)
+^ESCTDR1158130	Droperidol 2.5mg/1ml solution for injection ampoules (Panpharma UK Ltd) 10 ampoule
+^ESCTDR292550	Droperidol
+^ESCTDR618948	Droperidol in oral dosage form
+^ESCTDR618950	Droperidol in parenteral dosage form
+^ESCTDR663834	Droperidol 2.5mg/mL injection solution 5mL vial
+^ESCTDR663938	Droperidol 2.5mg/mL injection solution 2mL vial
+^ESCTDR663939	Droperidol 2.5mg/mL injection
+^ESCTDR664036	Droperidol 2.5mg/mL injection solution 10mL vial
+^ESCTDR664142	Droperidol 2.5mg/mL injection solution 20mL vial
+^ESCTDR665170	Droperidol 2.5mg/mL injection solution 1mL vial
+^ESCTDR909244	Droperidol 1mg capsules 1 capsule
+^ESCTDR909246	Droperidol 1mg capsules (Special Order)
+^ESCTDR909247	Droperidol 1mg capsules (Special Order) 1 capsule
+^ESCTDR909255	Droperidol 500microgram capsules 1 capsule
+^ESCTDR909257	Droperidol 500microgram capsules (Special Order)
+^ESCTDR909259	Droperidol 500microgram capsules (Special Order) 1 capsule
+^ESCTDR909671	Droperidol 1mg capsules
+^ESCTDR909672	Droperidol 500microgram capsules
+^ESCTDR945947	Droperidol 5mg/5ml oral suspension 1 ml
+^ESCTDR945948	Droperidol 5mg/5ml oral suspension (Special Order)
+^ESCTDR945949	Droperidol 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDR945951	Droperidol 5mg/5ml oral solution 1 ml
+^ESCTDR945952	Droperidol 5mg/5ml oral solution (Special Order)
+^ESCTDR945953	Droperidol 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDR946079	Droperidol 5mg/5ml oral solution
+^ESCTDR946080	Droperidol 5mg/5ml oral suspension
+^ESCTDR981580	Droperidol 2.5mg/1ml solution for injection ampoules
+^ESCTDR981581	Droperidol 2.5mg/1ml solution for injection ampoules 10 ampoule
+^ESCTFE617738	Fentanyl+droperidol
+^ESCTPR618949	Product containing droperidol in oral dosage form
+^ESCTPR618951	Product containing droperidol in parenteral dosage form
+^ESCTXO926257	Xomolix
+^ESCTXO981582	Xomolix 2.5mg/1ml solution for injection ampoules (Kyowa Kirin Ltd)
+^ESCTXO981583	Xomolix 2.5mg/1ml solution for injection ampoules (Kyowa Kirin Ltd) 10 ampoule
+DRIN4873	Droperidol  Injection  5mg/ml
+DRIN998	Droleptan  Injection  5mg/ml
+DRLI4874	Droperidol  Liquid  1mg/ml
+DRLI999	Droleptan  Liquid  1mg/ml
+DRSO143759NEMIS	Droperidol  Solution for injection  2.5 mg/ml, 1 ml vial
+DRSO36266NEMIS	Droperidol  Solution for injection  2.5 mg/ml, 1 ml ampoule
+DRTA1000	Droleptan  Tablets  10 mg
+DRTA4875	Droperidol  Tablets  10 mg
+THINEGTON6744	Thalamonal  Injection  2.5 mg/ml
+XOSO36268NEMIS	Xomolix  Solution for injection  2.5 mg/ml, 1 ml ampoule

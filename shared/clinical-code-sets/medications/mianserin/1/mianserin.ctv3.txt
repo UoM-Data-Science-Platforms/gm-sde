@@ -1,3 +1,12 @@
 d7b1.	Mianserin hydrochloride 10mg tablet
 d7b2.	Mianserin hydrochloride 20mg tablet
 d7b3.	Mianserin hydrochloride 30mg tablet
+d7b..	Mianserin hydrochloride
+d7b7.	Norval 10mg tablet
+d7b4.	Bolvidon 10mg tablet
+d7b8.	Norval 20mg tablet
+d7b5.	Bolvidon 20mg tablet
+d7b9.	Norval 30mg tablet
+d7b6.	Bolvidon 30mg tablet
+x01Av	Mianserin
+x02Vn	Bolvidon

@@ -1,0 +1,10 @@
+^ESCT1226778	Remoxipride
+^ESCT1226779	Product containing remoxipride
+^ESCT1226780	Remoxipride product
+^ESCT1356604	Remoxipride only product
+^ESCT1381310	Remoxipride-containing product
+^ESCTRE618972	Remoxipride
+REM/18891EMIS	Remoxipride Hydrochloride  M/R capsules  150 mg
+REM/18892EMIS	Remoxipride Hydrochloride  M/R capsules  300 mg
+ROM/18887EMIS	Roxiam  M/R capsules  150 mg
+ROM/18888EMIS	Roxiam  M/R capsules  300 mg

@@ -32,20 +32,26 @@ da47.00	*PROZAC 60mg capsules
 da45.00	PROZAC 20mg capsules
 da44.00	PROZAC 20mg/5mL oral liquid
 da42.00	*PROZAC 20mg capsules x30
-da91.	CITALOPRAM 20mg tablets
-da92.	CIPRAMIL 20mg tablets
-da93.	CITALOPRAM 10mg tablets
-da94.	*CIPRAMIL 10mg tablets
-da95.	CITALOPRAM 40mg tablets
-da96.	*CIPRAMIL 40mg tablets
-da9z.	CITALOPRAM 40mg/mL oral drops
-daC1.	ESCITALOPRAM 10mg tablets
-daC2.	CIPRALEX 10mg tablets
-daC3.	ESCITALOPRAM 20mg tablets
-daC4.	CIPRALEX 20mg tablets
-daC5.	ESCITALOPRAM 5mg tablets
-daC6.	CIPRALEX 5mg tablets
-daC7.	ESCITALOPRAM 10mg/mL oral drops
-daC8.	*CIPRALEX 10mg/mL oral drops
-daC9.	CIPRALEX 20mg/mL oral drops
-daCA.	ESCITALOPRAM 20mg/mL oral drops
+da91.00	CITALOPRAM 20mg tablets
+da92.00	CIPRAMIL 20mg tablets
+da93.00	CITALOPRAM 10mg tablets
+da94.00	*CIPRAMIL 10mg tablets
+da95.00	CITALOPRAM 40mg tablets
+da96.00	*CIPRAMIL 40mg tablets
+da9z.00	CITALOPRAM 40mg/mL oral drops
+daC1.00	ESCITALOPRAM 10mg tablets
+daC2.00	CIPRALEX 10mg tablets
+daC3.00	ESCITALOPRAM 20mg tablets
+daC4.00	CIPRALEX 20mg tablets
+daC5.00	ESCITALOPRAM 5mg tablets
+daC6.00	CIPRALEX 5mg tablets
+daC7.00	ESCITALOPRAM 10mg/mL oral drops
+daC8.00	*CIPRALEX 10mg/mL oral drops
+daC9.00	CIPRALEX 20mg/mL oral drops
+daCA.00	ESCITALOPRAM 20mg/mL oral drops
+da9..00	CITALOPRAM
+da9A.00	*PAXORAN 40mg tablets
+da99.00	*PAXORAN 20mg tablets
+da98.00	*PAXORAN 10mg tablets
+da97.00	CIPRAMIL 40mg/mL oral drops 15mL
+daC..00	ESCITALOPRAM

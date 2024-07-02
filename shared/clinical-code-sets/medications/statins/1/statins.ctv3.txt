@@ -59,3 +59,21 @@ bxdB.	SIMVADOR 20mg tablets
 bxdC.	SIMVADOR 40mg tablets
 bxdK.	SIMVADOR 80mg tablets
 bxg7.	STEFLUVIN XL 80mg m/r tablets
+bxd4.	Zocor 20mg tablets 28CP
+bxd9.	Zocor 80mg tablet
+bxdJ.	Inegy 10mg/80mg tablet
+bxg1.	Lescol 20mg capsule
+bxg2.	Lescol 40mg capsule
+bxj3.	Cerivastatin sodium 300micrograms tablet
+bxjz.	Cerivastatin sodium 800micrograms tablet
+bxg3.	Fluvastatin 20mg capsule
+bxg4.	Fluvastatin 40mg capsule
+bxi1.	Atorvastatin 10mg tablet
+bxi2.	Atorvastatin 20mg tablet
+bxi3.	Atorvastatin 40mg tablet
+bxiz.	Atorvastatin 80mg tablet
+bxj4.	Lipobay 100micrograms tablet
+bxj5.	Lipobay 200micrograms tablet
+bxj6.	Lipobay 300micrograms tablet
+bxj8.	Lipobay 400micrograms tablet
+bxj9.	Lipobay 800micrograms tablet

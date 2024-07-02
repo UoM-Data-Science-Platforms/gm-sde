@@ -53,3 +53,5 @@
 15237811000001109	Stanozolol 2mg tablets
 15237911000001104	Stanozolol 2mg tablets (Special Order)
 15238011000001102	Stanozolol 2mg tablets (Special Order)
+41882211000001109	Stanozolol 5mg tablets (product)
+42086011000001100	Oxandrolone 2.5mg tablets (product)

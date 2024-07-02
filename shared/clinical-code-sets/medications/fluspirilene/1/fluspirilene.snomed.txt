@@ -1,0 +1,12 @@
+321692003	Product containing fluspirilene (medicinal product)
+776014006	Fluspirilene (product)
+21024211000001109	Fluspirilene 12mg/6ml suspension for injection vials (product)
+21024411000001108	Imap 12mg/6ml suspension for injection vials (Imported (Belgium)) (product)
+261301000001104	Fluspirilene 12mg/6mL injection
+289601000001108	Fluspirilene 2mg/1mL injection
+359701000001103	Fluspirilene 6mg/3mL injection
+21024311000001101	Fluspirilene 12mg/6ml suspension for injection vials 1 vial (product)
+21024511000001107	Imap 12mg/6ml suspension for injection vials (Imported (Belgium)) 1 vial (product)
+434201000001104	Redeptin 2mg/1mL injection
+503801000001100	Redeptin 6mg/3mL injection
+573901000001104	Redeptin 12mg/6mL injection

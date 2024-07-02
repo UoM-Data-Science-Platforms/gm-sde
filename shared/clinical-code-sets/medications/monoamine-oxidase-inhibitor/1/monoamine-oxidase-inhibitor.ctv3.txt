@@ -24,3 +24,29 @@ d81z.	Phenelzine 15mg tablet
 d81z.	Phenelzine 15mg tablet
 d84z.	Tranylcypromine 10mg tablet
 d84z.	Tranylcypromine 10mg tablet
+d81..	MAOI - Phenelzine
+x02kQ	Nardil
+dq6A.	Zelapar 1.25mg tablet
+dq63.	Eldepryl 10mg/5mL syrup
+dq69.	Centrapryl 10 tablet
+dq67.	Stilline 10mg tablet
+dq65.	Vivapryl 10mg tablet
+dq62.	Eldepryl 10mg tablet
+dq68.	Centrapryl 5 tablet
+dq66.	Stilline 5mg tablet
+dq64.	Vivapryl 5mg tablet
+dq61.	Eldepryl 5mg tablet
+x01Br	Selegiline
+x03cm	Stilline
+x02b5	Eldepryl
+x04wC	Zelapar
+x03dw	Centrapryl
+x03w8	Centrapryl 10
+x03w9	Centrapryl 5
+x040Y	Vivapryl
+d84..	MAOI - Tranylcypromine
+d841.	Parnate 10mg tablet
+d91B.	Tranylcypromine+trifluoperazine 10mg/1mg tablet
+d915.	Parstelin tablet
+x02mv	Parnate
+x02mx	Parstelin

@@ -4,6 +4,8 @@ Codes taken from OpenCodelists https://www.opencodelists.org/codelist/nhsd-prima
 
 Also the following codes were added as advised by RQ062 PI: n4v1, n4v4.
 
+** 01.05.24: codes were added from [NHS ref](https://nhs-pcd-refset.pages.dev/)
+
 ## Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence `6.26 - 7.55%` suggests that this code set is well defined.

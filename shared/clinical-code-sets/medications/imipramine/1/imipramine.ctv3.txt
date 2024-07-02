@@ -3,3 +3,10 @@ d772.	Imipramine hydrochloride 25mg tablet
 d776.	Tofranil 25mg tablet
 d777.	Tofranil 25mg/5mL syrup
 d77w.	IMIPRAMINE HYDROCHLORIDE 25mg/5mL oral solution
+d77..	Imipramine hydrochloride [antidepressant]
+d775.	Tofranil 10mg tablet
+d773.	Praminil 10mg tablet
+d774.	Praminil 25mg tablet
+d77z.	Imipramine hydrochloride 25mg/5mL syrup
+x01B0	Imipramine
+x02so	Tofranil

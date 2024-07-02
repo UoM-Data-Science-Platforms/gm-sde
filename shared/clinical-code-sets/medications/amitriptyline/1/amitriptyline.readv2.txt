@@ -1,12 +1,29 @@
-d711.	AMITRIPTYLINE 10mg tablets
-d712.	AMITRIPTYLINE 25mg tablets
-d713.	AMITRIPTYLINE 50mg tablets
-d719.	*LENTIZOL 25mg m/r capsules
-d71a.	*LENTIZOL 50mg m/r capsules
-d71h.	AMITRIPTYLINE 25mg/5mL sugar free solution
-d71i.	AMITRIPTYLINE 50mg/5mL sugar free solution
-d71j.	AMITRIPTYLINE 10mg/5mL sugar free oral solution
-d71u.	AMITRIPTYLINE 25mg m/r capsules
-d71v.	AMITRIPTYLINE 50mg m/r capsules
-d916.	TRIPTAFEN tablets
-d917.	*TRIPTAFEN-M tablets
+d711.00	AMITRIPTYLINE 10mg tablets
+d712.00	AMITRIPTYLINE 25mg tablets
+d713.00	AMITRIPTYLINE 50mg tablets
+d719.00	*LENTIZOL 25mg m/r capsules
+d71a.00	*LENTIZOL 50mg m/r capsules
+d71h.00	AMITRIPTYLINE 25mg/5mL sugar free solution
+d71i.00	AMITRIPTYLINE 50mg/5mL sugar free solution
+d71j.00	AMITRIPTYLINE 10mg/5mL sugar free oral solution
+d71u.00	AMITRIPTYLINE 25mg m/r capsules
+d71v.00	AMITRIPTYLINE 50mg m/r capsules
+d916.00	TRIPTAFEN tablets
+d917.00	*TRIPTAFEN-M tablets
+d71..00	AMITRIPTYLINE HYDROCHLORIDE [ANTIDEPRESSANT]
+d71z.00	AMITRIPTYLINE HYDROCHLORIDE 100mg/10mL injection
+d71y.00	*AMITRIPTYLINE 10mg/5mL syrup
+d71w.00	AMITRIPTYLINE 75mg m/r capsules
+d71g.00	TRYPTIZOL 100mg/10mL injection
+d71f.00	*TRYPTIZOL 10mg/5mL syrup
+d71e.00	*TRYPTIZOL 50mg tablets
+d71d.00	*TRYPTIZOL 25mg tablets
+d71c.00	*TRYPTIZOL 10mg tablets
+d71b.00	*TRYPTIZOL 75mg m/r capsules
+d718.00	ELAVIL 25mg tablets
+d717.00	ELAVIL 10mg tablets
+d716.00	*DOMICAL 50mg tablets
+d715.00	*DOMICAL 25mg tablets
+d714.00	*DOMICAL 10mg tablets
+d911.00	*LIMBITROL 5 capsules
+d912.00	*LIMBITROL 10 capsules

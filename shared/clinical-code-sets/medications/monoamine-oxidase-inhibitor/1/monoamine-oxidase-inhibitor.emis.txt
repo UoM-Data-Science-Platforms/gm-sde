@@ -238,3 +238,237 @@ TRTA2894	Tranylcypromine  Tablets  10 mg
 TRTA37310MGEMIS	Tranylcypromine  Tablets  10 mg (A.A.H. Pharm)
 TRTA37311MGEMIS	Tranylcypromine  Tablets  10 mg (Unichem)
 TRTA37312MGEMIS	Tranylcypromine  Tablets  10 mg (Goldshield)
+^ESCT1187296	Product containing only tranylcypromine 10 mg/1 each oral tablet
+^ESCT1208102	Tranylcypromine in oral dosage form
+^ESCT1208103	Product containing tranylcypromine in oral dosage form
+^ESCT1208108	Phenelzine in oral dosage form
+^ESCT1208109	Product containing phenelzine in oral dosage form
+^ESCT1208110	Selegiline in oral dosage form
+^ESCT1208111	Product containing selegiline in oral dosage form
+^ESCT1208112	Selegiline in transdermal dosage form
+^ESCT1208113	Product containing selegiline in transdermal dosage form
+^ESCT1216846	Phenelzine
+^ESCT1216847	Phenelzine product
+^ESCT1220363	Tranylcypromine
+^ESCT1220364	Tranylcypromine product
+^ESCT1220857	Selegiline
+^ESCT1220858	Selegiline product
+^ESCT1223563	Product containing precisely tranylcypromine 10 milligram/1 each conventional release oral tablet
+^ESCT1229953	Tranylcypromine + Trifluoperazine
+^ESCT1229954	Product containing tranylcypromine and trifluoperazine
+^ESCT1229955	Tranylcypromine and trifluoperazine product
+^ESCT1266775	Zelapar 1.25mg oral lyophilisates (CST Pharma Ltd)
+^ESCT1266777	Zelapar 1.25mg oral lyophilisates (CST Pharma Ltd) 30 tablet
+^ESCT1266920	Manerix 150mg tablets (CST Pharma Ltd)
+^ESCT1266921	Manerix 150mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1267032	Manerix 300mg tablets (CST Pharma Ltd)
+^ESCT1267033	Manerix 300mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1274721	Tranylcypromine 10mg tablets (CST Pharma Ltd)
+^ESCT1274723	Tranylcypromine 10mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1274740	Moclobemide 150mg tablets (CST Pharma Ltd)
+^ESCT1274742	Moclobemide 150mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1274917	Tranylcypromine 10mg tablets (Pilsco Ltd)
+^ESCT1274918	Tranylcypromine 10mg tablets (Pilsco Ltd) 28 tablet
+^ESCT1274921	Moclobemide 300mg tablets (CST Pharma Ltd)
+^ESCT1274922	Moclobemide 300mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1355492	Iproniazid only product
+^ESCT1355504	Isocarboxazid only product
+^ESCT1355956	Moclobemide only product
+^ESCT1356335	Phenelzine only product
+^ESCT1356703	Selegiline only product
+^ESCT1357033	Tranylcypromine only product
+^ESCT1357034	Tranylcypromine and trifluoperazine only product
+^ESCT1358906	Isocarboxazid only product in oral dose form
+^ESCT1359267	Moclobemide only product in oral dose form
+^ESCT1359551	Phenelzine only product in oral dose form
+^ESCT1359824	Selegiline only product in oral dose form
+^ESCT1359825	Selegiline only product in transdermal dose form
+^ESCT1360090	Tranylcypromine only product in oral dose form
+^ESCT1363002	Tranylcypromine (as tranylcypromine sulfate) 10 mg oral tablet
+^ESCT1363986	Selegiline hydrochloride 1.25 mg orodispersible tablet
+^ESCT1364126	Selegiline 500 microgram/hour prolonged-release transdermal patch
+^ESCT1364127	Selegiline 250 microgram/hour prolonged-release transdermal patch
+^ESCT1364128	Selegiline 375 microgram/hour prolonged-release transdermal patch
+^ESCT1364987	Selegiline-containing product in oromucosal dose form
+^ESCT1365781	Selegiline only product in oromucosal dose form
+^ESCT1367254	Tranylcypromine 10mg tablets
+^ESCT1382311	Tranylcypromine- and trifluoperazine-containing product
+^ESCT1386994	Tranylcypromine-containing product in oral dose form
+^ESCT1386997	Phenelzine-containing product in oral dose form
+^ESCT1386998	Selegiline-containing product in oral dose form
+^ESCT1386999	Selegiline-containing product in transdermal dose form
+^ESCT1425693	Selegiline 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425782	Selegiline 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426454	Selegiline 5mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCT1426455	Selegiline 10mg tablets (Kent Pharma (UK) Ltd) 30 tablet
+^ESCT1436533	Manerix 300mg tablets (DE Pharmaceuticals)
+^ESCT1436534	Manerix 300mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1439822	Phenelzine 15mg capsules (Part VIIID Drug Tariff Special Order) 60 capsule
+^ESCT1439826	Phenelzine 15mg tablets 60 tablet
+^ESCT1439827	Phenelzine 15mg tablets (Part VIIID Drug Tariff Special Order) 60 tablet
+^ESCTEL1034194	Eldepryl 10mg tablets (Orion Pharma (UK) Ltd) 100 tablet
+^ESCTEL1034196	Eldepryl 5mg tablets (Orion Pharma (UK) Ltd) 100 tablet
+^ESCTEL812077	Eldepryl 10mg tablets (Orion Pharma (UK) Ltd)
+^ESCTEL813689	Eldepryl 10mg/5ml syrup (Orion Pharma (UK) Ltd)
+^ESCTEL820926	Eldepryl 5mg tablets (Orion Pharma (UK) Ltd)
+^ESCTEL856133	Eldepryl 10mg/5ml syrup (Orion Pharma (UK) Ltd) 200 ml
+^ESCTEL856227	Eldepryl 5mg tablets (Orion Pharma (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTEL856239	Eldepryl 10mg tablets (Orion Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTEL915023	Eldepryl
+^ESCTMA1002945	Manerix 150mg tablets (Necessity Supplies Ltd)
+^ESCTMA1002946	Manerix 150mg tablets (Necessity Supplies Ltd) 30 tablet
+^ESCTMA1002947	Manerix 300mg tablets (Necessity Supplies Ltd)
+^ESCTMA1002948	Manerix 300mg tablets (Necessity Supplies Ltd) 30 tablet
+^ESCTMA878050	Manerix 150mg tablets (Waymade Healthcare Plc)
+^ESCTMA878051	Manerix 150mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTMA878053	Manerix 300mg tablets (Waymade Healthcare Plc)
+^ESCTMA878054	Manerix 300mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTMA879465	Manerix 150mg tablets (Dowelhurst Ltd)
+^ESCTMA879466	Manerix 150mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTMA879470	Manerix 150mg tablets (Dowelhurst Ltd) 100 tablet
+^ESCTMA879485	Manerix 300mg tablets (Dowelhurst Ltd)
+^ESCTMA879487	Manerix 300mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTMA879490	Manerix 300mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTMA918879	Manerix
+^ESCTMA972571	Manerix 150mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMA972583	Manerix 150mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTMO878875	Moclobemide 150mg tablets (Dowelhurst Ltd)
+^ESCTMO878877	Moclobemide 150mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTMO878878	Moclobemide 150mg tablets (Dowelhurst Ltd) 100 tablet
+^ESCTMO878880	Moclobemide 300mg tablets (Dowelhurst Ltd)
+^ESCTMO878881	Moclobemide 300mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTMO878882	Moclobemide 300mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTMO930304	Moclobemide 150mg tablets (Waymade Healthcare Plc)
+^ESCTMO930306	Moclobemide 150mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTNA918711	Nardil
+^ESCTPH265152	Phenelzine
+^ESCTPR265153	Product containing phenelzine
+^ESCTPR394806	Product containing tranylcypromine
+^ESCTPR415448	Product containing selegiline
+^ESCTPR609727	Product containing tranylcypromine 10 mg/1 each oral tablet
+^ESCTSE1005989	Selegiline 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSE1005990	Selegiline 5mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTSE1005991	Selegiline 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSE1005992	Selegiline 10mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTSE1034193	Selegiline 10mg tablets 100 tablet
+^ESCTSE1034195	Selegiline 5mg tablets 100 tablet
+^ESCTSE1042511	Selegiline 10mg tablets (Waymade Healthcare Plc)
+^ESCTSE1042512	Selegiline 10mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTSE1088684	Selegiline 5mg tablets (Tillomed Laboratories Ltd)
+^ESCTSE1088685	Selegiline 5mg tablets (Tillomed Laboratories Ltd) 60 tablet
+^ESCTSE1088689	Selegiline 10mg tablets (Tillomed Laboratories Ltd)
+^ESCTSE1088691	Selegiline 10mg tablets (Tillomed Laboratories Ltd) 30 tablet
+^ESCTSE1127566	Selegiline 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSE1127567	Selegiline 5mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTSE1127568	Selegiline 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSE1127569	Selegiline 10mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTSE1144668	Selegiline 10mg/5ml oral solution 1 ml
+^ESCTSE1144669	Selegiline 10mg/5ml oral solution (Special Order)
+^ESCTSE1144670	Selegiline 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTSE415447	Selegiline
+^ESCTSE610860	Selegiline 10mg/5ml oral solution
+^ESCTSE610861	Selegiline hydrochloride 10mg/5mL syrup
+^ESCTSE696330	Selegiline 6mg/24hours transdermal patch
+^ESCTSE696331	Selegiline 20mg/20cm2 transdermal patch
+^ESCTSE696332	Selegiline 20mg/20cm squared transdermal patch
+^ESCTSE696766	Selegiline 9mg/24hours transdermal patch
+^ESCTSE696767	Selegiline 30mg/30cm2 transdermal patch
+^ESCTSE696768	Selegiline 30mg/30cm squared transdermal patch
+^ESCTSE698547	Selegiline 12mg/24hours transdermal patch
+^ESCTSE698548	Selegiline 40mg/40cm2 transdermal patch
+^ESCTSE698549	Selegiline 40mg/40cm squared transdermal patch
+^ESCTSE704032	Selegiline 1.25mg orally disintegrating tablet
+^ESCTSE802521	Selegiline 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSE803256	Selegiline 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSE804285	Selegiline 10mg tablets (The Boots Company Plc)
+^ESCTSE806782	Selegiline 5mg tablets (Actavis UK Ltd)
+^ESCTSE808075	Selegiline 5mg tablets (The Boots Company Plc)
+^ESCTSE809655	Selegiline 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSE810111	Selegiline 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSE814632	Selegiline 10mg tablets (Actavis UK Ltd)
+^ESCTSE814668	Selegiline 5mg tablets (Sterwin Medicines)
+^ESCTSE815845	Selegiline 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSE816251	Selegiline 5mg tablets (Teva UK Ltd)
+^ESCTSE818289	Selegiline 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSE818652	Selegiline 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSE820593	Selegiline 10mg tablets (Teva UK Ltd)
+^ESCTSE820896	Selegiline 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSE835296	Selegiline 5mg tablets 30 tablet
+^ESCTSE846858	Selegiline 5mg tablets 60 tablet
+^ESCTSE847995	Selegiline 10mg tablets 30 tablet
+^ESCTSE848230	Selegiline 10mg tablets 28 tablet
+^ESCTSE848521	Selegiline 10mg/5ml oral solution 200 ml
+^ESCTSE848582	Selegiline 5mg tablets 56 tablet
+^ESCTSE856218	Selegiline 5mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTSE856219	Selegiline 5mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTSE856220	Selegiline 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTSE856221	Selegiline 5mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTSE856222	Selegiline 5mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE856224	Selegiline 5mg tablets (The Boots Company Plc) 56 tablet
+^ESCTSE856225	Selegiline 5mg tablets (IVAX Pharmaceuticals UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE856226	Selegiline 5mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTSE856228	Selegiline 5mg tablets (Sterwin Medicines) 60 tablet 6 x 10 tablets
+^ESCTSE856229	Selegiline 5mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTSE856230	Selegiline 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTSE856232	Selegiline 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE856233	Selegiline 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE856234	Selegiline 10mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTSE856236	Selegiline 10mg tablets (The Boots Company Plc) 28 tablet 2 x 14 tablets
+^ESCTSE856237	Selegiline 10mg tablets (IVAX Pharmaceuticals UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTSE856238	Selegiline 10mg tablets (Kent Pharmaceuticals Ltd) 30 tablet
+^ESCTSE856240	Selegiline 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTSE859913	Selegiline 1.25mg oral lyophilisates sugar free 30 tablet
+^ESCTSE901838	Selegiline 5mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTSE909927	Selegiline 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTSE928134	Selegiline 1.25mg oral lyophilisates sugar free (Focus Pharmaceuticals Ltd)
+^ESCTSE928136	Selegiline 1.25mg oral lyophilisates sugar free (Focus Pharmaceuticals Ltd) 30 tablet
+^ESCTSE929320	Selegiline 10mg tablets (Niche Generics Ltd)
+^ESCTSE929321	Selegiline 10mg tablets (Niche Generics Ltd) 30 tablet
+^ESCTSE929322	Selegiline 5mg tablets (Niche Generics Ltd)
+^ESCTSE929323	Selegiline 5mg tablets (Niche Generics Ltd) 60 tablet
+^ESCTSE957978	Selegiline 19mg/5ml oral solution 1 ml
+^ESCTSE957984	Selegiline 19mg/5ml oral solution (Special Order)
+^ESCTSE957986	Selegiline 19mg/5ml oral solution (Special Order) 1 ml
+^ESCTSE957988	Selegiline 5mg/5ml oral solution 1 ml
+^ESCTSE957990	Selegiline 5mg/5ml oral solution (Special Order)
+^ESCTSE957992	Selegiline 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTSE958285	Selegiline 19mg/5ml oral solution
+^ESCTSE958287	Selegiline 5mg/5ml oral solution
+^ESCTTR1103011	Tranylcypromine 10mg tablets (Waymade Healthcare Plc)
+^ESCTTR1103012	Tranylcypromine 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTTR394805	Tranylcypromine
+^ESCTTR609726	Tranylcypromine 10mg tablets
+^ESCTTR609728	Tranylcypromine 10 mg oral tablet
+^ESCTTR661350	Tranylcypromine + Trifluoperazine
+^ESCTZE859915	Zelapar 1.25mg oral lyophilisates (Teva UK Ltd)
+^ESCTZE859917	Zelapar 1.25mg oral lyophilisates (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTZE917345	Zelapar
+CETA29355EMIS	Centrapryl  Tablets  10 mg
+CETA29356EMIS	Centrapryl  Tablets  5 mg
+ELSY25455EMIS	Eldepryl  Syrup  10 mg/5 ml
+ELTA20488EMIS	Eldepryl  Tablets  10 mg
+ELTA3502	Eldepryl  Tablets  5 mg
+PATA2168	Parnate  Tablets  10 mg
+PATA4125	Parstelin  Tablets
+SETA143863NEMIS	Selegiline Hydrochloride (Imported)  Tablets  10 mg
+SETA143864NEMIS	Selegiline Hydrochloride (Imported)  Tablets  5 mg
+SETA36924MGEMIS	Selegiline Hydrochloride  Tablets  10 mg (Unichem)
+SETA36925MGEMIS	Selegiline Hydrochloride  Tablets  10 mg (The Boots Company)
+SETA36926MGEMIS	Selegiline Hydrochloride  Tablets  10 mg (Alpharma)
+SETA36927MGEMIS	Selegiline Hydrochloride  Tablets  10 mg (Ivax Pharmaceuticals)
+SETA36928MGEMIS	Selegiline Hydrochloride  Tablets  10 mg (Kent Pharm)
+SETA36929MGEMIS	Selegiline Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+SETA36930MGEMIS	Selegiline Hydrochloride  Tablets  10 mg (Teva UK)
+SETA36938MGEMIS	Selegiline Hydrochloride  Tablets  5 mg (Unichem)
+SETA36939MGEMIS	Selegiline Hydrochloride  Tablets  5 mg (Alpharma)
+SETA36940MGEMIS	Selegiline Hydrochloride  Tablets  5 mg (The Boots Company)
+SETA36941MGEMIS	Selegiline Hydrochloride  Tablets  5 mg (Ivax Pharmaceuticals)
+SETA36942MGEMIS	Selegiline Hydrochloride  Tablets  5 mg (A.A.H. Pharm)
+SETA36943MGEMIS	Selegiline Hydrochloride  Tablets  5 mg (Sterwin Medicines)
+SETA36944MGEMIS	Selegiline Hydrochloride  Tablets  5 mg (Teva UK)
+SETA36945MGEMIS	Selegiline Hydrochloride  Tablets  5 mg (Kent Pharm)
+STTA4497NEMIS	Stilline  Tablets  5 mg
+STTA4498NEMIS	Stilline  Tablets  10 mg
+VITA28142EMIS	Vivapryl  Tablets  10 mg
+VITA28143EMIS	Vivapryl  Tablets  5 mg
+ZEOR34648EMIS	Zelapar  Oral Lyophilisate  1.25 mg

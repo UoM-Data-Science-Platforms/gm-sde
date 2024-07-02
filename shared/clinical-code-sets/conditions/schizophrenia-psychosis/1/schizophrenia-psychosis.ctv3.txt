@@ -99,13 +99,13 @@ E10y1	Coenesthopathic schizophrenia
 E10yz	Other schizophrenia NOS
 E10z.	Schizophrenia NOS
 E11..	Affective psychoses (& [bipolar] or [depressive] or [manic])
-E1104	"Single manic episode, severe, with psychosis"
-E1114	"Recurrent manic episodes, severe, with psychosis"
-E1134	"Recurrent major depressive episodes, severe, with psychosis"
-E1144	"Bipolar affect disord, currently manic,severe with psychosis"
-E1154	"Bipolar affect disord, now depressed, severe with psychosis"
-E1164	"Mixed bipolar affective disorder, severe, with psychosis"
-E1174	"Unspecified bipolar affective disorder,severe with psychosis"
+E1104	Single manic episode, severe, with psychosis
+E1114	Recurrent manic episodes, severe, with psychosis
+E1134	Recurrent major depressive episodes, severe, with psychosis
+E1144	Bipolar affect disord, currently manic,severe with psychosis
+E1154	Bipolar affect disord, now depressed, severe with psychosis
+E1164	Mixed bipolar affective disorder, severe, with psychosis
+E1174	Unspecified bipolar affective disorder,severe with psychosis
 E11y.	Other and unspecified manic-depressive psychoses
 E11y0	Unspecified manic-depressive psychoses
 E11yz	Other and unspecified manic-depressive psychoses NOS
@@ -157,7 +157,6 @@ E2120	Unspecified schizoid personality disorder
 E2122	Schizotypal personality disorder
 E212z	Schizoid personality disorder NOS
 Eu04.	[X]Acute / subacute infective psychosis
-Eu02z	[X] Dementia: [unspecif] or [presenile NOS (including presenile psychosis NOS)] or [primary degenerative NOS] or [senile NOS (including senile psychosis NOS)] or [senile depressed or paranoid type]
 Eu052	[X] (Organic delusional (schizophrenia-like) disorder) or (paranoid organic state) or (schizophrenia-like psychosis in epilepsy)
 Eu052	[X]Organic delusional [schizophrenia-like] disorder
 Eu052	[X]Paranoid organic state
@@ -169,9 +168,9 @@ Eu115	[X]Mental and behavioural disorders due to use of opioids: psychotic disor
 Eu125	[X]Mental and behavioural disorders due to use of cannabinoids: psychotic disorder
 Eu135	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: psychotic disorder
 Eu145	[X]Mental and behavioural disorders due to use of cocaine: psychotic disorder
-Eu155	"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: psychotic disorder"
+Eu155	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: psychotic disorder
 Eu195	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: psychotic disorder
-Eu2..	"[X]Schizophrenia, schizotypal and delusional disorders"
+Eu2..	[X]Schizophrenia, schizotypal and delusional disorders
 Eu20.	Schizophrenia
 Eu202	[X] (Catatonic schizophrenia) or (catatonic stupor) or (schizophrenic catalepsy) or (schizophrenic catatonia) or (schizophrenic flexibilatis cerea)
 Eu202	[X]Catatonic schizophrenia
@@ -182,7 +181,7 @@ Eu203	[X]Undifferentiated schizophrenia
 Eu20y	[X] (Schizophrenia: [cenesthopathic] or [other]) or (schizophreniform disorder [including psychosis] NOS)
 Eu20y	[X]Cenesthopathic schizophrenia
 Eu20y	[X]Other schizophrenia
-Eu20z	"[X]Schizophrenia, unspecified"
+Eu20z	[X]Schizophrenia, unspecified
 Eu21.	[X]Borderline schizophrenia
 Eu21.	[X]Latent schizophrenia
 Eu21.	[X]Latent schizophrenic reaction
@@ -202,8 +201,8 @@ Eu220	Paranoid state
 Eu220	Sensitiver Beziehungswahm
 Eu22y	[X] (Other persistent delusional disorders) or (delusional dysmorphophobia) or (involutional paranoid state) or (paranoia querulans)
 Eu22y	[X]Other persistent delusional disorders
-Eu22z	"[X]Persistent delusional disorder, unspecified"
-Eu22z	"[X]Persistent delusional disorder, unspecified"
+Eu22z	[X]Persistent delusional disorder, unspecified
+Eu22z	[X]Persistent delusional disorder, unspecified
 Eu230	[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia
 Eu230	[X]Bouffee delirante
 Eu230	[X]Cycloid psychosis
@@ -215,8 +214,8 @@ Eu233	[X] (Other acute predominantly delusional psychotic disorders) or (psychog
 Eu233	[X]Other acute predominantly delusional psychotic disorders
 Eu233	[X]Psychogenic paranoid psychosis
 Eu23y	[X]Other acute and transient psychotic disorders
-Eu23z	"[X]Acute and transient psychotic disorder, unspecified"
-Eu23z	"[X]Acute and transient psychotic disorder, unspecified (& [reactive psychosis (including brief NOS)])"
+Eu23z	[X]Acute and transient psychotic disorder, unspecified
+Eu23z	[X]Acute and transient psychotic disorder, unspecified (& [reactive psychosis (including brief NOS)])
 Eu23z	[X]Reactive psychosis
 Eu23z	Reactive psychoses
 Eu24.	Induced delusional disorder
@@ -224,12 +223,12 @@ Eu24.	Induced paranoid disorder
 Eu24.	Induced psychosis
 Eu24.	Symbiotic psychosis
 Eu25.	Schizoaffective disorder
-Eu252	"[X](Schizoaffective disorder, mixed type) or (cyclic schizophrenia) or (mixed schizophrenic and affective psychosis)"
+Eu252	[X](Schizoaffective disorder, mixed type) or (cyclic schizophrenia) or (mixed schizophrenic and affective psychosis)
 Eu252	[X]Cyclic schizophrenia
 Eu252	[X]Mixed schizophrenic and affective psychosis
-Eu252	"[X]Schizoaffective disorder, mixed type"
+Eu252	[X]Schizoaffective disorder, mixed type
 Eu25y	[X]Other schizoaffective disorders
-Eu25z	"[X]Schizoaffective disorder, unspecified"
+Eu25z	[X]Schizoaffective disorder, unspecified
 Eu2y.	[X] (Other nonorganic psychotic disorders) or (chronic hallucinatory psychosis)
 Eu2y.	[X] Chronic hallucinatory psychosis
 Eu2y.	[X]Chronic hallucinatory psychosis
@@ -238,7 +237,7 @@ Eu2z.	[X] Psychosis NOS
 Eu2z.	[X] Psychosis: [unspecified nonorganic] or [NOS]
 Eu2z.	[X]Psychosis NOS
 Eu2z.	[X]Unspecified nonorganic psychosis
-Eu332	"[X]Depression without psychotic symptoms: [recurrent: [major] or [manic-depressive psychosis, depressed type] or [vital] or [current severe episode]] or [endogenous]"
+Eu332	[X]Depression without psychotic symptoms: [recurrent: [major] or [manic-depressive psychosis, depressed type] or [vital] or [current severe episode]] or [endogenous]
 X00Qx	Psychotic episode NOS
 X00Qy	Reactive psychoses
 X00RU	Epileptic psychosis
@@ -337,9 +336,6 @@ Xa3WO	Manic
 Xa3Y9	Delusional projection - mental defence mechanism
 Xa3YM	Manic defence
 Xa3YW	Schizoid fantasy
-Xa4hZ	Lithium and its derivatives
-Xa5hW	Lithium allergy
-Xa5J3	Lithium adverse reaction
 Xa96U	Guilty ideas of reference
 Xa9B0	Puerperal psychosis
 Xa33a	Delusion of infidelity
@@ -348,7 +344,7 @@ XaB5u	Bouffee delirante
 XaB5v	Cycloid psychosis
 XaB8j	Oneirophrenia
 XaB95	Other manic-depressive psychos
-XaCHo	"[X] Manic-depressive psychosis, depressed type without psychotic symptoms"
+XaCHo	[X] Manic-depressive psychosis, depressed type without psychotic symptoms
 Xad6J	CBTp - cognitive behavioural therapy for psychosis
 XaIOm	Early intervention in psychosis
 XaIWE	Early intervention in psychosis - 24 hour intensive
@@ -361,12 +357,12 @@ XaIWK	Early intervention in psychosis - 1-3 contacts/month
 XaIWL	Early intervention in psychosis - <1 contact/month
 XaIXj	Early intervention in psychosis HRGs
 XaJQO	Early intervention in psychosis team
-XagU1	"Recurrent reactiv depressiv episodes, severe, with psychosis"
+XagU1	Recurrent reactiv depressiv episodes, severe, with psychosis
 XaKUm	O/E - paranoid delusions
 XaKUn	O/E - delusion of persecution
 XaL07	H/O: psychosis
 XaL19	Referral to psychosis early intervention service
-XaLIa	"Psychosis, schizophrenia and bipolar affective disorder resolved"
+XaLIa	Psychosis, schizophrenia and bipolar affective disorder resolved
 XaK4Y	[X]Erotomania
 XaMwd	Schizophrenia resolved
 XaMwe	Psychosis resolved
@@ -374,8 +370,8 @@ XaOmz	Analysing hallucinations
 XaKUl	Paranoid ideation
 XaX51	[X]Paranoid state in remission
 XaX52	Non-organic psychosis in remission
-XaX53	"Single major depress ep, severe with psych, psych in remissn"
-XaX54	"Recurr major depress ep, severe with psych, psych in remissn"
+XaX53	Single major depress ep, severe with psych, psych in remissn
+XaX54	Recurr major depress ep, severe with psych, psych in remissn
 XE1aI	Korsakov's psychosis
 XE1aM	Paranoid schizophrenia
 XE1aM	Schizophrenic psychoses
@@ -388,13 +384,13 @@ XE1aU	Delusions - paranoid
 XE1aU	Paranoid states
 XE1aU	Persecution delusion
 XE1gN	[D]Hallucinations NEC
-XE1hk	"Psychotic condition, insight present"
+XE1hk	Psychotic condition, insight present
 XE1Sz	On lithium
 XE1Xr	Senile and presenile organic psychotic conditions
 XE1Xt	Other senile and presenile organic psychoses
 XE1Xw	Acute schizophrenic episode
 XE1Xx	Other schizophrenia
-XE1Xz	"Manic disorder, single episode"
+XE1Xz	Manic disorder, single episode
 XE1Y2	Chronic paranoid psychosis
 XE1Y3	Other non-organic psychoses
 XE1Y4	Acute paranoid reaction
@@ -410,17 +406,17 @@ XE1ZO	Sensitiver Beziehungswahm
 XE1ZP	[X]Other persistent delusional disorders
 XE1ZQ	[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia
 XE1ZR	[X]Other acute predominantly delusional psychotic disorders
-XE1ZS	"[X]Acute and transient psychotic disorder, unspecified"
+XE1ZS	[X]Acute and transient psychotic disorder, unspecified
 XE1ZT	[X]Other non-organic psychotic disorders
 XE1ZU	[X] Psychosis NOS
 XE1ZU	[X]Unspecified nonorganic psychosis
 XE1ZV	[X]Mania with psychotic symptoms
 XE2b8	Mixed schizophrenic and affective pschosis
-XE2b8	"Schizoaffective disorder, mixed type"
-XE2un	"Schizoaffective disorder, depressive type"
-XE2un	"Schizophreniform psychosis, depressive type"
-XE2uT	"Schizoaffective disorder, manic type"
-XE2uT	"Schizophreniform psychosis, manic type"
+XE2b8	Schizoaffective disorder, mixed type
+XE2un	Schizoaffective disorder, depressive type
+XE2un	Schizophreniform psychosis, depressive type
+XE2uT	Schizoaffective disorder, manic type
+XE2uT	Schizophreniform psychosis, manic type
 XM1GG	Borderline schizophrenia
 XM1GH	Acute polymorphic psychotic disorder
 XSGon	Severe major depression with psychotic features
@@ -428,8 +424,6 @@ XM06V	Auditory hallucinations
 XM06W	Hallucinations of taste
 XM06X	Olfactory hallucinations
 XM06Y	Tactile hallucinations
-XM0lB	Lithium
-XM1Xj	Lithium monitoring
 XSKr7	Cotard syndrome
 ZV110	[V]Personal history of schizophrenia
 ZV111	[V]Personal history of manic-depressive psychosis

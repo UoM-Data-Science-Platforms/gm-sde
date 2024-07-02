@@ -46,3 +46,969 @@ ZYTA29723EMIS	Zyprexa  Tablets  10 mg
 ZYTA29724EMIS	Zyprexa  Tablets  5 mg
 ZYTA29725EMIS	Zyprexa  Tablets  7.5 mg
 ZYTA34083EMIS	Zyprexa  Tablets  2.5 mg
+^ESCT1174950	Olanzapine 7.5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1175431	Olanzapine 5mg tablets (Alissa Healthcare Research Ltd)
+^ESCT1175432	Olanzapine 5mg tablets (Alissa Healthcare Research Ltd) 28 tablet 2 x 14 tablets
+^ESCT1177286	Olanzapine 5mg orodispersible tablets sugar free (Milpharm Ltd)
+^ESCT1177287	Olanzapine 5mg orodispersible tablets sugar free (Milpharm Ltd) 28 tablet
+^ESCT1177288	Olanzapine 10mg orodispersible tablets sugar free (Milpharm Ltd)
+^ESCT1177289	Olanzapine 10mg orodispersible tablets sugar free (Milpharm Ltd) 28 tablet
+^ESCT1177290	Olanzapine 15mg orodispersible tablets sugar free (Milpharm Ltd)
+^ESCT1177291	Olanzapine 15mg orodispersible tablets sugar free (Milpharm Ltd) 28 tablet
+^ESCT1177292	Olanzapine 2.5mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177293	Olanzapine 2.5mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCT1177294	Olanzapine 7.5mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177295	Olanzapine 7.5mg tablets (Aurobindo Pharma Ltd) 56 tablet
+^ESCT1177296	Olanzapine 20mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177297	Olanzapine 20mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCT1178168	Product containing only olanzapine 7.5 mg/1 each oral tablet
+^ESCT1179251	Product containing only olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1180485	Olanzapine 10mg tablets (Mylan)
+^ESCT1180486	Olanzapine 15mg tablets (Mylan)
+^ESCT1180487	Olanzapine 7.5mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1180488	Olanzapine 5mg tablets (Mylan)
+^ESCT1180489	Olanzapine 5mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1181089	Product containing only olanzapine 5 mg/1 each oral tablet
+^ESCT1181090	Product containing only olanzapine 2.5 mg/1 each oral tablet
+^ESCT1181382	Product containing only olanzapine 10 mg/1 each oral tablet
+^ESCT1181654	Product containing only olanzapine 20 mg/1 each oral tablet
+^ESCT1182662	Product containing only olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1183157	Product containing only olanzapine 15 mg/1 each oral tablet
+^ESCT1184446	Olanzapine 20mg tablets (Mylan)
+^ESCT1184503	Arkolamyl 10mg orodispersible tablets (Mylan)
+^ESCT1184504	Arkolamyl 20mg orodispersible tablets (Mylan)
+^ESCT1184683	Olanzapine 15mg tablets (Aurobindo Pharma Ltd)
+^ESCT1184684	Olanzapine 15mg tablets (Aurobindo Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1185302	Product containing only olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1185303	Product containing only olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1186526	Olanzapine 15mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1186543	Olanzapine 7.5mg tablets (Mylan)
+^ESCT1186545	Arkolamyl 15mg orodispersible tablets (Mylan)
+^ESCT1186546	Arkolamyl 15mg orodispersible tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1186547	Arkolamyl 5mg orodispersible tablets (Mylan)
+^ESCT1188064	Product containing only olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1189640	Olanzapine 2.5mg tablets (Mylan)
+^ESCT1189641	Olanzapine 2.5mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1189644	Olanzapine 10mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1189645	Olanzapine 20mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1189646	Olanzapine 15mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1189650	Arkolamyl 10mg orodispersible tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1189651	Arkolamyl 5mg orodispersible tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1189652	Arkolamyl 20mg orodispersible tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1196049	Olanzapine 5mg tablets (Aurobindo Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1196191	Olanzapine 10mg tablets (Aurobindo Pharma Ltd)
+^ESCT1196196	Olanzapine 10mg tablets (Aurobindo Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1196307	Olanzapine 10mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1196561	Olanzapine 5mg tablets (Aurobindo Pharma Ltd)
+^ESCT1199697	Olanzapine 10mg tablets (Mylan) 28 tablet 4 x 7 tablets
+^ESCT1214327	Olanzapine 5mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1214328	Olanzapine 5mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCT1214329	Olanzapine 10mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1214330	Olanzapine 10mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCT1214331	Olanzapine 15mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1214332	Olanzapine 15mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCT1214333	Olanzapine 20mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1214334	Olanzapine 20mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCT1220838	Olanzapine
+^ESCT1220839	Olanzapine product
+^ESCT1223469	Product containing precisely olanzapine 5 milligram/1 each conventional release oral tablet
+^ESCT1223470	Product containing precisely olanzapine 7.5 milligram/1 each conventional release oral tablet
+^ESCT1223471	Product containing precisely olanzapine 10 milligram/1 each conventional release oral tablet
+^ESCT1223472	Product containing precisely olanzapine 2.5 milligram/1 each conventional release oral tablet
+^ESCT1227779	Product containing precisely olanzapine 20 milligram/1 each conventional release oral tablet
+^ESCT1228795	Product containing precisely olanzapine 15 milligram/1 each conventional release oral tablet
+^ESCT1230597	Olanzapine + fluoxetine
+^ESCT1230598	Fluoxetine and olanzapine product
+^ESCT1230599	Olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1230600	Product containing precisely fluoxetine hydrochloride 25 milligram and olanzapine 6 milligram/1 each conventional release oral capsule
+^ESCT1230601	Fluoxetine hydrochloride 25 mg and olanzapine 6 mg oral capsule
+^ESCT1230602	Olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1230603	Fluoxetine hydrochloride 50 mg and olanzapine 6 mg oral capsule
+^ESCT1230604	Product containing precisely fluoxetine hydrochloride 50 milligram and olanzapine 6 milligram/1 each conventional release oral capsule
+^ESCT1230605	Olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1230606	Product containing precisely fluoxetine hydrochloride 25 milligram and olanzapine 12 milligram/1 each conventional release oral capsule
+^ESCT1230607	Fluoxetine hydrochloride 25 mg and olanzapine 12 mg oral capsule
+^ESCT1230608	Olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1230609	Product containing precisely fluoxetine hydrochloride 50 milligram and olanzapine 12 milligram/1 each conventional release oral capsule
+^ESCT1230610	Fluoxetine hydrochloride 50 mg and olanzapine 12 mg oral capsule
+^ESCT1234844	Olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1234845	Product containing precisely fluoxetine hydrochloride 25 milligram and olanzapine 3 milligram/1 each conventional release oral capsule
+^ESCT1234846	Fluoxetine hydrochloride 25 mg and olanzapine 3 mg oral capsule
+^ESCT1237647	Olanzapine 20mg tablets (Mylan) 28 tablet 4 x 7 tablets
+^ESCT1249781	Olanzapine 6mg/5ml oral suspension 1 ml
+^ESCT1249782	Olanzapine 6mg/5ml oral suspension (Special Order)
+^ESCT1249783	Olanzapine 6mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1249784	Olanzapine 6.5mg/5ml oral suspension 1 ml
+^ESCT1249785	Olanzapine 6.5mg/5ml oral suspension (Special Order)
+^ESCT1249786	Olanzapine 6.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1249787	Olanzapine 5mg/5ml oral suspension 1 ml
+^ESCT1249788	Olanzapine 5mg/5ml oral suspension (Special Order)
+^ESCT1249789	Olanzapine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1249887	Olanzapine 5mg/5ml oral suspension
+^ESCT1249888	Olanzapine 6.5mg/5ml oral suspension
+^ESCT1249889	Olanzapine 6mg/5ml oral suspension
+^ESCT1250580	Olanzapine 20mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255729	Olanzapine 2.5mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1255731	Olanzapine 2.5mg tablets (Sun Pharmaceutical Industries Europe B.V.) 28 tablet
+^ESCT1255733	Olanzapine 5mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1255734	Olanzapine 5mg tablets (Sun Pharmaceutical Industries Europe B.V.) 28 tablet
+^ESCT1255735	Olanzapine 10mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1255736	Olanzapine 10mg tablets (Sun Pharmaceutical Industries Europe B.V.) 28 tablet
+^ESCT1259140	Olanzapine 5mg orodispersible tablets sugar free (Torrent Pharma (UK) Ltd)
+^ESCT1259141	Olanzapine 5mg orodispersible tablets sugar free (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259142	Olanzapine 10mg orodispersible tablets sugar free (Torrent Pharma (UK) Ltd)
+^ESCT1259143	Olanzapine 10mg orodispersible tablets sugar free (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259146	Olanzapine 15mg orodispersible tablets sugar free (Torrent Pharma (UK) Ltd)
+^ESCT1259147	Olanzapine 15mg orodispersible tablets sugar free (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259148	Olanzapine 20mg orodispersible tablets sugar free (Torrent Pharma (UK) Ltd)
+^ESCT1259149	Olanzapine 20mg orodispersible tablets sugar free (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259400	Olanzapine 2.5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259401	Olanzapine 2.5mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259402	Olanzapine 5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259403	Olanzapine 5mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259404	Olanzapine 7.5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259405	Olanzapine 7.5mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259406	Olanzapine 7.5mg tablets (Torrent Pharma (UK) Ltd) 56 tablet
+^ESCT1259409	Olanzapine 10mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259410	Olanzapine 10mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259414	Olanzapine 15mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259416	Olanzapine 15mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259417	Olanzapine 20mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259418	Olanzapine 20mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259860	Olanzapine 2.5mg orodispersible tablets sugar free 28 tablet
+^ESCT1259862	Olanzapine 2.5mg orodispersible tablets sugar free (Torrent Pharma (UK) Ltd)
+^ESCT1259865	Olanzapine 2.5mg orodispersible tablets sugar free (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259869	Olanzapine 7.5mg orodispersible tablets sugar free 28 tablet
+^ESCT1259872	Olanzapine 7.5mg orodispersible tablets sugar free (Torrent Pharma (UK) Ltd)
+^ESCT1259874	Olanzapine 7.5mg orodispersible tablets sugar free (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259940	Olanzapine 2.5mg orodispersible tablets sugar free
+^ESCT1259941	Olanzapine 7.5mg orodispersible tablets sugar free
+^ESCT1260045	Zyprexa 10mg tablets (Originalis B.V.)
+^ESCT1260046	Zyprexa 10mg tablets (Originalis B.V.) 28 tablet
+^ESCT1260047	Zyprexa 20mg tablets (Originalis B.V.)
+^ESCT1260048	Zyprexa 20mg tablets (Originalis B.V.) 28 tablet
+^ESCT1260049	Zyprexa 5mg Velotabs (Originalis B.V.)
+^ESCT1260050	Zyprexa 5mg Velotabs (Originalis B.V.) 28 tablet
+^ESCT1260051	Zyprexa 10mg Velotabs (Originalis B.V.)
+^ESCT1260052	Zyprexa 10mg Velotabs (Originalis B.V.) 28 tablet
+^ESCT1260053	Zyprexa 20mg Velotabs (Originalis B.V.)
+^ESCT1260054	Zyprexa 20mg Velotabs (Originalis B.V.) 28 tablet
+^ESCT1262931	Olanzapine 10mg tablets (Alissa Healthcare Research Ltd)
+^ESCT1262932	Olanzapine 10mg tablets (Alissa Healthcare Research Ltd) 28 tablet
+^ESCT1262933	Olanzapine 7.5mg tablets (Alissa Healthcare Research Ltd)
+^ESCT1262934	Olanzapine 7.5mg tablets (Alissa Healthcare Research Ltd) 28 tablet
+^ESCT1262952	Olanzapine 2.5mg tablets (Alissa Healthcare Research Ltd)
+^ESCT1262954	Olanzapine 2.5mg tablets (Alissa Healthcare Research Ltd) 28 tablet
+^ESCT1263832	Olanzapine 10mg tablets (Crescent Pharma Ltd)
+^ESCT1263834	Olanzapine 10mg tablets (Crescent Pharma Ltd) 28 tablet
+^ESCT1264579	Olanzapine 7.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264580	Olanzapine 7.5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264581	Olanzapine 7.5mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCT1264582	Olanzapine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264583	Olanzapine 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264584	Olanzapine 15mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264585	Olanzapine 15mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264586	Olanzapine 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264587	Olanzapine 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1267583	Olanzapine 2.5mg tablets (DE Pharmaceuticals)
+^ESCT1267584	Olanzapine 2.5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1267585	Olanzapine 5mg tablets (DE Pharmaceuticals)
+^ESCT1267586	Olanzapine 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1267587	Olanzapine 7.5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1270880	Zalasta 10mg tablets (CST Pharma Ltd)
+^ESCT1270881	Zalasta 10mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1270882	Zalasta 15mg tablets (CST Pharma Ltd)
+^ESCT1270883	Zalasta 15mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1270884	Zalasta 2.5mg tablets (CST Pharma Ltd)
+^ESCT1270885	Zalasta 2.5mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1270928	Zalasta 5mg tablets (CST Pharma Ltd)
+^ESCT1270929	Zalasta 5mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1270930	Zalasta 7.5mg tablets (CST Pharma Ltd)
+^ESCT1270932	Zalasta 7.5mg tablets (CST Pharma Ltd) 56 tablet
+^ESCT1270950	Zyprexa 10mg tablets (CST Pharma Ltd)
+^ESCT1270951	Zyprexa 10mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1270961	Zyprexa 2.5mg tablets (CST Pharma Ltd)
+^ESCT1270962	Zyprexa 2.5mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1270963	Zyprexa 20mg tablets (CST Pharma Ltd)
+^ESCT1270964	Zyprexa 20mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1270967	Zyprexa 5mg tablets (CST Pharma Ltd)
+^ESCT1270969	Zyprexa 5mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1270974	Zyprexa 7.5mg tablets (CST Pharma Ltd)
+^ESCT1270975	Zyprexa 7.5mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1270976	Zyprexa 10mg Velotabs (CST Pharma Ltd)
+^ESCT1270979	Zyprexa 10mg Velotabs (CST Pharma Ltd) 28 tablet
+^ESCT1270982	Zyprexa 15mg Velotabs (CST Pharma Ltd)
+^ESCT1270983	Zyprexa 15mg Velotabs (CST Pharma Ltd) 28 tablet
+^ESCT1270984	Zyprexa 20mg Velotabs (CST Pharma Ltd)
+^ESCT1270985	Zyprexa 20mg Velotabs (CST Pharma Ltd) 28 tablet
+^ESCT1270986	Zyprexa 5mg Velotabs (CST Pharma Ltd)
+^ESCT1270987	Zyprexa 5mg Velotabs (CST Pharma Ltd) 28 tablet
+^ESCT1274631	Olanzapine 7.5mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1275096	Olanzapine 15mg tablets (Pilsco Ltd)
+^ESCT1275097	Olanzapine 15mg tablets (Pilsco Ltd) 28 tablet
+^ESCT1275098	Olanzapine 20mg tablets (Pilsco Ltd)
+^ESCT1275099	Olanzapine 20mg tablets (Pilsco Ltd) 28 tablet
+^ESCT1275279	Olanzapine 10mg tablets (CST Pharma Ltd)
+^ESCT1275280	Olanzapine 10mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1275281	Olanzapine 15mg tablets (CST Pharma Ltd)
+^ESCT1275282	Olanzapine 15mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1275283	Olanzapine 20mg tablets (CST Pharma Ltd)
+^ESCT1275284	Olanzapine 20mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1275285	Olanzapine 5mg tablets (CST Pharma Ltd)
+^ESCT1275286	Olanzapine 5mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1280856	Olanzapine 10mg orodispersible tablets sugar free (Mylan)
+^ESCT1280857	Olanzapine 10mg orodispersible tablets sugar free (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1299623	Olanzapine 5mg orodispersible tablets sugar free (Mylan)
+^ESCT1299624	Olanzapine 5mg orodispersible tablets sugar free (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1301094	Zyprexa 20mg Velotabs (DE Pharmaceuticals)
+^ESCT1301095	Zyprexa 20mg Velotabs (DE Pharmaceuticals) 28 tablet
+^ESCT1304238	Olanzapine 5mg orodispersible tablets sugar free (Accord Healthcare Ltd)
+^ESCT1304239	Olanzapine 5mg orodispersible tablets sugar free (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1306481	Olanzapine 15mg tablets (Crescent Pharma Ltd)
+^ESCT1306482	Olanzapine 15mg tablets (Crescent Pharma Ltd) 28 tablet
+^ESCT1306483	Olanzapine 20mg tablets (Crescent Pharma Ltd)
+^ESCT1306484	Olanzapine 20mg tablets (Crescent Pharma Ltd) 28 tablet
+^ESCT1306989	Olanzapine 15mg orodispersible tablets sugar free (Accord Healthcare Ltd)
+^ESCT1306990	Olanzapine 15mg orodispersible tablets sugar free (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1351412	Fluoxetine- and olanzapine-containing product in oral dose form
+^ESCT1355083	Fluoxetine and olanzapine only product
+^ESCT1356133	Olanzapine only product
+^ESCT1358588	Fluoxetine and olanzapine only product in oral dose form
+^ESCT1359406	Olanzapine only product in oral dose form
+^ESCT1359407	Olanzapine only product in parenteral dose form
+^ESCT1364955	Olanzapine-containing product in oromucosal dose form
+^ESCT1365746	Olanzapine only product in oromucosal dose form
+^ESCT1367430	Olanzapine 10mg oral lyophilisates sugar free
+^ESCT1367431	Olanzapine 20mg oral lyophilisates sugar free
+^ESCT1367432	Olanzapine 5mg oral lyophilisates sugar free
+^ESCT1374081	Olanzapine 20mg orodispersible tablets sugar free (Mylan)
+^ESCT1374084	Olanzapine 20mg orodispersible tablets sugar free (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1374090	Olanzapine 15mg orodispersible tablets sugar free (Mylan)
+^ESCT1374094	Olanzapine 15mg orodispersible tablets sugar free (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1374929	Olanzapine 5mg tablets (Bristol Laboratories Ltd)
+^ESCT1374930	Olanzapine 5mg tablets (Bristol Laboratories Ltd) 28 tablet 4 x 7 tablets
+^ESCT1374931	Olanzapine 7.5mg tablets (Bristol Laboratories Ltd)
+^ESCT1374932	Olanzapine 7.5mg tablets (Bristol Laboratories Ltd) 28 tablet 4 x 7 tablets
+^ESCT1374933	Olanzapine 10mg tablets (Bristol Laboratories Ltd)
+^ESCT1374934	Olanzapine 10mg tablets (Bristol Laboratories Ltd) 28 tablet 4 x 7 tablets
+^ESCT1374935	Olanzapine 20mg tablets (Bristol Laboratories Ltd)
+^ESCT1374936	Olanzapine 20mg tablets (Bristol Laboratories Ltd) 28 tablet 4 x 7 tablets
+^ESCT1381069	Olanzapine 5 mg orodispersible tablet
+^ESCT1381070	Olanzapine 10 mg orodispersible tablet
+^ESCT1382048	Olanzapine 20 mg orodispersible tablet
+^ESCT1382474	Olanzapine 15 mg orodispersible tablet
+^ESCT1382529	Fluoxetine- and olanzapine-containing product
+^ESCT1382626	Olanzapine-containing product in parenteral dose form
+^ESCT1383435	Olanzapine-containing product in oral dose form
+^ESCT1388922	Olanzapine 10mg orodispersible tablets sugar free (Accord Healthcare Ltd)
+^ESCT1388923	Olanzapine 10mg orodispersible tablets sugar free (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1388924	Olanzapine 20mg orodispersible tablets sugar free (Accord Healthcare Ltd)
+^ESCT1388925	Olanzapine 20mg orodispersible tablets sugar free (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1389074	Olanzapine 5mg tablets (Milpharm Ltd)
+^ESCT1389075	Olanzapine 5mg tablets (Milpharm Ltd) 28 tablet 2 x 14 tablets
+^ESCT1389076	Olanzapine 10mg tablets (Milpharm Ltd)
+^ESCT1389077	Olanzapine 10mg tablets (Milpharm Ltd) 28 tablet 2 x 14 tablets
+^ESCT1389078	Olanzapine 15mg tablets (Milpharm Ltd)
+^ESCT1389079	Olanzapine 15mg tablets (Milpharm Ltd) 28 tablet 2 x 14 tablets
+^ESCT1389384	Olanzapine 2.5mg tablets (Milpharm Ltd)
+^ESCT1389385	Olanzapine 2.5mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1389386	Olanzapine 7.5mg tablets (Milpharm Ltd)
+^ESCT1389387	Olanzapine 7.5mg tablets (Milpharm Ltd) 56 tablet
+^ESCT1389388	Olanzapine 20mg tablets (Milpharm Ltd)
+^ESCT1389389	Olanzapine 20mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1402384	Olanzapine 7.5mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1402404	Olanzapine 15mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402405	Olanzapine 15mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402406	Olanzapine 2.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402407	Olanzapine 2.5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402408	Olanzapine 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402409	Olanzapine 20mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402410	Olanzapine 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402411	Olanzapine 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402412	Olanzapine 7.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402413	Olanzapine 7.5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402414	Olanzapine 7.5mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1402416	Olanzapine 10mg orodispersible tablets (Medihealth (Northern) Ltd)
+^ESCT1402417	Olanzapine 10mg orodispersible tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402420	Olanzapine 15mg orodispersible tablets (Medihealth (Northern) Ltd)
+^ESCT1402421	Olanzapine 15mg orodispersible tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402422	Olanzapine 5mg orodispersible tablets (Medihealth (Northern) Ltd)
+^ESCT1402423	Olanzapine 5mg orodispersible tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402435	Olanzapine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402436	Olanzapine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1418898	Olanzapine 15mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1418899	Olanzapine 15mg tablets (Sun Pharmaceutical Industries Europe B.V.) 28 tablet
+^ESCT1418901	Olanzapine 20mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1418903	Olanzapine 20mg tablets (Sun Pharmaceutical Industries Europe B.V.) 28 tablet
+^ESCT1422444	Olanzapine 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422445	Olanzapine 5mg tablets (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1422446	Olanzapine 2.5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422447	Olanzapine 2.5mg tablets (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1422448	Olanzapine 7.5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422449	Olanzapine 7.5mg tablets (Zentiva Pharma UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1422450	Olanzapine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422451	Olanzapine 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1422509	Olanzapine 15mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422510	Olanzapine 15mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422511	Olanzapine 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422512	Olanzapine 20mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422549	Olanzapine 5mg orodispersible tablets (Zentiva Pharma UK Ltd)
+^ESCT1422550	Olanzapine 5mg orodispersible tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422551	Olanzapine 10mg orodispersible tablets (Zentiva Pharma UK Ltd)
+^ESCT1422552	Olanzapine 10mg orodispersible tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422553	Olanzapine 15mg orodispersible tablets (Zentiva Pharma UK Ltd)
+^ESCT1422554	Olanzapine 15mg orodispersible tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422555	Olanzapine 20mg orodispersible tablets (Zentiva Pharma UK Ltd)
+^ESCT1422556	Olanzapine 20mg orodispersible tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1426787	Zyprexa 10mg powder for solution for injection vials (Parapharm Development Ltd)
+^ESCT1426788	Zyprexa 10mg powder for solution for injection vials (Parapharm Development Ltd) 1 vial
+^ESCT1427778	Olanzapine 2.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427779	Olanzapine 2.5mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427780	Olanzapine 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427781	Olanzapine 5mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427782	Olanzapine 7.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427783	Olanzapine 7.5mg tablets (Kent Pharma (UK) Ltd) 56 tablet
+^ESCT1427784	Olanzapine 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427785	Olanzapine 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427786	Olanzapine 15mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427787	Olanzapine 15mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427788	Olanzapine 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427789	Olanzapine 20mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1429419	Olanzapine 20mg orodispersible tablets (Medihealth (Northern) Ltd)
+^ESCT1429420	Olanzapine 20mg orodispersible tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1431703	Olanzapine 2.5mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1431704	Olanzapine 5mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1431705	Olanzapine 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1431706	Olanzapine 15mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1431707	Olanzapine 20mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1433762	Olanzapine 15mg tablets (Bristol Laboratories Ltd)
+^ESCT1433763	Olanzapine 15mg tablets (Bristol Laboratories Ltd) 28 tablet 4 x 7 tablets
+^ESCT1433764	Olanzapine 2.5mg tablets (Bristol Laboratories Ltd)
+^ESCT1433765	Olanzapine 2.5mg tablets (Bristol Laboratories Ltd) 28 tablet 4 x 7 tablets
+^ESCT1438380	Olanzapine 2.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438381	Olanzapine 2.5mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438394	Olanzapine 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438395	Olanzapine 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet 4 x 7 tablets
+^ESCT1438396	Olanzapine 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438397	Olanzapine 20mg tablets (Viatris UK Healthcare Ltd) 28 tablet 4 x 7 tablets
+^ESCT1438398	Olanzapine 15mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438399	Olanzapine 15mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438400	Olanzapine 7.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438401	Olanzapine 7.5mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1438402	Olanzapine 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438403	Olanzapine 5mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438410	Arkolamyl 10mg orodispersible tablets (Viatris UK Healthcare Ltd)
+^ESCT1438411	Arkolamyl 10mg orodispersible tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438412	Arkolamyl 15mg orodispersible tablets (Viatris UK Healthcare Ltd)
+^ESCT1438413	Arkolamyl 15mg orodispersible tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438414	Arkolamyl 5mg orodispersible tablets (Viatris UK Healthcare Ltd)
+^ESCT1438415	Arkolamyl 5mg orodispersible tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438416	Arkolamyl 20mg orodispersible tablets (Viatris UK Healthcare Ltd)
+^ESCT1438417	Arkolamyl 20mg orodispersible tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1439161	Olanzapine 7.5mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1439220	Olanzapine 10mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd)
+^ESCT1439221	Olanzapine 10mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1439223	Olanzapine 5mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd)
+^ESCT1439224	Olanzapine 5mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1439255	Olanzapine 20mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd)
+^ESCT1439256	Olanzapine 20mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1439257	Olanzapine 15mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd)
+^ESCT1439258	Olanzapine 15mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1024042	Arkolamyl 10mg orodispersible tablets (Mylan Ltd)
+^ESCTAR1024043	Arkolamyl 10mg orodispersible tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1024045	Arkolamyl 15mg orodispersible tablets (Mylan Ltd)
+^ESCTAR1024046	Arkolamyl 15mg orodispersible tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1024048	Arkolamyl 5mg orodispersible tablets (Mylan Ltd)
+^ESCTAR1024049	Arkolamyl 5mg orodispersible tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1024051	Arkolamyl 20mg orodispersible tablets (Mylan Ltd)
+^ESCTAR1024052	Arkolamyl 20mg orodispersible tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR936089	Arkolamyl
+^ESCTOL1020933	Olanzapine 20mg tablets (Aspire Pharma Ltd)
+^ESCTOL1020934	Olanzapine 20mg tablets (Aspire Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1020935	Olanzapine 15mg tablets (Aspire Pharma Ltd)
+^ESCTOL1020936	Olanzapine 15mg tablets (Aspire Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1020937	Olanzapine 10mg tablets (Aspire Pharma Ltd)
+^ESCTOL1020938	Olanzapine 10mg tablets (Aspire Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1020939	Olanzapine 7.5mg tablets (Aspire Pharma Ltd)
+^ESCTOL1020940	Olanzapine 7.5mg tablets (Aspire Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1020941	Olanzapine 5mg tablets (Aspire Pharma Ltd)
+^ESCTOL1020942	Olanzapine 5mg tablets (Aspire Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1020943	Olanzapine 2.5mg tablets (Aspire Pharma Ltd)
+^ESCTOL1020944	Olanzapine 2.5mg tablets (Aspire Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1021068	Olanzapine 2.5mg tablets (Actavis UK Ltd)
+^ESCTOL1021069	Olanzapine 2.5mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1021078	Olanzapine 5mg tablets (Actavis UK Ltd)
+^ESCTOL1021079	Olanzapine 5mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1021080	Olanzapine 7.5mg tablets (Actavis UK Ltd)
+^ESCTOL1021081	Olanzapine 10mg tablets (Actavis UK Ltd)
+^ESCTOL1021082	Olanzapine 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1021089	Olanzapine 15mg tablets (Actavis UK Ltd)
+^ESCTOL1021090	Olanzapine 15mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1021093	Olanzapine 20mg tablets (Actavis UK Ltd)
+^ESCTOL1021094	Olanzapine 20mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1021095	Olanzapine 7.5mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTOL1021098	Olanzapine 2.5mg tablets (Teva UK Ltd)
+^ESCTOL1021099	Olanzapine 2.5mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1021100	Olanzapine 5mg tablets (Teva UK Ltd)
+^ESCTOL1021101	Olanzapine 5mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1021102	Olanzapine 7.5mg tablets (Teva UK Ltd)
+^ESCTOL1021103	Olanzapine 7.5mg tablets (Teva UK Ltd) 56 tablet 8 x 7 tablets
+^ESCTOL1021104	Olanzapine 10mg tablets (Teva UK Ltd)
+^ESCTOL1021105	Olanzapine 10mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1021106	Olanzapine 15mg tablets (Teva UK Ltd)
+^ESCTOL1021107	Olanzapine 15mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1021108	Olanzapine 20mg tablets (Teva UK Ltd)
+^ESCTOL1021109	Olanzapine 20mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1021118	Olanzapine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1021119	Olanzapine 2.5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTOL1021120	Olanzapine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1021121	Olanzapine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTOL1021122	Olanzapine 7.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1021123	Olanzapine 7.5mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTOL1021124	Olanzapine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1021125	Olanzapine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTOL1021126	Olanzapine 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1021127	Olanzapine 15mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTOL1021128	Olanzapine 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1021129	Olanzapine 20mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTOL1021203	Olanzapine 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOL1021204	Olanzapine 2.5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTOL1021205	Olanzapine 7.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOL1021206	Olanzapine 7.5mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTOL1021207	Olanzapine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOL1021208	Olanzapine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1021209	Olanzapine 15mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOL1021210	Olanzapine 15mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTOL1021211	Olanzapine 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOL1021212	Olanzapine 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTOL1021367	Olanzapine 2.5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTOL1021368	Olanzapine 2.5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTOL1021369	Olanzapine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTOL1021370	Olanzapine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTOL1021371	Olanzapine 7.5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTOL1021372	Olanzapine 7.5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 56 tablet
+^ESCTOL1021373	Olanzapine 10mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTOL1021374	Olanzapine 10mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTOL1021375	Olanzapine 15mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTOL1021376	Olanzapine 15mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTOL1021377	Olanzapine 20mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTOL1021378	Olanzapine 20mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTOL1021508	Olanzapine 10mg orodispersible tablets sugar free 28 tablet
+^ESCTOL1021509	Olanzapine 10mg orodispersible tablets sugar free (Actavis UK Ltd)
+^ESCTOL1021510	Olanzapine 10mg orodispersible tablets sugar free (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1021511	Olanzapine 15mg orodispersible tablets sugar free 28 tablet
+^ESCTOL1021512	Olanzapine 15mg orodispersible tablets sugar free (Actavis UK Ltd)
+^ESCTOL1021513	Olanzapine 15mg orodispersible tablets sugar free (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1021514	Olanzapine 20mg orodispersible tablets sugar free 28 tablet
+^ESCTOL1021515	Olanzapine 20mg orodispersible tablets sugar free (Actavis UK Ltd)
+^ESCTOL1021516	Olanzapine 20mg orodispersible tablets sugar free (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1021517	Olanzapine 5mg orodispersible tablets sugar free 28 tablet
+^ESCTOL1021518	Olanzapine 5mg orodispersible tablets sugar free (Actavis UK Ltd)
+^ESCTOL1021519	Olanzapine 5mg orodispersible tablets sugar free (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1021529	Olanzapine 10mg orodispersible tablets sugar free
+^ESCTOL1021531	Olanzapine 15mg orodispersible tablets sugar free
+^ESCTOL1021532	Olanzapine 20mg orodispersible tablets sugar free
+^ESCTOL1021533	Olanzapine 5mg orodispersible tablets sugar free
+^ESCTOL1021656	Olanzapine 15mg orodispersible tablets 28 tablet
+^ESCTOL1021657	Olanzapine 15mg orodispersible tablets (Teva UK Ltd)
+^ESCTOL1021658	Olanzapine 15mg orodispersible tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1021659	Olanzapine 5mg orodispersible tablets 28 tablet
+^ESCTOL1021660	Olanzapine 5mg orodispersible tablets (Teva UK Ltd)
+^ESCTOL1021661	Olanzapine 5mg orodispersible tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1021662	Olanzapine 10mg orodispersible tablets 28 tablet
+^ESCTOL1021663	Olanzapine 10mg orodispersible tablets (Teva UK Ltd)
+^ESCTOL1021664	Olanzapine 10mg orodispersible tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1021665	Olanzapine 20mg orodispersible tablets 28 tablet
+^ESCTOL1021666	Olanzapine 20mg orodispersible tablets (Teva UK Ltd)
+^ESCTOL1021667	Olanzapine 20mg orodispersible tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1021687	Olanzapine 10mg orodispersible tablets
+^ESCTOL1021688	Olanzapine 15mg orodispersible tablets
+^ESCTOL1021689	Olanzapine 20mg orodispersible tablets
+^ESCTOL1021690	Olanzapine 5mg orodispersible tablets
+^ESCTOL1022086	Olanzapine 5mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTOL1022087	Olanzapine 5mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTOL1022088	Olanzapine 10mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTOL1022089	Olanzapine 10mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTOL1022090	Olanzapine 15mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTOL1022091	Olanzapine 15mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTOL1022092	Olanzapine 20mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTOL1022093	Olanzapine 20mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTOL1022202	Olanzapine 5mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1022205	Olanzapine 5mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTOL1022207	Olanzapine 10mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1022209	Olanzapine 10mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTOL1022210	Olanzapine 15mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1022211	Olanzapine 15mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTOL1022212	Olanzapine 20mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTOL1022213	Olanzapine 20mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTOL1022508	Olanzapine 5mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTOL1022509	Olanzapine 5mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTOL1022510	Olanzapine 10mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTOL1022511	Olanzapine 10mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTOL1022512	Olanzapine 15mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTOL1022513	Olanzapine 15mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTOL1022514	Olanzapine 20mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTOL1022515	Olanzapine 20mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTOL1023575	Olanzapine 2.5mg tablets (Mylan Ltd)
+^ESCTOL1023576	Olanzapine 2.5mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1023589	Olanzapine 10mg tablets (Mylan Ltd)
+^ESCTOL1023590	Olanzapine 10mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1023591	Olanzapine 20mg tablets (Mylan Ltd)
+^ESCTOL1023592	Olanzapine 20mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1023593	Olanzapine 15mg tablets (Mylan Ltd)
+^ESCTOL1023594	Olanzapine 15mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1023595	Olanzapine 7.5mg tablets (Mylan Ltd)
+^ESCTOL1023596	Olanzapine 7.5mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTOL1023597	Olanzapine 5mg tablets (Mylan Ltd)
+^ESCTOL1023598	Olanzapine 5mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1024180	Olanzapine 5mg tablets (Zentiva)
+^ESCTOL1024181	Olanzapine 5mg tablets (Zentiva) 28 tablet 4 x 7 tablets
+^ESCTOL1024214	Olanzapine 2.5mg tablets (Zentiva)
+^ESCTOL1024215	Olanzapine 2.5mg tablets (Zentiva) 28 tablet 4 x 7 tablets
+^ESCTOL1024220	Olanzapine 7.5mg tablets (Zentiva)
+^ESCTOL1024222	Olanzapine 7.5mg tablets (Zentiva) 56 tablet 8 x 7 tablets
+^ESCTOL1024223	Olanzapine 10mg tablets (Zentiva)
+^ESCTOL1024224	Olanzapine 10mg tablets (Zentiva) 28 tablet 4 x 7 tablets
+^ESCTOL1024609	Olanzapine 7.5mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1024953	Olanzapine 5mg orodispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTOL1024954	Olanzapine 5mg orodispersible tablets (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1024955	Olanzapine 10mg orodispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTOL1024956	Olanzapine 15mg orodispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTOL1024958	Olanzapine 15mg orodispersible tablets (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1024959	Olanzapine 20mg orodispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTOL1024961	Olanzapine 20mg orodispersible tablets (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1024963	Olanzapine 10mg orodispersible tablets (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1025849	Olanzapine 2.5mg tablets (Ranbaxy (UK) Ltd)
+^ESCTOL1025852	Olanzapine 2.5mg tablets (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1025854	Olanzapine 5mg tablets (Ranbaxy (UK) Ltd)
+^ESCTOL1025855	Olanzapine 5mg tablets (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1025856	Olanzapine 7.5mg tablets (Ranbaxy (UK) Ltd)
+^ESCTOL1025857	Olanzapine 7.5mg tablets (Ranbaxy (UK) Ltd) 56 tablet 8 x 7 tablets
+^ESCTOL1025858	Olanzapine 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTOL1025859	Olanzapine 10mg tablets (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1027826	Olanzapine 2.5mg tablets (Sandoz Ltd)
+^ESCTOL1027829	Olanzapine 2.5mg tablets (Sandoz Ltd) 28 tablet
+^ESCTOL1027834	Olanzapine 5mg tablets (Sandoz Ltd)
+^ESCTOL1027835	Olanzapine 5mg tablets (Sandoz Ltd) 28 tablet
+^ESCTOL1027836	Olanzapine 7.5mg tablets (Sandoz Ltd)
+^ESCTOL1027837	Olanzapine 7.5mg tablets (Sandoz Ltd) 56 tablet
+^ESCTOL1027842	Olanzapine 10mg tablets (Sandoz Ltd)
+^ESCTOL1027843	Olanzapine 10mg tablets (Sandoz Ltd) 28 tablet
+^ESCTOL1027849	Olanzapine 15mg tablets (Sandoz Ltd)
+^ESCTOL1027851	Olanzapine 15mg tablets (Sandoz Ltd) 28 tablet
+^ESCTOL1027856	Olanzapine 20mg tablets (Sandoz Ltd)
+^ESCTOL1027859	Olanzapine 20mg tablets (Sandoz Ltd) 28 tablet
+^ESCTOL1027866	Olanzapine 5mg orodispersible tablets sugar free (Sandoz Ltd)
+^ESCTOL1027869	Olanzapine 5mg orodispersible tablets sugar free (Sandoz Ltd) 28 tablet
+^ESCTOL1027870	Olanzapine 10mg orodispersible tablets sugar free (Sandoz Ltd)
+^ESCTOL1027871	Olanzapine 10mg orodispersible tablets sugar free (Sandoz Ltd) 28 tablet
+^ESCTOL1027872	Olanzapine 15mg orodispersible tablets sugar free (Sandoz Ltd)
+^ESCTOL1027873	Olanzapine 15mg orodispersible tablets sugar free (Sandoz Ltd) 28 tablet
+^ESCTOL1027874	Olanzapine 20mg orodispersible tablets sugar free (Sandoz Ltd)
+^ESCTOL1027875	Olanzapine 20mg orodispersible tablets sugar free (Sandoz Ltd) 28 tablet
+^ESCTOL1033602	Olanzapine 15mg tablets (Zentiva)
+^ESCTOL1033603	Olanzapine 15mg tablets (Zentiva) 28 tablet
+^ESCTOL1033604	Olanzapine 20mg tablets (Zentiva)
+^ESCTOL1033605	Olanzapine 20mg tablets (Zentiva) 28 tablet
+^ESCTOL1034072	Olanzapine 5mg orodispersible tablets (Zentiva)
+^ESCTOL1034073	Olanzapine 5mg orodispersible tablets (Zentiva) 28 tablet
+^ESCTOL1034074	Olanzapine 10mg orodispersible tablets (Zentiva)
+^ESCTOL1034075	Olanzapine 10mg orodispersible tablets (Zentiva) 28 tablet
+^ESCTOL1034076	Olanzapine 15mg orodispersible tablets (Zentiva)
+^ESCTOL1034077	Olanzapine 15mg orodispersible tablets (Zentiva) 28 tablet
+^ESCTOL1034078	Olanzapine 20mg orodispersible tablets (Zentiva)
+^ESCTOL1034079	Olanzapine 20mg orodispersible tablets (Zentiva) 28 tablet
+^ESCTOL1035326	Olanzapine 7.5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1041720	Olanzapine 5mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd)
+^ESCTOL1041721	Olanzapine 5mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1041723	Olanzapine 10mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd)
+^ESCTOL1041724	Olanzapine 10mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1041725	Olanzapine 15mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd)
+^ESCTOL1041726	Olanzapine 15mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1041728	Olanzapine 20mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd)
+^ESCTOL1041731	Olanzapine 20mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTOL1041832	Olanzapine 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTOL1041833	Olanzapine 2.5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTOL1041835	Olanzapine 5mg tablets (Waymade Healthcare Plc)
+^ESCTOL1041837	Olanzapine 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTOL1041838	Olanzapine 7.5mg tablets (Waymade Healthcare Plc)
+^ESCTOL1041839	Olanzapine 7.5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTOL1041840	Olanzapine 7.5mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTOL1041850	Olanzapine 10mg tablets (Waymade Healthcare Plc)
+^ESCTOL1041851	Olanzapine 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTOL1041852	Olanzapine 15mg tablets (Waymade Healthcare Plc)
+^ESCTOL1041853	Olanzapine 15mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTOL1041854	Olanzapine 20mg tablets (Waymade Healthcare Plc)
+^ESCTOL1041856	Olanzapine 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTOL1056450	Olanzapine 2.5mg/5ml oral suspension 70 ml
+^ESCTOL1056451	Olanzapine 2.5mg/5ml oral suspension (Drug Tariff Special Order) 70 ml
+^ESCTOL1057240	Olanzapine 10mg tablets (Accord Healthcare Ltd)
+^ESCTOL1057241	Olanzapine 10mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1057242	Olanzapine 15mg tablets (Accord Healthcare Ltd)
+^ESCTOL1057244	Olanzapine 15mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1057246	Olanzapine 2.5mg tablets (Accord Healthcare Ltd)
+^ESCTOL1057249	Olanzapine 2.5mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1057250	Olanzapine 5mg tablets (Accord Healthcare Ltd)
+^ESCTOL1057251	Olanzapine 5mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1057252	Olanzapine 7.5mg tablets (Accord Healthcare Ltd)
+^ESCTOL1057253	Olanzapine 7.5mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1061748	Olanzapine 5mg tablets (Milpharm Ltd)
+^ESCTOL1061749	Olanzapine 5mg tablets (Milpharm Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1061750	Olanzapine 10mg tablets (Milpharm Ltd)
+^ESCTOL1061751	Olanzapine 10mg tablets (Milpharm Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1061752	Olanzapine 15mg tablets (Milpharm Ltd)
+^ESCTOL1061753	Olanzapine 15mg tablets (Milpharm Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1061754	Olanzapine 20mg orodispersible tablets sugar free (Milpharm Ltd)
+^ESCTOL1061755	Olanzapine 20mg orodispersible tablets sugar free (Milpharm Ltd) 28 tablet 2 x 14 tablets
+^ESCTOL1098905	Olanzapine 20mg tablets (Accord Healthcare Ltd)
+^ESCTOL1098906	Olanzapine 20mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTOL1118330	Olanzapine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOL1118331	Olanzapine 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTOL1118332	Olanzapine 15mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOL1118333	Olanzapine 15mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTOL1118334	Olanzapine 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOL1118335	Olanzapine 2.5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTOL1118336	Olanzapine 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOL1118337	Olanzapine 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTOL1118338	Olanzapine 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOL1118339	Olanzapine 5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTOL1118340	Olanzapine 7.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOL1118341	Olanzapine 7.5mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTOL1119472	Olanzapine 7.5mg tablets (DE Pharmaceuticals)
+^ESCTOL1119473	Olanzapine 7.5mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTOL1119474	Olanzapine 10mg tablets (DE Pharmaceuticals)
+^ESCTOL1119475	Olanzapine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTOL1119476	Olanzapine 15mg tablets (DE Pharmaceuticals)
+^ESCTOL1119477	Olanzapine 15mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTOL1119478	Olanzapine 20mg tablets (DE Pharmaceuticals)
+^ESCTOL1119479	Olanzapine 5mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTOL1119480	Olanzapine 5mg orodispersible tablets (DE Pharmaceuticals) 28 tablet
+^ESCTOL1119481	Olanzapine 10mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTOL1119482	Olanzapine 10mg orodispersible tablets (DE Pharmaceuticals) 28 tablet
+^ESCTOL1119483	Olanzapine 15mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTOL1119484	Olanzapine 15mg orodispersible tablets (DE Pharmaceuticals) 28 tablet
+^ESCTOL1119485	Olanzapine 20mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTOL1119486	Olanzapine 20mg orodispersible tablets (DE Pharmaceuticals) 28 tablet
+^ESCTOL1119640	Olanzapine 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTOL1126893	Olanzapine 20mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOL1126894	Olanzapine 20mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTOL1126897	Olanzapine 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOL1126898	Olanzapine 2.5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTOL1126899	Olanzapine 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOL1126900	Olanzapine 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTOL1127021	Olanzapine 5mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOL1127022	Olanzapine 5mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTOL1127023	Olanzapine 10mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOL1127024	Olanzapine 10mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTOL1127025	Olanzapine 15mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOL1127026	Olanzapine 15mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTOL1142144	Olanzapine 2.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTOL1142147	Olanzapine 2.5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTOL1142149	Olanzapine 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTOL1142151	Olanzapine 5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTOL1142152	Olanzapine 7.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTOL1142153	Olanzapine 7.5mg tablets (Kent Pharmaceuticals Ltd) 56 tablet
+^ESCTOL1142154	Olanzapine 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTOL1142156	Olanzapine 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTOL1142162	Olanzapine 15mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTOL1142163	Olanzapine 15mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTOL1142165	Olanzapine 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTOL1142167	Olanzapine 20mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTOL1144119	Olanzapine 12.5mg/5ml oral suspension 1 ml
+^ESCTOL1144120	Olanzapine 12.5mg/5ml oral suspension (Special Order)
+^ESCTOL1144121	Olanzapine 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTOL1144163	Olanzapine 12.5mg/5ml oral suspension
+^ESCTOL1144417	Olanzapine 15mg/5ml oral solution 1 ml
+^ESCTOL1144418	Olanzapine 15mg/5ml oral solution (Special Order)
+^ESCTOL1144419	Olanzapine 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTOL1144554	Olanzapine 15mg/5ml oral solution
+^ESCTOL415427	Olanzapine
+^ESCTOL609438	Olanzapine 5mg tablets
+^ESCTOL609440	Olanzapine 5 mg oral tablet
+^ESCTOL609441	Olanzapine 7.5mg tablets
+^ESCTOL609443	Olanzapine 7.5 mg oral tablet
+^ESCTOL609444	Olanzapine 10mg tablets
+^ESCTOL609446	Olanzapine 10 mg oral tablet
+^ESCTOL609447	Olanzapine 2.5mg tablets
+^ESCTOL609449	Olanzapine 2.5 mg oral tablet
+^ESCTOL609450	Olanzapine 5mg oral lyophilisates sugar free
+^ESCTOL609451	Olanzapine 5mg dispersible tablet
+^ESCTOL609452	Olanzapine 10mg oral lyophilisates sugar free
+^ESCTOL609453	Olanzapine 10mg dispersible tablet
+^ESCTOL638829	Olanzapine 20mg tablets
+^ESCTOL638831	Olanzapine 20 mg oral tablet
+^ESCTOL641492	Olanzapine 15mg tablets
+^ESCTOL641494	Olanzapine 15 mg oral tablet
+^ESCTOL645175	Olanzapine 20mg oral lyophilisates sugar free
+^ESCTOL645176	Olanzapine 20mg disintegrating tablet
+^ESCTOL675487	Olanzapine 15mg dispersible tablet
+^ESCTOL675488	Olanzapine 15mg disintergrating tablet
+^ESCTOL677422	Olanzapine + fluoxetine
+^ESCTOL677424	Olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTOL677426	Olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTOL677428	Olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTOL677430	Olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTOL680466	Olanzapine in parenteral dosage form
+^ESCTOL680468	Olanzapine 10mg powder for injection
+^ESCTOL680469	Olanzapine 10mg injection (pdr for recon)
+^ESCTOL702318	Olanzapine in oral dosage form
+^ESCTOL711421	Olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTOL729998	Olanzapine 405mg powder for injection suspension
+^ESCTOL730491	Olanzapine 210mg powder for injection suspension
+^ESCTOL730492	Olanzapine 300mg powder for injection suspension
+^ESCTOL839957	Olanzapine 15mg oral lyophilisates sugar free 28 tablet
+^ESCTOL847453	Olanzapine 7.5mg tablets 56 tablet
+^ESCTOL847551	Olanzapine 15mg tablets 28 tablet
+^ESCTOL847652	Olanzapine 10mg oral lyophilisates sugar free 28 tablet
+^ESCTOL847827	Olanzapine 2.5mg tablets 28 tablet
+^ESCTOL847876	Olanzapine 5mg oral lyophilisates sugar free 28 tablet
+^ESCTOL847999	Olanzapine 5mg tablets 28 tablet
+^ESCTOL848739	Olanzapine 10mg tablets 28 tablet
+^ESCTOL848793	Olanzapine 10mg tablets 56 tablet
+^ESCTOL861847	Olanzapine 15mg oral lyophilisates sugar free
+^ESCTOL878476	Olanzapine 7.5mg tablets 28 tablet
+^ESCTOL880721	Olanzapine 10mg powder for solution for injection vials 1 vial
+^ESCTOL881938	Olanzapine 10mg powder for solution for injection vials
+^ESCTOL924313	Olanzapine 20mg oral lyophilisates sugar free 28 tablet
+^ESCTOL933842	Olanzapine 20mg tablets 28 tablet
+^ESCTOL967606	Olanzapine 2.5mg/5ml oral solution 1 ml
+^ESCTOL967608	Olanzapine 2.5mg/5ml oral solution (Special Order)
+^ESCTOL967609	Olanzapine 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTOL967610	Olanzapine 2.5mg/5ml oral suspension 1 ml
+^ESCTOL967611	Olanzapine 2.5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTOL967612	Olanzapine 2.5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTOL968002	Olanzapine 2.5mg/5ml oral solution
+^ESCTOL968003	Olanzapine 2.5mg/5ml oral suspension
+^ESCTOL975144	Olanzapine 10mg oral lyophilisates sugar free 56 tablet
+^ESCTOL982279	Olanzapine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOL982280	Olanzapine 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTOL983557	Olanzapine 1.25mg/5ml oral solution 1 ml
+^ESCTOL983561	Olanzapine 1.25mg/5ml oral solution (Special Order)
+^ESCTOL983566	Olanzapine 1.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTOL983578	Olanzapine 1.25mg/5ml oral suspension 1 ml
+^ESCTOL983585	Olanzapine 1.25mg/5ml oral suspension (Special Order)
+^ESCTOL983593	Olanzapine 1.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTOL983701	Olanzapine 1.25mg/5ml oral solution
+^ESCTOL983702	Olanzapine 1.25mg/5ml oral suspension
+^ESCTOL997665	Olanzapine embonate 210mg powder and solvent for suspension for injection vials
+^ESCTOL997666	Olanzapine embonate 210mg powder and solvent for suspension for injection vials 1 vial
+^ESCTOL997671	Olanzapine embonate 300mg powder and solvent for suspension for injection vials
+^ESCTOL997672	Olanzapine embonate 300mg powder and solvent for suspension for injection vials 1 vial
+^ESCTOL997676	Olanzapine embonate 405mg powder and solvent for suspension for injection vials
+^ESCTOL997677	Olanzapine embonate 405mg powder and solvent for suspension for injection vials 1 vial
+^ESCTOL997941	Olanzapine embonate
+^ESCTPR415428	Product containing olanzapine
+^ESCTPR609439	Product containing olanzapine 5 mg/1 each oral tablet
+^ESCTPR609442	Product containing olanzapine 7.5 mg/1 each oral tablet
+^ESCTPR609445	Product containing olanzapine 10 mg/1 each oral tablet
+^ESCTPR609448	Product containing olanzapine 2.5 mg/1 each oral tablet
+^ESCTPR638830	Product containing olanzapine 20 mg/1 each oral tablet
+^ESCTPR641493	Product containing olanzapine 15 mg/1 each oral tablet
+^ESCTPR677423	Product containing fluoxetine and olanzapine
+^ESCTPR677425	Product containing olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTPR677427	Product containing olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTPR677429	Product containing olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTPR677431	Product containing olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTPR680467	Product containing olanzapine in parenteral dosage form
+^ESCTPR702319	Product containing olanzapine in oral dosage form
+^ESCTPR711422	Product containing olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTZA1021336	Zalasta 2.5mg tablets (Consilient Health Ltd)
+^ESCTZA1021337	Zalasta 2.5mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTZA1021338	Zalasta 5mg tablets (Consilient Health Ltd)
+^ESCTZA1021339	Zalasta 5mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTZA1021340	Zalasta 7.5mg tablets (Consilient Health Ltd)
+^ESCTZA1021341	Zalasta 7.5mg tablets (Consilient Health Ltd) 56 tablet 8 x 7 tablets
+^ESCTZA1021342	Zalasta 10mg tablets (Consilient Health Ltd)
+^ESCTZA1021343	Zalasta 10mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTZA1021344	Zalasta 15mg tablets (Consilient Health Ltd)
+^ESCTZA1021345	Zalasta 15mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTZA1021346	Zalasta 20mg tablets (Consilient Health Ltd)
+^ESCTZA1021347	Zalasta 20mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTZA1021520	Zalasta 5mg orodispersible tablets (Consilient Health Ltd)
+^ESCTZA1021521	Zalasta 5mg orodispersible tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTZA1021535	Zalasta 10mg orodispersible tablets (Consilient Health Ltd)
+^ESCTZA1021536	Zalasta 10mg orodispersible tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTZA1021537	Zalasta 15mg orodispersible tablets (Consilient Health Ltd)
+^ESCTZA1021538	Zalasta 15mg orodispersible tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTZA1021539	Zalasta 20mg orodispersible tablets (Consilient Health Ltd)
+^ESCTZA1021540	Zalasta 20mg orodispersible tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTZA936021	Zalasta
+^ESCTZY1001797	Zyprexa 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZY1001798	Zyprexa 2.5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTZY1001799	Zyprexa 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZY1001800	Zyprexa 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTZY1001801	Zyprexa 7.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZY1001802	Zyprexa 7.5mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTZY1001803	Zyprexa 7.5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTZY1001804	Zyprexa 10mg Velotabs (Mawdsley-Brooks & Company Ltd)
+^ESCTZY1001805	Zyprexa 10mg Velotabs (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTZY1001806	Zyprexa 15mg Velotabs (Mawdsley-Brooks & Company Ltd)
+^ESCTZY1001807	Zyprexa 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZY1001808	Zyprexa 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTZY1001809	Zyprexa 15mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZY1001810	Zyprexa 15mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTZY1001811	Zyprexa 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZY1001812	Zyprexa 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTZY1001813	Zyprexa 5mg Velotabs (Mawdsley-Brooks & Company Ltd)
+^ESCTZY1001814	Zyprexa 5mg Velotabs (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTZY1001815	Zyprexa 20mg Velotabs (Mawdsley-Brooks & Company Ltd)
+^ESCTZY1001816	Zyprexa 20mg Velotabs (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTZY1001826	Zyprexa 15mg Velotabs (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTZY1002872	Zyprexa 10mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTZY1007270	Zyprexa 7.5mg tablets (Lexon (UK) Ltd)
+^ESCTZY1007272	Zyprexa 7.5mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTZY1008616	Zyprexa 7.5mg tablets (Necessity Supplies Ltd)
+^ESCTZY1008617	Zyprexa 7.5mg tablets (Necessity Supplies Ltd) 56 tablet
+^ESCTZY1008618	Zyprexa 10mg tablets (Necessity Supplies Ltd)
+^ESCTZY1008619	Zyprexa 10mg tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTZY1008620	Zyprexa 10mg tablets (Necessity Supplies Ltd) 56 tablet
+^ESCTZY1008621	Zyprexa 15mg tablets (Necessity Supplies Ltd)
+^ESCTZY1008623	Zyprexa 15mg tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTZY1008625	Zyprexa 2.5mg tablets (Necessity Supplies Ltd)
+^ESCTZY1008626	Zyprexa 2.5mg tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTZY1008628	Zyprexa 5mg tablets (Necessity Supplies Ltd)
+^ESCTZY1008630	Zyprexa 5mg tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTZY1008634	Zyprexa 10mg Velotabs (Necessity Supplies Ltd)
+^ESCTZY1008635	Zyprexa 10mg Velotabs (Necessity Supplies Ltd) 28 tablet
+^ESCTZY1008637	Zyprexa 15mg Velotabs (Necessity Supplies Ltd)
+^ESCTZY1008638	Zyprexa 15mg Velotabs (Necessity Supplies Ltd) 28 tablet
+^ESCTZY1008641	Zyprexa 5mg Velotabs (Necessity Supplies Ltd)
+^ESCTZY1008642	Zyprexa 5mg Velotabs (Necessity Supplies Ltd) 28 tablet
+^ESCTZY1012344	Zyprexa 15mg Velotabs (DE Pharmaceuticals)
+^ESCTZY1012350	Zyprexa 15mg Velotabs (DE Pharmaceuticals) 28 tablet
+^ESCTZY1025184	Zyprexa 5mg Velotabs (Lexon (UK) Ltd)
+^ESCTZY1025185	Zyprexa 5mg Velotabs (Lexon (UK) Ltd) 28 tablet
+^ESCTZY1025186	Zyprexa 10mg Velotabs (Lexon (UK) Ltd)
+^ESCTZY1025187	Zyprexa 10mg Velotabs (Lexon (UK) Ltd) 28 tablet
+^ESCTZY1025188	Zyprexa 15mg Velotabs (Lexon (UK) Ltd)
+^ESCTZY1025189	Zyprexa 15mg Velotabs (Lexon (UK) Ltd) 28 tablet
+^ESCTZY1025190	Zyprexa 20mg Velotabs (Lexon (UK) Ltd)
+^ESCTZY1025191	Zyprexa 20mg Velotabs (Lexon (UK) Ltd) 28 tablet
+^ESCTZY802829	Zyprexa 5mg Velotabs (Eli Lilly and Company Ltd)
+^ESCTZY810815	Zyprexa 2.5mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY815987	Zyprexa 15mg Velotabs (Eli Lilly and Company Ltd)
+^ESCTZY817863	Zyprexa 5mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY818613	Zyprexa 10mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY819194	Zyprexa 15mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY824254	Zyprexa 7.5mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY831634	Zyprexa 10mg Velotabs (Eli Lilly and Company Ltd)
+^ESCTZY853963	Zyprexa 2.5mg tablets (Eli Lilly and Company Ltd) 28 tablet 4 x 7 tablets
+^ESCTZY853965	Zyprexa 7.5mg tablets (Eli Lilly and Company Ltd) 56 tablet 8 x 7 tablets
+^ESCTZY853967	Zyprexa 5mg tablets (Eli Lilly and Company Ltd) 28 tablet 4 x 7 tablets
+^ESCTZY853969	Zyprexa 10mg tablets (Eli Lilly and Company Ltd) 28 tablet 4 x 7 tablets
+^ESCTZY853970	Zyprexa 10mg tablets (Eli Lilly and Company Ltd) 56 tablet 8 x 7 tablets
+^ESCTZY854009	Zyprexa 10mg Velotabs (Eli Lilly and Company Ltd) 28 tablet 4 x 7 tablets
+^ESCTZY854010	Zyprexa 5mg Velotabs (Eli Lilly and Company Ltd) 28 tablet 4 x 7 tablets
+^ESCTZY856636	Zyprexa 15mg Velotabs (Eli Lilly and Company Ltd) 28 tablet 4 x 7 tablets
+^ESCTZY856638	Zyprexa 15mg tablets (Eli Lilly and Company Ltd) 28 tablet 4 x 7 tablets
+^ESCTZY878471	Zyprexa 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTZY878472	Zyprexa 2.5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTZY878473	Zyprexa 5mg tablets (Waymade Healthcare Plc)
+^ESCTZY878474	Zyprexa 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTZY878475	Zyprexa 7.5mg tablets (Waymade Healthcare Plc)
+^ESCTZY878477	Zyprexa 7.5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTZY878478	Zyprexa 7.5mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTZY878479	Zyprexa 10mg tablets (Waymade Healthcare Plc)
+^ESCTZY878480	Zyprexa 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTZY878490	Zyprexa 5mg Velotabs (Waymade Healthcare Plc)
+^ESCTZY878493	Zyprexa 5mg Velotabs (Waymade Healthcare Plc) 28 tablet
+^ESCTZY878494	Zyprexa 10mg Velotabs (Waymade Healthcare Plc)
+^ESCTZY878495	Zyprexa 10mg Velotabs (Waymade Healthcare Plc) 28 tablet
+^ESCTZY880724	Zyprexa 10mg powder for solution for injection vials (Eli Lilly and Company Ltd)
+^ESCTZY880725	Zyprexa 10mg powder for solution for injection vials (Eli Lilly and Company Ltd) 1 vial
+^ESCTZY917462	Zyprexa
+^ESCTZY924314	Zyprexa 20mg Velotabs (Eli Lilly and Company Ltd)
+^ESCTZY924315	Zyprexa 20mg Velotabs (Eli Lilly and Company Ltd) 28 tablet 4 x 7 tablets
+^ESCTZY924346	Zyprexa Velotabs
+^ESCTZY929487	Zyprexa 10mg tablets (Dowelhurst Ltd)
+^ESCTZY929488	Zyprexa 10mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTZY929489	Zyprexa 10mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTZY929494	Zyprexa 15mg tablets (Dowelhurst Ltd)
+^ESCTZY929495	Zyprexa 15mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTZY929496	Zyprexa 2.5mg tablets (Dowelhurst Ltd)
+^ESCTZY929498	Zyprexa 2.5mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTZY929500	Zyprexa 5mg tablets (Dowelhurst Ltd)
+^ESCTZY929501	Zyprexa 5mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTZY929502	Zyprexa 7.5mg tablets (Dowelhurst Ltd)
+^ESCTZY929503	Zyprexa 7.5mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTZY929505	Zyprexa 7.5mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTZY929507	Zyprexa 10mg Velotabs (Dowelhurst Ltd)
+^ESCTZY929508	Zyprexa 10mg Velotabs (Dowelhurst Ltd) 28 tablet
+^ESCTZY929511	Zyprexa 15mg Velotabs (Dowelhurst Ltd)
+^ESCTZY929513	Zyprexa 15mg Velotabs (Dowelhurst Ltd) 28 tablet
+^ESCTZY929515	Zyprexa 5mg Velotabs (Dowelhurst Ltd)
+^ESCTZY929516	Zyprexa 5mg Velotabs (Dowelhurst Ltd) 28 tablet
+^ESCTZY929703	Zyprexa 15mg Velotabs (Waymade Healthcare Plc)
+^ESCTZY929704	Zyprexa 15mg Velotabs (Waymade Healthcare Plc) 28 tablet
+^ESCTZY930321	Zypadhera
+^ESCTZY932762	Zyprexa 20mg Velotabs (Waymade Healthcare Plc)
+^ESCTZY932763	Zyprexa 20mg Velotabs (Waymade Healthcare Plc) 28 tablet
+^ESCTZY933843	Zyprexa 20mg tablets (Eli Lilly and Company Ltd)
+^ESCTZY933844	Zyprexa 20mg tablets (Eli Lilly and Company Ltd) 28 tablet 2 x 14 tablets
+^ESCTZY967877	Zyprexa 2.5mg tablets (DE Pharmaceuticals)
+^ESCTZY967879	Zyprexa 2.5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTZY967882	Zyprexa 5mg tablets (DE Pharmaceuticals)
+^ESCTZY967883	Zyprexa 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTZY967885	Zyprexa 7.5mg tablets (DE Pharmaceuticals)
+^ESCTZY967886	Zyprexa 7.5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTZY967888	Zyprexa 7.5mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTZY967892	Zyprexa 10mg tablets (DE Pharmaceuticals)
+^ESCTZY967894	Zyprexa 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTZY967898	Zyprexa 5mg Velotabs (DE Pharmaceuticals)
+^ESCTZY967899	Zyprexa 5mg Velotabs (DE Pharmaceuticals) 28 tablet
+^ESCTZY967902	Zyprexa 10mg Velotabs (DE Pharmaceuticals)
+^ESCTZY967903	Zyprexa 10mg Velotabs (DE Pharmaceuticals) 28 tablet
+^ESCTZY975133	Zyprexa 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTZY975134	Zyprexa 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTZY975135	Zyprexa 15mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTZY975136	Zyprexa 15mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTZY975137	Zyprexa 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTZY975138	Zyprexa 2.5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTZY975139	Zyprexa 7.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTZY975140	Zyprexa 7.5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTZY975141	Zyprexa 7.5mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTZY975142	Zyprexa 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTZY975143	Zyprexa 5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTZY975145	Zyprexa 10mg Velotabs (Sigma Pharmaceuticals Plc)
+^ESCTZY975146	Zyprexa 10mg Velotabs (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTZY975147	Zyprexa 10mg Velotabs (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTZY975149	Zyprexa 20mg Velotabs (Sigma Pharmaceuticals Plc)
+^ESCTZY975151	Zyprexa 20mg Velotabs (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTZY975152	Zyprexa 5mg Velotabs (Sigma Pharmaceuticals Plc)
+^ESCTZY975153	Zyprexa 5mg Velotabs (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTZY997667	Zypadhera 210mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd)
+^ESCTZY997668	Zypadhera 210mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd) 1 vial
+^ESCTZY997673	Zypadhera 300mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd)
+^ESCTZY997675	Zypadhera 300mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd) 1 vial
+^ESCTZY997679	Zypadhera 405mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd)
+^ESCTZY997680	Zypadhera 405mg powder and solvent for suspension for injection vials (Eli Lilly and Company Ltd) 1 vial
+AROR52636NEMIS	Arkolamyl  Orodispersible tablets  5 mg
+AROR52637NEMIS	Arkolamyl  Orodispersible tablets  10 mg
+AROR52638NEMIS	Arkolamyl  Orodispersible tablets  15 mg
+AROR52639NEMIS	Arkolamyl  Orodispersible tablets  20 mg
+OLOR131618NEMIS	Olanzapine  Orodispersible Tablets (Sugar Free)  2.5 mg
+OLOR131619NEMIS	Olanzapine  Orodispersible Tablets (Sugar Free)  7.5 mg
+OLOR22070NEMIS	Olanzapine  Oral suspension  2.5 mg/5 ml
+OLOR46785NEMIS	Olanzapine  Oral solution  2.5 mg/5 ml
+OLOR52087NEMIS	Olanzapine  Orodispersible Tablets (Sugar Free)  5 mg
+OLOR52088NEMIS	Olanzapine  Orodispersible Tablets (Sugar Free)  10 mg
+OLOR52089NEMIS	Olanzapine  Orodispersible Tablets (Sugar Free)  15 mg
+OLOR52090NEMIS	Olanzapine  Orodispersible Tablets (Sugar Free)  20 mg
+OLOR71531NEMIS	Olanzapine  Orodispersible tablets  10 mg
+OLOR71532NEMIS	Olanzapine  Orodispersible tablets  15 mg
+OLOR71533NEMIS	Olanzapine  Orodispersible tablets  20 mg
+OLOR71534NEMIS	Olanzapine  Orodispersible tablets  5 mg
+OLTA23534NEMIS	Olanzapine  Tablets  20 mg
+ZAOR52077NEMIS	Zalasta  Orodispersible tablets  10 mg
+ZAOR52078NEMIS	Zalasta  Orodispersible tablets  15 mg
+ZAOR52079NEMIS	Zalasta  Orodispersible tablets  20 mg
+ZATA51977NEMIS	Zalasta  Tablets  10 mg
+ZATA51978NEMIS	Zalasta  Tablets  15 mg
+ZATA51979NEMIS	Zalasta  Tablets  2.5 mg
+ZATA51980NEMIS	Zalasta  Tablets  20 mg
+ZATA51981NEMIS	Zalasta  Tablets  5 mg
+ZATA51982NEMIS	Zalasta  Tablets  7.5 mg
+ZYPO16909NEMIS	Zyprexa  Powder For Solution For Injection  10 mg vial
+ZYPR42083NEMIS	Zypadhera  Powder and solvent for suspension for injection  210 mg vial
+ZYPR42084NEMIS	Zypadhera  Powder and solvent for suspension for injection  300 mg vial
+ZYPR42085NEMIS	Zypadhera  Powder and solvent for suspension for injection  405 mg vial

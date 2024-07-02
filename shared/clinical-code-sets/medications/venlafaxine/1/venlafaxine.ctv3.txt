@@ -48,3 +48,14 @@ da7W.	VENLALIC XL 150mg m/r tablets
 da7X.	VENLALIC XL 225mg m/r tablets
 da7Y.	VENLAFAXINE 225mg m/r tablets
 da7Z.	VENAXX XL 75mg m/r capsules
+da7..	Venlafaxine
+da7w.	VENLAFAXINE 225mg m/r capsules
+da7v.	EFEXOR XL 225mg m/r capsules
+da7u.	VENLADEX XL 150mg m/r tablets
+da7t.	VENLADEX XL 75mg m/r tablets
+da7i.	BONILUX XL 150mg m/r capsules
+da7h.	BONILUX XL 75mg m/r capsules
+da7G.	TRIXAT XL 150mg m/r capsules
+da7F.	TRIXAT XL 75mg m/r capsules
+x02b1	Efexor
+x03oQ	Efexor XL

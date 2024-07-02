@@ -1,0 +1,27 @@
+^ESCTOX1020841	Oxitriptan 50mg modified-release tablets 60 tablet
+^ESCTOX1020859	Oxitriptan
+^ESCTOX1020866	Oxitriptan 50mg modified-release tablets
+^ESCTOX1037362	Oxitriptan 50mg capsules 1 capsule
+^ESCTOX1037364	Oxitriptan 50mg capsules 30 capsule
+^ESCTOX1037368	Oxitriptan 50mg capsules (Special Order)
+^ESCTOX1037369	Oxitriptan 50mg capsules (Special Order) 1 capsule
+^ESCTOX1037679	Oxitriptan 50mg capsules
+^ESCTOX1043976	Oxitriptan 10mg capsules
+^ESCTOX1043977	Oxitriptan 10mg capsules 1 capsule
+^ESCTOX1043978	Oxitriptan 10mg capsules (Special Order)
+^ESCTOX1043979	Oxitriptan 10mg capsules (Special Order) 1 capsule
+^ESCTOX1043980	Oxitriptan 20mg capsules
+^ESCTOX1043981	Oxitriptan 20mg capsules 1 capsule
+^ESCTOX1043982	Oxitriptan 20mg capsules (Special Order)
+^ESCTOX1043983	Oxitriptan 20mg capsules (Special Order) 1 capsule
+^ESCTOX1086727	Oxitriptan 100mg tablets
+^ESCTOX1086728	Oxitriptan 100mg tablets 60 tablet
+^ESCT1184936	Lamberts 5-HTP 100mg tablets (Lamberts Healthcare Ltd)
+^ESCT1186958	Lamberts 5-HTP 100mg tablets (Lamberts Healthcare Ltd) 60 tablet
+^ESCT5H1086731	5-HTP 100mg tablets (Lamberts Healthcare Ltd)
+^ESCT5H1086732	5-HTP 100mg tablets (Lamberts Healthcare Ltd) 60 tablet
+^ESCTHE1020842	HealthAid 5-HTP HydroxyTryptoPhan 50mg tablets (HealthAid Ltd)
+^ESCTHE1020843	HealthAid 5-HTP HydroxyTryptoPhan 50mg tablets (HealthAid Ltd) 60 tablet
+^ESCTTR1037366	Tript-OH 50mg capsules (Imported (Italy))
+^ESCTTR1037367	Tript-OH 50mg capsules (Imported (Italy)) 30 capsule
+HETA31750NEMIS	Healthaid L-5 Hydroxytryptophan  Tablets  50 mg

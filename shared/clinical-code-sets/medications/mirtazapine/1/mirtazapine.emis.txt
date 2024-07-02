@@ -483,3 +483,77 @@ ZIOR16894NEMIS	Zispin Soltab  Orodispersible tablets  15 mg
 ZIOR16895NEMIS	Zispin Soltab  Orodispersible tablets  45 mg
 ZIOR17501NEMIS	Zispin Soltab  Orodispersible tablets  30 mg
 ZITA31476EMIS	Zispin  Tablets  30 mg
+^ESCT1182029	Product containing only mirtazapine 7.5 mg/1 each oral tablet
+^ESCT1220830	Mirtazapine
+^ESCT1220831	Mirtazapine product
+^ESCT1230963	Product containing precisely mirtazapine 7.5 milligram/1 each conventional release oral tablet
+^ESCT1351581	Mirtazapine-containing product in oral dose form
+^ESCT1355947	Mirtazapine only product
+^ESCT1359259	Mirtazapine only product in oral dose form
+^ESCT1363628	Mirtazapine-containing product in oromucosal dose form
+^ESCT1363629	Mirtazapine only product in oromucosal dose form
+^ESCT1384656	Mirtazapine 45 mg orodispersible tablet
+^ESCT1433589	Mirtazapine 30mg tablets (Thame Laboratories Ltd)
+^ESCT1433590	Mirtazapine 30mg tablets (Thame Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437895	Mirtazapine 30mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437896	Mirtazapine 30mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438209	Mirtazapine 30mg orodispersible tablets (Viatris UK Healthcare Ltd)
+^ESCT1438210	Mirtazapine 30mg orodispersible tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1438211	Mirtazapine 45mg orodispersible tablets (Viatris UK Healthcare Ltd)
+^ESCT1438212	Mirtazapine 45mg orodispersible tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1438213	Mirtazapine 15mg orodispersible tablets (Viatris UK Healthcare Ltd)
+^ESCT1438214	Mirtazapine 15mg orodispersible tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCTMI415416	Mirtazapine
+^ESCTMI680725	Mirtazapine 7.5 mg oral tablet
+^ESCTMI765007	Mirtazapine 45mg orodispersible tablet
+^ESCTMI878075	Mirtazapine 30mg tablets (Waymade Healthcare Plc)
+^ESCTMI878077	Mirtazapine 30mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTMI878883	Mirtazapine 30mg tablets (Dowelhurst Ltd)
+^ESCTMI878884	Mirtazapine 30mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTPR415417	Product containing mirtazapine
+^ESCTPR680726	Product containing mirtazapine 7.5 mg/1 each oral tablet
+^ESCTZI1001747	Zispin SolTab 15mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZI1001748	Zispin SolTab 15mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTZI1001749	Zispin SolTab 30mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZI1001750	Zispin SolTab 30mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTZI1001751	Zispin SolTab 45mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZI1001752	Zispin SolTab 45mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTZI1008541	Zispin SolTab 15mg orodispersible tablets (Necessity Supplies Ltd)
+^ESCTZI1008543	Zispin SolTab 15mg orodispersible tablets (Necessity Supplies Ltd) 30 tablet
+^ESCTZI1008544	Zispin SolTab 30mg orodispersible tablets (Necessity Supplies Ltd)
+^ESCTZI1008545	Zispin SolTab 30mg orodispersible tablets (Necessity Supplies Ltd) 30 tablet
+^ESCTZI1008546	Zispin SolTab 45mg orodispersible tablets (Necessity Supplies Ltd)
+^ESCTZI1008548	Zispin SolTab 45mg orodispersible tablets (Necessity Supplies Ltd) 30 tablet
+^ESCTZI878452	Zispin 30mg tablets (Waymade Healthcare Plc)
+^ESCTZI878453	Zispin 30mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTZI879528	Zispin 30mg tablets (Dowelhurst Ltd)
+^ESCTZI879531	Zispin 30mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTZI917402	Zispin
+^ESCTZI917404	Zispin SolTab
+^ESCTZI929712	Zispin SolTab 15mg orodispersible tablets (Waymade Healthcare Plc)
+^ESCTZI929714	Zispin SolTab 15mg orodispersible tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTZI934929	Zispin SolTab 30mg orodispersible tablets (Waymade Healthcare Plc)
+^ESCTZI934930	Zispin SolTab 30mg orodispersible tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTZI934931	Zispin SolTab 45mg orodispersible tablets (Waymade Healthcare Plc)
+^ESCTZI934932	Zispin SolTab 45mg orodispersible tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTZI960323	Zispin SolTab 15mg orodispersible tablets (Dowelhurst Ltd)
+^ESCTZI960325	Zispin SolTab 15mg orodispersible tablets (Dowelhurst Ltd) 30 tablet
+^ESCTZI960335	Zispin SolTab 30mg orodispersible tablets (Dowelhurst Ltd)
+^ESCTZI960336	Zispin SolTab 30mg orodispersible tablets (Dowelhurst Ltd) 30 tablet
+^ESCTZI960342	Zispin SolTab 45mg orodispersible tablets (Dowelhurst Ltd)
+^ESCTZI960346	Zispin SolTab 45mg orodispersible tablets (Dowelhurst Ltd) 30 tablet
+^ESCTZI967766	Zispin SolTab 15mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTZI967767	Zispin SolTab 15mg orodispersible tablets (DE Pharmaceuticals) 30 tablet
+^ESCTZI967770	Zispin SolTab 30mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTZI967772	Zispin SolTab 30mg orodispersible tablets (DE Pharmaceuticals) 30 tablet
+^ESCTZI967774	Zispin SolTab 45mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTZI967775	Zispin SolTab 45mg orodispersible tablets (DE Pharmaceuticals) 30 tablet
+^ESCTZI975339	Zispin SolTab 15mg orodispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTZI975340	Zispin SolTab 15mg orodispersible tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTZI992047	Zispin SolTab 15mg orodispersible tablets (Lexon (UK) Ltd)
+^ESCTZI992048	Zispin SolTab 15mg orodispersible tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTZI992049	Zispin SolTab 30mg orodispersible tablets (Lexon (UK) Ltd)
+^ESCTZI992050	Zispin SolTab 30mg orodispersible tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTZI992051	Zispin SolTab 45mg orodispersible tablets (Lexon (UK) Ltd)
+^ESCTZI992052	Zispin SolTab 45mg orodispersible tablets (Lexon (UK) Ltd) 30 tablet
+ZIOR16206NEMIS	Zispin  Orodispersible tablets  30 mg

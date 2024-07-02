@@ -1,0 +1,204 @@
+^ESCT1181079	Product containing only promazine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181080	Product containing only promazine hydrochloride 50 mg/1 each oral tablet
+^ESCT1204629	Promazine hydrochloride 50mg/5mL conventional release oral syrup
+^ESCT1208750	Promazine hydrochloride 5 mg/mL oral solution
+^ESCT1208751	Product containing precisely promazine hydrochloride 5 milligram/1 milliliter conventional release oral solution
+^ESCT1208752	Promazine hydrochloride 10 mg/mL oral solution
+^ESCT1208753	Product containing precisely promazine hydrochloride 10 milligram/1 milliliter conventional release oral solution
+^ESCT1212355	Promazine 50mg/5ml oral solution
+^ESCT1214962	Promazine 25mg/5ml oral solution
+^ESCT1218337	Promazine
+^ESCT1218338	Promazine product
+^ESCT1223428	Product containing precisely promazine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223429	Product containing precisely promazine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1356516	Promazine only product
+^ESCT1359681	Promazine only product in oral dose form
+^ESCT1359682	Promazine only product in parenteral dose form
+^ESCT1364159	Promazine 2.5 mg/mL oral solution
+^ESCT1364160	Promazine 10 mg/mL oral solution
+^ESCT1374391	Promazine 50mg/5ml oral solution
+^ESCT1382058	Promazine-containing product in oral dose form
+^ESCT1382060	Promazine-containing product in parenteral dose form
+^ESCT1403500	Promazine 25mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1403501	Promazine 25mg/5ml oral solution (Medihealth (Northern) Ltd) 150 ml
+^ESCT1403502	Promazine 50mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1403503	Promazine 50mg/5ml oral solution (Medihealth (Northern) Ltd) 150 ml
+^ESCT1425627	Promazine 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425699	Promazine 50mg/5ml oral solution (Kent Pharma (UK) Ltd)
+^ESCT1425726	Promazine 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426383	Promazine 25mg tablets (Kent Pharma (UK) Ltd) 250 tablet
+^ESCT1426384	Promazine 50mg tablets (Kent Pharma (UK) Ltd) 250 tablet
+^ESCT1426449	Promazine 50mg/5ml oral solution (Kent Pharma (UK) Ltd) 150 ml
+^ESCT1427103	Promazine 50mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1429455	Promazine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429456	Promazine 25mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1429460	Promazine 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429461	Promazine 50mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCTPR1042118	Promazine 25mg/5ml oral solution (Waymade Healthcare Plc)
+^ESCTPR1042119	Promazine 25mg/5ml oral solution (Waymade Healthcare Plc) 150 ml
+^ESCTPR1042121	Promazine 50mg/5ml oral solution (Waymade Healthcare Plc)
+^ESCTPR1042122	Promazine 50mg/5ml oral solution (Waymade Healthcare Plc) 150 ml
+^ESCTPR1044897	Promazine 25mg tablets 50 tablet
+^ESCTPR1044898	Prazine 25mg tablets (Imported (Croatia))
+^ESCTPR1044899	Prazine 25mg tablets (Imported (Croatia)) 50 tablet 5 x 10 tablets
+^ESCTPR1050611	Promazine 50mg tablets (DE Pharmaceuticals)
+^ESCTPR1050612	Promazine 50mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTPR1063289	Promazine 25mg tablets (DE Pharmaceuticals)
+^ESCTPR1063290	Promazine 25mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTPR1067554	Promazine 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1067555	Promazine 25mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTPR1067556	Promazine 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1067557	Promazine 50mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTPR1079959	Promazine 25mg tablets (Icarus Pharmaceuticals Ltd)
+^ESCTPR1079962	Promazine 25mg tablets (Icarus Pharmaceuticals Ltd) 100 tablet
+^ESCTPR1101141	Promazine 25mg tablets (J M McGill Ltd)
+^ESCTPR1101143	Promazine 25mg tablets (J M McGill Ltd) 100 tablet
+^ESCTPR1101144	Promazine 50mg tablets (J M McGill Ltd)
+^ESCTPR1101145	Promazine 50mg tablets (J M McGill Ltd) 100 tablet
+^ESCTPR1101611	Promazine 25mg tablets (Pharma-z Ltd)
+^ESCTPR1101612	Promazine 25mg tablets (Pharma-z Ltd) 100 tablet
+^ESCTPR1101623	Promazine 50mg tablets (Pharma-z Ltd)
+^ESCTPR1101624	Promazine 50mg tablets (Pharma-z Ltd) 100 tablet
+^ESCTPR1102867	Promazine 25mg tablets (Colorama Pharmaceuticals Ltd)
+^ESCTPR1102869	Promazine 25mg tablets (Colorama Pharmaceuticals Ltd) 100 tablet
+^ESCTPR1102871	Promazine 50mg tablets (Colorama Pharmaceuticals Ltd)
+^ESCTPR1102872	Promazine 50mg tablets (Colorama Pharmaceuticals Ltd) 100 tablet
+^ESCTPR1109025	Promazine 25mg tablets (Niche Pharma Ltd)
+^ESCTPR1109026	Promazine 25mg tablets (Niche Pharma Ltd) 100 tablet
+^ESCTPR1109027	Promazine 50mg tablets (Niche Pharma Ltd)
+^ESCTPR1109028	Promazine 50mg tablets (Niche Pharma Ltd) 100 tablet
+^ESCTPR1111851	Promazine 25mg tablets (Ennogen Healthcare Ltd)
+^ESCTPR1111852	Promazine 25mg tablets (Ennogen Healthcare Ltd) 100 tablet
+^ESCTPR1119612	Promazine 25mg/5ml oral solution (DE Pharmaceuticals)
+^ESCTPR1119613	Promazine 25mg/5ml oral solution (DE Pharmaceuticals) 150 ml
+^ESCTPR1119614	Promazine 50mg/5ml oral solution (DE Pharmaceuticals)
+^ESCTPR1119615	Promazine 50mg/5ml oral solution (DE Pharmaceuticals) 150 ml
+^ESCTPR1130729	Promazine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTPR1130730	Promazine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTPR1137849	Promazine 25mg/5ml oral solution (Ennogen Healthcare Ltd)
+^ESCTPR1137850	Promazine 25mg/5ml oral solution (Ennogen Healthcare Ltd) 150 ml
+^ESCTPR1137852	Promazine 50mg tablets (Ennogen Healthcare Ltd)
+^ESCTPR1137853	Promazine 50mg tablets (Ennogen Healthcare Ltd) 100 tablet
+^ESCTPR322010	Promazine
+^ESCTPR322011	Product containing promazine
+^ESCTPR609325	Promazine 25mg tablets
+^ESCTPR609326	Product containing promazine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609327	Promazine hydrochloride 25 mg oral tablet
+^ESCTPR609328	Promazine 50mg tablets
+^ESCTPR609329	Product containing promazine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR609330	Promazine hydrochloride 50 mg oral tablet
+^ESCTPR609331	Promazine 12.5mg/5mL syrup
+^ESCTPR609332	Promazine 25mg/5ml oral solution
+^ESCTPR609333	Promazine hydrochloride 25mg/5mL syrup
+^ESCTPR609334	Promazine 50mg/5ml oral solution
+^ESCTPR609335	Promazine hydrochloride 50mg/5mL syrup
+^ESCTPR619668	Promazine hydrochloride 50mg/5mL s/f syrup
+^ESCTPR645741	Promazine in oral dosage form
+^ESCTPR645742	Product containing promazine in oral dosage form
+^ESCTPR645745	Promazine in parenteral dosage form
+^ESCTPR645746	Product containing promazine in parenteral dosage form
+^ESCTPR663742	Promazine hydrochloride 50mg/mL injection solution 10mL vial
+^ESCTPR663849	Promazine hydrochloride 50mg/mL injection solution 2mL vial
+^ESCTPR798567	Promazine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR802187	Promazine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR802442	Promazine 50mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+^ESCTPR809023	Promazine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR810854	Promazine 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR818620	Promazine 50mg/5ml oral solution (Kent Pharmaceuticals Ltd)
+^ESCTPR819864	Promazine 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR819964	Promazine 50mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTPR820144	Promazine 25mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTPR820879	Promazine 25mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+^ESCTPR823855	Promazine 25mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR829699	Promazine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR830634	Promazine 50mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR834854	Promazine 50mg/5ml oral solution 150 ml
+^ESCTPR839299	Promazine 25mg/5ml oral solution 150 ml
+^ESCTPR847405	Promazine 50mg tablets 250 tablet
+^ESCTPR848152	Promazine 25mg tablets 250 tablet
+^ESCTPR855429	Promazine 25mg tablets (A A H Pharmaceuticals Ltd) 250 tablet
+^ESCTPR855431	Promazine 25mg tablets (Kent Pharmaceuticals Ltd) 250 tablet
+^ESCTPR855432	Promazine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCTPR855434	Promazine 50mg tablets (A A H Pharmaceuticals Ltd) 250 tablet
+^ESCTPR855435	Promazine 50mg tablets (Kent Pharmaceuticals Ltd) 250 tablet
+^ESCTPR855437	Promazine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCTPR855438	Promazine 25mg/5ml oral solution (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTPR855439	Promazine 25mg/5ml syrup (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTPR855440	Promazine 25mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTPR856170	Promazine 50mg/5ml oral solution (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTPR856172	Promazine 50mg/5ml oral solution (Kent Pharmaceuticals Ltd) 150 ml
+^ESCTPR856176	Promazine 50mg/5ml syrup (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTPR856179	Promazine 50mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTPR868036	Promazine 25mg tablets (Teva UK Ltd)
+^ESCTPR868038	Promazine 25mg tablets (Teva UK Ltd) 250 tablet
+^ESCTPR868039	Promazine 50mg tablets (Teva UK Ltd)
+^ESCTPR868040	Promazine 50mg tablets (Teva UK Ltd) 250 tablet
+^ESCTPR908279	Promazine 10mg/5ml oral solution 1 ml
+^ESCTPR908280	Promazine 10mg/5ml oral solution (Special Order)
+^ESCTPR908281	Promazine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR908283	Promazine 10mg/5ml oral suspension 1 ml
+^ESCTPR908285	Promazine 10mg/5ml oral suspension (Special Order)
+^ESCTPR908286	Promazine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR908493	Promazine 10mg/5ml oral solution
+^ESCTPR908494	Promazine 10mg/5ml oral suspension
+^ESCTPR927677	Promazine 25mg tablets 100 tablet
+^ESCTPR927678	Promazine 25mg tablets (Teva UK Ltd) 100 tablet
+^ESCTPR927679	Promazine 50mg tablets 100 tablet
+^ESCTPR927680	Promazine 50mg tablets (Teva UK Ltd) 100 tablet
+^ESCTPR928397	Promazine 25mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTPR928398	Promazine 50mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTPR934021	Promazine 50mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTPR959551	Promazine 12.5mg/5ml oral suspension 1 ml
+^ESCTPR959552	Promazine 12.5mg/5ml oral suspension (Special Order)
+^ESCTPR959553	Promazine 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR959554	Promazine 12.5mg/5ml oral solution 1 ml
+^ESCTPR959555	Promazine 12.5mg/5ml oral solution (Special Order)
+^ESCTPR959556	Promazine 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR959557	Promazine 25mg/5ml oral suspension 1 ml
+^ESCTPR959558	Promazine 25mg/5ml oral suspension (Special Order)
+^ESCTPR959559	Promazine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR959560	Promazine 50mg/5ml oral suspension 1 ml
+^ESCTPR959561	Promazine 50mg/5ml oral suspension (Special Order)
+^ESCTPR959562	Promazine 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR959563	Promazine 6.25mg/5ml oral suspension 1 ml
+^ESCTPR959564	Promazine 6.25mg/5ml oral suspension (Special Order)
+^ESCTPR959565	Promazine 6.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR959566	Promazine 6.25mg/5ml oral solution 1 ml
+^ESCTPR959567	Promazine 6.25mg/5ml oral solution (Special Order)
+^ESCTPR959568	Promazine 6.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR959632	Promazine 12.5mg/5ml oral solution
+^ESCTPR959633	Promazine 12.5mg/5ml oral suspension
+^ESCTPR959634	Promazine 25mg/5ml oral suspension
+^ESCTPR959637	Promazine 50mg/5ml oral suspension
+^ESCTPR959638	Promazine 6.25mg/5ml oral solution
+^ESCTPR959639	Promazine 6.25mg/5ml oral suspension
+^ESCTPR960612	Promazine 25mg/5ml oral solution (Dowelhurst Ltd)
+^ESCTPR960613	Promazine 25mg/5ml oral solution (Dowelhurst Ltd) 150 ml
+^ESCTPR960614	Promazine 50mg/5ml oral solution (Dowelhurst Ltd)
+^ESCTPR960615	Promazine 50mg/5ml oral solution (Dowelhurst Ltd) 150 ml
+^ESCTPR979134	Promazine 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR979135	Promazine 25mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+PRIN2374	Promazine Hydrochloride  Injection  50 mg/ml
+PROR11626NEMIS	Promazine Hydrochloride  Oral solution  50 mg/5 ml
+PROR37796MGEMIS	Promazine Hydrochloride  Oral solution  50 mg/5 ml (Rosemont Pharm)
+PROR37797MGEMIS	Promazine Hydrochloride  Oral solution  50 mg/5 ml (Kent Pharm)
+PROR37798MGEMIS	Promazine Hydrochloride  Oral solution  50 mg/5 ml (A.A.H. Pharm)
+PROR37799MGEMIS	Promazine Hydrochloride  Oral solution  50 mg/5 ml (Unichem)
+PRSU2375	Promazine Hydrochloride  Suspension  50 mg/5 ml
+PRSY12797NEMIS	Promazine Hydrochloride  Syrup  50 mg/5 ml
+PRSY29334EMIS	Promazine Hydrochloride  Oral solution  25 mg/5 ml
+PRSY36637MGEMIS	Promazine Hydrochloride  Syrup  25 mg/5 ml (A.A.H. Pharm)
+PRSY36638MGEMIS	Promazine Hydrochloride  Syrup  25 mg/5 ml (Rosemont Pharm)
+PRSY36639MGEMIS	Promazine Hydrochloride  Syrup  25 mg/5 ml (Unichem)
+PRTA2377	Promazine Hydrochloride  Tablets  25 mg
+PRTA2378	Promazine Hydrochloride  Tablets  50 mg
+PRTA36710MGEMIS	Promazine Hydrochloride  Tablets  25 mg (A.A.H. Pharm)
+PRTA36711MGEMIS	Promazine Hydrochloride  Tablets  25 mg (Unichem)
+PRTA36712MGEMIS	Promazine Hydrochloride  Tablets  25 mg (Kent Pharm)
+PRTA36713MGEMIS	Promazine Hydrochloride  Tablets  25 mg (Teva UK)
+PRTA36714MGEMIS	Promazine Hydrochloride  Tablets  50 mg (A.A.H. Pharm)
+PRTA36715MGEMIS	Promazine Hydrochloride  Tablets  50 mg (Kent Pharm)
+PRTA36716MGEMIS	Promazine Hydrochloride  Tablets  50 mg (Unichem)
+PRTA36717MGEMIS	Promazine Hydrochloride  Tablets  50 mg (Teva UK)
+SPIN2652	Sparine  Injection  50 mg/ml
+SPSU2653	Sparine  Suspension  50 mg/5 ml

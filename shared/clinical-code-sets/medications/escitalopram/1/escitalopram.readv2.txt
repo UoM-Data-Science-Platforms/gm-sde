@@ -1,10 +1,11 @@
-daC1.	ESCITALOPRAM 10mg tablets
-daC2.	CIPRALEX 10mg tablets
-daC3.	ESCITALOPRAM 20mg tablets
-daC4.	CIPRALEX 20mg tablets
-daC5.	ESCITALOPRAM 5mg tablets
-daC6.	CIPRALEX 5mg tablets
-daC7.	ESCITALOPRAM 10mg/mL oral drops
-daC8.	*CIPRALEX 10mg/mL oral drops
-daC9.	CIPRALEX 20mg/mL oral drops
-daCA.	ESCITALOPRAM 20mg/mL oral drops
+daC..00	ESCITALOPRAM
+daC1.00	ESCITALOPRAM 10mg tablets
+daC2.00	CIPRALEX 10mg tablets
+daC3.00	ESCITALOPRAM 20mg tablets
+daC4.00	CIPRALEX 20mg tablets
+daC5.00	ESCITALOPRAM 5mg tablets
+daC6.00	CIPRALEX 5mg tablets
+daC7.00	ESCITALOPRAM 10mg/mL oral drops
+daC8.00	*CIPRALEX 10mg/mL oral drops
+daC9.00	CIPRALEX 20mg/mL oral drops
+daCA.00	ESCITALOPRAM 20mg/mL oral drops
