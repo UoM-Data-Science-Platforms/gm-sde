@@ -11,14 +11,6 @@
 -- AdmissionDate (DD-MM-YYYY)
 -- DischargeDate (DD-MM-YYYY)
 
---Just want the output, not the messages
-SET NOCOUNT ON;
-
--- Set the start date
-DECLARE @StartDate datetime;
-DECLARE @EndDate datetime;
-SET @StartDate = '2006-01-01';
-SET @EndDate = '2023-10-31';
 
 --> EXECUTE query-build-lh003-cohort.sql
 
@@ -43,3 +35,18 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	)
 AND EventDate BETWEEN @StartDate AND @EndDate
 
+SELECT 
+	"FK_Patient_ID" AS PatientID,
+	CASE
+		WHEN "Field_ID" = 'DEMCPRVW_COD' THEN 'Dementia care plan review'
+		WHEN "Field_ID" = 'DEMCPRVWDEC_COD' THEN 'Patient chose not to have dementia care plan review'
+		WHEN "Field_ID" = 'MEDRVW_COD' THEN 'Medication review'
+		WHEN "Field_ID" = 'STRUCTMEDRVW_COD' THEN 'Structured medication review'
+		WHEN "Field_ID" = 'STRMEDRWVDEC_COD' THEN 'Structured medication review declined'
+		WHEN "Field_ID" = 'DEMMEDRVW_COD' THEN 'Dementia medication review'
+		WHEN "Field_ID" = 'MEDRVWDEC_COD' THEN 'Patient chose not to have a medication review'
+		WHEN "Field_ID" = 'SOCPRESREF_COD' THEN 'Referral to social prescribing'
+	END AS OutcomeName,
+	"EventDate" AS OutcomeDate
+FROM INTERMEDIATE.GP_RECORD."EventsClusters"
+WHERE "Field_ID" IN ('DEMCPRVW_COD','DEMCPRVWDEC_COD','MEDRVW_COD','STRUCTMEDRVW_COD','STRMEDRWVDEC_COD','DEMMEDRVW_COD','MEDRVWDEC_COD','SOCPRESREF_COD')

@@ -27,6 +27,16 @@ SET @EndDate = '2023-10-31';
 --> CODESET antipsychotics:1 
 -- acetylcholinesterase-inhibitors:1 anticholinergic-medications:1 drowsy-medications:3
 
+SELECT "FK_Patient_ID", "MedicationDate", "Field_ID"
+FROM INTERMEDIATE.GP_RECORD."MedicationsClusters"
+WHERE "Field_ID" IN ('ANTIPSYDRUG_COD','BENZODRUG_COD')
+LIMIT 100
+
+
+-- antipsychotics, anti-dementia meds, anticholinergics, benzodiazepines, z-drugs and sedating antihistamines.
+--ANTIPSYDRUG_COD
+--BENZODRUG_COD (includes z-drugs)
+
 -- DEMENTIA PATIENTS WITH RX OF CERTAIN MEDS SINCE 31.07.19
 
 IF OBJECT_ID('tempdb..#medications') IS NOT NULL DROP TABLE #medications;
