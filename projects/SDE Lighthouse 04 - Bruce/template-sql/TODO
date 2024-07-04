@@ -1,0 +1,15 @@
+# General
+
+- Send SLE code set to double check
+
+
+# 1.patients
+
+- Asked for quartile, is decile ok for IMD (can then choose decile or quintile)
+
+# medications
+
+- would format of PatientId, Date, MedicationCategory, Medication, Dose work instead?
+- means you could quickly work out y/n in last 3 months or before last 3 months
+- could also calculate "dose" in different ways?
+- would allow the different statins, acei etc to be represented better

@@ -3,8 +3,12 @@
 --└────────────────────────────────────┘
 
 -- OUTPUT: Data with the following fields
--- 	- PatientId (int)
+--	PatientId, Sex, YearOfBirth, Ethnicity, IMDQuartile, SmokerEver, SmokerCurrent,
+--	BMI, AlcoholIntake, DateOfSLEdiagnosis, DateOfLupusNephritisDiagnosis, CKDStage,
+--	EgfrResult, EgfrDate, CreatinineResult, CreatinineDate, LDLCholesterol
+--	LDLCholesterolDate, HDLCholesterol, HDLCholesterolDate, Triglycerides, TrigylceridesDate
 -- 
+--	All values need most recent value
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -23,6 +27,30 @@ SET @IndexDate = '2023-10-31';
 -- smoking, alcohol are based on most recent codes available
 
 --> EXECUTE query-build-lh004-cohort.sql
+
+
+
+
+SELECT 
+	"GmPseudo" AS "PatientID",
+	"Sex",
+	YEAR("DateOfBirth") AS "YearOfBirth",
+	"EthnicityLatest" AS "Ethnicity",
+	"EthnicityLatest_Category" AS "EthnicityCategory",
+	"IMD_Decile" AS "IMD2019Decile1IsMostDeprived10IsLeastDeprived",
+	"SmokingStatus",
+	"SmokingConsumption",
+	"BMI",
+	"BMI_Date" AS "BMIDate",
+	"AlcoholStatus",
+	"AlcoholConsumption",
+TODO DateOfSLEdiagnosis, DateOfLupusNephritisDiagnosis, CKDStage,
+	EgfrResult, EgfrDate, CreatinineResult, CreatinineDate, LDLCholesterol
+	LDLCholesterolDate, HDLCholesterol, HDLCholesterolDate, Triglycerides, TrigylceridesDate
+FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses"
+WHERE "GmPseudo" IN (1763539,2926922,182597,1244665,3134799,1544463,5678816,169030,7015182,7089792)
+QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1 -- this brings back the values from the most recent snapshot
+
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-lsoa.sql
 --> EXECUTE query-patient-imd.sql
