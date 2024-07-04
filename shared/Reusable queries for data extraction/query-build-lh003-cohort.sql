@@ -13,42 +13,15 @@
 -- OUTPUT: Temp tables as follows:
 -- #Cohort
 
---> EXECUTE query-get-possible-patients.sql
---> EXECUTE query-patient-year-of-birth.sql
+TODO need to know schema where we can write this to
 
---> CODESET dementia:1 
+types are:
 
--- table of dementia coding events
+GmPseudo NUMBER(38,0)
+FirstDementiaDate DATE
 
-IF OBJECT_ID('tempdb..#DementiaCodes') IS NOT NULL DROP TABLE #DementiaCodes;
-SELECT FK_Patient_Link_ID AS PatientId, EventDate, COUNT(*) AS NumberOfDementiaCodes
-INTO #DementiaCodes
-FROM SharedCare.GP_Events
-WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'dementia' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'dementia' AND Version = 1)
-)
-AND EventDate >= '2006-01-01' -- when dementia was added to QOF
-GROUP BY FK_Patient_Link_ID, EventDate
-
--- create cohort of patients with a dementia diagnosis in the study period
-
-IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
-SELECT
-	 p.FK_Patient_Link_ID
-	,yob.YearOfBirth
-	,p.EthnicGroupDescription 
-	,p.DeathDate
-INTO #Cohort
-FROM #Patients p
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE p.FK_Patient_Link_ID IN 
-	(SELECT DISTINCT PatientId
-	 FROM #DementiaCodes
-	 WHERE NumberOfDementiaCodes >= 1)
-AND YEAR(@StartDate) - YearOfBirth > 18
-
-
----------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------
+SELECT "GmPseudo", MIN("Dementia_DiagnosisDate") AS FirstDementiaDate
+FROM PRESENTATION.GP_RECORD."LongTermConditionRegister_SecondaryUses"
+WHERE "Dementia_DiagnosisDate" IS NOT NULL
+AND "Age" >= 18
+GROUP BY "GmPseudo"
