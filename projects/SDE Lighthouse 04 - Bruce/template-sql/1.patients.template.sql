@@ -10,25 +10,25 @@
 -- 
 --	All values need most recent value
 
---Just want the output, not the messages
-SET NOCOUNT ON;
-
-DECLARE @StartDate datetime;
-DECLARE @EndDate datetime;
-SET @StartDate = '2020-01-01'; 
-SET @EndDate = '2023-10-31';
-
--- Set dates for BMI and blood tests
-DECLARE @MinDate datetime;
-SET @MinDate = '1900-01-01';
-DECLARE @IndexDate datetime;
-SET @IndexDate = '2023-10-31';
-
 -- smoking, alcohol are based on most recent codes available
 
 --> EXECUTE query-build-lh004-cohort.sql
 
+-- Get eGFRs
+SELECT DISTINCT "GmPseudo", 
+    last_value("eGFR") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "eGFRValue", 
+    last_value("EventDate") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "eGFRDate"
+FROM INTERMEDIATE.GP_RECORD."Readings_eGFR"
+WHERE "GmPseudo" IN (1763539,2926922,182597,1244665,3134799,1544463,5678816,169030,7015182,7089792)
+GROUP BY "GmPseudo";
 
+-- Get creatinine
+SELECT DISTINCT "GmPseudo", 
+    last_value("SerumCreatinine") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "SerumCreatinineValue", 
+    last_value("EventDate") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "SerumCreatinineDate"
+FROM INTERMEDIATE.GP_RECORD."Readings_SerumCreatinine"
+WHERE "GmPseudo" IN (1763539,2926922,182597,1244665,3134799,1544463,5678816,169030,7015182,7089792)
+GROUP BY "GmPseudo";
 
 
 SELECT 
@@ -51,33 +51,6 @@ FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses"
 WHERE "GmPseudo" IN (1763539,2926922,182597,1244665,3134799,1544463,5678816,169030,7015182,7089792)
 QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1 -- this brings back the values from the most recent snapshot
 
---> EXECUTE query-patient-sex.sql
---> EXECUTE query-patient-lsoa.sql
---> EXECUTE query-patient-imd.sql
-
--- CREATE COPY OF GP EVENTS TABLE, FILTERED TO COHORT FOR THIS STUDY
-
-IF OBJECT_ID('tempdb..#GPEvents') IS NOT NULL DROP TABLE #GPEvents;
-SELECT FK_Patient_Link_ID, EventDate, 
-		FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, SuppliedCode,
-		[Value],[Units]
-INTO #GPEvents
-FROM SharedCare.GP_Events gp
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-
---> EXECUTE query-patient-bmi.sql gp-events-table:#GPEvents
---> EXECUTE query-patient-alcohol-intake.sql gp-events-table:#GPEvents
---> EXECUTE query-patient-smoking-status.sql gp-events-table:#GPEvents
---> CODESET chronic-kidney-disease:1 ckd-stage-1:1 ckd-stage-2:1 ckd-stage-3:1 ckd-stage-4:1 ckd-stage-5:1
---> CODESET creatinine:1 egfr:1
-
----------- GET DATE OF FIRST SLE DIAGNOSIS --------------
-IF OBJECT_ID('tempdb..#SLEFirstDiagnosis') IS NOT NULL DROP TABLE #SLEFirstDiagnosis;
-SELECT FK_Patient_Link_ID, 
-	   SLEFirstDiagnosisDate = MIN(CONVERT(DATE,EventDate))
-INTO #SLEFirstDiagnosis
-FROM #SLECodes
-GROUP BY FK_Patient_Link_ID
 
 ---------- GET CKD STAGE FOR EACH PATIENT ---------------
 
