@@ -1,0 +1,21 @@
+ej2..	Chloroquine [anti-malarial]
+ej26.	Chloroquine phosphate 250mg tablet
+ej21.	Avloclor 250mg tablet
+ej2w.	Chloroquine phosphate 80mg/5mL syrup
+ej22.	Malarivon 80mg/5mL syrup
+ej2x.	Chloroquine 200mg tablet
+ej2y.	Chloroquine 68mg/5mL syrup
+ej2z.	Chloroquine 200mg/5mL injection
+ej25.	Nivaquine 200mg/5mL injection
+ejC..	Proguanil hydrochloride+chloroquine phosphate
+ejC1.	Proguanil hydrochloride tablet+chloroquine phosphate tablet 100mg/250mg pack
+ejC2.	Paludrine tablet+Avloclor tablet 100mg/250mg anti-malarial travel pack
+j53..	Chloroquine [musculo-skeletal]
+x02I5	Chloroquine sulphate 200mg tablet
+ej23.	Nivaquine 200mg tablet
+x02I6	Chloroquine sulphate 68mg/5mL syrup
+ej24.	Nivaquine 68mg/5mL syrup
+x02M2	Chloroquine
+x02kz	Nivaquine
+x02Uo	Avloclor
+x04p3	Malarivon
