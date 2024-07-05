@@ -4,6 +4,8 @@ Codes from: https://www.opencodelists.org/codelist/opensafely/systemic-lupus-ery
 
 Includes codes for other diagnoses that are "due to" or "caused by" SLE.
 
+Does not include lupus limited to the skin e.g. chronic cutaneous lupus erythematosus (aka discoid lupus erythematosus), subacute cutaneous lupus erythematosus, chilblain lupus, tumid lupus.
+
 ## Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
