@@ -20,6 +20,25 @@ SET @EndDate = '2023-10-31'; -- CHECK
 
 --> CODESET infections:1
 
+infection categories:
+
+pneumonia
+Viral URTI
+other
+bacterial URTI
+UTI
+Genital
+Cellulitis
+Diverticulitis
+Neuro
+Puerperal
+Hepatobiliary
+Gastrointestinal
+Cardiovascular
+Pyelonephritis
+Peritonitis
+Bone
+Muscle
 
 -- WE NEED TO PROVIDE INFECTION DESCRIPTION, BUT SOME CODES APPEAR MULTIPLE TIMES IN THE VERSIONEDCODESET TABLES WITH DIFFERENT DESCRIPTIONS
 -- THEREFORE, TAKE THE FIRST DESCRIPTION BY USING ROW_NUMBER

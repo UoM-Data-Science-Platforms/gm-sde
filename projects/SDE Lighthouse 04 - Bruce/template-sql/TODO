@@ -2,14 +2,80 @@
 
 - Send SLE code set to double check
 
-
 # 1.patients
 
 - Asked for quartile, is decile ok for IMD (can then choose decile or quintile)
 
-# medications
+# medications (files 2 - 4)
 
 - would format of PatientId, Date, MedicationCategory, Medication, Dose work instead?
 - means you could quickly work out y/n in last 3 months or before last 3 months
 - could also calculate "dose" in different ways?
 - would allow the different statins, acei etc to be represented better
+
+# comorbidities
+
+- requested in long format
+- would wide be ok? it's in that currently happy to transform but no point if you will transform back
+- viral hepatitis (A, B, C and D) - combined or separate?
+
+# infections / vaccines
+
+PneumococcalVaccination (ever recorded y/n)
+PneumoVacDate
+InfluenzaVaccination (in past 12 months y/n)
+FluVacDate
+COVIDVaccination (in past 12 months y/n)
+COVIDVacDate
+ShinglesVaccination
+ShinglesVacDate
+BCGVaccination
+BCGVacDate
+HPVVaccination
+HPVVacDate
+Infection (from list below)
+InfectionDate (for each recorded infection)
+HospitalAdmissionForInfection (if available)
+HospitalAdmissionDate
+PreviousSmear (ever y/n)
+SmearDates
+SmearResults (for each smear documented)
+
+PNEUVACDRUG_COD Pneumococcal vaccine drug codes
+PCVDRUG_COD Pneumococcal conjugate vaccines
+
+SFLUGPDRUG_COD Seasonal influenza inactivated vaccine codes
+INTGPDRUG_COD Intranasal seasonal influenza vaccine drug codes
+
+HPVVACDRUG_COD HPV vaccine drug codes
+
+# mortality
+
+- cause of death - we can provide the ICD10 code - do you want it mapping to a description?
+
+## Appear under Immunosuppression_Drugs
+
+MycophenolateMofetil (y/n)
+Azathioprine (y/n)
+Tacrolimus (y/n)
+Methotrexate (y/n)
+Ciclosporin (y/n)
+Cyclophosphamide
+Rituximab
+
+## Appear under own name
+
+Prednisolone (y/n)
+
+## Appear with FoundValue
+
+ACEInhibitorOrARB*
+SGLT2Inhibitor*
+AntiplateletDrug*
+Statin*
+Anticoagulant\*
+
+## Use our code sets
+
+HydroxychloroquineOrChloroquine (y/n)
+Belimumab (y/n) - this is a monthly med so for this we want minimum of 2 prescriptions in 3 months
