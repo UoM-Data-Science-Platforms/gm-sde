@@ -9,7 +9,11 @@ async function start() {
 }
 
 if (process.argv.length > 2 && process.argv[2] === 'stitch') {
-  stitch(process.cwd()).then(() => {
+  stitch(process.cwd(), true).then(() => {
+    process.exit();
+  });
+} else if (process.argv.length > 2 && process.argv[2] === 'stitch-gmcr') {
+  stitch(process.cwd(), false).then(() => {
     process.exit();
   });
 } else {

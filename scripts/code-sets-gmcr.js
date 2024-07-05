@@ -471,52 +471,112 @@ ${Object.keys(codeSetLookup)
 async function processFiles(codeSetType, codeSetName, version) {
   const CODE_SET_DIR = join(CODE_SET_PARENT_DIR, codeSetType, codeSetName, version);
 
-  // Find the files
-  const codeSetFiles = readdirSync(CODE_SET_DIR, { withFileTypes: true }) // read all children of the CODE_SET_DIR
-    .filter((item) => item.isFile()) // ..then filter to just files
-    .map((file) => file.name) // ..then return the file name
-    .filter((filename) => isValidCodeSetFile(filename)); // ..then return the valid code set files
+  let codeSetFiles = [];
+  // Check if template file exists
+  const templateJsonFile = join(CODE_SET_DIR, 'template.json');
+  const templateExists = existsSync(templateJsonFile);
+  if (templateExists) {
+    const template = JSON.parse(readFileSync(templateJsonFile, 'utf8'));
+    template['code-sets'].forEach(({ name, version }) => {
+      const SUB_CODE_SET_DIR = join(CODE_SET_PARENT_DIR, codeSetType, name, version);
+      readdirSync(SUB_CODE_SET_DIR, { withFileTypes: true }) // read all children of the SUB_CODE_SET_DIR
+        .filter((item) => item.isFile()) // ..then filter to just files
+        .map((file) => file.name) // ..then return the file name
+        .filter((filename) => isValidCodeSetFile(filename))
+        .forEach((filename) => {
+          codeSetFiles.push({ filename, fullPath: join(SUB_CODE_SET_DIR, filename) });
+        }); // ..then return the valid code set files
+    });
+  } else {
+    // No template so let's just use the txt files in the directory
+    codeSetFiles = readdirSync(CODE_SET_DIR, { withFileTypes: true }) // read all children of the CODE_SET_DIR
+      .filter((item) => item.isFile()) // ..then filter to just files
+      .map((file) => file.name) // ..then return the file name
+      .filter((filename) => isValidCodeSetFile(filename)) // ..then return the valid code set files
+      .map((filename) => ({ filename, fullPath: join(CODE_SET_DIR, filename) }));
+  }
 
   for (const codeSetFile of codeSetFiles) {
-    const codeSetData = readFileSync(join(CODE_SET_DIR, codeSetFile), 'utf8').replace(/\r/g, '');
-    const [, terminology] = codeSetFile.split('.');
+    const codeSetData = readFileSync(codeSetFile.fullPath, 'utf8').replace(/\r/g, '');
+    const [, terminology] = codeSetFile.filename.split('.');
     const codeSet = await parseCodeSet(
       version,
       CODE_SET_DIR,
       codeSetData,
       codeSetName,
-      codeSetFile,
+      codeSetFile.filename,
       terminology
     );
     if (
+      !templateExists &&
       clinicalCodesByTerminology[terminology][codeSetName] &&
       clinicalCodesByTerminology[terminology][codeSetName][version]
     ) {
       throw new Error(`
-Attempting to add a code set ${codeSetName} from the file ${codeSetFile}.
+Attempting to add a code set ${codeSetName} from the file ${codeSetFile.filename}.
 However there appears to already by a code set for ${codeSetName} and ${terminology} with version ${version}.
       `);
     }
     if (!clinicalCodesByTerminology[terminology][codeSetName]) {
       clinicalCodesByTerminology[terminology][codeSetName] = {};
     }
-    clinicalCodesByTerminology[terminology][codeSetName][version] = codeSet;
+    if (templateExists) {
+      if (!clinicalCodesByTerminology[terminology][codeSetName][version]) {
+        clinicalCodesByTerminology[terminology][codeSetName][version] = codeSet;
+      } else {
+        clinicalCodesByTerminology[terminology][codeSetName][version] = clinicalCodesByTerminology[
+          terminology
+        ][codeSetName][version].concat(codeSet);
+      }
+    } else {
+      clinicalCodesByTerminology[terminology][codeSetName][version] = codeSet;
+    }
+
     if (!clinicalCodesByConcept[codeSetName]) {
       clinicalCodesByConcept[codeSetName] = {};
     }
     if (
+      !templateExists &&
       clinicalCodesByConcept[codeSetName][terminology] &&
       clinicalCodesByConcept[codeSetName][terminology][version]
     ) {
       throw new Error(`
-Attempting to add a code set ${codeSetName} from the file ${codeSetFile}.
+Attempting to add a code set ${codeSetName} from the file ${codeSetFile.filename}.
 However there appears to already by a code set for ${codeSetName} and ${terminology} with version ${version}.
       `);
     }
     if (!clinicalCodesByConcept[codeSetName][terminology]) {
       clinicalCodesByConcept[codeSetName][terminology] = {};
     }
-    clinicalCodesByConcept[codeSetName][terminology][version] = codeSet;
+
+    if (templateExists) {
+      if (!clinicalCodesByConcept[codeSetName][terminology][version]) {
+        clinicalCodesByConcept[codeSetName][terminology][version] = codeSet;
+      } else {
+        clinicalCodesByConcept[codeSetName][terminology][version] = clinicalCodesByConcept[
+          codeSetName
+        ][terminology][version].concat(codeSet);
+      }
+    } else {
+      clinicalCodesByConcept[codeSetName][terminology][version] = codeSet;
+    }
+  }
+
+  if (templateExists) {
+    // Need to write the files
+    Object.keys(clinicalCodesByConcept[codeSetName]).forEach((terminology) => {
+      if (clinicalCodesByConcept[codeSetName][terminology][version]) {
+        const fileToWrite = join(CODE_SET_DIR, `${codeSetName}.${terminology}.txt`);
+        writeFileSync(
+          fileToWrite,
+          'AUTOGENERATED\tDONT EDIT\n' +
+            clinicalCodesByConcept[codeSetName][terminology][version]
+              .filter(({ code }) => terminology !== 'readv2' || code.length === 7) // only want the 7 digit read codes
+              .map(({ code, description }) => `${code}\t${description}`)
+              .join('\n')
+        );
+      }
+    });
   }
 }
 
@@ -877,7 +937,9 @@ function isValidCodeSetFile(codeSet) {
  */
 function isValidCodeSetMetadataFile(codeSet) {
   return (
-    codeSet.match(/\.(ctv3|emis|readv2|snomed)\.metadata\.(txt|json)$/) || codeSet === 'README.md'
+    codeSet.match(/\.(ctv3|emis|readv2|snomed)\.metadata\.(txt|json)$/) ||
+    codeSet === 'README.md' ||
+    codeSet === 'template.json'
   );
 }
 
