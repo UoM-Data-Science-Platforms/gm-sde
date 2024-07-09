@@ -1,0 +1,118 @@
+A020.12	Salmonella food poisoning
+A02..00	Other salmonella infections
+A074300	Campylobacter gastrointestinal tract infection
+A082000	Dysenteric diarrhoea
+A020.00	Salmonella gastroenteritis
+A033.00	Shigella sonnei (group D)
+A075.00	Unspecified bacterial enteritis
+A080z00	Infectious colitis, enteritis and gastroenteritis NOS
+A074400	Enteritis due to Yersinia enterocolitica
+A030.11	Bacillary dysentery
+A010.00	Typhoid fever
+A01z.00	Paratyphoid fever NOS
+A070.00	Escherichia coli gastrointestinal tract infection
+A02z.00	Salmonella infection NOS
+A074311	Diarrhoea due to Campylobacter jejuni
+A3Ay200	Clostridium difficile infection
+A074312	Campylobacter enteritis
+A074500	Helicobacter pylori gastrointestinal tract infection
+A020.11	Salmonellosis
+A03..00	Shigellosis
+A031.00	Shigella flexneri (group B)
+J154400	Helicobacter gastritis
+A074313	Helicobacter gastritis
+A00..00	Cholera
+A011.00	Paratyphoid fever A
+A07z.00	Gastrointestinal tract infection specified organism NOS
+A021.00	Salmonella septicaemia
+A042.00	Clostridium perfringens food poisoning
+A030.00	Shigella dysenteriae (group A)
+A033.11	Bacillary dysentery Shigella sonnei
+A03y.00	Other specified shigella infection
+A04y.00	Other specified bacterial food poisoning
+A03z.00	Shigellosis NOS
+A012.00	Paratyphoid fever B
+A3BXJ00	Helicobacter pylori cause diseases classified other chapters
+A270.00	Listeriosis
+A010.11	Enteric fever
+A04..00	Other bacterial food poisoning
+A040.00	Staphylococcal food poisoning
+A080500	Haemorrhagic dysentery
+J431311	Pseudomembranous colitis
+A00..11	Vibrio cholerae
+A073.00	Proteus gastrointestinal tract infection
+A043.00	Other clostridia causing food poisoning
+A074000	Staphylococcal gastrointestinal tract infection
+A0...11	Bacterial food poisoning
+A074.00	Other specified gastrointestinal tract bacterial infection
+A070300	Enterohaemorrhagic Escherichia coli infection
+A070200	Enteroinvasive Escherichia coli infection
+A04y000	Foodborne Bacillus cereus intoxication
+A01..00	Typhoid and paratyphoid fevers
+A270000	Listeria infection
+A270100	Listeria septicaemia
+A072.00	Aerobacter aerogenes gastrointestinal tract infection
+A074011	Diarrhoea due to staphylococcus
+A074100	Pseudomonas gastrointestinal tract infection
+A044.00	Vibrio parahaemolyticus food poisoning
+A070100	Enterotoxigenic Escherichia coli infection
+A022000	Local salmonella infection unspecified
+A074111	Diarrhoea due to Pseudomonas pyocyanea
+A074012	Diarrhoea due to staphylococcal toxin
+A222.00	Gastrointestinal anthrax
+A073z00	Proteus gastrointestinal tract infection NOS
+A000.00	Cholera - Vibrio cholerae
+A071.00	Arizona paracolon gastrointestinal tract infection
+A00z.00	Cholera NOS
+A032.00	Shigella boydii (group C)
+Ayu0300	[X]Salmonella infection, unspecified
+A001.00	Cholera - Vibrio cholerae El Tor
+J521.12	Pseudomembranous colitis
+A073000	Proteus mirabilis gastrointestinal tract infection
+A392100	Actinomycosis of caecum
+Ayu0100	[X]Paratyphoid fever, unspecified
+Ayu0700	[X]Bacterial intestinal infection, unspecified
+A013.00	Paratyphoid fever C
+A022.00	Localised salmonella infection
+A022z00	Other local salmonella infection
+A023.00	Salmonella sepsis
+A02y.00	Other specified salmonella infection
+A070000	Enteropathogenic Escherichia coli infection
+A073100	Proteus morganii gastrointestinal tract infection
+A07y.00	Gastrointestinal tract infection due to specified organism NEC
+A080.00	Infectious colitis, enteritis and gastroenteritis
+A14..00	Tuberculosis of intestines, peritoneum and mesenteric glands
+A14y.00	Other gastrointestinal tract tuberculosis
+A14y000	Tuberculosis of anus
+A14y100	Tuberculosis of large intestine
+A14y400	Tuberculosis of rectum
+A14yz00	Other gastrointestinal tract tuberculosis NOS
+A14z.00	Tuberculosis of gastrointestinal tract NOS
+A178.00	Tuberculosis oesophagus
+A17y300	Tuberculosis of stomach
+A270600	Sepsis due to Listeria monocytogenes
+A270z00	Listeriosis NOS
+A3A2.00	Whipple's disease
+A78A200	Chlamydial infection of anus and rectum
+A987.00	Gonococcal proctitis
+A987000	Gonococcal anal infection
+A987100	Gonococcal rectal infection
+A987z00	Gonococcal proctitis NOS
+A991100	Rectal lymphogranuloma venereum
+Ayu0000	[X]Cholera, unspecified
+Ayu0200	[X]Other specified salmonella infections
+Ayu0400	[X]Other shigellosis
+Ayu0500	[X]Shigellosis, unspecified
+Ayu0600	[X]Other specified bacterial intestinal infections
+Ayu0800	[X]Other specified bacterial food-borne intoxications
+Ayu0900	[X]Bacterial food-borne intoxication, unspecified
+Ayu3400	[X]Other forms of listeriosis
+Ayu3500	[X]Listeriosis, unspecified
+H24y600	Pneumonia with typhoid fever
+J434.00	Pseudomembranous colitis
+J57yP00	Small bowel bacterial overgrowth syndrome
+M005000	Carbuncle of anus
+M015000	Boil of anus
+N014800	Arthropathy in Whipple's disease
+N031200	Arthropathy in Whipple's disease
+

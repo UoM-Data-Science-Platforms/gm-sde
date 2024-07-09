@@ -1,0 +1,135 @@
+A000.	Cholera - Vibrio cholerae
+A001.	Cholera - Vibrio cholerae O1 El Tor biotype
+A00z.	Cholera NOS
+A01..	Typhoid and paratyphoid fevers
+A010.	Fever: [typhoid] or [enteric]
+A011.	Paratyphoid A
+A012.	Paratyphoid B
+A013.	Paratyphoid C
+A01z.	Paratyphoid fever NOS
+A02..	Other salmonella infections
+A021.	Salmonella septicaemia
+A022.	Localised salmonella infection
+A0220	Local salmonella infection unspecified
+A022z	Other local salmonella infection
+A02y.	Other specified salmonella infection
+A02z.	Salmonella infection NOS
+A03..	Shigellosis
+A031.	Shigella flexneri (group B)
+A032.	Shigella boydii (group C)
+A033.	Shigella sonnei: [group D] or [bacillary dysentery]
+A03y.	Other specified shigella infection
+A03z.	Shigellosis NOS
+A04..	Other bacterial food poisoning
+A040.	Staphylococcal food poisoning
+A042.	Clostridium perfringens food poisoning
+A043.	Other Clostridia causing food poisoning
+A044.	Vibrio parahaemolyticus food poisoning
+A04y.	Other specified bacterial food poisoning
+A070.	Escherichia coli gastrointestinal tract infection
+A071.	Arizona paracolon gastrointestinal tract infection
+A072.	Aerobacter aerogenes gastrointestinal tract infection
+A073.	Proteus gastrointestinal tract infection
+A0730	Proteus mirabilis gastrointestinal tract infection
+A0731	Morganella morganii gastrointestinal tract infection
+A073z	Proteus gastrointestinal tract infection NOS
+A074.	Other specified gastrointestinal tract bacterial infection
+A0741	Pseudomonas: [GIT infection] or [pyocyanea diarrhoea]
+A075.	Unspecified bacterial enteritis
+A07y.	Gastrointestinal tract infection due to specified organism NEC
+A07z.	Gastrointestinal tract infection due to specified organism NOS
+A080.	Infectious colitis, enteritis and gastroenteritis
+A0805	Haemorrhagic dysentery
+A080z	Infectious colitis, enteritis and gastroenteritis NOS
+A0820	Dysenteric diarrhoea
+A14..	Tuberculosis of intestines, peritoneum and mesenteric glands
+A14y.	Other gastrointestinal tract tuberculosis
+A14y0	Tuberculosis of anus
+A14y1	Tuberculosis of large intestine
+A14y4	Tuberculosis of rectum
+A14yz	Other gastrointestinal tract tuberculosis NOS
+A14z.	Tuberculosis of gastrointestinal tract NOS
+A178.	Tuberculosis of oesophagus
+A17y3	Tuberculosis of stomach
+A222.	Gastrointestinal anthrax
+A270.	Listeriosis
+A2701	Listeria septicaemia
+A270z	Listeriosis NOS
+A3921	Actinomycosis of caecum
+A3A2.	Whipple's disease
+A3Ay2	Clostridium difficile infection
+A78A2	Chlamydial infection of anus and rectum
+A987.	Gonococcal proctitis
+A9870	Gonococcal anal infection
+A9871	Gonococcal rectal infection
+A987z	Gonococcal proctitis NOS
+Ayu00	[X]Cholera, unspecified
+Ayu01	[X]Paratyphoid fever, unspecified
+Ayu02	[X]Other specified salmonella infections
+Ayu03	[X]Salmonella infection, unspecified
+Ayu04	[X]Other shigellosis
+Ayu05	[X]Shigellosis, unspecified
+Ayu06	[X]Other specified bacterial intestinal infections
+Ayu07	[X]Bacterial intestinal infection, unspecified
+Ayu08	[X]Other specified bacterial food-borne intoxications
+Ayu09	[X]Bacterial food-borne intoxication, unspecified
+Ayu34	[X]Other forms of listeriosis
+Ayu35	[X]Listeriosis, unspecified
+H24y6	Typhoid pneumonia
+M0050	Carbuncle of anus
+M0150	Boil of anus
+N0148	Seronegative arthritis secondary to Whipple's disease
+X001V	Neuro - Whipple's disease
+X300B	Bacterial oesophagitis
+X300M	Bacterial ulcer of oesophagus
+X302J	Tuberculous duodenitis
+X303u	Pseudomembranous colitis
+X30BX	Dysentery
+X709m	Intestinal gas gangrene
+X70Fv	Bacterial food poisoning
+X70Fw	Bacillus cereus food poisoning
+X70Fx	Bacillus licheniformis food poisoning
+X70Fz	Escherichia coli food poisoning
+X70G0	Enterotoxigenic Escherichia coli food poisoning
+X70G1	Verotoxigenic Escherichia coli food poisoning
+X70GJ	Cholera - Vibrio cholerae O1 Classical biotype
+X70GK	Cholera - non-O1 group vibrio
+X70GL	Cholera - O139 group Vibrio cholerae
+X70GM	Paratyphoid fever
+X70GN	Enterotoxigenic Escherichia coli gastrointestinal tract infection
+X70GP	Enteropathogenic Escherichia coli gastrointestinal tract infection
+X70GQ	Verotoxigenic Escherichia coli gastrointestinal tract infection
+X70GR	Enteroinvasive Escherichia coli gastrointestinal tract infection
+X70GS	Enteroadherent Escherichia coli gastrointestinal tract infection
+X70GT	Clostridial enteric disease
+X70GW	Enteritis necroticans
+X70H0	Tuberculosis of gastrointestinal tract
+X70HJ	Gastroenteric plague
+X73Le	Shigella dysenteriae
+X73Lf	Shigella flexneri
+X73Lg	Shigella sonnei
+X73Mv	Vibrio cholerae
+Xa3dy	Specific gastrointestinal infectious disease
+Xa86R	Tuberculosis of colon
+Xa8I7	Salmonella food poisoning
+Xa8IA	Salmonella infection
+Xa97W	Cholera - O1 group Vibrio cholerae
+XaaNJ	Rectal lymphogranuloma venereum
+XaBE5	Helicobacter pylori gastrointestinal tract infection
+XaDc1	Bacterial intestinal infectious disease
+XaDc2	Bacterial dysentery
+XaDcF	Bacterial gastrointestinal infectious disease
+XaDsy	Helicobacter pylori as the cause of diseases classified to other chapters
+XaX6C	Small bowel bacterial overgrowth syndrome
+XaYaf	Sepsis due to Salmonella
+XaYbw	Sepsis due to Listeria monocytogenes
+XE0Qc	Cholera
+XE0Qd	Typhoid fever
+XE0Qf	Shigella dysenteriae (group A)
+XE0Qg	Shigella sonnei (group D)
+XE0Qj	Staphylococcal gastrointestinal tract infection
+XE0Qk	Pseudomonas gastrointestinal tract infection
+XE0Ql	Campylobacter gastrointestinal tract infection
+XE0Qz	Ileocaecal actinomycosis
+XM0pJ	Bacterial gastroenteritis
+XM0pK	Bacillary dysentery
