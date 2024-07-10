@@ -1,0 +1,65 @@
+J552600	Retroperitoneal abscess
+J200.00	Acute appendicitis with peritonitis
+J55..00	Peritonitis
+J201.12	Appendix abscess
+J552100	Subphrenic abscess
+J552.11	Abscess of suppurative peritonitis
+J552400	Peritoneal abscess
+J552B00	Male pelvic abscess
+J552z00	Other suppurative peritonitis NOS
+J201.00	Acute appendicitis with appendix abscess
+J201.11	Abscess of appendix
+K406000	Acute female pelvic peritonitis
+J550300	Peritonitis - bacterial
+J55z.00	Peritonitis NOS
+J552800	Pericolic abscess
+J553.00	Acute peritonitis
+J55y500	Faecal peritonitis
+K406100	Female pelvic peritonitis unspecified
+A140.00	Tuberculous peritonitis
+J55y300	Peritonitis due to bile
+J550200	Peritonitis - tuberculous
+J552200	Omental abscess
+J55yz00	Other specified peritonitis NOS
+K404500	Female chronic pelvic peritonitis
+A98y500	Gonococcal peritonitis
+J552900	Pericaecal abscess
+J552.00	Other suppurative peritonitis
+J55y.00	Other specified peritonitis
+J55y000	Chronic proliferative peritonitis
+SP05613	[X] Peritoneal dialysis associated peritonitis
+J551.00	Pneumococcal peritonitis
+J550400	Chlamydial peritonitis
+J552A00	Retrocaecal abscess
+L090200	Pelvic peritonitis following abortive pregnancy
+K408.00	Other chronic female pelvic peritonitis
+J552300	Mesenteric abscess
+A32y200	Diphtheritic peritonitis
+J55y400	Peritonitis due to urine
+K406z00	Acute and unspecified female pelvic peritonitis NOS
+K406.00	Acute and unspecified female pelvic peritonitis
+Q46y000	Neonatal peritonitis NOS
+J552500	Subperitoneal abscess
+J550000	Peritonitis - gonococcal
+Jyu6000	[X]Other peritonitis
+J203.00	Acute appendicitis with generalised peritonitis
+J204.00	Acute appendicitis with localised peritonitis
+J550311	Bacterial peritonitis
+J554.00	Spontaneous bacterial peritonitis
+J558.00	Ventriculoperitoneal shunt-associated peritonitis
+J557.00	Streptococcal peritonitis
+A952.00	Syphilitic peritonitis
+J550.00	Peritonitis in infectious diseases EC
+J550100	Peritonitis - syphilitic
+J550z00	Peritonitis in infectious diseases EC NOS
+J555.00	Sclerosing peritonitis
+J556.00	Staphylococcal peritonitis
+J56y300	Peritoneal granuloma
+K410300	Acute perimetritis
+K410800	Subacute perimetritis
+K411300	Chronic perimetritis
+Kyu8700	[X]Female pelvic peritonitis, unspecified
+Qyu7100	[X]Other neonatal peritonitis
+SP06B00	Continuous ambulatory peritoneal dialysis associated peritonitis
+SP27000	Aseptic peritonitis
+SP27100	Chemical peritonitis

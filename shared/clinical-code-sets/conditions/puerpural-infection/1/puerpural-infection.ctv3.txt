@@ -1,0 +1,85 @@
+L402.	Puerperal peritonitis
+K3107	Retromammary breast abscess
+L17..	Infective/parasitic disease in preg/childbirth/puerperium
+L176.	Other maternal viral disease during pregnancy, childbirth and the puerperium
+L1760	Other maternal viral disease, unspecified whether during pregnancy or the puerperium
+L176z	Other maternal viral disease during pregnancy, childbirth or the puerperium NOS
+L17y.	Other maternal infective or parasitic disease during pregnancy, childbirth and the puerperium
+L17y0	Other maternal infective or parasitic disease, unspecified whether during pregnancy or the puerperium
+L17y1	Other maternal infective or parasitic disese during pregnancy - baby delivered
+L17y2	Other maternal infective or parasitic disease in the puerperium - baby delivered during current episode of care
+L17y3	Other maternal infective or parasitic disease during pregnancy - baby not yet delivered
+L17y4	Other maternal infective or parasitic disease in the puerperium - baby delivered during previous episode of care
+L17yz	Other maternal infective or parasitic disease during pregnancy, childbirth or the puerperium NOS
+L17z.	Maternal infective or parasitic disease NOS in pregnancy, childbirth and the puerperium
+L17z0	Maternal infective or parasitic disease NOS, unspecified whether during pregnancy or the puerperium
+L17z1	Maternal infective or parasitic disease NOS, during pregnancy - baby delivered
+L17z2	Maternal infective or parasitic disease NOS, in the puerperium - baby delivered during current episode of care
+L17z3	Maternal infective or parasitic disease NOS, during pregnancy - baby not yet delivered
+L17z4	Maternal infective or parasitic disease NOS, in the puerpium - baby delivered during previous episode of care
+L17zz	Maternal infective or parasitic disease NOS, during pregnancy, childbirth or the puerperium NOS
+L400.	Puerperal endometritis
+L4000	Puerperal endometritis unspecified
+L4001	Puerperal endometritis - delivered with postnatal complication
+L4002	Puerperal endometritis with postnatal complication
+L400z	Puerperal endometritis NOS
+L401.	Puerperal salpingitis
+L4010	Puerperal salpingitis unspecified
+L4011	Puerperal salpingitis - delivered with postnatal complication
+L4012	Puerperal salpingitis with postnatal complication
+L401z	Puerperal salpingitis NOS
+L4020	Puerperal peritonitis unspecified
+L4021	Puerperal peritonitis - delivered with postnatal complication
+L4022	Puerperal peritonitis with postnatal complication
+L402z	Puerperal peritonitis NOS
+L403.	Puerperal septicaemia
+L4030	Puerperal septicaemia unspecified
+L4031	Puerperal septicaemia - delivered with postnatal complication
+L4032	Puerperal septicaemia with postnatal complication
+L403z	Puerperal septicaemia NOS
+L40z.	Major puerperal infection NOS
+L40z0	Major puerperal infection NOS, unspecified
+L40z1	Major puerperal infection NOS - delivered with postnatal complication
+L40z2	Major puerperal infection NOS with postnatal complication
+L420z	Puerperal pyrexia NOS
+L45..	Obstetric breast infections
+L4500	Obstetric nipple infection unspecified
+L4501	Obstetric nipple infection - delivered
+L4504	Obstetric nipple infection with postnatal complication
+L450z	Obstetric nipple infection NOS
+L4510	Obstetric breast abscess unspecified
+L4511	Obstetric breast abscess - delivered
+L4514	Obstetric breast abscess with postnatal complication
+L451z	Obstetric breast abscess NOS
+L4520	Obstetric non-purulent mastitis unspecified
+L4521	Obstetric non-purulent mastitis - delivered
+L4522	Obstetric non-purulent mastitis - delivered with postnatal complication
+L4523	Obstetric non-purulent mastitis with antenatal complication
+L4524	Obstetric non-purulent mastitis with postnatal complication
+L452z	Obstetric non-purulent mastitis NOS
+L45y.	Other obstetric breast infections
+L45y0	Other obstetric breast infection unspecified
+L45y1	Other obstetric breast infection - delivered
+L45y2	Other obstetric breast infection - delivered with postnatal complication
+L45y3	Other obstetric breast infection with antenatal complication
+L45y4	Other obstetric breast infection with postnatal complication
+L45yz	Other obstetric breast infection NOS
+L45z.	Obstetric breast infection NOS
+L45z0	Obstetric breast infection NOS, unspecified
+L45z1	Obstetric breast infection NOS - delivered
+L45z2	Obstetric breast infection NOS - delivered with postnatal complication
+L45z3	Obstetric breast infection NOS with antenatal complication
+L45z4	Obstetric breast infection NOS with postnatal complication
+Lyu62	[X]Other specified puerperal infection
+X40Di	Puerperal pyrexia
+X40Dr	Abscess of nipple - obstetric
+X40FP	Breast abscess
+X40FT	Mastitis
+XaC10	[X]Infection of caesarean section wound following delivery
+XE0xH	Puerperal sepsis
+XE0xR	Obstetric nipple infection
+XE2QY	Obstetric breast abscess
+XE2sm	Obstetric non-purulent mastitis
+XM0tj	Mastitis - obstetric
+XM1PK	Lymphangitis of breast - obstetric
+L3945	Infection of obstetric surgical wound
