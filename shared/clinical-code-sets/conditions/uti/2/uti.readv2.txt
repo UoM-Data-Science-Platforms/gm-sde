@@ -1,0 +1,98 @@
+K190z00	Urinary tract infection, site not specified NOS
+K15..00	Cystitis
+K190.00	Urinary tract infection, site not specified
+K155.00	Recurrent cystitis
+K190.11	Recurrent urinary tract infection
+L166.11	Cystitis of pregnancy
+K190400	Chronic urinary tract infection
+K190311	Recurrent UTI
+K152y00	Chronic cystitis unspecified
+A161.00	Tuberculosis of bladder
+K190100	Pyuria, site not specified
+L166600	Urinary tract infection following delivery
+Q40y100	Neonatal urinary tract infection
+L166800	Urinary tract infection complicating pregnancy
+1J4..00	Suspected UTI
+1AG..00	Recurrent urinary tract infections
+A981100	Acute gonococcal cystitis
+K190300	Recurrent urinary tract infection
+K15z.00	Cystitis NOS
+K190200	Post operative urinary tract infection
+L166z11	UTI - urinary tract infection in pregnancy
+K150.00	Acute cystitis
+L166300	Genitourinary tract infection in pregnancy - not delivered
+L166z00	Genitourinary tract infection in pregnancy NOS
+L166100	Genitourinary tract infection in pregnancy - delivered
+K172.00	Candidal urethritis
+AD10200	Trichomonal urethritis
+L166000	Genitourinary tract infection in pregnancy unspecified
+K213.00	Prostatocystitis
+K154200	Cystitis in bilharziasis
+K15y200	Abscess of bladder
+K154700	Cystitis in trichomoniasis
+A983100	Chronic gonococcal cystitis
+K154000	Cystitis in actinomycosis
+K154600	Cystitis in moniliasis
+K154800	Cystitis in tuberculosis
+Lyu6100	[X]Other genitourinary tract infections following delivery
+L166.00	Genitourinary tract infections in pregnancy
+K154500	Cystitis in gonorrhoea
+A32y300	Diphtheritic cystitis
+Kyu5100	[X]Other cystitis
+Kyu5000	[X]Other chronic cystitis
+K190500	Urinary tract infection
+K154100	Cystitis in amoebiasis
+A981111	Bladder gonorrhoea - acute
+8CMWE00	On urinary tract infection care pathway
+SP07Q00	Catheter-associated urinary tract infection
+SP07Q11	CAUTI - catheter-associated urinary tract infection
+A160.00	Tuberculosis of kidney
+A160000	Tuberculous nephropathy
+A160100	Tuberculous pyelitis
+A160200	Tuberculous pyelonephritis
+A160z00	Tuberculosis of kidney NOS
+A162.00	Tuberculosis of ureter
+A163.00	Tuberculosis of other urinary organs
+A168.00	Tuberculosis of urinary tract
+A844100	Plasmodium malariae malaria with nephropathy
+A954.00	Syphilis of kidney
+A994.00	Nonspecific urethritis
+AC2z000	Echinococcosis kidney
+K01x200	Nephrotic syndrome in malaria
+K08y700	Acute infective interstitial nephritis
+K0A9.00	Cytomegalovirus-induced glomerulonephritis
+K0y0.00	Late syphilis of kidney
+K10..00	Infections of kidney
+K100.00	Chronic pyelonephritis
+K100100	Chronic pyelonephritis with medullary necrosis
+K100300	Chronic pyonephrosis
+K100400	Nonobstructive reflux-associated chronic pyelonephritis
+K100500	Chronic obstructive pyelonephritis
+K100600	Calculous pyelonephritis
+K100z00	Chronic pyelonephritis NOS
+K101.00	Acute pyelonephritis
+K101000	Acute pyelonephritis without medullary necrosis
+K101100	Acute pyelonephritis with medullary necrosis
+K101300	Acute pyonephrosis
+K101400	Emphysematous pyelonephritis
+K101500	Emphysematous pyelitis
+K101z00	Acute pyelonephritis NOS
+K105.00	Chronic infective interstitial nephritis
+K106.00	Candida pyelonephritis
+K10y.00	Pyelonephritis and pyonephrosis unspecified
+K10y000	Pyelonephritis unspecified
+K10y200	Pyonephrosis unspecified
+K10y300	Pyelonephritis in diseases EC
+K10yz00	Unspecified pyelonephritis NOS
+K10z.00	Infection of kidney NOS
+K152.00	Other chronic cystitis
+K152z00	Other chronic cystitis NOS
+K154300	Cystitis in echinococcus infestation
+K154400	Cystitis in diphtheria
+K15y.00	Other specified cystitis
+K15yz00	Other cystitis NOS
+L09y400	Urinary tract infection following abortive pregnancy
+L166500	Infections of kidney in pregnancy
+L178.00	Infections of urethra in pregnancy
+Lyu2300	[X]Infections of other parts of urinary tract in pregnancy
+Lyu2400	[X]Other and unspecified genitourinary tract infection in pregnancy

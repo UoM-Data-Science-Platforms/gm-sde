@@ -1,0 +1,70 @@
+J552C12	Psoas abscess
+A3A6.00	Necrotising fasciitis
+A3A0.11	Clostridium infection
+N230.11	Purulent myositis
+A3A0500	Gas gangrene
+A3A0211	Clostridium perfringens infection
+J552C00	Iliopsoas abscess
+N230.00	Infective myositis
+A985112	Gonococcal tenosynovitis
+A3Ay000	Tropical pyomyositis
+A985100	Gonococcal synovitis or tenosynovitis
+A3A0.00	Gas gangrene
+A957100	Syphilis of tendon
+J552C11	Abscess iliopsoas non tuberculous
+A985111	Gonococcal synovitis
+A957000	Syphilis of synovium
+A3A0100	Gas gangrene caused by clostridium oedematiens
+N230000	Infective myositis-neck
+N230D00	Muscle abscess-shoulder
+N230E00	Muscle abscess-arm
+N230F00	Muscle abscess-forearm
+J330200	Epigastric hernia with gangrene
+A3A0F00	Gas gangrene-foot
+N230A00	Muscle abscess
+N230B00	Muscle abscess-neck
+A3A0011	Clostridium histolyticum infection
+N230800	Infective myositis-leg
+N230500	Infective myositis-hand
+N230K00	Muscle abscess-leg
+N230.12	Suppurative myositis
+N230L00	Muscle abscess-foot
+N230J00	Muscle abscess-thigh
+N230H00	Muscle abscess-pelvis
+A3A0311	Clostridium septicum infection
+A3A0600	Gas gangrene-neck
+A3A0700	Gas gangrene-back
+A3A0800	Gas gangrene-shoulder
+A3A0900	Gas gangrene-arm
+A3A0A00	Gas gangrene-forearm
+A3A0B00	Gas gangrene-hand
+A3A0C00	Gas gangrene-pelvis
+A3A0D00	Gas gangrene-thigh
+A3A0E00	Gas gangrene-leg
+A3A0z00	Gas gangrene caused by organism NOS
+F4G1200	Orbital myositis
+H57y100	Lung disease with polymyositis
+H5y4000	Diaphragmatitis
+N003.00	Dermatomyositis
+N003000	Juvenile dermatomyositis
+N003100	Dermatopolymyositis in neoplastic disease
+N003X00	Dermatopolymyositis, unspecified
+N004.00	Polymyositis
+N230100	Infective myositis-back
+N230200	Infective myositis-shoulder
+N230300	Infective myositis-arm
+N230400	Infective myositis-forearm
+N230600	Infective myositis-pelvis
+N230700	Infective myositis-thigh
+N230900	Infective myositis-foot
+N230C00	Muscle abscess-back
+N230G00	Muscle abscess-hand
+N233200	Myositis in sarcoidosis
+N23y000	Interstitial myositis
+N241100	Myositis unspecified
+Nyu4400	[X]Other dermatomyositis
+Nyu4800	[X]Dermato(poly)myositis in neoplastic disease classified elsewhere
+Nyu4E00	[X]Dermatopolymyositis, unspecified
+Nyu8000	[X]Other myositis
+Nyu8800	[X]Myositis in other infectious diseases classified elsewhere
+Nyu8900	[X]Myositis in sarcoidosis classified elsewhere

@@ -1,0 +1,838 @@
+^ESCT1165606	Infection of central nervous system caused by Echinococcus
+^ESCT1165632	Infection causing abscess of central nervous system
+^ESCT1165633	Infectious abscess of central nervous system
+^ESCT1165637	Infection causing granuloma of central nervous system
+^ESCT1165638	Infectious granuloma of central nervous system
+^ESCT1165639	Parasitic infection causing granuloma of cerebrum
+^ESCT1165640	Parasitic intracerebral granuloma
+^ESCT1165643	Infection causing granuloma of spinal cord
+^ESCT1165644	Intraspinal intramedullary infectious granuloma
+^ESCT1165645	Infection causing granuloma of extradural space of spinal cord
+^ESCT1165646	Intraspinal extradural infectious granuloma
+^ESCT1165647	Infection causing cyst of central nervous system
+^ESCT1165648	Infective cyst of central nervous system
+^ESCT1167965	Influenza with CNS disorder
+^ESCT1167966	Disorder of central nervous system co-occurrent and due to infection with influenza virus
+^ESCT1167967	Influenza with central nervous system disorder
+^ESCT1168939	Hypertrophic pachymeningitis due to infection
+^ESCT1168940	Pachymeningitis secondary to infection
+^ESCT1172094	Otosyphilis
+^ESCT1191544	[X]Encephalitis,myelitis+encephalomyelitis/viral disease CE
+^ESCT1202459	Mycoplasma pneumoniae encephalitis
+^ESCT1202460	Encephalitis caused by Mycoplasma pneumoniae
+^ESCT1221867	Encephalomyelitis co-occurrent and due to rubella
+^ESCT1233145	Meningitis caused by Klebsiella aerogenes
+^ESCT1236963	Eosinophilic meningitis caused by Angiostrongylus cantonensis
+^ESCT1270426	Cerebral fungus
+^ESCT1271689	Tuberculous encephalitis or myelitis
+^ESCT1381030	Syphilitic posterior spinal sclerosis
+^ESCT1381031	Tabes dorsalis
+^ESCT1387183	Meningitis caused by Rubella virus
+^ESCT1387184	Rubella virus meningitis
+^ESCT1387354	Encephalopathy due to Influenza A virus
+^ESCT1387355	Encephalopathy caused by Influenza A virus
+^ESCT1391025	Henipavirus encephalitis
+^ESCT1391026	Encephalitis caused by Henipavirus
+^ESCT1391106	Trypanosoma brucei gambiense meningitis
+^ESCT1391107	Trypanosoma brucei rhodesiense meningitis
+^ESCT1393762	Encephalomyelitis caused by Burkholderia
+^ESCT1393763	Burkholderia encephalomyelitis
+^ESCT1393812	Acute seizure due to infection of central nervous system
+^ESCT1393861	Abscess of subdural space of spinal cord caused by fungus
+^ESCT1393862	Fungal subdural abscess
+^ESCT1393865	Abscess of spinal subdural space caused by Mycobacterium
+^ESCT1393866	Mycobacterial spinal subdural abscess
+^ESCT1393867	Abscess of spinal epidural space caused by Mycobacterium
+^ESCT1393868	Mycobacterial spinal epidural abscess
+^ESCT1393869	Abscess of spinal subdural space caused by bacterium
+^ESCT1393870	Bacterial spinal subdural abscess
+^ESCT1393871	Abscess of spinal cord caused by fungus
+^ESCT1393872	Fungal spinal cord abscess
+^ESCT1393873	Abscess of spinal epidural space caused by bacterium
+^ESCT1393874	Bacterial spinal epidural abscess
+^ESCT1394288	Infection of central nervous system caused by Paracoccidioides brasiliensis
+^ESCT1394289	Paracoccidioidomycosis with central nervous system involvement
+^ESCT1394297	Encephalitis caused by Leptospira species
+^ESCT1394298	Leptospira species encephalitis
+^ESCT1394300	Encephalitis caused by human immunodeficiency virus type 2
+^ESCT1394301	Human immunodeficiency virus type 2 encephalitis
+^ESCT1394310	Cyst of spinal subdural space caused by parasite
+^ESCT1394311	Parasitic spinal subdural cyst
+^ESCT1394318	Classical sporadic Creutzfeldt-Jakob disease
+^ESCT1394321	Cyst of spinal cord caused by parasite
+^ESCT1394322	Parasitic spinal cord cyst
+^ESCT1394402	Encephalitis caused by Borrelia species
+^ESCT1394403	Borrelia encephalitis
+^ESCT1394406	Encephalitis caused by human immunodeficiency virus type 1
+^ESCT1394407	Human immunodeficiency virus type 1 encephalitis
+^ESCT1394408	HIV 1 encephalitis
+^ESCT1395086	Hydrocephalus due to tuberculosis of brain
+^ESCT1395087	Tuberculosis hydrocephalus
+^ESCT1395090	Encephalomyelitis caused by Neisseria meningitidis
+^ESCT1395091	Neisseria meningitidis encephalomyelitis
+^ESCT1395112	Encephalitis caused by Nocardia
+^ESCT1395113	Nocardia encephalitis
+^ESCT1395118	Creutzfeldt-Jakob Disease caused by human growth hormone
+^ESCT1395119	Human-growth hormone ingestion-related Creutzfeldt-Jakob Disease
+^ESCT1395131	Granuloma of brain caused by Schistosoma
+^ESCT1395132	Schistosomiasis granuloma of brain
+^ESCT1395138	Granuloma of brain caused by Schistosoma japonicum
+^ESCT1395139	Schistosoma japonicum granuloma of brain
+^ESCT1395140	Encephalomyelitis caused by bacterium
+^ESCT1395141	Bacterial encephalomyelitis
+^ESCT1395142	Encephalomyelitis caused by Coxiella burnetii
+^ESCT1395143	Coxiella burnetii encephalomyelitis
+^ESCT1395144	Granuloma of spinal epidural space caused by Mycobacterium
+^ESCT1395145	Mycobacterial spinal epidural granuloma
+^ESCT1395146	Granuloma of spinal epidural space caused by fungus
+^ESCT1395147	Fungal spinal epidural granuloma
+^ESCT1395148	Granuloma of spinal subdural space caused by parasite
+^ESCT1395149	Parasitic spinal subdural granuloma
+^ESCT1395150	Granuloma of spinal epidural space caused by bacterium
+^ESCT1395151	Bacterial spinal epidural granuloma
+^ESCT1395152	Granuloma of spinal subdural space caused by Mycobacterium
+^ESCT1395153	Mycobacterial spinal subdural granuloma
+^ESCT1395156	Granuloma of spinal cord caused by fungus
+^ESCT1395157	Fungal spinal cord granuloma
+^ESCT1395158	Granuloma of spinal subdural space caused by bacterium
+^ESCT1395159	Bacterial spinal subdural granuloma
+^ESCT1395174	Granuloma of brain caused by Schistosoma haematobium
+^ESCT1395175	Schistosoma haematobium granuloma of brain
+^ESCT1395176	Encephalitis caused by Trypanosoma brucei gambiense
+^ESCT1395177	Encephalitis in gambiense trypanosomiasis
+^ESCT1395178	Encephalitis caused by Trypanosoma brucei rhodesiense
+^ESCT1395179	Encephalitis in Rhodesiense trypanosomiasis
+^ESCT1395182	Encephalitis caused by Me Tri virus
+^ESCT1395183	Me Tri virus encephalitis
+^ESCT1395206	Granuloma of brain caused by Schistosoma mansoni
+^ESCT1395207	Schistosoma mansoni granuloma of brain
+^ESCT1395737	Myelitis caused by Actinomyces
+^ESCT1395747	Myelitis caused by Enterovirus
+^ESCT1395748	Enterovirus myelitis
+^ESCT1395749	Myelitis caused by Epstein-Barr virus
+^ESCT1395750	Epstein-Barr virus myelitis
+^ESCT1395751	Myelitis caused by Dengue virus
+^ESCT1395752	Dengue virus myelitis
+^ESCT1395753	Myelitis caused by Human echovirus
+^ESCT1395754	Echovirus myelitis
+^ESCT1395755	Myelitis caused by Human coxsackievirus A
+^ESCT1395756	Coxsackie group A myelitis
+^ESCT1395757	Myelitis caused by Cytomegalovirus
+^ESCT1395758	Cytomegalovirus myelitis
+^ESCT1395759	Myelitis caused by Coccidioides
+^ESCT1395760	Coccidioides myelitis
+^ESCT1395761	Myelitis caused by Coenurus cerebralis
+^ESCT1395762	Coenurus cerebralis myelitis
+^ESCT1395763	Myelitis caused by Mycoplasma pneumoniae
+^ESCT1395764	Mycoplasma pneumoniae myelitis
+^ESCT1395765	Myelitis caused by Aspergillus
+^ESCT1395766	Aspergillus myelitis
+^ESCT1395767	Myelitis caused by Schistosoma mansoni
+^ESCT1395768	Schistosoma mansoni myelitis
+^ESCT1395769	Myelitis caused by Borrelia burgdorferi
+^ESCT1395770	Lyme disease myelitis
+^ESCT1395771	Myelitis caused by Schistosoma japonicum
+^ESCT1395772	Schistosoma japonicum myelitis
+^ESCT1395806	Meningomyelitis caused by Treponema pallidum
+^ESCT1395807	Syphilitic meningomyelitis
+^ESCT1395850	Myelitis caused by Schistosoma
+^ESCT1395851	Schistosoma myelitis
+^ESCT1395854	Myelitis caused by Schistosoma haematobium
+^ESCT1395855	Schistosoma haematobium myelitis
+^ESCT1395856	Myelitis caused by human poliovirus
+^ESCT1395857	Human poliovirus myelitis
+^ESCT1395858	Myelitis caused by Retroviridae
+^ESCT1395859	Retrovirus myelitis
+^ESCT1395860	Myelitis caused by Influenza A virus
+^ESCT1395861	Influenza A virus myelitis
+^ESCT1395862	Myelitis caused by Plasmodium
+^ESCT1395863	Malaria myelitis
+^ESCT1395864	Plasmodium myelitis
+^ESCT1395865	Myelitis caused by Roseolovirus
+^ESCT1395866	Roseolovirus myeltis
+^ESCT1395867	Myelitis caused by human T-lymphotropic virus type 1
+^ESCT1395868	Human T-lymphotropic virus type 1 myelitis
+^ESCT1395869	Myelitis caused by Herpes simplex type 2
+^ESCT1395870	Herpes simplex type 2 myelitis
+^ESCT1395871	Myelitis caused by Human herpes virus
+^ESCT1395872	Human herpes virus myelitis
+^ESCT1395873	Myelitis caused by Herpes simplex type 1
+^ESCT1395874	Herpes simplex type 1 myelitis
+^ESCT1395875	Infectious neuroretinitis
+^ESCT1395876	Neuroretinitis caused by infection
+^ESCT1396066	Myelitis caused by Human coxsackievirus B
+^ESCT1396067	Coxsackie group B myelitis
+^ESCT1396374	Spinal subdural granuloma caused by fungus
+^ESCT1396375	Fungal subdural granuloma of spine
+^ESCT1396385	Myelitis caused by Treponema pallidum
+^ESCT1396386	Syphilitic myelitis
+^ESCT1396387	Myelitis caused by Toxoplasma gondii
+^ESCT1396388	Toxoplasmosis myelitis
+^ESCT1396427	Optic atrophy due to late syphilis
+^ESCT1396428	Late syphilitic optic atrophy
+^ESCT1396458	Spinal epidural cyst caused by parasite
+^ESCT1396459	Parasitic spinal epidural cyst
+^ESCT1396462	Spinal epidural granuloma caused by parasite
+^ESCT1396463	Parasitic spinal epidural granuloma
+^ESCT1396464	Granuloma of spinal cord caused by Mycobacterium
+^ESCT1396465	Mycobacterial spinal cord granuloma
+^ESCT1396466	Granuloma of spinal cord caused by parasite
+^ESCT1396467	Parasitic spinal cord granuloma
+^ESCT1396471	Granuloma of spinal cord caused by bacterium
+^ESCT1396472	Bacterial spinal cord granuloma
+^ESCT1396479	Retrobulbar neuritis due to late syphilis
+^ESCT1396480	Late syphilitic retrobulbar neuritis
+^ESCT1407865	Van Bogaert sclerosing leucoencephalitis
+^ESCT1408591	Tuberculous myelitis
+^ESCT1408736	Leucoencephalopathy with brainstem and spinal cord involvement and lactate elevation
+^ESCT1408737	LBSL - Leucoencephalopathy with brainstem and spinal cord involvement with lactate elevation
+^ESCT1409128	Dementia with progressive multifocal leucoencephalopathy
+^ESCT1409129	Dementia co-occurrent and due to progressive multifocal leucoencephalopathy
+^ESCT1416846	Diffuse unilateral subacute neuroretinitis
+^ESCT1416847	DUSN - diffuse unilateral subacute neuroretinitis
+^ESCT1416848	Unilateral wipe-out syndrome
+^ESCT1421521	Roseolovirus myelitis
+^ESCTAB344504	Abacterial meningitis
+^ESCTAB514807	Abortive poliomyelitis
+^ESCTAB712004	Abscess of medulla of spinal cord due to Histoplasma
+^ESCTAB712006	Abscess of medulla of spinal cord caused by Histoplasma
+^ESCTAB781436	Abscess of spinal cord caused by bacterium
+^ESCTAC273016	Acute nonparalytic poliomyelitis
+^ESCTAC278477	Acquired toxoplasmal meningoencephalitis
+^ESCTAC288381	Acute cerebellar ataxia due to varicella
+^ESCTAC288383	Acute cerebellar ataxia caused by varicella
+^ESCTAC307395	Acute adenoviral encephalitis
+^ESCTAC355330	Acute paralytic poliomyelitis, bulbar
+^ESCTAC355331	Acute infantile paralysis
+^ESCTAC355332	Acute anterior poliomyelitis
+^ESCTAC355333	Acute anterior bulbar polioencephalomyelitis
+^ESCTAC361995	Acute syphilitic meningitis
+^ESCTAC384282	Acute adenoviral meningoencephalitis
+^ESCTAC417153	Acute purulent meningitis
+^ESCTAC420086	Acute necrotizing encephalitis
+^ESCTAC420087	Acute necrotizing viral encephalitis
+^ESCTAC420088	Acute necrotising viral encephalitis
+^ESCTAC476765	Actinomycotic meningitis
+^ESCTAC476935	Acute and subacute haemorrhagic leucoencephalitis [Hurst]
+^ESCTAC476936	Acute and subacute hemorrhagic leukoencephalitis [Hurst]
+^ESCTAC500429	Acute viral encephalitis
+^ESCTAC500479	Acute viral transverse myelitis
+^ESCTAC500489	Actinomycotic brain abscess
+^ESCTAC514811	Acute neurological rabies
+^ESCTAC710127	Acute nonparalytic poliomyelitis due to human poliovirus 1
+^ESCTAC710128	Acute nonparalytic poliomyelitis caused by human poliovirus 1
+^ESCTAC732251	Acute bulbar poliomyelitis due to Human poliovirus 2
+^ESCTAC732252	Acute bulbar poliomyelitis caused by Human poliovirus 2
+^ESCTAC732253	Acute poliomyelitis due to Human poliovirus 1
+^ESCTAC732254	Acute poliomyelitis caused by Human poliovirus 1
+^ESCTAC733258	Acute bulbar poliomyelitis due to Human poliovirus 1
+^ESCTAC733259	Acute bulbar poliomyelitis caused by Human poliovirus 1
+^ESCTAC733260	Acute paralytic poliomyelitis due to Human poliovirus 1
+^ESCTAC733261	Acute paralytic poliomyelitis caused by Human poliovirus 1
+^ESCTAC733714	Acute paralytic poliomyelitis due to Human poliovirus 2
+^ESCTAC733715	Acute paralytic poliomyelitis caused by Human poliovirus 2
+^ESCTAC733903	Acute paralytic poliomyelitis due to Human poliovirus 3
+^ESCTAC733904	Acute paralytic poliomyelitis caused by Human poliovirus 3
+^ESCTAC781444	Acquired prion disease
+^ESCTAC782245	Actinomycetales meningitis
+^ESCTAC826959	Acute viral meningitis
+^ESCTAE781418	Aerobic gram-negative coccus meningitis
+^ESCTAE781420	Aerobic gram-negative bacillus meningitis
+^ESCTAI605296	AIDS virus with aseptic meningitis
+^ESCTAL782275	Alphavirus encephalitis
+^ESCTAM294787	Amebic brain abscess
+^ESCTAM500456	Amoebic encephalitis
+^ESCTAM500457	Amebic encephalitis
+^ESCTAM672929	Amoebic infection of central nervous system
+^ESCTAM672930	Amebic infection of central nervous system
+^ESCTAN273017	Anterior acute poliomyelitis specified as nonparalytic
+^ESCTAN273019	Anterior acute poliomyelitis, nonparalytic
+^ESCTAN660196	Anterior acute poliomyelitis
+^ESCTAN781051	Anthrax meningitis
+^ESCTAR476798	Arbovirus encephalitis
+^ESCTAR476799	Arboviral encephalitis
+^ESCTAR659843	Armstrong's disease
+^ESCTAR804123	Arbovirus meningitis
+^ESCTAS344503	Aseptic meningitis, viral
+^ESCTAS514953	Asymptomatic secondary neurosyphilis
+^ESCTAS596656	Aspiration of brain abscess
+^ESCTAU358061	Australian encephalitis
+^ESCTAU358062	Australian arboencephalitis
+^ESCTAU358063	Australian X disease
+^ESCTBA440436	Bacterial infection of central nervous system
+^ESCTBA442273	Bacterial infectious disease of brain
+^ESCTBA500423	Bacterial ventriculitis
+^ESCTBA500424	Bacterial ventriculitis, brain
+^ESCTBA500452	Bacterial encephalitis
+^ESCTBA679783	Bartonella henselae neuroretinitis
+^ESCTBA705089	Bacterial meningitis due to Gram-negative bacteria
+^ESCTBA705092	Bacterial meningitis caused by Gram-negative bacteria
+^ESCTBA730062	Bacterial meningomyelitis
+^ESCTBA730689	Bacterial meningoencephalitis
+^ESCTBA781427	Bacterial myelitis
+^ESCTBA781437	Bacterial spinal cord abscess
+^ESCTBE335446	Benign myalgic encephalomyelitis
+^ESCTBE383305	Benign multirecurrent endothelioleucocytal meningitis
+^ESCTBE383306	Benign multirecurrent endothelioleukocytal meningitis
+^ESCTBI276833	Biundulant meningoencephalitis
+^ESCTBL672933	Blastomyces infection of central nervous system
+^ESCTBM406377	BM - Bacterial meningitis
+^ESCTBO672934	Borrelia infection of central nervous system
+^ESCTBR500491	Brainstem pyogenic abscess
+^ESCTBR672935	Brucella infection of the central nervous system
+^ESCTBV308702	B virus infection
+^ESCTCA500494	Candidal brain abscess
+^ESCTCA669495	California serogroup viral meningitis
+^ESCTCA690173	California encephalitis virus infection neuroinvasive disease
+^ESCTCA690175	California encephalitis
+^ESCTCA690176	California meningoencephalitis virus disease
+^ESCTCA690177	California viral encephalitis
+^ESCTCA691219	Cache Valley encephalitis
+^ESCTCA692273	California serogroup virus neuroinvasive disease
+^ESCTCE276834	Central European tick-borne encephalitis
+^ESCTCE276836	CEE - Central European encephalitis
+^ESCTCE291626	Cerebrospinal nematodiasis
+^ESCTCE308703	Cercopithecine herpesvirus 1 disease
+^ESCTCE476759	Cerebrospinal meningitis
+^ESCTCE476804	Cerebral toxoplasmosis
+^ESCTCE500488	Cerebral pyogenic abscess
+^ESCTCE500490	Cerebral actinomycoma
+^ESCTCE500495	Cerebral hydatid cyst
+^ESCTCE500496	Cerebral cysticercosis
+^ESCTCE515141	Central nervous system candidiasis
+^ESCTCE515142	Central nervous system candidosis
+^ESCTCE515288	Cerebral loiasis
+^ESCTCE515322	Cerebral gnathostomiasis
+^ESCTCE591130	Central nervous system viral infection
+^ESCTCE591437	Cerebellar pyogenic abscess
+^ESCTCE690174	CE - California encephalitis
+^ESCTCH291079	Chronic eosinophilic meningitis
+^ESCTCH316794	Chronic benign lymphocytic meningitis
+^ESCTCH500405	Chronic echovirus meningoencephalitis
+^ESCTCH500447	Chronic viral encephalitis
+^ESCTCH672937	Chlamydial infection of the central nervous system
+^ESCTCH795773	Chronic diarrhoea with hereditary sensory and autonomic neuropathy
+^ESCTCH795775	Chronic diarrhea with hereditary sensory and autonomic neuropathy
+^ESCTCJ251098	CJD - Creutzfeldt-Jakob disease
+^ESCTCN476835	CNS abscess
+^ESCTCO324814	Coccidioidomycosis meningitis
+^ESCTCO500403	Coxsackie A viral meningitis
+^ESCTCO500404	Coxsackie B viral meningitis
+^ESCTCO672938	Coccidioides infection of the central nervous system
+^ESCTCO672939	Coxsackievirus infection of the central nervous system
+^ESCTCR251095	Creutzfeldt-Jakob disease
+^ESCTCR251101	Creutzfeldt Jakob disease
+^ESCTCR593165	Creutzfeldt-Jakob variant disease
+^ESCTCR672940	Cryptococcus infection of the central nervous system
+^ESCTCY672941	Cytomegalovirus infection of the central nervous system
+^ESCTCY725027	Cysticercosis of brain
+^ESCTCY782283	Cytomegalovirus meningitis
+^ESCTCY782386	Cysticercosis encephalitis
+^ESCTDA476795	Dawson's inclusion body encephalitis
+^ESCTDE334164	Dementia paralytica
+^ESCTDE346929	Derriengue
+^ESCTDE384966	Dementia paralytica juvenilis
+^ESCTDE795514	Dementia with progressive multifocal leukoencephalopathy
+^ESCTDE795515	Dementia co-occurrent and due to progressive multifocal leukoencephalopathy
+^ESCTDI276832	Diphasic meningoencephalitis
+^ESCTDI276835	Diphasic milk fever
+^ESCTDI500985	Diphtheritic neuropathy
+^ESCTDI846429	Diphtheria radiculomyelitis
+^ESCTEA689945	Eastern equine encephalitis virus infection
+^ESCTEA690768	Eastern equine encephalitis virus neuroinvasive disease
+^ESCTEA690771	Eastern equine encephalomyelitis
+^ESCTEC476785	Echovirus meningitis
+^ESCTEC672942	Echovirus infection of the central nervous system
+^ESCTEC782382	Echinococcosis encephalitis
+^ESCTEE690769	EEE
+^ESCTEE690770	EEE - Eastern equine encephalitis
+^ESCTEH672943	Ehrlichia infection of the central nervous system
+^ESCTEM295250	EM - Enteroviral meningitis
+^ESCTEN276830	Encephalitis due to European subtype of tick-borne encephalitis virus
+^ESCTEN289318	Encephalitis in listeriosis
+^ESCTEN305522	Encephalitis, viral
+^ESCTEN314725	Encephalitis due to Langat virus
+^ESCTEN314727	Encephalitis caused by Langat virus
+^ESCTEN326834	Encephalitis, Western equine
+^ESCTEN335865	Encephalitis, Japanese
+^ESCTEN364775	Enteroviral encephalomyelitis
+^ESCTEN474247	Encephalitis due to Far Eastern tick-borne encephalitis virus
+^ESCTEN500477	Encephalopathy in Whipple disease
+^ESCTEN599275	Encephalitis due to influenza
+^ESCTEN599276	Encephalitis caused by influenza
+^ESCTEN599301	Encephalitis caused by influenza-virus identified
+^ESCTEN659536	Encephalomyelitis caused by lymphocytic choriomeningitis virus
+^ESCTEN672954	Enterovirus infection of the central nervous system
+^ESCTEN687877	Encephalitis due to Siberian tick-borne encephalitis virus
+^ESCTEN687879	Encephalitis caused by Siberian tick-borne encephalitis virus
+^ESCTEN689946	Encephalitis, Eastern equine
+^ESCTEN690941	Encephalitis, St-Louis
+^ESCTEN692160	Encephalitis due to protozoa
+^ESCTEN692161	Encephalitis caused by protozoa
+^ESCTEN694431	Encephalitis due to rickettsia
+^ESCTEN694432	Encephalitis caused by rickettsia
+^ESCTEN707893	Encephalitis caused by human herpes simplex virus
+^ESCTEN709137	Encephalitis due to Herpesviridae
+^ESCTEN709138	Encephalitis due to Herpesvirus
+^ESCTEN709140	Encephalitis caused by Herpesvirus
+^ESCTEN709141	Encephalitis caused by Herpesviridae
+^ESCTEN725101	Encephalitis due to human herpesvirus 6 infection
+^ESCTEN725102	Encephalitis caused by human herpesvirus 6 infection
+^ESCTEN769821	Encephalitis caused by tick-borne encephalitis virus
+^ESCTEN782191	Enterobacter meningitis
+^ESCTEN782237	Enterococcus meningitis
+^ESCTEN782274	Encephalitis caused by Alphavirus
+^ESCTEN782293	Encephalitis caused by Polyoma virus
+^ESCTEN782316	Encephalitis caused by Rubulavirus
+^ESCTEN782320	Encephalitis caused by Hendra virus
+^ESCTEN782322	Encephalitis caused by Nipah virus
+^ESCTEN782366	Encephalitis caused by Trypanosoma brucei
+^ESCTEN782367	Encephalitis caused by African trypanosomiasis
+^ESCTEN782371	Encephalitis caused by Schistosoma
+^ESCTEN782373	Encephalitis caused by Schistosoma haematobium
+^ESCTEN782375	Encephalitis caused by Schistosoma mansoni
+^ESCTEN782377	Encephalitis caused by Schistosoma japonicum
+^ESCTEN782381	Encephalitis caused by Echinococcus granulosus
+^ESCTEN782385	Encephalitis caused by Taenia solium
+^ESCTEN782387	Encephalitis caused by Coenurus cerebralis
+^ESCTEN783316	Enterovirus 71 meningitis
+^ESCTEN783318	Enterovirus 70 meningitis
+^ESCTEN785758	Encephalitis caused by Venezuelan equine encephalomyelitis virus
+^ESCTEN804545	Encephalopathy due to H1N1 influenza
+^ESCTEN804546	Encephalopathy caused by H1N1 influenza
+^ESCTEN845853	Encephalitis due to Actinomyces
+^ESCTEN845854	Encephalitis caused by Actinomyces
+^ESCTEN931560	Encephalopathy due to influenza A
+^ESCTEN931561	Encephalopathy caused by influenza A
+^ESCTEO340096	Eosinophilic meningoencephalitis
+^ESCTEO515323	Eosinophilic gnathostomal myeloencephalitis
+^ESCTEO692197	Eosinophilic meningoencephalitis due to Angiostrongylus cantonensis
+^ESCTEO692198	Eosinophilic meningoencephalitis caused by Angiostrongylus cantonensis
+^ESCTEO795493	Eosinophilic meningitis due to Angiostrongylus cantonensis
+^ESCTEP273018	Epidemic acute poliomyelitis specified as non paralytic
+^ESCTEP273020	Epidemic acute poliomyelitis, non paralytic
+^ESCTEP476758	Epidemic meningitis
+^ESCTEP500484	Epidural supratentorial pyogenic abscess
+^ESCTEP620715	Epidural infratentorial pyogenic abscess
+^ESCTEP660080	Epidemic acute poliomyelitis
+^ESCTEP672955	Epstein Barr virus infection of the central nervous system
+^ESCTER372445	Erb-Charcot syndrome
+^ESCTES672956	Escherichia coli infection of the central nervous system
+^ESCTEV464568	Evacuation of intracranial subdural abscess
+^ESCTEX350717	Extradural abscess
+^ESCTEX500485	Extradural supratentorial pyogenic abscess
+^ESCTEX620714	Extradural infratentorial pyogenic abscess
+^ESCTFA385338	Fatal familial insomnia
+^ESCTFA385340	Familial fatal insomnia
+^ESCTFA474249	Far Eastern tick-borne encephalitis
+^ESCTFA773790	Familial Creutzfeldt-Jakob
+^ESCTFA781383	Familial Alzheimer-like prion disease
+^ESCTFC773791	fCJD (Familial Creutzfeldt-Jakob disease)
+^ESCTFF385339	FFI - Familial fatal insomnia
+^ESCTFU316161	Fungal infection of brain
+^ESCTFU440437	Fungal infection of central nervous system
+^ESCTFU440438	Fungal central nervous system infection
+^ESCTFU500425	Fungal ventriculitis
+^ESCTFU500426	Fungal ventriculitis, brain
+^ESCTFU500454	Fungal encephalitis
+^ESCTFU726566	Fungal infection of cerebrum
+^ESCTFU781429	Fungal myelitis
+^ESCTGA500462	GAE - Granulomatous amoebic encephalomyelitis
+^ESCTGA500464	GAE - Granulomatous amebic encephalomyelitis
+^ESCTGE334163	General paresis
+^ESCTGE334167	General paresis of the insane
+^ESCTGE359182	Gerstmann-Straussler-Scheinker syndrome
+^ESCTGO672957	Gonococcal infection of the central nervous system
+^ESCTGP334168	GPI - General paresis of the insane
+^ESCTGR500460	Granulomatous amoebic encephalitis
+^ESCTGR500463	Granulomatous amoebic encephalomyelitis
+^ESCTGR500466	Granulomatous amebic encephalomyelitis
+^ESCTGR500467	Granulomatous amebic encephalitis
+^ESCTGR705090	Gram-negative bacterial meningitis
+^ESCTGR782232	Group B streptococcal meningitis
+^ESCTGS359183	GSS - Gerstmann-Straussler-Scheinker syndrome
+^ESCTHA259364	Haemophilus influenzae meningitis
+^ESCTHA672958	Haemophilus infection of the central nervous system
+^ESCTHE287152	Herpesviral meningitis
+^ESCTHE308700	Herpesvirus B infection
+^ESCTHE308701	Herpes simiae infection
+^ESCTHE374397	Herpetic acute necrotising encephalitis
+^ESCTHE374398	Herpetic acute necrotizing encephalitis
+^ESCTHE500446	Herpes simiae encephalitis
+^ESCTHE672963	Herpes virus infection of the central nervous system
+^ESCTHE709139	Herpes encephalitis
+^ESCTHE782279	Herpes simplex infection of central nervous system
+^ESCTHE782321	Hendra virus encephalitis
+^ESCTHE803101	Herpes zoster myelitis
+^ESCTHI500449	HIV - Human immunodeficiency virus leukoencephalopathy
+^ESCTHI500451	HIV - Human immunodeficiency virus leucoencephalopathy
+^ESCTHI605295	HIV infection with aseptic meningitis
+^ESCTHI660200	HIV - Human immunodeficiency virus encephalitis
+^ESCTHI672964	Histoplasma infection of central nervous system
+^ESCTHI711985	Histoplasmosis of spinal cord
+^ESCTHI711986	Histoplasma infection of spinal cord
+^ESCTHT771730	HTLV-I-associated myelopathy
+^ESCTHU500448	Human immunodeficiency virus leucoencephalopathy
+^ESCTHU500450	Human immunodeficiency virus leukoencephalopathy
+^ESCTHU605297	Human immunodeficiency virus (HIV) infection with aseptic meningitis
+^ESCTHU605298	Human immunodeficiency virus infection with aseptic meningitis
+^ESCTHU659236	Human immunodeficiency virus encephalopathy
+^ESCTHU660199	Human immunodeficiency virus encephalitis
+^ESCTHU660464	Human rabies
+^ESCTHU771728	Human T-cell lymphotropic virus 1-associated myelopathy
+^ESCTHU782281	Human herpesvirus 4 meningitis
+^ESCTHY272445	Hydrophobia
+^ESCTIA773559	Iatrogenic Jakob-Creutzfeldt disease
+^ESCTIA773560	Iatrogenic Creutzfeldt-Jakob disease
+^ESCTIC335445	Iceland disease
+^ESCTIM688810	Immunosuppressive measles encephalitis
+^ESCTIN272826	Intraspinal subdural abscess
+^ESCTIN353472	Intraspinal epidural abscess
+^ESCTIN353474	Intraspinal extradural abscess
+^ESCTIN440435	Infectious disease of central nervous system
+^ESCTIN441190	Infectious disease of brain
+^ESCTIN500443	Infectious mononucleosis encephalitis
+^ESCTIN500497	Intraspinal pyogenic abscess
+^ESCTIN514809	Incubating rabies
+^ESCTIN601382	Infective encephalitis
+^ESCTIN601383	Infective meningitis
+^ESCTIN601384	Infective ventriculitis
+^ESCTIN601385	Infective ventriculitis, brain
+^ESCTIN659483	Infantile paralysis
+^ESCTIN711987	Infection of spinal cord due to Histoplasma
+^ESCTIN711988	Infection of spinal cord caused by Histoplasma
+^ESCTIN712002	Intramedullary abscess of spinal cord due to Histoplasma
+^ESCTIN712003	Intramedullary histoplasma spinal cord abscess
+^ESCTIN712005	Intramedullary abscess of spinal cord caused by Histoplasma
+^ESCTIN773335	Infection of central nervous system caused by Borrelia burgdorferi
+^ESCTIN773792	Inherited Creutzfeldt-Jakob disease
+^ESCTIN781424	Infection causing myelitis
+^ESCTIN781425	Infectious myelitis
+^ESCTIN781434	Infection causing encephalomyelitis
+^ESCTIN781435	Infectious encephalomyelitis
+^ESCTIN781439	Infection causing spinal subdural cyst
+^ESCTIN781441	Infection causing spinal epidural cyst
+^ESCTIN781454	Infection causing inflammation of optic nerve
+^ESCTIN781455	Infectious optic neuropathy
+^ESCTIN782278	Infection of central nervous system caused by Herpes simplex virus
+^ESCTIN785759	Infection causing multiple abscesses of brain
+^ESCTIN785764	Infection causing parkinsonism
+^ESCTIN785765	Infectious parkinsonism
+^ESCTIN785766	Infection causing chorea
+^ESCTIN785767	Infectious chorea
+^ESCTIN795484	Invasive aspergillosis of brain
+^ESCTIN795485	Invasive cerebral aspergillosis
+^ESCTJA335860	Japanese encephalitis virus disease
+^ESCTJA335861	Japanese encephalitis
+^ESCTJA335862	Japanese B encephalitis
+^ESCTJA669491	Jamestown Canyon virus encephalitis
+^ESCTJA669494	Jamestown Canyon virus meningitis
+^ESCTJB335864	JBE - Japanese B encephalitis
+^ESCTJC251099	JCD - Jakob-Creutzfeldt disease
+^ESCTJU361851	Juvenile taboparesis
+^ESCTJU384967	Juvenile general paresis
+^ESCTJU514940	Juvenile tabes dorsalis
+^ESCTKE669493	Keystone virus encephalitis
+^ESCTKE669498	Keystone virus meningitis
+^ESCTKU500439	Kumlinge virus encephalitis
+^ESCTLA349275	La Crosse encephalitis
+^ESCTLA349276	LAC - La Crosse encephalitis
+^ESCTLA349277	La Crosse virus encephalitis
+^ESCTLA500413	Late congenital syphilitic meningitis
+^ESCTLA500453	Late syphilitic encephalitis
+^ESCTLA549159	Late quaternary neurosyphilis
+^ESCTLA669496	La Crosse meningitis
+^ESCTLB757734	LBSL - Leukoencephalopathy with brainstem and spinal cord involvement with lactate elevation
+^ESCTLC659842	LCM - Lymphocytic choriomeningitis
+^ESCTLE514795	Legionella encephalopathy
+^ESCTLE672966	Leptospira infection of the central nervous system
+^ESCTLE757733	Leukoencephalopathy with brainstem and spinal cord involvement and lactate elevation
+^ESCTLI289317	Listeria meningoencephalitis
+^ESCTLI300853	Listeria meningitis
+^ESCTLI514711	Listeria cerebritis
+^ESCTLI672967	Listeria infection of the central nervous system
+^ESCTLY272446	Lyssa
+^ESCTLY659537	Lymphocytic choriomeningitis virus encephalomyelitis
+^ESCTMA500427	Malignant ventriculitis
+^ESCTMA500428	Malignant ventriculitis, brain
+^ESCTME272549	Meningitis due to Cryptococcus
+^ESCTME278476	Meningoencephalitis due to acquired toxoplasmosis
+^ESCTME314521	Meningoencephalitis caused by mumps
+^ESCTME334746	Meningoencephalitis due to Naegleria
+^ESCTME334747	Meningoencephalitis caused by Naegleria
+^ESCTME344506	Meningitis, viral
+^ESCTME388824	Meningoeruptive syndrome
+^ESCTME406378	Meningitis, bacterial
+^ESCTME476760	Meningococcal cerebrospinal fever
+^ESCTME476764	Meningitis caused by typhoid fever
+^ESCTME476768	Meningitis caused by pertussis
+^ESCTME476770	Meningitis caused by bacillus pyocyaneus
+^ESCTME476776	Meningitis caused by Friedlander bacillus
+^ESCTME476777	Meningitis caused by klebsiella pneumoniae
+^ESCTME476790	Meningeal sarcoidosis
+^ESCTME476792	Meningitis with clear cerebrospinal fluid
+^ESCTME500412	Meningitis in Lyme disease
+^ESCTME514957	Meningovascular syphilis - quaternary stage
+^ESCTME514958	Meningovascular syphilis
+^ESCTME603005	Meningococcal meningitis with acute meningococcal septicemia
+^ESCTME604295	Meningococcal meningitis with meningococcal septicemia
+^ESCTME672968	Measles of the central nervous system
+^ESCTME688809	Measles inclusion body encephalitis
+^ESCTME695681	Meningitis due to Klebsiella mobilis
+^ESCTME695682	Meningitis caused by Klebsiella mobilis
+^ESCTME695683	Meningitis caused by Enterobacter aerogenes
+^ESCTME695684	Meningitis caused by Aerobacter aerogenes
+^ESCTME705091	Meningitis with gram negative bacteria
+^ESCTME730215	Meningitis due to anaerobic bacteria
+^ESCTME730216	Meningitis caused by anaerobic bacteria
+^ESCTME730434	Meningitis due to Haemophilus influenzae type B
+^ESCTME730435	Meningitis caused by Haemophilus influenzae type B
+^ESCTME770685	Meningitis caused by Histoplasma capsulatum
+^ESCTME770686	Meningitis caused by Histoplasma duboisii
+^ESCTME770687	Meningitis caused by Histoplasmosis
+^ESCTME781049	Meningitis caused by Bacillus anthracis
+^ESCTME781050	Meningitis due to anthrax
+^ESCTME781417	Meningitis caused by gram-negative aerobic coccus
+^ESCTME781419	Meningitis caused by gram-negative aerobic bacillus
+^ESCTME781421	Meningitis caused by Spirochaetes
+^ESCTME781422	Meningitis caused by Paramyxovirus
+^ESCTME782190	Meningitis caused by Enterobacter
+^ESCTME782231	Meningitis caused by Streptococcus agalactiae
+^ESCTME782236	Meningitis caused by Enterococcus
+^ESCTME782238	Meningitis caused by methicillin resistant Staphylococcus aureus
+^ESCTME782239	Methicillin resistant Staphyloccus aureus meningitis
+^ESCTME782244	Meningitis caused by Actinomycetales
+^ESCTME782246	Meningitis caused by Nocardia
+^ESCTME782247	Meningitis due to Nocardia species
+^ESCTME782249	Meningitis caused by Tropheryma whipplei
+^ESCTME782272	Meningitis caused by Human poliovirus
+^ESCTME782280	Meningitis caused by Epstein-Barr virus
+^ESCTME782282	Meningitis caused by Human cytomegalovirus 5
+^ESCTME782324	Meningitis caused by Mucorales
+^ESCTME782325	Meningitis due to Mucormycosis
+^ESCTME782364	Meningitis caused by Trypanosoma brucei
+^ESCTME782365	Meningitis due to African trypanosomiasis
+^ESCTME782383	Meningitis caused by Taenia solium
+^ESCTME782384	Meningitis due to cysticercosis
+^ESCTME783315	Meningitis caused by Human enterovirus 71
+^ESCTME783317	Meningitis caused by Human enterovirus 70
+^ESCTME804122	Meningitis caused by arbovirus infection
+^ESCTME846181	Meningitis due to Sporothrix schenkii
+^ESCTME846182	Meningitis caused by Sporothrix schenkii
+^ESCTME846646	Meningitis due to Chagas disease
+^ESCTME846647	Meningitis due to infectious mononucleosis
+^ESCTME846648	Meningococcal retrobulbar neuritis
+^ESCTME846650	Meningoencephalitis due to Acanthamoeba
+^ESCTME846651	Meningoencephalitis caused by Acanthamoeba
+^ESCTME846652	Meningoencephalitis due to Chagas disease
+^ESCTMI688811	MIBE - Measles inclusion body encephalitis
+^ESCTMO383307	Mollaret's meningitis
+^ESCTMO383309	Mollaret meningitis
+^ESCTMO476780	Morganella morganii meningitis
+^ESCTMU285461	Multifocal leukoencephalopathy
+^ESCTMU285463	Multifocal leucoencephalopathy
+^ESCTMU314520	Mumps meningoencephalitis
+^ESCTMU358066	Murray River encephalitis
+^ESCTMU358067	Murray Valley encephalitis
+^ESCTMU785760	Multiple brain abscesses
+^ESCTMV358064	MVE
+^ESCTMV358065	MVE - Murray Valley encephalitis
+^ESCTMY335447	Myalgic encephalomyelitis syndrome
+^ESCTMY335451	Myalgic encephalitis
+^ESCTMY335452	Myalgic encephalopathy
+^ESCTMY672973	Mycobacterial infection of the central nervous system
+^ESCTMY706159	Myelitis due to herpes simplex
+^ESCTMY706160	Myelitis caused by herpes simplex
+^ESCTMY771732	Myelopathy caused by Human T-lymphotropic virus 1
+^ESCTMY781426	Myelitis caused by bacterium
+^ESCTMY781428	Myelitis caused by fungus
+^ESCTMY781432	Myelitis caused by virus
+^ESCTNA672976	Naegleria infection of the central nervous system
+^ESCTNA674765	Nairoviral encephalitis
+^ESCTNE261082	Negishi encephalitis
+^ESCTNE500476	Neuro - Whipple's disease
+^ESCTNE500478	Neuro - Whipple disease
+^ESCTNE558898	Neonatal meningitis
+^ESCTNE689365	Neuroinvasive Powassan encephalitis virus infection
+^ESCTNE689527	Neuroinvasive Venezuelan equine encephalitis virus infection
+^ESCTNE689528	Neuroinvasive Venezuelan equine encephalitis
+^ESCTNE690178	Neuroinvasive California encephalitis virus infection
+^ESCTNE690772	Neuroinvasive Eastern equine encephalitis virus infection
+^ESCTNE690773	Neuroinvasive Eastern equine encephalitis virus disease
+^ESCTNE690934	Neuroinvasive St. Louis encephalitis virus infection
+^ESCTNE690940	Neuroinvasive Saint Louis encephalitis virus infection
+^ESCTNE691218	Neuroinvasive Cache Valley encephalitis virus infection
+^ESCTNE694809	Neuroinvasive Cache Valley virus disease
+^ESCTNE699090	Neuroinvasive Western equine encephalitis virus infection
+^ESCTNI782323	Nipah virus encephalitis
+^ESCTNO782248	Nocardia meningitis
+^ESCTNV593163	nvCJD - New variant of Creutzfeldt-Jakob disease
+^ESCTOR368533	Oropouche virus disease
+^ESCTPA334166	Paretic neurosyphilis
+^ESCTPA334170	Paralytic dementia
+^ESCTPA348111	Parenchymal intracranial abscess
+^ESCTPA500414	Parasitic meningitis
+^ESCTPA500461	PAM - Primary amoebic meningoencephalitis
+^ESCTPA500465	PAM - Primary amebic meningoencephalitis
+^ESCTPA672979	Parasitic infection of the central nervous system
+^ESCTPA672980	Parvovirus infection of the central nervous system
+^ESCTPA686877	Paralytic rabies
+^ESCTPA781423	Paramyxovirus meningitis
+^ESCTPA781430	Parasitic infection causing myelitis
+^ESCTPA781431	Parasitic myelitis
+^ESCTPA783325	Parkinsonism co-occurrent and due to acute infection
+^ESCTPA783326	Parkinsonism in acute infection
+^ESCTPA783327	Parkinsonism due to human immunodeficiency virus infection
+^ESCTPH474430	Phaeohyphomycotic brain abscess
+^ESCTPH474431	Pheohyphomycotic brain abscess
+^ESCTPH474432	Pheomycotic brain abscess
+^ESCTPM285464	PML - Progressive multifocal leucoencephalopathy
+^ESCTPM285465	PMLE - Progressive multifocal leukoencephalopathy
+^ESCTPM285466	PMLE - Progressive multifocal leucoencephalopathy
+^ESCTPM659782	PM - Poliomyelitis
+^ESCTPO420074	Post measles encephalitis
+^ESCTPO474221	Postchickenpox encephalitis
+^ESCTPO476809	Post-immunisation encephalitis
+^ESCTPO476810	Post-immunization encephalitis
+^ESCTPO476812	Post-bacillus Calmette-Guerin vaccination encephalitis
+^ESCTPO500409	Post measles meningitis
+^ESCTPO659781	Polio
+^ESCTPO659783	Poliomyelitis
+^ESCTPO689366	Powassan encephalitis
+^ESCTPO751209	Postoperative bacterial meningitis
+^ESCTPO782273	Polio virus meningitis
+^ESCTPO782294	Polyoma virus encephalitis
+^ESCTPR266069	Progressive rubella panencephalitis
+^ESCTPR282554	Prion disease
+^ESCTPR285460	Progressive multifocal leukoencephalopathy
+^ESCTPR334165	Progressive general paresis
+^ESCTPR349771	Protozoal myelitis
+^ESCTPR396714	Progressive subcortical gliosis
+^ESCTPR500458	Primary amoebic encephalitis
+^ESCTPR500459	Primary amebic encephalitis
+^ESCTPR591131	Progressive congenital rubella encephalomyelitis
+^ESCTPR591248	Proteus meningitis
+^ESCTPR605072	Progressive locomotor ataxia
+^ESCTPR672944	Primary encephalitis
+^ESCTPR695629	Progressive multifocal leucoencephalopathy associated with AIDS
+^ESCTPR695630	Progressive multifocal leukoencephalopathy associated with AIDS
+^ESCTPR695631	Progressive multifocal leukoencephalopathy associated with acquired immunodeficiency syndrome
+^ESCTPR695632	Progressive multifocal leucoencephalopathy associated with acquired immunodeficiency syndrome
+^ESCTPR708448	Primary amoebic encephalitis due to Naegleria fowleri
+^ESCTPR708449	Primary amebic encephalitis due to Naegleria fowleri
+^ESCTPR708450	Primary amoebic encephalitis caused by Naegleria fowleri
+^ESCTPR708451	Primary amebic encephalitis caused by Naegleria fowleri
+^ESCTPR709133	Primary viral encephalitis
+^ESCTPR770467	Progressive multifocal leucoencephalopathy co-occurrent with human immunodeficiency virus infection
+^ESCTPR770468	Progressive multifocal leukoencephalopathy co-occurrent with human immunodeficiency virus infection
+^ESCTPR795772	Prion protein systemic amyloidosis
+^ESCTPR795774	PrP (prion protein) systemic amyloidosis
+^ESCTQF678061	Q fever aseptic meningitis
+^ESCTQF678062	Q fever encephalitis
+^ESCTRA500472	Rasmussen encephalitis
+^ESCTRA514810	Rabies prodrome
+^ESCTRA514812	Rabies coma
+^ESCTRA514813	Rabies - recovery phase
+^ESCTRH474447	Rhinocerebral phycomycosis
+^ESCTRH500442	Rhabdovirus encephalitis
+^ESCTRI687400	Rio Bravo viral encephalitis
+^ESCTRO500437	Rocio virus encephalitis
+^ESCTRU270984	Rubella meningoencephalitis
+^ESCTRU420072	Rubella infection of central nervous system
+^ESCTRU474248	Russian spring-summer encephalitis
+^ESCTRU782317	Rubulavirus encephalitis
+^ESCTRU846719	Rubella meningitis
+^ESCTSA476788	Sarcoid meningitis
+^ESCTSA690937	Saint Louis encephalitis
+^ESCTSC782372	Schistosoma encephalitis
+^ESCTSC782374	Schistosoma haematobium encephalitis
+^ESCTSC782376	Schistosoma mansoni encephalitis
+^ESCTSC782378	Schistosoma japonicum encephalitis
+^ESCTSE476761	Secondary syphilitic meningitis
+^ESCTSE500503	Septic thrombophlebitis of great cerebral vein
+^ESCTSE514952	Secondary neurosyphilis
+^ESCTSE591252	Septic thrombophlebitis of lateral sinus
+^ESCTSE634934	Seizures complicating infection
+^ESCTSE636740	Seizures complicating infection in the newborn
+^ESCTSI274295	Simian B encephalomyelitis
+^ESCTSI687876	Siberian tick-borne encephalitis
+^ESCTSL420053	Slow virus infection
+^ESCTSL690936	SLE - Saint Louis encephalitis
+^ESCTSN669497	Snowshoe hare meningitis
+^ESCTSP353470	Spinal epidural abscess
+^ESCTSP353471	Spinal extradural abscess
+^ESCTSP372444	Spastic spinal syphilitic paralysis
+^ESCTSP474207	Spinal paralytic poliomyelitis
+^ESCTSP500583	Spongiform encephalopathy
+^ESCTSP769925	Sporadic Jakob-Creutzfeldt disease
+^ESCTSP781440	Spinal subdural infectious cyst
+^ESCTSP781442	Spinal epidural infectious cyst
+^ESCTSS476794	SSPE - Subacute sclerosing panencephalitis
+^ESCTST500410	Staphylococcus aureus meningitis
+^ESCTST500411	Staphylococcus epidermidis meningitis
+^ESCTST634816	Staphylococcus epidermidis ventriculitis
+^ESCTST669490	St. Louis meningitis
+^ESCTST673015	Streptococcus infection of the central nervous system
+^ESCTST690935	St. Louis encephalitis virus neuroinvasive disease
+^ESCTST690938	St. Louis encephalitis
+^ESCTSU251097	Subacute spongiform encephalopathy
+^ESCTSU420052	Subacute adenoviral encephalitis
+^ESCTSU500486	Subdural supratentorial pyogenic abscess
+^ESCTSU500487	Subdural infratentorial pyogenic abscess
+^ESCTSU697147	Subacute adenoviral encephalitis associated with AIDS
+^ESCTSU697148	Subacute adenoviral encephalitis associated with acquired immunodeficiency syndrome
+^ESCTSU770177	Subacute adenoviral encephalitis co-occurrent with human immunodeficiency virus infection
+^ESCTSY284226	Syphilitic gumma of central nervous system
+^ESCTSY291660	Syphilis of central nervous system
+^ESCTTA271098	Taboparesis
+^ESCTTA271099	Tabo paresis
+^ESCTTA513976	Tabetic joint
+^ESCTTA606049	Tabetic neurosyphilis
+^ESCTTB276837	TBE - Central European tick-borne encephalitis
+^ESCTTB344953	TB - Tuberculous meningitis
+^ESCTTB344954	TBM - Tuberculous meningitis
+^ESCTTE476807	TE - Toxoplasma encephalitis
+^ESCTTE500438	Tensaw encephalitis
+^ESCTTH333685	Thogoto virus disease
+^ESCTTH333686	Thogoto fever
+^ESCTTI769822	Tickborne encephalitis
+^ESCTTO476803	Toxoplasmosis of brain
+^ESCTTO673023	Toxicariasis of the central nervous system
+^ESCTTO689925	Toxoplasma neuroretinitis
+^ESCTTO689926	Toxoplasmosis neuroretinitis
+^ESCTTR251100	Transmissible virus dementia
+^ESCTTR258825	Trypanosomiasis with meningitis
+^ESCTTR276378	Transverse myelopathy syndrome
+^ESCTTR366267	Trypanosomiasis with encephalitis
+^ESCTTR771731	Tropical spastic paraparesis
+^ESCTTR782250	Tropheryma whipplei meningitis
+^ESCTTU270155	Tuberculosis of brain
+^ESCTTU344951	Tuberculosis of meninges
+^ESCTTU733355	Tuberculosis of spinal cord
+^ESCTTU733703	Tuberculous arachnoiditis
+^ESCTTU733835	Tuberculous abscess of epidural space
+^ESCTTU748802	Tuberculoma of spinal cord confirmed
+^ESCTTY690939	Type C lethargic encephalitis
+^ESCTVA266688	Varicella-zoster meningitis
+^ESCTVA288382	Varicella cerebellar ataxia
+^ESCTVA474223	Varicella encephalitis
+^ESCTVA620517	Van Bogaert's sclerosing leucoencephalitis
+^ESCTVA620518	Van Bogaert's sclerosing leukoencephalitis
+^ESCTVA620519	Van Bogaert sclerosing leukoencephalitis
+^ESCTVA781312	Variably protease sensitive prionopathy
+^ESCTVC593164	vCJD - variant Creutzfeldt-Jakob disease
+^ESCTVI500421	Viral ventriculitis
+^ESCTVI500422	Viral ventriculitis, brain
+^ESCTVI591129	Viral disease of central nervous system
+^ESCTVI781433	Viral myelitis
+^ESCTVO474215	Von Economo's disease
+^ESCTWE276838	Western European tick-borne encephalitis
+^ESCTWE326831	WEE
+^ESCTWE326832	Western equine encephalomyelitis
+^ESCTWE326833	WEE - Western equine encephalitis
+^ESCTWE654511	West Nile encephalitis
+^ESCTWE669489	West Nile meningitis
+^ESCTWE687878	West-Siberian tick-borne encephalitis
+^ESCTWH783408	White matter disorder caused by infection
+EMISNQSP44	Sporadic Creutzfeldt-Jakob disease
+EMISNQVA13	Variant Creutzfeldt-Jakob disease
