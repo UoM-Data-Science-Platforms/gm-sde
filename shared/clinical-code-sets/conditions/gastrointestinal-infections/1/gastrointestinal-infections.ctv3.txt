@@ -133,3 +133,4 @@ XE0Ql	Campylobacter gastrointestinal tract infection
 XE0Qz	Ileocaecal actinomycosis
 XM0pJ	Bacterial gastroenteritis
 XM0pK	Bacillary dysentery
+X301R	Helicobacter gastritis
