@@ -1,0 +1,21 @@
+{
+  "code-sets": [
+    { "name": "bone-infection", "version": "1" },
+    { "name": "cardiovascular-infection", "version": "1" },
+    { "name": "cellulitis", "version": "1" },
+    { "name": "diverticulitis", "version": "1" },
+    { "name": "gastrointestinal-infections", "version": "1" },
+    { "name": "genital-tract-infections", "version": "1" },
+    { "name": "hepatobiliary-infection", "version": "1" },
+    { "name": "infection-other", "version": "1" },
+    { "name": "lrti", "version": "1" },
+    { "name": "muscle-infection", "version": "1" },
+    { "name": "neurological-infection", "version": "1" },
+    { "name": "peritonitis", "version": "1" },
+    { "name": "puerpural-infection", "version": "1" },
+    { "name": "pyelonephritis", "version": "1" },
+    { "name": "urti-bacterial", "version": "1" },
+    { "name": "urti-viral", "version": "1" },
+    { "name": "uti", "version": "2" }
+  ]
+}
