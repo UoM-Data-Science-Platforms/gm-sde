@@ -3653,22 +3653,6 @@ AD102	Trichomonal urethritis
 K01x2	Nephrotic syndrome in malaria
 K0y0.	Late syphilis of kidney
 K10..	Infection of kidney
-K100.	Chronic pyelonephritis
-K1001	Chronic pyelonephritis with medullary necrosis
-K1003	Chronic pyonephrosis
-K1004	Non-obstructive reflux-associated chronic pyelonephritis
-K1006	Calculous pyelonephritis
-K100z	Chronic pyelonephritis NOS
-K101.	Acute pyelonephritis
-K1010	Acute pyelonephritis without medullary necrosis
-K1011	Acute pyelonephritis with medullary necrosis
-K1013	Acute pyonephrosis
-K101z	Acute pyelonephritis NOS
-K10y.	Pyelonephritis and pyonephrosis unspecified
-K10y0	Pyelonephritis unspecified
-K10y2	Pyonephrosis unspecified
-K10y3	Pyelonephritis in diseases EC
-K10yz	Unspecified pyelonephritis NOS
 K10z.	Infection of kidney NOS
 K15..	Inflammation of bladder
 K152.	Other chronic cystitis

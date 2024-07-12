@@ -1,4 +1,3 @@
-^ESCT1170449	Pyelonephritis in pregnancy
 ^ESCT1171905	Uncomplicated urinary tract infection
 ^ESCT1171906	Uncomplicated UTI (urinary tract infection)
 ^ESCT1181250	Candida cystitis
@@ -14,8 +13,6 @@
 ^ESCT1391084	Herpes simplex infection of urinary tract
 ^ESCT1393744	Bladder disorder caused by Schistosoma
 ^ESCT1393745	Bladder disorder caused by Schistosoma japonicum
-^ESCT1393815	Acute pyelonephritis caused by bacterium
-^ESCT1393816	Acute bacterial pyelonephritis
 ^ESCT1406142	Non-venereal urethritis
 ^ESCT1406143	Nonvenereal urethritis
 ^ESCT1409594	Pseudomonas urinary tract infection
@@ -24,19 +21,15 @@
 ^ESCTAB729856	Abscess of urethral gland due to Neisseria gonorrhoeae
 ^ESCTAB729858	Abscess of urethral gland caused by Neisseria gonorrhoeae
 ^ESCTAC258088	Actinomycotic cystitis
-^ESCTAC261840	Acute pyonephrosis with renal medullary necrosis
 ^ESCTAC276584	Acute tubulointerstitial nephritis associated with systemic infection
 ^ESCTAC285627	Acute bacterial tubulointerstitial nephritis
 ^ESCTAC285628	Acute bacterial T.I.N.
 ^ESCTAC294633	Acute viral tubulointerstitial nephritis
 ^ESCTAC294634	Acute viral T.I.N.
-^ESCTAC309135	Acute PN - pyelonephritis
 ^ESCTAC309137	Acute kidney infection
 ^ESCTAC358930	Acute infectious tubulointerstitial nephritis
-^ESCTAC388968	Acute pyonephrosis without renal medullary necrosis
 ^ESCTAC398199	Acute fungal tubulointerstitial nephritis
 ^ESCTAC398200	Acute fungal T.I.N.
-^ESCTAC435550	Acute focal pyelonephritis
 ^ESCTAC509369	Acquired immune deficiency syndrome-related nephropathy
 ^ESCTAC509768	Acute culture positive cystitis
 ^ESCTAC596814	Acute infective cystitis
@@ -48,7 +41,6 @@
 ^ESCTAI509370	AIDS - Acquired immune deficiency synd-related nephropathy
 ^ESCTAM263999	Amoebic cystitis
 ^ESCTAM264003	Amebic cystitis
-^ESCTAP309136	APN - Acute pyelonephritis
 ^ESCTBA601306	Bacterial urinary infection
 ^ESCTBA601307	Bacterial UTI (urinary tract infection)
 ^ESCTBA702854	Bacterial cystitis
@@ -66,14 +58,12 @@
 ^ESCTBL702855	Bladder infection due bacteria
 ^ESCTCA509643	Candida ureteritis
 ^ESCTCA509793	Candiduria
-^ESCTCH478924	Chronic non-obstructive atrophic pyelonephritis
 ^ESCTCH509673	Chronic infective cystitis
 ^ESCTCH708331	Chronic lower urinary tract infection
 ^ESCTCH708332	Chronic lower UTI (urinary tract infection)
 ^ESCTCH846186	Chlamydial cystitis
 ^ESCTCM509631	CMV - Cytomegalovirus-induced glomerulonephritis
 ^ESCTCO588801	Coliform urinary tract infection
-^ESCTCP352946	CPN - Chronic pyelonephritis
 ^ESCTCY258086	Cystitis with actinomycosis
 ^ESCTCY264000	Cystitis with amebiasis
 ^ESCTCY264001	Cystitis with amoebiasis
@@ -87,7 +77,6 @@
 ^ESCTCY478980	Cystitis in gonorrhea
 ^ESCTCY846185	Cystitis due to Chlamydia
 ^ESCTCY846187	Cystitis caused by Chlamydia
-^ESCTDI435551	Diffuse pyelonephritis
 ^ESCTDI782370	Disorder of kidney and/or ureter caused by Schistosoma haematobium
 ^ESCTDI846431	Diphtheria tubulointerstitial nephropathy
 ^ESCTEC337638	Echinococcal cystitis
@@ -95,10 +84,8 @@
 ^ESCTES588802	Escherichia coli urinary tract infection
 ^ESCTFA358767	Failed attempted termination of pregnancy with urinary tract infection
 ^ESCTFA358768	Failed attempted abortion with urinary tract infection
-^ESCTFA761379	Familial non-obstructive reflux-associated chronic pyelonephritis
 ^ESCTFA761380	Familial reflux nephropathy
 ^ESCTFE803134	Febrile urinary tract infection
-^ESCTFO435549	Focal pyelonephritis
 ^ESCTFU509328	Fungal infection of kidney
 ^ESCTGO478979	Gonococcal cystitis
 ^ESCTGO509749	Gonococcal urethral abscess
@@ -124,7 +111,6 @@
 ^ESCTMI252178	Miscarriage with urinary tract infection
 ^ESCTMO478982	Monilial cystitis
 ^ESCTMU277169	Mumps nephritis
-^ESCTMY406384	Mycoplasmal pyelonephritis
 ^ESCTNE478925	Nephropathy associated with vesicoureteral reflux
 ^ESCTNE771097	Nephropathy caused by BK polyomavirus
 ^ESCTNG332819	NGU due to ureaplasma urealyticum
@@ -135,17 +121,14 @@
 ^ESCTNO332821	Nongonococcal urethritis caused by Ureaplasma urealyticum
 ^ESCTNO387636	Nongonococcal urethritis
 ^ESCTNO387643	Nonspecific genital infection
-^ESCTNO478923	Non-obstructive reflux-associated chronic pyelonephritis
 ^ESCTNS387641	NSU - Nonspecific urethritis
 ^ESCTNS387642	NSGI - Nonspecific genital infection
-^ESCTOB797819	Obstructive pyelonephritis
 ^ESCTPO479565	Postpartum urinary tract infection
 ^ESCTPR252180	Pregnancy loss with urinary tract infection
 ^ESCTPR588803	Proteus urinary tract infection
 ^ESCTPR588804	Proteus UTI (urinary tract infection)
 ^ESCTPS315404	Pseudomonal cystitis
 ^ESCTPY389592	Pyoureter
-^ESCTPY478933	Pyelonephritis associated with another disorder
 ^ESCTPY638326	Pyocystis
 ^ESCTRE373109	Renal coccidiosis
 ^ESCTRE474462	Renal hydatid cyst
@@ -159,20 +142,16 @@
 ^ESCTRE515143	Renal tract candidiasis
 ^ESCTRE634083	Renal candidiasis
 ^ESCTRE634084	Renal candidosis
-^ESCTRE700545	Recurrent obstructive pyelonephritis
 ^ESCTRE704620	Recurrent bacterial cystitis
 ^ESCTRE770430	Renal impairment caused by Polyomavirus
 ^ESCTRE803481	Reactive arthritis co-occurrent and due to nonspecific urethritis
 ^ESCTRN478926	RN - Reflux nephropathy
-^ESCTSA846721	Salmonella pyelonephritis
 ^ESCTSC349070	Schistosoma haematobium infection
 ^ESCTSC349073	Schistosomiasis of bladder
 ^ESCTSC509641	Schistosomiasis of ureter
 ^ESCTSC509745	Schistosomiasis of the urethra
 ^ESCTSC509747	Schistosomal urethral fistula
-^ESCTSE478935	Secondary pyelonephritis
 ^ESCTSP252179	Spontaneous abortion with urinary tract infection
-^ESCTSU435372	Subacute pyelonephritis
 ^ESCTSU605174	Suspected UTI (urinary tract infection)
 ^ESCTSU605176	Suspected urinary tract infection
 ^ESCTTB301956	TB - Tuberculous cystitis

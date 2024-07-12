@@ -49,7 +49,6 @@ SP07Q11	CAUTI - catheter-associated urinary tract infection
 A160.00	Tuberculosis of kidney
 A160000	Tuberculous nephropathy
 A160100	Tuberculous pyelitis
-A160200	Tuberculous pyelonephritis
 A160z00	Tuberculosis of kidney NOS
 A162.00	Tuberculosis of ureter
 A163.00	Tuberculosis of other urinary organs
@@ -63,28 +62,6 @@ K08y700	Acute infective interstitial nephritis
 K0A9.00	Cytomegalovirus-induced glomerulonephritis
 K0y0.00	Late syphilis of kidney
 K10..00	Infections of kidney
-K100.00	Chronic pyelonephritis
-K100100	Chronic pyelonephritis with medullary necrosis
-K100300	Chronic pyonephrosis
-K100400	Nonobstructive reflux-associated chronic pyelonephritis
-K100500	Chronic obstructive pyelonephritis
-K100600	Calculous pyelonephritis
-K100z00	Chronic pyelonephritis NOS
-K101.00	Acute pyelonephritis
-K101000	Acute pyelonephritis without medullary necrosis
-K101100	Acute pyelonephritis with medullary necrosis
-K101300	Acute pyonephrosis
-K101400	Emphysematous pyelonephritis
-K101500	Emphysematous pyelitis
-K101z00	Acute pyelonephritis NOS
-K105.00	Chronic infective interstitial nephritis
-K106.00	Candida pyelonephritis
-K10y.00	Pyelonephritis and pyonephrosis unspecified
-K10y000	Pyelonephritis unspecified
-K10y200	Pyonephrosis unspecified
-K10y300	Pyelonephritis in diseases EC
-K10yz00	Unspecified pyelonephritis NOS
-K10z.00	Infection of kidney NOS
 K152.00	Other chronic cystitis
 K152z00	Other chronic cystitis NOS
 K154300	Cystitis in echinococcus infestation
