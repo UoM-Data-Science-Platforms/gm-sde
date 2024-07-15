@@ -2,6 +2,7 @@
 --│ SDE Lighthouse study 06 - Chen - adverse events          │
 --└──────────────────────────────────────────────────────────┘
 
+
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
 

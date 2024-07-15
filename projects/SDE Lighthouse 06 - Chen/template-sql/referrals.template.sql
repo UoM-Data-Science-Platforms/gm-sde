@@ -1,33 +1,23 @@
---┌──────────────────────────────────────────┐
---│ SDE Lighthouse study 06 - Chen           │
---└──────────────────────────────────────────┘
-
---Just want the output, not the messages
-SET NOCOUNT ON;
-
-DECLARE @StartDate datetime;
-DECLARE @EndDate datetime;
-SET @StartDate = '2017-01-01';
-SET @EndDate = '2023-12-31';
+--┌────────────────────────────────────────────────────┐
+--│ SDE Lighthouse study 06 - Chen - referrals         │
+--└────────────────────────────────────────────────────┘
 
 --> EXECUTE query-build-lh006-cohort.sql
 
--- CODESET acute-pain-service:1 social-care-prescribing:1 pain-management:1 surgery:1
+--> CODESET acute-pain-service:1 social-care-prescribing:1 pain-management:1 surgery:1
 
---bring together for final output
---patients in main cohort
-SELECT	 PatientId = FK_Patient_Link_ID
-FROM #Cohort p
 
+DROP TABLE IF EXISTS Prescriptions;
+CREATE TEMPORARY TABLE Prescriptions AS
 SELECT 
-	PatientId = FK_Patient_Link_ID, 
-	CodingDate = CAST(EventDate AS DATE), 
-    Code = SuppliedCode, 
-	Concept = a.Concept
-	CodeDescription = a.description  
-FROM SharedCare.GP_Events gp
-LEFT OUTER JOIN #AllCodes a ON gp.SuppliedCode = a.Code
-WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept NOT IN ('cancer', 'opoid-analgesics', 'chronic-pain'))) 
-	AND gp.EventDate BETWEEN @StartDate AND @EndDate
-	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	gp."FK_Patient_ID", 
+	TO_DATE("EventDate") AS "EventDate", 
+	"SuppliedCode"
+FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" gp
+INNER JOIN VersionedCodeSets vcs ON vcs.FK_Reference_Coding_ID = gp."FK_Reference_Coding_ID" AND vcs.Version =1
+INNER JOIN VersionedSnomedSets vss ON vss.FK_Reference_SnomedCT_ID = gp."FK_Reference_SnomedCT_ID" AND vss.Version =1
+WHERE 
+GP."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort) AND
+vcs.Concept not in ('chronic-pain', 'opioids', 'cancer') AND
+gp."EventDate" BETWEEN $StudyStartDate and $StudyEndDate;    -- only looking at referrals in the study period
 
