@@ -136,10 +136,21 @@ GROUP BY FK_Patient_ID
 
 --- death table to join to later
 
-/* SELECT 
-FROM PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" death 
-LEFT JOIN */
-
+DROP TABLE IF EXISTS Death;
+CREATE TEMPORARY TABLE Death AS
+SELECT 
+    DEATH."GmPseudo",
+    TO_DATE(DEATH."RegisteredDateOfDeath") AS DeathDate,
+    OM."DiagnosisOriginalMentionCode",
+    OM."DiagnosisOriginalMentionDesc",
+    OM."DiagnosisOriginalMentionChapterCode",
+    OM."DiagnosisOriginalMentionChapterDesc",
+    OM."DiagnosisOriginalMentionCategory1Code",
+    OM."DiagnosisOriginalMentionCategory1Desc"
+FROM PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" DEATH
+LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions" OM 
+        ON OM."XSeqNo" = DEATH."XSeqNo" AND OM."DiagnosisOriginalMentionNumber" = 1
+WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards);
 
 -- create cohort of patients
 -- join to demographic table to get ethnicity and date of birth
@@ -163,7 +174,7 @@ LEFT OUTER JOIN        -- use row_number to filter demographics table to most re
 	SELECT 
 		*, 
 		ROW_NUMBER() OVER (PARTITION BY FK_Patient_ID ORDER BY Snapshot DESC) AS ROWNUM
-	FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p 
+	FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics" p 
 	) dem	ON p.FK_Patient_ID = i.FK_Patient_ID
 WHERE dem.ROWNUM = 1
 ---------------------------------------------------------------------------------------------------------------
