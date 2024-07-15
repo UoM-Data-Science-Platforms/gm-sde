@@ -2,6 +2,8 @@
 --│ LH004 Patient file                 │
 --└────────────────────────────────────┘
 
+set(StudyStartDate) = to_date('2018-01-01');
+set(StudyEndDate)   = to_date('2024-05-31');
 
 ---- find the latest snapshot for each spell, to get all virtual ward patients
 drop table if exists virtualWards;
@@ -31,8 +33,8 @@ WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards);
 
 -- patient demographics table
 
-DROP TABLE IF EXISTS Patients;
-CREATE TEMPORARY TABLE Patients AS 
+--DROP TABLE IF EXISTS Patients;
+--CREATE TEMPORARY TABLE Patients AS 
 SELECT * EXCLUDE (rownum)
 FROM (
 SELECT 
@@ -48,19 +50,19 @@ SELECT
     "DiagnosisOriginalMentionCategory1Code" AS CauseOfDeathCategoryCode,
     "DiagnosisOriginalMentionCategory1Desc" AS CauseOfDeathCategoryDesc,
 	LSOA11, 
-	tow.quintile AS "TownsendQuintile", 
+	"IMD_Decile", 
 	"Age", 
 	"Sex", 
 	"EthnicityLatest_Category", 
 	"MarriageCivilPartership",
 	row_number() over (partition by D."GmPseudo" order by "Snapshot" desc) rownum
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" D
-LEFT JOIN INTERMEDIATE.GP_RECORD.TOWNSENDSCORE_LSOA_2011 tow on tow.geo_code = D.LSOA11
+FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D
 LEFT JOIN Death dth ON dth."GmPseudo" = D."GmPseudo"
-WHERE D."GmPseudo" IN (select "GmPseudo" from virtualwards)
+WHERE D."GmPseudo" IN (select "GmPseudo" from virtualwards) -- patients in virtual ward table only
 )
-WHERE rownum = 1;
+WHERE rownum = 1; -- get latest demographic snapshot only
 
 ---------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
+--14k rows

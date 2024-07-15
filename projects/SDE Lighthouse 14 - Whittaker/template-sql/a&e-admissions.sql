@@ -4,6 +4,9 @@
 
 -- Date range: 2018 to present
 
+set(StudyStartDate) = to_date('2018-01-01');
+set(StudyEndDate)   = to_date('2024-05-31');
+
 ---- find the latest snapshot for each spell, to get all virtual ward patients
 
 drop table if exists virtualWards;
@@ -18,7 +21,9 @@ SELECT
 E."GmPseudo", 
 TO_DATE(E."ArrivalDate") AS "ArrivalDate",
 E."EcDuration" AS LOS_Mins,
-E."EcChiefComplaintSnomedCtDesc" AS ChiefComplaint
+E."EcChiefComplaintSnomedCtCode" AS ChiefComplaintCode
+E."EcChiefComplaintSnomedCtDesc" AS ChiefComplaintDesc
 FROM PRESENTATION.NATIONAL_FLOWS_ECDS."DS707_Ecds" E
 WHERE "IsAttendance" = 1
 	AND "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards);
+	AND TO_DATE(E."ArrivalDate") BETWEEN $StudyStartDate AND $StudyEndDate

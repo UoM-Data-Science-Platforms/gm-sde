@@ -4,6 +4,9 @@
 
 -- Date range: 2018 to present
 
+set(StudyStartDate) = to_date('2018-01-01');
+set(StudyEndDate)   = to_date('2024-05-31');
+
 ---- find the latest snapshot for each spell, to get all virtual ward patients
 drop table if exists virtualWards;
 create temporary table virtualWards as
@@ -15,7 +18,7 @@ from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw;
 
 DROP TABLE IF EXISTS ManchesterTrusts;
 CREATE TEMPORARY TABLE ManchesterTrusts AS 
-SELECT top 1000 *
+SELECT *
 FROM PRESENTATION.NATIONAL_FLOWS_APC."DS708_Apcs"
 WHERE "ProviderDesc" IN 
     ('Manchester University NHS Foundation Trust',

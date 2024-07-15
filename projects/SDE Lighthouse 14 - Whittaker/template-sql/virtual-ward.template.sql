@@ -1,6 +1,10 @@
 --┌────────────────────────────────────┐
 --│ LH004 Virtual ward file            │
 --└────────────────────────────────────┘
+
+set(StudyStartDate) = to_date('2018-01-01');
+set(StudyEndDate)   = to_date('2024-05-31');
+
 ---- find the latest snapshot for each spell
 
 create temporary table virtualWards as
@@ -10,8 +14,8 @@ select
     vw."SnapshotDate",
     vw."Admission Source ID",
     adm."Admission Source Description",
-    vw."Admission Date",
-    vw."Discharge Date",
+    TO_DATE(vw."Admission Date") AS "Admission Date",
+    TO_DATE(vw."Discharge Date") AS "Discharge Date",
     vw."Length of stay",
     vw."LoS Group",
     vw."Year Of Birth",
@@ -23,8 +27,8 @@ select
     vw."Postcode_LSOA_2011",
     vw."ProviderName",
     vw."Referral Group",
-    vw."Referral Date",
-    vw."Referral Accepted Date",
+    TO_DATE(vw."Referral Date") AS "Referral Date",
+    TO_DATE(vw."Referral Accepted Date") AS "Referral Accepted Date",
     vw."Primary ICD10 Code Group ID",
     vw."Primary ICD10 Code Group",
     vw."Ward ID",
