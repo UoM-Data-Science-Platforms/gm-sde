@@ -1,3 +1,5 @@
-5771000119106	Phantom limb syndrome with pain (disorder)
-711057003	Phantom pain following amputation of lower limb (disorder)
-711058008	Phantom pain following amputation of upper limb (disorder)
+^ESCTFL477018	FLS - Phantom limb syndrome
+^ESCTPH477016	Phantom limb
+^ESCTPH768250	Phantom pain following amputation of lower limb
+^ESCTPH768251	Phantom pain following amputation of upper limb
+^ESCTPL477019	PLS - Phantom limb syndrome
