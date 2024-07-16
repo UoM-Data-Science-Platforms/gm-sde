@@ -1,0 +1,83 @@
+^ESCT1165696	Primary peritonitis
+^ESCT1362400	Eosinophilic peritonitis
+^ESCT1362401	Peritoneal eosinophilia
+^ESCT1362808	Aseptic peritoneal eosinophilia after dialysis
+^ESCT1362809	Aseptic peritoneal eosinophilia due to and following dialysis
+^ESCT1362810	Aseptic peritonitis after dialysis
+^ESCT1365278	Peritonitis due to abscess
+^ESCT1377762	Aseptic peritonitis following procedure
+^ESCT1390130	Pelvic peritonitis
+^ESCT1390131	Acute pelvic peritonitis
+^ESCT1390132	Inflammation of pelvis caused by Chlamydia trachomatis
+^ESCT1390133	Chronic inflammation of pelvic peritoneum
+^ESCT1390134	Chronic pelvic peritonitis
+^ESCT1391137	Typhoid peritonitis
+^ESCT1393817	Acute infective localised peritonitis
+^ESCT1405804	Chemical peritonitis due to and following a procedure
+^ESCTAB337817	Abscess of omentum
+^ESCTAB370252	Abscess of peritoneum
+^ESCTAC263939	Acute suppurative peritonitis
+^ESCTAC295534	Acute obstructive appendicitis with perforation AND peritonitis
+^ESCTAC296374	Acute appendicitis with generalized peritonitis
+^ESCTAC301323	Acute bacterial peritonitis
+^ESCTAC313773	Acute caecitis with perforation AND peritonitis
+^ESCTAC313774	Acute cecitis with perforation AND peritonitis
+^ESCTAC335760	Acute generalised peritonitis
+^ESCTAC335761	Acute generalized peritonitis
+^ESCTAC354491	Acute gangrenous appendicitis with perforation AND peritonitis
+^ESCTAC355715	Acute fulminating appendicitis with perforation AND peritonitis
+^ESCTAC750728	Acute appendicitis with localized peritonitis
+^ESCTAP351097	Appendicular abscess
+^ESCTAS367734	Aseptic peritonitis following a procedure
+^ESCTBA508828	Barium peritonitis
+^ESCTBI309230	Bile peritonitis
+^ESCTBI309232	Biliary peritonitis
+^ESCTCA751881	CAPD (Continuous ambulatory peritoneal dialysis) associated peritonitis
+^ESCTCH318156	Chemical peritonitis following a procedure
+^ESCTCH392242	Chronic peritonitis
+^ESCTCH479153	Chronic female pelvic peritonitis
+^ESCTFA332349	Failed attempted termination of pregnancy with pelvic peritonitis
+^ESCTFA332350	Failed attempted abortion with pelvic peritonitis
+^ESCTFE508823	Fecal peritonitis
+^ESCTFI329000	Fibrinous peritonitis
+^ESCTFU508824	Fungal peritonitis
+^ESCTGO596811	Gonococcal pelvic peritonitis
+^ESCTGR381194	Granulomatous peritonitis
+^ESCTIN442271	Infectious peritonitis
+^ESCTIN749878	Induced termination of pregnancy complicated by pelvic peritonitis
+^ESCTME343181	Meconium peritonitis
+^ESCTME389917	Metroperitonitis
+^ESCTME783738	Mesenteric peritonitis with mesenteric fat necrosis
+^ESCTME783739	Mesenteric peritonitis
+^ESCTME783740	Mesenteric peritonitis co-occurrent and due to mesenteric fat necrosis
+^ESCTMI389785	Miscarriage with pelvic peritonitis
+^ESCTPA478656	Paracolic abscess
+^ESCTPA508825	Parasitic peritonitis
+^ESCTPE328733	Peritonitis of undetermined cause
+^ESCTPE389916	Perimetritis
+^ESCTPE478659	Pericecal abscess
+^ESCTPE559205	Peritonitis secondary to peritoneal dialysis
+^ESCTPE708030	Peritonitis after surgery
+^ESCTPE714810	Peritonitis due to infected peritoneal dialysis catheter
+^ESCTPE832241	Peritonitis due to perforation of gastrointestinal tract
+^ESCTPO708029	Postoperative peritonitis
+^ESCTPO720991	Postcholecystectomy bile peritonitis
+^ESCTPR268848	Primary bacterial peritonitis
+^ESCTPU508819	Purulent peritonitis
+^ESCTRE278718	Retrocecal abscess
+^ESCTRE390527	Retractile mesenteritis
+^ESCTSB268850	SBP - Spontaneous bacterial peritonitis
+^ESCTSC770833	Sclerosing peritonitis as complication of peritoneal dialysis
+^ESCTSC770834	Sclerosing peritonitis due to peritoneal dialysis
+^ESCTSP389786	Spontaneous abortion with pelvic peritonitis
+^ESCTST508827	Starch peritonitis
+^ESCTSU296678	Subphrenic peritonitis
+^ESCTSU335078	Subdiaphragmatic abscess
+^ESCTSU508820	Suppurative peritonitis
+^ESCTTA508826	Talc peritonitis
+^ESCTTE749879	Termination of pregnancy complicated by pelvic peritonitis
+^ESCTTU321835	Tuberculosis of peritoneum
+^ESCTTU321837	Tuberculosis (TB) peritonitis
+^ESCTUR320277	Urine peritonitis
+^ESCTUR320278	Uroperitonitis
+^ESCTUR320279	Urinary peritonitis

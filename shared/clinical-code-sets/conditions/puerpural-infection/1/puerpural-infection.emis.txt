@@ -1,0 +1,19 @@
+^ESCT1191722	Infection of cesarean section AND/OR perineal wound
+^ESCT1192005	[X]Other specified puerperal infection
+^ESCT1192610	Major puerperal infection
+^ESCTBR480275	Breast abscess after childbirth
+^ESCTCH254459	Childbed fever
+^ESCTIN288838	Infection of caesarean section AND/OR perineal wound
+^ESCTOB480281	Obstetric non-purulent mastitis - delivered with postnatal complication
+^ESCTOB480282	Obstetric non-purulent mastitis with antenatal complication
+^ESCTOB480285	Obstetric non-purulent mastitis with postnatal complication
+^ESCTPO254461	Postpartum sepsis
+^ESCTPO468257	Postnatal infection
+^ESCTPO468258	Postpartum infection
+^ESCTPO480270	Postpartum nipple infection
+^ESCTPO480276	Postpartum breast abscess
+^ESCTPU254457	Puerperal septicemia
+^ESCTPU254458	Puerperal fever
+^ESCTPU480187	Puerperal septicemia - delivered with postnatal complication
+^ESCTPU480188	Puerperal sepsis with postnatal complication
+^ESCTPU480189	Puerperal septicemia with postnatal complication

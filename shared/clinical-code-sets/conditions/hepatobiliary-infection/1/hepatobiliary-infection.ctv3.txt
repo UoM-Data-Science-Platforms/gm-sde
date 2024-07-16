@@ -1,0 +1,126 @@
+43B4.	Hepatitis B surface antigen positive
+A053.	Amoebic liver abscess
+A70..	Viral hepatitis
+A700.	Viral hepatitis A with coma
+A702.	Viral hepatitis B with coma
+A7020	Acute hepatitis B with delta agent (coinfection) with hepatic coma
+A703.	Viral serum hepatitis B
+A7030	Acute hepatitis B with delta-agent (coinfection) without hepatic coma
+A704.	Other specified viral hepatitis with coma
+A7040	Viral hepatitis C with coma
+A704z	Other specified viral hepatitis with hepatic coma NOS
+A705.	Other specified viral hepatitis without coma
+A7050	Viral hepatitis C without mention of hepatic coma
+A7054	Hepatitis non-A non-B
+A705z	Other specified viral hepatitis without mention of hepatic coma NOS
+A706.	Unspecified viral hepatitis with coma
+A7071	Chronic viral hepatitis B without delta-agent
+A70z.	Unspecified viral hepatitis
+A70z0	Hepatitis C
+A7852	Cytomegalovirus hepatitis
+A9161	Secondary syphilitic hepatitis
+AD05.	Toxoplasma hepatitis
+AyuB0	[X]Other specified acute viral hepatitis
+AyuB1	[X]Other chronic viral hepatitis
+AyuB2	[X]Chronic viral hepatitis, unspecified
+AyuB4	[X]Unspecified viral hepatitis without coma
+J5520	Subhepatic abscess
+J614.	Chronic hepatitis
+J6140	Chronic persistent hepatitis
+J6141	Chronic active hepatitis
+J6142	Chronic aggressive hepatitis
+J6143	Recurrent hepatitis
+J614y	Chronic hepatitis unspecified
+J614z	Chronic hepatitis NOS
+J615D	Bacterial portal cirrhosis
+J62..	Liver abscess and sequelae of chronic liver disease
+J620.	Liver abscess - excluding amoebic liver abscess
+J6200	Liver abscess due to portal pyaemia
+J6201	Liver abscess due to cholangitis
+J6203	Liver abscess via umbilicus
+J620z	Liver abscess NOS
+J62z.	Liver abscess and chronic liver disease causing sequelae NOS
+J631.	Hepatitis in viral diseases EC
+J6310	Coxsackie virus hepatitis
+J6311	Hepatitis in cytomegalic inclusion virus
+J6312	Infectious mononucleosis hepatitis
+J6313	Mumps hepatitis
+J6315	Hepatitis in other viral disease
+J631z	Hepatitis in viral diseases EC NOS
+J632.	Hepatitis in other infectious diseases EC
+J6320	Hepatitis in malaria
+J6322	Hepatitis in secondary syphilis
+J632z	Hepatitis in infectious diseases EC NOS
+J6353	Toxic liver disease with chronic persistent hepatitis
+J6355	Toxic liver disease with chronic active hepatitis
+J640.	Gallbladder calculus with acute cholecystitis
+J6400	Gallbladder calculus with acute cholecystitis and no obstruction
+J6401	Gallbladder calculus with acute cholecystitis and obstruction
+J640z	Gallbladder calculus with acute cholecystitis and obstruction NOS
+J641.	Gallbladder calculus with other cholecystitis
+J6410	Gallbladder calculus with other cholecystitis and no obstruction
+J6411	Gallbladder calculus with other cholecystitis and obstruction
+J641z	Gallbladder calculus with other cholecystitis and obstruction NOS
+J643.	Bile duct calculus with acute cholecystitis
+J6430	Bile duct calculus with acute cholecystitis and no obstruction
+J6431	Bile duct calculus with acute cholecystitis and obstruction
+J643z	Bile duct calculus with acute cholecystitis and obstruction NOS
+J644.	Bile duct calculus with other cholecystitis
+J6440	Bile duct calculus with other cholecystitis and no obstruction
+J6441	Bile duct calculus with other cholecystitis and obstruction
+J644z	Bile duct calculus with other cholecystitis and obstruction NOS
+J646.	Calculus of bile duct with cholangitis
+J6500	Acute cholecystitis unspecified
+J6501	Acute angiocholecystitis
+J6502	Acute emphysematous cholecystitis
+J6503	Acute suppurative cholecystitis
+J6504	Acute gangrenous cholecystitis
+J650z	Acute cholecystitis NOS
+J651.	Other cholecystitis
+J6510	Chronic cholecystitis
+J651y	Other cholecystitis OS
+J651z	Cholecystitis NOS
+J661.	Cholangitis
+J6610	Acute cholangitis
+J6611	Chronic cholangitis
+J6612	Recurrent cholangitis
+J6613	Suppurative cholangitis
+J6614	Ascending cholangitis
+J661y	Other cholangitis
+J661z	Cholangitis NOS
+Jyu81	[X]Other cholecystitis
+L1765	Viral hepatitis complicating pregnancy, childbirth and the puerperium
+X306a	Gonococcal hepatitis
+X306b	Acute viral hepatitis
+X306d	Hepatitis D superinfection of hepatitis B carrier
+X306e	Acute hepatitis C
+X306f	Acute hepatitis E
+X306h	Chronic viral hepatitis
+X306i	Chronic viral hepatitis B
+X306j	Chronic viral hepatitis B with hepatitis D
+X306k	Chronic viral hepatitis C
+X306W	Liver abscess
+X306Z	Hepatitis due to infection
+X307G	Chronic lobular hepatitis
+X3089	Cholecystitis
+X308A	Gallbladder calculus
+X308J	Bile duct calculus
+X406Q	Fitz-Hugh-Curtis syndrome
+X406R	Gonococcal perihepatitis
+Xa9C8	Epstein-Barr virus hepatitis
+Xabys	Hepatitis E virus genotype determination
+XaCm8	Hepatitis A - current infection
+XaE6v	Bile duct calculus NOS
+XaMEk	Hepatitis B treatment drugs Band 1
+XaPLW	Chronic hepatitis annual review
+XaWzz	Biliary sepsis
+XaYbq	Viral hepatitis without hepatic coma
+XaZ5P	Hepatitis C genotype 1
+XaZ5Q	Hepatitis C genotype 2
+XaZ5S	Hepatitis C genotype 3
+XaZ5T	Hepatitis C genotype 4
+XaZDE	On hepatitis C treatment plan
+XE0bF	Acute cholecystitis
+XE0TW	Infectious hepatitis
+XE0TY	Serum hepatitis
+XE2uF	Acute hepatitis A

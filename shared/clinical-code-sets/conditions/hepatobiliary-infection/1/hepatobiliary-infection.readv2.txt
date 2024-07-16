@@ -1,0 +1,125 @@
+J650.00	Acute cholecystitis
+J650.12	Empyema of gallbladder
+A701.11	Infective hepatitis
+J632000	Hepatitis in malaria
+J614.00	Chronic hepatitis
+J614200	Chronic aggressive hepatitis
+J651z00	Cholecystitis NOS
+A70z000	Hepatitis C
+A705000	Viral hepatitis C without mention of hepatic coma
+A703.00	Viral (serum) hepatitis B
+A701.00	Viral (infectious) hepatitis A
+A70..00	Viral hepatitis
+J631100	Hepatitis in cytomegalic inclusion virus
+J620z00	Liver abscess NOS
+J651000	Chronic cholecystitis
+J631200	Hepatitis in infectious mononucleosis
+J552000	Subhepatic abscess
+J614100	Chronic active hepatitis
+J661.00	Cholangitis
+J614z00	Chronic hepatitis NOS
+J661200	Recurrent cholangitis
+J650z00	Acute cholecystitis NOS
+J635300	Toxic liver disease with chronic persistent hepatitis
+A98y600	Fitzhugh Curtis syndrome
+A705400	Hepatitis non A non B
+A70z.00	Unspecified viral hepatitis
+J614000	Chronic persistent hepatitis
+A707000	Chronic viral hepatitis B with delta-agent
+J646.00	Calculus of bile duct with cholangitis
+J620100	Liver abscess due to cholangitis
+A707.00	Chronic viral hepatitis
+J644.00	Bile duct calculus with other cholecystitis
+43B4.00	Hepatitis B surface antig +ve
+A053.00	Amoebic liver abscess
+A707200	Chronic viral hepatitis C
+A705.00	Other specified viral hepatitis without coma
+J643100	Bile duct calculus + acute cholecystitis and obstruction
+J62..00	Liver abscess and sequelae of chronic liver disease
+A703000	Acute hep B with delta-agent (coinfectn) without hep coma
+A707X00	Chronic viral hepatitis, unspecified
+A705100	Acute delta-(super)infection of hepatitis B carrier
+J661y00	Other cholangitis
+2J23.00	Hepatitis A - current infection
+A785200	Cytomegaloviral hepatitis
+J632.00	Hepatitis in other infectious diseases EC
+J643.00	Bile duct calculus with acute cholecystitis
+J661400	Ascending cholangitis
+J640.00	Gallbladder calculus with acute cholecystitis
+J650300	Acute suppurative cholecystitis
+J643000	Bile duct calculus + acute cholecystitis and no obstruction
+J635500	Toxic liver disease with chronic active hepatitis
+J661000	Acute cholangitis
+J650400	Acute gangrenous cholecystitis
+A707100	Chronic viral hepatitis B without delta-agent
+J631.00	Hepatitis in viral diseases EC
+J661300	Suppurative cholangitis
+J631z00	Hepatitis in viral diseases EC NOS
+J632z00	Hepatitis in infectious diseases EC NOS
+A702000	Acute hep B with delta-agent (coinfection) with hep coma
+J650000	Acute cholecystitis unspecified
+J644100	Bile duct calculus + other cholecystitis and obstruction
+J650.11	Abscess of gallbladder
+J651.00	Other cholecystitis
+J620.00	Liver abscess - excluding amoebic liver abscess
+J650200	Acute emphysematous cholecystitis
+J641100	Gallbladder calculus with other cholecystitis + obstruct
+J640100	Gallbladder calculus with acute cholecystitis + obstruction
+J641.00	Gallbladder calculus with other cholecystitis
+J641000	Gallbladder calculus with other cholecystitis +no obstruct
+J661100	Chronic cholangitis
+A705200	Acute hepatitis E
+J614300	Recurrent hepatitis
+J614y00	Chronic hepatitis unspecified
+A700.00	Viral hepatitis A with coma
+J631500	Hepatitis in other viral disease
+L176500	Viral hepatitis comp pregnancy, childbirth & the puerperium
+J644z00	Bile duct calculus + other cholecystitis - obstruction NOS
+J640000	Gallbladder calculus with acute cholecystitis +no obstruct
+J651y00	Other cholecystitis OS
+J632200	Hepatitis in secondary syphilis
+J640z00	Gallbladder calculus with acute cholecystitis - obst NOS
+J661z00	Cholangitis NOS
+A704000	Viral hepatitis C with coma
+A705z00	Other specified viral hepatitis without mention of coma NOS
+AD05.00	Toxoplasma hepatitis
+J614400	Chronic lobular hepatitis
+J620000	Liver abscess due to portal pyaemia
+AyuB.00	[X]Viral hepatitis
+A702.00	Viral hepatitis B with coma
+A704.00	Other specified viral hepatitis with coma
+J620300	Liver abscess via umbilicus
+A72x000	Mumps hepatitis
+A916100	Secondary syphilitic hepatitis
+A98yy11	Gonococcal hepatitis
+J641z00	Gallbladder calculus with other cholecystitis - obstruct NOS
+J631000	Hepatitis in coxsackie virus
+J650100	Acute angiocholecystitis
+J615D00	Bacterial portal cirrhosis
+A704z00	Other specified viral hepatitis with hepatic coma NOS
+A98yy13	Gonococcal perihepatitis
+J643z00	Bile duct calculus + acute cholecystitis - obstruct NOS
+9kR..00	Chronic hepatitis annual review - enhanced services admin
+7Q05200	Hepatitis B treatment drugs Band 1
+J666.00	Biliary sepsis
+A70A.00	Hepatitis C genotype 1
+A70C.00	Hepatitis C genotype 3
+A70z100	Acute viral hepatitis NOS
+9NgR.00	On hepatitis C treatment plan
+A70G.00	Acute hepatitis C
+A70D.00	Hepatitis C genotype 4
+A70B.00	Hepatitis C genotype 2
+A709.00	Viral hepatitis without hepatic coma
+A707300	Chronic viral hepatitis B
+4L17.00	Hepatitis E virus genotype determination
+A706.00	Unspecified viral hepatitis with coma
+AyuB000	[X]Other specified acute viral hepatitis
+AyuB100	[X]Other chronic viral hepatitis
+AyuB200	[X]Chronic viral hepatitis, unspecified
+AyuB400	[X]Unspecified viral hepatitis without coma
+J62z.00	Liver abscess and chronic liver disease causing sequelae NOS
+J631300	Hepatitis in mumps
+J632300	Hepatitis in toxoplasmosis
+J644000	Bile duct calculus with other cholecystitis and no obstruction
+Jyu8100	[X]Other cholecystitis
+

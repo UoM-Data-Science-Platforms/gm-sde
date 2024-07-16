@@ -38,6 +38,7 @@ Name,Version,Terminology,Code,ExcelCode,Description`;
           item.file
             .split('\n')
             .filter((x) => x.length > 2)
+            .filter((x) => x.indexOf('#') !== 0)
             .map((row) => {
               const [code, description] = row.split('\t');
               const numericCodeForExcel = code.match(/^[0-9.]+$/) ? `"=""${code}"""` : code;

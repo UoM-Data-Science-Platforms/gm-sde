@@ -1,0 +1,183 @@
+H05z.00	Upper respiratory infection NOS
+H040.00	Acute laryngitis
+H02..13	Throat infection - pharyngitis
+H00..11	Common cold
+H02z.00	Acute pharyngitis NOS
+H27..00	Influenza
+H120.00	Chronic rhinitis
+H120100	Chronic catarrhal rhinitis
+H02..00	Acute pharyngitis
+H00..14	Nasal catarrh - acute
+H044.00	Croup
+H00..12	Coryza - acute
+H27z.11	Flu like illness
+H07..00	Chest cold
+H05z.11	Upper respiratory tract infection NOS
+H120111	Catarrhal child
+H00..00	Acute nasopharyngitis
+H00..16	Rhinitis - acute
+H054.00	Recurrent upper respiratory tract infection
+H160400	Laryngitis sicca
+H121.00	Chronic pharyngitis
+H055.00	Pharyngolaryngitis
+H024.00	Acute viral pharyngitis
+H040w00	Acute viral laryngitis unspecified
+H27z.12	Influenza like illness
+H02..11	Sore throat NOS
+H16z.00	Chronic laryngitis NOS
+H051.00	Acute upper respiratory tract infection
+H05z.12	Viral upper respiratory tract infection NOS
+H02..12	Viral sore throat NOS
+H00..13	Febrile cold
+H0...00	Acute respiratory infections
+H120.11	Catarrh unspecified
+16L..00	Influenza-like symptoms
+H00..15	Pyrexial cold
+H036.00	Acute viral tonsillitis
+A740.00	Herpangina
+H12..00	Chronic pharyngitis and nasopharyngitis
+H053.00	Tracheopharyngitis
+H040200	Acute catarrhal laryngitis
+H16..00	Chronic laryngitis and laryngotracheitis
+A79A.00	Respiratory syncytial virus infection
+H122.00	Chronic nasopharyngitis
+H120z00	Chronic rhinitis NOS
+H121z00	Chronic pharyngitis NOS
+H160.00	Chronic laryngitis
+H120200	Chronic hypertrophic rhinitis
+H05y.00	Other upper respiratory infections of multiple sites
+H271000	Influenza with laryngitis
+H04z.00	Acute laryngitis and tracheitis NOS
+H120400	Chronic infective rhinitis
+H27z.00	Influenza NOS
+H120300	Chronic atrophic rhinitis
+H160100	Chronic catarrhal laryngitis
+H050.00	Acute laryngopharyngitis
+H043211	Croup
+H0z..00	Acute respiratory infection NOS
+H052.00	Pharyngotracheitis
+H022.00	Acute ulcerative pharyngitis
+H121200	Granular pharyngitis
+H040z00	Acute laryngitis NOS
+H271z00	Influenza with respiratory manifestations NOS
+H0y..00	Other specified acute respiratory infections
+A7y0200	Resp syncytial virus as cause of dis class to other chapters
+H021.00	Acute phlegmonous pharyngitis
+2DC2.00	O/E - granular pharyngitis
+H160000	Chronic simple laryngitis
+H05..00	Other acute upper respiratory infections
+H040000	Acute oedematous laryngitis
+H120000	Chronic simple rhinitis
+H271100	Influenza with pharyngitis
+H27yz00	Influenza with other manifestations NOS
+H040300	Acute phlegmonous laryngitis
+H020.00	Acute gangrenous pharyngitis
+H043200	Acute obstructive laryngitis
+H121100	Atrophic pharyngitis
+H1y..00	Other specified diseases of upper respiratory tract
+H160z00	Chronic laryngitis NOS
+H04..00	Acute laryngitis and tracheitis
+H120600	Chronic membranous rhinitis
+H120500	Chronic ulcerative rhinitis
+H271.00	Influenza with other respiratory manifestation
+H121600	Chronic follicular pharyngitis
+H121000	Simple chronic pharyngitis
+H27y.00	Influenza with other manifestations
+H160200	Chronic hypertrophic laryngitis
+H040600	Acute suppurative laryngitis
+Hyu0.00	[X]Acute upper respiratory infections
+AA25.11	Rhinopharyngitis mutilans
+H12z.00	Chronic pharyngitis and nasopharyngitis NOS
+H040100	Acute ulcerative laryngitis
+H27..11	Influenza
+Hyu2.00	[X]Other diseases of the upper respiratory tract
+H043.11	Viral epiglottitis
+Hyu2A00	[X]Other specified diseases of upper respiratory tract
+FyuP400	[X]Otitis media in viral diseases classified elsewhere
+H160300	Chronic atrophic laryngitis
+173e.00	Viral wheeze
+173e.11	Viral induced wheeze
+Hyu0100	[X]Acute pharyngitis due to other specified organisms
+H29..00	Avian influenza
+4JU5.00	Influenza B virus detected
+4JU2.00	Influenza H3 virus detected
+4JU0.00	Influenza H1 virus detected
+4JUB.00	Respiratory syncytial virus untyped strain detected
+4JUF.00	Human parainfluenza virus detected
+4JUA.00	Respiratory syncytial virus B detected
+4JU9.00	Respiratory syncytial virus A detected
+4JU4.00	Influenza A virus, other or untyped strain detected
+Hyu0700	[X]Influenza+other manifestations, virus not identified
+Hyu0600	[X]Influenza+oth respiratory manifestatns,virus not identifd
+AyuKN00	[X]Resp syncytial virus/cause/diseases classfd/oth chapters
+Hyu0500	[X]Influenza+other manifestations,influenza virus identified
+4JUJ.00	Other respiratory virus detected
+H2A..11	Influenza A (H1N1) swine flu
+1W0..00	Possible influenza A virus H1N1 subtype
+1J72.11	Suspected swine influenza
+1J72.00	Suspected influenza A virus subtype H1N1 infection
+H2A..00	Influenza due to Influenza A virus subtype H1N1
+4J3L.00	Influenza A virus H1N1 subtype detected
+4JU3.00	Influenza H5 virus detected
+4JU1.00	Influenza H2 virus detected
+38QB.00	Westley Croup Score
+H27y100	Influenza with gastrointestinal tract involvement
+1C93.00	Persistent sore throat
+2DC3.00	Inflamed throat
+A123.00	Tuberculous laryngitis
+A12y100	Tuberculosis of nasopharynx
+A772.00	Viral pharyngoconjunctivitis
+A78A100	Chlamydial infection of pharynx
+AA12.00	Vincent's pharyngitis
+H014.00	Acute rhinosinusitis
+H030.00	Acute erythematous tonsillitis
+H031.00	Acute follicular tonsillitis
+H032.00	Acute ulcerative tonsillitis
+H033.00	Acute catarrhal tonsillitis
+H034.00	Acute gangrenous tonsillitis
+H037.00	Recurrent acute tonsillitis
+H03z.00	Acute tonsillitis NOS
+H040400	Acute haemophilus influenzae laryngitis
+H042000	Acute laryngotracheitis without obstruction
+H042100	Acute laryngotracheitis with obstruction
+H042z00	Acute laryngotracheitis NOS
+H043000	Acute epiglottitis without obstruction
+H043100	Acute epiglottitis with obstruction
+H043z00	Acute epiglottitis NOS
+H120700	Chronic fibrinous rhinitis
+H121300	Hypertrophic pharyngitis
+H121400	Pharyngitis keratosa
+H121500	Pharyngitis sicca
+H143.00	Chronic adenotonsillitis
+H14y500	Caseous tonsillitis
+H14y600	Lingular tonsillitis
+H161.00	Chronic laryngotracheitis
+H18..00	Vasomotor rhinitis
+H1y2100	Pharynx or nasopharynx cellulitis
+H1y5100	Cellulitis of vocal cords
+H1y5200	Granuloma of vocal cords
+H1y5400	Singers' chorditis
+H1y5500	Fibrinous chorditis
+H1y5700	Chorditis vocalis inferior
+H1y7100	Cellulitis of larynx
+H1y7200	Perichondritis of larynx
+H1yz.00	Other upper respiratory tract diseases NOS
+H1yzz00	Other upper respiratory tract disease NOS
+H1z..00	Upper respiratory tract disease NOS
+H2...00	Pneumonia and influenza
+H270.00	Influenza with pneumonia
+H270000	Influenza with bronchopneumonia
+H270100	Influenza with pneumonia, influenza virus identified
+H270z00	Influenza with pneumonia NOS
+H27y000	Influenza with encephalopathy
+H2D..00	Influenza due to zoonotic influenza virus
+H2E..00	Influenza due to pandemic influenza virus
+H2F..00	Influenza due to seasonal influenza virus
+H2F0.00	Influenza with pneumonia due to seasonal influenza virus
+H2Fy.00	Influenza with other respiratory manifestation due to seasonal influenza virus
+H2Fz.00	Influenza with other manifestations due to seasonal influenza virus
+H2y..00	Other specified pneumonia or influenza
+H2z..00	Pneumonia or influenza NOS
+H301.00	Laryngotracheobronchitis
+Hyu0200	[X]Acute tonsillitis due to other specified organisms
+Hyu0400	[X]Influenza with other respiratory manifestations, influenza virus identified

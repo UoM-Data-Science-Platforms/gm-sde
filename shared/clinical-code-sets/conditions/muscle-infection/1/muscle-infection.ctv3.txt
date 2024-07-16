@@ -1,0 +1,104 @@
+A3A00	Gas gangrene caused by clostridium histolyticum
+A3A01	Gas gangrene caused by clostridium oedematiens
+A3A02	Gas gangrene caused by clostridium perfringens
+A3A03	Gas gangrene caused by clostridium septicum
+A3A06	Gas gangrene-neck
+A3A07	Gas gangrene-back
+A3A08	Gas gangrene-shoulder
+A3A09	Gas gangrene-arm
+A3A0A	Gas gangrene-forearm
+A3A0B	Gas gangrene-hand
+A3A0C	Gas gangrene-pelvis
+A3A0D	Gas gangrene-thigh
+A3A0E	Gas gangrene-leg
+A3A0F	Gas gangrene-foot
+A3A0z	Gas gangrene caused by organism NOS
+A3Ay0	Tropical pyomyositis
+A9570	Syphilis of synovium
+A9571	Syphilis of tendon
+F4G12	Orbital myositis
+H57y1	Lung disease with polymyositis
+H5y40	Diaphragmatitis
+J3302	Epigastric hernia with gangrene
+N004.	Polymyositis
+N2300	Infective myositis-neck
+N2301	Infective myositis-back
+N2302	Infective myositis-shoulder
+N2303	Infective myositis-arm
+N2304	Infective myositis-forearm
+N2305	Infective myositis-hand
+N2306	Infective myositis-pelvis
+N2307	Infective myositis-thigh
+N2308	Infective myositis-leg
+N2309	Infective myositis-foot
+N230A	Muscle abscess
+N230B	Muscle abscess-neck
+N230C	Muscle abscess-back
+N230D	Muscle abscess-shoulder
+N230E	Muscle abscess-arm
+N230F	Muscle abscess-forearm
+N230G	Muscle abscess-hand
+N230H	Muscle abscess-pelvis
+N230J	Muscle abscess-thigh
+N230K	Muscle abscess-leg
+N230L	Muscle abscess-foot
+N2332	Myositis in sarcoidosis
+N23y0	Interstitial myositis
+N2411	Myositis unspecified
+Nyu44	[X]Other dermatomyositis
+Nyu48	[X]Dermato(poly)myositis in neoplastic disease classified elsewhere
+Nyu4E	[X]Dermatopolymyositis, unspecified
+Nyu80	[X]Other myositis
+Nyu88	[X]Myositis in other infectious diseases classified elsewhere
+Nyu89	[X]Myositis in sarcoidosis classified elsewhere
+X00ZV	Acute orbital myositis
+X103U	Diaphragmatic trichiniasis
+X20GU	Acute sarcoid polymyositis
+X20GV	Chronic sarcoid myopathy
+X309y	Abscess iliopsoas non-tuberculous
+X5013	Necrotising fasciitis
+X5014	Necrotising fasciitis of scrotum and perineum
+X5015	Progressive bacterial synergistic gangrene
+X50FL	Sclerodermatomyositis
+X704p	Polymyositis with malignant disease
+X704q	Polymyositis associated with autoimmune disease
+X704s	Drug-induced polymyositis
+X704t	Dermatomyositis with malignant disease
+X704u	Juvenile dermatomyositis
+X707x	Gonococcal tenosynovitis
+X7089	Talc granuloma - muscle
+X709d	Myositis
+X709e	Viral myositis
+X709f	Benign acute myositis
+X709i	Bacterial myositis
+X709k	Gas gangrene of limb
+X709l	Uterine gas gangrene
+X709m	Intestinal gas gangrene
+X709n	Fungal myositis
+X709o	Parasitic myositis
+X709p	Protozoal myositis
+X709q	Cestode myositis
+X709r	Cysticercosis myositis
+X709s	Hydatidosis myositis
+X709t	Nematode myositis
+X709u	Trichinosis myositis
+X709v	Toxocariasis myositis
+X709w	Inclusion body myositis
+X709z	Focal nodular myositis
+X70A0	Eosinophilic polymyositis
+X70IS	Gas gangrene of skin
+X70N7	Gonococcal synovitis
+Xa0bF	Meleney's gangrene
+Xa1jK	Idiopathic polymyositis
+Xa1jL	Idiopathic dermatomyositis
+XE0az	Iliopsoas abscess
+XE0R0	Gas gangrene
+XE0R1	Gas gangrene caused by clostridium histolyticum
+XE0R2	Gas gangrene caused by clostridium oedematiens
+XE0R3	Gas gangrene caused by clostridium perfringens
+XE0R4	Gas gangrene caused by clostridium septicum
+XE0Rw	Gonococcal synovitis or tenosynovitis
+XE16s	Chronic orbital myositis
+XE1DH	Dermatomyositis
+XE1Ff	Infective myositis
+XSC9R	Gas bacillus infection

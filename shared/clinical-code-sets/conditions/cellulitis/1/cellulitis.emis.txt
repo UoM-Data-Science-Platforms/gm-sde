@@ -1,0 +1,154 @@
+^ESCT1165695	Acute phlegmonous appendicitis
+^ESCT1168945	Cellulitis caused by Staphylococcus aureus
+^ESCT1168946	Staphylococcal cellulitis
+^ESCT1182611	Dermatitis exfoliativa neonatorum
+^ESCT1360482	Extensive post-operative wound cellulitis
+^ESCT1360483	Post-operative wound cellulitis
+^ESCT1370004	Cellulitis of left axilla
+^ESCT1370005	Cellulitis of right axilla
+^ESCT1370006	Cellulitis of left hip
+^ESCT1370007	Cellulitis of right hip
+^ESCT1370056	Cellulitis of left thigh
+^ESCT1370057	Cellulitis of right thigh
+^ESCT1370058	Cellulitis of left ankle
+^ESCT1370059	Cellulitis of right ankle
+^ESCT1370060	Cellulitis of left knee
+^ESCT1370061	Cellulitis of right knee
+^ESCT1370062	Cellulitis of left wrist
+^ESCT1370063	Cellulitis of right wrist
+^ESCT1370064	Cellulitis of left shoulder
+^ESCT1370065	Cellulitis of right shoulder
+^ESCT1370066	Cellulitis of left thumb
+^ESCT1370067	Cellulitis of right thumb
+^ESCT1371356	Bilateral erysipelas of lower limbs
+^ESCT1371357	Erysipelas of both lower limbs
+^ESCT1371358	Erysipelas of bilateral lower limbs
+^ESCT1371359	Erysipelas of right lower limb
+^ESCT1371360	Erysipelas of left lower limb
+^ESCT1393730	Cellulitis and abscess of hand
+^ESCT1395103	Injection site cellulitis
+^ESCT1395104	Cellulitis at injection site
+^ESCT1395387	Vaccination site cellulitis
+^ESCT1407144	Cellulitis of foot due to diabetes mellitus
+^ESCT1421382	Extensive postoperative wound cellulitis
+^ESCT1421383	Extensive post-operative wound cellulitis
+^ESCT1421384	Postoperative wound cellulitis
+^ESCT1421385	Post-operative wound cellulitis
+^ESCTAC752852	Acute female pelvic cellulitis
+^ESCTAN306805	Anorectal cellulitis
+^ESCTAN316289	Anal cellulitis
+^ESCTAN512118	Anaerobic cellulitis
+^ESCTAN795476	Anogenital streptococcal cellulitis of infancy and childhood
+^ESCTAN795477	Anogenital cellulitis of infancy and childhood caused by Beta-hemolytic Streptococcus group A
+^ESCTAN795478	Anogenital cellulitis of infancy and childhood caused by Beta-haemolytic Streptococcus group A
+^ESCTBA667216	Bacterial cellulitis
+^ESCTCE251412	Cellulitis of temple region
+^ESCTCE253692	Cellulitis of pectoral region
+^ESCTCE263993	Cellulitis of oral soft tissues
+^ESCTCE265237	Cellulitis of hip
+^ESCTCE267469	Cellulitis of spermatic cord
+^ESCTCE270225	Cellulitis of skin with lymphangitis
+^ESCTCE271089	Cellulitis of knee
+^ESCTCE271702	Cellulitis of forearm
+^ESCTCE273947	Cellulitis of vas deferens
+^ESCTCE288665	Cellulitis with lymphangitis of digit
+^ESCTCE292156	Cellulitis of perineum
+^ESCTCE294214	Cellulitis of finger
+^ESCTCE294572	Cellulitis of forehead
+^ESCTCE309757	Cellulitis of external nose
+^ESCTCE311544	Cellulitis of upper arm
+^ESCTCE317201	Cellulitis of submandibular region
+^ESCTCE321573	Cellulitis of buttock
+^ESCTCE321574	Cellulitis of gluteal region
+^ESCTCE330625	Cellulitis of shoulder
+^ESCTCE334590	Cellulitis of scalp
+^ESCTCE341565	Cellulitis of heel
+^ESCTCE342019	Cellulitis of umbilicus
+^ESCTCE345761	Cellulitis of chin
+^ESCTCE346694	Cellulitis of chest wall
+^ESCTCE347257	Cellulitis of abdominal wall
+^ESCTCE348332	Cellulitis of external cheek
+^ESCTCE358799	Cellulitis of flank
+^ESCTCE366136	Cellulitis of wrist
+^ESCTCE375295	Cellulitis of thigh
+^ESCTCE383051	Cellulitis of tunica vaginalis
+^ESCTCE393594	Cellulitis of groin
+^ESCTCE416144	Cellulitis of periorbital region
+^ESCTCE416146	Cellulitis of submental space
+^ESCTCE416147	Cellulitis of infratemporal fossa
+^ESCTCE416316	Cellulitis of parapharyngeal space
+^ESCTCE416719	Cellulitis of gingiva
+^ESCTCE416720	Cellulitis of gum
+^ESCTCE416975	Cellulitis of buccal space of mouth
+^ESCTCE416976	Cellulitis of canine space of mouth
+^ESCTCE416977	Cellulitis of masticator space of mouth
+^ESCTCE416992	Cellulitis of palate
+^ESCTCE417013	Cellulitis of tongue
+^ESCTCE417014	Cellulitis of sublingual space
+^ESCTCE419560	Cellulitis of corpus cavernosum
+^ESCTCE440661	Cellulitis of head
+^ESCTCE503338	Cellulitis of pinna
+^ESCTCE572138	Cellulitis of hand excluding finger
+^ESCTCE572139	Cellulitis of leg, excluding foot
+^ESCTCE572140	Cellulitis of leg, except foot
+^ESCTCE572141	Cellulitis of foot excluding toe
+^ESCTCE589732	Cellulitis of elbow
+^ESCTCE598659	Cellulitis of skin of back
+^ESCTCE737395	Cellulitis of lower leg
+^ESCTCE737545	Cellulitis of thumb
+^ESCTCE799091	Cellulitis of vaginal cuff
+^ESCTCE804091	Cellulitis of nasal mucous membrane
+^ESCTCH350106	Chronic recurrent streptococcal erysipelas
+^ESCTCH479151	Chronic pelvic cellulitis
+^ESCTCH782228	Childhood cellulitis of perianal region caused by beta-haemolytic Streptococcus group A
+^ESCTCH782229	Childhood cellulitis of perianal region caused by beta-hemolytic Streptococcus group A
+^ESCTDE416722	Dentoalveolar cellulitis
+^ESCTDI491423	Diffuse cellulitis of face
+^ESCTEL350107	Elephantiasis nostras
+^ESCTER514757	Erysipelas of face
+^ESCTER629756	Erysipelothrix
+^ESCTER629757	Erysipelothrix (disease)
+^ESCTER629759	Erysipelothrix disease
+^ESCTER667211	Erysipelas of lower limb
+^ESCTFA514756	Facial erysipelas
+^ESCTFE563886	Female pelvic cellulitis
+^ESCTGI416721	Gingival cellulitis
+^ESCTGR667214	Gram-negative bacterial cellulitis
+^ESCTHA667215	Haemophilus cellulitis
+^ESCTLO514713	Localised cutaneous erysipeloid
+^ESCTLO514714	Localized cutaneous erysipeloid
+^ESCTLU478396	Ludwig angina
+^ESCTMU515212	Mucormycotic gangrenous cellulitis
+^ESCTOR263994	Oral soft tissue cellulitis
+^ESCTOR561882	Oral sinus
+^ESCTPA322005	Patch of erysipelas
+^ESCTPE251401	Perirectal cellulitis
+^ESCTPE273499	Penile cellulitis
+^ESCTPE416145	Periorbital cellulitis
+^ESCTPE782230	Perianal streptococcal cellulitis of childhood
+^ESCTPE795479	Perianal streptococcal dermatitis
+^ESCTPO321642	Postpartum AND/OR puerperal erysipelas
+^ESCTPO477372	Postseptal orbital cellulitis
+^ESCTPU269194	Puerperal pelvic cellulitis
+^ESCTPU365093	Purulent dermatitis
+^ESCTPU365097	Pustuloderma
+^ESCTPY365092	Pyodermia
+^ESCTPY365096	Pyogenic dermatitis
+^ESCTRE387743	Rectal cellulitis
+^ESCTRE667210	Recurrent erysipelas
+^ESCTSC480570	Scalded skin syndrome
+^ESCTSE365095	Septic dermatitis
+^ESCTSE512185	Seal finger
+^ESCTSS480571	SSSS - Staphylococcal scalded skin syndrome
+^ESCTST560781	Streptococcal cellulitis
+^ESCTST667221	Streptococcal cellulitis of external ear
+^ESCTSU365094	Suppurative dermatitis
+^ESCTUR807416	Urethral cellulitis
+^ESCTVA799092	Vaginal cuff cellulitis
+^ESCTWE512814	Wells' syndrome
+^ESCTWO767829	Woody tongue
+^ESCTWO767830	Woody tongue of Ludwig's angina
+EMISNQAB1	Abscess of antecubital fossa related to intravenous drug use
+ESCTPO6	Postoperative wound cellulitis
+ESCTRE62	Recurrent cellulitis
+ESCTWO9	Wound cellulitis

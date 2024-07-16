@@ -1,0 +1,114 @@
+A160.	Renal tuberculosis
+A1600	Tuberculous nephropathy
+A1601	Tuberculous pyelitis
+A1602	Tuberculous pyelonephritis
+A160z	Tuberculosis of kidney NOS
+A162.	Tuberculosis of ureter
+A163.	Tuberculosis of other urinary organs
+A32y3	Diphtheritic cystitis
+A8441	Plasmodium malariae malaria with nephropathy
+A954.	Syphilis of kidney
+A9811	Acute gonococcal cystitis
+A9831	Chronic gonococcal cystitis
+A994.	Nonspecific urethritis
+AC2z0	Hydatid cyst of kidney
+AD102	Trichomonal urethritis
+K01x2	Nephrotic syndrome in malaria
+K0y0.	Late syphilis of kidney
+K10..	Infection of kidney
+K10z.	Infection of kidney NOS
+K15..	Inflammation of bladder
+K152.	Other chronic cystitis
+K152y	Chronic cystitis unspecified
+K152z	Other chronic cystitis NOS
+K1540	Actinomycotic cystitis
+K1541	Amoebic cystitis
+K1542	Schistosomiasis of bladder
+K1543	Echinococcal cystitis
+K1545	Gonococcal cystitis
+K1546	Monilial cystitis
+K1547	Trichomonal cystitis
+K1548	Tuberculous cystitis
+K155.	Recurrent cystitis
+K15y.	Other specified cystitis
+K15y2	Pyocystis
+K15yz	Other cystitis NOS
+K15z.	Cystitis NOS
+K172.	Candidal urethritis
+K1901	Pyuria
+K1902	Postoperative urinary tract infection
+K1903	Recurrent urinary tract infection
+K1904	Chronic urinary tract infection
+K190z	Urinary tract infection, site not specified NOS
+K213.	Prostatocystitis
+Kyu50	[X]Other chronic cystitis
+Kyu51	[X]Other cystitis
+L09y4	Urinary tract infection following abortive pregnancy
+L1660	Genitourinary tract infection in pregnancy unspecified
+L1661	Genitourinary tract infection in pregnancy - delivered
+L1663	Genitourinary tract infection in pregnancy - not delivered
+L1665	Infections of kidney in pregnancy
+L1666	Urinary tract infection following delivery
+L178.	Infections of urethra in pregnancy
+Lyu23	[X]Infections of other parts of urinary tract in pregnancy
+Lyu24	[X]Other and unspecified genitourinary tract infection in pregnancy
+Lyu61	[X]Other genitourinary tract infections following delivery
+Q40y1	Neonatal urinary tract infection
+X30Hj	Emphysematous pyelonephritis
+X30Hk	Acute infective interstitial nephritis
+X30Hl	Chronic infective interstitial nephritis
+X30Hm	Emphysematous pyelitis
+X30Hn	Infected renal cyst
+X30Ho	Pyonephrosis
+X30Hq	Fungal infection of kidney
+X30Hr	Candida pyelonephritis
+X30Hu	Reflux nephropathy
+X30Hv	Chronic obstructive pyelonephritis
+X30IP	Acquired immune deficiency syndrome-related nephropathy
+X30Mj	Cytomegalovirus-induced glomerulonephritis
+X30Mx	Schistosomiasis of ureter
+X30My	Candida ureteritis
+X30N4	Tuberculous stricture of ureter
+X30NV	Infective cystitis
+X30NX	Chronic infective cystitis
+X30Oy	Infective urethritis
+X30P3	Tuberculous urethritis
+X30P4	Schistosomiasis of the urethra
+X30P5	Schistosomal urethral fistula
+X30P7	Gonococcal urethral abscess
+X30Pa	Recurrent infective cystitis
+X30PA	Reiter's urethritis
+X30Pj	Urinary schistosomiasis
+X30PX	Lower urinary tract infection
+X30PZ	Acute culture positive cystitis
+X30Q6	Candiduria
+X70Ms	Gonococcal Littre's gland abscess
+X70Mu	Gonococcal paraurethral gland abscess
+X70R4	Renal tract candidiasis
+Xa1p4	Urinary tuberculosis
+Xa20b	Acute focal pyelonephritis
+Xa7nb	Coliform urinary tract infection
+Xa7nc	Escherichia coli urinary tract infection
+Xa7nd	Proteus urinary tract infection
+Xa8EJ	Acute cystitis
+Xa8EK	Chronic cystitis
+XaaBK	On urinary tract infection care pathway
+XaaZd	Catheter-associated urinary tract infection
+XaB66	Acute infective cystitis
+XaB9F	Urinary tract infection in pregnancy
+XaC1c	Urinary tract infection complicating pregnancy
+XaDcI	Bacterial urinary infection
+XaDmX	Infective ureteritis
+XaFqt	Suspected UTI
+XaFwM	Recurrent urinary tract infections
+Xaglc	Uncomplicated urinary tract infection
+XE0e0	Infection of urinary tract
+XE0fD	Infection of kidney (& [pyelonephritis &/or pyelitis])
+XE0fj	Urinary tract infection (& [NOS])
+XE0fV	(Renal disease NOS) or (pyoureter)
+XE0vw	Genitourinary tract infections in pregnancy
+XE0vx	Genitourinary tract infection in pregnancy NOS
+XE0yA	Pregnancy with genitourinary infections (& UTI [& cystitis])
+XM0sc	Urinary infection NOS
+XM1Ov	Infected diverticulum of bladder
+XM1Ox	Cystitis of pregnancy
