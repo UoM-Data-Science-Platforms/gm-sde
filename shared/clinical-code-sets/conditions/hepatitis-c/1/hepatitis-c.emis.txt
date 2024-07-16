@@ -1,0 +1,102 @@
+^ESCTHC352323	HCV - Hepatitis C virus
+^ESCTHE779683	Hepatitis C virus C2 Ab
+^ESCTPO634968	Polymerase chain reaction (PCR) positive for hepatitis C viral ribonucleic acid (genotype 1A)
+^ESCTHE767630	Hepatitis C virus IgM
+^ESCTCH811214	Chronic hepatitis C with stage 3 fibrosis
+^ESCT1360537	Hepatitis C virus genotype 4h
+^ESCTHE803928	Hepatic coma due to acute hepatitis C
+^ESCTAN783645	Anti-Hepatitis C virus c22p IgG
+^ESCTCI796698	Cirrhosis of liver due to chronic hepatitis C
+^ESCTPO634969	Polymerase chain reaction positive for hepatitis C viral ribonucleic acid genotype 1A
+^ESCTHE779679	Hepatitis C virus C1 Ab
+^ESCTHE748864	Hepatitis C virus subtype 2c
+^ESCTEX729459	Exposure to Hepatitis C virus
+^ESCTHE661763	Hepatitis C PCR
+^ESCTHE748854	Hepatitis C virus subtype 5a
+^ESCTHE603076	Hepatitis C IgG level
+^ESCT1360592	Hepatitis C virus genotype 3c
+^ESCTHE655244	Hepatitis C viral load
+^ESCTGL803772	Glomerulonephritis due to hepatitis C
+^ESCTHE836801	Hepatitis C virus-associated cryoglobulinaemic vasculitis
+^ESCTHE433206	Hepatitis C virus ribosomal ribonucleic acid
+^ESCT1206122	Chronic hepatitis C caused by hepatitis C virus genotype 6
+^ESCT1408726	Recurrent viral hepatitis C
+^ESCTCH796699	Chronic hepatitis C with stage 4 fibrosis
+^ESCTHE748855	Hepatitis C virus subtype 6a
+^ESCTAN767632	Anti-Hepatitis C virus IgM
+^ESCTHE748860	Hepatitis C virus genotype 4
+^ESCTHE765859	Hepatitis C virus E2 Ab
+^ESCTHE748861	Hepatitis C virus genotype 5
+ESCTHI11	History of hepatitis C
+^ESCTHE748852	Hepatitis C virus subtype 3a
+^ESCT1206692	Chronic hepatitis C caused by Hepatitis C virus genotype 2
+^ESCTHE748867	Hepatitis C virus subtype 4d
+^ESCTHE836802	Hepatitis C cryoglobulinaemic vasculitis
+^ESCTHE748865	Hepatitis C virus subtype 4b
+^ESCTHE433205	Hepatitis C virus rRNA
+^ESCT1207004	Chronic hepatitis C caused by Hepatitis C virus genotype 1a
+^ESCTHE433242	Hepatitis C virus RNA
+^ESCTHE765867	Hepatitis C virus NS4 Ab
+^ESCTTY332123	Type C viral hepatitis
+EMISNQHE29	Hepatitis C PCR positive
+^ESCT1378740	Ribosomal ribonucleic acid of Hepatitis C virus
+^ESCTHE659076	Hepatitis C virus genotype
+^ESCT1207003	Chronic hepatitis C caused by Hepatitis C virus genotype 1b
+EMISNQHE6	Hepatitis C carrier
+^ESCTHE726347	Hepatitis B and hepatitis C
+^ESCT1378760	Ribonucleic acid of Hepatitis C virus
+^ESCTHE765871	Hepatitis C virus NS5 Ab
+^ESCTCO561935	Congenital hepatitis C infection
+^ESCTHE748851	Hepatitis C virus subtype 2b
+^ESCTHE748853	Hepatitis C virus subtype 3b
+EMISNQHE6	Hepatitis C carrier
+^ESCTPC661762	PCR for Hepatitis C
+^ESCTHO802955	H/O hepatitis C
+^ESCTHE748857	Hepatitis C virus genotype 1
+^ESCTHE788042	Hepatitis C virus core Ag
+^ESCTCR804062	Cryoglobulinaemia due to chronic hepatitis C
+^ESCTHE758346	Hepatitis B virus genotype C
+^ESCTHE765863	Hepatitis C virus NS3 Ab
+^ESCT1206477	Chronic hepatitis C caused by Hepatitis C virus genotype 3
+^ESCT1206693	Chronic hepatitis C caused by Hepatitis C virus genotype 4
+^ESCTHE748856	Hepatitis C virus subtype 4a
+^ESCTFI628059	Finding of Hepatitis C status
+^ESCTRE756886	Reactivation of hepatitis C viral hepatitis
+EMISNQHE29	Hepatitis C PCR positive
+^ESCTAN767084	Anti-Hepatitis C virus IgG
+^ESCT1206694	Chronic hepatitis C caused by Hepatitis C virus genotype 1
+^ESCTCH758312	Chronic hepatitis C with stage 2 fibrosis
+^ESCTPC634967	PCR positive for hepatitis C viral RNA (genotype 1A)
+C14-SHHAPT	[SHHAPT] Viral hepatitis C - first diagnosis
+^ESCTCH440701	Chronic type C viral hepatitis
+^ESCTHE767082	Hepatitis C virus IgG
+^ESCTHE823496	Hepatitis C viral RNA PCR (ribonucleic acid polymerase chain reaction) positive
+^ESCTHE804645	Hepatic coma due to chronic hepatitis C
+^ESCTNO672961	Non-A, non-B, non-C hepatitis
+^ESCTHE634733	Hepatitis C seropositive with elevated ALT
+^ESCTHE783643	Hepatitis C virus c22p IgG
+^ESCTVI332125	Viral hepatitis type C
+^ESCTAC672962	Acute non-A, non-B, non-C hepatitis
+^ESCTHE748850	Hepatitis C virus subtype 2a
+EMISNQHE11	Hepatitis C positive
+^ESCTHE748866	Hepatitis C virus subtype 4c
+^ESCTCR804063	Cryoglobulinemia due to chronic hepatitis C
+^ESCTHE748862	Hepatitis C virus genotype 6
+^ESCTHE433243	Hepatitis C virus ribonucleic acid
+^ESCTHE748848	Hepatitis C virus subtype 1a
+^ESCTHE748863	Hepatitis C virus subtype 1c
+^ESCT1206123	Chronic hepatitis C caused by hepatitis C virus genotype 5
+^ESCTHE748849	Hepatitis C virus subtype 1b
+^ESCTHE830181	Hepatitis C antiviral treatment completed
+^ESCTHE748858	Hepatitis C virus genotype 2
+EMISNQHE6	Hepatitis C carrier
+^ESCTCH762996	Chronic active hepatitis C
+^ESCTHE352322	Hepatitis C virus
+^ESCT1407103	Hepatic coma due to viral hepatitis C
+^ESCTHE748868	Hepatitis C virus subtype 4e
+^ESCTHE748859	Hepatitis C virus genotype 3
+^ESCTGE518914	Genus: Hepatitis C virus group
+^ESCT1393855	Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D
+^ESCT1393856	Chronic hepatitis B with hepatitis C and hepatitis D
+^ESCT1393855	Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D
+^ESCT1393856	Chronic hepatitis B with hepatitis C and hepatitis D

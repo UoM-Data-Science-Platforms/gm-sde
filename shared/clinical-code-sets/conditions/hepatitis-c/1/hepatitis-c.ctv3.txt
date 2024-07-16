@@ -1,0 +1,4 @@
+X306e	Acute hepatitis C
+X306k	Chronic viral hepatitis C
+X306o	Hepatitis C carrier
+A7050	Viral hepatitis C without mention of hepatic coma

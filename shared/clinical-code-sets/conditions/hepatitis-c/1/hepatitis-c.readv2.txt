@@ -1,0 +1,11 @@
+A704000	Viral hepatitis C with coma
+A705000	Viral hepatitis C without mention of hepatic coma
+A707200	Chronic viral hepatitis C
+A70A.00	Hepatitis C genotype 1
+A70B.00	Hepatitis C genotype 2
+A70C.00	Hepatitis C genotype 3
+A70D.00	Hepatitis C genotype 4
+A70E.00	Hepatitis C genotype 5
+A70F.00	Hepatitis C genotype 6
+A70G.00	Acute hepatitis C
+A70z000	Hepatitis C

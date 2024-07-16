@@ -1,0 +1,33 @@
+^ESCT1352601	Hepatitis A virus genotype III
+^ESCTHE315149	Hepatitis A
+^ESCTHU302265	Human hepatitis A virus
+C15-SHHAPT	[SHHAPT] Viral hepatitis A - acute infection
+^ESCTVI703241	Viral hepatitis A without hepatic coma, without hepatitis D
+^ESCT1352606	Hepatitis A virus genotype IIA
+^ESCT1352603	Hepatitis A virus genotype V
+^ESCT1352609	Hepatitis A virus genotype IIIB
+^ESCT1352605	Hepatitis A virus genotype IA
+^ESCTHE302262	Hepatitis A virus
+^ESCT1352610	Hepatitis A virus genotype IIIA
+^ESCT1352600	Hepatitis A virus genotype II
+^ESCTGE518961	Genus: Hepatitis A virus group
+^ESCT1352602	Hepatitis A virus genotype IV
+^ESCTVI420078	Viral hepatitis A without hepatic coma
+^ESCT1352604	Hepatitis A virus genotype VI
+^ESCTHE314512	Hepatitis A virus measurement
+^ESCT1352607	Hepatitis A virus genotype IB
+^ESCT1352599	Hepatitis A virus genotype I
+^ESCTAC290111	Acute hepatitis A
+^ESCTHA302260	HAV - Hepatitis A virus
+^ESCTVI275471	Viral hepatitis A with hepatic coma
+^ESCTHI708233	History of hepatitis A
+^ESCTVI703242	Viral hepatitis A without hepatic coma, without delta-agent
+^ESCT1352608	Hepatitis A virus genotype IIB
+^ESCTVI703240	Viral hepatitis A without hepatic coma, without hepatitis delta
+^ESCTHE770669	Hepatitis A virus Ag
+^ESCTAN378534	Anicteric type A viral hepatitis
+^ESCTAC280019	Acute fulminating type A viral hepatitis
+^ESCTHI708234	History of viral hepatitis, type A
+^ESCTRE320281	Relapsing type A viral hepatitis
+^ESCTVI315147	Viral hepatitis, type A
+^ESCTAC290109	Acute type A viral hepatitis

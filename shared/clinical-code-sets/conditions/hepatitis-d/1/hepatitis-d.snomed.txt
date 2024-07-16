@@ -1,0 +1,7 @@
+707341005	Viral hepatitis type D (disorder)
+735451005	Chronic infection caused by Hepatitis D virus (disorder)
+235869004	Chronic viral hepatitis B with hepatitis D (disorder)
+838380002	Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D (disorder)
+235865005	Hepatitis D superinfection of hepatitis B carrier (disorder)
+235864009	Acute hepatitis B with hepatitis D (disorder)
+186626002	Acute hepatitis B with delta-agent (coinfection) without hepatic coma (disorder)

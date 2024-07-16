@@ -1,0 +1,7 @@
+40468003	Viral hepatitis, type A (disorder)
+111879004	Viral hepatitis A without hepatic coma (disorder)
+424758008	Viral hepatitis A without hepatic coma, without hepatitis delta (disorder)
+79031007	Anicteric type A viral hepatitis (disorder)
+43634002	Relapsing type A viral hepatitis (disorder)
+25102003	Acute type A viral hepatitis (disorder)
+18917003	Acute fulminating type A viral hepatitis (disorder)
