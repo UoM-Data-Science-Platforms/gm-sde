@@ -1,0 +1,289 @@
+A0223	Salmonella arthritis
+A0224	Salmonella osteomyelitis
+A151.	Tuberculosis of hip joint
+A152.	Tuberculosis of knee joint
+A153.	Tuberculosis limb bones - Tuberculous dactylitis
+A154.	Tuberculous mastoiditis
+A15x.	Tuberculosis of other specified bones
+A15y.	Tuberculosis of other specified joint
+A15z.	Tuberculosis of bones or joints NOS
+A36y1	Meningococcal arthritis
+A56x0	Arthritis due to rubella
+A9850	Gonococcal arthritis
+A9853	Gonococcal spondylitis
+A985z	Gonococcal: [joint infection NOS] or [rheumatism]
+J0642	Chronic osteitis of jaw
+J0644	Acute osteomyelitis of jaw
+J0645	Chronic osteomyelitis of jaw
+J0650	Dry tooth socket
+N010.	Arthritis: [septic] or [pyogenic]
+N0100	Pyogenic arthritis of unspecified site
+N0101	Pyogenic arthritis of the shoulder region
+N0102	Pyogenic arthritis of: [upper arm] or [elbow]
+N0104	Pyogenic arthritis of the hand
+N0108	Staphylococcal arthritis and polyarthritis
+N0109	Pneumococcal arthritis and polyarthritis
+N010x	Pyogenic arthritis of multiple sites
+N010y	Pyogenic arthritis of other specified sites
+N010z	Pyogenic arthritis NOS
+N014.	Arthropathy associated with other bacterial diseases
+N0140	Arthropathy associated with other bacterial disease, of unspecified site
+N0147	Arthropathy associated with other bacterial disease, of the ankle and foot
+N01z.	Infective arthritis NOS
+N01z5	Infective arthritis NOS, of the pelvic region and thigh
+N01z7	Infective arthritis NOS, of the ankle and foot
+N01z8	Infective arthritis NOS, of shoulder
+N01zB	Infective arthritis NOS, of elbow
+N01zH	Infective arthritis NOS, of hip
+N01zK	Infective arthritis NOS, of knee
+N11y1	Enterobacterial spondylitis
+N30..	Osteomyelitis, periostitis and other infections affecting bone
+N3000	Acute osteomyelitis of unspecified site
+N3001	Acute osteomyelitis of the shoulder region
+N3002	Acute osteomyelitis of the upper arm
+N3003	Acute osteomyelitis of the forearm
+N3004	Acute osteomyelitis of the hand
+N3006	Acute osteomyelitis of the lower leg
+N3008	Acute osteomyelitis of other specified site
+N3009	Acute osteomyelitis of multiple sites
+N300A	Acute osteomyelitis-cervical spine
+N300B	Acute osteomyelitis-thoracic spine
+N300C	Acute osteomyelitis-lumbar spine
+N300D	Acute osteomyelitis-sacrum
+N300E	Acute osteomyelitis-coccyx
+N300F	Acute osteomyelitis-clavicle
+N300H	Acute osteomyelitis-humerus
+N300J	Acute osteomyelitis-radius
+N300K	Acute osteomyelitis-ulna
+N300M	Acute osteomyelitis-metacarpal
+N300N	Acute osteomyelitis-phalanx of finger/thumb
+N300P	Acute osteomyelitis-pelvis
+N300Q	Acute osteomyelitis-femur
+N300R	Acute osteomyelitis-patella
+N300S	Acute osteomyelitis-tibia
+N300T	Acute osteomyelitis-fibula
+N300U	Acute osteomyelitis-calcaneum
+N300V	Acute osteomyelitis-talus
+N300X	Acute osteomyelitis-metatarsal
+N300Y	Acute osteomyelitis-phalanx of toe
+N300z	Acute osteomyelitis NOS
+N300Z	Acute haematogenous osteomyelitis
+N3010	Chronic osteomyelitis of unspecified site
+N3011	Chronic osteomyelitis of the shoulder region
+N3012	Chronic osteomyelitis of the upper arm
+N3013	Chronic osteomyelitis of the forearm
+N3014	Chronic osteomyelitis of the hand
+N3016	Chronic osteomyelitis of the lower leg
+N3018	Chronic osteomyelitis of other specified site
+N3019	Chronic osteomyelitis of multiple sites
+N301A	Chronic osteomyelitis-cervical spine
+N301C	Chronic osteomyelitis-lumbar spine
+N301D	Chronic osteomyelitis-sacrum
+N301z	Chronic osteomyelitis NOS
+N3020	Unspecified osteomyelitis of unspecified site
+N3021	Unspecified osteomyelitis of the shoulder region
+N3022	Unspecified osteomyelitis of the upper arm
+N3023	Unspecified osteomyelitis of the forearm
+N3024	Unspecified osteomyelitis of the hand
+N3025	Unspecified osteomyelitis of the pelvic region and thigh
+N3026	Unspecified osteomyelitis of the lower leg
+N3027	Unspecified osteomyelitis of the ankle and foot
+N3028	Unspecified osteomyelitis of other specified site
+N3029	Unspecified osteomyelitis of multiple sites
+N302a	Osteomyelitis of vertebra
+N302A	Infection of cervical spine
+N302B	Infection of thoracic spine
+N302C	Infection of lumbar spine
+N302D	Infection of sacrum
+N302E	Infection of coccyx
+N302F	Infection of clavicle
+N302G	Infection of scapula
+N302H	Infection of humerus
+N302K	Infection of ulna
+N302M	Infection of metacarpal
+N302N	Infection of phalanx of finger or thumb
+N302P	Infection of pelvis
+N302Q	Infection of femur
+N302R	Infection of patella
+N302S	Infection of tibia
+N302W	Infection of other tarsal bone
+N302X	Infection of metatarsal
+N302Y	Infection of phalanx of toe
+N302z	Unspecified osteomyelitis NOS
+N303.	Periostitis without osteomyelitis
+N3030	Periostitis without mention of osteomyelitis, of unspecified site
+N3031	Periostitis without mention of osteomyelitis, of the shoulder region
+N3033	Periostitis without osteomyelitis, of the forearm
+N3034	Periostitis without osteomyelitis, of the hand
+N3035	Periostitis without osteomyelitis, of the pelvic region and thigh
+N3036	Periostitis without mention of osteomyelitis, of the lower leg
+N3037	Periostitis without mention of osteomyelitis, of the ankle and foot
+N3038	Periostitis without mention of osteomyelitis, of other specified site
+N3039	Periostitis without mention of osteomyelitis, of multiple sites
+N303z	Periostitis without osteomyelitis NOS
+N3040	Tuberculosis of cervical spine
+N3041	Tuberculosis of thoracic spine
+N3042	Tuberculosis of lumbar spine
+N3043	Tuberculosis of sacrum/coccyx
+N305.	Tuberculosis of limb bones
+N3051	Tuberculosis of the upper arm bone
+N3052	Tuberculosis of the forearm bone
+N3053	Tuberculosis of the pelvic and thigh bones
+N3054	Tuberculosis of the lower leg bone
+N3055	Tuberculosis of other limb bones
+N306.	Tuberculosis of other bones
+N3061	Tuberculosis of the bones of the shoulder region
+N3063	Tuberculosis of the bones of the ankle and foot
+N3064	Tuberculosis of the bones of other sites
+N306z	Tuberculosis of bone NOS
+N308.	Subacute osteomyelitis
+N30z.	Bone infection NOS
+N30z2	Bone infection NOS, of the upper arm
+N30z4	Bone infection NOS, of the hand
+N30z5	Bone infection NOS, of the pelvic/thigh
+N30z6	Bone infection NOS, of the lower leg
+N30z7	Bone infection NOS, of ankle and foot
+N30z9	Bone infection NOS, of multiple sites
+N33z3	Diaphysitis
+Nyu00	[X]Other streptococcal arthritis and polyarthritis
+Nyu01	[X]Arthritis and polyarthritis due to other specified bacterial agents
+NyuC1	[X]Other chronic haematogenous osteomyelitis
+NyuC2	[X]Other chronic osteomyelitis
+NyuC3	[X]Other osteomyelitis
+SP060	Prosthetic joint infection
+AA26.	Yaws osteitis
+A955.	Syphilis of bone
+AB614	Sporotrichosis of the bones
+AB656	Osseous cryptococcosis
+AC230	Echinococcus granulosus infection of bone
+F4G04	Orbital osteomyelitis
+J065.	Alveolitis of jaw
+J065z	Alveolitis of jaw NOS
+N0141	Arthropathy associated with other bacterial disease, of the shoulder region
+N0142	Arthropathy associated with other bacterial disease, of the upper arm
+N0143	Arthropathy associated with other bacterial disease, of the forearm
+N0144	Arthropathy associated with other bacterial disease, of the hand
+N0145	Arthropathy associated with other bacterial disease, of the pelvic region and thigh
+N0146	Arthropathy associated with other bacterial disease, of the lower leg
+N014z	Arthropathy associated with other bacterial disease NOS
+N01z0	Infective arthritis NOS, of unspecified site
+N01z1	Infective arthritis NOS, of the shoulder region
+N01z2	Infective arthritis NOS, of the upper arm
+N01z3	Infective arthritis NOS, of the forearm
+N01z4	Infective arthritis NOS, of the hand
+N01z6	Infective arthritis NOS, of the lower leg
+N01z9	Infective arthritis NOS, of sternoclavicular joint
+N01zA	Infective arthritis NOS, of acromioclavicular joint
+N01zC	Infective arthritis NOS, of distal radioulnar joint
+N01zD	Infective arthritis NOS, of wrist
+N01zE	Infective arthritis NOS, of metacarpophalangeal joint
+N01zF	Infective arthritis NOS, of proximal interphalangeal joint of finger
+N01zG	Infective arthritis NOS, of distal interphalangeal joint of finger
+N01zJ	Infective arthritis NOS, of sacroiliac joint
+N01zL	Infective arthritis NOS, of tibiofibular joint
+N01zM	Infective arthritis NOS, of ankle
+N01zN	Infective arthritis NOS, of subtalar joint
+N01zP	Infective arthritis NOS, of talonavicular joint
+N01zQ	Infective arthritis NOS, of other tarsal joint
+N01zR	Infective arthritis NOS, of 1st metatarsophalangeal joint
+N01zS	Infective arthritis NOS, of lesser metatarsophalangeal joint
+N01zT	Infective arthritis NOS, of interphalangeal joint of toe
+N01zx	Infective arthritis NOS, of multiple sites
+N01zy	Infective arthritis NOS, of other specified site
+N300G	Acute osteomyelitis-scapula
+N300L	Acute osteomyelitis-carpal bone
+N300W	Acute osteomyelitis-other tarsal bone
+N301B	Chronic osteomyelitis-thoracic spine
+N301E	Chronic osteomyelitis-coccyx
+N301F	Brodie's abscess of cervical spine
+N301G	Brodie's abscess of thoracic spine
+N301H	Brodie's abscess of lumbar spine
+N301J	Brodie's abscess of sacrum
+N301K	Brodie's abscess of coccyx
+N302L	Infection of carpal bone
+N302T	Infection of fibula
+N302U	Infection of calcaneum
+N302V	Infection of talus
+N302Z	Infection of multiple bones
+N3032	Periostitis without mention of osteomyelitis, of the upper arm
+N3050	Tuberculosis of unspecified limb bone
+N3056	Tuberculosis of multiple limb bones
+N305z	Tuberculosis of limb bones NOS
+N3060	Tuberculosis of bone, site unspecified
+N3062	Tuberculosis of the bones of the hand
+N3065	Tuberculosis of the bones of multiple sites
+N3080	Subacute osteomyelitis of cervical spine
+N3081	Subacute osteomyelitis of thoracic spine
+N3082	Subacute osteomyelitis of lumbar spine
+N3083	Subacute osteomyelitis of sacrum
+N3084	Subacute osteomyelitis of coccyx
+N30z0	Bone infection NOS, of unspecified site
+N30z1	Bone infection NOS, of the shoulder region
+N30z3	Bone infection NOS, of the forearm
+N11y0	Brucella spondylitis
+Nyu02	[X]Arthritis in other infectious and parasitic diseases classified elsewhere
+Nyu60	[X]Other infective spondylopathies
+Nyu66	[X]Spondylopathy in other infectious and parasitic diseases classified elsewhere
+NyuC0	[X]Other acute osteomyelitis
+X20Sg	Osteomyelitis - jaw
+X20Sk	Proliferative Garre's osteomyelitis
+X20Sl	Neonatal osteomyelitis of jaw
+X702V	Synovitis, acne, pustulosis palmaris, hyperostosis, osteomyelitis syndrome
+X70Aa	Pelvis acute osteomyelitis
+X70Ab	Hip acute osteomyelitis
+X70Ae	Foot - chronic osteomyelitis
+X70Af	Ankle - chronic osteomyelitis
+X70Ag	Thigh - chronic osteomyelitis
+X70Ah	Pelvis - chronic osteomyelitis
+X70Ai	Chronic multifocal osteomyelitis
+X70Aj	Chronic osteomyelitis with draining sinus
+X70AX	Foot - acute osteomyelitis
+X70AY	Ankle - acute osteomyelitis
+X70AZ	Thigh acute osteomyelitis
+Xa3h3	Acute osteomyelitis - elbow
+Xa3h4	Acute osteomyelitis - wrist
+Xa3h5	Acute osteomyelitis - hip
+Xa3h6	Chronic osteomyelitis - elbow
+Xa3h7	Chronic osteomyelitis - wrist
+Xa3h8	Chronic osteomyelitis - hip
+Xa3h9	Chronic osteomyelitis - knee
+Xa3hA	Osteomyelitis elbow NOS
+Xa3hB	Osteomyelitis wrist NOS
+Xa3hC	Osteomyelitis hip NOS
+Xa3hD	Osteomyelitis knee NOS
+Xa416	Acute osteomyelitis - knee
+XaEiL	Chronic osteomyelitis of the tibia
+XE1Fu	Acute osteomyelitis of the pelvic region and thigh
+XE1Fv	Acute osteomyelitis of the ankle and foot
+XE1Fw	Chronic osteomyelitis
+XE1Fx	Chronic osteomyelitis of the pelvic region and thigh
+XE1Fy	Chronic osteomyelitis of the ankle and foot
+XE1Fz	Unspecified osteomyelitis
+X701H	Infective arthritis
+X701I	Ankle pyogenic arthritis
+X701J	Knee pyogenic arthritis
+X701K	Hip pyogenic arthritis
+X701L	Wrist pyogenic arthritis
+X701M	Elbow pyogenic arthritis
+X701T	Arthritis due to parasitic infection
+X70Ak	Brodie's abscess
+X70AQ	Costochondritis NOS
+X70H4	Osteitis cystica tuberculosa multiplex
+X70IX	Skeletal actinomycosis
+X70IY	Mandibular actinomycosis
+X70IZ	Vertebral actinomycosis
+X70Pv	Yaws gumma of bone
+X70Py	Yaws osteitis
+Xa9Cj	Tuberculosis of spine
+XaBJK	Costochondritis
+XaEiK	Brodie's abscess of tibia
+XE0Qr	Tuberculosis of bones and joints
+XE0Rx	Gonococcal joint infection NOS
+XE1DK	Pyogenic arthritis of the upper arm
+XE1DL	Pyogenic arthritis of the forearm
+XE1DM	Pyogenic arthritis of the pelvic region and thigh
+XE1DN	Pyogenic arthritis of the lower leg
+XE1DO	Pyogenic arthritis of the ankle and foot
+XE1G0	Bone infection NOS, of other specified site
+XM1OH	Congenital syphilitic osteochondritis
+XM1OL	Secondary syphilis of bone

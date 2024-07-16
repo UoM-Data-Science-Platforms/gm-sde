@@ -1,0 +1,1162 @@
+A72..00	Mumps
+A52..00	Chickenpox - varicella
+A75..11	Glandular fever
+A98z.11	Gonorrhoea
+A55..00	Measles
+A53..00	Herpes zoster
+A56..11	German measles
+A53..11	Shingles
+A54..00	Herpes simplex
+L124.12	Toxaemia NOS
+A84..00	Malaria
+A38..00	Septicaemia
+J633.00	Hepatitis unspecified
+A56..00	Rubella
+A3...00	Other bacterial diseases
+F286.15	Myalgic encephalomyelitis
+A79z.00	Viral infection NOS
+F563500	Viral labyrinthitis
+A544.00	Ophthalmic herpes simplex
+AC0..00	Schistosomiasis - bilharziasis
+A3B1.00	Staphylococcal infection
+R107.00	[D]Unspecified viraemia
+A54z.11	Herpes labialis
+A362.00	Meningococcal septicaemia
+A36..00	Meningococcal infection
+A52..11	Chickenpox
+A1...00	Tuberculosis
+A980200	Acute gonococcal vulvovaginitis
+A38z.11	Sepsis
+AA0..00	Leptospirosis
+A3By300	Mycoplasma infection
+A570.11	Fifth disease
+43C3.11	HIV positive
+N241300	Viral myalgia
+A75..00	Infectious mononucleosis
+A07y000	Viral gastroenteritis
+A79z.11	Viral illness
+A061.00	Giardiasis - Lambliasis
+A3B0.00	Streptococcal infection
+A76..00	Trachoma
+A743.00	Hand, foot and mouth disease
+M140.00	Dermatitis herpetiformis
+Q40A.00	Sepsis of the newborn
+A172000	Tuberculous - cervical lymphadenitis
+AB64.00	Mycotic mycetomas
+A97..12	Treponemal infection
+A61..00	Dengue - breakbone fever
+A98..00	Gonococcal infections
+AC8z.00	Helminthiasis NOS
+A871000	Lyme disease
+8BAD100	TB chemotherapy
+A172.00	Tuberculosis of peripheral lymph nodes
+A570.00	Erythema infectiosum - fifth disease
+A784.11	Aphthous fever
+A97..11	Syphilis
+AC7z.00	Intestinal helminthiases NOS
+A170600	Tuberculosis lichenoides
+A85..00	Leishmaniasis
+A57z.11	Non specific viral rash
+A544000	Unspecified ophthalmic herpes
+A172200	Tuberculous adenitis
+A98yz12	Gonococcal septicaemia
+A121000	Tuberculosis of hilar lymph nodes
+J633z00	Hepatitis unspecified NOS
+AC2..11	Hydatid disease
+A540.00	Eczema herpeticum - Kaposi's varicelliform eruption
+A076.00	Enteritis due to specified virus
+A792.00	Coxsackie virus
+A5...00	Viral diseases with exanthem
+A3By800	Coliform bacteria
+A541400	Herpesviral infection of perianal skin and rectum
+A3B7.00	Pseudomonas infection
+A57y111	Roseola infantum
+A661100	American mountain tick fever
+A125.00	Respiratory TB not confirmed bact or histologically
+A31..00	Other mycobacterial diseases
+L169.00	Herpes gestationis
+A3B5.00	Haemophilus influenzae infection
+A382.00	Pneumococcal septicaemia
+A789A00	HIV disease resulting in wasting syndrome
+A3B4.11	E.coli infection
+A79y.11	Epstein-Barr virus
+A9...00	Syphilis and other venereal diseases
+A3B1100	Methicillin resistant staphylococcus aureus
+N035.11	Charcot's arthropathy
+A84X.00	Plasmodium falciparum malaria, unspecified
+A532300	Ophthalmic herpes zoster infection
+A788.11	Human immunodeficiency virus infection
+A785X00	Cytomegaloviral disease, unspecified
+A78X.00	Unspecified viral haemorrhagic fever
+A796.00	Parvovirus infection
+R055500	[D]Septic shock
+A7...00	Other viral and chlamydial diseases
+A384200	Escherichia coli septicaemia
+A380100	Septicaemia due to streptococcus, group B
+A79B.00	Human papilloma virus infection
+A790.00	Adenovirus
+A3Ay100	Toxic shock syndrome
+A542.00	Herpetic gingivostomatitis
+A076200	Enteritis due to rotavirus
+A541100	Herpetic vulvovaginitis
+A3B4.00	Escherichia coli infection
+A654.12	Dengue haemorrhagic fever
+A991.00	Lymphogranuloma venereum
+A384300	Pseudomonas septicaemia
+A570.12	Slapped cheek syndrome
+A380400	Septicaemia due to enterococcus
+AA41.00	Erythema chronicum migrans
+A37..00	Tetanus
+42YA.00	Malarial parasites
+A532.00	Herpes zoster with ophthalmic complication
+A784.00	Foot and mouth disease
+A3B1111	Multiple resistent staphylococcus aureus
+A560200	Rubella deafness
+A57..00	Other viral exanthemata
+A1z..00	Tuberculosis NOS
+A380.00	Streptococcal septicaemia
+AC33.00	Unspecified taeniasis
+A076.11	Viral diarrhoea
+A076z00	Enteritis due to specified virus NOS
+A311.11	Buruli ulcer
+AC00.00	Schistosoma haematobium
+A22..00	Anthrax
+AA24.00	Yaws gummata and ulcers
+A39..00	Actinomycotic infections
+A3Bz.00	Bacterial infection NOS
+A076.12	Viral vomiting
+A57z.00	Other viral exanthemata NOS
+A381.00	Staphylococcal septicaemia
+A061.11	Colitis - giardial
+A394.00	Madura foot - actinomycosis
+A100.00	Primary tuberculous complex
+N015.00	Arthropathy associated with other viral diseases
+A791.00	ECHO virus
+A170100	Tuberculosis - lupus vulgaris
+A3B6.00	Proteus infection
+A18..00	Miliary tuberculosis
+A79..00	Specific viral infections
+H583100	Tropical eosinophilia
+A77..00	Other disease conjunctiva due to viruses and chlamydiae NEC
+A541200	Herpetic ulceration of vulva
+65V9.11	TB - tuberculosis notification
+AC...00	Helminthiases
+A3BX500	Oth streptococcus/cause/diseases classified/oth chapters
+G500311	TB - acute pericarditis
+1B1G100	Viral headache
+A07y100	Infantile viral gastroenteritis
+A3BX200	Streptococc,group B/cause/disease classified/oth chapters
+A54x300	Herpesviral vesicular dermatitis
+A7y0X00	Adenovirus/cause of diseases classified to other chapters
+R106.00	[D]Unspecified bacteraemia
+ZV02100	[V]Typhoid carrier
+A3BX700	Staphylococ aureus/cause/diseases classified/oth chapters
+A3BX100	Streptococc,gp A/cause/disease classified/to oth chapters
+A723.00	Mumps pancreatitis
+A532400	Herpes zoster ophthalmicus
+A173100	Tuberculous episcleritis
+A782.00	Sweating fever
+L090y00	Sepsis NOS following abortion/ectopic/molar pregnancy
+A301.00	Tuberculoid leprosy (type T)
+A261.00	Rat-bite Streptobacillary fever
+A55z.00	Measles with no complication NOS
+A27y.00	Other specified zoonotic bacterial disease
+A52x.00	Varicella with other specified complications
+A082111	Viral gastroenteritis
+A821000	African tick virus
+A5z..00	Viral diseases with exanthemata NOS
+A53y.00	Herpes zoster with unspecified complication
+A785.11	Salivary gland virus disease
+A54..11	Herpes simplex viral infection
+A87..00	Relapsing fever
+A53z.00	Herpes zoster NOS
+A541300	Herpetic infection of penis
+AA23.00	Hyperkeratosis due to yaws
+A78A000	Chlamydial infection of lower genitourinary tract
+A10..00	Primary tuberculous infection
+Q40y200	Septicaemia of newborn
+A546.00	Herpes simplex whitlow
+A751.00	Cytomegaloviral mononucleosis
+A841X00	Plasmodium vivax malaria without complication
+65V4.00	Notification of malaria
+A79X.00	Enterovirus infection, unspecified
+R055511	[D]Septicaemic shock
+A7y..00	Other specified viral or chlamydial diseases
+4J35.00	HIV p24 antigen level
+A761.00	Trachoma - active stage
+A931.00	Syphilitic aortitis
+A980.00	Acute gonorrhoea of lower genitourinary tract
+A840.00	Falciparum malaria - malignant
+A81..00	Other typhus
+A511.00	Pseudocowpox - Milker's node
+A60..00	Yellow fever
+65QA.00	AIDS carrier
+A788.00	Acquired immune deficiency syndrome
+AB64000	Actinomycetoma
+L090z00	Septicaemia NOS following abortive pregnancy
+A160.11	Renal tuberculosis
+A789200	HIV disease resulting in candidiasis
+A171000	Bazin's disease - erythema induratum - TB hypersensitivity
+A384211	E.coli septicaemia
+A7z..00	Other viral or chlamydial disease NOS
+AE1..00	Late effects of acute poliomyelitis
+A905200	Syphilitic saddle nose
+A076000	Enteritis due to adenovirus
+A124700	Primary respiratory TB confirm bact and histologically
+A54y.00	Herpes simplex with unspecified complication
+ZV01A00	[V]Asymptomatic human immunodeficency virus infection status
+AB05.11	Herpes circinatus
+A532000	Herpes zoster with dermatitis of eyelid
+A752.00	Pfeiffer's disease
+M143.00	Impetigo herpetiformis
+A380300	Septicaemia due to streptococcus pneumoniae
+A794.00	Ebola virus disease
+A172z00	Tuberculosis of peripheral lymph nodes NOS
+A7y0500	Papillomavirus as cause of diseases classif to oth chapters
+4J34.00	HIV viral load
+4JU..00	Presence of virus
+A851.00	Urban cutaneous leishmaniasis
+A311.13	Cutaneous mycobacterial infections
+AC32.00	Taenia saginata infection
+A531100	Geniculate herpes zoster
+AC5z.00	Filariasis NOS
+A56z.00	Rubella with no complication NOS
+J63X.00	Granulomatous hepatitis, not elsewhere classified
+A789500	HIV disease resulting in Kaposi's sarcoma
+A076100	Enteritis due to enterovirus
+A86..11	Sleeping sickness
+A384100	Haemophilus influenzae septicaemia
+A311.12	Mycobacterium marinum infection
+F4K4400	Argyll Robertson pupil
+A96..00	Late latent syphilis
+A97z.00	Syphilis NOS
+A911.00	Primary anal syphilis
+A39z100	Nocardiosis NOS
+A940.11	Locomotor ataxia
+AE0..00	Late effects of tuberculosis
+A14y300	Tuberculosis of mesenteric lymph glands
+A55..11	Morbilli
+A79y.00	Other specific viral infection
+A55xz00	Measles with other specified complication NOS
+A84W.00	Plasmodium malariae malaria without complication
+A54z.00	Herpes simplex no complication NOS
+A380000	Septicaemia due to streptococcus, group A
+A54..12	Scrum pox
+A661.00	Tick-borne fever
+A381000	Septicaemia due to Staphylococcus aureus
+A173400	Tuberculous keratoconjunctivitis
+A52z.00	Varicella with no complication NOS
+A170z00	Tuberculosis of skin and subcutaneous tissue NOS
+SP38000	Septic shock due to transfusion
+AA2..00	Yaws
+A3y..00	Other specified bacterial diseases
+A6...00	Arthropod-borne viral diseases
+A72z.11	Epidemic parotitis
+A30..00	Leprosy
+A14y200	Tuberculosis of small intestine
+J691.00	Tropical sprue
+A384000	Gram negative septicaemia NOS
+A74..00	Specific diseases due to coxsackie virus
+A915.00	Uveitis due to secondary syphilis
+A124.00	Resp TB bacteriologically and histologically confirmed
+A383.00	Septicaemia due to anaerobes
+A180000	Acute miliary tuberculosis of a single specified site
+A94y600	Rupture of syphilitic cerebral aneurysm
+A793.00	Rhinovirus
+A041.00	Botulism
+65V9.00	Notification of tuberculosis
+A18y.00	Other specified miliary tuberculosis
+A841.00	Vivax malaria - benign tertian
+A3z..00	Other bacterial disease NOS
+A848.00	Blackwater fever
+A200.00	Bubonic plague
+42Y5.00	RBC malaria parasitaemia count
+AC50.00	Bancroftian filariasis
+43D3.00	Legionella antibody positive
+A3Byz00	Other specified bacterial infection NOS
+AyuDG00	[X]Viral infection, unspecified
+M145200	Senile dermatitis herpetiformis
+AB2y300	Candidal septicaemia
+A38z.00	Septicaemia NOS
+A532z00	Herpes zoster with other ophthalmic complication
+65VE.00	Notification of AIDS
+A654000	Dengue haemorrhagic fever
+A6z..00	Arthropod-borne viral disease NOS
+AC0z.00	Schistosomiasis NOS
+A54x.00	Herpes simplex with other specified complication
+A1y..00	Other specified tuberculosis
+AC25.00	Liver echinococcus multilocularis
+A171100	Tuberculous erythema nodosum
+A78y500	Lassa fever
+A86..00	Trypanosomiasis
+A850.12	Kala-azar
+A384.00	Septicaemia due to other gram negative organisms
+AC53.00	Onchocerciasis
+4J32.00	Sample: virus identified
+Q434000	Perinatal hepatitis causing jaundice, unspecified
+A3A3.00	Necrobacillosis
+A176.00	Tuberculosis of adrenal glands - Addison's disease
+A3A4000	Nonpneumonic Legionnaires' disease
+N015z00	Arthropathy associated with other viral disease NOS
+A823.00	Queensland tick typhus
+A78y.00	Other specified viral and chlamydial diseases
+A54xz00	Herpes simplex with other specified complication NOS
+A788z00	Acquired human immunodeficiency virus infection syndrome NOS
+Q403.00	Tetanus neonatorum
+N035.12	Neuropathic arthritis
+AA...00	Other spirochaetal diseases
+A789000	HIV disease resulting in mycobacterial infection
+A913400	Secondary syphilis of tonsils
+AC1..00	Other trematode infections
+A173000	Tuberculous chorioretinitis
+Ayu0E00	[X]Other viral enteritis
+A16..00	Tuberculosis of genitourinary system
+AC02.11	Asiatic schistosomiasis
+A170300	Tuberculosis - lupus NOS
+A98z.00	Gonococcal infections NOS
+A12y000	Tuberculosis of mediastinum
+A10z.00	Primary tuberculous infection NOS
+A919.00	Unspecified secondary syphilis
+683B.00	Clostridium difficile toxin detection
+M070300	Pyoderma ulcerosum tropicalum
+A85z.00	Leishmaniasis NOS
+A173300	Tuberculous chronic iridocyclitis
+A53xz00	Herpes zoster with other specified complication NOS
+A31z.00	Mycobacterial disease NOS
+A851000	Aleppo boil
+A851100	Baghdad boil
+A821400	Mediterranean tick fever
+M243200	Poliosis eccentrica
+A510.00	Cowpox
+Q40A000	Sepsis of newborn due to Staphylococcus aureus
+F374400	Polyneuropathy in herpes zoster
+J082300	Herpetic aphthous ulceration
+A36z.00	Meningococcal infection NOS
+AA26.15	Periostitis of yaws
+A98yy00	Other gonococcal infection of other specified site
+A980z00	Acute gonorrhoea of lower genitourinary tract NOS
+A17y200	Tuberculosis pericardium
+AA2..12	Pian (yaws)
+AC7y.00	Mixed intestinal helminthiasis
+A3BXD00	H influenzae as cause/diseases classified/other chapters
+L040011	Spontaneous abortion with sepsis
+A851200	Delhi boil
+AA40.00	Nonvenereal endemic syphilis
+A172011	Scrofula - tuberculous cervical lymph nodes
+A273.00	Extraintestinal yersiniosis
+A125200	Prim respiratory TB without mention of bact or hist confirm
+L169z00	Herpes gestationis NOS
+AC8y100	Capillaria hepatica
+A95y.00	Other specified late syphilis
+AE02.00	Late effects of genitourinary system tuberculosis
+A221.11	Wool-sorters' disease
+A311.00	Cutaneous mycobacterial infections
+Eu02400	[X]Dementia in human immunodef virus [HIV] disease
+A6y..00	Other specified arthropod-borne viral diseases
+A66y100	Piry fever
+M243300	Poliosis -acquired
+A761.11	Trachoma inclusion conjunctivitis
+A3Bx.00	Bacteria causing diseases classified elsewhere
+A3Ayz00	Other specified bacterial disease NOS
+AA0z.00	Leptospirosis NOS
+A3By.00	Other specified bacterial infection
+AyuKH11	[X]Coliform bacteria/cause/disease classifd/oth chapters
+Q403100	Tetanus omphalitis
+L171300	Maternal gonorrhoea in pregnancy - baby not yet delivered
+L171.00	Maternal gonorrhoea during pregnancy/childbirth/puerperium
+A941.11	General paralysis of insane
+A940.00	Tabes dorsalis - neurosyphilis
+A985200	Gonococcal bursitis
+A180100	Acute miliary tuberculosis of multiple sites
+L175.00	Maternal rubella in pregnancy, childbirth and the puerperium
+AC22.00	Thyroid echinococcus granulosus
+A10y.00	Other primary progressive tuberculosis
+A381100	Septicaemia due to coagulase-negative staphylococcus
+A854.00	American cutaneous leishmaniasis
+A53x.00	Herpes zoster with other specified complication
+SP20100	Postoperative septic shock
+A3BX800	Oth staphylococcus/cause/diseases classified/oth chapters
+A31y.00	Other specified mycobacterial disease
+A797.00	Papovavirus infection
+A785.00	Cytomegalic inclusion disease
+A57y.00	Other specified viral exanthemata
+A822000	Siberian tick typhus
+M261G00	Acne agminata
+N010A00	Arthritis in Lyme disease
+SP25400	Postoperative septicaemia
+A173.00	Tuberculosis of eye
+A124500	Tuberculosis of larynx, trachea & bronchus conf bact/hist'y
+A917.00	Secondary syphilis relapse
+A860.00	Chagas' disease with heart involvement
+A121100	Tuberculosis of mediastinal lymph nodes
+A785100	Cytomegaloviral pancreatitis
+R109.00	[D]Laboratory evidence of human immunodefiency virus [HIV]
+A72z.00	Mumps with no complication
+A789.00	Human immunodef virus resulting in other disease
+A261.11	Haverhill fever
+AC57.00	Dracontiasis - guinea worm
+A74z.00	Coxsackie viral diseases NOS
+A171.00	Tuberculosis with erythema nodosum hypersensitivity reaction
+A789600	HIV disease resulting in Burkitt's lymphoma
+A124400	TB intrathoracic lymph nodes confirm bact histologically
+A812.00	Scrub mite-borne typhus
+N307z00	Poliomyelitis osteopathy NOS
+A3BX600	Unspecf streptococ/cause/diseases classified/oth chapters
+A221.00	Pulmonary anthrax
+A56..13	Liberty measles
+A56xz00	Rubella with other specified complication NOS
+A15..13	Tuberculous synovitis
+A74y.00	Other specified coxsackie virus disease
+AA00.11	Spirochaetal jaundice
+A20..00	Plague
+A3BXF00	Pseudomonas as cause/diseases classifd to other chapters
+A300.00	Lepromatous leprosy (type L)
+A17z.00	Tuberculosis of other organs NOS
+AE23.00	Sequelae of viral hepatitis
+A7y0400	Parvovirus as cause of diseases classified to oth chapters
+R055200	[D]Endotoxic shock
+A75..12	Pfeiffer's disease
+A17y400	Tuberculosis of liver
+A30..11	Hansen's disease
+A17yz00	Tuberculosis of other specified organs NOS
+A220.00	Cutaneous anthrax
+A798.00	Retrovirus infection
+A847.00	Induced malaria
+A170.11	Lupus - tuberculous
+AC7x.11	Physalopteriasis
+A73..11	Parrot fever
+AC7x.00	Other specified intestinal helminthiases
+A17y.00	Tuberculosis of other specified organs
+A370.00	Obstetrical tetanus
+AC01.00	Schistosoma mansoni
+A852.00	Asian desert cutaneous leishmaniasis
+A121z00	Tuberculosis of intrathoracic lymph nodes NOS
+65Y1.00	On tuberculosis chemoprophylaxis
+AC30.00	Taenia solium infection, intestinal form
+A4y..00	Other enterovirus diseases of central nervous system
+A554.00	Measles with intestinal complications
+A170200	Tuberculosis - scrofuloderma
+A78..00	Other viral or chlamydial diseases
+A788U00	HIV disease result/haematological+immunologic abnorms,NEC
+AC32.11	Beef tapeworm infection
+Q40W.00	Sepsis of newborn due to other+unspecified streptococci
+65VD.00	Notification of acute polio
+A170.00	Tuberculosis of skin and subcutaneous tissue
+A33..11	Bordetella
+F4A5400	Keratitis due to syphilis
+A912300	Primary tonsil syphilis
+A846.00	Unspecified malaria
+A55y.00	Measles with unspecified complication
+A39z.00	Actinomycosis unspecified site
+A871.00	Tick-borne relapsing fever
+A545.00	Herpes simplex septicaemia
+AAz..00	Spirochaetal infection NOS
+A220.11	Malignant pustule
+A392.00	Abdominal actinomycosis
+A812.12	Kedani fever
+AC51.00	Malayan filariasis
+L174.00	Maternal malaria in pregnancy, childbirth and the puerperium
+A14y500	Tuberculosis of retroperitoneal lymph nodes
+A844000	Malaria due to simian plasmodia
+A57y400	Pseudoscarlatina
+A861000	Chagas' disease with digestive system involvement
+A121200	Tuberculosis of tracheobronchial lymph nodes
+A3BXG00	Bacillus fragilis/cause/diseases classified/oth chapters
+N035.00	Neuropathic arthropathy
+A380500	Vancomycin resistant enterococcal septicaemia
+A3B6000	Proteus mirabilis infection
+A7y0.00	Viral agent as the cause of other diseases
+A795.00	Coronavirus infection
+A302.00	Indeterminate leprosy (type I)
+A789400	HIV disease resulting in multiple infections
+A2...00	Zoonotic bacterial diseases
+A16z.00	Genitourinary tuberculosis NOS
+A903.00	Syphilitic interstitial keratitis
+A912.00	Other primary syphilis
+A531000	Herpes zoster with other CNS complications
+M142.00	Juvenile dermatitis herpetiformis
+A36yz00	Other specified meningococcal infection NOS
+A3BX300	Streptococc,group D/cause/disease classified/oth chapters
+A663000	Bunyamwera fever
+A4y1.00	Enteroviral exanthematous fever
+AA2..11	Framboesia
+A172100	Scrofulous tuberculous abscess
+A78yz00	Other specified viral and chlamydial diseases NOS
+N015x00	Arthropathy with other viral disease, of multiple sites
+A789X00	HIV dis reslt/oth mal neopl/lymph,h'matopoetc+reltd tissu
+AC8..00	Other and unspecified helminthiases
+A663D00	Zika fever
+A531.00	Herpes zoster with other central nervous system complication
+A53x100	Disseminated zoster
+A3BXC00	E coli as cause of diseases classified to other chapters
+A663100	Bwamba fever
+K1A..00	Urinary calculus in schistosomiasis
+AyuK100	[X]Streptococc,group B/cause/disease classified/oth chapters
+Ayu3S00	[X]Staphylococcal infection, unspecified
+Ayu3R00	[X]Other specified bacterial diseases
+AyuK600	[X]Staphylococ aureus/cause/diseases classified/oth chapters
+A5y..00	Other specified viral diseases with exanthemata
+AyuA700	[X]Measles without complication
+A38y.00	Other specified septicaemias
+A18z.00	Miliary tuberculosis NOS
+A122z00	Isolated tracheal or bronchial tuberculosis NOS
+A80..00	Louse-borne epidemic typhus
+A788400	Human immunodeficiency virus with neurological disease
+Ayu3J00	[X]Septicaemia, unspecified
+A3B6z00	Proteus infection NOS
+Ayu3L00	[X]Actinomycosis, unspecified
+AyuER00	[X]Mycetoma, unspecified
+AyuDF00	[X]Other viral infections of unspecified site
+AyuD300	[X]Mumps without complication
+A9z..00	Syphilis or venereal disease NOS
+H5y0100	Tracheostomy sepsis
+L169300	Herpes gestationis - not delivered
+A3By600	Coccal infection NEC
+N307.00	Osteopathy from poliomyelitis
+A3B..00	Bacterial infections - causative organisms
+A20y200	Plague - pestis minor
+AC2..00	Echinococcosis
+A7y0100	Retrovirus as cause of diseases classified to other chapters
+A92..00	Latent early syphilis
+A384400	Serratia septicaemia
+AC02.00	Schistosoma japonicum
+A98yz11	Gonococcaemia NOS
+A850.11	Dumdum fever
+L170.00	Maternal syphilis in pregnancy/childbirth/puerperium
+A3By500	Serratia infection
+A57y200	Fourth disease
+Ayu1300	[X]Resp TB unspcf,w'out mention/bacterial or histol confrmtn
+A57yz00	Other specified viral exanthemata NOS
+AB64.11	Madura foot, mycotic
+A3A..00	Other bacterial diseases
+A54x000	Visceral herpes simplex
+A173200	Tuberculous interstitial keratitis
+Q407500	Neonatal candida septicaemia
+A55x.00	Measles with other specified complication
+A17..00	Tuberculosis of other organs
+L175300	Maternal rubella during pregnancy - baby not yet delivered
+A72x.00	Mumps with other specified complications
+A971.00	Latent syphilis unspecified
+AA23.11	Ghoul hand
+G532000	Concato's disease
+AyuK.00	[X]Bacterial, viral and other infectious agents
+Q40A100	Sepsis of newborn due to Escherichia coli
+A941.12	Taboparesis
+AA21.00	Multiple papillomata and wet crab yaws
+A98y000	Gonococcal keratosis
+F4Cy000	Filarial infection of conjunctiva
+A56..12	French measles
+A251.00	Subacute and chronic melioidosis
+A4zz.00	Non-arthropod-borne viral diseases of CNS NOS
+A171z00	Erythema nodosum with tuberculosis NOS
+AA21.11	Butter yaws
+A843.00	Ovale malaria
+G500300	Acute pericarditis - tuberculous
+A3BX.00	Bacterial causes of diseases classified elsewhere
+AA00.00	Leptospirosis icterohaemorrhagica
+G767.00	Aortitis - syphilitic
+AC03.00	Cutaneous schistosomiasis
+A3BXK00	Met resist stap aureus cause disease class other chapters
+A39zz00	Actinomycosis unspecified site NOS
+AC20.00	Liver echinococcus granulosus
+L173000	Maternal tuberculosis,unspec whether in pregnancy/puerperium
+A174.00	Tuberculosis of ear
+A94y200	Syphilitic disseminated retinochoroiditis
+A91..00	Early symptomatic syphilis
+A121.00	Tuberculosis of intrathoracic lymph nodes
+A788000	Acute human immunodeficiency virus infection
+A788100	Asymptomatic human immunodeficiency virus infection
+A52y.00	Varicella with unspecified complications NOS
+A3BXH00	Clostridium perfring/cause/diseases classfd/oth chapters
+43v..00	CD4 immune monitoring
+A787100	Machupo haemorrhagic fever
+A202.00	Septicaemic plague
+L433.12	Septic obstetric embolism
+A861.00	Chagas' disease with other organ involvement
+A76z.00	Unspecified trachoma
+A982.00	Chronic gonorrhoea lower genitourinary tract
+AC0y300	Schistosoma spindale
+AC7..00	Other intestinal helminthiases
+A862.00	Chagas' disease without mention of organ involvement
+AC8yz00	Other specified helminthiasis NOS
+A821100	India tick virus
+A25..00	Melioidosis
+A863.00	Gambian trypanosomiasis
+A3BX900	Unspcfd staphlococ/cause/diseases classified/oth chapters
+Q40A300	Perinatal coagulase negative staphylococcus
+A250.00	Acute and fulminating melioidosis
+A91X.00	Early syphilis, unspecified
+A916.00	Secondary syphilis of viscera or bone
+AA4z.00	Other spirochaetal infection NOS
+A913.00	Secondary syphilis of skin or mucus membranes
+AE0z.00	Late effects of tuberculosis NOS
+A626.00	Rocio virus disease
+A600.00	Sylvatic yellow fever
+A60z.00	Yellow fever unspecified
+A39z000	Maduromycosis NOS
+A770.11	Paratrachoma
+A2z..00	Zoonotic bacterial disease NOS
+AA4y.00	Other specified spirochaetal infection
+A170700	Tuberculosis papulonecrotica
+A930.00	Syphilitic aortic aneurysm
+A913500	Secondary syphilis of vulva
+A3BXE00	Proteus(mirabilis)(morganii)cause/dis classfd/oth chapter
+A113.00	Tuberculosis of bronchus
+A880100	Cutaneous and mucocutaneous bartonellosis
+AyuA100	[X]Herpesviral infection, unspecified
+N015500	Arthropathy with other viral disease, of pelvic region/thigh
+AA0yz12	Pretibial fever
+AyuC.00	[X]Human immunodeficiency virus disease
+A788y00	Human immunodeficiency virus with other clinical findings
+H450.00	Pneumoconiosis associated with tuberculosis
+A787.00	Arenaviral haemorrhagic fever
+A663500	Mucambo fever
+A72y.00	Mumps with unspecified complication
+AC56000	Filariasis due to Brugia timori
+G86y000	Chylocele - nonfilarial
+A97..00	Other and unspecified syphilis
+A531z00	Herpes zoster with other CNS complication NOS
+Ayu3U00	[X]Haemophilus influenzae infection, unspecified
+A880.00	Bartonellosis
+A850.00	Visceral leishmaniasis
+AC02.12	Katayama disease
+A300000	Borderline lepromatous leprosy
+L175100	Maternal rubella during pregnancy - baby delivered
+A72xz00	Mumps with other specified complications NOS
+AC5..00	Filarial infection and dracontiasis
+AA2x000	Juxta-articular yaws nodules
+A789900	HIV disease resulting in lymphoid interstitial pneumonitis
+A970.00	Late syphilis unspecified
+A810.00	Murine endemic flea typhus
+A913z00	Secondary syphilis of skin or mucus membranes NOS
+AE00.00	Late effects of respiratory tuberculosis
+A832.00	Rickettsialpox
+A81z.00	Other typhus NOS
+A93y000	Syphilitic pericarditis
+A912z00	Other primary syphilis NOS
+A916.11	Secondary syphilis of bone
+A663.00	Other mosquito-borne fever
+A56y.00	Rubella with unspecified complication
+N015600	Arthropathy with other viral disease, of lower leg
+AC00.11	Vesical schistosomiasis
+A789700	HIV dis resulting oth types of non-Hodgkin's lymphoma
+A789100	HIV disease resulting in cytomegaloviral disease
+AA2z.00	Unspecified yaws
+L170100	Maternal syphilis during pregnancy - baby delivered
+AA4..00	Other spirochaetal infections
+A913300	Secondary syphilis of skin
+A177.00	Tuberculosis spleen
+N015400	Arthropathy with other viral disease, of hand
+A786.00	Haemorrhagic nephrosonephritis
+AC0y.00	Other specified schistosomiasis
+AC2y.00	Liver echinococcus unspecified
+A390.00	Cutaneous actinomycosis
+A39y100	Cutaneous nocardiosis
+M162400	Parapsoriasis herpetiformis
+Q40y000	Intrauterine fetal sepsis, unspecified
+A880.13	Verruga peruana
+AC27.00	Unspecified echinococcus multilocularis
+A663200	Chikungunya fever
+A750.00	Gammaherpesviral mononucleosis
+A788W00	HIV disease resulting in unspecified malignant neoplasm
+A170000	Tuberculosis - lupus exedens
+A3Ay.00	Other specified bacterial disease
+AA40.12	Njovera
+N015700	Arthropathy with other viral disease, of ankle and foot
+A841000	Plasmodium vivax malaria with rupture of spleen
+A393.00	Cervicofacial actinomycosis
+A39y.00	Other specified actinomycosis
+A201.00	Cellulocutaneous plague
+A932.11	Syphilitic valve disease
+N015300	Arthropathy with other viral disease, of forearm
+AA2y.00	Latent yaws
+A7y0300	Reovirus as cause of diseases classified to other chapters
+A821200	Kenya tick virus
+AA23.12	Worm-eaten soles
+L169000	Herpes gestationis unspecified
+A122.00	Isolated tracheal or bronchial tuberculosis
+N015000	Arthropathy with other viral disease, of unspecified site
+A982200	Chronic gonococcal vulvovaginitis
+N307600	Poliomyelitis osteopathy of the lower leg
+A125X00	Resp TB unspcf,w'out mention/bacterial or histol confrmtn
+A845.00	Mixed malaria
+A654.11	Chikungunya haemorrhagic fever
+J100000	Megaoesophagus in Chagas' disease
+A788200	HIV infection with persistent generalised lymphadenopathy
+AyuC600	[X]HIV disease resulting in other non-Hodgkin's lymphoma
+AyuF100	[X]Plasmodium falciparum malaria, unspecified
+N017100	Helminthiasis with arthropathy of the shoulder region
+A918100	Syphilitic alopecia
+A940.12	Syphilitic posterior spinal sclerosis
+A844.00	Other malaria
+A912000	Primary breast syphilis
+A20z.00	Plague unspecified
+AyuA500	[X]Zoster without complications
+Ayu3X00	[X]Bacterial infection, unspecified
+AyuF700	[X]Unspecified malaria
+Ayu3600	[X]Other tetanus
+AyuA300	[X]Varicella without complications
+Ayu3V00	[X]Mycoplasma infection, unspecified
+G717.00	Aortic aneurysm - syphilitic
+AC0y000	Schistosoma bovis
+A56x.00	Rubella with other specified complication
+A173z00	Tuberculosis of eye NOS
+A849.00	Other malaria complications
+A788500	Human immunodeficiency virus with secondary infection
+AC8y.00	Other specified helminthiases
+A782.11	Miliary fever
+AE04.00	Late effects of tuberculosis of other specified organs
+AA25.00	Gangosa - tertiary yaws
+A654.00	Mosquito-borne haemorrhagic fever
+A788X00	HIV disease resulting/unspcf infectious+parasitic disease
+A3B6100	Proteus morganii infection
+L169200	Herpes gestationis - delivered with postnatal complication
+A98y.00	Gonococcal infection of other specified sites
+A180.00	Acute miliary tuberculosis
+Ayu3H00	[X]Other specified septicaemia
+AA2x100	Mucosal yaws
+A3By200	Mima polymorpha infection
+AA0yz00	Other specified leptospiral infection NOS
+A272z11	Pseudotuberculosis
+AAy..00	Other specified spirochaetal infections
+A94y500	Syphilitic acoustic neuritis
+Ayu0F00	[X]Viral intestinal infection, unspecified
+Ayu1600	[X]Tuberculosis of other specified organs
+N307700	Poliomyelitis osteopathy of the ankle and foot
+A384z00	Other gram negative septicaemia NOS
+Ayu3G00	[X]Septicaemia due to other gram-negative organisms
+ZVu1300	[X]Carrier of other specified bacterial diseases
+AyuAA00	[X]Rubella without complication
+A915100	Secondary syphilitic chorioretinitis
+AyuD900	[X]Other specified viral diseases
+AyuDD00	[X]Parvovirus infection, unspecified
+Ayu3D00	[X]Meningococcal infection, unspecified
+Ayu1.00	[X]Tuberculosis
+Ayu1000	[X]Other resp tubercul,confirmd bacteriologicly+histologicly
+AyuD.00	[X]Other viral diseases
+Ayu1100	[X]Resp tuberculos unspcfd,confirmd bacteriolog+histologicly
+Ayu4C00	[X]Gonococcal infection, unspecified
+AE01.00	Late effects of central nervous system tuberculosis
+A36y.00	Other specified meningococcal infection
+A39y000	Pulmonary nocardiosis
+A880000	Systemic bartonellosis
+A912200	Primary lip syphilis
+AE03.00	Late effects of tuberculosis of bones and joints
+A9y..00	Other specified syphilis or other venereal diseases
+A918z00	Other secondary syphilis NOS
+A175.00	Tuberculosis of thyroid gland
+A918.00	Other forms of secondary syphilis
+A849z00	Other malaria complications NOS
+ZVu0J00	[X]Special screening examinat for other bacterial diseases
+A661z00	Tick-borne fever NOS
+L175z00	Maternal rubella in pregnancy/childbirth/puerperium NOS
+Ayu3200	[X]Other Mycobacterium infections
+AyuD100	[X]Cytomegaloviral disease, unspecified
+AyuG600	[X]Taeniasis, unspecified
+A95..00	Other forms of late syphilis with symptoms
+A22z.00	Anthrax NOS
+745F.00	Tuberculosis support
+A86z.00	Trypanosomiasis NOS
+A916.12	Secondary syphilis of viscera
+AA0yz13	Swamp fever
+A55x000	Measles keratoconjunctivitis
+65Y2.00	Streptomycin resistant tuberculosis
+A950.00	Syphilitic episcleritis
+A78y400	Tanapox
+A92z.00	Latent early syphilis NOS
+A914.00	Adenopathy due to secondary syphilis
+A320.00	Faucial diphtheria
+A301000	Borderline tuberculoid leprosy
+A811.00	Brill's disease
+A651.00	Omsk haemorrhagic fever
+43w3.00	Human immunodeficiency virus RNA/DNA ratio
+L293100	Septicaemia during labour - delivered
+AyuJ400	[X]Sequelae of respiratory and unspecified tuberculosis
+A601.00	Urban yellow fever
+A122100	Isolated bronchial tuberculosis
+Qyu4200	[X]Other bacterial sepsis of newborn
+A661200	Colorado tick fever
+A3B1112	Methicillin resistant staphylococcus aureus
+AyuA.00	[X]Viral infections characterized by skin and mucous membra
+Q400.11	Extended rubella syndrome
+Ayu5700	[X]Spirochaetal infection, unspecified
+AyuD500	[X]Infectious mononucleosis, unspecified
+F4A5500	Keratitis due to tuberculosis
+A3B0000	Group B streptococcus infection
+L175000	Maternal rubella, unspecified whether pregnancy/puerperium
+AC2z.00	Echinococcus NOS
+ZV02000	[V]Cholera carrier
+AC0yz00	Other specified schistosoma NOS
+AyuG.00	[X]Helminthiasis
+A71..11	Lyssa - rabies
+AyuA600	[X]Measles with other complications
+AA22.00	Other early yaws skin lesions
+L096600	Septic embolism following abortive pregnancy
+A270200	Cutaneous listeriosis
+AC01.11	Intestinal schistosomiasis
+F381200	Myasthenic syndrome due to botulism
+Q407511	Neonatal monilial septicaemia
+Ayu3T00	[X]Streptococcal infection, unspecified
+A65..00	Arthropod-borne haemorrhagic fever
+65Y9.11	Latent tuberculosis
+A853.00	Ethiopian cutaneous leishmaniasis
+Ayu9800	[X]Unspecified viral haemorrhagic fever
+AyuDA00	[X]Adenovirus infection, unspecified
+L170000	Maternal syphilis, unspec whether in pregnancy or puerperium
+65Y9.00	Inactive tuberculosis
+A760.00	Trachoma dubium - initial stage
+4JU8.00	Amantadine resistant virus detected
+H57y500	Lung disease with syphilis
+AyuCB00	[X]HIV disease result/haematological+immunologic abnorms,NEC
+A661000	Nairobi sheep disease
+A844.11	Monkey malaria
+Ayu3300	[X]Mycobacterium infection, unspecified
+4JUC.00	Human metapneumovirus detected
+4J3F.00	Human immunodeficiency virus viral load by log rank
+Ayu5000	[X]Other early skin lesions of yaws
+Ayu4500	[X]Other secondary syphilis
+65Y8.00	Ciprofloxacin resistant tuberculosis
+4JUD.00	Human bocavirus detected
+Ayu4900	[X]Late syphilis, unspecified
+A30z.00	Leprosy NOS
+A12y200	Tuberculosis of nasal septum
+4JUH.00	Human enterovirus detected
+A72x100	Mumps polyneuropathy
+AyuJ500	[X]Sequelae of poliomyelitis
+AyuD200	[X]Mumps with other complications
+Ayu1900	[X]Miliary tuberculosis, unspecified
+66j..00	Human immunodeficiency virus monitoring
+4JUG.00	Human adenovirus detected
+4JU6.00	Oseltamivir resistant virus detected
+66j0.00	Human immunodeficiency virus annual review
+A3B1200	Panton-Valentine leucocidin associat staph aureus infection
+4JUE.00	Human rhinovirus detected
+65Y5.00	Isoniazid resistant tuberculosis
+A78y300	Marburg disease
+A3C..00	Sepsis
+A3Cy.00	Other specified sepsis
+A3C0100	Sepsis due to Streptococcus group B
+AB2y500	Candidal sepsis
+A3Cz.00	Sepsis NOS
+A396.00	Sepsis due to Actinomyces
+A3C0300	Sepsis due to Streptococcus pneumoniae
+L179.00	HIV disease complicating pregnancy childbirth puerperium
+A3C1000	Sepsis due to Staphylococcus aureus
+A3B0100	Group A streptococcus infection
+A3C1.00	Sepsis due to Staphylococcus
+A3C2.11	Sepsis due to anaerobes
+A3C0000	Sepsis due to Streptococcus group A
+A3C0y00	Other streptococcal sepsis
+9kl..00	HIV pos gen health check serv declind - enhanc service admin
+A3C3y00	Sepsis due to other Gram negative organisms
+A3C3.00	Sepsis due to Gram negative bacteria
+A3C2.00	Sepsis due to anaerobic bacteria
+A270611	Listerial sepsis
+A799.00	Cytomegalovirus infection
+A3BC.00	Infection due to ESBL producing bacteria
+A3C0.00	Sepsis due to Streptococcus
+A724.00	Mumps parotitis
+A799.11	CMV - Cytomegalovirus infection
+A3C0z00	Streptococcal sepsis, unspecified
+AB2y511	Sepsis due to Candida
+1JN0.00	Suspected sepsis
+A78B.11	Hantavirus cardio-pulmonary syndrome
+745Fy00	Other specified tuberculosis support
+A663E00	Disease due to West Nile virus
+9Nt1000	Seen by community HIV (human immunodeficiency virus) nurse
+A3C3.11	Sepsis due to Gram negative organisms
+A789511	HIV disease resulting in Kaposi sarcoma
+9mN..00	Human immunodeficiency virus infection monitoring invitation
+8Hle.00	Referral to community HIV nurse specialist
+A3BD.00	Infection due to carbapenemase producing Enterobacteriacea
+N010A11	Lyme arthritis
+A871011	Lyme borreliosis
+9mN0.00	HIV infection monitoring telephone invitation
+A871300	Borrelial lymphocytoma
+4J3Q.00	Human immunodeficiency virus IgG avidity
+4J3N.00	Human immunodeficiency virus drug resistance test
+1JN3.00	Suspected Ebola virus infection
+A3C1z00	Sepsis due to staphylococcus NOS
+A3C1y00	Sepsis due to other specified staphylococcus
+A19..00	Disseminated tuberculosis
+4J3P.00	Human immunodeficiency virus type 1 subtype identification
+AA41.11	Erythema migrans
+745Fz00	Tuberculosis support NOS
+A1A..00	Multidrug resistant tuberculosis
+65Y0.00	Tuberculosis index case
+A78B.00	Hantavirus pulmonary syndrome
+A396.11	Actinomycotic sepsis
+A93..00	Cardiovascular syphilis
+Gy0..00	Cardiovascular syphilis
+AA26.00	Bone and joint yaws lesions
+A541.00	Genital herpes simplex
+A541000	Genital herpes unspecified
+A541500	Anogenital herpesviral infection
+A541z00	Genital herpes simplex NOS
+A906.00	Latent late congenital syphilis
+Q402500	Congenital falciparum malaria
+Q40y011	Congenital sepsis NOS
+Q402200	Congenital malaria
+A541600	Genital herpes simplex type 1
+A541700	Genital herpes simplex type 2
+Q408600	Pseudomonas pyocyaneus congenital infection
+Ayu4G00	[X]Anogenital herpes viral infection, unspecified
+A910.11	Genital chancre
+A170500	Tuberculosis cutis
+A170800	Tuberculosis verrucosa cutis
+A788300	Human immunodeficiency virus with constitutional disease
+1653.00	Fever with sweating
+65Q..00	Infectious disease carrier
+65Q1.00	Cholera carrier
+65Q2.00	Typhoid carrier
+65QZ.00	Infectious disease carrier NOS
+A....00	Infectious and parasitic diseases
+A170400	Tuberculosis colliquativa
+A20y.00	Other specified plague types
+A20y000	Abortive plague
+A20y100	Ambulatory plague
+A20yz00	Other specified plague NOS
+A22y.00	Other specified anthrax manifestations
+A27..00	Other zoonotic bacterial disease
+A27z.00	Other zoonotic bacterial disease NOS
+A2y..00	Other specified zoonotic bacterial diseases
+A30y.00	Other leprosy
+A395.00	Actinomycotic septicaemia
+A3C3000	Sepsis due to Haemophilus influenzae
+A51z.00	Paravaccinia NOS
+A531500	Postzoster neuralgia
+A53x000	Herpes zoster otitis externa
+A544500	Herpes simplex ophthalmicus
+A544z00	Ophthalmic herpes simplex NOS
+A548.00	[X] Herpes labialis
+A612.00	Severe Dengue
+A65y.00	Other specified arthropod-borne haemorrhagic fever
+A65y000	Mite-borne haemorrhagic fever
+A65yz00	Other specified arthropod-borne haemorrhagic fever NOS
+A65z.00	Arthropod-borne haemorrhagic fever NOS
+A66..00	Other arthropod-borne viral disease
+A663C00	West Nile fever
+A663z00	Other mosquito-borne fever NOS
+A66y.00	Other specified arthropod-borne viral diseases
+A66yz00	Other specified arthropod-borne viral diseases NOS
+A66z.00	Other arthropod-borne viral disease NOS
+A787000	Junin haemorrhagic fever
+A788V00	HIV disease resulting in multiple diseases classified elsewhere
+A78A400	Chlamydial conjunctivitis
+A7y0000	Coronavirus as the cause of diseases classified to other chapters
+A8...00	Rickettsioses and other arthropod-borne diseases
+A821.00	Boutonneuse fever
+A821300	Marseilles fever
+A821z00	Unspecified Boutonneuse fever
+A822.00	North Asian tick fever
+A822z00	North Asian tick fever NOS
+A842.00	Quartan malaria
+A851z00	Urban cutaneous leishmaniasis NOS
+A871z00	Tick-borne relapsing fever NOS
+A87z.00	Relapsing fever NOS
+A88..00	Other arthropod-borne diseases
+A88y.00	Other specified arthropod-borne diseases
+A8y..00	Other specified rickettsioses or arthropod-borne diseases
+A8z..00	Rickettsioses and arthropod-borne disease NOS
+A916z00	Secondary syphilis of viscera and bone NOS
+A93y.00	Other specified cardiovascular system syphilis
+A93yz00	Other specified cardiovascular system syphilis NOS
+A93z.00	Cardiovascular syphilis NOS
+A951.00	Syphilis of lung
+A95z.00	Late symptomatic syphilis NOS
+A982z00	Chronic gonorrhoea of lower genitourinary tract NOS
+A99..00	Other venereal diseases
+A99y.00	Other specified venereal diseases
+A99z.00	Venereal disease NOS
+AA0y.00	Other specified leptospiral infection
+AA2x.00	Other yaws manifestations
+AA2xz00	Other yaws manifestation NOS
+AC0y100	Schistosoma intercalatum
+AC0y200	Schistosoma mattheii
+AC1y.00	Other specified trematode infection
+AC1yz00	Other specified trematode infection NOS
+AC1z.00	Trematode infection NOS
+AC26.00	Other echinococcus multilocularis
+AC56.00	Other specified filariasis
+Ayu..00	[X]Additional infectious disease classification terms
+Ayu1200	[X]Other respiratory tuberculosis, without mention of bacteriological or histological confirmation
+Ayu1400	[X]Other tuberculosis of nervous system
+Ayu1700	[X]Acute miliary tuberculosis, unspecified
+Ayu1800	[X]Other miliary tuberculosis
+Ayu2.00	[X]Certain zoonotic bacterial diseases
+Ayu2000	[X]Other forms of plague
+Ayu2100	[X]Plague, unspecified
+Ayu2400	[X]Other forms of anthrax
+Ayu2500	[X]Anthrax, unspecified
+Ayu2800	[X]Other melioidosis
+Ayu2900	[X]Melioidosis, unspecified
+Ayu2D00	[X]Other forms of leptospirosis
+Ayu2E00	[X]Leptospirosis, unspecified
+Ayu2G00	[X]Zoonotic bacterial disease, unspecified
+Ayu3.00	[X]Other bacterial diseases
+Ayu3000	[X]Other forms of leprosy
+Ayu3100	[X]Leprosy, unspecified
+Ayu3B00	[X]Meningococcaemia, unspecified
+Ayu3C00	[X]Other meningococcal infections
+Ayu3E00	[X]Other streptococcal septicaemia
+Ayu3F00	[X]Streptococcal septicaemia, unspecified
+Ayu3K00	[X]Other forms of actinomycosis
+Ayu3M00	[X]Other forms of nocardiosis
+Ayu3N00	[X]Nocardiosis, unspecified
+Ayu3P00	[X]Other forms of bartonellosis
+Ayu3Q00	[X]Bartonellosis, unspecified
+Ayu3W00	[X]Other bacterial infections of unspecified site
+Ayu4.00	[X]Infections with a predominantly sexual mode of transmission
+Ayu4400	[X]Primary syphilis of other sites
+Ayu4600	[X]Early syphilis, unspecified
+Ayu4A00	[X]Syphilis, unspecified
+Ayu4B00	[X]Other gonococcal infections
+Ayu4H00	[X]Other specified predominantly sexually transmitted diseases
+Ayu4J00	[X]Unspecified sexually transmitted disease
+Ayu4N00	[X]Sexually transmitted infectious disease
+Ayu5.00	[X]Other spirochaetal diseases
+Ayu5100	[X]Other manifestations of yaws
+Ayu5200	[X]Yaws, unspecified
+Ayu5400	[X]Relapsing fever, unspecified
+Ayu5600	[X]Other specified spirochaetal infections
+Ayu6000	[X]Trachoma, unspecified
+Ayu7000	[X]Typhus fever, unspecified
+Ayu9.00	[X]Arthropod-borne viral fevers and viral haemorrhagic fevers
+Ayu9200	[X]Other specified arthropod-borne viral fevers
+Ayu9300	[X]Unspecified arthropod-borne viral fever
+Ayu9400	[X]Yellow fever, unspecified
+Ayu9500	[X]Other arenaviral haemorrhagic fevers
+Ayu9600	[X]Arenaviral haemorrhagic fever, unspecified
+Ayu9700	[X]Other specified viral haemorrhagic fevers
+AyuA000	[X]Other forms of herpesviral infections
+AyuA200	[X]Varicella with other complications
+AyuA400	[X]Zoster with other complications
+AyuA900	[X]Rubella with other complications
+AyuAB00	[X]Other viral infections characterized by skin and mucocutaneous lesions, not elsewhere classified
+AyuC000	[X]HIV disease resulting in other bacterial infections
+AyuC100	[X]HIV disease resulting in other viral infections
+AyuC200	[X]HIV disease resulting in other mycoses
+AyuC300	[X]HIV disease resulting in multiple infections
+AyuC400	[X]Hiv disease resulting in other infectious and parasitic diseases
+AyuC500	[X]Hiv disease resulting in unspecified infectious and parasitic disease
+AyuC700	[X]Hiv disease resulting in other malignant neoplasms of lymphoid, haematopoietic and related tissue
+AyuC900	[X]HIV disease resulting in unspecified malignant neoplasm
+AyuCA00	[X]Hiv disease resulting in multiple diseases classified elsewhere
+AyuCC00	[X]HIV disease resulting in other specified conditions
+AyuCD00	[X]Unspecified human immunodeficiency virus [HIV] disease
+AyuD000	[X]Other cytomegaloviral diseases
+AyuD400	[X]Other infectious mononucleosis
+AyuD800	[X]Retrovirus infections, not elsewhere classified
+AyuDB00	[X]Enterovirus infection, unspecified
+AyuDC00	[X]Coronavirus infection, unspecified
+AyuDE00	[X]Papovavirus infection, unspecified
+AyuF000	[X]Other severe and complicated plasmodium falciparum malaria
+AyuF200	[X]Plasmodium vivax malaria with other complications
+AyuF300	[X]Plasmodium vivax malaria without complication
+AyuF400	[X]Plasmodium malariae malaria with other complications
+AyuF500	[X]Plasmodium malariae malaria without complication
+AyuF600	[X]Other parasitologically confirmed malaria, not elsewhere classified
+AyuF800	[X]Leishmaniasis, unspecified
+AyuFA00	[X]Chagas' disease (chronic) with other organ involvement
+AyuG000	[X]Other schistosomiasis
+AyuG100	[X]Schistosomiasis, unspecified
+AyuG200	[X]Other specified fluke infections
+AyuG300	[X]Fluke infection, unspecified
+AyuG400	[X]Echinococcosis, unspecified, of liver
+AyuG500	[X]Echinococcosis, other and unspecified
+AyuGB00	[X]Other filariases
+AyuGC00	[X]Filariasis, unspecified
+AyuGJ00	[X]Other specified intestinal helminthiases
+AyuGK00	[X]Intestinal helminthiasis, unspecified
+AyuGM00	[X]Other specified helminthiases
+AyuGN00	[X]Helminthiasis, unspecified
+AyuJ000	[X]Sequelae of central nervous system tuberculosis
+AyuJ100	[X]Sequelae of genitourinary tuberculosis
+AyuJ200	[X]Sequelae of tuberculosis of bones and joints
+AyuJ300	[X]Sequelae of tuberculosis of other organs
+AyuJ900	[X]Sequelae of viral hepatitis
+AyuK000	[X]Streptococcus, group a, as the cause of diseases classified to other chapters
+AyuK200	[X]Streptococcus, group d, as the cause of diseases classified to other chapters
+AyuK300	[X]Streptococcus pneumoniae as the cause of diseases classified to other chapters
+AyuK400	[X]Other streptococcus as the cause of diseases classified to other chapters
+AyuK500	[X]Unspecified streptococcus as the cause of diseases classified to other chapters
+AyuK700	[X]Other staphylococcus as the cause of diseases classified to other chapters
+AyuK800	[X]Unspecified staphylococcus as the cause of diseases classified to other chapters
+AyuK900	[X]Mycoplasma pneumoniae [pplo] as the cause of diseases classified to other chapters
+AyuKB00	[X]Escherichia coli [e coli] as the cause of diseases classified to other chapters
+AyuKC00	[X]Haemophilus influenzae [h influenzae] as the cause of diseases classified to other chapters
+AyuKD00	[X]Proteus (mirabilis)(morganii) as the cause of diseases classified to other chapters
+AyuKE00	[X]Pseudomonas as the cause of diseases classified to other chapters
+AyuKF00	[X]Bacillus fragilis as the cause of diseases classified to other chapters
+AyuKG00	[X]Clostridium perfringens as the cause of diseases classified to other chapters
+AyuKJ00	[X]Adenovirus as the cause of diseases classified to other chapters
+AyuKK00	[X]Enterovirus as the cause of diseases classified to other chapters
+AyuKL00	[X]Coronavirus as the cause of diseases classified to other chapters
+AyuKM00	[X]Retrovirus as the cause of diseases classified to other chapters
+AyuKP00	[X]Reovirus as the cause of diseases classified to other chapters
+AyuKQ00	[X]Parvovirus as the cause of diseases classified to other chapters
+AyuKR00	[X]Papillomavirus as the cause of diseases classified to other chapters
+AyuKS00	[X]Other viral agents as the cause of diseases classified to other chapters
+AyuL.00	[X]Other infectious diseases
+AyuL000	[X]Other and unspecified infectious diseases
+F032000	Encephalitis due to malaria
+F374600	Polyneuropathy in mumps
+F501600	Infective otitis externa due to herpes zoster
+G556.00	Cardiomyopathy in Chagas's disease
+Jyu7200	[X]Other specified inflammatory liver diseases
+Jyu7700	[X]Granulomatous hepatitis, not elsewhere classified
+Jyu9300	[X]Tuberculous disorders of intestine and mesentery
+L096500	Pyaemic embolism following abortive pregnancy
+L170z00	Maternal syphilis during pregnancy, childbirth or the puerperium NOS
+L171000	Maternal gonorrhoea, unspecified whether during pregnancy or the puerperium
+L171z00	Gonorrhoea during pregnancy, childbirth or the puerperium NOS
+L173.00	Maternal tuberculosis during pregnancy, childbirth and the puerperium
+L173z00	Maternal tuberculosis during pregnancy, childbirth or the puerperium NOS
+L174000	Maternal malaria, unspecified whether during pregnancy/puerperium
+L174z00	Maternal malaria during pregnancy, childbirth or the puerperium NOS
+L176000	Other maternal viral disease, unspecified whether during pregnancy or the puerperium
+L176z00	Other maternal viral disease during pregnancy, childbirth or the puerperium NOS
+L433000	Obstetric pyaemic and septic pulmonary embolism unspecified
+L433z00	Obstetric pyaemic and septic pulmonary embolism NOS
+N015100	Arthropathy associated with other viral disease, of the shoulder region
+N015200	Arthropathy associated with other viral disease, of the upper arm
+N015y00	Arthropathy associated with other viral disease, of other specified site
+N307000	Poliomyelitis osteopathy of unspecified site
+N307800	Poliomyelitis osteopathy of other specified sites
+Q40..00	Infections specific to perinatal period
+Q403000	Tetanus neonatorum, unspecified
+Q403z00	Tetanus neonatorum NOS
+Q40V.00	Congenital infectious and parasitic disease, unspecified
+Q40y.00	Other specified perinatal infection
+Q40yz00	Other specified perinatal infection NOS
+Q40z.00	Perinatal infections NOS
+Q43..00	Other perinatal jaundice
+Q431.00	Perinatal jaundice from other excessive haemolysis
+Q431y00	Perinatal jaundice from other specified haemolysis
+Q431z00	Perinatal jaundice from haemolysis NOS
+Q433z00	Delayed conjugation causing neonatal jaundice NOS
+Q435.00	Perinatal jaundice due to other cause
+Q435z00	Perinatal jaundice due to other specified cause
+Q436.00	Fetal and neonatal jaundice, unspecified
+Q436000	Icterus neonatorum, unspecified
+Q436z00	Unspecified fetal or neonatal jaundice NOS
+Q43z.00	Perinatal jaundice NOS
+Qyu4.00	[X]Infections specific to the perinatal period
+Qyu4300	[X]Other congenital malaria
+Qyu4400	[X]Other specified congenital infectious and parasitic diseases
+Qyu4500	[X]Other infections specific to the perinatal period
+Qyu4600	[X]Other specified infections specific to the perinatal period
+Qyu4800	[X]Sepsis of newborn due to other and unspecified streptococci
+Qyu4900	[X]Congenital infectious and parasitic disease, unspecified
+Qyu5800	[X]Neonatal jaundice due to drugs or toxins transmitted from mother or given to newborn
+Qyu5900	[X]Neonatal jaundice due to other specified excessive haemolysis
+Qyu5B00	[X]Neonatal jaundice from other specified causes
+R007600	[D]Post polio exhaustion
+R055300	[D]Gram-negative shock
+ZV02.00	[V]Carrier or suspected carrier of infectious disease
+ZV02500	[V]Other specified bacterial disease carrier
+ZV02900	[V]Carrier of human T-lymphotropic virus type-1 infect
+ZV02y00	[V]Other specified infectious disease carrier
+ZV02z00	[V]Unspecified infectious disease carrier
+ZVu1200	[X]Carrier of other intestinal infectious diseases
+ZVu1400	[X]Carrier of other infectious diseases

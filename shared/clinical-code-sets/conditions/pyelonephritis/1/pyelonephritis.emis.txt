@@ -1,0 +1,51 @@
+^ESCT1170449	Pyelonephritis in pregnancy
+^ESCT1376745	Acute bacterial TIN (tubulointerstitial nephritis)
+^ESCT1376860	Acute viral TIN (tubulointerstitial nephritis)
+^ESCT1378170	Acute fungal TIN (tubulointerstitial nephritis)
+^ESCT1393815	Acute pyelonephritis caused by bacterium
+^ESCT1393816	Acute bacterial pyelonephritis
+^ESCTAC261840	Acute pyonephrosis with renal medullary necrosis
+^ESCTAC276584	Acute tubulointerstitial nephritis associated with systemic infection
+^ESCTAC285627	Acute bacterial tubulointerstitial nephritis
+^ESCTAC285628	Acute bacterial T.I.N.
+^ESCTAC294633	Acute viral tubulointerstitial nephritis
+^ESCTAC294634	Acute viral T.I.N.
+^ESCTAC309135	Acute PN - pyelonephritis
+^ESCTAC309137	Acute kidney infection
+^ESCTAC358930	Acute infectious tubulointerstitial nephritis
+^ESCTAC388968	Acute pyonephrosis without renal medullary necrosis
+^ESCTAC398199	Acute fungal tubulointerstitial nephritis
+^ESCTAC398200	Acute fungal T.I.N.
+^ESCTAC435550	Acute focal pyelonephritis
+^ESCTAP309136	APN - Acute pyelonephritis
+^ESCTBA801684	Bacterial nephritis
+^ESCTCH478924	Chronic non-obstructive atrophic pyelonephritis
+^ESCTCM509631	CMV - Cytomegalovirus-induced glomerulonephritis
+^ESCTCP352946	CPN - Chronic pyelonephritis
+^ESCTDI435551	Diffuse pyelonephritis
+^ESCTDI846431	Diphtheria tubulointerstitial nephropathy
+^ESCTFA761379	Familial non-obstructive reflux-associated chronic pyelonephritis
+^ESCTFA761380	Familial reflux nephropathy
+^ESCTFO435549	Focal pyelonephritis
+^ESCTMU277169	Mumps nephritis
+^ESCTMY406384	Mycoplasmal pyelonephritis
+^ESCTNE478925	Nephropathy associated with vesicoureteral reflux
+^ESCTNO478923	Non-obstructive reflux-associated chronic pyelonephritis
+^ESCTOB797819	Obstructive pyelonephritis
+^ESCTPE381166	Perirenal abscess
+^ESCTPY478933	Pyelonephritis associated with another disorder
+^ESCTPY478936	Pyelitis associated with another disorder
+^ESCTRE478927	Reflux nephropathy
+^ESCTRE700545	Recurrent obstructive pyelonephritis
+^ESCTRN478926	RN - Reflux nephropathy
+^ESCTSA846721	Salmonella pyelonephritis
+^ESCTSE478935	Secondary pyelonephritis
+^ESCTSU435372	Subacute pyelonephritis
+^ESCTTB321405	TB - Renal tuberculosis
+^ESCTTO846753	Toxoplasma tubulointerstitial nephropathy
+^ESCTXG312595	XGP - Xanthogranulomatous pyelonephritis
+^ESCTXG312596	XGPN - Xanthogranulomatous pyelonephritis
+EMISNQUR11	Urosepsis
+^ESCT1272249	Sepsis due to urinary tract infection
+^ESCT1275862	Urosepsis
+^ESCT1275863	Urinary sepsis

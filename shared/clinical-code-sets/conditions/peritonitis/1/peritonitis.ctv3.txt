@@ -1,0 +1,73 @@
+A140.	Tuberculous peritonitis
+A32y2	Diphtheritic peritonitis
+A952.	Syphilitic peritonitis
+A98y5	Gonococcal peritonitis
+J200.	Acute appendicitis with peritonitis
+J55..	Peritonitis
+J550.	Peritonitis in infectious diseases EC
+J5501	Peritonitis - syphilitic
+J5503	Bacterial peritonitis
+J5504	Chlamydial peritonitis
+J550z	Peritonitis in infectious diseases EC NOS
+J551.	Pneumococcal peritonitis
+J5521	Subphrenic abscess
+J5522	Omental abscess
+J5523	Mesenteric abscess
+J5524	Intraperitoneal abscess
+J5525	Subperitoneal abscess
+J5526	Retroperitoneal abscess
+J5528	Paracolic abscess
+J5529	Pericaecal abscess
+J552A	Retrocaecal abscess
+J552B	Male pelvic abscess
+J552z	Other suppurative peritonitis NOS
+J55y.	Other specified peritonitis
+J55y0	Chronic proliferative peritonitis
+J55y3	Biliary peritonitis
+J55y4	Urinary peritonitis
+J55yz	Other specified peritonitis NOS
+J55z.	Peritonitis NOS
+J56y3	Peritoneal granuloma
+Jyu60	[X]Other peritonitis
+K4045	Female chronic pelvic peritonitis
+K4060	Acute female pelvic peritonitis
+K4061	Female pelvic peritonitis unspecified
+K406z	Acute and unspecified female pelvic peritonitis NOS
+K408.	Other chronic female pelvic peritonitis
+K4103	Acute perimetritis
+K4108	Subacute perimetritis
+K4113	Chronic perimetritis
+Kyu87	[X]Female pelvic peritonitis, unspecified
+L0902	Pelvic peritonitis following abortive pregnancy
+Q46y0	Neonatal peritonitis NOS
+Qyu71	[X]Other neonatal peritonitis
+SP270	Aseptic peritonitis
+SP271	Chemical peritonitis
+X304N	Appendix abscess
+X309b	Purulent peritonitis
+X309c	Abscess of suppurative peritonitis
+X309d	Faecal peritonitis
+X309e	Spontaneous bacterial peritonitis
+X309g	Fungal peritonitis
+X309h	Parasitic peritonitis
+X309i	Meconium peritonitis
+X309j	Talc peritonitis
+X309k	Starch peritonitis
+X309l	Barium peritonitis
+X309n	Sclerosing peritonitis
+X406M	Female pelvic peritonitis
+Xa07p	Neonatal peritonitis
+Xa0Ex	Peritoneal dialysis-associated peritonitis
+Xa0WI	Ventriculoperitoneal shunt-associated peritonitis
+XaB63	Gonococcal pelvic peritonitis
+XaC2Z	[X] Peritoneal dialysis associated peritonitis
+XaDcz	Infective peritonitis
+XaREO	Continuous ambulatory peritoneal dialysis associated peritonitis
+XaYaL	Acute appendicitis with generalised peritonitis
+XaYaN	Acute appendicitis with localised peritonitis
+XaZSs	Staphylococcal peritonitis
+XaZSu	Streptococcal peritonitis
+XE0aV	Acute appendicitis with appendix abscess
+XE0ay	Other suppurative peritonitis
+XE0eQ	Acute and unspecified female pelvic peritonitis
+XSCm1	Acute peritonitis

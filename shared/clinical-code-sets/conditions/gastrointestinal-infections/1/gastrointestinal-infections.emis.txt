@@ -1,0 +1,263 @@
+^ESCT1165572	Infection of intestine caused by Vibrio
+^ESCT1165573	Intestinal infection caused by Vibrio
+^ESCT1233381	Intestinal infection caused by Klebsiella aerogenes
+^ESCT1233382	Intestinal infection due to Klebsiella aerogenes
+^ESCT1233448	Gastrointestinal infection caused by Klebsiella aerogenes
+^ESCT1233449	Gastrointestinal infection due to Klebsiella aerogenes
+^ESCT1270410	Gastrointestinal infection due to Klebsiella mobilis
+^ESCT1270533	Sepsis due to Salmonella
+^ESCT1369070	Infection of anus and rectum caused by Neisseria gonorrhoeae
+^ESCT1369071	Gonococcal infection of anus and rectum
+^ESCT1377849	Septic enteritis
+^ESCT1378981	Clostridioides difficile infection
+^ESCT1378982	Clostridioides difficile gastrointestinal tract infection
+^ESCT1391809	Recurrent Clostridium difficile infection
+^ESCT1391810	Recurrent infection caused by Clostridioides difficile
+^ESCT1395779	Infection of colon caused by Spirochaetes
+^ESCT1395780	Colonic spirochaetosis
+^ESCT1405525	Listeria monocytogenes infection
+^ESCT1416595	Gastritis due to secondary syphilis
+^ESCT1416596	Secondary syphilitic gastritis
+^ESCT1416600	Proctocolitis due to secondary syphilis
+^ESCT1416601	Secondary syphilitic proctocolitis
+^ESCTAC363502	Acute haemorrhagic colitis due to Escherichia coli
+^ESCTAC363503	Acute hemorrhagic colitis due to E. coli
+^ESCTAC363504	Acute haemorrhagic colitis due to E. coli
+^ESCTAC363505	Acute hemorrhagic colitis due to Escherichia coli
+^ESCTAC363506	Acute hemorrhagic colitis caused by E. coli
+^ESCTAC363507	Acute haemorrhagic colitis caused by Escherichia coli
+^ESCTAC363508	Acute hemorrhagic colitis caused by Escherichia coli
+^ESCTAC363509	Acute haemorrhagic colitis caused by E. coli
+^ESCTAC474164	Actinomycosis of cecum
+^ESCTAN419470	Anal furunculosis
+^ESCTAN785726	Anastomotic ulcer of stomach caused by Helicobacter pylori
+^ESCTBA357938	Bacterial overgrowth syndrome
+^ESCTBA508268	Bacterial oesophagitis
+^ESCTBA508269	Bacterial esophagitis
+^ESCTBA508290	Bacterial ulcer of oesophagus
+^ESCTBA508291	Bacterial ulcer of esophagus
+^ESCTBA514633	Bacillus licheniformis food poisoning
+^ESCTBA555995	Bacterial gastroenteritis
+^ESCTBA601290	Bacterial dysentery
+^ESCTBA601303	Bacterial gastrointestinal infectious disease
+^ESCTBA782119	Bacterial colitis
+^ESCTBA784023	Bacterial gastritis
+^ESCTBA784896	Bacterial duodenal ulcer
+^ESCTCA278697	Campylobacter diarrhoea
+^ESCTCA278698	Campylobacter diarrhea
+^ESCTCH381797	Cholera due to Vibrio cholerae El Tor
+^ESCTCH381798	Cholera - Vibrio cholerae O1 El Tor biotype
+^ESCTCH381799	Cholera caused by Vibrio cholerae El Tor
+^ESCTCH514648	Cholera due to Vibrio cholerae O1 Classical biotype
+^ESCTCH514649	Cholera caused by Vibrio cholerae O1 Classical biotype
+^ESCTCH514650	Cholera - non-O1 group vibrio
+^ESCTCH514651	Cholera - non-agglutinable vibrio
+^ESCTCH514652	Cholera - O139 group Vibrio cholerae
+^ESCTCH514653	Cholera due to Vibrio cholerae O139
+^ESCTCH696260	Chlamydia trachomatis infection of anus and rectum
+^ESCTCI256656	Circling disease
+^ESCTCL294720	Clostridial gastroenteritis
+^ESCTCL474192	Clostridium difficile gastrointestinal tract infection
+^ESCTCL514666	Clostridial enteric disease
+^ESCTCL701030	Clostridium difficile colitis
+^ESCTCL798400	Clostridium difficile diarrhoea
+^ESCTCL798401	Clostridium difficile diarrhea
+^ESCTCO782118	Colitis caused by bacterium
+^ESCTCO782120	Colitis caused by Salmonella
+^ESCTCY780301	Cystic fibrosis with gastritis and megaloblastic anaemia syndrome
+^ESCTCY780302	Cystic fibrosis with gastritis and megaloblastic anemia syndrome
+^ESCTDI660739	Diarrhea due to staphylococcus
+^ESCTDI660740	Diarrhoea due to staphylococcus toxin
+^ESCTDI660741	Diarrhea due to staphylococcus toxin
+^ESCTDI660742	Diarrhoea caused by staphylococcus
+^ESCTDI660743	Diarrhea caused by staphylococcus
+^ESCTDI660744	Diarrhea caused by staphylococcus toxin
+^ESCTDI660745	Diarrhoea caused by staphylococcus toxin
+^ESCTDU784895	Duodenal ulcer caused by bacterium
+^ESCTDU785731	Duodenitis caused by Helicobacter pylori
+^ESCTDU785737	Duodenal ulcer caused by Helicobacter pylori
+^ESCTDU785741	Duodenal ulcer caused by Helicobacter pylori and non-steroidal anti-inflammatory agent
+^ESCTDU795452	Duodenitis caused by Tropheryma whipplei
+^ESCTDU795453	Duodenitis due to Whipple disease
+^ESCTDY325658	Dysenteric diarrhea
+^ESCTDY420143	Dysentery
+^ESCTEN313928	Enteritis necroticans
+^ESCTEN313930	Enteritis necroticans due to Clostridium perfringens
+^ESCTEN318247	Enteric paratyphosis
+^ESCTEN420032	Enteric colibacillosis
+^ESCTEN500477	Encephalopathy in Whipple disease
+^ESCTEN514636	Enterotoxigenic Escherichia coli food poisoning
+^ESCTEN514638	Enterohaemorrhagic Escherichia coli food poisoning
+^ESCTEN514639	Enterohemorrhagic Escherichia coli food poisoning
+^ESCTEN514654	Enterotoxigenic Escherichia coli gastrointestinal tract infection
+^ESCTEN514656	Enteropathogenic Escherichia coli gastrointestinal tract infection
+^ESCTEN514660	Enterohaemorrhagic Escherichia coli gastrointestinal tract infection
+^ESCTEN514661	Enterohemorrhagic Escherichia coli gastrointestinal tract infection
+^ESCTEN514662	Enterohemorrhagic Escherichia coli infection
+^ESCTEN514663	Enteroinvasive Escherichia coli gastrointestinal tract infection
+^ESCTEN514665	Enteroadherent Escherichia coli gastrointestinal tract infection
+^ESCTEN768414	Enteritis caused by Yersinia enterocolitica
+^ESCTES420031	Escherichia gastroenteritis
+^ESCTES514635	Escherichia coli food poisoning
+^ESCTFL308325	Flexner's dysentery
+^ESCTFL389358	Flexner-Strong bacillus
+^ESCTFO281571	Food poisoning due to Bacillus cereus
+^ESCTFO281573	Food poisoning caused by Bacillus cereus
+^ESCTFO357503	Food poisoning due to bacteria
+^ESCTFO363840	Food poisoning due to Clostridium perfringens
+^ESCTFO363842	Food poisoning caused by Clostridium perfringens
+^ESCTFO382016	Food poisoning due to Vibrio parahaemolyticus
+^ESCTFO382018	Food poisoning caused by Vibrio parahaemolyticus
+^ESCTFO387648	Food poisoning due to staphylococcus
+^ESCTFO387654	Food poisoning caused by staphylococcus
+^ESCTFU357630	Furuncle of anus
+^ESCTGA514698	Gastroenteric plague
+^ESCTGA697174	Gastrointestinal infection caused by Klebsiella mobilis
+^ESCTGA697175	Gastrointestinal infection caused by Enterobacter aerogenes
+^ESCTGA697176	Gastrointestinal infection caused by Aerobacter aerogenes
+^ESCTGA762958	Gastritis caused by Helicobacter pylori
+^ESCTGA762960	Gastritis caused by Helicobacter heilmannii
+^ESCTGA773864	Gastrointestinal infection
+^ESCTGA784022	Gastritis caused by bacterium
+^ESCTGA785720	Gastric ulcer caused by Helicobacter pylori and non-steroidal anti-inflammatory agent
+^ESCTGA795474	Gastrointestinal infection caused by non-tuberculous Mycobacterium
+^ESCTGA795475	Gastrointestinal non-tuberculous mycobacterial infection
+^ESCTGA803229	Gastric ulcer due to Helicobacter pylori
+^ESCTGA803230	Gastric ulcer caused by Helicobacter pylori
+^ESCTGA846597	Gastric haemorrhage due to Helicobacter pylori
+^ESCTGA846598	Gastric hemorrhage due to Helicobacter pylori
+^ESCTGA846599	Gastric hemorrhage caused by Helicobacter pylori
+^ESCTGA846600	Gastric haemorrhage caused by Helicobacter pylori
+^ESCTGO318918	Gonorrhea of rectum
+^ESCTGO474373	Gonorrhoea of anus
+^ESCTGO474374	Gonorrhea of anus
+^ESCTGR256739	Group D shigella
+^ESCTGR320234	Group A shigella
+^ESCTGR389360	Group B shigella
+^ESCTHE259860	Helicobacter-associated disease
+^ESCTHE325383	Helicobacter-associated proctitis
+^ESCTHE377076	Helicobacter-associated colitis
+^ESCTHE395750	Helicobacter-associated pyloric ulcer
+^ESCTHE762957	Helicobacter pylori-associated gastritis
+^ESCTHE762959	Helicobacter heilmannii gastritis
+^ESCTHE785721	Helicobacter pylori associated and drug-induced gastric ulcer
+^ESCTHE785727	Helicobacter pylori associated anastomotic ulcer
+^ESCTHE785732	Helicobacter pylori associated duodenitis
+^ESCTHE785738	Helicobacter pylori associated duodenal ulcer
+^ESCTHE785742	Helicobacter pylori associated and drug-induced duodenal ulcer
+^ESCTIL549125	Ileocaecal actinomycosis
+^ESCTIL549126	Ileocecal actinomycosis
+^ESCTIN256655	Infection due to Listeria monocytogenes
+^ESCTIN257607	Infection by Salmonella Typhi
+^ESCTIN299110	Intestinal infection due to Proteus mirabilis
+^ESCTIN299111	Intestinal infection caused by Proteus mirabilis
+^ESCTIN308894	Intestinal infection due to Morganella morganii
+^ESCTIN308895	Intestinal infection caused by Morganella morganii
+^ESCTIN316937	Intestinal lipodystrophy
+^ESCTIN316939	Intestinal Whipple's disease
+^ESCTIN372575	Intestinal infection due to bacteria
+^ESCTIN384917	Intestinal infection due to Pseudomonas
+^ESCTIN384918	Intestinal infection caused by Pseudomonas
+^ESCTIN396738	Intestinal infection due to Arizona group
+^ESCTIN396739	Intestinal infection caused by Arizona group
+^ESCTIN420030	Intestinal infection due to E. coli
+^ESCTIN420034	Intestinal infection due to Escherichia coli
+^ESCTIN420035	Intestinal infection caused by E. coli
+^ESCTIN420036	Intestinal infection caused by Escherichia coli
+^ESCTIN440834	Infection of digestive system
+^ESCTIN474087	Infection of gastrointestinal tract by Salmonella enterica subspecies arizonae
+^ESCTIN514354	Intestinal gas gangrene
+^ESCTIN685992	Intestinal infectious disease due to anaerobic bacteria
+^ESCTIN685993	Intestinal infectious disease caused by anaerobic bacteria
+^ESCTIN685994	Intestinal infectious disease due to Gram-negative bacteria
+^ESCTIN685995	Intestinal infectious disease caused by Gram-negative bacteria
+^ESCTIN696806	Intestinal infection due to Klebsiella mobilis
+^ESCTIN696807	Intestinal infection caused by Klebsiella mobilis
+^ESCTIN696808	Intestinal infection caused by Enterobacter aerogenes
+^ESCTIN696809	Intestinal infection caused by Aerobacter aerogenes
+^ESCTIN709493	Intestinal infection due to Escherichia coli serotype O158
+^ESCTIN709494	Intestinal infection due to Escherichia coli O158
+^ESCTIN709495	Intestinal infection caused by Escherichia coli O158
+^ESCTIN709496	Intestinal infection caused by Escherichia coli serotype O158
+^ESCTIN731943	Intestinal infection due to Campylobacter coli
+^ESCTIN731944	Intestinal infection caused by Campylobacter coli
+^ESCTIN732279	Intestinal infection due to Escherichia coli O157:H7
+^ESCTIN732280	Intestinal infection caused by Escherichia coli O157:H7
+^ESCTIN732753	Infection of anus due to Chlamydia trachomatis
+^ESCTIN732754	Infection of anus caused by Chlamydia trachomatis
+^ESCTIN732800	Intestinal infection due to Vibrio cholerae non-O139
+^ESCTIN732801	Intestinal infection caused by Vibrio cholerae non-O139
+^ESCTIN733317	Intestinal infection due to Aeromonas hydrophila
+^ESCTIN733318	Intestinal infection caused by Aeromonas hydrophila
+^ESCTIN733752	Intestinal infection due to Vibrio cholerae O1
+^ESCTIN733753	Intestinal infection caused by Vibrio cholerae O1
+^ESCTIN733862	Intestinal infection due to Campylobacter jejuni
+^ESCTIN733863	Intestinal infection caused by Campylobacter jejuni
+^ESCTIN733894	Infection of rectum due to Chlamydia trachomatis
+^ESCTIN733895	Infection of rectum caused by Chlamydia trachomatis
+^ESCTIN769265	Intestinal infection caused by Plesiomonas shigelloides
+^ESCTIN773865	Infection of gastrointestinal tract
+^ESCTJA308324	Japanese dysentery
+^ESCTLI256657	Listerellosis
+^ESCTLO326588	Localized Salmonella infection
+^ESCTLU780303	Lubani Al-Saleh Teebi syndrome
+^ESCTMO474091	Morganella morganii gastrointestinal tract infection
+^ESCTNE500476	Neuro - Whipple's disease
+^ESCTNE500478	Neuro - Whipple disease
+^ESCTNO761913	Non-O1 and non-O139 Vibrio cholerae infection
+^ESCTPA333063	Paratyphoid C fever
+^ESCTPA333064	Paratyphoid C
+^ESCTPA365625	Paratyphoid B fever
+^ESCTPA365626	Paratyphoid B
+^ESCTPA374624	Paratyphoid A fever
+^ESCTPA374625	Paratyphoid A
+^ESCTPI313929	Pigbel
+^ESCTPN323103	Pneumonia in typhoid fever
+^ESCTPS701031	Pseudomembranous enterocolitis
+^ESCTRE318920	Rectal gonorrhoea
+^ESCTRE318921	Rectal gonorrhea
+^ESCTSA782121	Salmonella colitis
+^ESCTSE480823	Seronegative arthritis secondary to Whipple's disease
+^ESCTSE480826	Seronegative arthritis secondary to Whipple disease
+^ESCTSE736447	Sepsis caused by Salmonella
+^ESCTSE736853	Sepsis caused by Listeria monocytogenes
+^ESCTSH256737	Shigella sonne
+^ESCTSH256738	Shigella biogroup D
+^ESCTSH308323	Shigella gastroenteritis
+^ESCTSH308326	Shigella dysentery
+^ESCTSH320232	Shiga's bacillus
+^ESCTSH320233	Shigella serogroup A
+^ESCTSH320235	Shigella biogroup A
+^ESCTSH389359	Shigella biogroup B
+^ESCTST302409	Staphylococcal enterocolitis
+^ESCTST387649	Staphylococcal toxemia specified as due to food
+^ESCTST387650	Staphylococcal toxemia due to food
+^ESCTST387651	Staphylococcal toxaemia due to food
+^ESCTST387652	Staphylococcal toxaemia specified as due to food
+^ESCTST387655	Staphylococcal toxemia caused by food
+^ESCTST387656	Staphylococcal toxaemia specified as caused by food
+^ESCTST387657	Staphylococcal toxaemia caused by food
+^ESCTST387658	Staphylococcal toxemia specified as caused by food
+^ESCTST420016	Staphylococcal gastroenteritis
+^ESCTST660315	Staphylococcus aureus food poisoning
+^ESCTTO670518	Toxic megacolon due to Clostridium difficile
+^ESCTTO670519	Toxic megacolon caused by Clostridium difficile
+^ESCTTU264094	Tuberculosis orificialis of anus
+^ESCTTU274235	Tuberculosis of oesophagus
+^ESCTTU274236	Tuberculosis of esophagus
+^ESCTTU347660	Tuberculosis of intestines
+^ESCTTU347661	Tuberculosis of intestine
+^ESCTTU347662	Tuberculosis of intestinal tract
+^ESCTTU508440	Tuberculous duodenitis
+^ESCTTU589942	Tuberculosis of colon
+^ESCTTU733892	Tuberculous ileitis
+^ESCTTU733893	Tuberculosis of ileum
+^ESCTTY323104	Typhoid pneumonia
+^ESCTVE514637	Verotoxigenic Escherichia coli food poisoning
+^ESCTVE514658	Verotoxigenic Escherichia coli gastrointestinal tract infection
+^ESCTVI353526	Vibrio cholerae infection
+^ESCTVI373507	Vibrio comma
+^ESCTVI373508	Vibrio albensis
+^ESCTWD316938	WD - Whipple's disease
+^ESCTWH316940	Whipple disease
+^ESCTWH480824	Whipple's arthralgia

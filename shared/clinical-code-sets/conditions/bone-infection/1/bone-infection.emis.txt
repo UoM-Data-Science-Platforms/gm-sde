@@ -1,0 +1,344 @@
+^ESCT1165605	Infection of bone caused by Echinococcus
+^ESCT1171406	Chronic osteomyelitis of right femur
+^ESCT1171407	Chronic osteomyelitis of left femur
+^ESCT1171408	Chronic osteomyelitis of right ankle
+^ESCT1171409	Chronic osteomyelitis of left ankle
+^ESCT1171410	Osteomyelitis of right shoulder
+^ESCT1171411	Osteomyelitis of left shoulder
+^ESCT1171412	Osteomyelitis of right hand
+^ESCT1171413	Osteomyelitis of left hand
+^ESCT1171414	Osteomyelitis of right femur
+^ESCT1171415	Osteomyelitis of left femur
+^ESCT1171416	Osteomyelitis of right tibia
+^ESCT1171417	Osteomyelitis of left tibia
+^ESCT1171418	Osteomyelitis of left ankle
+^ESCT1171419	Osteomyelitis of right ankle
+^ESCT1211421	Chronic osteomyelitis of right tibia
+^ESCT1211422	Right tibial chronic osteomyelitis
+^ESCT1211423	Chronic osteomyelitis of left tibia
+^ESCT1211424	Left tibial chronic osteomyelitis
+^ESCT1394699	Sternal osteomyelitis
+^ESCT1394700	Osteomyelitis of sternum
+^ESCTAC262074	Acute osteomyelitis of shoulder
+^ESCTAC266217	Acute osteomyelitis of hand
+^ESCTAC380945	Acute osteomyelitis of pelvis
+^ESCTAC405640	Acute osteomyelitis of cranium
+^ESCTAC405641	Acute osteomyelitis of skull
+^ESCTAC416242	Acute osteomyelitis of facial bone
+^ESCTAC416243	Acute osteomyelitis of frontal bone
+^ESCTAC416244	Acute osteomyelitis of zygomatic bone
+^ESCTAC416245	Acute osteomyelitis of sphenoid bone
+^ESCTAC416246	Acute osteomyelitis of temporal bone
+^ESCTAC416247	Acute osteomyelitis of nasal-orbit complex
+^ESCTAC416853	Acute osteomyelitis of maxilla
+^ESCTAC416856	Acute osteomyelitis of mandible
+^ESCTAC481831	Acute osteomyelitis of lower leg
+^ESCTAC481834	Acute osteomyelitis of cervical spine
+^ESCTAC481836	Acute osteomyelitis of thoracic spine
+^ESCTAC481838	Acute osteomyelitis of lumbar spine
+^ESCTAC481840	Acute osteomyelitis of sacrum
+^ESCTAC481842	Acute osteomyelitis of coccyx
+^ESCTAC481844	Acute osteomyelitis of clavicle
+^ESCTAC481846	Acute osteomyelitis of scapula
+^ESCTAC481847	Acute osteomyelitis of humerus
+^ESCTAC481850	Acute osteomyelitis of radius
+^ESCTAC481852	Acute osteomyelitis of ulna
+^ESCTAC481855	Acute osteomyelitis of carpal bone
+^ESCTAC481856	Acute osteomyelitis of carpal bone of wrist
+^ESCTAC481858	Acute osteomyelitis of metacarpal
+^ESCTAC481860	Acute osteomyelitis of phalanx of hand
+^ESCTAC481861	Acute osteomyelitis of femur
+^ESCTAC481865	Acute osteomyelitis of patella
+^ESCTAC481866	Acute osteomyelitis of tibia
+^ESCTAC481868	Acute osteomyelitis of fibula
+^ESCTAC481871	Acute osteomyelitis of calcaneum
+^ESCTAC481873	Acute osteomyelitis of talus
+^ESCTAC481875	Acute osteomyelitis of metatarsal
+^ESCTAC481877	Acute osteomyelitis of phalanx of toe
+^ESCTAC481879	Acute hematogenous osteomyelitis
+^ESCTAC514398	Acute osteomyelitis of ankle
+^ESCTAC550278	Acute osteomyelitis of pelvic region and/or thigh
+^ESCTAC550280	Acute osteomyelitis of pelvic region and thigh
+^ESCTAC550281	Acute osteomyelitis of pelvis and/or femur
+^ESCTAC550282	Acute osteomyelitis of ankle and/or foot
+^ESCTAC572187	Acute osteomyelitis - elbow
+^ESCTAC572188	Acute osteomyelitis of elbow
+^ESCTAC572189	Acute osteomyelitis - hip
+^ESCTAC573083	Acute osteomyelitis - knee
+^ESCTAC573084	Acute osteomyelitis of knee
+^ESCTAC729745	Acute osteomyelitis of vertebra
+^ESCTAC845242	Acute osteomyelitis of right foot
+^ESCTAC845245	Acute osteomyelitis of left foot
+^ESCTBA349124	Bacterial osteomyelitis
+^ESCTCH271115	Chronic osteomyelitis of hand
+^ESCTCH373403	Chronic sclerosing nonsuppurative osteomyelitis
+^ESCTCH405642	Chronic osteomyelitis of cranium
+^ESCTCH405643	Chronic osteomyelitis of skull
+^ESCTCH416248	Chronic osteomyelitis of frontal bone
+^ESCTCH416249	Chronic osteomyelitis of zygomatic bone
+^ESCTCH416250	Chronic osteomyelitis of sphenoid bone
+^ESCTCH416251	Chronic osteomyelitis of temporal bone
+^ESCTCH416252	Chronic osteomyelitis of nasal-orbit complex
+^ESCTCH416256	Chronic sclerosing nonsuppurative osteomyelitis of facial bone
+^ESCTCH416260	Chronic sclerosing nonsuppurative osteomyelitis of frontal bone
+^ESCTCH416264	Chronic sclerosing nonsuppurative osteomyelitis of zygomatic bone
+^ESCTCH416268	Chronic sclerosing nonsuppurative osteomyelitis of sphenoid bone
+^ESCTCH416272	Chronic sclerosing nonsuppurative osteomyelitis of temporal bone
+^ESCTCH416276	Chronic sclerosing nonsuppurative osteomyelitis of nasal-orbit complex
+^ESCTCH416845	Chronic sclerosing nonsuppurative osteomyelitis of maxilla
+^ESCTCH416851	Chronic sclerosing nonsuppurative osteomyelitis of mandible
+^ESCTCH416854	Chronic osteomyelitis of maxilla
+^ESCTCH416857	Chronic osteomyelitis of mandible
+^ESCTCH481880	Chronic osteomyelitis of shoulder
+^ESCTCH481882	Chronic osteomyelitis of upper arm
+^ESCTCH481884	Chronic osteomyelitis of humerus
+^ESCTCH481885	Chronic osteomyelitis of forearm
+^ESCTCH481887	Chronic osteomyelitis of radius and/or ulna
+^ESCTCH481888	Chronic osteomyelitis of lower leg
+^ESCTCH481891	Chronic osteomyelitis of cervical spine
+^ESCTCH481893	Chronic osteomyelitis of thoracic spine
+^ESCTCH481895	Chronic osteomyelitis of lumbar spine
+^ESCTCH481897	Chronic osteomyelitis of sacrum
+^ESCTCH481899	Chronic osteomyelitis of coccyx
+^ESCTCH514400	Chronic osteomyelitis of foot
+^ESCTCH514402	Chronic osteomyelitis of ankle
+^ESCTCH514405	Chronic osteomyelitis of thigh
+^ESCTCH514406	Chronic osteomyelitis of femur
+^ESCTCH514408	Chronic osteomyelitis of pelvic region
+^ESCTCH514409	Chronic osteomyelitis of pelvis
+^ESCTCH514414	Chronic osteomyelitis with draining fistula
+^ESCTCH550284	Chronic osteomyelitis of pelvic region and/or thigh
+^ESCTCH550286	Chronic osteomyelitis of ankle and/or foot
+^ESCTCH572191	Chronic osteomyelitis - elbow
+^ESCTCH572192	Chronic osteomyelitis of elbow
+^ESCTCH572193	Chronic osteomyelitis - hip
+^ESCTCH572194	Chronic osteomyelitis of hip
+^ESCTCH572195	Chronic osteomyelitis - knee
+^ESCTCH572196	Chronic osteomyelitis of knee
+^ESCTCH604386	Chronic osteomyelitis of tibia
+^ESCTCH730225	Chronic osteomyelitis of vertebra
+^ESCTCH766601	Chronic osteomyelitis of ankle and/or foot with draining sinus
+^ESCTCH766603	Chronic osteomyelitis of ankle and/or foot with draining fistula
+^ESCTCH769654	Chronic osteomyelitis of facial bone
+^ESCTCH772613	Chronic osteomyelitis of carpal bone
+^ESCTCH772614	Chronic osteomyelitis of carpal bone of wrist
+^ESCTCH778585	Chronic haematogenous osteomyelitis
+^ESCTCH778586	Chronic hematogenous osteomyelitis
+^ESCTCH809165	Chronic osteomyelitis of ankle with draining sinus
+^ESCTCH809167	Chronic osteomyelitis of ankle with draining fistula
+^ESCTCH809170	Chronic osteomyelitis of foot with draining sinus
+^ESCTCH809172	Chronic osteomyelitis of foot with draining fistula
+^ESCTCH809175	Chronic osteomyelitis of femur with draining sinus
+^ESCTCH809177	Chronic osteomyelitis of femur with draining fistula
+^ESCTCH809180	Chronic osteomyelitis of forearm with draining sinus
+^ESCTCH809181	Chronic osteomyelitis of radius and/or ulna with draining sinus
+^ESCTCH809183	Chronic osteomyelitis of forearm with draining fistula
+^ESCTCH809186	Chronic osteomyelitis of humerus with draining sinus
+^ESCTCH809188	Chronic osteomyelitis of upper arm with draining sinus
+^ESCTCH809189	Chronic osteomyelitis of humerus with draining fistula
+^ESCTCH809192	Chronic osteomyelitis of lower leg with draining sinus
+^ESCTCH809194	Chronic osteomyelitis of lower leg with draining fistula
+^ESCTCH809197	Chronic osteomyelitis of shoulder with draining sinus
+^ESCTCH809199	Chronic osteomyelitis of shoulder with draining fistula
+^ESCTCH809708	Chronic osteomyelitis of hand with draining sinus
+^ESCTCH845261	Chronic osteomyelitis of right foot
+^ESCTCH845262	Chronic osteomyelitis of left foot
+^ESCTCR514411	CRMO - Chronic multifocal osteomyelitis
+^ESCTDI416234	Diffuse sclerosing osteomyelitis
+^ESCTDR514413	Draining sinus co-occurrent and due to chronic osteomyelitis
+^ESCTDR766602	Draining sinus co-occurrent and due to chronic osteomyelitis of ankle and/or foot
+^ESCTDR809166	Draining sinus co-occurrent and due to chronic osteomyelitis of ankle
+^ESCTDR809171	Draining sinus co-occurrent and due to chronic osteomyelitis of foot
+^ESCTDR809176	Draining sinus co-occurrent and due to chronic osteomyelitis of femur
+^ESCTDR809182	Draining sinus co-occurrent and due to chronic osteomyelitis of forearm
+^ESCTDR809187	Draining sinus co-occurrent and due to chronic osteomyelitis of humerus
+^ESCTDR809193	Draining sinus co-occurrent and due to chronic osteomyelitis of lower leg
+^ESCTDR809198	Draining sinus co-occurrent and due to chronic osteomyelitis of shoulder
+^ESCTDR809709	Draining sinus co-occurrent and due to chronic osteomyelitis of hand
+^ESCTGA416253	Garr?'s osteomyelitis of facial bones
+^ESCTGA416254	Garre's osteomyelitis of facial bones
+^ESCTGA416255	Garr? osteomyelitis of facial bones
+^ESCTGA416257	Garr?'s osteomyelitis of the frontal bone
+^ESCTGA416258	Garre's osteomyelitis of the frontal bone
+^ESCTGA416259	Garr? osteomyelitis of the frontal bone
+^ESCTGA416261	Garr?'s osteomyelitis of the zygomatic bone
+^ESCTGA416262	Garre's osteomyelitis of the zygomatic bone
+^ESCTGA416263	Garr? osteomyelitis of the zygomatic bone
+^ESCTGA416265	Garr?'s osteomyelitis of the sphenoid bone
+^ESCTGA416266	Garre's osteomyelitis of the sphenoid bone
+^ESCTGA416267	Garr? osteomyelitis of the sphenoid bone
+^ESCTGA416269	Garr?'s osteomyelitis of the temporal bone
+^ESCTGA416270	Garre's osteomyelitis of the temporal bone
+^ESCTGA416271	Garr? osteomyelitis of the temporal bone
+^ESCTGA416273	Garr?'s osteomyelitis of the nasal-orbit complex
+^ESCTGA416274	Garre's osteomyelitis of the nasal-orbit complex
+^ESCTGA416275	Garr? osteomyelitis of the nasal-orbit complex
+^ESCTGA416841	Garr?'s osteomyelitis of the maxilla
+^ESCTGA416843	Garre's osteomyelitis of the maxilla
+^ESCTGA416844	Garr? osteomyelitis of the maxilla
+^ESCTGA416846	Garr?'s osteomyelitis of mandible
+^ESCTGA416847	Garr? osteomyelitis of the mandible
+^ESCTGA416850	Garre's osteomyelitis of mandible
+^ESCTGO846592	Gonococcal osteomyelitis
+^ESCTNE386200	Neonatal osteomyelitis of jaw
+^ESCTOM347716	OM - Osteomyelitis
+^ESCTOS252333	Osteomyelitis of femur
+^ESCTOS264166	Osteomyelitis of pelvic region
+^ESCTOS277037	Osteomyelitis of forearm
+^ESCTOS283578	Osteomyelitis of lower leg
+^ESCTOS289496	Osteomyelitis of petrous bone
+^ESCTOS336697	Osteomyelitis of shoulder region
+^ESCTOS347715	OSTM - Osteomyelitis
+^ESCTOS350050	Osteomyelitis of hand
+^ESCTOS372418	Osteomyelitis of upper arm
+^ESCTOS398715	Osteomyelitis of multiple sites
+^ESCTOS405638	Osteomyelitis of cranium
+^ESCTOS405639	Osteomyelitis of skull
+^ESCTOS416235	Osteomyelitis of facial bone
+^ESCTOS416236	Osteomyelitis of frontal bone
+^ESCTOS416237	Osteomyelitis of zygomatic bone
+^ESCTOS416238	Osteomyelitis of sphenoid bone
+^ESCTOS416239	Osteomyelitis of temporal bone
+^ESCTOS416240	Osteomyelitis of nasal-orbit complex
+^ESCTOS416241	Osteomyelitis of nasal-orbital complex
+^ESCTOS416852	Osteomyelitis of maxilla
+^ESCTOS416855	Osteomyelitis of mandible
+^ESCTOS481915	Osteomyelitis of coccyx
+^ESCTOS481917	Osteomyelitis of clavicle
+^ESCTOS635696	Osteomyelitis of upper limb
+^ESCTOS709364	Osteomyelitis due to Staphylococcus aureus
+^ESCTOS709365	Osteomyelitis caused by Staphylococcus aureus
+^ESCTOS730765	Osteomyelitis of tibia
+^ESCTOS753064	Osteomyelitis of ankle
+^ESCTOS753513	Osteomyelitis of midfoot
+^ESCTOS753514	Osteomyelitis of hindfoot
+^ESCTOS759792	Osteomyelitis of forefoot
+^ESCTOS769644	Osteomyelitis of sacrum
+^ESCTOS781211	Osteomyelitis caused by Pasteurella multocida
+^ESCTOS802256	Osteomyelitis due to type 1 diabetes mellitus
+^ESCTOS802258	Osteomyelitis due to type 2 diabetes mellitus
+^ESCTOS845279	Osteomyelitis of left foot
+^ESCTOS845281	Osteomyelitis of right foot
+^ESCTPA781210	Pasteurella multocida osteomyelitis
+^ESCTPE481940	Periostitis without osteomyelitis, of the pelvic region and/or thigh
+^ESCTPR373402	Proliferative Garre's osteomyelitis
+^ESCTQF678063	Q fever osteomyelitis
+^ESCTSA348587	SAPHO - Synovitis, acne, pustulosis palmaris, hyperostosis, osteomyelitis syndrome
+^ESCTSC373399	Sclerosing osteomyelitis of Garr?
+^ESCTSC373400	Sclerosing osteomyelitis of Garre
+^ESCTSC762748	Sclerosing osteomyelitis
+^ESCTSU359507	Subacute osteomyelitis with or without periostitis
+^ESCTSU387028	Suppurative osteomyelitis of jaw
+^ESCTSU481975	Subacute osteomyelitis of cervical spine
+^ESCTSU481976	Subacute osteomyelitis of thoracic spine
+^ESCTSU481977	Subacute osteomyelitis of lumbar spine
+^ESCTSU481978	Subacute osteomyelitis of sacrum
+^ESCTSU481979	Subacute osteomyelitis of coccyx
+^ESCTSU987639	Subacute osteomyelitis of right foot
+^ESCTSU987642	Subacute osteomyelitis of left foot
+^ESCTSY348588	Synovitis acne pustulosis hyperostosis osteomyelitis syndrome
+^ESCTTU345467	Tuberculous osteomyelitis
+
+
+^ESCT1217236	Arthritis co-occurrent and due to rubella
+^ESCT1272014	Pyogenic arthritis of the forearm
+^ESCT1272015	Pyogenic arthritis of the lower leg
+^ESCT1275847	Septic arthritis of lower leg
+^ESCT1369134	Malignant otitis externa of left external auditory canal
+^ESCT1369234	Malignant otitis externa of right external auditory canal
+^ESCTAC514777	Actinomycosis of jaw
+^ESCTAC514779	Actinomycosis of spine
+^ESCTAC678407	Acute infection of bone
+^ESCTAL350416	Alveolitis sicca dolorosa
+^ESCTAL350417	Alveoalgia
+^ESCTAL350418	Alveolalgia
+^ESCTAR328050	Arthritis due to bacterial infection
+^ESCTAR333696	Arthritis due to Streptococcus
+^ESCTAR475938	Arthritis caused by Mycobacterium tuberculosis
+^ESCTAR513915	Arthritis due to parasitic infection
+^ESCTBA328048	Bacterial arthritis
+^ESCTBR353080	Brodie abscess
+^ESCTBR481900	Brodie's abscess of cervical spine
+^ESCTBR481901	Brodie abscess of cervical spine
+^ESCTBR481902	Brodie's abscess of thoracic spine
+^ESCTBR481903	Brodie abscess of thoracic spine
+^ESCTBR481904	Brodie's abscess of lumbar spine
+^ESCTBR481905	Brodie abscess of lumbar spine
+^ESCTBR481906	Brodie's abscess of sacrum
+^ESCTBR481907	Brodie abscess of sacrum
+^ESCTBR481908	Brodie's abscess of coccyx
+^ESCTBR481909	Brodie abscess of coccyx
+^ESCTBR604384	Brodie's abscess of tibia
+^ESCTBR604385	Brodie abscess of tibia
+^ESCTCH373401	Chronic nonsuppurative osteitis
+^ESCTCH416842	Chronic nonsuppurative osteitis of the maxilla
+^ESCTCH416849	Chronic nonsuppurative osteitis of mandible
+^ESCTCO344878	Congenital syphilitic epiphysitis
+^ESCTCO344879	Congenital syphilitic osteochondropathy
+^ESCTCO354258	Costal chondritis
+^ESCTDR350419	Dry tooth socket
+^ESCTGO308072	Goundou of yaws
+^ESCTGO308073	Goundou
+^ESCTGO322153	Gonococcal infection of joint
+^ESCTGO322155	Gonococcal rheumatism
+^ESCTGU367217	Gummatous osteitis of yaws
+^ESCTIN349323	Infective polyarthritis
+^ESCTIN349324	Infective arthritis of multiple sites
+^ESCTIN419304	Infection of bone associated with another disease
+^ESCTIN487153	Infected arthroplasty
+^ESCTIN600207	Infection of internal K-wire fixator
+^ESCTIN656622	Infection-associated arthritis
+^ESCTIN726445	Infection of bone of ankle and/or foot
+^ESCTIN729780	Infection of bone of shoulder girdle
+^ESCTIN729781	Infection of bone of radius and/or ulna
+^ESCTIN730145	Infection of bone of hand
+^ESCTIN730462	Infection of bone of tibia and/or fibula
+^ESCTMA514776	Mandibular actinomycosis
+^ESCTME265093	Meningococcal arthritis
+^ESCTPA344877	Parrot's pseudoparalysis
+^ESCTPA344880	Parrot's disease
+^ESCTPE270476	Periostitis of ankle AND/OR foot
+^ESCTPE416848	Periostitis ossificans of mandible
+^ESCTPO307971	Pott's disease
+^ESCTPR487152	Prosthetic joint infection
+^ESCTPY309114	Pyogenic arthritis of shoulder region
+^ESCTPY347714	Pyogenic inflammation of bone
+^ESCTPY349302	Pyogenic arthritis of hand
+^ESCTPY550219	Pyogenic arthritis of the ankle and/or foot
+^ESCTPY637357	Pyoarthrosis
+^ESCTPY637361	Pyogenic arthritis of hip
+^ESCTRU280839	Rubella arthritis
+^ESCTSE282342	Septic arthritis of ankle
+^ESCTSE306274	Septic arthritis of multiple sites
+^ESCTSE309116	Septic arthritis of shoulder region
+^ESCTSE349304	Septic arthritis of hand
+^ESCTSE513904	Septic arthritis of wrist
+^ESCTSE513906	Septic arthritis of elbow
+^ESCTSE550218	Septic arthritis of the pelvic region and thigh
+^ESCTSE550221	Septic arthritis of the ankle and/or foot
+^ESCTSE637363	Septic arthritis of hip
+^ESCTSK514775	Skeletal actinomycosis
+^ESCTSU637356	Suppurative arthritis
+^ESCTSY344875	Syphilitic osteochondritis
+^ESCTTU272473	Tuberculosis of hip
+^ESCTTU272474	Tuberculosis of hip joint
+^ESCTTU277193	Tuberculosis of knee
+^ESCTTU277194	Tuberculosis of knee joint
+^ESCTTU278008	Tuberculosis of bones and/or joints
+^ESCTTU307972	Tuberculous spondylitis
+^ESCTTU311651	Tuberculous osteitis
+^ESCTTU321167	Tuberculous necrosis of bone
+^ESCTTU330620	Tuberculous dactylitis
+^ESCTTU366119	Tuberculosis of mastoid process
+^ESCTTU381978	Tuberculosis of bones of lower extremity
+^ESCTTU475936	Tuberculous arthropathy
+^ESCTTU475937	Tuberculous rheumatism
+^ESCTTU481953	Tuberculosis of humerus
+^ESCTTU481955	Tuberculosis of the pelvic and/or thigh bones
+^ESCTTU481961	Tuberculosis of the bones of the ankle and/or foot
+^ESCTTU733223	Tuberculous abscess of sacrum
+^ESCTTU737687	Tuberculosis of bone of upper limb
+^ESCTVE514778	Vertebral actinomycosis
+^ESCTWE344876	Wegner's disease
+^ESCTYA301481	Yaws gumma of bone
+^ESCTYA515072	Yaws of bone
