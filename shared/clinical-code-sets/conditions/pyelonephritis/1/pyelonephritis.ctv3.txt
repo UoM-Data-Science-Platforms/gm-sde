@@ -1,0 +1,46 @@
+A160.	Renal tuberculosis
+A1600	Tuberculous nephropathy
+A1601	Tuberculous pyelitis
+A1602	Tuberculous pyelonephritis
+A160z	Tuberculosis of kidney NOS
+K10..	Infection of kidney
+K100.	Chronic pyelonephritis
+K1001	Chronic pyelonephritis with medullary necrosis
+K1002	Chronic pyelitis
+K1003	Chronic pyonephrosis
+K1004	Non-obstructive reflux-associated chronic pyelonephritis
+K1006	Calculous pyelonephritis
+K100z	Chronic pyelonephritis NOS
+K101.	Acute pyelonephritis
+K1010	Acute pyelonephritis without medullary necrosis
+K1011	Acute pyelonephritis with medullary necrosis
+K1012	Acute pyelitis
+K1013	Acute pyonephrosis
+K101z	Acute pyelonephritis NOS
+K102.	Renal and perinephric abscess
+K1020	Renal abscess
+K1021	Perinephric abscess
+K102z	Renal and perinephric abscess NOS
+K10y.	Pyelonephritis and pyonephrosis unspecified
+K10y0	Pyelonephritis unspecified
+K10y1	Pyelitis unspecified
+K10y2	Pyonephrosis unspecified
+K10y3	Pyelonephritis in diseases EC
+K10y4	Pyelitis in diseases EC
+K10yz	Unspecified pyelonephritis NOS
+K10z.	Infection of kidney NOS
+L1665	Infections of kidney in pregnancy
+X30Hj	Emphysematous pyelonephritis
+X30Hk	Acute infective interstitial nephritis
+X30Hl	Chronic infective interstitial nephritis
+X30Hm	Emphysematous pyelitis
+X30Ho	Pyonephrosis
+X30Hr	Candida pyelonephritis
+X30Hu	Reflux nephropathy
+X30Hv	Chronic obstructive pyelonephritis
+X30Jd	Xanthogranulomatous pyelonephritis
+X30Mj	Cytomegalovirus-induced glomerulonephritis
+Xa20b	Acute focal pyelonephritis
+XaZ0c	Urosepsis
+XE0fD	Infection of kidney (& [pyelonephritis &/or pyelitis])
+XE2bJ	Renal cortical abscess

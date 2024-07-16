@@ -1,9 +1,15 @@
 const { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } = require('fs');
 const { join, basename } = require('path');
-const { createCodeSetSQL, createNationalCodeSetSQL, theCodeSetExists } = require('./code-sets');
+const {
+  createCodeSetSQL: createCodeSetSQLSnowflake,
+  createNationalCodeSetSQL,
+  theCodeSetExists,
+} = require('./code-sets');
+const { createCodeSetSQL: createCodeSetSQLGMCR } = require('./code-sets-gmcr');
 const { generateProjectSupplementaryReadme, generateCodeSetCsv } = require('./docs');
 const md = require('markdown-it')();
 
+let createCodeSetSQL;
 const EXTRACTION_SQL_DIR = 'extraction-sql';
 const TEMPLATE_SQL_DIR = 'template-sql';
 const README_NAME = 'README';
@@ -16,7 +22,8 @@ const includedSqlFiles = [];
 const includedSqlFilesSoFar = {};
 let isProjectDirectory = false;
 
-const stitch = async (projectDirectory) => {
+const stitch = async (projectDirectory, isSnowflake) => {
+  createCodeSetSQL = isSnowflake ? createCodeSetSQLSnowflake : createCodeSetSQLGMCR;
   console.log('Moving analyst-guidance file...');
   const readmeFirstFile = readFileSync(
     join(SHARED_DIRECTORY, 'documents', 'analyst-guidance.md'),

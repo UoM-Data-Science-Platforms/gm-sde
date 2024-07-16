@@ -1,0 +1,305 @@
+^ESCT1165488	Perichondritis of trachea
+^ESCT1165914	Infection causing tracheitis in neonate
+^ESCT1165915	Infection causing neonatal tracheitis
+^ESCT1167431	Chronic inflammation of mastoid cavity
+^ESCT1172464	Recurrent acute streptococcal tonsillitis
+^ESCT1202723	Chronic serous otitis media of left ear
+^ESCT1202724	Chronic serous otitis media of right ear
+^ESCT1303160	Croup
+^ESCT1367555	Bilateral recurrent acute suppurative otitis media of middle ears
+^ESCT1367556	Recurrent acute suppurative otitis media of both middle ears
+^ESCT1367557	Recurrent acute suppurative otitis media of bilateral middle ears
+^ESCT1368918	Bilateral recurrent acute serous otitis media of middle ears
+^ESCT1368919	Recurrent acute serous otitis media of bilateral middle ears
+^ESCT1368920	Recurrent acute serous otitis media of both middle ears
+^ESCT1368921	Bilateral spontaneous rupture of tympanic membranes of ears co-occurrent and due to recurrent acute suppurative otitis media
+^ESCT1368922	Spontaneous rupture of tympanic membranes of both ears co-occurrent and due to recurrent acute suppurative otitis media
+^ESCT1368923	Spontaneous rupture of tympanic membranes of bilateral ears co-occurrent and due to recurrent acute suppurative otitis media
+^ESCT1368924	Spontaneous rupture of eardrums of bilateral ears co-occurrent and due to recurrent acute suppurative otitis media
+^ESCT1368925	Recurrent acute suppurative otitis media of bilateral ears with spontaneous rupture of tympanic membranes
+^ESCT1368934	Bilateral chronic mastoiditis
+^ESCT1368935	Chronic inflammation of bilateral mastoids
+^ESCT1368936	Chronic inflammation of both mastoids
+^ESCT1368937	Bilateral middle ear chronic mucoid otitis media
+^ESCT1368938	Chronic mucoid otitis media of bilateral middle ears
+^ESCT1368939	Chronic mucoid otitis media of both middle ears
+^ESCT1368944	Bilateral chronic tympanitis
+^ESCT1368945	Chronic bilateral myringitis
+^ESCT1368946	Chronic bilateral tympanitis
+^ESCT1368947	Chronic inflammation of both tympanic membranes
+^ESCT1368948	Chronic inflammation of bilateral tympanic membranes
+^ESCT1368955	Bilateral chronic otitis media of ears following insertion of tympanic ventilation tube
+^ESCT1368956	Chronic otitis media of both ears following insertion of tympanic ventilation tube
+^ESCT1368957	Chronic otitis media of bilateral ears following insertion of tympanic ventilation tube
+^ESCT1368958	Bilateral chronic suppurative otitis media of middle ears
+^ESCT1368959	Chronic purulent otitis media of bilateral middle ears
+^ESCT1368960	Chronic suppurative otitis media of both ears
+^ESCT1368961	Chronic suppurative otitis media of bilateral middle ears
+^ESCT1369015	Bilateral mastoiditis
+^ESCT1369016	Inflammation of bilateral mastoids
+^ESCT1369017	Inflammation of both mastoids
+^ESCT1369080	Acute left mastoiditis
+^ESCT1369081	Acute inflammation of left mastoid
+^ESCT1369082	Recurrent acute suppurative otitis media of left ear with spontaneous rupture of tympanic membrane
+^ESCT1369083	Spontaneous rupture of tympanic membrane of left ear co-occurrent and due to recurrent acute suppurative otitis media
+^ESCT1369084	Spontaneous rupture of eardrum of left ear co-occurrent and due to recurrent acute suppurative otitis media
+^ESCT1369085	Adhesive otitis media of left middle ear
+^ESCT1369086	Fibrotic adhesive otitis media of left ear
+^ESCT1369087	Chronic adhesive otitis media of left ear
+^ESCT1369095	Chronic left mastoiditis
+^ESCT1369096	Chronic inflammation of left mastoid
+^ESCT1369097	Chronic mucoid otitis media of left middle ear
+^ESCT1369100	Chronic left myringitis
+^ESCT1369101	Chronic left tympanitis
+^ESCT1369102	Chronic inflammation of left tympanic membrane
+^ESCT1369105	Chronic otitis media of left ear following insertion of tympanic ventilation tube
+^ESCT1369106	Chronic suppurative otitis media of left middle ear
+^ESCT1369107	Chronic purulent otitis media of left middle ear
+^ESCT1369139	Left mastoiditis
+^ESCT1369140	Inflammation of left mastoid
+^ESCT1369180	Acute right mastoiditis
+^ESCT1369181	Acute inflammation of right mastoid
+^ESCT1369182	Recurrent acute suppurative otitis media of right ear with spontaneous rupture of tympanic membrane
+^ESCT1369183	Spontaneous rupture of eardrum of right ear co-occurrent and due to recurrent acute suppurative otitis media
+^ESCT1369184	Spontaneous rupture of tympanic membrane of right ear co-occurrent and due to recurrent acute suppurative otitis media
+^ESCT1369185	Adhesive otitis media of right middle ear
+^ESCT1369186	Chronic adhesive otitis media of right ear
+^ESCT1369187	Fibrotic adhesive otitis media of right ear
+^ESCT1369195	Chronic right mastoiditis
+^ESCT1369196	Chronic inflammation of right mastoid
+^ESCT1369197	Chronic mucoid otitis media of right middle ear
+^ESCT1369200	Chronic right myringitis
+^ESCT1369201	Chronic right tympanitis
+^ESCT1369202	Chronic inflammation of right tympanic membrane
+^ESCT1369205	Chronic otitis media of right ear following insertion of tympanic ventilation tube
+^ESCT1369206	Chronic suppurative otitis media of right middle ear
+^ESCT1369207	Chronic purulent otitis media of right middle ear
+^ESCT1369238	Right mastoiditis
+^ESCT1369239	Inflammation of right mastoid
+^ESCT1391190	Tuberculosis of middle ear
+^ESCT1416324	Inflammatory tracheobronchial papilloma
+^ESCT1417521	Bilateral mucoid otitis media of middle ears
+^ESCT1417522	Acute mucoid otitis media of bilateral middle ears
+^ESCT1417523	Acute mucoid otitis media of both middle ears
+^ESCT1417524	Bilateral adhesive otitis media of middle ears
+^ESCT1417525	Adhesive otitis media of both middle ears
+^ESCT1417526	Adhesive otitis media of bilateral middle ears
+^ESCT1417538	Bilateral chronic serosanguineous otitis media of middle ears
+^ESCT1417539	Chronic serosanguineous otitis media of bilateral middle ears
+^ESCT1417540	Chronic serosanguineous otitis media of both middle ears
+^ESCT1417562	Acute mucoid otitis media of left middle ear
+^ESCT1417566	Chronic atticoantral suppurative otitis media of left middle ear
+^ESCT1417568	Chronic tubotympanic suppurative otitis media of left middle ear
+^ESCT1417582	Acute mucoid otitis media of right middle ear
+^ESCT1417586	Chronic atticoantral suppurative otitis media of right middle ear
+^ESCT1417588	Chronic tubotympanic suppurative otitis media of right middle ear
+^ESCTAB342490	Abscess of trachea
+^ESCTAB388061	Abscess of parapharyngeal space
+^ESCTAB388062	Abscess of lateral pharyngeal space
+^ESCTAC250324	Acute tympanitis
+^ESCTAC263243	Acute seromucinous otitis media
+^ESCTAC273697	Acute suppurative otitis media without spontaneous rupture of ear drum
+^ESCTAC275070	Acute inflammation of nasal sinus
+^ESCTAC275071	Acute inflammation of sinus
+^ESCTAC275072	Acute infection of sinus
+^ESCTAC280788	Acute exudative otitis media
+^ESCTAC297620	Acute epiglottitis and supraglottitis
+^ESCTAC306678	Acute transudative otitis media
+^ESCTAC306679	Acute middle ear effusion
+^ESCTAC306680	Acute MEE - Acute middle ear effusion
+^ESCTAC334891	Acute mucoid otitis media
+^ESCTAC360324	Acute ethmoiditis
+^ESCTAC372774	Acute bacterial sinusitis
+^ESCTAC376059	Acute sanguinous otitis media
+^ESCTAC376060	Acute non-suppurative otitis media with haemotympanum
+^ESCTAC376061	Acute non-suppurative otitis media with hemotympanum
+^ESCTAC376062	Acute non-suppurative otitis media - sanguinous
+^ESCTAC376063	Acute non-suppurative otitis media - bloody
+^ESCTAC388436	Acute tubotympanic catarrh
+^ESCTAC388437	Acute catarrhal otitis media
+^ESCTAC390295	Acute suppurative otitis media with spontaneous rupture of ear drum
+^ESCTAC390297	Acute suppurative otitis media with discharge
+^ESCTAC417159	Acute suppurative mastoiditis
+^ESCTAC419709	Acute mastoiditis with complications
+^ESCTAC465637	Acute necrotising ulcerative gingivostomatitis
+^ESCTAC465639	Acute necrotizing ulcerative gingivostomatitis
+^ESCTAC477455	Acute serous otitis media
+^ESCTAC477470	Acute purulent otitis media
+^ESCTAC477471	Acute suppurative otitis media due to another disease
+^ESCTAC478015	Acute exudative tonsillitis
+^ESCTAC503401	Acute mastoiditis with neck abscess
+^ESCTAC503404	Acute mastoiditis with facial paralysis
+^ESCTAC503405	Acute mastoiditis and facial palsy
+^ESCTAC503406	Acute mastoiditis with labyrinthitis
+^ESCTAC505592	Acute toxic tracheobronchitis
+^ESCTAC505593	Acute toxic bronchitis
+^ESCTAC557379	Acute fibrinous laryngotracheobronchitis
+^ESCTAC601583	Acute infective tracheobronchitis
+^ESCTAC620426	Acute nonsuppurative otitis media
+^ESCTAC621488	Acute necrotising otitis media
+^ESCTAC621489	Acute necrotizing otitis media
+^ESCTAC661640	Acute necrotizing ulcerative gingivitis
+^ESCTAC661644	Acute ulceromembranous gingivitis
+^ESCTAC798735	Acute bilateral otitis media with effusion
+^ESCTAC802513	Acute persistent otitis media
+^ESCTAD262242	Adhesive otitis media
+^ESCTAD283279	Adhesive middle ear disease with adhesions of drum head to stapes
+^ESCTAD283280	Adhesion of tympanic membrane to stapes
+^ESCTAD301058	Adhesive middle ear disease with adhesions of drum head to incus
+^ESCTAD301059	Adhesion of tympanic membrane to incus
+^ESCTAD313114	Adhesive middle ear disease with adhesions of drum head to promontorium
+^ESCTAD313115	Adhesion of tympanic membrane to promontory
+^ESCTAN273812	Angina tonsillaris
+^ESCTAN661642	ANUG
+^ESCTAO254864	AOM - Acute otitis media
+^ESCTAS477469	ASOM - Acute suppurative otitis media
+^ESCTAS761875	Aspergillus tracheobronchitis
+^ESCTAT503387	Atrophic tympanic membrane
+^ESCTAT503388	Atelectasis of eardrum
+^ESCTBA757611	Bacterial tonsillitis
+^ESCTBA757612	Bacterial otitis media
+^ESCTBA757613	Bacterial sinusitis
+^ESCTBE306032	Benign chronic suppurative otitis media with anterior perforation of ear drum
+^ESCTBE503403	Bezold's abscess
+^ESCTBL334892	Blue drum syndrome
+^ESCTBO292413	Bordetellosis
+^ESCTCA331326	Catarrhal tracheitis
+^ESCTCE286934	Cellulitis of pharynx
+^ESCTCH262240	Chronic adhesive otitis media
+^ESCTCH283682	Chronic otitis media
+^ESCTCH295551	Cholesterin granuloma of middle ear
+^ESCTCH306031	Chronic tubotympanic disease with anterior perforation of ear drum
+^ESCTCH311848	Chronic otitis media with perforation
+^ESCTCH314461	Chronic infection of sinus
+^ESCTCH317615	Chronic atticoantral suppurative otitis media
+^ESCTCH317616	Chronic atticoantral disease with posterior AND/OR superior marginal perforation of ear drum
+^ESCTCH320157	Chronic exudative otitis media
+^ESCTCH344547	Chronic seromucinous otitis media
+^ESCTCH378254	Chronic middle ear effusion
+^ESCTCH378264	Chronic transudative otitis media
+^ESCTCH378265	Chronic secretory otitis media
+^ESCTCH378266	Chronic MEE - Chronic middle ear effusion
+^ESCTCH378267	Chronic non-suppurative otitis media with effusion
+^ESCTCH382629	Chronic non-suppurative otitis media with effusion - serous
+^ESCTCH392483	Chronic tubotympanic suppurative otitis media
+^ESCTCH395854	Chronic tympanitis
+^ESCTCH395856	Chronic myringitis
+^ESCTCH417160	Chronic suppurative mastoiditis
+^ESCTCH477463	Chronic eustachian salpingitis
+^ESCTCH503382	Chronic non-suppurative otitis media
+^ESCTCH503385	Chronic non-suppurative otitis media without effusion
+^ESCTCH710837	Chronic otitis media after insertion of tympanic ventilation tube
+^ESCTCH710838	Chronic otitis media after insertion of grommet
+^ESCTCH733478	Cholesterin granuloma of mastoid
+^ESCTCH737562	Chronic otitis media with sanguineous effusion
+^ESCTCI503402	Citelli's abscess
+^ESCTCR365782	Croup syndrome
+^ESCTCS311845	CSOM - Chronic suppurative otitis media
+^ESCTDI331335	Diphtheritic laryngotracheitis
+^ESCTDR653082	Drainage of abscess of peritonsillar tissues
+^ESCTEM256320	Empyema of mastoid
+^ESCTEU551711	Eustachian salpingitis
+^ESCTEX302763	Exudative otitis media
+^ESCTFI262241	Fibrotic adhesive otitis media
+^ESCTFU474385	Fusospirochetal pharyngitis
+^ESCTFU474386	Fusospirochaetal pharyngitis
+^ESCTFU514790	Fusobacterial necrotizing tonsillitis
+^ESCTGL378255	Glue ear - mucoid
+^ESCTGL382626	Glue ear - serous
+^ESCTGO370896	Gonorrhoea of pharynx
+^ESCTGO370897	Gonorrhea of pharynx
+^ESCTGO370898	Gonococcal pharyngitis
+^ESCTGR311090	Gradenigo syndrome
+^ESCTGR503375	Granular myringitis
+^ESCTHA280192	Haemophilus influenzae otitis media
+^ESCTHA369375	Haemophilus influenzae laryngotracheobronchitis
+^ESCTHA782252	Haemophilus influenzae sinusitis
+^ESCTIN278156	Infective tonsillitis
+^ESCTIN294674	Infection due to Bordetella pertussis
+^ESCTIN442266	Infection of ear
+^ESCTIN601386	Infective otitis media
+^ESCTIN761876	Invasive Aspergillus tracheobronchitis
+^ESCTLT389641	LTB - Laryngotracheobronchitis
+^ESCTMA276441	Malignant otitis media
+^ESCTMA334979	Mastoid empyema
+^ESCTME271268	Measles complicated by otitis media
+^ESCTMY273561	Myringitis
+^ESCTMY303948	Myringitis bullosa hemorrhagica
+^ESCTMY303949	Myringitis bullosa haemorrhagica
+^ESCTMY303950	Myringitis bullosa
+^ESCTMY406381	Mycoplasmal tracheobronchitis
+^ESCTMY688205	Mycosis leptothica
+^ESCTOM356273	OM - Otitis media
+^ESCTOM378257	OME - Otitis media with effusion
+^ESCTON457758	On examination - tonsils - quinsy present
+^ESCTON457760	On examination - follicular tonsillitis
+^ESCTOT276442	Otitis media due to Pseudomonas aeruginosa
+^ESCTOT311847	Otitis media with effusion - purulent
+^ESCTOT378260	Otitis media with effusion
+^ESCTOT378263	Otitis media with effusion - mucoid
+^ESCTOT380666	Otitis media with effusion
+^ESCTOT503383	Otitis media with effusion - sanguinous
+^ESCTOT503384	Otitis media with effusion - bloody
+^ESCTOT551710	Otosalpingitis
+^ESCTOT782221	Otitis media caused by Streptococcus pneumoniae
+^ESCTOT846662	Otitis media due to scarlet fever
+^ESCTPE317617	Persistent mucosal disease with posterior AND/OR superior marginal perforation of ear drum
+^ESCTPE388063	Peripharyngeal abscess
+^ESCTPE798739	Perforation of tympanic membrane due to otitis media
+^ESCTPH286935	Pharyngeal cellulitis
+^ESCTPN374665	Pneumococcal pharyngitis
+^ESCTPN420013	Pneumococcal tonsillitis
+^ESCTPO271266	Post measles otitis media
+^ESCTPO320653	Postauricular fistula
+^ESCTPO320654	Postaural fistula
+^ESCTPO320655	Postaural mastoid fistula
+^ESCTPO367300	Postauricular mastoid abscess
+^ESCTRA478023	RAT - Recurrent acute tonsillitis
+^ESCTRE503380	Recurrent acute suppurative otitis media
+^ESCTRE503381	Recurrent acute non-suppurative otitis media
+^ESCTRE503627	Recurrent allergic croup
+^ESCTRE801072	Recurrent croup
+^ESCTRE845868	Recurrent acute suppurative otitis media with spontaneous rupture of ear drum
+^ESCTSE253031	Seromucinous otitis media
+^ESCTSE320635	Septic sore throat
+^ESCTSE378262	Secretory otitis media
+^ESCTSI378253	Simple chronic mucoid otitis media
+^ESCTSI382625	Simple chronic serous otitis media
+^ESCTSI782219	Sinusitis caused by Streptococcus pneumoniae
+^ESCTSI782251	Sinusitis caused by Haemophilus influenzae
+^ESCTSO378261	SOM - Secretory otitis media
+^ESCTSP801073	Spasmodic croup
+^ESCTST268254	Staphylococcal tonsillitis
+^ESCTST320637	Strept throat
+^ESCTST320638	Strep throat
+^ESCTST782220	Streptococcus pneumoniae sinusitis
+^ESCTST782222	Streptococcus pneumoniae otitis media
+^ESCTSU261095	Subacute nonsuppurative otitis media
+^ESCTSU296291	Subacute exudative otitis media
+^ESCTSU313204	Suppurative otitis media
+^ESCTSU367298	Subperiosteal abscess of mastoid
+^ESCTSU390420	Subacute transudative otitis media
+^ESCTSU390421	Subacute otitis media with effusion
+^ESCTSU394893	Subacute tubotympanic catarrh
+^ESCTSU394894	Subacute catarrhal otitis media
+^ESCTTO688204	Tonsillitis due to Gram negative bacteria
+^ESCTTO688206	Tonsillitis caused by Gram negative bacteria
+^ESCTTR342491	Tracheal abscess
+^ESCTTR352407	Tracheitis
+^ESCTTR378258	Transudative otitis media
+^ESCTTR761874	Tracheobronchitis due to Aspergillus
+^ESCTTR761877	Tracheobronchitis caused by Aspergillus
+^ESCTTU366119	Tuberculosis of mastoid process
+^ESCTTU376360	Tuberculosis of trachea
+^ESCTTU389678	Tuberculous otitis media
+^ESCTTU551712	Tubotympanitis
+^ESCTTY273562	Tympanitis
+^ESCTVI474383	Vincent's angina - pharyngitis
+^ESCTVI474384	Vincent angina - pharyngitis
+^ESCTVI503608	Vincent tonsillitis
+^ESCTVI503622	Vincent laryngitis
+^ESCTWC294676	WC - Whooping cough
+JHCAC5	Acute otitis media
+^ESCTAC283484	Acute bacterial epiglottitis
+^ESCTME503582	Meningococcal pharyngitis
+^ESCTST383724	Staphylococcal pharyngitis

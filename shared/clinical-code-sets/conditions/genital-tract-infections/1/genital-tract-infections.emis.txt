@@ -1,0 +1,346 @@
+^ESCT1165527	Genital tract infection due to and following pregnancy with abortive outcome
+^ESCT1165528	Genital tract infection as complication of pregnancy with abortive outcome
+^ESCT1165529	Pelvic infection due to and following pregnancy with abortive outcome
+^ESCT1165530	Pelvic infection as complication of pregnancy with abortive outcome
+^ESCT1165531	Pelvic infection due to and following ectopic pregnancy
+^ESCT1165532	Pelvic infection as complication of ectopic pregnancy
+^ESCT1165533	Genital tract infection due to and following ectopic pregnancy
+^ESCT1165534	Genital tract infection as complication of ectopic pregnancy
+^ESCT1165535	Genital tract infection due to and following molar pregnancy
+^ESCT1165536	Genital tract infection as complication of molar pregnancy
+^ESCT1165537	Pelvic infection due to and following molar pregnancy
+^ESCT1165538	Pelvic infection as complication of molar pregnancy
+^ESCT1165575	Infection of genitourinary system caused by Neisseria gonorrhoeae
+^ESCT1165576	Gonococcal infection of genitourinary system
+^ESCT1165740	Pyometra co-occurrent and due to acute inflammatory disease of uterus
+^ESCT1165741	Acute inflammatory disease of uterus with pyometra
+^ESCT1165742	Pyometra co-occurrent and due to chronic inflammatory disease of uterus
+^ESCT1165743	Chronic inflammatory disease of uterus with pyometra
+^ESCT1166736	Subacute vulvitis
+^ESCT1167450	Vulvovaginal ulceration and inflammation
+^ESCT1167451	Ulcerative inflammation of vulva and vagina
+^ESCT1167455	Dermatitis of male genitalia
+^ESCT1167456	Eczema of male genitalia
+^ESCT1167457	Inflammation of spermatic cord
+^ESCT1167458	Inflammation of tunica vaginalis
+^ESCT1167459	Inflammation of vas deferens
+^ESCT1168908	Recurrent vulvitis
+^ESCT1170590	Candidiasis of vagina in pregnancy
+^ESCT1187389	Prostatitis caused by Candida
+^ESCT1187390	Candida prostatitis
+^ESCT1187590	Nonspecific bacterial vaginosis
+^ESCT1187816	Nonspecific cervicitis
+^ESCT1192364	Chronic gonorrhea of upper genitourinary tract
+^ESCT1205537	Nabothian cyst of cervix
+^ESCT1205538	Naboth follicles
+^ESCT1211594	Cytolytic vaginosis
+^ESCT1222087	Chronic metritis
+^ESCT1248540	Female pelvic inflammatory diseases NOS
+^ESCT1271718	Endometritis following abortive pregnancy
+^ESCT1369169	Recurrent inflammation of vulva caused by human herpes simplex virus
+^ESCT1369170	Recurrent vulvitis caused by human herpes simplex virus
+^ESCT1376581	Vaginitis due to and following radiotherapy
+^ESCT1382378	Inflammatory disorder of skin of vulva
+^ESCT1391082	Gonorrhoea of penis
+^ESCT1407142	Inflammation of testis and epididymis
+^ESCT1407595	Scaling of vulva
+^ESCT1414366	Lichen sclerosus of vulva
+^ESCT1414367	Kraurosis of vulva
+^ESCT1414368	Kraurosis vulvae
+^ESCT1414369	Lichen sclerosus of female external genitalia
+^ESCT1419954	Childhood kraurosis of vulva
+^ESCT1419955	Childhood kraurosis vulvae
+^ESCTAB261791	Abscess of ovary
+^ESCTAB405930	Abscess of testis
+^ESCTAB660183	Abscess of fallopian tube
+^ESCTAC289134	Acute vaginitis
+^ESCTAC322721	Acute orchitis
+^ESCTAC329684	Acute endocervicitis
+^ESCTAC332570	Acute gonorrhea of upper genitourinary tract
+^ESCTAC371843	Acute pyometra
+^ESCTAC372854	Acute mumps oophoritis
+^ESCTAC479045	Actinomycotic prostatitis
+^ESCTAC510257	Acute pelvic inflammatory disease of the female pelvic organs AND/OR tissues
+^ESCTAC510259	Acute PID - acute pelvic inflammatory disease
+^ESCTAC510262	Acute abscess of female pelvis
+^ESCTAC510264	Acute female pelvic abscess
+^ESCTAC510320	Actinomycotic cervicitis
+^ESCTAC667222	Acute pyococcal bartholinitis
+^ESCTAC752852	Acute female pelvic cellulitis
+^ESCTAC756551	Acute on chronic prostatitis
+^ESCTAC756552	Acute on chronic endometritis
+^ESCTAC756553	Acute on chronic cervicitis
+^ESCTAC783680	Acute female pelvic inflammatory disease following procedure
+^ESCTAD309221	Adenosis of fallopian tube
+^ESCTAD309222	Adenosalpingitis
+^ESCTAL286289	Allergic vulvitis
+^ESCTAL349045	Allergic vaginitis
+^ESCTAL666266	Allergic contact dermatitis of male genitalia
+^ESCTAL666267	Allergic contact dermatitis of female genitalia
+^ESCTAT335032	Atrophic vaginitis
+^ESCTAT770431	Atrophic endometritis
+^ESCTAV694259	AV - Anaerobic vaginosis
+^ESCTBA803482	Bacterial vaginosis in pregnancy
+^ESCTBA803483	Bacterial vaginitis in pregnancy
+^ESCTBA808581	Bacterial prostatitis
+^ESCTBL289719	Bladder gonorrhea - acute
+^ESCTBL479047	Blastomycotic prostatitis
+^ESCTBO250342	Boil of penis
+^ESCTBO327682	Boil of tunica vaginalis
+^ESCTBO339323	Boil of vas deferens
+^ESCTBV694260	BV - Bacterial vaginosis
+^ESCTCA293830	Carbuncle of penis
+^ESCTCA294946	Carbuncle of tunica vaginalis
+^ESCTCA305837	Carbuncle of spermatic cord
+^ESCTCA316704	Carbuncle of corpus cavernosum
+^ESCTCA338893	Cavernitis of penis
+^ESCTCA341430	Carbuncle of vas deferens
+^ESCTCA368652	Candida of vagina
+^ESCTCE267469	Cellulitis of spermatic cord
+^ESCTCE273947	Cellulitis of vas deferens
+^ESCTCE310578	Cervicitis
+^ESCTCE383051	Cellulitis of tunica vaginalis
+^ESCTCE419560	Cellulitis of corpus cavernosum
+^ESCTCE932284	Cervicitis in pregnancy
+^ESCTCH256644	Chronic vulvitis
+^ESCTCH266231	Chronic orchitis
+^ESCTCH272568	Chronic vaginitis
+^ESCTCH300707	Chronic abscess of parametrium
+^ESCTCH305614	Chronic cervicitis with erosion
+^ESCTCH329699	Chronic endocervicitis
+^ESCTCH354943	Chronic abscess of female pelvis
+^ESCTCH354944	Chronic pelvic abscess - female
+^ESCTCH398121	Chronic abscess of pouch of Douglas
+^ESCTCH412139	Chlamydia
+^ESCTCH419561	Chronic endocervicitis with erosion
+^ESCTCH435374	Chronic hypertrophic vulvitis
+^ESCTCH475127	Chlamydial pelvic inflammatory disease
+^ESCTCH479151	Chronic pelvic cellulitis
+^ESCTCH509735	Chlamydial prostatitis
+^ESCTCH509848	Chlamydial epididymo-orchitis
+^ESCTCH510261	Chlamydial salpingitis
+^ESCTCH510272	Chronic PID - Chronic pelvic inflammatory disease
+^ESCTCH510273	Chronic parametritis
+^ESCTCH510275	Chronic parametrial cellulitis
+^ESCTCH510344	Chlamydial bartholinitis
+^ESCTCH705453	Chronic prostatitis - chronic pelvic pain syndrome
+^ESCTCH781998	Chemical vulvitis
+^ESCTCO533485	Congenital hydrosalpinx
+^ESCTCO776155	Contact dermatitis of female genitalia
+^ESCTCR666439	Crohn's disease of vulva
+^ESCTCR666441	Crohn disease of vulva
+^ESCTCR666442	Crohn's disease of penis
+^ESCTCR666444	Crohn disease of penis
+^ESCTCR666445	Crohn's disease of scrotum
+^ESCTCR666447	Crohn disease of scrotum
+^ESCTCY478980	Cystitis in gonorrhea
+^ESCTDE372910	Decidual endometritis
+^ESCTDE803402	Desquamative inflammatory vaginitis
+^ESCTEL435375	Elephantiasis vulvae
+^ESCTEM263778	Emphysematous vaginitis
+^ESCTEN572131	Endometritis, excluding cervix
+^ESCTEP479062	Epididymitis associated with another disorder
+^ESCTEP479064	Epididymo-orchitis associated with another disorder
+^ESCTER647557	Erosive vulvitis
+^ESCTFA311334	Failed attempted termination of pregnancy with endometritis
+^ESCTFA311335	Failed attempted abortion with endometritis
+^ESCTFA312970	Failed attempted termination of pregnancy with salpingo-oophoritis
+^ESCTFA312971	Failed attempted abortion with salpingo-oophoritis
+^ESCTFA382556	Failed attempted termination of pregnancy with salpingitis
+^ESCTFA382557	Failed attempted abortion with salpingitis
+^ESCTFE479133	Female pelvic inflammation
+^ESCTFE563886	Female pelvic cellulitis
+^ESCTFE783281	Female pelvic inflammatory disease caused by Mycoplasma genitalium
+^ESCTFI327912	Fibromatous periorchitis
+^ESCTFO357301	Follicular salpingitis
+^ESCTFO417106	Follicular cervicitis
+^ESCTFO733432	Foreign body granuloma of penis
+^ESCTGA693778	Gardnerella vaginitis
+^ESCTGA693779	Gardnerella infection
+^ESCTGA693780	Gardnerella vaginalis infection
+^ESCTGE761230	Genital tract infection in puerperium
+^ESCTGO478979	Gonococcal cystitis
+^ESCTGO479051	Gonococcal prostatitis
+^ESCTGO509742	Gonococcal urethritis
+^ESCTGO509841	Gonococcal epididymitis
+^ESCTGO509847	Gonococcal epididymo-orchitis
+^ESCTGO510260	Gonococcal salpingitis
+^ESCTGO510303	Gonococcal endometritis
+^ESCTGO510318	Gonococcal cervicitis
+^ESCTGO512135	Gonococcal lymphangitis of penis
+^ESCTGO514970	Gonococcal Skenitis
+^ESCTGO514971	Gonococcal Tysonitis
+^ESCTGO514972	Gonococcal Cowperitis
+^ESCTGO514973	Gonococcal Littritis
+^ESCTGO590144	Gonococcal seminal vesiculitis
+^ESCTGO667252	Gonococcal bartholinitis
+^ESCTGR331602	Granulomatous orchitis
+^ESCTGR349918	Granulomatous prostatitis
+^ESCTGR375385	Granular vaginitis
+^ESCTHA510363	Haematopyometra
+^ESCTHE442929	Herpetic cervicitis
+^ESCTHE510364	Hematopyometra
+^ESCTIN265464	Inflammation of prostate
+^ESCTIN296270	Inflammatory disease of the uterus
+^ESCTIN299645	Inflammation of vagina
+^ESCTIN310576	Inflammatory disease of the cervix
+^ESCTIN325148	Inflammation of ovary and fallopian tube
+^ESCTIN373689	Inflammation of ovary
+^ESCTIN393251	Inflammation of fallopian tube
+^ESCTIN510305	Intrauterine candidosis
+^ESCTIN510325	Infective vaginitis
+^ESCTIN556554	Inflammation of testis
+^ESCTIN562692	Infective vulvitis
+^ESCTIN574824	Inflammation of clitoris
+^ESCTIN574843	Inflammation of vaginal wall
+^ESCTIN601388	Infective epididymo-orchitis
+^ESCTIN601391	Infective orchitis
+^ESCTIN601392	Infective epididymitis
+^ESCTIN635012	Inflammation of penis
+^ESCTIN666902	Inflammatory dermatosis of female genitalia
+^ESCTIN726530	Inflammatory disease of female genital structure
+^ESCTIN749857	Induced termination of pregnancy complicated by endometritis
+^ESCTIN749876	Induced termination of pregnancy complicated by parametritis
+^ESCTIN749894	Induced termination of pregnancy complicated by salpingitis
+^ESCTIN749896	Induced termination of pregnancy complicated by salpingo-oophoritis
+^ESCTIN932283	Inflammation of cervix in pregnancy
+^ESCTIR776154	Irritant contact dermatitis of female genitalia
+^ESCTLI666247	Lichen simplex of vulva
+^ESCTLI668168	Lichen sclerosus-associated vulval intraepithelial neoplasia
+^ESCTLI785619	Lichen simplex of male genitalia
+^ESCTLY417107	Lymphofollicular cervicitis
+^ESCTME274380	Metritis
+^ESCTME389917	Metroperitonitis
+^ESCTMI262606	Miscarriage with salpingitis
+^ESCTMI299660	Miscarriage with endometritis
+^ESCTMI350022	Miscarriage with salpingo-oophoritis
+^ESCTMI386535	Miscarriage with parametritis
+^ESCTMO368651	Monilial infection of vagina
+^ESCTMO479052	Monilial prostatitis
+^ESCTMO622159	Mondor's phlebitis of the penis
+^ESCTMO622160	Mondor phlebitis of the penis
+^ESCTMU361285	Mucopurulent vaginitis
+^ESCTMU372853	Mumps oophoritis
+^ESCTMU509846	Mumps epididymo-orchitis
+^ESCTMY552511	Mycoplasmal pelvic inflammatory disease
+^ESCTMY783282	Mycoplasma genitalium pelvic inflammatory disease
+^ESCTNE512114	Necrotising fasciitis of scrotum and perineum
+^ESCTNE512115	Necrotizing fasciitis of scrotum and perineum
+^ESCTNO308713	Non-venereal sclerosing lymphangitis of penis
+^ESCTNO331601	Non-specific granulomatous orchitis
+^ESCTNO509736	Non-bacterial prostatitis
+^ESCTNO556553	Non-specific orchitis
+^ESCTNO647558	Noma vulvae
+^ESCTNO694263	Nonspecific vaginitis
+^ESCTNO707207	Nongonococcal cervicitis
+^ESCTNS694262	NSV - Nonspecific vaginitis
+^ESCTOR479060	Orchitis associated with another disorder
+^ESCTPE273499	Penile cellulitis
+^ESCTPE389916	Perimetritis
+^ESCTPE475619	Pelvic inflammation with female sterility due to Chlamydia trachomatis
+^ESCTPE475620	Pelvic inflammation with female sterility caused by Chlamydia trachomatis
+^ESCTPE510274	Pelvic lymphangitis
+^ESCTPE551756	Pelvic inflammatory disease due to Mycoplasma hominis
+^ESCTPE551757	Pelvic inflammatory disease caused by Mycoplasma hominis
+^ESCTPE666443	Penile Crohn's disease
+^ESCTPE668164	Penile sclerosing lipogranuloma
+^ESCTPE689505	Penile sclerosing lipogranuloma due to injected substance
+^ESCTPE689506	Penile sclerosing lipogranuloma caused by injected substance
+^ESCTPH647561	Phlegmonous vulvitis
+^ESCTPI510258	PID - Acute pelvic inflammatory disease
+^ESCTPL512798	Plasma cell vulvitis
+^ESCTPN263779	Pneumatosis vaginalis
+^ESCTPO272956	Postirradiation vaginitis
+^ESCTPO272957	Post-irradiation vaginitis
+^ESCTPO751076	Postabortal pelvic inflammatory disease
+^ESCTPO783681	Postprocedural acute female pelvic inflammatory disease
+^ESCTPR417100	Proliferative vasitis nodosa
+^ESCTPR510328	Prepubertal vaginitis
+^ESCTPR781359	Prepubertal lichen sclerosus of vulva
+^ESCTPR808582	Prostatitis caused by bacteria
+^ESCTPS666361	Psoriasis of vulva
+^ESCTPU269194	Puerperal pelvic cellulitis
+^ESCTPV510327	PV - Vaginal infection
+^ESCTPY293979	Pyocolpos
+^ESCTPY394618	Pyometrium
+^ESCTPY659317	Pyosalpingitis
+^ESCTRE762889	Recurrent candidiasis of vagina
+^ESCTSA325147	Salpingo-oophoritis
+^ESCTSA325149	Salpingitis and oophoritis
+^ESCTSA668172	Salivary vulvitis
+^ESCTSA932402	Salpingitis due to ectopic pregnancy
+^ESCTSA932562	Salpingo-oophoritis in pregnancy
+^ESCTSC574793	Scalling of vulva
+^ESCTSC622161	Sclerosing lymphangitis of penis
+^ESCTSC666446	Scrotal Crohn's disease
+^ESCTSE335033	Senile atrophic vaginitis
+^ESCTSE335035	Senile vaginitis
+^ESCTSE668171	Seminal vulvitis
+^ESCTSK345875	Skene's gland adenitis
+^ESCTSK345877	Skene gland adenitis
+^ESCTSP262607	Spontaneous abortion with salpingitis
+^ESCTSP293223	Spermatocystitis
+^ESCTSP299661	Spontaneous abortion with endometritis
+^ESCTSP350023	Spontaneous abortion with salpingo-oophoritis
+^ESCTSP386536	Spontaneous abortion with parametritis
+^ESCTSP709348	Sperm granuloma
+^ESCTST372829	Streptococcal cervicitis
+^ESCTSU932187	Subacute vaginitis
+^ESCTSY479049	Syphilitic prostatitis
+^ESCTSY667227	Syphilitic chancre of penis
+^ESCTSY667228	Syphilitic chancre of vulva
+^ESCTTE405931	Testicular abscess
+^ESCTTE749858	Termination of pregnancy complicated by endometritis
+^ESCTTE749877	Termination of pregnancy complicated by parametritis
+^ESCTTE749895	Termination of pregnancy complicated by salpingitis
+^ESCTTE749897	Termination of pregnancy complicated by salpingo-oophoritis
+^ESCTTR284928	Trichomonal cervicitis
+^ESCTTR310577	Trachelitis
+^ESCTTR510341	Trichomonal vulvitis
+^ESCTTR559193	Trichomonal leukorrhoea vaginalis
+^ESCTTR559194	Trichomonal leukorrhea vaginalis
+^ESCTTR559195	Trichomonal fluor vaginalis
+^ESCTTR708528	Trichomonal vaginitis in pregnancy
+^ESCTTU270621	Tuberculosis of seminal vesicle
+^ESCTTU325146	Tubo-ovarian inflammatory disease
+^ESCTTU330213	Tuberculosis (TB) salpingitis
+^ESCTTU345770	Tubo ovarian abscess
+^ESCTTU352120	Tuberculosis (TB) of uterine cervix
+^ESCTTU386111	Tuberculosis of epididymis
+^ESCTTU386112	Tuberculous epididymitis
+^ESCTTU509845	Tuberculous epididymo-orchitis
+^ESCTUL707875	Ulcerative mucositis of vagina
+^ESCTUL708477	Ulcerative mucositis of cervix
+^ESCTUL803131	Ulcerative mucositis of vulva
+^ESCTUT296271	Uterine inflammatory disease
+^ESCTUT301534	Uterus - chronic gonorrhea
+^ESCTUT356157	Uterus - acute gonorrhea
+^ESCTUT371842	Uterine abscess
+^ESCTUT510304	Uterine candidiasis
+^ESCTVA368647	Vaginal candidiasis
+^ESCTVA368649	Vaginal candidosis
+^ESCTVA368650	Vaginal candida
+^ESCTVA479171	Vaginitis associated with another disorder
+^ESCTVA510326	Vaginal infection
+^ESCTVA559192	Vaginal trichomoniasis
+^ESCTVA693781	Vaginitis due to Gardnerella vaginalis
+^ESCTVA708564	Vaginitis in pregnancy
+^ESCTVE299710	Vestibulodynia
+^ESCTVU256328	Vulvitis circumscripta plasmacellularis
+^ESCTVU299708	Vulvar vestibulitis
+^ESCTVU479173	Vulvitis associated with another disorder
+^ESCTVU479181	Vulvar boil
+^ESCTVU479182	Vulval boil
+^ESCTVU647559	Vulval cellulitis
+^ESCTVU647560	Vulvar cellulitis
+^ESCTVU666238	Vulval eczema
+^ESCTVU666239	Vulval dermatitis
+^ESCTVU666362	Vulval psoriasis
+^ESCTVU666440	Vulval Crohn's disease
+^ESCTVU667049	Vulval hidradenitis suppurativa
+^ESCTVU668167	Vulval intraepithelial neoplasia with lichen sclerosus
+^ESCTVU668308	Vulval lichen sclerosus, childhood form
+^ESCTVU781997	Vulvitis caused by chemical
+^ESCTXA784730	Xanthogranulomatous salpingitis
+EGTON42	Chlamydial genital infection
+EMISNQPU11	Purulent cervicitis

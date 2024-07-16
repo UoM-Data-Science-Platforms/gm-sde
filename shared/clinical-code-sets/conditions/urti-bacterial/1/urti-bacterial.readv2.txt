@@ -1,0 +1,210 @@
+H03..00	Acute tonsillitis
+H01..11	Sinusitis
+F52z.00	Otitis media NOS
+F540.00	Acute myringitis without otitis media
+A341.11	Scarlet fever
+A32..00	Diphtheria
+A33..00	Whooping cough
+H043z00	Acute epiglottitis NOS
+H15..11	Quinsy
+H01..00	Acute sinusitis
+F528.00	Acute bilateral otitis media
+H041.00	Acute tracheitis
+H042.11	Laryngotracheitis
+F52z.11	Infection ear
+H037.00	Recurrent acute tonsillitis
+A340.00	Streptococcal sore throat
+H03..12	Tonsillitis
+F520.00	Acute suppurative otitis media
+F53z.00	Mastoiditis NOS
+A341.12	Scarlatina
+H15..00	Peritonsillar abscess - quinsy
+F526.00	Acute left otitis media
+A330.00	Bordetella pertussis
+H031.00	Acute follicular tonsillitis
+F527.00	Acute right otitis media
+A340200	Streptococcal pharyngitis
+AA1..00	Vincent's angina
+F510011	Acute secretory otitis media
+F531.00	Chronic mastoiditis
+F51..00	Nonsuppurative otitis media + eustachian tube disorders
+F510.00	Acute non suppurative otitis media
+A552.00	Postmeasles otitis media
+F511.00	Chronic otitis media with effusion, serous
+7531100	Drainage of peritonsillar abscess
+2DB5.11	O/E - quinsy present
+H010.00	Acute maxillary sinusitis
+2DB6.00	O/E - follicular tonsillitis
+65VA.00	Notification of whooping cough
+F510100	Acute serous otitis media
+65V7.00	Notification of scarlet fever
+7531111	Drainage of quinsy
+A341.00	Scarlet fever - scarlatina
+H011.00	Acute frontal sinusitis
+H032.00	Acute ulcerative tonsillitis
+A340300	Streptococcal tonsillitis
+F541.00	Chronic myringitis without mention of otitis media
+F525.00	Recurrent acute otitis media
+H042.00	Acute laryngotracheitis
+H035.00	Acute bacterial tonsillitis
+H043.00	Acute epiglottitis (non strep)
+F520000	Acute suppurative otitis media tympanic membrane intact
+F530z00	Acute mastoiditis NOS
+F53..00	Mastoiditis and related conditions
+H03..11	Throat infection - tonsillitis
+H030.00	Acute erythematous tonsillitis
+H1y2200	Parapharyngeal abscess
+H041000	Acute tracheitis without obstruction
+H1y2600	Pharynx or nasopharynx abscess
+F531z00	Chronic mastoiditis NOS
+F524.00	Purulent otitis media NOS
+H012.00	Acute ethmoidal sinusitis
+A331.00	Bordetella parapertussis
+H035z00	Acute bacterial tonsillitis NOS
+F510300	Acute sanguinous otitis media
+AA1z.11	Vincent's laryngitis
+A34z.00	Streptococcal sore throat with scarlatina NOS
+AA1..11	Trench mouth
+A340z00	Streptococcal sore throat NOS
+H041z00	Acute tracheitis NOS
+A340100	Streptococcal laryngitis
+AA1z.12	Vincent's tonsillitis
+H023.00	Acute bacterial pharyngitis
+F510000	Acute otitis media with effusion
+H010.11	Antritis - acute
+H01y000	Acute pansinusitis
+H03z.00	Acute tonsillitis NOS
+F520z00	Acute suppurative otitis media NOS
+F510z00	Acute nonsuppurative otitis media NOS
+F520100	Acute suppurative otitis media tympanic membrane ruptured
+F524000	Bilateral suppurative otitis media
+AA11.00	Vincent's gingivitis
+F510200	Acute mucoid otitis media
+A340000	Streptococcal angina
+H042z00	Acute laryngotracheitis NOS
+2DB5.00	O/E - tonsils - quinsy present
+F511.11	Chronic secretory otitis media, serous
+H1y2100	Pharynx or nasopharynx cellulitis
+H042000	Acute laryngotracheitis without obstruction
+H1y2300	Retropharyngeal abscess
+F530.12	Empyema of mastoid
+7423200	Incision of retropharyngeal abscess
+H023100	Acute staphylococcal pharyngitis
+H01y.00	Other acute sinusitis
+F530.11	Abscess of mastoid
+7426100	Drainage of retropharyngeal abscess
+AA12.00	Vincent's pharyngitis
+H01z.00	Acute sinusitis NOS
+H1y7500	Abscess of larynx
+H14y600	Lingular tonsillitis
+AA10.00	Vincent's stomatitis
+H033.00	Acute catarrhal tonsillitis
+F530.00	Acute mastoiditis
+H013.00	Acute sphenoidal sinusitis
+F531100	Post aural mastoid fistula
+A322.00	Anterior nasal diphtheria
+F53y000	Postauricular fistula
+F53y.00	Other mastoid disorders
+A32y.00	Other specified diphtheria
+A33z.00	Whooping cough NOS
+H040400	Acute haemophilus influenzae laryngitis
+F53y100	Other mastoid disorder NOS
+H043100	Acute epiglottitis with obstruction
+F530000	Acute mastoiditis without complications
+F530200	Gradenigo's syndrome
+A32z.00	Diphtheria NOS
+F530100	Subperiosteal mastoid abscess
+A986.00	Gonococcal pharynx infection
+H1yz000	Abscess of trachea
+H040x00	Acute bacterial laryngitis unspecified
+H023z00	Acute bacterial pharyngitis NOS
+FyuP200	[X]Other chronic suppurative otitis media
+A33y.00	Whooping cough - other specified organism
+A34..00	Streptococcal sore throat and scarlatina
+A321.00	Nasopharyngeal diphtheria
+F531000	Caries of mastoid
+H035000	Acute pneumococcal tonsillitis
+A383000	Fusobacterial necrotising tonsillitis
+H034.00	Acute gangrenous tonsillitis
+H01yz00	Other acute sinusitis NOS
+F520300	Acute suppurative otitis media due to disease EC
+A33y000	Bordetella bronchiseptica
+Hyu2200	[X]Other chronic sinusitis
+A33yz00	Other whooping cough NOS
+H035100	Acute staphylococcal tonsillitis
+H043000	Acute epiglottitis without obstruction
+H041100	Acute tracheitis with obstruction
+H042100	Acute laryngotracheitis with obstruction
+AA1z.00	Vincent's angina NOS
+FyuP500	[X]Otitis media in other diseases classified elsewhere
+Hyu0200	[X]Acute tonsillitis due to other specified organisms
+F530300	Acute mastoiditis with other complication
+H023000	Acute pneumococcal pharyngitis
+H014.00	Acute rhinosinusitis
+FyuP700	[X]Other mastoiditis and related conditions
+A323.00	Laryngeal diphtheria
+Hyu0000	[X]Other acute sinusitis
+A122000	Isolated tracheal tuberculosis
+A12y300	Tuberculosis of nasal sinus
+A154.00	Tuberculous mastoiditis
+A32yz00	Other specified diphtheria NOS
+Ayu3700	[X]Other diphtheria
+Ayu3800	[X]Diphtheria, unspecified
+Ayu3900	[X]Whooping cough due to other Bordetella species
+Ayu3A00	[X]Whooping cough, unspecified
+Ayu5500	[X]Other Vincent's infections
+F511000	Chronic tubotympanic catarrh
+F511100	Serosanguinous chronic otitis media
+F511200	Bilateral chronic serous otitis
+F511300	Unilateral chronic serous otitis
+F511z00	Chronic serous otitis media NOS
+F512.00	Chronic otitis media with effusion, mucoid
+F512000	Glue ear, unspecified
+F512100	Mucosanguinous chronic otitis media
+F512z00	Chronic mucoid otitis media NOS
+F513.00	Chronic otitis media with effusion, other
+F513100	Chronic otitis media with effusion, purulent
+F513z00	Other chronic nonsuppurative otitis media NOS
+F514.00	Unspecified nonsuppurative otitis media
+F514100	Serous otitis media NOS
+F514200	Catarrhal otitis media NOS
+F514300	Mucoid otitis media NOS
+F514z00	Nonsuppurative otitis media NOS
+F515.00	Eustachian tube salpingitis
+F515000	Unspecified eustachian tube salpingitis
+F515100	Acute eustachian tube salpingitis
+F515200	Chronic eustachian tube salpingitis
+F515z00	Eustachian tube salpingitis NOS
+F518.00	Chronic otitis media with effusion, unspecified
+F52..00	Suppurative and unspecified otitis media
+F521.00	Chronic suppurative otitis media, tubotympanic
+F522.00	Chronic suppurative otitis media, atticoantral
+F523.00	Chronic suppurative otitis media NOS
+F540100	Unspecified acute tympanitis
+F540200	Bullous myringitis
+F540z00	Acute myringitis NOS
+F543.00	Tympanic atelectasis
+F551.00	Adhesive middle ear disease
+F551000	Unspecified adhesive middle ear disease
+F551100	Adhesions drum head to incus
+F551200	Adhesions drum head to stapes
+F551300	Adhesions drum head to promontory
+F551z00	Adhesive middle ear disease NOS
+F55y000	Cholesterol granuloma
+FyuP000	[X]Other acute nonsuppurative otitis media
+FyuP100	[X]Other chronic nonsuppurative otitis media
+FyuPD00	[X]Mastoiditis in infectious and parasitic diseases classified elsewhere
+FyuU600	[X]Other disorders following mastoidectomy
+H044.00	Croup
+H060500	Acute tracheobronchitis
+H13..00	Chronic sinusitis
+H13y.00	Other chronic sinusitis
+H13yz00	Other chronic sinusitis NOS
+H13z.00	Chronic sinusitis NOS
+H16..00	Chronic laryngitis and laryngotracheitis
+H161.00	Chronic laryngotracheitis
+H300.00	Tracheobronchitis NOS
+H301.00	Laryngotracheobronchitis
+H31y000	Chronic tracheitis
+H31y100	Chronic tracheobronchitis
+H0405	Acute pneumococcal laryngitis

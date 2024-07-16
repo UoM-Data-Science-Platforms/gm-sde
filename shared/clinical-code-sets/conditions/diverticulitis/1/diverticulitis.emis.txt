@@ -1,0 +1,51 @@
+^ESCT1165697	Diverticulitis of intestine
+^ESCT1182314	Perforation and abscess of small intestine co-occurrent and due to diverticulitis
+^ESCT1185119	Perforation and abscess co-occurrent and due to diverticular disease of both small and large intestine
+^ESCT1185120	Perforation and abscess with diverticular disease of small and large intestine
+^ESCT1187644	Abscess of colon co-occurrent and due to diverticular disease of colon
+^ESCT1187645	Abscess with diverticular disease of colon
+^ESCT1369064	Abscess of caecum co-occurrent and due to diverticulitis
+^ESCT1369065	Diverticulitis of caecum with abscess
+^ESCT1369066	Diverticulitis of jejunum with perforation
+^ESCT1369067	Perforation of jejunum co-occurrent and due to diverticulitis
+^ESCTAB846452	Abscess of duodenum co-occurrent and due to diverticulitis
+^ESCTAB846463	Abscess of ileum co-occurrent and due to diverticulitis
+^ESCTAB846470	Abscess of jejunum co-occurrent and due to diverticulitis
+^ESCTAB846476	Abscess of sigmoid colon co-occurrent and due to diverticulitis
+^ESCTBL730377	Bleeding Meckel's diverticulitis
+^ESCTBL730378	Bleeding Meckel diverticulitis
+^ESCTCO508537	Colonic diverticular abscess
+^ESCTCO782076	Congenital diverticulitis of small intestine
+^ESCTDI304453	Diverticulitis of duodenum
+^ESCTDI359179	Diverticulitis of ileum
+^ESCTDI375114	Diverticulitis of colon with perforation
+^ESCTDI552390	Diverticulitis of gastrointestinal tract
+^ESCTDI708069	Diverticulitis of sigmoid colon
+^ESCTDI708070	Diverticulitis of sigmoid
+^ESCTDI711881	Diverticulitis of caecum
+^ESCTDI711882	Diverticulitis of cecum
+^ESCTDI712796	Diverticulitis of rectosigmoid
+^ESCTDI712797	Diverticulitis of rectum
+^ESCTDI783699	Diverticulitis of small intestine with complication
+^ESCTDI783700	Diverticulitis of small intestine without complication
+^ESCTDI795456	Diverticulitis of small intestine with perforation and abscess
+^ESCTDI795468	Diverticulitis of large intestine with complication
+^ESCTDI795469	Diverticulitis of large intestine without complication
+^ESCTDI846491	Diverticulitis of small and large intestine with perforation
+^ESCTHA846494	Haemorrhage of small intestine due to diverticulitis
+^ESCTHE846495	Hemorrhage of small intestine due to diverticulitis
+^ESCTME328044	Meckel's diverticulitis
+^ESCTME328045	Meckel diverticulitis
+^ESCTPE783711	Perforation and abscess of large intestine co-occurrent and due to diverticulitis
+^ESCTPE783712	Perforation and abscess of large intestine due to diverticulitis
+^ESCTPE846444	Perforation of caecum due to diverticulitis
+^ESCTPE846445	Perforation of cecum due to diverticulitis
+^ESCTPE846461	Perforation of duodenum due to diverticulitis
+^ESCTPE846468	Perforation of ileum due to diverticulitis
+^ESCTPE846483	Perforation of sigmoid colon due to diverticulitis
+^ESCTPE846492	Perforation of large and small intestine due to diverticulitis
+^ESCTPE846498	Perforation of small intestine co-occurrent with haemorrhage due to diverticulitis
+^ESCTPE846499	Perforation of small intestine co-occurrent with hemorrhage due to diverticulitis
+^ESCTPE846501	Perforation of small intestine due to diverticulitis
+^ESCTPE846507	Perforation of intestine due to diverticulitis of gastrointestinal tract
+^ESCTPH253200	Pharyngeal diverticulitis

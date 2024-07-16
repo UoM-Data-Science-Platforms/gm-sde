@@ -1,0 +1,364 @@
+70040	Drainage of abscess of brain tissue
+70341	Evacuation of intracranial subdural abscess
+A055.	Amoebic brain abscess
+A13..	Tuberculosis of meninges and central nervous system
+A1300	Tuberculosis of cerebral meninges
+A1301	Tuberculosis of spinal meninges
+A1302	Tuberculous leptomeningitis
+A1303	Tuberculous meningoencephalitis
+A130z	Tuberculous meningitis NOS
+A131.	Tuberculoma of meninges
+A132.	Tuberculoma of brain
+A133.	Tuberculous abscess of brain
+A136.	Tuberculous encephalitis or myelitis
+A1361	Tuberculous myelitis
+A136z	Tuberculous encephalitis or myelitis NOS
+A13y.	Other specified tuberculosis of central nervous system
+A13z.	Tuberculosis of central nervous system NOS
+A206.	Plague meningitis
+A2703	Listerial cerebral arteritis
+A36y0	Meningococcal optic neuritis
+A4...	Poliomyelitis and other non-arthropod-borne viral diseases of central nervous system
+A40..	Acute poliomyelitis
+A400.	Acute paralytic bulbar poliomyelitis
+A401.	Acute paralytic non-bulbar poliomyelitis
+A402.	Acute non-paralytic poliomyelitis
+A403.	Acute paralytic poliomyelitis, unspecified
+A4030	Acute paralytic poliomyelitis, vaccine-associated
+A4031	Acute paralytic poliomyelitis, wild virus, imported
+A4032	Acute paralytic poliomyelitis, wild virus, indigenous
+A40z.	Acute poliomyelitis NOS
+A41..	Slow viral central nervous system infection
+A410.	Kuru
+A411.	Creutzfeldt-Jakob disease
+A413.	Progressive multifocal leucoencephalopathy
+A41y.	Other slow virus central nervous system infections
+A41z.	Slow virus central nervous system infection NOS
+A42..	Enteroviral meningitis
+A42y.	Other specified viral meningitis
+A4z..	Other and unspecified non-arthropod-borne viral diseases of central nervous system
+A4z0.	Lymphocytic choriomeningitis
+A4z1.	Adenoviral meningitis
+A4zy.	Other specified non-arthropod-borne viral diseases of the central nervous system
+A4zy1	Acute necrotising viral encephalitis
+A4zy2	Epidemic encephalitis
+A4zy3	Encephalitis lethargica
+A4zyz	Other specified non-arthropod-borne viral diseases of the central nervous system NOS
+A520.	Postvaricella encephalitis
+A553.	Measles complicated by meningitis
+A5601	Rubella encephalomyelitis
+A62..	Mosquito-borne viral encephalitis
+A620.	Japanese B encephalitis
+A621.	Western equine encephalitis
+A622.	Eastern equine encephalitis
+A623.	Saint Louis encephalitis
+A624.	Murray Valley encephalitis
+A63..	Tick-borne viral encephalitis
+A630.	Russian spring-summer encephalitis
+A632.	Central European tick-borne encephalitis
+A63y0	Langat encephalitis
+A6637	Oropouche fever
+A8400	Plasmodium falciparum malaria with cerebral complications
+A904.	Juvenile neurosyphilis
+A9040	Unspecified juvenile neurosyphilis
+A9041	Congenital syphilitic encephalitis
+A904z	Juvenile neurosyphilis NOS
+A9180	Acute secondary syphilitic meningitis
+A94..	Neurosyphilis
+A943.	Asymptomatic neurosyphilis
+A94y.	Other specified neurosyphilis
+A94y0	Syphilitic encephalitis
+A94y1	Syphilitic parkinsonism
+A94y3	Syphilitic optic atrophy
+A94y4	Syphilitic retrobulbar neuritis
+A94yz	Other specified neurosyphilis NOS
+A94z.	Neurosyphilis NOS
+AA0y0	Leptospiral meningitis
+AB2y2	Candidal meningitis
+AB32.	Coccidioidal meningitis
+AB401	Histoplasma capsulatum with meningitis
+AB411	Histoplasma duboisii with meningitis
+AB4z1	Histoplasmosis with meningitis
+AB621	Phaeohyphomycotic brain abscess
+AB654	Cerebral cryptococcosis
+AB671	Rhinocerebral mucormycosis
+AC310	Cysticercosis of central nervous system
+Ayu15	[X]Tuberculosis of nervous system, unspecified
+Ayu47	[X]Neurosyphilis, unspecified
+Ayu8.	[X]Viral infections of the central nervous system
+Ayu80	[X]Acute paralytic poliomyelitis, other and unspecified
+Ayu81	[X]Acute poliomyelitis, unspecified
+Ayu82	[X]Other slow virus infections of central nervous system
+Ayu83	[X]Slow virus infection of central nervous system, unspecified
+Ayu84	[X]Rabies, unspecified
+Ayu87	[X]Other tick-borne viral encephalitis
+Ayu8A	[X]Other specified viral encephalitis
+Ayu8B	[X]Unspecified viral encephalitis
+Ayu8C	[X]Other viral meningitis
+Ayu8D	[X]Viral meningitis, unspecified
+Ayu8E	[X]Other specified viral infections of the central nervous system
+Ayu8F	[X]Unspecified viral infection of the central nervous system
+E0301	Acute confusional state, of infective origin
+E0311	Subacute confusional state, of infective origin
+F00..	Bacterial meningitis
+F000.	Haemophilus meningitis
+F001.	Pneumococcal meningitis
+F002.	Streptococcal meningitis
+F003.	Staphylococcal meningitis
+F004.	Tuberculous meningitis
+F005.	Meningococcal meningitis
+F007.	Meningitis in other bacterial disease classified elsewhere
+F0070	Gonococcal meningitis
+F0071	Listeria meningitis
+F0072	Meningitis due to neurosyphilis
+F0073	Salmonella meningitis
+F0074	Congenital syphilitic meningitis
+F0075	Secondary syphilitic meningitis
+F0076	Meningitis due to typhoid fever
+F0077	Actinomycotic meningitis
+F0078	Meningitis due to pertussis
+F007z	Unspecified meningitis in bacterial disease EC
+F00y.	Other specified bacterial meningitis
+F00y0	Aerobacter meningitis
+F00y1	Meningitis due to bacillus pyocyaneus
+F00y2	Escherichia coli meningitis
+F00y3	Meningitis due to Friedlander bacillus
+F00y4	Klebsiella meningitis
+F00y5	Morganella morganii meningitis
+F00y6	Pseudomonas meningitis
+F00yz	Other specified bacterial meningitis NOS
+F00z.	Bacterial meningitis NOS
+F01..	Meningitis due to other organisms
+F010.	Fungal meningitis
+F0100	Cryptococcal meningitis
+F010z	Other fungal meningitis
+F011.	Meningitis due to viral organisms EC
+F0110	Coxsackie viral meningitis
+F0111	Echovirus meningitis
+F0112	Meningitis due to herpes zoster virus
+F0113	Herpes simplex meningitis
+F0114	Mumps meningitis
+F011y	Other viral meningitis
+F012.	Meningitis due to trypanosomiasis
+F013.	Sarcoid meningitis
+F01y.	Other non-bacterial meningitis
+F01yz	Other non-bacterial meningitis NOS
+F01z.	Meningitis due to organism NOS
+F02..	Meningitis of unspecified cause
+F020.	Non-pyogenic meningitis
+F021.	Chronic eosinophilic meningitis
+F022.	Chronic meningitis
+F023.	Arachnoiditis
+F02z.	Unspecified meningitis
+F030.	Encephalitis in viral disease EC
+F0301	Subacute sclerosing panencephalitis
+F0302	Polioencephalitis
+F0303	Arbovirus encephalitis
+F0305	Mumps encephalitis
+F0306	Rubella encephalitis
+F030z	Encephalitis in viral disease NOS
+F031.	Encephalitis due to rickettsia EC
+F032.	Encephalitis due to protozoa EC
+F0320	Malarial encephalitis
+F0321	Trypanosomiasis encephalitis
+F032z	Encephalitis due to protozoa EC NOS
+F033.	Encephalitis due to other infection EC
+F0330	Meningococcal encephalitis
+F0332	Encephalitis due to syphilis unspecified
+F0333	Tuberculous encephalitis
+F0334	Toxoplasma encephalitis
+F033z	Unspecified encephalitis due to other infection EC
+F034.	Post-immunisation encephalitis
+F0340	Post BCG vaccination encephalitis
+F0341	Post typhoid vaccination encephalitis
+F0342	Post paratyphoid vaccination encephalitis
+F0345	Post tetanus vaccination encephalitis
+F0347	Post pertussis vaccination encephalitis
+F0348	Post smallpox vaccination encephalitis
+F034A	Post typhus vaccination encephalitis
+F034B	Post yellow fever vaccination encephalitis
+F034C	Post measles vaccination encephalitis
+F034D	Post polio vaccination encephalitis
+F034E	Post mumps vaccination encephalitis
+F034G	Post influenza vaccination encephalitis
+F034H	Post hepatitis A vaccination encephalitis
+F034J	Post hepatitis B vaccination encephalitis
+F034x	Post mixed vaccination encephalitis
+F034y	Post other specified vaccination encephalitis
+F034z	Post-immunisation encephalitis NOS
+F035.	Post-infectious encephalitis
+F0350	Varicella encephalitis
+F0351	Post-measles encephalitis
+F035z	Post-infectious encephalitis NOS
+F037.	Transverse myelitis
+F04..	Intracranial and intraspinal abscesses
+F0400	Cerebral intracranial abscess
+F0401	Cerebellar intracranial abscess
+F0402	Otogenic intracranial abscess
+F0404	Epidural intracranial abscess
+F0405	Subdural intracranial abscess
+F0406	Tuberculous intracranial abscess
+F040z	Intracranial abscess NOS
+F041.	Intraspinal abscess
+F0410	Epidural intraspinal abscess
+F0412	Subdural intraspinal abscess
+F041z	Intraspinal abscess NOS
+F04z.	Intracranial or intraspinal abscess NOS
+F212.	Acute and subacute haemorrhagic leukoencephalitis [Hurst]
+F28y1	Cerebral fungus
+Fyu00	[X]Other bacterial meningitis
+Fyu01	[X]Meningitis in viral diseases classified elsewhere
+Fyu02	[X]Meningitis in mycoses classified elsewhere
+Fyu03	[X]Meningitis in other specified infectious and parasitic diseases classified elsewhere
+Fyu04	[X]Meningitis due to other specified causes
+Fyu05	[X]Bacterial meningoencephalitis and meningomyelitis, not elsewhere classified
+Fyu06	[X]Other encephalitis, myelitis and encephalomyelitis
+Fyu07	[X]Encephalitis, myelitis and encephalomyelitis in bacterial diseases classified elsewhere
+Fyu08	[X]Encephalitis, myelitis and encephalomyelitis in viral diseases classified elsewhere
+Fyu0B	[X]Intracranial and intraspinal abscess and granuloma in diseases classified elsewhere
+Fyu0D	[X]Extradural and subdural abscess, unspecified
+H27y0	Influenza with encephalopathy
+X000d	Viral ventriculitis
+X000e	Bacterial ventriculitis
+X000f	Fungal ventriculitis
+X000g	Malignant ventriculitis
+X000h	Encephalitis
+X000H	Meningitis
+X000i	Acute viral encephalitis
+X000j	Enteroviral encephalitis
+X000J	Coxsackie A viral meningitis
+X000K	Coxsackie B viral meningitis
+X000l	Mosquito-borne alphavirus encephalitis
+X000L	Chronic echovirus meningoencephalitis
+X000M	Postmeasles meningitis
+X000n	Mosquito-borne flavivirus encephalitis
+X000o	Ilheus virus encephalitis
+X000p	Rocio virus encephalitis
+X000P	Staphylococcus aureus meningitis
+X000q	Mosquito-borne bunyavirus encephalitis
+X000Q	Staphylococcus epidermidis meningitis
+X000r	La Crosse encephalitis
+X000R	Meningitis in Lyme disease
+X000T	Late congenital syphilitic meningitis
+X000u	Tensaw encephalitis
+X000V	Parasitic meningitis
+X000w	Negishi virus encephalitis
+X000x	Kumlinge virus encephalitis
+X000z	Thogoto fever
+X000Z	Benign recurrent endothelioleucocytic meningitis
+X0010	Tick-borne orbivirus encephalitis
+X0012	Rhabdovirus encephalitis
+X0013	Cytomegaloviral encephalitis
+X0014	Infectious mononucleosis encephalitis
+X0015	Adenoviral encephalitis
+X0016	Herpes zoster encephalitis
+X0017	Herpes simiae encephalitis
+X0019	Chronic viral encephalitis
+X001a	Varicella transverse myelitis
+X001B	Human immunodefiency virus encephalitis
+X001C	Human immunodefiency virus leucoencephalopathy
+X001D	Progressive rubella panencephalitis
+X001E	Bacterial encephalitis
+X001f	Tropical spastic paraplegia
+X001F	Encephalitis in listeriosis
+X001g	Spastic paraplegia associated with human T-cell lymphotropic virus - 1 infection
+X001I	Late syphilitic encephalitis
+X001J	Fungal encephalitis
+X001L	Amoebic encephalitis
+X001m	Epidural supratentorial pyogenic abscess
+X001M	Primary amoebic encephalitis
+X001n	Epidural infratentorial pyogenic abscess
+X001N	Granulomatous amoebic encephalitis
+X001p	Subdural supratentorial pyogenic abscess
+X001q	Subdural infratentorial pyogenic abscess
+X001r	Parenchymal intracranial abscess
+X001s	Cerebral pyogenic abscess
+X001S	Rasmussen syndrome
+X001t	Actinomycotic brain abscess
+X001u	Brainstem pyogenic abscess
+X001V	Neuro - Whipple's disease
+X001W	Myelitis and encephalomyelitis
+X001X	Encephalomyelitis NOS
+X001y	Candidal brain abscess
+X001z	Cerebral hydatid cyst
+X001Z	Acute viral transverse myelitis
+X0020	Cerebral cysticercosis
+X0021	Intraspinal pyogenic abscess
+X002B	Septic thrombophlebitis of great cerebral vein
+X002X	Varicella cerebellar ataxia
+X003K	Spongiform encephalopathy
+X003L	Prion protein disease
+X003M	Gerstmann-Straussler-Scheinker syndrome
+X003N	Familial fatal insomnia
+X00B5	Diphtheritic neuropathy
+X00G6	Focal excision of brain abscess
+X702Q	Tabetic joint
+X70HV	Listeria cerebritis
+X70Ii	Legionella encephalopathy
+X70Iv	Abortive poliomyelitis
+X70Iw	Acute paralytic poliomyelitis
+X70J0	Incubating rabies
+X70J1	Rabies prodrome
+X70J2	Acute neurological rabies
+X70J3	Rabies coma
+X70J4	Rabies - recovery phase
+X70Ja	Herpes simiae infection
+X70Kt	Tick-borne orbivirus fever
+X70MA	Juvenile general paresis
+X70Mb	Tabo paresis
+X70MB	Juvenile tabes dorsalis
+X70Mc	Meningovascular syphilis - quaternary stage
+X70MC	Juvenile taboparesis
+X70MT	Secondary neurosyphilis
+X70MU	Asymptomatic secondary neurosyphilis
+X70Pc	Lyme neuroborreliosis
+X70R2	Central nervous system candidiasis
+X70Tv	Cerebral loiasis
+X70Uj	Cerebral gnathostomiasis
+Xa0An	Neonatal meningitis
+Xa1eZ	Viral encephalitis
+Xa2VM	West Russian spring-summer encephalitis
+Xa2VN	East Russian spring-summer encephalitis
+Xa3e2	Other central nervous system viral disease
+Xa3f9	Encephalitis/myelitis NOS
+Xa7pz	Syphilitic meningitis
+Xa84l	Aseptic meningitis
+Xa97b	Viral infections of the central nervous system
+Xa97c	Poliomyelitis
+Xa97d	Progressive congenital rubella encephalomyelitis
+Xa9B4	Proteus meningitis
+Xa9B5	Viral meningitis
+Xa9B9	Septic thrombophlebitis of lateral sinus
+Xa9FK	Cerebellar pyogenic abscess
+XaA1S	New variant of Creutzfeldt-Jakob disease
+XaB38	Aspiration of brain abscess
+XabVp	Sporadic Creutzfeldt-Jakob disease
+XaC1s	Encephalitis due to influenza
+XaC2H	Encephalitis due to influenza-virus identified
+XaCMf	Epidural abscess
+XaDck	Fungal central nervous system infection
+XaDmR	Infective encephalitis
+XaDmS	Infective meningitis
+XaDmT	Infective ventriculitis
+XaDsU	Tick-borne coltivirus encephalitis
+XaEI4	Myelitis
+XaEI5	Encephalomyelitis
+XaELR	Meningococcal meningitis with acute meningococcal septicaemia
+XaEYW	Meningococcal meningitis with meningococcal septicaemia
+XE0R7	Viral meningitis NOS
+XE0R8	Non-arthropod-borne viral diseases of the central nervous system NOS
+XE0RG	California viral encephalitis
+XE0RI	Viral encephalitis from other arthropods
+XE0Rj	Late congenital neurosyphilis
+XE0Rq	Late quaternary neurosyphilis
+XE0Rs	General paresis of the insane
+XE0Ta	Rabies - hydrophobia
+XE15A	Meningitis - viral NOS
+XE15B	Encephalitis, myelitis and encephalomyelitis
+XE15C	Other causes of encephalitis
+XE15D	Encephalitis NOS
+XE17V	Other meningitis NOS &/or arachnoiditis
+XE2rq	Intracranial abscess
+XE2uG	Rabies
+XM1OD	Hydrophobia
+XSCD2	Tuberculosis of central nervous system

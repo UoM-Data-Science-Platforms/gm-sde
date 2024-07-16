@@ -1,0 +1,233 @@
+65V7.	Notification of scarlet fever
+65VA.	Notification of whooping cough
+74232	Incision of retropharyngeal abscess
+74261	Drainage of retropharyngeal abscess
+75311	Drainage of peritonsillar abscess
+A1220	Isolated tracheal tuberculosis
+A12y3	Tuberculosis of nasal sinus
+A154.	Tuberculous mastoiditis
+A32..	Diphtheria
+A321.	Nasopharyngeal diphtheria
+A322.	Anterior nasal diphtheria
+A323.	Laryngeal diphtheria
+A32y.	Other specified diphtheria
+A32yz	Other specified diphtheria NOS
+A32z.	Diphtheria NOS
+A33y.	Whooping cough - other specified organism
+A33yz	Other whooping cough NOS
+A33z.	Whooping cough NOS
+A34..	Streptococcal sore throat with scarlatina
+A340.	Streptococcal sore throat
+A3400	Streptococcal angina
+A3401	Streptococcal laryngitis
+A3402	Streptococcal pharyngitis
+A3403	Streptococcal tonsillitis
+A340z	Streptococcal sore throat NOS
+A341.	Scarlet fever
+A34z.	Streptococcal sore throat with scarlatina NOS
+A552.	Postmeasles otitis media
+A986.	Gonococcal pharyngitis
+AA12.	Vincent's angina - pharyngitis
+Ayu37	[X]Other diphtheria
+Ayu38	[X]Diphtheria, unspecified
+Ayu39	[X]Whooping cough due to other Bordetella species
+Ayu3A	[X]Whooping cough, unspecified
+Ayu55	[X]Other Vincent's infections
+F51..	Non-suppurative otitis media with eustachian tube disorders
+F510.	Acute non-suppurative otitis media
+F5101	Acute non-suppurative otitis media - serous
+F5102	Acute non-suppurative otitis media - mucoid
+F5103	Acute non-suppurative otitis media - sanguinous
+F510z	Acute non-suppurative otitis media NOS
+F5110	Chronic tubotympanic catarrh
+F5111	Serosanguineous chronic otitis media
+F5112	Bilateral chronic serous otitis
+F5113	Unilateral chronic serous otitis
+F511z	Chronic serous otitis media NOS
+F512.	Otitis media with effusion &/or chronic secretory mucoid
+F5120	Glue ear, unspecified
+F5121	Mucosanguinous chronic otitis media
+F512z	Chronic mucoid otitis media NOS
+F513.	Chronic otitis media with effusion, other
+F513z	Other chronic non-suppurative otitis media NOS
+F514.	Unspecified non-suppurative otitis media
+F5141	Serous otitis media NOS
+F5142	Catarrhal otitis media NOS
+F5143	Mucoid otitis media NOS
+F514z	Non-suppurative otitis media NOS
+F5150	Unspecified eustachian tube salpingitis
+F5151	Acute eustachian tube salpingitis
+F5152	Chronic eustachian tube salpingitis
+F515z	Eustachian tube salpingitis NOS
+F518.	Chronic otitis media with effusion, unspecified
+F52..	Suppurative and unspecified otitis media
+F520.	Acute suppurative otitis media
+F5200	Acute suppurative otitis media - tympanic membrane intact
+F5201	Acute suppurative otitis media - tympanic membrane ruptured
+F5203	Acute suppurative otitis media due to disease EC
+F520z	Acute suppurative otitis media NOS
+F521.	Chronic suppurative otitis media - tubotympanic
+F522.	Chronic suppurative otitis media - atticoantral
+F523.	Chronic suppurative otitis media NOS
+F524.	Purulent otitis media NOS
+F5240	Bilateral suppurative otitis media
+F525.	Recurrent acute otitis media
+F526.	Acute left otitis media
+F527.	Acute right otitis media
+F528.	Acute bilateral otitis media
+F53..	Mastoiditis and related conditions
+F5300	Acute mastoiditis without complications
+F5301	Subperiosteal mastoid abscess
+F5302	Gradenigo syndrome
+F5303	Acute mastoiditis with other complication
+F530z	Acute mastoiditis NOS
+F531.	Chronic mastoiditis
+F5310	Caries of mastoid
+F5311	Postaural mastoid fistula
+F531z	Chronic mastoiditis NOS
+F53y.	Other mastoid disorders
+F53y1	Other mastoid disorder NOS
+F53z.	Mastoiditis NOS
+F540.	Acute myringitis without otitis media
+F5401	Unspecified acute tympanitis
+F5402	Bullous myringitis
+F540z	Acute myringitis NOS
+F541.	Chronic myringitis without otitis media
+F551.	Adhesive otitis media
+F5510	Unspecified adhesive middle ear disease
+F5511	Adhesion of tympanic membrane to incus
+F5512	Adhesion of tympanic membrane to stapes
+F5513	Adhesion of tympanic membrane to promontory
+F551z	Adhesive middle ear disease NOS
+F55y0	Cholesterol granuloma
+FyuP0	[X]Other acute non-suppurative otitis media
+FyuP1	[X]Other chronic non-suppurative otitis media
+FyuP2	[X]Other chronic suppurative otitis media
+FyuP5	[X]Otitis media in other diseases classified elsewhere
+FyuP7	[X]Other mastoiditis and related conditions
+FyuPD	[X]Mastoiditis in infectious and parasitic diseases classified elsewhere
+FyuU6	[X]Other disorders following mastoidectomy
+H010.	Acute maxillary sinusitis
+H011.	Acute frontal sinusitis
+H012.	Acute ethmoidal sinusitis
+H013.	Acute sphenoidal sinusitis
+H01y.	Other acute sinusitis
+H01y0	Acute pansinusitis
+H01yz	Other acute sinusitis NOS
+H01z.	Acute sinusitis NOS
+H023.	Acute bacterial pharyngitis
+H0230	Acute pneumococcal pharyngitis
+H0231	Acute staphylococcal pharyngitis
+H023z	Acute bacterial pharyngitis NOS
+H030.	Acute erythematous tonsillitis
+H031.	Acute follicular tonsillitis
+H032.	Acute ulcerative tonsillitis
+H033.	Acute catarrhal tonsillitis
+H034.	Acute gangrenous tonsillitis
+H035.	Acute bacterial tonsillitis
+H0350	Acute pneumococcal tonsillitis
+H0351	Acute staphylococcal tonsillitis
+H035z	Acute bacterial tonsillitis NOS
+H037.	Recurrent acute tonsillitis
+H03z.	Acute tonsillitis NOS
+H0404	Acute haemophilus influenzae laryngitis
+H040x	Acute bacterial laryngitis unspecified
+H041.	Acute tracheitis
+H0410	Acute tracheitis without obstruction
+H0411	Acute tracheitis with obstruction
+H041z	Acute tracheitis NOS
+H0420	Acute laryngotracheitis without obstruction
+H0421	Acute laryngotracheitis with obstruction
+H042z	Acute laryngotracheitis NOS
+H0430	Acute epiglottitis without obstruction
+H0431	Acute epiglottitis with obstruction
+H043z	Acute epiglottitis NOS
+H0605	Acute tracheobronchitis
+H13..	Chronic sinusitis
+H13y.	Other chronic sinusitis
+H13yz	Other chronic sinusitis NOS
+H13z.	Chronic sinusitis NOS
+H14y6	Lingular tonsillitis
+H15..	Peritonsillar abscess
+H16..	Chronic laryngitis and laryngotracheitis
+H161.	Chronic laryngotracheitis
+H1y21	Pharynx or nasopharynx cellulitis
+H1y22	Parapharyngeal abscess
+H1y23	Retropharyngeal abscess
+H1y26	Pharynx or nasopharynx abscess
+H1y75	Abscess of larynx
+H1yz0	Tracheal abscess
+H300.	Tracheobronchitis NOS
+H301.	Laryngotracheobronchitis
+H31y0	Chronic tracheitis
+H31y1	Chronic tracheobronchitis
+Hyu00	[X]Other acute sinusitis
+Hyu02	[X]Acute tonsillitis due to other specified organisms
+Hyu22	[X]Other chronic sinusitis
+X00ia	Granular myringitis
+X00ik	Otitis media
+X00ip	Acute otitis media
+X00iq	Recurrent acute suppurative otitis media
+X00ir	Recurrent acute non-suppurative otitis media
+X00is	Chronic otitis media
+X00it	Chronic suppurative otitis media
+X00iu	Chronic non-suppurative otitis media
+X00iv	Otitis media with effusion
+X00iw	Otitis media with effusion - sanguinous
+X00ix	Chronic non-suppurative otitis media without effusion
+X00iz	Tympanic atelectasis
+X00jF	Acute mastoiditis with complications
+X00jG	Acute mastoiditis with neck abscess
+X00jH	Acute mastoiditis with facial paralysis
+X00jI	Acute mastoiditis with labyrinthitis
+X00mq	Vincent's tonsillitis
+X00n2	Vincent's laryngitis
+X00n6	Recurrent allergic croup
+X00n7	Viral epiglottitis
+X104u	Acute toxic tracheobronchitis
+X70I8	Bordetella infection
+X70Id	Fusobacterial necrotising tonsillitis
+X70Pk	Vincent's infection
+Xa0lc	Acute necrotising ulcerative gingivitis
+Xa0lT	Disorder of mastoid
+Xa0lW	Acute laryngotracheobronchitis
+Xa3fH	Other mastoiditis
+Xa7I0	Tonsillitis
+Xa87h	Tracheitis
+Xa97Y	Tuberculosis of trachea
+Xa9Bk	Otitis media with effusion - serous
+Xa9Bl	Otitis media with effusion - mucoid
+Xa9Bm	Otitis media with effusion - purulent
+Xa9Bt	Acute epiglottitis and supraglottitis
+XaDmU	Infective otitis media
+XaDtg	Tracheobronchitis
+XaDth	Acute infective tracheobronchitis
+XaDuI	Infective tonsillitis
+XaEIw	Retropharyngeal abscess drained
+XaNkV	Acute rhinosinusitis
+XE0Qw	Whooping cough
+XE0S5	Vincent's angina NOS
+XE0Xm	Acute sinusitis
+XE0Xo	Acute laryngotracheitis
+XE0Xp	Acute epiglottitis (non-streptococcal)
+XE17C	Chronic non-suppurative otitis media with effusion - mucoid
+XE17D	Otitis media NOS
+XE17E	Acute mastoiditis
+XE19r	Nonsuppurative otitis media (& [ left] or [right])
+XE19t	(Glue ear) or (mucoid otitis media [& chronic])
+XE19z	Chronic non-suppurative otitis media NOS
+XE1A1	Suppurative otitis media &/or ([left] or [right]) &/or purulent otitis media
+XE2aC	Acute tonsillitis
+XE2QD	Acute otitis media with effusion
+XE2QE	Eustachian tube salpingitis
+XM0rD	Mastoiditis
+XM1QE	Ear infection
+XM1QF	Non-suppurative otitis media
+XM1QH	Sinusitis
+XM1QS	Laryngotracheitis
+XM1QT	Acute fibrinous laryngotracheobronchitis
+H023.	Acute bacterial pharyngitis
+H023z	Acute bacterial pharyngitis NOS
+H0405	Acute pneumococcal laryngitis
+H0231	Acute staphylococcal pharyngitis
+X00mN	Meningococcal pharyngitis

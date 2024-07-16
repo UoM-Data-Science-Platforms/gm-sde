@@ -1,0 +1,87 @@
+K310.13	Mastitis
+K318.00	Breast abscess
+L452400	Obstetric nonpurulent mastitis with postnatal complication
+L394500	Infection of obstetric surgical wound
+Lyu6A00	[X]Infection of caesarean section wound following delivery
+L420z00	Puerperal pyrexia NOS
+L403.00	Puerperal septicaemia
+L400.00	Puerperal endometritis
+L40..11	Sepsis - puerperal
+L40z.00	Major puerperal infection NOS
+L451400	Obstetric breast abscess with postnatal complication
+L452000	Obstetric nonpurulent mastitis unspecified
+L45y.00	Other obstetric breast infections
+L45z400	Obstetric breast infection NOS with postnatal complication
+L451.11	Purulent mastitis - obstetric
+L40..00	Major puerperal infection
+L450.12	Nipple infection - obstetric
+L451.00	Obstetric breast abscess
+L452.00	Obstetric nonpurulent mastitis
+L452100	Obstetric nonpurulent mastitis - delivered
+L17..00	Infective/parasitic disease in preg/childbirth/puerperium
+L284.12	Chorioamnionitis
+L400z00	Puerperal endometritis NOS
+L45..00	Obstetric breast infections
+L45zz00	Obstetric breast infection NOS
+L400000	Puerperal endometritis unspecified
+L452z00	Obstetric nonpurulent mastitis NOS
+L45z.00	Obstetric breast infection NOS
+L45z000	Obstetric breast infection NOS, unspecified
+L401.00	Puerperal salpingitis
+L401100	Puerperal salpingitis - delivered with postnatal complication
+L401000	Puerperal salpingitis unspecified
+Lyu6200	[X]Other specified puerperal infection
+L451z00	Obstetric breast abscess NOS
+L403100	Puerperal septicaemia - delivered with postnatal complication
+L403200	Puerperal septicaemia with postnatal complication
+L403z00	Puerperal septicaemia NOS
+L402100	Puerperal peritonitis - delivered with postnatal complication
+L402200	Puerperal peritonitis with postnatal complication
+L402z00	Puerperal peritonitis NOS
+L40zz00	Major puerperal infection NOS
+L452.11	Lymphangitis of breast - obstetric
+L451100	Obstetric breast abscess - delivered
+L452300	Obstetric nonpurulent mastitis with antenatal complication
+L45z100	Obstetric breast infection NOS - delivered
+L40z000	Major puerperal infection NOS, unspecified
+L400200	Puerperal endometritis with postnatal complication
+L45y000	Other obstetric breast infection unspecified
+K310700	Retromammary breast abscess
+L450z00	Obstetric nipple infection NOS
+L452200	Obstetric nonpurulent mastitis - deliv with p/n complication
+L400100	Puerperal endometritis - delivered with postnatal comp
+L401z00	Puerperal salpingitis NOS
+L451000	Obstetric breast abscess unspecified
+L450.00	Obstetric nipple infection
+L17y200	Other mat.infect/parasit dis in puerperium - baby delivered
+L450000	Obstetric nipple infection unspecified
+L450400	Obstetric nipple infection with postnatal complication
+L450100	Obstetric nipple infection - delivered
+L176.00	Other maternal viral dis. in pregnancy/childbirth/puerperium
+L401200	Puerperal salpingitis with postnatal complication
+L403000	Puerperal septicaemia unspecified
+L402000	Puerperal peritonitis unspecified
+L402.00	Puerperal peritonitis
+L17y.00	Other maternal infective or parasitic disease during pregnancy, childbirth and the puerperium
+L17y000	Other maternal infective or parasitic disease, unspecified whether during pregnancy or the puerperium
+L17y100	Other maternal infective or parasitic disese during pregnancy - baby delivered
+L17y300	Other maternal infective or parasitic disease during pregnancy - baby not yet delivered
+L17y400	Other maternal infective or parasitic disease in the puerperium - baby delivered during previous episode of care
+L17yz00	Other maternal infective or parasitic disease during pregnancy, childbirth or the puerperium NOS
+L17z.00	Maternal infective or parasitic disease NOS in pregnancy, childbirth and the puerperium
+L17z000	Maternal infective or parasitic disease NOS, unspecified whether during pregnancy or the puerperium
+L17z100	Maternal infective or parasitic disease NOS, during pregnancy - baby delivered
+L17z200	Maternal infective or parasitic disease NOS, in the puerperium - baby delivered during current episode of care
+L17z300	Maternal infective or parasitic disease NOS, during pregnancy - baby not yet delivered
+L17z400	Maternal infective or parasitic disease NOS, in the puerpium - baby delivered during previous episode of care
+L17zz00	Maternal infective or parasitic disease NOS, during pregnancy, childbirth or the puerperium NOS
+L40z100	Major puerperal infection NOS - delivered with postnatal complication
+L40z200	Major puerperal infection NOS with postnatal complication
+L42z.00	Puerperal pyrexia NOS
+L45y100	Other obstetric breast infection - delivered
+L45y200	Other obstetric breast infection - delivered with postnatal complication
+L45y300	Other obstetric breast infection with antenatal complication
+L45y400	Other obstetric breast infection with postnatal complication
+L45yz00	Other obstetric breast infection NOS
+L45z200	Obstetric breast infection NOS - delivered with postnatal complication
+L45z300	Obstetric breast infection NOS with antenatal complication

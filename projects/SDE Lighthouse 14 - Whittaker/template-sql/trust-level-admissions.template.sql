@@ -16,7 +16,8 @@
 
 -- Average bed request to assign time - UNLIKELY
 
-
+set(StudyStartDate) = to_date('2018-01-01');
+set(StudyEndDate)   = to_date('2024-05-31');
 
 -- CREATE A TABLE OF ADMISSIONS FROM GM TRUSTS
 
@@ -33,8 +34,8 @@ WHERE "ProviderDesc" IN
      'Bolton NHS Foundation Trust',
      'Tameside And Glossop Integrated Care NHS Foundation Trust',
      'The Christie NHS Foundation Trust')
+and "HospitalSpellDuration" != '*'
   -- FILTER OUT ELECTIVE ??   
-     ;
 
 -- MONTHLY ADMISSION COUNTS AND AVG LENGTH OF STAY BY TRUST
 
@@ -47,7 +48,7 @@ select
     , COUNT(*)  AS "Admissions"
     , AVG("HospitalSpellDuration") as "Avg_LengthOfStay"
 from ManchesterTrusts
-where TO_DATE("AdmissionDttm") between '2020-01-01' and '2024-05-31'
+where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 --and "IsReadmission" = 1
 group by   YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 having count(*) > 5 -- exclude small counts 
@@ -64,7 +65,7 @@ select
     , COUNT(*)  AS "Admissions"
     , AVG("HospitalSpellDuration") as "Avg_LengthOfStay"
 from ManchesterTrusts
-where TO_DATE("AdmissionDttm") between '2020-01-01' and '2024-05-31'
+where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 --and "IsReadmission" = 1
 group by   
       YEAR("AdmissionDttm") 
@@ -95,7 +96,7 @@ select
     count(*) AS Admissions,
     AVG("HospitalSpellDuration") as "Avg_LengthOfStay"
 from ManchesterTrusts
-where TO_DATE("AdmissionDttm") between '2020-01-01' and '2024-05-31'
+where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 and "AgeAtStartOfSpellSus" between 0 and 120 -- REMOVE UNREALISTIC VALUES
 --and "IsReadmission" = 1
 group by 

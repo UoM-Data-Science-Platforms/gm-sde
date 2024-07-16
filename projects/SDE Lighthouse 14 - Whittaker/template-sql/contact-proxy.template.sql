@@ -2,7 +2,7 @@
 --│ LH004 GP Contact Proxy             │
 --└────────────────────────────────────┘
 
-select "FK_Patient_ID", 
+SELECT "FK_Patient_ID", 
 "GmPseudo", 
 "PracticeCode", 
 "GMLocality", 
@@ -10,4 +10,4 @@ select "FK_Patient_ID",
 "TotalSNOMEDCodes", 
 "IdentifiedContactCodes", 
 "Contact"
-from INTERMEDIATE.GP_RECORD."Contacts_Proxy"
+FROM INTERMEDIATE.GP_RECORD."Contacts_Proxy"

@@ -1,0 +1,114 @@
+M038.00	Cellulitis of external ear
+M03z.00	Cellulitis and abscess NOS
+M036z00	Cellulitis and abscess of leg NOS
+A35..00	Erysipelas
+M081.00	[X]Cellulitis of other parts of limb
+M034.11	Cellulitis and abscess of hand
+M033100	Cellulitis and abscess of axilla
+M032200	Cellulitis and abscess of back
+M032600	Cellulitis and abscess of groin
+M037000	Cellulitis and abscess of foot unspecified
+M036200	Cellulitis and abscess of knee
+M030011	Cellulitis and abscess of cheek
+M031.00	Cellulitis and abscess of neck
+M036100	Cellulitis and abscess of thigh
+M035.00	Cellulitis and abscess of buttock
+M034000	Cellulitis and abscess of hand unspecified
+M033300	Cellulitis and abscess of elbow
+M021000	Cellulitis and abscess of toe unspecified
+M033.00	Cellulitis and abscess of arm
+M034100	Cellulitis and abscess of wrist
+M020000	Cellulitis and abscess of finger unspecified
+M036000	Cellulitis and abscess of hip
+M021.00	Cellulitis and abscess of toe
+M030.00	Cellulitis and abscess of face
+A98yy14	Gonococcal cellulitis
+M03z000	Cellulitis NOS
+F4G0100	Orbital cellulitis
+M032000	Cellulitis and abscess of chest wall
+M032700	Cellulitis and abscess of perineum
+K284300	Cellulitis of scrotum
+M020.00	Cellulitis and abscess of finger
+M032300	Cellulitis and abscess of abdominal wall
+M033000	Cellulitis and abscess of shoulder
+J083000	Cellulitis of floor of mouth
+M080.00	[X]Cellulitis of finger and toe
+M02..00	Cellulitis and abscess of finger and toe
+M085.00	Cellulitis of leg
+M08..00	Cutaneous cellulitis
+M037200	Cellulitis in diabetic foot
+M08B.00	Cellulitis of foot
+F4D1400	Cellulitis of eyelid
+M036.00	Cellulitis and abscess of leg excluding foot
+M082.00	Cellulitis of face
+F501112	Cellulitis, external ear
+M080.13	[X]Cellulitis of thumb
+M088.00	Cellulitis of arm
+M036.11	Cellulitis and abscess of leg
+M15y012	Staphylococcal scalded skin syndrome
+M030111	Cellulitis and abscess of nose
+M036400	Cellulitis and abscess of ankle
+M03zz00	Cellulitis and abscess NOS
+M032400	Cellulitis and abscess of umbilicus
+M03y.00	Other specified cellulitis and abscess
+M030300	Cellulitis and abscess of submandibular region
+M030400	Cellulitis and abscess of forehead
+M030200	Cellulitis and abscess of chin
+M037100	Cellulitis and abscess of heel
+M030500	Cellulitis and abscess of temple region
+M032100	Cellulitis and abscess of breast
+K272300	Cellulitis of penis
+M03..00	Other cellulitis and abscess
+M03..13	Cellulitis of skin area excluding digits of hand or foot
+M08A.00	Cellulitis of axilla
+J085100	Cellulitis of lip
+J054.00	Orofacial sinus
+M021z00	Cellulitis and abscess of toe NOS
+M030z00	Cellulitis and abscess of face NOS
+M034013	Cellulitis of dorsum of hand
+M030100	Cellulitis and abscess of nose (external
+M032500	Cellulitis and abscess of flank
+M034z00	Cellulitis and abscess of hand NOS
+M030000	Cellulitis and abscess of cheek (external
+M03y000	Cellulitis and abscess of head unspecified
+M083.00	Cellulitis of trunk
+M02z.00	Cellulitis and abscess of digit NOS
+M036300	Cellulitis and abscess of lower leg
+M020z00	Cellulitis and abscess of finger NOS
+M034014	Cellulitis of palm of hand
+M030600	Cellulitis of face
+M032.00	Cellulitis and abscess of trunk
+M037.11	Cellulitis and abscess of foot
+M033400	Cellulitis and abscess of forearm
+M034.00	Cellulitis and abscess of hand excluding digits
+J54..11	Cellulitis - anus or rectum
+M089.00	Cellulitis of neck
+M037z00	Cellulitis and abscess of foot NOS
+M084.00	[X]Cellulitis of breast
+M08y.00	[X]Cellulitis of other sites
+M15y000	Ritter's disease
+M037.00	Cellulitis and abscess of foot excluding toe
+M086.00	Cellulitis of ankle
+M03..12	Acute lymphangitis of skin excluding digits of hand or foot
+M032z00	Cellulitis and abscess of trunk NOS
+A271.11	Rosenbach erysipeloid
+J540.11	Perianal cellulitis
+A271200	Cutaneous erysipeloid
+A271.00	Erysipelothrix infection, unspecified
+M033200	Cellulitis and abscess of upper arm
+M033z00	Cellulitis and abscess of arm NOS
+M032800	Cellulitis of trunk
+A271000	Erysipelothrix infection
+M08C.00	Cellulitis of toe
+A271z	Erysipelothrix infection NOS
+J0831	Oral soft tissue cellulitis unspecified
+J0833	Ludwig's angina
+K1703	Periurethral cellulitis
+K2802	Cellulitis of seminal vesicle
+K4040	Chronic female pelvic cellulitis
+K405.	Parametritis and pelvic cellulitis unspecified
+K4051	Pelvic cellulitis unspecified
+K405z	Parametritis and pelvic cellulitis NOS
+M070.	Pyoderma
+M070z	Pyoderma NOS
+M2y7.	Eosinophilic cellulitis [Wells]
