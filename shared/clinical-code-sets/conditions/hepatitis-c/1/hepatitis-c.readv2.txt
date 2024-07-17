@@ -9,3 +9,14 @@ A70E.00	Hepatitis C genotype 5
 A70F.00	Hepatitis C genotype 6
 A70G.00	Acute hepatitis C
 A70z000	Hepatitis C
+4JQD.00	Hepatitis C viral ribonucleic acid polymerase chain reaction positive
+ZV02C00	[V]Hepatitis C carrier
+14i..00	H/O hepatitis C antiviral drug therapy
+2126700	Hepatitis C resolved
+43X3.00	Hepatitis C antibody test positive
+4J3B.00	Hepatitis C viral load
+4JQ3.00	Hepatitis C virus genotype
+4JQF.00	Hepatitis C antigen positive
+8BB5.00	12 week virologic response to hepatitis C treatment
+9NgR.00	On hepatitis C treatment plan
+9kV..00	Hepatitis C screening positive - enhanced services administration

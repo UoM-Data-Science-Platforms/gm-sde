@@ -1,2 +1,6 @@
 XaCm8	Hepatitis A - current infection
 XE2uF	Acute hepatitis A
+A700.	Viral hepatitis A with coma
+A701.	Viral (infectious) hepatitis A
+X73mV	Genus: Hepatitis A virus group
+X73mW	Human hepatitis A virus

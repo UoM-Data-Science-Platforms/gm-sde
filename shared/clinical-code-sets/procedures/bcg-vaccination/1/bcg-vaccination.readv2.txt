@@ -1,6 +1,10 @@
-745F5	Administration of Bacillus Calmette-Guerin vaccine
-745F1	BCG administration
-653..	Tuberculosis (BCG) vaccination
-653..	BCG vaccination
-ZV032	[V]Tuberculosis (BCG) vaccination
-n42..	BCG VACCINES
+745F500	Administration of Bacillus Calmette-Guerin vaccine
+745F100	BCG administration
+653..00	Tuberculosis (BCG) vaccination
+653..00	BCG vaccination
+ZV03200	[V]Tuberculosis (BCG) vaccination
+n42..00	BCG VACCINES
+n42A.00	BCG Danish strain 1331 vaccine pdr+solvent for suspension for injection
+n423.00	BCG PERCUTANEOUS VACCINE injection
+n422.00	BCG ISONIAZID-RESIST VACCINE injection
+n421.00	*BCG DRIED VACCINE injection

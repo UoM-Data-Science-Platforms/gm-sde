@@ -2,3 +2,30 @@ X306e	Acute hepatitis C
 X306k	Chronic viral hepatitis C
 X306o	Hepatitis C carrier
 A7050	Viral hepatitis C without mention of hepatic coma
+A7040	Viral hepatitis C with coma
+A70z0	Hepatitis C
+X73lB	Hepacavirus
+X73lC	Hepatitis C virus
+Xa0ty	Congenital hepatitis C infection
+XaJX1	[V]Hepatitis C carrier
+XaXBp	Hepatitis C viral ribonucleic acid polymerase chain reaction positive
+XaZ5P	Hepatitis C genotype 1
+XaZ5Q	Hepatitis C genotype 2
+XaZ5S	Hepatitis C genotype 3
+XaZ5T	Hepatitis C genotype 4
+XaZ5U	Hepatitis C genotype 5
+XaZ5V	Hepatitis C genotype 6
+Xaa9D	Hepatitis C antiviral treatment completed
+XagSW	H/O hepatitis C
+A7072	Chronic viral hepatitis C
+XaFDz	Hepatitis C antibody test positive
+XaIrY	Hepatitis C viral load
+XaIrZ	Hepatitis C virus genotype
+XaMEl	RSV treatment and Hepatitis C treatment drugs Band 1
+XaPLl	Hepatitis C screening positive
+XaPLl	Hepatitis C screening positive
+XaXET	Hepatitis C resolved
+XaYbh	Hepatitis C antigen positive
+XaZBl	12 week virologic response to hepatitis C treatment
+XaZDB	H/O hepatitis C antiviral drug therapy
+XaZDE	On hepatitis C treatment plan

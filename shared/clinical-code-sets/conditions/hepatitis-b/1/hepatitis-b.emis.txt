@@ -1,0 +1,28 @@
+^ESCT1393855	Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D
+^ESCT1393856	Chronic hepatitis B with hepatitis C and hepatitis D
+^ESCT1407102	Hepatic coma due to acute hepatitis B with delta agent
+^ESCTAC271042	Acute fulminating type B viral hepatitis
+^ESCTAC374892	Acute type B viral hepatitis
+^ESCTAC374893	Acute hepatitis B
+^ESCTAC508659	Acute hepatitis B with hepatitis D
+^ESCTAN336652	Anicteric type B viral hepatitis
+^ESCTCH251617	Chronic aggressive type B viral hepatitis
+^ESCTCH312224	Chronic persistent type B viral hepatitis
+^ESCTCH312225	Chronic immune tolerant hepatitis B
+^ESCTCH331256	Chronic active type B viral hepatitis
+^ESCTCH350719	Chronic type B viral hepatitis
+^ESCTCH508665	Chronic viral hepatitis B with hepatitis D
+^ESCTHE357442	Hepatitis B
+^ESCTHE357444	Hepatitis B infection
+^ESCTHE508660	Hepatitis D superinfection of hepatitis B carrier
+^ESCTHE726025	Hepatitis B associated with Human immunodeficiency virus infection
+^ESCTHE726347	Hepatitis B and hepatitis C
+^ESCTOC771204	Occult chronic type B viral hepatitis
+^ESCTOC771205	Occult hepatitis B infection
+^ESCTRE732842	Reactivation of hepatitis B viral hepatitis
+^ESCTSH357443	SH - Serum hepatitis
+^ESCTTY357440	Type B viral hepatitis
+^ESCTVI291948	Viral hepatitis B with hepatic coma
+^ESCTVI357445	Viral hepatitis type B
+^ESCTVI420082	Viral hepatitis B without hepatic coma
+C13-SHHAPT	Viral hepatitis B (HbsAg positive) - first diagnosis

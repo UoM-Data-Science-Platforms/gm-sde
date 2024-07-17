@@ -20,3 +20,10 @@
 1116000	Chronic aggressive type B viral hepatitis (disorder)
 53425008	Anicteric type B viral hepatitis (disorder)
 186626002	Acute hepatitis B with delta-agent (coinfection) without hepatic coma (disorder)
+186624004	Acute hepatitis B with delta agent (coinfection) with hepatic coma (disorder)
+235871004	Hepatitis B carrier (finding)
+26206000	Viral hepatitis B with hepatic coma (disorder)
+186638006	Chronic viral hepatitis B with hepatitis D (disorder)
+875211000000105	Chronic viral hepatitis B
+153091000119109	Hepatic coma due to chronic hepatitis B with delta agent (disorder)
+424340000	Hepatic coma due to chronic hepatitis B (disorder)

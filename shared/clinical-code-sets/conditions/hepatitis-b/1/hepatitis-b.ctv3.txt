@@ -8,3 +8,6 @@ X306i	Chronic viral hepatitis B
 A7071	Chronic viral hepatitis B without delta-agent
 X306n	Hepatitis B carrier
 X306j	Chronic viral hepatitis B with delta-agent
+A703.	Viral serum hepatitis B
+XE0TY	Serum hepatitis
+XaG1R	[V]Hepatitis B carrier

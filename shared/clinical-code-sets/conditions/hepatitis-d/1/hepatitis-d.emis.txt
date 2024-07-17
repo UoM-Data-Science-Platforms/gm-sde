@@ -1,4 +1,3 @@
-^ESCTHE767085	Hepatitis D virus IgG
 ^ESCT1165466	Chronic infection caused by Hepatitis D virus
 ^ESCTHD826608	HDV (hepatitis D virus) genotype determination by RNA (ribonucleic acid) analysis
 ^ESCT1275867	Hepatitis D infection
@@ -7,7 +6,6 @@
 ^ESCTHE508660	Hepatitis D superinfection of hepatitis B carrier
 ^ESCTHE826607	Hepatitis D virus genotype determination by ribonucleic acid analysis
 ^ESCT1378749	Ribonucleic acid of Hepatitis D virus
-^ESCTHE767633	Hepatitis D virus IgM
 ^ESCT1393855	Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D
 ^ESCTHD386058	HDV - Hepatitis D virus
 ^ESCTHE386056	Hepatitis D virus
@@ -17,10 +15,7 @@
 ^ESCT1393856	Chronic hepatitis B with hepatitis C and hepatitis D
 ^ESCTCH508665	Chronic viral hepatitis B with hepatitis D
 ^ESCTHE433227	Hepatitis D virus ribonucleic acid
-^ESCTHE758347	Hepatitis B virus genotype D
 ^ESCTHE761562	Hepatitis D
-^ESCTAN767635	Anti-Hepatitis D virus IgM
-^ESCTAN767087	Anti-Hepatitis D virus IgGs
 EMISNQVI15	Viral hepatitis D
 ^ESCT1275864	Viral hepatitis B with hepatitis D superinfection
 EMISNQVI15	Viral hepatitis D
@@ -31,6 +26,6 @@ EMISNQVI15	Viral hepatitis D
 ^ESCT1275868	Viral hepatitis B with delta agent superinfection
 ^ESCT1275866	Hepatitis B with delta agent coinfection
 ^ESCT1275869	Viral hepatitis delta
-^ESCT1406586	Hepatitis delta virus Ag
 ^ESCT1275865	Hepatitis B with delta agent superinfection
 ^ESCTHE804780	Hepatic coma due to chronic hepatitis B with delta agent
+^ESCTDE386059	Delta agent

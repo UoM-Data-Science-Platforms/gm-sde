@@ -1,0 +1,106 @@
+X306T	Hepatitis 
+XaQIT	Nonalcoholic steatohepatitis
+XM1Oq	Acute hepatitis 
+J6143	Recurrent hepatitis 
+X306U	Nonspecific reactive hepatitis
+X306V	Liver disorder due to infection 
+X306W	Liver abscess 
+A053.	Amoebic liver abscess 
+J6200	Liver abscess due to portal pyaemia 
+J6201	Liver abscess due to cholangitis
+X307T	Infectious cirrhosis
+J615D	Bacterial portal cirrhosis
+J615E	Cardituberculous cirrhosis
+J615F	Syphilitic portal cirrhosis 
+J615G	Zooparasitic portal cirrhosis 
+J615A	Pipestem portal cirrhosis 
+J615H	Infectious cirrhosis NOS
+X306Z	Hepatitis due to infection
+A70..	Viral hepatitis 
+XaYbq	Viral hepatitis without hepatic coma
+XaYbp	Viral hepatitis with hepatic coma 
+X306b	Acute viral hepatitis 
+XE2uF	Acute hepatitis A 
+XE0RK	Acute hepatitis B 
+X306c	Acute hepatitis B with hepatitis D
+A7020	Acute hepatitis B with delta agent (coinfection) with hepatic coma
+A7030	Acute hepatitis B with delta-agent (coinfection) without hepatic coma 
+X306d	Hepatitis D superinfection of hepatitis B carrier 
+X306e	Acute hepatitis C 
+X306f	Acute hepatitis E 
+X306g	Acute non-A non-B hepatitis 
+A700.	Viral hepatitis A with coma 
+A702.	Viral hepatitis B with coma 
+A7040	Viral hepatitis C with coma 
+X306h	Chronic viral hepatitis 
+X306i	Chronic viral hepatitis B 
+A7071	Chronic viral hepatitis B without delta-agent 
+X306j	Chronic viral hepatitis B with hepatitis D
+X306k	Chronic viral hepatitis C 
+X306l	Chronic non-A non-B hepatitis 
+X306n	Hepatitis B carrier 
+X306o	Hepatitis C carrier 
+Xa9C8	Epstein-Barr virus hepatitis
+J6312	Infectious mononucleosis hepatitis
+J6313	Mumps hepatitis 
+J6310	Coxsackie virus hepatitis 
+A703.	Viral serum hepatitis B 
+XE0RK	Acute hepatitis B 
+X306i	Chronic viral hepatitis B 
+A7071	Chronic viral hepatitis B without delta-agent 
+XE0TW	Infectious hepatitis
+A704.	Other specified viral hepatitis with coma 
+A704z	Other specified viral hepatitis with hepatic coma NOS 
+A705.	Other specified viral hepatitis without coma
+A7050	Viral hepatitis C without mention of hepatic coma 
+A7054	Hepatitis non-A non-B 
+A705z	Other specified viral hepatitis without mention of hepatic coma NOS 
+A706.	Unspecified viral hepatitis with coma 
+A70z.	Unspecified viral hepatitis 
+A70z0	Hepatitis C 
+XaZ5P	Hepatitis C genotype 1
+XaZ5Q	Hepatitis C genotype 2
+XaZ5S	Hepatitis C genotype 3
+XaZ5T	Hepatitis C genotype 4
+XaZ5U	Hepatitis C genotype 5
+XaZ5V	Hepatitis C genotype 6
+A7852	Cytomegalovirus hepatitis 
+J6311	Hepatitis in cytomegalic inclusion virus
+AyuB0	[X]Other specified acute viral hepatitis
+AyuB1	[X]Other chronic viral hepatitis
+AyuB2	[X]Chronic viral hepatitis, unspecified 
+AyuB3	[X]Unspecified viral hepatitis with coma
+AyuB4	[X]Unspecified viral hepatitis without coma 
+J631.	Hepatitis in viral diseases EC
+J6314	Hepatitis in yellow fever 
+J6315	Hepatitis in other viral disease
+J6316	Hepatitis with adenovirus 
+J631z	Hepatitis in viral diseases EC NOS
+XE0TY	Serum hepatitis 
+A701.	Hepatitis: [viral (infectious) A] or [infective]
+J6321	Hepatitis in late syphilis
+AD05.	Toxoplasma hepatitis
+J6320	Hepatitis in malaria
+X306a	Gonococcal hepatitis
+J6322	Hepatitis in secondary syphilis 
+J632.	Hepatitis in other infectious diseases EC 
+J632z	Hepatitis in infectious diseases EC NOS 
+X406Q	Fitz-Hugh-Curtis syndrome 
+X406R	Gonococcal perihepatitis
+X406S	Chlamydial perihepatitis
+J6330	Toxic hepatitis 
+X306p	Halothane hepatitis 
+X306q	Enflurane hepatitis 
+X306s	Drug-induced hepatitis
+X306t	Ischaemic hepatitis 
+C3761	Alpha-1-antitrypsin hepatitis 
+J633.	Hepatitis unspecified 
+J633z	Hepatitis unspecified NOS 
+Xa3e6	Other hepatitis
+A98yy	Gonococcal hepatitis
+L1765	Viral hepatitis complicating pregnancy, childbirth and the puerperium
+Q409.	Congenital viral hepatitis
+Q409y	Other specified congenital viral hepatitis
+Q409z	Congenital viral hepatitis NOS
+XaG1R	[V]Hepatitis B carrier
+XaJX1	[V]Hepatitis C carrier

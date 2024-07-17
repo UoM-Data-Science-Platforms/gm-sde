@@ -1,0 +1,82 @@
+A70..00	Viral hepatitis 
+A700.00	Viral hepatitis A with coma 
+A701.00	Viral (infectious) hepatitis A
+A702.00	Viral hepatitis B with coma 
+A702000	Acute hepatitis B with delta agent (coinfection) with hepatic coma
+A703.00	Viral (serum) hepatitis B 
+A703000	Acute hepatitis B with delta-agent (coinfection) without hepatic coma 
+A704.00	Other specified viral hepatitis with coma 
+A704000	Viral hepatitis C with coma 
+A704z00	Other specified viral hepatitis with hepatic coma NOS 
+A705.00	Other specified viral hepatitis without coma
+A705000	Viral hepatitis C without mention of hepatic coma 
+A705100	Acute delta-(super)infection of hepatitis B carrier 
+A705200	Acute hepatitis E 
+A705400	Hepatitis non A non B 
+A705z00	Other specified viral hepatitis without mention of hepatic coma NOS 
+A706.00	Unspecified viral hepatitis with coma 
+A707.00	Chronic viral hepatitis 
+A707000	Chronic viral hepatitis B with delta-agent
+A707100	Chronic viral hepatitis B without delta-agent 
+A707200	Chronic viral hepatitis C 
+A707300	Chronic viral hepatitis B 
+A707X00	Chronic viral hepatitis, unspecified
+A708.00	Viral hepatitis with hepatic coma 
+A709.00	Viral hepatitis without hepatic coma
+A70A.00	Hepatitis C genotype 1
+A70B.00	Hepatitis C genotype 2
+A70C.00	Hepatitis C genotype 3
+A70D.00	Hepatitis C genotype 4
+A70E.00	Hepatitis C genotype 5
+A70F.00	Hepatitis C genotype 6
+A70G.00	Acute hepatitis C 
+A70z.00	Unspecified viral hepatitis 
+A70z000	Hepatitis C 
+A70z100	Acute viral hepatitis NOS
+A053.00	Amoebic liver abscess
+A72x000	Mumps hepatitis
+A785200	Cytomegaloviral hepatitis
+A98y600	Fitzhugh Curtis syndrome
+AD05.00	Toxoplasma hepatitis
+AyuB.00	[X]Viral hepatitis
+AyuB000	[X]Other specified acute viral hepatitis
+AyuB100	[X]Other chronic viral hepatitis
+AyuB200	[X]Chronic viral hepatitis, unspecified
+AyuB300	[X]Unspecified viral hepatitis with coma
+AyuB400	[X]Unspecified viral hepatitis without coma
+C376100	Alpha-1-antitrypsin hepatitis
+J614300	Recurrent hepatitis
+J615A00	Pipe-stem portal cirrhosis
+J615D00	Bacterial portal cirrhosis
+J615F00	Syphilitic portal cirrhosis
+J615G00	Zooparasitic portal cirrhosis
+J615H00	Infectious cirrhosis NOS
+J61y800	Nonalcoholic steatohepatitis
+J620000	Liver abscess due to portal pyaemia
+J620100	Liver abscess due to cholangitis
+J631.00	Hepatitis in viral diseases EC
+J631000	Hepatitis in coxsackie virus
+J631100	Hepatitis in cytomegalic inclusion virus
+J631200	Hepatitis in infectious mononucleosis
+J631300	Hepatitis in mumps
+J631400	Hepatitis in yellow fever
+J631500	Hepatitis in other viral disease
+J631600	Hepatitis + adenovirus
+J631z00	Hepatitis in viral diseases EC NOS
+J632.00	Hepatitis in other infectious diseases EC
+J632000	Hepatitis in malaria
+J632100	Hepatitis in late syphilis
+J632200	Hepatitis in secondary syphilis
+J632300	Hepatitis in toxoplasmosis
+J632z00	Hepatitis in infectious diseases EC NOS
+J633.00	Hepatitis unspecified
+J633000	Toxic hepatitis
+J633z00	Hepatitis unspecified NOS
+J63y100	Nonspecific reactive hepatitis
+Jyu7200	[X]Other specified inflammatory liver diseases
+L176500	Viral hepatitis complicating pregnancy, childbirth and the puerperium
+Q409.00	Congenital viral hepatitis
+Q409y00	Other specified congenital viral hepatitis
+Q409z00	Congenital viral hepatitis NOS
+ZV02B00	[V]Hepatitis B carrier
+ZV02C00	[V]Hepatitis C carrier
