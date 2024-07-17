@@ -16,10 +16,6 @@
 -- Medication categories such as "antiplatelet" should give the actual drug within that
 -- category
 
-
---Just want the output, not the messages
-SET NOCOUNT ON;
-
 --> EXECUTE query-build-lh004-cohort.sql
 
 SELECT "FK_Patient_ID", "MedicationDate",

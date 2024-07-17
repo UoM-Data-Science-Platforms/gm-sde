@@ -21,6 +21,7 @@
   YES
 - viral hepatitis (A, B, C and D) - combined or separate?
   SEPARATE
+- just need to check syntax of code set usage
 
 # infections / vaccines
 
@@ -82,3 +83,28 @@ Anticoagulant\*
 
 HydroxychloroquineOrChloroquine (y/n)
 Belimumab (y/n) - this is a monthly med so for this we want minimum of 2 prescriptions in 3 months
+
+TODO getting hep from APC???
+select \* from intermediate.national_flows_apc."tbl_Data_SUS_APCS"
+-- 497 hep a
+-- where contains(lower("Der_Diagnosis_All"), 'b150') -- Hepatitis A with hepatic coma
+-- or contains(lower("Der_Diagnosis_All"), 'b159'); -- Hepatitis A without hepatic coma
+
+-- 6746 hep b
+-- where contains(lower("Der_Diagnosis_All"), 'b160') -- Acute hepatitis B with delta-agent (coinfection) with hepatic coma
+-- or contains(lower("Der_Diagnosis_All"), 'b161') -- Acute hepatitis B with delta-agent (coinfection) without hepatic coma
+-- or contains(lower("Der_Diagnosis_All"), 'b162') -- Acute hepatitis B without delta-agent with hepatic coma
+-- or contains(lower("Der_Diagnosis_All"), 'b169') -- Acute hepatitis B without delta-agent and without hepatic coma
+-- or contains(lower("Der_Diagnosis_All"), 'b170') -- Acute delta-(super)infection in chronic hepatitis B
+-- or contains(lower("Der_Diagnosis_All"), 'b180') -- Chronic viral hepatitis B with delta-agent
+-- or contains(lower("Der_Diagnosis_All"), 'b181'); -- Chronic viral hepatitis B without delta-agent
+
+-- 11332 hep c
+-- where contains(lower("Der_Diagnosis_All"), 'b171') -- Acute hepatitis C
+-- or contains(lower("Der_Diagnosis_All"), 'b182'); -- Chronic viral hepatitis C
+
+-- 124 hep d
+where contains(lower("Der_Diagnosis_All"), 'b160') -- Acute hepatitis B with delta-agent (coinfection) with hepatic coma
+or contains(lower("Der_Diagnosis_All"), 'b161') -- Acute hepatitis B with delta-agent (coinfection) without hepatic coma
+or contains(lower("Der_Diagnosis_All"), 'b170') -- Acute delta-(super)infection in chronic hepatitis B
+or contains(lower("Der_Diagnosis_All"), 'b180') -- Chronic viral hepatitis B with delta-agent

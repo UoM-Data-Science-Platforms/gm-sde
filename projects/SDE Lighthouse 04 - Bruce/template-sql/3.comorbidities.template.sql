@@ -6,38 +6,75 @@
 
 --> EXECUTE query-build-lh004-cohort.sql
 
+--> CODESET hepatitis-a:1 hepatitis-b:1 hepatitis-c:1 hepatitis-d:1 tuberculosis:1
+
+CREATE TEMPORARY TABLE HepAndTuberculosisCodes AS
+SELECT PatientID, EventDate, SuppliedCode
+FROM GP_Events
+WHERE SuppliedCode IN (SELECT code FROM AllCodes WHERE concept IN ('hepatitis-a','hepatitis-b','hepatitis-c','hepatitis-d','tuberculosis'));
+
+CREATE TEMPORARY TABLE HepA AS
+SELECT PatientID, MIN(EventDate) AS HepADate
+FROM HepAndTuberculosisCodes
+WHERE SuppliedCode IN (SELECT code FROM AllCodes WHERE concept IN ('hepatitis-a'))
+GROUP BY PatientID;
+
+CREATE TEMPORARY TABLE HepB AS
+SELECT PatientID, MIN(EventDate) AS HepBDate
+FROM HepAndTuberculosisCodes
+WHERE SuppliedCode IN (SELECT code FROM AllCodes WHERE concept IN ('hepatitis-b'))
+GROUP BY PatientID;
+
+CREATE TEMPORARY TABLE HepC AS
+SELECT PatientID, MIN(EventDate) AS HepCDate
+FROM HepAndTuberculosisCodes
+WHERE SuppliedCode IN (SELECT code FROM AllCodes WHERE concept IN ('hepatitis-c'))
+GROUP BY PatientID;
+
+CREATE TEMPORARY TABLE HepD AS
+SELECT PatientID, MIN(EventDate) AS HepDDate
+FROM HepAndTuberculosisCodes
+WHERE SuppliedCode IN (SELECT code FROM AllCodes WHERE concept IN ('hepatitis-d'))
+GROUP BY PatientID;
+
+CREATE TEMPORARY TABLE Tuberculosis AS
+SELECT PatientID, MIN(EventDate) AS TuberculosisDate
+FROM HepAndTuberculosis
+WHERE SuppliedCode IN (SELECT code FROM AllCodes WHERE concept IN ('tuberculosis'))
+GROUP BY PatientID;
+
+CREATE TEMPORARY TABLE HepAndTuberculosis AS
 SELECT
-	"GmPseudo", "ADHD_DiagnosisDate", "ADHD_DiagnosisAge", "Anorexia_DiagnosisDate", "Anorexia_DiagnosisAge", 
-	"Anxiety_DiagnosisDate", "Anxiety_DiagnosisAge", "Asthma_DiagnosisDate", "Asthma_DiagnosisAge",
-	"AtrialFibrillation_DiagnosisDate", "AtrialFibrillation_DiagnosisAge", "Autism_DiagnosisDate", "Autism_DiagnosisAge",
-	"BlindnessLowVision_DiagnosisDate", "BlindnessLowVision_DiagnosisAge", "Bronchiectasis_DiagnosisDate", "Bronchiectasis_DiagnosisAge",
-	"Bulimia_DiagnosisDate", "Bulimia_DiagnosisAge", "Cancer_DiagnosisDate", "Cancer_DiagnosisAge",
-	"ChronicKidneyDisease_DiagnosisDate", "ChronicKidneyDisease_DiagnosisAge",
-	"ChronicLiverDisease_DiagnosisDate", "ChronicLiverDisease_DiagnosisAge", "ChronicSinusitis_DiagnosisDate", "ChronicSinusitis_DiagnosisAge",
-	"Constipation_DiagnosisDate", "Constipation_DiagnosisAge", "COPD_DiagnosisDate", "COPD_DiagnosisAge",
-	"CoronaryHeartDisease_DiagnosisDate", "CoronaryHeartDisease_DiagnosisAge", "DeafnessHearingLoss_DiagnosisDate", "DeafnessHearingLoss_DiagnosisAge",
-	"Dementia_DiagnosisDate", "Dementia_DiagnosisAge", "Depression_DiagnosisDate", "Depression_DiagnosisAge",
-	"DiabetesType1_DiagnosisDate", "DiabetesType1_DiagnosisAge", "DiabetesType2_DiagnosisDate", "DiabetesType2_DiagnosisAge",
-	"DiverticularDisease_DiagnosisDate", "DiverticularDisease_DiagnosisAge", "DownsSyndrome_DiagnosisDate", "DownsSyndrome_DiagnosisAge",
-	"Eczema_DiagnosisDate", "Eczema_DiagnosisAge", "Epilepsy_DiagnosisDate", "Epilepsy_DiagnosisAge",
-	"FamilialHypercholesterolemia_DiagnosisDate", "FamilialHypercholesterolemia_DiagnosisAge",
-	"HeartFailure_DiagnosisDate", "HeartFailure_DiagnosisAge", "Hypertension_DiagnosisDate", "Hypertension_DiagnosisAge",
-	"Immunosuppression_DiagnosisDate", "Immunosuppression_DiagnosisAge",
-	"InflammatoryBowelDisease_Crohns_DiagnosisDate", "InflammatoryBowelDisease_Crohns_DiagnosisAge",
-	"IrritableBowelSyndrome_DiagnosisDate", "IrritableBowelSyndrome_DiagnosisAge",
-	"LearningDisability_DiagnosisDate", "LearningDisability_DiagnosisAge",
-	"MentalHealth_SeriousMentalIllness_DiagnosisDate", "MentalHealth_SeriousMentalIllness_DiagnosisAge",
-	"Migraine_DiagnosisDate", "Migraine_DiagnosisAge", "MultipleSclerosis_DiagnosisDate", "MultipleSclerosis_DiagnosisAge",
-	"NonDiabeticHyperglycemia_DiagnosisDate", "NonDiabeticHyperglycemia_DiagnosisAge", "Obesity_DiagnosisDate", "Obesity_DiagnosisAge",
-	"Osteoporosis_DiagnosisDate", "Osteoporosis_DiagnosisAge", "PainfulCondition_DiagnosisDate", "PainfulCondition_DiagnosisAge",
-	"PalliativeCare_DiagnosisDate", "PalliativeCare_DiagnosisAge", "ParkinsonsDisease_DiagnosisDate", "ParkinsonsDisease_DiagnosisAge",
-	"PepticUlcerDisease_DiagnosisDate", "PepticUlcerDisease_DiagnosisAge",
-	"PeripheralArterialDisease_DiagnosisDate", "PeripheralArterialDisease_DiagnosisAge",
-	"ProstateDisorder_DiagnosisDate", "ProstateDisorder_DiagnosisAge", "Psoriasis_DiagnosisDate", "Psoriasis_DiagnosisAge",
-	"RheumatoidArthritis_DiagnosisDate", "RheumatoidArthritis_DiagnosisAge", "Stroke_DiagnosisDate", "Stroke_DiagnosisAge",
-	"ThyroidDisorder_DiagnosisDate", "ThyroidDisorder_DiagnosisAge", "TIA_DiagnosisDate", "TIA_DiagnosisAge",
-	"FirstLTC", "FirstLTC_DiagnosisDate", "FirstLTC_DiagnosisAge", "SecondLTC", "SecondLTC_DiagnosisDate", "SecondLTC_DiagnosisAge",
-	"ThirdLTC", "ThirdLTC_DiagnosisDate", "ThirdLTC_DiagnosisAge", "FourthLTC", "FourthLTC_DiagnosisDate", "FourthLTC_DiagnosisAge",
-	"FifthLTC", "FifthLTC_DiagnosisDate", "FifthLTC_DiagnosisAge"
-FROM GP_RECORD."LongTermConditionRegister_Diagnosis"
-QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1 -- this brings back the values from the most recent snapshot
+	GmPseudo, 
+	CASE WHEN HepA.PatientID IS NOT NULL THEN HepADate ELSE NULL END AS HepADate,
+	CASE WHEN HepB.PatientID IS NOT NULL THEN HepBDate ELSE NULL END AS HepBDate,
+	CASE WHEN HepC.PatientID IS NOT NULL THEN HepCDate ELSE NULL END AS HepCDate,
+	CASE WHEN HepD.PatientID IS NOT NULL THEN HepDDate ELSE NULL END AS HepDDate,
+	CASE WHEN Tuberculosis.PatientID IS NOT NULL THEN TuberculosisDate ELSE NULL END AS TuberculosisDate
+FROM LH004_Cohort c
+LEFT OUTER JOIN HepA ON HepA.PatientID = c.GmPseudo
+LEFT OUTER JOIN HepB ON HepB.PatientID = c.GmPseudo
+LEFT OUTER JOIN HepC ON HepC.PatientID = c.GmPseudo
+LEFT OUTER JOIN HepD ON HepD.PatientID = c.GmPseudo
+LEFT OUTER JOIN Tuberculosis ON Tuberculosis.PatientID = c.GmPseudo;
+
+SELECT
+	"GmPseudo", "ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "Anxiety_DiagnosisDate", "Asthma_DiagnosisDate", 
+	"AtrialFibrillation_DiagnosisDate", "Autism_DiagnosisDate", "BlindnessLowVision_DiagnosisDate", "Bronchiectasis_DiagnosisDate", 
+	"Bulimia_DiagnosisDate", "Cancer_DiagnosisDate", "ChronicKidneyDisease_DiagnosisDate", "ChronicLiverDisease_DiagnosisDate",
+	"ChronicSinusitis_DiagnosisDate", "Constipation_DiagnosisDate", "COPD_DiagnosisDate", "CoronaryHeartDisease_DiagnosisDate",
+	"DeafnessHearingLoss_DiagnosisDate", "Dementia_DiagnosisDate", "Depression_DiagnosisDate", "DiabetesType1_DiagnosisDate",
+	"DiabetesType2_DiagnosisDate", "DiverticularDisease_DiagnosisDate", "DownsSyndrome_DiagnosisDate", "Eczema_DiagnosisDate",
+	"Epilepsy_DiagnosisDate", "FamilialHypercholesterolemia_DiagnosisDate", "HeartFailure_DiagnosisDate", "HepADate", "HepBDate",
+	"HepCDate", "HepDDate", "Hypertension_DiagnosisDate", "Immunosuppression_DiagnosisDate",
+	"InflammatoryBowelDisease_Crohns_DiagnosisDate", "IrritableBowelSyndrome_DiagnosisDate", "LearningDisability_DiagnosisDate",
+	"MentalHealth_SeriousMentalIllness_DiagnosisDate", "Migraine_DiagnosisDate", "MultipleSclerosis_DiagnosisDate",
+	"NonDiabeticHyperglycemia_DiagnosisDate", "Obesity_DiagnosisDate", "Osteoporosis_DiagnosisDate", "PainfulCondition_DiagnosisDate",
+	"PalliativeCare_DiagnosisDate", "ParkinsonsDisease_DiagnosisDate", "PepticUlcerDisease_DiagnosisDate",
+	"PeripheralArterialDisease_DiagnosisDate", "ProstateDisorder_DiagnosisDate", "Psoriasis_DiagnosisDate",
+	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate",
+	"TuberculosisDate", "FirstLTC", "FirstLTC_DiagnosisDate", "SecondLTC", "SecondLTC_DiagnosisDate", "ThirdLTC",
+	"ThirdLTC_DiagnosisDate", "FourthLTC", "FourthLTC_DiagnosisDate", "FifthLTC", "FifthLTC_DiagnosisDate"
+FROM HepAndTuberculosis h
+LEFT OUTER JOIN GP_RECORD."LongTermConditionRegister_Diagnosis" ltc ON ltc.GmPseudo = h.GmPseudo
+QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot
