@@ -5,18 +5,19 @@
 
 # 1.patients.template.sql
 
-- Change the "GmPseudo IN..." to pull from the table created in the build cohort script
-- Add IMD - likely select distinct "Effective_Snapshot_Date" from SHARED_UK_FACTS_AND_DIMENSIONS_VIEWS."Demography"."fact_Index_Of_Multiple_Deprivation_By_LSOA"
-- Add date of death - likely from PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd"
+DONE- Change the "GmPseudo IN..." to pull from the table created in the build cohort script
+DONE - Add IMD - likely select distinct "Effective_Snapshot_Date" from SHARED_UK_FACTS_AND_DIMENSIONS_VIEWS."Demography"."fact_Index_Of_Multiple_Deprivation_By_LSOA"
+DONE- Add date of death - likely from PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd"
 
 # 2.lifestyle.template.sql
 
-- Maybe check with PI that they're happy with the output format
+DONE- Maybe check with PI that they're happy with the output format
 
 # 3.comorbidities.template.sql
 
-- Need to define all the comorbidities
-- LongTermCon.. table in GP_Record does the first occurrence, but not the last or the number
+DONE- Need to define all the comorbidities
+DONE- LongTermCon.. table in GP_Record does the first occurrence, but not the last or the number
+DONE- let's just give them what's in the GP_Record table in the first instance - if they need more they can ask for it
 
 # 4.outcomes.template.sql
 

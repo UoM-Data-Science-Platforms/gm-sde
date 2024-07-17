@@ -1,3 +1,7 @@
+--┌──────────────────────────────────────────┐
+--│ SDE Lighthouse study 03 - Kontopantelis  │
+--└──────────────────────────────────────────┘
+
 --┌───────────────────────────────────────────────────────────────────┐
 --│ Define Cohort for LH003: patients that had a dementia diagnosis   │
 --└───────────────────────────────────────────────────────────────────┘
@@ -30,3 +34,10 @@ INSERT INTO LH003_Cohort VALUES
 -- WHERE "Dementia_DiagnosisDate" IS NOT NULL
 -- AND "Age" >= 18
 -- GROUP BY "GmPseudo"
+
+SELECT 
+  "GmPseudo" AS PatientID,
+	"EventDate" AS TestDate,
+	"BMI" AS TestResult
+FROM INTERMEDIATE.GP_RECORD."Readings_BMI"
+WHERE "GmPseudo" IN (SELECT GmPseudo FROM LH003_Cohort);

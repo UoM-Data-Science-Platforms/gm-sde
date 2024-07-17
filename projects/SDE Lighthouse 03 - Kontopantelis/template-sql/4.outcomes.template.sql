@@ -14,10 +14,31 @@
 
 --> EXECUTE query-build-lh003-cohort.sql
 
---> CODESET dementia-medication-review:1 dementia-care-review:1 medication-review-basic:1 dementia-care-plan:1
---> CODESET did-not-attend:1 carer:1
---> CODESET emergency-admission:1 delirium:1 fracture:1 falls:1
---> CODESET social-care-prescribing-referral:1 social-care-referral:1 safeguarding-referral:1
+--> CODESET dementia-care-review:1 medication-review:1 medication-review-structured:1
+--> CODESET medication-review-dementia:1 advance-care-planning:1 social-care-prescribing-referral:1
+--> CODESET delirium:1 fracture:1 falls:1 social-care-referral:1 safeguarding-referral:1
+
+SELECT * FROM 
+
+-- -- essential
+-- Dementia care review
+-- Medication review (there are codes for medication review, structured medication review and dementia medication review – I can separate these out if useful) yes please separate if possible 
+-- Advance care planning
+-- Referral to social prescribing
+-- Healthcare attendance (just primary care encounters, or hospital as well?) both if possible, and if separated
+-- Unscheduled hospital admission
+-- Delirium
+-- Fall
+-- Fracture
+
+-- -- nice to have
+-- Continuity of care measures* (??? Not sure if this is a thing likely to be coded, or a group of things that need separating out) This will be hard to measure, it's the number of consultaitons with the same provider as a proportion of all consultations - I think we can just leave this measure are may be too complex in this setting?
+-- Carer type*
+-- Carer review*
+-- Referral to social care*
+-- Referral to safeguarding*
+-- Missed appointment*
+
 
 
 --bring together for final output

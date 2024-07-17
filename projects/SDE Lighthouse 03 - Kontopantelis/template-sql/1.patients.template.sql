@@ -2,22 +2,19 @@
 --│ SDELS03 - Kontopantelis - Demographics   │
 --└──────────────────────────────────────────┘
 
---Just want the output, not the messages
-SET NOCOUNT ON;
-
-DECLARE @StartDate datetime;
-DECLARE @EndDate datetime;
-SET @StartDate = '2006-01-01'; 
-SET @EndDate = '2023-10-31';
-
 --> EXECUTE query-build-lh003-cohort.sql
 
 SELECT 
-	"GmPseudo" AS PatientID,
+	cohort.GmPseudo AS PatientID,
 	"Sex",
 	YEAR("DateOfBirth") AS YearOfBirth,
 	"EthnicityLatest" AS Ethnicity,
-	"EthnicityLatest_Category" AS EthnicityCategory 
-FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses"
-WHERE "GmPseudo" IN (1763539,2926922,182597,1244665,3134799,1544463,5678816,169030,7015182,7089792)
-QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1 -- this brings back the values from the most recent snapshot
+	"EthnicityLatest_Category" AS EthnicityCategory,
+	"IMD_Decile" AS IMD2019Decile1IsMostDeprived10IsLeastDeprived,
+	"RegisteredDateOfDeath"
+FROM LH003_Cohort cohort
+LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" demo
+	ON demo."GmPseudo" = cohort.GmPseudo
+LEFT OUTER JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" mortality
+	ON mortality."GmPseudo" = cohort.GmPseudo
+QUALIFY row_number() OVER (PARTITION BY demo."GmPseudo" ORDER BY "Snapshot" DESC) = 1;
