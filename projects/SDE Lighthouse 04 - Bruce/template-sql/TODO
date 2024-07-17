@@ -51,6 +51,10 @@ PCVDRUG_COD Pneumococcal conjugate vaccines
 SFLUGPDRUG_COD Seasonal influenza inactivated vaccine codes
 INTGPDRUG_COD Intranasal seasonal influenza vaccine drug codes
 
+SHVACGP_COD
+SHVACGP1_COD
+SHVACGP2_COD
+
 HPVVACDRUG_COD HPV vaccine drug codes
 
 # mortality
