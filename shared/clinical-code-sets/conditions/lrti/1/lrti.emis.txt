@@ -1,0 +1,153 @@
+^ESCT1177799	Bronchiolitis obliterans organizing pneumonia
+^ESCT1177801	BOOP - Bronchiolitis obliterans organising pneumonia
+^ESCT1177802	Bronchiolitis obliterans with usual interstitial pneumonitis
+^ESCT1177803	BOOP - Bronchiolitis obliterans organizing pneumonia
+^ESCT1222081	Pneumonia co-occurrent and due to measles
+^ESCT1248069	[X]Suppurative and necrotic conditions of the lower respiratory tract
+^ESCT1271706	Acute bronchitis and/or bronchiolitis
+^ESCT1377839	Chlamydia psittaci infection
+^ESCT1405851	Air-conditioner and humidifier lung
+^ESCT1407139	COPD (chronic obstructive pulmonary disease) with acute lower respiratory infection
+^ESCTAC478042	Acute Moraxella catarrhalis bronchitis
+^ESCTAC478045	Acute coxsackievirus bronchitis
+^ESCTAC478046	Acute coxsackieviral bronchitis
+^ESCTAC478047	Acute bronchitis caused by coxsackievirus
+^ESCTAC478048	Acute parainfluenza virus bronchitis
+^ESCTAC478049	Acute respiratory syncytial virus bronchitis
+^ESCTAC478051	Acute bronchitis caused by rhinovirus
+^ESCTAC478052	Acute echovirus bronchitis
+^ESCTAC478053	Acute echoviral bronchitis
+^ESCTAC478054	Acute bronchitis due to echovirus
+^ESCTAC478057	Acute bronchiolitis caused by respiratory syncytial virus
+^ESCTAC478126	Actinomycotic pneumonia
+^ESCTAC505333	Acute mycoplasmal bronchitis
+^ESCTAC505337	Acute viral bronchiolitis
+^ESCTAC730285	Acute bronchiolitis caused by Human metapneumovirus
+^ESCTAD316384	Adenoviral pneumonia
+^ESCTAI328221	Air conditioner lung
+^ESCTAM355839	Amebic lung abscess
+^ESCTAN478123	Anthrax pneumonia
+^ESCTAS420093	Aspergillus pneumonia
+^ESCTAS451493	Aspiration pneumonitis
+^ESCTAS672072	Asthmatic bronchitis
+^ESCTBR656692	Bronchial pneumonia
+^ESCTBR730282	Bronchiolitis due to Human metapneumovirus
+^ESCTBR730286	Bronchiolitis caused by Human metapneumovirus
+^ESCTCA255466	Candidosis of lung
+^ESCTCA258740	Capillary pneumonia
+^ESCTCH478132	Chicken pox pneumonia
+^ESCTCO778351	COP - Cryptogenic organising pneumonitis
+^ESCTCO778352	COP - Cryptogenic organizing pneumonitis
+^ESCTCR778350	Cryptogenic organizing pneumonia
+^ESCTCY262207	Cytomegaloviral pneumonia
+^ESCTCY262208	Cytomegalic inclusion virus pneumonia
+^ESCTCY262210	Cytomegaloviral (CMV) pneumonia
+^ESCTEA325915	Eaton's agent pneumonia
+^ESCTEC372604	Echinococcus granulosus pulmonary infection
+^ESCTEC372605	Echinococcus granulosus lung infection
+^ESCTEM299025	Empyema necessitans
+^ESCTEM345110	Empyema thoracis
+^ESCTEM552523	Empyema of pleura without fistula
+^ESCTEN325909	Endemic pneumonia
+^ESCTFI375452	Fibrinous pleuritis
+^ESCTFU505349	Fungal pneumonia
+^ESCTGR478114	Group B streptococcal pneumonia
+^ESCTHA704473	HAP - hospital acquired pneumonia
+^ESCTHU328220	Humidifier lung
+^ESCTHU328223	Humidifier AND/OR air conditioning pneumonitis
+^ESCTIN316487	Influenzal bronchopneumonia
+^ESCTIN325910	Infection by PPLO
+^ESCTIN355186	Interstitial pneumonitis
+^ESCTIN474101	Infiltrative tuberculosis of lung
+^ESCTIN672975	Infection caused by Mycoplasma pneumoniae
+^ESCTIN699238	Inhalation pneumonia
+^ESCTIN730283	Inflammation of bronchiole due to Human metapneumovirus
+^ESCTIN730287	Inflammation of bronchiole caused by Human metapneumovirus
+^ESCTLE292805	Legionellosis
+^ESCTLE478117	Legionnaire's disease
+^ESCTLE478118	Legionnaires' disease
+^ESCTLE478119	Legionnaires disease
+^ESCTLO331638	Lower respiratory infection
+^ESCTLO382023	Louisiana pneumonia
+^ESCTLO478212	Loculated empyema
+^ESCTLO588768	Lower lobe pneumonia
+^ESCTLO656693	Lobular pneumonia
+^ESCTLR331640	LRTI - Lower respiratory tract infection
+^ESCTLT389641	LTB - Laryngotracheobronchitis
+^ESCTMY325912	Mycoplasma pneumoniae pneumonia
+^ESCTNE261264	Necrotic pneumonia
+^ESCTNE261265	Necrotizing pneumonia
+^ESCTNE261266	Necrotising pneumonia
+^ESCTNO381104	Nodular tuberculosis of lung
+^ESCTNO478127	Nocardial pneumonia
+^ESCTNO704472	Nosocomial pneumonia
+^ESCTON455550	On examination - consolidation present
+^ESCTPA325908	PAP due to Mycoplasma pneumoniae
+^ESCTPA325918	PAP caused by Mycoplasma pneumoniae
+^ESCTPA355587	Parainfluenza virus pneumonia
+^ESCTPA355588	Parainfluenzal pneumonia
+^ESCTPA355590	Parainfluenza pneumonia
+^ESCTPA372143	Parrot fever due to Chlamydia psitacci
+^ESCTPA388927	Passive pneumonia
+^ESCTPC687051	PCP - Pneumocystis pneumonia
+^ESCTPL478215	Pleuritis
+^ESCTPL552521	Pleural empyema with fistula
+^ESCTPL552522	Pleural empyema with no fistula
+^ESCTPN276690	Pneumococcal disease
+^ESCTPN302015	Pneumonia in Q fever
+^ESCTPN304781	Pneumonia due to Streptococcus
+^ESCTPN304783	Pneumonia caused by Streptococcus
+^ESCTPN316680	Pneumonia due to Pseudomonas
+^ESCTPN316682	Pneumonia caused by Pseudomonas
+^ESCTPN323103	Pneumonia in typhoid fever
+^ESCTPN325911	Pneumonia due to PPLO
+^ESCTPN325914	Pneumonia due to Mycoplasma pneumoniae
+^ESCTPN325916	Pneumonia caused by Mycoplasma pneumoniae
+^ESCTPN325919	Pneumonia caused by PPLO
+^ESCTPN333490	Pneumonia due to Escherichia coli
+^ESCTPN333491	Pneumonia due to E. coli
+^ESCTPN333493	Pneumonia caused by E. coli
+^ESCTPN333494	Pneumonia caused by Escherichia coli
+^ESCTPN346596	Pneumonia in pertussis
+^ESCTPN346597	Pneumonia in whooping cough
+^ESCTPN354859	Pneumonia caused by Klebsiella pneumoniae
+^ESCTPN355589	Pneumonia due to parainfluenza virus
+^ESCTPN420092	Pneumonia in aspergillosis
+^ESCTPN478113	Pneumonia caused by respiratory syncytial virus
+^ESCTPN478120	Pneumonia due to pleuropneumonia-like organism
+^ESCTPN478121	Pneumonia caused by pleuropneumonia-like organism
+^ESCTPN505345	Pneumonia caused by Chlamydiaceae
+^ESCTPN687053	Pneumocystosis jirovecii pneumonia
+^ESCTPN695354	Pneumocystosis associated with acquired immunodeficiency syndrome
+^ESCTPN730276	Pneumonia caused by Human metapneumovirus
+^ESCTPO286704	Post-tuberculous bronchiectasis
+^ESCTPO476476	Post measles pneumonia
+^ESCTPR325907	Primary atypical pneumonia due to Mycoplasma pneumoniae
+^ESCTPR325917	Primary atypical pneumonia caused by Mycoplasma pneumoniae
+^ESCTPR474099	Primary progressive tuberculosis with tuberculous pleurisy
+^ESCTPR478115	Proteus pneumonia
+^ESCTPT451460	PTB - Pulmonary tuberculosis
+^ESCTPU255464	Pulmonary candidiasis
+^ESCTPU255465	Pulmonary candidosis
+^ESCTPU387234	Pulmonary disease caused by Mycobacteria
+^ESCTPU474156	Pulmonary Mycobacterium avium complex infection
+^ESCTPU687052	Pulmonary pneumocystosis
+^ESCTPY299024	Pyothorax with bronchocutaneous fistula
+^ESCTQF302016	Q fever pneumonia
+^ESCTRT557383	RTI - Respiratory tract infection
+^ESCTSA328224	Sauna takers lung
+^ESCTSU345109	Suppurative pleurisy
+^ESCTTB451461	TB - Pulmonary tuberculosis
+^ESCTTH284748	Thoracic actinomycosis
+^ESCTTU273007	Tuberculous pleural empyema
+^ESCTTU474106	Tuberculous pleuritis
+^ESCTTY323104	Typhoid pneumonia
+^ESCTVA478131	Varicella pneumonia
+^ESCTVE328222	Ventilation pneumonitis
+EGTONPO1	Post influenzal debility
+EMISNQBR25	Bronchopneumonia
+EMISNQCO132	Community acquired pneumonia
+EMISNQHO51	Hospital acquired pneumonia
+EMISNQLO10	Lobar pneumonia
+EMISNQMI223	Middle East respiratory syndrome
+EMISNQNO54	Nonspecific interstitial pneumonia

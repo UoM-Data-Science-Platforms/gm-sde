@@ -2,11 +2,67 @@
 --│ LH004 Patient file                 │
 --└────────────────────────────────────┘
 
-SELECT * 
+set(StudyStartDate) = to_date('2018-01-01');
+set(StudyEndDate)   = to_date('2024-05-31');
+
+---- find the latest snapshot for each spell, to get all virtual ward patients
+drop table if exists virtualWards;
+create temporary table virtualWards as
+select  
+	distinct SUBSTRING(vw."Pseudo NHS Number", 2)::INT as "GmPseudo"
+from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw;
+
+-- deaths table
+
+DROP TABLE IF EXISTS Death;
+CREATE TEMPORARY TABLE Death AS
+SELECT 
+    DEATH."GmPseudo",
+    TO_DATE(DEATH."RegisteredDateOfDeath") AS DeathDate,
+    OM."DiagnosisOriginalMentionCode",
+    OM."DiagnosisOriginalMentionDesc",
+    OM."DiagnosisOriginalMentionChapterCode",
+    OM."DiagnosisOriginalMentionChapterDesc",
+    OM."DiagnosisOriginalMentionCategory1Code",
+    OM."DiagnosisOriginalMentionCategory1Desc"
+FROM PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" DEATH
+LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions" OM 
+        ON OM."XSeqNo" = DEATH."XSeqNo" AND OM."DiagnosisOriginalMentionNumber" = 1
+WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards);
+
+
+-- patient demographics table
+
+--DROP TABLE IF EXISTS Patients;
+--CREATE TEMPORARY TABLE Patients AS 
+SELECT * EXCLUDE (rownum)
 FROM (
-SELECT top 100 "Snapshot", "GmPseudo", "FK_Patient_ID", "DateOfBirth", LSOA11, tow.quintile, "Age", "Sex", "EthnicityLatest", "EthnicityLatest_Category", "EthnicityLatest_Record", "MarriageCivilPartership",
-row_number() over (partition by "GmPseudo" order by "Snapshot" desc) rownum
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" D
-LEFT JOIN INTERMEDIATE.GP_RECORD.TOWNSENDSCORE_LSOA_2011 tow on tow.geo_code = D.LSOA11
+SELECT 
+	"Snapshot", 
+	D."GmPseudo" AS GmPseudo,
+	"FK_Patient_ID", 
+	"DateOfBirth",
+	DATE_TRUNC(month, dth.DeathDate) AS DeathDate,
+	"DiagnosisOriginalMentionCode" AS CauseOfDeathCode,
+	"DiagnosisOriginalMentionDesc" AS CauseOfDeathDesc,
+	"DiagnosisOriginalMentionChapterCode" AS CauseOfDeathChapterCode,
+    "DiagnosisOriginalMentionChapterDesc" AS CauseOfDeathChapterDesc,
+    "DiagnosisOriginalMentionCategory1Code" AS CauseOfDeathCategoryCode,
+    "DiagnosisOriginalMentionCategory1Desc" AS CauseOfDeathCategoryDesc,
+	LSOA11, 
+	"IMD_Decile", 
+	"Age", 
+	"Sex", 
+	"EthnicityLatest_Category", 
+	"MarriageCivilPartership",
+	row_number() over (partition by D."GmPseudo" order by "Snapshot" desc) rownum
+FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D
+LEFT JOIN Death dth ON dth."GmPseudo" = D."GmPseudo"
+WHERE D."GmPseudo" IN (select "GmPseudo" from virtualwards) -- patients in virtual ward table only
 )
-WHERE rownum = 1
+WHERE rownum = 1; -- get latest demographic snapshot only
+
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+--14k rows

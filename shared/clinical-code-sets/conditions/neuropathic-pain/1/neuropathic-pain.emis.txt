@@ -1,0 +1,177 @@
+^ESCT1177680	CRPS - complex regional pain syndrome
+^ESCT1177683	Sudek atrophy
+^ESCT1192504	Morton neuroma
+^ESCT1218542	Polyneuropathy due to diabetes mellitus
+^ESCT1218543	Polyneuropathy co-occurrent and due to diabetes mellitus
+^ESCT1218601	Autonomic neuropathy with diabetes mellitus
+^ESCT1218602	Autonomic neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1222111	Neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1222115	Mononeuropathy co-occurrent and due to diabetes mellitus
+^ESCT1233105	Mononeuropathy with type 2 diabetes mellitus
+^ESCT1233106	Mononeuropathy co-occurrent and due to type 2 diabetes mellitus
+^ESCT1233275	Mononeuropathy with type 1 diabetes mellitus
+^ESCT1233276	Mononeuropathy co-occurrent and due to type 1 diabetes mellitus
+^ESCT1236372	Polyneuropathy co-occurrent and due to type 1 diabetes mellitus
+^ESCT1236373	Polyneuropathy co-occurrent and due to type 2 diabetes mellitus
+^ESCT1270237	Mononeuropathy associated with type 1 diabetes mellitus
+^ESCT1270240	Mononeuropathy associated with type 2 diabetes mellitus
+^ESCT1379006	Neuropathic ulcer of foot due to diabetes mellitus
+^ESCT1379007	Neuropathic arthropathy due to diabetes mellitus
+^ESCT1405878	Autonomic neuropathy due to diabetes mellitus
+^ESCT1407130	Autonomic neuropathy due to amyloidosis
+^ESCT1407132	Acute painful neuropathy due to diabetes mellitus
+^ESCT1407133	Chronic painful neuropathy due to diabetes mellitus
+^ESCT1407135	Polyneuropathy due to amyloidosis
+^ESCT1407192	Pain due to internal prosthetic device
+^ESCT1407246	Neuropathy due to diabetes mellitus
+^ESCT1407250	Mononeuropathy due to diabetes mellitus
+^ESCT1408376	Mononeuropathy due to type 2 diabetes mellitus
+^ESCT1408386	Mononeuropathy due to type 1 diabetes mellitus
+^ESCT1419656	Charcot-Marie-Tooth disease type 3
+^ESCTAC318261	Acquired polyneuropathy
+^ESCTAF318164	AF type amyloidosis
+^ESCTAL262614	Alcoholic polyneuropathy
+^ESCTAL262616	Alcoholic peripheral neuropathy
+^ESCTAM477053	Amyloid polyneuropathy
+^ESCTAR359861	Arthropathy associated with a neurological disorder
+^ESCTBE379106	Beriberi neuropathy
+^ESCTBE388262	Bernhardt-Rot syndrome
+^ESCTBE388263	Bernhardt's paresthesia
+^ESCTBE388264	Bernhardt's paraesthesia
+^ESCTCA376342	Carcinomatous peripheral neuropathy
+^ESCTCA376343	Carcinomatous neuropathy
+^ESCTCE481511	Cervical spondylosis with root compression
+^ESCTCE481546	Cervical disc prolapse with root compression
+^ESCTCH620348	Charcot's joint
+^ESCTCH620349	Charcot arthropathy
+^ESCTCH659674	Charcot-Marie-Tooth disease, type I
+^ESCTCH659679	Charcot-Marie-Tooth disease of demyelinating type
+^ESCTCH659681	Charcot Marie Tooth disease, type 1
+^ESCTCH659929	Charcot-Marie-Tooth disease, type II
+^ESCTCH659933	Charcot Marie Tooth disease, type 2
+^ESCTCL476983	Cluster headache
+^ESCTCO307464	Complication of medical care
+^ESCTCO388260	Compression of lateral cutaneous femoral nerve of thigh
+^ESCTCO440542	Complex regional pain syndromes
+^ESCTCO440543	Complex regional pain syndrome (CRPS)
+^ESCTCO676643	Complex regional pain syndrome, type II
+^ESCTCP559704	CPSP - Central post-stroke pain
+^ESCTCR440545	CRPS - complex regional pain syndrome
+^ESCTCR500983	Critical illness-associated polyneuropathy
+^ESCTCR676645	CRPS - Complex regional pain syndrome type II
+^ESCTD?419639	D?j?rine-Sottas disease
+^ESCTDE676644	Deafferentation pain
+^ESCTDI274168	Disorder of autonomic nervous system
+^ESCTDI274169	Disorder of vegetative system
+^ESCTDI331986	Diabetic autonomic neuropathy
+^ESCTDI480892	Diabetic neuropathic arthropathy
+^ESCTDI500985	Diphtheritic neuropathy
+^ESCTDI802246	Diabetic neuropathic arthropathy due to type 1 diabetes mellitus
+^ESCTDI802247	Diabetes mellitus type 1 with diabetic Charcot's arthropathy
+^ESCTDP834330	DPNP - diabetic peripheral neuropathic pain
+^ESCTDR261682	Drug-related polyneuropathy
+^ESCTDY274170	Dysautonomia
+^ESCTEN388265	Entrapment of lateral cutaneous nerve of thigh
+^ESCTFA318163	Familial amyloid polyneuropathy
+^ESCTFA318165	Familial polyneuropathic amyloidosis
+^ESCTFA318166	Familial neuropathic amyloidosis
+^ESCTFO301029	Fothergill's neuralgia
+^ESCTHE419640	Hereditary sensory-motor neuropathy, type III
+^ESCTHE419641	Hereditary hypertrophic neuropathy
+^ESCTHE419644	Hereditary motor and sensory neuropathy, type III
+^ESCTHE659675	Hereditary sensory-motor neuropathy, type I
+^ESCTHE659771	Hereditary sensory and motor neuropathy
+^ESCTHE659772	Hereditary sensory-motor neuropathy
+^ESCTHE659777	Hereditary sensorimotor neuropathy
+^ESCTHI476988	Histamine cephalgia
+^ESCTHI476990	Histamine headache
+^ESCTHM419646	HMSN III
+^ESCTHM659774	HMSN
+^ESCTHM659775	HMSN - Hereditary motor and sensory neuropathy
+^ESCTHO308579	Hot pain
+^ESCTHO476986	Horton's headache
+^ESCTHO476991	Horton's neuralgia
+^ESCTHS419645	HSMN III
+^ESCTHS659680	HSMN, type I
+^ESCTHS659773	HSMN
+^ESCTHS659776	HSMN - Hereditary sensory and motor neuropathy
+^ESCTHY419647	Hypertrophic hereditary neuropathy
+^ESCTHY419649	Hypertrophic demyelinative neuropathy of infancy
+^ESCTIN298420	Interdigital neuralgia
+^ESCTIN298421	Interdigital neuroma
+^ESCTIN659677	Inherited dominant hypertrophic neuropathy
+^ESCTIN659930	Inherited neuronal peroneal muscular atrophy
+^ESCTIO264567	Iowa type amyloidosis
+^ESCTIO264572	Iowa type amyloid polyneuropathy
+^ESCTLA388261	Lateral cutaneous femoral nerve of thigh syndrome
+^ESCTLU481550	Lumbar disc prolapse with root compression
+^ESCTME307465	Medical care complication
+^ESCTME388259	Meralgia paresthetica
+^ESCTMO298415	Morton's neuroma
+^ESCTMO298416	Morton's metatarsalgia
+^ESCTMO298418	Morton's toe
+^ESCTMO298419	Morton's disease
+^ESCTMO298424	Mortons neuroma
+^ESCTMO695412	Mononeuropathy associated with type II diabetes mellitus
+^ESCTMO696275	Mononeuropathy associated with type I diabetes mellitus
+^ESCTNE286761	Neuralgia-neuritis of sciatic nerve
+^ESCTNE318167	Neuropathic heredofamilial amyloidosis
+^ESCTNE346615	Neurotrophic ulcer of the foot
+^ESCTNE374382	Nerve pain from shingles
+^ESCTNE379109	Neuropathic beriberi
+^ESCTNE379110	Neuropathy due to vitamin B1 deficiency
+^ESCTNE476989	Neuralgic migraine
+^ESCTNE477043	Neuropathy in vasculitis and connective tissue disease
+^ESCTNE477057	Neuropathy associated with hypoglycaemia
+^ESCTNE477059	Neuropathy associated with hypoglycemia
+^ESCTNE500951	Neuropathy associated with endocrine disorder
+^ESCTNE644909	Neuropathy (nerve damage)
+^ESCTNE802244	Neuropathic arthropathy due to type 1 diabetes mellitus
+^ESCTOA264120	OA - Osteoarthritis of the spine
+^ESCTOA264121	OA - Osteoarthritis of spine
+^ESCTPA266075	Pain in ball of foot
+^ESCTPA275801	Paroxysmal nerve pain
+^ESCTPA292612	Parsonage-Aldren-Turner syndrome
+^ESCTPA292614	Parsonage-Turner syndrome
+^ESCTPA376344	Paraneoplastic polyneuropathy
+^ESCTPA480783	Painful surgical scar
+^ESCTPE346613	Perforating ulcer of the foot
+^ESCTPE346614	Perforating neurotrophic ulcer of the foot
+^ESCTPE659676	Peroneal muscular atrophy of demyelinating type
+^ESCTPE659932	Peroneal muscular atrophy of neuronal type
+^ESCTPH253365	PHN - Post-herpetic neuralgia
+^ESCTPO261681	Polyneuropathy due to drug
+^ESCTPO261683	Polyneuropathy caused by drug
+^ESCTPO268225	Posterior sensory radicular neuropathy
+^ESCTPO318262	Polyneuropathy (multiple nerve disorder)
+^ESCTPO323617	Polyneuropathy due to toxic agents
+^ESCTPO374381	Postherpetic polyneuropathy
+^ESCTPO442851	Porphyric polyneuropathy
+^ESCTPO477054	Polyneuropathy due to vitamin B deficiency
+^ESCTPO477060	Polyneuropathy in hypoglycemia
+^ESCTPO770809	Polyneuropathy due to type 1 diabetes mellitus
+^ESCTPO770812	Polyneuropathy due to diabetes mellitus type II
+^ESCTPR419643	Progressive hypertrophic interstitial neuropathy
+^ESCTSA477062	Sarcoid neuropathy
+^ESCTSC286762	Sciatic neuralgia
+^ESCTSC286763	Sciatica neuralgia
+^ESCTSH292613	Shoulder girdle syndrome
+^ESCTSP264118	Spondylarthrosis
+^ESCTSP264122	Spondarthropathy
+^ESCTSU786492	SUNCT (short-lasting unilateral neuralgiform headache attacks with conjunctival injection and tearing) syndrome
+^ESCTSU786493	SUNCT syndrome
+^ESCTTH379107	Thiamine deficiency neuropathy
+^ESCTTH481517	Thoracic spondylosis with root compression
+^ESCTTH481548	Thoracic disc prolapse with root compression
+^ESCTTN301030	TN - Trigeminal neuralgia
+^ESCTTO323615	Toxic polyneuropathy
+^ESCTTR301028	Trifacial neuralgia
+^ESCTUR477064	Uraemic polyneuropathy
+^ESCTUR477065	Uremic polyneuropathy
+^ESCTVA264568	van Allen type amyloidosis
+^ESCTVA476987	Vasomotor headache
+^ESCTVI379108	Vitamin B>1< deficiency neuropathy
+EMISNQAU90	Autonomic dysreflexia
+EMISNQAX1	Axonal sensorimotor neuropathy
+EMISNQCO72	Complex regional pain syndrome NOS
+EMISNQCR9	Critical illness polyneuropathy

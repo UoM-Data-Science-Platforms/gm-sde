@@ -1,0 +1,5 @@
+14CH.	History of chronic pancreatitis
+J671.	Chronic pancreatitis
+J6710	Alcohol-induced chronic pancreatitis
+J6711	Gallstone chronic pancreatitis
+Jyu84	[X]Other chronic pancreatitis

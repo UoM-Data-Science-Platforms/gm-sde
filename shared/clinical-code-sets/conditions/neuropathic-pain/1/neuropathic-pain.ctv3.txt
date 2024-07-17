@@ -1,0 +1,197 @@
+1DC1.	Burning pain
+1DC9.	Shooting pain
+A5313	Post-herpetic polyneuropathy
+A72x1	Mumps polyneuropathy
+C3732	Familial neuropathic amyloidosis
+F17..	Disorders of autonomic nervous system
+F170.	Idiopathic peripheral autonomic neuropathy
+F170z	Idiopathic peripheral autonomic neuropathy NOS
+F171.	Peripheral autonomic neuropathy disease EC
+F1710	Autonomic neuropathy due to amyloid
+F1711	Diabetic autonomic neuropathy
+F171z	Peripheral autonomic neuropathy due to disease NOS
+F2620	Cluster headache syndrome
+F3...	Peripheral nervous system disorders
+F300.	Post-herpetic trigeminal neuralgia
+F301.	Other specified trigeminal neuralgia
+F3010	Trigeminal neuralgia
+F301z	Trigeminal neuralgia NOS
+F321.	Glossopharyngeal neuralgia
+F335.	Neuralgic amyotrophy
+F3360	Phantom limb syndrome with pain
+F344.	Complex regional pain syndrome type II
+F34z.	Mononeuritis upper limb NOS
+F35..	Mononeuritis lower limb
+F351.	Meralgia paraesthetica
+F3560	Interdigital neuralgia
+F35x.	Other mononeuritis lower limb
+F35y.	Unspecified mononeuritis lower limb
+F36..	Hereditary and idiopathic peripheral neuropathy
+F3600	Hereditary motor and sensory neuropathy type III
+F360z	Hereditary peripheral neuropathy NOS
+F361z	Peroneal muscular atrophy NOS
+F362.	Hereditary sensory neuropathy
+F364.	Idiopathic progressive polyneuropathy
+F365.	Neuropathy in association with hereditary ataxia
+F366.	Polyneuropathy
+F36y.	Other idiopathic peripheral neuropathy
+F36yz	Other idiopathic peripheral neuropathy NOS
+F36z.	Hereditary or idiopathic peripheral neuropathy NOS
+F37..	Inflammatory &/or toxic neuropathy
+F371.	Polyneuropathy in collagen vascular disease
+F3710	Polyneuropathy in disseminated lupus erythematosus
+F3711	Polyneuropathy in polyarteritis nodosa
+F371z	Polyneuropathy in collagen vascular disease NOS
+F3720	Acute painful diabetic neuropathy
+F3721	Chronic painful diabetic neuropathy
+F373.	Carcinomatous neuropathy
+F3740	Polyneuropathy in amyloidosis
+F3741	Neuropathy due to vitamin B1 deficiency
+F3742	Polyneuropathy in vitamin B deficiency
+F3744	Polyneuropathy in herpes zoster
+F3745	Neuropathy associated with hypoglycaemia
+F3746	Polyneuropathy in mumps
+F3748	Polyneuropathy in porphyria
+F3749	Sarcoid neuropathy
+F374A	Uraemic polyneuropathy
+F375.	Alcohol-related polyneuropathy
+F376.	Drug-related polyneuropathy
+F377.	Other toxic agent polyneuropathy
+F37y.	Other toxic or inflammatory neuropathy
+F3y..	Other specified disorders of peripheral nervous system
+F3z..	Peripheral nervous system disorder NOS
+Fyu13	[X]Paraneoplastic neuromyopathy and neuropathy
+Fyu66	[X]Nerve root and plexus compressions in neoplastic disease classified elsewhere
+Fyu68	[X]Nerve root and plexus compressions in other diseases classified elsewhere
+Fyu6A	[X]Other mononeuropathies of upper limb
+Fyu6B	[X]Other mononeuropathies of lower limb
+Fyu6C	[X]Other specified mononeuropathies
+Fyu6D	[X]Other mononeuropathies in diseases classified elsewhere
+Fyu7.	[X]Polyneuropathies and other disorders of the peripheral nervous system
+Fyu70	[X]Other hereditary and idiopathic neuropathies
+Fyu72	[X]Other specified polyneuropathies
+Fyu74	[X]Polyneuropathy in neoplastic disease classified elsewhere
+Fyu75	[X]Polyneuropathy in other endocrine and metabolic diseases classified elsewhere
+Fyu77	[X]Polyneuropathy in systemic connective tissue disorders classified elsewhere
+Fyu78	[X]Polyneuropathy in other musculoskeletal disorders classified elsewhere
+Fyu79	[X]Polyneuropathy in other diseases classified elsewhere
+Fyu7A	[X]Other disorders of the peripheral nervous system
+Fyu7C	[X]Polyneuropathy, unspecified
+FyuA0	[X]Other disorders of the autonomic nervous system
+FyuAC	[X]Autonomic neuropathy in endocrine and metabolic diseases classified elsewhere
+FyuAD	[X]Other disorders of the autonomic nervous system in other diseases classified elsewhere
+KyuA0	[X]Other postprocedural disorders of the genitourinary system
+M2711	Neuropathic diabetic ulcer - foot
+M2y15	Painful operation scar
+N0301	Diabetic neuropathic arthropathy
+N119.	Cervical spondylosis with radiculopathy
+N1190	Single-level cervical spondylosis with radiculopathy
+N1191	Two-level cervical spondylosis with radiculopathy
+N1192	Multiple-level cervical spondylosis with radiculopathy
+N11B.	Thoracic spondylosis with radiculopathy
+N11B0	Single-level thoracic spondylosis with radiculopathy
+N11B1	Two-level thoracic spondylosis with radiculopathy
+N11B2	Multiple-level thoracic spondylosis with radiculopathy
+N11C.	Lumbosacral spondylosis with radiculopathy
+N11C0	Single-level lumbosacral spondylosis with radiculopathy
+N11C1	Two-level lumbosacral spondylosis with radiculopathy
+N11C2	Multiple-level lumbosacral spondylosis with radiculopathy
+N11y.	Other spondyloses and allied disorders
+N11y2	Neuropathic spondylopathy
+N11z.	(Spondylosis NOS) or (osteoarthritis spine)
+N12C.	Disc prolapse with radiculopathy
+N12C0	Cervical disc prolapse with radiculopathy
+N12C1	Thoracic disc prolapse with radiculopathy
+N12C2	Lumbar disc prolapse with radiculopathy
+N12zH	Cervical disc disorder with radiculopathy
+N1420	Lumbago with sciatica
+N2172	Metatarsalgia NOS
+N242.	Neuralgia, neuritis and radiculitis unspecified
+N2420	Neuralgia unspecified
+N337.	Complex regional pain syndrome type I
+Nyu62	[X]Other spondylosis with myelopathy
+Nyu63	[X]Other spondylosis with radiculopathy
+Nyu64	[X]Other spondylosis
+Nyu74	[X]Lumbar and other intervertebral disc disorders with radiculopathy
+SD722	Neuropathic foot blister
+SP073	Internal prosthetic device causing pain
+SyuK1	[X]Other complications following infusion, transfusion and therapeutic injection
+SyuK2	[X]Other complications of procedures, not elsewhere classified
+SyuK3	[X]Mechanical complication of other vascular grafts
+SyuK4	([X] Mechanical complication of other cardiac and vascular devices and implants) or ([X] mechanical complication of vascular catheter)
+SyuK5	([X]Infection and inflammatory reaction due to other cardiac and vascular devices, implants and grafts) or ([X] vascular graft infection)
+SyuK6	([X] Other complications of cardiac and vascular prosthetic devices, implants and grafts) or ([X] embolism from prosthetic heart valve)
+SyuK7	[X]Unspecified complication of cardiac and vascular prosthetic device, implant and graft
+SyuK8	[X]Mechanical complication of other urinary devices and implants
+SyuK9	[X]Mechanical complication of other devices, implants and grafts of genital tract
+SyuKA	[X]Other complications of genitourinary prosthetic devices, implants and grafts
+SyuKD	[X]Infection and inflammatory reaction due to other internal orthopaedic prosthetic devices, implants and grafts
+SyuKE	[X] Other complications of internal orthopaedic prosthetic devices, implants and grafts (& [prosthesis: [pain due to] or [fibrosis due to]] or [stiffness following joint replacement])
+SyuKF	[X]Mechanical complication of other ocular prosthetic devices, implants and grafts
+SyuKG	[X]Mechanical complication of other specified internal prosthetic devices, implants and grafts
+SyuKH	[X]Infection and inflammatory reaction due to other internal prosthetic devices, implants and grafts
+SyuKJ	[X]Other complications of internal prosthetic devices, implants and grafts, not elsewhere classified
+SyuKL	[X]Complications of other reattached body part
+SyuKN	[X]Other complications following immunization, not elsewhere classified
+SyuKQ	[X]Other specified complications and adverse effects of surgical and medical care, not elsewhere classified
+U633.	[X]Surgical operation with formation of external stoma as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+U640.	[X]Cardiac catheterisation as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+U644.	[X]Aspiration of fluid as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+U645.	[X]Insertion of gastric or duodenal sound as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+U647.	[X]Blood sampling as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+X00A8	Peripheral neuropathy - hereditary or idiopathic
+X00A9	Hereditary motor and sensory neuropathy type I
+X00AA	Hereditary motor and sensory neuropathy type II
+X00Af	Neuropathy associated with endocrine disorder
+X00Ag	Diabetic neuropathy
+X00Al	Diabetic mononeuropathy
+X00AZ	Neuropathies and neuromyelopathies associated with systemic disorder
+X00B2	Critical illness polyneuropathy
+X00B5	Diphtheritic neuropathy
+X00BG	Toxic neuropathy
+X40Pq	Familial amyloid polyneuropathy type III
+X40YD	Neuropathic beriberi
+X50Bj	Neuropathic foot ulcer
+X702P	Charcot's arthropathy
+X7039	Spondylosis
+X707a	Metatarsalgia
+X75rz	Acute back pain with sciatica
+X75sa	Neuralgia
+X75sv	Post-herpetic neuralgia
+X75sy	Neuropathic pain
+Xa0Ml	Central post-stroke pain
+Xa0t5	Morton neuroma
+Xa0y5	Complex regional pain syndrome
+Xa0y8	Shortlasting, unilateral, neuralgiform pain with conjunctival injection and tearing syndrome
+Xa3fB	Other peripheral neuropathy
+Xa3fC	Other peripheral nerve disease
+Xa8I0	Peripheral nerve disease
+XaA1H	Mononeuropathy
+XaB3q	Polyneuropathy unspecified
+Xac0x	Diabetic peripheral neuropathic pain
+XaC1M	Pain due to hip joint prosthesis
+XaC1N	Pain due to knee joint prosthesis
+XaC1O	Pain due to shoulder joint prosthesis
+XaD2p	Prolapsed lumbar intervertebral disc with sciatica
+XaEnp	Type II diabetes mellitus with mononeuropathy
+XaEnq	Type II diabetes mellitus with polyneuropathy
+XaFn9	Type II diabetes mellitus with neuropathic arthropathy
+XaIrg	Ulnar neuropathy
+XC0eJ	Neuropathy
+XE15i	Mononeuritis of unspecified site NOS
+XE15j	Inflammatory and toxic neuropathy
+XE15k	Diabetic polyneuropathy
+XE15m	Toxic or inflammatory neuropathy NOS
+XE15R	Autonomic nervous system disorder NOS
+XE18P	Drug &/or toxic polyneuropathy
+XE1Ey	Spondylosis NOS
+XE1FC	Sciatica
+XE1Fn	Neuralgia, neuritis or radiculitis NOS
+XE1HO	(Spondylosis NOS) or (Kummell's disease/spondylitis)
+XE1IY	(Neuralgia/neuritis - NOS) or (nerve root pain NEC)
+XE1pI	[X]Mechanical complication of other cardiac and vascular devices and implants
+XE1pJ	[X]Infection and inflammatory reaction due to other cardiac and vascular devices, implants and grafts
+XE1pK	[X]Other complications of cardiac and vascular prosthetic devices, implants and grafts
+XE1pL	[X]Other complications of internal orthopaedic prosthetic devices, implants and grafts
+XE1tn	Medical care complication
+XE2sp	Neuropathic arthropathy

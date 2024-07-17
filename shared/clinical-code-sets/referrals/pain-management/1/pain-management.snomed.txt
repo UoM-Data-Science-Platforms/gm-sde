@@ -1,0 +1,7 @@
+305948002	Referral by pain management specialist (procedure)
+306039002	Referral by pain management nurse (procedure)
+306109009	Referral to pain management service (procedure)
+306265007	Referral to pain management specialist (procedure)
+306330005	Referral to pain management nurse (procedure)
+809591000000106	Referral to pain management clinic (procedure)
+885251000000103	Private referral to pain management service (procedure)

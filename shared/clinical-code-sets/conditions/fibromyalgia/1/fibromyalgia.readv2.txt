@@ -1,0 +1,5 @@
+1DC8.00	generalised pain [symptom]
+N239.00	fibromyalgia
+N248.00	fibromyalgia
+R00z200	[d]pain; generalized
+R00z211	[d]general aches and pains

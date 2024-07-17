@@ -1,0 +1,247 @@
+A983.00	Chronic gonorrhoea of upper genitourinary tract
+K240.00	Orchitis
+K404000	Chronic female pelvic cellulitis
+K242.00	Epididymo-orchitis
+K400300	Acute salpingitis
+K420100	Endocervicitis unspecified
+K21z.00	Prostatitis NOS
+K40z.12	Female pelvic infection
+K420000	Cervicitis unspecified
+K402600	Salpingitis unspecified
+K241.00	Epididymitis
+K41z000	Endometritis unspecified
+K4...00	Female pelvic inflammatory diseases
+K401500	Hydrosalpinx
+K403111	Acute pelvic abscess - female
+K210.00	Acute prostatitis
+K404300	Chronic abscess of the female pelvis
+K241400	Acute epididymitis
+K40z.00	Female pelvic inflammatory diseases NOS
+K405000	Parametritis unspecified
+K402200	Tubo-ovarian abscess
+K211.00	Chronic prostatitis
+K40z.13	PID - pelvic inflammatory disease
+K401300	Chronic salpingitis
+K241200	Epididymitis unspecified
+K409.00	Acute pelvic inflammatory disease
+K401600	Salpingitis follicularis
+K241500	Chronic epididymitis
+K40y100	Female chlamydial pelvic inflammatory disease
+K21..11	Prostatitis and other inflammatory diseases of prostate
+K420.00	Cervicitis and endocervicitis
+K400.00	Acute salpingitis and oophoritis
+A981600	Acute gonococcal endometritis
+A78A.00	Chlamydial infection
+K410000	Acute endometritis
+K44..00	Female gonococcal pelvic inflammatory disease
+K410500	Subacute endometritis
+K402100	Ovarian abscess
+A167100	Tuberculous endometritis
+K402500	Salpingo-oophoritis unspecified
+K41z400	Pyometra unspecified
+K406.11	Acute pelvic inflammatory disease
+K405.00	Parametritis and pelvic cellulitis unspecified
+A983700	Chronic gonococcal salpingitis
+K40z.11	PID
+A720.00	Mumps orchitis
+K420900	Chlamydia cervicitis
+K400200	Acute salpingo-oophoritis
+A983500	Chronic gonococcal cervicitis
+K420200	Acute cervicitis
+A981200	Acute gonococcal prostatitis
+A983200	Chronic gonococcal prostatitis
+K402.00	Salpingitis and oophoritis unspecified
+A981300	Acute gonococcal epididymo-orchitis
+K240200	Orchitis unspecified
+K402011	Pyosalpinx
+K241600	Chlamydial epididymitis
+K402000	Fallopian tube abscess
+K240z00	Orchitis NOS
+K404400	Chronic abscess of the pouch of Douglas
+K280.00	Seminal vesiculitis
+K241z00	Epididymitis NOS
+K400000	Acute oophoritis
+K43..00	Female tuberculous pelvic inflammatory disease
+K411000	Chronic endometritis
+K410.00	Acute uterine inflammatory disease
+K242z00	Epididymo-orchitis NOS
+K40y000	Female syphilitic pelvic inflammatory disease
+K402300	Oophoritis unspecified
+K242200	Epididymo-orchitis unspecified
+L090000	Endometritis following abortive pregnancy
+K401.00	Chronic salpingitis and oophoritis
+K280000	Seminal vesiculitis unspecified
+K405100	Pelvic cellulitis unspecified
+K241000	Epididymitis with abscess
+K240000	Orchitis with abscess
+K214.00	Prostatitis in diseases EC
+A166111	Fallopian tube tuberculosis
+A981500	Acute gonococcal cervicitis
+A981700	Acute gonococcal salpingitis
+K4z..00	Female pelvic inflammatory disease NOS
+K410400	Acute pyometra or uterine abscess
+K410100	Acute endomyometritis
+A78A500	Chlamydial infection of genital organs NEC
+K242100	Epididymo-orchitis with no abscess
+K403100	Acute pelvic cellulitis
+K24z.00	Orchitis and epididymitis NOS
+Lyu6C00	[X]Cervicitis following delivery
+K420z00	Cervicitis and endocervicitis NOS
+K40..00	Ovarian, fallopian tube and pelvic inflammatory diseases
+K214600	Prostatitis in trichomoniasis
+K41z100	Endomyometritis unspecified
+A166100	Tuberculous salpingitis
+K284500	Vasitis
+K401200	Chronic salpingo-oophoritis
+K404z00	Chronic pelvic inflammatory diseases NOS
+K24..00	Orchitis and epididymitis
+K242000	Epididymo-orchitis with abscess
+K411100	Chronic endomyometritis
+K403000	Acute parametritis
+K400800	Subacute salpingitis
+L090300	Salpingitis following abortive pregnancy
+K400700	Subacute salpingo-oophoritis
+A981311	Acute gonococcal orchitis
+K404.00	Chronic parametritis and pelvic cellulitis
+K4y..00	Other specified female pelvic inflammatory disease
+A167000	Tuberculous cervicitis
+AD10300	Trichomonal prostatitis
+K420700	Endocervicitis with Nabothian cyst
+A983300	Chronic gonococcal epididymo-orchitis
+L090100	Parametritis following abortive pregnancy
+A983600	Chronic gonococcal endometritis
+K401000	Chronic oophoritis
+A78A300	Chlamydial inf of pelviperitoneum oth genitourinary organs
+K400.11	Oophoritis - acute
+K411400	Chronic pyometra
+K242300	Epididymo-orchitis in diseases EC
+K410900	Subacute pyometra
+A32y500	Diphtheria of penis
+K410200	Acute myometritis
+A166.00	Tuberculous oophoritis or salpingitis
+K410300	Acute perimetritis
+K241100	Epididymitis with no abscess
+L090400	Salpingo-oophoritis following abortive pregnancy
+K401z00	Chronic salpingitis and oophoritis NOS
+A981z00	Acute gonorrhoea upper genitourinary tract NOS
+A166z00	Tuberculous oophoritis or salpingitis NOS
+K402z00	Unspecified salpingitis and oophoritis NOS
+K410z00	Acute uterine inflammatory diseases NOS
+K41..00	Uterine inflammatory diseases excluding the cervix
+K411.00	Chronic uterine inflammatory disease
+K400z00	Acute salpingitis and oophoritis NOS
+K410700	Subacute myometritis
+K41z300	Perimetritis unspecified
+K214400	Prostatitis in gonorrhoea
+K240100	Orchitis with no abscess
+K403.00	Acute parametritis and pelvic cellulitis
+K41z200	Myometritis unspecified
+K404200	Chronic abscess of the parametrium
+K241300	Epididymitis in diseases EC
+A166000	Tuberculous oophoritis
+K41z.00	Unspecified uterine inflammatory disease
+K401100	Chronic perioophoritis
+A981.00	Acute gonorrhoea of upper genitourinary tract
+K400400	Acute perisalpingitis
+A981400	Acute gonococcal seminal vesiculitis
+A981611	Uterus - acute gonorrhoea
+A164.00	Tuberculosis of epididymis
+A165.00	Tuberculosis of other male genital organs
+A165000	Tuberculosis of prostate
+A165100	Tuberculosis seminal vesicle
+A165200	Tuberculosis of testis
+A165z00	Tuberculosis of other male genital organs NOS
+A167.00	Tuberculosis of other female genital organs
+A167z00	Tuberculosis of other female genital organs NOS
+A3By700	Gardnerella vaginalis
+A78AW00	Chlamydial infection, unspecified
+A78AX00	Chlamydial infection of genitourinary tract, unspecified
+A910.00	Primary genital syphilis
+A980000	Acute gonococcal Bartholinitis
+A980100	Acute gonococcal urethritis
+A981000	Acute unspecified gonorrhoea of upper genitourinary tract
+A981100	Acute gonococcal cystitis
+A982000	Chronic gonococcal bartholinitis
+A982100	Chronic gonococcal urethritis
+A983000	Chronic unspecified gonorrhoea of upper genitourinary tract
+A983100	Chronic gonococcal cystitis
+A983400	Chronic gonococcal seminal vesiculitis
+A983z00	Chronic gonorrhoea of upper genitourinary tract NOS
+AB21100	Candidiasis of vagina
+Ayu4D00	[X]Sexually transmitted chlamydial infection of other sites
+Ayu4K00	[X]Chlamydial infection of genitourinary tract, unspecified
+Ayu6.00	[X]Other diseases caused by chlamydiae
+Ayu6100	[X]Other chlamydial diseases
+Ayu6200	[X]Chlamydial infection, unspecified
+K154500	Cystitis in gonorrhoea
+K17y200	Skene's glands adenitis
+K213.00	Prostatocystitis
+K214000	Prostatitis in actinomycosis
+K214100	Prostatitis in blastomycosis
+K214200	Prostatitis in syphilis
+K214300	Prostatitis in tuberculosis
+K214500	Prostatitis in moniliasis
+K214z00	Prostatitis in diseases EC NOS
+K21y.00	Other prostatic inflammatory diseases
+K240300	Orchitis in diseases EC
+K271100	Posthitis
+K272100	Penile boil
+K272200	Penile carbuncle
+K272300	Cellulitis of penis
+K272z00	Other penile inflammatory disorder NOS
+K280200	Cellulitis of seminal vesicle
+K280z00	Seminal vesiculitis NOS
+K284100	Boil of scrotum
+K284200	Carbuncle of scrotum
+K284300	Cellulitis of scrotum
+K284700	Sperm granuloma of spermatic cord
+K284800	Sperm granuloma of epididymis
+K284900	Inflammation of scrotum
+K28X.00	Inflammatory disorder of unspecified male genital organ
+K400500	Subacute oophoritis
+K401700	Salpingitis isthmica nodosa
+K403z00	Acute parametritis and pelvic cellulitis NOS
+K405z00	Parametritis and pelvic cellulitis NOS
+K408.00	Other chronic female pelvic peritonitis
+K40y.00	Other female pelvic organ inflammatory diseases
+K410600	Subacute endomyometritis
+K410800	Subacute perimetritis
+K411200	Chronic myometritis
+K411300	Chronic perimetritis
+K411z00	Chronic uterine inflammatory disease NOS
+K41zz00	Unspecified uterine inflammatory disease NOS
+K420300	Cervicitis with erosion
+K420400	Cervicitis with Nabothian cyst
+K420600	Endocervicitis with erosion
+K420A00	Nabothian follicles
+K420B00	Chronic cervicitis
+K421000	Vaginitis unspecified
+K421300	Postirradiation vaginitis
+K421400	Vaginitis in diseases EC
+K421500	Vulvitis in diseases EC
+K421800	Subacute and chronic vulvitis
+K421900	Bacterial vaginitis
+K421A00	Acute vulvitis
+K424200	Furuncle of vulva
+K42y000	Carbuncle of vagina
+K42y100	Carbuncle of labium
+K42y300	Bartholinitis
+K42y500	Vulval vestibulitis
+K5A3.00	Postmenopausal atrophic vaginitis
+K5A5.00	Perimenopausal atrophic vaginitis
+Kyu6300	[X]Other inflammatory disorders of penis
+Kyu6600	[X]Inflammatory disorder of unspecified male genital organ
+Kyu8.00	[X]Inflammatory diseases of female pelvic organs
+Kyu8000	[X]Other specified female pelvic inflammatory diseases
+Kyu8100	[X]Female pelvic inflammatory disorders in other diseases classified elsewhere
+Kyu8200	[X]Other diseases of Bartholin's gland
+Kyu8300	[X]Other specified inflammation of vagina and vulva
+Kyu8400	[X]Ulceration of vulva in infectious and parasitic diseases classified elsewhere
+Kyu8500	[X]Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic disease classified elsewhere
+Kyu8600	[X]Vulvovaginal ulceration and inflammation in other diseases classified elsewhere
+Lyu6000	[X]Other infection of genital tract following delivery
+Lyu6B00	[X]Vaginitis following delivery
+SP06E00	Infection and inflammation associated with retained intrauterine contraceptive device
+SP06F00	Inflammation associated with retained intrauterine contraceptive device
+K421100	Vulvitis unspecified
+K424100	Carbuncle of vulva

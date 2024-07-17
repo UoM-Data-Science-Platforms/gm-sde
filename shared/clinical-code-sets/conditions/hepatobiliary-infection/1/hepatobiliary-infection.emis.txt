@@ -1,0 +1,68 @@
+^ESCT1378985	Hepatitis caused by Toxoplasma
+^ESCT1407102	Hepatic coma due to acute hepatitis B with delta agent
+^ESCT1407103	Hepatic coma due to viral hepatitis C
+^ESCTAC290109	Acute type A viral hepatitis
+^ESCTAC290111	Acute hepatitis A
+^ESCTAL372150	ALA - Amoebic liver abscess
+^ESCTAL372151	ALA - Amebic liver abscess
+^ESCTAM372149	Amebic liver abscess
+^ESCTAV343297	AVH - Acute viral hepatitis
+^ESCTBI291488	Biliary calculus with cholecystitis
+^ESCTBI478772	Bile duct calculus with acute cholecystitis and obstruction
+^ESCTCA347073	Calculus of gallbladder with acute cholecystitis
+^ESCTCA478713	CAH - Chronic active hepatitis
+^ESCTCA478715	CAH - Chronic aggressive hepatitis
+^ESCTCA478770	Calculus of bile duct with acute cholecystitis
+^ESCTCH291489	Cholelithiasis with cholecystitis
+^ESCTCH347074	Cholelithiasis with acute cholecystitis
+^ESCTCH350719	Chronic type B viral hepatitis
+^ESCTCH374878	CH - Chronic hepatitis
+^ESCTCH440701	Chronic type C viral hepatitis
+^ESCTCH478766	Cholelithiasis AND acute cholecystitis without obstruction
+^ESCTCH478768	Cholelithiasis AND acute cholecystitis with obstruction
+^ESCTCH508665	Chronic viral hepatitis B with hepatitis D
+^ESCTCH508734	Cholecystolithiasis
+^ESCTCL343180	CLH - Chronic lobular hepatitis
+^ESCTCM474278	CMV - Cytomegalovirus hepatitis
+^ESCTCO478742	Coxsackie virus hepatitis
+^ESCTCP317507	CPH - Chronic persistent hepatitis
+^ESCTCY474276	Cytomegalovirus hepatitis
+^ESCTCY474280	Cytomegalic inclusion virus hepatitis
+^ESCTEB591321	EBV - Epstein-Barr virus hepatitis
+^ESCTEP591320	Epstein-Barr virus hepatitis
+^ESCTFI510266	Fitz-Hugh and Curtis syndrome
+^ESCTFI510268	Fitz-Hugh-Curtis syndrome - gonococcal
+^ESCTGA508736	Gallbladder stones
+^ESCTGS508738	GS - Gallstone
+^ESCTHB459617	HBsAg positive
+^ESCTHE294808	Hepatic abscess
+^ESCTHE315149	Hepatitis A
+^ESCTHE357442	Hepatitis B
+^ESCTHE357444	Hepatitis B infection
+^ESCTHE474261	Hepatitis non-A non-B
+^ESCTHE508657	Hepatitis due to infection
+^ESCTHE508660	Hepatitis D superinfection of hepatitis B carrier
+^ESCTIH315150	IH - Infectious hepatitis
+^ESCTIN374552	Inflamed gallbladder
+^ESCTIN591322	Infectious mononucleosis hepatitis
+^ESCTLI478736	Liver abscess due to portal pyemia
+^ESCTMA385183	Malarial hepatitis
+^ESCTSE381364	Secondary syphilis of liver
+^ESCTSH357443	SH - Serum hepatitis
+^ESCTTY332123	Type C viral hepatitis
+^ESCTTY357440	Type B viral hepatitis
+^ESCTVH255858	VH - Viral hepatitis
+^ESCTVI275471	Viral hepatitis A with hepatic coma
+^ESCTVI291948	Viral hepatitis B with hepatic coma
+^ESCTVI315147	Viral hepatitis, type A
+^ESCTVI332125	Viral hepatitis type C
+^ESCTVI357445	Viral hepatitis type B
+EMISNQHE6	Hepatitis C carrier
+EMISNQVI15	Viral hepatitis D
+^ESCT1272252	Hepatitis B with hepatitis D superinfection
+^ESCT1275864	Viral hepatitis B with hepatitis D superinfection
+^ESCT1275865	Hepatitis B with delta agent superinfection
+^ESCT1275866	Hepatitis B with delta agent coinfection
+^ESCT1275867	Hepatitis D infection
+^ESCT1275868	Viral hepatitis B with delta agent superinfection
+^ESCT1275869	Viral hepatitis delta

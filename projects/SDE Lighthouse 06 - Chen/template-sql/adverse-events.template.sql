@@ -1,22 +1,23 @@
---┌──────────────────────────────────────────┐
---│ SDE Lighthouse study 06 - Chen           │
---└──────────────────────────────────────────┘
+--┌──────────────────────────────────────────────────────────┐
+--│ SDE Lighthouse study 06 - Chen - adverse events          │
+--└──────────────────────────────────────────────────────────┘
 
---Just want the output, not the messages
-SET NOCOUNT ON;
 
-DECLARE @StartDate datetime;
-DECLARE @EndDate datetime;
-SET @StartDate = '2017-01-01';
-SET @EndDate = '2023-12-31';
+set(StudyStartDate) = to_date('2017-01-01');
+set(StudyEndDate)   = to_date('2023-12-31');
 
 --> EXECUTE query-build-lh006-cohort.sql
 
+--> CODESET fracture:1 selfharm-episodes:1
 
--- CODESET fracture:1 suicide:1
-
-
---bring together for final output
---patients in main cohort
-SELECT	 PatientId = FK_Patient_Link_ID
-FROM #Cohort p
+select ec."FK_Patient_ID",
+    TO_DATE(ec."EventDate") AS "EventDate",
+    ec."Cluster_ID",
+    ec."SuppliedCode",
+    ec."Term"
+from INTERMEDIATE.GP_RECORD."EventsClusters" ec
+WHERE "Cluster_ID" in 
+    ('eFI2_Fracture',
+     'eFI2_SelfHarm',
+     'SELFHARM_COD')
+AND TO_DATE(ec."EventDate") BETWEEN $StudyStartDate AND $StudyEndDate

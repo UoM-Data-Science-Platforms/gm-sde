@@ -44,7 +44,13 @@
 ^ESCT1245247	Primary collar stabilisation of spinal fracture
 ^ESCT1245527	[D]Musculoskeletal symptoms
 ^ESCT1245529	[D]Nervous system symptoms
+^ESCT1245595	[Q] Central and lateral spinal stenosis
+^ESCT1245597	[Q] Central spinal stenosis
+^ESCT1245603	[Q] Lateral spinal stenosis
+^ESCT1246531	[X]Complications of surgical and medical care, not elsewhere classified
 ^ESCT1246984	[X]Inflammatory polyarthropathies
+^ESCT1246997	[X]Injuries of nerves and spinal cord of other multiple body regions
+^ESCT1247717	[X]Other complications of procedures, NEC
 ^ESCT1248317	C/O - pain in toes
 ^ESCT1248872	Fracture of spine with spinal cord lesion
 ^ESCT1248873	Fracture of spine with spinal cord lesion NOS
@@ -62,13 +68,42 @@
 ^ESCT1271745	Myalgia or myositis NOS
 ^ESCT1271765	[D]Other nervous and musculoskeletal symptoms
 ^ESCT1271818	[D]Nervous or musculoskeletal symptoms NOS
+^ESCT1271930	[D]Pain in head NOS
+^ESCT1271952	Osteoarthritis NOS, of hip
 ^ESCT1271999	Injury of spinal plexus
 ^ESCT1272016	Localised osteoarthritis, unspecified, of the pelvic region and thigh
+^ESCT1272217	Dislocation or subluxation not otherwise specified
 ^ESCT1272224	Joint ankylosis of the upper arm
 ^ESCT1272225	Ankylosis of joint of forearm
 ^ESCT1272226	Joint ankylosis of the lower leg
 ^ESCT1272230	Certain congenital musculoskeletal deformities
 ^ESCT1272236	Nerve roots and spinal plexus injuries
+^ESCT1272382	Other face and neck injuries
+^ESCT1272444	Arthropathy associated with other viral diseases
+^ESCT1272485	Osteoarthritis NOS, of shoulder region
+^ESCT1272486	Osteoarthritis NOS, other specified site
+^ESCT1272501	Osteoarthritis NOS, of knee
+^ESCT1272502	Myalgia and myositis unspecified
+^ESCT1272510	Arthralgia of other specified site
+^ESCT1272547	Superficial injury of neck NOS
+^ESCT1272551	Hereditary or idiopathic peripheral neuropathy NOS
+^ESCT1272557	Osteoarthritis NOS, of the lower leg
+^ESCT1272572	Myalgia or myositis NOS
+^ESCT1272573	Neuralgia, neuritis and radiculitis unspecified
+^ESCT1272694	Backache, unspecified
+^ESCT1272718	Rheumatism and fibrositis unspecified
+^ESCT1272767	Rheumatism or fibrositis NOS
+^ESCT1272768	Rheumatism unspecified
+^ESCT1272856	Arthralgia NOS
+^ESCT1272904	Other neck injuries
+^ESCT1272976	Osteoarthritis NOS, of wrist
+^ESCT1273015	Other mononeuritis lower limb
+^ESCT1273038	Cervical and neck disorders NOS
+^ESCT1273062	Joint ankylosis of other specified site
+^ESCT1273113	Other musculoskeletal disorder NOS
+^ESCT1273122	Musculoskeletal and connective tissue diseases NOS
+^ESCT1273123	Traumatic arthropathy NOS
+^ESCT1273253	Osteoarthritis NOS, of elbow
 ^ESCT1275848	Localized osteoarthritis, unspecified, of the pelvic region and thigh
 ^ESCT1275851	Ankylosis of joint of upper arm
 ^ESCT1275852	Joint ankylosis of the forearm

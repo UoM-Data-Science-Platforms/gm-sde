@@ -1,0 +1,26 @@
+182..	Chest pain
+1822.	Central chest pain
+1823.	Precordial pain
+1824.	Anterior chest wall pain
+1825.	Pleuritic pain
+1826.	Parasternal pain
+1828.	Atypical chest pain
+1829.	Retrosternal pain
+182A.	Chest pain on exertion
+182B0	Costal margin chest pain
+182Z.	Chest pain NOS
+R065.	[D]Chest pain
+R0651	[D]Precordial pain
+R0652	[D]Anterior chest wall pain
+R0653	[D]Painful respiration NOS
+R0654	[D]Pleuritic pain
+R0655	[D]Pleurodynia
+R0656	[D]Chest discomfort
+R0657	[D]Chest pressure
+R0658	[D]Chest tightness
+R0659	[D]Parasternal chest pain
+R065A	[D]Musculoskeletal chest pain
+R065B	[D]Non cardiac chest pain
+R065B	[D]Non-cardiac chest pain
+R065z	[D]Chest pain NOS
+Ryu04	[X]Other chest pain

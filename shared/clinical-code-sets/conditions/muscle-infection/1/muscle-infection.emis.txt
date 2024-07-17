@@ -1,0 +1,170 @@
+^ESCT1165577	Myositis caused by Mycobacterium tuberculosis
+^ESCT1165578	Tuberculous myositis
+^ESCT1168072	Juvenile polymyositis
+^ESCT1204267	Juvenile overlap myositis
+^ESCT1204718	Inflammatory myopathy with abundant macrophages
+^ESCT1236895	Progressive bacterial synergistic gangrene
+^ESCT1353024	Neonatal dermatomyositis
+^ESCT1357298	Idiopathic eosinophilic myositis
+^ESCT1357299	Idiopathic eosinophilia-associated myopathy
+^ESCT1376834	Inflammatory disorder of muscle
+^ESCT1376835	Inflammatory myopathy
+^ESCT1398706	Orbital myositis of right eye
+^ESCT1398707	Right orbital myositis
+^ESCT1398906	Orbital myositis of left eye
+^ESCT1398907	Left orbital myositis
+^ESCT1399157	Bilateral orbital myositis of eyes
+^ESCT1399158	Orbital myositis of bilateral eyes
+^ESCT1399159	Bilateral orbital myositis
+^ESCT1399160	Orbital myositis of both eyes
+^ESCT1400874	Bilateral myositis of lower legs
+^ESCT1400875	Myositis of bilateral lower legs
+^ESCT1400876	Myositis of both lower legs
+^ESCT1407474	Gas gangrene caused by Clostridium oedematiens
+^ESCT1409069	Meleney's gangrene
+^ESCT1409070	Meleney gangrene
+^ESCTAB508836	Abscess iliopsoas non-tuberculous
+^ESCTAC302585	Acute primary diaphragmitis
+^ESCTAC502832	Acute orbital myositis
+^ESCTAC506587	Acute sarcoid polymyositis
+^ESCTAD666520	Adult onset dermatomyositis
+^ESCTAU728493	Autoimmune inflammation of skeletal muscle
+^ESCTAU728494	Autoimmune myositis
+^ESCTAU773885	Autoimmune necrotising myopathy
+^ESCTAU773886	Autoimmune necrotizing myopathy
+^ESCTBA298839	Bacterial myositis
+^ESCTBE514349	Benign acute myositis
+^ESCTBL514352	Black limb
+^ESCTCE514357	Cestode myositis
+^ESCTCH251776	Childhood type dermatomyositis
+^ESCTCH506588	Chronic sarcoid myopathy
+^ESCTCH550162	Chronic orbital myositis
+^ESCTCL380874	Clostridial myositis
+^ESCTCL380875	Clostridial myonecrosis
+^ESCTCY514358	Cysticercosis myositis
+^ESCTCY514359	Cysticercal myalgia
+^ESCTDE514103	Dermatomyositis with malignant disease
+^ESCTDI368996	Diaphragmitis
+^ESCTDI505521	Diaphragmatic trichiniasis
+^ESCTDM656614	DM - Dermatomyositis
+^ESCTDR514102	Drug-induced polymyositis
+^ESCTDR668430	Drug-induced dermatomyositis
+^ESCTEC514361	Echinococcosis myositis
+^ESCTEO514369	Eosinophilic polymyositis
+^ESCTEO634206	Eosinophilic myositis
+^ESCTFO514366	Focal nodular myositis
+^ESCTFU514355	Fungal myositis
+^ESCTGA380872	Gas bacillus infection
+^ESCTGA380876	Gas gangrene due to Clostridia
+^ESCTGA474171	Gas gangrene of neck
+^ESCTGA474173	Gas gangrene of back
+^ESCTGA474175	Gas gangrene of shoulder region
+^ESCTGA474177	Gas gangrene of upper arm
+^ESCTGA474179	Gas gangrene of forearm
+^ESCTGA474181	Gas gangrene of hand
+^ESCTGA474183	Gas gangrene of pelvic region of trunk
+^ESCTGA474185	Gas gangrene of thigh
+^ESCTGA474187	Gas gangrene of lower leg
+^ESCTGA474189	Gas gangrene of foot
+^ESCTGA478515	Gangrenous epigastric hernia
+^ESCTGA514351	Gas gangrene of limb
+^ESCTGA514771	Gas gangrene of skin
+^ESCTGA549129	Gas gangrene caused by clostridium edematiens
+^ESCTGA549130	Gas gangrene caused by Clostridium edematiens
+^ESCTGA752920	Gas gangrene of lower limb
+^ESCTGA752921	Gas gangrene of upper limb
+^ESCTHE302584	Hedblom's syndrome
+^ESCTHE302586	Hedblom syndrome
+^ESCTHY514360	Hydatidosis myositis
+^ESCTIB367630	IBM - Inclusion body myositis
+^ESCTID565052	Idiopathic polymyositis
+^ESCTID565053	Idiopathic dermatomyositis
+^ESCTID755936	Idiopathic inflammatory myopathy
+^ESCTID755937	Idiopathic inflammatory myositis
+^ESCTIM773887	Immune mediated necrotizing myopathy
+^ESCTIM773888	Immune mediated necrotising myopathy
+^ESCTIN297761	Infectious myositis
+^ESCTIN352531	Intradiaphragmatic abscess
+^ESCTIN367629	Inclusion body myositis
+^ESCTIN481723	Infective myositis of neck
+^ESCTIN481725	Infective myositis of back
+^ESCTIN481727	Infective myositis of shoulder
+^ESCTIN481729	Infective myositis of upper arm
+^ESCTIN481731	Infective myositis of forearm
+^ESCTIN481733	Infective myositis of hand
+^ESCTIN481735	Infective myositis of pelvis
+^ESCTIN481737	Infective myositis of thigh
+^ESCTIN481739	Infective myositis of lower leg
+^ESCTIN481741	Infective myositis of foot
+^ESCTIN514354	Intestinal gas gangrene
+^ESCTJU810051	Juvenile dermatomyositis co-occurrent with respiratory involvement
+^ESCTLI401583	Lingual myositis
+^ESCTLO514367	Localised nodular myositis
+^ESCTLO514368	Localized nodular myositis
+^ESCTLU478244	Lung disease co-occurrent with polymyositis
+^ESCTMA278453	Maxillary myositis
+^ESCTMA380873	Malignant edema
+^ESCTMA380878	Malignant oedema
+^ESCTMA406207	Masticatory myositis
+^ESCTMA776872	Macrophagic myofasciitis
+^ESCTMM776873	MMF - Macrophagic myofasciitis
+^ESCTMU293058	Muscle inflammation
+^ESCTMU481744	Muscle abscess of neck
+^ESCTMU481746	Muscle abscess of back
+^ESCTMU481748	Muscle abscess of shoulder
+^ESCTMU481750	Muscle abscess of upper arm
+^ESCTMU481752	Muscle abscess of forearm
+^ESCTMU481754	Muscle abscess of hand
+^ESCTMU481756	Muscle abscess of pelvis
+^ESCTMU481758	Muscle abscess of thigh
+^ESCTMU481760	Muscle abscess of lower leg
+^ESCTMU481762	Muscle abscess of foot
+^ESCTMY340858	Myositis fibrosa
+^ESCTMY832074	Myositis of unknown aetiology
+^ESCTNE300574	Neuromyositis
+^ESCTNE335089	Necrotizing fasciitis
+^ESCTNE335090	Necrotizing myositis
+^ESCTNE335091	Necrotising myositis
+^ESCTNE335092	Necrotising cellulitis
+^ESCTNE335093	Necrotizing cellulitis
+^ESCTNE512114	Necrotising fasciitis of scrotum and perineum
+^ESCTNE512115	Necrotizing fasciitis of scrotum and perineum
+^ESCTNE514362	Nematode myositis
+^ESCTNE667212	Neonatal necrotising fasciitis
+^ESCTNE667213	Neonatal necrotizing fasciitis
+^ESCTNE737644	Necrotizing fasciitis due to Streptococcus pyogenes
+^ESCTNE737647	Necrotising fasciitis due to Streptococcus pyogenes
+^ESCTNE737649	Necrotizing fasciitis caused by Streptococcus pyogenes
+^ESCTNE737650	Necrotising fasciitis caused by Streptococcus pyogenes
+^ESCTPA349054	Parasitic myositis
+^ESCTPA726501	Paraneoplastic myositis
+^ESCTPE390428	Petges-Clejat syndrome
+^ESCTPM300575	PM - Polymyositis
+^ESCTPO390427	Poikilodermatomyositis
+^ESCTPO478245	Polymyositis with pulmonary involvement
+^ESCTPO514100	Polymyositis with malignant disease
+^ESCTPO514101	Polymyositis associated with autoimmune disease
+^ESCTPO656613	Polymyositis with skin involvement
+^ESCTPO783769	Polymicrobial necrotising fasciitis
+^ESCTPO783770	Polymicrobial necrotizing fasciitis
+^ESCTPR380877	Progressive emphysematous necrosis
+^ESCTPR416231	Proliferative myositis
+^ESCTPR514356	Protozoal myositis
+^ESCTPS549300	Psoas muscle abscess
+^ESCTPY355864	Pyomyositis
+^ESCTSC512820	Sclerodermatomyositis
+^ESCTST737642	Streptococcal necrotising fasciitis
+^ESCTST737643	Streptococcal gangrene
+^ESCTST737646	Streptococcal necrotizing fasciitis
+^ESCTSY801246	Symptomatic inflammatory myopathy
+^ESCTTO514365	Toxocariasis myositis
+^ESCTTO846752	Toxoplasma myositis
+^ESCTTR355863	Tropical myositis
+^ESCTTR505522	Trichinosis of diaphragm
+^ESCTTR514363	Trichinosis myositis
+^ESCTTR514364	Trichinella myalgia
+^ESCTTY737645	Type II necrotizing fasciitis
+^ESCTTY737648	Type II necrotising fasciitis
+^ESCTUT514353	Uterine gas gangrene
+^ESCTVI514348	Viral myositis
+^ESCTWA656612	Wagner-Unverricht syndrome

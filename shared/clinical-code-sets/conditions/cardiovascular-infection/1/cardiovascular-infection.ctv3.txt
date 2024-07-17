@@ -1,0 +1,157 @@
+A2704	Listerial endocarditis
+A32y1	Diphtheritic myocarditis
+A364.	Meningococcal carditis
+A3641	Meningococcal pericarditis
+A364z	Meningococcal carditis NOS
+A742.	Coxsackie carditis
+A7421	Coxsackie pericarditis
+A7423	Coxsackie myocarditis
+A98y2	Gonococcal pericarditis
+G0...	Acute rheumatic fever
+G01..	Rheumatic fever with heart involvement
+G010.	Acute rheumatic pericarditis
+G011.	Acute rheumatic endocarditis
+G012.	Acute rheumatic myocarditis
+G01y.	Other acute rheumatic heart disease
+G01y0	Acute rheumatic pancarditis
+G01z.	Acute rheumatic heart disease NOS
+G02..	Rheumatic chorea
+G020.	Rheumatic chorea with heart involvement
+G021.	Rheumatic chorea without mention of heart involvement
+G02z.	Rheumatic chorea NOS
+G0y..	Other specified acute rheumatic fever
+G0z..	Acute rheumatic fever NOS
+G100.	Adherent rheumatic pericardium
+G14..	Other chronic rheumatic endocardial disease
+G1y0.	Rheumatic myocarditis
+G1yz.	Other and unspecified rheumatic heart disease
+G1yzz	Other rheumatic heart disease NOS
+G5000	Acute pericarditis - coxsackie
+G5001	Acute meningococcal pericarditis
+G50z2	Acute pneumococcal pericarditis
+G50z4	Acute streptococcal pericarditis
+G5100	Acute bacterial endocarditis
+G5101	Subacute bacterial endocarditis
+G5102	Chronic bacterial endocarditis
+G510z	Acute and subacute bacterial endocarditis NOS
+G5207	Acute myocarditis - meningococcal
+G5y7.	Sarcoid myocarditis
+G5y8.	Rheumatoid myocarditis
+G5yA.	Rheumatoid carditis
+Gyu11	[X]Other rheumatic aortic valve diseases
+H571.	Rheumatic pneumonia
+M15y6	Erythema marginatum in acute rheumatic fever
+N0001	Libman-Sacks disease
+
+A17y0	Tuberculosis of endocardium
+A17y1	Tuberculosis of myocardium
+A3640	Meningococcal carditis unspecified
+A7420	Other specified coxsackie carditis
+A7422	Coxsackie endocarditis
+A742z	Unspecified coxsackie carditis
+A7A..	Viral carditis
+A9320	Syphilitic endocarditis of unspecified valve
+A9321	Syphilitic endocarditis of mitral valve
+A9323	Syphilitic endocarditis of tricuspid valve
+A9324	Syphilitic endocarditis of pulmonary valve
+A932z	Syphilitic endocarditis of heart valve NOS
+A93y1	Syphilitic myocarditis
+AB2y0	Candidal endocarditis
+AB404	Histoplasma capsulatum with endocarditis
+AB414	Histoplasma duboisii with endocarditis
+AB4z4	Histoplasmosis with endocarditis
+AD03.	Toxoplasma myocarditis
+G01yz	Other acute rheumatic heart disease NOS
+G1...	Chronic rheumatic heart disease
+G102.	Chronic rheumatic myopericarditis
+G12..	Rheumatic aortic valve disease
+G12z.	Rheumatic aortic valve disease NOS
+G1y..	Other specified chronic rheumatic heart disease
+G1yz0	Rheumatic heart disease unspecified
+G1z..	Chronic rheumatic heart disease NOS
+G5110	Endocarditis - monilial
+G5112	Gonococcal endocarditis
+G5113	Meningococcal endocarditis
+G5114	Endocarditis - typhoid
+G5115	Endocarditis - blastomycosis
+G5116	Endocarditis - Q fever
+G51z0	Acute endocarditis NOS
+G51z2	Acute periendocarditis NOS
+G52..	Acute myocarditis
+G520.	Acute myocarditis in diseases EC
+G5200	Acute aseptic myocarditis of the newborn
+G5201	Acute myocarditis - coxsackie
+G5202	Acute myocarditis - diphtheritic
+G5203	Acute myocarditis - influenzal
+G5204	Acute myocarditis - syphilitic
+G5205	Acute myocarditis - toxoplasmosis
+G5206	Acute myocarditis - tuberculous
+G520z	Acute myocarditis in diseases EC, NOS
+G52y.	Other acute myocarditis
+G52y0	Acute myocarditis, unspecified
+G52y1	Myocarditis: [isolated - Fiedler's] or [giant cell]
+G52y2	Idiopathic myocarditis NOS
+G52y3	Septic myocarditis - pneumococcal
+G52y4	Septic myocarditis - staphylococcal
+G52y5	Septic myocarditis - streptococcal
+G52y6	Septic myocarditis NOS
+G52y7	Toxic myocarditis
+G52yz	Other acute myocarditis NOS
+G52z.	Acute myocarditis NOS
+G54z.	Endocarditis, valve unspecified
+G54z2	Chronic cardiac valvulitis NOS
+G54z3	Endocarditis, valve unspecified, OS
+G54z4	Endocarditis in disease EC
+G54zz	Endocarditis, valve unspecified, NOS
+G5583	Sarcoid heart muscle disease
+G5y0.	Myocarditis NOS
+Gyu00	[X]Other acute rheumatic heart disease
+Gyu14	[X]Other specified rheumatic heart diseases
+Gyu5E	[X]Endocarditis, valve unspecified, in diseases classified elsewhere
+Gyu5F	[X]Other acute myocarditis
+Gyu5G	[X]Acute myocarditis, unspecified
+Gyu5H	[X]Myocarditis in bacterial diseases classified elsewhere
+Gyu5J	[X]Myocarditis in viral diseases classified elsewhere
+Gyu5K	[X]Myocarditis in other infectious and parasitic diseases classified elsewhere
+Gyu5L	[X]Myocarditis in other diseases classified elsewhere
+X200h	Infective endocarditis
+X200i	Rickettsial endocarditis
+X200j	Fungal endocarditis
+X200k	Culture-negative endocarditis
+X200l	Non-bacterial thrombotic endocarditis
+X200m	Prosthetic valve endocarditis
+X201m	Viral pericarditis
+X201n	Viral pericarditis NOS
+X201Q	Viral myocarditis
+X201R	Bacterial myocarditis
+X201T	Q fever myocarditis
+X201U	Fungal myocarditis
+X201V	Parasitic myocarditis
+X70ON	Cardiac Q fever
+X779D	Myocardial inflammation
+Xa0kU	Syphilitic endocarditis of aortic valve
+Xa3fK	Chronic rheumatic mitral valve
+Xa3fP	Rheumatic endocarditis
+Xa3fT	Acute/subacute carditis
+Xa3fU	Non-rheumatic endocarditis NOS
+Xa7tF	Bacterial endocarditis
+Xa8Dm	Tuberculosis of heart
+Xaaga	Carditis
+Xabnb	Lyme carditis
+XaC1J	Systemic lupus erythematosus with pericarditis
+XaDo0	Infective myocarditis
+XaDyG	Rheumatic heart disease
+XaDyH	Endocarditis
+XaDyJ	Acute rheumatic heart disease
+XaDyL	Myocarditis
+XE0Rp	Syphilitic endocarditis
+XE0Ua	Rheumatic endocarditis NOS
+XE0Us	Acute and subacute bacterial endocarditis
+XE0Ut	Isolated (Fiedler's) myocarditis
+XE0Vo	Rheumatic heart disease: [chronic] or [valvular]
+XE0Vq	Rheumatic mitral valve disease (& [chronic])
+XE0Vw	Other chronic rheumatic heart
+XE0W2	Rheumatic endocardium disease (& [chronic endocarditis])
+XE0W4	Rheumatic myocarditis (& [chronic])
+XE0W6	Rheumatic heart disease NOS
+XE0WY	(Non-rheumatic endocarditis NOS) or (pulmonary stenosis NOS)

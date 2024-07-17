@@ -1,0 +1,97 @@
+16C..	Backache symptom
+16C2.	Backache
+16C4.	Back pain worse on sneezing
+16C5.	C/O - low back pain
+16C6.	Back pain without radiation NOS
+16CZ.	Backache symptom NOS
+25C5.	O/E - abd. pain - R.lumbar
+25C7.	O/E - abd. pain - L.lumbar
+8HTH.	Referral to back pain clinic
+F350.	Sciatic nerve lesion
+J3A..	Sciatic hernia
+J3A0.	Sciatic hernia with gangrene
+J3A1.	Obstructed sciatic hernia
+J3A2.	Irreducible sciatic hernia
+J3A3.	Simple sciatic hernia
+J3Ay.	Unspecified sciatic hernia
+J3Az.	Sciatic hernia NOS
+N1400	Spinal stenosis of unspecified region
+N1401	Thoracic spinal stenosis
+N1402	Lumbar spinal stenosis
+N1403	Idiopathic thoracic spinal stenosis
+N1404	Degenerative thoracic spinal stenosis
+N1405	Iatrogenic thoracic spinal stenosis
+N1406	Thoracic spinal stenosis secondary to other disease
+N1407	Idiopathic lumbar spinal stenosis
+N1408	Degenerative lumbar spinal stenosis
+N1409	Iatrogenic lumbar spinal stenosis
+N140A	Lumbar spinal stenosis secondary to other disease
+N140z	Spinal stenosis NOS
+N1420	Lumbago with sciatica
+N144.	Thoracic and lumbosacral neuritis
+N1441	Lumbosacral neuritis, unspecified
+N144z	Thoracic and lumbosacral neuritis NOS
+N145.	(Backache unspecified) or (back pain unspecified & [acute])
+N1460	Lumbosacral ankylosis
+N1461	Sacroiliac ankylosis
+N1462	Sacral ankylosis NOS
+N1464	Sacroiliac instability
+N1465	Sacral instability NOS
+N1466	Sacroiliac disorder
+N1471	Hypermobility of the coccyx
+N1472	Pain in the coccyx
+N148.	Ankylosis or instability of cervical,thoracic or lumbar spine
+N1480	Atlanto-occipital ankylosis
+N1481	Atlantoaxial ankylosis
+N1482	Cervical spine ankylosis
+N1483	Cervicothoracic ankylosis
+N1484	Thoracic spine ankylosis
+N1485	Thoracolumbar ankylosis
+N1486	Lumbar spine ankylosis
+N1487	Atlanto-occipital instability
+N1488	Atlantoaxial instability
+N1489	Cervical spine instability
+N148A	Cervicothoracic instability
+N148B	Thoracic spine instability
+N148C	Lumbar spine instability
+N23yE	Spasm of back muscles
+Nyu3C	[X]Other instability of joint
+S561.	Sprain of ligament of sacroiliac joint
+S56y.	Other specified sacroiliac sprains
+S56z.	Sacroiliac sprain NOS
+SJ60.	Sciatic nerve injury
+SJ600	Closed injury sciatic nerve
+SJ601	Open injury sciatic nerve
+Syu36	[X]Sprain and strain of other and unspecified parts of lumbar spine and pelvis
+X70Cb	Ankylosis of spine NOS
+X70Co	Spinal stenosis
+X75rz	Acute back pain with sciatica
+X75s2	Coccygeal hypermobility syndrome
+X75s4	Facet joint pain
+X76mm	Stiff back
+XA0CR	Sprain of sacroiliac joint
+Xa0sK	Chronic low back pain
+Xa0sM	Acute low back pain
+Xa0wp	Acute thoracic back pain
+Xa0wt	Low back pain
+Xa0wu	Mechanical low back pain
+XaB5C	Thoracic nerve root pain
+XaC0R	Lumbosacral strain
+XaD2p	Prolapsed lumbar intervertebral disc with sciatica
+XE1F9	Spinal stenosis, excluding cervical region
+XE1FA	Pain in thoracic spine
+XE1FB	Pain in lumbar spine
+XE1FC	Sciatica
+XE1FD	Thoracic neuritis, unspecified
+XE1FE	Backache, unspecified
+XE1FF	Lumbosacral instability
+XE1Hc	Spinal stenosis (& [excl cervical])
+XE1He	(Backache NOS) or (back pain [& low])
+XE1HG	(Joint: [disorder NOS] or [unstable]) or (polyarthralgia)
+XM065	Instability of joint
+XM0Cq	C/O - lumbar pain
+XM1GI	Back pain
+XM1NI	O/E - lumbar pain on palpation
+Zw043	[Q] Central spinal stenosis
+Zw044	[Q] Lateral spinal stenosis
+Zw045	[Q] Central and lateral spinal stenosis

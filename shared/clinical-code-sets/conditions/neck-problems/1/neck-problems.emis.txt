@@ -1,0 +1,65 @@
+^ESCTAC314126	Acceleration-deceleration injury of neck
+^ESCTCE338273	Cervical radiculopathy
+^ESCTCE338275	Cervical root neuropathy
+^ESCTCE346972	Cervical arthrodesis by anterior technique
+^ESCTCE346973	Cervical spinal fusion by anterior technique
+^ESCTCE366710	Cervico-occipital neuralgia
+^ESCTCE381912	Cervical spinal fusion
+^ESCTCE382831	Cervical pain
+^ESCTCE406070	Cervical nerve root compression
+^ESCTCE406071	Cervical root compression
+^ESCTCE434942	Cervical spine
+^ESCTCE434943	Cervical spinal column
+^ESCTCE434944	Cervical spine structure
+^ESCTCE485160	Cervical sprain
+^ESCTCE513636	Cervical discectomy
+^ESCTCE585241	Cervical kyphosis
+^ESCTCE621341	Cervical strain
+^ESCTCE647809	Cervical osteoarthritis
+^ESCTCE647812	Cervical spondylarthritis
+^ESCTCE647813	Cervical spine degeneration
+^ESCTCE647814	Cervical arthritis
+^ESCTCE647815	Cervical spondylitis
+^ESCTCE705076	Cervical disc disease
+^ESCTCE730798	Cervical laminectomy
+^ESCTCH796763	Chronic neck pain
+^ESCTCO363935	Contracture of neck
+^ESCTCO406072	Compression cervical nerve root
+^ESCTCO461954	Computed tomography of neck
+^ESCTCO516326	Computerised tomography of cervical spine
+^ESCTCS647811	CS - Cervical spondylosis
+^ESCTCT516324	CT of cervical spine
+^ESCTDI303773	Diffuse cervicobrachial syndrome
+^ESCTEX513635	Excision of cervical intervertebral disc
+^ESCTEX730799	Excision of lamina of cervical vertebra
+^ESCTGI686070	Gibbosity
+^ESCTGI686071	Gibbus
+^ESCTHU686072	Humpback
+^ESCTHU686073	Hunchback
+^ESCTIN545387	Injury of cervical spine
+^ESCTKY585242	Kyphosis deformity of cervical spine
+^ESCTKY686074	Kyphosis
+^ESCTMA367491	Magnetic resonance imaging of neck
+^ESCTMA516481	Magnetic resonance imaging of cervical spine
+^ESCTMR367492	MRI of neck
+^ESCTNE322676	Neck
+^ESCTNE382832	Neck ache
+^ESCTNE397032	Neck injury
+^ESCTNE454504	Neck stiffness
+^ESCTNO382830	Nonspecific pain in the neck region
+^ESCTNS454503	NS - Neck stiffness
+^ESCTOC366711	Occipital neuralgia
+^ESCTPA382828	Painful neck
+^ESCTRA267571	Radicular syndrome of upper limbs
+^ESCTRA358562	Radiography of cervical spine
+^ESCTSP385963	Spinal stenosis in cervical region
+^ESCTST434941	Structure of cervical vertebral column
+^ESCTST621326	Strain of tendon of neck
+^ESCTSU367948	Supernumerary rib in cervical region
+^ESCTWH314125	Whiplash injury to neck
+^ESCTXR358563	X-ray of cervical spine
+EMISNQPL16	Plain X-ray cervical spine requested
+ESCTST13	Strain of calf muscle
+ESCTST7	Strain of neck muscle
+ESCTST8	Strain of muscle of lower limb
+ESCTST9	Strain of hamstring muscle

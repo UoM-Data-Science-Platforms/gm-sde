@@ -1,0 +1,218 @@
+2DC2.	O/E - granular pharyngitis
+2DC3.	Inflamed throat
+A123.	Laryngeal tuberculosis
+A12y1	Tuberculosis of nasopharynx
+A740.	Herpangina
+A772.	Viral pharyngoconjunctivitis
+A7y02	Respiratory syncytial virus as the cause of diseases classified to other chapters
+A7y03	Reovirus as the cause of diseases classified to other chapters
+A7y05	Papillomavirus as the cause of diseases classified to other chapters
+AA12.	Vincent's angina - pharyngitis
+AA25.	Gangosa
+FyuP4	[X]Otitis media in viral diseases classified elsewhere
+H020.	Acute gangrenous pharyngitis
+H021.	Acute phlegmonous pharyngitis
+H022.	Acute ulcerative pharyngitis
+H024.	Acute viral pharyngitis
+H02z.	Acute pharyngitis NOS
+H030.	Acute erythematous tonsillitis
+H031.	Acute follicular tonsillitis
+H032.	Acute ulcerative tonsillitis
+H033.	Acute catarrhal tonsillitis
+H034.	Acute gangrenous tonsillitis
+H036.	Acute viral tonsillitis
+H037.	Recurrent acute tonsillitis
+H03z.	Acute tonsillitis NOS
+H040.	Acute laryngitis
+H0400	Acute oedematous laryngitis
+H0401	Acute ulcerative laryngitis
+H0402	Acute catarrhal laryngitis
+H0403	Acute phlegmonous laryngitis
+H0404	Acute haemophilus influenzae laryngitis
+H0406	Acute suppurative laryngitis
+H040w	Acute viral laryngitis unspecified
+H040z	Acute laryngitis NOS
+H0420	Acute laryngotracheitis without obstruction
+H0421	Acute laryngotracheitis with obstruction
+H042z	Acute laryngotracheitis NOS
+H0430	Acute epiglottitis without obstruction
+H0431	Acute epiglottitis with obstruction
+H043z	Acute epiglottitis NOS
+H04z.	Acute laryngitis and tracheitis NOS
+H05..	Other acute upper respiratory infections
+H050.	Acute laryngopharyngitis
+H053.	Tracheopharyngitis
+H054.	Recurrent upper respiratory tract infection
+H055.	Pharyngolaryngitis
+H05y.	Other upper respiratory infections of multiple sites
+H07..	Chest cold
+H0y..	Other specified acute respiratory infections
+H0z..	Acute respiratory infection NOS
+H12..	Chronic pharyngitis and nasopharyngitis
+H120.	(Chronic rhinitis) or (catarrh unspecified)
+H1200	Chronic simple rhinitis
+H1202	Chronic hypertrophic rhinitis
+H1203	Chronic atrophic rhinitis
+H1204	Chronic infective rhinitis
+H1205	Chronic ulcerative rhinitis
+H1206	Chronic membranous rhinitis
+H1207	Chronic fibrinous rhinitis
+H120z	Chronic rhinitis NOS
+H1211	Atrophic pharyngitis
+H1214	Pharyngitis keratosa
+H1215	Pharyngitis sicca
+H1216	Chronic follicular pharyngitis
+H121z	Chronic pharyngitis NOS
+H122.	Chronic nasopharyngitis
+H12z.	Chronic pharyngitis and nasopharyngitis NOS
+H143.	Chronic adenotonsillitis
+H14y5	Caseous tonsillitis
+H14y6	Lingular tonsillitis
+H16..	Chronic laryngitis and laryngotracheitis
+H160.	Chronic laryngitis
+H1600	Chronic simple laryngitis
+H1601	Chronic catarrhal laryngitis
+H1602	Chronic hyperplastic laryngitis
+H1603	Chronic atrophic laryngitis
+H161.	Chronic laryngotracheitis
+H16z.	Chronic laryngitis NOS
+H18..	Vasomotor rhinitis
+H1y..	Other specified diseases of upper respiratory tract
+H1y21	Pharynx or nasopharynx cellulitis
+H1y51	Cellulitis of vocal cords
+H1y52	Vocal cord granuloma
+H1y54	Singers' chorditis
+H1y55	Fibrinous chorditis
+H1y57	Chorditis vocalis inferior
+H1y71	Cellulitis of larynx
+H1y72	Laryngeal perichondritis
+H1yz.	Other upper respiratory tract diseases NOS
+H1yzz	Other upper respiratory tract disease NOS
+H1z..	Upper respiratory tract disease NOS
+H2...	Pneumonia and influenza
+H27..	Influenza
+H270.	Influenzal pneumonia
+H2700	Influenza with bronchopneumonia
+H2701	Influenza with pneumonia, influenza virus identified
+H270z	Influenza with pneumonia NOS
+H271.	Influenza with other respiratory manifestation
+H2710	Influenza with laryngitis
+H2711	Influenza with pharyngitis
+H271z	Influenza with respiratory manifestations NOS
+H27y.	Influenza with other manifestations
+H27y0	Influenza with encephalopathy
+H27y1	Influenza with gastrointestinal tract involvement
+H27yz	Influenza with other manifestations NOS
+H2y..	Other specified pneumonia or influenza
+H2z..	Pneumonia or influenza NOS
+H301.	Laryngotracheobronchitis
+Hyu01	[X]Acute pharyngitis due to other specified organisms
+Hyu02	[X]Acute tonsillitis due to other specified organisms
+Hyu04	[X]Influenza with other respiratory manifestations, influenza virus identified
+Hyu05	[X]Influenza with other manifestations, influenza virus identified
+Hyu06	[X]Influenza with other respiratory manifestations, virus not identified
+Hyu07	[X]Influenza with other manifestations, virus not identified
+Hyu2.	[X]Other diseases of the upper respiratory tract
+Hyu2A	[X]Other specified diseases of upper respiratory tract
+X00kv	Acute rhinitis
+X00kx	Acute irritant rhinitis
+X00ky	Rhinitis sicca
+X00kz	Rhinitis caseosa
+X00l0	Rhinitis medicamentosa
+X00lY	Tornwaldt's disease
+X00mG	Pharyngitis
+X00mH	Acute herpes simplex pharyngitis
+X00mI	Acute herpes zoster pharyngitis
+X00mJ	Enteroviral lymphonodular pharyngitis
+X00mL	Glandular fever pharyngitis
+X00mP	Chlamydial pharyngitis
+X00ms	Acute peritonsillitis
+X00mT	Chronic ulcerative pharyngitis
+X00mu	Chronic adenoiditis
+X00mU	Chronic pharyngeal candidiasis
+X00n1	Acute simple laryngitis
+X00n4	Acute membranous laryngitis
+X00n5	Acute subglottic laryngitis
+X00n7	Viral epiglottitis
+X00n8	Paediatric acute epiglottitis and supraglottitis
+X00n9	Adult acute epiglottitis and supraglottitis
+X00nA	Chronic fungal laryngitis
+X00nF	Relapsing polychondritis of larynx
+X00nm	Laryngeal sarcoidosis
+X00np	Wegener's granulomatosis of larynx
+X1002	Acute upper respiratory infection
+X1003	Viral upper respiratory tract infection NOS
+X1004	Infection of lower respiratory tract
+X20GM	Nasopharyngeal sarcoidosis
+X70Ln	Lymphonodular coxsackie pharyngitis
+XA03t	Post-radiotherapy laryngitis
+Xa05b	Acute laryngitis and tracheitis
+Xa0BK	Respiratory syncytial virus infection
+Xa0BL	Congenital syphilitic rhinitis
+Xa0lW	Acute laryngotracheobronchitis
+Xa1sb	Viral upper respiratory tract infection
+Xa2dV	Ozaena
+Xa2o8	Infection of the upper respiratory tract
+Xa7I0	Tonsillitis
+Xa7tQ	Observation of discharge of nose
+Xa86D	Acute viral laryngotracheitis
+Xa97e	Adenoviral pharygoconjunctival fever
+Xa9Bt	Acute epiglottitis and supraglottitis
+Xa9Bu	Acute lingual tonsillitis
+Xa9zW	Sore throat
+Xaaum	Westley Croup Score
+XaB8d	Cricoarytenoid joint arthritis
+XaDcY	Viral ear infection
+XaDuG	Infective pharyngitis
+XaDuH	Infective laryngitis
+XaDuI	Infective tonsillitis
+XaeVK	Influenza due to zoonotic influenza virus
+XaeVL	Influenza due to pandemic influenza virus
+XaeVM	Influenza due to seasonal influenza virus
+XaeVN	Influenza with pneumonia due to seasonal influenza virus
+XaIBK	Influenza-like symptoms
+XaMe7	Viral wheeze
+XaMih	Avian influenza
+XaNkV	Acute rhinosinusitis
+XaPIL	Positive virology findings
+XaPIN	Influenza H1 virus detected
+XaPIO	Influenza H2 virus detected
+XaPIP	Influenza H3 virus detected
+XaPIQ	Influenza H5 virus detected
+XaPIR	Influenza A virus, other or untyped strain detected
+XaPIS	Influenza B virus detected
+XaPOa	Respiratory syncytial virus A detected
+XaPOb	Respiratory syncytial virus B detected
+XaPOc	Respiratory syncytial virus untyped strain detected
+XaPOk	Human parainfluenza virus detected
+XaPOn	Other respiratory virus detected
+XaQQp	Influenza due to Influenza A virus subtype H1N1
+XaQSm	Suspected influenza A virus subtype H1N1 infection
+XaQVc	Possible influenza A virus H1N1 subtype
+XaQVd	Influenza A virus H1N1 subtype detected
+XE0RY	Other specific viral infection
+XE0S5	Vincent's angina NOS
+XE0Tc	(Other coxsackie disease) or (herpangina)
+XE0Xl	Common cold
+XE0Xn	Acute pharyngitis
+XE0Xo	Acute laryngotracheitis
+XE0Xp	Acute epiglottitis (non-streptococcal)
+XE0Xq	Upper respiratory infection NOS
+XE0Xs	Chest infection NOS
+XE0Xx	Chronic rhinitis
+XE0Xy	Chronic catarrhal rhinitis
+XE0Xz	Chronic pharyngitis
+XE0Y3	Chronic tonsillitis
+XE0YK	Influenza NOS
+XE0Yl	Respiratory infection: [acute] or [upper]
+XE0Yv	Acute respiratory infection: [NOS] or [pharyngotracheitis] or [tracheopharyngitis]
+XE0Yx	Upper respiratory disease (& upper)
+XE2aC	Acute tonsillitis
+XM0rz	Influenza-like illness
+XM0s0	Flu-like illness NOS
+XM1OJ	Congenital syphilitic chronic coryza
+XM1QM	Sore throat - chronic
+XM1QS	Laryngotracheitis
+XM1QT	Acute fibrinous laryngotracheobronchitis
+X00l1	Eosinophilic non-allergic rhinitis
+X00l2	Non-infective non-allergic rhinitis

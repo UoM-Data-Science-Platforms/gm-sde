@@ -1,0 +1,276 @@
+N010.11	Pyogenic arthritis, unspecified
+N302.00	Osteomyelitis, unspecified
+A151.00	Tuberculosis of bones and joints
+N301.11	Other chronic osteomyelitis
+N301.00	Other chronic osteomyelitis
+A150.00	Tuberculosis of spine
+A15..00	Tuberculosis of bones and joints
+N010.00	Pyogenic arthritis, unspecified
+N303000	Osteomyelitis, unspecified
+N302500	Osteomyelitis, unspecified
+A153.00	Tuberculosis of bones and joints
+N300.00	Other acute osteomyelitis
+N304.11	Tuberculosis of bones and joints
+N302.11	Osteomyelitis, unspecified
+N010611	Pyogenic arthritis, unspecified
+N300Z00	Acute haematogenous osteomyelitis
+N306.00	Tuberculosis of bones and joints
+N302000	Osteomyelitis, unspecified
+N010y00	Pyogenic arthritis, unspecified
+N302N00	Osteomyelitis, unspecified
+N300800	Other acute osteomyelitis
+N300600	Other acute osteomyelitis
+J064500	Inflammatory conditions of jaws
+N302X00	Osteomyelitis, unspecified
+N302Y00	Osteomyelitis, unspecified
+A56x000	Arthritis due to rubella
+A154.00	Tuberculous mastoiditis
+N010511	Pyogenic arthritis, unspecified
+N010211	Pyogenic arthritis, unspecified
+N301M00	Chronic osteomyelitis with draining sinus
+N301.13	Other chronic osteomyelitis
+Nyu0000	[X]Other streptococcal arthritis and polyarthritis
+N300511	Other acute osteomyelitis
+N30..00	Osteomyelitis
+N302b00	Other osteomyelitis
+J064.12	Inflammatory conditions of jaws
+A15..11	Tuberculosis of bones and joints
+A985000	Gonococcal infection of musculoskeletal system
+A152.00	Tuberculous arthritis
+N300000	Other acute osteomyelitis
+N309.00	Subacute osteomyelitis
+N302a00	Osteomyelitis of vertebra
+N302700	Osteomyelitis, unspecified
+N305.00	Tuberculosis of bone
+N301700	Other chronic osteomyelitis
+N300700	Other acute osteomyelitis
+A15..12	Tuberculosis of bones and joints
+N302600	Osteomyelitis, unspecified
+A36y100	Meningococcal arthropathy
+N303600	Osteomyelitis, unspecified
+A022300	Arthritis in other bacterial diseases classified elsewhere
+N010800	Staphylococcal arthritis and polyarthritis
+SP06000	Infect and inflammatory reaction due to internal joint pros
+N010500	Pyogenic arthritis, unspecified
+N303.00	Osteomyelitis, unspecified
+N300S00	Other acute osteomyelitis
+N302z00	Osteomyelitis, unspecified
+N300Q00	Other acute osteomyelitis
+N014.00	Arthritis in other bacterial diseases classified elsewhere
+N302P00	Osteomyelitis, unspecified
+J064200	Inflammatory conditions of jaws
+N300712	Other acute osteomyelitis
+A15x.00	Tuberculosis of bones and joints
+N30zz00	Osteomyelitis, unspecified
+N300N00	Other acute osteomyelitis
+N301600	Other chronic osteomyelitis
+N010400	Pyogenic arthritis, unspecified
+N300711	Other acute osteomyelitis
+N300.12	Other acute osteomyelitis
+N300U00	Other acute osteomyelitis
+N301L00	Chronic multifocal osteomyelitis
+N302Q00	Osteomyelitis, unspecified
+N302D00	Osteomyelitis of vertebra
+N010000	Pyogenic arthritis, unspecified
+N301100	Other chronic osteomyelitis
+N302200	Osteomyelitis, unspecified
+A15y.00	Tuberculous arthritis
+N300X00	Other acute osteomyelitis
+N300100	Other acute osteomyelitis
+N30z.00	Osteomyelitis, unspecified
+N302M00	Osteomyelitis, unspecified
+N304.00	Tuberculosis of spine
+N300.11	Other acute osteomyelitis
+A15z.00	Tuberculosis of bones and joints
+A022400	Osteopathy in other infectious diseases classified elsewhere
+N010100	Pyogenic arthritis, unspecified
+N302S00	Osteomyelitis, unspecified
+N300F00	Other acute osteomyelitis
+N302B00	Osteomyelitis of vertebra
+N300300	Other acute osteomyelitis
+N010600	Pyogenic arthritis, unspecified
+N300512	Other acute osteomyelitis
+N301712	Other chronic osteomyelitis
+N300z00	Other acute osteomyelitis
+N017.11	Arthritis in other infectious and parasitic diseases EC
+N302C00	Osteomyelitis of vertebra
+N302800	Osteomyelitis, unspecified
+N301.12	Other chronic osteomyelitis
+N300500	Other acute osteomyelitis
+N301z00	Other chronic osteomyelitis
+N301000	Other chronic osteomyelitis
+N11y100	Enterobacterial spondylitis
+N301512	Other chronic osteomyelitis
+N302400	Osteomyelitis, unspecified
+N010311	Pyogenic arthritis, unspecified
+N302100	Osteomyelitis, unspecified
+A985300	Gonococcal spondylitis
+N301500	Other chronic osteomyelitis
+N300M00	Other acute osteomyelitis
+N010200	Pyogenic arthritis, unspecified
+N300T00	Other acute osteomyelitis
+N30z400	Osteomyelitis, unspecified
+N306100	Tuberculosis of bones and joints
+N300Y00	Other acute osteomyelitis
+N30z800	Osteomyelitis, unspecified
+N303700	Osteomyelitis, unspecified
+N301C00	Osteomyelitis of vertebra
+N303z00	Osteomyelitis, unspecified
+N300200	Other acute osteomyelitis
+N302H00	Osteomyelitis, unspecified
+N302W00	Osteomyelitis, unspecified
+N01zK00	Pyogenic arthritis, unspecified
+N301200	Other chronic osteomyelitis
+N300C00	Osteomyelitis of vertebra
+N300R00	Other acute osteomyelitis
+N301711	Other chronic osteomyelitis
+J065000	Alveolitis of jaws
+N305400	Tuberculosis of bones and joints
+N300900	Other acute osteomyelitis
+A985.00	Gonococcal infection of musculoskeletal system
+N300K00	Other acute osteomyelitis
+N33z300	Other osteomyelitis
+N302300	Osteomyelitis, unspecified
+N302R00	Osteomyelitis, unspecified
+N01zB00	Pyogenic arthritis, unspecified
+N305300	Tuberculosis of bones and joints
+N300J00	Other acute osteomyelitis
+N010700	Pyogenic arthritis, unspecified
+N010711	Pyogenic arthritis, unspecified
+N300B00	Osteomyelitis of vertebra
+N300513	Other acute osteomyelitis
+N010300	Pyogenic arthritis, unspecified
+N01z.00	Pyogenic arthritis, unspecified
+N300V00	Other acute osteomyelitis
+N300A00	Osteomyelitis of vertebra
+N301900	Other chronic osteomyelitis
+N305100	Tuberculosis of bone
+N300H00	Other acute osteomyelitis
+N301400	Other chronic osteomyelitis
+N302G00	Osteomyelitis, unspecified
+N304200	Tuberculosis of bones and joints
+N301800	Other chronic osteomyelitis
+N01zH00	Pyogenic arthritis, unspecified
+N010900	Pneumococcal arthritis and polyarthritis
+N303800	Osteomyelitis, unspecified
+N010z00	Pyogenic arthritis, unspecified
+N304100	Tuberculosis of bones and joints
+N300400	Other acute osteomyelitis
+N300E00	Osteomyelitis of vertebra
+N306300	Tuberculosis of bone
+N303100	Osteomyelitis, unspecified
+A985z11	Rheumatism - gonococcal
+N305200	Tuberculosis of bones and joints
+N30z700	Osteomyelitis, unspecified
+N301300	Other chronic osteomyelitis
+N30z600	Osteomyelitis, unspecified
+N30z200	Osteomyelitis, unspecified
+N304000	Tuberculosis of spine
+N301D00	Osteomyelitis of vertebra
+N301A00	Osteomyelitis of vertebra
+N303300	Osteomyelitis, unspecified
+N014700	Arthritis in other bacterial diseases classified elsewhere
+N308.00	Subacute osteomyelitis
+N01zz00	Arthritis in other infectious and parasitic diseases EC
+N306z00	Tuberculosis of bone
+N306400	Tuberculosis of bones and joints
+N300P00	Other acute osteomyelitis
+N30z900	Osteomyelitis, unspecified
+N300D00	Osteomyelitis of vertebra
+NyuC200	Other chronic osteomyelitis
+N302900	Osteomyelitis, unspecified
+J064400	Inflammatory conditions of jaws
+NyuC300	Other osteomyelitis
+N303500	Osteomyelitis, unspecified
+N010x00	Pyogenic arthritis, unspecified
+N014000	Arthritis in other bacterial diseases classified elsewhere
+N303900	Osteomyelitis, unspecified
+N302A00	Osteomyelitis of vertebra
+N302E00	Osteomyelitis of vertebra
+N01z700	Arthritis in other infectious and parasitic diseases EC
+N30z500	Osteomyelitis, unspecified
+N01z500	Arthritis in other infectious and parasitic diseases EC
+N305500	Tuberculosis of bone
+N01z800	Pyogenic arthritis, unspecified
+N303400	Osteomyelitis, unspecified
+Nyu0100	[X]Arthritis+polyarthritis due/other specfd bacterial agents
+N302F00	Osteomyelitis, unspecified
+NyuC100	Other chronic haematogenous osteomyelitis
+N302K00	Osteomyelitis, unspecified
+N304300	Tuberculosis of bones and joints
+N018.00	Tuberculous arthritis
+A955.	Syphilis of bone
+AB614	Sporotrichosis of the bones
+AB656	Osseous cryptococcosis
+AC230	Echinococcus granulosus infection of bone
+F4G04	Orbital osteomyelitis
+J0651	Dry socket
+J065z	Alveolitis of jaw NOS
+N0141	Arthropathy associated with other bacterial disease, of the shoulder region
+N0142	Arthropathy associated with other bacterial disease, of the upper arm
+N0143	Arthropathy associated with other bacterial disease, of the forearm
+N0144	Arthropathy associated with other bacterial disease, of the hand
+N0145	Arthropathy associated with other bacterial disease, of the pelvic region and thigh
+N0146	Arthropathy associated with other bacterial disease, of the lower leg
+N014z	Arthropathy associated with other bacterial disease NOS
+N01z0	Infective arthritis NOS, of unspecified site
+N01z1	Infective arthritis NOS, of the shoulder region
+N01z2	Infective arthritis NOS, of the upper arm
+N01z3	Infective arthritis NOS, of the forearm
+N01z4	Infective arthritis NOS, of the hand
+N01z6	Infective arthritis NOS, of the lower leg
+N01z9	Infective arthritis NOS, of sternoclavicular joint
+N01zA	Infective arthritis NOS, of acromioclavicular joint
+N01zC	Infective arthritis NOS, of distal radio-ulnar joint
+N01zD	Infective arthritis NOS, of wrist
+N01zE	Infective arthritis NOS, of metacarpophalangeal joint
+N01zF	Infective arthritis NOS, of proximal interphalangeal joint of finger
+N01zG	Infective arthritis NOS, of distal interphalangeal joint of finger
+N01zJ	Infective arthritis NOS, of sacro-iliac joint
+N01zL	Infective arthritis NOS, of tibio-fibular joint
+N01zM	Infective arthritis NOS, of ankle
+N01zN	Infective arthritis NOS, of subtalar joint
+N01zP	Infective arthritis NOS, of talonavicular joint
+N01zQ	Infective arthritis NOS, of other tarsal joint
+N01zR	Infective arthritis NOS, of 1st metatarsophalangeal joint
+N01zS	Infective arthritis NOS, of lesser metatarsophalangeal joint
+N01zT	Infective arthritis NOS, of interphalangeal joint of toe
+N01zx	Infective arthritis NOS, of multiple sites
+N01zy	Infective arthritis NOS, of other specified site
+N11y0	Brucella spondylitis
+N25..	SAPHO syndrome (Synovitis Acne Pustulosis Hyperostosis Osteomyelitis)
+N300G	Acute osteomyelitis-scapula
+N300L	Acute osteomyelitis-carpal bone
+N300W	Acute osteomyelitis-other tarsal bone
+N301B	Chronic osteomyelitis-thoracic spine
+N301E	Chronic osteomyelitis-coccyx
+N301F	Brodie's abscess-cervical spine
+N301G	Brodie's abscess-thoracic spine
+N301H	Brodie's abscess-lumbar spine
+N301J	Brodie's abscess-sacrum
+N301K	Brodie's abscess-coccyx
+N302L	Infection of carpal bone
+N302T	Infection of fibula
+N302U	Infection of calcaneum
+N302V	Infection of talus
+N302Z	Infection of multiple bones
+N3032	Periostitis without mention of osteomyelitis, of the upper arm
+N3050	Tuberculosis of unspecified limb bone
+N3056	Tuberculosis of multiple limb bones
+N305z	Tuberculosis of limb bones NOS
+N3060	Tuberculosis of bone, site unspecified
+N3062	Tuberculosis of the bones of the hand
+N3065	Tuberculosis of the bones of multiple sites
+N3080	Subacute osteomyelitis-cervical spine
+N3081	Subacute osteomyelitis-thoracic spine
+N3082	Subacute osteomyelitis-lumbar spine
+N3083	Subacute osteomyelitis-sacrum
+N3084	Subacute osteomyelitis-coccyx
+N30z0	Bone infection NOS, of unspecified site
+N30z1	Bone infection NOS, of the shoulder region
+N30z3	Bone infection NOS, of the forearm
+N33zE	Costochondritis
+Nyu02	[X]Arthritis in other infectious and parasitic diseases classified elsewhere
+Nyu60	[X]Other infective spondylopathies
+Nyu66	[X]Spondylopathy in other infectious and parasitic diseases classified elsewhere
+NyuC0	[X]Other acute osteomyelitis

@@ -1,0 +1,17 @@
+J511.	Diverticulitis
+J5110	Diverticulitis of the duodenum
+J5111	Diverticulitis of the jejunum
+J5112	Diverticulitis of the ileum
+J5113	Diverticulitis of the small intestine unspecified
+J5114	Diverticulitis of the small intestine NOS
+J5115	Diverticulitis of colon
+J5116	Diverticulitis of the large intestine unspecified
+J5117	Diverticulitis of the large intestine NOS
+J511y	Diverticulitis unspecified
+J511z	Diverticulitis NOS
+J5128	Diverticular disease of both small and large intestine with perforation and abscess
+X304R	Colonic diverticular abscess
+Xa1bJ	Diverticulitis of small intestine
+Xa1bK	Diverticulitis of large intestine
+XaB8Z	Diverticulitis
+XE2sg	Diverticulitis of gastrointestinal tract

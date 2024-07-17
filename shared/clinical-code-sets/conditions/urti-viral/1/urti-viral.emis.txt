@@ -1,0 +1,283 @@
+^ESCT1193099	Westley Croup Score
+^ESCT1245144	Singers' chorditis
+^ESCT1247724	[X]Other diseases of the upper respiratory tract
+^ESCT1271705	Tracheopharyngitis
+^ESCT1275820	Pharyngotracheitis
+^ESCT1299062	Upper respiratory tract infection caused by 2019-nCoV (novel coronavirus)
+^ESCT1299063	Upper respiratory tract infection caused by Wuhan 2019-nCoV (novel coronavirus)
+^ESCT1299064	Infection of upper respiratory tract caused by 2019 novel coronavirus
+^ESCT1301226	Upper respiratory tract infection caused by SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)
+^ESCT1303160	Croup
+^ESCT1348387	Infection of upper respiratory tract caused by 2019 novel coronavirus
+^ESCT1348388	Infection of upper respiratory tract caused by Severe acute respiratory syndrome coronavirus 2
+^ESCT1351785	Influenza caused by Influenza A virus subtype H3N2
+^ESCT1351809	Influenza caused by Influenza A virus subtype H5N1
+^ESCT1351825	Pneumonia caused by Influenza A virus
+^ESCT1376781	Influenza due to Influenza B virus
+^ESCT1376782	Influenza caused by Influenza B virus
+^ESCT1377976	Influenza due to Influenza C virus
+^ESCT1377977	Influenza caused by Influenza C virus
+^ESCT1413075	Pharyngotonsillitis
+^ESCT1413076	Rhinoconjunctivitis
+^ESCT1414985	Rhinosinusitis
+^ESCT1414986	Chronic rhinosinusitis
+^ESCT1421008	Swine influenza
+^ESCTAC297620	Acute epiglottitis and supraglottitis
+^ESCTAC315650	Acute lymphonodular pharyngitis
+^ESCTAC338265	Acute URI
+^ESCTAC338267	Acute upper respiratory tract infection
+^ESCTAC383819	Acute nasal catarrh
+^ESCTAC383825	Acute infective rhinitis
+^ESCTAC407519	Acute peritonsillitis
+^ESCTAC478015	Acute exudative tonsillitis
+^ESCTAC478025	Acute edematous laryngitis
+^ESCTAC503500	Acute irritant rhinitis
+^ESCTAC503577	Acute herpes simplex pharyngitis
+^ESCTAC503578	Acute pharyngeal cold sores
+^ESCTAC503579	Acute herpes zoster pharyngitis
+^ESCTAC503620	Acute simple laryngitis
+^ESCTAC503623	Acute membranous laryngitis
+^ESCTAC503625	Acute subglottic laryngitis
+^ESCTAC557379	Acute fibrinous laryngotracheobronchitis
+^ESCTAC589926	Acute viral laryngotracheitis
+^ESCTAC591290	Acute lingual tonsillitis
+^ESCTAC730326	Acute infective adenoiditis
+^ESCTAC787502	Acute sinusitis caused by virus
+^ESCTAC802625	Acute adenoiditis
+^ESCTAD363853	Adenoiditis
+^ESCTAD364464	Adenoviral pharyngoconjunctivitis
+^ESCTAD364466	Adenoviral pharyngoconjunctival fever
+^ESCTAD365891	Adenoviral laryngotracheobronchitis
+^ESCTAD377586	Adenoviral pharyngitis
+^ESCTAD503630	Adult acute epiglottitis and supraglottitis
+^ESCTAR478001	ARI - Acute respiratory infections
+^ESCTAT295111	Atrophic rhinitis
+^ESCTAU338266	AURTI - Acute upper respiratory tract infection
+^ESCTAV340289	Avian flu
+^ESCTBI340290	Bird flu
+^ESCTBR931011	Bronchiolitis caused by influenza virus
+^ESCTBU264864	Bull nose
+^ESCTCA273720	Catarrhal laryngitis
+^ESCTCE270910	Cellulitis of nasopharynx
+^ESCTCE286934	Cellulitis of pharynx
+^ESCTCE804091	Cellulitis of nasal mucous membrane
+^ESCTCH250069	Chronic sore throat
+^ESCTCH253655	Chronic granular pharyngitis
+^ESCTCH343780	Chorditis
+^ESCTCH478086	Chronic hyperplastic laryngitis
+^ESCTCH503583	Chlamydial pharyngitis
+^ESCTCH503588	Chronic ulcerative pharyngitis
+^ESCTCH503589	Chronic pharyngeal candidiasis
+^ESCTCH503590	Chronic pharyngeal moniliasis
+^ESCTCH503631	Chronic fungal laryngitis
+^ESCTCH804181	Chronic pharyngolaryngitis
+^ESCTCO558935	Congenital syphilitic rhinitis
+^ESCTCO799532	Contact granuloma of larynx
+^ESCTCR365782	Croup syndrome
+^ESCTCR596922	Cricoarytenoid joint arthritis
+^ESCTDI354942	Discharge from nose
+^ESCTED391112	Edematous laryngitis
+^ESCTEN315649	Enteroviral lymphonodular pharyngitis
+^ESCTEN474266	Enteroviral vesicular pharyngitis
+^ESCTEP380734	Epiglottitis
+^ESCTEX438524	Exudative pharyngitis
+^ESCTFL259791	Flu
+^ESCTFL406389	Flu-like symptoms
+^ESCTFO294742	Follicular tonsillitis
+^ESCTFO340288	Fowl plague
+^ESCTFU474385	Fusospirochetal pharyngitis
+^ESCTFU474386	Fusospirochaetal pharyngitis
+^ESCTGA250888	Gangrenous tonsillitis
+^ESCTGA288423	Gangosa of yaws
+^ESCTGA288427	Gangosa
+^ESCTGA367784	Gangrenous pharyngitis
+^ESCTGL503580	Glandular fever pharyngitis
+^ESCTGR259792	Grippe
+^ESCTGR268035	Granuloma of vocal cords
+^ESCTGR293842	Granulomatous rhinitis
+^ESCTGR503684	Granulomatosis with polyangiitis of larynx
+^ESCTGR634911	Granulomatous epiglottitis
+^ESCTGU709486	Gustatory rhinitis
+^ESCTHA316116	Haemophilus influenzae laryngitis
+^ESCTHA345143	Haemophilus influenzae epiglottitis
+^ESCTHA369375	Haemophilus influenzae laryngotracheobronchitis
+^ESCTHE383824	Head cold
+^ESCTHE676563	Healthcare associated influenza disease
+^ESCTHE781988	Herpes simplex pharyngotonsillitis
+^ESCTHU715913	Human papilloma virus infection of vocal cord
+^ESCTHU715914	Human papillomavirus infection of vocal cord
+^ESCTHY278416	Hypertrophic laryngitis
+^ESCTHY390302	Hypertrophic rhinitis
+^ESCTIN278156	Infective tonsillitis
+^ESCTIN289378	Influenza due to Influenza virus, type B
+^ESCTIN289379	Influenza caused by Influenza virus, type B
+^ESCTIN316487	Influenzal bronchopneumonia
+^ESCTIN320364	Influenzal acute upper respiratory infection
+^ESCTIN343781	Inflammation of vocal cord
+^ESCTIN350240	Influenza with non-respiratory manifestation
+^ESCTIN382562	Influenza due to Influenza virus, type C
+^ESCTIN382563	Influenza caused by Influenza virus, type C
+^ESCTIN383821	Infective rhinitis
+^ESCTIN383823	Infective nasopharyngitis
+^ESCTIN406391	Influenza like illness
+^ESCTIN503581	Infective mononucleosis pharyngitis
+^ESCTIN601617	Infective pharyngitis
+^ESCTIN601618	Infective laryngitis
+^ESCTIN725165	Inflammation of larynx due to virus
+^ESCTIN725166	Inflammation of larynx caused by virus
+^ESCTIN726430	Influenza due to Influenza A virus
+^ESCTIN726431	Influenza caused by Influenza A virus
+^ESCTIN726705	Influenza A (H1N1)
+^ESCTIN726706	Influenza caused by Influenza A virus subtype H1N1
+^ESCTIN738230	Influenza due to Influenza A virus subtype H7
+^ESCTIN738231	Influenza caused by Influenza A virus subtype H7
+^ESCTIN738232	Influenza due to Influenza A virus subtype H9
+^ESCTIN738233	Influenza caused by Influenza A virus subtype H9
+^ESCTIN761764	Influenza due to Influenza A virus subtype H7N9
+^ESCTIN761765	Influenza caused by Influenza A virus subtype H7N9
+^ESCTIN769953	Influenza caused by Influenza A virus subtype H5
+^ESCTIN778863	Influenza caused by seasonal influenza virus
+^ESCTIN779206	Influenza caused by pandemic influenza virus
+^ESCTIR363942	Irritation of nose
+^ESCTIR671793	Irritation of the throat
+^ESCTIR796473	Irritant rhinitis
+^ESCTLA251886	Laryngeal perichondritis
+^ESCTLA324148	Laryngitis
+^ESCTLA364390	Laryngeal tuberculosis
+^ESCTLA367479	Laryngeal granuloma
+^ESCTLA503680	Laryngeal sarcoidosis
+^ESCTLA707865	Laryngitis due to gastro-oesophageal reflux
+^ESCTLA707866	Laryngitis due to gastroesophageal reflux
+^ESCTLO331638	Lower respiratory infection
+^ESCTLR331640	LRTI - Lower respiratory tract infection
+^ESCTLT389641	LTB - Laryngotracheobronchitis
+^ESCTLY514935	Lymphonodular coxsackie pharyngitis
+^ESCTMA775824	Marshall syndrome with periodic fever
+^ESCTMI709487	Mixed rhinitis
+^ESCTMY406380	Mycoplasmal pharyngitis
+^ESCTNA333405	Nasopharyngitis
+^ESCTNA354938	Nasal discharge
+^ESCTNA354941	Nasal catarrh
+^ESCTNA503502	Nasal cholesteatoma
+^ESCTNA506586	Nasopharyngeal sarcoidosis
+^ESCTNE264863	Necrotic rhinitis
+^ESCTOB316024	Obstructive rhinitis
+^ESCTOE391111	Oedematous laryngitis
+^ESCTON457764	On examination - granular pharyngitis
+^ESCTOR438525	Oropharyngeal mucositis
+^ESCTOZ338093	Ozena laryngis
+^ESCTOZ363259	Ozena
+^ESCTOZ363261	Ozaena
+^ESCTPA267190	Parainfluenza virus laryngotracheitis
+^ESCTPA306990	Parainfluenza virus laryngotracheobronchitis
+^ESCTPA346203	Parainfluenza virus rhinopharyngitis
+^ESCTPA378347	Parainfluenza virus pharyngitis
+^ESCTPA389514	Parainfluenza virus laryngitis
+^ESCTPA454834	Pain in the pharynx
+^ESCTPA503628	Paediatric acute epiglottitis and supraglottitis
+^ESCTPE251885	Perichondritis of larynx
+^ESCTPE407518	Peritonsillar cellulitis
+^ESCTPE503629	Pediatric acute epiglottitis and supraglottitis
+^ESCTPE775823	Periodic fever and aphthous stomatitis with pharyngitis and cervical lymphadenitis syndrome
+^ESCTPF775822	PFAPA syndrome
+^ESCTPH253200	Pharyngeal diverticulitis
+^ESCTPH286935	Pharyngeal cellulitis
+^ESCTPH346583	Phlegmonous pharyngitis
+^ESCTPH364465	Pharyngoconjunctival fever
+^ESCTPH419329	Pharyngeal bursitis
+^ESCTPH454837	Pharyngeal pain
+^ESCTPH781987	Pharyngotonsillitis caused by Human herpes simplex virus
+^ESCTPN800222	Pneumonia due to influenza
+^ESCTPN800223	Pneumonia caused by influenza
+^ESCTPN804533	Pneumonia due to H1N1 influenza
+^ESCTPN804534	Pneumonia caused by H1N1 influenza
+^ESCTPO545573	Post-radiotherapy laryngitis
+^ESCTPO811450	Positive virology findings
+^ESCTPO819101	Possible influenza due to Influenza A virus subtype H1N1
+^ESCTPO819102	Possible swine influenza
+^ESCTPR363262	Primary atrophic rhinitis
+^ESCTPS503624	Pseudomembranous croup
+^ESCTPS503626	Pseudocroup
+^ESCTPU263486	Purulent rhinitis
+^ESCTRA478023	RAT - Recurrent acute tonsillitis
+^ESCTRE300472	Respiratory syncytial virus pharyngitis
+^ESCTRE367467	Respiratory syncytial virus laryngotracheobronchitis
+^ESCTRE503643	Relapsing polychondritis of larynx
+^ESCTRE801072	Recurrent croup
+^ESCTRH288424	Rhinopharyngitis mutilans of yaws
+^ESCTRH333406	Rhinopharyngitis
+^ESCTRH354940	Rhinorrhea
+^ESCTRH363941	Rhinitis
+^ESCTRH405339	Rhinitis medicamentosa
+^ESCTRH405340	Rhinitis sicca
+^ESCTRH503501	Rhinitis caseosa
+^ESCTRH708049	Rhinitis due to alpha-adrenergic blocking agent
+^ESCTRH708050	Rhinitis caused by alpha-adrenergic blocking agent
+^ESCTRH931023	Rhinitis of pregnancy
+^ESCTRS340541	RSV - Respiratory syncytial virus infection
+^ESCTSE266464	Septic tonsillitis
+^ESCTSE363260	Severe chronic rhinitis
+^ESCTSE773919	Severe acute respiratory syndrome of upper respiratory tract
+^ESCTSP801073	Spasmodic croup
+^ESCTSU266463	Suppurative tonsillitis
+^ESCTSU344265	Suppurative pharyngitis
+^ESCTSU384520	Suppurative laryngitis
+^ESCTSU765414	Supraglottitis
+^ESCTSU819051	Suspected influenza A virus subtype H1N1 infection
+^ESCTTO419330	Tornwaldt's disease
+^ESCTTO419331	Tornwaldt's bursitis
+^ESCTTU339986	Tuberculosis of glottis
+^ESCTTU364389	Tuberculosis of larynx
+^ESCTTU364391	Tuberculosis (TB) with laryngitis
+^ESCTTU732954	Tuberculosis of oropharynx
+^ESCTUL272926	Ulcerative tonsillitis
+^ESCTUL309101	Ulcerative rhinitis
+^ESCTUL309102	Ulcerative nasal mucositis
+^ESCTUL310305	Ulcerative laryngitis
+^ESCTUL313190	Ulcerative pharyngitis
+^ESCTUP337838	Upper respiratory tract infection
+^ESCTUP480667	Upper respiratory disease
+^ESCTUP804535	Upper respiratory tract infection due to H1N1 influenza
+^ESCTUP804536	Upper respiratory symptoms due to H1N1 influenza
+^ESCTUP804537	Upper respiratory symptoms caused by H1N1 influenza
+^ESCTUP804538	Upper respiratory tract infection caused by H1N1 influenza
+^ESCTUP810602	Upper respiratory tract infection due to Influenza A
+^ESCTUP810603	Upper respiratory symptoms due to Influenza A
+^ESCTUP810604	Upper respiratory symptoms caused by Influenza A
+^ESCTUP810605	Upper respiratory tract infection caused by Influenza A
+^ESCTUP931653	Upper respiratory tract infection due to Influenza
+^ESCTUP931654	Upper respiratory symptoms due to Influenza
+^ESCTUP931655	Upper respiratory symptoms caused by Influenza
+^ESCTUP931656	Upper respiratory tract infection caused by Influenza
+^ESCTUR337837	URTI - Infection of the upper respiratory tract
+^ESCTUR337839	URI - Upper respiratory infection
+^ESCTUR565587	URTI - Viral upper respiratory tract infection
+^ESCTVI252297	Viral pharyngitis
+^ESCTVI332990	Viral tonsillitis
+^ESCTVI474383	Vincent's angina - pharyngitis
+^ESCTVI474384	Vincent angina - pharyngitis
+^ESCTVI729831	Viral sinusitis
+^ESCTVM263133	VMR - Vasomotor rhinitis
+^ESCTWE503682	Wegener's granulomatosis of larynx
+^ESCTWE503683	Wegener granulomatosis of larynx
+^ESCTYA288428	Yaws gumma of nose
+EGTONAC2	Acute tonsilitis/pharyngitis
+EGTONPO1	Post influenzal debility
+EMISNQBI5	Bilateral basal pneumonia
+EMISNQBR25	Bronchopneumonia
+EMISNQCO132	Community acquired pneumonia
+EMISNQHO51	Hospital acquired pneumonia
+EMISNQLE7	Left lower zone pneumia
+EMISNQLI34	Lingular pneumonia
+EMISNQLO10	Lobar pneumonia
+EMISNQRI4	Right lower zone pneumonia
+EMISNQRI5	Right middle zone pneumonia
+EMISNQRI6	Right upper zone pneumonia
+^ESCTCO668138	Congestive non-allergic rhinitis
+^ESCTEO402075	Eosinophilic nonallergic rhinitis
+^ESCTEO402076	Eosinophilic non-allergic rhinitis
+^ESCTNA402077	NARES - Non-allergic rhinitis with eosinophilia
+^ESCTNI503504	NINA - Non-infective non-allergic rhinitis
+^ESCTNO402078	Non-allergic rhinitis with eosinophilia
+^ESCTNO503503	Non-infective non-allergic rhinitis
+^ESCTNO796525	Non-allergic rhinitis

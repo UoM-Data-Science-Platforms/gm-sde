@@ -1,0 +1,3 @@
+1DC8.	Generalised aches and pains
+N2412	Fibromyositis NOS
+R00z2	[D]Pain, generalised

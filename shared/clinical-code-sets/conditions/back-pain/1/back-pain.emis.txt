@@ -1,0 +1,51 @@
+^ESCT1245490	O/E - abd. pain - L.lumbar
+^ESCT1245492	O/E - abd. pain - R.lumbar
+^ESCT1270252	Sciatic hernia
+^ESCT1377630	Decreased stability of joint
+^ESCT1379023	Instability of atlantooccipital joint
+^ESCTAN275476	Ankylosis of sacroiliac joint
+^ESCTAN326066	Ankylosis of vertebral column
+^ESCTAN392733	Ankylosis of lumbosacral joint
+^ESCTAR481589	Arthropathy of sacroiliac joint
+^ESCTAT481594	Atlantoaxial ankylosis
+^ESCTBA454511	Back ache
+^ESCTCE481596	Cervicothoracic ankylosis
+^ESCTCL561833	CLBP - Chronic low back pain
+^ESCTCO306026	Coccyalgia
+^ESCTCO306027	Coccydynia
+^ESCTCO306028	Coccygalgia
+^ESCTCO306029	Coccyodynia
+^ESCTCO454518	Complaining of low back pain
+^ESCTFA524320	Facet joint pain
+^ESCTHE685779	Hernia through lesser sciatic foramen
+^ESCTHY481590	Hypermobility of coccyx
+^ESCTIN311610	Instability of lumbosacral joint
+^ESCTIR478548	Irreducible sciatic hernia
+^ESCTIS369084	Ischiatic hernia with obstruction
+^ESCTJO359611	Joint unsteady
+^ESCTJO359612	Joint gives way
+^ESCTLB562068	LBP - Low back pain
+^ESCTLO562069	Low back syndrome
+^ESCTLU562070	Lumbalgia
+^ESCTLU562072	Lumbar pain
+^ESCTNE286761	Neuralgia-neuritis of sciatic nerve
+^ESCTNO562073	Nonspecific pain in the lumbar region
+^ESCTOB369085	Obstructed sciatic hernia
+^ESCTON455985	On examination - abdominal pain - right lumbar
+^ESCTON455990	On examination - abdominal pain - left lumbar
+^ESCTON557205	On examination - lumbar pain on palpation
+^ESCTPA306024	Pain in the coccyx
+^ESCTPA454512	Pain in back
+^ESCTSA298093	Sacroiliac joint unstable
+^ESCTSC286762	Sciatic neuralgia
+^ESCTSC286763	Sciatica neuralgia
+^ESCTSI269926	SIJ - Sprain of sacroiliac joint
+^ESCTSI269928	SIJ - Sprain of ligament of sacroiliac joint
+^ESCTSP269923	Sprain of sacroiliac ligament
+^ESCTSP269927	Sprain of sacroiliac joint
+^ESCTSP279162	Spinal stenosis of lumbar region
+^ESCTSP316622	Spinal stenosis of thoracic region
+^ESCTSS373805	SS - Spinal stenosis
+^ESCTST527821	Stiff back
+^ESCTUN359610	Unstable joint
+EMISNQNO10	Non-mechanical back pain

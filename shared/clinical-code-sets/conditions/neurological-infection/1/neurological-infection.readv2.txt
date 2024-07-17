@@ -1,0 +1,319 @@
+A360.00	Meningococcal meningitis
+A42z.00	Viral meningitis NOS
+F02z.00	Unspecified meningitis
+F011500	Meningitis due to lymphocytic choriomeningitis virus
+F03z.00	Encephalitis NOS
+F000.00	Haemophilus meningitis
+F023.00	Arachnoiditis
+F02..00	Meningitis of unspecified cause
+F030511	Mumps encephalitis
+A543.00	Herpetic meningoencephalitis
+F002.00	Streptococcal meningitis
+F001.00	Pneumococcal meningitis
+F03..12	Myelitis
+F03..11	Encephalomyelitis
+A4zz.11	Viral encephalitis NOS
+A553.00	Measles complicated by meningitis
+F00..00	Bacterial meningitis
+F011.00	Meningitis due to viral organisms EC
+F040400	Extradural intracranial abscess
+F033011	Meningococcal encephalitis
+F005.00	Meningitis - meningococcal
+F011z00	Meningitis - viral NOS
+A130.00	Tuberculous meningitis
+F004.00	Meningitis - tuberculous
+F040011	Cerebral abscess
+A42..00	Meningitis due to enterovirus
+F041.00	Intraspinal abscess
+A42z.11	Aseptic meningitis
+A36y000	Meningococcal optic neuritis
+A550.00	Postmeasles encephalitis
+A361.00	Meningococcal encephalitis
+A365.00	Meningococcal meningitis with acute meningococcal septicaem
+F04z.00	Intracranial or intraspinal abscess NOS
+A560100	Rubella encephalomyelitis
+A366.00	Meningococcal meningitis with meningococcal septicaemia
+F03..00	Encephalitis, myelitis and encephalomyelitis
+F040.11	Brain abscess
+F01..00	Meningitis due to other organisms
+F032011	Malarial encephalitis
+F011411	Mumps meningitis
+F04..00	Intracranial and intraspinal abscesses
+A721.00	Mumps meningitis
+F04z000	Epidural abscess
+F040511	Subdural intracranial abscess
+7004000	Drainage of abscess of brain tissue
+F034.00	Postimmunisation encephalitis
+F034H00	Post hepatitis A vaccination encephalitis
+A136100	Tuberculous myelitis
+F030611	Rubella encephalitis
+F010000	Meningitis due to cryptococcus
+A722.00	Mumps encephalitis
+A623.00	St. Louis encephalitis
+A4z0.00	Lymphocytic choriomeningitis
+A420.00	Coxsackie viral meningitis
+F01z.00	Meningitis due to organism NOS
+F033z00	Unspecified encephalitis due to other infection EC
+F033.00	Encephalitis due to other infection EC
+F030211	Poliomyelitis encephalitis
+A520.00	Postvaricella encephalitis
+F034B00	Post yellow fever vaccination encephalitis
+Ayu8D00	[X]Viral meningitis, unspecified
+F035100	Encephalitis following measles
+A64..00	Viral encephalitis from other arthropods
+F034J00	Post hepatitis B vaccination encephalitis
+F034D00	Post polio vaccination encephalitis
+F01y000	Meningitis due to leptospira
+F03X.00	Bacterial meningoencephalitis+meningomyelitis,NEC
+F011000	Meningitis due to coxsackie virus
+7008100	Aspiration of abscess of brain tissue
+F040111	Cerebellar abscess
+A13..00	Tuberculosis of meninges and central nervous system
+F030411	Herpes simplex encephalitis
+F011y00	Other viral meningitis
+F030z00	Encephalitis in viral disease NOS
+F04X.00	Extradural and subdural abscess, unspecified
+F00y211	Meningitis due to escherichia coli
+F035000	Encephalitis following chickenpox
+A620.00	Japanese encephalitis
+7034100	Drainage of abscess of subdural space
+F011700	Varicella meningitis
+A130300	Tuberculous meningoencephalitis
+F01yz00	Other non-bacterial meningitis NOS
+F011100	Meningitis due to ECHO virus
+A530.00	Herpes zoster with meningitis
+A54x100	Herpes simplex meningitis
+F011311	Herpes simplex meningitis
+F011511	Lymphocytic choriomeningitis
+F040211	Otogenic intracranial abscess
+A134.00	Tuberculoma of spinal cord
+A135.00	Tuberculous abscess of spinal cord
+F00y212	Escherichia coli meningitis
+F034200	Post paratyphoid vaccination encephalitis
+A4zy400	Von Economo's encephalitis
+A130100	Tuberculosis of spinal meninges
+A531400	Zoster encephalitis
+F033411	Toxoplasmosis encephalitis
+F040.00	Intracranial abscess
+F020.00	Nonpyogenic meningitis
+F034G00	Post influenza vaccination encephalitis
+F013.00	Meningitis due to sarcoidosis
+F022.00	Chronic meningitis
+Ayu8C00	[X]Other viral meningitis
+F003.00	Staphylococcal meningitis
+F040300	Epidural intracranial abscess
+A270300	Listerial cerebral arteritis
+F041000	Epidural intraspinal abscess
+F007100	Meningitis due to listeriosis
+A421.00	ECHO viral meningitis
+F035011	Encephalitis due to varicella
+F030900	Encephalitis due to herpes zoster
+AD00.00	Toxoplasma meningoencephalitis
+F374300	Polyneuropathy in diphtheria
+A132.00	Tuberculoma of brain
+F031.00	Encephalitis due to rickettsia EC
+F00y200	Meningitis due to escherichia coli
+A4y0.00	Enteroviral encephalitis
+A412.00	Subacute sclerosing panencephalitis
+F00y611	Pseudomonas meningitis
+F03y.00	Other causes of encephalitis
+F040200	Otogenic intracranial abscess
+F035200	Rasmussen syndrome
+AA0y000	Leptospiral meningitis
+F011400	Meningitis due to mumps virus
+F011300	Meningitis due to herpes simplex virus
+A621.00	Western equine encephalitis
+A130000	Tuberculosis of cerebral meninges
+F040600	Tuberculous intracranial abscess
+F030400	Encephalitis due to herpes simplex virus
+F040500	Subdural intracranial abscess
+A4zy.00	Other specified non-arthropod-borne viral disease of the CNS
+F007800	Meningitis due to pertussis
+F040311	Epidural intracranial abscess
+F030500	Encephalitis due to mumps virus
+A022100	Salmonella meningitis
+A133.00	Tuberculous abscess of brain
+A131.00	Tuberculoma of meninges
+F024.00	Benign recurrent meningitis
+F040000	Cerebral intracranial abscess
+F011211	Herpes zoster meningitis
+F030.00	Encephalitis in viral disease EC
+A136.00	Tuberculous encephalitis or myelitis
+A918000	Acute secondary syphilitic meningitis
+F034000	Post BCG vaccination encephalitis
+AB40100	Histoplasma capsulatum with meningitis
+F041z00	Intraspinal abscess NOS
+A942.00	Syphilitic meningitis
+A206.00	Plague meningitis
+A4zy100	Acute necrotising encephalitis
+F010.00	Meningitis due to fungal organisms
+F03y.11	Encephalomyelitis NOS
+A62..00	Mosquito-borne viral encephalitis
+Fyu0400	[X]Meningitis due to other specified causes
+A62y.11	Ilheus virus encephalitis
+Fyu0B00	[X]Intracranial+intraspinal abscess+granuloma in diseases CE
+A63..00	Tick-borne viral encephalitis
+F041100	Extradural intraspinal abscess
+F00z.00	Bacterial meningitis NOS
+A543.11	Simian B disease
+AB2y200	Candidal meningitis
+F01y.00	Other non-bacterial meningitis
+A4zy500	Adenoviral encephalitis
+F021.00	Eosinophilic meningitis
+A055.00	Amoebic brain abscess
+A624.00	Australian encephalitis
+F034x00	Post mixed vaccination encephalitis
+F034800	Post smallpox vaccination encephalitis
+F035z00	Postinfectious encephalitis NOS
+A42y.00	Other specified viral meningitis
+A4zy200	Epidemic encephalitis
+F00y100	Meningitis due to bacillus pyocyaneus
+F033400	Encephalitis due to toxoplasmosis
+F007z00	Unspecified meningitis in bacterial disease EC
+F034500	Post tetanus vaccination encephalitis
+F212.00	Acute and subacute haemorrhagic leukoencephalitis [Hurst]
+F011z11	Acute aseptic meningitis
+A622.00	Eastern equine encephalitis
+F033000	Encephalitis due to meningococcus
+F034C00	Post measles vaccination encephalitis
+F040100	Cerebellar intracranial abscess
+F030711	Cytomegaloviral encephalitis
+A4z1.00	Adenoviral meningitis
+F034700	Post pertussis vaccination encephalitis
+F00y411	Klebsiella meningitis
+A130z00	Tuberculous meningitis NOS
+F030800	Encephalitis due to influenza-specific virus not identified
+F030911	Herpes zoster encephalitis
+AB65200	Cryptococcal meningitis
+AB32.00	Coccidioidal meningitis
+F00y511	Proteus morganii meningitis
+F00y500	Meningitis due to proteus morganii
+F011200	Meningitis due to herpes zoster virus
+A63y000	Langat encephalitis
+F030A00	Encephalitis due to influenza-virus identified
+A136z00	Tuberculous encephalitis or myelitis NOS
+F00yz00	Other specified bacterial meningitis NOS
+F00y400	Meningitis due to klebsiella pneumoniae
+F007300	Meningitis due to salmonella
+F030200	Encephalitis due to poliomyelitis
+F007600	Meningitis due to typhoid fever
+F033111	Syphilis encephalitis
+AB62100	Phaeomycotic brain abscess
+F012.00	Meningitis due to trypanosomiasis
+F011600	Meningitis due to adenovirus
+Ayu8B00	[X]Unspecified viral encephalitis
+F040z00	Intracranial abscess NOS
+F041200	Subdural intraspinal abscess
+A630.00	Russian spring-summer (taiga) encephalitis
+A4zy000	Acute inclusion body encephalitis
+F00y600	Meningitis due to pseudomonas
+F034E00	Post mumps vaccination encephalitis
+F037000	Varicella transverse myelitis
+A136000	Tuberculous encephalitis
+F011611	Adenovirus meningitis
+7005400	Excision of abscess of tissue of brain
+Fyu0500	[X]Bacterial meningoencephalitis+meningomyelitis,NEC
+F03z.11	Encephalomyelitis NOS
+A625.00	California viral encephalitis
+F034z00	Postimmunisation encephalitis NOS
+F030700	Encephalitis due to cytomegalovirus
+F00y.00	Other specified bacterial meningitis
+F007200	Meningitis due to neurosyphilis
+F033311	Tuberculous encephalitis
+F034A00	Post typhus vaccination encephalitis
+F034100	Post typhoid vaccination encephalitis
+A904200	Congenital syphilitic meningitis
+A130200	Tuberculous leptomeningitis
+A13y.00	Other specified tuberculosis of central nervous system
+A13z.00	Tuberculosis of central nervous system NOS
+A4...00	Poliomyelitis and other non-arthropod-borne viral diseases of central nervous system
+A40..00	Acute poliomyelitis
+A400.00	Acute paralytic bulbar poliomyelitis
+A401.00	Acute paralytic non-bulbar poliomyelitis
+A402.00	Acute non-paralytic poliomyelitis
+A403.00	Acute paralytic poliomyelitis, unspecified
+A403000	Acute paralytic poliomyelitis, vaccine-associated
+A403100	Acute paralytic poliomyelitis, wild virus, imported
+A403200	Acute paralytic poliomyelitis, wild virus, indigenous
+A40z.00	Acute poliomyelitis NOS
+A41..00	Slow viral central nervous system infection
+A410.00	Kuru
+A411.00	Jakob-Creutzfeldt disease
+A411000	Sporadic Creutzfeldt-Jakob disease
+A413.00	Progressive multifocal leucoencephalopathy
+A41y.00	Other slow virus central nervous system infections
+A41z.00	Slow virus central nervous system infection NOS
+A4z..00	Other and unspecified non-arthropod-borne viral diseases of central nervous system
+A4zy300	Encephalitis lethargica
+A4zyz00	Other specified non-arthropod-borne viral diseases of the central nervous system NOS
+A632.00	Central European encephalitis
+A663700	Oropouche fever
+A71..00	Rabies - hydrophobia
+A840000	Plasmodium falciparum malaria with cerebral complications
+A849100	Cerebral malaria
+A871100	Lyme neuroborreliosis
+A904.00	Juvenile neurosyphilis
+A904000	Unspecified juvenile neurosyphilis
+A904100	Congenital syphilitic encephalitis
+A904z00	Juvenile neurosyphilis NOS
+A94..00	Neurosyphilis
+A941.00	General paresis - neurosyphilis
+A943.00	Asymptomatic neurosyphilis
+A94y.00	Other specified neurosyphilis
+A94y000	Syphilitic encephalitis
+A94y100	Syphilitic parkinsonism
+A94y300	Syphilitic optic atrophy
+A94y400	Syphilitic retrobulbar neuritis
+A94yz00	Other specified neurosyphilis NOS
+A94z.00	Neurosyphilis NOS
+A98y100	Gonococcal meningitis
+AB41100	Histoplasma duboisii with meningitis
+AB4z100	Histoplasmosis with meningitis
+AB65400	Cerebral cryptococcosis
+AB67100	Rhinocerebral mucormycosis
+AC31000	Cysticercosis of central nervous system
+Ayu1500	[X]Tuberculosis of nervous system, unspecified
+Ayu4700	[X]Neurosyphilis, unspecified
+Ayu8.00	[X]Viral infections of the central nervous system
+Ayu8000	[X]Acute paralytic poliomyelitis, other and unspecified
+Ayu8100	[X]Acute poliomyelitis, unspecified
+Ayu8200	[X]Other slow virus infections of central nervous system
+Ayu8300	[X]Slow virus infection of central nervous system, unspecified
+Ayu8400	[X]Rabies, unspecified
+Ayu8700	[X]Other tick-borne viral encephalitis
+Ayu8A00	[X]Other specified viral encephalitis
+Ayu8E00	[X]Other specified viral infections of the central nervous system
+Ayu8F00	[X]Unspecified viral infection of the central nervous system
+E030100	Acute confusional state, of infective origin
+E031100	Subacute confusional state, of infective origin
+F007.00	Meningitis in other bacterial disease classified elsewhere
+F007000	Meningitis due to gonococcus
+F007400	Meningitis due to congenital syphilis
+F007500	Meningitis due to secondary syphilis
+F007700	Meningitis due to actinomycosis
+F00y000	Meningitis due to aerobacter aerogenes
+F00y300	Meningitis due to Friedlander bacillus
+F010z00	Other fungal meningitis
+F030000	Encephalitis due to kuru
+F030100	Encephalitis due to subacute sclerosing panencephalitis
+F030300	Encephalitis due to arthropod-borne virus
+F032.00	Encephalitis due to protozoa EC
+F032100	Encephalitis due to trypanosomiasis
+F032z00	Encephalitis due to protozoa EC NOS
+F033200	Encephalitis due to syphilis unspecified
+F034y00	Post other specified vaccination encephalitis
+F035.00	Postinfectious encephalitis
+F037.00	Transverse myelitis
+F038.00	Tropical spastic paraplegia
+F041300	Tuberculous intraspinal abscess
+F286.00	Chronic fatigue syndrome
+F28y100	Cerebral fungus
+Fyu0000	[X]Other bacterial meningitis
+Fyu0100	[X]Meningitis in viral diseases classified elsewhere
+Fyu0200	[X]Meningitis in mycoses classified elsewhere
+Fyu0300	[X]Meningitis in other specified infectious and parasitic diseases classified elsewhere
+Fyu0600	[X]Other encephalitis, myelitis and encephalomyelitis
+Fyu0700	[X]Encephalitis, myelitis and encephalomyelitis in bacterial diseases classified elsewhere
+Fyu0800	[X]Encephalitis, myelitis and encephalomyelitis in viral diseases classified elsewhere
+Fyu0D00	[X]Extradural and subdural abscess, unspecified
+H27y000	Influenza with encephalopathy

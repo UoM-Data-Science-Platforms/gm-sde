@@ -1,0 +1,6 @@
+M1600	Psoriatic arthritis with spine involvement
+M160z	Psoriatic arthropathy NOS
+Nyu13	[X]Other psoriatic arthropathies
+X7026	Psoriatic arthritis with distal interphalangeal joint involvement
+X7027	Psoriatic arthritis - destructive type
+M160.	PA - Psoriatic arthritis

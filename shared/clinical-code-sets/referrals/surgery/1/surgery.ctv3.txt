@@ -1,0 +1,35 @@
+8H5A.	Referral to oral surgeon (& referred for oral surgery)
+8H5A.	Referred for oral surgery
+8HJI.	Plastic surgery self-referral
+XaAdt	Referral to breast surgery service
+XaAdu	Referral to cardiothoracic surgery service
+XaAdv	Referral to thoracic surgery service
+XaAdw	Referral to cardiac surgery service
+XaAdx	Referral to dental surgery service
+XaAe2	Referral to endocrine surgery service
+XaAe3	Referral to gastrointestinal surgery service
+XaAe3	Referral to GI surgery service
+XaAe4	Referral to general gastrointestinal surgery service
+XaAe4	Referral to general GI surgery service
+XaAe5	Referral to upper gastrointestinal surgery service
+XaAe5	Referral to upper GI surgery service
+XaAe6	Referral to colorectal surgery service
+XaAeB	Referral to maxillofacial surgery service
+XaAeB	Referral to oral surgery service
+XaAeD	Referral to pancreatic surgery service
+XaAeF	Referral to plastic surgery service
+XaAeH	Referral to trauma surgery service
+XaAes	Referral for general surgery domiciliary visit
+XaAes	Referral for general surgery DV
+XaAqj	Referral to general dental surgery service
+XaAvO	Referral to hand surgery service
+XaAvT	Referral to vascular surgery service
+Xab8R	Referral for pre-bariatric surgery assessment
+XaJub	Referral for minor surgery
+XaPyv	Referral to hepatobiliary and pancreatic surgery service
+XaQfL	Referral to minor surgery special interest general practitioner
+XaQVx	Referral to minor surgery clinical assessment service
+XaQW0	Referral to general surgery special interest general practitioner
+XaQyP	Internal practice referral for minor surgery
+XaZgz	Referral to podiatric surgery service
+XaPfQ	Referral to oral surgeon

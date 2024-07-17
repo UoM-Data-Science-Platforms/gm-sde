@@ -1,0 +1,47 @@
+dnj1.	Gabapentin 100mg capsule
+dnj2.	Gabapentin 300mg capsule
+dnj3.	Gabapentin 400mg capsule
+dnj4.	Neurontin 100mg capsule
+dnj5.	Neurontin 300mg capsule
+dnj6.	Neurontin 400mg capsule
+dnj7.	Neurontin 600mg tablet
+dnj8.	Neurontin 800mg tablet
+dnj9.	Neurontin 300mg capsule/600mg tablet titration pack
+dnjA.	GABAPENTIN 50mg/mL oral solution
+dnjx.	Gabapentin 300mg capsule/600mg tablet titration pack
+dnjy.	Gabapentin 600mg tablet
+dnjz.	Gabapentin 800mg tablet
+dnp1.	Lyrica 25mg capsule
+dnp2.	Lyrica 50mg capsule
+dnp3.	Lyrica 75mg capsule
+dnp4.	Lyrica 100mg capsule
+dnp5.	Lyrica 150mg capsule
+dnp6.	Lyrica 200mg capsule
+dnp7.	Lyrica 300mg capsule
+dnp8.	LYRICA 225mg capsules
+dnp9.	LYRICA 20mg/1mL oral solution
+dnpA.	LECAENT 25mg capsules
+dnpB.	LECAENT 50mg capsules
+dnpC.	LECAENT 75mg capsules
+dnpD.	LECAENT 100mg capsules
+dnpE.	LECAENT 150mg capsules
+dnpF.	LECAENT 200mg capsules
+dnpG.	LECAENT 225mg capsules
+dnpH.	LECAENT 300mg capsules
+dnpI.	REWISCA 25mg capsules
+dnpJ.	REWISCA 50mg capsules
+dnpK.	REWISCA 75mg capsules
+dnpL.	REWISCA 100mg capsules
+dnpM.	REWISCA 150mg capsules
+dnpN.	REWISCA 200mg capsules
+dnpO.	REWISCA 225mg capsules
+dnpP.	REWISCA 300mg capsules
+dnpr.	PREGABALIN 20mg/1mL oral solution
+dnps.	PREGABALIN 225mg capsules
+dnpt.	Pregabalin 300mg capsule
+dnpu.	Pregabalin 200mg capsule
+dnpv.	Pregabalin 100mg capsule
+dnpw.	Pregabalin 150mg capsule
+dnpx.	Pregabalin 75mg capsule
+dnpy.	Pregabalin 50mg capsule
+dnpz.	Pregabalin 25mg capsule
