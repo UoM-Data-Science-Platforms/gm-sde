@@ -56,7 +56,94 @@ DONE- let's just give them what's in the GP_Record table in the first instance -
 
 TODO list
 
-- We now have list of all anticholinergics (see https://www.derbyshiremedicinesmanagement.nhs.uk/assets/Clinical_Guidelines/Formulary_by_BNF_chapter_prescribing_guidelines/BNF_chapter_4/Drugs_on_the_acb_scale.pdf)
+- We now have list of all anticholinergics (see https://www.derbyshiremedicinesmanagement.nhs.uk/assets/Clinical_Guidelines/Formulary_by_BNF_chapter_prescribing_guidelines/BNF_chapter_4/Drugs_on_the_acb_scale.pdf). Here they all are (with ACB type and a year if we already have a code set - the year being when last updated so i.e. 2024 can reuse without checking, 2023 and before probably need SNOMED codes):
+  ACB1 Alimemazine
+  ACB1 Alprazolam
+  ACB1 Alverine
+  ACB1 Atenolol
+  ACB1 Captopril
+  ACB1 Cimetidine
+  ACB1 Clorazepate
+  ACB1 Codeine
+  ACB1 Colchicine
+  ACB1 Dextropropoxyphene
+  ACB1 Diazepam
+  ACB1 Digoxin
+  ACB1 Dipyridamole
+  ACB1 Disopyramide phosphate
+  ACB1 Fentanyl
+  ACB1 Furosemide
+  ACB1 Hydralazine
+  ACB1 Isosorbide
+  ACB1 Loperamide
+  ACB1 Metoprolol
+  ACB1 Morphine
+  ACB1 Nifedipine
+  ACB1 Prednisone
+  ACB1 Quinine
+  ACB1 Ranitidine
+  ACB1 Theophylline
+  ACB1 Timolol
+  ACB1 Triamterene
+  ACB1 Warfarin
+
+ACB2 Amantadine
+ACB2 Belladona alkaloids
+ACB2 Cyclobenzprine
+ACB2 Cyproheptadine
+ACB2 Meperidine
+ACB2 Methotrimeprazine
+ACB2 Oxcarbazepine
+ACB2 Pethidine
+
+ACB3 Atropine
+ACB3 Benztropine
+ACB3 Clemastine
+ACB3 Darifenacin
+ACB3 Dicyclomine
+ACB3 Diphenhydramine
+ACB3 Flavoxate
+ACB3 Hydroxyzine
+ACB3 Meclozine
+ACB3 Orphenadrine
+ACB3 Oxybutynin
+ACB3 Procyclidine
+ACB3 Propantheline
+ACB3 Mepyramine
+ACB3 Solifenacin
+ACB3 Scopolamine
+ACB3 Tolterodine
+ACB3 Trihexyphenidyl
+ACB3 Trospium
+
+ACB1 2022 Beclometasone dipropionate
+ACB1 2022 Hydrocortisone
+ACB1 2022 Prednisolone
+ACB3 2022 Promethazine
+
+ACB1 2024 Bupropion
+ACB1 2024 Fluvoxamine
+ACB1 2024 Haloperidol
+ACB1 2024 Trazodone
+ACB2 2024 Carbamazepine
+ACB2 2024 Loxapine
+ACB2 2024 Pimozide
+ACB3 2024 Amitriptyline
+ACB3 2024 Amoxapine
+ACB3 2024? Chlorpheniramine
+ACB3 2024 Chlorpromazine
+ACB3 2024 Clomipramine
+ACB3 2024 Clozapine
+ACB3 2024 Desipramine
+ACB3 2024 Doxepin
+ACB3 2024 Imipramine
+ACB3 2024 Nortriptyline
+ACB3 2024 Paroxetine
+ACB3 2024 Perphenazine
+ACB3 2024 Promazine
+ACB3 2024 Trifluoperazine
+ACB3 2024 Trimipramine
+
 - Lots need their own code set
 - Code far below allows you to quickly copy (from med code set creator) README plus 3 code sets to clipboard for easy creation of med code sets
 - Need to check prevalence for anti-dementia (and it's 4 subcomponents) - hopefully gmcr back for this
