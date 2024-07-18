@@ -1,0 +1,433 @@
+ALSO123793NEMIS	Alzhok Treatment Initiation Pack  Soluble tablets  
+ALSO123796NEMIS	Alzhok  Soluble tablets  10 mg
+ALSO123797NEMIS	Alzhok  Soluble tablets  20 mg
+EBOR14275NEMIS	Ebixa  Oral solution  5 mg/0.5 ml pump actuation
+EBTA14274NEMIS	Ebixa  Tablets  10 mg
+EBTA31267NEMIS	Ebixa  Tablets  20 mg
+EBTA31269NEMIS	Ebixa Treatment Initiation Pack  Tablets  
+MATA116914NEMIS	Marixino  Tablets  20 mg
+MATA116915NEMIS	Marixino  Tablets  10 mg
+MEOR114365NEMIS	Memantine Hydrochloride  Orodispersible Tablets (Sugar Free)  10 mg
+MEOR114366NEMIS	Memantine Hydrochloride  Orodispersible Tablets (Sugar Free)  20 mg
+MEOR134436NEMIS	Memantine Hydrochloride  Orodispersible Tablets (Sugar Free)  5 mg/10 mg/15 mg/20 mg Initiation Pack
+MEOR14272NEMIS	Memantine Hydrochloride  Oral Solution, Sugar Free  10 mg/ml (5 mg/pump)
+MESO123794NEMIS	Memantine Hydrochloride  Soluble Tablets Sugar Free  10 mg
+MESO123795NEMIS	Memantine Hydrochloride  Soluble Tablets Sugar Free  20 mg
+META126400NEMIS	Memantine Hydrochloride  Tablets  5 mg/10 mg/15 mg/20 mg Treatment Initiation Pack
+META14270NEMIS	Memantine Hydrochloride  Tablets  10 mg
+META31266NEMIS	Memantine Hydrochloride  Tablets  20 mg
+NETA117129NEMIS	Nemdatine Treatment Initiation Pack  Tablets  
+NETA82050NEMIS	Nemdatine  Tablets  10 mg
+NETA82051NEMIS	Nemdatine  Tablets  20 mg
+VAOR114368NEMIS	Valios  Orodispersible Tablets (Sugar Free)  10 mg
+VAOR114369NEMIS	Valios  Orodispersible Tablets (Sugar Free)  20 mg
+VAOR125798NEMIS	Valios Treatment Initiation Pack  Orodispersible tablets  
+^ESCT1174810	Memantine 10mg/ml oral solution sugar free (Thornton & Ross Ltd)
+^ESCT1174811	Memantine 10mg/ml oral solution sugar free (Thornton & Ross Ltd) 50 ml
+^ESCT1174812	Memantine 10mg/ml oral solution sugar free (Thornton & Ross Ltd) 100 ml
+^ESCT1175191	Memantine 10mg tablets (Accord Healthcare Ltd) 56 tablet
+^ESCT1177498	Memantine 5mg orodispersible tablets sugar free 7 tablet
+^ESCT1177500	Valios 5mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1177502	Valios 5mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd) 7 tablet
+^ESCT1177503	Memantine 10mg orodispersible tablets sugar free 7 tablet
+^ESCT1177504	Valios 10mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd) 7 tablet
+^ESCT1177505	Memantine 20mg orodispersible tablets sugar free 7 tablet
+^ESCT1177506	Valios 20mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd) 7 tablet
+^ESCT1177509	Memantine 15mg orodispersible tablets sugar free 7 tablet
+^ESCT1177510	Valios 15mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1177512	Valios 15mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd) 7 tablet
+^ESCT1177514	Generic Valios treatment initiation pack orodispersible tablets 28 tablet
+^ESCT1177515	Valios treatment initiation pack orodispersible tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1177516	Valios treatment initiation pack orodispersible tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet 1x(7tabs+7tabs+7tabs+7tabs)
+^ESCT1177561	Generic Valios treatment initiation pack orodispersible tablets
+^ESCT1177562	Memantine 15mg orodispersible tablets sugar free
+^ESCT1177563	Memantine 5mg orodispersible tablets sugar free
+^ESCT1178608	Product containing only memantine hydrochloride 5 mg/1 each oral tablet
+^ESCT1180929	Memantine 10mg/ml oral solution sugar free (Mylan) 50 ml
+^ESCT1180930	Memantine 10mg/ml oral solution sugar free (Mylan) 100 ml
+^ESCT1184982	Memantine 20mg tablets (Mylan) 28 tablet
+^ESCT1185004	Memantine 10mg tablets (Mylan)
+^ESCT1185005	Memantine 10mg tablets (Mylan) 28 tablet
+^ESCT1187015	Memantine 20mg tablets (Mylan)
+^ESCT1187032	Memantine 10mg tablets (Mylan) 56 tablet
+^ESCT1188046	Product containing only memantine hydrochloride 10 mg/1 each oral tablet
+^ESCT1190138	Memantine 10mg/ml oral solution sugar free (Mylan)
+^ESCT1195766	Memantine 5mg/10mg/15mg/20mg tablets treatment initiation pack (Lupin Healthcare (UK) Ltd)
+^ESCT1195813	Memantine 20mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1195910	Valios 5mg/10mg/15mg/20mg orodispersible tablets initiation pack (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1195927	Memantine 15mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196023	Memantine 15mg tablets (Lupin Healthcare (UK) Ltd) 7 tablet
+^ESCT1196028	Memantine 5mg/10mg/15mg/20mg tablets treatment initiation pack (Lupin Healthcare (UK) Ltd) 28 tablet 1 x (7tabs+7tabs+7tabs+7tabs)
+^ESCT1196034	Memantine 5mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196043	Memantine 5mg tablets (Lupin Healthcare (UK) Ltd) 7 tablet
+^ESCT1196057	Valios 5mg/10mg/15mg/20mg orodispersible tablets initiation pack (Dr Reddy's Laboratories (UK) Ltd) 28 tablet 1x(7tabs+7tabs+7tabs+7tabs)
+^ESCT1196058	Generic Valios 5mg/10mg/15mg/20mg orodispersible tablets initiation pack 28 tablet
+^ESCT1196059	Generic Valios 5mg/10mg/15mg/20mg orodispersible tablets initiation pack
+^ESCT1196182	Memantine 10mg/ml oral solution sugar free (Accord Healthcare Ltd) 100 ml
+^ESCT1196189	Memantine 10mg/ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1196255	Memantine 20mg tablets (Lupin Healthcare (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1196267	Memantine 10mg tablets (Lupin Healthcare (UK) Ltd) 7 tablet
+^ESCT1196388	Memantine 10mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196389	Memantine 10mg tablets (Lupin Healthcare (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1196427	Memantine 5mg/10mg/15mg/20mg tablets treatment initiation pack
+^ESCT1196459	Memantine 10mg/ml oral solution sugar free (Accord Healthcare Ltd) 50 ml
+^ESCT1196483	Memantine 20mg tablets (Lupin Healthcare (UK) Ltd) 7 tablet
+^ESCT1196532	Memantine 5mg/10mg/15mg/20mg tablets treatment initiation pack 28 tablet
+^ESCT1198415	Memantine 10mg/ml oral solution sugar free (Actavis UK Ltd) 100 ml
+^ESCT1198622	Memantine 10mg/ml oral solution sugar free (Actavis UK Ltd)
+^ESCT1198641	Memantine 10mg/ml oral solution sugar free (Actavis UK Ltd) 50 ml
+^ESCT1199499	Memantine 10mg/ml oral solution sugar free (Accord Healthcare Ltd) 50 ml
+^ESCT1199500	Memantine 10mg/ml oral solution sugar free (Accord Healthcare Ltd) 100 ml
+^ESCT1199531	Memantine 10mg/ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1199643	Memantine 10mg/ml oral solution sugar free (Genus Pharmaceuticals Ltd)
+^ESCT1199657	Memantine 10mg/ml oral solution sugar free (Genus Pharmaceuticals Ltd) 100 ml
+^ESCT1199673	Memantine 10mg/ml oral solution sugar free (Genus Pharmaceuticals Ltd) 50 ml
+^ESCT1216204	Memantine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1216205	Memantine 5mg tablets (A A H Pharmaceuticals Ltd) 7 tablet
+^ESCT1216206	Memantine 15mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1216207	Memantine 15mg tablets (A A H Pharmaceuticals Ltd) 7 tablet
+^ESCT1216210	Memantine 5mg/10mg/15mg/20mg tablets treatment initiation pack (A A H Pharmaceuticals Ltd)
+^ESCT1216212	Memantine 10mg tablets (A A H Pharmaceuticals Ltd) 7 tablet
+^ESCT1216213	Memantine 20mg tablets (A A H Pharmaceuticals Ltd) 7 tablet
+^ESCT1216215	Memantine 5mg/10mg/15mg/20mg tablets treatment initiation pack (A A H Pharmaceuticals Ltd) 28 tablet 1 x (7tabs+7tabs+7tabs+7tabs)
+^ESCT1230300	Memantine
+^ESCT1230301	Memantine product
+^ESCT1230415	Product containing precisely memantine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1230649	Product containing precisely memantine hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1236801	Donepezil + memantine
+^ESCT1236802	Product containing donepezil and memantine
+^ESCT1236803	Donepezil and memantine product
+^ESCT1244923	Generic Valios 5mg/10mg/15mg/20mg orodispersible tablets initiation pack sugar free 28 tablet
+^ESCT1244924	Generic Valios 5mg/10mg/15mg/20mg orodispersible tablets initiation pack 28 tablet
+^ESCT1244925	Generic Valios 5mg/10mg/15mg/20mg orodispersible tablets initiation pack sugar free
+^ESCT1244926	Generic Valios 5mg/10mg/15mg/20mg orodispersible tablets initiation pack
+^ESCT1255708	Memantine 10mg tablets (Bristol Laboratories Ltd)
+^ESCT1255709	Memantine 10mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255710	Memantine 20mg tablets (Bristol Laboratories Ltd)
+^ESCT1255711	Memantine 20mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1259494	Memantine 10mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259495	Memantine 10mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259499	Memantine 20mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259501	Memantine 20mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259877	Memantine 10mg/ml oral solution sugar free (Torrent Pharma (UK) Ltd)
+^ESCT1259879	Memantine 10mg/ml oral solution sugar free (Torrent Pharma (UK) Ltd) 50 ml
+^ESCT1259881	Memantine 10mg/ml oral solution sugar free (Torrent Pharma (UK) Ltd) 100 ml
+^ESCT1259899	Memantine 5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259900	Memantine 5mg tablets (Torrent Pharma (UK) Ltd) 7 tablet
+^ESCT1259901	Memantine 10mg tablets (Torrent Pharma (UK) Ltd) 7 tablet
+^ESCT1259902	Memantine 15mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259903	Memantine 15mg tablets (Torrent Pharma (UK) Ltd) 7 tablet
+^ESCT1259904	Memantine 20mg tablets (Torrent Pharma (UK) Ltd) 7 tablet
+^ESCT1259905	Memantine 5mg/10mg/15mg/20mg tablets treatment initiation pack (Torrent Pharma (UK) Ltd)
+^ESCT1259906	Memantine 5mg/10mg/15mg/20mg tablets treatment initiation pack (Torrent Pharma (UK) Ltd) 28 tablet 1 x (7tabs+7tabs+7tabs+7tabs)
+^ESCT1264545	Memantine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264546	Memantine 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264547	Memantine 10mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCT1265811	Memantine 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1265822	Memantine 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1269712	Memantine 10mg/ml oral solution sugar free (Healthcare Pharma Ltd)
+^ESCT1269713	Memantine 10mg/ml oral solution sugar free (Healthcare Pharma Ltd) 50 ml
+^ESCT1269714	Memantine 10mg/ml oral solution sugar free (Healthcare Pharma Ltd) 100 ml
+^ESCT1270128	Memantine 5mg/10mg/15mg/20mg orodispersible tablets initiation pack sugar free 28 tablet
+^ESCT1270129	Memantine 5mg/10mg/15mg/20mg orodispersible tablets initiation pack sugar free
+^ESCT1279355	Memantine 10mg tablets (Dawa Ltd)
+^ESCT1279356	Memantine 10mg tablets (Dawa Ltd) 28 tablet
+^ESCT1279357	Memantine 20mg tablets (Dawa Ltd)
+^ESCT1279358	Memantine 20mg tablets (Dawa Ltd) 28 tablet
+^ESCT1351537	Memantine-containing product in oral dose form
+^ESCT1354723	Donepezil and memantine only product
+^ESCT1355792	Memantine only product
+^ESCT1358314	Donepezil and memantine only product in oral dose form
+^ESCT1359119	Memantine only product in oral dose form
+^ESCT1364504	Memantine hydrochloride 2 mg/mL oral solution
+^ESCT1384194	Memantine hydrochloride 7 mg prolonged-release oral capsule
+^ESCT1384195	Memantine hydrochloride 14 mg prolonged-release oral capsule
+^ESCT1384217	Memantine hydrochloride 21 mg prolonged-release oral capsule
+^ESCT1384218	Memantine hydrochloride 28 mg prolonged-release oral capsule
+^ESCT1385232	Donepezil- and memantine-containing product
+^ESCT1385233	Donepezil- and memantine-containing product in oral dose form
+^ESCT1402200	Memantine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402201	Memantine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402202	Memantine 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402203	Memantine 20mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402204	Memantine 10mg/ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1402205	Memantine 10mg/ml oral solution sugar free (Medihealth (Northern) Ltd) 50 ml
+^ESCT1402206	Memantine 10mg/ml oral solution sugar free (Medihealth (Northern) Ltd) 100 ml
+^ESCT1402221	Memantine 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402222	Memantine 15mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402223	Memantine 5mg tablets (Medihealth (Northern) Ltd) 7 tablet
+^ESCT1402224	Memantine 15mg tablets (Medihealth (Northern) Ltd) 7 tablet
+^ESCT1402225	Memantine 10mg tablets (Medihealth (Northern) Ltd) 7 tablet
+^ESCT1402226	Memantine 20mg tablets (Medihealth (Northern) Ltd) 7 tablet
+^ESCT1402227	Memantine 5mg/10mg/15mg/20mg tablets treatment initiation pack (Medihealth (Northern) Ltd)
+^ESCT1402228	Memantine 5mg/10mg/15mg/20mg tablets treatment initiation pack (Medihealth (Northern) Ltd) 28 tablet 1 x (7tabs+7tabs+7tabs+7tabs)
+^ESCT1422632	Memantine 10mg/ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1422633	Memantine 10mg/ml oral solution sugar free (Zentiva Pharma UK Ltd) 50 ml
+^ESCT1422634	Memantine 10mg/ml oral solution sugar free (Zentiva Pharma UK Ltd) 100 ml
+^ESCT1422653	Memantine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422654	Memantine 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422655	Memantine 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422656	Memantine 20mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1427751	Memantine 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427752	Memantine 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1435141	Memantine 10mg soluble tablets sugar free (Zentiva Pharma UK Ltd)
+^ESCT1435142	Memantine 10mg soluble tablets sugar free (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1435143	Memantine 20mg soluble tablets sugar free (Zentiva Pharma UK Ltd)
+^ESCT1435144	Memantine 20mg soluble tablets sugar free (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1435552	Memantine 5mg tablets (DE Pharmaceuticals)
+^ESCT1435553	Memantine 5mg tablets (DE Pharmaceuticals) 7 tablet
+^ESCT1435554	Memantine 10mg tablets (DE Pharmaceuticals) 7 tablet
+^ESCT1435555	Memantine 15mg tablets (DE Pharmaceuticals)
+^ESCT1435556	Memantine 15mg tablets (DE Pharmaceuticals) 7 tablet
+^ESCT1435557	Memantine 20mg tablets (DE Pharmaceuticals) 7 tablet
+^ESCT1435558	Memantine 5mg/10mg/15mg/20mg tablets treatment initiation pack (DE Pharmaceuticals)
+^ESCT1435559	Memantine 5mg/10mg/15mg/20mg tablets treatment initiation pack (DE Pharmaceuticals) 28 tablet 1 x (7tabs+7tabs+7tabs+7tabs)
+^ESCT1438746	Memantine 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438747	Memantine 20mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438748	Memantine 10mg/ml oral solution sugar free (Viatris UK Healthcare Ltd)
+^ESCT1438749	Memantine 10mg/ml oral solution sugar free (Viatris UK Healthcare Ltd) 50 ml
+^ESCT1438750	Memantine 10mg/ml oral solution sugar free (Viatris UK Healthcare Ltd) 100 ml
+^ESCT1438831	Memantine 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438832	Memantine 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438833	Memantine 10mg tablets (Viatris UK Healthcare Ltd) 56 tablet
+^ESCTAL1161590	Alzhok 10mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTAL1161591	Alzhok 10mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd) 28 tablet 4 x 7 tablets
+^ESCTAL1161593	Alzhok 20mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTAL1161594	Alzhok 20mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd) 28 tablet 4 x 7 tablets
+^ESCTAL1161608	Alzhok 5mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTAL1161609	Alzhok 5mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd) 7 tablet
+^ESCTAL1161611	Alzhok 15mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTAL1161612	Alzhok 15mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd) 7 tablet
+^ESCTAL1161795	Alzhok soluble tablets treatment initiation pack (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTAL1161796	Alzhok soluble tablets treatment initiation pack (Glenmark Pharmaceuticals Europe Ltd) 28 tablet 1x(7tabs+7tabs+7tabs+7tabs)
+^ESCTAL1161797	Alzhok 10mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd) 7 tablet
+^ESCTAL1161798	Alzhok 20mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd) 7 tablet
+^ESCTAL958336	Alzhok
+^ESCTDO773763	Donepezil + memantine
+^ESCTDO773764	Donepezil and memantine in oral dosage form
+^ESCTEB1008840	Ebixa 5mg/0.5ml pump actuation oral solution (Dowelhurst Ltd) 50 ml
+^ESCTEB1008841	Ebixa 5mg/0.5ml pump actuation oral solution (Lexon (UK) Ltd) 50 ml
+^ESCTEB1008842	Ebixa 5mg/0.5ml pump actuation oral solution (Mawdsley-Brooks & Company Ltd) 50 ml
+^ESCTEB1008843	Ebixa 5mg/0.5ml pump actuation oral solution (Lundbeck Ltd) 50 ml
+^ESCTEB1008846	Ebixa 5mg/0.5ml pump actuation oral solution (Lundbeck Ltd) 100 ml
+^ESCTEB1022731	Ebixa 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEB1022732	Ebixa 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTEB858704	Ebixa 10mg tablets (Lundbeck Ltd)
+^ESCTEB858706	Ebixa 10mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTEB858708	Ebixa 10mg tablets (Lundbeck Ltd) 56 tablet 4 x 14 tablets
+^ESCTEB858710	Ebixa 10mg tablets (Lundbeck Ltd) 112 tablet 8 x 14 tablets
+^ESCTEB871496	Ebixa 5mg/0.5ml pump actuation oral solution (Lundbeck Ltd)
+^ESCTEB871497	Ebixa 5mg/0.5ml pump actuation oral solution (Lundbeck Ltd) 50 gram
+^ESCTEB871498	Ebixa 5mg/0.5ml pump actuation oral solution (Lundbeck Ltd) 100 gram
+^ESCTEB914978	Ebixa
+^ESCTEB929969	Ebixa 10mg tablets (Dowelhurst Ltd)
+^ESCTEB929970	Ebixa 10mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTEB929974	Ebixa 5mg/0.5ml pump actuation oral solution (Dowelhurst Ltd)
+^ESCTEB929975	Ebixa 5mg/0.5ml pump actuation oral solution (Dowelhurst Ltd) 50 gram
+^ESCTEB930220	Ebixa 10mg tablets (Waymade Healthcare Plc)
+^ESCTEB930221	Ebixa 10mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTEB934899	Ebixa 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTEB966589	Ebixa 10mg tablets (DE Pharmaceuticals)
+^ESCTEB966590	Ebixa 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTEB967030	Ebixa 20mg tablets (Lundbeck Ltd)
+^ESCTEB967031	Ebixa 20mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTEB968467	Ebixa 5mg tablets (Lundbeck Ltd)
+^ESCTEB968468	Ebixa 5mg tablets (Lundbeck Ltd) 7 tablet
+^ESCTEB968470	Ebixa 10mg tablets (Lundbeck Ltd) 7 tablet
+^ESCTEB968472	Ebixa 15mg tablets (Lundbeck Ltd)
+^ESCTEB968473	Ebixa 15mg tablets (Lundbeck Ltd) 7 tablet
+^ESCTEB968475	Ebixa 20mg tablets (Lundbeck Ltd) 7 tablet
+^ESCTEB968477	Ebixa tablets treatment initiation pack (Lundbeck Ltd)
+^ESCTEB968478	Ebixa tablets treatment initiation pack (Lundbeck Ltd) 28 tablet 1 x (7tabs+7tabs+7tabs+7tabs)
+^ESCTEB969959	Ebixa 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTEB969961	Ebixa 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTEB988986	Ebixa 5mg/0.5ml pump actuation oral solution (Lexon (UK) Ltd)
+^ESCTEB988987	Ebixa 5mg/0.5ml pump actuation oral solution (Lexon (UK) Ltd) 50 gram
+^ESCTEB993244	Ebixa 5mg/0.5ml pump actuation oral solution (Mawdsley-Brooks & Company Ltd)
+^ESCTEB993245	Ebixa 5mg/0.5ml pump actuation oral solution (Mawdsley-Brooks & Company Ltd) 50 gram
+^ESCTEB993246	Ebixa 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEB993247	Ebixa 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTGE1161792	Generic Alzhok soluble tablets treatment initiation pack sugar free 28 tablet
+^ESCTGE1161801	Generic Alzhok soluble tablets treatment initiation pack sugar free
+^ESCTGE968476	Generic Ebixa tablets treatment initiation pack 28 tablet
+^ESCTGE969420	Generic Ebixa tablets treatment initiation pack
+^ESCTMA1047462	Marixino 10mg tablets (Consilient Health Ltd)
+^ESCTMA1047463	Marixino 10mg tablets (Consilient Health Ltd) 28 tablet 2 x 14 tablets
+^ESCTMA1047464	Marixino 20mg tablets (Consilient Health Ltd)
+^ESCTMA1047465	Marixino 20mg tablets (Consilient Health Ltd) 28 tablet 2 x 14 tablets
+^ESCTMA942302	Maruxa
+^ESCTMA942303	Marixino
+^ESCTME1008831	Memantine 10mg/ml oral solution sugar free 50 ml
+^ESCTME1008832	Memantine 10mg/ml oral solution sugar free 100 ml
+^ESCTME1045598	Memantine 10mg tablets (Teva UK Ltd)
+^ESCTME1045599	Memantine 10mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTME1045600	Memantine 10mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTME1045601	Memantine 20mg tablets (Teva UK Ltd)
+^ESCTME1045602	Memantine 20mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTME1045671	Memantine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME1045673	Memantine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTME1045674	Memantine 10mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTME1045677	Memantine 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME1045679	Memantine 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTME1045805	Memantine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME1045806	Memantine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTME1045807	Memantine 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME1045808	Memantine 20mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTME1055205	Memantine 10mg/ml oral solution sugar free (Zentiva)
+^ESCTME1055206	Memantine 10mg/ml oral solution sugar free (Zentiva) 50 ml
+^ESCTME1055207	Memantine 10mg/ml oral solution sugar free (Zentiva) 100 ml
+^ESCTME1056189	Memantine 10mg/ml oral solution sugar free (Actavis UK Ltd)
+^ESCTME1056190	Memantine 10mg/ml oral solution sugar free (Actavis UK Ltd) 50 ml
+^ESCTME1056191	Memantine 10mg/ml oral solution sugar free (Actavis UK Ltd) 100 ml
+^ESCTME1056323	Memantine 10mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTME1056324	Memantine 10mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTME1056326	Memantine 20mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTME1056328	Memantine 20mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTME1057194	Memantine 10mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTME1057195	Memantine 10mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 50 ml
+^ESCTME1057196	Memantine 10mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTME1057207	Memantine 10mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTME1057208	Memantine 10mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 50 ml
+^ESCTME1057209	Memantine 10mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTME1065779	Memantine 10mg tablets (DE Pharmaceuticals)
+^ESCTME1065780	Memantine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTME1065783	Memantine 20mg tablets (DE Pharmaceuticals)
+^ESCTME1065785	Memantine 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTME1067502	Memantine 10mg tablets (Zentiva)
+^ESCTME1067503	Memantine 10mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTME1067504	Memantine 20mg tablets (Zentiva)
+^ESCTME1067505	Memantine 20mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTME1079840	Memantine 10mg tablets (A A H Pharmaceuticals Ltd) 112 tablet
+^ESCTME1098901	Memantine 10mg tablets (Accord Healthcare Ltd)
+^ESCTME1098902	Memantine 10mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTME1098903	Memantine 20mg tablets (Accord Healthcare Ltd)
+^ESCTME1098904	Memantine 20mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTME1100326	Memantine 10mg tablets (Lupin (Europe) Ltd)
+^ESCTME1100327	Memantine 10mg tablets (Lupin (Europe) Ltd) 28 tablet 2 x 14 tablets
+^ESCTME1100328	Memantine 20mg tablets (Lupin (Europe) Ltd)
+^ESCTME1100329	Memantine 20mg tablets (Lupin (Europe) Ltd) 28 tablet 2 x 14 tablets
+^ESCTME1103633	Memantine 10mg/ml oral solution sugar free (Teva UK Ltd)
+^ESCTME1103634	Memantine 10mg/ml oral solution sugar free (Teva UK Ltd) 50 ml
+^ESCTME1103636	Memantine 10mg/ml oral solution sugar free (Teva UK Ltd) 100 ml
+^ESCTME1107886	Memantine 10mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTME1107887	Memantine 10mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 50 ml
+^ESCTME1107888	Memantine 10mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 100 ml
+^ESCTME1116017	Memantine 10mg tablets (Macleods Pharma UK Ltd)
+^ESCTME1116018	Memantine 10mg tablets (Macleods Pharma UK Ltd) 28 tablet
+^ESCTME1116019	Memantine 20mg tablets (Macleods Pharma UK Ltd)
+^ESCTME1116020	Memantine 20mg tablets (Macleods Pharma UK Ltd) 28 tablet
+^ESCTME1118096	Memantine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME1118097	Memantine 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTME1118098	Memantine 10mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTME1118099	Memantine 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME1118100	Memantine 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTME1118101	Memantine 10mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTME1118102	Memantine 10mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc) 50 ml
+^ESCTME1118103	Memantine 10mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc) 100 ml
+^ESCTME1119442	Memantine 10mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTME1119443	Memantine 10mg/ml oral solution sugar free (DE Pharmaceuticals) 100 ml
+^ESCTME1119444	Memantine 10mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTME1119599	Memantine 10mg/ml oral solution sugar free (DE Pharmaceuticals) 50 ml
+^ESCTME1126226	Memantine 10mg tablets (Creo Pharma Ltd)
+^ESCTME1126228	Memantine 10mg tablets (Creo Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCTME1126229	Memantine 10mg tablets (Creo Pharma Ltd) 56 tablet 8 x 7 tablets
+^ESCTME1126757	Memantine 10mg/ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCTME1126758	Memantine 10mg/ml oral solution sugar free (Mawdsley-Brooks & Company Ltd) 50 ml
+^ESCTME1126760	Memantine 10mg/ml oral solution sugar free (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCTME1131838	Memantine 20mg tablets (Creo Pharma Ltd)
+^ESCTME1131839	Memantine 20mg tablets (Creo Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCTME1141995	Memantine 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME1141996	Memantine 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTME1142590	Memantine 10mg orodispersible tablets sugar free 28 tablet
+^ESCTME1142593	Memantine 20mg orodispersible tablets sugar free 28 tablet
+^ESCTME1142718	Memantine 10mg orodispersible tablets sugar free
+^ESCTME1142719	Memantine 20mg orodispersible tablets sugar free
+^ESCTME1151580	Memantine 10mg/ml oral solution sugar free (Chanelle Medical UK Ltd)
+^ESCTME1151581	Memantine 10mg/ml oral solution sugar free (Chanelle Medical UK Ltd) 50 ml
+^ESCTME1151664	Memantine 10mg/ml oral solution sugar free (Chanelle Medical UK Ltd) 100 ml
+^ESCTME1153002	Memantine 20mg tablets (Mylan Ltd)
+^ESCTME1153005	Memantine 20mg tablets (Mylan Ltd) 28 tablet
+^ESCTME1153009	Memantine 10mg/ml oral solution sugar free (Mylan Ltd)
+^ESCTME1153010	Memantine 10mg/ml oral solution sugar free (Mylan Ltd) 50 ml
+^ESCTME1153014	Memantine 10mg/ml oral solution sugar free (Mylan Ltd) 100 ml
+^ESCTME1153222	Memantine 10mg tablets (Mylan Ltd)
+^ESCTME1153223	Memantine 10mg tablets (Mylan Ltd) 28 tablet
+^ESCTME1153224	Memantine 10mg tablets (Mylan Ltd) 56 tablet
+^ESCTME1156842	Memantine 10mg tablets (Crescent Pharma Ltd)
+^ESCTME1156843	Memantine 10mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTME1156844	Memantine 20mg tablets (Crescent Pharma Ltd)
+^ESCTME1156845	Memantine 20mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTME1158258	Memantine 5mg tablets (Lupin (Europe) Ltd)
+^ESCTME1158259	Memantine 5mg tablets (Lupin (Europe) Ltd) 7 tablet
+^ESCTME1158260	Memantine 10mg tablets (Lupin (Europe) Ltd) 7 tablet
+^ESCTME1158261	Memantine 20mg tablets (Lupin (Europe) Ltd) 7 tablet
+^ESCTME1158262	Memantine 5mg/10mg/15mg/20mg 4 week treatment initiation pack (Lupin (Europe) Ltd)
+^ESCTME1158263	Memantine 15mg tablets (Lupin (Europe) Ltd)
+^ESCTME1158264	Memantine 15mg tablets (Lupin (Europe) Ltd) 7 tablet
+^ESCTME1158265	Memantine 5mg/10mg/15mg/20mg 4 week treatment initiation pack (Lupin (Europe) Ltd) 28 tablet 1 x (7tabs+7tabs+7tabs+7tabs)
+^ESCTME1160861	Memantine 10mg tablets (Niche Generics Ltd)
+^ESCTME1160862	Memantine 10mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTME1160863	Memantine 20mg tablets (Niche Generics Ltd)
+^ESCTME1160864	Memantine 20mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTME1161589	Memantine 10mg soluble tablets sugar free 28 tablet
+^ESCTME1161592	Memantine 20mg soluble tablets sugar free 28 tablet
+^ESCTME1161607	Memantine 5mg soluble tablets sugar free 7 tablet
+^ESCTME1161610	Memantine 15mg soluble tablets sugar free 7 tablet
+^ESCTME1161793	Memantine 10mg soluble tablets sugar free 7 tablet
+^ESCTME1161794	Memantine 20mg soluble tablets sugar free 7 tablet
+^ESCTME672807	Memantine
+^ESCTME675158	Memantine hydrochloride
+^ESCTME675331	Memantine 10mg tablets
+^ESCTME675333	Memantine hydrochloride 10 mg oral tablet
+^ESCTME675334	Memantine hydrochloride 10mg/g oral drops
+^ESCTME677492	Memantine 5mg tablets
+^ESCTME677494	Memantine hydrochloride 5 mg oral tablet
+^ESCTME689913	Memantine 2mg/mL oral solution
+^ESCTME689914	Memantine hydrochloride 2mg/mL oral solution
+^ESCTME732539	Memantine hydrochloride 7mg extended release capsule
+^ESCTME732540	Memantine hydrochloride 14mg extended release capsule
+^ESCTME733613	Memantine hydrochloride 21mg extended release capsule
+^ESCTME733614	Memantine hydrochloride 28mg extended release capsule
+^ESCTME858700	Memantine 10mg tablets 28 tablet
+^ESCTME858701	Memantine 10mg tablets 56 tablet
+^ESCTME858702	Memantine 10mg tablets 112 tablet
+^ESCTME871494	Memantine 10mg/ml oral solution sugar free 50 gram
+^ESCTME871495	Memantine 10mg/ml oral solution sugar free 100 gram
+^ESCTME871696	Memantine 10mg/ml oral solution sugar free
+^ESCTME931757	Memantine 10mg soluble tablets sugar free
+^ESCTME931758	Memantine 15mg soluble tablets sugar free
+^ESCTME931759	Memantine 20mg soluble tablets sugar free
+^ESCTME931760	Memantine 5mg soluble tablets sugar free
+^ESCTME967029	Memantine 20mg tablets 28 tablet
+^ESCTME967275	Memantine 20mg tablets
+^ESCTME968466	Memantine 5mg tablets 7 tablet
+^ESCTME968469	Memantine 10mg tablets 7 tablet
+^ESCTME968471	Memantine 15mg tablets 7 tablet
+^ESCTME968474	Memantine 20mg tablets 7 tablet
+^ESCTME969425	Memantine 15mg tablets
+^ESCTME993098	Memantine 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTME993099	Memantine 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTNE1049543	Nemdatine 10mg tablets (Actavis UK Ltd)
+^ESCTNE1049544	Nemdatine 10mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTNE1049545	Nemdatine 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTNE1049546	Nemdatine 20mg tablets (Actavis UK Ltd)
+^ESCTNE1049547	Nemdatine 20mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTNE1144128	Nemdatine 5mg tablets (Actavis UK Ltd)
+^ESCTNE1144129	Nemdatine 5mg tablets (Actavis UK Ltd) 7 tablet
+^ESCTNE1144130	Nemdatine 10mg tablets (Actavis UK Ltd) 7 tablet
+^ESCTNE1144131	Nemdatine 15mg tablets (Actavis UK Ltd)
+^ESCTNE1144132	Nemdatine 15mg tablets (Actavis UK Ltd) 7 tablet
+^ESCTNE1144133	Nemdatine 20mg tablets (Actavis UK Ltd) 7 tablet
+^ESCTNE1144142	Nemdatine tablets treatment initiation pack (Actavis UK Ltd)
+^ESCTNE1144143	Nemdatine tablets treatment initiation pack (Actavis UK Ltd) 28 tablet 1 x (7tabs+7tabs+7tabs+7tabs)
+^ESCTNE942363	Nemdatine
+^ESCTPR672808	Product containing memantine
+^ESCTPR675159	Product containing memantine hydrochloride
+^ESCTPR675332	Product containing memantine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR677493	Product containing memantine hydrochloride 5 mg/1 each oral tablet
+^ESCTPR773765	Product containing donepezil and memantine in oral dosage form
+^ESCTVA1142591	Valios 10mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTVA1142592	Valios 10mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTVA1142594	Valios 20mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTVA1142595	Valios 20mg orodispersible tablets sugar free (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTVA953593	Valios
