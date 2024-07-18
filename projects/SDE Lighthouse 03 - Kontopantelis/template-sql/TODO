@@ -25,37 +25,16 @@ DONE- let's just give them what's in the GP_Record table in the first instance -
 
 # 4.outcomes.template.sql
 
-- We have:
-  - Dementia care plan reviews
-  - Medication reviews (including structured and dementia)
-  - Referral to social prescribing
-- Still need (check with PI):
-  - advance care planning
-  - continuity of care measures
-  - carer type
+- All essential things are done
+- Optional (so only if have time - don't delay data dump) are:
+  - continuity of care (but see emails from Charlotte - don't think we can do this as we don't know which clinician they saw)
+  - carer type (not really even sure how that is an outcome)
   - carer review
-  - social care referrals
-  - safeguarding referrals
-  - frequency of attendance
-  - missed appointments
-  - All-cause mortality
-  - unscheduled hospital admissions
-  - delirium
-  - falls
-  - fractures.
+  - missed appointment
 
 # 5.medications.template.sql
 
-- We have:
-  - antipsychotics
-  - benzodiazepines and z-drugs (in one code set - ok?)
-- Still need:
-  - anti-dementia meds
-  - anticholinergics
-  - sedating antihistamines
-
-TODO list
-
+- just need to sort out anticholinergics (sedating antihistamines are now included in this) and check prevalence of antidementia
 - We now have list of all anticholinergics (see https://www.derbyshiremedicinesmanagement.nhs.uk/assets/Clinical_Guidelines/Formulary_by_BNF_chapter_prescribing_guidelines/BNF_chapter_4/Drugs_on_the_acb_scale.pdf). Here they all are (with ACB type and a year if we already have a code set - the year being when last updated so i.e. 2024 can reuse without checking, 2023 and before probably need SNOMED codes):
   ACB1 Alimemazine
   ACB1 Alprazolam
