@@ -165,15 +165,67 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Clinical code sets</h2>
 <p>This project required the following clinical code sets:</p>
 <ul>
-<li>antipsychotics v1</li>
+<li>delirium v1</li>
+<li>fracture v1</li>
+<li>falls v1</li>
+<li>social-care-referral v1</li>
+<li>safeguarding-referral v1</li>
+<li>anti-dementia-drugs v1</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
-<h3>Antipychotics</h3>
-<p>Code set for prescriptions of antipsychotic medication.</p>
-<p>Developed from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/53/</p>
+<h3>Delirium</h3>
+<p>Code set for patients with a code related to delirium</p>
+<p>Developed from https://www.opencodelists.org/codelist/opensafely/symptoms-delirium/73fdec23/#full-list</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions.
-Here is a log for this code set. The prevalence range <code>3.10% - 3.78%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system,
+we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+The prevalence range <code>%0.20 - 0.26%</code> suggests that this code set is well defined.</p>
+<p>UPDATE:</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th>Patients from ID</th>
+<th>Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-09-14</td>
+<td>EMIS</td>
+<td>2463856</td>
+<td>5994 (0.243%)</td>
+<td>5970 (0.242%)</td>
+</tr>
+<tr>
+<td>2023-09-14</td>
+<td>TPP</td>
+<td>200590</td>
+<td>516 (0.257%)</td>
+<td>516 (0.257%)</td>
+</tr>
+<tr>
+<td>2023-09-14</td>
+<td>Vision</td>
+<td>332095</td>
+<td>660 (0.199%)</td>
+<td>659 (0.198%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/delirium/1">https://github.com/rw251/.../conditions/delirium/1</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Fracture</h3>
+<p>Any code indicating a fracture. Based on read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/84/codelist/res84-fracture-codes/</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>19.6% - 23.2%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -186,28 +238,252 @@ Here is a log for this code set. The prevalence range <code>3.10% - 3.78%</code>
 </thead>
 <tbody>
 <tr>
-<td>2021-07-20</td>
+<td>2023-12-13</td>
 <td>EMIS</td>
-<td>2616446</td>
-<td style="text-align:right">81113 (3.10%)</td>
-<td style="text-align:right">81141 (3.10%)</td>
+<td>2515618</td>
+<td style="text-align:right">521295 (20.7%)</td>
+<td style="text-align:right">521373 (20.7%)</td>
 </tr>
 <tr>
-<td>2021-07-20</td>
+<td>2023-12-13</td>
 <td>TPP</td>
-<td>211414</td>
-<td style="text-align:right">6642 (3.14%)</td>
-<td style="text-align:right">7995 (3.78%)</td>
+<td>201264</td>
+<td style="text-align:right">47617 (23.7%)</td>
+<td style="text-align:right">46765 (23.2%)</td>
 </tr>
 <tr>
-<td>2021-07-20</td>
+<td>2023-12-13</td>
 <td>Vision</td>
-<td>336776</td>
-<td style="text-align:right">10600 (3.15%)</td>
-<td style="text-align:right">10600 (3.15%)</td>
+<td>334040</td>
+<td style="text-align:right">65475 (19.6%)</td>
+<td style="text-align:right">65482 (19.6%)</td>
 </tr>
 </tbody>
 </table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antipsychotics/1">https://github.com/rw251/.../medications/antipsychotics/1</a></p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/fracture/1">https://github.com/rw251/.../conditions/fracture/1</a></p>
+<h3>Falls</h3>
+<p>Codes taken from OpenCodelists https://www.opencodelists.org/codelist/opensafely/falls/2020-07-09/#full-list and https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/falls_cod/20200812/#full-list</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.7% - 2.8%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-10-25</td>
+<td>EMIS</td>
+<td>2472595</td>
+<td style="text-align:right">54002 (2.2%)</td>
+<td style="text-align:right">54015 (2.2%)</td>
+</tr>
+<tr>
+<td>2023-10-25</td>
+<td>TPP</td>
+<td>200603</td>
+<td style="text-align:right">5597 (2.8%)</td>
+<td style="text-align:right">5598 (2.8%)</td>
+</tr>
+<tr>
+<td>2023-10-25</td>
+<td>Vision</td>
+<td>332447</td>
+<td style="text-align:right">5537 (1.7%)</td>
+<td style="text-align:right">5545 (1.7%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/falls/1">https://github.com/rw251/.../patient/falls/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Social care referral</h3>
+<p>Codes indicating that patient had a referral to social care services. Data engineers should use this code set via the supplied codes rather than the linked IDs.
+Created using getset:</p>
+<p>{
+&quot;includeTerms&quot;: [
+&quot;social care plan&quot;,
+&quot;hospital discharge notification to social care&quot;,
+&quot;referral to social services department care manager&quot;,
+&quot;signposting to social services&quot;,
+&quot;referral to social services&quot;
+],
+&quot;excludeTerms&quot;: [
+&quot;child in need&quot;,
+&quot;declined&quot;,
+&quot;sending client copy&quot;
+],
+&quot;terminology&quot;: &quot;SNOMED CT&quot;,
+&quot;version&quot;: &quot;uk_sct2cl_29.3.0_20200610000001&quot;,
+&quot;createdOn&quot;: &quot;2023-11-30T11:00:13.255Z&quot;,
+&quot;lastUpdated&quot;: &quot;2023-11-30T11:00:13.255Z&quot;
+}</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>%0.07 - 0.15%</code> suggests code set is well defined but not used often.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-11-30</td>
+<td>EMIS</td>
+<td>2514435</td>
+<td style="text-align:right">1786 (0.071%)</td>
+<td style="text-align:right">1786 (0.071%)</td>
+</tr>
+<tr>
+<td>2023-11-30</td>
+<td>TPP</td>
+<td>201265</td>
+<td style="text-align:right">293 (0.146%)</td>
+<td style="text-align:right">293 (0.146%)</td>
+</tr>
+<tr>
+<td>2023-11-30</td>
+<td>Vision</td>
+<td>333774</td>
+<td style="text-align:right">68 (0.0204%)</td>
+<td style="text-align:right">68 (0.0204%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/referrals/social-care-referral/1">https://github.com/rw251/.../referrals/social-care-referral/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>safeguarding referral</h3>
+<p>Codes indicating that patient had a referral to safeguarding services. Created using getset:
+{
+&quot;includeTerms&quot;: [
+&quot;safeguarding referral&quot;,
+&quot;reasons for referral: safeguarding&quot;,
+&quot;adult safeguarding&quot;,
+&quot;safeguard&quot;,
+&quot;safeguarding intervention&quot;,
+&quot;safeguarding report&quot;
+],
+&quot;excludeTerms&quot;: [
+&quot;children&quot;,
+&quot;adult no longer safeguarding concern&quot;,
+&quot;child&quot;,
+&quot;sar&quot;,
+&quot;missing adult&quot;
+],
+&quot;terminology&quot;: &quot;SNOMED CT&quot;,
+&quot;version&quot;: &quot;uk_sct2cl_29.3.0_20200610000001&quot;,
+&quot;createdOn&quot;: &quot;2023-11-30T15:26:28.260Z&quot;,
+&quot;lastUpdated&quot;: &quot;2023-11-30T15:26:28.260Z&quot;
+}</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>%0.21 - 0.64%</code> suggests code set is well defined but not used often.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-11-30</td>
+<td>EMIS</td>
+<td>2514435</td>
+<td style="text-align:right">16095 (0.64%)</td>
+<td style="text-align:right">15986 (0.636%)</td>
+</tr>
+<tr>
+<td>2023-11-30</td>
+<td>TPP</td>
+<td>201265</td>
+<td style="text-align:right">425 (0.211%)</td>
+<td style="text-align:right">424 (0.211%)</td>
+</tr>
+<tr>
+<td>2023-11-30</td>
+<td>Vision</td>
+<td>333774</td>
+<td style="text-align:right">1338 (0.401%)</td>
+<td style="text-align:right">1329 (0.398%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/referrals/safeguarding-referral/1">https://github.com/rw251/.../referrals/safeguarding-referral/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Anti-dementia drugs</h3>
+<p>Any code for a medication given for dementia. Includes the following code sets:</p>
+<ul>
+<li>donepezil (v1)</li>
+<li>galantamine (v1)</li>
+<li>rivastigmine (v1)</li>
+<li>memantine (v1)</li>
+</ul>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>xxx% - xxx%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-10</td>
+<td>EMIS</td>
+<td>2533608</td>
+<td style="text-align:right">1880834 (74.2%)</td>
+<td style="text-align:right">1873816 (74%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>TPP</td>
+<td>201974</td>
+<td style="text-align:right">162093 (80.3%)</td>
+<td style="text-align:right">161814 (80.1%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>Vision</td>
+<td>335755</td>
+<td style="text-align:right">254065 (75.7%)</td>
+<td style="text-align:right">252991 (75.3%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-18</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/anti-dementia-drugs/1">https://github.com/rw251/.../medications/anti-dementia-drugs/1</a></p>
 <h1>Clinical code sets</h1>
 <p>All code sets required for this analysis are available here: <a href="https://github.com/rw251/gm-idcr/tree/master/projects/SDE%20Lighthouse%2003%20-%20Kontopantelis/clinical-code-sets.csv">https://github.com/rw251/.../SDE Lighthouse 03 - Kontopantelis/clinical-code-sets.csv</a>. Individual lists for each concept can also be found by using the links above.</p>

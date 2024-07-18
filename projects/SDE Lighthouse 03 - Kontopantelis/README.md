@@ -92,27 +92,157 @@ _Link_: [https://github.com/rw251/.../query-build-lh003-cohort.sql](https://gith
 
 This project required the following clinical code sets:
 
-- antipsychotics v1
+- delirium v1
+- fracture v1
+- falls v1
+- social-care-referral v1
+- safeguarding-referral v1
+- anti-dementia-drugs v1
 
 Further details for each code set can be found below.
 
-### Antipychotics
+### Delirium 
 
-Code set for prescriptions of antipsychotic medication.
+Code set for patients with a code related to delirium
 
-Developed from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/53/
+Developed from https://www.opencodelists.org/codelist/opensafely/symptoms-delirium/73fdec23/#full-list
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. 
-Here is a log for this code set. The prevalence range `3.10% - 3.78%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, 
+we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+The prevalence range `%0.20 - 0.26%` suggests that this code set is well defined.
+
+UPDATE:
+
+|    Date    | Practice system |  Population | Patients from ID | Patient from code |
+| ---------- | ----------------| ------------| ---------------- | ----------------- |
+| 2023-09-14 | EMIS | 2463856 | 5994 (0.243%) | 5970 (0.242%) | 
+| 2023-09-14 | TPP | 200590 | 516 (0.257%) | 516 (0.257%) | 
+| 2023-09-14 | Vision | 332095 | 660 (0.199%) | 659 (0.198%) | 
+LINK: [https://github.com/rw251/.../conditions/delirium/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/delirium/1)
+
+### Fracture
+
+Any code indicating a fracture. Based on read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/84/codelist/res84-fracture-codes/
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `19.6% - 23.2%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-07-20 | EMIS            | 2616446    |    81113 (3.10%) |     81141 (3.10%) |
-| 2021-07-20 | TPP             | 211414     |     6642 (3.14%) |      7995 (3.78%) |
-| 2021-07-20 | Vision          | 336776     |    10600 (3.15%) |     10600 (3.15%) |
+| 2023-12-13 | EMIS | 2515618 | 521295 (20.7%) | 521373 (20.7%) | 
+| 2023-12-13 | TPP | 201264 | 47617 (23.7%) | 46765 (23.2%) | 
+| 2023-12-13 | Vision | 334040 | 65475 (19.6%) | 65482 (19.6%) | 
 
-LINK: [https://github.com/rw251/.../medications/antipsychotics/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antipsychotics/1)
+LINK: [https://github.com/rw251/.../conditions/fracture/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/fracture/1)
+
+### Falls
+
+Codes taken from OpenCodelists https://www.opencodelists.org/codelist/opensafely/falls/2020-07-09/#full-list and https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/falls_cod/20200812/#full-list 
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.7% - 2.8%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-10-25 | EMIS            | 2472595    |     54002 (2.2%) |      54015 (2.2%) |
+| 2023-10-25 | TPP             | 200603     |      5597 (2.8%) |       5598 (2.8%) |
+| 2023-10-25 | Vision          | 332447     |      5537 (1.7%) |       5545 (1.7%) |
+LINK: [https://github.com/rw251/.../patient/falls/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/falls/1)
+
+### Social care referral
+
+Codes indicating that patient had a referral to social care services. Data engineers should use this code set via the supplied codes rather than the linked IDs.
+Created using getset:
+
+{
+  "includeTerms": [
+    "social care plan",
+    "hospital discharge notification to social care",
+    "referral to social services department care manager",
+    "signposting to social services",
+    "referral to social services"
+  ],
+  "excludeTerms": [
+    "child in need",
+    "declined",
+	"sending client copy"
+  ],
+  "terminology": "SNOMED CT",
+  "version": "uk_sct2cl_29.3.0_20200610000001",
+  "createdOn": "2023-11-30T11:00:13.255Z",
+  "lastUpdated": "2023-11-30T11:00:13.255Z"
+}
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.07 - 0.15%` suggests code set is well defined but not used often.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-11-30 | EMIS | 2514435 | 1786 (0.071%) | 1786 (0.071%) | 
+| 2023-11-30 | TPP | 201265 | 293 (0.146%) | 293 (0.146%) | 
+| 2023-11-30 | Vision | 333774 | 68 (0.0204%) | 68 (0.0204%) | 
+LINK: [https://github.com/rw251/.../referrals/social-care-referral/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/referrals/social-care-referral/1)
+
+### safeguarding referral
+
+Codes indicating that patient had a referral to safeguarding services. Created using getset:
+{
+  "includeTerms": [
+    "safeguarding referral",
+    "reasons for referral: safeguarding",
+    "adult safeguarding",
+    "safeguard",
+    "safeguarding intervention",
+    "safeguarding report"
+  ],
+  "excludeTerms": [
+    "children",
+    "adult no longer safeguarding concern",
+    "child",
+    "sar",
+    "missing adult"
+  ],
+  "terminology": "SNOMED CT",
+  "version": "uk_sct2cl_29.3.0_20200610000001",
+  "createdOn": "2023-11-30T15:26:28.260Z",
+  "lastUpdated": "2023-11-30T15:26:28.260Z"
+}
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%0.21 - 0.64%` suggests code set is well defined but not used often.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-11-30 | EMIS | 2514435 | 16095 (0.64%) | 15986 (0.636%) | 
+| 2023-11-30 | TPP | 201265 | 425 (0.211%) | 424 (0.211%) | 
+| 2023-11-30 | Vision | 333774 | 1338 (0.401%) | 1329 (0.398%) | 
+LINK: [https://github.com/rw251/.../referrals/safeguarding-referral/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/referrals/safeguarding-referral/1)
+
+### Anti-dementia drugs
+
+Any code for a medication given for dementia. Includes the following code sets:
+
+- donepezil (v1)
+- galantamine (v1)
+- rivastigmine (v1)
+- memantine (v1)
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `xxx% - xxx%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-07-10 | EMIS            | 2533608    |  1880834 (74.2%) |     1873816 (74%) |
+| 2024-07-10 | TPP             | 201974     |   162093 (80.3%) |    161814 (80.1%) |
+| 2024-07-10 | Vision          | 335755     |   254065 (75.7%) |    252991 (75.3%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-07-18
+
+LINK: [https://github.com/rw251/.../medications/anti-dementia-drugs/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/anti-dementia-drugs/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../SDE Lighthouse 03 - Kontopantelis/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/SDE%20Lighthouse%2003%20-%20Kontopantelis/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.

@@ -2,6 +2,10 @@
 
 - Consider how this will work in the future because we dont want to rebuild the cohort in every template.sql file
 - In each file, rather than SELECT at the end, we probably want to INSERT into another permanent table
+- need to list all the refsets used
+- need to explain hospital admission categories
+- need to explain the gp encounters is a proxy
+- explain that benzo includes z-drugs - assuming the only 3 realistically are zopiclone, zolpidem and zaleplon
 
 # 1.patients.template.sql
 
@@ -49,3 +53,68 @@ DONE- let's just give them what's in the GP_Record table in the first instance -
   - anti-dementia meds
   - anticholinergics
   - sedating antihistamines
+
+TODO list
+
+- We now have list of all anticholinergics (see https://www.derbyshiremedicinesmanagement.nhs.uk/assets/Clinical_Guidelines/Formulary_by_BNF_chapter_prescribing_guidelines/BNF_chapter_4/Drugs_on_the_acb_scale.pdf)
+- Lots need their own code set
+- Code far below allows you to quickly copy (from med code set creator) README plus 3 code sets to clipboard for easy creation of med code sets
+- Need to check prevalence for anti-dementia (and it's 4 subcomponents) - hopefully gmcr back for this
+
+var drugLowerCase = document.getElementById('input-word').value.toLowerCase();
+var drugCapitalCase = drugLowerCase[0].toUpperCase() + drugLowerCase.slice(1);
+var otherNames = [...document.querySelectorAll('.potential-word:has(.included)')]
+.map((x) => x.childNodes[0].nodeValue.trim())
+.sort();
+var otherNamesString = otherNames.map((x) => x[0].toUpperCase() + x.slice(1)).join('/');
+var dt = new Date().toISOString().substring(0,10);
+
+var snomedCodes = Object.entries(data.snomed.concepts).map(([code, definition]) => {
+return `${code}\t${definition}`;
+})
+.join('\n');
+
+var ctv3Codes = Object.entries(data.ctv3.concepts).map(([code, definition]) => {
+return `${code}\t${definition}`;
+})
+.join('\n');
+
+var readv2Codes = Object.entries(data.readv2.concepts).map(([code, definition]) => {
+return `${code}\t${definition}`;
+})
+.join('\n');
+
+var text = `# ${drugCapitalCase}
+
+Any prescription of ${drugLowerCase}. Other names: ${otherNamesString}.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+
+## Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range \`XXX% - XXX%\` suggests that this code set is well defined, but perhaps more frequently used in the TPP practices in GM.
+
+| Date  | Practice system | Population | Patients from ID | Patient from code |
+| ----- | --------------- | ---------- | ---------------: | ----------------: |
+| ${dt} | EMIS            | xxxxxxx    |                  |                   |
+| ${dt} | TPP             | xxxxxxx    |                  |                   |
+| ${dt} | Vision          | xxxxxxx    |                  |                   |
+
+## Audit log
+
+- Find_missing_codes last run ${dt}
+
+---
+
+${snomedCodes}
+
+---
+
+${ctv3Codes}
+
+---
+
+${readv2Codes}
+`;
+
+copy(text)
