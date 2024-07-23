@@ -33,102 +33,10 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
-- Classify secondary admissions
-- Secondary admissions and length of stay
-- Secondary discharges
 - Define Cohort for LH006: patients that had multiple opioid prescriptions
 
 Further details for each query can be found below.
 
-### Classify secondary admissions
-To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.
-
-_Assumptions_
-
-- We assume patients can only have one admission per day. This is probably not true, but where we see multiple admissions it is more likely to be data duplication, or internal admissions, than an admission, discharge and another admission in the same day.
-- Where patients have multiple admissions we choose the "highest" category for admission with the categories ranked as follows: Maternity > Unplanned > Planned > Transfer > Unknown
-- We have used the following classifications based on the AdmissionTypeCode:
-	- PLANNED: PL (ELECTIVE PLANNED), 11 (Elective - Waiting List), WL (ELECTIVE WL), 13 (Elective - Planned), 12 (Elective - Booked), BL (ELECTIVE BOOKED), D (NULL), Endoscopy (Endoscopy), OP (DIRECT OUTPAT CLINIC), Venesection (X36.2 Venesection), Colonoscopy (H22.9 Colonoscopy), Medical (Medical)
-	- UNPLANNED: AE (AE.DEPT.OF PROVIDER), 21 (Emergency - Local A&E), I (NULL), GP (GP OR LOCUM GP), 22 (Emergency - GP), 23 (Emergency - Bed Bureau), 28 (Emergency - Other (inc other provider A&E)), 2D (Emergency - Other), 24 (Emergency - Clinic), EM (EMERGENCY OTHER), AI (ACUTE TO INTMED CARE), BB (EMERGENCY BED BUREAU), DO (EMERGENCY DOMICILE), 2A (A+E Department of another provider where the Patient has not been admitted), A+E (Admission	 A+E Admission), Emerg (GP	Emergency GP Patient)
-	- MATERNITY: 31 (Maternity ante-partum), BH (BABY BORN IN HOSP), AN (MATERNITY ANTENATAL), 82 (Birth in this Health Care Provider), PN (MATERNITY POST NATAL), B (NULL), 32 (Maternity post-partum), BHOSP (Birth in this Health Care Provider)
-	- TRANSFER: 81 (Transfer from other hosp (not A&E)), TR (PLAN TRANS TO TRUST), ET (EM TRAN (OTHER PROV)), HospTran (Transfer from other NHS Hospital), T (TRANSFER), CentTrans (Transfer from CEN Site)
-	- OTHER: Anything else not previously classified
-
-_Input_
-```
-No pre-requisites
-```
-
-_Output_
-```
-A temp table as follows:
- #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-	- AdmissionType - One of: Maternity/Unplanned/Planned/Transfer/Unknown
-```
-_File_: `query-classify-secondary-admissions.sql`
-
-_Link_: [https://github.com/rw251/.../query-classify-secondary-admissions.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql)
-
----
-### Secondary admissions and length of stay
-To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
-
-_Input_
-```
-One parameter
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-```
-
-_Output_
-```
-Two temp table as follows:
- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
-   on the same day to the same hopsital then it's most likely data duplication rather than two short
-   hospital stays)
- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-	- DischargeDate - date of discharge (YYYY-MM-DD)
-	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
-```
-_File_: `query-get-admissions-and-length-of-stay.sql`
-
-_Link_: [https://github.com/rw251/.../query-get-admissions-and-length-of-stay.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay.sql)
-
----
-### Secondary discharges
-To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.
-
-_Input_
-```
-One parameter
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-```
-
-_Output_
-```
-A temp table as follows:
- #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
- 	- FK_Patient_Link_ID - unique patient id
-	- DischargeDate - date of discharge (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges
-   on the same day to the same hopsital then it's most likely data duplication rather than two short
-   hospital stays)
-```
-_File_: `query-get-discharges.sql`
-
-_Link_: [https://github.com/rw251/.../query-get-discharges.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql)
-
----
 ### Define Cohort for LH006: patients that had multiple opioid prescriptions
 To build the cohort of patients needed for LH006. This reduces duplication of code in the template scripts.
 
@@ -149,12 +57,23 @@ _Link_: [https://github.com/rw251/.../query-build-lh006-cohort.sql](https://gith
 
 This project required the following clinical code sets:
 
-- cancer v1
-- chronic-pain v1
+- cancer-fake v1
+- chronic-pain-fake v1
 - opioids v1
+- chronic-pain v1
+- rheumatoid-arthritis v1
+- osteoarthritis v1
+- back-problems v1
+- neck-problems v1
+- neuropathic-pain v1
+- chest-pain v1
 - post-herpetic-neuralgia v1
 - ankylosing-spondylitis v1
-- nsaids v1
+- psoriatic-arthritis v1
+- fibromyalgia v1
+- temporomandibular-pain v1
+- social-care-prescribing-referral v1
+- surgery-referral v1
 
 Further details for each code set can be found below.
 
@@ -184,7 +103,7 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2024-02-22 | EMIS | 2524209 | 123626 (4.9%) | 123152 (4.88%) | 
 | 2024-02-22 | TPP | 201752 | 11008 (5.46%) | 8580 (4.25%) | 
 | 2024-02-22 | Vision | 335007 | 16786 (5.01%) | 16713 (4.99%) | 
-LINK: [https://github.com/rw251/.../conditions/cancer/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/1)
+LINK: [https://github.com/rw251/.../fake/cancer-fake/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/fake/cancer-fake/1)
 
 ### Chronic Pain
 
@@ -195,14 +114,14 @@ EMIS and CTV3 codes retrieved from reference lookup in Graphnet database.
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
 
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `57.9% - 60.4%` suggests that this code set is well defined.
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `57.8% - 60.6%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-04-03 | EMIS | 2528256 | 1462328 (57.8%) | 1462676 (57.9%) | 
-| 2024-04-03 | TPP | 201811 | 122547 (60.7%) | 121811 (60.4%) | 
-| 2024-04-03 | Vision | 335377 | 201681 (60.1%) | 201637 (60.1%) | 
-LINK: [https://github.com/rw251/.../conditions/chronic-pain/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-pain/1)
+| 2024-04-12 | EMIS | 2528955 | 1462767 (57.8%) | 1462924 (57.8%) | 
+| 2024-04-12 | TPP | 201791 | 122358 (60.6%) | 121166 (60%) | 
+| 2024-04-12 | Vision | 335318 | 201694 (60.2%) | 201361 (60.1%) | 
+LINK: [https://github.com/rw251/.../fake/chronic-pain-fake/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/fake/chronic-pain-fake/1)
 
 ### Opioids, excluding those used for treating opioid dependence
 
@@ -223,6 +142,137 @@ By examining the prevalence of codes (number of patients with the code in their 
 - Find_missing_codes last run 2024-06-14
 
 LINK: [https://github.com/rw251/.../medications/opioids/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/opioids/1)
+
+### Chronic Pain
+
+SNOMED and Read codes from study team for SDE-LS-006, used in previous CPRD studies.
+
+EMIS and CTV3 codes retrieved from reference lookup in Graphnet database.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `57.8% - 60.6%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-04-12 | EMIS | 2528955 | 1462767 (57.8%) | 1462924 (57.8%) | 
+| 2024-04-12 | TPP | 201791 | 122358 (60.6%) | 121166 (60%) | 
+| 2024-04-12 | Vision | 335318 | 201694 (60.2%) | 201361 (60.1%) | 
+LINK: [https://github.com/rw251/.../conditions/chronic-pain/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-pain/1)
+
+### Rheumatoid arthritis
+
+Any code indicating a diagnosis of rheumatoid arthritis.
+
+- Does not include lupus
+- Does not include ankylosing spondylitis
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.55% - 0.66%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-16 | EMIS            | 2662570    |    15603 (0.59%) |     15603 (0.59%) |
+| 2022-05-16 | TPP             | 212696     |     1130 (0.53%) |      1137 (0.53%) |
+| 2022-05-16 | Vision          | 342344     |     2126 (0.62%) |      2126 (0.62%) |
+| 2024-01-23 | EMIS            | 2520311    |   17971 (0.713%) |    13940 (0.553%) |
+| 2024-01-23 | TPP             | 201513     |     1591 (0.79%) |     1337 (0.663%) |
+| 2024-01-23 | Vision          | 334747     |    2488 (0.743%) |      1909 (0.57%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-01-23
+
+LINK: [https://github.com/rw251/.../conditions/rheumatoid-arthritis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/rheumatoid-arthritis/1)
+
+### Osteoarthritis 
+
+Code set for patients with a code related to osteoarthritis
+
+Developed from https://www.opencodelists.org/codelist/opensafely/osteoarthritis/2020-06-04/#full-list
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, 
+we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+The prevalence range `9.46% - 11.6%` suggests that this code set is well defined.
+
+
+|    Date    | Practice system |  Population | Patients from ID | Patient from code |
+| ---------- | ----------------| ------------| ---------------- | ----------------- |
+| 2024-06-25 | EMIS | 2533968 | 265237 (10.5%) | 265148 (10.5%) | 
+| 2024-06-25 | TPP | 201949 | 23984 (11.9%) | 23432 (11.6%) | 
+| 2024-06-25 | Vision | 335813 | 31787 (9.47%) | 31764 (9.46%) | 
+LINK: [https://github.com/rw251/.../conditions/osteoarthritis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/osteoarthritis/1)
+
+### Back problems
+
+Read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/6/codelist/back-pain/ 
+
+SNOMED codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/174/codelist/res174-low-back-diagnoses/ and https://www.opencodelists.org/snomedct/concept/279038004/ 
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `27.3% - 32.4%` suggests this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-03 | EMIS            | 2656596    |  782005 (29.44%) |   781204 (29.41%) |
+| 2022-03-03 | TPP             | 212503     |   57991 (27.29%) |    57990 (27.29%) |
+| 2022-03-03 | Vision          | 341299     |  110555 (32.39%) |   110552 (32.39%) |
+
+LINK: [https://github.com/rw251/.../conditions/back-problems/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/back-problems/1)
+
+### Neck problems
+
+Any code indicating neck problems. SNOMED codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/174/codelist/res174-neck-diagnoses/
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `14.4% - 16%` suggests that this code set is well defined.
+
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-04-10 | EMIS | 2528955 | 376021 (14.9%) | 375153 (14.8%) | 
+| 2024-04-10 | TPP | 201791 | 33444 (16.6%) | 29081 (14.4%) | 
+| 2024-04-10 | Vision | 335318 | 53983 (16.1%) | 53559 (16%) | 
+LINK: [https://github.com/rw251/.../conditions/neck-problems/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/neck-problems/1)
+
+### Neuropathic pain
+
+Neuropathic pain is nerve pain that can happen if your nervous system malfunctions or gets damaged. You can feel pain from any of the various levels of your nervous system, including your peripheral nerves, your spinal cord and your brain. Damaged nerve fibers send the wrong signals to pain centers in your body, resulting in neuropathic pain.
+
+Readcodes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/176/codelist/res176-neuropathic-pain/
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `9.34% - 10.3%` is perhaps too wide to suggest that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-04-10 | EMIS | 2528955 | 236155 (9.34%) | 236110 (9.34%) | 
+| 2024-04-10 | TPP | 201791 | 20713 (10.3%) | 20721 (10.3%) | 
+| 2024-04-10 | Vision | 335318 | 32262 (9.62%) | 32256 (9.62%) | 
+
+
+LINK: [https://github.com/rw251/.../conditions/neuropathic-pain/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/neuropathic-pain/1)
+
+### Chest pain
+
+Any code indicating chest pain.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `14.2% - 15.4%`  indicates that this code set is well defined.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-04-10 | EMIS | 2528955 | 376475 (14.9%) | 376475 (14.9%) | 
+| 2024-04-10 | TPP | 201791 | 28648 (14.2%) | 28648 (14.2%) | 
+| 2024-04-10 | Vision | 335318 | 51659 (15.4%) | 51656 (15.4%) | 
+LINK: [https://github.com/rw251/.../conditions/chest-pain/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chest-pain/1)
 
 ###  Post herpetic neuralgia codes
 
@@ -266,26 +316,96 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../conditions/ankylosing-spondylitis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ankylosing-spondylitis/1)
 
-### Nonsteroidal anti inflammatory drugs (NSAIDs) oral
+### Psoriatic arthritis
 
-This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
+Psoriatic arthritis is a type of arthritis linked with psoriasis, a chronic skin and nail disease.
 
-This code set only includes codes that indicates oral NSAIDs. It does not include codes that indicate cream or suppository NSAIDs.
-
-**NB: This code set is intended to indicate only oral NSAIDs, NOT all NSAIDs. If you require all NSAIDs then this is not the code set for you.**
+Any code indicating a diagnosis of psoriatic arthritis. Read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/34/codelist/res34-psoriatic_arthritis/
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `46.01% - 50.22%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.23% - 0.25%` suggests that this code set is well defined.
+
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-02-02 | EMIS            | 2652511    | 1295120 (48.82%) |  1295123 (48.82%) |
-| 2022-02-02 | TPP             | 212213     |  106565 (50.22%) |   106565 (50.22%) |
-| 2022-02-02 | Vision          | 340640     |  156717 (46.01%) |   156717 (46.01%) |
-| 2024-04-26 | EMIS | 2530666 | 1189003 (47%) | 1189004 (47%) | 
-| 2024-04-26 | TPP | 201812 | 109145 (54.1%) | 109145 (54.1%) | 
-| 2024-04-26 | Vision | 335433 | 155663 (46.4%) | 155663 (46.4%) | 
-LINK: [https://github.com/rw251/.../medications/nsaids/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/nsaids/1)
+| 2024-04-17 | EMIS | 2529782 | 5697 (0.225%) | 5697 (0.225%) | 
+| 2024-04-17 | TPP | 201840 | 470 (0.233%) | 470 (0.233%) | 
+| 2024-04-17 | Vision | 335411 | 841 (0.251%) | 841 (0.251%) | 
+LINK: [https://github.com/rw251/.../conditions/psoriatic-arthritis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/psoriatic-arthritis/1)
+
+### Fibromyalgia
+
+This list contains any code indicating fibromyalgia or generalised pain. Read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/176/codelist/res176-fibromyalgia-and-generalized-pain-short/
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.19% - 2.76%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-04-11 | EMIS | 2528955 | 69969 (2.77%) | 69768 (2.76%) | 
+| 2024-04-11 | TPP | 201791 | 4422 (2.19%) | 2850 (1.41%) | 
+| 2024-04-11 | Vision | 335318 | 8841 (2.64%) | 8687 (2.59%) | 
+LINK: [https://github.com/rw251/.../conditions/fibromyalgia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/fibromyalgia/1)
+
+### Temporomandibular Pain
+
+Any code indicating temporomandibular pain.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.22% - 0.40%` suggests that this code set is well defined.
+
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-04-16 | EMIS | 2529782 | 5931 (0.234%) | 5931 (0.234%) | 
+| 2024-04-16 | TPP | 201840 | 814 (0.403%) | 814 (0.403%) | 
+| 2024-04-16 | Vision | 335411 | 753 (0.225%) | 753 (0.225%) | 
+LINK: [https://github.com/rw251/.../conditions/temporomandibular-pain/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/temporomandibular-pain/1)
+
+### Social care prescribing referral
+
+Codes indicating that patient had a referral to social care prescribing services. Created using getset:
+
+{
+  "includeTerms": [
+    "referral to physical activity programme",
+    "referral to weight management programme",
+    "referral to social prescribing"
+  ],
+  "excludeTerms": [
+    "declined"
+  ],
+  "terminology": "SNOMED CT",
+  "version": "uk_sct2cl_29.3.0_20200610000001",
+  "createdOn": "2023-11-30T11:43:13.806Z",
+  "lastUpdated": "2023-11-30T11:43:13.806Z"
+}
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.6% - 4.41%` suggests code set is potentially missing codes used by Vision practices.
+
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-11-30 | EMIS | 2514435 | 88101 (3.5%) | 88111 (3.5%) | 
+| 2023-11-30 | TPP | 201265 | 8863 (4.4%) | 8867 (4.41%) | 
+| 2023-11-30 | Vision | 333774 | 5343 (1.6%) | 5344 (1.6%) | 
+LINK: [https://github.com/rw251/.../referrals/social-care-prescribing-referral/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/referrals/social-care-prescribing-referral/1)
+
+### Surgery
+
+Any code indicating referral to surgery.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.22% - 4.46%` suggests a potential overreporting from TPP practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-04-12 | EMIS | 2528955 | 30968 (1.22%) | 30463 (1.2%) | 
+| 2024-04-12 | TPP | 201791 | 9008 (4.46%) | 8967 (4.44%) | 
+| 2024-04-12 | Vision | 335318 | 5040 (1.5%) | 5013 (1.49%) | 
+LINK: [https://github.com/rw251/.../referrals/surgery-referral/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/referrals/surgery-referral/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../SDE Lighthouse 06 - Chen/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/SDE%20Lighthouse%2006%20-%20Chen/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.

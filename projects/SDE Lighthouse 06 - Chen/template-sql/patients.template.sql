@@ -2,16 +2,16 @@
 --│ SDE Lighthouse study 06 - Chen           │
 --└──────────────────────────────────────────┘
 
-set(StudyStartDate) = to_date('2017-01-01');
-set(StudyEndDate)   = to_date('2023-12-31');
+USE DATABASE PRESENTATION;
+USE SCHEMA GP_RECORD;
 
 --> EXECUTE query-build-lh006-cohort.sql
 
--- DEATH TABLE
+--- death table to join to later
 
-DROP TABLE IF EXISTS Death
+DROP TABLE IF EXISTS Death;
 CREATE TEMPORARY TABLE Death AS
-SELECT
+SELECT 
     DEATH."GmPseudo",
     TO_DATE(DEATH."RegisteredDateOfDeath") AS DeathDate,
     OM."DiagnosisOriginalMentionCode",
@@ -22,35 +22,31 @@ SELECT
     OM."DiagnosisOriginalMentionCategory1Desc"
 FROM PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" DEATH
 LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions" OM 
-        ON OM."XSeqNo" = DEATH."XSeqNo" AND OM."DiagnosisOriginalMentionNumber" = 1
+        ON OM."XSeqNo" = DEATH."XSeqNo" AND OM."DiagnosisOriginalMentionNumber" = 1;
 
--- patient demographics table
+-- create cohort of patients
+-- join to demographic table to get ethnicity and date of birth
 
 DROP TABLE IF EXISTS Patients;
-CREATE TEMPORARY TABLE Patients AS 
-SELECT * EXCLUDE (rownum)
-FROM (
-SELECT 
-	"Snapshot", 
-	D."GmPseudo",
-	"FK_Patient_ID", 
-	"PracticeCode",
-	"DateOfBirth",
-	DATE_TRUNC(month, dth.DeathDate) AS DeathDate,
-	"DiagnosisOriginalMentionCode" AS CauseOfDeathCode,
-	"DiagnosisOriginalMentionDesc" AS CauseOfDeathDesc,
-	"DiagnosisOriginalMentionChapterCode" AS CauseOfDeathChapterCode,
-    "DiagnosisOriginalMentionChapterDesc" AS CauseOfDeathChapterDesc,
-    "DiagnosisOriginalMentionCategory1Code" AS CauseOfDeathCategoryCode,
-    "DiagnosisOriginalMentionCategory1Desc" AS CauseOfDeathCategoryDesc,
-	LSOA11, 
-	tow.quintile AS "TownsendQuintile", 
-	"Age", 
-	"Sex", 
-	"EthnicityLatest_Category", 
-	row_number() over (partition by D."GmPseudo" order by "Snapshot" desc) rownum
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" D
-LEFT JOIN INTERMEDIATE.GP_RECORD.TOWNSENDSCORE_LSOA_2011 tow on tow.geo_code = D.LSOA11
-LEFT JOIN Death dth ON dth."GmPseudo" = D."GmPseudo"
-)
-WHERE rownum = 1;
+CREATE TEMPORARY TABLE Patients AS
+SELECT
+	 co."FK_Patient_ID",
+	 dem."GmPseudo",
+	 dem."Sex",
+	 dem."Age",
+	 dem."IMD_Decile",
+	 dem."EthnicityLatest_Category",
+	 dem."PracticeCode", 
+	 dth.DeathDate,
+	 dem."DateOfBirth", 
+	 co.IndexDate
+FROM Cohort co
+LEFT OUTER JOIN        -- use row_number to filter demographics table to most recent snapshot
+	(
+	SELECT 
+		*, 
+		ROW_NUMBER() OVER (PARTITION BY "FK_Patient_ID" ORDER BY "Snapshot" DESC) AS ROWNUM
+	FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p 
+	) dem	ON dem."FK_Patient_ID" = co."FK_Patient_ID"
+LEFT OUTER JOIN Death dth ON dth."GmPseudo" = dem."GmPseudo"
+WHERE dem.ROWNUM = 1
