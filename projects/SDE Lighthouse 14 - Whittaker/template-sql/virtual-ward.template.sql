@@ -3,13 +3,12 @@
 --└────────────────────────────────────┘
 
 set(StudyStartDate) = to_date('2018-01-01');
-set(StudyEndDate)   = to_date('2024-05-31');
+set(StudyEndDate)   = to_date('2024-06-30');
 
 ---- find the latest snapshot for each spell
 
-create temporary table virtualWards as
 select  
-    dem."GmPseudo",
+    SUBSTRING(vw."Pseudo NHS Number", 2)::INT "GmPseudo",
     vw."Unique Spell ID",
     vw."SnapshotDate",
     vw."Admission Source ID",
@@ -42,11 +41,7 @@ select
     vw."Diagnosis Pathway",
     vw."Step up or down",
     vw."Using tech-enabled service"
-    
 from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw
--- join to demographics
-left join INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" dem
-    on dem."GmPseudo" = SUBSTRING(vw."Pseudo NHS Number", 2)::INT
 -- get admission source description
 left join (select distinct "Admission Source ID", "Admission Source Description" 
            from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.DQ_VIRTUAL_WARDS_ADMISSION_SOURCE) adm
@@ -56,5 +51,7 @@ inner join (select  "Unique Spell ID", Max("SnapshotDate") "LatestRecord"
             from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY
             group by all) a 
     on a."Unique Spell ID" = vw."Unique Spell ID" and vw."SnapshotDate" = a."LatestRecord"
+where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate;
+-- 24.7k spells
+-- 16,217 patients
 
-    

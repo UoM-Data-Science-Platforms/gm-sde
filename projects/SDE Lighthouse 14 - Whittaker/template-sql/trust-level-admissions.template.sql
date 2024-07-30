@@ -9,12 +9,9 @@
 -- Average bed request to assign time - UNLIKELY
 
 set(StudyStartDate) = to_date('2018-01-01');
-set(StudyEndDate)   = to_date('2024-05-31');
+set(StudyEndDate)   = to_date('2024-06-30');
 
 -- CREATE A TABLE OF ADMISSIONS FROM GM TRUSTS
-
---- ****** DO WE NEED TO LIMIT TO GM TRUSTS ONLY??
-
 DROP TABLE IF EXISTS ManchesterTrusts;
 CREATE TEMPORARY TABLE ManchesterTrusts AS 
 SELECT *
@@ -28,39 +25,50 @@ WHERE "ProviderDesc" IN
      'Bolton NHS Foundation Trust',
      'Tameside And Glossop Integrated Care NHS Foundation Trust',
      'The Christie NHS Foundation Trust')
-and "HospitalSpellDuration" != '*'
+and "HospitalSpellDuration" != '*'; -- < 10 records have missing discharge date and spell duration, so exclude
   -- FILTER OUT ELECTIVE ??   
 
 -- MONTHLY ADMISSION COUNTS AND AVG LENGTH OF STAY BY TRUST
 
     -- GROUP BY TRUST ONLY
---CREATE TEMPORARY TABLE MonthlyAdmissionsByTrust AS 
+
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
     ,"ProviderDesc"
     , case when count(*) < 5 then 5 else count(*) end as Admissions  --mask small values
-    , AVG("HospitalSpellDuration") as "Avg_LengthOfStay"
+    , case when count(*) < 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
---and "IsReadmission" = 1
 group by   YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
-having count(*) > 5 -- exclude small counts 
+order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
+
+    -- GROUP BY TRUST ONLY
+    -- READMISSIONS ONLY
+
+select 
+      YEAR("AdmissionDttm") AS "Year"
+    , MONTH("AdmissionDttm") AS "Month"
+    ,"ProviderDesc"
+    , case when count(*) < 5 then 5 else count(*) end as Readmissions  --mask small values
+    , case when count(*) < 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
+from ManchesterTrusts
+where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
+and "IsReadmission" = 1
+group by   YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
     -- GROUP BY TRUST AND ICD CATEGORY 
 
---CREATE TEMPORARY TABLE MonthlyAdmissionsByTrustAndICDChapter AS 
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
     , "ProviderDesc" 
     , "DerPrimaryDiagnosisChapterDescReportingEpisode" as PrimaryICDCategory
     , case when count(*) < 5 then 5 else count(*) end as Admissions  --mask small values
-    , AVG("HospitalSpellDuration") as Avg_LengthOfStay
+    , case when count(*) < 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
---and "IsReadmission" = 1
 group by   
       YEAR("AdmissionDttm") 
     , MONTH("AdmissionDttm") 
@@ -73,8 +81,7 @@ order by
     , "DerPrimaryDiagnosisChapterDescReportingEpisode";
 
     -- GROUP BY TRUST AND AGE BAND
-
---CREATE TEMPORARY TABLE MonthlyAdmissionsByTrustAndAgeBand AS 
+ 
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -87,11 +94,10 @@ select
          when "AgeAtStartOfSpellSus" > 90  then '6. >90'
             else NULL end as AgeBand
     , case when count(*) < 5 then 5 else count(*) end as Admissions  --mask small values
-    ,AVG("HospitalSpellDuration") as Avg_LengthOfStay
+    , case when count(*) < 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 and "AgeAtStartOfSpellSus" between 0 and 120 -- REMOVE UNREALISTIC VALUES
---and "IsReadmission" = 1
 group by 
       YEAR("AdmissionDttm")
     , MONTH("AdmissionDttm")
