@@ -1,48 +1,42 @@
---┌─────────────┐
---│ Medications │
---└─────────────┘
+--┌─────────────────────┐
+--│ LH001: Medications  │
+--└─────────────────────┘
 
 ------------ RESEARCH DATA ENGINEER CHECK ------------
 -- 
 ------------------------------------------------------
 
--- All prescriptions of: antipsychotic medication.
+USE DATABASE PRESENTATION;
+USE SCHEMA GP_RECORD;
 
--- OUTPUT: Data with the following fields
--- 	-   PatientId (int)
---	-	MedicationDescription
---	-	MostRecentPrescriptionDate (YYYY-MM-DD)
+--> EXECUTE query-build-lh001-cohort.sql
 
---Just want the output, not the messages
-SET NOCOUNT ON;
-
--- Set the start date
-DECLARE @StartDate datetime;
-DECLARE @EndDate datetime;
-SET @StartDate = 'CHANGE';
-SET @EndDate = 'CHANGE';
-
---> EXECUTE query-build-lh003-cohort.sql
-
-
--- PATIENTS WITH RX OF MEDS
-
-IF OBJECT_ID('tempdb..#meds') IS NOT NULL DROP TABLE #meds;
+DROP TABLE IF EXISTS prescriptions;
+CREATE TEMPORARY TABLE prescriptions AS
 SELECT 
-	 m.FK_Patient_Link_ID,
-		CAST(MedicationDate AS DATE) as PrescriptionDate,
-		[description] = CASE WHEN s.[description] IS NOT NULL THEN s.[description] ELSE c.[description] END
-INTO #meds
-FROM RLS.vw_GP_Medications m
-LEFT OUTER JOIN #VersionedSnomedSets s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
-LEFT OUTER JOIN #VersionedCodeSets c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
-WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-AND m.MedicationDate BETWEEN @StartDate AND @EndDate
-AND (
-	m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN () AND [Version]=1) OR
-    m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN () AND [Version]=1)
-);
-
-
-
+    ec."FK_Patient_ID"
+    , TO_DATE(ec."MedicationDate") AS "MedicationDate"
+    , ec."SCTID" AS "SnomedCode"
+	, ec."Quantity"
+    , ec."Dosage_GP_Medications" AS "Dosage" -- NEED TO ANONYMISE
+    , CASE WHEN ec."Field_ID" = 'Statin' THEN 'statin' -- statin
+	       WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%citalopram%' OR LOWER("Term") LIKE '%escitalopram%' OR LOWER("Term") LIKE '%fluvoxamine%' OR LOWER("Term") LIKE '%paroxetine%' OR LOWER("Term") LIKE '%sertraline%') THEN 'selective-serotonin-reuptake-inhibitor'
+		   WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%amitriptyline%' OR LOWER("Term") LIKE '%clomipramine%' OR LOWER("Term") LIKE '%doxepin%' OR LOWER("Term") LIKE '%imipramine%' OR LOWER("Term") LIKE '%nortriptyline%' OR LOWER("Term") LIKE '%trimipramine%') THEN 'tricyclic-antidepressant'
+           WHEN ("Field_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("Term") LIKE '%esomeprazole%' OR LOWER("Term") LIKE '%lansoprazole%' OR LOWER("Term") LIKE '%omeprazole%' OR LOWER("Term") LIKE '%pantoprazole%' OR LOWER("Term") LIKE '%rabeprazole%' ) THEN 'proton-pump-inhibitors'
+		   ELSE 'other' END AS "Concept"
+    , ec."MedicationDescription" AS "Description"
+FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
+WHERE 
+	("Field_ID" IN ('Statin')) OR -- statins
+	("Field_ID" IN ('ANTIDEPDRUG_COD') -- SSRIs
+		AND (LOWER("Term") LIKE '%citalopram%' OR LOWER("Term") LIKE '%escitalopram%' OR LOWER("Term") LIKE '%fluvoxamine%' OR LOWER("Term") LIKE '%paroxetine%' OR LOWER("Term") LIKE '%sertraline%')
+	) OR
+	("Field_ID" IN ('ANTIDEPDRUG_COD') -- tricyclic antidepressants
+		AND (LOWER("Term") LIKE '%amitriptyline%' OR LOWER("Term") LIKE '%clomipramine%' OR LOWER("Term") LIKE '%doxepin%' OR LOWER("Term") LIKE '%imipramine%' OR LOWER("Term") LIKE '%nortriptyline%' OR LOWER("Term") LIKE '%trimipramine%')
+	) OR
+	( "Field_ID" = 'ULCERHEALDRUG_COD' -- proton pump inhibitors
+	  AND (LOWER("Term") LIKE '%esomeprazole%' OR LOWER("Term") LIKE '%lansoprazole%' OR LOWER("Term") LIKE '%omeprazole%' OR LOWER("Term") LIKE '%pantoprazole%' OR LOWER("Term") LIKE '%rabeprazole%' )
+	) 
+AND TO_DATE(ec."MedicationDate") BETWEEN $StudyStartDate and $StudyEndDate
+AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort);
 
