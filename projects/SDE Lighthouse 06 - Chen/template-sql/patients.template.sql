@@ -1,6 +1,6 @@
---┌──────────────────────────────────────────┐
---│ SDE Lighthouse study 06 - Chen           │
---└──────────────────────────────────────────┘
+--┌──────────────────────────────────────────────┐
+--│ SDE Lighthouse study 06 - Patients           │
+--└──────────────────────────────────────────────┘
 
 USE DATABASE PRESENTATION;
 USE SCHEMA GP_RECORD;
@@ -27,8 +27,8 @@ LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions
 -- create cohort of patients
 -- join to demographic table to get ethnicity and date of birth
 
-DROP TABLE IF EXISTS Patients;
-CREATE TEMPORARY TABLE Patients AS
+--DROP TABLE IF EXISTS Patients;
+--CREATE TEMPORARY TABLE Patients AS
 SELECT
 	 co."FK_Patient_ID",
 	 dem."GmPseudo",

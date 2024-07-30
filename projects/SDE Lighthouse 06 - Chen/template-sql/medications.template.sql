@@ -26,6 +26,7 @@ SELECT
            WHEN ec."Cluster_ID" = 'GABADRUG_COD' THEN 'gabapentinoid' -- gabapentinoids
            WHEN ec."Cluster_ID" = 'ORALNSAIDDRUG_COD' THEN 'nsaid' -- oral nsaids
 		   WHEN ec."Cluster_ID" = 'OPIOIDDRUG_COD' THEN 'opioid' -- opioids except heroin addiction substitutes
+	       WHEN ec."Cluster_ID" = 'ANTIDEPDRUG_COD' THEN 'antidepressant' -- antidepressants
            ELSE 'other' END AS "CodeSet"
     , ec."MedicationDescription" AS "Description"
 FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
