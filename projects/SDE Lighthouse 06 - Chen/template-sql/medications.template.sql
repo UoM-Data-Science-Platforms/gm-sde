@@ -19,9 +19,7 @@ SELECT
     ec."FK_Patient_ID"
     , TO_DATE(ec."MedicationDate") AS "MedicationDate"
     , ec."SCTID" AS "SnomedCode"
-    , ec."Units"
-    , ec."Dosage"
-    , ec."Dosage_GP_Medications"
+    , ec."Dosage_GP_Medications" AS "Dosage"
     , CASE WHEN ec."Cluster_ID" = 'BENZODRUG_COD' THEN 'benzodiazepine' -- benzodiazepines
            WHEN ec."Cluster_ID" = 'GABADRUG_COD' THEN 'gabapentinoid' -- gabapentinoids
            WHEN ec."Cluster_ID" = 'ORALNSAIDDRUG_COD' THEN 'nsaid' -- oral nsaids
@@ -35,4 +33,21 @@ WHERE "Cluster_ID" in
     AND TO_DATE(ec."MedicationDate") BETWEEN $StudyStartDate and $StudyEndDate
     AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort);
 
+
+-- ONLY KEEP DOSAGE INFO IF IT HAS APPEARED > 50 TIMES
+
+DROP TABLE IF EXISTS SafeDosages;
+CREATE TEMPORARY TABLE SafeDosages AS
+SELECT "Dosage" 
+FROM prescriptions
+GROUP BY "Dosage"
+HAVING count(*) >= 50;
+
+-- final table with redacted dosage info
+
+SELECT 
+    p.*,
+    IFNULL(sd."Dosage", 'REDACTED') as Dosage
+FROM PRESCRIPTIONS p
+LEFT JOIN SafeDosages sd ON sd."Dosage" = p."Dosage"
 

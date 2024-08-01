@@ -4,8 +4,6 @@
 
 --> EXECUTE query-build-lh006-cohort.sql
 
---> CODESET social-care-prescribing-referral:1 surgery-referral:1
-
 DROP TABLE IF EXISTS referralsClusters;
 CREATE TEMPORARY TABLE referralsClusters AS
 SELECT 
