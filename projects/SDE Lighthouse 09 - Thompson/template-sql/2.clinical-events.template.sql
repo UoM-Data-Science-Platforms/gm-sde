@@ -1,0 +1,31 @@
+--┌─────────────────────────────────────┐
+--│ SDE Lighthouse study 09 - Thompson  │
+--└─────────────────────────────────────┘
+
+--	-	PatientID
+--	-	EventDate
+--	-	EventCategory/Code
+--	-	EventDescription
+--	-	Practice location/name (if allowed)
+
+--	Diagnoses will include IMIDs such as
+--	-	systemic lupus erythematous (SLE)
+--	-	rheumatoid arthritis (RA)
+--	-	spondyloarthropathies
+--	-	inflammatory bowel disease
+--	Skin conditions such as psoriasis
+--	Asthma
+--	Some neurological diseases.
+
+--	Symptoms include:
+--	-	hot flashes
+--	-	vaginal dryness
+--	-	musculoskeletal pain
+--	-	brain fog/cognitive changes
+--	-	night sweats
+--	-	irregular periods
+--	-	mood/mental health changes
+--	-	irregular or unexpected menstrual bleeding
+--	-	fertility issues
+--	-	reproductive symptoms
+--	-	pregnancies. 

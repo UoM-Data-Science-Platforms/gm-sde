@@ -6,18 +6,32 @@
 
 ---------------------------------------------------------------------
 
--- All prescriptions for sex hormone medications:
-	-- female_sex_hormones
-	-- male_sex_hormones
-	-- anabolic_steroids
-	-- hormone_replacement_therapy
+--	- PatientId
+--	- PrescriptionDate
+--	- MedicationCategory/Code
+--	- MedicationDescription (including duration, quantity and frequency information)
+--	- Practice location/name (if allowed)
 
--- OUTPUT: Data with the following fields
--- 	-   PatientId (int)
---	-	MedicationCategory (varchar)
---	-	PrescriptionDate (YYYY-MM-DD)
---  -   MedicationDescription (varchar)
---  -   Quantity (varchar)
+-- Prescriptions and treatments of interest include
+--	-	hormone replacement therapies e.g 
+--		-	oestradiol
+--		-	progesterone
+--		-	testosterone
+--	-	birth control e.g
+--		-	coil
+--		-	implant
+--		-	injection
+--		-	contraceptive pill
+--		-	termination pill
+--	-	treatments for IMIDs e.g
+--		-	biologics
+--		-	steroids
+--		-	DMARDS
+--		-	NSAIDS
+--	-	minor procedures including
+--		-	coil fitting or removal
+--		-	implant fitting or removal
+--		-	peri or postpartum procedures.
 
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;

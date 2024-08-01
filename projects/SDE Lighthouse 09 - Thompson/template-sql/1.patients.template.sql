@@ -1,6 +1,15 @@
---┌──────────────────────────────────────────┐
---│ SDE Lighthouse study 09 - Kontopantelis  │
---└──────────────────────────────────────────┘
+--┌─────────────────────────────────────┐
+--│ SDE Lighthouse study 09 - Thompson  │
+--└─────────────────────────────────────┘
+
+-- Female sex aged 30-70
+--  - PatientId
+--  - YearAndMonthOfBirth
+--  - YearAndMonthOfDeath
+--  - Ethnicity
+--  - LSOA
+--  - IMD (deprivation decile, 1 to 10)
+--  - Comorbidities (list here - https://www.phpc.cam.ac.uk/pcu/research/researchgroups/crmh/cprd_cam/codelists/v11/)
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
