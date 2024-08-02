@@ -8,7 +8,18 @@
 
 -- Richard Williams - changes at 7th October 2022
 -- PI requested:
---		- The date of diagnosis for the 4 conditions that currently are just Y/N flags
+--	- The date of diagnosis for the 4 conditions that currently are just Y/N flags
+
+-- Richard Williams - changes at 2nd October 2024
+-- PI requested: 
+--  - alcohol dependence and related diseases
+--  - chronic viral hepatitis
+--  - Liver fibrosis sclerosis and cirrhosis
+--  - autoimmune hepatitis
+--  - Liver failure and transplant
+--  - liver Primary malignancy
+--  - NAFLD
+
 
 -- Cohort is patients included in the DARE study. The below queries produce the data
 -- that is required for each patient. However, a filter needs to be applied to only
@@ -446,6 +457,84 @@ WHERE (
 )
 GROUP BY FK_Patient_Link_ID;
 
+--> CODESET alcohol-dependence-and-related-diseases:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesalcoholdependenceandrelateddiseases') IS NOT NULL DROP TABLE #PatientDiagnosesalcoholdependenceandrelateddiseases;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosesalcoholdependenceandrelateddiseases
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('alcohol-dependence-and-related-diseases') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('alcohol-dependence-and-related-diseases') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET chronic-viral-hepatitis:1
+IF OBJECT_ID('tempdb..#PatientDiagnoseschronicviralhepatitis') IS NOT NULL DROP TABLE #PatientDiagnoseschronicviralhepatitis;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnoseschronicviralhepatitis
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN (' chronic-viral-hepatitis') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN (' chronic-viral-hepatitis') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET liver-fibrosis-sclerosis-and-cirrhosis:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesliverfibrosissclerosisandcirrhosis') IS NOT NULL DROP TABLE #PatientDiagnosesliverfibrosissclerosisandcirrhosis;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosesliverfibrosissclerosisandcirrhosis
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('liver-fibrosis-sclerosis-and-cirrhosis') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('liver-fibrosis-sclerosis-and-cirrhosis') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET autoimmune-hepatitis:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesautoimmunehepatitis') IS NOT NULL DROP TABLE #PatientDiagnosesautoimmunehepatitis;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosesautoimmunehepatitis
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('autoimmune-hepatitis') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('autoimmune-hepatitis') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET liver-failure-and-transplant:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesliverfailureandtransplant') IS NOT NULL DROP TABLE #PatientDiagnosesliverfailureandtransplant;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosesliverfailureandtransplant
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('liver-failure-and-transplant') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('liver-failure-and-transplant') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET liver-primary-malignancy:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesliverprimarymalignancy') IS NOT NULL DROP TABLE #PatientDiagnosesliverprimarymalignancy;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosesliverprimarymalignancy
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('liver-primary-malignancy') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('liver-primary-malignancy') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+--> CODESET non-alcoholic-fatty-liver-disease:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesnonalcoholicfattyliverdisease') IS NOT NULL DROP TABLE #PatientDiagnosesnonalcoholicfattyliverdisease;
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate
+INTO #PatientDiagnosesnonalcoholicfattyliverdisease
+FROM #PatientEventData
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('non-alcoholic-fatty-liver-disease') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('non-alcoholic-fatty-liver-disease') AND [Version]=1))
+)
+GROUP BY FK_Patient_Link_ID;
+
+
 
 -- medications
 --> CODESET metformin:1
@@ -625,6 +714,13 @@ SELECT
   acute.FirstDiagnosisDate AS ACUTECONJUNCTIVITISFirstDiagnosisDate,
   diabetic.FirstDiagnosisDate AS DIABETICRETINOPATHYFirstDiagnosisDate,
   cataract.FirstDiagnosisDate AS CATARACTFirstDiagnosisDate,
+  alcoholdependenceandrelateddiseases.FirstDiagnosisDate AS ALCOHOLDEPENDENCEANDRELATEDDISEASESFirstDiagnosisDate,
+  chronicviralhepatitis.FirstDiagnosisDate AS CHRONICVIRALHEPATITISFirstDiagnosisDate,
+  liverfibrosissclerosisandcirrhosis.FirstDiagnosisDate AS LIVERFIBROSISSCLEROSISANDCIRRHOSISFirstDiagnosisDate,
+  autoimmunehepatitis.FirstDiagnosisDate AS AUTOIMMUNEHEPATITISFirstDiagnosisDate,
+  liverfailureandtransplant.FirstDiagnosisDate AS LIVERFAILUREANDTRANSPLANTFirstDiagnosisDate,
+  liverprimarymalignancy.FirstDiagnosisDate AS LIVERPRIMARYMALIGNANCYFirstDiagnosisDate,
+  nonalcoholicfattyliverdisease.FirstDiagnosisDate AS NONALCOHOLICFATTYLIVERDISEASEFirstDiagnosisDate,
   VaccineDose1Date AS FirstVaccineDate,
   VaccineDose2Date AS SecondVaccineDate,
   IsOnInsulin,
@@ -667,3 +763,10 @@ LEFT OUTER JOIN #PatientDiagnosessinusitis sinusitis ON sinusitis.FK_Patient_Lin
 LEFT OUTER JOIN #PatientDiagnosesacuteconjunctivitis acute ON acute.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesdiabeticretinopathy diabetic ON diabetic.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosescataract cataract ON cataract.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesalcoholdependenceandrelateddiseases alcoholdependenceandrelateddiseases ON alcoholdependenceandrelateddiseases.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnoseschronicviralhepatitis chronicviralhepatitis ON chronicviralhepatitis.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesliverfibrosissclerosisandcirrhosis liverfibrosissclerosisandcirrhosis ON liverfibrosissclerosisandcirrhosis.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesautoimmunehepatitis autoimmunehepatitis ON autoimmunehepatitis.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesliverfailureandtransplant liverfailureandtransplant ON liverfailureandtransplant.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesliverprimarymalignancy liverprimarymalignancy ON liverprimarymalignancy.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesnonalcoholicfattyliverdisease nonalcoholicfattyliverdisease ON nonalcoholicfattyliverdisease.FK_Patient_Link_ID = m.FK_Patient_Link_ID

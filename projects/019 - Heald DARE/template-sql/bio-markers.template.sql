@@ -11,6 +11,15 @@
 --		- Removing the date restriction in order to get all possible trend data
 --		-	Adding blood pressure and triglycerides
 
+-- Richard Williams - changes at 2nd October 2024
+-- PI requested: 
+--	alanine-aminotransferase
+--	alkaline-phosphatase
+--	bilirubin
+--	albumin
+--	gamma-glutamyl-transferase
+--	aspartate-aminotransferase
+
 -- Cohort is patients included in the DARE study. The below queries produce the data
 -- that is required for each patient. However, a filter needs to be applied to only
 -- provide this data for patients in the DARE study. Adrian Heald will provide GraphNet
@@ -42,6 +51,7 @@ INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
 
 --> CODESET bmi:2 hba1c:2 cholesterol:2 ldl-cholesterol:1 hdl-cholesterol:1 vitamin-d:1 testosterone:1 sex-hormone-binding-globulin:1 egfr:1
 --> CODESET diastolic-blood-pressure:1 systolic-blood-pressure:1 triglycerides:1 urinary-albumin-creatinine-ratio:1
+--> CODESET alanine-aminotransferase:1 alkaline-phosphatase:1 bilirubin:1 albumin:1 gamma-glutamyl-transferase:1 aspartate-aminotransferase:1
 
 -- First lets get all the measurements in one place to improve query speed later on
 IF OBJECT_ID('tempdb..#biomarkerValues') IS NOT NULL DROP TABLE #biomarkerValues;
@@ -176,6 +186,54 @@ FROM #biomarkerValues
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'urinary-albumin-creatinine-ratio' AND [Version] = 1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'urinary-albumin-creatinine-ratio' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'alanine-aminotransferase' AS Label, EventDate, [Value], Units
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'alanine-aminotransferase' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'alanine-aminotransferase' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'alkaline-phosphatase' AS Label, EventDate, [Value], Units
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'alkaline-phosphatase' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'alkaline-phosphatase' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'bilirubin' AS Label, EventDate, [Value], Units
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'bilirubin' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'bilirubin' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'albumin' AS Label, EventDate, [Value], Units
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'albumin' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'albumin' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'gamma-glutamyl-transferase' AS Label, EventDate, [Value], Units
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'gamma-glutamyl-transferase' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'gamma-glutamyl-transferase' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'aspartate-aminotransferase' AS Label, EventDate, [Value], Units
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'aspartate-aminotransferase' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'aspartate-aminotransferase' AND [Version] = 1))
 );
 
 -- Final output

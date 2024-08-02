@@ -358,6 +358,12 @@ This project required the following clinical code sets:
 - systolic-blood-pressure v1
 - triglycerides v1
 - urinary-albumin-creatinine-ratio v1
+- alanine-aminotransferase v1
+- alkaline-phosphatase v1
+- bilirubin v1
+- albumin v1
+- gamma-glutamyl-transferase v1
+- aspartate-aminotransferase v1
 - diabetes v1
 - diabetes-type-i v1
 - diabetes-type-ii v1
@@ -390,6 +396,13 @@ This project required the following clinical code sets:
 - acute-conjunctivitis v1
 - diabetic-retinopathy v1
 - cataract v1
+- alcohol-dependence-and-related-diseases v1
+- chronic-viral-hepatitis v1
+- liver-fibrosis-sclerosis-and-cirrhosis v1
+- autoimmune-hepatitis v1
+- liver-failure-and-transplant v1
+- liver-primary-malignancy v1
+- non-alcoholic-fatty-liver-disease v1
 - metformin v1
 - glp1-receptor-agonists v1
 - insulin v1
@@ -719,6 +732,135 @@ _Update **2023/11/01**: prevalence now `11%-12%` for EMIS and VISION. TPP higher
 
 LINK: [https://github.com/rw251/.../tests/urinary-albumin-creatinine-ratio/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urinary-albumin-creatinine-ratio/1)
 
+### Alanine aminotransferase (ALT test)
+
+This code set includes codes that only includes codes that are accompanied by a value (e.g. `44G3.00 - Serum alanineaminotransferase level`).
+
+Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `57% - 66%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-21 | EMIS            | 2658131    | 1385275 (52.11%) |  1385275 (52.11%) |
+| 2022-03-21 | TPP             | 212662     |  124421 (58.51%) |   124421 (58.51%) |
+| 2022-03-21 | Vision          | 341594     |  201405 (58.96%) |   201405 (58.96%) |
+| 2024-08-02 | EMIS            | 2535890    |  1435900 (56.6%) |   1435900 (56.6%) |
+| 2024-08-02 | TPP             | 202032     |   133511 (66.1%) |    133511 (66.1%) |
+| 2024-08-02 | Vision          | 336043     |   201260 (59.9%) |    201260 (59.9%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-02
+
+LINK: [https://github.com/rw251/.../tests/alanine-aminotransferase/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/alanine-aminotransferase/1)
+
+### Alkaline phosphatase
+
+This code set includes codes that only includes codes that are accompanied by a value (e.g. `44FZ.00 - Serum alkaline phosphatase NOS`).
+
+Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59% - 68%` suggests that this code set is likely well defined.
+
+_Update **2024-03-15**: Prevalence now 58% - 60%._
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-21 | EMIS            | 2658131    | 1515677 (57.02%) |  1515677 (57.02%) |
+| 2022-03-21 | TPP             | 212662     |  128534 (60.44%) |   128534 (60.44%) |
+| 2022-03-21 | Vision          | 341594     |  204911 (59.99%) |   204911 (59.99%) |
+| 2024-03-15 | EMIS            | 2526522    |    1466028 (58%) |     1466176 (58%) |
+| 2024-03-15 | TPP             | 201758     |   118204 (58.6%) |    118215 (58.6%) |
+| 2024-03-15 | Vision          | 335186     |     200958 (60%) |      200975 (60%) |
+| 2024-08-02 | EMIS            | 2535890    |    1495802 (59%) |     1495802 (59%) |
+| 2024-08-02 | TPP             | 202032     |   136360 (67.5%) |    136360 (67.5%) |
+| 2024-08-02 | Vision          | 336043     |   204099 (60.7%) |    204099 (60.7%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-02
+
+LINK: [https://github.com/rw251/.../tests/alkaline-phosphatase/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/alkaline-phosphatase/1)
+
+### Bilirubin test
+
+This code set includes codes that only includes codes that are accompanied by a value.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `59% - 67%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-02 | EMIS            | 2535890    |  1487895 (58.7%) |   1487895 (58.7%) |
+| 2024-08-02 | TPP             | 202032     |   135252 (66.9%) |    135252 (66.9%) |
+| 2024-08-02 | Vision          | 336043     |   204049 (60.7%) |    204049 (60.7%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-02
+
+LINK: [https://github.com/rw251/.../tests/bilirubin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/bilirubin/1)
+
+### Albumin
+
+This code set only includes codes that are accompanied by a value (e.g. `XE2eA Serum albumin level`).
+
+Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%56.99 - 60.46%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-21 | EMIS            | 2658131    | 1514957 (56.99%) |  1514957 (56.99%) |
+| 2022-03-21 | TPP             | 212662     |  128583 (60.46%) |   128583 (60.46%) |
+| 2022-03-21 | Vision          | 341594     |  205140 (60.05%) |   205140 (60.05%) |
+| 2024-08-02 | EMIS            | 2535890    |  1501576 (59.2%) |   1501576 (59.2%) |
+| 2024-08-02 | TPP             | 202032     |   136428 (67.5%) |    136428 (67.5%) |
+| 2024-08-02 | Vision          | 336043     |   205265 (61.1%) |    205265 (61.1%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-02
+
+LINK: [https://github.com/rw251/.../tests/albumin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/albumin/1)
+
+### Gamma glutamyl transferase (GGT) level
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%10.96 - 23.64%` suggests underreporting from Vision practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-11 | EMIS            | 2662570    |  539179 (20.25%) |   539179 (20.25%) |
+| 2022-05-11 | TPP             | 212696     |   50284 (23.64%) |    50284 (23.64%) |
+| 2022-05-11 | Vision          | 342344     |   37522 (10.96%) |    37522 (10.96%) |
+| 2024-08-02 | EMIS            | 2535890    |   517931 (20.4%) |    517931 (20.4%) |
+| 2024-08-02 | TPP             | 202032     |    52734 (26.1%) |     52734 (26.1%) |
+| 2024-08-02 | Vision          | 336043     |    38583 (11.5%) |     38583 (11.5%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-02
+
+LINK: [https://github.com/rw251/.../tests/gamma-glutamyl-transferase/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/gamma-glutamyl-transferase/1)
+
+### Aspartate aminotransferase (AST) test
+
+This code set includes codes that only includes codes that are accompanied by a value.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.1% - 15.5%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-02 | EMIS            | 2535890    |   307080 (12.1%) |    307080 (12.1%) |
+| 2024-08-02 | TPP             | 202032     |    31412 (15.5%) |     31412 (15.5%) |
+| 2024-08-02 | Vision          | 336043     |    47529 (14.1%) |     47529 (14.1%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-02
+
+LINK: [https://github.com/rw251/.../tests/aspartate-aminotransferase/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/aspartate-aminotransferase/1)
+
 ### Diabetes mellitus
 
 Code set for any diagnosis of diabetes mellitus (type I/type II/other).
@@ -1036,6 +1178,9 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 | 2024-01-23 | EMIS            | 2520311    |  1547833 (61.4%) |   1547833 (61.4%) |
 | 2024-01-23 | TPP             | 201513     |     8819 (4.38%) |      8819 (4.38%) |
 | 2024-01-23 | Vision          | 334747     |   127541 (38.1%) |    127541 (38.1%) |
+| 2024-04-23 | EMIS 		   | 2530666    |  1538265 (60.8%) |   1538265 (60.8%) | 
+| 2024-04-23 | TPP 			   | 201812     |     9383 (4.65%) |      9383 (4.65%) | 
+| 2024-04-23 | Vision 		   | 335433     |   127287 (37.9%) |    127287 (37.9%) | 
 ##### EVENT
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
@@ -1049,6 +1194,9 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 | 2024-01-23 | EMIS            | 2520311    |   243506 (9.66%) |   1571372 (62.3%) |
 | 2024-01-23 | TPP             | 201513     |     2322 (1.15%) |    137349 (68.2%) |
 | 2024-01-23 | Vision          | 334747     |     32138 (9.6%) |    209223 (62.5%) |
+| 2024-04-23 | EMIS 		   | 2530666    |  1611670 (63.7%) |   1573511 (62.2%) | 
+| 2024-04-23 | TPP 			   | 201812     |    10713 (5.31%) |    136355 (67.6%) | 
+| 2024-04-23 | Vision 		   | 335433     |     214580 (64%) |    208920 (62.3%) | 
 #### Audit log
 
 - Find_missing_codes last run 2024-01-23
@@ -1117,9 +1265,9 @@ Defined as any diagnosis of:
 
 or patients on the severe mental illness register.
 
-CTV3 code sets from OpenSafely.
+CTV3 code sets from OpenSafely and the NHS PCD refsets.
 
-SNOMED code set created from the following codes and all their descendants:
+SNOMED code set supplemented from the following codes and all their descendants:
 
 | SNOMED code | Description                                 |
 | ----------- | ------------------------------------------- |
@@ -1133,11 +1281,19 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `1.04% - 1.77%` is perhaps too wide suggesting there is an underreporting from TPP practices - or the CTV3 code set differs from the others.
 
+_Update **2024-03-15**: Prevalence now 1.14% - 1.18% which suggests it is now well defined._
+
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-03-11 | EMIS            | 2600658    |    46405 (1.78%) |     46081 (1.77%) |
 | 2021-03-11 | TPP             | 210333     |     2200 (1.05%) |      2196 (1.04%) |
 | 2021-03-11 | Vision          | 333251     |     6770 (2.03%) |      5338 (1.60%) |
+| 2024-03-15 | EMIS            | 2526522    |    44626 (1.77%) |     29709 (1.18%) |
+| 2024-03-15 | TPP             | 201758     |     2455 (1.22%) |      2294 (1.14%) |
+| 2024-03-15 | Vision          | 335186     |     5667 (1.69%) |      3830 (1.14%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-03-15
 
 LINK: [https://github.com/rw251/.../conditions/severe-mental-illness/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/severe-mental-illness/1)
 
@@ -1452,6 +1608,113 @@ update:
 
 LINK: [https://github.com/rw251/.../conditions/cataract/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cataract/1)
 
+### Alcohol dependence and related diseases
+
+SNOMED code set provided by team at UCL for the DARE study. Mapped to CTV3, Readv2 and EMIS. No further checking has taken place.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-02 | EMIS            | 2535890    |   154420 (6.09%) |    154340 (6.09%) |
+| 2024-08-02 | TPP             | 202032     |    21631 (10.7%) |     21486 (10.6%) |
+| 2024-08-02 | Vision          | 336043     |    22966 (6.83%) |     22957 (6.83%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-02
+
+LINK: [https://github.com/rw251/.../conditions/alcohol-dependence-and-related-diseases/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/alcohol-dependence-and-related-diseases/1)
+
+### Chronic viral hepatitis
+
+SNOMED code set provided by team at UCL for the DARE study. Mapped to CTV3, Readv2 and EMIS. No further checking has taken place.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-02 | EMIS            | 2535890    |   13022 (0.514%) |    13022 (0.514%) |
+| 2024-08-02 | TPP             | 202032     |     360 (0.178%) |      360 (0.178%) |
+| 2024-08-02 | Vision          | 336043     |     1312 (0.39%) |     1308 (0.389%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-02
+
+LINK: [https://github.com/rw251/.../conditions/chronic-viral-hepatitis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-viral-hepatitis/1)
+
+### Liver fibrosis, sclerosis and cirrhosis
+
+SNOMED code set provided by team at UCL for the DARE study. Mapped to CTV3, Readv2 and EMIS. No further checking has taken place.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-02 | EMIS            | 2535890    |    7724 (0.305%) |     7569 (0.298%) |
+| 2024-08-02 | TPP             | 202032     |     649 (0.321%) |      648 (0.321%) |
+| 2024-08-02 | Vision          | 336043     |     720 (0.214%) |      696 (0.207%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-02
+
+LINK: [https://github.com/rw251/.../conditions/liver-fibrosis-sclerosis-and-cirrhosis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/liver-fibrosis-sclerosis-and-cirrhosis/1)
+
+### Autoimmune hepatitis
+
+SNOMED code set provided by team at UCL for the DARE study. Mapped to CTV3, Readv2 and EMIS. No further checking has taken place.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-02 | EMIS            | 2535890    |   1660 (0.0655%) |    1660 (0.0655%) |
+| 2024-08-02 | TPP             | 202032     |    153 (0.0757%) |     153 (0.0757%) |
+| 2024-08-02 | Vision          | 336043     |    189 (0.0562%) |     189 (0.0562%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-02
+
+LINK: [https://github.com/rw251/.../conditions/autoimmune-hepatitis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/autoimmune-hepatitis/1)
+
+### Liver failure and transplant
+
+SNOMED code set provided by team at UCL for the DARE study. Mapped to CTV3, Readv2 and EMIS. No further checking has taken place.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-02 | EMIS            | 2535890    |    3982 (0.157%) |     3974 (0.157%) |
+| 2024-08-02 | TPP             | 202032     |     351 (0.174%) |      351 (0.174%) |
+| 2024-08-02 | Vision          | 336043     |     711 (0.212%) |      711 (0.212%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-02
+
+LINK: [https://github.com/rw251/.../conditions/liver-failure-and-transplant/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/liver-failure-and-transplant/1)
+
+### Primary malignancy of liver
+
+SNOMED code set provided by team at UCL for the DARE study. Mapped to CTV3, Readv2 and EMIS. No further checking has taken place.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-02 | EMIS            | 2535890    |     483 (0.019%) |      483 (0.019%) |
+| 2024-08-02 | TPP             | 202032     |     50 (0.0247%) |      50 (0.0247%) |
+| 2024-08-02 | Vision          | 336043     |     56 (0.0167%) |      56 (0.0167%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-02
+
+LINK: [https://github.com/rw251/.../conditions/liver-primary-malignancy/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/liver-primary-malignancy/1)
+
+### Non-alcoholic fatty liver disease (NAFLD)
+
+SNOMED code set provided by team at UCL for the DARE study. Mapped to CTV3, Readv2 and EMIS. No further checking has taken place.
+
+Includes "alcoholic fatty liver" as well because in practice these are poorly coded.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-02 | EMIS            | 2535890    |    92571 (3.65%) |     92571 (3.65%) |
+| 2024-08-02 | TPP             | 202032     |     5079 (2.51%) |      5079 (2.51%) |
+| 2024-08-02 | Vision          | 336043     |     9232 (2.75%) |      9232 (2.75%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-02
+
+LINK: [https://github.com/rw251/.../conditions/non-alcoholic-fatty-liver-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/non-alcoholic-fatty-liver-disease/1)
+
 ### Metformin
 
 This code set was originally created for the SMASH safe medication dashboard and has been validated in practice. It is also validated agains the NHS drug refsets.
@@ -1535,6 +1798,9 @@ _Update **2024-03-06**: Prevalence is now in the range `2.2% - 2.4%`._
 | 2024-03-06 | EMIS            | 2525894    |    56629 (2.24%) |     56634 (2.24%) |
 | 2024-03-06 | TPP             | 201753     |     4879 (2.42%) |      4880 (2.42%) |
 | 2024-03-06 | Vision          | 335117     |     7604 (2.27%) |      7605 (2.27%) |
+| 2024-04-26 | EMIS | 2530666 | 58361 (2.31%) | 58361 (2.31%) | 
+| 2024-04-26 | TPP | 201812 | 5032 (2.49%) | 5032 (2.49%) | 
+| 2024-04-26 | Vision | 335433 | 7868 (2.35%) | 7868 (2.35%) | 
 #### Audit log
 
 - Find_missing_codes last run 2024-03-06
@@ -1561,6 +1827,8 @@ LINK: [https://github.com/rw251/.../medications/sulphonylureas/1](https://github
 This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
 
 **_NB this code set is for ACE inhibitors AND angiotensin receptor blockers (ARBs). If you just want ACEIs please use v2._**
+
+** UPDATE (April 2024) - extra codes have now been added from the 'Angiotensin II receptor antagonists prescribable within general practice' and 'Angiotensin-converting enzyme inhibitors prescribable within general practice' code lists at https://nhs-drug-refset.pages.dev/.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.36% - 13.02%` suggests that this code set is well defined.
@@ -1570,7 +1838,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-07 | EMIS            | 2605681    |  321934 (12.36%) |   321952 (12.36%) |
 | 2021-05-07 | TPP             | 210817     |   27450 (13.02%) |    27450 (13.02%) |
 | 2021-05-07 | Vision          | 334632     |   41775 (12.48%) |    41775 (12.48%) |
-
+| 2024-04-29 | EMIS | 2530927 | 313827 (12.4%) | 313827 (12.4%) | 
+| 2024-04-29 | TPP | 201816 | 31325 (15.5%) | 31325 (15.5%) | 
+| 2024-04-29 | Vision | 335411 | 41534 (12.4%) | 41534 (12.4%) | 
 LINK: [https://github.com/rw251/.../medications/ace-inhibitor/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/ace-inhibitor/1)
 
 ### Aspirin
@@ -1578,14 +1848,16 @@ LINK: [https://github.com/rw251/.../medications/ace-inhibitor/1](https://github.
 This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `8.45% - 8.76%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `8.22% - 10.1%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-05-07 | EMIS            | 2605681    |   228074 (8.75%) |    228315 (8.76%) |
 | 2021-05-07 | TPP             | 210817     |    18418 (8.74%) |     18418 (8.74%) |
 | 2021-05-07 | Vision          | 334632     |    28276 (8.45%) |     28276 (8.45%) |
-
+| 2024-04-30 | EMIS | 2530927 | 208033 (8.22%) | 208033 (8.22%) | 
+| 2024-04-30 | TPP | 201816 | 20322 (10.1%) | 20322 (10.1%) | 
+| 2024-04-30 | Vision | 335411 | 26899 (8.02%) | 26899 (8.02%) | 
 LINK: [https://github.com/rw251/.../medications/aspirin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/aspirin/1)
 
 ### Clopidogrel
@@ -1600,7 +1872,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-07 | EMIS            | 2605681    |    72859 (2.80%) |     72859 (2.80%) |
 | 2021-05-07 | TPP             | 210817     |     5515 (2.62%) |      5515 (2.62%) |
 | 2021-05-07 | Vision          | 334632     |     9568 (2.86%) |      9568 (2.86%) |
-
+| 2024-04-26 | EMIS | 2530666 | 71321 (2.82%) | 71321 (2.82%) | 
+| 2024-04-26 | TPP | 201812 | 6441 (3.19%) | 6441 (3.19%) | 
+| 2024-04-26 | Vision | 335433 | 9699 (2.89%) | 9699 (2.89%) | 
 LINK: [https://github.com/rw251/.../medications/clopidogrel/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/clopidogrel/1)
 # Clinical code sets
 
