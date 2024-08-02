@@ -37,7 +37,7 @@ select
     , MONTH("AdmissionDttm") AS "Month"
     ,"ProviderDesc"
     , case when count(*) < 5 then 5 else count(*) end as Admissions  --mask small values
-    , case when count(*) < 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
+    , case when count(*)  5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 group by   YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
@@ -51,7 +51,7 @@ select
     , MONTH("AdmissionDttm") AS "Month"
     ,"ProviderDesc"
     , case when count(*) < 5 then 5 else count(*) end as Readmissions  --mask small values
-    , case when count(*) < 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
+    , case when count(*)  5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 and "IsReadmission" = 1
@@ -66,7 +66,7 @@ select
     , "ProviderDesc" 
     , "DerPrimaryDiagnosisChapterDescReportingEpisode" as PrimaryICDCategory
     , case when count(*) < 5 then 5 else count(*) end as Admissions  --mask small values
-    , case when count(*) < 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
+    , case when count(*) <= 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 group by   
@@ -94,7 +94,7 @@ select
          when "AgeAtStartOfSpellSus" > 90  then '6. >90'
             else NULL end as AgeBand
     , case when count(*) < 5 then 5 else count(*) end as Admissions  --mask small values
-    , case when count(*) < 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
+    , case when count(*) <= 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 and "AgeAtStartOfSpellSus" between 0 and 120 -- REMOVE UNREALISTIC VALUES
@@ -149,7 +149,7 @@ SELECT
 	  YEAR("ArrivalDate") AS "Year"
     , MONTH("ArrivalDate") AS "Month"
 	, "ProviderDesc"
-    , case when count(*) < 5 then 5 else count(*) end as count --mask small values
+    , case when count(*) <= 5 then 5 else count(*) end as count --mask small values
 FROM ManchesterTrustsAE
 WHERE "IsAttendance" = 1 -- been advised to apply this filter to get A&E admissions
 GROUP BY 
@@ -174,7 +174,7 @@ SELECT
          when "AgeAtArrival" between 71 and 90  then '5. 71-90'
          when "AgeAtArrival" > 90  then '6. >90'
             else NULL end AS AgeBand
-    , case when count(*) < 5 then 5 else count(*) end as count --mask small values
+    , case when count(*) <= 5 then 5 else count(*) end as count --mask small values
 FROM ManchesterTrustsAE
 GROUP BY 
 	  YEAR("ArrivalDate")
