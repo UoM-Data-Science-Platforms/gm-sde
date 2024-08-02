@@ -272,3 +272,99 @@ SEOR46527NEMIS	Sertraline Hydrochloride  Oral suspension  100 mg/5 ml
 SETA138252NEMIS	Sertraline Hydrochloride  Tablets  25 mg
 SETA9308EMIS	Sertraline Hydrochloride  Tablets  100 mg
 SETA9309EMIS	Sertraline Hydrochloride  Tablets  50 mg
+^ESCT1181896	Product containing only sertraline 50 mg/1 each oral tablet
+^ESCT1181897	Product containing only sertraline 100 mg/1 each oral tablet
+^ESCT1187733	Product containing only sertraline 25 mg/1 each oral tablet
+^ESCT1223588	Sertraline
+^ESCT1223589	Sertraline product
+^ESCT1223590	Product containing precisely sertraline 50 milligram/1 each conventional release oral tablet
+^ESCT1223591	Product containing precisely sertraline 100 milligram/1 each conventional release oral tablet
+^ESCT1233450	Product containing precisely sertraline 25 milligram/1 each conventional release oral tablet
+^ESCT1270893	Lustral 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1270894	Lustral 50mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1351697	Sertraline-containing product in oral dose form
+^ESCT1356715	Sertraline only product
+^ESCT1359838	Sertraline only product in oral dose form
+^ESCT1362990	Sertraline (as sertraline hydrochloride) 100 mg oral tablet
+^ESCT1362991	Sertraline (as sertraline hydrochloride) 50 mg oral tablet
+^ESCT1367199	Sertraline 100mg tablets
+^ESCT1367266	Sertraline 50mg tablets
+^ESCT1383343	Sertraline (as sertraline hydrochloride) 20 mg/mL oral solution
+^ESCT1431595	Sertraline 50mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1431596	Sertraline 50mg tablets (Flamingo Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1431597	Sertraline 100mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1431598	Sertraline 100mg tablets (Flamingo Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1432471	Sertraline 50mg tablets 250 tablet
+^ESCT1432472	Sertraline 50mg tablets (Accord Healthcare Ltd) 250 tablet
+^ESCT1432473	Sertraline 100mg tablets 250 tablet
+^ESCT1432474	Sertraline 100mg tablets (Accord Healthcare Ltd) 250 tablet
+^ESCT1433861	Sertraline 50mg tablets (A A H Pharmaceuticals Ltd) 250 tablet
+^ESCT1433862	Sertraline 100mg tablets (A A H Pharmaceuticals Ltd) 250 tablet
+^ESCT1434573	Sertraline 100mg tablets (Medihealth (Northern) Ltd) 250 tablet
+^ESCT1434574	Sertraline 50mg tablets (Medihealth (Northern) Ltd) 250 tablet
+^ESCT1434644	Sertraline 50mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCT1434645	Sertraline 100mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCT1435524	Sertraline 25mg tablets (DE Pharmaceuticals)
+^ESCT1435525	Sertraline 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1436998	Lustral 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437090	Lustral 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437182	Lustral 50mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437183	Lustral 100mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438003	Sertraline 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438004	Sertraline 50mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438005	Sertraline 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438006	Sertraline 100mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1439131	Sertraline 50mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCT1439132	Sertraline 100mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCTLU1012740	Lustral 100mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLU1024565	Lustral 100mg tablets (Lexon (UK) Ltd)
+^ESCTLU1024566	Lustral 100mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTLU1075384	Lustral 50mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTLU879142	Lustral 100mg tablets (Dowelhurst Ltd)
+^ESCTLU879143	Lustral 100mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLU879145	Lustral 50mg tablets (Dowelhurst Ltd)
+^ESCTLU879147	Lustral 50mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLU880036	Lustral 50mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTLU919066	Lustral
+^ESCTLU932739	Lustral 50mg tablets (Waymade Healthcare Plc)
+^ESCTLU932740	Lustral 50mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLU934249	Lustral 100mg tablets (Waymade Healthcare Plc)
+^ESCTLU934250	Lustral 100mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTLU967158	Lustral 50mg tablets (DE Pharmaceuticals)
+^ESCTLU967159	Lustral 50mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTLU967160	Lustral 100mg tablets (DE Pharmaceuticals)
+^ESCTLU967161	Lustral 100mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTLU967163	Lustral 100mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTLU971523	Lustral 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLU971525	Lustral 100mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTLU989318	Lustral 50mg tablets (Lexon (UK) Ltd)
+^ESCTLU989319	Lustral 50mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTLU992676	Lustral 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLU992678	Lustral 100mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTLU993398	Lustral 100mg tablets (Stephar (U.K.) Ltd)
+^ESCTLU993400	Lustral 100mg tablets (Stephar (U.K.) Ltd) 14 tablet
+^ESCTPR609776	Product containing sertraline
+^ESCTPR609778	Product containing sertraline 50 mg/1 each oral tablet
+^ESCTPR609781	Product containing sertraline 100 mg/1 each oral tablet
+^ESCTPR697194	Product containing sertraline 25 mg/1 each oral tablet
+^ESCTSE609775	Sertraline
+^ESCTSE609777	Sertraline 50mg tablets
+^ESCTSE609779	Sertraline 50 mg oral tablet
+^ESCTSE609780	Sertraline 100mg tablets
+^ESCTSE609782	Sertraline 100 mg oral tablet
+^ESCTSE682746	Sertraline hydrochloride
+^ESCTSE697193	Sertraline 25 mg oral tablet
+^ESCTSE697682	Sertraline 20mg/mL oral solution
+^ESCTSE878303	Sertraline 50mg tablets (Waymade Healthcare Plc)
+^ESCTSE878304	Sertraline 50mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTSE878306	Sertraline 100mg tablets (Waymade Healthcare Plc)
+^ESCTSE878308	Sertraline 100mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTSE878605	Sertraline 50mg tablets (Dowelhurst Ltd)
+^ESCTSE878607	Sertraline 50mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTSE879008	Sertraline 100mg tablets (Dowelhurst Ltd)
+^ESCTSE879010	Sertraline 100mg tablets (Dowelhurst Ltd) 30 tablet
+COTA142359NEMIS	Contulen  Tablets  50 mg
+COTA142360NEMIS	Contulen  Tablets  100 mg
+SEOR143953NEMIS	Sertraline Hydrochloride  Oral Solution, Sugar Free  100 mg/5 ml
+SETA143011NEMIS	Sertraline Hydrochloride  Tablets  150 mg
+SETA143012NEMIS	Sertraline Hydrochloride  Tablets  200 mg

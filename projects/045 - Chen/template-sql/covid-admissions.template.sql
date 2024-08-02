@@ -13,6 +13,11 @@
 -- Hospital - ANONYMOUS
 
 -- Set the start date
+
+DECLARE @MinDate datetime;
+SET @MinDate = '1900-01-01';
+DECLARE @StartDate datetime;
+SET @StartDate = '2020-01-01';
 DECLARE @EndDate datetime;
 SET @EndDate = '2023-12-31';
 

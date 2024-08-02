@@ -1,0 +1,35 @@
+16A2.	Stiff neck
+5254.	Plain X-ray cervical spine
+5677.	CAT scan - neck
+569M.	Magnetic resonance imaging of cervical spine
+7J22y	Other specified fusion of joint of cervical spine
+7J22z	Fusion of joint of cervical spine NOS
+7NB22	[SO]Neck region NEC
+7P027	Computed tomography of cervical spine
+F332.	Cervical root lesions NEC
+Fyu5D	[X]Cervicogenic headache
+N1113	Cervical myelopathy
+N11D0	Osteoarthritis of cervical spine
+N11E.	Cervical spondylosis
+N125.	Cervical disc degeneration
+N12z1	Other cervical disc disorders
+N130.	Cervical spinal stenosis
+N1303	Cervical spinal stenosis secondary to other disease
+N133.	Cervicobrachial syndrome
+N135.	Torticollis unspecified
+N138.	Cervicalgia
+N13y2	Crick in neck
+N3741	Kyphosis associated with other condition
+N374X	Other and unspecified kyphosis
+Nyu51	[X]Other and unspecified kyphosis
+Nyu71	[X]Other cervical disc degeneration
+Nyu72	[X]Other cervical disc disorders
+Nyu7B	[X]Cervical disc disorder, unspecified
+PG2..	Cervical rib
+S570.	Neck sprain
+S5704	Whiplash injury
+S570z	Neck sprain NOS
+SK10y	Other neck injuries
+Syu1.	[X]Injuries to the neck
+Syu18	[X]Sprain and strain of joints and ligaments of other and unspecified parts of neck
+Syu1F	[X]Other specified injuries of neck

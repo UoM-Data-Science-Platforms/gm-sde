@@ -1,0 +1,3 @@
+1000621000000104	Serum alkaline phosphatase level (observable entity)
+997611000000101	Total alkaline phosphatase level (observable entity)
+271234008	Serum alkaline phosphatase measurement (procedure)

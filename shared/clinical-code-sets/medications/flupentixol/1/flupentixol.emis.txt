@@ -36,3 +36,208 @@ DEIN834	Depixol Conc.  Injection  100 mg/1 ml ampoule
 DETA833	Depixol  Tablets  3 mg
 FLIN17657NEMIS	Flupentixol  Injection  100 mg/ml, 1 ml ampoule
 FLIN17658NEMIS	Flupentixol  Injection  200 mg/ml, 1 ml ampoule
+^ESCT1178157	Product containing only flupenthixol 3 mg/1 each oral tablet
+^ESCT1179953	Psytixol 20mg/1ml solution for injection ampoules (Mylan)
+^ESCT1179954	Psytixol 20mg/1ml solution for injection ampoules (Mylan) 10 ampoule
+^ESCT1179955	Psytixol 40mg/2ml solution for injection ampoules (Mylan) 10 ampoule
+^ESCT1179956	Psytixol 100mg/1ml solution for injection ampoules (Mylan) 10 ampoule
+^ESCT1179957	Psytixol 200mg/1ml solution for injection ampoules (Mylan)
+^ESCT1181107	Product containing only flupenthixol 1 mg/1 each oral tablet
+^ESCT1186034	Psytixol 200mg/1ml solution for injection ampoules (Mylan) 5 ampoule
+^ESCT1187298	Product containing only flupenthixol 0.5 milligram/1 each oral tablet
+^ESCT1189339	Psytixol 40mg/2ml solution for injection ampoules (Mylan)
+^ESCT1189340	Psytixol 50mg/0.5ml solution for injection ampoules (Mylan)
+^ESCT1189341	Psytixol 50mg/0.5ml solution for injection ampoules (Mylan) 10 ampoule
+^ESCT1189342	Psytixol 100mg/1ml solution for injection ampoules (Mylan)
+^ESCT1209420	Flupentixol decanoate 100 mg/mL solution for injection ampoule
+^ESCT1209421	Flupentixol decanoate 100 mg/mL solution for injection ampule
+^ESCT1209422	Product containing precisely flupentixol decanoate 100 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209423	Flupentixol decanoate 50 mg/0.5 mL solution for injection ampoule
+^ESCT1209424	Product containing precisely flupentixol decanoate 50 milligram/0.5 milliliter conventional release solution for injection ampule
+^ESCT1209425	Flupentixol decanoate 50 mg/0.5 mL solution for injection ampule
+^ESCT1209426	Flupentixol decanoate 200 mg/mL solution for injection ampoule
+^ESCT1209427	Flupentixol decanoate 200 mg/mL solution for injection ampule
+^ESCT1209428	Product containing precisely flupentixol decanoate 200 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209429	Flupentixol decanoate 20 mg/mL solution for injection ampoule
+^ESCT1209430	Flupentixol decanoate 20 mg/mL solution for injection ampule
+^ESCT1209431	Product containing precisely flupentixol decanoate 20 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209432	Flupentixol decanoate 40 mg/2 mL solution for injection ampoule
+^ESCT1209433	Flupentixol decanoate 40 mg/2 mL solution for injection ampule
+^ESCT1209434	Product containing precisely flupentixol decanoate 40 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1215674	Flupentixol 50mg/0.5ml solution for injection ampoules
+^ESCT1215778	Flupentixol 100mg/1ml solution for injection ampoules
+^ESCT1215779	Flupentixol 200mg/1ml solution for injection ampoules
+^ESCT1215780	Flupentixol 20mg/1ml solution for injection ampoules
+^ESCT1215781	Flupentixol 40mg/2ml solution for injection ampoules
+^ESCT1220628	Flupentixol
+^ESCT1220629	Flupentixol product
+^ESCT1223399	Product containing precisely flupentixol 3 milligram/1 each conventional release oral tablet
+^ESCT1223400	Flupentixol 3 mg oral tablet
+^ESCT1223575	Flupentixol 500 microgram oral tablet
+^ESCT1223576	Product containing precisely flupentixol 500 microgram/1 each conventional release oral tablet
+^ESCT1223577	Product containing precisely flupentixol 1 milligram/1 each conventional release oral tablet
+^ESCT1223578	Flupentixol 1 mg oral tablet
+^ESCT1355085	Flupentixol only product
+^ESCT1358591	Flupentixol only product in oral dose form
+^ESCT1358592	Flupentixol only product in parenteral dose form
+^ESCT1361058	Flupentixol decanoate 20 mg/mL solution for injection
+^ESCT1361059	Flupentixol decanoate 100 mg/mL solution for injection
+^ESCT1361060	Flupentixol decanoate 200 mg/mL solution for injection
+^ESCT1362941	Flupentixol (as flupentixol hydrochloride) 1 mg oral tablet
+^ESCT1362942	Flupentixol (as flupentixol hydrochloride) 3 mg oral tablet
+^ESCT1362943	Flupentixol (as flupentixol hydrochloride) 500 microgram oral tablet
+^ESCT1367137	Flupentixol 500microgram tablets
+^ESCT1367141	Flupentixol 1mg tablets
+^ESCT1367297	Flupentixol 3mg tablets
+^ESCT1378231	Flupentixol-containing product
+^ESCT1383622	Flupentixol-containing product in oral dose form
+^ESCT1383640	Flupentixol-containing product in parenteral dose form
+^ESCT1424768	Flupentixol 1mg tablets
+^ESCT1424769	Flupentixol 3mg tablets
+^ESCT1424770	Flupentixol 500microgram tablets
+^ESCT1437959	Psytixol 20mg/1ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+^ESCT1437960	Psytixol 20mg/1ml solution for injection ampoules (Viatris UK Healthcare Ltd) 10 ampoule
+^ESCT1437961	Psytixol 40mg/2ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+^ESCT1437962	Psytixol 40mg/2ml solution for injection ampoules (Viatris UK Healthcare Ltd) 10 ampoule
+^ESCT1437963	Psytixol 50mg/0.5ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+^ESCT1437964	Psytixol 50mg/0.5ml solution for injection ampoules (Viatris UK Healthcare Ltd) 10 ampoule
+^ESCT1437965	Psytixol 100mg/1ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+^ESCT1437966	Psytixol 100mg/1ml solution for injection ampoules (Viatris UK Healthcare Ltd) 10 ampoule
+^ESCT1437967	Psytixol 200mg/1ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+^ESCT1437968	Psytixol 200mg/1ml solution for injection ampoules (Viatris UK Healthcare Ltd) 5 ampoule
+^ESCTDE859342	Depixol Conc 50mg/0.5ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTDE859344	Depixol Conc 50mg/0.5ml solution for injection ampoules (Lundbeck Ltd) 10 ampoule
+^ESCTDE859348	Depixol Conc 100mg/1ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTDE859349	Depixol Conc 100mg/1ml solution for injection ampoules (Lundbeck Ltd) 10 ampoule
+^ESCTDE859356	Depixol 40mg/2ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTDE859359	Depixol 40mg/2ml solution for injection ampoules (Lundbeck Ltd) 10 ampoule
+^ESCTDE859364	Depixol 20mg/1ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTDE859368	Depixol 20mg/1ml solution for injection ampoules (Lundbeck Ltd) 10 ampoule
+^ESCTDE859374	Depixol Low Volume 200mg/1ml solution for injection ampoules (Lundbeck Ltd)
+^ESCTDE859375	Depixol Low Volume 200mg/1ml solution for injection ampoules (Lundbeck Ltd) 5 ampoule
+^ESCTDE863368	Depixol 3mg tablets (Lundbeck Ltd)
+^ESCTDE863372	Depixol 3mg tablets (Lundbeck Ltd) 100 tablet
+^ESCTDE924435	Depixol (Flupentixol decanoate)
+^ESCTDE924436	Depixol (Flupentixol dihydrochloride)
+^ESCTFL1009051	Fluanxol 500microgram tablets (Necessity Supplies Ltd)
+^ESCTFL1009052	Fluanxol 500microgram tablets (Necessity Supplies Ltd) 50 tablet
+^ESCTFL1141136	Flupentixol 200mg/1ml solution for injection ampoules (Colorama Pharmaceuticals Ltd)
+^ESCTFL1141138	Flupentixol 200mg/1ml solution for injection ampoules (Colorama Pharmaceuticals Ltd) 5 ampoule
+^ESCTFL1141400	Flupentixol 100mg/1ml solution for injection ampoules (Ennogen Healthcare Ltd)
+^ESCTFL1141401	Flupentixol 100mg/1ml solution for injection ampoules (Ennogen Healthcare Ltd) 10 ampoule
+^ESCTFL1153365	Flupentixol 20mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFL1153366	Flupentixol 20mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTFL1153367	Flupentixol 40mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFL1153368	Flupentixol 40mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTFL1153369	Flupentixol 50mg/0.5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFL1153370	Flupentixol 50mg/0.5ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTFL1153371	Flupentixol 100mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFL1153372	Flupentixol 100mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTFL1153373	Flupentixol 200mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFL1153374	Flupentixol 200mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTFL406886	Flupentixol
+^ESCTFL609241	Flupentixol 3mg tablets
+^ESCTFL609243	Flupenthixol 3 mg oral tablet
+^ESCTFL609486	Flupentixol 50mg/0.5ml solution for injection ampoules
+^ESCTFL609487	Flupenthixol decanoate 50mg/0.5mL oily injection
+^ESCTFL609488	Flupentixol decanoate 100mg/mL injection solution 0.5mL ampoule
+^ESCTFL609489	Flupentixol decanoate 100mg/mL injection solution 0.5mL ampule
+^ESCTFL609490	Flupentixol 200mg/1ml solution for injection ampoules
+^ESCTFL609491	Flupenthixol decanoate 200mg/1mL oily injection
+^ESCTFL609492	Flupentixol decanoate 200mg/mL injection solution 1mL ampoule
+^ESCTFL609493	Flupentixol decanoate 200mg/mL injection solution 1mL ampule
+^ESCTFL609494	Flupentixol 20mg/1ml solution for injection ampoules
+^ESCTFL609495	Flupenthixol decanoate 20mg/1mL oily injection
+^ESCTFL609496	Flupentixol decanoate 20mg/mL injection solution 1mL ampoule
+^ESCTFL609497	Flupentixol decanoate 20mg/mL injection solution 1mL ampule
+^ESCTFL609498	Flupentixol 40mg/2ml solution for injection ampoules
+^ESCTFL609499	Flupenthixol decanoate 40mg/2mL oily injection
+^ESCTFL609500	Flupentixol decanoate 20mg/mL injection solution 2mL ampoule
+^ESCTFL609501	Flupentixol decanoate 20mg/mL injection solution 2mL ampule
+^ESCTFL609502	Flupentixol 100mg/1ml solution for injection ampoules
+^ESCTFL609503	Flupenthixol decanoate 100mg/1mL oily injection
+^ESCTFL609504	Flupenthixol decanoate 100mg/mL injection solution 1mL ampoule
+^ESCTFL609505	Flupenthixol decanoate 100mg/mL injection solution 1mL ampule
+^ESCTFL609750	Flupentixol 500microgram tablets
+^ESCTFL609751	Flupenthixol 0.5 mg oral tablet
+^ESCTFL609753	Flupentixol 1mg tablets
+^ESCTFL609755	Flupenthixol 1 mg oral tablet
+^ESCTFL709273	Flupentixol in oral dosage form
+^ESCTFL710119	Flupentixol in parenteral dosage form
+^ESCTFL819132	Fluanxol 500microgram tablets (Lundbeck Ltd)
+^ESCTFL828405	Fluanxol 1mg tablets (Lundbeck Ltd)
+^ESCTFL837733	Flupentixol 500microgram tablets 60 tablet
+^ESCTFL848190	Flupentixol 1mg tablets 60 tablet
+^ESCTFL854754	Fluanxol 500microgram tablets (Lundbeck Ltd) 60 tablet 6 x 10 tablets
+^ESCTFL854761	Fluanxol 1mg tablets (Lundbeck Ltd) 60 tablet 6 x 10 tablets
+^ESCTFL859339	Flupentixol 50mg/0.5ml solution for injection ampoules 10 ampoule
+^ESCTFL859346	Flupentixol 100mg/1ml solution for injection ampoules 10 ampoule
+^ESCTFL859355	Flupentixol 40mg/2ml solution for injection ampoules 10 ampoule
+^ESCTFL859362	Flupentixol 20mg/1ml solution for injection ampoules 10 ampoule
+^ESCTFL859371	Flupentixol 200mg/1ml solution for injection ampoules 5 ampoule
+^ESCTFL863367	Flupentixol 3mg tablets 100 tablet
+^ESCTFL877865	Flupentixol 500microgram tablets 50 tablet
+^ESCTFL877868	Fluanxol 500microgram tablets (Waymade Healthcare Plc)
+^ESCTFL877875	Fluanxol 500microgram tablets (Waymade Healthcare Plc) 50 tablet
+^ESCTFL877884	Flupentixol 1mg tablets 50 tablet
+^ESCTFL877885	Fluanxol 1mg tablets (Waymade Healthcare Plc)
+^ESCTFL877886	Fluanxol 1mg tablets (Waymade Healthcare Plc) 50 tablet
+^ESCTFL879349	Fluanxol 1mg tablets (Dowelhurst Ltd)
+^ESCTFL879359	Fluanxol 1mg tablets (Dowelhurst Ltd) 50 tablet
+^ESCTFL906709	Flupentixol 500micrograms/5ml oral solution 1 ml
+^ESCTFL906713	Flupentixol 500micrograms/5ml oral solution (Special Order)
+^ESCTFL906714	Flupentixol 500micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTFL906721	Flupentixol 500micrograms/5ml oral suspension 1 ml
+^ESCTFL906731	Flupentixol 500micrograms/5ml oral suspension (Special Order)
+^ESCTFL906739	Flupentixol 500micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL907022	Flupentixol 500micrograms/5ml oral solution
+^ESCTFL907024	Flupentixol 500micrograms/5ml oral suspension
+^ESCTFL918808	Fluanxol
+^ESCTFL930090	Fluanxol 500microgram tablets (Dowelhurst Ltd)
+^ESCTFL930092	Fluanxol 500microgram tablets (Dowelhurst Ltd) 50 tablet
+^ESCTFL945017	Flupentixol 1mg/5ml oral solution 1 ml
+^ESCTFL945025	Flupentixol 1mg/5ml oral solution (Special Order)
+^ESCTFL945027	Flupentixol 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTFL945554	Flupentixol 1mg/5ml oral solution
+^ESCTFL961283	Flupentixol dihydrochloride
+^ESCTFL966584	Flupentixol decanoate
+^ESCTFL966700	Fluanxol 500microgram tablets (DE Pharmaceuticals)
+^ESCTFL966701	Fluanxol 500microgram tablets (DE Pharmaceuticals) 50 tablet
+^ESCTFL966702	Fluanxol 1mg tablets (DE Pharmaceuticals)
+^ESCTFL966703	Fluanxol 1mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTFL970160	Fluanxol 500microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTFL970161	Fluanxol 500microgram tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTFL970162	Fluanxol 1mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTFL970163	Fluanxol 1mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTFL989097	Fluanxol 500microgram tablets (Lexon (UK) Ltd)
+^ESCTFL989098	Fluanxol 500microgram tablets (Lexon (UK) Ltd) 50 tablet
+^ESCTFL989099	Fluanxol 1mg tablets (Lexon (UK) Ltd)
+^ESCTFL989100	Fluanxol 1mg tablets (Lexon (UK) Ltd) 50 tablet
+^ESCTFL993384	Fluanxol 1mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTFL993385	Fluanxol 1mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTPR406887	Product containing flupentixol
+^ESCTPR609242	Product containing flupenthixol 3 mg/1 each oral tablet
+^ESCTPR609752	Product containing flupenthixol 0.5 milligram/1 each oral tablet
+^ESCTPR609754	Product containing flupenthixol 1 mg/1 each oral tablet
+^ESCTPR709274	Product containing flupentixol in oral dosage form
+^ESCTPR710120	Product containing flupentixol in parenteral dosage form
+^ESCTPS915807	Psytixol
+^ESCTPS918823	Psytixol 20mg/1ml solution for injection ampoules (Mylan Ltd)
+^ESCTPS918829	Psytixol 20mg/1ml solution for injection ampoules (Mylan Ltd) 10 ampoule
+^ESCTPS918840	Psytixol 40mg/2ml solution for injection ampoules (Mylan Ltd)
+^ESCTPS918844	Psytixol 40mg/2ml solution for injection ampoules (Mylan Ltd) 10 ampoule
+^ESCTPS918870	Psytixol 50mg/0.5ml solution for injection ampoules (Mylan Ltd)
+^ESCTPS918872	Psytixol 50mg/0.5ml solution for injection ampoules (Mylan Ltd) 10 ampoule
+^ESCTPS918938	Psytixol 100mg/1ml solution for injection ampoules (Mylan Ltd)
+^ESCTPS918940	Psytixol 100mg/1ml solution for injection ampoules (Mylan Ltd) 10 ampoule
+^ESCTPS918943	Psytixol 200mg/1ml solution for injection ampoules (Mylan Ltd)
+^ESCTPS918945	Psytixol 200mg/1ml solution for injection ampoules (Mylan Ltd) 5 ampoule
+FLIN1211	Flupenthixol Decanoate  Injection  20 mg/1 ml ampoule
+FLIN19571EMIS	Flupenthixol Decanoate  Injection  200 mg/ml, 1 ml ampoule
+FLIN19585EMIS	Flupenthixol Decanoate  Injection  40 mg/2 ml ampoule
+FLIN19586EMIS	Flupenthixol Decanoate  Injection (syringe)  20 ml/1 ml
+FLIN19594EMIS	Flupenthixol Decanoate  Injection  50 mg/0.5 ml ampoule
+FLIN19595EMIS	Flupenthixol Decanoate  Injection  500 mg/5 ml
+FLIN4936	Flupenthixol Decanoate  Injection  100 mg/1 ml ampoule
+FLTA1209	Flupenthixol  Tablets  3 mg
+PSSO82110NEMIS	Psytixol  Solution for injection  50 mg/0.5 ml ampoule

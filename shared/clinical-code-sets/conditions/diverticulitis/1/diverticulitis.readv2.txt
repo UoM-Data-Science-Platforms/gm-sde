@@ -1,0 +1,14 @@
+J511.00	Diverticulitis
+J513.00	Diverticular abscess
+J511z00	Diverticulitis NOS
+J511500	Diverticulitis of the colon
+J511000	Diverticulitis of the duodenum
+J511y00	Diverticulitis unspecified
+J511300	Diverticulitis of the small intestine unspecified
+J512800	Divertic disease/both sml+lge intestin with perforat+abscess
+J512100	Perforated diverticulum of jejunum
+J511600	Diverticulitis of the large intestine unspecified
+J511200	Diverticulitis of the ileum
+J511100	Diverticulitis of the jejunum
+J511700	Diverticulitis of the large intestine NOS
+J511400	Diverticulitis of the small intestine NOS

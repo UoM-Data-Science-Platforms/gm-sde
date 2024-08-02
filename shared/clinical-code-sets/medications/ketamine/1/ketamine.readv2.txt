@@ -1,0 +1,9 @@
+o13..00	KETAMINE
+o133.00	*KETALAR 500mg/5mL injection
+o131.00	KETALAR 200mg/20mL injection
+o132.00	KETALAR 500mg/10mL injection
+o134.00	KETAMINE 1g/10mL injection
+o135.00	KETALAR 1g/10mL injection
+o13x.00	KETAMINE 200mg/20mL injection
+o13y.00	KETAMINE 500mg/10mL injection
+o13z.00	*KETAMINE 500mg/5mL injection

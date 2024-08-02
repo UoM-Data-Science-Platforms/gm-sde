@@ -184,3 +184,60 @@ IMTA35546MGEMIS	Imipramine Hydrochloride  Tablets  10 mg (Teva UK)
 IMTA5022	Imipramine Hydrochloride  Tablets  10 mg
 TOSYEGTON7193	Tofranil  Syrup  25 mg/5 ml
 TOTA2875	Tofranil  Tablets  25 mg
+^ESCT1178337	Product containing only imipramine pamoate 125 mg/1 each oral capsule
+^ESCT1178338	Product containing only imipramine pamoate 150 mg/1 each oral capsule
+^ESCT1181408	Product containing only imipramine pamoate 100 mg/1 each oral capsule
+^ESCT1181730	Product containing only imipramine pamoate 75 mg/1 each oral capsule
+^ESCT1181731	Product containing only imipramine hydrochloride 50 mg/1 each oral tablet
+^ESCT1208430	Imipramine hydrochloride 5 mg/mL oral solution
+^ESCT1208431	Product containing precisely imipramine hydrochloride 5 milligram/1 milliliter conventional release oral solution
+^ESCT1217964	Imipramine
+^ESCT1217965	Imipramine product
+^ESCT1227829	Imipramine pamoate 100 mg/1 each oral capsule
+^ESCT1227830	Imipramine pamoate 100 mg oral capsule
+^ESCT1227831	Product containing precisely imipramine pamoate 100 milligram/1 each conventional release oral capsule
+^ESCT1227832	Imipramine pamoate 125 mg/1 each oral capsule
+^ESCT1227833	Imipramine pamoate 125 mg oral capsule
+^ESCT1227834	Product containing precisely imipramine pamoate 125 milligram/1 each conventional release oral capsule
+^ESCT1227835	Imipramine pamoate 150 mg/1 each oral capsule
+^ESCT1227836	Imipramine pamoate 150 mg oral capsule
+^ESCT1227837	Product containing precisely imipramine pamoate 150 milligram/1 each conventional release oral capsule
+^ESCT1228025	Imipramine pamoate 75 mg/1 each oral capsule
+^ESCT1228026	Product containing precisely imipramine pamoate 75 milligram/1 each conventional release oral capsule
+^ESCT1228027	Imipramine pamoate 75 mg oral capsule
+^ESCT1228030	Product containing precisely imipramine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1355414	Imipramine only product
+^ESCT1358852	Imipramine only product in oral dose form
+^ESCT1358853	Imipramine only product in parenteral dose form
+^ESCT1382072	Imipramine-containing product in parenteral dose form
+^ESCT1383621	Imipramine-containing product in oral dose form
+^ESCT1434862	Imipramine 25mg/5ml oral solution sugar free (Essential Pharma Ltd)
+^ESCT1434863	Imipramine 25mg/5ml oral solution sugar free (Essential Pharma Ltd) 150 ml
+^ESCTIM308203	Imipramine
+^ESCTIM609653	Imipramine 25mg/5ml oral solution
+^ESCTIM609654	Imipramine hydrochloride 25mg/5mL syrup
+^ESCTIM639031	Imipramine pamoate 100 mg/1 each oral capsule
+^ESCTIM639033	Imipramine pamoate 125 mg/1 each oral capsule
+^ESCTIM639035	Imipramine pamoate 150 mg/1 each oral capsule
+^ESCTIM639460	Imipramine pamoate 75 mg/1 each oral capsule
+^ESCTIM639466	Imipramine hydrochloride 50 mg oral tablet
+^ESCTIM639916	Imipramine hydrochloride 25mg/amp
+^ESCTIM645942	Imipramine in parenteral dosage form
+^ESCTIM709262	Imipramine in oral dosage form
+^ESCTPR308204	Product containing imipramine
+^ESCTPR639032	Product containing imipramine pamoate 100 mg/1 each oral capsule
+^ESCTPR639034	Product containing imipramine pamoate 125 mg/1 each oral capsule
+^ESCTPR639036	Product containing imipramine pamoate 150 mg/1 each oral capsule
+^ESCTPR639461	Product containing imipramine pamoate 75 mg/1 each oral capsule
+^ESCTPR639467	Product containing imipramine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR645943	Product containing imipramine in parenteral dosage form
+^ESCTPR709263	Product containing imipramine in oral dosage form
+^ESCTTO878405	Tofranil 25mg tablets (Waymade Healthcare Plc)
+^ESCTTO878406	Tofranil 25mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTTO916780	Tofranil
+^ESCTTO990228	Tofranil 25mg tablets (Lexon (UK) Ltd)
+^ESCTTO990229	Tofranil 25mg tablets (Lexon (UK) Ltd) 100 tablet
+IMSY7192	Imipramine Hydrochloride  Syrup  25 mg/5 ml
+PRTA4193	Praminil  Tablets  10 mg
+PRTA4194	Praminil  Tablets  25 mg
+TOTA2874	Tofranil  Tablets  10 mg

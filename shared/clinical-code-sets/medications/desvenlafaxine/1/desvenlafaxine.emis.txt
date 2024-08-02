@@ -1,0 +1,22 @@
+^ESCT1185534	Product containing only desvenlafaxine 50 mg/1 each oral tablet
+^ESCT1188608	Product containing only desvenlafaxine 100 mg/1 each oral tablet
+^ESCT1206652	Desvenlafaxine in oral dosage form
+^ESCT1206653	Product containing desvenlafaxine in oral dosage form
+^ESCT1234853	Desvenlafaxine
+^ESCT1234854	Desvenlafaxine product
+^ESCT1234966	Desvenlafaxine 100 mg oral tablet
+^ESCT1234967	Desvenlafaxine succinate 100 mg oral tablet
+^ESCT1234968	Product containing precisely desvenlafaxine succinate 100 milligram/1 each conventional release oral tablet
+^ESCT1234969	Desvenlafaxine 50 mg oral tablet
+^ESCT1234970	Desvenlafaxine succinate 50 mg oral tablet
+^ESCT1234971	Product containing precisely desvenlafaxine succinate 50 milligram/1 each conventional release oral tablet
+^ESCT1354507	Desvenlafaxine only product
+^ESCT1358186	Desvenlafaxine only product in oral dose form
+^ESCT1383757	Desvenlafaxine-containing product
+^ESCT1386382	Desvenlafaxine-containing product in oral dose form
+^ESCTDE711725	Desvenlafaxine
+^ESCTDE717749	Desvenlafaxine 100 mg oral tablet
+^ESCTDE717751	Desvenlafaxine 50 mg oral tablet
+^ESCTPR711726	Product containing desvenlafaxine
+^ESCTPR717750	Product containing desvenlafaxine 100 mg/1 each oral tablet
+^ESCTPR717752	Product containing desvenlafaxine 50 mg/1 each oral tablet

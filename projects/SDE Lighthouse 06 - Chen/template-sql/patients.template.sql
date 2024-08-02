@@ -1,24 +1,52 @@
---┌──────────────────────────────────────────┐
---│ SDE Lighthouse study 03 - Kontopantelis  │
---└──────────────────────────────────────────┘
+--┌──────────────────────────────────────────────┐
+--│ SDE Lighthouse study 06 - Patients           │
+--└──────────────────────────────────────────────┘
 
---Just want the output, not the messages
-SET NOCOUNT ON;
-
-DECLARE @StartDate datetime;
-DECLARE @EndDate datetime;
-SET @StartDate = '2006-01-01'; -- CHECK THIS AND  - CURRENTLY EXCLUDING ANY PATIENTS THAT WEREN'T 18 IN 2006
-SET @EndDate = '2022-12-31';
+USE DATABASE PRESENTATION;
+USE SCHEMA GP_RECORD;
 
 --> EXECUTE query-build-lh006-cohort.sql
 
---bring together for final output
---patients in main cohort
-SELECT	 PatientId = FK_Patient_Link_ID
-		,YearOfBirth
-		,Sex
-		,LSOA_Code
-		,EthnicMainGroup ----- CHANGE TO MORE SPECIFIC ETHNICITY ?
-		,IMD2019Decile1IsMostDeprived10IsLeastDeprived
-		,DeathDate
-FROM #Cohort m
+--- death table to join to later
+
+DROP TABLE IF EXISTS Death;
+CREATE TEMPORARY TABLE Death AS
+SELECT 
+    DEATH."GmPseudo",
+    TO_DATE(DEATH."RegisteredDateOfDeath") AS DeathDate,
+    OM."DiagnosisOriginalMentionCode",
+    OM."DiagnosisOriginalMentionDesc",
+    OM."DiagnosisOriginalMentionChapterCode",
+    OM."DiagnosisOriginalMentionChapterDesc",
+    OM."DiagnosisOriginalMentionCategory1Code",
+    OM."DiagnosisOriginalMentionCategory1Desc"
+FROM PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" DEATH
+LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions" OM 
+        ON OM."XSeqNo" = DEATH."XSeqNo" AND OM."DiagnosisOriginalMentionNumber" = 1;
+
+-- create cohort of patients
+-- join to demographic table to get ethnicity and date of birth
+
+--DROP TABLE IF EXISTS Patients;
+--CREATE TEMPORARY TABLE Patients AS
+SELECT
+	 co."FK_Patient_ID",
+	 dem."GmPseudo",
+	 dem."Sex",
+	 dem."Age",
+	 dem."IMD_Decile",
+	 dem."EthnicityLatest_Category",
+	 dem."PracticeCode", 
+	 dth.DeathDate,
+	 dem."DateOfBirth", 
+	 co.IndexDate
+FROM Cohort co
+LEFT OUTER JOIN        -- use row_number to filter demographics table to most recent snapshot
+	(
+	SELECT 
+		*, 
+		ROW_NUMBER() OVER (PARTITION BY "FK_Patient_ID" ORDER BY "Snapshot" DESC) AS ROWNUM
+	FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p 
+	) dem	ON dem."FK_Patient_ID" = co."FK_Patient_ID"
+LEFT OUTER JOIN Death dth ON dth."GmPseudo" = dem."GmPseudo"
+WHERE dem.ROWNUM = 1

@@ -61,6 +61,8 @@ Prior to data extraction, the code is checked and signed off by another RDE.
 This project required the following reusable queries:
 
 - BMI
+- Gets a patient's Weight
+- Gets a patient's height
 - Find the closest value to a particular date
 - Care home status
 - Index Multiple Deprivation
@@ -109,12 +111,61 @@ _File_: `query-patient-bmi.sql`
 _Link_: [https://github.com/rw251/.../query-patient-bmi.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-bmi.sql)
 
 ---
-### Find the closest value to a particular date
-To find the first diagnosis for a particular disease for every patient.
+### Gets a patient's Weight
+Gets the most recent measurement of a person's Weight, in kilograms
 
 _Input_
 ```
 A variable:
+  -   date: date - (yyyy-mm-dd) the date for which you want to find the most recent measurement
+  -	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+  -	gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+```
+
+_Output_
+```
+Temp table called #PatientWeight with columns:
+	-	FK_Patient_Link_ID - unique patient id
+	-   WeightInKilograms - int - the most recent Weight measurement before the specified date, in kg
+	-	WeightDate - date (YYYY/MM/DD) - the date of the most recent Weight measurement before the specified date
+```
+_File_: `query-get-weight.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-weight.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-weight.sql)
+
+---
+### Gets a patient's height
+Gets the most recent measurement of a person's height
+
+_Input_
+```
+A variable:
+  -   date: date - (yyyy-mm-dd) the date for which you want to find the most recent measurement
+  -	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+  -	gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "SharedCare.GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+```
+
+_Output_
+```
+Temp table called #PatientHeight with columns:
+	-	FK_Patient_Link_ID - unique patient id
+	-   HeightInCentimetres - int - the most recent height measurement before the specified date, in cm
+	-	HeightDate - date (YYYY/MM/DD) - the date of the most recent height measurement before the specified date
+```
+_File_: `query-get-height.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-height.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-height.sql)
+
+---
+### Find the closest value to a particular date
+To find the closest value for a particular test to a given date.
+
+_Input_
+```
+A variable:
+  - min-value: number - the smallest permitted value. Values lower than this will be disregarded.
+  - max-value: number - the largest permitted value. Values higher than this will be disregarded.
+  - unit: string - if a particular unit is required can enter it here. If any then use '%'
   - date: date - (YYYY-MM-DD) the date to look around
   - comparison: inequality sign (>, <, >= or <=) e.g. if '>' then will look for the first value strictly after the date
 	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
@@ -530,13 +581,13 @@ This project required the following clinical code sets:
 - covid-vaccination v1
 - flu-vaccination v1
 - flu-vaccine v1
+- height v1
+- weight v1
 - cancer v1
 - asthma v1
 - anxiety v1
 - long-covid v1
 - severe-mental-illness v1
-- height v1
-- weight v1
 - bmi v2
 
 Further details for each code set can be found below.
@@ -698,6 +749,56 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2024-02-27 | Vision | 335118 | 9419 (2.81%) | 9420 (2.81%) | 
 LINK: [https://github.com/rw251/.../medications/flu-vaccine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/flu-vaccine/1)
 
+### Height
+
+A patient's height as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`229.. - O/E - Height`).
+
+Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `66.10% - 72.59%` suggests that this code set is well defined.
+
+_Update **2023/11/07**: prevalence now `71% - 74%`_
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1885015 (71.68%) |  1884110 (71.64%) |
+| 2021-10-13 | TPP             | 211812     |  140013 (66.10%) |   140013 (66.10%) |
+| 2021-10-13 | Vision          | 338205     |  245440 (72.59%) |   245440 (72.57%) |
+| 2023-11-07 | EMIS            | 2482563    |  1797419 (72.4%) |   1797473 (72.4%) |
+| 2023-11-07 | TPP             | 201030     |   149385 (74.3%) |    149388 (74.3%) |
+| 2023-11-07 | Vision          | 333490     |   236514 (70.9%) |    236518 (70.9%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-07
+
+LINK: [https://github.com/rw251/.../patient/height/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/height/1)
+
+### Weight
+
+A patient's weight as recorded via clinical code and value. This code set only includes codes that are accompanied by a value.
+
+Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `73.09% - 79.68%` suggests that this code set is well defined.
+
+_Update **2023/11/01**: prevalence now `78.9% - 82.9%`_
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 2054449 (78.12%) |  2053717 (78.09%) |
+| 2021-10-13 | TPP             | 211812     |  154813 (73.09%) |   154813 (73.09%) |
+| 2021-10-13 | Vision          | 338205     |  269496 (79.68%) |   269496 (79.68%) |
+| 2023-11-01 | EMIS            | 2472595    |  1972703 (79.8%) |   1972747 (79.8%) |
+| 2023-11-01 | TPP             | 200603     |   166253 (82.9%) |    166253 (82.9%) |
+| 2023-11-01 | Vision          | 332447     |   262280 (78.9%) |    262280 (78.9%) |
+#### Audit log
+
+- Find_missing_codes last run 2023-11-01
+
+LINK: [https://github.com/rw251/.../patient/weight/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/weight/1)
+
 ### Cancer
 Readv2 codes from code sets published by in:
 
@@ -819,56 +920,6 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 | 2021-03-11 | Vision          | 333251     |     6770 (2.03%) |      5338 (1.60%) |
 
 LINK: [https://github.com/rw251/.../conditions/severe-mental-illness/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/severe-mental-illness/1)
-
-### Height
-
-A patient's height as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`229.. - O/E - Height`).
-
-Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `66.10% - 72.59%` suggests that this code set is well defined.
-
-_Update **2023/11/07**: prevalence now `71% - 74%`_
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 1885015 (71.68%) |  1884110 (71.64%) |
-| 2021-10-13 | TPP             | 211812     |  140013 (66.10%) |   140013 (66.10%) |
-| 2021-10-13 | Vision          | 338205     |  245440 (72.59%) |   245440 (72.57%) |
-| 2023-11-07 | EMIS            | 2482563    |  1797419 (72.4%) |   1797473 (72.4%) |
-| 2023-11-07 | TPP             | 201030     |   149385 (74.3%) |    149388 (74.3%) |
-| 2023-11-07 | Vision          | 333490     |   236514 (70.9%) |    236518 (70.9%) |
-#### Audit log
-
-- Find_missing_codes last run 2023-11-07
-
-LINK: [https://github.com/rw251/.../patient/height/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/height/1)
-
-### Weight
-
-A patient's weight as recorded via clinical code and value. This code set only includes codes that are accompanied by a value.
-
-Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `73.09% - 79.68%` suggests that this code set is well defined.
-
-_Update **2023/11/01**: prevalence now `78.9% - 82.9%`_
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 2054449 (78.12%) |  2053717 (78.09%) |
-| 2021-10-13 | TPP             | 211812     |  154813 (73.09%) |   154813 (73.09%) |
-| 2021-10-13 | Vision          | 338205     |  269496 (79.68%) |   269496 (79.68%) |
-| 2023-11-01 | EMIS            | 2472595    |  1972703 (79.8%) |   1972747 (79.8%) |
-| 2023-11-01 | TPP             | 200603     |   166253 (82.9%) |    166253 (82.9%) |
-| 2023-11-01 | Vision          | 332447     |   262280 (78.9%) |    262280 (78.9%) |
-#### Audit log
-
-- Find_missing_codes last run 2023-11-01
-
-LINK: [https://github.com/rw251/.../patient/weight/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/weight/1)
 
 ### Body Mass Index (BMI)
 

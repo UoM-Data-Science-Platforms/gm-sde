@@ -1,0 +1,125 @@
+^ESCT1181108	Product containing only fluvoxamine maleate 50 mg/1 each oral tablet
+^ESCT1181109	Product containing only fluvoxamine maleate 100 mg/1 each oral tablet
+^ESCT1181511	Product containing only fluvoxamine maleate 25 mg/1 each oral tablet
+^ESCT1207202	Fluvoxamine in oral dosage form
+^ESCT1207203	Product containing fluvoxamine in oral dosage form
+^ESCT1220626	Fluvoxamine
+^ESCT1220627	Fluvoxamine product
+^ESCT1223580	Product containing precisely fluvoxamine maleate 50 milligram/1 each conventional release oral tablet
+^ESCT1223581	Product containing precisely fluvoxamine maleate 100 milligram/1 each conventional release oral tablet
+^ESCT1228049	Product containing precisely fluvoxamine maleate 25 milligram/1 each conventional release oral tablet
+^ESCT1355100	Fluvoxamine only product
+^ESCT1358610	Fluvoxamine only product in oral dose form
+^ESCT1364000	Fluvoxamine maleate 100 mg prolonged-release oral capsule
+^ESCT1364001	Fluvoxamine maleate 150 mg prolonged-release oral capsule
+^ESCT1375925	Fluvoxamine 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375926	Fluvoxamine 100mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1375927	Fluvoxamine 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375928	Fluvoxamine 50mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1386641	Fluvoxamine-containing product in oral dose form
+^ESCT1421961	Fluvoxamine 100mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1425664	Fluvoxamine 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425856	Fluvoxamine 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426471	Fluvoxamine 50mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCT1426472	Fluvoxamine 100mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTFL1043628	Fluvoxamine 50mg tablets (Waymade Healthcare Plc)
+^ESCTFL1043629	Fluvoxamine 50mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTFL1043630	Fluvoxamine 100mg tablets (Waymade Healthcare Plc)
+^ESCTFL1043631	Fluvoxamine 100mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTFL1061994	Fluvoxamine 100mg tablets (DE Pharmaceuticals)
+^ESCTFL1061995	Fluvoxamine 100mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTFL1061996	Fluvoxamine 50mg tablets (DE Pharmaceuticals)
+^ESCTFL1061997	Fluvoxamine 50mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTFL1088622	Fluvoxamine 100mg tablets (Tillomed Laboratories Ltd)
+^ESCTFL1088624	Fluvoxamine 100mg tablets (Tillomed Laboratories Ltd) 30 tablet
+^ESCTFL1120110	Fluvoxamine 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTFL1120111	Fluvoxamine 50mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTFL1120112	Fluvoxamine 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTFL1120113	Fluvoxamine 100mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTFL406878	Fluvoxamine
+^ESCTFL609759	Fluvoxamine 50mg tablets
+^ESCTFL609761	Fluvoxamine maleate 50 mg oral tablet
+^ESCTFL609762	Fluvoxamine 100mg tablets
+^ESCTFL609764	Fluvoxamine maleate 100 mg oral tablet
+^ESCTFL639513	Fluvoxamine maleate 25 mg oral tablet
+^ESCTFL711708	Fluvoxamine 150mg extended release capsule
+^ESCTFL713066	Fluvoxamine 100mg extended release capsule
+^ESCTFL804814	Fluvoxamine 50mg tablets (Wockhardt UK Ltd)
+^ESCTFL804835	Fluvoxamine 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTFL807662	Fluvoxamine 50mg tablets (Teva UK Ltd)
+^ESCTFL812838	Fluvoxamine 100mg tablets (Teva UK Ltd)
+^ESCTFL814255	Fluvoxamine 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFL819788	Fluvoxamine 100mg tablets (Wockhardt UK Ltd)
+^ESCTFL819806	Fluvoxamine 50mg tablets (Actavis UK Ltd)
+^ESCTFL819900	Fluvoxamine 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFL820578	Fluvoxamine 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTFL820601	Fluvoxamine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL820817	Fluvoxamine 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL823905	Fluvoxamine 100mg tablets (Actavis UK Ltd)
+^ESCTFL826226	Fluvoxamine 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFL831529	Fluvoxamine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFL838477	Fluvoxamine 50mg tablets 60 tablet
+^ESCTFL848528	Fluvoxamine 100mg tablets 30 tablet
+^ESCTFL856503	Fluvoxamine 50mg tablets (A A H Pharmaceuticals Ltd) 60 tablet 4 x 15 tablets
+^ESCTFL856504	Fluvoxamine 50mg tablets (Actavis UK Ltd) 60 tablet 3 x 20 tablets
+^ESCTFL856505	Fluvoxamine 50mg tablets (Teva UK Ltd) 60 tablet 4 x 15 tablets
+^ESCTFL856506	Fluvoxamine 50mg tablets (Wockhardt UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTFL856508	Fluvoxamine 50mg tablets (IVAX Pharmaceuticals UK Ltd) 60 tablet
+^ESCTFL856509	Fluvoxamine 50mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTFL856511	Fluvoxamine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTFL856515	Fluvoxamine 100mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTFL856516	Fluvoxamine 100mg tablets (Actavis UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTFL856517	Fluvoxamine 100mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTFL856518	Fluvoxamine 100mg tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTFL856519	Fluvoxamine 100mg tablets (IVAX Pharmaceuticals UK Ltd) 30 tablet
+^ESCTFL856521	Fluvoxamine 100mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTFL856524	Fluvoxamine 100mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTFL906696	Fluvoxamine 50mg/5ml oral suspension 1 ml
+^ESCTFL906697	Fluvoxamine 50mg/5ml oral suspension (Special Order)
+^ESCTFL906699	Fluvoxamine 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFL907025	Fluvoxamine 50mg/5ml oral suspension
+^ESCTFL929024	Fluvoxamine 50mg tablets (Arrow Generics Ltd)
+^ESCTFL929025	Fluvoxamine 50mg tablets (Arrow Generics Ltd) 60 tablet
+^ESCTFL929027	Fluvoxamine 100mg tablets (Arrow Generics Ltd)
+^ESCTFL929029	Fluvoxamine 100mg tablets (Arrow Generics Ltd) 30 tablet
+^ESCTFL965499	Fluvoxamine 50mg tablets (Tillomed Laboratories Ltd)
+^ESCTFL965500	Fluvoxamine 50mg tablets (Tillomed Laboratories Ltd) 60 tablet
+^ESCTFL978035	Fluvoxamine 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTFL978036	Fluvoxamine 100mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTFL978037	Fluvoxamine 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTFL978039	Fluvoxamine 50mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTPR406879	Product containing fluvoxamine
+^ESCTPR609760	Product containing fluvoxamine maleate 50 mg/1 each oral tablet
+^ESCTPR609763	Product containing fluvoxamine maleate 100 mg/1 each oral tablet
+^ESCTPR639514	Product containing fluvoxamine maleate 25 mg/1 each oral tablet
+FLTA10385BRIDL	Fluvoxamine Maleate  Tablets  100 mg
+FLTA35171MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (Teva UK)
+FLTA35172MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (Wockhardt UK)
+FLTA35173MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (A.A.H. Pharm)
+FLTA35174MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (Ivax Pharmaceuticals)
+FLTA35175MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (Unichem)
+FLTA35176MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (Alpharma)
+FLTA35177MGEMIS	Fluvoxamine Maleate  Tablets  100 mg (Kent Pharm)
+FLTA35204MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (Wockhardt UK)
+FLTA35205MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (Ivax Pharmaceuticals)
+FLTA35206MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (Teva UK)
+FLTA35207MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (Kent Pharm)
+FLTA35208MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (Alpharma)
+FLTA35209MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (Unichem)
+FLTA35210MGEMIS	Fluvoxamine Maleate  Tablets  50 mg (A.A.H. Pharm)
+FLTA4941	Fluvoxamine Maleate  Tablets  50 mg
+^ESCT1178668	Faverin 50mg tablets (Mylan)
+^ESCT1178673	Faverin 100mg tablets (Mylan)
+^ESCT1183538	Faverin 100mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1185736	Faverin 50mg tablets (Mylan) 60 tablet 3 x 20 tablets
+^ESCT1436954	Faverin 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436971	Faverin 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437470	Faverin 50mg tablets (Viatris UK Healthcare Ltd) 60 tablet 3 x 20 tablets
+^ESCT1437472	Faverin 100mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCTFA819886	Faverin 50mg tablets (Mylan Ltd)
+^ESCTFA820325	Faverin 100mg tablets (Mylan Ltd)
+^ESCTFA856510	Faverin 50mg tablets (Mylan Ltd) 60 tablet 3 x 20 tablets
+^ESCTFA856523	Faverin 100mg tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTFA918787	Faverin
+FATA10383BRIDL	Faverin  Tablets  100 mg
+FATA3565	Faverin  Tablets  50 mg

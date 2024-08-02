@@ -18,8 +18,6 @@
 38528711000001103	Convulex 500mg gastro-resistant capsules
 11146711000001104	Valproic acid 125mg gastro-resistant capsules
 11141511000001100	Valproic acid 125mg gastro-resistant capsules
-11141611000001101	Depakote 125mg sprinkle gastro-resistant capsules
-11141711000001105	Depakote 125mg sprinkle gastro-resistant capsules
 15535811000001106	Valproic acid 250mg/5ml oral liquid
 15534211000001109	Valproic acid 250mg/5ml oral liquid
 15534811000001105	Valproic acid 250mg/5ml oral liquid
@@ -36,3 +34,72 @@
 16097511000001108	Valproic acid 500mg/5ml oral liquid
 16097611000001107	Valproic acid 500mg/5ml oral liquid
 16097711000001103	Valproic acid 500mg/5ml oral liquid
+13965000	Product containing valproic acid (medicinal product)
+323008001	Product containing precisely valproic acid 150 milligram/1 each gastro-resistant oral capsule (clinical drug)
+323009009	Product containing precisely valproic acid 300 milligram/1 each gastro-resistant oral capsule (clinical drug)
+323010004	Product containing precisely valproic acid 500 milligram/1 each gastro-resistant oral capsule (clinical drug)
+376298007	Product containing precisely valproic acid 250 milligram/1 each conventional release oral capsule (clinical drug)
+425992006	Valproic acid 250mg/5mL syrup (product)
+438318007	Valproic acid 500mg delayed release capsule (product)
+438649006	Product containing precisely valproic acid 250 milligram/1 each gastro-resistant oral capsule (clinical drug)
+440509008	Product containing precisely valproic acid 125 milligram/1 each gastro-resistant oral capsule (clinical drug)
+714130001	Product containing valproic acid in oral dose form (medicinal product form)
+714131002	Product containing valproic acid in parenteral dose form (medicinal product form)
+777911005	Valproic acid (product)
+780747006	Product containing only valproic acid in oral dose form (medicinal product form)
+780748001	Product containing only valproic acid in parenteral dose form (medicinal product form)
+784885005	Product containing precisely valproic acid 100 milligram/1 each conventional release oral tablet (clinical drug)
+784886006	Product containing precisely valproic acid 100 milligram/1 milliliter conventional release solution for injection (clinical drug)
+784887002	Product containing precisely valproic acid 50 milligram/1 milliliter conventional release oral solution (clinical drug)
+42138311000001101	Valproic acid 500mg gastro-resistant tablets (product)
+42138211000001109	Valproic acid 500mg gastro-resistant capsules (product)
+42137911000001101	Valproic acid 150mg gastro-resistant capsules (product)
+42138011000001104	Valproic acid 250mg gastro-resistant tablets (product)
+42138111000001103	Valproic acid 300mg gastro-resistant capsules (product)
+16102311000001106	Valproic acid 500mg/5ml oral solution (product)
+16097311000001102	Valproic acid 500mg/5ml oral solution (Special Order) (product)
+15535811000001106	Valproic acid 250mg/5ml oral solution (product)
+15534811000001105	Valproic acid 250mg/5ml oral solution (Special Order) (product)
+16102411000001104	Valproic acid 500mg/5ml oral suspension (product)
+16097611000001107	Valproic acid 500mg/5ml oral suspension (Special Order) (product)
+15536811000001103	Valproic acid 250mg/5ml oral suspension (product)
+15536111000001105	Valproic acid 250mg/5ml oral suspension (Special Order) (product)
+11146711000001104	Valproic acid 125mg gastro-resistant capsules (product)
+38528611000001107	Valproic acid 500mg gastro-resistant capsules 30 capsule (product)
+38528211000001105	Valproic acid 150mg gastro-resistant capsules 30 capsule (product)
+38528411000001109	Valproic acid 300mg gastro-resistant capsules 30 capsule (product)
+3921511000001105	Valproic acid 500mg gastro-resistant capsules 100 capsule (product)
+3921211000001107	Valproic acid 300mg gastro-resistant capsules 100 capsule (product)
+3920711000001108	Valproic acid 150mg gastro-resistant capsules 100 capsule (product)
+3846911000001103	Valproic acid 500mg gastro-resistant tablets 90 tablet (product)
+3846111000001101	Valproic acid 250mg gastro-resistant tablets 90 tablet (product)
+11141511000001100	Valproic acid 125mg gastro-resistant capsules 100 capsule (product)
+15536011000001109	Valproic acid 250mg/5ml oral suspension 1 ml (product)
+15536211000001104	Valproic acid 250mg/5ml oral suspension (Special Order) 1 ml (product)
+15534211000001109	Valproic acid 250mg/5ml oral solution 1 ml (product)
+15535111000001104	Valproic acid 250mg/5ml oral solution (Special Order) 1 ml (product)
+16097511000001108	Valproic acid 500mg/5ml oral suspension 1 ml (product)
+16097711000001103	Valproic acid 500mg/5ml oral suspension (Special Order) 1 ml (product)
+16097211000001105	Valproic acid 500mg/5ml oral solution 1 ml (product)
+16097411000001109	Valproic acid 500mg/5ml oral solution (Special Order) 1 ml (product)
+36443011000001105	Valproic acid 500mg gastro-resistant tablets 30 tablet (product)
+36442811000001107	Valproic acid 250mg gastro-resistant tablets 30 tablet (product)
+341101000001101	Valproic acid 150mg e/c capsule - product
+411401000001105	Valproic acid 300mg e/c capsule - product
+481101000001102	Valproic acid 500mg e/c capsule - product
+3856501000001106	Valproic acid 250mg e/c tablet - product
+3856601000001105	Valproic acid 500mg e/c tablet - product
+3921711000001100	Convulex 500mg gastro-resistant capsules (G.L. Pharma UK Ltd) (product)
+3920911000001105	Convulex 150mg gastro-resistant capsules (G.L. Pharma UK Ltd) (product)
+3921311000001104	Convulex 300mg gastro-resistant capsules (G.L. Pharma UK Ltd) (product)
+38528711000001103	Convulex 500mg gastro-resistant capsules (G.L. Pharma UK Ltd) 30 capsule 3 x 10 capsules (product)
+38528311000001102	Convulex 150mg gastro-resistant capsules (G.L. Pharma UK Ltd) 30 capsule 3 x 10 capsules (product)
+38528511000001108	Convulex 300mg gastro-resistant capsules (G.L. Pharma UK Ltd) 30 capsule 3 x 10 capsules (product)
+3921811000001108	Convulex 500mg gastro-resistant capsules (G.L. Pharma UK Ltd) 100 capsule (product)
+3921411000001106	Convulex 300mg gastro-resistant capsules (G.L. Pharma UK Ltd) 100 capsule (product)
+3921011000001102	Convulex 150mg gastro-resistant capsules (G.L. Pharma UK Ltd) 100 capsule 5 x 20 capsules (product)
+476301000001103	Convulex 150mg e/c capsule
+546801000001101	Convulex 300mg e/c capsule
+616501000001102	Convulex 500mg e/c capsule
+134537008	Valproic acid 500mg e/c tablet (substance)
+134538003	Valproic acid 250mg e/c tablet (substance)

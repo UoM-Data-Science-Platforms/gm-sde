@@ -1,0 +1,1553 @@
+16A..	Stiff neck symptom
+16A2.	Stiff neck
+16AZ.	Stiff neck symptom NOS
+16C..	Backache symptom
+16C2.	Backache
+16C3.	Backache with radiation
+16C4.	Back pain worse on sneezing
+16C5.	C/O - low back pain
+16C6.	Back pain without radiation NOS
+16C7.	C/O - upper back ache
+16CZ.	Backache symptom NOS
+1967.	Abdominal migraine - symptom
+1969.	Abdominal pain
+19690	Abdominal wall pain
+1A59.	C/O pelvic pain
+1A5A.	C/O perineal pain
+1B1G.	Headache (& [C/O])
+1B1G0	Sinus headache
+1BA2.	Generalised headache
+1BA3.	Unilateral headache
+1BA4.	Bilateral headache
+1BA6.	Occipital headache
+1BA7.	Parietal headache
+1BB1.	Aching headache
+1BB2.	Throbbing headache
+1BB3.	Shooting headache
+1BB4.	Morning headache
+1BZ..	Nervous system symptoms NOS
+1BZZ.	Nervous system symptom NOS
+1DC1.	Burning pain
+1DC8.	Generalised aches and pains
+7J41.	Decompression of fracture of spine
+7J410	Complex decompression of fracture of spine
+7J412	Posterior decompression of fracture of spine
+7J41y	Other specified decompression of fracture of spine
+7J41z	Decompression of fracture of spine NOS
+7J42.	Other reduction spinal fracture (& with stabilisation)
+7J420	Open reduction of fracture of spine and excision of facet of spine
+7J421	Open reduction of fracture of spine NEC
+7J422	Manipulation of spinal fracture
+7J423	Spinal extension traction for fracture of spine
+7J424	Halo skull traction for fracture of spine
+7J425	Spinal traction for fracture of spine NEC
+7J426	Primary bedrest stabilisation of spinal fracture
+7J427	Primary collar stabilisation of spinal fracture
+7J428	Primary skull traction stabilisation of spinal fracture
+7J429	Primary cast stabilisation of spinal fracture
+7J42a	Primary open reduction spinal fracture and bedrest stabilisation
+7J42A	Primary external fixation stabilisation of spinal fracture
+7J42b	Primary open reduction spinal fracture and skull traction stabilisation
+7J42B	Primary other external stabilisation of spinal fracture
+7J42c	Primary open reduction spinal fracture and cast stabilisation
+7J42C	Revision to bedrest stabilisation of spinal fracture
+7J42d	Primary open reduction spinal fracture and external fixation
+7J42D	Revision to collar stabilisation of spinal fracture
+7J42e	Primary open reduction spinal fracture and other external stabilisation
+7J42E	Revision to skull traction stabilisation of spinal fracture
+7J42f	Revision to open reduction spinal fracture alone
+7J42F	Revision to cast stabilisation of spinal fracture
+7J42g	Revision to open reduction spinal fracture and collar stabilisation
+7J42G	Revision to external fixation stabilisation of spinal fracture
+7J42h	Revision to open reduction spinal fracture and bedrest stabilisation
+7J42H	Revision to other external stabilisation of spinal fracture
+7J42j	Revision to open reduction spinal fracture and skull traction stabilisation
+7J42J	Primary closed reduction spinal fracture alone
+7J42k	Revision to open reduction spinal fracture and cast stabilisation
+7J42K	Primary closed reduction spinal fracture and collar stabilisation
+7J42l	Revision to open reduction spinal fracture and external fixation
+7J42L	Primary closed reduction spinal fracture and bedrest stabilisation
+7J42m	Revision to open reduction spinal fracture and other external stabilisation
+7J42M	Primary closed reduction spinal fracture and skull traction stabilisation
+7J42N	Primary closed reduction spinal fracture and cast stabilisation
+7J42P	Primary closed reduction spinal fracture and external fixation
+7J42Q	Primary closed reduction spinal fracture and other external stabilisation
+7J42R	Revision to closed reduction spinal fracture alone
+7J42S	Revision to closed reduction spinal fracture and collar stabilisation
+7J42T	Revision to closed reduction spinal fracture and bedrest stabilisation
+7J42U	Revision to closed reduction spinal fracture and skull traction stabilisation
+7J42V	Revision to closed reduction spinal fracture and cast stabilisation
+7J42W	Revision to closed reduction spinal fracture and external fixation
+7J42X	Revision to closed reduction spinal fracture and other external stabilisation
+7J42y	Other specified other reduction of fracture of spine
+7J42Y	Primary open reduction spinal fracture alone
+7J42z	Other reduction of fracture of spine NOS
+7J42Z	Primary open reduction spinal fracture and collar stabilisation
+7J430	Primary open reduction spinal fracture and internal fixation with plate
+7J431	Fixation of fracture of spine using Harrington rod
+7J432	Skull traction for spinal fracture (& [HFQ] or [Barr] or [Crutchfield])
+7J433	Primary open reduction spinal fracture and internal fixation with wire
+7J434	Primary open reduction spinal fracture and internal fixation with rod system
+7J437	Primary open reduction spinal fracture and other internal fixation
+7J438	Revision to open reduction spinal fracture and internal fixation with wire
+7J439	Revision to open reduction spinal fracture and internal fixation with plate
+7J43A	Revision to open reduction spinal fracture and internal fixation with rod system
+7J43C	Revision to open reduction spinal fracture and internal fixation with internal fixator
+7J43D	Revision to open reduction spinal fracture and other internal fixation
+7J43y	Other specified fixation of fracture of spine
+7J43z	Fixation of fracture of spine NOS
+8H69.	Refer to pain clinic
+8HTH.	Referral to back pain clinic
+A0223	Salmonella arthritis
+A15y.	Tuberculosis of other specified joint
+A5313	Post-herpetic polyneuropathy
+A56x0	Arthritis due to rubella
+A72x1	Mumps polyneuropathy
+A78y2	Epidemic cervical myalgia
+A993.	Reiter's disease
+B74y0	Lipoma of spinal column
+B74y1	Lipoma of spinal canal - extradural
+B74y2	Lipoma of spinal canal - intradural
+B74y3	Lipoma of spinal cord
+C32y2	Multicentric reticulohistiocytosis
+C3732	Familial neuropathic amyloidosis
+E0111	Korsakov's alcoholic psychosis with peripheral neuritis
+E278.	Somatoform pain disorder
+E2780	Psychogenic pain unspecified
+E278z	Psychalgia NOS
+F170.	Idiopathic peripheral autonomic neuropathy
+F170z	Idiopathic peripheral autonomic neuropathy NOS
+F171.	Peripheral autonomic neuropathy disease EC
+F171z	Peripheral autonomic neuropathy due to disease NOS
+F203.	Exacerbation of multiple sclerosis
+F26..	Migraine
+F261.	Migraine without aura
+F2610	Atypical migraine
+F2611	Sick headache
+F261z	Common migraine NOS
+F262.	Migraine variants
+F2620	Cluster headache syndrome
+F2622	Abdominal migraine
+F2623	Basilar migraine
+F2624	Ophthalmic migraine
+F262z	Migraine variant NOS
+F26y.	Other forms of migraine
+F26y0	Hemiplegic migraine
+F26y1	Ophthalmoplegic migraine
+F26y3	Complicated migraine
+F26yz	Other forms of migraine NOS
+F26z.	Migraine NOS
+F300.	Post-herpetic trigeminal neuralgia
+F301.	Other specified trigeminal neuralgia
+F3010	Trigeminal neuralgia
+F301z	Trigeminal neuralgia NOS
+F321.	Glossopharyngeal neuralgia
+F3261	Polyneuritis cranialis
+F336.	Phantom limb
+F3360	Phantom limb syndrome with pain
+F34..	Mononeuritis of upper limb and mononeuritis multiplex
+F3410	Median nerve neuritis
+F344.	Complex regional pain syndrome type II
+F345.	Mononeuritis multiplex
+F3450	Diabetic mononeuritis multiplex
+F34z.	Mononeuritis upper limb NOS
+F35..	Mononeuritis lower limb
+F350.	Sciatic nerve lesion
+F3560	Interdigital neuralgia
+F35x.	Other mononeuritis lower limb
+F35y.	Unspecified mononeuritis lower limb
+F35z0	Diabetic mononeuritis NOS
+F36..	Hereditary and idiopathic peripheral neuropathy
+F3600	Hereditary motor and sensory neuropathy type III
+F360z	Hereditary peripheral neuropathy NOS
+F361z	Peroneal muscular atrophy NOS
+F362.	Hereditary sensory neuropathy
+F363.	Refsum's disease
+F364.	Idiopathic progressive polyneuropathy
+F365.	Neuropathy in association with hereditary ataxia
+F366.	Polyneuropathy
+F36y.	Other idiopathic peripheral neuropathy
+F36yz	Other idiopathic peripheral neuropathy NOS
+F36z.	Hereditary or idiopathic peripheral neuropathy NOS
+F37..	Inflammatory &/or toxic neuropathy
+F370.	Acute infective polyneuritis
+F3701	Post-infectious polyneuritis
+F370z	Acute infective polyneuritis NOS
+F371.	Polyneuropathy in collagen vascular disease
+F3710	Polyneuropathy in disseminated lupus erythematosus
+F3711	Polyneuropathy in polyarteritis nodosa
+F3712	Polyneuropathy in rheumatoid arthritis
+F371z	Polyneuropathy in collagen vascular disease NOS
+F3720	Acute painful diabetic neuropathy
+F3721	Chronic painful diabetic neuropathy
+F3722	Asymptomatic diabetic neuropathy
+F373.	Carcinomatous neuropathy
+F374.	Polyneuropathy in disease EC
+F3740	Polyneuropathy in amyloidosis
+F3741	Neuropathy due to vitamin B1 deficiency
+F3742	Polyneuropathy in vitamin B deficiency
+F3744	Polyneuropathy in herpes zoster
+F3745	Neuropathy associated with hypoglycaemia
+F3746	Polyneuropathy in mumps
+F3747	Polyneuropathy in pellagra
+F3748	Polyneuropathy in porphyria
+F3749	Sarcoid neuropathy
+F374A	Uraemic polyneuropathy
+F374z	Polyneuropathy in disease NOS
+F375.	Alcohol-related polyneuropathy
+F376.	Drug-related polyneuropathy
+F377.	Other toxic agent polyneuropathy
+F37y.	Other toxic or inflammatory neuropathy
+F3964	Myopathy due to rheumatoid arthritis
+F4H3.	Optic neuritis
+F4H30	Unspecified optic neuritis
+F4H3z	Optic neuritis NOS
+F5520	Malleus ankylosis
+Fyu13	[X]Paraneoplastic neuromyopathy and neuropathy
+Fyu53	[X]Other migraine
+Fyu54	[X]Other specified headache syndromes
+Fyu5A	[X]Vascular headache, not elsewhere classified
+Fyu66	[X]Nerve root and plexus compressions in neoplastic disease classified elsewhere
+Fyu68	[X]Nerve root and plexus compressions in other diseases classified elsewhere
+Fyu6A	[X]Other mononeuropathies of upper limb
+Fyu6B	[X]Other mononeuropathies of lower limb
+Fyu6C	[X]Other specified mononeuropathies
+Fyu6D	[X]Other mononeuropathies in diseases classified elsewhere
+Fyu70	[X]Other hereditary and idiopathic neuropathies
+Fyu72	[X]Other specified polyneuropathies
+Fyu73	[X]Polyneuropathy in infectious and parasitic diseases classified elsewhere
+Fyu74	[X]Polyneuropathy in neoplastic disease classified elsewhere
+Fyu75	[X]Polyneuropathy in other endocrine and metabolic diseases classified elsewhere
+Fyu76	[X]Polyneuropathy in nutritional deficiency classified elsewhere
+Fyu77	[X]Polyneuropathy in systemic connective tissue disorders classified elsewhere
+Fyu78	[X]Polyneuropathy in other musculoskeletal disorders classified elsewhere
+Fyu79	[X]Polyneuropathy in other diseases classified elsewhere
+Fyu7A	[X]Other disorders of the peripheral nervous system
+Fyu7B	[X]Inflammatory polyneuropathy, unspecified
+Fyu7C	[X]Polyneuropathy, unspecified
+J3A3.	Simple sciatic hernia
+K5A22	Menopausal headache
+KyuA0	[X]Other postprocedural disorders of the genitourinary system
+M160z	Psoriatic arthropathy NOS
+M2711	Neuropathic diabetic ulcer - foot
+Myu79	[X]Other specified localised connective tissue disorders
+Myu7F	[X]Localised connective tissue disorder, unspecified
+N0...	Arthropathies and related disorders
+N00..	Diseases: [diffuse, of connective tissue] or [collagen]
+N0102	Pyogenic arthritis of: [upper arm] or [elbow]
+N0109	Pneumococcal arthritis and polyarthritis
+N0110	Sexually acquired reactive arthropathy of unspecified site
+N0111	Sexually acquired reactive arthropathy of the shoulder region
+N0112	Sexually acquired reactive arthropathy of the upper arm
+N0113	Sexually acquired reactive arthropathy of the forearm
+N0114	Sexually acquired reactive arthropathy of the hand
+N0115	Sexually acquired reactive arthropathy of the pelvic region and thigh
+N0116	Sexually acquired reactive arthropathy of the lower leg
+N0117	Sexually acquired reactive arthropathy of the ankle and foot
+N011x	Sexually acquired reactive arthropathy of multiple sites
+N011y	Sexually acquired reactive arthropathy of other specified site
+N011z	Sexually acquired reactive arthropathy NOS
+N012.	Arthropathy in Behcet's syndrome
+N0120	Arthropathy in Behcet's syndrome (& [unspecified site])
+N0121	Arthropathy in Behcet's syndrome of the shoulder region
+N0122	Arthropathy in Behcet's syndrome of the upper arm
+N0123	Arthropathy in Behcet's syndrome of the forearm
+N0124	Arthropathy in Behcet's syndrome of the hand
+N0125	Arthropathy in Behcet's syndrome of the pelvic region and thigh
+N0126	Arthropathy in Behcet's syndrome of the lower leg
+N0127	Arthropathy in Behcet's syndrome of the ankle and foot
+N012x	Arthropathy in Behcet's syndrome of multiple sites
+N012y	Arthropathy in Behcet's syndrome of other specified sites
+N012z	Arthropathy in Behcet's syndrome NOS
+N013.	Post-dysenteric reactive arthropathy (AND/OR [?enteropathic arthritis])
+N0130	Post-dysenteric reactive arthropathy of unspecified site
+N0131	Post-dysenteric reactive arthropathy of the shoulder region
+N0132	Post-dysenteric reactive arthropathy of the upper arm
+N0133	Post-dysenteric reactive arthropathy of the forearm
+N0134	Post-dysenteric reactive arthropathy of the hand
+N0135	Post-dysenteric reactive arthropathy of the pelvic region and thigh
+N0136	Post-dysenteric reactive arthropathy of the lower leg
+N0137	Post-dysenteric reactive arthropathy of the ankle and foot
+N013x	Post-dysenteric reactive arthropathy of multiple sites
+N013y	Post-dysenteric reactive arthropathy of other specified sites
+N013z	Post-dysenteric reactive arthropathy NOS
+N014.	Arthropathy associated with other bacterial diseases
+N0140	Arthropathy associated with other bacterial disease, of unspecified site
+N0141	Arthropathy associated with other bacterial disease, of the shoulder region
+N0142	Arthropathy associated with other bacterial disease, of the upper arm
+N0143	Arthropathy associated with other bacterial disease, of the forearm
+N0144	Arthropathy associated with other bacterial disease, of the hand
+N0145	Arthropathy associated with other bacterial disease, of the pelvic region and thigh
+N0146	Arthropathy associated with other bacterial disease, of the lower leg
+N0147	Arthropathy associated with other bacterial disease, of the ankle and foot
+N0148	Seronegative arthritis secondary to Whipple's disease
+N014x	Arthropathy associated with other bacterial disease, of multiple sites
+N014y	Arthropathy associated with other bacterial disease, of other specified site
+N014z	Arthropathy associated with other bacterial disease NOS
+N015.	Arthropathy associated with other viral diseases
+N0150	Arthropathy associated with other viral disease, of unspecified site
+N0151	Arthropathy associated with other viral disease, of the shoulder region
+N0152	Arthropathy associated with other viral disease, of the upper arm
+N0153	Arthropathy associated with other viral disease, of the forearm
+N0154	Arthropathy with other viral disease, of hand
+N0155	Arthropathy associated with other viral disease, of the pelvic region and thigh
+N0156	Arthropathy associated with other viral disease, of the lower leg
+N0157	Arthropathy associated with other viral disease, of the ankle and foot
+N015x	Arthropathy associated with other viral disease, of multiple sites
+N015y	Arthropathy associated with other viral disease, of other specified site
+N015z	Arthropathy associated with other viral disease NOS
+N016.	Arthritis due to fungal infection
+N0160	Arthropathy associated with mycoses, of unspecified site
+N0161	Arthropathy associated with mycoses, of the shoulder region
+N0162	Arthropathy associated with mycoses, of the upper arm
+N0163	Arthropathy associated with mycoses, of the forearm
+N0164	Arthropathy associated with mycoses, of the hand
+N0165	Arthropathy associated with mycoses, of the pelvic region and thigh
+N0166	Arthropathy associated with mycoses, of the lower leg
+N0167	Arthropathy associated with mycoses, of the ankle and foot
+N016x	Arthropathy associated with mycoses, of multiple sites
+N016y	Arthropathy associated with mycoses, of other specified site
+N016z	Arthropathy associated with mycoses NOS
+N01w.	Reactive arthropathy, unspecified
+N01w0	Reactive arthropathy of shoulder
+N01w1	Reactive arthropathy of sternoclavicular joint
+N01w2	Reactive arthropathy of acromioclavicular joint
+N01w3	Reactive arthropathy of elbow
+N01w4	Reactive arthropathy of distal radioulnar joint
+N01w5	Reactive arthropathy of wrist
+N01w6	Reactive arthropathy of metacarpophalangeal joint
+N01w7	Reactive arthropathy of proximal interphalangeal joint of finger
+N01w8	Reactive arthropathy of distal interphalangeal joint of finger
+N01w9	Reactive arthropathy of hip
+N01wA	Reactive arthropathy of sacroiliac joint
+N01wB	Reactive arthropathy of knee
+N01wC	Reactive arthropathy of tibiofibular joint
+N01wD	Reactive arthropathy of ankle
+N01wE	Reactive arthropathy of subtalar joint
+N01wF	Reactive arthropathy of talonavicular joint
+N01wG	Reactive arthropathy of other tarsal joint
+N01wH	Reactive arthropathy of 1st metatarsophalangeal joint
+N01wJ	Reactive arthropathy of lesser metatarsophalangeal joint
+N01wK	Reactive arthropathy of interphalangeal joint of toe
+N01y1	Other infectious and parasitic diseases with arthropathy of the shoulder region
+N01zK	Infective arthritis NOS, of knee
+N03..	Arthropathy associated with disorders EC
+N030.	Arthropathy associated with endocrine and metabolic disorder
+N0300	Diabetic hand syndrome
+N0301	Diabetic neuropathic arthropathy
+N031.	Arthropathy associated with non-infective gastrointestinal disorders
+N0310	Arthropathy in ulcerative colitis
+N0311	Arthropathy in Crohn's disease
+N032.	Arthropathy associated with haematological disorders
+N0320	Haemophilic arthropathy
+N033.	Arthropathy associated with dermatological disorders
+N034.	Arthropathy associated with respiratory disorders
+N036.	Arthropathy due to hypersensitivity reaction
+N0381	Post-infective arthropathy in syphilis
+N03x.	Other general diseases with associated arthropathy
+N03x0	Arthritis associated with other disease, shoulder
+N03x1	Arthritis associated with other disease, sternoclavicular joint
+N03x2	Arthritis associated with other disease, acromioclavicular joint
+N03x3	Arthritis associated with other disease, elbow
+N03x4	Arthritis associated with other disease, distal radioulnar joint
+N03x5	Arthritis associated with other disease, wrist
+N03x6	Arthritis associated with other disease, metacarpophalangeal joint
+N03x7	Arthritis associated with other disease, proximal interphalangeal joint of finger
+N03x8	Arthritis associated with other disease, distal interphalangeal joint of finger
+N03x9	Arthritis associated with other disease, hip
+N03xA	Arthritis associated with other disease, sacroiliac joint
+N03xB	Arthritis associated with other disease, knee
+N03xC	Arthritis associated with other disease, tibiofibular joint
+N03xD	Arthritis associated with other disease, ankle
+N03xE	Arthritis associated with other disease, subtalar joint
+N03xF	Arthritis associated with other disease, talonavicular joint
+N03xG	Arthritis associated with other disease, other tarsal joint
+N03xH	Arthritis associated with other disease, 1st metatarsophalangeal joint
+N03xJ	Arthritis associated with other disease, lesser metatarsophalangeal joint
+N03xK	Arthritis associated with other disease, interphalangeal joint of toe
+N03y.	Arthropathy associated with other conditions EC
+N03z.	Arthropathy associated with disorders EC NOS
+N040.	Rheumatoid arthritis
+N0400	Rheumatoid arthritis of cervical spine
+N0401	Other rheumatoid arthritis of spine
+N0402	Rheumatoid arthritis of shoulder
+N0403	Rheumatoid arthritis of sternoclavicular joint
+N0404	Rheumatoid arthritis of acromioclavicular joint
+N0405	Rheumatoid arthritis of elbow
+N0406	Rheumatoid arthritis of distal radioulnar joint
+N0407	Rheumatoid arthritis of wrist
+N0408	Rheumatoid arthritis of metacarpophalangeal joint
+N0409	Rheumatoid arthritis of proximal interphalangeal joint of finger
+N040A	Rheumatoid arthritis of distal interphalangeal joint of finger
+N040B	Rheumatoid arthritis of hip
+N040C	Rheumatoid arthritis of sacroiliac joint
+N040D	Rheumatoid arthritis of knee
+N040E	Rheumatoid arthritis of tibiofibular joint
+N040F	Rheumatoid arthritis of ankle
+N040G	Rheumatoid arthritis of subtalar joint
+N040H	Rheumatoid arthritis of talonavicular joint
+N040J	Rheumatoid arthritis of other tarsal joint
+N040K	Rheumatoid arthritis of first metatarsophalangeal joint
+N040L	Rheumatoid arthritis of lesser metatarsophalangeal joint
+N040M	Rheumatoid arthritis of interphalangeal joint of toe
+N040T	Flare of rheumatoid arthritis
+N042.	Other rheumatoid arthropathy with visceral or systemic involvement
+N042z	Rheumatoid arthropathy with visceral or systemic involvement NOS
+N0430	Juvenile rheumatoid arthropathy unspecified
+N0431	Acute polyarticular juvenile rheumatoid arthritis
+N0432	Pauciarticular onset juvenile chronic arthritis
+N0433	Monarticular juvenile rheumatoid arthritis
+N043z	Juvenile rheumatoid arthritis NOS
+N044.	Jaccoud's syndrome
+N045.	Other juvenile arthritis
+N0453	Juvenile arthritis in Crohn's disease
+N0454	Juvenile arthritis in ulcerative colitis
+N04y.	Other specified inflammatory polyarthropathy
+N04y1	Seronegative arthritis
+N04yz	Other specified inflammatory polyarthropathy NOS
+N04z.	Inflammatory polyarthropathy NOS
+N05..	Osteoarthritis (& [allied disorders])
+N050.	Generalised osteoarthritis
+N0500	Generalised osteoarthritis of unspecified site
+N0502	Generalised osteoarthritis of multiple sites
+N0503	Bouchard's nodes with arthropathy
+N050z	Generalised osteoarthritis NOS
+N051.	Localised, primary osteoarthritis
+N0510	Localised, primary osteoarthritis of unspecified site
+N0511	Localised, primary osteoarthritis of the shoulder region
+N0512	Localised, primary osteoarthritis of the upper arm
+N0513	Localised, primary osteoarthritis of the forearm
+N0514	Localised, primary osteoarthritis of the hand
+N0515	Localised, primary osteoarthritis of the pelvic region and thigh
+N0516	Localised, primary osteoarthritis of the lower leg
+N0517	Localised, primary osteoarthritis of the ankle and foot
+N0518	Localised, primary osteoarthritis of other specified site
+N051z	Localised, primary osteoarthritis NOS
+N052.	Localised, secondary osteoarthritis
+N0520	Localised, secondary osteoarthritis of unspecified site
+N0521	Localised, secondary osteoarthritis of the shoulder region
+N0522	Localised, secondary osteoarthritis of the upper arm
+N0523	Localised, secondary osteoarthritis of the forearm
+N0524	Localised, secondary osteoarthritis of the hand
+N0526	Localised, secondary osteoarthritis of the lower leg
+N0527	Localised, secondary osteoarthritis of the ankle and foot
+N0528	Localised, secondary osteoarthritis of other specified site
+N052z	Localised, secondary osteoarthritis NOS
+N053.	Localised osteoarthritis, unspecified
+N0530	Localised osteoarthritis, unspecified, of unspecified site
+N0531	Localised osteoarthritis, unspecified, of the shoulder region
+N0532	Localised osteoarthritis, unspecified, of the upper arm
+N0533	Localised osteoarthritis, unspecified, of the forearm
+N0534	Localised osteoarthritis, unspecified, of the hand
+N0537	Localised osteoarthritis, unspecified, of the ankle and foot
+N0538	Localised osteoarthritis, unspecified, of other specified site
+N0539	Arthrosis of first carpometacarpal joint, unspecified
+N053z	Localised osteoarthritis, unspecified, NOS
+N054.	Oligoarticular osteoarthritis, unspecified
+N0540	Oligoarticular osteoarthritis, unspecified, of unspecified sites
+N0541	Oligoarticular osteoarthritis, unspecified, of the shoulder region
+N0542	Oligoarticular osteoarthritis, unspecified, of upper arm
+N0543	Oligoarticular osteoarthritis, unspecified, of forearm
+N0544	Oligoarticular osteoarthritis, unspecified, of hand
+N0545	Oligoarticular osteoarthritis, unspecified, of the pelvic region and thigh
+N0546	Oligoarticular osteoarthritis, unspecified, of lower leg
+N0547	Oligoarticular osteoarthritis, unspecified, of ankle and foot
+N0548	Oligoarticular osteoarthritis, unspecified, of other specified sites
+N0549	Oligoarticular osteoarthritis, unspecified, of multiple sites
+N054z	Osteoarthritis of more than one site, unspecified, NOS
+N05z.	[Joint degeneration] or [osteoarthritis NOS]
+N05z0	Osteoarthritis NOS, of unspecified site
+N05z1	Osteoarthritis NOS, of shoulder region
+N05z8	Osteoarthritis NOS, other specified site
+N05z9	Osteoarthritis NOS, of shoulder
+N05zA	Osteoarthritis NOS, of sternoclavicular joint
+N05zB	Osteoarthritis NOS, of acromioclavicular joint
+N05zC	Osteoarthritis NOS, of elbow
+N05zD	Osteoarthritis NOS, of distal radioulnar joint
+N05zE	Osteoarthritis NOS, of wrist
+N05zF	Osteoarthritis NOS, of metacarpophalangeal joint
+N05zG	Osteoarthritis NOS, of proximal interphalangeal joint of finger
+N05zH	Osteoarthritis NOS, of distal interphalangeal joint of finger
+N05zJ	Osteoarthritis NOS, of hip
+N05zK	Osteoarthritis NOS, of sacroiliac joint
+N05zL	Osteoarthritis NOS, of knee
+N05zM	Osteoarthritis NOS, of tibiofibular joint
+N05zN	Osteoarthritis NOS, of ankle
+N05zP	Osteoarthritis NOS, of subtalar joint
+N05zQ	Osteoarthritis NOS, of talonavicular joint
+N05zR	Osteoarthritis NOS, of other tarsal joint
+N05zS	Osteoarthritis NOS, of 1st metatarsophalangeal joint
+N05zT	Osteoarthritis NOS, of lesser metatarsophalangeal joint
+N05zU	Osteoarthritis NOS, of interphalangeal joint of toe
+N06..	Other and unspecified arthropathies
+N060.	(Kaschin-Beck disease) or (endemic polyarthritis)
+N0600	Kaschin-Beck disease of unspecified site
+N0603	Kaschin-Beck disease of the forearm
+N0606	Kaschin-Beck disease of the lower leg
+N0608	Kaschin-Beck disease of other specified site
+N060z	Kaschin-Beck disease NOS
+N061.	Arthritis secondary to trauma
+N0610	Traumatic arthropathy of unspecified site
+N0611	Traumatic arthropathy of the shoulder region
+N0612	Traumatic arthropathy of the upper arm
+N0613	Traumatic arthropathy of the forearm
+N0614	Traumatic arthropathy of the hand
+N0615	Traumatic arthropathy of the pelvic region and thigh
+N0616	Traumatic arthropathy of the lower leg
+N0617	Traumatic arthropathy of the ankle and foot
+N0618	Traumatic arthropathy of other specified site
+N0619	Traumatic arthropathy of multiple sites
+N061A	Traumatic arthropathy of shoulder
+N061B	Traumatic arthropathy of sternoclavicular joint
+N061C	Traumatic arthropathy of acromioclavicular joint
+N061D	Traumatic arthropathy-elbow
+N061E	Traumatic arthropathy of distal radioulnar joint
+N061F	Traumatic arthropathy-wrist
+N061G	Traumatic arthropathy of metacarpophalangeal joint
+N061H	Traumatic arthropathy of proximal interphalangeal joint of finger
+N061J	Traumatic arthropathy of distal interphalangeal joint of finger
+N061K	Traumatic arthropathy-hip
+N061L	Traumatic arthropathy of sacroiliac joint
+N061M	Traumatic arthropathy-knee
+N061N	Traumatic arthropathy of tibiofibular joint
+N061P	Traumatic arthropathy-ankle
+N061Q	Traumatic arthropathy of subtalar joint
+N061R	Traumatic arthropathy of talonavicular joint
+N061S	Traumatic arthropathy of other tarsal joint
+N061T	Traumatic arthropathy of 1st metatarsophalangeal joint
+N061U	Traumatic arthropathy of lesser metatarsophalangeal joint
+N061V	Traumatic arthropathy of interphalangeal joint of toe
+N061z	Traumatic arthropathy NOS
+N062.	Allergic arthritis
+N0620	Allergic arthritis of unspecified site
+N0621	Allergic arthritis of the shoulder region
+N0622	Allergic arthritis of the upper arm
+N0623	Allergic arthritis of the forearm
+N0624	Allergic arthritis of the hand
+N0625	Allergic arthritis of the pelvic region and thigh
+N0626	Allergic arthritis of the lower leg
+N0627	Allergic arthritis of the ankle and foot
+N0628	Allergic arthritis of other specified site
+N0629	Allergic arthritis of multiple sites
+N062z	Allergic arthritis NOS
+N063.	Climacteric arthritis
+N0630	Climacteric arthritis of unspecified site
+N0631	Climacteric arthritis of the shoulder region
+N0632	Climacteric arthritis of the upper arm
+N0633	Climacteric arthritis of the forearm
+N0634	Climacteric arthritis of the hand
+N0635	Climacteric arthritis of the pelvic region and thigh
+N0636	Climacteric arthritis of the lower leg
+N0637	Climacteric arthritis of the ankle and foot
+N0638	Climacteric arthritis of other specified site
+N0639	Climacteric arthritis of multiple sites
+N063z	Climacteric arthritis NOS
+N065.	(Polyarthropathy: [unspecified] or [NEC]) or (polyarthritis)
+N0650	Unspecified polyarthropathy of unspecified site
+N0651	Unspecified polyarthropathy of the shoulder region
+N0652	Unspecified polyarthropathy of the upper arm
+N0653	Unspecified polyarthropathy of the forearm
+N0654	Unspecified polyarthropathy of the hand
+N0655	Unspecified polyarthropathy of the pelvic region and thigh
+N0656	Unspecified polyarthropathy of the lower leg
+N0657	Unspecified polyarthropathy of the ankle and foot
+N0658	Unspecified polyarthropathy of other specified site
+N0659	Unspecified polyarthropathy of multiple sites
+N065A	Generalised arthritis
+N0660	Unspecified monoarthritis of unspecified site
+N0661	Unspecified monoarthritis of the shoulder region
+N0662	Unspecified monoarthritis of the upper arm
+N0663	Unspecified monoarthritis of the forearm
+N0664	Unspecified monoarthritis of the hand
+N0665	Unspecified monoarthritis of the pelvic region and thigh
+N0666	Unspecified monoarthritis of the lower leg
+N0667	Unspecified monoarthritis of the ankle and foot
+N0668	Unspecified monoarthritis of other specified site
+N066z	Unspecified monoarthritis NOS
+N067.	Ochronotic arthropathy
+N069.	Arthritis secondary to malignancy
+N06y.	Other specified arthropathy
+N06y0	Other specified arthropathy of unspecified site
+N06y1	Other specified arthropathy of the shoulder region
+N06y2	Other specified arthropathy of the upper arm
+N06y3	Other specified arthropathy of the forearm
+N06y4	Other specified arthropathy of the hand
+N06y5	Other specified arthropathy of the pelvic region and thigh
+N06y6	Other specified arthropathy of the lower leg
+N06y7	Other specified arthropathy of the ankle and foot
+N06y8	Other specified arthropathy of other specified site
+N06y9	Other specified arthropathy of multiple sites
+N06yz	Other specified arthropathy NOS
+N06z0	Arthropathy NOS, of unspecified site
+N06z8	Arthropathy NOS, of other specified site
+N06z9	Arthropathy NOS, of multiple sites
+N06zA	Acute arthritis
+N06zB	Chronic arthritis
+N0849	Contracture of multiple joints
+N085.	Ankylosis of joint
+N0850	Joint ankylosis of unspecified site
+N0851	Joint ankylosis of the shoulder region
+N0853	Joint ankylosis of the forearm (& [wrist])
+N0854	Joint ankylosis of the hand
+N0858	Joint ankylosis of other specified site
+N0859	Ankylosis of multiple joints
+N085A	Ankylosis of the shoulder joint
+N085B	Ankylosis of other joint of the shoulder girdle
+N085C	Ankylosis of the elbow joint
+N085D	Ankylosis of the superior radioulnar joint
+N085E	Ankylosis of the inferior radioulnar joint
+N085F	Ankylosis of the wrist joint
+N085G	Ankylosis of the first carpometacarpal joint
+N085H	Ankylosis of other carpometacarpal joint
+N085J	Ankylosis of metacarpophalangeal joint
+N085K	Ankylosis of proximal interphalangeal joint
+N085L	Ankylosis of distal interphalangeal joint
+N085M	Hip joint ankylosis
+N085N	Ankylosis of other pelvic joint
+N085P	Knee joint ankylosis
+N085Q	Ankle joint ankylosis
+N085R	Ankylosis of the subtalar joint
+N085S	Ankylosis of other tarsal joint
+N085T	Ankylosis of metatarsophalangeal joint
+N085U	Ankylosis of toe joint
+N085z	Ankylosis of joint NOS
+N09..	Other and unspecified joint disorders
+N093.	(Palindromic rheumatism) or (intermittent joint effusion)
+N0930	Palindromic rheumatism of unspecified site
+N0931	Palindromic rheumatism of the shoulder region
+N0932	Palindromic rheumatism of the upper arm
+N0933	Palindromic rheumatism of the forearm
+N0934	Palindromic rheumatism of the hand
+N0935	Palindromic rheumatism of the pelvic region and thigh
+N0936	Palindromic rheumatism of the lower leg
+N0937	Palindromic rheumatism of the ankle and foot
+N0938	Palindromic rheumatism of other specified site
+N0939	Palindromic rheumatism of multiple sites
+N093z	Palindromic rheumatism NOS
+N094.	Joint: [pain - arthralgia] or [ache]
+N0940	Arthralgia of unspecified site
+N0941	Arthralgia of the shoulder region (& [shoulder joint])
+N0944	Hand joint pain
+N0948	Arthralgia of other specified site
+N0949	Multiple joint pain
+N094B	Sternoclavicular joint pain
+N094C	Acromioclavicular joint pain
+N094D	Elbow joint pain
+N094E	Distal radioulnar joint pain
+N094G	Metacarpophalangeal joint pain
+N094H	Proximal interphalangeal joint of finger pain
+N094J	Distal interphalangeal joint of finger pain
+N094L	Sacroiliac joint pain
+N094M	Knee joint pain
+N094N	Tibiofibular joint pain
+N094P	Ankle joint pain
+N094Q	Subtalar joint pain
+N094R	Talonavicular joint pain
+N094S	Arthralgia of other tarsal joint
+N094T	First metatarsophalangeal joint pain
+N094U	Lesser metatarsophalangeal joint pain
+N094V	Interphalangeal joint of toe pain
+N094z	Arthralgia NOS
+N0961	Other joint symptoms of the shoulder region
+N0962	Other joint symptoms of the upper arm
+N0963	Other joint symptoms of the forearm
+N0964	Other joint symptoms of the hand
+N0968	Other joint symptoms of other specified site
+N0969	Other joint symptoms of multiple sites
+N096B	Other symptoms in sternoclavicular joint
+N096D	Other symptoms - elbow
+N096E	Other symptoms in distal radioulnar joint
+N096K	Other symptoms - hip
+N096N	Other symptoms in tibiofibular joint
+N096R	Other symptoms in talonavicular joint
+N096S	Other symptoms in other tarsal joint
+N096z	Other joint symptoms NOS
+N09y0	Other specified joint disorders of unspecified site
+N09y1	Other specified joint disorders of the shoulder region
+N09y2	Other specified joint disorders of the upper arm
+N09y3	Other specified joint disorders of the forearm
+N09y4	Other specified joint disorders of the hand
+N09y5	Other specified joint disorders of the pelvic region and thigh
+N09y6	Other specified joint disorders of the lower leg
+N09y7	Other specified joint disorders of the ankle and foot
+N09y8	Other specified joint disorders of other specified site
+N09y9	Other specified joint disorders of multiple sites
+N09yz	Other specified joint disorders NOS
+N09z.	Joint disorders NOS
+N09z1	Joint disorder NOS, of shoulder region
+N09z7	Joint disorder NOS, of ankle and foot
+N0y..	Other specified arthropathies
+N0z..	Arthropathies NOS
+N100.	Ankylosing spondylitis
+N102.	Sacroiliitis NEC
+N10z.	Spondylitis NOS
+N11y.	Other spondyloses and allied disorders
+N11y0	Brucella spondylitis
+N11y1	Enterobacterial spondylitis
+N11y2	Neuropathic spondylopathy
+N11z.	(Spondylosis NOS) or (osteoarthritis spine)
+N130.	Cervical spinal stenosis
+N1300	Idiopathic cervical spinal stenosis
+N1301	Degenerative cervical spinal stenosis
+N1302	Iatrogenic cervical spinal stenosis
+N1303	Cervical spinal stenosis secondary to other disease
+N13y2	Crick in neck
+N13z.	Cervical and neck disorders NOS
+N1400	Spinal stenosis of unspecified region
+N1401	Thoracic spinal stenosis
+N1402	Lumbar spinal stenosis
+N1403	Idiopathic thoracic spinal stenosis
+N1404	Degenerative thoracic spinal stenosis
+N1405	Iatrogenic thoracic spinal stenosis
+N1406	Thoracic spinal stenosis secondary to other disease
+N1407	Idiopathic lumbar spinal stenosis
+N1408	Degenerative lumbar spinal stenosis
+N1409	Iatrogenic lumbar spinal stenosis
+N140A	Lumbar spinal stenosis secondary to other disease
+N140z	Spinal stenosis NOS
+N1420	Lumbago with sciatica
+N144.	Thoracic and lumbosacral neuritis
+N1441	Lumbosacral neuritis, unspecified
+N144z	Thoracic and lumbosacral neuritis NOS
+N145.	(Backache unspecified) or (back pain unspecified & [acute])
+N1460	Lumbosacral ankylosis
+N1461	Sacroiliac ankylosis
+N1462	Sacral ankylosis NOS
+N1465	Sacral instability NOS
+N1472	Pain in the coccyx
+N148.	Ankylosis or instability of cervical,thoracic or lumbar spine
+N1480	Atlanto-occipital ankylosis
+N1481	Atlantoaxial ankylosis
+N1482	Cervical spine ankylosis
+N1483	Cervicothoracic ankylosis
+N1484	Thoracic spine ankylosis
+N1485	Thoracolumbar ankylosis
+N1486	Lumbar spine ankylosis
+N1487	Atlanto-occipital instability
+N1488	Atlantoaxial instability
+N1489	Cervical spine instability
+N148A	Cervicothoracic instability
+N148B	Thoracic spine instability
+N148C	Lumbar spine instability
+N2...	Rheumatism, excluding the back
+N2142	Periarthritis of wrist
+N2172	Metatarsalgia NOS
+N21z1	Periarthritis NOS
+N22z.	Synovial, tendon or bursa disorder NOS
+N240.	Rheumatism and fibrositis unspecified
+N2400	Rheumatism unspecified
+N2402	Muscular rheumatism
+N2403	Rheumatic pain
+N2407	Hand rheumatism
+N240z	Rheumatism or fibrositis NOS
+N241.	Myalgia and myositis unspecified
+N2412	Fibromyositis NOS
+N241z	Myalgia or myositis NOS
+N242.	Neuralgia, neuritis and radiculitis unspecified
+N2420	Neuralgia unspecified
+N2421	Neuritis unspecified
+N247.	Other musculoskeletal limb symptoms
+N2y..	Other specified nonarticular rheumatism
+N2z..	Nonarticular rheumatism NOS
+N312.	Hypertrophic osteoarthropathy
+N337.	Complex regional pain syndrome type I
+N33A0	Bony pelvic pain
+N33A1	Clavicle pain
+N36..	Other acquired limb deformity
+N36yM	Old amputee NOS
+N36yz	Acquired limb deformity NEC
+N381.	Other acquired head deformity
+N38y.	Other acquired deformity
+N38yz	Other acquired deformity NOS
+N38z.	Acquired deformity NOS
+N39..	Nonallopathic lesions, NEC
+N399.	Nonallopathic lesion of the abdomen and other regions
+N39z.	Nonallopathic lesion NEC NOS
+N3y..	Other specified musculoskeletal disorders
+N3y0.	Biomechanical lesions, not elsewhere classified
+N3z..	Other musculoskeletal disorder NOS
+Ny...	Other specified diseases of musculoskeletal or connective tissue
+Nyu..	[X]Additional musculoskeletal and connective tissue disease classification terms
+Nyu03	[X]Other reactive arthropathies
+Nyu04	[X]Other post-infectious arthropathies in diseases classified elsewhere
+Nyu05	[X]Reactive arthropathy in other diseases classified elsewhere
+Nyu1.	[X]Inflammatory polyarthropathies
+Nyu10	[X]Rheumatoid arthritis with involvement of other organs or systems
+Nyu11	[X]Other seropositive rheumatoid arthritis
+Nyu12	[X]Other specified rheumatoid arthritis
+Nyu13	[X]Other psoriatic arthropathies
+Nyu14	[X]Other enteropathic arthropathies
+Nyu15	[X]Other juvenile arthritis
+Nyu16	[X]Juvenile arthritis in other diseases classified elsewhere
+Nyu1A	[X]Other specific arthropathies, not elsewhere classified
+Nyu1B	[X]Other specified arthritis
+Nyu1E	[X]Arthropathies in other endocrine, nutritional and metabolic disorders
+Nyu1F	[X]Arthropathies in other specified diseases classified elsewhere
+Nyu1G	[X]Seropositive rheumatoid arthritis, unspecified
+Nyu2.	[X]Arthrosis
+Nyu20	[X]Other polyarthrosis
+Nyu21	[X]Other primary coxarthrosis
+Nyu22	[X]Other dysplastic coxarthrosis
+Nyu23	[X]Other post-traumatic coxarthrosis
+Nyu24	[X]Other secondary coxarthrosis, bilateral
+Nyu26	[X]Other post-traumatic gonarthrosis
+Nyu27	[X]Other secondary gonarthrosis, bilateral
+Nyu28	[X] Secondary gonarthrosis: [other] or [unilateral]
+Nyu29	[X]Other primary arthrosis of first carpometacarpal joint
+Nyu2A	[X]Other post-traumatic arthrosis of first carpometacarpal joint
+Nyu2B	[X]Other secondary arthrosis of first carpometacarpal joints, bilateral
+Nyu2C	[X]Other secondary arthrosis of first carpometacarpal joint
+Nyu2D	[X]Other specified arthrosis
+Nyu2E	[X] Secondary coxarthrosis: [other] or [unilateral]
+Nyu2F	[X]Post-traumatic arthrosis of other joints
+Nyu3.	[X]Other joint disorders
+Nyu34	[X]Other specified acquired deformities of limbs
+Nyu3C	[X]Other instability of joint
+Nyu3D	[X]Other specified joint disorders
+Nyu4.	[X]Systemic connective tissue disorders
+Nyu47	[X]Other systemic diseases of connective tissue
+Nyu49	[X]Arthropathy in neoplastic disease classified elsewhere
+Nyu4A	[X]Arthropathy in other blood disorders classified elsewhere
+Nyu4B	[X]Arthropathy in hypersensitivity reactions classified elsewhere
+Nyu4C	[X]Systemic disorders of connective tissue in other diseases classified elsewhere
+Nyu62	[X]Other spondylosis with myelopathy
+Nyu63	[X]Other spondylosis with radiculopathy
+Nyu64	[X]Other spondylosis
+Nyu94	[X]Other specified disorders of synovium and tendon
+Nyu96	[X]Other disorders of synovium and tendon in diseases classified elsewhere
+NyuC7	[X]Other hypertrophic osteoarthropathy
+NyuE.	[X]Other disorders of the musculoskeletal system and connective tissue
+NyuE0	[X]Other specified acquired deformities of musculoskeletal system
+NyuE2	[X]Other postprocedural musculoskeletal disorders
+NyuE3	[X]Other biomechanical lesions
+NyuE4	[X]Postprocedural musculoskeletal disorder, unspecified
+Nz...	Musculoskeletal and connective tissue diseases NOS
+P1131	Cervical spinal meningocele
+P1132	Thoracic spinal meningocele
+PE...	Congenital musculoskeletal deformities (& [certain])
+PE35.	Unstable hip (& congenital)
+PE9..	Other musculoskeletal deformity (& [congenital])
+PEz..	Congenital musculoskeletal deformity NOS
+PF6y2	Congenital deformity of sacroiliac joint
+PF6y3	Congenital fusion of sacroiliac joint
+PG...	Other congenital musculoskeletal anomalies
+PG44.	Other specified dwarfing syndromes
+PG44z	Other dwarfing syndromes NOS
+PGy..	Other specified muscle, tendon and fascia anomaly
+PGyyz	Other anomaly of tendon, fascia or muscle NOS
+PGyz.	Other muscle, tendon or fascia anomalies NOS
+PGz..	(Congenital musculoskeletal anomalies NOS) or (congenital deformity of musculoskeletal system NEC)
+PGz2.	Unspecified anomaly of bones
+PGz3.	Unspecified anomaly of cartilage
+PKy8.	Congenital malformation syndromes with other skeletal changes
+Pyu8.	[X]Congenital malformations and deformations of the musculoskeletal system
+Pyu86	[X]Other specified congenital musculoskeletal deformities
+Pyu8M	[X]Other congenital malformations of the musculoskeletal system
+Q204.	Spine or spinal cord injury due to birth trauma
+Q204z	Spine or spinal cord injury due to birth trauma NOS
+R00z2	[D]Pain, generalised
+R00zC	[D]Chronic intractable pain
+R01z.	[D]Other nervous and musculoskeletal symptoms
+R01z2	[D]Musculoskeletal pain
+R01zz	[D]Nervous or musculoskeletal symptoms NOS
+R04..	[D]Head and neck symptoms
+R040.	[D]Headache
+R0400	[D]Facial pain
+R04zz	[D]Head and neck symptoms NOS
+R065A	[D]Musculoskeletal chest pain
+R090.	[D]Abdominal pain
+R090C	[D]Loin pain
+R090D	[D]Abdominal migraine
+R090y	[D]Other specified abdominal pain
+R090z	[D]Abdominal pain NOS
+Ryu11	[X]Other and unspecified abdominal pain
+Ryu70	[X]Other chronic pain
+S1...	Fracture of neck and trunk
+S1000	Closed fracture of unspecified cervical vertebra
+S100z	Closed fracture of cervical spine not otherwise specified
+S1010	Open fracture of unspecified cervical vertebra
+S1013	Open fracture of third cervical vertebra (& [without mention of spinal cord lesion])
+S1014	Open fracture of fourth cervical vertebra (& [without mention of spinal cord lesion])
+S1015	Open fracture of fifth cervical vertebra (& [without mention of spinal cord lesion])
+S1016	Open fracture of sixth cervical vertebra (& [without mention of spinal cord lesion])
+S1017	Open fracture of seventh cervical vertebra (& [without mention of spinal cord lesion])
+S101z	Open fracture of cervical spine not otherwise specified
+S10A2	Multiple fractures of cervical spine
+S10B.	Fracture of lumbar spine and pelvis
+S10B6	Multiple fractures of lumbar spine and pelvis
+S10x.	Closed fracture of spine, unspecified,
+S10y.	Open fracture of spine, unspecified,
+S10z.	Fracture of spine without mention of spinal cord lesion NOS
+S110.	Closed fracture of cervical spine with cord lesion
+S1100	Closed spinal fracture with unspecified cervical cord lesion, C1-4
+S1101	Closed spinal fracture with complete cervical cord lesion, C1-4
+S1102	Closed spinal fracture with anterior cervical cord lesion, C1-4
+S1103	Closed spinal fracture with central cervical cord lesion , C1-4
+S1104	Closed spinal fracture with posterior cervical cord lesion, C1-4
+S1105	Closed spinal fracture with incomplete cervical cord lesion, C1-4 not otherwise specified
+S1106	Closed spinal fracture with unspecified cervical cord lesion, C5-7
+S1107	Closed spinal fracture with complete cervical cord lesion, C5-7
+S1108	Closed spinal fracture with anterior cervical cord lesion, C5-7
+S1109	Closed spinal fracture with central cervical cord lesion, C5-7
+S110A	Closed spinal fracture with posterior cervical cord lesion, C5-7
+S110B	Closed spinal fracture with incomplete cervical cord lesion, C5-7 not otherwise specified
+S110z	Closed fracture of cervical spine with spinal cord lesion NOS
+S111.	Open fracture of cervical spine with spinal cord lesion
+S1110	Open spinal fracture with unspecified cervical cord lesion, C1-4
+S1111	Open spinal fracture with complete cervical cord lesion, C1-4
+S1112	Open spinal fracture with anterior cervical cord lesion, C1-4
+S1113	Open spinal fracture with central cervical cord lesion, C1-4
+S1114	Open spinal fracture with posterior cervical cord lesion, C1-4
+S1115	Open spinal fracture with incomplete cervical cord lesion, C1-4 not otherwise specified
+S1116	Open spinal fracture with unspecified cervical cord lesion, C5-7
+S1117	Open spinal fracture with complete cervical cord lesion, C5-7
+S1118	Open spinal fracture with anterior cervical cord lesion, C5-7
+S1119	Open spinal fracture with central cervical cord lesion, C5-7
+S111A	Open spinal fracture with posterior cervical cord lesion, C5-7
+S111B	Open spinal fracture with incomplete cervical cord lesion, C5-7 not otherwise specified
+S111z	Open fracture of cervical spine with spinal cord lesion NOS
+S112.	Closed fracture of thoracic spine with spinal cord lesion
+S1120	Closed spinal fracture with unspecified thoracic cord lesion, T1-6
+S1121	Closed spinal fracture with complete thoracic cord lesion, T1-6
+S1122	Closed spinal fracture with anterior thoracic cord lesion, T1-6
+S1123	Closed spinal fracture with central thoracic cord lesion, T1-6
+S1124	Closed spinal fracture with posterior thoracic cord lesion, T1-6
+S1125	Closed spinal fracture with incomplete thoracic cord lesion, T1-6 not otherwise specified
+S1126	Closed spinal fracture with unspecified thoracic cord lesion,T7-12
+S1127	Closed spinal fracture with complete thoracic cord lesion,T7-12
+S1128	Closed spinal fracture with anterior thoracic cord lesion,T7-12
+S1129	Closed spinal fracture with central thoracic cord lesion, T7-12
+S112A	Closed spinal fracture with posterior thoracic cord lesion, T7-12
+S112B	Closed spinal fracture with incomplete thoracic cord lesion,T7-12 not otherwise specified
+S112z	Closed fracture of thoracic spine with spinal cord lesion NOS
+S113.	Open fracture of thoracic spine with spinal cord lesion
+S1130	Open spinal fracture with unspecified thoracic cord lesion, T1-6
+S1131	Open spinal fracture with complete thoracic cord lesion, T1-6
+S1132	Open spinal fracture with anterior thoracic cord lesion, T1-6
+S1133	Open spinal fracture with central thoracic cord lesion, T1-6
+S1134	Open spinal fracture with posterior thoracic cord lesion, T1-6
+S1135	Open spinal fracture with incomplete thoracic cord lesion, T1-6 not otherwise specified
+S1136	Open spinal fracture with unspecified thoracic cord lesion, T7-12
+S1137	Open spinal fracture with complete thoracic cord lesion, T7-12
+S1138	Open spinal fracture with anterior thoracic cord lesion, T7-12
+S1139	Open spinal fracture with central thoracic cord lesion, T7-12
+S113A	Open spinal fracture with posterior thoracic cord lesion, T7-12
+S113B	Open spinal fracture with incomplete thoracic cord lesion, T7-12 not otherwise specified
+S113z	Open fracture of thoracic spine with spinal cord lesion NOS
+S114.	Closed fracture of lumbar spine with spinal cord lesion
+S1140	Closed spinal fracture with unspecified lumbar cord lesion
+S1141	Closed spinal fracture with complete lumbar cord lesion
+S1142	Closed spinal fracture with anterior lumbar cord lesion
+S1143	Closed spinal fracture with central lumbar cord lesion
+S1144	Closed spinal fracture with posterior lumbar cord lesion
+S1145	Closed spinal fracture with cauda equina lesion
+S115.	Open fracture of lumbar spine with spinal cord lesion
+S1150	Open spinal fracture with unspecified lumbar cord lesion
+S1151	Open spinal fracture with complete lumbar cord lesion
+S1152	Open spinal fracture with anterior lumbar cord lesion
+S1153	Open spinal fracture with central lumbar cord lesion
+S1154	Open spinal fracture with posterior lumbar cord lesion
+S1155	Open spinal fracture with cauda equina lesion
+S115z	Open spinal fracture with incomplete lumbar cord lesion not otherwise specified
+S116.	Closed fracture of sacrum with spinal cord lesion
+S1160	Closed fracture of sacrum with unspecified spinal cord lesion
+S1162	Closed fracture of sacrum with other cauda equina injury
+S1163	Closed fracture of sacrum with other spinal cord injury
+S116z	Closed fracture of sacrum with spinal cord lesion NOS
+S117.	Open fracture of sacrum with spinal cord lesion
+S1170	Open fracture of sacrum with unspecified spinal cord lesion
+S1172	Open fracture of sacrum with other cauda equina injury
+S1173	Open fracture of sacrum with other spinal cord injury
+S117z	Open fracture of sacrum with spinal cord lesion NOS
+S118.	Closed fracture of coccyx with spinal cord lesion
+S1180	Closed fracture of coccyx with unspecified spinal cord lesion
+S1182	Closed fracture of coccyx with other cauda equina injury
+S1183	Closed fracture of coccyx with other spinal cord injury
+S118z	Closed fracture of coccyx with spinal cord lesion NOS
+S119.	Open fracture of coccyx with spinal cord lesion
+S1190	Open fracture of coccyx with unspecified spinal cord lesion
+S1192	Open fracture of coccyx with other cauda equina injury
+S1193	Open fracture of coccyx with other spinal cord injury
+S119z	Open fracture of coccyx with spinal cord lesion NOS
+S11x.	Closed fracture of spine with spinal cord lesion unspecified
+S11y.	Open fracture of spine with spinal cord lesion unspecified
+S11z.	Fracture of spine with spinal cord lesion NOS
+S150.	Multiple fractures of thoracic spine
+S1z..	Fracture of neck and trunk NOS
+S5...	Sprains and strains of joints and adjacent muscles
+S51w.	Other elbow sprain
+S51y.	Elbow sprain NOS
+S560.	Sprain, lumbosacral ligament
+S561.	Sprain of ligament of sacroiliac joint
+S56y.	Other specified sacroiliac sprains
+S56z.	Sacroiliac sprain NOS
+S570.	Neck sprain
+S5701	Cervical anterior longitudinal ligament sprain
+S5702	Atlantoaxial joint sprain
+S5703	Atlanto-occipital joint sprain
+S570z	Neck sprain NOS
+S572.	Lumbar sprain
+S57z.	Back sprain NOS
+S5y..	Other and ill-defined sprains and strains
+S5yy.	Other specified sprains and strains
+S5yz.	Other and ill-defined sprains and strains NOS
+SD0..	Superficial injury to head, excluding eye
+SD0y1	Superficial injury of neck NOS
+SD0y2	Superficial injury of scalp NOS
+SD0yz	Superficial injury of face, neck, and scalp, no infection, NOS
+SD0z.	Superficial injury of face/neck/scalp NOS, infected
+SD0z0	Superficial injury of face NOS, infected
+SD0z1	Superficial injury of neck NOS, infected
+SD0z2	Superficial injury of scalp NOS, infected
+SD0zz	Superficial injury of head NOS, infection NOS
+SD722	Neuropathic foot blister
+SDC0.	Superficial injuries involving head with neck
+SF02.	Crush injury, neck
+SF020	Crush injury, throat, unspecified
+SF02z	Crush injury, neck NOS
+SF0z.	Crush injury, face, scalp and neck NOS
+SJ...	(Injuries: [nerve and/or spinal cord] or [cranial nerve]) or (neuroma - traumatic)
+SJ1..	Injury to other cranial nerves
+SJ1y.	Other specified cranial nerve injury
+SJ1yz	Other specified cranial nerve injury NOS
+SJ1z.	Injury to other cranial nerve NOS
+SJ2..	Spinal cord injury without evidence of spinal bone injury
+SJ20.	Cervical cord injury without evidence of spinal bone injury
+SJ205	Incomplete cervical cord injury, unspecified, without bony injury, C1-4
+SJ20B	Incomplete cervical cord injury, unspecified, without bony injury, C5-7
+SJ20z	Cervical cord injury without spinal bone injury NOS
+SJ21.	Thoracic cord injury without spinal bone injury
+SJ210	Unspecified thoracic cord injury, without bony injury, T1-6
+SJ215	Incomplete thoracic cord injury, unspecified, without bony injury, T1-6
+SJ216	Unspecified thoracic cord injury, without bony injury, T7-12
+SJ21B	Incomplete thoracic cord injury, unspecified, without bony injury, T7-12
+SJ21z	Thoracic cord injury without spinal bone injury, NOS
+SJ22.	Lumbar cord injury without spinal bone injury
+SJ220	Unspecified lumbar cord injury without bony injury
+SJ225	Incomplete lumbar cord injury, unspecified, without bony injury
+SJ2z.	Spinal cord injury without spinal bone injury NOS
+SJ3x.	Nerve root and spinal plexus injuries of multiple sites
+SJ3z.	Nerve root and spinal plexus injuries NOS
+SJ60.	Sciatic nerve injury
+SJ600	Closed injury sciatic nerve
+SJ601	Open injury sciatic nerve
+SJ70.	Superficial nerve injury: [neck (& head)]
+SJ71.	Injury of peripheral nerves of neck
+SJ8..	Injury of nerves and spinal cord at neck level
+SJ9..	Injury of nerves and spinal cord at thorax level
+SJz..	Nerve and spinal cord injury NOS
+SK10y	Other neck injuries
+SK1x1	Multiple superficial injuries of neck
+SK1x3	Multiple injuries of neck
+SP073	Internal prosthetic device causing pain
+SP2y2	Postoperative pain
+SR10.	Fractures involving head with neck
+SR20.	Dislocations, sprains and strains involving head with neck
+SR30.	Crushing injuries involving head with neck
+Syu06	[X]Sprain and strain of joints and ligaments of other and unspecified parts of head
+Syu07	[X]Injury of other cranial nerves
+Syu1.	[X]Injuries to the neck
+Syu11	[X]Superficial injury of other parts of the neck
+Syu12	[X]Superficial injury of neck, part unspecified
+Syu15	[X]Fracture of other specified cervical vertebra
+Syu16	[X]Fracture of other parts of neck
+Syu18	[X]Sprain and strain of joints and ligaments of other and unspecified parts of neck
+Syu19	[X]Other and unspecified injuries of cervical spinal cord
+Syu1A	[X]Injury of other and unspecified nerves of neck
+Syu1D	[X]Crushing injury of other parts of neck
+Syu1E	[X]Crushing injury of neck, part unspecified
+Syu1F	[X]Other specified injuries of neck
+Syu2B	[X]Other and unspecified injuries of thoracic spinal cord
+Syu36	[X]Sprain and strain of other and unspecified parts of lumbar spine and pelvis
+Syu38	[X]Other injury of lumbar spinal cord
+SyuK.	[X]Complications of surgical and medical care, not elsewhere classified
+SyuK1	[X]Other complications following infusion, transfusion and therapeutic injection
+SyuK2	[X]Other complications of procedures, not elsewhere classified
+SyuK3	[X]Mechanical complication of other vascular grafts
+SyuK4	([X] Mechanical complication of other cardiac and vascular devices and implants) or ([X] mechanical complication of vascular catheter)
+SyuK5	([X]Infection and inflammatory reaction due to other cardiac and vascular devices, implants and grafts) or ([X] vascular graft infection)
+SyuK6	([X] Other complications of cardiac and vascular prosthetic devices, implants and grafts) or ([X] embolism from prosthetic heart valve)
+SyuK7	[X]Unspecified complication of cardiac and vascular prosthetic device, implant and graft
+SyuK8	[X]Mechanical complication of other urinary devices and implants
+SyuK9	[X]Mechanical complication of other devices, implants and grafts of genital tract
+SyuKA	[X]Other complications of genitourinary prosthetic devices, implants and grafts
+SyuKD	[X]Infection and inflammatory reaction due to other internal orthopaedic prosthetic devices, implants and grafts
+SyuKE	[X] Other complications of internal orthopaedic prosthetic devices, implants and grafts (& [prosthesis: [pain due to] or [fibrosis due to]] or [stiffness following joint replacement])
+SyuKF	[X]Mechanical complication of other ocular prosthetic devices, implants and grafts
+SyuKG	[X]Mechanical complication of other specified internal prosthetic devices, implants and grafts
+SyuKH	[X]Infection and inflammatory reaction due to other internal prosthetic devices, implants and grafts
+SyuKJ	[X]Other complications of internal prosthetic devices, implants and grafts, not elsewhere classified
+SyuKL	[X]Complications of other reattached body part
+SyuKN	[X]Other complications following immunization, not elsewhere classified
+SyuKQ	[X]Other specified complications and adverse effects of surgical and medical care, not elsewhere classified
+SyuL1	[X]Sequelae of other fracture of thorax and pelvis
+SyuL2	[X]Sequelae of other specified injuries of neck and trunk
+SyuLC	[X]Sequelae of unspecified injury of neck and trunk
+U633.	[X]Surgical operation with formation of external stoma as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+U640.	[X]Cardiac catheterisation as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+U644.	[X]Aspiration of fluid as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+U645.	[X]Insertion of gastric or duodenal sound as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+U647.	[X]Blood sampling as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+Ua1Mo	Partnership in pain control (InPS+developmental)
+Ua1Mr	Pain relief in labour (InPS+developmental)
+X007c	Chronic post-traumatic headache
+X007I	Headache disorder
+X007J	Migraine with typical aura
+X007K	Migraine with prolonged aura
+X007l	Benign exertion headache
+X007T	Muscular headache
+X007V	Chronic tension-type headache
+X00A7	Neuritis ulnar nerve
+X00A8	Peripheral neuropathy - hereditary or idiopathic
+X00A9	Hereditary motor and sensory neuropathy type I
+X00Aa	Neuropathy due to deficiency syndrome
+X00AA	Hereditary motor and sensory neuropathy type II
+X00Af	Neuropathy associated with endocrine disorder
+X00Ag	Diabetic neuropathy
+X00Al	Diabetic mononeuropathy
+X00AZ	Neuropathies and neuromyelopathies associated with systemic disorder
+X00B2	Critical illness polyneuropathy
+X00B3	Neuropathy due to infection
+X00B5	Diphtheritic neuropathy
+X00BG	Toxic neuropathy
+X00BQ	Injury of spinal plexus
+X00C5	Intercostal neuropathy
+X00C9	Traumatic neuroma - disorder
+X00CH	Axonal sensorimotor neuropathy
+X40Po	Amyloid polyneuropathy type I
+X40Pp	Familial amyloid polyneuropathy type II
+X40Pq	Familial amyloid polyneuropathy type III
+X40QJ	Arthritis secondary to amyloidosis
+X40YD	Neuropathic beriberi
+X50Bj	Neuropathic foot ulcer
+X50Kz	Persistent wound pain
+X607K	Operation for spinal trauma
+X607M	Application of spinal traction system
+X7003	Calcification of joint
+X7004	Foot arthritis NOS
+X7005	Ankle arthritis NOS
+X7006	Knee arthritis NOS
+X7007	Hip arthritis NOS
+X7008	Wrist arthritis NOS
+X7009	Elbow arthritis NOS
+X700A	Coxitis
+X700S	Anterior knee pain
+X701A	Intermittent joint effusion
+X701E	Fistula of joint
+X701f	Post-immunisation arthritis
+X701g	Arthritis following intestinal bypass
+X701G	Joint injury
+X701h	Seropositive rheumatoid arthritis
+X701i	Seronegative rheumatoid arthritis
+X701j	Rheumatoid arthritis with organ / system involvement
+X701J	Knee pyogenic arthritis
+X701k	Fibrosing alveolitis associated with rheumatoid arthritis
+X701L	Wrist pyogenic arthritis
+X701M	Elbow pyogenic arthritis
+X701n	Juvenile chronic arthritis
+X701O	Arthritis due to viral infection
+X701R	Lyme arthritis
+X701t	Juvenile rheumatoid arthritis
+X701T	Arthritis due to parasitic infection
+X701U	Post-infective arthritis
+X701v	Juvenile psoriatic arthritis with psoriasis
+X701W	Reactive arthritis
+X701x	Juvenile ankylosing spondylitis
+X701Y	Arthropathy in nonspecific urethritis
+X701Z	Post-genitourinary infection Reiter's disease
+X7026	Psoriatic arthritis with distal interphalangeal joint involvement
+X7027	Psoriatic arthritis - destructive type
+X702E	Undifferentiated inflammatory arthritis
+X702L	Secondary inflammatory arthritis
+X702P	Charcot's arthropathy
+X702z	Toe osteoarthritis NOS
+X7030	Foot osteoarthritis NOS
+X7031	Ankle osteoarthritis NOS
+X7034	Thumb osteoarthritis NOS
+X7035	Finger osteoarthritis NOS
+X7039	Spondylosis
+X703A	Osteoarthritis of spinal facet joint
+X703B	Osteoarthritis of shoulder joint
+X703C	Osteoarthritis of acromioclavicular joint
+X703D	Osteoarthritis of elbow
+X703E	Osteoarthritis of wrist
+X703F	Osteoarthritis of first carpometacarpal joint
+X703G	Osteoarthritis of finger joint
+X703H	Osteoarthritis of distal interphalangeal joint
+X703I	Osteoarthritis of proximal interphalangeal joint
+X703j	Cervical spondylosis
+X703k	Lumbar spondylosis
+X703K	Osteoarthritis of hip
+X703L	Osteoarthritis of knee
+X703M	Osteoarthritis of ankle
+X703N	Osteoarthritis of subtalar joint
+X703O	Osteoarthritis of first metatarsalphalangeal joint
+X703P	Osteoarthritis of toe joint
+X7041	Localised osteoarthritis
+X7042	Otto's pelvis
+X7043	Coxae malum senilis
+X707a	Metatarsalgia
+X70Cb	Ankylosis of spine NOS
+X70Co	Spinal stenosis
+X70Cw	Thoracic spondylosis
+X70Cy	Degenerative arthropathy of spinal facet joint
+X70D4	Acquired skeletal deformity
+X70IH	Postmeningococcal arthritis
+X75rf	Iliac fossa pain
+X75rg	Flank pain
+X75rG	Pain in sinuses
+X75rp	Musculoskeletal pain disorder
+X75rq	Bone pain
+X75rs	Muscle pain
+X75rt	Intercostal myalgia
+X75rv	Hip pain
+X75rz	Acute back pain with sciatica
+X75s4	Facet joint pain
+X75s9	Shoulder pain
+X75sa	Neuralgia
+X75sA	Pain in lower limb
+X75sB	Heel pain
+X75sC	Hand pain
+X75sD	Foot pain
+X75sE	Pain in upper limb
+X75sF	Ankle pain
+X75sS	Neuritis
+X75sv	Post-herpetic neuralgia
+X75sy	Neuropathic pain
+X76DG	Observation of the extremities
+X76G5	Bouchard's node
+X76ml	Stiff neck NOS
+X76mm	Stiff back
+X76qd	Hand cramps
+X76qj	Joint observation
+X76r7	Unstable knee
+X786T	Congenital deformity of musculoskeletal system NEC
+XA007	Neck injury
+XA00G	Spinal injury
+XA01L	Crushing injury of skull and intracranial contents
+XA04P	Spinal cord injury
+Xa07F	Pain
+XA0BL	Injury of cranial nerve
+XA0CN	Back sprain excluding lumbosacral
+XA0CR	Sprain of sacroiliac joint
+XA0Ej	Injury of specialised joint structure
+XA0Ex	Sprain of ligament of elbow
+XA0G9	Fracture of transverse process of spine without spinal cord lesion
+XA0GA	Fracture of transverse process of spine with spinal cord lesion
+XA0GB	Fracture of cervical spine
+XA0GD	Closed fracture of atlas without spinal cord lesion
+XA0GE	Closed fracture of axis without spinal cord lesion
+XA0GF	Closed fracture of third cervical vertebra without mention of spinal cord lesion
+XA0GG	Closed fracture of fourth cervical vertebra without mention of spinal cord lesion
+XA0GH	Closed fracture of fifth cervical vertebra without mention of spinal cord lesion
+XA0GI	Closed fracture of sixth cervical vertebra without mention of spinal cord lesion
+XA0GJ	Closed fracture of seventh cervical vertebra without mention of spinal cord lesion
+XA0GK	Open fracture of atlas without spinal cord lesion
+XA0GL	Open fracture of axis without spinal cord lesion
+Xa0iE	Pain management
+Xa0Ml	Central post-stroke pain
+Xa0sK	Chronic low back pain
+Xa0sM	Acute low back pain
+Xa0t5	Morton neuroma
+Xa0wj	Pain in cervical spine
+Xa0wp	Acute thoracic back pain
+Xa0ws	Thoracic back pain
+Xa0wt	Low back pain
+Xa0wu	Mechanical low back pain
+Xa0wU	Cervicogenic headache
+Xa0wx	Knee pain
+Xa0wy	Thigh pain
+Xa0wz	Pain in buttock
+Xa0y5	Complex regional pain syndrome
+Xa0yJ	Musculoskeletal pain
+Xa0yk	Cramping pain
+Xa0yn	Heavy pain
+Xa0yp	Splitting pain
+Xa0yP	Pain observations
+Xa1hJ	Musculoskeletal chest pain
+Xa1n6	Strain of tendon of head and neck
+Xa1oY	Sprain of spinal ligament
+Xa2DK	Brown-Sequard syndrome
+Xa2Hd	Superficial injury of head and neck
+Xa2Uu	Degloving injury of neck
+Xa32s	Sequelae of injuries of neck and trunk
+Xa35V	Pain in elbow
+Xa35W	Pain in toe
+Xa3fB	Other peripheral neuropathy
+Xa3fC	Other peripheral nerve disease
+Xa3gL	Rheumatoid arthritis - multiple joint
+Xa3gO	Rheumatoid arthritis - other joint
+Xa3gP	Rheumatoid arthritis NOS
+Xa3gQ	Osteoarthritis - hand joint
+Xa3gS	Osteoarthritis - other joint
+Xa3gv	Rheumatism hip NOS
+Xa3gw	Rheumatism knee NOS
+Xa3gx	Rheumatism ankle/foot NOS
+Xa3h0	Pain in left leg
+Xa3h1	Pain in right leg
+Xa3h2	Pain in limb NOS
+Xa3hp	Dislocations/sprains NOS
+Xa3qo	Spinal traction NEC NOS
+Xa3qp	Spinal traction NEC
+Xa3wk	Still's disease - juvenile rheumatoid arthritis
+Xa40k	Rheumatism multiple NOS
+Xa40l	Rheumatism shoulder NOS
+Xa40m	Rheumatism elbow NOS
+Xa40n	Rheumatism wrist NOS
+Xa40o	Rheumatism hand NOS
+Xa415	Pain in limb - multiple
+Xa6aA	Rib pain
+Xa6rE	Sacroiliac joint inflamed
+Xa6sc	Joint problem
+Xa7m5	Polyneuritis
+Xa7m8	Pain in calf
+Xa7m9	Pain in thumb
+Xa7PJ	Joint disorder
+Xa7ws	Pain of head and neck region
+Xa83s	Right upper quadrant pain
+Xa85s	Irritable hip
+Xa8EG	Ankylosis of upper limb joint
+Xa8EL	Ankylosis of lower limb joint
+Xa8I0	Peripheral nerve disease
+Xa8Ku	Observation of limb structure
+Xa9D0	Congenital abnormality of musculoskeletal system
+Xa9DC	Sprain of elbow joint
+XaA1H	Mononeuropathy
+Xaacg	Private referral to pain management service
+XaAcM	Referral to pain management service
+XaAfZ	Referral to pain management specialist
+XaAP6	Under care of pain management specialist
+XaB3q	Polyneuropathy unspecified
+XaB5B	Cervical nerve root pain
+XaB5C	Thoracic nerve root pain
+XaBDO	[D] Right upper quadrant pain
+XaBMO	Seropositive errosive rheumatoid arthritis
+XaBmY	Osteoarthritis of foot joint
+XabRZ	Axial spondyloarthritis
+XaBV4	Other synovial, tendon or bursa disorder NOS
+XaC0R	Lumbosacral strain
+Xac0x	Diabetic peripheral neuropathic pain
+XaC1M	Pain due to hip joint prosthesis
+XaC1N	Pain due to knee joint prosthesis
+XaC1O	Pain due to shoulder joint prosthesis
+XaCIV	C/O - pain in toes
+XaCIW	C/O - pain in hallux
+XaCx4	Open reduction of spinal fracture
+XaCx6	Primary closed reduction of spinal fracture
+XaCx7	Revision closed reduction of spinal fracture
+XaCx8	Primary open reduction of spinal fracture
+XaCx9	Revision open reduction of spinal fracture
+XaD2p	Prolapsed lumbar intervertebral disc with sciatica
+XaD31	Open multiple fracture of thoracic spine
+XaD3b	Closed fractures involving head with neck
+XaD3c	Open fractures involving head with neck
+XaDmf	Musculoskeletal and connective tissue diseases
+XaE3a	Spinal fracture with cervical cord lesion
+XaE3b	Spinal fracture with thoracic cord lesion
+XaE3c	Spinal fracture with lumbar cord lesion
+XaEGd	Localised, primary osteoarthritis of the wrist
+XaEGe	Localised, primary osteoarthritis of toe
+XaEGf	Localised, primary osteoarthritis of elbow
+XaEnp	Type II diabetes mellitus with mononeuropathy
+XaEnq	Type II diabetes mellitus with polyneuropathy
+XaFCO	Intermittent pain
+XaFn8	Type II diabetes mellitus with arthropathy
+XaFn9	Type II diabetes mellitus with neuropathic arthropathy
+XaIkm	Pain management (specialty)
+XaINe	Exacerbation of backache
+XaIrg	Ulnar neuropathy
+XaIsz	Benign coital headache
+XaJW3	Referral to musculoskeletal clinic
+XaLxr	Vertebroplasty of fracture of spine
+XaMMz	Posterior decompression of fracture of spine NEC
+XaNTh	Referral to headache special interest general practitioner
+XaP0r	Primary progressive multiple sclerosis
+XaP1V	Secondary progressive multiple sclerosis
+XaPii	Referral to musculoskeletal special interest general practitioner
+XaQbU	Intermittent hydrarthrosis
+XaQZd	Chronic headache disorder
+XaREX	Arthropathy in cystic fibrosis
+XaXpZ	Infrequent episodic tension-type headache
+XaXsF	Frequent episodic tension-type headache
+XaY5O	[D]Other symptoms affecting head and neck
+XaYm9	Constant pain
+XaYQD	Patellofemoral osteoarthritis
+XaYYK	Post-dysenteric reactive arthropathy
+XaZMh	Rheumatism
+XaZRb	Referral to community musculoskeletal service
+XaZtP	Chronic pain review
+XC0eJ	Neuropathy
+XE0In	Other reduction of fracture of spine
+XE0Io	Fixation of spinal fracture
+XE0Ip	Fixation of fracture of spine and skull traction however further qualified
+XE0rh	Headache
+XE0rZ	Nervous system symptoms
+XE0s6	Frontal headache
+XE0sG	C/O: a pain
+XE0sI	Symptom: head/neck
+XE0vN	C/O: [a pain] or [an ache]
+XE15i	Mononeuritis of unspecified site NOS
+XE15j	Inflammatory and toxic neuropathy
+XE15k	Diabetic polyneuropathy
+XE15m	Toxic or inflammatory neuropathy NOS
+XE18P	Drug &/or toxic polyneuropathy
+XE1Da	Osteoarthritis NOS
+XE1Db	Osteoarthritis NOS, of the upper arm
+XE1Dc	Osteoarthritis NOS, of the forearm
+XE1Dd	Osteoarthritis NOS, of the hand
+XE1DD	Musculoskeletal disorder
+XE1De	Osteoarthritis NOS, pelvic region/thigh
+XE1DE	Connective tissue disease
+XE1Df	Osteoarthritis NOS, of the lower leg
+XE1Dg	Osteoarthritis NOS, of ankle and foot
+XE1Di	Unspecified polyarthropathy or polyarthritis NOS
+XE1DI	Other specified diffuse collagen diseases
+XE1Dj	Unspecified monoarthritis
+XE1Dk	Arthropathy NOS
+XE1DK	Pyogenic arthritis of the upper arm
+XE1Dl	Arthropathy NOS, of the upper arm
+XE1Dm	Arthropathy NOS, of the forearm
+XE1Dn	Arthropathy NOS, of the pelvic region and thigh
+XE1Do	Arthropathy NOS, of the lower leg
+XE1Dp	Arthropathy NOS, of the ankle and foot
+XE1DP	Post-genitourinary infection reactive arthritis
+XE1DQ	Arthropathy in Behcet's syndrome of unspecified site
+XE1DU	Rheumatoid arthritis and other inflammatory polyarthropathies
+XE1DV	Osteoarthritis
+XE1DW	Generalised osteoarthritis of the hand
+XE1DX	Localised, secondary osteoarthritis of the pelvic region and thigh
+XE1DY	Localised osteoarthritis, unspecified, of the pelvic region and thigh
+XE1DZ	Localised osteoarthritis, unspecified, of the lower leg
+XE1Ea	Arthralgia of the upper arm
+XE1Eb	Arthralgia of the forearm
+XE1Ec	Arthralgia of the pelvic region and thigh
+XE1Ed	Arthralgia of the lower leg
+XE1Ee	Arthralgia of the ankle and foot
+XE1EG	Joint ankylosis of the upper arm
+XE1EH	Joint ankylosis of the forearm
+XE1EI	Joint ankylosis of the pelvic region and thigh
+XE1EJ	Joint ankylosis of the lower leg
+XE1EK	Joint ankylosis of the ankle and foot
+XE1Em	Other joint symptoms
+XE1En	Other joint symptoms of unspecified site
+XE1Eo	Other joint symptoms of the pelvic region and thigh
+XE1Ep	Other joint symptoms of the lower leg
+XE1Eq	Other joint symptoms of the ankle and foot
+XE1Er	Other specified joint disorders
+XE1EX	Palindromic rheumatism
+XE1Ey	Spondylosis NOS
+XE1EY	Joint pain
+XE1EZ	Shoulder joint pain
+XE1F4	Neck pain
+XE1F9	Spinal stenosis, excluding cervical region
+XE1FA	Pain in thoracic spine
+XE1Fb	Other synovial, tendon and bursa disorders
+XE1FB	Pain in lumbar spine
+XE1FC	Sciatica
+XE1FD	Thoracic neuritis, unspecified
+XE1FE	Backache, unspecified
+XE1FF	Lumbosacral instability
+XE1FJ	Polymyalgia rheumatica
+XE1FL	Frozen shoulder
+XE1Fm	Myalgia unspecified
+XE1Fn	Neuralgia, neuritis or radiculitis NOS
+XE1Fp	Pain in limb
+XE1Fs	Musculoskeletal limb symptoms NOS
+XE1Ga	Disease: [diffuse connective tissue] or [collagen] or [connective tissue]
+XE1Gk	Polyarthropathy (& [inflammatory]) NOS
+XE1GL	Acquired deformity of other limb parts
+XE1Gm	Osteoarthritis -multiple joint
+XE1Go	Traumatic arthritis NOS
+XE1GT	[X]Other primary gonarthrosis
+XE1GU	[X]Other secondary gonarthrosis
+XE1GV	[X]Other secondary coxarthrosis
+XE1GY	(Musculoskeletal/connective tissue) or (musculoskeletal disease)
+XE1H6	(Pain in joint) or (coxalgia)
+XE1Hc	Spinal stenosis (& [excl cervical])
+XE1He	(Backache NOS) or (back pain [& low])
+XE1HG	(Joint: [disorder NOS] or [unstable]) or (polyarthralgia)
+XE1HO	(Spondylosis NOS) or (Kummell's disease/spondylitis)
+XE1HU	(Cervicalgia) or (neck pain NOS)
+XE1Ia	Pain in limb &/or NOS
+XE1IU	(Myalgia/myositis NOS) or (intercostal myalgia)
+XE1IY	(Neuralgia/neuritis - NOS) or (nerve root pain NEC)
+XE1J2	(Other musculoskeletal/connective) or (disorders NOS: [bone] or [cartilage])
+XE1JE	Limb deformity [& (acquired)] NOS
+XE1JO	(Acquired limb deformity NOS) or (foot: [dropped] or [pronation])
+XE1JU	(Acquired deformity NOS) or (contraction - pelvis)
+XE1kf	Open fracture of cervical spine
+XE1ki	Open fracture of third cervical vertebra
+XE1kj	Open fracture of fourth cervical vertebra
+XE1kk	Open fracture of fifth cervical vertebra
+XE1kl	Open fracture of sixth cervical vertebra
+XE1km	Open fracture of seventh cervical vertebra
+XE1kn	Fracture of spine with spinal cord lesion
+XE1kW	Fracture of vertebra without spinal cord lesion
+XE1kX	Closed fracture of cervical spine
+XE1Lg	Other musculoskeletal deformity
+XE1LT	Certain congenital musculoskeletal deformities
+XE1lw	Sprain of other parts of back
+XE1lx	Neck sprain, unspecified
+XE1m0	Sprains and strains NOS
+XE1MI	Other specified other anomalies of muscle, tendon and fascia
+XE1MJ	Congenital musculoskeletal anomalies NOS
+XE1Nu	(Congenital) or (acquired) anomaly: [msk] or [skeletal]
+XE1nV	Crush injury, face, scalp and neck
+XE1o3	Nerve and spinal cord injuries
+XE1o7	Nerve roots and spinal plexus injuries
+XE1oA	Head and neck superficial nerve injury
+XE1pI	[X]Mechanical complication of other cardiac and vascular devices and implants
+XE1pJ	[X]Infection and inflammatory reaction due to other cardiac and vascular devices, implants and grafts
+XE1pK	[X]Other complications of cardiac and vascular prosthetic devices, implants and grafts
+XE1pL	[X]Other complications of internal orthopaedic prosthetic devices, implants and grafts
+XE1pT	#Spine NOS - no cord lesion
+XE1s7	Cranial nerve injury NOS
+XE1sB	Spinal cord lesion - no #
+XE1tn	Medical care complication
+XE1Yl	Tension-type headache
+XE1Zn	[X]Persistent somatoform pain disorder
+XE2eZ	Congenital instability of hip joint
+XE2Qb	Kaschin-Beck disease
+XE2Qc	Unspecified polyarthropathy or polyarthritis
+XE2rs	[D]Pain in head NOS
+XE2sp	Neuropathic arthropathy
+XM05w	Heberden's node
+XM063	Joint crepitus
+XM064	Unstable ankle
+XM065	Instability of joint
+XM07g	Pain in face
+XM092	Loin pain
+XM094	Other specified abdominal pain
+XM0Ai	Inflammatory arthritis
+XM0Bi	Disorders of musculoskeletal implants and repairs
+XM0CC	C/O - a neck symptom
+XM0Cp	C/O - loin pain
+XM0Cq	C/O - lumbar pain
+XM0CV	C/O - a headache
+XM0u9	Arthritis/arthrosis
+XM0uO	Sacroiliitis
+XM0uT	Neck disorder NOS
+XM0v0	Musculo-skeletal disorder NOS
+XM0vh	Back sprain
+XM0vj	Lumbosacral sprain
+XM0vQ	Fracture of cervical spine with cord lesion
+XM0vR	Fracture of thoracic spine with cord lesion
+XM0vS	Fracture of lumbar spine with cord lesion
+XM0wb	Superficial injury of neck
+XM1B4	Chronic intractable pain
+XM1B8	Other chronic pain
+XM1B9	Pain localised to other parts of lower abdomen
+XM1GI	Back pain
+XM1JU	Other reduction of fracture of spine and stabilisation
+XM1JV	Internal fixation of fracture of spine
+XM1NJ	Finger pain
+XM1NK	Aching leg syndrome
+XM1NQ	Osteoarthritis of metacarpophalangeal joint
+XM1NU	Closed dislocation of sacroiliac joint
+XSDGs	Multiple joint disease
+XSGKA	Chronic pain
+XSJyV	Pain in wrist
+ZV494	[V]Disfigurements of limbs
+Zw043	[Q] Central spinal stenosis
+Zw044	[Q] Lateral spinal stenosis
+Zw045	[Q] Central and lateral spinal stenosis

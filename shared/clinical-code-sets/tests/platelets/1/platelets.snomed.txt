@@ -1,1 +1,2 @@
 1022651000000100	Platelet count (observable entity)
+1108041000000107	Platelet count in blood (observable entity)

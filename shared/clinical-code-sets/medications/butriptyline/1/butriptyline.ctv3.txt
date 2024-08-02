@@ -1,0 +1,5 @@
+d72..	Butriptyline
+d72z.	Butriptyline 50mg tablet
+d722.	Evadyne 50mg tablet
+d72y.	Butriptyline 25mg tablet
+d721.	Evadyne 25mg tablet

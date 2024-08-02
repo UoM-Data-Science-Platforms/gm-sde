@@ -1,0 +1,896 @@
+^ESCT1179116	Belladonna alkaloids and ergotamine tartrate and phenobarbital
+^ESCT1179117	Product containing belladonna alkaloids and ergotamine tartrate and phenobarbital
+^ESCT1179411	Product containing only phenobarbital 90 mg/1 each oral tablet
+^ESCT1179412	Product containing only phenobarbital 16 mg/1 each oral capsule
+^ESCT1183184	Product containing only belladonna alkaloids 0.2 mg and ergotamine tartrate 0.6 mg and phenobarbital 40 mg/1 each oral tablet
+^ESCT1185528	Product containing only phenobarbital 16.2 mg/1 each oral tablet
+^ESCT1188601	Product containing only phenobarbital 16 mg/1 each oral tablet
+^ESCT1199527	Phenobarbital 15mg tablets (Accord Healthcare Ltd)
+^ESCT1199555	Phenobarbital 15mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1203316	Belladonna alkaloids + ergotamine tartrate + phenobarbital 0.2mg/0.6mg/40mg prolonged-release oral tablet
+^ESCT1206500	Belladonna alkaloid and ergotamine and phenobarbital product
+^ESCT1206501	Product containing belladonna alkaloid and ergotamine and phenobarbital
+^ESCT1206502	Belladonna alkaloid and ergotamine and phenobarbital in oral dosage form
+^ESCT1206503	Product containing belladonna alkaloid and ergotamine and phenobarbital in oral dosage form
+^ESCT1209975	Phenobarbital sodium 15 mg/mL solution for injection ampoule
+^ESCT1209976	Product containing precisely phenobarbital sodium 15 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209977	Phenobarbital sodium 15 mg/mL solution for injection ampule
+^ESCT1209978	Phenobarbital sodium 200 mg/mL solution for injection ampoule
+^ESCT1209979	Product containing precisely phenobarbital sodium 200 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209980	Phenobarbital sodium 200 mg/mL solution for injection ampule
+^ESCT1209981	Phenobarbital sodium 30 mg/mL solution for injection ampoule
+^ESCT1209982	Phenobarbital sodium 30 mg/mL solution for injection ampule
+^ESCT1209983	Product containing precisely phenobarbital sodium 30 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209984	Phenobarbital sodium 60 mg/mL solution for injection ampoule
+^ESCT1209985	Phenobarbital sodium 60 mg/mL solution for injection ampule
+^ESCT1209986	Product containing precisely phenobarbital sodium 60 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1215034	Phenobarbital 15mg/1ml solution for injection ampoules
+^ESCT1215035	Phenobarbital 200mg/1ml solution for injection ampoules
+^ESCT1215036	Phenobarbital 30mg/1ml solution for injection ampoules
+^ESCT1215037	Phenobarbital 60mg/1ml solution for injection ampoules
+^ESCT1218612	Phenobarbital
+^ESCT1218613	Phenobarbital product
+^ESCT1223891	Product containing precisely phenobarbital 15 milligram/1 each conventional release oral tablet
+^ESCT1223892	Phenobarbital 15 mg oral tablet
+^ESCT1223893	Phenobarbital 30 mg oral tablet
+^ESCT1223894	Product containing precisely phenobarbital 30 milligram/1 each conventional release oral tablet
+^ESCT1223895	Product containing precisely phenobarbital 60 milligram/1 each conventional release oral tablet
+^ESCT1223896	Phenobarbital 60 mg oral tablet
+^ESCT1223898	Product containing precisely phenobarbital 100 milligram/1 each conventional release oral tablet
+^ESCT1223899	Phenobarbital 100 mg oral tablet
+^ESCT1223900	Phenobarbital 3 mg/mL oral elixir
+^ESCT1223901	Product containing precisely phenobarbital 3 milligram/1 milliliter conventional release oral elixir
+^ESCT1226782	Product containing phenobarbital in oral dosage form
+^ESCT1226783	Phenobarbital in oral dosage form
+^ESCT1226785	Product containing phenobarbital in parenteral dosage form
+^ESCT1226786	Phenobarbital in parenteral dosage form
+^ESCT1228975	Belladonna alkaloids 0.2 mg and ergotamine tartrate 0.6 mg and phenobarbital 40 mg oral tablet
+^ESCT1228976	Product containing precisely belladonna alkaloid 200 microgram and ergotamine tartrate 600 microgram and phenobarbital 40 milligram/1 each conventional release oral tablet
+^ESCT1228977	Belladonna alkaloid 200 microgram and ergotamine tartrate 600 microgram and phenobarbital 40 mg oral tablet
+^ESCT1229417	Product containing precisely phenobarbital 16 milligram/1 each conventional release oral tablet
+^ESCT1229418	Product containing precisely phenobarbital 16.2 milligram/1 each conventional release oral tablet
+^ESCT1229419	Product containing precisely phenobarbital 90 milligram/1 each conventional release oral tablet
+^ESCT1229420	Phenobarbital 16 mg/1 each oral capsule
+^ESCT1229421	Phenobarbital 16 mg oral capsule
+^ESCT1229422	Product containing precisely phenobarbital 16 milligram/1 each conventional release oral capsule
+^ESCT1232039	Phenobarbital + belladona alkaloid
+^ESCT1232040	Product containing belladonna alkaloid and phenobarbital
+^ESCT1232041	Belladonna alkaloid and phenobarbital product
+^ESCT1257927	Phenobarbital sodium 50mg/5ml oral solution 150 ml
+^ESCT1257928	Phenobarbital sodium 50mg/5ml oral solution (Special Order) 150 ml
+^ESCT1264607	Phenobarbital 15mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264608	Phenobarbital 15mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264609	Phenobarbital 30mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264610	Phenobarbital 30mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264611	Phenobarbital 60mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264612	Phenobarbital 60mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1276933	Phenobarbital 30mg tablets (Accord Healthcare Ltd)
+^ESCT1276947	Phenobarbital 30mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1280946	Phenobarbital 60mg tablets (Accord Healthcare Ltd)
+^ESCT1281005	Phenobarbital 60mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1353676	Belladonna alkaloid and ergotamine and phenobarbital only product
+^ESCT1353679	Belladonna alkaloid and phenobarbital only product
+^ESCT1356344	Phenobarbital only product
+^ESCT1357619	Belladonna alkaloid and ergotamine and phenobarbital only product in oral dose form
+^ESCT1359553	Phenobarbital only product in oral dose form
+^ESCT1359554	Phenobarbital only product in parenteral dose form
+^ESCT1361231	Phenobarbital sodium 30 mg/mL solution for injection
+^ESCT1361232	Phenobarbital sodium 15 mg/mL solution for injection
+^ESCT1361233	Phenobarbital sodium 200 mg/mL solution for injection
+^ESCT1361234	Phenobarbital sodium 60 mg/mL solution for injection
+^ESCT1364200	Phenobarbital 4 mg/mL oral solution
+^ESCT1381311	Phenobarbital-containing product in oral dose form
+^ESCT1381312	Phenobarbital-containing product in parenteral dose form
+^ESCT1383014	Belladonna alkaloid- and phenobarbital-containing product
+^ESCT1386307	Belladonna alkaloid- and ergotamine- and phenobarbital-containing product
+^ESCT1386308	Belladonna alkaloid- and ergotamine- and phenobarbital-containing product in oral dose form
+^ESCT1403519	Phenobarbital 15mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403520	Phenobarbital 15mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403521	Phenobarbital 30mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403522	Phenobarbital 30mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403523	Phenobarbital 60mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403524	Phenobarbital 60mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1425509	Phenobarbital 15mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425555	Phenobarbital 60mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425560	Phenobarbital 30mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426426	Phenobarbital 15mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426428	Phenobarbital 30mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426429	Phenobarbital 60mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426924	Phenobarbital 50mg/5ml oral solution (Drug Tariff Special Order)
+^ESCT1426925	Phenobarbital 50mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCT1426926	Phenobarbital 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1426927	Phenobarbital 50mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1427360	Phenobarbital 50mg/5ml oral solution (Drug Tariff Special Order) 50 ml
+^ESCT1427361	Phenobarbital 50mg/5ml oral solution (Drug Tariff Special Order) 60 ml
+^ESCT1427362	Phenobarbital 50mg/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCT1427363	Phenobarbital 50mg/5ml oral solution (Drug Tariff Special Order) 200 ml
+^ESCT1427368	Phenobarbital 50mg/5ml oral solution (Drug Tariff Special Order) 150 ml
+^ESCT1427369	Phenobarbital 50mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTBE641940	Belladonna alkaloids 0.2 mg and ergotamine tartrate 0.6 mg and phenobarbital 40 mg oral tablet
+^ESCTBE650046	Belladonna alkaloids + ergotamine tartrate + phenobarbital 0.2mg/0.6mg/40mg m/r tablet
+^ESCTBE661217	Belladonna alkaloids + ergotamine tartrate + phenobarbital
+^ESCTPH1006340	Phenobarbital 30mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPH1006341	Phenobarbital 30mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTPH1027378	Phenobarbital 25mg/5ml oral solution 100 ml
+^ESCTPH1027379	Phenobarbital 25mg/5ml oral solution (Special Order) 100 ml
+^ESCTPH1027381	Phenobarbital 50mg/5ml oral solution 50 ml
+^ESCTPH1027383	Phenobarbital 50mg/5ml oral solution 60 ml
+^ESCTPH1027385	Phenobarbital 50mg/5ml oral solution 100 ml
+^ESCTPH1027386	Phenobarbital 50mg/5ml oral solution 200 ml
+^ESCTPH1027388	Phenobarbital 50mg/5ml oral solution (Special Order) 50 ml
+^ESCTPH1027389	Phenobarbital 50mg/5ml oral solution (Special Order) 60 ml
+^ESCTPH1027390	Phenobarbital 50mg/5ml oral solution (Special Order) 100 ml
+^ESCTPH1027391	Phenobarbital 50mg/5ml oral solution (Special Order) 200 ml
+^ESCTPH1027392	Phenobarbital 100mg/5ml oral solution 60 ml
+^ESCTPH1027393	Phenobarbital 100mg/5ml oral solution (Special Order) 60 ml
+^ESCTPH1027396	Phenobarbital sodium 15mg/5ml oral solution 100 ml
+^ESCTPH1027398	Phenobarbital sodium 15mg/5ml oral solution (Special Order) 100 ml
+^ESCTPH1027399	Phenobarbital sodium 50mg/5ml oral solution 50 ml
+^ESCTPH1027400	Phenobarbital sodium 50mg/5ml oral solution 100 ml
+^ESCTPH1027401	Phenobarbital sodium 50mg/5ml oral solution (Special Order) 50 ml
+^ESCTPH1027404	Phenobarbital sodium 50mg/5ml oral solution (Special Order) 100 ml
+^ESCTPH1029119	Phenobarbital 50mg/5ml oral solution 150 ml
+^ESCTPH1029120	Phenobarbital 50mg/5ml oral solution (Special Order) 150 ml
+^ESCTPH1029121	Phenobarbital 50mg/5ml oral suspension 100 ml
+^ESCTPH1029122	Phenobarbital 50mg/5ml oral suspension (Special Order) 100 ml
+^ESCTPH1034729	Phenobarbital 15mg tablets (Bristol Laboratories Ltd)
+^ESCTPH1034730	Phenobarbital 15mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCTPH1034731	Phenobarbital 30mg tablets (Bristol Laboratories Ltd)
+^ESCTPH1034732	Phenobarbital 30mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCTPH1034733	Phenobarbital 60mg tablets (Bristol Laboratories Ltd)
+^ESCTPH1034734	Phenobarbital 60mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCTPH1036010	Phenobarbital sodium 100mg/5ml oral suspension 60 ml
+^ESCTPH1036011	Phenobarbital sodium 100mg/5ml oral suspension (Special Order) 60 ml
+^ESCTPH1042064	Phenobarbital 30mg tablets (Waymade Healthcare Plc)
+^ESCTPH1042065	Phenobarbital 30mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTPH1042066	Phenobarbital 60mg tablets (Waymade Healthcare Plc)
+^ESCTPH1042067	Phenobarbital 60mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTPH1118812	Phenobarbital 15mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPH1118813	Phenobarbital 15mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTPH1118814	Phenobarbital 30mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPH1118815	Phenobarbital 30mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTPH1118816	Phenobarbital 60mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPH1118817	Phenobarbital 60mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTPH1119582	Phenobarbital 15mg tablets (DE Pharmaceuticals)
+^ESCTPH1119583	Phenobarbital 15mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTPH1119584	Phenobarbital 30mg tablets (DE Pharmaceuticals)
+^ESCTPH1119585	Phenobarbital 30mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTPH1119586	Phenobarbital 60mg tablets (DE Pharmaceuticals)
+^ESCTPH1119587	Phenobarbital 60mg tablets (DE Pharmaceuticals) 250 tablet
+^ESCTPH1126934	Phenobarbital 60mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTPH1142703	Phenobarbital 15mg tablets (Actavis UK Ltd)
+^ESCTPH1142704	Phenobarbital 15mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPH332756	Phenobarbital
+^ESCTPH610632	Phenobarbital 15mg tablets
+^ESCTPH610635	Phenobarbital 30mg tablets
+^ESCTPH610638	Phenobarbital 60mg tablets
+^ESCTPH610643	Phenobarbital 200mg/1ml solution for injection ampoules
+^ESCTPH610645	Phenobarbital sodium 200mg/1mL injection
+^ESCTPH610646	Phenobarbital sodium 200mg/mL injection solution 1mL ampoule
+^ESCTPH610647	Phenobarbital sodium 200mg/mL injection solution 1mL ampule
+^ESCTPH610648	Phenobarbital 15mg/5ml elixir
+^ESCTPH610650	Phenobarbital 15mg/5mL elixir
+^ESCTPH618526	Phenobarbital 15mg/1ml solution for injection ampoules
+^ESCTPH618528	Phenobarbital sodium 15mg/1mL injection
+^ESCTPH618529	Phenobarbital sodium 15mg/mL injection solution 1mL ampoule
+^ESCTPH618530	Phenobarbital sodium 15mg/mL injection solution 1mL ampule
+^ESCTPH618531	Phenobarbital 30mg/1ml solution for injection ampoules
+^ESCTPH618533	Phenobarbital sodium 30mg/1mL injection
+^ESCTPH618534	Phenobarbital sodium 30mg/mL injection solution 1mL ampoule
+^ESCTPH618535	Phenobarbital sodium 30mg/mL injection solution 1mL ampule
+^ESCTPH618536	Phenobarbital 60mg/1ml solution for injection ampoules
+^ESCTPH618538	Phenobarbital sodium 60mg/1mL injection
+^ESCTPH618539	Phenobarbital sodium 60mg/mL injection solution 1mL ampoule
+^ESCTPH618540	Phenobarbital sodium 60mg/mL injection solution 1mL ampule
+^ESCTPH643138	Phenobarbital sodium 65mg/mL injection solution 1mL ampoule
+^ESCTPH643139	Phenobarbital sodium 65mg/mL injection solution 1mL ampule
+^ESCTPH643140	Phenobarbital sodium 130mg/mL injection solution 1mL ampoule
+^ESCTPH643141	Phenobarbital sodium 130mg/mL injection solution 1mL ampule
+^ESCTPH645078	Phenobarbital 16 mg oral tablet
+^ESCTPH645080	Phenobarbital 16.2 mg oral tablet
+^ESCTPH645082	Phenobarbital 90 mg oral tablet
+^ESCTPH645084	Phenobarbital 16 mg/1 each oral capsule
+^ESCTPH645086	Phenobarbital 20mg/5mL elixir
+^ESCTPH682690	Phenobarbital + belladona alkaloid
+^ESCTPH801434	Phenobarbital 30mg tablets (Teva UK Ltd)
+^ESCTPH801871	Phenobarbital 15mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPH805174	Phenobarbital 60mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPH805315	Phenobarbital 30mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPH806595	Phenobarbital 60mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPH807096	Phenobarbital 15mg tablets (The Boots Company Plc)
+^ESCTPH807555	Phenobarbital 30mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPH809677	Phenobarbital 60mg tablets (Teva UK Ltd)
+^ESCTPH811443	Phenobarbital 200mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTPH816934	Phenobarbital 15mg tablets (Teva UK Ltd)
+^ESCTPH819905	Phenobarbital 200mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPH819928	Phenobarbital 15mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPH820037	Phenobarbital 60mg tablets (Actavis UK Ltd)
+^ESCTPH820078	Phenobarbital 60mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPH820099	Phenobarbital 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPH831612	Phenobarbital 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPH832930	Phenobarbital 30mg tablets (Actavis UK Ltd)
+^ESCTPH839508	Phenobarbital 30mg tablets 28 tablet
+^ESCTPH841362	Phenobarbital 60mg tablets 28 tablet
+^ESCTPH844510	Phenobarbital 200mg/1ml solution for injection ampoules 10 ampoule
+^ESCTPH847760	Phenobarbital 15mg tablets 1000 tablet
+^ESCTPH848010	Phenobarbital 15mg tablets 28 tablet
+^ESCTPH855938	Phenobarbital 15mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTPH855939	Phenobarbital 15mg tablets (Teva UK Ltd) 28 tablet
+^ESCTPH855940	Phenobarbital 15mg tablets (The Boots Company Plc) 1000 tablet
+^ESCTPH855941	Phenobarbital 15mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTPH855942	Phenobarbital 15mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTPH855944	Phenobarbital 30mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTPH855948	Phenobarbital 30mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPH855949	Phenobarbital 30mg tablets (Teva UK Ltd) 28 tablet
+^ESCTPH855950	Phenobarbital 30mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTPH855951	Phenobarbital 30mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTPH855952	Phenobarbital 60mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTPH855953	Phenobarbital 60mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPH855954	Phenobarbital 60mg tablets (Teva UK Ltd) 28 tablet
+^ESCTPH855955	Phenobarbital 60mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTPH855956	Phenobarbital 60mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTPH856914	Phenobarbital 200mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTPH856924	Phenobarbital 200mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTPH863611	Phenobarbital 60mg tablets 250 tablet
+^ESCTPH863613	Phenobarbital 60mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCTPH867909	Phenobarbital 15mg/5ml elixir 500 ml
+^ESCTPH867910	Phenobarbital 15mg/5ml elixir (A A H Pharmaceuticals Ltd)
+^ESCTPH867911	Phenobarbital 15mg/5ml elixir (A A H Pharmaceuticals Ltd) 500 ml
+^ESCTPH867913	Phenobarbital 15mg/5ml elixir (Thornton & Ross Ltd)
+^ESCTPH867915	Phenobarbital 15mg/5ml elixir (Thornton & Ross Ltd) 500 ml
+^ESCTPH867917	Phenobarbital 15mg/5ml elixir (Alliance Healthcare (Distribution) Ltd)
+^ESCTPH867918	Phenobarbital 15mg/5ml elixir (Alliance Healthcare (Distribution) Ltd) 500 ml
+^ESCTPH868792	Phenobarbital sodium powder 25 gram
+^ESCTPH868794	Phenobarbital sodium powder (A A H Pharmaceuticals Ltd)
+^ESCTPH868797	Phenobarbital sodium powder (A A H Pharmaceuticals Ltd) 25 gram
+^ESCTPH868947	Phenobarbital sodium powder
+^ESCTPH874353	Phenobarbital 60mg/1ml solution for injection ampoules 10 ampoule
+^ESCTPH874354	Phenobarbital 60mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPH874355	Phenobarbital 60mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTPH874356	Phenobarbital 60mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTPH874357	Phenobarbital 60mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTPH874358	Phenobarbital 60mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPH874359	Phenobarbital 60mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTPH874360	Phenobarbital 30mg/1ml solution for injection ampoules 10 ampoule
+^ESCTPH874361	Phenobarbital 30mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPH874362	Phenobarbital 30mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTPH874363	Phenobarbital 30mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTPH874364	Phenobarbital 30mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTPH874365	Phenobarbital 30mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPH874366	Phenobarbital 30mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTPH909631	Phenobarbital 50mg/5ml oral solution 1 ml
+^ESCTPH909632	Phenobarbital 50mg/5ml oral solution (Special Order)
+^ESCTPH909634	Phenobarbital 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH909635	Phenobarbital 50mg/5ml oral suspension 1 ml
+^ESCTPH909637	Phenobarbital 50mg/5ml oral suspension (Special Order)
+^ESCTPH909639	Phenobarbital 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH909727	Phenobarbital 50mg/5ml oral suspension
+^ESCTPH909728	Phenobarbital 50mg/5ml oral solution
+^ESCTPH923273	Phenobarbital 200mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPH923274	Phenobarbital 200mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTPH925904	Phenobarbital 15mg/1ml solution for injection ampoules 10 ampoule
+^ESCTPH925905	Phenobarbital 15mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTPH925906	Phenobarbital 15mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTPH925907	Phenobarbital 15mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPH925908	Phenobarbital 15mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTPH925909	Phenobarbital 15mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPH925910	Phenobarbital 15mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTPH929215	Phenobarbital 30mg tablets (Arrow Generics Ltd)
+^ESCTPH929217	Phenobarbital 30mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTPH929219	Phenobarbital 60mg tablets (Arrow Generics Ltd)
+^ESCTPH929220	Phenobarbital 60mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTPH946783	Phenobarbital sodium 100mg/5ml oral suspension 1 ml
+^ESCTPH946784	Phenobarbital sodium 100mg/5ml oral suspension (Special Order)
+^ESCTPH946785	Phenobarbital sodium 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946788	Phenobarbital sodium 100mg/5ml oral solution 1 ml
+^ESCTPH946789	Phenobarbital sodium 100mg/5ml oral solution (Special Order)
+^ESCTPH946791	Phenobarbital sodium 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946793	Phenobarbital sodium 10mg/5ml oral suspension 1 ml
+^ESCTPH946794	Phenobarbital sodium 10mg/5ml oral suspension (Special Order)
+^ESCTPH946795	Phenobarbital sodium 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946796	Phenobarbital sodium 10mg/5ml oral solution 1 ml
+^ESCTPH946797	Phenobarbital sodium 10mg/5ml oral solution (Special Order)
+^ESCTPH946798	Phenobarbital sodium 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946804	Phenobarbital sodium 11mg/5ml oral suspension 1 ml
+^ESCTPH946806	Phenobarbital sodium 11mg/5ml oral suspension (Special Order)
+^ESCTPH946807	Phenobarbital sodium 11mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946808	Phenobarbital sodium 11mg/5ml oral solution 1 ml
+^ESCTPH946809	Phenobarbital sodium 11mg/5ml oral solution (Special Order)
+^ESCTPH946810	Phenobarbital sodium 11mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946812	Phenobarbital 10mg/5ml oral suspension 1 ml
+^ESCTPH946814	Phenobarbital 10mg/5ml oral suspension (Special Order)
+^ESCTPH946816	Phenobarbital 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946817	Phenobarbital 10mg/5ml oral solution 1 ml
+^ESCTPH946818	Phenobarbital 10mg/5ml oral solution (Special Order)
+^ESCTPH946819	Phenobarbital 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946821	Phenobarbital sodium 125mg/5ml oral suspension 1 ml
+^ESCTPH946822	Phenobarbital sodium 125mg/5ml oral suspension (Special Order)
+^ESCTPH946824	Phenobarbital sodium 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946825	Phenobarbital 12.5mg/5ml oral suspension 1 ml
+^ESCTPH946826	Phenobarbital 12.5mg/5ml oral suspension (Special Order)
+^ESCTPH946828	Phenobarbital 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946829	Phenobarbital 12.5mg/5ml oral solution 1 ml
+^ESCTPH946830	Phenobarbital sodium 125mg/5ml oral solution 1 ml
+^ESCTPH946831	Phenobarbital sodium 125mg/5ml oral solution (Special Order)
+^ESCTPH946832	Phenobarbital sodium 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946833	Phenobarbital sodium 150mg/5ml oral suspension 1 ml
+^ESCTPH946834	Phenobarbital sodium 150mg/5ml oral suspension (Special Order)
+^ESCTPH946835	Phenobarbital 12.6mg/5ml oral suspension 1 ml
+^ESCTPH946836	Phenobarbital sodium 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946837	Phenobarbital 12.6mg/5ml oral suspension (Special Order)
+^ESCTPH946838	Phenobarbital 12.6mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946839	Phenobarbital sodium 150mg/5ml oral solution 1 ml
+^ESCTPH946840	Phenobarbital sodium 150mg/5ml oral solution (Special Order)
+^ESCTPH946841	Phenobarbital sodium 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946843	Phenobarbital 12.6mg/5ml oral solution 1 ml
+^ESCTPH946844	Phenobarbital 12.6mg/5ml oral solution (Special Order)
+^ESCTPH946845	Phenobarbital sodium 15mg/5ml oral suspension 1 ml
+^ESCTPH946846	Phenobarbital 12.6mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946847	Phenobarbital sodium 15mg/5ml oral suspension (Special Order)
+^ESCTPH946848	Phenobarbital sodium 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946850	Phenobarbital sodium 15mg/5ml oral solution 1 ml
+^ESCTPH946851	Phenobarbital 150mg/5ml oral suspension 1 ml
+^ESCTPH946853	Phenobarbital sodium 15mg/5ml oral solution (Special Order)
+^ESCTPH946854	Phenobarbital 150mg/5ml oral suspension (Special Order)
+^ESCTPH946855	Phenobarbital sodium 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946856	Phenobarbital 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946857	Phenobarbital 150mg/5ml oral solution 1 ml
+^ESCTPH946858	Phenobarbital 150mg/5ml oral solution (Special Order)
+^ESCTPH946859	Phenobarbital 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946860	Phenobarbital 18mg/5ml oral suspension 1 ml
+^ESCTPH946861	Phenobarbital 18mg/5ml oral suspension (Special Order)
+^ESCTPH946862	Phenobarbital 18mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946863	Phenobarbital 18mg/5ml oral solution 1 ml
+^ESCTPH946865	Phenobarbital 18mg/5ml oral solution (Special Order)
+^ESCTPH946866	Phenobarbital 18mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946869	Phenobarbital sodium 17mg/5ml oral suspension 1 ml
+^ESCTPH946870	Phenobarbital sodium 17mg/5ml oral suspension (Special Order)
+^ESCTPH946871	Phenobarbital sodium 17mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946872	Phenobarbital sodium 17mg/5ml oral solution 1 ml
+^ESCTPH946873	Phenobarbital 2.5mg/5ml oral suspension 1 ml
+^ESCTPH946874	Phenobarbital sodium 17mg/5ml oral solution (Special Order)
+^ESCTPH946875	Phenobarbital sodium 17mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946876	Phenobarbital 2.5mg/5ml oral suspension (Special Order)
+^ESCTPH946877	Phenobarbital 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946878	Phenobarbital 2.5mg/5ml oral solution 1 ml
+^ESCTPH946879	Phenobarbital 2.5mg/5ml oral solution (Special Order)
+^ESCTPH946880	Phenobarbital 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946881	Phenobarbital 200mg/5ml oral suspension 1 ml
+^ESCTPH946882	Phenobarbital 200mg/5ml oral suspension (Special Order)
+^ESCTPH946883	Phenobarbital 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946884	Phenobarbital sodium 20mg/5ml oral suspension 1 ml
+^ESCTPH946885	Phenobarbital sodium 20mg/5ml oral suspension (Special Order)
+^ESCTPH946886	Phenobarbital sodium 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946887	Phenobarbital 200mg/5ml oral solution 1 ml
+^ESCTPH946888	Phenobarbital 200mg/5ml oral solution (Special Order)
+^ESCTPH946889	Phenobarbital 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946890	Phenobarbital sodium 20mg/5ml oral solution 1 ml
+^ESCTPH946891	Phenobarbital 20mg/5ml oral suspension 1 ml
+^ESCTPH946892	Phenobarbital sodium 20mg/5ml oral solution (Special Order)
+^ESCTPH946893	Phenobarbital sodium 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946894	Phenobarbital 20mg/5ml oral suspension (Special Order)
+^ESCTPH946895	Phenobarbital 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946896	Phenobarbital 20mg/5ml oral solution 1 ml
+^ESCTPH946897	Phenobarbital 20mg/5ml oral solution (Special Order)
+^ESCTPH946898	Phenobarbital 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946899	Phenobarbital sodium 25mg/5ml oral suspension 1 ml
+^ESCTPH946900	Phenobarbital sodium 25mg/5ml oral suspension (Special Order)
+^ESCTPH946901	Phenobarbital sodium 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946902	Phenobarbital sodium 25mg/5ml oral solution 1 ml
+^ESCTPH946903	Phenobarbital sodium 25mg/5ml oral solution (Special Order)
+^ESCTPH946904	Phenobarbital sodium 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946905	Phenobarbital sodium 30mg/5ml oral suspension 1 ml
+^ESCTPH946906	Phenobarbital sodium 30mg/5ml oral suspension (Special Order)
+^ESCTPH946907	Phenobarbital sodium 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946908	Phenobarbital sodium 30mg/5ml oral solution 1 ml
+^ESCTPH946909	Phenobarbital sodium 30mg/5ml oral solution (Special Order)
+^ESCTPH946910	Phenobarbital sodium 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946911	Phenobarbital 12.5mg/5ml oral solution (Special Order)
+^ESCTPH946912	Phenobarbital 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946913	Phenobarbital 21mg/5ml oral suspension 1 ml
+^ESCTPH946914	Phenobarbital 21mg/5ml oral suspension (Special Order)
+^ESCTPH946915	Phenobarbital 21mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946916	Phenobarbital 80mg/5ml oral suspension 1 ml
+^ESCTPH946917	Phenobarbital 21mg/5ml oral solution 1 ml
+^ESCTPH946918	Phenobarbital 21mg/5ml oral solution (Special Order)
+^ESCTPH946919	Phenobarbital 21mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946920	Phenobarbital 80mg/5ml oral suspension (Special Order)
+^ESCTPH946921	Phenobarbital 80mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946922	Phenobarbital 225mg/5ml oral suspension 1 ml
+^ESCTPH946923	Phenobarbital 225mg/5ml oral suspension (Special Order)
+^ESCTPH946924	Phenobarbital 80mg/5ml oral solution 1 ml
+^ESCTPH946925	Phenobarbital 225mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946926	Phenobarbital 80mg/5ml oral solution (Special Order)
+^ESCTPH946927	Phenobarbital 80mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946928	Phenobarbital 72.5mg/5ml oral suspension 1 ml
+^ESCTPH946929	Phenobarbital 72.5mg/5ml oral suspension (Special Order)
+^ESCTPH946930	Phenobarbital 72.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946931	Phenobarbital 225mg/5ml oral solution 1 ml
+^ESCTPH946932	Phenobarbital 72.5mg/5ml oral solution 1 ml
+^ESCTPH946933	Phenobarbital 225mg/5ml oral solution (Special Order)
+^ESCTPH946934	Phenobarbital 72.5mg/5ml oral solution (Special Order)
+^ESCTPH946935	Phenobarbital 225mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946936	Phenobarbital 72.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946937	Phenobarbital 247.5mg/5ml oral suspension 1 ml
+^ESCTPH946938	Phenobarbital 247.5mg/5ml oral suspension (Special Order)
+^ESCTPH946939	Phenobarbital 247.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946940	Phenobarbital 247.5mg/5ml oral solution 1 ml
+^ESCTPH946941	Phenobarbital 247.5mg/5ml oral solution (Special Order)
+^ESCTPH946942	Phenobarbital 247.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946943	Phenobarbital 70mg/5ml oral suspension 1 ml
+^ESCTPH946944	Phenobarbital 70mg/5ml oral suspension (Special Order)
+^ESCTPH946945	Phenobarbital 70mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946946	Phenobarbital 250mg/5ml oral suspension 1 ml
+^ESCTPH946947	Phenobarbital 250mg/5ml oral suspension (Special Order)
+^ESCTPH946948	Phenobarbital 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946949	Phenobarbital 70mg/5ml oral solution 1 ml
+^ESCTPH946950	Phenobarbital 70mg/5ml oral solution (Special Order)
+^ESCTPH946951	Phenobarbital 250mg/5ml oral solution 1 ml
+^ESCTPH946952	Phenobarbital 250mg/5ml oral solution (Special Order)
+^ESCTPH946953	Phenobarbital 70mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946954	Phenobarbital 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946955	Phenobarbital 28.5mg/5ml oral suspension 1 ml
+^ESCTPH946956	Phenobarbital 28.5mg/5ml oral suspension (Special Order)
+^ESCTPH946957	Phenobarbital 28.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946958	Phenobarbital 7.5mg/5ml oral suspension 1 ml
+^ESCTPH946959	Phenobarbital 28.5mg/5ml oral solution 1 ml
+^ESCTPH946960	Phenobarbital 28.5mg/5ml oral solution (Special Order)
+^ESCTPH946961	Phenobarbital 7.5mg/5ml oral suspension (Special Order)
+^ESCTPH946962	Phenobarbital 28.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946963	Phenobarbital 7.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946964	Phenobarbital 300mg/5ml oral suspension 1 ml
+^ESCTPH946965	Phenobarbital 300mg/5ml oral suspension (Special Order)
+^ESCTPH946966	Phenobarbital 300mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946967	Phenobarbital 300mg/5ml oral solution 1 ml
+^ESCTPH946968	Phenobarbital 300mg/5ml oral solution (Special Order)
+^ESCTPH946969	Phenobarbital 300mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946970	Phenobarbital 7.5mg/5ml oral solution 1 ml
+^ESCTPH946971	Phenobarbital 7.5mg/5ml oral solution (Special Order)
+^ESCTPH946972	Phenobarbital 7.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946973	Phenobarbital 30mg/5ml oral suspension 1 ml
+^ESCTPH946974	Phenobarbital 30mg/5ml oral suspension (Special Order)
+^ESCTPH946975	Phenobarbital 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946976	Phenobarbital 30mg/5ml oral solution 1 ml
+^ESCTPH946977	Phenobarbital 30mg/5ml oral solution (Special Order)
+^ESCTPH946978	Phenobarbital 65mg/5ml oral suspension 1 ml
+^ESCTPH946979	Phenobarbital 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946980	Phenobarbital 65mg/5ml oral suspension (Special Order)
+^ESCTPH946981	Phenobarbital 65mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946982	Phenobarbital 34mg/5ml oral suspension 1 ml
+^ESCTPH946983	Phenobarbital sodium 35mg/5ml oral suspension 1 ml
+^ESCTPH946984	Phenobarbital 34mg/5ml oral suspension (Special Order)
+^ESCTPH946985	Phenobarbital sodium 35mg/5ml oral suspension (Special Order)
+^ESCTPH946986	Phenobarbital 34mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946987	Phenobarbital sodium 35mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946988	Phenobarbital 34mg/5ml oral solution 1 ml
+^ESCTPH946989	Phenobarbital sodium 35mg/5ml oral solution 1 ml
+^ESCTPH946990	Phenobarbital sodium 35mg/5ml oral solution (Special Order)
+^ESCTPH946991	Phenobarbital sodium 35mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946992	Phenobarbital 34mg/5ml oral solution (Special Order)
+^ESCTPH946993	Phenobarbital 34mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH946994	Phenobarbital sodium 36mg/5ml oral suspension 1 ml
+^ESCTPH946995	Phenobarbital 35mg/5ml oral suspension 1 ml
+^ESCTPH946996	Phenobarbital sodium 36mg/5ml oral suspension (Special Order)
+^ESCTPH946997	Phenobarbital sodium 36mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH946998	Phenobarbital 35mg/5ml oral suspension (Special Order)
+^ESCTPH946999	Phenobarbital 35mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947000	Phenobarbital 35mg/5ml oral solution 1 ml
+^ESCTPH947001	Phenobarbital 35mg/5ml oral solution (Special Order)
+^ESCTPH947002	Phenobarbital 35mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947003	Phenobarbital sodium 36mg/5ml oral solution 1 ml
+^ESCTPH947004	Phenobarbital 37.5mg/5ml oral suspension 1 ml
+^ESCTPH947005	Phenobarbital sodium 36mg/5ml oral solution (Special Order)
+^ESCTPH947006	Phenobarbital sodium 36mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947007	Phenobarbital 65mg/5ml oral solution 1 ml
+^ESCTPH947008	Phenobarbital 65mg/5ml oral solution (Special Order)
+^ESCTPH947009	Phenobarbital 65mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947010	Phenobarbital 37.5mg/5ml oral suspension (Special Order)
+^ESCTPH947011	Phenobarbital 37.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947012	Phenobarbital sodium 45mg/5ml oral suspension 1 ml
+^ESCTPH947013	Phenobarbital sodium 45mg/5ml oral suspension (Special Order)
+^ESCTPH947014	Phenobarbital sodium 45mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947015	Phenobarbital sodium 45mg/5ml oral solution 1 ml
+^ESCTPH947016	Phenobarbital sodium 45mg/5ml oral solution (Special Order)
+^ESCTPH947017	Phenobarbital sodium 45mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947018	Phenobarbital 37.5mg/5ml oral solution 1 ml
+^ESCTPH947019	Phenobarbital 37.5mg/5ml oral solution (Special Order)
+^ESCTPH947020	Phenobarbital 37.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947021	Phenobarbital 62.5mg/5ml oral suspension 1 ml
+^ESCTPH947022	Phenobarbital 40mg/5ml oral suspension 1 ml
+^ESCTPH947023	Phenobarbital 62.5mg/5ml oral suspension (Special Order)
+^ESCTPH947024	Phenobarbital 40mg/5ml oral suspension (Special Order)
+^ESCTPH947025	Phenobarbital 40mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947026	Phenobarbital 62.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947027	Phenobarbital 40mg/5ml oral solution 1 ml
+^ESCTPH947028	Phenobarbital 40mg/5ml oral solution (Special Order)
+^ESCTPH947029	Phenobarbital 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947030	Phenobarbital 62.5mg/5ml oral solution 1 ml
+^ESCTPH947031	Phenobarbital sodium 50mg/5ml oral suspension 1 ml
+^ESCTPH947032	Phenobarbital 62.5mg/5ml oral solution (Special Order)
+^ESCTPH947033	Phenobarbital sodium 50mg/5ml oral suspension (Special Order)
+^ESCTPH947034	Phenobarbital sodium 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947035	Phenobarbital 62.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947036	Phenobarbital sodium 50mg/5ml oral solution 1 ml
+^ESCTPH947037	Phenobarbital sodium 50mg/5ml oral solution (Special Order)
+^ESCTPH947038	Phenobarbital sodium 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947039	Phenobarbital 60mg/5ml oral suspension 1 ml
+^ESCTPH947040	Phenobarbital 42mg/5ml oral suspension 1 ml
+^ESCTPH947041	Phenobarbital 42mg/5ml oral suspension (Special Order)
+^ESCTPH947042	Phenobarbital 60mg/5ml oral suspension (Special Order)
+^ESCTPH947043	Phenobarbital 42mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947044	Phenobarbital 60mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947045	Phenobarbital 42mg/5ml oral solution 1 ml
+^ESCTPH947046	Phenobarbital 42mg/5ml oral solution (Special Order)
+^ESCTPH947047	Phenobarbital 42mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947048	Phenobarbital 450mg/5ml oral suspension 1 ml
+^ESCTPH947049	Phenobarbital 450mg/5ml oral suspension (Special Order)
+^ESCTPH947050	Phenobarbital 450mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947051	Phenobarbital 450mg/5ml oral solution 1 ml
+^ESCTPH947052	Phenobarbital 450mg/5ml oral solution (Special Order)
+^ESCTPH947053	Phenobarbital 60mg/5ml oral solution 1 ml
+^ESCTPH947054	Phenobarbital 450mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947055	Phenobarbital 60mg/5ml oral solution (Special Order)
+^ESCTPH947056	Phenobarbital 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947057	Phenobarbital 45mg/5ml oral suspension 1 ml
+^ESCTPH947058	Phenobarbital sodium 55mg/5ml oral suspension 1 ml
+^ESCTPH947059	Phenobarbital 45mg/5ml oral suspension (Special Order)
+^ESCTPH947060	Phenobarbital sodium 55mg/5ml oral suspension (Special Order)
+^ESCTPH947061	Phenobarbital 45mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947062	Phenobarbital sodium 55mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947063	Phenobarbital 45mg/5ml oral solution 1 ml
+^ESCTPH947064	Phenobarbital 55mg/5ml oral suspension 1 ml
+^ESCTPH947065	Phenobarbital 45mg/5ml oral solution (Special Order)
+^ESCTPH947066	Phenobarbital 55mg/5ml oral suspension (Special Order)
+^ESCTPH947067	Phenobarbital 45mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947068	Phenobarbital 55mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947069	Phenobarbital 46.67mg/5ml oral suspension 1 ml
+^ESCTPH947070	Phenobarbital 46.67mg/5ml oral suspension (Special Order)
+^ESCTPH947071	Phenobarbital sodium 55mg/5ml oral solution 1 ml
+^ESCTPH947072	Phenobarbital 46.67mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947073	Phenobarbital sodium 55mg/5ml oral solution (Special Order)
+^ESCTPH947074	Phenobarbital sodium 55mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947075	Phenobarbital 55mg/5ml oral solution 1 ml
+^ESCTPH947076	Phenobarbital 46.67mg/5ml oral solution 1 ml
+^ESCTPH947077	Phenobarbital 55mg/5ml oral solution (Special Order)
+^ESCTPH947078	Phenobarbital 46.67mg/5ml oral solution (Special Order)
+^ESCTPH947079	Phenobarbital 55mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947080	Phenobarbital 46.67mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947081	Phenobarbital sodium 5mg/5ml oral solution 1 ml
+^ESCTPH947082	Phenobarbital sodium 5mg/5ml oral solution (Special Order)
+^ESCTPH947083	Phenobarbital sodium 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947084	Phenobarbital 85mg/5ml oral suspension 1 ml
+^ESCTPH947085	Phenobarbital 85mg/5ml oral suspension (Special Order)
+^ESCTPH947086	Phenobarbital 85mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947087	Phenobarbital 85mg/5ml oral solution 1 ml
+^ESCTPH947088	Phenobarbital 85mg/5ml oral solution (Special Order)
+^ESCTPH947089	Phenobarbital 85mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947090	Phenobarbital sodium 5mg/5ml oral suspension 1 ml
+^ESCTPH947091	Phenobarbital sodium 5mg/5ml oral suspension (Special Order)
+^ESCTPH947092	Phenobarbital sodium 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947093	Phenobarbital 9.5mg/5ml oral suspension 1 ml
+^ESCTPH947094	Phenobarbital 9.5mg/5ml oral suspension (Special Order)
+^ESCTPH947095	Phenobarbital 9.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947096	Phenobarbital 500mg/5ml oral suspension 1 ml
+^ESCTPH947097	Phenobarbital 500mg/5ml oral suspension (Special Order)
+^ESCTPH947098	Phenobarbital 500mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947099	Phenobarbital 9.5mg/5ml oral solution 1 ml
+^ESCTPH947100	Phenobarbital 9.5mg/5ml oral solution (Special Order)
+^ESCTPH947101	Phenobarbital sodium 7.5mg/5ml oral suspension 1 ml
+^ESCTPH947102	Phenobarbital 9.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947103	Phenobarbital sodium 7.5mg/5ml oral suspension (Special Order)
+^ESCTPH947104	Phenobarbital sodium 7.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947105	Phenobarbital 90mg/5ml oral suspension 1 ml
+^ESCTPH947106	Phenobarbital 500mg/5ml oral solution 1 ml
+^ESCTPH947107	Phenobarbital 500mg/5ml oral solution (Special Order)
+^ESCTPH947108	Phenobarbital sodium 7.5mg/5ml oral solution 1 ml
+^ESCTPH947109	Phenobarbital sodium 7.5mg/5ml oral solution (Special Order)
+^ESCTPH947110	Phenobarbital sodium 7.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947111	Phenobarbital 90mg/5ml oral suspension (Special Order)
+^ESCTPH947112	Phenobarbital 90mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947113	Phenobarbital 500mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947114	Phenobarbital 90mg/5ml oral solution 1 ml
+^ESCTPH947115	Phenobarbital 90mg/5ml oral solution (Special Order)
+^ESCTPH947116	Phenobarbital 90mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947117	Phenobarbital 9mg/5ml oral suspension 1 ml
+^ESCTPH947118	Phenobarbital 9mg/5ml oral suspension (Special Order)
+^ESCTPH947119	Phenobarbital 9mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947123	Phenobarbital 9mg/5ml oral solution 1 ml
+^ESCTPH947125	Phenobarbital 9mg/5ml oral solution (Special Order)
+^ESCTPH947126	Phenobarbital 9mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947149	Phenobarbital 10mg/5ml oral solution
+^ESCTPH947150	Phenobarbital 10mg/5ml oral suspension
+^ESCTPH947151	Phenobarbital 12.5mg/5ml oral solution
+^ESCTPH947152	Phenobarbital 12.5mg/5ml oral suspension
+^ESCTPH947153	Phenobarbital 12.6mg/5ml oral solution
+^ESCTPH947154	Phenobarbital 12.6mg/5ml oral suspension
+^ESCTPH947155	Phenobarbital 150mg/5ml oral solution
+^ESCTPH947156	Phenobarbital 150mg/5ml oral suspension
+^ESCTPH947157	Phenobarbital 18mg/5ml oral solution
+^ESCTPH947158	Phenobarbital 18mg/5ml oral suspension
+^ESCTPH947159	Phenobarbital 2.5mg/5ml oral solution
+^ESCTPH947160	Phenobarbital 2.5mg/5ml oral suspension
+^ESCTPH947161	Phenobarbital 200mg/5ml oral solution
+^ESCTPH947162	Phenobarbital 200mg/5ml oral suspension
+^ESCTPH947163	Phenobarbital 20mg/5ml oral solution
+^ESCTPH947164	Phenobarbital 20mg/5ml oral suspension
+^ESCTPH947165	Phenobarbital 21mg/5ml oral solution
+^ESCTPH947166	Phenobarbital 21mg/5ml oral suspension
+^ESCTPH947167	Phenobarbital 225mg/5ml oral solution
+^ESCTPH947168	Phenobarbital 225mg/5ml oral suspension
+^ESCTPH947169	Phenobarbital 247.5mg/5ml oral solution
+^ESCTPH947170	Phenobarbital 247.5mg/5ml oral suspension
+^ESCTPH947171	Phenobarbital 250mg/5ml oral solution
+^ESCTPH947172	Phenobarbital 250mg/5ml oral suspension
+^ESCTPH947173	Phenobarbital 28.5mg/5ml oral solution
+^ESCTPH947174	Phenobarbital 28.5mg/5ml oral suspension
+^ESCTPH947175	Phenobarbital 300mg/5ml oral solution
+^ESCTPH947176	Phenobarbital 300mg/5ml oral suspension
+^ESCTPH947177	Phenobarbital 30mg/5ml oral solution
+^ESCTPH947178	Phenobarbital 30mg/5ml oral suspension
+^ESCTPH947179	Phenobarbital 34mg/5ml oral solution
+^ESCTPH947180	Phenobarbital 34mg/5ml oral suspension
+^ESCTPH947181	Phenobarbital 35mg/5ml oral solution
+^ESCTPH947182	Phenobarbital 35mg/5ml oral suspension
+^ESCTPH947183	Phenobarbital 37.5mg/5ml oral solution
+^ESCTPH947184	Phenobarbital 37.5mg/5ml oral suspension
+^ESCTPH947185	Phenobarbital 40mg/5ml oral solution
+^ESCTPH947186	Phenobarbital 40mg/5ml oral suspension
+^ESCTPH947187	Phenobarbital 42mg/5ml oral solution
+^ESCTPH947188	Phenobarbital 42mg/5ml oral suspension
+^ESCTPH947189	Phenobarbital 450mg/5ml oral solution
+^ESCTPH947190	Phenobarbital 45mg/5ml oral solution
+^ESCTPH947191	Phenobarbital 450mg/5ml oral suspension
+^ESCTPH947192	Phenobarbital 45mg/5ml oral suspension
+^ESCTPH947193	Phenobarbital 46.67mg/5ml oral solution
+^ESCTPH947194	Phenobarbital 46.67mg/5ml oral suspension
+^ESCTPH947195	Phenobarbital 500mg/5ml oral solution
+^ESCTPH947196	Phenobarbital 500mg/5ml oral suspension
+^ESCTPH947197	Phenobarbital 55mg/5ml oral solution
+^ESCTPH947198	Phenobarbital 55mg/5ml oral suspension
+^ESCTPH947199	Phenobarbital 60mg/5ml oral solution
+^ESCTPH947200	Phenobarbital 60mg/5ml oral suspension
+^ESCTPH947201	Phenobarbital 62.5mg/5ml oral solution
+^ESCTPH947202	Phenobarbital 62.5mg/5ml oral suspension
+^ESCTPH947203	Phenobarbital 65mg/5ml oral solution
+^ESCTPH947204	Phenobarbital 65mg/5ml oral suspension
+^ESCTPH947205	Phenobarbital 7.5mg/5ml oral solution
+^ESCTPH947206	Phenobarbital 7.5mg/5ml oral suspension
+^ESCTPH947207	Phenobarbital 70mg/5ml oral solution
+^ESCTPH947208	Phenobarbital 70mg/5ml oral suspension
+^ESCTPH947209	Phenobarbital 72.5mg/5ml oral solution
+^ESCTPH947210	Phenobarbital 72.5mg/5ml oral suspension
+^ESCTPH947211	Phenobarbital 80mg/5ml oral solution
+^ESCTPH947212	Phenobarbital 80mg/5ml oral suspension
+^ESCTPH947213	Phenobarbital 85mg/5ml oral solution
+^ESCTPH947214	Phenobarbital 85mg/5ml oral suspension
+^ESCTPH947215	Phenobarbital 9.5mg/5ml oral solution
+^ESCTPH947216	Phenobarbital 9.5mg/5ml oral suspension
+^ESCTPH947217	Phenobarbital 90mg/5ml oral solution
+^ESCTPH947218	Phenobarbital 90mg/5ml oral suspension
+^ESCTPH947219	Phenobarbital 9mg/5ml oral solution
+^ESCTPH947220	Phenobarbital 9mg/5ml oral suspension
+^ESCTPH947221	Phenobarbital sodium 100mg/5ml oral solution
+^ESCTPH947222	Phenobarbital sodium 100mg/5ml oral suspension
+^ESCTPH947223	Phenobarbital sodium 10mg/5ml oral solution
+^ESCTPH947224	Phenobarbital sodium 10mg/5ml oral suspension
+^ESCTPH947225	Phenobarbital sodium 11mg/5ml oral solution
+^ESCTPH947226	Phenobarbital sodium 11mg/5ml oral suspension
+^ESCTPH947227	Phenobarbital sodium 125mg/5ml oral solution
+^ESCTPH947228	Phenobarbital sodium 125mg/5ml oral suspension
+^ESCTPH947229	Phenobarbital sodium 150mg/5ml oral solution
+^ESCTPH947230	Phenobarbital sodium 150mg/5ml oral suspension
+^ESCTPH947231	Phenobarbital sodium 15mg/5ml oral solution
+^ESCTPH947232	Phenobarbital sodium 15mg/5ml oral suspension
+^ESCTPH947233	Phenobarbital sodium 17mg/5ml oral solution
+^ESCTPH947234	Phenobarbital sodium 17mg/5ml oral suspension
+^ESCTPH947235	Phenobarbital sodium 20mg/5ml oral solution
+^ESCTPH947236	Phenobarbital sodium 20mg/5ml oral suspension
+^ESCTPH947237	Phenobarbital sodium 25mg/5ml oral solution
+^ESCTPH947238	Phenobarbital sodium 25mg/5ml oral suspension
+^ESCTPH947239	Phenobarbital sodium 30mg/5ml oral solution
+^ESCTPH947240	Phenobarbital sodium 30mg/5ml oral suspension
+^ESCTPH947241	Phenobarbital sodium 35mg/5ml oral solution
+^ESCTPH947242	Phenobarbital sodium 35mg/5ml oral suspension
+^ESCTPH947243	Phenobarbital sodium 36mg/5ml oral solution
+^ESCTPH947244	Phenobarbital sodium 36mg/5ml oral suspension
+^ESCTPH947245	Phenobarbital sodium 45mg/5ml oral solution
+^ESCTPH947246	Phenobarbital sodium 45mg/5ml oral suspension
+^ESCTPH947247	Phenobarbital sodium 50mg/5ml oral solution
+^ESCTPH947248	Phenobarbital sodium 50mg/5ml oral suspension
+^ESCTPH947249	Phenobarbital sodium 55mg/5ml oral solution
+^ESCTPH947250	Phenobarbital sodium 55mg/5ml oral suspension
+^ESCTPH947251	Phenobarbital sodium 5mg/5ml oral solution
+^ESCTPH947252	Phenobarbital sodium 5mg/5ml oral suspension
+^ESCTPH947253	Phenobarbital sodium 7.5mg/5ml oral solution
+^ESCTPH947254	Phenobarbital sodium 7.5mg/5ml oral suspension
+^ESCTPH947309	Phenobarbital sodium 60mg/5ml oral suspension 1 ml
+^ESCTPH947310	Phenobarbital sodium 60mg/5ml oral suspension (Special Order)
+^ESCTPH947311	Phenobarbital sodium 60mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947321	Phenobarbital sodium 60mg/5ml oral solution 1 ml
+^ESCTPH947322	Phenobarbital sodium 60mg/5ml oral solution (Special Order)
+^ESCTPH947323	Phenobarbital 125mg/5ml oral suspension 1 ml
+^ESCTPH947324	Phenobarbital 125mg/5ml oral suspension (Special Order)
+^ESCTPH947325	Phenobarbital 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947326	Phenobarbital 125mg/5ml oral solution 1 ml
+^ESCTPH947327	Phenobarbital 125mg/5ml oral solution (Special Order)
+^ESCTPH947328	Phenobarbital 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947332	Phenobarbital 15mg/5ml oral suspension 1 ml
+^ESCTPH947334	Phenobarbital 15mg/5ml oral suspension (Special Order)
+^ESCTPH947335	Phenobarbital 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947336	Phenobarbital 15mg/5ml oral solution 1 ml
+^ESCTPH947337	Phenobarbital 15mg/5ml oral solution (Special Order)
+^ESCTPH947338	Phenobarbital 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947339	Phenobarbital 25mg/5ml oral suspension 1 ml
+^ESCTPH947340	Phenobarbital 25mg/5ml oral suspension (Special Order)
+^ESCTPH947341	Phenobarbital 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947342	Phenobarbital 25mg/5ml oral solution 1 ml
+^ESCTPH947344	Phenobarbital 25mg/5ml oral solution (Special Order)
+^ESCTPH947345	Phenobarbital 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947347	Phenobarbital 31.5mg/5ml oral suspension 1 ml
+^ESCTPH947348	Phenobarbital 31.5mg/5ml oral suspension (Special Order)
+^ESCTPH947349	Phenobarbital 31.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947350	Phenobarbital 31.5mg/5ml oral solution 1 ml
+^ESCTPH947351	Phenobarbital 31.5mg/5ml oral solution (Special Order)
+^ESCTPH947352	Phenobarbital 31.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947354	Phenobarbital 5mg/5ml oral suspension 1 ml
+^ESCTPH947355	Phenobarbital 5mg/5ml oral suspension (Special Order)
+^ESCTPH947358	Phenobarbital 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947359	Phenobarbital 5mg/5ml oral solution 1 ml
+^ESCTPH947360	Phenobarbital 5mg/5ml oral solution (Special Order)
+^ESCTPH947361	Phenobarbital 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947362	Phenobarbital 75mg/5ml oral suspension 1 ml
+^ESCTPH947363	Phenobarbital 75mg/5ml oral suspension (Special Order)
+^ESCTPH947364	Phenobarbital 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947365	Phenobarbital 75mg/5ml oral solution 1 ml
+^ESCTPH947366	Phenobarbital 75mg/5ml oral solution (Special Order)
+^ESCTPH947367	Phenobarbital 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947387	Phenobarbital sodium 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH947406	Phenobarbital 125mg/5ml oral solution
+^ESCTPH947407	Phenobarbital 125mg/5ml oral suspension
+^ESCTPH947408	Phenobarbital 15mg/5ml oral solution
+^ESCTPH947409	Phenobarbital 15mg/5ml oral suspension
+^ESCTPH947410	Phenobarbital 25mg/5ml oral solution
+^ESCTPH947411	Phenobarbital 25mg/5ml oral suspension
+^ESCTPH947412	Phenobarbital 31.5mg/5ml oral solution
+^ESCTPH947413	Phenobarbital 31.5mg/5ml oral suspension
+^ESCTPH947414	Phenobarbital 5mg/5ml oral solution
+^ESCTPH947416	Phenobarbital 5mg/5ml oral suspension
+^ESCTPH947419	Phenobarbital 75mg/5ml oral solution
+^ESCTPH947420	Phenobarbital 75mg/5ml oral suspension
+^ESCTPH947421	Phenobarbital sodium 60mg/5ml oral solution
+^ESCTPH947422	Phenobarbital sodium 60mg/5ml oral suspension
+^ESCTPH947974	Phenobarbital 100mg capsules 1 capsule
+^ESCTPH947976	Phenobarbital 100mg capsules (Special Order)
+^ESCTPH947977	Phenobarbital 100mg capsules (Special Order) 1 capsule
+^ESCTPH947980	Phenobarbital 100mg tablets 1 tablet
+^ESCTPH947982	Phenobarbital 100mg tablets (Special Order)
+^ESCTPH947983	Phenobarbital 100mg tablets (Special Order) 1 tablet
+^ESCTPH947988	Phenobarbital 100mg/5ml oral suspension 1 ml
+^ESCTPH947989	Phenobarbital 100mg/5ml oral suspension (Special Order)
+^ESCTPH947990	Phenobarbital 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH947993	Phenobarbital 100mg/5ml oral solution 1 ml
+^ESCTPH947995	Phenobarbital 100mg/5ml oral solution (Special Order)
+^ESCTPH947996	Phenobarbital 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH948509	Phenobarbital 100mg capsules
+^ESCTPH948510	Phenobarbital 100mg tablets
+^ESCTPH948511	Phenobarbital 100mg/5ml oral solution
+^ESCTPH948512	Phenobarbital 100mg/5ml oral suspension
+^ESCTPH948973	Phenobarbital 10mg capsules 1 capsule
+^ESCTPH948975	Phenobarbital 10mg capsules (Special Order)
+^ESCTPH948977	Phenobarbital 10mg capsules (Special Order) 1 capsule
+^ESCTPH948978	Phenobarbital 25mg capsules 1 capsule
+^ESCTPH948979	Phenobarbital 25mg capsules (Special Order)
+^ESCTPH948980	Phenobarbital 25mg capsules (Special Order) 1 capsule
+^ESCTPH948982	Phenobarbital 37.5mg capsules 1 capsule
+^ESCTPH948984	Phenobarbital 37.5mg capsules (Special Order)
+^ESCTPH948985	Phenobarbital 37.5mg capsules (Special Order) 1 capsule
+^ESCTPH948988	Phenobarbital 50mg capsules 1 capsule
+^ESCTPH948989	Phenobarbital 50mg capsules (Special Order)
+^ESCTPH948990	Phenobarbital 50mg capsules (Special Order) 1 capsule
+^ESCTPH949011	Phenobarbital 60mg capsules 1 capsule
+^ESCTPH949017	Phenobarbital 60mg capsules (Special Order)
+^ESCTPH949022	Phenobarbital 60mg capsules (Special Order) 1 capsule
+^ESCTPH949567	Phenobarbital 10mg capsules
+^ESCTPH949568	Phenobarbital 25mg capsules
+^ESCTPH949569	Phenobarbital 37.5mg capsules
+^ESCTPH949570	Phenobarbital 50mg capsules
+^ESCTPH949571	Phenobarbital 60mg capsules
+^ESCTPH960552	Phenobarbital 15mg tablets (Dowelhurst Ltd)
+^ESCTPH960553	Phenobarbital 15mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTPH960556	Phenobarbital 30mg tablets (Dowelhurst Ltd)
+^ESCTPH960558	Phenobarbital 30mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTPH960559	Phenobarbital 60mg tablets (Dowelhurst Ltd)
+^ESCTPH960560	Phenobarbital 60mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTPH962259	Phenobarbital 180mg/5ml oral solution 1 ml
+^ESCTPH962260	Phenobarbital 180mg/5ml oral solution (Special Order)
+^ESCTPH962261	Phenobarbital 180mg/5ml oral solution (Special Order) 1 ml
+^ESCTPH962262	Phenobarbital 180mg/5ml oral suspension 1 ml
+^ESCTPH962263	Phenobarbital 180mg/5ml oral suspension (Special Order)
+^ESCTPH962264	Phenobarbital 180mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPH962361	Phenobarbital 180mg/5ml oral solution
+^ESCTPH962362	Phenobarbital 180mg/5ml oral suspension
+^ESCTPH967008	Phenobarbital sodium
+^ESCTPR332757	Product containing phenobarbital
+^ESCTPR641941	Product containing belladonna alkaloids 0.2 mg and ergotamine tartrate 0.6 mg and phenobarbital 40 mg/1 each oral tablet
+^ESCTPR645079	Product containing phenobarbital 16 mg/1 each oral tablet
+^ESCTPR645081	Product containing phenobarbital 16.2 mg/1 each oral tablet
+^ESCTPR645083	Product containing phenobarbital 90 mg/1 each oral tablet
+^ESCTPR645085	Product containing phenobarbital 16 mg/1 each oral capsule
+PHEL17811NEMIS	Phenobarbital  Elixir  15 mg/5 ml
+PHEL38239MGEMIS	Phenobarbital  Elixir  15 mg/5 ml (A.A.H. Pharm)
+PHEL38240MGEMIS	Phenobarbital  Elixir  15 mg/5 ml (Thornton & Ross)
+PHEL38241MGEMIS	Phenobarbital  Elixir  15 mg/5 ml (Unichem)
+PHIN17812NEMIS	Phenobarbital  Solution for injection  200 mg/1 ml ampoule
+PHIN38242MGEMIS	Phenobarbital  Injection  200 mg/ml, 1 ml ampoule (Martindale)
+PHIN38243MGEMIS	Phenobarbital  Injection  200 mg/ml, 1 ml ampoule (A.A.H. Pharm)
+PHOR127224NEMIS	Phenobarbital  Oral suspension  250 mg/5 ml
+PHOR138562NEMIS	Phenobarbital  Oral suspension  30 mg/5 ml
+PHOR138581NEMIS	Phenobarbital  Oral suspension  75 mg/5 ml
+PHOR141896NEMIS	Phenobarbital  Oral solution  25 mg/5 ml
+PHOR46514NEMIS	Phenobarbital  Oral solution  90 mg/5 ml
+PHOR46515NEMIS	Phenobarbital  Oral suspension  90 mg/5 ml
+PHOR46565NEMIS	Phenobarbital  Oral solution  10 mg/5 ml
+PHOR46566NEMIS	Phenobarbital  Oral suspension  10 mg/5 ml
+PHOR46788NEMIS	Phenobarbital  Oral solution  50 mg/5 ml
+PHOR46790NEMIS	Phenobarbital  Oral suspension  50 mg/5 ml
+PHOR73937NEMIS	Phenobarbital  Oral suspension  25 mg/5 ml
+PHSO105988NEMIS	Phenobarbital  Solution for injection  30 mg/1 ml ampoule
+PHSO105989NEMIS	Phenobarbital  Solution for injection  60 mg/1 ml ampoule
+PHTA134843NEMIS	Phenobarbital  Tablets  100 mg
+PHTA17817NEMIS	Phenobarbital  Tablets  15 mg
+PHTA17818NEMIS	Phenobarbital  Tablets  30 mg
+PHTA17819NEMIS	Phenobarbital  Tablets  60 mg
+PHTA38244MGEMIS	Phenobarbital  Tablets  15 mg (Kent Pharm)
+PHTA38245MGEMIS	Phenobarbital  Tablets  15 mg (The Boots Company)
+PHTA38246MGEMIS	Phenobarbital  Tablets  15 mg (Teva UK)
+PHTA38247MGEMIS	Phenobarbital  Tablets  15 mg (A.A.H. Pharm)
+PHTA38248MGEMIS	Phenobarbital  Tablets  15 mg (Unichem)
+PHTA38249MGEMIS	Phenobarbital  Tablets  30 mg (Teva UK)
+PHTA38250MGEMIS	Phenobarbital  Tablets  30 mg (Kent Pharm)
+PHTA38251MGEMIS	Phenobarbital  Tablets  30 mg (A.A.H. Pharm)
+PHTA38252MGEMIS	Phenobarbital  Tablets  30 mg (Unichem)
+PHTA38253MGEMIS	Phenobarbital  Tablets  30 mg (Alpharma)
+PHTA38254MGEMIS	Phenobarbital  Tablets  60 mg (Kent Pharm)
+PHTA38255MGEMIS	Phenobarbital  Tablets  60 mg (Unichem)
+PHTA38256MGEMIS	Phenobarbital  Tablets  60 mg (Teva UK)
+PHTA38257MGEMIS	Phenobarbital  Tablets  60 mg (Alpharma)
+PHTA38258MGEMIS	Phenobarbital  Tablets  60 mg (A.A.H. Pharm)
+^ESCT1178201	Product containing only phenobarbitone 30 mg/1 each oral tablet
+^ESCT1181145	Product containing only phenobarbitone 60 mg/1 each oral tablet
+^ESCT1181979	Product containing only phenobarbitone 15 mg/1 each oral tablet
+^ESCT1181980	Product containing only phenobarbitone 100 mg/1 each oral tablet
+^ESCT1223897	Phenobarbitone 100 mg oral tablet
+^ESCT1226781	Phenobarbitone in oral dosage form
+^ESCT1226784	Phenobarbitone in parenteral dosage form
+^ESCTPH610634	Phenobarbitone 15 mg oral tablet
+^ESCTPH610637	Phenobarbitone 30 mg oral tablet
+^ESCTPH610640	Phenobarbitone 60 mg oral tablet
+^ESCTPH610641	Phenobarbitone 100 mg oral tablet
+^ESCTPH610644	Phenobarbitone sodium 200mg/1mL injection
+^ESCTPH610649	Phenobarbitone 15mg/5mL elixir
+^ESCTPH618527	Phenobarbitone sodium 15mg/1mL injection
+^ESCTPH618532	Phenobarbitone sodium 30mg/1mL injection
+^ESCTPH618537	Phenobarbitone sodium 60mg/1mL injection
+^ESCTPH618974	Phenobarbitone in oral dosage form
+^ESCTPH618976	Phenobarbitone in parenteral dosage form
+^ESCTPR610633	Product containing phenobarbitone 15 mg/1 each oral tablet
+^ESCTPR610636	Product containing phenobarbitone 30 mg/1 each oral tablet
+^ESCTPR610639	Product containing phenobarbitone 60 mg/1 each oral tablet
+^ESCTPR610642	Product containing phenobarbitone 100 mg/1 each oral tablet
+^ESCTPR618975	Product containing phenobarbitone in oral dosage form
+^ESCTPR618977	Product containing phenobarbitone in parenteral dosage form
+PHEL2230	Phenobarbitone  Elixir  15 mg/5 ml
+PHIN5263	Phenobarbitone Sodium  Injection  200mg/ml
+PHTA2232	Phenobarbitone  Tablets  15 mg
+PHTA2233	Phenobarbitone  Tablets  30 mg
+PHTA2234	Phenobarbitone  Tablets  60 mg
+^ESCTGA806448	Gardenal Sodium 200mg/1ml solution for injection ampoules (Concord Pharmaceuticals Ltd)
+^ESCTGA856921	Gardenal Sodium 200mg/1ml solution for injection ampoules (Concord Pharmaceuticals Ltd) 10 ampoule
+^ESCTGA918826	Gardenal Sodium
+GAIN3629	Gardenal Sodium  Injection  200mg/ml, 1 ml ampoule
+LUTA3855	Luminal  Tablets  15 mg
+LUTA3856	Luminal  Tablets  30 mg
+LUTA3857	Luminal  Tablets  60 mg
+PHTA2231	Phenobarbitone  Tablets  100 mg
+PHTA2235	Phenobarbitone Sodium  Tablets  30 mg
+PHTA2236	Phenobarbitone Sodium  Tablets  60 mg

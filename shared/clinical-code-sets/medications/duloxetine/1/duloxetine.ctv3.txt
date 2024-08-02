@@ -2,3 +2,10 @@ gde3.	Cymbalta 30mg gastro-resistant capsule
 gde4.	Cymbalta 60mg gastro-resistant capsule
 gdew.	Duloxetine 60mg gastro-resistant capsule
 gdex.	Duloxetine 30mg gastro-resistant capsule
+gde..	Duloxetine
+gdez.	Duloxetine 40mg gastro-resistant capsule
+gde2.	Yentreve 40mg gastro-resistant capsule
+gdey.	Duloxetine 20mg gastro-resistant capsule
+gde1.	Yentreve 20mg gastro-resistant capsule
+x05w9	Cymbalta
+x05v6	Yentreve

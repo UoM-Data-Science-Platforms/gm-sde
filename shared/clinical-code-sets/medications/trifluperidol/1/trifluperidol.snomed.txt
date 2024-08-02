@@ -1,0 +1,6 @@
+5478006	Product containing trifluperidol (medicinal product)
+777849008	Product containing only trifluperidol (medicinal product)
+405601000001108	Trifluperidol 500micrograms tablet
+475201000001100	Trifluperidol 1mg tablet
+43901000001100	Triperidol 1mg tablet
+802601000001109	Triperidol 500micrograms tablet

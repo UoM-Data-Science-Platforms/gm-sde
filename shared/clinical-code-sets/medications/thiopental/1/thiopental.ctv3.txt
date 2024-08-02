@@ -1,0 +1,22 @@
+o11g.	Thiopental sodium 500mg injection (pdr for recon)
+o112.	Intraval Sodium 500mg injection (pdr for recon)
+o11h.	Thiopentone sodium 500mg injection+diluent
+o11p.	Intraval Sodium 500mg injection (pdr for recon)+diluent
+o119.	Intraval + water 500mg injection
+o11j.	Thiopentone sodium 2.5g injection (pdr for recon)
+o11n.	Intraval Sodium 2.5g injection (pdr for recon)
+o11k.	Thiopentone sodium 2.5g injection+diluent
+o116.	Add-A-Med Thiopentone 2.5g injection
+o11o.	Intraval Sodium 2.5g injection (pdr for recon)+diluent
+o11m.	Thiopentone sodium 5g injection+diluent
+o117.	Add-A-Med Thiopentone 5g injection
+o11e.	Intraval + water 5g injection
+o114.	Intraval 1g injection
+o115.	Intraval + water 1g injection
+o11d.	Intraval 5g injection
+o11..	Thiopental sodium
+o118.	Thiopentone sodium 2.5% injection
+o11b.	Thiopentone sodium 5% injection
+o11c.	Thiopentone sodium 25% injection
+x01A8	Thiopental
+x02fo	Intraval Sodium

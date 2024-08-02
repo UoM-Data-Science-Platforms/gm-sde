@@ -1,0 +1,6 @@
+430271006	Product containing desvenlafaxine (medicinal product)
+433293002	Product containing precisely desvenlafaxine succinate 100 milligram/1 each conventional release oral tablet (clinical drug)
+433294008	Product containing precisely desvenlafaxine succinate 50 milligram/1 each conventional release oral tablet (clinical drug)
+768102009	Product containing desvenlafaxine in oral dose form (medicinal product form)
+775497003	Product containing only desvenlafaxine (medicinal product)
+778950006	Product containing only desvenlafaxine in oral dose form (medicinal product form)

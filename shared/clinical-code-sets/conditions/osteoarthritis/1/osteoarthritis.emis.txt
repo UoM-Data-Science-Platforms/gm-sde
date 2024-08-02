@@ -1,0 +1,147 @@
+^ESCT1272016	Localised osteoarthritis, unspecified, of the pelvic region and thigh
+^ESCT1275848	Localized osteoarthritis, unspecified, of the pelvic region and thigh
+^ESCT1379239	Coxae malum senilis
+^ESCTBO282161	Bouchard node
+^ESCTCE356105	Cervical spinal cord compression
+^ESCTCE356106	Cervical spondylitic cord compression
+^ESCTCE481511	Cervical spondylosis with root compression
+^ESCTCE647809	Cervical osteoarthritis
+^ESCTCE647812	Cervical spondylarthritis
+^ESCTCE647813	Cervical spine degeneration
+^ESCTCS647811	CS - Cervical spondylosis
+^ESCTDE383881	Degenerative joint disease of ankle AND/OR foot
+^ESCTDE514032	Degenerative joint disease of spinal facet joint
+^ESCTDE514033	Degenerative arthropathy of spinal facet joint
+^ESCTDE514036	Degenerative joint disease of acromioclavicular joint
+^ESCTDE514039	Degenerative joint disease of elbow
+^ESCTDE514042	Degenerative joint disease of wrist
+^ESCTDE514045	Degenerative joint disease of finger
+^ESCTDE514048	Degenerative joint disease of distal interphalangeal joint
+^ESCTDE514050	Degenerative joint disease of proximal interphalangeal joint
+^ESCTDE514052	Degenerative joint disease of metacarpophalangeal joint of finger
+^ESCTDE514055	Degenerative joint disease of hip
+^ESCTDE514058	Degenerative joint disease of knee
+^ESCTDE514063	Degenerative joint disease of ankle
+^ESCTDE514067	Degenerative joint disease of subtalar joint
+^ESCTDE514070	Degenerative joint disease of first metatarsophalangeal joint
+^ESCTDE514074	Degenerative joint disease of toe joint
+^ESCTDE557212	Degenerative joint disease of metacarpophalangeal joint
+^ESCTDE598651	Degenerative joint disease of foot
+^ESCTDE656677	Degenerative arthritis
+^ESCTDE656680	Degenerative joint disease
+^ESCTDE656683	Degenerative arthropathy
+^ESCTDI662001	Disorder of joint
+^ESCTEN514080	Endemic osteoarthritis
+^ESCTEN514081	Endemic generalized osteo-arthrosis
+^ESCTEN514082	Endemic generalised osteo-arthrosis
+^ESCTEX654979	Exacerbation of osteoarthritis
+^ESCTGE480942	Generalized osteoarthritis
+^ESCTGE480943	Generalized osteoarthrosis
+^ESCTGE480944	Generalised osteoarthrosis
+^ESCTGE550226	Generalized osteoarthritis of the hand
+^ESCTGO480941	GOA - Generalized osteoarthritis
+^ESCTGO480946	GOA - Generalised osteoarthritis
+^ESCTGO514059	Gonarthrosis
+^ESCTHE480950	Heberden nodes with arthropathy
+^ESCTHE635761	Heberden node
+^ESCTHI454135	History of osteoarthritis
+^ESCTHY656679	Hypertrophic arthritis
+^ESCTHY656681	Hypertrophic polyarthritis
+^ESCTID514021	Idiopathic osteoarthritis
+^ESCTJO662000	Joint disease
+^ESCTKN514060	Knee DJD (degenerative joint disease)
+^ESCTLO304644	Localised osteoarthrosis
+^ESCTLO304645	Localized osteoarthrosis
+^ESCTLO304646	Localized osteoarthritis
+^ESCTLO304647	Localized osteoarthropathy
+^ESCTLO304648	Localised osteoarthropathy
+^ESCTLO480952	Localized, primary osteoarthritis
+^ESCTLO480956	Localized, primary osteoarthritis of the shoulder region
+^ESCTLO480960	Localized, primary osteoarthritis of the hand
+^ESCTLO480964	Localized, primary osteoarthritis of the pelvic region and thigh
+^ESCTLO480966	Localized, primary osteoarthritis of the ankle and foot
+^ESCTLO480968	Localized, primary osteoarthritis of the ankle and/or foot
+^ESCTLO480976	Localized, secondary osteoarthritis
+^ESCTLO480980	Localized, secondary osteoarthritis of the shoulder region
+^ESCTLO480984	Localized, secondary osteoarthritis of the hand
+^ESCTLO480987	Localised, secondary osteoarthritis of the ankle and/or foot
+^ESCTLO480988	Localized, secondary osteoarthritis of the ankle and foot
+^ESCTLO480990	Localized, secondary osteoarthritis of the ankle and/or foot
+^ESCTLO550228	Localized, secondary osteoarthritis of the pelvic region and thigh
+^ESCTLO602802	Localized, primary osteoarthritis of the wrist
+^ESCTLO602804	Localized, primary osteoarthritis of toe
+^ESCTLO602806	Localized, primary osteoarthritis of elbow
+^ESCTLU327997	Lumbar AND/OR sacral osteoarthritis
+^ESCTLU435606	Lumbosacral spondylosis
+^ESCTOA264120	OA - Osteoarthritis of the spine
+^ESCTOA264121	OA - Osteoarthritis of spine
+^ESCTOA359494	OA - Osteoarthritis of shoulder
+^ESCTOA514035	OA - Osteoarthritis of acromioclavicular joint
+^ESCTOA514038	OA - Osteoarthritis of elbow
+^ESCTOA514041	OA - Osteoarthritis of wrist
+^ESCTOA514044	OA - Osteoarthritis of joint of finger
+^ESCTOA514054	OA - Osteoarthritis of hip
+^ESCTOA514057	OA - Osteoarthritis of knee
+^ESCTOA514062	OA - Osteoarthritis of ankle
+^ESCTOA514066	OA - Osteoarthritis of subtalar joint
+^ESCTOA514069	OA - Osteoarthritis of first metatarsophalangeal joint
+^ESCTOA514073	OA - Osteoarthritis of toe joint
+^ESCTOA656676	OA - Osteoarthritis
+^ESCTOA656678	OA - Osteoarthrosis
+^ESCTON458062	On examination - hands - Heberden's nodes
+^ESCTON458063	On examination - hands - Heberden nodes
+^ESCTOS285346	Osteoarthritis - hand joint
+^ESCTOS285347	Osteoarthrosis of hand
+^ESCTOS311035	Osteoarthritis of first carpometacarpal joint
+^ESCTOS311036	Osteoarthritis basilar joint of thumb
+^ESCTOS359495	Osteoarthritis of shoulder joint
+^ESCTOS359497	Osteoarthritis of shoulder region
+^ESCTOS383882	Osteoarthritis - ankle and/or foot
+^ESCTOS383883	Osteoarthritis - ankle/foot
+^ESCTOS383884	Osteoarthrosis of ankle and/or foot
+^ESCTOS514043	Osteoarthritis of finger joint
+^ESCTOS514051	Osteoarthritis of metacarpophalangeal joint of finger
+^ESCTOS514071	Osteoarthritis of first MTPJ (metatarsophalangeal joint)
+^ESCTOS656682	Osteoarthrosis
+^ESCTOS730877	Osteoarthritis of pelvis
+^ESCTOS738000	Osteoarthritis of patellofemoral joint
+^ESCTOT514079	Otto pelvis
+^ESCTPG514022	PGOA - Primary generalised osteoarthritis
+^ESCTPG514026	PGOA - Primary generalized osteoarthritis
+^ESCTPR480953	Primary localised osteoarthrosis
+^ESCTPR480954	Primary localized osteoarthrosis
+^ESCTPR480957	Primary localised osteoarthrosis of shoulder region
+^ESCTPR480958	Primary localized osteoarthrosis of shoulder region
+^ESCTPR480961	Primary localized osteoarthrosis of hand
+^ESCTPR480962	Primary localised osteoarthrosis of hand
+^ESCTPR480969	Primary localized osteoarthrosis of ankle AND/OR foot
+^ESCTPR480970	Primary localised osteoarthrosis of ankle AND/OR foot
+^ESCTPR514024	Primary generalised osteoarthritis
+^ESCTPR514025	Primary osteoarthritis
+^ESCTPR514027	Primary generalized osteoarthritis
+^ESCTPR514028	Primary generalized osteoarthrosis
+^ESCTPR514029	Primary generalized hypertrophic osteoarthrosis
+^ESCTPR514030	Primary generalised hypertrophic osteoarthrosis
+^ESCTSA339520	Sacroiliac joint inflamed
+^ESCTSA339521	Sacroiliac joint active
+^ESCTSE480977	Secondary localized osteoarthrosis
+^ESCTSE480978	Secondary localised osteoarthrosis
+^ESCTSE480981	Secondary localized osteoarthrosis of shoulder region
+^ESCTSE480982	Secondary localised osteoarthrosis of shoulder region
+^ESCTSE480985	Secondary localised osteoarthrosis of hand
+^ESCTSE480986	Secondary localized osteoarthrosis of hand
+^ESCTSE480991	Secondary localised osteoarthrosis of ankle AND/OR foot
+^ESCTSE480992	Secondary localized osteoarthrosis of ankle AND/OR foot
+^ESCTSE727880	Secondary osteoarthritis
+^ESCTSP264118	Spondylarthrosis
+^ESCTSP264122	Spondarthropathy
+^ESCTSP267422	Spondylogenic compression of thoracic spinal cord
+^ESCTSP356104	Spondylogenic compression of cervical spinal cord
+^ESCTSP361987	Spinal osteoarthritis
+^ESCTTH267423	Thoracic spondylosis with cord compression
+^ESCTTH481517	Thoracic spondylosis with root compression
+^ESCTTH647818	Thoracic spondylarthritis
+^ESCTTH647819	Thoracic osteoarthritis
+EMISNQAX2	Axial spondyloarthritis
+EMISNQOS6	Osteoarthritis of spinal facet joint
+ESCTOS1	Osteoarthritis of knee

@@ -1,0 +1,27 @@
+321603004	Product containing sertindole (medicinal product)
+777520009	Sertindole (product)
+4748311000001101	Sertindole 16mg tablets (product)
+4732011000001101	Serdolect 16mg tablets (Imported (Denmark)) (product)
+4748411000001108	Sertindole 20mg tablets (product)
+4732311000001103	Serdolect 20mg tablets (Imported (Denmark)) (product)
+4748211000001109	Sertindole 12mg tablets (product)
+4731711000001106	Serdolect 12mg tablets (Imported (Denmark)) (product)
+4748511000001107	Sertindole 4mg tablets (product)
+4729611000001104	Serdolect 4mg tablets (Imported (Denmark)) (product)
+2831101000001100	Sertindole 4mg tablet
+2831201000001107	Sertindole 12mg tablet
+2831301000001103	Sertindole 16mg tablet
+2831401000001106	Sertindole 20mg tablet
+4732211000001106	Sertindole 20mg tablets 28 tablet (product)
+4732411000001105	Serdolect 20mg tablets (Imported (Denmark)) 28 tablet (product)
+4731911000001108	Sertindole 16mg tablets 28 tablet (product)
+4732111000001100	Serdolect 16mg tablets (Imported (Denmark)) 28 tablet (product)
+4731611000001102	Sertindole 12mg tablets 28 tablet (product)
+4731811000001103	Serdolect 12mg tablets (Imported (Denmark)) 28 tablet (product)
+4729211000001101	Sertindole 4mg tablets 30 tablet (product)
+4730311000001102	Serdolect 4mg tablets (Imported (Denmark)) 30 tablet (product)
+2831701000001104	Serdolect 4mg tablet
+2831801000001108	Serdolect 12mg tablet
+2831901000001102	Serdolect 16mg tablet
+2832001000001105	Serdolect 20mg tablet
+9339401000001104	Serdolect (product)

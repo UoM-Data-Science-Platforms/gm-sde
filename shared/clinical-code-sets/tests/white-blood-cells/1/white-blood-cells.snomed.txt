@@ -1,1 +1,6 @@
 1022541000000102	Total white cell count (observable entity)
+11701000237105	Count of white blood cells in cerebrospinal fluid (observable entity)
+42331000237103	Count of white blood cells in urine (observable entity)
+16181000237107	Count of white blood cells in fluid (observable entity)
+1027691000000105	Leucocyte count (observable entity)
+767002	White blood cell count (procedure)

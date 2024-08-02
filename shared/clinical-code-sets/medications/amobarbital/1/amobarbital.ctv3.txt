@@ -1,0 +1,32 @@
+d313.	Amytal 50mg tablet
+d319.	Sodium Amytal 60mg capsule
+d31a.	Sodium Amytal 200mg capsule
+d31g.	Tuinal 100mg capsule
+d31j.	Amobarbital sodium 200mg capsule
+d31q.	Amylobarbitone 50mg tablet
+d31t.	Amobarbital sodium 60mg capsule
+d31i.	Amobarbital 100mg tablet
+d314.	Amytal 100mg tablet
+d31k.	Amobarbital sodium 250mg injection
+d31d.	Sodium Amytal 250mg injection
+d31l.	Amobarbital sodium 500mg injection
+d31e.	Sodium Amytal 500mg injection (pdr for recon)
+d31o.	Amobarbital 15mg tablet
+d311.	Amytal 15mg tablet
+d31p.	Amobarbital 30mg tablet
+d312.	Amytal 30mg tablet
+d31u.	Amobarbital 200mg tablet
+d315.	Amytal 200mg tablet
+d31v.	Amobarbital sodium 60mg tablet
+d31b.	Sodium Amytal 60mg tablet
+d31z.	Amobarbital sodium 200mg tablet
+d31c.	Sodium Amytal 200mg tablet
+x000K	Amobarbital
+x01B7	Amobarbital sodium
+d31m.	Sodium Amytal 100mg tablet
+d31x.	Amylobarbitone sodium+quinalbarbitone sodium 50mg/50mg capsule
+x05L9	Amylobarbitone - chemical
+x05LA	Amylobarbitone sodium - chemical
+x02To	Amytal
+x02r7	Sodium Amytal
+x02tY	Tuinal

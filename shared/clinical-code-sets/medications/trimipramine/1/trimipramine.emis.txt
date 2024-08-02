@@ -169,3 +169,47 @@ TRTA37334MGEMIS	Trimipramine  Tablets  10 mg (Kent Pharm)
 TRTA37335MGEMIS	Trimipramine  Tablets  10 mg (A.A.H. Pharm)
 TRTA37336MGEMIS	Trimipramine  Tablets  25 mg (Kent Pharm)
 TRTA37337MGEMIS	Trimipramine  Tablets  25 mg (A.A.H. Pharm)
+^ESCT1178325	Product containing only trimipramine maleate 100 mg/1 each oral capsule
+^ESCT1181642	Product containing only trimipramine maleate 25 mg/1 each oral capsule
+^ESCT1207063	Trimipramine in oral dosage form
+^ESCT1207064	Product containing trimipramine in oral dosage form
+^ESCT1220427	Trimipramine
+^ESCT1220428	Trimipramine product
+^ESCT1227729	Trimipramine maleate 25 mg/1 each oral capsule
+^ESCT1227730	Trimipramine maleate 25 mg oral capsule
+^ESCT1227731	Product containing precisely trimipramine maleate 25 milligram/1 each conventional release oral capsule
+^ESCT1227732	Trimipramine maleate 100 mg/1 each oral capsule
+^ESCT1227733	Product containing precisely trimipramine maleate 100 milligram/1 each conventional release oral capsule
+^ESCT1227734	Trimipramine maleate 100 mg oral capsule
+^ESCT1274485	Trimipramine 50mg capsules (CST Pharma Ltd)
+^ESCT1274486	Trimipramine 50mg capsules (CST Pharma Ltd) 28 capsule
+^ESCT1274927	Trimipramine 25mg tablets (CST Pharma Ltd)
+^ESCT1274929	Trimipramine 25mg tablets (CST Pharma Ltd) 50 tablet
+^ESCT1274965	Trimipramine 25mg tablets (CST Pharma Ltd) 100 tablet
+^ESCT1275172	Trimipramine 10mg tablets (Pilsco Ltd)
+^ESCT1275174	Trimipramine 10mg tablets (Pilsco Ltd) 25 tablet
+^ESCT1275178	Trimipramine 10mg tablets (Pilsco Ltd) 50 tablet
+^ESCT1275180	Trimipramine 25mg tablets (Pilsco Ltd)
+^ESCT1275181	Trimipramine 25mg tablets (Pilsco Ltd) 100 tablet
+^ESCT1275182	Trimipramine 50mg capsules (Pilsco Ltd)
+^ESCT1275186	Trimipramine 50mg capsules (Pilsco Ltd) 28 capsule
+^ESCT1275223	Trimipramine 10mg tablets (CST Pharma Ltd)
+^ESCT1275224	Trimipramine 10mg tablets (CST Pharma Ltd) 50 tablet
+^ESCT1301040	Trimipramine 50mg capsules (DE Pharmaceuticals)
+^ESCT1301041	Trimipramine 50mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1301042	Trimipramine 25mg tablets (DE Pharmaceuticals)
+^ESCT1301043	Trimipramine 25mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCT1357073	Trimipramine only product
+^ESCT1360126	Trimipramine only product in oral dose form
+^ESCT1386575	Trimipramine-containing product in oral dose form
+^ESCT1402563	Trimipramine 50mg capsules (Pharmaram Ltd)
+^ESCT1402564	Trimipramine 50mg capsules (Pharmaram Ltd) 28 capsule
+^ESCTPR396975	Product containing trimipramine
+^ESCTPR638727	Product containing trimipramine maleate 25 mg/1 each oral capsule
+^ESCTPR638730	Product containing trimipramine maleate 100 mg/1 each oral capsule
+^ESCTTR396974	Trimipramine
+^ESCTTR638726	Trimipramine maleate 25 mg/1 each oral capsule
+^ESCTTR638729	Trimipramine maleate 100 mg/1 each oral capsule
+^ESCTSU916543	Surmontil
+^ESCTSU973942	Surmontil 50mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTSU973943	Surmontil 50mg capsules (Sigma Pharmaceuticals Plc) 28 capsule

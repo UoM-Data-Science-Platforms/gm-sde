@@ -1,0 +1,6 @@
+d4m..	Remoxipride hydrochloride
+d4m1.	Remoxipride hydrochloride 150mg m/r capsule
+d4m3.	Roxiam 150mg m/r capsule
+d4m2.	Remoxipride hydrochloride 300mg m/r capsule
+d4m4.	Roxiam 300mg m/r capsule
+x01Ba	Remoxipride

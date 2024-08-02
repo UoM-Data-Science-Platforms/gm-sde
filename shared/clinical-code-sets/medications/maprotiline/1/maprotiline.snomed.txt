@@ -1,0 +1,37 @@
+32823007	Product containing maprotiline (medicinal product)
+321841008	Product containing precisely maprotiline hydrochloride 10 milligram/1 each conventional release oral tablet (clinical drug)
+321842001	Product containing precisely maprotiline hydrochloride 25 milligram/1 each conventional release oral tablet (clinical drug)
+321843006	Product containing precisely maprotiline hydrochloride 50 milligram/1 each conventional release oral tablet (clinical drug)
+321844000	Product containing precisely maprotiline hydrochloride 75 milligram/1 each conventional release oral tablet (clinical drug)
+772581003	Product containing maprotiline in oral dose form (medicinal product form)
+776633002	Maprotiline (product)
+779771003	Product containing only maprotiline in oral dose form (medicinal product form)
+42273811000001104	Maprotiline 25mg tablets (product)
+3684011000001105	Ludiomil 25mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+42273911000001109	Maprotiline 50mg tablets (product)
+3865211000001106	Ludiomil 50mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+36894611000001100	Maprotiline 50mg tablets (Special Order) (product)
+42274011000001107	Maprotiline 75mg tablets (product)
+3808811000001104	Ludiomil 75mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+42273711000001107	Maprotiline 10mg tablets (product)
+3864911000001101	Ludiomil 10mg tablets (Novartis Pharmaceuticals UK Ltd) (product)
+21401000001108	Maprotiline hydrochloride 10mg tablet - product
+92101000001104	Maprotiline hydrochloride 25mg tablet - product
+97301000001100	Maprotiline hydrochloride 50mg tablet - product
+169801000001108	Maprotiline hydrochloride 75mg tablet - product
+3865111000001100	Maprotiline 50mg tablets 28 tablet (product)
+3865311000001103	Ludiomil 50mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets (product)
+3864811000001106	Maprotiline 10mg tablets 30 tablet (product)
+3865011000001101	Ludiomil 10mg tablets (Novartis Pharmaceuticals UK Ltd) 30 tablet 3 x 10 tablets (product)
+3808711000001107	Maprotiline 75mg tablets 28 tablet (product)
+3808911000001109	Ludiomil 75mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets (product)
+3683911000001107	Maprotiline 25mg tablets 28 tablet (product)
+3684511000001102	Ludiomil 25mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets (product)
+36894511000001104	Maprotiline 50mg tablets 1 tablet (product)
+36894711000001109	Maprotiline 50mg tablets (Special Order) 1 tablet (product)
+523001000001102	Ludiomil 10mg tablet
+592701000001103	Ludiomil 25mg tablet
+662901000001107	Ludiomil 50mg tablet
+733201000001107	Ludiomil 75mg tablet
+877301000001107	Ludiomil 75mg tablets x28CP
+9513501000001108	Ludiomil (product)

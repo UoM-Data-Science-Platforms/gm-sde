@@ -1,0 +1,5 @@
+d43..	Chlorprothixene
+d43z.	Chlorprothixene 50mg tablet
+d432.	Taractan 50mg tablet
+d43y.	Chlorprothixene 15mg tablet
+d431.	Taractan 15mg tablet

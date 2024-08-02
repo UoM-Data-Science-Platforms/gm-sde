@@ -1,0 +1,489 @@
+^ESCT1174831	Fluoxetine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1174832	Fluoxetine 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1174940	Fluoxetine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1174941	Fluoxetine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1177205	Fluoxetine 60mg capsules (Milpharm Ltd)
+^ESCT1177206	Fluoxetine 60mg capsules (Milpharm Ltd) 30 capsule
+^ESCT1178323	Product containing only fluoxetine 10 mg/1 each oral capsule
+^ESCT1178324	Product containing only fluoxetine hydrochloride 10 mg/1 each oral tablet
+^ESCT1178613	Product containing only fluoxetine hydrochloride 20 mg/1 each oral tablet
+^ESCT1179251	Product containing only olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1180335	Fluoxetine 60mg capsules (Mylan) 30 capsule 2 x 15 capsules
+^ESCT1181895	Product containing only fluoxetine 60 mg/1 each oral capsule
+^ESCT1182662	Product containing only olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1183156	Product containing only fluoxetine hydrochloride 40 mg/1 each oral capsule
+^ESCT1183738	Fluoxetine 20mg capsules (Mylan)
+^ESCT1185302	Product containing only olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1185303	Product containing only olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1186028	Fluoxetine 20mg/5ml oral solution (Mylan) 70 ml
+^ESCT1186411	Fluoxetine 60mg capsules (Mylan)
+^ESCT1187299	Product containing only fluoxetine 20 mg/1 each oral capsule
+^ESCT1188064	Product containing only olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1188676	Fluoxetine 20mg capsules (Mylan) 30 capsule 2 x 15 capsules
+^ESCT1189338	Fluoxetine 20mg/5ml oral solution (Mylan)
+^ESCT1196217	Fluoxetine 20mg capsules (Teva UK Ltd) 30 capsule 3 x 10 capsules
+^ESCT1203686	Fluoxetine 90mg gastro-resistant oral capsule
+^ESCT1214231	Fluoxetine 10mg capsules (Actavis UK Ltd)
+^ESCT1214232	Fluoxetine 10mg capsules (Actavis UK Ltd) 30 capsule
+^ESCT1215090	Fluoxetine 10mg capsules (Morningside Healthcare Ltd)
+^ESCT1215091	Fluoxetine 10mg capsules (Morningside Healthcare Ltd) 30 capsule
+^ESCT1215092	Fluoxetine 10mg/5ml oral suspension 1 ml
+^ESCT1215093	Fluoxetine 10mg/5ml oral suspension (Special Order)
+^ESCT1215094	Fluoxetine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1215192	Fluoxetine 10mg/5ml oral suspension
+^ESCT1218709	Fluoxetine
+^ESCT1218710	Fluoxetine product
+^ESCT1223582	Fluoxetine (as fluoxetine hydrochloride) 20 mg oral capsule
+^ESCT1223583	Product containing precisely fluoxetine (as fluoxetine hydrochloride) 20 milligram/1 each conventional release oral capsule
+^ESCT1223584	Fluoxetine (as fluoxetine hydrochloride) 4 mg/mL oral solution
+^ESCT1223585	Product containing precisely fluoxetine (as fluoxetine hydrochloride) 4 milligram/1 milliliter conventional release oral solution
+^ESCT1223586	Product containing precisely fluoxetine (as fluoxetine hydrochloride) 60 milligram/1 each conventional release oral capsule
+^ESCT1223587	Fluoxetine (as fluoxetine hydrochloride) 60 mg oral capsule
+^ESCT1227722	Product containing precisely fluoxetine (as fluoxetine hydrochloride) 10 milligram/1 each conventional release oral capsule
+^ESCT1227723	Fluoxetine (as fluoxetine hydrochloride) 10 mg oral capsule
+^ESCT1227725	Product containing precisely fluoxetine (as fluoxetine hydrochloride) 10 milligram/1 each conventional release oral tablet
+^ESCT1227726	Fluoxetine (as fluoxetine hydrochloride) 10 mg oral tablet
+^ESCT1228790	Fluoxetine (as fluoxetine hydrochloride) 40 mg oral capsule
+^ESCT1228791	Product containing precisely fluoxetine (as fluoxetine hydrochloride) 40 milligram/1 each conventional release oral capsule
+^ESCT1230597	Olanzapine + fluoxetine
+^ESCT1230598	Fluoxetine and olanzapine product
+^ESCT1230599	Olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1230600	Product containing precisely fluoxetine hydrochloride 25 milligram and olanzapine 6 milligram/1 each conventional release oral capsule
+^ESCT1230601	Fluoxetine hydrochloride 25 mg and olanzapine 6 mg oral capsule
+^ESCT1230602	Olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1230603	Fluoxetine hydrochloride 50 mg and olanzapine 6 mg oral capsule
+^ESCT1230604	Product containing precisely fluoxetine hydrochloride 50 milligram and olanzapine 6 milligram/1 each conventional release oral capsule
+^ESCT1230605	Olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1230606	Product containing precisely fluoxetine hydrochloride 25 milligram and olanzapine 12 milligram/1 each conventional release oral capsule
+^ESCT1230607	Fluoxetine hydrochloride 25 mg and olanzapine 12 mg oral capsule
+^ESCT1230608	Olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCT1230609	Product containing precisely fluoxetine hydrochloride 50 milligram and olanzapine 12 milligram/1 each conventional release oral capsule
+^ESCT1230610	Fluoxetine hydrochloride 50 mg and olanzapine 12 mg oral capsule
+^ESCT1230724	Product containing precisely fluoxetine hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1234844	Olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCT1234845	Product containing precisely fluoxetine hydrochloride 25 milligram and olanzapine 3 milligram/1 each conventional release oral capsule
+^ESCT1234846	Fluoxetine hydrochloride 25 mg and olanzapine 3 mg oral capsule
+^ESCT1244882	Fluoxetine 10mg tablets (Endo Ventures Ltd)
+^ESCT1244883	Fluoxetine 10mg tablets (Endo Ventures Ltd) 30 tablet 3 x 10 tablets
+^ESCT1250736	Olena 20mg dispersible tablets (Advanz Pharma)
+^ESCT1250737	Olena 20mg dispersible tablets (Advanz Pharma) 28 tablet
+^ESCT1250814	Fluoxetine 60mg capsules (Advanz Pharma)
+^ESCT1250815	Fluoxetine 60mg capsules (Advanz Pharma) 30 capsule 2 x 15 capsules
+^ESCT1255928	Fluoxetine 60mg capsules 60 capsule
+^ESCT1255929	Fluoxetine 60mg capsules (Bristol Laboratories Ltd) 60 capsule 6 x 10 capsules
+^ESCT1258407	Fluoxetine 20mg capsules (Strides Pharma UK Ltd)
+^ESCT1258408	Fluoxetine 20mg capsules (Strides Pharma UK Ltd) 30 capsule 3 x 10 capsules
+^ESCT1258495	Fluoxetine 60mg capsules (Bristol Laboratories Ltd) 30 capsule 3 x 10 capsules
+^ESCT1264082	Fluoxetine 10mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264083	Fluoxetine 10mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule 3 x 10 capsules
+^ESCT1264158	Fluoxetine 30mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264162	Fluoxetine 30mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule 3 x 10 capsules
+^ESCT1264164	Fluoxetine 40mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264165	Fluoxetine 40mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule 3 x 10 capsules
+^ESCT1264287	Fluoxetine 20mg capsules (Relonchem Ltd)
+^ESCT1264290	Fluoxetine 20mg capsules (Relonchem Ltd) 30 capsule
+^ESCT1266905	Fluoxetine 10mg capsules (DE Pharmaceuticals)
+^ESCT1266907	Fluoxetine 10mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1266924	Fluoxetine 30mg capsules (DE Pharmaceuticals)
+^ESCT1266925	Fluoxetine 30mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1266926	Fluoxetine 40mg capsules (DE Pharmaceuticals)
+^ESCT1266927	Fluoxetine 40mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1266929	Fluoxetine 20mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1266931	Fluoxetine 20mg/5ml oral solution sugar free (DE Pharmaceuticals) 70 ml
+^ESCT1266932	Fluoxetine 10mg tablets (DE Pharmaceuticals)
+^ESCT1266933	Fluoxetine 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1271189	Fluoxetine 20mg capsules (Flamingo Pharma (UK) Ltd)
+^ESCT1271191	Fluoxetine 20mg capsules (Flamingo Pharma (UK) Ltd) 30 capsule 2 x 15 capsules
+^ESCT1279107	Fluoxetine 20mg capsules 100 capsule
+^ESCT1279108	Fluoxetine 20mg capsules (Mylan) 100 capsule
+^ESCT1351412	Fluoxetine- and olanzapine-containing product in oral dose form
+^ESCT1355082	Fluoxetine only product
+^ESCT1355083	Fluoxetine and olanzapine only product
+^ESCT1358588	Fluoxetine and olanzapine only product in oral dose form
+^ESCT1358589	Fluoxetine only product in oral dose form
+^ESCT1375868	Fluoxetine 10mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375869	Fluoxetine 10mg capsules (Medihealth (Northern) Ltd) 30 capsule
+^ESCT1375870	Fluoxetine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375871	Fluoxetine 10mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1375876	Fluoxetine 20mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375877	Fluoxetine 20mg capsules (Medihealth (Northern) Ltd) 30 capsule
+^ESCT1375878	Fluoxetine 30mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375879	Fluoxetine 30mg capsules (Medihealth (Northern) Ltd) 30 capsule
+^ESCT1375880	Fluoxetine 60mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375881	Fluoxetine 60mg capsules (Medihealth (Northern) Ltd) 30 capsule
+^ESCT1375882	Fluoxetine 20mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1375883	Fluoxetine 20mg/5ml oral solution (Medihealth (Northern) Ltd) 70 ml
+^ESCT1375884	Fluoxetine 20mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375885	Fluoxetine 20mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 70 ml
+^ESCT1376145	Fluoxetine 10mg tablets (Imported)
+^ESCT1376146	Fluoxetine 10mg tablets (Imported) 30 tablet
+^ESCT1376147	Fluoxetine 30mg capsules (Imported)
+^ESCT1376148	Fluoxetine 30mg capsules (Imported) 30 capsule
+^ESCT1376149	Fluoxetine 40mg capsules (Imported)
+^ESCT1376150	Fluoxetine 40mg capsules (Imported) 30 capsule
+^ESCT1376229	Fluoxetine 40mg capsules (Special Order)
+^ESCT1376230	Fluoxetine 40mg capsules 1 capsule
+^ESCT1376231	Fluoxetine 40mg capsules (Special Order) 1 capsule
+^ESCT1382067	Fluoxetine-containing product in oral dose form
+^ESCT1382529	Fluoxetine- and olanzapine-containing product
+^ESCT1385854	Fluoxetine (as fluoxetine hydrochloride) 90 mg gastro-resistant oral capsule
+^ESCT1389132	Olena 20mg dispersible tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1411288	Fluoxetine 20mg/5ml oral solution (Fannin (UK) Ltd)
+^ESCT1411289	Fluoxetine 20mg/5ml oral solution (Fannin (UK) Ltd) 70 ml
+^ESCT1411290	Fluoxetine 20mg capsules (Fannin (UK) Ltd)
+^ESCT1411291	Fluoxetine 20mg capsules (Fannin (UK) Ltd) 30 capsule 3 x 10 capsules
+^ESCT1411428	Fluoxetine 20mg/5ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1411429	Fluoxetine 20mg/5ml oral solution sugar free (Accord Healthcare Ltd) 70 ml
+^ESCT1412535	Fluoxetine 10mg capsules (Accord Healthcare Ltd)
+^ESCT1412536	Fluoxetine 10mg capsules (Accord Healthcare Ltd) 30 capsule
+^ESCT1421758	Fluoxetine 20mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1421889	Fluoxetine 20mg capsules (Zentiva Pharma UK Ltd) 30 capsule 2 x 15 capsules
+^ESCT1425618	Fluoxetine 20mg/5ml oral solution (Kent Pharma (UK) Ltd)
+^ESCT1425755	Fluoxetine 20mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426003	Fluoxetine 20mg capsules (Kent Pharma (UK) Ltd) 30 capsule
+^ESCT1426374	Fluoxetine 20mg/5ml oral solution (Kent Pharma (UK) Ltd) 70 ml
+^ESCT1426860	Fluoxetine 60mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426861	Fluoxetine 60mg capsules (Kent Pharma (UK) Ltd) 30 capsule 2 x 15 capsules
+^ESCT1434558	Fluoxetine 40mg capsules (Medihealth (Northern) Ltd)
+^ESCT1434559	Fluoxetine 40mg capsules (Medihealth (Northern) Ltd) 30 capsule
+^ESCT1434858	Prozep 20mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCT1434859	Prozep 20mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 70 ml
+^ESCT1436847	Fluoxetine 20mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437169	Fluoxetine 20mg capsules (Viatris UK Healthcare Ltd) 30 capsule 2 x 15 capsules
+^ESCT1437660	Fluoxetine 60mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437661	Fluoxetine 60mg capsules (Viatris UK Healthcare Ltd) 30 capsule 2 x 15 capsules
+^ESCT1437947	Fluoxetine 20mg/5ml oral solution (Viatris UK Healthcare Ltd)
+^ESCT1437948	Fluoxetine 20mg/5ml oral solution (Viatris UK Healthcare Ltd) 70 ml
+^ESCT1439166	Fluoxetine 20mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCTFE817203	Felicium 20mg capsules (Opus Pharmaceuticals Ltd)
+^ESCTFE849535	Felicium 20mg capsules (Opus Pharmaceuticals Ltd) 30 capsule 3 x 10 capsules
+^ESCTFE919417	Felicium
+^ESCTFL1005809	Fluoxetine 20mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTFL1005810	Fluoxetine 20mg capsules (Phoenix Healthcare Distribution Ltd) 30 capsule
+^ESCTFL1005811	Fluoxetine 60mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTFL1005812	Fluoxetine 60mg capsules (Phoenix Healthcare Distribution Ltd) 30 capsule
+^ESCTFL1006405	Fluoxetine 20mg/5ml oral solution (Almus Pharmaceuticals Ltd)
+^ESCTFL1006407	Fluoxetine 20mg/5ml oral solution (Almus Pharmaceuticals Ltd) 70 ml
+^ESCTFL1007305	Fluoxetine 20mg/5ml oral solution (Fannin UK Ltd)
+^ESCTFL1007306	Fluoxetine 20mg/5ml oral solution (Fannin UK Ltd) 70 ml
+^ESCTFL1007315	Fluoxetine 20mg capsules (Fannin UK Ltd)
+^ESCTFL1007318	Fluoxetine 20mg capsules (Fannin UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL1007621	Fluoxetine 20mg/5ml oral solution (Phoenix Healthcare Distribution Ltd)
+^ESCTFL1007622	Fluoxetine 20mg/5ml oral solution (Phoenix Healthcare Distribution Ltd) 70 ml
+^ESCTFL1009233	Fluoxetine 20mg capsules (Strides Shasun (UK) Ltd)
+^ESCTFL1009234	Fluoxetine 20mg capsules (Strides Shasun (UK) Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL1010883	Fluoxetine 20mg capsules (Accord Healthcare Ltd)
+^ESCTFL1010884	Fluoxetine 20mg capsules (Accord Healthcare Ltd) 30 capsule
+^ESCTFL1011014	Fluoxetine 60mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTFL1011015	Fluoxetine 60mg capsules (Dr Reddy's Laboratories (UK) Ltd) 30 capsule
+^ESCTFL1014008	Fluoxetine 20mg/5ml oral solution sugar free (Actavis UK Ltd)
+^ESCTFL1014009	Fluoxetine 20mg/5ml oral solution sugar free (Actavis UK Ltd) 70 ml
+^ESCTFL1017813	Fluoxetine 20mg capsules (Milpharm Ltd)
+^ESCTFL1017814	Fluoxetine 20mg capsules (Milpharm Ltd) 30 capsule
+^ESCTFL1023435	Fluoxetine 60mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTFL1023436	Fluoxetine 60mg capsules (Almus Pharmaceuticals Ltd) 30 capsule
+^ESCTFL1043614	Fluoxetine 20mg capsules (Waymade Healthcare Plc)
+^ESCTFL1043615	Fluoxetine 20mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTFL1043616	Fluoxetine 60mg capsules (Waymade Healthcare Plc)
+^ESCTFL1043617	Fluoxetine 60mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTFL1043618	Fluoxetine 20mg/5ml oral solution (Waymade Healthcare Plc)
+^ESCTFL1043619	Fluoxetine 20mg/5ml oral solution (Waymade Healthcare Plc) 70 ml
+^ESCTFL1058230	Fluoxetine 20mg capsules (Bristol Laboratories Ltd)
+^ESCTFL1058231	Fluoxetine 20mg capsules (Bristol Laboratories Ltd) 30 capsule
+^ESCTFL1058232	Fluoxetine 60mg capsules (Bristol Laboratories Ltd)
+^ESCTFL1058233	Fluoxetine 60mg capsules (Bristol Laboratories Ltd) 30 capsule
+^ESCTFL1061318	Fluoxetine 20mg capsules (DE Pharmaceuticals)
+^ESCTFL1061319	Fluoxetine 20mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCTFL1061984	Fluoxetine 60mg capsules (DE Pharmaceuticals)
+^ESCTFL1061985	Fluoxetine 60mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCTFL1061986	Fluoxetine 20mg/5ml oral solution (DE Pharmaceuticals)
+^ESCTFL1061987	Fluoxetine 20mg/5ml oral solution (DE Pharmaceuticals) 70 ml
+^ESCTFL1063413	Fluoxetine 20mg capsules (Morningside Healthcare Ltd)
+^ESCTFL1063415	Fluoxetine 20mg capsules (Morningside Healthcare Ltd) 30 capsule
+^ESCTFL1064302	Fluoxetine 20mg/5ml oral solution sugar free (Morningside Healthcare Ltd)
+^ESCTFL1064303	Fluoxetine 20mg/5ml oral solution sugar free (Morningside Healthcare Ltd) 70 ml
+^ESCTFL1065951	Fluoxetine 20mg dispersible tablets sugar free 28 tablet
+^ESCTFL1066053	Fluoxetine 20mg dispersible tablets sugar free
+^ESCTFL1081589	Fluoxetine 20mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTFL1081591	Fluoxetine 20mg/5ml oral solution sugar free (Ennogen Healthcare Ltd) 70 ml
+^ESCTFL1117761	Fluoxetine 20mg/5ml oral solution (Sigma Pharmaceuticals Plc)
+^ESCTFL1117762	Fluoxetine 20mg/5ml oral solution (Sigma Pharmaceuticals Plc) 70 ml
+^ESCTFL1118254	Fluoxetine 60mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTFL1118255	Fluoxetine 60mg capsules (Focus Pharmaceuticals Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL1120097	Fluoxetine 20mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTFL1120098	Fluoxetine 20mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTFL1120099	Fluoxetine 60mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTFL1120100	Fluoxetine 60mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTFL1126603	Fluoxetine 20mg/5ml oral solution (Mawdsley-Brooks & Company Ltd)
+^ESCTFL1126604	Fluoxetine 20mg/5ml oral solution (Mawdsley-Brooks & Company Ltd) 70 ml
+^ESCTFL1132087	Fluoxetine 20mg/5ml oral solution sugar free (J M McGill Ltd)
+^ESCTFL1132088	Fluoxetine 20mg/5ml oral solution sugar free (J M McGill Ltd) 70 ml
+^ESCTFL1141128	Fluoxetine 20mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTFL1141131	Fluoxetine 20mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd) 70 ml
+^ESCTFL1142624	Fluoxetine 20mg capsules (Brown & Burk UK Ltd)
+^ESCTFL1142625	Fluoxetine 20mg capsules (Brown & Burk UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL1145038	Fluoxetine 10mg capsules 30 capsule
+^ESCTFL1145039	Fluoxetine 10mg capsules (Medreich Plc)
+^ESCTFL1145040	Fluoxetine 10mg capsules (Medreich Plc) 30 capsule 3 x 10 capsules
+^ESCTFL1146429	Fluoxetine 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL1146430	Fluoxetine 10mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL1146724	Fluoxetine 60mg capsules (Medreich Plc)
+^ESCTFL1146725	Fluoxetine 60mg capsules (Medreich Plc) 30 capsule 3 x 10 capsules
+^ESCTFL1146726	Fluoxetine 20mg capsules (Medreich Plc)
+^ESCTFL1146727	Fluoxetine 20mg capsules (Medreich Plc) 30 capsule 3 x 10 capsules
+^ESCTFL1146728	Fluoxetine 30mg capsules 30 capsule
+^ESCTFL1146729	Fluoxetine 30mg capsules (Medreich Plc)
+^ESCTFL1146730	Fluoxetine 30mg capsules (Medreich Plc) 30 capsule 3 x 10 capsules
+^ESCTFL1146731	Fluoxetine 40mg capsules 30 capsule
+^ESCTFL1146732	Fluoxetine 40mg capsules (Medreich Plc)
+^ESCTFL1146733	Fluoxetine 40mg capsules (Medreich Plc) 30 capsule 3 x 10 capsules
+^ESCTFL1146929	Fluoxetine 30mg capsules
+^ESCTFL1151358	Fluoxetine 10mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTFL1151359	Fluoxetine 10mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTFL1151360	Fluoxetine 30mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTFL1151361	Fluoxetine 30mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTFL1151362	Fluoxetine 40mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTFL1151363	Fluoxetine 40mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTFL1151381	Fluoxetine 30mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL1151382	Fluoxetine 30mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL1151383	Fluoxetine 40mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL1151384	Fluoxetine 40mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL1152572	Fluoxetine 20mg capsules (Genesis Pharmaceuticals Ltd)
+^ESCTFL1152573	Fluoxetine 20mg capsules (Genesis Pharmaceuticals Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL1157012	Fluoxetine 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTFL1157013	Fluoxetine 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 70 ml
+^ESCTFL1163146	Fluoxetine 10mg tablets 30 tablet
+^ESCTFL1163147	Fluoxetine 10mg tablets (Par Laboratories Europe Ltd)
+^ESCTFL1163148	Fluoxetine 10mg tablets (Par Laboratories Europe Ltd) 30 tablet 3 x 10 tablets
+^ESCTFL336979	Fluoxetine
+^ESCTFL609765	Fluoxetine 20mg capsules
+^ESCTFL609766	Fluoxetine 20 mg/1 each oral capsule
+^ESCTFL609768	Fluoxetine 20mg/5ml oral solution
+^ESCTFL609769	Fluoxetine 20mg/5mL oral liquid
+^ESCTFL609770	Fluoxetine hydrochloride 20mg/5mL solution
+^ESCTFL609771	Fluoxetine 60mg capsules
+^ESCTFL609772	Fluoxetine 60 mg/1 each oral capsule
+^ESCTFL638712	Fluoxetine 10mg capsules
+^ESCTFL638714	Fluoxetine 10 mg/1 each oral capsule
+^ESCTFL638717	Fluoxetine 10mg tablets
+^ESCTFL638719	Fluoxetine hydrochloride 10 mg oral tablet
+^ESCTFL641486	Fluoxetine 40mg capsules
+^ESCTFL641488	Fluoxetine hydrochloride 40 mg/1 each oral capsule
+^ESCTFL645775	Fluoxetine in oral dosage form
+^ESCTFL645778	Fluoxetine 90mg m/r capsule
+^ESCTFL677718	Fluoxetine hydrochloride 20 mg oral tablet
+^ESCTFL805094	Fluoxetine 20mg capsules (Ranbaxy (UK) Ltd)
+^ESCTFL808056	Fluoxetine 20mg capsules (Mylan Ltd)
+^ESCTFL808108	Fluoxetine 20mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTFL808154	Fluoxetine 20mg/5ml oral solution (Teva UK Ltd)
+^ESCTFL810313	Fluoxetine 20mg/5ml oral solution (Kent Pharmaceuticals Ltd)
+^ESCTFL810762	Fluoxetine 20mg capsules (Actavis UK Ltd)
+^ESCTFL815980	Fluoxetine 20mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTFL817054	Fluoxetine 20mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL818385	Fluoxetine 20mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL819777	Fluoxetine 20mg capsules (Sandoz Ltd)
+^ESCTFL820017	Fluoxetine 20mg capsules (Zentiva)
+^ESCTFL820453	Fluoxetine 20mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTFL822492	Fluoxetine 20mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTFL823329	Fluoxetine 20mg capsules (Teva UK Ltd)
+^ESCTFL828807	Fluoxetine 20mg capsules (Genus Pharmaceuticals Ltd)
+^ESCTFL844765	Fluoxetine 20mg/5ml oral solution 70 ml
+^ESCTFL847817	Fluoxetine 20mg capsules 30 capsule
+^ESCTFL848448	Fluoxetine 60mg capsules 30 capsule
+^ESCTFL849519	Fluoxetine 20mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTFL849521	Fluoxetine 20mg capsules (Actavis UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL849522	Fluoxetine 20mg capsules (Teva UK Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL849523	Fluoxetine 20mg capsules (Mylan Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL849525	Fluoxetine 20mg capsules (Genus Pharmaceuticals Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL849527	Fluoxetine 20mg capsules (IVAX Pharmaceuticals UK Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL849530	Fluoxetine 20mg capsules (Kent Pharmaceuticals Ltd) 30 capsule
+^ESCTFL849531	Fluoxetine 20mg capsules (Sandoz Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL849539	Fluoxetine 20mg capsules (Ranbaxy (UK) Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL849541	Fluoxetine 20mg capsules (Zentiva) 30 capsule 2 x 15 capsules
+^ESCTFL849542	Fluoxetine 20mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL854954	Fluoxetine 20mg/5ml oral solution (Teva UK Ltd) 70 ml
+^ESCTFL854955	Fluoxetine 20mg/5ml oral solution (A A H Pharmaceuticals Ltd) 70 ml
+^ESCTFL854957	Fluoxetine 20mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 70 ml
+^ESCTFL855158	Fluoxetine 20mg/5ml oral solution (Kent Pharmaceuticals Ltd) 70 ml
+^ESCTFL865923	Fluoxetine 60mg capsules (Mylan Ltd)
+^ESCTFL865926	Fluoxetine 60mg capsules (Mylan Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL869078	Fluoxetine 20mg/5ml oral solution (Sandoz Ltd)
+^ESCTFL869079	Fluoxetine 20mg/5ml oral solution (Sandoz Ltd) 70 ml
+^ESCTFL871027	Fluoxetine 60mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL871028	Fluoxetine 60mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule
+^ESCTFL871063	Fluoxetine 20mg/5ml oral solution (IVAX Pharmaceuticals UK Ltd)
+^ESCTFL871064	Fluoxetine 20mg/5ml oral solution (IVAX Pharmaceuticals UK Ltd) 70 ml
+^ESCTFL878219	Fluoxetine 20mg capsules 28 capsule
+^ESCTFL878964	Fluoxetine 20mg/5ml oral solution (Dowelhurst Ltd)
+^ESCTFL878966	Fluoxetine 20mg/5ml oral solution (Dowelhurst Ltd) 70 ml
+^ESCTFL878978	Fluoxetine 20mg capsules (Dowelhurst Ltd)
+^ESCTFL878980	Fluoxetine 20mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTFL900127	Fluoxetine 60mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTFL900130	Fluoxetine 60mg capsules (Kent Pharmaceuticals Ltd) 30 capsule 2 x 15 capsules
+^ESCTFL906698	Fluoxetine 2.5mg/5ml oral solution 1 ml
+^ESCTFL906703	Fluoxetine 2.5mg/5ml oral solution (Special Order)
+^ESCTFL906705	Fluoxetine 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTFL906707	Fluoxetine 2.5mg/5ml oral suspension 1 ml
+^ESCTFL906708	Fluoxetine 2.5mg/5ml oral suspension (Special Order)
+^ESCTFL906711	Fluoxetine 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFL907019	Fluoxetine 2.5mg/5ml oral solution
+^ESCTFL907020	Fluoxetine 2.5mg/5ml oral suspension
+^ESCTFL918668	Fluoxetine 20mg/5ml oral solution (Mylan Ltd)
+^ESCTFL918670	Fluoxetine 20mg/5ml oral solution (Mylan Ltd) 70 ml
+^ESCTFL919588	Fluoxetine 60mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTFL919590	Fluoxetine 60mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTFL923639	Fluoxetine 20mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTFL923640	Fluoxetine 20mg capsules (Almus Pharmaceuticals Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL927970	Fluoxetine 20mg/5ml oral solution (Focus Pharmaceuticals Ltd)
+^ESCTFL927972	Fluoxetine 20mg/5ml oral solution (Focus Pharmaceuticals Ltd) 70 ml
+^ESCTFL929020	Fluoxetine 20mg capsules (Arrow Generics Ltd)
+^ESCTFL929021	Fluoxetine 20mg capsules (Arrow Generics Ltd) 30 capsule
+^ESCTFL929348	Fluoxetine 20mg capsules (Niche Generics Ltd)
+^ESCTFL929350	Fluoxetine 20mg capsules (Niche Generics Ltd) 30 capsule
+^ESCTFL935371	Fluoxetine 20mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTFL935373	Fluoxetine 20mg capsules (Dr Reddy's Laboratories (UK) Ltd) 30 capsule
+^ESCTFL941130	Fluoxetine 20mg/5ml oral solution sugar free 70 ml
+^ESCTFL941219	Fluoxetine 20mg/5ml oral solution sugar free
+^ESCTFL956629	Fluoxetine 20mg capsules (Wockhardt UK Ltd)
+^ESCTFL956633	Fluoxetine 20mg capsules (Wockhardt UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL964250	Fluoxetine 20mg/5ml oral solution (Pinewood Healthcare)
+^ESCTFL964251	Fluoxetine 20mg/5ml oral solution (Pinewood Healthcare) 70 ml
+^ESCTFL965497	Fluoxetine 20mg capsules (Tillomed Laboratories Ltd)
+^ESCTFL965498	Fluoxetine 20mg capsules (Tillomed Laboratories Ltd) 30 capsule
+^ESCTFL977097	Fluoxetine 60mg capsules (Teva UK Ltd)
+^ESCTFL977098	Fluoxetine 60mg capsules (Teva UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTFL978361	Fluoxetine 60mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTFL978362	Fluoxetine 60mg capsules (Sigma Pharmaceuticals Plc) 30 capsule
+^ESCTFL979437	Fluoxetine 20mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTFL979438	Fluoxetine 20mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTFL979441	Fluoxetine 20mg capsules (Sigma Pharmaceuticals Plc) 30 capsule
+^ESCTFL985934	Fluoxetine 2mg/5ml oral solution 1 ml
+^ESCTFL985935	Fluoxetine 2mg/5ml oral solution (Special Order)
+^ESCTFL985936	Fluoxetine 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTFL985940	Fluoxetine 2mg/5ml oral suspension 1 ml
+^ESCTFL985943	Fluoxetine 2mg/5ml oral suspension (Special Order)
+^ESCTFL985945	Fluoxetine 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFL986112	Fluoxetine 2mg/5ml oral solution
+^ESCTFL986113	Fluoxetine 2mg/5ml oral suspension
+^ESCTFL994205	Fluoxetine 10mg tablets 1 tablet
+^ESCTFL994206	Fluoxetine 10mg tablets (Special Order)
+^ESCTFL994207	Fluoxetine 10mg tablets (Special Order) 1 tablet
+^ESCTFL999382	Fluoxetine 60mg capsules (Actavis UK Ltd)
+^ESCTFL999383	Fluoxetine 60mg capsules (Actavis UK Ltd) 30 capsule 2 x 15 capsules
+^ESCTOL1065952	Olena 20mg dispersible tablets (AMCo)
+^ESCTOL1065953	Olena 20mg dispersible tablets (AMCo) 28 tablet
+^ESCTOL677422	Olanzapine + fluoxetine
+^ESCTOL677424	Olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTOL677426	Olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTOL677428	Olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTOL677430	Olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTOL711421	Olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTOL946118	Olena
+^ESCTOR645777	Oral form fluoxetine m/r capsule
+^ESCTOX821191	Oxactin 20mg capsules (Discovery Pharmaceuticals)
+^ESCTOX851640	Oxactin 20mg capsules (Discovery Pharmaceuticals) 30 capsule 3 x 10 capsules
+^ESCTOX915438	Oxactin
+^ESCTPR1001252	Prozac 20mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1001254	Prozac 20mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTPR1001255	Prozac 20mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTPR1001256	Prozac 20mg/5ml liquid (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1001257	Prozac 20mg/5ml liquid (Mawdsley-Brooks & Company Ltd) 70 ml
+^ESCTPR1008199	Prozac 20mg capsules (Necessity Supplies Ltd)
+^ESCTPR1008200	Prozac 20mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTPR1008201	Prozac 20mg/5ml liquid (Necessity Supplies Ltd)
+^ESCTPR1008202	Prozac 20mg/5ml liquid (Necessity Supplies Ltd) 70 ml
+^ESCTPR336980	Product containing fluoxetine
+^ESCTPR609767	Product containing fluoxetine 20 mg/1 each oral capsule
+^ESCTPR609773	Product containing fluoxetine 60 mg/1 each oral capsule
+^ESCTPR638713	Product containing fluoxetine 10 mg/1 each oral capsule
+^ESCTPR638718	Product containing fluoxetine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR641487	Product containing fluoxetine hydrochloride 40 mg/1 each oral capsule
+^ESCTPR645776	Product containing fluoxetine in oral dosage form
+^ESCTPR677423	Product containing fluoxetine and olanzapine
+^ESCTPR677425	Product containing olanzapine 6 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTPR677427	Product containing olanzapine 6 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTPR677429	Product containing olanzapine 12 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTPR677431	Product containing olanzapine 12 mg and fluoxetine 50 mg/1 each oral capsule
+^ESCTPR677719	Product containing fluoxetine hydrochloride 20 mg/1 each oral tablet
+^ESCTPR711422	Product containing olanzapine 3 mg and fluoxetine 25 mg/1 each oral capsule
+^ESCTPR804518	Prozac 60mg capsules (Eli Lilly and Company Ltd)
+^ESCTPR820149	Prozac 20mg capsules (Eli Lilly and Company Ltd)
+^ESCTPR821281	Prozac 20mg/5ml liquid (Eli Lilly and Company Ltd)
+^ESCTPR851644	Prozac 20mg capsules (Eli Lilly and Company Ltd) 30 capsule 2 x 15 capsules
+^ESCTPR854951	Prozac 60mg capsules (Eli Lilly and Company Ltd) 30 capsule 3 x 10 capsules
+^ESCTPR854953	Prozac 20mg/5ml liquid (Eli Lilly and Company Ltd) 70 ml
+^ESCTPR877390	Prozac 20mg/5ml liquid (Dowelhurst Ltd)
+^ESCTPR877391	Prozac 20mg/5ml liquid (Dowelhurst Ltd) 70 ml
+^ESCTPR878224	Prozac 20mg capsules (Waymade Healthcare Plc)
+^ESCTPR878225	Prozac 20mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTPR878228	Prozac 20mg/5ml liquid (Waymade Healthcare Plc)
+^ESCTPR878229	Prozac 20mg/5ml liquid (Waymade Healthcare Plc) 70 ml
+^ESCTPR879666	Prozac 20mg capsules (Dowelhurst Ltd)
+^ESCTPR879667	Prozac 20mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTPR915799	Prozac
+^ESCTPR915801	Prozep
+^ESCTPR915805	Prozit
+^ESCTPR925835	Prozit 20mg/5ml oral solution (Pinewood Healthcare)
+^ESCTPR925836	Prozit 20mg/5ml oral solution (Pinewood Healthcare) 70 ml
+^ESCTPR941131	Prozep 20mg/5ml oral solution (Chemidex Pharma Ltd)
+^ESCTPR941132	Prozep 20mg/5ml oral solution (Chemidex Pharma Ltd) 70 ml
+^ESCTPR967379	Prozac 20mg capsules (DE Pharmaceuticals)
+^ESCTPR967380	Prozac 20mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTPR967397	Prozac 20mg/5ml liquid (DE Pharmaceuticals)
+^ESCTPR967398	Prozac 20mg/5ml liquid (DE Pharmaceuticals) 70 ml
+^ESCTPR971573	Prozac 20mg/5ml liquid (Sigma Pharmaceuticals Plc)
+^ESCTPR971577	Prozac 20mg/5ml liquid (Sigma Pharmaceuticals Plc) 70 ml
+^ESCTPR989754	Prozac 20mg/5ml liquid (Lexon (UK) Ltd)
+^ESCTPR989755	Prozac 20mg/5ml liquid (Lexon (UK) Ltd) 70 ml
+^ESCTPR989756	Prozac 20mg capsules (Lexon (UK) Ltd)
+^ESCTPR989757	Prozac 20mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTRA821144	Ranflutin 20mg capsules (Ranbaxy (UK) Ltd)
+^ESCTRA849536	Ranflutin 20mg capsules (Ranbaxy (UK) Ltd) 30 capsule 2 x 15 capsules
+^ESCTRA915873	Ranflutin
+FECA2001NEMIS	Felicium  Capsules  20 mg
+FLCA10829BRIDL	Fluoxetine Hydrochloride  Capsules  20 mg
+FLCA115553NEMIS	Fluoxetine Hydrochloride  Capsules  10 mg
+FLCA116749NEMIS	Fluoxetine Hydrochloride  Capsules  30 mg
+FLCA116750NEMIS	Fluoxetine Hydrochloride  Capsules  40 mg
+FLCA138203NEMIS	Fluoxetine Hydrochloride (Special Order)  Capsules  40 mg
+FLCA138207NEMIS	Fluoxetine Hydrochloride (Imported)  Capsules  30 mg
+FLCA138209NEMIS	Fluoxetine Hydrochloride (Imported)  Capsules  40 mg
+FLCA28200EMIS	Fluoxetine Hydrochloride  Capsules  60 mg
+FLCA35071MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Ranbaxy)
+FLCA35072MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Generics (UK))
+FLCA35073MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Ivax Pharmaceuticals)
+FLCA35074MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Alpharma)
+FLCA35075MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Unichem)
+FLCA35076MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Sandoz)
+FLCA35077MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Winthrop Pharmaceuticals )
+FLCA35078MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Kent Pharm)
+FLCA35079MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (A.A.H. Pharm)
+FLCA35080MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Teva UK)
+FLCA35081MGEMIS	Fluoxetine Hydrochloride  Capsules  20 mg (Genus Pharm)
+FLCA35100MGEMIS	Fluoxetine Hydrochloride  Capsules  60 mg (Generics (UK))
+FLCA35101MGEMIS	Fluoxetine Hydrochloride  Capsules  60 mg (Unichem)
+FLCA35102MGEMIS	Fluoxetine Hydrochloride  Capsules  60 mg (Kent Pharm)
+FLCA35103MGEMIS	Fluoxetine Hydrochloride  Capsules  60 mg (A.A.H. Pharm)
+FLOR13431NEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml
+FLOR143867NEMIS	Fluoxetine Hydrochloride (Special Order)  Oral solution  20 mg/5 ml
+FLOR143868NEMIS	Fluoxetine Hydrochloride  Oral suspension  20 mg/5 ml
+FLOR37826MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (Teva UK)
+FLOR37827MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (Kent Pharm)
+FLOR37828MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (A.A.H. Pharm)
+FLOR37829MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (Unichem)
+FLOR37830MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (Sandoz)
+FLOR37831MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (Ivax Pharmaceuticals)
+FLOR37832MGEMIS	Fluoxetine Hydrochloride  Oral solution  20 mg/5 ml (Generics (UK))
+FLOR44068NEMIS	Fluoxetine Hydrochloride  Oral Solution, Sugar Free  20 mg/5 ml
+FLOR88729NEMIS	Fluoxetine Hydrochloride  Dispersible Tablets Sugar Free  20 mg
+FLSY22536EMIS	Fluoxetine Hydrochloride  Liquid  20 mg/5 ml
+FLTA138206NEMIS	Fluoxetine Hydrochloride (Imported)  Tablets  10 mg
+FLTA52427NEMIS	Fluoxetine Hydrochloride  Tablets  10 mg
+OLOR88731NEMIS	Olena  Dispersible tablets  20 mg
+OXCA11081NEMIS	Oxactin  Capsules  20 mg
+PRCA28198EMIS	Prozac  Capsules  60 mg
+PRCA8367EGTON	Prozac  Capsules  20 mg
+PROR13430NEMIS	Prozit  Oral solution  20 mg/5 ml
+PROR29842NEMIS	Prozep  Oral solution  20 mg/5 ml
+PRSY22534EMIS	Prozac  Liquid  20 mg/5 ml
+RACA12494NEMIS	Ranflutin  Capsules  20 mg

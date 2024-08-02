@@ -1,0 +1,5 @@
+d4i..	Trifluperidol
+d4iz.	Trifluperidol 1mg tablet
+d4i2.	Triperidol 1mg tablet
+d4iy.	Trifluperidol 500micrograms tablet
+d4i1.	Triperidol 500micrograms tablet

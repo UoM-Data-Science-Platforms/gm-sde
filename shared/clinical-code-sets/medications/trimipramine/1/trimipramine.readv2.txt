@@ -1,6 +1,7 @@
-d7f1.	*SURMONTIL 50mg capsules x28CP
-d7f2.	*SURMONTIL 10mg tablets
-d7f3.	*SURMONTIL 25mg tablets
-d7fx.	TRIMIPRAMINE 50mg capsules
-d7fy.	TRIMIPRAMINE 10mg tablets
-d7fz.	TRIMIPRAMINE 25mg tablets
+d7f..00	TRIMIPRAMINE
+d7f1.00	*SURMONTIL 50mg capsules x28CP
+d7f2.00	*SURMONTIL 10mg tablets
+d7f3.00	*SURMONTIL 25mg tablets
+d7fx.00	TRIMIPRAMINE 50mg capsules
+d7fy.00	TRIMIPRAMINE 10mg tablets
+d7fz.00	TRIMIPRAMINE 25mg tablets

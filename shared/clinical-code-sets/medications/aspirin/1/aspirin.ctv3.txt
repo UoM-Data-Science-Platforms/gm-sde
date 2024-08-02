@@ -121,3 +121,4 @@ dia1.	Aspirin/paracetamol/codeine tablets
 diat.	Aspirin+papaveretum 500mg/10mg dispersible tablet
 di1..	Aspirin [central nervous system use]
 j11..	Aspirin [musculoskeletal use]
+x02LX	Aspirin

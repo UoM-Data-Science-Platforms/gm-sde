@@ -30,3 +30,222 @@ STSP2683	Stelazine  Spansules  10 mg
 STTA2688	Stelazine  Tablets  1 mg
 TROR28542EMIS	Trifluoperazine  Oral solution  Sugar Free 5 mg/5 ml
 TRSP2926	Trifluoperazine  Spansules  2 mg
+^ESCT1178165	Product containing only trifluoperazine 5 mg/1 each oral tablet
+^ESCT1179299	Product containing only trifluoperazine hydrochloride 2 mg/1 each oral tablet
+^ESCT1185403	Product containing only trifluoperazine hydrochloride 10 mg/1 each oral tablet
+^ESCT1187279	Product containing only trifluoperazine 1 mg/1 each oral tablet
+^ESCT1203636	Trifluoperazine (as trifluoperazine hydrochloride) 15 mg prolonged-release oral capsule
+^ESCT1203637	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 15 milligram/1 each prolonged-release oral capsule
+^ESCT1203839	Trifluoperazine (as trifluoperazine hydrochloride) 2 mg prolonged-release oral capsule
+^ESCT1203840	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 2 milligram/1 each prolonged-release oral capsule
+^ESCT1203895	Trifluoperazine (as trifluoperazine hydrochloride) 10 mg prolonged-release oral capsule
+^ESCT1203896	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 10 milligram/1 each prolonged-release oral capsule
+^ESCT1204605	Trifluoperazine 5mg/5mL conventional release oral suspension
+^ESCT1204634	Trifluoperazine (as trifluoperazine hydrochloride) 1 mg/mL oral solution
+^ESCT1204635	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 1 milligram/1 milliliter conventional release oral solution
+^ESCT1208673	Trifluoperazine (as trifluoperazine hydrochloride) 200 microgram/mL oral solution
+^ESCT1208674	Product containing precisely trifluoperazine (as trifluoperazine hydrochloride) 200 microgram/1 milliliter conventional release oral solution
+^ESCT1212356	Trifluoperazine 5mg/5ml oral solution sugar free
+^ESCT1214280	Trifluoperazine 5mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCT1214281	Trifluoperazine 5mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd) 150 ml
+^ESCT1216102	Trifluoperazine 10mg modified-release capsules
+^ESCT1216103	Trifluoperazine 15mg modified-release capsules
+^ESCT1216104	Trifluoperazine 1mg/5ml oral solution sugar free
+^ESCT1216105	Trifluoperazine 2mg modified-release capsules
+^ESCT1219540	Trifluoperazine
+^ESCT1219541	Trifluoperazine product
+^ESCT1223444	Product containing precisely trifluoperazine 1 milligram/1 each conventional release oral tablet
+^ESCT1223445	Product containing precisely trifluoperazine 5 milligram/1 each conventional release oral tablet
+^ESCT1228787	Product containing precisely trifluoperazine hydrochloride 2 milligram/1 each conventional release oral tablet
+^ESCT1228788	Product containing precisely trifluoperazine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1229953	Tranylcypromine + Trifluoperazine
+^ESCT1229954	Product containing tranylcypromine and trifluoperazine
+^ESCT1229955	Tranylcypromine and trifluoperazine product
+^ESCT1250587	Trifluoperazine 1mg tablets (Advanz Pharma)
+^ESCT1250588	Trifluoperazine 1mg tablets (Advanz Pharma) 112 tablet 8 x 14 tablets
+^ESCT1250589	Trifluoperazine 5mg tablets (Advanz Pharma)
+^ESCT1250590	Trifluoperazine 5mg tablets (Advanz Pharma) 112 tablet 8 x 14 tablets
+^ESCT1250606	Trifluoperazine 1mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250607	Trifluoperazine 1mg/5ml oral solution sugar free (Advanz Pharma) 200 ml
+^ESCT1250974	Trifluoperazine 5mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250975	Trifluoperazine 5mg/5ml oral solution sugar free (Advanz Pharma) 150 ml
+^ESCT1274728	Trifluoperazine 1mg/5ml oral solution sugar free (CST Pharma Ltd)
+^ESCT1274729	Trifluoperazine 1mg/5ml oral solution sugar free (CST Pharma Ltd) 200 ml
+^ESCT1301151	Trifluoperazine 5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1301152	Trifluoperazine 5mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1357034	Tranylcypromine and trifluoperazine only product
+^ESCT1357059	Trifluoperazine only product
+^ESCT1360113	Trifluoperazine only product in oral dose form
+^ESCT1360114	Trifluoperazine only product in parenteral dose form
+^ESCT1362984	Trifluoperazine (as trifluoperazine hydrochloride) 1 mg oral tablet
+^ESCT1362985	Trifluoperazine (as trifluoperazine hydrochloride) 5 mg oral tablet
+^ESCT1364202	Trifluoperazine 10 mg/mL oral solution
+^ESCT1367113	Trifluoperazine 5mg tablets
+^ESCT1367211	Trifluoperazine 1mg tablets
+^ESCT1374367	Trifluoperazine 5mg/5ml oral solution sugar free
+^ESCT1382061	Trifluoperazine-containing product in oral dose form
+^ESCT1382062	Trifluoperazine-containing product in parenteral dose form
+^ESCT1382311	Tranylcypromine- and trifluoperazine-containing product
+^ESCT1385927	Trifluoperazine 1 mg/mL oral suspension
+^ESCT1403183	Trifluoperazine 1mg/5ml oral suspension 1 ml
+^ESCT1403184	Trifluoperazine 1mg/5ml oral suspension (Special Order)
+^ESCT1403185	Trifluoperazine 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1403196	Trifluoperazine 1mg/5ml oral suspension
+^ESCT1424903	Trifluoperazine 1mg tablets
+^ESCT1424905	Trifluoperazine 5mg tablets
+^ESCT1425688	Trifluoperazine 1mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425776	Trifluoperazine 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426420	Trifluoperazine 1mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426423	Trifluoperazine 5mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1429708	Trifluoperazine 1mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429709	Trifluoperazine 1mg tablets (Medihealth (Northern) Ltd) 112 tablet
+^ESCT1429710	Trifluoperazine 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1429711	Trifluoperazine 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCTOR645751	Oral form trifluoperazine m/r capsule
+^ESCTPR366614	Product containing trifluoperazine
+^ESCTPR609369	Product containing trifluoperazine 1 mg/1 each oral tablet
+^ESCTPR609372	Product containing trifluoperazine 5 mg/1 each oral tablet
+^ESCTPR641481	Product containing trifluoperazine hydrochloride 2 mg/1 each oral tablet
+^ESCTPR641483	Product containing trifluoperazine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR645750	Product containing trifluoperazine in oral dosage form
+^ESCTPR645753	Product containing trifluoperazine in parenteral dosage form
+^ESCTST1039613	Stelazine 1mg tablets (Imported (South Africa))
+^ESCTST1039614	Stelazine 1mg tablets (Imported (South Africa)) 50 tablet
+^ESCTST1039616	Stelazine 5mg tablets (Imported (South Africa))
+^ESCTST1039617	Stelazine 5mg tablets (Imported (South Africa)) 50 tablet
+^ESCTST801725	Stelazine 5mg tablets (Mercury Pharma Group Ltd)
+^ESCTST806753	Stelazine 10mg Spansules (Mercury Pharma Group Ltd)
+^ESCTST810484	Stelazine 1mg tablets (Mercury Pharma Group Ltd)
+^ESCTST820620	Stelazine 1mg/5ml syrup (Mercury Pharma Group Ltd)
+^ESCTST821408	Stelazine 15mg Spansules (Mercury Pharma Group Ltd)
+^ESCTST821581	Stelazine 2mg Spansules (Mercury Pharma Group Ltd)
+^ESCTST855854	Stelazine 15mg Spansules (Mercury Pharma Group Ltd) 30 capsule
+^ESCTST855855	Stelazine 1mg/5ml syrup (Mercury Pharma Group Ltd) 200 ml
+^ESCTST855860	Stelazine 10mg Spansules (Mercury Pharma Group Ltd) 30 capsule
+^ESCTST855871	Stelazine 1mg tablets (Mercury Pharma Group Ltd) 112 tablet 4 x 28 tablets
+^ESCTST855887	Stelazine 2mg Spansules (Mercury Pharma Group Ltd) 60 capsule
+^ESCTST855899	Stelazine 5mg tablets (Mercury Pharma Group Ltd) 112 tablet 4 x 28 tablets
+^ESCTST899901	Stelazine Forte 1mg/ml oral solution (Mercury Pharma Group Ltd)
+^ESCTST899904	Stelazine Forte 1mg/ml oral solution (Mercury Pharma Group Ltd) 200 ml
+^ESCTST916406	Stelazine
+^ESCTST916408	Stelazine Spansules
+^ESCTST989947	Stelazine 1mg tablets (Lexon (UK) Ltd)
+^ESCTST989948	Stelazine 1mg tablets (Lexon (UK) Ltd) 112 tablet
+^ESCTST989949	Stelazine 5mg tablets (Lexon (UK) Ltd)
+^ESCTST989950	Stelazine 5mg tablets (Lexon (UK) Ltd) 112 tablet
+^ESCTTE810325	Terrazine 1mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTTE820080	Terrazine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTTE855873	Terrazine 1mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTTE855877	Terrazine 1mg tablets (Dr Reddy's Laboratories (UK) Ltd) 1000 tablet
+^ESCTTE855908	Terrazine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTTE855909	Terrazine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 1000 tablet
+^ESCTTE916690	Terrazine
+^ESCTTR1005396	Trifluoperazine 1mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005397	Trifluoperazine 1mg tablets (Phoenix Healthcare Distribution Ltd) 112 tablet
+^ESCTTR1005398	Trifluoperazine 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005399	Trifluoperazine 5mg tablets (Phoenix Healthcare Distribution Ltd) 112 tablet
+^ESCTTR1023214	Trifluoperazine 1mg tablets (AMCo)
+^ESCTTR1023215	Trifluoperazine 1mg tablets (AMCo) 112 tablet 8 x 14 tablets
+^ESCTTR1023218	Trifluoperazine 5mg tablets (AMCo)
+^ESCTTR1023219	Trifluoperazine 5mg tablets (AMCo) 112 tablet 8 x 14 tablets
+^ESCTTR1026344	Trifluoperazine 1mg/5ml oral solution sugar free (AMCo)
+^ESCTTR1026345	Trifluoperazine 1mg/5ml oral solution sugar free (AMCo) 200 ml
+^ESCTTR1026692	Trifluoperazine 1mg tablets 1 tablet
+^ESCTTR1026693	Trifluoperazine 1mg tablets (Special Order)
+^ESCTTR1026694	Trifluoperazine 1mg tablets (Special Order) 1 tablet
+^ESCTTR1026695	Trifluoperazine 5mg tablets 1 tablet
+^ESCTTR1026696	Trifluoperazine 5mg tablets (Special Order)
+^ESCTTR1026697	Trifluoperazine 5mg tablets (Special Order) 1 tablet
+^ESCTTR1034111	Trifluoperazine 1mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR1034112	Trifluoperazine 1mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 200 ml
+^ESCTTR1039612	Trifluoperazine 1mg tablets 50 tablet
+^ESCTTR1039615	Trifluoperazine 5mg tablets 50 tablet
+^ESCTTR1042499	Trifluoperazine 5mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTTR1042500	Trifluoperazine 5mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTTR1045692	Trifluoperazine 1mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTTR1045693	Trifluoperazine 1mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 200 ml
+^ESCTTR1048997	Trifluoperazine 1mg tablets (Creo Pharma Ltd)
+^ESCTTR1048998	Trifluoperazine 1mg tablets (Creo Pharma Ltd) 112 tablet
+^ESCTTR1056536	Trifluoperazine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 112 tablet 8 x 14 tablets
+^ESCTTR1158189	Trifluoperazine 1mg tablets (Ennogen Pharma Ltd)
+^ESCTTR1158190	Trifluoperazine 1mg tablets (Ennogen Pharma Ltd) 112 tablet
+^ESCTTR1158191	Trifluoperazine 5mg tablets (Ennogen Pharma Ltd)
+^ESCTTR1158192	Trifluoperazine 5mg tablets (Ennogen Pharma Ltd) 112 tablet
+^ESCTTR366613	Trifluoperazine
+^ESCTTR609366	Trifluoperazine 5mg/5ml oral solution sugar free
+^ESCTTR609367	Trifluoperazine 5mg/5mL sugar free syrup
+^ESCTTR609368	Trifluoperazine 1mg tablets
+^ESCTTR609370	Trifluoperazine 1 mg oral tablet
+^ESCTTR609371	Trifluoperazine 5mg tablets
+^ESCTTR609373	Trifluoperazine 5 mg oral tablet
+^ESCTTR609374	Trifluoperazine 2mg modified-release capsules
+^ESCTTR609375	Trifluoperazine 2mg m/r capsule
+^ESCTTR609376	Trifluoperazine 10mg modified-release capsules
+^ESCTTR609377	Trifluoperazine 10mg m/r capsule
+^ESCTTR609378	Trifluoperazine 15mg modified-release capsules
+^ESCTTR609379	Trifluoperazine 15mg m/r capsule
+^ESCTTR609380	Trifluoperazine 1mg/5ml oral solution sugar free
+^ESCTTR609381	Trifluoperazine 1mg/5mL syrup
+^ESCTTR641479	Trifluoperazine hydrochloride 10mg/mL solution
+^ESCTTR641480	Trifluoperazine hydrochloride 2 mg oral tablet
+^ESCTTR641482	Trifluoperazine hydrochloride 10 mg oral tablet
+^ESCTTR645749	Trifluoperazine in oral dosage form
+^ESCTTR645752	Trifluoperazine in parenteral dosage form
+^ESCTTR661350	Tranylcypromine + Trifluoperazine
+^ESCTTR663997	Trifluoperazine hydrochloride 2mg/mL injection solution 10mL vial
+^ESCTTR663998	Trifluoperazine hydrochloride 2mg/mL injection
+^ESCTTR688258	Trifluoperazine 5mg/5mL s/f oral suspension
+^ESCTTR802299	Trifluoperazine 1mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR804673	Trifluoperazine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR806291	Trifluoperazine 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR807455	Trifluoperazine 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTTR809100	Trifluoperazine 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR817973	Trifluoperazine 1mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTR820234	Trifluoperazine 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTTR820834	Trifluoperazine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR820849	Trifluoperazine 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTR834221	Trifluoperazine 1mg tablets 1000 tablet
+^ESCTTR834661	Trifluoperazine 1mg tablets 112 tablet
+^ESCTTR835885	Trifluoperazine 2mg modified-release capsules 60 capsule
+^ESCTTR836479	Trifluoperazine 5mg tablets 112 tablet
+^ESCTTR842600	Trifluoperazine 1mg tablets 100 tablet
+^ESCTTR843275	Trifluoperazine 10mg modified-release capsules 30 capsule
+^ESCTTR846649	Trifluoperazine 5mg tablets 100 tablet
+^ESCTTR847717	Trifluoperazine 15mg modified-release capsules 30 capsule
+^ESCTTR848237	Trifluoperazine 5mg tablets 1000 tablet
+^ESCTTR848706	Trifluoperazine 5mg/5ml oral solution sugar free 150 ml
+^ESCTTR848733	Trifluoperazine 1mg/5ml oral solution sugar free 200 ml
+^ESCTTR855869	Trifluoperazine 1mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTTR855872	Trifluoperazine 1mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTTR855879	Trifluoperazine 1mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTTR855893	Trifluoperazine 5mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTTR855903	Trifluoperazine 5mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTTR855911	Trifluoperazine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTTR856343	Trifluoperazine 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTTR856345	Trifluoperazine 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTTR856346	Trifluoperazine 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTTR899899	Trifluoperazine 5mg/5ml oral solution sugar free 200 ml
+^ESCTTR935282	Trifluoperazine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTTR935284	Trifluoperazine 5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTTR935286	Trifluoperazine 1mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTTR935287	Trifluoperazine 1mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTTR954140	Trifluoperazine 1mg tablets (Alliance Healthcare (Distribution) Ltd) 112 tablet
+^ESCTTR969146	Trifluoperazine 1mg tablets (Consilient Health Ltd)
+^ESCTTR969148	Trifluoperazine 1mg tablets (Consilient Health Ltd) 112 tablet
+^ESCTTR969150	Trifluoperazine 5mg tablets (Consilient Health Ltd)
+^ESCTTR969151	Trifluoperazine 5mg tablets (Consilient Health Ltd) 112 tablet
+^ESCTTR986672	Trifluoperazine 1mg tablets (A A H Pharmaceuticals Ltd) 112 tablet
+^ESCTTR986673	Trifluoperazine 5mg tablets (A A H Pharmaceuticals Ltd) 112 tablet 8 x 14 tablets
+TETA15933NEMIS	Terra-zine  Tablets  1 mg
+TETA15934NEMIS	Terra-zine  Tablets  5 mg
+TRLI5471	Trifluoperazine  Liquid  10mg/ml
+TROR138336NEMIS	Trifluoperazine (Special Order)  Oral suspension  1 mg/5 ml
+TROR37303MGEMIS	Trifluoperazine  Oral solution  Sugar Free 5 mg/5 ml (Unichem)
+TROR37304MGEMIS	Trifluoperazine  Oral solution  Sugar Free 5 mg/5 ml (A.A.H. Pharm)
+TROR37305MGEMIS	Trifluoperazine  Oral solution  Sugar Free 5 mg/5 ml (Rosemont Pharm)
+TRTA37313MGEMIS	Trifluoperazine  Tablets  1 mg (A.A.H. Pharm)
+TRTA37314MGEMIS	Trifluoperazine  Tablets  1 mg (Unichem)
+TRTA37315MGEMIS	Trifluoperazine  Tablets  1 mg (Kent Pharm)
+TRTA37316MGEMIS	Trifluoperazine  Tablets  5 mg (A.A.H. Pharm)
+TRTA37317MGEMIS	Trifluoperazine  Tablets  5 mg (Unichem)
+TRTA37318MGEMIS	Trifluoperazine  Tablets  5 mg (Kent Pharm)

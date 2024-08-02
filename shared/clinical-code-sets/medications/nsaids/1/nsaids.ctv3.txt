@@ -583,5 +583,9 @@ x026E	Napratec tablet combination pack
 j2cr.	Napratec 500mg/200micrograms tablet combination pack 2x56
 dl64.	CLOTAM RAPID 200mg tablets
 j2oT.	DICLOFENAC SODIUM+MISOPROSTOL 75mg/200micrograms m/r tablets
-
+j2ev.	Piroxicam 20mg/1mL injection
+j2n9.	MELOXICAM 7.5mg orodispersible tablets
+j2nA.	MELOXICAM 15mg orodispersible tablets
+j2oS.	MASIDEMEN 75mg/200micrograms m/r tablets
+j2oU.	MASIDEMEN 50mg/200micrograms m/r tablets
 

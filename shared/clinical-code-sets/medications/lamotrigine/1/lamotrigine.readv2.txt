@@ -1,0 +1,20 @@
+dnf1.00	LAMOTRIGINE 50mg tablets
+dnf2.00	LAMOTRIGINE 100mg tablets
+dnf3.00	LAMICTAL 50mg tablets
+dnf4.00	LAMICTAL 100mg tablets
+dnf5.00	LAMOTRIGINE 25mg tablets
+dnf6.00	LAMICTAL 25mg tablets
+dnf7.00	LAMICTAL 5mg dispersible tablets
+dnf8.00	LAMICTAL 25mg dispersible tablets
+dnf9.00	LAMICTAL 100mg dispersible tablets
+dnfA.00	LAMOTRIGINE 5mg dispersible tablets
+dnfB.00	LAMOTRIGINE 25mg dispersible tablets
+dnfC.00	LAMOTRIGINE 100mg dispersible tablets
+dnfD.00	LAMICTAL 200mg tablets
+dnfE.00	LAMOTRIGINE 200mg tablets
+dnfJ.00	LAMICTAL 2mg dispersible tablets
+dnfz.00	LAMOTRIGINE 2mg dispersible tablets
+dnf..00	LAMOTRIGINE
+dnfH.00	LAMICTAL NON-VALPROATE ADD-ON 50mg starter pack
+dnfG.00	LAMICTAL VALPROATE ADD-ON 25mg starter pack
+dnfF.00	LAMICTAL MONOTHERAPY 25mg starter pack

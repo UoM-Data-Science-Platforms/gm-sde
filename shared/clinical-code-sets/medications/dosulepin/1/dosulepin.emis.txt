@@ -243,3 +243,62 @@ PRCA2401	Prothiaden  Capsules  25 mg
 PRCA24260EMIS	Prepadine  Capsules  25 mg
 PRTA2402	Prothiaden  Tablets  75 mg
 PRTA24262EMIS	Prepadine  Tablets  75 mg
+^ESCT1204457	Dothiepin hydrochloride 25mg/5mL conventional release oral elixir
+^ESCT1204458	Dothiepin hydrochloride 75mg/5mL conventional release oral elixir
+^ESCT1206358	Dosulepin in oral dosage form
+^ESCT1206359	Dothiepin in oral dosage form
+^ESCT1206360	Product containing dosulepin in oral dosage form
+^ESCT1226763	Dosulepin
+^ESCT1226764	Dothiepin product
+^ESCT1226765	Dosulepin product
+^ESCT1354730	Dosulepin only product
+^ESCT1354731	Dothiepin only product
+^ESCT1358321	Dosulepin only product in oral dose form
+^ESCT1358322	Dothiepin only product in oral dose form
+^ESCT1364482	Dosulepin 5 mg/mL oral solution
+^ESCT1364483	Dothiepin 5 mg/mL oral solution
+^ESCT1364484	Dosulepin 15 mg/mL oral solution
+^ESCT1364485	Dothiepin 15 mg/mL oral solution
+^ESCT1386237	Dosulepin-containing product in oral dose form
+^ESCT1386238	Dothiepin-containing product in oral dose form
+^ESCT1436967	Dosulepin 25mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437053	Dosulepin 75mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437196	Dosulepin 25mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1437197	Dosulepin 25mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437198	Dosulepin 25mg capsules (Viatris UK Healthcare Ltd) 600 capsule
+^ESCT1437202	Dosulepin 75mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437203	Dosulepin 75mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCTDO609618	Dothiepin hydrochloride
+^ESCTDO609621	Dosulepin hydrochloride 25mg/5mL s/f elixir
+^ESCTDO609622	Dothiepin hydrochloride 25mg/5mL s/f elixir
+^ESCTDO609623	Dosulepin hydrochloride 75mg/5mL s/f elixir
+^ESCTDO609624	Dothiepin hydrochloride 75mg/5mL s/f elixir
+^ESCTDO618924	Dosulepin
+^ESCTDO618925	Dothiepin
+^ESCTDO878951	Dosulepin 75mg tablets (Dowelhurst Ltd)
+^ESCTDO878952	Dosulepin 75mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTDO914892	Dothapax
+^ESCTPR1002774	Prothiaden 25mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTPR609619	Product containing dosulepin hydrochloride
+^ESCTPR609620	Product containing dothiepin hydrochloride
+^ESCTPR618926	Product containing dosulepin
+^ESCTPR618927	Product containing dothiepin
+^ESCTPR878206	Prothiaden 75mg tablets (Waymade Healthcare Plc)
+^ESCTPR878208	Prothiaden 75mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTPR879647	Prothiaden 75mg tablets (Dowelhurst Ltd)
+^ESCTPR879648	Prothiaden 75mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTPR915723	Prepadine
+^ESCTPR915791	Prothiaden
+^ESCTPR930152	Prothiaden 25mg capsules (Waymade Healthcare Plc)
+^ESCTPR930154	Prothiaden 25mg capsules (Waymade Healthcare Plc) 100 capsule
+^ESCTPR971216	Prothiaden 25mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTPR971217	Prothiaden 25mg capsules (Sigma Pharmaceuticals Plc) 100 capsule
+^ESCTPR989741	Prothiaden 25mg capsules (Lexon (UK) Ltd)
+^ESCTPR989742	Prothiaden 25mg capsules (Lexon (UK) Ltd) 100 capsule
+^ESCTPR993446	Prothiaden 25mg capsules (Stephar (U.K.) Ltd)
+^ESCTPR993447	Prothiaden 25mg capsules (Stephar (U.K.) Ltd) 100 capsule
+^ESCTTH916707	Thaden
+DOCA976	Dothiepin Hydrochloride  Capsules  25 mg
+DOOR11684NEMIS	Dothiepin Hydrochloride  Oral solution  25 mg/5 ml
+DOOR11685NEMIS	Dothiepin Hydrochloride  Oral solution  75 mg/5 ml
+DOTA977	Dothiepin Hydrochloride  Tablets  75 mg

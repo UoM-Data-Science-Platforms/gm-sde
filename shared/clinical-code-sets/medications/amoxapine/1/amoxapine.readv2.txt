@@ -1,0 +1,9 @@
+d7h..00	AMOXAPINE
+d7h8.00	*ASENDIS 150mg tablets
+d7h7.00	*ASENDIS 100mg tablets
+d7h6.00	*ASENDIS 50mg tablets
+d7h5.00	*ASENDIS 25mg tablets
+d7h4.00	*AMOXAPINE 150mg tablets
+d7h3.00	*AMOXAPINE 100mg tablets
+d7h2.00	*AMOXAPINE 50mg tablets
+d7h1.00	*AMOXAPINE 25mg tablets

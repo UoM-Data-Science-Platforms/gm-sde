@@ -3,3 +3,5 @@
 42H..12	White cell count
 42H7.00	Total white blood count
 42HZ.00	Total white cell count NOS
+42H8.00	Total WBC (IMM)
+42MG.00	Leucocyte count

@@ -10,6 +10,8 @@
 -- YearOfBirth
 -- Ethnicity
 -- BMI
+-- Height
+-- Weight
 -- LSOA
 -- IMD
 -- DeathTime
@@ -28,11 +30,9 @@ SET NOCOUNT ON;
 --> EXECUTE query-patient-imd.sql
 --> EXECUTE query-patient-care-home-resident.sql
 
---> CODESET cancer:1
---> CODESET asthma:1
---> CODESET anxiety:1
---> CODESET long-covid:1
---> CODESET severe-mental-illness:1
+--> CODESET height:1 weight:1
+--> CODESET cancer:1 asthma:1 anxiety:1 long-covid:1 severe-mental-illness:1
+
 
 DECLARE @MinDate datetime;
 SET @MinDate = '1900-01-01';
@@ -41,7 +41,7 @@ SET @IndexDate = '2023-12-31';
 
 -- Create a smaller version of GP event table===========================================================================================================
 IF OBJECT_ID('tempdb..#GPEvents') IS NOT NULL DROP TABLE #GPEvents;
-SELECT gp.FK_Patient_Link_ID, EventDate, SuppliedCode, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, [Value]
+SELECT gp.FK_Patient_Link_ID, EventDate, SuppliedCode, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, [Value], Units
 INTO #GPEvents
 FROM SharedCare.GP_Events gp
 WHERE gp.SuppliedCode IN (SELECT Code FROM #AllCodes)
@@ -99,8 +99,9 @@ WHERE (
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'severe-mental-illness' AND Version = 1)
 );
 
---> EXECUTE query-get-closest-value-to-date.sql date:2023-12-31 comparison:<= all-patients:false gp-events-table:#GPEvents code-set:height version:1 temp-table-name:#PatientHeight
---> EXECUTE query-get-closest-value-to-date.sql date:2023-12-31 comparison:<= all-patients:false gp-events-table:#GPEvents code-set:weight version:1 temp-table-name:#PatientWeight
+
+--> EXECUTE query-get-height.sql date:2023-12-31 all-patients:false gp-events-table:#GPEvents
+--> EXECUTE query-get-weight.sql date:2023-12-31 all-patients:false gp-events-table:#GPEvents
 --> EXECUTE query-patient-bmi.sql gp-events-table:#GPEvents
 
 -- The final table==========================================================================
@@ -118,10 +119,10 @@ SELECT
   HO_Asthma = ISNULL(c3.Asthma,0),
   HO_LongCovid = ISNULL(c4.LongCovid,0),
   HO_SevereMentalIllness = ISNULL(c5.SevereMental,0),
-  Height = h.Value,
-  DateOfHeightMeasurement = h.DateOfFirstValue,
-  Weight = w.Value,
-  DateOfWeightMeasurement = w.DateOfFirstValue,
+  h.HeightInCentimetres,
+  DateOfHeightMeasurement = h.HeightDate,
+  WeightInKilograms,
+  DateOfWeightMeasurement = w.WeightDate,
   BMI,
   DateOfBMIMeasurement
 FROM #Cohort p

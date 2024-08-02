@@ -523,3 +523,2451 @@ DIM/98327NEMIS	Dicloflex Retard  M/R tablets  100 mg
 FLCA132429NEMIS	Flarin  Capsules  200 mg
 INOR46774NEMIS	Indometacin  Oral solution  25 mg/5 ml
 MEOR83163NEMIS	Meloxicam  Orodispersible Tablets (Sugar Free)  15 mg
+^ESCT1173934	Flarin 200mg capsules (infirst Healthcare Ltd)
+^ESCT1174677	Sudafed Sinus Pain Relief 200mg/6.1mg tablets (McNeil Products Ltd)
+^ESCT1174712	Ibuprofen 200mg / Phenylephrine 6.1mg tablets
+^ESCT1176034	Skudexa 75mg/25mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+^ESCT1176040	Tramadol 75mg / Dexketoprofen 25mg tablets
+^ESCT1176627	Seractil 300mg tablets (Gebro Pharma GmbH)
+^ESCT1177014	Celecoxib 100mg capsules (Milpharm Ltd)
+^ESCT1177191	Etoricoxib 30mg tablets (Milpharm Ltd)
+^ESCT1177193	Etoricoxib 60mg tablets (Milpharm Ltd)
+^ESCT1177195	Etoricoxib 90mg tablets (Milpharm Ltd)
+^ESCT1177197	Etoricoxib 120mg tablets (Milpharm Ltd)
+^ESCT1178193	Product containing only naproxen sodium 275 mg/1 each oral tablet
+^ESCT1178275	Product containing only fenbufen 600 mg/1 each oral tablet
+^ESCT1178276	Product containing only ibuprofen 200 mg/1 each oral capsule
+^ESCT1178360	Product containing only fenoprofen calcium 200 mg/1 each oral capsule
+^ESCT1178376	Product containing only etodolac 400 mg/1 each oral tablet
+^ESCT1178404	Product containing only sulindac 150 mg/1 each oral tablet
+^ESCT1178579	Product containing only etoricoxib 60 mg/1 each oral tablet
+^ESCT1178583	Product containing only ibuprofen 300 mg and pseudoephedrine 45 mg/1 each oral capsule
+^ESCT1178589	Product containing only valdecoxib 40 mg/1 each oral tablet
+^ESCT1178655	Fenbufen 300mg tablets (Mylan)
+^ESCT1178677	Naproxen 250mg tablets (Mylan)
+^ESCT1178820	Product containing only benorylate 750 mg/1 each oral tablet
+^ESCT1178821	Product containing only azapropazone 300 mg/1 each oral capsule
+^ESCT1178822	Product containing only apazone 300 mg/1 each oral capsule
+^ESCT1178824	Product containing only etodolac 200 mg/1 each oral capsule
+^ESCT1178825	Product containing only flurbiprofen 100 mg/1 each oral tablet
+^ESCT1178826	Product containing only ibuprofen 200 mg/1 each oral tablet
+^ESCT1178827	Product containing only indomethacin 50 mg/1 each oral capsule
+^ESCT1178828	Product containing only indometacin 50 mg/1 each oral capsule
+^ESCT1178829	Product containing only mefenamic acid 500 mg/1 each oral tablet
+^ESCT1178830	Product containing only piroxicam 20 mg/1 each oral capsule
+^ESCT1178831	Product containing only sulindac 200 mg/1 each oral tablet
+^ESCT1178832	Product containing only dexketoprofen 25 mg/1 each oral tablet
+^ESCT1178887	Product containing chlorphenamine and ibuprofen and pseudoephedrine
+^ESCT1178888	Chlorphenamine and ibuprofen and pseudoephedrine
+^ESCT1178889	Chlorpheniramine and ibuprofen and pseudoephedrine
+^ESCT1178890	Product containing chlorpheniramine and ibuprofen and pseudoephedrine
+^ESCT1179146	Product containing only ibuprofen 200 mg and pseudoephedrine 30 mg/1 each oral capsule
+^ESCT1179220	Product containing only celecoxib 400 mg/1 each oral capsule
+^ESCT1179350	Product containing only hydrocodone bitartrate 7.5 mg and ibuprofen 200 mg/1 each oral tablet
+^ESCT1179425	Product containing only naproxen sodium 500 mg and sumatriptan 85 mg/1 each oral tablet
+^ESCT1179812	Piroxicam 20mg capsules (Mylan)
+^ESCT1179832	Brufen 400mg tablets (Mylan)
+^ESCT1179834	Benorilate 2g/5ml oral suspension sugar free (Mylan)
+^ESCT1179835	Piroxicam 20mg dispersible tablets (Mylan)
+^ESCT1180055	Diclovol 75mg SR tablets (Mylan)
+^ESCT1180311	Mefenamic acid 250mg capsules (Mylan)
+^ESCT1181139	Product containing only tolfenamic acid 200 mg/1 each oral tablet
+^ESCT1181347	Product containing only ketoprofen 25 mg/1 each oral capsule
+^ESCT1181348	Product containing only ketoprofen 75 mg/1 each oral capsule
+^ESCT1181407	Product containing only tolmetin sodium 600 mg/1 each oral tablet
+^ESCT1181502	Product containing only fenbufen 200 mg/1 each oral capsule
+^ESCT1181503	Product containing only ibuprofen 100 mg/1 each oral tablet
+^ESCT1181524	Product containing only etodolac 500 mg/1 each oral tablet
+^ESCT1181529	Product containing only tolmetin sodium 400 mg/1 each oral capsule
+^ESCT1181545	Product containing only ketoprofen 12.5 mg/1 each oral tablet
+^ESCT1181622	Product containing only naproxen 375 mg/1 each oral tablet
+^ESCT1181887	Product containing only naproxen sodium 550 mg/1 each oral tablet
+^ESCT1181957	Product containing only apazone 600 mg/1 each oral tablet
+^ESCT1181958	Product containing only azapropazone 600 mg/1 each oral tablet
+^ESCT1181959	Product containing only diflunisal 500 mg/1 each oral tablet
+^ESCT1181960	Product containing only fenoprofen 600 mg/1 each oral tablet
+^ESCT1181961	Product containing only flurbiprofen 50 mg/1 each oral tablet
+^ESCT1181962	Product containing only indomethacin 25 mg/1 each oral capsule
+^ESCT1181963	Product containing only indometacin 25 mg/1 each oral capsule
+^ESCT1181964	Product containing only mefenamic acid 250 mg/1 each oral capsule
+^ESCT1181965	Product containing only naproxen 500 mg/1 each oral tablet
+^ESCT1181966	Product containing only piroxicam 10 mg/1 each oral capsule
+^ESCT1181967	Product containing only tiaprofenic acid 300 mg/1 each oral tablet
+^ESCT1181968	Product containing only acemetacin 60 mg/1 each oral capsule
+^ESCT1181969	Product containing only tenoxicam 20 mg/1 each oral tablet
+^ESCT1182019	Product containing only rofecoxib 25 mg/1 each oral tablet
+^ESCT1182020	Product containing only celecoxib 100 mg/1 each oral capsule
+^ESCT1182119	Product containing only ibuprofen 400 mg and oxycodone 5 mg/1 each oral tablet
+^ESCT1182141	Product containing only naproxen 200 mg/1 each oral capsule
+^ESCT1182157	Product containing only dexibuprofen 300 mg/1 each oral tablet
+^ESCT1182206	Product containing only dexibuprofen 400 mg/1 each oral tablet
+^ESCT1182360	Product containing only fenbufen 300 mg/1 each oral tablet
+^ESCT1182361	Product containing only fenoprofen 300 mg/1 each oral tablet
+^ESCT1182362	Product containing only ibuprofen 400 mg/1 each oral tablet
+^ESCT1182363	Product containing only ibuprofen 600 mg/1 each oral tablet
+^ESCT1182364	Product containing only ibuprofen 200 mg and codeine phosphate 12.8 mg/1 each oral tablet
+^ESCT1182365	Product containing only naproxen 250 mg/1 each oral tablet
+^ESCT1182366	Product containing only phenylbutazone 100 mg/1 each oral tablet
+^ESCT1182367	Product containing only sulindac 100 mg/1 each oral tablet
+^ESCT1182368	Product containing only nabumetone 500 mg/1 each oral tablet
+^ESCT1182737	Product containing only rofecoxib 50 mg/1 each oral tablet
+^ESCT1182781	Brufen 100mg/5ml syrup (Mylan)
+^ESCT1182823	Product containing only diphenhydramine 25 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCT1182926	Product containing only fenoprofen calcium 300 mg/1 each oral capsule
+^ESCT1183071	Product containing only celecoxib 50 mg/1 each oral capsule
+^ESCT1183116	Product containing only hydrocodone bitartrate 10 mg and ibuprofen 200 mg/1 each oral tablet
+^ESCT1183309	Product containing only valdecoxib 10 mg/1 each oral tablet
+^ESCT1183310	Product containing only valdecoxib 20 mg/1 each oral tablet
+^ESCT1183620	Meloxicam 15mg tablets (Mylan)
+^ESCT1183740	Piroxicam 10mg capsules (Mylan)
+^ESCT1183989	Diclovol Retard 100mg tablets (Mylan)
+^ESCT1184258	Indometacin 50mg capsules (Mylan)
+^ESCT1184276	Naproxen 250mg gastro-resistant tablets (Mylan)
+^ESCT1184316	Sulindac 100mg tablets (Mylan)
+^ESCT1184948	Etolyn 600mg modified-release tablets (Mylan)
+^ESCT1185044	Flurbiprofen 50mg tablets (Mylan)
+^ESCT1185045	Flurbiprofen 100mg tablets (Mylan)
+^ESCT1185079	Etoricoxib 30mg tablets (Mylan)
+^ESCT1185080	Etoricoxib 90mg tablets (Mylan)
+^ESCT1185102	Product containing only hydrocodone bitartrate 2.5 mg and ibuprofen 200 mg/1 each oral tablet
+^ESCT1185189	Product containing only ketorolac trometamol 10 mg/1 each oral tablet
+^ESCT1185190	Product containing only ketorolac tromethamine 10 mg/1 each oral tablet
+^ESCT1185286	Product containing only etoricoxib 90 mg/1 each oral tablet
+^ESCT1185287	Product containing only etoricoxib 120 mg/1 each oral tablet
+^ESCT1185321	Product containing naproxen and pseudoephedrine
+^ESCT1185322	Naproxen and pseudoephedrine
+^ESCT1185342	Brufen Retard 800mg tablets (Mylan)
+^ESCT1185343	Naproxen 500mg gastro-resistant tablets (Mylan)
+^ESCT1185766	Brufen 600mg effervescent granules sachets (Mylan)
+^ESCT1185922	Ketoprofen 100mg capsules (Mylan)
+^ESCT1185933	Slo-Indo 75mg capsules (Mylan)
+^ESCT1185943	Brufen 600mg tablets (Mylan)
+^ESCT1185960	Nabumetone 500mg tablets (Mylan)
+^ESCT1186356	Naproxen 500mg tablets (Mylan)
+^ESCT1186357	Piroxicam 10mg dispersible tablets (Mylan)
+^ESCT1186369	Fenbufen 450mg tablets (Mylan)
+^ESCT1186406	Sulindac 200mg tablets (Mylan)
+^ESCT1187129	Etoricoxib 120mg tablets (Mylan)
+^ESCT1187409	Product containing only naproxen 200 mg/1 each oral tablet
+^ESCT1187411	Product containing only tolmetin sodium 200 mg/1 each oral tablet
+^ESCT1187490	Product containing only phenylbutazone 100 mg/1 each oral capsule
+^ESCT1187507	Product containing only nabumetone 750 mg/1 each oral tablet
+^ESCT1187558	Product containing only indometacin 75 mg/1 each oral capsule
+^ESCT1187559	Product containing only indomethacin 75 mg/1 each oral capsule
+^ESCT1187829	Product containing only hydrocodone bitartrate 5 mg and ibuprofen 200 mg/1 each oral tablet
+^ESCT1188049	Product containing only ibuprofen 200 mg and pseudoephedrine 30 mg/1 each oral tablet
+^ESCT1188059	Product containing only lornoxicam 4 mg/1 each oral tablet
+^ESCT1188060	Product containing only lornoxicam 8 mg/1 each oral tablet
+^ESCT1188256	Product containing only diflunisal 250 mg/1 each oral tablet
+^ESCT1188257	Product containing only etodolac 300 mg/1 each oral capsule
+^ESCT1188258	Product containing only fenbufen 300 mg/1 each oral capsule
+^ESCT1188259	Product containing only fenbufen 450 mg/1 each oral tablet
+^ESCT1188260	Product containing only ibuprofen 200 mg and codeine phosphate 12.5 mg/1 each oral tablet
+^ESCT1188261	Product containing only ibuprofen 800 mg/1 each oral tablet
+^ESCT1188262	Product containing only ketoprofen 50 mg/1 each oral capsule
+^ESCT1188263	Product containing only phenylbutazone 200 mg/1 each oral tablet
+^ESCT1188264	Product containing only tiaprofenic acid 200 mg/1 each oral tablet
+^ESCT1188265	Product containing only piroxicam 20 mg/1 each oral tablet
+^ESCT1188266	Product containing only meloxicam 7.5 mg/1 each oral tablet
+^ESCT1188267	Product containing only meloxicam 15 mg/1 each oral tablet
+^ESCT1188273	Product containing only rofecoxib 12.5 mg/1 each oral tablet
+^ESCT1188274	Product containing only celecoxib 200 mg/1 each oral capsule
+^ESCT1188402	Product containing only naproxen sodium 220 mg/1 each oral capsule
+^ESCT1188622	Product containing only diphenhydramine 38 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCT1188924	Meloxicam 7.5mg tablets (Mylan)
+^ESCT1189238	Ketoprofen 50mg capsules (Mylan)
+^ESCT1189475	Diclofenac sodium 25mg gastro-resistant tablets (Mylan)
+^ESCT1189573	Etopan XL 600mg tablets (Sun Pharmaceuticals UK Ltd)
+^ESCT1190115	Celecoxib 100mg capsules (Mylan)
+^ESCT1190116	Celecoxib 200mg capsules (Mylan)
+^ESCT1190212	Etoricoxib 60mg tablets (Mylan)
+^ESCT1195063	Mefenamic acid 50mg/5ml oral suspension
+^ESCT1195938	Naproxen 250mg tablets (Milpharm Ltd)
+^ESCT1196097	Naproxen 500mg tablets (Milpharm Ltd)
+^ESCT1197901	Celecoxib 50mg/5ml oral suspension (Special Order)
+^ESCT1197923	Celecoxib 50mg/5ml oral suspension
+^ESCT1203200	Etodolac 500mg prolonged-release oral tablet
+^ESCT1203258	Etodolac 600 mg prolonged-release oral tablet
+^ESCT1203259	Product containing precisely etodolac 600 milligram/1 each prolonged-release oral tablet
+^ESCT1203317	Naproxen (as naproxen sodium) 500 mg gastro-resistant oral tablet
+^ESCT1203318	Product containing precisely naproxen (as naproxen sodium) 500 milligram/1 each gastro-resistant oral tablet
+^ESCT1203320	Codeine phosphate 20 mg and ibuprofen 300 mg prolonged-release oral tablet
+^ESCT1203321	Product containing precisely codeine phosphate 20 milligram and ibuprofen 300 milligram/1 each prolonged-release oral tablet
+^ESCT1203355	Naproxen 200mg/pseudoephedrine 120mg prolonged-release oral tablet
+^ESCT1203413	Naproxen sodium 220mg/pseudoephedrine 120mg prolonged-release oral tablet
+^ESCT1203485	Naproxen sodium 375mg gastro-resistant oral tablet
+^ESCT1203495	Etodolac 400mg prolonged-release oral tablet
+^ESCT1203498	Ibuprofen 800 mg prolonged-release oral tablet
+^ESCT1203499	Product containing precisely ibuprofen 800 milligram/1 each prolonged-release oral tablet
+^ESCT1203523	Naproxen 375 mg gastro-resistant oral tablet
+^ESCT1203524	Product containing precisely naproxen 375 milligram/1 each gastro-resistant oral tablet
+^ESCT1203717	Ibuprofen 300 mg prolonged-release oral capsule
+^ESCT1203718	Product containing precisely ibuprofen 300 milligram/1 each prolonged-release oral capsule
+^ESCT1203731	Flurbiprofen 200 mg prolonged-release oral capsule
+^ESCT1203732	Product containing precisely flurbiprofen 200 milligram/1 each prolonged-release oral capsule
+^ESCT1203756	Ketoprofen 200 mg prolonged-release oral capsule
+^ESCT1203757	Product containing precisely ketoprofen 200 milligram/1 each prolonged-release oral capsule
+^ESCT1203784	Ketoprofen 150 mg prolonged-release oral capsule
+^ESCT1203785	Product containing precisely ketoprofen 150 milligram/1 each prolonged-release oral capsule
+^ESCT1203788	Tiaprofenic acid 300 mg prolonged-release oral capsule
+^ESCT1203789	Product containing precisely tiaprofenic acid 300 milligram/1 each prolonged-release oral capsule
+^ESCT1203860	Ketoprofen 100 mg prolonged-release oral capsule
+^ESCT1203861	Product containing precisely ketoprofen 100 milligram/1 each prolonged-release oral capsule
+^ESCT1203881	Naproxen sodium 500mg gastro-resistant oral tablet
+^ESCT1203893	Ibuprofen 200 mg prolonged-release oral capsule
+^ESCT1203894	Product containing precisely ibuprofen 200 milligram/1 each prolonged-release oral capsule
+^ESCT1203958	Indometacin 75 mg prolonged-release oral capsule
+^ESCT1203959	Product containing precisely indometacin 75 milligram/1 each prolonged-release oral capsule
+^ESCT1203960	Indomethacin 75 mg prolonged-release oral capsule
+^ESCT1203961	Indometacin 25 mg prolonged-release oral capsule
+^ESCT1203962	Product containing precisely indometacin 25 milligram/1 each prolonged-release oral capsule
+^ESCT1203963	Indomethacin 25 mg prolonged-release oral capsule
+^ESCT1203964	Piroxicam 20mg conventional release orodispersible tablet
+^ESCT1204372	Flurbiprofen sodium 0.03% conventional release eye drops
+^ESCT1204570	Benorilate 400 mg/mL oral suspension
+^ESCT1204571	Product containing precisely benorilate 400 milligram/1 milliliter conventional release oral suspension
+^ESCT1204748	Chlorpheniramine 2mg/ibuprofen 200mg/pseudoephedrine 30mg conventional release oral tablet
+^ESCT1206056	Phenylbutazone in oral dosage form
+^ESCT1206057	Product containing phenylbutazone in oral dosage form
+^ESCT1206079	Tiaprofenic acid in oral dosage form
+^ESCT1206080	Product containing tiaprofenic acid in oral dosage form
+^ESCT1206091	Flurbiprofen in oromucosal dosage form
+^ESCT1206092	Product containing flurbiprofen in oromucosal dosage form
+^ESCT1206093	Flurbiprofen in rectal dosage form
+^ESCT1206094	Product containing flurbiprofen in rectal dosage form
+^ESCT1206105	Codeine and ibuprofen in oral dosage form
+^ESCT1206106	Product containing codeine and ibuprofen in oral dosage form
+^ESCT1206397	Diflunisal in oral dosage form
+^ESCT1206398	Product containing diflunisal in oral dosage form
+^ESCT1206669	Diphenhydramine and ibuprofen in oral dosage form
+^ESCT1206670	Product containing diphenhydramine and ibuprofen in oral dosage form
+^ESCT1206685	Dexibuprofen in oral dosage form
+^ESCT1206686	Product containing dexibuprofen in oral dosage form
+^ESCT1206830	Tenoxicam in oral dosage form
+^ESCT1206831	Product containing tenoxicam in oral dosage form
+^ESCT1207168	Naproxen and sumatriptan product
+^ESCT1207169	Product containing naproxen and sumatriptan
+^ESCT1207170	Naproxen and sumatriptan in oral dosage form
+^ESCT1207171	Product containing naproxen and sumatriptan in oral dosage form
+^ESCT1207223	Hydrocodone and ibuprofen product
+^ESCT1207224	Product containing hydrocodone and ibuprofen
+^ESCT1207225	Hydrocodone and ibuprofen in oral dosage form
+^ESCT1207226	Product containing hydrocodone and ibuprofen in oral dosage form
+^ESCT1207531	Esomeprazole and naproxen product
+^ESCT1207532	Product containing esomeprazole and naproxen
+^ESCT1207533	Esomeprazole and naproxen in oral dosage form
+^ESCT1207534	Product containing esomeprazole and naproxen in oral dosage form
+^ESCT1207773	Ibuprofen and pseudoephedrine in oral dosage form
+^ESCT1207774	Product containing ibuprofen and pseudoephedrine in oral dosage form
+^ESCT1207775	Ibuprofen and oxycodone in oral dosage form
+^ESCT1207776	Product containing ibuprofen and oxycodone in oral dosage form
+^ESCT1207869	Tolmetin in oral dosage form
+^ESCT1207870	Product containing tolmetin in oral dosage form
+^ESCT1207873	Tolfenamic acid in oral dosage form
+^ESCT1207874	Product containing tolfenamic acid in oral dosage form
+^ESCT1208432	Mefenamic acid 10 mg/mL oral suspension
+^ESCT1208433	Product containing precisely mefenamic acid 10 milligram/1 milliliter conventional release oral suspension
+^ESCT1212428	Diclofenac sodium 75mg modified-release tablets
+^ESCT1212429	Etodolac 600mg modified-release tablets
+^ESCT1212430	Ibuprofen 800mg modified-release tablets
+^ESCT1212431	Ibuprofen 100mg/5ml oral suspension sugar free
+^ESCT1212432	Indometacin 25mg modified-release capsules
+^ESCT1214241	Ibuprofen 200mg tablets (Medreich Plc)
+^ESCT1214317	Nabumetone 500mg tablets (Tillomed Laboratories Ltd)
+^ESCT1214738	Celecoxib 100mg capsules (Consilient Health Ltd)
+^ESCT1214740	Celecoxib 200mg capsules (Consilient Health Ltd)
+^ESCT1214772	Benorilate 2g/5ml oral suspension sugar free
+^ESCT1214843	Tiaprofenic acid 300mg modified-release capsules
+^ESCT1215217	Naproxen 250mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1215264	Piroxicam 20mg orodispersible tablets sugar free
+^ESCT1215265	Piroxicam 20mg/1ml solution for injection ampoules
+^ESCT1215355	Naproxen 500mg tablets (Medreich Plc)
+^ESCT1215395	Naproxen 500mg modified-release tablets
+^ESCT1215396	Naproxen 500mg tablets and Misoprostol 200microgram tablets
+^ESCT1215464	Ketoprofen 100mg modified-release capsules
+^ESCT1215466	Ketoprofen 150mg modified-release capsules
+^ESCT1215467	Ketoprofen 200mg modified-release capsules
+^ESCT1215522	Ibuprofen 400mg tablets (Medreich Plc)
+^ESCT1215524	Ibuprofen 600mg tablets (Medreich Plc)
+^ESCT1215544	Ibuprofen 200mg modified-release capsules
+^ESCT1215546	Ibuprofen 300mg modified-release / Codeine 20mg tablets
+^ESCT1215547	Ibuprofen 300mg modified-release capsules
+^ESCT1215560	Indometacin 25mg modified-release tablets
+^ESCT1215561	Indometacin 50mg modified-release tablets
+^ESCT1215562	Indometacin 75mg modified-release capsules
+^ESCT1215563	Indometacin 75mg modified-release tablets
+^ESCT1215684	Flurbiprofen 200mg modified-release capsules
+^ESCT1215850	Ibuprofen 600mg tablets (Crescent Pharma Ltd)
+^ESCT1215915	Ibular 200mg tablets (Ennogen Pharma Ltd)
+^ESCT1215917	Ibular 400mg tablets (Ennogen Pharma Ltd)
+^ESCT1223717	Product containing precisely naproxen sodium 275 milligram/1 each conventional release oral tablet
+^ESCT1223849	Product containing precisely tolfenamic acid 200 milligram/1 each conventional release oral tablet
+^ESCT1225365	Benorilate 750 mg oral tablet
+^ESCT1225366	Product containing precisely benorilate 750 milligram/1 each conventional release oral tablet
+^ESCT1225367	Benorilate 2 g granules for oral suspension sachet
+^ESCT1225368	Product containing precisely benorilate 2 gram/1 sachet granules for conventional release oral suspension
+^ESCT1225374	Apazone 300 mg oral capsule
+^ESCT1225375	Product containing precisely azapropazone 300 milligram/1 each conventional release oral capsule
+^ESCT1225376	Azapropazone 300 mg oral capsule
+^ESCT1225377	Product containing precisely azapropazone 600 milligram/1 each conventional release oral tablet
+^ESCT1225392	Product containing precisely diflunisal 250 milligram/1 each conventional release oral tablet
+^ESCT1225393	Product containing precisely diflunisal 500 milligram/1 each conventional release oral tablet
+^ESCT1225394	Etodolac 200 mg oral capsule
+^ESCT1225395	Product containing precisely etodolac 200 milligram/1 each conventional release oral capsule
+^ESCT1225396	Etodolac 300 mg oral capsule
+^ESCT1225397	Product containing precisely etodolac 300 milligram/1 each conventional release oral capsule
+^ESCT1225400	Product containing precisely fenbufen 300 milligram/1 each conventional release oral capsule
+^ESCT1225401	Fenbufen 300 mg oral capsule
+^ESCT1225402	Product containing precisely fenbufen 300 milligram/1 each conventional release oral tablet
+^ESCT1225403	Product containing precisely fenbufen 450 milligram/1 each conventional release oral tablet
+^ESCT1225404	Product containing precisely fenoprofen 300 milligram/1 each conventional release oral tablet
+^ESCT1225405	Fenoprofen (as fenoprofen calcium) 600 mg oral tablet
+^ESCT1225406	Product containing precisely fenoprofen (as fenoprofen calcium) 600 milligram/1 each conventional release oral tablet
+^ESCT1225407	Product containing precisely flurbiprofen 50 milligram/1 each conventional release oral tablet
+^ESCT1225408	Product containing precisely flurbiprofen 100 milligram/1 each conventional release oral tablet
+^ESCT1225411	Product containing precisely ibuprofen 200 milligram/1 each conventional release oral tablet
+^ESCT1225412	Product containing precisely ibuprofen 400 milligram/1 each conventional release oral tablet
+^ESCT1225413	Product containing precisely ibuprofen 600 milligram/1 each conventional release oral tablet
+^ESCT1225414	Ibuprofen 200 mg and codeine phosphate 12.5 mg oral tablet
+^ESCT1225415	Codeine phosphate 12.5 mg and ibuprofen 200 mg oral tablet
+^ESCT1225416	Product containing precisely codeine phosphate 12.5 milligram and ibuprofen 200 milligram/1 each conventional release oral tablet
+^ESCT1225417	Product containing precisely ibuprofen 600 milligram/1 sachet granules for conventional release oral suspension
+^ESCT1225418	Ibuprofen 600 mg granules for oral suspension sachet
+^ESCT1225419	Product containing precisely codeine phosphate 12.8 milligram and ibuprofen 200 milligram/1 each conventional release oral tablet
+^ESCT1225420	Codeine phosphate 12.8 mg and ibuprofen 200 mg oral tablet
+^ESCT1225421	Product containing precisely ibuprofen 800 milligram/1 each conventional release oral tablet
+^ESCT1225422	Product containing precisely ibuprofen 20 milligram/1 milliliter conventional release oral suspension
+^ESCT1225423	Ibuprofen 20 mg/mL oral suspension
+^ESCT1225424	Product containing precisely indometacin 25 milligram/1 each conventional release oral capsule
+^ESCT1225425	Indomethacin 25 mg oral capsule
+^ESCT1225426	Indometacin 25 mg oral capsule
+^ESCT1225427	Indometacin 50 mg oral capsule
+^ESCT1225428	Indomethacin 50 mg oral capsule
+^ESCT1225429	Product containing precisely indometacin 50 milligram/1 each conventional release oral capsule
+^ESCT1225436	Product containing precisely ketoprofen 50 milligram/1 each conventional release oral capsule
+^ESCT1225437	Ketoprofen 50 mg oral capsule
+^ESCT1225440	Mefenamic acid 250 mg oral capsule
+^ESCT1225441	Product containing precisely mefenamic acid 250 milligram/1 each conventional release oral capsule
+^ESCT1225442	Product containing precisely mefenamic acid 500 milligram/1 each conventional release oral tablet
+^ESCT1225443	Product containing precisely naproxen 250 milligram/1 each conventional release oral tablet
+^ESCT1225444	Product containing precisely naproxen 500 milligram/1 each conventional release oral tablet
+^ESCT1225445	Naproxen 250 mg gastro-resistant oral tablet
+^ESCT1225446	Product containing precisely naproxen 250 milligram/1 each gastro-resistant oral tablet
+^ESCT1225447	Naproxen 500 mg gastro-resistant oral tablet
+^ESCT1225448	Product containing precisely naproxen 500 milligram/1 each gastro-resistant oral tablet
+^ESCT1225449	Naproxen 25 mg/mL oral suspension
+^ESCT1225450	Product containing precisely naproxen 25 milligram/1 milliliter conventional release oral suspension
+^ESCT1225453	Product containing precisely phenylbutazone 100 milligram/1 each conventional release oral tablet
+^ESCT1225454	Product containing precisely phenylbutazone 200 milligram/1 each conventional release oral tablet
+^ESCT1225455	Piroxicam 10 mg oral capsule
+^ESCT1225456	Product containing precisely piroxicam 10 milligram/1 each conventional release oral capsule
+^ESCT1225457	Piroxicam 20 mg oral capsule
+^ESCT1225458	Product containing precisely piroxicam 20 milligram/1 each conventional release oral capsule
+^ESCT1225461	Product containing precisely sulindac 100 milligram/1 each conventional release oral tablet
+^ESCT1225462	Product containing precisely sulindac 200 milligram/1 each conventional release oral tablet
+^ESCT1225465	Product containing precisely tiaprofenic acid 200 milligram/1 each conventional release oral tablet
+^ESCT1225466	Product containing precisely tiaprofenic acid 300 milligram/1 each conventional release oral tablet
+^ESCT1225471	Product containing precisely piroxicam 20 milligram/1 each conventional release oral tablet
+^ESCT1225474	Acemetacin 60 mg oral capsule
+^ESCT1225475	Product containing precisely acemetacin 60 milligram/1 each conventional release oral capsule
+^ESCT1225476	Product containing precisely nabumetone 500 milligram/1 each conventional release oral tablet
+^ESCT1225477	Product containing precisely nabumetone 100 milligram/1 milliliter conventional release oral suspension
+^ESCT1225478	Nabumetone 100 mg/mL oral suspension
+^ESCT1225481	Product containing precisely tenoxicam 20 milligram/1 each conventional release oral tablet
+^ESCT1225482	Aceclofenac
+^ESCT1225483	Aceclofenac product
+^ESCT1225487	Product containing precisely meloxicam 7.5 milligram/1 each conventional release oral tablet
+^ESCT1225488	Product containing precisely meloxicam 15 milligram/1 each conventional release oral tablet
+^ESCT1225493	Product containing precisely dexketoprofen 25 milligram/1 each conventional release oral tablet
+^ESCT1225529	Product containing precisely rofecoxib 12.5 milligram/1 each conventional release oral tablet
+^ESCT1225530	Product containing precisely rofecoxib 25 milligram/1 each conventional release oral tablet
+^ESCT1225531	Product containing precisely rofecoxib 2.5 milligram/1 milliliter conventional release oral suspension
+^ESCT1225532	Rofecoxib 2.5 mg/mL oral suspension
+^ESCT1225533	Product containing precisely rofecoxib 5 milligram/1 milliliter conventional release oral suspension
+^ESCT1225534	Rofecoxib 5 mg/mL oral suspension
+^ESCT1225535	Product containing precisely celecoxib 200 milligram/1 each conventional release oral capsule
+^ESCT1225536	Celecoxib 200 mg oral capsule
+^ESCT1225537	Product containing precisely celecoxib 100 milligram/1 each conventional release oral capsule
+^ESCT1225538	Celecoxib 100 mg oral capsule
+^ESCT1226381	Ketorolac 10 mg oral tablet
+^ESCT1226382	Product containing precisely ketorolac 10 milligram/1 each conventional release oral tablet
+^ESCT1226668	Product containing precisely phenylbutazone 100 milligram/1 each gastro-resistant oral tablet
+^ESCT1226669	Phenylbutazone 100 mg gastro-resistant oral tablet
+^ESCT1227391	Fenbufen 200 mg/1 each oral capsule
+^ESCT1227392	Product containing precisely fenbufen 200 milligram/1 each conventional release oral capsule
+^ESCT1227393	Fenbufen 200 mg oral capsule
+^ESCT1227394	Product containing precisely fenbufen 600 milligram/1 each conventional release oral tablet
+^ESCT1227395	Product containing precisely ibuprofen 100 milligram/1 each conventional release oral tablet
+^ESCT1227396	Product containing precisely ibuprofen 200 milligram/1 each conventional release oral capsule
+^ESCT1227397	Ibuprofen 200 mg oral capsule
+^ESCT1227398	Product containing precisely ketoprofen 12.5 milligram/1 each conventional release oral tablet
+^ESCT1227399	Product containing precisely naproxen 200 milligram/1 each conventional release oral tablet
+^ESCT1227406	Product containing precisely tolmetin sodium 200 milligram/1 each conventional release oral tablet
+^ESCT1227738	Ketoprofen 25 mg/1 each oral capsule
+^ESCT1227739	Product containing precisely ketoprofen 25 milligram/1 each conventional release oral capsule
+^ESCT1227740	Ketoprofen 25 mg oral capsule
+^ESCT1227741	Ketoprofen 75 mg/1 each oral capsule
+^ESCT1227742	Product containing precisely ketoprofen 75 milligram/1 each conventional release oral capsule
+^ESCT1227743	Ketoprofen 75 mg oral capsule
+^ESCT1227825	Product containing precisely tolmetin sodium 600 milligram/1 each conventional release oral tablet
+^ESCT1227906	Phenylbutazone 100 mg/1 each oral capsule
+^ESCT1227907	Phenylbutazone 100 mg oral capsule
+^ESCT1227908	Product containing precisely phenylbutazone 100 milligram/1 each conventional release oral capsule
+^ESCT1228009	Fenoprofen calcium 200 mg/1 each oral capsule
+^ESCT1228010	Fenoprofen calcium 200 mg oral capsule
+^ESCT1228011	Product containing precisely fenoprofen calcium 200 milligram/1 each conventional release oral capsule
+^ESCT1228033	Product containing precisely nabumetone 750 milligram/1 each conventional release oral tablet
+^ESCT1228140	Product containing precisely etodolac 400 milligram/1 each conventional release oral tablet
+^ESCT1228141	Product containing precisely etodolac 500 milligram/1 each conventional release oral tablet
+^ESCT1228182	Tolmetin sodium 400 mg/1 each oral capsule
+^ESCT1228183	Tolmetin sodium 400 mg oral capsule
+^ESCT1228184	Product containing precisely tolmetin sodium 400 milligram/1 each conventional release oral capsule
+^ESCT1228320	Indomethacin 75 mg oral capsule
+^ESCT1228321	Product containing precisely indometacin 75 milligram/1 each conventional release oral capsule
+^ESCT1228322	Indometacin 75 mg oral capsule
+^ESCT1228347	Product containing precisely sulindac 150 milligram/1 each conventional release oral tablet
+^ESCT1228505	Product containing precisely naproxen sodium 550 milligram/1 each conventional release oral tablet
+^ESCT1228508	Product containing precisely naproxen 375 milligram/1 each conventional release oral tablet
+^ESCT1228826	Indomethacin 5 mg/mL oral suspension
+^ESCT1228827	Product containing precisely indometacin 5 milligram/1 milliliter conventional release oral suspension
+^ESCT1228828	Indometacin 5 mg/mL oral suspension
+^ESCT1229192	Product containing precisely hydrocodone bitartrate 7.5 milligram and ibuprofen 200 milligram/1 each conventional release oral tablet
+^ESCT1229268	Ophthalmic flurbiprofen
+^ESCT1229269	Product containing flurbiprofen in ocular dosage form
+^ESCT1229270	Flurbiprofen in ocular dosage form
+^ESCT1229346	Product containing precisely valdecoxib 10 milligram/1 each conventional release oral tablet
+^ESCT1229347	Product containing precisely valdecoxib 20 milligram/1 each conventional release oral tablet
+^ESCT1229521	Product containing precisely rofecoxib 50 milligram/1 each conventional release oral tablet
+^ESCT1229522	Fenoprofen calcium 300 mg/1 each oral capsule
+^ESCT1229523	Product containing precisely fenoprofen calcium 300 milligram/1 each conventional release oral capsule
+^ESCT1229524	Fenoprofen calcium 300 mg oral capsule
+^ESCT1230069	Ibuprofen+menthol
+^ESCT1230070	Product containing ibuprofen and menthol
+^ESCT1230071	Ibuprofen and menthol product
+^ESCT1230443	Product containing precisely ibuprofen 200 milligram and pseudoephedrine 30 milligram/1 each conventional release oral tablet
+^ESCT1230444	Product containing precisely etoricoxib 60 milligram/1 each conventional release oral tablet
+^ESCT1230445	Product containing precisely etoricoxib 90 milligram/1 each conventional release oral tablet
+^ESCT1230446	Product containing precisely etoricoxib 120 milligram/1 each conventional release oral tablet
+^ESCT1230511	Ibuprofen 300 mg and pseudoephedrine 45 mg/1 each oral capsule
+^ESCT1230512	Product containing precisely ibuprofen 300 milligram and pseudoephedrine 45 milligram/1 each conventional release oral capsule
+^ESCT1230513	Ibuprofen 300 mg and pseudoephedrine 45 mg oral capsule
+^ESCT1230528	Product containing precisely valdecoxib 40 milligram/1 each conventional release oral tablet
+^ESCT1230544	Product containing precisely lornoxicam 4 milligram/1 each conventional release oral tablet
+^ESCT1230545	Product containing precisely lornoxicam 8 milligram/1 each conventional release oral tablet
+^ESCT1230588	Lansoprazole + naproxen
+^ESCT1230589	Lansoprazole and naproxen product
+^ESCT1230828	Naproxen and pseudoephedrine
+^ESCT1230829	Naproxen and pseudoephedrine product
+^ESCT1231728	Benorylate in oral dosage form
+^ESCT1231729	Product containing benorilate in oral dosage form
+^ESCT1231730	Benorilate in oral dosage form
+^ESCT1232249	Chlorpheniramine and ibuprofen and pseudoephedrine product
+^ESCT1232250	Chlorphenamine and ibuprofen and pseudoephedrine product
+^ESCT1232345	Ibuprofen + oxycodone
+^ESCT1232346	Ibuprofen and oxycodone product
+^ESCT1232347	Product containing precisely ibuprofen 400 milligram and oxycodone 5 milligram/1 each conventional release oral tablet
+^ESCT1232592	Naproxen 200 mg/1 each oral capsule
+^ESCT1232593	Naproxen 200 mg oral capsule
+^ESCT1232594	Product containing precisely naproxen 200 milligram/1 each conventional release oral capsule
+^ESCT1232769	Product containing precisely dexibuprofen 300 milligram/1 each conventional release oral tablet
+^ESCT1232844	Product containing precisely dexibuprofen 400 milligram/1 each conventional release oral tablet
+^ESCT1233044	Naproxen sodium 220 mg/1 each oral capsule
+^ESCT1233045	Product containing precisely naproxen sodium 220 milligram/1 each conventional release oral capsule
+^ESCT1233046	Naproxen sodium 220 mg oral capsule
+^ESCT1233187	Diphenhydramine 25 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCT1233188	Diphenhydramine 25 mg and ibuprofen 200 mg oral capsule
+^ESCT1233189	Product containing precisely diphenhydramine 25 milligram and ibuprofen 200 milligram/1 each conventional release oral capsule
+^ESCT1233249	Ibuprofen 200 mg and pseudoephedrine 30 mg/1 each oral capsule
+^ESCT1233250	Product containing precisely ibuprofen 200 milligram and pseudoephedrine 30 milligram/1 each conventional release oral capsule
+^ESCT1233251	Ibuprofen 200 mg and pseudoephedrine 30 mg oral capsule
+^ESCT1233278	Diphenhydramine + ibuprofen
+^ESCT1233279	Diphenhydramine and ibuprofen product
+^ESCT1234312	Celecoxib 50 mg/1 each oral capsule
+^ESCT1234313	Product containing precisely celecoxib 50 milligram/1 each conventional release oral capsule
+^ESCT1234314	Celecoxib 50 mg oral capsule
+^ESCT1234343	Celecoxib 400 mg oral capsule
+^ESCT1234344	Product containing precisely celecoxib 400 milligram/1 each conventional release oral capsule
+^ESCT1234638	Product containing precisely hydrocodone bitartrate 5 milligram and ibuprofen 200 milligram/1 each conventional release oral tablet
+^ESCT1234766	Product containing precisely hydrocodone bitartrate 10 milligram and ibuprofen 200 milligram/1 each conventional release oral tablet
+^ESCT1234767	Product containing precisely hydrocodone bitartrate 2.5 milligram and ibuprofen 200 milligram/1 each conventional release oral tablet
+^ESCT1234972	Naproxen sodium 500 mg and sumatriptan 85 mg oral tablet
+^ESCT1234973	Product containing precisely naproxen sodium 500 milligram and sumatriptan succinate 85 milligram/1 each conventional release oral tablet
+^ESCT1234974	Naproxen sodium 500 mg and sumatriptan succinate 85 mg oral tablet
+^ESCT1235138	Diphenhydramine 38 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCT1235139	Diphenhydramine 38 mg and ibuprofen 200 mg oral capsule
+^ESCT1235140	Product containing precisely diphenhydramine 38 milligram and ibuprofen 200 milligram/1 each conventional release oral capsule
+^ESCT1236776	Ketorolac + phenylephrine
+^ESCT1236777	Product containing ketorolac and phenylephrine
+^ESCT1236778	Ketorolac and phenylephrine product
+^ESCT1237180	Arcoxia 60mg tablets (Merck Sharp & Dohme Ltd)
+^ESCT1237182	Arcoxia 90mg tablets (Merck Sharp & Dohme Ltd)
+^ESCT1237184	Arcoxia 120mg tablets (Merck Sharp & Dohme Ltd)
+^ESCT1237424	Arcoxia 30mg tablets (Merck Sharp & Dohme Ltd)
+^ESCT1250064	Rheumatac Retard 75 tablets (Advanz Pharma)
+^ESCT1250312	Econac SR 75mg tablets (Advanz Pharma)
+^ESCT1250315	Econac XL 100mg tablets (Advanz Pharma)
+^ESCT1250565	Mefenamic acid 250mg capsules (Advanz Pharma)
+^ESCT1254491	Ibuprofen 600mg tablets (Dalkeith Laboratories Ltd)
+^ESCT1255483	Diclofenac sodium 100mg modified-release tablets
+^ESCT1255491	Naproxen 375mg gastro-resistant tablets
+^ESCT1255511	Diclofenac sodium 25mg gastro-resistant tablets
+^ESCT1255785	Naproxen 250mg tablets (Bristol Laboratories Ltd)
+^ESCT1255789	Naproxen 500mg tablets (Bristol Laboratories Ltd)
+^ESCT1255834	Ibuprofen Twelve Plus Pain Relief 200mg/5ml oral suspension (Aspire Pharma Ltd)
+^ESCT1255883	Ibuprofen 200mg/5ml oral suspension sugar free
+^ESCT1256048	Strefen Honey and Lemon 8.75mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCT1256070	Etopan XL 600mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1257193	Ibuprofen 600mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257553	Nexocin EC 250mg gastro-resistant tablets (Noumed Life Sciences Ltd)
+^ESCT1257559	Nexocin EC 375mg gastro-resistant tablets (Noumed Life Sciences Ltd)
+^ESCT1257561	Nexocin EC 500mg gastro-resistant tablets (Noumed Life Sciences Ltd)
+^ESCT1257603	Celecoxib 200mg capsules (Macleods Pharma UK Ltd)
+^ESCT1257705	Celecoxib 100mg capsules (Macleods Pharma UK Ltd)
+^ESCT1257760	Ibuprofen Seven Plus Pain Relief 200mg/5ml oral suspension (Aspire Pharma Ltd)
+^ESCT1257955	Naproxen 500mg gastro-resistant tablets (Sovereign Medical Ltd)
+^ESCT1257957	Naproxen 250mg gastro-resistant tablets (Sovereign Medical Ltd)
+^ESCT1257977	Diclofenac sodium 25mg gastro-resistant tablets (Crescent Pharma Ltd)
+^ESCT1259248	Etoricoxib 30mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259250	Etoricoxib 60mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259252	Etoricoxib 90mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259254	Etoricoxib 120mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259508	Celecoxib 100mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259512	Celecoxib 200mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259679	Naproxen 60mg/5ml oral suspension (Special Order)
+^ESCT1259684	Naproxen 320mg/5ml oral suspension (Special Order)
+^ESCT1259938	Naproxen 320mg/5ml oral suspension
+^ESCT1259939	Naproxen 60mg/5ml oral suspension
+^ESCT1260111	Naproxen 500mg tablets (Noumed Life Sciences Ltd)
+^ESCT1264020	Ibuprofen 400mg tablets (Relonchem Ltd)
+^ESCT1264037	Etoricoxib 30mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264042	Etoricoxib 60mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264046	Etoricoxib 90mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264051	Etoricoxib 120mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264175	Ibuprofen 600mg tablets (Relonchem Ltd)
+^ESCT1264228	Diclofenac sodium 100mg modified-release capsules
+^ESCT1264230	Diclofenac sodium 75mg modified-release capsules
+^ESCT1264542	Mefenamic acid 500mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264567	Naproxen 250mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1268088	Mobiflex 20mg tablets (Mylan)
+^ESCT1268220	Relifex 500mg tablets (Mylan)
+^ESCT1268470	Meloxicam 7.5mg tablets (Healthcare Pharma Ltd)
+^ESCT1268472	Meloxicam 15mg tablets (Healthcare Pharma Ltd)
+^ESCT1279741	Fenactol 50mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+^ESCT1279742	Fenactol Retard 100mg tablets (Dexcel-Pharma Ltd)
+^ESCT1279745	Nabumetone 500mg tablets (Accord Healthcare Ltd)
+^ESCT1299746	Naproxen 250mg gastro-resistant tablets (Accord Healthcare Ltd)
+^ESCT1301180	Celebrex 100mg capsules (Upjohn Ltd)
+^ESCT1301198	Cuprofen Maximum Strength 400mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCT1301207	Celebrex 200mg capsules (Upjohn Ltd)
+^ESCT1302842	Celecoxib 100mg capsules (Upjohn Ltd)
+^ESCT1302844	Celecoxib 200mg capsules (Upjohn Ltd)
+^ESCT1303897	Celebrex 100mg capsules (Upjohn UK Ltd)
+^ESCT1303922	Celebrex 200mg capsules (Upjohn UK Ltd)
+^ESCT1304305	Celecoxib 100mg capsules (Upjohn UK Ltd)
+^ESCT1304307	Celecoxib 200mg capsules (Upjohn UK Ltd)
+^ESCT1304337	Ibuprofen 100mg/5ml oral suspension sugar free (Accord Healthcare Ltd)
+^ESCT1305280	Flarin 200mg capsules (infirst Ltd)
+^ESCT1381429	Ibuprofen-containing product in oral dose form
+^ESCT1381527	Ketorolac-containing product in oral dose form
+^ESCT1381627	Ibuprofen 50 mg chewable tablet
+^ESCT1381628	Ibuprofen 100 mg chewable tablet
+^ESCT1381629	Ibuprofen 40 mg/mL oral suspension
+^ESCT1381992	Flurbiprofen-containing product in ocular dose form
+^ESCT1382345	Ibuprofen- and menthol-containing product
+^ESCT1382523	Lansoprazole- and naproxen-containing product
+^ESCT1382591	Naproxen- and pseudoephedrine-containing product
+^ESCT1382886	Acemetacin-containing product in oral dose form
+^ESCT1382887	Azapropazone-containing product in oral dose form
+^ESCT1382888	Apazone-containing product in oral dose form
+^ESCT1382889	Benorilate-containing product in oral dose form
+^ESCT1382890	Celecoxib-containing product in oral dose form
+^ESCT1382891	Etoricoxib-containing product in oral dose form
+^ESCT1382892	Meloxicam-containing product in oral dose form
+^ESCT1382893	Nabumetone-containing product in oral dose form
+^ESCT1382894	Rofecoxib-containing product in oral dose form
+^ESCT1382895	Valdecoxib-containing product in oral dose form
+^ESCT1382896	Dexketoprofen-containing product in oral dose form
+^ESCT1382897	Etodolac-containing product in oral dose form
+^ESCT1382898	Fenbufen-containing product in oral dose form
+^ESCT1382899	Fenoprofen-containing product in oral dose form
+^ESCT1382900	Flurbiprofen-containing product in oral dose form
+^ESCT1382901	Indometacin-containing product in oral dose form
+^ESCT1382902	Indomethacin-containing product in oral dose form
+^ESCT1382903	Ketoprofen-containing product in oral dose form
+^ESCT1382904	Lornoxicam-containing product in oral dose form
+^ESCT1382905	Mefenamic acid-containing product in oral dose form
+^ESCT1383084	Chlorphenamine- and ibuprofen- and pseudoephedrine-containing product
+^ESCT1383085	Chlorpheniramine- and ibuprofen- and pseudoephedrine-containing product
+^ESCT1383107	Ibuprofen- and oxycodone-containing product
+^ESCT1383316	Diphenhydramine- and ibuprofen-containing product
+^ESCT1383350	Ibuprofen-containing product in parenteral dose form
+^ESCT1383433	Indometacin-containing product in rectal dose form
+^ESCT1383434	Indomethacin-containing product in rectal dose form
+^ESCT1383443	Indometacin-containing product in parenteral dose form
+^ESCT1383444	Indomethacin-containing product in parenteral dose form
+^ESCT1383536	Meloxicam-containing product in rectal dose form
+^ESCT1384027	Naproxen-containing product in rectal dose form
+^ESCT1384056	Naproxen-containing product in oral dose form
+^ESCT1384080	Piroxicam-containing product in oral dose form
+^ESCT1385214	Ketorolac- and phenylephrine-containing product
+^ESCT1386103	Phenylbutazone-containing product in oral dose form
+^ESCT1386113	Tiaprofenic acid-containing product in oral dose form
+^ESCT1386120	Flurbiprofen-containing product in oromucosal dose form
+^ESCT1386121	Flurbiprofen-containing product in rectal dose form
+^ESCT1386127	Codeine- and ibuprofen-containing product in oral dose form
+^ESCT1386257	Diflunisal-containing product in oral dose form
+^ESCT1386391	Diphenhydramine- and ibuprofen-containing product in oral dose form
+^ESCT1386400	Dexibuprofen-containing product in oral dose form
+^ESCT1386462	Tenoxicam-containing product in oral dose form
+^ESCT1386625	Naproxen- and sumatriptan-containing product
+^ESCT1386626	Naproxen- and sumatriptan-containing product in oral dose form
+^ESCT1386652	Hydrocodone- and ibuprofen-containing product
+^ESCT1386653	Hydrocodone- and ibuprofen-containing product in oral dose form
+^ESCT1386779	Esomeprazole- and naproxen-containing product
+^ESCT1386780	Esomeprazole- and naproxen-containing product in oral dose form
+^ESCT1386876	Ibuprofen- and pseudoephedrine-containing product in oral dose form
+^ESCT1386877	Ibuprofen- and oxycodone-containing product in oral dose form
+^ESCT1386915	Tolmetin-containing product in oral dose form
+^ESCT1386917	Tolfenamic acid-containing product in oral dose form
+^ESCT1389158	Celecoxib 100mg capsules (Accord Healthcare Ltd)
+^ESCT1389160	Celecoxib 200mg capsules (Accord Healthcare Ltd)
+^ESCT1402091	Diclofenac sodium 75mg modified-release tablets
+^ESCT1402095	Indometacin 25mg modified-release capsules
+^ESCT1402841	Ibuprofen 100mg/5ml oral suspension sugar free
+^ESCT1402857	Etodolac 600mg modified-release tablets
+^ESCT1402863	Ibuprofen 800mg modified-release tablets
+^ESCT1409471	Indometacin 25mg capsules (Accord Healthcare Ltd)
+^ESCT1409472	Naproxen 500mg gastro-resistant tablets (Accord Healthcare Ltd)
+^ESCT1409502	Indometacin 50mg capsules (Accord Healthcare Ltd)
+^ESCT1409537	Indocid R 75mg capsules (Organon Pharma (UK) Ltd)
+^ESCT1409548	Valdic 75 Retard tablets (Fannin (UK) Ltd)
+^ESCT1409563	Indocid 25mg capsules (Organon Pharma (UK) Ltd)
+^ESCT1409582	Hedex Ibuprofen 200mg caplets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1409603	Valdic 100 Retard tablets (Fannin (UK) Ltd)
+^ESCT1409611	Piroxicam 10mg capsules (Accord Healthcare Ltd)
+^ESCT1409681	Indocid 50mg capsules (Organon Pharma (UK) Ltd)
+^ESCT1409686	Anadin Ibuprofen 200mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1409697	Piroxicam 20mg capsules (Accord Healthcare Ltd)
+^ESCT1409707	Naproxen 375mg gastro-resistant tablets (Accord Healthcare Ltd)
+^ESCT1410021	Vioxx 12.5mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410023	Vioxx 25mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410025	VioxxAcute 25mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410027	VioxxAcute 50mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410029	Vioxx 12.5mg/5ml oral suspension (Organon Pharma (UK) Ltd)
+^ESCT1410031	Vioxx 25mg/5ml oral suspension (Organon Pharma (UK) Ltd)
+^ESCT1410130	Arcoxia 60mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410132	Arcoxia 90mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410134	Arcoxia 120mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410149	Dolobid 250mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410151	Clinoril 100mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410153	Dolobid 500mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410155	Clinoril 200mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410206	Solpaflex tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410209	Anadin Ultra 200mg capsules (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410363	Indocid 5mg/ml oral suspension (Organon Pharma (UK) Ltd)
+^ESCT1410887	Anadin Joint Pain 200mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410892	Arcoxia 30mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1411292	Ibuprofen 200mg tablets (Fannin (UK) Ltd)
+^ESCT1411294	Ibuprofen 400mg tablets (Fannin (UK) Ltd)
+^ESCT1411296	Ibuprofen 600mg tablets (Fannin (UK) Ltd)
+^ESCT1411306	Nabumetone 500mg tablets (Fannin (UK) Ltd)
+^ESCT1411323	Vimovo 500mg/20mg modified-release tablets (Grunenthal Ltd)
+^ESCT1411600	Meloxicam 15mg orodispersible tablets sugar free (Fontus Health Ltd)
+^ESCT1411603	Meloxicam 7.5mg orodispersible tablets sugar free (Fontus Health Ltd)
+^ESCT1421665	Mefenamic acid 500mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421670	Mefenamic acid 250mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1421980	Ibuprofen 200mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422171	Meloxicam 7.5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422173	Meloxicam 15mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422231	Ibuprofen 400mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422233	Ibuprofen 600mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422488	Etodolac 600mg modified-release tablets (Zentiva Pharma UK Ltd)
+^ESCT1422676	Celecoxib 100mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422678	Celecoxib 200mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1424753	Dexketoprofen 25mg tablets
+^ESCT1424765	Fenoprofen 300mg tablets
+^ESCT1424779	Ibuprofen 200mg / Pseudoephedrine hydrochloride 30mg tablets
+^ESCT1424811	Ketorolac 10mg tablets
+^ESCT1424942	Diclofenac 50mg dispersible tablets sugar free
+^ESCT1425036	Nabumetone 500mg dispersible tablets sugar free
+^ESCT1425053	Piroxicam 10mg dispersible tablets
+^ESCT1425055	Piroxicam 20mg dispersible tablets
+^ESCT1425496	Ibuprofen 600mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425539	Piroxicam 20mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425562	Mefenamic acid 500mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425566	Ibuprofen 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425569	Nabumetone 500mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425607	Naproxen 500mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1425619	Flurbiprofen 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425639	Ketoprofen 50mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425646	Naproxen 500mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425655	Fenbufen 450mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425669	Ibuprofen 400mg tablets sugar coated (Kent Pharma (UK) Ltd)
+^ESCT1425671	Fenbufen 300mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425701	Ibuprofen 400mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425774	Ketoprofen 200mg modified-release capsules (Kent Pharma (UK) Ltd)
+^ESCT1425783	Piroxicam 10mg dispersible tablets (Kent Pharma (UK) Ltd)
+^ESCT1425808	Flurbiprofen 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425809	Piroxicam 10mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425817	Indometacin 50mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425819	Tenoxicam 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425828	Mefenamic acid 250mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425829	Indometacin 25mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425833	Naproxen 250mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425835	Ketoprofen 100mg modified-release capsules (Kent Pharma (UK) Ltd)
+^ESCT1425863	Diclofenac sodium 25mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1425874	Naproxen 375mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1425882	Indometacin 75mg modified-release capsules (Kent Pharma (UK) Ltd)
+^ESCT1425893	Piroxicam 20mg dispersible tablets (Kent Pharma (UK) Ltd)
+^ESCT1425913	Benorilate 750mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426596	Ibuprofen 100mg/5ml oral suspension sugar free (Kent Pharma (UK) Ltd)
+^ESCT1426629	Sulindac 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426631	Sulindac 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426691	Benorilate 2g/5ml oral suspension sugar free (Kent Pharma (UK) Ltd)
+^ESCT1426755	Naproxen 250mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1426796	Ibuprofen 200mg tablets sugar coated (Kent Pharma (UK) Ltd)
+^ESCT1426864	Dicloflex 75mg SR tablets (Kent Pharma (UK) Ltd)
+^ESCT1426867	Dicloflex Retard 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427062	Meloxicam 7.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427064	Meloxicam 15mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427222	Ibuprofen 200mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427644	Celecoxib 100mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1430664	Ibuprofen 600mg tablets (Dalkeith Laboratories Ltd)
+^ESCT1436760	Celebrex 100mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436772	Ketoprofen 100mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436789	Piroxicam 20mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436793	Slo-Indo 75mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436795	Ketoprofen 50mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436826	Mobiflex 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436838	Brufen 600mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436854	Brufen 400mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436857	Benorilate 2g/5ml oral suspension sugar free (Viatris UK Healthcare Ltd)
+^ESCT1436860	Piroxicam 20mg dispersible tablets (Viatris UK Healthcare Ltd)
+^ESCT1436862	Piroxicam 10mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436882	Nabumetone 500mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436888	Brufen Retard 800mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436889	Naproxen 500mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+^ESCT1436912	Fenbufen 300mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436916	Brufen 100mg/5ml syrup (Viatris UK Healthcare Ltd)
+^ESCT1436917	Naproxen 500mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436921	Piroxicam 10mg dispersible tablets (Viatris UK Healthcare Ltd)
+^ESCT1436944	Indometacin 50mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436951	Diclofenac sodium 25mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+^ESCT1436970	Fenbufen 450mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436980	Naproxen 250mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436997	Naproxen 250mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+^ESCT1437022	Mefenamic acid 250mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437063	Celebrex 200mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437537	Relifex 500mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437563	Brufen 600mg effervescent granules sachets (Viatris UK Healthcare Ltd)
+^ESCT1437624	Sulindac 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437626	Sulindac 200mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437819	Diclovol 75mg SR tablets (Viatris UK Healthcare Ltd)
+^ESCT1437822	Diclovol Retard 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438011	Meloxicam 7.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438013	Meloxicam 15mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438519	Flurbiprofen 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438521	Flurbiprofen 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438591	Etolyn 600mg modified-release tablets (Viatris UK Healthcare Ltd)
+^ESCT1438666	Celecoxib 100mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438668	Celecoxib 200mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438883	Etoricoxib 30mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438885	Etoricoxib 60mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438887	Etoricoxib 90mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438889	Etoricoxib 120mg tablets (Viatris UK Healthcare Ltd)
+^ESCTAC615224	Acemetacin 60mg capsules
+^ESCTAC615226	Acemetacin 60 mg/1 each oral capsule
+^ESCTAC615240	Aceclofenac
+^ESCTAC682024	Acemetacin in oral dosage form
+^ESCTAC810205	Acoflam 25mg gastro-resistant tablets (Mercury Pharma Group Ltd)
+^ESCTAC819882	Acoflam 75mg SR tablets (Mercury Pharma Group Ltd)
+^ESCTAC824518	Acoflam 100mg Retard tablets (Mercury Pharma Group Ltd)
+^ESCTAD820595	Advil Extra Strength 400mg tablets (Wyeth Consumer Healthcare)
+^ESCTAD911518	Advil 200mg tablets (Wyeth Consumer Healthcare)
+^ESCTAN1020683	Anadin LiquiFast 200mg effervescent tablets (Pfizer Consumer Healthcare Ltd)
+^ESCTAN1109237	Anadin Period Pain Relief 200mg capsules (Pfizer Consumer Healthcare Ltd)
+^ESCTAN820364	Anadin Ibuprofen 200mg tablets (Pfizer Consumer Healthcare Ltd)
+^ESCTAN865570	Anadin Ultra 200mg capsules (Pfizer Consumer Healthcare Ltd)
+^ESCTAN932438	Anadin LiquiFast 400mg capsules (Pfizer Consumer Healthcare Ltd)
+^ESCTAN959193	Anadin Joint Pain 200mg tablets (Pfizer Consumer Healthcare Ltd)
+^ESCTAP614974	Apazone 300 mg/1 each oral capsule
+^ESCTAP614980	Apazone 600 mg oral tablet
+^ESCTAP682029	Apazone in oral dosage form
+^ESCTAR1001861	Arcoxia 30mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAR1002753	Arcoxia 60mg tablets (Necessity Supplies Ltd)
+^ESCTAR1002757	Arcoxia 90mg tablets (Necessity Supplies Ltd)
+^ESCTAR1002762	Arcoxia 120mg tablets (Necessity Supplies Ltd)
+^ESCTAR1011645	Arcoxia 30mg tablets (DE Pharmaceuticals)
+^ESCTAR1023833	Arcoxia 30mg tablets (Lexon (UK) Ltd)
+^ESCTAR1023835	Arcoxia 120mg tablets (Lexon (UK) Ltd)
+^ESCTAR1026122	Arcoxia 30mg tablets (Waymade Healthcare Plc)
+^ESCTAR805032	Arthrosin 500 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAR807396	Arthrosin EC 500 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAR812981	Arthrofen 200 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAR814603	Arthrofen 600 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAR820534	Arthrosin 250 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAR833151	Arthrosin EC 250 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAR833871	Arthrofen 400 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAR859711	Arthrotec 50 gastro-resistant tablets (Pfizer Ltd)
+^ESCTAR859726	Arthrotec 75 gastro-resistant tablets (Pfizer Ltd)
+^ESCTAR861698	Arcoxia 60mg tablets (Grunenthal Ltd)
+^ESCTAR861705	Arcoxia 90mg tablets (Grunenthal Ltd)
+^ESCTAR861717	Arcoxia 120mg tablets (Grunenthal Ltd)
+^ESCTAR940742	Arcoxia 60mg tablets (Waymade Healthcare Plc)
+^ESCTAR940745	Arcoxia 90mg tablets (Waymade Healthcare Plc)
+^ESCTAR942855	Arcoxia 120mg tablets (Waymade Healthcare Plc)
+^ESCTAR959177	Arcoxia 60mg tablets (Dowelhurst Ltd)
+^ESCTAR959182	Arcoxia 90mg tablets (Dowelhurst Ltd)
+^ESCTAR959398	Arcoxia 30mg tablets (Grunenthal Ltd)
+^ESCTAR966214	Arcoxia 60mg tablets (DE Pharmaceuticals)
+^ESCTAR966216	Arcoxia 90mg tablets (DE Pharmaceuticals)
+^ESCTAR966218	Arcoxia 120mg tablets (DE Pharmaceuticals)
+^ESCTAR969777	Arcoxia 60mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAR969782	Arcoxia 90mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAR988705	Arcoxia 60mg tablets (Lexon (UK) Ltd)
+^ESCTAR988707	Arcoxia 90mg tablets (Lexon (UK) Ltd)
+^ESCTAR990108	Arcoxia 60mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAR990113	Arcoxia 90mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAR990118	Arcoxia 120mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAX988726	Axorid 200mg/20mg modified-release capsules (Meda Pharmaceuticals Ltd)
+^ESCTAX988797	Axorid 100mg/20mg modified-release capsules (Meda Pharmaceuticals Ltd)
+^ESCTAZ614971	Azapropazone 300mg capsules
+^ESCTAZ614975	Azapropazone 300 mg/1 each oral capsule
+^ESCTAZ614976	Azapropazone 600mg tablets
+^ESCTAZ614979	Azapropazone 600 mg oral tablet
+^ESCTAZ682028	Azapropazone in oral dosage form
+^ESCTBE614955	Benorilate 750mg tablets
+^ESCTBE614957	Benorylate 750 mg oral tablet
+^ESCTBE614958	Benorilate 2g granules sachets sugar free
+^ESCTBE614959	Benorilate 2g/sachet granules
+^ESCTBE614960	Benorylate 2g/sachet granules
+^ESCTBE682031	Benorylate in oral dosage form
+^ESCTBE803613	Benoral 750mg tablets (Sanofi-Synthelabo Ltd)
+^ESCTBE808208	Benorilate 2g/5ml oral suspension sugar free (Mylan Ltd)
+^ESCTBE810053	Benorilate 2g/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTBE819841	Benorilate 750mg tablets (Sterwin Medicines)
+^ESCTBE820555	Benorilate 2g/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTBE821400	Benoral 2g/5ml oral suspension (Sanofi-Synthelabo Ltd)
+^ESCTBE822917	Benorilate 2g/5ml oral suspension sugar free (Sterwin Medicines)
+^ESCTBE824140	Benorilate 750mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTBE830157	Berlind 75 Retard capsules (Tillomed Laboratories Ltd)
+^ESCTBE833441	Benorilate 750mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTBE865521	Benoral 2g granules sachets (Sanofi-Synthelabo Ltd)
+^ESCTBE870313	Bextra 10mg tablets (Pfizer Ltd)
+^ESCTBE870317	Bextra 20mg tablets (Pfizer Ltd)
+^ESCTBE870324	Bextra 40mg tablets (Pfizer Ltd)
+^ESCTBE871086	Benorilate 2g/5ml oral suspension sugar free (Kent Pharmaceuticals Ltd)
+^ESCTBO1006519	Boots Rapid Ibuprofen lysine 342mg tablets (The Boots Company Plc)
+^ESCTBO1014203	Boots Ibuprofen 6 Months Plus 100mg/5ml oral suspension strawberry (The Boots Company Plc)
+^ESCTBO1128372	Boots Ibuprofen 3 Months Plus 100mg/5ml oral suspension strawberry (The Boots Company Plc)
+^ESCTBO1128379	Boots Ibuprofen and Codeine 200mg/12.8mg tablets (The Boots Company Plc)
+^ESCTBO1128384	Boots Ibuprofen Long Lasting 200mg capsules (The Boots Company Plc)
+^ESCTBO1128487	Boots Period Pain Relief 250mg gastro-resistant tablets (The Boots Company Plc)
+^ESCTBO909561	Boots Cold and Flu Relief with Ibuprofen tablets (The Boots Company Plc)
+^ESCTBR1002246	Brufen 100mg/5ml syrup (Sigma Pharmaceuticals Plc)
+^ESCTBR1003013	Brufen 600mg effervescent granules sachets (Necessity Supplies Ltd)
+^ESCTBR1008367	Brufen 600mg effervescent granules sachets (Mawdsley-Brooks & Company Ltd)
+^ESCTBR1011665	Brufen 600mg effervescent granules sachets (DE Pharmaceuticals)
+^ESCTBR1011667	Brufen 100mg/5ml syrup (DE Pharmaceuticals)
+^ESCTBR1022630	Brufen 100mg/5ml syrup (Mawdsley-Brooks & Company Ltd)
+^ESCTBR1023848	Brufen 100mg/5ml syrup (Lexon (UK) Ltd)
+^ESCTBR1118775	Brufen 600mg effervescent granules sachets (Lexon (UK) Ltd)
+^ESCTBR1118777	Brufen Retard 800mg tablets (Lexon (UK) Ltd)
+^ESCTBR1121397	Brufen 100mg/5ml syrup (Waymade Healthcare Plc)
+^ESCTBR1121399	Brufen 600mg effervescent granules sachets (Waymade Healthcare Plc)
+^ESCTBR800500	Brexidol 20mg tablets (Chiesi Ltd)
+^ESCTBR807190	Brufen 600mg tablets (Mylan Ltd)
+^ESCTBR808150	Brufen 400mg tablets (Mylan Ltd)
+^ESCTBR811938	Brufen Retard 800mg tablets (Mylan Ltd)
+^ESCTBR816570	Brufen 100mg/5ml syrup (Mylan Ltd)
+^ESCTBR820692	Brufen 200mg tablets (Abbott Laboratories Ltd)
+^ESCTBR860344	Brufen 600mg effervescent granules sachets (Mylan Ltd)
+^ESCTBR878822	Brufen Retard 800mg tablets (Waymade Healthcare Plc)
+^ESCTBR879167	Brufen Retard 800mg tablets (Dowelhurst Ltd)
+^ESCTBR929828	Brexidol 20mg tablets (Waymade Healthcare Plc)
+^ESCTBR966292	Brexidol 20mg tablets (DE Pharmaceuticals)
+^ESCTBR970661	Brexidol 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBR988748	Brexidol 20mg tablets (Lexon (UK) Ltd)
+^ESCTBR990990	Brexidol 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTBU871792	Butacote 100mg gastro-resistant tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTCA1115938	Care Ibuprofen for Children 100mg/5ml oral suspension (Thornton & Ross Ltd)
+^ESCTCA871151	Calprofen 100mg/5ml oral suspension (McNeil Products Ltd)
+^ESCTCA899032	Calprofen 100mg/5ml oral suspension paediatric (McNeil Products Ltd)
+^ESCTCA942744	Calprofen 100mg/5ml oral suspension 5ml sachets (McNeil Products Ltd)
+^ESCTCE1003103	Celebrex 100mg capsules (Necessity Supplies Ltd)
+^ESCTCE1003107	Celebrex 200mg capsules (Necessity Supplies Ltd)
+^ESCTCE1009311	Celebrex 100mg capsules (Stephar (U.K.) Ltd)
+^ESCTCE1100359	Celecoxib 200mg capsules (Teva UK Ltd)
+^ESCTCE1100361	Celecoxib 100mg capsules (Teva UK Ltd)
+^ESCTCE1100456	Celecoxib 100mg capsules (Pfizer Ltd)
+^ESCTCE1100458	Celecoxib 200mg capsules (Pfizer Ltd)
+^ESCTCE1100720	Celecoxib 100mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCE1100722	Celecoxib 200mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCE1103157	Celecoxib 100mg capsules (Zentiva)
+^ESCTCE1103159	Celecoxib 200mg capsules (Zentiva)
+^ESCTCE1103992	Celecoxib 100mg capsules (Actavis UK Ltd)
+^ESCTCE1103994	Celecoxib 200mg capsules (Actavis UK Ltd)
+^ESCTCE1103996	Celecoxib 100mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCE1103998	Celecoxib 200mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCE1116991	Celecoxib 200mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCE1116995	Celecoxib 100mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCE1119051	Celecoxib 100mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCE1119053	Celecoxib 200mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCE1120141	Celecoxib 100mg capsules (DE Pharmaceuticals)
+^ESCTCE1120143	Celecoxib 200mg capsules (DE Pharmaceuticals)
+^ESCTCE1141768	Celecoxib 100mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTCE1142685	Celecoxib 100mg capsules (Brown & Burk UK Ltd)
+^ESCTCE1142687	Celecoxib 200mg capsules (Brown & Burk UK Ltd)
+^ESCTCE1152865	Celecoxib 100mg capsules (Mylan Ltd)
+^ESCTCE1152867	Celecoxib 200mg capsules (Mylan Ltd)
+^ESCTCE1162034	Celecoxib 200mg capsules (Milpharm Ltd)
+^ESCTCE615411	Celecoxib 200mg capsules
+^ESCTCE615412	Celecoxib 200 mg/1 each oral capsule
+^ESCTCE615414	Celecoxib 100mg capsules
+^ESCTCE615415	Celecoxib 100 mg/1 each oral capsule
+^ESCTCE682033	Celecoxib in oral dosage form
+^ESCTCE704451	Celecoxib 50 mg/1 each oral capsule
+^ESCTCE704801	Celecoxib 400mg capsules
+^ESCTCE704802	Celecoxib 400 mg/1 each oral capsule
+^ESCTCE800651	Celebrex 100mg capsules (Pfizer Ltd)
+^ESCTCE830646	Celebrex 200mg capsules (Pfizer Ltd)
+^ESCTCE877674	Celebrex 200mg capsules (Waymade Healthcare Plc)
+^ESCTCE879209	Celebrex 200mg capsules (Dowelhurst Ltd)
+^ESCTCE879219	Celebrex 100mg capsules (Dowelhurst Ltd)
+^ESCTCE929883	Celebrex 100mg capsules (Waymade Healthcare Plc)
+^ESCTCE966388	Celebrex 100mg capsules (DE Pharmaceuticals)
+^ESCTCE966391	Celebrex 200mg capsules (DE Pharmaceuticals)
+^ESCTCE972693	Celebrex 100mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCE972697	Celebrex 200mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCE988790	Celebrex 200mg capsules (Lexon (UK) Ltd)
+^ESCTCE992132	Celebrex 100mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCE992136	Celebrex 200mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCH684752	Chlorpheniramine + ibuprofen + pseudoephedrine
+^ESCTCL818881	Closteril 100 modified-release tablets (Pharmalife Healthcare Services Ltd)
+^ESCTCL863315	Clotam Rapid 200mg tablets (Galen Ltd)
+^ESCTCL863324	Clinoril 100mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTCL863342	Clinoril 200mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTCO1152636	Combogesic 500mg/150mg tablets (Thornton & Ross Ltd)
+^ESCTCO861808	Codafen Continus tablets (Napp Pharmaceuticals Ltd)
+^ESCTCU820507	Cuprofen Maximum Strength 400mg tablets (SSL International Plc)
+^ESCTCU820668	Cuprofen 200mg tablets (SSL International Plc)
+^ESCTCU903038	Cuprofen PLUS tablets (SSL International Plc)
+^ESCTCU924307	Cuprofen for Children 100mg/5ml oral suspension (SSL International Plc)
+^ESCTDE615258	Dexketoprofen 25mg tablets
+^ESCTDE615260	Dexketoprofen 25 mg oral tablet
+^ESCTDE682045	Dexketoprofen in oral dosage form
+^ESCTDE691994	Dexibuprofen 300mg tablets
+^ESCTDE691996	Dexibuprofen 300 mg oral tablet
+^ESCTDE692807	Dexibuprofen 400mg tablets
+^ESCTDE692809	Dexibuprofen 400 mg oral tablet
+^ESCTDE812189	Defanac 50mg gastro-resistant tablets (Ranbaxy (UK) Ltd)
+^ESCTDE812762	Defanac 25mg gastro-resistant tablets (Ranbaxy (UK) Ltd)
+^ESCTDE816158	Defanac Retard 100mg tablets (Ranbaxy (UK) Ltd)
+^ESCTDE832145	Defanac 75mg SR tablets (Ranbaxy (UK) Ltd)
+^ESCTDE833146	Dexomon 75mg SR tablets (Hillcross Pharmaceuticals Ltd)
+^ESCTDE877795	Dexketoprofen 25mg tablets (Waymade Healthcare Plc)
+^ESCTDI1000649	Diclofenac 10mg dispersible tablets (Special Order)
+^ESCTDI1000747	Diclofenac 10mg dispersible tablets
+^ESCTDI1005636	Diclofenac sodium 25mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1009374	Dicloflex 75mg SR tablets (Actavis UK Ltd)
+^ESCTDI1011898	Diclomax Retard 100mg capsules (DE Pharmaceuticals)
+^ESCTDI1042928	Diclofenac sodium 25mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTDI1060861	Diclofenac sodium 25mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCTDI1104287	Diclofenac 40mg/5ml oral solution (Special Order)
+^ESCTDI1104290	Diclofenac 40mg/5ml oral suspension (Special Order)
+^ESCTDI1104339	Diclofenac 40mg/5ml oral solution
+^ESCTDI1104340	Diclofenac 40mg/5ml oral suspension
+^ESCTDI1162206	Diclofenac sodium 25mg gastro-resistant tablets (Medreich Plc)
+^ESCTDI615016	Diflunisal 250mg tablets
+^ESCTDI615018	Diflunisal 250 mg oral tablet
+^ESCTDI615019	Diflunisal 500mg tablets
+^ESCTDI615021	Diflunisal 500 mg oral tablet
+^ESCTDI695882	Diphenhydramine 25 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCTDI696318	Diphenhydramine + ibuprofen
+^ESCTDI725583	Diphenhydramine 38 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCTDI802391	Diclovol 25mg gastro-resistant tablets (Arun Pharmaceuticals Ltd)
+^ESCTDI803846	Diclovol Retard 100mg tablets (Arun Pharmaceuticals Ltd)
+^ESCTDI805147	Diclomax SR 75mg capsules (Galen Ltd)
+^ESCTDI805166	Diclofenac sodium 25mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTDI805244	Diclofenac sodium 25mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTDI805358	Dicloflex Retard 100mg tablets (Dexcel-Pharma Ltd)
+^ESCTDI805407	Diclotard 75mg modified-release tablets (Galen Ltd)
+^ESCTDI807032	Diclozip 50mg gastro-resistant tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTDI807052	Dicloflex 75mg SR tablets (Dexcel-Pharma Ltd)
+^ESCTDI808191	Diclofenac sodium 25mg gastro-resistant tablets (Sterwin Medicines)
+^ESCTDI808215	Diclofenac sodium 25mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI808602	Diclovol 75mg SR tablets (Arun Pharmaceuticals Ltd)
+^ESCTDI810537	Diclofenac sodium 25mg gastro-resistant tablets (Pfizer Ltd)
+^ESCTDI810675	Diclozip 25mg gastro-resistant tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTDI811258	Diclomax Retard 100mg capsules (Galen Ltd)
+^ESCTDI814094	Diclovol 50mg gastro-resistant tablets (Arun Pharmaceuticals Ltd)
+^ESCTDI819799	Diclofenac sodium 25mg gastro-resistant tablets (Sandoz Ltd)
+^ESCTDI819833	Diclofenac sodium 25mg gastro-resistant tablets (Mylan Ltd)
+^ESCTDI819983	Diclofenac sodium 25mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI820104	Dicloflex 25mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+^ESCTDI822081	Dicloflex 50mg gastro-resistant tablets (Dexcel-Pharma Ltd)
+^ESCTDI824330	Diclofenac sodium 25mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTDI827587	Diclofenac sodium 25mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI900876	Dicloflex 75mg SR tablets (Teva UK Ltd)
+^ESCTDI900880	Dicloflex Retard 100mg tablets (Teva UK Ltd)
+^ESCTDI900882	Diclovol 75mg SR tablets (Mylan Ltd)
+^ESCTDI900885	Diclovol Retard 100mg tablets (Mylan Ltd)
+^ESCTDI900887	Dicloflex 75mg SR tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI900890	Dicloflex Retard 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI906259	Diclofenac 10mg/5ml oral solution (Special Order)
+^ESCTDI906262	Diclofenac 10mg/5ml oral suspension (Special Order)
+^ESCTDI906272	Diclofenac 25mg/5ml oral solution (Special Order)
+^ESCTDI906273	Diclofenac 15mg/5ml oral solution (Special Order)
+^ESCTDI906277	Diclofenac 25mg/5ml oral suspension (Special Order)
+^ESCTDI906280	Diclofenac 15mg/5ml oral suspension (Special Order)
+^ESCTDI906426	Diclofenac 10mg/5ml oral solution
+^ESCTDI906427	Diclofenac 10mg/5ml oral suspension
+^ESCTDI906428	Diclofenac 15mg/5ml oral solution
+^ESCTDI906429	Diclofenac 15mg/5ml oral suspension
+^ESCTDI906430	Diclofenac 25mg/5ml oral solution
+^ESCTDI906431	Diclofenac 25mg/5ml oral suspension
+^ESCTDI928948	Diclofenac sodium 25mg gastro-resistant tablets (Arrow Generics Ltd)
+^ESCTDI930161	Diclofenac sodium 100mg modified-release capsules (Waymade Healthcare Plc)
+^ESCTDI930165	Diclofenac sodium 75mg modified-release capsules (Waymade Healthcare Plc)
+^ESCTDI930784	Dicloflex 25mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTDI931665	Dicloflex 25mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI931669	Dicloflex 75mg SR tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI931672	Dicloflex Retard 100mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI941279	Diclofenac 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTDI941430	Diclofenac 12.5mg/5ml oral suspension (Special Order)
+^ESCTDI941437	Diclofenac 12.5mg/5ml oral solution (Special Order)
+^ESCTDI941447	Diclofenac 50mg/5ml oral solution (Special Order)
+^ESCTDI941456	Diclofenac 75mg/5ml oral suspension (Special Order)
+^ESCTDI941462	Diclofenac 75mg/5ml oral solution (Special Order)
+^ESCTDI941590	Diclofenac 50mg/5ml oral suspension
+^ESCTDI941612	Diclofenac 12.5mg/5ml oral solution
+^ESCTDI941613	Diclofenac 12.5mg/5ml oral suspension
+^ESCTDI941616	Diclofenac 50mg/5ml oral solution
+^ESCTDI941617	Diclofenac 75mg/5ml oral suspension
+^ESCTDI941624	Diclofenac 75mg/5ml oral solution
+^ESCTDI966555	Diclomax SR 75mg capsules (DE Pharmaceuticals)
+^ESCTDI968454	Diclofenac potassium 12.5mg tablets
+^ESCTDI979725	Diclofenac 100mg/5ml oral solution (Special Order)
+^ESCTDI979728	Diclofenac 100mg/5ml oral suspension (Special Order)
+^ESCTDI979764	Diclofenac 100mg/5ml oral solution
+^ESCTDI979765	Diclofenac 100mg/5ml oral suspension
+^ESCTDI981441	Diclomax Retard 100mg capsules (Waymade Healthcare Plc)
+^ESCTDI981443	Diclomax SR 75mg capsules (Waymade Healthcare Plc)
+^ESCTDI986017	Diflunisal 250mg tablets (Special Order)
+^ESCTDI990036	Diclomax Retard 100mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTDI990039	Diclomax SR 75mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTDO863322	Dolobid 250mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTDO863328	Dolobid 500mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTDO877835	Dolobid 500mg tablets (Waymade Healthcare Plc)
+^ESCTDY805220	Dysman 500 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTDY806867	Dysman 250 capsules (Ashbourne Pharmaceuticals Ltd)
+^ESCTEB866065	Ebretin 200mg capsules (Ranbaxy (UK) Ltd)
+^ESCTEB866070	Ebretin 300mg capsules (Ranbaxy (UK) Ltd)
+^ESCTEC871478	Eccoxolac 300mg capsules (Meda Pharmaceuticals Ltd)
+^ESCTEC880232	Econac SR 75mg tablets (AMCo)
+^ESCTEC880236	Econac XL 100mg tablets (AMCo)
+^ESCTEM820277	Emflex 60mg capsules (Merck Serono Ltd)
+^ESCTEN1003131	Enstar SR 75 tablets (Ennogen Pharma Ltd)
+^ESCTEN1003133	Enstar XL 100 tablets (Ennogen Pharma Ltd)
+^ESCTET1033581	Etodolac 600mg modified-release tablets (Zentiva)
+^ESCTET1043264	Etodolac 600mg modified-release tablets (Waymade Healthcare Plc)
+^ESCTET1061378	Etodolac 600mg modified-release tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTET1119379	Etodolac 600mg modified-release tablets (DE Pharmaceuticals)
+^ESCTET1126599	Etodolac 600mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTET1152515	Etolyn 600mg modified-release tablets (Mylan Ltd)
+^ESCTET1162321	Etoricoxib 30mg tablets (Teva UK Ltd)
+^ESCTET1162323	Etoricoxib 60mg tablets (Teva UK Ltd)
+^ESCTET1162325	Etoricoxib 90mg tablets (Teva UK Ltd)
+^ESCTET1162327	Etoricoxib 120mg tablets (Teva UK Ltd)
+^ESCTET1162339	Etoricoxib 30mg tablets (Aspire Pharma Ltd)
+^ESCTET1162341	Etoricoxib 60mg tablets (Aspire Pharma Ltd)
+^ESCTET1162343	Etoricoxib 90mg tablets (Aspire Pharma Ltd)
+^ESCTET1162345	Etoricoxib 120mg tablets (Aspire Pharma Ltd)
+^ESCTET1162372	Etoricoxib 30mg tablets (Accord Healthcare Ltd)
+^ESCTET1162374	Etoricoxib 60mg tablets (Accord Healthcare Ltd)
+^ESCTET1162376	Etoricoxib 90mg tablets (Accord Healthcare Ltd)
+^ESCTET1162377	Etoricoxib 120mg tablets (Accord Healthcare Ltd)
+^ESCTET1162984	Etoricoxib 30mg tablets (Mylan Ltd)
+^ESCTET1162986	Etoricoxib 60mg tablets (Mylan Ltd)
+^ESCTET1162988	Etoricoxib 90mg tablets (Mylan Ltd)
+^ESCTET1162990	Etoricoxib 120mg tablets (Mylan Ltd)
+^ESCTET1163048	Etoricoxib 30mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTET1163050	Etoricoxib 60mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTET1163052	Etoricoxib 90mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTET1163054	Etoricoxib 120mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTET1163098	Etoricoxib 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTET1163100	Etoricoxib 60mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTET1163102	Etoricoxib 90mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTET1163104	Etoricoxib 120mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTET615022	Etodolac 200mg capsules
+^ESCTET615023	Etodolac 200 mg/1 each oral capsule
+^ESCTET615025	Etodolac 300mg capsules
+^ESCTET615026	Etodolac 300 mg/1 each oral capsule
+^ESCTET639863	Etodolac 400 mg oral tablet
+^ESCTET639865	Etodolac 500 mg oral tablet
+^ESCTET675456	Etoricoxib 60mg tablets
+^ESCTET675458	Etoricoxib 60 mg oral tablet
+^ESCTET675459	Etoricoxib 90mg tablets
+^ESCTET675461	Etoricoxib 90 mg oral tablet
+^ESCTET675462	Etoricoxib 120mg tablets
+^ESCTET675464	Etoricoxib 120 mg oral tablet
+^ESCTET682035	Etoricoxib in oral dosage form
+^ESCTET682047	Etodolac in oral dosage form
+^ESCTET934283	Etopan XL 600mg tablets (Ranbaxy (UK) Ltd)
+^ESCTET936671	Etodolac 600mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTET959496	Etoricoxib 30mg tablets
+^ESCTFE1002291	Feminax Express 342mg tablets (Bayer Plc)
+^ESCTFE1009028	Feldene Melt 20mg tablets (Necessity Supplies Ltd)
+^ESCTFE1011941	Feldene Melt 20mg tablets (DE Pharmaceuticals)
+^ESCTFE1024529	Feldene Melt 20mg tablets (Lexon (UK) Ltd)
+^ESCTFE615033	Fenbufen 300mg capsules
+^ESCTFE615035	Fenbufen 300 mg/1 each oral capsule
+^ESCTFE615036	Fenbufen 300mg tablets
+^ESCTFE615038	Fenbufen 300 mg oral tablet
+^ESCTFE615040	Fenbufen 450mg tablets
+^ESCTFE615042	Fenbufen 450 mg oral tablet
+^ESCTFE615043	Fenoprofen 300mg tablets
+^ESCTFE615045	Fenoprofen 300 mg oral tablet
+^ESCTFE615046	Fenoprofen 600mg tablets
+^ESCTFE615048	Fenoprofen 600 mg oral tablet
+^ESCTFE633839	Fenbufen 200 mg/1 each oral capsule
+^ESCTFE633841	Fenbufen 600 mg oral tablet
+^ESCTFE639420	Fenoprofen calcium 200 mg/1 each oral capsule
+^ESCTFE650955	Fenoprofen calcium 300 mg/1 each oral capsule
+^ESCTFE682049	Fenbufen in oral dosage form
+^ESCTFE682051	Fenoprofen in oral dosage form
+^ESCTFE801429	Fenbufen 300mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTFE802737	Feldene 20 capsules (Pfizer Ltd)
+^ESCTFE803109	Fenoket 200mg modified-release capsules (Opus Pharmaceuticals Ltd)
+^ESCTFE803934	Feldene 20mg dispersible tablets (Pfizer Ltd)
+^ESCTFE804631	Fenbufen 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFE804694	Fenbufen 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFE805372	Feldene Melt 20mg tablets (Pfizer Ltd)
+^ESCTFE806723	Fenbufen 450mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFE806734	Fenactol SR 75mg tablets (Discovery Pharmaceuticals)
+^ESCTFE807362	Feldene 10mg capsules (Pfizer Ltd)
+^ESCTFE808067	Fenactol 25mg gastro-resistant tablets (Discovery Pharmaceuticals)
+^ESCTFE811452	Fenactol 50mg gastro-resistant tablets (Discovery Pharmaceuticals)
+^ESCTFE813520	Fenbufen 450mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFE814994	Fenbufen 300mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFE815563	Fenbufen 300mg tablets (Mylan Ltd)
+^ESCTFE816698	Fenbufen 450mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTFE818174	Feldene 10mg dispersible tablets (Pfizer Ltd)
+^ESCTFE820315	Fenbufen 450mg tablets (Mylan Ltd)
+^ESCTFE820465	Fenbufen 450mg tablets (Sterwin Medicines)
+^ESCTFE820801	Fenactol Retard 100mg tablets (Discovery Pharmaceuticals)
+^ESCTFE823334	Fenbufen 450mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFE824762	Fenbufen 450mg tablets (Actavis UK Ltd)
+^ESCTFE828325	Fenbufen 300mg tablets (Sterwin Medicines)
+^ESCTFE830104	Fenbufen 300mg capsules (Genus Pharmaceuticals Ltd)
+^ESCTFE831495	Fenbufen 300mg tablets (Actavis UK Ltd)
+^ESCTFE833010	Fenbufen 300mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTFE833790	Fenbufen 300mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFE834146	Fenbufen 300mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTFE859704	Fenbid 300mg Spansules (Mercury Pharma Group Ltd)
+^ESCTFE863413	Fenopron 300 tablets (Typharm Ltd)
+^ESCTFE863422	Fenopron 600 tablets (Typharm Ltd)
+^ESCTFE870715	Fenpaed 100mg/5ml oral suspension (Pinewood Healthcare)
+^ESCTFE871525	Feverfen 100mg/5ml oral suspension (Wise Pharmaceuticals Ltd)
+^ESCTFE903143	Fenpaed 100mg/5ml oral suspension 5ml sachets (Pinewood Healthcare)
+^ESCTFE951075	Feldene Melt 20mg tablets (Waymade Healthcare Plc)
+^ESCTFE963827	Fenbufen 450mg tablets (DE Pharmaceuticals)
+^ESCTFE970122	Feldene Melt 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTFE982301	Feminax Ultra 250mg gastro-resistant tablets (Bayer Plc)
+^ESCTFE993343	Feldene Melt 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTFI1012475	First Resort Double Action Pain Relief 12.5mg tablets (Actavis UK Ltd)
+^ESCTFI1012506	First Resort Period Pain Reliever 250mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTFL1005813	Flurbiprofen 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTFL1005815	Flurbiprofen 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTFL1043620	Flurbiprofen 100mg tablets (Waymade Healthcare Plc)
+^ESCTFL1067946	Flurbiprofen 50mg tablets (Mylan Ltd)
+^ESCTFL1067948	Flurbiprofen 100mg tablets (Mylan Ltd)
+^ESCTFL615051	Flurbiprofen 50mg tablets
+^ESCTFL615053	Flurbiprofen 50 mg oral tablet
+^ESCTFL615054	Flurbiprofen 100mg tablets
+^ESCTFL615056	Flurbiprofen 100 mg oral tablet
+^ESCTFL682053	Flurbiprofen in oral dosage form
+^ESCTFL799808	Flamatak MR 75mg tablets (Actavis UK Ltd)
+^ESCTFL801789	Flamrase 75mg SR tablets (Teva UK Ltd)
+^ESCTFL802832	Flurbiprofen 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFL809864	Flexin-75 Continus tablets (Napp Pharmaceuticals Ltd)
+^ESCTFL810376	Flurbiprofen 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFL811638	Flurbiprofen 100mg tablets (Actavis UK Ltd)
+^ESCTFL814287	Flurbiprofen 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL818470	Flurbiprofen 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFL819188	Flurbiprofen 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL820163	Flurbiprofen 50mg tablets (Sandoz Ltd)
+^ESCTFL820370	Flamrase 25 EC tablets (Teva UK Ltd)
+^ESCTFL820812	Flexotard MR 100mg tablets (Pfizer Ltd)
+^ESCTFL820819	Flamatak MR 100mg tablets (Actavis UK Ltd)
+^ESCTFL821166	Flurbiprofen 100mg tablets (Sandoz Ltd)
+^ESCTFL822868	Flurbiprofen 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFL823600	Flamrase SR 100mg tablets (Teva UK Ltd)
+^ESCTFL827273	Flurbiprofen 50mg tablets (Actavis UK Ltd)
+^ESCTFL857728	Flexin-25 Continus tablets (Napp Pharmaceuticals Ltd)
+^ESCTFL857730	Flexin-50 Continus tablets (Napp Pharmaceuticals Ltd)
+^ESCTFL873048	Flurbiprofen 50mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTFL873050	Flurbiprofen 100mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTFR801380	Froben SR 200mg capsules (Abbott Laboratories Ltd)
+^ESCTFR819859	Froben 100mg tablets (Abbott Laboratories Ltd)
+^ESCTFR823643	Froben 50mg tablets (Abbott Laboratories Ltd)
+^ESCTFR877887	Froben SR 200mg capsules (Waymade Healthcare Plc)
+^ESCTFR879360	Froben SR 200mg capsules (Dowelhurst Ltd)
+^ESCTGA1000144	Galpharm Migraine Relief 200mg capsules (Galpharm International Ltd)
+^ESCTGA1000151	Galpharm Period Pain Relief 250mg gastro-resistant tablets (Galpharm International Ltd)
+^ESCTGA801480	Galprofen 100mg/5ml oral suspension (Galpharm International Ltd)
+^ESCTGA808111	Galprofen Cold and Flu 200mg tablets (Galpharm International Ltd)
+^ESCTGA818219	Galprofen 200mg tablets (Galpharm International Ltd)
+^ESCTGA866230	Galprofen Long Lasting 200mg capsules (Galpharm International Ltd)
+^ESCTGA925334	Galpharm Ibuprofen For Children 100mg/5ml oral suspension 5ml sachets (Galpharm International Ltd)
+^ESCTGA937925	Galprofen Migraine Relief 200mg capsules (Galpharm International Ltd)
+^ESCTGA942966	Galpharm Maximum Strength Ibuprofen 400mg liquid capsules (Galpharm International Ltd)
+^ESCTGA964339	Galprofen Long Lasting 300mg capsules (Galpharm International Ltd)
+^ESCTHE810808	Hedex Ibuprofen 200mg caplets (GlaxoSmithKline Consumer Healthcare)
+^ESCTHE997705	Hedex Ibuprofen 200mg tablets (Omega Pharma Ltd)
+^ESCTHY642436	Hydrocodone bitartrate 7.5 mg and ibuprofen 200 mg oral tablet
+^ESCTHY708500	Hydrocodone bitartrate 5 mg and ibuprofen 200 mg oral tablet
+^ESCTHY710257	Hydrocodone bitartrate 10 mg and ibuprofen 200 mg oral tablet
+^ESCTHY710259	Hydrocodone bitartrate 2.5 mg and ibuprofen 200 mg oral tablet
+^ESCTIB1000175	Ibuprofen 200mg capsules (Galpharm International Ltd)
+^ESCTIB1006027	Ibuprofen 200mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTIB1006029	Ibuprofen 400mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTIB1006031	Ibuprofen 600mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTIB1007321	Ibuprofen 200mg tablets (Fannin UK Ltd)
+^ESCTIB1007323	Ibuprofen 400mg tablets (Fannin UK Ltd)
+^ESCTIB1007353	Ibuprofen 600mg tablets (Fannin UK Ltd)
+^ESCTIB1007630	Ibuprofen 100mg/5ml oral suspension sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTIB1011758	Ibuprofen 200mg caplets (Bristol Laboratories Ltd)
+^ESCTIB1011763	Ibuprofen 400mg caplets (Bristol Laboratories Ltd)
+^ESCTIB1020805	Ibuprofen 200mg effervescent tablets
+^ESCTIB1034674	Ibuprofen 600mg tablets (Bristol Laboratories Ltd)
+^ESCTIB1040562	Ibuprofen lysine 400mg oral powder sachets
+^ESCTIB1043925	Ibuprofen 200mg tablets (Waymade Healthcare Plc)
+^ESCTIB1043929	Ibuprofen 400mg tablets (Waymade Healthcare Plc)
+^ESCTIB1044017	Ibuprofen 600mg tablets (Waymade Healthcare Plc)
+^ESCTIB1055377	Ibuprofen 200mg capsules (AM Distributions (Yorkshire) Ltd)
+^ESCTIB1063819	Ibuprofen 100mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCTIB1068032	Ibuprofen 200mg capsules (Colorama Pharmaceuticals Ltd)
+^ESCTIB1092442	Ibuprofen 200mg caplets (Wockhardt UK Ltd)
+^ESCTIB1109666	Ibuprofen 200mg tablets (Crescent Pharma Ltd)
+^ESCTIB1109668	Ibuprofen 400mg tablets (Crescent Pharma Ltd)
+^ESCTIB1117853	Ibuprofen 200mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIB1120856	Ibuprofen 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIB1120861	Ibuprofen 400mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIB1126544	Ibuprofen 100mg/5ml oral suspension sugar free (Actavis UK Ltd)
+^ESCTIB1137828	Ibuprofen 200mg capsules (Ennogen Healthcare Ltd)
+^ESCTIB1141721	Ibuprofen 100mg chewable capsules
+^ESCTIB1142400	Ibuprofen 200mg capsules (Bell,Sons & Co (Druggists) Ltd)
+^ESCTIB615059	Ibuprofen 200mg tablets
+^ESCTIB615061	Ibuprofen 200 mg oral tablet
+^ESCTIB615062	Ibuprofen 400mg tablets
+^ESCTIB615064	Ibuprofen 400 mg oral tablet
+^ESCTIB615065	Ibuprofen 600mg tablets
+^ESCTIB615067	Ibuprofen 600 mg oral tablet
+^ESCTIB615070	Ibuprofen 200 mg and codeine phosphate 12.5 mg oral tablet
+^ESCTIB615079	Ibuprofen 600mg effervescent granules sachets
+^ESCTIB615080	Ibuprofen 600mg/sachet effervescent granules
+^ESCTIB615081	Ibuprofen 200mg / Codeine 12.8mg tablets
+^ESCTIB615083	Ibuprofen 200 mg and codeine phosphate 12.8 mg oral tablet
+^ESCTIB615087	Ibuprofen 800mg tablets
+^ESCTIB615089	Ibuprofen 800 mg oral tablet
+^ESCTIB615090	Ibuprofen 100mg/5ml oral suspension
+^ESCTIB615091	Ibuprofen 100mg/5mL oral suspension
+^ESCTIB615092	Ibuprofen 100mg/5mL syrup
+^ESCTIB619348	Ibuprofen in oral dosage form
+^ESCTIB619350	Ibuprofen in topical dosage form
+^ESCTIB633843	Ibuprofen 100 mg oral tablet
+^ESCTIB633845	Ibuprofen 50mg chewable tablet
+^ESCTIB633846	Ibuprofen 100mg chewable tablet
+^ESCTIB633847	Ibuprofen 200mg capsules
+^ESCTIB633848	Ibuprofen 200 mg/1 each oral capsule
+^ESCTIB633850	Ibuprofen 100mg/2.5mL oral suspension
+^ESCTIB633851	Ibuprofen 40mg/mL oral drops
+^ESCTIB663736	Ibuprofen+menthol
+^ESCTIB675448	Ibuprofen 200mg / Pseudoephedrine hydrochloride 30mg tablets
+^ESCTIB675450	Ibuprofen 200 mg and pseudoephedrine 30 mg oral tablet
+^ESCTIB675451	Ibuprofen 200mg / Pseudoephedrine 30mg tablets
+^ESCTIB675658	Ibuprofen 300 mg and pseudoephedrine 45 mg/1 each oral capsule
+^ESCTIB677334	Ibuprofen+pseudoephedrine 100mg/15mg oral 5mL suspension
+^ESCTIB685833	Ibuprofen + oxycodone
+^ESCTIB685835	Ibuprofen 400 mg and oxycodone 5 mg oral tablet
+^ESCTIB696171	Ibuprofen 200 mg and pseudoephedrine 30 mg/1 each oral capsule
+^ESCTIB697902	Ibuprofen in parenteral dosage form
+^ESCTIB721511	Ibuprofen 50mg/1.25mL oral suspension
+^ESCTIB796891	Ibuprofen 400mg tablets (Teva UK Ltd)
+^ESCTIB800158	Ibuprofen 600mg tablets (Ranbaxy (UK) Ltd)
+^ESCTIB801152	Ibuprofen 100mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTIB801281	Ibuprofen 600mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTIB801354	Ibuprofen 100mg/5ml oral suspension sugar free (Sandoz Ltd)
+^ESCTIB801457	Ibuprofen 600mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIB803498	Ibuprofen 200mg tablets (Teva UK Ltd)
+^ESCTIB805185	Ibuprofen 600mg tablets (OBG Pharmaceuticals Ltd)
+^ESCTIB805558	Ibufem 200mg tablets (Galpharm International Ltd)
+^ESCTIB806162	Ibuprofen 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIB806711	Ibuprofen 400mg tablets (Thornton & Ross Ltd)
+^ESCTIB808227	Ibuprofen 400mg tablets film coated (Actavis UK Ltd)
+^ESCTIB808586	Ibuprofen 600mg tablets (Sandoz Ltd)
+^ESCTIB810569	Ibuprofen 200mg tablets (Vantage)
+^ESCTIB810668	Ibuprofen 400mg tablets (Vantage)
+^ESCTIB810684	Ibuprofen 600mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIB810984	Ibuprofen 200mg tablets (OBG Pharmaceuticals Ltd)
+^ESCTIB811248	Ibuprofen 600mg tablets (Teva UK Ltd)
+^ESCTIB811846	Ibuprofen 200mg tablets (Thornton & Ross Ltd)
+^ESCTIB812136	Ibuprofen 600mg tablets film coated (Alliance Healthcare (Distribution) Ltd)
+^ESCTIB814616	Ibuprofen 400mg tablets sugar coated (Actavis UK Ltd)
+^ESCTIB814885	Ibuprofen 400mg tablets sugar coated (Kent Pharmaceuticals Ltd)
+^ESCTIB815768	Ibuprofen 400mg tablets (Sterwin Medicines)
+^ESCTIB816909	Ibuprofen 600mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIB818670	Ibuprofen 400mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIB818882	Ibuprofen 400mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIB819638	Ibuprofen 400mg tablets (Aspar Pharmaceuticals Ltd)
+^ESCTIB820670	Ibuprofen 600mg tablets (Actavis UK Ltd)
+^ESCTIB820696	Ibuprofen 400mg tablets (Ranbaxy (UK) Ltd)
+^ESCTIB820785	Ibuprofen 200mg tablets film coated (Actavis UK Ltd)
+^ESCTIB821626	Ibuprofen 400mg tablets (OBG Pharmaceuticals Ltd)
+^ESCTIB821704	Ibuprofen 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIB822863	Ibuprofen 100mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTIB824039	Ibuprofen 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIB824323	Ibuprofen 400mg tablets (Sandoz Ltd)
+^ESCTIB825840	Ibuprofen 200mg tablets sugar coated (Actavis UK Ltd)
+^ESCTIB829598	Ibuprofen 200mg tablets (Ranbaxy (UK) Ltd)
+^ESCTIB830267	Ibuprofen 200mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTIB830649	Ibuprofen 400mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTIB831284	Ibuprofen 200mg tablets (Aspar Pharmaceuticals Ltd)
+^ESCTIB831827	Ibuprofen 600mg tablets (Aspar Pharmaceuticals Ltd)
+^ESCTIB832765	Ibuprofen 400mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIB833548	Ibuprofen 600mg tablets (Sterwin Medicines)
+^ESCTIB860990	Ibuprofen 200mg tablets (Zentiva)
+^ESCTIB861048	Ibuprofen 100mg/5ml oral suspension sugar free (Kent Pharmaceuticals Ltd)
+^ESCTIB865202	Ibuprofen 200mg orodispersible tablets sugar free
+^ESCTIB870911	Ibuprofen lysine 200mg tablets
+^ESCTIB871258	Ibuprofen 200mg tablets (Sussex Pharmaceutical Ltd)
+^ESCTIB871270	Ibuprofen 400mg tablets (Sussex Pharmaceutical Ltd)
+^ESCTIB871368	Ibuprofen 100mg/5ml oral suspension 5ml sachets sugar free
+^ESCTIB871444	Ibuprofen 300mg / Pseudoephedrine 45mg modified-release capsules
+^ESCTIB874753	Ibuprofen 100mg/5ml oral suspension sugar free (Vantage)
+^ESCTIB887705	Ibuprofen 200mg tablets sugar coated (Kent Pharmaceuticals Ltd)
+^ESCTIB901569	Ibuprofen 200mg caplets (Lloyds Pharmacy Ltd)
+^ESCTIB901581	Ibuprofen 400mg caplets (Lloyds Pharmacy Ltd)
+^ESCTIB901730	Ibuprofen 100mg/5ml oral suspension sugar free (Teva UK Ltd)
+^ESCTIB913320	Ibuprofen 200mg caplets (Galpharm International Ltd)
+^ESCTIB913854	Ibuprofen 100mg/5ml oral suspension sugar free (Thornton & Ross Ltd)
+^ESCTIB913858	Ibuprofen 100mg/5ml oral suspension 5ml sachets sugar free (Thornton & Ross Ltd)
+^ESCTIB918291	Ibuprofen 100mg/5ml oral suspension 5ml sachets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTIB919054	Ibuprofen 200mg tablets (Wockhardt UK Ltd)
+^ESCTIB919059	Ibuprofen 400mg tablets (Wockhardt UK Ltd)
+^ESCTIB921568	Ibuprofen 400mg tablets (Galpharm International Ltd)
+^ESCTIB923103	Ibuprofen 400mg caplets (The Boots Company Plc)
+^ESCTIB923107	Ibuprofen 200mg caplets (The Boots Company Plc)
+^ESCTIB923694	Ibuprofen 200mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTIB923700	Ibuprofen 600mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTIB923772	Ibuprofen 400mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTIB927418	Ibuprofen lysine 400mg tablets
+^ESCTIB928736	Ibuprofen 200mg tablets (Arrow Generics Ltd)
+^ESCTIB928738	Ibuprofen 400mg tablets (Arrow Generics Ltd)
+^ESCTIB928741	Ibuprofen 600mg tablets (Arrow Generics Ltd)
+^ESCTIB932798	Ibuprofen 400mg capsules
+^ESCTIB937025	Ibuprofen 400mg tablets (Zentiva)
+^ESCTIB937027	Ibuprofen 600mg tablets (Zentiva)
+^ESCTIB941117	Ibuprofen 200mg tablets (Sandoz Ltd)
+^ESCTIB951439	Ibuprofen 200mg/5ml oral suspension (Special Order)
+^ESCTIB952113	Ibuprofen 200mg/5ml oral suspension
+^ESCTIB959122	Ibuprofen 100mg/5ml / Pseudoephedrine 15mg/5ml oral suspension sugar free
+^ESCTIB963842	Ibuprofen 200mg tablets (DE Pharmaceuticals)
+^ESCTIB963845	Ibuprofen 400mg tablets (DE Pharmaceuticals)
+^ESCTIB964268	Ibuprofen 100mg/5ml oral suspension sugar free (Pinewood Healthcare)
+^ESCTIB964273	Ibuprofen 100mg/5ml oral suspension 5ml sachets sugar free (Pinewood Healthcare)
+^ESCTIB964403	Ibuprofen for Children 100mg/5ml oral suspension (Galpharm International Ltd)
+^ESCTIB973792	Ibuprofen sodium dihydrate 200mg tablets
+^ESCTIB973793	Ibuprofen sodium dihydrate 400mg tablets
+^ESCTIB974708	Ibuprofen 200mg capsules (Numark Ltd)
+^ESCTIB975380	Ibuprofen 200mg tablets (Boston Healthcare Ltd)
+^ESCTIB975385	Ibuprofen 400mg tablets (Boston Healthcare Ltd)
+^ESCTIB975392	Ibuprofen 600mg tablets (Boston Healthcare Ltd)
+^ESCTIB975492	Ibuprofen 200mg tablets (Galpharm International Ltd)
+^ESCTIB977691	Ibuprofen 200mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTIB978043	Ibuprofen 400mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIB978475	Ibuprofen 100mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc)
+^ESCTIB978478	Ibuprofen 600mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIB987700	Ibuprofen 200mg / Phenylephrine 5mg tablets
+^ESCTIB987898	Ibuprofen 200mg tablets (Bristol Laboratories Ltd)
+^ESCTIB987903	Ibuprofen 400mg tablets (Bristol Laboratories Ltd)
+^ESCTIB992808	Ibucalm 200mg tablets (Aspar Pharmaceuticals Ltd)
+^ESCTIB992813	Ibucalm 400mg tablets (Aspar Pharmaceuticals Ltd)
+^ESCTIB997551	Ibuprofen 200mg tablets (Bell,Sons & Co (Druggists) Ltd)
+^ESCTIN1006039	Indometacin 25mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTIN1006041	Indometacin 50mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTIN1011770	Indometacin 25mg capsules (Bristol Laboratories Ltd)
+^ESCTIN1027939	Indometacin 25mg capsules (Genesis Pharmaceuticals Ltd)
+^ESCTIN1027941	Indometacin 50mg capsules (Genesis Pharmaceuticals Ltd)
+^ESCTIN1044051	Indometacin 25mg capsules (Waymade Healthcare Plc)
+^ESCTIN1044056	Indometacin 50mg capsules (Waymade Healthcare Plc)
+^ESCTIN1063832	Indometacin 25mg capsules (DE Pharmaceuticals)
+^ESCTIN1063836	Indometacin 50mg capsules (DE Pharmaceuticals)
+^ESCTIN1088636	Indometacin 25mg capsules (Tillomed Laboratories Ltd)
+^ESCTIN1088639	Indometacin 50mg capsules (Tillomed Laboratories Ltd)
+^ESCTIN1109049	Indometacin 50mg capsules (Crescent Pharma Ltd)
+^ESCTIN1117873	Indometacin 25mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTIN1117875	Indometacin 50mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTIN1156837	Indometacin 25mg capsules (Crescent Pharma Ltd)
+^ESCTIN615099	Indometacin 25mg capsules
+^ESCTIN615102	Indomethacin 25 mg/1 each oral capsule
+^ESCTIN615103	Indometacin 25 mg/1 each oral capsule
+^ESCTIN615104	Indometacin 50mg capsules
+^ESCTIN615106	Indometacin 50 mg/1 each oral capsule
+^ESCTIN615108	Indomethacin 50 mg/1 each oral capsule
+^ESCTIN640307	Indomethacin 75mg capsule
+^ESCTIN640309	Indometacin 75 mg/1 each oral capsule
+^ESCTIN640310	Indomethacin 75 mg/1 each oral capsule
+^ESCTIN641583	Indometacin 25mg/5ml oral suspension
+^ESCTIN641584	Indomethacin 25mg/5mL suspension
+^ESCTIN682061	Indometacin in oral dosage form
+^ESCTIN682062	Indomethacin in oral dosage form
+^ESCTIN702185	Indometacin in rectal dosage form
+^ESCTIN702186	Indomethacin in rectal dosage form
+^ESCTIN702533	Indomethacin in parenteral dosage form
+^ESCTIN702535	Indometacin in parenteral dosage form
+^ESCTIN797621	Indolar SR 75mg capsules (Sandoz Ltd)
+^ESCTIN801201	Indometacin 25mg capsules (Actavis UK Ltd)
+^ESCTIN802519	Indomax 75 SR capsules (Ashbourne Pharmaceuticals Ltd)
+^ESCTIN803145	Indometacin 50mg capsules (Actavis UK Ltd)
+^ESCTIN805141	Indocid R 75mg capsules (Merck Sharp & Dohme Ltd)
+^ESCTIN808112	Indocid 25mg capsules (Merck Sharp & Dohme Ltd)
+^ESCTIN812815	Indometacin 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTIN819688	Indometacin 50mg capsules (Mylan Ltd)
+^ESCTIN819879	Indomod 75mg modified-release capsules (Pfizer Ltd)
+^ESCTIN820048	Indometacin 25mg capsules (The Boots Company Plc)
+^ESCTIN820211	Indocid 50mg capsules (Merck Sharp & Dohme Ltd)
+^ESCTIN820380	Indometacin 50mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTIN822971	Indometacin 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTIN823053	Indometacin 50mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTIN824034	Indometacin 25mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTIN824301	Indomod 25mg modified-release capsules (Pfizer Ltd)
+^ESCTIN824758	Indometacin 50mg capsules (The Boots Company Plc)
+^ESCTIN825477	Indometacin 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTIN829240	Indometacin 75mg modified-release capsules (Kent Pharmaceuticals Ltd)
+^ESCTIN869081	Indometacin 25mg capsules (Sandoz Ltd)
+^ESCTIN869083	Indometacin 50mg capsules (Sandoz Ltd)
+^ESCTIN870773	Indocid 5mg/ml oral suspension (Merck Sharp & Dohme Ltd)
+^ESCTIN870943	Indometacin 25mg/5ml oral suspension sugar free
+^ESCTIN907272	Indometacin 50mg/5ml oral solution (Special Order)
+^ESCTIN907273	Indometacin 25mg/5ml oral solution (Special Order)
+^ESCTIN907277	Indometacin 50mg/5ml oral suspension (Special Order)
+^ESCTIN907283	Indometacin 25mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTIN907436	Indometacin 25mg/5ml oral solution
+^ESCTIN907437	Indometacin 50mg/5ml oral solution
+^ESCTIN907438	Indometacin 50mg/5ml oral suspension
+^ESCTIN923711	Indometacin 50mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTIN928758	Indometacin 25mg capsules (Arrow Generics Ltd)
+^ESCTIN929937	Indocid R 75mg capsules (Dowelhurst Ltd)
+^ESCTIN935366	Indometacin 50mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTIN935368	Indometacin 25mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTIN939386	Indometacin 25mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTIN951454	Indometacin 1.2mg/5ml oral suspension (Special Order)
+^ESCTIN951457	Indometacin 1.2mg/5ml oral solution (Special Order)
+^ESCTIN951460	Indometacin 10mg/5ml oral suspension (Special Order)
+^ESCTIN951463	Indometacin 10mg/5ml oral solution (Special Order)
+^ESCTIN951466	Indometacin 12mg/5ml oral suspension (Special Order)
+^ESCTIN951469	Indometacin 12mg/5ml oral solution (Special Order)
+^ESCTIN951476	Indometacin 15mg/5ml oral suspension (Special Order)
+^ESCTIN951481	Indometacin 15mg/5ml oral solution (Special Order)
+^ESCTIN951490	Indometacin 20mg/5ml oral suspension (Special Order)
+^ESCTIN951493	Indometacin 20mg/5ml oral solution (Special Order)
+^ESCTIN951496	Indometacin 31.25mg/5ml oral suspension (Special Order)
+^ESCTIN951499	Indometacin 31.25mg/5ml oral solution (Special Order)
+^ESCTIN951502	Indometacin 3mg/5ml oral suspension (Special Order)
+^ESCTIN951505	Indometacin 3mg/5ml oral solution (Special Order)
+^ESCTIN951508	Indometacin 500micrograms/5ml oral suspension (Special Order)
+^ESCTIN951511	Indometacin 500micrograms/5ml oral solution (Special Order)
+^ESCTIN952124	Indometacin 1.2mg/5ml oral solution
+^ESCTIN952126	Indometacin 1.2mg/5ml oral suspension
+^ESCTIN952128	Indometacin 10mg/5ml oral solution
+^ESCTIN952130	Indometacin 10mg/5ml oral suspension
+^ESCTIN952132	Indometacin 12mg/5ml oral solution
+^ESCTIN952135	Indometacin 12mg/5ml oral suspension
+^ESCTIN952137	Indometacin 15mg/5ml oral solution
+^ESCTIN952140	Indometacin 15mg/5ml oral suspension
+^ESCTIN952143	Indometacin 20mg/5ml oral solution
+^ESCTIN952145	Indometacin 20mg/5ml oral suspension
+^ESCTIN952147	Indometacin 31.25mg/5ml oral solution
+^ESCTIN952149	Indometacin 31.25mg/5ml oral suspension
+^ESCTIN952151	Indometacin 3mg/5ml oral solution
+^ESCTIN952153	Indometacin 3mg/5ml oral suspension
+^ESCTIN952155	Indometacin 500micrograms/5ml oral solution
+^ESCTIN952157	Indometacin 500micrograms/5ml oral suspension
+^ESCTIN975484	Indometacin 25mg capsules (Boston Healthcare Ltd)
+^ESCTIN986125	Indometacin 5mg/5ml oral suspension (Special Order)
+^ESCTIN986128	Indometacin 5mg/5ml oral solution (Special Order)
+^ESCTIN986398	Indometacin 5mg/5ml oral solution
+^ESCTIN986399	Indometacin 5mg/5ml oral suspension
+^ESCTJO822870	Jomethid XL 200mg capsules (Actavis UK Ltd)
+^ESCTJU820679	Junior Ibuprofen 100mg/5ml oral suspension (Numark Ltd)
+^ESCTKE615131	Ketoprofen 50mg capsules
+^ESCTKE615132	Ketoprofen 50 mg/1 each oral capsule
+^ESCTKE616919	Ketorolac 10mg tablets
+^ESCTKE616922	Ketorolac trometamol 10 mg oral tablet
+^ESCTKE616923	Ketorolac tromethamine 10 mg oral tablet
+^ESCTKE620029	Ketorolac in oral dosage form
+^ESCTKE633853	Ketoprofen 12.5 mg oral tablet
+^ESCTKE638733	Ketoprofen 25 mg/1 each oral capsule
+^ESCTKE638735	Ketoprofen 75 mg/1 each oral capsule
+^ESCTKE682064	Ketoprofen in oral dosage form
+^ESCTKE773658	Ketorolac + phenylephrine
+^ESCTKE798909	Ketotard XL 200mg capsules (Galen Ltd)
+^ESCTKE801628	Ketoprofen 100mg capsules (Mylan Ltd)
+^ESCTKE802060	Ketoprofen 100mg capsules (Sandoz Ltd)
+^ESCTKE803323	Ketovail 200mg modified-release capsules (Teva UK Ltd)
+^ESCTKE803449	Ketoprofen 50mg capsules (Mylan Ltd)
+^ESCTKE807524	Ketpron XL 200mg capsules (Mercury Pharma Group Ltd)
+^ESCTKE809071	Ketocid 200 modified-release capsules (Chiesi Ltd)
+^ESCTKE811734	Ketoprofen 50mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTKE813767	Ketozip 200 XL capsules (Ashbourne Pharmaceuticals Ltd)
+^ESCTKE814825	Ketovail 100mg modified-release capsules (Teva UK Ltd)
+^ESCTKE819069	Ketoprofen 100mg modified-release capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTKE819276	Ketoprofen 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTKE820827	Ketoprofen 200mg modified-release capsules (Kent Pharmaceuticals Ltd)
+^ESCTKE824317	Ketoprofen 100mg modified-release capsules (Kent Pharmaceuticals Ltd)
+^ESCTKE827076	Ketoprofen 100mg capsules (The Boots Company Plc)
+^ESCTKE827121	Ketoprofen 100mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTKE830123	Ketpron XL 100mg capsules (Mercury Pharma Group Ltd)
+^ESCTKE830780	Ketoprofen 100mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTKE831023	Ketoprofen 50mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTKE832887	Ketoprofen 50mg capsules (Sandoz Ltd)
+^ESCTKE857803	Keral 25mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+^ESCTKE861416	Ketoprofen 100mg capsules
+^ESCTKE871059	Ketoprofen 100mg modified-release capsules (A A H Pharmaceuticals Ltd)
+^ESCTKE978502	Ketoprofen 50mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTKE989029	Ketoprofen 100mg / Omeprazole 20mg modified-release capsules
+^ESCTKE989030	Ketoprofen 200mg / Omeprazole 20mg modified-release capsules
+^ESCTLA677385	Lansoprazole + naproxen
+^ESCTLA818577	Larafen CR 200mg capsules (Ennogen Pharma Ltd)
+^ESCTLE802353	Lederfen 300mg capsules (Mercury Pharma Group Ltd)
+^ESCTLE808199	Lederfen 300mg tablets (Mercury Pharma Group Ltd)
+^ESCTLE811073	Lederfen 450mg tablets (Mercury Pharma Group Ltd)
+^ESCTLE871377	Lemsip Ibuprofen modified-release capsules (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTLE903409	Lemsip Cold and Flu Sinus 12 Hr Ibuprofen + Pseudoephedrine modified-release capsules (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTLE918443	Lemsip Flu 12 Hr Ibuprofen + Pseudoephedrine modified-release capsules (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTLE987114	Lemsip Max All Night Cold & Flu tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTLI831858	Librofem 200mg tablets (LPC Medical (UK) Ltd)
+^ESCTLL901593	Lloydspharmacy Ibuprofen 100mg/5ml oral suspension (Lloyds Pharmacy Ltd)
+^ESCTLL965489	Lloydspharmacy Ibuprofen Long Lasting 200mg capsules (Lloyds Pharmacy Ltd)
+^ESCTLL966507	Lloydspharmacy Ibuprofen 200mg liquid capsules (Lloyds Pharmacy Ltd)
+^ESCTLL966509	Lloydspharmacy Maximum Strength Ibuprofen 400mg liquid capsules (Lloyds Pharmacy Ltd)
+^ESCTLO676443	Lornoxicam 4mg tablets
+^ESCTLO676445	Lornoxicam 4 mg oral tablet
+^ESCTLO676446	Lornoxicam 8mg tablets
+^ESCTLO676448	Lornoxicam 8 mg oral tablet
+^ESCTLO682067	Lornoxicam in oral dosage form
+^ESCTLO801714	Lofensaid 50mg gastro-resistant tablets (Opus Pharmaceuticals Ltd)
+^ESCTLO806752	Lofensaid Retard 75 tablets (Opus Pharmaceuticals Ltd)
+^ESCTLO816896	Lofensaid 25mg gastro-resistant tablets (Opus Pharmaceuticals Ltd)
+^ESCTLO818645	Lofensaid Retard 100 tablets (Opus Pharmaceuticals Ltd)
+^ESCTLO833096	Lodine SR 600mg tablets (Almirall Ltd)
+^ESCTLO997886	Lornoxicam 8mg tablets (Special Order)
+^ESCTLU924106	Lumiracoxib 400mg tablets
+^ESCTLU924107	Lumiracoxib 100mg tablets
+^ESCTMA1022268	Manorfen 200mg tablets (The Manor Drug Company (Nottingham) Ltd)
+^ESCTMA1116129	Masidemen 50mg/200microgram gastro-resistant tablets (Actavis UK Ltd)
+^ESCTMA1116131	Masidemen 75mg/200microgram gastro-resistant tablets (Actavis UK Ltd)
+^ESCTMA858786	Manorfen 400mg tablets (The Manor Drug Company (Nottingham) Ltd)
+^ESCTMA902205	Mandafen for Children 100mg/5ml oral suspension sugar free (M & A Pharmachem Ltd)
+^ESCTMA902210	Mandafen 400mg tablets (M & A Pharmachem Ltd)
+^ESCTMA999560	Mandafen 600mg tablets (M & A Pharmachem Ltd)
+^ESCTME1006106	Mefenamic acid 250mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTME1006108	Meloxicam 7.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTME1006110	Meloxicam 15mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTME1006404	Mefenamic acid 500mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTME1018901	Mefenamic acid 250mg capsules (AMCo)
+^ESCTME1041551	Mefenamic acid 250mg capsules (Waymade Healthcare Plc)
+^ESCTME1041553	Mefenamic acid 500mg tablets (Waymade Healthcare Plc)
+^ESCTME1041556	Meloxicam 7.5mg tablets (Waymade Healthcare Plc)
+^ESCTME1041558	Meloxicam 15mg tablets (Waymade Healthcare Plc)
+^ESCTME1049353	Meloxicam 15mg orodispersible tablets sugar free (Rhodes Pharma Ltd)
+^ESCTME1049358	Meloxicam 7.5mg orodispersible tablets sugar free (Rhodes Pharma Ltd)
+^ESCTME1049422	Meloxicam 15mg orodispersible tablets sugar free
+^ESCTME1049423	Meloxicam 7.5mg orodispersible tablets sugar free
+^ESCTME1059075	Meloxicam 7.5mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTME1059077	Meloxicam 15mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTME1065772	Mefenamic acid 250mg capsules (DE Pharmaceuticals)
+^ESCTME1065775	Meloxicam 15mg tablets (DE Pharmaceuticals)
+^ESCTME1065777	Meloxicam 7.5mg tablets (DE Pharmaceuticals)
+^ESCTME1089349	Mefenamic acid 50mg/5ml oral suspension (Ennogen Healthcare Ltd)
+^ESCTME1118094	Mefenamic acid 250mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTME1126753	Meloxicam 7.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTME1126755	Meloxicam 15mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTME615146	Mefenamic acid 250mg capsules
+^ESCTME615147	Mefenamic acid 250 mg/1 each oral capsule
+^ESCTME615149	Mefenamic acid 500mg tablets
+^ESCTME615151	Mefenamic acid 500 mg oral tablet
+^ESCTME615247	Meloxicam 7.5mg tablets
+^ESCTME615249	Meloxicam 7.5 mg oral tablet
+^ESCTME615250	Meloxicam 15mg tablets
+^ESCTME615252	Meloxicam 15 mg oral tablet
+^ESCTME682037	Meloxicam in oral dosage form
+^ESCTME682071	Mefenamic acid in oral dosage form
+^ESCTME706980	Meloxicam in rectal dosage form
+^ESCTME803839	Mefenamic acid 500mg tablets (Zentiva)
+^ESCTME805004	Mefenamic acid 250mg capsules (Zentiva)
+^ESCTME805311	Mefenamic acid 50mg/5ml oral suspension (Alliance Healthcare (Distribution) Ltd)
+^ESCTME805329	Mefenamic acid 250mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTME805339	Mefenamic acid 500mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME808121	Mefenamic acid 50mg/5ml oral suspension (A A H Pharmaceuticals Ltd)
+^ESCTME808193	Mefenamic acid 250mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTME813190	Mefenamic acid 500mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME814318	Mefenamic acid 500mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME820798	Mefenamic acid 500mg tablets (Teva UK Ltd)
+^ESCTME822929	Mefenamic acid 500mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTME823294	Mefenamic acid 250mg capsules (Mylan Ltd)
+^ESCTME823912	Mefenamic acid 250mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTME824174	Mefenamic acid 500mg tablets (Actavis UK Ltd)
+^ESCTME878080	Meloxicam 7.5mg tablets (Waymade Healthcare Plc)
+^ESCTME878082	Meloxicam 15mg tablets (Waymade Healthcare Plc)
+^ESCTME878886	Meloxicam 15mg tablets (Dowelhurst Ltd)
+^ESCTME878887	Meloxicam 7.5mg tablets (Dowelhurst Ltd)
+^ESCTME907850	Mefenamic acid 250mg/5ml oral suspension (Special Order)
+^ESCTME907856	Mefenamic acid 500mg/5ml oral suspension (Special Order)
+^ESCTME908397	Mefenamic acid 250mg/5ml oral suspension
+^ESCTME908398	Mefenamic acid 500mg/5ml oral suspension
+^ESCTME923908	Meloxicam 7.5mg tablets (Teva UK Ltd)
+^ESCTME923910	Meloxicam 15mg tablets (Teva UK Ltd)
+^ESCTME923912	Meloxicam 7.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME923914	Meloxicam 15mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME924069	Meloxicam 7.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME924071	Meloxicam 15mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME924153	Meloxicam 7.5mg tablets (Zentiva)
+^ESCTME924156	Meloxicam 15mg tablets (Zentiva)
+^ESCTME924485	Meloxicam 7.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME924488	Meloxicam 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME925319	Meloxicam 7.5mg tablets (Mylan Ltd)
+^ESCTME925321	Meloxicam 15mg tablets (Mylan Ltd)
+^ESCTME927017	Meloxicam 7.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTME927019	Meloxicam 15mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTME927919	Meloxicam 15mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTME927921	Meloxicam 7.5mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTME927936	Meloxicam 7.5mg tablets (Actavis UK Ltd)
+^ESCTME927941	Meloxicam 15mg tablets (Actavis UK Ltd)
+^ESCTME928837	Mefenamic acid 250mg capsules (Arrow Generics Ltd)
+^ESCTME929302	Meloxicam 7.5mg tablets (Niche Generics Ltd)
+^ESCTME929305	Meloxicam 15mg tablets (Niche Generics Ltd)
+^ESCTME930801	Meloxicam 7.5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTME930803	Meloxicam 15mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTME931763	Meloxicam 15mg tablets (Somex Pharma)
+^ESCTME931765	Meloxicam 7.5mg tablets (Somex Pharma)
+^ESCTME934629	Meloxicam 7.5mg tablets (Sandoz Ltd)
+^ESCTME934633	Meloxicam 15mg tablets (Sandoz Ltd)
+^ESCTME939559	Meloxicam 7.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTME939561	Meloxicam 15mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTME940232	Mefenamic acid 50mg/5ml oral suspension (Special Order)
+^ESCTME940450	Mefenamic acid 50mg/5ml oral suspension (Essential Generics Ltd)
+^ESCTME952739	Meloxicam 3.75mg/5ml oral suspension (Special Order)
+^ESCTME952841	Meloxicam 3.75mg/5ml oral suspension
+^ESCTME962238	Meloxicam 7.5mg tablets (Arrow Generics Ltd)
+^ESCTME962240	Meloxicam 15mg tablets (Arrow Generics Ltd)
+^ESCTME963869	Mefenamic acid 500mg tablets (DE Pharmaceuticals)
+^ESCTME966097	Meloxicam 15mg/5ml oral suspension (Special Order)
+^ESCTME966139	Meloxicam 15mg/5ml oral suspension
+^ESCTME967187	Meloxicam 15mg tablets (DE Pharmaceuticals)
+^ESCTME969448	Meloxicam 7.5mg tablets (Chanelle Medical UK Ltd)
+^ESCTME969450	Meloxicam 15mg tablets (Chanelle Medical UK Ltd)
+^ESCTME972709	Meloxicam 15mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME976992	Mefenamic acid 250mg capsules (Essential Generics Ltd)
+^ESCTME976994	Mefenamic acid 500mg tablets (Essential Generics Ltd)
+^ESCTME978554	Mefenamic acid 500mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME978557	Meloxicam 15mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME978560	Meloxicam 7.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME985882	Meloxicam 7.5mg/5ml oral suspension (Special Order)
+^ESCTME999239	Meloxicam 7.5mg tablets (Sovereign Medical Ltd)
+^ESCTME999241	Meloxicam 15mg tablets (Sovereign Medical Ltd)
+^ESCTMI831957	Migrafen 200mg tablets (Chatfield Laboratories)
+^ESCTMO1002099	Mobic 7.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMO1002732	Mobic 15mg tablets (Necessity Supplies Ltd)
+^ESCTMO1002736	Mobic 7.5mg tablets (Necessity Supplies Ltd)
+^ESCTMO801998	Motrin 800mg tablets (Pfizer Ltd)
+^ESCTMO802449	Mobic 15mg tablets (Boehringer Ingelheim Ltd)
+^ESCTMO806749	Mobiflex 20mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTMO819941	Motrin 600mg tablets (Pfizer Ltd)
+^ESCTMO820297	Mobic 7.5mg tablets (Boehringer Ingelheim Ltd)
+^ESCTMO830209	Motrin 400mg tablets (Pfizer Ltd)
+^ESCTMO865844	Motifene 75mg modified-release capsules (Daiichi Sankyo UK Ltd)
+^ESCTMO878078	Mobic 7.5mg tablets (Waymade Healthcare Plc)
+^ESCTMO878092	Mobic 15mg tablets (Waymade Healthcare Plc)
+^ESCTMO878800	Mobiflex 20mg tablets (Waymade Healthcare Plc)
+^ESCTMO879517	Mobic 15mg tablets (Dowelhurst Ltd)
+^ESCTMO879527	Mobic 7.5mg tablets (Dowelhurst Ltd)
+^ESCTMO879793	Mobiflex 20mg tablets (Dowelhurst Ltd)
+^ESCTMO974795	Mobic 7.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMO974799	Mobic 15mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMO974804	Mobiflex 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMO989356	Mobic 7.5mg tablets (Lexon (UK) Ltd)
+^ESCTMO989360	Mobic 15mg tablets (Lexon (UK) Ltd)
+^ESCTMO993133	Mobic 15mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTNA1000182	Nabumetone 500mg tablets (Beechmere Pharmaceuticals Ltd)
+^ESCTNA1002970	Naprosyn EC 250mg tablets (Necessity Supplies Ltd)
+^ESCTNA1002977	Naprosyn EC 500mg tablets (Necessity Supplies Ltd)
+^ESCTNA1006160	Nabumetone 500mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTNA1006166	Naproxen 250mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTNA1006168	Naproxen 500mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTNA1006362	Nabumetone 500mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTNA1007369	Nabumetone 500mg tablets (Fannin UK Ltd)
+^ESCTNA1008884	Naproxen 500mg / Esomeprazole 20mg modified-release tablets
+^ESCTNA1010912	Naproxen 250mg tablets (Accord Healthcare Ltd)
+^ESCTNA1010915	Naproxen 500mg tablets (Accord Healthcare Ltd)
+^ESCTNA1012390	Naproxen 500mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTNA1012392	Naproxen 250mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTNA1017831	Naproxen 250mg tablets (Aurobindo Pharma Ltd)
+^ESCTNA1017833	Naproxen 500mg tablets (Aurobindo Pharma Ltd)
+^ESCTNA1027952	Naproxen 250mg gastro-resistant tablets (Genesis Pharmaceuticals Ltd)
+^ESCTNA1027954	Naproxen 500mg gastro-resistant tablets (Genesis Pharmaceuticals Ltd)
+^ESCTNA1041783	Nabumetone 500mg tablets (Waymade Healthcare Plc)
+^ESCTNA1041792	Naproxen 250mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTNA1041794	Naproxen 500mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTNA1041796	Naproxen 250mg tablets (Waymade Healthcare Plc)
+^ESCTNA1041798	Naproxen 500mg tablets (Waymade Healthcare Plc)
+^ESCTNA1109672	Naproxen 250mg tablets (Crescent Pharma Ltd)
+^ESCTNA1109674	Naproxen 500mg tablets (Crescent Pharma Ltd)
+^ESCTNA1118306	Naproxen 250mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+^ESCTNA1118308	Naproxen 250mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTNA1118310	Naproxen 500mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+^ESCTNA1118312	Naproxen 500mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTNA1119447	Nabumetone 500mg tablets (DE Pharmaceuticals)
+^ESCTNA1119451	Naproxen 250mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCTNA1119453	Naproxen 375mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCTNA1119455	Naproxen 500mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCTNA1119457	Naproxen 500mg tablets (DE Pharmaceuticals)
+^ESCTNA1126973	Naproxen 250mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTNA1126975	Naproxen 500mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTNA1126977	Naproxen 500mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTNA1131201	Naproxen 250mg effervescent tablets sugar free
+^ESCTNA1143991	Naproxen 25mg/ml oral suspension sugar free (Orion Pharma (UK) Ltd)
+^ESCTNA1144010	Naproxen 125mg/5ml oral suspension sugar free
+^ESCTNA1145273	Naproxen 125mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTNA1145292	Nabumetone 500mg/5ml oral suspension (Special Order)
+^ESCTNA1145298	Nabumetone 500mg/5ml oral suspension
+^ESCTNA1148579	Naproxen 125mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTNA1154275	Naproxen 50mg/ml oral suspension (Thornton & Ross Ltd)
+^ESCTNA1158484	Naproxen 50mg/ml oral suspension (Alliance Healthcare (Distribution) Ltd)
+^ESCTNA1159720	Naproxen 50mg/ml oral suspension (A A H Pharmaceuticals Ltd)
+^ESCTNA610060	Naproxen sodium 275mg tablets
+^ESCTNA610062	Naproxen sodium 275 mg oral tablet
+^ESCTNA615155	Naproxen 250mg tablets
+^ESCTNA615157	Naproxen 250 mg oral tablet
+^ESCTNA615158	Naproxen 500mg tablets
+^ESCTNA615160	Naproxen 500 mg oral tablet
+^ESCTNA615162	Naproxen 250mg gastro-resistant tablets
+^ESCTNA615163	Naproxen 250mg e/c tablet
+^ESCTNA615164	Naproxen 500mg gastro-resistant tablets
+^ESCTNA615165	Naproxen 500mg e/c tablet
+^ESCTNA615172	Naproxen 125mg/5ml oral suspension
+^ESCTNA615173	Naproxen 125mg/5mL suspension
+^ESCTNA615227	Nabumetone 500mg tablets
+^ESCTNA615229	Nabumetone 500 mg oral tablet
+^ESCTNA615230	Nabumetone 500mg/5ml oral-suspension
+^ESCTNA615231	Nabumetone 500mg/5mL suspension
+^ESCTNA633858	Naproxen 200 mg oral tablet
+^ESCTNA639475	Nabumetone 750 mg oral tablet
+^ESCTNA640782	Naproxen sodium 550 mg oral tablet
+^ESCTNA640792	Naproxen 375 mg oral tablet
+^ESCTNA664006	Nabumetone 500mg dispersible tablets sugar free
+^ESCTNA664007	Nabumetone 500mg dispersible tablet
+^ESCTNA677945	Naproxen+pseudoephedrine
+^ESCTNA677946	Naproxen sodium+pseudoephedrine
+^ESCTNA682039	Nabumetone in oral dosage form
+^ESCTNA689784	Naproxen 200 mg/1 each oral capsule
+^ESCTNA695121	Naproxen sodium 220 mg/1 each oral capsule
+^ESCTNA717778	Naproxen sodium 500 mg and sumatriptan 85 mg oral tablet
+^ESCTNA720951	Naproxen in rectal dosage form
+^ESCTNA722114	Naproxen in oral dosage form
+^ESCTNA801385	Naproxen 500mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTNA801939	Naproxen 250mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNA801955	Naprosyn S/R 500mg tablets (Roche Products Ltd)
+^ESCTNA802439	Naproxen 500mg tablets (Sterwin Medicines)
+^ESCTNA802573	Naproxen 250mg tablets (Actavis UK Ltd)
+^ESCTNA804064	Naproxen 250mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTNA804581	Naproxen 500mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTNA804698	Naproxen 250mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTNA804880	Naproxen 500mg tablets (Actavis UK Ltd)
+^ESCTNA804887	Naprosyn 500mg tablets (Atnahs Pharma UK Ltd)
+^ESCTNA805200	Naprosyn EC 250mg tablets (Atnahs Pharma UK Ltd)
+^ESCTNA806746	Nabumetone 500mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNA806830	Naproxen 500mg tablets (Teva UK Ltd)
+^ESCTNA808483	Naproxen 500mg gastro-resistant tablets (Sandoz Ltd)
+^ESCTNA808590	Nabumetone 500mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNA809324	Naproxen 500mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTNA811282	Nabumetone 500mg tablets (Mylan Ltd)
+^ESCTNA811501	Naproxen 250mg tablets (Teva UK Ltd)
+^ESCTNA811916	Naproxen 250mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTNA811978	Naproxen 500mg gastro-resistant tablets (Mylan Ltd)
+^ESCTNA812333	Naproxen 500mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNA813473	Naproxen 500mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNA814172	Naproxen 500mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTNA815716	Naprosyn EC 500mg tablets (Atnahs Pharma UK Ltd)
+^ESCTNA815860	Nabumetone 500mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNA816687	Naproxen 500mg tablets (Mylan Ltd)
+^ESCTNA818573	Naproxen 500mg tablets (Wockhardt UK Ltd)
+^ESCTNA819598	Naproxen 500mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNA819614	Naproxen 250mg tablets (Wockhardt UK Ltd)
+^ESCTNA819924	Naproxen 250mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNA820194	Naproxen 250mg gastro-resistant tablets (Sandoz Ltd)
+^ESCTNA820376	Naproxen 250mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTNA820431	Naprosyn EC 375mg tablets (Atnahs Pharma UK Ltd)
+^ESCTNA820577	Naproxen 250mg tablets (Mylan Ltd)
+^ESCTNA820606	Nabumetone 500mg tablets (Teva UK Ltd)
+^ESCTNA820818	Naproxen 375mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTNA821060	Naproxen 500mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTNA821174	Naproxen 250mg gastro-resistant tablets (Mylan Ltd)
+^ESCTNA821256	Naproxen 500mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNA823761	Naproxen 250mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTNA824186	Naproxen 250mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNA825648	Nabumetone 500mg tablets (Actavis UK Ltd)
+^ESCTNA826563	Naproxen 375mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNA828375	Naproxen 375mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTNA831233	Naproxen 250mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNA831449	Naprosyn 250mg tablets (Atnahs Pharma UK Ltd)
+^ESCTNA834020	Naproxen 500mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTNA860255	Naproxen 500mg tablets (Pfizer Ltd)
+^ESCTNA860265	Napratec OP tablets (Pfizer Ltd)
+^ESCTNA870859	Naprosyn 125mg/5ml oral suspension (Roche Products Ltd)
+^ESCTNA873498	Nabumetone 500mg tablets (Sandoz Ltd)
+^ESCTNA874614	Nabumetone 500mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTNA878112	Naprosyn 500mg tablets (Waymade Healthcare Plc)
+^ESCTNA878777	Naproxen 250mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTNA878979	Nabumetone 500mg tablets (Dowelhurst Ltd)
+^ESCTNA901303	Naproxen 375mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTNA908148	Naproxen 125mg/5ml oral suspension (Special Order)
+^ESCTNA908156	Naproxen 250mg/5ml oral suspension (Special Order)
+^ESCTNA908170	Naproxen 500mg/5ml oral suspension (Special Order)
+^ESCTNA908470	Naproxen 250mg/5ml oral suspension
+^ESCTNA908471	Naproxen 500mg/5ml oral suspension
+^ESCTNA927905	Nabumetone 500mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTNA928904	Naproxen 250mg tablets (Arrow Generics Ltd)
+^ESCTNA928906	Naproxen 500mg tablets (Arrow Generics Ltd)
+^ESCTNA939563	Naproxen 250mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
+^ESCTNA939565	Naproxen 500mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
+^ESCTNA948070	Naproxen 100mg/5ml oral suspension (Special Order)
+^ESCTNA948074	Naproxen 200mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTNA948079	Naproxen 70mg/5ml oral suspension (Special Order)
+^ESCTNA948082	Naproxen 75mg/5ml oral suspension (Special Order)
+^ESCTNA948529	Naproxen 100mg/5ml oral suspension
+^ESCTNA948530	Naproxen 200mg/5ml oral suspension
+^ESCTNA948531	Naproxen 70mg/5ml oral suspension
+^ESCTNA948532	Naproxen 75mg/5ml oral suspension
+^ESCTNA963873	Naproxen 250mg tablets (DE Pharmaceuticals)
+^ESCTNA966376	Naproxen 250mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTNA966378	Naproxen 500mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTNA979707	Naproxen 375mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+^ESCTNA989462	Naproxen 250mg gastro-resistant tablets (Ranbaxy (UK) Ltd)
+^ESCTNA989468	Naproxen 500mg gastro-resistant tablets (Ranbaxy (UK) Ltd)
+^ESCTNO959088	Novo-Diflunisal 250mg tablets (Imported (Canada))
+^ESCTNU1012087	Nuromol 200mg/500mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1039107	Nurofen Express Period Pain 200mg capsules (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1040550	Nurofen Express Soluble 400mg oral powder sachets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1058806	Nurofen for Children Cold, Pain and Fever Strawberry Flavour 100mg/5ml oral suspension (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1058808	Nurofen for Children Cold, Pain and Fever Orange Flavour 100mg/5ml oral suspension (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1058887	Nurofen Cold & Flu Relief 200mg/5mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1058889	Nurofen Day & Night Cold & Flu 200mg/5mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1067665	Numark Max Strength Pharmacy Ibuprofen 400mg tablets (Numark Ltd)
+^ESCTNU1126369	Nurofen Sinus & Blocked Nose 200mg/5mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1126371	Nurofen Sinus Pain Relief 200mg/5mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1131964	Nurofen Joint & Back Pain Relief 256mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1131972	Nurofen Max Strength Joint & Back Pain Relief 512mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1131974	Nurofen Joint & Back Pain Relief 256mg caplets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1131979	Nurofen Joint & Back Pain Relief 200mg capsules (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1131991	Nurofen Sinus Pressure & Headache Relief 200mg/30mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU1141705	Nurofen for Children 100mg chewable capsules (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU820510	Nurofen 200mg caplets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU820868	Nurofen for Children 100mg/5ml oral suspension orange (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU821272	Nurofen 200mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU859699	Nurofen Long Lasting 300mg capsules (Crookes Healthcare Ltd)
+^ESCTNU865138	Nurofen Meltlets 200mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU865541	Nurofen Plus tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU865560	Nurofen 200mg liquid capsules (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU870811	Nurofen Advance 200mg tablets (Crookes Healthcare Ltd)
+^ESCTNU871262	Nurofen Recovery 200mg orodispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU871266	Nurofen Migraine Pain 342mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU871284	Nurofen for Children Singles 100mg/5ml oral suspension 5ml sachets orange (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU871290	Nurofen Cold and Flu tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU902776	Nurofen Back Pain SR 300mg capsules (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU913237	Nurofen for Children Singles 100mg/5ml oral suspension 5ml sachets strawberry (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU913240	Nurofen for Children 100mg/5ml oral suspension strawberry (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU918031	Nurofen Sinus tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU919230	Nurofen Tension Headache 342mg caplets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU927396	Nurofen Maximum Strength Migraine Pain 684mg caplets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU932749	Nurofen Extra Strength 400mg capsules (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU944482	Nurofen Express 342mg caplets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU944486	Nurofen Express 200mg liquid capsules (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU944490	Nurofen Express 400mg liquid capsules (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU944492	Nurofen Express 684mg caplets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU973737	Nurofen Express 256mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU973747	Nurofen Express 512mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU975065	Nurofen Express 256mg caplets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNY805163	Nycopren 500mg gastro-resistant tablets (Ardern Healthcare Ltd)
+^ESCTNY826686	Nycopren 250mg gastro-resistant tablets (Ardern Healthcare Ltd)
+^ESCTOB902121	Obifen 400mg tablets (Ayrton Saunders Ltd)
+^ESCTON1000138	Onsenal 400mg capsules (Pfizer Ltd)
+^ESCTOP642692	Ophthalmic flurbiprofen
+^ESCTOR1000501	Oruvail 200 modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTOR1003030	Oruvail 200 modified-release capsules (Necessity Supplies Ltd)
+^ESCTOR1014901	Oruvail 100 modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTOR682026	Oral form azapropazone
+^ESCTOR682059	Oral form indomethacin
+^ESCTOR804826	Oruvail 100 modified-release capsules (Sanofi)
+^ESCTOR811151	Oruvail 200 modified-release capsules (Sanofi)
+^ESCTOR815419	Orudis 50mg capsules (Sanofi)
+^ESCTOR817355	Orudis 100mg capsules (Sanofi)
+^ESCTOR818426	Orbifen For Children 100mg/5ml oral suspension (Orbis Consumer Products Ltd)
+^ESCTOR820811	Oruvail 150 modified-release capsules (Sanofi)
+^ESCTOR878147	Oruvail 200 modified-release capsules (Waymade Healthcare Plc)
+^ESCTOR879572	Oruvail 200 modified-release capsules (Dowelhurst Ltd)
+^ESCTOR899212	Orbifen For Children 100mg/5ml oral suspension 5ml sachets (Orbis Consumer Products Ltd)
+^ESCTOR933644	Oruvail 100 modified-release capsules (Waymade Healthcare Plc)
+^ESCTOR959113	Orbifen Cold & Flu oral suspension (Orbis Consumer Products Ltd)
+^ESCTOR967311	Oruvail 200 modified-release capsules (DE Pharmaceuticals)
+^ESCTOR974420	Oruvail 200 modified-release capsules (Sigma Pharmaceuticals Plc)
+^ESCTOR989603	Oruvail 200 modified-release capsules (Lexon (UK) Ltd)
+^ESCTPA1000266	Paramed Ibuprofen 200mg liquid capsules (Galpharm International Ltd)
+^ESCTPA1012095	Paracetamol 500mg / Ibuprofen 200mg tablets
+^ESCTPA1152680	Paracetamol 500mg / Ibuprofen 150mg tablets
+^ESCTPA702531	Parenteral form indometacin
+^ESCTPA801212	Pacifene 200mg tablets (Sussex Pharmaceutical Ltd)
+^ESCTPA813113	Pardelprin MR 75mg capsules (Actavis UK Ltd)
+^ESCTPH615176	Phenylbutazone 100mg tablets
+^ESCTPH615178	Phenylbutazone 100 mg oral tablet
+^ESCTPH615179	Phenylbutazone 200mg tablets
+^ESCTPH615181	Phenylbutazone 200 mg oral tablet
+^ESCTPH618222	Phenylbutazone 100mg gastro-resistant tablets
+^ESCTPH618223	Phenylbutazone 100mg e/c tablet
+^ESCTPH639157	Phenylbutazone 100 mg/1 each oral capsule
+^ESCTPH928462	Phenylbutazone 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPH928473	Phenylbutazone 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPH929158	Phenylbutazone 100mg tablets (Essential Generics Ltd)
+^ESCTPH929160	Phenylbutazone 200mg tablets (Essential Generics Ltd)
+^ESCTPH937793	Phenylbutazone 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPH937795	Phenylbutazone 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPI1005530	Piroxicam 10mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTPI1005532	Piroxicam 20mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTPI1013387	Piroxicam 10mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTPI1013389	Piroxicam 20mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTPI1042083	Piroxicam 10mg capsules (Waymade Healthcare Plc)
+^ESCTPI1042085	Piroxicam 20mg capsules (Waymade Healthcare Plc)
+^ESCTPI1109681	Piroxicam 10mg capsules (Crescent Pharma Ltd)
+^ESCTPI1109683	Piroxicam 20mg capsules (Crescent Pharma Ltd)
+^ESCTPI1119924	Piroxicam 10mg capsules (DE Pharmaceuticals)
+^ESCTPI1119926	Piroxicam 20mg capsules (DE Pharmaceuticals)
+^ESCTPI1127049	Piroxicam 10mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTPI1127051	Piroxicam 20mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTPI615182	Piroxicam 10mg capsules
+^ESCTPI615183	Piroxicam 10 mg/1 each oral capsule
+^ESCTPI615185	Piroxicam 20mg capsules
+^ESCTPI615186	Piroxicam 20 mg/1 each oral capsule
+^ESCTPI615194	Piroxicam 10mg dispersible tablets
+^ESCTPI615195	Piroxicam 10mg dispersible tablet
+^ESCTPI615196	Piroxicam 20mg dispersible tablets
+^ESCTPI615197	Piroxicam 20mg dispersible tablet
+^ESCTPI615220	Piroxicam 20 mg oral tablet
+^ESCTPI723464	Piroxicam in oral dosage form
+^ESCTPI802001	Piroxicam 20mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTPI802927	Piroxicam 20mg capsules (Mylan Ltd)
+^ESCTPI804649	Piroxicam 20mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPI808180	Piroxicam 20mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPI808293	Piroxicam 20mg dispersible tablets (Mylan Ltd)
+^ESCTPI808815	Piroxicam 10mg capsules (Mylan Ltd)
+^ESCTPI810022	Piroxicam 10mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTPI810183	Piroxicam 10mg capsules (The Boots Company Plc)
+^ESCTPI811538	Piroxicam 10mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPI812658	Piroxicam 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPI813773	Pirozip 10 capsules (Ashbourne Pharmaceuticals Ltd)
+^ESCTPI816891	Piroxicam 20mg capsules (Approved Prescription Services Ltd)
+^ESCTPI816957	Piroxicam 20mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPI817184	Piroxicam 10mg dispersible tablets (Mylan Ltd)
+^ESCTPI817892	Piroxicam 10mg capsules (Actavis UK Ltd)
+^ESCTPI818785	Piroxicam 10mg capsules (Approved Prescription Services Ltd)
+^ESCTPI818898	Piroxicam 20mg dispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTPI820554	Piroxicam 20mg capsules (Actavis UK Ltd)
+^ESCTPI821119	Piroxicam 10mg dispersible tablets (Kent Pharmaceuticals Ltd)
+^ESCTPI821269	Piroxicam 20mg capsules (The Boots Company Plc)
+^ESCTPI822419	Piroxicam 20mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPI822890	Piroxicam 10mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPI827460	Piroxicam 10mg dispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTPI830661	Piroxicam 20mg dispersible tablets (Kent Pharmaceuticals Ltd)
+^ESCTPI832487	Pirozip 20 capsules (Ashbourne Pharmaceuticals Ltd)
+^ESCTPI833579	Piroxicam 10mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPI861867	Piroxicam betadex 20mg tablets
+^ESCTPI913507	Piroxicam 10mg capsules (Sandoz Ltd)
+^ESCTPI913511	Piroxicam 20mg capsules (Sandoz Ltd)
+^ESCTPI928970	Piroxicam 10mg capsules (Arrow Generics Ltd)
+^ESCTPI928974	Piroxicam 20mg capsules (Arrow Generics Ltd)
+^ESCTPI960582	Piroxicam 10mg capsules (Dowelhurst Ltd)
+^ESCTPI960585	Piroxicam 20mg capsules (Dowelhurst Ltd)
+^ESCTPI960588	Piroxicam 10mg dispersible tablets (Dowelhurst Ltd)
+^ESCTPI960590	Piroxicam 20mg dispersible tablets (Dowelhurst Ltd)
+^ESCTPI974813	Piroxicam 10mg dispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTPI974828	Piroxicam 20mg dispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTPO807091	Ponstan 250mg capsules (Chemidex Pharma Ltd)
+^ESCTPO820258	Ponstan Forte 500mg tablets (Chemidex Pharma Ltd)
+^ESCTPR610061	Product containing naproxen sodium 275 mg/1 each oral tablet
+^ESCTPR610548	Product containing tolfenamic acid 200 mg/1 each oral tablet
+^ESCTPR614956	Product containing benorylate 750 mg/1 each oral tablet
+^ESCTPR614972	Product containing azapropazone 300 mg/1 each oral capsule
+^ESCTPR614973	Product containing apazone 300 mg/1 each oral capsule
+^ESCTPR614977	Product containing azapropazone 600 mg/1 each oral tablet
+^ESCTPR614978	Product containing apazone 600 mg/1 each oral tablet
+^ESCTPR615017	Product containing diflunisal 250 mg/1 each oral tablet
+^ESCTPR615020	Product containing diflunisal 500 mg/1 each oral tablet
+^ESCTPR615024	Product containing etodolac 200 mg/1 each oral capsule
+^ESCTPR615027	Product containing etodolac 300 mg/1 each oral capsule
+^ESCTPR615034	Product containing fenbufen 300 mg/1 each oral capsule
+^ESCTPR615037	Product containing fenbufen 300 mg/1 each oral tablet
+^ESCTPR615041	Product containing fenbufen 450 mg/1 each oral tablet
+^ESCTPR615044	Product containing fenoprofen 300 mg/1 each oral tablet
+^ESCTPR615047	Product containing fenoprofen 600 mg/1 each oral tablet
+^ESCTPR615052	Product containing flurbiprofen 50 mg/1 each oral tablet
+^ESCTPR615055	Product containing flurbiprofen 100 mg/1 each oral tablet
+^ESCTPR615060	Product containing ibuprofen 200 mg/1 each oral tablet
+^ESCTPR615063	Product containing ibuprofen 400 mg/1 each oral tablet
+^ESCTPR615066	Product containing ibuprofen 600 mg/1 each oral tablet
+^ESCTPR615071	Product containing ibuprofen 200 mg and codeine phosphate 12.5 mg/1 each oral tablet
+^ESCTPR615082	Product containing ibuprofen 200 mg and codeine phosphate 12.8 mg/1 each oral tablet
+^ESCTPR615088	Product containing ibuprofen 800 mg/1 each oral tablet
+^ESCTPR615100	Product containing indometacin 25 mg/1 each oral capsule
+^ESCTPR615101	Product containing indomethacin 25 mg/1 each oral capsule
+^ESCTPR615105	Product containing indometacin 50 mg/1 each oral capsule
+^ESCTPR615107	Product containing indomethacin 50 mg/1 each oral capsule
+^ESCTPR615133	Product containing ketoprofen 50 mg/1 each oral capsule
+^ESCTPR615148	Product containing mefenamic acid 250 mg/1 each oral capsule
+^ESCTPR615150	Product containing mefenamic acid 500 mg/1 each oral tablet
+^ESCTPR615156	Product containing naproxen 250 mg/1 each oral tablet
+^ESCTPR615159	Product containing naproxen 500 mg/1 each oral tablet
+^ESCTPR615177	Product containing phenylbutazone 100 mg/1 each oral tablet
+^ESCTPR615180	Product containing phenylbutazone 200 mg/1 each oral tablet
+^ESCTPR615184	Product containing piroxicam 10 mg/1 each oral capsule
+^ESCTPR615187	Product containing piroxicam 20 mg/1 each oral capsule
+^ESCTPR615202	Product containing sulindac 100 mg/1 each oral tablet
+^ESCTPR615205	Product containing sulindac 200 mg/1 each oral tablet
+^ESCTPR615212	Product containing tiaprofenic acid 200 mg/1 each oral tablet
+^ESCTPR615215	Product containing tiaprofenic acid 300 mg/1 each oral tablet
+^ESCTPR615221	Product containing piroxicam 20 mg/1 each oral tablet
+^ESCTPR615225	Product containing acemetacin 60 mg/1 each oral capsule
+^ESCTPR615228	Product containing nabumetone 500 mg/1 each oral tablet
+^ESCTPR615235	Product containing tenoxicam 20 mg/1 each oral tablet
+^ESCTPR615241	Product containing aceclofenac
+^ESCTPR615248	Product containing meloxicam 7.5 mg/1 each oral tablet
+^ESCTPR615251	Product containing meloxicam 15 mg/1 each oral tablet
+^ESCTPR615259	Product containing dexketoprofen 25 mg/1 each oral tablet
+^ESCTPR615402	Product containing rofecoxib 12.5 mg/1 each oral tablet
+^ESCTPR615405	Product containing rofecoxib 25 mg/1 each oral tablet
+^ESCTPR615413	Product containing celecoxib 200 mg/1 each oral capsule
+^ESCTPR615416	Product containing celecoxib 100 mg/1 each oral capsule
+^ESCTPR616920	Product containing ketorolac tromethamine 10 mg/1 each oral tablet
+^ESCTPR616921	Product containing ketorolac trometamol 10 mg/1 each oral tablet
+^ESCTPR619349	Product containing ibuprofen in oral dosage form
+^ESCTPR619351	Product containing ibuprofen in topical dosage form
+^ESCTPR620030	Product containing ketorolac in oral dosage form
+^ESCTPR633840	Product containing fenbufen 200 mg/1 each oral capsule
+^ESCTPR633842	Product containing fenbufen 600 mg/1 each oral tablet
+^ESCTPR633844	Product containing ibuprofen 100 mg/1 each oral tablet
+^ESCTPR633849	Product containing ibuprofen 200 mg/1 each oral capsule
+^ESCTPR633854	Product containing ketoprofen 12.5 mg/1 each oral tablet
+^ESCTPR633859	Product containing naproxen 200 mg/1 each oral tablet
+^ESCTPR633890	Product containing tolmetin sodium 200 mg/1 each oral tablet
+^ESCTPR638734	Product containing ketoprofen 25 mg/1 each oral capsule
+^ESCTPR638736	Product containing ketoprofen 75 mg/1 each oral capsule
+^ESCTPR639022	Product containing tolmetin sodium 600 mg/1 each oral tablet
+^ESCTPR639158	Product containing phenylbutazone 100 mg/1 each oral capsule
+^ESCTPR639421	Product containing fenoprofen calcium 200 mg/1 each oral capsule
+^ESCTPR639476	Product containing nabumetone 750 mg/1 each oral tablet
+^ESCTPR639864	Product containing etodolac 400 mg/1 each oral tablet
+^ESCTPR639866	Product containing etodolac 500 mg/1 each oral tablet
+^ESCTPR639993	Product containing tolmetin sodium 400 mg/1 each oral capsule
+^ESCTPR640308	Product containing indometacin 75 mg/1 each oral capsule
+^ESCTPR640311	Product containing indomethacin 75 mg/1 each oral capsule
+^ESCTPR640370	Product containing sulindac 150 mg/1 each oral tablet
+^ESCTPR640783	Product containing naproxen sodium 550 mg/1 each oral tablet
+^ESCTPR640793	Product containing naproxen 375 mg/1 each oral tablet
+^ESCTPR642437	Product containing hydrocodone bitartrate 7.5 mg and ibuprofen 200 mg/1 each oral tablet
+^ESCTPR643989	Product containing valdecoxib 10 mg/1 each oral tablet
+^ESCTPR643992	Product containing valdecoxib 20 mg/1 each oral tablet
+^ESCTPR650923	Product containing rofecoxib 50 mg/1 each oral tablet
+^ESCTPR650956	Product containing fenoprofen calcium 300 mg/1 each oral capsule
+^ESCTPR675449	Product containing ibuprofen 200 mg and pseudoephedrine 30 mg/1 each oral tablet
+^ESCTPR675457	Product containing etoricoxib 60 mg/1 each oral tablet
+^ESCTPR675460	Product containing etoricoxib 90 mg/1 each oral tablet
+^ESCTPR675463	Product containing etoricoxib 120 mg/1 each oral tablet
+^ESCTPR675659	Product containing ibuprofen 300 mg and pseudoephedrine 45 mg/1 each oral capsule
+^ESCTPR675756	Product containing valdecoxib 40 mg/1 each oral tablet
+^ESCTPR676444	Product containing lornoxicam 4 mg/1 each oral tablet
+^ESCTPR676447	Product containing lornoxicam 8 mg/1 each oral tablet
+^ESCTPR677386	Product containing lansoprazole and naproxen
+^ESCTPR682025	Product containing acemetacin in oral dosage form
+^ESCTPR682027	Product containing azapropazone in oral dosage form
+^ESCTPR682030	Product containing apazone in oral dosage form
+^ESCTPR682032	Product containing benorylate in oral dosage form
+^ESCTPR682034	Product containing celecoxib in oral dosage form
+^ESCTPR682036	Product containing etoricoxib in oral dosage form
+^ESCTPR682038	Product containing meloxicam in oral dosage form
+^ESCTPR682040	Product containing nabumetone in oral dosage form
+^ESCTPR682042	Product containing rofecoxib in oral dosage form
+^ESCTPR682044	Product containing valdecoxib in oral dosage form
+^ESCTPR682046	Product containing dexketoprofen in oral dosage form
+^ESCTPR682048	Product containing etodolac in oral dosage form
+^ESCTPR682050	Product containing fenbufen in oral dosage form
+^ESCTPR682052	Product containing fenoprofen in oral dosage form
+^ESCTPR682054	Product containing flurbiprofen in oral dosage form
+^ESCTPR682060	Product containing indometacin in oral dosage form
+^ESCTPR682063	Product containing indomethacin in oral dosage form
+^ESCTPR682065	Product containing ketoprofen in oral dosage form
+^ESCTPR682068	Product containing lornoxicam in oral dosage form
+^ESCTPR682072	Product containing mefenamic acid in oral dosage form
+^ESCTPR685834	Product containing ibuprofen and oxycodone
+^ESCTPR685836	Product containing ibuprofen 400 mg and oxycodone 5 mg/1 each oral tablet
+^ESCTPR689785	Product containing naproxen 200 mg/1 each oral capsule
+^ESCTPR691995	Product containing dexibuprofen 300 mg/1 each oral tablet
+^ESCTPR692808	Product containing dexibuprofen 400 mg/1 each oral tablet
+^ESCTPR695122	Product containing naproxen sodium 220 mg/1 each oral capsule
+^ESCTPR695883	Product containing diphenhydramine 25 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCTPR696172	Product containing ibuprofen 200 mg and pseudoephedrine 30 mg/1 each oral capsule
+^ESCTPR696319	Product containing diphenhydramine and ibuprofen
+^ESCTPR697903	Product containing ibuprofen in parenteral dosage form
+^ESCTPR702184	Product containing indometacin in rectal dosage form
+^ESCTPR702187	Product containing indomethacin in rectal dosage form
+^ESCTPR702532	Product containing indometacin in parenteral dosage form
+^ESCTPR702534	Product containing indomethacin in parenteral dosage form
+^ESCTPR704452	Product containing celecoxib 50 mg/1 each oral capsule
+^ESCTPR704803	Product containing celecoxib 400 mg/1 each oral capsule
+^ESCTPR706981	Product containing meloxicam in rectal dosage form
+^ESCTPR708501	Product containing hydrocodone bitartrate 5 mg and ibuprofen 200 mg/1 each oral tablet
+^ESCTPR710258	Product containing hydrocodone bitartrate 10 mg and ibuprofen 200 mg/1 each oral tablet
+^ESCTPR710260	Product containing hydrocodone bitartrate 2.5 mg and ibuprofen 200 mg/1 each oral tablet
+^ESCTPR717779	Product containing naproxen sodium 500 mg and sumatriptan 85 mg/1 each oral tablet
+^ESCTPR720952	Product containing naproxen in rectal dosage form
+^ESCTPR722115	Product containing naproxen in oral dosage form
+^ESCTPR723465	Product containing piroxicam in oral dosage form
+^ESCTPR725584	Product containing diphenhydramine 38 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCTPR828548	Preservex 100mg tablets (Almirall Ltd)
+^ESCTPR924090	Prexige 100mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTPR924095	Prexige 400mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTPU914508	Pure Health Junior Ibuprofen 100mg/5ml oral suspension (Lexon (UK) Ltd)
+^ESCTRE702183	Rectal form indometacin
+^ESCTRE807540	Relcofen 400mg tablets (Actavis UK Ltd)
+^ESCTRE857476	Relifex 500mg dispersible tablets (Meda Pharmaceuticals Ltd)
+^ESCTRE858796	Relifex 500mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTRE878236	Relifex 500mg tablets (Waymade Healthcare Plc)
+^ESCTRE880083	Relifex 500mg tablets (Dowelhurst Ltd)
+^ESCTRH1012867	Rhumalgan XL 100mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTRH1012870	Rhumalgan SR 75mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTRH1047402	Rhumalgan XL 100mg capsules (Actavis UK Ltd)
+^ESCTRH1047811	Rhumalgan SR 75mg capsules (Actavis UK Ltd)
+^ESCTRH804046	Rheumox 300mg capsules (Mercury Pharma Group Ltd)
+^ESCTRH807625	Rheumox 600mg tablets (Mercury Pharma Group Ltd)
+^ESCTRH810462	Rhumalgan CR 100 tablets (Sandoz Ltd)
+^ESCTRH811438	Rhumalgan CR 75 tablets (Sandoz Ltd)
+^ESCTRH821668	Rheumatac Retard 75 tablets (AMCo)
+^ESCTRH832572	Rheumacin LA 75mg capsules (Hillcross Pharmaceuticals Ltd)
+^ESCTRH903943	Rhumalgan XL 100mg capsules (Sandoz Ltd)
+^ESCTRH903956	Rhumalgan SR 75mg capsules (Sandoz Ltd)
+^ESCTRO615401	Rofecoxib 12.5mg tablets
+^ESCTRO615403	Rofecoxib 12.5 mg oral tablet
+^ESCTRO615404	Rofecoxib 25mg tablets
+^ESCTRO615406	Rofecoxib 25 mg oral tablet
+^ESCTRO615407	Rofecoxib 12.5mg/5ml oral suspension sugar free
+^ESCTRO615408	Rofecoxib 12.5mg/5mL oral suspension
+^ESCTRO615409	Rofecoxib 25mg/5ml oral suspension sugar free
+^ESCTRO615410	Rofecoxib 25mg/5mL oral suspension
+^ESCTRO650922	Rofecoxib 50mg tablets
+^ESCTRO650924	Rofecoxib 50 mg oral tablet
+^ESCTRO682041	Rofecoxib in oral dosage form
+^ESCTSE918075	Seractil 300mg tablets (Thornton & Ross Ltd)
+^ESCTSE918082	Seractil 400mg tablets (Thornton & Ross Ltd)
+^ESCTSE967283	Seractil 300mg tablets (Waymade Healthcare Plc)
+^ESCTSL803224	Slo-Indo 75mg capsules (Mylan Ltd)
+^ESCTSL820888	Slofenac 75mg SR tablets (Sterwin Medicines)
+^ESCTSO865548	Solpaflex tablets (GlaxoSmithKline Consumer Healthcare)
+^ESCTSO926988	Solpadeine Migraine Ibuprofen & Codeine tablets (Omega Pharma Ltd)
+^ESCTST1130938	Stirlescent 250mg effervescent tablets (Stirling Anglian Pharmaceuticals Ltd)
+^ESCTST864048	Strefen 8.75mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTSU1001147	Sulindac 100mg tablets (Essential Generics Ltd)
+^ESCTSU1001170	Sulindac 200mg tablets (Essential Generics Ltd)
+^ESCTSU615201	Sulindac 100mg tablets
+^ESCTSU615203	Sulindac 100 mg oral tablet
+^ESCTSU615204	Sulindac 200mg tablets
+^ESCTSU615206	Sulindac 200 mg oral tablet
+^ESCTSU640369	Sulindac 150 mg oral tablet
+^ESCTSU809987	Surgam 300mg tablets (Sanofi)
+^ESCTSU810442	Surgam 200mg tablets (Sanofi)
+^ESCTSU818839	Surgam SA 300mg capsules (Sanofi)
+^ESCTSU863296	Sulindac 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSU863300	Sulindac 100mg tablets (Mylan Ltd)
+^ESCTSU863319	Sulindac 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSU863327	Sulindac 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSU863334	Sulindac 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSU863337	Sulindac 200mg tablets (Mylan Ltd)
+^ESCTSU863340	Sulindac 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSU863344	Sulindac 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSU902306	Sudafed Sinus Pressure & Pain tablets (McNeil Products Ltd)
+^ESCTSU963892	Sulindac 100mg tablets (DE Pharmaceuticals)
+^ESCTSU963894	Sulindac 200mg tablets (DE Pharmaceuticals)
+^ESCTSY801868	Synflex 275mg tablets (Roche Products Ltd)
+^ESCTTE1041500	Tenoxicam 20mg tablets (Waymade Healthcare Plc)
+^ESCTTE615234	Tenoxicam 20mg tablets
+^ESCTTE615236	Tenoxicam 20 mg oral tablet
+^ESCTTE802897	Tenoxicam 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTE820059	Tenoxicam 20mg tablets (Sandoz Ltd)
+^ESCTTE820371	Tenoxicam 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTE823163	Tenoxicam 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTE879036	Tenoxicam 20mg tablets (Dowelhurst Ltd)
+^ESCTTE979636	Tenoxicam 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTI1116636	Tiloket CR 200mg capsules (Tillomed Laboratories Ltd)
+^ESCTTI615211	Tiaprofenic acid 200mg tablets
+^ESCTTI615213	Tiaprofenic acid 200 mg oral tablet
+^ESCTTI615214	Tiaprofenic acid 300mg tablets
+^ESCTTI615216	Tiaprofenic acid 300 mg oral tablet
+^ESCTTI825784	Tiloket CR 100mg capsules (Tillomed Laboratories Ltd)
+^ESCTTI897955	Tiloket 50mg capsules (Tillomed Laboratories Ltd)
+^ESCTTO1118843	Tolfenamic acid 200mg tablets (Galen Ltd)
+^ESCTTO1122015	Tolfenamic acid 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTO1126529	Tolfenamic acid 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTO1146120	Tolmetin 600mg tablets
+^ESCTTO1146122	Tolmetin 600mg tablets (Imported (United States))
+^ESCTTO610547	Tolfenamic acid 200mg tablets
+^ESCTTO610549	Tolfenamic acid 200 mg oral tablet
+^ESCTTO633889	Tolmetin sodium 200 mg oral tablet
+^ESCTTO639021	Tolmetin sodium 600 mg oral tablet
+^ESCTTO639992	Tolmetin sodium 400 mg/1 each oral capsule
+^ESCTTO866853	Toradol 10mg tablets (Roche Products Ltd)
+^ESCTVA643988	Valdecoxib 10mg tablets
+^ESCTVA643990	Valdecoxib 10 mg oral tablet
+^ESCTVA643991	Valdecoxib 20mg tablets
+^ESCTVA643993	Valdecoxib 20 mg oral tablet
+^ESCTVA675755	Valdecoxib 40mg tablets
+^ESCTVA675757	Valdecoxib 40 mg oral tablet
+^ESCTVA682043	Valdecoxib in oral dosage form
+^ESCTVA806652	Valdic 75 Retard tablets (Fannin UK Ltd)
+^ESCTVA815741	Valdic 100 Retard tablets (Fannin UK Ltd)
+^ESCTVA825151	Valket 200 Retard capsules (Tillomed Laboratories Ltd)
+^ESCTVI1008777	Vimovo 500mg/20mg modified-release tablets (AstraZeneca UK Ltd)
+^ESCTVI857449	Vioxx 12.5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTVI857454	Vioxx 25mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTVI857456	VioxxAcute 25mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTVI857465	VioxxAcute 50mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTVI857469	Vioxx 12.5mg/5ml oral suspension (Merck Sharp & Dohme Ltd)
+^ESCTVI857473	Vioxx 25mg/5ml oral suspension (Merck Sharp & Dohme Ltd)
+^ESCTVI878399	Vioxx 12.5mg tablets (Waymade Healthcare Plc)
+^ESCTVI878413	Vioxx 25mg tablets (Waymade Healthcare Plc)
+^ESCTVI879842	Vioxx 12.5mg tablets (Dowelhurst Ltd)
+^ESCTVI879844	Vioxx 25mg tablets (Dowelhurst Ltd)
+^ESCTVO1001708	Voltarol 75mg SR tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTVO1002174	Voltarol Joint Pain 12.5mg tablets (Novartis Consumer Health UK Ltd)
+^ESCTVO1008061	Voltarol Retard 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTVO1025152	Voltarol 75mg SR tablets (Lexon (UK) Ltd)
+^ESCTVO797512	Voltarol 25mg gastro-resistant tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTVO805302	Volraman 50mg gastro-resistant tablets (LPC Medical (UK) Ltd)
+^ESCTVO810943	Volraman 25mg gastro-resistant tablets (LPC Medical (UK) Ltd)
+^ESCTVO820395	Voltarol Rapid 50mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTVO820590	Volsaid Retard 100 tablets (Chiesi Ltd)
+^ESCTVO820853	Voltarol Rapid 25mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTVO822966	Voltarol 50mg gastro-resistant tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTVO823691	Voltarol 75mg SR tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTVO825792	Voltarol Retard 100mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTVO826292	Volsaid Retard 75 tablets (Chiesi Ltd)
+^ESCTVO861268	Voltarol 50mg dispersible tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTVO878408	Voltarol Retard 100mg tablets (Waymade Healthcare Plc)
+^ESCTVO879858	Voltarol 75mg SR tablets (Dowelhurst Ltd)
+^ESCTVO879860	Voltarol Retard 100mg tablets (Dowelhurst Ltd)
+^ESCTVO968173	Voltarol Pain-eze 12.5mg tablets (Novartis Consumer Health UK Ltd)
+^ESCTVO975265	Voltarol Retard 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTXE870447	Xefo 4mg tablets (CeNeS Pharmaceuticals Plc)
+^ESCTXE870453	Xefo 8mg tablets (CeNeS Pharmaceuticals Plc)
+BEOR37982MGEMIS	Benorilate  Oral Suspension Sugar Free  2 grams/5 ml (Generics (UK))
+BEOR37983MGEMIS	Benorilate  Oral Suspension Sugar Free  2 grams/5 ml (Unichem)
+BEOR37984MGEMIS	Benorilate  Oral Suspension Sugar Free  2 grams/5 ml (A.A.H. Pharm)
+BEOR37985MGEMIS	Benorilate  Oral Suspension Sugar Free  2 grams/5 ml (Sterwin Medicines)
+BEOR37986MGEMIS	Benorilate  Oral Suspension Sugar Free  2 grams/5 ml (Kent Pharm)
+BETA37987MGEMIS	Benorilate  Tablets  750 mg (Sterwin Medicines)
+BETA37988MGEMIS	Benorilate  Tablets  750 mg (A.A.H. Pharm)
+BETA37989MGEMIS	Benorilate  Tablets  750 mg (Kent Pharm)
+COTA117656NEMIS	Combogesic 500 mg/150 mg  Tablets  
+DIDI44687NEMIS	Diclofenac Sodium  Dispersible tablets  10 mg
+DIE/37633MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Teva UK)
+DIE/37634MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Ivax Pharmaceuticals)
+DIE/37635MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Sterwin Medicines)
+DIE/37636MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Unichem)
+DIE/37637MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Pfizer)
+DIE/37638MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Sandoz)
+DIE/37639MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Generics (UK))
+DIE/37640MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (A.A.H. Pharm)
+DIE/37641MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Alpharma)
+DIE/37642MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Kent Pharm)
+DIOR103674NEMIS	Diclofenac Sodium  Oral solution  50 mg/5 ml
+DIOR124185NEMIS	Diclofenac Sodium  Oral suspension  50 mg/5 ml
+ENM/76708NEMIS	Enstar Sr 75  M/R tablets  75 mg
+ENM/76710NEMIS	Enstar Xl 100  M/R tablets  100 mg
+ETM/117649NEMIS	Etolyn  M/R tablets  600 mg
+FECA35029MGEMIS	Fenbufen  Capsules  300 mg (Genus Pharm)
+FECA35030MGEMIS	Fenbufen  Capsules  300 mg (Ivax Pharmaceuticals)
+FECA35031MGEMIS	Fenbufen  Capsules  300 mg (Unichem)
+FECA35032MGEMIS	Fenbufen  Capsules  300 mg (A.A.H. Pharm)
+FETA35039MGEMIS	Fenbufen  Tablets  300 mg (Ivax Pharmaceuticals)
+FETA35040MGEMIS	Fenbufen  Tablets  300 mg (A.A.H. Pharm)
+FETA35041MGEMIS	Fenbufen  Tablets  300 mg (Unichem)
+FETA35042MGEMIS	Fenbufen  Tablets  300 mg (Kent Pharm)
+FETA35043MGEMIS	Fenbufen  Tablets  300 mg (Generics (UK))
+FETA35044MGEMIS	Fenbufen  Tablets  300 mg (Sterwin Medicines)
+FETA35045MGEMIS	Fenbufen  Tablets  300 mg (Alpharma)
+FETA35057MGEMIS	Fenbufen  Tablets  450 mg (Unichem)
+FETA35058MGEMIS	Fenbufen  Tablets  450 mg (Kent Pharm)
+FETA35059MGEMIS	Fenbufen  Tablets  450 mg (Ivax Pharmaceuticals)
+FETA35060MGEMIS	Fenbufen  Tablets  450 mg (Generics (UK))
+FETA35061MGEMIS	Fenbufen  Tablets  450 mg (Sterwin Medicines)
+FETA35062MGEMIS	Fenbufen  Tablets  450 mg (A.A.H. Pharm)
+FETA35063MGEMIS	Fenbufen  Tablets  450 mg (Alpharma)
+FLTA35178MGEMIS	Flurbiprofen  Tablets  100 mg (A.A.H. Pharm)
+FLTA35179MGEMIS	Flurbiprofen  Tablets  100 mg (Alpharma)
+FLTA35180MGEMIS	Flurbiprofen  Tablets  100 mg (Unichem)
+FLTA35181MGEMIS	Flurbiprofen  Tablets  100 mg (Sandoz)
+FLTA35182MGEMIS	Flurbiprofen  Tablets  100 mg (Kent Pharm)
+FLTA35183MGEMIS	Flurbiprofen  Tablets  100 mg (Genus Pharm)
+FLTA35184MGEMIS	Flurbiprofen  Tablets  50 mg (Kent Pharm)
+FLTA35185MGEMIS	Flurbiprofen  Tablets  50 mg (A.A.H. Pharm)
+FLTA35186MGEMIS	Flurbiprofen  Tablets  50 mg (Unichem)
+FLTA35187MGEMIS	Flurbiprofen  Tablets  50 mg (Sandoz)
+FLTA35188MGEMIS	Flurbiprofen  Tablets  50 mg (Alpharma)
+FLTA35189MGEMIS	Flurbiprofen  Tablets  50 mg (Genus Pharm)
+IBCH139126NEMIS	Ibuprofen  Chewable Capsules  100 mg
+IBTA125939NEMIS	Ibuprofen And Phenylephrine  Tablets  200 mg + 6.1 mg
+IBTA35520MGEMIS	Ibuprofen  Tablets  600 mg (Ranbaxy)
+IBTA35521MGEMIS	Ibuprofen  Tablets  600 mg (Ivax Pharmaceuticals)
+IBTA35522MGEMIS	Ibuprofen  Tablets  600 mg (Kent Pharm)
+IBTA35523MGEMIS	Ibuprofen  Tablets  600 mg (OBG Pharm)
+IBTA35524MGEMIS	Ibuprofen  Tablets  600 mg (Sandoz)
+IBTA35525MGEMIS	Ibuprofen  Tablets  600 mg (Unichem)
+IBTA35526MGEMIS	Ibuprofen  Tablets  600 mg (Teva UK)
+IBTA35527MGEMIS	Ibuprofen  Tablets  600 mg (A.A.H. Pharm)
+IBTA35528MGEMIS	Ibuprofen  Tablets  600 mg (Alpharma)
+IBTA35529MGEMIS	Ibuprofen  Tablets  600 mg (Aspar)
+IBTA35530MGEMIS	Ibuprofen  Tablets  600 mg (Sterwin Medicines)
+INCA38150MGEMIS	Indometacin  Capsules  25 mg (Alpharma)
+INCA38151MGEMIS	Indometacin  Capsules  25 mg (Unichem)
+INCA38152MGEMIS	Indometacin  Capsules  25 mg (The Boots Company)
+INCA38153MGEMIS	Indometacin  Capsules  25 mg (A.A.H. Pharm)
+INCA38154MGEMIS	Indometacin  Capsules  25 mg (Kent Pharm)
+INCA38155MGEMIS	Indometacin  Capsules  25 mg (Sandoz)
+INCA38156MGEMIS	Indometacin  Capsules  50 mg (Alpharma)
+INCA38157MGEMIS	Indometacin  Capsules  50 mg (Generics (UK))
+INCA38158MGEMIS	Indometacin  Capsules  50 mg (Unichem)
+INCA38159MGEMIS	Indometacin  Capsules  50 mg (Kent Pharm)
+INCA38160MGEMIS	Indometacin  Capsules  50 mg (The Boots Company)
+INCA38161MGEMIS	Indometacin  Capsules  50 mg (A.A.H. Pharm)
+INCA38162MGEMIS	Indometacin  Capsules  50 mg (Sandoz)
+INM/38168MGEMIS	Indometacin  M/R capsules  75 mg (Kent Pharm)
+INOR133170NEMIS	Indometacin  Oral suspension  10 mg/5 ml
+INOR29250NEMIS	Indometacin  Oral Suspension (Sugar-Free)  25 mg/5 ml
+KECA35625MGEMIS	Ketoprofen  Capsules  100 mg (Generics (UK))
+KECA35626MGEMIS	Ketoprofen  Capsules  100 mg (Sandoz)
+KECA35627MGEMIS	Ketoprofen  Capsules  100 mg (The Boots Company)
+KECA35628MGEMIS	Ketoprofen  Capsules  100 mg (Unichem)
+KECA35629MGEMIS	Ketoprofen  Capsules  100 mg (A.A.H. Pharm)
+KECA35630MGEMIS	Ketoprofen  Capsules  50 mg (Generics (UK))
+KECA35631MGEMIS	Ketoprofen  Capsules  50 mg (Kent Pharm)
+KECA35632MGEMIS	Ketoprofen  Capsules  50 mg (A.A.H. Pharm)
+KECA35633MGEMIS	Ketoprofen  Capsules  50 mg (Unichem)
+KECA35634MGEMIS	Ketoprofen  Capsules  50 mg (Sandoz)
+KEM/35635MGEMIS	Ketoprofen  M/R capsules  100 mg (Unichem)
+KEM/35636MGEMIS	Ketoprofen  M/R capsules  100 mg (Kent Pharm)
+KEM/35637MGEMIS	Ketoprofen  M/R capsules  100 mg (A.A.H. Pharm)
+KEM/35640MGEMIS	Ketoprofen  M/R capsules  200 mg (Kent Pharm)
+MATA101956NEMIS	Masidemen  Tablets  50 mg + 200 micrograms
+MATA101957NEMIS	Masidemen  Tablets  75 mg + 200 micrograms
+MECA35872MGEMIS	Mefenamic Acid  Capsules  250 mg (Winthrop Pharmaceuticals )
+MECA35873MGEMIS	Mefenamic Acid  Capsules  250 mg (Unichem)
+MECA35874MGEMIS	Mefenamic Acid  Capsules  250 mg (A.A.H. Pharm)
+MECA35875MGEMIS	Mefenamic Acid  Capsules  250 mg (Generics (UK))
+MECA35876MGEMIS	Mefenamic Acid  Capsules  250 mg (Kent Pharm)
+MEOR83162NEMIS	Meloxicam  Orodispersible Tablets (Sugar Free)  7.5 mg
+MESU37812MGEMIS	Mefenamic Acid  Suspension  50 mg/5 ml (Unichem)
+MESU37813MGEMIS	Mefenamic Acid  Suspension  50 mg/5 ml (A.A.H. Pharm)
+META35930MGEMIS	Mefenamic Acid  Tablets  500 mg (Winthrop Pharmaceuticals )
+META35931MGEMIS	Mefenamic Acid  Tablets  500 mg (Kent Pharm)
+META35932MGEMIS	Mefenamic Acid  Tablets  500 mg (Unichem)
+META35933MGEMIS	Mefenamic Acid  Tablets  500 mg (A.A.H. Pharm)
+META35934MGEMIS	Mefenamic Acid  Tablets  500 mg (Teva UK)
+META35935MGEMIS	Mefenamic Acid  Tablets  500 mg (Ivax Pharmaceuticals)
+META35936MGEMIS	Mefenamic Acid  Tablets  500 mg (Alpharma)
+NAE/36157MGEMIS	Naproxen  E/c tablets  250 mg (Alpharma)
+NAE/36158MGEMIS	Naproxen  E/c tablets  250 mg (A.A.H. Pharm)
+NAE/36159MGEMIS	Naproxen  E/c tablets  250 mg (Unichem)
+NAE/36160MGEMIS	Naproxen  E/c tablets  250 mg (Sandoz)
+NAE/36161MGEMIS	Naproxen  E/c tablets  250 mg (Teva UK)
+NAE/36162MGEMIS	Naproxen  E/c tablets  250 mg (Generics (UK))
+NAE/36163MGEMIS	Naproxen  E/c tablets  250 mg (Ivax Pharmaceuticals)
+NAE/36164MGEMIS	Naproxen  E/c tablets  250 mg (Kent Pharm)
+NAE/36165MGEMIS	Naproxen  E/c tablets  500 mg (Alpharma)
+NAE/36166MGEMIS	Naproxen  E/c tablets  500 mg (Teva UK)
+NAE/36167MGEMIS	Naproxen  E/c tablets  500 mg (Sandoz)
+NAE/36168MGEMIS	Naproxen  E/c tablets  500 mg (Kent Pharm)
+NAE/36169MGEMIS	Naproxen  E/c tablets  500 mg (Generics (UK))
+NAE/36170MGEMIS	Naproxen  E/c tablets  500 mg (Ivax Pharmaceuticals)
+NAE/36171MGEMIS	Naproxen  E/c tablets  500 mg (Unichem)
+NAE/36172MGEMIS	Naproxen  E/c tablets  500 mg (A.A.H. Pharm)
+NAE/36173MGEMIS	Naproxen  E/c tablets  375 mg (Alpharma)
+NAE/36174MGEMIS	Naproxen  E/c tablets  375 mg (Unichem)
+NAE/36175MGEMIS	Naproxen  E/c tablets  375 mg (Kent Pharm)
+NAE/36176MGEMIS	Naproxen  E/c tablets  375 mg (A.A.H. Pharm)
+NATA36177MGEMIS	Naproxen  Tablets  250 mg (Unichem)
+NATA36178MGEMIS	Naproxen  Tablets  250 mg (Alpharma)
+NATA36179MGEMIS	Naproxen  Tablets  250 mg (Ivax Pharmaceuticals)
+NATA36180MGEMIS	Naproxen  Tablets  250 mg (Teva UK)
+NATA36181MGEMIS	Naproxen  Tablets  250 mg (Wockhardt UK)
+NATA36182MGEMIS	Naproxen  Tablets  250 mg (Generics (UK))
+NATA36183MGEMIS	Naproxen  Tablets  250 mg (Kent Pharm)
+NATA36184MGEMIS	Naproxen  Tablets  250 mg (A.A.H. Pharm)
+NATA36185MGEMIS	Naproxen  Tablets  500 mg (Sterwin Medicines)
+NATA36186MGEMIS	Naproxen  Tablets  500 mg (Alpharma)
+NATA36187MGEMIS	Naproxen  Tablets  500 mg (Teva UK)
+NATA36188MGEMIS	Naproxen  Tablets  500 mg (Kent Pharm)
+NATA36189MGEMIS	Naproxen  Tablets  500 mg (A.A.H. Pharm)
+NATA36190MGEMIS	Naproxen  Tablets  500 mg (Ivax Pharmaceuticals)
+NATA36191MGEMIS	Naproxen  Tablets  500 mg (Generics (UK))
+NATA36192MGEMIS	Naproxen  Tablets  500 mg (Wockhardt UK)
+NATA36193MGEMIS	Naproxen  Tablets  500 mg (Unichem)
+NATA36194MGEMIS	Naproxen  Tablets  500 mg (Pfizer)
+NATA36195MGEMIS	Nabumetone  Tablets  500 mg (Kent Pharm)
+NATA36196MGEMIS	Nabumetone  Tablets  500 mg (A.A.H. Pharm)
+NATA36197MGEMIS	Nabumetone  Tablets  500 mg (Generics (UK))
+NATA36198MGEMIS	Nabumetone  Tablets  500 mg (Unichem)
+NATA36199MGEMIS	Nabumetone  Tablets  500 mg (Teva UK)
+NATA36200MGEMIS	Nabumetone  Tablets  500 mg (Alpharma)
+NATA36201MGEMIS	Nabumetone  Tablets  500 mg (Sandoz)
+NATA36202MGEMIS	Nabumetone  Tablets  500 mg (Ivax Pharmaceuticals)
+NEE/130655NEMIS	Nexocin Ec  Gastro-resistant Tablets  250 mg
+NEE/130656NEMIS	Nexocin Ec  Gastro-resistant Tablets  375 mg
+NEE/130657NEMIS	Nexocin Ec  Gastro-resistant Tablets  500 mg
+NUCA40032NEMIS	Nurofen Maximum Strength Migraine Pain  Caplets  684 mg
+NULI117794NEMIS	Nurofen Express  Liquid Capsules  400 mg
+NUTA51118NEMIS	Nuromol  Tablets  200 mg + 500 mg
+PATA117654NEMIS	Paracetamol And Ibuprofen  Tablets  500 mg + 150 mg
+PICA36540MGEMIS	Piroxicam  Capsules  10 mg (Generics (UK))
+PICA36541MGEMIS	Piroxicam  Capsules  10 mg (Ivax Pharmaceuticals)
+PICA36542MGEMIS	Piroxicam  Capsules  10 mg (The Boots Company)
+PICA36543MGEMIS	Piroxicam  Capsules  10 mg (Unichem)
+PICA36544MGEMIS	Piroxicam  Capsules  10 mg (Alpharma)
+PICA36545MGEMIS	Piroxicam  Capsules  10 mg (Kent Pharm)
+PICA36546MGEMIS	Piroxicam  Capsules  10 mg (A.A.H. Pharm)
+PICA36547MGEMIS	Piroxicam  Capsules  10 mg (Sandoz)
+PIDI36556MGEMIS	Piroxicam  Dispersible tablets  10 mg (Unichem)
+PIDI36557MGEMIS	Piroxicam  Dispersible tablets  10 mg (Generics (UK))
+PIDI36558MGEMIS	Piroxicam  Dispersible tablets  10 mg (Kent Pharm)
+PIDI36559MGEMIS	Piroxicam  Dispersible tablets  10 mg (A.A.H. Pharm)
+SKTA125617NEMIS	Skudexa  Tablets  75 mg + 25 mg
+STEF108924NEMIS	Stirlescent  Effervescent tablets  250 mg
+SUTA37091MGEMIS	Sulindac  Tablets  100 mg (A.A.H. Pharm)
+SUTA37092MGEMIS	Sulindac  Tablets  100 mg (Generics (UK))
+SUTA37093MGEMIS	Sulindac  Tablets  100 mg (Kent Pharm)
+SUTA37094MGEMIS	Sulindac  Tablets  100 mg (Unichem)
+SUTA37095MGEMIS	Sulindac  Tablets  200 mg (A.A.H. Pharm)
+SUTA37096MGEMIS	Sulindac  Tablets  200 mg (Generics (UK))
+SUTA37097MGEMIS	Sulindac  Tablets  200 mg (Kent Pharm)
+SUTA37098MGEMIS	Sulindac  Tablets  200 mg (Unichem)
+TETA37153MGEMIS	Tenoxicam  Tablets  20 mg (A.A.H. Pharm)
+TETA37154MGEMIS	Tenoxicam  Tablets  20 mg (Sandoz)
+TETA37155MGEMIS	Tenoxicam  Tablets  20 mg (Unichem)
+TETA37156MGEMIS	Tenoxicam  Tablets  20 mg (Kent Pharm)
+TRTA125615NEMIS	Tramadol And Dexketoprofen  Tablets  75 mg + 25 mg

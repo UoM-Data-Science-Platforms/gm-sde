@@ -8,3 +8,9 @@ d76w.	Doxepin 10mg capsule
 d76x.	Doxepin 25mg capsule
 d76y.	Doxepin 50mg capsule
 d76z.	Doxepin 75mg capsule
+d76..	Doxepin
+x00EC	Sinequan 75mg capsule
+x00EB	Sinequan 50mg capsule
+x00EA	Sinequan 25mg capsule
+x00E9	Sinequan 10mg capsule
+x03w4	Sinequan

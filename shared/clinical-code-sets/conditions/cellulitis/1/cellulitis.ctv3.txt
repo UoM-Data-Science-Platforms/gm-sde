@@ -1,0 +1,137 @@
+A271z	Erysipelothrix infection NOS
+A35..	Erysipelas
+F4G01	Orbital cellulitis
+J0830	Cellulitis of floor of mouth
+J0831	Oral soft tissue cellulitis unspecified
+J0833	Ludwig's angina
+J0851	Cellulitis of lip
+K1703	Periurethral cellulitis
+K2723	Cellulitis of penis
+K2802	Cellulitis of seminal vesicle
+K2843	Cellulitis of scrotum
+K4040	Chronic female pelvic cellulitis
+K405.	Parametritis and pelvic cellulitis unspecified
+K4051	Pelvic cellulitis unspecified
+K405z	Parametritis and pelvic cellulitis NOS
+M02..	Cellulitis and abscess of finger and toe
+M020.	Cellulitis and abscess of finger
+M0200	Cellulitis and abscess of finger unspecified
+M020z	Cellulitis and abscess of finger NOS
+M021.	Cellulitis and abscess of toe
+M0210	Cellulitis and abscess of toe unspecified
+M03..	(Skin area excluding digits of hand or foot: [abscess] or [acute lymphangitis of skin] or [cellulitis]) or (other cellulitis and abscess)
+M030.	Cellulitis and abscess of face
+M0300	Cellulitis and abscess of cheek (& external)
+M0301	Cellulitis and abscess of nose (& external)
+M0302	Cellulitis and abscess of chin
+M0303	Cellulitis and abscess of submandibular region
+M0304	Cellulitis and abscess of forehead
+M0305	Cellulitis and abscess of temple region
+M0306	Cellulitis of face
+M030z	Cellulitis and abscess of face NOS
+M032.	Cellulitis and abscess of trunk
+M0320	Cellulitis and abscess of chest wall
+M0321	Cellulitis and abscess of breast
+M0322	Cellulitis and abscess of back
+M0323	Cellulitis and abscess of abdominal wall
+M0324	Cellulitis and abscess of umbilicus
+M0325	Cellulitis and abscess of flank
+M0326	Cellulitis and abscess of groin
+M0327	Cellulitis and abscess of perineum
+M0328	Cellulitis of trunk
+M032z	Cellulitis and abscess of trunk NOS
+M033.	Cellulitis and abscess of arm
+M0330	Cellulitis and abscess of shoulder
+M0331	Cellulitis and abscess of axilla
+M0332	Cellulitis and abscess of upper arm
+M0333	Cellulitis and abscess of elbow
+M0334	Cellulitis and abscess of forearm
+M033z	Cellulitis and abscess of arm NOS
+M034.	Cellulitis and abscess of hand (& excluding digits)
+M0341	Cellulitis and abscess of wrist
+M034z	Cellulitis and abscess of hand NOS
+M035.	Cellulitis and abscess of buttock
+M036.	Cellulitis and abscess of leg (& excluding foot)
+M0360	Cellulitis and abscess of hip
+M0361	Cellulitis and abscess of thigh
+M0362	Cellulitis and abscess of knee
+M0363	Cellulitis and abscess of lower leg
+M0364	Cellulitis and abscess of ankle
+M036z	Cellulitis and abscess of leg NOS
+M037.	Cellulitis and abscess of foot (& excluding toe)
+M0370	Cellulitis and abscess of foot unspecified
+M0371	Cellulitis and abscess of heel
+M0372	Cellulitis in diabetic foot
+M037z	Cellulitis and abscess of foot NOS
+M03y.	Other specified cellulitis and abscess
+M03z.	Cellulitis and abscess NOS
+M03z0	Cellulitis NOS
+M070.	Pyogenic infection of skin and subcutis
+M070z	Pyoderma NOS
+M081.	[X]Cellulitis of other parts limb
+M084.	[X]Cellulitis of breast
+M086.	Cellulitis of ankle
+M08y.	[X]Cellulitis of other sites
+M15y0	Staphylococcal scalded skin syndrome
+X00hk	Cellulitis of external ear
+X00hm	Cellulitis of pinna
+X00YN	Cellulitis of eyelid
+X20QZ	Oral soft tissue cellulitis
+X500z	Cutaneous cellulitis
+X5010	Cellulitis of skin area excluding digits of hand or foot
+X5011	Cellulitis of dorsum of hand
+X5012	Cellulitis of palm of hand
+X5018	Anaerobic cellulitis
+X501E	Cellulitis of leg
+X501H	Acute lymphangitis of skin excluding digits of hand or foot
+X503P	Seal finger
+X50FB	Eosinophilic cellulitis
+X50Kv	Wound cellulitis
+X70HW	Cutaneous erysipeloid
+X70HX	Localised cutaneous erysipeloid
+X70IC	Facial erysipelas
+X70N9	Gonococcal cellulitis
+X70SH	Mucormycotic gangrenous cellulitis
+Xa0bE	Streptococcal cellulitis
+Xa0sz	Oral sinus
+Xa1R2	Female pelvic cellulitis
+Xa2jn	Cellulitis of arm
+Xa3gE	Cellulitis of toe
+Xa3gF	Cellulitis of hand excluding finger
+Xa3gG	Cellulitis of leg, excluding foot
+Xa3gH	Cellulitis of foot excluding toe
+Xa40b	Cellulitis - digit NOS
+Xa7Ht	Cellulitis of heel
+Xa7I2	Periorbital cellulitis
+Xa7ld	Cellulitis of scalp
+Xa7m0	Infected thumb
+Xa83l	Cellulitis of elbow
+Xa86C	Cellulitis of abdominal wall
+XaB64	Cellulitis - anus or rectum
+XaB65	Perianal cellulitis
+XaBDy	Cellulitis of axilla
+XaBEE	Cellulitis of neck
+XaBmh	Cellulitis of skin of back
+XaFCr	Cellulitis of thigh
+XaR2l	Recurrent cellulitis
+XaYO5	Cellulitis of thumb
+XE0Qs	Erysipelothrix infection, unspecified
+XE19p	(Infective otitis externa (& [cellulitis ear])) or (swimmers ear)
+XE1Aa	Cellulitis and abscess of leg
+XE1Ab	Cellulitis and abscess of foot excluding toe
+XE1Ac	Cellulitis and abscess of head unspecified
+XE1Ak	[X]Cellulitis of finger and toe
+XE1AS	Cellulitis and abscess of toe NOS
+XE1AT	Cellulitis and abscess of digit NOS
+XE1AU	Other cellulitis and abscess
+XE1AV	Cellulitis and abscess of cheek (external)
+XE1AW	Cellulitis and abscess of nose (external)
+XE1AX	Cellulitis and abscess of neck
+XE1AY	Cellulitis and abscess of hand excluding digits
+XE1AZ	Cellulitis and abscess of hand unspecified
+XE1Bk	(Cellulitis - finger-paronychia) or (paronychia)
+XE1Bo	(Cellulitis/abscess - face) or (cellulitis - lips)
+XE1Bs	Cellulitis (&/or abscess): [buttock] or [perirectal]
+XM0tp	Cellulitis of hand
+XM0tr	Cellulitis of foot
+XaB1t	Postoperative wound cellulitis

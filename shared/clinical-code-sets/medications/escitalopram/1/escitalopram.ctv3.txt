@@ -8,3 +8,5 @@ daC7.	ESCITALOPRAM 10mg/mL oral drops
 daC8.	CIPRALEX 10mg/mL oral drops
 daC9.	CIPRALEX 20mg/mL oral drops
 daCA.	ESCITALOPRAM 20mg/mL oral drops
+daC..	Escitalopram
+x05dY	Cipralex

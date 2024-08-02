@@ -1,0 +1,18 @@
+d44..	Droperidol [central nervous system use]
+d44w.	DROPERIDOL 2.5mg/1mL solution for injection
+d444.	XOMOLIX 2.5mg/1mL solution for injection
+d44x.	Droperidol 10mg tablet
+d441.	Droleptan 10mg tablet
+d44y.	Droperidol 1mg/mL oral liquid
+d442.	Droleptan 1mg/mL oral liquid
+d44z.	Droperidol 10mg/2mL injection
+o541.	Droleptan 10mg injection
+d443.	Droleptan 10mg/2mL injection
+o42w.	Fentanyl+droperidol 100micrograms/5mg/2mL injection
+o423.	Thalamonal injection
+o54..	Droperidol [anaesthesia]
+x004Z	Fentanyl+droperidol
+x01BL	Oral droperidol
+x01BM	Parenteral droperidol
+x02LP	Droperidol
+x02aZ	Droleptan

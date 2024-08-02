@@ -1,0 +1,393 @@
+^ESCT1178182	Product containing only citalopram 10 mg/1 each oral tablet
+^ESCT1180378	Citalopram 20mg tablets (Mylan)
+^ESCT1181900	Product containing only citalopram 20 mg/1 each oral tablet
+^ESCT1181901	Product containing only citalopram 40 mg/1 each oral tablet
+^ESCT1184324	Citalopram 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1184344	Citalopram 20mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1184345	Citalopram 40mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1186444	Citalopram 10mg tablets (Mylan)
+^ESCT1186445	Citalopram 40mg tablets (Mylan)
+^ESCT1189543	Citalopram 10mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1206454	Citalopram in oral dosage form
+^ESCT1206455	Product containing citalopram in oral dosage form
+^ESCT1215932	Citalopram 10mg tablets (Medreich Plc)
+^ESCT1215933	Citalopram 10mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1223601	Citalopram
+^ESCT1223602	Citalopram product
+^ESCT1223603	Citalopram (as citalopram hydrobromide) 20 mg oral tablet
+^ESCT1223604	Product containing precisely citalopram (as citalopram hydrobromide) 20 milligram/1 each conventional release oral tablet
+^ESCT1223605	Citalopram (as citalopram hydrobromide) 10 mg oral tablet
+^ESCT1223606	Product containing precisely citalopram (as citalopram hydrobromide) 10 milligram/1 each conventional release oral tablet
+^ESCT1223607	Product containing precisely citalopram (as citalopram hydrobromide) 40 milligram/1 each conventional release oral tablet
+^ESCT1223608	Citalopram (as citalopram hydrobromide) 40 mg oral tablet
+^ESCT1223609	Product containing precisely citalopram (as citalopram hydrochloride) 40 milligram/1 milliliter conventional release oral drops
+^ESCT1223610	Citalopram (as citalopram hydrochloride) 40 mg/mL oral drops
+^ESCT1249694	Citalopram 20mg tablets (Medreich Plc)
+^ESCT1249695	Citalopram 20mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1249696	Citalopram 40mg tablets (Medreich Plc)
+^ESCT1249697	Citalopram 40mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1250528	Citalopram 40mg/ml oral drops sugar free (Advanz Pharma)
+^ESCT1250529	Citalopram 40mg/ml oral drops sugar free (Advanz Pharma) 15 ml
+^ESCT1254494	Citalopram 10mg tablets (Sovereign Medical Ltd)
+^ESCT1254495	Citalopram 10mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257741	Citalopram 20mg tablets (Sovereign Medical Ltd)
+^ESCT1257742	Citalopram 20mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257743	Citalopram 40mg tablets (Sovereign Medical Ltd)
+^ESCT1257744	Citalopram 40mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1263929	Citalopram 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263930	Citalopram 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1263932	Citalopram 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263933	Citalopram 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1267801	Citalopram 10mg tablets (Noumed Life Sciences Ltd)
+^ESCT1267802	Citalopram 10mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1267803	Citalopram 20mg tablets (Noumed Life Sciences Ltd)
+^ESCT1267804	Citalopram 20mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1267805	Citalopram 40mg tablets (Noumed Life Sciences Ltd)
+^ESCT1267806	Citalopram 40mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1271181	Citalopram 40mg/ml oral drops sugar free (Thame Laboratories Ltd)
+^ESCT1271182	Citalopram 40mg/ml oral drops sugar free (Thame Laboratories Ltd) 15 ml
+^ESCT1280034	Citalopram 10mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1305337	Citalopram 10mg tablets 250 tablet
+^ESCT1305338	Citalopram 10mg tablets (Mylan) 250 tablet
+^ESCT1305339	Citalopram 20mg tablets 250 tablet
+^ESCT1305340	Citalopram 20mg tablets (Mylan) 250 tablet
+^ESCT1305341	Citalopram 40mg tablets 100 tablet
+^ESCT1305342	Citalopram 40mg tablets (Mylan) 100 tablet
+^ESCT1354256	Citalopram only product
+^ESCT1357999	Citalopram only product in oral dose form
+^ESCT1364145	Citalopram (as citalopram hydrobromide) 2 mg/mL oral solution
+^ESCT1364837	Citalopram-containing product in oromucosal dose form
+^ESCT1365633	Citalopram only product in oromucosal dose form
+^ESCT1375154	Citalopram 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375155	Citalopram 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375156	Citalopram 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375157	Citalopram 20mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375158	Citalopram 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375159	Citalopram 40mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375160	Citalopram 40mg/ml oral drops sugar free (Medihealth (Northern) Ltd)
+^ESCT1375161	Citalopram 40mg/ml oral drops sugar free (Medihealth (Northern) Ltd) 15 ml
+^ESCT1383333	Citalopram (as citalopram hydrobromide) 40 mg orodispersible tablet
+^ESCT1383342	Citalopram (as citalopram hydrobromide) 20 mg orodispersible tablet
+^ESCT1383353	Citalopram (as citalopram hydrobromide) 10 mg orodispersible tablet
+^ESCT1386288	Citalopram-containing product in oral dose form
+^ESCT1388894	Citalopram 10mg tablets (Milpharm Ltd)
+^ESCT1388895	Citalopram 10mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1388896	Citalopram 20mg tablets (Milpharm Ltd)
+^ESCT1388897	Citalopram 20mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1388898	Citalopram 40mg tablets (Milpharm Ltd)
+^ESCT1388899	Citalopram 40mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1422041	Citalopram 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422042	Citalopram 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422043	Citalopram 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422044	Citalopram 20mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422045	Citalopram 40mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422046	Citalopram 40mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426654	Citalopram 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426655	Citalopram 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426656	Citalopram 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426657	Citalopram 20mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426658	Citalopram 40mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426659	Citalopram 40mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437739	Citalopram 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437740	Citalopram 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437741	Citalopram 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437742	Citalopram 20mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437743	Citalopram 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437744	Citalopram 40mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1439248	Citalopram 10mg tablets (Viatris UK Healthcare Ltd) 250 tablet
+^ESCT1439249	Citalopram 20mg tablets (Viatris UK Healthcare Ltd) 250 tablet
+^ESCT1439250	Citalopram 40mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCTCI1003464	Citalopram 40mg/ml oral drops sugar free (Focus Pharmaceuticals Ltd)
+^ESCTCI1003465	Citalopram 40mg/ml oral drops sugar free (Focus Pharmaceuticals Ltd) 15 ml
+^ESCTCI1005339	Citalopram 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1005340	Citalopram 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCI1005341	Citalopram 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1005342	Citalopram 20mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCI1005343	Citalopram 40mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1005344	Citalopram 40mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCI1006348	Citalopram 40mg/ml oral drops sugar free (Almus Pharmaceuticals Ltd)
+^ESCTCI1006350	Citalopram 40mg/ml oral drops sugar free (Almus Pharmaceuticals Ltd) 15 ml
+^ESCTCI1007548	Citalopram 40mg/ml oral drops sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1007549	Citalopram 40mg/ml oral drops sugar free (Phoenix Healthcare Distribution Ltd) 15 ml
+^ESCTCI1010874	Citalopram 10mg tablets (Accord Healthcare Ltd)
+^ESCTCI1010875	Citalopram 20mg tablets (Accord Healthcare Ltd)
+^ESCTCI1010876	Citalopram 10mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTCI1010965	Citalopram 20mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTCI1010966	Citalopram 40mg tablets (Accord Healthcare Ltd)
+^ESCTCI1010967	Citalopram 40mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTCI1011443	Citalopram 20mg tablets 30 tablet
+^ESCTCI1017766	Citalopram 10mg tablets (Aurobindo Pharma Ltd)
+^ESCTCI1017767	Citalopram 10mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCTCI1017768	Citalopram 20mg tablets (Aurobindo Pharma Ltd)
+^ESCTCI1017770	Citalopram 20mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCTCI1017772	Citalopram 40mg tablets (Aurobindo Pharma Ltd)
+^ESCTCI1017773	Citalopram 40mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCTCI1022488	Citalopram 10mg tablets (DE Pharmaceuticals)
+^ESCTCI1022489	Citalopram 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI1022490	Citalopram 20mg tablets (DE Pharmaceuticals)
+^ESCTCI1022491	Citalopram 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI1022492	Citalopram 40mg tablets (DE Pharmaceuticals)
+^ESCTCI1022493	Citalopram 40mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI1042130	Citalopram 40mg/ml oral drops sugar free (Waymade Healthcare Plc)
+^ESCTCI1042131	Citalopram 40mg/ml oral drops sugar free (Waymade Healthcare Plc) 15 ml
+^ESCTCI1042132	Citalopram 10mg tablets (Waymade Healthcare Plc)
+^ESCTCI1042133	Citalopram 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI1042134	Citalopram 20mg tablets (Waymade Healthcare Plc)
+^ESCTCI1042135	Citalopram 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI1042136	Citalopram 40mg tablets (Waymade Healthcare Plc)
+^ESCTCI1042137	Citalopram 40mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI1106906	Citalopram 10mg tablets (Rivopharm (UK) Ltd)
+^ESCTCI1106908	Citalopram 10mg tablets (Rivopharm (UK) Ltd) 28 tablet
+^ESCTCI1106910	Citalopram 20mg tablets (Rivopharm (UK) Ltd)
+^ESCTCI1106911	Citalopram 20mg tablets (Rivopharm (UK) Ltd) 28 tablet
+^ESCTCI1106925	Citalopram 40mg tablets (Rivopharm (UK) Ltd)
+^ESCTCI1106927	Citalopram 40mg tablets (Rivopharm (UK) Ltd) 28 tablet
+^ESCTCI1117032	Citalopram 40mg/ml oral drops sugar free (Sigma Pharmaceuticals Plc)
+^ESCTCI1117033	Citalopram 40mg/ml oral drops sugar free (Sigma Pharmaceuticals Plc) 15 ml
+^ESCTCI1120149	Citalopram 40mg/ml oral drops sugar free (DE Pharmaceuticals)
+^ESCTCI1120150	Citalopram 40mg/ml oral drops sugar free (DE Pharmaceuticals) 15 ml
+^ESCTCI609814	Citalopram
+^ESCTCI609816	Citalopram 20mg tablets
+^ESCTCI609818	Citalopram 20 mg oral tablet
+^ESCTCI609819	Citalopram 10mg tablets
+^ESCTCI609821	Citalopram 10 mg oral tablet
+^ESCTCI609822	Citalopram 40mg tablets
+^ESCTCI609824	Citalopram 40 mg oral tablet
+^ESCTCI609825	Citalopram 40mg/ml oral drops sugar free
+^ESCTCI609826	Citalopram 40mg/mL oral drops
+^ESCTCI639136	Citalopram hydrobromide 10mg/5mL solution
+^ESCTCI697080	Citalopram 40mg orally disintegrating tablet
+^ESCTCI697372	Citalopram 20mg orally disintegrating tablet
+^ESCTCI698071	Citalopram 10mg orally disintegrating tablet
+^ESCTCI834319	Citalopram 40mg tablets 28 tablet
+^ESCTCI846895	Citalopram 40mg/ml oral drops sugar free 15 ml
+^ESCTCI846968	Citalopram 20mg tablets 28 tablet
+^ESCTCI847708	Citalopram 10mg tablets 28 tablet
+^ESCTCI866374	Citalopram 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCI866376	Citalopram 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCI866378	Citalopram 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCI866380	Citalopram 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI866381	Citalopram 10mg tablets (Sandoz Ltd)
+^ESCTCI866382	Citalopram 10mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI866383	Citalopram 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCI866384	Citalopram 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCI866385	Citalopram 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCI866386	Citalopram 20mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI866388	Citalopram 20mg tablets (Sandoz Ltd)
+^ESCTCI866390	Citalopram 20mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI866391	Citalopram 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCI866392	Citalopram 40mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCI866393	Citalopram 40mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCI866394	Citalopram 40mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI866395	Citalopram 40mg tablets (Sandoz Ltd)
+^ESCTCI866397	Citalopram 40mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI868371	Citalopram 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI868372	Citalopram 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI868373	Citalopram 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI868374	Citalopram 20mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI868375	Citalopram 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI868376	Citalopram 40mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI870124	Citalopram 10mg tablets (Zentiva)
+^ESCTCI870125	Citalopram 10mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTCI870126	Citalopram 20mg tablets (Zentiva)
+^ESCTCI870128	Citalopram 20mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTCI870130	Citalopram 40mg tablets (Zentiva)
+^ESCTCI870131	Citalopram 40mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTCI873015	Citalopram 10mg tablets (Mylan Ltd)
+^ESCTCI873016	Citalopram 10mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI873017	Citalopram 20mg tablets (Mylan Ltd)
+^ESCTCI873018	Citalopram 20mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI873019	Citalopram 40mg tablets (Mylan Ltd)
+^ESCTCI873020	Citalopram 40mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI878637	Citalopram 20mg tablets (Dowelhurst Ltd)
+^ESCTCI878638	Citalopram 20mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCI896975	Citalopram 10mg tablets (Actavis UK Ltd)
+^ESCTCI896976	Citalopram 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI896977	Citalopram 20mg tablets (Actavis UK Ltd)
+^ESCTCI896978	Citalopram 20mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI896979	Citalopram 40mg tablets (Actavis UK Ltd)
+^ESCTCI896980	Citalopram 40mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI896987	Citalopram 10mg tablets (Teva UK Ltd)
+^ESCTCI896989	Citalopram 10mg tablets (Teva UK Ltd) 28 tablet
+^ESCTCI896990	Citalopram 20mg tablets (Teva UK Ltd)
+^ESCTCI896991	Citalopram 20mg tablets (Teva UK Ltd) 28 tablet
+^ESCTCI896992	Citalopram 40mg tablets (Teva UK Ltd)
+^ESCTCI896993	Citalopram 40mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI897577	Citalopram 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCI897578	Citalopram 10mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI897579	Citalopram 20mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCI897580	Citalopram 20mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI897582	Citalopram 40mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCI897583	Citalopram 40mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI913394	Citalopram 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCI913395	Citalopram 20mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI913396	Citalopram 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCI913397	Citalopram 40mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI917532	Citalopram 20mg tablets (PLIVA Pharma Ltd)
+^ESCTCI917533	Citalopram 20mg tablets (PLIVA Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI917534	Citalopram 10mg tablets (PLIVA Pharma Ltd)
+^ESCTCI917535	Citalopram 10mg tablets (PLIVA Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI917538	Citalopram 40mg tablets (PLIVA Pharma Ltd)
+^ESCTCI917539	Citalopram 40mg tablets (PLIVA Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCTCI918094	Citalopram 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCI918096	Citalopram 10mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTCI923497	Citalopram 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCI923498	Citalopram 10mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI923499	Citalopram 20mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCI923501	Citalopram 20mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI923504	Citalopram 40mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCI923505	Citalopram 40mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI928878	Citalopram 10mg tablets (Arrow Generics Ltd)
+^ESCTCI928880	Citalopram 10mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTCI928882	Citalopram 20mg tablets (Arrow Generics Ltd)
+^ESCTCI928884	Citalopram 20mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTCI928886	Citalopram 40mg tablets (Arrow Generics Ltd)
+^ESCTCI928887	Citalopram 40mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTCI929332	Citalopram 10mg tablets (Niche Generics Ltd)
+^ESCTCI929333	Citalopram 10mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTCI929336	Citalopram 20mg tablets (Niche Generics Ltd)
+^ESCTCI929337	Citalopram 20mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTCI929340	Citalopram 40mg tablets (Niche Generics Ltd)
+^ESCTCI929341	Citalopram 40mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTCI929963	Citalopram 20mg tablets (Waymade Healthcare Plc)
+^ESCTCI929966	Citalopram 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI944833	Citalopram 10mg/5ml oral suspension 1 ml
+^ESCTCI944835	Citalopram 10mg/5ml oral suspension (Special Order)
+^ESCTCI944839	Citalopram 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCI944843	Citalopram 20mg/5ml oral suspension 1 ml
+^ESCTCI944845	Citalopram 20mg/5ml oral suspension (Special Order)
+^ESCTCI944849	Citalopram 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCI945452	Citalopram 10mg/5ml oral suspension
+^ESCTCI945453	Citalopram 20mg/5ml oral suspension
+^ESCTCI960386	Citalopram 10mg tablets (Dowelhurst Ltd)
+^ESCTCI960389	Citalopram 10mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCI960391	Citalopram 40mg tablets (Dowelhurst Ltd)
+^ESCTCI960392	Citalopram 40mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCI965438	Citalopram 10mg tablets (Tillomed Laboratories Ltd)
+^ESCTCI965439	Citalopram 10mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTCI965440	Citalopram 20mg tablets (Tillomed Laboratories Ltd)
+^ESCTCI965441	Citalopram 20mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTCI965442	Citalopram 40mg tablets (Tillomed Laboratories Ltd)
+^ESCTCI965443	Citalopram 40mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTCI965626	Citalopram 20mg tablets (Apotex UK Ltd)
+^ESCTCI965627	Citalopram 20mg tablets (Apotex UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI965628	Citalopram 40mg tablets (Apotex UK Ltd)
+^ESCTCI965629	Citalopram 40mg tablets (Apotex UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI978163	Citalopram 40mg/ml oral drops sugar free (Teva UK Ltd)
+^ESCTCI978165	Citalopram 40mg/ml oral drops sugar free (Teva UK Ltd) 15 ml
+^ESCTCI978273	Citalopram 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI978274	Citalopram 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI978276	Citalopram 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI978278	Citalopram 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI978280	Citalopram 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI978281	Citalopram 40mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI979811	Citalopram 40mg/ml oral drops sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI979812	Citalopram 40mg/ml oral drops sugar free (Alliance Healthcare (Distribution) Ltd) 15 ml
+^ESCTCI979958	Citalopram 40mg/ml oral drops sugar free (A A H Pharmaceuticals Ltd)
+^ESCTCI979960	Citalopram 40mg/ml oral drops sugar free (A A H Pharmaceuticals Ltd) 15 ml
+^ESCTCI987134	Citalopram 10mg tablets (Bristol Laboratories Ltd)
+^ESCTCI987135	Citalopram 10mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI987136	Citalopram 20mg tablets (Bristol Laboratories Ltd)
+^ESCTCI987137	Citalopram 20mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI987138	Citalopram 40mg tablets (Bristol Laboratories Ltd)
+^ESCTCI987139	Citalopram 40mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI991736	Citalopram 40mg/ml oral drops sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTCI991737	Citalopram 40mg/ml oral drops sugar free (Rosemont Pharmaceuticals Ltd) 15 ml
+^ESCTCI994807	Citalopram 40mg/ml oral drops sugar free (Actavis UK Ltd)
+^ESCTCI994808	Citalopram 40mg/ml oral drops sugar free (Actavis UK Ltd) 15 ml
+^ESCTPR609815	Product containing citalopram
+^ESCTPR609817	Product containing citalopram 20 mg/1 each oral tablet
+^ESCTPR609820	Product containing citalopram 10 mg/1 each oral tablet
+^ESCTPR609823	Product containing citalopram 40 mg/1 each oral tablet
+CIDR1699NEMIS	Citalopram Hydrochloride  Drops  Sugar Free 40 mg/ml
+CITA26752EMIS	Citalopram Hydrobromide  Tablets  20 mg
+CITA32092EMIS	Citalopram Hydrobromide  Tablets  40 mg
+CITA32611EMIS	Citalopram Hydrobromide  Tablets  10 mg
+CITA34311MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (A.A.H. Pharm)
+CITA34312MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Kent Pharm)
+CITA34313MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Sandoz)
+CITA34314MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Unichem)
+CITA34315MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Winthrop Pharmaceuticals )
+CITA34316MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Generics (UK))
+CITA34317MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Alpharma)
+CITA34318MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Teva UK)
+CITA34319MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Ranbaxy)
+CITA34320MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (Ivax Pharmaceuticals)
+CITA34321MGEMIS	Citalopram Hydrobromide  Tablets  20 mg (PLIVA Pharma Ltd)
+CITA37527MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (A.A.H. Pharm)
+CITA37528MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Kent Pharm)
+CITA37529MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Sandoz)
+CITA37530MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Unichem)
+CITA37531MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Winthrop Pharmaceuticals )
+CITA37532MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Generics (UK))
+CITA37533MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Alpharma)
+CITA37534MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Teva UK)
+CITA37535MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Ranbaxy)
+CITA37536MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (Ivax Pharmaceuticals)
+CITA37537MGEMIS	Citalopram Hydrobromide  Tablets  40 mg (PLIVA Pharma Ltd)
+CITA37538MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (A.A.H. Pharm)
+CITA37539MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Kent Pharm)
+CITA37540MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Sandoz)
+CITA37541MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Unichem)
+CITA37542MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Winthrop Pharmaceuticals )
+CITA37543MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Generics (UK))
+CITA37544MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Alpharma)
+CITA37545MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Teva UK)
+CITA37546MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Ranbaxy)
+CITA37547MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (PLIVA Pharma Ltd)
+CITA37548MGEMIS	Citalopram Hydrobromide  Tablets  10 mg (Ivax Pharmaceuticals)
+^ESCTCI1008655	Cipramil 40mg/ml drops (Necessity Supplies Ltd)
+^ESCTCI1008656	Cipramil 40mg/ml drops (Necessity Supplies Ltd) 15 ml
+^ESCTCI1011444	Cipramil 20mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTCI1012409	Cipramil 40mg/ml drops (DE Pharmaceuticals)
+^ESCTCI1012410	Cipramil 40mg/ml drops (DE Pharmaceuticals) 15 ml
+^ESCTCI1022700	Cipramil 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCI1022701	Cipramil 40mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTCI796781	Cipramil 40mg/ml drops (Lundbeck Ltd)
+^ESCTCI801988	Cipramil 10mg tablets (Lundbeck Ltd)
+^ESCTCI821279	Cipramil 40mg tablets (Lundbeck Ltd)
+^ESCTCI828725	Cipramil 20mg tablets (Lundbeck Ltd)
+^ESCTCI849725	Cipramil 10mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI849729	Cipramil 20mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI849734	Cipramil 40mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI856909	Cipramil 40mg/ml drops (Lundbeck Ltd) 15 ml
+^ESCTCI877691	Cipramil 10mg tablets (Waymade Healthcare Plc)
+^ESCTCI877692	Cipramil 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI877694	Cipramil 20mg tablets (Waymade Healthcare Plc)
+^ESCTCI877695	Cipramil 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI879232	Cipramil 20mg tablets (Dowelhurst Ltd)
+^ESCTCI879233	Cipramil 20mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCI914415	Cipramil
+^ESCTCI933571	Cipramil 40mg tablets (Waymade Healthcare Plc)
+^ESCTCI933572	Cipramil 40mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI959250	Cipramil 40mg tablets (Dowelhurst Ltd)
+^ESCTCI959252	Cipramil 40mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCI966409	Cipramil 20mg tablets (DE Pharmaceuticals)
+^ESCTCI966410	Cipramil 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI966411	Cipramil 40mg tablets (DE Pharmaceuticals)
+^ESCTCI966412	Cipramil 40mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI972727	Cipramil 40mg/ml drops (Sigma Pharmaceuticals Plc)
+^ESCTCI972728	Cipramil 40mg/ml drops (Sigma Pharmaceuticals Plc) 15 ml
+^ESCTCI972729	Cipramil 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI972730	Cipramil 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI972731	Cipramil 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI972732	Cipramil 40mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI986151	Cipramil 40mg/ml drops (Waymade Healthcare Plc)
+^ESCTCI986152	Cipramil 40mg/ml drops (Waymade Healthcare Plc) 15 ml
+^ESCTCI988799	Cipramil 20mg tablets (Lexon (UK) Ltd)
+^ESCTCI988800	Cipramil 20mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTCI988802	Cipramil 40mg tablets (Lexon (UK) Ltd)
+^ESCTCI988803	Cipramil 40mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTCI988804	Cipramil 40mg/ml drops (Lexon (UK) Ltd)
+^ESCTCI988805	Cipramil 40mg/ml drops (Lexon (UK) Ltd) 15 ml
+^ESCTCI992556	Cipramil 40mg/ml drops (Mawdsley-Brooks & Company Ltd)
+^ESCTCI992557	Cipramil 40mg/ml drops (Mawdsley-Brooks & Company Ltd) 15 ml
+^ESCTCI992558	Cipramil 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCI992559	Cipramil 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+CIDR1701NEMIS	Cipramil  Drops  40 mg/ml
+CITA26750EMIS	Cipramil  Tablets  20 mg
+CITA32090EMIS	Cipramil  Tablets  40 mg
+CITA32609EMIS	Cipramil  Tablets  10 mg
+PATA19066NEMIS	Paxoran  Tablets  10 mg
+PATA19067NEMIS	Paxoran  Tablets  20 mg
+PATA19068NEMIS	Paxoran  Tablets  40 mg

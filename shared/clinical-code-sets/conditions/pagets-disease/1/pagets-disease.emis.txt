@@ -25,3 +25,18 @@
 ^ESCTPA482027	Paget's disease of skull
 ^ESCTPA482028	Paget disease of skull
 ^ESCTPA482031	Paget disease-multiple sites
+^ESCTOS419307	Osteitis deformans without bone tumour
+^ESCTOS419308	Osteitis deformans without bone tumor
+^ESCTOS507540	Osteitis deformans of jaw
+^ESCTOS750378	Osteoporosis circumscripta
+^ESCTPA481991	Paget disease-coccyx
+^ESCTPA482005	Paget disease-metacarpal
+^ESCTPA482007	Paget disease-phalanx of finger or thumb
+^ESCTPA482020	Paget disease-calcaneum
+^ESCTPA482022	Paget disease-talus
+^ESCTPA482024	Paget disease-metatarsal
+^ESCTPA482026	Paget disease-phalanx of toe
+^ESCTPA507539	Paget's disease of jaw
+^ESCTPA507541	Paget disease of jaw
+^ESCTPA588812	Pagets disease - hip
+^ESCTSP788085	Spastic paraplegia with Paget disease of bone syndrome

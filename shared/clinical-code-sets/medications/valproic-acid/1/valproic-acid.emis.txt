@@ -4,27 +4,9 @@
 ^ESCT1223939	Valproic acid 300 mg gastro-resistant oral capsule
 ^ESCT1223940	Valproic acid 500 mg gastro-resistant oral capsule
 ^ESCT1223941	Product containing precisely valproic acid 500 milligram/1 each gastro-resistant oral capsule
-^ESCT1305245	Convulex 150mg gastro-resistant capsules (G.L. Pharma UK Ltd)
-^ESCT1305246	Convulex 150mg gastro-resistant capsules (G.L. Pharma UK Ltd) 100 capsule
-^ESCT1305247	Convulex 300mg gastro-resistant capsules (G.L. Pharma UK Ltd)
-^ESCT1305248	Convulex 300mg gastro-resistant capsules (G.L. Pharma UK Ltd) 100 capsule
-^ESCT1305249	Convulex 500mg gastro-resistant capsules (G.L. Pharma UK Ltd)
-^ESCT1305250	Convulex 500mg gastro-resistant capsules (G.L. Pharma UK Ltd) 100 capsule
 ^ESCT1306249	Valproic acid 150mg gastro-resistant capsules 30 capsule
-^ESCT1306250	Convulex 150mg gastro-resistant capsules (G.L. Pharma UK Ltd) 30 capsule 3 x 10 capsules
 ^ESCT1306251	Valproic acid 300mg gastro-resistant capsules 30 capsule
-^ESCT1306252	Convulex 300mg gastro-resistant capsules (G.L. Pharma UK Ltd) 30 capsule 3 x 10 capsules
 ^ESCT1306253	Valproic acid 500mg gastro-resistant capsules 30 capsule
-^ESCT1306254	Convulex 500mg gastro-resistant capsules (G.L. Pharma UK Ltd) 30 capsule 3 x 10 capsules
-^ESCT1306824	Convulex 150mg gastro-resistant capsules (G.L. Pharma UK Ltd) 100 capsule 5 x 20 capsules
-^ESCTCO865583	Convulex 150mg gastro-resistant capsules (Pfizer Ltd)
-^ESCTCO865584	Convulex 150mg gastro-resistant capsules (Pfizer Ltd) 100 capsule
-^ESCTCO865586	Convulex 300mg gastro-resistant capsules (Pfizer Ltd)
-^ESCTCO865587	Convulex 300mg gastro-resistant capsules (Pfizer Ltd) 100 capsule
-^ESCTCO865589	Convulex 500mg gastro-resistant capsules (Pfizer Ltd)
-^ESCTCO865590	Convulex 500mg gastro-resistant capsules (Pfizer Ltd) 100 capsule
-^ESCTDE936676	Depakote 125mg sprinkle gastro-resistant capsules (Imported (United States))
-^ESCTDE936677	Depakote 125mg sprinkle gastro-resistant capsules (Imported (United States)) 100 capsule
 ^ESCTVA610737	Valproic acid 150mg gastro-resistant capsules
 ^ESCTVA610738	Valproic acid 150mg e/c capsule
 ^ESCTVA610739	Valproic acid 300mg gastro-resistant capsules
@@ -52,10 +34,65 @@
 ^ESCTVA988314	Valproic acid 500mg/5ml oral suspension (Special Order) 1 ml
 ^ESCTVA988358	Valproic acid 500mg/5ml oral solution
 ^ESCTVA988359	Valproic acid 500mg/5ml oral suspension
-COE/23444EMIS	Convulex  E/c capsules  150 mg
-COE/23445EMIS	Convulex  E/c capsules  300 mg
-COE/23446EMIS	Convulex  E/c capsules  500 mg
 VAE/23450EMIS	Valproic Acid  E/c capsules  150 mg
 VAE/23451EMIS	Valproic Acid  E/c capsules  300 mg
 VAE/23452EMIS	Valproic Acid  E/c capsules  500 mg
 VAOR116966NEMIS	Valproic Acid  Oral suspension  500 mg/5 ml
+^ESCT1185356	Product containing only valproic acid 250 mg/1 each oral capsule
+^ESCT1217001	Valproic acid
+^ESCT1217002	Valproic acid product
+^ESCT1228577	Valproic acid 250 mg/1 each oral capsule
+^ESCT1228578	Product containing precisely valproic acid 250 milligram/1 each conventional release oral capsule
+^ESCT1228579	Valproic acid 250 mg oral capsule
+^ESCT1249732	Valproic acid 250mg gastro-resistant tablets 30 tablet
+^ESCT1249734	Valproic acid 500mg gastro-resistant tablets 30 tablet
+^ESCT1357126	Valproic acid only product
+^ESCT1360156	Valproic acid only product in oral dose form
+^ESCT1360157	Valproic acid only product in parenteral dose form
+^ESCT1364248	Valproic acid 100 mg oral tablet
+^ESCT1364249	Valproic acid 100 mg/mL solution for injection
+^ESCT1364250	Valproic acid 50 mg/mL oral solution
+^ESCT1384034	Valproic acid 250 mg gastro-resistant oral capsule
+^ESCT1384087	Valproic acid 125 mg gastro-resistant oral capsule
+^ESCT1384908	Valproic acid-containing product in oral dose form
+^ESCT1384909	Valproic acid-containing product in parenteral dose form
+^ESCTPR272139	Product containing valproic acid
+^ESCTPR641023	Product containing valproic acid 250 mg/1 each oral capsule
+^ESCTPR771452	Product containing valproic acid in oral dosage form
+^ESCTPR771454	Product containing valproic acid in parenteral dosage form
+^ESCTVA272138	Valproic acid
+^ESCTVA641022	Valproic acid 250 mg/1 each oral capsule
+^ESCTVA705251	Valproic acid 250mg/5mL syrup
+^ESCTVA720721	Valproic acid 500mg delayed release capsule
+^ESCTVA721218	Valproic acid 250mg delayed release capsule
+^ESCTVA723843	Valproic acid 125mg delayed release capsule
+^ESCTVA771451	Valproic acid in oral dosage form
+^ESCTVA771453	Valproic acid in parenteral dosage form
+^ESCTVA864924	Valproic acid 250mg gastro-resistant tablets 90 tablet
+^ESCTVA864932	Valproic acid 500mg gastro-resistant tablets 90 tablet
+^ESCT1305245	Convulex 150mg gastro-resistant capsules (G.L. Pharma UK Ltd)
+^ESCT1305246	Convulex 150mg gastro-resistant capsules (G.L. Pharma UK Ltd) 100 capsule
+^ESCT1305247	Convulex 300mg gastro-resistant capsules (G.L. Pharma UK Ltd)
+^ESCT1305248	Convulex 300mg gastro-resistant capsules (G.L. Pharma UK Ltd) 100 capsule
+^ESCT1305249	Convulex 500mg gastro-resistant capsules (G.L. Pharma UK Ltd)
+^ESCT1305250	Convulex 500mg gastro-resistant capsules (G.L. Pharma UK Ltd) 100 capsule
+^ESCT1306250	Convulex 150mg gastro-resistant capsules (G.L. Pharma UK Ltd) 30 capsule 3 x 10 capsules
+^ESCT1306252	Convulex 300mg gastro-resistant capsules (G.L. Pharma UK Ltd) 30 capsule 3 x 10 capsules
+^ESCT1306254	Convulex 500mg gastro-resistant capsules (G.L. Pharma UK Ltd) 30 capsule 3 x 10 capsules
+^ESCT1306824	Convulex 150mg gastro-resistant capsules (G.L. Pharma UK Ltd) 100 capsule 5 x 20 capsules
+^ESCTCO865583	Convulex 150mg gastro-resistant capsules (Pfizer Ltd)
+^ESCTCO865584	Convulex 150mg gastro-resistant capsules (Pfizer Ltd) 100 capsule
+^ESCTCO865586	Convulex 300mg gastro-resistant capsules (Pfizer Ltd)
+^ESCTCO865587	Convulex 300mg gastro-resistant capsules (Pfizer Ltd) 100 capsule
+^ESCTCO865589	Convulex 500mg gastro-resistant capsules (Pfizer Ltd)
+^ESCTCO865590	Convulex 500mg gastro-resistant capsules (Pfizer Ltd) 100 capsule
+COE/23444EMIS	Convulex  E/c capsules  150 mg
+COE/23445EMIS	Convulex  E/c capsules  300 mg
+COE/23446EMIS	Convulex  E/c capsules  500 mg
+^ESCTVA450830	Valproic acid 500mg gastro-resistant tablets
+^ESCTVA450831	Valproic acid 500mg e/c tablet
+^ESCTVA450832	Valproic acid 500mg gastro-resistant tablet
+^ESCTVA450833	Valproic acid 250mg gastro-resistant tablets
+^ESCTVA450834	Valproic acid 250mg e/c tablet
+^ESCTVA450835	Valproic acid 250mg gastro-resistant tablet
+^ESCTVA646544	Valproic acid

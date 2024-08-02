@@ -1,0 +1,3 @@
+203082005	Fibromyalgia
+24693007	Fibromyositis (disorder)
+82991003	Generalized aches and pains (finding)

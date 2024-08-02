@@ -1,0 +1,11 @@
+d4a..	Pericyazine
+d4az.	Pericyazine 10mg/5mL syrup
+d4a4.	Neulactil Forte 10mg/5mL syrup
+d4ay.	Pericyazine 25mg tablet
+d4a3.	Neulactil 25mg tablet
+d4ax.	Pericyazine 10mg tablet
+d4a2.	Neulactil 10mg tablet
+d4aw.	Pericyazine 2.5mg tablet
+d4a1.	Neulactil 2.5mg tablet
+x02km	Neulactil
+x02kn	Neulactil Forte

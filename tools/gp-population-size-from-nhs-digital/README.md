@@ -7,13 +7,13 @@ If someone wants to know the size of the population of each GP practice broken d
 If that file doesn't exist, then run the following:
 
 ```
-node main.js generate
+node --max-old-space-size=4096 main.js generate
 ```
 
 If you need to update the file with more recent data then execute:
 
 ```
-node main.js
+node --max-old-space-size=4096 main.js
 ```
 
 ## Background

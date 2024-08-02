@@ -1,0 +1,6 @@
+305799001	Seen by pain management - service (finding)
+306109009	Referral to pain management service (procedure)
+307373005	Referral to acute pain service (procedure)
+310071006	Pain management service (qualifier value)
+310072004	Acute pain service (qualifier value)
+885251000000103	Private referral to pain management service (procedure)

@@ -1,0 +1,56 @@
+^ESCT1181531	Product containing only ziprasidone hydrochloride 20 mg/1 each oral capsule
+^ESCT1181532	Product containing only ziprasidone hydrochloride 80 mg/1 each oral capsule
+^ESCT1187538	Product containing only ziprasidone hydrochloride 40 mg/1 each oral capsule
+^ESCT1187539	Product containing only ziprasidone hydrochloride 60 mg/1 each oral capsule
+^ESCT1227689	Ziprasidone
+^ESCT1227690	Ziprasidone product
+^ESCT1228196	Ziprasidone (as ziprasidone hydrochloride) 20 mg oral capsule
+^ESCT1228197	Product containing precisely ziprasidone (as ziprasidone hydrochloride) 20 milligram/1 each conventional release oral capsule
+^ESCT1228198	Ziprasidone hydrochloride 40 mg/1 each oral capsule
+^ESCT1228199	Product containing precisely ziprasidone hydrochloride 40 milligram/1 each conventional release oral capsule
+^ESCT1228200	Ziprasidone hydrochloride 40 mg oral capsule
+^ESCT1228201	Product containing precisely ziprasidone (as ziprasidone hydrochloride) 60 milligram/1 each conventional release oral capsule
+^ESCT1228202	Ziprasidone (as ziprasidone hydrochloride) 60 mg oral capsule
+^ESCT1228203	Ziprasidone hydrochloride 80 mg/1 each oral capsule
+^ESCT1228204	Ziprasidone hydrochloride 80 mg oral capsule
+^ESCT1228205	Product containing precisely ziprasidone hydrochloride 80 milligram/1 each conventional release oral capsule
+^ESCT1357200	Ziprasidone only product
+^ESCT1360215	Ziprasidone only product in oral dose form
+^ESCT1360216	Ziprasidone only product in parenteral dose form
+^ESCT1364474	Ziprasidone (as ziprasidone mesilate) 20 mg/mL solution for injection
+^ESCT1364475	Ziprasidone (as ziprasidone mesylate) 20 mg/mL solution for injection
+^ESCT1383577	Ziprasidone-containing product in oral dose form
+^ESCT1383578	Ziprasidone-containing product in parenteral dose form
+^ESCTPR638041	Product containing ziprasidone
+^ESCTPR640023	Product containing ziprasidone hydrochloride 20 mg/1 each oral capsule
+^ESCTPR640025	Product containing ziprasidone hydrochloride 40 mg/1 each oral capsule
+^ESCTPR640028	Product containing ziprasidone hydrochloride 60 mg/1 each oral capsule
+^ESCTPR640030	Product containing ziprasidone hydrochloride 80 mg/1 each oral capsule
+^ESCTPR708315	Product containing ziprasidone in oral dosage form
+^ESCTPR708317	Product containing ziprasidone in parenteral dosage form
+^ESCTZE1008125	Zeldox 40mg capsules (Imported (Sweden))
+^ESCTZE1008128	Zeldox 40mg capsules (Imported (Sweden)) 60 capsule
+^ESCTZE1020715	Zeldox 80mg capsules (Imported (Sweden))
+^ESCTZE1020716	Zeldox 80mg capsules (Imported (Sweden)) 30 capsule
+^ESCTZE1029006	Zeldox 60mg capsules (Imported (Sweden))
+^ESCTZE1029007	Zeldox 60mg capsules (Imported (Sweden)) 60 capsule
+^ESCTZI1008123	Ziprasidone 40mg capsules 60 capsule
+^ESCTZI1008183	Ziprasidone 40mg capsules
+^ESCTZI1020714	Ziprasidone 80mg capsules 30 capsule
+^ESCTZI1020813	Ziprasidone 80mg capsules
+^ESCTZI1029003	Ziprasidone 60mg capsules 60 capsule
+^ESCTZI1098326	Ziprasidone 20mg capsules 1 capsule
+^ESCTZI1098327	Ziprasidone 20mg capsules (Special Order)
+^ESCTZI1098329	Ziprasidone 20mg capsules (Special Order) 1 capsule
+^ESCTZI638040	Ziprasidone
+^ESCTZI640021	Ziprasidone 20mg capsules
+^ESCTZI640022	Ziprasidone hydrochloride 20 mg/1 each oral capsule
+^ESCTZI640024	Ziprasidone hydrochloride 40 mg/1 each oral capsule
+^ESCTZI640026	Ziprasidone 60mg capsules
+^ESCTZI640027	Ziprasidone hydrochloride 60 mg/1 each oral capsule
+^ESCTZI640029	Ziprasidone hydrochloride 80 mg/1 each oral capsule
+^ESCTZI677729	Ziprasidone mesylate 20mg/mL injection solution
+^ESCTZI708314	Ziprasidone in oral dosage form
+^ESCTZI708316	Ziprasidone in parenteral dosage form
+ZICA51956NEMIS	Ziprasidone  Capsules  40 mg
+ZICA51958NEMIS	Ziprasidone  Capsules  80 mg

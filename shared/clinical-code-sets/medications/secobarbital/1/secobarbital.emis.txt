@@ -1,0 +1,79 @@
+^ESCT1179417	Product containing only amobarbital sodium 100 mg and secobarbital sodium 100 mg/1 each oral capsule
+^ESCT1188547	Product containing only amobarbital sodium 50 mg and secobarbital sodium 50 mg/1 each oral capsule
+^ESCT1206216	Amobarbital and secobarbital in oral dosage form
+^ESCT1206217	Product containing amobarbital and secobarbital in oral dosage form
+^ESCT1206795	Secobarbital in oral dosage form
+^ESCT1206796	Product containing secobarbital in oral dosage form
+^ESCT1218262	Secobarbital
+^ESCT1218263	Secobarbital product
+^ESCT1223377	Secobarbital sodium 50 mg oral capsule
+^ESCT1223378	Product containing precisely secobarbital sodium 50 milligram/1 each conventional release oral capsule
+^ESCT1223384	Product containing precisely secobarbital sodium 100 milligram/1 each conventional release oral capsule
+^ESCT1223385	Secobarbital sodium 100 mg oral capsule
+^ESCT1229263	Amobarbital sodium 50 mg and secobarbital sodium 50 mg oral capsule
+^ESCT1229264	Product containing precisely amobarbital sodium 50 milligram and secobarbital sodium 50 milligram/1 each conventional release oral capsule
+^ESCT1229467	Amobarbital sodium 100 mg and secobarbital sodium 100 mg/1 each oral capsule
+^ESCT1229468	Amobarbital sodium 100 mg and secobarbital sodium 100 mg oral capsule
+^ESCT1229469	Product containing precisely amobarbital sodium 100 milligram and secobarbital sodium 100 milligram/1 each conventional release oral capsule
+^ESCT1233732	Amobarbital and secobarbital product
+^ESCT1353485	Amobarbital and secobarbital only product
+^ESCT1356700	Secobarbital only product
+^ESCT1357476	Amobarbital and secobarbital only product in oral dose form
+^ESCT1359822	Secobarbital only product in oral dose form
+^ESCT1386166	Amobarbital- and secobarbital-containing product in oral dose form
+^ESCT1386444	Secobarbital-containing product in oral dose form
+^ESCTAM642572	Amobarbital 50mg / Secobarbital sodium 50mg capsules
+^ESCTAM642573	Amobarbital sodium 50 mg and secobarbital sodium 50 mg/1 each oral capsule
+^ESCTAM646058	Amobarbital sodium 100 mg and secobarbital sodium 100 mg/1 each oral capsule
+^ESCTAM698776	Amobarbital + Secobarbital
+^ESCTAM698777	Amobarbital + secobarbital
+^ESCTAM863722	Amobarbital 50mg / Secobarbital sodium 50mg capsules 100 capsule
+^ESCTAM979785	Amobarbital 50mg / Secobarbital sodium 50mg capsules (Special Order)
+^ESCTAM979786	Amobarbital 50mg / Secobarbital sodium 50mg capsules 1 capsule
+^ESCTAM979787	Amobarbital 50mg / Secobarbital sodium 50mg capsules (Special Order) 1 capsule
+^ESCTAM981061	Amobarbital 50mg / Secobarbital sodium 50mg capsules
+^ESCTPR318437	Product containing secobarbital
+^ESCTPR642574	Product containing amobarbital sodium 50 mg and secobarbital sodium 50 mg/1 each oral capsule
+^ESCTPR646059	Product containing amobarbital sodium 100 mg and secobarbital sodium 100 mg/1 each oral capsule
+^ESCTPR698778	Product containing amobarbital and secobarbital
+^ESCTSE1022722	Secobarbital sodium 100mg capsules 1 capsule
+^ESCTSE1022723	Secobarbital sodium 100mg capsules (Special Order)
+^ESCTSE1022724	Secobarbital sodium 100mg capsules (Special Order) 1 capsule
+^ESCTSE1030052	Secobarbital sodium 50mg capsules 1 capsule
+^ESCTSE1030053	Secobarbital sodium 50mg capsules (Special Order)
+^ESCTSE1030054	Secobarbital sodium 50mg capsules (Special Order) 1 capsule
+^ESCTSE318436	Secobarbital
+^ESCTSE609187	Secobarbital sodium 50mg capsules
+^ESCTSE609196	Secobarbital sodium 100mg capsules
+^ESCTSE864866	Secobarbital sodium 100mg capsules 100 capsule
+^ESCTSE867100	Secobarbital sodium 50mg capsules 100 capsule
+^ESCTSE948952	Secobarbital sodium 25mg capsules 1 capsule
+^ESCTSE948955	Secobarbital sodium 25mg capsules (Special Order)
+^ESCTSE948956	Secobarbital sodium 25mg capsules (Special Order) 1 capsule
+^ESCTSE949574	Secobarbital sodium 25mg capsules
+SECA17833NEMIS	Secobarbital Sodium  Capsules  100 mg
+SECA17834NEMIS	Secobarbital Sodium  Capsules  50 mg
+SECA18791NEMIS	Secobarbital And Amobarbital  Capsules  50 mg + 50 mg
+^ESCT1181070	Product containing only quinalbarbitone sodium 50 mg/1 each oral capsule
+^ESCT1181370	Product containing only quinalbarbitone sodium 100 mg/1 each oral capsule
+^ESCTPR609189	Product containing quinalbarbitone sodium 50 mg/1 each oral capsule
+^ESCTPR609198	Product containing quinalbarbitone sodium 100 mg/1 each oral capsule
+^ESCTQU609188	Quinalbarbitone sodium 50 mg/1 each oral capsule
+^ESCTQU609197	Quinalbarbitone sodium 100 mg/1 each oral capsule
+QUCA5354	Quinalbarbitone Sodium  Capsules  100 mg
+QUCA7064	Quinalbarbitone Sodium  Capsules  50 mg
+^ESCT1387221	Seconal Sodium 100mg capsules (Special Order)
+^ESCT1387222	Seconal Sodium 100mg capsules (Special Order) 100 capsule
+^ESCT1387225	Seconal Sodium 50mg capsules (Special Order)
+^ESCT1387226	Seconal Sodium 50mg capsules (Special Order) 100 capsule
+^ESCTSE864868	Seconal Sodium 100mg capsules (Flynn Pharma Ltd)
+^ESCTSE864871	Seconal Sodium 100mg capsules (Flynn Pharma Ltd) 100 capsule
+^ESCTSE867102	Seconal Sodium 50mg capsules (Flynn Pharma Ltd)
+^ESCTSE867105	Seconal Sodium 50mg capsules (Flynn Pharma Ltd) 100 capsule
+SECA2509	Seconal Sodium  Capsules  100 mg
+SECA2510	Seconal Sodium  Capsules  50 mg
+^ESCT1387215	Tuinal 100mg Pulvules (Special Order)
+^ESCT1387216	Tuinal 100mg Pulvules (Special Order) 100 capsule
+^ESCTTU863724	Tuinal 100mg Pulvules (Flynn Pharma Ltd)
+^ESCTTU863726	Tuinal 100mg Pulvules (Flynn Pharma Ltd) 100 capsule
+TUCA2972	Tuinal  Capsules  

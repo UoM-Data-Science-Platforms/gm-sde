@@ -320,3 +320,71 @@ ESCTFE1	Fear of water
 ESCTSI18	Signposting to Anxiety UK
 ESCTSI21	Signposting to OCD-UK (Obsessive-Compulsive Disorder-UK)
 ESCTSI22	Signposting to OCD (Obsessive-Compulsive Disorder) Action
+^ESCT1167675	Anxiety disorder caused by synthetic cannabinoid
+^ESCT1167676	Synthetic cannabinoid-induced anxiety disorder
+^ESCT1169017	Anxiety disorder caused by stimulant
+^ESCT1169254	Anxiety disorder caused by synthetic cathinone
+^ESCT1169255	Synthetic cathinone-induced anxiety disorder
+^ESCT1170572	Anxiety in pregnancy
+^ESCT1212756	Recurrent major depressive disorder co-occurrent with anxiety in full remission
+^ESCT1361975	Adjustment disorder with mixed anxiety and depressed mood
+^ESCT1390970	Anxiety due to dementia
+^ESCT1390971	Anxiety in dementia
+^ESCT1400822	Anxiety disorder caused by methamphetamine
+^ESCT1416363	Acute vestibular syndrome due to anxiety and fear
+^ESCTAL306279	Alcohol-induced anxiety disorder
+^ESCTAL306280	Alcohol induced anxiety disorder
+^ESCTAM383948	Amphetamine-induced anxiety disorder
+^ESCTAM383949	Amphetamine induced anxiety disorder
+^ESCTAN250013	Anxiety disorder of childhood OR adolescence
+^ESCTAN259321	Anticipatory anxiety, severe
+^ESCTAN268251	Anticipatory anxiety, mild
+^ESCTAN309072	Anticipatory anxiety, moderate
+^ESCTAN311002	Anxiety disorder of adolescence
+^ESCTAN335796	Anxiety disorder due to a general medical condition
+^ESCTAN335797	Anxiety disorder due to medical disorder
+^ESCTAN335798	Anxiety disorder due to general medical condition
+^ESCTAN336719	Anxiety disorder of childhood
+^ESCTAN363000	Anxiety hyperventilation
+^ESCTAN494443	Anxiety about resuming sexual relations
+^ESCTAN494448	Anxiety about not coping with parenthood
+^ESCTAN713775	Anxiety about loss of memory
+^ESCTAN785908	Anxiety disorder caused by opioid
+^ESCTAN786001	Anxiety disorder caused by methylenedioxymethamphetamine
+^ESCTAN786002	Anxiety disorder caused by MDMA (methylenedioxymethamphetamine)
+^ESCTAN786027	Anxiety disorder caused by dissociative drug
+^ESCTAN786029	Anxiety disorder caused by ketamine
+^ESCTAN801032	Anxiety disorder caused by drug
+^ESCTAN810367	Anxiety about lethargy
+^ESCTAN810368	Anxiety about mood
+^ESCTAN932267	Anxiety disorder in mother complicating childbirth
+^ESCTAN932268	Anxiety in childbirth
+^ESCTCA314290	Cannabis-induced anxiety disorder
+^ESCTCA314291	Cannabis induced anxiety disorder
+^ESCTCA364913	Caffeine-induced anxiety disorder
+^ESCTCA364914	Caffeine induced anxiety disorder
+^ESCTCO333438	Cocaine-induced anxiety disorder
+^ESCTCO333439	Cocaine induced anxiety disorder
+^ESCTDI786028	Dissociative drug-induced anxiety disorder
+^ESCTDR419623	Dream anxiety disorder
+^ESCTEC786003	Ecstasy type drug-induced anxiety disorder
+^ESCTHA274225	Hallucinogen-induced anxiety disorder
+^ESCTHA274226	Hallucinogen induced anxiety disorder
+^ESCTIL990112	Illness anxiety disorder
+^ESCTIN283202	Inhalant-induced anxiety disorder
+^ESCTIN283203	Inhalant induced anxiety disorder
+^ESCTKE786030	Ketamine-induced anxiety disorder
+^ESCTMI990116	Mild major depressive disorder co-occurrent with anxiety single episode
+^ESCTMO990126	Moderate major depressive disorder co-occurrent with anxiety single episode
+^ESCTOP785909	Opioid-induced anxiety disorder
+^ESCTPC340927	PCP induced anxiety disorder
+^ESCTPH340926	Phencyclidine-induced anxiety disorder
+^ESCTPS331015	Psychoactive substance-induced organic anxiety disorder
+^ESCTSE252539	Sedative, hypnotic AND/OR anxiolytic-induced anxiety disorder
+^ESCTSE381066	Severe anxiety (panic)
+^ESCTSE388358	Separation anxiety disorder of childhood, early onset
+^ESCTSE990128	Severe major depressive disorder co-occurrent with anxiety single episode
+
+
+
+

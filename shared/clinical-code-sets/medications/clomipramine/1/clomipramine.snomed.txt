@@ -172,3 +172,71 @@
 36959511000001100	Clomipramine 250mg/5ml oral suspension
 36959611000001101	Clomipramine 250mg/5ml oral suspension
 36961711000001103	Clomipramine 250mg/5ml oral suspension
+96209002	Product containing clomipramine (medicinal product)
+116520006	Product containing clomipramine hydrochloride (medicinal product)
+321789007	Clomipramine hydrochloride 12.5mg/mL injection solution 2mL ampule (product)
+321790003	Clomipramine hydrochloride 75mg m/r tablet (product)
+376524003	Product containing precisely clomipramine hydrochloride 75 milligram/1 each conventional release oral capsule (clinical drug)
+714141004	Product containing clomipramine in oral dose form (medicinal product form)
+765598007	Product containing precisely clomipramine hydrochloride 75 milligram/1 each prolonged-release oral tablet (clinical drug)
+768901001	Product containing clomipramine in parenteral dose form (medicinal product form)
+769646009	Product containing precisely clomipramine hydrochloride 25 milligram/2 milliliter conventional release solution for injection ampule (clinical drug)
+775307008	Clomipramine (product)
+778810007	Product containing only clomipramine in oral dose form (medicinal product form)
+778811006	Product containing only clomipramine in parenteral dose form (medicinal product form)
+781812003	Product containing precisely clomipramine hydrochloride 12.5 milligram/1 milliliter conventional release solution for injection (clinical drug)
+42269911000001104	Clomipramine 50mg capsules (product)
+13229011000001103	Clomipramine 50mg capsules (Dowelhurst Ltd) (product)
+42269711000001101	Clomipramine 10mg capsules (product)
+13227611000001100	Clomipramine 10mg capsules (Dowelhurst Ltd) (product)
+42269811000001109	Clomipramine 25mg capsules (product)
+13228111000001109	Clomipramine 25mg capsules (Dowelhurst Ltd) (product)
+5333911000001100	Anafranil SR 75mg tablets (PI) (Waymade Ltd) (product)
+5615711000001101	Anafranil SR 75mg tablets (PI) (Dowelhurst Ltd) (product)
+13828111000001103	Anafranil SR 75mg tablets (Doncaster Pharmaceuticals Ltd) (product)
+14193311000001106	Anafranil SR 75mg tablets (Sigma Pharmaceuticals Plc) (product)
+16138211000001108	Anafranil SR 75mg tablets (Lexon (UK) Ltd) (product)
+16262311000001107	Anafranil SR 75mg tablets (Mawdsley-Brooks & Company Ltd) (product)
+16540611000001101	Anafranil SR 75mg tablets (Stephar (U.K.) Ltd) (product)
+17584911000001106	Anafranil SR 75mg tablets (Necessity Supplies Ltd) (product)
+215901000001100	Clomipramine hydrochloride 25mg/5mL syrup
+646301000001100	Clomipramine hydrochloride 50mg tablet
+684901000001104	Clomipramine hydrochloride 10mg tablet
+716601000001109	Clomipramine hydrochloride 25mg tablet
+314101000001109	Clomipramine hydrochloride 75mg m/r tablet - product
+379201000001108	Clomipramine hydrochloride 10mg capsule - product
+449401000001102	Clomipramine hydrochloride 25mg capsule - product
+519701000001109	Clomipramine hydrochloride 50mg capsule - product
+707901000001102	Clomipramine hydrochloride 25mg/2mL injection
+13229311000001100	Clomipramine 50mg capsules (Dowelhurst Ltd) 28 capsule (product)
+13228611000001101	Clomipramine 25mg capsules (Dowelhurst Ltd) 100 capsule (product)
+13228211000001103	Clomipramine 25mg capsules (Dowelhurst Ltd) 28 capsule (product)
+13227811000001101	Clomipramine 10mg capsules (Dowelhurst Ltd) 28 capsule (product)
+19691811000001101	Anafranil SR 75mg tablets (Sigma Pharmaceuticals Plc) 28 tablet (product)
+17585411000001102	Anafranil SR 75mg tablets (Necessity Supplies Ltd) 28 tablet (product)
+16262511000001101	Anafranil SR 75mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet (product)
+16138411000001107	Anafranil SR 75mg tablets (Lexon (UK) Ltd) 28 tablet (product)
+13828211000001109	Anafranil SR 75mg tablets (Doncaster Pharmaceuticals Ltd) 28 tablet (product)
+5616011000001107	Anafranil SR 75mg tablets (PI) (Dowelhurst Ltd) 28 tablet 2 x 14 tablets (product)
+5334011000001102	Anafranil SR 75mg tablets (PI) (Waymade Ltd) 28 tablet 2 x 14 tablets (product)
+5616211000001102	Anafranil SR 75mg tablets (PI) (Dowelhurst Ltd) 30 tablet 3 x 10 tablets (product)
+18522411000001109	Anafranil SR 75mg tablets (Mawdsley-Brooks & Company Ltd) 20 tablet (product)
+17585011000001106	Anafranil SR 75mg tablets (Necessity Supplies Ltd) 20 tablet (product)
+16540811000001102	Anafranil SR 75mg tablets (Stephar (U.K.) Ltd) 20 tablet (product)
+16138311000001100	Anafranil SR 75mg tablets (Lexon (UK) Ltd) 20 tablet (product)
+14193411000001104	Anafranil SR 75mg tablets (Sigma Pharmaceuticals Plc) 20 tablet (product)
+13618511000001106	Anafranil SR 75mg tablets (Waymade Healthcare Plc) 20 tablet (product)
+5615911000001104	Anafranil SR 75mg tablets (PI) (Dowelhurst Ltd) 20 tablet 2 x 10 tablets (product)
+13177601000001100	Clomipramine 25mg/2ml solution for injection ampoules (product)
+13177701000001105	Clomipramine 75mg modified-release tablets (product)
+2447701000001101	Tranquax 10mg capsule
+2447801000001105	Tranquax 25mg capsule
+2447901000001104	Tranquax 50mg capsule
+65001000001109	Anafranil 25mg/5mL syrup
+86301000001104	Anafranil 10mg capsule
+163201000001105	Anafranil 25mg capsule
+219101000001101	Anafranil SR 75mg tablet
+236501000001109	Anafranil 50mg capsule
+567001000001101	Anafranil 25mg/2mL injection
+9207501000001108	Anafranil (product)
+9207601000001107	Anafranil SR (product)

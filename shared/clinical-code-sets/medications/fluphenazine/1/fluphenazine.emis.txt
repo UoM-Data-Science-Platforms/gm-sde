@@ -44,3 +44,222 @@ MOIN10029BRIDL	Modecate  Injection  50 mg/2 ml ampoule
 MOIN1859	Modecate Concentrate  Injection  100 mg/1 ml ampoule
 FLIN4937	Fluphenazine Decanoate  Injection  100 mg/1 ml ampoule
 MOTA1863	Moditen  Tablets  5 mg
+^ESCT1178396	Product containing only fluphenazine hydrochloride 10 mg/1 each oral tablet
+^ESCT1181076	Product containing only fluphenazine hydrochloride 2.5 mg/1 each oral tablet
+^ESCT1181077	Product containing only fluphenazine hydrochloride 5 mg/1 each oral tablet
+^ESCT1181104	Product containing only fluphenazine hydrochloride 1.5 mg and nortriptyline 30 mg/1 each oral tablet
+^ESCT1181105	Product containing only fluphenazine hydrochloride 0.5 milligram and nortriptyline 10 milligram/1 each oral tablet
+^ESCT1181371	Product containing only fluphenazine hydrochloride 1 mg/1 each oral tablet
+^ESCT1181383	Product containing fluphenazine decanoate
+^ESCT1207214	Fluphenazine and nortriptyline in oral dosage form
+^ESCT1207215	Product containing fluphenazine and nortriptyline in oral dosage form
+^ESCT1209435	Fluphenazine decanoate 50 mg/0.5 mL solution for injection ampoule
+^ESCT1209436	Product containing precisely fluphenazine decanoate 50 milligram/0.5 milliliter conventional release solution for injection ampule
+^ESCT1209437	Fluphenazine decanoate 50 mg/0.5 mL solution for injection ampule
+^ESCT1209438	Fluphenazine decanoate 100 mg/mL solution for injection ampoule
+^ESCT1209439	Product containing precisely fluphenazine decanoate 100 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209440	Fluphenazine decanoate 100 mg/mL solution for injection ampule
+^ESCT1209441	Fluphenazine decanoate 12.5 mg/0.5 mL solution for injection ampoule
+^ESCT1209442	Product containing precisely fluphenazine decanoate 12.5 milligram/0.5 milliliter conventional release solution for injection ampule
+^ESCT1209443	Fluphenazine decanoate 12.5 mg/0.5 mL solution for injection ampule
+^ESCT1209444	Fluphenazine decanoate 250 mg/10 mL solution for injection vial
+^ESCT1209445	Product containing precisely fluphenazine decanoate 250 milligram/10 milliliter conventional release solution for injection vial
+^ESCT1209446	Fluphenazine decanoate 25 mg/mL solution for injection ampoule
+^ESCT1209447	Product containing precisely fluphenazine decanoate 25 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209448	Fluphenazine decanoate 25 mg/mL solution for injection ampule
+^ESCT1209449	Fluphenazine decanoate 25 mg/mL solution for injection syringe
+^ESCT1209450	Product containing precisely fluphenazine decanoate 25 milligram/1 milliliter conventional release solution for injection syringe
+^ESCT1209451	Fluphenazine decanoate 50 mg/2 mL solution for injection ampoule
+^ESCT1209452	Fluphenazine decanoate 50 mg/2 mL solution for injection ampule
+^ESCT1209453	Product containing precisely fluphenazine decanoate 50 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1209454	Fluphenazine decanoate 50 mg/2 mL solution for injection syringe
+^ESCT1209455	Product containing precisely fluphenazine decanoate 50 milligram/2 milliliter conventional release solution for injection syringe
+^ESCT1215675	Fluphenazine decanoate 100mg/1ml solution for injection ampoules
+^ESCT1215676	Fluphenazine decanoate 12.5mg/0.5ml solution for injection ampoules
+^ESCT1215677	Fluphenazine decanoate 250mg/10ml solution for injection vials
+^ESCT1215678	Fluphenazine decanoate 25mg/1ml solution for injection ampoules
+^ESCT1215679	Fluphenazine decanoate 25mg/1ml solution for injection pre-filled syringes
+^ESCT1215680	Fluphenazine decanoate 50mg/0.5ml solution for injection ampoules
+^ESCT1215681	Fluphenazine decanoate 50mg/2ml solution for injection ampoules
+^ESCT1215682	Fluphenazine decanoate 50mg/2ml solution for injection pre-filled syringes
+^ESCT1218202	Fluphenazine
+^ESCT1218203	Fluphenazine product
+^ESCT1223401	Product containing precisely fluphenazine hydrochloride 1 milligram/1 each conventional release oral tablet
+^ESCT1223402	Product containing precisely fluphenazine hydrochloride 2.5 milligram/1 each conventional release oral tablet
+^ESCT1223403	Product containing precisely fluphenazine hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1223489	Fluphenazine decanoate
+^ESCT1223490	Fluphenazine decanoate product
+^ESCT1223491	Fluphenazine enanthate
+^ESCT1223492	Product containing fluphenazine enanthate
+^ESCT1223493	Fluphenazine enanthate product
+^ESCT1223568	Product containing precisely fluphenazine hydrochloride 1.5 milligram and nortriptyline 30 milligram/1 each conventional release oral tablet
+^ESCT1223569	Fluphenazine hydrochloride 500 microgram and nortriptyline 10 mg oral tablet
+^ESCT1223570	Product containing precisely fluphenazine hydrochloride 500 microgram and nortriptyline 10 milligram/1 each conventional release oral tablet
+^ESCT1228287	Product containing precisely fluphenazine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1233410	Fluphenazine and nortriptyline product
+^ESCT1355086	Fluphenazine only product
+^ESCT1355087	Fluphenazine and nortriptyline only product
+^ESCT1358593	Fluphenazine and nortriptyline only product in oral dose form
+^ESCT1358594	Fluphenazine only product in oral dose form
+^ESCT1358595	Fluphenazine only product in parenteral dose form
+^ESCT1361061	Fluphenazine decanoate 100 mg/mL solution for injection
+^ESCT1361062	Fluphenazine decanoate 25 mg/mL solution for injection
+^ESCT1363119	Fluphenazine hydrochloride 1.5 mg and nortriptyline (as nortriptyline hydrochloride) 30 mg oral tablet
+^ESCT1363120	Fluphenazine hydrochloride 500 microgram and nortriptyline (as nortriptyline hydrochloride) 10 mg oral tablet
+^ESCT1367195	Nortriptyline 10mg / Fluphenazine 500microgram tablets
+^ESCT1367275	Nortriptyline 30mg / Fluphenazine 1.5mg tablets
+^ESCT1370566	Fluphenazine decanoate
+^ESCT1377103	Fluphenazine-containing product
+^ESCT1382053	Fluphenazine-containing product in oral dose form
+^ESCT1383941	Fluphenazine-containing product in parenteral dose form
+^ESCT1386647	Fluphenazine- and nortriptyline-containing product in oral dose form
+^ESCT1403045	Modecate 25mg/1ml solution for injection ampoules (Imported (Germany))
+^ESCT1403046	Modecate 25mg/1ml solution for injection ampoules (Imported (Germany)) 5 ampoule
+^ESCT1403047	Modecate 25mg/1ml solution for injection ampoules (Imported (Denmark))
+^ESCT1403048	Modecate 25mg/1ml solution for injection ampoules (Imported (Denmark)) 5 ampoule
+^ESCT1403049	Modecate Concentrate 100mg/1ml solution for injection ampoules (Imported (Germany))
+^ESCT1403050	Modecate Concentrate 100mg/1ml solution for injection ampoules (Imported (Germany)) 5 ampoule
+^ESCT1424771	Nortriptyline 30mg / Fluphenazine 1.5mg tablets
+^ESCT1424772	Nortriptyline 10mg / Fluphenazine 500microgram tablets
+^ESCTFL316658	Fluphenazine
+^ESCTFL609244	Fluphenazine 1mg tablets
+^ESCTFL609246	Fluphenazine hydrochloride 1 mg oral tablet
+^ESCTFL609247	Fluphenazine 2.5mg tablets
+^ESCTFL609249	Fluphenazine hydrochloride 2.5 mg oral tablet
+^ESCTFL609250	Fluphenazine 5mg tablets
+^ESCTFL609252	Fluphenazine hydrochloride 5 mg oral tablet
+^ESCTFL609508	Fluphenazine decanoate
+^ESCTFL609509	Fluphenazine decanoate 50mg/0.5ml solution for injection ampoules
+^ESCTFL609510	Fluphenazine decanoate 50mg/0.5mL oily injection
+^ESCTFL609511	Fluphenazine decanoate 100mg/mL injection solution 0.5mL ampoule
+^ESCTFL609512	Fluphenazine decanoate 100mg/mL injection solution 0.5mL ampule
+^ESCTFL609513	Fluphenazine decanoate 100mg/1ml solution for injection ampoules
+^ESCTFL609514	Fluphenazine decanoate 100mg/1mL oily injection
+^ESCTFL609515	Fluphenazine decanoate 100mg/mL injection solution 1mL ampoule
+^ESCTFL609516	Fluphenazine decanoate 100mg/mL injection solution 1mL ampule
+^ESCTFL609517	Fluphenazine decanoate 25mg/1ml solution for injection pre-filled syringes
+^ESCTFL609518	Fluphenazine decanoate 25mg/1mL prefilled syringe
+^ESCTFL609519	Fluphenazine decanoate 25mg/mL injection solution 1mL prefilled syringe
+^ESCTFL609520	Fluphenazine decanoate 50mg/2ml solution for injection pre-filled syringes
+^ESCTFL609521	Fluphenazine decanoate 50mg/2mL prefilled syringe
+^ESCTFL609522	Fluphenazine decanoate 25mg/mL injection solution 2mL prefilled syringe
+^ESCTFL609523	Fluphenazine decanoate 12.5mg/0.5ml solution for injection ampoules
+^ESCTFL609524	Fluphenazine decanoate 12.5mg/0.5mL oily injection
+^ESCTFL609525	Fluphenazine decanoate 25mg/mL injection solution 0.5mL ampoule
+^ESCTFL609526	Fluphenazine decanoate 25mg/mL injection solution 0.5mL ampule
+^ESCTFL609527	Fluphenazine decanoate 25mg/1ml solution for injection ampoules
+^ESCTFL609528	Fluphenazine decanoate 25mg/1mL oily injection
+^ESCTFL609529	Fluphenazine decanoate 25mg/mL injection solution 1mL ampoule
+^ESCTFL609530	Fluphenazine decanoate 25mg/mL injection solution 1mL ampule
+^ESCTFL609531	Fluphenazine decanoate 50mg/2ml solution for injection ampoules
+^ESCTFL609532	Fluphenazine decanoate 50mg/2mL oily injection
+^ESCTFL609533	Fluphenazine decanoate 25mg/mL injection solution 2mL ampoule
+^ESCTFL609534	Fluphenazine decanoate 25mg/mL injection solution 2mL ampule
+^ESCTFL609535	Fluphenazine decanoate 250mg/10ml solution for injection vials
+^ESCTFL609536	Fluphenazine decanoate 250mg/10mL oily injection
+^ESCTFL609537	Fluphenazine decanoate 25mg/mL injection solution 10mL vial
+^ESCTFL609538	Fluphenazine enanthate
+^ESCTFL609740	Fluphenazine hydrochloride 1.5 mg and nortriptyline 30 mg oral tablet
+^ESCTFL609743	Fluphenazine hydrochloride 0.5 mg and nortriptyline 10 mg oral tablet
+^ESCTFL640212	Fluphenazine hydrochloride 5mg/mL liquid
+^ESCTFL640227	Fluphenazine hydrochloride 10 mg oral tablet
+^ESCTFL645677	Fluphenazine in oral dosage form
+^ESCTFL696968	Fluphenazine + nortriptyline
+^ESCTFL719953	Fluphenazine in parenteral dosage form
+^ESCTFL801886	Fluphenazine decanoate 100mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFL806756	Fluphenazine decanoate 25mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFL811423	Fluphenazine decanoate 25mg/1ml solution for injection ampoules (Hospira UK Ltd)
+^ESCTFL817574	Fluphenazine decanoate 100mg/1ml solution for injection ampoules (Hospira UK Ltd)
+^ESCTFL819752	Fluphenazine decanoate 25mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL820275	Fluphenazine decanoate 12.5mg/0.5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFL821183	Fluphenazine decanoate 50mg/0.5ml solution for injection ampoules (Hospira UK Ltd)
+^ESCTFL833893	Fluphenazine decanoate 100mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL841094	Fluphenazine decanoate 50mg/0.5ml solution for injection ampoules 10 ampoule
+^ESCTFL841989	Fluphenazine decanoate 25mg/1ml solution for injection ampoules 5 ampoule
+^ESCTFL842502	Fluphenazine decanoate 50mg/0.5ml solution for injection ampoules 5 ampoule
+^ESCTFL847138	Fluphenazine decanoate 100mg/1ml solution for injection ampoules 5 ampoule
+^ESCTFL847662	Fluphenazine decanoate 25mg/1ml solution for injection pre-filled syringes 5 pre-filled disposable injection
+^ESCTFL847793	Fluphenazine decanoate 50mg/2ml solution for injection pre-filled syringes 5 pre-filled disposable injection
+^ESCTFL847831	Fluphenazine decanoate 25mg/1ml solution for injection ampoules 10 ampoule
+^ESCTFL848050	Fluphenazine decanoate 50mg/2ml solution for injection ampoules 5 ampoule
+^ESCTFL848489	Fluphenazine decanoate 250mg/10ml solution for injection vials 1 vial
+^ESCTFL848773	Fluphenazine decanoate 12.5mg/0.5ml solution for injection ampoules 5 ampoule
+^ESCTFL856963	Fluphenazine decanoate 12.5mg/0.5ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTFL856966	Fluphenazine decanoate 25mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTFL856968	Fluphenazine decanoate 25mg/1ml solution for injection ampoules (Hospira UK Ltd) 5 ampoule
+^ESCTFL856970	Fluphenazine decanoate 25mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCTFL856987	Fluphenazine decanoate 50mg/0.5ml solution for injection ampoules (Hospira UK Ltd) 5 ampoule
+^ESCTFL856991	Fluphenazine decanoate 100mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTFL856992	Fluphenazine decanoate 100mg/1ml solution for injection ampoules (Hospira UK Ltd) 5 ampoule
+^ESCTFL856994	Fluphenazine decanoate 100mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCTFL863418	Fluphenazine 1mg tablets 100 tablet
+^ESCTFL864721	Fluphenazine 2.5mg tablets 100 tablet
+^ESCTFL864725	Fluphenazine 5mg tablets 100 tablet
+^ESCTFL872415	Fluphenazine decanoate 50mg/0.5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFL872417	Fluphenazine decanoate 50mg/0.5ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTFL961284	Fluphenazine hydrochloride
+^ESCTFL993590	Fluphenazine 1mg tablets 1 tablet
+^ESCTFL993591	Fluphenazine 1mg tablets (Special Order)
+^ESCTFL993592	Fluphenazine 1mg tablets (Special Order) 1 tablet
+^ESCTMO802097	Modecate 25mg/1ml solution for injection pre-filled syringes (Sanofi-Synthelabo Ltd)
+^ESCTMO803737	Modecate 50mg/2ml solution for injection ampoules (Sanofi)
+^ESCTMO803899	Motival 10mg/500microgram tablets (Sanofi)
+^ESCTMO804788	Modecate 50mg/2ml solution for injection pre-filled syringes (Sanofi-Synthelabo Ltd)
+^ESCTMO818665	Motipress tablets (Sanofi-Synthelabo Ltd)
+^ESCTMO819985	Modecate 25mg/1ml solution for injection ampoules (Sanofi)
+^ESCTMO820054	Modecate Concentrate 100mg/1ml solution for injection ampoules (Sanofi)
+^ESCTMO824906	Modecate 12.5mg/0.5ml solution for injection ampoules (Sanofi)
+^ESCTMO827929	Modecate Concentrate 50mg/0.5ml solution for injection ampoules (Sanofi)
+^ESCTMO833556	Modecate 250mg/10ml solution for injection vials (Sanofi-Synthelabo Ltd)
+^ESCTMO855609	Motival 10mg/500microgram tablets (Sanofi) 100 tablet
+^ESCTMO856907	Motipress tablets (Sanofi-Synthelabo Ltd) 28 tablet
+^ESCTMO856965	Modecate 12.5mg/0.5ml solution for injection ampoules (Sanofi) 5 ampoule
+^ESCTMO856969	Modecate 25mg/1ml solution for injection ampoules (Sanofi) 10 ampoule
+^ESCTMO856971	Modecate 50mg/2ml solution for injection ampoules (Sanofi) 5 ampoule
+^ESCTMO856975	Modecate 250mg/10ml solution for injection vials (Sanofi-Synthelabo Ltd) 1 vial
+^ESCTMO856978	Modecate 25mg/1ml solution for injection pre-filled syringes (Sanofi-Synthelabo Ltd) 5 pre-filled disposable injection
+^ESCTMO856981	Modecate 50mg/2ml solution for injection pre-filled syringes (Sanofi-Synthelabo Ltd) 5 pre-filled disposable injection
+^ESCTMO856985	Modecate Concentrate 50mg/0.5ml solution for injection ampoules (Sanofi) 10 ampoule
+^ESCTMO856993	Modecate Concentrate 100mg/1ml solution for injection ampoules (Sanofi) 5 ampoule
+^ESCTMO863428	Moditen 1mg tablets (Sanofi)
+^ESCTMO863429	Moditen 1mg tablets (Sanofi) 100 tablet
+^ESCTMO864723	Moditen 2.5mg tablets (Sanofi)
+^ESCTMO864724	Moditen 2.5mg tablets (Sanofi) 100 tablet
+^ESCTMO864726	Moditen 5mg tablets (Sanofi-Synthelabo Ltd)
+^ESCTMO864728	Moditen 5mg tablets (Sanofi-Synthelabo Ltd) 100 tablet
+^ESCTMO918702	Motipress
+^ESCTMO918913	Moditen
+^ESCTMO919109	Modecate
+^ESCTMO919780	Motival
+^ESCTNO609738	Nortriptyline 30mg / Fluphenazine 1.5mg tablets
+^ESCTNO609741	Nortriptyline 10mg / Fluphenazine 500microgram tablets
+^ESCTNO696967	Nortriptyline + Fluphenazine
+^ESCTNO696970	Nortriptyline +Fluphenazine
+^ESCTNO848466	Nortriptyline 10mg / Fluphenazine 500microgram tablets 100 tablet
+^ESCTNO848669	Nortriptyline 30mg / Fluphenazine 1.5mg tablets 28 tablet
+^ESCTPR316659	Product containing fluphenazine
+^ESCTPR609245	Product containing fluphenazine hydrochloride 1 mg/1 each oral tablet
+^ESCTPR609248	Product containing fluphenazine hydrochloride 2.5 mg/1 each oral tablet
+^ESCTPR609251	Product containing fluphenazine hydrochloride 5 mg/1 each oral tablet
+^ESCTPR609739	Product containing fluphenazine hydrochloride 1.5 mg and nortriptyline 30 mg/1 each oral tablet
+^ESCTPR609742	Product containing fluphenazine hydrochloride 0.5 milligram and nortriptyline 10 milligram/1 each oral tablet
+^ESCTPR640228	Product containing fluphenazine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR645678	Product containing fluphenazine in oral dosage form
+^ESCTPR696969	Product containing fluphenazine and nortriptyline
+^ESCTPR719954	Product containing fluphenazine in parenteral dosage form
+FLIN1213	Fluphenazine Enanthate  Injection  25 mg/ml
+FLIN25937EMIS	Fluphenazine Decanoate  Injection  250 mg/10 ml vial
+FLIN35142MGEMIS	Fluphenazine Decanoate  Injection  25 mg/1 ml ampoule (A.A.H. Pharm)
+FLIN35143MGEMIS	Fluphenazine Decanoate  Injection  25 mg/1 ml ampoule (Mayne Pharma)
+FLIN35144MGEMIS	Fluphenazine Decanoate  Injection  25 mg/1 ml ampoule (Unichem)
+FLIN35145MGEMIS	Fluphenazine Decanoate  Injection  12.5 mg/0.5 ml ampoule (A.A.H. Pharm)
+FLIN35146MGEMIS	Fluphenazine Decanoate  Injection  50 mg/0.5 ml ampoule (Mayne Pharma)
+FLIN35147MGEMIS	Fluphenazine Decanoate  Injection  50 mg/0.5 ml ampoule (A.A.H. Pharm)
+FLIN35154MGEMIS	Fluphenazine Decanoate  Injection  100 mg/1 ml ampoule (A.A.H. Pharm)
+FLIN35155MGEMIS	Fluphenazine Decanoate  Injection  100 mg/1 ml ampoule (Mayne Pharma)
+FLIN35156MGEMIS	Fluphenazine Decanoate  Injection  100 mg/1 ml ampoule (Unichem)
+MOIN138302NEMIS	Modecate (Imported Denmark)  Injection  25 mg/1 ml ampoule
+MOIN138304NEMIS	Modecate (Imported Germany)  Injection  25 mg/1 ml ampoule
+MOIN138306NEMIS	Modecate Concentrate (Imported Germany)  Injection  100 mg/1 ml ampoule
+MOIN1864	Moditen Enanthate  Injection  25 mg/ml
+MOIN25942EMIS	Modecate  Injection  250 mg/10 ml vial

@@ -39,33 +39,68 @@ dz13.00	MODAFINIL 200mg tablets
 dz11.00	MODAFINIL 100mg tablets
 dz14.00	PROVIGIL 200mg tablets
 dz12.00	PROVIGIL 100mg tablets
-dw13.	*EQUASYM 5mg tablets
-dw14.	*EQUASYM 20mg tablets
-dw15.	*EQUASYM 10mg tablets
-dw16.	EQUASYM XL 20mg m/r capsules
-dw17.	CONCERTA XL 18mg m/r tablets
-dw18.	CONCERTA XL 36mg m/r tablets
-dw19.	*TRANQUILYN 5mg tablets
-dw1A.	*TRANQUILYN 10mg tablets
-dw1B.	*TRANQUILYN 20mg tablets
-dw1C.	EQUASYM XL 10mg m/r capsules
-dw1D.	EQUASYM XL 30mg m/r capsules
-dw1E.	MEDIKINET XL 10mg m/r capsules
-dw1F.	MEDIKINET XL 20mg m/r capsules
-dw1G.	MEDIKINET XL 30mg m/r capsules
-dw1H.	MEDIKINET XL 40mg m/r capsules
-dw1I.	CONCERTA XL 27mg m/r tablets
-dw1J.	MEDIKINET 5mg tablets
-dw1K.	MEDIKINET 10mg tablets
-dw1L.	MEDIKINET 20mg tablets
-dw1M.	MEDIKINET XL 5mg m/r capsules
-dw1N.	MEDIKINET XL 50mg m/r capsules
-dw1O.	MEDIKINET XL 60mg m/r capsules
-dw1U.	CONCERTA XL 54mg m/r tablets
-dw2t.	ATOMOXETINE 100mg capsules
-dw2u.	ATOMOXETINE 80mg capsules
-dw2v.	ATOMOXETINE 60mg capsules
-dw2w.	ATOMOXETINE 40mg capsules
-dw2x.	ATOMOXETINE 25mg capsules
-dw2y.	ATOMOXETINE 18mg capsules
-dw2z.	ATOMOXETINE 10mg capsules
+dw13.00	*EQUASYM 5mg tablets
+dw14.00	*EQUASYM 20mg tablets
+dw15.00	*EQUASYM 10mg tablets
+dw16.00	EQUASYM XL 20mg m/r capsules
+dw17.00	CONCERTA XL 18mg m/r tablets
+dw18.00	CONCERTA XL 36mg m/r tablets
+dw19.00	*TRANQUILYN 5mg tablets
+dw1A.00	*TRANQUILYN 10mg tablets
+dw1B.00	*TRANQUILYN 20mg tablets
+dw1C.00	EQUASYM XL 10mg m/r capsules
+dw1D.00	EQUASYM XL 30mg m/r capsules
+dw1E.00	MEDIKINET XL 10mg m/r capsules
+dw1F.00	MEDIKINET XL 20mg m/r capsules
+dw1G.00	MEDIKINET XL 30mg m/r capsules
+dw1H.00	MEDIKINET XL 40mg m/r capsules
+dw1I.00	CONCERTA XL 27mg m/r tablets
+dw1J.00	MEDIKINET 5mg tablets
+dw1K.00	MEDIKINET 10mg tablets
+dw1L.00	MEDIKINET 20mg tablets
+dw1M.00	MEDIKINET XL 5mg m/r capsules
+dw1N.00	MEDIKINET XL 50mg m/r capsules
+dw1O.00	MEDIKINET XL 60mg m/r capsules
+dw1U.00	CONCERTA XL 54mg m/r tablets
+dw2t.00	ATOMOXETINE 100mg capsules
+dw2u.00	ATOMOXETINE 80mg capsules
+dw2v.00	ATOMOXETINE 60mg capsules
+dw2w.00	ATOMOXETINE 40mg capsules
+dw2x.00	ATOMOXETINE 25mg capsules
+dw2y.00	ATOMOXETINE 18mg capsules
+dw2z.00	ATOMOXETINE 10mg capsules
+dw2..00	ATOMOXETINE
+dw2s.00	ATOMOXETINE 4mg/mL oral solution
+dw28.00	STRATTERA 4mg/mL oral solution
+dw27.00	STRATTERA 100mg capsules
+dw26.00	STRATTERA 80mg capsules
+dw25.00	STRATTERA 60mg capsules
+dw24.00	STRATTERA 40mg capsules
+dw23.00	STRATTERA 25mg capsules
+dw22.00	STRATTERA 18mg capsules
+dw21.00	STRATTERA 10mg capsules
+dw4..00	GUANFACINE
+dw48.00	GUANFACINE 4mg m/r tablets
+dw47.00	INTUNIV 4mg m/r tablets
+dw46.00	GUANFACINE 3mg m/r tablets
+dw45.00	INTUNIV 3mg m/r tablets
+dw44.00	GUANFACINE 2mg m/r tablets
+dw43.00	INTUNIV 2mg m/r tablets
+dw42.00	GUANFACINE 1mg m/r tablets
+dw41.00	INTUNIV 1mg m/r tablets
+dw3..00	LISDEXAMFETAMINE
+dw39.00	ELVANSE 60mg capsules
+dw38.00	ELVANSE 40mg capsules
+dw37.00	ELVANSE 20mg capsules
+dw36.00	ELVANSE ADULT 70mg capsules
+dw35.00	ELVANSE ADULT 50mg capsules
+dw34.00	ELVANSE ADULT 30mg capsules
+dw33.00	ELVANSE 70mg capsules
+dw32.00	ELVANSE 50mg capsules
+dw31.00	ELVANSE 30mg capsules
+dw1..00	METHYLPHENIDATE
+dw1T.00	XENIDATE XL 36mg m/r tablets
+dw1S.00	XENIDATE XL 18mg m/r tablets
+dw1R.00	MATORIDE XL 54mg m/r tablets
+dw1Q.00	MATORIDE XL 36mg m/r tablets
+dw1P.00	MATORIDE XL 18mg m/r tablets

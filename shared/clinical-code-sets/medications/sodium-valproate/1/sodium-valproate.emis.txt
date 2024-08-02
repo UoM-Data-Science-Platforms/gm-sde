@@ -352,3 +352,241 @@ SOSU37025MGEMIS	Sodium Valproate  Sugar-free oral solution  200 mg/5 ml (Kent Ph
 SOTA2629	Sodium Valproate  Crushable tablets  100 mg
 SOTA2630	Sodium Valproate  E/c tablets  200 mg
 SOTA2631	Sodium Valproate  E/c tablets  500 mg
+^ESCT1203227	Sodium valproate 500 mg prolonged-release oral tablet
+^ESCT1203228	Product containing precisely valproate sodium 500 milligram/1 each prolonged-release oral tablet
+^ESCT1203229	Valproate sodium 500 mg prolonged-release oral tablet
+^ESCT1203310	Sodium valproate 300 mg prolonged-release oral tablet
+^ESCT1203311	Product containing precisely valproate sodium 300 milligram/1 each prolonged-release oral tablet
+^ESCT1203312	Valproate sodium 300 mg prolonged-release oral tablet
+^ESCT1203399	Sodium valproate 200 mg prolonged-release oral tablet
+^ESCT1203400	Product containing precisely valproate sodium 200 milligram/1 each prolonged-release oral tablet
+^ESCT1203401	Valproate sodium 200 mg prolonged-release oral tablet
+^ESCT1203481	Sodium valproate 100mg conventional release oral tablet
+^ESCT1204139	Valproate sodium 400 mg powder for solution for injection vial
+^ESCT1204140	Product containing precisely valproate sodium 400 milligram/1 vial powder for conventional release solution for injection
+^ESCT1204545	Valproate sodium 40 mg/mL oral solution
+^ESCT1204546	Product containing precisely valproate sodium 40 milligram/1 milliliter conventional release oral solution
+^ESCT1212378	Sodium valproate 200mg modified-release tablets
+^ESCT1212379	Sodium valproate 300mg modified-release tablets
+^ESCT1212380	Sodium valproate 500mg modified-release tablets
+^ESCT1212381	Sodium valproate 100mg tablets
+^ESCT1226787	Sodium valproate in oral dosage form
+^ESCT1226788	Valproate sodium in oral dosage form
+^ESCT1226789	Product containing valproate sodium in oral dosage form
+^ESCT1409202	Sodium valproate 400 mg powder for solution for injection vial
+^ESCT1409204	Sodium valproate 40 mg/mL oral solution
+^ESCT1433405	Sodium valproate 150mg modified-release capsules 30 capsule
+^ESCT1433407	Sodium valproate 300mg modified-release capsules 30 capsule
+^ESCT1435516	Sodium valproate 200mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCT1435518	Sodium valproate 200mg gastro-resistant tablets (DE Pharmaceuticals) 100 tablet
+^ESCT1435519	Sodium valproate 500mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCT1435520	Sodium valproate 500mg gastro-resistant tablets (DE Pharmaceuticals) 100 tablet
+^ESCT1436797	Sodium valproate 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436828	Sodium valproate 500mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+^ESCT1437065	Sodium valproate 200mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+^ESCT1437407	Sodium valproate 100mg tablets (Viatris UK Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCT1437409	Sodium valproate 200mg gastro-resistant tablets (Viatris UK Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCT1437410	Sodium valproate 500mg gastro-resistant tablets (Viatris UK Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCTOR645132	Oral form sodium valproate m/r tablet
+^ESCTPR618980	Product containing sodium valproate in oral dosage form
+^ESCTPR618982	Product containing sodium valproate in parenteral dosage form
+^ESCTSO1054838	Sodium valproate 200mg modified-release tablets (J M McGill Ltd)
+^ESCTSO1054839	Sodium valproate 200mg modified-release tablets (J M McGill Ltd) 100 tablet
+^ESCTSO1054841	Sodium valproate 300mg modified-release tablets (J M McGill Ltd)
+^ESCTSO1054843	Sodium valproate 300mg modified-release tablets (J M McGill Ltd) 100 tablet
+^ESCTSO1054845	Sodium valproate 500mg modified-release tablets (J M McGill Ltd)
+^ESCTSO1054847	Sodium valproate 500mg modified-release tablets (J M McGill Ltd) 100 tablet
+^ESCTSO1058909	Sodium valproate 300mg modified-release tablets (Cubic Pharmaceuticals Ltd)
+^ESCTSO1058910	Sodium valproate 300mg modified-release tablets (Cubic Pharmaceuticals Ltd) 100 tablet
+^ESCTSO1061815	Sodium valproate 200mg modified-release tablets (Niche Pharma Ltd)
+^ESCTSO1061816	Sodium valproate 200mg modified-release tablets (Niche Pharma Ltd) 100 tablet
+^ESCTSO1061817	Sodium valproate 300mg modified-release tablets (Niche Pharma Ltd)
+^ESCTSO1061818	Sodium valproate 300mg modified-release tablets (Niche Pharma Ltd) 100 tablet
+^ESCTSO1061819	Sodium valproate 500mg modified-release tablets (Niche Pharma Ltd)
+^ESCTSO1061820	Sodium valproate 500mg modified-release tablets (Niche Pharma Ltd) 100 tablet
+^ESCTSO1066074	Sodium valproate 300mg modified-release tablets (DE Pharmaceuticals)
+^ESCTSO1066075	Sodium valproate 300mg modified-release tablets (DE Pharmaceuticals) 100 tablet
+^ESCTSO1066102	Sodium valproate 300mg modified-release tablets (CST Pharma Ltd)
+^ESCTSO1066103	Sodium valproate 300mg modified-release tablets (CST Pharma Ltd) 100 tablet
+^ESCTSO1068385	Sodium valproate 500mg modified-release tablets (Cubic Pharmaceuticals Ltd)
+^ESCTSO1068386	Sodium valproate 500mg modified-release tablets (Cubic Pharmaceuticals Ltd) 100 tablet
+^ESCTSO1085140	Sodium valproate 300mg modified-release tablets (Icarus Pharmaceuticals Ltd)
+^ESCTSO1085142	Sodium valproate 300mg modified-release tablets (Icarus Pharmaceuticals Ltd) 100 tablet
+^ESCTSO1085145	Sodium valproate 500mg modified-release tablets (Icarus Pharmaceuticals Ltd)
+^ESCTSO1085148	Sodium valproate 500mg modified-release tablets (Icarus Pharmaceuticals Ltd) 100 tablet
+^ESCTSO1089380	Sodium valproate 500mg modified-release tablets (Ennogen Healthcare Ltd)
+^ESCTSO1089381	Sodium valproate 500mg modified-release tablets (Ennogen Healthcare Ltd) 100 tablet
+^ESCTSO1100699	Sodium valproate 200mg modified-release tablets (Ennogen Healthcare Ltd)
+^ESCTSO1100700	Sodium valproate 200mg modified-release tablets (Ennogen Healthcare Ltd) 100 tablet
+^ESCTSO1100701	Sodium valproate 300mg modified-release capsules (Ennogen Healthcare Ltd)
+^ESCTSO1100702	Sodium valproate 300mg modified-release capsules (Ennogen Healthcare Ltd) 100 capsule
+^ESCTSO1100703	Sodium valproate 300mg modified-release tablets (Ennogen Healthcare Ltd)
+^ESCTSO1100704	Sodium valproate 300mg modified-release tablets (Ennogen Healthcare Ltd) 100 tablet
+^ESCTSO1100803	Sodium valproate 500mg modified-release tablets (DE Pharmaceuticals)
+^ESCTSO1100804	Sodium valproate 500mg modified-release tablets (DE Pharmaceuticals) 100 tablet
+^ESCTSO1101642	Sodium valproate 500mg modified-release tablets (Pharma-z Ltd)
+^ESCTSO1101644	Sodium valproate 500mg modified-release tablets (Pharma-z Ltd) 100 tablet
+^ESCTSO1102897	Sodium valproate 200mg modified-release tablets (Colorama Pharmaceuticals Ltd)
+^ESCTSO1102899	Sodium valproate 200mg modified-release tablets (Colorama Pharmaceuticals Ltd) 100 tablet
+^ESCTSO1102912	Sodium valproate 300mg modified-release tablets (Colorama Pharmaceuticals Ltd)
+^ESCTSO1102913	Sodium valproate 300mg modified-release tablets (Colorama Pharmaceuticals Ltd) 100 tablet
+^ESCTSO1127894	Sodium valproate 200mg modified-release tablets (DE Pharmaceuticals)
+^ESCTSO1127895	Sodium valproate 200mg modified-release tablets (DE Pharmaceuticals) 100 tablet
+^ESCTSO1133119	Sodium valproate 300mg modified-release capsules (J M McGill Ltd)
+^ESCTSO1133120	Sodium valproate 300mg modified-release capsules (J M McGill Ltd) 100 capsule
+^ESCTSO1141418	Sodium valproate 100mg modified-release granules sachets sugar free (Ennogen Healthcare Ltd)
+^ESCTSO1141419	Sodium valproate 100mg modified-release granules sachets sugar free (Ennogen Healthcare Ltd) 30 sachet
+^ESCTSO1141420	Sodium valproate 1g modified-release granules sachets sugar free (Ennogen Healthcare Ltd)
+^ESCTSO1141421	Sodium valproate 1g modified-release granules sachets sugar free (Ennogen Healthcare Ltd) 30 sachet
+^ESCTSO1141422	Sodium valproate 250mg modified-release granules sachets sugar free (Ennogen Healthcare Ltd)
+^ESCTSO1141423	Sodium valproate 250mg modified-release granules sachets sugar free (Ennogen Healthcare Ltd) 30 sachet
+^ESCTSO1141424	Sodium valproate 500mg modified-release granules sachets sugar free (Ennogen Healthcare Ltd)
+^ESCTSO1141425	Sodium valproate 500mg modified-release granules sachets sugar free (Ennogen Healthcare Ltd) 30 sachet
+^ESCTSO1141426	Sodium valproate 750mg modified-release granules sachets sugar free (Ennogen Healthcare Ltd)
+^ESCTSO1141427	Sodium valproate 750mg modified-release granules sachets sugar free (Ennogen Healthcare Ltd) 30 sachet
+^ESCTSO610685	Sodium valproate 200mg modified-release tablets
+^ESCTSO610686	Sodium valproate 200mg m/r tablet
+^ESCTSO610687	Sodium valproate 300mg modified-release tablets
+^ESCTSO610688	Sodium valproate 300mg m/r tablet
+^ESCTSO610689	Sodium valproate 500mg modified-release tablets
+^ESCTSO610690	Sodium valproate 500mg m/r tablet
+^ESCTSO610691	Sodium valproate 400mg powder and solvent for solution for injection vials
+^ESCTSO610692	Sodium valproate 400mg injection+diluent
+^ESCTSO610693	Sodium valproate 400mg powder and solvent for injection solution vial
+^ESCTSO610694	Sodium valproate 100mg tablets
+^ESCTSO610695	Sodium valproate 100mg crushable tablet
+^ESCTSO610696	Sodium valproate 200mg/5ml oral solution sugar free
+^ESCTSO610697	Sodium valproate 200mg/5mL s/f oral liquid
+^ESCTSO610698	Sodium valproate 200mg/5ml oral solution
+^ESCTSO610699	Sodium valproate 200mg/5mL syrup
+^ESCTSO618979	Sodium valproate in oral dosage form
+^ESCTSO618981	Sodium valproate in parenteral dosage form
+^ESCTSO868392	Sodium valproate 300mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSO868393	Sodium valproate 300mg modified-release tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTSO868394	Sodium valproate 500mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSO868395	Sodium valproate 500mg modified-release tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTSO925717	Sodium valproate
+^ESCTSO979114	Sodium valproate 300mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTSO979116	Sodium valproate 300mg modified-release tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTSO979118	Sodium valproate 500mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTSO979120	Sodium valproate 500mg modified-release tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTVA640611	Valproate sodium 500mg powder for injection solution vial
+^ESCTVA640612	Valproate sodium 500mg injection
+^ESCTVA640832	Valproate sodium 250mg/5mL syrup
+^ESCTVA733516	Valproate sodium 100mg/mL solution for injection
+SOLI2627	Sodium Valproate  Sugar-free liquid  200 mg/5 ml
+SOM/37014MGEMIS	Sodium Valproate  M/R tablets  300 mg (Unichem)
+SOM/37015MGEMIS	Sodium Valproate  M/R tablets  500 mg (Unichem)
+^ESCT1266676	Epilim Chronosphere MR 500mg granules sachets (CST Pharma Ltd)
+^ESCT1266677	Epilim Chronosphere MR 500mg granules sachets (CST Pharma Ltd) 30 sachet
+^ESCT1266678	Epilim Chronosphere MR 100mg granules sachets (CST Pharma Ltd)
+^ESCT1266679	Epilim Chronosphere MR 100mg granules sachets (CST Pharma Ltd) 30 sachet
+^ESCT1266724	Epilim Chrono 200 tablets (CST Pharma Ltd)
+^ESCT1266725	Epilim Chrono 200 tablets (CST Pharma Ltd) 100 tablet
+^ESCT1266726	Epilim Chrono 300 tablets (CST Pharma Ltd)
+^ESCT1266727	Epilim Chrono 300 tablets (CST Pharma Ltd) 100 tablet
+^ESCT1266728	Epilim Chrono 500 tablets (CST Pharma Ltd)
+^ESCT1266729	Epilim Chrono 500 tablets (CST Pharma Ltd) 100 tablet
+^ESCT1266895	Epilim Chronosphere MR 250mg granules sachets (CST Pharma Ltd)
+^ESCT1266897	Epilim Chronosphere MR 250mg granules sachets (CST Pharma Ltd) 30 sachet
+^ESCT1267193	Epilim Chronosphere MR 100mg granules sachets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267195	Epilim Chronosphere MR 100mg granules sachets (Mawdsley-Brooks & Company Ltd) 30 sachet
+^ESCT1274254	Epilim Chrono 200 tablets (Pilsco Ltd)
+^ESCT1274255	Epilim Chrono 200 tablets (Pilsco Ltd) 100 tablet
+^ESCT1274256	Epilim Chrono 300 tablets (Pilsco Ltd)
+^ESCT1274257	Epilim Chrono 300 tablets (Pilsco Ltd) 100 tablet
+^ESCT1274258	Epilim Chrono 500 tablets (Pilsco Ltd)
+^ESCT1274259	Epilim Chrono 500 tablets (Pilsco Ltd) 100 tablet
+^ESCT1276843	Epilim Chrono 200 tablets (CST Pharma Ltd) 30 tablet
+^ESCT1279648	Epilim Chrono 500 tablets (CST Pharma Ltd) 30 tablet
+^ESCT1279649	Epilim Chrono 300 tablets (CST Pharma Ltd) 30 tablet
+^ESCT1402174	Epilim Chrono 200 tablets (Pilsco Ltd) 30 tablet
+^ESCT1402175	Epilim Chrono 300 tablets (Pilsco Ltd) 30 tablet
+^ESCT1402176	Epilim Chrono 500 tablets (Pilsco Ltd) 30 tablet
+^ESCT1403077	Epilim Chronosphere MR 500mg granules sachets (Pilsco Ltd)
+^ESCT1403078	Epilim Chronosphere MR 500mg granules sachets (Pilsco Ltd) 30 sachet
+^ESCT1403079	Epilim Chronosphere MR 100mg granules sachets (Pilsco Ltd)
+^ESCT1403080	Epilim Chronosphere MR 100mg granules sachets (Pilsco Ltd) 30 sachet
+^ESCT1428945	Epilim Chronosphere MR 750mg granules sachets (CST Pharma Ltd)
+^ESCT1428946	Epilim Chronosphere MR 750mg granules sachets (CST Pharma Ltd) 30 sachet
+^ESCT1428954	Epilim Chronosphere MR 1000mg granules sachets (CST Pharma Ltd)
+^ESCT1428955	Epilim Chronosphere MR 1000mg granules sachets (CST Pharma Ltd) 30 sachet
+^ESCT1435683	Epilim Chronosphere MR 100mg granules sachets (DE Pharmaceuticals)
+^ESCT1435684	Epilim Chronosphere MR 100mg granules sachets (DE Pharmaceuticals) 30 sachet
+^ESCT1435685	Epilim Chronosphere MR 250mg granules sachets (DE Pharmaceuticals)
+^ESCT1435686	Epilim Chronosphere MR 250mg granules sachets (DE Pharmaceuticals) 30 sachet
+^ESCT1435687	Epilim Chronosphere MR 500mg granules sachets (DE Pharmaceuticals)
+^ESCT1435688	Epilim Chronosphere MR 500mg granules sachets (DE Pharmaceuticals) 30 sachet
+^ESCTEP1001966	Epilim Chrono 300 tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEP1001967	Epilim Chrono 300 tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTEP1002480	Epilim 200mg/5ml syrup (Sigma Pharmaceuticals Plc)
+^ESCTEP1002481	Epilim 200mg/5ml syrup (Sigma Pharmaceuticals Plc) 300 ml
+^ESCTEP1011922	Epilim Chrono 200 tablets (DE Pharmaceuticals)
+^ESCTEP1011923	Epilim Chrono 200 tablets (DE Pharmaceuticals) 100 tablet
+^ESCTEP1011924	Epilim Chrono 300 tablets (DE Pharmaceuticals)
+^ESCTEP1011925	Epilim Chrono 300 tablets (DE Pharmaceuticals) 100 tablet
+^ESCTEP1011926	Epilim Chrono 500 tablets (DE Pharmaceuticals)
+^ESCTEP1011927	Epilim Chrono 500 tablets (DE Pharmaceuticals) 100 tablet
+^ESCTEP1011928	Epilim 200mg/5ml syrup (DE Pharmaceuticals)
+^ESCTEP1011929	Epilim 200mg/5ml syrup (DE Pharmaceuticals) 300 ml
+^ESCTEP1030133	Epilim Chronosphere MR 100mg granules sachets (Waymade Healthcare Plc)
+^ESCTEP1030134	Epilim Chronosphere MR 100mg granules sachets (Waymade Healthcare Plc) 30 sachet
+^ESCTEP1030135	Epilim Chronosphere MR 500mg granules sachets (Waymade Healthcare Plc)
+^ESCTEP1030136	Epilim Chronosphere MR 500mg granules sachets (Waymade Healthcare Plc) 30 sachet
+^ESCTEP1038912	Epilim Chronosphere MR 250mg granules sachets (Waymade Healthcare Plc)
+^ESCTEP1038913	Epilim Chronosphere MR 250mg granules sachets (Waymade Healthcare Plc) 30 sachet
+^ESCTEP1038914	Epilim Chronosphere MR 750mg granules sachets (Waymade Healthcare Plc)
+^ESCTEP1038915	Epilim Chronosphere MR 750mg granules sachets (Waymade Healthcare Plc) 30 sachet
+^ESCTEP1038916	Epilim Chronosphere MR 1000mg granules sachets (Waymade Healthcare Plc)
+^ESCTEP1038917	Epilim Chronosphere MR 1000mg granules sachets (Waymade Healthcare Plc) 30 sachet
+^ESCTEP1110305	Epilim 200mg/5ml syrup (Waymade Healthcare Plc)
+^ESCTEP1110306	Epilim 200mg/5ml syrup (Waymade Healthcare Plc) 300 ml
+^ESCTEP933607	Epilim Chrono 200 tablets (Waymade Healthcare Plc)
+^ESCTEP933608	Epilim Chrono 200 tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTEP933610	Epilim Chrono 300 tablets (Waymade Healthcare Plc)
+^ESCTEP933611	Epilim Chrono 300 tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTEP933612	Epilim Chrono 500 tablets (Waymade Healthcare Plc)
+^ESCTEP933613	Epilim Chrono 500 tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTEP933614	Epilim 500 gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTEP933615	Epilim 500 gastro-resistant tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTEP933616	Epilim 200mg/5ml liquid (Waymade Healthcare Plc)
+^ESCTEP933617	Epilim 200mg/5ml liquid (Waymade Healthcare Plc) 300 ml
+^ESCTEP970006	Epilim Chrono 200 tablets (Sigma Pharmaceuticals Plc)
+^ESCTEP970007	Epilim Chrono 200 tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTEP970008	Epilim Chrono 300 tablets (Sigma Pharmaceuticals Plc)
+^ESCTEP970009	Epilim Chrono 300 tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTEP970010	Epilim Chrono 500 tablets (Sigma Pharmaceuticals Plc)
+^ESCTEP970011	Epilim Chrono 500 tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTEP989008	Epilim Chrono 200 tablets (Lexon (UK) Ltd)
+^ESCTEP989009	Epilim Chrono 200 tablets (Lexon (UK) Ltd) 100 tablet
+^ESCTEP989010	Epilim Chrono 300 tablets (Lexon (UK) Ltd)
+^ESCTEP989011	Epilim Chrono 300 tablets (Lexon (UK) Ltd) 100 tablet
+^ESCTEP989012	Epilim Chrono 500 tablets (Lexon (UK) Ltd)
+^ESCTEP989013	Epilim Chrono 500 tablets (Lexon (UK) Ltd) 100 tablet
+^ESCTEP989014	Epilim 200mg/5ml syrup (Lexon (UK) Ltd)
+^ESCTEP989015	Epilim 200mg/5ml syrup (Lexon (UK) Ltd) 300 ml
+^ESCTEP993291	Epilim 200mg/5ml syrup (Mawdsley-Brooks & Company Ltd)
+^ESCTEP993292	Epilim 200mg/5ml syrup (Mawdsley-Brooks & Company Ltd) 300 ml
+^ESCTEP993293	Epilim Chrono 200 tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEP993294	Epilim Chrono 200 tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTEP993295	Epilim Chrono 500 tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEP993296	Epilim Chrono 500 tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCT1433406	Episenta 150mg modified-release capsules (Desitin Pharma Ltd) 30 capsule
+^ESCT1433408	Episenta 300mg modified-release capsules (Desitin Pharma Ltd) 30 capsule
+^ESCT1440872	Epival CR 300mg tablets (G.L. Pharma UK Ltd)
+^ESCT1440873	Epival CR 300mg tablets (G.L. Pharma UK Ltd) 100 tablet
+^ESCT1440874	Epival CR 500mg tablets (G.L. Pharma UK Ltd)
+^ESCT1440875	Epival CR 500mg tablets (G.L. Pharma UK Ltd) 100 tablet
+^ESCT1441211	Epival CR 300mg tablets (G.L. Pharma UK Ltd) 30 tablet
+^ESCT1441212	Epival CR 500mg tablets (G.L. Pharma UK Ltd) 30 tablet
+^ESCTSO647238	Sodium valproate
+^ESCTVA647239	Valproate sodium
+SOSY2628	Sodium Valproate Syrup 200 mg/5 ml
+^ESCT1367554	Dyzantil
+^ESCTEP915097	Epilim
+^ESCTEP915098	Epilim Chrono
+^ESCTEP915105	Episenta
+^ESCTEP915107	Epival CR
+^ESCTEP923002	Epilim Chronosphere MR
+^ESCTOR915386	Orlept
+^ESCTOR915388	Orlept SF

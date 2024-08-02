@@ -269,3 +269,5 @@ x02pI	Remnos
 x02Yh	Dalmane
 x02fE	Hypnovel
 x02uj	Xanax
+d912.	Limbitrol 10 capsule
+do2..	Clonazepam [status epilepsy]

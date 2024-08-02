@@ -37,22 +37,27 @@ SET NOCOUNT ON;
 -- #Cohort (FK_Patient_Link_ID)
 -- #PatientEventData
 
+
+DECLARE @StudyStartDate datetime;
+SET @StudyStartDate = '2018-03-01';
+
 --┌───────────────────────────────────────────────────────────┐
 --│ Create table of patients who are registered with a GM GP  │
 --└───────────────────────────────────────────────────────────┘
 
--- INPUT REQUIREMENTS: @StartDate
+-- INPUT REQUIREMENTS: @StudyStartDate
 
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
 SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, EthnicGroupDescription, DeathDate INTO #PossiblePatients FROM [SharedCare].Patient_Link
 WHERE 
-	(DeathDate IS NULL OR (DeathDate >= @StartDate))
+	(DeathDate IS NULL OR (DeathDate >= @StudyStartDate))
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
 SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [SharedCare].Patient
-where FK_Reference_Tenancy_ID = 2;
+where FK_Reference_Tenancy_ID = 2
+AND GPPracticeCode NOT LIKE 'ZZZ%';
 
 -- Make cohort from patients alive at start date and registered with a GP
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
@@ -118,7 +123,7 @@ VALUES ('kidney-transplant',1,'14S2.',NULL,'H/O: kidney recipient'),('kidney-tra
 INSERT INTO #codesreadv2
 VALUES ('androgen-level',1,'447H.',NULL,'Androgen level'),('androgen-level',1,'447H.00',NULL,'Androgen level');
 INSERT INTO #codesreadv2
-VALUES ('egfr',1,'451E.',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'451E.00',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'451G.',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'451G.00',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'451K.',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'451K.00',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'451M.',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451M.00',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451N.',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451N.00',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres');
+VALUES ('egfr',1,'451E.',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'451E.00',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'451G.',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'451G.00',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'451K.',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'451K.00',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'451M.',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451M.00',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451N.',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451N.00',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451F.',NULL,'Glomerular filtration rate'),('egfr',1,'451F.00',NULL,'Glomerular filtration rate');
 INSERT INTO #codesreadv2
 VALUES ('fsh',1,'4434.',NULL,'FSH level'),('fsh',1,'4434.00',NULL,'FSH level'),('fsh',1,'443h.',NULL,'Serum FSH level'),('fsh',1,'443h.00',NULL,'Serum FSH level'),('fsh',1,'443i.',NULL,'Plasma FSH level'),('fsh',1,'443i.00',NULL,'Plasma FSH level'),('fsh',1,'4Q23.',NULL,'Follicle stimulating hormone level'),('fsh',1,'4Q23.00',NULL,'Follicle stimulating hormone level');
 INSERT INTO #codesreadv2
@@ -130,7 +135,7 @@ VALUES ('sex-hormone-binding-globulin',1,'44CD.',NULL,'Serum sex hormone binding
 INSERT INTO #codesreadv2
 VALUES ('testosterone',1,'4473.',NULL,'Serum testosterone'),('testosterone',1,'4473.00',NULL,'Serum testosterone'),('testosterone',1,'447G.',NULL,'Plasma testosterone level'),('testosterone',1,'447G.00',NULL,'Plasma testosterone level');
 INSERT INTO #codesreadv2
-VALUES ('urinary-albumin-creatinine-ratio',1,'46TC.',NULL,'Urine albumin:creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'46TC.00',NULL,'Urine albumin:creatinine ratio')
+VALUES ('urinary-albumin-creatinine-ratio',1,'46TC.',NULL,'Urine albumin:creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'46TC.00',NULL,'Urine albumin:creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'44J7.',NULL,'Albumin / creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'44J7.00',NULL,'Albumin / creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'46TD.',NULL,'Urine microalbumin:creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'46TD.00',NULL,'Urine microalbumin:creatinine ratio')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesreadv2;
@@ -156,7 +161,7 @@ VALUES ('kidney-transplant',1,'14S2.',NULL,'H/O: kidney recipient'),('kidney-tra
 INSERT INTO #codesctv3
 VALUES ('androgen-level',1,'XaJAm',NULL,'Androgen level');
 INSERT INTO #codesctv3
-VALUES ('egfr',1,'X70kK',NULL,'Tc99m-DTPA clearance - GFR'),('egfr',1,'X70kL',NULL,'Cr51- EDTA clearance - GFR'),('egfr',1,'X90kf',NULL,'With GFR'),('egfr',1,'XaK8y',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'XaMDA',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'XaZpN',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'XacUJ',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'XacUK',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres');
+VALUES ('egfr',1,'X70kK',NULL,'Tc99m-DTPA clearance - GFR'),('egfr',1,'X70kL',NULL,'Cr51- EDTA clearance - GFR'),('egfr',1,'X90kf',NULL,'With GFR'),('egfr',1,'XaK8y',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'XaMDA',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'XaZpN',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'XacUJ',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'XacUK',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'XSFyN',NULL,'Glomerular filtration rate');
 INSERT INTO #codesctv3
 VALUES ('fsh',1,'4434.',NULL,'FSH level'),('fsh',1,'XE25J',NULL,'FSH - Follicle stimulating hormone level'),('fsh',1,'4434.',NULL,'Serum FSH level'),('fsh',1,'XaELZ',NULL,'Plasma FSH level'),('fsh',1,'XM0lx',NULL,'Serum follicle stimulating hormone level');
 INSERT INTO #codesctv3
@@ -168,7 +173,7 @@ VALUES ('sex-hormone-binding-globulin',1,'44CD.',NULL,'Serum sex hormone binding
 INSERT INTO #codesctv3
 VALUES ('testosterone',1,'XE2dr',NULL,'Serum testosterone level'),('testosterone',1,'4473.',NULL,'Serum testosterone'),('testosterone',1,'XaItQ',NULL,'Plasma testosterone level');
 INSERT INTO #codesctv3
-VALUES ('urinary-albumin-creatinine-ratio',1,'46TC.',NULL,'Urine albumin:creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'XE2n3',NULL,'Urine albumin:creatinine ratio')
+VALUES ('urinary-albumin-creatinine-ratio',1,'46TC.',NULL,'Urine albumin:creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'XE2n3',NULL,'Urine albumin:creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'46TD.',NULL,'Urine microalbumin:creatinine ratio (& level)'),('urinary-albumin-creatinine-ratio',1,'X773Y',NULL,'Albumin/creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'XE2n4',NULL,'Urine microalbumin/creatinine ratio')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesctv3;
@@ -192,7 +197,7 @@ VALUES ('vasculitis',1,'228007',NULL,'Lucio phenomenon (disorder)'),('vasculitis
 INSERT INTO #codessnomed
 VALUES ('androgen-level',1,'1002871000000100',NULL,'Androgen level (observable entity)');
 INSERT INTO #codessnomed
-VALUES ('egfr',1,'1011481000000105',NULL,'eGFR (estimated glomerular filtration rate) using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'1011491000000107',NULL,'eGFR (estimated glomerular filtration rate) using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'1020291000000106',NULL,'GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'1107411000000104',NULL,'eGFR (estimated glomerular filtration rate) by laboratory calculation'),('egfr',1,'241373003',NULL,'Technetium-99m-diethylenetriamine pentaacetic acid clearance - glomerular filtration rate (procedure)'),('egfr',1,'262300005',NULL,'With glomerular filtration rate'),('egfr',1,'737105002',NULL,'GFR (glomerular filtration rate) calculation technique'),('egfr',1,'80274001',NULL,'Glomerular filtration rate (observable entity)'),('egfr',1,'996231000000108',NULL,'GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin');
+VALUES ('egfr',1,'1011481000000105',NULL,'eGFR (estimated glomerular filtration rate) using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'1011491000000107',NULL,'eGFR (estimated glomerular filtration rate) using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'1020291000000106',NULL,'GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'1107411000000104',NULL,'eGFR (estimated glomerular filtration rate) by laboratory calculation'),('egfr',1,'241373003',NULL,'Technetium-99m-diethylenetriamine pentaacetic acid clearance - glomerular filtration rate (procedure)'),('egfr',1,'262300005',NULL,'With glomerular filtration rate'),('egfr',1,'737105002',NULL,'GFR (glomerular filtration rate) calculation technique'),('egfr',1,'80274001',NULL,'Glomerular filtration rate (observable entity)'),('egfr',1,'996231000000108',NULL,'GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'857971000000104',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula (observable entity)'),('egfr',1,'963601000000106',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation (observable entity)'),('egfr',1,'963611000000108',NULL,'Estimated glomerular filtration rate using cystatin C per 1.73 square metres'),('egfr',1,'963621000000102',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation (observable entity)'),('egfr',1,'963631000000100',NULL,'Estimated glomerular filtration rate using serum creatinine per 1.73 square metres'),('egfr',1,'857981000000102',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres');
 INSERT INTO #codessnomed
 VALUES ('fsh',1,'1023191000000105',NULL,'Serum FSH level'),('fsh',1,'1023201000000107',NULL,'Plasma FSH level'),('fsh',1,'1027161000000108',NULL,'FSH - Follicle stimulating hormone level'),('fsh',1,'273971007',NULL,'Serum FSH level');
 INSERT INTO #codessnomed
@@ -204,7 +209,7 @@ VALUES ('sex-hormone-binding-globulin',1,'999661000000105',NULL,'Serum sex hormo
 INSERT INTO #codessnomed
 VALUES ('testosterone',1,'270973006',NULL,'Serum testosterone measurement (procedure)'),('testosterone',1,'995571000000101',NULL,'Plasma testosterone level (observable entity)'),('testosterone',1,'997161000000108',NULL,'Serum testosterone level (observable entity)');
 INSERT INTO #codessnomed
-VALUES ('urinary-albumin-creatinine-ratio',1,'271075006',NULL,'Urine albumin/creatinine ratio measurement')
+VALUES ('urinary-albumin-creatinine-ratio',1,'144011000',NULL,'Albumin/creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'144765005',NULL,'Urine albumin:creatinine ratio (& level)'),('urinary-albumin-creatinine-ratio',1,'144766006',NULL,'Urine microalbumin:creatinine ratio (& level)'),('urinary-albumin-creatinine-ratio',1,'166721005',NULL,'Albumin/creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'167540008',NULL,'Urine albumin:creatinine ratio (& level)'),('urinary-albumin-creatinine-ratio',1,'167541007',NULL,'Urine microalbumin:creatinine ratio (& level)'),('urinary-albumin-creatinine-ratio',1,'250745003',NULL,'Albumin/creatinine ratio measurement'),('urinary-albumin-creatinine-ratio',1,'271075006',NULL,'Urine albumin/creatinine ratio measurement'),('urinary-albumin-creatinine-ratio',1,'271076007',NULL,'Urine microalbumin/creatinine ratio measurement'),('urinary-albumin-creatinine-ratio',1,'149861000000104',NULL,'Semi-quantitative result of albumin to creatinine ratio in urine by test strip'),('urinary-albumin-creatinine-ratio',1,'1023491000000104',NULL,'Urine albumin:creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'1027791000000103',NULL,'Urine microalbumin/creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'1028271000000109',NULL,'Albumin/creatinine ratio')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codessnomed;
@@ -218,7 +223,12 @@ CREATE TABLE #codesemis (
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
-
+INSERT INTO #codesemis
+VALUES ('egfr',1,'^ESCT1167392',NULL,'Glomerular filtration rate calculation technique'),('egfr',1,'^ESCT1167393',NULL,'GFR - Glomerular filtration rate calculation technique'),('egfr',1,'^ESCT1237005',NULL,'GFR (glomerular filtration rate) calculation technique'),('egfr',1,'^ESCT1249126',NULL,'eGFR (estimated glomerular filtration rate) using CKD-Epi (Chronic Kidney Disease Epidemiology Collaboration) formula per 1.73 square metres'),('egfr',1,'^ESCT1262192',NULL,'Estimated glomerular filtration rate by laboratory calculation'),('egfr',1,'^ESCT1262193',NULL,'eGFR (estimated glomerular filtration rate) by laboratory calculation'),('egfr',1,'^ESCT1268044',NULL,'GFR - glomerular filtration rate'),('egfr',1,'^ESCT1437095',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'^ESCT1437099',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'^ESCT1437100',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'^ESCTEG829482',NULL,'eGFR (estimated glomerular filtration rate) using CKD-Epi (Chronic Kidney Disease Epidemiology Collaboration) formula'),('egfr',1,'^ESCTEG835295',NULL,'eGFR (estimated glomerular filtration rate) using cystatin C CKD-EPI (Chronic Kidney Disease Epidemiology Collaboration) equation'),('egfr',1,'^ESCTEG835298',NULL,'eGFR (estimated glomerular filtration rate) using creatinine CKD-EPI (Chronic Kidney Disease Epidemiology Collaboration) equation'),('egfr',1,'^ESCTES829480',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula'),('egfr',1,'^ESCTES835294',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation'),('egfr',1,'^ESCTES835297',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation'),('egfr',1,'^ESCTTC515939',NULL,'Tc99m-DTPA clearance - GFR'),('egfr',1,'^ESCTTE515940',NULL,'Technetium-99m-diethylenetriamine pentaacetic acid clearance - glomerular filtration rate'),('egfr',1,'^ESCTWI545152',NULL,'With GFR'),('egfr',1,'^ESCTWI545153',NULL,'With glomerular filtration rate');
+INSERT INTO #codesemis
+VALUES ('testosterone',1,'^ESCTSE551843',NULL,'Serum testosterone measurement'),('testosterone',1,'^ESCTSE551844',NULL,'Serum testosterone level');
+INSERT INTO #codesemis
+VALUES ('urinary-albumin-creatinine-ratio',1,'^ESCT1268129',NULL,'Albumin/creatinine ratio in urine'),('urinary-albumin-creatinine-ratio',1,'^ESCT1435793',NULL,'ACR (albumin to creatinine ratio) in urine by test strip semi-quantitative result'),('urinary-albumin-creatinine-ratio',1,'^ESCT1435794',NULL,'Semi-quantitative result of albumin to creatinine ratio in urine by test strip'),('urinary-albumin-creatinine-ratio',1,'^ESCTAL528959',NULL,'Albumin/creatinine ratio measurement'),('urinary-albumin-creatinine-ratio',1,'^ESCTAL528960',NULL,'Albumin/creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'^ESCTAL840923',NULL,'Albumin / creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'^ESCTUR552017',NULL,'Urine albumin/creatinine ratio measurement'),('urinary-albumin-creatinine-ratio',1,'^ESCTUR552018',NULL,'Urine albumin/creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'^ESCTUR552019',NULL,'Urine microalbumin/creatinine ratio measurement'),('urinary-albumin-creatinine-ratio',1,'^ESCTUR552020',NULL,'Urine microalbumin/creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'^ESCTUR552021',NULL,'Urine microalb/creatnine ratio')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesemis;

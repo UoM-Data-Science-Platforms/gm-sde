@@ -1,0 +1,5 @@
+^ESCTFL477018	FLS - Phantom limb syndrome
+^ESCTPH477016	Phantom limb
+^ESCTPH768250	Phantom pain following amputation of lower limb
+^ESCTPH768251	Phantom pain following amputation of upper limb
+^ESCTPL477019	PLS - Phantom limb syndrome

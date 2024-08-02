@@ -1,0 +1,133 @@
+G0...00	Acute rheumatic fever
+G510.11	Bacterial endocarditis
+G02..00	Rheumatic chorea
+G510100	Subacute bacterial endocarditis - SBE
+G50z111	Viral pericarditis NOS
+N042000	Rheumatic carditis
+A742100	Coxsackie pericarditis
+N000400	Systemic lupus erythematosus with pericarditis
+G0z..00	Acute rheumatic fever NOS
+G14z.00	Rheumatic endocarditis NOS
+A364100	Meningococcal pericarditis
+G02..11	Sydenham's chorea
+A742300	Coxsackie myocarditis
+G01y000	Acute rheumatic pancarditis
+G010.00	Acute rheumatic pericarditis
+A270400	Listerial endocarditis
+G510.00	Acute and subacute bacterial endocarditis
+G510000	Acute bacterial endocarditis
+A364200	Meningococcal endocarditis
+A98y300	Gonococcal endocarditis
+G5y7.00	Sarcoid myocarditis
+M15y600	Erythema marginatum in acute rheumatic fever
+G50z200	Acute pericarditis - pneumococcal
+G011.00	Acute rheumatic endocarditis
+A32y100	Diphtheritic myocarditis
+G510200	Chronic bacterial endocarditis
+G100.00	Adherent rheumatic pericardium
+G5yA.00	Rheumatoid carditis
+G01..00	Rheumatic fever with heart involvement
+G510z00	Acute and subacute bacterial endocarditis NOS
+G012.00	Acute rheumatic myocarditis
+G5y8.00	Rheumatoid myocarditis
+N000100	Libman-Sacks disease
+G1yz.00	Other and unspecified rheumatic heart disease
+G500000	Acute pericarditis - coxsackie
+G50z400	Acute pericarditis - streptococcal
+G1yzz00	Other rheumatic heart disease NOS
+G0y..00	Other specified acute rheumatic fever
+G500100	Acute pericarditis - meningococcal
+G1y0.00	Rheumatic myocarditis
+G021.00	Rheumatic chorea without mention of heart involvement
+H571.00	Rheumatic pneumonia
+A364.00	Meningococcal carditis
+G14..00	Other chronic rheumatic endocardial disease
+G520700	Acute myocarditis - meningococcal
+A742.00	Coxsackie carditis
+A364300	Meningococcal myocarditis
+G01z.00	Acute rheumatic heart disease NOS
+G511100	Endocarditis - coxsackie
+G020.00	Rheumatic chorea with heart involvement
+G02z.00	Rheumatic chorea NOS
+G01y.00	Other acute rheumatic heart disease
+Gyu1100	[X]Other rheumatic aortic valve diseases
+A364z00	Meningococcal carditis NOS
+A98y200	Gonococcal pericarditis
+GA...00	Rheumatic heart disease
+GA0..00	Carditis due to rheumatic fever
+A17y000	Tuberculosis endocardium
+A17y100	Tuberculosis myocardium
+A364000	Meningococcal carditis unspecified
+A742000	Other specified coxsackie carditis
+A742200	Coxsackie endocarditis
+A742z00	Unspecified coxsackie carditis
+A7A..00	Viral carditis
+A871200	Lyme carditis
+A932000	Syphilitic endocarditis of unspecified valve
+A932100	Syphilitic endocarditis of mitral valve
+A932200	Syphilitic endocarditis of aortic valve
+A932300	Syphilitic endocarditis of tricuspid valve
+A932400	Syphilitic endocarditis of pulmonary valve
+A932z00	Syphilitic endocarditis of heart valve NOS
+A93y100	Syphilitic myocarditis
+AB2y000	Candidal endocarditis
+AB40400	Histoplasma capsulatum with endocarditis
+AB41400	Histoplasma duboisii with endocarditis
+AB4z400	Histoplasmosis with endocarditis
+AD03.00	Toxoplasma myocarditis
+G01yz00	Other acute rheumatic heart disease NOS
+G1...00	Chronic rheumatic heart disease
+G102.00	Chronic rheumatic myopericarditis
+G12..00	Rheumatic aortic valve disease
+G12z.00	Rheumatic aortic valve disease NOS
+G1y..00	Other specified chronic rheumatic heart disease
+G1yz000	Rheumatic heart disease unspecified
+G1z..00	Chronic rheumatic heart disease NOS
+G511000	Endocarditis - monilial
+G511200	Endocarditis - gonococcal
+G511300	Endocarditis - meningococcal
+G511400	Endocarditis - typhoid
+G511500	Endocarditis - blastomycosis
+G511600	Endocarditis - Q fever
+G51z000	Acute endocarditis NOS
+G51z200	Acute periendocarditis NOS
+G52..00	Acute myocarditis
+G520.00	Acute myocarditis in diseases EC
+G520000	Acute aseptic myocarditis of the newborn
+G520100	Acute myocarditis - coxsackie
+G520200	Acute myocarditis - diphtheritic
+G520300	Acute myocarditis - influenzal
+G520400	Acute myocarditis - syphilitic
+G520500	Acute myocarditis - toxoplasmosis
+G520600	Acute myocarditis - tuberculous
+G520z00	Acute myocarditis in diseases EC, NOS
+G52y.00	Other acute myocarditis
+G52y000	Acute myocarditis, unspecified
+G52y100	Isolated (Fiedler's) myocarditis
+G52y200	Idiopathic myocarditis NOS
+G52y300	Septic myocarditis - pneumococcal
+G52y400	Septic myocarditis - staphylococcal
+G52y500	Septic myocarditis - streptococcal
+G52y600	Septic myocarditis NOS
+G52y700	Toxic myocarditis
+G52yz00	Other acute myocarditis NOS
+G52z.00	Acute myocarditis NOS
+G54z.00	Endocarditis, valve unspecified
+G54z200	Chronic cardiac valvulitis NOS
+G54z300	Endocarditis, valve unspecified, OS
+G54z400	Endocarditis in disease EC
+G54zz00	Endocarditis, valve unspecified, NOS
+G558300	Sarcoid heart disease
+G5y0.00	Myocarditis NOS
+Gyu0.00	[X]Acute rheumatic fever
+Gyu0000	[X]Other acute rheumatic heart disease
+Gyu1.00	[X]Chronic rheumatic heart disease
+Gyu1400	[X]Other specified rheumatic heart diseases
+Gyu5E00	[X]Endocarditis, valve unspecified, in diseases classified elsewhere
+Gyu5F00	[X]Other acute myocarditis
+Gyu5G00	[X]Acute myocarditis, unspecified
+Gyu5H00	[X]Myocarditis in bacterial diseases classified elsewhere
+Gyu5J00	[X]Myocarditis in viral diseases classified elsewhere
+Gyu5K00	[X]Myocarditis in other infectious and parasitic diseases classified elsewhere
+Gyu5L00	[X]Myocarditis in other diseases classified elsewhere
+A932.00	Syphilitic endocarditis

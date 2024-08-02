@@ -73,3 +73,1050 @@ STM/44675NEMIS	Stefluvin Xl  M/R tablets  80 mg
 NAM/86955NEMIS	Nandovar Xl  M/R tablets  80 mg
 LUM/35734NEMIS	Luvinsta Xl  M/R tablets  80 mg
 DOM/43668NEMIS	Dorisin Xl  M/R tablets  80 mg
+^ESCT1178028	Product containing only cerivastatin sodium 800 microgram/1 each oral tablet
+^ESCT1178116	Product containing only simvastatin 10 mg/1 each oral tablet
+^ESCT1178117	Product containing only simvastatin 40 mg/1 each oral tablet
+^ESCT1178118	Product containing only pravastatin sodium 40 mg/1 each oral tablet
+^ESCT1178127	Product containing only simvastatin 20 mg/1 each oral tablet
+^ESCT1178129	Product containing only cerivastatin sodium 400 microgram/1 each oral tablet
+^ESCT1181045	Product containing only cerivastatin sodium 300 microgram/1 each oral tablet
+^ESCT1181300	Product containing only pravastatin sodium 10 mg/1 each oral tablet
+^ESCT1181301	Product containing only pravastatin sodium 20 mg/1 each oral tablet
+^ESCT1181303	Product containing only cerivastatin sodium 100 microgram/1 each oral tablet
+^ESCT1181304	Product containing only cerivastatin sodium 200 microgram/1 each oral tablet
+^ESCT1186908	Cholib 145mg/20mg tablets (Mylan)
+^ESCT1188062	Product containing only rosuvastatin 5 mg/1 each oral tablet
+^ESCT1188330	Product containing only ezetimibe 10 mg and simvastatin 20 mg/1 each oral tablet
+^ESCT1188331	Product containing only ezetimibe 10 mg and simvastatin 40 mg/1 each oral tablet
+^ESCT1221933	Product containing precisely cerivastatin sodium 800 microgram/1 each conventional release oral tablet
+^ESCT1221934	Cerivastatin sodium 800 microgram oral tablet
+^ESCT1223184	Product containing precisely simvastatin 10 milligram/1 each conventional release oral tablet
+^ESCT1223185	Product containing precisely simvastatin 20 milligram/1 each conventional release oral tablet
+^ESCT1223186	Product containing precisely simvastatin 40 milligram/1 each conventional release oral tablet
+^ESCT1223188	Product containing precisely pravastatin sodium 10 milligram/1 each conventional release oral tablet
+^ESCT1223189	Product containing precisely pravastatin sodium 20 milligram/1 each conventional release oral tablet
+^ESCT1223190	Product containing precisely pravastatin sodium 40 milligram/1 each conventional release oral tablet
+^ESCT1223201	Cerivastatin sodium 100 microgram oral tablet
+^ESCT1223202	Product containing precisely cerivastatin sodium 100 microgram/1 each conventional release oral tablet
+^ESCT1223203	Cerivastatin sodium 200 microgram oral tablet
+^ESCT1223204	Product containing precisely cerivastatin sodium 200 microgram/1 each conventional release oral tablet
+^ESCT1223205	Cerivastatin sodium 300 microgram oral tablet
+^ESCT1223206	Product containing precisely cerivastatin sodium 300 microgram/1 each conventional release oral tablet
+^ESCT1223207	Product containing precisely cerivastatin sodium 400 microgram/1 each conventional release oral tablet
+^ESCT1223208	Cerivastatin sodium 400 microgram oral tablet
+^ESCT1230558	Product containing precisely rosuvastatin (as rosuvastatin calcium) 5 milligram/1 each conventional release oral tablet
+^ESCT1230559	Rosuvastatin (as rosuvastatin calcium) 5 mg oral tablet
+^ESCT1232304	Product containing precisely ezetimibe 10 milligram and simvastatin 20 milligram/1 each conventional release oral tablet
+^ESCT1232305	Product containing precisely ezetimibe 10 milligram and simvastatin 40 milligram/1 each conventional release oral tablet
+^ESCT1255510	Fluvastatin 80mg modified-release tablets
+^ESCT1279775	Simvador 10mg tablets (Dexcel-Pharma Ltd)
+^ESCT1279777	Simvador 20mg tablets (Dexcel-Pharma Ltd)
+^ESCT1279779	Simvador 40mg tablets (Dexcel-Pharma Ltd)
+^ESCT1279891	Simvador 80mg tablets (Dexcel-Pharma Ltd)
+^ESCT1301186	Lipitor 20mg tablets (Upjohn Ltd)
+^ESCT1301195	Lipitor 40mg tablets (Upjohn Ltd)
+^ESCT1301200	Lipitor 10mg tablets (Upjohn Ltd)
+^ESCT1301203	Lipitor 80mg tablets (Upjohn Ltd)
+^ESCT1302298	Lipitor 10mg chewable tablets (Upjohn Ltd)
+^ESCT1302300	Lipitor 20mg chewable tablets (Upjohn Ltd)
+^ESCT1303903	Lipitor 20mg tablets (Upjohn UK Ltd)
+^ESCT1303912	Lipitor 40mg tablets (Upjohn UK Ltd)
+^ESCT1303915	Lipitor 10mg tablets (Upjohn UK Ltd)
+^ESCT1303918	Lipitor 80mg tablets (Upjohn UK Ltd)
+^ESCT1304240	Lipitor 10mg chewable tablets (Upjohn UK Ltd)
+^ESCT1304242	Lipitor 20mg chewable tablets (Upjohn UK Ltd)
+^ESCT1409509	Zocor 10mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1409512	Zocor 80mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1409746	Zocor 20mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1409761	Zocor 40mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410653	Inegy 10mg/20mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410655	Inegy 10mg/40mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1410657	Inegy 10mg/80mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1422396	Stefluvin XL 80mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1436839	Lipitor 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436930	Lipitor 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436986	Lipitor 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437023	Lipitor 80mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438335	Lipitor 10mg chewable tablets (Viatris UK Healthcare Ltd)
+^ESCT1438337	Lipitor 20mg chewable tablets (Viatris UK Healthcare Ltd)
+^ESCT1438566	Cholib 145mg/20mg tablets (Viatris UK Healthcare Ltd)
+^ESCTAT1022557	Atorvastatin 10mg chewable tablets sugar free
+^ESCTAT1022558	Atorvastatin 20mg chewable tablets sugar free
+^ESCTAT1029844	Atorvastatin 30mg tablets
+^ESCTAT1029845	Atorvastatin 60mg tablets
+^ESCTAT968024	Atorvastatin 20mg/5ml oral solution
+^ESCTAT968025	Atorvastatin 20mg/5ml oral suspension
+^ESCTAT969414	Atorvastatin 10mg/5ml oral solution
+^ESCTCE450794	Cerivastatin 800microgram tablets
+^ESCTCE450795	Cerivastatin sodium 800 microgram/1 each oral tablet
+^ESCTCE608318	Cerivastatin 100microgram tablets
+^ESCTCE608320	Cerivastatin sodium 100 microgram/1 each oral tablet
+^ESCTCE608321	Cerivastatin 200microgram tablets
+^ESCTCE608322	Cerivastatin sodium 200 microgram/1 each oral tablet
+^ESCTCE608324	Cerivastatin 300microgram tablets
+^ESCTCE608326	Cerivastatin sodium 300 microgram/1 each oral tablet
+^ESCTCE608327	Cerivastatin 400microgram tablets
+^ESCTCE608328	Cerivastatin sodium 400 microgram/1 each oral tablet
+^ESCTCH1139548	Cholib 145mg/20mg tablets (Mylan Ltd)
+^ESCTCR867706	Crestor 10mg tablets (AstraZeneca UK Ltd)
+^ESCTCR867709	Crestor 20mg tablets (AstraZeneca UK Ltd)
+^ESCTCR867716	Crestor 40mg tablets (AstraZeneca UK Ltd)
+^ESCTCR923116	Crestor 5mg tablets (AstraZeneca UK Ltd)
+^ESCTDO999967	Dorisin XL 80mg tablets (Aspire Pharma Ltd)
+^ESCTEZ685363	Ezetimibe 10 mg and simvastatin 20 mg oral tablet
+^ESCTEZ685366	Ezetimibe 10 mg and simvastatin 40 mg oral tablet
+^ESCTFE1140169	Fenofibrate 145mg / Simvastatin 20mg tablets
+^ESCTFE923960	Fenofibrate 200mg capsules
+^ESCTIN915713	Inegy 10mg/20mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTIN915720	Inegy 10mg/40mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTIN915726	Inegy 10mg/80mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTLE802525	Lescol 20mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTLE812352	Lescol XL 80mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTLE814208	Lescol 40mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTLI1022530	Lipitor 10mg chewable tablets (Pfizer Ltd)
+^ESCTLI1022533	Lipitor 20mg chewable tablets (Pfizer Ltd)
+^ESCTLI807279	Lipitor 20mg tablets (Pfizer Ltd)
+^ESCTLI817072	Lipostat 20mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTLI818593	Lipitor 40mg tablets (Pfizer Ltd)
+^ESCTLI819834	Lipostat 40mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTLI820694	Lipitor 10mg tablets (Pfizer Ltd)
+^ESCTLI823298	Lipitor 80mg tablets (Pfizer Ltd)
+^ESCTLI825670	Lipostat 10mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTLU980957	Luvinsta XL 80mg tablets (Actavis UK Ltd)
+^ESCTNA1060882	Nandovar XL 80mg tablets (Sandoz Ltd)
+^ESCTPR450796	Product containing cerivastatin sodium 800 microgram/1 each oral tablet
+^ESCTPR608274	Product containing simvastatin 10 mg/1 each oral tablet
+^ESCTPR608277	Product containing simvastatin 20 mg/1 each oral tablet
+^ESCTPR608280	Product containing simvastatin 40 mg/1 each oral tablet
+^ESCTPR608286	Pravastatin 10mg tablets
+^ESCTPR608287	Product containing pravastatin sodium 10 mg/1 each oral tablet
+^ESCTPR608288	Pravastatin sodium 10 mg oral tablet
+^ESCTPR608289	Pravastatin 20mg tablets
+^ESCTPR608290	Product containing pravastatin sodium 20 mg/1 each oral tablet
+^ESCTPR608291	Pravastatin sodium 20 mg oral tablet
+^ESCTPR608292	Pravastatin 40mg tablets
+^ESCTPR608293	Product containing pravastatin sodium 40 mg/1 each oral tablet
+^ESCTPR608294	Pravastatin sodium 40 mg oral tablet
+^ESCTPR608319	Product containing cerivastatin sodium 100 microgram/1 each oral tablet
+^ESCTPR608323	Product containing cerivastatin sodium 200 microgram/1 each oral tablet
+^ESCTPR608325	Product containing cerivastatin sodium 300 microgram/1 each oral tablet
+^ESCTPR608329	Product containing cerivastatin sodium 400 microgram/1 each oral tablet
+^ESCTPR677313	Product containing rosuvastatin 5 mg/1 each oral tablet
+^ESCTPR685362	Product containing ezetimibe 10 mg and simvastatin 20 mg/1 each oral tablet
+^ESCTPR685365	Product containing ezetimibe 10 mg and simvastatin 40 mg/1 each oral tablet
+^ESCTPR977110	Pravastatin 5mg/5ml oral solution
+^ESCTPR982516	Pravastatin 40mg/5ml oral suspension
+^ESCTRA898914	Ranzolont 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRA898931	Ranzolont 20mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRA898940	Ranzolont 40mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRO677312	Rosuvastatin 5mg tablets
+^ESCTRO677314	Rosuvastatin 5 mg oral tablet
+^ESCTSI1000748	Simvastatin 20mg/5ml oral suspension sugar free
+^ESCTSI1001307	Simvastatin 40mg/5ml oral suspension sugar free
+^ESCTSI608273	Simvastatin 10mg tablets
+^ESCTSI608275	Simvastatin 10 mg oral tablet
+^ESCTSI608276	Simvastatin 20mg tablets
+^ESCTSI608278	Simvastatin 20 mg oral tablet
+^ESCTSI608279	Simvastatin 40mg tablets
+^ESCTSI608281	Simvastatin 40 mg oral tablet
+^ESCTSI685361	Simvastatin 20mg / Ezetimibe 10mg tablets
+^ESCTSI685364	Simvastatin 40mg / Ezetimibe 10mg tablets
+^ESCTSI873736	Simvador 10mg tablets (Discovery Pharmaceuticals)
+^ESCTSI873738	Simvador 20mg tablets (Discovery Pharmaceuticals)
+^ESCTSI873740	Simvador 40mg tablets (Discovery Pharmaceuticals)
+^ESCTSI908996	Simvastatin 20mg/5ml oral suspension
+^ESCTSI966832	Simvastatin 20mg/5ml oral solution
+^ESCTSI966833	Simvastatin 40mg/5ml oral solution
+^ESCTSI966834	Simvastatin 40mg/5ml oral suspension
+^ESCTSI978949	Simvador 80mg tablets (Discovery Pharmaceuticals)
+^ESCTST1000398	Stefluvin XL 80mg tablets (Zentiva)
+^ESCTZO803389	Zocor 10mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTZO803593	Zocor 80mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTZO824251	Zocor 20mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTZO829599	Zocor 40mg tablets (Merck Sharp & Dohme Ltd)
+RATA18271NEMIS	Ranzolont  Tablets  10 mg
+RATA18272NEMIS	Ranzolont  Tablets  20 mg
+^ESCT1175360	Rosuvastatin 5mg tablets (Aristo Pharma GmbH)
+^ESCT1175365	Rosuvastatin 10mg tablets (Aristo Pharma GmbH)
+^ESCT1175375	Rosuvastatin 20mg tablets (Aristo Pharma GmbH)
+^ESCT1175379	Rosuvastatin 40mg tablets (Aristo Pharma GmbH)
+^ESCT1175433	Atorvastatin 10mg tablets (Bristol Laboratories Ltd)
+^ESCT1175435	Atorvastatin 20mg tablets (Bristol Laboratories Ltd)
+^ESCT1175945	Rosuvastatin 40mg tablets (Zentiva)
+^ESCT1175947	Rosuvastatin 5mg tablets (Zentiva)
+^ESCT1175951	Rosuvastatin 10mg tablets (Zentiva)
+^ESCT1175953	Rosuvastatin 20mg tablets (Zentiva)
+^ESCT1176016	Rosuvastatin 5mg tablets (Mylan)
+^ESCT1176018	Rosuvastatin 10mg tablets (Mylan)
+^ESCT1176020	Rosuvastatin 5mg tablets (Teva UK Ltd)
+^ESCT1176022	Rosuvastatin 20mg tablets (Mylan)
+^ESCT1176024	Rosuvastatin 40mg tablets (Mylan)
+^ESCT1176026	Rosuvastatin 20mg tablets (Teva UK Ltd)
+^ESCT1176028	Rosuvastatin 40mg tablets (Teva UK Ltd)
+^ESCT1176030	Rosuvastatin 10mg tablets (Teva UK Ltd)
+^ESCT1176053	Rosuvastatin 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1176055	Rosuvastatin 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1176057	Rosuvastatin 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1176059	Rosuvastatin 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1176072	Rosuvastatin 5mg tablets (Actavis UK Ltd)
+^ESCT1176074	Rosuvastatin 10mg tablets (Actavis UK Ltd)
+^ESCT1176076	Rosuvastatin 20mg tablets (Actavis UK Ltd)
+^ESCT1176080	Rosuvastatin 40mg tablets (Actavis UK Ltd)
+^ESCT1176087	Rosuvastatin 5mg tablets (Sandoz Ltd)
+^ESCT1176089	Rosuvastatin 10mg tablets (Sandoz Ltd)
+^ESCT1176091	Rosuvastatin 20mg tablets (Sandoz Ltd)
+^ESCT1176093	Rosuvastatin 40mg tablets (Sandoz Ltd)
+^ESCT1176122	Rosuvastatin 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1176124	Rosuvastatin 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1176126	Rosuvastatin 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1176128	Rosuvastatin 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1176140	Rosuvastatin 5mg tablets (Sun Pharmaceuticals UK Ltd)
+^ESCT1176142	Rosuvastatin 40mg tablets (Sun Pharmaceuticals UK Ltd)
+^ESCT1176146	Rosuvastatin 10mg tablets (Sun Pharmaceuticals UK Ltd)
+^ESCT1176150	Rosuvastatin 20mg tablets (Sun Pharmaceuticals UK Ltd)
+^ESCT1176970	Atorvastatin 10mg tablets (Milpharm Ltd)
+^ESCT1176972	Atorvastatin 20mg tablets (Milpharm Ltd)
+^ESCT1176974	Atorvastatin 40mg tablets (Milpharm Ltd)
+^ESCT1176976	Atorvastatin 80mg tablets (Milpharm Ltd)
+^ESCT1177310	Pravastatin 10mg tablets (Milpharm Ltd)
+^ESCT1177312	Pravastatin 20mg tablets (Milpharm Ltd)
+^ESCT1177314	Pravastatin 40mg tablets (Milpharm Ltd)
+^ESCT1177375	Rosuvastatin 5mg tablets (Milpharm Ltd)
+^ESCT1177379	Rosuvastatin 10mg tablets (Milpharm Ltd)
+^ESCT1177382	Rosuvastatin 20mg tablets (Milpharm Ltd)
+^ESCT1177384	Rosuvastatin 40mg tablets (Milpharm Ltd)
+^ESCT1177982	Product containing only atorvastatin 80 mg/1 each oral tablet
+^ESCT1180142	Simvastatin 10mg tablets (Milpharm Ltd)
+^ESCT1180353	Simvastatin 40mg tablets (Mylan)
+^ESCT1181042	Product containing only fluvastatin 20 mg/1 each oral capsule
+^ESCT1181043	Product containing only fluvastatin 40 mg/1 each oral capsule
+^ESCT1181044	Product containing only atorvastatin 10 mg/1 each oral tablet
+^ESCT1181302	Product containing only atorvastatin 40 mg/1 each oral tablet
+^ESCT1182645	Product containing only rosuvastatin 10 mg/1 each oral tablet
+^ESCT1183905	Fluvastatin 20mg capsules (Mylan)
+^ESCT1183995	Pravastatin 10mg tablets (Mylan)
+^ESCT1183996	Pravastatin 20mg tablets (Mylan)
+^ESCT1183997	Pravastatin 40mg tablets (Mylan)
+^ESCT1184334	Simvastatin 20mg tablets (Mylan)
+^ESCT1184956	Atorvastatin 20mg tablets (Mylan)
+^ESCT1185292	Product containing only rosuvastatin 40 mg/1 each oral tablet
+^ESCT1185294	Product containing only rosuvastatin 20 mg/1 each oral tablet
+^ESCT1186215	Simvastatin 40mg tablets (Milpharm Ltd)
+^ESCT1186422	Simvastatin 10mg tablets (Mylan)
+^ESCT1186977	Atorvastatin 10mg tablets (Mylan)
+^ESCT1186978	Atorvastatin 40mg tablets (Mylan)
+^ESCT1186980	Atorvastatin 80mg tablets (Mylan)
+^ESCT1187255	Product containing only simvastatin 80 mg/1 each oral tablet
+^ESCT1187256	Product containing only atorvastatin 20 mg/1 each oral tablet
+^ESCT1188332	Product containing only ezetimibe 10 mg and simvastatin 80 mg/1 each oral tablet
+^ESCT1188492	Product containing only lovastatin 40 mg/1 each oral tablet
+^ESCT1189092	Simvastatin 20mg tablets (Milpharm Ltd)
+^ESCT1189093	Simvastatin 80mg tablets (Milpharm Ltd)
+^ESCT1189395	Fluvastatin 40mg capsules (Mylan)
+^ESCT1189402	Pinmactil 80mg modified-release tablets (Mylan)
+^ESCT1189529	Simvastatin 80mg tablets (Mylan)
+^ESCT1195018	Atorvastatin 80mg tablets (Dexcel-Pharma Ltd)
+^ESCT1196501	Rosuvastatin 40mg tablets (Accord Healthcare Ltd)
+^ESCT1198524	Rosuvastatin 10mg tablets (Accord Healthcare Ltd)
+^ESCT1198916	Rosuvastatin 20mg tablets (Accord Healthcare Ltd)
+^ESCT1199281	Rosuvastatin 5mg tablets (Consilient Health Ltd)
+^ESCT1199283	Rosuvastatin 10mg tablets (Consilient Health Ltd)
+^ESCT1199285	Rosuvastatin 20mg tablets (Consilient Health Ltd)
+^ESCT1199287	Rosuvastatin 40mg tablets (Consilient Health Ltd)
+^ESCT1199534	Rosuvastatin 5mg tablets (Accord Healthcare Ltd)
+^ESCT1215962	Simvastatin 80mg tablets (Crescent Pharma Ltd)
+^ESCT1216183	Rosuvastatin 5mg tablets (Medreich Plc)
+^ESCT1216185	Rosuvastatin 10mg tablets (Medreich Plc)
+^ESCT1216187	Rosuvastatin 20mg tablets (Medreich Plc)
+^ESCT1216189	Rosuvastatin 40mg tablets (Medreich Plc)
+^ESCT1221932	Product containing precisely atorvastatin 80 milligram/1 each conventional release oral tablet
+^ESCT1223187	Product containing precisely simvastatin 80 milligram/1 each conventional release oral tablet
+^ESCT1223194	Product containing precisely fluvastatin 20 milligram/1 each conventional release oral capsule
+^ESCT1223195	Fluvastatin 20 mg oral capsule
+^ESCT1223196	Product containing precisely fluvastatin 40 milligram/1 each conventional release oral capsule
+^ESCT1223197	Fluvastatin 40 mg oral capsule
+^ESCT1223198	Product containing precisely atorvastatin 10 milligram/1 each conventional release oral tablet
+^ESCT1223199	Product containing precisely atorvastatin 20 milligram/1 each conventional release oral tablet
+^ESCT1223200	Product containing precisely atorvastatin 40 milligram/1 each conventional release oral tablet
+^ESCT1228813	Product containing precisely lovastatin 40 milligram/1 each conventional release oral tablet
+^ESCT1230468	Product containing precisely rosuvastatin (as rosuvastatin calcium) 40 milligram/1 each conventional release oral tablet
+^ESCT1230469	Rosuvastatin (as rosuvastatin calcium) 40 mg oral tablet
+^ESCT1230476	Product containing precisely rosuvastatin (as rosuvastatin calcium) 10 milligram/1 each conventional release oral tablet
+^ESCT1230477	Rosuvastatin (as rosuvastatin calcium) 10 mg oral tablet
+^ESCT1230478	Rosuvastatin (as rosuvastatin calcium) 20 mg oral tablet
+^ESCT1230479	Product containing precisely rosuvastatin (as rosuvastatin calcium) 20 milligram/1 each conventional release oral tablet
+^ESCT1232306	Product containing precisely ezetimibe 10 milligram and simvastatin 80 milligram/1 each conventional release oral tablet
+^ESCT1237650	Atorvastatin 40mg tablets (Accord Healthcare Ltd)
+^ESCT1250620	Atorvastatin 20mg tablets (Accord Healthcare Ltd)
+^ESCT1250914	Rosuvastatin 5mg tablets (Aristo Pharma Ltd)
+^ESCT1250916	Rosuvastatin 10mg tablets (Aristo Pharma Ltd)
+^ESCT1250918	Rosuvastatin 20mg tablets (Aristo Pharma Ltd)
+^ESCT1250920	Rosuvastatin 40mg tablets (Aristo Pharma Ltd)
+^ESCT1254310	Atorvastatin 10mg tablets (Xiromed)
+^ESCT1254312	Atorvastatin 20mg tablets (Xiromed)
+^ESCT1254314	Atorvastatin 40mg tablets (Xiromed)
+^ESCT1254316	Atorvastatin 80mg tablets (Xiromed)
+^ESCT1254382	Rosuvastatin 5mg tablets (Xiromed)
+^ESCT1254384	Rosuvastatin 10mg tablets (Xiromed)
+^ESCT1254386	Rosuvastatin 20mg tablets (Xiromed)
+^ESCT1254388	Rosuvastatin 40mg tablets (Xiromed)
+^ESCT1255513	Atorvastatin 40mg tablets (Bristol Laboratories Ltd)
+^ESCT1255515	Atorvastatin 80mg tablets (Bristol Laboratories Ltd)
+^ESCT1256244	Rosuvastatin 5mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1256246	Rosuvastatin 40mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1256248	Rosuvastatin 10mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1256250	Rosuvastatin 20mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1257449	Rosuvastatin 5mg tablets (Macleods Pharma UK Ltd)
+^ESCT1257496	Rosuvastatin 10mg tablets (Macleods Pharma UK Ltd)
+^ESCT1257513	Rosuvastatin 20mg tablets (Macleods Pharma UK Ltd)
+^ESCT1257530	Rosuvastatin 40mg tablets (Macleods Pharma UK Ltd)
+^ESCT1259273	Fluvastatin 20mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259276	Fluvastatin 40mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259280	Cadaff XL 80mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1262991	Atorvastatin 10mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1262993	Atorvastatin 20mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1262995	Atorvastatin 40mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1262997	Atorvastatin 80mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1263795	Atorvastatin 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263798	Atorvastatin 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263807	Atorvastatin 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263811	Atorvastatin 80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264418	Atorvastatin 30mg tablets (DE Pharmaceuticals)
+^ESCT1264420	Atorvastatin 60mg tablets (DE Pharmaceuticals)
+^ESCT1264623	Pravastatin 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264625	Pravastatin 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264629	Pravastatin 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264727	Simvastatin 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264729	Simvastatin 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264731	Simvastatin 80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1266689	Crestor 5mg tablets (CST Pharma Ltd)
+^ESCT1268478	Simvastatin 80mg tablets (Healthcare Pharma Ltd)
+^ESCT1269585	Atorvastatin 10mg tablets (Accord Healthcare Ltd)
+^ESCT1271312	Rosuvastatin 5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1271314	Rosuvastatin 10mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1271316	Rosuvastatin 20mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1271318	Rosuvastatin 40mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1273894	Atorvastatin 80mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1273896	Atorvastatin 10mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1273898	Atorvastatin 40mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1273900	Atorvastatin 20mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1274185	Crestor 5mg tablets (Pilsco Ltd)
+^ESCT1275231	Atorvastatin 30mg tablets (CST Pharma Ltd)
+^ESCT1275575	Rosuvastatin 5mg tablets (DE Pharmaceuticals)
+^ESCT1275578	Rosuvastatin 10mg tablets (DE Pharmaceuticals)
+^ESCT1275580	Rosuvastatin 20mg tablets (DE Pharmaceuticals)
+^ESCT1275582	Rosuvastatin 40mg tablets (DE Pharmaceuticals)
+^ESCT1275610	Simvastatin 20mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCT1275615	Simvastatin 40mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCT1302346	Atorvastatin 80mg tablets (Accord Healthcare Ltd)
+^ESCT1302352	Atorvastatin 10mg tablets (Upjohn Ltd)
+^ESCT1302355	Atorvastatin 20mg tablets (Upjohn Ltd)
+^ESCT1302358	Atorvastatin 40mg tablets (Upjohn Ltd)
+^ESCT1302361	Atorvastatin 80mg tablets (Upjohn Ltd)
+^ESCT1304255	Atorvastatin 10mg tablets (Upjohn UK Ltd)
+^ESCT1304258	Atorvastatin 20mg tablets (Upjohn UK Ltd)
+^ESCT1304261	Atorvastatin 40mg tablets (Upjohn UK Ltd)
+^ESCT1304264	Atorvastatin 80mg tablets (Upjohn UK Ltd)
+^ESCT1374348	Atorvastatin 30mg tablets (Zentiva)
+^ESCT1374351	Atorvastatin 60mg tablets (Zentiva)
+^ESCT1374822	Atorvastatin 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374824	Atorvastatin 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374826	Atorvastatin 30mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374828	Atorvastatin 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374830	Atorvastatin 60mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374833	Atorvastatin 80mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375912	Fluvastatin 20mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375915	Fluvastatin 40mg capsules (Medihealth (Northern) Ltd)
+^ESCT1402766	Atorvastatin 60mg tablets (Pilsco Ltd)
+^ESCT1403361	Pravastatin 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403378	Pravastatin 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403398	Pravastatin 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403998	Rosuvastatin 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404000	Rosuvastatin 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404002	Rosuvastatin 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404004	Rosuvastatin 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404063	Simvastatin 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404091	Simvastatin 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404093	Simvastatin 20mg/5ml oral suspension sugar free (Medihealth (Northern) Ltd)
+^ESCT1404095	Simvastatin 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404097	Simvastatin 40mg/5ml oral suspension sugar free (Medihealth (Northern) Ltd)
+^ESCT1404100	Simvastatin 80mg tablets (Medihealth (Northern) Ltd)
+^ESCT1422098	Pravastatin 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422100	Pravastatin 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422102	Pravastatin 40mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422205	Simvastatin 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422207	Simvastatin 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422209	Simvastatin 40mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422269	Fluvastatin 20mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422271	Fluvastatin 40mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422460	Atorvastatin 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422462	Atorvastatin 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422464	Atorvastatin 40mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422466	Atorvastatin 80mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422846	Rosuvastatin 40mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422848	Rosuvastatin 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422850	Rosuvastatin 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422852	Rosuvastatin 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1423084	Atorvastatin 30mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1423086	Atorvastatin 60mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1423413	Rosuvastatin 5mg tablets (Relonchem Ltd)
+^ESCT1423415	Rosuvastatin 10mg tablets (Relonchem Ltd)
+^ESCT1423417	Rosuvastatin 20mg tablets (Relonchem Ltd)
+^ESCT1423419	Rosuvastatin 40mg tablets (Relonchem Ltd)
+^ESCT1424773	Fluvastatin 20mg capsules
+^ESCT1424774	Fluvastatin 40mg capsules
+^ESCT1424797	Atorvastatin 10mg tablets
+^ESCT1425171	Atorvastatin 20mg tablets
+^ESCT1425172	Atorvastatin 40mg tablets
+^ESCT1425173	Atorvastatin 80mg tablets
+^ESCT1425438	Rosuvastatin 5mg capsules (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1425441	Rosuvastatin 10mg capsules (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1425444	Rosuvastatin 20mg capsules (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1425447	Rosuvastatin 40mg capsules (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1425462	Rosuvastatin 10mg capsules
+^ESCT1425463	Rosuvastatin 20mg capsules
+^ESCT1425464	Rosuvastatin 40mg capsules
+^ESCT1425465	Rosuvastatin 5mg capsules
+^ESCT1426685	Simvastatin 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426687	Simvastatin 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426689	Simvastatin 40mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426791	Simvastatin 80mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426915	Pravastatin 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426917	Pravastatin 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426919	Pravastatin 40mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427616	Atorvastatin 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427618	Atorvastatin 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427620	Atorvastatin 40mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427622	Atorvastatin 80mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1428963	Inegy 10mg/40mg tablets (CST Pharma Ltd)
+^ESCT1433932	Atorvastatin 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1437703	Simvastatin 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437705	Simvastatin 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437707	Simvastatin 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437709	Simvastatin 80mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437855	Pravastatin 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437857	Pravastatin 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437859	Pravastatin 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438121	Atorvastatin 10mg/5ml oral solution (Drug Tariff Special Order)
+^ESCT1438221	Fluvastatin 20mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438223	Fluvastatin 40mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438239	Pinmactil 80mg modified-release tablets (Viatris UK Healthcare Ltd)
+^ESCT1438619	Atorvastatin 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438621	Atorvastatin 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438623	Atorvastatin 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438625	Atorvastatin 80mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438927	Rosuvastatin 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438929	Rosuvastatin 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438931	Rosuvastatin 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438933	Rosuvastatin 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439659	Rosuvastatin 40mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1439663	Rosuvastatin 20mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1439666	Rosuvastatin 10mg capsules (A A H Pharmaceuticals Ltd)
+^ESCT1439669	Rosuvastatin 5mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTAT1002976	Atorvastatin 10mg tablets (Necessity Supplies Ltd)
+^ESCTAT1029102	Atorvastatin 10mg tablets (Dexcel-Pharma Ltd)
+^ESCTAT1029104	Atorvastatin 20mg tablets (Dexcel-Pharma Ltd)
+^ESCTAT1029106	Atorvastatin 40mg tablets (Dexcel-Pharma Ltd)
+^ESCTAT1029419	Atorvastatin 10mg tablets (Actavis UK Ltd)
+^ESCTAT1029421	Atorvastatin 20mg tablets (Actavis UK Ltd)
+^ESCTAT1029423	Atorvastatin 40mg tablets (Actavis UK Ltd)
+^ESCTAT1029425	Atorvastatin 80mg tablets (Actavis UK Ltd)
+^ESCTAT1029505	Atorvastatin 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAT1029507	Atorvastatin 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAT1029511	Atorvastatin 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAT1029514	Atorvastatin 80mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAT1029516	Atorvastatin 10mg tablets (Teva UK Ltd)
+^ESCTAT1029532	Atorvastatin 20mg tablets (Teva UK Ltd)
+^ESCTAT1029535	Atorvastatin 40mg tablets (Teva UK Ltd)
+^ESCTAT1029542	Atorvastatin 80mg tablets (Teva UK Ltd)
+^ESCTAT1029549	Atorvastatin 10mg tablets (Aspire Pharma Ltd)
+^ESCTAT1029554	Atorvastatin 20mg tablets (Aspire Pharma Ltd)
+^ESCTAT1029557	Atorvastatin 40mg tablets (Aspire Pharma Ltd)
+^ESCTAT1029564	Atorvastatin 80mg tablets (Aspire Pharma Ltd)
+^ESCTAT1029657	Atorvastatin 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT1029659	Atorvastatin 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT1029661	Atorvastatin 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT1029663	Atorvastatin 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT1029698	Atorvastatin 30mg tablets (Consilient Health Ltd)
+^ESCTAT1029701	Atorvastatin 60mg tablets (Consilient Health Ltd)
+^ESCTAT1029703	Atorvastatin 80mg tablets (Consilient Health Ltd)
+^ESCTAT1029853	Atorvastatin 10mg tablets (Consilient Health Ltd)
+^ESCTAT1029855	Atorvastatin 20mg tablets (Consilient Health Ltd)
+^ESCTAT1029857	Atorvastatin 40mg tablets (Consilient Health Ltd)
+^ESCTAT1030217	Atorvastatin 10mg tablets (Arrow Generics Ltd)
+^ESCTAT1030219	Atorvastatin 20mg tablets (Arrow Generics Ltd)
+^ESCTAT1030226	Atorvastatin 40mg tablets (Arrow Generics Ltd)
+^ESCTAT1030233	Atorvastatin 80mg tablets (Arrow Generics Ltd)
+^ESCTAT1030249	Atorvastatin 10mg tablets (Wockhardt UK Ltd)
+^ESCTAT1030251	Atorvastatin 20mg tablets (Wockhardt UK Ltd)
+^ESCTAT1030256	Atorvastatin 40mg tablets (Wockhardt UK Ltd)
+^ESCTAT1030263	Atorvastatin 80mg tablets (Wockhardt UK Ltd)
+^ESCTAT1030290	Atorvastatin 10mg tablets (Zentiva)
+^ESCTAT1030293	Atorvastatin 20mg tablets (Zentiva)
+^ESCTAT1030295	Atorvastatin 40mg tablets (Zentiva)
+^ESCTAT1030297	Atorvastatin 80mg tablets (Zentiva)
+^ESCTAT1034095	Atorvastatin 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT1034097	Atorvastatin 60mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT1034166	Atorvastatin 10mg tablets (Pfizer Ltd)
+^ESCTAT1034169	Atorvastatin 20mg tablets (Pfizer Ltd)
+^ESCTAT1034176	Atorvastatin 40mg tablets (Pfizer Ltd)
+^ESCTAT1034182	Atorvastatin 80mg tablets (Pfizer Ltd)
+^ESCTAT1034205	Atorvastatin 10mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAT1034209	Atorvastatin 20mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAT1034211	Atorvastatin 40mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAT1034214	Atorvastatin 80mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAT1035305	Atorvastatin 30mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAT1035307	Atorvastatin 60mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAT1041435	Atorvastatin 10mg tablets (Waymade Healthcare Plc)
+^ESCTAT1041437	Atorvastatin 20mg tablets (Waymade Healthcare Plc)
+^ESCTAT1041439	Atorvastatin 40mg tablets (Waymade Healthcare Plc)
+^ESCTAT1041441	Atorvastatin 80mg tablets (Waymade Healthcare Plc)
+^ESCTAT1043933	Atorvastatin 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAT1043935	Atorvastatin 20mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAT1043937	Atorvastatin 40mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAT1043939	Atorvastatin 80mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAT1045391	Atorvastatin 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1045393	Atorvastatin 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1045395	Atorvastatin 40mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1045397	Atorvastatin 80mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1049103	Atorvastatin 10mg tablets (DE Pharmaceuticals)
+^ESCTAT1049105	Atorvastatin 20mg tablets (DE Pharmaceuticals)
+^ESCTAT1049107	Atorvastatin 40mg tablets (DE Pharmaceuticals)
+^ESCTAT1049109	Atorvastatin 80mg tablets (DE Pharmaceuticals)
+^ESCTAT1052122	Atorvastatin 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAT1052126	Atorvastatin 20mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAT1052129	Atorvastatin 40mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAT1052132	Atorvastatin 80mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAT1058766	Atorvastatin 30mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1058768	Atorvastatin 60mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1116889	Atorvastatin 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT1116891	Atorvastatin 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT1116893	Atorvastatin 30mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT1116895	Atorvastatin 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT1116897	Atorvastatin 60mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT1116899	Atorvastatin 80mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT1141740	Atorvastatin 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAT1141742	Atorvastatin 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAT1141744	Atorvastatin 40mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAT1141746	Atorvastatin 80mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAT1152578	Atorvastatin 10mg tablets (Mylan Ltd)
+^ESCTAT1152580	Atorvastatin 20mg tablets (Mylan Ltd)
+^ESCTAT1152582	Atorvastatin 40mg tablets (Mylan Ltd)
+^ESCTAT1152584	Atorvastatin 80mg tablets (Mylan Ltd)
+^ESCTAT1162851	Atorvastatin 80mg/5ml oral suspension (Special Order)
+^ESCTAT1162905	Atorvastatin 80mg/5ml oral suspension
+^ESCTAT450791	Atorvastatin 80mg tablets
+^ESCTAT450793	Atorvastatin 80 mg oral tablet
+^ESCTAT608309	Atorvastatin 10mg tablets
+^ESCTAT608311	Atorvastatin 10 mg oral tablet
+^ESCTAT608312	Atorvastatin 20mg tablets
+^ESCTAT608314	Atorvastatin 20 mg oral tablet
+^ESCTAT608315	Atorvastatin 40mg tablets
+^ESCTAT608317	Atorvastatin 40 mg oral tablet
+^ESCTAT877580	Atorvastatin 10mg tablets (Waymade Healthcare Plc)
+^ESCTAT877591	Atorvastatin 20mg tablets (Waymade Healthcare Plc)
+^ESCTAT878585	Atorvastatin 10mg tablets (Dowelhurst Ltd)
+^ESCTAT878592	Atorvastatin 20mg tablets (Dowelhurst Ltd)
+^ESCTAT878595	Atorvastatin 40mg tablets (Dowelhurst Ltd)
+^ESCTAT966230	Atorvastatin 10mg tablets (DE Pharmaceuticals)
+^ESCTAT966234	Atorvastatin 20mg tablets (DE Pharmaceuticals)
+^ESCTAT966237	Atorvastatin 40mg tablets (DE Pharmaceuticals)
+^ESCTAT967965	Atorvastatin 20mg/5ml oral solution (Special Order)
+^ESCTAT967970	Atorvastatin 20mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTAT968609	Atorvastatin 40mg/5ml oral solution (Special Order)
+^ESCTAT968613	Atorvastatin 40mg/5ml oral suspension (Special Order)
+^ESCTAT969401	Atorvastatin 10mg/5ml oral solution (Special Order)
+^ESCTAT969404	Atorvastatin 10mg/5ml oral suspension (Special Order)
+^ESCTAT969415	Atorvastatin 10mg/5ml oral suspension
+^ESCTAT969416	Atorvastatin 40mg/5ml oral solution
+^ESCTAT969417	Atorvastatin 40mg/5ml oral suspension
+^ESCTAT969800	Atorvastatin 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT969803	Atorvastatin 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT969807	Atorvastatin 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT990151	Atorvastatin 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCR1000461	Crestor 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCR1000463	Crestor 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCR1001944	Crestor 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCR1001946	Crestor 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCR1007131	Crestor 10mg tablets (Lexon (UK) Ltd)
+^ESCTCR1008730	Crestor 10mg tablets (Necessity Supplies Ltd)
+^ESCTCR1008733	Crestor 20mg tablets (Necessity Supplies Ltd)
+^ESCTCR1008736	Crestor 40mg tablets (Necessity Supplies Ltd)
+^ESCTCR1008743	Crestor 5mg tablets (Necessity Supplies Ltd)
+^ESCTCR1023884	Crestor 20mg tablets (Lexon (UK) Ltd)
+^ESCTCR930006	Crestor 10mg tablets (Waymade Healthcare Plc)
+^ESCTCR930010	Crestor 20mg tablets (Waymade Healthcare Plc)
+^ESCTCR930014	Crestor 40mg tablets (Waymade Healthcare Plc)
+^ESCTCR947263	Crestor 5mg tablets (Waymade Healthcare Plc)
+^ESCTCR959281	Crestor 5mg tablets (Dowelhurst Ltd)
+^ESCTCR959284	Crestor 10mg tablets (Dowelhurst Ltd)
+^ESCTCR959287	Crestor 20mg tablets (Dowelhurst Ltd)
+^ESCTCR966481	Crestor 5mg tablets (DE Pharmaceuticals)
+^ESCTCR966484	Crestor 10mg tablets (DE Pharmaceuticals)
+^ESCTCR966488	Crestor 20mg tablets (DE Pharmaceuticals)
+^ESCTCR966490	Crestor 40mg tablets (DE Pharmaceuticals)
+^ESCTCR969925	Crestor 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCR969931	Crestor 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCR969935	Crestor 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCR988849	Crestor 5mg tablets (Lexon (UK) Ltd)
+^ESCTCR988852	Crestor 40mg tablets (Lexon (UK) Ltd)
+^ESCTEZ685369	Ezetimibe 10 mg and simvastatin 80 mg oral tablet
+^ESCTFL1005821	Fluvastatin 20mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTFL1005823	Fluvastatin 40mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTFL1009053	Fluvastatin 20mg capsules (Necessity Supplies Ltd)
+^ESCTFL1027601	Fluvastatin 20mg capsules (Sandoz Ltd)
+^ESCTFL1027603	Fluvastatin 40mg capsules (Sandoz Ltd)
+^ESCTFL1043624	Fluvastatin 20mg capsules (Waymade Healthcare Plc)
+^ESCTFL1043626	Fluvastatin 40mg capsules (Waymade Healthcare Plc)
+^ESCTFL1057230	Fluvastatin 80mg modified-release tablets (Accord Healthcare Ltd)
+^ESCTFL1058311	Fluvastatin 80mg modified-release tablets (Waymade Healthcare Plc)
+^ESCTFL1061396	Fluvastatin 80mg modified-release tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTFL1061990	Fluvastatin 20mg capsules (DE Pharmaceuticals)
+^ESCTFL1061992	Fluvastatin 40mg capsules (DE Pharmaceuticals)
+^ESCTFL1117763	Fluvastatin 20mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTFL1119395	Fluvastatin 80mg modified-release tablets (DE Pharmaceuticals)
+^ESCTFL1120104	Fluvastatin 20mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTFL1120106	Fluvastatin 40mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTFL1120108	Fluvastatin 80mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTFL608301	Fluvastatin 20mg capsules
+^ESCTFL608303	Fluvastatin 20 mg/1 each oral capsule
+^ESCTFL608304	Fluvastatin 40mg capsules
+^ESCTFL608306	Fluvastatin 40 mg/1 each oral capsule
+^ESCTFL608307	Fluvastatin 80mg modified-release tablets
+^ESCTFL608308	Fluvastatin 80mg m/r tablet
+^ESCTFL878727	Fluvastatin 40mg capsules (Dowelhurst Ltd)
+^ESCTFL878846	Fluvastatin 20mg capsules (Dowelhurst Ltd)
+^ESCTFL968200	Fluvastatin 20mg capsules (Zentiva)
+^ESCTFL968202	Fluvastatin 40mg capsules (Zentiva)
+^ESCTFL968206	Fluvastatin 20mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL968208	Fluvastatin 40mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL968213	Fluvastatin 80mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL969510	Fluvastatin 20mg capsules (Teva UK Ltd)
+^ESCTFL969514	Fluvastatin 40mg capsules (Teva UK Ltd)
+^ESCTFL970184	Fluvastatin 20mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTFL973579	Fluvastatin 20mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTFL973581	Fluvastatin 40mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTFL978365	Fluvastatin 40mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTFL989834	Fluvastatin 20mg capsules (Actavis UK Ltd)
+^ESCTFL989836	Fluvastatin 40mg capsules (Actavis UK Ltd)
+^ESCTFL993836	Fluvastatin 20mg capsules (Mylan Ltd)
+^ESCTFL993838	Fluvastatin 40mg capsules (Mylan Ltd)
+^ESCTIN1021576	Inegy 10mg/20mg tablets (DE Pharmaceuticals)
+^ESCTIN1021578	Inegy 10mg/40mg tablets (DE Pharmaceuticals)
+^ESCTIN1021580	Inegy 10mg/80mg tablets (DE Pharmaceuticals)
+^ESCTIN1109074	Inegy 10mg/40mg tablets (Waymade Healthcare Plc)
+^ESCTIN992648	Inegy 10mg/20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIN992656	Inegy 10mg/40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIN992667	Inegy 10mg/80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIN994683	Inegy 10mg/80mg tablets (Waymade Healthcare Plc)
+^ESCTLE1011165	Lescol 20mg capsules (Necessity Supplies Ltd)
+^ESCTLE1011167	Lescol 40mg capsules (Necessity Supplies Ltd)
+^ESCTLE1011169	Lescol XL 80mg tablets (Necessity Supplies Ltd)
+^ESCTLE878006	Lescol 20mg capsules (Waymade Healthcare Plc)
+^ESCTLE878012	Lescol 40mg capsules (Waymade Healthcare Plc)
+^ESCTLE879582	Lescol 20mg capsules (Dowelhurst Ltd)
+^ESCTLE879597	Lescol 40mg capsules (Dowelhurst Ltd)
+^ESCTLE932737	Lescol XL 80mg tablets (Waymade Healthcare Plc)
+^ESCTLE967094	Lescol 20mg capsules (DE Pharmaceuticals)
+^ESCTLE967097	Lescol 40mg capsules (DE Pharmaceuticals)
+^ESCTLE967100	Lescol XL 80mg tablets (DE Pharmaceuticals)
+^ESCTLE975301	Lescol 20mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTLE975305	Lescol 40mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTLE975320	Lescol XL 80mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLE989265	Lescol 20mg capsules (Lexon (UK) Ltd)
+^ESCTLE989267	Lescol 40mg capsules (Lexon (UK) Ltd)
+^ESCTLE992528	Lescol XL 80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLE992905	Lescol 20mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTLE992907	Lescol 40mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTLI1002067	Lipostat 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLI1011173	Lipitor 10mg tablets (Necessity Supplies Ltd)
+^ESCTLI1011176	Lipitor 20mg tablets (Necessity Supplies Ltd)
+^ESCTLI1011178	Lipitor 40mg tablets (Necessity Supplies Ltd)
+^ESCTLI1023925	Lipitor 40mg tablets (DE Pharmaceuticals)
+^ESCTLI870717	Lipobay 100microgram tablets (Bayer Plc)
+^ESCTLI870731	Lipobay 200microgram tablets (Bayer Plc)
+^ESCTLI870737	Lipobay 400microgram tablets (Bayer Plc)
+^ESCTLI870984	Lipobay 300microgram tablets (Bayer Plc)
+^ESCTLI870987	Lipobay 800microgram tablets (Bayer Plc)
+^ESCTLI877995	Lipitor 10mg tablets (Waymade Healthcare Plc)
+^ESCTLI878004	Lipitor 20mg tablets (Waymade Healthcare Plc)
+^ESCTLI878010	Lipostat 10mg tablets (Waymade Healthcare Plc)
+^ESCTLI878018	Lipostat 20mg tablets (Waymade Healthcare Plc)
+^ESCTLI879146	Lipitor 10mg tablets (Dowelhurst Ltd)
+^ESCTLI879154	Lipitor 20mg tablets (Dowelhurst Ltd)
+^ESCTLI879172	Lipitor 40mg tablets (Dowelhurst Ltd)
+^ESCTLI879314	Lipostat 20mg tablets (Dowelhurst Ltd)
+^ESCTLI879488	Lipostat 10mg tablets (Dowelhurst Ltd)
+^ESCTLI879632	Lipostat 40mg tablets (Dowelhurst Ltd)
+^ESCTLI967112	Lipitor 10mg tablets (DE Pharmaceuticals)
+^ESCTLI967116	Lipitor 20mg tablets (DE Pharmaceuticals)
+^ESCTLI967119	Lipitor 80mg tablets (DE Pharmaceuticals)
+^ESCTLI967121	Lipostat 10mg tablets (DE Pharmaceuticals)
+^ESCTLI970874	Lipitor 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLI970896	Lipitor 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLI973664	Lipitor 40mg tablets (Waymade Healthcare Plc)
+^ESCTLI989277	Lipitor 10mg tablets (Lexon (UK) Ltd)
+^ESCTLI989296	Lipitor 80mg tablets (Waymade Healthcare Plc)
+^ESCTLI992594	Lipitor 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLI992597	Lipitor 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLI992602	Lipitor 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLI992605	Lipitor 80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLL966486	Lloydspharmacy Cholesterol Lowering 10mg tablets (Lloyds Pharmacy Ltd)
+^ESCTLO641538	Lovastatin 40mg tablets
+^ESCTLO641540	Lovastatin 40 mg oral tablet
+^ESCTME1080436	Mevacor 40mg tablets (Imported (United States))
+^ESCTPI994747	Pinmactil 80mg modified-release tablets (Mylan Ltd)
+^ESCTPR1005867	Pravastatin 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPR1005870	Pravastatin 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPR1005874	Pravastatin 40mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPR1010918	Pravastatin 10mg tablets (Accord Healthcare Ltd)
+^ESCTPR1010920	Pravastatin 20mg tablets (Accord Healthcare Ltd)
+^ESCTPR1010922	Pravastatin 40mg tablets (Accord Healthcare Ltd)
+^ESCTPR1022647	Pravastatin 10mg tablets (Medreich Plc)
+^ESCTPR1022650	Pravastatin 20mg tablets (Medreich Plc)
+^ESCTPR1022652	Pravastatin 40mg tablets (Medreich Plc)
+^ESCTPR1042101	Pravastatin 10mg tablets (Waymade Healthcare Plc)
+^ESCTPR1042103	Pravastatin 20mg tablets (Waymade Healthcare Plc)
+^ESCTPR1042105	Pravastatin 40mg tablets (Waymade Healthcare Plc)
+^ESCTPR1107696	Pravastatin 5mg oral powder sachets (Special Order)
+^ESCTPR1107706	Pravastatin 5mg oral powder sachets
+^ESCTPR1119933	Pravastatin 10mg tablets (DE Pharmaceuticals)
+^ESCTPR1119935	Pravastatin 20mg tablets (DE Pharmaceuticals)
+^ESCTPR1119937	Pravastatin 40mg tablets (DE Pharmaceuticals)
+^ESCTPR450792	Product containing atorvastatin 80 mg/1 each oral tablet
+^ESCTPR608284	Product containing simvastatin 80 mg/1 each oral tablet
+^ESCTPR608302	Product containing fluvastatin 20 mg/1 each oral capsule
+^ESCTPR608305	Product containing fluvastatin 40 mg/1 each oral capsule
+^ESCTPR608310	Product containing atorvastatin 10 mg/1 each oral tablet
+^ESCTPR608313	Product containing atorvastatin 20 mg/1 each oral tablet
+^ESCTPR608316	Product containing atorvastatin 40 mg/1 each oral tablet
+^ESCTPR641539	Product containing lovastatin 40 mg/1 each oral tablet
+^ESCTPR675549	Product containing rosuvastatin 40 mg/1 each oral tablet
+^ESCTPR675574	Product containing rosuvastatin 10 mg/1 each oral tablet
+^ESCTPR675577	Product containing rosuvastatin 20 mg/1 each oral tablet
+^ESCTPR685368	Product containing ezetimibe 10 mg and simvastatin 80 mg/1 each oral tablet
+^ESCTPR878188	Pravastatin 10mg tablets (Waymade Healthcare Plc)
+^ESCTPR878661	Pravastatin 20mg tablets (Dowelhurst Ltd)
+^ESCTPR878940	Pravastatin 40mg tablets (Dowelhurst Ltd)
+^ESCTPR878947	Pravastatin 10mg tablets (Dowelhurst Ltd)
+^ESCTPR901721	Pravastatin 10mg tablets (Teva UK Ltd)
+^ESCTPR901723	Pravastatin 20mg tablets (Teva UK Ltd)
+^ESCTPR901725	Pravastatin 40mg tablets (Teva UK Ltd)
+^ESCTPR901870	Pravastatin 10mg tablets (Actavis UK Ltd)
+^ESCTPR901874	Pravastatin 20mg tablets (Actavis UK Ltd)
+^ESCTPR901877	Pravastatin 40mg tablets (Actavis UK Ltd)
+^ESCTPR901881	Pravastatin 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTPR901883	Pravastatin 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTPR901885	Pravastatin 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTPR902028	Pravastatin 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR902033	Pravastatin 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR902035	Pravastatin 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR902209	Pravastatin 10mg tablets (Sandoz Ltd)
+^ESCTPR902212	Pravastatin 20mg tablets (Sandoz Ltd)
+^ESCTPR902221	Pravastatin 40mg tablets (Sandoz Ltd)
+^ESCTPR902472	Pravastatin 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR902475	Pravastatin 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR902478	Pravastatin 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR903093	Pravastatin 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR903103	Pravastatin 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR903107	Pravastatin 40mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR903120	Pravastatin 10mg tablets (Zentiva)
+^ESCTPR903122	Pravastatin 20mg tablets (Zentiva)
+^ESCTPR903124	Pravastatin 40mg tablets (Zentiva)
+^ESCTPR903134	Pravastatin 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPR903136	Pravastatin 20mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPR903139	Pravastatin 40mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPR903219	Pravastatin 10mg tablets (Mylan Ltd)
+^ESCTPR903221	Pravastatin 20mg tablets (Mylan Ltd)
+^ESCTPR903223	Pravastatin 40mg tablets (Mylan Ltd)
+^ESCTPR923704	Pravastatin 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPR923710	Pravastatin 20mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPR923716	Pravastatin 40mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPR927875	Pravastatin 40mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTPR927879	Pravastatin 20mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTPR927884	Pravastatin 10mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTPR928976	Pravastatin 10mg tablets (Arrow Generics Ltd)
+^ESCTPR928978	Pravastatin 20mg tablets (Arrow Generics Ltd)
+^ESCTPR928980	Pravastatin 40mg tablets (Arrow Generics Ltd)
+^ESCTPR939438	Pravastatin 10mg tablets (PLIVA Pharma Ltd)
+^ESCTPR939440	Pravastatin 20mg tablets (PLIVA Pharma Ltd)
+^ESCTPR939442	Pravastatin 40mg tablets (PLIVA Pharma Ltd)
+^ESCTPR965592	Pravastatin 10mg tablets (Tillomed Laboratories Ltd)
+^ESCTPR965594	Pravastatin 20mg tablets (Tillomed Laboratories Ltd)
+^ESCTPR965596	Pravastatin 40mg tablets (Tillomed Laboratories Ltd)
+^ESCTPR965662	Pravastatin 10mg tablets (Apotex UK Ltd)
+^ESCTPR965664	Pravastatin 20mg tablets (Apotex UK Ltd)
+^ESCTPR965666	Pravastatin 40mg tablets (Apotex UK Ltd)
+^ESCTPR966728	Pravastatin 20mg/5ml oral solution (Special Order)
+^ESCTPR966751	Pravastatin 20mg/5ml oral suspension (Special Order)
+^ESCTPR966830	Pravastatin 20mg/5ml oral solution
+^ESCTPR966831	Pravastatin 20mg/5ml oral suspension
+^ESCTPR977054	Pravastatin 5mg/5ml oral solution (Special Order)
+^ESCTPR977057	Pravastatin 5mg/5ml oral suspension (Special Order)
+^ESCTPR977111	Pravastatin 5mg/5ml oral suspension
+^ESCTPR979105	Pravastatin 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR979107	Pravastatin 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR979109	Pravastatin 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR982410	Pravastatin 40mg/5ml oral solution (Special Order)
+^ESCTPR982413	Pravastatin 40mg/5ml oral suspension (Special Order)
+^ESCTPR982515	Pravastatin 40mg/5ml oral solution
+^ESCTRO1008472	Rosuvastatin 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRO675548	Rosuvastatin 40mg tablets
+^ESCTRO675550	Rosuvastatin 40 mg oral tablet
+^ESCTRO675573	Rosuvastatin 10mg tablets
+^ESCTRO675575	Rosuvastatin 10 mg oral tablet
+^ESCTRO675576	Rosuvastatin 20mg tablets
+^ESCTRO675578	Rosuvastatin 20 mg oral tablet
+^ESCTRO932754	Rosuvastatin 10mg tablets (Waymade Healthcare Plc)
+^ESCTRO941120	Rosuvastatin 20mg tablets (Waymade Healthcare Plc)
+^ESCTRO951083	Rosuvastatin 5mg tablets (Waymade Healthcare Plc)
+^ESCTRO960046	Rosuvastatin 10mg tablets (Dowelhurst Ltd)
+^ESCTRO987766	Rosuvastatin 20mg/5ml oral suspension (Special Order)
+^ESCTRO988082	Rosuvastatin 20mg/5ml oral suspension
+^ESCTSI1000163	Simvastatin 20mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTSI1000166	Simvastatin 40mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTSI1004648	Simvastatin 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSI1004731	Simvastatin 40mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSI1004743	Simvastatin 80mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSI1005183	Simvastatin 20mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTSI1005185	Simvastatin 40mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTSI1005999	Simvastatin 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSI1010943	Simvastatin 10mg tablets (Accord Healthcare Ltd)
+^ESCTSI1010945	Simvastatin 20mg tablets (Accord Healthcare Ltd)
+^ESCTSI1010950	Simvastatin 40mg tablets (Accord Healthcare Ltd)
+^ESCTSI1010952	Simvastatin 80mg tablets (Accord Healthcare Ltd)
+^ESCTSI1013236	Simvastatin 20mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc)
+^ESCTSI1013606	Simvastatin 20mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTSI1013612	Simvastatin 40mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTSI1017851	Simvastatin 10mg tablets (Aurobindo Pharma Ltd)
+^ESCTSI1017853	Simvastatin 20mg tablets (Aurobindo Pharma Ltd)
+^ESCTSI1017855	Simvastatin 40mg tablets (Aurobindo Pharma Ltd)
+^ESCTSI1017857	Simvastatin 80mg tablets (Aurobindo Pharma Ltd)
+^ESCTSI1022663	Simvastatin 10mg tablets (Medreich Plc)
+^ESCTSI1022665	Simvastatin 20mg tablets (Medreich Plc)
+^ESCTSI1022667	Simvastatin 40mg tablets (Medreich Plc)
+^ESCTSI1022669	Simvastatin 80mg tablets (Medreich Plc)
+^ESCTSI1042531	Simvastatin 20mg/5ml oral suspension sugar free (Waymade Healthcare Plc)
+^ESCTSI1042533	Simvastatin 40mg/5ml oral suspension sugar free (Waymade Healthcare Plc)
+^ESCTSI1042541	Simvastatin 10mg tablets (Waymade Healthcare Plc)
+^ESCTSI1042543	Simvastatin 20mg tablets (Waymade Healthcare Plc)
+^ESCTSI1042545	Simvastatin 40mg tablets (Waymade Healthcare Plc)
+^ESCTSI1042547	Simvastatin 80mg tablets (Waymade Healthcare Plc)
+^ESCTSI1109039	Simvastatin 40mg tablets (Crescent Pharma Ltd)
+^ESCTSI1109041	Simvastatin 10mg tablets (Crescent Pharma Ltd)
+^ESCTSI1109705	Simvastatin 20mg tablets (Crescent Pharma Ltd)
+^ESCTSI1119785	Simvastatin 10mg tablets (DE Pharmaceuticals)
+^ESCTSI1119787	Simvastatin 20mg tablets (DE Pharmaceuticals)
+^ESCTSI1119789	Simvastatin 40mg tablets (DE Pharmaceuticals)
+^ESCTSI1119791	Simvastatin 80mg tablets (DE Pharmaceuticals)
+^ESCTSI1142670	Simvastatin 10mg tablets (Brown & Burk UK Ltd)
+^ESCTSI1142672	Simvastatin 20mg tablets (Brown & Burk UK Ltd)
+^ESCTSI1142674	Simvastatin 40mg tablets (Brown & Burk UK Ltd)
+^ESCTSI1142677	Simvastatin 80mg tablets (Brown & Burk UK Ltd)
+^ESCTSI1145582	Simvastatin 40mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTSI1152574	Simvastatin 20mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTSI1153479	Simvastatin 10mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTSI608283	Simvastatin 80mg tablets
+^ESCTSI608285	Simvastatin 80 mg oral tablet
+^ESCTSI685367	Simvastatin 80mg / Ezetimibe 10mg tablets
+^ESCTSI869504	Simvastatin 10mg tablets (Teva UK Ltd)
+^ESCTSI869507	Simvastatin 20mg tablets (Teva UK Ltd)
+^ESCTSI869509	Simvastatin 40mg tablets (Teva UK Ltd)
+^ESCTSI869897	Simvastatin 10mg tablets (Actavis UK Ltd)
+^ESCTSI869899	Simvastatin 20mg tablets (Actavis UK Ltd)
+^ESCTSI869901	Simvastatin 40mg tablets (Actavis UK Ltd)
+^ESCTSI870079	Simvastatin 10mg tablets (Mylan Ltd)
+^ESCTSI870081	Simvastatin 20mg tablets (Mylan Ltd)
+^ESCTSI870083	Simvastatin 40mg tablets (Mylan Ltd)
+^ESCTSI870086	Simvastatin 80mg tablets (Mylan Ltd)
+^ESCTSI870091	Simvastatin 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTSI870094	Simvastatin 20mg tablets (Ranbaxy (UK) Ltd)
+^ESCTSI870097	Simvastatin 40mg tablets (Ranbaxy (UK) Ltd)
+^ESCTSI870103	Simvastatin 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSI870106	Simvastatin 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSI870108	Simvastatin 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSI870110	Simvastatin 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSI870112	Simvastatin 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSI870114	Simvastatin 40mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSI870118	Simvastatin 10mg tablets (Sterwin Medicines)
+^ESCTSI870120	Simvastatin 20mg tablets (Sterwin Medicines)
+^ESCTSI870122	Simvastatin 40mg tablets (Sterwin Medicines)
+^ESCTSI870241	Simvastatin 10mg tablets (Wockhardt UK Ltd)
+^ESCTSI870243	Simvastatin 20mg tablets (Wockhardt UK Ltd)
+^ESCTSI870245	Simvastatin 40mg tablets (Wockhardt UK Ltd)
+^ESCTSI871046	Simvastatin 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSI871048	Simvastatin 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSI871050	Simvastatin 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSI871052	Simvastatin 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSI871082	Simvastatin 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSI871090	Simvastatin 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSI871092	Simvastatin 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSI871094	Simvastatin 80mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSI871101	Simvastatin 10mg tablets (Sandoz Ltd)
+^ESCTSI871103	Simvastatin 20mg tablets (Sandoz Ltd)
+^ESCTSI871105	Simvastatin 40mg tablets (Sandoz Ltd)
+^ESCTSI878270	Simvastatin 10mg tablets (Waymade Healthcare Plc)
+^ESCTSI878283	Simvastatin 20mg tablets (Waymade Healthcare Plc)
+^ESCTSI878786	Simvastatin 80mg tablets (Teva UK Ltd)
+^ESCTSI878864	Simvastatin 20mg tablets (Dowelhurst Ltd)
+^ESCTSI879014	Simvastatin 10mg tablets (Dowelhurst Ltd)
+^ESCTSI879023	Simvastatin 40mg tablets (Dowelhurst Ltd)
+^ESCTSI886906	Simvastatin 80mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSI897045	Simvastatin 80mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSI908745	Simvastatin 10mg/5ml oral suspension (Special Order)
+^ESCTSI908750	Simvastatin 20mg/5ml oral suspension (Special Order)
+^ESCTSI908995	Simvastatin 10mg/5ml oral suspension
+^ESCTSI923681	Simvastatin 80mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTSI923684	Simvastatin 40mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTSI923689	Simvastatin 20mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTSI923691	Simvastatin 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTSI927843	Simvastatin 80mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTSI927849	Simvastatin 40mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTSI927852	Simvastatin 20mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTSI927854	Simvastatin 10mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTSI927864	Simvastatin 10mg tablets (Relonchem Ltd)
+^ESCTSI927868	Simvastatin 20mg tablets (Relonchem Ltd)
+^ESCTSI927870	Simvastatin 40mg tablets (Relonchem Ltd)
+^ESCTSI929075	Simvastatin 10mg tablets (Arrow Generics Ltd)
+^ESCTSI929077	Simvastatin 20mg tablets (Arrow Generics Ltd)
+^ESCTSI929079	Simvastatin 40mg tablets (Arrow Generics Ltd)
+^ESCTSI929081	Simvastatin 80mg tablets (Arrow Generics Ltd)
+^ESCTSI930838	Simvastatin 10mg tablets (Somex Pharma)
+^ESCTSI930840	Simvastatin 20mg tablets (Somex Pharma)
+^ESCTSI930842	Simvastatin 40mg tablets (Somex Pharma)
+^ESCTSI932152	Simvastatin 10mg tablets (Zentiva)
+^ESCTSI932157	Simvastatin 20mg tablets (Zentiva)
+^ESCTSI932159	Simvastatin 40mg tablets (Zentiva)
+^ESCTSI933982	Simvastatin 80mg tablets (Actavis UK Ltd)
+^ESCTSI939472	Simvastatin 10mg tablets (PLIVA Pharma Ltd)
+^ESCTSI939474	Simvastatin 20mg tablets (PLIVA Pharma Ltd)
+^ESCTSI939476	Simvastatin 40mg tablets (PLIVA Pharma Ltd)
+^ESCTSI940859	Simvastatin 10mg tablets (Dexcel-Pharma Ltd)
+^ESCTSI940861	Simvastatin 20mg tablets (Dexcel-Pharma Ltd)
+^ESCTSI940863	Simvastatin 40mg tablets (Dexcel-Pharma Ltd)
+^ESCTSI965610	Simvastatin 10mg tablets (Tillomed Laboratories Ltd)
+^ESCTSI965612	Simvastatin 20mg tablets (Tillomed Laboratories Ltd)
+^ESCTSI965614	Simvastatin 40mg tablets (Tillomed Laboratories Ltd)
+^ESCTSI965616	Simvastatin 80mg tablets (Tillomed Laboratories Ltd)
+^ESCTSI966754	Simvastatin 20mg/5ml oral solution (Special Order)
+^ESCTSI966757	Simvastatin 40mg/5ml oral solution (Special Order)
+^ESCTSI966760	Simvastatin 40mg/5ml oral suspension (Special Order)
+^ESCTSI969456	Simvastatin 80mg tablets (Chanelle Medical UK Ltd)
+^ESCTSI979075	Simvastatin 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTSI979080	Simvastatin 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTSI979085	Simvastatin 80mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTSI979238	Simvastatin 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTSI987999	Simvastatin 10mg tablets (Bristol Laboratories Ltd)
+^ESCTSI988001	Simvastatin 20mg tablets (Bristol Laboratories Ltd)
+^ESCTSI988004	Simvastatin 40mg tablets (Bristol Laboratories Ltd)
+^ESCTSI988164	Simvastatin 25mg/5ml oral solution (Special Order)
+^ESCTSI988167	Simvastatin 25mg/5ml oral suspension (Special Order)
+^ESCTSI988245	Simvastatin 25mg/5ml oral solution
+^ESCTSI988246	Simvastatin 25mg/5ml oral suspension
+^ESCTZO1001758	Zocor 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZO1001760	Zocor 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTZO1008550	Zocor 10mg tablets (Necessity Supplies Ltd)
+^ESCTZO1008554	Zocor 20mg tablets (Necessity Supplies Ltd)
+^ESCTZO1008558	Zocor 40mg tablets (Necessity Supplies Ltd)
+^ESCTZO878444	Zocor 10mg tablets (Waymade Healthcare Plc)
+^ESCTZO878454	Zocor 20mg tablets (Waymade Healthcare Plc)
+^ESCTZO879915	Zocor 10mg tablets (Dowelhurst Ltd)
+^ESCTZO879918	Zocor 20mg tablets (Dowelhurst Ltd)
+^ESCTZO901809	Zocor Heart-Pro 10mg tablets (McNeil Products Ltd)
+^ESCTZO967784	Zocor 20mg tablets (DE Pharmaceuticals)
+^ESCTZO974986	Zocor 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTZO974990	Zocor 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTZO974995	Zocor 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTZO992055	Zocor 10mg tablets (Lexon (UK) Ltd)
+^ESCTZO992059	Zocor 40mg tablets (Lexon (UK) Ltd)
+ATOR141816NEMIS	Atorvastatin  Oral Suspension Sugar Free  20 mg/5 ml
+ATOR45702NEMIS	Atorvastatin  Oral suspension  10 mg/5 ml
+ATTA30130EMIS	Atorvastatin  Tablets  10 mg
+ATTA30131EMIS	Atorvastatin  Tablets  20 mg
+ATTA30132EMIS	Atorvastatin  Tablets  40 mg
+ATTA6253NEMIS	Atorvastatin  Tablets  80 mg
+CAM/131595NEMIS	Cadaff Xl  M/R tablets  80 mg
+FLCA24125EMIS	Fluvastatin  Capsules  20 mg
+FLCA24126EMIS	Fluvastatin  Capsules  40 mg
+LITA1910NEMIS	Lipobay  Tablets  400 micrograms
+LITA30759EMIS	Lipobay  Tablets  100 micrograms
+LITA30760EMIS	Lipobay  Tablets  200 micrograms
+LITA30761EMIS	Lipobay  Tablets  300 micrograms
+LITA6646NEMIS	Lipobay  Tablets  800 micrograms
+PIM/42037NEMIS	Pinmactil  M/R tablets  80 mg
+PROR105037NEMIS	Pravastatin  Oral suspension  5 mg/5 ml
+PRTA36645MGEMIS	Pravastatin  Tablets  10 mg (Teva UK)
+PRTA36646MGEMIS	Pravastatin  Tablets  10 mg (Alpharma)
+PRTA36647MGEMIS	Pravastatin  Tablets  10 mg (Ivax Pharmaceuticals)
+PRTA36648MGEMIS	Pravastatin  Tablets  10 mg (A.A.H. Pharm)
+PRTA36649MGEMIS	Pravastatin  Tablets  10 mg (Sandoz)
+PRTA36650MGEMIS	Pravastatin  Tablets  10 mg (Unichem)
+PRTA36651MGEMIS	Pravastatin  Tablets  10 mg (Kent Pharm)
+PRTA36652MGEMIS	Pravastatin  Tablets  10 mg (Winthrop Pharmaceuticals )
+PRTA36653MGEMIS	Pravastatin  Tablets  10 mg (Ranbaxy)
+PRTA36654MGEMIS	Pravastatin  Tablets  10 mg (Generics (UK))
+PRTA36655MGEMIS	Pravastatin  Tablets  20 mg (Teva UK)
+PRTA36656MGEMIS	Pravastatin  Tablets  20 mg (Alpharma)
+PRTA36657MGEMIS	Pravastatin  Tablets  20 mg (Ivax Pharmaceuticals)
+PRTA36658MGEMIS	Pravastatin  Tablets  20 mg (A.A.H. Pharm)
+PRTA36659MGEMIS	Pravastatin  Tablets  20 mg (Sandoz)
+PRTA36660MGEMIS	Pravastatin  Tablets  20 mg (Unichem)
+PRTA36661MGEMIS	Pravastatin  Tablets  20 mg (Kent Pharm)
+PRTA36662MGEMIS	Pravastatin  Tablets  20 mg (Winthrop Pharmaceuticals )
+PRTA36663MGEMIS	Pravastatin  Tablets  20 mg (Ranbaxy)
+PRTA36664MGEMIS	Pravastatin  Tablets  20 mg (Generics (UK))
+PRTA36748MGEMIS	Pravastatin  Tablets  40 mg (Teva UK)
+PRTA36749MGEMIS	Pravastatin  Tablets  40 mg (Alpharma)
+PRTA36750MGEMIS	Pravastatin  Tablets  40 mg (Ivax Pharmaceuticals)
+PRTA36751MGEMIS	Pravastatin  Tablets  40 mg (A.A.H. Pharm)
+PRTA36752MGEMIS	Pravastatin  Tablets  40 mg (Sandoz)
+PRTA36753MGEMIS	Pravastatin  Tablets  40 mg (Unichem)
+PRTA36754MGEMIS	Pravastatin  Tablets  40 mg (Kent Pharm)
+PRTA36755MGEMIS	Pravastatin  Tablets  40 mg (Winthrop Pharmaceuticals )
+PRTA36756MGEMIS	Pravastatin  Tablets  40 mg (Ranbaxy)
+PRTA36757MGEMIS	Pravastatin  Tablets  40 mg (Generics (UK))
+ROCA139765NEMIS	Rosuvastatin  Capsules  5 mg
+ROCA139766NEMIS	Rosuvastatin  Capsules  10 mg
+ROCA139767NEMIS	Rosuvastatin  Capsules  20 mg
+ROCA139768NEMIS	Rosuvastatin  Capsules  40 mg
+ROTA142600NEMIS	Rosuvastatin  Tablets  15 mg
+ROTA142601NEMIS	Rosuvastatin  Tablets  30 mg
+SITA36960MGEMIS	Simvastatin  Tablets  10 mg (Teva UK)
+SITA36961MGEMIS	Simvastatin  Tablets  10 mg (Alpharma)
+SITA36962MGEMIS	Simvastatin  Tablets  10 mg (Generics (UK))
+SITA36963MGEMIS	Simvastatin  Tablets  10 mg (Ranbaxy)
+SITA36964MGEMIS	Simvastatin  Tablets  10 mg (Ivax Pharmaceuticals)
+SITA36965MGEMIS	Simvastatin  Tablets  10 mg (Kent Pharm)
+SITA36966MGEMIS	Simvastatin  Tablets  10 mg (Sterwin Medicines)
+SITA36967MGEMIS	Simvastatin  Tablets  10 mg (Wockhardt UK)
+SITA36968MGEMIS	Simvastatin  Tablets  10 mg (Unichem)
+SITA36969MGEMIS	Simvastatin  Tablets  10 mg (A.A.H. Pharm)
+SITA36970MGEMIS	Simvastatin  Tablets  10 mg (Sandoz)
+SITA36971MGEMIS	Simvastatin  Tablets  20 mg (Teva UK)
+SITA36972MGEMIS	Simvastatin  Tablets  20 mg (Alpharma)
+SITA36973MGEMIS	Simvastatin  Tablets  20 mg (Generics (UK))
+SITA36974MGEMIS	Simvastatin  Tablets  20 mg (Ranbaxy)
+SITA36975MGEMIS	Simvastatin  Tablets  20 mg (Ivax Pharmaceuticals)
+SITA36976MGEMIS	Simvastatin  Tablets  20 mg (Kent Pharm)
+SITA36977MGEMIS	Simvastatin  Tablets  20 mg (Sterwin Medicines)
+SITA36978MGEMIS	Simvastatin  Tablets  20 mg (Wockhardt UK)
+SITA36979MGEMIS	Simvastatin  Tablets  20 mg (Unichem)
+SITA36980MGEMIS	Simvastatin  Tablets  20 mg (A.A.H. Pharm)
+SITA36981MGEMIS	Simvastatin  Tablets  20 mg (Sandoz)
+SITA36982MGEMIS	Simvastatin  Tablets  40 mg (Teva UK)
+SITA36983MGEMIS	Simvastatin  Tablets  40 mg (Alpharma)
+SITA36984MGEMIS	Simvastatin  Tablets  40 mg (Generics (UK))
+SITA36985MGEMIS	Simvastatin  Tablets  40 mg (Ranbaxy)
+SITA36986MGEMIS	Simvastatin  Tablets  40 mg (Ivax Pharmaceuticals)
+SITA36987MGEMIS	Simvastatin  Tablets  40 mg (Kent Pharm)
+SITA36988MGEMIS	Simvastatin  Tablets  40 mg (Sterwin Medicines)
+SITA36989MGEMIS	Simvastatin  Tablets  40 mg (Wockhardt UK)
+SITA36990MGEMIS	Simvastatin  Tablets  40 mg (Unichem)
+SITA36991MGEMIS	Simvastatin  Tablets  40 mg (A.A.H. Pharm)
+SITA36992MGEMIS	Simvastatin  Tablets  40 mg (Sandoz)
+SITA37696MGEMIS	Simvastatin  Tablets  80 mg (Generics (UK))
+SITA37697MGEMIS	Simvastatin  Tablets  80 mg (Unichem)
+SITA37698MGEMIS	Simvastatin  Tablets  80 mg (A.A.H. Pharm)
+SITA37699MGEMIS	Simvastatin  Tablets  80 mg (Teva UK)
+SITA37700MGEMIS	Simvastatin  Tablets  80 mg (Kent Pharm)
+SITA37701MGEMIS	Simvastatin  Tablets  80 mg (Ivax Pharmaceuticals)

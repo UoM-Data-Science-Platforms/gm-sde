@@ -1,84 +1,84 @@
-EMISICD10|F2310	"Acute polymorphic psychot disord with symp of schizophren, without associated acute stress"
-EMISICD10|F2095	"Schizophrenia, unspecified, complete remission"
-EMISICD10|F2330	"Other acute predominantly delusional psychotic disorders, without associated acute stress"
-EMISICD10|F2050	"Residual schizophrenia, continuous"
-EMISICD10|F2048	"Post-schizophrenic depression, other"
-EMISICD10|F2009	"Paranoid schizophrenia, course uncertain, period of observation too short"
-EMISICD10|F2321	"Acute schizophrenia-like psychotic disorder, with associated acute stress"
-EMISICD10|F2060	"Simple schizophrenia, continuous"
-EMISICD10|F2081	"Other schizophrenia, episodic with progressive deficit"
-EMISICD10|F2028	"Catatonic schizophrenia, other"
-EMISICD10|F2092	"Schizophrenia, unspecified, episodic with stable deficit"
-EMISICD10|F2091	"Schizophrenia, unspecified, episodic with progressive deficit"
-EMISICD10|F2011	"Hebephrenic schizophrenia, episodic with progressive deficit"
-EMISICD10|F2080	"Other schizophrenia, continuous"
-EMISICD10|F2045	"Post-schizophrenic depression, complete remission"
-EMISICD10|F2099	"Schizophrenia, unspecified, course uncertain, period of observation too short"
-EMISICD10|F2055	"Residual schizophrenia, complete remission"
-EMISICD10|F2044	"Post-schizophrenic depression, incomplete remission"
-EMISICD10|F2084	"Other schizophrenia, incomplete remission"
-EMISICD10|F2083	"Other schizophrenia, episodic remittent"
-EMISICD10|F2038	"Undifferentiated schizophrenia, other"
-EMISICD10|F2051	"Residual schizophrenia, episodic with progressive deficit"
-EMISICD10|F2090	"Schizophrenia, unspecified, continuous"
-EMISICD10|F2035	"Undifferentiated schizophrenia, complete remission"
-EMISICD10|F2001	"Paranoid schizophrenia, episodic with progressive deficit"
-EMISICD10|F2014	"Hebephrenic schizophrenia, incomplete remission"
-EMISICD10|F2082	"Other schizophrenia, episodic with stable deficit"
-EMISICD10|F2030	"Undifferentiated schizophrenia, continuous"
-EMISICD10|F2021	"Catatonic schizophrenia, episodic with progressive deficit"
-EMISICD10|F2041	"Post-schizophrenic depression, episodic with progressive deficit"
-EMISICD10|F2018	"Hebephrenic schizophrenia, other"
-EMISICD10|F2039	"Undifferentiated schizophrenia, course uncertain, period of observation too short"
-EMISICD10|F2023	"Catatonic schizophrenia, episodic remittent"
-EMISICD10|F2002	"Paranoid schizophrenia, episodic with stable deficit"
-EMISICD10|F2331	"Other acute predominantly delusional psychotic disorders, with associated acute stress"
-EMISICD10|F2032	"Undifferentiated schizophrenia, episodic with stable deficit"
-EMISICD10|F2381	"Other acute and transient psychotic disorders, with associated acute stress"
-EMISICD10|F2094	"Schizophrenia, unspecified, incomplete remission"
-EMISICD10|F2015	"Hebephrenic schizophrenia, complete remission"
-EMISICD10|F2301	"Acute polymorphic psychot disord without symp of schizoph, with associated acute stress"
-EMISICD10|F2390	"Acute and transient psychotic disorder, unspecified, without associated acute stress"
-EMISICD10|F2000	"Paranoid schizophrenia, continuous"
-EMISICD10|F2033	"Undifferentiated schizophrenia, episodic remittent"
-EMISICD10|F2053	"Residual schizophrenia, episodic remittent"
-EMISICD10|F2054	"Residual schizophrenia, incomplete remission"
-EMISICD10|F2320	"Acute schizophrenia-like psychotic disorder, without associated acute stress"
-EMISICD10|F2063	"Simple schizophrenia, episodic remittent"
-EMISICD10|F2069	"Simple schizophrenia, course uncertain, period of observation too short"
-EMISICD10|F2012	"Hebephrenic schizophrenia, episodic with stable deficit"
-EMISICD10|F2093	"Schizophrenia, unspecified, episodic remittent"
-EMISICD10|F2058	"Residual schizophrenia, other"
-EMISICD10|F2061	"Simple schizophrenia, episodic with progressive deficit"
-EMISICD10|F2040	"Post-schizophrenic depression, continuous"
-EMISICD10|F2391	"Acute and transient psychotic disorder, unspecified, with associated acute stress"
-EMISICD10|F2008	"Paranoid schizophrenia, other"
-EMISICD10|F2003	"Paranoid schizophrenia, episodic remittent"
-EMISICD10|F2062	"Simple schizophrenia, episodic with stable deficit"
-EMISICD10|F2043	"Post-schizophrenic depression, episodic remittent"
-EMISICD10|F2380	"Other acute and transient psychotic disorders, without associated acute stress"
-EMISICD10|F2020	"Catatonic schizophrenia, continuous"
-EMISICD10|F2010	"Hebephrenic schizophrenia, continuous"
-EMISICD10|F2013	"Hebephrenic schizophrenia, episodic remittent"
-EMISICD10|F2034	"Undifferentiated schizophrenia, incomplete remission"
-EMISICD10|F2311	"Acute polymorphic psychot disord with symp of schizophren, with associated acute stress"
-EMISICD10|F2004	"Paranoid schizophrenia, incomplete remission"
-EMISICD10|F2029	"Catatonic schizophrenia, course uncertain, period of observation too short"
-EMISICD10|F2022	"Catatonic schizophrenia, episodic with stable deficit"
-EMISICD10|F2068	"Simple schizophrenia, other"
-EMISICD10|F2059	"Residual schizophrenia, course uncertain, period of observation too short"
-EMISICD10|F2085	"Other schizophrenia, complete remission"
-EMISICD10|F2005	"Paranoid schizophrenia, complete remission"
-EMISICD10|F2088	"Other schizophrenia, other"
-EMISICD10|F2065	"Simple schizophrenia, complete remission"
-EMISICD10|F2019	"Hebephrenic schizophrenia, course uncertain, period of observation too short"
-EMISICD10|F2098	"Schizophrenia, unspecified, other"
-EMISICD10|F2049	"Post-schizophrenic depression, course uncertain, period of observation too short"
-EMISICD10|F2064	"Simple schizophrenia, incomplete remission"
-EMISICD10|F2089	"Other schizophrenia, course uncertain, period of observation too short"
-EMISICD10|F2042	"Post-schizophrenic depression, episodic with stable deficit"
-EMISICD10|F2300	"Acute polymorphic psychot disord without symp of schizoph, without associated acute stress"
-EMISICD10|F2025	"Catatonic schizophrenia, complete remission"
-EMISICD10|F2024	"Catatonic schizophrenia, incomplete remission"
-EMISICD10|F2031	"Undifferentiated schizophrenia, episodic with progressive deficit"
-EMISICD10|F2052	"Residual schizophrenia, episodic with stable deficit"
+EMISICD10|F2310	Acute polymorphic psychot disord with symp of schizophren, without associated acute stress
+EMISICD10|F2095	Schizophrenia, unspecified, complete remission
+EMISICD10|F2330	Other acute predominantly delusional psychotic disorders, without associated acute stress
+EMISICD10|F2050	Residual schizophrenia, continuous
+EMISICD10|F2048	Post-schizophrenic depression, other
+EMISICD10|F2009	Paranoid schizophrenia, course uncertain, period of observation too short
+EMISICD10|F2321	Acute schizophrenia-like psychotic disorder, with associated acute stress
+EMISICD10|F2060	Simple schizophrenia, continuous
+EMISICD10|F2081	Other schizophrenia, episodic with progressive deficit
+EMISICD10|F2028	Catatonic schizophrenia, other
+EMISICD10|F2092	Schizophrenia, unspecified, episodic with stable deficit
+EMISICD10|F2091	Schizophrenia, unspecified, episodic with progressive deficit
+EMISICD10|F2011	Hebephrenic schizophrenia, episodic with progressive deficit
+EMISICD10|F2080	Other schizophrenia, continuous
+EMISICD10|F2045	Post-schizophrenic depression, complete remission
+EMISICD10|F2099	Schizophrenia, unspecified, course uncertain, period of observation too short
+EMISICD10|F2055	Residual schizophrenia, complete remission
+EMISICD10|F2044	Post-schizophrenic depression, incomplete remission
+EMISICD10|F2084	Other schizophrenia, incomplete remission
+EMISICD10|F2083	Other schizophrenia, episodic remittent
+EMISICD10|F2038	Undifferentiated schizophrenia, other
+EMISICD10|F2051	Residual schizophrenia, episodic with progressive deficit
+EMISICD10|F2090	Schizophrenia, unspecified, continuous
+EMISICD10|F2035	Undifferentiated schizophrenia, complete remission
+EMISICD10|F2001	Paranoid schizophrenia, episodic with progressive deficit
+EMISICD10|F2014	Hebephrenic schizophrenia, incomplete remission
+EMISICD10|F2082	Other schizophrenia, episodic with stable deficit
+EMISICD10|F2030	Undifferentiated schizophrenia, continuous
+EMISICD10|F2021	Catatonic schizophrenia, episodic with progressive deficit
+EMISICD10|F2041	Post-schizophrenic depression, episodic with progressive deficit
+EMISICD10|F2018	Hebephrenic schizophrenia, other
+EMISICD10|F2039	Undifferentiated schizophrenia, course uncertain, period of observation too short
+EMISICD10|F2023	Catatonic schizophrenia, episodic remittent
+EMISICD10|F2002	Paranoid schizophrenia, episodic with stable deficit
+EMISICD10|F2331	Other acute predominantly delusional psychotic disorders, with associated acute stress
+EMISICD10|F2032	Undifferentiated schizophrenia, episodic with stable deficit
+EMISICD10|F2381	Other acute and transient psychotic disorders, with associated acute stress
+EMISICD10|F2094	Schizophrenia, unspecified, incomplete remission
+EMISICD10|F2015	Hebephrenic schizophrenia, complete remission
+EMISICD10|F2301	Acute polymorphic psychot disord without symp of schizoph, with associated acute stress
+EMISICD10|F2390	Acute and transient psychotic disorder, unspecified, without associated acute stress
+EMISICD10|F2000	Paranoid schizophrenia, continuous
+EMISICD10|F2033	Undifferentiated schizophrenia, episodic remittent
+EMISICD10|F2053	Residual schizophrenia, episodic remittent
+EMISICD10|F2054	Residual schizophrenia, incomplete remission
+EMISICD10|F2320	Acute schizophrenia-like psychotic disorder, without associated acute stress
+EMISICD10|F2063	Simple schizophrenia, episodic remittent
+EMISICD10|F2069	Simple schizophrenia, course uncertain, period of observation too short
+EMISICD10|F2012	Hebephrenic schizophrenia, episodic with stable deficit
+EMISICD10|F2093	Schizophrenia, unspecified, episodic remittent
+EMISICD10|F2058	Residual schizophrenia, other
+EMISICD10|F2061	Simple schizophrenia, episodic with progressive deficit
+EMISICD10|F2040	Post-schizophrenic depression, continuous
+EMISICD10|F2391	Acute and transient psychotic disorder, unspecified, with associated acute stress
+EMISICD10|F2008	Paranoid schizophrenia, other
+EMISICD10|F2003	Paranoid schizophrenia, episodic remittent
+EMISICD10|F2062	Simple schizophrenia, episodic with stable deficit
+EMISICD10|F2043	Post-schizophrenic depression, episodic remittent
+EMISICD10|F2380	Other acute and transient psychotic disorders, without associated acute stress
+EMISICD10|F2020	Catatonic schizophrenia, continuous
+EMISICD10|F2010	Hebephrenic schizophrenia, continuous
+EMISICD10|F2013	Hebephrenic schizophrenia, episodic remittent
+EMISICD10|F2034	Undifferentiated schizophrenia, incomplete remission
+EMISICD10|F2311	Acute polymorphic psychot disord with symp of schizophren, with associated acute stress
+EMISICD10|F2004	Paranoid schizophrenia, incomplete remission
+EMISICD10|F2029	Catatonic schizophrenia, course uncertain, period of observation too short
+EMISICD10|F2022	Catatonic schizophrenia, episodic with stable deficit
+EMISICD10|F2068	Simple schizophrenia, other
+EMISICD10|F2059	Residual schizophrenia, course uncertain, period of observation too short
+EMISICD10|F2085	Other schizophrenia, complete remission
+EMISICD10|F2005	Paranoid schizophrenia, complete remission
+EMISICD10|F2088	Other schizophrenia, other
+EMISICD10|F2065	Simple schizophrenia, complete remission
+EMISICD10|F2019	Hebephrenic schizophrenia, course uncertain, period of observation too short
+EMISICD10|F2098	Schizophrenia, unspecified, other
+EMISICD10|F2049	Post-schizophrenic depression, course uncertain, period of observation too short
+EMISICD10|F2064	Simple schizophrenia, incomplete remission
+EMISICD10|F2089	Other schizophrenia, course uncertain, period of observation too short
+EMISICD10|F2042	Post-schizophrenic depression, episodic with stable deficit
+EMISICD10|F2300	Acute polymorphic psychot disord without symp of schizoph, without associated acute stress
+EMISICD10|F2025	Catatonic schizophrenia, complete remission
+EMISICD10|F2024	Catatonic schizophrenia, incomplete remission
+EMISICD10|F2031	Undifferentiated schizophrenia, episodic with progressive deficit
+EMISICD10|F2052	Residual schizophrenia, episodic with stable deficit

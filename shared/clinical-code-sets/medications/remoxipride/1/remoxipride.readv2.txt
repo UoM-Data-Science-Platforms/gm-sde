@@ -1,0 +1,5 @@
+d4m..00	REMOXIPRIDE
+d4m4.00	*ROXIAM 300mg m/r capsules
+d4m3.00	*ROXIAM 150mg m/r capsules
+d4m2.00	REMOXIPRIDE 300mg m/r capsules
+d4m1.00	REMOXIPRIDE 150mg m/r capsules

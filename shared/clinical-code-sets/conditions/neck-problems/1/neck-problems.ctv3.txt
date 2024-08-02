@@ -1,0 +1,61 @@
+16A2.	Stiff neck
+5254.	X-ray neck (& cervical spine)
+5677.	CT of neck
+7J22y	Other specified fusion of joint of cervical spine
+7J22z	Fusion of joint of cervical spine NOS
+7NB22	[SO]Neck region NEC
+F332.	Cervical root lesions NEC
+N1113	Cervical myelopathy
+N125.	Cervical disc degeneration
+N12z1	Other cervical disc disorders
+N130.	Cervical spinal stenosis
+N1303	Cervical spinal stenosis secondary to other disease
+N133.	Cervicobrachial syndrome
+N13y2	Crick in neck
+N3741	Kyphosis associated with other condition
+Nyu51	[X]Other and unspecified kyphosis
+Nyu71	[X]Other cervical disc degeneration
+Nyu72	[X]Other cervical disc disorders
+Nyu7B	[X]Cervical disc disorder, unspecified
+PG2..	Cervical rib
+S570.	Neck sprain
+S570z	Neck sprain NOS
+S5yz1	Muscle [injury] or [strain]
+SK10y	Other neck injuries
+Syu1.	[X]Injuries to the neck
+Syu18	[X]Sprain and strain of joints and ligaments of other and unspecified parts of neck
+Syu1F	[X]Other specified injuries of neck
+X007g	Occipital neuralgia
+X6078	Excision of cervical intervertebral disc
+X703j	Cervical spondylosis
+X70Cj	Prolapsed cervical intervertebral disc
+X70D2	Kyphosis, scoliosis, and lordosis associated with other conditions
+X70nw	CT of cervical spine
+X70oX	MRI of neck
+X70pD	Magnetic resonance imaging of cervical spine
+X76gC	Torticollis
+X76h5	Angulation of spine
+X76ml	Stiff neck NOS
+X80zU	Cervical spine
+XA007	Neck injury
+XA00H	Injury of cervical spine
+XA0Bs	Strain of tendon of neck
+Xa0wj	Pain in cervical spine
+Xa0wU	Cervicogenic headache
+Xa1h1	Neck structure
+Xa6vf	Cervical kyphosis
+Xa6vR	Kyphoscoliosis deformity of spine
+Xa6vT	Kyphosis deformity of spine
+Xa7MS	Compression cervical nerve root
+Xa8T4	Neck
+Xa9eq	CT of neck skeleton
+Xa9ZB	Cervical spine structure
+XE1F4	Neck pain
+XE1F6	Torticollis unspecified
+XE1F7	Torticollis NOS
+XE1HU	(Cervicalgia) or (neck pain NOS)
+XE1HY	Torticollis (& [NOS])
+XE1lx	Neck sprain, unspecified
+XE2rX	Cervical spine X-ray
+XM0mi	Fusion of cervical spine
+XM1NC	Contracture of neck

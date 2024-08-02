@@ -1,0 +1,5 @@
+d72..00	*BUTRIPTYLINE
+d72z.00	*BUTRIPTYLINE 50mg tablets
+d72y.00	*BUTRIPTYLINE 25mg tablets
+d722.00	*EVADYNE 50mg tablets
+d721.00	*EVADYNE 25mg tablets

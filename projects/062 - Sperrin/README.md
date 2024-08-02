@@ -33,6 +33,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
+- Care home status
 - Patient GP encounters
 - Lower level super output area
 - Index Multiple Deprivation
@@ -41,13 +42,39 @@ This project required the following reusable queries:
 - Secondary discharges
 - Create listing tables for each GP events - RQ062
 - Define Cohort for RQ062: all individuals registered with a GP who were aged 50 years or older on September 1 2013
-- Year and quarter month of birth
+- Year, month, week, and day of birth
 - GET practice and ccg for each patient
 - CCG lookup table
 - Create table of patients who are registered with a GM GP
 
 Further details for each query can be found below.
 
+### Care home status
+To get the care home status for each patient.
+
+_Assumptions_
+
+- If any of the patient records suggests the patients lives in a care home we will assume that they do
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientCareHomeStatus (FK_Patient_Link_ID, IsCareHomeResident)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IsCareHomeResident - Y/N
+```
+_File_: `query-patient-care-home-resident.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-care-home-resident.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-care-home-resident.sql)
+
+---
 ### Patient GP encounters
 To produce a table of GP encounters for a list of patients. This script uses many codes related to observations (e.g. blood pressure), symptoms, and diagnoses, to infer when GP encounters occured. This script includes face to face and telephone encounters - it will need copying and editing if you don't require both.
 
@@ -254,16 +281,16 @@ _File_: `query-build-rq062-cohort.sql`
 _Link_: [https://github.com/rw251/.../query-build-rq062-cohort.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-rq062-cohort.sql)
 
 ---
-### Year and quarter month of birth
-To get the year of birth for each patient.
+### Year, month, week, and day of birth
+To get the date of birth for each patient, in various formats.
 
 _Assumptions_
 
-- Patient data is obtained from multiple sources. Where patients have multiple YearAndQuarterMonthOfBirths we determine the YearAndQuarterMonthOfBirth as follows:
-- If the patients has a YearAndQuarterMonthOfBirth in their primary care data feed we use that as most likely to be up to date
-- If every YearAndQuarterMonthOfBirth for a patient is the same, then we use that
-- If there is a single most recently updated YearAndQuarterMonthOfBirth in the database then we use that
-- Otherwise we take the highest YearAndQuarterMonthOfBirth for the patient that is not in the future
+- Patient data is obtained from multiple sources. Where patients have multiple DateOfBirths we determine the DateOfBirth as follows:
+- If the patients has a DateOfBirth in their primary care data feed we use that as most likely to be up to date
+- If every DateOfBirth for a patient is the same, then we use that
+- If there is a single most recently updated DateOfBirth in the database then we use that
+- Otherwise we take the highest DateOfBirth for the patient that is not in the future
 
 _Input_
 ```
@@ -275,13 +302,17 @@ Assumes there exists a temp table as follows:
 _Output_
 ```
 A temp table as follows:
- #PatientYearAndQuarterMonthOfBirth (FK_Patient_Link_ID, YearAndQuarterMonthOfBirth)
+ #PatientWeekOfBirth (FK_Patient_Link_ID, WeekOfBirth)
  	- FK_Patient_Link_ID - unique patient id
-	- YearAndQuarterMonthOfBirth - (YYYY-MM-01)
+  - DateOfBirthPID (yyyy-mm-dd)  **not to be provided to study teams
+  - DayOfBirth (dd) (1 to 31)
+	- WeekOfBirth (ww) (1 to 52)
+  - MonthOfBirth (mm) (1 to 12)
+  - YearOfBirth (yyyy)
 ```
-_File_: `query-patient-year-and-quarter-month-of-birth.sql`
+_File_: `query-patient-date-of-birth.sql`
 
-_Link_: [https://github.com/rw251/.../query-patient-year-and-quarter-month-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-and-quarter-month-of-birth.sql)
+_Link_: [https://github.com/rw251/.../query-patient-date-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-date-of-birth.sql)
 
 ---
 ### GET practice and ccg for each patient
@@ -489,19 +520,28 @@ LINK: [https://github.com/rw251/.../conditions/stroke/1](https://github.com/rw25
 
 Any code indicating that a person has dementia, including Alzheimer's disease.
 
-Code set from https://www.opencodelists.org/codelist/opensafely/dementia-complete/48c76cf8/
+Code set from https://www.opencodelists.org/codelist/opensafely/dementia-complete/48c76cf8/ supplemented with codes from the NHS PCD refsets.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.67% - 0.81%` suggests that this code set is likely well defined.
+
+_Update **2024-03-15**: Prevalence now 0.83% - 0.99%._
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2022-12-20 | EMIS            | 2438146    |   19770 (0.811%) |    21772 (0.893%) |
 | 2022-12-20 | TPP             | 198637     |    1427 (0.718%) |      7445 (3.75%) |
 | 2022-12-20 | Vision          | 327196     |    2244 (0.686%) |     2265 (0.692%) |
-| 2024-02-26 | EMIS | 2522441 | 27712 (1.1%) | 27745 (1.1%) | 
-| 2024-02-26 | TPP | 201679 | 2216 (1.1%) | 1872 (0.928%) | 
-| 2024-02-26 | Vision | 334812 | 3169 (0.947%) | 3170 (0.947%) | 
+| 2024-02-26 | EMIS            | 2522441    |     27712 (1.1%) |      27745 (1.1%) |
+| 2024-02-26 | TPP             | 201679     |      2216 (1.1%) |     1872 (0.928%) |
+| 2024-02-26 | Vision          | 334812     |    3169 (0.947%) |     3170 (0.947%) |
+| 2024-03-15 | EMIS            | 2526522    |   24910 (0.986%) |    24994 (0.989%) |
+| 2024-03-15 | TPP             | 201758     |    1928 (0.956%) |     1948 (0.966%) |
+| 2024-03-15 | Vision          | 335186     |    2772 (0.827%) |     2780 (0.829%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-03-15
+
 LINK: [https://github.com/rw251/.../conditions/dementia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/dementia/1)
 
 ### COPD

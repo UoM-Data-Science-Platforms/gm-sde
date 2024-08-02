@@ -1,0 +1,6 @@
+745F5	Administration of Bacillus Calmette-Guerin vaccine
+745F1	BCG administration
+653..	Tuberculosis (BCG) vaccination
+653..	BCG vaccination
+ZV032	[V]Tuberculosis (BCG) vaccination
+n42..	BCG VACCINES

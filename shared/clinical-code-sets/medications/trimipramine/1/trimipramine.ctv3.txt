@@ -4,3 +4,6 @@ d7f3.	Surmontil 25mg tablet
 d7fx.	Trimipramine 50mg capsule
 d7fy.	Trimipramine 10mg tablet
 d7fz.	Trimipramine 25mg tablet
+d7f..	Trimipramine
+x00ED	Surmontil 50mg capsule
+x02rr	Surmontil

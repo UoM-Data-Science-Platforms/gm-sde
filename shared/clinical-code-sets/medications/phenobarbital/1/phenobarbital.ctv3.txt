@@ -1,0 +1,21 @@
+dn71.	Phenobarbital 15mg tablet
+dn72.	Phenobarbital 30mg tablet
+dn73.	Phenobarbital 60mg tablet
+dn78.	Phenobarbital sodium 200mg/1mL injection
+dn79.	Gardenal Sodium 200mg/1mL injection
+dn7d.	Phenobarbital 15mg/5mL elixir
+dn7..	Phenobarbital
+x01Bd	Parenteral phenobarbital
+x00RY	Phenobarbital sodium 60mg/1mL injection
+x00RX	Phenobarbital sodium 30mg/1mL injection
+x00RW	Phenobarbital sodium 15mg/1mL injection
+x01Bc	Oral phenobarbital
+dn77.	Phenobarbitone 15mg/10mL elixir
+dn76.	Phenobarbitone sodium 60mg tablets
+dn75.	Phenobarbitone sodium 30mg tablets
+dn74.	Phenobarbital 100mg tablet
+dn7c.	Luminal 60mg tablet
+dn7b.	Luminal 30mg tablet
+dn7a.	Luminal 15mg tablet
+a517.	Cantil+phenobarbitone tablet
+x02dn	Gardenal Sodium

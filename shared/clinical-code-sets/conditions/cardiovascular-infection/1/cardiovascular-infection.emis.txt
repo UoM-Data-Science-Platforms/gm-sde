@@ -1,0 +1,258 @@
+^ESCT1169291	Endocarditis of neoaortic valve
+^ESCT1169292	Endocarditis of neopulmonary valve
+^ESCT1299059	Myocarditis caused by 2019-nCoV (novel coronavirus)
+^ESCT1299060	Myocarditis caused by Wuhan 2019-nCoV (novel coronavirus)
+^ESCT1299061	Myocarditis caused by 2019 novel coronavirus
+^ESCT1301225	Myocarditis caused by SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)
+^ESCT1348382	Myocarditis due to disease caused by SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)
+^ESCT1348383	Myocarditis due to disease caused by 2019 novel coronavirus
+^ESCT1348384	Myocarditis due to COVID-19
+^ESCT1348385	Myocarditis due to disease caused by Severe acute respiratory syndrome coronavirus 2
+^ESCT1348386	Myocarditis due to disease caused by 2019-nCoV (novel coronavirus)
+^ESCT1348401	Myocarditis caused by 2019-nCoV (novel coronavirus)
+^ESCT1387350	Myocarditis due to Influenza A virus
+^ESCT1387351	Myocarditis caused by Influenza A virus
+^ESCT1390961	Acute viral carditis
+^ESCT1390994	Chronic viral carditis
+^ESCT1393764	Subacute endocarditis of right side of heart due to infection
+^ESCT1393765	Right sided subacute infective endocarditis
+^ESCT1393819	Acute endocarditis of right side of heart due to infection
+^ESCT1393820	Right sided acute infective endocarditis
+^ESCT1396398	Myocarditis due to childhood type dermatomyositis
+^ESCT1396399	Juvenile dermatomyositis with myocarditis
+^ESCT1397092	Myocarditis due to Chaga disease
+^ESCT1397093	Chaga disease with myocarditis
+^ESCT1397160	Myocarditis due to autoimmune disease
+^ESCT1397161	Myocarditis in autoimmune disease
+^ESCT1413357	Myocarditis due to Kawasaki disease
+^ESCT1416586	Gonococcal myocarditis
+^ESCT1416587	Myocarditis caused by Neisseria gonorrhoeae
+^ESCTAC267787	Acute myopericarditis
+^ESCTAC274865	Active rheumatic fever with pericarditis
+^ESCTAC274866	Acute rheumatic fever with pericarditis
+^ESCTAC278905	Active rheumatic fever with endocarditis
+^ESCTAC278906	Acute rheumatic fever with endocarditis
+^ESCTAC298835	Acute myoendocarditis
+^ESCTAC337360	Acute endopericarditis
+^ESCTAC477550	Acute rheumatic fever with myocarditis
+^ESCTAC477551	Active rheumatic fever with myocarditis
+^ESCTAC477637	Acute pericarditis caused by human coxsackievirus
+^ESCTAC477638	Acute meningococcal pericarditis
+^ESCTAC477647	Acute pneumococcal pericarditis
+^ESCTAC477649	Acute streptococcal pericarditis
+^ESCTAC572121	Acute/subacute carditis
+^ESCTAC601856	Acute rheumatic carditis
+^ESCTAC695333	Acute endocarditis associated with AIDS
+^ESCTAC695335	Acute endocarditis associated with acquired immunodeficiency syndrome
+^ESCTAC739279	Acute infective endocarditis
+^ESCTAC739280	Acute infectious endocarditis
+^ESCTAC770506	Acute endocarditis co-occurrent with human immunodeficiency virus infection
+^ESCTAD356865	Adenoviral myocarditis
+^ESCTAI695334	AIDS-associated acute endocarditis
+^ESCTAM474405	American histoplasmosis with endocarditis
+^ESCTAS739576	Aspergillosis myocarditis
+^ESCTAT337708	Atypical verrucal endocarditis
+^ESCTAT337709	Atypical verrucous endocarditis
+^ESCTBE589016	BE - Bacterial endocarditis
+^ESCTBO739723	Borrelia myocarditis
+^ESCTCA662565	Carditis
+^ESCTCA739573	Candidal myocarditis
+^ESCTCH257637	Chronic endocarditis
+^ESCTCH322744	Chronic interstitial myocarditis
+^ESCTCH324572	Chronic rheumatic endocarditis
+^ESCTCH324573	Chronic rheumatic heart disease with endocarditis
+^ESCTCH349125	Chronic rheumatic heart disease with myocarditis
+^ESCTCH349126	Chronic rheumatic myocarditis
+^ESCTCH392454	Chronic rheumatic carditis
+^ESCTCH739717	Chlamydial endocarditis
+^ESCTCO684912	Coxsackie myocarditis of newborn
+^ESCTCU505660	Culture-negative endocarditis
+^ESCTEC739579	Echovirus myocarditis
+^ESCTEN351962	Endocarditis with infective aneurysm
+^ESCTEN369944	Endocarditis lenta
+^ESCTEN477707	Endocarditis associated with another disorder
+^ESCTEN739716	Endocarditis due to Genus Chlamydia
+^ESCTEN739718	Endocarditis caused by Genus Chlamydia
+^ESCTEN747816	Endocarditis as complication of procedure
+^ESCTEN757182	Endocarditis of prosthetic mitral valve
+^ESCTEN757194	Endocarditis of prosthetic aortic valve
+^ESCTEN757195	Endocarditis of prosthetic tricuspid valve
+^ESCTEN757196	Endocarditis of prosthetic pulmonary valve
+^ESCTEN781047	Endocarditis caused by Erysipelothrix rhusiopathiae
+^ESCTEN802262	Endocarditis due to systemic lupus erythematosus
+^ESCTEO707291	Eosinophilic myocarditis
+^ESCTER781048	Erysipelothrix rhusiopathiae endocarditis
+^ESCTFE747641	Fetal myocarditis
+^ESCTFI250650	Fibroid myocarditis
+^ESCTFI397929	Fiedler's myocarditis
+^ESCTFO747640	Foetal myocarditis
+^ESCTFU390405	Fungal endocarditis
+^ESCTFU505678	Fungal myocarditis
+^ESCTGI348786	Giant cell myocarditis
+^ESCTHI474407	Histoplasmosis endocarditis
+^ESCTID397928	Idiopathic myocarditis
+^ESCTIE505658	IE - Infective endocarditis
+^ESCTIN286102	Infective myocarditis
+^ESCTIN311072	Interstitial myocarditis
+^ESCTIN505657	Infective endocarditis
+^ESCTIN739282	Infective endocarditis of homograft
+^ESCTIN739283	Infectious endocarditis of homograft
+^ESCTIN739284	Infective endocarditis of heterograft
+^ESCTIN739285	Infectious endocarditis of heterograft
+^ESCTIN739286	Infective endocarditis of right ventricular wall
+^ESCTIN739287	Infectious endocarditis of right ventricular wall
+^ESCTIN739288	Infective endocarditis of left ventricular wall
+^ESCTIN739289	Infectious endocarditis of left ventricular wall
+^ESCTIN739296	Infective endocarditis of cardiac valve
+^ESCTIN739297	Infectious endocarditis of cardiac valve
+^ESCTIN739298	Infective endocarditis of aortic valve
+^ESCTIN739299	Infectious endocarditis of aortic valve
+^ESCTIN739512	Infective endocarditis of tricuspid valve
+^ESCTIN739513	Infectious endocarditis of tricuspid valve
+^ESCTIN739514	Infective endocarditis of mitral valve
+^ESCTIN739515	Infectious endocarditis of mitral valve
+^ESCTIN739516	Infective endocarditis of pulmonary valve
+^ESCTIN739517	Infectious endocarditis of pulmonary valve
+^ESCTIN739518	Infective endocarditis of truncal valve
+^ESCTIN739519	Infectious endocarditis of truncal valve
+^ESCTIN739523	Infective endocarditis of left atrioventricular (not morphologically mitral) valve
+^ESCTIN739524	Infective endocarditis of left atrioventricular (nonmitral) valve
+^ESCTIN739525	Infectious endocarditis of left atrioventricular (not morphologically mitral) valve
+^ESCTIN739526	Infective endocarditis of right atrioventricular (not morphologically tricuspid) valve
+^ESCTIN739527	Infective endocarditis of right atrioventricular (nontricuspid) valve
+^ESCTIN739528	Infectious endocarditis of right atrioventricular (not morphologically tricuspid) valve
+^ESCTIN739542	Infective endocarditis at site of ventricular septal defect
+^ESCTIN739543	Infectious endocarditis at site of ventricular septal defect
+^ESCTIN739546	Infective endocarditis at site of interatrial communication
+^ESCTIN739547	Infectious endocarditis at site of interatrial communication
+^ESCTIN739553	Infective endocarditis of common atrioventricular valve
+^ESCTIN739554	Infectious endocarditis of common atrioventricular valve
+^ESCTIN739585	Infective endocarditis at site of patch of ventricular septal defect
+^ESCTIN739586	Infectious endocarditis at site of patch of ventricular septal defect
+^ESCTIN739624	Infective endocarditis at site of patch of interatrial communication
+^ESCTIN739625	Infectious endocarditis at site of patch of interatrial communication
+^ESCTIN739910	Infective endocarditis at site of implanted vascular shunt
+^ESCTIN739911	Infectious endocarditis at site of implanted vascular shunt
+^ESCTIN739937	Infective endocarditis of vascular cardiac conduit
+^ESCTIN739938	Infectious endocarditis of vascular cardiac conduit
+^ESCTIN784011	Infective periendocarditis
+^ESCTIN784860	Infection causing subacute endocarditis
+^ESCTIN784862	Infection causing myoendocarditis
+^ESCTIN784863	Infective myoendocarditis
+^ESCTIS340084	Isolated diffuse granulomatous myocarditis
+^ESCTLE701263	Left sided infective endocarditis
+^ESCTLI337707	Libman-Sacks endocarditis
+^ESCTLY707393	Lymphocytic myocarditis
+^ESCTMA320936	Malignant endocarditis
+^ESCTMA342924	Marantic endocarditis
+^ESCTME371798	Measles myocarditis
+^ESCTME398605	Meningococcal myocarditis
+^ESCTMU353215	Mumps myocarditis
+^ESCTMY263850	Myocarditis due to hypersensitivity state
+^ESCTMY286101	Myocarditis due to infectious agent
+^ESCTMY339414	Myocarditis due to chemical agent
+^ESCTMY367937	Myocarditis due to drug
+^ESCTMY367938	Myocarditis caused by drug
+^ESCTMY374487	Myocarditis due to acquired toxoplasmosis
+^ESCTMY376957	Myocarditis due to influenza virus
+^ESCTMY376958	Myocarditis caused by influenza virus
+^ESCTMY378626	Myocarditis due to physical agent
+^ESCTMY378627	Myocarditis caused by physical agent
+^ESCTMY390404	Mycotic endocarditis
+^ESCTMY394268	Myocarditis due to radiation
+^ESCTMY394269	Myocarditis caused by radiation
+^ESCTMY698053	Myocarditis associated with AIDS
+^ESCTMY698054	Myocarditis associated with acquired immunodeficiency syndrome
+^ESCTMY739567	Myocarditis due to Genus Rickettsia
+^ESCTMY739569	Myocarditis caused by Genus Rickettsia
+^ESCTMY739572	Myocarditis due to Genus Candida
+^ESCTMY739574	Myocarditis caused by Genus Candida
+^ESCTMY739575	Myocarditis due to Genus Aspergillus
+^ESCTMY739577	Myocarditis caused by Genus Aspergillus
+^ESCTMY739578	Myocarditis due to echovirus
+^ESCTMY739580	Myocarditis caused by echovirus
+^ESCTMY739581	Myocarditis due to Order Spirochaetales
+^ESCTMY739584	Myocarditis caused by Order Spirochaetales
+^ESCTMY739722	Myocarditis due to Genus Borrelia
+^ESCTMY739724	Myocarditis caused by Genus Borrelia
+^ESCTMY770240	Myocarditis co-occurrent with human immunodeficiency virus infection
+^ESCTMY784859	Myopericarditis
+^ESCTMY804539	Myocarditis due to Influenza A virus subtype H1N1
+^ESCTMY804540	Myocarditis due to H1N1 influenza
+^ESCTMY804541	Myocarditis caused by Influenza A virus subtype H1N1
+^ESCTMY804542	Myocarditis caused by H1N1 influenza
+^ESCTMY846656	Myocarditis due to scarlet fever
+^ESCTMY931015	Myocarditis due to influenza A
+^ESCTMY931016	Myocarditis caused by influenza A
+^ESCTNO308237	Noninfective endocarditis
+^ESCTNO337710	Nonbacterial verrucous endocarditis
+^ESCTNO340085	Nonspecific granulomatous myocarditis
+^ESCTNO342923	Nonbacterial thrombotic endocarditis
+^ESCTNO342925	Non-bacterial thrombotic endocarditis
+^ESCTPA351029	Pancarditis
+^ESCTPA505679	Parasitic myocarditis
+^ESCTPE784010	Periendocarditis due to infection
+^ESCTPR264240	Protozoan myocarditis
+^ESCTPR505661	Prosthetic valve endocarditis
+^ESCTPU253792	Purulent endocarditis
+^ESCTPV505662	PVE - Prosthetic valve endocarditis
+^ESCTQF406385	Q fever endocarditis
+^ESCTQF505677	Q fever myocarditis
+^ESCTRH287799	Rheumatic pancarditis
+^ESCTRI505659	Rickettsial endocarditis
+^ESCTRI703995	Right sided infective endocarditis
+^ESCTRI705386	Right-sided Staphylococcus aureus endocarditis
+^ESCTRI739568	Rickettsial myocarditis
+^ESCTRU354406	Rubella myocarditis
+^ESCTSB369945	SBE - Subacute bacterial endocarditis
+^ESCTSE250293	Senile myocarditis
+^ESCTSE320937	Septic endocarditis
+^ESCTSE354140	Septic myocarditis
+^ESCTSP739582	Spirochetal myocarditis
+^ESCTSP739583	Spirochaetal myocarditis
+^ESCTST368795	Staphylococcal endocarditis
+^ESCTSU279347	Subacute interstitial myocarditis
+^ESCTSU328019	Subacute periendocarditis
+^ESCTSU328020	Subacute endopericarditis
+^ESCTSU358769	Subacute endocarditis
+^ESCTSU363185	Subacute myoendocarditis
+^ESCTSU696310	Subacute endocarditis associated with AIDS
+^ESCTSU696311	Subacute endocarditis associated with acquired immunodeficiency syndrome
+^ESCTSU696888	Subacute myocarditis associated with AIDS
+^ESCTSU696889	Subacute myocarditis associated with acquired immunodeficiency syndrome
+^ESCTSU784861	Subacute infective endocarditis
+^ESCTSY803012	Syphilitic valvular endocarditis
+^ESCTUL320938	Ulcerative endocarditis
+^ESCTVE389982	Vegetative endocarditis
+^ESCTVE389983	Verrucous endocarditis
+^ESCTVI739281	Viral endocarditis
+^ESCTAC292317	Active rheumatic fever
+^ESCTAC292319	Acute rheumatic attack
+^ESCTAC301524	Acute toxic disorder of myocardium
+^ESCTAC388032	Acute rheumatic fever with valvulitis
+^ESCTAC388033	Active rheumatic fever with valvulitis
+^ESCTAC601857	Acute rheumatic fever with heart involvement
+^ESCTAC601858	Active rheumatic fever with heart involvement
+^ESCTAR292320	ARF - Acute rheumatic fever
+^ESCTCA372619	Cardiac sarcoidosis
+^ESCTCA406386	Cardiac Q fever
+^ESCTCH315994	Chronic valvulitis
+^ESCTCH395400	Chronic rheumatic valvulitis
+^ESCTCH395401	Chronic rheumatic heart disease with valvulitis
+^ESCTCH572119	Chronic rheumatic mitral valve
+^ESCTCO352135	Coronary arteritis
+^ESCTCO352136	Coronary endarteritis
+^ESCTIN747560	Inflammatory cardiomyopathy
+^ESCTMY332476	Myocardial inflammation
+^ESCTNO337706	Nonbacterial verrucal endocardiosis
+^ESCTRH262001	Rheumatic pneumonitis
+^ESCTRH269134	Rheumatic disease of aortic valve
+^ESCTRH329084	Rheumatic disease of endocardium
+^ESCTRH341793	Rheumatic adherent pericardium
+^ESCTRH477573	Rheumatic degeneration of myocardium
+^ESCTSA477724	Sarcoid heart muscle disease
+^ESCTSB369943	SBE
+^ESCTTU326459	Tuberculosis of myocardium
+^ESCTTU335929	Tuberculosis of endocardium
+^ESCTTU590329	Tuberculosis of heart
+EGTON459	Rheumatic fever

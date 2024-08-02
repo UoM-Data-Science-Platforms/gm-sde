@@ -1,0 +1,8 @@
+dn61.	*PROMINAL 30mg tablets
+dn62.	*PROMINAL 60mg tablets
+dn63.	*PROMINAL 200mg tablets
+dn6x.	METHYLPHENOBARBITONE 30mg tablets
+dn6y.	METHYLPHENOBARBITONE 60mg tablets
+dn6z.	METHYLPHENOBARBITONE 200mg tablets
+dn6..	Methylphenobarbital
+x02oS	Prominal

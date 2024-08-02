@@ -377,3 +377,218 @@ TETA2789	Tegretol  Tablets  200 mg
 TETA2790	Tegretol  Tablets  400 mg
 TETA9540BRIDL	Tegretol Prolonged Release  M/R tablets  200 mg
 TETA9542BRIDL	Tegretol Prolonged Release  M/R tablets  400 mg
+^ESCT1203306	Carbamazepine 400 mg prolonged-release oral tablet
+^ESCT1203307	Product containing precisely carbamazepine 400 milligram/1 each prolonged-release oral tablet
+^ESCT1203334	Carbamazepine 200 mg prolonged-release oral tablet
+^ESCT1203335	Product containing precisely carbamazepine 200 milligram/1 each prolonged-release oral tablet
+^ESCT1203345	Carbamazepine 100mg prolonged-release oral tablet
+^ESCT1203708	Carbamazepine 100mg prolonged-release oral capsule
+^ESCT1203750	Carbamazepine 200mg prolonged-release oral capsule
+^ESCT1203783	Carbamazepine 300mg prolonged-release oral capsule
+^ESCT1212375	Carbamazepine 200mg modified-release tablets
+^ESCT1212376	Carbamazepine 400mg modified-release tablets
+^ESCT1218167	Carbamazepine
+^ESCT1218168	Carbamazepine product
+^ESCT1353993	Carbamazepine only product
+^ESCT1357832	Carbamazepine only product in oral dose form
+^ESCT1357833	Carbamazepine only product in rectal dose form
+^ESCT1382041	Carbamazepine-containing product in oral dose form
+^ESCT1382042	Carbamazepine-containing product in rectal dose form
+^ESCT1433854	Carbamazepine 250mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCT1433855	Carbamazepine 250mg suppositories (A A H Pharmaceuticals Ltd) 5 suppository
+^ESCT1436403	Carbamazepine 100mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1436404	Carbamazepine 200mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1436771	Carbamazepine 400mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436821	Carbamazepine 200mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436976	Carbamazepine 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437287	Carbamazepine 100mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1437288	Carbamazepine 100mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCT1437292	Carbamazepine 200mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1437293	Carbamazepine 200mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCT1437294	Carbamazepine 400mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1438089	Carbamazepine 400mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438269	Carbamazepine 100mg tablets (Viatris UK Healthcare Ltd) 56 tablet 2 x 28 tablets
+^ESCT1438270	Carbamazepine 200mg tablets (Viatris UK Healthcare Ltd) 56 tablet 2 x 28 tablets
+^ESCT1438484	Carbamazepine 400mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA1005017	Carbamazepine 200mg modified-release tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1005018	Carbamazepine 200mg modified-release tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTCA1005019	Carbamazepine 400mg modified-release tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1005020	Carbamazepine 400mg modified-release tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTCA1005021	Carbamazepine 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1005022	Carbamazepine 100mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCA1005023	Carbamazepine 200mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1005024	Carbamazepine 200mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCA1005025	Carbamazepine 400mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1005026	Carbamazepine 400mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTCA1041781	Carbamazepine 100mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041785	Carbamazepine 100mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCA1041788	Carbamazepine 200mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041789	Carbamazepine 200mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCA1049258	Carbamazepine 100mg tablets (DE Pharmaceuticals)
+^ESCTCA1049259	Carbamazepine 100mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCA1049260	Carbamazepine 200mg tablets (DE Pharmaceuticals)
+^ESCTCA1049261	Carbamazepine 200mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCA1049262	Carbamazepine 400mg tablets (DE Pharmaceuticals)
+^ESCTCA1049263	Carbamazepine 400mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCA1049264	Carbamazepine 400mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTCA1116952	Carbamazepine 200mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCA1119015	Carbamazepine 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCA1119016	Carbamazepine 100mg tablets (Mawdsley-Brooks & Company Ltd) 84 tablet
+^ESCTCA1119017	Carbamazepine 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCA1119018	Carbamazepine 200mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTCA1119019	Carbamazepine 200mg tablets (Mawdsley-Brooks & Company Ltd) 84 tablet
+^ESCTCA1119198	Carbamazepine 200mg modified-release tablets (DE Pharmaceuticals)
+^ESCTCA1119199	Carbamazepine 200mg modified-release tablets (DE Pharmaceuticals) 56 tablet
+^ESCTCA1119200	Carbamazepine 400mg modified-release tablets (DE Pharmaceuticals)
+^ESCTCA1119201	Carbamazepine 400mg modified-release tablets (DE Pharmaceuticals) 56 tablet
+^ESCTCA315735	Carbamazepine
+^ESCTCA610602	Carbamazepine 200mg modified-release tablets
+^ESCTCA610603	Carbamazepine 200mg m/r tablet
+^ESCTCA610604	Carbamazepine 400mg modified-release tablets
+^ESCTCA610605	Carbamazepine 400mg m/r tablet
+^ESCTCA635360	Carbamazepine 100mg m/r tablet
+^ESCTCA635363	Carbamazepine 300mg m/r capsule
+^ESCTCA635364	Carbamazepine 200mg m/r capsule
+^ESCTCA645101	Carbamazepine in oral dosage form
+^ESCTCA645103	Carbamazepine in rectal dosage form
+^ESCTCA645105	Carbamazepine 100mg m/r capsule
+^ESCTCA802821	Carbamazepine 200mg tablets (Actavis UK Ltd)
+^ESCTCA806589	Carbamazepine 400mg tablets (Actavis UK Ltd)
+^ESCTCA819311	Carbamazepine 100mg tablets (Actavis UK Ltd)
+^ESCTCA851112	Carbamazepine 100mg tablets (Actavis UK Ltd) 28 tablet
+^ESCTCA851146	Carbamazepine 200mg tablets (Actavis UK Ltd) 28 tablet
+^ESCTCA851199	Carbamazepine 400mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA960123	Carbamazepine 200mg modified-release tablets (Dowelhurst Ltd)
+^ESCTCA960125	Carbamazepine 200mg modified-release tablets (Dowelhurst Ltd) 56 tablet
+^ESCTCA960136	Carbamazepine 400mg modified-release tablets (Dowelhurst Ltd)
+^ESCTCA960137	Carbamazepine 400mg modified-release tablets (Dowelhurst Ltd) 56 tablet
+^ESCTCA975586	Carbamazepine 400mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA978199	Carbamazepine 400mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA978200	Carbamazepine 400mg modified-release tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTCA978240	Carbamazepine 400mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA978241	Carbamazepine 400mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTCA978242	Carbamazepine 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA978243	Carbamazepine 100mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTCA978245	Carbamazepine 200mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA978247	Carbamazepine 200mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTCA978249	Carbamazepine 200mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA978250	Carbamazepine 200mg modified-release tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTOR645148	Oral form carbamazepine m/r
+^ESCTPR315736	Product containing carbamazepine
+^ESCTPR645102	Product containing carbamazepine in oral dosage form
+^ESCTPR645104	Product containing carbamazepine in rectal dosage form
+CATA34075MGEMIS	Carbamazepine  Tablets  100 mg (Alpharma)
+CATA34078MGEMIS	Carbamazepine  Tablets  200 mg (Alpharma)
+CATA34085MGEMIS	Carbamazepine  Tablets  400 mg (Alpharma)
+CATA487	Carbamazepine  Tablets  100 mg
+CATA488	Carbamazepine  Tablets  200 mg
+CATA489	Carbamazepine  Tablets  400 mg
+CATA9592BRIDL	Carbamazepine  C/r tablets  200 mg
+CATA9594BRIDL	Carbamazepine  C/r tablets  400 mg
+^ESCT1436890	Carbagen SR 200mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436984	Carbagen SR 400mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437389	Carbagen SR 200mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1437390	Carbagen SR 400mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1438485	Carbagen 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438486	Carbagen 100mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438487	Carbagen 100mg tablets (Viatris UK Healthcare Ltd) 56 tablet
+^ESCT1438488	Carbagen 100mg tablets (Viatris UK Healthcare Ltd) 84 tablet
+^ESCT1438489	Carbagen 200mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438490	Carbagen 200mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438491	Carbagen 200mg tablets (Viatris UK Healthcare Ltd) 56 tablet
+^ESCT1438492	Carbagen 200mg tablets (Viatris UK Healthcare Ltd) 84 tablet
+^ESCT1438493	Carbagen 400mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438494	Carbagen 400mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438495	Carbagen 400mg tablets (Viatris UK Healthcare Ltd) 56 tablet
+CUM/142402NEMIS	Curatil Prolonged Release  M/R tablets  200 mg
+EPTA8948DLSEM	Epimaz  Tablets  100 mg
+EPTA8949DLSEM	Epimaz  Tablets  200 mg
+EPTA8951DLSEM	Epimaz  Tablets  400 mg
+TEM/1957NEMIS	Teril Cr  M/R tablets  200 mg
+TEM/1958NEMIS	Teril Cr  M/R tablets  400 mg
+^ESCT1280773	Tegretol Prolonged Release 200mg tablets (Pharmaram Ltd)
+^ESCT1280774	Tegretol Prolonged Release 200mg tablets (Pharmaram Ltd) 50 tablet
+^ESCT1280775	Tegretol Prolonged Release 400mg tablets (Pharmaram Ltd)
+^ESCT1280776	Tegretol Prolonged Release 400mg tablets (Pharmaram Ltd) 30 tablet
+^ESCT1435693	Tegretol Prolonged Release 400mg tablets (Pilsco Ltd)
+^ESCT1435694	Tegretol Prolonged Release 400mg tablets (Pilsco Ltd) 60 tablet
+^ESCTTE1001553	Tegretol 400mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1001554	Tegretol 400mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTTE1001555	Tegretol 100mg/5ml liquid (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1001556	Tegretol 100mg/5ml liquid (Mawdsley-Brooks & Company Ltd) 250 ml
+^ESCTTE1001557	Tegretol Prolonged Release 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1001558	Tegretol Prolonged Release 200mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTTE1001559	Tegretol Prolonged Release 400mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1001560	Tegretol Prolonged Release 400mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTTE1008406	Tegretol 100mg/5ml liquid (Necessity Supplies Ltd)
+^ESCTTE1008407	Tegretol 100mg/5ml liquid (Necessity Supplies Ltd) 250 ml
+^ESCTTE1008408	Tegretol Prolonged Release 200mg tablets (Necessity Supplies Ltd)
+^ESCTTE1008409	Tegretol Prolonged Release 200mg tablets (Necessity Supplies Ltd) 30 tablet
+^ESCTTE1008410	Tegretol Prolonged Release 200mg tablets (Necessity Supplies Ltd) 50 tablet
+^ESCTTE1008411	Tegretol Prolonged Release 400mg tablets (Necessity Supplies Ltd)
+^ESCTTE1008412	Tegretol Prolonged Release 400mg tablets (Necessity Supplies Ltd) 30 tablet
+^ESCTTE1008414	Tegretol Prolonged Release 400mg tablets (Necessity Supplies Ltd) 50 tablet
+^ESCTTE1008415	Tegretol 200mg tablets (Necessity Supplies Ltd)
+^ESCTTE1008416	Tegretol 200mg tablets (Necessity Supplies Ltd) 100 tablet
+^ESCTTE1008417	Tegretol 400mg tablets (Necessity Supplies Ltd)
+^ESCTTE1008418	Tegretol 400mg tablets (Necessity Supplies Ltd) 100 tablet
+^ESCTTE1026418	Tegretol Prolonged Release 200mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTTE1027817	Tegretol Prolonged Release 200mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTTE1038945	Tegretol Prolonged Release 400mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTTE878357	Tegretol Prolonged Release 400mg tablets (Waymade Healthcare Plc)
+^ESCTTE878358	Tegretol Prolonged Release 400mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTTE878361	Tegretol 100mg/5ml liquid (Waymade Healthcare Plc)
+^ESCTTE878362	Tegretol 100mg/5ml liquid (Waymade Healthcare Plc) 50 ml
+^ESCTTE879755	Tegretol Prolonged Release 400mg tablets (Dowelhurst Ltd)
+^ESCTTE879756	Tegretol Prolonged Release 400mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTTE929918	Tegretol Prolonged Release 200mg tablets (Waymade Healthcare Plc)
+^ESCTTE929921	Tegretol Prolonged Release 200mg tablets (Waymade Healthcare Plc) 50 tablet
+^ESCTTE929933	Tegretol 100mg/5ml liquid (Waymade Healthcare Plc) 250 ml
+^ESCTTE939206	Tegretol 400mg tablets (Waymade Healthcare Plc)
+^ESCTTE939207	Tegretol 400mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTTE960214	Tegretol 100mg/5ml liquid (Dowelhurst Ltd)
+^ESCTTE960215	Tegretol 100mg/5ml liquid (Dowelhurst Ltd) 250 ml
+^ESCTTE960217	Tegretol Prolonged Release 200mg tablets (Dowelhurst Ltd)
+^ESCTTE960218	Tegretol Prolonged Release 200mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTTE960219	Tegretol Prolonged Release 200mg tablets (Dowelhurst Ltd) 50 tablet
+^ESCTTE967723	Tegretol 100mg/5ml liquid (DE Pharmaceuticals)
+^ESCTTE967724	Tegretol 100mg/5ml liquid (DE Pharmaceuticals) 250 ml
+^ESCTTE967731	Tegretol Prolonged Release 200mg tablets (DE Pharmaceuticals)
+^ESCTTE967733	Tegretol Prolonged Release 200mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTTE967742	Tegretol Prolonged Release 400mg tablets (DE Pharmaceuticals)
+^ESCTTE967743	Tegretol Prolonged Release 400mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTTE973961	Tegretol 100mg/5ml liquid (Sigma Pharmaceuticals Plc)
+^ESCTTE973962	Tegretol 100mg/5ml liquid (Sigma Pharmaceuticals Plc) 250 ml
+^ESCTTE973964	Tegretol Prolonged Release 200mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE973965	Tegretol Prolonged Release 200mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTTE973966	Tegretol Prolonged Release 200mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTTE973967	Tegretol Prolonged Release 400mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE973968	Tegretol Prolonged Release 400mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTTE983307	Tegretol Prolonged Release 200mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTTE986822	Tegretol 100mg/5ml liquid (Waymade Healthcare Plc) 300 ml
+^ESCTTE990092	Tegretol Prolonged Release 200mg tablets (Lexon (UK) Ltd)
+^ESCTTE990095	Tegretol Prolonged Release 200mg tablets (Lexon (UK) Ltd) 50 tablet
+^ESCTTE990101	Tegretol Prolonged Release 200mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTTE990103	Tegretol Prolonged Release 400mg tablets (Lexon (UK) Ltd)
+^ESCTTE990104	Tegretol Prolonged Release 400mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTTE990123	Tegretol 200mg tablets (Lexon (UK) Ltd)
+^ESCTTE990125	Tegretol 200mg tablets (Lexon (UK) Ltd) 100 tablet
+^ESCTTE990132	Tegretol 400mg tablets (Lexon (UK) Ltd)
+^ESCTTE990133	Tegretol 400mg tablets (Lexon (UK) Ltd) 100 tablet
+^ESCTTE990135	Tegretol 100mg/5ml liquid (Lexon (UK) Ltd)
+^ESCTTE990137	Tegretol 100mg/5ml liquid (Lexon (UK) Ltd) 250 ml
+^ESCTTE994223	Tegretol Prolonged Release 400mg tablets (Stephar (U.K.) Ltd)
+^ESCTTE994224	Tegretol Prolonged Release 400mg tablets (Stephar (U.K.) Ltd) 30 tablet
+^ESCTAR913912	Arbil MR
+^ESCTCA914291	Carbagen SR
+^ESCTCA946112	Carbagen
+^ESCTEP915101	Epimaz
+^ESCTEP915103	Epimaz Retard
+^ESCTTE916647	Tegretol
+^ESCTTE916649	Tegretol Chewtabs
+^ESCTTE916651	Tegretol Prolonged Release
+^ESCTTE916652	Tegretol Retard
+^ESCTTE916683	Teril Retard
+TIM/1960NEMIS	Timonil Retard  M/R tablets  200 mg
+TIM/1961NEMIS	Timonil Retard  M/R tablets  400 mg
+^ESCTCA646781	Carbamazepine

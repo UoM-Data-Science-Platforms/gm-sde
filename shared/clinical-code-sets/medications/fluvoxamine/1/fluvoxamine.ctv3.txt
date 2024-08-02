@@ -1,0 +1,7 @@
+da3..	Fluvoxamine maleate
+da32.	Fluvoxamine maleate 50mg tablet
+da31.	Faverin 50mg tablet
+da34.	Fluvoxamine maleate 100mg tablet
+da33.	Faverin 100mg tablet
+x01As	Fluvoxamine
+x02c8	Faverin

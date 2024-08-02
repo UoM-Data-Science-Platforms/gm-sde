@@ -1,7 +1,13 @@
-d7c1.	*ALLEGRON 10mg tablets
-d7c2.	*ALLEGRON 25mg tablets
-d7c6.	NORTRIPTYLINE 10mg tablets
-d7c8.	NORTRIPTYLINE 25mg tablets
-d7c9.	*NORTRIPTYLINE 10mg capsules
-d7cy.	*NORTRIPTYLINE 25mg capsules
-d914.	*MOTIVAL tablets
+d7c1.00	*ALLEGRON 10mg tablets
+d7c2.00	*ALLEGRON 25mg tablets
+d7c6.00	NORTRIPTYLINE 10mg tablets
+d7c8.00	NORTRIPTYLINE 25mg tablets
+d7c9.00	*NORTRIPTYLINE 10mg capsules
+d7cy.00	*NORTRIPTYLINE 25mg capsules
+d914.00	*MOTIVAL tablets
+d7c..00	NORTRIPTYLINE
+d7c7.00	*NORTRIPTYLINE 10mg/5mL liquid
+d7c5.00	*AVENTYL 10mg/5mL liquid
+d7c4.00	*AVENTYL 25mg capsules
+d7c3.00	*AVENTYL 10mg capsules
+d913.00	*MOTIPRESS tablets x28CP

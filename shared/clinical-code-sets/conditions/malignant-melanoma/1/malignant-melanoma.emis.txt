@@ -1,0 +1,174 @@
+^ESCTCU402444	Cutaneous malignant melanoma
+^ESCTMA401665	Malignant melanoma of skin of cheek
+^ESCTMA401672	Malignant melanoma of skin of eyebrow
+^ESCTMA402429	Malignant melanoma of skin of nose
+^ESCTMA474896	Malignant melanoma of ear and/or external auditory canal
+^ESCTMA474898	Malignant melanoma of ear and/or external auricular canal
+^ESCTMA474917	Malignant melanoma of forearm
+^ESCTME402445	Melanoma of skin
+^ESCTMM402443	MM - Malignant melanoma of skin
+^ESCT1170898	Malignant melanoma of skin of right lower limb
+^ESCT1192591	Malignant melanoma of other and unspecified parts of face
+^ESCT1210785	Malignant melanoma of skin of left upper limb
+^ESCT1363276	Malignant melanoma of mucous membrane
+^ESCT1368593	Malignant melanoma of skin of right upper limb
+^ESCT1368594	Malignant melanoma of skin of right upper extremity
+^ESCT1368595	Malignant melanoma of skin of right arm
+^ESCT1392417	Mucosal nodular melanoma
+^ESCT1392418	Nodular melanoma of mucous membrane
+^ESCT1393221	Malignant melanoma with BRAF V600E mutation
+^ESCT1393222	Malignant melanoma with B-Raf proto-oncogene, serine/threonine kinase V600E mutation
+^ESCT1395777	Malignant melanoma of orbit
+^ESCT1395778	Malignant melanoma of overlapping lesion of eye and adnexa
+^ESCT1395789	Malignant melanoma of lacrimal gland
+^ESCT1395793	Malignant melanoma of lacrimal drainage system
+^ESCT1416337	Primary malignant melanoma of overlapping lesion of accessory sinuses
+^ESCTAC534935	Acral lentiginous malignant melanoma of skin
+^ESCTAC534936	Acral lentiginous melanoma of skin
+^ESCTAL534937	ALM - Acral lentiginous melanoma of skin
+^ESCTAL534938	ALMM - Acral lentiginous malignant melanoma of skin
+^ESCTAM559001	Amelanotic malignant melanoma of skin
+^ESCTAM559002	Amelanotic melanoma
+^ESCTBA668962	Balloon cell malignant melanoma
+^ESCTBO668961	Borderline malignant melanoma
+^ESCTCA559107	Cancer anal melanoma
+^ESCTCA559109	Cancer rectum melanoma
+^ESCTCI535451	Ciliary body melanoma
+^ESCTCL666713	Clear cell sarcoma
+^ESCTCO666709	Congenital malignant melanoma
+^ESCTDE668965	Desmoplastic malignant melanoma
+^ESCTDO780570	Donor derived melanoma
+^ESCTFA787620	Familial malignant melanoma of skin
+^ESCTFA787621	Familial cutaneous malignant melanoma
+^ESCTHY667873	Hypomelanosis surrounding malignant melanoma
+^ESCTIR535448	Iris melanoma
+^ESCTLE591181	Lentigo maligna melanoma
+^ESCTLM591182	LMM - Lentigo maligna melanoma
+^ESCTLO605229	Local recurrence of malignant melanoma of skin
+^ESCTMA401659	Malignant melanoma of skin of abdomen
+^ESCTMA401660	Malignant melanoma of skin of ankle
+^ESCTMA401661	Malignant melanoma of skin of axilla
+^ESCTMA401662	Malignant melanoma of skin of back
+^ESCTMA401663	Malignant melanoma of skin of breast
+^ESCTMA401664	Malignant melanoma of skin of buttock
+^ESCTMA401667	Malignant melanoma of skin of chest
+^ESCTMA401668	Malignant melanoma of skin of chin
+^ESCTMA401669	Malignant melanoma of skin of ear
+^ESCTMA401670	Malignant melanoma of skin of elbow
+^ESCTMA401671	Malignant melanoma of skin of external auditory canal
+^ESCTMA401674	Malignant melanoma of skin of eyelid
+^ESCTMA401676	Malignant melanoma of skin of finger
+^ESCTMA401677	Malignant melanoma of skin of foot
+^ESCTMA401678	Malignant melanoma of skin of forearm
+^ESCTMA401679	Malignant melanoma of skin of forehead
+^ESCTMA401680	Malignant melanoma of skin of groin
+^ESCTMA402423	Malignant melanoma of skin of hand
+^ESCTMA402424	Malignant melanoma of skin of hip
+^ESCTMA402425	Malignant melanoma of skin of knee
+^ESCTMA402426	Malignant melanoma of skin of lip
+^ESCTMA402427	Malignant melanoma of skin of lower limb
+^ESCTMA402428	Malignant melanoma of skin of neck
+^ESCTMA402431	Malignant melanoma of skin of perineum
+^ESCTMA402432	Malignant melanoma of skin of popliteal area
+^ESCTMA402433	Malignant melanoma of skin of scalp
+^ESCTMA402434	Malignant melanoma of skin of shoulder
+^ESCTMA402435	Malignant melanoma of skin of temporal region
+^ESCTMA402436	Malignant melanoma of skin of thigh
+^ESCTMA402437	Malignant melanoma of skin of toe
+^ESCTMA402439	Malignant melanoma of skin of umbilicus
+^ESCTMA402440	Malignant melanoma of skin of upper limb
+^ESCTMA402441	Malignant melanoma of skin of wrist
+^ESCTMA534939	Malignant melanoma arising in intradermal naevus
+^ESCTMA534940	Malignant melanoma arising in intradermal nevus
+^ESCTMA534941	Malignant melanoma arising in congenital naevus
+^ESCTMA534942	Malignant melanoma arising in congenital nevus
+^ESCTMA535247	Malignant melanoma of vulva
+^ESCTMA535437	Malignant melanoma of conjunctiva
+^ESCTMA535450	Malignant melanoma of ciliary body
+^ESCTMA551208	Malignant melanoma of head and neck
+^ESCTMA551211	Malignant melanoma of lower limb
+^ESCTMA559106	Malignant melanoma of anus
+^ESCTMA559108	Malignant melanoma of rectum
+^ESCTMA560062	Malignant melanoma of meninges
+^ESCTMA597037	Malignant blue naevus of skin
+^ESCTMA597038	Malignant blue nevus of skin
+^ESCTMA597039	Malignant melanoma in blue naevus
+^ESCTMA597040	Malignant melanoma in blue nevus
+^ESCTMA636575	Malignant melanoma
+^ESCTMA666708	Malignant melanoma (vertical growth phase)
+^ESCTMA666710	Materno-foetal metastatic malignant melanoma
+^ESCTMA666711	Materno-fetal metastatic malignant melanoma
+^ESCTMA666712	Malignant melanoma of soft tissues
+^ESCTMA666714	Malignant melanoma animal-type
+^ESCTMA668967	Malignant melanoma of oral cavity
+^ESCTMA668968	Malignant melanoma of nail apparatus
+^ESCTMA700476	Malignant melanoma of skin of canthus of eye
+^ESCTMA700757	Malignant melanoma of skin of lower eyelid
+^ESCTMA700853	Malignant melanoma of skin of upper eyelid
+^ESCTMA701178	Malignant melanoma of retina
+^ESCTMA702161	Malignant melanoma of unknown origin
+^ESCTMA702162	Malignant melanoma of unknown primary
+^ESCTMA702375	Malignant melanoma of skin of lower lip
+^ESCTMA702730	Malignant melanoma of skin of upper lip
+^ESCTMA734490	Malignant melanoma of skin of anus
+^ESCTMA735244	Malignant melanoma of skin of scrotum
+^ESCTMA735278	Malignant melanoma of skin of penis
+^ESCTMA735280	Malignant melanoma of skin of vulva
+^ESCTMA737316	Malignant melanoma of skin of lower leg
+^ESCTMA737317	Malignant melanoma of skin of upper arm
+^ESCTMA750370	Malignant melanoma of nasal cavity
+^ESCTMA750371	Malignant melanoma of vestibule of mouth
+^ESCTMA750372	Malignant melanoma of tongue
+^ESCTMA750373	Malignant melanoma of floor of mouth
+^ESCTMA750374	Malignant melanoma of palatine arch
+^ESCTMA750375	Malignant melanoma of tonsillar pillar
+^ESCTMA750376	Malignant melanoma of buccal mucosa
+^ESCTMA750710	Malignant melanoma of ethmoid sinus
+^ESCTMA750711	Malignant melanoma of ethmoidal sinus
+^ESCTMA750713	Malignant melanoma of palate
+^ESCTMA750714	Malignant melanoma of gum
+^ESCTMA750715	Malignant melanoma of gingiva
+^ESCTMA750716	Malignant melanoma of maxillary sinus
+^ESCTMA761577	Malignant melanoma of accessory sinus
+^ESCTMA761601	Malignant melanoma of frontal sinus
+^ESCTMA761603	Malignant melanoma of sphenoidal sinus
+^ESCTMA782054	Malignant melanoma of oesophagus
+^ESCTMA782055	Malignant melanoma of esophagus
+^ESCTMA845661	Malignant melanoma of left choroid
+^ESCTMA845666	Malignant melanoma of right choroid
+^ESCTMA845672	Malignant melanoma of skin of left lower limb
+^ESCTME636576	Melanosarcoma
+^ESCTME666715	Metastatic malignant melanoma with diffuse hypermelanosis
+^ESCTME701180	Melanoma of retina
+^ESCTME727838	Metastatic malignant melanoma
+^ESCTME750712	Melanoma of ethmoidal sinus
+^ESCTME750717	Melanoma of maxillary sinus
+^ESCTME761578	Melanoma of accessory sinus
+^ESCTME761602	Melanoma of frontal sinus
+^ESCTME761604	Melanoma of sphenoidal sinus
+^ESCTME776514	Melanoma and neural system tumour syndrome
+^ESCTME776515	Melanoma and neural system tumor syndrome
+^ESCTMM556001	MM - Malignant melanoma of eye
+^ESCTMU666716	Multiple primary malignant melanomata
+^ESCTNE668966	Neurotropic malignant melanoma
+^ESCTNM534934	NM - Nodular melanoma of skin
+^ESCTNO534932	Nodular malignant melanoma of skin
+^ESCTNO534933	Nodular melanoma of skin
+^ESCTPR781959	Primary malignant melanoma of vagina
+^ESCTPR783310	Primary malignant melanoma of anal canal
+^ESCTPR783498	Primary malignant melanoma of cornea
+^ESCTPR784224	Primary malignant melanoma of anus
+^ESCTPS668571	Psoralen and long-wave ultraviolet radiation (PUVA) therapy-associated malignant melanoma
+^ESCTPS668572	Psoralen and long-wave ultraviolet radiation therapy-associated malignant melanoma
+^ESCTPU668570	PUVA therapy-associated malignant melanoma
+^ESCTRE701179	Retinal melanoma
+^ESCTRI662631	Ring melanoma of ciliary body
+^ESCTSM534931	SMM - Superficial spreading melanoma of skin
+^ESCTSP668963	Spindle cell malignant melanoma
+^ESCTSP668964	Spitzoid malignant melanoma
+^ESCTSS534930	SSMM - Superficial spreading malignant melanoma of skin
+^ESCTSU534928	Superficial spreading malignant melanoma of skin
+^ESCTSU534929	Superficial spreading melanoma of skin
+^ESCTSU668969	Subungual malignant melanoma
+EMISNQMA25	Malignant melanoma of choroid
+EMISNQMA27	Malignant melanoma of iris

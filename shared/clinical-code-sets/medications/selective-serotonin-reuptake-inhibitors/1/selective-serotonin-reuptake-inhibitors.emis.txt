@@ -1616,3 +1616,296 @@ SETA8968EMIS	Seroxat  Tablets  20 mg
 SETA8969EMIS	Seroxat  Tablets  30 mg
 SETA9308EMIS	Sertraline Hydrochloride  Tablets  100 mg
 SETA9309EMIS	Sertraline Hydrochloride  Tablets  50 mg
+^ESCT1206454	Citalopram in oral dosage form
+^ESCT1206455	Product containing citalopram in oral dosage form
+^ESCT1223601	Citalopram
+^ESCT1223602	Citalopram product
+^ESCT1354256	Citalopram only product
+^ESCT1357999	Citalopram only product in oral dose form
+^ESCT1364145	Citalopram (as citalopram hydrobromide) 2 mg/mL oral solution
+^ESCT1364837	Citalopram-containing product in oromucosal dose form
+^ESCT1365633	Citalopram only product in oromucosal dose form
+^ESCT1383333	Citalopram (as citalopram hydrobromide) 40 mg orodispersible tablet
+^ESCT1383342	Citalopram (as citalopram hydrobromide) 20 mg orodispersible tablet
+^ESCT1383353	Citalopram (as citalopram hydrobromide) 10 mg orodispersible tablet
+^ESCT1386288	Citalopram-containing product in oral dose form
+^ESCTCI609814	Citalopram
+^ESCTCI697080	Citalopram 40mg orally disintegrating tablet
+^ESCTCI697372	Citalopram 20mg orally disintegrating tablet
+^ESCTCI698071	Citalopram 10mg orally disintegrating tablet
+^ESCTCI878637	Citalopram 20mg tablets (Dowelhurst Ltd)
+^ESCTCI878638	Citalopram 20mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCI929963	Citalopram 20mg tablets (Waymade Healthcare Plc)
+^ESCTCI929966	Citalopram 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI960386	Citalopram 10mg tablets (Dowelhurst Ltd)
+^ESCTCI960389	Citalopram 10mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCI960391	Citalopram 40mg tablets (Dowelhurst Ltd)
+^ESCTCI960392	Citalopram 40mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTPR609815	Product containing citalopram
+^ESCTCI1008655	Cipramil 40mg/ml drops (Necessity Supplies Ltd)
+^ESCTCI1008656	Cipramil 40mg/ml drops (Necessity Supplies Ltd) 15 ml
+^ESCTCI1011444	Cipramil 20mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTCI1012409	Cipramil 40mg/ml drops (DE Pharmaceuticals)
+^ESCTCI1012410	Cipramil 40mg/ml drops (DE Pharmaceuticals) 15 ml
+^ESCTCI1022700	Cipramil 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCI1022701	Cipramil 40mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTCI877691	Cipramil 10mg tablets (Waymade Healthcare Plc)
+^ESCTCI877692	Cipramil 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI877694	Cipramil 20mg tablets (Waymade Healthcare Plc)
+^ESCTCI877695	Cipramil 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI879232	Cipramil 20mg tablets (Dowelhurst Ltd)
+^ESCTCI879233	Cipramil 20mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCI914415	Cipramil
+^ESCTCI933571	Cipramil 40mg tablets (Waymade Healthcare Plc)
+^ESCTCI933572	Cipramil 40mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI959250	Cipramil 40mg tablets (Dowelhurst Ltd)
+^ESCTCI959252	Cipramil 40mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCI966409	Cipramil 20mg tablets (DE Pharmaceuticals)
+^ESCTCI966410	Cipramil 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI966411	Cipramil 40mg tablets (DE Pharmaceuticals)
+^ESCTCI966412	Cipramil 40mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI972727	Cipramil 40mg/ml drops (Sigma Pharmaceuticals Plc)
+^ESCTCI972728	Cipramil 40mg/ml drops (Sigma Pharmaceuticals Plc) 15 ml
+^ESCTCI972729	Cipramil 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI972730	Cipramil 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI972731	Cipramil 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI972732	Cipramil 40mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI986151	Cipramil 40mg/ml drops (Waymade Healthcare Plc)
+^ESCTCI986152	Cipramil 40mg/ml drops (Waymade Healthcare Plc) 15 ml
+^ESCTCI988799	Cipramil 20mg tablets (Lexon (UK) Ltd)
+^ESCTCI988800	Cipramil 20mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTCI988802	Cipramil 40mg tablets (Lexon (UK) Ltd)
+^ESCTCI988803	Cipramil 40mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTCI988804	Cipramil 40mg/ml drops (Lexon (UK) Ltd)
+^ESCTCI988805	Cipramil 40mg/ml drops (Lexon (UK) Ltd) 15 ml
+^ESCTCI992556	Cipramil 40mg/ml drops (Mawdsley-Brooks & Company Ltd)
+^ESCTCI992557	Cipramil 40mg/ml drops (Mawdsley-Brooks & Company Ltd) 15 ml
+^ESCTCI992558	Cipramil 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCI992559	Cipramil 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+PATA19066NEMIS	Paxoran Tablets 10 mg
+PATA19067NEMIS	Paxoran Tablets 20 mg
+PATA19068NEMIS	Paxoran Tablets 40 mg
+^ESCT1206866	Escitalopram in oral dosage form
+^ESCT1206867	Product containing escitalopram in oral dosage form
+^ESCT1229619	Escitalopram
+^ESCT1229620	Escitalopram product
+^ESCT1266850	Cipralex 10mg tablets (CST Pharma Ltd)
+^ESCT1266851	Cipralex 10mg tablets (CST Pharma Ltd) 28 tablet
+^ESCT1354886	Escitalopram only product
+^ESCT1358443	Escitalopram only product in oral dose form
+^ESCT1382525	Escitalopram (as escitalopram oxalate) 1 mg/mL oral solution
+^ESCT1386480	Escitalopram-containing product in oral dose form
+^ESCTCI1002254	Cipralex 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI1002255	Cipralex 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI1002256	Cipralex 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI1002257	Cipralex 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCI1008648	Cipralex 10mg tablets (Necessity Supplies Ltd)
+^ESCTCI1008649	Cipralex 10mg tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTCI1008651	Cipralex 20mg tablets (Necessity Supplies Ltd)
+^ESCTCI1008652	Cipralex 20mg tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTCI1012405	Cipralex 20mg tablets (DE Pharmaceuticals)
+^ESCTCI1012406	Cipralex 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI1020915	Cipralex 5mg tablets (DE Pharmaceuticals)
+^ESCTCI1020916	Cipralex 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI1121382	Cipralex 20mg tablets (Lexon (UK) Ltd)
+^ESCTCI1121383	Cipralex 20mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTCI914413	Cipralex
+^ESCTCI929938	Cipralex 10mg tablets (Waymade Healthcare Plc)
+^ESCTCI929941	Cipralex 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI939181	Cipralex 20mg tablets (Waymade Healthcare Plc)
+^ESCTCI939182	Cipralex 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI959246	Cipralex 10mg tablets (Dowelhurst Ltd)
+^ESCTCI959247	Cipralex 10mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCI959248	Cipralex 20mg tablets (Dowelhurst Ltd)
+^ESCTCI959249	Cipralex 20mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCI961776	Cipralex 5mg tablets (Waymade Healthcare Plc)
+^ESCTCI961777	Cipralex 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCI966407	Cipralex 10mg tablets (DE Pharmaceuticals)
+^ESCTCI966408	Cipralex 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCI988796	Cipralex 10mg tablets (Lexon (UK) Ltd)
+^ESCTCI988798	Cipralex 10mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTCI992549	Cipralex 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCI992550	Cipralex 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTCI992552	Cipralex 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCI992553	Cipralex 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTCI992554	Cipralex 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCI992555	Cipralex 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTES1140322	Escitalopram 20mg/ml oral drops sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTES1140323	Escitalopram 20mg/ml oral drops sugar free (Colorama Pharmaceuticals Ltd) 15 ml
+^ESCTES655283	Escitalopram
+^ESCTES677395	Escitalopram 5mg/5mL oral solution
+^ESCTES970033	Escitalopram 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTES970034	Escitalopram 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTPR655284	Product containing escitalopram
+^ESCT1351412	Fluoxetine- and olanzapine-containing product in oral dose form
+^ESCT1355082	Fluoxetine only product
+^ESCT1355083	Fluoxetine and olanzapine only product
+^ESCT1358588	Fluoxetine and olanzapine only product in oral dose form
+^ESCT1358589	Fluoxetine only product in oral dose form
+^ESCT1434558	Fluoxetine 40mg capsules (Medihealth (Northern) Ltd)
+^ESCT1434559	Fluoxetine 40mg capsules (Medihealth (Northern) Ltd) 30 capsule
+^ESCTFE919417	Felicium
+^ESCTFL645778	Fluoxetine 90mg m/r capsule
+^ESCTFL878964	Fluoxetine 20mg/5ml oral solution (Dowelhurst Ltd)
+^ESCTFL878966	Fluoxetine 20mg/5ml oral solution (Dowelhurst Ltd) 70 ml
+^ESCTFL878978	Fluoxetine 20mg capsules (Dowelhurst Ltd)
+^ESCTFL878980	Fluoxetine 20mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTOL946118	Olena
+^ESCTOR645777	Oral form fluoxetine m/r capsule
+^ESCTOX915438	Oxactin
+^ESCTPR1001252	Prozac 20mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1001254	Prozac 20mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTPR1001255	Prozac 20mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTPR1001256	Prozac 20mg/5ml liquid (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1001257	Prozac 20mg/5ml liquid (Mawdsley-Brooks & Company Ltd) 70 ml
+^ESCTPR1008199	Prozac 20mg capsules (Necessity Supplies Ltd)
+^ESCTPR1008200	Prozac 20mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTPR1008201	Prozac 20mg/5ml liquid (Necessity Supplies Ltd)
+^ESCTPR1008202	Prozac 20mg/5ml liquid (Necessity Supplies Ltd) 70 ml
+^ESCTPR877390	Prozac 20mg/5ml liquid (Dowelhurst Ltd)
+^ESCTPR877391	Prozac 20mg/5ml liquid (Dowelhurst Ltd) 70 ml
+^ESCTPR878224	Prozac 20mg capsules (Waymade Healthcare Plc)
+^ESCTPR878225	Prozac 20mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTPR878228	Prozac 20mg/5ml liquid (Waymade Healthcare Plc)
+^ESCTPR878229	Prozac 20mg/5ml liquid (Waymade Healthcare Plc) 70 ml
+^ESCTPR879666	Prozac 20mg capsules (Dowelhurst Ltd)
+^ESCTPR879667	Prozac 20mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTPR915799	Prozac
+^ESCTPR915801	Prozep
+^ESCTPR915805	Prozit
+^ESCTPR967379	Prozac 20mg capsules (DE Pharmaceuticals)
+^ESCTPR967380	Prozac 20mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTPR967397	Prozac 20mg/5ml liquid (DE Pharmaceuticals)
+^ESCTPR967398	Prozac 20mg/5ml liquid (DE Pharmaceuticals) 70 ml
+^ESCTPR971573	Prozac 20mg/5ml liquid (Sigma Pharmaceuticals Plc)
+^ESCTPR971577	Prozac 20mg/5ml liquid (Sigma Pharmaceuticals Plc) 70 ml
+^ESCTPR989754	Prozac 20mg/5ml liquid (Lexon (UK) Ltd)
+^ESCTPR989755	Prozac 20mg/5ml liquid (Lexon (UK) Ltd) 70 ml
+^ESCTPR989756	Prozac 20mg capsules (Lexon (UK) Ltd)
+^ESCTPR989757	Prozac 20mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTRA915873	Ranflutin
+FLOR143867NEMIS	Fluoxetine Hydrochloride (Special Order) Oral solution 20 mg/5 ml
+FLOR143868NEMIS	Fluoxetine Hydrochloride Oral suspension 20 mg/5 ml
+^ESCT1355100	Fluvoxamine only product
+^ESCT1358610	Fluvoxamine only product in oral dose form
+^ESCT1364000	Fluvoxamine maleate 100 mg prolonged-release oral capsule
+^ESCT1364001	Fluvoxamine maleate 150 mg prolonged-release oral capsule
+^ESCTFA918787	Faverin
+^ESCT1212359	Paroxetine 10mg/5ml oral suspension sugar free
+^ESCT1271224	Seroxat 20mg/10ml liquid (CST Pharma Ltd)
+^ESCT1271225	Seroxat 20mg/10ml liquid (CST Pharma Ltd) 150 ml
+^ESCT1356256	Paroxetine only product
+^ESCT1359505	Paroxetine only product in oral dose form
+^ESCT1363184	Paroxetine (as paroxetine hydrochloride) 10 mg oral tablet
+^ESCT1367276	Paroxetine 10mg tablets
+^ESCT1433865	Paroxetine 20mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1433866	Paroxetine 20mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1434585	Paroxetine 30mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1434586	Paroxetine 30mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA609791	Paroxetine 10mg/5ml oral suspension sugar free
+^ESCTPA609792	Paroxetine 10mg/5mL s/f liquid
+^ESCTPA645781	Paroxetine 12.5mg tablet controlled-release
+^ESCTPA645782	Paroxetine 25mg tablet controlled-release
+^ESCTPA645783	Paroxetine 37.5mg tablet controlled-release
+^ESCTPA877373	Paroxetine 10mg/5ml oral suspension sugar free (Dowelhurst Ltd)
+^ESCTPA877375	Paroxetine 10mg/5ml oral suspension sugar free (Dowelhurst Ltd) 150 ml
+^ESCTPA960492	Paroxetine 20mg tablets (Dowelhurst Ltd)
+^ESCTPA960493	Paroxetine 20mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTPA960494	Paroxetine 30mg tablets (Dowelhurst Ltd)
+^ESCTPA960496	Paroxetine 30mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTPA974752	Paroxetine 10mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc)
+^ESCTPA974753	Paroxetine 10mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTSE1001474	Seroxat 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSE1001475	Seroxat 20mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTSE1001476	Seroxat 30mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSE1001477	Seroxat 30mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTSE1002827	Seroxat 20mg/10ml liquid (Sigma Pharmaceuticals Plc)
+^ESCTSE1002830	Seroxat 20mg/10ml liquid (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTSE1008328	Seroxat 20mg/10ml liquid (Necessity Supplies Ltd)
+^ESCTSE1008331	Seroxat 20mg/10ml liquid (Necessity Supplies Ltd) 150 ml
+^ESCTSE1012260	Seroxat 20mg tablets (DE Pharmaceuticals)
+^ESCTSE1012261	Seroxat 20mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTSE1100276	Seroxat 10mg tablets (Waymade Healthcare Plc)
+^ESCTSE1100277	Seroxat 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTSE877426	Seroxat 20mg/10ml liquid (Dowelhurst Ltd)
+^ESCTSE877427	Seroxat 20mg/10ml liquid (Dowelhurst Ltd) 150 ml
+^ESCTSE878256	Seroxat 20mg tablets (Waymade Healthcare Plc)
+^ESCTSE878268	Seroxat 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTSE878288	Seroxat 20mg/10ml liquid (Waymade Healthcare Plc)
+^ESCTSE878290	Seroxat 20mg/10ml liquid (Waymade Healthcare Plc) 150 ml
+^ESCTSE879243	Seroxat 20mg tablets (Dowelhurst Ltd)
+^ESCTSE879247	Seroxat 20mg tablets (Dowelhurst Ltd) 14 tablet
+^ESCTSE879249	Seroxat 20mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTSE916249	Seroxat
+^ESCTSE935762	Seroxat 20mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTSE951085	Seroxat 30mg tablets (Waymade Healthcare Plc)
+^ESCTSE951086	Seroxat 30mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTSE960185	Seroxat 20mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTSE960186	Seroxat 30mg tablets (Dowelhurst Ltd)
+^ESCTSE960187	Seroxat 30mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTSE967871	Seroxat 20mg/10ml liquid (DE Pharmaceuticals)
+^ESCTSE967872	Seroxat 20mg/10ml liquid (DE Pharmaceuticals) 150 ml
+^ESCTSE989888	Seroxat 20mg/10ml liquid (Lexon (UK) Ltd)
+^ESCTSE989889	Seroxat 20mg/10ml liquid (Lexon (UK) Ltd) 150 ml
+^ESCTSE989890	Seroxat 20mg tablets (Lexon (UK) Ltd)
+^ESCTSE989891	Seroxat 20mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTSE989892	Seroxat 30mg tablets (Lexon (UK) Ltd)
+^ESCTSE989893	Seroxat 30mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCT1270893	Lustral 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1270894	Lustral 50mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1351697	Sertraline-containing product in oral dose form
+^ESCT1356715	Sertraline only product
+^ESCT1359838	Sertraline only product in oral dose form
+^ESCT1362990	Sertraline (as sertraline hydrochloride) 100 mg oral tablet
+^ESCT1362991	Sertraline (as sertraline hydrochloride) 50 mg oral tablet
+^ESCT1367199	Sertraline 100mg tablets
+^ESCT1367266	Sertraline 50mg tablets
+^ESCT1433861	Sertraline 50mg tablets (A A H Pharmaceuticals Ltd) 250 tablet
+^ESCT1433862	Sertraline 100mg tablets (A A H Pharmaceuticals Ltd) 250 tablet
+^ESCT1434573	Sertraline 100mg tablets (Medihealth (Northern) Ltd) 250 tablet
+^ESCT1434574	Sertraline 50mg tablets (Medihealth (Northern) Ltd) 250 tablet
+^ESCT1434644	Sertraline 50mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCT1434645	Sertraline 100mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCT1435524	Sertraline 25mg tablets (DE Pharmaceuticals)
+^ESCT1435525	Sertraline 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTLU1012740	Lustral 100mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLU1024565	Lustral 100mg tablets (Lexon (UK) Ltd)
+^ESCTLU1024566	Lustral 100mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTLU1075384	Lustral 50mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTLU879142	Lustral 100mg tablets (Dowelhurst Ltd)
+^ESCTLU879143	Lustral 100mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLU879145	Lustral 50mg tablets (Dowelhurst Ltd)
+^ESCTLU879147	Lustral 50mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTLU880036	Lustral 50mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTLU919066	Lustral
+^ESCTLU932739	Lustral 50mg tablets (Waymade Healthcare Plc)
+^ESCTLU932740	Lustral 50mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLU934249	Lustral 100mg tablets (Waymade Healthcare Plc)
+^ESCTLU934250	Lustral 100mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTLU967158	Lustral 50mg tablets (DE Pharmaceuticals)
+^ESCTLU967159	Lustral 50mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTLU967160	Lustral 100mg tablets (DE Pharmaceuticals)
+^ESCTLU967161	Lustral 100mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTLU967163	Lustral 100mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTLU971523	Lustral 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLU971525	Lustral 100mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTLU989318	Lustral 50mg tablets (Lexon (UK) Ltd)
+^ESCTLU989319	Lustral 50mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTLU992676	Lustral 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLU992678	Lustral 100mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTLU993398	Lustral 100mg tablets (Stephar (U.K.) Ltd)
+^ESCTLU993400	Lustral 100mg tablets (Stephar (U.K.) Ltd) 14 tablet
+^ESCTSE682746	Sertraline hydrochloride
+^ESCTSE878303	Sertraline 50mg tablets (Waymade Healthcare Plc)
+^ESCTSE878304	Sertraline 50mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTSE878306	Sertraline 100mg tablets (Waymade Healthcare Plc)
+^ESCTSE878308	Sertraline 100mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTSE878605	Sertraline 50mg tablets (Dowelhurst Ltd)
+^ESCTSE878607	Sertraline 50mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTSE879008	Sertraline 100mg tablets (Dowelhurst Ltd)
+^ESCTSE879010	Sertraline 100mg tablets (Dowelhurst Ltd) 30 tablet
+COTA142359NEMIS	Contulen Tablets 50 mg
+COTA142360NEMIS	Contulen Tablets 100 mg
+SEOR143953NEMIS	Sertraline Hydrochloride Oral Solution, Sugar Free 100 mg/5 ml
+SETA143011NEMIS	Sertraline Hydrochloride Tablets 150 mg
+SETA143012NEMIS	Sertraline Hydrochloride Tablets 200 mg

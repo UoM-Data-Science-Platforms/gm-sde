@@ -1,0 +1,14 @@
+d44..11	DROPERIDOL
+d44z.00	*DROPERIDOL 10mg/2mL injection
+d44y.00	*DROPERIDOL 1mg/mL oral liquid
+d44x.00	*DROPERIDOL 10mg tablets
+d44w.00	DROPERIDOL 2.5mg/1mL solution for injection
+d444.00	XOMOLIX 2.5mg/1mL solution for injection
+d443.00	*DROLEPTAN 10mg/2mL injection
+d442.00	*DROLEPTAN 1mg/mL oral liquid
+d441.00	*DROLEPTAN 10mg tablets
+d44..00	DROPERIDOL [CENTRAL NERVOUS SYSTEM USE]
+o42w.00	FENTANYL + DROPERIDOL 100micrograms/5mg injection
+o54..00	*DROPERIDOL [ANAESTHESIA]
+o541.00	*DROLEPTAN 10mg injection
+o423.00	THALAMONAL 100micrograms injection

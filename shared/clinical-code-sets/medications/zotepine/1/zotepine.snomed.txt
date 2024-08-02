@@ -1,0 +1,32 @@
+321641006	Product containing zotepine (medicinal product)
+321642004	Product containing precisely zotepine 25 milligram/1 each conventional release oral tablet (clinical drug)
+321643009	Product containing precisely zotepine 50 milligram/1 each conventional release oral tablet (clinical drug)
+321644003	Product containing precisely zotepine 100 milligram/1 each conventional release oral tablet (clinical drug)
+767592007	Product containing zotepine in oral dose form (medicinal product form)
+777994003	Zotepine (product)
+780813001	Product containing only zotepine in oral dose form (medicinal product form)
+42281411000001108	Zotepine 100mg tablets (product)
+4124511000001108	Zoleptil 100 tablets (Orion Pharma (UK) Ltd) (product)
+42281511000001107	Zotepine 25mg tablets (product)
+3904811000001101	Zoleptil 25 tablets (Orion Pharma (UK) Ltd) (product)
+42281611000001106	Zotepine 50mg tablets (product)
+3905611000001104	Zoleptil 50 tablets (Orion Pharma (UK) Ltd) (product)
+3491801000001100	Zotepine 25mg tablet - product
+3491901000001106	Zotepine 50mg tablet - product
+3492001000001103	Zotepine 100mg tablet - product
+3905511000001103	Zotepine 50mg tablets 90 tablet (product)
+3905911000001105	Zoleptil 50 tablets (Orion Pharma (UK) Ltd) 90 tablet 9 x 10 tablets (product)
+3905411000001102	Zotepine 50mg tablets 30 tablet (product)
+3905711000001108	Zoleptil 50 tablets (Orion Pharma (UK) Ltd) 30 tablet 3 x 10 tablets (product)
+3904711000001109	Zotepine 25mg tablets 90 tablet (product)
+3905211000001101	Zoleptil 25 tablets (Orion Pharma (UK) Ltd) 90 tablet 9 x 10 tablets (product)
+3904611000001100	Zotepine 25mg tablets 30 tablet (product)
+3905011000001106	Zoleptil 25 tablets (Orion Pharma (UK) Ltd) 30 tablet 3 x 10 tablets (product)
+4124311000001102	Zotepine 100mg tablets 90 tablet (product)
+4124911000001101	Zoleptil 100 tablets (Orion Pharma (UK) Ltd) 90 tablet 9 x 10 tablets (product)
+4124211000001105	Zotepine 100mg tablets 30 tablet (product)
+4124711000001103	Zoleptil 100 tablets (Orion Pharma (UK) Ltd) 30 tablet 3 x 10 tablets (product)
+3492101000001102	Zoleptil 25mg tablet
+3492201000001109	Zoleptil 50mg tablet
+3492301000001100	Zoleptil 100mg tablet
+9401601000001103	Zoleptil (product)

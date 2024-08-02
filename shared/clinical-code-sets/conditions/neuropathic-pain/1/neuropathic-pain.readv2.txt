@@ -1,0 +1,189 @@
+1475	h/o: trigeminal neuralgia
+1DC1.00	burning pain
+1DC9.00	shooting pain
+1M4..00	central post-stroke pain
+1M8..00	diabetic peripheral neuropathic pain
+A531.11	post-herpetic neuralgia
+A531200	postherpetic trigeminal neuralgia
+A531300	postherpetic polyneuropathy
+A531500	postzoster neuralgia
+A531511	postherpetic neuralgia
+A72x100	mumps polyneuropathy
+C106.12	diabetes mellitus with neuropathy
+C106.13	diabetes mellitus with polyneuropathy
+C108B00	insulin dependent diabetes mellitus with mononeuropathy
+C108B11	type i diabetes mellitus with mononeuropathy
+C108C00	insulin dependent diabetes mellitus with polyneuropathy
+C108J00	insulin dependent diab mell with neuropathic arthropathy
+C108J11	type i diabetes mellitus with neuropathic arthropathy
+C108J12	type 1 diabetes mellitus with neuropathic arthropathy
+C109A00	non-insulin dependent diabetes mellitus with mononeuropathy
+C109A11	type ii diabetes mellitus with mononeuropathy
+C109B00	non-insulin dependent diabetes mellitus with polyneuropathy
+C109B11	type ii diabetes mellitus with polyneuropathy
+C109B12	type 2 diabetes mellitus with polyneuropathy
+C109H00	non-insulin dependent d m with neuropathic arthropathy
+C109H11	type ii diabetes mellitus with neuropathic arthropathy
+C109H12	type 2 diabetes mellitus with neuropathic arthropathy
+C10EB00	type 1 diabetes mellitus with mononeuropathy
+C10EC00	type 1 diabetes mellitus with polyneuropathy
+C10EC11	type i diabetes mellitus with polyneuropathy
+C10EC12	insulin dependent diabetes mellitus with polyneuropathy
+C10EJ00	type 1 diabetes mellitus with neuropathic arthropathy
+C10FA00	type 2 diabetes mellitus with mononeuropathy
+C10FA11	type ii diabetes mellitus with mononeuropathy
+C10FB00	type 2 diabetes mellitus with polyneuropathy
+C10FB11	type ii diabetes mellitus with polyneuropathy
+C10FH00	type 2 diabetes mellitus with neuropathic arthropathy
+C10FH11	type ii diabetes mellitus with neuropathic arthropathy
+C373200	familial neuropathic amyloid
+C373K13	familial amyloid polyneuropathy type iii
+F170.00	idiopathic peripheral autonomic neuropathy
+F170z00	idiopathic peripheral autonomic neuropathy nos
+F171.00	peripheral autonomic neuropathy disease ec
+F171000	autonomic neuropathy due to amyloid
+F171100	autonomic neuropathy due to diabetes
+F171z00	peripheral autonomic neuropathy due to disease nos
+F262100	horton's (histamine) neuralgia
+F262500	periodic migrainous neuralgia
+F262C00	shortlast unilat neuralgifrm pain+conjunc inject+tearng synd
+F300.00	post-herpetic trigeminal neuralgia
+F301.00	other specified trigeminal neuralgia
+F301000	tic douloureux
+F301z00	trigeminal neuralgia nos
+F321.00	glossopharyngeal neuralgia
+F335.00	neuralgic amyotrophy
+F336000	phantom limb syndrome with pain
+F342400	ulnar neuropathy
+F347.00	complex regional pain syndrome type ii
+F351.00	meralgia paraesthetica
+F356100	morton's neuralgia
+F36..00	hereditary and idiopathic peripheral neuropathy
+F360.00	hereditary peripheral neuropathy
+F360z00	hereditary peripheral neuropathy nos
+F362.00	hereditary sensory neuropathy
+F364.00	idiopathic progressive polyneuropathy
+F365.00	neuropathy in association with hereditary ataxia
+F366.00	polyneuropathy
+F367.00	peripheral neuropathy
+F368.00	hereditary motor and sensory neuropathy
+F368000	hereditary motor and sensory neuropathy type i
+F368100	hereditary motor and sensory neuropathy type ii
+F368200	hereditary motor and sensory neuropathy type iii
+F369.00	complex regional pain syndrome
+F369.11	chronic regional pain syndrome
+F36y.00	other idiopathic peripheral neuropathy
+F36yz00	other idiopathic peripheral neuropathy nos
+F36z.00	hereditary or idiopathic peripheral neuropathy nos
+F37..00	inflammatory and toxic neuropathy
+F371.00	polyneuropathy in collagen vascular disease
+F371000	polyneuropathy in disseminated lupus erythematosus
+F37..11	toxic neuropathy
+F371100	polyneuropathy in polyarteritis nodosa
+F371z00	polyneuropathy in collagen vascular disease nos
+F372.00	polyneuropathy in diabetes
+F372000	acute painful diabetic neuropathy
+F372100	chronic painful diabetic neuropathy
+F372.11	diabetic polyneuropathy
+F372.12	diabetic neuropathy
+F373.00	polyneuropathy in malignant disease
+F374000	polyneuropathy in amyloidosis
+F374100	polyneuropathy in beriberi
+F374200	polyneuropathy in vitamin b deficiency
+F374300	polyneuropathy in diphtheria
+F374400	polyneuropathy in herpes zoster
+F374500	polyneuropathy in hypoglycaemia
+F374600	polyneuropathy in mumps
+F374800	polyneuropathy in porphyria
+F374900	polyneuropathy in sarcoidosis
+F374A00	polyneuropathy in uraemia
+F375.00	alcoholic polyneuropathy
+F376.00	polyneuropathy due to drugs
+F377.00	other toxic agent polyneuropathy
+F37y.00	other toxic or inflammatory neuropathy
+F3y0.00	diabetic mononeuropathy
+Fyu1300	[x]paraneoplastic neuromyopathy and neuropathy
+Fyu6A00	[x]other mononeuropathies of upper limb
+Fyu6B00	[x]other mononeuropathies of lower limb
+Fyu6C00	[x]other specified mononeuropathies
+Fyu6D00	[x]other mononeuropathies in diseases classified elsewhere
+Fyu7.00	[x]polyneuropathies & other disord of peripheral nerv syst
+Fyu7000	[x]other hereditary and idiopathic neuropathies
+Fyu7200	[x]other specified polyneuropathies
+Fyu7500	[x]polyneuropathy/other endocrine+metabolic diseases ce
+Fyu7800	[x]polyneuropathy/other musculoskeletal disorders ce
+FyuAC00	[x]autonomic neuropathy/endocrine+metabolic diseases ce
+M271100	neuropathic diabetic ulcer - foot
+M271700	neuropathic foot ulcer
+M2y1500	painful operation scar
+N035.00	neuropathic arthropathy
+N035.12	neuropathic arthritis
+N119.00	cervical spondylosis with radiculopathy
+N119000	single-level cervical spondylosis with radiculopathy
+N119100	two-level cervical spondylosis with radiculopathy
+N119200	multiple-level cervical spondylosis with radiculopathy
+N11B.00	thoracic spondylosis with radiculopathy
+N11B000	single-level thoracic spondylosis with radiculopathy
+N11B100	two-level thoracic spondylosis with radiculopathy
+N11B200	multiple-level thoracic spondylosis with radiculopathy
+N11C.00	lumbosacral spondylosis with radiculopathy
+N11C000	single-level lumbosacral spondylosis with radiculopathy
+N11C100	two-level lumbosacral spondylosis with radiculopathy
+N11C200	multiple-level lumbosacral spondylosis with radiculopathy
+N11y200	neuropathic spondylopathy
+N12C.00	disc prolapse with radiculopathy
+N12C000	cervical disc prolapse with radiculopathy
+N12C100	thoracic disc prolapse with radiculopathy
+N12C200	lumbar disc prolapse with radiculopathy
+N12C400	prolapsed lumbar intervertebral disc with sciatica
+N12zH00	cervical disc disorder with radiculopathy
+N142000	lumbago with sciatica
+N143.00	sciatica
+N143.11	acute back pain with sciatica
+N242.00	neuralgia; neuritis and radiculitis unspecified
+N242000	neuralgia unspecified
+N242300	neuropathic pain
+N242z00	neuralgia; neuritis or radiculitis nos
+N337111	reflex sympathetic dystrophy
+N337.12	reflex sympathetic dystrophy
+N33C.00	complex regional pain syndrome type i
+Nyu6300	[x]other spondylosis with radiculopathy
+SD72200	neuropathic foot blister
+SP07300	internal prosthetic device causing pain
+SP07A00	pain due to hip joint prosthesis
+SP07B00	pain due to knee joint prosthesis
+SP07C00	pain due to shoulder joint prosthesis
+SyuKE11	[x] pain due to internal orthopaedic prosthesis
+B7Fy1	Morton neuroma
+F17..	Autonomic nervous system disorders
+F2620	Cluster headache
+F3...	Peripheral nervous system disorders
+F344.	Causalgia
+F34z.	Mononeuritis upper limb NOS
+F35..	Mononeuritis lower limb
+F3560	Morton's metatarsalgia
+F35x.	Other mononeuritis lower limb
+F35y.	Unspecified mononeuritis lower limb
+F3600	Dejerine-Sottas disease
+F361.	Peroneal muscular atrophy
+F3610	Charcot-Marie-Tooth disease
+F361z	Peroneal muscular atrophy NOS
+F3y..	Other specified disorders of peripheral nervous system
+F3z..	Peripheral nervous system disorder NOS
+Fyu66	[X]Nerve root and plexus compressions in neoplastic disease classified elsewhere
+Fyu68	[X]Nerve root and plexus compressions in other diseases classified elsewhere
+Fyu74	[X]Polyneuropathy in neoplastic disease classified elsewhere
+Fyu77	[X]Polyneuropathy in systemic connective tissue disorders classified elsewhere
+Fyu79	[X]Polyneuropathy in other diseases classified elsewhere
+Fyu7A	[X]Other disorders of the peripheral nervous system
+Fyu7C	[X] Polyneuropathy, unspecified
+FyuA0	[X]Other disorders of the autonomic nervous system
+FyuAD	[X]Other disorders of the autonomic nervous system in other diseases classified elsewhere
+KyuA0	[X]Other postprocedural disorders of the genitourinary system
+N0301	Diabetic Charcot arthropathy
+N11D.	Osteoarthritis of spine
+N11D3	Osteoarthritis of spine NOS
+N11y.	Other spondyloses and allied disorders
+N11z.	Spondylosis NOS
+N11zz	Spondylosis NOS
+N2172	Metatarsalgia NOS

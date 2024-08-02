@@ -3,9 +3,12 @@
 --│ Find the closest value to a particular date   │
 --└───────────────────────────────────────────────┘
 
--- OBJECTIVE: To find the first diagnosis for a particular disease for every patient.
+-- OBJECTIVE: To find the closest value for a particular test to a given date.
 
 -- INPUT: A variable:
+--  - min-value: number - the smallest permitted value. Values lower than this will be disregarded.
+--  - max-value: number - the largest permitted value. Values higher than this will be disregarded.
+--  - unit: string - if a particular unit is required can enter it here. If any then use '%'
 --  - date: date - (YYYY-MM-DD) the date to look around
 --  - comparison: inequality sign (>, <, >= or <=) e.g. if '>' then will look for the first value strictly after the date
 --	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
@@ -41,6 +44,10 @@ WHERE SuppliedCode IN (SELECT code FROM #AllCodes WHERE Concept = '{param:code-s
 AND EventDate {param:comparison} '{param:date}'
 AND [Value] IS NOT NULL
 AND [Value] != '0'
+AND Units LIKE '{param:unit}'
+-- as these are all tests, we can ignore values values outside the specified range
+AND TRY_CONVERT(DECIMAL(10,3), [Value]) >= {param:min-value}
+AND TRY_CONVERT(DECIMAL(10,3), [Value]) <= {param:max-value}
 GROUP BY FK_Patient_Link_ID;
 
 -- Then we join to that table in order to get the value of that measurement

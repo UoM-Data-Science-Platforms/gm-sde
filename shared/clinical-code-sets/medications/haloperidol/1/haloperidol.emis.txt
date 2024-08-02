@@ -54,3 +54,526 @@ HATA1347	Haloperidol  Tablets  5 mg
 HATAEGTON6703	Haldol  Tablets  10 mg
 SECA2552	Serenace  Capsules  500 micrograms
 SETA2556	Serenace  Tablets  1.5 mg
+^ESCT1178158	Product containing only haloperidol 5 mg/1 each oral tablet
+^ESCT1178159	Product containing only haloperidol 10 mg/1 each oral tablet
+^ESCT1178160	Product containing only haloperidol 20 mg/1 each oral tablet
+^ESCT1181078	Product containing only haloperidol 1.5 mg/1 each oral tablet
+^ESCT1181372	Product containing only haloperidol 0.5 milligram/1 each oral tablet
+^ESCT1181732	Product containing only haloperidol 1 mg/1 each oral tablet
+^ESCT1181823	Product containing only haloperidol 2 mg/1 each oral tablet
+^ESCT1187273	Product containing only haloperidol 0.5 milligram/1 each oral capsule
+^ESCT1204509	Haloperidol 1.5mg/5mL conventional release oral solution
+^ESCT1204510	Haloperidol 1mg/5mL conventional release oral solution
+^ESCT1204511	Haloperidol 2mg/5mL conventional release oral solution
+^ESCT1209515	Haloperidol (as haloperidol decanoate) 100 mg/mL oil for injection ampoule
+^ESCT1209516	Product containing precisely haloperidol (as haloperidol decanoate) 100 milligram/1 milliliter prolonged-release oil for injection ampule
+^ESCT1209517	Haloperidol (as haloperidol decanoate) 100 mg/mL oil for injection ampule
+^ESCT1209518	Haloperidol 20 mg/2 mL solution for injection ampoule
+^ESCT1209519	Product containing precisely haloperidol 20 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1209520	Haloperidol 20 mg/2 mL solution for injection ampule
+^ESCT1210353	Haloperidol (as haloperidol decanoate) 50 mg/mL oil for injection ampoule
+^ESCT1210354	Product containing precisely haloperidol (as haloperidol decanoate) 50 milligram/1 milliliter prolonged-release oil for injection ampule
+^ESCT1210355	Haloperidol (as haloperidol decanoate) 50 mg/mL oil for injection ampule
+^ESCT1210356	Haloperidol 5 mg/mL solution for injection ampoule
+^ESCT1210357	Haloperidol 5 mg/mL solution for injection ampule
+^ESCT1210358	Product containing precisely haloperidol 5 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1212491	Halkid
+^ESCT1213546	Haloperidol 200micrograms/ml oral solution sugar free 100 ml
+^ESCT1213547	Halkid 200micrograms/ml oral solution (Thame Laboratories Ltd)
+^ESCT1213548	Halkid 200micrograms/ml oral solution (Thame Laboratories Ltd) 100 ml
+^ESCT1215628	Haloperidol 20mg/2ml solution for injection ampoules
+^ESCT1215629	Haloperidol 5mg/1ml solution for injection ampoules
+^ESCT1215630	Haloperidol decanoate 100mg/1ml solution for injection ampoules
+^ESCT1215631	Haloperidol decanoate 50mg/1ml solution for injection ampoules
+^ESCT1216896	Haloperidol
+^ESCT1216897	Haloperidol product
+^ESCT1223404	Product containing precisely haloperidol 1.5 milligram/1 each conventional release oral tablet
+^ESCT1223405	Product containing precisely haloperidol 5 milligram/1 each conventional release oral tablet
+^ESCT1223406	Product containing precisely haloperidol 10 milligram/1 each conventional release oral tablet
+^ESCT1223407	Product containing precisely haloperidol 20 milligram/1 each conventional release oral tablet
+^ESCT1223408	Product containing precisely haloperidol 2 milligram/1 milliliter conventional release oral solution
+^ESCT1223409	Haloperidol 2 mg/mL oral solution
+^ESCT1223410	Product containing precisely haloperidol 500 microgram/1 each conventional release oral capsule
+^ESCT1223411	Haloperidol 500 microgram oral capsule
+^ESCT1223412	Haloperidol 1 mg/mL oral solution
+^ESCT1223413	Product containing precisely haloperidol 1 milligram/1 milliliter conventional release oral solution
+^ESCT1223414	Haloperidol 500 microgram oral tablet
+^ESCT1223415	Product containing precisely haloperidol 500 microgram/1 each conventional release oral tablet
+^ESCT1223497	Haloperidol decanoate
+^ESCT1223498	Product containing haloperidol decanoate
+^ESCT1223499	Haloperidol decanoate product
+^ESCT1228032	Product containing precisely haloperidol 1 milligram/1 each conventional release oral tablet
+^ESCT1228342	Product containing precisely haloperidol 2 milligram/1 each conventional release oral tablet
+^ESCT1237192	Haldol Decanoate 50mg/1ml solution for injection ampoules (Janssen-Cilag Ltd)
+^ESCT1237193	Haldol Decanoate 50mg/1ml solution for injection ampoules (Janssen-Cilag Ltd) 5 ampoule
+^ESCT1237194	Haldol Decanoate 100mg/1ml solution for injection ampoules (Janssen-Cilag Ltd)
+^ESCT1237195	Haldol Decanoate 100mg/1ml solution for injection ampoules (Janssen-Cilag Ltd) 5 ampoule
+^ESCT1237296	Haldol Decanoate
+^ESCT1250434	Haloperidol 5mg/1ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250436	Haloperidol 5mg/1ml solution for injection ampoules (Advanz Pharma) 10 ampoule
+^ESCT1274960	Haloperidol 5mg/1ml solution for injection ampoules (CST Pharma Ltd)
+^ESCT1274961	Haloperidol 5mg/1ml solution for injection ampoules (CST Pharma Ltd) 10 ampoule
+^ESCT1279359	Haloperidol 5mg/1ml solution for injection ampoules (Dawa Ltd)
+^ESCT1279360	Haloperidol 5mg/1ml solution for injection ampoules (Dawa Ltd) 10 ampoule
+^ESCT1279361	Haloperidol 5mg/1ml solution for injection ampoules (Dawa Ltd) 5 ampoule
+^ESCT1355262	Haloperidol only product
+^ESCT1358739	Haloperidol only product in oral dose form
+^ESCT1358740	Haloperidol only product in parenteral dose form
+^ESCT1361085	Haloperidol 10 mg/mL solution for injection
+^ESCT1361086	Haloperidol 5 mg/mL solution for injection
+^ESCT1361087	Haloperidol (as haloperidol decanoate) 50 mg/mL oil for injection
+^ESCT1361088	Haloperidol (as haloperidol decanoate) 100 mg/mL oil for injection
+^ESCT1370605	Haloperidol decanoate
+^ESCT1376039	Haloperidol 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376040	Haloperidol 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1376043	Haloperidol 10mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1376044	Haloperidol 10mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 100 ml
+^ESCT1376045	Haloperidol 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376046	Haloperidol 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1376047	Haloperidol 500microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1376048	Haloperidol 500microgram tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1376065	Haloperidol 1.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376066	Haloperidol 1.5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1381302	Haloperidol-containing product in oral dose form
+^ESCT1381303	Haloperidol-containing product in parenteral dose form
+^ESCT1385916	Haloperidol 300 microgram/mL oral solution
+^ESCT1385917	Haloperidol 200 microgram/mL oral solution
+^ESCT1385918	Haloperidol 400 microgram/mL oral solution
+^ESCT1403002	Haloperidol 5mg/5ml oral solution sugar free 1 ml
+^ESCT1403003	Haloperidol 5mg/5ml oral solution sugar free (Special Order)
+^ESCT1403004	Haloperidol 5mg/5ml oral solution sugar free (Special Order) 1 ml
+^ESCT1425490	Haloperidol 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425736	Haloperidol 1.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425764	Haloperidol 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425824	Haloperidol 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425864	Haloperidol 500microgram tablets (Kent Pharma (UK) Ltd)
+^ESCT1426404	Haloperidol 500microgram tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426405	Haloperidol 1.5mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426406	Haloperidol 5mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426407	Haloperidol 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426408	Haloperidol 20mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1434563	Haloperidol 5mg/1ml solution for injection ampoules (Medihealth (Northern) Ltd)
+^ESCT1434564	Haloperidol 5mg/1ml solution for injection ampoules (Medihealth (Northern) Ltd) 10 ampoule
+^ESCTDO817681	Dozic 5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTDO855815	Dozic 5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 100 ml
+^ESCTDO855818	Dozic 5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 500 ml
+^ESCTDO914905	Dozic
+^ESCTHA1002024	Haldol 5mg/1ml solution for injection ampoules (Mawdsley-Brooks & Company Ltd)
+^ESCTHA1002025	Haldol 5mg/1ml solution for injection ampoules (Mawdsley-Brooks & Company Ltd) 5 ampoule
+^ESCTHA1021412	Haloperidol 1mg/5ml oral solution 200 ml
+^ESCTHA1021414	Haloperidol 1mg/5ml oral solution (Special Order) 200 ml
+^ESCTHA1021416	Haloperidol 1mg/5ml oral suspension 100 ml
+^ESCTHA1021418	Haloperidol 1mg/5ml oral suspension (Special Order) 100 ml
+^ESCTHA1036748	Haloperidol 5mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTHA1036749	Haloperidol 5mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 100 ml
+^ESCTHA1036750	Haloperidol 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 500 ml
+^ESCTHA1038270	Haloperidol 5mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTHA1038271	Haloperidol 5mg/5ml oral solution sugar free (Ennogen Healthcare Ltd) 100 ml
+^ESCTHA1038630	Haloperidol 10mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTHA1038631	Haloperidol 10mg/5ml oral solution sugar free (Ennogen Healthcare Ltd) 100 ml
+^ESCTHA1041732	Haloperidol 10mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd)
+^ESCTHA1041734	Haloperidol 10mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd) 500 ml
+^ESCTHA1041738	Haloperidol 10mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd) 100 ml
+^ESCTHA1042212	Haloperidol 5mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd)
+^ESCTHA1042213	Haloperidol 5mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd) 100 ml
+^ESCTHA1043773	Haloperidol 5mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTHA1043774	Haloperidol 5mg/5ml oral solution sugar free (Waymade Healthcare Plc) 100 ml
+^ESCTHA1043775	Haloperidol 10mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTHA1043776	Haloperidol 10mg/5ml oral solution sugar free (Waymade Healthcare Plc) 100 ml
+^ESCTHA1043777	Haloperidol 1.5mg tablets (Waymade Healthcare Plc)
+^ESCTHA1043778	Haloperidol 1.5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTHA1043888	Haloperidol 10mg tablets (Waymade Healthcare Plc)
+^ESCTHA1043889	Haloperidol 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTHA1063551	Haloperidol 5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTHA1063552	Haloperidol 5mg/5ml oral solution sugar free (DE Pharmaceuticals) 100 ml
+^ESCTHA1063556	Haloperidol 1.5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTHA1063559	Haloperidol 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTHA1063562	Haloperidol 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTHA1075076	Haloperidol 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTHA1075077	Haloperidol 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 100 ml
+^ESCTHA1075079	Haloperidol 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTHA1075080	Haloperidol 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 100 ml
+^ESCTHA1109051	Haloperidol 5mg tablets (Crescent Pharma Ltd)
+^ESCTHA1109052	Haloperidol 5mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA1109053	Haloperidol 10mg tablets (Crescent Pharma Ltd)
+^ESCTHA1109055	Haloperidol 10mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA1109059	Haloperidol 1.5mg tablets (Crescent Pharma Ltd)
+^ESCTHA1109060	Haloperidol 1.5mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA1109715	Haloperidol 500microgram tablets (Crescent Pharma Ltd)
+^ESCTHA1109716	Haloperidol 500microgram tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA1117806	Haloperidol 1.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHA1117807	Haloperidol 1.5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTHA1117808	Haloperidol 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHA1117809	Haloperidol 5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTHA1119405	Haloperidol 10mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTHA1119406	Haloperidol 10mg/5ml oral solution sugar free (DE Pharmaceuticals) 100 ml
+^ESCTHA1120790	Haloperidol 1.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTHA1120792	Haloperidol 1.5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTHA1120793	Haloperidol 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTHA1120794	Haloperidol 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTHA1120795	Haloperidol 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTHA1120796	Haloperidol 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTHA1126462	Haloperidol 200micrograms/ml oral solution sugar free 1 ml
+^ESCTHA1126463	Haloperidol 1mg/5ml oral solution sugar free (Special Order)
+^ESCTHA1126464	Haloperidol 1mg/5ml oral solution sugar free (Special Order) 1 ml
+^ESCTHA1126502	Haloperidol 200micrograms/ml oral solution sugar free
+^ESCTHA1128303	Haloperidol 5mg/1ml solution for injection ampoules (Special Order)
+^ESCTHA1128304	Haloperidol 5mg/1ml solution for injection ampoules 1 ampoule
+^ESCTHA1128305	Haloperidol 5mg/1ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTHA1159019	Haloperidol 5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTHA1159020	Haloperidol 5mg/5ml oral solution sugar free (Thame Laboratories Ltd) 100 ml
+^ESCTHA1159021	Haloperidol 200micrograms/ml oral solution sugar free 200 ml
+^ESCTHA1159022	Haloperidol 200micrograms/ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTHA1159023	Haloperidol 200micrograms/ml oral solution sugar free (Thame Laboratories Ltd) 200 ml
+^ESCTHA267114	Haloperidol
+^ESCTHA609253	Haloperidol 1.5mg tablets
+^ESCTHA609255	Haloperidol 1.5 mg oral tablet
+^ESCTHA609256	Haloperidol 5mg tablets
+^ESCTHA609258	Haloperidol 5 mg oral tablet
+^ESCTHA609259	Haloperidol 10mg tablets
+^ESCTHA609261	Haloperidol 10 mg oral tablet
+^ESCTHA609262	Haloperidol 20mg tablets
+^ESCTHA609264	Haloperidol 20 mg oral tablet
+^ESCTHA609265	Haloperidol 10mg/5ml oral solution sugar free
+^ESCTHA609266	Haloperidol 2mg/mL oral solution
+^ESCTHA609267	Haloperidol 2mg/5mL s/f oral solution
+^ESCTHA609268	Haloperidol 1mg/5mL s/f oral solution
+^ESCTHA609269	Haloperidol 500microgram capsules
+^ESCTHA609270	Haloperidol 0.5 mg oral capsule
+^ESCTHA609272	Haloperidol 5mg/5ml oral solution sugar free
+^ESCTHA609273	Haloperidol 1mg/mL oral solution
+^ESCTHA609274	Haloperidol 500microgram tablets
+^ESCTHA609275	Haloperidol 0.5 mg oral tablet
+^ESCTHA609277	Haloperidol 5mg/1ml solution for injection ampoules
+^ESCTHA609278	Haloperidol 5mg/1mL injection
+^ESCTHA609279	Haloperidol 20mg/2ml solution for injection ampoules
+^ESCTHA609280	Haloperidol 20mg/2mL injection
+^ESCTHA609281	Haloperidol 10mg/mL injection solution 2mL ampoule
+^ESCTHA609282	Haloperidol 10mg/mL injection solution 2mL ampule
+^ESCTHA609283	Haloperidol 1.5mg/5mL s/f oral solution
+^ESCTHA609540	Haloperidol decanoate
+^ESCTHA609541	Haloperidol decanoate 50mg/1ml solution for injection ampoules
+^ESCTHA609542	Haloperidol 50mg/1mL oily injection
+^ESCTHA609543	Haloperidol decanoate 100mg/1ml solution for injection ampoules
+^ESCTHA609544	Haloperidol 100mg/1mL oily injection
+^ESCTHA618952	Haloperidol in oral dosage form
+^ESCTHA618954	Haloperidol in parenteral dosage form
+^ESCTHA639470	Haloperidol 1 mg oral tablet
+^ESCTHA639775	Haloperidol decanoate 50mg/mL injection solution ampoule
+^ESCTHA639776	Haloperidol decanoate 50mg/mL injection
+^ESCTHA639777	Haloperidol decanoate 50mg/mL injection solution ampule
+^ESCTHA640363	Haloperidol 2 mg oral tablet
+^ESCTHA643096	Haloperidol 100mg injection solution ampoule
+^ESCTHA643097	Haloperidol 100mg injection solution ampule
+^ESCTHA643098	Haloperidol 5mg injection solution ampoule
+^ESCTHA643099	Haloperidol 5mg injection solution ampule
+^ESCTHA801055	Haloperidol 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTHA801367	Haloperidol 500microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTHA801432	Haloperidol 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTHA801683	Haloperidol 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTHA801847	Haloperidol 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTHA802849	Haloperidol 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTHA803703	Haldol 2mg/ml oral solution (Janssen-Cilag Ltd)
+^ESCTHA804761	Haldol 5mg tablets (Janssen-Cilag Ltd)
+^ESCTHA808210	Haldol 10mg tablets (Janssen-Cilag Ltd)
+^ESCTHA808577	Haloperidol 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTHA808741	Haloperidol 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTHA811442	Haloperidol 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTHA814478	Haloperidol 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTHA815734	Haloperidol 1.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTHA818094	Haloperidol 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTHA819026	Haloperidol 5mg tablets (Teva UK Ltd)
+^ESCTHA819837	Haloperidol 500microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTHA819933	Haloperidol 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTHA820043	Haloperidol 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTHA820060	Haloperidol 1.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTHA820092	Haloperidol 1.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTHA820612	Haloperidol 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTHA821680	Haloperidol 10mg tablets (Teva UK Ltd)
+^ESCTHA822981	Haloperidol 500microgram tablets (Sandoz Ltd)
+^ESCTHA823443	Haloperidol 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTHA823730	Haloperidol 1.5mg tablets (Teva UK Ltd)
+^ESCTHA826139	Haloperidol 20mg tablets (Teva UK Ltd)
+^ESCTHA827595	Haloperidol 500microgram tablets (Kent Pharmaceuticals Ltd)
+^ESCTHA830731	Haloperidol 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTHA830935	Haloperidol 1.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTHA834970	Haloperidol 500microgram capsules 30 capsule
+^ESCTHA835318	Haloperidol 5mg tablets 100 tablet
+^ESCTHA836044	Haloperidol 5mg tablets 30 tablet
+^ESCTHA840865	Haloperidol 1.5mg tablets 28 tablet
+^ESCTHA841417	Haloperidol 10mg tablets 30 tablet
+^ESCTHA843777	Haloperidol 10mg tablets 28 tablet
+^ESCTHA844739	Haloperidol 5mg tablets 28 tablet
+^ESCTHA845944	Haloperidol 20mg tablets 50 tablet
+^ESCTHA846861	Haloperidol 5mg tablets 250 tablet
+^ESCTHA847338	Haloperidol 1.5mg tablets 100 tablet
+^ESCTHA847494	Haloperidol 500microgram tablets 28 tablet
+^ESCTHA847499	Haloperidol 1.5mg tablets 30 tablet
+^ESCTHA847598	Haloperidol 20mg tablets 30 tablet
+^ESCTHA848055	Haloperidol 5mg/5ml oral solution sugar free 500 ml
+^ESCTHA848139	Haloperidol 1.5mg tablets 1000 tablet
+^ESCTHA848309	Haloperidol 20mg tablets 28 tablet
+^ESCTHA848378	Haloperidol 10mg/5ml oral solution sugar free 100 ml
+^ESCTHA848503	Haloperidol 10mg tablets 100 tablet
+^ESCTHA848574	Haloperidol 10mg/5ml oral solution sugar free 500 ml
+^ESCTHA848657	Haloperidol 5mg/5ml oral solution sugar free 100 ml
+^ESCTHA855665	Haloperidol 500microgram tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA855666	Haloperidol 500microgram tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTHA855667	Haloperidol 500microgram tablets (Sandoz Ltd) 28 tablet
+^ESCTHA855668	Haloperidol 500microgram tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA855669	Haloperidol 1.5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA855670	Haloperidol 1.5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTHA855671	Haloperidol 1.5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA855674	Haloperidol 1.5mg tablets (IVAX Pharmaceuticals UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTHA855675	Haloperidol 1.5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTHA855676	Haloperidol 1.5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTHA855677	Haloperidol 1.5mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTHA855678	Haloperidol 5mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTHA855679	Haloperidol 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA855680	Haloperidol 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTHA855681	Haloperidol 5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA855683	Haloperidol 5mg tablets (IVAX Pharmaceuticals UK Ltd) 30 tablet
+^ESCTHA855684	Haloperidol 5mg tablets (IVAX Pharmaceuticals UK Ltd) 100 tablet
+^ESCTHA855685	Haldol 5mg tablets (Janssen-Cilag Ltd) 100 tablet
+^ESCTHA855686	Haloperidol 5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTHA855687	Haloperidol 5mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCTHA855688	Haloperidol 5mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTHA855689	Haloperidol 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTHA855690	Haloperidol 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA855691	Haloperidol 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTHA855692	Haloperidol 10mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA855693	Haloperidol 10mg tablets (IVAX Pharmaceuticals UK Ltd) 30 tablet
+^ESCTHA855695	Haldol 10mg tablets (Janssen-Cilag Ltd) 100 tablet
+^ESCTHA855696	Haloperidol 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTHA855697	Haloperidol 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTHA855698	Haloperidol 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA855699	Haloperidol 20mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTHA855701	Haloperidol 20mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTHA855704	Haloperidol 20mg tablets (IVAX Pharmaceuticals UK Ltd) 30 tablet
+^ESCTHA855706	Haloperidol 20mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTHA855708	Haloperidol 20mg tablets (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTHA855710	Haloperidol 20mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTHA855788	Haloperidol 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTHA855791	Haloperidol 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 500 ml
+^ESCTHA855793	Haldol 2mg/ml oral solution (Janssen-Cilag Ltd) 100 ml
+^ESCTHA855801	Haloperidol 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTHA855811	Haloperidol 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTHA855813	Haloperidol 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 500 ml
+^ESCTHA860385	Haloperidol 5mg/1ml solution for injection ampoules 5 ampoule
+^ESCTHA860387	Haloperidol 5mg/1ml solution for injection ampoules 10 ampoule
+^ESCTHA860390	Haloperidol 5mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTHA860391	Haloperidol 5mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTHA860404	Haldol 5mg/1ml solution for injection ampoules (Janssen-Cilag Ltd)
+^ESCTHA860407	Haldol 5mg/1ml solution for injection ampoules (Janssen-Cilag Ltd) 5 ampoule
+^ESCTHA860408	Haloperidol 5mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTHA860410	Haloperidol 5mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTHA863594	Haloperidol 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 500 ml
+^ESCTHA863971	Haloperidol decanoate 50mg/1ml solution for injection ampoules 5 ampoule
+^ESCTHA863973	Haldol decanoate 50mg/1ml solution for injection ampoules (Janssen-Cilag Ltd)
+^ESCTHA863977	Haldol decanoate 50mg/1ml solution for injection ampoules (Janssen-Cilag Ltd) 5 ampoule
+^ESCTHA863978	Haloperidol decanoate 100mg/1ml solution for injection ampoules 5 ampoule
+^ESCTHA863980	Haldol decanoate 100mg/1ml solution for injection ampoules (Janssen-Cilag Ltd)
+^ESCTHA863981	Haldol decanoate 100mg/1ml solution for injection ampoules (Janssen-Cilag Ltd) 5 ampoule
+^ESCTHA865624	Haloperidol 20mg/2ml solution for injection ampoules 10 ampoule
+^ESCTHA875583	Haloperidol 10mg tablets 50 tablet
+^ESCTHA896832	Haloperidol 20mg tablets (Sandoz Ltd)
+^ESCTHA896833	Haloperidol 20mg tablets (Sandoz Ltd) 28 tablet
+^ESCTHA898105	Haloperidol 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTHA898106	Haloperidol 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTHA906216	Haloperidol 1.5mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTHA906221	Haloperidol 5mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTHA906225	Haloperidol 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTHA906962	Haloperidol 1mg/5ml oral solution 1 ml
+^ESCTHA906964	Haloperidol 1mg/5ml oral solution (Special Order)
+^ESCTHA906965	Haloperidol 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTHA906966	Haloperidol 1mg/5ml oral suspension 1 ml
+^ESCTHA906967	Haloperidol 1mg/5ml oral suspension (Special Order)
+^ESCTHA906968	Haloperidol 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHA906972	Haloperidol 2mg/5ml oral solution 1 ml
+^ESCTHA906973	Haloperidol 2mg/5ml oral solution (Special Order)
+^ESCTHA906974	Haloperidol 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTHA906975	Haloperidol 500micrograms/5ml oral solution 1 ml
+^ESCTHA906976	Haloperidol 500micrograms/5ml oral solution (Special Order)
+^ESCTHA906977	Haloperidol 2mg/5ml oral suspension 1 ml
+^ESCTHA906978	Haloperidol 2mg/5ml oral suspension (Special Order)
+^ESCTHA906979	Haloperidol 500micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHA906980	Haloperidol 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHA906981	Haloperidol 500micrograms/5ml oral suspension 1 ml
+^ESCTHA906991	Haloperidol 500micrograms/5ml oral suspension (Special Order)
+^ESCTHA906992	Haloperidol 500micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTHA907133	Haloperidol 1mg/5ml oral solution
+^ESCTHA907134	Haloperidol 1mg/5ml oral suspension
+^ESCTHA907135	Haloperidol 2mg/5ml oral solution
+^ESCTHA907136	Haloperidol 2mg/5ml oral suspension
+^ESCTHA907137	Haloperidol 500micrograms/5ml oral solution
+^ESCTHA907138	Haloperidol 500micrograms/5ml oral suspension
+^ESCTHA918469	Haldol
+^ESCTHA918843	Haldol decanoate
+^ESCTHA931645	Haloperidol 5mg/1ml solution for injection ampoules (AMCo)
+^ESCTHA931647	Haloperidol 5mg/1ml solution for injection ampoules (AMCo) 10 ampoule
+^ESCTHA950385	Haloperidol 1.5mg/5ml oral suspension 1 ml
+^ESCTHA950388	Haloperidol 1.5mg/5ml oral suspension (Special Order)
+^ESCTHA950389	Haloperidol 1.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHA950392	Haloperidol 2.5mg/5ml oral suspension 1 ml
+^ESCTHA950395	Haloperidol 2.5mg/5ml oral suspension (Special Order)
+^ESCTHA950396	Haloperidol 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHA950400	Haloperidol 200micrograms/5ml oral suspension 1 ml
+^ESCTHA950402	Haloperidol 200micrograms/5ml oral suspension (Special Order)
+^ESCTHA950403	Haloperidol 200micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTHA950405	Haloperidol 250micrograms/5ml oral suspension 1 ml
+^ESCTHA950407	Haloperidol 250micrograms/5ml oral suspension (Special Order)
+^ESCTHA950408	Haloperidol 250micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTHA950413	Haloperidol 25micrograms/5ml oral suspension 1 ml
+^ESCTHA950414	Haloperidol 25micrograms/5ml oral suspension (Special Order)
+^ESCTHA950417	Haloperidol 25micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTHA950424	Haloperidol 5mg/5ml oral suspension 1 ml
+^ESCTHA950425	Haloperidol 5mg/5ml oral suspension (Special Order)
+^ESCTHA950426	Haloperidol 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHA950428	Haloperidol 750micrograms/5ml oral suspension 1 ml
+^ESCTHA950430	Haloperidol 750micrograms/5ml oral suspension (Special Order)
+^ESCTHA950431	Haloperidol 750micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTHA950433	Haloperidol 1.5mg/5ml oral solution 1 ml
+^ESCTHA950434	Haloperidol 1.5mg/5ml oral solution (Special Order)
+^ESCTHA950435	Haloperidol 1.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHA950436	Haloperidol 2.5mg/5ml oral solution 1 ml
+^ESCTHA950437	Haloperidol 2.5mg/5ml oral solution (Special Order)
+^ESCTHA950438	Haloperidol 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHA950439	Haloperidol 200micrograms/5ml oral solution 1 ml
+^ESCTHA950440	Haloperidol 200micrograms/5ml oral solution (Special Order)
+^ESCTHA950441	Haloperidol 200micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHA950453	Haloperidol 250micrograms/5ml oral solution 1 ml
+^ESCTHA950454	Haloperidol 250micrograms/5ml oral solution (Special Order)
+^ESCTHA950455	Haloperidol 250micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHA950456	Haloperidol 25micrograms/5ml oral solution 1 ml
+^ESCTHA950457	Haloperidol 25micrograms/5ml oral solution (Special Order)
+^ESCTHA950458	Haloperidol 25micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHA950482	Haloperidol 5mg/5ml oral solution 1 ml
+^ESCTHA950483	Haloperidol 5mg/5ml oral solution (Special Order)
+^ESCTHA950484	Haloperidol 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHA950485	Haloperidol 750micrograms/5ml oral solution 1 ml
+^ESCTHA950486	Haloperidol 750micrograms/5ml oral solution (Special Order)
+^ESCTHA950487	Haloperidol 750micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHA950530	Haloperidol 1.5mg/5ml oral solution
+^ESCTHA950531	Haloperidol 1.5mg/5ml oral suspension
+^ESCTHA950532	Haloperidol 2.5mg/5ml oral solution
+^ESCTHA950533	Haloperidol 2.5mg/5ml oral suspension
+^ESCTHA950534	Haloperidol 200micrograms/5ml oral solution
+^ESCTHA950535	Haloperidol 200micrograms/5ml oral suspension
+^ESCTHA950536	Haloperidol 250micrograms/5ml oral solution
+^ESCTHA950537	Haloperidol 250micrograms/5ml oral suspension
+^ESCTHA950538	Haloperidol 25micrograms/5ml oral solution
+^ESCTHA950539	Haloperidol 25micrograms/5ml oral suspension
+^ESCTHA950540	Haloperidol 5mg/5ml oral solution
+^ESCTHA950541	Haloperidol 5mg/5ml oral suspension
+^ESCTHA950542	Haloperidol 750micrograms/5ml oral solution
+^ESCTHA950543	Haloperidol 750micrograms/5ml oral suspension
+^ESCTHA963915	Haloperidol 1.5mg tablets (DE Pharmaceuticals)
+^ESCTHA963916	Haloperidol 1.5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTHA963917	Haloperidol 10mg tablets (DE Pharmaceuticals)
+^ESCTHA963918	Haloperidol 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTHA963919	Haloperidol 5mg tablets (DE Pharmaceuticals)
+^ESCTHA963920	Haloperidol 5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTHA964258	Haloperidol 5mg/5ml oral solution sugar free (Pinewood Healthcare)
+^ESCTHA964259	Haloperidol 5mg/5ml oral solution sugar free (Pinewood Healthcare) 100 ml
+^ESCTHA964260	Haloperidol 5mg/5ml oral solution sugar free (Pinewood Healthcare) 500 ml
+^ESCTHA964261	Haloperidol 10mg/5ml oral solution sugar free (Pinewood Healthcare)
+^ESCTHA964262	Haloperidol 10mg/5ml oral solution sugar free (Pinewood Healthcare) 100 ml
+^ESCTHA964263	Haloperidol 10mg/5ml oral solution sugar free (Pinewood Healthcare) 500 ml
+^ESCTHA978398	Haloperidol 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTHA978399	Haloperidol 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 100 ml
+^ESCTHA979448	Haloperidol 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHA979449	Haloperidol 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTHA979450	Haloperidol 20mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTHA979516	Haloperidol 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHA979518	Haloperidol 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTHA981455	Haldol 2mg/ml oral solution (Waymade Healthcare Plc)
+^ESCTHA981456	Haldol 2mg/ml oral solution (Waymade Healthcare Plc) 100 ml
+^ESCTHA989162	Haldol 5mg tablets (Lexon (UK) Ltd)
+^ESCTHA989163	Haldol 5mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTHA989165	Haldol 10mg tablets (Lexon (UK) Ltd)
+^ESCTHA989167	Haldol 10mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTHA989168	Haldol 5mg/1ml solution for injection ampoules (Lexon (UK) Ltd)
+^ESCTHA989169	Haldol 5mg/1ml solution for injection ampoules (Lexon (UK) Ltd) 5 ampoule
+^ESCTHA992985	Haloperidol 10mg tablets (Stephar (U.K.) Ltd)
+^ESCTHA992986	Haloperidol 10mg tablets 20 tablet
+^ESCTHA992987	Haloperidol 10mg tablets (Stephar (U.K.) Ltd) 20 tablet
+^ESCTPR267115	Product containing haloperidol
+^ESCTPR609254	Product containing haloperidol 1.5 mg/1 each oral tablet
+^ESCTPR609257	Product containing haloperidol 5 mg/1 each oral tablet
+^ESCTPR609260	Product containing haloperidol 10 mg/1 each oral tablet
+^ESCTPR609263	Product containing haloperidol 20 mg/1 each oral tablet
+^ESCTPR609271	Product containing haloperidol 0.5 milligram/1 each oral capsule
+^ESCTPR609276	Product containing haloperidol 0.5 milligram/1 each oral tablet
+^ESCTPR618953	Product containing haloperidol in oral dosage form
+^ESCTPR618955	Product containing haloperidol in parenteral dosage form
+^ESCTPR639471	Product containing haloperidol 1 mg/1 each oral tablet
+^ESCTPR640364	Product containing haloperidol 2 mg/1 each oral tablet
+^ESCTSE803605	Serenace 10mg tablets (Teva UK Ltd)
+^ESCTSE807141	Serenace 5mg tablets (Teva UK Ltd)
+^ESCTSE812825	Serenace 20mg tablets (Teva UK Ltd)
+^ESCTSE818979	Serenace 2mg/ml liquid (Teva UK Ltd)
+^ESCTSE819637	Serenace 500microgram capsules (Teva UK Ltd)
+^ESCTSE831771	Serenace 1.5mg tablets (Teva UK Ltd)
+^ESCTSE855664	Serenace 500microgram capsules (Teva UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTSE855672	Serenace 1.5mg tablets (Teva UK Ltd) 1000 tablet
+^ESCTSE855673	Serenace 1.5mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTSE855682	Serenace 5mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTSE855694	Serenace 10mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTSE855702	Serenace 20mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTSE855797	Serenace 2mg/ml liquid (Teva UK Ltd) 100 ml
+^ESCTSE855799	Serenace 2mg/ml liquid (Teva UK Ltd) 500 ml
+^ESCTSE860393	Serenace 5mg/1ml solution for injection ampoules (IVAX Pharmaceuticals UK Ltd)
+^ESCTSE860397	Serenace 5mg/1ml solution for injection ampoules (IVAX Pharmaceuticals UK Ltd) 10 ampoule
+^ESCTSE865626	Serenace 20mg/2ml solution for injection ampoules (IVAX Pharmaceuticals UK Ltd)
+^ESCTSE865627	Serenace 20mg/2ml solution for injection ampoules (IVAX Pharmaceuticals UK Ltd) 10 ampoule
+^ESCTSE875591	Serenace 10mg tablets (Teva UK Ltd) 50 tablet
+^ESCTSE916237	Serenace
+DOLI985	Dozic  Liquid  2mg/ml
+FOTA1237	Fortunan  Tablets  1.5 mg
+FOTA1238	Fortunan  Tablets  10 mg
+FOTA1239	Fortunan  Tablets  5 mg
+FOTA1240	Fortunan  Tablets  500 micrograms
+HAIN15567NEMIS	Haldol  Injection  5 mg/ml, 1 ml ampoule
+HALI138284NEMIS	Haloperidol (Special Order)  Liquid  Sugar Free 1 mg/ml
+HALI35365MGEMIS	Haloperidol  Liquid  Sugar Free 1mg/ml (A.A.H. Pharm)
+HALI35366MGEMIS	Haloperidol  Liquid  Sugar Free 1mg/ml (Unichem)
+HAOR103660NEMIS	Haloperidol  Oral solution  500 micrograms/5 ml
+HAOR103661NEMIS	Haloperidol  Oral suspension  500 micrograms/5 ml
+HAOR133617NEMIS	Halkid  Oral solution  200 micrograms/ml
+HAOR28960NEMIS	Haloperidol  Oral solution  5 mg/5 ml
+HAOR35367MGEMIS	Haloperidol  Oral liquid  Sugar Free 2 mg/ml (A.A.H. Pharm)
+HAOR35368MGEMIS	Haloperidol  Oral liquid  Sugar Free 2 mg/ml (Unichem)
+HAOR36255NEMIS	Haloperidol  Oral solution  1 mg/5 ml
+HAOR45621NEMIS	Haloperidol  Oral suspension  1 mg/5 ml
+HAOR46467NEMIS	Haloperidol  Oral solution  1.5 mg/5 ml
+HAOR46468NEMIS	Haloperidol  Oral suspension  1.5 mg/5 ml
+HAOR46469NEMIS	Haloperidol  Oral solution  250 micrograms/5 ml
+HAOR46470NEMIS	Haloperidol  Oral suspension  250 micrograms/5 ml
+HAOR46745NEMIS	Haloperidol  Oral suspension  5 mg/5 ml
+HAOREGTON6702	Haldol  Oral liquid conc.  10 mg/ml
+HATA35369MGEMIS	Haloperidol  Tablets  1.5 mg (Unichem)
+HATA35370MGEMIS	Haloperidol  Tablets  1.5 mg (A.A.H. Pharm)
+HATA35371MGEMIS	Haloperidol  Tablets  1.5 mg (Kent Pharm)
+HATA35372MGEMIS	Haloperidol  Tablets  1.5 mg (Teva UK)
+HATA35373MGEMIS	Haloperidol  Tablets  1.5 mg (Ivax Pharmaceuticals)
+HATA35374MGEMIS	Haloperidol  Tablets  20 mg (Kent Pharm)
+HATA35375MGEMIS	Haloperidol  Tablets  20 mg (A.A.H. Pharm)
+HATA35376MGEMIS	Haloperidol  Tablets  20 mg (Ivax Pharmaceuticals)
+HATA35377MGEMIS	Haloperidol  Tablets  20 mg (Unichem)
+HATA35378MGEMIS	Haloperidol  Tablets  20 mg (Teva UK)
+HATA35379MGEMIS	Haloperidol  Tablets  20 mg (Sandoz)
+HATA35380MGEMIS	Haloperidol  Tablets  5 mg (Ivax Pharmaceuticals)
+HATA35381MGEMIS	Haloperidol  Tablets  5 mg (Unichem)
+HATA35382MGEMIS	Haloperidol  Tablets  5 mg (Teva UK)
+HATA35383MGEMIS	Haloperidol  Tablets  5 mg (A.A.H. Pharm)
+HATA35384MGEMIS	Haloperidol  Tablets  5 mg (Kent Pharm)
+HATA35385MGEMIS	Haloperidol  Tablets  10 mg (Ivax Pharmaceuticals)
+HATA35386MGEMIS	Haloperidol  Tablets  10 mg (Unichem)
+HATA35387MGEMIS	Haloperidol  Tablets  10 mg (Teva UK)
+HATA35388MGEMIS	Haloperidol  Tablets  10 mg (Kent Pharm)
+HATA35389MGEMIS	Haloperidol  Tablets  10 mg (A.A.H. Pharm)
+HATA35390MGEMIS	Haloperidol  Tablets  500 micrograms (A.A.H. Pharm)
+HATA35391MGEMIS	Haloperidol  Tablets  500 micrograms (Unichem)
+HATA35392MGEMIS	Haloperidol  Tablets  500 micrograms (Sandoz)
+HATA35393MGEMIS	Haloperidol  Tablets  500 micrograms (Kent Pharm)
+SETA2558	Serenace  Tablets  20 mg
