@@ -1,0 +1,14 @@
+15619004	[M] Hepatocellular carcinoma, fibrolamellar
+25370001	[M]Hepatocellular carcinoma NOS
+52178006	[M]Combined hepatocellular carcinoma and cholangiocarcinoma
+93870000	Malignant neoplasm of liver
+94910002	Neoplasm of uncertain behaviour of liver
+95214007	Primary malignant neoplasm of liver
+109841003	Liver carcinoma
+109843000	Hepatoblastoma of liver
+109844006	Primary angiosarcoma of liver
+187767006	Malignant neoplasm of liver and intrahepatic bile ducts
+187769009	Primary carcinoma of liver
+271482000	Neoplasm of uncertain behaviour of liver and biliary passages
+415080007	[V]Personal history of malignant neoplasm of liver
+255064003	Neoplasm of uncertain behavior of biliary system (disorder)

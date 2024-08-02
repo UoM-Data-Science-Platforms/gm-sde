@@ -1,0 +1,167 @@
+136K.	Alcohol intake above recommended sensible limits
+13Y8.	Alcoholics anonymous
+1462.	H/O: alcoholism
+8BA8.	Alcohol detoxification
+8G32.	Aversion therapy - alcoholism
+8H35.	Admitted to alcohol detoxification centre
+E01..	Alcoholic psychoses
+E010.	Delirium tremens
+E011.	Korsakov psychosis
+E0111	Korsakov's alcoholic psychosis with peripheral neuritis
+E0112	Wernicke-Korsakov syndrome
+E011z	Alcohol amnestic syndrome NOS
+E012.	Alcoholic dementia: [other] or [NOS]
+E0120	Chronic alcoholic brain syndrome
+E013.	Alcohol withdrawal hallucinosis
+E014.	Pathological alcohol intoxication
+E015.	Alcoholic paranoia
+E01y.	Other alcoholic psychosis
+E01y0	Alcohol withdrawal syndrome
+E01yz	Other alcoholic psychosis NOS
+E01z.	Alcoholic psychosis NOS
+E230.	Acute alcoholic intoxication in alcoholism
+E2300	Acute alcoholic intoxication, unspecified, in alcoholism
+E2301	Continuous acute alcoholic intoxication in alcoholism
+E2302	Episodic acute alcoholic intoxication in alcoholism
+E2303	Acute alcoholic intoxication in remission, in alcoholism
+E230z	Acute alcoholic intoxication in alcoholism NOS
+E2310	Unspecified chronic alcoholism
+E2311	Continuous chronic alcoholism
+E2312	Episodic chronic alcoholism
+E2313	Chronic alcoholism in remission
+E231z	Chronic alcoholism NOS
+E23z.	Alcohol dependence syndrome NOS
+E2501	Nondependent alcohol abuse, continuous
+E2502	Nondependent alcohol abuse, episodic
+Eu10.	[X]Mental and behavioural disorders due to use of alcohol
+Eu101	[X]Mental and behavioural disorders due to use of alcohol: harmful use
+Eu102	[X] (Mental and behavioural disorders due to use of alcohol: dependence syndrome) or (chronic alcoholism [& (addiction) or (dipsomania)])
+Eu103	[X]Mental and behavioural disorders due to use of alcohol: withdrawal state
+Eu104	[X]Mental and behavioural disorders due to use of alcohol: withdrawal state with delirium
+Eu105	[X] Mental and behavioural disorders due to use of alcohol: psychotic disorder (& [hallucinosis] or [jealousy] or [paranoia] or [psychosis NOS])
+Eu107	[X] (Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder) or (chronic alcoholic brain syndrome [& dementia NOS])
+Eu10y	[X]Mental and behavioural disorders due to use of alcohol: other mental and behavioural disorders
+Eu10z	[X]Mental and behavioural disorders due to use of alcohol: unspecified mental and behavioural disorder
+Eu114	[X]Mental and behavioural disorders due to use of opioids: withdrawal state with delirium
+Eu116	[X]Mental and behavioural disorders due to use of opioids: amnesic syndrome
+Eu11z	[X]Mental and behavioural disorders due to use of opioids: unspecified mental and behavioural disorder
+Eu126	[X]Mental and behavioural disorders due to use of cannabinoids: amnesic syndrome
+Eu127	[X]Mental and behavioural disorders due to use of cannabinoids: residual and late-onset psychotic disorder
+Eu13.	[X]Mental and behavioural disorders due to use of sedatives or hypnotics
+Eu130	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: acute intoxication
+Eu131	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: harmful use
+Eu133	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: withdrawal state
+Eu134	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: withdrawal state with delirium
+Eu136	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: amnesic syndrome
+Eu137	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: residual and late-onset psychotic disorder
+Eu13y	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: other mental and behavioural disorders
+Eu13z	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: unspecified mental and behavioural disorder
+Eu140	[X]Mental and behavioural disorders due to use of cocaine: acute intoxication
+Eu143	[X]Mental and behavioural disorders due to use of cocaine: withdrawal state
+Eu144	[X]Mental and behavioural disorders due to use of cocaine: withdrawal state with delirium
+Eu146	[X]Mental and behavioural disorders due to use of cocaine: amnesic syndrome
+Eu147	[X]Mental and behavioural disorders due to use of cocaine: residual and late-onset psychotic disorder
+Eu14z	[X]Mental and behavioural disorders due to use of cocaine: unspecified mental and behavioural disorder
+Eu15.	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine
+Eu151	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: harmful use
+Eu152	[X] (Mental and behavioural disorders due to use of other stimulants, including caffeine: dependence syndrome) or (drug addiction - other stimulant)
+Eu153	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: withdrawal state
+Eu154	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: withdrawal state with delirium
+Eu156	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: amnesic syndrome
+Eu16.	[X]Mental and behavioural disorders due to use of hallucinogens
+Eu160	[X]Mental and behavioural disorders due to use of hallucinogens: acute intoxication
+Eu161	[X]Mental and behavioural disorders due to use of hallucinogens: harmful use
+Eu163	[X]Mental and behavioural disorders due to use of hallucinogens: withdrawal state
+Eu164	[X]Mental and behavioural disorders due to use of hallucinogens: withdrawal state with delirium
+Eu166	[X]Mental and behavioural disorders due to use of hallucinogens: amnesic syndrome
+Eu167	[X] Mental and behavioural disorders due to use of hallucinogens: residual and late-onset psychotic disorder (& [post hallucinogen perception disorder])
+Eu16y	[X]Mental and behavioural disorders due to use of hallucinogens: other mental and behavioural disorders
+Eu16z	[X]Mental and behavioural disorders due to use of hallucinogens: unspecified mental and behavioural disorder
+Eu181	[X]Mental and behavioural disorders due to use of volatile solvents: harmful use
+Eu182	[X]solvents: [mental & behavioural disorders dependence syndrome due to use of] or [drug addiction]
+Eu186	[X]Mental and behavioural disorders due to use of volatile solvents: amnesic syndrome
+Eu187	[X]Mental and behavioural disorders due to use of volatile solvents: residual and late-onset psychotic disorder
+Eu18y	[X]Mental and behavioural disorders due to use of volatile solvents: other mental and behavioural disorders
+Eu18z	[X]Mental and behavioural disorders due to use of volatile solvents: unspecified mental and behavioural disorder
+Eu190	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: acute intoxication
+Eu192	[X] (Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: dependence syndrome) or (drug addiction NOS)
+Eu193	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: withdrawal state
+Eu194	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: withdrawal state with delirium
+Eu197	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: residual and late-onset psychotic
+Eu19y	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: other mental and behavioural disorders
+Eu19z	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: unspecified mental and behavioural disorder
+F11x0	Alcoholic encephalopathy
+F375.	Alcohol-related polyneuropathy
+G555.	Alcohol-induced heart muscle disease
+J153.	Alcoholic gastritis
+J610.	Alcoholic fatty liver
+J611.	Acute alcoholic hepatitis
+J613.	Alcoholic liver damage unspecified
+Ua1Ml	Alcohol reduction programme
+X0053	Wernicke encephalopathy
+X00Rd	Psychoactive substance misuse disorder
+X00Rk	Alcoholic dementia NOS
+X306r	Alcoholic hepatitis
+X3071	Alcoholic liver disease
+X3072	Alcoholic fibrosis and sclerosis of liver
+X3073	Alcoholic hepatic failure
+X308j	Alcohol-induced acute pancreatitis
+X308v	Alcohol-induced chronic pancreatitis
+X40MG	Alcohol-induced pseudo-Cushing's syndrome
+X709V	Alcoholic myopathy
+Xa17e	Alcoholic hallucinosis
+Xa17m	Alcoholic jealousy
+Xa1yZ	Alcohol abuse
+Xa25J	Alcoholic dementia
+Xa7On	Alcoholism counselling
+XaA1V	Ethanol abuse
+XaamS	In-house alcohol detoxification
+XaBE3	Chronic alcoholic hepatitis
+XabN7	Alcohol dependence resolved
+XaboV	Referral to mental health services deferred until alcohol misuse resolved
+XaBZA	Alcohol withdrawal-induced convulsion
+XaC1d	Oesophageal varices in alcoholic cirrhosis of the liver
+Xac6H	Specialist alcohol treatment service signposted
+Xacab	Withdrawn from alcohol detoxification programme
+XacfZ	Alcohol relapse prevention
+Xacmc	Alcohol harm reduction programme
+XaIN4	Under care of community alcohol team
+XaIPn	Referral to community alcohol team
+XaJni	Alcohol disorder monitoring
+XaK9f	Alcohol misuse enhanced services administration
+XaKAA	Community detoxification registered
+XaKAC	Alcohol consumption counselling
+XaKAJ	Alcohol misuse enhanced service completed
+XaKUg	Referral to community drug and alcohol team
+XaKV2	Alcohol induced hallucinations
+XaKvA	Hazardous alcohol use
+XaKvB	Harmful alcohol use
+XaLrN	Alcohol abuse monitoring
+XaLsx	Delivery of rehabilitation for alcohol addiction
+XaLWu	[X]Alcohol withdrawal-induced seizure
+XaMyB	History of substance misuse
+XaORR	Referral to specialist alcohol treatment service
+XaPmB	Advised to contact primary care alcohol worker
+XaPna	Referral to alcohol brief intervention service
+XaPPv	Brief intervention for excessive alcohol consumption completed
+XaPPy	Extended intervention for excessive alcohol consumption completed
+XaPty	Brief intervention for excessive alcohol consumption declined
+XaPwp	Declined referral to specialist alcohol treatment service
+XaX4S	Extended intervention for excessive alcohol consumption declined
+XaXjd	Increasing risk drinking
+XaXkb	Referral to community alcohol team declined
+XE0b4	Alcoholic cirrhosis of liver
+XE0dD	(Cirrhosis &/or chronic liver dis) or (alcoholic liver disease)
+XE0dF	Alcoholic liver damage NOS
+XE1Xu	Other alcoholic dementia
+XE1ZE	[X]Mental and behavioural disorders due to use of alcohol: dependence syndrome
+XE1ZF	[X]Mental and behavioural disorders due to use of alcohol: psychotic disorder
+XE1ZG	[X]Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder
+XE1ZJ	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: dependence syndrome
+XE1ZK	[X]Mental and behavioural disorders due to use of hallucinogens: residual and late-onset psychotic disorder
+XE1ZL	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: dependence syndrome
+XE2n9	[X]Mental and behavioural disorders due to use of volatile solvents: dependence syndrome
+ZV113	[V]Personal history of alcoholism
+ZV114	[V]Personal history of psychoactive substance abuse
+ZV57A	[V]Alcohol rehabilitation
+ZV6D6	[V]Alcohol abuse counselling and surveillance

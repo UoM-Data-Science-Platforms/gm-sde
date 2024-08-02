@@ -1,0 +1,5 @@
+J6141	Chronic active hepatitis
+J6142	Chronic aggressive hepatitis
+J6160	Primary biliary cirrhosis
+J6617	Primary sclerosing cholangitis
+XaJTk	Autoimmune hepatitis

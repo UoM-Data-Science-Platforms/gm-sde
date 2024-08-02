@@ -3,3 +3,5 @@
 XaLJx	Serum alanine aminotransferase level
 X771f	ALT - blood level
 X771e	SGPT - blood level
+X771d	Alanine transaminase level
+XE25P	Liver enzyme levels

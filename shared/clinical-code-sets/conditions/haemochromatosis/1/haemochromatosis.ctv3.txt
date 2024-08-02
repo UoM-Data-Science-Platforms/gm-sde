@@ -1,0 +1,3 @@
+X307o	Hemochromatosis
+X307p	Neonatal giant cell hepatitis
+X40QQ	Neonatal haemochromatosis

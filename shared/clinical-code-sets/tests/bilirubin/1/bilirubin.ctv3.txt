@@ -1,0 +1,10 @@
+Xa972	Bilirubin level
+XaX4X	Conjugated bilirubin level
+XaERv	Plasma conjugated bilirubin level
+XaESA	Serum conjugated bilirubin level
+44E5.	Unconjugated bilirubin level
+XaERw	Serum unconjugated bilirubin level
+XaES7	Plasma unconjugated bilirubin level
+44E..	Serum bilirubin level
+44E4.	Conjugated bilirubin level
+XaERu	Serum total bilirubin level

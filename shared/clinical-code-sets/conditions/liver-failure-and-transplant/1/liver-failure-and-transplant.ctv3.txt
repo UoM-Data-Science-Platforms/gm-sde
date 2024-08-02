@@ -1,0 +1,87 @@
+7800.	Liver transplant
+78001	Heterotopic liver transplant
+78002	Replacement of previous liver transplant
+7800y	Other specified transplantation of liver
+7800z	Transplantation of liver NOS
+A70..	Viral hepatitis
+A700.	Viral hepatitis A with coma
+A702.	Viral hepatitis B with coma
+A704.	Other specified viral hepatitis with coma
+A7040	Viral hepatitis C with coma
+A704z	Other specified viral hepatitis with hepatic coma NOS
+A705.	Other specified viral hepatitis without coma
+A705z	Other specified viral hepatitis without mention of hepatic coma NOS
+A706.	Unspecified viral hepatitis with coma
+A70z.	Unspecified viral hepatitis
+AyuB0	[X]Other specified acute viral hepatitis
+J60..	Acute and subacute liver necrosis
+J600.	Acute necrosis of liver
+J6000	Acute hepatic failure
+J6002	Acute yellow atrophy
+J600z	Acute necrosis of liver NOS
+J601.	Subacute necrosis of liver
+J6010	Subacute hepatic failure
+J6012	Subacute yellow atrophy
+J601z	Subacute necrosis of liver NOS
+J60z.	Acute and subacute liver necrosis NOS
+J63..	Other liver disorders
+J631.	Hepatitis in viral diseases EC
+J6315	Hepatitis in other viral disease
+J631z	Hepatitis in viral diseases EC NOS
+J634.	Infarction of liver
+J6351	Toxic liver disease with hepatic necrosis
+J636.	Central haemorrhagic necrosis of liver
+J63y.	Other specified liver disorder
+J63yz	Other specified liver disorder NOS
+J63z.	Liver disorder NOS
+Jyu7.	[X]Diseases of the liver
+Jyu73	[X]Other specified diseases of liver
+Jyu74	[X]Liver disorders in infectious and parasitic diseases classified elsewhere
+Jyu75	[X]Liver disorders in other diseases classified elsewhere
+PB600	Liver anomaly, unspecified
+SP086	Liver transplant failure and rejection
+SP142	Hepatic failure as a complication of care
+TB00.	Surgical operation with transplant of whole organ as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB000	Transplantation of heart as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB001	Transplantation of kidney as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB002	Transplantation of liver as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB00z	Transplantation of whole organ as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation, NOS
+TB010	Implant of cardiac pacemaker as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB011	Electrodes implanted in brain as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB012	Implant of heart valve prosthesis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB013	Implant of internal orthopaedic device as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB01z	Implant of artificial internal device as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation, NOS
+TB02.	Surgical operation with anastomosis, bypass or graft, with natural or artificial tissues used as implant, as the cause of complication, without mention of misadventure at the time of operation
+TB020	Arteriovenous anastomosis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB021	Gastrojejunal anastomosis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB022	Blood vessel graft as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB023	Tendon graft as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB024	Skin graft as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB02z	Anastomosis, bypass or graft, with natural or artificial tissues used as implant, as the cause of complication, without mention of misadventure at the time, NOS
+TB03.	Surgical operation with formation of external stoma as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB031	Formation of cystostomy as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB032	Formation of duodenostomy as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB033	Formation of gastrostomy as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB034	Formation of ureterostomy as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB03z	Formation of external stoma as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation, NOS
+TB0y.	Other surgical operations and procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+U63..	[X]Surgical operation and other surgical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+U637.	[X]Other surgical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+U63z.	[X]Unspecified surgical procedure as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+X0058	Hepatic encephalopathy
+X20Zz	Exploration of liver transplant
+X306R	Disorder of liver
+X3073	Alcoholic hepatic failure
+X3076	Hepatic failure
+X3077	Liver failure NOS
+X3078	Hepatic failure NOS
+XaJxp	Acute hepatic failure due to drugs
+XaLdf	Orthotopic transplantation of whole liver
+XaMuG	Compensation for liver failure
+XaMuH	Other specified compensation for liver failure
+XaMuI	Compensation for liver failure NOS
+XaXox	Liver transplant planned
+XE0bB	Hepatic coma
+XE0bC	Other sequelae of chronic liver disease
+XE0dB	(Acute/subacute necrosis of liver) or (acute liver failure)
+ZV427	[V]Liver transplanted

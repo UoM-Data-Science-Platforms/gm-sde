@@ -1,0 +1,36 @@
+C310.00	Glycogenosis - glycogen storage disease
+C310300	Glycogenosis of liver and muscle
+C310400	Glycogenosis with hepatic cirrhosis
+C310y00	Other specified glycogenosis
+C310z00	Glycogenosis NOS
+C370800	Cystic fibrosis related cirrhosis
+G852200	Oesophageal varices in cirrhosis of the liver
+G852300	Oesophageal varices in alcoholic cirrhosis of the liver
+J61..00	Cirrhosis and chronic liver disease
+J612.00	Alcoholic cirrhosis of liver
+J612000	Alcoholic fibrosis and sclerosis of liver
+J615.00	Cirrhosis - non alcoholic
+J615100	Multilobular portal cirrhosis
+J615300	Diffuse nodular cirrhosis
+J615400	Fatty portal cirrhosis
+J615500	Hypertrophic portal cirrhosis
+J615600	Capsular portal cirrhosis
+J615700	Cardiac portal cirrhosis
+J615800	Juvenile portal cirrhosis
+J615C00	Xanthomatous portal cirrhosis
+J615D00	Bacterial portal cirrhosis
+J615G00	Zooparasitic portal cirrhosis
+J615H00	Infectious cirrhosis NOS
+J615y00	Portal cirrhosis unspecified
+J615z00	Non-alcoholic cirrhosis NOS
+J616.00	Biliary cirrhosis
+J616000	Primary biliary cirrhosis
+J616100	Secondary biliary cirrhosis
+J616200	Biliary cirrhosis of children
+J616z00	Biliary cirrhosis NOS
+J61y300	Portal fibrosis without cirrhosis
+J61y400	Hepatic fibrosis
+J61y500	Hepatic sclerosis
+J61y600	Hepatic fibrosis with hepatic sclerosis
+J635600	Toxic liver disease with fibrosis and cirrhosis of liver
+Jyu7100	[X]Other and unspecified cirrhosis of liver

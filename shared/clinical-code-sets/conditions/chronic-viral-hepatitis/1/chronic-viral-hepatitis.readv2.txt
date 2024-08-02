@@ -1,0 +1,38 @@
+141E.	History of hepatitis B
+14i..	H/O hepatitis C antiviral drug therapy
+21267	Hepatitis C resolved
+43B4.	Hepatitis B surface antig +ve
+43B5.	Hepatitis e antigen present
+43j5.	Hepatitis C nucleic acid detection
+43j50	Hepatitis C nucleic acid detection assay
+43jG.	Hepatitis B nucleic acid detection
+43jG0	Hepatitis B nucleic acid detection assay
+43X3.	Hepatitis C antibody test positive
+4J3B.	Hepatitis C viral load
+4J3D.	Hepatitis B viral load
+4JQ3.	Hepatitis C virus genotype
+4JQD.	Hepatitis C viral ribonucleic acid polymerase chain reaction positive
+4JQF.	Hepatitis C antigen positive
+7Q052	Hepatitis B treatment drugs Band 1
+8BB5.	12 week virologic response to hepatitis C treatment
+9kR..	Chronic hepatitis annual review - enhanced services administration
+9kV..	Hepatitis C screening positive - enhanced services administration
+9kX..	Hepatitis status 6 months post treatment - enhanced services administration
+9kZ..	Hepatitis B screening positive - enhanced services administration
+9NgR.	On hepatitis C treatment plan
+A703.	Viral (serum) hepatitis B
+A7050	Viral hepatitis C without mention of hepatic coma
+A7051	Acute delta-(super)infection of hepatitis B carrier
+A707.	Chronic viral hepatitis
+A7070	Chronic viral hepatitis B with delta-agent
+A7071	Chronic viral hepatitis B without delta-agent
+A7072	Chronic viral hepatitis C
+A7073	Chronic viral hepatitis B
+A707X	Chronic viral hepatitis, unspecified
+A70A.	Hepatitis C genotype 1
+A70B.	Hepatitis C genotype 2
+A70C.	Hepatitis C genotype 3
+A70D.	Hepatitis C genotype 4
+A70z0	Hepatitis C
+AyuB1	[X]Other chronic viral hepatitis
+AyuB2	[X]Chronic viral hepatitis, unspecified

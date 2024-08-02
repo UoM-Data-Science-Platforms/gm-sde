@@ -1,0 +1,40 @@
+^ESCT1405547	Haemochromatosis secondary to erythropoietic disorder
+^ESCTAF358264	African nutritional haemochromatosis
+^ESCTAF358265	African nutritional hemochromatosis
+^ESCTAU779396	Autosomal dominant hereditary hemochromatosis
+^ESCTAU779397	Autosomal dominant hereditary haemochromatosis
+^ESCTBA358266	Bantu siderosis
+^ESCTBR661806	Bronze diabetes
+^ESCTER262378	Erythropoietic haemochromatosis
+^ESCTER262379	Erythropoietic hemochromatosis
+^ESCTFA307027	Familial hemochromatosis
+^ESCTFA307028	Familial haemochromatosis
+^ESCTFE779398	Ferroportin disease
+^ESCTHA661873	Haemochromatosis
+^ESCTHA661876	Haemochromatosis
+^ESCTHA779390	Haemochromatosis type 3
+^ESCTHA779394	Haemochromatosis type 4
+^ESCTHA779400	Haemochromatosis due to defect in ferroportin
+^ESCTHA804555	Haemochromatosis following repeated red blood cell transfusion
+^ESCTHE262380	Hemochromatosis secondary to erythropoietic disorder
+^ESCTHE307025	Hereditary haemochromatosis
+^ESCTHE307026	Hereditary hemochromatosis
+^ESCTHE779391	Hemochromatosis type 3
+^ESCTHE779395	Hemochromatosis type 4
+^ESCTHE779399	Hemochromatosis due to defect in ferroportin
+^ESCTHE804556	Hemochromatosis following repeated red blood cell transfusion
+^ESCTID259826	Idiopathic neonatal hemochromatosis
+^ESCTID259827	Idiopathic neonatal haemochromatosis
+^ESCTID661648	Idiopathic haemochromatosis
+^ESCTID661649	Idiopathic hemochromatosis
+^ESCTIR661875	Iron storage disease
+^ESCTJU332369	Juvenile haemochromatosis
+^ESCTJU332370	Juvenile hemochromatosis
+^ESCTNE259824	Neonatal haemochromatosis
+^ESCTNE259825	Neonatal hemochromatosis
+^ESCTPR661850	Primary haemochromatosis
+^ESCTPR661851	Primary hemochromatosis
+^ESCTSE337305	Secondary haemochromatosis
+^ESCTSE337306	Secondary hemochromatosis
+^ESCTTF779392	TFR2 (transferrin receptor 2 gene) related hemochromatosis
+^ESCTTF779393	TFR2 (transferrin receptor 2 gene) related haemochromatosis

@@ -1,0 +1,38 @@
+43B4.	Hepatitis B surface antigen positive
+43B5.	Hepatitis e antigen present
+A703.	Viral serum hepatitis B
+A7050	Viral hepatitis C without mention of hepatic coma
+A7071	Chronic viral hepatitis B without delta-agent
+A70z0	Hepatitis C
+AyuB1	[X]Other chronic viral hepatitis
+AyuB2	[X]Chronic viral hepatitis, unspecified
+X306d	Hepatitis D superinfection of hepatitis B carrier
+X306h	Chronic viral hepatitis
+X306i	Chronic viral hepatitis B
+X306j	Chronic viral hepatitis B with hepatitis D
+X306k	Chronic viral hepatitis C
+Xab7p	Hepatitis B nucleic acid detection assay
+Xab7q	Hepatitis C nucleic acid detection assay
+XaFDz	Hepatitis C antibody test positive
+XaILY	Hepatitis C nucleic acid detection
+XaIrP	Hepatitis B nucleic acid detection
+XaIrY	Hepatitis C viral load
+XaIrZ	Hepatitis C virus genotype
+XaLow	History of hepatitis B
+XaMBL	Hepatitis B viral load
+XaMEk	Hepatitis B treatment drugs Band 1
+XaPE9	Hepatitis status 6 months post treatment
+XaPEy	Hepatitis B screening positive
+XaPLl	Hepatitis C screening positive
+XaPLW	Chronic hepatitis annual review
+XaXBp	Hepatitis C viral ribonucleic acid polymerase chain reaction positive
+XaXET	Hepatitis C resolved
+XaYbh	Hepatitis C antigen positive
+XaZ5P	Hepatitis C genotype 1
+XaZ5Q	Hepatitis C genotype 2
+XaZ5S	Hepatitis C genotype 3
+XaZ5T	Hepatitis C genotype 4
+XaZBl	12 week virologic response to hepatitis C treatment
+XaZDB	H/O hepatitis C antiviral drug therapy
+XaZDE	On hepatitis C treatment plan
+XE0TY	Serum hepatitis

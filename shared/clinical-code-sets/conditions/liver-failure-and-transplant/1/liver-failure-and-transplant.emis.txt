@@ -1,0 +1,33 @@
+^ESCT1167614	Transplanted liver present
+^ESCT1167615	Liver transplant recipient
+^ESCT1245880	[V]Liver transplanted
+^ESCT1407103	Hepatic coma due to viral hepatitis C
+^ESCTAC478699	Acute yellow atrophy of liver
+^ESCTAL478703	ALF - Acute liver failure
+^ESCTAU466178	Auxiliary liver transplant
+^ESCTCE478762	Central hemorrhagic necrosis of liver
+^ESCTDI508650	Disorder of liver
+^ESCTHE272084	Hepatocerebral encephalopathy
+^ESCTHE272085	HE - Hepatic encephalopathy
+^ESCTHE278601	Hepatic transplantation
+^ESCTHE347323	Hepatic insufficiency
+^ESCTHE368446	Hepatocerebral intoxication
+^ESCTHE508648	Hepatopathy
+^ESCTIN278388	Infarct of liver
+^ESCTIN278389	Infarction of liver
+^ESCTLD508651	LD - Liver disease
+^ESCTLI347324	Liver function failure
+^ESCTLI347325	Liver decompensation
+^ESCTLT278602	LTx - Liver transplant
+^ESCTMA478698	Massive hepatic necrosis
+^ESCTMI394290	Misadventure of surgical procedure
+^ESCTPI466179	Piggy-back liver transplant
+^ESCTSU478706	Subacute hepatic necrosis
+^ESCTSU478710	Subacute yellow atrophy of liver
+^ESCTTX278600	Tx - Liver transplantation
+^ESCTVH255858	VH - Viral hepatitis
+^ESCTVI275471	Viral hepatitis A with hepatic coma
+^ESCTVI291948	Viral hepatitis B with hepatic coma
+EMISNQLI28	Liver disease due to cystic fibrosis
+EMISNQLI29	Liver transplant planned
+EMISNQVI15	Viral hepatitis D

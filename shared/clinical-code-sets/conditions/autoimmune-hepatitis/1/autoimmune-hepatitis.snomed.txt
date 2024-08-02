@@ -1,0 +1,4 @@
+31712002	Primary biliary cirrhosis
+197284004	Autoimmune chronic active hepatitis
+197441003	Primary sclerosing cholangitis
+408335007	Autoimmune hepatitis

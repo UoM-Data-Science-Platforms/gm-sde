@@ -1,0 +1,17 @@
+^ESCTCH350719	Chronic type B viral hepatitis
+^ESCTCH440701	Chronic type C viral hepatitis
+^ESCTCH508665	Chronic viral hepatitis B with hepatitis D
+^ESCTHB459617	HBsAg positive
+^ESCTHE357442	Hepatitis B
+^ESCTHE357444	Hepatitis B infection
+^ESCTHE459618	Hepatitis Be antigen present
+^ESCTHE508660	Hepatitis D superinfection of hepatitis B carrier
+^ESCTHE823496	Hepatitis C viral RNA PCR (ribonucleic acid polymerase chain reaction) positive
+^ESCTSH357443	SH - Serum hepatitis
+^ESCTTY332123	Type C viral hepatitis
+^ESCTTY357440	Type B viral hepatitis
+^ESCTVI332125	Viral hepatitis type C
+^ESCTVI357445	Viral hepatitis type B
+EMISNQHE46	Hepatitis C resolved
+EMISNQHE6	Hepatitis C carrier
+EMISNQHO3	H/O: hepatitis B

@@ -1,0 +1,15 @@
+^ESCT1377480	Gamma-glutamyltransferase
+^ESCT1377481	Gamma gTP
+^ESCT1377482	GGT - gamma-glutamyl transferase
+^ESCTGA347689	gamma-Glutamyltransferase
+^ESCTGA347691	gamma GTP
+^ESCTGA347692	Gamma-glutamyl transpeptidase
+^ESCTGA347693	Gamma-glutamyl transferase
+^ESCTGA363001	Gamma glutamyl transferase measurement
+^ESCTGA363002	Gamma glutamyl transpeptidase measurement
+^ESCTGA363006	Gamma-glutamyl transferase level
+^ESCTGG347694	GGT - Gamma-glutamyl transferase
+^ESCTGG363004	GGT measurement
+^ESCTGG363005	GGTP measurement
+^ESCTGL347690	Glutamyl transpeptidase
+^ESCTGT363003	GTP measurement

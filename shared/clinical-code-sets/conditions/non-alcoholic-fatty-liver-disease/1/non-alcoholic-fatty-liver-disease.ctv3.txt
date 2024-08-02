@@ -1,0 +1,7 @@
+C32y5	Steatosis (& hepatic familial)
+J610.	Alcoholic fatty liver
+J61y1	Non-alcoholic fatty liver
+J61y7	Steatosis of liver
+X307v	Fatty change of liver
+XaQIT	Nonalcoholic steatohepatitis
+XE2Zz	Fatty metamorphosis of viscera

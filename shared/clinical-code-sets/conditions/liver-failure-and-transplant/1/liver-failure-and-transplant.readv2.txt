@@ -1,0 +1,78 @@
+7800.00	Transplantation of liver
+7800100	Heterotopic transplantation of liver
+7800200	Replacement of previous liver transplant
+7800400	Orthotopic transplantation of whole liver
+7800y00	Other specified transplantation of liver
+7800z00	Transplantation of liver NOS
+7L1f.00	Compensation for liver failure
+7L1fy00	Other specified compensation for liver failure
+7L1fz00	Compensation for liver failure NOS
+8LH..00	Liver transplant planned
+A70..00	Viral hepatitis
+A700.00	Viral hepatitis A with coma
+A702.00	Viral hepatitis B with coma
+A704.00	Other specified viral hepatitis with coma
+A704000	Viral hepatitis C with coma
+A704z00	Other specified viral hepatitis with hepatic coma NOS
+A705.00	Other specified viral hepatitis without coma
+A705z00	Other specified viral hepatitis without mention of hepatic coma NOS
+A706.00	Unspecified viral hepatitis with coma
+A70z.00	Unspecified viral hepatitis
+AyuB.00	[X]Viral hepatitis
+AyuB000	[X]Other specified acute viral hepatitis
+J60..00	Acute and subacute liver necrosis
+J600.00	Acute necrosis of liver
+J600000	Acute hepatic failure
+J600200	Acute yellow atrophy
+J600z00	Acute necrosis of liver NOS
+J601.00	Subacute necrosis of liver
+J601000	Subacute hepatic failure
+J601200	Subacute yellow atrophy
+J601z00	Subacute necrosis of liver NOS
+J60z.00	Acute and subacute liver necrosis NOS
+J613000	Alcoholic hepatic failure
+J622.00	Hepatic coma
+J625.00	[X] Hepatic failure
+J62y.00	Other sequelae of chronic liver disease
+J63..00	Other liver disorders
+J631.00	Hepatitis in viral diseases EC
+J631500	Hepatitis in other viral disease
+J631z00	Hepatitis in viral diseases EC NOS
+J634.00	Hepatic infarction
+J635100	Toxic liver disease with hepatic necrosis
+J635700	Acute hepatic failure due to drugs
+J636.00	Central haemorrhagic necrosis of liver
+J63y.00	Other specified liver disorder
+J63yz00	Other specified liver disorder NOS
+J63z.00	Liver disorder NOS
+Jyu7.00	[X]Diseases of the liver
+Jyu7300	[X]Other specified diseases of liver
+Jyu7400	[X]Liver disorders in infectious and parasitic diseases classified elsewhere
+Jyu7500	[X]Liver disorders in other diseases classified elsewhere
+PB60000	Liver anomaly, unspecified
+SP08600	Liver transplant failure and rejection
+SP14200	Hepatic failure as a complication of care
+TB00.00	Surgical operation with transplant of whole organ as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB00000	Transplantation of heart as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB00100	Transplantation of kidney as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB00200	Transplantation of liver as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB00z00	Transplantation of whole organ as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation, NOS
+TB01000	Implant of cardiac pacemaker as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB01100	Electrodes implanted in brain as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB01200	Implant of heart valve prosthesis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB01300	Implant of internal orthopaedic device as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB01z00	Implant of artificial internal device as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation, NOS
+TB02.00	Surgical operation with anastomosis, bypass or graft, with natural or artificial tissues used as implant, as the cause of complication, without mention of misadventure at the time of operation
+TB02000	Arteriovenous anastomosis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB02100	Gastrojejunal anastomosis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB02200	Blood vessel graft as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB02300	Tendon graft as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB02400	Skin graft as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB02z00	Anastomosis, bypass or graft, with natural or artificial tissues used as implant, as the cause of complication, without mention of misadventure at the time, NOS
+TB03.00	Surgical operation with formation of external stoma as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB03100	Formation of cystostomy as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB03200	Formation of duodenostomy as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB03300	Formation of gastrostomy as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB03400	Formation of ureterostomy as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+TB03z00	Formation of external stoma as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation, NOS
+ZV42700	[V]Liver transplanted

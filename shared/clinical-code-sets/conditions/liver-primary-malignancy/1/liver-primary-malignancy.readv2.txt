@@ -1,0 +1,18 @@
+1421.00	H/O: * gastrointestinal tract
+B15..00	Malignant neoplasm of liver and intrahepatic bile ducts
+B150.00	Primary malignant neoplasm of liver
+B150000	Primary carcinoma of liver
+B150100	Hepatoblastoma of liver
+B150200	Primary angiosarcoma of liver
+B150300	Hepatocellular carcinoma
+B150z00	Primary malignant neoplasm of liver NOS
+B152.00	Malignant neoplasm of liver unspecified
+B15z.00	Malignant neoplasm of liver and intrahepatic bile ducts NOS
+B903.00	Neoplasm of uncertain behaviour of liver and biliary passages
+B903000	Neoplasm of uncertain behaviour of liver
+B903z00	Neoplasm of uncertain behaviour of liver or biliary passages NOS
+BB5D500	[M]Hepatocellular carcinoma NOS
+BB5D700	[M]Combined hepatocellular carcinoma and cholangiocarcinoma
+BB5D800	[M]Hepatocellular carcinoma, fibrolamellar
+Byu1100	[X]Other specified carcinomas of liver
+ZV10000	[V]Personal history of malignant neoplasm of gastrointestinal tract

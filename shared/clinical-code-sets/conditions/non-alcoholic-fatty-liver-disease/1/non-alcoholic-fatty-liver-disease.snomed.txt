@@ -1,0 +1,5 @@
+50325005	Alcoholic fatty liver
+197315008	Non-alcoholic fatty liver
+197321007	Steatosis of liver
+270881008	Fatty metamorphosis of viscera
+442685003	Nonalcoholic steatohepatitis

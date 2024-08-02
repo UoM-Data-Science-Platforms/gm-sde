@@ -1,0 +1,203 @@
+^ESCT1192295	Alcoholic psychoses
+^ESCT1245665	[V]Alcohol rehabilitation
+^ESCT1270340	History of substance abuse
+^ESCT1405996	Detoxification psychiatric therapy for alcoholism
+^ESCTAA274036	AA - Alcohol abuse
+^ESCTAC265860	Acute alcoholic liver disease
+^ESCTAD472383	Admitted to alcohol detoxification center
+^ESCTAH508674	AH - Alcoholic hepatitis
+^ESCTAL250298	Alcohol-induced persisting dementia
+^ESCTAL261248	Alcohol hallucinosis
+^ESCTAL261249	Alcohol-induced psychotic disorder with hallucinations
+^ESCTAL261251	Alcohol induced hallucinosis
+^ESCTAL261465	Alcoholism
+^ESCTAL262614	Alcoholic polyneuropathy
+^ESCTAL262616	Alcoholic peripheral neuropathy
+^ESCTAL280637	Alcoholic myopathic syndrome
+^ESCTAL280638	Alcoholic myositis
+^ESCTAL288545	Alcoholism counseling
+^ESCTAL296964	Alcohol-related disorder
+^ESCTAL316568	Alcoholic liver disease
+^ESCTAL316569	ALD - Alcoholic liver disease
+^ESCTAL318258	Alcoholic psychosis
+^ESCTAL318259	Alcohol induced psychosis
+^ESCTAL331504	Alcoholic steatosis
+^ESCTAL331506	Alcoholic fatty liver disease
+^ESCTAL363017	Alcoholic amnestic syndrome
+^ESCTAL368893	Alcohol-induced persisting amnestic disorder
+^ESCTAL472277	Alcohol aversion therapy
+^ESCTAL476890	Alcohol induced encephalopathy
+^ESCTAL511182	Alcohol-induced pseudo-Cushing syndrome
+^ESCTAL598129	Alcohol withdrawal-induced convulsion
+^ESCTAL684178	Alcohol consumption counseling
+^ESCTAL694746	Alcoholic cirrhosis
+^ESCTAL694747	Alcoholic liver cirrhosis
+^ESCTAL761332	Alcohol reduction programme
+^ESCTAL761333	Alcohol reduction program
+^ESCTAL779847	Alcohol harm reduction program
+^ESCTAM363010	Amnestic syndrome of Wernicke's disease
+^ESCTAM363016	Amnesic syndrome due to alcohol
+^ESCTCH508775	Chronic pancreatitis due to acute alcohol intoxication
+^ESCTCO684179	Counseling about alcohol consumption
+^ESCTCO684180	Counselling about alcohol consumption
+^ESCTDE250297	Dementia associated with alcoholism
+^ESCTDE354583	Detoxication psychiatric therapy for alcoholism
+^ESCTDE354584	Detoxication therapy for alcoholism
+^ESCTDI385909	Dilated cardiomyopathy secondary to alcohol
+^ESCTDI385911	Dilated cardiomyopathy caused by alcohol
+^ESCTDI398464	Disorder due to psychoactive substance use
+^ESCTES599272	Esophageal varices in alcoholic cirrhosis of the liver
+^ESCTET274035	Ethanol abuse
+^ESCTEX453343	Excessive ethanol consumption
+^ESCTEX453345	Excessive alcohol consumption
+^ESCTEX453346	Excessive alcohol use
+^ESCTHI453989	History of alcoholism
+^ESCTHI635432	History of substance abuse
+^ESCTKO363012	Korsakoff psychosis
+^ESCTKO363014	Korsakov syndrome - alcoholic
+^ESCTKO363015	Korsakov psychosis
+^ESCTKO476314	Korsakov alcoholic psychosis with peripheral neuritis
+^ESCTPS398465	Psychoactive substance misuse disorder
+^ESCTPS511183	Pseudo-Cushing syndrome due to alcohol
+^ESCTWE283413	Wernicke's disease
+^ESCTWE283415	Wernicke disease
+^ESCTWE363009	Wernicke-Korsakoff syndrome
+^ESCTWI778537	Withdrawn from alcohol detoxification program
+^ESCTXS453342	XS - Excessive ethanol consumption
+^ESCTXS453344	XS - Excessive alcohol consumption
+EMISICD10|F1020	Mental and behav dis due to use alcohol: dependence syndr, currently abstinent
+EMISICD10|F1021	Mental and behav dis due to use alcohol: dependence syndr, currently abstinent, but in a protected environment
+EMISICD10|F1022	Mental and behav dis due to use alcohol: dependence syndr, currently on a clinically supervised maintenance or replacement regime [controlled dependence]
+EMISICD10|F1023	Mental and behav dis due to use alcohol: dependence syndr, currently abstinent, but receiving treatment with aversive or blocking drugs
+EMISICD10|F1024	Mental and behav dis due to use alcohol: dependence syndr, currently using the substance [active dependence]
+EMISICD10|F1025	Mental and behav dis due to use alcohol: dependence syndr, continuous use
+EMISICD10|F1026	Mental and behav dis due to use alcohol: dependence syndr, episodic use [dipsomania]
+EMISICD10|F1030	Mental and behav dis due to use alcohol: withdrawal state, uncomplicated
+EMISICD10|F1031	Mental and behav dis due to use alcohol: withdrawal state, with convulsions
+EMISICD10|F1040	Mental & behav dis due to use alcohol: withdrawl state with delirium, without convulsions
+EMISICD10|F1041	Mental & behav dis due to use alcohol: withdrawl state with delirium, with convulsions
+EMISICD10|F1050	Mental & behav dis due to use alcohol: psychotic disorder, schizophrenia-like
+EMISICD10|F1051	Mental & behav dis due to use alcohol: psychotic disorder, predominantly delusional
+EMISICD10|F1052	Mental & behav dis due to use alcohol: psychotic disorder, predominantly hallucinatory
+EMISICD10|F1053	Mental & behav dis due to use alcohol: psychotic disorder, predominantly polymorphic
+EMISICD10|F1054	Mental & behav dis due to use alcohol: psychotic disorder, predominantly depressive symptoms
+EMISICD10|F1055	Mental & behav dis due to use alcohol: psychotic disorder, predominantly manic symptoms
+EMISICD10|F1056	Mental & behav dis due to use alcohol: psychotic disorder, mixed
+EMISICD10|F1070	Mental & behav dis due to use alcohol: resid & late-onset psychot dis, flashbacks
+EMISICD10|F1071	Mental & behav dis due to use alcohol: resid & late-onset psychot dis, personality or behaviour disorder
+EMISICD10|F1072	Mental & behav dis due to use alcohol: resid & late-onset psychot dis, residual affective disorder
+EMISICD10|F1073	Mental & behav dis due to use alcohol: resid & late-onset psychot dis, dementia
+EMISICD10|F1074	Mental & behav dis due to use alcohol: resid & late-onset psychot dis, other persisting cognitive impairment
+EMISICD10|F1075	Mental & behav dis due to use alcohol: resid & late-onset psychot dis, late-onset psychotic disorder
+EMISICD10|F1140	Men & behav dis due opioid: withdrawl state with delirium, without convulsions
+EMISICD10|F1141	Men & behav dis due opioid: withdrawl state with delirium, with convulsions
+EMISICD10|F1270	Mental & behav dis due to cannabinoids: resid & late-onset psychot dis, flashbacks
+EMISICD10|F1271	Mental & behav dis due to cannabinoids: resid & late-onset psychot dis, personality or behaviour disorder
+EMISICD10|F1272	Mental & behav dis due to cannabinoids: resid & late-onset psychot dis, residual affective disorder
+EMISICD10|F1273	Mental & behav dis due to cannabinoids: resid & late-onset psychot dis, dementia
+EMISICD10|F1274	Mental & behav dis due to cannabinoids: resid & late-onset psychot dis, other persisting cognitive impairment
+EMISICD10|F1275	Mental & behav dis due to cannabinoids: resid & late-onset psychot dis, late-onset psychotic disorder
+EMISICD10|F1300	Mental & behav dis due seds/hypntcs: acute intoxication, uncomplicated
+EMISICD10|F1301	Mental & behav dis due seds/hypntcs: acute intoxication, with trauma or other bodily injury
+EMISICD10|F1302	Mental & behav dis due seds/hypntcs: acute intoxication, with other medical complications
+EMISICD10|F1303	Mental & behav dis due seds/hypntcs: acute intoxication, with delirium
+EMISICD10|F1304	Mental & behav dis due seds/hypntcs: acute intoxication, with perceptual distortions
+EMISICD10|F1305	Mental & behav dis due seds/hypntcs: acute intoxication, with coma
+EMISICD10|F1306	Mental & behav dis due seds/hypntcs: acute intoxication, with convulsions
+EMISICD10|F1330	Mental and behav dis due seds/hypntcs: withdrawal state, uncomplicated
+EMISICD10|F1331	Mental and behav dis due seds/hypntcs: withdrawal state, with convulsions
+EMISICD10|F1340	Mental & behav dis due to seds/hypntcs: withdrwl state wth delirium, without convulsions
+EMISICD10|F1341	Mental & behav dis due to seds/hypntcs: withdrwl state wth delirium, with convulsions
+EMISICD10|F1370	Mental & behav dis due to seds/hypntcs: resid & late-onset psychot dis, flashbacks
+EMISICD10|F1371	Mental & behav dis due to seds/hypntcs: resid & late-onset psychot dis, personality or behaviour disorder
+EMISICD10|F1372	Mental & behav dis due to seds/hypntcs: resid & late-onset psychot dis, residual affective disorder
+EMISICD10|F1373	Mental & behav dis due to seds/hypntcs: resid & late-onset psychot dis, dementia
+EMISICD10|F1374	Mental & behav dis due to seds/hypntcs: resid & late-onset psychot dis, other persisting cognitive impairment
+EMISICD10|F1375	Mental & behav dis due to seds/hypntcs: resid & late-onset psychot dis, late-onset psychotic disorder
+EMISICD10|F1400	Mental & behav dis due to use cocaine: acute intoxication, uncomplicated
+EMISICD10|F1401	Mental & behav dis due to use cocaine: acute intoxication, with trauma or other bodily injury
+EMISICD10|F1402	Mental & behav dis due to use cocaine: acute intoxication, with other medical complications
+EMISICD10|F1403	Mental & behav dis due to use cocaine: acute intoxication, with delirium
+EMISICD10|F1404	Mental & behav dis due to use cocaine: acute intoxication, with perceptual distortions
+EMISICD10|F1405	Mental & behav dis due to use cocaine: acute intoxication, with coma
+EMISICD10|F1406	Mental & behav dis due to use cocaine: acute intoxication, with convulsions
+EMISICD10|F1430	Mental and behav dis due to use cocaine: withdrawal state, uncomplicated
+EMISICD10|F1431	Mental and behav dis due to use cocaine: withdrawal state, with convulsions
+EMISICD10|F1440	Mental & behav dis due to use cocaine: withdrawl state wth delirium, without convulsions
+EMISICD10|F1441	Mental & behav dis due to use cocaine: withdrawl state wth delirium, with convulsions
+EMISICD10|F1470	Mental & behav dis due to use cocaine: resid & late-onset psychot dis, flashbacks
+EMISICD10|F1471	Mental & behav dis due to use cocaine: resid & late-onset psychot dis, personality or behaviour disorder
+EMISICD10|F1472	Mental & behav dis due to use cocaine: resid & late-onset psychot dis, residual affective disorder
+EMISICD10|F1473	Mental & behav dis due to use cocaine: resid & late-onset psychot dis, dementia
+EMISICD10|F1474	Mental & behav dis due to use cocaine: resid & late-onset psychot dis, other persisting cognitive impairment
+EMISICD10|F1475	Mental & behav dis due to use cocaine: resid & late-onset psychot dis, late-onset psychotic disorder
+EMISICD10|F1520	Mental and behav dis due to other stimulants inc caffeine: dependnce synd, currently abstinent
+EMISICD10|F1521	Mental and behav dis due to other stimulants inc caffeine: dependnce synd, currently abstinent, but in a protected environment
+EMISICD10|F1522	Mental and behav dis due to other stimulants inc caffeine: dependnce synd, currently on a clinically supervised maintenance or replacement regime [controlled dependence]
+EMISICD10|F1523	Mental and behav dis due to other stimulants inc caffeine: dependnce synd, currently abstinent, but receiving treatment with aversive or blocking drugs
+EMISICD10|F1524	Mental and behav dis due to other stimulants inc caffeine: dependnce synd, currently using the substance [active dependence]
+EMISICD10|F1525	Mental and behav dis due to other stimulants inc caffeine: dependnce synd, continuous use
+EMISICD10|F1526	Mental and behav dis due to other stimulants inc caffeine: dependnce synd, episodic use [dipsomania]
+EMISICD10|F1530	Mental and behav dis due to other stimulants inc caffeine: withdrwl state, uncomplicated
+EMISICD10|F1531	Mental and behav dis due to other stimulants inc caffeine: withdrwl state, with convulsions
+EMISICD10|F1540	Mental and behav dis due to other stimulants inc caffeine: withdr state with delirium, without convulsions
+EMISICD10|F1541	Mental and behav dis due to other stimulants inc caffeine: withdr state with delirium, with convulsions
+EMISICD10|F1600	Mental & behav dis due hallucinogens: acute intoxicatn, uncomplicated
+EMISICD10|F1601	Mental & behav dis due hallucinogens: acute intoxicatn, with trauma or other bodily injury
+EMISICD10|F1602	Mental & behav dis due hallucinogens: acute intoxicatn, with other medical complications
+EMISICD10|F1603	Mental & behav dis due hallucinogens: acute intoxicatn, with delirium
+EMISICD10|F1604	Mental & behav dis due hallucinogens: acute intoxicatn, with perceptual distortions
+EMISICD10|F1605	Mental & behav dis due hallucinogens: acute intoxicatn, with coma
+EMISICD10|F1606	Mental & behav dis due hallucinogens: acute intoxicatn, with convulsions
+EMISICD10|F1630	Mental and behav dis due to hallucinogens: withdrawal state, uncomplicated
+EMISICD10|F1631	Mental and behav dis due to hallucinogens: withdrawal state, with convulsions
+EMISICD10|F1640	Mental & behav dis due to hallucinogens: withdrwl state wth delirium, without convulsions
+EMISICD10|F1641	Mental & behav dis due to hallucinogens: withdrwl state wth delirium, with convulsions
+EMISICD10|F1670	Mental and behav dis due to hallucinogens: resid & late-onset psychot dis, flashbacks
+EMISICD10|F1671	Mental and behav dis due to hallucinogens: resid & late-onset psychot dis, personality or behaviour disorder
+EMISICD10|F1672	Mental and behav dis due to hallucinogens: resid & late-onset psychot dis, residual affective disorder
+EMISICD10|F1673	Mental and behav dis due to hallucinogens: resid & late-onset psychot dis, dementia
+EMISICD10|F1674	Mental and behav dis due to hallucinogens: resid & late-onset psychot dis, other persisting cognitive impairment
+EMISICD10|F1675	Mental and behav dis due to hallucinogens: resid & late-onset psychot dis, late-onset psychotic disorder
+EMISICD10|F1820	Mental and behav dis due to vol solvents: dependence synd, currently abstinent
+EMISICD10|F1821	Mental and behav dis due to vol solvents: dependence synd, currently abstinent, but in a protected environment
+EMISICD10|F1822	Mental and behav dis due to vol solvents: dependence synd, currently on a clinically supervised maintenance or replacement regime [controlled dependence]
+EMISICD10|F1823	Mental and behav dis due to vol solvents: dependence synd, currently abstinent, but receiving treatment with aversive or blocking drugs
+EMISICD10|F1824	Mental and behav dis due to vol solvents: dependence synd, currently using the substance [active dependence]
+EMISICD10|F1825	Mental and behav dis due to vol solvents: dependence synd, continuous use
+EMISICD10|F1826	Mental and behav dis due to vol solvents: dependence synd, episodic use [dipsomania]
+EMISICD10|F1870	Mental and behav dis due to vol solvents: resid & late-onset psychotic dis, flashbacks
+EMISICD10|F1871	Mental and behav dis due to vol solvents: resid & late-onset psychotic dis, personality or behaviour disorder
+EMISICD10|F1872	Mental and behav dis due to vol solvents: resid & late-onset psychotic dis, residual affective disorder
+EMISICD10|F1873	Mental and behav dis due to vol solvents: resid & late-onset psychotic dis, dementia
+EMISICD10|F1874	Mental and behav dis due to vol solvents: resid & late-onset psychotic dis, other persisting cognitive impairment
+EMISICD10|F1875	Mental and behav dis due to vol solvents: resid & late-onset psychotic dis, late-onset psychotic disorder
+EMISICD10|F1900	Mental/behav dis multi drg use/oth psychoac subs: acute intox, uncomplicated
+EMISICD10|F1901	Mental/behav dis multi drg use/oth psychoac subs: acute intox, with trauma or other bodily injury
+EMISICD10|F1902	Mental/behav dis multi drg use/oth psychoac subs: acute intox, with other medical complications
+EMISICD10|F1903	Mental/behav dis multi drg use/oth psychoac subs: acute intox, with delirium
+EMISICD10|F1904	Mental/behav dis multi drg use/oth psychoac subs: acute intox, with perceptual distortions
+EMISICD10|F1905	Mental/behav dis multi drg use/oth psychoac subs: acute intox, with coma
+EMISICD10|F1906	Mental/behav dis multi drg use/oth psychoac subs: acute intox, with convulsions
+EMISICD10|F1920	Mental and behav dis mlti drg use/oth psych sbs: dependence syndr, currently abstinent
+EMISICD10|F1921	Mental and behav dis mlti drg use/oth psych sbs: dependence syndr, currently abstinent, but in a protected environment
+EMISICD10|F1922	Mental and behav dis mlti drg use/oth psych sbs: dependence syndr, currently on a clinically supervised maintenance or replacement regime [controlled dependence]
+EMISICD10|F1923	Mental and behav dis mlti drg use/oth psych sbs: dependence syndr, currently abstinent, but receiving treatment with aversive or blocking drugs
+EMISICD10|F1924	Mental and behav dis mlti drg use/oth psych sbs: dependence syndr, currently using the substance [active dependence]
+EMISICD10|F1925	Mental and behav dis mlti drg use/oth psych sbs: dependence syndr, continuous use
+EMISICD10|F1926	Mental and behav dis mlti drg use/oth psych sbs: dependence syndr, episodic use [dipsomania]
+EMISICD10|F1930	Mental and behav dis mlti drg use/oth psychoa sbs: withdrwl state, uncomplicated
+EMISICD10|F1931	Mental and behav dis mlti drg use/oth psychoa sbs: withdrwl state, with convulsions
+EMISICD10|F1940	Mental and behav dis mlti drg use/oth psychoa sbs: wthdrwl state wth delirium, without convulsions
+EMISICD10|F1941	Mental and behav dis mlti drg use/oth psychoa sbs: wthdrwl state wth delirium, with convulsions
+EMISICD10|F1970	Mental and behav dis mlti drg use/oth psych subs: resid/late psychot dis, flashbacks
+EMISICD10|F1971	Mental and behav dis mlti drg use/oth psych subs: resid/late psychot dis, personality or behaviour disorder
+EMISICD10|F1972	Mental and behav dis mlti drg use/oth psych subs: resid/late psychot dis, residual affective disorder
+EMISICD10|F1973	Mental and behav dis mlti drg use/oth psych subs: resid/late psychot dis, dementia
+EMISICD10|F1974	Mental and behav dis mlti drg use/oth psych subs: resid/late psychot dis, other persisting cognitive impairment
+EMISICD10|F1975	Mental and behav dis mlti drg use/oth psych subs: resid/late psychot dis, late-onset psychotic disorder
+EMISNQAL18	Alcohol dependence resolved
+EMISNQDO36	Does not use opioids on top of substitution therapy
+EMISNQEX11	Extended intervention for excessive alcohol consumption declined
+EMISNQIN186	In-house alcohol detoxification
+EMISNQUS73	Uses other opioids on top of substitution therapy

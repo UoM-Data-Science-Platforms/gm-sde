@@ -1,0 +1,6 @@
+C32y500	Steatosis
+J610.00	Alcoholic fatty liver
+J61y100	Non-alcoholic fatty liver
+J61y700	Steatosis of liver
+J61y800	Nonalcoholic steatohepatitis
+J61y900	Fatty change of liver

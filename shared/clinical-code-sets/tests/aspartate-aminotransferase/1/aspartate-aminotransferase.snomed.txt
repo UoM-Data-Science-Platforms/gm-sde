@@ -1,0 +1,5 @@
+1031101000000102	Aspartate aminotransferase level (observable entity)
+1000881000000102	Serum aspartate aminotransferase level (observable entity)
+1106071000000102	Enzyme activity of aspartate aminotransferase in serum (observable entity)
+1000891000000100	Plasma aspartate transaminase level (observable entity)
+1106681000000105	Enzyme activity of aspartate aminotransferase in plasma (observable entity)

@@ -1,0 +1,32 @@
+^ESCTAL694746	Alcoholic cirrhosis
+^ESCTAL694747	Alcoholic liver cirrhosis
+^ESCTBR661777	Bronze cirrhosis
+^ESCTBR661778	Bronzed cirrhosis
+^ESCTCA371356	Cardiac cirrhosis
+^ESCTCH252644	Cholangitic cirrhosis
+^ESCTCH252645	Cholestatic cirrhosis
+^ESCTCH252646	Chronic nonsuppurative destructive cholangitis
+^ESCTCI259856	Cirrhosis-familial with pulmonary hypertension
+^ESCTCI549304	Cirrhosis, nonalcoholic
+^ESCTCI549305	Cirrhosis of liver not due to alcohol
+^ESCTCI552468	Cirrhosis secondary to cholestasis
+^ESCTCI824256	Cirrhosis associated with cystic fibrosis
+^ESCTCL281668	CL - Cirrhosis of liver
+^ESCTCO371357	Congestive cirrhosis
+^ESCTES597553	Esophageal varices in cirrhosis of the liver
+^ESCTES599272	Esophageal varices in alcoholic cirrhosis of the liver
+^ESCTFI351587	Fibrosis of liver
+^ESCTGL297662	Glycogenosis
+^ESCTGS297663	GSD - Glycogen storage disease
+^ESCTHA301083	Hanot's cirrhosis
+^ESCTHE281667	Hepatic cirrhosis
+^ESCTIC259855	ICC - Indian childhood cirrhosis
+^ESCTLA694193	Laennec's cirrhosis
+^ESCTMA320687	Macronodular cirrhosis
+^ESCTMU320690	Multilobar cirrhosis
+^ESCTPC694194	PC - Portal cirrhosis
+^ESCTPN320689	PNC - Postnecrotic cirrhosis
+^ESCTPR301081	Primary biliary cholangitis
+^ESCTZO478726	Zooparasitic portal cirrhosis
+EMISNQCI2	Cirrhosis of liver due to cystic fibrosis
+EMISR4QFA1	Fatty liver

@@ -1,0 +1,88 @@
+281004	Alcoholic dementia
+2043009	Alcoholic gastritis
+7052005	Alcoholic hallucinosis
+7200002	Alcohol problem drinking
+7916009	Alcohol-induced polyneuropathy
+8635005	Alcohol withdrawal delirium
+9953008	Acute alcoholic hepatitis
+15167005	Alcohol misuse
+19303008	Alcohol myopathy
+21007002	Wernicke's encephalopathy
+24165007	Alcoholism counselling
+29212009	Alcohol-induced organic mental disorder
+41309000	Alcoholic liver damage
+42344001	Alcohol-induced psychosis
+50325005	Alcoholic fatty liver
+64297001	Alcohol detoxification
+66590003	Alcohol dependence
+69482004	Alcohol amnestic syndrome
+73097000	Alcohol amnestic disorder
+83521008	Alcoholic cardiomyopathy
+91388009	[X]Ment & behav dis due use alcohol: unsp ment & behav dis
+135827004	Under care of community alcohol team
+160592001	Alcohol intake above recommended sensible limits
+161466001	H/O: alcoholism
+183388004	Aversion therapy - alcoholism
+183486001	Admitted to alcohol detoxification centre
+191471000	Korsakov's alcoholic psychosis with peripheral neuritis
+191475009	Chronic alcoholic brain syndrome
+191476005	Alcohol withdrawal hallucinosis
+191477001	Pathological alcohol intoxication
+191478006	Alcoholic paranoia
+191480000	Alcohol withdrawal syndrome
+191802004	Acute alcoholic intoxication in alcoholism
+191804003	Continuous acute alcoholic intoxication in alcoholism
+191805002	Episodic acute alcoholic intoxication in alcoholism
+191806001	Acute alcoholic intoxication in remission, in alcoholism
+191811004	Continuous chronic alcoholism
+191812006	Episodic chronic alcoholism
+191813001	Chronic alcoholism in remission
+191882002	Nondependent alcohol abuse, continuous
+191883007	Nondependent alcohol abuse, episodic
+192811002	Cerebral degeneration due to alcoholism
+235875008	Alcoholic hepatitis
+235880004	Alcoholic fibrosis and sclerosis of liver
+235881000	Alcoholic hepatic failure
+235942001	Alcohol-induced acute pancreatitis
+235952002	Alcohol-induced chronic pancreatitis
+237738005	Alcohol-induced pseudo-Cushing's syndrome
+307757001	Chronic alcoholic hepatitis
+308742005	Alcohol withdrawal-induced seizure
+309783001	Oesophageal varices in alcoholic cirrhosis of the liver
+361268000	Alcohol-induced epilepsy
+361272001	Cerebellar ataxia due to alcoholism
+371422002	[V]Personal history of alcoholism
+371422002	History of substance abuse
+390857005	Referral to community alcohol team
+413130000	Alcohol disorder monitoring
+413473000	Alcohol consumption counselling
+413897002	Community detoxification registered
+417096006	Referral to community drug and alcohol team
+417633001	Alcohol induced hallucinations
+420054005	Alcoholic cirrhosis of liver
+431260004	Referral to specialist alcohol treatment service
+707166002	Alcohol reduction programme
+719340007	Withdrawn from alcohol detoxification programme
+720175009	Alcohol harm reduction programme
+166251000000100	Alcohol misuse enhanced services administration
+166471000000105	Alcohol misuse enhanced service completed
+198421000000108	Hazardous alcohol use
+198431000000105	Harmful alcohol use
+231161000000109	Delivery of rehabilitation for alcohol addiction
+247721000000109	Alcohol abuse monitoring
+366371000000105	Brief intervention for excessive alcohol consumption completed
+366421000000103	Extended intervention for excessive alcohol consumption completed
+375941000000101	Advised to contact primary care alcohol worker
+376401000000103	Referral to alcohol brief intervention service
+379411000000105	Brief intervention for excessive alcohol consumption declined
+380861000000109	Declined referral to specialist alcohol treatment service
+471691000000107	[V]Alcohol rehabilitation
+754831000000102	Extended intervention for excessive alcohol consumption declined
+777631000000108	Increasing risk drinking
+781191000000101	Referral to community alcohol team declined
+892631000000102	In-house alcohol detoxification
+918321000000104	Alcohol dependence resolved
+933641000000103	Referral to mental health services deferred until alcohol misuse resolved
+946101000000100	Specialist alcohol treatment service signposted
+968891000000109	Alcohol relapse prevention
+1099951000000107	Alcoholics anonymous

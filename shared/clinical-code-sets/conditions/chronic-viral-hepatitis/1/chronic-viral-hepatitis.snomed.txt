@@ -1,0 +1,32 @@
+10295004	Chronic viral hepatitis
+50711007	Hepatitis C
+61977001	Chronic viral hepatitis B
+66071002	Serum hepatitis
+128302006	Chronic hepatitis C
+165806002	Hepatitis B surface antigen positive
+165807006	Hepatitis e antigen present
+186639003	Chronic viral hepatitis B without delta-agent
+235865005	Acute delta-(super)infection of hepatitis B carrier
+235869004	Chronic viral hepatitis B with delta-agent
+314706002	Hepatitis C antibody test positive
+429721005	History of hepatitis B
+221021000000103	Hepatitis B treatment drugs Band 1
+222531000000101	Hepatitis B viral load
+355741000000101	Hepatitis status 6 months post treatment - enhanced serv adm
+356121000000100	Hepatitis B screening positive
+362421000000102	Chronic hepatitis annual review - enhanced services admin
+362751000000101	Hepatitis C screening positive
+760421000000100	Hepatitis C PCR positive
+761381000000102	Hepatitis C resolved
+812181000000106	Hepatitis C antigen positive
+824841000000105	Hepatitis C genotype 1
+824851000000108	Hepatitis C genotype 2
+824871000000104	Hepatitis C genotype 3
+824881000000102	Hepatitis C genotype 4
+829241000000108	12 week virologic response to hepatitis C treatment
+829691000000100	H/O hepatitis C antiviral drug therapy
+829731000000106	On hepatitis C treatment plan
+992751000000109	Hepatitis C viral load
+992771000000100	Hepatitis C virus genotype
+1030511000000102	Hepatitis C nucleic acid detection
+1031571000000101	Hepatitis B nucleic acid detection

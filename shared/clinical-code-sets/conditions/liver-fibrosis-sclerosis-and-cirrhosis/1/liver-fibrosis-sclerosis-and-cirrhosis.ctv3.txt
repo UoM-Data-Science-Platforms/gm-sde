@@ -1,0 +1,42 @@
+C310.	Glycogen storage disease
+C310y	Other specified glycogenosis
+C310z	Glycogenosis NOS
+J61..	Cirrhosis and chronic liver disease
+J6153	Diffuse nodular cirrhosis
+J6154	Fatty portal cirrhosis
+J6155	Macronodular cirrhosis
+J6156	Capsular portal cirrhosis
+J615D	Bacterial portal cirrhosis
+J615G	Zooparasitic portal cirrhosis
+J615H	Infectious cirrhosis NOS
+J615y	Portal cirrhosis unspecified
+J616.	Biliary cirrhosis
+J6160	Primary biliary cirrhosis
+J6161	Secondary biliary cirrhosis
+J6162	Biliary cirrhosis of children
+J616z	Biliary cirrhosis NOS
+J61y3	Portal fibrosis without cirrhosis
+J6356	Toxic liver disease with fibrosis and cirrhosis of liver
+Jyu71	[X]Other and unspecified cirrhosis of liver
+X3072	Alcoholic fibrosis and sclerosis of liver
+X307b	Hepatic fibrosis with hepatic sclerosis
+X307L	Cirrhosis of liver
+X307M	Cirrhosis of liver NOS
+X307N	Florid cirrhosis
+X307O	Cryptogenic cirrhosis
+X307P	Indian childhood cirrhosis
+X307R	Portal cirrhosis
+X307T	Infectious cirrhosis
+X307W	Fibrosis of liver
+X307Z	Hepatic sclerosis
+Xa9C7	Cardiac cirrhosis
+XaBM6	Oesophageal varices in cirrhosis of the liver
+XaC1d	Oesophageal varices in alcoholic cirrhosis of the liver
+XaXi9	Cystic fibrosis related cirrhosis
+XE0b4	Alcoholic cirrhosis of liver
+XE0b5	Cirrhosis - non-alcoholic
+XE0b6	Multilobular portal cirrhosis
+XE0b7	Cardiac portal cirrhosis
+XE0b8	Juvenile portal cirrhosis
+XE0bA	Non-alcoholic cirrhosis NOS
+XE2up	Cirrhosis secondary to cholestasis

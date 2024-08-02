@@ -1,0 +1,4 @@
+^ESCT1262031	Aspartate aminotransferase enzyme activity in serum
+^ESCT1262102	Aspartate aminotransferase enzyme activity in plasma
+^ESCTAS841213	Aspartate transaminase level
+^ESCTAS841214	AST - aspartate transaminase (SGOT)

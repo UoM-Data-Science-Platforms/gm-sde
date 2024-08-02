@@ -1,0 +1,30 @@
+3738000	Other specified viral hepatitis with coma
+13920009	Hepatic encephalopathy
+16060001	Hepatic coma due to viral hepatitis A
+17890003	Hepatic infarction
+18027006	Transplantation of liver
+26206000	Hepatic coma due to viral hepatitis B
+59927004	Liver failure
+72836002	Hepatic coma
+88797001	Liver transplant with complication, without blame
+174426002	Auxillary liver transplant
+174427006	Replacement of previous liver transplant
+186628001	Viral hepatitis C with coma
+197268000	Acute and subacute liver necrosis
+197269008	Acute necrosis of liver
+197270009	Acute hepatic failure
+197274000	Subacute necrosis of liver
+197275004	Subacute hepatic failure
+197276003	Subacute yellow atrophy
+197356006	Toxic liver disease with hepatic necrosis
+197364000	Central haemorrhagic necrosis of liver
+213153001	Liver transplant failure and rejection
+213230009	Liver failure as a complication of care
+235458006	Exploration of liver transplant
+235856003	Subacute necrosis of liver NOS
+235881000	Alcoholic hepatic failure
+413438002	Acute hepatic failure due to drugs
+426356008	Orthotopic transplantation of whole liver
+704201006	Liver transplant planned
+737297006	Transplanted liver present
+773411000000107	Liver failure support management

@@ -1,0 +1,5 @@
+^ESCTCA478713	CAH - Chronic active hepatitis
+^ESCTCA478715	CAH - Chronic aggressive hepatitis
+^ESCTHA301083	Hanot's cirrhosis
+^ESCTPR301081	Primary biliary cholangitis
+^ESCTPS478786	PSC - Primary sclerosing cholangitis

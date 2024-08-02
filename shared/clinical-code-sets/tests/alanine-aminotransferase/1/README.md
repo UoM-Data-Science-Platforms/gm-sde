@@ -1,4 +1,4 @@
-# Alanine aminotransferase
+# Alanine aminotransferase (ALT test)
 
 This code set includes codes that only includes codes that are accompanied by a value (e.g. `44G3.00 - Serum alanineaminotransferase level`).
 
@@ -6,10 +6,17 @@ Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%52.11 - 58.96%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `57% - 66%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2022-03-21 | EMIS            | 2658131    | 1385275 (52.11%) |  1385275 (52.11%) |
 | 2022-03-21 | TPP             | 212662     |  124421 (58.51%) |   124421 (58.51%) |
 | 2022-03-21 | Vision          | 341594     |  201405 (58.96%) |   201405 (58.96%) |
+| 2024-08-02 | EMIS            | 2535890    |  1435900 (56.6%) |   1435900 (56.6%) |
+| 2024-08-02 | TPP             | 202032     |   133511 (66.1%) |    133511 (66.1%) |
+| 2024-08-02 | Vision          | 336043     |   201260 (59.9%) |    201260 (59.9%) |
+
+## Audit log
+
+- Find_missing_codes last run 2024-08-02

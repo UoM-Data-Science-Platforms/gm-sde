@@ -1,0 +1,3 @@
+X771i	AST serum level
+XaES6	Plasma aspartate transaminase level
+XE25Q	Aspartate transaminase level

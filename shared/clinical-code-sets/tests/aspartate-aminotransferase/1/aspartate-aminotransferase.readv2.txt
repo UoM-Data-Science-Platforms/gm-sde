@@ -1,0 +1,3 @@
+44HB.00	AST serum level
+44H5.00	AST - aspartate transam.(SGOT)
+44HC.00	Plasma aspartate transaminase level

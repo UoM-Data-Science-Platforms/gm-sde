@@ -1,0 +1,26 @@
+^ESCT1191985	Liver cell carcinoma
+^ESCTAN417073	Angiosarcoma of liver
+^ESCTCA402649	CA - Liver cancer
+^ESCTCO334571	Combined hepatocellular carcinoma and cholangiocarcinoma
+^ESCTHC417067	HCC - Hepatocellular carcinoma
+^ESCTHE274767	Hepatocellular carcinoma, fibrolamellar
+^ESCTHE290576	Hepatocellular carcinoma
+^ESCTHE290578	Hepatocarcinoma
+^ESCTHE290579	Hepatoma, malignant
+^ESCTHE290580	Hepatoma
+^ESCTHE334573	Hepatocholangiocarcinoma
+^ESCTHE417064	Hepatocarcinoma
+^ESCTHE417071	Hepatoblastoma
+^ESCTHO686961	H/O: malignant neoplasm of gastrointestinal tract
+^ESCTLC417068	LCC - Liver cell carcinoma
+^ESCTLI290577	Liver cell carcinoma
+^ESCTLI402650	Liver cancer
+^ESCTLI417069	Liver carcinoma
+^ESCTMA402651	Malignant tumor of liver
+^ESCTMA402652	Malignant tumour of liver
+^ESCTMA417066	Malignant hepatoma
+^ESCTMI334572	Mixed hepatocellular and bile duct carcinoma
+^ESCTNE404692	Neoplasm of uncertain behavior of liver
+^ESCTNE552509	Neoplasm of uncertain behavior of liver and/or biliary passages
+^ESCTPE686962	Personal history of primary malignant neoplasm of gastrointestinal tract
+^ESCTNE535554	Neoplasm of uncertain behavior of biliary system

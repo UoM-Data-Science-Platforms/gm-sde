@@ -1,0 +1,153 @@
+136a.00	Increasing risk drinking
+136K.00	Alcohol intake above recommended sensible limits
+136S.00	Hazardous alcohol use
+136T.00	Harmful alcohol use
+136W.00	Alcohol misuse
+13Y8.00	Alcoholics anonymous
+1462.00	H/O: alcoholism
+1B1c.00	Alcohol induced hallucinations
+1T...00	History of substance misuse
+2126C00	Alcohol dependence resolved
+66e..00	Alcohol disorder monitoring
+66e0.00	Alcohol abuse monitoring
+7P22100	Delivery of rehabilitation for alcohol addiction
+8BA8.00	Alcohol detoxification
+8BAs.00	Alcohol relapse prevention
+8BAu.00	Alcohol harm reduction programme
+8CAv.00	Advised to contact primary care alcohol worker
+8CdK.00	Specialist alcohol treatment service signposted
+8G32.00	Aversion therapy - alcoholism
+8H35.00	Admitted to alcohol detoxification centre
+8H7p.00	Referral to community alcohol team
+8HHe.00	Referral to community drug and alcohol team
+8HkG.00	Referral to specialist alcohol treatment service
+8HkJ.00	Referral to alcohol brief intervention service
+8IAF.00	Brief intervention for excessive alcohol consumption declined
+8IAJ.00	Declined referral to specialist alcohol treatment service
+8IAt.00	Extended intervention for excessive alcohol consumption declined
+8IEA.00	Referral to community alcohol team declined
+8W2..00	Referral to mental health services deferred until alcohol misuse resolved
+9k1..00	Alcohol misuse - enhanced services administration
+9k10.00	Community detoxification registered
+9k11.00	Alcohol consumption counselling
+9k12.00	Alcohol misuse - enhanced service completed
+9k1A.00	Brief intervention for excessive alcohol consumption completed
+9k1B.00	Extended intervention for excessive alcohol consumption completed
+9NgzH00	Withdrawn from alcohol detoxification programme
+9NJz.00	In-house alcohol detoxification
+9NN2.00	Under care of community alcohol team
+C150500	Alcohol-induced pseudo-Cushing's syndrome
+C253.00	Wernicke's encephalopathy
+E01..00	Alcoholic psychoses
+E010.00	Alcohol withdrawal delirium
+E011.00	Alcohol amnestic syndrome
+E011000	Korsakov's alcoholic psychosis
+E011100	Korsakov's alcoholic psychosis with peripheral neuritis
+E011200	Wernicke-Korsakov syndrome
+E011z00	Alcohol amnestic syndrome NOS
+E012.00	Other alcoholic dementia
+E012000	Chronic alcoholic brain syndrome
+E013.00	Alcohol withdrawal hallucinosis
+E014.00	Pathological alcohol intoxication
+E015.00	Alcoholic paranoia
+E01y.00	Other alcoholic psychosis
+E01y000	Alcohol withdrawal syndrome
+E01yz00	Other alcoholic psychosis NOS
+E01z.00	Alcoholic psychosis NOS
+E23..00	Alcohol dependence syndrome
+E230.00	Acute alcoholic intoxication in alcoholism
+E230000	Acute alcoholic intoxication, unspecified, in alcoholism
+E230100	Continuous acute alcoholic intoxication in alcoholism
+E230200	Episodic acute alcoholic intoxication in alcoholism
+E230300	Acute alcoholic intoxication in remission, in alcoholism
+E230z00	Acute alcoholic intoxication in alcoholism NOS
+E231.00	Chronic alcoholism
+E231000	Unspecified chronic alcoholism
+E231100	Continuous chronic alcoholism
+E231200	Episodic chronic alcoholism
+E231300	Chronic alcoholism in remission
+E231z00	Chronic alcoholism NOS
+E23z.00	Alcohol dependence syndrome NOS
+E250100	Nondependent alcohol abuse, continuous
+E250200	Nondependent alcohol abuse, episodic
+Eu10.00	[X]Mental and behavioural disorders due to use of alcohol
+Eu10100	[X]Mental and behavioural disorders due to use of alcohol: harmful use
+Eu10200	[X]Mental and behavioural disorders due to use of alcohol: dependence syndrome
+Eu10300	[X]Mental and behavioural disorders due to use of alcohol: withdrawal state
+Eu10400	[X]Mental and behavioural disorders due to use of alcohol: withdrawal state with delirium
+Eu10500	[X]Mental and behavioural disorders due to use of alcohol: psychotic disorder
+Eu10600	[X]Mental and behavioural disorders due to use of alcohol: amnesic syndrome
+Eu10700	[X]Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder
+Eu10800	[X]Alcohol withdrawal-induced seizure
+Eu10y00	[X]Mental and behavioural disorders due to use of alcohol: other mental and behavioural disorders
+Eu10z00	[X]Mental and behavioural disorders due to use of alcohol: unspecified mental and behavioural disorder
+Eu11400	[X]Mental and behavioural disorders due to use of opioids: withdrawal state with delirium
+Eu11600	[X]Mental and behavioural disorders due to use of opioids: amnesic syndrome
+Eu11z00	[X]Mental and behavioural disorders due to use of opioids: unspecified mental and behavioural disorder
+Eu12600	[X]Mental and behavioural disorders due to use of cannabinoids: amnesic syndrome
+Eu12700	[X]Mental and behavioural disorders due to use of cannabinoids: residual and late-onset psychotic disorder
+Eu13.00	[X]Mental and behavioural disorders due to use of sedatives or hypnotics
+Eu13000	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: acute intoxication
+Eu13100	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: harmful use
+Eu13300	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: withdrawal state
+Eu13400	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: withdrawal state with delirium
+Eu13600	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: amnesic syndrome
+Eu13700	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: residual and late-onset psychotic disorder
+Eu13y00	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: other mental and behavioural disorders
+Eu13z00	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: unspecified mental and behavioural disorder
+Eu14000	[X]Mental and behavioural disorders due to use of cocaine: acute intoxication
+Eu14300	[X]Mental and behavioural disorders due to use of cocaine: withdrawal state
+Eu14400	[X]Mental and behavioural disorders due to use of cocaine: withdrawal state with delirium
+Eu14600	[X]Mental and behavioural disorders due to use of cocaine: amnesic syndrome
+Eu14700	[X]Mental and behavioural disorders due to use of cocaine: residual and late-onset psychotic disorder
+Eu14z00	[X]Mental and behavioural disorders due to use of cocaine: unspecified mental and behavioural disorder
+Eu15.00	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine
+Eu15100	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: harmful use
+Eu15200	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: dependence syndrome
+Eu15300	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: withdrawal state
+Eu15400	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: withdrawal state with delirium
+Eu15600	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: amnesic syndrome
+Eu16.00	[X]Mental and behavioural disorders due to use of hallucinogens
+Eu16000	[X]Mental and behavioural disorders due to use of hallucinogens: acute intoxication
+Eu16100	[X]Mental and behavioural disorders due to use of hallucinogens: harmful use
+Eu16300	[X]Mental and behavioural disorders due to use of hallucinogens: withdrawal state
+Eu16400	[X]Mental and behavioural disorders due to use of hallucinogens: withdrawal state with delirium
+Eu16600	[X]Mental and behavioural disorders due to use of hallucinogens: amnesic syndrome
+Eu16700	[X]Mental and behavioural disorders due to use of hallucinogens: residual and late-onset psychotic disorder
+Eu16y00	[X]Mental and behavioural disorders due to use of hallucinogens: other mental and behavioural disorders
+Eu16z00	[X]Mental and behavioural disorders due to use of hallucinogens: unspecified mental and behavioural disorder
+Eu18100	[X]Mental and behavioural disorders due to use of volatile solvents: harmful use
+Eu18200	[X]Mental and behavioural disorders due to use of volatile solvents: dependence syndrome
+Eu18600	[X]Mental and behavioural disorders due to use of volatile solvents: amnesic syndrome
+Eu18700	[X]Mental and behavioural disorders due to use of volatile solvents: residual and late-onset psychotic disorder
+Eu18y00	[X]Mental and behavioural disorders due to use of volatile solvents: other mental and behavioural disorders
+Eu18z00	[X]Mental and behavioural disorders due to use of volatile solvents: unspecified mental and behavioural disorder
+Eu19000	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: acute intoxication
+Eu19200	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: dependence syndrome
+Eu19300	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: withdrawal state
+Eu19400	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: withdrawal state with delirium
+Eu19700	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: residual and late-onset psychotic
+Eu19y00	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: other mental and behavioural disorders
+Eu19z00	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: unspecified mental and behavioural disorder
+F11x000	Cerebral degeneration due to alcoholism
+F144000	Cerebellar ataxia due to alcoholism
+F25B.00	Alcohol-induced epilepsy
+F375.00	Alcoholic polyneuropathy
+F394100	Alcoholic myopathy
+G555.00	Alcoholic cardiomyopathy
+G852300	Oesophageal varices in alcoholic cirrhosis of the liver
+J153.00	Alcoholic gastritis
+J610.00	Alcoholic fatty liver
+J611.00	Acute alcoholic hepatitis
+J612.00	Alcoholic cirrhosis of liver
+J612000	Alcoholic fibrosis and sclerosis of liver
+J613.00	Alcoholic liver damage unspecified
+J613000	Alcoholic hepatic failure
+J617.00	Alcoholic hepatitis
+J617000	Chronic alcoholic hepatitis
+J670800	Alcohol-induced acute pancreatitis
+J671000	Alcohol-induced chronic pancreatitis
+ZV11300	[V]Personal history of alcoholism
+ZV11400	[V]Personal history of psychoactive substance abuse
+ZV57A00	[V]Alcohol rehabilitation
+ZV6D600	[V]Alcohol abuse counselling and surveillance

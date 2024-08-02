@@ -1,0 +1,5 @@
+J614100	Chronic active hepatitis
+J614200	Chronic aggressive hepatitis
+J616000	Primary biliary cirrhosis
+J63B.00	Autoimmune hepatitis
+J661700	Primary sclerosing cholangitis

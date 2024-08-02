@@ -1,0 +1,10 @@
+^ESCT1270251	ALT - blood measurement
+^ESCTAL305713	Alanine aminotransferase measurement
+^ESCTAL305714	ALT measurement
+^ESCTAL305718	ALT/SGPT serum level
+^ESCTAL528831	Alanine aminotransferase (ALT) - blood measurement
+^ESCTAL528832	Alanine aminotransferase - blood measurement
+^ESCTFI627834	Finding of liver enzyme levels
+^ESCTGL305716	Glutamic pyruvate transaminase measurement
+^ESCTGP305717	GPT measurement
+^ESCTSG305715	SGPT measurement

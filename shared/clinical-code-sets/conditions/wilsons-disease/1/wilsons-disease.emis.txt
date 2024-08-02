@@ -1,0 +1,12 @@
+^ESCTCH786096	Chorea co-occurrent and due to Wilson disease
+^ESCTCH786097	Chorea with Wilson disease
+^ESCTCO393857	Copper storage disease
+^ESCTHE393856	Hepatolenticular degeneration syndrome
+^ESCTHE393858	Hepatocerebral degeneration
+^ESCTHE393859	Hepatolenticular degeneration
+^ESCTKI393860	Kinnier-Wilson disease
+^ESCTNE393861	Neurohepatic degeneration
+^ESCTPR393862	Progressive lenticular degeneration
+^ESCTWD393863	WD - Wilson's disease
+^ESCTWE476005	Westphal-Strumpell syndrome
+^ESCTWI393864	Wilson disease

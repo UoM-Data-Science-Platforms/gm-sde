@@ -1,0 +1,11 @@
+^ESCT1190366	Steatosis
+^ESCT1421007	Non-alcoholic steatohepatitis
+^ESCTAL331504	Alcoholic steatosis
+^ESCTAL331506	Alcoholic fatty liver disease
+^ESCTFA551775	Fatty metamorphosis of viscera
+^ESCTHE478733	Hepatic lipidosis
+^ESCTNA478729	NAFLD - Nonalcoholic fatty liver disease
+^ESCTNA726693	NASH - Nonalcoholic steatohepatitis
+^ESCTVI551776	Visceral steatosis
+^ESCTWH551777	White liver disease
+EMISR4QFA1	Fatty liver

@@ -1,0 +1,6 @@
+364571000119101	Alanine transaminase in serum
+1018251000000107	Serum alanine aminotransferase level
+166641008	Liver enzymes (& blood level [ALT] or [SGPT])
+250637003	ALT - blood measurement (procedure)
+34608000	Alanine aminotransferase measurement (procedure)
+365769003	Finding of liver enzyme levels (finding)

@@ -1,0 +1,35 @@
+1761006	Biliary cirrhosis
+6183001	Indian childhood cirrhosis
+12368000	Secondary biliary cirrhosis
+19943007	Cirrhosis of liver
+29633007	Glycogenosis with hepatic cirrhosis
+31712002	Primary biliary cirrhosis
+43904005	Macronodular cirrhosis of liver
+62484002	Hepatic fibrosis
+74669004	Congestive cirrhosis
+76301009	Florid cirrhosis
+89580002	Cryptogenic cirrhosis
+197279005	Cirrhosis and chronic liver disease
+197293003	Diffuse nodular cirrhosis
+197294009	Fatty portal cirrhosis
+197296006	Capsular portal cirrhosis
+197303009	Bacterial portal cirrhosis
+197306001	Zooparasitic portal cirrhosis
+197310003	Biliary cirrhosis of children
+197316009	Portal fibrosis without cirrhosis
+197362001	Toxic liver disease with fibrosis and cirrhosis of liver
+235880004	Alcoholic fibrosis and sclerosis of liver
+235896001	Infectious cirrhosis
+235899008	Hepatic sclerosis
+235901004	Hepatic fibrosis with hepatic sclerosis
+266468003	Cirrhosis - non-alcoholic
+266469006	Multilobular portal cirrhosis
+266470007	Cardiac portal cirrhosis
+266471006	Juvenile portal cirrhosis
+271440004	Xanthomatous portal cirrhosis
+308129003	Oesophageal varices in cirrhosis of the liver
+309783001	Oesophageal varices in alcoholic cirrhosis of the liver
+399126000	Pigmentary cirrhosis of liver
+419728003	Portal cirrhosis
+420054005	Alcoholic cirrhosis of liver
+776981000000103	Cystic fibrosis related cirrhosis

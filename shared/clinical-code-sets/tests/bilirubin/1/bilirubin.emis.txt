@@ -1,0 +1,10 @@
+^ESCT1262081	Conjugated bilirubin substance concentration in serum
+^ESCT1262082	Conjugated bilirubin molar concentration in serum
+^ESCT1262166	Total bilirubin substance concentration in serum
+^ESCT1262167	Total bilirubin molar concentration in serum
+^ESCTBI627882	Bilirubin level - finding
+^ESCTFI627884	Finding of bilirubin level
+^ESCTBI313931	Bilirubin, direct measurement
+^ESCTBI313932	Bilirubin, conjugated measurement
+^ESCTCO313933	Conjugated bilirubin level
+^ESCTDI313934	Direct bilirubin level
