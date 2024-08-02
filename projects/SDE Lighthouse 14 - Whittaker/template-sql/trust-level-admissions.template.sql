@@ -2,15 +2,11 @@
 --│ SDE Lighthouse study 14 - Whittaker - Trust level admissions │
 --└──────────────────────────────────────────────────────────────┘
 
--- Average emergency department door to provider time - UNLIKELY
--- Average emergency department onboarding time - UNLIKELY
--- Average bed request to assign time - UNLIKELY
-
 USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
 
 -- Date range: 2018 to present
 
-set(StudyStartDate) = to_date('2018-01-01');
+set(StudyStartDate) = to_date('2018-04-01');
 set(StudyEndDate)   = to_date('2024-06-30');
 
 -- CREATE A TABLE OF ADMISSIONS FROM GM TRUSTS
@@ -29,7 +25,7 @@ WHERE "ProviderDesc" IN
      'The Christie NHS Foundation Trust')
 and "HospitalSpellDuration" != '*'; -- < 10 records have missing discharge date and spell duration, so exclude
   -- FILTER OUT ELECTIVE ??   
-
+select "IsReadmission", count(*) from ManchesterTrusts group by "IsReadmission"
 -- MONTHLY ADMISSION COUNTS AND AVG LENGTH OF STAY BY TRUST
 
     -- GROUP BY TRUST ONLY
@@ -42,6 +38,7 @@ select
     , case when count(*) <= 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
+--AND IsReadmission" = 'FALSE'
 group by   YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
@@ -56,7 +53,7 @@ select
     , case when count(*) <= 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
-and "IsReadmission" = 1
+and "IsReadmission" = 'TRUE'
 group by   YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
@@ -66,7 +63,8 @@ select
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
     , "ProviderDesc" 
-    , "DerPrimaryDiagnosisChapterDescReportingEpisode" as PrimaryICDCategory
+    , "DerPrimaryDiagnosisChapterCodeReportingEpisode" as PrimaryICDCategoryCode
+    , "DerPrimaryDiagnosisChapterDescReportingEpisode" as PrimaryICDCategoryDesc
     , case when count(*) < 5 then 5 else count(*) end as Admissions  --mask small values
     , case when count(*) <= 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
 from ManchesterTrusts
@@ -75,11 +73,13 @@ group by
       YEAR("AdmissionDttm") 
     , MONTH("AdmissionDttm") 
     , "ProviderDesc"
+    , "DerPrimaryDiagnosisChapterCodeReportingEpisode" 
     , "DerPrimaryDiagnosisChapterDescReportingEpisode"
 order by 
       YEAR("AdmissionDttm") 
     , MONTH("AdmissionDttm") 
     , "ProviderDesc"
+    , "DerPrimaryDiagnosisChapterCodeReportingEpisode" 
     , "DerPrimaryDiagnosisChapterDescReportingEpisode";
 
     -- GROUP BY TRUST AND AGE BAND
