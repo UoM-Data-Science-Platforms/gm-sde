@@ -39,7 +39,7 @@ select
     , MONTH("AdmissionDttm") AS "Month"
     ,"ProviderDesc"
     , case when count(*) < 5 then 5 else count(*) end as Admissions  --mask small values
-    , case when count(*)  5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
+    , case when count(*) <= 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 group by   YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
@@ -53,7 +53,7 @@ select
     , MONTH("AdmissionDttm") AS "Month"
     ,"ProviderDesc"
     , case when count(*) < 5 then 5 else count(*) end as Readmissions  --mask small values
-    , case when count(*)  5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
+    , case when count(*) <= 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 and "IsReadmission" = 1
