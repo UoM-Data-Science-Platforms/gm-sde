@@ -1,0 +1,46 @@
+a61..00	CIMETIDINE
+a61z.00	CIMETIDINE 4mg/mL intravenous infusion
+a61y.00	*CIMETIDIN 200mg/2mL injection
+a61x.00	CIMETIDINE 200mg/5mL syrup
+a61w.00	CIMETIDINE 800mg tablets
+a61v.00	CIMETIDINE 400mg tablets
+a61u.00	CIMETIDINE 200mg tablets
+a61t.00	CIMETIDINE+SODIUM ALGINATE 100/250mg/5mL suspension
+a61s.00	CIMETIDINE+ALGINIC ACID 200mg/500mg chewable tablets
+a61g.00	*PEPTIMAX 800mg tablets
+a61f.00	*PEPTIMAX 400mg tablets
+a61e.00	*PEPTIMAX 200mg tablets
+a61d.00	TAGAMET EFFERVESCENT 400mg tablets
+a61c.00	CIMETIDINE COMPOUND suspension
+a61b.00	ALGITEC 100mg/250mg/5mL suspension 600mL
+a61a.00	ALGITEC 200mg/500mg chewable tablets
+a61U.00	TAGAMET DUAL ACTION liquid 600mL
+a61T.00	TAGAMET DUAL ACTION liquid 200mL
+a61S.00	*ACITAK-800 tablets
+a61R.00	*ACITAK-400 tablets
+a61Q.00	*ACITAK-200 tablets
+a61P.00	*ULTEC 800mg tablets
+a61O.00	*ULTEC 400mg tablets
+a61N.00	*ULTEC 200mg tablets
+a61M.00	*ZITA 800mg tablets
+a61L.00	*ZITA 400mg tablets
+a61K.00	*ZITA 200mg tablets
+a61J.00	CIMETIDINE 400mg/100mL intravenous infusion
+a61I.00	CIMETIDINE 200mg/5mL sugar free oral solution
+a61H.00	*PHIMETIN 800mg tablets
+a61G.00	*PHIMETIN 400mg tablets
+a61F.00	*PHIMETIN 200mg tablets
+a61E.00	CIMETIDINE 200mg chewable tablets
+a61D.00	CIMETIDINE 400mg effervescent tablets
+a61C.00	*GALENAMET 800mg tablets
+a61B.00	*GALENAMET 400mg tablets
+a61A.00	*GALENAMET 200mg tablets
+a619.00	CIMETIDINE 200mg/5mL suspension 600mL
+a618.00	*DYSPAMET 200mg/5mL suspension
+a617.00	DYSPAMET CHEWTAB 200mg chewable tablets
+a616.00	TAGAMET 4mg/mL intravenous infusion 100mL
+a615.00	*TAGAMET 200mg/2mL injection
+a614.00	TAGAMET 200mg/5mL syrup
+a613.00	TAGAMET 800mg tablets
+a612.00	TAGAMET 400mg tablets
+a611.00	TAGAMET 200mg tablets

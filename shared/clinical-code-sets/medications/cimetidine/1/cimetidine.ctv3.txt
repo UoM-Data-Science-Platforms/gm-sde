@@ -1,0 +1,71 @@
+a61..	Cimetidine
+x019P	Cimetidine+alginate
+a61t.	Cimetidine+sodium alginate 100mg/250mg/5mL oral suspension
+x03dL	Tagamet Dual Action liquid
+a61U.	Tagamet Dual Action liquid 600mL
+a61T.	Tagamet Dual Action liquid 200mL
+x00eJ	Algitec suspension
+a61b.	Algitec 100mg/250mg/5mL suspension 600mL
+a61s.	Cimetidine+alginic acid 200mg/500mg chewable tablet
+a61a.	Algitec chewable tablet
+x019O	Parenteral cimetidine
+a61y.	Cimetidine 200mg/2mL injection
+a615.	Tagamet 200mg/2mL injection
+a61J.	Cimetidine 400mg/100mL infusion
+a61z.	Cimetidine 4mg/mL intravenous infusion
+a616.	Tagamet 400mg/100mL infusion
+x019N	Oral cimetidine
+x02AM	Cimetidine 100mg tablet
+x02AN	Tagamet 100 tablet
+x00Xy	Cimetidine 200mg/5mL oral suspension
+a619.	Cimetidine 200mg/5mL suspension 600mL
+a618.	Dyspamet 200mg/5mL suspension
+a61x.	Cimetidine 200mg/5mL syrup
+a614.	Tagamet 200mg/5mL syrup
+a61w.	Cimetidine 800mg tablet
+a61g.	Peptimax 800 tablet
+a61S.	Acitak 800 tablet
+a61P.	Ultec 800mg tablet
+a61M.	Zita 800mg tablet
+a61H.	Phimetin 800mg tablet
+a61C.	Galenamet 800mg tablet
+a613.	Tagamet 800mg tablet
+a61v.	Cimetidine 400mg tablet
+a61f.	Peptimax 400 tablet
+a61R.	Acitak 400 tablet
+a61O.	Ultec 400mg tablet
+a61L.	Zita 400mg tablet
+a61G.	Phimetin 400mg tablet
+a61B.	Galenamet 400mg tablet
+a612.	Tagamet 400mg tablet
+a61u.	Cimetidine 200mg tablet
+a61e.	Peptimax 200 tablet
+a61Q.	Acitak 200 tablet
+a61N.	Ultec 200mg tablet
+a61K.	Zita 200mg tablet
+a61F.	Phimetin 200mg tablet
+a61A.	Galenamet 200mg tablet
+a611.	Tagamet 200mg tablet
+a61c.	Cimetidine compound suspension
+a61I.	Cimetidine 200mg/5mL s/f oral solution
+a61E.	Cimetidine 200mg chewable tablet
+a617.	Dyspamet Chewtab 200mg chewable tablet
+a61D.	Cimetidine 400mg effervescent tablet
+a61d.	Tagamet 400mg effervescent tablet
+x02s6	Tagamet
+x03yG	Tagamet 100
+x03yH	Tagamet Dual Action
+x02nD	Peptimax
+x03ug	Peptimax 200
+x03uh	Peptimax 400
+x03ui	Peptimax 800
+x02TC	Algitec
+x02tg	Ultec
+x02v8	Zita
+x02nP	Phimetin
+x02db	Galenamet
+x02aq	Dyspamet
+x02Sf	Acitak
+x047P	Acitak 200
+x047Q	Acitak 400
+x047R	Acitak 800

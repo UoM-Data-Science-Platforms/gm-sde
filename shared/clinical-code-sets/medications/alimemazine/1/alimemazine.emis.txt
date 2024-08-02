@@ -1,0 +1,198 @@
+ALOR138781NEMIS	Alimemazine  Oral Solution, Sugar Free  30 mg/5 ml
+ALOR138782NEMIS	Alimemazine  Oral Solution, Sugar Free  7.5 mg/5 ml
+ALOR139535NEMIS	Alimemazine  Oral Solution, Sugar Free  10 mg/5 ml
+ALSY137909NEMIS	Alfresed  Syrup  7.5 mg/5 ml
+ALSY137910NEMIS	Alfresed  Syrup  30 mg/5 ml
+ALSY17779NEMIS	Alimemazine  Oral solution  7.5 mg/5 ml
+ALSY17780NEMIS	Alimemazine  Oral solution  30 mg/5 ml
+ALTA17781NEMIS	Alimemazine  Tablets  10 mg
+ITOR141862NEMIS	Itzenal  Oral Solution, Sugar Free  30 mg/5 ml
+ITOR141863NEMIS	Itzenal  Oral Solution, Sugar Free  7.5 mg/5 ml
+TRSY2934	Trimeprazine Tartrate  Syrup  7.5 mg/5 ml
+TRSY2935	Trimeprazine Tartrate  Syrup forte  30 mg/5 ml
+TRTA2936	Trimeprazine Tartrate  Tablets  10 mg
+VASY3010	Vallergan  Syrup  7.5 mg/5 ml
+VASY3011	Vallergan  Syrup forte  30 mg/5 ml
+VATA3012	Vallergan  Tablets  10 mg
+^ESCT1181052	Product containing only trimeprazine tartrate 10 mg/1 each oral tablet
+^ESCT1181053	Product containing only alimemazine tartrate 10 mg/1 each oral tablet
+^ESCT1199413	Alimemazine 7.5mg/5ml oral solution (Thame Laboratories Ltd)
+^ESCT1199414	Alimemazine 7.5mg/5ml oral solution (Thame Laboratories Ltd) 100 ml
+^ESCT1199415	Alimemazine 30mg/5ml oral solution (Thame Laboratories Ltd)
+^ESCT1199416	Alimemazine 30mg/5ml oral solution (Thame Laboratories Ltd) 100 ml
+^ESCT1206228	Alimemazine in oral dosage form
+^ESCT1206229	Product containing alimemazine in oral dosage form
+^ESCT1206230	Trimeprazine in oral dosage form
+^ESCT1208667	Alimemazine tartrate 1.5 mg/mL oral solution
+^ESCT1208668	Product containing precisely alimemazine tartrate 1.5 milligram/1 milliliter conventional release oral solution
+^ESCT1208669	Trimeprazine tartrate 1.5 mg/mL oral solution
+^ESCT1208670	Alimemazine tartrate 6 mg/mL oral solution
+^ESCT1208671	Product containing precisely alimemazine tartrate 6 milligram/1 milliliter conventional release oral solution
+^ESCT1208672	Trimeprazine tartrate 6 mg/mL oral solution
+^ESCT1214642	Alimemazine 30mg/5ml oral solution
+^ESCT1214643	Alimemazine 7.5mg/5ml oral solution
+^ESCT1216790	Alimemazine
+^ESCT1216791	Alimemazine product
+^ESCT1216792	Trimeprazine product
+^ESCT1223261	Product containing precisely alimemazine tartrate 10 milligram/1 each conventional release oral tablet
+^ESCT1255654	Alimemazine 5mg/5ml oral suspension 1 ml
+^ESCT1255655	Alimemazine 5mg/5ml oral suspension (Special Order)
+^ESCT1255656	Alimemazine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1255663	Alimemazine 1.5mg/5ml oral solution 1 ml
+^ESCT1255664	Alimemazine 1.5mg/5ml oral solution (Special Order)
+^ESCT1255665	Alimemazine 1.5mg/5ml oral solution (Special Order) 1 ml
+^ESCT1255766	Alimemazine 1.5mg/5ml oral solution
+^ESCT1255767	Alimemazine 5mg/5ml oral suspension
+^ESCT1262895	Alimemazine 30mg/5ml oral solution (Advanz Pharma)
+^ESCT1262896	Alimemazine 30mg/5ml oral solution (Advanz Pharma) 100 ml
+^ESCT1262897	Alimemazine 7.5mg/5ml oral solution (Advanz Pharma)
+^ESCT1262898	Alimemazine 7.5mg/5ml oral solution (Advanz Pharma) 100 ml
+^ESCT1263723	Alimemazine 7.5mg/5ml oral solution (Mawdsley-Brooks & Company Ltd)
+^ESCT1263724	Alimemazine 7.5mg/5ml oral solution (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCT1263726	Alimemazine 30mg/5ml oral solution (Mawdsley-Brooks & Company Ltd)
+^ESCT1263728	Alimemazine 30mg/5ml oral solution (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCT1266497	Alimemazine 10mg tablets (Advanz Pharma)
+^ESCT1266498	Alimemazine 10mg tablets (Advanz Pharma) 28 tablet
+^ESCT1274990	Alimemazine 10mg tablets (Pilsco Ltd)
+^ESCT1274991	Alimemazine 10mg tablets (Pilsco Ltd) 25 tablet
+^ESCT1274992	Alimemazine 10mg tablets 50 tablet
+^ESCT1274993	Alimemazine 10mg tablets (Pilsco Ltd) 50 tablet
+^ESCT1353366	Alimemazine only product
+^ESCT1353367	Trimeprazine only product
+^ESCT1357406	Alimemazine only product in oral dose form
+^ESCT1357407	Trimeprazine only product in oral dose form
+^ESCT1367524	Alfresed
+^ESCT1374576	Alimemazine 30mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1374577	Alimemazine 30mg/5ml oral solution (Medihealth (Northern) Ltd) 100 ml
+^ESCT1374578	Alimemazine 7.5mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1374579	Alimemazine 7.5mg/5ml oral solution (Medihealth (Northern) Ltd) 100 ml
+^ESCT1374580	Alimemazine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374581	Alimemazine 10mg tablets (Medihealth (Northern) Ltd) 25 tablet
+^ESCT1375586	Alfresed 30mg/5ml syrup (Thame Laboratories Ltd)
+^ESCT1375596	Alfresed 30mg/5ml syrup (Thame Laboratories Ltd) 100 ml
+^ESCT1375603	Alfresed 7.5mg/5ml syrup (Thame Laboratories Ltd)
+^ESCT1375604	Alfresed 7.5mg/5ml syrup (Thame Laboratories Ltd) 100 ml
+^ESCT1386172	Alimemazine-containing product in oral dose form
+^ESCT1386173	Trimeprazine-containing product in oral dose form
+^ESCT1404144	Alimemazine 7.5mg/5ml oral solution sugar free 100 ml
+^ESCT1404145	Alimemazine 7.5mg/5ml oral solution sugar free (Zentiva)
+^ESCT1404147	Alimemazine 7.5mg/5ml oral solution sugar free (Zentiva) 100 ml
+^ESCT1404151	Alimemazine 30mg/5ml oral solution sugar free 100 ml
+^ESCT1404154	Alimemazine 30mg/5ml oral solution sugar free (Zentiva)
+^ESCT1404157	Alimemazine 30mg/5ml oral solution sugar free (Zentiva) 100 ml
+^ESCT1404981	Alimemazine 30mg/5ml oral solution sugar free
+^ESCT1404982	Alimemazine 7.5mg/5ml oral solution sugar free
+^ESCT1419117	Alimemazine 30mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1419118	Alimemazine 30mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCT1419121	Alimemazine 7.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1419122	Alimemazine 7.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCT1422306	Alimemazine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422307	Alimemazine 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422364	Alimemazine 30mg/5ml oral solution (Zentiva Pharma UK Ltd)
+^ESCT1422365	Alimemazine 30mg/5ml oral solution (Zentiva Pharma UK Ltd) 100 ml
+^ESCT1422366	Alimemazine 7.5mg/5ml oral solution (Zentiva Pharma UK Ltd)
+^ESCT1422367	Alimemazine 7.5mg/5ml oral solution (Zentiva Pharma UK Ltd) 100 ml
+^ESCT1423088	Alfresed 30mg/5ml syrup (Syri Ltd)
+^ESCT1423089	Alfresed 30mg/5ml syrup (Syri Ltd) 100 ml
+^ESCT1423090	Alfresed 7.5mg/5ml syrup (Syri Ltd)
+^ESCT1423091	Alfresed 7.5mg/5ml syrup (Syri Ltd) 100 ml
+^ESCT1423110	Alimemazine 7.5mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1423111	Alimemazine 7.5mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd) 100 ml
+^ESCT1423112	Alimemazine 30mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1423113	Alimemazine 30mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd) 100 ml
+^ESCT1423421	Alimemazine 7.5mg/5ml oral solution sugar free (Lucis Pharma Ltd)
+^ESCT1423422	Alimemazine 7.5mg/5ml oral solution sugar free (Lucis Pharma Ltd) 100 ml
+^ESCT1423423	Alimemazine 10mg/5ml oral solution sugar free 100 ml
+^ESCT1423424	Alimemazine 10mg/5ml oral solution sugar free (Lucis Pharma Ltd)
+^ESCT1423425	Alimemazine 10mg/5ml oral solution sugar free (Lucis Pharma Ltd) 100 ml
+^ESCT1423426	Alimemazine 30mg/5ml oral solution sugar free (Lucis Pharma Ltd)
+^ESCT1423427	Alimemazine 30mg/5ml oral solution sugar free (Lucis Pharma Ltd) 100 ml
+^ESCT1424031	Alimemazine 10mg/5ml oral solution sugar free
+^ESCT1424041	Alimemazine 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1424042	Alimemazine 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCT1424043	Alimemazine 30mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1424044	Alimemazine 30mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCT1424045	Alimemazine 7.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1424046	Alimemazine 7.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCT1429010	Alimemazine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1431533	Alimemazine 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1431534	Alimemazine 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTAL1022375	Alimemazine 10mg tablets (DE Pharmaceuticals)
+^ESCTAL1022376	Alimemazine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAL1036723	Alimemazine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAL1036724	Alimemazine 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAL1038978	Alimemazine 10mg tablets 25 tablet
+^ESCTAL1038979	Alimemazine 10mg tablets (Waymade Healthcare Plc)
+^ESCTAL1038980	Alimemazine 10mg tablets (Waymade Healthcare Plc) 25 tablet
+^ESCTAL1041985	Alimemazine 10mg tablets (Cubic Pharmaceuticals Ltd)
+^ESCTAL1041986	Alimemazine 10mg tablets (Cubic Pharmaceuticals Ltd) 28 tablet
+^ESCTAL1045379	Alimemazine 7.5mg/5ml oral solution (Phoenix Healthcare Distribution Ltd)
+^ESCTAL1045380	Alimemazine 7.5mg/5ml oral solution (Phoenix Healthcare Distribution Ltd) 100 ml
+^ESCTAL1045381	Alimemazine 30mg/5ml oral solution (Phoenix Healthcare Distribution Ltd)
+^ESCTAL1045382	Alimemazine 30mg/5ml oral solution (Phoenix Healthcare Distribution Ltd) 100 ml
+^ESCTAL1045383	Alimemazine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAL1045384	Alimemazine 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAL1048867	Alimemazine 7.5mg/5ml oral solution (DE Pharmaceuticals)
+^ESCTAL1048868	Alimemazine 7.5mg/5ml oral solution (DE Pharmaceuticals) 100 ml
+^ESCTAL1048869	Alimemazine 10mg tablets (DE Pharmaceuticals) 25 tablet
+^ESCTAL1119175	Alimemazine 30mg/5ml oral solution (DE Pharmaceuticals)
+^ESCTAL1119176	Alimemazine 30mg/5ml oral solution (DE Pharmaceuticals) 100 ml
+^ESCTAL1128327	Alimemazine 10mg/5ml oral solution 1 ml
+^ESCTAL1128328	Alimemazine 10mg/5ml oral solution (Special Order)
+^ESCTAL1128329	Alimemazine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTAL1128361	Alimemazine 10mg/5ml oral solution
+^ESCTAL262943	Alimemazine
+^ESCTAL608840	Alimemazine 10mg tablets
+^ESCTAL608843	Alimemazine tartrate 10 mg oral tablet
+^ESCTAL608845	Alimemazine 7.5mg/5ml oral solution
+^ESCTAL608846	Alimemazine tartrate 7.5mg/5mL syrup
+^ESCTAL608848	Alimemazine 30mg/5ml oral solution
+^ESCTAL608850	Alimemazine tartrate 30mg/5mL syrup
+^ESCTAL847779	Alimemazine 30mg/5ml oral solution 100 ml
+^ESCTAL848376	Alimemazine 7.5mg/5ml oral solution 100 ml
+^ESCTAL848531	Alimemazine 10mg tablets 28 tablet
+^ESCTAL941538	Alimemazine 15mg/5ml oral solution 1 ml
+^ESCTAL941539	Alimemazine 15mg/5ml oral solution (Special Order)
+^ESCTAL941541	Alimemazine 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTAL941544	Alimemazine 5mg/5ml oral solution 1 ml
+^ESCTAL941545	Alimemazine 5mg/5ml oral solution (Special Order)
+^ESCTAL941546	Alimemazine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAL941665	Alimemazine 15mg/5ml oral solution
+^ESCTAL941666	Alimemazine 5mg/5ml oral solution
+^ESCTAL987656	Alimemazine 10mg tablets (Zentiva)
+^ESCTAL987657	Alimemazine 10mg tablets (Zentiva) 28 tablet
+^ESCTAL988942	Alimemazine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAL988943	Alimemazine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTAL991939	Alimemazine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAL991940	Alimemazine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTAL993469	Alimemazine 30mg/5ml oral solution (Zentiva)
+^ESCTAL993470	Alimemazine 30mg/5ml oral solution (Zentiva) 100 ml
+^ESCTAL993471	Alimemazine 7.5mg/5ml oral solution (Zentiva)
+^ESCTAL993472	Alimemazine 7.5mg/5ml oral solution (Zentiva) 100 ml
+^ESCTAL994656	Alimemazine 7.5mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTAL994657	Alimemazine 7.5mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTAL994658	Alimemazine 30mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTAL994659	Alimemazine 30mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTAL994700	Alimemazine 7.5mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTAL994701	Alimemazine 7.5mg/5ml oral solution (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTAL994702	Alimemazine 30mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTAL994703	Alimemazine 30mg/5ml oral solution (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTPR262945	Product containing trimeprazine
+^ESCTPR262946	Product containing alimemazine
+^ESCTPR608841	Product containing alimemazine tartrate 10 mg/1 each oral tablet
+^ESCTPR608842	Product containing trimeprazine tartrate 10 mg/1 each oral tablet
+^ESCTTR262944	Trimeprazine
+^ESCTTR608844	Trimeprazine tartrate 10 mg oral tablet
+^ESCTTR608847	Trimeprazine tartrate 7.5mg/5mL syrup
+^ESCTTR608849	Trimeprazine tartrate 30mg/5mL syrup
+^ESCTVA1001657	Vallergan Forte 30mg/5ml syrup (Mawdsley-Brooks & Company Ltd)
+^ESCTVA1001658	Vallergan Forte 30mg/5ml syrup (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCTVA807297	Vallergan Forte 30mg/5ml syrup (Sanofi)
+^ESCTVA816560	Vallergan 7.5mg/5ml syrup (Sanofi)
+^ESCTVA820815	Vallergan 10mg tablets (Sanofi)
+^ESCTVA855828	Vallergan 10mg tablets (Sanofi) 28 tablet
+^ESCTVA855829	Vallergan Forte 30mg/5ml syrup (Sanofi) 100 ml
+^ESCTVA855836	Vallergan 7.5mg/5ml syrup (Sanofi) 100 ml
+^ESCTVA916985	Vallergan
+^ESCTVA990783	Vallergan Forte 30mg/5ml syrup (Lexon (UK) Ltd)
+^ESCTVA990784	Vallergan Forte 30mg/5ml syrup (Lexon (UK) Ltd) 100 ml

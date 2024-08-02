@@ -1,0 +1,149 @@
+ALCA122379NEMIS	Alverine And Simeticone  Capsules  60 mg + 300 mg
+ALCA31975EMIS	Alverine Citrate  Capsules  120 mg
+ALCA4576	Alverine Citrate  Capsules  60 mg
+ALGR10709BRIDL	Alvercol  Granules  
+AUCA51042NEMIS	Audmonal  Capsules  60 mg
+AUCA51044NEMIS	Audmonal Forte  Capsules  120 mg
+GICA117353NEMIS	Gielism  Capsules  60 mg
+SICA122381NEMIS	Simalvia  Capsules  60 mg + 300 mg
+SPCA31973EMIS	Spasmonal Forte  Capsules  120 mg
+SPCA4334	Spasmonal  Capsules  60 mg
+SPGR957NEMIS	Spasmonal Fibre  Granules  
+^ESCT1177860	Product containing only alverine citrate 120 mg/1 each oral capsule
+^ESCT1177894	Product containing only alverine citrate 60 mg/1 each oral capsule
+^ESCT1179175	Product containing alverine and sterculia
+^ESCT1179176	Alverine and sterculia
+^ESCT1184910	Alverine 60mg capsules (A A H Pharmaceuticals Ltd) 100 capsule 10 x 10 capsules
+^ESCT1185216	Product containing alverine
+^ESCT1190050	Alverine 120mg capsules (A A H Pharmaceuticals Ltd) 60 capsule 6 x 10 capsules
+^ESCT1206147	Alverine in oral dosage form
+^ESCT1206148	Product containing alverine in oral dosage form
+^ESCT1222529	Alverine citrate 120 mg oral capsule
+^ESCT1222530	Product containing precisely alverine citrate 120 milligram/1 each conventional release oral capsule
+^ESCT1222531	Sterculia 62% / Alverine 0.5% granules
+^ESCT1222532	Product containing precisely alverine citrate 5 milligram/1 gram and Sterculia gum 620 milligram/1 gram conventional release oral granules
+^ESCT1222533	Alverine citrate 5 mg/g and Sterculia gum 620 mg/g oral granules
+^ESCT1222534	Alverine citrate 60 mg oral capsule
+^ESCT1222535	Product containing precisely alverine citrate 60 milligram/1 each conventional release oral capsule
+^ESCT1226728	Alverine
+^ESCT1226729	Alverine product
+^ESCT1233692	Product containing alverine and Sterculia
+^ESCT1233693	Alverine and Sterculia gum product
+^ESCT1263738	Alverine 60mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1263739	Alverine 60mg capsules (Mawdsley-Brooks & Company Ltd) 100 capsule
+^ESCT1263740	Alverine 120mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1263741	Alverine 120mg capsules (Mawdsley-Brooks & Company Ltd) 60 capsule
+^ESCT1264719	Alverine 60mg capsules (NorthStar Healthcare Unlimited Company)
+^ESCT1264720	Alverine 60mg capsules (NorthStar Healthcare Unlimited Company) 100 capsule
+^ESCT1264722	Alverine 120mg capsules (NorthStar Healthcare Unlimited Company)
+^ESCT1264723	Alverine 120mg capsules (NorthStar Healthcare Unlimited Company) 60 capsule
+^ESCT1268098	Spasmonal 60mg capsules (Mylan)
+^ESCT1268116	Spasmonal Forte 120mg capsules (Mylan)
+^ESCT1268158	Spasmonal 60mg capsules (Mylan) 100 capsule 5 x 20 capsules
+^ESCT1268159	Spasmonal Forte 120mg capsules (Mylan) 60 capsule 6 x 10 capsules
+^ESCT1275502	Alverine 60mg capsules 20 capsule
+^ESCT1275504	Spasmonal 60mg capsules (Mylan) 20 capsule
+^ESCT1278962	Alverine 120mg capsules (Zentiva)
+^ESCT1278963	Alverine 120mg capsules (Zentiva) 60 capsule 6 x 10 capsules
+^ESCT1278964	Alverine 60mg capsules (Zentiva)
+^ESCT1278965	Alverine 60mg capsules (Zentiva) 100 capsule 10 x 10 capsules
+^ESCT1300999	Spasmonal Forte 120mg capsules (DE Pharmaceuticals)
+^ESCT1301000	Spasmonal Forte 120mg capsules (DE Pharmaceuticals) 60 capsule
+^ESCT1351232	Alverine- and Sterculia gum-containing product in oral dose form
+^ESCT1353425	Alverine only product
+^ESCT1353426	Alverine and Sterculia gum only product
+^ESCT1357439	Alverine and Sterculia gum only product in oral dose form
+^ESCT1357440	Alverine only product in oral dose form
+^ESCT1374613	Alverine 60mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374614	Alverine 120mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374615	Alverine 60mg capsules (Medihealth (Northern) Ltd) 100 capsule
+^ESCT1374616	Alverine 120mg capsules (Medihealth (Northern) Ltd) 60 capsule
+^ESCT1386140	Alverine-containing product in oral dose form
+^ESCT1422754	Alverine 120mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422755	Alverine 120mg capsules (Zentiva Pharma UK Ltd) 60 capsule 6 x 10 capsules
+^ESCT1422756	Alverine 60mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422757	Alverine 60mg capsules (Zentiva Pharma UK Ltd) 100 capsule 10 x 10 capsules
+^ESCT1431640	Alverine 60mg capsules (Morningside Healthcare Ltd)
+^ESCT1431641	Alverine 60mg capsules (Morningside Healthcare Ltd) 100 capsule 10 x 10 capsules
+^ESCT1431642	Alverine 120mg capsules (Morningside Healthcare Ltd)
+^ESCT1431643	Alverine 120mg capsules (Morningside Healthcare Ltd) 60 capsule 4 x 15 capsules
+^ESCT1436885	Spasmonal 60mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437015	Spasmonal Forte 120mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437356	Spasmonal 60mg capsules (Viatris UK Healthcare Ltd) 100 capsule 5 x 20 capsules
+^ESCT1437357	Spasmonal Forte 120mg capsules (Viatris UK Healthcare Ltd) 60 capsule 6 x 10 capsules
+^ESCT1439168	Spasmonal 60mg capsules (Viatris UK Healthcare Ltd) 20 capsule
+^ESCTAL1006934	Alverine 60mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTAL1006935	Alverine 60mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCTAL1006938	Alverine 60mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTAL1006939	Alverine 60mg capsules (A A H Pharmaceuticals Ltd) 100 capsule
+^ESCTAL1006940	Alverine 120mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTAL1006941	Alverine 120mg capsules (Alliance Healthcare (Distribution) Ltd) 60 capsule
+^ESCTAL1006958	Alverine 120mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTAL1006959	Alverine 120mg capsules (A A H Pharmaceuticals Ltd) 60 capsule
+^ESCTAL1022377	Alverine 120mg capsules (DE Pharmaceuticals)
+^ESCTAL1022378	Alverine 120mg capsules (DE Pharmaceuticals) 60 capsule
+^ESCTAL1022379	Alverine 60mg capsules (DE Pharmaceuticals)
+^ESCTAL1022380	Alverine 60mg capsules (DE Pharmaceuticals) 100 capsule
+^ESCTAL1041233	Alverine 60mg capsules (Waymade Healthcare Plc)
+^ESCTAL1041235	Alverine 60mg capsules (Waymade Healthcare Plc) 100 capsule
+^ESCTAL1041238	Alverine 120mg capsules (Waymade Healthcare Plc)
+^ESCTAL1041240	Alverine 120mg capsules (Waymade Healthcare Plc) 60 capsule
+^ESCTAL1116788	Alverine 120mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTAL1116789	Alverine 120mg capsules (Sigma Pharmaceuticals Plc) 60 capsule
+^ESCTAL1116790	Alverine 60mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTAL1116791	Alverine 60mg capsules (Sigma Pharmaceuticals Plc) 100 capsule
+^ESCTAL1117003	Alverine 60mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1117007	Alverine 60mg capsules (Dr Reddy's Laboratories (UK) Ltd) 100 capsule 5 x 20 capsules
+^ESCTAL1145554	Alverine 120mg capsules (Creo Pharma Ltd)
+^ESCTAL1145558	Alverine 120mg capsules (Creo Pharma Ltd) 60 capsule 6 x 10 capsules
+^ESCTAL1145559	Alverine 60mg capsules (Creo Pharma Ltd)
+^ESCTAL1145561	Alverine 60mg capsules (Creo Pharma Ltd) 100 capsule 10 x 10 capsules
+^ESCTAL1159196	Alverine 60mg / Simeticone 300mg capsules 90 capsule
+^ESCTAL1159233	Alverine + Simeticone
+^ESCTAL1159529	Alverine 60mg / Simeticone 300mg capsules
+^ESCTAL606165	Alverine 120mg capsules
+^ESCTAL606167	Alverine citrate 120 mg/1 each oral capsule
+^ESCTAL606169	Alverine citrate+sterculia 0.5%/62% granules
+^ESCTAL606170	Alverine 60mg capsules
+^ESCTAL606172	Alverine citrate 60 mg/1 each oral capsule
+^ESCTAL618871	Alverine
+^ESCTAL698374	Alverine + sterculia
+^ESCTAL698375	Alverine + Sterculia
+^ESCTAL835385	Alverine 120mg capsules 60 capsule
+^ESCTAL847054	Alverine 60mg capsules 18 capsule
+^ESCTAL847098	Alverine 60mg capsules 100 capsule
+^ESCTAU1018590	Audmonal 60mg capsules (Teva UK Ltd)
+^ESCTAU1018591	Audmonal 60mg capsules (Teva UK Ltd) 100 capsule 10 x 10 capsules
+^ESCTAU1018592	Audmonal Forte 120mg capsules (Teva UK Ltd)
+^ESCTAU1018593	Audmonal Forte 120mg capsules (Teva UK Ltd) 60 capsule 6 x 10 capsules
+^ESCTAU934864	Audmonal
+^ESCTGI1151328	Gielism 60mg capsules (HFA Healthcare Products Ltd)
+^ESCTGI1151329	Gielism 60mg capsules (HFA Healthcare Products Ltd) 100 capsule 5 x 20 capsules
+^ESCTGI954701	Gielism
+^ESCTPR606166	Product containing alverine citrate 120 mg/1 each oral capsule
+^ESCTPR606171	Product containing alverine citrate 60 mg/1 each oral capsule
+^ESCTRE822638	Relaxyl 60mg capsules (Thornton & Ross Ltd)
+^ESCTRE853833	Relaxyl 60mg capsules (Thornton & Ross Ltd) 18 capsule
+^ESCTRE915937	Relaxyl
+^ESCTSI1159197	SimAlvia 60mg/300mg capsules (HFA Healthcare Products Ltd)
+^ESCTSI1159198	SimAlvia 60mg/300mg capsules (HFA Healthcare Products Ltd) 90 capsule 3 x 30 capsules
+^ESCTSI958072	SimAlvia
+^ESCTSP1120864	Spasmonal Forte 120mg capsules (Waymade Healthcare Plc)
+^ESCTSP1120865	Spasmonal Forte 120mg capsules (Waymade Healthcare Plc) 60 capsule
+^ESCTSP811453	Spasmonal 60mg capsules (Meda Pharmaceuticals Ltd)
+^ESCTSP820020	Spasmonal Fibre granules (Norgine Pharmaceuticals Ltd)
+^ESCTSP822901	Spasmonal Forte 120mg capsules (Meda Pharmaceuticals Ltd)
+^ESCTSP853829	Spasmonal 60mg capsules (Meda Pharmaceuticals Ltd) 100 capsule 5 x 20 capsules
+^ESCTSP853840	Spasmonal Forte 120mg capsules (Meda Pharmaceuticals Ltd) 60 capsule 6 x 10 capsules
+^ESCTSP856348	Spasmonal Fibre granules (Norgine Pharmaceuticals Ltd) 500 gram
+^ESCTSP916379	Spasmonal
+^ESCTSP916381	Spasmonal Fibre
+^ESCTSP971507	Spasmonal Forte 120mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTSP971520	Spasmonal Forte 120mg capsules (Sigma Pharmaceuticals Plc) 60 capsule
+^ESCTSP971534	Spasmonal 60mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTSP971540	Spasmonal 60mg capsules (Sigma Pharmaceuticals Plc) 100 capsule
+^ESCTSP980917	Spasmonal 60mg capsules (Waymade Healthcare Plc)
+^ESCTSP980918	Spasmonal 60mg capsules (Waymade Healthcare Plc) 100 capsule
+^ESCTST606168	Sterculia 62% / Alverine 0.5% granules
+^ESCTST698373	Sterculia + Alverine
+^ESCTST848462	Sterculia 62% / Alverine 0.5% granules 500 gram
