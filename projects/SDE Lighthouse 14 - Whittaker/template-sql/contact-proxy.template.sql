@@ -2,6 +2,8 @@
 --│ LH014 GP Contact Proxy             │
 --└────────────────────────────────────┘
 
+USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
+
 set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-06-30');
 
@@ -18,7 +20,7 @@ where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate;
 SELECT
     "GmPseudo"
     , "FK_Patient_ID"
-    , "EventDate" as "GPEncounterDate"
+    , "EventDate" as "GPProxyEncounterDate"
 FROM PRESENTATION.GP_RECORD."Contacts_Proxy_Detail_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards)
 AND "EventDate" BETWEEN $StudyStartDate AND $StudyEndDate;

@@ -2,11 +2,13 @@
 --│ SDE Lighthouse study 14 - Whittaker - Trust level admissions │
 --└──────────────────────────────────────────────────────────────┘
 
--- Date range: 2018 to present
-
 -- Average emergency department door to provider time - UNLIKELY
 -- Average emergency department onboarding time - UNLIKELY
 -- Average bed request to assign time - UNLIKELY
+
+USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
+
+-- Date range: 2018 to present
 
 set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-06-30');

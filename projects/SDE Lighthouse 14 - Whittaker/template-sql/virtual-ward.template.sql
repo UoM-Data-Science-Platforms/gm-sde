@@ -2,6 +2,10 @@
 --│ LH004 Virtual ward file            │
 --└────────────────────────────────────┘
 
+-- each provider starting providing VW data at different times, so data is incomplete for periods.
+
+USE PRESENATATION.LOCAL_FLOWS_VIRTUAL_WARDS;
+
 set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-06-30');
 
@@ -46,7 +50,7 @@ from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw
 left join (select distinct "Admission Source ID", "Admission Source Description" 
            from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.DQ_VIRTUAL_WARDS_ADMISSION_SOURCE) adm
     on adm."Admission Source ID" = vw."Admission Source ID"
--- filter to the latest snapshot for each spell
+-- filter to the latest snapshot for each spell (as advised by colleague at NHS GM)
 inner join (select  "Unique Spell ID", Max("SnapshotDate") "LatestRecord" 
             from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY
             group by all) a 

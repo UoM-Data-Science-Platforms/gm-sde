@@ -6,12 +6,13 @@
 -- Some patients are missing for a couple of reasons:
 -- 1. opted out of sharing GP record info
 -- 2. Their GP practice has not signed up to sharing info
+-- 3. Different inclusion criterias between the VW dataset and the GP data
 
+-- For patients that don't appear in demographics table, basic demographics can be taken from VW table.
 -- Information in this file will be based on the latest snapshot available, so may be conflicting with information 
 -- from the VW table which was based on time of activity.
 
--- NOTE: 2000 or so patients in the VW table do not appear in the patient demographics table, for various reasons.
--- For patients that don't appear in demographics table, basic demographics can be taken from VW table
+USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
 
 set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-06-30');

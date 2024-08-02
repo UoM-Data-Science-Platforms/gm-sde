@@ -2,6 +2,8 @@
 --│ SDE Lighthouse study 14 - Whittaker - A&E Encounters         │
 --└──────────────────────────────────────────────────────────────┘
 
+USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
+
 -- Date range: 2018 to present
 
 set(StudyStartDate) = to_date('2018-01-01');
