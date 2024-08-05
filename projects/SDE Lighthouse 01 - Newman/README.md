@@ -34,9 +34,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.
 This project required the following reusable queries:
 
 - This file loads whichever code set is specified, and inserts into a permanent snowflake table
-- Classify secondary admissions
-- Secondary admissions and length of stay
-- Secondary discharges
+- Define Cohort for LH006: patients that had multiple opioid prescriptions
 - Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls
 
 Further details for each query can be found below.
@@ -60,93 +58,22 @@ _File_: `query-insert-code-set-into-snowflake.sql`
 _Link_: [https://github.com/rw251/.../query-insert-code-set-into-snowflake.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-insert-code-set-into-snowflake.sql)
 
 ---
-### Classify secondary admissions
-To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.
-
-_Assumptions_
-
-- We assume patients can only have one admission per day. This is probably not true, but where we see multiple admissions it is more likely to be data duplication, or internal admissions, than an admission, discharge and another admission in the same day.
-- Where patients have multiple admissions we choose the "highest" category for admission with the categories ranked as follows: Maternity > Unplanned > Planned > Transfer > Unknown
-- We have used the following classifications based on the AdmissionTypeCode:
-	- PLANNED: PL (ELECTIVE PLANNED), 11 (Elective - Waiting List), WL (ELECTIVE WL), 13 (Elective - Planned), 12 (Elective - Booked), BL (ELECTIVE BOOKED), D (NULL), Endoscopy (Endoscopy), OP (DIRECT OUTPAT CLINIC), Venesection (X36.2 Venesection), Colonoscopy (H22.9 Colonoscopy), Medical (Medical)
-	- UNPLANNED: AE (AE.DEPT.OF PROVIDER), 21 (Emergency - Local A&E), I (NULL), GP (GP OR LOCUM GP), 22 (Emergency - GP), 23 (Emergency - Bed Bureau), 28 (Emergency - Other (inc other provider A&E)), 2D (Emergency - Other), 24 (Emergency - Clinic), EM (EMERGENCY OTHER), AI (ACUTE TO INTMED CARE), BB (EMERGENCY BED BUREAU), DO (EMERGENCY DOMICILE), 2A (A+E Department of another provider where the Patient has not been admitted), A+E (Admission	 A+E Admission), Emerg (GP	Emergency GP Patient)
-	- MATERNITY: 31 (Maternity ante-partum), BH (BABY BORN IN HOSP), AN (MATERNITY ANTENATAL), 82 (Birth in this Health Care Provider), PN (MATERNITY POST NATAL), B (NULL), 32 (Maternity post-partum), BHOSP (Birth in this Health Care Provider)
-	- TRANSFER: 81 (Transfer from other hosp (not A&E)), TR (PLAN TRANS TO TRUST), ET (EM TRAN (OTHER PROV)), HospTran (Transfer from other NHS Hospital), T (TRANSFER), CentTrans (Transfer from CEN Site)
-	- OTHER: Anything else not previously classified
+### Define Cohort for LH006: patients that had multiple opioid prescriptions
+To build the cohort of patients needed for LH006. This reduces duplication of code in the template scripts.
 
 _Input_
 ```
-No pre-requisites
+none
 ```
 
 _Output_
 ```
-A temp table as follows:
- #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-	- AdmissionType - One of: Maternity/Unplanned/Planned/Transfer/Unknown
+Temp tables as follows:
+ Cohort
 ```
-_File_: `query-classify-secondary-admissions.sql`
+_File_: `query-build-lh006-cohort.sql`
 
-_Link_: [https://github.com/rw251/.../query-classify-secondary-admissions.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql)
-
----
-### Secondary admissions and length of stay
-To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
-
-_Input_
-```
-One parameter
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-```
-
-_Output_
-```
-Two temp table as follows:
- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
-   on the same day to the same hopsital then it's most likely data duplication rather than two short
-   hospital stays)
- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-	- DischargeDate - date of discharge (YYYY-MM-DD)
-	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
-```
-_File_: `query-get-admissions-and-length-of-stay.sql`
-
-_Link_: [https://github.com/rw251/.../query-get-admissions-and-length-of-stay.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay.sql)
-
----
-### Secondary discharges
-To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.
-
-_Input_
-```
-One parameter
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-```
-
-_Output_
-```
-A temp table as follows:
- #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
- 	- FK_Patient_Link_ID - unique patient id
-	- DischargeDate - date of discharge (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges
-   on the same day to the same hopsital then it's most likely data duplication rather than two short
-   hospital stays)
-```
-_File_: `query-get-discharges.sql`
-
-_Link_: [https://github.com/rw251/.../query-get-discharges.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql)
+_Link_: [https://github.com/rw251/.../query-build-lh006-cohort.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-lh006-cohort.sql)
 
 ---
 ### Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls
@@ -169,23 +96,24 @@ _Link_: [https://github.com/rw251/.../query-build-lh001-cohort.sql](https://gith
 
 This project required the following clinical code sets:
 
-- surgery-referral v1
+- chronic-pancreatitis v1
 
 Further details for each code set can be found below.
 
-### Surgery
+### Chronic pancreatitis
 
-Any code indicating referral to surgery.
+Any code indicating a diagnosis of chronic pancreatitis. This code set also includes 'history of' chronic pancreatitis. Code set developed using the SNOMED online term browser.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.22% - 4.46%` suggests a potential overreporting from TPP practices.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.08% - 0.10%` suggests that this code set is well defined but rarely used.
+
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-04-12 | EMIS | 2528955 | 30968 (1.22%) | 30463 (1.2%) | 
-| 2024-04-12 | TPP | 201791 | 9008 (4.46%) | 8967 (4.44%) | 
-| 2024-04-12 | Vision | 335318 | 5040 (1.5%) | 5013 (1.49%) | 
-LINK: [https://github.com/rw251/.../referrals/surgery-referral/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/referrals/surgery-referral/1)
+| 2024-04-17 | EMIS | 2529782 | 2346 (0.0927%) | 2346 (0.0927%) | 
+| 2024-04-17 | TPP | 201840 | 167 (0.0827%) | 167 (0.0827%) | 
+| 2024-04-17 | Vision | 335411 | 298 (0.0888%) | 298 (0.0888%) | 
+LINK: [https://github.com/rw251/.../conditions/chronic-pancreatitis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-pancreatitis/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../SDE Lighthouse 01 - Newman/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/SDE%20Lighthouse%2001%20-%20Newman/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.
