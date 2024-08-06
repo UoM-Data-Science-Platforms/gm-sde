@@ -32,7 +32,8 @@ SELECT *
 FROM AllCodes AS src
 WHERE NOT EXISTS (SELECT *
                   FROM  SDE_REPOSITORY.SHARED_UTILITIES.AllCodesPermanent AS tgt
-                  WHERE tgt.Code = src.Code
+                  WHERE tgt.Code = src.Code 
+				  AND tgt.concept = src.concept
                   );
 
 ---------------------------------------------------------------------------------------------------------------
