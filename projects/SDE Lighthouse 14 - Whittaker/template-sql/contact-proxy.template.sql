@@ -23,6 +23,5 @@ SELECT
     , "EventDate" as "GPProxyEncounterDate"
 FROM PRESENTATION.GP_RECORD."Contacts_Proxy_Detail_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards)
+AND "Contact" = 1
 AND "EventDate" BETWEEN $StudyStartDate AND $StudyEndDate;
-
-
