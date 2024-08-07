@@ -1,5 +1,5 @@
 --┌────────────────────────────────────┐
---│ LH004 Patient file                 │
+--│ LH014 Patient file                 │
 --└────────────────────────────────────┘
 
 -- *** this file gets extra patient demographics from the GP record for about 85% of the patients in the VW data.
@@ -22,7 +22,7 @@ drop table if exists virtualWards;
 create temporary table virtualWards as
 select  
 	distinct SUBSTRING(vw."Pseudo NHS Number", 2)::INT as "GmPseudo"
-from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw;
+from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw
 where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate;
 
 

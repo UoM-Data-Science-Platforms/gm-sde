@@ -4,7 +4,7 @@
 
 -- each provider starting providing VW data at different times, so data is incomplete for periods.
 
-USE PRESENATATION.LOCAL_FLOWS_VIRTUAL_WARDS;
+USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
 
 set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-06-30');

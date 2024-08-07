@@ -1,19 +1,18 @@
 --┌────────────────────────────────────┐
---│ LH004 Virtual ward file            │
+--│ LH014 Virtual ward file        │
 --└────────────────────────────────────┘
 
 -- each provider starting providing VW data at different times, so data is incomplete for periods.
 
-USE PRESENATATION.LOCAL_FLOWS_VIRTUAL_WARDS;
+USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
 
 set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-06-30');
 
----- find the latest snapshot for each spell
-
+---- Use the latest snapshot for each spell and get all relevant information
 select  
     SUBSTRING(vw."Pseudo NHS Number", 2)::INT "GmPseudo",
-    vw."Unique Spell ID",
+    vw."Unique Spell ID", -- pseudonymise??
     vw."SnapshotDate",
     vw."Admission Source ID",
     adm."Admission Source Description",
@@ -56,6 +55,6 @@ inner join (select  "Unique Spell ID", Max("SnapshotDate") "LatestRecord"
             group by all) a 
     on a."Unique Spell ID" = vw."Unique Spell ID" and vw."SnapshotDate" = a."LatestRecord"
 where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate;
--- 24.7k spells
--- 16,217 patients
 
+-- 16,107 patients
+--24,608 spells

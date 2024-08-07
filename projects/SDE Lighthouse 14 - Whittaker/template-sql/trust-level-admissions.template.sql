@@ -25,7 +25,7 @@ WHERE "ProviderDesc" IN
      'The Christie NHS Foundation Trust')
 and "HospitalSpellDuration" != '*'; -- < 10 records have missing discharge date and spell duration, so exclude
   -- FILTER OUT ELECTIVE ??   
-select "IsReadmission", count(*) from ManchesterTrusts group by "IsReadmission"
+  
 -- MONTHLY ADMISSION COUNTS AND AVG LENGTH OF STAY BY TRUST
 
     -- GROUP BY TRUST ONLY

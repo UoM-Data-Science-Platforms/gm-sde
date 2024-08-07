@@ -24,9 +24,9 @@ SELECT
 E."GmPseudo", 
 TO_DATE(E."ArrivalDate") AS "ArrivalDate",
 E."EcDuration" AS LOS_Mins,
-E."EcChiefComplaintSnomedCtCode" AS ChiefComplaintCode
+E."EcChiefComplaintSnomedCtCode" AS ChiefComplaintCode,
 E."EcChiefComplaintSnomedCtDesc" AS ChiefComplaintDesc
 FROM PRESENTATION.NATIONAL_FLOWS_ECDS."DS707_Ecds" E
 WHERE "IsAttendance" = 1
-	AND "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards);
-	AND TO_DATE(E."ArrivalDate") BETWEEN $StudyStartDate AND $StudyEndDate
+	AND "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards)
+	AND TO_DATE(E."ArrivalDate") BETWEEN $StudyStartDate AND $StudyEndDate;
