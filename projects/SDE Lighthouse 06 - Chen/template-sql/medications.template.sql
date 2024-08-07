@@ -19,6 +19,7 @@ SELECT
     ec."FK_Patient_ID"
     , TO_DATE(ec."MedicationDate") AS "MedicationDate"
     , ec."SCTID" AS "SnomedCode"
+	, ec."Quantity"
     , ec."Dosage_GP_Medications" AS "Dosage"
     , CASE WHEN ec."Cluster_ID" = 'BENZODRUG_COD' THEN 'benzodiazepine' -- benzodiazepines
            WHEN ec."Cluster_ID" = 'GABADRUG_COD' THEN 'gabapentinoid' -- gabapentinoids
@@ -46,8 +47,12 @@ HAVING count(*) >= 50;
 -- final table with redacted dosage info
 
 SELECT 
-    p.*,
+    p."FK_Patient_ID",
+    p."MedicationDate",
+    p."SnomedCode",
+    p."Quantity",
+    p."Concept",
+    p."Description",
     IFNULL(sd."Dosage", 'REDACTED') as Dosage
-FROM PRESCRIPTIONS p
+FROM prescriptions p
 LEFT JOIN SafeDosages sd ON sd."Dosage" = p."Dosage"
-

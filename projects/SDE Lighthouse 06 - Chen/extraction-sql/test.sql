@@ -128,11 +128,11 @@ and "PK_Reference_Coding_ID" != -1;
 
 
 -- EMIS codes with a FK Reference Coding ID
-INSERT INTO TempRefCodes
+/*INSERT INTO TempRefCodes
 SELECT "FK_Reference_Coding_ID", ce.concept, ce.version, ce.description
 FROM INTERMEDIATE.GP_RECORD."Reference_Local_Code" rlc
 INNER JOIN codesemis ce on ce.code = rlc."LocalCode"
-WHERE "FK_Reference_Coding_ID" != -1; 
+WHERE "FK_Reference_Coding_ID" != -1; */
 
 DROP TABLE IF EXISTS TempSNOMEDRefCodes;
 CREATE TEMPORARY TABLE TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL, description VARCHAR(255));
@@ -145,12 +145,12 @@ INNER JOIN codessnomed dcs on dcs.code = rs."ConceptID";
 
 
 -- EMIS codes with a FK SNOMED ID but without a FK Reference Coding ID
-INSERT INTO TempRefCodes
+/*INSERT INTO TempRefCodes
 SELECT "FK_Reference_SnomedCT_ID", ce.concept, ce.version, ce.description
 FROM INTERMEDIATE.GP_RECORD."Reference_Local_Code" rlc
 INNER JOIN codesemis ce on ce.code = rlc."LocalCode"
 WHERE "FK_Reference_Coding_ID" = -1
-AND "FK_Reference_SnomedCT_ID" != -1;
+AND "FK_Reference_SnomedCT_ID" != -1;*/
 
 
 -- De-duped tables
@@ -187,24 +187,6 @@ INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM VersionedSnomedSets
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
-
--- now take the codes from the temporary tables and insert them into the permanent tables in snowflake (where the rows don't exist already)
-
-INSERT INTO SDE_REPOSITORY.SHARED_UTILITIES.versionedcodesets_permanent
-SELECT src.*
-FROM versionedcodesets AS src
-WHERE NOT EXISTS (SELECT *
-                  FROM  SDE_REPOSITORY.SHARED_UTILITIES.versionedcodesets_permanent AS tgt
-                  WHERE tgt.FK_REFERENCE_CODING_ID = src."FK_REFERENCE_CODING_ID"
-                  );
-
-INSERT INTO SDE_REPOSITORY.SHARED_UTILITIES.versionedsnomedsets_permanent
-SELECT src.*
-FROM versionedsnomedsets AS src
-WHERE NOT EXISTS (SELECT *
-                  FROM  SDE_REPOSITORY.SHARED_UTILITIES.versionedsnomedsets_permanent AS tgt
-                  WHERE tgt.FK_REFERENCE_SNOMEDCT_ID = src."FK_REFERENCE_SNOMEDCT_ID"
-                  );
 
 --#endregion
 

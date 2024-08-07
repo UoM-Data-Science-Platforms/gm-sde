@@ -26,7 +26,7 @@ SELECT
 FROM INTERMEDIATE.GP_RECORD."EventsClusters" ec
 WHERE 
 	(
-	((lower("Term") like '%neuropa%' AND lower("Term") like '%diab%'))  -- diabetic neuropathy
+	((lower("Term") like '%neuropa%' AND lower("Term") like '%diab%'))  OR -- diabetic neuropathy
 	("Cluster_ID" = 'eFI2_PeripheralNeuropathy') OR -- peripheral neuropathy
 	("Cluster_ID" = 'RARTH_COD') OR -- rheumatoid arthritis diagnosis codes
 	("Cluster_ID" = 'eFI2_Osteoarthritis') OR -- osteoarthritis
@@ -43,20 +43,21 @@ SELECT
 	e."FK_Patient_ID"
 	, to_date("EventDate") AS "DiagnosisDate"
 	, e."SCTID" AS "SnomedCode"
-	, case when co.concept IS NOT NULL THEN co.concept ELSE sn.concept END AS "Concept"
+	, ac.concept
 	, e."Term" AS "Description"
 FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
-LEFT JOIN SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDCODESETS_PERMANENT co ON co.FK_Reference_Coding_ID = e."FK_Reference_Coding_ID"
-LEFT JOIN SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDSNOMEDSETS_PERMANENT sn ON sn.FK_Reference_SnomedCT_ID = e."FK_Reference_SnomedCT_ID"
-WHERE ( 
+--LEFT JOIN SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDCODESETS_PERMANENT co ON co.FK_Reference_Coding_ID = e."FK_Reference_Coding_ID"
+--LEFT JOIN SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDSNOMEDSETS_PERMANENT sn ON sn.FK_Reference_SnomedCT_ID = e."FK_Reference_SnomedCT_ID"
+LEFT JOIN SDE_REPOSITORY.SHARED_UTILITIES.AllCodesPermanent ac ON ac.CODE = e."SuppliedCode" 
+WHERE
+ac.CONCEPT IN ('chronic-pain', 'neck-problems','neuropathic-pain', 'chest-pain','post-herpetic-neuralgia', 'ankylosing-spondylitis',
+				'psoriatic-arthritis', 'fibromyalgia', 'temporomandibular-pain', 'phantom-limb-pain', 'chronic-pancreatitis' )
+/*( 
   "FK_Reference_Coding_ID" IN (SELECT FK_Reference_Coding_ID FROM SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDCODESETS_PERMANENT WHERE Concept IN 
-  ('chronic-pain', 'neck-problems', 'neuropathic-pain', 'chest-pain', 'post-herpetic-neuralgia',
-   'ankylosing-spondylitis', 'psoriatic-arthritis', 'fibromyalgia', 'temporomandibular-pain', 'phantom-limb-pain', 'chronic-pancreatitis') AND Version = 1) 
+  ('chronic-pain', 'neck-problems', 'neuropathic-pain', 'chest-pain', 'post-herpetic-neuralgia', 'ankylosing-spondylitis', 'psoriatic-arthritis', 'fibromyalgia', 'temporomandibular-pain', 'phantom-limb-pain', 'chronic-pancreatitis') AND Version = 1) 
     OR
   "FK_Reference_SnomedCT_ID" IN (SELECT FK_Reference_SnomedCT_ID FROM SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDSNOMEDSETS_PERMANENT WHERE Concept IN   
-  ('chronic-pain', 'neck-problems', 'neuropathic-pain', 'chest-pain', 'post-herpetic-neuralgia',
-    'ankylosing-spondylitis', 'psoriatic-arthritis', 'fibromyalgia', 'temporomandibular-pain', 'phantom-limb-pain', 'chronic-pancreatitis') AND Version = 1)
-	)
+  ('chronic-pain', 'neck-problems', 'neuropathic-pain', 'chest-pain', 'post-herpetic-neuralgia','ankylosing-spondylitis', 'psoriatic-arthritis', 'fibromyalgia', 'temporomandibular-pain', 'phantom-limb-pain', 'chronic-pancreatitis') AND Version = 1))*/
 AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort)
 AND TO_DATE("EventDate") BETWEEN $StudyStartDate AND $StudyEndDate;
 

@@ -24,5 +24,4 @@ WHERE "Cluster_ID" in
     ('eFI2_Fracture',
      'eFI2_SelfHarm')
 AND TO_DATE(ec."EventDate") BETWEEN $StudyStartDate AND $StudyEndDate
-and "FK_Patient_ID" = '1107382'
 AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort)

@@ -67,17 +67,13 @@ LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
 WHERE 
     (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
 
--- LOAD CODESETS
+-- find patients with chronic pain
 
 DROP TABLE IF EXISTS chronic_pain;
 CREATE TEMPORARY TABLE chronic_pain AS
 SELECT "FK_Patient_ID", to_date("EventDate") AS "EventDate"
 FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
-WHERE ( 
-  "FK_Reference_Coding_ID" IN (SELECT FK_Reference_Coding_ID FROM SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDCODESETS_PERMANENT WHERE Concept = 'chronic-pain' AND Version = 1) 
-    OR
-  "FK_Reference_SnomedCT_ID" IN (SELECT FK_Reference_SnomedCT_ID FROM SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDSNOMEDSETS_PERMANENT WHERE Concept = 'chronic-pain' AND Version = 1)
-      )
+WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES.AllCodesPermanent WHERE Concept = 'chronic-pain' AND Version = 1) 
 AND "EventDate" BETWEEN $StudyStartDate and $StudyEndDate; 
 
 -- find first chronic pain code in the study period 
@@ -98,11 +94,7 @@ SELECT e."FK_Patient_ID", to_date("EventDate") AS "EventDate"
 FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
 INNER JOIN FirstPain fp ON fp."FK_Patient_ID" = e."FK_Patient_ID" 
 				AND e."EventDate" BETWEEN DATEADD(year, 1, FirstPainCodeDate) AND DATEADD(year, -1, FirstPainCodeDate)
-WHERE ( 
-  "FK_Reference_Coding_ID" IN (SELECT FK_Reference_Coding_ID FROM SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDCODESETS_PERMANENT WHERE Concept = 'cancer' AND Version = 1) 
-    OR
-  "FK_Reference_SnomedCT_ID" IN (SELECT FK_Reference_SnomedCT_ID FROM SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDSNOMEDSETS_PERMANENT WHERE Concept = 'cancer' AND Version = 1)
-      )
+WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES.AllCodesPermanent WHERE Concept = 'cancer' AND Version = 1)
 AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain); --only look in patients with chronic pain
 
 -- find patients in the chronic pain cohort who received more than 2 opioids
@@ -166,13 +158,12 @@ SELECT
     ec."FK_Patient_ID"
     , TO_DATE(ec."MedicationDate") AS "MedicationDate"
     , ec."SCTID" AS "SnomedCode"
-    , ec."Units"
-    , ec."Dosage"
-    , ec."Dosage_GP_Medications"
+    , ec."Dosage_GP_Medications" AS "Dosage"
     , CASE WHEN ec."Cluster_ID" = 'BENZODRUG_COD' THEN 'benzodiazepine' -- benzodiazepines
            WHEN ec."Cluster_ID" = 'GABADRUG_COD' THEN 'gabapentinoid' -- gabapentinoids
            WHEN ec."Cluster_ID" = 'ORALNSAIDDRUG_COD' THEN 'nsaid' -- oral nsaids
 		   WHEN ec."Cluster_ID" = 'OPIOIDDRUG_COD' THEN 'opioid' -- opioids except heroin addiction substitutes
+	       WHEN ec."Cluster_ID" = 'ANTIDEPDRUG_COD' THEN 'antidepressant' -- antidepressants
            ELSE 'other' END AS "CodeSet"
     , ec."MedicationDescription" AS "Description"
 FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
@@ -181,4 +172,21 @@ WHERE "Cluster_ID" in
     AND TO_DATE(ec."MedicationDate") BETWEEN $StudyStartDate and $StudyEndDate
     AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort);
 
+
+-- ONLY KEEP DOSAGE INFO IF IT HAS APPEARED > 50 TIMES
+
+DROP TABLE IF EXISTS SafeDosages;
+CREATE TEMPORARY TABLE SafeDosages AS
+SELECT "Dosage" 
+FROM prescriptions
+GROUP BY "Dosage"
+HAVING count(*) >= 50;
+
+-- final table with redacted dosage info
+
+SELECT 
+    p.*,
+    IFNULL(sd."Dosage", 'REDACTED') as Dosage
+FROM PRESCRIPTIONS p
+LEFT JOIN SafeDosages sd ON sd."Dosage" = p."Dosage"
 
