@@ -34,7 +34,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.
 This project required the following reusable queries:
 
 - This file loads whichever code set is specified, and inserts into a permanent snowflake table
-- Define Cohort for LH006: patients that had multiple opioid prescriptions
 - Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls
 
 Further details for each query can be found below.
@@ -58,24 +57,6 @@ _File_: `query-insert-code-set-into-snowflake.sql`
 _Link_: [https://github.com/rw251/.../query-insert-code-set-into-snowflake.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-insert-code-set-into-snowflake.sql)
 
 ---
-### Define Cohort for LH006: patients that had multiple opioid prescriptions
-To build the cohort of patients needed for LH006. This reduces duplication of code in the template scripts.
-
-_Input_
-```
-none
-```
-
-_Output_
-```
-Temp tables as follows:
- Cohort
-```
-_File_: `query-build-lh006-cohort.sql`
-
-_Link_: [https://github.com/rw251/.../query-build-lh006-cohort.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-lh006-cohort.sql)
-
----
 ### Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls
 To build the cohort of patients needed for LH001. This reduces duplication of code in the template scripts.
 
@@ -96,24 +77,37 @@ _Link_: [https://github.com/rw251/.../query-build-lh001-cohort.sql](https://gith
 
 This project required the following clinical code sets:
 
-- chronic-pancreatitis v1
+- cancer v1
 
 Further details for each code set can be found below.
 
-### Chronic pancreatitis
+### Cancer
+Readv2 codes from code sets published by in:
 
-Any code indicating a diagnosis of chronic pancreatitis. This code set also includes 'history of' chronic pancreatitis. Code set developed using the SNOMED online term browser.
+Zhu Y, Edwards D, Mant J, Payne RA, Kiddle S. Characteristics, service use and mortality of clusters of multimorbid patients in England: A population-based study. BMC Med [Internet]. 2020 Apr 10 [cited 2021 Apr 14];18(1):78. Available from: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01543-8
+
+The above paper used the definition of LTCs as first determined in:
+
+Barnett K, Mercer SW, Norbury M, Watt G, Wyke S, Guthrie B. Epidemiology of multimorbidity and implications for health care, research, and medical education: A cross-sectional study. Lancet [Internet]. 2012 Jul 7 [cited 2021 Apr 14];380(9836):37–43. Available from: www.thelancet.com
+
+CTV3 and SNOMED code sets from OpenSafely.
+
+ICD10 codes have been provided and verified by the Christie team (004). 
 #### Prevalence log
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set, as of 19th July 2021.
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.08% - 0.10%` suggests that this code set is well defined but rarely used.
-
+| Concept | Version   | System    | Patients | PatientsWithConcept | PatientsWithConceptFromCode | PercentageOfPatients | PercentageOfPatientsFromCode |
+| :-----: | :-------: | :-------: | :------: | :-----------------: | :-------------------------: | :------------------: | :--------------------------: |
+| cancer  | 1         | EMIS      | 2615750  | 118723              | 78901                       | 4.53877473000096     | 3.01638153493262             |
+| cancer  | 1         | TPP       | 211345   | 9607	               | 7280                        | 4.5456481109087      | 3.44460479311079             |
+| cancer  | 1         | Vision    | 336528   | 16642               | 11427                       | 4.94520515380592     | 3.39555698188561             |
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-04-17 | EMIS | 2529782 | 2346 (0.0927%) | 2346 (0.0927%) | 
-| 2024-04-17 | TPP | 201840 | 167 (0.0827%) | 167 (0.0827%) | 
-| 2024-04-17 | Vision | 335411 | 298 (0.0888%) | 298 (0.0888%) | 
-LINK: [https://github.com/rw251/.../conditions/chronic-pancreatitis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-pancreatitis/1)
+| 2024-02-22 | EMIS | 2524209 | 123626 (4.9%) | 123152 (4.88%) | 
+| 2024-02-22 | TPP | 201752 | 11008 (5.46%) | 8580 (4.25%) | 
+| 2024-02-22 | Vision | 335007 | 16786 (5.01%) | 16713 (4.99%) | 
+LINK: [https://github.com/rw251/.../conditions/cancer/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../SDE Lighthouse 01 - Newman/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/SDE%20Lighthouse%2001%20-%20Newman/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.

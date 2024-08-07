@@ -123,7 +123,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>This project required the following reusable queries:</p>
 <ul>
 <li>This file loads whichever code set is specified, and inserts into a permanent snowflake table</li>
-<li>Define Cohort for LH006: patients that had multiple opioid prescriptions</li>
 <li>Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls</li>
 </ul>
 <p>Further details for each query can be found below.</p>
@@ -140,18 +139,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-insert-code-set-into-snowflake.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-insert-code-set-into-snowflake.sql">https://github.com/rw251/.../query-insert-code-set-into-snowflake.sql</a></p>
 <hr>
-<h3>Define Cohort for LH006: patients that had multiple opioid prescriptions</h3>
-<p>To build the cohort of patients needed for LH006. This reduces duplication of code in the template scripts.</p>
-<p><em>Input</em></p>
-<pre><code>none
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>Temp tables as follows:
- Cohort
-</code></pre>
-<p><em>File</em>: <code>query-build-lh006-cohort.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-lh006-cohort.sql">https://github.com/rw251/.../query-build-lh006-cohort.sql</a></p>
-<hr>
 <h3>Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls</h3>
 <p>To build the cohort of patients needed for LH001. This reduces duplication of code in the template scripts.</p>
 <p><em>Input</em></p>
@@ -166,13 +153,64 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Clinical code sets</h2>
 <p>This project required the following clinical code sets:</p>
 <ul>
-<li>chronic-pancreatitis v1</li>
+<li>cancer v1</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
-<h3>Chronic pancreatitis</h3>
-<p>Any code indicating a diagnosis of chronic pancreatitis. This code set also includes 'history of' chronic pancreatitis. Code set developed using the SNOMED online term browser.</p>
+<h3>Cancer</h3>
+<p>Readv2 codes from code sets published by in:</p>
+<p>Zhu Y, Edwards D, Mant J, Payne RA, Kiddle S. Characteristics, service use and mortality of clusters of multimorbid patients in England: A population-based study. BMC Med [Internet]. 2020 Apr 10 [cited 2021 Apr 14];18(1):78. Available from: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01543-8</p>
+<p>The above paper used the definition of LTCs as first determined in:</p>
+<p>Barnett K, Mercer SW, Norbury M, Watt G, Wyke S, Guthrie B. Epidemiology of multimorbidity and implications for health care, research, and medical education: A cross-sectional study. Lancet [Internet]. 2012 Jul 7 [cited 2021 Apr 14];380(9836):37–43. Available from: www.thelancet.com</p>
+<p>CTV3 and SNOMED code sets from OpenSafely.</p>
+<p>ICD10 codes have been provided and verified by the Christie team (004).</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.08% - 0.10%</code> suggests that this code set is well defined but rarely used.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set, as of 19th July 2021.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Concept</th>
+<th style="text-align:center">Version</th>
+<th style="text-align:center">System</th>
+<th style="text-align:center">Patients</th>
+<th style="text-align:center">PatientsWithConcept</th>
+<th style="text-align:center">PatientsWithConceptFromCode</th>
+<th style="text-align:center">PercentageOfPatients</th>
+<th style="text-align:center">PercentageOfPatientsFromCode</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">cancer</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">EMIS</td>
+<td style="text-align:center">2615750</td>
+<td style="text-align:center">118723</td>
+<td style="text-align:center">78901</td>
+<td style="text-align:center">4.53877473000096</td>
+<td style="text-align:center">3.01638153493262</td>
+</tr>
+<tr>
+<td style="text-align:center">cancer</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">TPP</td>
+<td style="text-align:center">211345</td>
+<td style="text-align:center">9607</td>
+<td style="text-align:center">7280</td>
+<td style="text-align:center">4.5456481109087</td>
+<td style="text-align:center">3.44460479311079</td>
+</tr>
+<tr>
+<td style="text-align:center">cancer</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">Vision</td>
+<td style="text-align:center">336528</td>
+<td style="text-align:center">16642</td>
+<td style="text-align:center">11427</td>
+<td style="text-align:center">4.94520515380592</td>
+<td style="text-align:center">3.39555698188561</td>
+</tr>
+</tbody>
+</table>
 <table>
 <thead>
 <tr>
@@ -185,28 +223,28 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2024-04-17</td>
+<td>2024-02-22</td>
 <td>EMIS</td>
-<td>2529782</td>
-<td style="text-align:right">2346 (0.0927%)</td>
-<td style="text-align:right">2346 (0.0927%)</td>
+<td>2524209</td>
+<td style="text-align:right">123626 (4.9%)</td>
+<td style="text-align:right">123152 (4.88%)</td>
 </tr>
 <tr>
-<td>2024-04-17</td>
+<td>2024-02-22</td>
 <td>TPP</td>
-<td>201840</td>
-<td style="text-align:right">167 (0.0827%)</td>
-<td style="text-align:right">167 (0.0827%)</td>
+<td>201752</td>
+<td style="text-align:right">11008 (5.46%)</td>
+<td style="text-align:right">8580 (4.25%)</td>
 </tr>
 <tr>
-<td>2024-04-17</td>
+<td>2024-02-22</td>
 <td>Vision</td>
-<td>335411</td>
-<td style="text-align:right">298 (0.0888%)</td>
-<td style="text-align:right">298 (0.0888%)</td>
+<td>335007</td>
+<td style="text-align:right">16786 (5.01%)</td>
+<td style="text-align:right">16713 (4.99%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-pancreatitis/1">https://github.com/rw251/.../conditions/chronic-pancreatitis/1</a></td>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/1">https://github.com/rw251/.../conditions/cancer/1</a></td>
 <td></td>
 <td></td>
 <td style="text-align:right"></td>
