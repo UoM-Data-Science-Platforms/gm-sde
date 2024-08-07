@@ -23,9 +23,14 @@ where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate;
 SELECT 
 E."GmPseudo", 
 TO_DATE(E."ArrivalDate") AS "ArrivalDate",
+TO_DATE(E."EcDepartureDate") AS "DepartureDate",
 E."EcDuration" AS LOS_Mins,
 E."EcChiefComplaintSnomedCtCode" AS ChiefComplaintCode,
-E."EcChiefComplaintSnomedCtDesc" AS ChiefComplaintDesc
+E."EcChiefComplaintSnomedCtDesc" AS ChiefComplaintDesc,
+E."EmAttendanceCategoryCode",
+E."EmAttendanceCategoryDesc", 
+E."EmAttendanceDisposalCode",
+E."EmAttendanceDisposalDesc"
 FROM PRESENTATION.NATIONAL_FLOWS_ECDS."DS707_Ecds" E
 WHERE "IsAttendance" = 1
 	AND "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards)

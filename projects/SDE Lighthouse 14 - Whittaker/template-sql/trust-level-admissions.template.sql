@@ -21,8 +21,7 @@ WHERE "ProviderDesc" IN
      'Wrightington, Wigan And Leigh NHS Foundation Trust',
      'Stockport NHS Foundation Trust',
      'Bolton NHS Foundation Trust',
-     'Tameside And Glossop Integrated Care NHS Foundation Trust',
-     'The Christie NHS Foundation Trust')
+     'Tameside And Glossop Integrated Care NHS Foundation Trust')
 and "HospitalSpellDuration" != '*'; -- < 10 records have missing discharge date and spell duration, so exclude
   -- FILTER OUT ELECTIVE ??   
   
@@ -34,12 +33,12 @@ select
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
     ,"ProviderDesc"
-    , case when count(*) < 5 then 5 else count(*) end as Admissions  --mask small values
-    , case when count(*) <= 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
+    , count(*) as Admissions  
+    , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 --AND IsReadmission" = 'FALSE'
-group by   YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
+group by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
     -- GROUP BY TRUST ONLY
@@ -49,12 +48,12 @@ select
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
     ,"ProviderDesc"
-    , case when count(*) < 5 then 5 else count(*) end as Readmissions  --mask small values
-    , case when count(*) <= 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
+    , count(*) as Readmissions  
+    , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 and "IsReadmission" = 'TRUE'
-group by   YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
+group by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
     -- GROUP BY TRUST AND ICD CATEGORY 
@@ -65,8 +64,8 @@ select
     , "ProviderDesc" 
     , "DerPrimaryDiagnosisChapterCodeReportingEpisode" as PrimaryICDCategoryCode
     , "DerPrimaryDiagnosisChapterDescReportingEpisode" as PrimaryICDCategoryDesc
-    , case when count(*) < 5 then 5 else count(*) end as Admissions  --mask small values
-    , case when count(*) <= 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
+    , count(*) as Admissions  
+    , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 group by   
@@ -95,8 +94,8 @@ select
          when "AgeAtStartOfSpellSus" between 71 and 90  then '5. 71-90'
          when "AgeAtStartOfSpellSus" > 90  then '6. >90'
             else NULL end as AgeBand
-    , case when count(*) < 5 then 5 else count(*) end as Admissions  --mask small values
-    , case when count(*) <= 5  then NULL else AVG("HospitalSpellDuration") end as "Avg_LengthOfStay" --mask potentially identifiable values
+    , count(*) as Admissions  
+    , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
 from ManchesterTrusts
 where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 and "AgeAtStartOfSpellSus" between 0 and 120 -- REMOVE UNREALISTIC VALUES
@@ -110,7 +109,7 @@ group by
          when "AgeAtStartOfSpellSus" between 51 and 70  then '4. 51-70'
          when "AgeAtStartOfSpellSus" between 71 and 90  then '5. 71-90'
          when "AgeAtStartOfSpellSus" > 90  then '6. >90'
-            else NULL end
+            else end NULL
 order by 
       YEAR("AdmissionDttm")
     , MONTH("AdmissionDttm")
@@ -121,7 +120,7 @@ order by
          when "AgeAtStartOfSpellSus" between 51 and 70  then '4. 51-70'
          when "AgeAtStartOfSpellSus" between 71 and 90  then '5. 71-90'
          when "AgeAtStartOfSpellSus" > 90  then '6. >90'
-            else NULL end;
+            else end NULL;
 
 -- Emergency department attendances: 
 	-- Total
@@ -140,8 +139,7 @@ WHERE "ProviderDesc" IN
      'Wrightington, Wigan And Leigh NHS Foundation Trust',
      'Stockport NHS Foundation Trust',
      'Bolton NHS Foundation Trust',
-     'Tameside And Glossop Integrated Care NHS Foundation Trust',
-     'The Christie NHS Foundation Trust')
+     'Tameside And Glossop Integrated Care NHS Foundation Trust')
 AND  TO_DATE("ArrivalDate") between $StudyStartDate and $StudyEndDate
 
     
@@ -151,7 +149,7 @@ SELECT
 	  YEAR("ArrivalDate") AS "Year"
     , MONTH("ArrivalDate") AS "Month"
 	, "ProviderDesc"
-    , case when count(*) <= 5 then 5 else count(*) end as count --mask small values
+    , count(*) as count 
 FROM ManchesterTrustsAE
 WHERE "IsAttendance" = 1 -- been advised to apply this filter to get A&E admissions
 GROUP BY 
@@ -176,7 +174,7 @@ SELECT
          when "AgeAtArrival" between 71 and 90  then '5. 71-90'
          when "AgeAtArrival" > 90  then '6. >90'
             else NULL end AS AgeBand
-    , case when count(*) <= 5 then 5 else count(*) end as count --mask small values
+    , count(*) as count 
 FROM ManchesterTrustsAE
 GROUP BY 
 	  YEAR("ArrivalDate")

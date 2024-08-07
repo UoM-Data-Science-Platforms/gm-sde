@@ -12,7 +12,7 @@ set(StudyEndDate)   = to_date('2024-06-30');
 ---- Use the latest snapshot for each spell and get all relevant information
 select  
     SUBSTRING(vw."Pseudo NHS Number", 2)::INT "GmPseudo",
-    vw."Unique Spell ID", -- pseudonymise??
+    ROW_NUMBER() OVER(PARTITION BY "Pseudo NHS Number" ORDER BY "SnapshotDate") AS "PatientSpellNumber",
     vw."SnapshotDate",
     vw."Admission Source ID",
     adm."Admission Source Description",
