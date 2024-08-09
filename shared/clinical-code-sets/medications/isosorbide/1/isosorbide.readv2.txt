@@ -1,0 +1,149 @@
+bl2..00	ISOSORBIDE DINITRATE
+bl2z.00	*JERIDIN 10mg tablets
+bl2y.00	JERIDIN 20mg tablets
+bl2x.00	*IMTACK 1.25mg spray
+bl2w.00	CEDOCARD RETARD 40mg m/r tablets
+bl2v.00	ISOKET-0.05% 25mg/50mL injection
+bl2u.00	ISOKET RETARD-40 40mg m/r tablets
+bl2t.00	ISOKET RETARD-20 20mg m/r capsules
+bl2s.00	*CEDOCARD-40 40mg tablets
+bl2r.00	SORBID-20 SA 20mg m/r capsules
+bl2q.00	ISOKET 0.1% 100mg/100mL injection
+bl2p.00	ISOKET-0.1% 50mg/50mL injection
+bl2o.00	ISOKET-0.1% 10mg/10mL injection
+bl2n.00	CEDOCARD IV 100mg/100mL injection
+bl2m.00	CEDOCARD IV 50mg/50mL injection
+bl2l.00	CEDOCARD IV 10mg/10mL injection
+bl2k.00	SORBID-40 SA 40mg m/r capsules
+bl2j.00	*SONI-SLO 40mg m/r capsules
+bl2i.00	*SONI-SLO 20mg m/r capsules
+bl2h.00	ISORDIL TEMBIDS 40mg m/r capsules
+bl2g.00	ISOKET RETARD 20mg m/r tablets
+bl2f.00	CEDOCARD RETARD 20mg m/r tablets
+bl2e.00	*VASCARDIN 30mg tablets
+bl2d.00	*VASCARDIN 10mg tablets
+bl2c.00	*SORBITRATE 20mg tablets
+bl2b.00	*SORBITRATE 10mg tablets
+bl2a.00	SORBICHEW 5mg chewable tablets
+bl2B.00	ANGITAK 1.25mg spray
+bl2A.00	ISOCARD 30mg transdermal spray
+bl29.00	*ISORDIL 30mg tablets
+bl28.00	*ISORDIL 10mg tablets
+bl27.00	ISORDIL 5mg sublingual tablets
+bl26.00	*ISOKET 20mg tablets
+bl25.00	*ISOKET 10mg tablets
+bl24.00	*ISOKET 5mg tablets
+bl23.00	*CEDOCARD-20 20mg tablets
+bl22.00	*CEDOCARD-10 10mg tablets
+bl21.00	CEDOCARD-5 5mg sublingual tablets
+bl3..00	ISOSORBIDE MONONITRATE
+bl3z.00	ISOSORBIDE MONONITRATE 20mg m/r tablets
+bl3y.00	ISOSORBIDE MONONITRATE 60mg m/r tablets
+bl3x.00	ISOSORBIDE MONONITRATE 40mg tablets
+bl3w.00	ISOSORBIDE MONONITRATE 20mg tablets
+bl3v.00	ISOSORBIDE MONONITRATE 10mg tablets
+bl3u.00	ISOSORBIDE MONONITRATE 25mg m/r capsules
+bl3t.00	*EUMON 40 XL m/r tablets
+bl3s.00	DYNAMIN XL50 m/r capsules
+bl3r.00	DYNAMIN XL25 m/r capsules
+bl3q.00	*MODISAL LA 50 m/r capsules
+bl3p.00	ISOSORBIDE MONONITRATE TABLETS 10mg+20mg starter pack
+bl3o.00	*MODISAL LA 25 m/r capsules
+bl3n.00	ELANTAN LA 25mg m/r capsules
+bl3m.00	*ISIB 40mg tablets
+bl3l.00	*ISIB 20mg tablets
+bl3k.00	*MONIT SR 40mg m/r tablets
+bl3j.00	ISOSORBIDE MONONITRATE 40mg m/r tablets
+bl3i.00	*MONO-CEDOCARD-10 10mg tablets
+bl3h.00	ISMO RETARD 40mg m/r tablets
+bl3g.00	*ISOTRATE 20mg tablets
+bl3f.00	MONO CEDOCARD RETARD 50mg tablets 28CP
+bl3e.00	*ELANTAN-10 10mg tablets
+bl3d.00	ISOSORBIDE MONONITRATE 50mg m/r capsules
+bl3c.00	ELANTAN LA 50mg m/r capsules
+bl3b.00	IMDUR DURULES 60mg m/r tablets
+bl3a.00	*ISMO 40mg tablets
+bl3Z.00	ISOSORBIDE MONONITRATE 50mg m/r tablets
+bl3Y.00	ISOSORBIDE MONONITRATE 25mg m/r tablets
+bl3X.00	ISOTARD 40XL m/r tablets
+bl3W.00	CHEMYDUR 60XL m/r tablets
+bl3V.00	*MONODUR 60mg m/r tablets
+bl3U.00	MONOSORB XL 60 m/r tablets
+bl3T.00	ISOTARD 60XL m/r tablets
+bl3S.00	MODISAL 60 XL m/r tablets
+bl3R.00	KETANODUR 60mg m/r tablets
+bl3Q.00	*ANGEZE SR 40 m/r capsules
+bl3P.00	MONOMAX SR 40 m/r capsules
+bl3O.00	*ANGEZE SR 60 m/r capsules
+bl3N.00	MONOMAX SR 60 m/r capsules
+bl3M.00	ISOSORBIDE MONONITRATE 40mg m/r capsules
+bl3L.00	ISOSORBIDE MONONITRATE 60mg m/r capsules
+bl3K.00	ISIB 60XL m/r tablets
+bl3J.00	*DYNAMIN 20mg tablets
+bl3I.00	*DYNAMIN 10mg tablets
+bl3H.00	*ISOTRATE 40mg tablets
+bl3G.00	*ISOTRATE 10mg tablets
+bl3F.00	*ANGEZE 40mg tablets
+bl3E.00	*ANGEZE 20mg tablets
+bl3D.00	*ANGEZE 10mg tablets
+bl3C.00	*ANGITATE 40mg tablets
+bl3B.00	*ANGITATE 20mg tablets
+bl3A.00	*ANGITATE 10mg tablets
+bl39.00	ISMO 10mg tablets
+bl38.00	*MONO-CEDOCARD-40 40mg tablets
+bl37.00	*MONO-CEDOCARD-20 20mg tablets
+bl36.00	*MONIT LS 10mg tablets
+bl35.00	*MONIT 20mg tablets
+bl34.00	*ISMO STARTER PACK tablets
+bl33.00	ISMO 20mg tablets
+bl32.00	*ELANTAN-40 40mg tablets
+bl31.00	*ELANTAN-20 20mg tablets
+blk..00	ISOSORBIDE MONONITRATE 2
+blkR.00	CARMIL 40mg tablets
+blkQ.00	CARMIL 20mg tablets
+blkP.00	TARDISC XL 60mg m/r tablets
+blkO.00	ZEMON 40XL 40mg m/r tablets
+blkN.00	MONOMIL XL 60mg m/r tablets
+blkM.00	PHASONIT LA50 50mg m/r capsules
+blkL.00	*ZEMON XL 60mg m/r tablets
+blkK.00	CARMIL XL 60mg m/r tablets
+blkJ.00	TRANGINA XL 60mg m/r tablets
+blkH.00	MONIGEN XL 60mg m/r tablets
+blkG.00	*CIBRAL 40mg tablets
+blkF.00	*EUMON 60 XL m/r tablets
+blkE.00	CIBRAL XL 60mg m/r tablets
+blkD.00	*CIBRAL 20mg tablets
+blkC.00	*CIBRAL 10mg tablets
+blkB.00	XISMOX XL 60 m/r tablets
+blkA.00	MONOMAX XL 60mg m/r tablets
+blk9.00	*MONIT XL 60 m/r tablets
+blk8.00	SLOMON XL 60 m/r tablets
+blk7.00	ISODUR 50XL m/r capsules
+blk6.00	ISODUR 25XL m/r capsules
+blk5.00	*ISIB 50XL m/r capsules
+blk4.00	*ISOTARD 50XL m/r capsules
+blk3.00	*ISOTARD 25XL m/r capsules
+blk2.00	ISOTARD 50XL m/r tablets
+blk1.00	ISOTARD 25XL m/r tablets
+blm..00	ISOSORBIDE MONONITRATE+ASPIRIN
+blmz.00	ISOSORBIDE MONONITRATE+ASPIRIN 60mg/75mg m/r tablets
+blmy.00	ISOSORBIDE MONONITRATE+ASPIRIN 60mg/150mg m/r tablets
+blm2.00	IMAZIN XL FORTE 60mg/150mg m/r tablets
+blm1.00	IMAZIN XL 60mg/75mg m/r tablets
+bly..00	ISOSORBIDE DINITRATE [GENERIC ADDITIONS]
+blyz.00	ISOSORBIDE DINITRATE 100mg/100mL injection
+blyy.00	ISOSORBIDE DINITRATE 50mg/50mL injection
+blyx.00	ISOSORBIDE DINITRATE 10mg/10mL injection
+blyw.00	ISOSORBIDE DINITRATE 40mg m/r tablets
+blyc.00	ISOSORBIDE DINITRATE 30mg transdermal spray
+blyb.00	ISOSORBIDE DINITRATE 1.25mg spray
+blya.00	ISOSORBIDE DINITRATE 25mg/50mL injection
+bly9.00	ISOSORBIDE DINITRATE 40mg tablets
+bly8.00	ISOSORBIDE DINITRATE 5mg chewable tablets
+bly7.00	ISOSORBIDE DINITRATE 40mg m/r capsules
+bly6.00	ISOSORBIDE DINITRATE 20mg m/r capsules
+bly5.00	ISOSORBIDE DINITRATE 20mg m/r tablets
+bly4.00	ISOSORBIDE DINITRATE 30mg tablets
+bly3.00	ISOSORBIDE DINITRATE 20mg tablets
+bly2.00	ISOSORBIDE DINITRATE 10mg tablets
+bly1.00	ISOSORBIDE DINITRATE 5mg sublingual tablets

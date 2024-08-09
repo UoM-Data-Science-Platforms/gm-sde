@@ -1,6 +1,6 @@
 # Colchicine
 
-Any prescription of colchicine. Other names: .
+Any prescription of colchicine.
 
 Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
 

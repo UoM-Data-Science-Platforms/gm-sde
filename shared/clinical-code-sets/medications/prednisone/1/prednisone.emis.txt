@@ -7,3 +7,69 @@ DETA3394	Decortisyl  Tablets  5 mg
 PRM/46708NEMIS	Prednisone  M/R tablets  5 mg
 PRTA2330	Prednisone  Tablets  5 mg
 LOM/46713NEMIS	Lodotra  M/R tablets  2 mg
+^ESCT1178330	Product containing only prednisone 50 mg/1 each oral tablet
+^ESCT1181350	Product containing only prednisone 5 mg/1 each oral tablet
+^ESCT1181645	Product containing only prednisone 2.5 mg/1 each oral tablet
+^ESCT1182582	Product containing only prednisone 1 mg/1 each oral tablet
+^ESCT1187479	Product containing only prednisone 10 mg/1 each oral tablet
+^ESCT1188189	Product containing only prednisone 20 mg/1 each oral tablet
+^ESCT1207018	Prednisone in oral dosage form
+^ESCT1207019	Product containing prednisone in oral dosage form
+^ESCT1216877	Prednisone product
+^ESCT1224664	Product containing precisely prednisone 20 milligram/1 each conventional release oral tablet
+^ESCT1227754	Product containing precisely prednisone 2.5 milligram/1 each conventional release oral tablet
+^ESCT1227757	Product containing precisely prednisone 5 milligram/1 each conventional release oral tablet
+^ESCT1227780	Product containing precisely prednisone 10 milligram/1 each conventional release oral tablet
+^ESCT1227784	Product containing precisely prednisone 50 milligram/1 each conventional release oral tablet
+^ESCT1232768	Product containing precisely prednisone 1 milligram/1 each conventional release oral tablet
+^ESCT1356496	Prednisone only product
+^ESCT1359661	Prednisone only product in oral dose form
+^ESCT1386555	Prednisone-containing product in oral dose form
+^ESCTDE914695	Decortin
+^ESCTDE939214	Decortin 1mg tablets (Imported (Germany))
+^ESCTDE939215	Decortin 1mg tablets (Imported (Germany)) 50 tablet
+^ESCTDE939217	Decortin 1mg tablets (Imported (Germany)) 100 tablet
+^ESCTDE939219	Decortin 5mg tablets (Imported (Germany))
+^ESCTDE939220	Decortin 5mg tablets (Imported (Germany)) 100 tablet
+^ESCTDE939222	Decortin 50mg tablets (Imported (Germany))
+^ESCTDE939223	Decortin 50mg tablets (Imported (Germany)) 50 tablet
+^ESCTLO1005476	Lodotra 1mg modified-release tablets (Napp Pharmaceuticals Ltd)
+^ESCTLO1005478	Lodotra 1mg modified-release tablets (Napp Pharmaceuticals Ltd) 30 tablet
+^ESCTLO1005480	Lodotra 2mg modified-release tablets (Napp Pharmaceuticals Ltd)
+^ESCTLO1005482	Lodotra 2mg modified-release tablets (Napp Pharmaceuticals Ltd) 30 tablet
+^ESCTLO1005484	Lodotra 2mg modified-release tablets (Napp Pharmaceuticals Ltd) 100 tablet
+^ESCTLO1005486	Lodotra 5mg modified-release tablets (Napp Pharmaceuticals Ltd)
+^ESCTLO1005488	Lodotra 5mg modified-release tablets (Napp Pharmaceuticals Ltd) 30 tablet
+^ESCTLO1005490	Lodotra 5mg modified-release tablets (Napp Pharmaceuticals Ltd) 100 tablet
+^ESCTLO931857	Lodotra
+^ESCTPR1005475	Prednisone 1mg modified-release tablets
+^ESCTPR1005477	Prednisone 1mg modified-release tablets 30 tablet
+^ESCTPR1005479	Prednisone 2mg modified-release tablets
+^ESCTPR1005481	Prednisone 2mg modified-release tablets 30 tablet
+^ESCTPR1005483	Prednisone 2mg modified-release tablets 100 tablet
+^ESCTPR1005485	Prednisone 5mg modified-release tablets
+^ESCTPR1005487	Prednisone 5mg modified-release tablets 30 tablet
+^ESCTPR1005489	Prednisone 5mg modified-release tablets 100 tablet
+^ESCTPR266394	Prednisone
+^ESCTPR266395	Prednisone preparation
+^ESCTPR266396	Product containing prednisone
+^ESCTPR427431	Prednisone
+^ESCTPR612607	Prednisone 20 mg oral tablet
+^ESCTPR612608	Product containing prednisone 20 mg/1 each oral tablet
+^ESCTPR638754	Prednisone 2.5 mg oral tablet
+^ESCTPR638755	Product containing prednisone 2.5 mg/1 each oral tablet
+^ESCTPR638761	Prednisone 5mg tablets
+^ESCTPR638762	Product containing prednisone 5 mg/1 each oral tablet
+^ESCTPR638763	Prednisone 5 mg oral tablet
+^ESCTPR638838	Prednisone 10 mg oral tablet
+^ESCTPR638839	Product containing prednisone 10 mg/1 each oral tablet
+^ESCTPR638852	Prednisone 50mg tablets
+^ESCTPR638853	Product containing prednisone 50 mg/1 each oral tablet
+^ESCTPR638854	Prednisone 50 mg oral tablet
+^ESCTPR691988	Prednisone 1mg tablets
+^ESCTPR691989	Product containing prednisone 1 mg/1 each oral tablet
+^ESCTPR691990	Prednisone 1 mg oral tablet
+^ESCTPR939213	Prednisone 1mg tablets 50 tablet
+^ESCTPR939216	Prednisone 1mg tablets 100 tablet
+^ESCTPR939218	Prednisone 5mg tablets 100 tablet
+^ESCTPR939221	Prednisone 50mg tablets 50 tablet

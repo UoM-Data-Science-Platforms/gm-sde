@@ -1,0 +1,88 @@
+bdez.00	ATENOLOL+NIFEDIPINE 50mg/20mg m/r capsules
+bl8..00	NIFEDIPINE
+bl8z.00	NIFEDIPINE 20mg m/r tablets
+bl8y.00	NIFEDIPINE 60mg m/r tablets
+bl8x.00	NIFEDIPINE 30mg m/r tablets
+bl8w.00	NIFEDIPINE 10mg m/r tablets
+bl8v.00	NIFEDIPINE 20mg m/r capsules
+bl8u.00	NIFEDIPINE 10mg m/r capsules
+bl8t.00	NIFOPRESS RETARD 20mg m/r tablets
+bl8s.00	*CORODAY MR 20mg m/r tablets
+bl8r.00	*NIFEDOTARD 20MR m/r tablets
+bl8q.00	*HYPOLAR RETARD 20 m/r tablets
+bl8p.00	*CALANIF 5mg capsules
+bl8o.00	*CALANIF 10mg capsules
+bl8n.00	*NIFELEASE 20mg m/r tablets
+bl8m.00	*ANGIOPINE MR 20mg tablets
+bl8l.00	*CARDILATE MR 20mg m/r tablets
+bl8k.00	CORACTEN SR 10mg m/r capsules
+bl8j.00	ADALAT LA 60mg m/r tablets
+bl8i.00	ADALAT LA 30mg m/r tablets
+bl8h.00	*NIFENSAR XL 20mg m/r tablets
+bl8g.00	*ANGIOPINE 10mg capsules
+bl8f.00	*ANGIOPINE 5mg capsules
+bl8e.00	CORACTEN SR 20mg m/r capsules
+bl8d.00	*CALCIPINE 10mg capsules
+bl8c.00	*CALCIPINE 5mg capsules
+bl8b.00	*CALCILAT 10mg capsules
+bl8a.00	*VASAD 10mg capsules
+bl8Z.00	NIVATEN RETARD 20mg m/r tablets
+bl8Y.00	CORACTEN XL 60mg m/r capsules
+bl8X.00	CORACTEN XL 30mg m/r capsules
+bl8W.00	NIFEDIPINE 60mg m/r capsules
+bl8V.00	NIFEDIPINE 30mg m/r capsules
+bl8U.00	NIFEDIPRESS MR 20 m/r tablets
+bl8T.00	NIVATEN RETARD 10mg m/r tablets
+bl8S.00	NIFEDIPRESS MR 10 m/r tablets
+bl8R.00	GENALAT RETARD 20mg m/r tablets
+bl8Q.00	GENALAT RETARD 10mg m/r tablets
+bl8P.00	*ANGIOPINE MR 10mg m/r tablets
+bl8O.00	*SLOFEDIPINE 20mg m/r tablets
+bl8M.00	ADALAT LA 20mg m/r tablets
+bl8L.00	FORTIPINE LA40 m/r tablets
+bl8K.00	TENSIPINE MR 20 m/r tablets
+bl8J.00	TENSIPINE MR 10 m/r tablets
+bl8H.00	*CARDILATE MR 10mg m/r tablets
+bl8G.00	*ANGIOPINE 40 LA m/r tablets
+bl8F.00	NIFEDIPINE 40mg m/r tablets
+bl8E.00	*NIMODREL MR 20 m/r tablets
+bl8D.00	*NIMODREL MR 10 m/r tablets
+bl8C.00	*UNIPINE XL 30mg m/r tablets
+bl8B.00	ADIPINE MR 10 m/r tablets
+bl8A.00	ADIPINE MR 20 m/r tablets
+bl89.00	*VASAD 5mg capsules
+bl88.00	NIFEDIPINE-IC 200micrograms/2mL injection
+bl87.00	ADALAT-IC 200micrograms/2mL injection
+bl86.00	NIFEDIPINE 10mg capsules
+bl85.00	NIFEDIPINE 5mg capsules
+bl84.00	ADALAT RETARD 10mg m/r tablets
+bl83.00	ADALAT RETARD 20mg m/r tablets
+bl82.00	ADALAT 10mg capsules
+bl81.00	ADALAT 5mg capsules
+bll..00	NIFEDIPINE [2]
+blll.00	ADANIF XL 60mg m/r tablets
+bllk.00	ADANIF XL 30mg m/r tablets
+bllj.00	NIDEF 60mg m/r tablets
+blli.00	NIDEF 30mg m/r tablets
+bllh.00	VALNI XL 60mg m/r tablets
+bllg.00	VALNI XL 30mg m/r tablets
+bllf.00	NIMODREL XL 30mg tablets
+blle.00	NIMODREL XL 60mg tablets
+blld.00	ADIPINE XL 60mg m/r tablets
+bllc.00	ADIPINE XL 30mg m/r tablets
+bllb.00	VALNI 20 RETARD 20mg m/r tablets
+blla.00	HYPOLAR RETARD 10mg m/r tablets
+bll9.00	KENTIPINE MR 20mg m/r tablets
+bll8.00	KENTIPINE MR 10mg m/r tablets
+bll7.00	CALCHAN MR 10mg m/r tablets
+bll6.00	CALCHAN MR 20mg m/r tablets
+bll5.00	HYPOLAR XL 30 m/r tablets
+bll4.00	*ADIPINE LA 60 m/r tablets
+bll3.00	*ADIPINE LA 30 m/r tablets
+bll2.00	SLOFEDIPINE XL 60mg m/r tablets
+bll1.00	SLOFEDIPINE XL 30mg m/r tablets
+bd38.00	*BETA-ADALAT 50/20mg capsules
+bdes.00	*BETA-ADALAT 50/20mg capsules
+bd39.00	*TENIF 50/20mg capsules
+bdet.00	TENIF 50/20mg capsules
+bdeR.00	COMBITENS m/r capsules

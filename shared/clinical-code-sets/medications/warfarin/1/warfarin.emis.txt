@@ -1,0 +1,486 @@
+^ESCT1173694	Warfarin 500microgram tablets (Sun Pharmaceuticals UK Ltd)
+^ESCT1173695	Warfarin 500microgram tablets (Sun Pharmaceuticals UK Ltd) 28 tablet
+^ESCT1173696	Warfarin 1mg tablets (Sun Pharmaceuticals UK Ltd)
+^ESCT1173697	Warfarin 1mg tablets 100 tablet
+^ESCT1173698	Warfarin 1mg tablets (Sun Pharmaceuticals UK Ltd) 100 tablet
+^ESCT1173699	Warfarin 3mg tablets (Sun Pharmaceuticals UK Ltd)
+^ESCT1173700	Warfarin 3mg tablets (Sun Pharmaceuticals UK Ltd) 100 tablet
+^ESCT1173701	Warfarin 5mg tablets (Sun Pharmaceuticals UK Ltd)
+^ESCT1173702	Warfarin 5mg tablets (Sun Pharmaceuticals UK Ltd) 100 tablet
+^ESCT1178123	Product containing only warfarin sodium 0.5 mg/1 each oral tablet
+^ESCT1178399	Product containing only warfarin sodium 4 mg/1 each oral tablet
+^ESCT1178400	Product containing only warfarin sodium 10 mg/1 each oral tablet
+^ESCT1179524	Warfarin 1mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1179525	Warfarin 5mg tablets (Mylan) 500 tablet
+^ESCT1179843	Warfarin 3mg tablets (Mylan)
+^ESCT1180308	Warfarin 5mg tablets (Mylan)
+^ESCT1181292	Product containing only warfarin sodium 5 mg/1 each oral tablet
+^ESCT1181593	Product containing only warfarin sodium 2 mg/1 each oral tablet
+^ESCT1181594	Product containing only warfarin sodium 7.5 mg/1 each oral tablet
+^ESCT1181595	Product containing only warfarin sodium 6 mg/1 each oral tablet
+^ESCT1183450	Warfarin 1mg tablets (Mylan) 500 tablet
+^ESCT1183451	Warfarin 1mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1183452	Warfarin 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1184282	Warfarin 1mg tablets (Mylan)
+^ESCT1185623	Warfarin 3mg tablets (Mylan) 500 tablet
+^ESCT1187233	Product containing only warfarin sodium 1 mg/1 each oral tablet
+^ESCT1187234	Product containing only warfarin sodium 3 mg/1 each oral tablet
+^ESCT1187555	Product containing only warfarin sodium 2.5 mg/1 each oral tablet
+^ESCT1188700	Warfarin 3mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1188701	Warfarin 3mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1188702	Warfarin 5mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1215908	Warfarin 5mg tablets (Crescent Pharma Ltd) 500 tablet
+^ESCT1215969	Warfarin 1mg tablets (Crescent Pharma Ltd) 500 tablet
+^ESCT1218498	Warfarin
+^ESCT1218499	Warfarin product
+^ESCT1223125	Product containing precisely warfarin sodium 1 milligram/1 each conventional release oral tablet
+^ESCT1223126	Product containing precisely warfarin sodium 3 milligram/1 each conventional release oral tablet
+^ESCT1223127	Product containing precisely warfarin sodium 5 milligram/1 each conventional release oral tablet
+^ESCT1223128	Product containing precisely warfarin sodium 500 microgram/1 each conventional release oral tablet
+^ESCT1223129	Warfarin sodium 500 microgram oral tablet
+^ESCT1228294	Product containing precisely warfarin sodium 4 milligram/1 each conventional release oral tablet
+^ESCT1228295	Product containing precisely warfarin sodium 2 milligram/1 each conventional release oral tablet
+^ESCT1228297	Product containing precisely warfarin sodium 7.5 milligram/1 each conventional release oral tablet
+^ESCT1228298	Product containing precisely warfarin sodium 10 milligram/1 each conventional release oral tablet
+^ESCT1228299	Product containing precisely warfarin sodium 2.5 milligram/1 each conventional release oral tablet
+^ESCT1228300	Product containing precisely warfarin sodium 6 milligram/1 each conventional release oral tablet
+^ESCT1250013	Marevan 500microgram tablets (Advanz Pharma)
+^ESCT1250021	Marevan 3mg tablets (Advanz Pharma)
+^ESCT1250038	Marevan 5mg tablets (Advanz Pharma)
+^ESCT1250078	Marevan 1mg tablets (Advanz Pharma)
+^ESCT1250095	Marevan 3mg tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1250096	Marevan 1mg tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1250097	Marevan 5mg tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1250129	Marevan 500microgram tablets (Advanz Pharma) 28 tablet
+^ESCT1250638	Warfarin 500microgram tablets (Advanz Pharma)
+^ESCT1250639	Warfarin 500microgram tablets (Advanz Pharma) 28 tablet
+^ESCT1256221	Warfarin 500microgram tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1256222	Warfarin 500microgram tablets (Sun Pharmaceutical Industries Europe B.V.) 28 tablet
+^ESCT1256223	Warfarin 1mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1256224	Warfarin 1mg tablets (Sun Pharmaceutical Industries Europe B.V.) 100 tablet
+^ESCT1256225	Warfarin 3mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1256226	Warfarin 3mg tablets (Sun Pharmaceutical Industries Europe B.V.) 100 tablet
+^ESCT1256227	Warfarin 5mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1256228	Warfarin 5mg tablets (Sun Pharmaceutical Industries Europe B.V.) 100 tablet
+^ESCT1257976	Warfarin 3mg tablets (Crescent Pharma Ltd) 500 tablet
+^ESCT1258138	Warfarin 1mg tablets (Sun Pharmaceutical Industries Europe B.V.) 28 tablet
+^ESCT1258140	Warfarin 3mg tablets (Sun Pharmaceutical Industries Europe B.V.) 28 tablet
+^ESCT1258141	Warfarin 5mg tablets (Sun Pharmaceutical Industries Europe B.V.) 28 tablet
+^ESCT1259346	Warfarin 1mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259348	Warfarin 1mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259356	Warfarin 3mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259357	Warfarin 3mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259359	Warfarin 5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259361	Warfarin 5mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1265888	Warfarin 500microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1265889	Warfarin 500microgram tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1357162	Warfarin only product
+^ESCT1360184	Warfarin only product in oral dose form
+^ESCT1360185	Warfarin only product in parenteral dose form
+^ESCT1365465	Warfarin sodium 5 mg powder for solution for injection vial
+^ESCT1383644	Warfarin-containing product in oral dose form
+^ESCT1383661	Warfarin-containing product in parenteral dose form
+^ESCT1409576	Warfarin 1mg tablets (Accord Healthcare Ltd)
+^ESCT1409641	Warfarin 3mg tablets (Accord Healthcare Ltd)
+^ESCT1409704	Warfarin 5mg tablets (Accord Healthcare Ltd)
+^ESCT1409862	Warfarin 3mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCT1409863	Warfarin 1mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCT1409864	Warfarin 5mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCT1410734	Warfarin 500microgram tablets (Accord Healthcare Ltd)
+^ESCT1410735	Warfarin 500microgram tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422181	Warfarin 1mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422182	Warfarin 1mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422183	Warfarin 3mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422184	Warfarin 3mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422185	Warfarin 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422186	Warfarin 5mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422211	Warfarin 500microgram tablets (Zentiva Pharma UK Ltd)
+^ESCT1422212	Warfarin 500microgram tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1425501	Warfarin 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425717	Warfarin 1mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425760	Warfarin 500microgram tablets (Kent Pharma (UK) Ltd)
+^ESCT1425830	Warfarin 3mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426143	Warfarin 3mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1426144	Warfarin 3mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426145	Warfarin 1mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1426146	Warfarin 1mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426148	Warfarin 5mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1426149	Warfarin 5mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426369	Warfarin 500microgram tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1429591	Warfarin 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429592	Warfarin 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1429593	Warfarin 500microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1429594	Warfarin 500microgram tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1429595	Warfarin 3mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429596	Warfarin 3mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1429597	Warfarin 1mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429598	Warfarin 1mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1436880	Warfarin 3mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437012	Warfarin 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437018	Warfarin 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437256	Warfarin 3mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCT1437257	Warfarin 3mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437258	Warfarin 1mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCT1437259	Warfarin 1mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437260	Warfarin 5mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCT1437261	Warfarin 5mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO1011316	Coumadin 4mg tablets (Imported (Canada))
+^ESCTCO1011317	Coumadin 4mg tablets (Imported (Canada)) 100 tablet
+^ESCTMA806536	Marevan 500microgram tablets (AMCo)
+^ESCTMA808648	Marevan 3mg tablets (AMCo)
+^ESCTMA817604	Marevan 5mg tablets (AMCo)
+^ESCTMA833888	Marevan 1mg tablets (AMCo)
+^ESCTMA850791	Marevan 3mg tablets (AMCo) 28 tablet 2 x 14 tablets
+^ESCTMA850809	Marevan 1mg tablets (AMCo) 28 tablet 2 x 14 tablets
+^ESCTMA850831	Marevan 5mg tablets (AMCo) 28 tablet 2 x 14 tablets
+^ESCTMA855093	Marevan 500microgram tablets (AMCo) 28 tablet
+^ESCTMA919074	Marevan
+^ESCTPR328650	Product containing warfarin
+^ESCTPR608062	Product containing warfarin sodium 1 mg/1 each oral tablet
+^ESCTPR608065	Product containing warfarin sodium 3 mg/1 each oral tablet
+^ESCTPR608068	Product containing warfarin sodium 5 mg/1 each oral tablet
+^ESCTPR608071	Product containing warfarin sodium 0.5 mg/1 each oral tablet
+^ESCTPR640250	Product containing warfarin sodium 4 mg/1 each oral tablet
+^ESCTPR640253	Product containing warfarin sodium 2 mg/1 each oral tablet
+^ESCTPR640257	Product containing warfarin sodium 7.5 mg/1 each oral tablet
+^ESCTPR640259	Product containing warfarin sodium 10 mg/1 each oral tablet
+^ESCTPR640261	Product containing warfarin sodium 2.5 mg/1 each oral tablet
+^ESCTPR640263	Product containing warfarin sodium 6 mg/1 each oral tablet
+^ESCTPR710142	Product containing warfarin in oral dosage form
+^ESCTPR710573	Product containing warfarin in parenteral dosage form
+^ESCTWA1005511	Warfarin 500microgram tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTWA1005512	Warfarin 500microgram tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTWA1005513	Warfarin 1mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTWA1005514	Warfarin 1mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTWA1005515	Warfarin 3mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTWA1005516	Warfarin 3mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTWA1005517	Warfarin 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTWA1005518	Warfarin 5mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTWA1009283	Warfarin 1mg/ml oral suspension sugar free 150 ml
+^ESCTWA1009284	Warfarin 1mg/ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTWA1009285	Warfarin 1mg/ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTWA1009297	Warfarin 1mg/ml oral suspension sugar free
+^ESCTWA1011315	Warfarin 4mg tablets 100 tablet
+^ESCTWA1013285	Warfarin 1mg/ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTWA1013286	Warfarin 1mg/ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTWA1023566	Warfarin 1mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTWA1023567	Warfarin 1mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA1023568	Warfarin 3mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTWA1023569	Warfarin 3mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA1023570	Warfarin 5mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTWA1023571	Warfarin 5mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA1028317	Warfarin 1mg/ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTWA1028318	Warfarin 1mg/ml oral suspension sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTWA1029933	Warfarin 500microgram tablets (AMCo)
+^ESCTWA1029934	Warfarin 500microgram tablets (AMCo) 28 tablet
+^ESCTWA1042719	Warfarin 1mg/ml oral suspension sugar free (Waymade Healthcare Plc)
+^ESCTWA1042720	Warfarin 1mg/ml oral suspension sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTWA1042721	Warfarin 500microgram tablets (Waymade Healthcare Plc)
+^ESCTWA1042722	Warfarin 500microgram tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTWA1042723	Warfarin 1mg tablets (Waymade Healthcare Plc)
+^ESCTWA1042724	Warfarin 1mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTWA1042725	Warfarin 1mg tablets (Waymade Healthcare Plc) 500 tablet
+^ESCTWA1042726	Warfarin 3mg tablets (Waymade Healthcare Plc)
+^ESCTWA1042727	Warfarin 3mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTWA1042728	Warfarin 3mg tablets (Waymade Healthcare Plc) 500 tablet
+^ESCTWA1042729	Warfarin 5mg tablets (Waymade Healthcare Plc)
+^ESCTWA1042730	Warfarin 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTWA1042731	Warfarin 5mg tablets (Waymade Healthcare Plc) 500 tablet
+^ESCTWA1050203	Warfarin 1mg tablets (DE Pharmaceuticals)
+^ESCTWA1050204	Warfarin 1mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTWA1050205	Warfarin 1mg tablets (DE Pharmaceuticals) 500 tablet
+^ESCTWA1050206	Warfarin 3mg tablets (DE Pharmaceuticals)
+^ESCTWA1050212	Warfarin 3mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTWA1050213	Warfarin 3mg tablets (DE Pharmaceuticals) 500 tablet
+^ESCTWA1050214	Warfarin 5mg tablets (DE Pharmaceuticals)
+^ESCTWA1050215	Warfarin 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTWA1050216	Warfarin 5mg tablets (DE Pharmaceuticals) 500 tablet
+^ESCTWA1050217	Warfarin 500microgram tablets (DE Pharmaceuticals)
+^ESCTWA1050218	Warfarin 500microgram tablets (DE Pharmaceuticals) 28 tablet
+^ESCTWA1050219	Warfarin 1mg/ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCTWA1050220	Warfarin 1mg/ml oral suspension sugar free (DE Pharmaceuticals) 150 ml
+^ESCTWA1109709	Warfarin 1mg tablets (Crescent Pharma Ltd)
+^ESCTWA1109710	Warfarin 1mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA1109711	Warfarin 3mg tablets (Crescent Pharma Ltd)
+^ESCTWA1109712	Warfarin 3mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA1109713	Warfarin 5mg tablets (Crescent Pharma Ltd)
+^ESCTWA1109714	Warfarin 5mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA1127836	Warfarin 1mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTWA1127837	Warfarin 1mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTWA1127838	Warfarin 3mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTWA1127839	Warfarin 3mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTWA1127840	Warfarin 3mg tablets (Mawdsley-Brooks & Company Ltd) 500 tablet
+^ESCTWA1127841	Warfarin 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTWA1127842	Warfarin 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTWA1144999	Warfarin 5mg capsules 1 capsule
+^ESCTWA1145000	Warfarin 5mg capsules (Special Order)
+^ESCTWA1145001	Warfarin 5mg capsules (Special Order) 1 capsule
+^ESCTWA1145002	Warfarin 3mg capsules 1 capsule
+^ESCTWA1145003	Warfarin 3mg capsules (Special Order)
+^ESCTWA1145004	Warfarin 3mg capsules (Special Order) 1 capsule
+^ESCTWA1145005	Warfarin 1mg capsules 1 capsule
+^ESCTWA1145006	Warfarin 1mg capsules (Special Order)
+^ESCTWA1145007	Warfarin 1mg capsules (Special Order) 1 capsule
+^ESCTWA1145087	Warfarin 1mg capsules
+^ESCTWA1145088	Warfarin 3mg capsules
+^ESCTWA1145089	Warfarin 5mg capsules
+^ESCTWA328649	Warfarin
+^ESCTWA608061	Warfarin 1mg tablets
+^ESCTWA608063	Warfarin sodium 1 mg oral tablet
+^ESCTWA608064	Warfarin 3mg tablets
+^ESCTWA608066	Warfarin sodium 3 mg oral tablet
+^ESCTWA608067	Warfarin 5mg tablets
+^ESCTWA608069	Warfarin sodium 5 mg oral tablet
+^ESCTWA608070	Warfarin 500microgram tablets
+^ESCTWA608072	Warfarin sodium 0.5 mg oral tablet
+^ESCTWA640249	Warfarin 4mg tablets
+^ESCTWA640251	Warfarin sodium 4 mg oral tablet
+^ESCTWA640252	Warfarin sodium 2 mg oral tablet
+^ESCTWA640256	Warfarin sodium 7.5 mg oral tablet
+^ESCTWA640258	Warfarin sodium 10 mg oral tablet
+^ESCTWA640260	Warfarin sodium 2.5 mg oral tablet
+^ESCTWA640262	Warfarin sodium 6 mg oral tablet
+^ESCTWA710141	Warfarin in oral dosage form
+^ESCTWA710570	Warfarin 2mg/mL powder for injection solution
+^ESCTWA710572	Warfarin in parenteral dosage form
+^ESCTWA801574	Warfarin 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTWA808222	Warfarin 1mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTWA809638	Warfarin 1mg tablets (Actavis UK Ltd)
+^ESCTWA810306	Warfarin 1mg tablets (Sandoz Ltd)
+^ESCTWA811215	Warfarin 3mg tablets (Mylan Ltd)
+^ESCTWA813342	Warfarin 500microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTWA814924	Warfarin 1mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTWA815998	Warfarin 1mg tablets (Teva UK Ltd)
+^ESCTWA817214	Warfarin 3mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTWA818153	Warfarin 3mg tablets (The Boots Company Plc)
+^ESCTWA819037	Warfarin 5mg tablets (The Boots Company Plc)
+^ESCTWA819142	Warfarin 3mg tablets (Teva UK Ltd)
+^ESCTWA819678	Warfarin 1mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTWA819944	Warfarin 3mg tablets (Sandoz Ltd)
+^ESCTWA819984	Warfarin 3mg tablets (Actavis UK Ltd)
+^ESCTWA820241	Warfarin 3mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTWA820287	Warfarin 1mg tablets (The Boots Company Plc)
+^ESCTWA820475	Warfarin 5mg tablets (Teva UK Ltd)
+^ESCTWA820511	Warfarin 500microgram tablets (Kent Pharmaceuticals Ltd)
+^ESCTWA820687	Warfarin 5mg tablets (Actavis UK Ltd)
+^ESCTWA822772	Warfarin 5mg tablets (Mylan Ltd)
+^ESCTWA822845	Warfarin 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTWA822924	Warfarin 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTWA822972	Warfarin 1mg tablets (Mylan Ltd)
+^ESCTWA823128	Warfarin 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTWA824091	Warfarin 3mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTWA830869	Warfarin 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTWA832998	Warfarin 5mg tablets (Sandoz Ltd)
+^ESCTWA833514	Warfarin 3mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTWA835383	Warfarin 1mg tablets 500 tablet
+^ESCTWA837224	Warfarin 3mg tablets 28 tablet
+^ESCTWA840841	Warfarin 3mg tablets 100 tablet
+^ESCTWA842183	Warfarin 3mg tablets 500 tablet
+^ESCTWA847021	Warfarin 1mg tablets 28 tablet
+^ESCTWA847448	Warfarin 5mg tablets 28 tablet
+^ESCTWA847527	Warfarin 5mg tablets 500 tablet
+^ESCTWA847574	Warfarin 500microgram tablets 28 tablet
+^ESCTWA847971	Warfarin 5mg tablets 100 tablet
+^ESCTWA850778	Warfarin 3mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTWA850779	Warfarin 3mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTWA850781	Warfarin 3mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTWA850782	Warfarin 1mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTWA850784	Warfarin 3mg tablets (Actavis UK Ltd) 28 tablet
+^ESCTWA850786	Warfarin 1mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTWA850787	Warfarin 3mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA850789	Warfarin 3mg tablets (The Boots Company Plc) 500 tablet
+^ESCTWA850790	Warfarin 1mg tablets (Actavis UK Ltd) 28 tablet
+^ESCTWA850792	Warfarin 1mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA850793	Warfarin 3mg tablets (Mylan Ltd) 500 tablet
+^ESCTWA850794	Warfarin 3mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA850797	Warfarin 3mg tablets (IVAX Pharmaceuticals UK Ltd) 500 tablet
+^ESCTWA850798	Warfarin 3mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA850799	Warfarin 1mg tablets (The Boots Company Plc) 500 tablet
+^ESCTWA850802	Warfarin 3mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTWA850803	Warfarin 3mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTWA850804	Warfarin 3mg tablets (Sandoz Ltd) 28 tablet
+^ESCTWA850805	Warfarin 3mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTWA850806	Warfarin 1mg tablets (Mylan Ltd) 500 tablet
+^ESCTWA850807	Warfarin 3mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA850808	Warfarin 1mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA850810	Warfarin 1mg tablets (IVAX Pharmaceuticals UK Ltd) 500 tablet
+^ESCTWA850811	Warfarin 1mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA850812	Warfarin 1mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTWA850813	Warfarin 1mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTWA850814	Warfarin 1mg tablets (Sandoz Ltd) 28 tablet
+^ESCTWA850815	Warfarin 1mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTWA850816	Warfarin 1mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA850817	Warfarin 5mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTWA850818	Warfarin 5mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTWA850819	Warfarin 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTWA850820	Warfarin 5mg tablets (Actavis UK Ltd) 28 tablet
+^ESCTWA850821	Warfarin 5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA850822	Warfarin 5mg tablets (The Boots Company Plc) 500 tablet
+^ESCTWA850829	Warfarin 5mg tablets (Mylan Ltd) 500 tablet
+^ESCTWA850830	Warfarin 5mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA850832	Warfarin 5mg tablets (IVAX Pharmaceuticals UK Ltd) 500 tablet
+^ESCTWA850833	Warfarin 5mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA850835	Warfarin 5mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTWA850837	Warfarin 5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTWA850838	Warfarin 5mg tablets (Sandoz Ltd) 28 tablet
+^ESCTWA850841	Warfarin 5mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTWA850842	Warfarin 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA851769	Warfarin 5mg tablets (Sandoz Ltd) 500 tablet
+^ESCTWA855094	Warfarin 500microgram tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA855095	Warfarin 500microgram tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA863186	Warfarin 500microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTWA863187	Warfarin 500microgram tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA897897	Warfarin 3mg tablets (Sandoz Ltd) 500 tablet
+^ESCTWA909053	Warfarin 10mg/5ml oral solution 1 ml
+^ESCTWA909054	Warfarin 10mg/5ml oral solution (Special Order)
+^ESCTWA909055	Warfarin 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTWA909056	Warfarin 10mg/5ml oral suspension 1 ml
+^ESCTWA909057	Warfarin 10mg/5ml oral suspension (Special Order)
+^ESCTWA909058	Warfarin 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTWA909059	Warfarin 3mg/5ml oral solution 1 ml
+^ESCTWA909060	Warfarin 3mg/5ml oral solution (Special Order)
+^ESCTWA909062	Warfarin 3mg/5ml oral solution (Special Order) 1 ml
+^ESCTWA909063	Warfarin 3mg/5ml oral suspension 1 ml
+^ESCTWA909065	Warfarin 3mg/5ml oral suspension (Special Order)
+^ESCTWA909066	Warfarin 3mg/5ml oral suspension (Special Order) 1 ml
+^ESCTWA909071	Warfarin 1mg/5ml oral solution 1 ml
+^ESCTWA909072	Warfarin 1mg/5ml oral solution (Special Order)
+^ESCTWA909073	Warfarin 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTWA909076	Warfarin 1mg/5ml oral suspension 1 ml
+^ESCTWA909077	Warfarin 1mg/5ml oral suspension (Special Order)
+^ESCTWA909081	Warfarin 5mg/5ml oral solution 1 ml
+^ESCTWA909084	Warfarin 5mg/5ml oral solution (Special Order)
+^ESCTWA909086	Warfarin 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTWA909087	Warfarin 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTWA909088	Warfarin 2mg/5ml oral solution 1 ml
+^ESCTWA909089	Warfarin 2mg/5ml oral solution (Special Order)
+^ESCTWA909090	Warfarin 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTWA909091	Warfarin 2mg/5ml oral suspension 1 ml
+^ESCTWA909097	Warfarin 5mg/5ml oral suspension 1 ml
+^ESCTWA909099	Warfarin 5mg/5ml oral suspension (Special Order)
+^ESCTWA909101	Warfarin 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTWA909107	Warfarin 2mg/5ml oral suspension (Special Order)
+^ESCTWA909108	Warfarin 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTWA909699	Warfarin 10mg/5ml oral solution
+^ESCTWA909700	Warfarin 10mg/5ml oral suspension
+^ESCTWA909701	Warfarin 1mg/5ml oral solution
+^ESCTWA909702	Warfarin 1mg/5ml oral suspension
+^ESCTWA909703	Warfarin 2mg/5ml oral solution
+^ESCTWA909704	Warfarin 2mg/5ml oral suspension
+^ESCTWA909705	Warfarin 3mg/5ml oral solution
+^ESCTWA909706	Warfarin 3mg/5ml oral suspension
+^ESCTWA909707	Warfarin 5mg/5ml oral solution
+^ESCTWA909708	Warfarin 5mg/5ml oral suspension
+^ESCTWA923615	Warfarin 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTWA923617	Warfarin 5mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA923621	Warfarin 3mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTWA923622	Warfarin 3mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA923624	Warfarin 1mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTWA923626	Warfarin 1mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA926623	Warfarin 1mg tablets (Zentiva)
+^ESCTWA926624	Warfarin 1mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTWA926625	Warfarin 3mg tablets (Zentiva)
+^ESCTWA926626	Warfarin 3mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTWA926627	Warfarin 5mg tablets (Zentiva)
+^ESCTWA926628	Warfarin 5mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTWA927945	Warfarin 500microgram tablets (Actavis UK Ltd)
+^ESCTWA927946	Warfarin 500microgram tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA929107	Warfarin 500microgram tablets (Arrow Generics Ltd)
+^ESCTWA929108	Warfarin 500microgram tablets (Arrow Generics Ltd) 28 tablet
+^ESCTWA929119	Warfarin 1mg tablets (Arrow Generics Ltd)
+^ESCTWA929120	Warfarin 1mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTWA929121	Warfarin 3mg tablets (Arrow Generics Ltd)
+^ESCTWA929122	Warfarin 3mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTWA929123	Warfarin 5mg tablets (Arrow Generics Ltd)
+^ESCTWA929124	Warfarin 5mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTWA931230	Warfarin 1mg tablets (Teva UK Ltd) 500 tablet
+^ESCTWA931231	Warfarin 3mg tablets (Teva UK Ltd) 500 tablet
+^ESCTWA931232	Warfarin 5mg tablets (Teva UK Ltd) 500 tablet
+^ESCTWA932161	Warfarin 500microgram tablets (Zentiva)
+^ESCTWA932224	Warfarin 500microgram tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTWA957134	Warfarin 1.5mg/5ml oral solution 1 ml
+^ESCTWA957135	Warfarin 1.5mg/5ml oral solution (Special Order)
+^ESCTWA957138	Warfarin 1.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTWA957140	Warfarin 100micrograms/5ml oral solution 1 ml
+^ESCTWA957142	Warfarin 100micrograms/5ml oral solution (Special Order)
+^ESCTWA957144	Warfarin 100micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTWA957146	Warfarin 2.5mg/5ml oral solution 1 ml
+^ESCTWA957147	Warfarin 2.5mg/5ml oral solution (Special Order)
+^ESCTWA957149	Warfarin 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTWA957151	Warfarin 25mg/5ml oral solution 1 ml
+^ESCTWA957152	Warfarin 25mg/5ml oral solution (Special Order)
+^ESCTWA957153	Warfarin 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTWA957155	Warfarin 4.16mg/5ml oral solution 1 ml
+^ESCTWA957156	Warfarin 4.16mg/5ml oral solution (Special Order)
+^ESCTWA957157	Warfarin 4.16mg/5ml oral solution (Special Order) 1 ml
+^ESCTWA957161	Warfarin 4mg/5ml oral solution 1 ml
+^ESCTWA957162	Warfarin 4mg/5ml oral solution (Special Order)
+^ESCTWA957163	Warfarin 4mg/5ml oral solution (Special Order) 1 ml
+^ESCTWA957169	Warfarin 500micrograms/5ml oral solution 1 ml
+^ESCTWA957171	Warfarin 500micrograms/5ml oral solution (Special Order)
+^ESCTWA957172	Warfarin 500micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTWA957735	Warfarin 1.5mg/5ml oral solution
+^ESCTWA957737	Warfarin 100micrograms/5ml oral solution
+^ESCTWA957739	Warfarin 2.5mg/5ml oral solution
+^ESCTWA957741	Warfarin 25mg/5ml oral solution
+^ESCTWA957743	Warfarin 4.16mg/5ml oral solution
+^ESCTWA957745	Warfarin 4mg/5ml oral solution
+^ESCTWA957747	Warfarin 500micrograms/5ml oral solution
+^ESCTWA979373	Warfarin 500microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTWA979375	Warfarin 500microgram tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTWA988045	Warfarin 1mg tablets (Bristol Laboratories Ltd)
+^ESCTWA988046	Warfarin 1mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA988047	Warfarin 3mg tablets (Bristol Laboratories Ltd)
+^ESCTWA988048	Warfarin 3mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTWA988049	Warfarin 5mg tablets (Bristol Laboratories Ltd)
+^ESCTWA988050	Warfarin 5mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+COTA48119NEMIS	Coumadin  Tablets  4 mg
+MATA1720	Marevan  Tablets  1 mg
+MATA1721	Marevan  Tablets  3 mg
+MATA1722	Marevan  Tablets  5 mg
+MATA638NEMIS	Marevan  Tablets  500 micrograms
+WAOR46827NEMIS	Warfarin Sodium  Oral solution  1 mg/5 ml
+WAOR46828NEMIS	Warfarin Sodium  Oral solution  3 mg/5 ml
+WAOR46829NEMIS	Warfarin Sodium  Oral solution  5 mg/5 ml
+WAOR46830NEMIS	Warfarin Sodium  Oral suspension  1 mg/5 ml
+WAOR46831NEMIS	Warfarin Sodium  Oral suspension  3 mg/5 ml
+WAOR47613NEMIS	Warfarin Sodium  Oral Suspension Sugar Free  1 mg/ml
+WASU11376NEMIS	Warfarin Sodium  Suspension  1 mg/ml
+WASU11609NEMIS	Warfarin Sodium  Suspension  2 mg/ml
+WATA3068	Warfarin Sodium  Tablets  1 mg
+WATA3069	Warfarin Sodium  Tablets  3 mg
+WATA3070	Warfarin Sodium  Tablets  5 mg
+WATA37416MGEMIS	Warfarin Sodium  Tablets  1 mg (Ivax Pharmaceuticals)
+WATA37417MGEMIS	Warfarin Sodium  Tablets  1 mg (Alpharma)
+WATA37418MGEMIS	Warfarin Sodium  Tablets  1 mg (Sandoz)
+WATA37419MGEMIS	Warfarin Sodium  Tablets  1 mg (A.A.H. Pharm)
+WATA37420MGEMIS	Warfarin Sodium  Tablets  1 mg (Teva UK)
+WATA37421MGEMIS	Warfarin Sodium  Tablets  1 mg (Kent Pharm)
+WATA37422MGEMIS	Warfarin Sodium  Tablets  1 mg (The Boots Company)
+WATA37423MGEMIS	Warfarin Sodium  Tablets  1 mg (Unichem)
+WATA37424MGEMIS	Warfarin Sodium  Tablets  1 mg (Generics (UK))
+WATA37425MGEMIS	Warfarin Sodium  Tablets  3 mg (Generics (UK))
+WATA37426MGEMIS	Warfarin Sodium  Tablets  3 mg (A.A.H. Pharm)
+WATA37427MGEMIS	Warfarin Sodium  Tablets  3 mg (The Boots Company)
+WATA37428MGEMIS	Warfarin Sodium  Tablets  3 mg (Teva UK)
+WATA37429MGEMIS	Warfarin Sodium  Tablets  3 mg (Sandoz)
+WATA37430MGEMIS	Warfarin Sodium  Tablets  3 mg (Alpharma)
+WATA37431MGEMIS	Warfarin Sodium  Tablets  3 mg (Unichem)
+WATA37432MGEMIS	Warfarin Sodium  Tablets  3 mg (Kent Pharm)
+WATA37433MGEMIS	Warfarin Sodium  Tablets  3 mg (Ivax Pharmaceuticals)
+WATA37434MGEMIS	Warfarin Sodium  Tablets  5 mg (Kent Pharm)
+WATA37435MGEMIS	Warfarin Sodium  Tablets  5 mg (The Boots Company)
+WATA37436MGEMIS	Warfarin Sodium  Tablets  5 mg (Teva UK)
+WATA37437MGEMIS	Warfarin Sodium  Tablets  5 mg (Alpharma)
+WATA37438MGEMIS	Warfarin Sodium  Tablets  5 mg (Generics (UK))
+WATA37439MGEMIS	Warfarin Sodium  Tablets  5 mg (Ivax Pharmaceuticals)
+WATA37440MGEMIS	Warfarin Sodium  Tablets  5 mg (A.A.H. Pharm)
+WATA37441MGEMIS	Warfarin Sodium  Tablets  5 mg (Unichem)
+WATA37442MGEMIS	Warfarin Sodium  Tablets  5 mg (Sandoz)
+WATA37611MGEMIS	Warfarin Sodium  Tablets  500 micrograms (Unichem)
+WATA37612MGEMIS	Warfarin Sodium  Tablets  500 micrograms (Kent Pharm)
+WATA37613MGEMIS	Warfarin Sodium  Tablets  500 micrograms (A.A.H. Pharm)
+WATA637NEMIS	Warfarin Sodium  Tablets  500 micrograms
+WATA8904BRIDL	Warfarin Wbp  Tablets  1 mg
+WATA8906BRIDL	Warfarin Wbp  Tablets  3 mg
+WATA8908BRIDL	Warfarin Wbp  Tablets  5 mg

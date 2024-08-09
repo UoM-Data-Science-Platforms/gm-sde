@@ -1,0 +1,9 @@
+ej7..	Quinine
+ej78.	Quinine dihydrochloride 600mg/2mL intravenous infusion
+ej77.	Quinine dihydrochloride 300mg/1mL intravenous infusion
+ej76.	Quinine sulphate 300mg tablet
+ej75.	Quinine sulphate 200mg tablet
+ej74.	Quinine sulphate 125mg tablet
+ej73.	Quinine hydrochloride 300mg tablet
+ej72.	Quinine dihydrochloride 300mg tablet
+ej71.	Quinine bisulphate 300mg tablet
