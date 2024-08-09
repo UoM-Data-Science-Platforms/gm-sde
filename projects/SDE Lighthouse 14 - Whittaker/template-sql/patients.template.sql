@@ -2,6 +2,9 @@
 --│ LH014 Patient file                 │
 --└────────────────────────────────────┘
 
+-------- RESEARCH DATA ENGINEER CHECK ---------
+-- Richard Williams	2024-08-09	Review complete
+
 -- *** this file gets extra patient demographics from the GP record for about 85% of the patients in the VW data.
 -- Some patients are missing for a couple of reasons:
 -- 1. opted out of sharing GP record info

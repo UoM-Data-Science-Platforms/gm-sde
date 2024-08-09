@@ -1,6 +1,9 @@
 --┌────────────────────────────────────┐
---│ LH004 Patient file                 │
+--│ LH014 Patient file                 │
 --└────────────────────────────────────┘
+
+-------- RESEARCH DATA ENGINEER CHECK ---------
+-- Richard Williams	2024-08-09	Review complete
 
 -- *** this file gets extra patient demographics from the GP record for about 85% of the patients in the VW data.
 -- Some patients are missing for a couple of reasons:
@@ -51,16 +54,15 @@ SELECT *
 FROM (
 SELECT 
 	"Snapshot", 
-	D."GmPseudo" AS GmPseudo,
-	"FK_Patient_ID", 
+	D."GmPseudo",
 	"DateOfBirth",
-	DATE_TRUNC(month, dth.DeathDate) AS DeathDate,
-	"DiagnosisOriginalMentionCode" AS CauseOfDeathCode,
-	"DiagnosisOriginalMentionDesc" AS CauseOfDeathDesc,
-	"DiagnosisOriginalMentionChapterCode" AS CauseOfDeathChapterCode,
-    "DiagnosisOriginalMentionChapterDesc" AS CauseOfDeathChapterDesc,
-    "DiagnosisOriginalMentionCategory1Code" AS CauseOfDeathCategoryCode,
-    "DiagnosisOriginalMentionCategory1Desc" AS CauseOfDeathCategoryDesc,
+	DATE_TRUNC(month, dth.DeathDate) AS "DeathDate",
+	"DiagnosisOriginalMentionCode" AS "CauseOfDeathCode",
+	"DiagnosisOriginalMentionDesc" AS "CauseOfDeathDesc",
+	"DiagnosisOriginalMentionChapterCode" AS "CauseOfDeathChapterCode",
+    "DiagnosisOriginalMentionChapterDesc" AS "CauseOfDeathChapterDesc",
+    "DiagnosisOriginalMentionCategory1Code" AS "CauseOfDeathCategoryCode",
+    "DiagnosisOriginalMentionCategory1Desc" AS "CauseOfDeathCategoryDesc",
 	LSOA11, 
 	"IMD_Decile", 
 	"Age", 

@@ -2,6 +2,9 @@
 --│ SDE Lighthouse study 14 - Whittaker - A&E Encounters         │
 --└──────────────────────────────────────────────────────────────┘
 
+-------- RESEARCH DATA ENGINEER CHECK ---------
+-- Richard Williams	2024-08-09	Review complete
+
 USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
 
 -- Date range: 2018 to present

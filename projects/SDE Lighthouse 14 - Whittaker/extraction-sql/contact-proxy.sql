@@ -2,6 +2,9 @@
 --│ LH014 GP Contact Proxy             │
 --└────────────────────────────────────┘
 
+-------- RESEARCH DATA ENGINEER CHECK ---------
+-- Richard Williams	2024-08-09	Review complete
+
 USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
 
 set(StudyStartDate) = to_date('2018-01-01');
@@ -23,6 +26,5 @@ SELECT
     , "EventDate" as "GPProxyEncounterDate"
 FROM PRESENTATION.GP_RECORD."Contacts_Proxy_Detail_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards)
+AND "Contact" = 1
 AND "EventDate" BETWEEN $StudyStartDate AND $StudyEndDate;
-
-

@@ -2,6 +2,9 @@
 --│ LH014 GP Contact Proxy             │
 --└────────────────────────────────────┘
 
+-------- RESEARCH DATA ENGINEER CHECK ---------
+-- Richard Williams	2024-08-09	Review complete
+
 USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
 
 set(StudyStartDate) = to_date('2018-01-01');
