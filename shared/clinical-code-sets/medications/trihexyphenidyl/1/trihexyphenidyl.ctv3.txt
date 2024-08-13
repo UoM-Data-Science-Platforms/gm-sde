@@ -1,0 +1,18 @@
+x01DS	Trihexyphenidyl
+dr1z.	Benzhexol hydrochloride 5mg/5mL syrup
+dr19.	Broflex 5mg/5mL syrup
+dr1y.	Benzhexol hydrochloride 5mg m/r capsule
+dr15.	Artane 5mg m/r capsule
+dr1x.	Benzhexol hydrochloride 5mg tablet
+dr18.	Bentex 5mg tablet
+dr14.	Artane 5mg tablet
+dr12.	Benzhexol 5mg tablets
+dr1w.	Benzhexol hydrochloride 2mg tablet
+dr17.	Bentex 2mg tablet
+dr13.	Artane 2mg tablet
+dr11.	Benzhexol 2mg tablets
+dr1A.	Benzhexol 2mg/5mL s/f oral solution
+dr16.	Artane powder
+dr1..	Benzhexol hydrochloride
+x02W4	Broflex
+x02UP	Artane

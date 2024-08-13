@@ -1,2 +1,181 @@
 aaB1.	CLIPPER 5mg e/c m/r tablets
 aaBz.	BECLOMETASONE DIPROPIONATE 5mg e/c m/r tablets
+c61..	Beclometasone dipropionate [respiratory use]
+c61A.	Beclometasone dipropionate 400micrograms/blister disks+disk inhaler
+x00I4	Becodisks 400micrograms/blister disks+diskhaler
+c66R.	Becodisk 400microcgrams diskhaler 15x8
+c61e.	Becodisk 400micrograms diskhaler 7x8
+x00I1	Becloforte 400micrograms/blister disks+diskhaler
+c61m.	Becloforte diskhaler 400micrograms 14x8
+c61B.	Beclometasone dipropionate 400micrograms/blister disks refill
+x00I0	Becodisks 400micrograms/blister disks refill
+c66U.	Becodisk 400micrograms disk refill 15x8
+c61f.	Becodisk 400micrograms disk refill 7x8
+x00Hx	Becloforte 400micrograms/blister disks refill
+c61n.	Becloforte disks 400micrograms disk refill 14x8
+c61D.	Beclometasone dipropionate 50micrograms breath-actuated aerosol inhaler
+c662.	Becotide 50 Easi-Breathe inhaler
+c61j.	Aerobec 50mcg Autohaler
+c61N.	Beclazone 50 Easi-Breathe inhaler
+c61E.	Beclometasone dipropionate 250micrograms breath-actuated aerosol inhaler
+c664.	Becloforte Easi-Breathe 250micrograms inhaler
+c61k.	Aerobec Forte 250micrograms Autohaler
+c61P.	Beclazone 250 Easi-Breathe inhaler
+c61F.	Beclometasone dipropionate 100micrograms breath-actuated aerosol inhaler
+c663.	Becotide 100 Easi-Breathe inhaler
+c61l.	Aerobec 100mcg Autohaler
+c61O.	Beclazone 100 Easi-Breathe inhaler
+c61h.	Beclometasone dipropionate 400micrograms inhalation capsule
+c66N.	Beclometasone 400 Cyclocap
+c61b.	Becotide 400micrograms Rotacap
+c61p.	Beclometasone dipropionate 100micrograms/blister disks+disk inhaler
+x00I2	Becodisks 100micrograms disks+diskhaler
+c66P.	Becodisk 100micrograms diskhaler 15x8
+c619.	Becodisk 100micrograms diskhaler 14x8
+c61q.	Beclometasone dipropionate 200micrograms/blister disks+disk inhaler
+x00I3	Becodisks 200micrograms/blister disks+diskhaler
+c66Q.	Becodisk 200micrograms diskhaler 15x8
+c61a.	Becodisk 200micrograms diskhaler 14x8
+c61r.	Beclometasone dipropionate 100micrograms/blister disks refill
+x00Hy	Becodisks 100micrograms/blister disks refill
+c66S.	Becodisk 100micrograms disk refill 15x8
+c61c.	Becodisk 100micrograms disk refill 14x8
+c61s.	Beclometasone dipropionate 200micrograms/blister disks refill
+x00Hz	Becodisks 200micrograms/blister disks refill
+c66T.	Becodisk 200micrograms disk refill 15x8
+c61d.	Becodisk 200micrograms disk refill 14x8
+c61t.	Beclometasone dipropionate 250micrograms inhaler
+c61M.	Beclazone 250 inhaler
+c61J.	Filair Forte 250micrograms inhaler
+c611.	Becloforte 250micrograms inhaler
+c61u.	Beclometasone dipropionate 200micrograms inhaler
+c669.	Beclazone 200 inhaler
+c61i.	Becotide 200 inhaler
+c61v.	Beclometasone dipropionate 50micrograms inhaler
+c61K.	Beclazone 50 inhaler
+c61G.	Filair 50 inhaler
+c612.	Becotide 50 inhaler
+c61w.	Beclometasone dipropionate 100micrograms inhalation capsule
+c66L.	Beclometasone 100 Cyclocap
+c613.	Becotide 100micrograms Rotacap
+c61x.	Beclometasone dipropionate 200micrograms inhalation capsule
+c66M.	Beclometasone 200 Cyclocap
+c614.	Becotide 200micrograms Rotacap
+c61z.	Beclometasone dipropionate 100micrograms inhaler
+c61L.	Beclazone 100 inhaler
+c61H.	Filair 100micrograms inhaler
+c617.	Becotide 100 inhaler
+c62..	Beclometasone compounds
+c62x.	Beclometasone dipropionate+salbutamol 200micrograms/400micrograms inhalation capsule
+c622.	Ventide Rotacap
+c62y.	Beclometasone dipropionate+salbutamol 100micrograms/200micrograms paediatric inhalation capsule
+c623.	Ventide paediatric Rotacap
+c66A.	Beclometasone dipropionate 50micrograms breath-actuated dry powder inhaler
+c66D.	Asmabec 50micrograms Clickhaler
+c66B.	Beclometasone dipropionate 100micrograms breath-actuated dry powder inhaler
+c66I.	Pulvinal Beclomethasone Dipropionate 100micrograms breath-actuated dry powder inhaler
+c66E.	Asmabec 100micrograms Clickhaler
+c66C.	Beclometasone dipropionate 250micrograms breath-actuated dry powder inhaler
+c66F.	Asmabec 250micrograms Clickhaler
+c66G.	Beclometasone dipropionate 400micrograms breath-actuated dry powder inhaler
+c66K.	Pulvinal Beclomethasone Dipropionate 400micrograms breath-actuated dry powder inhaler
+c66H.	Beclometasone dipropionate 200micrograms breath-actuated dry powder inhaler
+c66b.	Easyhaler Beclometasone 200micrograms breath-actuated dry powder inhaler
+c66J.	Pulvinal Beclomethasone Dipropionate 200micrograms breath-actuated dry powder inhaler
+c66V.	Beclometasone dipropionate 50micrograms CFC-free inhaler
+c665.	Qvar 50 inhaler
+c66W.	Beclometasone dipropionate 100micrograms CFC-free inhaler
+c666.	Qvar 100 inhaler
+c66X.	Beclometasone dipropionate 50micrograms CFC-free breath-actuated aerosol inhaler
+c66Z.	Qvar Easi-Breathe 50micrograms CFC-free breath-actuated dry powder inhaler
+c667.	Qvar 50 Autohaler
+c66Y.	Beclometasone dipropionate 100micrograms CFC-free breath-actuated aerosol inhaler
+c66a.	Qvar Easi-Breathe 100micrograms CFC-free breath-actuated dry powder inhaler
+c668.	Qvar 100 Autohaler
+c66g.	BECLOMETASONE DIPROPIONATE 200micrograms CFC-free inhaler
+c66h.	BECLOMETASONE DIPROPIONATE 250micrograms CFC-free inhaler
+c6A..	BECLOMETASONE+FORMOTEROL
+c6Az.	BECLOMETASONE DIPROPIONATE+FORMETEROL FUMARATE DIHYDRATE 100micrograms/6micrograms inhaler
+c6A1.	FOSTAIR 100micrograms/6micrograms inhaler
+c6Ay.	BECLOMET DIPROP+FORMOTERL FUMARATE DIHYD 100mcg/6mcg pdr inh
+c6Ax.	BECLOMET DIPROP+FORMOTERL FUMARATE DIHYD 200mcg/6mcg inhaler
+c6Aw.	BECLOMET DIPROP+FORMOTERL FUMARATE DIHYD 200mcg/6mcg pdr inh
+c6A4.	FOSTAIR NEXTHALER 200micrograms/6micrograms powder inhaler
+c6A3.	FOSTAIR 200micrograms/6micrograms inhaler
+c6A2.	FOSTAIR NEXTHALER 100micrograms/6micrograms powder inhaler
+l81..	Beclometasone dipropionate [nose]
+l81z.	Beclometasone dipropionate 50micrograms aqueous nasal spray
+l81e.	Beconase Hayfever Relief for Adults 50micrograms nasal spray
+l81d.	Vantage Hayfever Relief 50micrograms nasal spray
+l81c.	Pollenase 50micrograms nasal spray
+l81b.	Rino Clenil 50micrograms nasal spray
+l81a.	Care Hayfever Relief 50micrograms nasal spray
+l819.	Vivabec 50micrograms nasal spray
+l818.	Beclomist 50micrograms nasal spray
+l817.	Beclo-aqua 50 nasal spray
+l816.	Nasobec Hayfever 50micrograms nasal spray
+l815.	Nasobec Aqueous 50micrograms nasal spray
+l814.	Beconase Allergy 50micrograms aqueous nasal spray
+l813.	Zonivent Aquanasal 50micrograms spray
+l812.	Beconase 50micrograms aqueous nasal spray
+m47..	Beclometasone diprop [skin]
+m47y.	Beclometasone dipropionate 0.025% cream
+x00HH	Propaderm cream
+m479.	Propaderm 0.025% cream 30g
+m472.	Propaderm 0.025% cream 50g
+m471.	Propaderm 0.025% cream 15g
+m47z.	Beclometasone dipropionate 0.025% ointment
+x00XN	Propaderm ointment
+m47a.	Propaderm 0.025% ointment 30g
+m474.	Propaderm 0.025% ointment 50g
+m473.	Propaderm 0.025% ointment 15g
+x0019	Beclometasone dipropionate+salbutamol
+c62z.	Beclomethasone dipropionate+salbutamol 50micrograms/100micrograms inhaler
+c621.	Ventide inhaler
+x00yo	Topical beclometasone
+x01MU	Propaderm A ointment
+m47b.	Propaderm A ointment 30g
+m476.	Propaderm A 0.025% ointment 50g
+m475.	Propaderm A 0.025% ointment 15g
+x01MT	Propaderm A cream
+m47c.	Propaderm A cream 30g
+m478.	Propaderm C 0.025% ointment
+m477.	Propaderm C 0.025% cream
+x01MQ	Beclometasone
+x01MV	Nasal beclomethasone
+l81y.	Beclomethasone dipropionate 50micrograms nasal spray
+l811.	Beconase 50micrograms nasal spray
+x00zA	Respiratory beclomethasone
+c66f.	CLENIL MODULITE 250micrograms CFC-free inhaler
+c66e.	CLENIL MODULITE 200micrograms CFC-free inhaler
+c66d.	CLENIL MODULITE 100micrograms CFC-free inhaler
+c66c.	CLENIL MODULITE 50micrograms CFC-free inhaler
+c61y.	Beclomethasone dipropionate 50micrograms/1mL nebuliser solution
+c616.	Becotide 50micrograms/1mL nebuliser solution
+c61Z.	Beclomethasone dipropionate 250micrograms vortex metered dose inhaler
+c661.	BDP 250micrograms Spacehaler
+c61X.	Beclomethasone dipropionate 100micrograms vortex metered dose inhaler
+c61Y.	BDP 100micrograms Spacehaler
+c61V.	Beclomethasone dipropionate 50micrograms vortex metered dose inhaler
+c61W.	BDP 50micrograms Spacehaler
+c61T.	Beclomethasone dipropionate 250micrograms compact spacer refill
+c61R.	Becloforte Integra 250micrograms refill
+c61S.	Beclomethasone dipropionate 250micrograms inhaler+compact spacer
+c61Q.	Becloforte Integra 250micrograms inhaler+compact spacer
+c61C.	Beclomethasone dipropionate 250micrograms inhaler+spacer(large volume)
+c61g.	Becloforte VM 250micrograms inhaler+spacer(large volume)
+c66..	Beclomethasone dipropionate [respiratory use 2]
+x05N5	Pulvinal Beclomethasone
+x02V4	Becloforte
+x02V5	Becloforte Integra
+x02V6	Becloforte VM
+x03nr	Becloforte Easi-Breathe
+x03dE	Becodisks
+x02Ss	Aerobec
+x02St	Aerobec Forte
+x02VA	Becotide
+x03ns	Becotide 50 Easi-Breathe
+x03nt	Becotide 100 Easi-Breathe
+x042U	Becotide 100
+x042V	Becotide 200
+x042W	Becotide 50

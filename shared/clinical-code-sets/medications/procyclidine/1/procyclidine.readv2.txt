@@ -1,0 +1,10 @@
+dr6..00	PROCYCLIDINE HYDROCHLORIDE
+dr6z.00	PROCYCLIDINE 10mg/2mL injection
+dr6y.00	PROCYCLIDINE 5mg tablets
+dr6x.00	PROCYCLIDINE 5mg/5mL sugar free syrup
+dr6w.00	PROCYCLIDINE 2.5mg/5mL sugar free syrup
+dr65.00	*MUSCINIL 5mg tablets
+dr64.00	KEMADRIN 10mg/2mL injection
+dr63.00	KEMADRIN 5mg tablets
+dr62.00	ARPICOLIN 5mg/5mL syrup
+dr61.00	ARPICOLIN 2.5mg/5mL syrup

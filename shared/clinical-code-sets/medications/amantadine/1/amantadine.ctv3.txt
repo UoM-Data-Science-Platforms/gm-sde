@@ -1,0 +1,16 @@
+dq44.	Amantadine hydrochloride 50mg/5mL syrup
+ei24.	Amantadine 50mg/5mL syrup
+ei22.	Symmetrel 50mg/5mL syrup
+dq42.	Symmetrel [park] 50mg/5ml syrup
+dq4z.	Amantadine hydrochloride 100mg capsule
+ei25.	Lysovir 100mg capsule
+ei23.	Amantadine 100mg capsules
+ei21.	Symmetrel 100mg capsule
+dq41.	Symmetrel [park] 100mg capsule
+dq43.	Mantadine 100mg capsule
+ei2..	Amantadine hydrochloride [anti viral]
+x01Bl	Amantadine
+dq4..	Amantidine hydrochloride [parkinsons]
+x05Kk	Amantadine hydrochloride - chemical
+x048n	Symmetrel
+x0562	Lysovir

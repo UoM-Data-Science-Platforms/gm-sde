@@ -1,0 +1,29 @@
+o477.00	*OMNOPON SCOPOLAMINE injection
+a47..00	HYOSCINE BUTYLBROMIDE
+a47z.00	HYOSCINE BUTYLBROMIDE 20mg/1mL injection
+a47y.00	HYOSCINE BUTYLBROMIDE 10mg tablets
+a474.00	BUSCOPAN CRAMPS 10mg tablets
+a473.00	BUSCOPAN IBS RELIEF 10mg tablets
+a472.00	BUSCOPAN 20mg/1mL injection
+a471.00	*BUSCOPAN 10mg tablets
+dh8..00	HYOSCINE HYDROBROMIDE [CENTRAL NERVOUS SYSTEM USE]
+dh8C.00	JOY-RIDES 150micrograms chewable tablets
+dh8B.00	HYOSCINE HYDROBROMIDE 150micrograms tablets
+dh8A.00	KWELLS KIDS 150micrograms tablets
+dh89.00	KWELLS 300micrograms tablets
+dh88.00	SCOPODERM 1.5mg transdermal patches
+dh87.11	HYOSCINE 1.5mg transdermal patches
+dh87.00	HYOSCINE 1mg/72hours patches
+dh86.00	HYOSCINE HYDROBROMIDE 500micrograms/72hrs patches
+dh85.00	*SCOPODERM TTS 1.5mg patches
+dh84.00	HYOSCINE [CNS] 600microgram/1mL injection
+dh83.00	HYOSCINE [CNS] 400microgram/1mL injection
+dh82.00	HYOSCINE 600micrograms tablets
+dh81.00	HYOSCINE 300microgram tablets
+k74..00	HYOSCINE HYDROBROMIDE [EYE]
+k741.00	HYOSCINE 0.25% eye drops
+o33..00	HYOSCINE HYDROBROMIDE [ANAESTHESIA]
+o332.00	HYOSCINE 600microgram/mL injection
+o331.00	HYOSCINE 400microgram/mL injection
+o473.00	PAPAVERETUM+HYOSCINE 15.4mg/400micrograms/1mL injection
+o47B.00	PAPAVERETUM+HYOSCINE 7.7mg/400micrograms/1mL injection

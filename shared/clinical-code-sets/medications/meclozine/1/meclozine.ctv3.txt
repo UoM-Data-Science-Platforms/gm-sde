@@ -1,0 +1,7 @@
+dh9..	Meclozine hydrochloride
+dh94.	Meclozine hydrochloride 12.5mg tablet
+dh95.	Sea-Legs 12.5mg tablet
+dh92.	Meclozine 12.5mg pastille
+dh93.	Traveleeze Soft and Chewy 12.5mg pastille
+dh91.	Ancoloxin tablet
+x05ld	Traveleeze

@@ -9,3 +9,31 @@ c8ix.	Promethazine hydrochloride 5mg/5mL elixir
 c8iy.	Promethazine hydrochloride 25mg/1mL injection
 x00ft	Promethazine hydrochloride 20mg tablet
 x00g1	Sominex 20mg tablet
+c8i..	Promethazine hydrochhloride [antihistamine]
+c8iu.	PROMETHAZINE 20mg tablets
+c8i9.	SOMINEX 20mg tablets
+c8i8.	Ziz Forte 25mg tablet
+x02KI	Q-Mazine 5mg/5mL syrup
+c8iz.	Promethazine hydrochloride 50mg/2mL injection
+c8i5.	Phenergan 50mg/2mL injection
+d19..	Promethazine hydrochloride [hypnotic] see section c8I..
+dhf..	Promethazine [nausea] [see c8i..]
+dhg..	Promethazine theoclate
+dhg2.	VERTIGON 25mg tablets
+dhgz.	Promethazine theoclate 25mg tablet
+dhg1.	Avomine 25mg tablet
+dic1.	Paracetamol+promethazine hydrochloride 120mg/1.5mg/5mL colour free s/f suspension
+dic2.	Medised colour free s/f suspension
+djg8.	Pethidine hydrochloride+promethazine hydrochloride 100mg/50mg/2mL injection
+djg5.	Pamergan P100 injection
+o59..	Promethazine HCl [anaesthesia]
+x01E8	Oral promethazine
+x01E9	Parenteral promethazine
+x02rE	Sominex
+ch35.	Phenergan comp expect linctus
+x02nO	Phenergan
+x03uk	Phenergan Nightime
+x02Uq	Avomine
+dhe8.	Vertigon 10mg Spansule
+dhe9.	Vertigon 15mg Spansule
+x02md	Pamergan P100
