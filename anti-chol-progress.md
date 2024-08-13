@@ -63,6 +63,6 @@ ACB1 Morphine
 -> ACB3 Trospium
 
 -> ACB1 2022 Beclometasone dipropionate
-ACB1 2022 Hydrocortisone
-ACB1 2022 Prednisolone
-ACB3 2022 Promethazine
+-> ACB1 2022 Hydrocortisone
+-> ACB1 2022 Prednisolone
+-> ACB3 2022 Promethazine

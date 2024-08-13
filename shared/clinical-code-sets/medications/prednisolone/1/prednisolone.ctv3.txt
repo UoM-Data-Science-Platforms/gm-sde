@@ -18,3 +18,88 @@ fe6t.	PREDNISOLONE 10mg tablets
 fe6v.	Prednisolone 2.5mg tablet
 fe6z.	Prednisolone 25mg tablet
 j44z.	Prednisolone acetate 25mg/1mL injection
+aa4..	Prednisolone [for preparations see rectal prednisolone]
+ai2..	Rectal prednisolone
+ai2b.	PREDNISOLONE 20mg/dose rectal foam 25g
+ai26.	Prednisolone 20mg/100mL enema
+ai27.	Prednisolone 5mg suppository
+ai24.	Predsol 5mg suppository
+ai28.	Prednisolone 20mg rectal foam 20g
+ai29.	Prednisolone 20mg/100mL long tube retention enema
+ai22.	Predenema 20mg/100mL long tube retention enema
+ai2a.	Prednisolone 20mg/100mL standard tube retention enema
+ai23.	Predsol 20mg/100mL retention enema
+ai21.	Predenema 20mg/100mL standard tube retention enema
+fe6..	Prednisolone [endocrine use]
+fe6c.	Precortisyl 1mg tablet
+fe69.	Deltastab 1mg tablet
+fe67.	Deltalone 1mg tablet
+fe6g.	Sintisone 5mg tablet
+fe6d.	Precortisyl 5mg tablet
+fe6a.	Deltastab 5mg tablet
+fe68.	Deltalone 5mg tablet
+fe64.	Delta-Phoricol 5mg tablet
+fe6f.	Prednesol 5mg tablet
+fe6k.	Prednisolone 50mg tablet
+fe6u.	Prednisolone 32mg/2mL injection
+fe63.	Codelsol 32mg/2mL injection
+j451.	Codelson 32mg/2mL injection
+fe6y.	Prednisolone 125mg/5mL injection
+fe6e.	Precortisyl Forte 25mg tablet
+j44..	Prednisolone acetate [musculoskeletal use]
+j45..	Prednisolone sod phos [musc-sk]
+k68..	Prednisolone sod phos [eye]
+k681.	Minims Prednisolone 0.5% single-use eye drops 0.5mL
+k68x.	Prednisolone sodium phosphate 0.5% single-use eye drops
+x026w	Minims Prednisolone 0.5% single-use eye drops
+k68y.	Prednisolone eye drops
+k68z.	Prednisolone 0.5% eye drops
+k6a..	Prednisolone acetate [eye]
+k6a1.	Prednisolone acet 1% eye drops 5mL
+k6a2.	Prednisolone acet 1% eye drops 10mL
+l22..	Prednisolone sodium phosphate [ear]
+l22z.	Prednisolone 0.5% ear drops
+l36t.	Prednisolone sodium phosphate+neomycin sulphate 0.5%/0.5% eye/ear drops
+x00Ld	Predsol N eye/ear drops
+l366.	Predsol N ear drops 10mL
+l365.	Predsol N ear drops 5mL
+k684.	Predsol N eye drops 10mL
+x00Kc	Prednisolone 0.001% eye drops
+x00Kd	Prednisolone 0.003% eye drops
+x00Ke	Prednisolone 0.01% preservative-free eye drops
+x00Kf	Prednisolone 0.01% eye drops
+x00Kg	Prednisolone 0.03% preservative-free eye drops
+x00Kh	Prednisolone 0.03% eye drops
+x00Ki	Prednisolone 0.1% preservative-free eye drops
+x00Kj	Prednisolone 0.1% eye drops
+x00Kk	Prednisolone 0.3% preservative-free eye drops
+x00Kl	Prednisolone 0.3% eye drops
+x00Km	Prednisolone acetate 1% eye drops
+x00Kb	Pred Forte 1% eye drops
+k6a4.	Pred Forte 1% eye drops 10mL
+k6a3.	Pred Forte 1% eye drops 5mL
+x00yP	Oral prednisolone
+x00zu	Prednisolone 20mg rectal foam
+x025f	Predfoam 20mg enema
+ai25.	Predfoam 20mg foam 25g
+x01Nm	Parenteral prednisolone
+x01Nn	Topical prednisolone
+x01No	Prednisolone drops
+x02L3	Prednisolone sodium phosphate 0.5% eye/ear drops
+x00Lc	Predsol 0.5% eye/ear drops
+l222.	Predsol 0.5% ear drops 10mL
+l221.	Predsol ear drops 5mL
+k683.	Predsol 0.5% eye drops 10mL
+k682.	Predsol 0.5% eye drops 5mL
+x01Np	Rectal prednisolone preparations
+x0423	Minims Prednisolone
+x03wY	Predfoam
+x02ny	Predsol
+x03wZ	Predsol N
+x02nw	Predenema
+x02nu	Precortisyl
+x02nv	Precortisyl Forte
+x02nx	Prednesol
+x02Yw	Deltastab
+x02Yv	Deltacortril
+x04AS	Deltacortril Enteric
