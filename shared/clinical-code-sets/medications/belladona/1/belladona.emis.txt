@@ -1,0 +1,14 @@
+^ESCTBE1055323	Belladonna 6c homeopathic tablets (Special Order)
+^ESCTBE874881	Belladonna 6c homeopathic pillules Clikpak (Nelsons)
+^ESCTBE874988	Belladonna 6c homeopathic pillules
+^ESCTBE875217	Belladonna 30c homeopathic pillules (Helios Homoeopathy Ltd)
+^ESCTBE875398	Belladonna 30c homeopathic tablets (Weleda (UK) Ltd)
+^ESCTBE875413	Belladonna 6c homeopathic tablets (Weleda (UK) Ltd)
+^ESCTBE875660	Belladonna 30c homeopathic pillules
+^ESCTBE875661	Belladonna 30c homeopathic tablets
+^ESCTBE875662	Belladonna 6c homeopathic tablets
+^ESCTBE875854	Belladonna tincture (A A H Pharmaceuticals Ltd)
+^ESCTBE875929	Belladonna tincture
+^ESCTBE928213	Belladonna 30c homeopathic tablets (Ainsworths (London) Ltd)
+^ESCTHO924170	Homeopathic belladonna
+BETI3911NEMIS	Belladonna  Tincture  BP

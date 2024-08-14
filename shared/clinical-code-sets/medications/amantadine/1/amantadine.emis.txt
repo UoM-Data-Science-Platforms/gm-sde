@@ -1,0 +1,90 @@
+^ESCT1181544	Product containing only amantadine hydrochloride 100 mg/1 each oral tablet
+^ESCT1181990	Product containing only amantadine hydrochloride 100 mg/1 each oral capsule
+^ESCT1206187	Amantadine in oral dosage form
+^ESCT1206188	Product containing amantadine in oral dosage form
+^ESCT1208690	Amantadine hydrochloride 10 mg/mL oral solution
+^ESCT1208691	Product containing precisely amantadine hydrochloride 10 milligram/1 milliliter conventional release oral solution
+^ESCT1214670	Amantadine 50mg/5ml oral solution sugar free
+^ESCT1218623	Amantadine
+^ESCT1218624	Amantadine product
+^ESCT1223966	Product containing precisely amantadine hydrochloride 100 milligram/1 each conventional release oral capsule
+^ESCT1223967	Amantadine hydrochloride 100 mg oral capsule
+^ESCT1228293	Product containing precisely amantadine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1255985	Amantadine 100mg capsules (Actavis UK Ltd)
+^ESCT1255986	Amantadine 100mg capsules (Actavis UK Ltd) 56 capsule
+^ESCT1258039	Amantadine 100mg capsules (Morningside Healthcare Ltd)
+^ESCT1258040	Amantadine 100mg capsules (Morningside Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1263747	Amantadine 100mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1263758	Amantadine 100mg capsules (Mawdsley-Brooks & Company Ltd) 14 capsule
+^ESCT1263760	Amantadine 100mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCT1264403	Amantadine 100mg capsules (DE Pharmaceuticals)
+^ESCT1264404	Amantadine 100mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCT1271197	Amantadine 50mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1271198	Amantadine 50mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1303842	Amantadine 100mg capsules 28 capsule
+^ESCT1303844	Amantadine 100mg capsules (Morningside Healthcare Ltd) 28 capsule
+^ESCT1353428	Amantadine only product
+^ESCT1357442	Amantadine only product in oral dose form
+^ESCT1374617	Amantadine 100mg capsules (Medihealth (Northern) Ltd)
+^ESCT1374618	Amantadine 100mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1374619	Amantadine 50mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1374620	Amantadine 50mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1386151	Amantadine-containing product in oral dose form
+^ESCT1402954	Amantadine 50mg/5ml oral solution sugar free (Northumbria Pharma Ltd)
+^ESCT1402955	Amantadine 50mg/5ml oral solution sugar free (Northumbria Pharma Ltd) 150 ml
+^ESCT1412151	Amantadine 100mg capsules (Alliance Pharmaceuticals Ltd)
+^ESCT1412152	Amantadine 100mg capsules (Alliance Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCT1412153	Amantadine 100mg capsules (Alliance Pharmaceuticals Ltd) 14 capsule
+^ESCT1412600	Amantadine 100mg capsules (Accord Healthcare Ltd)
+^ESCT1412601	Amantadine 100mg capsules (Accord Healthcare Ltd) 56 capsule
+^ESCT1419042	Amantadine 100mg capsules (Teva UK Ltd)
+^ESCT1419043	Amantadine 100mg capsules (Teva UK Ltd) 14 capsule
+^ESCTAM1068439	Amantadine 100mg capsules (Lime Pharma Ltd)
+^ESCTAM1068443	Amantadine 100mg capsules (Lime Pharma Ltd) 14 capsule
+^ESCTAM1068447	Amantadine 100mg capsules (Lime Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCTAM1087053	Amantadine 100mg capsules (Teva UK Ltd)
+^ESCTAM1087054	Amantadine 100mg capsules (Teva UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTAM1087055	Amantadine 100mg capsules (Teva UK Ltd) 14 capsule
+^ESCTAM1099352	Amantadine 50mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCTAM1099356	Amantadine 50mg/5ml oral solution sugar free (Teva UK Ltd) 150 ml
+^ESCTAM1099694	Amantadine 100mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM1099695	Amantadine 100mg capsules (Alliance Healthcare (Distribution) Ltd) 14 capsule
+^ESCTAM1099696	Amantadine 100mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule 4 x 14 capsules
+^ESCTAM1100686	Amantadine 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTAM1100709	Amantadine 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM1100734	Amantadine 100mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTAM1100735	Amantadine 100mg capsules (A A H Pharmaceuticals Ltd) 14 capsule
+^ESCTAM1100736	Amantadine 100mg capsules (A A H Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTAM1100737	Amantadine 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTAM1100738	Amantadine 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTAM1109613	Amantadine 100mg tablets 1 tablet
+^ESCTAM1109614	Amantadine 100mg tablets (Special Order)
+^ESCTAM1109615	Amantadine 100mg tablets (Special Order) 1 tablet
+^ESCTAM333227	Amantadine
+^ESCTAM610852	Amantadine 50mg/5ml oral solution sugar free
+^ESCTAM610853	Amantadine hydrochloride 50mg/5mL syrup
+^ESCTAM610854	Amantadine 100mg capsules
+^ESCTAM610855	Amantadine hydrochloride 100 mg/1 each oral capsule
+^ESCTAM640246	Amantadine 100mg tablets
+^ESCTAM640248	Amantadine hydrochloride 100 mg oral tablet
+^ESCTAM841949	Amantadine 100mg capsules 5 capsule
+^ESCTAM846923	Amantadine 100mg capsules 56 capsule
+^ESCTAM846966	Amantadine 50mg/5ml oral solution sugar free 150 ml
+^ESCTAM847559	Amantadine 100mg capsules 14 capsule
+^ESCTLY820164	Lysovir 100mg capsules (Alliance Pharmaceuticals Ltd)
+^ESCTLY854539	Lysovir 100mg capsules (Alliance Pharmaceuticals Ltd) 5 capsule
+^ESCTLY854543	Lysovir 100mg capsules (Alliance Pharmaceuticals Ltd) 14 capsule
+^ESCTLY918873	Lysovir
+^ESCTPR333228	Product containing amantadine
+^ESCTPR610856	Product containing amantadine hydrochloride 100 mg/1 each oral capsule
+^ESCTPR640247	Product containing amantadine hydrochloride 100 mg/1 each oral tablet
+^ESCTSY823330	Symmetrel 50mg/5ml syrup (Alliance Pharmaceuticals Ltd)
+^ESCTSY829440	Symmetrel 100mg capsules (Alliance Pharmaceuticals Ltd)
+^ESCTSY854545	Symmetrel 100mg capsules (Alliance Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTSY854551	Symmetrel 50mg/5ml syrup (Alliance Pharmaceuticals Ltd) 150 ml
+^ESCTSY916560	Symmetrel
+AMCA4577	Amantadine Hydrochloride  Capsules  100 mg
+AMSY4578	Amantadine Hydrochloride  Oral Solution, Sugar Free  50 mg/5 ml
+LYCA2019NEMIS	Lysovir  Capsules  100 mg
+SYCA4364	Symmetrel  Capsules  100 mg
+SYSY4365	Symmetrel  Syrup  50 mg/5 ml
