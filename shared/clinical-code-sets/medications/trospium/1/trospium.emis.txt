@@ -1,0 +1,122 @@
+^ESCT1188220	Product containing only trospium chloride 20 mg/1 each oral tablet
+^ESCT1199690	Regurin XL 60mg capsules (Contura Ltd) 28 capsule 4 x 7 capsules
+^ESCT1199691	Regurin 20mg tablets (Contura Ltd)
+^ESCT1199693	Regurin 20mg tablets (Contura Ltd) 60 tablet
+^ESCT1199696	Regurin XL 60mg capsules (Contura Ltd)
+^ESCT1199699	Uraplex 20mg tablets (Contura Ltd)
+^ESCT1199700	Uraplex 20mg tablets (Contura Ltd) 60 tablet
+^ESCT1206073	Trospium in oral dosage form
+^ESCT1206074	Product containing trospium in oral dosage form
+^ESCT1224941	Product containing precisely trospium chloride 20 milligram/1 each conventional release oral tablet
+^ESCT1227282	Trospium
+^ESCT1227283	Trospium product
+^ESCT1234610	Trospium chloride 60 mg prolonged-release oral capsule
+^ESCT1234611	Product containing precisely trospium chloride 60 milligram/1 each prolonged-release oral capsule
+^ESCT1260461	Trospium chloride 20mg tablets (Accord Healthcare Ltd)
+^ESCT1260462	Trospium chloride 20mg tablets (Accord Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1266846	Regurin XL 60mg capsules (CST Pharma Ltd)
+^ESCT1266847	Regurin XL 60mg capsules (CST Pharma Ltd) 30 capsule
+^ESCT1266848	Trospium chloride 60mg modified-release capsules 100 capsule
+^ESCT1266849	Regurin XL 60mg capsules (CST Pharma Ltd) 100 capsule
+^ESCT1276924	Regurin 20mg tablets (Mylan)
+^ESCT1276946	Regurin 20mg tablets (Mylan) 60 tablet
+^ESCT1300975	Regurin XL 60mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCT1357089	Trospium only product
+^ESCT1360135	Trospium only product in oral dose form
+^ESCT1374141	Regurin XL 60mg capsules (Pilsco Ltd)
+^ESCT1374142	Regurin XL 60mg capsules (Pilsco Ltd) 28 capsule
+^ESCT1386110	Trospium-containing product in oral dose form
+^ESCT1433141	Regurin XL 60mg capsules (Mylan)
+^ESCT1433142	Regurin XL 60mg capsules (Mylan) 28 capsule 4 x 7 capsules
+^ESCT1436872	Regurin 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437443	Regurin 20mg tablets (Viatris UK Healthcare Ltd) 60 tablet
+^ESCT1438179	Regurin XL 60mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438180	Regurin XL 60mg capsules (Viatris UK Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCTFL928572	Flotros
+^ESCTFL988459	Flotros 20mg tablets (Galen Ltd)
+^ESCTFL988460	Flotros 20mg tablets (Galen Ltd) 60 tablet 6 x 10 tablets
+^ESCTPR613415	Product containing trospium chloride 20 mg/1 each oral tablet
+^ESCTPR620318	Product containing trospium
+^ESCTRE1001353	Regurin 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRE1001354	Regurin 20mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTRE1008249	Regurin 20mg tablets (Necessity Supplies Ltd)
+^ESCTRE1008250	Regurin 20mg tablets (Necessity Supplies Ltd) 60 tablet
+^ESCTRE1021626	Regurin XL 60mg capsules (DE Pharmaceuticals)
+^ESCTRE1021627	Regurin XL 60mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTRE1023781	Regurin XL 60mg capsules (Lexon (UK) Ltd)
+^ESCTRE1023782	Regurin XL 60mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTRE1036881	Regurin XL 60mg capsules (Waymade Healthcare Plc)
+^ESCTRE1036883	Regurin XL 60mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTRE1109111	Regurin XL 60mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRE810364	Regurin 20mg tablets (Speciality European Pharma Ltd)
+^ESCTRE855858	Regurin 20mg tablets (Speciality European Pharma Ltd) 60 tablet
+^ESCTRE878230	Regurin 20mg tablets (Waymade Healthcare Plc)
+^ESCTRE878231	Regurin 20mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTRE915931	Regurin
+^ESCTRE928524	Regurin XL
+^ESCTRE967434	Regurin 20mg tablets (DE Pharmaceuticals)
+^ESCTRE967435	Regurin 20mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTRE973907	Regurin 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRE973908	Regurin 20mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTRE987013	Regurin XL 60mg capsules (Speciality European Pharma Ltd)
+^ESCTRE987014	Regurin XL 60mg capsules (Speciality European Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCTTR1001644	Trospium chloride 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTR1001645	Trospium chloride 20mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTTR1008487	Trospium chloride 20mg tablets (Necessity Supplies Ltd)
+^ESCTTR1008488	Trospium chloride 20mg tablets (Necessity Supplies Ltd) 60 tablet
+^ESCTTR1017793	Trospium chloride 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR1017794	Trospium chloride 20mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet 6 x 10 tablets
+^ESCTTR1018276	Trospium chloride 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR1018278	Trospium chloride 20mg tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTTR1029376	Trospium chloride 20mg tablets (Teva UK Ltd)
+^ESCTTR1029377	Trospium chloride 20mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTTR1036882	Trospium chloride 60mg modified-release capsules 30 capsule
+^ESCTTR1042613	Trospium chloride 20mg tablets (Waymade Healthcare Plc)
+^ESCTTR1042614	Trospium chloride 20mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTTR1055385	Trospium chloride 60mg modified-release capsules (AM Distributions (Yorkshire) Ltd)
+^ESCTTR1055386	Trospium chloride 60mg modified-release capsules (AM Distributions (Yorkshire) Ltd) 30 capsule 3 x 10 capsules
+^ESCTTR1056770	Trospium chloride 60mg modified-release capsules (J M McGill Ltd)
+^ESCTTR1056771	Trospium chloride 60mg modified-release capsules (J M McGill Ltd) 30 capsule
+^ESCTTR1061837	Trospium chloride 60mg modified-release capsules (Niche Pharma Ltd)
+^ESCTTR1061838	Trospium chloride 60mg modified-release capsules (Niche Pharma Ltd) 30 capsule
+^ESCTTR1085544	Trospium chloride 60mg modified-release capsules (Icarus Pharmaceuticals Ltd)
+^ESCTTR1085545	Trospium chloride 60mg modified-release capsules (Icarus Pharmaceuticals Ltd) 28 capsule
+^ESCTTR1102924	Trospium chloride 60mg modified-release capsules (Colorama Pharmaceuticals Ltd)
+^ESCTTR1102925	Trospium chloride 60mg modified-release capsules (Colorama Pharmaceuticals Ltd) 30 capsule
+^ESCTTR1104092	Trospium chloride 60mg modified-release capsules (AM Distributions (Yorkshire) Ltd) 28 capsule
+^ESCTTR1111862	Trospium chloride 60mg modified-release capsules (Ennogen Healthcare Ltd)
+^ESCTTR1111864	Trospium chloride 60mg modified-release capsules (Ennogen Healthcare Ltd) 28 capsule
+^ESCTTR1119870	Trospium chloride 20mg tablets (DE Pharmaceuticals)
+^ESCTTR1119871	Trospium chloride 20mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTTR1126470	Trospium chloride 20mg tablets (Actavis UK Ltd)
+^ESCTTR1126471	Trospium chloride 20mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTTR613414	Trospium chloride 20mg tablets
+^ESCTTR613416	Trospium chloride 20 mg oral tablet
+^ESCTTR620317	Trospium
+^ESCTTR708208	Trospium chloride 60mg modified-release capsules
+^ESCTTR708209	Trospium chloride 60mg extended release capsule
+^ESCTTR845375	Trospium chloride 20mg tablets 60 tablet
+^ESCTTR932904	Trospium chloride 20mg tablets (Waymade Healthcare Plc)
+^ESCTTR932905	Trospium chloride 20mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTTR960244	Trospium chloride 20mg tablets (Dowelhurst Ltd)
+^ESCTTR960245	Trospium chloride 20mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTTR967986	Trospium chloride 20mg tablets (DE Pharmaceuticals)
+^ESCTTR967988	Trospium chloride 20mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTTR974579	Trospium chloride 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR974580	Trospium chloride 20mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTTR982440	Trospium chloride 20mg/5ml oral solution 1 ml
+^ESCTTR982441	Trospium chloride 20mg/5ml oral solution (Special Order)
+^ESCTTR982442	Trospium chloride 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR982524	Trospium chloride 20mg/5ml oral solution
+^ESCTTR987012	Trospium chloride 60mg modified-release capsules 28 capsule
+^ESCTTR990771	Trospium chloride 20mg tablets (Lexon (UK) Ltd)
+^ESCTTR990772	Trospium chloride 20mg tablets (Lexon (UK) Ltd) 60 tablet
+^ESCTUR1028830	Uraplex 20mg tablets (Speciality European Pharma Ltd)
+^ESCTUR1028831	Uraplex 20mg tablets (Speciality European Pharma Ltd) 60 tablet
+^ESCTUR939053	Uraplex
+FLTA39291NEMIS	Flotros  Tablets  20 mg
+REM/38808NEMIS	Regurin Xl  M/R capsules  60 mg
+RETA5325NEMIS	Regurin  Tablets  20 mg
+TRM/38806NEMIS	Trospium Chloride  M/R capsules  60 mg
+TRTA5322NEMIS	Trospium Chloride  Tablets  20 mg
+URTA73962NEMIS	Uraplex  Tablets  20 mg

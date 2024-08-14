@@ -1,0 +1,128 @@
+^ESCT1182603	Product containing benzocaine and pyrilamine
+^ESCT1182604	Benzocaine and mepyramine
+^ESCT1182605	Benzocaine and pyrilamine
+^ESCT1182606	Product containing benzocaine and mepyramine
+^ESCT1182607	Benzocaine + Mepyramine
+^ESCT1187438	Product containing only chlorphenamine maleate 4 mg and phenylephrine hydrochloride 10 mg and phenylpropanolamine 50 mg and mepyramine maleate 25 mg/1 each oral tablet
+^ESCT1187439	Product containing only chlorpheniramine maleate 4 mg and phenylephrine hydrochloride 10 mg and phenylpropanolamine 50 mg and pyrilamine maleate 25 mg/1 each oral tablet
+^ESCT1206590	Chlorphenamine and mepyramine and phenylephrine and phenylpropanolamine product
+^ESCT1206591	Chlorpheniramine and phenylephrine and phenylpropanolamine and pyrilamine product
+^ESCT1206592	Product containing chlorphenamine and mepyramine and phenylephrine and phenylpropanolamine
+^ESCT1206593	Chlorphenamine and mepyramine and phenylephrine and phenylpropanolamine in oral dosage form
+^ESCT1206594	Chlorpheniramine and phenylephrine and phenylpropanolamine and pyrilamine in oral dosage form
+^ESCT1206595	Product containing chlorphenamine and mepyramine and phenylephrine and phenylpropanolamine in oral dosage form
+^ESCT1225908	Benzocaine 20 mg/g and mepyramine maleate 20 mg/g cutaneous spray
+^ESCT1225909	Product containing precisely benzocaine 20 milligram/1 gram and mepyramine maleate 20 milligram/1 gram conventional release cutaneous spray
+^ESCT1225910	Benzocaine 20 mg/g and pyrilamine maleate 20 mg/g cutaneous spray
+^ESCT1225911	Product containing precisely mepyramine maleate 20 milligram/1 gram conventional release cutaneous cream
+^ESCT1225912	Mepyramine maleate 20 mg/g cutaneous cream
+^ESCT1225913	Pyrilamine maleate 20 mg/g cutaneous cream
+^ESCT1226844	Mepyramine
+^ESCT1226845	Pyrilamine product
+^ESCT1226846	Mepyramine product
+^ESCT1227615	Chlorphenamine maleate 4 mg and mepyramine maleate 25 mg and phenylephrine hydrochloride 10 mg and phenylpropanolamine 50 mg oral tablet
+^ESCT1227616	Product containing precisely chlorphenamine maleate 4 milligram and mepyramine maleate 25 milligram and phenylephrine hydrochloride 10 milligram and phenylpropanolamine 50 milligram/1 each conventional release oral tablet
+^ESCT1231788	Chlorpheniramine + pyrilamine + phenylephrine
+^ESCT1231789	Product containing chlorphenamine and mepyramine and phenylephrine
+^ESCT1231790	Chlorphenamine and mepyramine and phenylephrine product
+^ESCT1231791	Chlorpheniramine and phenylephrine and pyrilamine product
+^ESCT1232149	Paracetamol + dexbrompheniramine + pyrilamine
+^ESCT1232150	Dexbrompheniramine and mepyramine and paracetamol product
+^ESCT1232151	Acetaminophen and dexbrompheniramine and pyrilamine product
+^ESCT1232152	Product containing dexbrompheniramine and mepyramine and paracetamol
+^ESCT1233063	Benzocaine and mepyramine product
+^ESCT1233064	Benzocaine and pyrilamine product
+^ESCT1350696	Mepyramine-containing product in ocular dose form
+^ESCT1350697	Pyrilamine-containing product in ocular dose form
+^ESCT1350850	Mepyramine-containing product in cutaneous dose form
+^ESCT1350851	Pyrilamine-containing product in cutaneous dose form
+^ESCT1351264	Benzocaine- and mepyramine-containing product in cutaneous dose form
+^ESCT1351265	Benzocaine- and pyrilamine-containing product in cutaneous dose form
+^ESCT1353724	Benzocaine and mepyramine only product
+^ESCT1353725	Benzocaine and pyrilamine only product
+^ESCT1354178	Chlorphenamine and mepyramine and phenylephrine only product
+^ESCT1354179	Chlorpheniramine and phenylephrine and pyrilamine only product
+^ESCT1354180	Chlorphenamine and mepyramine and phenylephrine and phenylpropanolamine only product
+^ESCT1354181	Chlorpheniramine and phenylephrine and phenylpropanolamine and pyrilamine only product
+^ESCT1354519	Dexbrompheniramine and mepyramine and paracetamol only product
+^ESCT1354520	Acetaminophen and dexbrompheniramine and pyrilamine only product
+^ESCT1355806	Mepyramine only product
+^ESCT1355807	Pyrilamine only product
+^ESCT1357655	Benzocaine and mepyramine only product in cutaneous dose form
+^ESCT1357656	Benzocaine and pyrilamine only product in cutaneous dose form
+^ESCT1357943	Chlorphenamine and mepyramine and phenylephrine and phenylpropanolamine only product in oral dose form
+^ESCT1357944	Chlorpheniramine and phenylephrine and phenylpropanolamine and pyrilamine only product in oral dose form
+^ESCT1359132	Mepyramine only product in cutaneous dose form
+^ESCT1359133	Pyrilamine only product in cutaneous dose form
+^ESCT1359134	Mepyramine only product in ocular dose form
+^ESCT1359135	Pyrilamine only product in ocular dose form
+^ESCT1359136	Mepyramine only product in oral dose form
+^ESCT1359137	Pyrilamine only product in oral dose form
+^ESCT1382928	Chlorphenamine- and mepyramine- and phenylephrine-containing product
+^ESCT1382929	Chlorpheniramine- and phenylephrine- and pyrilamine-containing product
+^ESCT1383046	Dexbrompheniramine- and mepyramine- and paracetamol-containing product
+^ESCT1383047	Acetaminophen- and dexbrompheniramine- and pyrilamine-containing product
+^ESCT1383701	Mepyramine-containing product in oral dose form
+^ESCT1383702	Pyrilamine-containing product in oral dose form
+^ESCT1386353	Chlorphenamine- and mepyramine- and phenylephrine- and phenylpropanolamine-containing product
+^ESCT1386354	Chlorpheniramine- and phenylephrine- and phenylpropanolamine- and pyrilamine-containing product
+^ESCT1386355	Chlorphenamine- and mepyramine- and phenylephrine- and phenylpropanolamine-containing product in oral dose form
+^ESCT1386356	Chlorpheniramine- and phenylephrine- and phenylpropanolamine- and pyrilamine-containing product in oral dose form
+^ESCTAC682858	Acetaminophen + dexbrompheniramine + pyrilamine
+^ESCTAN864930	Anthisan 2% cream (Sanofi)
+^ESCTAN864936	Anthisan 2% cream (Sanofi) 25 gram
+^ESCTAN864950	Anthisan 2% cream (Sanofi) 20 gram
+^ESCTAN865700	Anthisan Plus Sting Relief spray (Sanofi)
+^ESCTAN865702	Anthisan Plus Sting Relief spray (Sanofi) 60 dose
+^ESCTAN871216	Anthisan Bite and Sting 2% cream (Sanofi)
+^ESCTAN871217	Anthisan Bite and Sting 2% cream (Sanofi) 20 gram
+^ESCTBE616010	Benzocaine 2% / Mepyramine 2% spray
+^ESCTBE695203	Benzocaine + Mepyramine
+^ESCTBE695204	Benzocaine + mepyramine
+^ESCTBE865699	Benzocaine 2% / Mepyramine 2% spray 60 dose
+^ESCTBE869954	Benzocaine 1% / Mepyramine 0.5% spray 30 ml
+^ESCTBE869955	Benzocaine 1% / Mepyramine 0.5% spray 60 ml
+^ESCTBE870023	Benzocaine 1% / Mepyramine 0.5% spray
+^ESCTBI1030051	Bite and Sting Relief Antihistamine 2% cream (The Boots Company Plc) 30 gram
+^ESCTBI897969	Bite and Sting Relief Antihistamine 2% cream (The Boots Company Plc)
+^ESCTBI897970	Bite and Sting Relief Antihistamine 2% cream (The Boots Company Plc) 20 gram
+^ESCTCH635961	Chlorpheniramine maleate 4mg+phenylephrine hydrochloride 10mg+phenylpropanolamine 50mg+pyrilamine maleate 25mg tablet
+^ESCTCH635962	Chlorpheniramine maleate 4 mg and phenylephrine hydrochloride 10 mg and phenylpropanolamine 50 mg and pyrilamine maleate 25 mg oral tablet
+^ESCTCH635963	Chlorphenamine maleate 4 mg and phenylephrine hydrochloride 10 mg and phenylpropanolamine 50 mg and mepyramine maleate 25 mg oral tablet
+^ESCTCH682217	Chlorpheniramine + pyrilamine + phenylephrine
+^ESCTME1030050	Mepyramine 2% cream 30 gram
+^ESCTME616011	Mepyramine maleate+benzocaine 2%/2% spray
+^ESCTME616013	Mepyramine 2% cream
+^ESCTME616014	Mepyramine maleate 2% cream
+^ESCTME619063	Mepyramine
+^ESCTME711367	Mepyramine in topical dosage form
+^ESCTME711403	Mepyramine in ophthalmic dosage form
+^ESCTME711474	Mepyramine in oral dosage form
+^ESCTME864917	Mepyramine 2% cream 20 gram
+^ESCTME864918	Mepyramine 2% cream 25 gram
+^ESCTOP711401	Ophthalmic form mepyramine
+^ESCTOR711470	Oral form mepyramine
+^ESCTPA682857	Paracetamol + dexbrompheniramine + pyrilamine
+^ESCTPR619065	Product containing pyrilamine
+^ESCTPR619066	Product containing mepyramine
+^ESCTPR635964	Product containing chlorphenamine maleate 4 mg and phenylephrine hydrochloride 10 mg and phenylpropanolamine 50 mg and mepyramine maleate 25 mg/1 each oral tablet
+^ESCTPR635965	Product containing chlorpheniramine maleate 4 mg and phenylephrine hydrochloride 10 mg and phenylpropanolamine 50 mg and pyrilamine maleate 25 mg/1 each oral tablet
+^ESCTPR711366	Product containing mepyramine in topical dosage form
+^ESCTPR711369	Product containing pyrilamine in topical dosage form
+^ESCTPR711402	Product containing mepyramine in ophthalmic dosage form
+^ESCTPR711404	Product containing pyrilamine in ophthalmic dosage form
+^ESCTPR711471	Product containing mepyramine in oral dosage form
+^ESCTPR711473	Product containing pyrilamine in oral dosage form
+^ESCTPY616012	Pyrilamine maleate+benzocaine 2%/2% spray
+^ESCTPY616015	Pyrilamine maleate 2% cream
+^ESCTPY619064	Pyrilamine
+^ESCTPY711368	Pyrilamine in topical dosage form
+^ESCTPY711405	Pyrilamine in ophthalmic dosage form
+^ESCTPY711472	Pyrilamine in oral dosage form
+^ESCTTO711365	Topical form mepyramine
+^ESCTWA869956	Wasp-Eze spray (G.R. Lane Health Products Ltd)
+^ESCTWA869957	Wasp-Eze spray (G.R. Lane Health Products Ltd) 30 ml
+^ESCTWA869958	Wasp-Eze spray (G.R. Lane Health Products Ltd) 60 ml
+ANCR176	Anthisan  Cream  2 %
+ANST11323NEMIS	Anthisan Plus  Sting Relief Spray  
+MECR33882EMIS	Mepyramine  Cream  2 %

@@ -1,0 +1,86 @@
+^ESCT1179276	Product containing only benztropine mesylate 0.5 milligram/1 each oral tablet
+^ESCT1179277	Product containing only benzatropine mesylate 0.5 milligram/1 each oral tablet
+^ESCT1179303	Product containing only benztropine mesylate 1 mg/1 each oral tablet
+^ESCT1179304	Product containing only benzatropine mesylate 1 mg/1 each oral tablet
+^ESCT1188121	Product containing only benztropine mesylate 2 mg/1 each oral tablet
+^ESCT1188122	Product containing only benzatropine mesylate 2 mg/1 each oral tablet
+^ESCT1219801	Benzatropine
+^ESCT1219802	Benztropine product
+^ESCT1219803	Benzatropine product
+^ESCT1224004	Product containing precisely benzatropine mesylate 2 milligram/1 each conventional release oral tablet
+^ESCT1228646	Product containing precisely benzatropine mesylate 500 microgram/1 each conventional release oral tablet
+^ESCT1228647	Benztropine mesylate 500 microgram oral tablet
+^ESCT1228648	Benzatropine mesylate 500 microgram oral tablet
+^ESCT1228799	Product containing precisely benzatropine mesylate 1 milligram/1 each conventional release oral tablet
+^ESCT1353709	Benzatropine only product
+^ESCT1353710	Benztropine only product
+^ESCT1357643	Benzatropine only product in oral dose form
+^ESCT1357644	Benztropine only product in oral dose form
+^ESCT1357645	Benzatropine only product in parenteral dose form
+^ESCT1357646	Benztropine only product in parenteral dose form
+^ESCT1383755	Benzatropine-containing product in parenteral dose form
+^ESCT1383756	Benztropine-containing product in parenteral dose form
+^ESCT1383849	Benzatropine-containing product in oral dose form
+^ESCT1383850	Benztropine-containing product in oral dose form
+^ESCT1407946	Benzatropine mesilate 500 microgram oral tablet
+^ESCT1409737	Cogentin 2mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1409950	Cogentin 2mg tablets (Organon Pharma (UK) Ltd) 60 tablet
+^ESCTBE1003379	Benzatropine 2mg tablets (Special Order)
+^ESCTBE1003380	Benzatropine 2mg tablets 1 tablet
+^ESCTBE1003381	Benzatropine 2mg tablets (Special Order) 1 tablet
+^ESCTBE1008080	Benzatropine 1mg tablets 1 tablet
+^ESCTBE1008081	Benzatropine 1mg tablets (Special Order)
+^ESCTBE1008082	Benzatropine 1mg tablets (Special Order) 1 tablet
+^ESCTBE375897	Benzatropine
+^ESCTBE375898	Benztropine
+^ESCTBE610946	Benzatropine 2mg tablets
+^ESCTBE610949	Benztropine mesylate 2 mg oral tablet
+^ESCTBE610950	Benzatropine mesylate 2 mg oral tablet
+^ESCTBE610951	Benzatropine mesylate 2mg/2mL injection
+^ESCTBE610952	Benztropine mesylate 2mg/2mL injection
+^ESCTBE610953	Benztropine mesylate 1mg/ml injection 2ml ampoule
+^ESCTBE610954	Benztropine mesylate 1mg/ml injection 2ml ampule
+^ESCTBE641218	Benztropine mesylate 500micrograms tablet
+^ESCTBE641219	Benztropine mesylate 0.5 milligram oral tablet
+^ESCTBE641220	Benzatropine mesylate 0.5 milligram oral tablet
+^ESCTBE641506	Benzatropine 1mg tablets
+^ESCTBE641509	Benzatropine mesylate 1 mg oral tablet
+^ESCTBE641510	Benztropine mesylate 1 mg oral tablet
+^ESCTBE711705	Benztropine in parenteral dosage form
+^ESCTBE711706	Benzatropine in parenteral dosage form
+^ESCTBE712865	Benztropine in oral dosage form
+^ESCTBE712867	Benzatropine in oral dosage form
+^ESCTBE834301	Benzatropine 2mg tablets 60 tablet
+^ESCTBE862754	Benzatropine 2mg/2ml solution for injection ampoules 6 ampoule
+^ESCTBE862925	Benzatropine 2mg/2ml solution for injection ampoules
+^ESCTBE947675	Benzatropine 1mg/5ml oral solution 1 ml
+^ESCTBE947677	Benzatropine 1mg/5ml oral solution (Special Order)
+^ESCTBE947680	Benzatropine 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTBE948373	Benzatropine 1mg/5ml oral solution
+^ESCTBE962656	Benzatropine 2mg/2ml solution for injection ampoules 1 ampoule
+^ESCTCO822938	Cogentin 2mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTCO854254	Cogentin 2mg tablets (Merck Sharp & Dohme Ltd) 60 tablet
+^ESCTCO862757	Cogentin 2mg/2ml solution for injection ampoules (Lundbeck Pharmaceuticals Ireland Ltd)
+^ESCTCO862758	Cogentin 2mg/2ml solution for injection ampoules (Lundbeck Pharmaceuticals Ireland Ltd) 6 ampoule
+^ESCTCO914491	Cogentin
+^ESCTCO962657	Cogentin 2mg/2ml solution for injection ampoules (Lundbeck Pharmaceuticals Ireland Ltd) 1 ampoule
+^ESCTOR712863	Oral form benztropine
+^ESCTPA711702	Parenteral form benztropine
+^ESCTPR375899	Product containing benzatropine
+^ESCTPR375900	Product containing benztropine
+^ESCTPR610947	Product containing benzatropine mesylate 2 mg/1 each oral tablet
+^ESCTPR610948	Product containing benztropine mesylate 2 mg/1 each oral tablet
+^ESCTPR641221	Product containing benzatropine mesylate 0.5 milligram/1 each oral tablet
+^ESCTPR641222	Product containing benztropine mesylate 0.5 milligram/1 each oral tablet
+^ESCTPR641507	Product containing benzatropine mesylate 1 mg/1 each oral tablet
+^ESCTPR641508	Product containing benztropine mesylate 1 mg/1 each oral tablet
+^ESCTPR711703	Product containing benzatropine in parenteral dosage form
+^ESCTPR711704	Product containing benztropine in parenteral dosage form
+^ESCTPR712864	Product containing benzatropine in oral dosage form
+^ESCTPR712866	Product containing benztropine in oral dosage form
+BEIN17559NEMIS	Benzatropine  Solution for injection  1 mg/ml, 2 ml ampoule
+BEIN4634	Benztropine Mesylate  Injection  1mg/ml, 2 ml ampoule
+BETA17560NEMIS	Benzatropine  Tablets  2 mg
+BETA4635	Benztropine Mesylate  Tablets  2 mg
+COIN3339	Cogentin  Solution for injection  1 mg/ml, 2 ml ampoule
+COTA3340	Cogentin  Tablets  2 mg

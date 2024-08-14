@@ -1,0 +1,343 @@
+^ESCT1181050	Product containing only diphenhydramine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181312	Product containing only diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181419	Product containing only diphenhydramine hydrochloride 25 mg/1 each oral capsule
+^ESCT1181420	Product containing only diphenhydramine hydrochloride 50 mg/1 each oral capsule
+^ESCT1182823	Product containing only diphenhydramine 25 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCT1187306	Product containing only acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCT1187307	Product containing only paracetamol 500 mg and diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCT1188305	Diphenhydramine and zinc acetate
+^ESCT1188306	Product containing diphenhydramine and zinc acetate
+^ESCT1188622	Product containing only diphenhydramine 38 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCT1206669	Diphenhydramine and ibuprofen in oral dosage form
+^ESCT1206670	Product containing diphenhydramine and ibuprofen in oral dosage form
+^ESCT1208729	Diphenhydramine hydrochloride 2 mg/mL oral solution
+^ESCT1208730	Product containing precisely diphenhydramine hydrochloride 2 milligram/1 milliliter conventional release oral solution
+^ESCT1215786	Diphenhydramine 10mg/5ml oral solution
+^ESCT1217548	Diphenhydramine
+^ESCT1217549	Diphenhydramine product
+^ESCT1223246	Product containing precisely diphenhydramine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223247	Product containing precisely diphenhydramine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1223747	Acetaminophen 500 mg and diphenhydramine 25 mg oral tablet
+^ESCT1223748	Diphenhydramine 25 mg and paracetamol 500 mg oral tablet
+^ESCT1223749	Product containing precisely diphenhydramine 25 milligram and paracetamol 500 milligram/1 each conventional release oral tablet
+^ESCT1225906	Product containing precisely diphenhydramine hydrochloride 20 milligram/1 milliliter conventional release cutaneous cream
+^ESCT1225907	Diphenhydramine hydrochloride 20 mg/mL cutaneous cream
+^ESCT1227900	Diphenhydramine hydrochloride 25 mg/1 each oral capsule
+^ESCT1227901	Product containing precisely diphenhydramine hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1227902	Diphenhydramine hydrochloride 25 mg oral capsule
+^ESCT1227903	Diphenhydramine hydrochloride 50 mg/1 each oral capsule
+^ESCT1227904	Diphenhydramine hydrochloride 50 mg oral capsule
+^ESCT1227905	Product containing precisely diphenhydramine hydrochloride 50 milligram/1 each conventional release oral capsule
+^ESCT1231981	Diphenhydramine and zinc acetate
+^ESCT1231982	Diphenhydramine and zinc acetate product
+^ESCT1232076	Pseudoephedrine + dextromethorphan + diphenhydramine + paracetamol
+^ESCT1232077	Product containing dextromethorphan and diphenhydramine and paracetamol and pseudoephedrine
+^ESCT1232078	Acetaminophen and dextromethorphan and diphenhydramine and pseudoephedrine product
+^ESCT1232079	Dextromethorphan and diphenhydramine and paracetamol and pseudoephedrine product
+^ESCT1232873	Ammonium chloride + Diphenhydramine
+^ESCT1232874	Product containing ammonium chloride and diphenhydramine
+^ESCT1232875	Ammonium chloride and diphenhydramine product
+^ESCT1233096	Diphenhydramine + Pholcodine
+^ESCT1233097	Product containing diphenhydramine and pholcodine
+^ESCT1233098	Diphenhydramine and pholcodine product
+^ESCT1233163	Product containing dextromethorphan and diphenhydramine
+^ESCT1233164	Dextromethorphan and diphenhydramine product
+^ESCT1233187	Diphenhydramine 25 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCT1233188	Diphenhydramine 25 mg and ibuprofen 200 mg oral capsule
+^ESCT1233189	Product containing precisely diphenhydramine 25 milligram and ibuprofen 200 milligram/1 each conventional release oral capsule
+^ESCT1233278	Diphenhydramine + ibuprofen
+^ESCT1233279	Diphenhydramine and ibuprofen product
+^ESCT1233387	Diphenhydramine + Levomenthol
+^ESCT1233388	Product containing diphenhydramine and levomenthol
+^ESCT1233389	Diphenhydramine and levomenthol product
+^ESCT1233714	Product containing diphenhydramine and pseudoephedrine
+^ESCT1233715	Diphenhydramine and pseudoephedrine product
+^ESCT1234014	Acetaminophen and diphenhydramine product
+^ESCT1234015	Diphenhydramine and paracetamol product
+^ESCT1235138	Diphenhydramine 38 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCT1235139	Diphenhydramine 38 mg and ibuprofen 200 mg oral capsule
+^ESCT1235140	Product containing precisely diphenhydramine 38 milligram and ibuprofen 200 milligram/1 each conventional release oral capsule
+^ESCT1350896	Diphenhydramine-containing product in cutaneous dose form
+^ESCT1351358	Diphenhydramine- and paracetamol-containing product in oral dose form
+^ESCT1351359	Acetaminophen- and diphenhydramine-containing product in oral dose form
+^ESCT1353479	Ammonium chloride and diphenhydramine only product
+^ESCT1354537	Dextromethorphan and diphenhydramine only product
+^ESCT1354538	Dextromethorphan and diphenhydramine and paracetamol and pseudoephedrine only product
+^ESCT1354539	Acetaminophen and dextromethorphan and diphenhydramine and pseudoephedrine only product
+^ESCT1354655	Diphenhydramine only product
+^ESCT1354656	Diphenhydramine and ibuprofen only product
+^ESCT1354657	Diphenhydramine and levomenthol only product
+^ESCT1354658	Diphenhydramine and paracetamol only product
+^ESCT1354659	Acetaminophen and diphenhydramine only product
+^ESCT1354660	Diphenhydramine and pholcodine only product
+^ESCT1354661	Diphenhydramine and pseudoephedrine only product
+^ESCT1354662	Diphenhydramine and zinc acetate only product
+^ESCT1358276	Diphenhydramine and ibuprofen only product in oral dose form
+^ESCT1358277	Diphenhydramine and paracetamol only product in oral dose form
+^ESCT1358278	Acetaminophen and diphenhydramine only product in oral dose form
+^ESCT1358279	Diphenhydramine only product in cutaneous dose form
+^ESCT1358280	Diphenhydramine only product in oral dose form
+^ESCT1358281	Diphenhydramine only product in parenteral dose form
+^ESCT1362643	Diphenhydramine (as diphenhydramine hydrochloride) 25 mg and paracetamol 500 mg oral tablet
+^ESCT1362644	Acetaminophen 500 mg and diphenhydramine (as diphenhydramine hydrochloride) 25 mg oral tablet
+^ESCT1364076	Diphenhydramine hydrochloride 1.25 mg/mL oral solution
+^ESCT1364077	Diphenhydramine hydrochloride 20 mg/mL and zinc acetate 1 mg/mL cutaneous cream
+^ESCT1364873	Diphenhydramine- and zinc acetate-containing product in cutaneous dose form
+^ESCT1365669	Diphenhydramine and zinc acetate only product in cutaneous dose form
+^ESCT1367319	Paracetamol 500mg / Diphenhydramine 25mg tablets
+^ESCT1373957	Diphenhydramine 10mg/5ml oral solution 300 ml
+^ESCT1373958	Nytol Liquid Caramel Flavour 10mg/5ml oral solution (Omega Pharma Ltd)
+^ESCT1373959	Nytol Liquid Caramel Flavour 10mg/5ml oral solution (Omega Pharma Ltd) 300 ml
+^ESCT1375493	Diphenhydramine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375495	Diphenhydramine 25mg tablets (Medihealth (Northern) Ltd) 20 tablet
+^ESCT1375496	Diphenhydramine 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375497	Diphenhydramine 50mg tablets (Medihealth (Northern) Ltd) 20 tablet
+^ESCT1382201	Diphenhydramine hydrochloride 12.5 mg chewable tablet
+^ESCT1382202	Diphenhydramine hydrochloride 2.5 mg/mL oral solution
+^ESCT1382998	Diphenhydramine- and zinc acetate-containing product
+^ESCT1383026	Dextromethorphan- and diphenhydramine- and paracetamol- and pseudoephedrine-containing product
+^ESCT1383027	Acetaminophen- and dextromethorphan- and diphenhydramine- and pseudoephedrine-containing product
+^ESCT1383316	Diphenhydramine- and ibuprofen-containing product
+^ESCT1383712	Diphenhydramine-containing product in parenteral dose form
+^ESCT1383855	Diphenhydramine-containing product in oral dose form
+^ESCT1386391	Diphenhydramine- and ibuprofen-containing product in oral dose form
+^ESCT1409369	Diphenhydramine hydrochloride 25 mg and paracetamol 500 mg oral tablet
+^ESCT1409370	Acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg oral tablet
+^ESCT1410352	Panadol NightPain tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410353	Panadol NightPain tablets (GlaxoSmithKline Consumer Healthcare UK Ltd) 10 tablet
+^ESCT1410354	Panadol NightPain tablets (GlaxoSmithKline Consumer Healthcare UK Ltd) 20 tablet
+^ESCT1410625	Cough Nurse Night Time Liquid (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410626	Cough Nurse Night Time Liquid (GlaxoSmithKline Consumer Healthcare UK Ltd) 150 ml
+^ESCT1424755	Paracetamol 500mg / Diphenhydramine 25mg tablets
+^ESCT1428984	Diphenhydramine 25mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1428985	Diphenhydramine 25mg tablets (Flamingo Pharma (UK) Ltd) 20 tablet
+^ESCT1428986	Diphenhydramine 50mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1428987	Diphenhydramine 50mg tablets (Flamingo Pharma (UK) Ltd) 20 tablet
+^ESCTAC610143	Acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg oral tablet
+^ESCTAC610150	Acetaminophen+diphenhydramine hydrochloride 120mg/12.5mg s/f oral solution
+^ESCTAC701680	Acetaminophen+diphenhydramine
+^ESCTAM693196	Ammonium chloride + Diphenhydramine
+^ESCTAM693197	Ammonium chloride + diphenhydramine
+^ESCTAM902383	Ammonium chloride 100mg/5ml / Diphenhydramine 12.5mg/5ml oral solution sugar free
+^ESCTAM902396	Ammonium chloride 100mg/5ml / Diphenhydramine 12.5mg/5ml oral solution sugar free 125 ml
+^ESCTAM902499	Ammonium chloride 130mg/5ml / Diphenhydramine 14mg/5ml oral solution
+^ESCTAM902506	Ammonium chloride 130mg/5ml / Diphenhydramine 14mg/5ml oral solution 150 ml
+^ESCTAM964697	Ammonium chloride 130mg/5ml / Diphenhydramine 14mg/5ml oral solution 200 ml
+^ESCTBE870900	Benylin Children's Night Coughs oral solution (McNeil Products Ltd)
+^ESCTBE870901	Benylin Children's Night Coughs oral solution (McNeil Products Ltd) 125 ml
+^ESCTBE873831	Benylin Chesty Coughs Original oral solution (McNeil Products Ltd)
+^ESCTBE873832	Benylin Chesty Coughs Original oral solution (McNeil Products Ltd) 125 ml
+^ESCTBE873834	Benylin Chesty Coughs Original oral solution (McNeil Products Ltd) 300 ml
+^ESCTBE957092	Benylin Chesty Coughs Original oral solution (McNeil Products Ltd) 150 ml
+^ESCTBO1128454	Boots Night Cough Relief oral solution (The Boots Company Plc)
+^ESCTBO1128455	Boots Night Cough Relief oral solution (The Boots Company Plc) 150 ml
+^ESCTBO1128986	Boots Skin Allergy Relief 2% cream (The Boots Company Plc)
+^ESCTBO1128988	Boots Skin Allergy Relief 2% cream (The Boots Company Plc) 25 gram
+^ESCTCA921112	Care Night Time Sleep Aid 25mg tablets (Thornton & Ross Ltd)
+^ESCTCA921114	Care Night Time Sleep Aid 25mg tablets (Thornton & Ross Ltd) 16 tablet 4 x 4 tablets
+^ESCTCA944457	CalCold Six Plus oral solution (McNeil Products Ltd)
+^ESCTCA944458	CalCold Six Plus oral solution (McNeil Products Ltd) 100 ml
+^ESCTCA944461	Calpol Night oral solution (McNeil Products Ltd)
+^ESCTCA944462	Calpol Night oral solution (McNeil Products Ltd) 100 ml
+^ESCTCO1160824	Covonia Hot Dose Cough & Cold syrup (Thornton & Ross Ltd)
+^ESCTCO1160825	Covonia Hot Dose Cough & Cold syrup (Thornton & Ross Ltd) 150 ml
+^ESCTCO870267	Covonia night time formula oral solution (Thornton & Ross Ltd)
+^ESCTCO870268	Covonia night time formula oral solution (Thornton & Ross Ltd) 150 ml
+^ESCTCO910236	Cough Nurse Night Time Liquid (GlaxoSmithKline Consumer Healthcare)
+^ESCTCO910237	Cough Nurse Night Time Liquid (GlaxoSmithKline Consumer Healthcare) 150 ml
+^ESCTDE695777	Dextromethorphan+diphenhydramine
+^ESCTDE695778	Dextromethorphan + Diphenhydramine
+^ESCTDI1097435	Diphenhydramine 10mg/5ml oral solution 1 ml
+^ESCTDI1097437	Diphenhydramine 10mg/5ml oral solution (Special Order)
+^ESCTDI1097440	Diphenhydramine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI1109815	Diphenhydramine 25mg tablets (Colorama Pharmaceuticals Ltd)
+^ESCTDI1109816	Diphenhydramine 25mg tablets (Colorama Pharmaceuticals Ltd) 20 tablet
+^ESCTDI1109817	Diphenhydramine 50mg tablets (Colorama Pharmaceuticals Ltd)
+^ESCTDI1109818	Diphenhydramine 50mg tablets (Colorama Pharmaceuticals Ltd) 20 tablet
+^ESCTDI1109835	Diphenhydramine 25mg tablets (Crescent Pharma Ltd)
+^ESCTDI1109836	Diphenhydramine 25mg tablets (Crescent Pharma Ltd) 20 tablet 2 x 10 tablets
+^ESCTDI1109837	Diphenhydramine 50mg tablets (Crescent Pharma Ltd)
+^ESCTDI1109838	Diphenhydramine 50mg tablets (Crescent Pharma Ltd) 20 tablet 2 x 10 tablets
+^ESCTDI1127682	Diphenhydramine 25mg tablets (DE Pharmaceuticals)
+^ESCTDI1127683	Diphenhydramine 25mg tablets (DE Pharmaceuticals) 20 tablet
+^ESCTDI1127684	Diphenhydramine 50mg tablets (DE Pharmaceuticals)
+^ESCTDI1127685	Diphenhydramine 50mg tablets (DE Pharmaceuticals) 20 tablet
+^ESCTDI1137802	Diphenhydramine 25mg tablets (Ennogen Healthcare Ltd)
+^ESCTDI1137803	Diphenhydramine 25mg tablets (Ennogen Healthcare Ltd) 20 tablet
+^ESCTDI1137807	Diphenhydramine 50mg tablets (Ennogen Healthcare Ltd)
+^ESCTDI1137808	Diphenhydramine 50mg tablets (Ennogen Healthcare Ltd) 20 tablet
+^ESCTDI292376	Diphenhydramine
+^ESCTDI608806	Diphenhydramine 25mg tablets
+^ESCTDI608808	Diphenhydramine hydrochloride 25 mg oral tablet
+^ESCTDI608809	Diphenhydramine 10mg/5ml oral solution
+^ESCTDI608810	Diphenhydramine hydrochloride 10mg/5mL syrup
+^ESCTDI608811	Diphenhydramine 50mg tablets
+^ESCTDI608813	Diphenhydramine hydrochloride 50 mg oral tablet
+^ESCTDI616008	Diphenhydramine 2% cream
+^ESCTDI616009	Diphenhydramine hydrochloride 2% cream
+^ESCTDI639153	Diphenhydramine hydrochloride 25 mg/1 each oral capsule
+^ESCTDI639155	Diphenhydramine hydrochloride 50 mg/1 each oral capsule
+^ESCTDI654344	Diphenhydramine hydrochloride 12.5mg chewable tablet
+^ESCTDI654345	Diphenhydramine hydrochloride 12.5mg/5mL liquid
+^ESCTDI654346	Diphenhydramine hydrochloride 12.5mg/5mL solution
+^ESCTDI654347	Diphenhydramine hydrochloride 12.5mg/5mL elixir
+^ESCTDI654351	Diphenhydramine hydrochloride 12.5mg/5mL syrup
+^ESCTDI654352	Diphenhydramine hydrochloride 50mg/mL injection
+^ESCTDI675400	Diphenhydramine hydrochloride 6.25mg/5mL syrup
+^ESCTDI682573	Diphenhydramine + zinc acetate
+^ESCTDI695370	Diphenhydramine + Pholcodine
+^ESCTDI695371	Diphenhydramine+pholcodine
+^ESCTDI695776	Diphenhydramine + Dextromethorphan
+^ESCTDI695882	Diphenhydramine 25 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCTDI696318	Diphenhydramine + ibuprofen
+^ESCTDI696828	Diphenhydramine + Levomenthol
+^ESCTDI696829	Diphenhydramine+levomenthol
+^ESCTDI698612	Diphenhydramine+pseudoephedrine
+^ESCTDI698613	Diphenhydramine + Pseudoephedrine
+^ESCTDI700641	Diphenhydramine 2%/zinc acetate 0.1% topical cream
+^ESCTDI701681	Diphenhydramine + Paracetamol
+^ESCTDI711237	Diphenhydramine in topical dosage form
+^ESCTDI711510	Diphenhydramine in parenteral dosage form
+^ESCTDI712924	Diphenhydramine in oral dosage form
+^ESCTDI725583	Diphenhydramine 38 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCTDI847233	Diphenhydramine 50mg tablets 16 tablet
+^ESCTDI861423	Diphenhydramine 25mg tablets 20 tablet
+^ESCTDI861424	Diphenhydramine 25mg tablets 16 tablet
+^ESCTDI861426	Diphenhydramine 25mg tablets 50 tablet
+^ESCTDI870266	Diphenhydramine 10mg/5ml / Dextromethorphan 6.65mg/5ml oral solution sugar free 150 ml
+^ESCTDI870432	Diphenhydramine 10mg/5ml / Dextromethorphan 6.65mg/5ml oral solution sugar free
+^ESCTDI870898	Diphenhydramine 7mg/5ml / Levomenthol 550micrograms/5ml oral solution sugar free 125 ml
+^ESCTDI870931	Diphenhydramine 7mg/5ml / Levomenthol 550micrograms/5ml oral solution sugar free
+^ESCTDI871058	Diphenhydramine 2% cream 25 gram
+^ESCTDI873829	Diphenhydramine 14mg/5ml / Levomenthol 2mg/5ml oral solution 125 ml
+^ESCTDI873830	Diphenhydramine 14mg/5ml / Levomenthol 2mg/5ml oral solution 300 ml
+^ESCTDI874032	Diphenhydramine 14mg/5ml / Levomenthol 2mg/5ml oral solution
+^ESCTDI875122	Diphenhydramine 10mg/5ml oral solution 150 ml
+^ESCTDI901404	Diphenhydramine 50mg tablets 20 tablet
+^ESCTDI902409	Diphenhydramine 6.25mg/5ml oral solution sugar free
+^ESCTDI902412	Diphenhydramine 6.25mg/5ml oral solution sugar free 125 ml
+^ESCTDI910235	Diphenhydramine 12.5mg/5ml / Pholcodine 3.75mg/5ml oral solution 150 ml
+^ESCTDI910545	Diphenhydramine 12.5mg/5ml / Pholcodine 3.75mg/5ml oral solution
+^ESCTDI957091	Diphenhydramine 14mg/5ml / Levomenthol 2mg/5ml oral solution 150 ml
+^ESCTDO866412	Dozol liquid (M & A Pharmachem Ltd)
+^ESCTDO866433	Dozol liquid (M & A Pharmachem Ltd) 100 ml
+^ESCTDR861443	Dreemon 25mg tablets (E M Pharma)
+^ESCTDR861444	Dreemon 25mg tablets (E M Pharma) 20 tablet 2 x 10 tablets
+^ESCTDR875127	Dreemon 10mg/5ml syrup (E M Pharma)
+^ESCTDR875132	Dreemon 10mg/5ml syrup (E M Pharma) 150 ml
+^ESCTDR914911	Dreemon
+^ESCTFE903208	Fedril Paediatric 6.25mg/5ml elixir (Pinewood Healthcare)
+^ESCTFE903209	Fedril Paediatric 6.25mg/5ml elixir (Pinewood Healthcare) 125 ml
+^ESCTFE903210	Fedril Expectorant oral solution (Pinewood Healthcare)
+^ESCTFE903211	Fedril Expectorant oral solution (Pinewood Healthcare) 125 ml
+^ESCTGA1000146	Galpharm One a Night Nightcalm 50mg tablets (Galpharm International Ltd)
+^ESCTGA1000148	Galpharm One a Night Nightcalm 50mg tablets (Galpharm International Ltd) 20 tablet
+^ESCTHI861439	Histergan 25mg tablets (Norma Chemicals Ltd)
+^ESCTHI861440	Histergan 25mg tablets (Norma Chemicals Ltd) 50 tablet
+^ESCTHI871060	Histergan 2% cream (Norma Chemicals Ltd)
+^ESCTHI871061	Histergan 2% cream (Norma Chemicals Ltd) 25 gram
+^ESCTHI911453	Histergan 25mg tablets (Norma Chemicals Ltd) 20 tablet
+^ESCTHI911540	Histergan 10mg/5ml syrup (Norma Chemicals Ltd)
+^ESCTHI911541	Histergan 10mg/5ml syrup (Norma Chemicals Ltd) 150 ml
+^ESCTHI919738	Histergan
+^ESCTKI902507	Kilkof Expectorant oral solution (Bell,Sons & Co (Druggists) Ltd)
+^ESCTKI902508	Kilkof Expectorant oral solution (Bell,Sons & Co (Druggists) Ltd) 150 ml
+^ESCTLL901367	Lloydspharmacy Antihistamine 2% cream (Lloyds Pharmacy Ltd)
+^ESCTLL901368	Lloydspharmacy Antihistamine 2% cream (Lloyds Pharmacy Ltd) 25 gram
+^ESCTLL901409	Lloydspharmacy Extra Strength Sleep Aid 50mg tablets (Lloyds Pharmacy Ltd)
+^ESCTLL901411	Lloydspharmacy Extra Strength Sleep Aid 50mg tablets (Lloyds Pharmacy Ltd) 20 tablet
+^ESCTLU1158154	Lunox Sleep Aid 25mg tablets (Crescent Pharma Ltd)
+^ESCTLU1158155	Lunox Sleep Aid 25mg tablets (Crescent Pharma Ltd) 20 tablet 2 x 10 tablets
+^ESCTLU1162835	Lunox Max Strength Sleep Aid 50mg tablets (Crescent Pharma Ltd)
+^ESCTLU1162838	Lunox Max Strength Sleep Aid 50mg tablets (Crescent Pharma Ltd) 20 tablet 2 x 10 tablets
+^ESCTMA902399	Mandalyn Expectorant oral solution (M & A Pharmachem Ltd)
+^ESCTMA902400	Mandalyn Expectorant oral solution (M & A Pharmachem Ltd) 125 ml
+^ESCTMA902415	Mandalyn Paediatric 6.25mg/5ml oral solution (M & A Pharmachem Ltd)
+^ESCTMA902416	Mandalyn Paediatric 6.25mg/5ml oral solution (M & A Pharmachem Ltd) 125 ml
+^ESCTMA920421	Mandalyn Expectorant
+^ESCTMA920513	Mandalyn Paediatric
+^ESCTME866471	Medised For Children oral solution (SSL International Plc)
+^ESCTME866475	Medised For Children oral solution (SSL International Plc) 100 ml
+^ESCTME897202	Medised For Children oral solution (SSL International Plc) 200 ml
+^ESCTNI861428	Nightcalm 25mg tablets (Galpharm International Ltd)
+^ESCTNI861430	Nightcalm 25mg tablets (Galpharm International Ltd) 20 tablet
+^ESCTNI920467	Nightcalm
+^ESCTNI942784	Nirolex Night Time Coughs oral solution (The Boots Company Plc)
+^ESCTNI942785	Nirolex Night Time Coughs oral solution (The Boots Company Plc) 150 ml
+^ESCTNU1067688	Numark Night Time Sleep Aid 50mg tablets (Numark Ltd)
+^ESCTNU1067689	Numark Night Time Sleep Aid 50mg tablets (Numark Ltd) 20 tablet
+^ESCTNU926898	Numark Night Time Sleep Aid 25mg tablets (Numark Ltd)
+^ESCTNU926899	Numark Night Time Sleep Aid 25mg tablets (Numark Ltd) 20 tablet
+^ESCTNU964698	Numark Chesty Cough Expectorant oral solution (Numark Ltd)
+^ESCTNU964699	Numark Chesty Cough Expectorant oral solution (Numark Ltd) 200 ml
+^ESCTNY1059425	Nytol 25mg tablets (Omega Pharma Ltd) 20 tablet 2 x 10 tablets
+^ESCTNY1059426	Nytol One-A-Night 50mg tablets (Omega Pharma Ltd) 20 tablet 2 x 10 tablets
+^ESCTNY825447	Nytol One-A-Night 50mg tablets (Omega Pharma Ltd)
+^ESCTNY856384	Nytol One-A-Night 50mg tablets (Omega Pharma Ltd) 16 tablet 2 x 8 tablets
+^ESCTNY861434	Nytol 25mg tablets (Omega Pharma Ltd)
+^ESCTNY861435	Nytol 25mg tablets (Omega Pharma Ltd) 16 tablet 2 x 8 tablets
+^ESCTPA610139	Paracetamol 500mg / Diphenhydramine 25mg tablets
+^ESCTPA610142	Paracetamol 500 mg and diphenhydramine hydrochloride 25 mg oral tablet
+^ESCTPA610149	Paracetamol+diphenhydramine hydrochloride 120mg/12.5mg s/f oral solution
+^ESCTPA701679	Paracetamol + Diphenhydramine
+^ESCTPA866410	Paracetamol 120mg/5ml / Diphenhydramine 12.5mg/5ml oral solution 100 ml
+^ESCTPA866563	Paracetamol 120mg/5ml / Diphenhydramine 12.5mg/5ml oral solution
+^ESCTPA870305	Paracetamol 500mg / Diphenhydramine 25mg tablets 10 tablet
+^ESCTPA870306	Paracetamol 500mg / Diphenhydramine 25mg tablets 20 tablet
+^ESCTPA870307	Panadol NightPain tablets (GlaxoSmithKline Consumer Healthcare)
+^ESCTPA870308	Panadol NightPain tablets (GlaxoSmithKline Consumer Healthcare) 10 tablet
+^ESCTPA870309	Panadol NightPain tablets (GlaxoSmithKline Consumer Healthcare) 20 tablet
+^ESCTPA873799	Paracetamol 500mg / Diphenhydramine 25mg tablets 5 tablet
+^ESCTPA873800	Paracetamol 500mg / Diphenhydramine 25mg tablets (McNeil Products Ltd)
+^ESCTPA873801	Paracetamol 500mg / Diphenhydramine 25mg tablets (McNeil Products Ltd) 5 tablet
+^ESCTPA874660	Paracetamol 120mg/5ml / Diphenhydramine 7mg/5ml oral suspension sugar free 100 ml
+^ESCTPA874709	Paracetamol 120mg/5ml / Diphenhydramine 7mg/5ml oral suspension sugar free
+^ESCTPA897201	Paracetamol 120mg/5ml / Diphenhydramine 12.5mg/5ml oral solution 200 ml
+^ESCTPA926197	Paxidorm
+^ESCTPA963505	Paracetamol 500mg / Diphenhydramine 25mg tablets 4 tablet
+^ESCTPA963518	Paracetamol 500mg / Diphenhydramine 25mg tablets (McNeil Products Ltd) 4 tablet
+^ESCTPA980964	Paxidorm 25mg tablets (Norma Chemicals Ltd)
+^ESCTPA980965	Paxidorm 25mg tablets (Norma Chemicals Ltd) 20 tablet
+^ESCTPR292377	Product containing diphenhydramine
+^ESCTPR608807	Product containing diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR608812	Product containing diphenhydramine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR610140	Product containing acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR610141	Product containing paracetamol 500 mg and diphenhydramine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR639154	Product containing diphenhydramine hydrochloride 25 mg/1 each oral capsule
+^ESCTPR639156	Product containing diphenhydramine hydrochloride 50 mg/1 each oral capsule
+^ESCTPR695883	Product containing diphenhydramine 25 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCTPR696319	Product containing diphenhydramine and ibuprofen
+^ESCTPR701682	Product containing diphenhydramine and paracetamol
+^ESCTPR701683	Product containing acetaminophen and diphenhydramine
+^ESCTPR711238	Product containing diphenhydramine in topical dosage form
+^ESCTPR711511	Product containing diphenhydramine in parenteral dosage form
+^ESCTPR712925	Product containing diphenhydramine in oral dosage form
+^ESCTPR725584	Product containing diphenhydramine 38 mg and ibuprofen 200 mg/1 each oral capsule
+^ESCTPS682726	Pseudoephedrine + dextromethorphan + diphenhydramine + paracetamol
+^ESCTPS682727	Pseudoephedrine + dextromethorphan + diphenhydramine + acetaminophen
+^ESCTPS698611	Pseudoephedrine + Diphenhydramine
+^ESCTPS870437	Pseudoephedrine 22.5mg/5ml / Diphenhydramine 12.5mg/5ml oral solution sugar free 100 ml
+^ESCTPS870468	Pseudoephedrine 22.5mg/5ml / Diphenhydramine 12.5mg/5ml oral solution sugar free
+^ESCTSL1007029	Sleepeaze 25mg tablets (The Boots Company Plc)
+^ESCTSL1007030	Sleepeaze 25mg tablets (The Boots Company Plc) 20 tablet
+^ESCTSL1161397	Sleep Aid 25mg tablets (Tor Generics Ltd)
+^ESCTSL1161398	Sleep Aid 25mg tablets (Tor Generics Ltd) 20 tablet
+^ESCTSL912694	Sleepeaze 50mg tablets (The Boots Company Plc)
+^ESCTSL912695	Sleepeaze 50mg tablets (The Boots Company Plc) 20 tablet
+^ESCTTI870438	Tixycolds syrup sugar free (Novartis Consumer Health UK Ltd)
+^ESCTTI870439	Tixycolds syrup sugar free (Novartis Consumer Health UK Ltd) 100 ml
+COOR11266NEMIS	Covonia Night Time Formula  Oral solution  
+DIOR23829NEMIS	Diphenhydramine Hydrochloride  Oral solution  10 mg/5 ml
+DIOR38709NEMIS	Diphenhydramine And Dextromethorphan  Oral Solution, Sugar Free  10 mg/5 ml + 6.65 mg/5 ml
+DISY26632EMIS	Diphenhydramine Hydrochloride  Syrup  10 mg/5 ml
+DITA23524EMIS	Diphenhydramine Hydrochloride  Tablets  25 mg
+DITA5304NEMIS	Diphenhydramine Hydrochloride  Tablets  50 mg
+DRTA16132NEMIS	Dreemon  Tablets  25 mg
+HISY23831NEMIS	Histergan  Syrup  10 mg/5 ml
+MESY26630EMIS	Medinex  Syrup  10 mg/5 ml
+NITA11321NEMIS	Nightcalm  Tablets  25 mg
+NYCA5306NEMIS	Nytol  Caplets  25 mg
+NYTA23522EMIS	Nytol  Tablets  25 mg
+NYTA4546NEMIS	Nytol One-a-Night  Tablets  50 mg
+PATA135310NEMIS	Paracetamol And Diphenhydramine  Tablets  500 mg + 25 mg
+PATA42244NEMIS	Panadol Night Pain  Tablets  
