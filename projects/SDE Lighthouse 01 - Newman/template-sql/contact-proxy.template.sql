@@ -1,14 +1,13 @@
 --┌────────────────────────────────────┐
---│ LH014 GP Contact Proxy             │
+--│ LH001 GP Contact Proxy             │
 --└────────────────────────────────────┘
 
--------- RESEARCH DATA ENGINEER CHECK ---------
--- Richard Williams	2024-08-09	Review complete
-
-USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
+USE PRESENTATION.GP_RECORD;
 
 set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-06-30');
+
+--> EXECUTE query-build-lh001-cohort.sql
 
 ---- find the latest snapshot for each spell, to get all virtual ward patients
 drop table if exists virtualWards;
@@ -26,5 +25,6 @@ SELECT
     , "EventDate" as "GPProxyEncounterDate"
 FROM PRESENTATION.GP_RECORD."Contacts_Proxy_Detail_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards)
-AND "Contact" = 1
 AND "EventDate" BETWEEN $StudyStartDate AND $StudyEndDate;
+
+

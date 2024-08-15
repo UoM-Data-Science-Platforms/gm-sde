@@ -1,3 +1,7 @@
+--┌─────────────────────────────┐
+--│ Adverse Drug Reactions      │
+--└─────────────────────────────┘
+
 --┌────────────────────────────────────────────────────────────────────────────────────────────┐
 --│ Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls   │
 --└────────────────────────────────────────────────────────────────────────────────────────────┘
@@ -52,41 +56,42 @@ WHERE
     (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
 
 
+
 -- table of pharmacogenetic test patients
 
 ------
 
 
--- create main cohort
-
-DROP TABLE IF EXISTS MainCohort;
-CREATE TEMPORARY TABLE MainCohort AS
-SELECT DISTINCT
+DROP TABLE IF EXISTS Cohort;
+CREATE TEMPORARY TABLE AS
+SELECT DISTINCT 
 	 "FK_Patient_ID",
-	 "GmPseudo",
-     "Sex" as Sex,
-     YEAR("DateOfBirth") AS YearOfBirth
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p
-WHERE "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
- 	--AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM PharmacogenticTable)
-GROUP BY  "FK_Patient_ID",
-	 "GmPseudo",
-     "Sex",
-     YEAR("DateOfBirth");
-
--- create table of potential patients to match to the main cohort
-
-DROP TABLE IF EXISTS PotentialMatches;
-CREATE TEMPORARY TABLE PotentialMatches AS
-SELECT DISTINCT "FK_Patient_ID", 
-		"Sex" as Sex,
-		YEAR("DateOfBirth") AS YearOfBirth
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" dem
-AND "FK_Patient_ID" NOT IN (SELECT "FK_Patient_ID" FROM MainCohort);
+	 "GmPseudo"
+INTO Cohort
+FROM Pharmacogenetic p
 
 
--- run matching script with parameters filled in
 
---> EXECUTE query-cohort-matching-yob-sex-alt-SDE.sql yob-flex:2 num-matches:5
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
--------------------------------
+USE INTERMEDIATE.GP_RECORD;
+
+set(StartDate) = to_date('2012-01-01');
+set(EndDate) = to_date('2024-06-30');
+
+-- find adverse reactions from GP events table
+
+SELECT DISTINCT
+	e."FK_Patient_ID"
+	, to_date("EventDate") AS "DiagnosisDate"
+	, e."SCTID" AS "SnomedCode"
+	, co.concept AS "Concept"
+	, e."Term" AS "Description"
+FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
+LEFT JOIN SDE_REPOSITORY.SHARED_UTILITIES.AllCodesPermanent co ON co.CODE = e."SCTID"
+WHERE co.concept = 'adverse-reaction'
+--AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort)
+AND TO_DATE("EventDate") BETWEEN $StartDate AND $EndDate;
+

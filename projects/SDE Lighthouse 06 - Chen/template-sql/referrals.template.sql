@@ -4,20 +4,34 @@
 
 --> EXECUTE query-build-lh006-cohort.sql
 
---> CODESET acute-pain-service:1 social-care-prescribing:1 pain-management:1 surgery:1
-
-
-DROP TABLE IF EXISTS Prescriptions;
-CREATE TEMPORARY TABLE Prescriptions AS
+DROP TABLE IF EXISTS referralsClusters;
+CREATE TEMPORARY TABLE referralsClusters AS
 SELECT 
-	gp."FK_Patient_ID", 
-	TO_DATE("EventDate") AS "EventDate", 
-	"SuppliedCode"
-FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" gp
-INNER JOIN VersionedCodeSets vcs ON vcs.FK_Reference_Coding_ID = gp."FK_Reference_Coding_ID" AND vcs.Version =1
-INNER JOIN VersionedSnomedSets vss ON vss.FK_Reference_SnomedCT_ID = gp."FK_Reference_SnomedCT_ID" AND vss.Version =1
+    ec."FK_Patient_ID"
+    , TO_DATE(ec."EventDate") AS "MedicationDate"
+    , ec."SCTID" AS "SnomedCode"
+    , CASE WHEN ec."Cluster_ID" = 'SOCPRESREF_COD' THEN 'social prescribing referral'
+			WHEN ("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%physiotherap%') THEN 'physiotherapy-referral'
+			WHEN ("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%psych%') THEN 'psychological-therapy-referral'
+			WHEN ("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%acupun%') THEN 'acupuncture-referral'
+			WHEN ("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%pain%') THEN 'pain-related-referral' 
+			WHEN ("Cluster_ID" in ('REFERRAL_COD') AND (lower("Term") like '%surgeon%' or lower("Term") like '%surgery%' or lower("Term") like '%surgical%' )) THEN 'surgery-referral' 
+           ELSE 'other' END AS "CodeSet"
+    , ec."Term" AS "Description"
+FROM INTERMEDIATE.GP_RECORD."EventsClusters" ec
 WHERE 
-GP."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort) AND
-vcs.Concept not in ('chronic-pain', 'opioids', 'cancer') AND
-gp."EventDate" BETWEEN $StudyStartDate and $StudyEndDate;    -- only looking at referrals in the study period
-
+	(
+    ("Cluster_ID" in ('SOCPRESREF_COD')) -- social prescribing referral
+	OR
+	("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%physiotherap%') -- physiotherapy referral
+	OR 
+	("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%psych%') -- psychological therapy referral
+	OR
+	("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%acupun%') -- acupuncture referral 
+	OR
+	("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%pain%') -- pain-related  referral 
+	OR 
+	("Cluster_ID" in ('REFERRAL_COD') AND (lower("Term") like '%surgeon%' or lower("Term") like '%surgery%' or lower("Term") like '%surgical%' )) -- surgery referral 
+    )
+AND TO_DATE(ec."EventDate") BETWEEN $StudyStartDate and $StudyEndDate;
+    AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort);

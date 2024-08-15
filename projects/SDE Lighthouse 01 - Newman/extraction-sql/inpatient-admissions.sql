@@ -1,3 +1,10 @@
+--┌──────────────────────────────────────────────────────────────────┐
+--│ SDE Lighthouse study 01 - Newman - Inpatient hospital admissions │
+--└──────────────────────────────────────────────────────────────────┘
+
+set(StudyStartDate) = to_date('2020-01-01');
+set(StudyEndDate)   = to_date('2023-12-31');
+
 --┌────────────────────────────────────────────────────────────────────────────────────────────┐
 --│ Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls   │
 --└────────────────────────────────────────────────────────────────────────────────────────────┘
@@ -52,41 +59,42 @@ WHERE
     (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
 
 
+
 -- table of pharmacogenetic test patients
 
 ------
 
 
--- create main cohort
-
-DROP TABLE IF EXISTS MainCohort;
-CREATE TEMPORARY TABLE MainCohort AS
-SELECT DISTINCT
+DROP TABLE IF EXISTS Cohort;
+CREATE TEMPORARY TABLE AS
+SELECT DISTINCT 
 	 "FK_Patient_ID",
-	 "GmPseudo",
-     "Sex" as Sex,
-     YEAR("DateOfBirth") AS YearOfBirth
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p
-WHERE "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
- 	--AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM PharmacogenticTable)
-GROUP BY  "FK_Patient_ID",
-	 "GmPseudo",
-     "Sex",
-     YEAR("DateOfBirth");
-
--- create table of potential patients to match to the main cohort
-
-DROP TABLE IF EXISTS PotentialMatches;
-CREATE TEMPORARY TABLE PotentialMatches AS
-SELECT DISTINCT "FK_Patient_ID", 
-		"Sex" as Sex,
-		YEAR("DateOfBirth") AS YearOfBirth
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" dem
-AND "FK_Patient_ID" NOT IN (SELECT "FK_Patient_ID" FROM MainCohort);
+	 "GmPseudo"
+INTO Cohort
+FROM Pharmacogenetic p
 
 
--- run matching script with parameters filled in
 
---> EXECUTE query-cohort-matching-yob-sex-alt-SDE.sql yob-flex:2 num-matches:5
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
--------------------------------
+
+-- get all inpatient admissions
+SELECT 
+    "GmPseudo"
+    , TO_DATE("AdmissionDttm") AS "AdmissionDate"
+    , TO_DATE("DischargeDttm") AS "DischargeDate"
+	, "AdmissionMethodCode"
+	, "AdmissionMethodDesc"
+    , "HospitalSpellDuration" AS "LOS_days"
+    , "DerPrimaryDiagnosisChapterDescReportingEpisode" AS PrimaryDiagnosisChapter
+	, "DerPrimaryDiagnosisCodeReportingEpisode" AS PrimaryDiagnosisCode 
+    , "DerPrimaryDiagnosisDescReportingEpisode" AS PrimaryDiagnosisDesc
+FROM PRESENTATION.NATIONAL_FLOWS_APC."DS708_Apcs"
+WHERE 
+-- "ProviderDesc" IN ('Manchester University NHS Foundation Trust', 'Pennine Acute Hospitals NHS Trust', 'Northern Care Alliance NHS Foundation Trust', 'Wrightington, Wigan And Leigh NHS Foundation Trust', 'Stockport NHS Foundation Trust', 'Bolton NHS Foundation Trust', 'Tameside And Glossop Integrated Care NHS Foundation Trust', 'The Christie NHS Foundation Trust') AND
+-- FILTER OUT ELECTIVE ??   
+TO_DATE("AdmissionDttm") BETWEEN $StudyStartDate AND $StudyEndDate
+AND "GmPseudo" IN (SELECT "GmPseudo" FROM cOHORT);
+

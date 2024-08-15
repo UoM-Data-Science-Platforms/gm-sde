@@ -12,6 +12,9 @@
 -- OUTPUT: Temp tables as follows:
 -- Cohort
 
+USE DATABASE INTERMEDIATE;
+USE SCHEMA GP_RECORD;
+
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
 
@@ -41,8 +44,8 @@ ON t2."GmPseudo" = p."GmPseudo" AND t2.LatestSnapshot = p."Snapshot";
 
 -- FIND ALL ADULT PATIENTS ALIVE AT STUDY START DATE
 
-DROP TABLE IF EXISTS AlivePatientsAtStart;
-CREATE TEMPORARY TABLE AlivePatientsAtStart AS 
+DROP TABLE IF EXISTS AliveAdultsAtStart;
+CREATE TEMPORARY TABLE AliveAdultsAtStart AS 
 SELECT  
     dem.*, 
     Death.DeathDate
@@ -51,46 +54,38 @@ LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
 WHERE 
     (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
 
--- LOAD CODESETS
-
---> CODESET cancer:1 chronic-pain:1
---> CODESET opioids:1      
-
--- table of chronic pain coding events
+-- find patients with chronic pain
 
 DROP TABLE IF EXISTS chronic_pain;
 CREATE TEMPORARY TABLE chronic_pain AS
-SELECT gp."FK_Patient_ID", "EventDate"
-FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" gp
-WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM VersionedCodeSets WHERE Concept = 'chronic-pain' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM VersionedSnomedSets WHERE Concept = 'chronic-pain' AND Version = 1)
-) 
-AND "EventDate" BETWEEN $StudyStartDate and $StudyEndDate 
+SELECT "FK_Patient_ID", to_date("EventDate") AS "EventDate"
+FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
+WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES.AllCodesPermanent WHERE Concept = 'chronic-pain' AND Version = 1) 
+AND "EventDate" BETWEEN $StudyStartDate and $StudyEndDate
+AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AliveAdultsAtStart); -- only include alive patients at study start
 
 -- find first chronic pain code in the study period 
-DROP TABLE IF EXISTS FirstPain
+DROP TABLE IF EXISTS FirstPain;
 CREATE TEMPORARY TABLE FirstPain AS
 SELECT 
-	FK_Patient_ID, 
-	MIN(TO_DATE(EventDate)) AS FirstPainCodeDate
+	"FK_Patient_ID", 
+	MIN(TO_DATE("EventDate")) AS FirstPainCodeDate
 FROM chronic_pain
-GROUP BY FK_Patient_ID
+GROUP BY "FK_Patient_ID";
 
 -- find patients with a cancer code within 12 months either side of first chronic pain code
 -- to exclude in next step
 
-DROP TABLE IF EXISTS cancer
+DROP TABLE IF EXISTS cancer;
 CREATE TEMPORARY TABLE cancer AS
-SELECT gp."FK_Patient_ID", "EventDate" 
-FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" gp
-LEFT JOIN FirstPain fp ON fp.FK_Patient_ID = gp.FK_Patient_ID 
-				AND gp.EventDate BETWEEN DATEADD(year, 1, FirstPainCodeDate) AND DATEADD(year, -1, FirstPainCodeDate)
-WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM VersionedCodeSets WHERE Concept = 'cancer' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM VersionedSnomedSets WHERE Concept = 'cancer' AND Version = 1)
-)
-AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain)
+SELECT e."FK_Patient_ID", to_date("EventDate") AS "EventDate"
+FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
+INNER JOIN FirstPain fp ON fp."FK_Patient_ID" = e."FK_Patient_ID" 
+				AND e."EventDate" BETWEEN DATEADD(year, 1, FirstPainCodeDate) AND DATEADD(year, -1, FirstPainCodeDate)
+WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES.AllCodesPermanent WHERE Concept = 'cancer' AND Version = 1)
+AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain) --only look in patients with chronic pain
+AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AliveAdultsAtStart); -- only include alive patients at study start 
+
 
 -- find patients in the chronic pain cohort who received more than 2 opioids
 -- for 14 days, within a 90 day period, after their first chronic pain code
@@ -98,85 +93,50 @@ AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain)
 
 -- first get all opioid prescriptions for the cohort
 
-DROP TABLE IF EXISTS OpioidPrescriptions
-CREATE TEMPORARY TABLE OpioidPrescriptions
+DROP TABLE IF EXISTS OpioidPrescriptions;
+CREATE TEMPORARY TABLE OpioidPrescriptions AS
 SELECT 
-	gp."FK_Patient_ID", 
-	TO_DATE("MedicationDate") AS "MedicationDate", 
-	"Dosage", 
-	"Quantity", 
-	"SuppliedCode",
-	fp.FirstPainCodeDate,
-	Lag("MedicationDate", 1) OVER 
-		(PARTITION BY gp."FK_Patient_ID" ORDER BY "MedicationDate" ASC) AS "PreviousOpioidDate"
-FROM INTERMEDIATE.GP_RECORD."GP_Medications_SecondaryUses" gp
-INNER JOIN FirstPain fp ON fp.FK_Patient_ID = gp."FK_Patient_ID" 
+    ec."FK_Patient_ID"
+    , TO_DATE(ec."MedicationDate") AS "MedicationDate"
+    , ec."SCTID" AS "SnomedCode"
+    , ec."Units"
+    , ec."Dosage"
+    , ec."Dosage_GP_Medications"
+    , ec."MedicationDescription" AS "Description"
+	, fp.FirstPainCodeDate
+	, TO_DATE(Lag(ec."MedicationDate", 1) OVER 
+		(PARTITION BY ec."FK_Patient_ID" ORDER BY "MedicationDate" ASC)) AS "PreviousOpioidDate"
+FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
+INNER JOIN FirstPain fp ON fp."FK_Patient_ID" = ec."FK_Patient_ID" 
 WHERE 
-	(
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM VersionedCodeSets WHERE Concept = 'opioids' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM VersionedSnomedSets WHERE Concept = 'opioids' AND Version = 1)
-  	)
-AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain) -- chronic pain patients only 
-AND gp."FK_Patient_ID" NOT IN (SELECT FK_Patient_ID FROM cancer)  -- exclude cancer patients
-AND "MedicationDate" BETWEEN $StudyStartDate and $StudyEndDate    -- only looking at opioid prescriptions in the study period
-AND gp."MedicationDate" > fp.FirstPainCodeDate                    -- looking at opioid prescriptions after the first chronic pain code
+	"Cluster_ID" in ('OPIOIDDRUG_COD') 									-- opioids only
+	AND TO_DATE(ec."MedicationDate") > fp.FirstPainCodeDate				-- only prescriptions after the patients first pain code
+	AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain) -- chronic pain patients only 
+	AND ec."FK_Patient_ID" NOT IN (SELECT "FK_Patient_ID" FROM cancer)  -- exclude cancer patients
+	AND TO_DATE(ec."MedicationDate") BETWEEN $StudyStartDate and $StudyEndDate;    -- only looking at opioid prescriptions in the study period;
 
 -- find all patients that have had two prescriptions within 90 days, and calculate the index date as
 -- the first prescription that meets the criteria
 
-DROP TABLE IF EXISTS IndexDates
+DROP TABLE IF EXISTS IndexDates;
 CREATE TEMPORARY TABLE IndexDates AS
-SELECT FK_Patient_ID, 
-	MIN(PreviousOpioidDate) AS IndexDate 
+SELECT "FK_Patient_ID", 
+	MIN(TO_DATE("PreviousOpioidDate")) AS IndexDate 
 FROM OpioidPrescriptions
-WHERE DATEDIFF(dd, PreviousOpioidDate, MedicationDate) <= 90
-GROUP BY FK_Patient_ID
+WHERE DATEDIFF(dd, "PreviousOpioidDate", "MedicationDate") <= 90
+GROUP BY "FK_Patient_ID";
 
+-- create cohort of patients, join to demographics table to get GmPseudo
 
-
---- death table to join to later
-
-DROP TABLE IF EXISTS Death;
-CREATE TEMPORARY TABLE Death AS
-SELECT 
-    DEATH."GmPseudo",
-    TO_DATE(DEATH."RegisteredDateOfDeath") AS DeathDate,
-    OM."DiagnosisOriginalMentionCode",
-    OM."DiagnosisOriginalMentionDesc",
-    OM."DiagnosisOriginalMentionChapterCode",
-    OM."DiagnosisOriginalMentionChapterDesc",
-    OM."DiagnosisOriginalMentionCategory1Code",
-    OM."DiagnosisOriginalMentionCategory1Desc"
-FROM PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" DEATH
-LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions" OM 
-        ON OM."XSeqNo" = DEATH."XSeqNo" AND OM."DiagnosisOriginalMentionNumber" = 1
-WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards);
-
--- create cohort of patients
--- join to demographic table to get ethnicity and date of birth
-
-DROP TABLE IF EXISTS Cohort
+DROP TABLE IF EXISTS Cohort;
 CREATE TEMPORARY TABLE Cohort AS
-SELECT
-	 i.FK_Patient_ID,
-	 p."GmPseudo",
-	 p.Sex,
-	 p.Age,
-	 p.TOWNSEND_SCORE_LSOA_2011,
-	 p.EthnicityLatest_Category,
-	 P.PracticeCode, 
-	 TO_DATE(death.RegisteredDateOfDeath) AS DeathDate,
-	 P."DateOfBirth", 
+SELECT DISTINCT
+	 i."FK_Patient_ID",
+     dem."GmPseudo",
 	 i.IndexDate
 FROM IndexDates i
-LEFT OUTER JOIN        -- use row_number to filter demographics table to most recent snapshot
-	(
-	SELECT 
-		*, 
-		ROW_NUMBER() OVER (PARTITION BY FK_Patient_ID ORDER BY Snapshot DESC) AS ROWNUM
-	FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics" p 
-	) dem	ON p.FK_Patient_ID = i.FK_Patient_ID
-WHERE dem.ROWNUM = 1
----------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------
+LEFT JOIN 
+    (SELECT DISTINCT "FK_Patient_ID", "GmPseudo"
+     FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses"
+    ) dem ON dem."FK_Patient_ID" = i."FK_Patient_ID";
+

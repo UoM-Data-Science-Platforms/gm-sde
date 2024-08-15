@@ -1,3 +1,12 @@
+--┌────────────────────────────────────┐
+--│ LH001 GP Contact Proxy             │
+--└────────────────────────────────────┘
+
+USE PRESENTATION.GP_RECORD;
+
+set(StudyStartDate) = to_date('2018-01-01');
+set(StudyEndDate)   = to_date('2024-06-30');
+
 --┌────────────────────────────────────────────────────────────────────────────────────────────┐
 --│ Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls   │
 --└────────────────────────────────────────────────────────────────────────────────────────────┘
@@ -52,41 +61,43 @@ WHERE
     (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
 
 
+
 -- table of pharmacogenetic test patients
 
 ------
 
 
--- create main cohort
-
-DROP TABLE IF EXISTS MainCohort;
-CREATE TEMPORARY TABLE MainCohort AS
-SELECT DISTINCT
+DROP TABLE IF EXISTS Cohort;
+CREATE TEMPORARY TABLE AS
+SELECT DISTINCT 
 	 "FK_Patient_ID",
-	 "GmPseudo",
-     "Sex" as Sex,
-     YEAR("DateOfBirth") AS YearOfBirth
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p
-WHERE "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
- 	--AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM PharmacogenticTable)
-GROUP BY  "FK_Patient_ID",
-	 "GmPseudo",
-     "Sex",
-     YEAR("DateOfBirth");
-
--- create table of potential patients to match to the main cohort
-
-DROP TABLE IF EXISTS PotentialMatches;
-CREATE TEMPORARY TABLE PotentialMatches AS
-SELECT DISTINCT "FK_Patient_ID", 
-		"Sex" as Sex,
-		YEAR("DateOfBirth") AS YearOfBirth
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" dem
-AND "FK_Patient_ID" NOT IN (SELECT "FK_Patient_ID" FROM MainCohort);
+	 "GmPseudo"
+INTO Cohort
+FROM Pharmacogenetic p
 
 
--- run matching script with parameters filled in
 
---> EXECUTE query-cohort-matching-yob-sex-alt-SDE.sql yob-flex:2 num-matches:5
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
--------------------------------
+
+---- find the latest snapshot for each spell, to get all virtual ward patients
+drop table if exists virtualWards;
+create temporary table virtualWards as
+select  
+	distinct SUBSTRING(vw."Pseudo NHS Number", 2)::INT as "GmPseudo"
+from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw
+where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate;
+
+-- find all GP contacts for virtual ward cohort
+
+SELECT
+    "GmPseudo"
+    , "FK_Patient_ID"
+    , "EventDate" as "GPProxyEncounterDate"
+FROM PRESENTATION.GP_RECORD."Contacts_Proxy_Detail_SecondaryUses"
+WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards)
+AND "EventDate" BETWEEN $StudyStartDate AND $StudyEndDate;
+
+
