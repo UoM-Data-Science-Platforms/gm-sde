@@ -24,7 +24,7 @@
 --  - PercentageOfPatients  - the percentage of patients for this system supplier with this concept
 
 --> CODESET insert-concepts-here:1
---|> EXECUTE query-practice-systems-lookup-SNOWFLAKE.sql
+--> EXECUTE query-practice-systems-lookup-SNOWFLAKE.sql
 
 -- First get all patients from the GP_Events table who have a matching "FK_Reference_Coding_ID"
 -- First get all patients from the GP_Events table who have a matching "FK_Reference_Coding_ID"
