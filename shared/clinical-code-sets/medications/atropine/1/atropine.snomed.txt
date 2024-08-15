@@ -474,3 +474,39 @@
 13246601000001101	Atropine 500micrograms/5ml solution for injection pre-filled syringes (product)
 13246701000001106	Atropine 1mg/10ml solution for injection pre-filled syringes (product)
 1916701000001107	Eumydrin 0.6% solution
+317361001	Co-phenotrope 2500mcg/25micrograms tablet (product)
+346382009	Co-phenotrope (product)
+35587411000001107	Co-phenotrope 2.5mg/0.025mg tablets (Part VIIID Drug Tariff Special Order) (product)
+40532111000001100	Co-phenotrope 2.5mg/0.025mg tablets (Part VIIID Drug Tariff Special Order) 20 tablet (product)
+35587511000001106	Co-phenotrope 2.5mg/0.025mg tablets (Part VIIID Drug Tariff Special Order) 1 tablet (product)
+42352911000001106	Co-phenotrope 2.5mg/0.025mg tablets (product)
+7388711000001104	Dymotil 2.5mg/25microgram tablets (Goldshield Healthcare Ltd) (product)
+13828911000001100	Co-phenotrope 2.5mg/0.025mg tablets (Goldshield Pharmaceuticals Ltd) (product)
+300911000001102	Lomotil 2.5mg/25microgram tablets (Goldshield Healthcare Ltd) (product)
+14328811000001105	Lomotil 2.5mg/25microgram tablets (Sigma Pharmaceuticals Plc) (product)
+34349011000001105	Lofenoxal 2.5mg/25microgram tablets (Imported (Australia)) (product)
+23363111000001101	Lomotil 2.5mg/25microgram tablets (Imported (Ireland)) (product)
+15509111000001106	Co-phenotrope 2.5mg/0.025mg tablets (A A H Pharmaceuticals Ltd) (product)
+15247711000001102	Co-phenotrope 2.5mg/0.025mg tablets (UniChem Ltd) (product)
+542101000001105	Co-phenotrope 2.5mg/25micrograms/5mL oral liquid
+717301000001100	Co-phenotrope 2.5mg/25micrograms tablet - product
+1140611000001107	Co-phenotrope 2.5mg/0.025mg tablets 100 tablet (product)
+23363211000001107	Lomotil 2.5mg/25microgram tablets (Imported (Ireland)) 100 tablet (product)
+15509211000001100	Co-phenotrope 2.5mg/0.025mg tablets (A A H Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets (product)
+15247811000001105	Co-phenotrope 2.5mg/0.025mg tablets (UniChem Ltd) 100 tablet (product)
+14329111000001105	Lomotil 2.5mg/25microgram tablets (Sigma Pharmaceuticals Plc) 100 tablet (product)
+13829011000001109	Co-phenotrope 2.5mg/0.025mg tablets (Goldshield Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets (product)
+2383211000001101	Lomotil 2.5mg/25microgram tablets (Goldshield Healthcare Ltd) 100 tablet 5 x 20 tablets (product)
+7388611000001108	Co-phenotrope 2.5mg/0.025mg tablets 20 tablet (product)
+34349111000001106	Lofenoxal 2.5mg/25microgram tablets (Imported (Australia)) 20 tablet (product)
+7388811000001107	Dymotil 2.5mg/25microgram tablets (Goldshield Healthcare Ltd) 20 tablet 2 x 10 tablets (product)
+9839311000001107	Co-phenotrope (product)
+18037111000001101	Co-phenotrope (product)
+35587311000001100	Co-phenotrope 2.5mg/0.025mg tablets 1 tablet (product)
+179201000001101	Lomotil liquid
+522601000001104	Lomotil tablet
+9525301000001105	Lomotil (product)
+299401000001106	Diarphen tablet
+4453301000001104	Dymotil tablet
+9270301000001106	Dymotil (product)
+1069101000001105	Tropergen tablet

@@ -56,3 +56,15 @@ x041r	Minims Atropine sulphate
 x045U	Isopto Atropine
 x05LT	Atropine methonitrate - chemical
 x05LU	Atropine sulphate - chemical
+a823.	Co-phenotrope 2.5mg/25micrograms tablet
+x00f9	Diarphen tablet
+a827.	Dymotil tablet
+a826.	Lotharin tablet
+a825.	Tropergen tablet
+a821.	Lomotil tablet
+a824.	Co-phenotrope 2.5mg/25micrograms/5mL oral liquid
+a822.	Lomotil liquid
+x002H	Co-phenotrope
+x02hp	Lomotil
+x05ry	Dymotil
+x02tU	Tropergen

@@ -1,1 +1,220 @@
-x	x
+a84..00	OPIUM AND MORPHINE
+a842.00	KAOLIN & MORPHINE mixture
+a841.00	AROMATIC CHALK + OPIUM mixture
+ch12.00	AMMONIUM CHLOR.+MORPHINE mixture
+ch13.00	IPECACUANHA AND MORPHINE mixture
+dj1..00	MORPHINE SALTS(1) [CENTRAL NERVOUS SYSTEM USE]
+dj1z.00	MST CONTINUS 15mg m/r tablets
+dj1y.00	MST CONTINUS 5mg m/r tablets
+dj1x.11	*SRM RHOTARD 100mg m/r tablets
+dj1x.00	*ORAMORPH SR 100mg m/r tablets
+dj1w.11	*SRM-RHOTARD 60mg m/r tablets
+dj1w.00	*ORAMORPH SR 60mg m/r tablets
+dj1v.11	*SRM-RHOTARD 30mg m/r tablets
+dj1v.00	*ORAMORPH SR 30mg m/r tablets
+dj1u.11	*SRM-RHOTARD 10mg m/r tablets
+dj1u.00	*ORAMORPH SR 10mg m/r tablets
+dj1t.00	MST CONTINUS 200mg m/r tablets
+dj1s.00	SEVREDOL 20mg tablets
+dj1r.00	SEVREDOL 10mg tablets
+dj1q.00	MIN-I-JET MORPHINE SULPHATE 20mg/2mL prefilled syringe
+dj1p.00	ORAMORPH 10mg/5mL liquid 250mL
+dj1o.00	ORAMORPH CONCENTRATED 20mg/mL liquid 120mL
+dj1n.00	ORAMORPH CONCENTRATED 20mg/mL liquid 30mL
+dj1m.00	ORAMORPH 10mg/5mL liquid 500mL
+dj1l.00	ORAMORPH 10mg/5mL liquid 100mL
+dj1k.00	NEPENTHE 4.2mg/0.5mL injection
+dj1j.00	*NEPENTHE 8.4mg/mL elixir
+dj1i.00	MST CONTINUS 100mg m/r tablets
+dj1h.00	MST CONTINUS 60mg m/r tablets
+dj1g.00	MST CONTINUS 30mg m/r tablets
+dj1f.00	MST CONTINUS 10mg m/r tablets
+dj1e.00	DUROMORPH 64mg/1mL m/r injection
+dj1d.00	CYCLIMORPH-15 injection 1mL
+dj1c.00	CYCLIMORPH-10 injection 1mL
+dj1b.00	OPIUM 10mg/mL tincture
+dj1a.11	MORPHINE SULPHATE 30mg suppositories
+dj1a.00	MORPHINE SULFATE 30mg suppositories
+dj1Z.00	ORAMORPH 10mg/5mL oral solution 300mL
+dj1Y.00	MST CONTINUS 200mg/sachet suspension
+dj1X.00	MST CONTINUS 100mg/sachet suspension
+dj1W.00	MST CONTINUS 60mg/sachet suspension
+dj1V.11	MORPHINE SULPHATE powder
+dj1V.00	MORPHINE SULFATE powder
+dj1U.00	MORPHINE HCL powder
+dj1T.00	MORPHINE HCL 30mg suppositories
+dj1S.00	MORPHINE HCL 15mg suppositories
+dj1R.11	MORPHINE SULPHATE 30mg/sachet m/r granules
+dj1R.00	MORPHINE SULFATE 30mg/sachet m/r granules
+dj1Q.11	MORPHINE SULPHATE 20mg/sachet m/r granules
+dj1Q.00	MORPHINE SULFATE 20mg/sachet m/r granules
+dj1P.00	MST CONTINUS 30mg/sachet suspension
+dj1O.11	MORPHINE SULPHATE 10mg/1mL prefilled syringe
+dj1O.00	MORPHINE SULFATE 10mg/1mL prefilled syringe
+dj1N.00	MST CONTINUS 20mg/sachet suspension
+dj1M.11	MORPHINE SULPHATE 100mg/5mL oral solution
+dj1M.00	MORPHINE SULFATE 100mg/5mL oral solution
+dj1L.11	MORPHINE SULPHATE 10mg/5mL oral solution
+dj1L.00	MORPHINE SULFATE 10mg/5mL oral solution
+dj1K.00	MORPHINE SULPHATE 100mg/5mL oral unit dose vial
+dj1J.00	ORAMORPH 100mg/5mL oral unit dose vial
+dj1I.00	MORPHINE SULPHATE 30mg/5mL oral unit dose vial
+dj1H.00	ORAMORPH 30mg/5mL oral unit dose vial
+dj1G.00	MORPHINE SULPHATE 10mg/5mL oral unit dose vial
+dj1F.00	ORAMORPH 10mg/5mL oral unit dose vial
+dj1E.11	MORPHINE SULPHATE 20mg suppositories
+dj1E.00	MORPHINE SULFATE 20mg suppositories
+dj1D.11	MORPHINE SULPHATE 10mg suppositories
+dj1D.00	MORPHINE SULFATE 10mg suppositories
+dj1C.00	*SEVREDOL 30mg suppositories
+dj1B.00	*SEVREDOL 20mg suppositories
+dj1A.00	*SEVREDOL 10mg suppositories
+dj19.11	MORPHINE SULPHATE 15mg suppositories
+dj19.00	MORPHINE SULFATE 15mg suppositories
+dj18.11	MORPHINE SULPHATE [CNS] 60mg/2mL injection
+dj18.00	MORPHINE SULFATE [CNS] 60mg/2mL injection
+dj17.11	MORPHINE SULPHATE [CNS] 40mg/2mL injection
+dj17.00	MORPHINE SULFATE [CNS] 40mg/2mL injection
+dj16.11	MORPHINE SULPHATE [CNS] 30mg/2mL injection
+dj16.00	MORPHINE SULFATE [CNS] 30mg/2mL injection
+dj15.11	MORPHINE SULPHATE [CNS] 20mg/2mL injection
+dj15.00	MORPHINE SULFATE [CNS] 20mg/2mL injection
+dj14.11	MORPHINE SULPHATE [CNS] 30mg/1mL injection
+dj14.00	MORPHINE SULFATE [CNS] 30mg/1mL injection
+dj13.11	MORPHINE SULPHATE [CNS] 20mg/1mL injection
+dj13.00	MORPHINE SULFATE [CNS] 20mg/1mL injection
+dj12.11	MORPHINE SULPH [CNS] 15mg injection
+dj12.00	MORPHINE SULFATE [CNS] 15mg injection
+dj11.11	MORPHINE SULPH [CNS] 10mg injection
+dj11.00	MORPHINE SULFATE [CNS] 10mg injection
+dj2..00	MORPHINE ANALGESIC ELIXIRS
+dj26.00	MORPHINE/COCAINE/CHLORPROMAZINE elixir
+dj25.00	*MORPHINE + COCAINE elixir
+dj24.00	DIAMORPHINE/COCAINE/CHLORPROMAZINE elixir
+dj23.00	*DIAMORPHINE + COCAINE elixir
+dj22.00	*DIAMORPHINE SIMPLE elixir
+dj21.00	*MORPHINE SIMPLE elixir
+djy..00	MORPHINE SALTS(3) [CENTRAL NERVOUS SYSTEM USE]
+djyL.00	MORPHINE SULFATE 10mg/10mL solution for injection
+djyK.00	MORPHINE SULFATE 5mg/5mL solution for injection
+djyJ.00	MORPHINE SULFATE 1mg/1mL solution for injection
+djyI.11	MORPHINE SULPHATE 1mg/mL Minijet 10mL prefilled syringe
+djyI.00	MORPHINE SULFATE 1mg/mL Minijet 10mL prefilled syringe
+djyH.00	RHOTARD SR 100mg m/r tablets
+djyG.00	RHOTARD SR 60mg m/r tablets
+djyF.00	RHOTARD SR 30mg m/r tablets
+djyE.00	RHOTARD SR 10mg m/r tablets
+djyD.00	MORPHGESIC SR 100mg m/r tablets
+djyC.00	MORPHGESIC SR 60mg m/r tablets
+djyB.00	MORPHGESIC SR 30mg m/r tablets
+djyA.00	MORPHGESIC SR 10mg m/r tablets
+djy9.00	FILNARINE SR 100mg m/r tablets
+djy8.00	FILNARINE SR 60mg m/r tablets
+djy7.00	FILNARINE SR 30mg m/r tablets
+djy6.00	FILNARINE SR 10mg m/r tablets
+djy5.11	MORPHINE SULPHATE 30mg/30mL injection
+djy5.00	MORPHINE SULFATE 30mg/30mL injection
+djy4.00	*MORAXEN 100mg rectal tampons
+djy3.00	*MORAXEN 75mg rectal tampons
+djy2.00	*MORAXEN 50mg rectal tampons
+djy1.00	*MORAXEN 35mg rectal tampons
+djz..00	MORPHINE SALTS(2) [CENTRAL NERVOUS SYSTEM USE]
+djzz.00	MORPHINE SULPHATE 100mg rectal tampons
+djzy.00	MORPHINE SULPHATE 75mg rectal tampons
+djzx.00	MORPHINE SULPHATE 50mg rectal tampons
+djzw.00	MORPHINE SULPHATE 35mg rectal tampons
+djzv.00	SEVREDOL 20mg/mL concentrated oral solution 120mL
+djzu.00	SEVREDOL 10mg/5mL oral solution 500mL
+djzt.00	SEVREDOL 10mg/5mL oral solution 300mL
+djzs.00	MORPHINE SULPHATE 20mg/mL oral solution
+djzr.00	SEVREDOL 20mg/mL concentrated oral solution 30mL
+djzq.00	SEVREDOL 10mg/5mL oral solution 100mL
+djzp.00	PHARMA-JECT MORPHINE SULPHATE 100mg/50mL prefilled syringe
+djzo.00	PHARMA-JECT MORPHINE SULPHATE 50mg/50mL prefilled syringe
+djzn.00	ZOMORPH 200mg m/r capsules
+djzm.00	ZOMORPH 100mg m/r capsules
+djzl.00	ZOMORPH 60mg m/r capsules
+djzk.00	ZOMORPH 30mg m/r capsules
+djzj.00	ZOMORPH 10mg m/r capsules
+djzi.11	MORPHINE SULPHATE 100mg/50mL injection
+djzi.00	MORPHINE SULFATE 100mg/50mL injection
+djzh.11	MORPHINE SULPHATE 50mg/50mL injection
+djzh.00	MORPHINE SULFATE 50mg/50mL injection
+djzg.00	RAPIJECT MORPHINE SULPHATE 100mg/50mL prefilled syringe
+djzf.00	RAPIJECT MORPHINE SULPHATE 50mg/50mL prefilled syringe
+djze.00	MORPHINE SULPHATE 100mg/50mL prefilled syringe
+djzd.00	MORPHINE SULPHATE 50mg/50mL prefilled syringe
+djzc.00	*MORCAP SR 50mg m/r capsules
+djzb.00	*MORCAP SR 20mg m/r capsules
+djza.00	MORPHINE SULPHATE 50mg m/r capsules
+djzZ.00	MORPHINE SULPHATE 20mg m/r capsules
+djzY.00	*MORCAP SR 100mg m/r capsules
+djzX.00	MXL 200mg m/r capsules
+djzW.00	MXL 150mg m/r capsules
+djzV.00	MXL 120mg m/r capsules
+djzU.00	MXL 90mg m/r capsules
+djzT.00	MXL 60mg m/r capsules
+djzS.00	MXL 30mg m/r capsules
+djzR.11	MORPHINE SULPHATE 200mg m/r capsules
+djzR.00	MORPHINE SULFATE 200mg m/r capsules
+djzQ.11	MORPHINE SULPHATE 150mg m/r capsules
+djzQ.00	MORPHINE SULFATE 150mg m/r capsules
+djzP.11	MORPHINE SULPHATE 120mg m/r capsules
+djzP.00	MORPHINE SULFATE 120mg m/r capsules
+djzO.11	MORPHINE SULPHATE 90mg m/r capsules
+djzO.00	MORPHINE SULFATE 90mg m/r capsules
+djzM.00	SEVREDOL 50mg tablets
+djzL.11	MORPHINE SULPHATE 50mg tablets
+djzL.00	MORPHINE SULFATE 50mg tablets
+djzK.00	*M-ESLON 100mg m/r capsules
+djzJ.00	*M-ESLON 60mg m/r capsules
+djzI.00	*M-ESLON 30mg m/r capsules
+djzH.00	*M-ESLON 10mg m/r capsules
+djzG.11	MORPHINE SULPHATE 100mg m/r capsules
+djzG.00	MORPHINE SULFATE 100mg m/r capsules
+djzF.11	MORPHINE SULPHATE 60mg m/r capsules
+djzF.00	MORPHINE SULFATE 60mg m/r capsules
+djzE.11	MORPHINE SULPHATE 30mg m/r capsules
+djzE.00	MORPHINE SULFATE 30mg m/r capsules
+djzD.11	MORPHINE SULPHATE 10mg m/r capsules
+djzD.00	MORPHINE SULFATE 10mg m/r capsules
+djzC.11	MORPHINE SULPHATE 200mg/sachet m/r granules
+djzC.00	MORPHINE SULFATE 200mg/sachet m/r granules
+djzB.11	MORPHINE SULPHATE 100mg/sachet m/r granules
+djzB.00	MORPHINE SULFATE 100mg/sachet m/r granules
+djzA.11	MORPHINE SULPHATE 60mg/sachet m/r granules
+djzA.00	MORPHINE SULFATE 60mg/sachet m/r granules
+djz9.11	MORPHINE SULPHATE 200mg m/r tablets
+djz9.00	MORPHINE SULFATE 200mg m/r tablets
+djz8.11	MORPHINE SULPHATE 100mg m/r tablets
+djz8.00	MORPHINE SULFATE 100mg m/r tablets
+djz7.11	MORPHINE SULPHATE 60mg m/r tablets
+djz7.00	MORPHINE SULFATE 60mg m/r tablets
+djz6.11	MORPHINE SULPHATE 30mg m/r tablets
+djz6.00	MORPHINE SULFATE 30mg m/r tablets
+djz5.11	MORPHINE SULPHATE 15mg m/r tablets
+djz5.00	MORPHINE SULFATE 15mg m/r tablets
+djz4.11	MORPHINE SULPHATE 10mg m/r tablets
+djz4.00	MORPHINE SULFATE 10mg m/r tablets
+djz3.11	MORPHINE SULPHATE 5mg m/r tablets
+djz3.00	MORPHINE SULFATE 5mg m/r tablets
+djz2.11	MORPHINE SULPHATE 20mg tablets
+djz2.00	MORPHINE SULFATE 20mg tablets
+djz1.11	MORPHINE SULPHATE 10mg tablets
+djz1.00	MORPHINE SULFATE 10mg tablets
+o45..00	MORPHINE SALTS [ANAESTHESIA]
+o458.00	MORPHINE + ATROPINE 10mg injection
+o457.11	MORPHINE SULPHATE 40mg/2mL injection
+o457.00	MORPHINE SULFATE 40mg/2mL injection
+o456.11	MORPHINE SULPHATE 30mg/2mL injection
+o456.00	MORPHINE SULFATE 30mg/2mL injection
+o455.11	MORPHINE SULPHATE 20mg/2mL injection
+o455.00	MORPHINE SULFATE 20mg/2mL injection
+o454.11	MORPHINE SULPHATE 30mg/1mL injection
+o454.00	MORPHINE SULFATE 30mg/1mL injection
+o453.11	MORPHINE SULPHATE 20mg/1mL injection
+o453.00	MORPHINE SULFATE 20mg/1mL injection
+o452.11	MORPHINE SULPHATE 15mg injection
+o452.00	MORPHINE SULFATE 15mg injection
+o451.11	MORPHINE SULPHATE 10mg injection
+o451.00	MORPHINE SULFATE 10mg injection

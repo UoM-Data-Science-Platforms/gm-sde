@@ -1,0 +1,92 @@
+^ESCT1178138	Product containing only clemastine 1 mg/1 each oral tablet
+^ESCT1183203	Product containing only clemastine fumarate 1.34 mg and phenylpropanolamine hydrochloride 75 mg/1 each oral tablet
+^ESCT1187434	Product containing only clemastine fumarate 2.68 mg/1 each oral tablet
+^ESCT1188027	Product containing only clemastine 1.34 mg/1 each oral tablet
+^ESCT1188276	Product containing only clemastine fumarate 0.335 mg and phenylpropanolamine hydrochloride 30 mg and paracetamol 500 mg/1 each oral tablet
+^ESCT1188277	Product containing only clemastine fumarate 0.335 mg and phenylpropanolamine hydrochloride 30 mg and acetaminophen 500 mg/1 each oral tablet
+^ESCT1206448	Clemastine in oral dosage form
+^ESCT1206449	Product containing clemastine in oral dosage form
+^ESCT1206452	Clemastine and phenylpropanolamine in oral dosage form
+^ESCT1206453	Product containing clemastine and phenylpropanolamine in oral dosage form
+^ESCT1206638	Clemastine and paracetamol and phenylpropanolamine product
+^ESCT1206639	Product containing clemastine and paracetamol and phenylpropanolamine
+^ESCT1206640	Acetaminophen and clemastine and phenylpropanolamine product
+^ESCT1206643	Clemastine and paracetamol and phenylpropanolamine in oral dosage form
+^ESCT1206644	Product containing clemastine and paracetamol and phenylpropanolamine in oral dosage form
+^ESCT1206645	Acetaminophen and clemastine and phenylpropanolamine in oral dosage form
+^ESCT1218352	Clemastine
+^ESCT1218353	Clemastine product
+^ESCT1223244	Product containing precisely clemastine 1 milligram/1 each conventional release oral tablet
+^ESCT1226448	Clemastine+phenylpropanolamine
+^ESCT1226449	Clemastine and phenylpropanolamine product
+^ESCT1227599	Product containing precisely clemastine fumarate 2.68 milligram/1 each conventional release oral tablet
+^ESCT1229034	Clemastine fumarate 1.34 mg and phenylpropanolamine hydrochloride 75 mg oral tablet
+^ESCT1229035	Clemastine 1.34 mg and phenylpropanolamine 75 mg oral tablet
+^ESCT1229036	Product containing precisely clemastine 1.34 milligram and phenylpropanolamine 75 milligram/1 each conventional release oral tablet
+^ESCT1230206	Product containing precisely clemastine 1.34 milligram/1 each conventional release oral tablet
+^ESCT1230877	Product containing precisely clemastine fumarate 335 microgram and paracetamol 500 milligram and phenylpropanolamine 30 milligram/1 each conventional release oral tablet
+^ESCT1230878	Clemastine fumarate 335 microgram and paracetamol 500 mg and phenylpropanolamine 30 mg oral tablet
+^ESCT1230879	Acetaminophen 500 mg and clemastine fumarate 335 microgram and phenylpropanolamine 30 mg oral tablet
+^ESCT1354270	Clemastine only product
+^ESCT1354271	Clemastine and paracetamol and phenylpropanolamine only product
+^ESCT1354272	Acetaminophen and clemastine and phenylpropanolamine only product
+^ESCT1354273	Clemastine and phenylpropanolamine only product
+^ESCT1358005	Clemastine and paracetamol and phenylpropanolamine only product in oral dose form
+^ESCT1358006	Acetaminophen and clemastine and phenylpropanolamine only product in oral dose form
+^ESCT1358007	Clemastine and phenylpropanolamine only product in oral dose form
+^ESCT1358008	Clemastine only product in oral dose form
+^ESCT1362939	Clemastine (as clemastine fumarate hydrochloride) 1 mg oral tablet
+^ESCT1364392	Clemastine fumarate 670 microgram and phenylpropanolamine 25 mg oral tablet
+^ESCT1364622	Clemastine fumarate 134 microgram/mL oral solution
+^ESCT1367132	Clemastine 1mg tablets
+^ESCT1367212	Clemastine 500micrograms/5ml oral solution sugar free
+^ESCT1381216	Clemastine- and phenylpropanolamine-containing product
+^ESCT1386285	Clemastine-containing product in oral dose form
+^ESCT1386287	Clemastine- and phenylpropanolamine-containing product in oral dose form
+^ESCT1386377	Clemastine- and paracetamol- and phenylpropanolamine-containing product
+^ESCT1386378	Acetaminophen- and clemastine- and phenylpropanolamine-containing product
+^ESCT1386379	Clemastine- and paracetamol- and phenylpropanolamine-containing product in oral dose form
+^ESCT1386380	Acetaminophen- and clemastine- and phenylpropanolamine-containing product in oral dose form
+^ESCT1410147	Tavegil 1mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410148	Tavegil 1mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1424740	Clemastine 1mg tablets
+^ESCT1424841	Clemastine 500micrograms/5ml oral solution sugar free
+^ESCT1440858	Tavegil 1mg tablets (Thornton & Ross Ltd)
+^ESCT1440859	Tavegil 1mg tablets (Thornton & Ross Ltd) 60 tablet 6 x 10 tablets
+^ESCTCL322929	Clemastine
+^ESCTCL608797	Clemastine+phenylpropanolamine 0.5/25mg tablet
+^ESCTCL608798	Clemastine 1mg tablets
+^ESCTCL608800	Clemastine 1 mg oral tablet
+^ESCTCL608801	Clemastine 500micrograms/5ml oral solution sugar free
+^ESCTCL608802	Clemastine 500micrograms/5mL elixir
+^ESCTCL617664	Clemastine+phenylpropanolamine
+^ESCTCL635933	Clemastine fumarate 0.67mg/5mL syrup
+^ESCTCL635934	Clemastine fumarate 2.68 mg oral tablet
+^ESCTCL642078	Clemastine fumarate 1.34 mg and phenylpropanolamine hydrochloride 75 mg oral tablet
+^ESCTCL670318	Clemastine 1.34 mg oral tablet
+^ESCTCL680354	Clemastine fumarate+phenylpropanolamine hydrochloride+paracetamol
+^ESCTCL680355	Clemastine fumarate+phenylpropanolamine hydrochloride+acetaminophen
+^ESCTCL680358	Clemastine fumarate + phenylpropanolamine hydrochloride + paracetamol 0.335mg/30mg/500mg tablet
+^ESCTCL680361	Clemastine fumarate 0.335 mg and phenylpropanolamine hydrochloride 30 mg and paracetamol 500 mg oral tablet
+^ESCTCL680362	Clemastine fumarate 0.335 mg and phenylpropanolamine hydrochloride 30 mg and acetaminophen 500 mg oral tablet
+^ESCTCL863106	Clemastine 1mg tablets 60 tablet
+^ESCTCL863113	Clemastine 500micrograms/5ml oral solution sugar free 150 ml
+^ESCTPR322930	Product containing clemastine
+^ESCTPR608799	Product containing clemastine 1 mg/1 each oral tablet
+^ESCTPR617665	Product containing clemastine and phenylpropanolamine
+^ESCTPR635935	Product containing clemastine fumarate 2.68 mg/1 each oral tablet
+^ESCTPR642079	Product containing clemastine fumarate 1.34 mg and phenylpropanolamine hydrochloride 75 mg/1 each oral tablet
+^ESCTPR670319	Product containing clemastine 1.34 mg/1 each oral tablet
+^ESCTPR680356	Product containing clemastine fumarate and paracetamol and phenylpropanolamine
+^ESCTPR680357	Product containing acetaminophen and clemastine fumarate and phenylpropanolamine
+^ESCTPR680359	Product containing clemastine fumarate 0.335 mg and phenylpropanolamine hydrochloride 30 mg and acetaminophen 500 mg/1 each oral tablet
+^ESCTPR680360	Product containing clemastine fumarate 0.335 mg and phenylpropanolamine hydrochloride 30 mg and paracetamol 500 mg/1 each oral tablet
+^ESCTTA863108	Tavegil 1mg tablets (GlaxoSmithKline Consumer Healthcare)
+^ESCTTA863110	Tavegil 1mg tablets (GlaxoSmithKline Consumer Healthcare) 60 tablet 6 x 10 tablets
+^ESCTTA863115	Tavegil 500micrograms/5ml elixir (Novartis Consumer Health UK Ltd)
+^ESCTTA863117	Tavegil 500micrograms/5ml elixir (Novartis Consumer Health UK Ltd) 150 ml
+^ESCTTA916635	Tavegil
+CLEL4742	Clemastine  Elixir  Sugar Free 500 micrograms/5 ml
+CLTA4743	Clemastine  Tablets  1 mg
+TAEL4388	Tavegil  Elixir  500 micrograms/5 ml
+TATA4389	Tavegil  Tablets  1 mg
