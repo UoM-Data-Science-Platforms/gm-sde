@@ -10,10 +10,17 @@ Updated with SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.11% - 0.13%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `46% - 47%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2022-06-28 | EMIS            | 2664831    |     2849 (0.11%) |      3013 (0.11%) |
 | 2022-06-28 | TPP             | 212907     |      272 (0.13%) |       314 (0.15%) |
 | 2022-06-28 | Vision          | 343146     |      388 (0.11%) |       398 (0.12%) |
+| 2024-08-15 | EMIS            | 2537886    |  1160525 (45.7%) |   1160525 (45.7%) |
+| 2024-08-15 | TPP             | 202124     |    95548 (47.3%) |     95548 (47.3%) |
+| 2024-08-15 | Vision          | 336422     |   157279 (46.8%) |    157293 (46.8%) |
+
+## Audit log
+
+- Find_missing_codes last run 2024-08-15

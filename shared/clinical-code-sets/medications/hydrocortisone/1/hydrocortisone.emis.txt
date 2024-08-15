@@ -317,3 +317,1756 @@ HYTA3731	Hydrocortone  Tablets  10 mg
 HYTA3732	Hydrocortone  Tablets  20 mg
 PLM/77086NEMIS	Plenadren  M/R tablets  5 mg
 PLM/77087NEMIS	Plenadren  M/R tablets  20 mg
+^ESCT1172613	Softacort
+^ESCT1174357	Nystatin 100,000units/g / Chlorhexidine acetate 1% / Hydrocortisone 1% ointment (Alliance Healthcare (Distribution) Ltd)
+^ESCT1174358	Nystatin 100,000units/g / Chlorhexidine acetate 1% / Hydrocortisone 1% ointment (Alliance Healthcare (Distribution) Ltd) 30 gram
+^ESCT1174359	Nystatin 100,000units/g / Chlorhexidine hydrochloride 1% / Hydrocortisone 0.5% cream (Alliance Healthcare (Distribution) Ltd)
+^ESCT1174360	Nystatin 100,000units/g / Chlorhexidine hydrochloride 1% / Hydrocortisone 0.5% cream (Alliance Healthcare (Distribution) Ltd) 30 gram
+^ESCT1174841	Nystatin 100,000units/g / Chlorhexidine hydrochloride 1% / Hydrocortisone 0.5% cream (A A H Pharmaceuticals Ltd)
+^ESCT1174842	Nystatin 100,000units/g / Chlorhexidine hydrochloride 1% / Hydrocortisone 0.5% cream (A A H Pharmaceuticals Ltd) 30 gram
+^ESCT1174843	Nystatin 100,000units/g / Chlorhexidine acetate 1% / Hydrocortisone 1% ointment (A A H Pharmaceuticals Ltd)
+^ESCT1174844	Nystatin 100,000units/g / Chlorhexidine acetate 1% / Hydrocortisone 1% ointment (A A H Pharmaceuticals Ltd) 30 gram
+^ESCT1175976	Hydrocortisone sodium phosphate 3.35mg/ml eye drops 0.4ml unit dose preservative free 30 unit dose
+^ESCT1175977	Softacort 3.35mg/ml eye drops 0.4ml unit dose (Thea Pharmaceuticals Ltd)
+^ESCT1175978	Softacort 3.35mg/ml eye drops 0.4ml unit dose (Thea Pharmaceuticals Ltd) 30 unit dose 3 x 10 unit doses
+^ESCT1176136	Hydrocortisone sodium phosphate 3.35mg/ml eye drops 0.4ml unit dose preservative free
+^ESCT1176931	Coal tar 10% in Hydrocortisone 1% cream 1 gram
+^ESCT1176932	Coal tar 10% in Hydrocortisone 1% cream (Special Order)
+^ESCT1176933	Coal tar 10% in Hydrocortisone 1% cream (Special Order) 1 gram
+^ESCT1177040	Coal tar + Hydrocortisone
+^ESCT1177082	Coal tar 10% in Hydrocortisone 1% cream
+^ESCT1178326	Product containing only hydrocortisone 5 mg/1 each oral tablet
+^ESCT1178501	Clorquinaldol and hydrocortisone
+^ESCT1178502	Product containing clorquinaldol and hydrocortisone
+^ESCT1178503	Clioquinol and hydrocortisone
+^ESCT1178504	Product containing clioquinol and hydrocortisone
+^ESCT1178505	Crotamiton and hydrocortisone
+^ESCT1178506	Product containing crotamiton and hydrocortisone
+^ESCT1178507	Econazole and hydrocortisone
+^ESCT1178508	Product containing econazole and hydrocortisone
+^ESCT1178509	Econazole + Hydrocortisone
+^ESCT1178510	Product containing hydrocortisone and lidocaine
+^ESCT1178511	Hydrocortisone and lidocaine
+^ESCT1178512	Hydrocortisone and oxytetracycline
+^ESCT1178513	Product containing hydrocortisone and oxytetracycline
+^ESCT1178514	Product containing hydrocortisone and urea
+^ESCT1178515	Hydrocortisone and urea
+^ESCT1178516	Hydrocortisone + Urea
+^ESCT1178867	Acetic acid and hydrocortisone
+^ESCT1178868	Product containing acetic acid and hydrocortisone
+^ESCT1180674	Hydrocortisone acetate 0.5% eye ointment 1 gram
+^ESCT1182459	Gentamicin and hydrocortisone
+^ESCT1182460	Product containing gentamicin and hydrocortisone
+^ESCT1182461	Hydrocortisone and sodium fusidate
+^ESCT1182462	Product containing hydrocortisone and sodium fusidate
+^ESCT1182463	Product containing clotrimazole and hydrocortisone
+^ESCT1182511	Clotrimazole and hydrocortisone
+^ESCT1182512	Hydrocortisone and neomycin
+^ESCT1182513	Product containing hydrocortisone and neomycin
+^ESCT1182514	Hydrocortisone + Neomycin
+^ESCT1182943	Benzoyl peroxide and hydrocortisone
+^ESCT1182944	Product containing benzoyl peroxide and hydrocortisone
+^ESCT1182969	Product containing hydrocortisone and neomycin sulfate and polymyxin B sulfate
+^ESCT1182970	Hydrocortisone and neomycin sulfate and polymyxin B sulfate
+^ESCT1182978	Hydrocortisone and iodoquinol
+^ESCT1182979	Product containing iodoquinol and hydrocortisone
+^ESCT1182980	Diiodohydroxyquinoline and hydrocortisone
+^ESCT1182981	Product containing diiodohydroxyquinoline and hydrocortisone
+^ESCT1183384	Product containing hydrocortisone acetate
+^ESCT1184323	Hydrocortisone acetate 0.5% eye ointment 3 gram
+^ESCT1184348	Hydrocortisone acetate 1% eye drops 10 ml
+^ESCT1185123	Compound F
+^ESCT1185124	Product containing hydrocortisone
+^ESCT1185125	Cortisol
+^ESCT1185198	Product containing hydrocortisone and pramoxine
+^ESCT1185199	Hydrocortisone and pramocaine
+^ESCT1185200	Hydrocortisone and pramoxine
+^ESCT1185201	Product containing hydrocortisone and pramocaine
+^ESCT1185202	Hydrocortisone + Pramocaine
+^ESCT1186448	Hydrocortisone acetate 1% eye drops (A A H Pharmaceuticals Ltd) 10 ml
+^ESCT1187956	Product containing fusidic acid and hydrocortisone
+^ESCT1187957	Fusidic acid and hydrocortisone
+^ESCT1187958	Hydrocortisone and miconazole
+^ESCT1187959	Product containing hydrocortisone and miconazole
+^ESCT1187960	Hydrocortisone + Miconazole
+^ESCT1189545	Hydrocortisone acetate 1% eye drops (A A H Pharmaceuticals Ltd)
+^ESCT1189546	Hydrocortisone acetate 1% eye drops
+^ESCT1194838	Hydrocortisone 1% / Hydroquinone 4% in Aqueous cream
+^ESCT1194839	Hydrocortisone 1% / Hydroquinone 4% in Aqueous cream (Special Order)
+^ESCT1194840	Hydrocortisone 1% / Hydroquinone 4% in Aqueous cream 1 gram
+^ESCT1194841	Hydrocortisone 1% / Hydroquinone 4% in Aqueous cream 50 gram
+^ESCT1194842	Hydrocortisone 1% / Hydroquinone 4% in Aqueous cream (Special Order) 1 gram
+^ESCT1194843	Hydrocortisone 1% / Hydroquinone 4% in Aqueous cream (Special Order) 50 gram
+^ESCT1194845	Hydrocortisone + Hydroquinone
+^ESCT1196195	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Accord Healthcare Ltd)
+^ESCT1196437	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Accord Healthcare Ltd) 20 tablet
+^ESCT1198545	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Actavis UK Ltd)
+^ESCT1198809	Gentamicin + Hydrocortisone
+^ESCT1198926	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Actavis UK Ltd) 20 tablet
+^ESCT1199530	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Accord Healthcare Ltd) 20 tablet
+^ESCT1199545	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Accord Healthcare Ltd)
+^ESCT1204282	Iodoquinol+hydrocortisone 1%/1% conventional release cutaneous cream
+^ESCT1204302	Hydrocortisone butyrate 1 mg/mL cutaneous lotion
+^ESCT1204303	Product containing precisely hydrocortisone butyrate 1 milligram/1 milliliter conventional release cutaneous lotion
+^ESCT1204652	Hydrocortisone 1% + Pramocaine 1% conventional release rectal foam
+^ESCT1206101	Hydrocortisone in oromucosal dosage form
+^ESCT1206102	Product containing hydrocortisone in oromucosal dosage form
+^ESCT1207885	Colistin and hydrocortisone and neomycin product
+^ESCT1207886	Product containing colistin and hydrocortisone and neomycin
+^ESCT1208094	Hydrocortisone and oxytetracycline in cutaneous dosage form
+^ESCT1208095	Product containing hydrocortisone and oxytetracycline in cutaneous dosage form
+^ESCT1208562	Hydrocortisone in cutaneous dosage form
+^ESCT1208563	Product containing hydrocortisone in cutaneous dosage form
+^ESCT1209564	Hydrocortisone (as hydrocortisone sodium phosphate) 100 mg/mL solution for injection ampoule
+^ESCT1209565	Hydrocortisone (as hydrocortisone sodium phosphate) 100 mg/mL solution for injection ampule
+^ESCT1209566	Product containing precisely hydrocortisone (as hydrocortisone sodium phosphate) 100 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209567	Hydrocortisone (as hydrocortisone sodium phosphate) 500 mg/5 mL solution for injection ampoule
+^ESCT1209568	Hydrocortisone (as hydrocortisone sodium phosphate) 500 mg/5 mL solution for injection ampule
+^ESCT1209569	Product containing precisely hydrocortisone (as hydrocortisone sodium phosphate) 500 milligram/5 milliliter conventional release solution for injection ampule
+^ESCT1209570	Hydrocortisone acetate 25 mg/mL suspension for injection ampoule
+^ESCT1209571	Hydrocortisone acetate 25 mg/mL suspension for injection ampule
+^ESCT1209572	Product containing precisely hydrocortisone acetate 25 milligram/1 milliliter conventional release suspension for injection ampule
+^ESCT1212485	Alkindi
+^ESCT1215660	Hydrocortisone 1% / Pramocaine 1% foam enema
+^ESCT1215661	Hydrocortisone acetate 25mg/1ml suspension for injection ampoules
+^ESCT1215662	Hydrocortisone butyrate 0.1% scalp lotion
+^ESCT1215663	Hydrocortisone sodium phosphate 100mg/1ml solution for injection ampoules
+^ESCT1215664	Hydrocortisone sodium phosphate 500mg/5ml solution for injection ampoules
+^ESCT1217107	Hydrocortisone
+^ESCT1217914	Hydrocortisone ophthalmic preparation
+^ESCT1217915	Product containing hydrocortisone in ocular dosage form
+^ESCT1217916	Hydrocortisone in ocular dosage form
+^ESCT1220322	Hydrocortisone nasal preparation
+^ESCT1220323	Product containing hydrocortisone in nasal dosage form
+^ESCT1220324	Hydrocortisone in nasal dosage form
+^ESCT1222676	Product containing precisely hydrocortisone 25 milligram/1 each conventional release rectal suppository
+^ESCT1222677	Hydrocortisone 25 mg rectal suppository
+^ESCT1222680	Product containing precisely hydrocortisone 2 milligram/1 gram and lidocaine hydrochloride 10 milligram/1 gram conventional release cutaneous spray
+^ESCT1222681	Hydrocortisone 2 mg/g and lidocaine hydrochloride 10 mg/g cutaneous spray
+^ESCT1225610	Hydrocortisone acetate 0.5% eye ointment
+^ESCT1225611	Product containing precisely hydrocortisone acetate 5 milligram/1 gram conventional release eye ointment
+^ESCT1225612	Hydrocortisone acetate 5 mg/g eye ointment
+^ESCT1225613	Hydrocortisone acetate 10 mg/g eye ointment
+^ESCT1225614	Product containing precisely hydrocortisone acetate 10 milligram/1 gram conventional release eye ointment
+^ESCT1225615	Product containing precisely hydrocortisone acetate 25 milligram/1 gram conventional release eye ointment
+^ESCT1225616	Hydrocortisone acetate 25 mg/g eye ointment
+^ESCT1225777	Product containing precisely gentamicin (as gentamicin sulfate) 3 milligram/1 milliliter and hydrocortisone acetate 10 milligram/1 milliliter conventional release ear drops
+^ESCT1225778	Gentamicin (as gentamicin sulfate) 3 mg/mL and hydrocortisone acetate 10 mg/mL ear drops
+^ESCT1225781	Hydrocortisone acetate 15 mg/g and neomycin sulfate 5 mg/g ear or eye ointment
+^ESCT1225782	Product containing precisely hydrocortisone acetate 15 milligram/1 gram and neomycin sulfate 5 milligram/1 gram conventional release ear or eye ointment
+^ESCT1225783	Hydrocortisone acetate 15 mg/mL and neomycin sulfate 5 mg/mL ear or eye drops solution
+^ESCT1225784	Product containing precisely hydrocortisone acetate 15 milligram/1 milliliter and neomycin sulfate 5 milligram/1 milliliter conventional release solution for ear or eye drops
+^ESCT1225826	Hydrocortisone (as hydrocortisone sodium succinate) 2.5 mg oromucosal lozenge
+^ESCT1225827	Product containing precisely hydrocortisone (as hydrocortisone sodium succinate) 2.5 milligram/1 each conventional release oromucosal lozenge
+^ESCT1225916	Hydrocortisone 2.5% cream
+^ESCT1225917	Product containing precisely hydrocortisone 25 milligram/1 gram conventional release cutaneous cream
+^ESCT1225918	Hydrocortisone 25 mg/g cutaneous cream
+^ESCT1225919	Hydrocortisone 0.1% cream
+^ESCT1225920	Hydrocortisone 1 mg/g cutaneous cream
+^ESCT1225921	Product containing precisely hydrocortisone 1 milligram/1 gram conventional release cutaneous cream
+^ESCT1225922	Hydrocortisone 2.5% ointment
+^ESCT1225923	Product containing precisely hydrocortisone 25 milligram/1 gram conventional release cutaneous ointment
+^ESCT1225924	Hydrocortisone 25 mg/g cutaneous ointment
+^ESCT1225925	Hydrocortisone acetate 1% ointment
+^ESCT1225926	Product containing precisely hydrocortisone acetate 10 milligram/1 gram conventional release cutaneous ointment
+^ESCT1225927	Hydrocortisone acetate 10 mg/g cutaneous ointment
+^ESCT1225928	Product containing precisely crotamiton 100 milligram/1 gram and hydrocortisone 2.5 milligram/1 gram conventional release cutaneous cream
+^ESCT1225929	Crotamiton 100 mg/g and hydrocortisone 2.5 mg/g cutaneous cream
+^ESCT1225930	Hydrocortisone 10 mg/g and urea 100 mg/g cutaneous cream
+^ESCT1225931	Product containing precisely hydrocortisone 10 milligram/1 gram and urea 100 milligram/1 gram conventional release cutaneous cream
+^ESCT1225932	Product containing precisely clioquinol 30 milligram/1 gram and hydrocortisone 10 milligram/1 gram conventional release cutaneous ointment
+^ESCT1225933	Clioquinol 30 mg/g and hydrocortisone 10 mg/g cutaneous ointment
+^ESCT1225934	Product containing precisely clioquinol 30 milligram/1 gram and hydrocortisone 10 milligram/1 gram conventional release cutaneous cream
+^ESCT1225935	Clioquinol 30 mg/g and hydrocortisone 10 mg/g cutaneous cream
+^ESCT1225936	Hydrocortisone 10 mg/g and oxytetracycline (as oxytetracycline hydrochloride) 30 mg/g cutaneous ointment
+^ESCT1225937	Product containing precisely hydrocortisone 10 milligram/1 gram and oxytetracycline (as oxytetracycline hydrochloride) 30 milligram/1 gram conventional release cutaneous ointment
+^ESCT1225938	Hydrocortisone acetate 10 mg/g and sodium fusidate 20 mg/g cutaneous ointment
+^ESCT1225939	Product containing precisely hydrocortisone acetate 10 milligram/1 gram and sodium fusidate 20 milligram/1 gram conventional release cutaneous ointment
+^ESCT1225940	Fusidic acid 20 mg/g and hydrocortisone acetate 10 mg/g cutaneous cream
+^ESCT1225941	Product containing precisely fusidic acid 20 milligram/1 gram and hydrocortisone acetate 10 milligram/1 gram conventional release cutaneous cream
+^ESCT1225942	Product containing precisely econazole nitrate 10 milligram/1 gram and hydrocortisone 10 milligram/1 gram conventional release cutaneous cream
+^ESCT1225943	Econazole nitrate 10 mg/g and hydrocortisone 10 mg/g cutaneous cream
+^ESCT1225944	Hydrocortisone 10 mg/g and miconazole nitrate 20 mg/g cutaneous ointment
+^ESCT1225945	Product containing precisely hydrocortisone 10 milligram/1 gram and miconazole nitrate 20 milligram/1 gram conventional release cutaneous ointment
+^ESCT1225946	Product containing precisely hydrocortisone 10 milligram/1 gram and miconazole nitrate 20 milligram/1 gram conventional release cutaneous cream
+^ESCT1225947	Hydrocortisone 10 mg/g and miconazole nitrate 20 mg/g cutaneous cream
+^ESCT1225948	Clotrimazole 10 mg/g and hydrocortisone 10 mg/g cutaneous cream
+^ESCT1225949	Product containing precisely clotrimazole 10 milligram/1 gram and hydrocortisone 10 milligram/1 gram conventional release cutaneous cream
+^ESCT1225950	Hydrocortisone acetate 10 mg/g and neomycin sulfate 5 mg/g cutaneous cream
+^ESCT1225951	Product containing precisely hydrocortisone acetate 10 milligram/1 gram and neomycin sulfate 5 milligram/1 gram conventional release cutaneous cream
+^ESCT1226023	Product containing precisely hydrocortisone butyrate 1 milligram/1 gram conventional release cutaneous emulsion
+^ESCT1226024	Hydrocortisone butyrate 1 mg/g cutaneous emulsion
+^ESCT1226025	Clorquinaldol 30 mg/g and hydrocortisone butyrate 1 mg/g cutaneous ointment
+^ESCT1226026	Product containing precisely clorquinaldol 30 milligram/1 gram and hydrocortisone butyrate 1 milligram/1 gram conventional release cutaneous ointment
+^ESCT1226027	Clorquinaldol 30 mg/g and hydrocortisone butyrate 1 mg/g cutaneous cream
+^ESCT1226028	Product containing precisely clorquinaldol 30 milligram/1 gram and hydrocortisone butyrate 1 milligram/1 gram conventional release cutaneous cream
+^ESCT1226029	Hydrocortisone butyrate 0.1% cream
+^ESCT1226030	Product containing precisely hydrocortisone butyrate 1 milligram/1 gram conventional release cutaneous cream
+^ESCT1226031	Hydrocortisone butyrate 1 mg/g cutaneous cream
+^ESCT1226032	Hydrocortisone butyrate 0.1% ointment
+^ESCT1226033	Hydrocortisone butyrate 1 mg/g cutaneous ointment
+^ESCT1226034	Product containing precisely hydrocortisone butyrate 1 milligram/1 gram conventional release cutaneous ointment
+^ESCT1226035	Hydrocortisone acetate 1% cream
+^ESCT1226036	Product containing precisely hydrocortisone acetate 10 milligram/1 gram conventional release cutaneous cream
+^ESCT1226037	Hydrocortisone acetate 10 mg/g cutaneous cream
+^ESCT1226502	Fusidic acid and hydrocortisone product
+^ESCT1226503	Gentamicin and hydrocortisone product
+^ESCT1226504	Hydrocortisone and pramocaine product
+^ESCT1226505	Hydrocortisone and pramoxine product
+^ESCT1226506	Hydrocortisone and sodium fusidate product
+^ESCT1226507	Clorquinaldol and hydrocortisone
+^ESCT1226508	Clorquinaldol and hydrocortisone product
+^ESCT1226509	Hydrocortisone+chloramphenicol
+^ESCT1226510	Product containing chloramphenicol and hydrocortisone
+^ESCT1226511	Chloramphenicol and hydrocortisone product
+^ESCT1226512	Clioquinol and hydrocortisone product
+^ESCT1226513	Clotrimazole and hydrocortisone product
+^ESCT1226514	Crotamiton and hydrocortisone product
+^ESCT1226515	Hydrocortisone+dimethicone '350'
+^ESCT1226516	Product containing dimethicone 350 and hydrocortisone
+^ESCT1226517	Dimethicone 350 and hydrocortisone product
+^ESCT1226518	Econazole and hydrocortisone product
+^ESCT1226519	Hydrocortisone and lidocaine product
+^ESCT1226520	Hydrocortisone and miconazole product
+^ESCT1226521	Hydrocortisone and neomycin product
+^ESCT1226522	Hydrocortisone+nystatin
+^ESCT1226523	Product containing hydrocortisone and nystatin
+^ESCT1226524	Hydrocortisone and nystatin product
+^ESCT1226525	Hydrocortisone and oxytetracycline product
+^ESCT1226526	Product containing hydrocortisone and potassium hydroxyquinoline sulfate
+^ESCT1226527	Hydrocortisone and potassium hydroxyquinoline sulfate product
+^ESCT1226528	Hydrocortisone and urea product
+^ESCT1226611	Hydrocortisone 0.5% cream
+^ESCT1226612	Hydrocortisone 5 mg/g cutaneous cream
+^ESCT1226613	Product containing precisely hydrocortisone 5 milligram/1 gram conventional release cutaneous cream
+^ESCT1226614	Hydrocortisone 1% cream
+^ESCT1226615	Hydrocortisone 10 mg/g cutaneous cream
+^ESCT1226616	Product containing precisely hydrocortisone 10 milligram/1 gram conventional release cutaneous cream
+^ESCT1226694	Hydrocortisone 1% ointment
+^ESCT1226695	Hydrocortisone 10 mg/g cutaneous ointment
+^ESCT1226696	Product containing precisely hydrocortisone 10 milligram/1 gram conventional release cutaneous ointment
+^ESCT1227086	Hydrocortisone 0.5% ointment
+^ESCT1227087	Product containing precisely hydrocortisone 5 milligram/1 gram conventional release cutaneous ointment
+^ESCT1227088	Hydrocortisone 5 mg/g cutaneous ointment
+^ESCT1227748	Product containing precisely hydrocortisone 5 milligram/1 each conventional release oral tablet
+^ESCT1228327	Hydrocortisone 1% lotion
+^ESCT1228328	Hydrocortisone 10 mg/mL cutaneous lotion
+^ESCT1228329	Product containing precisely hydrocortisone 10 milligram/1 milliliter conventional release cutaneous lotion
+^ESCT1229765	Benzoyl peroxide and hydrocortisone
+^ESCT1229766	Benzoyl peroxide and hydrocortisone product
+^ESCT1229922	Hydrocortisone and neomycin sulfate and polymyxin B sulfate
+^ESCT1229923	Hydrocortisone and neomycin sulfate and polymyxin B sulfate product
+^ESCT1229973	Diiodohydroxyquinoline and hydrocortisone product
+^ESCT1229974	Hydrocortisone and iodoquinol product
+^ESCT1232005	Acetic acid and hydrocortisone
+^ESCT1232006	Acetic acid and hydrocortisone product
+^ESCT1233026	Cinchocaine + Hydrocortisone
+^ESCT1233027	Dibucaine and hydrocortisone product
+^ESCT1233028	Product containing cinchocaine and hydrocortisone
+^ESCT1233029	Cinchocaine and hydrocortisone product
+^ESCT1234996	Bacitracin zinc + hydrocortisone + neomycin sulphate + polymyxin b sulphate
+^ESCT1234997	Product containing hydrocortisone and neomycin sulfate and polymyxin B sulfate and zinc bacitracin
+^ESCT1234998	Hydrocortisone and neomycin sulfate and polymyxin B sulfate and zinc bacitracin product
+^ESCT1250168	Gentisone HC ear drops (Advanz Pharma)
+^ESCT1250169	Gentisone HC ear drops (Advanz Pharma) 10 ml
+^ESCT1250183	Hydrocortistab 25mg/1ml suspension for injection ampoules (Advanz Pharma)
+^ESCT1250184	Hydrocortistab 25mg/1ml suspension for injection ampoules (Advanz Pharma) 10 ampoule
+^ESCT1250244	Efcortesol 100mg/1ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250245	Efcortesol 100mg/1ml solution for injection ampoules (Advanz Pharma) 5 ampoule
+^ESCT1250306	Efcortesol 500mg/5ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250307	Efcortesol 500mg/5ml solution for injection ampoules (Advanz Pharma) 5 ampoule
+^ESCT1250791	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (Advanz Pharma)
+^ESCT1250792	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (Advanz Pharma) 10 ml
+^ESCT1250834	Hydrocortisone sodium phosphate 100mg/1ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250835	Hydrocortisone sodium phosphate 100mg/1ml solution for injection ampoules (Advanz Pharma) 5 ampoule
+^ESCT1250836	Hydrocortisone sodium phosphate 500mg/5ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250837	Hydrocortisone sodium phosphate 500mg/5ml solution for injection ampoules (Advanz Pharma) 5 ampoule
+^ESCT1258409	Hydrocortisone 1% cream (Strides Pharma UK Ltd)
+^ESCT1258410	Hydrocortisone 1% cream (Strides Pharma UK Ltd) 15 gram
+^ESCT1258411	Hydrocortisone 1% ointment (Strides Pharma UK Ltd)
+^ESCT1258412	Hydrocortisone 1% ointment (Strides Pharma UK Ltd) 30 gram
+^ESCT1258961	Hydventia
+^ESCT1259128	Plenadren 5mg modified-release tablets (Originalis B.V.)
+^ESCT1259129	Plenadren 5mg modified-release tablets (Originalis B.V.) 50 tablet
+^ESCT1264248	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1264250	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Mawdsley-Brooks & Company Ltd) 20 tablet
+^ESCT1264252	Hydrocortisone 0.5% cream (Mawdsley-Brooks & Company Ltd)
+^ESCT1264253	Hydrocortisone 0.5% cream (Mawdsley-Brooks & Company Ltd) 15 gram
+^ESCT1264258	Hydrocortisone 1% ointment (Mawdsley-Brooks & Company Ltd) 15 gram
+^ESCT1266950	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (DE Pharmaceuticals)
+^ESCT1266952	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (DE Pharmaceuticals) 10 ml
+^ESCT1267487	Colifoam 10% aerosol (CST Pharma Ltd)
+^ESCT1267488	Colifoam 10% aerosol (CST Pharma Ltd) 14 dose
+^ESCT1267988	Plenadren 5mg modified-release tablets (CST Pharma Ltd)
+^ESCT1267989	Plenadren 5mg modified-release tablets (CST Pharma Ltd) 50 tablet
+^ESCT1268224	Colifoam 10% aerosol (Mylan)
+^ESCT1268225	Colifoam 10% aerosol (Mylan) 14 dose
+^ESCT1271349	Mildison Lipocream 1% cream (Karo Pharma)
+^ESCT1271350	Mildison Lipocream 1% cream (Karo Pharma) 30 gram
+^ESCT1274954	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (CST Pharma Ltd)
+^ESCT1274955	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (CST Pharma Ltd) 10 ml
+^ESCT1280934	Eurax Hc cream (Thornton & Ross Ltd)
+^ESCT1280997	Eurax Hc cream (Thornton & Ross Ltd) 15 gram
+^ESCT1306309	Hydrocortisone sodium succinate 100mg powder for solution for injection vials (Panpharma UK Ltd)
+^ESCT1306311	Hydrocortisone sodium succinate 100mg powder for solution for injection vials (Panpharma UK Ltd) 10 vial
+^ESCT1349762	Bacitracin- and hydrocortisone- and neomycin- and polymyxin B-containing product
+^ESCT1349788	Hydrocortisone- and neomycin- and polymyxin B-containing product
+^ESCT1350299	Ciprofloxacin- and hydrocortisone-containing product
+^ESCT1351325	Clioquinol- and hydrocortisone-containing product in cutaneous dose form
+^ESCT1351329	Clorquinaldol- and hydrocortisone-containing product in cutaneous dose form
+^ESCT1351330	Clotrimazole- and hydrocortisone-containing product in cutaneous dose form
+^ESCT1351338	Crotamiton- and hydrocortisone-containing product in cutaneous dose form
+^ESCT1351375	Econazole- and hydrocortisone-containing product in cutaneous dose form
+^ESCT1351422	Fusidic acid- and hydrocortisone-containing product in cutaneous dose form
+^ESCT1351429	Gentamicin- and hydrocortisone-containing product in otic dose form
+^ESCT1351458	Hydrocortisone- and miconazole-containing product in cutaneous dose form
+^ESCT1351459	Hydrocortisone- and urea-containing product in cutaneous dose form
+^ESCT1351460	Hydrocortisone- and lidocaine-containing product in cutaneous dose form
+^ESCT1351461	Hydrocortisone- and neomycin-containing product in cutaneous dose form
+^ESCT1353308	Acetic acid and hydrocortisone only product
+^ESCT1353646	Bacitracin and hydrocortisone and neomycin and polymyxin B only product
+^ESCT1353743	Benzoyl peroxide and hydrocortisone only product
+^ESCT1354119	Chloramphenicol and hydrocortisone only product
+^ESCT1354240	Cinchocaine and hydrocortisone only product
+^ESCT1354241	Dibucaine and hydrocortisone only product
+^ESCT1354253	Ciprofloxacin and hydrocortisone only product
+^ESCT1354285	Clioquinol and hydrocortisone only product
+^ESCT1354313	Clorquinaldol and hydrocortisone only product
+^ESCT1354316	Clotrimazole and hydrocortisone only product
+^ESCT1354375	Colistin and hydrocortisone and neomycin only product
+^ESCT1354410	Crotamiton and hydrocortisone only product
+^ESCT1354623	Diiodohydroxyquinoline and hydrocortisone only product
+^ESCT1354624	Hydrocortisone and iodoquinol only product
+^ESCT1354631	Dimeticone 350 and hydrocortisone only product
+^ESCT1354632	Dimethicone 350 and hydrocortisone only product
+^ESCT1354766	Econazole and hydrocortisone only product
+^ESCT1355139	Fusidic acid and hydrocortisone only product
+^ESCT1355175	Gentamicin and hydrocortisone only product
+^ESCT1355343	Hydrocortisone only product
+^ESCT1355344	Hydrocortisone and lidocaine only product
+^ESCT1355345	Hydrocortisone and miconazole only product
+^ESCT1355346	Hydrocortisone and neomycin only product
+^ESCT1355347	Hydrocortisone and neomycin and polymyxin B only product
+^ESCT1355348	Hydrocortisone and nystatin only product
+^ESCT1355349	Hydrocortisone and oxytetracycline only product
+^ESCT1355350	Hydrocortisone and potassium hydroxyquinoline sulfate only product
+^ESCT1355351	Hydrocortisone and pramocaine only product
+^ESCT1355352	Hydrocortisone and pramoxine only product
+^ESCT1355353	Hydrocortisone and urea only product
+^ESCT1357992	Ciprofloxacin and hydrocortisone only product in otic dose form
+^ESCT1358015	Clioquinol and hydrocortisone only product in cutaneous dose form
+^ESCT1358041	Clorquinaldol and hydrocortisone only product in cutaneous dose form
+^ESCT1358042	Clotrimazole and hydrocortisone only product in cutaneous dose form
+^ESCT1358111	Crotamiton and hydrocortisone only product in cutaneous dose form
+^ESCT1358349	Econazole and hydrocortisone only product in cutaneous dose form
+^ESCT1358632	Fusidic acid and hydrocortisone only product in cutaneous dose form
+^ESCT1358658	Gentamicin and hydrocortisone only product in otic dose form
+^ESCT1358794	Hydrocortisone and lidocaine only product in cutaneous dose form
+^ESCT1358795	Hydrocortisone and miconazole only product in cutaneous dose form
+^ESCT1358796	Hydrocortisone and neomycin only product in cutaneous dose form
+^ESCT1358797	Hydrocortisone and oxytetracycline only product in cutaneous dose form
+^ESCT1358798	Hydrocortisone and urea only product in cutaneous dose form
+^ESCT1358799	Hydrocortisone only product in cutaneous dose form
+^ESCT1358800	Hydrocortisone only product in nasal dose form
+^ESCT1358801	Hydrocortisone only product in ocular dose form
+^ESCT1358802	Hydrocortisone only product in oral dose form
+^ESCT1358803	Hydrocortisone only product in oromucosal dose form
+^ESCT1358804	Hydrocortisone only product in otic dose form
+^ESCT1358805	Hydrocortisone only product in parenteral dose form
+^ESCT1358806	Hydrocortisone only product in rectal dose form
+^ESCT1361101	Hydrocortisone (as hydrocortisone sodium phosphate) 100 mg/mL solution for injection
+^ESCT1361102	Hydrocortisone acetate 25 mg/mL suspension for injection
+^ESCT1364178	Ciprofloxacin 2 mg/mL and hydrocortisone 10 mg/mL ear suspension
+^ESCT1364203	Hydrocortisone 15 mg/mL and neomycin (as neomycin sulfate) 5 mg/mL ear solution
+^ESCT1364204	Hydrocortisone acetate 15 mg/mL and neomycin (as neomycin sulfate) 5 mg/mL eye solution
+^ESCT1364466	Hydrocortisone 25 mg/mL cutaneous cream
+^ESCT1364467	Hydrocortisone 2 mg/mL oral suspension
+^ESCT1364560	Hydrocortisone acetate 2.75 microgram/mg and lidocaine hydrochloride 50 microgram/mg cutaneous ointment
+^ESCT1364612	Hydrocortisone acetate 20 mg/mL cutaneous lotion
+^ESCT1364762	Acetic acid- and hydrocortisone-containing product in otic dose form
+^ESCT1364871	Diiodohydroxyquinoline- and hydrocortisone-containing product in cutaneous dose form
+^ESCT1364872	Hydrocortisone- and iodoquinol-containing product in cutaneous dose form
+^ESCT1364915	Hydrocortisone- and neomycin-containing product in otic dose form
+^ESCT1364916	Hydrocortisone- and pramocaine-containing product in cutaneous dose form
+^ESCT1364917	Hydrocortisone- and pramoxine-containing product in cutaneous dose form
+^ESCT1364918	Hydrocortisone- and neomycin-containing product in ocular dose form
+^ESCT1365041	Hydrocortisone and neomycin only product in otic dose form
+^ESCT1365042	Hydrocortisone and neomycin only product in ocular dose form
+^ESCT1365456	Hydrocortisone 1.67 mg/mL rectal suspension
+^ESCT1365562	Acetic acid and hydrocortisone only product in otic dose form
+^ESCT1365667	Diiodohydroxyquinoline and hydrocortisone only product in cutaneous dose form
+^ESCT1365668	Hydrocortisone and iodoquinol only product in cutaneous dose form
+^ESCT1365706	Hydrocortisone and pramocaine only product in cutaneous dose form
+^ESCT1365707	Hydrocortisone and pramoxine only product in cutaneous dose form
+^ESCT1370628	Hydrocortisone + Sodium fusidate
+^ESCT1370629	Hydrocortisone acetate powder
+^ESCT1373907	Hydrocortisone 1% cream (Strides Pharma UK Ltd) 30 gram
+^ESCT1373908	Hydrocortisone 1% ointment (Strides Pharma UK Ltd) 15 gram
+^ESCT1376051	Hydrocortisone 0.5% cream (Medihealth (Northern) Ltd)
+^ESCT1376052	Hydrocortisone 0.5% cream (Medihealth (Northern) Ltd) 15 gram
+^ESCT1376055	Hydrocortisone 1% cream (Medihealth (Northern) Ltd)
+^ESCT1376056	Hydrocortisone 1% cream (Medihealth (Northern) Ltd) 15 gram
+^ESCT1376057	Hydrocortisone 1% cream (Medihealth (Northern) Ltd) 30 gram
+^ESCT1376058	Hydrocortisone 1% cream (Medihealth (Northern) Ltd) 50 gram
+^ESCT1376069	Hydrocortisone 2.5% ointment (Medihealth (Northern) Ltd)
+^ESCT1376070	Hydrocortisone 2.5% ointment (Medihealth (Northern) Ltd) 15 gram
+^ESCT1376071	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Medihealth (Northern) Ltd)
+^ESCT1376072	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Medihealth (Northern) Ltd) 20 tablet
+^ESCT1376085	Hydrocortisone 1% ointment (Medihealth (Northern) Ltd)
+^ESCT1376087	Hydrocortisone 1% ointment (Medihealth (Northern) Ltd) 15 gram
+^ESCT1376088	Hydrocortisone 1% ointment (Medihealth (Northern) Ltd) 30 gram
+^ESCT1376089	Hydrocortisone 1% ointment (Medihealth (Northern) Ltd) 50 gram
+^ESCT1376090	Hydrocortisone 2.5% cream (Medihealth (Northern) Ltd)
+^ESCT1376091	Hydrocortisone 2.5% cream (Medihealth (Northern) Ltd) 15 gram
+^ESCT1376996	Hydrocortisone-containing product in ocular dose form
+^ESCT1377178	Hydrocortisone-containing product in otic dose form
+^ESCT1378096	Hydrocortisone-containing product in nasal dose form
+^ESCT1381036	Hydrocortisone acetate 25 mg rectal suppository
+^ESCT1381103	Hydrocortisone 100 mg powder for solution for injection vial
+^ESCT1381234	Clorquinaldol- and hydrocortisone-containing product
+^ESCT1381235	Chloramphenicol- and hydrocortisone-containing product
+^ESCT1381236	Dimethicone 350- and hydrocortisone-containing product
+^ESCT1381237	Hydrocortisone- and nystatin-containing product
+^ESCT1381238	Hydrocortisone- and potassium hydroxyquinoline sulfate-containing product
+^ESCT1381443	Hydrocortisone-containing product in rectal dose form
+^ESCT1381444	Hydrocortisone-containing product in parenteral dose form
+^ESCT1381445	Hydrocortisone-containing product in oral dose form
+^ESCT1381746	Hydrocortisone buteprate 1 mg/mL cutaneous cream
+^ESCT1381779	Hydrocortisone 5 mg/mL cutaneous lotion
+^ESCT1381785	Hydrocortisone butyrate 1 mg/mL cutaneous solution
+^ESCT1381794	Hydrocortisone 10 mg/mL eye solution
+^ESCT1381892	Hydrocortisone valerate 2 microgram/mg cutaneous ointment
+^ESCT1381894	Hydrocortisone valerate 2 mg/mL cutaneous cream
+^ESCT1381951	Hydrocortisone 25 mg/mL cutaneous lotion
+^ESCT1381982	Acetic acid 20 mg/mL and hydrocortisone 10 mg/mL ear solution
+^ESCT1381985	Hydrocortisone acetate 10 mg/mL and pramocaine hydrochloride 10 mg/mL cutaneous cream
+^ESCT1381986	Hydrocortisone acetate 10 mg/mL and pramoxine hydrochloride 10 mg/mL cutaneous cream
+^ESCT1381987	Hydrocortisone acetate 25 mg/mL and pramocaine hydrochloride 10 mg/mL cutaneous cream
+^ESCT1381988	Hydrocortisone acetate 25 mg/mL and pramoxine hydrochloride 10 mg/mL cutaneous cream
+^ESCT1382262	Benzoyl peroxide- and hydrocortisone-containing product
+^ESCT1382315	Diiodohydroxyquinoline- and hydrocortisone-containing product
+^ESCT1382316	Hydrocortisone- and iodoquinol-containing product
+^ESCT1382586	Hydrocortisone acetate 20 mg/mL cutaneous cream
+^ESCT1383007	Acetic acid- and hydrocortisone-containing product
+^ESCT1384851	Ciprofloxacin- and hydrocortisone-containing product in otic dose form
+^ESCT1385892	Diiodohydroxyquinoline 10 mg/mL and hydrocortisone 10 mg/mL cutaneous cream
+^ESCT1385893	Hydrocortisone 10 mg/mL and iodoquinol 10 mg/mL cutaneous cream
+^ESCT1386125	Hydrocortisone-containing product in oromucosal dose form
+^ESCT1386923	Colistin- and hydrocortisone- and neomycin-containing product
+^ESCT1386990	Hydrocortisone- and oxytetracycline-containing product in cutaneous dose form
+^ESCT1387079	Hydrocortisone-containing product in cutaneous dose form
+^ESCT1407861	Dimeticone 350- and hydrocortisone-containing product
+^ESCT1409601	Hydrocortisone 0.5% cream (Accord Healthcare Ltd)
+^ESCT1409730	Hydrocortisone 1% cream (Accord Healthcare Ltd)
+^ESCT1409875	Hydrocortisone 1% cream (Accord Healthcare Ltd) 15 gram
+^ESCT1409876	Hydrocortisone 1% cream (Accord Healthcare Ltd) 30 gram
+^ESCT1409877	Hydrocortisone 1% cream (Accord Healthcare Ltd) 50 gram
+^ESCT1409878	Hydrocortisone 0.5% cream (Accord Healthcare Ltd) 15 gram
+^ESCT1421830	Locoid 0.1% ointment (Neon Healthcare Ltd)
+^ESCT1421944	Locoid 0.1% ointment (Neon Healthcare Ltd) 30 gram
+^ESCT1421945	Locoid 0.1% ointment (Neon Healthcare Ltd) 100 gram
+^ESCT1421984	Locoid 0.1% cream (Neon Healthcare Ltd)
+^ESCT1421985	Locoid 0.1% cream (Neon Healthcare Ltd) 30 gram
+^ESCT1421986	Locoid 0.1% cream (Neon Healthcare Ltd) 100 gram
+^ESCT1421987	Locoid 0.1% Lipocream (Neon Healthcare Ltd)
+^ESCT1421988	Locoid 0.1% Lipocream (Neon Healthcare Ltd) 30 gram
+^ESCT1421989	Locoid 0.1% Lipocream (Neon Healthcare Ltd) 100 gram
+^ESCT1422005	Locoid 0.1% scalp lotion (Neon Healthcare Ltd)
+^ESCT1422006	Locoid 0.1% scalp lotion (Neon Healthcare Ltd) 100 ml
+^ESCT1422016	Locoid Crelo 0.1% topical emulsion (Neon Healthcare Ltd)
+^ESCT1422017	Locoid Crelo 0.1% topical emulsion (Neon Healthcare Ltd) 100 gram
+^ESCT1425003	Hydrocortisone acetate powder
+^ESCT1425587	Hydrocortisone 2.5% cream (Kent Pharma (UK) Ltd)
+^ESCT1425600	Hydrocortisone 0.5% cream (Kent Pharma (UK) Ltd)
+^ESCT1425732	Hydrocortisone 1% cream (Kent Pharma (UK) Ltd)
+^ESCT1426178	Hydrocortisone 1% cream (Kent Pharma (UK) Ltd) 15 gram
+^ESCT1426179	Hydrocortisone 1% cream (Kent Pharma (UK) Ltd) 30 gram
+^ESCT1426180	Hydrocortisone 1% cream (Kent Pharma (UK) Ltd) 50 gram
+^ESCT1426183	Hydrocortisone 0.5% cream (Kent Pharma (UK) Ltd) 15 gram
+^ESCT1426190	Hydrocortisone 2.5% cream (Kent Pharma (UK) Ltd) 15 gram
+^ESCT1426538	Hydrocortisone 0.5% ointment (Kent Pharma (UK) Ltd) 15 gram
+^ESCT1426539	Hydrocortisone 1% ointment (Kent Pharma (UK) Ltd) 15 gram
+^ESCT1426540	Hydrocortisone 1% ointment (Kent Pharma (UK) Ltd) 30 gram
+^ESCT1426541	Hydrocortisone 1% ointment (Kent Pharma (UK) Ltd) 50 gram
+^ESCT1426542	Hydrocortisone 2.5% ointment (Kent Pharma (UK) Ltd) 15 gram
+^ESCT1426586	Hydrocortisone 1% ointment (Kent Pharma (UK) Ltd)
+^ESCT1426587	Hydrocortisone 0.5% ointment (Kent Pharma (UK) Ltd)
+^ESCT1426590	Hydrocortisone 2.5% ointment (Kent Pharma (UK) Ltd)
+^ESCT1429133	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (Medihealth (Northern) Ltd)
+^ESCT1429134	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (Medihealth (Northern) Ltd) 10 ml
+^ESCT1430790	Efmody
+^ESCT1431254	Hydrocortisone 5mg modified-release capsules 50 capsule
+^ESCT1431255	Efmody 5mg modified-release capsules (Diurnal Ltd)
+^ESCT1431256	Efmody 5mg modified-release capsules (Diurnal Ltd) 50 capsule
+^ESCT1431262	Hydrocortisone 10mg modified-release capsules 50 capsule
+^ESCT1431263	Efmody 10mg modified-release capsules (Diurnal Ltd)
+^ESCT1431265	Efmody 10mg modified-release capsules (Diurnal Ltd) 50 capsule
+^ESCT1431572	Hydrocortisone 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1431573	Hydrocortisone 5mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1431574	Hydrocortisone 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1431575	Hydrocortisone 15mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1431581	Hydrocortisone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1431582	Hydrocortisone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1431658	Hydrocortisone 10mg modified-release capsules
+^ESCT1431659	Hydrocortisone 5mg modified-release capsules
+^ESCT1433784	Hydrocortisone 10mg tablets (Dexcel-Pharma Ltd)
+^ESCT1433785	Hydrocortisone 10mg tablets (Dexcel-Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1434565	Hydrocortisone 0.5% ointment (Medihealth (Northern) Ltd)
+^ESCT1434566	Hydrocortisone 0.5% ointment (Medihealth (Northern) Ltd) 15 gram
+^ESCT1434894	Terra-Cortril ointment (Esteve Pharmaceuticals Ltd)
+^ESCT1434895	Terra-Cortril ointment (Esteve Pharmaceuticals Ltd) 30 gram
+^ESCT1437541	Colifoam 10% aerosol (Viatris UK Healthcare Ltd)
+^ESCT1437542	Colifoam 10% aerosol (Viatris UK Healthcare Ltd) 14 dose
+^ESCT1439661	Hydrocortisone 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1439664	Hydrocortisone 2.5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1439667	Hydrocortisone 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1439670	Hydrocortisone 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1439672	Hydrocortisone 15mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1439673	Hydrocortisone 15mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTAC642371	Acetic acid+hydrocortisone 2%vv/1%wv solution
+^ESCTAC642376	Acetic acid, glacial+hydrocortisone 2%vv/1%wv solution
+^ESCTAC866470	Actinac lotion (Peckforton Pharmaceuticals Ltd)
+^ESCTAL858097	Alphaderm 1%/10% cream (Alliance Pharmaceuticals Ltd)
+^ESCTAL858101	Alphaderm 1%/10% cream (Alliance Pharmaceuticals Ltd) 30 gram
+^ESCTAL858103	Alphaderm 1%/10% cream (Alliance Pharmaceuticals Ltd) 100 gram
+^ESCTBA719937	Bacitracin zinc + hydrocortisone + neomycin sulphate + polymyxin b sulphate
+^ESCTBA719938	Bacitracin zinc + hydrocortisone + neomycin sulfate + polymyxin b sulfate
+^ESCTBE641953	Benzoyl peroxide+hydrocortisone 50mg/5mg lotion
+^ESCTBE660881	Benzoyl peroxide + hydrocortisone
+^ESCTBO1030059	Boots Bite and Sting Relief Hydrocortisone 1% cream (The Boots Company Plc)
+^ESCTBO1030060	Boots Bite and Sting Relief Hydrocortisone 1% cream (The Boots Company Plc) 10 gram
+^ESCTBO1128293	Boots Derma Care Hydrocortisone 1% ointment (The Boots Company Plc)
+^ESCTBO1128294	Boots Derma Care Hydrocortisone 1% ointment (The Boots Company Plc) 15 gram
+^ESCTCA1012417	Canesten HC cream (Mawdsley-Brooks & Company Ltd)
+^ESCTCA1012419	Canesten HC cream (Mawdsley-Brooks & Company Ltd) 30 gram
+^ESCTCA1020913	Canesten HC cream (DE Pharmaceuticals)
+^ESCTCA1020914	Canesten HC cream (DE Pharmaceuticals) 30 gram
+^ESCTCA1042240	Canesten HC cream (Waymade Healthcare Plc)
+^ESCTCA1042241	Canesten HC cream (Waymade Healthcare Plc) 30 gram
+^ESCTCA1121369	Canesten HC cream (Lexon (UK) Ltd)
+^ESCTCA1121370	Canesten HC cream (Lexon (UK) Ltd) 30 gram
+^ESCTCA803920	Canesten HC cream (Bayer Plc)
+^ESCTCA819127	Canesten Hydrocortisone cream (Bayer Plc)
+^ESCTCA819847	Calmurid HC cream (Galderma (UK) Ltd)
+^ESCTCA851087	Canesten Hydrocortisone cream (Bayer Plc) 15 gram
+^ESCTCA851090	Canesten HC cream (Bayer Plc) 30 gram
+^ESCTCA920256	Canesten Hydrocortisone
+^ESCTCH1158162	Chlorquinaldol + Hydrocortisone butyrate
+^ESCTCH616154	Chlorquinaldol 3% / Hydrocortisone butyrate 0.1% ointment
+^ESCTCH616156	Chlorquinaldol 3% / Hydrocortisone butyrate 0.1% cream
+^ESCTCH617786	Chlorquinaldol + Hydrocortisone
+^ESCTCH617789	Chloramphenicol + hydrocortisone
+^ESCTCH642024	Chloroxylenol+hydrocortisone+pramoxine hydrochloride 1mg/10mg/10mg drops
+^ESCTCH661240	Chloroxylenol + hydrocortisone + pramoxine hydrochloride
+^ESCTCH835734	Chlorquinaldol 3% / Hydrocortisone butyrate 0.1% cream 30 gram
+^ESCTCH869401	Chlorquinaldol 3% / Hydrocortisone butyrate 0.1% ointment 30 gram
+^ESCTCI1090801	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment (Icarus Pharmaceuticals Ltd)
+^ESCTCI1090803	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment (Icarus Pharmaceuticals Ltd) 30 gram
+^ESCTCI1090842	Cinchocaine 5mg / Hydrocortisone 5mg suppositories (Icarus Pharmaceuticals Ltd)
+^ESCTCI1090848	Cinchocaine 5mg / Hydrocortisone 5mg suppositories (Icarus Pharmaceuticals Ltd) 12 suppository
+^ESCTCI1107757	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment (Ennogen Healthcare Ltd)
+^ESCTCI1107758	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment (Ennogen Healthcare Ltd) 30 gram
+^ESCTCI1107759	Cinchocaine 5mg / Hydrocortisone 5mg suppositories (Ennogen Healthcare Ltd)
+^ESCTCI1107760	Cinchocaine 5mg / Hydrocortisone 5mg suppositories (Ennogen Healthcare Ltd) 12 suppository
+^ESCTCI1118186	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment (Colorama Pharmaceuticals Ltd)
+^ESCTCI1118187	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment (Colorama Pharmaceuticals Ltd) 30 gram
+^ESCTCI1126121	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment (AM Distributions (Yorkshire) Ltd)
+^ESCTCI1126122	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment (AM Distributions (Yorkshire) Ltd) 30 gram
+^ESCTCI1126123	Cinchocaine 5mg / Hydrocortisone 5mg suppositories (AM Distributions (Yorkshire) Ltd)
+^ESCTCI1126124	Cinchocaine 5mg / Hydrocortisone 5mg suppositories (AM Distributions (Yorkshire) Ltd) 12 suppository
+^ESCTCI1131654	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment (J M McGill Ltd)
+^ESCTCI1131656	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment (J M McGill Ltd) 30 gram
+^ESCTCI1131659	Cinchocaine 5mg / Hydrocortisone 5mg suppositories (J M McGill Ltd)
+^ESCTCI1131661	Cinchocaine 5mg / Hydrocortisone 5mg suppositories (J M McGill Ltd) 12 suppository
+^ESCTCI1139878	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment (Niche Pharma Ltd)
+^ESCTCI1139880	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment (Niche Pharma Ltd) 30 gram
+^ESCTCI1139895	Cinchocaine 5mg / Hydrocortisone 5mg suppositories (Niche Pharma Ltd)
+^ESCTCI1139898	Cinchocaine 5mg / Hydrocortisone 5mg suppositories (Niche Pharma Ltd) 12 suppository
+^ESCTCI1142119	Cinchocaine 5mg / Hydrocortisone 5mg suppositories (Colorama Pharmaceuticals Ltd)
+^ESCTCI1142121	Cinchocaine 5mg / Hydrocortisone 5mg suppositories (Colorama Pharmaceuticals Ltd) 12 suppository
+^ESCTCI661307	Ciprofloxacin 0.2% + hydrocortisone 1% otic solution
+^ESCTCI694952	Cinchocaine + Hydrocortisone
+^ESCTCI694954	Cinchocaine + hydrocortisone
+^ESCTCI770950	Ciprofloxacin and hydrocortisone in otic dosage form
+^ESCTCI835002	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment 30 gram
+^ESCTCI848391	Cinchocaine 5mg / Hydrocortisone 5mg suppositories 12 suppository
+^ESCTCI861148	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment
+^ESCTCI861149	Cinchocaine 5mg / Hydrocortisone 5mg suppositories
+^ESCTCL1045305	Clindamycin 2% / Hydrocortisone 1% in Aqueous cream 1 gram
+^ESCTCL1045306	Clindamycin 2% / Hydrocortisone 1% in Aqueous cream (Special Order)
+^ESCTCL1045307	Clindamycin 2% / Hydrocortisone 1% in Aqueous cream (Special Order) 1 gram
+^ESCTCL1045446	Clindamycin + Hydrocortisone
+^ESCTCL1045499	Clindamycin 2% / Hydrocortisone 1% in Aqueous cream
+^ESCTCL616036	Clioquinol+hydrocortisone 3%/1% ointment
+^ESCTCL616037	Clioquinol 3% / Hydrocortisone 1% ointment
+^ESCTCL616038	Clioquinol 3% / Hydrocortisone 1% cream
+^ESCTCL616040	Clioquinol+hydrocortisone 3%/1% cream
+^ESCTCL616059	Clotrimazole 1% / Hydrocortisone 1% cream
+^ESCTCL617792	Clioquinol + Hydrocortisone
+^ESCTCL617795	Clotrimazole + Hydrocortisone
+^ESCTCL635872	Clioquinol+hydrocortisone 3%/0.5% cream
+^ESCTCL642080	Clioquinol+hydrocortisone+pramoxine hydrochloride 3%ww/1%ww/0.5%ww
+^ESCTCL642081	Clioquinol+hydrocortisone 3%ww/0.5%ww cream
+^ESCTCL642082	Clioquinol+hydrocortisone 3%ww/0.5%ww lotion
+^ESCTCL661471	Clioquinol + hydrocortisone + pramoxine hydrochloride
+^ESCTCL838024	Clioquinol 3% / Hydrocortisone 1% cream 30 gram
+^ESCTCO1008686	Colifoam 10% aerosol (Necessity Supplies Ltd)
+^ESCTCO1008687	Colifoam 10% aerosol (Necessity Supplies Ltd) 14 dose
+^ESCTCO1011869	Colifoam 10% aerosol (DE Pharmaceuticals)
+^ESCTCO1011870	Colifoam 10% aerosol (DE Pharmaceuticals) 14 dose
+^ESCTCO1127908	Coal tar solution 12% / Salicylic acid 2% in Hydrocortisone 1% ointment 1 gram
+^ESCTCO1127911	Coal tar solution 12% / Salicylic acid 2% in Hydrocortisone 1% ointment (Special Order)
+^ESCTCO1127916	Coal tar solution 12% / Salicylic acid 2% in Hydrocortisone 1% ointment (Special Order) 1 gram
+^ESCTCO1127925	Coal tar + Salicylic acid + Hydrocortisone
+^ESCTCO1127926	Coal tar solution 12% / Salicylic acid 2% in Hydrocortisone 1% ointment
+^ESCTCO276314	Compound F preparation
+^ESCTCO276315	Cortisol preparation
+^ESCTCO276318	Cortisol product
+^ESCTCO661129	Colistin sulphate + hydrocortisone acetate + neomycin sulphate
+^ESCTCO661130	Colistin sulfate + hydrocortisone acetate + neomycin sulfate
+^ESCTCO858977	Colifoam 10% aerosol (Meda Pharmaceuticals Ltd)
+^ESCTCO858978	Colifoam 10% aerosol (Meda Pharmaceuticals Ltd) 14 dose
+^ESCTCO859240	Corlan 2.5mg Pellets (Auden McKenzie (Pharma Division) Ltd)
+^ESCTCO859241	Corlan 2.5mg Pellets (Auden McKenzie (Pharma Division) Ltd) 20 tablet
+^ESCTCO914497	Colifoam
+^ESCTCO992684	Colifoam 10% aerosol (Mawdsley-Brooks & Company Ltd)
+^ESCTCO992686	Colifoam 10% aerosol (Mawdsley-Brooks & Company Ltd) 14 dose
+^ESCTCO993261	Colifoam 10% aerosol (Waymade Healthcare Plc)
+^ESCTCO993262	Colifoam 10% aerosol (Waymade Healthcare Plc) 14 dose
+^ESCTCR616030	Crotamiton 10% / Hydrocortisone 0.25% cream
+^ESCTCR617798	Crotamiton + Hydrocortisone
+^ESCTDA808473	Daktacort ointment (Janssen-Cilag Ltd)
+^ESCTDA809554	Daktacort Hydrocortisone cream (McNeil Products Ltd)
+^ESCTDA829624	Daktacort 2%/1% cream (Janssen-Cilag Ltd)
+^ESCTDA854370	Daktacort ointment (Janssen-Cilag Ltd) 30 gram
+^ESCTDA854407	Daktacort 2%/1% cream (Janssen-Cilag Ltd) 30 gram
+^ESCTDA854425	Daktacort Hydrocortisone cream (McNeil Products Ltd) 15 gram
+^ESCTDA933379	Daktacort Hydrocortisone cream (Waymade Healthcare Plc)
+^ESCTDA933380	Daktacort Hydrocortisone cream (Waymade Healthcare Plc) 15 gram
+^ESCTDA936328	Daktacort 2%/1% cream (Waymade Healthcare Plc)
+^ESCTDA936329	Daktacort 2%/1% cream (Waymade Healthcare Plc) 30 gram
+^ESCTDA936331	Daktacort ointment (Waymade Healthcare Plc)
+^ESCTDA936333	Daktacort ointment (Waymade Healthcare Plc) 30 gram
+^ESCTDA966519	Daktacort Hydrocortisone cream (DE Pharmaceuticals)
+^ESCTDA966520	Daktacort Hydrocortisone cream (DE Pharmaceuticals) 15 gram
+^ESCTDA969949	Daktacort 2%/1% cream (Sigma Pharmaceuticals Plc)
+^ESCTDA969951	Daktacort 2%/1% cream (Sigma Pharmaceuticals Plc) 30 gram
+^ESCTDA969953	Daktacort Hydrocortisone cream (Sigma Pharmaceuticals Plc)
+^ESCTDA969955	Daktacort Hydrocortisone cream (Sigma Pharmaceuticals Plc) 15 gram
+^ESCTDE1010414	Derma Care Hydrocortisone 1% cream (The Boots Company Plc)
+^ESCTDE1010415	Derma Care Hydrocortisone 1% cream (The Boots Company Plc) 15 gram
+^ESCTDE1087956	Dermacort hydrocortisone 0.1% cream (Waymade Healthcare Plc)
+^ESCTDE1087957	Dermacort hydrocortisone 0.1% cream (Waymade Healthcare Plc) 15 gram
+^ESCTDE804845	Dermacort hydrocortisone 0.1% cream (Marlborough Pharmaceuticals Ltd)
+^ESCTDE851186	Dermacort hydrocortisone 0.1% cream (Marlborough Pharmaceuticals Ltd) 15 gram
+^ESCTDE914738	Dermacort
+^ESCTDE931977	Derma Care Hydrocortisone
+^ESCTDI694953	Dibucaine + hydrocortisone
+^ESCTDI820708	Dioderm 0.1% cream (Dermal Laboratories Ltd)
+^ESCTDI851185	Dioderm 0.1% cream (Dermal Laboratories Ltd) 30 gram
+^ESCTDI914858	Dioderm
+^ESCTEC616049	Econazole 1% / Hydrocortisone 1% cream
+^ESCTEC617801	Econazole + Hydrocortisone
+^ESCTEC820977	Econacort cream (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTEC847665	Econazole 1% / Hydrocortisone 1% cream 30 gram
+^ESCTEC856606	Econacort cream (Bristol-Myers Squibb Pharmaceuticals Ltd) 30 gram
+^ESCTEF804754	Efcortelan 0.5% cream (Chemidex Pharma Ltd)
+^ESCTEF816059	Efcortelan 2.5% cream (GlaxoSmithKline UK Ltd)
+^ESCTEF820175	Efcortelan 1% cream (Chemidex Pharma Ltd)
+^ESCTEF851072	Efcortelan 1% cream (Chemidex Pharma Ltd) 30 gram
+^ESCTEF851100	Efcortelan 0.5% cream (Chemidex Pharma Ltd) 30 gram
+^ESCTEF851160	Efcortelan 2.5% cream (GlaxoSmithKline UK Ltd) 30 gram
+^ESCTEF858086	Efcortelan 0.5% ointment (Chemidex Pharma Ltd)
+^ESCTEF858087	Efcortelan 0.5% ointment (Chemidex Pharma Ltd) 30 gram
+^ESCTEF858114	Efcortelan 1% ointment (Chemidex Pharma Ltd)
+^ESCTEF858115	Efcortelan 1% ointment (Chemidex Pharma Ltd) 30 gram
+^ESCTEF858127	Efcortelan 2.5% ointment (Chemidex Pharma Ltd)
+^ESCTEF858129	Efcortelan 2.5% ointment (Chemidex Pharma Ltd) 30 gram
+^ESCTEF864984	Efcortesol 100mg/1ml solution for injection ampoules (AMCo)
+^ESCTEF864987	Efcortesol 100mg/1ml solution for injection ampoules (AMCo) 5 ampoule
+^ESCTEF873677	Efcortesol 500mg/5ml solution for injection ampoules (AMCo)
+^ESCTEF873678	Efcortesol 500mg/5ml solution for injection ampoules (AMCo) 5 ampoule
+^ESCTEF915003	Efcortelan
+^ESCTEF915005	Efcortesol
+^ESCTEU805206	Eurax Hc cream (GlaxoSmithKline Consumer Healthcare)
+^ESCTEU820713	Eurax Hydrocortisone cream (Novartis Consumer Health UK Ltd)
+^ESCTEU855138	Eurax Hydrocortisone cream (Novartis Consumer Health UK Ltd) 30 gram
+^ESCTEU855139	Eurax Hc cream (GlaxoSmithKline Consumer Healthcare) 15 gram
+^ESCTEU919663	Eurax Hydrocortisone
+^ESCTEX878513	Exe-Cort Hydrocortisone 1% cream (Nucare Plc)
+^ESCTEX878514	Exe-Cort Hydrocortisone 1% cream (Nucare Plc) 15 gram
+^ESCTEX918783	Exe-Cort Hydrocortisone
+^ESCTFU616048	Fusidic acid 2% / Hydrocortisone acetate 1% cream
+^ESCTFU617777	Fusidic acid + hydrocortisone
+^ESCTFU857910	Fucidin H cream (LEO Pharma)
+^ESCTFU857911	Fucidin H cream (LEO Pharma) 30 gram
+^ESCTFU857912	Fucidin H cream (LEO Pharma) 60 gram
+^ESCTFU857915	Fucidin H ointment (LEO Pharma)
+^ESCTFU857916	Fucidin H ointment (LEO Pharma) 30 gram
+^ESCTFU857917	Fucidin H ointment (LEO Pharma) 60 gram
+^ESCTFU924420	Fucidin H (Fusidic acid / Hydrocortisone)
+^ESCTFU924421	Fucidin H (Hydrocortisone / Sodium fusidate)
+^ESCTGE1107942	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (AMCo)
+^ESCTGE1107943	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (AMCo) 10 ml
+^ESCTGE1109557	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (Alliance Healthcare (Distribution) Ltd)
+^ESCTGE1109558	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (Alliance Healthcare (Distribution) Ltd) 10 ml
+^ESCTGE615776	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops
+^ESCTGE615777	Gentamicin+hydrocortisone acetate 0.3%/1% ear drops
+^ESCTGE617780	Gentamicin + hydrocortisone
+^ESCTGE857977	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops 10 ml
+^ESCTGE857979	Gentisone HC ear drops (AMCo)
+^ESCTGE857981	Gentisone HC ear drops (AMCo) 10 ml
+^ESCTGE862449	Generic Otosporin ear drops
+^ESCTGE864756	Germoloids HC spray (Bayer Plc)
+^ESCTGE864759	Germoloids HC spray (Bayer Plc) 30 ml
+^ESCTGE866135	Generic Gregoderm ointment 15 gram
+^ESCTGE866363	Generic Gregoderm ointment
+^ESCTGE918837	Gentisone HC
+^ESCTGR866137	Gregoderm ointment (Unigreg Ltd)
+^ESCTGR866139	Gregoderm ointment (Unigreg Ltd) 15 gram
+^ESCTGR918467	Gregoderm
+^ESCTHC276316	HC - Hydrocortisone
+^ESCTHC873995	Hc45 Hydrocortisone 1% cream (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTHC873996	Hc45 Hydrocortisone 1% cream (Reckitt Benckiser Healthcare (UK) Ltd) 15 gram
+^ESCTHC923161	Hc45
+^ESCTHE642386	Hexachlorophene+hydrocortisone+menthol 5mg/5mg/1.25mg topical cream
+^ESCTHE642387	Hexachlorophene + hydrocortisone + menthol 5mg/5mg/1.25mg topical cream
+^ESCTHY1002494	Hydrocortisone 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHY1002496	Hydrocortisone 10mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTHY1005469	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Actavis UK Ltd)
+^ESCTHY1005470	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Actavis UK Ltd) 20 tablet
+^ESCTHY1005928	Hydrocortisone 0.5% cream (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1005930	Hydrocortisone 0.5% cream (Phoenix Healthcare Distribution Ltd) 15 gram
+^ESCTHY1005931	Hydrocortisone 1% cream (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1005934	Hydrocortisone 1% cream (Phoenix Healthcare Distribution Ltd) 15 gram
+^ESCTHY1005936	Hydrocortisone 1% cream (Phoenix Healthcare Distribution Ltd) 30 gram
+^ESCTHY1005938	Hydrocortisone 1% cream (Phoenix Healthcare Distribution Ltd) 50 gram
+^ESCTHY1005940	Hydrocortisone 2.5% cream (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1005942	Hydrocortisone 2.5% cream (Phoenix Healthcare Distribution Ltd) 15 gram
+^ESCTHY1005944	Hydrocortisone 2.5% cream (Phoenix Healthcare Distribution Ltd) 30 gram
+^ESCTHY1005945	Hydrocortisone 0.5% ointment (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1005946	Hydrocortisone 0.5% ointment (Phoenix Healthcare Distribution Ltd) 15 gram
+^ESCTHY1005947	Hydrocortisone 1% ointment (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1005948	Hydrocortisone 1% ointment (Phoenix Healthcare Distribution Ltd) 15 gram
+^ESCTHY1005949	Hydrocortisone 1% ointment (Phoenix Healthcare Distribution Ltd) 30 gram
+^ESCTHY1005950	Hydrocortisone 1% ointment (Phoenix Healthcare Distribution Ltd) 50 gram
+^ESCTHY1005951	Hydrocortisone 2.5% ointment (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1005952	Hydrocortisone 2.5% ointment (Phoenix Healthcare Distribution Ltd) 15 gram
+^ESCTHY1005953	Hydrocortisone 2.5% ointment (Phoenix Healthcare Distribution Ltd) 30 gram
+^ESCTHY1006954	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY1006955	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Alliance Healthcare (Distribution) Ltd) 20 tablet
+^ESCTHY1007031	Hydrocortisone 1% lotion 1 ml
+^ESCTHY1007032	Hydrocortisone 1% lotion (Special Order)
+^ESCTHY1007033	Hydrocortisone 1% lotion (Special Order) 1 ml
+^ESCTHY1007650	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTHY1007651	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (A A H Pharmaceuticals Ltd) 20 tablet
+^ESCTHY1008000	Hydrocortisone 2% lotion 1 ml
+^ESCTHY1008001	Hydrocortisone 2% lotion (Special Order)
+^ESCTHY1008002	Hydrocortisone 2% lotion (Special Order) 1 ml
+^ESCTHY1008014	Hydrocortisone 2% lotion
+^ESCTHY1009235	Hydrocortisone 1% cream (Strides Shasun (UK) Ltd)
+^ESCTHY1009236	Hydrocortisone 1% cream (Strides Shasun (UK) Ltd) 15 gram
+^ESCTHY1009237	Hydrocortisone 1% ointment (Strides Shasun (UK) Ltd)
+^ESCTHY1009238	Hydrocortisone 1% ointment (Strides Shasun (UK) Ltd) 30 gram
+^ESCTHY1011624	Hydromol HC Intensive cream (Alliance Pharmaceuticals Ltd)
+^ESCTHY1011625	Hydromol HC Intensive cream (Alliance Pharmaceuticals Ltd) 30 gram
+^ESCTHY1011626	Hydromol HC Intensive cream (Alliance Pharmaceuticals Ltd) 100 gram
+^ESCTHY1011956	Hydrocortisone 10mg tablets (DE Pharmaceuticals)
+^ESCTHY1011957	Hydrocortisone 10mg tablets (DE Pharmaceuticals) 25 tablet
+^ESCTHY1013299	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Sigma Pharmaceuticals Plc)
+^ESCTHY1013302	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Sigma Pharmaceuticals Plc) 20 tablet
+^ESCTHY1013502	Hydrocortisone 1% cream 10 gram
+^ESCTHY1013504	Hydrocortisone Bite and Sting Relief 1% cream (Galpharm International Ltd)
+^ESCTHY1013505	Hydrocortisone Bite and Sting Relief 1% cream (Galpharm International Ltd) 10 gram
+^ESCTHY1015495	Hydrocortisone 1% cream (Pinewood Healthcare) 10 gram
+^ESCTHY1015497	Hydrocortisone 1% cream (Pinewood Healthcare) 50 gram
+^ESCTHY1022314	Hydrocortisone 10mg tablets (Sigma Pharmaceuticals Plc) 25 tablet
+^ESCTHY1022498	Hydrocortisone 1% / Tretinoin 0.025% / Hydroquinone 4% in Aqueous cream 1 gram
+^ESCTHY1022499	Hydrocortisone 1% / Tretinoin 0.025% / Hydroquinone 4% in Aqueous cream (Special Order)
+^ESCTHY1022500	Hydrocortisone 1% / Tretinoin 0.025% / Hydroquinone 4% in Aqueous cream (Special Order) 1 gram
+^ESCTHY1022559	Hydrocortisone 1% / Tretinoin 0.025% / Hydroquinone 4% in Aqueous cream
+^ESCTHY1025747	Hydrocortisone 5mg/5ml oral suspension sugar free 1 ml
+^ESCTHY1025748	Hydrocortisone 5mg/5ml oral suspension sugar free 100 ml
+^ESCTHY1025749	Hydrocortisone 5mg/5ml oral suspension sugar free (Special Order)
+^ESCTHY1025750	Hydrocortisone 5mg/5ml oral suspension sugar free (Special Order) 1 ml
+^ESCTHY1025751	Hydrocortisone 5mg/5ml oral suspension sugar free (Special Order) 100 ml
+^ESCTHY1025761	Hydrocortisone 5mg/5ml oral suspension sugar free
+^ESCTHY1027937	Hydrocortisone 1% cream (Genesis Pharmaceuticals Ltd)
+^ESCTHY1027938	Hydrocortisone 1% cream (Genesis Pharmaceuticals Ltd) 15 gram
+^ESCTHY1030033	Hydrocortisone 25mg suppositories 1 suppository
+^ESCTHY1030034	Hydrocortisone 25mg suppositories (Special Order)
+^ESCTHY1030035	Hydrocortisone 25mg suppositories (Special Order) 1 suppository
+^ESCTHY1030058	Hydrocortisone acetate 1% cream 10 gram
+^ESCTHY1033302	Hydrocortisone 1% eye ointment 1 gram
+^ESCTHY1033303	Hydrocortisone 1% eye ointment (Special Order)
+^ESCTHY1033304	Hydrocortisone 1% eye ointment (Special Order) 1 gram
+^ESCTHY1043892	Hydrocortisone 0.5% cream (Waymade Healthcare Plc)
+^ESCTHY1043893	Hydrocortisone 0.5% cream (Waymade Healthcare Plc) 15 gram
+^ESCTHY1043894	Hydrocortisone 2.5% cream (Waymade Healthcare Plc)
+^ESCTHY1043895	Hydrocortisone 2.5% cream (Waymade Healthcare Plc) 15 gram
+^ESCTHY1043896	Hydrocortisone 0.5% ointment (Waymade Healthcare Plc)
+^ESCTHY1043897	Hydrocortisone 0.5% ointment (Waymade Healthcare Plc) 15 gram
+^ESCTHY1043898	Hydrocortisone 1% ointment (Waymade Healthcare Plc)
+^ESCTHY1043899	Hydrocortisone 1% ointment (Waymade Healthcare Plc) 15 gram
+^ESCTHY1043900	Hydrocortisone 2.5% ointment (Waymade Healthcare Plc)
+^ESCTHY1043901	Hydrocortisone 2.5% ointment (Waymade Healthcare Plc) 15 gram
+^ESCTHY1043902	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Waymade Healthcare Plc)
+^ESCTHY1043903	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Waymade Healthcare Plc) 20 tablet
+^ESCTHY1044126	Hydrocortisone 2.5% / Tretinoin 0.1% / Hydroquinone 5% cream
+^ESCTHY1044127	Hydrocortisone 2.5% / Tretinoin 0.1% / Hydroquinone 5% cream 1 gram
+^ESCTHY1044128	Hydrocortisone 2.5% / Tretinoin 0.1% / Hydroquinone 5% cream (Special Order)
+^ESCTHY1044129	Hydrocortisone 2.5% / Tretinoin 0.1% / Hydroquinone 5% cream (Special Order) 1 gram
+^ESCTHY1044130	Hydrocortisone + Tretinoin + Hydroquinone
+^ESCTHY1047679	Hydrocortisone 1% cream (Waymade Healthcare Plc)
+^ESCTHY1047680	Hydrocortisone 1% cream (Waymade Healthcare Plc) 15 gram
+^ESCTHY1058314	Hydrocortisone 1% cream (Waymade Healthcare Plc) 30 gram
+^ESCTHY1058315	Hydrocortisone 1% cream (Waymade Healthcare Plc) 50 gram
+^ESCTHY1058316	Hydrocortisone 1% ointment (Waymade Healthcare Plc) 30 gram
+^ESCTHY1058317	Hydrocortisone 1% ointment (Waymade Healthcare Plc) 50 gram
+^ESCTHY1063574	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (DE Pharmaceuticals)
+^ESCTHY1063575	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (DE Pharmaceuticals) 20 tablet
+^ESCTHY1063580	Hydrocortisone 0.5% cream (DE Pharmaceuticals)
+^ESCTHY1063581	Hydrocortisone 0.5% cream (DE Pharmaceuticals) 15 gram
+^ESCTHY1063584	Hydrocortisone 1% cream (DE Pharmaceuticals)
+^ESCTHY1063586	Hydrocortisone 1% cream (DE Pharmaceuticals) 15 gram
+^ESCTHY1063588	Hydrocortisone 1% cream (DE Pharmaceuticals) 30 gram
+^ESCTHY1063591	Hydrocortisone 1% cream (DE Pharmaceuticals) 50 gram
+^ESCTHY1063593	Hydrocortisone 2.5% cream (DE Pharmaceuticals)
+^ESCTHY1063595	Hydrocortisone 2.5% cream (DE Pharmaceuticals) 15 gram
+^ESCTHY1063599	Hydrocortisone 0.5% ointment (DE Pharmaceuticals)
+^ESCTHY1063600	Hydrocortisone 0.5% ointment (DE Pharmaceuticals) 15 gram
+^ESCTHY1063601	Hydrocortisone 1% ointment (DE Pharmaceuticals)
+^ESCTHY1063602	Hydrocortisone 1% ointment (DE Pharmaceuticals) 15 gram
+^ESCTHY1063603	Hydrocortisone 1% ointment (DE Pharmaceuticals) 30 gram
+^ESCTHY1063608	Hydrocortisone 1% ointment (DE Pharmaceuticals) 50 gram
+^ESCTHY1063612	Hydrocortisone 2.5% ointment (DE Pharmaceuticals)
+^ESCTHY1063614	Hydrocortisone 2.5% ointment (DE Pharmaceuticals) 15 gram
+^ESCTHY1066620	Hydrocortisone 1% / Salicylic acid 1% / Sulfur 1% in Generic Unguentum M cream
+^ESCTHY1066622	Hydrocortisone 1% / Salicylic acid 1% / Sulfur 1% in Generic Unguentum M cream 1 gram
+^ESCTHY1066625	Hydrocortisone 1% / Salicylic acid 1% / Sulfur 1% in Unguentum M cream (Special Order)
+^ESCTHY1066627	Hydrocortisone 1% / Salicylic acid 1% / Sulfur 1% in Unguentum M cream (Special Order) 1 gram
+^ESCTHY1066633	Hydrocortisone + Salicylic acid + Sulfur
+^ESCTHY1080470	Hydrocortisone 1% / Tretinoin 0.1% / Hydroquinone 5% cutaneous solution
+^ESCTHY1080486	Hydrocortisone 1% / Tretinoin 0.1% / Hydroquinone 5% cutaneous solution 1 ml
+^ESCTHY1080489	Hydrocortisone 1% / Tretinoin 0.1% / Hydroquinone 5% cutaneous solution 50 ml
+^ESCTHY1080492	Hydrocortisone 1% / Tretinoin 0.1% / Hydroquinone 5% cutaneous solution (Special Order)
+^ESCTHY1080494	Hydrocortisone 1% / Tretinoin 0.1% / Hydroquinone 5% cutaneous solution (Special Order) 1 ml
+^ESCTHY1080497	Hydrocortisone 1% / Tretinoin 0.1% / Hydroquinone 5% cutaneous solution (Special Order) 50 ml
+^ESCTHY1100755	Hydrocortisone 4mg pastilles 1 pastille
+^ESCTHY1100756	Hydrocortisone 4mg pastilles (Special Order)
+^ESCTHY1100757	Hydrocortisone 4mg pastilles (Special Order) 1 pastille
+^ESCTHY1100796	Hydrocortisone 4mg pastilles
+^ESCTHY1104008	Hydrocortisone 1% / Tretinoin 0.1% / Hydroquinone 5% cream 1 gram
+^ESCTHY1104009	Hydrocortisone 1% / Tretinoin 0.1% / Hydroquinone 5% cream (Special Order)
+^ESCTHY1104010	Hydrocortisone 1% / Tretinoin 0.1% / Hydroquinone 5% cream (Special Order) 1 gram
+^ESCTHY1104108	Hydrocortisone 1% / Tretinoin 0.1% / Hydroquinone 5% cream
+^ESCTHY1114588	Hydrocortisone 0.5% / Salicylic acid 0.25% in Aqueous cream 1 gram
+^ESCTHY1114589	Hydrocortisone 0.5% / Salicylic acid 0.25% in Aqueous cream (Special Order)
+^ESCTHY1114591	Hydrocortisone 0.5% / Salicylic acid 0.25% in Aqueous cream (Special Order) 1 gram
+^ESCTHY1114617	Hydrocortisone 1% / Salicylic acid 1% / Sulfur 1% in Aqueous cream 1 gram
+^ESCTHY1114622	Hydrocortisone 1% / Salicylic acid 1% / Sulfur 1% in Aqueous cream (Special Order)
+^ESCTHY1114624	Hydrocortisone 1% / Salicylic acid 1% / Sulfur 1% in Aqueous cream (Special Order) 1 gram
+^ESCTHY1115137	Hydrocortisone 1% / Tretinoin 0.025% / Hydroquinone 4% in Generic Unguentum M cream 1 gram
+^ESCTHY1115138	Hydrocortisone 1% / Tretinoin 0.025% / Hydroquinone 4% in Unguentum M cream (Special Order)
+^ESCTHY1115140	Hydrocortisone 1% / Tretinoin 0.025% / Hydroquinone 4% in Unguentum M cream (Special Order) 1 gram
+^ESCTHY1115311	Hydrocortisone + Salicylic acid
+^ESCTHY1115966	Hydrocortisone 0.5% / Salicylic acid 0.25% in Aqueous cream
+^ESCTHY1115967	Hydrocortisone 1% / Salicylic acid 1% / Sulfur 1% in Aqueous cream
+^ESCTHY1115968	Hydrocortisone 1% / Tretinoin 0.025% / Hydroquinone 4% in Generic Unguentum M cream
+^ESCTHY1117814	Hydrocortisone 0.5% cream (Sigma Pharmaceuticals Plc)
+^ESCTHY1117815	Hydrocortisone 0.5% cream (Sigma Pharmaceuticals Plc) 15 gram
+^ESCTHY1117816	Hydrocortisone 0.5% ointment (Sigma Pharmaceuticals Plc)
+^ESCTHY1117817	Hydrocortisone 0.5% ointment (Sigma Pharmaceuticals Plc) 15 gram
+^ESCTHY1117818	Hydrocortisone 1% cream (Sigma Pharmaceuticals Plc)
+^ESCTHY1117819	Hydrocortisone 1% cream (Sigma Pharmaceuticals Plc) 50 gram
+^ESCTHY1117820	Hydrocortisone 1% cream (Sigma Pharmaceuticals Plc) 15 gram
+^ESCTHY1117821	Hydrocortisone 1% cream (Sigma Pharmaceuticals Plc) 30 gram
+^ESCTHY1117822	Hydrocortisone 2.5% cream (Sigma Pharmaceuticals Plc)
+^ESCTHY1117823	Hydrocortisone 2.5% cream (Sigma Pharmaceuticals Plc) 15 gram
+^ESCTHY1117830	Hydrocortisone 1% ointment (Sigma Pharmaceuticals Plc)
+^ESCTHY1117831	Hydrocortisone 1% ointment (Sigma Pharmaceuticals Plc) 15 gram
+^ESCTHY1117832	Hydrocortisone 1% ointment (Sigma Pharmaceuticals Plc) 30 gram
+^ESCTHY1117833	Hydrocortisone 1% ointment (Sigma Pharmaceuticals Plc) 50 gram
+^ESCTHY1117835	Hydrocortisone 2.5% ointment (Sigma Pharmaceuticals Plc)
+^ESCTHY1117836	Hydrocortisone 2.5% ointment (Sigma Pharmaceuticals Plc) 15 gram
+^ESCTHY1120804	Hydrocortisone 1% cream (Mawdsley-Brooks & Company Ltd)
+^ESCTHY1120805	Hydrocortisone 1% cream (Mawdsley-Brooks & Company Ltd) 15 gram
+^ESCTHY1120806	Hydrocortisone 1% cream (Mawdsley-Brooks & Company Ltd) 30 gram
+^ESCTHY1120826	Hydrocortisone 1% cream (Mawdsley-Brooks & Company Ltd) 50 gram
+^ESCTHY1120827	Hydrocortisone 2.5% cream (Mawdsley-Brooks & Company Ltd)
+^ESCTHY1120830	Hydrocortisone 2.5% cream (Mawdsley-Brooks & Company Ltd) 15 gram
+^ESCTHY1120833	Hydrocortisone 0.5% ointment (Mawdsley-Brooks & Company Ltd)
+^ESCTHY1120835	Hydrocortisone 0.5% ointment (Mawdsley-Brooks & Company Ltd) 15 gram
+^ESCTHY1120838	Hydrocortisone 1% ointment (Mawdsley-Brooks & Company Ltd)
+^ESCTHY1120839	Hydrocortisone 1% ointment (Mawdsley-Brooks & Company Ltd) 30 gram
+^ESCTHY1120840	Hydrocortisone 1% ointment (Mawdsley-Brooks & Company Ltd) 50 gram
+^ESCTHY1120841	Hydrocortisone 2.5% ointment (Mawdsley-Brooks & Company Ltd)
+^ESCTHY1120842	Hydrocortisone 2.5% ointment (Mawdsley-Brooks & Company Ltd) 15 gram
+^ESCTHY1122594	Hydrocortisone sodium phosphate 100mg/1ml solution for injection ampoules (AMCo)
+^ESCTHY1122597	Hydrocortisone sodium phosphate 100mg/1ml solution for injection ampoules (AMCo) 5 ampoule
+^ESCTHY1122601	Hydrocortisone sodium phosphate 500mg/5ml solution for injection ampoules (AMCo)
+^ESCTHY1122603	Hydrocortisone sodium phosphate 500mg/5ml solution for injection ampoules (AMCo) 5 ampoule
+^ESCTHY1126247	Hydrocortisone 0.5% ointment 50% in White soft paraffin 1 gram
+^ESCTHY1126248	Hydrocortisone 0.5% ointment 50% in White soft paraffin (Special Order)
+^ESCTHY1126249	Hydrocortisone 0.5% ointment 50% in White soft paraffin (Special Order) 1 gram
+^ESCTHY1126282	Hydrocortisone 2.5% in White soft paraffin 1 gram
+^ESCTHY1126283	Hydrocortisone 2.5% in White soft paraffin (Special Order)
+^ESCTHY1126284	Hydrocortisone 2.5% in White soft paraffin (Special Order) 1 gram
+^ESCTHY1126331	Hydrocortisone 0.5% ointment 50% in White soft paraffin
+^ESCTHY1126332	Hydrocortisone 2.5% in White soft paraffin
+^ESCTHY1140332	Hydrocortisone 1% cream 50% in Aqueous cream 1 gram
+^ESCTHY1140335	Hydrocortisone 1% cream 50% in Aqueous cream (Special Order)
+^ESCTHY1140336	Hydrocortisone 1% cream 50% in Aqueous cream (Special Order) 1 gram
+^ESCTHY1141720	Hydrocortisone 1% cream 50% in Aqueous cream
+^ESCTHY1142508	Hydrocortisone 0.5% eye ointment 1 gram
+^ESCTHY1142509	Hydrocortisone 0.5% eye ointment (Special Order)
+^ESCTHY1142510	Hydrocortisone 0.5% eye ointment (Special Order) 1 gram
+^ESCTHY1142511	Hydrocortisone 2% in White soft paraffin 1 gram
+^ESCTHY1142512	Hydrocortisone 2% in White soft paraffin (Special Order)
+^ESCTHY1142513	Hydrocortisone 2% in White soft paraffin (Special Order) 1 gram
+^ESCTHY1142514	Hydrocortisone 1% in White soft paraffin 1 gram
+^ESCTHY1142515	Hydrocortisone 1% in White soft paraffin (Special Order)
+^ESCTHY1142516	Hydrocortisone 1% in White soft paraffin (Special Order) 1 gram
+^ESCTHY1142716	Hydrocortisone 1% in White soft paraffin
+^ESCTHY1142717	Hydrocortisone 2% in White soft paraffin
+^ESCTHY1143884	Hydrocortisone butyrate 0.1% ointment 10% in Hydrous ointment 1 gram
+^ESCTHY1143885	Hydrocortisone butyrate 0.1% ointment 10% in Hydrous ointment (Special Order)
+^ESCTHY1143886	Hydrocortisone butyrate 0.1% ointment 10% in Hydrous ointment (Special Order) 1 gram
+^ESCTHY1143996	Hydrocortisone butyrate 0.1% ointment 10% in Hydrous ointment
+^ESCTHY1146072	Hydrocortisone 2.5% / Sulfur 1% in Aqueous cream 1 gram
+^ESCTHY1146073	Hydrocortisone 2.5% / Sulfur 1% in Aqueous cream (Special Order)
+^ESCTHY1146074	Hydrocortisone 2.5% / Sulfur 1% in Aqueous cream (Special Order) 1 gram
+^ESCTHY1146203	Hydrocortisone 2.5% / Sulfur 1% in Aqueous cream
+^ESCTHY1151593	Hydrocortisone 2.5% / Tretinoin 0.1% / Hydroquinone 5% cream 50 gram
+^ESCTHY1151595	Hydrocortisone 2.5% / Tretinoin 0.1% / Hydroquinone 5% cream (Special Order) 50 gram
+^ESCTHY1153201	Hydrocortisone 200mg suppositories 1 suppository
+^ESCTHY1153202	Hydrocortisone 200mg suppositories (Special Order)
+^ESCTHY1153203	Hydrocortisone 200mg suppositories (Special Order) 1 suppository
+^ESCTHY1153257	Hydrocortisone 200mg suppositories
+^ESCTHY276312	Hydrocortisone
+^ESCTHY276313	Hydrocortisone preparation
+^ESCTHY276317	Hydrocortisone product
+^ESCTHY306098	Hydrocortisone ophthalmic preparation
+^ESCTHY322134	Hydrocortisone in otic dosage form
+^ESCTHY393356	Hydrocortisone nasal preparation
+^ESCTHY398518	Hydrocortisone topical preparation
+^ESCTHY606505	Hydrocortisone 25mg suppositories
+^ESCTHY606506	Hydrocortisone 25mg suppository
+^ESCTHY606507	Hydrocortisone 10% foam aerosol enema
+^ESCTHY606508	Hydrocortisone acetate 10% rectal foam
+^ESCTHY606509	Hydrocortisone acetate 25mg suppository
+^ESCTHY606522	Hydrocortisone+lignocaine 0.2%/1% spray
+^ESCTHY606523	Hydrocortisone+lidocaine 0.2%/1% spray
+^ESCTHY612546	Hydrocortisone 100mg powder for injection solution vial
+^ESCTHY612547	Hydrocortisone sodium phosphate 500mg/5ml solution for injection ampoules
+^ESCTHY612548	Hydrocortisone 100mg/mL injection solution ampoule 5mL
+^ESCTHY612549	Hydrocortisone 100mg/mL injection solution ampule 5mL
+^ESCTHY612550	Hydrocortisone sodium phosphate 100mg/1ml solution for injection ampoules
+^ESCTHY612551	Hydrocortisone 100mg/mL injection solution ampoule 1mL
+^ESCTHY612552	Hydrocortisone 100mg/mL injection solution ampule 1mL
+^ESCTHY612553	Hydrocortisone 100mg powder and solvent for injection solution vial
+^ESCTHY615270	Hydrocortisone acetate 25mg/1ml suspension for injection ampoules
+^ESCTHY615271	Hydrocortisone acetate 25mg/1mL injection
+^ESCTHY615272	Hydrocortisone acetate 25mg/mL injection suspension 1mL ampoule
+^ESCTHY615273	Hydrocortisone acetate 25mg/mL injection suspension 1mL ampule
+^ESCTHY615505	Hydrocortisone 0.5% eye ointment
+^ESCTHY615506	Hydrocortisone acetate 0.5% eye ointment
+^ESCTHY615507	Hydrocortisone 1% eye ointment
+^ESCTHY615508	Hydrocortisone acetate 1% eye ointment
+^ESCTHY615509	Hydrocortisone 2.5% eye ointment
+^ESCTHY615510	Hydrocortisone acetate 2.5% eye ointment
+^ESCTHY615511	Hydrocortisone acetate eye ointment
+^ESCTHY615512	Hydrocortisone acetate 1% eye drops
+^ESCTHY615778	Hydrocortisone acetate 1% / Gentamicin 0.3% ear drops
+^ESCTHY615784	Hydrocortisone 1.5% / Neomycin 0.5% ear/eye ointment
+^ESCTHY615786	Hydrocortisone 1.5% / Neomycin 0.5% ear/eye drops
+^ESCTHY615877	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free
+^ESCTHY615878	Hydrocortisone 2.5mg lozenge
+^ESCTHY615879	Hydrocortisone 2.5mg oromucosal tablets sugar free
+^ESCTHY616020	Hydrocortisone creams
+^ESCTHY616022	Hydrocortisone 2.5% cream
+^ESCTHY616023	Hydrocortisone 0.1% cream
+^ESCTHY616024	Hydrocortisone ointments
+^ESCTHY616025	Hydrocortisone 2.5% ointment
+^ESCTHY616026	Hydrocortisone acetate 1% ointment
+^ESCTHY616028	Hydrocortisone 0.25% / Crotamiton 10% cream
+^ESCTHY616029	Hydrocortisone+crotamiton 0.25%/10% cream
+^ESCTHY616031	Hydrocortisone 1% / Urea 10% cream
+^ESCTHY616032	Hydrocortisone+urea 1%/10% cream
+^ESCTHY616034	Hydrocortisone 1% / Clioquinol 3% ointment
+^ESCTHY616035	Hydrocortisone+clioquinol 1%/3% ointment
+^ESCTHY616039	Hydrocortisone+clioquinol 1%/3% cream
+^ESCTHY616042	Hydrocortisone+oxytetracycline 1.0/3% ointment
+^ESCTHY616043	Hydrocortisone acetate 1% / Sodium fusidate 2% ointment
+^ESCTHY616044	Hydrocortisone acetate+sodium fusidate 1%/2% ointment
+^ESCTHY616046	Hydrocortisone acetate 1% / Fusidic acid 2% cream
+^ESCTHY616047	Hydrocortisone acetate+fusidic acid 1%/2% cream
+^ESCTHY616050	Hydrocortisone+econazole nitrate 1%/1% cream
+^ESCTHY616051	Hydrocortisone 1% / Miconazole 2% ointment
+^ESCTHY616052	Hydrocortisone+miconazole nitrate 1%/2% ointment
+^ESCTHY616054	Hydrocortisone 1% / Miconazole 2% cream
+^ESCTHY616055	Hydrocortisone+miconazole nitrate 1%/2% cream
+^ESCTHY616057	Hydrocortisone 1% / Clotrimazole 1% cream
+^ESCTHY616058	Hydrocortisone+clotrimazole 1%/1% cream
+^ESCTHY616060	Hydrocortisone 1% / Neomycin 0.5% cream
+^ESCTHY616061	Hydrocortisone+neomycin 1%/0.5% cream
+^ESCTHY616152	Hydrocortisone 0.1% topical emulsion
+^ESCTHY616153	Hydrocortisone butyrate 0.1% emulsion
+^ESCTHY616155	Hydrocortisone butyrate+chlorquinaldol 0.1%/3% ointment
+^ESCTHY616157	Hydrocortisone butyrate+chlorquinaldol 0.1%/3% cream
+^ESCTHY616158	Hydrocortisone butyrate 0.1% cream
+^ESCTHY616159	Hydrocortisone butyrate 0.1% lipocream
+^ESCTHY616160	Hydrocortisone butyrate 0.1% ointment
+^ESCTHY616161	Hydrocortisone butyrate 0.1% scalp lotion
+^ESCTHY616164	Hydrocortisone acetate 1% cream
+^ESCTHY617775	Hydrocortisone + Fusidic acid
+^ESCTHY617776	Hydrocortisone+fusidic acid
+^ESCTHY617778	Hydrocortisone + Gentamicin
+^ESCTHY617779	Hydrocortisone+gentamicin
+^ESCTHY617781	Hydrocortisone + Pramocaine
+^ESCTHY617782	Hydrocortisone+pramoxine
+^ESCTHY617783	Hydrocortisone+pramocaine
+^ESCTHY617784	Hydrocortisone + Sodium fusidate
+^ESCTHY617785	Hydrocortisone+sodium fusidate
+^ESCTHY617787	Hydrocortisone+chlorquinaldol
+^ESCTHY617788	Hydrocortisone+chloramphenicol
+^ESCTHY617790	Hydrocortisone + Clioquinol
+^ESCTHY617791	Hydrocortisone+clioquinol
+^ESCTHY617793	Hydrocortisone + Clotrimazole
+^ESCTHY617794	Hydrocortisone+clotrimazole
+^ESCTHY617796	Hydrocortisone + Crotamiton
+^ESCTHY617797	Hydrocortisone+crotamiton
+^ESCTHY617799	Hydrocortisone+dimethicone '350'
+^ESCTHY617800	Hydrocortisone+dimeticone '350'
+^ESCTHY617802	Hydrocortisone+econazole
+^ESCTHY617804	Hydrocortisone+lignocaine
+^ESCTHY617805	Hydrocortisone+lidocaine
+^ESCTHY617806	Hydrocortisone + Lidocaine
+^ESCTHY617807	Hydrocortisone + Miconazole
+^ESCTHY617808	Hydrocortisone+miconazole
+^ESCTHY617809	Hydrocortisone + Neomycin
+^ESCTHY617810	Hydrocortisone+neomycin
+^ESCTHY617811	Hydrocortisone+nystatin
+^ESCTHY617813	Hydrocortisone+oxytetracycline
+^ESCTHY617814	Hydrocortisone + oxytetracycline
+^ESCTHY617815	Hydrocortisone + Potassium hydroxyquinoline sulphate
+^ESCTHY617816	Hydrocortisone+potassium hydroxyquinoline
+^ESCTHY617817	Hydrocortisone + Urea
+^ESCTHY617818	Hydrocortisone+urea
+^ESCTHY618045	Hydrocortisone 0.5% cream
+^ESCTHY618047	Hydrocortisone 1% cream
+^ESCTHY618651	Hydrocortisone 1% ointment
+^ESCTHY618711	Hydrocortisone acetate powder
+^ESCTHY619421	Hydrocortisone eye ointment
+^ESCTHY619422	Hydrocortisone in rectal dosage form
+^ESCTHY619424	Hydrocortisone in parenteral dosage form
+^ESCTHY619426	Hydrocortisone in oral dosage form
+^ESCTHY619615	Hydrocortisone 0.5% ointment
+^ESCTHY620116	Hydrocortisone acetate+neomycin sulphate 1.5%/0.5% eye drops
+^ESCTHY620117	Hydrocortisone acetate+neomycin sulfate 1.5%/0.5% eye drops
+^ESCTHY638743	Hydrocortisone 5 mg oral tablet
+^ESCTHY638775	Hydrocortisone probutate 0.1% cream
+^ESCTHY638822	Hydrocortisone cypionate 10mg/5mL suspension
+^ESCTHY638836	Hydrocortisone 2% topical lotion
+^ESCTHY638888	Hydrocortisone sodium succin 100mg/vial powder
+^ESCTHY638892	Hydrocortisone sodium succin 250mg/vial powder
+^ESCTHY638893	Hydrocortisone sodium succin 500mg powder
+^ESCTHY638894	Hydrocortisone sodium succin 1000mg powder
+^ESCTHY639190	Hydrocortisone 0.5% lotion
+^ESCTHY639229	Hydrocortisone butyrate 0.1% solution
+^ESCTHY639231	Hydrocortisone acetate 2.5% cream
+^ESCTHY639268	Hydrocortisone 100mg/60mL enema
+^ESCTHY639316	Hydrocortisone 1% solution
+^ESCTHY640327	Hydrocortisone 2.5% lotion
+^ESCTHY640328	Hydrocortisone 1% lotion
+^ESCTHY640494	Hydrocortisone valerate 0.2% ointment
+^ESCTHY640497	Hydrocortisone valerate 0.2% cream
+^ESCTHY640551	Hydrocortisone acetate 0.5%
+^ESCTHY641563	Hydrocortisone 2.5% topical lotion
+^ESCTHY642446	Hydrocortisone+neomycin sulfate+polymyxin b sulphate 10mg/5mg/1.6mg suspension
+^ESCTHY642447	Hydrocortisone+neomycin sulfate+polymyxin b sulfate 10mg/5mg/1.6mg suspension
+^ESCTHY642448	Hydrocortisone+neomycin sulfate+polymyxin b sulphate 10mg/5mg/10000unt sol
+^ESCTHY642449	Hydrocortisone+neomycin sulfate+polymyxin b sulfate 10mg/5mg/10000unt sol
+^ESCTHY642452	Hydrocortisone + neomycin sulphate + polymyxin b sulphate 10mg/3.5mg/10000 unit suspension
+^ESCTHY642453	Hydrocortisone + neomycin sulfate + polymyxin b sulfate 10mg/3.5mg/10000 unit suspension
+^ESCTHY642454	Hydrocortisone+neomycin sulphate+polymyxin b sulphate 10mg/3.5mg/10000 unit suspension
+^ESCTHY642455	Hydrocortisone+neomycin sulfate+polymyxin b sulphate 10mg/7.5mg/10000unt suspension
+^ESCTHY642456	Hydrocortisone+neomycin sulfate+polymyxin b sulfate 10mg/7.5mg/10000unt suspension
+^ESCTHY642457	Hydrocortisone+neomycin sulfate+polymyxin b sulphate 10mg/7.5mg/1000unt solution
+^ESCTHY642458	Hydrocortisone+neomycin sulfate+polymyxin b sulfate 10mg/7.5mg/1000unt solution
+^ESCTHY642459	Hydrocortisone+polymyxin b 5mg/10000unt drops
+^ESCTHY642460	Hydrocortisone acetate+neomycin sulfate+polymyxin b sulphate 5mg/3.5mg/10000unit cream
+^ESCTHY642461	Hydrocortisone acetate+neomycin sulfate+polymyxin b sulfate 5mg/3.5mg/10000unit cream
+^ESCTHY642462	Hydrocortisone acetate + neomycin sulfate + polymyxin b sulfate 5mg/3.5mg/10000unit cream
+^ESCTHY642463	Hydrocortisone acetate+pramoxine hydrochloride 1%wv/1%wv lotion
+^ESCTHY642464	Hydrocortisone acetate+pramoxine hydrochloride 1%ww/1%ww aerosol
+^ESCTHY642465	Hydrocortisone acetate+pramoxine hydrochloride 1%ww/1%ww cream
+^ESCTHY642466	Hydrocortisone acetate+pramoxine hydrochloride 2.5%ww/1%ww cream
+^ESCTHY642467	Hydrocortisone acetate+pramoxine hydrochloride 2.5%ww/1%ww lotion
+^ESCTHY642468	Hydrocortisone acetate+pramoxine hydrochloride 2.5%ww/1%ww ointment
+^ESCTHY661303	Hydrocortisone + neomycin sulphate + polymyxin b sulphate
+^ESCTHY661304	Hydrocortisone + neomycin sulfate + polymyxin b sulfate
+^ESCTHY663760	Hydrocortisone acetate 50mg/mL injection suspension 5mL vial
+^ESCTHY663761	Hydrocortisone acetate 50mg/mL injection
+^ESCTHY663827	Hydrocortisone sodium succinate 1000mg/vial powder for injection 8mL vial
+^ESCTHY663949	Hydrocortisone acetate 50mg/mL injection suspension 10mL vial
+^ESCTHY663980	Hydrocortisone sodium succinate 500mg/vial powder for injection 4mL vial
+^ESCTHY664260	Hydrocortisone 1% / Pramocaine 1% foam enema
+^ESCTHY664261	Hydrocortisone 1% + Pramocaine 1% foam enema
+^ESCTHY664523	Hydrocortisone sodium succinate 250mg/vial powder for injection 2mL vial
+^ESCTHY664552	Hydrocortisone sodium phosphate 50mg/mL injection solution 2mL vial
+^ESCTHY665167	Hydrocortisone sodium succinate 100mg/vial powder for injection 2mL vial
+^ESCTHY677904	Hydrocortisone acetate 2.0% cream
+^ESCTHY682618	Hydrocortisone + acetic acid
+^ESCTHY774197	Hydrocortisone acetate
+^ESCTHY774198	Hydrocortisone acetate in oral dosage form
+^ESCTHY774200	Hydrocortisone acetate in topical dosage form
+^ESCTHY774202	Hydrocortisone acetate in ophthalmic dosage form
+^ESCTHY774204	Hydrocortisone acetate in parenteral dosage form
+^ESCTHY803555	Hydrocortisone 2.5% cream (A A H Pharmaceuticals Ltd)
+^ESCTHY804118	Hydrocortisone 1% cream (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY808063	Hydrocortisone 2.5% cream (Kent Pharmaceuticals Ltd)
+^ESCTHY808508	Hydrocortisone 0.5% cream (Kent Pharmaceuticals Ltd)
+^ESCTHY809527	Hydrocortisone 0.5% cream (A A H Pharmaceuticals Ltd)
+^ESCTHY815102	Hydrocortisone 0.5% cream (Actavis UK Ltd)
+^ESCTHY820022	Hydrocortisone 1% cream (Kent Pharmaceuticals Ltd)
+^ESCTHY820527	Hydrocortisone 1% cream (A A H Pharmaceuticals Ltd)
+^ESCTHY822430	Hydrocortisone 1% cream (Actavis UK Ltd)
+^ESCTHY822961	Hydrocortisone 1% cream (Vantage)
+^ESCTHY830834	Hydrocortisone 0.5% cream (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY831005	Hydrocortisone 2.5% cream (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY832635	Hydrocortisone 0.5% cream (The Boots Company Plc)
+^ESCTHY834295	Hydrocortisone 0.5% cream 30 gram
+^ESCTHY834727	Hydrocortisone 1% / Clotrimazole 1% cream 15 gram
+^ESCTHY835158	Hydrocortisone 1% cream 15 gram
+^ESCTHY835971	Hydrocortisone 0.1% cream 15 gram
+^ESCTHY840904	Hydrocortisone 0.25% / Crotamiton 10% cream 15 gram
+^ESCTHY841797	Hydrocortisone butyrate 0.1% ointment 30 gram
+^ESCTHY842381	Hydrocortisone 1% / Clotrimazole 1% cream 30 gram
+^ESCTHY846880	Hydrocortisone 0.1% cream 30 gram
+^ESCTHY846890	Hydrocortisone 1% / Miconazole 2% cream 30 gram
+^ESCTHY846951	Hydrocortisone 1% / Miconazole 2% ointment 30 gram
+^ESCTHY847117	Hydrocortisone 2.5% cream 15 gram
+^ESCTHY847325	Hydrocortisone 0.25% / Crotamiton 10% cream 30 gram
+^ESCTHY847329	Hydrocortisone 1% cream 30 gram
+^ESCTHY847339	Hydrocortisone 2.5% cream 30 gram
+^ESCTHY847588	Hydrocortisone 1% cream 50 gram
+^ESCTHY847603	Hydrocortisone 1% / Clioquinol 3% ointment 30 gram
+^ESCTHY847735	Hydrocortisone 1% / Miconazole 2% cream 15 gram
+^ESCTHY847826	Hydrocortisone 0.5% cream 15 gram
+^ESCTHY848431	Hydrocortisone butyrate 0.1% ointment 100 gram
+^ESCTHY851032	Hydrocortisone 1% cream (A A H Pharmaceuticals Ltd) 15 gram
+^ESCTHY851034	Hydrocortisone 1% cream (A A H Pharmaceuticals Ltd) 30 gram
+^ESCTHY851036	Hydrocortisone 1% cream (A A H Pharmaceuticals Ltd) 50 gram
+^ESCTHY851042	Hydrocortisone 1% cream (Actavis UK Ltd) 15 gram
+^ESCTHY851043	Hydrocortisone 1% cream (Actavis UK Ltd) 30 gram
+^ESCTHY851044	Hydrocortisone 1% cream (Actavis UK Ltd) 50 gram
+^ESCTHY851073	Hydrocortisone 1% cream (Kent Pharmaceuticals Ltd) 15 gram
+^ESCTHY851075	Hydrocortisone 1% cream (Kent Pharmaceuticals Ltd) 30 gram
+^ESCTHY851076	Hydrocortisone 1% cream (Kent Pharmaceuticals Ltd) 50 gram
+^ESCTHY851077	Hydrocortisone 1% cream (Alliance Healthcare (Distribution) Ltd) 15 gram
+^ESCTHY851078	Hydrocortisone 1% cream (Alliance Healthcare (Distribution) Ltd) 30 gram
+^ESCTHY851079	Hydrocortisone 1% cream (Alliance Healthcare (Distribution) Ltd) 50 gram
+^ESCTHY851094	Hydrocortisone 0.5% cream (A A H Pharmaceuticals Ltd) 15 gram
+^ESCTHY851097	Hydrocortisone 0.5% cream (Actavis UK Ltd) 15 gram
+^ESCTHY851099	Hydrocortisone 0.5% cream (The Boots Company Plc) 15 gram
+^ESCTHY851101	Hydrocortisone 0.5% cream (Kent Pharmaceuticals Ltd) 15 gram
+^ESCTHY851102	Hydrocortisone 0.5% cream (Alliance Healthcare (Distribution) Ltd) 15 gram
+^ESCTHY851156	Hydrocortisone 2.5% cream (A A H Pharmaceuticals Ltd) 15 gram
+^ESCTHY851161	Hydrocortisone 2.5% cream (Kent Pharmaceuticals Ltd) 15 gram
+^ESCTHY851164	Hydrocortisone 2.5% cream (Alliance Healthcare (Distribution) Ltd) 15 gram
+^ESCTHY851633	Hydrocortisone 1% cream (Vantage) 15 gram
+^ESCTHY857908	Hydrocortisone acetate 1% / Fusidic acid 2% cream 30 gram
+^ESCTHY857909	Hydrocortisone acetate 1% / Fusidic acid 2% cream 60 gram
+^ESCTHY857913	Hydrocortisone acetate 1% / Sodium fusidate 2% ointment 30 gram
+^ESCTHY857914	Hydrocortisone acetate 1% / Sodium fusidate 2% ointment 60 gram
+^ESCTHY858074	Hydrocortisone 0.5% ointment 15 gram
+^ESCTHY858076	Hydrocortisone 0.5% ointment 30 gram
+^ESCTHY858077	Hydrocortisone 0.5% ointment (A A H Pharmaceuticals Ltd)
+^ESCTHY858078	Hydrocortisone 0.5% ointment (A A H Pharmaceuticals Ltd) 15 gram
+^ESCTHY858080	Hydrocortisone 0.5% ointment (Actavis UK Ltd) 15 gram
+^ESCTHY858084	Hydrocortisone 0.5% ointment (The Boots Company Plc) 15 gram
+^ESCTHY858089	Hydrocortisone 0.5% ointment (Kent Pharmaceuticals Ltd) 15 gram
+^ESCTHY858092	Hydrocortisone 0.5% ointment (Alliance Healthcare (Distribution) Ltd) 15 gram
+^ESCTHY858093	Hydrocortisone 1% / Urea 10% cream 30 gram
+^ESCTHY858094	Hydrocortisone 1% / Urea 10% cream 100 gram
+^ESCTHY858096	Hydrocortisone 1% ointment 15 gram
+^ESCTHY858099	Hydrocortisone 1% ointment 30 gram
+^ESCTHY858100	Hydrocortisone 1% ointment 50 gram
+^ESCTHY858102	Hydrocortisone 1% ointment (A A H Pharmaceuticals Ltd)
+^ESCTHY858105	Hydrocortisone 1% ointment (A A H Pharmaceuticals Ltd) 15 gram
+^ESCTHY858106	Hydrocortisone 1% ointment (A A H Pharmaceuticals Ltd) 30 gram
+^ESCTHY858108	Hydrocortisone 1% ointment (A A H Pharmaceuticals Ltd) 50 gram
+^ESCTHY858109	Hydrocortisone 1% ointment (Actavis UK Ltd) 15 gram
+^ESCTHY858110	Hydrocortisone 1% ointment (Actavis UK Ltd) 30 gram
+^ESCTHY858111	Hydrocortisone 1% ointment (Actavis UK Ltd) 50 gram
+^ESCTHY858116	Hydrocortisone 1% ointment (Kent Pharmaceuticals Ltd) 15 gram
+^ESCTHY858117	Hydrocortisone 1% ointment (Kent Pharmaceuticals Ltd) 30 gram
+^ESCTHY858118	Hydrocortisone 1% ointment (Kent Pharmaceuticals Ltd) 50 gram
+^ESCTHY858119	Hydrocortisone 1% ointment (Alliance Healthcare (Distribution) Ltd) 15 gram
+^ESCTHY858120	Hydrocortisone 1% ointment (Alliance Healthcare (Distribution) Ltd) 30 gram
+^ESCTHY858121	Hydrocortisone 1% ointment (Alliance Healthcare (Distribution) Ltd) 50 gram
+^ESCTHY858122	Hydrocortisone 2.5% ointment 15 gram
+^ESCTHY858123	Hydrocortisone 2.5% ointment 30 gram
+^ESCTHY858124	Hydrocortisone 2.5% ointment (A A H Pharmaceuticals Ltd)
+^ESCTHY858125	Hydrocortisone 2.5% ointment (A A H Pharmaceuticals Ltd) 15 gram
+^ESCTHY858132	Hydrocortisone 2.5% ointment (Kent Pharmaceuticals Ltd) 15 gram
+^ESCTHY858133	Hydrocortisone 2.5% ointment (Alliance Healthcare (Distribution) Ltd) 15 gram
+^ESCTHY858744	Hydrocortisone acetate 25mg/1ml suspension for injection ampoules 10 ampoule
+^ESCTHY858748	Hydrocortistab 25mg/1ml suspension for injection ampoules (AMCo)
+^ESCTHY858751	Hydrocortistab 25mg/1ml suspension for injection ampoules (AMCo) 10 ampoule
+^ESCTHY858964	Hydrocortisone 10% foam aerosol enema 14 dose
+^ESCTHY859046	Hydrocortisone 1% / Pramocaine 1% foam enema 40 dose
+^ESCTHY859239	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free 20 tablet
+^ESCTHY860862	Hydrocortisone 1% ointment (Kent Pharmaceuticals Ltd)
+^ESCTHY860863	Hydrocortisone 0.5% ointment (Kent Pharmaceuticals Ltd)
+^ESCTHY860866	Hydrocortisone 1% ointment (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY860878	Hydrocortisone 2.5% ointment (Kent Pharmaceuticals Ltd)
+^ESCTHY860890	Hydrocortisone 0.5% ointment (Actavis UK Ltd)
+^ESCTHY860901	Hydrocortisone 1% ointment (Actavis UK Ltd)
+^ESCTHY860903	Hydrocortisone 0.5% ointment (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY860904	Hydrocortisone 2.5% ointment (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY860912	Hydrocortisone 0.5% ointment (The Boots Company Plc)
+^ESCTHY861276	Hydrocortisone butyrate 0.1% cream 30 gram
+^ESCTHY861278	Hydrocortisone butyrate 0.1% cream 100 gram
+^ESCTHY864272	Hydrocortisone butyrate 0.1% scalp lotion 100 ml
+^ESCTHY864972	Hydrocortisone 2.5% eye ointment 3 gram
+^ESCTHY864974	Hydrocortisone 2.5% eye ointment (Martindale Pharmaceuticals Ltd)
+^ESCTHY864975	Hydrocortisone 2.5% eye ointment (Martindale Pharmaceuticals Ltd) 3 gram
+^ESCTHY864976	Hydrocortisone 2.5% eye ointment (A A H Pharmaceuticals Ltd)
+^ESCTHY864977	Hydrocortisone 2.5% eye ointment (A A H Pharmaceuticals Ltd) 3 gram
+^ESCTHY864979	Hydrocortisone 0.5% eye ointment 3 gram
+^ESCTHY864981	Hydrocortisone sodium phosphate 100mg/1ml solution for injection ampoules 5 ampoule
+^ESCTHY864983	Hydrocortisone 0.5% eye ointment (A A H Pharmaceuticals Ltd)
+^ESCTHY864985	Hydrocortisone 0.5% eye ointment (A A H Pharmaceuticals Ltd) 3 gram
+^ESCTHY864988	Hydrocortisone 0.5% eye ointment (Martindale Pharmaceuticals Ltd)
+^ESCTHY864989	Hydrocortisone 0.5% eye ointment (Martindale Pharmaceuticals Ltd) 3 gram
+^ESCTHY864990	Hydrocortisone 0.5% eye ointment (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY864992	Hydrocortisone 0.5% eye ointment (Alliance Healthcare (Distribution) Ltd) 3 gram
+^ESCTHY866183	Hydrocortisone 1.5% / Neomycin 0.5% ear/eye ointment 3.9 gram
+^ESCTHY866316	Hydrocortisone 1.5% / Neomycin 0.5% ear/eye drops 10 ml
+^ESCTHY866319	Hydrocortisone 1% eye ointment 3 gram
+^ESCTHY866320	Hydrocortisone 1% eye ointment (A A H Pharmaceuticals Ltd)
+^ESCTHY866321	Hydrocortisone 1% eye ointment (A A H Pharmaceuticals Ltd) 3 gram
+^ESCTHY866322	Hydrocortisone 1% eye ointment (Martindale Pharmaceuticals Ltd)
+^ESCTHY866323	Hydrocortisone 1% eye ointment (Martindale Pharmaceuticals Ltd) 3 gram
+^ESCTHY866451	Hydrocortisone 0.1% topical emulsion 100 gram
+^ESCTHY867777	Hydrocortisone sodium succinate 100mg powder and solvent for solution for injection vials 1 vial
+^ESCTHY867880	Hydrocortisone 0.5% cream (Teva UK Ltd)
+^ESCTHY867881	Hydrocortisone 0.5% cream (Teva UK Ltd) 15 gram
+^ESCTHY867882	Hydrocortisone 1% cream (Teva UK Ltd)
+^ESCTHY867883	Hydrocortisone 1% cream (Teva UK Ltd) 15 gram
+^ESCTHY867884	Hydrocortisone 1% cream (Teva UK Ltd) 30 gram
+^ESCTHY867885	Hydrocortisone 1% cream (Teva UK Ltd) 50 gram
+^ESCTHY867886	Hydrocortisone 2.5% cream (Teva UK Ltd)
+^ESCTHY867887	Hydrocortisone 2.5% cream (Teva UK Ltd) 15 gram
+^ESCTHY867888	Hydrocortisone 0.5% ointment (Teva UK Ltd)
+^ESCTHY867889	Hydrocortisone 0.5% ointment (Teva UK Ltd) 15 gram
+^ESCTHY867890	Hydrocortisone 1% ointment (Teva UK Ltd)
+^ESCTHY867891	Hydrocortisone 1% ointment (Teva UK Ltd) 15 gram
+^ESCTHY867892	Hydrocortisone 1% ointment (Teva UK Ltd) 30 gram
+^ESCTHY867893	Hydrocortisone 1% ointment (Teva UK Ltd) 50 gram
+^ESCTHY867894	Hydrocortisone 2.5% ointment (Teva UK Ltd)
+^ESCTHY867895	Hydrocortisone 2.5% ointment (Teva UK Ltd) 15 gram
+^ESCTHY867896	Hydrocortisone 1% / Neomycin 0.5% cream 15 gram
+^ESCTHY867897	Hydrocortisone 1% / Neomycin 0.5% cream (Approved Prescription Services Ltd)
+^ESCTHY867898	Hydrocortisone 1% / Neomycin 0.5% cream (Approved Prescription Services Ltd) 15 gram
+^ESCTHY867902	Hydrocortisone sodium succinate 100mg powder and solvent for solution for injection vials
+^ESCTHY868386	Hydrocortisone 1% eye ointment (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY868387	Hydrocortisone 1% eye ointment (Alliance Healthcare (Distribution) Ltd) 3 gram
+^ESCTHY868868	Hydrocortisone powder 1 gram
+^ESCTHY868870	Hydrocortisone powder 5 gram
+^ESCTHY868872	Hydrocortisone powder (A A H Pharmaceuticals Ltd)
+^ESCTHY868873	Hydrocortisone powder (A A H Pharmaceuticals Ltd) 1 gram
+^ESCTHY868874	Hydrocortisone powder (A A H Pharmaceuticals Ltd) 5 gram
+^ESCTHY868875	Hydrocortisone powder (J M Loveridge Ltd)
+^ESCTHY868876	Hydrocortisone powder (J M Loveridge Ltd) 5 gram
+^ESCTHY868877	Hydrocortisone powder (Thornton & Ross Ltd)
+^ESCTHY868878	Hydrocortisone powder (Thornton & Ross Ltd) 1 gram
+^ESCTHY868879	Hydrocortisone powder (Thornton & Ross Ltd) 5 gram
+^ESCTHY868880	Hydrocortisone powder (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY868881	Hydrocortisone powder (Alliance Healthcare (Distribution) Ltd) 5 gram
+^ESCTHY868943	Hydrocortisone powder
+^ESCTHY873525	Hydrocortisone 1% / Neomycin 0.5% cream (A A H Pharmaceuticals Ltd)
+^ESCTHY873526	Hydrocortisone 1% / Neomycin 0.5% cream (A A H Pharmaceuticals Ltd) 15 gram
+^ESCTHY873562	Hydrocortisone 1% eye drops 10 ml
+^ESCTHY873563	Hydrocortisone 1% eye drops (A A H Pharmaceuticals Ltd)
+^ESCTHY873564	Hydrocortisone 1% eye drops (A A H Pharmaceuticals Ltd) 10 ml
+^ESCTHY873595	Hydrocortisone 1% eye drops
+^ESCTHY873673	Hydrocortisone sodium phosphate 500mg/5ml solution for injection ampoules 5 ampoule
+^ESCTHY873992	Hydrocortisone acetate 1% cream 15 gram
+^ESCTHY874307	Hydrocortisone acetate 1% ointment 15 gram
+^ESCTHY874400	Hydrocortisone 1% / Potassium hydroxyquinoline sulfate 0.5% cream 30 gram
+^ESCTHY874418	Hydrocortisone 1% / Potassium hydroxyquinoline sulfate 0.5% cream
+^ESCTHY901622	Hydrocortisone 1% cream (Lloyds Pharmacy Ltd)
+^ESCTHY901625	Hydrocortisone 1% cream (Lloyds Pharmacy Ltd) 15 gram
+^ESCTHY918375	Hydrocortone
+^ESCTHY919368	Hydrocortistab
+^ESCTHY923099	Hydrocortisone 1% ointment (The Boots Company Plc)
+^ESCTHY923101	Hydrocortisone 1% ointment (The Boots Company Plc) 15 gram
+^ESCTHY933353	Hydrocortisone acetate powder 10 gram
+^ESCTHY933354	Hydrocortisonecetat mikronisiert powder (Imported (Germany))
+^ESCTHY933355	Hydrocortisonecetat mikronisiert powder (Imported (Germany)) 10 gram
+^ESCTHY940658	Hydrocortisone 2.5% eye ointment (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY940659	Hydrocortisone 2.5% eye ointment (Alliance Healthcare (Distribution) Ltd) 3 gram
+^ESCTHY964264	Hydrocortisone 1% cream (Pinewood Healthcare)
+^ESCTHY964265	Hydrocortisone 1% cream (Pinewood Healthcare) 15 gram
+^ESCTHY964624	Hydrocortisone + Potassium hydroxyquinoline sulfate
+^ESCTHY964653	Hydrocortisone 1% cream (Numark Ltd)
+^ESCTHY964654	Hydrocortisone 1% cream (Numark Ltd) 15 gram
+^ESCTHY966607	Hydrocortisone sodium succinate 100mg powder for solution for injection vials 10 vial
+^ESCTHY966827	Hydrocortisone sodium succinate 100mg powder for solution for injection vials
+^ESCTHY969124	Hydrocortisone butyrate
+^ESCTHY974980	Hydrocortisone 0.5% cream (A A H Pharmaceuticals Ltd) 30 gram
+^ESCTHY974987	Hydrocortisone 2.5% cream (A A H Pharmaceuticals Ltd) 30 gram
+^ESCTHY974992	Hydrocortisone 0.5% ointment (A A H Pharmaceuticals Ltd) 30 gram
+^ESCTHY974993	Hydrocortisone 2.5% ointment (A A H Pharmaceuticals Ltd) 30 gram
+^ESCTHY976972	Hydrocortisone 0.5% cream (Essential Generics Ltd)
+^ESCTHY976973	Hydrocortisone 0.5% cream (Essential Generics Ltd) 15 gram
+^ESCTHY976974	Hydrocortisone 0.5% cream (Essential Generics Ltd) 30 gram
+^ESCTHY976975	Hydrocortisone 1% cream (Essential Generics Ltd)
+^ESCTHY976976	Hydrocortisone 1% cream (Essential Generics Ltd) 15 gram
+^ESCTHY976977	Hydrocortisone 1% cream (Essential Generics Ltd) 30 gram
+^ESCTHY976978	Hydrocortisone 1% cream (Essential Generics Ltd) 50 gram
+^ESCTHY976979	Hydrocortisone 2.5% cream (Essential Generics Ltd)
+^ESCTHY976980	Hydrocortisone 2.5% cream (Essential Generics Ltd) 15 gram
+^ESCTHY976981	Hydrocortisone 2.5% cream (Essential Generics Ltd) 30 gram
+^ESCTHY976982	Hydrocortisone 0.5% ointment (Essential Generics Ltd)
+^ESCTHY976983	Hydrocortisone 0.5% ointment (Essential Generics Ltd) 15 gram
+^ESCTHY976984	Hydrocortisone 0.5% ointment (Essential Generics Ltd) 30 gram
+^ESCTHY976985	Hydrocortisone 1% ointment (Essential Generics Ltd)
+^ESCTHY976986	Hydrocortisone 1% ointment (Essential Generics Ltd) 15 gram
+^ESCTHY976987	Hydrocortisone 1% ointment (Essential Generics Ltd) 30 gram
+^ESCTHY976988	Hydrocortisone 1% ointment (Essential Generics Ltd) 50 gram
+^ESCTHY976989	Hydrocortisone 2.5% ointment (Essential Generics Ltd)
+^ESCTHY976990	Hydrocortisone 2.5% ointment (Essential Generics Ltd) 15 gram
+^ESCTHY976991	Hydrocortisone 2.5% ointment (Essential Generics Ltd) 30 gram
+^ESCTHY979819	Hydrocortisone 0.5% cream (Alliance Healthcare (Distribution) Ltd) 30 gram
+^ESCTHY979820	Hydrocortisone 2.5% cream (Alliance Healthcare (Distribution) Ltd) 30 gram
+^ESCTHY979821	Hydrocortisone 0.5% ointment (Alliance Healthcare (Distribution) Ltd) 30 gram
+^ESCTHY979822	Hydrocortisone 2.5% ointment (Alliance Healthcare (Distribution) Ltd) 30 gram
+^ESCTHY987500	Hydrocortisone 100mg suppositories 1 suppository
+^ESCTHY987501	Hydrocortisone 100mg suppositories (Special Order)
+^ESCTHY987503	Hydrocortisone 100mg suppositories (Special Order) 1 suppository
+^ESCTHY987699	Hydrocortisone 100mg suppositories
+^ESCTHY988180	Hydrocortisone 50mg suppositories 1 suppository
+^ESCTHY988181	Hydrocortisone 50mg suppositories (Special Order)
+^ESCTHY988182	Hydrocortisone 50mg suppositories (Special Order) 1 suppository
+^ESCTHY988235	Hydrocortisone 50mg suppositories
+^ESCTHY991243	Hydrocortisone 1% ointment (Pinewood Healthcare)
+^ESCTHY991245	Hydrocortisone 1% ointment (Pinewood Healthcare) 15 gram
+^ESCTHY992574	Hydrocortisone 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTHY992577	Hydrocortisone 10mg tablets (Mawdsley-Brooks & Company Ltd) 25 tablet
+^ESCTHY993006	Hydrocortisone 1% ointment (Pinewood Healthcare) 30 gram
+^ESCTHY997461	Hydrocortisone 1% cream (Pinewood Healthcare) 30 gram
+^ESCTHY997462	Hydrocortisone 1% ointment (Pinewood Healthcare) 50 gram
+^ESCTHY999204	Hydrocortisone 1% cream (Sovereign Medical Ltd)
+^ESCTHY999206	Hydrocortisone 1% cream (Sovereign Medical Ltd) 15 gram
+^ESCTHY999208	Hydrocortisone 1% cream (Sovereign Medical Ltd) 30 gram
+^ESCTHY999210	Hydrocortisone 1% cream (Sovereign Medical Ltd) 50 gram
+^ESCTHY999211	Hydrocortisone 1% ointment (Sovereign Medical Ltd)
+^ESCTHY999212	Hydrocortisone 1% ointment (Sovereign Medical Ltd) 15 gram
+^ESCTHY999213	Hydrocortisone 1% ointment (Sovereign Medical Ltd) 30 gram
+^ESCTHY999214	Hydrocortisone 1% ointment (Sovereign Medical Ltd) 50 gram
+^ESCTIC1126250	Ichthammol 1% / Clioquinol 3% in Hydrocortisone 1% ointment 1 gram
+^ESCTIC1126251	Ichthammol 1% / Clioquinol 3% in Hydrocortisone 1% ointment (Special Order)
+^ESCTIC1126252	Ichthammol 1% / Clioquinol 3% in Hydrocortisone 1% ointment (Special Order) 1 gram
+^ESCTIC1126333	Ichthammol 1% / Clioquinol 3% in Hydrocortisone 1% ointment
+^ESCTIC1126359	Ichthammol + Clioquinol + Hydrocortisone
+^ESCTIC981573	Ichthammol 2% in Hydrocortisone 1% ointment 1 gram
+^ESCTIC981574	Ichthammol 2% in Hydrocortisone 1% ointment (Special Order)
+^ESCTIC981575	Ichthammol 2% in Hydrocortisone 1% ointment (Special Order) 1 gram
+^ESCTIC981576	Ichthammol 5% in Hydrocortisone 1% ointment 1 gram
+^ESCTIC981577	Ichthammol 5% in Hydrocortisone 1% ointment (Special Order)
+^ESCTIC981578	Ichthammol 5% in Hydrocortisone 1% ointment (Special Order) 1 gram
+^ESCTIC981597	Ichthammol + Hydrocortisone
+^ESCTIC981624	Ichthammol 2% in Hydrocortisone 1% ointment
+^ESCTIC981625	Ichthammol 5% in Hydrocortisone 1% ointment
+^ESCTIO635921	Iodoquinol+hydrocortisone 1%/1% cream
+^ESCTIO661407	Iodoquinol+hydrocortisone
+^ESCTLA873993	Lanacort 1% cream (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTLA873994	Lanacort 1% cream (Reckitt Benckiser Healthcare (UK) Ltd) 15 gram
+^ESCTLA874308	Lanacort 1% ointment (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTLA874309	Lanacort 1% ointment (Reckitt Benckiser Healthcare (UK) Ltd) 15 gram
+^ESCTLA918189	Lanacort
+^ESCTLI1028994	Lidocaine 1% / Hydrocortisone 0.1% mouthwash 1 ml
+^ESCTLI1028995	Lidocaine 1% / Hydrocortisone 0.1% mouthwash (Special Order)
+^ESCTLI1028996	Lidocaine 1% / Hydrocortisone 0.1% mouthwash (Special Order) 1 ml
+^ESCTLI1029173	Lidocaine 1% / Hydrocortisone 0.1% mouthwash
+^ESCTLI1044229	Lidocaine 1% / Hydrocortisone 0.1% mouthwash 200 ml
+^ESCTLI1044230	Lidocaine 1% / Hydrocortisone 0.1% mouthwash 500 ml
+^ESCTLI1044231	Lidocaine 1% / Hydrocortisone 0.1% mouthwash (Special Order) 200 ml
+^ESCTLI1044232	Lidocaine 1% / Hydrocortisone 0.1% mouthwash (Special Order) 500 ml
+^ESCTLI1100669	Lidocaine 5% / Hydrocortisone acetate 0.275% ointment (Ennogen Healthcare Ltd)
+^ESCTLI1100670	Lidocaine 5% / Hydrocortisone acetate 0.275% ointment (Ennogen Healthcare Ltd) 20 gram
+^ESCTLI606521	Lidocaine 1% / Hydrocortisone 0.2% spray
+^ESCTLI617803	Lidocaine + Hydrocortisone
+^ESCTLI664075	Lignocaine 5% / Hydrocortisone acetate 0.275% ointment
+^ESCTLI839946	Lidocaine 5% / Hydrocortisone acetate 0.275% ointment 30 gram
+^ESCTLI862202	Lidocaine 5% / Hydrocortisone acetate 0.275% ointment
+^ESCTLI864755	Lidocaine 1% / Hydrocortisone 0.2% spray 30 ml
+^ESCTLI874874	Lidocaine 5% / Hydrocortisone acetate 0.275% ointment 20 gram
+^ESCTLO1007202	Locoid 0.1% scalp lotion (Lexon (UK) Ltd)
+^ESCTLO1007203	Locoid 0.1% scalp lotion (Lexon (UK) Ltd) 100 ml
+^ESCTLO804304	Locoid C cream (Astellas Pharma Ltd)
+^ESCTLO832590	Locoid 0.1% ointment (LEO Pharma)
+^ESCTLO854922	Locoid 0.1% ointment (LEO Pharma) 30 gram
+^ESCTLO854923	Locoid 0.1% ointment (LEO Pharma) 100 gram
+^ESCTLO856923	Locoid C cream (Astellas Pharma Ltd) 30 gram
+^ESCTLO861282	Locoid 0.1% cream (LEO Pharma)
+^ESCTLO861283	Locoid 0.1% cream (LEO Pharma) 30 gram
+^ESCTLO861284	Locoid 0.1% cream (LEO Pharma) 100 gram
+^ESCTLO861290	Locoid 0.1% Lipocream (LEO Pharma)
+^ESCTLO861292	Locoid 0.1% Lipocream (LEO Pharma) 30 gram
+^ESCTLO861294	Locoid 0.1% Lipocream (LEO Pharma) 100 gram
+^ESCTLO864276	Locoid 0.1% scalp lotion (LEO Pharma)
+^ESCTLO864277	Locoid 0.1% scalp lotion (LEO Pharma) 100 ml
+^ESCTLO866452	Locoid Crelo 0.1% topical emulsion (LEO Pharma)
+^ESCTLO866454	Locoid Crelo 0.1% topical emulsion (LEO Pharma) 100 gram
+^ESCTLO869402	Locoid C ointment (Astellas Pharma Ltd)
+^ESCTLO869403	Locoid C ointment (Astellas Pharma Ltd) 30 gram
+^ESCTLO933624	Locoid 0.1% cream (Waymade Healthcare Plc)
+^ESCTLO933625	Locoid 0.1% cream (Waymade Healthcare Plc) 30 gram
+^ESCTLO933626	Locoid 0.1% ointment (Waymade Healthcare Plc)
+^ESCTLO933627	Locoid 0.1% ointment (Waymade Healthcare Plc) 30 gram
+^ESCTLO967129	Locoid 0.1% cream (DE Pharmaceuticals)
+^ESCTLO967130	Locoid 0.1% cream (DE Pharmaceuticals) 30 gram
+^ESCTLO967131	Locoid 0.1% Lipocream (DE Pharmaceuticals)
+^ESCTLO967132	Locoid 0.1% Lipocream (DE Pharmaceuticals) 30 gram
+^ESCTLO971004	Locoid 0.1% cream (Sigma Pharmaceuticals Plc)
+^ESCTLO971005	Locoid 0.1% cream (Sigma Pharmaceuticals Plc) 30 gram
+^ESCTLO971042	Locoid 0.1% Lipocream (Sigma Pharmaceuticals Plc)
+^ESCTLO971044	Locoid 0.1% Lipocream (Sigma Pharmaceuticals Plc) 30 gram
+^ESCTLO971049	Locoid 0.1% ointment (Sigma Pharmaceuticals Plc)
+^ESCTLO971050	Locoid 0.1% ointment (Sigma Pharmaceuticals Plc) 30 gram
+^ESCTLO989281	Locoid 0.1% ointment (Lexon (UK) Ltd)
+^ESCTLO989282	Locoid 0.1% ointment (Lexon (UK) Ltd) 30 gram
+^ESCTLO992610	Locoid 0.1% Lipocream (Mawdsley-Brooks & Company Ltd)
+^ESCTLO992611	Locoid 0.1% Lipocream (Mawdsley-Brooks & Company Ltd) 30 gram
+^ESCTLO992616	Locoid 0.1% ointment (Mawdsley-Brooks & Company Ltd)
+^ESCTLO992618	Locoid 0.1% ointment (Mawdsley-Brooks & Company Ltd) 30 gram
+^ESCTLO992625	Locoid 0.1% scalp lotion (Mawdsley-Brooks & Company Ltd)
+^ESCTLO992626	Locoid 0.1% scalp lotion (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCTME1116424	Menthol 1% in Hydrocortisone 1% cream 1 gram
+^ESCTME1116425	Menthol 1% in Hydrocortisone 1% cream (Special Order)
+^ESCTME1116426	Menthol 1% in Hydrocortisone 1% cream (Special Order) 1 gram
+^ESCTME1116482	Menthol + Hydrocortisone
+^ESCTME1116538	Menthol 1% in Hydrocortisone 1% cream
+^ESCTMI616053	Miconazole 2% / Hydrocortisone 1% ointment
+^ESCTMI616056	Miconazole 2% / Hydrocortisone 1% cream
+^ESCTMI872669	Mildison Lipocream 1% cream (LEO Pharma)
+^ESCTMI872670	Mildison Lipocream 1% cream (LEO Pharma) 30 gram
+^ESCTNE615779	Neomycin+hydrocortisone 0.5%/1.5% ear drops
+^ESCTNE615785	Neomycin+hydrocortisone 0.5%/1.5% eye/ear ointment
+^ESCTNE615787	Neomycin+hydrocortisone 0.5%/1.5% eye/ear drops
+^ESCTNE866187	Neo-Cortef ear/eye ointment (PLIVA Pharma Ltd)
+^ESCTNE866190	Neo-Cortef ear/eye ointment (PLIVA Pharma Ltd) 3.9 gram
+^ESCTNE866317	Neo-Cortef ear/eye drops (PLIVA Pharma Ltd)
+^ESCTNE866318	Neo-Cortef ear/eye drops (PLIVA Pharma Ltd) 10 ml
+^ESCTNY1150531	Nystatin 100,000units/g / Chlorhexidine hydrochloride 1% / Hydrocortisone 0.5% cream (Typharm Ltd)
+^ESCTNY1150532	Nystatin 100,000units/g / Chlorhexidine hydrochloride 1% / Hydrocortisone 0.5% cream (Typharm Ltd) 30 gram
+^ESCTNY1150537	Nystatin 100,000units/g / Chlorhexidine acetate 1% / Hydrocortisone 1% ointment (Typharm Ltd)
+^ESCTNY1150538	Nystatin 100,000units/g / Chlorhexidine acetate 1% / Hydrocortisone 1% ointment (Typharm Ltd) 30 gram
+^ESCTNY1150754	Nystatin + Chlorhexidine + Hydrocortisone
+^ESCTNY859282	Nystatin 100,000units/g / Chlorhexidine hydrochloride 1% / Hydrocortisone 0.5% cream 30 gram
+^ESCTNY859292	Nystaform HC cream (Typharm Ltd)
+^ESCTNY859296	Nystaform HC cream (Typharm Ltd) 30 gram
+^ESCTNY862443	Nystatin 100,000units/g / Chlorhexidine hydrochloride 1% / Hydrocortisone 0.5% cream
+^ESCTNY863482	Nystatin 100,000units/g / Chlorhexidine acetate 1% / Hydrocortisone 1% ointment 30 gram
+^ESCTNY863483	Nystaform HC ointment (Typharm Ltd)
+^ESCTNY863484	Nystaform HC ointment (Typharm Ltd) 30 gram
+^ESCTNY863569	Nystatin 100,000units/g / Chlorhexidine acetate 1% / Hydrocortisone 1% ointment
+^ESCTNY864314	Nystaform cream (Typharm Ltd)
+^ESCTNY864315	Nystaform cream (Typharm Ltd) 30 gram
+^ESCTNY915230	Nystaform
+^ESCTNY915232	Nystaform HC
+^ESCTOT1000503	Otosporin ear drops (Mawdsley-Brooks & Company Ltd)
+^ESCTOT815038	Otosporin ear drops (Phoenix Labs Ltd)
+^ESCTOT877090	Otosporin ear drops (Waymade Healthcare Plc)
+^ESCTOT877363	Otosporin ear drops (Dowelhurst Ltd)
+^ESCTOT967315	Otosporin ear drops (DE Pharmaceuticals)
+^ESCTOT974424	Otosporin ear drops (Sigma Pharmaceuticals Plc)
+^ESCTOT989605	Otosporin ear drops (Lexon (UK) Ltd)
+^ESCTOT993439	Otosporin ear drops (Stephar (U.K.) Ltd)
+^ESCTOX616041	Oxytetracycline 3% / Hydrocortisone 1% ointment
+^ESCTOX617812	Oxytetracycline + Hydrocortisone
+^ESCTOX859495	Oxytetracycline 3% / Hydrocortisone 1% ointment 15 gram
+^ESCTOX859496	Oxytetracycline 3% / Hydrocortisone 1% ointment 30 gram
+^ESCTPE864763	Perinal spray (Dermal Laboratories Ltd)
+^ESCTPE864767	Perinal spray (Dermal Laboratories Ltd) 30 ml
+^ESCTPI1040194	Pinewood Bites and Stings Relief 1% cream (Pinewood Healthcare)
+^ESCTPI1040195	Pinewood Bites and Stings Relief 1% cream (Pinewood Healthcare) 10 gram
+^ESCTPL940073	Plenadren
+^ESCTPR1012205	Proctosedyl ointment (DE Pharmaceuticals)
+^ESCTPR1012206	Proctosedyl ointment (DE Pharmaceuticals) 30 gram
+^ESCTPR322135	Product containing hydrocortisone in otic dosage form
+^ESCTPR619423	Product containing hydrocortisone in rectal dosage form
+^ESCTPR619425	Product containing hydrocortisone in parenteral dosage form
+^ESCTPR619427	Product containing hydrocortisone in oral dosage form
+^ESCTPR638744	Product containing hydrocortisone 5 mg/1 each oral tablet
+^ESCTPR770951	Product containing ciprofloxacin and hydrocortisone in otic dosage form
+^ESCTPR774199	Product containing hydrocortisone acetate in oral dosage form
+^ESCTPR774201	Product containing hydrocortisone acetate in topical dosage form
+^ESCTPR774203	Product containing hydrocortisone acetate in ophthalmic dosage form
+^ESCTPR774205	Product containing hydrocortisone acetate in parenteral dosage form
+^ESCTPR819866	Proctosedyl ointment (Sanofi)
+^ESCTPR820047	Proctosedyl suppositories (Sanofi)
+^ESCTPR856737	Proctosedyl ointment (Sanofi) 30 gram
+^ESCTPR856740	Proctosedyl suppositories (Sanofi) 12 suppository
+^ESCTPR859048	Proctofoam HC foam enema (Meda Pharmaceuticals Ltd)
+^ESCTPR859050	Proctofoam HC foam enema (Meda Pharmaceuticals Ltd) 40 dose 1 x 21.2g
+^ESCTPR915762	Proctofoam HC
+^ESCTPR915763	Proctosedyl
+^ESCTQU874401	Quinocort cream (Ecolab Healthcare Division)
+^ESCTQU874402	Quinocort cream (Ecolab Healthcare Division) 30 gram
+^ESCTSA1069482	Salicylic acid 2% / Sulfur 2% in Hydrocortisone 1% cream 1 gram
+^ESCTSA1069483	Salicylic acid 2% / Sulfur 2% in Hydrocortisone 1% cream (Special Order)
+^ESCTSA1069484	Salicylic acid 2% / Sulfur 2% in Hydrocortisone 1% cream (Special Order) 1 gram
+^ESCTSA1070169	Salicylic acid 2% / Sulfur 2% in Hydrocortisone 1% cream
+^ESCTSA1116375	Salicylic acid 1% / Sulfur 1% in Hydrocortisone 1% cream 1 gram
+^ESCTSA1116376	Salicylic acid 1% / Sulfur 1% in Hydrocortisone 1% cream (Special Order)
+^ESCTSA1116377	Salicylic acid 1% / Sulfur 1% in Hydrocortisone 1% cream (Special Order) 1 gram
+^ESCTSA1116545	Salicylic acid 1% / Sulfur 1% in Hydrocortisone 1% cream
+^ESCTSO616045	Sodium fusidate 2% / Hydrocortisone acetate 1% ointment
+^ESCTSO867781	Solu-Cortef 100mg powder and solvent for solution for injection vials (Pfizer Ltd)
+^ESCTSO867783	Solu-Cortef 100mg powder and solvent for solution for injection vials (Pfizer Ltd) 1 vial
+^ESCTSO966612	Solu-Cortef 100mg powder for solution for injection vials (Pfizer Ltd)
+^ESCTSO966613	Solu-Cortef 100mg powder for solution for injection vials (Pfizer Ltd) 10 vial
+^ESCTSU1109621	Sulfur 2% in Hydrocortisone 0.5% cream 1 gram
+^ESCTSU1109622	Sulfur 2% in Hydrocortisone 0.5% cream (Special Order)
+^ESCTSU1109624	Sulfur 2% in Hydrocortisone 0.5% cream (Special Order) 1 gram
+^ESCTSU1109691	Sulfur + Hydrocortisone
+^ESCTSU1109729	Sulfur 2% in Hydrocortisone 0.5% cream
+^ESCTSU1116297	Sulfur 0.5% in Hydrocortisone 1% cream 1 gram
+^ESCTSU1116298	Sulfur 0.5% in Hydrocortisone 1% cream (Special Order)
+^ESCTSU1116299	Sulfur 0.5% in Hydrocortisone 1% cream (Special Order) 1 gram
+^ESCTSU1116551	Sulfur 0.5% in Hydrocortisone 1% cream
+^ESCTSU1129012	Sulfur 2% in Hydrocortisone 1% ointment 1 gram
+^ESCTSU1129013	Sulfur 2% in Hydrocortisone 1% ointment (Special Order)
+^ESCTSU1129014	Sulfur 2% in Hydrocortisone 1% ointment (Special Order) 1 gram
+^ESCTSU1129120	Sulfur 2% in Hydrocortisone 1% ointment
+^ESCTSU1133063	Sulfur 1% in Hydrocortisone 1% cream (Special Order)
+^ESCTSU1133064	Sulfur 1% in Hydrocortisone 1% cream 1 gram
+^ESCTSU1133065	Sulfur 1% in Hydrocortisone 1% cream (Special Order) 1 gram
+^ESCTSU1133357	Sulfur 1% in Hydrocortisone 1% cream
+^ESCTTE1035459	Terra-Cortril ointment (Intrapharm Laboratories Ltd)
+^ESCTTE1035460	Terra-Cortril ointment (Intrapharm Laboratories Ltd) 30 gram
+^ESCTTE859500	Terra-Cortril ointment (Pfizer Ltd)
+^ESCTTE859501	Terra-Cortril ointment (Pfizer Ltd) 15 gram
+^ESCTTE859503	Terra-Cortril ointment (Pfizer Ltd) 30 gram
+^ESCTTE863492	Terra-Cortril Nystatin cream (Pfizer Ltd)
+^ESCTTI802931	Timodine cream (Alliance Pharmaceuticals Ltd)
+^ESCTTO398519	Topical hydrocortisone
+^ESCTUN823220	Uniroid HC ointment (Chemidex Pharma Ltd)
+^ESCTUN831996	Uniroid HC suppositories (Chemidex Pharma Ltd)
+^ESCTUN856735	Uniroid HC ointment (Chemidex Pharma Ltd) 30 gram
+^ESCTUN856741	Uniroid HC suppositories (Chemidex Pharma Ltd) 12 suppository
+^ESCTUN916937	Uniroid HC
+^ESCTUR616033	Urea 10% / Hydrocortisone 1% cream
+^ESCTVI820326	Vioform-Hydrocortisone cream (Novartis Consumer Health UK Ltd)
+^ESCTVI830570	Vioform-Hydrocortisone ointment (Novartis Consumer Health UK Ltd)
+^ESCTVI856710	Vioform-Hydrocortisone ointment (Novartis Consumer Health UK Ltd) 30 gram
+^ESCTVI856711	Vioform-Hydrocortisone cream (Novartis Consumer Health UK Ltd) 30 gram
+^ESCTVI917118	Vioform-Hydrocortisone
+^ESCTXY833583	Xyloproct 5%/0.275% ointment (Aspen Pharma Trading Ltd)
+^ESCTXY856180	Xyloproct 5%/0.275% ointment (Aspen Pharma Trading Ltd) 30 gram
+^ESCTXY874880	Xyloproct 5%/0.275% ointment (Aspen Pharma Trading Ltd) 20 gram
+^ESCTXY917283	Xyloproct
+^ESCTZE821333	Zenoxone 1% cream (Teva UK Ltd)
+^ESCTZE851048	Zenoxone 1% cream (Teva UK Ltd) 15 gram
+^ESCTZE917359	Zenoxone
+^ESCTZE968030	Zenoxone 1% cream (DE Pharmaceuticals)
+^ESCTZE968031	Zenoxone 1% cream (DE Pharmaceuticals) 15 gram
+ACLO37	Actinac  Lotion  
+ACPO38	Actinac  Powder and solvent  
+ALCR81	Alphaderm  Cream  1 % + 10 %
+BACR3218	Barquinol Hc  Cream  
+CACR11263NEMIS	Canesten Hydrocortisone  Cream  
+CACR22644EMIS	Carbo-Cort  Cream  
+CACR462	Calmurid Hc  Cream  
+CACR477	Canesten Hc  Cream  
+CHEY575	Chloromycetin Hydrocortisone  Eye ointment  
+CIOI19978NEMIS	Cinchocaine Hydrochloride And Hydrocortisone  Ointment  0.5 % + 0.5 %
+CISU19977NEMIS	Cinchocaine Hydrochloride And Hydrocortisone  Suppositories  5 mg + 5 mg
+CLCR972NEMIS	Clotrimazole And Hydrocortisone  Cream  1 % + 1 %
+COCR10749BRIDL	Cobadex 1%  Cream  
+COFO3342	Colifoam  Foam  10 %
+COLO9241BRIDL	Corlan Pellets  Lozenges  2.5 mg
+CORE3362	Cortenema  Retention enema  100 mg/60 ml
+DACR792	Daktacort  Cream  2 % + 1 %
+DAOI8859BRIDL	Daktacort  Ointment  
+DECR29304NEMIS	Dermacort Hydrocortisone  Cream  0.1 %
+DICR3449	Dioderm  Cream  0.1 %
+ECCR3485	Econacort  Cream  
+ECCR3496	Eczederm With Hydrocortisone  Cream  
+EFCR1023	Efcortelan  Cream  0.5 %
+EFCR1024	Efcortelan  Cream  1 %
+EFCR1025	Efcortelan  Cream  2.5 %
+EFIN1029	Efcortesol  Injection  100 mg/ml
+EFIN3498	Efcortelan Soluble  Injection  100 mg/vial
+EFLO3497	Efcortelan  Lotion  1 %
+EFOI1026	Efcortelan  Ointment  0.5 %
+EFOI1027	Efcortelan  Ointment  1 %
+EFOI1028	Efcortelan  Ointment  2.5 %
+EFSO23286NEMIS	Efcortesol  Solution for injection  100 mg/ml, 1 ml ampoule
+EFSO23287NEMIS	Efcortesol  Solution for injection  100 mg/ml, 5 ml ampoule
+EPFO3522	Epifoam  Foam
+EUCR1130	Eurax-Hydrocortisone  Cream  
+EUCR11329NEMIS	Eurax Hc  Cream  
+FREA1241	Framycort  Ear drops
+FREY1242	Framycort  Eye drops
+FREY1243	Framycort  Eye ointment  
+FROI9292BRIDL	Framycort  Ointment  
+FUCR3611	Fucidin H  Cream  
+FUCR986NEMIS	Fusidic Acid And Hydrocortisone Acetate  Cream  2 % + 1 %
+FUGE3612	Fucidin H  Gel  
+FUOI3613	Fucidin H  Ointment  
+GECR9229EMIS	Gentisone Hc  Cream  
+GEEA988NEMIS	Gentamicin And Hydrocortisone Acetate  Ear drops  0.3 % + 1 %
+GEEAEGTON6000	Gentisone Hc  Ear-drops  
+GEOI1294	Genticin Hc  Ointment  
+GEOI9230EMIS	Gentisone Hc  Ointment  
+GESP15486NEMIS	Germoloids Hc  Spray  
+GROI3669	Gregoderm  Ointment  
+HYCR133334NEMIS	Hydrocortisone Acetate  Cream  1 %
+HYCR1389	Hydrocortisone  Cream  0.5 %
+HYCR1391	Hydrocortisone  Cream  2.5 %
+HYCR19475NEMIS	Hydrocortisone And Urea  Cream  1 % + 10 %
+HYCR19695NEMIS	Hydrocortisone And Econazole  Cream  1 % + 1 %
+HYCR19697NEMIS	Hydrocortisone And Crotamiton  Cream  0.25 % + 10 %
+HYCR19807NEMIS	Hydrocortisone Butyrate And Chlorquinaldol  Cream  0.1 % + 3 %
+HYCR21343NEMIS	Hydrocortisone And Clioquinol  Cream  1 % + 3 %
+HYCR35403MGEMIS	Hydrocortisone  Cream  0.5 % (Kent Pharm)
+HYCR35404MGEMIS	Hydrocortisone  Cream  0.5 % (A.A.H. Pharm)
+HYCR35405MGEMIS	Hydrocortisone  Cream  0.5 % (Alpharma)
+HYCR35406MGEMIS	Hydrocortisone  Cream  0.5 % (Unichem)
+HYCR35407MGEMIS	Hydrocortisone  Cream  0.5 % (The Boots Company)
+HYCR35408MGEMIS	Hydrocortisone  Cream  0.5 % (Teva UK)
+HYCR35409MGEMIS	Hydrocortisone  Cream  2.5 % (A.A.H. Pharm)
+HYCR35410MGEMIS	Hydrocortisone  Cream  2.5 % (Kent Pharm)
+HYCR35411MGEMIS	Hydrocortisone  Cream  2.5 % (Unichem)
+HYCR35412MGEMIS	Hydrocortisone  Cream  2.5 % (Teva UK)
+HYCR35413MGEMIS	Hydrocortisone  Cream  1 % (Unichem)
+HYCR35414MGEMIS	Hydrocortisone  Cream  1 % (Kent Pharm)
+HYCR35415MGEMIS	Hydrocortisone  Cream  1 % (A.A.H. Pharm)
+HYCR35416MGEMIS	Hydrocortisone  Cream  1 % (Alpharma)
+HYCR35417MGEMIS	Hydrocortisone  Cream  1 % (Teva UK)
+HYCR35418MGEMIS	Hydrocortisone  Cream  1 % (Lloyds)
+HYCR3725	Hydrocortisone And Neomycin  Cream  
+HYCR3729	Hydrocortisyl  Cream  1 %
+HYCR48123NEMIS	Hydromol Hc Intensive  Cream  
+HYCR5007	Hydrocortisone Butyrate  Cream  0.1 %
+HYCR9283BRIDL	Hydrocortisone  Cream  0.1 %
+HYCR9604HILLI	Hydrocal  Cream  1 %
+HYCR9606HILLI	Hydrocortistab  Cream  1 %
+HYCR990NEMIS	Hydrocortisone And Miconazole  Cream  1 % + 2 %
+HYCREGTON6239	Hydrocortisone  Cream  1 %
+HYDI141864NEMIS	Hydrocortisone  Dispersible Tablets Sugar Free  5 mg
+HYDI141865NEMIS	Hydrocortisone  Dispersible Tablets Sugar Free  10 mg
+HYDI141866NEMIS	Hydrocortisone  Dispersible Tablets Sugar Free  20 mg
+HYDR19451NEMIS	Hydrocortisone And Neomycin  Drops  1.5 % + 0.5 %
+HYEM28233EMIS	Hydrocortisone Butyrate  Emulsion  0.1 %
+HYEY10652BRIDL	Hydrocortisone Acetate  Eye ointment  0.5 %
+HYEY10654BRIDL	Hydrocortisone Acetate  Eye ointment  1 %
+HYEY10656BRIDL	Hydrocortisone Acetate  Eye ointment  2.5 %
+HYEY10658BRIDL	Hydrocortisone Acetate  Eye drops  1 %
+HYEY125489NEMIS	Hydrocortisone Sodium Phosphate  Eye drops (preservative-free)  3.35 mg/ml, 0.4 ml unit dose
+HYEY19450NEMIS	Hydrocortisone And Neomycin  Eye/Ear Ointment  1.5 % + 0.5 %
+HYEY35419MGEMIS	Hydrocortisone Acetate  Eye ointment  0.5 % (A.A.H. Pharm)
+HYEY35420MGEMIS	Hydrocortisone Acetate  Eye ointment  0.5 % (Martindale)
+HYEY35421MGEMIS	Hydrocortisone Acetate  Eye ointment  0.5 % (Unichem)
+HYEY35422MGEMIS	Hydrocortisone Acetate  Eye ointment  1 % (A.A.H. Pharm)
+HYEY35423MGEMIS	Hydrocortisone Acetate  Eye ointment  1 % (Martindale)
+HYEY35424MGEMIS	Hydrocortisone Acetate  Eye ointment  1 % (Unichem)
+HYEY35425MGEMIS	Hydrocortisone Acetate  Eye ointment  2.5 % (Martindale)
+HYEY35426MGEMIS	Hydrocortisone Acetate  Eye ointment  2.5 % (A.A.H. Pharm)
+HYFO5005	Hydrocortisone Acetate  Foam  10 %
+HYIN1399	Hydrocortistab  Suspension For Injection  25 mg/ml, 1 ml ampoule
+HYIN3726	Hydrocortisone Sodium Succinate  Powder For Solution For Injection  100 mg/vial
+HYIN5000	Hydrocortisone  Injection  100 mg/vial
+HYIN5006	Hydrocortisone Acetate  Suspension For Injection  25 mg/ml, 1 ml ampoule
+HYIN6927	Hydrocortisone  Injection  500 mg/vial
+HYLI24449EMIS	Hydrocortisone Butyrate  Lipocream  0.1 %
+HYLO5001	Hydrocortisone  Lotion  1 %
+HYLO5008	Hydrocortisone Butyrate  Scalp lotion  0.1 %
+HYLO5009	Hydrocortisone(As Sodium Succinate)  Muco-adhesive buccal tablets  Sugar Free 2.5 mg
+HYOI1395	Hydrocortisone  Ointment  0.5 %
+HYOI1397	Hydrocortisone  Ointment  2.5 %
+HYOI19699NEMIS	Hydrocortisone And Sodium Fusidate  Ointment  1 % + 2 %
+HYOI19808NEMIS	Hydrocortisone Butyrate And Chlorquinaldol  Ointment  0.1 % + 3 %
+HYOI20116NEMIS	Hydrocortisone And Lidocaine  Ointment  0.275 % + 5 %
+HYOI21344NEMIS	Hydrocortisone And Clioquinol  Ointment  1 % + 3 %
+HYOI24450EMIS	Hydrocortisone Butyrate  Ointment  0.1 %
+HYOI35450MGEMIS	Hydrocortisone  Ointment  0.5 % (A.A.H. Pharm)
+HYOI35451MGEMIS	Hydrocortisone  Ointment  0.5 % (Kent Pharm)
+HYOI35452MGEMIS	Hydrocortisone  Ointment  0.5 % (Alpharma)
+HYOI35453MGEMIS	Hydrocortisone  Ointment  0.5 % (Unichem)
+HYOI35454MGEMIS	Hydrocortisone  Ointment  0.5 % (The Boots Company)
+HYOI35455MGEMIS	Hydrocortisone  Ointment  0.5 % (Teva UK)
+HYOI35456MGEMIS	Hydrocortisone  Ointment  2.5 % (A.A.H. Pharm)
+HYOI35457MGEMIS	Hydrocortisone  Ointment  2.5 % (Kent Pharm)
+HYOI35458MGEMIS	Hydrocortisone  Ointment  2.5 % (Unichem)
+HYOI35459MGEMIS	Hydrocortisone  Ointment  2.5 % (Teva UK)
+HYOI35465MGEMIS	Hydrocortisone  Ointment  1 % (A.A.H. Pharm)
+HYOI35466MGEMIS	Hydrocortisone  Ointment  1 % (Kent Pharm)
+HYOI35467MGEMIS	Hydrocortisone  Ointment  1 % (Unichem)
+HYOI35468MGEMIS	Hydrocortisone  Ointment  1 % (Alpharma)
+HYOI35469MGEMIS	Hydrocortisone  Ointment  1 % (Teva UK)
+HYOI3728	Hydrocortistab  Ointment  1 %
+HYOI3730	Hydrocortisyl  Ointment  1 %
+HYOI3733	Hydroderm  Ointment  
+HYOI5002	Hydrocortisone  Ointment  1 %
+HYOI76712NEMIS	Hydrocortisone And Oxytetracycline  Ointment  1 % + 3 %
+HYOI991NEMIS	Hydrocortisone And Miconazole  Ointment  1 % + 2 %
+HYOR11425NEMIS	Hydrocortisone  Oral Suspension (Sugar-Free)  5 mg/5 ml
+HYPO77660NEMIS	Hydrocortisone Sodium Succinate  Powder and solvent for solution for injection  100 mg/vial
+HYRE18529NEMIS	Hydrocortisone And Pramocaine  Rectal foam  1 % + 1 % per dose
+HYSO23283NEMIS	Hydrocortisone Sodium Phosphate  Solution for injection  100 mg/ml, 1 ml ampoule
+HYSO23285NEMIS	Hydrocortisone Sodium Phosphate  Solution for injection  100 mg/ml, 5 ml ampoule
+HYSO34585EMIS	Hydrocortisone  Powder  BP
+HYSP19980NEMIS	Hydrocortisone And Lidocaine  Spray  0.2 % + 1 %
+HYSU137703NEMIS	Hydrocortisone  Suppositories  50 mg
+HYSU30085NEMIS	Hydrocortisone  Suppositories  100 mg
+HYSU3723	Hydrocortisone  Suppositories  25 mg
+HYTA1400	Hydrocortistab  Tablets  20 mg
+LOCR1680	Locoid C  Cream  
+LOCR3847	Locoid  Cream  0.1 %
+LOCR6963	Locoid Lipocream  Cream  0.1 %
+LOEM28231EMIS	Locoid Crelo  Emulsion  0.1 %
+LOLO3848	Locoid  Scalp lotion  0.1 %
+LOOI8683EGTON	Locoid  Ointment  0.1 %
+LOOI9295BRIDL	Locoid C  Ointment  
+MILI8502EGTON	Mildison  Lipocream  1 %
+NEDR1955	Neo-Cortef  Drops  
+NEOI1956	Neo-Cortef  Ointment  
+NYCR117330NEMIS	Nystatin/Chlorhexidine Hydrochloride/Hydrocortisone  Cream  100,000 units/gram + 1 % + 0.5 %
+NYCR2047	Nystaform-Hc  Cream  
+NYCREGTON8085	Nystaform  Cream  
+NYOI117942NEMIS	Nystatin/Chlorhexidine Acetate/Hydrocortisone  Ointment  100,000 units/gram + 1 % + 1 %
+NYOI2048	Nystaform-Hc  Ointment  
+NYOIEGTON8086	Nystaform  Ointment  
+OTEA2120	Otosporin  Ear-drops  
+PESP22592EMIS	Perinal  Spray  
+PRFO2359	Proctofoam Hc  Foam  
+PROI2360	Proctosedyl  Ointment  
+PRSU2361	Proctosedyl  Suppositories  
+QUCR4250	Quinocort  Cream  
+QUCREGTON7257	Quinoderm With Hydrocortisone  Cream  
+SECR4309	Sential  Cream  
+SOEY125491NEMIS	Softacort  Eye drops  3.35 mg/ml, 0.4 ml unit dose
+SOIN2637	Solu-Cortef  Powder For Solution For Injection  100 mg/vial
+SOPO77661NEMIS	Solu-Cortef  Powder and solvent for solution for injection  100 mg/vial
+TECR4401	Terra-Cortril Nystatin  Cream  
+TEOI2821	Terra-Cortril  Ointment  
+TESP2822	Terra-Cortril  Spray
+TICR2861	Timodine  Cream  
+TROI8562EGTON	Tri-Cicatrin  Ointment  
+UNOI21983EMIS	Uniroid Hc  Ointment  
+UNOI4475	Uniroid  Ointment  
+UNSU21984EMIS	Uniroid Hc  Suppositories  
+UNSU4476	Uniroid  Suppositories  
+VICR4514	Vioform-Hydrocortisone  Cream  
+VIOI4515	Vioform-Hydrocortisone  Ointment  
+XYOI4533	Xyloproct  Ointment  
+XYSU4534	Xyloproct  Suppositories  
+ZECR31787NEMIS	Zenoxone  Cream  1 %

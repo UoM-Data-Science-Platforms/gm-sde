@@ -179,3 +179,5 @@ x03nt	Becotide 100 Easi-Breathe
 x042U	Becotide 100
 x042V	Becotide 200
 x042W	Becotide 50
+c615.	Becotide Rotahaler
+c624.	Ventide Rotahaler

@@ -86,3 +86,221 @@ PRTA15466NEMIS	Promethazine Hydrochloride  Tablets  20 mg
 PRTA2380	Promethazine Hydrochloride  Tablets  10 mg
 PRTA2381	Promethazine Hydrochloride  Tablets  25 mg
 SOTA9074BRIDL	Sominex  Tablets  20 mg
+^ESCT1178864	Dextromethorphan and promethazine
+^ESCT1178865	Product containing dextromethorphan and promethazine
+^ESCT1179321	Product containing only promethazine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181116	Product containing only promethazine theoclate 25 mg/1 each oral tablet
+^ESCT1182388	Codeine and phenylephrine and promethazine
+^ESCT1182389	Product containing codeine and phenylephrine and promethazine
+^ESCT1183241	Product containing only meperidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCT1183242	Product containing only pethidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCT1185421	Product containing only promethazine hydrochloride 12.5 mg/1 each oral tablet
+^ESCT1187699	Acetaminophen and promethazine hydrochloride
+^ESCT1187700	Product containing acetaminophen and promethazine hydrochloride
+^ESCT1187701	Product containing paracetamol and promethazine hydrochloride
+^ESCT1187702	Paracetamol and promethazine hydrochloride
+^ESCT1187703	Phenylephrine and promethazine
+^ESCT1187704	Product containing phenylephrine and promethazine
+^ESCT1204588	Paracetamol+promethazine hydrochloride 120mg/1.5mg/5mL conventional release oral suspension
+^ESCT1204589	Paracetamol+promethazine hydrochloride 120mg/1.5mg/5mL color free s/f suspension
+^ESCT1208754	Promethazine hydrochloride 1 mg/mL oral solution
+^ESCT1208755	Product containing precisely promethazine hydrochloride 1 milligram/1 milliliter conventional release oral solution
+^ESCT1210054	Promethazine hydrochloride 25 mg/mL solution for injection ampoule
+^ESCT1210055	Promethazine hydrochloride 25 mg/mL solution for injection ampule
+^ESCT1210056	Product containing precisely promethazine hydrochloride 25 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1212344	Promethazine 5mg/5ml oral solution sugar free
+^ESCT1212487	Vertigon
+^ESCT1213524	Vertigon 25mg tablets (Manx Healthcare Ltd)
+^ESCT1213526	Vertigon 25mg tablets (Manx Healthcare Ltd) 28 tablet
+^ESCT1213527	Vertigon 25mg tablets (Manx Healthcare Ltd) 10 tablet
+^ESCT1216808	Promethazine product
+^ESCT1223654	Product containing precisely promethazine theoclate 25 milligram/1 each conventional release oral tablet
+^ESCT1223655	Promethazine teoclate 25 mg oral tablet
+^ESCT1228905	Product containing precisely promethazine hydrochloride 12.5 milligram/1 each conventional release oral tablet
+^ESCT1228917	Product containing precisely promethazine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1229216	Pethidine hydrochloride 50 mg and promethazine hydrochloride 25 mg oral capsule
+^ESCT1229217	Meperidine hydrochloride 50 mg and promethazine hydrochloride 25 mg oral capsule
+^ESCT1229218	Product containing precisely pethidine hydrochloride 50 milligram and promethazine hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1231885	Codeine and phenylephrine and promethazine
+^ESCT1231886	Codeine and phenylephrine and promethazine product
+^ESCT1231893	Dextromethorphan and promethazine
+^ESCT1231894	Dextromethorphan and promethazine product
+^ESCT1233069	Pethidine + Promethazine
+^ESCT1233070	Pethidine and promethazine product
+^ESCT1233071	Meperidine and promethazine product
+^ESCT1233200	Phenylephrine and promethazine
+^ESCT1233201	Phenylephrine and promethazine product
+^ESCT1274794	Phenergan 25mg tablets (Pilsco Ltd) 56 tablet
+^ESCT1274837	Phenergan 25mg tablets (Pilsco Ltd)
+^ESCT1351646	Pethidine- and promethazine-containing product in oral dose form
+^ESCT1351647	Meperidine- and promethazine-containing product in oral dose form
+^ESCT1354359	Codeine and phenylephrine and promethazine only product
+^ESCT1354549	Dextromethorphan and promethazine only product
+^ESCT1356323	Pethidine and promethazine only product
+^ESCT1356324	Meperidine and promethazine only product
+^ESCT1356362	Phenylephrine and promethazine only product
+^ESCT1356518	Promethazine only product
+^ESCT1359542	Pethidine and promethazine only product in oral dose form
+^ESCT1359543	Meperidine and promethazine only product in oral dose form
+^ESCT1359684	Promethazine only product in oral dose form
+^ESCT1359685	Promethazine only product in parenteral dose form
+^ESCT1359686	Promethazine only product in rectal dose form
+^ESCT1361268	Promethazine hydrochloride 25 mg/mL solution for injection
+^ESCT1364063	Promethazine hydrochloride 5 mg/mL oral solution
+^ESCT1364064	Promethazine hydrochloride 50 mg/mL solution for injection
+^ESCT1364065	Promethazine hydrochloride 1.25 mg/mL oral solution
+^ESCT1364066	Codeine phosphate 2 mg/mL and promethazine hydrochloride 1.25 mg/mL oral solution
+^ESCT1364067	Codeine phosphate 2 mg/mL and phenylephrine hydrochloride 1 mg/mL and promethazine hydrochloride 1.25 mg/mL oral solution
+^ESCT1364068	Dextromethorphan hydrobromide 3 mg/mL and promethazine hydrochloride 1.25 mg/mL oral solution
+^ESCT1364850	Codeine- and phenylephrine- and promethazine-containing product in oral dose form
+^ESCT1364851	Codeine- and promethazine-containing product in oral dose form
+^ESCT1364866	Dextromethorphan- and promethazine-containing product in oral dose form
+^ESCT1364958	Paracetamol- and promethazine-containing product in oral dose form
+^ESCT1364959	Acetaminophen- and promethazine-containing product in oral dose form
+^ESCT1365645	Codeine and phenylephrine and promethazine only product in oral dose form
+^ESCT1365646	Codeine- and promethazine-containing product
+^ESCT1365661	Dextromethorphan and promethazine only product in oral dose form
+^ESCT1365752	Paracetamol- and promethazine-containing product
+^ESCT1365753	Acetaminophen- and promethazine-containing product
+^ESCT1365885	Codeine and promethazine only product
+^ESCT1365886	Codeine and promethazine only product in oral dose form
+^ESCT1365921	Paracetamol and promethazine only product
+^ESCT1365922	Acetaminophen and promethazine only product
+^ESCT1365923	Paracetamol and promethazine only product in oral dose form
+^ESCT1365924	Acetaminophen and promethazine only product in oral dose form
+^ESCT1376472	Promethazine-containing product
+^ESCT1381339	Promethazine-containing product in oral dose form
+^ESCT1381340	Promethazine-containing product in parenteral dose form
+^ESCT1381799	Promethazine hydrochloride 50 mg rectal suppository
+^ESCT1381968	Promethazine hydrochloride 25 mg rectal suppository
+^ESCT1381969	Promethazine hydrochloride 12.5 mg rectal suppository
+^ESCT1382071	Promethazine-containing product in rectal dose form
+^ESCT1382961	Codeine- and phenylephrine- and promethazine-containing product
+^ESCT1382964	Dextromethorphan- and promethazine-containing product
+^ESCT1383297	Phenylephrine- and promethazine-containing product
+^ESCT1385925	Paracetamol 24 mg/mL and promethazine hydrochloride 300 microgram/mL oral suspension
+^ESCT1385926	Acetaminophen 24 mg/mL and promethazine hydrochloride 300 microgram/mL oral suspension
+^ESCT1410439	Night Nurse capsules (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410572	Night Nurse oral solution (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410596	Day & Night Nurse capsules (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1440071	Promethazine hydrochloride 25mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1440072	Promethazine hydrochloride 25mg tablets (Genesis Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAC610152	Acetaminophen+promethazine hydrochloride 120mg/1.5mg/5mL colour free s/f suspension
+^ESCTAC661542	Acetaminophen+promethazine hydrochloride
+^ESCTAV860304	Avomine 25mg tablets (Manx Healthcare Ltd)
+^ESCTAV860306	Avomine 25mg tablets (Manx Healthcare Ltd) 10 tablet
+^ESCTAV860309	Avomine 25mg tablets (Manx Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTAV914021	Avomine
+^ESCTCO642088	Codeine phosphate+promethazine hydrochloride 10mg/6.25mg syrup
+^ESCTCO663681	Codeine phosphate + promethazine hydrochloride
+^ESCTDA903069	Day & Night Nurse capsules (GlaxoSmithKline Consumer Healthcare)
+^ESCTDE642167	Dextromethorphan hydrobromide + promethazine hydrochloride 15mg/6.25mg liquid
+^ESCTDE680294	Dextromethorphan hydrobromide+promethazine hydrochloride
+^ESCTDE680295	Dextromethorphan+promethazine
+^ESCTGE874053	Generic Night Nurse capsules
+^ESCTGE902240	Generic Night Nurse oral solution
+^ESCTGE903110	Generic Day & Night Nurse capsules
+^ESCTME610343	Meperidine hydrochloride+promethazine hydrochloride 100mg/50mg/2mL injection
+^ESCTME642496	Meperidine hydrochloride+promethazine hydrochloride 50mg/25mg capsule
+^ESCTME642498	Meperidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCTME642501	Meperidine hydrochloride 50mg/promethazine hydrochloride 50mg injection solution vial
+^ESCTME642502	Meperidine hydrochloride+promethazine hydrochloride 50mg/50mg injection
+^ESCTME695246	Meperidine+promethazine
+^ESCTNI873948	Night Nurse capsules (GlaxoSmithKline Consumer Healthcare)
+^ESCTNI902274	Night Nurse oral solution (GlaxoSmithKline Consumer Healthcare)
+^ESCTNI967255	Night Nurse capsules (DE Pharmaceuticals)
+^ESCTNI967257	Night Nurse oral solution (DE Pharmaceuticals)
+^ESCTPA610151	Paracetamol+promethazine hydrochloride 120mg/1.5mg/5mL colour free s/f suspension
+^ESCTPA610153	Paracetamol+promethazine hydrochloride 120mg/1.5mg/5mL color free s/f suspension
+^ESCTPA661541	Paracetamol+promethazine hydrochloride
+^ESCTPA866141	Pamergan P100 solution for injection 2ml ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTPA866142	Pamergan P100 solution for injection 2ml ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTPA915478	Pamergan P100
+^ESCTPE610342	Pethidine hydrochloride+promethazine hydrochloride 100mg/50mg/2mL injection
+^ESCTPE642497	Pethidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCTPE695245	Pethidine + Promethazine
+^ESCTPE866138	Pethidine 100mg/2ml / Promethazine 50mg/2ml solution for injection ampoules 10 ampoule
+^ESCTPE866528	Pethidine 100mg/2ml / Promethazine 50mg/2ml solution for injection ampoules
+^ESCTPH1021620	Phenergan 25mg tablets (DE Pharmaceuticals)
+^ESCTPH1021621	Phenergan 25mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTPH1023775	Phenergan 25mg tablets (Lexon (UK) Ltd)
+^ESCTPH1023776	Phenergan 25mg tablets (Lexon (UK) Ltd) 56 tablet
+^ESCTPH642526	Phenylephrine hydrochloride+promethazine hydrochloride 5mg/6.25mg syrup
+^ESCTPH682433	Phenylephrine + promethazine + codeine
+^ESCTPH695931	Phenylephrine + promethazine
+^ESCTPH705439	Phenylephrine 5mg/promethazine 6.25mg/codeine 10mg in 5mL oral syrup
+^ESCTPH866129	Pholcodine 1.5mg/5ml / Promethazine 1.5mg/5ml oral solution sugar free 100 ml
+^ESCTPH866448	Pholcodine 1.5mg/5ml / Promethazine 1.5mg/5ml oral solution sugar free
+^ESCTPH915603	Phenergan
+^ESCTPH925719	Pholcodine + Promethazine
+^ESCTPR263375	Promethazine
+^ESCTPR263376	Product containing promethazine
+^ESCTPR608825	Promethazine 5mg/5ml oral solution sugar free
+^ESCTPR608826	Promethazine hydrochloride 5mg/5mL elixir
+^ESCTPR608827	Promethazine 25mg/1ml solution for injection ampoules
+^ESCTPR608828	Promethazine hydrochloride 25mg/1mL injection
+^ESCTPR608829	Promethazine hydrochloride 25mg/mL injection solution 1mL ampoule
+^ESCTPR608830	Promethazine hydrochloride 25mg/mL injection solution 1mL ampule
+^ESCTPR608831	Promethazine hydrochloride 25mg/mL injection solution 2mL ampoule
+^ESCTPR608832	Promethazine hydrochloride 50mg/2mL injection
+^ESCTPR608833	Promethazine hydrochloride 25mg/mL injection solution 2mL ampule
+^ESCTPR609925	Promethazine teoclate 25mg tablets
+^ESCTPR609926	Product containing promethazine theoclate 25 mg/1 each oral tablet
+^ESCTPR609927	Promethazine theoclate 25 mg oral tablet
+^ESCTPR619070	Promethazine in oral dosage form
+^ESCTPR619071	Product containing promethazine in oral dosage form
+^ESCTPR619072	Promethazine in parenteral dosage form
+^ESCTPR619073	Product containing promethazine in parenteral dosage form
+^ESCTPR639141	Promethazine hydrochloride 50mg/mL injection solution ampoule
+^ESCTPR639142	Promethazine hydrochloride 50mg/mL injection
+^ESCTPR639143	Promethazine hydrochloride 50mg/mL injection solution ampule
+^ESCTPR639216	Promethazine hydrochloride 6.25mg/5mL syrup
+^ESCTPR639406	Promethazine hydrochloride 50mg/sup
+^ESCTPR639407	Promethazine hydrochloride 50mg/suppository
+^ESCTPR639490	Promethazine hydrochloride 25mg/5mL syrup
+^ESCTPR641803	Promethazine hydrochloride 12.5 mg oral tablet
+^ESCTPR641804	Product containing promethazine hydrochloride 12.5 mg/1 each oral tablet
+^ESCTPR641809	Promethazine hydrochloride 25mg/mL injection ampoule
+^ESCTPR641810	Promethazine hydrochloride 25mg/mL injection
+^ESCTPR641811	Promethazine hydrochloride 25mg/mL injection ampule
+^ESCTPR641818	Promethazine hydrochloride 25mg
+^ESCTPR641819	Promethazine hydrochloride 25mg/suppository
+^ESCTPR641820	Promethazine hydrochloride 50 mg oral tablet
+^ESCTPR641821	Product containing promethazine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR641822	Promethazine hydrochloride 12.5mg
+^ESCTPR641823	Promethazine hydrochloride 12.5mg/suppository
+^ESCTPR642499	Product containing meperidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCTPR642500	Product containing pethidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCTPR645795	Promethazine in rectal dosage form
+^ESCTPR645796	Product containing promethazine in rectal dosage form
+^ESCTPR682437	Promethazine + dextromethorphan
+^ESCTPR695247	Product containing meperidine and promethazine
+^ESCTPR695248	Product containing pethidine and promethazine
+^ESCTPR698419	Promethazine 6.25mg/dextromethorphan 15mg 5mL oral syrup
+^ESCTPR860301	Promethazine teoclate 25mg tablets 10 tablet
+^ESCTPR860302	Promethazine teoclate 25mg tablets 28 tablet
+^ESCTPR922687	Promethazine hydrochloride
+^ESCTPR966585	Promethazine teoclate
+^ESCTSO916350	Sominex
+^ESCTTI866133	Tixylix Night Cough oral solution (Novartis Consumer Health UK Ltd)
+^ESCTTI866140	Tixylix Night Cough oral solution (Novartis Consumer Health UK Ltd) 100 ml
+^ESCTZI902234	Ziz 10mg tablets (Chatfield Laboratories)
+^ESCTZI902236	Ziz 10mg tablets (Chatfield Laboratories) 16 tablet
+^ESCTZI902254	Ziz Forte 25mg tablets (Chatfield Laboratories)
+^ESCTZI902257	Ziz Forte 25mg tablets (Chatfield Laboratories) 10 tablet
+^ESCTZI902258	Ziz Forte 25mg tablets (Chatfield Laboratories) 30 tablet
+^ESCTZI917409	Ziz
+AVTA261	Avomine  Tablets  25 mg
+PAIN4112	Pamergan P100  Injection  2 ml ampoule
+PHIN8972BRIDL	Phenergan  Injection  25mg/ml
+PHOR29099NEMIS	Pholcodine And Promethazine  Oral Solution, Sugar Free  1.5 mg/5 ml + 1.5 mg/5 ml
+PRIN34361EMIS	Promethazine Hydrochloride  Injection  25 mg/ml
+PRIN34363EMIS	Promethazine Hydrochloride  Injection  50 mg/2 ml ampoule
+PROR143871NEMIS	Promethazine Hydrochloride  Oral suspension  5 mg/5 ml
+PROR143872NEMIS	Promethazine Hydrochloride  Oral solution  5 mg/5 ml
+PRTA142239NEMIS	Promethazine Hydrochloride (Imported)  Tablets  25 mg
+PRTA17910NEMIS	Promethazine Teoclate  Tablets  25 mg
+PRTA2382	Promethazine Theoclate  Tablets  25 mg
+TIOR29101NEMIS	Tixylix Night Cough  Oral solution  
+VESP4500	Vertigon  Spansules  10 mg
+VESP4501	Vertigon  Spansules  15 mg

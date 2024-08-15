@@ -754,3 +754,4 @@
 2667211000001103	Becotide Rotahaler (GlaxoSmithKline) 1 device (physical object)
 9220301000001105	Becotide (product)
 9220401000001102	Becotide Rotacaps (product)
+852211000001102	Ventide Rotahaler (GlaxoSmithKline) (product)

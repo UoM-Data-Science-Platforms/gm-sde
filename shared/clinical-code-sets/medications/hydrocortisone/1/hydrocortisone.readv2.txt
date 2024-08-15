@@ -197,3 +197,5 @@ aj1h.00	*UNIROID suppositories
 aj1k.00	UNIROID-HC ointment 30g
 aj1l.00	UNIROID-HC suppositories
 l355.00	GENTISONE HC ear drops 10mL
+ah1E.00	GERMOLOIDS HC spray 30mL
+aj1m.00	PERINAL spray

@@ -73,3 +73,4 @@ l222.00	PREDSOL 0.5% ear drops 10mL
 l221.00	*PREDSOL ear drops 5mL
 l365.00	*PREDSOL N ear drops 5mL
 l366.00	*PREDSOL N ear drops 10mL
+aj1d.00	SCHERIPROCT suppositories

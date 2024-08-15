@@ -1730,3 +1730,7 @@
 730501000001103	HC45 cream
 9751101000001106	Hc45 (product)
 13095801000001108	Softacort (product)
+3693411000001103	Terra-Cortril Nystatin cream (Pfizer Ltd) (product)
+4020911000001102	Actinac lotion (Peckforton Pharmaceuticals) (product)
+536911000001105	Calmurid HC cream (Galderma (UK) Ltd) (product)
+93111000001108	Timodine cream (Reckitt Benckiser Plc) (product)

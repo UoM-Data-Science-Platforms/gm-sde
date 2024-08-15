@@ -103,3 +103,5 @@ x02nx	Prednesol
 x02Yw	Deltastab
 x02Yv	Deltacortril
 x04AS	Deltacortril Enteric
+aj1d.	Scheriproct suppository
+x00XP	Scheriproct ointment

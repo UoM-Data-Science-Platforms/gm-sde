@@ -4,3 +4,958 @@
 ^ESCTCL943579	Clipper 5mg gastro-resistant modified-release tablets (Chiesi Ltd) 30 tablet
 BEM/26386NEMIS	Beclometasone  M/R Tablets (Gastro-Resistant)  5 mg
 CLM/26388NEMIS	Clipper  M/R Tablets (Gastro-Resistant)  5 mg
+^ESCT1172765	Salbutamol 200microgram / Beclometasone 100microgram inhalation powder capsules
+^ESCT1174518	Beclometasone + Formoterol + Glycopyrronium
+^ESCT1179209	Product containing beclomethasone and albuterol
+^ESCT1179210	Product containing beclometasone and salbutamol
+^ESCT1179211	Albuterol and beclomethasone
+^ESCT1179212	Beclometasone and salbutamol
+^ESCT1179422	Product containing only beclometasone 10 mg/1 each oral tablet
+^ESCT1179423	Product containing only beclomethasone 10 mg/1 each oral tablet
+^ESCT1179643	Beclometasone 50micrograms/dose nasal spray (Mylan)
+^ESCT1179656	Beclometasone 50micrograms/dose inhaler (Mylan)
+^ESCT1179657	Beclometasone 100micrograms/dose inhaler (Mylan)
+^ESCT1183561	Beclometasone 50micrograms/dose inhaler (Mylan) 200 dose
+^ESCT1183562	Beclometasone 100micrograms/dose inhaler (Mylan) 200 dose
+^ESCT1188838	Beclometasone 50micrograms/dose nasal spray (Mylan) 200 dose
+^ESCT1188856	Beclometasone 250micrograms/dose inhaler (Mylan)
+^ESCT1188857	Beclometasone 250micrograms/dose inhaler (Mylan) 200 dose
+^ESCT1195067	Salbutamol 200microgram / Beclometasone 100microgram inhalation powder capsules
+^ESCT1195397	Kelhale 50micrograms/dose inhaler (Cipla EU Ltd)
+^ESCT1195398	Kelhale 50micrograms/dose inhaler (Cipla EU Ltd) 200 dose
+^ESCT1195399	Kelhale 100micrograms/dose inhaler (Cipla EU Ltd)
+^ESCT1195400	Kelhale 100micrograms/dose inhaler (Cipla EU Ltd) 200 dose
+^ESCT1196500	Beclometasone + Formoterol + Glycopyrronium bromide
+^ESCT1204428	Beclometasone dipropionate 50 microgram/actuation nasal spray
+^ESCT1204429	Beclomethasone dipropionate 50 microgram/actuation nasal spray
+^ESCT1204430	Product containing precisely beclometasone dipropionate 50 microgram/actuation conventional release nasal spray
+^ESCT1210497	Beclometasone dipropionate 100 microgram/actuation powder for inhalation
+^ESCT1210498	Product containing precisely beclometasone dipropionate 100 microgram/actuation conventional release powder for inhalation
+^ESCT1210499	Beclomethasone dipropionate 100 microgram/actuation powder for inhalation
+^ESCT1210500	Beclometasone dipropionate 200 microgram/actuation powder for inhalation
+^ESCT1210501	Beclomethasone dipropionate 200 microgram/actuation powder for inhalation
+^ESCT1210502	Product containing precisely beclometasone dipropionate 200 microgram/actuation conventional release powder for inhalation
+^ESCT1210503	Beclometasone dipropionate 200 microgram/actuation pressurised solution for inhalation
+^ESCT1210504	Beclomethasone dipropionate 200 microgram/actuation pressurized solution for inhalation
+^ESCT1210505	Product containing precisely beclometasone dipropionate 200 microgram/actuation pressurized conventional release solution for inhalation
+^ESCT1210506	Beclometasone dipropionate 250 microgram/actuation powder for inhalation
+^ESCT1210507	Beclomethasone dipropionate 250 microgram/actuation powder for inhalation
+^ESCT1210508	Product containing precisely beclometasone dipropionate 250 microgram/actuation conventional release powder for inhalation
+^ESCT1210509	Beclometasone dipropionate 250 microgram/actuation pressurised solution for inhalation
+^ESCT1210510	Beclomethasone dipropionate 250 microgram/actuation pressurized solution for inhalation
+^ESCT1210511	Product containing precisely beclometasone dipropionate 250 microgram/actuation pressurized conventional release solution for inhalation
+^ESCT1210512	Beclometasone dipropionate 400 microgram/actuation powder for inhalation
+^ESCT1210513	Beclomethasone dipropionate 400 microgram/actuation powder for inhalation
+^ESCT1210514	Product containing precisely beclometasone dipropionate 400 microgram/actuation conventional release powder for inhalation
+^ESCT1210515	Beclometasone dipropionate 50 microgram/actuation powder for inhalation
+^ESCT1210516	Product containing precisely beclometasone dipropionate 50 microgram/actuation conventional release powder for inhalation
+^ESCT1210517	Beclomethasone dipropionate 50 microgram/actuation powder for inhalation
+^ESCT1210518	Beclometasone dipropionate 50 microgram/actuation pressurised solution for inhalation
+^ESCT1210519	Beclomethasone dipropionate 50 microgram/actuation pressurized solution for inhalation
+^ESCT1210520	Product containing precisely beclometasone dipropionate 50 microgram/actuation pressurized conventional release solution for inhalation
+^ESCT1212437	Beclometasone 50micrograms/dose nasal spray
+^ESCT1214747	Beclometasone 100microgram inhalation powder blisters
+^ESCT1214748	Beclometasone 100microgram inhalation powder blisters with device
+^ESCT1214749	Beclometasone 100micrograms/dose breath actuated inhaler
+^ESCT1214750	Beclometasone 100micrograms/dose breath actuated inhaler CFC free
+^ESCT1214751	Beclometasone 100micrograms/dose dry powder inhaler
+^ESCT1214752	Beclometasone 100micrograms/dose inhaler CFC free
+^ESCT1214753	Beclometasone 200microgram inhalation powder blisters
+^ESCT1214754	Beclometasone 200microgram inhalation powder blisters with device
+^ESCT1214755	Beclometasone 200micrograms/dose dry powder inhaler
+^ESCT1214756	Beclometasone 200micrograms/dose inhaler
+^ESCT1214757	Beclometasone 250micrograms/dose breath actuated inhaler
+^ESCT1214758	Beclometasone 250micrograms/dose dry powder inhaler
+^ESCT1214759	Beclometasone 250micrograms/dose inhaler
+^ESCT1214760	Beclometasone 400microgram inhalation powder blisters
+^ESCT1214761	Beclometasone 400microgram inhalation powder blisters with device
+^ESCT1214762	Beclometasone 400micrograms/dose dry powder inhaler
+^ESCT1214763	Beclometasone 50micrograms/dose breath actuated inhaler
+^ESCT1214764	Beclometasone 50micrograms/dose breath actuated inhaler CFC free
+^ESCT1214765	Beclometasone 50micrograms/dose dry powder inhaler
+^ESCT1214766	Beclometasone 50micrograms/dose inhaler
+^ESCT1214767	Beclometasone 50micrograms/dose inhaler CFC free
+^ESCT1215005	Salbutamol 100micrograms/dose / Beclometasone 50micrograms/dose inhaler
+^ESCT1216468	Beclomethasone product
+^ESCT1216469	Beclometasone product
+^ESCT1223232	Beclomethasone dipropionate 100 microgram/actuation pressurized solution for inhalation
+^ESCT1223233	Product containing precisely beclometasone dipropionate 100 microgram/actuation pressurized conventional release solution for inhalation
+^ESCT1223234	Beclometasone dipropionate 100 microgram/actuation pressurised solution for inhalation
+^ESCT1225956	Product containing precisely beclometasone dipropionate 250 microgram/1 gram conventional release cutaneous cream
+^ESCT1225957	Beclometasone dipropionate 250 microgram/g cutaneous cream
+^ESCT1225958	Beclomethasone dipropionate 250 microgram/g cutaneous cream
+^ESCT1225959	Beclomethasone dipropionate 250 microgram/g cutaneous ointment
+^ESCT1225960	Beclometasone dipropionate 250 microgram/g cutaneous ointment
+^ESCT1225961	Product containing precisely beclometasone dipropionate 250 microgram/1 gram conventional release cutaneous ointment
+^ESCT1227025	Nasal beclomethasone
+^ESCT1227026	Beclomethasone in nasal dosage form
+^ESCT1227027	Beclometasone in nasal dosage form
+^ESCT1227028	Product containing beclometasone in nasal dosage form
+^ESCT1234228	Beclometasone and salbutamol product
+^ESCT1234229	Albuterol and beclomethasone product
+^ESCT1234963	Beclometasone dipropionate 10 mg oral tablet
+^ESCT1234964	Product containing precisely beclometasone dipropionate 10 milligram/1 each conventional release oral tablet
+^ESCT1234965	Beclomethasone dipropionate 10 mg oral tablet
+^ESCT1255836	Soprobec 50micrograms/dose inhaler (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1255837	Soprobec 50micrograms/dose inhaler (Glenmark Pharmaceuticals Europe Ltd) 200 dose
+^ESCT1255838	Soprobec 200micrograms/dose inhaler (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1255839	Soprobec 200micrograms/dose inhaler (Glenmark Pharmaceuticals Europe Ltd) 200 dose
+^ESCT1255840	Soprobec 100micrograms/dose inhaler (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1255841	Soprobec 100micrograms/dose inhaler (Glenmark Pharmaceuticals Europe Ltd) 200 dose
+^ESCT1255842	Soprobec 250micrograms/dose inhaler (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1255843	Soprobec 250micrograms/dose inhaler (Glenmark Pharmaceuticals Europe Ltd) 200 dose
+^ESCT1267084	Qvar 100 Autohaler (CST Pharma Ltd)
+^ESCT1267085	Qvar 100 Autohaler (CST Pharma Ltd) 200 dose
+^ESCT1267479	Qvar 100 inhaler (CST Pharma Ltd)
+^ESCT1267480	Qvar 100 inhaler (CST Pharma Ltd) 200 dose
+^ESCT1274857	Qvar 100 Autohaler (Pilsco Ltd)
+^ESCT1274858	Qvar 100 Autohaler (Pilsco Ltd) 200 dose
+^ESCT1275104	Qvar 100 inhaler (Pilsco Ltd)
+^ESCT1275105	Qvar 100 inhaler (Pilsco Ltd) 200 dose
+^ESCT1275954	Pollenase Hayfever 50micrograms/dose nasal spray (East Midlands Pharma Ltd)
+^ESCT1275955	Pollenase Hayfever 50micrograms/dose nasal spray (East Midlands Pharma Ltd) 200 dose
+^ESCT1275992	Pollenase Hayfever Relief for Adults 50micrograms/dose nasal spray (East Midlands Pharma Ltd)
+^ESCT1275993	Pollenase Hayfever Relief for Adults 50micrograms/dose nasal spray (East Midlands Pharma Ltd) 100 dose
+^ESCT1300659	Easyhaler Beclometasone 200micrograms/dose dry powder inhaler (DE Pharmaceuticals)
+^ESCT1300660	Easyhaler Beclometasone 200micrograms/dose dry powder inhaler (DE Pharmaceuticals) 200 dose
+^ESCT1300715	Fostair NEXThaler 100micrograms/dose / 6micrograms/dose dry powder inhaler (DE Pharmaceuticals)
+^ESCT1300716	Fostair NEXThaler 100micrograms/dose / 6micrograms/dose dry powder inhaler (DE Pharmaceuticals) 120 dose
+^ESCT1350354	Beclometasone-containing product in pulmonary dose form
+^ESCT1350355	Beclomethasone-containing product in pulmonary dose form
+^ESCT1350788	Beclometasone-containing product in cutaneous dose form
+^ESCT1350789	Beclomethasone-containing product in cutaneous dose form
+^ESCT1353664	Beclometasone only product
+^ESCT1353665	Beclomethasone only product
+^ESCT1353666	Beclometasone and salbutamol only product
+^ESCT1353667	Albuterol and beclomethasone only product
+^ESCT1357608	Beclometasone only product in cutaneous dose form
+^ESCT1357609	Beclomethasone only product in cutaneous dose form
+^ESCT1357610	Beclometasone only product in nasal dose form
+^ESCT1357611	Beclomethasone only product in nasal dose form
+^ESCT1357612	Beclometasone only product in oral dose form
+^ESCT1357613	Beclomethasone only product in oral dose form
+^ESCT1357614	Beclometasone only product in pulmonary dose form
+^ESCT1357615	Beclomethasone only product in pulmonary dose form
+^ESCT1367097	Beclometasone 400microgram inhalation powder capsules
+^ESCT1367109	Beclometasone 200microgram inhalation powder capsules
+^ESCT1367283	Salbutamol 400microgram / Beclometasone 200microgram inhalation powder capsules
+^ESCT1367399	Beclometasone 100microgram inhalation powder capsules
+^ESCT1374866	Beclometasone 50micrograms/dose nasal spray (Medihealth (Northern) Ltd)
+^ESCT1374867	Beclometasone 50micrograms/dose nasal spray (Medihealth (Northern) Ltd) 200 dose
+^ESCT1381435	Beclometasone-containing product in nasal dose form
+^ESCT1381436	Beclomethasone-containing product in nasal dose form
+^ESCT1381937	Beclometasone dipropionate 84 microgram/actuation nasal spray
+^ESCT1381938	Beclomethasone dipropionate 84 microgram/actuation nasal spray
+^ESCT1383910	Beclometasone-containing product in oral dose form
+^ESCT1383911	Beclomethasone-containing product in oral dose form
+^ESCT1402879	Beclometasone 50micrograms/dose nasal spray
+^ESCT1405020	Fostair NEXThaler 100micrograms/dose / 6micrograms/dose dry powder inhaler (Pilsco Ltd)
+^ESCT1405021	Fostair NEXThaler 100micrograms/dose / 6micrograms/dose dry powder inhaler (Pilsco Ltd) 120 dose
+^ESCT1424798	Beclometasone 100microgram inhalation powder capsules
+^ESCT1424799	Beclometasone 200microgram inhalation powder capsules
+^ESCT1424800	Beclometasone 400microgram inhalation powder capsules
+^ESCT1424806	Salbutamol 400microgram / Beclometasone 200microgram inhalation powder capsules
+^ESCT1425385	Luforbec 100micrograms/dose / 6micrograms/dose inhaler (Lupin Healthcare (UK) Ltd)
+^ESCT1425386	Luforbec 100micrograms/dose / 6micrograms/dose inhaler (Lupin Healthcare (UK) Ltd) 120 dose
+^ESCT1426543	Beclometasone 50micrograms/dose nasal spray (Kent Pharma (UK) Ltd)
+^ESCT1426544	Beclometasone 50micrograms/dose nasal spray (Kent Pharma (UK) Ltd) 200 dose
+^ESCT1426568	Beclometasone 50micrograms/dose inhaler (Kent Pharma (UK) Ltd)
+^ESCT1426569	Beclometasone 50micrograms/dose inhaler (Kent Pharma (UK) Ltd) 200 dose
+^ESCT1426804	Beclometasone 100micrograms/dose inhaler (Kent Pharma (UK) Ltd)
+^ESCT1426805	Beclometasone 100micrograms/dose inhaler (Kent Pharma (UK) Ltd) 200 dose
+^ESCT1426806	Beclometasone 250micrograms/dose inhaler (Kent Pharma (UK) Ltd)
+^ESCT1426807	Beclometasone 250micrograms/dose inhaler (Kent Pharma (UK) Ltd) 200 dose
+^ESCT1427350	Beclometasone 0.0025% in White soft paraffin (Drug Tariff Special Order)
+^ESCT1427351	Beclometasone 0.0025% in White soft paraffin (Drug Tariff Special Order) 1 gram
+^ESCT1427384	Beclometasone 0.0025% in White soft paraffin (Drug Tariff Special Order) 100 gram
+^ESCT1429876	Fostair 100micrograms/dose / 6micrograms/dose inhaler (CST Pharma Ltd)
+^ESCT1429877	Fostair 100micrograms/dose / 6micrograms/dose inhaler (CST Pharma Ltd) 120 dose
+^ESCT1431245	Trimbow NEXThaler 88micrograms/dose / 5micrograms/dose / 9micrograms/dose dry powder inhaler (Chiesi Ltd)
+^ESCT1431560	Generic Trimbow NEXThaler 88micrograms/dose / 5micrograms/dose / 9micrograms/dose dry powder inhaler
+^ESCT1433694	Fostair NEXThaler 100micrograms/dose / 6micrograms/dose dry powder inhaler (CST Pharma Ltd)
+^ESCT1433695	Fostair NEXThaler 100micrograms/dose / 6micrograms/dose dry powder inhaler (CST Pharma Ltd) 120 dose
+^ESCT1437523	Beclometasone 50micrograms/dose nasal spray (Viatris UK Healthcare Ltd)
+^ESCT1437524	Beclometasone 50micrograms/dose nasal spray (Viatris UK Healthcare Ltd) 200 dose
+^ESCT1437549	Beclometasone 50micrograms/dose inhaler (Viatris UK Healthcare Ltd)
+^ESCT1437550	Beclometasone 50micrograms/dose inhaler (Viatris UK Healthcare Ltd) 200 dose
+^ESCT1437551	Beclometasone 100micrograms/dose inhaler (Viatris UK Healthcare Ltd)
+^ESCT1437552	Beclometasone 100micrograms/dose inhaler (Viatris UK Healthcare Ltd) 200 dose
+^ESCT1437553	Beclometasone 250micrograms/dose inhaler (Viatris UK Healthcare Ltd)
+^ESCT1437554	Beclometasone 250micrograms/dose inhaler (Viatris UK Healthcare Ltd) 200 dose
+^ESCTAE859864	AeroBec 100 Autohaler (Meda Pharmaceuticals Ltd)
+^ESCTAE859865	AeroBec 100 Autohaler (Meda Pharmaceuticals Ltd) 200 dose
+^ESCTAE859874	AeroBec Forte 250 Autohaler (Meda Pharmaceuticals Ltd)
+^ESCTAE859875	AeroBec Forte 250 Autohaler (Meda Pharmaceuticals Ltd) 200 dose
+^ESCTAE862697	AeroBec 50 Autohaler (Meda Pharmaceuticals Ltd)
+^ESCTAE862698	AeroBec 50 Autohaler (Meda Pharmaceuticals Ltd) 200 dose
+^ESCTAE913650	AeroBec Autohaler
+^ESCTAS859423	Asmabec 50 Clickhaler (Focus Pharmaceuticals Ltd)
+^ESCTAS859424	Asmabec 50 Clickhaler (Focus Pharmaceuticals Ltd) 200 dose
+^ESCTAS859429	Asmabec 100 Clickhaler (Focus Pharmaceuticals Ltd)
+^ESCTAS859431	Asmabec 100 Clickhaler (Focus Pharmaceuticals Ltd) 200 dose
+^ESCTAS859790	Asmabec 250 Clickhaler (Focus Pharmaceuticals Ltd)
+^ESCTAS859791	Asmabec 250 Clickhaler (Focus Pharmaceuticals Ltd) 100 dose
+^ESCTBE1002876	Becodisks 200microgram (Necessity Supplies Ltd)
+^ESCTBE1002877	Becodisks 200microgram (Necessity Supplies Ltd) 120 blister
+^ESCTBE1002878	Becodisks 400microgram (Necessity Supplies Ltd)
+^ESCTBE1002879	Becodisks 400microgram (Necessity Supplies Ltd) 120 blister
+^ESCTBE1004727	Beclometasone 50micrograms/dose inhaler (Phoenix Healthcare Distribution Ltd)
+^ESCTBE1004730	Beclometasone 50micrograms/dose inhaler (Phoenix Healthcare Distribution Ltd) 200 dose
+^ESCTBE1004732	Beclometasone 100micrograms/dose inhaler (Phoenix Healthcare Distribution Ltd)
+^ESCTBE1004733	Beclometasone 100micrograms/dose inhaler (Phoenix Healthcare Distribution Ltd) 200 dose
+^ESCTBE1004737	Beclometasone 50micrograms/dose nasal spray (Phoenix Healthcare Distribution Ltd)
+^ESCTBE1004739	Beclometasone 50micrograms/dose nasal spray (Phoenix Healthcare Distribution Ltd) 200 dose
+^ESCTBE1005109	Beclometasone 250micrograms/dose inhaler (Phoenix Healthcare Distribution Ltd)
+^ESCTBE1005110	Beclometasone 250micrograms/dose inhaler (Phoenix Healthcare Distribution Ltd) 200 dose
+^ESCTBE1010630	Beclometasone 0.025% ointment (Essential Generics Ltd)
+^ESCTBE1010632	Beclometasone 0.025% ointment (Essential Generics Ltd) 30 gram
+^ESCTBE1010646	Beclometasone 0.025% cream (Essential Generics Ltd)
+^ESCTBE1010648	Beclometasone 0.025% cream (Essential Generics Ltd) 30 gram
+^ESCTBE1012688	Beclometasone 0.025% cream (Alliance Healthcare (Distribution) Ltd)
+^ESCTBE1012689	Beclometasone 0.025% cream (Alliance Healthcare (Distribution) Ltd) 30 gram
+^ESCTBE1012690	Beclometasone 0.025% ointment (Alliance Healthcare (Distribution) Ltd)
+^ESCTBE1012691	Beclometasone 0.025% ointment (Alliance Healthcare (Distribution) Ltd) 30 gram
+^ESCTBE1013556	Beclometasone 0.025% cream (A A H Pharmaceuticals Ltd)
+^ESCTBE1013557	Beclometasone 0.025% cream (A A H Pharmaceuticals Ltd) 30 gram
+^ESCTBE1013559	Beclometasone 0.025% ointment (A A H Pharmaceuticals Ltd)
+^ESCTBE1013560	Beclometasone 0.025% ointment (A A H Pharmaceuticals Ltd) 30 gram
+^ESCTBE1023904	Beconase Aqueous 50micrograms/dose nasal spray (DE Pharmaceuticals)
+^ESCTBE1023905	Beconase Aqueous 50micrograms/dose nasal spray (DE Pharmaceuticals) 200 dose
+^ESCTBE1025974	Beclometasone 0.0025% in White soft paraffin 1 gram
+^ESCTBE1025975	Beclometasone 0.0025% in White soft paraffin (Special Order)
+^ESCTBE1025976	Beclometasone 0.0025% in White soft paraffin (Special Order) 1 gram
+^ESCTBE1026022	Beclometasone 0.0025% in White soft paraffin
+^ESCTBE1040415	Beclometasone 0.0025% in White soft paraffin 100 gram
+^ESCTBE1040416	Beclometasone 0.0025% in White soft paraffin (Special Order) 100 gram
+^ESCTBE1041463	Beclometasone 50micrograms/dose nasal spray (Waymade Healthcare Plc)
+^ESCTBE1041464	Beclometasone 50micrograms/dose nasal spray (Waymade Healthcare Plc) 180 dose
+^ESCTBE1041465	Beclometasone 50micrograms/dose nasal spray (Waymade Healthcare Plc) 200 dose
+^ESCTBE1043497	Beclometasone 0.025% in White soft paraffin 1 gram
+^ESCTBE1043498	Beclometasone 0.025% in White soft paraffin (Special Order)
+^ESCTBE1043499	Beclometasone 0.025% in White soft paraffin (Special Order) 1 gram
+^ESCTBE1043988	Beclometasone 0.025% in White soft paraffin
+^ESCTBE1068323	Beclometasone 100micrograms/dose inhaler CFC free (Ennogen Healthcare Ltd)
+^ESCTBE1068324	Beclometasone 100micrograms/dose inhaler CFC free (Ennogen Healthcare Ltd) 200 dose
+^ESCTBE1082131	Beclometasone 100micrograms/dose / Formoterol 6micrograms/dose dry powder inhaler 120 dose
+^ESCTBE1082505	Beclometasone 100micrograms/dose / Formoterol 6micrograms/dose dry powder inhaler
+^ESCTBE1114722	Beclometasone 50micrograms/dose inhaler CFC free (Colorama Pharmaceuticals Ltd)
+^ESCTBE1114723	Beclometasone 50micrograms/dose inhaler CFC free (Colorama Pharmaceuticals Ltd) 200 dose
+^ESCTBE1114726	Beclometasone 100micrograms/dose inhaler CFC free (Colorama Pharmaceuticals Ltd)
+^ESCTBE1114727	Beclometasone 100micrograms/dose inhaler CFC free (Colorama Pharmaceuticals Ltd) 200 dose
+^ESCTBE1114729	Beclometasone 200micrograms/dose inhaler CFC free (Colorama Pharmaceuticals Ltd)
+^ESCTBE1114730	Beclometasone 200micrograms/dose inhaler CFC free (Colorama Pharmaceuticals Ltd) 200 dose
+^ESCTBE1116514	Beclometasone 0.025% ointment 10% in White soft paraffin 1 gram
+^ESCTBE1116515	Beclometasone 0.025% ointment 10% in White soft paraffin (Special Order)
+^ESCTBE1116516	Beclometasone 0.025% ointment 10% in White soft paraffin (Special Order) 1 gram
+^ESCTBE1116532	Beclometasone 0.025% ointment 10% in White soft paraffin
+^ESCTBE1116907	Beclometasone 50micrograms/dose nasal spray (Sigma Pharmaceuticals Plc)
+^ESCTBE1116908	Beclometasone 50micrograms/dose nasal spray (Sigma Pharmaceuticals Plc) 200 dose
+^ESCTBE1118765	Beconase Aqueous 50micrograms/dose nasal spray (Lexon (UK) Ltd)
+^ESCTBE1118766	Beconase Aqueous 50micrograms/dose nasal spray (Lexon (UK) Ltd) 200 dose
+^ESCTBE1118939	Beclometasone 50micrograms/dose nasal spray (Mawdsley-Brooks & Company Ltd)
+^ESCTBE1118940	Beclometasone 50micrograms/dose nasal spray (Mawdsley-Brooks & Company Ltd) 200 dose
+^ESCTBE1119192	Beclometasone 50micrograms/dose nasal spray (DE Pharmaceuticals)
+^ESCTBE1119193	Beclometasone 50micrograms/dose nasal spray (DE Pharmaceuticals) 200 dose
+^ESCTBE1127884	Beclometasone 100micrograms/dose inhaler CFC free (DE Pharmaceuticals)
+^ESCTBE1127885	Beclometasone 100micrograms/dose inhaler CFC free (DE Pharmaceuticals) 200 dose
+^ESCTBE1127886	Beclometasone 200micrograms/dose inhaler CFC free (DE Pharmaceuticals)
+^ESCTBE1127887	Beclometasone 200micrograms/dose inhaler CFC free (DE Pharmaceuticals) 200 dose
+^ESCTBE1127888	Beclometasone 50micrograms/dose inhaler CFC free (DE Pharmaceuticals)
+^ESCTBE1127889	Beclometasone 50micrograms/dose inhaler CFC free (DE Pharmaceuticals) 200 dose
+^ESCTBE1128909	Beclometasone 200micrograms/dose / Formoterol 6micrograms/dose dry powder inhaler 120 dose
+^ESCTBE1128912	Beclometasone 200micrograms/dose / Formoterol 6micrograms/dose inhaler CFC free 120 dose
+^ESCTBE1129110	Beclometasone 200micrograms/dose / Formoterol 6micrograms/dose inhaler CFC free
+^ESCTBE1129111	Beclometasone 200micrograms/dose / Formoterol 6micrograms/dose dry powder inhaler
+^ESCTBE1131616	Beclometasone 100micrograms/dose inhaler CFC free (J M McGill Ltd)
+^ESCTBE1131617	Beclometasone 100micrograms/dose inhaler CFC free (J M McGill Ltd) 200 dose
+^ESCTBE1131618	Beclometasone 200micrograms/dose inhaler CFC free (J M McGill Ltd)
+^ESCTBE1131619	Beclometasone 200micrograms/dose inhaler CFC free (J M McGill Ltd) 200 dose
+^ESCTBE1131620	Beclometasone 50micrograms/dose inhaler CFC free (J M McGill Ltd)
+^ESCTBE1131621	Beclometasone 50micrograms/dose inhaler CFC free (J M McGill Ltd) 200 dose
+^ESCTBE1139828	Beclometasone 100micrograms/dose inhaler CFC free (Niche Pharma Ltd)
+^ESCTBE1139832	Beclometasone 100micrograms/dose inhaler CFC free (Niche Pharma Ltd) 200 dose
+^ESCTBE1139834	Beclometasone 200micrograms/dose inhaler CFC free (Niche Pharma Ltd)
+^ESCTBE1139835	Beclometasone 200micrograms/dose inhaler CFC free (Niche Pharma Ltd) 200 dose
+^ESCTBE1139838	Beclometasone 50micrograms/dose inhaler CFC free (Niche Pharma Ltd)
+^ESCTBE1139840	Beclometasone 50micrograms/dose inhaler CFC free (Niche Pharma Ltd) 200 dose
+^ESCTBE252058	Beclometasone
+^ESCTBE252059	Beclometasone preparation
+^ESCTBE252060	Beclomethasone preparation
+^ESCTBE302281	Beclometasone dipropionate nasal preparation
+^ESCTBE302282	Beclomethasone dipropionate nasal preparation
+^ESCTBE608606	Beclometasone 400microgram inhalation powder blisters with device
+^ESCTBE608607	Beclometasone dipropionate 400micrograms/blister disks+disk inhaler
+^ESCTBE608608	Beclomethasone dipropionate 400micrograms/blister disks+disk inhaler
+^ESCTBE608609	Beclometasone 400microgram inhalation powder blisters
+^ESCTBE608610	Beclometasone dipropionate 400micrograms/blister disks refill
+^ESCTBE608611	Beclomethasone dipropionate 400micrograms/blister disks refill
+^ESCTBE608612	Beclometasone 50micrograms/dose breath actuated inhaler
+^ESCTBE608613	Beclometasone dipropionate 50micrograms breath-actuated aerosol inhaler
+^ESCTBE608614	Beclomethasone dipropionate 50micrograms breath-actuated aerosol inhaler
+^ESCTBE608615	Beclometasone 250micrograms/dose breath actuated inhaler
+^ESCTBE608616	Beclometasone dipropionate 250micrograms breath-actuated aerosol inhaler
+^ESCTBE608617	Beclomethasone dipropionate 250micrograms breath-actuated aerosol inhaler
+^ESCTBE608618	Beclometasone 100micrograms/dose breath actuated inhaler
+^ESCTBE608619	Beclometasone dipropionate 100micrograms breath-actuated aerosol inhaler
+^ESCTBE608620	Beclomethasone dipropionate 100micrograms breath-actuated aerosol inhaler
+^ESCTBE608622	Beclometasone dipropionate 250micrograms inhaler+compact spacer
+^ESCTBE608623	Beclomethasone dipropionate 250micrograms inhaler+compact spacer
+^ESCTBE608624	Beclometasone dipropionate 250micrograms compact spacer refill
+^ESCTBE608625	Beclomethasone dipropionate 250micrograms compact spacer refill
+^ESCTBE608626	Beclometasone 400microgram inhalation powder capsules
+^ESCTBE608627	Beclometasone dipropionate 400micrograms inhalation capsule
+^ESCTBE608628	Beclomethasone dipropionate 400micrograms inhalation capsule
+^ESCTBE608629	Beclometasone 100microgram inhalation powder blisters with device
+^ESCTBE608630	Beclometasone dipropionate 100micrograms/blister disks+disk inhaler
+^ESCTBE608631	Beclomethasone dipropionate 100micrograms/blister disks+disk inhaler
+^ESCTBE608632	Beclometasone 200microgram inhalation powder blisters with device
+^ESCTBE608633	Beclometasone dipropionate 200micrograms/blister disks+disk inhaler
+^ESCTBE608634	Beclomethasone dipropionate 200micrograms/blister disks+disk inhaler
+^ESCTBE608635	Beclometasone 100microgram inhalation powder blisters
+^ESCTBE608636	Beclometasone dipropionate 100micrograms/blister disks refill
+^ESCTBE608637	Beclomethasone dipropionate 100micrograms/blister disks refill
+^ESCTBE608638	Beclometasone 200microgram inhalation powder blisters
+^ESCTBE608639	Beclometasone dipropionate 200micrograms/blister disks refill
+^ESCTBE608640	Beclomethasone dipropionate 200micrograms/blister disks refill
+^ESCTBE608641	Beclometasone 250micrograms/dose inhaler
+^ESCTBE608642	Beclometasone dipropionate 250micrograms inhaler
+^ESCTBE608643	Beclomethasone dipropionate 250micrograms inhaler
+^ESCTBE608644	Beclometasone 200micrograms/dose inhaler
+^ESCTBE608645	Beclometasone dipropionate 200micrograms inhaler
+^ESCTBE608646	Beclomethasone dipropionate 200micrograms inhaler
+^ESCTBE608647	Beclometasone 50micrograms/dose inhaler
+^ESCTBE608648	Beclometasone dipropionate 50micrograms inhaler
+^ESCTBE608649	Beclomethasone dipropionate 50micrograms inhaler
+^ESCTBE608650	Beclometasone 100microgram inhalation powder capsules
+^ESCTBE608651	Beclometasone dipropionate 100micrograms inhalation capsule
+^ESCTBE608652	Beclomethasone dipropionate 100micrograms inhalation capsule
+^ESCTBE608653	Beclometasone 200microgram inhalation powder capsules
+^ESCTBE608654	Beclometasone dipropionate 200micrograms inhalation capsule
+^ESCTBE608655	Beclomethasone dipropionate 200micrograms inhalation capsule
+^ESCTBE608656	Beclometasone 100micrograms/dose inhaler
+^ESCTBE608657	Beclometasone dipropionate 100micrograms inhaler
+^ESCTBE608658	Beclomethasone dipropionate 100micrograms inhaler
+^ESCTBE608660	Beclometasone dipropionate+salbutamol 200micrograms/400micrograms inhalation capsule
+^ESCTBE608661	Beclomethasone dipropionate+salbutamol 200micrograms/400micrograms inhalation capsule
+^ESCTBE608663	Beclomethasone dipropionate+salbutamol 100micrograms/200micrograms paediatric inhalation
+^ESCTBE608664	Beclomethasone dipropionate+salbutamol 100micrograms/200micrograms paediatric inhalation capsule
+^ESCTBE608665	Beclomethasone dipropionate+salbutamol 100micrograms/200micrograms pediatric inhalation capsule
+^ESCTBE608667	Beclometasone dipropionate+salbutamol 50micrograms/100micrograms inhaler
+^ESCTBE608668	Beclomethasone dipropionate+salbutamol 50micrograms/100micrograms inhaler
+^ESCTBE608742	Beclometasone 50micrograms/dose dry powder inhaler
+^ESCTBE608743	Beclometasone dipropionate 50micrograms breath-actuated dry powder inhaler
+^ESCTBE608744	Beclomethasone dipropionate 50micrograms breath-actuated dry powder inhaler
+^ESCTBE608745	Beclometasone 100micrograms/dose dry powder inhaler
+^ESCTBE608746	Beclometasone dipropionate 100micrograms breath-actuated dry powder inhaler
+^ESCTBE608747	Beclomethasone dipropionate 100micrograms breath-actuated dry powder inhaler
+^ESCTBE608748	Beclometasone 250micrograms/dose dry powder inhaler
+^ESCTBE608749	Beclometasone dipropionate 250micrograms breath-actuated dry powder inhaler
+^ESCTBE608750	Beclomethasone dipropionate 250micrograms breath-actuated dry powder inhaler
+^ESCTBE615804	Beclometasone 50micrograms/dose nasal spray
+^ESCTBE615805	Beclometasone dipropionate 50micrograms aqueous nasal spray
+^ESCTBE615806	Beclomethasone dipropionate 50micrograms aqueous nasal spray
+^ESCTBE616066	Beclometasone 0.025% cream
+^ESCTBE616067	Beclometasone dipropionate 0.025% cream
+^ESCTBE616068	Beclomethasone dipropionate 0.025% cream
+^ESCTBE616069	Beclometasone 0.025% ointment
+^ESCTBE616070	Beclometasone dipropionate 0.025% ointment
+^ESCTBE616071	Beclomethasone dipropionate 0.025% ointment
+^ESCTBE618828	Beclomethasone in topical dosage form
+^ESCTBE618829	Beclometasone in topical dosage form
+^ESCTBE640460	Beclomethasone dipropionate 0.042% spray
+^ESCTBE640635	Beclomethasone dipropionate 84mcg inhalation aerosol
+^ESCTBE641263	Beclomethasone dipropionate 42mcg/spray
+^ESCTBE641284	Beclomethasone dipropionate 84mcg spray
+^ESCTBE641413	Beclomethasone dipropionate 40mcg aerosol
+^ESCTBE641414	Beclomethasone dipropionate 80mcg aerosol
+^ESCTBE641596	Beclomethasone dipropionate 42mcg inhalation aerosol
+^ESCTBE675204	Beclometasone 400micrograms/dose dry powder inhaler
+^ESCTBE675205	Beclomethasone dipropionate 400micrograms breath-actuated dry powder inhaler
+^ESCTBE675206	Beclometasone 200micrograms/dose dry powder inhaler
+^ESCTBE675207	Beclomethasone dipropionate 200micrograms breath-actuated dry powder inhaler
+^ESCTBE675626	Beclometasone 50micrograms/dose inhaler CFC free
+^ESCTBE675627	Beclometasone dipropionate 50micrograms CFC-free inhaler
+^ESCTBE675628	Beclometasone 50micrograms/dose breath actuated inhaler CFC free
+^ESCTBE675629	Beclometasone dipropionate 50micrograms CFC-free breath-actuated aerosol inhaler
+^ESCTBE675630	Beclometasone 100micrograms/dose inhaler CFC free
+^ESCTBE675631	Beclometasone dipropionate 100micrograms CFC-free inhaler
+^ESCTBE675632	Beclometasone 100micrograms/dose breath actuated inhaler CFC free
+^ESCTBE675633	Beclometasone dipropionate 100micrograms CFC-free breath-actuated aerosol inhaler
+^ESCTBE703532	Beclomethasone+albuterol
+^ESCTBE703533	Beclometasone+salbutamol
+^ESCTBE703534	Beclometasone + Salbutamol
+^ESCTBE716531	Beclomethasone in oral dosage form
+^ESCTBE716533	Beclometasone in oral dosage form
+^ESCTBE717690	Beclomethasone 10mg tablet
+^ESCTBE717693	Beclomethasone 10 mg oral tablet
+^ESCTBE717694	Beclometasone 10 mg oral tablet
+^ESCTBE812752	Becotide Rotahaler (GlaxoSmithKline UK Ltd)
+^ESCTBE847726	Beclometasone 0.025% ointment 30 gram
+^ESCTBE848116	Beclometasone 0.025% cream 30 gram
+^ESCTBE856687	Becotide Rotahaler (GlaxoSmithKline UK Ltd) 1 device
+^ESCTBE858188	Beclometasone 50micrograms/dose nasal spray 200 dose
+^ESCTBE858190	Beclometasone 50micrograms/dose nasal spray (A A H Pharmaceuticals Ltd)
+^ESCTBE858191	Beclometasone 50micrograms/dose nasal spray (A A H Pharmaceuticals Ltd) 200 dose
+^ESCTBE858192	Beclometasone 50micrograms/dose nasal spray (Actavis UK Ltd)
+^ESCTBE858193	Beclometasone 50micrograms/dose nasal spray (Actavis UK Ltd) 200 dose
+^ESCTBE858194	Beclometasone 50micrograms/dose nasal spray (Mylan Ltd)
+^ESCTBE858195	Beclometasone 50micrograms/dose nasal spray (Mylan Ltd) 200 dose
+^ESCTBE858196	Beclometasone 50micrograms/dose nasal spray (Kent Pharmaceuticals Ltd)
+^ESCTBE858197	Beclometasone 50micrograms/dose nasal spray (Kent Pharmaceuticals Ltd) 200 dose
+^ESCTBE858199	Beclometasone 50micrograms/dose nasal spray (Alliance Healthcare (Distribution) Ltd)
+^ESCTBE858201	Beclometasone 50micrograms/dose nasal spray (Alliance Healthcare (Distribution) Ltd) 200 dose
+^ESCTBE858203	Beclo-Aqua 50micrograms/dose nasal spray (Galen Ltd)
+^ESCTBE858204	Beclo-Aqua 50micrograms/dose nasal spray (Galen Ltd) 200 dose
+^ESCTBE858205	Beconase Aqueous 50micrograms/dose nasal spray (GlaxoSmithKline UK Ltd)
+^ESCTBE858206	Beconase Aqueous 50micrograms/dose nasal spray (GlaxoSmithKline UK Ltd) 200 dose
+^ESCTBE858218	Beclometasone 50micrograms/dose nasal spray 180 dose
+^ESCTBE858219	Beclometasone 50micrograms/dose nasal spray 100 dose
+^ESCTBE858223	Beconase Hayfever 50micrograms/dose nasal spray (Omega Pharma Ltd)
+^ESCTBE858242	Beconase Hayfever 50micrograms/dose nasal spray (Omega Pharma Ltd) 100 dose
+^ESCTBE858246	Beconase Hayfever 50micrograms/dose nasal spray (Omega Pharma Ltd) 180 dose
+^ESCTBE859265	Beclometasone 100microgram inhalation powder blisters 112 blister
+^ESCTBE859267	Beclometasone 100microgram inhalation powder blisters 120 blister
+^ESCTBE859268	Becodisks 100microgram (GlaxoSmithKline UK Ltd)
+^ESCTBE859270	Becodisks 100microgram (GlaxoSmithKline UK Ltd) 112 blister 14 x 1 disk (8 blisters)
+^ESCTBE859273	Becodisks 100microgram (GlaxoSmithKline UK Ltd) 120 blister 15 x 1 disk (8 blisters)
+^ESCTBE859280	Beclometasone 100microgram inhalation powder blisters with device 112 blister
+^ESCTBE859281	Beclometasone 100microgram inhalation powder blisters with device 40 blister
+^ESCTBE859284	Beclometasone 100microgram inhalation powder blisters with device 120 blister
+^ESCTBE859290	Becodisks 100microgram with Diskhaler (GlaxoSmithKline UK Ltd)
+^ESCTBE859295	Becodisks 100microgram with Diskhaler (GlaxoSmithKline UK Ltd) 112 blister 14 x 1 disk (8 blisters)
+^ESCTBE859301	Becodisks 100microgram with Diskhaler (GlaxoSmithKline UK Ltd) 40 blister 5 x 1 disk (8 blisters)
+^ESCTBE859303	Becodisks 100microgram with Diskhaler (GlaxoSmithKline UK Ltd) 120 blister 15 x 1 disk (8 blisters)
+^ESCTBE859305	Beclometasone 200microgram inhalation powder blisters with device 120 blister
+^ESCTBE859306	Beclometasone 200microgram inhalation powder blisters with device 40 blister
+^ESCTBE859308	Beclometasone 200microgram inhalation powder blisters with device 112 blister
+^ESCTBE859309	Becodisks 200microgram with Diskhaler (GlaxoSmithKline UK Ltd)
+^ESCTBE859317	Becodisks 200microgram with Diskhaler (GlaxoSmithKline UK Ltd) 112 blister 14 x 1 disk (8 blisters)
+^ESCTBE859318	Becodisks 200microgram with Diskhaler (GlaxoSmithKline UK Ltd) 40 blister 5 x 1 disk (8 blisters)
+^ESCTBE859322	Becodisks 200microgram with Diskhaler (GlaxoSmithKline UK Ltd) 120 blister 15 x 1 disk (8 blisters)
+^ESCTBE859330	Beclometasone 200microgram inhalation powder blisters 112 blister
+^ESCTBE859332	Beclometasone 200microgram inhalation powder blisters 120 blister
+^ESCTBE859335	Becodisks 200microgram (GlaxoSmithKline UK Ltd)
+^ESCTBE859337	Becodisks 200microgram (GlaxoSmithKline UK Ltd) 112 blister 14 x 1 disk (8 blisters)
+^ESCTBE859341	Becodisks 200microgram (GlaxoSmithKline UK Ltd) 120 blister 15 x 1 disk (8 blisters)
+^ESCTBE859347	Beclometasone 400microgram inhalation powder blisters with device 112 blister
+^ESCTBE859350	Beclometasone 400microgram inhalation powder blisters with device 56 blister
+^ESCTBE859352	Beclometasone 400microgram inhalation powder blisters with device 16 blister
+^ESCTBE859353	Beclometasone 400microgram inhalation powder blisters with device 120 blister
+^ESCTBE859357	Becodisks 400microgram with Diskhaler (GlaxoSmithKline UK Ltd)
+^ESCTBE859360	Becodisks 400microgram with Diskhaler (GlaxoSmithKline UK Ltd) 56 blister 7 x 1 disk (8 blisters)
+^ESCTBE859361	Becodisks 400microgram with Diskhaler (GlaxoSmithKline UK Ltd) 16 blister 2 x 1 disk (8 blisters)
+^ESCTBE859363	Becodisks 400microgram with Diskhaler (GlaxoSmithKline UK Ltd) 120 blister 15 x 1 disk (8 blisters)
+^ESCTBE859367	Becloforte 400microgram disks with Diskhaler (GlaxoSmithKline UK Ltd)
+^ESCTBE859369	Becloforte 400microgram disks with Diskhaler (GlaxoSmithKline UK Ltd) 112 blister 14 x 1 disk (8 blisters)
+^ESCTBE859376	Beclometasone 400microgram inhalation powder blisters 112 blister
+^ESCTBE859377	Beclometasone 400microgram inhalation powder blisters 56 blister
+^ESCTBE859378	Beclometasone 400microgram inhalation powder blisters 120 blister
+^ESCTBE859382	Becodisks 400microgram (GlaxoSmithKline UK Ltd)
+^ESCTBE859383	Becodisks 400microgram (GlaxoSmithKline UK Ltd) 56 blister 7 x 1 disk (8 blisters)
+^ESCTBE859384	Becodisks 400microgram (GlaxoSmithKline UK Ltd) 120 blister 15 x 1 disk (8 blisters)
+^ESCTBE859386	Becloforte 400microgram disks (GlaxoSmithKline UK Ltd)
+^ESCTBE859389	Becloforte 400microgram disks (GlaxoSmithKline UK Ltd) 112 blister 14 x 1 disk (8 blisters)
+^ESCTBE859422	Beclometasone 50micrograms/dose dry powder inhaler 200 dose
+^ESCTBE859425	Beclometasone 100micrograms/dose dry powder inhaler 100 dose
+^ESCTBE859426	Beclometasone 100micrograms/dose dry powder inhaler 200 dose
+^ESCTBE859437	Beclometasone 200micrograms/dose dry powder inhaler 100 dose
+^ESCTBE859789	Beclometasone 250micrograms/dose dry powder inhaler 100 dose
+^ESCTBE859796	Beclometasone 400micrograms/dose dry powder inhaler 100 dose
+^ESCTBE859799	Beclometasone 50micrograms/dose inhaler 200 dose
+^ESCTBE859804	Beclometasone 100micrograms/dose inhaler CFC free 200 dose
+^ESCTBE859806	Beclometasone 50micrograms/dose inhaler (A A H Pharmaceuticals Ltd)
+^ESCTBE859807	Beclometasone 50micrograms/dose inhaler (A A H Pharmaceuticals Ltd) 200 dose
+^ESCTBE859808	Beclometasone 50micrograms/dose inhaler (Mylan Ltd)
+^ESCTBE859809	Beclometasone 50micrograms/dose inhaler (Mylan Ltd) 200 dose
+^ESCTBE859811	Becotide 50 inhaler (GlaxoSmithKline UK Ltd)
+^ESCTBE859812	Becotide 50 inhaler (GlaxoSmithKline UK Ltd) 200 dose
+^ESCTBE859813	Beclazone 50 inhaler (Teva UK Ltd)
+^ESCTBE859814	Beclazone 50 inhaler (Teva UK Ltd) 200 dose
+^ESCTBE859815	Beclometasone 50micrograms/dose inhaler CFC free 200 dose
+^ESCTBE859816	Beclometasone 50micrograms/dose inhaler (Kent Pharmaceuticals Ltd)
+^ESCTBE859818	Beclometasone 50micrograms/dose inhaler (Kent Pharmaceuticals Ltd) 200 dose
+^ESCTBE859820	Beclometasone 50micrograms/dose inhaler (Alliance Healthcare (Distribution) Ltd)
+^ESCTBE859821	Beclometasone 50micrograms/dose inhaler (Alliance Healthcare (Distribution) Ltd) 200 dose
+^ESCTBE859822	Beclometasone 50micrograms/dose breath actuated inhaler CFC free 200 dose
+^ESCTBE859825	Beclometasone 100micrograms/dose breath actuated inhaler CFC free 200 dose
+^ESCTBE859827	Beclometasone 100micrograms/dose inhaler 200 dose
+^ESCTBE859831	Beclometasone 100micrograms/dose inhaler (A A H Pharmaceuticals Ltd)
+^ESCTBE859832	Beclometasone 100micrograms/dose inhaler (A A H Pharmaceuticals Ltd) 200 dose
+^ESCTBE859833	Beclometasone 100micrograms/dose inhaler (Mylan Ltd)
+^ESCTBE859834	Beclometasone 100micrograms/dose inhaler (Mylan Ltd) 200 dose
+^ESCTBE859835	Becotide 100 inhaler (GlaxoSmithKline UK Ltd)
+^ESCTBE859836	Becotide 100 inhaler (GlaxoSmithKline UK Ltd) 200 dose
+^ESCTBE859837	Beclazone 100 inhaler (Teva UK Ltd)
+^ESCTBE859838	Beclazone 100 inhaler (Teva UK Ltd) 200 dose
+^ESCTBE859839	Beclometasone 100micrograms/dose inhaler (Alliance Healthcare (Distribution) Ltd)
+^ESCTBE859840	Beclometasone 100micrograms/dose inhaler (Alliance Healthcare (Distribution) Ltd) 200 dose
+^ESCTBE859841	Beclometasone 200micrograms/dose inhaler 200 dose
+^ESCTBE859842	Becotide 200 inhaler (GlaxoSmithKline UK Ltd)
+^ESCTBE859844	Becotide 200 inhaler (GlaxoSmithKline UK Ltd) 200 dose
+^ESCTBE859845	Beclazone 200 inhaler (Teva UK Ltd)
+^ESCTBE859846	Beclazone 200 inhaler (Teva UK Ltd) 200 dose
+^ESCTBE859847	Beclometasone 250micrograms/dose inhaler 200 dose
+^ESCTBE859848	Beclometasone 250micrograms/dose inhaler (A A H Pharmaceuticals Ltd)
+^ESCTBE859849	Beclometasone 250micrograms/dose inhaler (A A H Pharmaceuticals Ltd) 200 dose
+^ESCTBE859850	Beclometasone 250micrograms/dose inhaler (Mylan Ltd)
+^ESCTBE859851	Beclometasone 250micrograms/dose inhaler (Mylan Ltd) 200 dose
+^ESCTBE859852	Becloforte 250micrograms/dose inhaler (GlaxoSmithKline UK Ltd)
+^ESCTBE859854	Becloforte 250micrograms/dose inhaler (GlaxoSmithKline UK Ltd) 200 dose
+^ESCTBE859856	Beclazone 250 inhaler (Teva UK Ltd)
+^ESCTBE859857	Beclazone 250 inhaler (Teva UK Ltd) 200 dose
+^ESCTBE859859	Beclometasone 250micrograms/dose inhaler (Alliance Healthcare (Distribution) Ltd)
+^ESCTBE859860	Beclometasone 250micrograms/dose inhaler (Alliance Healthcare (Distribution) Ltd) 200 dose
+^ESCTBE859863	Beclometasone 100micrograms/dose breath actuated inhaler 200 dose
+^ESCTBE859867	Beclazone 100 Easi-Breathe inhaler (Teva UK Ltd)
+^ESCTBE859869	Beclazone 100 Easi-Breathe inhaler (Teva UK Ltd) 200 dose
+^ESCTBE859873	Beclometasone 250micrograms/dose breath actuated inhaler 200 dose
+^ESCTBE859876	Beclazone 250 Easi-Breathe inhaler (Teva UK Ltd)
+^ESCTBE859877	Beclazone 250 Easi-Breathe inhaler (Teva UK Ltd) 200 dose
+^ESCTBE859942	Beclometasone 100microgram inhalation powder capsules 112 capsule
+^ESCTBE859943	Beclometasone 100microgram inhalation powder capsules 120 capsule
+^ESCTBE859947	Beclometasone 100 Cyclocaps (Teva UK Ltd)
+^ESCTBE859949	Beclometasone 100 Cyclocaps (Teva UK Ltd) 120 capsule 12 x 10 capsules
+^ESCTBE859953	Becotide 100microgram Rotacaps (GlaxoSmithKline UK Ltd)
+^ESCTBE859955	Becotide 100microgram Rotacaps (GlaxoSmithKline UK Ltd) 112 capsule
+^ESCTBE859962	Beclometasone 200microgram inhalation powder capsules 112 capsule
+^ESCTBE859963	Beclometasone 200microgram inhalation powder capsules 120 capsule
+^ESCTBE859971	Becotide 200microgram Rotacaps (GlaxoSmithKline UK Ltd)
+^ESCTBE859973	Becotide 200microgram Rotacaps (GlaxoSmithKline UK Ltd) 112 capsule
+^ESCTBE859976	Beclometasone 200 Cyclocaps (Teva UK Ltd)
+^ESCTBE859978	Beclometasone 200 Cyclocaps (Teva UK Ltd) 120 capsule 12 x 10 capsules
+^ESCTBE859983	Beclometasone 400microgram inhalation powder capsules 112 capsule
+^ESCTBE859986	Beclometasone 400microgram inhalation powder capsules 120 capsule
+^ESCTBE859990	Becotide 400microgram Rotacaps (GlaxoSmithKline UK Ltd)
+^ESCTBE859992	Becotide 400microgram Rotacaps (GlaxoSmithKline UK Ltd) 112 capsule
+^ESCTBE859995	Beclometasone 400 Cyclocaps (Teva UK Ltd)
+^ESCTBE859999	Beclometasone 400 Cyclocaps (Teva UK Ltd) 120 capsule 12 x 10 capsules
+^ESCTBE862693	Beclometasone 50micrograms/dose breath actuated inhaler 200 dose
+^ESCTBE862694	Beclazone 50 Easi-Breathe inhaler (Teva UK Ltd)
+^ESCTBE862695	Beclazone 50 Easi-Breathe inhaler (Teva UK Ltd) 200 dose
+^ESCTBE869090	Beclometasone 200micrograms/dose inhaler (A A H Pharmaceuticals Ltd)
+^ESCTBE869091	Beclometasone 200micrograms/dose inhaler (A A H Pharmaceuticals Ltd) 200 dose
+^ESCTBE872663	Beclometasone 50micrograms/dose inhaler (Teva UK Ltd)
+^ESCTBE872664	Beclometasone 50micrograms/dose inhaler (Teva UK Ltd) 200 dose
+^ESCTBE872665	Beclometasone 100micrograms/dose inhaler (Teva UK Ltd)
+^ESCTBE872666	Beclometasone 100micrograms/dose inhaler (Teva UK Ltd) 200 dose
+^ESCTBE872667	Beclometasone 250micrograms/dose inhaler (Teva UK Ltd)
+^ESCTBE872668	Beclometasone 250micrograms/dose inhaler (Teva UK Ltd) 200 dose
+^ESCTBE873235	Beclometasone 250micrograms/dose inhaler 80 dose
+^ESCTBE873238	Becloforte 250micrograms/dose inhaler (GlaxoSmithKline UK Ltd) 80 dose
+^ESCTBE873248	Beclometasone 50micrograms/dose inhaler 80 dose
+^ESCTBE873251	Becotide 50 inhaler (GlaxoSmithKline UK Ltd) 80 dose
+^ESCTBE873257	Beclometasone 100micrograms/dose inhaler 80 dose
+^ESCTBE873259	Becotide 100 inhaler (GlaxoSmithKline UK Ltd) 80 dose
+^ESCTBE876947	Beclometasone 250micrograms/dose inhaler 180 dose
+^ESCTBE876948	Becloforte 250micrograms/dose inhaler (Waymade Healthcare Plc)
+^ESCTBE876949	Becloforte 250micrograms/dose inhaler (Waymade Healthcare Plc) 180 dose
+^ESCTBE876950	Becloforte 250micrograms/dose inhaler (Waymade Healthcare Plc) 200 dose
+^ESCTBE876951	Beclometasone 200microgram inhalation powder capsules 30 capsule
+^ESCTBE876952	Becotide 200microgram Rotacaps (Waymade Healthcare Plc)
+^ESCTBE876953	Becotide 200microgram Rotacaps (Waymade Healthcare Plc) 30 capsule
+^ESCTBE876954	Becotide 100 inhaler (Waymade Healthcare Plc)
+^ESCTBE876955	Becotide 100 inhaler (Waymade Healthcare Plc) 200 dose
+^ESCTBE876956	Becotide 50 inhaler (Waymade Healthcare Plc)
+^ESCTBE876957	Becotide 50 inhaler (Waymade Healthcare Plc) 200 dose
+^ESCTBE877169	Becloforte 250micrograms/dose inhaler (Dowelhurst Ltd)
+^ESCTBE877171	Becloforte 250micrograms/dose inhaler (Dowelhurst Ltd) 180 dose
+^ESCTBE877173	Becloforte 250micrograms/dose inhaler (Dowelhurst Ltd) 200 dose
+^ESCTBE877186	Becotide 200microgram Rotacaps (Dowelhurst Ltd)
+^ESCTBE877187	Beclometasone 200microgram inhalation powder capsules 100 capsule
+^ESCTBE877188	Becotide 200microgram Rotacaps (Dowelhurst Ltd) 100 capsule
+^ESCTBE877189	Becotide 50 inhaler (Dowelhurst Ltd)
+^ESCTBE877190	Becotide 50 inhaler (Dowelhurst Ltd) 200 dose
+^ESCTBE877764	Beconase Aqueous 50micrograms/dose nasal spray (Waymade Healthcare Plc)
+^ESCTBE877767	Beconase Aqueous 50micrograms/dose nasal spray (Waymade Healthcare Plc) 200 dose
+^ESCTBE879162	Beclometasone 100microgram inhalation powder capsules 100 capsule
+^ESCTBE879164	Becotide 100microgram Rotacaps (Dowelhurst Ltd)
+^ESCTBE879166	Becotide 100microgram Rotacaps (Dowelhurst Ltd) 100 capsule
+^ESCTBE888579	Beconase Hayfever Relief for Adults 50micrograms/dose nasal spray (Omega Pharma Ltd)
+^ESCTBE888581	Beconase Hayfever Relief for Adults 50micrograms/dose nasal spray (Omega Pharma Ltd) 100 dose
+^ESCTBE896842	Beclometasone 100micrograms/dose inhaler (Kent Pharmaceuticals Ltd)
+^ESCTBE896843	Beclometasone 100micrograms/dose inhaler (Kent Pharmaceuticals Ltd) 200 dose
+^ESCTBE896844	Beclometasone 250micrograms/dose inhaler (Kent Pharmaceuticals Ltd)
+^ESCTBE896845	Beclometasone 250micrograms/dose inhaler (Kent Pharmaceuticals Ltd) 200 dose
+^ESCTBE913482	Beclometasone 50micrograms/dose nasal spray (Teva UK Ltd)
+^ESCTBE913483	Beclometasone 50micrograms/dose nasal spray (Teva UK Ltd) 200 dose
+^ESCTBE914053	Becloforte
+^ESCTBE914055	Becloforte disks
+^ESCTBE914057	Becodisks
+^ESCTBE914059	Becotide
+^ESCTBE914061	Becotide Rotacaps
+^ESCTBE919483	Beclometasone 200micrograms/dose dry powder inhaler 200 dose
+^ESCTBE930844	Beclometasone 200micrograms/dose inhaler CFC free 200 dose
+^ESCTBE930847	Beclometasone 250micrograms/dose inhaler CFC free 200 dose
+^ESCTBE930862	Beclometasone 200micrograms/dose inhaler CFC free
+^ESCTBE930863	Beclometasone 250micrograms/dose inhaler CFC free
+^ESCTBE933451	Becodisks 200microgram (Waymade Healthcare Plc)
+^ESCTBE933452	Becodisks 200microgram (Waymade Healthcare Plc) 120 blister
+^ESCTBE933453	Becodisks 400microgram (Waymade Healthcare Plc)
+^ESCTBE933454	Becodisks 400microgram (Waymade Healthcare Plc) 120 blister
+^ESCTBE933511	Becotide 200 inhaler (Waymade Healthcare Plc)
+^ESCTBE933512	Becotide 200 inhaler (Waymade Healthcare Plc) 200 dose
+^ESCTBE939335	Beclometasone 50micrograms/dose inhaler (Almus Pharmaceuticals Ltd)
+^ESCTBE939336	Beclometasone 50micrograms/dose inhaler (Almus Pharmaceuticals Ltd) 200 dose
+^ESCTBE939340	Beclometasone 100micrograms/dose inhaler (Almus Pharmaceuticals Ltd)
+^ESCTBE939341	Beclometasone 100micrograms/dose inhaler (Almus Pharmaceuticals Ltd) 200 dose
+^ESCTBE939343	Beclometasone 250micrograms/dose inhaler (Almus Pharmaceuticals Ltd)
+^ESCTBE939344	Beclometasone 250micrograms/dose inhaler (Almus Pharmaceuticals Ltd) 200 dose
+^ESCTBE941107	Beclometasone 50micrograms/dose nasal spray (Vantage)
+^ESCTBE941108	Beclometasone 50micrograms/dose nasal spray (Vantage) 200 dose
+^ESCTBE956569	Beclometasone 100micrograms/dose / Formoterol 6micrograms/dose inhaler CFC free 120 dose
+^ESCTBE956662	Beclometasone 100micrograms/dose / Formoterol 6micrograms/dose inhaler CFC free
+^ESCTBE956698	Beclometasone + Formoterol
+^ESCTBE959951	Beclazone 100 Easi-Breathe inhaler (Dowelhurst Ltd)
+^ESCTBE959952	Beclazone 100 Easi-Breathe inhaler (Dowelhurst Ltd) 200 dose
+^ESCTBE959955	Beclazone 250 Easi-Breathe inhaler (Dowelhurst Ltd)
+^ESCTBE959956	Beclazone 250 Easi-Breathe inhaler (Dowelhurst Ltd) 200 dose
+^ESCTBE959957	Beclazone 50 Easi-Breathe inhaler (Dowelhurst Ltd)
+^ESCTBE959958	Beclazone 50 Easi-Breathe inhaler (Dowelhurst Ltd) 200 dose
+^ESCTBE964491	Beclometasone Hayfever Relief 50micrograms/dose nasal spray (Numark Ltd)
+^ESCTBE964492	Beclometasone Hayfever Relief 50micrograms/dose nasal spray (Numark Ltd) 200 dose
+^ESCTBE978009	Beclometasone 200micrograms/dose inhaler (Sigma Pharmaceuticals Plc)
+^ESCTBE978010	Beclometasone 200micrograms/dose inhaler (Sigma Pharmaceuticals Plc) 200 dose
+^ESCTBE978175	Beclometasone 50micrograms/dose nasal spray (PLIVA Pharma Ltd)
+^ESCTBE978176	Beclometasone 50micrograms/dose nasal spray (PLIVA Pharma Ltd) 200 dose
+^ESCTBE987812	Beclometasone 0.025% in Aqueous cream 1 gram
+^ESCTBE987813	Beclometasone 0.025% in Aqueous cream (Special Order)
+^ESCTBE987814	Beclometasone 0.025% in Aqueous cream (Special Order) 1 gram
+^ESCTBE988057	Beclometasone 0.025% in Aqueous cream
+^ESCTBE988724	Becodisks 200microgram (Lexon (UK) Ltd)
+^ESCTBE988727	Becodisks 200microgram (Lexon (UK) Ltd) 120 blister
+^ESCTBE988729	Becodisks 400microgram (Lexon (UK) Ltd)
+^ESCTBE988730	Becodisks 400microgram (Lexon (UK) Ltd) 120 blister
+^ESCTBE990240	Becodisks 200microgram (Mawdsley-Brooks & Company Ltd)
+^ESCTBE990242	Becodisks 200microgram (Mawdsley-Brooks & Company Ltd) 120 blister
+^ESCTBE990245	Becodisks 400microgram (Mawdsley-Brooks & Company Ltd)
+^ESCTBE990246	Becodisks 400microgram (Mawdsley-Brooks & Company Ltd) 120 blister
+^ESCTBE990925	Beconase Aqueous 50micrograms/dose nasal spray (Mawdsley-Brooks & Company Ltd)
+^ESCTBE990926	Beconase Aqueous 50micrograms/dose nasal spray (Mawdsley-Brooks & Company Ltd) 200 dose
+^ESCTCA858260	Care Hayfever Relief 50micrograms/dose nasal spray (Thornton & Ross Ltd)
+^ESCTCA858263	Care Hayfever Relief 50micrograms/dose nasal spray (Thornton & Ross Ltd) 200 dose
+^ESCTCL1022702	Clenil Modulite 50micrograms/dose inhaler (Mawdsley-Brooks & Company Ltd)
+^ESCTCL1022703	Clenil Modulite 50micrograms/dose inhaler (Mawdsley-Brooks & Company Ltd) 200 dose
+^ESCTCL1022704	Clenil Modulite 100micrograms/dose inhaler (Mawdsley-Brooks & Company Ltd)
+^ESCTCL1022705	Clenil Modulite 100micrograms/dose inhaler (Mawdsley-Brooks & Company Ltd) 200 dose
+^ESCTCL1022706	Clenil Modulite 200micrograms/dose inhaler (Mawdsley-Brooks & Company Ltd)
+^ESCTCL1022707	Clenil Modulite 200micrograms/dose inhaler (Mawdsley-Brooks & Company Ltd) 200 dose
+^ESCTCL1022709	Clenil Modulite 250micrograms/dose inhaler (Mawdsley-Brooks & Company Ltd)
+^ESCTCL1022710	Clenil Modulite 250micrograms/dose inhaler (Mawdsley-Brooks & Company Ltd) 200 dose
+^ESCTCL1067725	Clenil Modulite 200micrograms/dose inhaler (Waymade Healthcare Plc)
+^ESCTCL1067726	Clenil Modulite 200micrograms/dose inhaler (Waymade Healthcare Plc) 200 dose
+^ESCTCL1067727	Clenil Modulite 250micrograms/dose inhaler (Waymade Healthcare Plc)
+^ESCTCL1067728	Clenil Modulite 250micrograms/dose inhaler (Waymade Healthcare Plc) 200 dose
+^ESCTCL930830	Clenil Modulite 50micrograms/dose inhaler (Chiesi Ltd)
+^ESCTCL930832	Clenil Modulite 50micrograms/dose inhaler (Chiesi Ltd) 200 dose
+^ESCTCL930835	Clenil Modulite 100micrograms/dose inhaler (Chiesi Ltd)
+^ESCTCL930837	Clenil Modulite 100micrograms/dose inhaler (Chiesi Ltd) 200 dose
+^ESCTCL930845	Clenil Modulite 200micrograms/dose inhaler (Chiesi Ltd)
+^ESCTCL930846	Clenil Modulite 200micrograms/dose inhaler (Chiesi Ltd) 200 dose
+^ESCTCL930848	Clenil Modulite 250micrograms/dose inhaler (Chiesi Ltd)
+^ESCTCL930849	Clenil Modulite 250micrograms/dose inhaler (Chiesi Ltd) 200 dose
+^ESCTEA919485	Easyhaler Beclometasone 200micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd)
+^ESCTEA919487	Easyhaler Beclometasone 200micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd) 200 dose
+^ESCTEA953660	Easyhaler (beclometasone)
+^ESCTFI859801	Filair 50 inhaler (Meda Pharmaceuticals Ltd)
+^ESCTFI859803	Filair 50 inhaler (Meda Pharmaceuticals Ltd) 200 dose
+^ESCTFI859828	Filair 100 inhaler (Meda Pharmaceuticals Ltd)
+^ESCTFI859830	Filair 100 inhaler (Meda Pharmaceuticals Ltd) 200 dose
+^ESCTFI872492	Filair Forte 250micrograms/dose inhaler (Meda Pharmaceuticals Ltd)
+^ESCTFI872493	Filair Forte 250micrograms/dose inhaler (Meda Pharmaceuticals Ltd) 200 dose
+^ESCTFO1082142	Fostair NEXThaler 100micrograms/dose / 6micrograms/dose dry powder inhaler (Chiesi Ltd)
+^ESCTFO1082145	Fostair NEXThaler 100micrograms/dose / 6micrograms/dose dry powder inhaler (Chiesi Ltd) 120 dose
+^ESCTFO1128910	Fostair NEXThaler 200micrograms/dose / 6micrograms/dose dry powder inhaler (Chiesi Ltd)
+^ESCTFO1128911	Fostair NEXThaler 200micrograms/dose / 6micrograms/dose dry powder inhaler (Chiesi Ltd) 120 dose
+^ESCTFO1128913	Fostair 200micrograms/dose / 6micrograms/dose inhaler (Chiesi Ltd)
+^ESCTFO1128914	Fostair 200micrograms/dose / 6micrograms/dose inhaler (Chiesi Ltd) 120 dose
+^ESCTFO956571	Fostair 100micrograms/dose / 6micrograms/dose inhaler (Chiesi Ltd)
+^ESCTFO956573	Fostair 100micrograms/dose / 6micrograms/dose inhaler (Chiesi Ltd) 120 dose
+^ESCTGE1162915	Generic Trimbow 87micrograms/dose / 5micrograms/dose / 9micrograms/dose inhaler
+^ESCTNA619404	Nasal beclomethasone
+^ESCTNA858207	Nasobec Aqueous 50micrograms/dose nasal spray (Teva UK Ltd)
+^ESCTNA858208	Nasobec Aqueous 50micrograms/dose nasal spray (Teva UK Ltd) 200 dose
+^ESCTNA858253	Nasobec Hayfever 50micrograms/dose nasal spray (Teva UK Ltd)
+^ESCTNA858255	Nasobec Hayfever 50micrograms/dose nasal spray (Teva UK Ltd) 180 dose
+^ESCTNU1068352	Numark Hayfever Relief 50micrograms/dose nasal spray (Numark Ltd)
+^ESCTNU1068353	Numark Hayfever Relief 50micrograms/dose nasal spray (Numark Ltd) 200 dose
+^ESCTNU1100173	Numark Hayfever Relief 50micrograms/dose nasal spray (Numark Ltd) 100 dose
+^ESCTOR716529	Oral form beclomethasone
+^ESCTPO1025999	Pollenase Hayfever Relief for Adults 50micrograms/dose nasal spray (E M Pharma)
+^ESCTPO1026000	Pollenase Hayfever Relief for Adults 50micrograms/dose nasal spray (E M Pharma) 100 dose
+^ESCTPO872113	Pollenase Hayfever 50micrograms/dose nasal spray (E M Pharma)
+^ESCTPO872114	Pollenase Hayfever 50micrograms/dose nasal spray (E M Pharma) 200 dose
+^ESCTPO915658	Pollenase (beclometasone)
+^ESCTPR252061	Product containing beclomethasone
+^ESCTPR252062	Product containing beclometasone
+^ESCTPR618826	Product containing beclometasone in topical dosage form
+^ESCTPR618827	Product containing beclomethasone in topical dosage form
+^ESCTPR716530	Product containing beclometasone in oral dosage form
+^ESCTPR716532	Product containing beclomethasone in oral dosage form
+^ESCTPR717691	Product containing beclometasone 10 mg/1 each oral tablet
+^ESCTPR717692	Product containing beclomethasone 10 mg/1 each oral tablet
+^ESCTPR815720	Propaderm 0.025% ointment (GlaxoSmithKline UK Ltd)
+^ESCTPR821253	Propaderm 0.025% cream (GlaxoSmithKline UK Ltd)
+^ESCTPR853948	Propaderm 0.025% cream (GlaxoSmithKline UK Ltd) 30 gram
+^ESCTPR853956	Propaderm 0.025% ointment (GlaxoSmithKline UK Ltd) 30 gram
+^ESCTPU859433	Pulvinal Beclometasone Dipropionate 100micrograms/dose dry powder inhaler (Chiesi Ltd)
+^ESCTPU859434	Pulvinal Beclometasone Dipropionate 100micrograms/dose dry powder inhaler (Chiesi Ltd) 100 dose
+^ESCTPU859438	Pulvinal Beclometasone Dipropionate 200micrograms/dose dry powder inhaler (Chiesi Ltd)
+^ESCTPU859439	Pulvinal Beclometasone Dipropionate 200micrograms/dose dry powder inhaler (Chiesi Ltd) 100 dose
+^ESCTPU859800	Pulvinal Beclometasone Dipropionate 400micrograms/dose dry powder inhaler (Chiesi Ltd)
+^ESCTPU859802	Pulvinal Beclometasone Dipropionate 400micrograms/dose dry powder inhaler (Chiesi Ltd) 100 dose
+^ESCTPU915819	Pulvinal (beclometasone)
+^ESCTQV1001277	Qvar 50 inhaler (Mawdsley-Brooks & Company Ltd)
+^ESCTQV1001278	Qvar 50 inhaler (Mawdsley-Brooks & Company Ltd) 200 dose
+^ESCTQV1001279	Qvar 100 inhaler (Mawdsley-Brooks & Company Ltd)
+^ESCTQV1001280	Qvar 100 inhaler (Mawdsley-Brooks & Company Ltd) 200 dose
+^ESCTQV1001281	Qvar 100 Autohaler (Mawdsley-Brooks & Company Ltd)
+^ESCTQV1001282	Qvar 100 Autohaler (Mawdsley-Brooks & Company Ltd) 200 dose
+^ESCTQV1007166	Qvar 100micrograms/dose Easi-Breathe inhaler (Sigma Pharmaceuticals Plc)
+^ESCTQV1007167	Qvar 100micrograms/dose Easi-Breathe inhaler (Sigma Pharmaceuticals Plc) 200 dose
+^ESCTQV1007168	Qvar 50micrograms/dose Easi-Breathe inhaler (Sigma Pharmaceuticals Plc)
+^ESCTQV1007169	Qvar 50micrograms/dose Easi-Breathe inhaler (Sigma Pharmaceuticals Plc) 200 dose
+^ESCTQV1009339	Qvar 100 Autohaler (Stephar (U.K.) Ltd)
+^ESCTQV1009340	Qvar 100 Autohaler (Stephar (U.K.) Ltd) 200 dose
+^ESCTQV1012215	Qvar 100 Autohaler (DE Pharmaceuticals)
+^ESCTQV1012216	Qvar 100 Autohaler (DE Pharmaceuticals) 200 dose
+^ESCTQV1012217	Qvar 50 Autohaler (DE Pharmaceuticals)
+^ESCTQV1012218	Qvar 50 Autohaler (DE Pharmaceuticals) 200 dose
+^ESCTQV1012219	Qvar 100micrograms/dose Easi-Breathe inhaler (DE Pharmaceuticals)
+^ESCTQV1012220	Qvar 100micrograms/dose Easi-Breathe inhaler (DE Pharmaceuticals) 200 dose
+^ESCTQV1012221	Qvar 50micrograms/dose Easi-Breathe inhaler (DE Pharmaceuticals)
+^ESCTQV1012222	Qvar 50micrograms/dose Easi-Breathe inhaler (DE Pharmaceuticals) 200 dose
+^ESCTQV1012223	Qvar 50 inhaler (DE Pharmaceuticals)
+^ESCTQV1012224	Qvar 50 inhaler (DE Pharmaceuticals) 200 dose
+^ESCTQV1100274	Qvar 50micrograms/dose Easi-Breathe inhaler (Waymade Healthcare Plc)
+^ESCTQV1100275	Qvar 50micrograms/dose Easi-Breathe inhaler (Waymade Healthcare Plc) 200 dose
+^ESCTQV859805	Qvar 100 inhaler (Teva UK Ltd)
+^ESCTQV859810	Qvar 100 inhaler (Teva UK Ltd) 200 dose
+^ESCTQV859817	Qvar 50 inhaler (Teva UK Ltd)
+^ESCTQV859819	Qvar 50 inhaler (Teva UK Ltd) 200 dose
+^ESCTQV859823	Qvar 50 Autohaler (Teva UK Ltd)
+^ESCTQV859824	Qvar 50 Autohaler (Teva UK Ltd) 200 dose
+^ESCTQV859826	Qvar 100 Autohaler (Teva UK Ltd)
+^ESCTQV859829	Qvar 100 Autohaler (Teva UK Ltd) 200 dose
+^ESCTQV903614	Qvar 50micrograms/dose Easi-Breathe inhaler (Teva UK Ltd)
+^ESCTQV903615	Qvar 50micrograms/dose Easi-Breathe inhaler (Teva UK Ltd) 200 dose
+^ESCTQV903616	Qvar 100micrograms/dose Easi-Breathe inhaler (Teva UK Ltd)
+^ESCTQV903617	Qvar 100micrograms/dose Easi-Breathe inhaler (Teva UK Ltd) 200 dose
+^ESCTQV967424	Qvar 100 inhaler (DE Pharmaceuticals)
+^ESCTQV967425	Qvar 100 inhaler (DE Pharmaceuticals) 200 dose
+^ESCTQV973888	Qvar 100 Autohaler (Sigma Pharmaceuticals Plc)
+^ESCTQV973889	Qvar 100 Autohaler (Sigma Pharmaceuticals Plc) 200 dose
+^ESCTQV973891	Qvar 100 inhaler (Sigma Pharmaceuticals Plc)
+^ESCTQV973892	Qvar 100 inhaler (Sigma Pharmaceuticals Plc) 200 dose
+^ESCTQV975213	Qvar 100 Autohaler (Waymade Healthcare Plc)
+^ESCTQV975214	Qvar 100 Autohaler (Waymade Healthcare Plc) 200 dose
+^ESCTQV981458	Qvar 100micrograms/dose Easi-Breathe inhaler (Waymade Healthcare Plc)
+^ESCTQV981459	Qvar 100micrograms/dose Easi-Breathe inhaler (Waymade Healthcare Plc) 200 dose
+^ESCTQV986155	Qvar 100 inhaler (Waymade Healthcare Plc)
+^ESCTQV986156	Qvar 100 inhaler (Waymade Healthcare Plc) 200 dose
+^ESCTQV989779	Qvar 100 Autohaler (Lexon (UK) Ltd)
+^ESCTQV989780	Qvar 100 Autohaler (Lexon (UK) Ltd) 200 dose
+^ESCTRE618839	Respiratory beclomethasone
+^ESCTRI871566	Rino Clenil 50micrograms/dose nasal spray (Chiesi Ltd)
+^ESCTRI871571	Rino Clenil 50micrograms/dose nasal spray (Chiesi Ltd) 200 dose
+^ESCTSA608659	Salbutamol 400microgram / Beclometasone 200microgram inhalation powder capsules
+^ESCTSA608662	Salbutamol 200microgram / Beclometasone 100microgram inhalation powder capsules
+^ESCTSA608666	Salbutamol 100micrograms/dose / Beclometasone 50micrograms/dose inhaler
+^ESCTSA703531	Salbutamol + Beclometasone
+^ESCTSA860052	Salbutamol 200microgram / Beclometasone 100microgram inhalation powder capsules 112 capsule
+^ESCTSA860067	Salbutamol 400microgram / Beclometasone 200microgram inhalation powder capsules 112 capsule
+^ESCTSA860835	Salbutamol 100micrograms/dose / Beclometasone 50micrograms/dose inhaler 200 dose
+^ESCTTO618825	Topical form beclomethasone
+^ESCTTR1162902	Trimbow 87micrograms/dose / 5micrograms/dose / 9micrograms/dose inhaler (Chiesi Ltd)
+^ESCTVE829153	Ventide Rotahaler (GlaxoSmithKline UK Ltd)
+^ESCTVE860055	Ventide Paediatric Rotacaps (GlaxoSmithKline UK Ltd)
+^ESCTVE860058	Ventide Paediatric Rotacaps (GlaxoSmithKline UK Ltd) 112 capsule
+^ESCTVE860072	Ventide Rotacaps (GlaxoSmithKline UK Ltd)
+^ESCTVE860073	Ventide Rotacaps (GlaxoSmithKline UK Ltd) 112 capsule
+^ESCTVE860840	Ventide inhaler (GlaxoSmithKline UK Ltd)
+^ESCTVE860842	Ventide inhaler (GlaxoSmithKline UK Ltd) 200 dose
+^ESCTVE877146	Ventide inhaler (Waymade Healthcare Plc)
+^ESCTVE877147	Ventide inhaler (Waymade Healthcare Plc) 200 dose
+^ESCTVE877463	Ventide inhaler (Dowelhurst Ltd)
+^ESCTVE877464	Ventide inhaler (Dowelhurst Ltd) 200 dose
+^ESCTVI858210	Vivabec 50micrograms/dose nasal spray (Lexon (UK) Ltd)
+^ESCTVI858211	Vivabec 50micrograms/dose nasal spray (Lexon (UK) Ltd) 200 dose
+AEAU17916EMIS	Aerobec  Autohaler  50 micrograms/puff
+AEAU17918EMIS	Aerobec Forte  Autohaler  250 micrograms/puff
+AEAU20018EMIS	Aerobec  Autohaler  100 micrograms/puff
+ASBR34121EMIS	Asmabec Clickhaler  Breath-actuated inhaler  100 micrograms/dose
+ASBR34122EMIS	Asmabec Clickhaler  Breath-actuated inhaler  250 micrograms/dose
+ASBR34123EMIS	Asmabec Clickhaler  Breath-actuated inhaler  50 micrograms/dose
+ASIN31778EMIS	Asmabec Spacehaler  Inhaler with vortex generating actuator  100 micrograms/dose
+ASIN31779EMIS	Asmabec Spacehaler  Inhaler with vortex generating actuator  50 micrograms/dose
+ASIN32625EMIS	Asmabec Spacehaler 250  Inhaler with vortex generating actuator  250 micrograms/dose
+BEAE3220	Becloforte  Inhaler  250 micrograms/puff
+BEAE4626	Beclomethasone Dipropionate  Inhaler  250 micrograms/puff
+BEAQ17586NEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation
+BEAQ25578NEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/dose, 180 doses
+BEAQ25582NEMIS	Beconase Hayfever  Aqueous nasal spray  50 micrograms/dose, 180 doses
+BEAQ38053MGEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation (A.A.H. Pharm)
+BEAQ38054MGEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation (Alpharma)
+BEAQ38055MGEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation (Generics (UK))
+BEAQ38056MGEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation (Kent Pharm)
+BEAQ38057MGEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation (Unichem)
+BEAQ38058MGEMIS	Beclometasone  Aqueous nasal spray  50 micrograms/actuation (Teva UK)
+BEBR17526NEMIS	Beclometasone  Breath-actuated inhaler  250 micrograms/actuation
+BEBR17527NEMIS	Beclometasone  Breath-actuated inhaler  50 micrograms/actuation
+BEBR17528NEMIS	Beclometasone  Breath-actuated inhaler  100 micrograms/actuation
+BEBR17550NEMIS	Beclometasone  Breath-Actuated Inhaler (Cfc-Free)  50 micrograms/actuation
+BEBR17551NEMIS	Beclometasone  Breath-Actuated Inhaler (Cfc-Free)  100 micrograms/actuation
+BEBR1867NEMIS	Beclomethasone Dipropionate  Breath-actuated aerosol inhaler  50 micrograms
+BEBR1868NEMIS	Beclomethasone Dipropionate  Breath-actuated aerosol inhaler  100 micrograms
+BEBR1872NEMIS	Beclomethasone Dipropionate  Breath-actuated aerosol inhaler  250 micrograms
+BEBR26464EMIS	Beclazone Easi-Breathe  Breath-actuated inhaler  100 micrograms/puff
+BEBR26465EMIS	Beclazone Easi-Breathe  Breath-actuated inhaler  50 micrograms/puff
+BEBR26467EMIS	Beclazone 250 Easi-Breathe  Breath-actuated inhaler  250 micrograms/puff
+BEBR26471EMIS	Beclomethasone Dipropionate  Breath-actuated inhaler  100 micrograms/puff
+BEBR26472EMIS	Beclomethasone Dipropionate  Breath-actuated inhaler  250 micrograms/puff
+BEBR26473EMIS	Beclomethasone Dipropionate  Breath-actuated inhaler  50 micrograms/puff
+BEBR31126EMIS	Becotide 50 Easi-Breathe  Breath-actuated inhaler  50 micrograms/puff
+BEBR31128EMIS	Becotide 100 Easi-Breathe  Breath-actuated inhaler  100 micrograms/puff
+BECF106429NEMIS	Beclometasone And Formoterol  Cfc-free inhaler  200 micrograms + 6 micrograms/dose
+BECF143742NEMIS	Beclu  Inhaler  100 micrograms/dose
+BECF143743NEMIS	Beclu  Inhaler  200 micrograms/dose
+BECF17548NEMIS	Beclometasone  Cfc-free inhaler  50 micrograms/actuation
+BECF17549NEMIS	Beclometasone  Cfc-free inhaler  100 micrograms/actuation
+BECF22845NEMIS	Beclometasone  Cfc-free inhaler  200 micrograms/actuation
+BECF22846NEMIS	Beclometasone  Cfc-free inhaler  250 micrograms/actuation
+BECF28854NEMIS	Beclometasone And Formoterol  Cfc-free inhaler  100 micrograms + 6 micrograms/dose
+BECR17529NEMIS	Beclometasone  Cream  0.025 %
+BECR279	Beclomethasone Dipropionate  Cream  0.025 %
+BEDI19630EMIS	Beclomethasone Dipropionate  Disks with diskhaler  100 micrograms/dose
+BEDI19631EMIS	Beclomethasone Dipropionate  Disks with diskhaler  200 micrograms/dose
+BEDI19632EMIS	Beclomethasone Dipropionate  Disks with diskhaler  400 micrograms/dose
+BEDI19750EMIS	Becloforte  Disks with diskhaler  400 micrograms/dose
+BEDI8397EGTON	Becodisks  Disks with diskhaler  100 micrograms/dose
+BEDI8398EGTON	Becodisks  Disks with diskhaler  200 micrograms/dose
+BEDI9501BRIDL	Becodisks  Disks with diskhaler  400 micrograms/dose
+BEDR106374NEMIS	Beclometasone And Formoterol  Dry Powder Inhaler  200 micrograms + 6 micrograms/dose
+BEDR12714NEMIS	Beclometasone 100 Cyclocaps  Dry powder capsules for inhalation  100 micrograms
+BEDR12716NEMIS	Beclometasone 200 Cyclocaps  Dry powder capsules for inhalation  200 micrograms
+BEDR12718NEMIS	Beclometasone 400 Cyclocaps  Dry powder capsules for inhalation  400 micrograms
+BEDR1731NEMIS	Beclomethasone Dipropionate  Dry powder breath-actuated inhaler  50 micrograms/dose
+BEDR1732NEMIS	Beclomethasone Dipropionate  Dry powder breath-actuated inhaler  100 micrograms/dose
+BEDR1733NEMIS	Beclomethasone Dipropionate  Dry powder breath-actuated inhaler  250 micrograms/dose
+BEDR17531NEMIS	Beclometasone  Dry powder disks + disk inhaler  100 micrograms/dose
+BEDR17532NEMIS	Beclometasone  Dry powder disks + disk inhaler  200 micrograms/dose
+BEDR17533NEMIS	Beclometasone  Dry powder disks + disk inhaler  400 micrograms/dose
+BEDR17540NEMIS	Beclometasone  Dry powder capsules for inhalation  400 micrograms/dose
+BEDR17541NEMIS	Beclometasone  Dry powder capsules for inhalation  100 micrograms/dose
+BEDR17542NEMIS	Beclometasone  Dry powder capsules for inhalation  200 micrograms/dose
+BEDR17543NEMIS	Beclometasone  Dry Powder Inhaler  50 micrograms/actuation
+BEDR17544NEMIS	Beclometasone  Dry Powder Inhaler  100 micrograms/actuation
+BEDR17545NEMIS	Beclometasone  Dry Powder Inhaler  250 micrograms/actuation
+BEDR17546NEMIS	Beclometasone  Dry Powder Inhaler  400 micrograms/actuation
+BEDR17547NEMIS	Beclometasone  Dry Powder Inhaler  200 micrograms/actuation
+BEDR1770NEMIS	Beclomethasone Dipropionate  Dry powder capsules for inhalation  400 micrograms
+BEDR1771NEMIS	Beclomethasone Dipropionate  Dry powder capsules for inhalation  100 micrograms
+BEDR1772NEMIS	Beclomethasone Dipropionate  Dry powder capsules for inhalation  200 micrograms
+BEDR1869NEMIS	Beclomethasone Dipropionate  Dry powder disks + disk inhaler  100 micrograms
+BEDR1870NEMIS	Beclomethasone Dipropionate  Dry powder disks + disk inhaler  200 micrograms
+BEDR1871NEMIS	Beclomethasone Dipropionate  Dry powder disks + disk inhaler  400 micrograms
+BEDR93316NEMIS	Beclometasone And Formoterol  Dry Powder Inhaler  100 micrograms + 6 micrograms/dose
+BEIN17525NEMIS	Beclometasone  Inhaler  250 micrograms/actuation
+BEIN17537NEMIS	Beclometasone  Inhaler  200 micrograms/actuation
+BEIN17538NEMIS	Beclometasone  Inhaler  100 micrograms/actuation
+BEIN17539NEMIS	Beclometasone  Inhaler  50 micrograms/actuation
+BEIN18072EMIS	Beclomethasone Dipropionate  Inhaler  200 micrograms/puff
+BEIN23632EMIS	Beclazone  Inhaler  100 micrograms/puff
+BEIN23633EMIS	Beclazone  Inhaler  50 micrograms/puff
+BEIN23635EMIS	Beclazone 250  Inhaler  250 micrograms/puff
+BEIN26589EMIS	Becloforte Integra  Inhaler with spacer device  250 micrograms/puff
+BEIN26593EMIS	Beclomethasone Dipropionate  Inhaler with spacer device  250 micrograms/puff
+BEIN280	Beclomethasone Dipropionate  Inhaler  100 micrograms/puff
+BEIN281	Beclomethasone Dipropionate  Inhaler  50 micrograms/puff
+BEIN292	Becotide 100  Inhaler  100 micrograms/puff
+BEIN293	Becotide 50  Inhaler  50 micrograms/puff
+BEIN34109EMIS	Beclazone 200  Inhaler  200 micrograms/puff
+BEIN37948MGEMIS	Beclometasone  Inhaler  250 micrograms/actuation (A.A.H. Pharm)
+BEIN37949MGEMIS	Beclometasone  Inhaler  250 micrograms/actuation (Generics (UK))
+BEIN37950MGEMIS	Beclometasone  Inhaler  250 micrograms/actuation (Unichem)
+BEIN37951MGEMIS	Beclometasone  Inhaler  250 micrograms/actuation (Teva UK)
+BEIN37952MGEMIS	Beclometasone  Inhaler  250 micrograms/actuation (Kent Pharm)
+BEIN37953MGEMIS	Beclometasone  Inhaler  200 micrograms/actuation (A.A.H. Pharm)
+BEIN37954MGEMIS	Beclometasone  Inhaler  100 micrograms/actuation (A.A.H. Pharm)
+BEIN37955MGEMIS	Beclometasone  Inhaler  100 micrograms/actuation (Generics (UK))
+BEIN37956MGEMIS	Beclometasone  Inhaler  100 micrograms/actuation (Unichem)
+BEIN37957MGEMIS	Beclometasone  Inhaler  100 micrograms/actuation (Teva UK)
+BEIN37958MGEMIS	Beclometasone  Inhaler  100 micrograms/actuation (Kent Pharm)
+BEIN37959MGEMIS	Beclometasone  Inhaler  50 micrograms/actuation (A.A.H. Pharm)
+BEIN37960MGEMIS	Beclometasone  Inhaler  50 micrograms/actuation (Generics (UK))
+BEIN37961MGEMIS	Beclometasone  Inhaler  50 micrograms/actuation (Kent Pharm)
+BEIN37962MGEMIS	Beclometasone  Inhaler  50 micrograms/actuation (Unichem)
+BEIN37963MGEMIS	Beclometasone  Inhaler  50 micrograms/actuation (Teva UK)
+BEIN9187EMIS	Becotide 200  Inhaler  200 micrograms/puff
+BEIN9499BRIDL	Becloforte Vm  Inhalers and volumatic  250 micrograms/puff
+BENA10444BRIDL	Beclomethasone Dipropionate  Aqueous nasal spray  50 micrograms/dose
+BENA282	Beclomethasone Dipropionate  Nasal spray  50 micrograms/dose
+BENA287	Beconase  Nasal spray  50 micrograms/dose
+BENAEGTON7181	Beconase  Aqueous nasal spray  50 micrograms/dose
+BEOI17530NEMIS	Beclometasone  Ointment  0.025 %
+BEOI283	Beclomethasone Dipropionate  Ointment  0.025 %
+BEOI92009NEMIS	Beclometasone 0.0025 % In White Soft Paraffin  Ointment  
+BEPO8974BRIDL	Becodisks With Diskhaler  Powder  400 micrograms
+BEPO8976BRIDL	Becodisks Refill  Powder  400 micrograms
+BERE17534NEMIS	Beclometasone  Refill disks  100 micrograms/dose
+BERE17535NEMIS	Beclometasone  Refill disks  200 micrograms/dose
+BERE17536NEMIS	Beclometasone  Refill disks  400 micrograms/dose
+BERE19633EMIS	Beclomethasone Dipropionate  Refill disks  100 micrograms/dose
+BERE19634EMIS	Beclomethasone Dipropionate  Refill disks  200 micrograms/dose
+BERE19635EMIS	Beclomethasone Dipropionate  Refill disks  400 micrograms/dose
+BERE19751EMIS	Becloforte  Refill disks  400 micrograms/dose
+BERE26590EMIS	Becloforte Integra  Refill  250 micrograms/puff
+BERE26594EMIS	Beclomethasone Dipropionate  Refill  250 micrograms/puff
+BERE8399EGTON	Becodisks  Refill disks  100 micrograms/dose
+BERE8400EGTON	Becodisks  Refill disks  200 micrograms/dose
+BERE9503BRIDL	Becodisks  Refill disks  400 micrograms/dose
+BERO288	Becotide  Rotacaps  100 micrograms
+BERO289	Becotide  Rotacaps  200 micrograms
+BERO290	Becotide  Rotahaler  
+BERO8925PRDGY	Beclomethasone  Rotahaler  
+BERO9739BRIDL	Becotide  Rotacaps  400 micrograms
+BIIN144257NEMIS	Bibecfo  Inhaler  100 micrograms + 6 micrograms/dose
+BIIN144258NEMIS	Bibecfo  Inhaler  200 micrograms + 6 micrograms/dose
+CLCF22848NEMIS	Clenil Modulite  Cfc-free inhaler  50 micrograms/actuation
+CLCF22851NEMIS	Clenil Modulite  Cfc-free inhaler  100 micrograms/actuation
+CLCF22852NEMIS	Clenil Modulite  Cfc-free inhaler  200 micrograms/actuation
+CLCF22854NEMIS	Clenil Modulite  Cfc-free inhaler  250 micrograms/actuation
+EADR21092NEMIS	Easyhaler Beclometasone  Dry Powder Inhaler  200 micrograms/actuation
+FIIN23560EMIS	Filair  Inhaler  100 micrograms/puff
+FIIN23561EMIS	Filair  Inhaler  50 micrograms/puff
+FIIN23563EMIS	Filair Forte  Inhaler  250 micrograms/puff
+FOCF106430NEMIS	Fostair  Cfc-free inhaler  200 micrograms + 6 micrograms/dose
+FOCF28856NEMIS	Fostair  Cfc-free inhaler  100 micrograms + 6 micrograms/dose
+FODR106375NEMIS	Fostair Nexthaler  Dry Powder Inhaler  200 micrograms + 6 micrograms/dose
+FODR93397NEMIS	Fostair Nexthaler  Dry Powder Inhaler  100 micrograms + 6 micrograms/dose
+KEIN126376NEMIS	Kelhale  Inhaler  100 micrograms/dose
+KEIN126377NEMIS	Kelhale  Inhaler  50 micrograms/dose
+LUCF139759NEMIS	Luforbec  Inhaler  100 micrograms + 6 micrograms/dose
+LUIN142333NEMIS	Luforbec  Inhaler  200 micrograms + 6 micrograms/dose
+NAAQ30030EMIS	Nasobec  Aqueous nasal spray  50 micrograms/dose
+PRCR2385	Propaderm  Cream  0.025 %
+PROI2386	Propaderm  Ointment  0.025 %
+PROI4221	Propaderm-A  Ointment  
+PUDR11418NEMIS	Pulvinal Beclometasone Dipropionate  Dry Powder Inhaler  100 micrograms/metered dose
+PUDR11419NEMIS	Pulvinal Beclometasone Dipropionate  Dry Powder Inhaler  200 micrograms/metered dose
+PUDR11420NEMIS	Pulvinal Beclometasone Dipropionate  Dry Powder Inhaler  400 micrograms/metered dose
+QVBR19055NEMIS	Qvar Easi-Breathe  Breath-Actuated Inhaler (Cfc-Free)  50 micrograms/actuation
+QVBR19056NEMIS	Qvar Easi-Breathe  Breath-Actuated Inhaler (Cfc-Free)  100 micrograms/actuation
+QVCF33770EMIS	Qvar 50  Cfc-free inhaler  50 micrograms/dose
+QVCF33772EMIS	Qvar 100  Cfc-free inhaler  100 micrograms/dose
+QVCF33774EMIS	Qvar 50 Autohaler  Cfc-Free Breath-Actuated Inhaler  50 micrograms/dose
+QVCF33776EMIS	Qvar 100 Autohaler  Cfc-Free Breath-Actuated Inhaler  100 micrograms/dose
+RINA15388NEMIS	Rino Clenil  Nasal spray  50 micrograms/dose
+SOIN130619NEMIS	Soprobec  Inhaler  50 micrograms/dose
+SOIN130620NEMIS	Soprobec  Inhaler  100 micrograms/dose
+SOIN130621NEMIS	Soprobec  Inhaler  200 micrograms/dose
+SOIN130622NEMIS	Soprobec  Inhaler  250 micrograms/dose
+TRDR140408NEMIS	Trimbow Nexthaler  Dry Powder Inhaler  88 micrograms + 5 micrograms + 9 micrograms/dose
+TRIN124218NEMIS	Trimbow  Inhaler  87 micrograms + 5 micrograms + 9 micrograms/dose
+TRIN142153NEMIS	Trimbow  Inhaler  172 micrograms + 5 micrograms + 9 micrograms/dose
+VEAE4495	Ventide  Aerosol inhalation  
+VERO8916BRIDL	Ventide Paediatric  Rotacaps  
+VERO8918BRIDL	Ventide  Rotahaler  
+VERO8921BRIDL	Ventide  Rotacaps  
