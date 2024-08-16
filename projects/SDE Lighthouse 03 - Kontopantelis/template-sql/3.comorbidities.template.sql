@@ -15,6 +15,8 @@
 --			 will transform it into. We can tell them this when providing the data
 --			 and change it if required.
 
+DROP TABLE IF EXISTS {{project-schema}}."3_Comorbidities";
+CREATE TABLE {{project-schema}}."3_Comorbidities" AS
 SELECT
 	"GmPseudo" AS PatientID, "ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "Anxiety_DiagnosisDate", "Asthma_DiagnosisDate", 
 	"AtrialFibrillation_DiagnosisDate", "Autism_DiagnosisDate", "BlindnessLowVision_DiagnosisDate", "Bronchiectasis_DiagnosisDate", 

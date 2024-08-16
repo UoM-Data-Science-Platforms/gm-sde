@@ -56,6 +56,8 @@ WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept IN('d
 'nortriptyline','orphenadrine','oxybutynin','paroxetine','perphenazine','procyclidine','promazine','promethazine','propantheline',
 'scopolamine','solifenacin','tolterodine','trifluoperazine','trihexyphenidyl','trimipramine','trospium'));
 
+DROP TABLE IF EXISTS {{project-schema}}."5_Medications";
+CREATE TABLE {{project-schema}}."5_Medications" AS
 -- For antidementia and anticholinergic (no refsets) we query the data from the temp table above
 SELECT
     GmPseudo AS "PatientID",

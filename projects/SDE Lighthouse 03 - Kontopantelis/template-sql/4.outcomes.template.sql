@@ -53,6 +53,8 @@ WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept IN (
 	'delirium','fracture','falls','social-care-referral','advance-care-planning','safeguarding-referral'
 ));
 
+DROP TABLE IF EXISTS {{project-schema}}."4_Outcomes";
+CREATE TABLE {{project-schema}}."4_Outcomes" AS
 -- gp admissions
 select "GmPseudo" AS "PatientID", 'GP encounter' AS "OutcomeName", "EventDate" AS "OutcomeDate"
 from "Contacts_Proxy"

@@ -10,6 +10,8 @@
 --		- TestResult
 --		- TestUnit
 
+DROP TABLE IF EXISTS {{project-schema}}."2a_Lifestyl_BMI";
+CREATE TABLE {{project-schema}}."2a_Lifestyl_BMI" AS
 SELECT 
   "GmPseudo" AS PatientID,
 	"EventDate" AS TestDate,

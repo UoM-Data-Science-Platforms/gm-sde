@@ -14,6 +14,9 @@
 -- NB2 - The PI confirmed that instead of raw values of when statuses were
 --			 recorded, they are happy with the information as currently used
 --			 within the tables below.
+
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."2b_Lifestyle_Alcohol_Smoking";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."2b_Lifestyle_Alcohol_Smoking" AS
 SELECT
 	"GmPseudo" AS PatientID,
 	'Alcohol' AS TestName,

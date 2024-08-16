@@ -194,7 +194,7 @@ There are ${codeSetTypes.length} code set types. They are: ${codeSetTypes
 /**
  * Method to create the reusable clinical code set SQL file
  */
-const createCodeSetSQL = async (conditions = [], projectNameChunked) => {
+const createCodeSetSQL = async (conditions = [], projectNameChunked, config) => {
   setSilence(true);
   await evaluateCodeSets();
 
@@ -258,7 +258,7 @@ Generating the SQL...`);
 --    a. From the "Database" menu on the far left hand side, select "Add Data"
 --    b. Select "Load data into a Table"
 --    c. Browse to select the 0.code-sets.csv file in this directory
---    d. Select the "SDE_REPOSITORY" database and the "SHARED_UTILITIES" schema
+--    d. Select the "${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}" schema
 --    e. Select the table: "Code_Sets_${projectNameChunked.join('_')}" and click "Next"
 --    f. Select the file format "Delimited files (CSV/TSV)"
 --    g. Double check that the preview looks ok and then click "Load"
@@ -267,8 +267,12 @@ Generating the SQL...`);
   )} and execute the remaining sql files.
 
 -- Creates the code set table for this project.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_${projectNameChunked.join('_')}";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_${projectNameChunked.join('_')}" (
+DROP TABLE IF EXISTS ${
+    config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
+  }."Code_Sets_${projectNameChunked.join('_')}";
+CREATE TABLE ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."Code_Sets_${projectNameChunked.join(
+    '_'
+  )}" (
 	CONCEPT VARCHAR(255),
 	VERSION NUMBER(38,0),
 	CODE VARCHAR(20),

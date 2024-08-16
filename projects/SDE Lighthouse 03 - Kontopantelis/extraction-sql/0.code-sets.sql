@@ -18,7 +18,7 @@
 --    a. From the "Database" menu on the far left hand side, select "Add Data"
 --    b. Select "Load data into a Table"
 --    c. Browse to select the 0.code-sets.csv file in this directory
---    d. Select the "SDE_REPOSITORY" database and the "SHARED_UTILITIES" schema
+--    d. Select the "SDE_REPOSITORY.SHARED_UTILITIES" schema
 --    e. Select the table: "Code_Sets_SDE_Lighthouse_03_Kontopantelis" and click "Next"
 --    f. Select the file format "Delimited files (CSV/TSV)"
 --    g. Double check that the preview looks ok and then click "Load"

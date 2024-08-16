@@ -24,6 +24,8 @@ WHERE "Dementia_DiagnosisDate" IS NOT NULL
 AND "Age" >= 18
 GROUP BY "GmPseudo", "FK_Patient_ID";
 
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."1_Patients";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."1_Patients" AS
 SELECT 
 	cohort.GmPseudo AS PatientID,
 	"Sex",

@@ -55,6 +55,8 @@ WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_
 	'delirium','fracture','falls','social-care-referral','advance-care-planning','safeguarding-referral'
 ));
 
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."4_Outcomes";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."4_Outcomes" AS
 -- gp admissions
 select "GmPseudo" AS "PatientID", 'GP encounter' AS "OutcomeName", "EventDate" AS "OutcomeDate"
 from "Contacts_Proxy"

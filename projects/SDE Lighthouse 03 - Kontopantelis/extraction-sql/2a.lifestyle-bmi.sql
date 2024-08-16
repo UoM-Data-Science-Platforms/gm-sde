@@ -10,6 +10,8 @@
 --		- TestResult
 --		- TestUnit
 
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."2a_Lifestyl_BMI";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."2a_Lifestyl_BMI" AS
 SELECT 
   "GmPseudo" AS PatientID,
 	"EventDate" AS TestDate,

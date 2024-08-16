@@ -1,4 +1,4 @@
-const { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } = require('fs');
+const { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync, read } = require('fs');
 const { join, basename } = require('path');
 const {
   createCodeSetSQL: createCodeSetSQLSnowflake,
@@ -82,6 +82,37 @@ ${projectName} is NOT of the form "XXX - Name" so I'm assuming it's a non-projec
   // Warning if no templates found
   warnIfNoTemplatesFound(projectDirectory, templates);
 
+  const configFile = join(projectDirectory, 'config.json');
+  let isValidConfig = false;
+  let config;
+  if (existsSync(configFile)) {
+    try {
+      config = JSON.parse(readFileSync(configFile, 'utf8'));
+      isValidConfig =
+        !!config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES &&
+        !!config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA;
+    } catch (e) {
+      isValidConfig = false;
+    }
+  }
+  if (!isValidConfig) {
+    console.log(`
+!!!! ERRROR !!!!
+
+Snowflake projects now require a config.json file to be located directly under the project directory e.g.
+
+${projectName}/config.json
+
+The contents should be:
+
+{
+  "PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES": "<INSERT DB NAME>.<INSERT SCHEMA NAME>",
+  "PROJECT_SPECIFIC_SCHEMA_FOR_DATA": "<INSERT DB NAME>.<INSERT SCHEMA NAME>"
+}
+`);
+    process.exit();
+  }
+
   console.log(`
 The following template files were found:
 
@@ -91,7 +122,7 @@ Stitching them together...
 `);
 
   // Generate sql to execute on server
-  await generateSql(projectDirectory, projectName, templates, isSnowflake);
+  await generateSql(projectDirectory, projectName, templates, isSnowflake, config);
 
   if (isProjectDirectory) {
     const readmeMarkdown = join(projectDirectory, `${README_NAME}.md`);
@@ -163,16 +194,16 @@ function warnIfNoTemplatesFound(project, templates) {
   }
 }
 
-async function generateSql(project, projectName, templates, isSnowflake) {
+async function generateSql(project, projectName, templates, isSnowflake, config) {
   const OUTPUT_DIRECTORY = join(project, EXTRACTION_SQL_DIR);
   const allCodeSets = {};
   const projectNameChunked = projectName.replace(/[^a-zA-Z0-9]+/g, '_').split('_');
-  const codeSetTableName = `SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_${projectNameChunked.join(
-    '_'
-  )}"`;
-  const cohortTableName = `SDE_REPOSITORY.SHARED_UTILITIES."Cohort_${projectNameChunked.join(
-    '_'
-  )}"`;
+  const codeSetTableName = `${
+    config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
+  }."Code_Sets_${projectNameChunked.join('_')}"`;
+  const cohortTableName = `${
+    config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
+  }."Cohort_${projectNameChunked.join('_')}"`;
   for (const templateName of templates) {
     const filename = join(project, TEMPLATE_SQL_DIR, templateName);
     const { sql, codeSets } = processFile(filename, [], {}, [], isSnowflake);
@@ -189,7 +220,8 @@ async function generateSql(project, projectName, templates, isSnowflake) {
 
     const finalSQL = sql
       .replace(/\{\{code-set-table\}\}/g, codeSetTableName)
-      .replace(/\{\{cohort-table\}\}/g, cohortTableName);
+      .replace(/\{\{cohort-table\}\}/g, cohortTableName)
+      .replace(/\{\{project-schema\}\}/g, config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA);
 
     writeFileSync(join(OUTPUT_DIRECTORY, outputName), finalSQL);
   }
@@ -200,7 +232,7 @@ async function generateSql(project, projectName, templates, isSnowflake) {
   if (flattenedCodeSets.length > 0) {
     // we have some codesets so write the file to populate the code set tables
     const { sql, csv } = await (flattenedCodeSets.length > 0
-      ? createCodeSetSQL(flattenedCodeSets, projectNameChunked)
+      ? createCodeSetSQL(flattenedCodeSets, projectNameChunked, config)
       : '');
     // codeSetSql.forEach((sql, i) => {
     //   const id = `0${i + 1}`.slice(-2);

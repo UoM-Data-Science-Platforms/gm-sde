@@ -58,6 +58,8 @@ WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_
 'nortriptyline','orphenadrine','oxybutynin','paroxetine','perphenazine','procyclidine','promazine','promethazine','propantheline',
 'scopolamine','solifenacin','tolterodine','trifluoperazine','trihexyphenidyl','trimipramine','trospium'));
 
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."5_Medications";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."5_Medications" AS
 -- For antidementia and anticholinergic (no refsets) we query the data from the temp table above
 SELECT
     GmPseudo AS "PatientID",
