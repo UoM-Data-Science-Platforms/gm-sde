@@ -6,13 +6,38 @@
 
 --------------------------------------
 
--- OUTPUT: Data with the following fields
--- Patient Id
--- AdmissionDate (DD-MM-YYYY)
--- DischargeDate (DD-MM-YYYY)
+-- From application:
+--  Table 4: Outcomes (2006 to present)
+--  - PatientID
+--  - OutcomeName (e.g. dementia care review, referral to social prescribing)
+--  - OutcomeDate
 
+--  Outcomes include: 
+--  - Care processes
+--      - dementia care reviews (INCLUDED HERE)
+--      - anticholinergic medication burden (IN MEDICATION FILE)
+--      - potentially inappropriate prescribing rates (IN MEDICATION FILE)
+--      - antipsychotic use (IN MEDICATION FILE)
+--      - medication review within 6 weeks of commencing an antipsychotic (INCLUDED HERE PLUS MEDICATION FILE)
+--      - medication review (INCLUDED HERE)
+--      - appropriate anti-dementia medication prescribing (IN MEDICATION FILE)
+--      - advance care planning (NOT INCLUDED - WAS OPTIONAL FROM PI)
+--      - continuity of care measures (NOT INCLUDED - WAS OPTIONAL FROM PI - ALSO WE DON'T HAVE CLINICIAN LEVEL DATA SO NOT POSSIBLE)
+--      - carer type (NOT INCLUDED - WAS OPTIONAL FROM PI)
+--      - carer review (NOT INCLUDED - WAS OPTIONAL FROM PI)
+--      - referrals to social prescribing (INCLUDED HERE)
+--      - social care referrals (INCLUDED HERE)
+--      - safeguarding referrals (INCLUDED HERE)
+--  - Healthcare utilisation factors:
+--      - frequency of attendance  (INCLUDED HERE - gp encounter and hospital admission by type)
+--      - missed appointments (NOT INCLUDED - WAS OPTIONAL FROM PI)
+--  - Key adverse clinical outcomes: 
+--      - All-cause mortality (IN THE PATIENTS FILE)
+--      - unscheduled hospital admissions (INCLUDED HERE)
+--      - delirium (INCLUDED HERE)
+--      - falls (INCLUDED HERE)
+--      - fractures (INCLUDED HERE)
 
---> EXECUTE query-build-lh003-cohort.sql
 
 --TODO|> CODESET advance-care-planning:1
 --> CODESET delirium:1 fracture:1 falls:1 social-care-referral:1 safeguarding-referral:1
@@ -21,85 +46,60 @@
 DROP TABLE IF EXISTS OutcomeCodes;
 CREATE TEMPORARY TABLE OutcomeCodes AS
 SELECT GmPseudo, "SuppliedCode", to_date("EventDate") as EventDate
-FROM LH003_Cohort cohort
+FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" events 
     ON events."FK_Patient_ID" = cohort.FK_Patient_ID
-WHERE "SuppliedCode" IN (SELECT code FROM AllCodes WHERE concept IN (
+WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept IN (
 	'delirium','fracture','falls','social-care-referral','advance-care-planning','safeguarding-referral'
 ));
-
-
--- -- essential
---DONE--REFSET Dementia care plan review
---DONE--REFSET Medication review (there are codes for medication review, structured medication review and dementia medication review – I can separate these out if useful) yes please separate if possible 
--- Advance care planning
---DONE--REFSET Referral to social prescribing
---DONE-- Healthcare attendance (just primary care encounters, or hospital as well?) both if possible, and if separated
---DONE-- Unscheduled hospital admission
---DONE-- Delirium
---DONE-- Fall
---DONE-- Fracture
-
--- -- nice to have
--- Continuity of care measures* (??? Not sure if this is a thing likely to be coded, or a group of things that need separating out) This will be hard to measure, it's the number of consultaitons with the same provider as a proportion of all consultations - I think we can just leave this measure are may be too complex in this setting?
--- Carer type*
--- Carer review*
---DONE-- Referral to social care*
---DONE-- Referral to safeguarding*
--- Missed appointment*
 
 -- gp admissions
 select "GmPseudo" AS "PatientID", 'GP encounter' AS "OutcomeName", "EventDate" AS "OutcomeDate"
 from "Contacts_Proxy"
-WHERE "GmPseudo" IN (SELECT GmPseudo FROM LH003_Cohort)
+WHERE "GmPseudo" IN (SELECT GmPseudo FROM {{cohort-table}})
 AND "EventDate" >= '2006-01-01'
 UNION
 -- hospital admissions
 select top 100
     SUBSTRING("Der_Pseudo_NHS_Number", 2)::INT AS "GmPseudo",
     CASE
+        -- [11] Elective Admission: Waiting list | [12] Elective Admission: Booked | [13] Elective Admission: Planned
         WHEN "Admission_Method" IN ('11','12','13') THEN 'Elective Hospital Admission'
-        -- WHEN "Admission_Method" = '11' THEN 'Elective Admission: Waiting list (11)'
-        -- WHEN "Admission_Method" = '12' THEN 'Elective Admission: Booked (12)'
-        -- WHEN "Admission_Method" = '13' THEN 'Elective Admission: Planned (13)'
+        -- [21] Emergency Admission: Emergency Care or dental casualty department | [22] Emergency Admission: GP
+        -- [23] Emergency Admission: Bed bureau | [24] Emergency Admission: Consultant Clinic
+        -- [25] Emergency Admission: Mental Health Crisis Resolution Team
+        -- [2A] Emergency Admission: Emergency Care Department of another provider where the PATIENT had not been admitted
+        -- [2B] Emergency Admission: Transfer of an admitted PATIENT from another Hospital Provider in an emergency
+        -- [2C] Emergency Admission: Baby born at home as intended | [2D] Emergency Admission: Other emergency admission
+        -- [28] Emergency Admission: Other [being replaced by 2A-2D]
         WHEN "Admission_Method" IN ('21','22','23','24','25','2A','2B','2C','2D','28') THEN 'Emergency Hospital Admission'
-        -- WHEN "Admission_Method" = '21' THEN 'Emergency Admission: Emergency Care or dental casualty department (21)'
-        -- WHEN "Admission_Method" = '22' THEN 'Emergency Admission: GP (22)'
-        -- WHEN "Admission_Method" = '23' THEN 'Emergency Admission: Bed bureau (23)'
-        -- WHEN "Admission_Method" = '24' THEN 'Emergency Admission: Consultant Clinic (24)'
-        -- WHEN "Admission_Method" = '25' THEN 'Emergency Admission: Mental Health Crisis Resolution Team (25)'
-        -- WHEN "Admission_Method" = '2A' THEN 'Emergency Admission: Emergency Care Department of another provider where the PATIENT had not been admitted (2A)'
-        -- WHEN "Admission_Method" = '2B' THEN 'Emergency Admission: Transfer of an admitted PATIENT from another Hospital Provider in an emergency (2B)'
-        -- WHEN "Admission_Method" = '2C' THEN 'Emergency Admission: Baby born at home as intended (2C)'
-        -- WHEN "Admission_Method" = '2D' THEN 'Emergency Admission: Other emergency admission (2D)'
-        -- WHEN "Admission_Method" = '28' THEN 'Emergency Admission: Other [being replaced by 2A-2D] (28)'
+        -- [31] Maternity Admission: Admitted ante partum | [32] Maternity Admission: Admitted post partum
         WHEN "Admission_Method" IN ('31','32') THEN 'Maternity Hospital Admission'
-        -- WHEN "Admission_Method" = '31' THEN 'Maternity Admission: Admitted ante partum (31)'
-        -- WHEN "Admission_Method" = '32' THEN 'Maternity Admission: Admitted post partum (32)'
+        -- [82] Other Admission: Birth of a baby within Health Care Provider | [83] Other Admission: Baby born outside the Health Care Provider
         WHEN "Admission_Method" IN ('82','83') THEN 'Other Hospital Admission - Birth of Baby'
-        -- WHEN "Admission_Method" = '82' THEN 'Other Admission: Birth of a baby within Health Care Provider (82)'
-        -- WHEN "Admission_Method" = '83' THEN 'Other Admission: Baby born outside the Health Care Provider (83)'
+        -- [81] Other Admission: Transfer of any admitted PATIENT from other Hospital Provider other than in an emergency
         WHEN "Admission_Method" = '81' THEN 'Non-emergency admission via hospital transfer'
-        -- WHEN "Admission_Method" = '81' THEN 'Other Admission: Transfer of any admitted PATIENT from other Hospital Provider other than in an emergency (81)'
     END AS OutcomeName,
     TO_DATE("Admission_Date") AS OutcomeDate
 from NATIONAL_FLOWS_APC."tbl_Data_SUS_APCS"
-WHERE "GmPseudo" IN (SELECT GmPseudo FROM LH003_Cohort)
+WHERE "GmPseudo" IN (SELECT GmPseudo FROM {{cohort-table}})
 AND TO_DATE("Admission_Date") >= '2006-01-01'
 UNION
 -- Things we get from GP_Events
 SELECT
     GmPseudo AS PatientID,
     CASE
-        WHEN "SuppliedCode" IN (SELECT code FROM AllCodes WHERE concept='delirium') THEN 'Delirium'
-        WHEN "SuppliedCode" IN (SELECT code FROM AllCodes WHERE concept='fracture') THEN 'Fracture'
-        WHEN "SuppliedCode" IN (SELECT code FROM AllCodes WHERE concept='falls') THEN 'Fall'
-        WHEN "SuppliedCode" IN (SELECT code FROM AllCodes WHERE concept='social-care-referral') THEN 'Social Care Referral'
-        WHEN "SuppliedCode" IN (SELECT code FROM AllCodes WHERE concept='advance-care-planning') THEN 'Advance Care Planning'
-        WHEN "SuppliedCode" IN (SELECT code FROM AllCodes WHERE concept='safeguarding-referral') THEN 'Safeguarding Referral'
+        WHEN concept='delirium' THEN 'Delirium'
+        WHEN concept='fracture' THEN 'Fracture'
+        WHEN concept='falls' THEN 'Fall'
+        WHEN concept='social-care-referral' THEN 'Social Care Referral'
+        WHEN concept='advance-care-planning' THEN 'Advance Care Planning'
+        WHEN concept='safeguarding-referral' THEN 'Safeguarding Referral'
     END AS OutcomeName,
     EventDate AS OutcomeDate
-FROM OutcomeCodes
+FROM OutcomeCodes x
+LEFT OUTER JOIN {{code-set-table}} c 
+ON c.code = x."SuppliedCode"
 WHERE EventDate >= '2006-01-01'
 UNION
 -- Things we get from REFSETs
@@ -116,7 +116,7 @@ SELECT
 		WHEN "Field_ID" = 'SOCPRESREF_COD' THEN 'Referral to social prescribing'
 	END AS OutcomeName,
 	TO_DATE("EventDate")
-FROM LH003_Cohort cohort
+FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."EventsClusters" events 
     ON events."FK_Patient_ID" = cohort.FK_Patient_ID
 WHERE "Field_ID" IN ('DEMCPRVW_COD','DEMCPRVWDEC_COD','MEDRVW_COD','STRUCTMEDRVW_COD','STRMEDRWVDEC_COD','DEMMEDRVW_COD','MEDRVWDEC_COD','SOCPRESREF_COD')

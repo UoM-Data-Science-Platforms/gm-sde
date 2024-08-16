@@ -37,58 +37,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.
 
 ## Reusable queries
   
-This project required the following reusable queries:
-
-- Patient GP encounters
-- Define Cohort for LH003: patients that had a dementia diagnosis
-
-Further details for each query can be found below.
-
-### Patient GP encounters
-To produce a table of GP encounters for a list of patients. This script uses many codes related to observations (e.g. blood pressure), symptoms, and diagnoses, to infer when GP encounters occured. This script includes face to face and telephone encounters - it will need copying and editing if you don't require both.
-
-_Assumptions_
-
-- multiple codes on the same day will be classed as one encounter (so max daily encounters per patient is 1)
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #GPEncounters (FK_Patient_Link_ID, EncounterDate)
-	- FK_Patient_Link_ID - unique patient id
-	- EncounterDate - date the patient had a GP encounter
-```
-_File_: `query-patient-gp-encounters.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-gp-encounters.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-gp-encounters.sql)
-
----
-### Define Cohort for LH003: patients that had a dementia diagnosis
-To build the cohort of patients needed for LH003. This reduces duplication of code in the template scripts.
-
-_Input_
-```
-assumes there exists one temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-Temp tables as follows:
- #Cohort
-```
-_File_: `query-build-lh003-cohort.sql`
-
-_Link_: [https://github.com/rw251/.../query-build-lh003-cohort.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-lh003-cohort.sql)
-## Clinical code sets
+This project did not require any reusable queries from the local library [https://github.com/rw251/gm-idcr/tree/master/shared/Reusable queries for data extraction](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction).## Clinical code sets
 
 This project required the following clinical code sets:
 
@@ -97,7 +46,10 @@ This project required the following clinical code sets:
 - falls v1
 - social-care-referral v1
 - safeguarding-referral v1
-- anti-dementia-drugs v1
+- donepezil v1
+- galantamine v1
+- rivastigmine v1
+- memantine v1
 
 Further details for each code set can be found below.
 
@@ -221,28 +173,85 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2023-11-30 | Vision | 333774 | 1338 (0.401%) | 1329 (0.398%) | 
 LINK: [https://github.com/rw251/.../referrals/safeguarding-referral/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/referrals/safeguarding-referral/1)
 
-### Anti-dementia drugs
+### Donepezil
 
-Any code for a medication given for dementia. Includes the following code sets:
+Any prescription of donepezil. Other names: Aricept.
 
-- donepezil (v1)
-- galantamine (v1)
-- rivastigmine (v1)
-- memantine (v1)
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `xxx% - xxx%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `XXX% - XXX%` suggests that this code set is well defined, but perhaps more frequently used in the TPP practices in GM.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-07-10 | EMIS            | 2533608    |  1880834 (74.2%) |     1873816 (74%) |
-| 2024-07-10 | TPP             | 201974     |   162093 (80.3%) |    161814 (80.1%) |
-| 2024-07-10 | Vision          | 335755     |   254065 (75.7%) |    252991 (75.3%) |
+| 2024-07-18 | EMIS            | xxxxxxx    |                  |                   |
+| 2024-07-18 | TPP             | xxxxxxx    |                  |                   |
+| 2024-07-18 | Vision          | xxxxxxx    |                  |                   |
 #### Audit log
 
 - Find_missing_codes last run 2024-07-18
 
-LINK: [https://github.com/rw251/.../medications/anti-dementia-drugs/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/anti-dementia-drugs/1)
+LINK: [https://github.com/rw251/.../medications/donepezil/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/donepezil/1)
+
+### Galantamine
+
+Any prescription of galantamine. Other names: Acumor/Consion/Elmino/Gaalin/Galantex/Galsya/Galzemic/Gatalin/Gazylan/Lotprosin/Luventa/Reminyl/Zeebral.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `XXX% - XXX%` suggests that this code set is well defined, but perhaps more frequently used in the TPP practices in GM.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-07-18 | EMIS            | xxxxxxx    |                  |                   |
+| 2024-07-18 | TPP             | xxxxxxx    |                  |                   |
+| 2024-07-18 | Vision          | xxxxxxx    |                  |                   |
+#### Audit log
+
+- Find_missing_codes last run 2024-07-18
+
+LINK: [https://github.com/rw251/.../medications/galantamine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/galantamine/1)
+
+### Rivastigmine
+
+Any prescription of rivastigmine. Other names: Almuriva/Alzest/Eluden/Erastig/Exelon/Kerstipon/Nimvastid/Prometax/Rivatev/Somniton/Voleze/Zeyzelf.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `XXX% - XXX%` suggests that this code set is well defined, but perhaps more frequently used in the TPP practices in GM.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-07-18 | EMIS            | xxxxxxx    |                  |                   |
+| 2024-07-18 | TPP             | xxxxxxx    |                  |                   |
+| 2024-07-18 | Vision          | xxxxxxx    |                  |                   |
+#### Audit log
+
+- Find_missing_codes last run 2024-07-18
+
+LINK: [https://github.com/rw251/.../medications/rivastigmine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/rivastigmine/1)
+
+### Memantine
+
+Any prescription of memantine. Other names: Alzhok/Ebixa/Marixino/Maruxa/Nemdatine/Valios.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `XXX% - XXX%` suggests that this code set is well defined, but perhaps more frequently used in the TPP practices in GM.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-07-18 | EMIS            | xxxxxxx    |                  |                   |
+| 2024-07-18 | TPP             | xxxxxxx    |                  |                   |
+| 2024-07-18 | Vision          | xxxxxxx    |                  |                   |
+#### Audit log
+
+- Find_missing_codes last run 2024-07-18
+
+LINK: [https://github.com/rw251/.../medications/memantine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/memantine/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../SDE Lighthouse 03 - Kontopantelis/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/SDE%20Lighthouse%2003%20-%20Kontopantelis/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.

@@ -2,10 +2,21 @@
 --│ SDE Lighthouse study 03 - Kontopantelis - comorbidities │
 --└─────────────────────────────────────────────────────────┘
 
---> EXECUTE query-build-lh003-cohort.sql
+-- From application:
+--	Table 3: Comorbidities (using full date range available)
+--		- PatientID
+--		- Condition
+--		- FirstDate
+--		- LatestDate
+--		- ConditionOccurences (number of times appeared)
+
+-- NB1 - just using all the existing comorbidity data in the GP_Record schema.
+-- NB2 - this is not the format initially requested, but likely what the team
+--			 will transform it into. We can tell them this when providing the data
+--			 and change it if required.
 
 SELECT
-	"GmPseudo", "ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "Anxiety_DiagnosisDate", "Asthma_DiagnosisDate", 
+	"GmPseudo" AS PatientID, "ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "Anxiety_DiagnosisDate", "Asthma_DiagnosisDate", 
 	"AtrialFibrillation_DiagnosisDate", "Autism_DiagnosisDate", "BlindnessLowVision_DiagnosisDate", "Bronchiectasis_DiagnosisDate", 
 	"Bulimia_DiagnosisDate", "Cancer_DiagnosisDate", "ChronicKidneyDisease_DiagnosisDate", "ChronicLiverDisease_DiagnosisDate",
 	"ChronicSinusitis_DiagnosisDate", "Constipation_DiagnosisDate", "COPD_DiagnosisDate", "CoronaryHeartDisease_DiagnosisDate",
@@ -22,5 +33,5 @@ SELECT
 	"FirstLTC", "FirstLTC_DiagnosisDate", "SecondLTC", "SecondLTC_DiagnosisDate", "ThirdLTC",
 	"ThirdLTC_DiagnosisDate", "FourthLTC", "FourthLTC_DiagnosisDate", "FifthLTC", "FifthLTC_DiagnosisDate"
 FROM GP_RECORD."LongTermConditionRegister_Diagnosis"
-WHERE "GmPseudo" IN (SELECT GmPseudo FROM LH003_Cohort)
+WHERE "GmPseudo" IN (SELECT GmPseudo FROM {{cohort-table}})
 QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot

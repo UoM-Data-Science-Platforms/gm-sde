@@ -2,8 +2,18 @@
 --│ SDE Lighthouse study 03 - Kontopantelis  │
 --└──────────────────────────────────────────┘
 
---> EXECUTE query-build-lh003-cohort.sql
+-- From application:
+--	Table 2: Lifestyle factors (from 2006 to present)
+--		- PatientID
+--		- TestName ( smoking status, BMI, alcohol consumption)
+--		- TestDate
+--		- TestResult
+--		- TestUnit
 
+-- NB1 - I'm only restricting BMI values to 2006 to present.
+-- NB2 - The PI confirmed that instead of raw values of when statuses were
+--			 recorded, they are happy with the information as currently used
+--			 within the tables below.
 SELECT
 	"GmPseudo" AS PatientID,
 	'Alcohol' AS TestName,
@@ -14,7 +24,7 @@ SELECT
 	"AlcoholStatus" AS Status,
 	"AlcoholConsumption" AS Consumption
 FROM INTERMEDIATE.GP_RECORD."Readings_Alcohol"
-WHERE "GmPseudo" IN (SELECT GmPseudo FROM LH003_Cohort)
+WHERE "GmPseudo" IN (SELECT GmPseudo FROM {{cohort-table}})
 UNION
 SELECT
 	"GmPseudo" AS PatientID,
@@ -29,4 +39,4 @@ SELECT
 		ELSE NULL
 	END AS Consumption
 FROM INTERMEDIATE.GP_RECORD."Readings_Smoking"
-WHERE "GmPseudo" IN (SELECT GmPseudo FROM LH003_Cohort);
+WHERE "GmPseudo" IN (SELECT GmPseudo FROM {{cohort-table}});
