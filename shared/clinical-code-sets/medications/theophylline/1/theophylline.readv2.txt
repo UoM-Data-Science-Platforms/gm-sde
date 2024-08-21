@@ -1,0 +1,42 @@
+c43..00	THEOPHYLLINE
+c43z.00	*THEOPHYLLINE 200mg tablets
+c43y.00	THEOPHYLLINE 400mg m/r tablets
+c43x.00	THEOPHYLLINE 350mg m/r tablets
+c43w.00	THEOPHYLLINE 300mg m/r tablets
+c43v.00	THEOPHYLLINE 200mg m/r tablets
+c43u.00	THEOPHYLLINE 250mg m/r capsules
+c43t.00	THEOPHYLLINE 125mg m/r capsules
+c43s.00	THEOPHYLLINE 60mg m/r capsules
+c43r.00	THEOPHYLLINE 300mg m/r capsules
+c43q.00	THEOPHYLLINE 250mg m/r tablets
+c43p.00	THEOPHYLLINE 175mg m/r tablets
+c43o.00	*THEOPHYLLINE 60mg/5mL liquid
+c43n.00	*THEOPHYLLINE 125mg tablets
+c43m.00	*THEOPHYLLINE 125mg/5mL syrup
+c43k.00	THEOPHYLLINE 500mg m/r tablets
+c43j.00	*BIOPHYLLINE 500mg m/r tablets
+c43i.00	*BIOPHYLLINE 350mg m/r tablets
+c43h.00	UNIPHYLLIN CONTINUS 300mg m/r tablets
+c43g.00	LABOPHYLLINE 200mg/10mL injection
+c43f.00	UNIPHYLLIN CONTINUS 200mg m/r tablets
+c43e.00	UNIPHYLLIN CONTINUS 400mg m/r tablets
+c43d.00	*THEOGRAD 350mg m/r tablets
+c43c.00	*THEO-DUR 300mg m/r tablets
+c43b.00	*THEO-DUR 200mg m/r tablets
+c43a.00	SLO-PHYLLIN 250mg m/r capsules
+c43B.00	THEOPHYLLINE 10mg/5mL sugar free solution
+c43A.00	THEOPHYLLINE 200mg/10mL injection
+c439.00	SLO-PHYLLIN 125mg m/r capsules
+c438.00	SLO-PHYLLIN 60mg m/r capsules
+c437.00	*PRO-VENT 300mg m/r capsules
+c436.00	NUELIN SA-250 250mg m/r tablets
+c435.00	NUELIN SA 175mg m/r tablets
+c434.00	*LASMA 300mg m/r tablets
+c433.00	*NUELIN 60mg/5mL liquid
+c432.00	*NUELIN 125mg tablets
+c431.00	*BIOPHYLLINE 125mg/5mL syrup
+c51t.00	*FRANOL NEW 11mg/120mg tablets
+c51u.00	FRANOL PLUS NEW 15mg/120mg tablets
+c521.00	*FRANOL OLD tablets
+c522.00	*FRANOL PLUS OLD tablets
+c523.00	*FRANOL EXPECTORANT elixir

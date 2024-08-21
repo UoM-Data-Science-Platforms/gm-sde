@@ -1,0 +1,174 @@
+^ESCT1178849	Product containing only triamterene 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1181178	Product containing only triamterene 50 mg and chlorthalidone 50 mg/1 each oral tablet
+^ESCT1181179	Product containing only triamterene 50 mg and chlortalidone 50 mg/1 each oral tablet
+^ESCT1183155	Product containing only triamterene 100 mg/1 each oral capsule
+^ESCT1187181	Product containing only triamterene 50 mg/1 each oral capsule
+^ESCT1187182	Product containing only triamterene 50 mg and benzthiazide 25 mg/1 each oral capsule
+^ESCT1187183	Product containing only triamterene 50 mg and furosemide 40 mg/1 each oral tablet
+^ESCT1188540	Product containing only hydrochlorothiazide 25 mg and triamterene 37.5 mg/1 each oral capsule
+^ESCT1188541	Product containing only hydrochlorothiazide 25 mg and triamterene 37.5 mg/1 each oral tablet
+^ESCT1207252	Furosemide and triamterene in oral dosage form
+^ESCT1207253	Product containing furosemide and triamterene in oral dosage form
+^ESCT1207254	Benzthiazide and triamterene in oral dosage form
+^ESCT1207255	Product containing benzthiazide and triamterene in oral dosage form
+^ESCT1207256	Chlortalidone and triamterene in oral dosage form
+^ESCT1207257	Product containing chlortalidone and triamterene in oral dosage form
+^ESCT1207258	Chlorthalidone and triamterene in oral dosage form
+^ESCT1207259	Triamterene in oral dosage form
+^ESCT1207260	Product containing triamterene in oral dosage form
+^ESCT1216941	Triamterene
+^ESCT1216942	Triamterene product
+^ESCT1222769	Product containing precisely triamterene 50 milligram/1 each conventional release oral capsule
+^ESCT1222770	Triamterene 50 mg oral capsule
+^ESCT1222774	Product containing precisely benzthiazide 25 milligram and triamterene 50 milligram/1 each conventional release oral capsule
+^ESCT1222775	Benzthiazide 25 mg and triamterene 50 mg oral capsule
+^ESCT1222776	Chlorthalidone 50 mg and triamterene 50 mg oral tablet
+^ESCT1222777	Chlortalidone 50 mg and triamterene 50 mg oral tablet
+^ESCT1222778	Product containing precisely chlortalidone 50 milligram and triamterene 50 milligram/1 each conventional release oral tablet
+^ESCT1222779	Product containing precisely furosemide 40 milligram and triamterene 50 milligram/1 each conventional release oral tablet
+^ESCT1222780	Furosemide 40 mg and triamterene 50 mg oral tablet
+^ESCT1228784	Triamterene 100 mg/1 each oral capsule
+^ESCT1228785	Product containing precisely triamterene 100 milligram/1 each conventional release oral capsule
+^ESCT1228786	Triamterene 100 mg oral capsule
+^ESCT1229187	Hydrochlorothiazide 25 mg and triamterene 37.5 mg/1 each oral capsule
+^ESCT1229188	Hydrochlorothiazide 25 mg and triamterene 37.5 mg oral capsule
+^ESCT1229189	Product containing precisely hydrochlorothiazide 25 milligram and triamterene 37.5 milligram/1 each conventional release oral capsule
+^ESCT1229190	Product containing precisely hydrochlorothiazide 25 milligram and triamterene 37.5 milligram/1 each conventional release oral tablet
+^ESCT1229786	Chlortalidone and triamterene product
+^ESCT1229787	Chlorthalidone and triamterene product
+^ESCT1229857	Benzthiazide and triamterene product
+^ESCT1229981	Furosemide and triamterene product
+^ESCT1230247	Hydrochlorothiazide + triamterene
+^ESCT1230248	Hydrochlorothiazide and triamterene product
+^ESCT1230904	Product containing precisely hydrochlorothiazide 25 milligram and triamterene 50 milligram/1 each conventional release oral tablet
+^ESCT1230905	Hydrochlorothiazide 25 mg and triamterene 50 mg oral tablet
+^ESCT1250009	Dyazide 50mg/25mg tablets (Advanz Pharma)
+^ESCT1250110	Dyazide 50mg/25mg tablets (Advanz Pharma) 30 tablet 2 x 15 tablets
+^ESCT1250257	Dytac 50mg capsules (Advanz Pharma)
+^ESCT1250258	Dytac 50mg capsules (Advanz Pharma) 30 capsule
+^ESCT1250695	Triamterene 50mg capsules (Advanz Pharma)
+^ESCT1250696	Triamterene 50mg capsules (Advanz Pharma) 30 capsule 2 x 15 capsules
+^ESCT1279170	Triamterene 50mg / Chlortalidone 50mg tablets (DHP Healthcare Ltd)
+^ESCT1279171	Triamterene 50mg / Chlortalidone 50mg tablets (DHP Healthcare Ltd) 28 tablet 4 x 7 tablets
+^ESCT1299202	Triamterene 50mg / Chlortalidone 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1299203	Triamterene 50mg / Chlortalidone 50mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCT1351455	Hydrochlorothiazide- and triamterene-containing product in oral dose form
+^ESCT1353748	Benzthiazide and triamterene only product
+^ESCT1354204	Chlortalidone and triamterene only product
+^ESCT1354205	Chlorthalidone and triamterene only product
+^ESCT1355136	Furosemide and triamterene only product
+^ESCT1355332	Hydrochlorothiazide and triamterene only product
+^ESCT1357043	Triamterene only product
+^ESCT1357672	Benzthiazide and triamterene only product in oral dose form
+^ESCT1357957	Chlortalidone and triamterene only product in oral dose form
+^ESCT1357958	Chlorthalidone and triamterene only product in oral dose form
+^ESCT1358629	Furosemide and triamterene only product in oral dose form
+^ESCT1358787	Hydrochlorothiazide and triamterene only product in oral dose form
+^ESCT1360105	Triamterene only product in oral dose form
+^ESCT1382421	Hydrochlorothiazide- and triamterene-containing product
+^ESCT1386667	Furosemide- and triamterene-containing product in oral dose form
+^ESCT1386668	Benzthiazide- and triamterene-containing product in oral dose form
+^ESCT1386669	Chlortalidone- and triamterene-containing product in oral dose form
+^ESCT1386670	Chlorthalidone- and triamterene-containing product in oral dose form
+^ESCT1386671	Triamterene-containing product in oral dose form
+^ESCTCH606795	Chlortalidone 50mg / Triamterene 50mg tablets
+^ESCTCO1006994	Co-triamterzide
+^ESCTCO680408	Co-triamterzide 50mg/25mg tablets
+^ESCTDY804171	Dyazide 50mg/25mg tablets (AMCo)
+^ESCTDY821653	Dytide capsules (Mercury Pharma Group Ltd)
+^ESCTDY853667	Dyazide 50mg/25mg tablets (AMCo) 30 tablet 2 x 15 tablets
+^ESCTDY855830	Dytide capsules (Mercury Pharma Group Ltd) 30 capsule
+^ESCTDY865489	Dytac 50mg capsules (AMCo)
+^ESCTDY865490	Dytac 50mg capsules (AMCo) 30 capsule
+^ESCTDY877812	Dyazide 50mg/25mg tablets (Waymade Healthcare Plc)
+^ESCTDY877815	Dyazide 50mg/25mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTDY914953	Dyazide
+^ESCTDY914971	Dytac
+^ESCTDY914973	Dytide
+^ESCTDY929955	Dyazide 50mg/25mg tablets (Dowelhurst Ltd)
+^ESCTDY929956	Dyazide 50mg/25mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTDY966582	Dyazide 50mg/25mg tablets (DE Pharmaceuticals)
+^ESCTDY966583	Dyazide 50mg/25mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTDY969950	Dyazide 50mg/25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDY969952	Dyazide 50mg/25mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTDY969954	Dytac 50mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTDY969957	Dytac 50mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTDY988902	Dyazide 50mg/25mg tablets (Lexon (UK) Ltd)
+^ESCTDY988903	Dyazide 50mg/25mg tablets (Lexon (UK) Ltd) 60 tablet
+^ESCTDY988904	Dytac 50mg capsules (Lexon (UK) Ltd)
+^ESCTDY988905	Dytac 50mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTDY993242	Dyazide 50mg/25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDY993243	Dyazide 50mg/25mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTFR801295	Frusene 50mg/40mg tablets (Orion Pharma (UK) Ltd)
+^ESCTFR851784	Frusene 50mg/40mg tablets (Orion Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCTFR851785	Frusene 50mg/40mg tablets (Orion Pharma (UK) Ltd) 100 tablet
+^ESCTFR918814	Frusene
+^ESCTFU661416	Furosemide + triamterene
+^ESCTHY642429	Hydrochlorothiazide 25 mg and triamterene 37.5 mg/1 each oral capsule
+^ESCTHY642431	Hydrochlorothiazide 25 mg and triamterene 37.5 mg oral tablet
+^ESCTHY670446	Hydrochlorothiazide + triamterene
+^ESCTKA860439	Kalspare tablets (DHP Healthcare Ltd)
+^ESCTKA860440	Kalspare tablets (DHP Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTKA919636	Kalspare
+^ESCTPR269911	Product containing triamterene
+^ESCTPR606779	Product containing triamterene 50 mg/1 each oral capsule
+^ESCTPR606789	Product containing triamterene 50 mg and benzthiazide 25 mg/1 each oral capsule
+^ESCTPR606791	Product containing triamterene 50 mg and chlorthalidone 50 mg/1 each oral tablet
+^ESCTPR606792	Product containing triamterene 50 mg and chlortalidone 50 mg/1 each oral tablet
+^ESCTPR606797	Product containing triamterene 50 mg and furosemide 40 mg/1 each oral tablet
+^ESCTPR641478	Product containing triamterene 100 mg/1 each oral capsule
+^ESCTPR642430	Product containing hydrochlorothiazide 25 mg and triamterene 37.5 mg/1 each oral capsule
+^ESCTPR642432	Product containing hydrochlorothiazide 25 mg and triamterene 37.5 mg/1 each oral tablet
+^ESCTPR660940	Product containing chlortalidone and triamterene
+^ESCTPR660941	Product containing chlorthalidone and triamterene
+^ESCTPR661092	Product containing benzthiazide and triamterene
+^ESCTPR661417	Product containing furosemide and triamterene
+^ESCTPR670447	Product containing hydrochlorothiazide and triamterene
+^ESCTPR680409	Product containing triamterene 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTTR1044466	Triamterene 50mg capsules (AMCo)
+^ESCTTR1044467	Triamterene 50mg capsules (AMCo) 30 capsule 2 x 15 capsules
+^ESCTTR1047649	Triamterene 50mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR1047651	Triamterene 50mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule 2 x 15 capsules
+^ESCTTR1049716	Triamterene 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTTR1049717	Triamterene 50mg capsules (A A H Pharmaceuticals Ltd) 30 capsule 2 x 15 capsules
+^ESCTTR269910	Triamterene
+^ESCTTR606777	Triamterene 50mg capsules
+^ESCTTR606778	Triamterene 50 mg/1 each oral capsule
+^ESCTTR606787	Triamterene 50mg / Benzthiazide 25mg capsules
+^ESCTTR606788	Triamterene 50 mg and benzthiazide 25 mg/1 each oral capsule
+^ESCTTR606790	Triamterene 50mg / Chlortalidone 50mg tablets
+^ESCTTR606793	Triamterene 50 mg and chlorthalidone 50 mg oral tablet
+^ESCTTR606794	Triamterene 50 mg and chlortalidone 50 mg oral tablet
+^ESCTTR606796	Triamterene 50mg / Furosemide 40mg tablets
+^ESCTTR606798	Triamterene 50 mg and furosemide 40 mg oral tablet
+^ESCTTR641477	Triamterene 100 mg/1 each oral capsule
+^ESCTTR660938	Triamterene + Chlortalidone
+^ESCTTR660939	Triamterene+chlorthalidone
+^ESCTTR661090	Triamterene + Benthiazide
+^ESCTTR661091	Triamterene+benzthiazide
+^ESCTTR661415	Triamterene + Furosemide
+^ESCTTR680410	Triamterene 50 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTTR805362	Triam-Co 50mg/25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTTR822246	Triamaxco 50mg/25mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTTR846960	Triamterene 50mg / Furosemide 40mg tablets 100 tablet
+^ESCTTR847115	Triamterene 50mg / Benzthiazide 25mg capsules 30 capsule
+^ESCTTR848024	Triamterene 50mg / Furosemide 40mg tablets 56 tablet
+^ESCTTR853672	Triamaxco 50mg/25mg tablets (Ashbourne Pharmaceuticals Ltd) 28 tablet
+^ESCTTR860434	Triamterene 50mg / Chlortalidone 50mg tablets 28 tablet
+^ESCTTR865488	Triamterene 50mg capsules 30 capsule
+^ESCTTR916851	Triamaxco
+^ESCTTR969956	Triamterene 50mg capsules 28 capsule
+COTA24912EMIS	Co-Triamterzide 50/25  Tablets
+DYCA1016	Dytac  Capsules  50 mg
+DYCA1017	Dytide  Capsules
+DYTA1014	Dyazide  Tablets
+FRTA1251	Frusene  Tablets
+KATA1538	Kalspare  Tablets
+KATA9099EMIS	Kalspare Ls  Tablets
+TRCA18554NEMIS	Triamterene And Benzthiazide  Capsules  50 mg + 25 mg
+TRCA5468	Triamterene  Capsules  50 mg
+TRTA10776BRIDL	Triamaxco 50/25  Tablets
+TRTA17682NEMIS	Triamterene And Furosemide  Tablets  50 mg + 40 mg
+TRTA18561NEMIS	Triamterene And Chlortalidone  Tablets  50 mg + 50 mg
+TRTA2913	Triamco  Tablets
+TRTA997NEMIS	Triamterene And Frusemide  Tablets  50 mg + 40 mg

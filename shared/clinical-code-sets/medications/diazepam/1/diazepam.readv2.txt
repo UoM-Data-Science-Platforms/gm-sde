@@ -1,0 +1,74 @@
+d21..00	DIAZEPAM [ANXIOLYTIC]
+d21z.00	*DIAZEPAM 10mg suppositories
+d21y.00	*VALIUM 10mg suppositories
+d21x.00	*VALIUM 5mg suppositories
+d21w.00	*VALIUM DUP DEL injection
+d21v.00	VALIUM [ANXIOL] 10mg/2mL injection
+d21u.00	*VALIUM 2mg/5mL syrup
+d21t.00	*VALIUM 10mg tablets
+d21s.00	*VALIUM 5mg tablets
+d21r.00	*VALIUM 2mg tablets
+d21q.00	*VALIUM 5mg capsules
+d21p.00	*VALIUM 2mg capsules
+d21o.00	TENSIUM 10mg tablets
+d21n.00	TENSIUM 5mg tablets
+d21m.00	TENSIUM 2mg tablets
+d21l.00	STESOLID 10mg rectal solution
+d21k.00	STESOLID 5mg rectal solution
+d21j.00	*STESOLID 20mg/4mL injection
+d21i.00	*STESOLID 10mg/2mL injection
+d21h.00	*SOLIS 5mg capsules
+d21g.00	*SOLIS 2mg capsules
+d21f.00	*EVACALM 5mg tablets
+d21e.00	*EVACALM 2mg tablets
+d21d.00	DIAZEMULS 10mg/2mL ampoules
+d21c.00	*ATENSINE 10mg tablets
+d21b.00	*ATENSINE 5mg tablets
+d21a.00	*ATENSINE 2mg tablets
+d21J.00	DIAZEPAM 10mg/5mL suspension
+d21G.00	*VALCLAIR 10mg suppositories
+d21F.00	DIALAR 5mg/5mL syrup
+d21E.00	DIALAR 2mg/5mL syrup
+d21D.00	*RIMAPAM 10mg tablets
+d21C.00	*RIMAPAM 5mg tablets
+d21B.00	*RIMAPAM 2mg tablets
+d21A.00	DIAZEPAM 5mg/5mL oral solution
+d219.00	*ALUPRAM 10mg tablets
+d218.00	*ALUPRAM 5mg tablets
+d217.00	*ALUPRAM 2mg tablets
+d216.00	DIAZEPAM 2mg/5mL elixir
+d215.00	DIAZEPAM 10mg tablets
+d214.00	DIAZEPAM 5mg tablets
+d213.00	DIAZEPAM 2mg tablets
+d212.00	*DIAZEPAM 5mg capsules
+d211.00	*DIAZEPAM 2mg capsules
+do1..00	DIAZEPAM [EPILEPSY USE]
+do1z.00	*DIAZEPAM 20mg/4mL injection
+do1y.00	DIAZEPAM 10mg/2.5mL rectal solution
+do1x.00	DIAZEPAM 5mg/2.5mL rectal solution
+do1w.00	DIAZEPAM 10mg/2mL injection
+do1v.00	DIAZEPAM 10mg/2mL emulsion injection
+do1u.00	DIAZEPAM 20mg/5mL rectal solution
+do1t.00	DIAZEPAM 2.5mg/1.25mL rectal solution
+do1B.11	RECTUBES 20mg/5mL rectal solution
+do1B.00	*DIAZEPAM 20mg/5mL RecTubes
+do1A.11	RECTUBES 2.5mg/1.25mL rectal solution
+do1A.00	DIAZEPAM 2.5mg/1.25mL RecTubes
+do19.11	RECTUBES 10mg/2.5mL rectal solution
+do19.00	DIAZEPAM 10mg/2.5mL RecTubes
+do18.11	RECTUBES 5mg/2.5mL rectal solution
+do18.00	DIAZEPAM 5mg/2.5mL RecTubes
+do17.00	VALIUM [EP] 20mg/4mL injection
+do16.00	VALIUM [EP] 10mg/2mL injection
+do15.00	STESOLID 10mg/2.5mL rectal solution
+do14.00	STESOLID 5mg/2.5mL rectal solution
+do13.00	*STESOLID 20mg/4mL injection
+do12.00	STESOLID [EP] 10mg/2mL injection
+do11.00	DIAZEMULS [EP] 10mg/2mL injection
+j81..00	DIAZEPAM [SKELETAL MUSCLE RELAXANT]
+o53..00	DIAZEPAM [ANAESTHESIA]
+o535.00	*VALIUM
+o534.00	*VALIUM 10mg/2mL injection
+o533.00	*STESOLID 20mg/4mL injection
+o532.00	*STESOLID 10mg/2mL injection
+o531.00	DIAZEMULS 10mg injection

@@ -1,0 +1,59 @@
+bi1..	Captopril
+x001j	Captopril+diuretic
+bi1f.	Co-zidocapt 50mg/25mg tablet
+x00f0	Capozide tablet
+bi1c.	Capozide 50mg tablets x28
+x00eq	Acezide tablet
+bi1b.	Acezide 50mg tablets x56
+bi1E.	Capto-Co 50mg/25mg tablet
+bi1e.	Co-zidocapt 25mg/12.5mg tablet
+x00f1	Capozide LS tablet
+bi1d.	Capozide LS 25mg tablets x28CP
+bi1D.	Capto-Co 25mg/12.5mg tablet
+bi1z.	Captopril 50mg tablet
+bi1y.	Captopril 50mg tablets x56
+bi1r.	Tensopril 50mg tablet
+bi1o.	Hyteneze 50 tablet
+bi1l.	Kaplon 50mg tablet
+bi1i.	Ecopace 50mg tablet
+bi1C.	Hypapril 50mg tablet
+bi19.	Capoten 50mg tablet
+bi1a.	Capoten 50mg tablets x56
+bi14.	Acepril 50mg tablet
+bi15.	Acepril 50mg tablets x56
+bi1w.	Captopril 25mg tablet
+bi1x.	Captopril 25mg tablets x56
+bi1q.	Tensopril 25mg tablet
+bi1n.	Hyteneze 25 tablet
+bi1k.	Kaplon 25mg tablet
+bi1h.	Ecopace 25mg tablet
+bi1B.	Hypapril 25mg tablet
+bi17.	Capoten 25mg tablet
+bi18.	Capoten 25mg tablets x56
+bi12.	Acepril 25mg tablet
+bi13.	Acepril 25mg tablets x56
+bi1v.	Captopril 12.5mg tablet
+bi1p.	Tensopril 12.5mg tablet
+bi1m.	Hyteneze 12.5 tablet
+bi1j.	Kaplon 12.5mg tablet
+bi1g.	Ecopace 12.5mg tablet
+bi1A.	Hypapril 12.5mg tablet
+bi16.	Capoten 12.5mg tablet
+bi11.	Acepril 12.5mg tablet
+bi1s.	CAPOZIDE 50mg/25mg tablets
+bi1K.	CAPTOPRIL 25mg/5mL oral solution
+bi1J.	NOYADA 25mg/5mL oral solution
+bi1I.	CAPTOPRIL 5mg/5mL oral solution
+bi1H.	NOYADA 5mg/5mL oral solution
+x02Wf	Capoten
+x040z	Capozide
+x0410	Capozide LS
+x04t8	Tensopril
+x04t5	Hyteneze 12.5
+x04t6	Hyteneze 25
+x04t7	Hyteneze 50
+x03lH	Kaplon
+x03kD	Ecopace
+x047M	Acezide
+x03n3	Hypapril
+x02Sd	Acepril

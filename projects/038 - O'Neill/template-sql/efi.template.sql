@@ -11,10 +11,6 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- Set the temp end date until new legal basis
-DECLARE @TEMPRQ038EndDate datetime;
-SET @TEMPRQ038EndDate = '2022-06-01';
-
 -- Build the main cohort
 --> EXECUTE query-build-rq038-cohort.sql
 

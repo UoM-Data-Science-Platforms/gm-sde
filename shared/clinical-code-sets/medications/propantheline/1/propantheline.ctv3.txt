@@ -1,0 +1,5 @@
+a4c..	Propantheline bromide [antispasmodic]
+a4c1.	Propantheline bromide 15mg tablet
+a4c2.	Pro-Banthine 15mg tablet
+gd8..	Propantheline br [enuresis - no drugs here]
+x01Dk	Propantheline

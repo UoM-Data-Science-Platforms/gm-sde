@@ -1,0 +1,53 @@
+a62..	Ranitidine hydrochloride
+a628.	Ranitidine 150mg effervescent tablet
+a626.	Zantac 150mg effervescent tablet
+a629.	Ranitidine 300mg effervescent tablet
+a627.	Zantac 300mg effervescent tablet
+a62N.	Ranitidine 75mg tablet
+a62Q.	Zantac 75 tablet
+a62P.	Ranzac 75mg tablet
+a62O.	Gavilast-P 75mg tablet
+a62u.	Ranitidine 75mg effervescent tablet
+a62M.	Zantac 75 Dissolve effervescent tablet
+a62v.	Ranitidine 75mg/5mL sugar free syrup
+x00em	Zantac 75mg/5mL sugar free syrup
+a625.	Zantac 150mg/10mL sugar free syrup 300mL
+a62w.	Ranitidine 150mg tablet
+a62K.	Ranitil 150mg tablet
+a62I.	Histac 150mg tablet
+a62G.	Ranitic 150mg tablet
+a62E.	Rantec 150mg tablet
+a62C.	Zaedoc 150 tablet
+a62A.	Raciran 150mg tablet
+a621.	Zantac 150mg tablet
+a62x.	Ranitidine 150mg dispersible tablet
+a622.	Zantac 150mg dispersible tablet
+a62y.	Ranitidine 300mg tablet
+a62L.	Ranitil 300mg tablet
+a62J.	Histac 300mg tablet
+a62H.	Ranitic 300mg tablet
+a62F.	Rantec 300mg tablet
+a62D.	Zaedoc 300 tablet
+a62B.	Raciran 300mg tablet
+a623.	Zantac 300mg tablet
+a62z.	Ranitidine 50mg/2mL injection
+a624.	Zantac 50mg/2mL injection
+a6d..	Ranitidine bismuth citrate
+a6d1.	Ranitidine bismuth citrate 400mg tablet
+a6d2.	Pylorid 400mg tablet
+x019Q	Ranitidine
+x019S	Parenteral ranitidine
+x019R	Oral ranitidine
+x02uu	Zantac
+x049w	Zantac 75
+x05mC	Zantac Dissolve
+x05Er	Ranzac
+x05Xr	Ranitil
+x05G6	Histac
+x054I	Ranitic
+x05pc	Gavilast-P
+x02op	Pylorid
+x03n4	Raciran
+x04cM	Zaedoc 150
+x04cN	Zaedoc 300
+x04sG	Rantec

@@ -1,0 +1,114 @@
+COTA34664MGEMIS	Colchicine  Tablets  500 micrograms (The Boots Company)
+COTA34665MGEMIS	Colchicine  Tablets  500 micrograms (Ivax Pharmaceuticals)
+COTA34666MGEMIS	Colchicine  Tablets  500 micrograms (A.A.H. Pharm)
+COTA34667MGEMIS	Colchicine  Tablets  500 micrograms (Unichem)
+COTA34668MGEMIS	Colchicine  Tablets  500 micrograms (Ucb Pharma)
+COTA34669MGEMIS	Colchicine  Tablets  500 micrograms (Kent Pharm)
+COTA34670MGEMIS	Colchicine  Tablets  500 micrograms (Wockhardt UK)
+COTA712	Colchicine  Tablets  0.25 mg
+COTA9999	Colchicine  Tablets  500 micrograms
+^ESCT1178837	Product containing only colchicine 0.5 milligram/1 each oral tablet
+^ESCT1183332	Product containing only colchicine 0.5 mg and probenecid 500 mg/1 each oral tablet
+^ESCT1183541	Colchicine 500microgram tablets (A A H Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCT1185555	Product containing only colchicine 0.6 milligram/1 each oral tablet
+^ESCT1195996	Colchicine 500microgram tablets (RPH Pharmaceuticals AB)
+^ESCT1196442	Colchicine 500microgram tablets (RPH Pharmaceuticals AB) 100 tablet
+^ESCT1197708	Colchicine 400micrograms/5ml oral suspension 1 ml
+^ESCT1197709	Colchicine 400micrograms/5ml oral suspension (Special Order)
+^ESCT1197710	Colchicine 400micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCT1197926	Colchicine 400micrograms/5ml oral suspension
+^ESCT1206953	Colchicine in oral dosage form
+^ESCT1206954	Product containing colchicine in oral dosage form
+^ESCT1206955	Colchicine and probenecid in oral dosage form
+^ESCT1206956	Product containing colchicine and probenecid in oral dosage form
+^ESCT1219603	Colchicine
+^ESCT1219604	Colchicine product
+^ESCT1225508	Colchicine 500 microgram oral tablet
+^ESCT1225509	Product containing precisely colchicine 500 microgram/1 each conventional release oral tablet
+^ESCT1231800	Colchicine + probenecid
+^ESCT1231801	Colchicine and probenecid product
+^ESCT1234959	Colchicine 0.5 mg and probenecid 500 mg oral tablet
+^ESCT1234960	Colchicine 500 microgram and probenecid 500 mg oral tablet
+^ESCT1234961	Product containing precisely colchicine 500 microgram and probenecid 500 milligram/1 each conventional release oral tablet
+^ESCT1235244	Colchicine 0.6 mg oral tablet
+^ESCT1235245	Product containing precisely colchicine 600 microgram/1 each conventional release oral tablet
+^ESCT1235246	Colchicine 600 microgram oral tablet
+^ESCT1255969	Colchicine 500microgram tablets 28 tablet
+^ESCT1255970	Colchicine 500microgram tablets 84 tablet
+^ESCT1255971	Colchicine 500microgram tablets (Ria Generics Ltd)
+^ESCT1255972	Colchicine 500microgram tablets (Ria Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255973	Colchicine 500microgram tablets (Ria Generics Ltd) 84 tablet 6 x 14 tablets
+^ESCT1255974	Colchicine 500microgram tablets (Ria Generics Ltd) 100 tablet
+^ESCT1255975	Colchicine 500microgram tablets (Ria Generics Ltd) 100 tablet 10 x 10 tablets
+^ESCT1255976	Colchicine 1mg tablets 30 tablet
+^ESCT1255977	Colchicine 1mg tablets (Ria Generics Ltd)
+^ESCT1255979	Colchicine 1mg tablets (Ria Generics Ltd) 30 tablet 2 x 15 tablets
+^ESCT1256013	Colchicine 1mg tablets
+^ESCT1256762	Colchicine 500microgram tablets (Macleods Pharma UK Ltd)
+^ESCT1256763	Colchicine 500microgram tablets (Macleods Pharma UK Ltd) 100 tablet
+^ESCT1263965	Colchicine 500microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263966	Colchicine 500microgram tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCT1269679	Colchicine 500microgram tablets (Accord Healthcare Ltd)
+^ESCT1269680	Colchicine 500microgram tablets (Accord Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCT1276689	Colchicine 500microgram tablets (Ria Generics Ltd)
+^ESCT1276690	Colchicine 500microgram tablets (Ria Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1276691	Colchicine 500microgram tablets (Ria Generics Ltd) 100 tablet 10 x 10 tablets
+^ESCT1279606	Colchicine 500microgram tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCT1300466	Colchicine 500microgram tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1354362	Colchicine only product
+^ESCT1354363	Colchicine and probenecid only product
+^ESCT1358075	Colchicine and probenecid only product in oral dose form
+^ESCT1358076	Colchicine only product in oral dose form
+^ESCT1375394	Colchicine 500microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1375395	Colchicine 500microgram tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1382932	Colchicine- and probenecid-containing product
+^ESCT1386524	Colchicine-containing product in oral dose form
+^ESCT1386525	Colchicine- and probenecid-containing product in oral dose form
+^ESCT1425721	Colchicine 500microgram tablets (Kent Pharma (UK) Ltd)
+^ESCT1426478	Colchicine 500microgram tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCTCO1021162	Colchicine 500microgram tablets (Focus Pharmaceuticals Ltd)
+^ESCTCO1021163	Colchicine 500microgram tablets (Focus Pharmaceuticals Ltd) 100 tablet
+^ESCTCO1042999	Colchicine 500microgram tablets (Waymade Healthcare Plc)
+^ESCTCO1043000	Colchicine 500microgram tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTCO1058836	Colchicine 500microgram tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1058837	Colchicine 500microgram tablets (Phoenix Healthcare Distribution Ltd) 100 tablet
+^ESCTCO1060815	Colchicine 500microgram tablets (DE Pharmaceuticals)
+^ESCTCO1060816	Colchicine 500microgram tablets (DE Pharmaceuticals) 100 tablet
+^ESCTCO1117125	Colchicine 500microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO1117126	Colchicine 500microgram tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTCO1118126	Colchicine 500microgram tablets (Actavis UK Ltd)
+^ESCTCO1118127	Colchicine 500microgram tablets (Actavis UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTCO1144116	Colchicine 250micrograms/5ml oral solution 1 ml
+^ESCTCO1144117	Colchicine 250micrograms/5ml oral solution (Special Order)
+^ESCTCO1144118	Colchicine 250micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTCO1144151	Colchicine 250micrograms/5ml oral solution
+^ESCTCO1153659	Colchicine 500microgram tablets (Teva UK Ltd)
+^ESCTCO1153660	Colchicine 500microgram tablets (Teva UK Ltd) 100 tablet
+^ESCTCO1158394	Colchicine 500microgram tablets (Morningside Healthcare Ltd)
+^ESCTCO1158395	Colchicine 500microgram tablets (Morningside Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCTCO368960	Colchicine
+^ESCTCO615347	Colchicine 500microgram tablets
+^ESCTCO615348	Colchicine 0.5 mg oral tablet
+^ESCTCO682230	Colchicine + probenecid
+^ESCTCO717618	Colchicine 0.5 mg and probenecid 500 mg oral tablet
+^ESCTCO727359	Colchicine 0.6 mg oral tablet
+^ESCTCO805230	Colchicine 500microgram tablets (The Boots Company Plc)
+^ESCTCO806733	Colchicine 500microgram tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO808635	Colchicine 500microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO809432	Colchicine 500microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO812861	Colchicine 500microgram tablets (UCB Pharma Ltd)
+^ESCTCO819827	Colchicine 500microgram tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO822931	Colchicine 500microgram tablets (Wockhardt UK Ltd)
+^ESCTCO847619	Colchicine 500microgram tablets 100 tablet
+^ESCTCO856559	Colchicine 500microgram tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTCO856560	Colchicine 500microgram tablets (The Boots Company Plc) 100 tablet
+^ESCTCO856561	Colchicine 500microgram tablets (Wockhardt UK Ltd) 100 tablet
+^ESCTCO856562	Colchicine 500microgram tablets (IVAX Pharmaceuticals UK Ltd) 100 tablet
+^ESCTCO856564	Colchicine 500microgram tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTCO856565	Colchicine 500microgram tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTCO857167	Colchicine 500microgram tablets (UCB Pharma Ltd) 100 tablet
+^ESCTPR368961	Product containing colchicine
+^ESCTPR615349	Product containing colchicine 0.5 milligram/1 each oral tablet
+^ESCTPR682231	Product containing colchicine and probenecid
+^ESCTPR717619	Product containing colchicine 0.5 mg and probenecid 500 mg/1 each oral tablet
+^ESCTPR727360	Product containing colchicine 0.6 milligram/1 each oral tablet

@@ -1,0 +1,7 @@
+d22..	Alprazolam
+d22z.	Alprazolam 500micrograms tablet
+d222.	Xanax 500mcg tablet
+d22y.	Alprazolam 250micrograms tablet
+d221.	Xanax 250mcg tablet
+x05KZ	Alprazolam - chemical
+x02uj	Xanax

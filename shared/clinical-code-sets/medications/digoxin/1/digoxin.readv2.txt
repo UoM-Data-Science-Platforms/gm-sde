@@ -1,0 +1,20 @@
+b11..00	DIGOXIN
+b11E.00	*DIGAMEX 250micrograms tablets
+b11D.00	*DIGAMEX 125micrograms tablets
+b11C.00	DIGAMEX 62.5micrograms tablets
+b11B.00	DIGOXIN 500microgram/2mL injection
+b11A.00	DIGOXIN 50microgram/mL elixir
+b119.00	LANOXIN-PG 50microgram/mL elixir
+b118.00	LANOXIN-PG 62.5micrograms tablets
+b117.00	LANOXIN 500micrograms/2mL injection
+b116.00	LANOXIN 250micrograms tablets
+b115.00	LANOXIN 125micrograms tablets
+b114.00	DIGOXIN PAEDIATRIC 100microgram/mL injection
+b113.00	DIGOXIN 250microgram tablets
+b112.00	DIGOXIN 125microgram tablets
+b111.00	DIGOXIN 62.5micrograms tablets
+b16..00	DIGOXIN SPECIFIC ANTIBODY
+b164.00	DIGOXIN IMMUNE FAB (ovine) 40mg powder for soln for infusion
+b163.00	DIGIFAB 40mg powder for solution for infusion
+b162.00	DIGOXIN SPECIFIC ANTIBODY 38mg infusion
+b161.00	*DIGIBIND 38mg infusion

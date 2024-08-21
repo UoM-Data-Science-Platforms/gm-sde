@@ -1,0 +1,5 @@
+gdf..	DARIFENACIN
+gdfz.	DARIFENACIN 7.5mg m/r tablets
+gdf1.	EMSELEX 7.5mg m/r tablets
+gdfy.	DARIFENACIN 15mg m/r tablets
+gdf2.	EMSELEX 15mg m/r tablets

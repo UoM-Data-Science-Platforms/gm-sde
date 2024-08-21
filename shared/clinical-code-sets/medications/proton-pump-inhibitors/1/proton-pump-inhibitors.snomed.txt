@@ -1,0 +1,56 @@
+42353711000001101	Esomeprazole 20mg gastro-resistant tablets
+42353811000001109	Esomeprazole 40mg gastro-resistant tablets
+16132311000001103	Esomeprazole 10mg gastro-resistant granules sachets
+17631311000001107	Esomeprazole 20mg gastro-resistant capsules
+17631411000001100	Esomeprazole 40mg gastro-resistant capsules
+154111000001106	Nexium 20mg gastro-resistant tablets (AstraZeneca)
+240211000001107	Nexium 40mg gastro-resistant tablets (AstraZeneca)
+16116611000001103	Nexium 10mg gastro-resistant granules sachets
+22380011000001104	Nexium 20mg gastro-resistant tablets (Arrow)
+22380211000001109	Nexium 40mg gastro-resistant tablets (Arrow)
+28939811000001109	Nexium Control 20mg gastro-resistant tablets
+35585411000001101	Nexium Control 20mg gastro-resistant capsules
+17603611000001106	Emozul 20mg gastro-resistant capsules
+17603311000001101	Emozul 40mg gastro-resistant capsules
+33664711000001106	Ventra 20mg gastro-resistant capsules
+33665211000001103	Ventra 40mg gastro-resistant capsules
+37556211000001102	Guardium acid reflux control 20mg gastro-resistant tablets
+42354611000001108	Lansoprazole 30mg gastro-resistant capsules
+42354511000001109	Lansoprazole 15mg gastro-resistant capsules
+4053411000001103	Lansoprazole 15mg orodispersible tablets
+4053511000001104	Lansoprazole 30mg orodispersible tablets
+14742811000001107	Lansoprazole 10mg oral powder sachets
+217611000001102	Zoton 30mg gastro-resistant capsules
+29411000001106	Zoton 15mg gastro-resistant capsules
+4040911000001100	Zoton FasTab 15mg
+4041711000001105	Zoton FasTab 30mg
+42356411000001102	Omeprazole 20mg gastro-resistant capsules
+42356611000001104	Omeprazole 40mg gastro-resistant capsules
+42356211000001101	Omeprazole 10mg gastro-resistant capsules
+39021411000001102	Omeprazole 10mg dispersible gastro-resistant tablets
+39021511000001103	Omeprazole 20mg dispersible gastro-resistant tablets
+39021611000001104	Omeprazole 40mg dispersible gastro-resistant tablets
+42356311000001109	Omeprazole 10mg gastro-resistant tablets
+42356511000001103	Omeprazole 20mg gastro-resistant tablets
+42356711000001108	Omeprazole 40mg gastro-resistant tablets
+923011000001105	Losec 20mg gastro-resistant capsules
+935511000001100	Losec 40mg gastro-resistant capsules
+64411000001103	Losec 10mg gastro-resistant capsules
+749811000001106	Losec MUPS 10mg gastro-resistant tablets
+427311000001104	Losec MUPS 20mg gastro-resistant tablets
+691311000001102	Losec MUPS 40mg gastro-resistant tablets
+3633211000001108	Omeran 20mg gastro-resistant tablets
+10820511000001105	Mepradec 10mg gastro-resistant capsules
+10820111000001101	Mepradec 20mg gastro-resistant capsules
+18503211000001105	Mezzopram 10mg dispersible gastro-resistant tablets
+18503311000001102	Mezzopram 20mg dispersible gastro-resistant tablets
+18503411000001109	Mezzopram 40mg dispersible gastro-resistant tablets
+42357111000001105	Pantoprazole 40mg gastro-resistant tablets
+42357011000001109	Pantoprazole 20mg gastro-resistant tablets
+922011000001101	Protium 40mg gastro-resistant tablets
+160711000001109	Protium 20mg gastro-resistant tablets
+17011211000001100	Pantoloc Control 20mg gastro-resistant tablets
+42357411000001100	Rabeprazole 10mg gastro-resistant tablets
+42357511000001101	Rabeprazole 20mg gastro-resistant tablets
+228611000001109	Pariet 10mg gastro-resistant tablets
+43811000001108	Pariet 20mg gastro-resistant tablets

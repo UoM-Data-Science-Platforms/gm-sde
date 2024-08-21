@@ -1,0 +1,453 @@
+^ESCT1177263	Metoprolol 50mg tablets (Milpharm Ltd)
+^ESCT1177264	Metoprolol 50mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1177265	Metoprolol 100mg tablets (Milpharm Ltd)
+^ESCT1177266	Metoprolol 100mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1177923	Product containing only metoprolol tartrate 100 mg/1 each oral tablet
+^ESCT1177924	Product containing only metoprolol tartrate 50 mg/1 each oral tablet
+^ESCT1177992	Product containing only metoprolol tartrate 100 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1179805	Metoprolol 50mg tablets (Mylan) 28 tablet
+^ESCT1182044	Metoprolol + Hydrochlorothiazide
+^ESCT1182123	Product containing only metoprolol tartrate 100 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1182487	Product containing only metoprolol tartrate 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1182667	Product containing only metoprolol tartrate 25 mg/1 each oral tablet
+^ESCT1184274	Metoprolol 50mg tablets (Mylan)
+^ESCT1184477	Product containing only metoprolol tartrate 25 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1184480	Product containing only metoprolol tartrate 50 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1185593	Metoprolol 50mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1185595	Metoprolol 100mg tablets (Mylan) 100 tablet
+^ESCT1186361	Metoprolol 100mg tablets (Mylan)
+^ESCT1186924	Metoprolol 100mg tablets (Mylan) 28 tablet
+^ESCT1188340	Product containing only metoprolol tartrate 100 mg and hydrochlorothiazide 50 mg/1 each oral tablet
+^ESCT1188669	Metoprolol 50mg tablets (Mylan) 100 tablet
+^ESCT1188670	Metoprolol 100mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1203242	Metoprolol tartrate 200 mg prolonged-release oral tablet
+^ESCT1203243	Product containing precisely metoprolol tartrate 200 milligram/1 each prolonged-release oral tablet
+^ESCT1203248	Hydrochlorothiazide 25 mg and metoprolol tartrate 200 mg prolonged-release oral tablet
+^ESCT1203249	Product containing precisely hydrochlorothiazide 25 milligram and metoprolol tartrate 200 milligram/1 each prolonged-release oral tablet
+^ESCT1203260	Metoprolol succinate 200mg prolonged-release oral tablet
+^ESCT1203372	Metoprolol succinate 25mg prolonged-release oral tablet
+^ESCT1203494	Metoprolol succinate 50mg prolonged-release oral tablet
+^ESCT1203518	Metoprolol succinate 100mg prolonged-release oral tablet
+^ESCT1206107	Hydrochlorothiazide and metoprolol in oral dosage form
+^ESCT1206108	Product containing hydrochlorothiazide and metoprolol in oral dosage form
+^ESCT1215447	Metoprolol 200mg modified-release / Hydrochlorothiazide 25mg tablets
+^ESCT1215448	Metoprolol 200mg modified-release tablets
+^ESCT1216736	Metoprolol
+^ESCT1216737	Metoprolol product
+^ESCT1222844	Product containing precisely metoprolol tartrate 100 milligram/1 each conventional release oral tablet
+^ESCT1222845	Product containing precisely metoprolol tartrate 50 milligram/1 each conventional release oral tablet
+^ESCT1222859	Hydrochlorothiazide 12.5 mg and metoprolol tartrate 100 mg oral tablet
+^ESCT1222860	Product containing precisely hydrochlorothiazide 12.5 milligram and metoprolol tartrate 100 milligram/1 each conventional release oral tablet
+^ESCT1230657	Product containing precisely metoprolol tartrate 25 milligram/1 each conventional release oral tablet
+^ESCT1232116	Hydrochlorothiazide and metoprolol product
+^ESCT1232368	Metoprolol tartrate 100 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1232369	Hydrochlorothiazide 25 mg and metoprolol tartrate 100 mg oral tablet
+^ESCT1232370	Product containing precisely hydrochlorothiazide 25 milligram and metoprolol tartrate 100 milligram/1 each conventional release oral tablet
+^ESCT1232371	Metoprolol tartrate 100 mg and hydrochlorothiazide 50 mg oral tablet
+^ESCT1232372	Product containing precisely hydrochlorothiazide 50 milligram and metoprolol tartrate 100 milligram/1 each conventional release oral tablet
+^ESCT1232373	Hydrochlorothiazide 50 mg and metoprolol tartrate 100 mg oral tablet
+^ESCT1232374	Metoprolol tartrate 50 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1232375	Product containing precisely hydrochlorothiazide 25 milligram and metoprolol tartrate 50 milligram/1 each conventional release oral tablet
+^ESCT1232376	Hydrochlorothiazide 25 mg and metoprolol tartrate 50 mg oral tablet
+^ESCT1234275	Metoprolol tartrate 25 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1234276	Product containing precisely hydrochlorothiazide 12.5 milligram and metoprolol tartrate 25 milligram/1 each conventional release oral tablet
+^ESCT1234277	Hydrochlorothiazide 12.5 mg and metoprolol tartrate 25 mg oral tablet
+^ESCT1234306	Metoprolol tartrate 50 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCT1234307	Product containing precisely hydrochlorothiazide 12.5 milligram and metoprolol tartrate 50 milligram/1 each conventional release oral tablet
+^ESCT1234308	Hydrochlorothiazide 12.5 mg and metoprolol tartrate 50 mg oral tablet
+^ESCT1255901	Metoprolol 50mg tablets (Bristol Laboratories Ltd)
+^ESCT1255902	Metoprolol 50mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255903	Metoprolol 50mg tablets (Bristol Laboratories Ltd) 56 tablet 4 x 14 tablets
+^ESCT1255904	Metoprolol 100mg tablets (Bristol Laboratories Ltd)
+^ESCT1255905	Metoprolol 100mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255906	Metoprolol 100mg tablets (Bristol Laboratories Ltd) 56 tablet 4 x 14 tablets
+^ESCT1264552	Metoprolol 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264553	Metoprolol 50mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264554	Metoprolol 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264555	Metoprolol 100mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1268258	Betaloc I.V. 5mg/5ml solution for injection ampoules (Recordati Pharmaceuticals Ltd)
+^ESCT1268259	Betaloc I.V. 5mg/5ml solution for injection ampoules (Recordati Pharmaceuticals Ltd) 5 ampoule
+^ESCT1355323	Hydrochlorothiazide and metoprolol only product
+^ESCT1355912	Metoprolol only product
+^ESCT1358778	Hydrochlorothiazide and metoprolol only product in oral dose form
+^ESCT1359220	Metoprolol only product in oral dose form
+^ESCT1359221	Metoprolol only product in parenteral dose form
+^ESCT1382223	Metoprolol-containing product in oral dose form
+^ESCT1382224	Metoprolol-containing product in parenteral dose form
+^ESCT1386128	Hydrochlorothiazide- and metoprolol-containing product in oral dose form
+^ESCT1402270	Metoprolol 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402271	Metoprolol 100mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402272	Metoprolol 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402274	Metoprolol 50mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402276	Metoprolol 50mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1413313	Metoprolol tartrate (as metoprolol succinate) 25 mg prolonged-release oral tablet
+^ESCT1413314	Metoprolol tartrate (as metoprolol succinate) 50 mg prolonged-release oral tablet
+^ESCT1413315	Metoprolol tartrate (as metoprolol succinate) 100 mg prolonged-release oral tablet
+^ESCT1413316	Metoprolol tartrate (as metoprolol succinate) 200 mg prolonged-release oral tablet
+^ESCT1414533	Metoprolol tartrate 1 mg/mL solution for injection
+^ESCT1425544	Metoprolol 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425914	Metoprolol 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425967	Metoprolol 50mg tablets (Kent Pharma (UK) Ltd) 56 tablet
+^ESCT1425968	Metoprolol 50mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1425970	Metoprolol 100mg tablets (Kent Pharma (UK) Ltd) 56 tablet
+^ESCT1425971	Metoprolol 100mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426833	Metoprolol 50mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426834	Metoprolol 100mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1428958	Metoprolol 25mg tablets 28 tablet
+^ESCT1428960	Metoprolol 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1428962	Metoprolol 25mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1430145	Metoprolol 25mg tablets
+^ESCT1432970	Metoprolol 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1432971	Metoprolol 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1433845	Metoprolol 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1433846	Metoprolol 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCT1436933	Metoprolol 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436995	Metoprolol 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437141	Metoprolol 50mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1437142	Metoprolol 50mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437144	Metoprolol 100mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1437145	Metoprolol 100mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1438078	Metoprolol 50mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438094	Metoprolol 100mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCTBE801455	Betaloc 50mg tablets (AstraZeneca UK Ltd)
+^ESCTBE805273	Betaloc-SA 200mg tablets (AstraZeneca UK Ltd)
+^ESCTBE805421	Betaloc 100mg tablets (AstraZeneca UK Ltd)
+^ESCTBE849200	Betaloc 50mg tablets (AstraZeneca UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTBE849230	Betaloc 100mg tablets (AstraZeneca UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTBE850368	Betaloc-SA 200mg tablets (AstraZeneca UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTBE862805	Betaloc I.V. 5mg/5ml solution for injection ampoules (AstraZeneca UK Ltd)
+^ESCTBE862808	Betaloc I.V. 5mg/5ml solution for injection ampoules (AstraZeneca UK Ltd) 5 ampoule
+^ESCTBE914113	Betaloc
+^ESCTBE914114	Betaloc-SA
+^ESCTCO858469	Co-Betaloc tablets (Pfizer Ltd)
+^ESCTCO858471	Co-Betaloc tablets (Pfizer Ltd) 28 tablet 4 x 7 tablets
+^ESCTCO864999	Co-Betaloc SA tablets (Pfizer Ltd)
+^ESCTCO865000	Co-Betaloc SA tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO914471	Co-Betaloc
+^ESCTCO914473	Co-Betaloc SA
+^ESCTHY682800	Hydrochlorothiazide + Metoprolol
+^ESCTLO1008369	Lopresor SR 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLO1008370	Lopresor SR 200mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTLO1024553	Lopresor SR 200mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTLO1024867	Lopresor SR 200mg tablets (DE Pharmaceuticals)
+^ESCTLO1024868	Lopresor SR 200mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTLO1109096	Lopresor SR 200mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTLO803600	Lopresor 50mg tablets (Recordati Pharmaceuticals Ltd)
+^ESCTLO823332	Lopresor 100mg tablets (Recordati Pharmaceuticals Ltd)
+^ESCTLO832908	Lopresor SR 200mg tablets (Recordati Pharmaceuticals Ltd)
+^ESCTLO849214	Lopresor 50mg tablets (Recordati Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO849251	Lopresor 100mg tablets (Recordati Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTLO850369	Lopresor SR 200mg tablets (Recordati Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTLO918282	Lopresor
+^ESCTLO919265	Lopresor SR
+^ESCTLO944382	Lopresor SR 200mg tablets (Waymade Healthcare Plc)
+^ESCTLO944383	Lopresor SR 200mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLO989304	Lopresor SR 200mg tablets (Lexon (UK) Ltd)
+^ESCTLO989305	Lopresor SR 200mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTME1006127	Metoprolol 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTME1006128	Metoprolol 100mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTME1006393	Metoprolol 50mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTME1006396	Metoprolol 100mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTME1036942	Metoprolol 50mg tablets (Accord Healthcare Ltd)
+^ESCTME1036943	Metoprolol 50mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTME1036944	Metoprolol 100mg tablets (Accord Healthcare Ltd)
+^ESCTME1036945	Metoprolol 100mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTME1041613	Metoprolol 50mg tablets (Waymade Healthcare Plc)
+^ESCTME1041616	Metoprolol 50mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTME1041618	Metoprolol 50mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTME1041619	Metoprolol 100mg tablets (Waymade Healthcare Plc)
+^ESCTME1041621	Metoprolol 100mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTME1041622	Metoprolol 100mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTME1042889	Metoprolol 12.5mg/5ml oral solution 100 ml
+^ESCTME1042890	Metoprolol 12.5mg/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTME1044033	Metoprolol 12.5mg/5ml oral suspension 100 ml
+^ESCTME1044036	Metoprolol 12.5mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTME1045830	Metoprolol 12.5mg/5ml oral solution 150 ml
+^ESCTME1045831	Metoprolol 12.5mg/5ml oral solution (Drug Tariff Special Order) 150 ml
+^ESCTME1065821	Metoprolol 100mg tablets (DE Pharmaceuticals)
+^ESCTME1065822	Metoprolol 100mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTME1065823	Metoprolol 100mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTME1065824	Metoprolol 50mg tablets (DE Pharmaceuticals)
+^ESCTME1065825	Metoprolol 50mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTME1065826	Metoprolol 50mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTME1099259	Metoprolol 50mg/5ml oral solution 150 ml
+^ESCTME1099260	Metoprolol 50mg/5ml oral solution (Drug Tariff Special Order) 150 ml
+^ESCTME1099261	Metoprolol 50mg/5ml oral suspension 100 ml
+^ESCTME1099262	Metoprolol 50mg/5ml oral suspension (Special Order) 100 ml
+^ESCTME1109162	Metoprolol 25mg/5ml oral suspension 50 ml
+^ESCTME1109164	Metoprolol 25mg/5ml oral suspension (Special Order) 50 ml
+^ESCTME1118232	Metoprolol 100mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTME261304	Metoprolol
+^ESCTME607054	Metoprolol 100mg tablets
+^ESCTME607056	Metoprolol tartrate 100 mg oral tablet
+^ESCTME607057	Metoprolol 50mg tablets
+^ESCTME607059	Metoprolol tartrate 50 mg oral tablet
+^ESCTME607060	Metoprolol tartrate 1mg/mL injection solution 5mL ampoule
+^ESCTME607061	Metoprolol tartrate 5mg/5mL injection
+^ESCTME607062	Metoprolol tartrate 1mg/mL injection solution 5mL ampule
+^ESCTME607063	Metoprolol tartrate 1mg/mL injection
+^ESCTME607064	Metoprolol 200mg modified-release tablets
+^ESCTME607065	Metoprolol tartrate 200mg m/r tablet
+^ESCTME607114	Metoprolol 100mg / Hydrochlorothiazide 12.5mg tablets
+^ESCTME607116	Metoprolol tartrate 100 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTME607117	Metoprolol 200mg modified-release / Hydrochlorothiazide 25mg tablets
+^ESCTME607118	Metoprolol tartrate+hydrochlorothiazide 200mg/25mg m/r tablet
+^ESCTME641694	Metoprolol succinate 25mg m/r tablet
+^ESCTME641695	Metoprolol succinate 50mg m/r tablet
+^ESCTME641696	Metoprolol succinate 100mg m/r tablet
+^ESCTME641697	Metoprolol succinate 200mg m/r tablet
+^ESCTME655564	Metoprolol in oral dosage form
+^ESCTME655566	Metoprolol in parenteral dosage form
+^ESCTME660866	Metoprolol tartrate+hydrochlorothiazide
+^ESCTME677508	Metoprolol tartrate 25 mg oral tablet
+^ESCTME682801	Metoprolol + hydrochlorothiazide
+^ESCTME686230	Metoprolol tartrate 100 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTME686232	Metoprolol tartrate 100 mg and hydrochlorothiazide 50 mg oral tablet
+^ESCTME686234	Metoprolol tartrate 50 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTME703976	Metoprolol tartrate 25 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTME704295	Metoprolol tartrate 50 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTME802709	Metoprolol 100mg tablets (Teva UK Ltd)
+^ESCTME803810	Metoprolol 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME803964	Metoprolol 50mg tablets (Teva UK Ltd)
+^ESCTME804870	Metoprolol 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME806389	Metoprolol 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTME812351	Metoprolol 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME813210	Metoprolol 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME814071	Metoprolol 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTME818581	Metoprolol 50mg tablets (The Boots Company Plc)
+^ESCTME818897	Metoprolol 100mg tablets (Mylan Ltd)
+^ESCTME818915	Metoprolol 50mg tablets (Actavis UK Ltd)
+^ESCTME819523	Metoprolol 50mg tablets (Sandoz Ltd)
+^ESCTME820151	Metoprolol 100mg tablets (Sandoz Ltd)
+^ESCTME820425	Metoprolol 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME820513	Metoprolol 100mg tablets (The Boots Company Plc)
+^ESCTME821138	Metoprolol 50mg tablets (Mylan Ltd)
+^ESCTME827743	Metoprolol 100mg tablets (Actavis UK Ltd)
+^ESCTME833533	Metoprolol 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME836076	Metoprolol 200mg modified-release tablets 28 tablet
+^ESCTME839626	Metoprolol 100mg tablets 100 tablet
+^ESCTME846250	Metoprolol 100mg tablets 56 tablet
+^ESCTME846639	Metoprolol 50mg tablets 56 tablet
+^ESCTME847295	Metoprolol 100mg tablets 28 tablet
+^ESCTME848381	Metoprolol 50mg tablets 28 tablet
+^ESCTME848522	Metoprolol 50mg tablets 100 tablet
+^ESCTME849195	Metoprolol 50mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTME849196	Metoprolol 50mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTME849197	Metoprolol 50mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTME849198	Metoprolol 50mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTME849199	Metoprolol 50mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTME849202	Metoprolol 50mg tablets (The Boots Company Plc) 56 tablet
+^ESCTME849203	Metoprolol 50mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTME849204	Metoprolol 50mg tablets (Mylan Ltd) 100 tablet
+^ESCTME849205	Metoprolol 50mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet
+^ESCTME849207	Metoprolol 50mg tablets (IVAX Pharmaceuticals UK Ltd) 100 tablet
+^ESCTME849210	Metoprolol 50mg tablets (Kent Pharmaceuticals Ltd) 56 tablet
+^ESCTME849211	Metoprolol 50mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTME849212	Metoprolol 50mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTME849215	Metoprolol 50mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTME849216	Metoprolol 50mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTME849220	Metoprolol 100mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTME849221	Metoprolol 100mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTME849222	Metoprolol 100mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTME849224	Metoprolol 100mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTME849227	Metoprolol 100mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTME849232	Metoprolol 100mg tablets (The Boots Company Plc) 56 tablet
+^ESCTME849236	Metoprolol 100mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTME849237	Metoprolol 100mg tablets (Mylan Ltd) 100 tablet
+^ESCTME849239	Metoprolol 100mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet
+^ESCTME849241	Metoprolol 100mg tablets (IVAX Pharmaceuticals UK Ltd) 100 tablet
+^ESCTME849244	Metoprolol 100mg tablets (Kent Pharmaceuticals Ltd) 56 tablet
+^ESCTME849245	Metoprolol 100mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTME849248	Metoprolol 100mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTME849253	Metoprolol 100mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTME849255	Metoprolol 100mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTME849257	Metoprolol 100mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTME858465	Metoprolol 100mg / Hydrochlorothiazide 12.5mg tablets 28 tablet
+^ESCTME862791	Metoprolol 5mg/5ml solution for injection ampoules 5 ampoule
+^ESCTME862932	Metoprolol 5mg/5ml solution for injection ampoules
+^ESCTME863605	Metoprolol 50mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTME864994	Metoprolol 200mg modified-release / Hydrochlorothiazide 25mg tablets 28 tablet
+^ESCTME898400	Metoprolol 50mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTME898401	Metoprolol 100mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTME908089	Metoprolol 10mg/5ml oral solution 1 ml
+^ESCTME908093	Metoprolol 10mg/5ml oral solution (Special Order)
+^ESCTME908094	Metoprolol 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTME908099	Metoprolol 10mg/5ml oral suspension 1 ml
+^ESCTME908102	Metoprolol 12.5mg/5ml oral solution 1 ml
+^ESCTME908103	Metoprolol 12.5mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTME908104	Metoprolol 10mg/5ml oral suspension (Special Order)
+^ESCTME908106	Metoprolol 12.5mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTME908107	Metoprolol 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTME908108	Metoprolol 12.5mg/5ml oral suspension 1 ml
+^ESCTME908110	Metoprolol 12.5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTME908111	Metoprolol 12.5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTME908113	Metoprolol 25mg/5ml oral solution 1 ml
+^ESCTME908114	Metoprolol 25mg/5ml oral solution (Special Order)
+^ESCTME908115	Metoprolol 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTME908117	Metoprolol 25mg/5ml oral suspension 1 ml
+^ESCTME908118	Metoprolol 20mg/5ml oral solution 1 ml
+^ESCTME908119	Metoprolol 25mg/5ml oral suspension (Special Order)
+^ESCTME908121	Metoprolol 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTME908122	Metoprolol 20mg/5ml oral solution (Special Order)
+^ESCTME908124	Metoprolol 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTME908126	Metoprolol 50mg/5ml oral solution 1 ml
+^ESCTME908127	Metoprolol 50mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTME908128	Metoprolol 50mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTME908129	Metoprolol 20mg/5ml oral suspension 1 ml
+^ESCTME908130	Metoprolol 50mg/5ml oral suspension 1 ml
+^ESCTME908131	Metoprolol 50mg/5ml oral suspension (Special Order)
+^ESCTME908132	Metoprolol 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTME908133	Metoprolol 20mg/5ml oral suspension (Special Order)
+^ESCTME908134	Metoprolol 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTME908135	Metoprolol 5mg/5ml oral solution 1 ml
+^ESCTME908136	Metoprolol 5mg/5ml oral solution (Special Order)
+^ESCTME908137	Metoprolol 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTME908138	Metoprolol 5mg/5ml oral suspension 1 ml
+^ESCTME908139	Metoprolol 5mg/5ml oral suspension (Special Order)
+^ESCTME908140	Metoprolol 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTME908453	Metoprolol 10mg/5ml oral solution
+^ESCTME908454	Metoprolol 10mg/5ml oral suspension
+^ESCTME908455	Metoprolol 12.5mg/5ml oral solution
+^ESCTME908457	Metoprolol 12.5mg/5ml oral suspension
+^ESCTME908458	Metoprolol 20mg/5ml oral solution
+^ESCTME908459	Metoprolol 20mg/5ml oral suspension
+^ESCTME908460	Metoprolol 25mg/5ml oral solution
+^ESCTME908461	Metoprolol 25mg/5ml oral suspension
+^ESCTME908462	Metoprolol 50mg/5ml oral solution
+^ESCTME908464	Metoprolol 50mg/5ml oral suspension
+^ESCTME908465	Metoprolol 5mg/5ml oral solution
+^ESCTME908466	Metoprolol 5mg/5ml oral suspension
+^ESCTME927943	Metoprolol 50mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTME927944	Metoprolol 100mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTME931186	Metoprolol 50mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTME931187	Metoprolol 100mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTME939396	Metoprolol 50mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTME939397	Metoprolol 50mg tablets (Almus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTME939399	Metoprolol 100mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTME939400	Metoprolol 100mg tablets (Almus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTME944381	Metoprolol 200mg modified-release tablets 30 tablet
+^ESCTME957101	Metoprolol 100mg/5ml oral solution 1 ml
+^ESCTME957102	Metoprolol 100mg/5ml oral solution (Special Order)
+^ESCTME957103	Metoprolol 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTME957104	Metoprolol 125mg/5ml oral solution 1 ml
+^ESCTME957105	Metoprolol 125mg/5ml oral solution (Special Order)
+^ESCTME957106	Metoprolol 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTME957107	Metoprolol 15mg/5ml oral solution 1 ml
+^ESCTME957108	Metoprolol 15mg/5ml oral solution (Special Order)
+^ESCTME957109	Metoprolol 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTME957110	Metoprolol 16mg/5ml oral solution 1 ml
+^ESCTME957111	Metoprolol 16mg/5ml oral solution (Special Order)
+^ESCTME957112	Metoprolol 16mg/5ml oral solution (Special Order) 1 ml
+^ESCTME957113	Metoprolol 17mg/5ml oral solution 1 ml
+^ESCTME957114	Metoprolol 17mg/5ml oral solution (Special Order)
+^ESCTME957115	Metoprolol 17mg/5ml oral solution (Special Order) 1 ml
+^ESCTME957116	Metoprolol 2.5mg/5ml oral solution 1 ml
+^ESCTME957117	Metoprolol 2.5mg/5ml oral solution (Special Order)
+^ESCTME957118	Metoprolol 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTME957119	Metoprolol 3.33mg/5ml oral solution 1 ml
+^ESCTME957120	Metoprolol 3.33mg/5ml oral solution (Special Order)
+^ESCTME957121	Metoprolol 3.33mg/5ml oral solution (Special Order) 1 ml
+^ESCTME957122	Metoprolol 30mg/5ml oral solution 1 ml
+^ESCTME957123	Metoprolol 30mg/5ml oral solution (Special Order)
+^ESCTME957124	Metoprolol 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTME957125	Metoprolol 31.25mg/5ml oral solution 1 ml
+^ESCTME957126	Metoprolol 31.25mg/5ml oral solution (Special Order)
+^ESCTME957127	Metoprolol 31.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTME957128	Metoprolol 40mg/5ml oral solution 1 ml
+^ESCTME957129	Metoprolol 40mg/5ml oral solution (Special Order)
+^ESCTME957130	Metoprolol 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTME957131	Metoprolol 6.25mg/5ml oral solution 1 ml
+^ESCTME957132	Metoprolol 6.25mg/5ml oral solution (Special Order)
+^ESCTME957133	Metoprolol 6.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTME957136	Metoprolol 62.5mg/5ml oral solution 1 ml
+^ESCTME957137	Metoprolol 62.5mg/5ml oral solution (Special Order)
+^ESCTME957139	Metoprolol 62.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTME957141	Metoprolol 8mg/5ml oral solution 1 ml
+^ESCTME957143	Metoprolol 8mg/5ml oral solution (Special Order)
+^ESCTME957145	Metoprolol 8mg/5ml oral solution (Special Order) 1 ml
+^ESCTME957622	Metoprolol 100mg/5ml oral solution
+^ESCTME957623	Metoprolol 125mg/5ml oral solution
+^ESCTME957624	Metoprolol 15mg/5ml oral solution
+^ESCTME957625	Metoprolol 16mg/5ml oral solution
+^ESCTME957626	Metoprolol 17mg/5ml oral solution
+^ESCTME957627	Metoprolol 2.5mg/5ml oral solution
+^ESCTME957628	Metoprolol 3.33mg/5ml oral solution
+^ESCTME957629	Metoprolol 30mg/5ml oral solution
+^ESCTME957630	Metoprolol 31.25mg/5ml oral solution
+^ESCTME957631	Metoprolol 40mg/5ml oral solution
+^ESCTME957632	Metoprolol 6.25mg/5ml oral solution
+^ESCTME957633	Metoprolol 62.5mg/5ml oral solution
+^ESCTME957634	Metoprolol 8mg/5ml oral solution
+^ESCTME962465	Metoprolol 50mg tablets (Mylan Ltd) 28 tablet
+^ESCTME963457	Metoprolol 100mg tablets (Mylan Ltd) 28 tablet
+^ESCTME978563	Metoprolol 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME978564	Metoprolol 100mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTME978565	Metoprolol 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME978567	Metoprolol 50mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTME993840	Metoprolol 12.5mg capsules 1 capsule
+^ESCTME993841	Metoprolol 12.5mg capsules (Special Order)
+^ESCTME993842	Metoprolol 12.5mg capsules (Special Order) 1 capsule
+^ESCTME993844	Metoprolol 12.5mg capsules
+^ESCTPR261305	Product containing metoprolol
+^ESCTPR607055	Product containing metoprolol tartrate 100 mg/1 each oral tablet
+^ESCTPR607058	Product containing metoprolol tartrate 50 mg/1 each oral tablet
+^ESCTPR607115	Product containing metoprolol tartrate 100 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR655565	Product containing metoprolol in oral dosage form
+^ESCTPR655567	Product containing metoprolol in parenteral dosage form
+^ESCTPR660867	Product containing hydrochlorothiazide and metoprolol tartrate
+^ESCTPR677509	Product containing metoprolol tartrate 25 mg/1 each oral tablet
+^ESCTPR682802	Product containing hydrochlorothiazide and metoprolol
+^ESCTPR686231	Product containing metoprolol tartrate 100 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR686233	Product containing metoprolol tartrate 100 mg and hydrochlorothiazide 50 mg/1 each oral tablet
+^ESCTPR686235	Product containing metoprolol tartrate 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR703977	Product containing metoprolol tartrate 25 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR704296	Product containing metoprolol tartrate 50 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTTE801737	Tensomex 100mg tablets (Actavis UK Ltd)
+^ESCTTE857212	Tensomex 100mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTTE916677	Tensomex
+ARTA19746EMIS	Arbralene  Tablets  100 mg
+ARTA19747EMIS	Arbralene  Tablets  50 mg
+BEIN8832BRIDL	Betaloc  Solution for injection  1 mg/ml, 5 ml ampoule
+BETA340	Betaloc  Tablets  100 mg
+BETA341	Betaloc  Tablets  50 mg
+BETA342	Betaloc Sa  M/R tablets  200 mg
+COTA682	Co-Betaloc  Tablets  
+COTA683	Co-Betaloc Sa  Tablets  
+LOIN8834BRIDL	Lopresor  Injection  1 mg/ml
+LOTA1695	Lopresor  Tablets  100 mg
+LOTA1696	Lopresor  Tablets  50 mg
+LOTA1697	Lopresor Sr  M/R tablets  200 mg
+MEIN8830BRIDL	Metoprolol Tartrate  Solution for injection  1 mg/ml, 5 ml ampoule
+MEOR11311NEMIS	Metoprolol Tartrate  Oral solution  12.5 mg/5 ml
+MEOR33460NEMIS	Metoprolol Tartrate  Oral suspension  12.5 mg/5 ml
+MEOR42223NEMIS	Metoprolol Tartrate  Oral solution  25 mg/5 ml
+MEOR46502NEMIS	Metoprolol Tartrate  Oral solution  50 mg/5 ml
+MEOR46503NEMIS	Metoprolol Tartrate  Oral suspension  50 mg/5 ml
+MES/9698HILLI	Metoprolol Fumarate  S/r tablets  95 mg
+MESR10445BRIDL	Metoprolol Tartrate  M/R tablets  200 mg
+MESR8498EGTON	Metoros  Sr tablets  190 mg
+MESR8500EGTON	Metoros Ls  Sr tablets  95 mg
+META10782BRIDL	Mepranix 50  Tablets  50 mg
+META10784BRIDL	Mepranix 100  Tablets  100 mg
+META140380NEMIS	Metoprolol Tartrate  Tablets  25 mg
+META1806	Metoprolol Tartrate  Tablets  100 mg
+META1807	Metoprolol Tartrate  Tablets  50 mg
+META18543NEMIS	Metoprolol And Hydrochlorothiazide  Tablets  100 mg + 12.5 mg
+META35985MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Teva UK)
+META35986MGEMIS	Metoprolol Tartrate  Tablets  100 mg (A.A.H. Pharm)
+META35987MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Ivax Pharmaceuticals)
+META35988MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Generics (UK))
+META35989MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Sandoz)
+META35990MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Unichem)
+META35991MGEMIS	Metoprolol Tartrate  Tablets  100 mg (The Boots Company)
+META35992MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Alpharma)
+META35993MGEMIS	Metoprolol Tartrate  Tablets  100 mg (Kent Pharm)
+META35994MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Teva UK)
+META35995MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Kent Pharm)
+META35996MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Unichem)
+META35997MGEMIS	Metoprolol Tartrate  Tablets  50 mg (A.A.H. Pharm)
+META35998MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Ivax Pharmaceuticals)
+META35999MGEMIS	Metoprolol Tartrate  Tablets  50 mg (The Boots Company)
+META36000MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Alpharma)
+META36001MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Sandoz)
+META36002MGEMIS	Metoprolol Tartrate  Tablets  50 mg (Generics (UK))

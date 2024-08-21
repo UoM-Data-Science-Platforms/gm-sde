@@ -1,0 +1,14 @@
+bc2..00	DISOPYRAMIDE
+bc2z.00	DISOPYRAMIDE 250mg m/r tablets
+bc2y.00	DISOPYRAMIDE 50mg/5mL injection
+bc2w.00	DISOPYRAMIDE 150mg m/r tablets
+bc2a.00	DISOPYRAMIDE 250mg m/r capsules
+bc29.00	ISOMIDE CR 250mg m/r capsules
+bc28.00	*ISOMIDE-100 100mg capsules
+bc27.00	RYTHMODAN RETARD 250mg m/r tablets
+bc26.00	RYTHMODAN 50mg/5mL injection
+bc25.00	RYTHMODAN 150mg capsules
+bc24.00	RYTHMODAN 100mg capsules
+bc23.00	DIRYTHMIN SA 150mg m/r tablets
+bc22.00	DISOPYRAMIDE 150mg capsules
+bc21.00	DISOPYRAMIDE 100mg capsules

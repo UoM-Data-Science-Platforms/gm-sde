@@ -1,0 +1,7 @@
+gd4..	Flavoxate hydrochloride
+gd4y.	Flavoxate hydrochloride 200mg tablet
+gd42.	Urispas 200mg tablet
+gd4z.	Flavoxate hydrochloride 100mg tablet
+gd41.	Urispas 100mg tablet
+x01G4	Flavoxate
+x02tq	Urispas

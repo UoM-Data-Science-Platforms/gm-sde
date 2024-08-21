@@ -1,0 +1,275 @@
+^ESCT1181133	Product containing only pethidine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181134	Product containing only meperidine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181434	Product containing only pethidine hydrochloride 100 mg/1 each oral tablet
+^ESCT1181435	Product containing only meperidine hydrochloride 100 mg/1 each oral tablet
+^ESCT1183241	Product containing only meperidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCT1183242	Product containing only pethidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCT1210410	Pethidine hydrochloride 100 mg/10 mL solution for injection ampoule
+^ESCT1210411	Meperidine hydrochloride 100 mg/10 mL solution for injection ampule
+^ESCT1210412	Product containing precisely pethidine hydrochloride 100 milligram/10 milliliter conventional release solution for injection ampule
+^ESCT1210413	Pethidine hydrochloride 100 mg/2 mL solution for injection ampoule
+^ESCT1210414	Meperidine hydrochloride 100 mg/2 mL solution for injection ampule
+^ESCT1210415	Product containing precisely pethidine hydrochloride 100 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1210416	Pethidine hydrochloride 50 mg/mL solution for injection ampoule
+^ESCT1210417	Product containing precisely pethidine hydrochloride 50 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210418	Meperidine hydrochloride 50 mg/mL solution for injection ampule
+^ESCT1210419	Pethidine hydrochloride 50 mg/5 mL solution for injection ampoule
+^ESCT1210420	Product containing precisely pethidine hydrochloride 50 milligram/5 milliliter conventional release solution for injection ampule
+^ESCT1210421	Meperidine hydrochloride 50 mg/5 mL solution for injection ampule
+^ESCT1215375	Pethidine 100mg/10ml solution for injection ampoules
+^ESCT1215376	Pethidine 100mg/2ml solution for injection ampoules
+^ESCT1215377	Pethidine 50mg/1ml solution for injection ampoules
+^ESCT1215378	Pethidine 50mg/5ml solution for injection ampoules
+^ESCT1218759	Pethidine
+^ESCT1218760	Meperidine product
+^ESCT1218761	Pethidine product
+^ESCT1223804	Pethidine 50 mg oral tablet
+^ESCT1223805	Product containing precisely pethidine 50 milligram/1 each conventional release oral tablet
+^ESCT1223806	Meperidine 50 mg oral tablet
+^ESCT1226996	Pethidine analogue
+^ESCT1226997	Product containing pethidine analogue
+^ESCT1226998	Product containing pethidine analog
+^ESCT1226999	Pethidine analog product
+^ESCT1227000	Pethidine analogue product
+^ESCT1227001	Phenoperidine
+^ESCT1227002	Product containing phenoperidine
+^ESCT1227003	Phenoperidine product
+^ESCT1227975	Product containing precisely pethidine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1229216	Pethidine hydrochloride 50 mg and promethazine hydrochloride 25 mg oral capsule
+^ESCT1229217	Meperidine hydrochloride 50 mg and promethazine hydrochloride 25 mg oral capsule
+^ESCT1229218	Product containing precisely pethidine hydrochloride 50 milligram and promethazine hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1233069	Pethidine + Promethazine
+^ESCT1233070	Pethidine and promethazine product
+^ESCT1233071	Meperidine and promethazine product
+^ESCT1250390	Pethidine 50mg/1ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250391	Pethidine 50mg/1ml solution for injection ampoules (Advanz Pharma) 10 ampoule
+^ESCT1250392	Pethidine 100mg/2ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250394	Pethidine 100mg/2ml solution for injection ampoules (Advanz Pharma) 10 ampoule
+^ESCT1351644	Pethidine-containing product in oral dose form
+^ESCT1351645	Meperidine-containing product in oral dose form
+^ESCT1351646	Pethidine- and promethazine-containing product in oral dose form
+^ESCT1351647	Meperidine- and promethazine-containing product in oral dose form
+^ESCT1351648	Pethidine-containing product in parenteral dose form
+^ESCT1351649	Meperidine-containing product in parenteral dose form
+^ESCT1356321	Pethidine only product
+^ESCT1356322	Meperidine only product
+^ESCT1356323	Pethidine and promethazine only product
+^ESCT1356324	Meperidine and promethazine only product
+^ESCT1356348	Phenoperidine only product
+^ESCT1359542	Pethidine and promethazine only product in oral dose form
+^ESCT1359543	Meperidine and promethazine only product in oral dose form
+^ESCT1359544	Pethidine only product in oral dose form
+^ESCT1359545	Meperidine only product in oral dose form
+^ESCT1359546	Pethidine only product in parenteral dose form
+^ESCT1359547	Meperidine only product in parenteral dose form
+^ESCT1361150	Pethidine hydrochloride 50 mg/mL solution for injection
+^ESCT1361151	Meperidine hydrochloride 50 mg/mL solution for injection
+^ESCT1361152	Pethidine hydrochloride 10 mg/mL solution for injection
+^ESCT1361153	Meperidine hydrochloride 10 mg/mL solution for injection
+^ESCT1362701	Pethidine hydrochloride 50 mg oral tablet
+^ESCT1362702	Meperidine hydrochloride 50 mg oral tablet
+^ESCT1364109	Pethidine hydrochloride 10 mg/mL oral solution
+^ESCT1364110	Meperidine hydrochloride 10 mg/mL oral solution
+^ESCT1367344	Pethidine 50mg tablets
+^ESCT1376112	Pethidine 50mg tablets (Imported)
+^ESCT1376113	Pethidine 50mg tablets (Imported) 50 tablet
+^ESCT1381419	Pethidine analogue-containing product
+^ESCT1381420	Meperidine analog-containing product
+^ESCT1381421	Phenoperidine-containing product
+^ESCT1403517	Pethidine 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403518	Pethidine 50mg tablets (Medihealth (Northern) Ltd) 50 tablet
+^ESCT1424868	Pethidine 50mg tablets
+^ESCTME338521	Meperidine
+^ESCTME610340	Meperidine hydrochloride 50 mg oral tablet
+^ESCTME610343	Meperidine hydrochloride+promethazine hydrochloride 100mg/50mg/2mL injection
+^ESCTME616905	Meperidine hydrochloride 50mg/5mL injection
+^ESCTME616908	Meperidine hydrochloride 100mg/10mL injection
+^ESCTME616911	Meperidine hydrochloride 50mg/1mL injection
+^ESCTME616914	Meperidine hydrochloride 100mg/2mL injection
+^ESCTME633934	Meperidine hydrochloride 50mg/5mL syrup
+^ESCTME633935	Meperidine hydrochloride 25mg/1mL injection
+^ESCTME633936	Meperidine hydrochloride 75mg/1mL injection
+^ESCTME639327	Meperidine hydrochloride 100mg tablet
+^ESCTME639330	Meperidine hydrochloride 100 mg oral tablet
+^ESCTME640552	Meperidine hydrochloride 75mg/mL solution
+^ESCTME640555	Meperidine hydrochloride 50mg/mL injection solution ampoule
+^ESCTME640556	Meperidine hydrochloride 50mg/mL injection
+^ESCTME640557	Meperidine hydrochloride 50mg/mL injection solution ampule
+^ESCTME640560	Meperidine hydrochloride 25mg/0.5mL solution
+^ESCTME640580	Meperidine hydrochloride 100mg/mL injection solution ampoule
+^ESCTME640581	Meperidine hydrochloride 100mg/mL injection
+^ESCTME640582	Meperidine hydrochloride 100mg/mL injection solution ampule
+^ESCTME640592	Meperidine hydrochloride 75mg/1.5mL solution
+^ESCTME642496	Meperidine hydrochloride+promethazine hydrochloride 50mg/25mg capsule
+^ESCTME642498	Meperidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCTME642501	Meperidine hydrochloride 50mg/promethazine hydrochloride 50mg injection solution vial
+^ESCTME642502	Meperidine hydrochloride+promethazine hydrochloride 50mg/50mg injection
+^ESCTME682384	Meperidine hydrochloride
+^ESCTME695246	Meperidine+promethazine
+^ESCTPA866141	Pamergan P100 solution for injection 2ml ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTPA866142	Pamergan P100 solution for injection 2ml ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTPA915478	Pamergan P100
+^ESCTPE1023484	Pethidine 100mg/1ml solution for injection ampoules 1 ampoule
+^ESCTPE1023485	Pethidine 100mg/1ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTPE1023486	Pethidine 10mg/1ml solution for injection ampoules 1 ampoule
+^ESCTPE1023487	Pethidine 10mg/1ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTPE1027374	Pethidine 10mg/1ml solution for injection ampoules 10 ampoule
+^ESCTPE1027375	Pethidine 10mg/1ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTPE1040421	Pethidine 50mg tablets (Teva UK Ltd)
+^ESCTPE1040422	Pethidine 50mg tablets (Teva UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTPE1100319	Pethidine 50mg tablets (Auden McKenzie (Pharma Division) Ltd)
+^ESCTPE1100320	Pethidine 50mg tablets (Auden McKenzie (Pharma Division) Ltd) 50 tablet 5 x 10 tablets
+^ESCTPE1119580	Pethidine 50mg tablets (DE Pharmaceuticals)
+^ESCTPE1119581	Pethidine 50mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTPE338520	Pethidine
+^ESCTPE610337	Pethidine 50mg tablets
+^ESCTPE610341	Pethidine hydrochloride 50 mg oral tablet
+^ESCTPE610342	Pethidine hydrochloride+promethazine hydrochloride 100mg/50mg/2mL injection
+^ESCTPE616903	Pethidine 50mg/5ml solution for injection ampoules
+^ESCTPE616904	Pethidine hydrochloride 50mg/5mL injection
+^ESCTPE616906	Pethidine 100mg/10ml solution for injection ampoules
+^ESCTPE616907	Pethidine hydrochloride 100mg/10mL injection
+^ESCTPE616909	Pethidine 50mg/1ml solution for injection ampoules
+^ESCTPE616910	Pethidine hydrochloride 50mg/1mL injection
+^ESCTPE616912	Pethidine 100mg/2ml solution for injection ampoules
+^ESCTPE616913	Pethidine hydrochloride 100mg/2mL injection
+^ESCTPE619324	Pethidine analogue
+^ESCTPE619325	Pethidine analog
+^ESCTPE639331	Pethidine hydrochloride 100 mg oral tablet
+^ESCTPE642497	Pethidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCTPE695245	Pethidine + Promethazine
+^ESCTPE801144	Pethidine 50mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTPE801742	Pethidine 100mg/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTPE802422	Pethidine 50mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE805248	Pethidine 50mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPE807562	Pethidine 50mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPE808105	Pethidine 50mg tablets (Martindale Pharmaceuticals Ltd)
+^ESCTPE808200	Pethidine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPE810116	Pethidine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE816599	Pethidine 100mg/10ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE818872	Pethidine 100mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTPE819054	Pethidine 50mg/5ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE819267	Pethidine 50mg/5ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTPE820991	Pethidine 100mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPE822994	Pethidine 100mg/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTPE823765	Pethidine 50mg/1ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTPE825821	Pethidine 100mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPE830756	Pethidine 100mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPE842569	Pethidine 50mg tablets 50 tablet
+^ESCTPE847034	Pethidine 100mg/2ml solution for injection ampoules 10 ampoule
+^ESCTPE847158	Pethidine 50mg/1ml solution for injection ampoules 10 ampoule
+^ESCTPE847751	Pethidine 50mg/5ml solution for injection ampoules 10 ampoule
+^ESCTPE847959	Pethidine 100mg/10ml solution for injection ampoules 10 ampoule
+^ESCTPE851739	Pethidine 100mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTPE851746	Pethidine 100mg/2ml solution for injection ampoules (Wockhardt UK Ltd) 10 ampoule
+^ESCTPE851747	Pethidine 100mg/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTPE851748	Pethidine 100mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTPE855049	Pethidine 50mg tablets (A A H Pharmaceuticals Ltd) 50 tablet
+^ESCTPE855051	Pethidine 50mg tablets (Martindale Pharmaceuticals Ltd) 50 tablet
+^ESCTPE855053	Pethidine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTPE856748	Pethidine 50mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTPE856750	Pethidine 50mg/5ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTPE856751	Pethidine 50mg/5ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTPE856752	Pethidine 100mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTPE856753	Pethidine 100mg/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTPE856756	Pethidine 100mg/10ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTPE856853	Pethidine 50mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTPE856857	Pethidine 50mg/1ml solution for injection ampoules (Wockhardt UK Ltd) 10 ampoule
+^ESCTPE856860	Pethidine 50mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTPE856866	Pethidine 50mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTPE866138	Pethidine 100mg/2ml / Promethazine 50mg/2ml solution for injection ampoules 10 ampoule
+^ESCTPE866528	Pethidine 100mg/2ml / Promethazine 50mg/2ml solution for injection ampoules
+^ESCTPE931580	Pethidine 50mg/1ml solution for injection ampoules (AMCo)
+^ESCTPE931581	Pethidine 50mg/1ml solution for injection ampoules (AMCo) 10 ampoule
+^ESCTPE931584	Pethidine 100mg/2ml solution for injection ampoules (AMCo)
+^ESCTPE931594	Pethidine 100mg/2ml solution for injection ampoules (AMCo) 10 ampoule
+^ESCTPE946327	Pethidine 10mg/5ml oral solution 1 ml
+^ESCTPE946328	Pethidine 10mg/5ml oral solution (Special Order)
+^ESCTPE946329	Pethidine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTPE946330	Pethidine 30mg/5ml oral solution 1 ml
+^ESCTPE946331	Pethidine 30mg/5ml oral solution (Special Order)
+^ESCTPE946332	Pethidine 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTPE946333	Pethidine 35mg/5ml oral solution 1 ml
+^ESCTPE946334	Pethidine 35mg/5ml oral solution (Special Order)
+^ESCTPE946335	Pethidine 35mg/5ml oral solution (Special Order) 1 ml
+^ESCTPE946336	Pethidine 40mg/5ml oral solution 1 ml
+^ESCTPE946337	Pethidine 40mg/5ml oral solution (Special Order)
+^ESCTPE946338	Pethidine 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTPE946339	Pethidine 45mg/5ml oral solution 1 ml
+^ESCTPE946340	Pethidine 45mg/5ml oral solution (Special Order)
+^ESCTPE946341	Pethidine 45mg/5ml oral solution (Special Order) 1 ml
+^ESCTPE946342	Pethidine 50mg/5ml oral solution 1 ml
+^ESCTPE946343	Pethidine 50mg/5ml oral solution (Special Order)
+^ESCTPE946344	Pethidine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTPE946346	Pethidine 10mg/5ml oral solution
+^ESCTPE946361	Pethidine 30mg/5ml oral solution
+^ESCTPE946362	Pethidine 35mg/5ml oral solution
+^ESCTPE946363	Pethidine 40mg/5ml oral solution
+^ESCTPE946364	Pethidine 45mg/5ml oral solution
+^ESCTPE946365	Pethidine 50mg/5ml oral solution
+^ESCTPE947304	Pethidine 25mg/5ml oral solution 1 ml
+^ESCTPE947305	Pethidine 25mg/5ml oral solution (Special Order)
+^ESCTPE947306	Pethidine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTPE947405	Pethidine 25mg/5ml oral solution
+^ESCTPE947967	Pethidine 50mg capsules 1 capsule
+^ESCTPE947968	Pethidine 50mg capsules (Special Order)
+^ESCTPE947969	Pethidine 50mg capsules (Special Order) 1 capsule
+^ESCTPE948550	Pethidine 50mg capsules
+^ESCTPE948932	Pethidine 100mg/1ml solution for injection ampoules (Special Order)
+^ESCTPE948933	Pethidine 10mg/1ml solution for injection ampoules (Special Order)
+^ESCTPE948941	Pethidine 100mg suppositories 1 suppository
+^ESCTPE948945	Pethidine 100mg suppositories (Special Order)
+^ESCTPE948947	Pethidine 100mg suppositories (Special Order) 1 suppository
+^ESCTPE949234	Pethidine 100mg suppositories
+^ESCTPE949235	Pethidine 100mg/1ml solution for injection ampoules
+^ESCTPE949236	Pethidine 10mg/1ml solution for injection ampoules
+^ESCTPE983387	Pethidine 100mg/2ml solution for injection ampoules (Actavis UK Ltd)
+^ESCTPE983389	Pethidine 100mg/2ml solution for injection ampoules (Actavis UK Ltd) 10 ampoule
+^ESCTPE983391	Pethidine 50mg/1ml solution for injection ampoules (Actavis UK Ltd)
+^ESCTPE983392	Pethidine 50mg/1ml solution for injection ampoules (Actavis UK Ltd) 10 ampoule
+^ESCTPH619326	Phenoperidine
+^ESCTPR338522	Product containing meperidine
+^ESCTPR338523	Product containing pethidine
+^ESCTPR610338	Product containing meperidine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR610339	Product containing pethidine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR639328	Product containing meperidine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR639329	Product containing pethidine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR642499	Product containing meperidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCTPR642500	Product containing pethidine hydrochloride 50 mg and promethazine hydrochloride 25 mg/1 each oral capsule
+^ESCTPR682385	Product containing pethidine hydrochloride
+^ESCTPR682386	Product containing meperidine hydrochloride
+^ESCTPR695247	Product containing meperidine and promethazine
+^ESCTPR695248	Product containing pethidine and promethazine
+OPINEGTON6405	Operidine  Injection  1 mg/ml
+PAIN4112	Pamergan P100  Injection  2 ml ampoule
+PECA134213NEMIS	Pethidine  Capsules  50 mg
+PEIN15499NEMIS	Pethidine  Injection  10 mg/ml, 10 ml ampoule
+PEIN15500NEMIS	Pethidine  Injection  10 mg/ml, 5 ml ampoule
+PEIN15501NEMIS	Pethidine  Injection  50 mg/ml, 1 ml ampoule
+PEIN15502NEMIS	Pethidine  Injection  50 mg/ml, 2 ml ampoule
+PEIN2218	Pethidine  Injection  50 mg/ml
+PEIN2220	Pethidine Hydrochloride  Injection  100 mg
+PEIN2223	Pethilorfan  Injection
+PEIN37856MGEMIS	Pethidine  Injection  10 mg/ml, 10 ml ampoule (Martindale)
+PEIN37857MGEMIS	Pethidine  Injection  10 mg/ml, 10 ml ampoule (Unichem)
+PEIN37858MGEMIS	Pethidine  Injection  10 mg/ml, 10 ml ampoule (A.A.H. Pharm)
+PEIN37859MGEMIS	Pethidine  Injection  10 mg/ml, 5 ml ampoule (A.A.H. Pharm)
+PEIN37860MGEMIS	Pethidine  Injection  10 mg/ml, 5 ml ampoule (Unichem)
+PEIN37861MGEMIS	Pethidine  Injection  10 mg/ml, 5 ml ampoule (Martindale)
+PEIN37862MGEMIS	Pethidine  Injection  50 mg/ml, 1 ml ampoule (Martindale)
+PEIN37863MGEMIS	Pethidine  Injection  50 mg/ml, 1 ml ampoule (Unichem)
+PEIN37864MGEMIS	Pethidine  Injection  50 mg/ml, 1 ml ampoule (A.A.H. Pharm)
+PEIN37865MGEMIS	Pethidine  Injection  50 mg/ml, 1 ml ampoule (Wockhardt UK)
+PEIN37866MGEMIS	Pethidine  Injection  50 mg/ml, 2 ml ampoule (Wockhardt UK)
+PEIN37867MGEMIS	Pethidine  Injection  50 mg/ml, 2 ml ampoule (A.A.H. Pharm)
+PEIN37868MGEMIS	Pethidine  Injection  50 mg/ml, 2 ml ampoule (Martindale)
+PEIN37869MGEMIS	Pethidine  Injection  50 mg/ml, 2 ml ampoule (Unichem)
+PEINEGTON6403	Pethidine  Injection  10 mg/ml
+PETA138316NEMIS	Pethidine (Imported)  Tablets  50 mg
+PETA144466NEMIS	Pethidine (Imported United States)  Tablets  50 mg
+PETA2219	Pethidine  Tablets  50 mg
+PETA36477MGEMIS	Pethidine  Tablets  50 mg (Martindale)
+PETA36478MGEMIS	Pethidine  Tablets  50 mg (A.A.H. Pharm)
+PETA36479MGEMIS	Pethidine  Tablets  50 mg (Unichem)
+PETA5255	Pethidine Hydrochloride  Tablets  25 mg
+PHIN7022	Phenoperidine Hydrochloride  Injection  1 mg/ml

@@ -1,0 +1,65 @@
+CLCA662	Clorazepate Dipotassium  Capsules  15 mg
+CLCA663	Clorazepate Dipotassium  Capsules  7.5 mg
+TRCA2892	Tranxene  Capsules  15 mg
+TRCA2893	Tranxene  Capsules  7.5 mg
+^ESCT1178151	Product containing only clorazepate dipotassium 15 mg/1 each oral capsule
+^ESCT1181326	Product containing only clorazepate dipotassium 15 mg/1 each oral tablet
+^ESCT1181571	Product containing only clorazepate dipotassium 11.25 mg/1 each oral tablet
+^ESCT1181626	Product containing only clorazepate dipotassium 3.75 mg/1 each oral tablet
+^ESCT1181842	Product containing only clorazepate dipotassium 22.5 mg/1 each oral tablet
+^ESCT1187268	Product containing only clorazepate dipotassium 7.5 mg/1 each oral capsule
+^ESCT1187425	Product containing only clorazepate dipotassium 7.5 mg/1 each oral tablet
+^ESCT1206636	Clorazepate in oral dosage form
+^ESCT1206637	Product containing clorazepate in oral dosage form
+^ESCT1223356	Product containing precisely dipotassium clorazepate 7.5 milligram/1 each conventional release oral capsule
+^ESCT1223357	Clorazepate dipotassium 7.5 mg oral capsule
+^ESCT1223358	Dipotassium clorazepate 7.5 mg oral capsule
+^ESCT1223359	Product containing precisely dipotassium clorazepate 15 milligram/1 each conventional release oral capsule
+^ESCT1223360	Dipotassium clorazepate 15 mg oral capsule
+^ESCT1223361	Clorazepate dipotassium 15 mg oral capsule
+^ESCT1227538	Product containing precisely dipotassium clorazepate 7.5 milligram/1 each conventional release oral tablet
+^ESCT1227539	Dipotassium clorazepate 7.5 mg oral tablet
+^ESCT1227540	Product containing precisely dipotassium clorazepate 15 milligram/1 each conventional release oral tablet
+^ESCT1227541	Dipotassium clorazepate 15 mg oral tablet
+^ESCT1227542	Product containing precisely dipotassium clorazepate 11.25 milligram/1 each conventional release oral tablet
+^ESCT1227543	Dipotassium clorazepate 11.25 mg oral tablet
+^ESCT1228466	Product containing precisely dipotassium clorazepate 22.5 milligram/1 each conventional release oral tablet
+^ESCT1228467	Dipotassium clorazepate 22.5 mg oral tablet
+^ESCT1228516	Product containing precisely dipotassium clorazepate 3.75 milligram/1 each conventional release oral tablet
+^ESCT1228517	Dipotassium clorazepate 3.75 mg oral tablet
+^ESCT1354311	Clorazepate only product
+^ESCT1358040	Clorazepate only product in oral dose form
+^ESCT1386376	Clorazepate-containing product in oral dose form
+^ESCTCL378726	Clorazepate dipotassium
+^ESCTCL609138	Clorazepate dipotassium 7.5 mg/1 each oral capsule
+^ESCTCL609141	Clorazepate dipotassium 15 mg/1 each oral capsule
+^ESCTCL635304	Clorazepate product
+^ESCTCL635307	Clorazepate dipotassium 7.5 mg oral tablet
+^ESCTCL635309	Clorazepate dipotassium 15 mg oral tablet
+^ESCTCL635311	Clorazepate dipotassium 11.25 mg oral tablet
+^ESCTCL640687	Clorazepate dipotassium 22.5 mg oral tablet
+^ESCTCL640818	Clorazepate dipotassium 3.75 mg oral tablet
+^ESCTDI378725	Dipotassium clorazepate
+^ESCTDI609137	Dipotassium clorazepate 7.5mg capsules
+^ESCTDI609140	Dipotassium clorazepate 15mg capsules
+^ESCTDI635303	Dipotassium clorazepate
+^ESCTDI873784	Dipotassium clorazepate 7.5mg capsules 100 capsule
+^ESCTDI873785	Dipotassium clorazepate 7.5mg capsules 20 capsule
+^ESCTDI873789	Dipotassium clorazepate 15mg capsules 100 capsule
+^ESCTDI873790	Dipotassium clorazepate 15mg capsules 20 capsule
+^ESCTPR378727	Product containing clorazepate dipotassium
+^ESCTPR609139	Product containing clorazepate dipotassium 7.5 mg/1 each oral capsule
+^ESCTPR609142	Product containing clorazepate dipotassium 15 mg/1 each oral capsule
+^ESCTPR635305	Product containing clorazepate
+^ESCTPR635308	Product containing clorazepate dipotassium 7.5 mg/1 each oral tablet
+^ESCTPR635310	Product containing clorazepate dipotassium 15 mg/1 each oral tablet
+^ESCTPR635312	Product containing clorazepate dipotassium 11.25 mg/1 each oral tablet
+^ESCTPR640688	Product containing clorazepate dipotassium 22.5 mg/1 each oral tablet
+^ESCTPR640819	Product containing clorazepate dipotassium 3.75 mg/1 each oral tablet
+^ESCTTR873786	Tranxene 7.5mg capsules (Boehringer Ingelheim Ltd)
+^ESCTTR873787	Tranxene 7.5mg capsules (Boehringer Ingelheim Ltd) 100 capsule
+^ESCTTR873788	Tranxene 7.5mg capsules (Boehringer Ingelheim Ltd) 20 capsule
+^ESCTTR873791	Tranxene 15mg capsules (Boehringer Ingelheim Ltd)
+^ESCTTR873792	Tranxene 15mg capsules (Boehringer Ingelheim Ltd) 100 capsule
+^ESCTTR873793	Tranxene 15mg capsules (Boehringer Ingelheim Ltd) 20 capsule
+^ESCTTR916828	Tranxene

@@ -1,0 +1,392 @@
+^ESCT1175346	Numark Diarrhoea Relief 2mg capsules (Numark Ltd) 30 capsule
+^ESCT1176637	Loperamide 5mg/5ml oral suspension
+^ESCT1176638	Loperamide 5mg/5ml oral suspension (Special Order)
+^ESCT1176639	Loperamide 5mg/5ml oral suspension 1 ml
+^ESCT1176640	Loperamide 5mg/5ml oral suspension 100 ml
+^ESCT1176641	Loperamide 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1176642	Loperamide 5mg/5ml oral suspension (Special Order) 100 ml
+^ESCT1178063	Product containing only loperamide hydrochloride 2 mg/1 each oral capsule
+^ESCT1180878	Numark Diarrhoea Relief 2mg capsules (Numark Ltd) 6 capsule
+^ESCT1180879	Numark Diarrhoea Relief 2mg capsules (Numark Ltd) 12 capsule
+^ESCT1182379	Product containing only loperamide hydrochloride 2 mg and simethicone 125 mg/1 each oral tablet
+^ESCT1182380	Product containing only loperamide hydrochloride 2 mg and simeticone 125 mg/1 each oral tablet
+^ESCT1186367	Loperamide 2mg capsules (Mylan)
+^ESCT1187168	Product containing only loperamide hydrochloride 2 mg/1 each oral tablet
+^ESCT1188788	Loperamide 2mg capsules (A A H Pharmaceuticals Ltd) 30 capsule 3 x 10 capsules
+^ESCT1188789	Loperamide 2mg capsules (Mylan) 30 capsule 3 x 10 capsules
+^ESCT1190073	Numark Diarrhoea Relief 2mg capsules (Numark Ltd)
+^ESCT1204622	Loperamide hydrochloride 1mg/5mL conventional release oral syrup
+^ESCT1207122	Loperamide and simeticone in oral dosage form
+^ESCT1207123	Loperamide and simethicone in oral dosage form
+^ESCT1207124	Product containing loperamide and simeticone in oral dosage form
+^ESCT1213567	Loperamide 2mg capsules (Tillomed Laboratories Ltd) 12 capsule
+^ESCT1214125	Loperamide 2mg capsules (Wockhardt UK Ltd)
+^ESCT1214126	Loperamide 2mg capsules (Wockhardt UK Ltd) 30 capsule
+^ESCT1221611	Loperamide
+^ESCT1221612	Loperamide product
+^ESCT1222608	Product containing precisely loperamide hydrochloride 2 milligram/1 each conventional release oral tablet
+^ESCT1222609	Product containing precisely loperamide hydrochloride 2 milligram/1 each conventional release oral capsule
+^ESCT1222610	Loperamide hydrochloride 2 mg oral capsule
+^ESCT1222611	Product containing precisely dimeticone (as simeticone) 125 milligram and loperamide hydrochloride 2 milligram/1 each conventional release chewable tablet
+^ESCT1222612	Dimeticone (as simeticone) 125 mg and loperamide hydrochloride 2 mg chewable tablet
+^ESCT1222613	Dimethicone (as simethicone) 125 mg and loperamide hydrochloride 2 mg chewable tablet
+^ESCT1230945	Product containing precisely loperamide hydrochloride 2 milligram and simeticone 125 milligram/1 each conventional release oral tablet
+^ESCT1233190	Loperamide and simeticone product
+^ESCT1233191	Loperamide and simethicone product
+^ESCT1258415	Loperamide 2mg capsules (Strides Pharma UK Ltd)
+^ESCT1258416	Loperamide 2mg capsules (Strides Pharma UK Ltd) 30 capsule 3 x 10 capsules
+^ESCT1264534	Loperamide 2mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264535	Loperamide 2mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCT1303795	Loperamide 2mg capsules (Flamingo Pharma (UK) Ltd)
+^ESCT1303796	Loperamide 2mg capsules (Flamingo Pharma (UK) Ltd) 30 capsule 5 x 6 capsules
+^ESCT1355681	Loperamide only product
+^ESCT1355682	Loperamide and simeticone only product
+^ESCT1355683	Loperamide and simethicone only product
+^ESCT1359057	Loperamide and simeticone only product in oral dose form
+^ESCT1359058	Loperamide and simethicone only product in oral dose form
+^ESCT1359059	Loperamide only product in oral dose form
+^ESCT1364539	Loperamide hydrochloride 200 microgram/mL oral solution
+^ESCT1374023	Loperamide 2mg capsules (Milpharm Ltd)
+^ESCT1374024	Loperamide 2mg capsules (Milpharm Ltd) 30 capsule
+^ESCT1383217	Loperamide hydrochloride 133 microgram/mL oral solution
+^ESCT1385053	Loperamide-containing product in oral dose form
+^ESCT1386606	Loperamide- and simeticone-containing product in oral dose form
+^ESCT1386607	Loperamide- and simethicone-containing product in oral dose form
+^ESCT1392175	Dimeticone and loperamide only product
+^ESCT1392176	Dimethicone and loperamide only product
+^ESCT1392177	Dimeticone- and loperamide-containing product
+^ESCT1392178	Dimethicone- and loperamide-containing product
+^ESCT1392194	Dimeticone- and loperamide-containing product in oral dose form
+^ESCT1392195	Dimethicone- and loperamide-containing product in oral dose form
+^ESCT1402128	Loperamide 2mg capsules (Medihealth (Northern) Ltd)
+^ESCT1402129	Loperamide 2mg capsules (Medihealth (Northern) Ltd) 30 capsule
+^ESCT1402198	Loperamide 2mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402199	Loperamide 2mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1404714	Loperamide 2mg capsules (Medihealth (Northern) Ltd) 10 capsule
+^ESCT1405454	Loperamide 2mg capsules (Flamingo Pharma (UK) Ltd) 6 capsule
+^ESCT1409585	Loperamide 2mg capsules (Accord Healthcare Ltd)
+^ESCT1409909	Loperamide 2mg capsules (Accord Healthcare Ltd) 30 capsule 3 x 10 capsules
+^ESCT1416684	Dimeticone and loperamide only product in oral dose form
+^ESCT1416685	Dimethicone and loperamide only product in oral dose form
+^ESCT1425910	Loperamide 2mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426253	Loperamide 2mg capsules (Kent Pharma (UK) Ltd) 30 capsule
+^ESCT1427741	Loperamide 2mg capsules (Kent Pharma (UK) Ltd) 10 capsule
+^ESCT1436958	Loperamide 2mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437333	Loperamide 2mg capsules (Viatris UK Healthcare Ltd) 30 capsule 3 x 10 capsules
+^ESCTAR802071	Arret 2mg capsules (McNeil Products Ltd)
+^ESCTAR853279	Arret 2mg capsules (McNeil Products Ltd) 6 capsule
+^ESCTAR853280	Arret 2mg capsules (McNeil Products Ltd) 12 capsule
+^ESCTAR853281	Arret 2mg capsules (McNeil Products Ltd) 18 capsule
+^ESCTAR913936	Arret
+^ESCTDI1049245	Diarrhoea Relief 2mg capsules (Herbal Concepts Ltd)
+^ESCTDI1049246	Diarrhoea Relief 2mg capsules (Herbal Concepts Ltd) 6 capsule
+^ESCTDI1127756	Dioraleze 2mg capsules (Sanofi)
+^ESCTDI1127757	Dioraleze 2mg capsules (Sanofi) 6 capsule
+^ESCTDI801825	Diasorb 2mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTDI809757	Diocalm Ultra 2mg capsules (SSL International Plc)
+^ESCTDI812210	Diah-Limit 2mg capsules (Wockhardt UK Ltd)
+^ESCTDI819798	Diocaps 2mg capsules (Teva UK Ltd)
+^ESCTDI820605	Diareze Diarrhoea Relief 2mg capsules (The Boots Company Plc)
+^ESCTDI853262	Diocaps 2mg capsules (Teva UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTDI853268	Diareze Diarrhoea Relief 2mg capsules (The Boots Company Plc) 6 capsule
+^ESCTDI853269	Diareze Diarrhoea Relief 2mg capsules (The Boots Company Plc) 12 capsule
+^ESCTDI853273	Diasorb 2mg capsules (IVAX Pharmaceuticals UK Ltd) 10 capsule
+^ESCTDI853284	Diocalm Ultra 2mg capsules (SSL International Plc) 6 capsule
+^ESCTDI853285	Diocalm Ultra 2mg capsules (SSL International Plc) 12 capsule
+^ESCTDI853288	Diah-Limit 2mg capsules (Wockhardt UK Ltd) 6 capsule
+^ESCTDI866185	Diocalm Dual Action chewable tablets (SSL International Plc)
+^ESCTDI866186	Diocalm Dual Action chewable tablets (SSL International Plc) 20 tablet 2 x 10 tablets
+^ESCTDI866191	Diocalm Dual Action chewable tablets (SSL International Plc) 40 tablet 4 x 10 tablets
+^ESCTDI876472	Diocalm Complete sachets (SSL International Plc)
+^ESCTDI876473	Diocalm Complete sachets (SSL International Plc) 6 sachet
+^ESCTDI877739	Diocalm Complete pack (SSL International Plc)
+^ESCTDI877740	Diocalm Complete pack (SSL International Plc) 1 pack 1 x (6 sachets + 6 capsules)
+^ESCTDI902595	Diaquitte 2mg capsules (E M Pharma)
+^ESCTDI902596	Diaquitte 2mg capsules (E M Pharma) 10 capsule 2 x 5 capsules
+^ESCTDI911458	Diaquitte 2mg capsules (E M Pharma) 6 capsule
+^ESCTDI914802	Diaquitte
+^ESCTDI914804	Diareze
+^ESCTDI914806	Diasorb
+^ESCTDI914853	Diocalm
+^ESCTDI914854	Diocalm Complete
+^ESCTDI914855	Diocalm Ultra
+^ESCTDI914856	Diocaps
+^ESCTDI951954	Dioraleze
+^ESCTEN802826	Entrocalm Loperamide 2mg capsules (Galpharm International Ltd)
+^ESCTEN853264	Entrocalm Loperamide 2mg capsules (Galpharm International Ltd) 6 capsule
+^ESCTEN853265	Entrocalm Loperamide 2mg capsules (Galpharm International Ltd) 10 capsule
+^ESCTEN853266	Entrocalm Loperamide 2mg capsules (Galpharm International Ltd) 30 capsule 3 x 10 capsules
+^ESCTEN871333	Entrocalm tablets (Galpharm International Ltd)
+^ESCTEN871334	Entrocalm tablets (Galpharm International Ltd) 24 tablet
+^ESCTEN915085	Entrocalm
+^ESCTEN921859	Entrocalm Loperamide
+^ESCTEN922155	Entrocalm Replace
+^ESCTEN922372	Entrocalm Heartburn and Indigestion Relief
+^ESCTEN931003	Entrocalm Replace granules 4.87g sachets (Galpharm International Ltd)
+^ESCTEN931008	Entrocalm Replace granules 4.87g sachets (Galpharm International Ltd) 6 sachet
+^ESCTEN965151	Entrocalm Heartburn and Indigestion Relief oral suspension (Galpharm International Ltd)
+^ESCTEN965152	Entrocalm Heartburn and Indigestion Relief oral suspension (Galpharm International Ltd) 150 ml
+^ESCTGA903391	Galpharm Dual Action Diarrhoea Relief sachets (Galpharm International Ltd)
+^ESCTGA903393	Galpharm Dual Action Diarrhoea Relief sachets (Galpharm International Ltd) 6 sachet
+^ESCTGA903395	Galpharm Loperamide 2mg capsules (Galpharm International Ltd)
+^ESCTGA903397	Galpharm Loperamide 2mg capsules (Galpharm International Ltd) 6 capsule
+^ESCTGA903400	Galpharm Dual Action Diarrhoea Relief pack (Galpharm International Ltd)
+^ESCTGA903403	Galpharm Dual Action Diarrhoea Relief pack (Galpharm International Ltd) 1 pack 1 x (6 sachets + 6 capsules)
+^ESCTGE866180	Generic Diocalm Dual Action chewable tablets 20 tablet
+^ESCTGE866182	Generic Diocalm Dual Action chewable tablets 40 tablet
+^ESCTGE866577	Generic Diocalm Dual Action chewable tablets
+^ESCTGE876471	Generic Diocalm Complete sachets 6 sachet
+^ESCTGE876521	Generic Diocalm Complete sachets
+^ESCTGE877738	Generic Diocalm Complete pack 1 pack
+^ESCTGE877950	Generic Diocalm Complete pack
+^ESCTIM1011718	Imodium Classic 2mg capsules (McNeil Products Ltd)
+^ESCTIM1011719	Imodium Classic 2mg capsules (McNeil Products Ltd) 8 capsule
+^ESCTIM1011720	Imodium Classic 2mg capsules (McNeil Products Ltd) 12 capsule
+^ESCTIM1011721	Imodium Classic 2mg capsules (McNeil Products Ltd) 18 capsule 3 x 6 capsules
+^ESCTIM1048790	Imodium Plus Comfort tablets (McNeil Products Ltd)
+^ESCTIM1048791	Imodium Plus Comfort tablets (McNeil Products Ltd) 6 tablet
+^ESCTIM1067846	Imodium LiquiCaps 2mg Soft capsules (McNeil Products Ltd)
+^ESCTIM1067848	Imodium LiquiCaps 2mg Soft capsules (McNeil Products Ltd) 6 capsule
+^ESCTIM1067850	Imodium 2mg Soft capsules (McNeil Products Ltd)
+^ESCTIM1067851	Imodium 2mg Soft capsules (McNeil Products Ltd) 12 capsule 2 x 6 capsules
+^ESCTIM1100175	Imodium Instant Melts 2mg orodispersible tablets (McNeil Products Ltd)
+^ESCTIM1100176	Imodium Instant Melts 2mg orodispersible tablets (McNeil Products Ltd) 12 tablet 2 x 6 tablets
+^ESCTIM1100177	Imodium Instant Melts 2mg orodispersible tablets (McNeil Products Ltd) 18 tablet 3 x 6 tablets
+^ESCTIM1109451	Imodium IBS Relief 2mg capsules (McNeil Products Ltd)
+^ESCTIM1109452	Imodium IBS Relief 2mg capsules (McNeil Products Ltd) 6 capsule
+^ESCTIM1109453	Imodium IBS Relief 2mg capsules (McNeil Products Ltd) 12 capsule 2 x 6 capsules
+^ESCTIM1118123	Imodium Instants 2mg orodispersible tablets (McNeil Products Ltd)
+^ESCTIM1118124	Imodium Instants 2mg orodispersible tablets (McNeil Products Ltd) 6 tablet
+^ESCTIM1118125	Imodium Instants 2mg orodispersible tablets (McNeil Products Ltd) 12 tablet
+^ESCTIM820436	Imodium 2mg capsules (Janssen-Cilag Ltd)
+^ESCTIM821641	Imodium Original 2mg capsules (McNeil Products Ltd)
+^ESCTIM830168	Imodium 1mg/5ml oral solution (Janssen-Cilag Ltd)
+^ESCTIM834015	Imodium 1mg/5ml liquid (McNeil Products Ltd)
+^ESCTIM853274	Imodium 2mg capsules (Janssen-Cilag Ltd) 30 capsule 2 x 15 capsules
+^ESCTIM853275	Imodium 2mg capsules (Janssen-Cilag Ltd) 250 capsule
+^ESCTIM853276	Imodium Original 2mg capsules (McNeil Products Ltd) 8 capsule
+^ESCTIM853277	Imodium Original 2mg capsules (McNeil Products Ltd) 12 capsule
+^ESCTIM853278	Imodium Original 2mg capsules (McNeil Products Ltd) 18 capsule 3 x 6 capsules
+^ESCTIM853972	Imodium 1mg/5ml liquid (McNeil Products Ltd) 90 ml
+^ESCTIM853974	Imodium 1mg/5ml oral solution (Janssen-Cilag Ltd) 100 ml
+^ESCTIM871708	Imodium Plus chewable tablets (McNeil Products Ltd)
+^ESCTIM871709	Imodium Plus chewable tablets (McNeil Products Ltd) 6 tablet
+^ESCTIM871710	Imodium Plus chewable tablets (McNeil Products Ltd) 12 tablet 2 x 6 tablets
+^ESCTIM871711	Imodium Plus chewable tablets (McNeil Products Ltd) 18 tablet 3 x 6 tablets
+^ESCTIM902599	Imodium Plus caplets (McNeil Products Ltd)
+^ESCTIM902600	Imodium Plus caplets (McNeil Products Ltd) 12 tablet
+^ESCTIM903481	Imodium Plus caplets (McNeil Products Ltd) 6 tablet
+^ESCTIM903482	Imodium Original 2mg capsules (McNeil Products Ltd) 6 capsule
+^ESCTIM918147	Imodium
+^ESCTIM918149	Imodium Plus
+^ESCTLL901694	Lloydspharmacy DiaFix 2mg capsules (Lloyds Pharmacy Ltd)
+^ESCTLL901698	Lloydspharmacy DiaFix 2mg capsules (Lloyds Pharmacy Ltd) 10 capsule
+^ESCTLL926694	Lloydspharmacy DiaFix 2mg capsules (Lloyds Pharmacy Ltd) 12 capsule 2 x 6 capsules
+^ESCTLO1006092	Loperamide 2mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTLO1006093	Loperamide 2mg capsules (Phoenix Healthcare Distribution Ltd) 30 capsule
+^ESCTLO1009241	Loperamide 2mg capsules (Strides Shasun (UK) Ltd)
+^ESCTLO1009242	Loperamide 2mg capsules (Strides Shasun (UK) Ltd) 30 capsule 3 x 10 capsules
+^ESCTLO1042788	Loperamide 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLO1042789	Loperamide 2mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTLO1044164	Loperamide 2mg capsules (Waymade Healthcare Plc)
+^ESCTLO1044165	Loperamide 2mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTLO1056436	Loperamide 25mg/5ml oral suspension 100 ml
+^ESCTLO1056437	Loperamide 25mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTLO1058332	Loperamide 2mg tablets (Waymade Healthcare Plc)
+^ESCTLO1058333	Loperamide 2mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLO1063428	Loperamide 2mg tablets (Morningside Healthcare Ltd)
+^ESCTLO1063431	Loperamide 2mg tablets (Morningside Healthcare Ltd) 30 tablet
+^ESCTLO1065688	Loperamide 2mg capsules (DE Pharmaceuticals)
+^ESCTLO1065689	Loperamide 2mg capsules (DE Pharmaceuticals) 10 capsule
+^ESCTLO1065690	Loperamide 2mg capsules (DE Pharmaceuticals) 30 capsule
+^ESCTLO1065691	Loperamide 2mg capsules (DE Pharmaceuticals) 6 capsule
+^ESCTLO1065692	Loperamide 2mg tablets (DE Pharmaceuticals)
+^ESCTLO1065693	Loperamide 2mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTLO1066321	Loperamide 25mg/5ml oral solution 100 ml
+^ESCTLO1066322	Loperamide 25mg/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTLO1079377	Loperamide 2mg capsules (Alliance Healthcare (Distribution) Ltd) 6 capsule
+^ESCTLO1099001	Loperamide 2mg orodispersible tablets sugar free 12 tablet
+^ESCTLO1099003	Loperamide 2mg orodispersible tablets sugar free 18 tablet
+^ESCTLO1099374	Loperamide 2mg orodispersible tablets sugar free
+^ESCTLO1100174	Loperamide 2mg orodispersible tablets sugar free 6 tablet
+^ESCTLO1118003	Loperamide 2mg capsules (Sigma Pharmaceuticals Plc) 10 capsule
+^ESCTLO1118004	Loperamide 2mg capsules (Sigma Pharmaceuticals Plc) 30 capsule
+^ESCTLO1141944	Loperamide 2mg capsules (Kent Pharmaceuticals Ltd) 10 capsule
+^ESCTLO1144646	Loperamide 15mg/5ml oral solution 1 ml
+^ESCTLO1144647	Loperamide 15mg/5ml oral solution (Special Order)
+^ESCTLO1144648	Loperamide 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO1145070	Loperamide 15mg/5ml oral solution
+^ESCTLO427589	Loperamide
+^ESCTLO606335	Loperamide hydrochloride 1mg/5mL s/f liquid
+^ESCTLO606336	Loperamide hydrochloride 0.2mg/mL s/f liquid
+^ESCTLO606338	Loperamide 2mg tablets
+^ESCTLO606340	Loperamide hydrochloride 2 mg oral tablet
+^ESCTLO606341	Loperamide 2mg capsules
+^ESCTLO606342	Loperamide hydrochloride 2 mg/1 each oral capsule
+^ESCTLO606344	Loperamide hydrochloride 1mg/5mL sugar free syrup
+^ESCTLO606347	Loperamide hydrochloride+simethicone 2mg/125mg chewable tablet
+^ESCTLO675497	Loperamide hydrochloride 2mg orodispersible tablet
+^ESCTLO680498	Loperamide hydrochloride 2mg/simethicone 125mg tablet
+^ESCTLO680501	Loperamide hydrochloride 2 mg and simeticone 125 mg oral tablet
+^ESCTLO680502	Loperamide hydrochloride 2 mg and simethicone 125 mg oral tablet
+^ESCTLO682641	Loperamide hydrochloride
+^ESCTLO691912	Loperamide hydrochloride 1mg/7.5mL oral solution
+^ESCTLO695889	Loperamide+simeticone
+^ESCTLO772038	Loperamide in oral dosage form
+^ESCTLO799167	Loperamide 2mg capsules (The Boots Company Plc)
+^ESCTLO808262	Loperamide 2mg capsules (Sandoz Ltd)
+^ESCTLO811394	Loperamide 2mg capsules (Actavis UK Ltd)
+^ESCTLO813676	Loperamide 2mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTLO819382	Loperamide 2mg capsules (Thornton & Ross Ltd)
+^ESCTLO820036	Loperamide 2mg capsules (Mylan Ltd)
+^ESCTLO820735	Loperamide 2mg capsules (Teva UK Ltd)
+^ESCTLO821069	Loperamide 2mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTLO829346	Loperamide 2mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO832924	Loperamide 2mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTLO836688	Loperamide 2mg capsules 30 capsule
+^ESCTLO844462	Loperamide 2mg capsules 6 capsule
+^ESCTLO846840	Loperamide 2mg capsules 12 capsule
+^ESCTLO847057	Loperamide 2mg capsules 8 capsule
+^ESCTLO847657	Loperamide 2mg capsules 250 capsule
+^ESCTLO847742	Loperamide 1mg/5ml oral solution sugar free 100 ml
+^ESCTLO848059	Loperamide 1mg/5ml oral solution sugar free 90 ml
+^ESCTLO848316	Loperamide 2mg capsules 18 capsule
+^ESCTLO848686	Loperamide 2mg capsules 10 capsule
+^ESCTLO853252	Loperamide 2mg capsules (A A H Pharmaceuticals Ltd) 10 capsule
+^ESCTLO853253	Loperamide 2mg capsules (A A H Pharmaceuticals Ltd) 30 capsule
+^ESCTLO853255	Loperamide 2mg capsules (Actavis UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTLO853258	Loperamide 2mg capsules (Teva UK Ltd) 30 capsule 3 x 10 capsules
+^ESCTLO853270	Loperamide 2mg capsules (The Boots Company Plc) 30 capsule
+^ESCTLO853271	Loperamide 2mg capsules (Mylan Ltd) 30 capsule 3 x 10 capsules
+^ESCTLO853272	Loperamide 2mg capsules (IVAX Pharmaceuticals UK Ltd) 30 capsule
+^ESCTLO853282	Loperamide 2mg capsules (Kent Pharmaceuticals Ltd) 30 capsule
+^ESCTLO853283	Loperamide 2mg capsules (Sandoz Ltd) 30 capsule
+^ESCTLO853286	Loperamide 2mg capsules (Thornton & Ross Ltd) 6 capsule
+^ESCTLO853287	Loperamide 2mg capsules (Alliance Healthcare (Distribution) Ltd) 30 capsule 3 x 10 capsules
+^ESCTLO861056	Loperamide 2mg tablets 12 tablet
+^ESCTLO861057	Loperamide 2mg tablets 30 tablet
+^ESCTLO861064	Loperamide 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLO861065	Loperamide 2mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTLO862205	Loperamide 1mg/5ml oral solution sugar free
+^ESCTLO863228	Loperamide 2mg capsules (Teva UK Ltd) 10 capsule
+^ESCTLO874758	Loperamide 2mg capsules (Vantage)
+^ESCTLO874794	Loperamide 2mg capsules (Vantage) 10 capsule
+^ESCTLO876500	Loperamide 2mg capsules (SSL International Plc)
+^ESCTLO876501	Loperamide 2mg capsules (SSL International Plc) 6 capsule
+^ESCTLO896896	Loperamide 2mg capsules (A A H Pharmaceuticals Ltd) 6 capsule
+^ESCTLO902597	Loperamide 2mg / Simeticone 125mg tablets
+^ESCTLO902598	Loperamide 2mg / Simeticone 125mg tablets 12 tablet
+^ESCTLO903480	Loperamide 2mg / Simeticone 125mg tablets 6 tablet
+^ESCTLO907752	Loperamide 25mg/5ml oral solution 1 ml
+^ESCTLO907753	Loperamide 25mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTLO907754	Loperamide 25mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTLO907755	Loperamide 25mg/5ml oral suspension 1 ml
+^ESCTLO907756	Loperamide 25mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTLO907757	Loperamide 25mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTLO907758	Loperamide 4mg/5ml oral solution 1 ml
+^ESCTLO907759	Loperamide 4mg/5ml oral solution (Special Order)
+^ESCTLO907760	Loperamide 4mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO907762	Loperamide 4mg/5ml oral suspension 1 ml
+^ESCTLO907765	Loperamide 4mg/5ml oral suspension (Special Order)
+^ESCTLO907766	Loperamide 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLO908008	Loperamide 25mg/5ml oral solution
+^ESCTLO908010	Loperamide 25mg/5ml oral suspension
+^ESCTLO908011	Loperamide 4mg/5ml oral solution
+^ESCTLO908012	Loperamide 4mg/5ml oral suspension
+^ESCTLO923746	Loperamide 2mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTLO923747	Loperamide 2mg capsules (Almus Pharmaceuticals Ltd) 30 capsule 3 x 10 capsules
+^ESCTLO954593	Loperamide 1mg/5ml oral suspension 1 ml
+^ESCTLO954599	Loperamide 1mg/5ml oral suspension (Special Order)
+^ESCTLO954601	Loperamide 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLO954605	Loperamide 1mg/5ml oral solution 1 ml
+^ESCTLO954609	Loperamide 1mg/5ml oral solution (Special Order)
+^ESCTLO954613	Loperamide 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO954619	Loperamide 2.5mg/5ml oral suspension 1 ml
+^ESCTLO954623	Loperamide 2.5mg/5ml oral suspension (Special Order)
+^ESCTLO954625	Loperamide 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLO954633	Loperamide 2.5mg/5ml oral solution 1 ml
+^ESCTLO954635	Loperamide 2.5mg/5ml oral solution (Special Order)
+^ESCTLO954637	Loperamide 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTLO954772	Loperamide 1mg/5ml oral solution
+^ESCTLO954774	Loperamide 1mg/5ml oral suspension
+^ESCTLO954776	Loperamide 2.5mg/5ml oral solution
+^ESCTLO954778	Loperamide 2.5mg/5ml oral suspension
+^ESCTLO965532	Loperamide 2mg capsules (Tillomed Laboratories Ltd)
+^ESCTLO965533	Loperamide 2mg capsules (Tillomed Laboratories Ltd) 6 capsule
+^ESCTLO965534	Loperamide 2mg capsules (Tillomed Laboratories Ltd) 10 capsule
+^ESCTLO965535	Loperamide 2mg capsules (Tillomed Laboratories Ltd) 30 capsule
+^ESCTLO978546	Loperamide 2mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTLO978547	Loperamide 2mg capsules (Sigma Pharmaceuticals Plc) 6 capsule
+^ESCTLO979469	Loperamide 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLO979470	Loperamide 2mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTLO982405	Loperamide 2mg capsules (Thornton & Ross Ltd) 12 capsule 2 x 6 capsules
+^ESCTNO861058	Normaloe 2mg tablets (Tillomed Laboratories Ltd)
+^ESCTNO861061	Normaloe 2mg tablets (Tillomed Laboratories Ltd) 12 tablet 2 x 6 tablets
+^ESCTNO861062	Norimode 2mg tablets (Tillomed Laboratories Ltd)
+^ESCTNO861063	Norimode 2mg tablets (Tillomed Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO918360	Normaloe
+^ESCTNO919813	Norimode
+^ESCTNU1049443	Numark Anti-Diarrhoea 2mg capsules (Numark Ltd)
+^ESCTNU1049444	Numark Anti-Diarrhoea 2mg capsules (Numark Ltd) 6 capsule
+^ESCTNU1049445	Numark Anti-Diarrhoea 2mg capsules (Numark Ltd) 12 capsule
+^ESCTNU1100178	Numark Diarrhoea Relief Instants 2mg orodispersible tablets (Numark Ltd)
+^ESCTNU1100179	Numark Diarrhoea Relief Instants 2mg orodispersible tablets (Numark Ltd) 6 tablet
+^ESCTPR427590	Product containing loperamide
+^ESCTPR606339	Product containing loperamide hydrochloride 2 mg/1 each oral tablet
+^ESCTPR606343	Product containing loperamide hydrochloride 2 mg/1 each oral capsule
+^ESCTPR680499	Product containing loperamide hydrochloride 2 mg and simethicone 125 mg/1 each oral tablet
+^ESCTPR680500	Product containing loperamide hydrochloride 2 mg and simeticone 125 mg/1 each oral tablet
+^ESCTPR682642	Product containing loperamide hydrochloride
+^ESCTPR695890	Product containing loperamide and simethicone
+^ESCTPR695891	Product containing loperamide and simeticone
+^ESCTPR772039	Product containing loperamide in oral dosage form
+^ESCTSI606346	Simeticone 125mg / Loperamide 2mg chewable tablets
+^ESCTSI606348	Simeticone 125mg / Loperamide 2mg chewable tablet
+^ESCTSI695888	Simeticone + Loperamide
+^ESCTSI871702	Simeticone 125mg / Loperamide 2mg chewable tablets 6 tablet
+^ESCTSI871703	Simeticone 125mg / Loperamide 2mg chewable tablets 12 tablet
+^ESCTSI871704	Simeticone 125mg / Loperamide 2mg chewable tablets 18 tablet
+^ESCTSU903082	Superdrug Loperamide 2mg capsules (Superdrug)
+^ESCTSU903083	Superdrug Loperamide 2mg capsules (Superdrug) 6 capsule
+DICA15545NEMIS	Diasorb  Capsules  2 mg
+DICA24276EMIS	Diocaps  Capsules  2 mg
+DITA4554NEMIS	Diocalm  Chewable tablets  
+ENCA6424NEMIS	Entrocalm  Capsules  2 mg
+IMCA125201NEMIS	Imodium Ibs Relief  Capsules  2 mg
+IMCA1444	Imodium  Capsules  2 mg
+IMCA16720NEMIS	Imodium Plus  Caplets  
+IMCA52818NEMIS	Imodium Classic  Capsules  2 mg
+IMCA52822NEMIS	Imodium Original  Capsules  2 mg
+IMCA78493NEMIS	Imodium Plus Comfort  Tablets  
+IMOR103460NEMIS	Imodium Instant Melts  Orodispersible tablets  2 mg
+IMOR14674NEMIS	Imodium Instants  Orodispersible tablets  2 mg
+IMSO96298NEMIS	Imodium Liquicaps  Soft Capsules  2 mg
+IMSY1445	Imodium  Oral solution  1 mg/5 ml
+IMTA143060NEMIS	Imodium Dual Action Relief  Tablets  
+IMTA1746NEMIS	Imodium Plus  Tablets  
+LOCA1691	Loperamide Hydrochloride  Capsules  2 mg
+LOCA24395EMIS	Loperagen  Capsules  2 mg
+LOCA32168EMIS	Lodiar  Capsules  2 mg
+LOCA35796MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (The Boots Company)
+LOCA35797MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Sandoz)
+LOCA35798MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Alpharma)
+LOCA35799MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Ivax Pharmaceuticals)
+LOCA35800MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Thornton & Ross)
+LOCA35801MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Generics (UK))
+LOCA35802MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Teva UK)
+LOCA35803MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (A.A.H. Pharm)
+LOCA35804MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Unichem)
+LOCA35805MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Kent Pharm)
+LOCA35806MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (Vantage)
+LOCA35807MGEMIS	Loperamide Hydrochloride  Capsules  2 mg (SSL International)
+LOOR103457NEMIS	Loperamide Hydrochloride  Orodispersible Tablets (Sugar Free)  2 mg
+LOOR14672NEMIS	Loperamide Hydrochloride  Oral Lyophilisate Sugar Free  2 mg
+LOOR20144NEMIS	Loperamide Hydrochloride  Oral suspension  25 mg/5 ml
+LOOR89412NEMIS	Loperamide Hydrochloride  Oral solution  25 mg/5 ml
+LOSU9001DLSEM	Loperamide Hydrochloride  Oral Solution, Sugar Free  1 mg/5 ml
+LOSY1692	Loperamide Hydrochloride  Syrup  1 mg/5 ml
+LOTA130758NEMIS	Loperamide Hydrochloride And Simeticone  Tablets  2 mg + 125 mg
+LOTA37619MGEMIS	Loperamide Hydrochloride  Tablets  2 mg (Unichem)
+LOTA796NEMIS	Loperamide Hydrochloride  Tablets  2 mg
+NOTA12496NEMIS	Normaloe  Tablets  2 mg
+NOTA27973EMIS	Norimode  Tablets  2 mg

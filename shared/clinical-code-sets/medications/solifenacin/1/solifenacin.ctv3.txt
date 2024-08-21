@@ -1,0 +1,9 @@
+gc9..	SOLIFENACIN+TAMSULOSIN
+gc92.	SOLIFENACIN SUCCINATE+TAMSULOSIN HCL 6mg/0.4mg m/r tablets
+gc91.	VESOMNI 6mg/0.4mg m/r tablets
+gdd..	Solifenacin
+gddz.	Solifenacin succinate 5mg tablet
+gdd1.	Vesicare 5mg tablet
+gddy.	Solifenacin succinate 10mg tablet
+gdd2.	Vesicare 10mg tablet
+x05um	Vesicare

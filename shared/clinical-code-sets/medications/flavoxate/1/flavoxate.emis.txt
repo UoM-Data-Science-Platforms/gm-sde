@@ -1,0 +1,64 @@
+^ESCT1178778	Product containing only flavoxate hydrochloride 200 mg/1 each oral tablet
+^ESCT1183171	Product containing only flavoxate 100 mg/1 each oral tablet
+^ESCT1207114	Flavoxate in oral dosage form
+^ESCT1207115	Product containing flavoxate in oral dosage form
+^ESCT1218711	Flavoxate
+^ESCT1218712	Flavoxate product
+^ESCT1224936	Product containing precisely flavoxate hydrochloride 200 milligram/1 each conventional release oral tablet
+^ESCT1228899	Product containing precisely flavoxate 100 milligram/1 each conventional release oral tablet
+^ESCT1355046	Flavoxate only product
+^ESCT1358554	Flavoxate only product in oral dose form
+^ESCT1386604	Flavoxate-containing product in oral dose form
+^ESCTFL336981	Flavoxate
+^ESCTFL613401	Flavoxate 200mg tablets
+^ESCTFL613403	Flavoxate hydrochloride 200 mg oral tablet
+^ESCTFL641791	Flavoxate 100 mg oral tablet
+^ESCTFL836288	Flavoxate 200mg tablets 90 tablet
+^ESCTFL906620	Flavoxate 200mg/5ml oral suspension 1 ml
+^ESCTFL906621	Flavoxate 200mg/5ml oral suspension (Special Order)
+^ESCTFL906624	Flavoxate 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFL906996	Flavoxate 200mg/5ml oral suspension
+^ESCTFL929552	Flavoxate 200mg tablets 60 tablet
+^ESCTFL951207	Flavoxate 100mg/5ml oral suspension 1 ml
+^ESCTFL951208	Flavoxate 100mg/5ml oral suspension (Special Order)
+^ESCTFL951209	Flavoxate 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFL951210	Flavoxate 100mg/5ml oral solution 1 ml
+^ESCTFL951211	Flavoxate 100mg/5ml oral solution (Special Order)
+^ESCTFL951212	Flavoxate 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTFL951217	Flavoxate 250mg/5ml oral suspension 1 ml
+^ESCTFL951218	Flavoxate 250mg/5ml oral suspension (Special Order)
+^ESCTFL951219	Flavoxate 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFL951220	Flavoxate 250mg/5ml oral solution 1 ml
+^ESCTFL951221	Flavoxate 250mg/5ml oral solution (Special Order)
+^ESCTFL951222	Flavoxate 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTFL951742	Flavoxate 100mg/5ml oral solution
+^ESCTFL951744	Flavoxate 100mg/5ml oral suspension
+^ESCTFL951746	Flavoxate 250mg/5ml oral solution
+^ESCTFL951748	Flavoxate 250mg/5ml oral suspension
+^ESCTFL974584	Flavoxate 200mg tablets 100 tablet
+^ESCTPR336982	Product containing flavoxate
+^ESCTPR613402	Product containing flavoxate hydrochloride 200 mg/1 each oral tablet
+^ESCTPR641792	Product containing flavoxate 100 mg/1 each oral tablet
+^ESCTUR1001650	Urispas 200 tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTUR1001651	Urispas 200 tablets (Mawdsley-Brooks & Company Ltd) 90 tablet
+^ESCTUR1002856	Urispas 200 tablets (Sigma Pharmaceuticals Plc) 90 tablet
+^ESCTUR1021640	Urispas 200 tablets (DE Pharmaceuticals)
+^ESCTUR1021641	Urispas 200 tablets (DE Pharmaceuticals) 90 tablet
+^ESCTUR1121451	Urispas 200 tablets (Waymade Healthcare Plc)
+^ESCTUR1121452	Urispas 200 tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTUR811425	Urispas 200 tablets (Recordati Pharmaceuticals Ltd)
+^ESCTUR855523	Urispas 200 tablets (Recordati Pharmaceuticals Ltd) 90 tablet
+^ESCTUR916951	Urispas
+^ESCTUR929553	Urispas 200 tablets (Dowelhurst Ltd)
+^ESCTUR929554	Urispas 200 tablets (Dowelhurst Ltd) 60 tablet
+^ESCTUR960246	Urispas 200 tablets (Dowelhurst Ltd) 90 tablet
+^ESCTUR974583	Urispas 200 tablets (Sigma Pharmaceuticals Plc)
+^ESCTUR974585	Urispas 200 tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTUR990781	Urispas 200 tablets (Lexon (UK) Ltd)
+^ESCTUR990782	Urispas 200 tablets (Lexon (UK) Ltd) 90 tablet
+^ESCTUR994239	Urispas 200 tablets (Stephar (U.K.) Ltd)
+^ESCTUR994240	Urispas 200 tablets (Stephar (U.K.) Ltd) 90 tablet
+FLTA1182	Flavoxate Hydrochloride  Tablets  100 mg
+FLTA22563EMIS	Flavoxate Hydrochloride  Tablets  200 mg
+URTA22561EMIS	Urispas  Tablets  200 mg
+URTA2991	Urispas  Tablets  100 mg

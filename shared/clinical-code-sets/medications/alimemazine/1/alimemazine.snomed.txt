@@ -152,13 +152,13 @@
 36583511000001104	Alimemazine 1.5mg/5ml oral solution (Special Order) 1 ml (product)
 36582411000001107	Alimemazine 5mg/5ml oral suspension 1 ml (product)
 36582611000001105	Alimemazine 5mg/5ml oral suspension (Special Order) 1 ml (product)
+67201000001107	Trimeprazine tartrate 7.5mg/5mL syrup - product
+141801000001100	Trimeprazine tartrate 30mg/5mL syrup - product
+685901000001100	Trimeprazine tartrate 10mg tablet - product
 300001000001103	Vallergan Forte 30mg/5mL syrup
 358901000001105	Vallergan 7.5mg/5mL syrup
 616701000001108	Vallergan 10mg tablet
 2099201000001101	Vallergan 10mg tablets 28CP
 9379301000001109	Vallergan (product)
-229381000001100	Alfresed (product)
-67201000001107	Trimeprazine tartrate 7.5mg/5mL syrup - product
-141801000001100	Trimeprazine tartrate 30mg/5mL syrup - product
-685901000001100	Trimeprazine tartrate 10mg tablet - product
 348171000001104	Itzenal (product)
+229381000001100	Alfresed (product)

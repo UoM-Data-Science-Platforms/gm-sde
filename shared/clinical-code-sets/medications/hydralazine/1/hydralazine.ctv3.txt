@@ -1,0 +1,8 @@
+be2..	Hydralazine hydrochloride
+be2x.	Hydralazine hydrochloride 25mg tablet
+be21.	Apresoline 25mg tablet
+be2y.	Hydralazine hydrochloride 50mg tablet
+be22.	Apresoline 50mg tablet
+be2z.	Hydralazine hydrochloride 20mg injection (pdr for recon)
+be23.	Apresoline 20mg injection (pdr for recon)
+x02U9	Apresoline

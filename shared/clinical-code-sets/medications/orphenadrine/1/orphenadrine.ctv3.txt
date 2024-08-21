@@ -1,0 +1,17 @@
+dr2..	Orphenadrine hydrochloride
+dr2z.	Orphenadrine 40mg/2mL injection
+dr23.	Disipal 40mg/2mL injection
+dr2y.	Orphenadrine hydrochloride 50mg tablet
+dr22.	Disipal 50mg tablet
+dr2x.	Orphenadrine hydrochloride 25mg/5mL oral liquid
+dr21.	Biorphen 25mg/5mL elixir
+dr2w.	Orphenadrine hydrochloride 50mg/5mL syrup
+j86..	Orphenadrine citrate
+j86z.	Orphenadrine citrate 60mg/2mL injection
+j862.	Norflex 60mg/2mL injection
+j86y.	Orphenadrine 100mg tablet
+j861.	Norflex 100mg tablet
+x01De	Orphenadrine
+x03xf	Disipal
+x02Vk	Biorphen
+x02lB	Norflex

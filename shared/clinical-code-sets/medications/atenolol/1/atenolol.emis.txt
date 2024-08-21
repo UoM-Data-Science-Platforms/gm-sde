@@ -1,0 +1,679 @@
+ANTA24239EMIS	Antipressan  Tablets  25 mg
+ANTA8445EGTON	Antipressan  Tablets  100 mg
+ANTA8446EGTON	Antipressan  Tablets  50 mg
+ATCA19667NEMIS	Atenolol And M/r Nifedipine  Capsules  50 mg + 20 mg
+ATIN4611	Atenolol  Solution for injection  500 micrograms/ml, 10 ml ampoule
+ATSY4612	Atenolol  Oral Solution, Sugar Free  25 mg/5 ml
+ATTA10518BRIDL	Atenix-100  Tablets  100 mg
+ATTA10910BRIDL	Atenolol  Tablets  25 mg
+ATTA10EGTON	Atenixco 100  Tablets  
+ATTA230	Atenolol  Tablets  100 mg
+ATTA231	Atenolol  Tablets  50 mg
+ATTA27489EMIS	Atenix 25  Tablets  25 mg
+ATTA33869MGEMIS	Atenolol  Tablets  25 mg (A.A.H. Pharm)
+ATTA33870MGEMIS	Atenolol  Tablets  25 mg (Unichem)
+ATTA33871MGEMIS	Atenolol  Tablets  25 mg (Alpharma)
+ATTA33872MGEMIS	Atenolol  Tablets  25 mg (Wockhardt UK)
+ATTA33873MGEMIS	Atenolol  Tablets  25 mg (Sandoz)
+ATTA33874MGEMIS	Atenolol  Tablets  25 mg (Ivax Pharmaceuticals)
+ATTA33875MGEMIS	Atenolol  Tablets  25 mg (Sterwin Medicines)
+ATTA33876MGEMIS	Atenolol  Tablets  25 mg (Teva UK)
+ATTA33877MGEMIS	Atenolol  Tablets  25 mg (Generics (UK))
+ATTA33878MGEMIS	Atenolol  Tablets  25 mg (Kent Pharm)
+ATTA33879MGEMIS	Atenolol  Tablets  25 mg (Ranbaxy)
+ATTA33880MGEMIS	Atenolol  Tablets  100 mg (Generics (UK))
+ATTA33881MGEMIS	Atenolol  Tablets  100 mg (Alpharma)
+ATTA33882MGEMIS	Atenolol  Tablets  100 mg (Sandoz)
+ATTA33883MGEMIS	Atenolol  Tablets  100 mg (Wockhardt UK)
+ATTA33884MGEMIS	Atenolol  Tablets  100 mg (A.A.H. Pharm)
+ATTA33885MGEMIS	Atenolol  Tablets  100 mg (Unichem)
+ATTA33886MGEMIS	Atenolol  Tablets  100 mg (Ivax Pharmaceuticals)
+ATTA33887MGEMIS	Atenolol  Tablets  100 mg (Sterwin Medicines)
+ATTA33888MGEMIS	Atenolol  Tablets  100 mg (Kent Pharm)
+ATTA33889MGEMIS	Atenolol  Tablets  100 mg (Teva UK)
+ATTA33890MGEMIS	Atenolol  Tablets  100 mg (Ranbaxy)
+ATTA33891MGEMIS	Atenolol  Tablets  50 mg (A.A.H. Pharm)
+ATTA33892MGEMIS	Atenolol  Tablets  50 mg (Generics (UK))
+ATTA33893MGEMIS	Atenolol  Tablets  50 mg (Unichem)
+ATTA33894MGEMIS	Atenolol  Tablets  50 mg (Wockhardt UK)
+ATTA33895MGEMIS	Atenolol  Tablets  50 mg (Alpharma)
+ATTA33896MGEMIS	Atenolol  Tablets  50 mg (Teva UK)
+ATTA33897MGEMIS	Atenolol  Tablets  50 mg (Sterwin Medicines)
+ATTA33898MGEMIS	Atenolol  Tablets  50 mg (Kent Pharm)
+ATTA33899MGEMIS	Atenolol  Tablets  50 mg (Ivax Pharmaceuticals)
+ATTA33900MGEMIS	Atenolol  Tablets  50 mg (Sandoz)
+ATTA33901MGEMIS	Atenolol  Tablets  50 mg (Ranbaxy)
+ATTA4EGTON	Atenixco 50  Tablets  12.5 mg
+ATTA7EGTON	Atenixco 50  Tablets  
+ATTA9195BRIDL	Atenix-50  Tablets  50 mg
+BECA8451EGTON	Beta-Adalat  Capsules  
+COTA34622MGEMIS	Co-Tenidone 50/12.5  Tablets  (Kent Pharm)
+COTA34623MGEMIS	Co-Tenidone 50/12.5  Tablets  (Teva UK)
+COTA34624MGEMIS	Co-Tenidone 50/12.5  Tablets  (Sandoz)
+COTA34625MGEMIS	Co-Tenidone 50/12.5  Tablets  (Ivax Pharmaceuticals)
+COTA34626MGEMIS	Co-Tenidone 50/12.5  Tablets  (Generics (UK))
+COTA34627MGEMIS	Co-Tenidone 50/12.5  Tablets  (Wockhardt UK)
+COTA34628MGEMIS	Co-Tenidone 50/12.5  Tablets  (Alpharma)
+COTA34629MGEMIS	Co-Tenidone 50/12.5  Tablets  (A.A.H. Pharm)
+COTA34630MGEMIS	Co-Tenidone 50/12.5  Tablets  (Unichem)
+COTA34631MGEMIS	Co-Tenidone 100/25  Tablets  (Ivax Pharmaceuticals)
+COTA34632MGEMIS	Co-Tenidone 100/25  Tablets  (Sandoz)
+COTA34633MGEMIS	Co-Tenidone 100/25  Tablets  (Teva UK)
+COTA34634MGEMIS	Co-Tenidone 100/25  Tablets  (Alpharma)
+COTA34635MGEMIS	Co-Tenidone 100/25  Tablets  (Wockhardt UK)
+COTA34636MGEMIS	Co-Tenidone 100/25  Tablets  (Generics (UK))
+COTA34637MGEMIS	Co-Tenidone 100/25  Tablets  (Kent Pharm)
+COTA34638MGEMIS	Co-Tenidone 100/25  Tablets  (A.A.H. Pharm)
+COTA34639MGEMIS	Co-Tenidone 100/25  Tablets  (Unichem)
+COTA8933BRECO	Co-Tenidone 50/12.5  Tablets  
+COTA8936BRECO	Co-Tenidone 100/25  Tablets  
+KACA1539	Kalten  Capsules  
+TECA30610EMIS	Tenben  Capsules  
+TECA8555EGTON	Tenif  Capsules  50 mg + 20 mg
+TEIN8847EGTON	Tenormin  Solution for injection  500 micrograms/ml, 10 ml ampoule
+TESY8848EGTON	Tenormin  Syrup  25 mg/5 ml
+TETA24249EMIS	Tenchlor 50/12.5  Tablets  
+TETA24252EMIS	Tenchlor 100/25  Tablets  
+TETA2798	Tenoret 50/12.5  Tablets  
+TETA2799	Tenoretic  Tablets  100 mg + 25 mg
+TETA2800	Tenormin  Tablets  100 mg
+TETA2801	Tenormin Ls  Tablets  50 mg
+TETA9419BRIDL	Tenormin  Tablets  25 mg
+TOTA19647EMIS	Totamol  Tablets  25 mg
+TOTA9102EMIS	Totamol  Tablets  100 mg
+TOTA9103EMIS	Totamol  Tablets  50 mg
+VATA9995HILLI	Vasaten  Tablets  100 mg
+VATA9996HILLI	Vasaten  Tablets  50 mg
+^ESCT1177921	Product containing only atenolol 100 mg/1 each oral tablet
+^ESCT1177922	Product containing only atenolol 25 mg/1 each oral tablet
+^ESCT1178076	Product containing only atenolol 50 mg and chlorthalidone 12.5 mg/1 each oral tablet
+^ESCT1178077	Product containing only atenolol 50 mg and chlortalidone 12.5 mg/1 each oral tablet
+^ESCT1178080	Product containing only atenolol 50 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCT1178671	Co-tenidone 50mg/12.5mg tablets (Mylan)
+^ESCT1178672	Co-tenidone 100mg/25mg tablets (Mylan)
+^ESCT1179483	Atenolol 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1179826	Atenolol 50mg tablets (Mylan)
+^ESCT1181196	Product containing only atenolol 25 mg and bendroflumethiazide 1.25 mg/1 each oral capsule
+^ESCT1183179	Product containing only atenolol 100 mg and chlortalidone 25 mg/1 each oral tablet
+^ESCT1183180	Product containing only atenolol 100 mg and chlorthalidone 25 mg/1 each oral tablet
+^ESCT1183181	Product containing only atenolol 50 mg and chlortalidone 25 mg/1 each oral tablet
+^ESCT1183182	Product containing only atenolol 50 mg and chlorthalidone 25 mg/1 each oral tablet
+^ESCT1183399	Atenolol 50mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1183400	Atenolol 25mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1184287	Atenolol 25mg tablets (Mylan)
+^ESCT1185242	Product containing atenolol and bendroflumethiazide
+^ESCT1185243	Atenolol and bendroflumethiazide
+^ESCT1185244	Atenolol + Bendroflumethiazide
+^ESCT1187192	Product containing only atenolol 50 mg/1 each oral tablet
+^ESCT1187676	Product containing atenolol and nifedipine
+^ESCT1187677	Atenolol and nifedipine
+^ESCT1187678	Atenolol + Nifedipine
+^ESCT1188666	Atenolol 100mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1189231	Atenolol 100mg tablets (Mylan)
+^ESCT1198099	Atenolol 50mg tablets (RX Farma)
+^ESCT1198100	Atenolol 50mg tablets (RX Farma) 28 tablet 2 x 14 tablets
+^ESCT1198101	Atenolol 100mg tablets (RX Farma)
+^ESCT1198102	Atenolol 100mg tablets (RX Farma) 28 tablet 2 x 14 tablets
+^ESCT1198103	Co-tenidone 50mg/12.5mg tablets (RX Farma)
+^ESCT1198105	Co-tenidone 100mg/25mg tablets (RX Farma)
+^ESCT1203764	Atenolol 50 mg and nifedipine 20 mg prolonged-release oral capsule
+^ESCT1203765	Product containing precisely atenolol 50 milligram and nifedipine 20 milligram/1 each prolonged-release oral capsule
+^ESCT1206267	Amiloride and atenolol and hydrochlorothiazide in oral dosage form
+^ESCT1206268	Product containing amiloride and atenolol and hydrochlorothiazide in oral dosage form
+^ESCT1206269	Atenolol and bendroflumethiazide in oral dosage form
+^ESCT1206270	Product containing atenolol and bendroflumethiazide in oral dosage form
+^ESCT1206271	Atenolol and chlortalidone in oral dosage form
+^ESCT1206272	Product containing atenolol and chlortalidone in oral dosage form
+^ESCT1206273	Atenolol and chlorthalidone in oral dosage form
+^ESCT1208695	Atenolol 5 mg/mL oral solution
+^ESCT1208696	Product containing precisely atenolol 5 milligram/1 milliliter conventional release oral solution
+^ESCT1209076	Atenolol 5 mg/10 mL solution for injection ampoule
+^ESCT1209077	Atenolol 5 mg/10 mL solution for injection ampule
+^ESCT1209078	Product containing precisely atenolol 5 milligram/10 milliliter conventional release solution for injection ampule
+^ESCT1214705	Atenolol 25mg/5ml oral solution sugar free
+^ESCT1214706	Atenolol 50mg / Nifedipine 20mg modified-release capsules
+^ESCT1214707	Atenolol 5mg/10ml solution for injection ampoules
+^ESCT1214713	Atenolol 25mg/5ml oral solution sugar free (Essential Generics Ltd)
+^ESCT1214714	Atenolol 25mg/5ml oral solution sugar free (Essential Generics Ltd) 300 ml
+^ESCT1220301	Atenolol
+^ESCT1220302	Atenolol product
+^ESCT1222836	Product containing precisely atenolol 50 milligram/1 each conventional release oral tablet
+^ESCT1222837	Product containing precisely atenolol 100 milligram/1 each conventional release oral tablet
+^ESCT1222838	Product containing precisely atenolol 25 milligram/1 each conventional release oral tablet
+^ESCT1222871	Product containing precisely atenolol 25 milligram and bendroflumethiazide 1.25 milligram/1 each conventional release oral capsule
+^ESCT1222872	Atenolol 25 mg and bendroflumethiazide 1.25 mg oral capsule
+^ESCT1222873	Product containing precisely atenolol 50 milligram and chlortalidone 12.5 milligram/1 each conventional release oral tablet
+^ESCT1222877	Product containing precisely amiloride hydrochloride 2.5 milligram and atenolol 50 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral capsule
+^ESCT1222878	Amiloride hydrochloride 2.5 mg and atenolol 50 mg and hydrochlorothiazide 25 mg oral capsule
+^ESCT1227256	Atenolol and bendroflumethiazide product
+^ESCT1227257	Atenolol + amiloride + hydrochlorothiazide
+^ESCT1227258	Amiloride and atenolol and hydrochlorothiazide product
+^ESCT1228961	Product containing precisely atenolol 100 milligram and chlortalidone 25 milligram/1 each conventional release oral tablet
+^ESCT1228962	Product containing precisely atenolol 50 milligram and chlortalidone 25 milligram/1 each conventional release oral tablet
+^ESCT1229804	Atenolol and nifedipine product
+^ESCT1230219	Atenolol + chlorthalidone
+^ESCT1230220	Atenolol and chlortalidone product
+^ESCT1230221	Atenolol and chlorthalidone product
+^ESCT1237478	Atenolol 100mg tablets (Zanza Specials International Ltd)
+^ESCT1237479	Atenolol 100mg tablets (Zanza Specials International Ltd) 28 tablet 2 x 14 tablets
+^ESCT1237480	Atenolol 25mg tablets (Zanza Specials International Ltd)
+^ESCT1237481	Atenolol 25mg tablets (Zanza Specials International Ltd) 28 tablet 2 x 14 tablets
+^ESCT1237482	Atenolol 50mg tablets (Zanza Specials International Ltd)
+^ESCT1237483	Atenolol 50mg tablets (Zanza Specials International Ltd) 28 tablet 2 x 14 tablets
+^ESCT1258379	Atenolol 100mg tablets (Strides Pharma UK Ltd)
+^ESCT1258380	Atenolol 100mg tablets (Strides Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1258381	Atenolol 50mg tablets (Strides Pharma UK Ltd)
+^ESCT1258382	Atenolol 50mg tablets (Strides Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1258383	Atenolol 25mg tablets (Strides Pharma UK Ltd)
+^ESCT1258384	Atenolol 25mg tablets (Strides Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1263957	Co-tenidone 50mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263959	Co-tenidone 100mg/25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1269621	Atenolol 25mg/5ml oral solution sugar free (Healthcare Pharma Ltd)
+^ESCT1269622	Atenolol 25mg/5ml oral solution sugar free (Healthcare Pharma Ltd) 300 ml
+^ESCT1299691	Atenolol 50mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1351245	Atenolol- and nifedipine-containing product in oral dose form
+^ESCT1353441	Amiloride and atenolol and hydrochlorothiazide only product
+^ESCT1353598	Atenolol only product
+^ESCT1353599	Atenolol and bendroflumethiazide only product
+^ESCT1353600	Atenolol and chlortalidone only product
+^ESCT1353601	Atenolol and chlorthalidone only product
+^ESCT1353602	Atenolol and nifedipine only product
+^ESCT1357450	Amiloride and atenolol and hydrochlorothiazide only product in oral dose form
+^ESCT1357554	Atenolol and bendroflumethiazide only product in oral dose form
+^ESCT1357555	Atenolol and chlortalidone only product in oral dose form
+^ESCT1357556	Atenolol and chlorthalidone only product in oral dose form
+^ESCT1357557	Atenolol and nifedipine only product in oral dose form
+^ESCT1357558	Atenolol only product in oral dose form
+^ESCT1357559	Atenolol only product in parenteral dose form
+^ESCT1360924	Atenolol 500 microgram/mL solution for injection
+^ESCT1374799	Atenolol 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374800	Atenolol 100mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374801	Atenolol 25mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1374802	Atenolol 25mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 300 ml
+^ESCT1374803	Atenolol 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374804	Atenolol 25mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374805	Atenolol 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374806	Atenolol 50mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375356	Co-tenidone 100mg/25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375359	Co-tenidone 50mg/12.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1381533	Amiloride- and atenolol- and hydrochlorothiazide-containing product
+^ESCT1382413	Atenolol- and chlortalidone-containing product
+^ESCT1382414	Atenolol- and chlorthalidone-containing product
+^ESCT1384054	Atenolol-containing product in parenteral dose form
+^ESCT1384084	Atenolol-containing product in oral dose form
+^ESCT1386193	Amiloride- and atenolol- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1386194	Atenolol- and bendroflumethiazide-containing product in oral dose form
+^ESCT1386195	Atenolol- and chlortalidone-containing product in oral dose form
+^ESCT1386196	Atenolol- and chlorthalidone-containing product in oral dose form
+^ESCT1419191	Atenolol 25mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1419192	Atenolol 25mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1419193	Atenolol 50mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1419194	Atenolol 50mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1419195	Atenolol 100mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1419196	Atenolol 100mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422227	Atenolol 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422228	Atenolol 25mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422229	Atenolol 50mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422230	Atenolol 50mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1425497	Co-tenidone 50mg/12.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425770	Co-tenidone 100mg/25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425805	Atenolol 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425847	Atenolol 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425905	Atenolol 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425922	Atenolol 100mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1425923	Atenolol 50mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1425924	Atenolol 25mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1434999	Atenolol 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCT1435000	Atenolol 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 300 ml
+^ESCT1436769	Atenolol 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436835	Atenolol 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436968	Co-tenidone 50mg/12.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436969	Co-tenidone 100mg/25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437028	Atenolol 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437104	Atenolol 100mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437105	Atenolol 50mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437106	Atenolol 25mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1439984	Atenolol 25mg tablets (Ipca Laboratories UK Ltd)
+^ESCT1439986	Atenolol 25mg tablets (Ipca Laboratories UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1439987	Atenolol 50mg tablets (Ipca Laboratories UK Ltd)
+^ESCT1439989	Atenolol 50mg tablets (Ipca Laboratories UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1439990	Atenolol 100mg tablets (Ipca Laboratories UK Ltd)
+^ESCT1439992	Atenolol 100mg tablets (Ipca Laboratories UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAN822880	Antipressan 100mg tablets (Teva UK Ltd)
+^ESCTAN830561	Antipressan 50mg tablets (Teva UK Ltd)
+^ESCTAN830612	Antipressan 25mg tablets (Teva UK Ltd)
+^ESCTAN848805	Antipressan 100mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAN848824	Antipressan 50mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAN848837	Antipressan 25mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAN913869	Antipressan
+^ESCTAT1004663	Atenolol 25mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1004666	Atenolol 25mg/5ml oral solution sugar free 100 ml
+^ESCTAT1004669	Atenolol 25mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd) 100 ml
+^ESCTAT1004672	Atenolol 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1004674	Atenolol 25mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAT1004676	Atenolol 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1004677	Atenolol 50mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAT1004678	Atenolol 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1004681	Atenolol 100mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAT1006325	Atenolol 25mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+^ESCTAT1006326	Atenolol 25mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd) 300 ml
+^ESCTAT1007396	Atenolol 25mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd) 300 ml
+^ESCTAT1009205	Atenolol 100mg tablets (Strides Shasun (UK) Ltd)
+^ESCTAT1009206	Atenolol 100mg tablets (Strides Shasun (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT1009207	Atenolol 50mg tablets (Strides Shasun (UK) Ltd)
+^ESCTAT1009208	Atenolol 50mg tablets (Strides Shasun (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT1009209	Atenolol 25mg tablets (Strides Shasun (UK) Ltd)
+^ESCTAT1009210	Atenolol 25mg tablets (Strides Shasun (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT1010853	Atenolol 25mg tablets (Accord Healthcare Ltd)
+^ESCTAT1010854	Atenolol 25mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTAT1010855	Atenolol 50mg tablets (Accord Healthcare Ltd)
+^ESCTAT1010856	Atenolol 50mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTAT1010857	Atenolol 100mg tablets (Accord Healthcare Ltd)
+^ESCTAT1010858	Atenolol 100mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTAT1026170	Atenolol 25mg tablets (Crescent Pharma Ltd)
+^ESCTAT1026171	Atenolol 25mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT1041427	Atenolol 25mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTAT1041428	Atenolol 25mg/5ml oral solution sugar free (Waymade Healthcare Plc) 300 ml
+^ESCTAT1041429	Atenolol 25mg tablets (Waymade Healthcare Plc)
+^ESCTAT1041430	Atenolol 25mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAT1041431	Atenolol 50mg tablets (Waymade Healthcare Plc)
+^ESCTAT1041432	Atenolol 50mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAT1041433	Atenolol 100mg tablets (Waymade Healthcare Plc)
+^ESCTAT1041434	Atenolol 100mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAT1048978	Atenolol 25mg/5ml oral solution sugar free (Chanelle Medical UK Ltd)
+^ESCTAT1048979	Atenolol 25mg/5ml oral solution sugar free (Chanelle Medical UK Ltd) 300 ml
+^ESCTAT1049095	Atenolol 25mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTAT1049096	Atenolol 25mg/5ml oral solution sugar free (DE Pharmaceuticals) 300 ml
+^ESCTAT1049097	Atenolol 100mg tablets (DE Pharmaceuticals)
+^ESCTAT1049098	Atenolol 100mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAT1049099	Atenolol 25mg tablets (DE Pharmaceuticals)
+^ESCTAT1049100	Atenolol 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAT1049101	Atenolol 50mg tablets (DE Pharmaceuticals)
+^ESCTAT1049102	Atenolol 50mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAT1109291	Atenolol 50mg tablets (Crescent Pharma Ltd)
+^ESCTAT1109292	Atenolol 50mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT1109293	Atenolol 100mg tablets (Crescent Pharma Ltd)
+^ESCTAT1109294	Atenolol 100mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT1116885	Atenolol 25mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTAT1116886	Atenolol 25mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 300 ml
+^ESCTAT1116887	Atenolol 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT1116888	Atenolol 50mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAT1118922	Atenolol 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAT1118923	Atenolol 25mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAT1118924	Atenolol 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAT1118925	Atenolol 50mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAT1118926	Atenolol 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAT1118927	Atenolol 100mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAT1132091	Atenolol 25mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTAT1132092	Atenolol 25mg/5ml oral solution sugar free (Thame Laboratories Ltd) 300 ml
+^ESCTAT392463	Atenolol
+^ESCTAT607018	Atenolol 50mg tablets
+^ESCTAT607020	Atenolol 50 mg oral tablet
+^ESCTAT607021	Atenolol 100mg tablets
+^ESCTAT607023	Atenolol 100 mg oral tablet
+^ESCTAT607024	Atenolol 25mg tablets
+^ESCTAT607026	Atenolol 25 mg oral tablet
+^ESCTAT607027	Atenolol 25mg/5ml oral solution sugar free
+^ESCTAT607028	Atenolol 25mg/5mL syrup
+^ESCTAT607029	Atenolol 5mg/10ml solution for injection ampoules
+^ESCTAT607030	Atenolol 5mg/10mL injection
+^ESCTAT607031	Atenolol 500micrograms/mL injection solution 10mL ampoule
+^ESCTAT607032	Atenolol 500micrograms/mL injection solution 10mL ampule
+^ESCTAT607134	Atenolol 25mg / Bendroflumethiazide 1.25mg capsules
+^ESCTAT607136	Atenolol 25 mg and bendroflumethiazide 1.25 mg/1 each oral capsule
+^ESCTAT607140	Atenolol 50 mg and chlortalidone 12.5 mg oral tablet
+^ESCTAT607141	Atenolol 50 mg and chlorthalidone 12.5 mg oral tablet
+^ESCTAT607156	Atenolol 50 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCTAT607157	Atenolol 50mg / Nifedipine 20mg modified-release capsules
+^ESCTAT607158	Atenolol 50mg / nifedipine 20mg m/r capsule
+^ESCTAT620083	Atenolol + Bendroflumethiazide
+^ESCTAT620084	Atenolol+bendrofluazide
+^ESCTAT620085	Atenolol+bendroflumethiazide
+^ESCTAT620086	Atenolol + amiloride + hydrochlorothiazide
+^ESCTAT641911	Atenolol 100 mg and chlortalidone 25 mg oral tablet
+^ESCTAT641912	Atenolol 100 mg and chlorthalidone 25 mg oral tablet
+^ESCTAT641913	Atenolol+chlorthalidone 50mg/25mg tablet
+^ESCTAT641916	Atenolol 50 mg and chlortalidone 25 mg oral tablet
+^ESCTAT641917	Atenolol 50 mg and chlorthalidone 25 mg oral tablet
+^ESCTAT660985	Atenolol + Nifedipine
+^ESCTAT660986	Atenolol+nifedipine
+^ESCTAT670412	Atenolol + chlorthalidone
+^ESCTAT721971	Atenolol in parenteral dosage form
+^ESCTAT723601	Atenolol in oral dosage form
+^ESCTAT799292	Atenolol 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAT801542	Atenolol 100mg tablets (Mylan Ltd)
+^ESCTAT801753	Atenolol 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT801888	Atenolol 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAT803173	Atenix Co 100 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAT805232	Atenix 100 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAT807040	Atenolol 50mg tablets (Mylan Ltd)
+^ESCTAT807775	Atenolol 25mg tablets (Actavis UK Ltd)
+^ESCTAT808153	Atenolol 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT808217	Atenix 50 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAT808266	Atenolol 100mg tablets (Actavis UK Ltd)
+^ESCTAT808595	Atenolol 100mg tablets (Sandoz Ltd)
+^ESCTAT810744	Atenolol 50mg tablets (Wockhardt UK Ltd)
+^ESCTAT812226	Atenolol 25mg tablets (Wockhardt UK Ltd)
+^ESCTAT813177	Atenolol 25mg tablets (Sandoz Ltd)
+^ESCTAT813713	Atenolol 50mg tablets (Actavis UK Ltd)
+^ESCTAT814724	Atenolol 100mg tablets (Wockhardt UK Ltd)
+^ESCTAT814952	Atenolol 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAT818582	Atenix 25 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAT819887	Atenolol 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT820360	Atenolol 25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAT820415	Atenolol 25mg tablets (Sterwin Medicines)
+^ESCTAT820524	Atenolol 25mg tablets (Teva UK Ltd)
+^ESCTAT820565	Atenix Co 50 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAT820716	Atenolol 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAT820851	Atenolol 100mg tablets (Sterwin Medicines)
+^ESCTAT820978	Atenolol 50mg tablets (Teva UK Ltd)
+^ESCTAT821981	Atenolol 50mg tablets (Sterwin Medicines)
+^ESCTAT822290	Atenolol 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAT824149	Atenolol 25mg tablets (Mylan Ltd)
+^ESCTAT824961	Atenolol 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAT829136	Atenolol 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAT829453	Atenolol 100mg tablets (Teva UK Ltd)
+^ESCTAT830895	Atenolol 50mg tablets (Sandoz Ltd)
+^ESCTAT832184	Atenolol 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAT838565	Atenolol 25mg/5ml oral solution sugar free 300 ml
+^ESCTAT844715	Atenolol 25mg / Bendroflumethiazide 1.25mg capsules 56 capsule
+^ESCTAT846607	Atenolol 25mg tablets 28 tablet
+^ESCTAT847406	Atenolol 100mg tablets 28 tablet
+^ESCTAT847981	Atenolol 5mg/10ml solution for injection ampoules 10 ampoule
+^ESCTAT848171	Atenolol 50mg tablets 28 tablet
+^ESCTAT848800	Atenolol 100mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848801	Atenolol 100mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848802	Atenolol 100mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848803	Atenix 100 tablets (Ashbourne Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848807	Atenolol 100mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848812	Atenolol 100mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848814	Atenolol 100mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848815	Atenolol 100mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848816	Atenolol 100mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848817	Atenolol 100mg tablets (Sterwin Medicines) 28 tablet 2 x 14 tablets
+^ESCTAT848818	Atenolol 100mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848819	Atenolol 50mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTAT848820	Atenolol 50mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848821	Atenolol 50mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848822	Atenix 50 tablets (Ashbourne Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848825	Atenolol 50mg tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTAT848826	Atenolol 50mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848827	Atenolol 50mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848828	Atenolol 50mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848829	Atenolol 50mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848830	Atenolol 50mg tablets (Sterwin Medicines) 28 tablet
+^ESCTAT848831	Atenolol 50mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848832	Atenolol 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTAT848833	Atenolol 25mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848834	Atenolol 25mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848835	Atenix 25 tablets (Ashbourne Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848838	Atenolol 25mg tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTAT848839	Atenolol 25mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848840	Atenolol 25mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848841	Atenolol 25mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848842	Atenolol 25mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT848843	Atenolol 25mg tablets (Sterwin Medicines) 28 tablet
+^ESCTAT848844	Atenolol 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT850498	Atenix Co 50 tablets (Ashbourne Pharmaceuticals Ltd) 28 tablet
+^ESCTAT850532	Atenix Co 100 tablets (Ashbourne Pharmaceuticals Ltd) 28 tablet
+^ESCTAT859486	Atenolol 50mg / Nifedipine 20mg modified-release capsules 28 capsule
+^ESCTAT879035	Atenolol 100mg tablets 14 tablet
+^ESCTAT879037	Atenolol 100mg tablets (Dowelhurst Ltd)
+^ESCTAT879039	Atenolol 100mg tablets (Dowelhurst Ltd) 14 tablet
+^ESCTAT879040	Atenolol 100mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTAT879041	Atenolol 25mg tablets 56 tablet
+^ESCTAT879042	Atenolol 25mg tablets (Dowelhurst Ltd)
+^ESCTAT879043	Atenolol 25mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTAT909262	Atenolol 25mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAT909264	Atenolol 25mg tablets (Ranbaxy (UK) Ltd) 28 tablet
+^ESCTAT909270	Atenolol 50mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAT909271	Atenolol 50mg tablets (Ranbaxy (UK) Ltd) 28 tablet
+^ESCTAT911544	Atenolol 100mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAT911547	Atenolol 100mg tablets (Ranbaxy (UK) Ltd) 28 tablet
+^ESCTAT913978	Atenix
+^ESCTAT913981	Atenix Co
+^ESCTAT923551	Atenolol 25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAT923553	Atenolol 25mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT923558	Atenolol 50mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAT923560	Atenolol 50mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT928769	Atenolol 25mg tablets (Arrow Generics Ltd)
+^ESCTAT928770	Atenolol 25mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTAT928771	Atenolol 50mg tablets (Arrow Generics Ltd)
+^ESCTAT928772	Atenolol 50mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTAT928773	Atenolol 100mg tablets (Arrow Generics Ltd)
+^ESCTAT928774	Atenolol 100mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTAT937020	Atenolol 25mg tablets (Zentiva)
+^ESCTAT937022	Atenolol 25mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTAT937023	Atenolol 50mg tablets (Zentiva)
+^ESCTAT937024	Atenolol 50mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTAT939330	Atenolol 100mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAT939332	Atenolol 100mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT940950	Atenolol 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT940951	Atenolol 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 300 ml
+^ESCTAT941334	Atenolol 25mg/5ml oral solution sugar free (Kappin Ltd)
+^ESCTAT941335	Atenolol 25mg/5ml oral solution sugar free (Kappin Ltd) 300 ml
+^ESCTAT945091	Atenolol 10mg/5ml oral suspension 1 ml
+^ESCTAT945092	Atenolol 10mg/5ml oral suspension (Special Order)
+^ESCTAT945093	Atenolol 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT945094	Atenolol 10mg/5ml oral solution 1 ml
+^ESCTAT945095	Atenolol 10mg/5ml oral solution (Special Order)
+^ESCTAT945096	Atenolol 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTAT945105	Atenolol 12.5mg/5ml oral suspension 1 ml
+^ESCTAT945106	Atenolol 12.5mg/5ml oral suspension (Special Order)
+^ESCTAT945107	Atenolol 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT945108	Atenolol 12.5mg/5ml oral solution 1 ml
+^ESCTAT945109	Atenolol 12.5mg/5ml oral solution (Special Order)
+^ESCTAT945110	Atenolol 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAT945111	Atenolol 25mg/5ml oral suspension 1 ml
+^ESCTAT945112	Atenolol 25mg/5ml oral suspension (Special Order)
+^ESCTAT945113	Atenolol 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT945114	Atenolol 25mg/5ml oral solution 1 ml
+^ESCTAT945115	Atenolol 25mg/5ml oral solution (Special Order)
+^ESCTAT945116	Atenolol 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTAT945386	Atenolol 10mg/5ml oral solution
+^ESCTAT945387	Atenolol 10mg/5ml oral suspension
+^ESCTAT945389	Atenolol 12.5mg/5ml oral solution
+^ESCTAT945390	Atenolol 12.5mg/5ml oral suspension
+^ESCTAT945392	Atenolol 25mg/5ml oral solution
+^ESCTAT945394	Atenolol 25mg/5ml oral suspension
+^ESCTAT945617	Atenolol 3.125mg/5ml oral suspension 1 ml
+^ESCTAT945618	Atenolol 3.125mg/5ml oral suspension (Special Order)
+^ESCTAT945619	Atenolol 3.125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT945620	Atenolol 3.125mg/5ml oral solution 1 ml
+^ESCTAT945622	Atenolol 3.125mg/5ml oral solution (Special Order)
+^ESCTAT945623	Atenolol 3.125mg/5ml oral solution (Special Order) 1 ml
+^ESCTAT945625	Atenolol 3mg/5ml oral suspension 1 ml
+^ESCTAT945627	Atenolol 3mg/5ml oral suspension (Special Order)
+^ESCTAT945629	Atenolol 3mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT945630	Atenolol 3mg/5ml oral solution 1 ml
+^ESCTAT945632	Atenolol 3mg/5ml oral solution (Special Order)
+^ESCTAT945634	Atenolol 3mg/5ml oral solution (Special Order) 1 ml
+^ESCTAT945636	Atenolol 50mg/5ml oral suspension 1 ml
+^ESCTAT945637	Atenolol 50mg/5ml oral suspension (Special Order)
+^ESCTAT945638	Atenolol 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAT945640	Atenolol 50mg/5ml oral solution 1 ml
+^ESCTAT945642	Atenolol 50mg/5ml oral solution (Special Order)
+^ESCTAT945643	Atenolol 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTAT946017	Atenolol 3.125mg/5ml oral solution
+^ESCTAT946018	Atenolol 3.125mg/5ml oral suspension
+^ESCTAT946020	Atenolol 3mg/5ml oral solution
+^ESCTAT946021	Atenolol 3mg/5ml oral suspension
+^ESCTAT946022	Atenolol 50mg/5ml oral solution
+^ESCTAT946023	Atenolol 50mg/5ml oral suspension
+^ESCTAT959932	Atenolol 25mg/5ml oral solution sugar free (Dowelhurst Ltd)
+^ESCTAT959933	Atenolol 25mg/5ml oral solution sugar free (Dowelhurst Ltd) 300 ml
+^ESCTAT965396	Atenolol 25mg tablets (Tillomed Laboratories Ltd)
+^ESCTAT965397	Atenolol 25mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTAT965398	Atenolol 50mg tablets (Tillomed Laboratories Ltd)
+^ESCTAT965399	Atenolol 50mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTAT965400	Atenolol 100mg tablets (Tillomed Laboratories Ltd)
+^ESCTAT965401	Atenolol 100mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTAT975648	Atenolol 25mg tablets (Boston Healthcare Ltd)
+^ESCTAT975649	Atenolol 25mg tablets (Boston Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT975650	Atenolol 50mg tablets (Boston Healthcare Ltd)
+^ESCTAT975651	Atenolol 50mg tablets (Boston Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT975652	Atenolol 100mg tablets (Boston Healthcare Ltd)
+^ESCTAT975653	Atenolol 100mg tablets (Boston Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT978183	Atenolol 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT978184	Atenolol 100mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAT978185	Atenolol 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAT978186	Atenolol 25mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAT986921	Atenolol 100mg tablets (Zanza Laboratories Ltd)
+^ESCTAT986922	Atenolol 100mg tablets (Zanza Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT986923	Atenolol 25mg tablets (Zanza Laboratories Ltd)
+^ESCTAT986924	Atenolol 25mg tablets (Zanza Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT986925	Atenolol 50mg tablets (Zanza Laboratories Ltd)
+^ESCTAT986926	Atenolol 50mg tablets (Zanza Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT987098	Atenolol 100mg tablets (Bristol Laboratories Ltd)
+^ESCTAT987099	Atenolol 100mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT987100	Atenolol 25mg tablets (Bristol Laboratories Ltd)
+^ESCTAT987101	Atenolol 25mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT987102	Atenolol 50mg tablets (Bristol Laboratories Ltd)
+^ESCTAT987103	Atenolol 50mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT989117	Atenolol 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTAT989118	Atenolol 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 300 ml
+^ESCTBE1002880	Beta-Adalat modified-release capsules (Necessity Supplies Ltd)
+^ESCTBE1002881	Beta-Adalat modified-release capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTBE859489	Beta-Adalat modified-release capsules (Bayer Plc)
+^ESCTBE859490	Beta-Adalat modified-release capsules (Bayer Plc) 28 capsule 2 x 14 capsules
+^ESCTBE879174	Beta-Adalat modified-release capsules (Dowelhurst Ltd)
+^ESCTBE879177	Beta-Adalat modified-release capsules (Dowelhurst Ltd) 28 capsule
+^ESCTBE929788	Beta-Adalat modified-release capsules (Waymade Healthcare Plc)
+^ESCTBE929792	Beta-Adalat modified-release capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTBE966277	Beta-Adalat modified-release capsules (DE Pharmaceuticals)
+^ESCTBE966278	Beta-Adalat modified-release capsules (DE Pharmaceuticals) 28 capsule
+^ESCTBE969898	Beta-Adalat modified-release capsules (Sigma Pharmaceuticals Plc)
+^ESCTBE969899	Beta-Adalat modified-release capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTBE988731	Beta-Adalat modified-release capsules (Lexon (UK) Ltd)
+^ESCTBE988732	Beta-Adalat modified-release capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTBE990927	Beta-Adalat modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTBE990928	Beta-Adalat modified-release capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTCO1005611	Co-tenidone 50mg/12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1005613	Co-tenidone 100mg/25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1006991	Co-tenidone
+^ESCTCO1029401	Co-tenidone 100mg/25mg tablets (Medreich Plc)
+^ESCTCO1038055	Co-tenidone 50mg/12.5mg tablets (Medreich Plc)
+^ESCTCO1042920	Co-tenidone 50mg/12.5mg tablets (Waymade Healthcare Plc)
+^ESCTCO1042922	Co-tenidone 100mg/25mg tablets (Waymade Healthcare Plc)
+^ESCTCO1060817	Co-tenidone 50mg/12.5mg tablets (DE Pharmaceuticals)
+^ESCTCO1060819	Co-tenidone 100mg/25mg tablets (DE Pharmaceuticals)
+^ESCTCO1117136	Co-tenidone 100mg/25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO1117138	Co-tenidone 50mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO607137	Co-tenidone 50mg/12.5mg tablets
+^ESCTCO641908	Co-tenidone 100mg/25mg tablets
+^ESCTCO801458	Co-tenidone 50mg/12.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO804222	Co-tenidone 100mg/25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO804562	Co-tenidone 50mg/12.5mg tablets (Teva UK Ltd)
+^ESCTCO808007	Co-tenidone 100mg/25mg tablets (Sandoz Ltd)
+^ESCTCO818605	Co-tenidone 100mg/25mg tablets (Teva UK Ltd)
+^ESCTCO819959	Co-tenidone 50mg/12.5mg tablets (Sandoz Ltd)
+^ESCTCO820178	Co-tenidone 50mg/12.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO820260	Co-tenidone 50mg/12.5mg tablets (Mylan Ltd)
+^ESCTCO820276	Co-tenidone 100mg/25mg tablets (Actavis UK Ltd)
+^ESCTCO820278	Co-tenidone 100mg/25mg tablets (Wockhardt UK Ltd)
+^ESCTCO820314	Co-tenidone 100mg/25mg tablets (Mylan Ltd)
+^ESCTCO820512	Co-tenidone 50mg/12.5mg tablets (Wockhardt UK Ltd)
+^ESCTCO820749	Co-tenidone 100mg/25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO820781	Co-tenidone 50mg/12.5mg tablets (Actavis UK Ltd)
+^ESCTCO825162	Co-tenidone 100mg/25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO830922	Co-tenidone 50mg/12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO830972	Co-tenidone 100mg/25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO831947	Co-tenidone 50mg/12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO923533	Co-tenidone 50mg/12.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCO923537	Co-tenidone 100mg/25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCO928925	Co-tenidone 50mg/12.5mg tablets (Arrow Generics Ltd)
+^ESCTCO928927	Co-tenidone 100mg/25mg tablets (Arrow Generics Ltd)
+^ESCTCO943201	Co-tenidone 100mg/25mg/5ml oral suspension (Special Order)
+^ESCTCO943204	Co-tenidone 100mg/25mg/5ml oral solution (Special Order)
+^ESCTCO943362	Co-tenidone 100mg/25mg/5ml oral solution
+^ESCTCO943363	Co-tenidone 100mg/25mg/5ml oral suspension
+^ESCTGE607154	Generic Kalten capsules
+^ESCTGE836121	Generic Kalten capsules 28 capsule
+^ESCTKA807415	Kalten capsules (M & A Pharmachem Ltd)
+^ESCTKA851781	Kalten capsules (M & A Pharmachem Ltd) 28 capsule 2 x 14 capsules
+^ESCTKA879413	Kalten capsules (Dowelhurst Ltd)
+^ESCTKA879414	Kalten capsules (Dowelhurst Ltd) 28 capsule
+^ESCTKA920405	Kalten
+^ESCTKA970394	Kalten capsules (Sigma Pharmaceuticals Plc)
+^ESCTKA970395	Kalten capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTPR392464	Product containing atenolol
+^ESCTPR607019	Product containing atenolol 50 mg/1 each oral tablet
+^ESCTPR607022	Product containing atenolol 100 mg/1 each oral tablet
+^ESCTPR607025	Product containing atenolol 25 mg/1 each oral tablet
+^ESCTPR607135	Product containing atenolol 25 mg and bendroflumethiazide 1.25 mg/1 each oral capsule
+^ESCTPR607138	Product containing atenolol 50 mg and chlortalidone 12.5 mg/1 each oral tablet
+^ESCTPR607139	Product containing atenolol 50 mg and chlorthalidone 12.5 mg/1 each oral tablet
+^ESCTPR607155	Product containing atenolol 50 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCTPR620087	Product containing amiloride and atenolol and hydrochlorothiazide
+^ESCTPR641909	Product containing atenolol 100 mg and chlortalidone 25 mg/1 each oral tablet
+^ESCTPR641910	Product containing atenolol 100 mg and chlorthalidone 25 mg/1 each oral tablet
+^ESCTPR641914	Product containing atenolol 50 mg and chlortalidone 25 mg/1 each oral tablet
+^ESCTPR641915	Product containing atenolol 50 mg and chlorthalidone 25 mg/1 each oral tablet
+^ESCTPR670413	Product containing atenolol and chlortalidone
+^ESCTPR670414	Product containing atenolol and chlorthalidone
+^ESCTPR721972	Product containing atenolol in parenteral dosage form
+^ESCTPR723602	Product containing atenolol in oral dosage form
+^ESCTTE1001569	Tenif 50mg/20mg modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1001570	Tenif 50mg/20mg modified-release capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTTE1001571	Tenoret 50mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1001572	Tenoret 50mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTTE1008431	Tenif 50mg/20mg modified-release capsules (Necessity Supplies Ltd)
+^ESCTTE1008432	Tenif 50mg/20mg modified-release capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTTE799040	Tenormin 5mg/10ml solution for injection ampoules (AstraZeneca UK Ltd)
+^ESCTTE804891	Tenormin 100mg tablets (AstraZeneca UK Ltd)
+^ESCTTE808929	Tenoretic 100mg/25mg tablets (AstraZeneca UK Ltd)
+^ESCTTE809400	Tenchlor 100mg/25mg tablets (Teva UK Ltd)
+^ESCTTE810168	Tenormin 25mg tablets (AstraZeneca UK Ltd)
+^ESCTTE812147	Tenormin 25mg/5ml syrup (AstraZeneca UK Ltd)
+^ESCTTE815094	Tenormin LS 50mg tablets (AstraZeneca UK Ltd)
+^ESCTTE816068	Tenchlor 50mg/12.5mg tablets (Teva UK Ltd)
+^ESCTTE822257	Tenben 25mg/1.25mg capsules (Galen Ltd)
+^ESCTTE827224	Tenoret 50mg/12.5mg tablets (AstraZeneca UK Ltd)
+^ESCTTE848804	Tenormin 100mg tablets (AstraZeneca UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTTE848823	Tenormin LS 50mg tablets (AstraZeneca UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTTE848836	Tenormin 25mg tablets (AstraZeneca UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTTE849375	Tenormin 25mg/5ml syrup (AstraZeneca UK Ltd) 300 ml
+^ESCTTE850501	Tenoret 50mg/12.5mg tablets (AstraZeneca UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTTE850503	Tenchlor 50mg/12.5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTTE850538	Tenchlor 100mg/25mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTTE850712	Tenben 25mg/1.25mg capsules (Galen Ltd) 56 capsule 4 x 14 capsules
+^ESCTTE857124	Tenormin 5mg/10ml solution for injection ampoules (AstraZeneca UK Ltd) 10 ampoule
+^ESCTTE859487	Tenif 50mg/20mg modified-release capsules (AstraZeneca UK Ltd)
+^ESCTTE859488	Tenif 50mg/20mg modified-release capsules (AstraZeneca UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTTE878347	Tenif 50mg/20mg modified-release capsules (Waymade Healthcare Plc)
+^ESCTTE878348	Tenif 50mg/20mg modified-release capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTTE878350	Tenormin LS 50mg tablets (Waymade Healthcare Plc)
+^ESCTTE878352	Tenormin LS 50mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTTE878353	Tenormin 25mg tablets (Waymade Healthcare Plc)
+^ESCTTE878354	Tenormin 25mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTTE878356	Tenoretic 100mg/25mg tablets (Waymade Healthcare Plc)
+^ESCTTE879744	Tenif 50mg/20mg modified-release capsules (Dowelhurst Ltd)
+^ESCTTE879745	Tenif 50mg/20mg modified-release capsules (Dowelhurst Ltd) 28 capsule
+^ESCTTE879770	Tenormin 100mg tablets (Dowelhurst Ltd)
+^ESCTTE879771	Tenormin 100mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTTE879775	Tenormin 25mg tablets (Dowelhurst Ltd)
+^ESCTTE879781	Tenormin 25mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTTE879784	Tenormin LS 50mg tablets (Dowelhurst Ltd)
+^ESCTTE879785	Tenormin LS 50mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTTE916659	Tenben
+^ESCTTE916661	Tenchlor
+^ESCTTE916663	Tenif
+^ESCTTE916667	Tenoret
+^ESCTTE916671	Tenormin
+^ESCTTE929563	Tenoretic 100mg/25mg tablets (Dowelhurst Ltd)
+^ESCTTE960230	Tenormin 25mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTTE961782	Tenormin 25mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTTE967758	Tenoretic 100mg/25mg tablets (DE Pharmaceuticals)
+^ESCTTE967760	Tenif 50mg/20mg modified-release capsules (DE Pharmaceuticals)
+^ESCTTE967761	Tenif 50mg/20mg modified-release capsules (DE Pharmaceuticals) 28 capsule
+^ESCTTE967762	Tenormin LS 50mg tablets (DE Pharmaceuticals)
+^ESCTTE967765	Tenormin LS 50mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTTE973975	Tenif 50mg/20mg modified-release capsules (Sigma Pharmaceuticals Plc)
+^ESCTTE973976	Tenif 50mg/20mg modified-release capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTTE973977	Tenoret 50mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE973978	Tenoret 50mg/12.5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTTE974317	Tenoretic 100mg/25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE974321	Tenormin LS 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE974322	Tenormin LS 50mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTTE974323	Tenormin 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTE974324	Tenormin 25mg tablets (Sigma Pharmaceuticals Plc) 28 tablet

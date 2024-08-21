@@ -1,0 +1,204 @@
+a84..	Opium and Morphine
+a842.	Kaolin and morphine mixture BP
+ch12.	Ammonium chloride+morphine mixture
+ch13.	Ipecacuanha+morphine mixture
+dj1..	Morphine salts (1) [central nervous system use]
+dj11.	Morphine sulph [CNS] 10mg injection
+dj12.	Morphine sulph [CNS] 15mg injection
+dj13.	Morphine sulphate [CNS] 20mg/1ml injection
+dj14.	Morphine sulphate [CNS] 30mg/1ml injection
+dj15.	Morphine sulphate [CNS] 20mg/2ml injection
+dj16.	Morphine sulphate [CNS] 30mg/2ml injection
+dj17.	Morphine sulphate [CNS] 40mg/2ml injection
+dj18.	Morphine sulphate [CNS] 60mg/2ml injection
+dj19.	Morphine sulphate 15mg suppository
+dj1D.	Morphine sulphate 10mg suppository
+dj1A.	Sevredol 10mg suppository
+dj1E.	Morphine sulphate 20mg suppository
+dj1B.	Sevredol 20mg suppository
+dj1G.	Morphine sulphate 10mg/5mL oral unit dose vial
+dj1F.	Oramorph 10mg/5mL oral unit dose vial
+dj1I.	Morphine sulphate 30mg/5mL oral unit dose vial
+dj1H.	Oramorph 30mg/5mL oral unit dose vial
+dj1K.	Morphine sulphate 100mg/5mL oral unit dose vial
+dj1J.	Oramorph 100mg/5mL oral unit dose vial
+dj1L.	Morphine sulphate 10mg/5mL oral solution
+x04wf	Sevredol 10mg/5mL oral solution
+djzu.	Sevredol 10mg/5mL oral solution 500mL
+djzt.	Sevredol 10mg/5mL oral solution 300mL
+djzq.	Sevredol 10mg/5mL oral solution 100mL
+x00Xv	Oramorph 10mg/5mL oral solution
+dj1p.	Oramorph 10mg/5mL liquid 250mL
+dj1m.	Oramorph 10mg/5mL liquid 500mL
+dj1l.	Oramorph 10mg/5mL liquid 100mL
+dj1Z.	Oramorph 10mg/5mL oral solution 300mL
+dj1M.	Morphine sulphate 100mg/5mL oral solution
+x00EP	Oramorph 100mg/5mL concentrated oral solution
+dj1o.	Oramorph concentrated 20mg/mL liquid 120mL
+dj1n.	Oramorph concentrated 20mg/mL liquid 30mL
+dj1O.	Morphine sulphate 10mg/1mL prefilled syringe
+dj1Q.	Morphine sulphate 20mg/sachet granules for suspension
+dj1N.	MST Continus 20mg/sachet granules for suspension
+dj1R.	Morphine sulphate 30mg/sachet granules for suspension
+dj1P.	MST Continus 30mg/sachet granules for suspension
+dj1S.	Morphine hydrochloride 15mg suppository
+dj1T.	Morphine hydrochloride 30mg suppository
+dj1U.	Morphine hydrochloride powder
+dj1V.	Morphine sulphate powder
+dj1a.	Morphine sulphate 30mg suppository
+dj1C.	Sevredol 30mg suppository
+dj1q.	Min-I-Jet Morphine sulphate 20mg/2mL prefilled syringe
+dj2..	Morphine analgesic elixirs
+dj21.	Morphine simple elixir
+dj25.	Morphine + cocaine elixir
+dj26.	Morphine/cocaine/chlorpromazine elixir
+djy..	Morphine salts (3) [central nervous system use]
+djyL.	MORPHINE SULFATE 10mg/10mL solution for injection
+djyK.	MORPHINE SULFATE 5mg/5mL solution for injection
+djyJ.	MORPHINE SULFATE 1mg/1mL solution for injection
+djy5.	Morphine sulphate 30mg/30mL injection
+djyI.	Morphine sulphate 1mg/mL Minijet 10mL prefilled syringe
+djz..	Morphine salts (2) [central nervous system use]
+djz1.	Morphine sulphate 10mg tablet
+dj1r.	Sevredol 10mg tablet
+djz2.	Morphine sulphate 20mg tablet
+dj1s.	Sevredol 20mg tablet
+djz3.	Morphine sulphate 5mg m/r tablet
+dj1y.	MST Continus 5mg m/r tablet
+djz4.	Morphine sulphate 10mg m/r tablet
+djyE.	Rhotard SR 10mg m/r tablet
+djyA.	Morphgesic SR 10mg m/r tablet
+djy6.	Filnarine SR 10mg m/r tablet
+dj1u.	Oramorph SR 10mg m/r tablet
+dj1f.	MST Continus 10mg m/r tablet
+djz5.	Morphine sulphate 15mg m/r tablet
+dj1z.	MST Continus 15mg m/r tablet
+djz6.	Morphine sulphate 30mg m/r tablet
+djyF.	Rhotard SR 30mg m/r tablet
+djyB.	Morphgesic SR 30mg m/r tablet
+djy7.	Filnarine SR 30mg m/r tablet
+dj1v.	Oramorph SR 30mg m/r tablet
+dj1g.	MST Continus 30mg m/r tablet
+djz7.	Morphine sulphate 60mg m/r tablet
+djyG.	Rhotard SR 60mg m/r tablet
+djyC.	Morphgesic SR 60mg m/r tablet
+djy8.	Filnarine SR 60mg m/r tablet
+dj1w.	Oramorph SR 60mg m/r tablet
+dj1h.	MST Continus 60mg m/r tablet
+djz8.	Morphine sulphate 100mg m/r tablet
+djyH.	Rhotard SR 100mg m/r tablet
+djyD.	Morphgesic SR 100mg m/r tablet
+djy9.	Filnarine SR 100mg m/r tablet
+dj1x.	Oramorph SR 100mg m/r tablet
+dj1i.	MST Continus 100mg m/r tablet
+djz9.	Morphine sulphate 200mg m/r tablet
+dj1t.	MST Continus 200mg m/r tablet
+djzA.	Morphine sulphate 60mg/sachet granules for suspension
+dj1W.	MST Continus 60mg/sachet granules for suspension
+djzB.	Morphine sulphate 100mg/sachet granules for suspension
+dj1X.	MST Continus 100mg/sachet granules for suspension
+djzC.	Morphine sulphate 200mg/sachet granules for suspension
+dj1Y.	MST Continus 200mg/sachet granules for suspension
+djzD.	Morphine sulphate 10mg m/r capsule
+djzj.	Zomorph 10mg m/r capsule
+djzH.	M-Eslon 10mg m/r capsule
+djzE.	Morphine sulphate 30mg m/r capsule
+djzk.	Zomorph 30mg m/r capsule
+djzS.	MXL 30mg m/r capsule
+djzI.	M-Eslon 30mg m/r capsule
+djzF.	Morphine sulphate 60mg m/r capsule
+djzl.	Zomorph 60mg m/r capsule
+djzT.	MXL 60mg m/r capsule
+djzJ.	M-Eslon 60mg m/r capsule
+djzG.	Morphine sulphate 100mg m/r capsule
+djzm.	Zomorph 100mg m/r capsule
+djzY.	Morcap SR 100mg m/r capsule
+djzK.	M-Eslon 100mg m/r capsule
+djzL.	Morphine sulphate 50mg tablet
+djzM.	Sevredol 50mg tablet
+djzO.	Morphine sulphate 90mg m/r capsule
+djzU.	MXL 90mg m/r capsule
+djzP.	Morphine sulphate 120mg m/r capsule
+djzV.	MXL 120mg m/r capsule
+djzQ.	Morphine sulphate 150mg m/r capsule
+djzW.	MXL 150mg m/r capsule
+djzR.	Morphine sulphate 200mg m/r capsule
+djzn.	Zomorph 200mg m/r capsule
+djzX.	MXL 200mg m/r capsule
+djzZ.	Morphine sulphate 20mg m/r capsule
+djzb.	Morcap SR 20mg m/r capsule
+djza.	Morphine sulphate 50mg m/r capsule
+djzc.	Morcap SR 50mg m/r capsule
+djzd.	Morphine sulphate 50mg/50mL prefilled syringe
+djzo.	Pharma-Ject Morphine sulphate 50mg/50mL prefilled syringe
+djzf.	Rapiject Morphine sulphate 50mg/50mL prefilled syringe
+djze.	Morphine sulphate 100mg/50mL prefilled syringe
+djzp.	Pharma-Ject Morphine sulphate 100mg/50mL prefilled syringe
+djzg.	Rapiject Morphine sulphate 100mg/50mL prefilled syringe
+djzh.	Morphine sulphate 50mg/50mL injection
+djzi.	Morphine sulphate 100mg/50mL injection
+djzs.	Morphine sulphate 20mg/mL oral solution
+x04wg	Sevredol 20mg/mL concentrated oral solution
+djzv.	Sevredol 20mg/mL concentrated oral solution 120mL
+djzr.	Sevredol 20mg/mL concentrated oral solution 30mL
+djzw.	Morphine sulphate 35mg rectal tampon
+djy1.	Moraxen 35mg rectal tampon
+djzx.	Morphine sulphate 50mg rectal tampon
+djy2.	Moraxen 50mg rectal tampon
+djzy.	Morphine sulphate 75mg rectal tampon
+djy3.	Moraxen 75mg rectal tampon
+djzz.	Morphine sulphate 100mg rectal tampon
+djy4.	Moraxen 100mg rectal tampon
+o45..	Morphine salts [anaesthesia]
+o451.	Morphine sulphate 10mg injection
+o452.	Morphine sulphate 15mg injection
+o453.	Morphine sulphate 20mg/1mL injection
+o454.	Morphine sulphate 30mg/1mL injection
+o455.	Morphine sulphate 20mg/2mL injection
+o456.	Morphine sulphate 30mg/2mL injection
+o457.	Morphine sulphate 40mg/2mL injection
+o458.	Morphine sulphate+atropine sulphate 10mg/600micrograms/1mL injection
+x0071	Kaolin+morphine
+x00fd	Opazimes tablet
+x00fC	Enterosan tablet
+x00f8	J.Collis Brown's tablet
+x007x	Parenteral morphine
+x02Lg	Morphine sulphate 60mg/2mL injection
+x02Ld	Morphine sulphate 20mg/2mL prefilled syringe
+x02La	Morphine sulphate 15mg/1mL injection
+x02LZ	Morphine sulphate 10mg/1mL injection
+dj1k.	Nepenthe 4.2mg/0.5mL injection
+dj1e.	Duromorph 64mg/1mL m/r injection
+x007y	Morphine sulphate+atropine sulphate
+x007z	Rectal morphine
+x0080	Morphine tablets
+x0081	Morphine tartrate+cyclizine
+x025l	Cyclimorph 15 injection
+dj1d.	Cyclimorph-15 injection 1mL
+x025k	Cyclimorph 10 injection
+dj1c.	Cyclimorph-10 injection 1mL
+x008X	Oral morphine solution
+x00Xt	Morphine hydrochloride 10mg/mL oral solution
+dj1j.	Nepenthe 8.4mg/mL elixir
+dj1b.	Opium 10mg/mL tincture
+x01Ki	Oral morphine
+x02QA	Morphine capsules
+x01Kj	Morphine oral granules
+x02LY	Morphine
+x02jI	Min-I-Jet Morphine sulphate
+x03xo	Rapiject Morphine sulphate
+x04pg	Pharma-Ject Morphine sulphate
+x03za	Cyclimorph 10
+x03zb	Cyclimorph 15
+x02k0	MST
+x043W	MST Continus
+x02m3	Oramorph
+x02m4	Oramorph SR
+x02qt	Sevredol
+x03eL	MXL
+x03iE	Morcap SR
+x03qV	Zomorph
+x05eK	Filnarine SR
+x05mZ	Morphgesic SR
+x05ma	Rhotard SR
+a841.	Aromatic chalk + opium mixture

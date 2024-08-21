@@ -1,0 +1,203 @@
+^ESCT1178688	Product containing only procyclidine hydrochloride 5 mg/1 each oral tablet
+^ESCT1179529	Procyclidine 5mg tablets (Mylan) 28 tablet
+^ESCT1183951	Procyclidine 5mg tablets (Mylan) 100 tablet
+^ESCT1186378	Procyclidine 5mg tablets (Mylan)
+^ESCT1188705	Procyclidine 5mg tablets (Mylan) 500 tablet
+^ESCT1204625	Procyclidine hydrochloride 500 microgram/mL oral solution
+^ESCT1204626	Product containing precisely procyclidine hydrochloride 500 microgram/1 milliliter conventional release oral solution
+^ESCT1204627	Procyclidine hydrochloride 1 mg/mL oral solution
+^ESCT1204628	Product containing precisely procyclidine hydrochloride 1 milligram/1 milliliter conventional release oral solution
+^ESCT1210448	Procyclidine hydrochloride 10 mg/2 mL solution for injection ampoule
+^ESCT1210449	Procyclidine hydrochloride 10 mg/2 mL solution for injection ampule
+^ESCT1210450	Product containing precisely procyclidine hydrochloride 10 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1215311	Procyclidine 10mg/2ml solution for injection ampoules
+^ESCT1215312	Procyclidine 2.5mg/5ml oral solution sugar free
+^ESCT1215313	Procyclidine 5mg/5ml oral solution sugar free
+^ESCT1218350	Procyclidine
+^ESCT1218351	Procyclidine product
+^ESCT1224006	Product containing precisely procyclidine hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1269656	Procyclidine 10mg/2ml solution for injection ampoules (Accord Healthcare Ltd)
+^ESCT1269657	Procyclidine 10mg/2ml solution for injection ampoules (Accord Healthcare Ltd) 5 ampoule
+^ESCT1275102	Procyclidine 5mg tablets (Pilsco Ltd)
+^ESCT1275103	Procyclidine 5mg tablets (Pilsco Ltd) 100 tablet
+^ESCT1275537	Procyclidine 2.5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1275538	Procyclidine 2.5mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1275539	Procyclidine 5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1275540	Procyclidine 5mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1356509	Procyclidine only product
+^ESCT1359674	Procyclidine only product in oral dose form
+^ESCT1359675	Procyclidine only product in parenteral dose form
+^ESCT1361266	Procyclidine hydrochloride 5 mg/mL solution for injection
+^ESCT1383715	Procyclidine-containing product in oral dose form
+^ESCT1383748	Procyclidine-containing product in parenteral dose form
+^ESCT1403484	Procyclidine 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403485	Procyclidine 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403497	Procyclidine 2.5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1403498	Procyclidine 2.5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1409543	Procyclidine 5mg tablets (Accord Healthcare Ltd)
+^ESCT1409869	Procyclidine 5mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1425677	Procyclidine 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425716	Procyclidine 5mg/5ml oral solution sugar free (Kent Pharma (UK) Ltd)
+^ESCT1426166	Procyclidine 5mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1426167	Procyclidine 5mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426392	Procyclidine 5mg/5ml oral solution sugar free (Kent Pharma (UK) Ltd) 150 ml
+^ESCT1426839	Procyclidine 5mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437011	Procyclidine 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437270	Procyclidine 5mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1437271	Procyclidine 5mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437272	Procyclidine 5mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCTAR801296	Arpicolin 5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTAR808038	Arpicolin 2.5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTAR855562	Arpicolin 5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTAR855563	Arpicolin 2.5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTAR913934	Arpicolin
+^ESCTKE1009115	Kemadrin 5mg tablets (Necessity Supplies Ltd)
+^ESCTKE1009116	Kemadrin 5mg tablets (Necessity Supplies Ltd) 100 tablet
+^ESCTKE1012024	Kemadrin 5mg tablets (DE Pharmaceuticals)
+^ESCTKE1012025	Kemadrin 5mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTKE805253	Kemadrin 5mg tablets (Aspen Pharma Trading Ltd)
+^ESCTKE850950	Kemadrin 5mg tablets (Aspen Pharma Trading Ltd) 100 tablet
+^ESCTKE850953	Kemadrin 5mg tablets (Aspen Pharma Trading Ltd) 500 tablet
+^ESCTKE857822	Kemadrin 10mg/2ml solution for injection ampoules (Auden McKenzie (Pharma Division) Ltd)
+^ESCTKE857823	Kemadrin 10mg/2ml solution for injection ampoules (Auden McKenzie (Pharma Division) Ltd) 5 ampoule
+^ESCTKE877972	Kemadrin 5mg tablets (Waymade Healthcare Plc)
+^ESCTKE877973	Kemadrin 5mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTKE918771	Kemadrin
+^ESCTKE989219	Kemadrin 5mg tablets (Lexon (UK) Ltd)
+^ESCTKE989220	Kemadrin 5mg tablets (Lexon (UK) Ltd) 100 tablet
+^ESCTKE992851	Kemadrin 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTKE992852	Kemadrin 5mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTKE993069	Kemadrin 5mg tablets (Stephar (U.K.) Ltd)
+^ESCTKE993070	Kemadrin 5mg tablets (Stephar (U.K.) Ltd) 100 tablet
+^ESCTMU807957	Muscinil 5mg tablets (Opus Pharmaceuticals Ltd)
+^ESCTMU850994	Muscinil 5mg tablets (Opus Pharmaceuticals Ltd) 100 tablet
+^ESCTMU919324	Muscinil
+^ESCTPR1005901	Procyclidine 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPR1005903	Procyclidine 5mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTPR1005905	Procyclidine 5mg tablets (Phoenix Healthcare Distribution Ltd) 500 tablet
+^ESCTPR1042114	Procyclidine 5mg tablets (Waymade Healthcare Plc)
+^ESCTPR1042115	Procyclidine 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTPR1042116	Procyclidine 5mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTPR1042117	Procyclidine 5mg tablets (Waymade Healthcare Plc) 500 tablet
+^ESCTPR1060102	Procyclidine 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPR1060103	Procyclidine 5mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTPR1080402	Procyclidine 10mg/2ml solution for injection ampoules (Actavis UK Ltd)
+^ESCTPR1080403	Procyclidine 10mg/2ml solution for injection ampoules (Actavis UK Ltd) 5 ampoule
+^ESCTPR1092073	Procyclidine 10mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1092077	Procyclidine 10mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCTPR1099212	Procyclidine 10mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPR1099213	Procyclidine 10mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTPR1119608	Procyclidine 5mg tablets (DE Pharmaceuticals)
+^ESCTPR1119609	Procyclidine 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTPR1119610	Procyclidine 5mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTPR1119611	Procyclidine 5mg tablets (DE Pharmaceuticals) 500 tablet
+^ESCTPR1127069	Procyclidine 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1127070	Procyclidine 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTPR1127071	Procyclidine 5mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTPR1127072	Procyclidine 5mg tablets (Mawdsley-Brooks & Company Ltd) 500 tablet
+^ESCTPR1145152	Procyclidine 2.5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTPR1145153	Procyclidine 2.5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTPR1145154	Procyclidine 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTPR1145155	Procyclidine 5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTPR1147671	Procyclidine 2.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTPR1147672	Procyclidine 2.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTPR1147673	Procyclidine 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTPR1147674	Procyclidine 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTPR1148584	Procyclidine 2.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1148586	Procyclidine 2.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTPR1148588	Procyclidine 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1148589	Procyclidine 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTPR322582	Procyclidine
+^ESCTPR322583	Product containing procyclidine
+^ESCTPR610959	Procyclidine 2.5mg/5ml oral solution sugar free
+^ESCTPR610960	Procyclidine hydrochloride 2.5mg/5mL sugar free syrup
+^ESCTPR610961	Procyclidine 5mg/5ml oral solution sugar free
+^ESCTPR610962	Procyclidine hydrochloride 5mg/5mL sugar free syrup
+^ESCTPR610963	Procyclidine 5mg tablets
+^ESCTPR610964	Product containing procyclidine hydrochloride 5 mg/1 each oral tablet
+^ESCTPR610965	Procyclidine hydrochloride 5 mg oral tablet
+^ESCTPR610966	Procyclidine 10mg/2ml solution for injection ampoules
+^ESCTPR610967	Procyclidine hydrochloride 10mg/2mL injection
+^ESCTPR610968	Procyclidine hydrochloride 5mg/mL injection solution 2mL ampule
+^ESCTPR610969	Procyclidine hydrochloride 5mg/mL injection solution 2mL ampoule
+^ESCTPR711526	Procyclidine in oral dosage form
+^ESCTPR711527	Product containing procyclidine in oral dosage form
+^ESCTPR711641	Procyclidine in parenteral dosage form
+^ESCTPR711642	Product containing procyclidine in parenteral dosage form
+^ESCTPR805460	Procyclidine 5mg tablets (Actavis UK Ltd)
+^ESCTPR815449	Procyclidine 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR817422	Procyclidine 5mg tablets (Teva UK Ltd)
+^ESCTPR819572	Procyclidine 5mg/5ml oral solution sugar free (Kent Pharmaceuticals Ltd)
+^ESCTPR820678	Procyclidine 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTPR821176	Procyclidine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR822441	Procyclidine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR822524	Procyclidine 5mg tablets (Mylan Ltd)
+^ESCTPR828349	Procyclidine 5mg tablets (Sandoz Ltd)
+^ESCTPR833775	Procyclidine 5mg tablets (The Boots Company Plc)
+^ESCTPR834690	Procyclidine 5mg/5ml oral solution sugar free 150 ml
+^ESCTPR836388	Procyclidine 5mg tablets 28 tablet
+^ESCTPR847436	Procyclidine 5mg tablets 500 tablet
+^ESCTPR848137	Procyclidine 5mg tablets 100 tablet
+^ESCTPR848402	Procyclidine 2.5mg/5ml oral solution sugar free 150 ml
+^ESCTPR850903	Procyclidine 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTPR850906	Procyclidine 5mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTPR850908	Procyclidine 5mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTPR850914	Procyclidine 5mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR850923	Procyclidine 5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR850929	Procyclidine 5mg tablets (The Boots Company Plc) 28 tablet
+^ESCTPR850934	Procyclidine 5mg tablets (Mylan Ltd) 28 tablet
+^ESCTPR850940	Procyclidine 5mg tablets (Mylan Ltd) 100 tablet
+^ESCTPR850945	Procyclidine 5mg tablets (Mylan Ltd) 500 tablet
+^ESCTPR850957	Procyclidine 5mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR850973	Procyclidine 5mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTPR850975	Procyclidine 5mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTPR850982	Procyclidine 5mg tablets (Sandoz Ltd) 28 tablet
+^ESCTPR850985	Procyclidine 5mg tablets (Sandoz Ltd) 500 tablet
+^ESCTPR851002	Procyclidine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTPR851006	Procyclidine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTPR851008	Procyclidine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTPR855559	Procyclidine 5mg/5ml oral solution sugar free (Kent Pharmaceuticals Ltd) 150 ml
+^ESCTPR857818	Procyclidine 10mg/2ml solution for injection ampoules 5 ampoule
+^ESCTPR898406	Procyclidine 5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR930163	Procyclidine 5mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTPR930164	Procyclidine 5mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTPR959456	Procyclidine 2.5mg/5ml oral suspension 1 ml
+^ESCTPR959457	Procyclidine 2.5mg/5ml oral suspension (Special Order)
+^ESCTPR959459	Procyclidine 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR959461	Procyclidine 2.5mg/5ml oral solution 1 ml
+^ESCTPR959462	Procyclidine 2.5mg/5ml oral solution (Special Order)
+^ESCTPR959463	Procyclidine 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR959465	Procyclidine 5mg/5ml oral suspension 1 ml
+^ESCTPR959467	Procyclidine 5mg/5ml oral suspension (Special Order)
+^ESCTPR959468	Procyclidine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR959469	Procyclidine 5mg/5ml oral solution 1 ml
+^ESCTPR959470	Procyclidine 5mg/5ml oral solution (Special Order)
+^ESCTPR959471	Procyclidine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR959499	Procyclidine 2.5mg/5ml oral solution
+^ESCTPR959500	Procyclidine 2.5mg/5ml oral suspension
+^ESCTPR959501	Procyclidine 5mg/5ml oral solution
+^ESCTPR959502	Procyclidine 5mg/5ml oral suspension
+^ESCTPR960608	Procyclidine 5mg tablets (Dowelhurst Ltd)
+^ESCTPR960609	Procyclidine 5mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTPR960610	Procyclidine 5mg tablets (Dowelhurst Ltd) 100 tablet
+^ESCTPR960611	Procyclidine 5mg tablets (Dowelhurst Ltd) 500 tablet
+^ESCTPR979132	Procyclidine 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR979133	Procyclidine 5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+ARSY3188	Arpicolin  Oral solution  2.5 mg/5 ml
+ARSY3189	Arpicolin  Oral solution  5 mg/5 ml
+KEIN1558	Kemadrin  Injection  5 mg/ml, 2 ml ampoule
+KETA1559	Kemadrin  Tablets  5 mg
+PRIN2362	Procyclidine Hydrochloride  Solution for injection  5 mg/ml, 2 ml ampoule
+PRSY10664BRIDL	Procyclidine Hydrochloride  Oral Solution, Sugar Free  2.5 mg/5 ml
+PRSY36640MGEMIS	Procyclidine Hydrochloride  Syrup  Sugar Free 5mg/5 ml (Kent Pharm)
+PRSY5339	Procyclidine Hydrochloride  Oral Solution, Sugar Free  5 mg/5 ml
+PRTA2363	Procyclidine Hydrochloride  Tablets  5 mg
+PRTA36701MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (Alpharma)
+PRTA36702MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (Kent Pharm)
+PRTA36703MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (Teva UK)
+PRTA36704MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (Ivax Pharmaceuticals)
+PRTA36705MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (Unichem)
+PRTA36706MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (A.A.H. Pharm)
+PRTA36707MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (Generics (UK))
+PRTA36708MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (Sandoz)
+PRTA36709MGEMIS	Procyclidine Hydrochloride  Tablets  5 mg (The Boots Company)

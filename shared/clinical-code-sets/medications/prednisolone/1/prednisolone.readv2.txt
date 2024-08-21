@@ -1,20 +1,76 @@
-fe61.	PREDNISOLONE 1mg tablets
-fe62.	PREDNISOLONE 5mg tablets
-fe65.	DELTACORTRIL ENTERIC 2.5mg tablets
-fe66.	DELTACORTRIL ENTERIC 5mg tablets
-fe6b.	DELTASTAB 25mg/1mL injection
-fe6h.	PREDNISOLONE 2.5mg e/c tablets
-fe6i.	PREDNISOLONE 5mg e/c tablets
-fe6j.	PREDNISOLONE 5mg soluble tablets
-fe6l.	DILACORT 5mg gastro-resistant tablets
-fe6m.	DILACORT 2.5mg gastro-resistant tablets
-fe6n.	PEVANTI 2.5mg tablets
-fe6o.	PEVANTI 25mg tablets
-fe6p.	PEVANTI 5mg tablets
-fe6q.	PEVANTI 10mg tablets
-fe6r.	PEVANTI 20mg tablets
-fe6s.	PREDNISOLONE 20mg tablets
-fe6t.	PREDNISOLONE 10mg tablets
-fe6v.	PREDNISOLONE 2.5mg tablets
-fe6z.	PREDNISOLONE 25mg tablets
-j44z.	PREDNISOLONE ACETATE 25mg/1mL injection
+fe61.00	PREDNISOLONE 1mg tablets
+fe62.00	PREDNISOLONE 5mg tablets
+fe65.00	DELTACORTRIL ENTERIC 2.5mg tablets
+fe66.00	DELTACORTRIL ENTERIC 5mg tablets
+fe6b.00	DELTASTAB 25mg/1mL injection
+fe6h.00	PREDNISOLONE 2.5mg e/c tablets
+fe6i.00	PREDNISOLONE 5mg e/c tablets
+fe6j.00	PREDNISOLONE 5mg soluble tablets
+fe6l.00	DILACORT 5mg gastro-resistant tablets
+fe6m.00	DILACORT 2.5mg gastro-resistant tablets
+fe6n.00	PEVANTI 2.5mg tablets
+fe6o.00	PEVANTI 25mg tablets
+fe6p.00	PEVANTI 5mg tablets
+fe6q.00	PEVANTI 10mg tablets
+fe6r.00	PEVANTI 20mg tablets
+fe6s.00	PREDNISOLONE 20mg tablets
+fe6t.00	PREDNISOLONE 10mg tablets
+fe6v.00	PREDNISOLONE 2.5mg tablets
+fe6z.00	PREDNISOLONE 25mg tablets
+j44z.00	PREDNISOLONE ACETATE 25mg/1mL injection
+aa4..00	PREDNISOLONE [for preparations see rectal prednisolone]
+ai2..00	RECTAL PREDNISOLONE
+ai2b.00	PREDNISOLONE 20mg/dose rectal foam 25g
+ai2a.00	PREDNISOLONE 20mg/100mL standard tube retention enema
+ai29.00	PREDNISOLONE 20mg/100mL long tube retention enema
+ai28.00	PREDNISOLONE 20mg/dose foam aerosol 20g
+ai27.00	*PREDNISOLONE 5mg suppository
+ai26.00	PREDNISOLONE 20mg/100mL enema
+ai25.00	*PREDFOAM 20mg foam 25g
+ai24.00	*PREDSOL 5mg suppositories
+ai23.00	PREDSOL 20mg/100mL enema
+ai22.00	PREDENEMA long tube enema 20mg/100mL
+ai21.00	PREDENEMA standard tube enema 20mg/100mL
+fe6..00	PREDNISOLONE [ENDOCRINE]
+fe6y.00	PREDNISOLONE 125mg/5mL injection
+fe6w.00	*PREDNISOLONE 2.5mg tablets
+fe6u.00	PREDNISOLONE 32mg/2mL injection
+fe6k.00	PREDNISOLONE 50mg tablets
+fe6g.00	*SINTISONE 5mg tablets
+fe6f.00	*PREDNESOL 5mg tablets
+fe6e.00	PRECORTISYL FORTE 25mg tablets
+fe6d.00	*PRECORTISYL 5mg tablets
+fe6c.00	*PRECORTISYL 1mg tablets
+fe6a.00	*DELTASTAB 5mg tablets
+fe69.00	*DELTASTAB 1mg tablets
+fe68.00	*DELTALONE 5mg tablets
+fe67.00	*DELTALONE 1mg tablets
+fe66.11	DELTACORTRIL GASTRO-RESISTANT 5mg tablets
+fe65.11	DELTACORTRIL GASTRO-RESISTANT 2.5mg tablets
+fe64.00	*DELTA-PHORICOL 5mg tablets
+fe63.00	*CODELSOL 32mg/2mL injection
+j44..00	PREDNISOLONE ACETATE [MUSCULOSKELETAL USE]
+j441.00	DELTASTAB 25mg/1mL injection
+j45..00	PREDNISOLONE SOD PHOS [MUSC-SK]
+j45z.00	PREDNISOLONE 32mg/2mL injection
+j451.00	*CODELSON 32mg/2mL injection
+k68..00	PREDNISOLONE SOD PHOS [EYE]
+k68z.00	PREDNISOLONE 0.5% eye drops
+k68y.00	*PREDNISOLONE eye drops
+k684.00	*PREDSOL N eye drops 10mL
+k683.00	PREDSOL 0.5% eye drops 10mL
+k682.00	*PREDSOL 0.5% eye drops 5mL
+k681.00	MINIMS PREDNISOLONE 0.5% single-use eye drops 0.5mL
+k6a..00	PREDNISOLONE ACETATE [EYE]
+k6a4.00	PRED FORTE 1% eye drops 10mL
+k6a3.00	PRED FORTE 1% eye drops 5mL
+k6a2.00	PREDNISOLONE ACET 1% eye drops 10mL
+k6a1.00	PREDNISOLONE ACET 1% eye drops 5mL
+l22..00	PREDNISOLONE SODIUM PHOSPHATE [EAR]
+l22z.00	*PREDNISOLONE 0.5% ear drops
+l22y.00	PREDNISOLONE 0.5% ear drops
+l222.00	PREDSOL 0.5% ear drops 10mL
+l221.00	*PREDSOL ear drops 5mL
+l365.00	*PREDSOL N ear drops 5mL
+l366.00	*PREDSOL N ear drops 10mL
+aj1d.00	SCHERIPROCT suppositories
