@@ -1,0 +1,13 @@
+bs1..00	WARFARIN SODIUM
+bs1C.00	WARFARIN SODIUM 1mg/1mL oral suspension
+bs1B.00	MAREVAN 0.5mg tablets
+bs1A.00	WARFARIN SODIUM 0.5mg tablets
+bs19.00	WARFARIN SODIUM 5mg tablets
+bs18.00	WARFARIN SODIUM 3mg tablets
+bs17.00	WARFARIN SODIUM 1mg tablets
+bs16.00	*WARFARIN WBP 5mg tablets
+bs15.00	*WARFARIN WBP 3mg tablets
+bs14.00	*WARFARIN WBP 1mg tablets
+bs13.00	MAREVAN 5mg tablets
+bs12.00	MAREVAN 3mg tablets
+bs11.00	MAREVAN 1mg tablets

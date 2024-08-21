@@ -1,0 +1,228 @@
+^ESCT1178656	Trihexyphenidyl 2mg tablets (Thornton & Ross Ltd)
+^ESCT1179599	Trihexyphenidyl 2mg tablets (Thornton & Ross Ltd) 84 tablet
+^ESCT1181694	Product containing only benzhexol hydrochloride 5 mg/1 each oral tablet
+^ESCT1181995	Product containing only benzhexol hydrochloride 2 mg/1 each oral tablet
+^ESCT1183508	Trihexyphenidyl 5mg tablets (Thornton & Ross Ltd) 84 tablet
+^ESCT1184281	Trihexyphenidyl 5mg tablets (Thornton & Ross Ltd)
+^ESCT1199573	Trihexyphenidyl 2mg tablets (Genus Pharmaceuticals Ltd)
+^ESCT1199595	Trihexyphenidyl 5mg tablets (Genus Pharmaceuticals Ltd) 84 tablet
+^ESCT1199615	Trihexyphenidyl 5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCT1199629	Trihexyphenidyl 2mg tablets (Genus Pharmaceuticals Ltd) 84 tablet
+^ESCT1203678	Trihexyphenidyl hydrochloride 5mg prolonged-release oral capsule
+^ESCT1204476	Benzhexol 2mg/5mL conventional release oral solution
+^ESCT1206512	Trihexyphenidyl in oral dosage form
+^ESCT1206513	Product containing trihexyphenidyl in oral dosage form
+^ESCT1208426	Trihexyphenidyl hydrochloride 1 mg/mL oral solution
+^ESCT1208427	Product containing precisely trihexyphenidyl hydrochloride 1 milligram/1 milliliter conventional release oral solution
+^ESCT1216106	Trihexyphenidyl 5mg/5ml oral solution
+^ESCT1216507	Trihexyphenidyl
+^ESCT1216508	Trihexyphenidyl product
+^ESCT1223996	Trihexyphenidyl hydrochloride 2 mg oral tablet
+^ESCT1223997	Product containing precisely trihexyphenidyl hydrochloride 2 milligram/1 each conventional release oral tablet
+^ESCT1223998	Product containing precisely trihexyphenidyl hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1223999	Trihexyphenidyl hydrochloride 5 mg oral tablet
+^ESCT1259672	Trihexyphenidyl 8mg/5ml oral solution 1 ml
+^ESCT1259673	Trihexyphenidyl 8mg/5ml oral solution (Special Order)
+^ESCT1259674	Trihexyphenidyl 8mg/5ml oral solution (Special Order) 1 ml
+^ESCT1259944	Trihexyphenidyl 8mg/5ml oral solution
+^ESCT1275761	Trihexyphenidyl 5mg/5ml oral solution (DE Pharmaceuticals)
+^ESCT1275766	Trihexyphenidyl 5mg/5ml oral solution (DE Pharmaceuticals) 200 ml
+^ESCT1357064	Trihexyphenidyl only product
+^ESCT1360116	Trihexyphenidyl only product in oral dose form
+^ESCT1386314	Trihexyphenidyl-containing product in oral dose form
+^ESCT1389066	Trihexyphenidyl 5mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+^ESCT1389067	Trihexyphenidyl 5mg/5ml syrup (Rosemont Pharmaceuticals Ltd) 200 ml
+^ESCT1410996	Trihexyphenidyl 2mg tablets (Accord Healthcare Ltd)
+^ESCT1410997	Trihexyphenidyl 2mg tablets (Accord Healthcare Ltd) 84 tablet
+^ESCT1410998	Trihexyphenidyl 5mg tablets (Accord Healthcare Ltd)
+^ESCT1410999	Trihexyphenidyl 5mg tablets (Accord Healthcare Ltd) 84 tablet
+^ESCT1425634	Trihexyphenidyl 2mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425657	Trihexyphenidyl 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426351	Trihexyphenidyl 2mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426352	Trihexyphenidyl 5mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1429712	Trihexyphenidyl 5mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1429713	Trihexyphenidyl 5mg/5ml oral solution (Medihealth (Northern) Ltd) 200 ml
+^ESCT1436480	Trihexyphenidyl 2mg/5ml oral suspension 300 ml
+^ESCT1436481	Trihexyphenidyl 2mg/5ml oral suspension (Drug Tariff Special Order) 300 ml
+^ESCT1437878	Trihexyphenidyl 2mg/5ml oral solution (Drug Tariff Special Order)
+^ESCT1437879	Trihexyphenidyl 2mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCT1437880	Trihexyphenidyl 2mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1437881	Trihexyphenidyl 2mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1438479	Trihexyphenidyl 2mg/5ml oral solution (Drug Tariff Special Order) 200 ml
+^ESCT1438480	Trihexyphenidyl 2mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTAG825507	Agitane 2mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAG829737	Agitane 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAG854274	Agitane 2mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTAG854281	Agitane 5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTAG913668	Agitane
+^ESCTBE610929	Benzhexol 2mg/5mL s/f oral solution
+^ESCTBE610932	Benzhexol hydrochloride 2 mg oral tablet
+^ESCTBE610935	Benzhexol hydrochloride 5 mg oral tablet
+^ESCTBE610937	Benzhexol hydrochloride 5mg/5mL syrup
+^ESCTBR864453	Broflex 5mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+^ESCTBR864455	Broflex 5mg/5ml syrup (Rosemont Pharmaceuticals Ltd) 200 ml
+^ESCTBR914161	Broflex
+^ESCTPR253388	Product containing trihexyphenidyl
+^ESCTPR610931	Product containing benzhexol hydrochloride 2 mg/1 each oral tablet
+^ESCTPR610934	Product containing benzhexol hydrochloride 5 mg/1 each oral tablet
+^ESCTTR1002848	Trihexyphenidyl 2mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTTR1002850	Trihexyphenidyl 5mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTTR1005400	Trihexyphenidyl 2mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005401	Trihexyphenidyl 2mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTTR1005402	Trihexyphenidyl 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005403	Trihexyphenidyl 5mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTTR1005404	Trihexyphenidyl 5mg tablets (Phoenix Healthcare Distribution Ltd) 100 tablet
+^ESCTTR1005718	Trihexyphenidyl 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR1005719	Trihexyphenidyl 2mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTTR1005720	Trihexyphenidyl 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR1005721	Trihexyphenidyl 5mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTTR1026097	Trihexyphenidyl 5mg tablets (Crescent Pharma Ltd)
+^ESCTTR1026098	Trihexyphenidyl 5mg tablets (Crescent Pharma Ltd) 84 tablet
+^ESCTTR1026099	Trihexyphenidyl 2mg tablets (Crescent Pharma Ltd)
+^ESCTTR1026100	Trihexyphenidyl 2mg tablets (Crescent Pharma Ltd) 84 tablet
+^ESCTTR1042501	Trihexyphenidyl 2mg tablets (Waymade Healthcare Plc)
+^ESCTTR1042502	Trihexyphenidyl 2mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTTR1042503	Trihexyphenidyl 5mg tablets (Waymade Healthcare Plc)
+^ESCTTR1042504	Trihexyphenidyl 5mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTTR1049147	Trihexyphenidyl 2mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCTTR1049148	Trihexyphenidyl 5mg tablets (DE Pharmaceuticals)
+^ESCTTR1049150	Trihexyphenidyl 5mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCTTR1056481	Trihexyphenidyl 2mg/5ml oral solution 200 ml
+^ESCTTR1056482	Trihexyphenidyl 2mg/5ml oral solution (Special Order) 200 ml
+^ESCTTR1056483	Trihexyphenidyl 2mg/5ml oral suspension 100 ml
+^ESCTTR1056484	Trihexyphenidyl 2mg/5ml oral suspension (Special Order) 100 ml
+^ESCTTR1056558	Trihexyphenidyl 5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTTR1056559	Trihexyphenidyl 5mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 200 ml
+^ESCTTR1057214	Trihexyphenidyl 5mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR1057215	Trihexyphenidyl 5mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 200 ml
+^ESCTTR1058723	Trihexyphenidyl 5mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTTR1058725	Trihexyphenidyl 5mg/5ml oral solution (A A H Pharmaceuticals Ltd) 200 ml
+^ESCTTR1127799	Trihexyphenidyl 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTR1127800	Trihexyphenidyl 2mg tablets (Mawdsley-Brooks & Company Ltd) 84 tablet
+^ESCTTR1127801	Trihexyphenidyl 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTR1127802	Trihexyphenidyl 5mg tablets (Mawdsley-Brooks & Company Ltd) 84 tablet
+^ESCTTR1144084	Trihexyphenidyl 10mg/5ml oral solution 1 ml
+^ESCTTR1144085	Trihexyphenidyl 10mg/5ml oral solution (Special Order)
+^ESCTTR1144086	Trihexyphenidyl 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR1144089	Trihexyphenidyl 10mg/5ml oral suspension 1 ml
+^ESCTTR1144090	Trihexyphenidyl 10mg/5ml oral suspension (Special Order)
+^ESCTTR1144091	Trihexyphenidyl 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR1144176	Trihexyphenidyl 10mg/5ml oral solution
+^ESCTTR1144177	Trihexyphenidyl 10mg/5ml oral suspension
+^ESCTTR1145590	Trihexyphenidyl 2mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTTR1145591	Trihexyphenidyl 2mg tablets (Genesis Pharmaceuticals Ltd) 84 tablet
+^ESCTTR1145594	Trihexyphenidyl 5mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTTR1145595	Trihexyphenidyl 5mg tablets (Genesis Pharmaceuticals Ltd) 84 tablet
+^ESCTTR253387	Trihexyphenidyl
+^ESCTTR610930	Trihexyphenidyl 2mg tablets
+^ESCTTR610933	Trihexyphenidyl 5mg tablets
+^ESCTTR610936	Trihexyphenidyl 5mg/5ml oral solution
+^ESCTTR645055	Trihexyphenidyl hydrochloride 5mg m/r capsule
+^ESCTTR803527	Trihexyphenidyl 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR808221	Trihexyphenidyl 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR808864	Trihexyphenidyl 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR811407	Trihexyphenidyl 2mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTR813659	Trihexyphenidyl 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTR815570	Trihexyphenidyl 2mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTTR820290	Trihexyphenidyl 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR822955	Trihexyphenidyl 5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTTR842602	Trihexyphenidyl 5mg tablets 84 tablet
+^ESCTTR847882	Trihexyphenidyl 5mg tablets 100 tablet
+^ESCTTR848685	Trihexyphenidyl 2mg tablets 100 tablet
+^ESCTTR848756	Trihexyphenidyl 2mg tablets 84 tablet
+^ESCTTR854269	Trihexyphenidyl 2mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTTR854270	Trihexyphenidyl 2mg tablets (A A H Pharmaceuticals Ltd) 84 tablet
+^ESCTTR854271	Trihexyphenidyl 2mg tablets (Genus Pharmaceuticals Ltd) 84 tablet
+^ESCTTR854272	Trihexyphenidyl 2mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTTR854275	Trihexyphenidyl 2mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTTR854276	Trihexyphenidyl 2mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTTR854277	Trihexyphenidyl 5mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTTR854278	Trihexyphenidyl 5mg tablets (A A H Pharmaceuticals Ltd) 84 tablet
+^ESCTTR854279	Trihexyphenidyl 5mg tablets (Genus Pharmaceuticals Ltd) 84 tablet
+^ESCTTR854280	Trihexyphenidyl 5mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTTR854282	Trihexyphenidyl 5mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTTR854283	Trihexyphenidyl 5mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTTR864451	Trihexyphenidyl 5mg/5ml oral solution 200 ml
+^ESCTTR867876	Trihexyphenidyl 2mg tablets (Teva UK Ltd)
+^ESCTTR867877	Trihexyphenidyl 2mg tablets (Teva UK Ltd) 100 tablet
+^ESCTTR867878	Trihexyphenidyl 5mg tablets (Teva UK Ltd)
+^ESCTTR867879	Trihexyphenidyl 5mg tablets (Teva UK Ltd) 100 tablet
+^ESCTTR909069	Trihexyphenidyl 2mg/5ml oral solution 1 ml
+^ESCTTR909070	Trihexyphenidyl 2mg/5ml oral solution (Special Order)
+^ESCTTR909078	Trihexyphenidyl 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR909082	Trihexyphenidyl 2mg/5ml oral suspension 1 ml
+^ESCTTR909092	Trihexyphenidyl 2mg/5ml oral suspension (Special Order)
+^ESCTTR909094	Trihexyphenidyl 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR909712	Trihexyphenidyl 2mg/5ml oral solution
+^ESCTTR909713	Trihexyphenidyl 2mg/5ml oral suspension
+^ESCTTR935268	Trihexyphenidyl 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTTR935270	Trihexyphenidyl 5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTTR935272	Trihexyphenidyl 2mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTTR935274	Trihexyphenidyl 2mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTTR959968	Trihexyphenidyl 2mg tablets (Dowelhurst Ltd)
+^ESCTTR959970	Trihexyphenidyl 2mg tablets (Dowelhurst Ltd) 84 tablet
+^ESCTTR959971	Trihexyphenidyl 2mg tablets (Dowelhurst Ltd) 100 tablet
+^ESCTTR959972	Trihexyphenidyl 5mg tablets (Dowelhurst Ltd)
+^ESCTTR959973	Trihexyphenidyl 5mg tablets (Dowelhurst Ltd) 100 tablet
+^ESCTTR959974	Trihexyphenidyl 5mg tablets (Dowelhurst Ltd) 84 tablet
+^ESCTTR961586	Trihexyphenidyl 1mg/5ml oral suspension 1 ml
+^ESCTTR961587	Trihexyphenidyl 1mg/5ml oral suspension (Special Order)
+^ESCTTR961588	Trihexyphenidyl 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR961589	Trihexyphenidyl 500micrograms/5ml oral suspension 1 ml
+^ESCTTR961590	Trihexyphenidyl 500micrograms/5ml oral suspension (Special Order)
+^ESCTTR961591	Trihexyphenidyl 500micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTTR961592	Trihexyphenidyl 5mg/5ml oral suspension 1 ml
+^ESCTTR961593	Trihexyphenidyl 5mg/5ml oral suspension (Special Order)
+^ESCTTR961594	Trihexyphenidyl 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR961595	Trihexyphenidyl 1mg/5ml oral solution 1 ml
+^ESCTTR961596	Trihexyphenidyl 1mg/5ml oral solution (Special Order)
+^ESCTTR961597	Trihexyphenidyl 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR961598	Trihexyphenidyl 500micrograms/5ml oral solution 1 ml
+^ESCTTR961599	Trihexyphenidyl 500micrograms/5ml oral solution (Special Order)
+^ESCTTR961600	Trihexyphenidyl 500micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTTR961730	Trihexyphenidyl 1mg/5ml oral solution
+^ESCTTR961731	Trihexyphenidyl 1mg/5ml oral suspension
+^ESCTTR961732	Trihexyphenidyl 500micrograms/5ml oral solution
+^ESCTTR961733	Trihexyphenidyl 500micrograms/5ml oral suspension
+^ESCTTR961734	Trihexyphenidyl 5mg/5ml oral suspension
+^ESCTTR963896	Trihexyphenidyl 2mg tablets (DE Pharmaceuticals)
+^ESCTTR963897	Trihexyphenidyl 2mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTTR979338	Trihexyphenidyl 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR979339	Trihexyphenidyl 2mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTTR979342	Trihexyphenidyl 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR979344	Trihexyphenidyl 5mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTTR981612	Trihexyphenidyl 2mg tablets (Actavis UK Ltd)
+^ESCTTR981613	Trihexyphenidyl 2mg tablets (Actavis UK Ltd) 84 tablet
+^ESCTTR981614	Trihexyphenidyl 5mg tablets (Actavis UK Ltd)
+^ESCTTR981615	Trihexyphenidyl 5mg tablets (Actavis UK Ltd) 84 tablet
+^ESCTTR991838	Trihexyphenidyl 2mg tablets (Waymade Healthcare Plc)
+^ESCTTR991839	Trihexyphenidyl 2mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTTR991840	Trihexyphenidyl 5mg tablets (Waymade Healthcare Plc)
+^ESCTTR991841	Trihexyphenidyl 5mg tablets (Waymade Healthcare Plc) 100 tablet
+AGTA15946NEMIS	Agitane  Tablets  2 mg
+AGTA15947NEMIS	Agitane  Tablets  5 mg
+ARCA3195	Artane Sustets  Capsules  5 mg
+ARTA3193	Artane  Tablets  2 mg
+ARTA3194	Artane  Tablets  5 mg
+BESY4632	Benzhexol Hydrochloride  Syrup  5mg/5 ml
+BETA3223	Bentex  Tablets  2 mg
+BETA3224	Bentex  Tablets  5 mg
+BETA4633	Benzhexol Hydrochloride  Tablets  2 mg
+BETA6789	Benzhexol Hydrochloride  Tablets  5 mg
+BRSY3259	Broflex  Syrup  5mg/5 ml
+TROR133091NEMIS	Trihexyphenidyl  Oral suspension  5 mg/5 ml
+TROR29018NEMIS	Trihexyphenidyl  Oral solution  2 mg/5 ml
+TROR85794NEMIS	Trihexyphenidyl  Oral suspension  2 mg/5 ml
+TRSY17308NEMIS	Trihexyphenidyl  Oral solution  5 mg/5 ml
+TRTA17309NEMIS	Trihexyphenidyl  Tablets  2 mg
+TRTA17310NEMIS	Trihexyphenidyl  Tablets  5 mg
+TRTA37875MGEMIS	Trihexyphenidyl  Tablets  2 mg (A.A.H. Pharm)
+TRTA37876MGEMIS	Trihexyphenidyl  Tablets  2 mg (Kent Pharm)
+TRTA37877MGEMIS	Trihexyphenidyl  Tablets  2 mg (Genus Pharm)
+TRTA37878MGEMIS	Trihexyphenidyl  Tablets  2 mg (Unichem)
+TRTA37879MGEMIS	Trihexyphenidyl  Tablets  2 mg (Teva UK)
+TRTA37880MGEMIS	Trihexyphenidyl  Tablets  5 mg (A.A.H. Pharm)
+TRTA37881MGEMIS	Trihexyphenidyl  Tablets  5 mg (Unichem)
+TRTA37882MGEMIS	Trihexyphenidyl  Tablets  5 mg (Kent Pharm)
+TRTA37883MGEMIS	Trihexyphenidyl  Tablets  5 mg (Genus Pharm)
+TRTA37884MGEMIS	Trihexyphenidyl  Tablets  5 mg (Teva UK)

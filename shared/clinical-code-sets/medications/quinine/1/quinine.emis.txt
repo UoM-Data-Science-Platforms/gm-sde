@@ -1,0 +1,449 @@
+^ESCT1179583	Quinine bisulfate 300mg tablets (Mylan) 500 tablet
+^ESCT1181335	Product containing only quinine sulfate 260 mg/1 each oral tablet
+^ESCT1181789	Product containing only quinine bisulfate 300 mg/1 each oral tablet
+^ESCT1182100	Product containing only quinine dihydrochloride 300 mg/1 each oral tablet
+^ESCT1182101	Product containing only quinine sulfate 300 mg/1 each oral tablet
+^ESCT1183469	Quinine bisulfate 300mg tablets (Mylan) 28 tablet
+^ESCT1184266	Quinine bisulfate 300mg tablets (Mylan)
+^ESCT1185095	Product containing only quinine sulfate 324 mg/1 each oral capsule
+^ESCT1185624	Quinine sulfate 300mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1185688	Quinine sulfate 300mg tablets (Mylan) 500 tablet
+^ESCT1187435	Product containing only quinine sulfate 325 mg/1 each oral capsule
+^ESCT1187436	Product containing only quinine sulfate 200 mg/1 each oral capsule
+^ESCT1188178	Product containing only quinine hydrochloride 300 mg/1 each oral tablet
+^ESCT1188179	Product containing only quinine sulfate 200 mg/1 each oral tablet
+^ESCT1189474	Quinine sulfate 300mg tablets (Mylan)
+^ESCT1210075	Quinine dihydrochloride 300 mg/mL solution for infusion ampoule
+^ESCT1210076	Product containing precisely quinine dihydrochloride 300 milligram/1 milliliter conventional release solution for infusion ampule
+^ESCT1210077	Quinine dihydrochloride 300 mg/mL solution for infusion ampule
+^ESCT1212406	Quinine dihydrochloride 300mg/1ml solution for infusion ampoules
+^ESCT1218428	Quinine
+^ESCT1218429	Quinine product
+^ESCT1224560	Product containing precisely quinine bisulfate 300 milligram/1 each conventional release oral tablet
+^ESCT1224561	Product containing precisely quinine dihydrochloride 300 milligram/1 each conventional release oral tablet
+^ESCT1224562	Product containing precisely quinine hydrochloride 300 milligram/1 each conventional release oral tablet
+^ESCT1224563	Product containing precisely quinine sulfate 200 milligram/1 each conventional release oral tablet
+^ESCT1224564	Product containing precisely quinine sulfate 300 milligram/1 each conventional release oral tablet
+^ESCT1227602	Quinine sulfate 325 mg/1 each oral capsule
+^ESCT1227603	Product containing precisely quinine sulfate 325 milligram/1 each conventional release oral capsule
+^ESCT1227604	Quinine sulfate 325 mg oral capsule
+^ESCT1227605	Product containing precisely quinine sulfate 260 milligram/1 each conventional release oral tablet
+^ESCT1227606	Quinine sulfate 200 mg/1 each oral capsule
+^ESCT1227607	Quinine sulfate 200 mg oral capsule
+^ESCT1227608	Product containing precisely quinine sulfate 200 milligram/1 each conventional release oral capsule
+^ESCT1234652	Quinine sulfate 324 mg/1 each oral capsule
+^ESCT1234653	Product containing precisely quinine sulfate 324 milligram/1 each conventional release oral capsule
+^ESCT1234654	Quinine sulfate 324 mg oral capsule
+^ESCT1258431	Quinine bisulfate 300mg tablets (Strides Pharma UK Ltd)
+^ESCT1258432	Quinine bisulfate 300mg tablets (Strides Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1258433	Quinine sulfate 300mg tablets (Strides Pharma UK Ltd)
+^ESCT1258434	Quinine sulfate 300mg tablets (Strides Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1264698	Quinine bisulfate 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264699	Quinine bisulfate 300mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264700	Quinine sulfate 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264701	Quinine sulfate 200mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264702	Quinine sulfate 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264703	Quinine sulfate 300mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1271070	Quinine dihydrochloride 600mg/10ml solution for injection vials 10 vial
+^ESCT1271071	Quinine dihydrochloride 600mg/10ml concentrate for solution for injection vials (Imported (Australia))
+^ESCT1271072	Quinine dihydrochloride 600mg/10ml concentrate for solution for injection vials (Imported (Australia)) 10 vial
+^ESCT1271089	Quinine dihydrochloride 600mg/10ml solution for injection vials
+^ESCT1356570	Quinine only product
+^ESCT1359716	Quinine only product in oral dose form
+^ESCT1359717	Quinine only product in parenteral dose form
+^ESCT1361274	Quinine dihydrochloride 300 mg/mL solution for infusion
+^ESCT1364199	Quinine 300 mg/mL solution for injection
+^ESCT1367381	Quinine dihydrochloride 600mg/2ml solution for infusion ampoules
+^ESCT1374370	Quinine dihydrochloride 300mg/1ml solution for infusion ampoules
+^ESCT1377222	Quinine-containing product
+^ESCT1384970	Quinine-containing product in oral dose form
+^ESCT1384971	Quinine-containing product in parenteral dose form
+^ESCT1403051	Quinine sulfate 300mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1403052	Quinine sulfate 300mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1403053	Quinine sulfate 200mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1403055	Quinine sulfate 200mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1403674	Quinine bisulfate 300mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403675	Quinine bisulfate 300mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403676	Quinine sulfate 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403677	Quinine sulfate 200mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403678	Quinine sulfate 300mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403680	Quinine sulfate 300mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1409687	Quinine sulfate 200mg tablets (Accord Healthcare Ltd)
+^ESCT1409747	Quinine sulfate 300mg tablets (Accord Healthcare Ltd)
+^ESCT1409870	Quinine sulfate 200mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1409871	Quinine sulfate 300mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1424935	Quinine dihydrochloride 600mg/2ml solution for infusion ampoules
+^ESCT1425517	Quinine sulfate 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425710	Quinine sulfate 300mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425838	Quinine bisulfate 300mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426159	Quinine sulfate 200mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426164	Quinine sulfate 300mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426165	Quinine sulfate 300mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1426209	Quinine bisulfate 300mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426229	Quinine bisulfate 300mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1426798	Quinine bisulfate 300mg tablets sugar coated (Kent Pharma (UK) Ltd)
+^ESCT1426799	Quinine bisulfate 300mg tablets sugar coated (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1436946	Quinine sulfate 300mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436973	Quinine bisulfate 300mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437275	Quinine sulfate 300mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437302	Quinine bisulfate 300mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1437325	Quinine bisulfate 300mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCT1437326	Quinine sulfate 300mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCTPR326098	Product containing quinine
+^ESCTPR612304	Product containing quinine bisulfate 300 mg/1 each oral tablet
+^ESCTPR612308	Product containing quinine dihydrochloride 300 mg/1 each oral tablet
+^ESCTPR612310	Product containing quinine hydrochloride 300 mg/1 each oral tablet
+^ESCTPR612312	Product containing quinine sulfate 200 mg/1 each oral tablet
+^ESCTPR612316	Product containing quinine sulfate 300 mg/1 each oral tablet
+^ESCTPR635941	Product containing quinine sulfate 325 mg/1 each oral capsule
+^ESCTPR635943	Product containing quinine sulfate 260 mg/1 each oral tablet
+^ESCTPR635945	Product containing quinine sulfate 200 mg/1 each oral capsule
+^ESCTPR708720	Product containing quinine sulfate 324 mg/1 each oral capsule
+^ESCTPR771632	Product containing quinine in oral dosage form
+^ESCTPR771634	Product containing quinine in parenteral dosage form
+^ESCTQU1005914	Quinine bisulfate 300mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTQU1005915	Quinine bisulfate 300mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTQU1005916	Quinine sulfate 200mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTQU1005917	Quinine sulfate 200mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTQU1005918	Quinine sulfate 300mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTQU1005919	Quinine sulfate 300mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTQU1006337	Quinine bisulfate 300mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTQU1006338	Quinine bisulfate 300mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTQU1009257	Quinine bisulfate 300mg tablets (Strides Shasun (UK) Ltd)
+^ESCTQU1009258	Quinine bisulfate 300mg tablets (Strides Shasun (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU1009259	Quinine sulfate 300mg tablets (Strides Shasun (UK) Ltd)
+^ESCTQU1009261	Quinine sulfate 300mg tablets (Strides Shasun (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU1011772	Quinine sulfate 300mg tablets (Bristol Laboratories Ltd)
+^ESCTQU1011773	Quinine sulfate 300mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCTQU1011774	Quinine sulfate 300mg tablets (Bristol Laboratories Ltd) 500 tablet
+^ESCTQU1027355	Quinine dihydrochloride 600mg/2ml solution for infusion ampoules 10 ampoule
+^ESCTQU1027356	Quinine dihydrochloride 600mg/2ml concentrate for solution for infusion ampoules (Special Order) 10 ampoule
+^ESCTQU1027358	Quinine dihydrochloride 300mg/1ml solution for infusion ampoules 10 ampoule
+^ESCTQU1027359	Quinine dihydrochloride 300mg/1ml concentrate for solution for infusion ampoules (Special Order) 10 ampoule
+^ESCTQU1027361	Quinine sulfate 300mg/5ml oral suspension 100 ml
+^ESCTQU1027362	Quinine sulfate 300mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTQU1027363	Quinine sulfate 200mg/5ml oral suspension 100 ml
+^ESCTQU1027364	Quinine sulfate 200mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTQU1034644	Quinine dihydrochloride 300mg capsules
+^ESCTQU1034645	Quinine dihydrochloride 300mg capsules 1 capsule
+^ESCTQU1034647	Quinine dihydrochloride 300mg capsules 60 capsule
+^ESCTQU1034648	Quinine dihydrochloride 300mg capsules (Special Order)
+^ESCTQU1034649	Quinine dihydrochloride 300mg capsules (Special Order) 1 capsule
+^ESCTQU1034650	Quinine dihydrochloride 300mg capsules (Special Order) 60 capsule
+^ESCTQU1034651	Quinine dihydrochloride 610mg/500ml solution for infusion bottles
+^ESCTQU1034652	Quinine dihydrochloride 610mg/500ml solution for infusion bottles 1 bottle
+^ESCTQU1034653	Quinine dihydrochloride 610mg/500ml solution for infusion bottles (Special Order)
+^ESCTQU1034654	Quinine dihydrochloride 610mg/500ml solution for infusion bottles (Special Order) 1 bottle
+^ESCTQU1042338	Quinine bisulfate 300mg tablets (Waymade Healthcare Plc)
+^ESCTQU1042339	Quinine bisulfate 300mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTQU1042340	Quinine sulfate 200mg tablets (Waymade Healthcare Plc)
+^ESCTQU1042341	Quinine sulfate 200mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTQU1042342	Quinine sulfate 300mg tablets (Waymade Healthcare Plc)
+^ESCTQU1042343	Quinine sulfate 300mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTQU1045589	Quinine dihydrochloride 300mg/10ml solution for infusion ampoules
+^ESCTQU1045590	Quinine dihydrochloride 300mg/10ml solution for infusion ampoules 1 ampoule
+^ESCTQU1045591	Quinine dihydrochloride 300mg/10ml solution for infusion ampoules 5 ampoule
+^ESCTQU1045592	Quinine dihydrochloride 300mg/10ml solution for infusion ampoules (Special Order)
+^ESCTQU1045593	Quinine dihydrochloride 300mg/10ml solution for infusion ampoules (Special Order) 1 ampoule
+^ESCTQU1045594	Quinine dihydrochloride 300mg/10ml solution for infusion ampoules (Special Order) 5 ampoule
+^ESCTQU1066333	Quinine sulfate 300mg/5ml oral suspension 150 ml
+^ESCTQU1066334	Quinine sulfate 300mg/5ml oral suspension (Drug Tariff Special Order) 150 ml
+^ESCTQU1119664	Quinine bisulfate 300mg tablets (DE Pharmaceuticals)
+^ESCTQU1119665	Quinine bisulfate 300mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTQU1119673	Quinine sulfate 200mg tablets (DE Pharmaceuticals)
+^ESCTQU1119674	Quinine sulfate 200mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTQU1119675	Quinine sulfate 300mg tablets (DE Pharmaceuticals)
+^ESCTQU1119676	Quinine sulfate 300mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTQU326097	Quinine
+^ESCTQU612303	Quinine bisulfate 300mg tablets
+^ESCTQU612305	Quinine bisulfate 300 mg oral tablet
+^ESCTQU612306	Quinine bisulphate 300mg tablets
+^ESCTQU612307	Quinine dihydrochloride 300 mg oral tablet
+^ESCTQU612309	Quinine hydrochloride 300 mg oral tablet
+^ESCTQU612311	Quinine sulfate 200mg tablets
+^ESCTQU612313	Quinine sulfate 200 mg oral tablet
+^ESCTQU612314	Quinine sulphate 200mg tablets
+^ESCTQU612315	Quinine sulfate 300mg tablets
+^ESCTQU612317	Quinine sulfate 300 mg oral tablet
+^ESCTQU612318	Quinine sulphate 300mg tablets
+^ESCTQU612319	Quinine dihydrochloride 300mg/1ml solution for infusion ampoules
+^ESCTQU612320	Quinine dihydrochloride 300mg/1mL infusion solution 1mL ampoule
+^ESCTQU612321	Quinine dihydrochloride 300mg/1mL infusion solution 1mL ampule
+^ESCTQU612322	Quinine dihydrochloride 600mg/2ml solution for infusion ampoules
+^ESCTQU612323	Quinine dihydrochloride 300mg/mL infusion solution 2mL ampoule
+^ESCTQU612324	Quinine dihydrochloride 300mg/mL infusion solution 2mL ampule
+^ESCTQU635940	Quinine sulfate 325 mg/1 each oral capsule
+^ESCTQU635942	Quinine sulfate 260 mg oral tablet
+^ESCTQU635944	Quinine sulfate 200 mg/1 each oral capsule
+^ESCTQU708719	Quinine sulfate 324 mg/1 each oral capsule
+^ESCTQU771631	Quinine in oral dosage form
+^ESCTQU771633	Quinine in parenteral dosage form
+^ESCTQU802369	Quinine sulfate 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTQU803213	Quinine sulfate 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTQU803753	Quinine bisulfate 300mg tablets (Teva UK Ltd)
+^ESCTQU804135	Quinine bisulfate 300mg tablets (The Boots Company Plc)
+^ESCTQU810757	Quinine bisulfate 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTQU811426	Quinine bisulfate 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTQU819002	Quinine sulfate 300mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTQU819805	Quinine sulfate 300mg tablets (Mylan Ltd)
+^ESCTQU820176	Quinine sulfate 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTQU820368	Quinine bisulfate 300mg tablets (Mylan Ltd)
+^ESCTQU820402	Quinine sulfate 200mg tablets (Actavis UK Ltd)
+^ESCTQU821313	Quinine sulfate 300mg tablets (Wockhardt UK Ltd)
+^ESCTQU824331	Quinine sulfate 200mg tablets (Teva UK Ltd)
+^ESCTQU824333	Quinine bisulfate 300mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTQU824529	Quinine sulfate 300mg tablets (Actavis UK Ltd)
+^ESCTQU829750	Quinine sulfate 300mg tablets (Teva UK Ltd)
+^ESCTQU829778	Quinine sulfate 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTQU830918	Quinine sulfate 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTQU839921	Quinine bisulfate 300mg tablets 28 tablet
+^ESCTQU846632	Quinine sulfate 300mg tablets 28 tablet
+^ESCTQU846791	Quinine sulfate 200mg tablets 28 tablet
+^ESCTQU846955	Quinine sulfate 300mg tablets 500 tablet
+^ESCTQU847216	Quinine bisulfate 300mg tablets 500 tablet
+^ESCTQU847248	Quinine bisulfate 300mg tablets 100 tablet
+^ESCTQU850915	Quinine sulfate 200mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU850920	Quinine sulfate 200mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTQU850926	Quinine sulfate 200mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU850937	Quinine sulfate 200mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU850942	Quinine sulfate 200mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU850951	Quinine sulfate 300mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU850952	Quinine sulfate 300mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTQU850956	Quinine sulfate 300mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU850960	Quinine sulfate 300mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU850961	Quinine sulfate 300mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU850963	Quinine sulfate 300mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU850965	Quinine sulfate 300mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU850966	Quinine sulfate 300mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTQU850968	Quinine sulfate 300mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU850969	Quinine sulfate 300mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTQU851281	Quinine bisulfate 300mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU851282	Quinine bisulfate 300mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTQU851291	Quinine bisulfate 300mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU851305	Quinine bisulfate 300mg tablets (The Boots Company Plc) 100 tablet
+^ESCTQU851320	Quinine bisulfate 300mg tablets (Mylan Ltd) 28 tablet
+^ESCTQU851325	Quinine bisulfate 300mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTQU851332	Quinine bisulfate 300mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTQU851337	Quinine bisulfate 300mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTQU851507	Quinine bisulfate 300mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTQU852889	Quinine bisulfate 300mg tablets (Mylan Ltd) 500 tablet
+^ESCTQU852890	Quinine sulfate 300mg tablets (Mylan Ltd) 500 tablet
+^ESCTQU868402	Quinine bisulfate 300mg tablets (Actavis UK Ltd)
+^ESCTQU868403	Quinine bisulfate 300mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU873490	Quinine sulfate 300mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTQU873493	Quinine sulfate 300mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU887788	Quinine bisulfate 300mg tablets sugar coated (Kent Pharmaceuticals Ltd)
+^ESCTQU887795	Quinine bisulfate 300mg tablets sugar coated (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTQU908686	Quinine bisulfate 300mg/5ml oral suspension 1 ml
+^ESCTQU908687	Quinine sulfate 150mg/5ml oral suspension 1 ml
+^ESCTQU908688	Quinine sulfate 150mg/5ml oral suspension (Special Order)
+^ESCTQU908689	Quinine bisulfate 300mg/5ml oral suspension (Special Order)
+^ESCTQU908690	Quinine sulfate 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU908691	Quinine bisulfate 300mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU908692	Quinine sulfate 200mg/5ml oral suspension 1 ml
+^ESCTQU908693	Quinine sulfate 200mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTQU908694	Quinine sulfate 200mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTQU908695	Quinine sulfate 300mg/5ml oral suspension 1 ml
+^ESCTQU908696	Quinine sulfate 300mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTQU908697	Quinine dihydrochloride 300mg/5ml oral solution 1 ml
+^ESCTQU908698	Quinine sulfate 300mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTQU908699	Quinine dihydrochloride 300mg/5ml oral solution (Special Order)
+^ESCTQU908700	Quinine dihydrochloride 300mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU908973	Quinine bisulfate 300mg/5ml oral suspension
+^ESCTQU908974	Quinine dihydrochloride 300mg/5ml oral solution
+^ESCTQU908975	Quinine sulfate 150mg/5ml oral suspension
+^ESCTQU908976	Quinine sulfate 200mg/5ml oral suspension
+^ESCTQU908977	Quinine sulfate 300mg/5ml oral suspension
+^ESCTQU923706	Quinine sulfate 300mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTQU923709	Quinine sulfate 300mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU923712	Quinine sulfate 200mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTQU923715	Quinine sulfate 200mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTQU929048	Quinine bisulfate 300mg tablets (Arrow Generics Ltd)
+^ESCTQU929049	Quinine bisulfate 300mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTQU929050	Quinine bisulfate 300mg tablets (Arrow Generics Ltd) 500 tablet
+^ESCTQU929051	Quinine sulfate 300mg tablets (Arrow Generics Ltd)
+^ESCTQU929052	Quinine sulfate 300mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTQU930214	Quinine dihydrochloride 600mg/2ml solution for infusion ampoules 1 ampoule
+^ESCTQU930215	Quinine dihydrochloride 600mg/2ml concentrate for solution for infusion ampoules (Special Order)
+^ESCTQU930216	Quinine dihydrochloride 600mg/2ml concentrate for solution for infusion ampoules (Special Order) 1 ampoule
+^ESCTQU930217	Quinine dihydrochloride 300mg/1ml solution for infusion ampoules 1 ampoule
+^ESCTQU930218	Quinine dihydrochloride 300mg/1ml concentrate for solution for infusion ampoules (Special Order)
+^ESCTQU930219	Quinine dihydrochloride 300mg/1ml concentrate for solution for infusion ampoules (Special Order) 1 ampoule
+^ESCTQU931203	Quinine dihydrochloride powder
+^ESCTQU931204	Quinine dihydrochloride powder 100 gram
+^ESCTQU931205	Quinine dihydrochloride powder (Imported (Germany))
+^ESCTQU931206	Quinine dihydrochloride powder (Imported (Germany)) 100 gram
+^ESCTQU931207	Quinine sulfate powder
+^ESCTQU931208	Quinine sulfate powder 100 gram
+^ESCTQU931209	Quinine sulfate powder (Imported (Germany))
+^ESCTQU931210	Quinine sulfate powder (Imported (Germany)) 100 gram
+^ESCTQU957479	Quinine bisulfate 100mg/5ml oral solution 1 ml
+^ESCTQU957480	Quinine bisulfate 100mg/5ml oral solution (Special Order)
+^ESCTQU957481	Quinine bisulfate 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957482	Quinine bisulfate 150mg/5ml oral solution 1 ml
+^ESCTQU957483	Quinine bisulfate 150mg/5ml oral solution (Special Order)
+^ESCTQU957484	Quinine bisulfate 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957488	Quinine bisulfate 200mg/5ml oral solution 1 ml
+^ESCTQU957489	Quinine bisulfate 200mg/5ml oral solution (Special Order)
+^ESCTQU957490	Quinine bisulfate 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957505	Quinine dihydrochloride 100mg/5ml oral solution 1 ml
+^ESCTQU957508	Quinine dihydrochloride 100mg/5ml oral solution (Special Order)
+^ESCTQU957509	Quinine dihydrochloride 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957512	Quinine dihydrochloride 125mg/5ml oral solution 1 ml
+^ESCTQU957515	Quinine dihydrochloride 125mg/5ml oral solution (Special Order)
+^ESCTQU957518	Quinine dihydrochloride 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957527	Quinine dihydrochloride 150mg/5ml oral solution 1 ml
+^ESCTQU957528	Quinine dihydrochloride 150mg/5ml oral solution (Special Order)
+^ESCTQU957531	Quinine dihydrochloride 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957536	Quinine dihydrochloride 200mg/5ml oral solution 1 ml
+^ESCTQU957537	Quinine dihydrochloride 200mg/5ml oral solution (Special Order)
+^ESCTQU957538	Quinine dihydrochloride 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957540	Quinine dihydrochloride 30mg/5ml oral solution 1 ml
+^ESCTQU957543	Quinine dihydrochloride 30mg/5ml oral solution (Special Order)
+^ESCTQU957544	Quinine dihydrochloride 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957548	Quinine dihydrochloride 87.5mg/5ml oral solution 1 ml
+^ESCTQU957552	Quinine dihydrochloride 87.5mg/5ml oral solution (Special Order)
+^ESCTQU957553	Quinine dihydrochloride 87.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957681	Quinine bisulfate 100mg/5ml oral solution
+^ESCTQU957682	Quinine bisulfate 150mg/5ml oral solution
+^ESCTQU957683	Quinine bisulfate 200mg/5ml oral solution
+^ESCTQU957684	Quinine dihydrochloride 100mg/5ml oral solution
+^ESCTQU957685	Quinine dihydrochloride 125mg/5ml oral solution
+^ESCTQU957686	Quinine dihydrochloride 150mg/5ml oral solution
+^ESCTQU957687	Quinine dihydrochloride 200mg/5ml oral solution
+^ESCTQU957688	Quinine dihydrochloride 30mg/5ml oral solution
+^ESCTQU957689	Quinine dihydrochloride 87.5mg/5ml oral solution
+^ESCTQU957769	Quinine hydrochloride 125mg/5ml oral suspension 1 ml
+^ESCTQU957771	Quinine hydrochloride 125mg/5ml oral suspension (Special Order)
+^ESCTQU957773	Quinine hydrochloride 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU957775	Quinine hydrochloride 125mg/5ml oral solution 1 ml
+^ESCTQU957777	Quinine hydrochloride 125mg/5ml oral solution (Special Order)
+^ESCTQU957779	Quinine hydrochloride 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957781	Quinine hydrochloride 150mg/5ml oral suspension 1 ml
+^ESCTQU957783	Quinine hydrochloride 150mg/5ml oral suspension (Special Order)
+^ESCTQU957785	Quinine hydrochloride 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU957787	Quinine hydrochloride 150mg/5ml oral solution 1 ml
+^ESCTQU957789	Quinine hydrochloride 150mg/5ml oral solution (Special Order)
+^ESCTQU957791	Quinine hydrochloride 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957793	Quinine hydrochloride 200mg/5ml oral suspension 1 ml
+^ESCTQU957795	Quinine hydrochloride 200mg/5ml oral suspension (Special Order)
+^ESCTQU957797	Quinine hydrochloride 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU957799	Quinine hydrochloride 200mg/5ml oral solution 1 ml
+^ESCTQU957801	Quinine hydrochloride 200mg/5ml oral solution (Special Order)
+^ESCTQU957803	Quinine hydrochloride 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957805	Quinine hydrochloride 300mg/5ml oral suspension 1 ml
+^ESCTQU957807	Quinine hydrochloride 300mg/5ml oral suspension (Special Order)
+^ESCTQU957809	Quinine hydrochloride 300mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU957811	Quinine hydrochloride 300mg/5ml oral solution 1 ml
+^ESCTQU957813	Quinine hydrochloride 300mg/5ml oral solution (Special Order)
+^ESCTQU957815	Quinine hydrochloride 300mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957842	Quinine sulfate 100mg/5ml oral suspension 1 ml
+^ESCTQU957844	Quinine sulfate 100mg/5ml oral suspension (Special Order)
+^ESCTQU957846	Quinine sulfate 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU957848	Quinine sulfate 100mg/5ml oral solution 1 ml
+^ESCTQU957850	Quinine sulfate 100mg/5ml oral solution (Special Order)
+^ESCTQU957852	Quinine sulfate 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957854	Quinine sulfate 10mg/5ml oral suspension 1 ml
+^ESCTQU957856	Quinine sulfate 10mg/5ml oral suspension (Special Order)
+^ESCTQU957858	Quinine sulfate 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU957860	Quinine sulfate 10mg/5ml oral solution 1 ml
+^ESCTQU957862	Quinine sulfate 10mg/5ml oral solution (Special Order)
+^ESCTQU957864	Quinine sulfate 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957866	Quinine sulfate 125mg/5ml oral suspension 1 ml
+^ESCTQU957868	Quinine sulfate 125mg/5ml oral suspension (Special Order)
+^ESCTQU957870	Quinine sulfate 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU957872	Quinine sulfate 125mg/5ml oral solution 1 ml
+^ESCTQU957874	Quinine sulfate 125mg/5ml oral solution (Special Order)
+^ESCTQU957876	Quinine sulfate 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957878	Quinine sulfate 250mg/5ml oral suspension 1 ml
+^ESCTQU957880	Quinine sulfate 250mg/5ml oral suspension (Special Order)
+^ESCTQU957882	Quinine sulfate 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU957890	Quinine sulfate 250mg/5ml oral solution 1 ml
+^ESCTQU957892	Quinine sulfate 250mg/5ml oral solution (Special Order)
+^ESCTQU957894	Quinine sulfate 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957902	Quinine sulfate 25mg/5ml oral suspension 1 ml
+^ESCTQU957904	Quinine sulfate 25mg/5ml oral suspension (Special Order)
+^ESCTQU957912	Quinine sulfate 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU957922	Quinine sulfate 25mg/5ml oral solution 1 ml
+^ESCTQU957924	Quinine sulfate 25mg/5ml oral solution (Special Order)
+^ESCTQU957926	Quinine sulfate 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957932	Quinine sulfate 50mg/5ml oral suspension 1 ml
+^ESCTQU957934	Quinine sulfate 50mg/5ml oral suspension (Special Order)
+^ESCTQU957936	Quinine sulfate 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU957946	Quinine sulfate 50mg/5ml oral solution 1 ml
+^ESCTQU957950	Quinine sulfate 50mg/5ml oral solution (Special Order)
+^ESCTQU957954	Quinine sulfate 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957960	Quinine sulfate 75mg/5ml oral suspension 1 ml
+^ESCTQU957966	Quinine sulfate 75mg/5ml oral suspension (Special Order)
+^ESCTQU957968	Quinine sulfate 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU957970	Quinine sulfate 75mg/5ml oral solution 1 ml
+^ESCTQU957972	Quinine sulfate 75mg/5ml oral solution (Special Order)
+^ESCTQU957974	Quinine sulfate 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU958255	Quinine hydrochloride 125mg/5ml oral solution
+^ESCTQU958257	Quinine hydrochloride 125mg/5ml oral suspension
+^ESCTQU958259	Quinine hydrochloride 150mg/5ml oral solution
+^ESCTQU958261	Quinine hydrochloride 150mg/5ml oral suspension
+^ESCTQU958263	Quinine hydrochloride 200mg/5ml oral solution
+^ESCTQU958265	Quinine hydrochloride 200mg/5ml oral suspension
+^ESCTQU958267	Quinine hydrochloride 300mg/5ml oral solution
+^ESCTQU958268	Quinine hydrochloride 300mg/5ml oral suspension
+^ESCTQU958269	Quinine sulfate 100mg/5ml oral solution
+^ESCTQU958270	Quinine sulfate 100mg/5ml oral suspension
+^ESCTQU958271	Quinine sulfate 10mg/5ml oral solution
+^ESCTQU958272	Quinine sulfate 10mg/5ml oral suspension
+^ESCTQU958273	Quinine sulfate 125mg/5ml oral solution
+^ESCTQU958274	Quinine sulfate 125mg/5ml oral suspension
+^ESCTQU958275	Quinine sulfate 250mg/5ml oral solution
+^ESCTQU958276	Quinine sulfate 250mg/5ml oral suspension
+^ESCTQU958277	Quinine sulfate 25mg/5ml oral solution
+^ESCTQU958279	Quinine sulfate 25mg/5ml oral suspension
+^ESCTQU958280	Quinine sulfate 50mg/5ml oral solution
+^ESCTQU958281	Quinine sulfate 50mg/5ml oral suspension
+^ESCTQU958282	Quinine sulfate 75mg/5ml oral solution
+^ESCTQU958283	Quinine sulfate 75mg/5ml oral suspension
+^ESCTQU960659	Quinine bisulfate 300mg tablets (Dowelhurst Ltd)
+^ESCTQU960660	Quinine bisulfate 300mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTQU960662	Quinine bisulfate 300mg tablets (Dowelhurst Ltd) 500 tablet
+^ESCTQU960664	Quinine sulfate 200mg tablets (Dowelhurst Ltd)
+^ESCTQU960665	Quinine sulfate 200mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTQU960668	Quinine sulfate 300mg tablets (Dowelhurst Ltd)
+^ESCTQU960670	Quinine sulfate 300mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTQU960671	Quinine sulfate 300mg tablets (Dowelhurst Ltd) 500 tablet
+^ESCTQU966092	Quinine bisulfate
+^ESCTQU966093	Quinine dihydrochloride
+^ESCTQU966094	Quinine hydrochloride
+^ESCTQU966095	Quinine sulfate
+^ESCTQU979162	Quinine bisulfate 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTQU979163	Quinine bisulfate 300mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+QUCO28500NEMIS	Quinine Dihydrochloride  Concentrate For Solution For Infusion  300 mg/ml, 1 ml ampoule
+QUCO28501NEMIS	Quinine Dihydrochloride  Concentrate For Solution For Infusion  300 mg/ml, 2 ml ampoule
+QUOR38988NEMIS	Quinine Sulfate  Oral suspension  200 mg/5 ml
+QUOR46526NEMIS	Quinine Bisulfate  Oral suspension  300 mg/5 ml
+QUPO16627NEMIS	Quinine Sulfate  Powder  
+QUSU15033NEMIS	Quinine Sulfate  Suspension  300 mg/5 ml
+QUTA2425	Quinine Sulfate  Tablets  300 mg
+QUTA36797MGEMIS	Quinine Sulfate  Tablets  300 mg (Kent Pharm)
+QUTA36798MGEMIS	Quinine Sulfate  Tablets  300 mg (Generics (UK))
+QUTA36799MGEMIS	Quinine Sulfate  Tablets  300 mg (Unichem)
+QUTA36800MGEMIS	Quinine Sulfate  Tablets  300 mg (Wockhardt UK)
+QUTA36801MGEMIS	Quinine Sulfate  Tablets  300 mg (Alpharma)
+QUTA36802MGEMIS	Quinine Sulfate  Tablets  300 mg (Teva UK)
+QUTA36803MGEMIS	Quinine Sulfate  Tablets  300 mg (A.A.H. Pharm)
+QUTA36804MGEMIS	Quinine Sulfate  Tablets  300 mg (Ivax Pharmaceuticals)
+QUTA36805MGEMIS	Quinine Bisulfate  Tablets  300 mg (Teva UK)
+QUTA36806MGEMIS	Quinine Bisulfate  Tablets  300 mg (The Boots Company)
+QUTA36807MGEMIS	Quinine Bisulfate  Tablets  300 mg (A.A.H. Pharm)
+QUTA36808MGEMIS	Quinine Bisulfate  Tablets  300 mg (Unichem)
+QUTA36809MGEMIS	Quinine Bisulfate  Tablets  300 mg (Generics (UK))
+QUTA36810MGEMIS	Quinine Bisulfate  Tablets  300 mg (Kent Pharm)
+QUTA36811MGEMIS	Quinine Bisulfate  Tablets  300 mg (Alpharma)
+QUTA36812MGEMIS	Quinine Sulfate  Tablets  200 mg (Kent Pharm)
+QUTA36813MGEMIS	Quinine Sulfate  Tablets  200 mg (A.A.H. Pharm)
+QUTA36814MGEMIS	Quinine Sulfate  Tablets  200 mg (Alpharma)
+QUTA36815MGEMIS	Quinine Sulfate  Tablets  200 mg (Teva UK)
+QUTA36816MGEMIS	Quinine Sulfate  Tablets  200 mg (Unichem)
+QUTA4244	Quinine Bisulfate  Tablets  300 mg
+QUTA4246	Quinine Dihydrochloride  Tablets  300 mg
+QUTA4247	Quinine Hydrochloride  Tablets  300 mg
+QUTA4248	Quinine Sulfate  Tablets  125 mg
+QUTA4249	Quinine Sulfate  Tablets  200 mg

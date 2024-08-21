@@ -1,9 +1,28 @@
-c8i1.	PHENERGAN 10mg tablets
-c8i2.	PHENERGAN 25mg tablets
-c8i3.	PHENERGAN 5mg/5mL elixir
-c8i4.	PHENERGAN 25mg/1mL injection
-c8i6.	PHENERGAN NIGHTIME 25mg tablets
-c8iv.	PROMETHAZINE 10mg tablets
-c8iw.	PROMETHAZINE 25mg tablets
-c8ix.	PROMETHAZINE 5mg/5mL elixir
-c8iy.	PROMETHAZINE 25mg/1mL injection
+c8i1.00	PHENERGAN 10mg tablets
+c8i2.00	PHENERGAN 25mg tablets
+c8i3.00	PHENERGAN 5mg/5mL elixir
+c8i4.00	PHENERGAN 25mg/1mL injection
+c8i6.00	PHENERGAN NIGHTIME 25mg tablets
+c8iv.00	PROMETHAZINE 10mg tablets
+c8iw.00	PROMETHAZINE 25mg tablets
+c8ix.00	PROMETHAZINE 5mg/5mL elixir
+c8iy.00	PROMETHAZINE 25mg/1mL injection
+c8i..00	PROMETHAZINE HYDROCHLORIDE [ANTIHISTAMINE]
+c8iz.00	PROMETHAZINE 50mg/2mL injection
+c8iu.00	PROMETHAZINE 20mg tablets
+c8i9.00	SOMINEX 20mg tablets
+c8i8.00	ZIZ FORTE 25mg tablets
+c8i5.00	*PHENERGAN 50mg/2mL injection
+d19..00	PROMETHAZINE HCL [HYPNOTIC] see section c8i..
+dhf..00	PROMETHAZINE [nausea] [see c8i..]
+dhg..00	PROMETHAZINE THEOCLATE
+dhgz.00	PROMETHAZINE THEOCLATE 25mg tablets
+dhg2.00	VERTIGON 25mg tablets
+dhg1.00	AVOMINE 25mg tablets
+dic1.00	PARACETAMOL+PROMETHAZINE HYDROCHLORIDE 120mg/1.5mg/5mL colour free sugar free suspension
+o59..00	PROMETHAZINE HCL [ANAESTHESIA]
+ch35.00	*PHENERGAN comp expect linctus
+dhe8.00	*VERTIGON 10mg m/r capsules
+dhe9.00	*VERTIGON 15mg m/r capsules
+djg5.00	PAMERGAN P100 100mg/2mL injection
+o485.00	PAMERGAN-P100 100mg/2mL injection

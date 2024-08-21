@@ -1,0 +1,12 @@
+x01EB	Alimemazine
+o5b..	Trimeprazine tartrate [anaesthesia]
+c8kz.	Trimeprazine tartrate 30mg/5mL syrup
+c8k3.	Vallergan Forte 30mg/5mL syrup
+c8ky.	Trimeprazine tartrate 7.5mg/5mL syrup
+c8k2.	Vallergan 7.5mg/5mL syrup
+c8kx.	Trimeprazine tartrate 10mg tablet
+c8k1.	Vallergan 10mg tablet
+c8k4.	Vallergan 10mg tablets 28CP
+c8k..	Trimeprazine tartrate [antihistamine]
+x02u1	Vallergan
+x02u2	Vallergan Forte

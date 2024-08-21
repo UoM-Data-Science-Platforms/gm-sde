@@ -1,0 +1,24 @@
+gda..00	OXYBUTYNIN
+gdaz.00	OXYBUTYNIN HYDROCHLORIDE 10mg m/r tablets
+gday.00	OXYBUTYNIN HYDROCHLORIDE 5mg m/r tablets
+gdax.00	OXYBUTYNIN 3.9mg/24hours transdermal patches
+gdaI.00	KENTERA 3.9mg/24hours transdermal patches
+gdaH.11	LYRINEL XL 10mg m/r tablets
+gdaH.00	DITROPAN XL 10mg m/r tablets
+gdaG.11	LYRINEL XL 5mg m/r tablets
+gdaG.00	DITROPAN XL 5mg m/r tablets
+gdaF.00	*PROMICTULINE 5mg tablets
+gdaE.00	*PROMICTULINE 2.5mg tablets
+gdaD.00	*URIMIN 5mg tablets
+gdaC.00	*CONTIMIN 5mg tablets
+gdaB.00	*CONTIMIN 2.5mg tablets
+gdaA.00	OXYBUTYNIN HYDROCHLORIDE 5mg/5mL sugar free solution
+gda9.00	OXYBUTYNIN HYDROCHLORIDE 2.5mg/5mL elixir
+gda8.00	DITROPAN 2.5mg/5mL elixir
+gda7.00	CYSTRIN 5mg tablets
+gda6.00	CYSTRIN 3mg tablets
+gda5.00	OXYBUTYNIN HYDROCHLORIDE 3mg tablets
+gda4.00	DITROPAN 5mg tablets
+gda3.00	OXYBUTYNIN HYDROCHLORIDE 5mg tablets
+gda2.00	DITROPAN 2.5mg tablets
+gda1.00	OXYBUTYNIN HYDROCHLORIDE 2.5mg tablets

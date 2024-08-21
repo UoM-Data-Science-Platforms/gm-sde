@@ -1,0 +1,7 @@
+gdB..00	TROSPIUM CHLORIDE [ENURESIS]
+gdBz.00	TROSPIUM CHLORIDE 20mg tablets
+gdBy.00	TROSPIUM CHLORIDE 60mg m/r capsules
+gdB4.00	URAPLEX 20mg tablets
+gdB3.00	FLOTROS 20mg tablets
+gdB2.00	REGURIN XL 60mg m/r capsules
+gdB1.00	REGURIN 20mg tablets

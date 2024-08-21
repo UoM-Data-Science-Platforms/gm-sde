@@ -1,0 +1,854 @@
+^ESCT1173892	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (Aspire Pharma Ltd)
+^ESCT1173895	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (Aspire Pharma Ltd) 2.5 ml
+^ESCT1174361	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (Alliance Healthcare (Distribution) Ltd)
+^ESCT1174362	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (Alliance Healthcare (Distribution) Ltd) 2.5 ml
+^ESCT1177925	Product containing only timolol maleate 10 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1179165	Product containing bendroflumethiazide and timolol
+^ESCT1179166	Bendroflumethiazide and timolol
+^ESCT1179202	Travoprost + Timolol
+^ESCT1179516	Timolol 0.25% eye drops (Mylan) 5 ml
+^ESCT1179848	Cosopt 20mg/ml / 5mg/ml eye drops (Waymade Healthcare Plc)
+^ESCT1179995	Cosopt 20mg/ml / 5mg/ml eye drops (Mawdsley-Brooks & Company Ltd) 5 ml
+^ESCT1180010	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (A A H Pharmaceuticals Ltd)
+^ESCT1180028	Tidomat 20mg/ml / 5mg/ml eye drops (Beacon Pharmaceuticals Ltd) 5 ml
+^ESCT1180158	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Zentiva)
+^ESCT1180409	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free 60 unit dose
+^ESCT1180504	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Sandoz Ltd)
+^ESCT1180505	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Sandoz Ltd) 5 ml
+^ESCT1180526	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Martindale Pharmaceuticals Ltd) 5 ml
+^ESCT1180862	Cosopt 20mg/ml / 5mg/ml eye drops (Necessity Supplies Ltd)
+^ESCT1180882	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (A A H Pharmaceuticals Ltd)
+^ESCT1180883	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (A A H Pharmaceuticals Ltd) 60 unit dose 12 x 5 x 0.2ml unit doses
+^ESCT1180977	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (Waymade Healthcare Plc)
+^ESCT1182142	Brimonidine and timolol
+^ESCT1182143	Product containing brimonidine and timolol
+^ESCT1182144	Brimonidine + Timolol
+^ESCT1182927	Product containing latanoprost and timolol
+^ESCT1182928	Latanoprost and timolol
+^ESCT1182929	Latanoprost + Timolol
+^ESCT1183146	Product containing only timolol maleate 5 mg/1 each oral tablet
+^ESCT1183439	Cosopt 20mg/ml / 5mg/ml eye drops (Santen UK Ltd) 5 ml
+^ESCT1183723	Timolol 0.5% eye drops (Mylan)
+^ESCT1183749	Cosopt 20mg/ml / 5mg/ml eye drops (Dowelhurst Ltd)
+^ESCT1183750	Cosopt 20mg/ml / 5mg/ml eye drops (Dowelhurst Ltd) 5 ml
+^ESCT1183937	Tidomat 20mg/ml / 5mg/ml eye drops (Beacon Pharmaceuticals Ltd)
+^ESCT1184090	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Aspire Pharma Ltd)
+^ESCT1184290	Timolol 0.25% eye drops (Mylan)
+^ESCT1184303	Cosopt 20mg/ml / 5mg/ml eye drops (Santen UK Ltd)
+^ESCT1184370	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free
+^ESCT1184427	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (Mawdsley-Brooks & Company Ltd)
+^ESCT1184447	Cosopt 20mg/ml / 5mg/ml eye drops (Lexon (UK) Ltd)
+^ESCT1184448	Cosopt 20mg/ml / 5mg/ml eye drops (DE Pharmaceuticals)
+^ESCT1184502	Cosopt 20mg/ml / 5mg/ml eye drops (DE Pharmaceuticals) 5 ml
+^ESCT1184686	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (DE Pharmaceuticals)
+^ESCT1184811	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Martindale Pharmaceuticals Ltd)
+^ESCT1184911	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Alliance Healthcare (Distribution) Ltd)
+^ESCT1184912	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Alliance Healthcare (Distribution) Ltd) 5 ml
+^ESCT1184932	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (Teva UK Ltd) 60 unit dose 12 x 5 x 0.2ml unit doses
+^ESCT1184944	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Sigma Pharmaceuticals Plc)
+^ESCT1184945	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Sigma Pharmaceuticals Plc) 5 ml
+^ESCT1185014	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Waymade Healthcare Plc) 5 ml
+^ESCT1185028	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (Waymade Healthcare Plc) 60 unit dose
+^ESCT1185401	Product containing only timolol maleate 20 mg/1 each oral tablet
+^ESCT1185582	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 5 ml
+^ESCT1186098	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (A A H Pharmaceuticals Ltd) 5 ml
+^ESCT1186224	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Zentiva) 5 ml
+^ESCT1186225	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Aspire Pharma Ltd) 5 ml
+^ESCT1186479	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (Santen UK Ltd)
+^ESCT1186480	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (Santen UK Ltd) 60 unit dose 4 x 15 unit doses
+^ESCT1186529	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (Mawdsley-Brooks & Company Ltd) 60 unit dose
+^ESCT1186544	Cosopt 20mg/ml / 5mg/ml eye drops (Lexon (UK) Ltd) 5 ml
+^ESCT1186933	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Teva UK Ltd) 5 ml
+^ESCT1186938	Cosopt 20mg/ml / 5mg/ml eye drops (Necessity Supplies Ltd) 5 ml
+^ESCT1186953	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (Teva UK Ltd)
+^ESCT1186997	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Mylan) 2.5 ml
+^ESCT1187194	Product containing only timolol maleate 10 mg/1 each oral tablet
+^ESCT1187197	Product containing only timolol maleate 10 mg and bendroflumethiazide 2.5 mg/1 each oral tablet
+^ESCT1187917	Dorzolamide and timolol
+^ESCT1187918	Product containing dorzolamide and timolol
+^ESCT1187919	Dorzolamide + Timolol
+^ESCT1187920	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops
+^ESCT1188280	Product containing only timolol maleate 10 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1188695	Timolol 0.5% eye drops (Mylan) 5 ml
+^ESCT1189258	Cosopt 20mg/ml / 5mg/ml eye drops (Waymade Healthcare Plc) 5 ml
+^ESCT1189382	Cosopt 20mg/ml / 5mg/ml eye drops (Mawdsley-Brooks & Company Ltd)
+^ESCT1189437	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Waymade Healthcare Plc)
+^ESCT1189607	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Actavis UK Ltd)
+^ESCT1189608	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Actavis UK Ltd) 5 ml
+^ESCT1189648	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (Lexon (UK) Ltd)
+^ESCT1189649	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (Lexon (UK) Ltd) 60 unit dose
+^ESCT1189745	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Phoenix Healthcare Distribution Ltd)
+^ESCT1189746	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Phoenix Healthcare Distribution Ltd) 5 ml
+^ESCT1189832	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (DE Pharmaceuticals) 5 ml
+^ESCT1190049	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Teva UK Ltd)
+^ESCT1190120	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Mylan)
+^ESCT1204413	Timolol (as timolol maleate) 1 mg/mL eye gel
+^ESCT1204414	Product containing precisely timolol (as timolol maleate) 1 milligram/1 milliliter conventional release eye gel
+^ESCT1204415	Timolol (as timolol maleate) 2.5 mg/mL eye gel
+^ESCT1204416	Product containing precisely timolol (as timolol maleate) 2.5 milligram/1 milliliter conventional release eye gel
+^ESCT1204417	Timolol (as timolol maleate) 5 mg/mL eye gel
+^ESCT1204418	Product containing precisely timolol (as timolol maleate) 5 milligram/1 milliliter conventional release eye gel
+^ESCT1207861	Bendroflumethiazide and timolol in oral dosage form
+^ESCT1207862	Product containing bendroflumethiazide and timolol in oral dosage form
+^ESCT1207865	Amiloride and hydrochlorothiazide and timolol product
+^ESCT1207866	Product containing amiloride and hydrochlorothiazide and timolol
+^ESCT1207934	Amiloride and hydrochlorothiazide and timolol in oral dosage form
+^ESCT1207935	Product containing amiloride and hydrochlorothiazide and timolol in oral dosage form
+^ESCT1214305	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Medicom Healthcare Ltd)
+^ESCT1214307	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Medicom Healthcare Ltd) 5 ml
+^ESCT1214313	Medox 50micrograms/ml / 5mg/ml eye drops (Medicom Healthcare Ltd)
+^ESCT1214314	Medox 50micrograms/ml / 5mg/ml eye drops (Medicom Healthcare Ltd) 2.5 ml
+^ESCT1214844	Timolol 0.1% gel eye drops
+^ESCT1214845	Timolol 0.25% eye gel
+^ESCT1214846	Timolol 0.5% eye gel
+^ESCT1214847	Timolol 5mg/ml eye drops preservative free
+^ESCT1220184	Timolol
+^ESCT1220185	Timolol product
+^ESCT1222858	Product containing precisely timolol maleate 10 milligram/1 each conventional release oral tablet
+^ESCT1222867	Product containing precisely amiloride hydrochloride 2.5 milligram and hydrochlorothiazide 25 milligram and timolol maleate 10 milligram/1 each conventional release oral tablet
+^ESCT1222868	Amiloride hydrochloride 2.5 mg and hydrochlorothiazide 25 mg and timolol maleate 10 mg oral tablet
+^ESCT1222869	Product containing precisely bendroflumethiazide 2.5 milligram and timolol maleate 10 milligram/1 each conventional release oral tablet
+^ESCT1222870	Bendroflumethiazide 2.5 mg and timolol maleate 10 mg oral tablet
+^ESCT1225697	Timolol 0.25% eye drops
+^ESCT1225698	Timolol (as timolol maleate) 2.5 mg/mL eye drops
+^ESCT1225699	Product containing precisely timolol (as timolol maleate) 2.5 milligram/1 milliliter conventional release eye drops
+^ESCT1225700	Timolol 0.5% eye drops
+^ESCT1225701	Product containing precisely timolol (as timolol maleate) 5 milligram/1 milliliter conventional release eye drops
+^ESCT1225702	Timolol (as timolol maleate) 5 mg/mL eye drops
+^ESCT1225711	Dorzolamide and timolol product
+^ESCT1225712	Dorzolamide (as dorzolamide hydrochloride) 20 mg/mL and timolol (as timolol maleate) 5 mg/mL eye drops
+^ESCT1225713	Product containing precisely dorzolamide (as dorzolamide hydrochloride) 20 milligram/1 milliliter and timolol (as timolol maleate) 5 milligram/1 milliliter conventional release eye drops
+^ESCT1228700	Product containing precisely timolol maleate 5 milligram/1 each conventional release oral tablet
+^ESCT1228778	Product containing precisely timolol maleate 20 milligram/1 each conventional release oral tablet
+^ESCT1229557	Latanoprost and timolol product
+^ESCT1230549	Product containing precisely latanoprost 50 microgram/1 milliliter and timolol (as timolol maleate) 5 milligram/1 milliliter conventional release eye drops
+^ESCT1230550	Latanoprost 50 microgram/mL and timolol (as timolol maleate) 5 mg/mL eye drops
+^ESCT1230897	Timolol maleate 10 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCT1230898	Hydrochlorothiazide 25 mg and timolol maleate 10 mg oral tablet
+^ESCT1230899	Product containing precisely hydrochlorothiazide 25 milligram and timolol maleate 10 milligram/1 each conventional release oral tablet
+^ESCT1232620	Brimonidine and timolol product
+^ESCT1233633	Bendroflumethiazide and timolol product
+^ESCT1234072	Product containing timolol and travoprost
+^ESCT1234073	Timolol and travoprost product
+^ESCT1234087	Bimatoprost + Timolol
+^ESCT1234088	Product containing bimatoprost and timolol
+^ESCT1234089	Bimatoprost and timolol product
+^ESCT1237179	Nyogel 0.1% eye gel (Alcon Eye Care Ltd)
+^ESCT1237605	Nyogel 0.1% eye gel (Alcon Eye Care Ltd) 5 gram
+^ESCT1255213	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free 30 unit dose
+^ESCT1255214	Fixapost 50micrograms/ml / 5mg/ml eye drops 0.2ml unit dose (Thea Pharmaceuticals Ltd)
+^ESCT1255215	Fixapost 50micrograms/ml / 5mg/ml eye drops 0.2ml unit dose (Thea Pharmaceuticals Ltd) 30 unit dose 6 x 5 unit doses
+^ESCT1255563	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops preservative free 10 ml
+^ESCT1255566	Cosopt iMulti 20mg/ml / 5mg/ml eye drops preservative free (Santen UK Ltd)
+^ESCT1255568	Cosopt iMulti 20mg/ml / 5mg/ml eye drops preservative free (Santen UK Ltd) 10 ml
+^ESCT1255774	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free
+^ESCT1257750	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (Aspire Pharma Ltd)
+^ESCT1257751	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (Aspire Pharma Ltd) 60 unit dose 12 x 5 x 0.2ml unit doses
+^ESCT1259782	Timolol 10mg tablets (Meda Pharmaceuticals Ltd)
+^ESCT1259783	Timolol 10mg tablets (Meda Pharmaceuticals Ltd) 30 tablet
+^ESCT1263732	Brimonidine 2mg/ml / Timolol 5mg/ml eye drops (Mylan)
+^ESCT1263734	Brimonidine 2mg/ml / Timolol 5mg/ml eye drops (Mylan) 5 ml
+^ESCT1264004	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (Mawdsley-Brooks & Company Ltd)
+^ESCT1264005	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (Mawdsley-Brooks & Company Ltd) 60 unit dose 12 x 5 x 0.2ml unit dose
+^ESCT1264522	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (Mylan)
+^ESCT1264524	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (Mylan) 2.5 ml
+^ESCT1264763	Timolol 0.25% eye drops (F D C International Ltd)
+^ESCT1264764	Timolol 0.25% eye drops (F D C International Ltd) 5 ml
+^ESCT1264765	Timolol 0.5% eye drops (F D C International Ltd)
+^ESCT1264766	Timolol 0.5% eye drops (F D C International Ltd) 5 ml
+^ESCT1264776	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (Mawdsley-Brooks & Company Ltd)
+^ESCT1264777	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (Mawdsley-Brooks & Company Ltd) 2.5 ml
+^ESCT1266151	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (DE Pharmaceuticals)
+^ESCT1266152	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (DE Pharmaceuticals) 60 unit dose 12 x 5 x 0.2ml unit dose
+^ESCT1266998	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (CST Pharma Ltd)
+^ESCT1266999	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (CST Pharma Ltd) 60 unit dose
+^ESCT1267090	Xalacom eye drops (CST Pharma Ltd)
+^ESCT1267091	Xalacom eye drops (CST Pharma Ltd) 2.5 ml
+^ESCT1267157	Tiopex 1mg/g eye gel 0.4g unit dose (CST Pharma Ltd)
+^ESCT1267158	Tiopex 1mg/g eye gel 0.4g unit dose (CST Pharma Ltd) 30 unit dose
+^ESCT1267351	Azarga 10mg/ml / 5mg/ml eye drops (CST Pharma Ltd)
+^ESCT1267352	Azarga 10mg/ml / 5mg/ml eye drops (CST Pharma Ltd) 5 ml
+^ESCT1267437	Ganfort 0.3mg/ml / 5mg/ml eye drops 0.4ml unit dose (CST Pharma Ltd)
+^ESCT1267438	Ganfort 0.3mg/ml / 5mg/ml eye drops 0.4ml unit dose (CST Pharma Ltd) 30 unit dose
+^ESCT1267636	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (A A H Pharmaceuticals Ltd)
+^ESCT1267637	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (A A H Pharmaceuticals Ltd) 2.5 ml
+^ESCT1267654	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (F D C International Ltd)
+^ESCT1267655	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (F D C International Ltd) 2.5 ml
+^ESCT1267658	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (F D C International Ltd)
+^ESCT1267659	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (F D C International Ltd) 5 ml
+^ESCT1269682	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (Mylan)
+^ESCT1269683	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (Mylan) 30 tablet
+^ESCT1270212	Timolol 10mg tablets (Mylan)
+^ESCT1270213	Timolol 10mg tablets (Mylan) 30 tablet
+^ESCT1271141	Combigan eye drops (CST Pharma Ltd)
+^ESCT1271142	Combigan eye drops (CST Pharma Ltd) 5 ml
+^ESCT1271179	DuoTrav 40micrograms/ml / 5mg/ml eye drops (CST Pharma Ltd)
+^ESCT1271180	DuoTrav 40micrograms/ml / 5mg/ml eye drops (CST Pharma Ltd) 2.5 ml
+^ESCT1271183	Ganfort 0.3mg/ml / 5mg/ml eye drops (CST Pharma Ltd)
+^ESCT1271184	Ganfort 0.3mg/ml / 5mg/ml eye drops (CST Pharma Ltd) 3 ml
+^ESCT1274124	Azarga 10mg/ml / 5mg/ml eye drops (Pilsco Ltd)
+^ESCT1274125	Azarga 10mg/ml / 5mg/ml eye drops (Pilsco Ltd) 5 ml
+^ESCT1274181	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (Pilsco Ltd)
+^ESCT1274182	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (Pilsco Ltd) 60 unit dose
+^ESCT1274183	Cosopt 20mg/ml / 5mg/ml eye drops (Pilsco Ltd)
+^ESCT1274184	Cosopt 20mg/ml / 5mg/ml eye drops (Pilsco Ltd) 5 ml
+^ESCT1274227	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Pilsco Ltd)
+^ESCT1274228	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Pilsco Ltd) 2.5 ml
+^ESCT1274943	Xalacom eye drops (Pilsco Ltd)
+^ESCT1274945	Xalacom eye drops (Pilsco Ltd) 2.5 ml
+^ESCT1275034	Ganfort 0.3mg/ml / 5mg/ml eye drops 0.4ml unit dose (Pilsco Ltd)
+^ESCT1275035	Ganfort 0.3mg/ml / 5mg/ml eye drops 0.4ml unit dose (Pilsco Ltd) 30 unit dose
+^ESCT1275268	Ganfort 0.3mg/ml / 5mg/ml eye drops (CST Pharma Ltd) 9 ml
+^ESCT1275636	Cosopt 20mg/ml / 5mg/ml eye drops (CST Pharma Ltd)
+^ESCT1275637	Cosopt 20mg/ml / 5mg/ml eye drops (CST Pharma Ltd) 5 ml
+^ESCT1275736	Timolol 10mg tablets (DE Pharmaceuticals)
+^ESCT1275737	Timolol 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1275755	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (DE Pharmaceuticals)
+^ESCT1275756	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (DE Pharmaceuticals) 2.5 ml
+^ESCT1276137	Timolol 0.25% eye drops (FDC International Ltd)
+^ESCT1276138	Timolol 0.25% eye drops (FDC International Ltd) 5 ml
+^ESCT1276139	Timolol 0.5% eye drops (FDC International Ltd)
+^ESCT1276140	Timolol 0.5% eye drops (FDC International Ltd) 5 ml
+^ESCT1276157	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (FDC Pharma)
+^ESCT1276158	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (FDC Pharma) 2.5 ml
+^ESCT1276161	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (FDC Pharma)
+^ESCT1276162	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (FDC Pharma) 5 ml
+^ESCT1279703	Azarga 10mg/ml / 5mg/ml eye drops (Pharmaram Ltd)
+^ESCT1279704	Azarga 10mg/ml / 5mg/ml eye drops (Pharmaram Ltd) 5 ml
+^ESCT1300627	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (DE Pharmaceuticals)
+^ESCT1300628	Cosopt 20mg/ml / 5mg/ml eye drops 0.2ml unit dose preservative free (DE Pharmaceuticals) 60 unit dose
+^ESCT1301025	Tiopex 1mg/g eye gel 0.4g unit dose (DE Pharmaceuticals)
+^ESCT1301026	Tiopex 1mg/g eye gel 0.4g unit dose (DE Pharmaceuticals) 30 unit dose
+^ESCT1301323	Xalacom eye drops (Upjohn Ltd)
+^ESCT1301324	Xalacom eye drops (Upjohn Ltd) 2.5 ml
+^ESCT1303969	Xalacom eye drops (Upjohn UK Ltd)
+^ESCT1303970	Xalacom eye drops (Upjohn UK Ltd) 2.5 ml
+^ESCT1304232	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Accord Healthcare Ltd)
+^ESCT1304233	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Accord Healthcare Ltd) 5 ml
+^ESCT1304990	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops preservative free 3 ml
+^ESCT1304991	Eyzeetan 0.3mg/ml / 5mg/ml eye drops preservative free (Aspire Pharma Ltd)
+^ESCT1304992	Eyzeetan 0.3mg/ml / 5mg/ml eye drops preservative free (Aspire Pharma Ltd) 3 ml
+^ESCT1305174	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops preservative free
+^ESCT1305635	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Mylan)
+^ESCT1305637	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Mylan) 5 ml
+^ESCT1306678	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Aspire Pharma Ltd)
+^ESCT1306679	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Aspire Pharma Ltd) 5 ml
+^ESCT1350657	Timolol-containing product in ocular dose form
+^ESCT1351369	Dorzolamide- and timolol-containing product in ocular dose form
+^ESCT1351454	Hydrochlorothiazide- and timolol-containing product in oral dose form
+^ESCT1351498	Latanoprost- and timolol-containing product in ocular dose form
+^ESCT1351865	Hydrochlorothiazide- and timolol-containing product
+^ESCT1353446	Amiloride and hydrochlorothiazide and timolol only product
+^ESCT1353691	Bendroflumethiazide and timolol only product
+^ESCT1353792	Bimatoprost and timolol only product
+^ESCT1353843	Brimonidine and timolol only product
+^ESCT1354729	Dorzolamide and timolol only product
+^ESCT1355331	Hydrochlorothiazide and timolol only product
+^ESCT1355593	Latanoprost and timolol only product
+^ESCT1356980	Timolol only product
+^ESCT1356981	Timolol and travoprost only product
+^ESCT1357454	Amiloride and hydrochlorothiazide and timolol only product in oral dose form
+^ESCT1357631	Bendroflumethiazide and timolol only product in oral dose form
+^ESCT1358319	Dorzolamide and timolol only product in ocular dose form
+^ESCT1358786	Hydrochlorothiazide and timolol only product in oral dose form
+^ESCT1358978	Latanoprost and timolol only product in ocular dose form
+^ESCT1360039	Timolol only product in ocular dose form
+^ESCT1360040	Timolol only product in oral dose form
+^ESCT1364190	Timolol (as timolol maleate) 2.5 mg/mL eye solution
+^ESCT1364191	Timolol (as timolol maleate) 5 mg/mL eye solution
+^ESCT1364192	Brimonidine tartrate 2 mg/mL and timolol 5 mg/mL eye solution
+^ESCT1364800	Brimonidine- and timolol-containing product in ocular dose form
+^ESCT1365595	Brimonidine and timolol only product in ocular dose form
+^ESCT1373619	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Accord Healthcare Ltd)
+^ESCT1373620	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Accord Healthcare Ltd) 5 ml
+^ESCT1373649	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (A A H Pharmaceuticals Ltd)
+^ESCT1373650	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (A A H Pharmaceuticals Ltd) 5 ml
+^ESCT1373916	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Thornton & Ross Ltd)
+^ESCT1373917	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Thornton & Ross Ltd) 5 ml
+^ESCT1374279	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Alliance Healthcare (Distribution) Ltd)
+^ESCT1374280	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Alliance Healthcare (Distribution) Ltd) 5 ml
+^ESCT1375541	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Medihealth (Northern) Ltd)
+^ESCT1375542	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Medihealth (Northern) Ltd) 5 ml
+^ESCT1375789	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops (Aspire Pharma Ltd)
+^ESCT1375790	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops (Aspire Pharma Ltd) 3 ml
+^ESCT1376067	Ganfort 0.3mg/ml / 5mg/ml eye drops (Ethigen Ltd)
+^ESCT1376068	Ganfort 0.3mg/ml / 5mg/ml eye drops (Ethigen Ltd) 3 ml
+^ESCT1376098	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops (A A H Pharmaceuticals Ltd)
+^ESCT1376099	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops (A A H Pharmaceuticals Ltd) 3 ml
+^ESCT1381318	Timolol-containing product in oral dose form
+^ESCT1386911	Bendroflumethiazide- and timolol-containing product in oral dose form
+^ESCT1386913	Amiloride- and hydrochlorothiazide- and timolol-containing product
+^ESCT1386937	Amiloride- and hydrochlorothiazide- and timolol-containing product in oral dose form
+^ESCT1389457	Azarga 10mg/ml / 5mg/ml eye drops (Ethigen Ltd)
+^ESCT1389458	Azarga 10mg/ml / 5mg/ml eye drops (Ethigen Ltd) 5 ml
+^ESCT1389491	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Ethigen Ltd)
+^ESCT1389492	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Ethigen Ltd) 2.5 ml
+^ESCT1402597	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1402598	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (Alliance Healthcare (Distribution) Ltd) 60 unit dose 12 x 5 x 0.2ml unit doses
+^ESCT1403359	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (Medihealth (Northern) Ltd)
+^ESCT1403360	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops 0.2ml unit dose preservative free (Medihealth (Northern) Ltd) 60 unit dose 12 x 5 x 0.2ml unit dose
+^ESCT1403983	Cosopt iMulti 20mg/ml / 5mg/ml eye drops preservative free (CST Pharma Ltd)
+^ESCT1403985	Cosopt iMulti 20mg/ml / 5mg/ml eye drops preservative free (CST Pharma Ltd) 10 ml
+^ESCT1405016	Cosopt iMulti 20mg/ml / 5mg/ml eye drops preservative free (Pilsco Ltd)
+^ESCT1405017	Cosopt iMulti 20mg/ml / 5mg/ml eye drops preservative free (Pilsco Ltd) 10 ml
+^ESCT1405026	Tiopex 1mg/g eye gel 0.4g unit dose (Pilsco Ltd)
+^ESCT1405027	Tiopex 1mg/g eye gel 0.4g unit dose (Pilsco Ltd) 30 unit dose
+^ESCT1405050	Brimonidine 2mg/ml / Timolol 5mg/ml eye drops (A A H Pharmaceuticals Ltd)
+^ESCT1405051	Brimonidine 2mg/ml / Timolol 5mg/ml eye drops (A A H Pharmaceuticals Ltd) 5 ml
+^ESCT1405063	Brimonidine 2mg/ml / Timolol 5mg/ml eye drops (Alliance Healthcare (Distribution) Ltd)
+^ESCT1405065	Brimonidine 2mg/ml / Timolol 5mg/ml eye drops (Alliance Healthcare (Distribution) Ltd) 5 ml
+^ESCT1405196	Vizidor Duo 20mg/ml / 5mg/ml eye drops (Bausch & Lomb UK Ltd)
+^ESCT1405197	Vizidor Duo 20mg/ml / 5mg/ml eye drops (Bausch & Lomb UK Ltd) 5 ml
+^ESCT1409486	Moducren tablets (Organon Pharma (UK) Ltd)
+^ESCT1410129	Nyogel 0.1% eye gel (Alcon Eye Care UK Ltd)
+^ESCT1411208	Nyogel 0.1% eye gel (Alcon Eye Care UK Ltd) 5 gram
+^ESCT1411486	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Accord Healthcare Ltd)
+^ESCT1411487	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Accord Healthcare Ltd) 2.5 ml
+^ESCT1422433	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Zentiva Pharma UK Ltd)
+^ESCT1422434	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops (Zentiva Pharma UK Ltd) 5 ml
+^ESCT1422604	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Zentiva Pharma UK Ltd)
+^ESCT1422605	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Zentiva Pharma UK Ltd) 2.5 ml
+^ESCT1425690	Timolol 0.5% eye drops (Kent Pharma (UK) Ltd)
+^ESCT1425728	Timolol 0.25% eye drops (Kent Pharma (UK) Ltd)
+^ESCT1426106	Timolol 0.25% eye drops (Kent Pharma (UK) Ltd) 5 ml
+^ESCT1426113	Timolol 0.5% eye drops (Kent Pharma (UK) Ltd) 5 ml
+^ESCT1427354	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Kent Pharma (UK) Ltd)
+^ESCT1427355	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Kent Pharma (UK) Ltd) 2.5 ml
+^ESCT1429027	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Medihealth (Northern) Ltd)
+^ESCT1429028	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Medihealth (Northern) Ltd) 5 ml
+^ESCT1429316	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Medihealth (Northern) Ltd)
+^ESCT1429317	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Medihealth (Northern) Ltd) 2.5 ml
+^ESCT1429375	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops preservative free (A A H Pharmaceuticals Ltd)
+^ESCT1429376	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops preservative free (A A H Pharmaceuticals Ltd) 3 ml
+^ESCT1429612	Timolol 0.25% eye drops (Medihealth (Northern) Ltd)
+^ESCT1429613	Timolol 0.25% eye drops (Medihealth (Northern) Ltd) 5 ml
+^ESCT1429614	Timolol 0.5% eye drops (Medihealth (Northern) Ltd)
+^ESCT1429615	Timolol 0.5% eye drops (Medihealth (Northern) Ltd) 5 ml
+^ESCT1429616	Timolol 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429617	Timolol 10mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1429682	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (Medihealth (Northern) Ltd)
+^ESCT1429683	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (Medihealth (Northern) Ltd) 2.5 ml
+^ESCT1431382	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops 0.4ml unit dose preservative free (Aspire Pharma Ltd)
+^ESCT1431383	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops 0.4ml unit dose preservative free (Aspire Pharma Ltd) 30 unit dose 6 x 5 unit doses
+^ESCT1431579	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops (Alliance Healthcare (Distribution) Ltd)
+^ESCT1431580	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops (Alliance Healthcare (Distribution) Ltd) 3 ml
+^ESCT1435542	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (DE Pharmaceuticals)
+^ESCT1435543	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (DE Pharmaceuticals) 5 ml
+^ESCT1435548	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops (DE Pharmaceuticals)
+^ESCT1435549	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops (DE Pharmaceuticals) 3 ml
+^ESCT1436503	Ganfort 0.3mg/ml / 5mg/ml eye drops 0.4ml unit dose (DE Pharmaceuticals)
+^ESCT1436504	Ganfort 0.3mg/ml / 5mg/ml eye drops 0.4ml unit dose (DE Pharmaceuticals) 30 unit dose
+^ESCT1436777	Timolol 0.5% eye drops (Viatris UK Healthcare Ltd)
+^ESCT1437033	Timolol 0.25% eye drops (Viatris UK Healthcare Ltd)
+^ESCT1437236	Timolol 0.25% eye drops (Viatris UK Healthcare Ltd) 5 ml
+^ESCT1437237	Timolol 0.5% eye drops (Viatris UK Healthcare Ltd) 5 ml
+^ESCT1437622	Xalacom eye drops (Viatris UK Healthcare Ltd)
+^ESCT1437623	Xalacom eye drops (Viatris UK Healthcare Ltd) 2.5 ml
+^ESCT1438562	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438563	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1438682	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Viatris UK Healthcare Ltd)
+^ESCT1438683	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Viatris UK Healthcare Ltd) 2.5 ml
+^ESCT1439072	Timolol 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439073	Timolol 10mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1439116	Brimonidine 2mg/ml / Timolol 5mg/ml eye drops (Viatris UK Healthcare Ltd)
+^ESCT1439117	Brimonidine 2mg/ml / Timolol 5mg/ml eye drops (Viatris UK Healthcare Ltd) 5 ml
+^ESCT1439121	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (Viatris UK Healthcare Ltd)
+^ESCT1439122	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops (Viatris UK Healthcare Ltd) 2.5 ml
+^ESCT1439251	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Viatris UK Healthcare Ltd)
+^ESCT1439252	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops (Viatris UK Healthcare Ltd) 5 ml
+^ESCT1440930	Combigan eye drops (AbbVie Ltd)
+^ESCT1440931	Combigan eye drops (AbbVie Ltd) 5 ml
+^ESCT1440940	Ganfort 0.3mg/ml / 5mg/ml eye drops (AbbVie Ltd)
+^ESCT1440941	Ganfort 0.3mg/ml / 5mg/ml eye drops (AbbVie Ltd) 3 ml
+^ESCT1440942	Ganfort 0.3mg/ml / 5mg/ml eye drops (AbbVie Ltd) 9 ml 3 x 3ml bottles
+^ESCT1440945	Combigan eye drops (AbbVie Ltd) 15 ml 3 x 5ml bottles
+^ESCT1441070	Ganfort 0.3mg/ml / 5mg/ml eye drops 0.4ml unit dose (AbbVie Ltd)
+^ESCT1441071	Ganfort 0.3mg/ml / 5mg/ml eye drops 0.4ml unit dose (AbbVie Ltd) 30 unit dose 6 x 5 unit doses
+^ESCTAZ1001885	Azarga 10mg/ml / 5mg/ml eye drops (Mawdsley-Brooks & Company Ltd)
+^ESCTAZ1001886	Azarga 10mg/ml / 5mg/ml eye drops (Mawdsley-Brooks & Company Ltd) 5 ml
+^ESCTAZ1007101	Azarga 10mg/ml / 5mg/ml eye drops (Lexon (UK) Ltd)
+^ESCTAZ1007103	Azarga 10mg/ml / 5mg/ml eye drops (Lexon (UK) Ltd) 5 ml
+^ESCTAZ1011651	Azarga 10mg/ml / 5mg/ml eye drops (DE Pharmaceuticals)
+^ESCTAZ1011652	Azarga 10mg/ml / 5mg/ml eye drops (DE Pharmaceuticals) 5 ml
+^ESCTAZ981784	Azarga 10mg/ml / 5mg/ml eye drops (Novartis Pharmaceuticals UK Ltd)
+^ESCTAZ981785	Azarga 10mg/ml / 5mg/ml eye drops (Novartis Pharmaceuticals UK Ltd) 5 ml
+^ESCTAZ991832	Azarga 10mg/ml / 5mg/ml eye drops (Waymade Healthcare Plc)
+^ESCTAZ991833	Azarga 10mg/ml / 5mg/ml eye drops (Waymade Healthcare Plc) 5 ml
+^ESCTBE1007107	Betim 10mg tablets (Lexon (UK) Ltd)
+^ESCTBE1007110	Betim 10mg tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTBE698174	Bendroflumethiazide + timolol
+^ESCTBE698175	Bendroflumethiazide + Timolol
+^ESCTBE802281	Betim 10mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTBE851637	Betim 10mg tablets (Meda Pharmaceuticals Ltd) 30 tablet
+^ESCTBE914115	Betim
+^ESCTBI1055526	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops 0.4ml unit dose preservative free 30 unit dose
+^ESCTBI1055608	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops 0.4ml unit dose preservative free
+^ESCTBI702392	Bimatoprost + Timolol
+^ESCTBI702393	Bimatoprost + timolol
+^ESCTBI929471	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops 3 ml
+^ESCTBI929472	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops 9 ml
+^ESCTBI930021	Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops
+^ESCTBR689369	Brimonidine 0.2%/timolol 0.5% eye drops
+^ESCTBR689370	Brimonidine tartrate 0.2%/timolol 0.5% eye drops
+^ESCTBR689371	Brimonidine 0.2%/timolol 0.5% ophthalmic solution
+^ESCTBR690228	Brimonidine + Timolol
+^ESCTBR690229	Brimonidine + timolol
+^ESCTBR913797	Brimonidine 2mg/ml / Timolol 5mg/ml eye drops 5 ml
+^ESCTBR913810	Brimonidine 2mg/ml / Timolol 5mg/ml eye drops
+^ESCTBR940142	Brimonidine 2mg/ml / Timolol 5mg/ml eye drops 15 ml
+^ESCTBR981783	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops 5 ml
+^ESCTBR981879	Brinzolamide + Timolol
+^ESCTBR981931	Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops
+^ESCTCO1008588	Combigan eye drops (Mawdsley-Brooks & Company Ltd)
+^ESCTCO1008589	Combigan eye drops (Mawdsley-Brooks & Company Ltd) 5 ml
+^ESCTCO1008692	Cosopt eye drops (Necessity Supplies Ltd)
+^ESCTCO1008693	Cosopt eye drops (Necessity Supplies Ltd) 5 ml
+^ESCTCO1020920	Combigan eye drops (DE Pharmaceuticals)
+^ESCTCO1020921	Combigan eye drops (DE Pharmaceuticals) 5 ml
+^ESCTCO1022712	Cosopt eye drops 0.2ml unit dose preservative free (Mawdsley-Brooks & Company Ltd)
+^ESCTCO1022713	Cosopt eye drops 0.2ml unit dose preservative free (Mawdsley-Brooks & Company Ltd) 60 unit dose
+^ESCTCO1023874	Combigan eye drops (Lexon (UK) Ltd)
+^ESCTCO1023875	Combigan eye drops (Lexon (UK) Ltd) 5 ml
+^ESCTCO1023878	Cosopt eye drops (Lexon (UK) Ltd)
+^ESCTCO1023879	Cosopt eye drops (Lexon (UK) Ltd) 5 ml
+^ESCTCO1023880	Cosopt eye drops 0.2ml unit dose preservative free (Lexon (UK) Ltd)
+^ESCTCO1023881	Cosopt eye drops 0.2ml unit dose preservative free (Lexon (UK) Ltd) 60 unit dose
+^ESCTCO1023911	Cosopt eye drops (DE Pharmaceuticals)
+^ESCTCO1023912	Cosopt eye drops (DE Pharmaceuticals) 5 ml
+^ESCTCO1065731	Cosopt eye drops 0.2ml unit dose preservative free (Waymade Healthcare Plc)
+^ESCTCO1065732	Cosopt eye drops 0.2ml unit dose preservative free (Waymade Healthcare Plc) 60 unit dose
+^ESCTCO850414	Cosopt eye drops (Santen UK Ltd) 5 ml
+^ESCTCO861036	Cosopt eye drops (Santen UK Ltd)
+^ESCTCO876981	Cosopt eye drops (Waymade Healthcare Plc)
+^ESCTCO876983	Cosopt eye drops (Waymade Healthcare Plc) 5 ml
+^ESCTCO877226	Cosopt eye drops (Dowelhurst Ltd)
+^ESCTCO877229	Cosopt eye drops (Dowelhurst Ltd) 5 ml
+^ESCTCO913799	Combigan eye drops (Allergan Ltd)
+^ESCTCO913801	Combigan eye drops (Allergan Ltd) 5 ml
+^ESCTCO934313	Cosopt eye drops 0.2ml unit dose preservative free (Santen UK Ltd)
+^ESCTCO934314	Cosopt eye drops 0.2ml unit dose preservative free (Santen UK Ltd) 60 unit dose 4 x 15 unit doses
+^ESCTCO940144	Combigan eye drops (Allergan Ltd) 15 ml 3 x 5ml bottles
+^ESCTCO977965	Combigan eye drops (Waymade Healthcare Plc)
+^ESCTCO977966	Combigan eye drops (Waymade Healthcare Plc) 5 ml
+^ESCTCO992737	Cosopt eye drops (Mawdsley-Brooks & Company Ltd)
+^ESCTCO992738	Cosopt eye drops (Mawdsley-Brooks & Company Ltd) 5 ml
+^ESCTDO1005501	Dorzolamide 2% / Timolol 0.5% eye drops (Teva UK Ltd)
+^ESCTDO1005502	Dorzolamide 2% / Timolol 0.5% eye drops (Teva UK Ltd) 5 ml
+^ESCTDO1006952	Dorzolamide 2% / Timolol 0.5% eye drops (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO1006953	Dorzolamide 2% / Timolol 0.5% eye drops (Alliance Healthcare (Distribution) Ltd) 5 ml
+^ESCTDO1018631	Dorzolamide 2% / Timolol 0.5% eye drops (Zentiva)
+^ESCTDO1018632	Dorzolamide 2% / Timolol 0.5% eye drops (Zentiva) 5 ml
+^ESCTDO1018887	Dorzolamide 2% / Timolol 0.5% eye drops (Aspire Pharma Ltd)
+^ESCTDO1018888	Dorzolamide 2% / Timolol 0.5% eye drops (Aspire Pharma Ltd) 5 ml
+^ESCTDO1020554	Dorzolamide 2% / Timolol 0.5% eye drops (Actavis UK Ltd)
+^ESCTDO1020555	Dorzolamide 2% / Timolol 0.5% eye drops (Actavis UK Ltd) 5 ml
+^ESCTDO1027566	Dorzolamide 2% / Timolol 0.5% eye drops (Sandoz Ltd)
+^ESCTDO1027573	Dorzolamide 2% / Timolol 0.5% eye drops (Sandoz Ltd) 5 ml
+^ESCTDO1042837	Dorzolamide 2% / Timolol 0.5% eye drops (Waymade Healthcare Plc)
+^ESCTDO1042838	Dorzolamide 2% / Timolol 0.5% eye drops (Waymade Healthcare Plc) 5 ml
+^ESCTDO1050396	Dorzolamide 2% / Timolol 0.5% eye drops 0.2ml unit dose preservative free (Teva UK Ltd)
+^ESCTDO1050397	Dorzolamide 2% / Timolol 0.5% eye drops 0.2ml unit dose preservative free (Teva UK Ltd) 60 unit dose 12 x 5 x 0.2ml unit doses
+^ESCTDO1057173	Dorzolamide 2% / Timolol 0.5% eye drops 0.2ml unit dose preservative free (A A H Pharmaceuticals Ltd)
+^ESCTDO1057175	Dorzolamide 2% / Timolol 0.5% eye drops 0.2ml unit dose preservative free (A A H Pharmaceuticals Ltd) 60 unit dose 12 x 5 x 0.2ml unit doses
+^ESCTDO1060599	Dorzolamide 2% / Timolol 0.5% eye drops (Phoenix Healthcare Distribution Ltd)
+^ESCTDO1060600	Dorzolamide 2% / Timolol 0.5% eye drops (Phoenix Healthcare Distribution Ltd) 5 ml
+^ESCTDO1061894	Dorzolamide 2% / Timolol 0.5% eye drops (DE Pharmaceuticals)
+^ESCTDO1061895	Dorzolamide 2% / Timolol 0.5% eye drops (DE Pharmaceuticals) 5 ml
+^ESCTDO1096876	Dorzolamide 2% / Timolol 0.5% eye drops (Martindale Pharmaceuticals Ltd)
+^ESCTDO1096878	Dorzolamide 2% / Timolol 0.5% eye drops (Martindale Pharmaceuticals Ltd) 5 ml
+^ESCTDO1117465	Dorzolamide 2% / Timolol 0.5% eye drops (Sigma Pharmaceuticals Plc)
+^ESCTDO1117467	Dorzolamide 2% / Timolol 0.5% eye drops (Sigma Pharmaceuticals Plc) 5 ml
+^ESCTDO1159572	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops preservative free 5 ml
+^ESCTDO1159624	Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops preservative free
+^ESCTDO615657	Dorzolamide + Timolol
+^ESCTDO615658	Dorzolamide+timolol
+^ESCTDO615659	Dorzolamide 2% / Timolol 0.5% eye drops
+^ESCTDO615660	Dorzolamide+timolol 2%/0.5% eye drops
+^ESCTDO848470	Dorzolamide 2% / Timolol 0.5% eye drops 5 ml
+^ESCTDO934312	Dorzolamide 2% / Timolol 0.5% eye drops 0.2ml unit dose preservative free 60 unit dose
+^ESCTDO934319	Dorzolamide 2% / Timolol 0.5% eye drops 0.2ml unit dose preservative free
+^ESCTDO998977	Dorzolamide 2% / Timolol 0.5% eye drops (A A H Pharmaceuticals Ltd)
+^ESCTDO998979	Dorzolamide 2% / Timolol 0.5% eye drops (A A H Pharmaceuticals Ltd) 5 ml
+^ESCTDU1002288	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Sigma Pharmaceuticals Plc)
+^ESCTDU1002289	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Sigma Pharmaceuticals Plc) 2.5 ml
+^ESCTDU1008959	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Necessity Supplies Ltd)
+^ESCTDU1008960	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Necessity Supplies Ltd) 2.5 ml
+^ESCTDU1026402	DuoTrav 40micrograms/ml / 5mg/ml eye drops (DE Pharmaceuticals)
+^ESCTDU1026403	DuoTrav 40micrograms/ml / 5mg/ml eye drops (DE Pharmaceuticals) 2.5 ml
+^ESCTDU928085	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Novartis Pharmaceuticals UK Ltd)
+^ESCTDU928086	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Novartis Pharmaceuticals UK Ltd) 2.5 ml
+^ESCTDU928087	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Novartis Pharmaceuticals UK Ltd) 7.5 ml 3 x 2.5ml bottles
+^ESCTDU940749	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Waymade Healthcare Plc)
+^ESCTDU940750	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Waymade Healthcare Plc) 2.5 ml
+^ESCTDU959747	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Dowelhurst Ltd)
+^ESCTDU959748	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Dowelhurst Ltd) 2.5 ml
+^ESCTDU993226	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Mawdsley-Brooks & Company Ltd)
+^ESCTDU993229	DuoTrav 40micrograms/ml / 5mg/ml eye drops (Mawdsley-Brooks & Company Ltd) 2.5 ml
+^ESCTEY1159573	Eylamdo 20mg/ml / 5mg/ml eye drops (Aspire Pharma Ltd)
+^ESCTEY1159574	Eylamdo 20mg/ml / 5mg/ml eye drops (Aspire Pharma Ltd) 5 ml
+^ESCTEY1159849	Eysano 5mg/ml eye drops (Aspire Pharma Ltd)
+^ESCTEY1159850	Eysano 5mg/ml eye drops (Aspire Pharma Ltd) 5 ml
+^ESCTEY1159852	Eysano 2.5mg/ml eye drops (Aspire Pharma Ltd)
+^ESCTEY1159853	Eysano 2.5mg/ml eye drops (Aspire Pharma Ltd) 5 ml
+^ESCTGA1002002	Ganfort 0.3mg/ml / 5mg/ml eye drops (Mawdsley-Brooks & Company Ltd)
+^ESCTGA1002003	Ganfort 0.3mg/ml / 5mg/ml eye drops (Mawdsley-Brooks & Company Ltd) 3 ml
+^ESCTGA1009064	Ganfort 0.3mg/ml / 5mg/ml eye drops (Necessity Supplies Ltd)
+^ESCTGA1009065	Ganfort 0.3mg/ml / 5mg/ml eye drops (Necessity Supplies Ltd) 3 ml
+^ESCTGA1011950	Ganfort 0.3mg/ml / 5mg/ml eye drops (DE Pharmaceuticals)
+^ESCTGA1011951	Ganfort 0.3mg/ml / 5mg/ml eye drops (DE Pharmaceuticals) 3 ml
+^ESCTGA1055527	Ganfort 0.3mg/ml / 5mg/ml eye drops 0.4ml unit dose (Allergan Ltd)
+^ESCTGA1055531	Ganfort 0.3mg/ml / 5mg/ml eye drops 0.4ml unit dose (Allergan Ltd) 30 unit dose 6 x 5 unit doses
+^ESCTGA929473	Ganfort 0.3mg/ml / 5mg/ml eye drops (Allergan Ltd)
+^ESCTGA929474	Ganfort 0.3mg/ml / 5mg/ml eye drops (Allergan Ltd) 3 ml
+^ESCTGA929475	Ganfort 0.3mg/ml / 5mg/ml eye drops (Allergan Ltd) 9 ml 3 x 3ml bottles
+^ESCTGA940164	Ganfort 0.3mg/ml / 5mg/ml eye drops (Waymade Healthcare Plc)
+^ESCTGA940166	Ganfort 0.3mg/ml / 5mg/ml eye drops (Waymade Healthcare Plc) 3 ml
+^ESCTGA970252	Ganfort 0.3mg/ml / 5mg/ml eye drops (Sigma Pharmaceuticals Plc)
+^ESCTGA970253	Ganfort 0.3mg/ml / 5mg/ml eye drops (Sigma Pharmaceuticals Plc) 3 ml
+^ESCTGA989111	Ganfort 0.3mg/ml / 5mg/ml eye drops (Lexon (UK) Ltd)
+^ESCTGA989112	Ganfort 0.3mg/ml / 5mg/ml eye drops (Lexon (UK) Ltd) 3 ml
+^ESCTGE607128	Generic Moducren tablets
+^ESCTGL801764	Glau-Opt 0.5% eye drops (Opus Pharmaceuticals Ltd)
+^ESCTGL829909	Glau-Opt 0.25% eye drops (Opus Pharmaceuticals Ltd)
+^ESCTGL850487	Glau-Opt 0.25% eye drops (Opus Pharmaceuticals Ltd) 5 ml
+^ESCTGL850520	Glau-Opt 0.5% eye drops (Opus Pharmaceuticals Ltd) 5 ml
+^ESCTLA1023670	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Teva UK Ltd)
+^ESCTLA1023671	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Teva UK Ltd) 2.5 ml
+^ESCTLA1024847	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Actavis UK Ltd)
+^ESCTLA1024848	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Actavis UK Ltd) 2.5 ml
+^ESCTLA1024930	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (A A H Pharmaceuticals Ltd)
+^ESCTLA1024931	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (A A H Pharmaceuticals Ltd) 2.5 ml
+^ESCTLA1026087	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Kent Pharmaceuticals Ltd)
+^ESCTLA1026088	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Kent Pharmaceuticals Ltd) 2.5 ml
+^ESCTLA1026620	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Alliance Healthcare (Distribution) Ltd)
+^ESCTLA1026621	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Alliance Healthcare (Distribution) Ltd) 2.5 ml
+^ESCTLA1044061	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Waymade Healthcare Plc)
+^ESCTLA1044062	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Waymade Healthcare Plc) 2.5 ml
+^ESCTLA1046829	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Zentiva)
+^ESCTLA1046830	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Zentiva) 2.5 ml
+^ESCTLA1065558	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (DE Pharmaceuticals)
+^ESCTLA1065559	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (DE Pharmaceuticals) 2.5 ml
+^ESCTLA1096887	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Martindale Pharmaceuticals Ltd)
+^ESCTLA1096892	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Martindale Pharmaceuticals Ltd) 2.5 ml
+^ESCTLA1117928	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Sigma Pharmaceuticals Plc)
+^ESCTLA1117929	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Sigma Pharmaceuticals Plc) 2.5 ml
+^ESCTLA1120917	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Mawdsley-Brooks & Company Ltd)
+^ESCTLA1120918	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Mawdsley-Brooks & Company Ltd) 2.5 ml
+^ESCTLA1152894	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Mylan Ltd)
+^ESCTLA1152895	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops (Mylan Ltd) 2.5 ml
+^ESCTLA652434	Latanoprost + Timolol
+^ESCTLA652435	Latanoprost+timolol
+^ESCTLA676470	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops
+^ESCTLA676471	Latanoprost+timolol 0.005%/0.5% eye drops
+^ESCTLA863033	Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops 2.5 ml
+^ESCTMO802329	Moducren tablets (Merck Sharp & Dohme Ltd)
+^ESCTMO879523	Moducren tablets (Dowelhurst Ltd)
+^ESCTMO930308	Moducren tablets (Waymade Healthcare Plc)
+^ESCTNY1001461	Nyogel 0.1% eye gel (Alcon Laboratories (UK) Ltd) 5 gram
+^ESCTNY1001462	Nyogel 0.1% eye gel (Sigma Pharmaceuticals Plc) 5 gram
+^ESCTNY861693	Nyogel 0.1% eye gel (Alcon Laboratories (UK) Ltd)
+^ESCTNY954271	Nyogel 0.1% eye gel (Waymade Healthcare Plc)
+^ESCTNY974367	Nyogel 0.1% eye gel (Sigma Pharmaceuticals Plc)
+^ESCTPR389131	Product containing timolol
+^ESCTPR607110	Product containing timolol maleate 10 mg/1 each oral tablet
+^ESCTPR607129	Product containing timolol maleate 10 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR607132	Product containing timolol maleate 10 mg and bendroflumethiazide 2.5 mg/1 each oral tablet
+^ESCTPR619005	Product containing timolol in oral dosage form
+^ESCTPR641333	Product containing timolol maleate 5 mg/1 each oral tablet
+^ESCTPR641469	Product containing timolol maleate 20 mg/1 each oral tablet
+^ESCTPR661242	Product containing amiloride and hydrochlorothiazide and timolol maleate
+^ESCTPR661267	Product containing hydrochlorothiazide and timolol maleate
+^ESCTPR680396	Product containing timolol maleate 10 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR698235	Product containing timolol in ophthalmic dosage form
+^ESCTPR803099	Prestim tablets (Meda Pharmaceuticals Ltd)
+^ESCTPR855883	Prestim tablets (Meda Pharmaceuticals Ltd) 30 tablet
+^ESCTTA1117957	Tafluprost 15micrograms/ml / Timolol 5mg/ml eye drops 0.3ml unit dose preservative free 30 unit dose
+^ESCTTA1117958	Taptiqom 15micrograms/ml / 5mg/ml eye drops 0.3ml unit dose (Santen UK Ltd)
+^ESCTTA1117959	Taptiqom 15micrograms/ml / 5mg/ml eye drops 0.3ml unit dose (Santen UK Ltd) 30 unit dose 3 x 10 unit doses
+^ESCTTA1118249	Tafluprost 15micrograms/ml / Timolol 5mg/ml eye drops 0.3ml unit dose preservative free
+^ESCTTA1118284	Tafluprost + Timolol
+^ESCTTI1001459	Timolol 0.1% gel eye drops 5 gram
+^ESCTTI1001607	Timoptol 0.25% eye drops (Mawdsley-Brooks & Company Ltd)
+^ESCTTI1001608	Timoptol 0.25% eye drops (Mawdsley-Brooks & Company Ltd) 5 ml
+^ESCTTI1001609	Timoptol 0.5% eye drops (Mawdsley-Brooks & Company Ltd)
+^ESCTTI1001610	Timoptol 0.5% eye drops (Mawdsley-Brooks & Company Ltd) 5 ml
+^ESCTTI1001611	Timoptol Unit Dose 0.5% ophthalmic solution 0.2ml unit dose (Mawdsley-Brooks & Company Ltd)
+^ESCTTI1001612	Timoptol Unit Dose 0.5% ophthalmic solution 0.2ml unit dose (Mawdsley-Brooks & Company Ltd) 30 unit dose
+^ESCTTI1004947	Timolol 0.25% eye drops (Phoenix Healthcare Distribution Ltd)
+^ESCTTI1004950	Timolol 0.25% eye drops (Phoenix Healthcare Distribution Ltd) 5 ml
+^ESCTTI1004952	Timolol 0.5% eye drops (Phoenix Healthcare Distribution Ltd)
+^ESCTTI1004955	Timolol 0.5% eye drops (Phoenix Healthcare Distribution Ltd) 5 ml
+^ESCTTI1006917	Timoptol Unit Dose 0.5% ophthalmic solution 0.2ml unit dose (Waymade Healthcare Plc)
+^ESCTTI1006918	Timoptol Unit Dose 0.5% ophthalmic solution 0.2ml unit dose (Waymade Healthcare Plc) 30 unit dose
+^ESCTTI1008019	Timoptol Unit Dose 0.5% ophthalmic solution 0.2ml unit dose (Sigma Pharmaceuticals Plc)
+^ESCTTI1008022	Timoptol Unit Dose 0.5% ophthalmic solution 0.2ml unit dose (Sigma Pharmaceuticals Plc) 30 unit dose
+^ESCTTI1008330	Timoptol Unit Dose 0.25% ophthalmic solution 0.2ml unit dose (Mawdsley-Brooks & Company Ltd)
+^ESCTTI1008332	Timoptol Unit Dose 0.25% ophthalmic solution 0.2ml unit dose (Mawdsley-Brooks & Company Ltd) 30 unit dose
+^ESCTTI1008455	Timoptol 0.5% eye drops (Necessity Supplies Ltd)
+^ESCTTI1008456	Timoptol 0.5% eye drops (Necessity Supplies Ltd) 5 ml
+^ESCTTI1012293	Timoptol 0.5% eye drops (DE Pharmaceuticals)
+^ESCTTI1012294	Timoptol 0.5% eye drops (DE Pharmaceuticals) 5 ml
+^ESCTTI1012295	Timoptol Unit Dose 0.25% ophthalmic solution 0.2ml unit dose (DE Pharmaceuticals)
+^ESCTTI1012296	Timoptol Unit Dose 0.25% ophthalmic solution 0.2ml unit dose (DE Pharmaceuticals) 30 unit dose
+^ESCTTI1012297	Timoptol Unit Dose 0.5% ophthalmic solution 0.2ml unit dose (DE Pharmaceuticals)
+^ESCTTI1012298	Timoptol Unit Dose 0.5% ophthalmic solution 0.2ml unit dose (DE Pharmaceuticals) 30 unit dose
+^ESCTTI1021634	Timoptol 0.25% eye drops (DE Pharmaceuticals)
+^ESCTTI1021635	Timoptol 0.25% eye drops (DE Pharmaceuticals) 5 ml
+^ESCTTI1022351	Timolol 1mg/g gel eye drops 0.4g unit dose preservative free 30 unit dose
+^ESCTTI1022352	Tiopex 1mg/g eye gel 0.4g unit dose (Thea Pharmaceuticals Ltd)
+^ESCTTI1022354	Tiopex 1mg/g eye gel 0.4g unit dose (Thea Pharmaceuticals Ltd) 30 unit dose 3 x 10 x 0.4g unit doses
+^ESCTTI1022569	Timolol 1mg/g gel eye drops 0.4g unit dose preservative free
+^ESCTTI1034201	Timolol 2.5mg/ml eye drops preservative free 1 ml
+^ESCTTI1034202	Timolol 0.25% eye drops preservative free (Special Order)
+^ESCTTI1034203	Timolol 0.25% eye drops preservative free (Special Order) 1 ml
+^ESCTTI1034514	Timolol 2.5mg/ml eye drops preservative free
+^ESCTTI1040136	Tidomat eye drops (Beacon Pharmaceuticals Ltd)
+^ESCTTI1040137	Tidomat eye drops (Beacon Pharmaceuticals Ltd) 5 ml
+^ESCTTI1041514	Timolol 0.25% eye drops (Waymade Healthcare Plc)
+^ESCTTI1041515	Timolol 0.25% eye drops (Waymade Healthcare Plc) 5 ml
+^ESCTTI1041516	Timolol 0.5% eye drops (Waymade Healthcare Plc)
+^ESCTTI1041517	Timolol 0.5% eye drops (Waymade Healthcare Plc) 5 ml
+^ESCTTI1054290	Timolol 10mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTTI1054291	Timolol 10mg tablets (Focus Pharmaceuticals Ltd) 30 tablet
+^ESCTTI1056827	Timoptol 0.25% eye drops (Waymade Healthcare Plc)
+^ESCTTI1056828	Timoptol 0.25% eye drops (Waymade Healthcare Plc) 5 ml
+^ESCTTI1057212	Timolol 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTI1057213	Timolol 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTTI1059093	Timolol 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTI1059094	Timolol 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTTI1119808	Timolol 0.25% eye drops (DE Pharmaceuticals)
+^ESCTTI1119809	Timolol 0.25% eye drops (DE Pharmaceuticals) 5 ml
+^ESCTTI1119810	Timolol 0.5% eye drops (DE Pharmaceuticals)
+^ESCTTI1119811	Timolol 0.5% eye drops (DE Pharmaceuticals) 5 ml
+^ESCTTI1121445	Timoptol Unit Dose 0.25% ophthalmic solution 0.2ml unit dose (Waymade Healthcare Plc)
+^ESCTTI1121446	Timoptol Unit Dose 0.25% ophthalmic solution 0.2ml unit dose (Waymade Healthcare Plc) 30 unit dose
+^ESCTTI1127643	Timolol 0.5% eye drops (Mawdsley-Brooks & Company Ltd)
+^ESCTTI1127644	Timolol 0.5% eye drops (Mawdsley-Brooks & Company Ltd) 5 ml
+^ESCTTI1128291	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTTI1128292	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (Meda Pharmaceuticals Ltd) 30 tablet
+^ESCTTI1130597	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTI1130598	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTTI1130722	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTI1130723	Timolol 10mg / Bendroflumethiazide 2.5mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTTI1146152	Timolol 5mg/ml eye drops preservative free 1 ml
+^ESCTTI1146153	Timolol 0.5% eye drops preservative free (Special Order)
+^ESCTTI1146154	Timolol 0.5% eye drops preservative free (Special Order) 1 ml
+^ESCTTI1159848	Timolol 5mg/ml eye drops preservative free 5 ml
+^ESCTTI1159851	Timolol 2.5mg/ml eye drops preservative free 5 ml
+^ESCTTI389130	Timolol
+^ESCTTI607109	Timolol 10mg tablets
+^ESCTTI607111	Timolol maleate 10 mg oral tablet
+^ESCTTI607130	Timolol maleate 10 mg and amiloride 2.5 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTTI607131	Timolol 10mg / Bendroflumethiazide 2.5mg tablets
+^ESCTTI607133	Timolol maleate 10 mg and bendroflumethiazide 2.5 mg oral tablet
+^ESCTTI615638	Timolol 0.25% eye gel
+^ESCTTI615639	Timolol 0.25% liquid eye gel
+^ESCTTI615640	Timolol 0.5% eye gel
+^ESCTTI615641	Timolol 0.5% liquid eye gel
+^ESCTTI615642	Timolol 0.25% eye drops
+^ESCTTI615643	Timolol 0.25% ophthalmic solution
+^ESCTTI615644	Timolol 0.5% eye drops
+^ESCTTI615645	Timolol 0.5% ophthalmic solution
+^ESCTTI618641	Timolol 0.25% metered dose eye drops
+^ESCTTI618642	Timolol 0.25% ophthalmic solution
+^ESCTTI619004	Timolol in oral dosage form
+^ESCTTI619006	Timolol eye drops
+^ESCTTI641332	Timolol maleate 5 mg oral tablet
+^ESCTTI641468	Timolol maleate 20 mg oral tablet
+^ESCTTI641581	Timolol maleate 0.25% ophthalmic solution
+^ESCTTI641582	Timolol maleate 0.5% ophthalmic solution
+^ESCTTI661241	Timolol maleate + amiloride + hydrochlorothiazide
+^ESCTTI661266	Timolol maleate+hydrochlorothiazide
+^ESCTTI663687	Timolol 5mg/ml eye drops preservative free
+^ESCTTI663688	Timolol 0.5% eye drops preservative free
+^ESCTTI675263	Timolol 0.1% gel eye drops
+^ESCTTI675264	Timolol 0.1% liquid eye gel
+^ESCTTI676472	Timolol 5mg/ml / Latanoprost 50micrograms/ml eye drops
+^ESCTTI680395	Timolol maleate 10 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTTI680397	Timolol maleate 0.5% gel forming ophthalmic solution
+^ESCTTI680398	Timolol GFS 0.5%
+^ESCTTI680399	Timolol maleate 0.25% gel forming ophthalmic solution
+^ESCTTI680400	Timolol GFS 0.25%
+^ESCTTI698173	Timolol + Bendroflumethiazide
+^ESCTTI698234	Timolol in ophthalmic dosage form
+^ESCTTI702291	Timolol + Travoprost
+^ESCTTI702292	Timolol + travoprost
+^ESCTTI799413	Timolol 0.25% eye drops (A A H Pharmaceuticals Ltd)
+^ESCTTI801708	Timolol 0.5% eye drops (Mylan Ltd)
+^ESCTTI803078	Timoptol 0.25% eye drops (Santen UK Ltd)
+^ESCTTI806760	Timolol 0.25% eye drops (Actavis UK Ltd)
+^ESCTTI810026	Timolol 0.5% eye drops (Martindale Pharmaceuticals Ltd)
+^ESCTTI811422	Timolol 0.25% eye drops (Teva UK Ltd)
+^ESCTTI812319	Timolol 0.5% eye drops (Actavis UK Ltd)
+^ESCTTI817993	Timolol 0.5% eye drops (Kent Pharmaceuticals Ltd)
+^ESCTTI818089	Timolol 0.5% eye drops (IVAX Pharmaceuticals UK Ltd)
+^ESCTTI819768	Timolol 0.5% eye drops (A A H Pharmaceuticals Ltd)
+^ESCTTI819884	Timolol 0.25% eye drops (Kent Pharmaceuticals Ltd)
+^ESCTTI820199	Timolol 0.5% eye drops (Alliance Healthcare (Distribution) Ltd)
+^ESCTTI820389	Timoptol 0.5% eye drops (Santen UK Ltd)
+^ESCTTI820617	Timolol 0.25% eye drops (IVAX Pharmaceuticals UK Ltd)
+^ESCTTI821730	Timolol 0.25% eye drops (Alliance Healthcare (Distribution) Ltd)
+^ESCTTI825004	Timolol 0.25% eye drops (Mylan Ltd)
+^ESCTTI827451	Timolol 0.25% eye drops (Martindale Pharmaceuticals Ltd)
+^ESCTTI832925	Timolol 0.5% eye drops (Teva UK Ltd)
+^ESCTTI840172	Timolol 0.5% eye drops 5 ml
+^ESCTTI846796	Timolol 10mg / Bendroflumethiazide 2.5mg tablets 30 tablet
+^ESCTTI847048	Timolol 0.25% eye drops 5 ml
+^ESCTTI848258	Timolol 10mg tablets 30 tablet
+^ESCTTI850474	Timolol 0.25% eye drops (A A H Pharmaceuticals Ltd) 5 ml
+^ESCTTI850475	Timolol 0.25% eye drops (Actavis UK Ltd) 5 ml
+^ESCTTI850477	Timolol 0.25% eye drops (Teva UK Ltd) 5 ml
+^ESCTTI850480	Timolol 0.25% eye drops (Mylan Ltd) 5 ml
+^ESCTTI850481	Timolol 0.25% eye drops (IVAX Pharmaceuticals UK Ltd) 5 ml
+^ESCTTI850482	Timolol 0.25% eye drops (Kent Pharmaceuticals Ltd) 5 ml
+^ESCTTI850484	Timolol 0.25% eye drops (Martindale Pharmaceuticals Ltd) 5 ml
+^ESCTTI850485	Timoptol 0.25% eye drops (Santen UK Ltd) 5 ml
+^ESCTTI850489	Timolol 0.25% eye drops (Alliance Healthcare (Distribution) Ltd) 5 ml
+^ESCTTI850494	Timolol 0.5% eye drops (A A H Pharmaceuticals Ltd) 5 ml
+^ESCTTI850502	Timolol 0.5% eye drops (Actavis UK Ltd) 5 ml
+^ESCTTI850504	Timolol 0.5% eye drops (Teva UK Ltd) 5 ml
+^ESCTTI850506	Timolol 0.5% eye drops (Mylan Ltd) 5 ml
+^ESCTTI850509	Timolol 0.5% eye drops (IVAX Pharmaceuticals UK Ltd) 5 ml
+^ESCTTI850513	Timolol 0.5% eye drops (Kent Pharmaceuticals Ltd) 5 ml
+^ESCTTI850515	Timolol 0.5% eye drops (Martindale Pharmaceuticals Ltd) 5 ml
+^ESCTTI850518	Timoptol 0.5% eye drops (Santen UK Ltd) 5 ml
+^ESCTTI850522	Timolol 0.5% eye drops (Alliance Healthcare (Distribution) Ltd) 5 ml
+^ESCTTI861737	Timolol 0.5% eye gel 2.5 ml
+^ESCTTI861743	Timoptol-LA 0.5% ophthalmic gel-forming solution (Santen UK Ltd)
+^ESCTTI861748	Timoptol-LA 0.5% ophthalmic gel-forming solution (Santen UK Ltd) 2.5 ml
+^ESCTTI861776	Timolol 0.25% eye gel 2.5 ml
+^ESCTTI861781	Timoptol-LA 0.25% ophthalmic gel-forming solution (Santen UK Ltd)
+^ESCTTI861783	Timoptol-LA 0.25% ophthalmic gel-forming solution (Santen UK Ltd) 2.5 ml
+^ESCTTI861809	Timolol 0.5% eye drops 0.2ml unit dose preservative free 30 unit dose
+^ESCTTI861822	Timoptol Unit Dose 0.5% ophthalmic solution 0.2ml unit dose (Santen UK Ltd)
+^ESCTTI861823	Timoptol Unit Dose 0.5% ophthalmic solution 0.2ml unit dose (Santen UK Ltd) 30 unit dose
+^ESCTTI862285	Timolol 0.5% eye drops 0.2ml unit dose preservative free
+^ESCTTI863130	Timolol 0.25% eye drops 0.2ml unit dose preservative free 30 unit dose
+^ESCTTI863131	Timoptol Unit Dose 0.25% ophthalmic solution 0.2ml unit dose (Santen UK Ltd)
+^ESCTTI863132	Timoptol Unit Dose 0.25% ophthalmic solution 0.2ml unit dose (Santen UK Ltd) 30 unit dose
+^ESCTTI863147	Timolol 0.25% eye drops 0.2ml unit dose preservative free
+^ESCTTI877142	Timoptol 0.5% eye drops (Waymade Healthcare Plc)
+^ESCTTI877144	Timoptol 0.5% eye drops (Waymade Healthcare Plc) 5 ml
+^ESCTTI877451	Timoptol 0.25% eye drops (Dowelhurst Ltd)
+^ESCTTI877453	Timoptol 0.25% eye drops (Dowelhurst Ltd) 5 ml
+^ESCTTI877457	Timoptol 0.5% eye drops (Dowelhurst Ltd)
+^ESCTTI877458	Timoptol 0.5% eye drops (Dowelhurst Ltd) 5 ml
+^ESCTTI923657	Timolol 0.5% eye drops (Almus Pharmaceuticals Ltd)
+^ESCTTI923659	Timolol 0.5% eye drops (Almus Pharmaceuticals Ltd) 5 ml
+^ESCTTI923661	Timolol 0.25% eye drops (Almus Pharmaceuticals Ltd)
+^ESCTTI923664	Timolol 0.25% eye drops (Almus Pharmaceuticals Ltd) 5 ml
+^ESCTTI974384	Timoptol 0.25% eye drops (Sigma Pharmaceuticals Plc)
+^ESCTTI974386	Timoptol 0.25% eye drops (Sigma Pharmaceuticals Plc) 5 ml
+^ESCTTI974388	Timoptol 0.5% eye drops (Sigma Pharmaceuticals Plc)
+^ESCTTI974389	Timoptol 0.5% eye drops (Sigma Pharmaceuticals Plc) 5 ml
+^ESCTTI990199	Timoptol 0.25% eye drops (Lexon (UK) Ltd)
+^ESCTTI990200	Timoptol 0.25% eye drops (Lexon (UK) Ltd) 5 ml
+^ESCTTI990209	Timoptol 0.5% eye drops (Lexon (UK) Ltd)
+^ESCTTI990265	Timoptol 0.5% eye drops (Lexon (UK) Ltd) 5 ml
+^ESCTTI992130	Timolol 10mg / Amiloride 2.5mg / Hydrochlorothiazide 25mg tablets 28 tablet
+^ESCTTI992131	Timolol 10mg / Amiloride 2.5mg / Hydrochlorothiazide 25mg tablets (Essential Generics Ltd)
+^ESCTTI992135	Timolol 10mg / Amiloride 2.5mg / Hydrochlorothiazide 25mg tablets (Essential Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCTTI992148	Timolol 10mg / Amiloride 2.5mg / Hydrochlorothiazide 25mg tablets
+^ESCTTI992151	Timolol + Amiloride + Hydrochlorothiazide
+^ESCTTI993908	Timolol 10mg / Amiloride 2.5mg / Hydrochlorothiazide 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTI993909	Timolol 10mg / Amiloride 2.5mg / Hydrochlorothiazide 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTTI994229	Timoptol 0.5% eye drops (Stephar (U.K.) Ltd)
+^ESCTTI994230	Timoptol 0.5% eye drops (Stephar (U.K.) Ltd) 5 ml
+^ESCTTI994741	Timolol 10mg / Amiloride 2.5mg / Hydrochlorothiazide 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTI994742	Timolol 10mg / Amiloride 2.5mg / Hydrochlorothiazide 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTTR928083	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops 2.5 ml
+^ESCTTR928084	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops 7.5 ml
+^ESCTTR928164	Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops
+^ESCTXA1001710	Xalacom eye drops (Mawdsley-Brooks & Company Ltd)
+^ESCTXA1001711	Xalacom eye drops (Mawdsley-Brooks & Company Ltd) 2.5 ml
+^ESCTXA1008519	Xalacom eye drops (Necessity Supplies Ltd)
+^ESCTXA1008520	Xalacom eye drops (Necessity Supplies Ltd) 2.5 ml
+^ESCTXA863037	Xalacom eye drops (Pfizer Ltd)
+^ESCTXA863040	Xalacom eye drops (Pfizer Ltd) 2.5 ml
+^ESCTXA929541	Xalacom eye drops (Dowelhurst Ltd)
+^ESCTXA929543	Xalacom eye drops (Dowelhurst Ltd) 2.5 ml
+^ESCTXA929733	Xalacom eye drops (Waymade Healthcare Plc)
+^ESCTXA929734	Xalacom eye drops (Waymade Healthcare Plc) 2.5 ml
+^ESCTXA967667	Xalacom eye drops (DE Pharmaceuticals)
+^ESCTXA967668	Xalacom eye drops (DE Pharmaceuticals) 2.5 ml
+^ESCTXA975273	Xalacom eye drops (Sigma Pharmaceuticals Plc)
+^ESCTXA975275	Xalacom eye drops (Sigma Pharmaceuticals Plc) 2.5 ml
+^ESCTXA992104	Xalacom eye drops (Lexon (UK) Ltd)
+^ESCTXA992105	Xalacom eye drops (Lexon (UK) Ltd) 2.5 ml
+AZEY36490NEMIS	Azarga  Eye drops  10 mg/ml + 5 mg/ml
+BETA350	Betim  Tablets  10 mg
+BLTA385	Blocadren  Tablets  10 mg
+BREY36487NEMIS	Brinzolamide And Timolol  Eye drops  10 mg/ml + 5 mg/ml
+COEY130342NEMIS	Cosopt Imulti  Eye Drops, Preservative Free  20 mg/ml + 5 mg/ml
+COEY144242NEMIS	Codimaz  Eye drops  20 mg/ml + 5 mg/ml
+COEY20114NEMIS	Combigan  Eye drops  5 mg/ml + 2 mg/ml
+COEY23524NEMIS	Cosopt  Eye drops (preservative-free)  20 mg/ml + 5 mg/ml, 0.2 ml unit dose
+COEY34612EMIS	Cosopt  Eye drops  20 mg/ml + 5 mg/ml
+DOEY122349NEMIS	Dorzolamide And Timolol  Eye drops (preservative-free)  20 mg/ml + 5 mg/ml
+DOEY16716NEMIS	Dorzolamide And Timolol  Eye drops  20 mg/ml + 5 mg/ml
+DOEY23523NEMIS	Dorzolamide And Timolol  Eye Drops Unit Dose, Preservative Free  20 mg/ml + 5 mg/ml, 0.2 ml unit dose
+DUEY22589NEMIS	Duotrav  Eye drops  5 mg/ml + 40 micrograms/ml
+EYEY122351NEMIS	Eylamdo  Eye drops  20 mg/ml + 5 mg/ml
+EYEY122396NEMIS	Eysano  Eye drops  2.5 mg/ml
+EYEY122397NEMIS	Eysano  Eye drops  5 mg/ml
+EYEY136522NEMIS	Eyzeetan  Eye Drops, Preservative Free  5 mg/ml + 300 micrograms/ml
+FIEY130464NEMIS	Fixapost  Eye drops  50 micrograms/ml + 5 mg/ml, 0.2 ml unit dose
+GAEY22734NEMIS	Ganfort  Eye drops  5 mg/ml + 300 micrograms/ml
+GAEY84923NEMIS	Ganfort  Eye drops  5 mg/ml + 300 micrograms/ml, 0.4 ml unit dose
+GLEY31038EMIS	Glau-Opt  Eye drops  0.25 %
+GLEY31039EMIS	Glau-Opt  Eye drops  0.5 %
+GLUN23936EMIS	Glaucol  Unit Dose Vials  0.25 %
+GLUN23937EMIS	Glaucol  Unit Dose Vials  0.5 %
+LAEY130462NEMIS	Latanoprost And Timolol  Eye Drops, Preservative Free  50 micrograms/ml + 5 mg/ml, 0.2 ml unit dose
+LAEY19461NEMIS	Latanoprost And Timolol  Eye drops  50 micrograms/ml + 5 mg/ml
+MEEY128014NEMIS	Medox  Eye drops  50 micrograms/ml + 5 mg/ml
+MOTA1865	Moducren  Tablets  
+NYEY12593NEMIS	Nyogel  Eye Gel  0.1 %
+PRTA2342	Prestim  Tablets  
+TAEY103692NEMIS	Tafluprost And Timolol  Eye drops  15 micrograms/ml + 5 mg/ml, 0.3 ml unit dose
+TAEY103694NEMIS	Taptiqom  Eye drops  15 micrograms/ml + 5 mg/ml, 0.3 ml unit dose
+TIEY122389NEMIS	Timolol  Eye Drops, Preservative Free  5 mg/ml
+TIEY12591NEMIS	Timolol Maleate  Eye Gel  0.1 %
+TIEY136521NEMIS	Timolol And Bimatoprost  Eye Drops, Preservative Free  5 mg/ml + 300 micrograms/ml
+TIEY20111NEMIS	Timolol And Brimonidine Tartrate  Eye drops  5 mg/ml + 2 mg/ml
+TIEY22009EMIS	Timoptol  Eye Drops Unit Dose, Preservative Free  0.25 %
+TIEY22010EMIS	Timoptol  Eye Drops Unit Dose, Preservative Free  0.5 %
+TIEY22013EMIS	Timolol Maleate  Eye Drops Unit Dose, Preservative Free  0.25 %
+TIEY22014EMIS	Timolol Maleate  Eye Drops Unit Dose, Preservative Free  0.5 %
+TIEY22587NEMIS	Timolol And Travoprost  Eye drops  5 mg/ml + 40 micrograms/ml
+TIEY22732NEMIS	Timolol And Bimatoprost  Eye drops  5 mg/ml + 300 micrograms/ml
+TIEY2862	Timolol Maleate  Eye-drops  0.25 %
+TIEY2863	Timolol Maleate  Eye-drops  0.5 %
+TIEY2864	Timoptol  Eye-drops  0.25 %
+TIEY2865	Timoptol  Eye-drops  0.5 %
+TIEY37228MGEMIS	Timolol Maleate  Eye-drops  0.25 % (A.A.H. Pharm)
+TIEY37229MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Alpharma)
+TIEY37230MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Teva UK)
+TIEY37231MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Kent Pharm)
+TIEY37232MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Ivax Pharmaceuticals)
+TIEY37233MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Unichem)
+TIEY37234MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Generics (UK))
+TIEY37235MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Martindale)
+TIEY37236MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Generics (UK))
+TIEY37237MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Martindale)
+TIEY37238MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Alpharma)
+TIEY37239MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Kent Pharm)
+TIEY37240MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Ivax Pharmaceuticals)
+TIEY37241MGEMIS	Timolol Maleate  Eye-drops  0.5 % (A.A.H. Pharm)
+TIEY37242MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Unichem)
+TIEY37243MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Teva UK)
+TIEY52138NEMIS	Timolol Maleate  Eye Gel, Preservative-Free  1 mg/gram, 0.4 gram unit dose
+TIEY52140NEMIS	Tiopex  Eye Gel  1 mg/gram, 0.4 gram unit dose
+TIEY75958NEMIS	Timolol  Eye Drops, Preservative Free  2.5 mg/ml
+TIEY77702NEMIS	Tidomat  Eye drops  20 mg/ml + 5 mg/ml
+TIEY84922NEMIS	Timolol And Bimatoprost  Eye drops  5 mg/ml + 300 micrograms/ml, 0.4 ml unit dose
+TIGE29543EMIS	Timoptol La  Gel-forming eye drops  0.25 %
+TIGE29544EMIS	Timoptol La  Gel-forming eye drops  0.5 %
+TIGE29547EMIS	Timolol Maleate  Gel-forming eye drops  0.25 %
+TIGE29548EMIS	Timolol Maleate  Gel-forming eye drops  0.5 %
+TITA21148NEMIS	Timolol And Bendroflumethiazide  Tablet  10 mg + 2.5 mg
+TITA40027NEMIS	Timolol/Amiloride/Hydrochlorothiazide (Essential Generics)  Tablets  10 mg + 2.5 mg + 25 mg
+TITA5452	Timolol Maleate  Tablets  10 mg
+VIEY138869NEMIS	Vizidor Duo  Eye drops  20 mg/ml + 5 mg/ml
+VIEY143439NEMIS	Visublend  Eye drops  5 mg/ml + 300 micrograms/ml
+XAEY11820NEMIS	Xalacom  Eye drops  

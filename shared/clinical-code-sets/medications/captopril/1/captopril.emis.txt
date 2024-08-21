@@ -1,0 +1,745 @@
+ACTA17	Acepril  Tablets  12.5 mg
+ACTA18	Acepril  Tablets  25 mg
+ACTA19	Acepril  Tablets  50 mg
+ACTA8597BRID	Acezide  Tablets  
+CACA22817NEMIS	Captopril  Capsules  2 mg
+CACA40909NEMIS	Captopril  Capsules  4 mg
+CAOR16699NEMIS	Captopril  Oral solution  25 mg/5 ml (5 mg/ml)
+CAOR21537NEMIS	Captopril  Oral solution  3 mg/5 ml
+CAOR35745NEMIS	Captopril  Oral suspension  10 mg/5 ml
+CAOR37227NEMIS	Captopril  Oral suspension  25 mg/5 ml
+CAOR40309NEMIS	Captopril  Oral suspension  15 mg/5 ml
+CAOR45712NEMIS	Captopril  Oral solution  12.5 mg/5 ml
+CAOR45713NEMIS	Captopril  Oral suspension  12.5 mg/5 ml
+CAOR45714NEMIS	Captopril  Oral solution  6.25 mg/5 ml
+CAOR45715NEMIS	Captopril  Oral suspension  6.25 mg/5 ml
+CAOR46832NEMIS	Captopril  Oral solution  5 mg/5 ml
+CAOR88580NEMIS	Captopril  Oral Solution, Sugar Free  25 mg/5 ml
+CAOR88581NEMIS	Captopril  Oral Solution, Sugar Free  5 mg/5 ml
+CASU11859NEMIS	Captopril  Suspension  1 mg/ml
+CASU12628NEMIS	Captopril  Suspension  20 mg/5 ml
+CASU20906NEMIS	Captopril  Suspension  8 mg/5 ml
+CATA1598NEMIS	Capto-Co  Tablets  12.5 mg/25 mg
+CATA1599NEMIS	Capto-Co  Tablets  25 mg/50 mg
+CATA19668EMIS	Capozide Ls  Tablets  
+CATA34093MGEMIS	Captopril  Tablets  12.5 mg (Teva UK)
+CATA34094MGEMIS	Captopril  Tablets  12.5 mg (A.A.H. Pharm)
+CATA34095MGEMIS	Captopril  Tablets  12.5 mg (Generics (UK))
+CATA34096MGEMIS	Captopril  Tablets  12.5 mg (Alpharma)
+CATA34097MGEMIS	Captopril  Tablets  12.5 mg (Unichem)
+CATA34098MGEMIS	Captopril  Tablets  12.5 mg (Sandoz)
+CATA34099MGEMIS	Captopril  Tablets  12.5 mg (Kent Pharm)
+CATA34100MGEMIS	Captopril  Tablets  12.5 mg (Sterwin Medicines)
+CATA34101MGEMIS	Captopril  Tablets  25 mg (Generics (UK))
+CATA34102MGEMIS	Captopril  Tablets  25 mg (A.A.H. Pharm)
+CATA34103MGEMIS	Captopril  Tablets  25 mg (Kent Pharm)
+CATA34104MGEMIS	Captopril  Tablets  25 mg (Teva UK)
+CATA34105MGEMIS	Captopril  Tablets  25 mg (Alpharma)
+CATA34106MGEMIS	Captopril  Tablets  25 mg (Sandoz)
+CATA34107MGEMIS	Captopril  Tablets  25 mg (Unichem)
+CATA34108MGEMIS	Captopril  Tablets  25 mg (Sterwin Medicines)
+CATA34109MGEMIS	Captopril  Tablets  50 mg (Teva UK)
+CATA34110MGEMIS	Captopril  Tablets  50 mg (Sandoz)
+CATA34111MGEMIS	Captopril  Tablets  50 mg (Alpharma)
+CATA34112MGEMIS	Captopril  Tablets  50 mg (Kent Pharm)
+CATA34113MGEMIS	Captopril  Tablets  50 mg (A.A.H. Pharm)
+CATA34114MGEMIS	Captopril  Tablets  50 mg (Unichem)
+CATA34115MGEMIS	Captopril  Tablets  50 mg (Sterwin Medicines)
+CATA34116MGEMIS	Captopril  Tablets  50 mg (Generics (UK))
+CATA4675	Captopril  Tablets  12.5 mg
+CATA480	Capoten  Tablets  12.5 mg
+CATA481	Capoten  Tablets  25 mg
+CATA482	Capoten  Tablets  50 mg
+CATA483	Captopril  Tablets  25 mg
+CATA484	Captopril  Tablets  50 mg
+CATA8735BRIDL	Capozide  Tablets  
+COTA1596NEMIS	Co-Zidocapt 12.5/25  Tablets  
+COTA1597NEMIS	Co-Zidocapt 25/50  Tablets  
+COTA37620MGEMIS	Co-Zidocapt 12.5/25  Tablets  (Unichem)
+COTA37621MGEMIS	Co-Zidocapt 12.5/25  Tablets  (Sandoz)
+COTA37622MGEMIS	Co-Zidocapt 12.5/25  Tablets  (Kent Pharm)
+COTA37623MGEMIS	Co-Zidocapt 12.5/25  Tablets  (A.A.H. Pharm)
+COTA37624MGEMIS	Co-Zidocapt 25/50  Tablets  (Sandoz)
+COTA37625MGEMIS	Co-Zidocapt 25/50  Tablets  (Unichem)
+COTA37626MGEMIS	Co-Zidocapt 25/50  Tablets  (A.A.H. Pharm)
+COTA37627MGEMIS	Co-Zidocapt 25/50  Tablets  (Kent Pharm)
+ECTA15781NEMIS	Ecopace  Tablets  12.5 mg
+ECTA15782NEMIS	Ecopace  Tablets  25 mg
+ECTA15783NEMIS	Ecopace  Tablets  50 mg
+KATA32855EMIS	Kaplon  Tablets  12.5 mg
+KATA32856EMIS	Kaplon  Tablets  25 mg
+KATA32857EMIS	Kaplon  Tablets  50 mg
+NOOR86935NEMIS	Noyada  Oral solution  5 mg/5 ml
+NOOR86936NEMIS	Noyada  Oral solution  25 mg/5 ml
+TETA15547NEMIS	Tensopril  Tablets  12.5 mg
+TETA15548NEMIS	Tensopril  Tablets  25 mg
+TETA15549NEMIS	Tensopril  Tablets  50 mg
+^ESCT1178007	Product containing only captopril 12.5 mg/1 each oral tablet
+^ESCT1178008	Product containing only captopril 25 mg/1 each oral tablet
+^ESCT1179490	Captopril 12.5mg tablets (Mylan) 56 tablet
+^ESCT1181208	Product containing only captopril 25 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCT1181209	Product containing only captopril 50 mg/1 each oral tablet
+^ESCT1181752	Product containing only captopril 100 mg/1 each oral tablet
+^ESCT1183190	Product containing only captopril 25 mg and hydrochlorothiazide 15 mg/1 each oral tablet
+^ESCT1183191	Product containing only captopril 50 mg and hydrochlorothiazide 15 mg/1 each oral tablet
+^ESCT1183420	Captopril 25mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1183744	Captopril 12.5mg tablets (Mylan)
+^ESCT1184295	Captopril 50mg tablets (Mylan)
+^ESCT1185435	Product containing only captopril 25 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1185950	Captopril 25mg tablets (Mylan)
+^ESCT1187207	Product containing only captopril 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCT1188677	Captopril 50mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1197330	Captopril 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1197687	Captopril 25mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCT1197690	Captopril 25mg/5ml oral solution sugar free (Teva UK Ltd) 100 ml
+^ESCT1197697	Captopril 5mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCT1197698	Captopril 5mg/5ml oral solution sugar free (Teva UK Ltd) 100 ml
+^ESCT1197968	Captopril 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCT1197969	Captopril 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1197970	Captopril 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCT1199417	Captopril 25mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCT1199418	Captopril 25mg/5ml oral solution sugar free (Thame Laboratories Ltd) 100 ml
+^ESCT1199419	Captopril 5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCT1199420	Captopril 5mg/5ml oral solution sugar free (Thame Laboratories Ltd) 100 ml
+^ESCT1206552	Captopril in oral dosage form
+^ESCT1206553	Product containing captopril in oral dosage form
+^ESCT1206554	Captopril and hydrochlorothiazide in oral dosage form
+^ESCT1206555	Product containing captopril and hydrochlorothiazide in oral dosage form
+^ESCT1213388	Captopril 5mg/5ml oral solution sugar free (BCM Specials Ltd)
+^ESCT1213389	Captopril 5mg/5ml oral solution sugar free (BCM Specials Ltd) 100 ml
+^ESCT1213390	Captopril 25mg/5ml oral solution sugar free (BCM Specials Ltd)
+^ESCT1213391	Captopril 25mg/5ml oral solution sugar free (BCM Specials Ltd) 100 ml
+^ESCT1216255	Captopril 25mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+^ESCT1216256	Captopril 25mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd) 100 ml
+^ESCT1216257	Captopril 5mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+^ESCT1216258	Captopril 5mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd) 100 ml
+^ESCT1217678	Captopril
+^ESCT1217679	Captopril product
+^ESCT1222954	Product containing precisely captopril 25 milligram and hydrochlorothiazide 12.5 milligram/1 each conventional release oral tablet
+^ESCT1222955	Product containing precisely captopril 50 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1222956	Product containing precisely captopril 12.5 milligram/1 each conventional release oral tablet
+^ESCT1222957	Product containing precisely captopril 25 milligram/1 each conventional release oral tablet
+^ESCT1222958	Product containing precisely captopril 50 milligram/1 each conventional release oral tablet
+^ESCT1228171	Product containing precisely captopril 100 milligram/1 each conventional release oral tablet
+^ESCT1228991	Product containing precisely captopril 25 milligram and hydrochlorothiazide 15 milligram/1 each conventional release oral tablet
+^ESCT1228992	Product containing precisely captopril 25 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral tablet
+^ESCT1228993	Product containing precisely captopril 50 milligram and hydrochlorothiazide 15 milligram/1 each conventional release oral tablet
+^ESCT1230226	Captopril + hydrochlorothiazide
+^ESCT1230227	Captopril and hydrochlorothiazide product
+^ESCT1249935	Captopril 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1249936	Captopril 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCT1249937	Captopril 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1249938	Captopril 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCT1250014	Ecopace 12.5mg tablets (Advanz Pharma)
+^ESCT1250069	Ecopace 50mg tablets (Advanz Pharma)
+^ESCT1250072	Ecopace 25mg tablets (Advanz Pharma)
+^ESCT1250080	Ecopace 12.5mg tablets (Advanz Pharma) 56 tablet 4 x 14 tablets
+^ESCT1250090	Ecopace 25mg tablets (Advanz Pharma) 56 tablet 4 x 14 tablets
+^ESCT1250091	Ecopace 50mg tablets (Advanz Pharma) 56 tablet 4 x 14 tablets
+^ESCT1264459	Captopril 5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1264460	Captopril 5mg/5ml oral solution sugar free (DE Pharmaceuticals) 100 ml
+^ESCT1264461	Captopril 25mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1264462	Captopril 25mg/5ml oral solution sugar free (DE Pharmaceuticals) 100 ml
+^ESCT1353989	Captopril only product
+^ESCT1353990	Captopril and hydrochlorothiazide only product
+^ESCT1357829	Captopril and hydrochlorothiazide only product in oral dose form
+^ESCT1357830	Captopril only product in oral dose form
+^ESCT1374995	Captopril 12.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374996	Captopril 12.5mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1374997	Captopril 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374998	Captopril 25mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1374999	Captopril 25mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375000	Captopril 25mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 100 ml
+^ESCT1375001	Captopril 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375002	Captopril 50mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1375003	Captopril 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375004	Captopril 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 100 ml
+^ESCT1382417	Captopril- and hydrochlorothiazide-containing product
+^ESCT1386334	Captopril-containing product in oral dose form
+^ESCT1386335	Captopril- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1425603	Captopril 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425629	Captopril 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425780	Captopril 12.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425937	Captopril 12.5mg tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1425938	Captopril 12.5mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426006	Captopril 25mg tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1426007	Captopril 25mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426010	Captopril 50mg tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1426751	Co-zidocapt 12.5mg/25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426753	Co-zidocapt 25mg/50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1436852	Captopril 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436876	Captopril 12.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437045	Captopril 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437124	Captopril 12.5mg tablets (Viatris UK Healthcare Ltd) 56 tablet
+^ESCT1437171	Captopril 25mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1437173	Captopril 50mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCTAC808151	Acezide 25mg/50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTAC819464	Acepril 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTAC820829	Acepril 12.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTAC826281	Acepril 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTAC848973	Acepril 12.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAC848974	Acepril 12.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 100 tablet
+^ESCTAC849459	Acepril 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAC849460	Acepril 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTAC849461	Acepril 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 100 tablet
+^ESCTAC849573	Acepril 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTAC849574	Acepril 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAC849577	Acepril 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 100 tablet
+^ESCTAC853897	Acezide 25mg/50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAC913543	Acepril
+^ESCTAC913545	Acezide
+^ESCTCA1001251	Captopril 25mg tablets 28 tablet
+^ESCTCA1001253	Capoten 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA1004969	Captopril 12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1004970	Captopril 12.5mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTCA1004972	Captopril 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1004974	Captopril 25mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTCA1004979	Captopril 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCA1004982	Captopril 50mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTCA1008041	Capoten 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCA1008042	Capoten 25mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTCA1008866	Capoten 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA1010521	Capozide 25mg/50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTCA1011747	Captopril 50mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCTCA1021401	Captopril 5mg/5ml oral solution 100 ml
+^ESCTCA1021402	Captopril 5mg/5ml oral solution (Special Order) 100 ml
+^ESCTCA1021404	Captopril 5mg/5ml oral suspension 100 ml
+^ESCTCA1021405	Captopril 5mg/5ml oral suspension (Special Order) 100 ml
+^ESCTCA1023385	Captopril 8mg/5ml oral suspension 1 ml
+^ESCTCA1023386	Captopril 8mg/5ml oral suspension (Special Order)
+^ESCTCA1023387	Captopril 8mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA1023450	Captopril 8mg/5ml oral suspension
+^ESCTCA1028916	Captopril 25mg/5ml oral solution 100 ml
+^ESCTCA1028917	Captopril 25mg/5ml oral solution (Special Order) 100 ml
+^ESCTCA1028918	Captopril 25mg/5ml oral suspension 100 ml
+^ESCTCA1028919	Captopril 25mg/5ml oral suspension (Special Order) 100 ml
+^ESCTCA1030377	Captopril 3mg capsules
+^ESCTCA1030378	Captopril 3mg capsules 1 capsule
+^ESCTCA1030380	Captopril 3mg capsules 25 capsule
+^ESCTCA1030381	Captopril 3mg capsules (Special Order)
+^ESCTCA1030383	Captopril 3mg capsules (Special Order) 1 capsule
+^ESCTCA1030384	Captopril 3mg capsules (Special Order) 25 capsule
+^ESCTCA1041756	Captopril 12.5mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041757	Captopril 12.5mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTCA1041767	Captopril 25mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041769	Captopril 25mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTCA1041772	Captopril 50mg tablets (Waymade Healthcare Plc)
+^ESCTCA1041773	Captopril 50mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTCA1049239	Captopril 12.5mg tablets (DE Pharmaceuticals)
+^ESCTCA1049240	Captopril 12.5mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTCA1049241	Captopril 25mg tablets (DE Pharmaceuticals)
+^ESCTCA1049242	Captopril 25mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTCA1049243	Captopril 50mg tablets (DE Pharmaceuticals)
+^ESCTCA1049244	Captopril 50mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTCA1057183	Captopril 12.5mg tablets (Accord Healthcare Ltd)
+^ESCTCA1057185	Captopril 12.5mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA1057188	Captopril 25mg tablets (Accord Healthcare Ltd)
+^ESCTCA1057189	Captopril 25mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA1057191	Captopril 50mg tablets (Accord Healthcare Ltd)
+^ESCTCA1057193	Captopril 50mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA1059097	Captopril 25mg/5ml oral solution sugar free 100 ml
+^ESCTCA1059100	Captopril 5mg/5ml oral solution sugar free 100 ml
+^ESCTCA1059350	Captopril 25mg/5ml oral solution sugar free
+^ESCTCA1059352	Captopril 5mg/5ml oral solution sugar free
+^ESCTCA1116944	Captopril 12.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA1116945	Captopril 12.5mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTCA1116946	Captopril 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA1116947	Captopril 25mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTCA1116948	Captopril 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA1116949	Captopril 50mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTCA297339	Captopril
+^ESCTCA607343	Captopril 25 mg and hydrochlorothiazide 12.5 mg oral tablet
+^ESCTCA607346	Captopril 50 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTCA607347	Captopril 12.5mg tablets
+^ESCTCA607349	Captopril 12.5 mg oral tablet
+^ESCTCA607350	Captopril 25mg tablets
+^ESCTCA607352	Captopril 25 mg oral tablet
+^ESCTCA607353	Captopril 50mg tablets
+^ESCTCA607355	Captopril 50 mg oral tablet
+^ESCTCA639973	Captopril 100 mg oral tablet
+^ESCTCA641985	Captopril 25 mg and hydrochlorothiazide 15 mg oral tablet
+^ESCTCA641987	Captopril 25 mg and hydrochlorothiazide 25 mg oral tablet
+^ESCTCA641989	Captopril 50 mg and hydrochlorothiazide 15 mg oral tablet
+^ESCTCA670420	Captopril + hydrochlorothiazide
+^ESCTCA797756	Captopril 50mg tablets (Teva UK Ltd)
+^ESCTCA800379	Capozide 25mg/50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA800728	Captopril 12.5mg tablets (Teva UK Ltd)
+^ESCTCA804231	Capoten 12.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA806744	Captopril 50mg tablets (Sandoz Ltd)
+^ESCTCA807074	Captopril 12.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA807940	Captopril 50mg tablets (Actavis UK Ltd)
+^ESCTCA808129	Captopril 25mg tablets (Mylan Ltd)
+^ESCTCA808992	Captopril 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA809648	Captopril 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA810656	Captopril 12.5mg tablets (Mylan Ltd)
+^ESCTCA811158	Captopril 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA812126	Captomex 12.5mg tablets (Actavis UK Ltd)
+^ESCTCA812769	Capoten 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA815141	Captopril 25mg tablets (Teva UK Ltd)
+^ESCTCA815402	Captopril 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCA817178	Capoten 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA818946	Captopril 25mg tablets (Actavis UK Ltd)
+^ESCTCA819916	Capozide LS 12.5mg/25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTCA820027	Captomex 25mg tablets (Actavis UK Ltd)
+^ESCTCA820391	Captopril 12.5mg tablets (Actavis UK Ltd)
+^ESCTCA820450	Captopril 25mg tablets (Sandoz Ltd)
+^ESCTCA820777	Captopril 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA820790	Captopril 12.5mg tablets (Sandoz Ltd)
+^ESCTCA820876	Captopril 12.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCA820931	Captopril 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA823487	Captomex 50mg tablets (Actavis UK Ltd)
+^ESCTCA823660	Captopril 25mg tablets (Sterwin Medicines)
+^ESCTCA823665	Captopril 12.5mg tablets (Sterwin Medicines)
+^ESCTCA825812	Captopril 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCA827370	Captopril 50mg tablets (Sterwin Medicines)
+^ESCTCA827552	Captopril 50mg tablets (Mylan Ltd)
+^ESCTCA834478	Captopril 25mg tablets 84 tablet
+^ESCTCA836256	Captopril 50mg tablets 84 tablet
+^ESCTCA841894	Captopril 50mg tablets 56 tablet
+^ESCTCA842434	Captopril 25mg tablets 56 tablet
+^ESCTCA847593	Captopril 12.5mg tablets 100 tablet
+^ESCTCA848091	Captopril 12.5mg tablets 56 tablet
+^ESCTCA848456	Captopril 50mg tablets 100 tablet
+^ESCTCA848754	Captopril 25mg tablets 100 tablet
+^ESCTCA848964	Captopril 12.5mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA848966	Captopril 12.5mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA848967	Captopril 12.5mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA848975	Capoten 12.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA848976	Captomex 12.5mg tablets (Actavis UK Ltd) 56 tablet
+^ESCTCA848977	Captopril 12.5mg tablets (Mylan Ltd) 56 tablet
+^ESCTCA848980	Captopril 12.5mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA848981	Captopril 12.5mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTCA848982	Captopril 12.5mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA848984	Captopril 12.5mg tablets (Sterwin Medicines) 56 tablet 4 x 14 tablets
+^ESCTCA848989	Captopril 12.5mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTCA848992	Captopril 12.5mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTCA849442	Captopril 25mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA849446	Captopril 25mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA849454	Captopril 25mg tablets (Teva UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTCA849463	Capoten 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA849464	Capoten 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTCA849553	Captopril 25mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA849556	Captopril 25mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA849557	Captopril 25mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTCA849558	Captopril 25mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA849559	Captopril 25mg tablets (Sterwin Medicines) 56 tablet 4 x 14 tablets
+^ESCTCA849560	Captopril 25mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTCA849561	Captopril 25mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTCA849562	Captopril 50mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA849564	Captopril 50mg tablets (Actavis UK Ltd) 56 tablet
+^ESCTCA849565	Captopril 50mg tablets (Teva UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTCA849578	Capoten 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA849580	Capoten 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTCA849582	Captomex 50mg tablets (Actavis UK Ltd) 56 tablet
+^ESCTCA849583	Captopril 50mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA849588	Captopril 50mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA849590	Captopril 50mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA849591	Captopril 50mg tablets (Sterwin Medicines) 56 tablet 4 x 14 tablets
+^ESCTCA849592	Captopril 50mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTCA849593	Captopril 50mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTCA851440	Captomex 25mg tablets (Actavis UK Ltd) 56 tablet
+^ESCTCA853901	Capozide 25mg/50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA856557	Capozide LS 12.5mg/25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCA877657	Capoten 25mg tablets (Waymade Healthcare Plc)
+^ESCTCA877658	Capoten 25mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTCA877672	Capoten 50mg tablets (Waymade Healthcare Plc)
+^ESCTCA877673	Capoten 50mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTCA877684	Capozide 25mg/50mg tablets (Waymade Healthcare Plc)
+^ESCTCA877685	Capozide 25mg/50mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTCA878627	Captopril 25mg tablets 60 tablet
+^ESCTCA878628	Captopril 25mg tablets (Dowelhurst Ltd)
+^ESCTCA878629	Captopril 25mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTCA879196	Captopril 12.5mg tablets 60 tablet
+^ESCTCA879197	Capoten 12.5mg tablets (Dowelhurst Ltd)
+^ESCTCA879199	Capoten 12.5mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTCA879212	Capoten 25mg tablets (Dowelhurst Ltd)
+^ESCTCA879214	Capoten 25mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTCA879223	Captopril 50mg tablets 28 tablet
+^ESCTCA879227	Capoten 50mg tablets (Dowelhurst Ltd)
+^ESCTCA879229	Capoten 50mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCA879230	Capoten 50mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTCA880074	Capozide 25mg/50mg tablets (Dowelhurst Ltd)
+^ESCTCA880076	Capozide 25mg/50mg tablets (Dowelhurst Ltd) 20 tablet
+^ESCTCA899168	Captopril 5mg/ml oral solution sugar free 95 ml
+^ESCTCA899172	Capoten 5mg/ml oral solution (Imported (United States))
+^ESCTCA899173	Capoten 5mg/ml oral solution (Imported (United States)) 95 ml
+^ESCTCA899178	Captopril 5mg/ml oral solution sugar free
+^ESCTCA905052	Captopril 10mg/5ml oral solution 1 ml
+^ESCTCA905053	Captopril 10mg/5ml oral solution (Special Order)
+^ESCTCA905054	Captopril 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905056	Captopril 10mg/5ml oral suspension 1 ml
+^ESCTCA905057	Captopril 10mg/5ml oral suspension (Special Order)
+^ESCTCA905059	Captopril 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905061	Captopril 1.25mg/5ml oral solution 1 ml
+^ESCTCA905062	Captopril 1.25mg/5ml oral solution (Special Order)
+^ESCTCA905063	Captopril 11.25mg/5ml oral solution 1 ml
+^ESCTCA905064	Captopril 1.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905065	Captopril 11.25mg/5ml oral solution (Special Order)
+^ESCTCA905066	Captopril 11.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905067	Captopril 11.25mg/5ml oral suspension 1 ml
+^ESCTCA905068	Captopril 1.25mg/5ml oral suspension (Special Order)
+^ESCTCA905069	Captopril 11.25mg/5ml oral suspension (Special Order)
+^ESCTCA905070	Captopril 11.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905071	Captopril 1.25mg/5ml oral suspension 1 ml
+^ESCTCA905072	Captopril 1.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905073	Captopril 12.5mg/5ml oral solution 1 ml
+^ESCTCA905074	Captopril 12.5mg/5ml oral solution (Special Order)
+^ESCTCA905075	Captopril 1.5mg/5ml oral solution 1 ml
+^ESCTCA905076	Captopril 15mg/5ml oral solution 1 ml
+^ESCTCA905077	Captopril 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905078	Captopril 1.5mg/5ml oral solution (Special Order)
+^ESCTCA905079	Captopril 15mg/5ml oral solution (Special Order)
+^ESCTCA905080	Captopril 1.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905081	Captopril 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905082	Captopril 12.5mg/5ml oral suspension 1 ml
+^ESCTCA905083	Captopril 15mg/5ml oral suspension 1 ml
+^ESCTCA905084	Captopril 1.5mg/5ml oral suspension 1 ml
+^ESCTCA905085	Captopril 15mg/5ml oral suspension (Special Order)
+^ESCTCA905086	Captopril 1.5mg/5ml oral suspension (Special Order)
+^ESCTCA905087	Captopril 12.5mg/5ml oral suspension (Special Order)
+^ESCTCA905088	Captopril 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905089	Captopril 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905090	Captopril 17mg/5ml oral solution 1 ml
+^ESCTCA905091	Captopril 17mg/5ml oral solution (Special Order)
+^ESCTCA905092	Captopril 17mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905093	Captopril 17mg/5ml oral suspension 1 ml
+^ESCTCA905094	Captopril 17mg/5ml oral suspension (Special Order)
+^ESCTCA905095	Captopril 17mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905096	Captopril 2.5mg/5ml oral solution 1 ml
+^ESCTCA905097	Captopril 20mg/5ml oral solution 1 ml
+^ESCTCA905098	Captopril 20mg/5ml oral solution (Special Order)
+^ESCTCA905099	Captopril 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905100	Captopril 1mg/5ml oral solution 1 ml
+^ESCTCA905101	Captopril 2.5mg/5ml oral solution (Special Order)
+^ESCTCA905102	Captopril 20mg/5ml oral suspension 1 ml
+^ESCTCA905103	Captopril 1mg/5ml oral solution (Special Order)
+^ESCTCA905104	Captopril 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905105	Captopril 20mg/5ml oral suspension (Special Order)
+^ESCTCA905106	Captopril 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905107	Captopril 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905108	Captopril 1mg/5ml oral suspension 1 ml
+^ESCTCA905109	Captopril 1mg/5ml oral suspension (Special Order)
+^ESCTCA905110	Captopril 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905111	Captopril 2.5mg/5ml oral suspension 1 ml
+^ESCTCA905112	Captopril 2.5mg/5ml oral suspension (Special Order)
+^ESCTCA905113	Captopril 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905114	Captopril 25mg/5ml oral solution 1 ml
+^ESCTCA905115	Captopril 25mg/5ml oral solution (Special Order)
+^ESCTCA905116	Captopril 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905117	Captopril 2mg/5ml oral solution 1 ml
+^ESCTCA905118	Captopril 2mg/5ml oral solution (Special Order)
+^ESCTCA905119	Captopril 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905120	Captopril 25mg/5ml oral suspension 1 ml
+^ESCTCA905121	Captopril 25mg/5ml oral suspension (Special Order)
+^ESCTCA905122	Captopril 2mg/5ml oral suspension 1 ml
+^ESCTCA905123	Captopril 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905124	Captopril 2mg/5ml oral suspension (Special Order)
+^ESCTCA905125	Captopril 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905126	Captopril 1.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905128	Captopril 3.25mg/5ml oral solution 1 ml
+^ESCTCA905131	Captopril 3.25mg/5ml oral solution (Special Order)
+^ESCTCA905133	Captopril 3.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905135	Captopril 3.25mg/5ml oral suspension 1 ml
+^ESCTCA905137	Captopril 3.25mg/5ml oral suspension (Special Order)
+^ESCTCA905138	Captopril 3.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905141	Captopril 3.125mg/5ml oral solution 1 ml
+^ESCTCA905143	Captopril 3.125mg/5ml oral solution (Special Order)
+^ESCTCA905144	Captopril 500micrograms/5ml oral solution 1 ml
+^ESCTCA905145	Captopril 3.125mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905146	Captopril 500micrograms/5ml oral solution (Special Order)
+^ESCTCA905147	Captopril 500micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTCA905148	Captopril 3.125mg/5ml oral suspension 1 ml
+^ESCTCA905149	Captopril 500micrograms/5ml oral suspension 1 ml
+^ESCTCA905151	Captopril 500micrograms/5ml oral suspension (Special Order)
+^ESCTCA905152	Captopril 500micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905153	Captopril 3.125mg/5ml oral suspension (Special Order)
+^ESCTCA905154	Captopril 3.125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905155	Captopril 50mg/5ml oral solution 1 ml
+^ESCTCA905157	Captopril 50mg/5ml oral solution (Special Order)
+^ESCTCA905159	Captopril 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905162	Captopril 50mg/5ml oral suspension 1 ml
+^ESCTCA905163	Captopril 50mg/5ml oral suspension (Special Order)
+^ESCTCA905164	Captopril 4mg/5ml oral solution 1 ml
+^ESCTCA905165	Captopril 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905166	Captopril 4mg/5ml oral solution (Special Order)
+^ESCTCA905167	Captopril 4mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905168	Captopril 6.25mg/5ml oral solution 1 ml
+^ESCTCA905169	Captopril 6.25mg/5ml oral solution (Special Order)
+^ESCTCA905171	Captopril 6.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905172	Captopril 6.25mg/5ml oral suspension 1 ml
+^ESCTCA905173	Captopril 6.25mg/5ml oral suspension (Special Order)
+^ESCTCA905174	Captopril 6.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905176	Captopril 4mg/5ml oral suspension 1 ml
+^ESCTCA905178	Captopril 4mg/5ml oral suspension (Special Order)
+^ESCTCA905179	Captopril 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905180	Captopril 6.5mg/5ml oral solution 1 ml
+^ESCTCA905181	Captopril 6.5mg/5ml oral solution (Special Order)
+^ESCTCA905182	Captopril 6.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905183	Captopril 3mg/5ml oral solution 1 ml
+^ESCTCA905184	Captopril 31.25mg/5ml oral solution 1 ml
+^ESCTCA905185	Captopril 3mg/5ml oral solution (Special Order)
+^ESCTCA905186	Captopril 6.5mg/5ml oral suspension 1 ml
+^ESCTCA905187	Captopril 6.5mg/5ml oral suspension (Special Order)
+^ESCTCA905188	Captopril 3mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905189	Captopril 6.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905190	Captopril 9mg/5ml oral solution 1 ml
+^ESCTCA905191	Captopril 3mg/5ml oral suspension 1 ml
+^ESCTCA905192	Captopril 9mg/5ml oral solution (Special Order)
+^ESCTCA905193	Captopril 3mg/5ml oral suspension (Special Order)
+^ESCTCA905194	Captopril 9mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905195	Captopril 3mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905196	Captopril 7.5mg/5ml oral solution 1 ml
+^ESCTCA905197	Captopril 9mg/5ml oral suspension 1 ml
+^ESCTCA905198	Captopril 9mg/5ml oral suspension (Special Order)
+^ESCTCA905199	Captopril 7.5mg/5ml oral solution (Special Order)
+^ESCTCA905200	Captopril 9mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905201	Captopril 5mg/5ml oral solution 1 ml
+^ESCTCA905202	Captopril 31.25mg/5ml oral solution (Special Order)
+^ESCTCA905203	Captopril 7.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905204	Captopril 5mg/5ml oral solution (Special Order)
+^ESCTCA905207	Captopril 7.5mg/5ml oral suspension 1 ml
+^ESCTCA905208	Captopril 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905210	Captopril 7.5mg/5ml oral suspension (Special Order)
+^ESCTCA905211	Captopril 31.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905212	Captopril 7.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905222	Captopril 31.25mg/5ml oral suspension 1 ml
+^ESCTCA905223	Captopril 31.25mg/5ml oral suspension (Special Order)
+^ESCTCA905224	Captopril 31.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905227	Captopril 5mg/5ml oral suspension 1 ml
+^ESCTCA905231	Captopril 5mg/5ml oral suspension (Special Order)
+^ESCTCA905233	Captopril 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905237	Captopril 6mg/5ml oral solution 1 ml
+^ESCTCA905240	Captopril 6mg/5ml oral solution (Special Order)
+^ESCTCA905242	Captopril 6mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA905254	Captopril 6mg/5ml oral suspension 1 ml
+^ESCTCA905258	Captopril 6mg/5ml oral suspension (Special Order)
+^ESCTCA905260	Captopril 6mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCA905402	Captopril 1.25mg/5ml oral solution
+^ESCTCA905403	Captopril 1.25mg/5ml oral suspension
+^ESCTCA905404	Captopril 1.5mg/5ml oral solution
+^ESCTCA905405	Captopril 1.5mg/5ml oral suspension
+^ESCTCA905406	Captopril 10mg/5ml oral solution
+^ESCTCA905407	Captopril 10mg/5ml oral suspension
+^ESCTCA905408	Captopril 11.25mg/5ml oral solution
+^ESCTCA905409	Captopril 11.25mg/5ml oral suspension
+^ESCTCA905410	Captopril 12.5mg/5ml oral solution
+^ESCTCA905411	Captopril 12.5mg/5ml oral suspension
+^ESCTCA905412	Captopril 15mg/5ml oral solution
+^ESCTCA905413	Captopril 15mg/5ml oral suspension
+^ESCTCA905414	Captopril 17mg/5ml oral solution
+^ESCTCA905415	Captopril 17mg/5ml oral suspension
+^ESCTCA905417	Captopril 1mg/5ml oral solution
+^ESCTCA905418	Captopril 1mg/5ml oral suspension
+^ESCTCA905419	Captopril 2.5mg/5ml oral solution
+^ESCTCA905420	Captopril 2.5mg/5ml oral suspension
+^ESCTCA905421	Captopril 20mg/5ml oral solution
+^ESCTCA905422	Captopril 20mg/5ml oral suspension
+^ESCTCA905424	Captopril 25mg/5ml oral solution
+^ESCTCA905425	Captopril 25mg/5ml oral suspension
+^ESCTCA905426	Captopril 2mg/5ml oral solution
+^ESCTCA905427	Captopril 2mg/5ml oral suspension
+^ESCTCA905436	Captopril 3.125mg/5ml oral solution
+^ESCTCA905438	Captopril 3.125mg/5ml oral suspension
+^ESCTCA905439	Captopril 3.25mg/5ml oral solution
+^ESCTCA905440	Captopril 3.25mg/5ml oral suspension
+^ESCTCA905441	Captopril 31.25mg/5ml oral solution
+^ESCTCA905442	Captopril 31.25mg/5ml oral suspension
+^ESCTCA905444	Captopril 3mg/5ml oral solution
+^ESCTCA905445	Captopril 3mg/5ml oral suspension
+^ESCTCA905447	Captopril 4mg/5ml oral solution
+^ESCTCA905448	Captopril 4mg/5ml oral suspension
+^ESCTCA905449	Captopril 500micrograms/5ml oral solution
+^ESCTCA905450	Captopril 500micrograms/5ml oral suspension
+^ESCTCA905451	Captopril 50mg/5ml oral solution
+^ESCTCA905454	Captopril 50mg/5ml oral suspension
+^ESCTCA905455	Captopril 5mg/5ml oral solution
+^ESCTCA905457	Captopril 5mg/5ml oral suspension
+^ESCTCA905458	Captopril 6.25mg/5ml oral solution
+^ESCTCA905459	Captopril 6.25mg/5ml oral suspension
+^ESCTCA905472	Captopril 6.5mg/5ml oral solution
+^ESCTCA905473	Captopril 6.5mg/5ml oral suspension
+^ESCTCA905474	Captopril 6mg/5ml oral solution
+^ESCTCA905475	Captopril 6mg/5ml oral suspension
+^ESCTCA905477	Captopril 7.5mg/5ml oral solution
+^ESCTCA905478	Captopril 7.5mg/5ml oral suspension
+^ESCTCA905481	Captopril 9mg/5ml oral solution
+^ESCTCA905482	Captopril 9mg/5ml oral suspension
+^ESCTCA909208	Captopril 2mg capsules 1 capsule
+^ESCTCA909209	Captopril 2mg capsules (Special Order)
+^ESCTCA909210	Captopril 2mg capsules (Special Order) 1 capsule
+^ESCTCA909211	Captopril 4mg capsules 1 capsule
+^ESCTCA909212	Captopril 4mg capsules (Special Order)
+^ESCTCA909213	Captopril 4mg capsules (Special Order) 1 capsule
+^ESCTCA909655	Captopril 2mg capsules
+^ESCTCA909656	Captopril 4mg capsules
+^ESCTCA909746	Captopril 3mg oral powder sachets 1 sachet
+^ESCTCA909747	Captopril 3mg oral powder sachets (Special Order)
+^ESCTCA909748	Captopril 3mg oral powder sachets (Special Order) 1 sachet
+^ESCTCA909831	Captopril 3mg oral powder sachets
+^ESCTCA914273	Capoten
+^ESCTCA914275	Capozide
+^ESCTCA914281	Captomex
+^ESCTCA929583	Capozide 25mg/50mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTCA929862	Capozide 25mg/50mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCA935758	Capoten 25mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTCA935760	Captopril 50mg tablets 60 tablet
+^ESCTCA935761	Capoten 50mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTCA940228	Captopril 5mg tablets 1 tablet
+^ESCTCA940229	Captopril 5mg tablets (Special Order)
+^ESCTCA940230	Captopril 5mg tablets (Special Order) 1 tablet
+^ESCTCA940282	Captopril 5mg tablets
+^ESCTCA948337	Captopril 1.6mg/5ml oral solution 1 ml
+^ESCTCA948339	Captopril 1.6mg/5ml oral solution (Special Order)
+^ESCTCA948341	Captopril 1.6mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948348	Captopril 1.75mg/5ml oral solution 1 ml
+^ESCTCA948351	Captopril 1.75mg/5ml oral solution (Special Order)
+^ESCTCA948353	Captopril 1.75mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948431	Captopril 1.6mg/5ml oral solution
+^ESCTCA948432	Captopril 1.75mg/5ml oral solution
+^ESCTCA948570	Captopril 100micrograms/5ml oral solution 1 ml
+^ESCTCA948573	Captopril 100micrograms/5ml oral solution (Special Order)
+^ESCTCA948574	Captopril 100micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTCA948575	Captopril 100mg/5ml oral solution 1 ml
+^ESCTCA948576	Captopril 100mg/5ml oral solution (Special Order)
+^ESCTCA948577	Captopril 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948579	Captopril 12mg/5ml oral solution 1 ml
+^ESCTCA948581	Captopril 12mg/5ml oral solution (Special Order)
+^ESCTCA948586	Captopril 12mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948592	Captopril 15.625mg/5ml oral solution 1 ml
+^ESCTCA948594	Captopril 15.625mg/5ml oral solution (Special Order)
+^ESCTCA948595	Captopril 15.625mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948599	Captopril 17.5mg/5ml oral solution 1 ml
+^ESCTCA948600	Captopril 17.5mg/5ml oral solution (Special Order)
+^ESCTCA948601	Captopril 17.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948605	Captopril 18.5mg/5ml oral solution 1 ml
+^ESCTCA948606	Captopril 18.5mg/5ml oral solution (Special Order)
+^ESCTCA948607	Captopril 18.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948611	Captopril 22.5mg/5ml oral solution 1 ml
+^ESCTCA948612	Captopril 22.5mg/5ml oral solution (Special Order)
+^ESCTCA948614	Captopril 22.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948620	Captopril 3.5mg/5ml oral solution 1 ml
+^ESCTCA948621	Captopril 3.5mg/5ml oral solution (Special Order)
+^ESCTCA948623	Captopril 3.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948624	Captopril 30mg/5ml oral solution 1 ml
+^ESCTCA948627	Captopril 30mg/5ml oral solution (Special Order)
+^ESCTCA948628	Captopril 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948629	Captopril 5.4mg/5ml oral solution 1 ml
+^ESCTCA948630	Captopril 5.4mg/5ml oral solution (Special Order)
+^ESCTCA948631	Captopril 5.4mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948638	Captopril 100mg/5ml oral solution
+^ESCTCA948639	Captopril 100micrograms/5ml oral solution
+^ESCTCA948640	Captopril 12mg/5ml oral solution
+^ESCTCA948641	Captopril 15.625mg/5ml oral solution
+^ESCTCA948642	Captopril 17.5mg/5ml oral solution
+^ESCTCA948643	Captopril 18.5mg/5ml oral solution
+^ESCTCA948644	Captopril 22.5mg/5ml oral solution
+^ESCTCA948645	Captopril 3.5mg/5ml oral solution
+^ESCTCA948646	Captopril 30mg/5ml oral solution
+^ESCTCA948647	Captopril 5.4mg/5ml oral solution
+^ESCTCA948717	Captopril 7mg/5ml oral solution 1 ml
+^ESCTCA948718	Captopril 7mg/5ml oral solution (Special Order)
+^ESCTCA948721	Captopril 7mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948723	Captopril 8mg/5ml oral solution 1 ml
+^ESCTCA948724	Captopril 8mg/5ml oral solution (Special Order)
+^ESCTCA948725	Captopril 8mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA948858	Captopril 62.5mg/5ml oral solution 1 ml
+^ESCTCA948859	Captopril 62.5mg/5ml oral solution (Special Order)
+^ESCTCA948860	Captopril 62.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCA949184	Captopril 62.5mg/5ml oral solution
+^ESCTCA949185	Captopril 7mg/5ml oral solution
+^ESCTCA949186	Captopril 8mg/5ml oral solution
+^ESCTCA960108	Captopril 12.5mg tablets (Dowelhurst Ltd)
+^ESCTCA960109	Captopril 12.5mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTCA960110	Captopril 25mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTCA960114	Captopril 50mg tablets (Dowelhurst Ltd)
+^ESCTCA960115	Captopril 50mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTCA965407	Captopril 12.5mg tablets (Tillomed Laboratories Ltd)
+^ESCTCA965408	Captopril 12.5mg tablets (Tillomed Laboratories Ltd) 56 tablet
+^ESCTCA965409	Captopril 12.5mg tablets (Tillomed Laboratories Ltd) 100 tablet
+^ESCTCA965410	Captopril 25mg tablets (Tillomed Laboratories Ltd)
+^ESCTCA965411	Captopril 25mg tablets (Tillomed Laboratories Ltd) 56 tablet
+^ESCTCA965412	Captopril 25mg tablets (Tillomed Laboratories Ltd) 100 tablet
+^ESCTCA965413	Captopril 50mg tablets (Tillomed Laboratories Ltd)
+^ESCTCA965414	Captopril 50mg tablets (Tillomed Laboratories Ltd) 56 tablet
+^ESCTCA965415	Captopril 50mg tablets (Tillomed Laboratories Ltd) 100 tablet
+^ESCTCA966347	Capozide 25mg/50mg tablets (DE Pharmaceuticals)
+^ESCTCA966348	Capozide 25mg/50mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTCA971055	Capoten 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA971056	Capoten 25mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTCA971057	Captopril 50mg tablets 14 tablet
+^ESCTCA971058	Capoten 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA971063	Capoten 50mg tablets (Sigma Pharmaceuticals Plc) 14 tablet
+^ESCTCA971065	Capoten 50mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTCA971078	Capozide 25mg/50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCA971081	Capozide 25mg/50mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCA975544	Captopril 50mg capsules 1 capsule
+^ESCTCA975545	Captopril 50mg capsules (Special Order)
+^ESCTCA975546	Captopril 50mg capsules (Special Order) 1 capsule
+^ESCTCA975599	Captopril 50mg capsules
+^ESCTCA982473	Captopril 1.5mg capsules 1 capsule
+^ESCTCA982474	Captopril 1.5mg capsules (Special Order)
+^ESCTCA982475	Captopril 1.5mg capsules (Special Order) 1 capsule
+^ESCTCA982503	Captopril 1.5mg capsules
+^ESCTCA985962	Captopril 5mg/ml oral solution sugar free 1 ml
+^ESCTCA985963	Captopril 5mg/ml oral solution sugar free (Special Order)
+^ESCTCA985964	Captopril 5mg/ml oral solution sugar free (Special Order) 1 ml
+^ESCTCA987116	Captopril 12.5mg tablets (Bristol Laboratories Ltd)
+^ESCTCA987117	Captopril 12.5mg tablets (Bristol Laboratories Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA987118	Captopril 25mg tablets (Bristol Laboratories Ltd)
+^ESCTCA987119	Captopril 25mg tablets (Bristol Laboratories Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA987120	Captopril 50mg tablets (Bristol Laboratories Ltd)
+^ESCTCA987121	Captopril 50mg tablets (Bristol Laboratories Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA992946	Capoten 50mg tablets (Stephar (U.K.) Ltd)
+^ESCTCA992947	Capoten 50mg tablets (Stephar (U.K.) Ltd) 56 tablet
+^ESCTCA992948	Capoten 25mg tablets (Stephar (U.K.) Ltd)
+^ESCTCA992949	Capoten 25mg tablets (Stephar (U.K.) Ltd) 56 tablet
+^ESCTCO1006993	Co-zidocapt
+^ESCTCO607341	Co-zidocapt 12.5mg/25mg tablets
+^ESCTCO607344	Co-zidocapt 25mg/50mg tablets
+^ESCTCO806706	Co-zidocapt 12.5mg/25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO809961	Co-zidocapt 25mg/50mg tablets (Sandoz Ltd)
+^ESCTCO820447	Co-zidocapt 25mg/50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO820681	Co-zidocapt 25mg/50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO823820	Co-zidocapt 12.5mg/25mg tablets (Sandoz Ltd)
+^ESCTCO878757	Co-zidocapt 12.5mg/25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO878759	Co-zidocapt 25mg/50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO897907	Co-zidocapt 12.5mg/25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO965458	Co-zidocapt 12.5mg/25mg tablets (Tillomed Laboratories Ltd)
+^ESCTCO965460	Co-zidocapt 25mg/50mg tablets (Tillomed Laboratories Ltd)
+^ESCTEC806882	Ecopace 12.5mg tablets (AMCo)
+^ESCTEC823925	Ecopace 50mg tablets (AMCo)
+^ESCTEC826532	Ecopace 25mg tablets (AMCo)
+^ESCTEC848978	Ecopace 12.5mg tablets (AMCo) 56 tablet 4 x 14 tablets
+^ESCTEC849554	Ecopace 25mg tablets (AMCo) 56 tablet 4 x 14 tablets
+^ESCTEC849584	Ecopace 50mg tablets (AMCo) 56 tablet 4 x 14 tablets
+^ESCTEC914993	Ecopace
+^ESCTKA818436	Kaplon 25mg tablets (Teva UK Ltd)
+^ESCTKA820143	Kaplon 50mg tablets (Teva UK Ltd)
+^ESCTKA824289	Kaplon 12.5mg tablets (Teva UK Ltd)
+^ESCTKA848969	Kaplon 12.5mg tablets (Teva UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTKA849458	Kaplon 25mg tablets (Teva UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTKA849571	Kaplon 50mg tablets (Teva UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTKA919638	Kaplon
+^ESCTNO1059098	Noyada 25mg/5ml oral solution (Martindale Pharmaceuticals Ltd)
+^ESCTNO1059099	Noyada 25mg/5ml oral solution (Martindale Pharmaceuticals Ltd) 100 ml
+^ESCTNO1059101	Noyada 5mg/5ml oral solution (Martindale Pharmaceuticals Ltd)
+^ESCTNO1059102	Noyada 5mg/5ml oral solution (Martindale Pharmaceuticals Ltd) 100 ml
+^ESCTNO945041	Noyada
+^ESCTPR297340	Product containing captopril
+^ESCTPR607342	Product containing captopril 25 mg and hydrochlorothiazide 12.5 mg/1 each oral tablet
+^ESCTPR607345	Product containing captopril 50 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR607348	Product containing captopril 12.5 mg/1 each oral tablet
+^ESCTPR607351	Product containing captopril 25 mg/1 each oral tablet
+^ESCTPR607354	Product containing captopril 50 mg/1 each oral tablet
+^ESCTPR639974	Product containing captopril 100 mg/1 each oral tablet
+^ESCTPR641986	Product containing captopril 25 mg and hydrochlorothiazide 15 mg/1 each oral tablet
+^ESCTPR641988	Product containing captopril 25 mg and hydrochlorothiazide 25 mg/1 each oral tablet
+^ESCTPR641990	Product containing captopril 50 mg and hydrochlorothiazide 15 mg/1 each oral tablet
+^ESCTPR670421	Product containing captopril and hydrochlorothiazide
+^ESCTTE820339	Tensopril 25mg tablets (Teva UK Ltd)
+^ESCTTE820775	Tensopril 50mg tablets (Teva UK Ltd)
+^ESCTTE820968	Tensopril 12.5mg tablets (Teva UK Ltd)
+^ESCTTE848979	Tensopril 12.5mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTTE849555	Tensopril 25mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTTE849586	Tensopril 50mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTTE916679	Tensopril

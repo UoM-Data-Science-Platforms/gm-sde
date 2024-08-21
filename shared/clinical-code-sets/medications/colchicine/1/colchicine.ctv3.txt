@@ -1,0 +1,3 @@
+j62..	Colchicine
+j622.	Colchicine 500micrograms tablet
+j621.	Colchicine 250micrograms tablet

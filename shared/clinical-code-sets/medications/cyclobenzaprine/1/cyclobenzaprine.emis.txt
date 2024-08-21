@@ -1,0 +1,27 @@
+^ESCT1183160	Product containing only cyclobenzaprine hydrochloride 10 mg/1 each oral tablet
+^ESCT1183330	Product containing only cyclobenzaprine hydrochloride 7.5 mg/1 each oral tablet
+^ESCT1185306	Product containing only cyclobenzaprine hydrochloride 5 mg/1 each oral tablet
+^ESCT1206945	Cyclobenzaprine in oral dosage form
+^ESCT1206946	Product containing cyclobenzaprine in oral dosage form
+^ESCT1219974	Cyclobenzaprine
+^ESCT1219975	Cyclobenzaprine product
+^ESCT1228824	Product containing precisely cyclobenzaprine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1230667	Product containing precisely cyclobenzaprine hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1234951	Product containing precisely cyclobenzaprine hydrochloride 7.5 milligram/1 each conventional release oral tablet
+^ESCT1354419	Cyclobenzaprine only product
+^ESCT1358119	Cyclobenzaprine only product in oral dose form
+^ESCT1377965	Cyclobenzaprine-containing product
+^ESCT1383496	Cyclobenzaprine (as cyclobenzaprine hydrochloride) 30 mg prolonged-release oral capsule
+^ESCT1383528	Cyclobenzaprine (as cyclobenzaprine hydrochloride) 15 mg prolonged-release oral capsule
+^ESCT1386520	Cyclobenzaprine-containing product in oral dose form
+^ESCTCY381411	Cyclobenzaprine
+^ESCTCY641566	Cyclobenzaprine hydrochloride 10 mg oral tablet
+^ESCTCY677547	Cyclobenzaprine hydrochloride 5 mg oral tablet
+^ESCTCY682542	Cyclobenzaprine hydrochloride
+^ESCTCY704786	Cyclobenzaprine 30mg extended release capsule
+^ESCTCY706596	Cyclobenzaprine 15mg extended release capsule
+^ESCTCY717148	Cyclobenzaprine hydrochloride 7.5 mg oral tablet
+^ESCTPR381412	Product containing cyclobenzaprine
+^ESCTPR641567	Product containing cyclobenzaprine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR677548	Product containing cyclobenzaprine hydrochloride 5 mg/1 each oral tablet
+^ESCTPR717149	Product containing cyclobenzaprine hydrochloride 7.5 mg/1 each oral tablet

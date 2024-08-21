@@ -1,0 +1,183 @@
+^ESCT1173922	Hydroxyzine 10mg tablets (Bluefish Pharmaceuticals AB)
+^ESCT1173923	Hydroxyzine 10mg tablets (Bluefish Pharmaceuticals AB) 84 tablet 6 x 14 tablets
+^ESCT1173924	Hydroxyzine 25mg tablets (Bluefish Pharmaceuticals AB)
+^ESCT1173925	Hydroxyzine 25mg tablets (Bluefish Pharmaceuticals AB) 28 tablet 2 x 14 tablets
+^ESCT1174833	Hydroxyzine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1174834	Hydroxyzine 10mg tablets (A A H Pharmaceuticals Ltd) 84 tablet
+^ESCT1174835	Hydroxyzine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1174836	Hydroxyzine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1174942	Hydroxyzine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1174943	Hydroxyzine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1174944	Hydroxyzine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1174945	Hydroxyzine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1178152	Product containing only hydroxyzine hydrochloride 10 mg/1 each oral tablet
+^ESCT1181366	Product containing only hydroxyzine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181533	Product containing only hydroxyzine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181540	Product containing only hydroxyzine pamoate 25 mg/1 each oral tablet
+^ESCT1181606	Product containing only hydroxyzine pamoate 100 mg/1 each oral capsule
+^ESCT1181759	Product containing only hydroxyzine hydrochloride 100 mg/1 each oral tablet
+^ESCT1181809	Product containing only hydroxyzine pamoate 50 mg/1 each oral tablet
+^ESCT1181832	Product containing only hydroxyzine pamoate 50 mg/1 each oral capsule
+^ESCT1182967	Ephedrine sulfate and hydroxyzine hydrochloride and theophylline
+^ESCT1182968	Product containing ephedrine sulfate and hydroxyzine hydrochloride and theophylline
+^ESCT1187570	Product containing only hydroxyzine pamoate 25 mg/1 each oral capsule
+^ESCT1196031	Hydroxyzine 25mg tablets (Creo Pharma Ltd)
+^ESCT1196193	Hydroxyzine 25mg tablets (Creo Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1196315	Hydroxyzine 10mg tablets (Creo Pharma Ltd)
+^ESCT1196317	Hydroxyzine 10mg tablets (Creo Pharma Ltd) 84 tablet 6 x 14 tablets
+^ESCT1197894	Hydroxyzine 10mg/5ml oral suspension 1 ml
+^ESCT1197895	Hydroxyzine 10mg/5ml oral suspension (Special Order)
+^ESCT1197896	Hydroxyzine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1197963	Hydroxyzine 10mg/5ml oral suspension
+^ESCT1208737	Hydroxyzine hydrochloride 2 mg/mL oral solution
+^ESCT1208738	Product containing precisely hydroxyzine hydrochloride 2 milligram/1 milliliter conventional release oral solution
+^ESCT1215530	Hydroxyzine 25mg tablets (Medreich Plc)
+^ESCT1215531	Hydroxyzine 25mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1215673	Hydroxyzine 10mg/5ml oral solution
+^ESCT1219945	Hydroxyzine
+^ESCT1219946	Hydroxyzine product
+^ESCT1223362	Product containing precisely hydroxyzine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223363	Product containing precisely hydroxyzine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1228207	Product containing precisely hydroxyzine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1228208	Product containing precisely hydroxyzine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1228261	Product containing precisely hydroxyzine pamoate 25 milligram/1 each conventional release oral tablet
+^ESCT1228262	Product containing precisely hydroxyzine pamoate 50 milligram/1 each conventional release oral tablet
+^ESCT1228388	Hydroxyzine pamoate 25 mg/1 each oral capsule
+^ESCT1228389	Hydroxyzine pamoate 25 mg oral capsule
+^ESCT1228390	Product containing precisely hydroxyzine pamoate 25 milligram/1 each conventional release oral capsule
+^ESCT1228391	Hydroxyzine pamoate 50 mg/1 each oral capsule
+^ESCT1228392	Product containing precisely hydroxyzine pamoate 50 milligram/1 each conventional release oral capsule
+^ESCT1228393	Hydroxyzine pamoate 50 mg oral capsule
+^ESCT1228394	Hydroxyzine pamoate 100 mg/1 each oral capsule
+^ESCT1228395	Hydroxyzine pamoate 100 mg oral capsule
+^ESCT1228396	Product containing precisely hydroxyzine pamoate 100 milligram/1 each conventional release oral capsule
+^ESCT1266974	Hydroxyzine 10mg tablets (DE Pharmaceuticals)
+^ESCT1266976	Hydroxyzine 10mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCT1266977	Hydroxyzine 25mg tablets (DE Pharmaceuticals)
+^ESCT1266979	Hydroxyzine 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1270109	Hydroxyzine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1270802	Hydroxyzine 10mg/5ml oral suspension 100 ml
+^ESCT1270803	Hydroxyzine 10mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCT1271524	Hydroxyzine 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1271525	Hydroxyzine 10mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1279003	Hydroxyzine 10mg tablets (Zentiva)
+^ESCT1279004	Hydroxyzine 10mg tablets (Zentiva) 84 tablet 6 x 14 tablets
+^ESCT1279005	Hydroxyzine 25mg tablets (Zentiva)
+^ESCT1279006	Hydroxyzine 25mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCT1355376	Hydroxyzine only product
+^ESCT1358822	Hydroxyzine only product in oral dose form
+^ESCT1358823	Hydroxyzine only product in parenteral dose form
+^ESCT1375892	Hydroxyzine 10mg tablets (Morningside Healthcare Ltd)
+^ESCT1375893	Hydroxyzine 10mg tablets (Morningside Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1375894	Hydroxyzine 25mg tablets (Morningside Healthcare Ltd)
+^ESCT1375895	Hydroxyzine 25mg tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1376079	Hydroxyzine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376080	Hydroxyzine 10mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1376081	Hydroxyzine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376082	Hydroxyzine 25mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1381886	Hydroxyzine pamoate 5 mg/mL oral suspension
+^ESCT1383594	Hydroxyzine-containing product in oral dose form
+^ESCT1383620	Hydroxyzine-containing product in parenteral dose form
+^ESCT1402440	Hydroxyzine 10mg tablets (DHP Healthcare Ltd)
+^ESCT1402441	Hydroxyzine 10mg tablets (DHP Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1402445	Hydroxyzine 25mg tablets (DHP Healthcare Ltd)
+^ESCT1402447	Hydroxyzine 25mg tablets (DHP Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422814	Hydroxyzine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422815	Hydroxyzine 10mg tablets (Zentiva Pharma UK Ltd) 84 tablet 6 x 14 tablets
+^ESCT1422816	Hydroxyzine 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422817	Hydroxyzine 25mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1433717	Hydroxyzine 10mg tablets (Bristol Laboratories Ltd)
+^ESCT1433718	Hydroxyzine 10mg tablets (Bristol Laboratories Ltd) 84 tablet 6 x 14 tablets
+^ESCT1433719	Hydroxyzine 25mg tablets (Bristol Laboratories Ltd)
+^ESCT1433720	Hydroxyzine 25mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT816072	Atarax 25mg tablets (Alliance Pharmaceuticals Ltd)
+^ESCTAT819163	Atarax 10mg tablets (Alliance Pharmaceuticals Ltd)
+^ESCTAT855795	Atarax 10mg tablets (Alliance Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTAT855802	Atarax 25mg tablets (Alliance Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT913976	Atarax
+^ESCTEP642206	Ephedrine sulfate+hydroxyzine hydrochloride+theophylline 6.25mg/2.5mg/32.5mg syrup
+^ESCTEP661301	Ephedrine sulphate + hydroxyzine hydrochloride + theophylline
+^ESCTEP661302	Ephedrine sulfate + hydroxyzine hydrochloride + theophylline
+^ESCTHY1159873	Hydroxyzine 10mg/5ml oral solution 1 ml
+^ESCTHY1159874	Hydroxyzine 10mg/5ml oral solution (Special Order)
+^ESCTHY1159875	Hydroxyzine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY1160731	Hydroxyzine 15mg/5ml oral suspension 1 ml
+^ESCTHY1160732	Hydroxyzine 15mg/5ml oral suspension (Special Order)
+^ESCTHY1160734	Hydroxyzine 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY1160839	Hydroxyzine 15mg/5ml oral suspension
+^ESCTHY380402	Hydroxyzine
+^ESCTHY609144	Hydroxyzine 10mg tablets
+^ESCTHY609146	Hydroxyzine hydrochloride 10 mg oral tablet
+^ESCTHY609147	Hydroxyzine 25mg tablets
+^ESCTHY609149	Hydroxyzine hydrochloride 25 mg oral tablet
+^ESCTHY609150	Hydroxyzine 10mg/5ml oral solution
+^ESCTHY609151	Hydroxyzine hydrochloride 10mg/5mL syrup
+^ESCTHY609152	Hydroxyzine hydrochloride 10mg/5ml syrup
+^ESCTHY640033	Hydroxyzine hydrochloride 50 mg oral tablet
+^ESCTHY640035	Hydroxyzine hydrochloride 100 mg oral tablet
+^ESCTHY640143	Hydroxyzine pamoate 25 mg oral tablet
+^ESCTHY640145	Hydroxyzine pamoate 50 mg oral tablet
+^ESCTHY640430	Hydroxyzine pamoate 25 mg/1 each oral capsule
+^ESCTHY640432	Hydroxyzine pamoate 50 mg/1 each oral capsule
+^ESCTHY640434	Hydroxyzine pamoate 100 mg/1 each oral capsule
+^ESCTHY640436	Hydroxyzine pamoate 25mg/5cc suspension
+^ESCTHY663913	Hydroxyzine hydrochloride 50mg/1mL injection solution 25mL vial
+^ESCTHY664060	Hydroxyzine hydrochloride 50mg/1mL injection solution 50mL vial
+^ESCTHY664369	Hydroxyzine hydrochloride 50mg/mL injection solution 1mL vial
+^ESCTHY664370	Hydroxyzine hydrochloride 50mg/mL injection
+^ESCTHY664473	Hydroxyzine hydrochloride 50mg/1mL injection solution 2mL vial
+^ESCTHY664526	Hydroxyzine hydrochloride 50mg/1mL injection solution 10mL vial
+^ESCTHY664527	Hydroxyzine hydrochloride 500mg/10mL injection
+^ESCTHY708727	Hydroxyzine in oral dosage form
+^ESCTHY709260	Hydroxyzine in parenteral dosage form
+^ESCTHY835382	Hydroxyzine 10mg/5ml oral solution 200 ml
+^ESCTHY847301	Hydroxyzine 25mg tablets 28 tablet
+^ESCTHY847572	Hydroxyzine 10mg tablets 84 tablet
+^ESCTHY848043	Hydroxyzine 25mg tablets 25 tablet
+^ESCTHY907210	Hydroxyzine 5mg/5ml oral solution 1 ml
+^ESCTHY907213	Hydroxyzine 5mg/5ml oral solution (Special Order)
+^ESCTHY907214	Hydroxyzine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY907218	Hydroxyzine 5mg/5ml oral suspension 1 ml
+^ESCTHY907219	Hydroxyzine 5mg/5ml oral suspension (Special Order)
+^ESCTHY907221	Hydroxyzine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907421	Hydroxyzine 5mg/5ml oral solution
+^ESCTHY907422	Hydroxyzine 5mg/5ml oral suspension
+^ESCTHY951238	Hydroxyzine 2.5mg/5ml oral solution 1 ml
+^ESCTHY951239	Hydroxyzine 2.5mg/5ml oral solution (Special Order)
+^ESCTHY951240	Hydroxyzine 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951244	Hydroxyzine 20mg/5ml oral solution 1 ml
+^ESCTHY951245	Hydroxyzine 20mg/5ml oral solution (Special Order)
+^ESCTHY951246	Hydroxyzine 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951251	Hydroxyzine 25mg/5ml oral solution 1 ml
+^ESCTHY951252	Hydroxyzine 25mg/5ml oral solution (Special Order)
+^ESCTHY951253	Hydroxyzine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY952084	Hydroxyzine 2.5mg/5ml oral solution
+^ESCTHY952086	Hydroxyzine 20mg/5ml oral solution
+^ESCTHY952088	Hydroxyzine 25mg/5ml oral solution
+^ESCTPR380403	Product containing hydroxyzine
+^ESCTPR609145	Product containing hydroxyzine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609148	Product containing hydroxyzine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR640034	Product containing hydroxyzine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR640036	Product containing hydroxyzine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR640144	Product containing hydroxyzine pamoate 25 mg/1 each oral tablet
+^ESCTPR640146	Product containing hydroxyzine pamoate 50 mg/1 each oral tablet
+^ESCTPR640431	Product containing hydroxyzine pamoate 25 mg/1 each oral capsule
+^ESCTPR640433	Product containing hydroxyzine pamoate 50 mg/1 each oral capsule
+^ESCTPR640435	Product containing hydroxyzine pamoate 100 mg/1 each oral capsule
+^ESCTPR708728	Product containing hydroxyzine in oral dosage form
+^ESCTPR709261	Product containing hydroxyzine in parenteral dosage form
+^ESCTUC829956	Ucerax 25mg tablets (UCB Pharma Ltd)
+^ESCTUC833413	Ucerax 10mg/5ml syrup (UCB Pharma Ltd)
+^ESCTUC855805	Ucerax 25mg tablets (UCB Pharma Ltd) 25 tablet
+^ESCTUC855810	Ucerax 10mg/5ml syrup (UCB Pharma Ltd) 200 ml
+^ESCTUC916908	Ucerax
+ATSY227	Atarax  Syrup  10 mg/5 ml
+ATTA228	Atarax  Tablets  10 mg
+ATTA229	Atarax  Tablets  25 mg
+HYOR130333NEMIS	Hydroxyzine Hydrochloride  Oral solution  2.5 mg/5 ml
+HYOR133337NEMIS	Hydroxyzine Hydrochloride  Oral suspension  10 mg/5 ml
+HYSY5014	Hydroxyzine Hydrochloride  Oral solution  10 mg/5 ml
+HYTA5015	Hydroxyzine Hydrochloride  Tablets  10 mg
+HYTA6792	Hydroxyzine Hydrochloride  Tablets  25 mg
+UCSY19792EMIS	Ucerax  Syrup  10 mg/5 ml
+UCTA19793EMIS	Ucerax  Tablets  25 mg

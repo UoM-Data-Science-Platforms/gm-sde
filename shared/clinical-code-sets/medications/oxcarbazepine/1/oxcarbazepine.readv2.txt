@@ -1,0 +1,9 @@
+dnm..00	OXCARBAZEPINE
+dnmz.00	OXCARBAZEPINE 600mg tablets
+dnmy.00	OXCARBAZEPINE 300mg tablets
+dnmx.00	OXCARBAZEPINE 150mg tablets
+dnmw.00	OXCARBAZEPINE 60mg/mL sugar free oral suspension
+dnm4.00	TRILEPTAL 60mg/mL sugar free oral suspension
+dnm3.00	TRILEPTAL 600 tablets
+dnm2.00	TRILEPTAL 300 tablets
+dnm1.00	TRILEPTAL 150 tablets

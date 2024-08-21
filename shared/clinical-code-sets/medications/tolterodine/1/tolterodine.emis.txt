@@ -1,0 +1,306 @@
+^ESCT1178779	Product containing only tolterodine l-tartrate 1 mg/1 each oral tablet
+^ESCT1181881	Product containing only tolterodine l-tartrate 2 mg/1 each oral tablet
+^ESCT1184527	Efflosomyl XL 4mg capsules (Mylan)
+^ESCT1184528	Efflosomyl XL 4mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1203723	Tolterodine tartrate 2mg prolonged-release oral capsule
+^ESCT1203882	Tolterodine L-tartrate 4mg prolonged-release oral capsule
+^ESCT1207875	Tolterodine in oral dosage form
+^ESCT1207876	Product containing tolterodine in oral dosage form
+^ESCT1221310	Tolterodine
+^ESCT1221311	Tolterodine product
+^ESCT1224937	Product containing precisely tolterodine tartrate 1 milligram/1 each conventional release oral tablet
+^ESCT1224938	Tolterodine tartrate 1 mg oral tablet
+^ESCT1224939	Tolterodine tartrate 2 mg oral tablet
+^ESCT1224940	Product containing precisely tolterodine tartrate 2 milligram/1 each conventional release oral tablet
+^ESCT1259256	Tolterodine 1mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259257	Tolterodine 1mg tablets (Torrent Pharma (UK) Ltd) 56 tablet
+^ESCT1259258	Tolterodine 2mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259259	Tolterodine 2mg tablets (Torrent Pharma (UK) Ltd) 56 tablet
+^ESCT1264772	Tolterodine 1mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264773	Tolterodine 1mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCT1266832	Detrusitol XL 4mg capsules (CST Pharma Ltd)
+^ESCT1266833	Detrusitol XL 4mg capsules (CST Pharma Ltd) 28 capsule
+^ESCT1274212	Detrusitol 2mg tablets (Pilsco Ltd)
+^ESCT1274213	Detrusitol 2mg tablets (Pilsco Ltd) 28 tablet
+^ESCT1274214	Detrusitol 2mg tablets (Pilsco Ltd) 56 tablet
+^ESCT1274215	Detrusitol XL 4mg capsules (Pilsco Ltd)
+^ESCT1274216	Detrusitol XL 4mg capsules (Pilsco Ltd) 28 capsule
+^ESCT1277562	Preblacon XL 4mg capsules (Accord Healthcare Ltd)
+^ESCT1277563	Preblacon XL 4mg capsules (Accord Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1299006	Tolthen XL
+^ESCT1299229	Tolthen XL 2mg capsules (Northumbria Pharma Ltd)
+^ESCT1299230	Tolthen XL 2mg capsules (Northumbria Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCT1299231	Tolthen XL 4mg capsules (Northumbria Pharma Ltd)
+^ESCT1299232	Tolthen XL 4mg capsules (Northumbria Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCT1300200	Tolterma XL
+^ESCT1300382	Tolterma XL 4mg capsules (Macleods Pharma UK Ltd)
+^ESCT1300383	Tolterma XL 4mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1300384	Tolterma XL 2mg capsules (Macleods Pharma UK Ltd)
+^ESCT1300385	Tolterma XL 2mg capsules (Macleods Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1301179	Detrusitol XL 4mg capsules (Upjohn Ltd)
+^ESCT1301188	Detrusitol 2mg tablets (Upjohn Ltd)
+^ESCT1301204	Detrusitol 1mg tablets (Upjohn Ltd)
+^ESCT1301271	Detrusitol XL 4mg capsules (Upjohn Ltd) 28 capsule 4 x 7 capsules
+^ESCT1301272	Detrusitol 1mg tablets (Upjohn Ltd) 56 tablet 4 x 14 tablets
+^ESCT1301273	Detrusitol 2mg tablets (Upjohn Ltd) 56 tablet 4 x 14 tablets
+^ESCT1302414	Tolterodine 2mg tablets (Upjohn Ltd)
+^ESCT1302415	Tolterodine 2mg tablets (Upjohn Ltd) 56 tablet 4 x 14 tablets
+^ESCT1302416	Tolterodine 1mg tablets (Upjohn Ltd)
+^ESCT1302417	Tolterodine 1mg tablets (Upjohn Ltd) 56 tablet 4 x 14 tablets
+^ESCT1302418	Santizor XL 4mg capsules (Upjohn Ltd)
+^ESCT1302419	Santizor XL 4mg capsules (Upjohn Ltd) 28 capsule 2 x 14 capsules
+^ESCT1303896	Detrusitol XL 4mg capsules (Upjohn UK Ltd)
+^ESCT1303905	Detrusitol 2mg tablets (Upjohn UK Ltd)
+^ESCT1303919	Detrusitol 1mg tablets (Upjohn UK Ltd)
+^ESCT1303947	Detrusitol XL 4mg capsules (Upjohn UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1303948	Detrusitol 1mg tablets (Upjohn UK Ltd) 56 tablet 4 x 14 tablets
+^ESCT1303949	Detrusitol 2mg tablets (Upjohn UK Ltd) 56 tablet 4 x 14 tablets
+^ESCT1304271	Tolterodine 2mg tablets (Upjohn UK Ltd)
+^ESCT1304272	Tolterodine 2mg tablets (Upjohn UK Ltd) 56 tablet 4 x 14 tablets
+^ESCT1304273	Tolterodine 1mg tablets (Upjohn UK Ltd)
+^ESCT1304274	Tolterodine 1mg tablets (Upjohn UK Ltd) 56 tablet 4 x 14 tablets
+^ESCT1304275	Santizor XL 4mg capsules (Upjohn UK Ltd)
+^ESCT1304276	Santizor XL 4mg capsules (Upjohn UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1357013	Tolterodine only product
+^ESCT1360071	Tolterodine only product in oral dose form
+^ESCT1386918	Tolterodine-containing product in oral dose form
+^ESCT1422579	Blerone XL 4mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422580	Blerone XL 4mg capsules (Zentiva Pharma UK Ltd) 28 capsule
+^ESCT1425430	Tolterodine 4mg modified-release capsules 30 capsule
+^ESCT1425431	Detrusitol XL 4mg capsules (Upjohn UK Ltd) 30 capsule
+^ESCT1427823	Tolterodine 1mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427824	Tolterodine 1mg tablets (Kent Pharma (UK) Ltd) 56 tablet
+^ESCT1429643	Tolterodine 1mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429644	Tolterodine 1mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1429645	Tolterodine 2mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429646	Tolterodine 2mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1436759	Detrusitol XL 4mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436858	Detrusitol 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437030	Detrusitol 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437371	Detrusitol XL 4mg capsules (Viatris UK Healthcare Ltd) 28 capsule 4 x 7 capsules
+^ESCT1437372	Detrusitol 1mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1437373	Detrusitol 2mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1438440	Tolterodine 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438441	Tolterodine 2mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1438442	Tolterodine 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438443	Tolterodine 1mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1438447	Efflosomyl XL 4mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438448	Efflosomyl XL 4mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1439326	Detrusitol XL 4mg capsules (Viatris UK Healthcare Ltd) 30 capsule
+^ESCTBL1044456	Blerone XL 4mg capsules (Zentiva)
+^ESCTBL1044457	Blerone XL 4mg capsules (Zentiva) 28 capsule
+^ESCTBL942222	Blerone XL
+^ESCTDE1008923	Detrusitol 1mg tablets (Necessity Supplies Ltd)
+^ESCTDE1008924	Detrusitol 1mg tablets (Necessity Supplies Ltd) 56 tablet
+^ESCTDE1008925	Detrusitol 2mg tablets (Necessity Supplies Ltd)
+^ESCTDE1008926	Detrusitol 2mg tablets (Necessity Supplies Ltd) 56 tablet
+^ESCTDE1008927	Detrusitol XL 4mg capsules (Necessity Supplies Ltd)
+^ESCTDE1008928	Detrusitol XL 4mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTDE1009315	Detrusitol 2mg tablets (Stephar (U.K.) Ltd)
+^ESCTDE1009316	Detrusitol 2mg tablets (Stephar (U.K.) Ltd) 28 tablet
+^ESCTDE1009318	Detrusitol 2mg tablets (Stephar (U.K.) Ltd) 56 tablet
+^ESCTDE1009342	Detrusitol 1mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDE1009343	Detrusitol 1mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTDE1026127	Detrusitol 1mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTDE799541	Detrusitol XL 4mg capsules (Pfizer Ltd)
+^ESCTDE808230	Detrusitol 2mg tablets (Pfizer Ltd)
+^ESCTDE824539	Detrusitol 1mg tablets (Pfizer Ltd)
+^ESCTDE854210	Detrusitol XL 4mg capsules (Pfizer Ltd) 28 capsule 4 x 7 capsules
+^ESCTDE854220	Detrusitol 1mg tablets (Pfizer Ltd) 56 tablet 4 x 14 tablets
+^ESCTDE854221	Detrusitol 2mg tablets (Pfizer Ltd) 56 tablet 4 x 14 tablets
+^ESCTDE877774	Detrusitol 1mg tablets (Waymade Healthcare Plc)
+^ESCTDE877775	Detrusitol 1mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTDE877776	Detrusitol 2mg tablets (Waymade Healthcare Plc)
+^ESCTDE877777	Detrusitol 2mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTDE879263	Detrusitol 1mg tablets (Dowelhurst Ltd)
+^ESCTDE879264	Detrusitol 1mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTDE879266	Detrusitol 1mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTDE879268	Detrusitol 1mg tablets (Dowelhurst Ltd) 100 tablet
+^ESCTDE879282	Detrusitol 2mg tablets (Dowelhurst Ltd)
+^ESCTDE879284	Detrusitol 2mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTDE879285	Detrusitol 2mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTDE879287	Detrusitol 2mg tablets (Dowelhurst Ltd) 100 tablet
+^ESCTDE914770	Detrusitol
+^ESCTDE914772	Detrusitol XL
+^ESCTDE944373	Detrusitol XL 4mg capsules (Waymade Healthcare Plc)
+^ESCTDE944374	Detrusitol XL 4mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTDE966542	Detrusitol 1mg tablets (DE Pharmaceuticals)
+^ESCTDE966543	Detrusitol 1mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTDE966544	Detrusitol 2mg tablets (DE Pharmaceuticals)
+^ESCTDE966545	Detrusitol 2mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTDE966546	Detrusitol 2mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTDE966547	Detrusitol XL 4mg capsules (DE Pharmaceuticals)
+^ESCTDE966548	Detrusitol XL 4mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTDE970829	Detrusitol 1mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDE970832	Detrusitol 1mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTDE970841	Detrusitol 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDE970842	Detrusitol 2mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTDE970843	Detrusitol XL 4mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTDE970847	Detrusitol XL 4mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTDE990009	Detrusitol 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDE990010	Detrusitol 2mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTDE990012	Detrusitol XL 4mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTDE990014	Detrusitol XL 4mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTEF1037428	Efflosomyl XL 4mg capsules (Mylan Ltd)
+^ESCTEF1037429	Efflosomyl XL 4mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTEF940048	Efflosomyl XL
+^ESCTIN1045582	Inconex XL 4mg capsules (Sandoz Ltd)
+^ESCTIN1045583	Inconex XL 4mg capsules (Sandoz Ltd) 28 capsule 2 x 14 capsules
+^ESCTIN942272	Inconex XL
+^ESCTMA1037043	Mariosea XL 4mg capsules (Teva UK Ltd)
+^ESCTMA1037044	Mariosea XL 4mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTMA1127892	Mariosea XL 2mg capsules (Teva UK Ltd)
+^ESCTMA1127893	Mariosea XL 2mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTMA940044	Mariosea XL
+^ESCTNE1040331	Neditol XL 4mg capsules (Aspire Pharma Ltd)
+^ESCTNE1040332	Neditol XL 4mg capsules (Aspire Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTNE1045129	Neditol XL 2mg capsules (Aspire Pharma Ltd)
+^ESCTNE1045130	Neditol XL 2mg capsules (Aspire Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTNE940125	Neditol XL
+^ESCTPR1042616	Preblacon XL 4mg capsules (Actavis UK Ltd)
+^ESCTPR1042617	Preblacon XL 4mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTPR416030	Product containing tolterodine
+^ESCTPR416032	Product containing tolterodine tartrate
+^ESCTPR613408	Product containing tolterodine l-tartrate 1 mg/1 each oral tablet
+^ESCTPR613411	Product containing tolterodine l-tartrate 2 mg/1 each oral tablet
+^ESCTPR942171	Preblacon XL
+^ESCTSA1036497	Santizor XL 4mg capsules (Pfizer Ltd)
+^ESCTSA1036498	Santizor XL 4mg capsules (Pfizer Ltd) 28 capsule 2 x 14 capsules
+^ESCTSA940022	Santizor XL
+^ESCTTO1012300	Tolterodine 2mg tablets (DE Pharmaceuticals)
+^ESCTTO1012301	Tolterodine 2mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTTO1026126	Tolterodine 1mg tablets 60 tablet
+^ESCTTO1036146	Tolterodine 1mg tablets (Teva UK Ltd)
+^ESCTTO1036149	Tolterodine 1mg tablets (Teva UK Ltd) 56 tablet 8 x 7 tablets
+^ESCTTO1036163	Tolterodine 2mg tablets (Teva UK Ltd)
+^ESCTTO1036164	Tolterodine 2mg tablets (Teva UK Ltd) 56 tablet 8 x 7 tablets
+^ESCTTO1036365	Tolterodine 1mg tablets (Actavis UK Ltd)
+^ESCTTO1036366	Tolterodine 1mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1036367	Tolterodine 2mg tablets (Actavis UK Ltd)
+^ESCTTO1036368	Tolterodine 2mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1036433	Tolterodine 1mg tablets (Arrow Generics Ltd)
+^ESCTTO1036434	Tolterodine 1mg tablets (Arrow Generics Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1036435	Tolterodine 2mg tablets (Arrow Generics Ltd)
+^ESCTTO1036436	Tolterodine 2mg tablets (Arrow Generics Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1036487	Tolterodine 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTO1036488	Tolterodine 1mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1036489	Tolterodine 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTO1036490	Tolterodine 2mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1036493	Tolterodine 2mg tablets (Pfizer Ltd)
+^ESCTTO1036494	Tolterodine 2mg tablets (Pfizer Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1036495	Tolterodine 1mg tablets (Pfizer Ltd)
+^ESCTTO1036496	Tolterodine 1mg tablets (Pfizer Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1036798	Tolterodine 1mg tablets (Aspire Pharma Ltd)
+^ESCTTO1036800	Tolterodine 1mg tablets (Aspire Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1036801	Tolterodine 2mg tablets (Aspire Pharma Ltd)
+^ESCTTO1036802	Tolterodine 2mg tablets (Aspire Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1037758	Tolterodine 1mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTO1037759	Tolterodine 1mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1037760	Tolterodine 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTO1037761	Tolterodine 2mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1042413	Tolterodine 1mg tablets (Waymade Healthcare Plc)
+^ESCTTO1042414	Tolterodine 1mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTTO1042415	Tolterodine 2mg tablets (Waymade Healthcare Plc)
+^ESCTTO1042416	Tolterodine 2mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTTO1045128	Tolterodine 2mg modified-release capsules 28 capsule
+^ESCTTO1045609	Tolterodine 2mg modified-release capsules
+^ESCTTO1045842	Tolterodine 2mg/5ml oral suspension 100 ml
+^ESCTTO1045843	Tolterodine 2mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTTO1057367	Tolterodine 1mg tablets (Accord Healthcare Ltd)
+^ESCTTO1057370	Tolterodine 1mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1057371	Tolterodine 2mg tablets (Accord Healthcare Ltd)
+^ESCTTO1057372	Tolterodine 2mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1067048	Tolterodine 1mg tablets (Sandoz Ltd)
+^ESCTTO1067049	Tolterodine 1mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1067050	Tolterodine 2mg tablets (Sandoz Ltd)
+^ESCTTO1067051	Tolterodine 2mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTTO1119819	Tolterodine 1mg tablets (DE Pharmaceuticals)
+^ESCTTO1119820	Tolterodine 1mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTTO1119821	Tolterodine 2mg tablets (DE Pharmaceuticals)
+^ESCTTO1119890	Tolterodine 2mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTTO1126189	Tolterodine 1mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTTO1126190	Tolterodine 1mg tablets (Almus Pharmaceuticals Ltd) 56 tablet
+^ESCTTO1126191	Tolterodine 2mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTTO1126192	Tolterodine 2mg tablets (Almus Pharmaceuticals Ltd) 56 tablet
+^ESCTTO1127649	Tolterodine 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTO1127650	Tolterodine 2mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTTO1141428	Tolterodine 2mg modified-release capsules (Ennogen Healthcare Ltd)
+^ESCTTO1141429	Tolterodine 2mg modified-release capsules (Ennogen Healthcare Ltd) 28 capsule
+^ESCTTO1142246	Tolterodine 1mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTO1142247	Tolterodine 1mg tablets (Kent Pharmaceuticals Ltd) 56 tablet
+^ESCTTO1143927	Tolterodine 2mg modified-release capsules (J M McGill Ltd)
+^ESCTTO1143928	Tolterodine 2mg modified-release capsules (J M McGill Ltd) 28 capsule
+^ESCTTO416029	Tolterodine
+^ESCTTO416031	Tolterodine tartrate
+^ESCTTO613407	Tolterodine 1mg tablets
+^ESCTTO613409	Tolterodine l-tartrate 1 mg oral tablet
+^ESCTTO613410	Tolterodine 2mg tablets
+^ESCTTO613412	Tolterodine l-tartrate 2 mg oral tablet
+^ESCTTO647458	Tolterodine m/r capsule
+^ESCTTO647459	Tolterodine tartrate 2mg m/r capsule
+^ESCTTO676462	Tolterodine 4mg modified-release capsules
+^ESCTTO676463	Tolterodine L-tartrate 4mg m/r capsule
+^ESCTTO676464	Tolterodine tartrate 4mg m/r capsule
+^ESCTTO676465	Tolterodine 4mg m/r capsule
+^ESCTTO839105	Tolterodine 1mg tablets 56 tablet
+^ESCTTO848446	Tolterodine 2mg tablets 56 tablet
+^ESCTTO848594	Tolterodine 4mg modified-release capsules 28 capsule
+^ESCTTO878663	Tolterodine 2mg tablets 28 tablet
+^ESCTTO878664	Tolterodine 2mg tablets (Dowelhurst Ltd)
+^ESCTTO878667	Tolterodine 2mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTTO878669	Tolterodine 2mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTTO878766	Tolterodine 1mg tablets (Dowelhurst Ltd)
+^ESCTTO878767	Tolterodine 1mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTTO878769	Tolterodine 1mg tablets 28 tablet
+^ESCTTO878770	Tolterodine 1mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTTO879262	Tolterodine 1mg tablets 100 tablet
+^ESCTTO879279	Tolterodine 2mg tablets 100 tablet
+^ESCTTO968595	Tolterodine 2mg/5ml oral solution 1 ml
+^ESCTTO968596	Tolterodine 2mg/5ml oral solution (Special Order)
+^ESCTTO968597	Tolterodine 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO968598	Tolterodine 2mg/5ml oral suspension 1 ml
+^ESCTTO968599	Tolterodine 2mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTTO968600	Tolterodine 2mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTTO969431	Tolterodine 2mg/5ml oral solution
+^ESCTTO969432	Tolterodine 2mg/5ml oral suspension
+^ESCTTO973811	Tolterodine 4mg modified-release capsules
+^ESCTTO985878	Tolterodine 2mg oral powder sachets 1 sachet
+^ESCTTO985879	Tolterodine 2mg oral powder sachets (Special Order)
+^ESCTTO985880	Tolterodine 2mg oral powder sachets (Special Order) 1 sachet
+^ESCTTO985897	Tolterodine 2mg oral powder sachets
+^ESCTTO988382	Tolterodine 4mg/5ml oral solution 1 ml
+^ESCTTO988383	Tolterodine 4mg/5ml oral solution (Special Order)
+^ESCTTO988384	Tolterodine 4mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO988385	Tolterodine 4mg/5ml oral suspension 1 ml
+^ESCTTO988386	Tolterodine 4mg/5ml oral suspension (Special Order)
+^ESCTTO988387	Tolterodine 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO988388	Tolterodine 1mg/5ml oral suspension 1 ml
+^ESCTTO988389	Tolterodine 1mg/5ml oral suspension (Special Order)
+^ESCTTO988390	Tolterodine 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO988391	Tolterodine 1mg/5ml oral solution 1 ml
+^ESCTTO988392	Tolterodine 1mg/5ml oral solution (Special Order)
+^ESCTTO988393	Tolterodine 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTTO988440	Tolterodine 1mg/5ml oral solution
+^ESCTTO988441	Tolterodine 1mg/5ml oral suspension
+^ESCTTO988442	Tolterodine 4mg/5ml oral solution
+^ESCTTO988443	Tolterodine 4mg/5ml oral suspension
+BLM/78625NEMIS	Blerone Xl  M/R capsules  4 mg
+DEM/11679NEMIS	Detrusitol Xl  M/R capsules  4 mg
+DETA32245EMIS	Detrusitol  Tablets  1 mg
+DETA32246EMIS	Detrusitol  Tablets  2 mg
+INM/78952NEMIS	Inconex Xl  M/R capsules  4 mg
+MAM/105719NEMIS	Mariosea Xl  M/R capsules  2 mg
+MAM/76918NEMIS	Mariosea Xl  M/R capsules  4 mg
+NEM/78081NEMIS	Neditol Xl  M/R capsules  4 mg
+NEM/79115NEMIS	Neditol Xl  M/R capsules  2 mg
+PRM/78469NEMIS	Preblacon Xl  M/R capsules  4 mg
+SAM/76697NEMIS	Santizor Xl  M/R capsules  4 mg
+TOM/11677NEMIS	Tolterodine Tartrate  M/R capsules  4 mg
+TOM/134854NEMIS	Tolthen Xl  M/R capsules  2 mg
+TOM/134856NEMIS	Tolthen Xl  M/R capsules  4 mg
+TOM/135609NEMIS	Tolterma Xl  M/R capsules  2 mg
+TOM/135610NEMIS	Tolterma Xl  M/R capsules  4 mg
+TOM/79112NEMIS	Tolterodine Tartrate  M/R capsules  2 mg
+TOOR35192NEMIS	Tolterodine Tartrate  Oral suspension  2 mg/5 ml
+TOTA32249EMIS	Tolterodine Tartrate  Tablets  1 mg
+TOTA32250EMIS	Tolterodine Tartrate  Tablets  2 mg

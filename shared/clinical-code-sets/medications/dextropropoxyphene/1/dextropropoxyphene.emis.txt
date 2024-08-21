@@ -1,0 +1,164 @@
+^ESCT1178877	Product containing only aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 32 mg/1 each oral capsule
+^ESCT1181432	Product containing only propoxyphene napsylate 100 mg/1 each oral tablet
+^ESCT1181918	Product containing only propoxyphene hydrochloride 65 mg/1 each oral capsule
+^ESCT1183177	Product containing only aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 65 mg/1 each oral capsule
+^ESCT1183229	Product containing only paracetamol 325 mg and propoxyphene napsylate 50 mg/1 each oral tablet
+^ESCT1183230	Product containing only acetaminophen 325 mg and propoxyphene napsylate 50 mg/1 each oral tablet
+^ESCT1185465	Product containing only acetaminophen 650 mg and propoxyphene napsylate 100 mg/1 each oral tablet
+^ESCT1185466	Product containing only paracetamol 650 mg and propoxyphene napsylate 100 mg/1 each oral tablet
+^ESCT1187304	Product containing only paracetamol 325 mg and dextropropoxyphene hydrochloride 32.5 mg/1 each oral tablet
+^ESCT1187305	Product containing only acetaminophen 325 mg and dextropropoxyphene hydrochloride 32.5 mg/1 each oral tablet
+^ESCT1188317	Product containing only paracetamol 500 mg and propoxyphene napsylate 100 mg/1 each oral tablet
+^ESCT1188318	Product containing only acetaminophen 500 mg and propoxyphene napsylate 100 mg/1 each oral tablet
+^ESCT1188393	Product containing only acetaminophen 325 mg and propoxyphene napsylate 100 mg/1 each oral tablet
+^ESCT1188394	Product containing only paracetamol 325 mg and propoxyphene napsylate 100 mg/1 each oral tablet
+^ESCT1204556	Acetaminophen+dextropropoxyphene hydrochloride 325mg/32.5mg/5mL conventional release oral suspension
+^ESCT1204557	Paracetamol+dextropropoxyphene hydrochloride 325mg/32.5mg/5mL s/f suspension
+^ESCT1221647	Dextropropoxyphene
+^ESCT1221648	Dextropropoxyphene product
+^ESCT1221649	Propoxyphene product
+^ESCT1223722	Acetaminophen 325 mg and propoxyphene 32.5 mg oral tablet
+^ESCT1223723	Product containing precisely dextropropoxyphene 32.5 milligram and paracetamol 325 milligram/1 each conventional release oral tablet
+^ESCT1223724	Dextropropoxyphene 32.5 mg and paracetamol 325 mg oral tablet
+^ESCT1223779	Propoxyphene hydrochloride 65 mg oral capsule
+^ESCT1223780	Product containing precisely dextropropoxyphene hydrochloride 65 milligram/1 each conventional release oral capsule
+^ESCT1223781	Dextropropoxyphene hydrochloride 65 mg oral capsule
+^ESCT1227008	Dextropropoxyphene and paracetamol product
+^ESCT1227009	Acetaminophen and propoxyphene product
+^ESCT1227961	Product containing precisely dextropropoxyphene napsylate 100 milligram/1 each conventional release oral tablet
+^ESCT1227962	Dextropropoxyphene napsylate 100 mg oral tablet
+^ESCT1228946	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 65 mg/1 each oral capsule
+^ESCT1228947	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 65 mg oral capsule
+^ESCT1228948	Aspirin 389 mg and caffeine 32.4 mg and dextropropoxyphene hydrochloride 65 mg oral capsule
+^ESCT1228949	Product containing precisely aspirin 389 milligram and caffeine 32.4 milligram and dextropropoxyphene hydrochloride 65 milligram/1 each conventional release oral capsule
+^ESCT1229134	Product containing precisely dextropropoxyphene napsylate 50 milligram and paracetamol 325 milligram/1 each conventional release oral tablet
+^ESCT1229135	Dextropropoxyphene napsylate 50 mg and paracetamol 325 mg oral tablet
+^ESCT1229136	Dextropropoxyphene napsylate 100 mg and paracetamol 650 mg oral tablet
+^ESCT1229137	Product containing precisely dextropropoxyphene napsylate 100 milligram and paracetamol 650 milligram/1 each conventional release oral tablet
+^ESCT1232185	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 32 mg/1 each oral capsule
+^ESCT1232186	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 32 mg oral capsule
+^ESCT1232187	Product containing precisely aspirin 389 milligram and caffeine 32.4 milligram and dextropropoxyphene hydrochloride 32 milligram/1 each conventional release oral capsule
+^ESCT1232188	Aspirin 389 mg and caffeine 32.4 mg and dextropropoxyphene hydrochloride 32 mg oral capsule
+^ESCT1232204	Product containing precisely dextropropoxyphene napsylate 100 milligram and paracetamol 500 milligram/1 each conventional release oral tablet
+^ESCT1232205	Dextropropoxyphene napsylate 100 mg and paracetamol 500 mg oral tablet
+^ESCT1232965	Dextropropoxyphene napsylate 100 mg and paracetamol 325 mg oral tablet
+^ESCT1232966	Product containing precisely dextropropoxyphene napsylate 100 milligram and paracetamol 325 milligram/1 each conventional release oral tablet
+^ESCT1351242	Aspirin- and caffeine- and dextropropoxyphene-containing product in oral dose form
+^ESCT1351243	Aspirin- and caffeine- and propoxyphene-containing product in oral dose form
+^ESCT1351346	Dextropropoxyphene- and paracetamol-containing product in oral dose form
+^ESCT1351347	Acetaminophen- and propoxyphene-containing product in oral dose form
+^ESCT1351348	Dextropropoxyphene-containing product in oral dose form
+^ESCT1351349	Propoxyphene-containing product in oral dose form
+^ESCT1351827	Aspirin- and caffeine- and dextropropoxyphene-containing product
+^ESCT1351828	Aspirin- and caffeine- and propoxyphene-containing product
+^ESCT1353571	Aspirin and caffeine and dextropropoxyphene only product
+^ESCT1353572	Aspirin and caffeine and propoxyphene only product
+^ESCT1354553	Dextropropoxyphene only product
+^ESCT1354554	Propoxyphene only product
+^ESCT1354555	Dextropropoxyphene and paracetamol only product
+^ESCT1354556	Acetaminophen and propoxyphene only product
+^ESCT1357532	Aspirin and caffeine and dextropropoxyphene only product in oral dose form
+^ESCT1357533	Aspirin and caffeine and propoxyphene only product in oral dose form
+^ESCT1358209	Dextropropoxyphene and paracetamol only product in oral dose form
+^ESCT1358210	Acetaminophen and propoxyphene only product in oral dose form
+^ESCT1358211	Dextropropoxyphene only product in oral dose form
+^ESCT1358212	Propoxyphene only product in oral dose form
+^ESCT1362657	Dextropropoxyphene 32.5 mg and paracetamol hydrochloride 325 mg oral tablet
+^ESCT1362658	Acetaminophen 325 mg and propoxyphene hydrochloride 32.5 mg oral tablet
+^ESCT1381422	Dextropropoxyphene- and paracetamol-containing product
+^ESCT1381423	Acetaminophen- and propoxyphene-containing product
+^ESCT1409374	Dextropropoxyphene hydrochloride 32.5 mg and paracetamol 325 mg oral tablet
+^ESCT1421777	Co-proxamol 32.5mg/325mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1424754	Co-proxamol 32.5mg/325mg tablets
+^ESCT1425692	Co-proxamol 32.5mg/325mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1441164	Co-proxamol 32.5mg/325mg tablets (Part VIIID Drug Tariff Special Order)
+^ESCTAC610089	Acetaminophen 325 mg and dextropropoxyphene hydrochloride 32.5 mg oral tablet
+^ESCTAC610114	Acetaminophen+dextropropoxyphene hydrochloride 325mg/32.5mg/5mL s/f suspension
+^ESCTAC619333	Acetaminophen+dextropropoxyphene
+^ESCTAC619335	Acetaminophen and dextropropoxyphene
+^ESCTAC642346	Acetaminophen 325 mg and propoxyphene napsylate 50 mg oral tablet
+^ESCTAC642352	Acetaminophen 650 mg and propoxyphene napsylate 100 mg oral tablet
+^ESCTAC684063	Acetaminophen 500 mg and propoxyphene napsylate 100 mg oral tablet
+^ESCTAC694391	Acetaminophen 325 mg and propoxyphene napsylate 100 mg oral tablet
+^ESCTAS641888	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 65 mg/1 each oral capsule
+^ESCTAS683024	Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 32 mg/1 each oral capsule
+^ESCTCO1006990	Co-proxamol
+^ESCTCO1007607	Co-proxamol 32.5mg/325mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1117134	Co-proxamol 32.5mg/325mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO1117621	Co-proxamol 32.5mg/325mg tablets (Ennogen Healthcare Ltd)
+^ESCTCO1119316	Co-proxamol 32.5mg/325mg tablets (DE Pharmaceuticals)
+^ESCTCO1133517	Co-proxamol 32.5mg/325mg tablets (Special Order)
+^ESCTCO610085	Co-proxamol 32.5mg/325mg tablets
+^ESCTCO610112	Co-proxamol 32.5mg/325mg/5mL s/f suspension
+^ESCTCO803965	Co-proxamol 32.5mg/325mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO804214	Co-proxamol 32.5mg/325mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO805505	Co-proxamol 32.5mg/325mg tablets (Sandoz Ltd)
+^ESCTCO808198	Co-proxamol 32.5mg/325mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCO810647	Co-proxamol 32.5mg/325mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO818076	Co-proxamol 32.5mg/325mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO819740	Co-proxamol 32.5mg/325mg tablets (Actavis UK Ltd)
+^ESCTCO823998	Co-proxamol 32.5mg/325mg tablets (Teva UK Ltd)
+^ESCTCO824242	Co-proxamol 32.5mg/325mg tablets (Zentiva)
+^ESCTCO905954	Co-proxamol 32.5mg/325mg/5ml oral suspension (Special Order)
+^ESCTCO906153	Co-proxamol 32.5mg/325mg/5ml oral suspension
+^ESCTCO923530	Co-proxamol 32.5mg/325mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCO956131	Co-proxamol 32.5mg/325mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTCO997612	Co-proxamol 32.5mg/325mg tablets (Lexon (UK) Ltd)
+^ESCTDE428076	Dextropropoxyphene
+^ESCTDE610236	Dextropropoxyphene 60mg capsules
+^ESCTDE619337	Dextropropoxyphene and paracetamol
+^ESCTDE682721	Dextropropoxyphene hydrochloride
+^ESCTDE864695	Dextropropoxyphene 60mg capsules 100 capsule
+^ESCTDI807915	Distalgesic 32.5mg/325mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTDI850279	Distalgesic 32.5mg/325mg tablets (Meda Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCTDI914873	Distalgesic
+^ESCTDO864697	Doloxene 100mg capsules (Eli Lilly and Company Ltd)
+^ESCTDO864702	Doloxene 100mg capsules (Eli Lilly and Company Ltd) 100 capsule
+^ESCTDO914885	Doloxene
+^ESCTPA610088	Paracetamol 325 mg and dextropropoxyphene hydrochloride 32.5 mg oral tablet
+^ESCTPA610113	Paracetamol+dextropropoxyphene hydrochloride 325mg/32.5mg/5mL s/f suspension
+^ESCTPA642342	Paracetamol + propoxyphene napsylate 325mg/50mg tablet
+^ESCTPA642345	Paracetamol 325 mg and propoxyphene napsylate 50 mg oral tablet
+^ESCTPA642349	Paracetamol + propoxyphene napsylate 650mg/100mg tablet
+^ESCTPA642353	Paracetamol 650 mg and propoxyphene napsylate 100 mg oral tablet
+^ESCTPA684059	Paracetamol + propoxyphene napsylate 500mg/100mg tablet
+^ESCTPA684062	Paracetamol 500 mg and propoxyphene napsylate 100 mg oral tablet
+^ESCTPA694388	Paracetamol 325mg/propoxyphene napsylate 100mg tablet
+^ESCTPA694392	Paracetamol 325 mg and propoxyphene napsylate 100 mg oral tablet
+^ESCTPR428077	Propoxyphene
+^ESCTPR428078	Product containing dextropropoxyphene
+^ESCTPR610086	Product containing acetaminophen 325 mg and dextropropoxyphene hydrochloride 32.5 mg/1 each oral tablet
+^ESCTPR610087	Product containing paracetamol 325 mg and dextropropoxyphene hydrochloride 32.5 mg/1 each oral tablet
+^ESCTPR610237	Propoxyphene hydrochloride 65 mg/1 each oral capsule
+^ESCTPR610238	Product containing propoxyphene hydrochloride 65 mg/1 each oral capsule
+^ESCTPR619334	Product containing dextropropoxyphene and paracetamol
+^ESCTPR619336	Product containing acetaminophen and dextropropoxyphene
+^ESCTPR639307	Propoxyphene napsylate 100 mg oral tablet
+^ESCTPR639308	Product containing propoxyphene napsylate 100 mg/1 each oral tablet
+^ESCTPR641889	Product containing aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 65 mg/1 each oral capsule
+^ESCTPR642343	Product containing acetaminophen 325 mg and propoxyphene napsylate 50 mg/1 each oral tablet
+^ESCTPR642344	Product containing paracetamol 325 mg and propoxyphene napsylate 50 mg/1 each oral tablet
+^ESCTPR642350	Product containing acetaminophen 650 mg and propoxyphene napsylate 100 mg/1 each oral tablet
+^ESCTPR642351	Product containing paracetamol 650 mg and propoxyphene napsylate 100 mg/1 each oral tablet
+^ESCTPR682722	Propoxyphene hydrochloride
+^ESCTPR682723	Product containing propoxyphene hydrochloride
+^ESCTPR683025	Product containing aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 32 mg/1 each oral capsule
+^ESCTPR684060	Product containing acetaminophen 500 mg and propoxyphene napsylate 100 mg/1 each oral tablet
+^ESCTPR684061	Product containing paracetamol 500 mg and propoxyphene napsylate 100 mg/1 each oral tablet
+^ESCTPR694389	Product containing acetaminophen 325 mg and propoxyphene napsylate 100 mg/1 each oral tablet
+^ESCTPR694390	Product containing paracetamol 325 mg and propoxyphene napsylate 100 mg/1 each oral tablet
+COSU16171NEMIS	Co-Proxamol  Sugar free suspension  
+COTA34607MGEMIS	Co-Proxamol  Tablets  (A.A.H. Pharm)
+COTA34608MGEMIS	Co-Proxamol  Tablets  (Unichem)
+COTA34609MGEMIS	Co-Proxamol  Tablets  (Sandoz)
+COTA34610MGEMIS	Co-Proxamol  Tablets  (Ranbaxy)
+COTA34611MGEMIS	Co-Proxamol  Tablets  (Ivax Pharmaceuticals)
+COTA34612MGEMIS	Co-Proxamol  Tablets  (Kent Pharm)
+COTA34613MGEMIS	Co-Proxamol  Tablets  (Alpharma)
+COTA34614MGEMIS	Co-Proxamol  Tablets  (Teva UK)
+COTA34615MGEMIS	Co-Proxamol  Tablets  (Winthrop Pharmaceuticals )
+COTA688	Co-Proxamol  Tablets  
+DECA4820	Dextropropoxyphene Hydrochloride  Capsules  65 mg
+DITA9012BRIDL	Distalgesic  Tablets  
+DOCA5717	Doloxene  Capsules  65 mg
+DOCA9432HILLI	Doloxene Compound  Capsules

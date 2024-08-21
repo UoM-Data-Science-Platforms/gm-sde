@@ -1,0 +1,25 @@
+b44..	Triamterene
+b44z.	Triamterene 50mg capsule
+b441.	Dytac 50mg capsule
+b51E.	Triamterene+benzthiazide 50mg/25mg capsule
+b515.	Dytide capsule
+b51F.	Triamterene+chlorthalidone 50mg/25mg tablet
+b51w.	Kalspare LS tablet
+b51G.	Triamterene+chlortalidone 50mg/50mg tablet
+b518.	Kalspare tablet
+b51H.	Triamterene+frusemide 50mg/40mg tablet
+b517.	Frusene tablet
+b51n.	Frusene tablets 56CP
+x00Ba	Triamterene+loop diuretic
+x00Bb	Triamterene+thiazide diuretic
+x02Rh	Co-triamterzide
+b51A.	Co-triamterzide 50mg/25mg tablet
+b51v.	Triamaxco tablet
+b51f.	Triam-Co tablet
+b514.	Dyazide tablet
+x02as	Dytac
+x02at	Dytide
+x02g6	Kalspare
+x03zy	Frusene
+x02tC	Triamaxco
+x02ao	Dyazide

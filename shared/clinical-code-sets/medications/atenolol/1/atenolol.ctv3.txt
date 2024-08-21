@@ -1,0 +1,59 @@
+bd3..	Atenolol
+x0010	Atenolol+diuretic
+x03jo	Atenolol+co-amilozide
+bdey.	Atenolol+co-amilozide 50mg/2.5mg/25mg capsule
+bde7.	Kalten capsule
+x03jn	Atenolol+bendroflumethiazide
+bdeP.	Atenolol+bendrofluazide 25mg/1.25mg capsule
+bdeQ.	Tenben capsule
+x02Rk	Co-tenidone
+bden.	Atenolol+chlortalidone 100mg/25mg tablet
+bder.	Tenchlor 100mg/25mg tablet
+bdep.	AtenixCo 100mg/25mg tablet
+bdeh.	Tenoretic tablet
+bdeO.	Totaretic 100mg/25mg tablet
+bdem.	Atenolol+chlortalidone 50mg/12.5mg tablet
+bdeq.	Tenchlor 50mg/12.5mg tablet
+bdeo.	AtenixCo 50mg/12.5mg tablet
+bdeg.	Tenoret 50 tablet
+bdeN.	Totaretic 50mg/12.5mg tablet
+x000z	Atenolol+calcium channel blocker
+bdez.	Atenolol+nifedipine 50mg/20mg m/r capsule
+bdet.	Tenif capsule
+bdes.	Beta-Adalat capsule
+bdeR.	Combitens m/r capsule
+bd3y.	Atenolol 5mg/10mL injection
+bd37.	Tenormin CCU pack
+bd33.	Tenormin 5mg/10mL injection
+bd3x.	Atenolol 25mg/5mL syrup
+bd32.	Tenormin 25mg/5mL syrup
+bd3j.	Atenolol 25mg tablet
+bd3z.	Atenix 25mg tablet
+bd3l.	Antipressan 25mg tablet
+bd3k.	Totamol 25mg tablet
+bd3c.	Tenormin 25 tablet
+bd36.	Atenolol 100mg tablet
+bd3i.	Totamol 100mg tablet
+bd3g.	Atenix 100mg tablet
+bd3e.	Vasaten 100mg tablet
+bd3b.	Antipressan 100mg tablet
+bd31.	Tenormin 100mg tablet
+bd35.	Atenolol 50mg tablet
+bd3h.	Totamol 50mg tablet
+bd3f.	Atenix 50mg tablet
+bd3d.	Vasaten 50mg tablet
+bd3a.	Antipressan 50mg tablet
+bd34.	Tenormin LS 50mg tablet
+x05LO	Atenolol - chemical
+x02sP	Tenormin
+x02sQ	Tenormin LS
+x03yR	Tenormin 25
+x02Uf	Atenix
+x02U3	Antipressan
+x02sx	Totamol
+x02g7	Kalten
+x02sN	Tenoret 50
+x02sK	Tenchlor
+x02sL	Tenif
+x03jp	Tenben
+x02sy	Totaretic

@@ -1,0 +1,15 @@
+bs1..	Warfarin sodium
+bs1C.	WARFARIN SODIUM 1mg/1mL oral suspension
+bs14.	Warfarin WBP 1mg tablet
+bs15.	Warfarin WBP 3mg tablet
+bs16.	Warfarin WBP 5mg tablet
+bs17.	Warfarin sodium 1mg tablet
+bs11.	Marevan 1mg tablet
+bs18.	Warfarin sodium 3mg tablet
+bs12.	Marevan 3mg tablet
+bs19.	Warfarin sodium 5mg tablet
+bs13.	Marevan 5mg tablet
+bs1A.	Warfarin sodium 0.5mg tablet
+bs1B.	Marevan 0.5mg tablet
+x01O4	Sodium warfarin
+x02iF	Marevan

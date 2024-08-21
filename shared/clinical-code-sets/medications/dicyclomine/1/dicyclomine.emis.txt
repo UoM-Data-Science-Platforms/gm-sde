@@ -1,0 +1,198 @@
+^ESCT1178051	Product containing only dicyclomine hydrochloride 10 mg/1 each oral tablet
+^ESCT1178052	Product containing only dicycloverine hydrochloride 10 mg/1 each oral tablet
+^ESCT1181827	Product containing only dicyclomine hydrochloride 10 mg/1 each oral capsule
+^ESCT1181828	Product containing only dicycloverine hydrochloride 10 mg/1 each oral capsule
+^ESCT1182731	Product containing only dicycloverine hydrochloride 20 mg/1 each oral capsule
+^ESCT1182732	Product containing only dicyclomine hydrochloride 20 mg/1 each oral capsule
+^ESCT1187161	Product containing only dicyclomine hydrochloride 20 mg/1 each oral tablet
+^ESCT1187162	Product containing only dicycloverine hydrochloride 20 mg/1 each oral tablet
+^ESCT1189105	Dicycloverine 20mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 4 x 21 tablets
+^ESCT1215056	Dicycloverine 10mg/5ml oral solution (Morningside Healthcare Ltd)
+^ESCT1215057	Dicycloverine 10mg/5ml oral solution (Morningside Healthcare Ltd) 120 ml
+^ESCT1218215	Dicycloverine
+^ESCT1218216	Dicyclomine product
+^ESCT1218217	Dicycloverine product
+^ESCT1222521	Product containing precisely dicycloverine hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1222522	Product containing precisely dicycloverine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1222523	Dicycloverine hydrochloride 2 mg/mL oral solution
+^ESCT1222524	Dicyclomine hydrochloride 2 mg/mL oral solution
+^ESCT1222525	Product containing precisely dicycloverine hydrochloride 2 milligram/1 milliliter conventional release oral solution
+^ESCT1228368	Product containing precisely dicycloverine hydrochloride 10 milligram/1 each conventional release oral capsule
+^ESCT1228369	Dicyclomine hydrochloride 10 mg oral capsule
+^ESCT1228370	Dicycloverine hydrochloride 10 mg oral capsule
+^ESCT1229489	Dicycloverine hydrochloride 20 mg oral capsule
+^ESCT1229490	Product containing precisely dicycloverine hydrochloride 20 milligram/1 each conventional release oral capsule
+^ESCT1229491	Dicyclomine hydrochloride 20 mg oral capsule
+^ESCT1244856	Dicycloverine 10mg tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCT1244857	Dicycloverine 20mg tablets (Teva UK Ltd) 84 tablet 6 x 14 tablets
+^ESCT1250808	Dicycloverine 10mg/5ml oral solution (Advanz Pharma)
+^ESCT1250809	Dicycloverine 10mg/5ml oral solution (Advanz Pharma) 120 ml
+^ESCT1250810	Dicycloverine 10mg tablets (Advanz Pharma)
+^ESCT1250811	Dicycloverine 10mg tablets (Advanz Pharma) 100 tablet 10 x 10 tablets
+^ESCT1250812	Dicycloverine 20mg tablets (Advanz Pharma)
+^ESCT1250813	Dicycloverine 20mg tablets (Advanz Pharma) 84 tablet 7 x 12 tablets
+^ESCT1259223	Dicycloverine 20mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1259224	Dicycloverine 20mg tablets (Flamingo Pharma (UK) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1259225	Dicycloverine 10mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1259226	Dicycloverine 10mg tablets (Flamingo Pharma (UK) Ltd) 100 tablet 10 x 10 tablets
+^ESCT1306788	Dicycloverine 10mg tablets (Morningside Healthcare Ltd)
+^ESCT1306789	Dicycloverine 10mg tablets (Morningside Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCT1354591	Dicycloverine only product
+^ESCT1354592	Dicyclomine only product
+^ESCT1358238	Dicycloverine only product in oral dose form
+^ESCT1358239	Dicyclomine only product in oral dose form
+^ESCT1358240	Dicycloverine only product in parenteral dose form
+^ESCT1358241	Dicyclomine only product in parenteral dose form
+^ESCT1373521	Dicycloverine 20mg tablets (Morningside Healthcare Ltd)
+^ESCT1373522	Dicycloverine 20mg tablets (Morningside Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1375471	Dicycloverine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375472	Dicycloverine 10mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1375473	Dicycloverine 10mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1375474	Dicycloverine 10mg/5ml oral solution (Medihealth (Northern) Ltd) 120 ml
+^ESCT1375475	Dicycloverine 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375476	Dicycloverine 20mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1382100	Dicycloverine-containing product in oral dose form
+^ESCT1382101	Dicyclomine-containing product in oral dose form
+^ESCT1382102	Dicycloverine-containing product in parenteral dose form
+^ESCT1382103	Dicyclomine-containing product in parenteral dose form
+^ESCT1421977	Kolanticon gel (Intrapharm Laboratories Ltd)
+^ESCT1421978	Kolanticon gel (Intrapharm Laboratories Ltd) 500 ml
+^ESCT1421979	Kolanticon gel (Intrapharm Laboratories Ltd) 200 ml
+^ESCT1422429	Dicycloverine 10mg/5ml oral solution (Zentiva Pharma UK Ltd)
+^ESCT1422430	Dicycloverine 10mg/5ml oral solution (Zentiva Pharma UK Ltd) 120 ml
+^ESCT1422435	Dicycloverine 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422436	Dicycloverine 20mg tablets (Zentiva Pharma UK Ltd) 84 tablet 4 x 21 tablets
+^ESCT1422437	Dicycloverine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422438	Dicycloverine 10mg tablets (Zentiva Pharma UK Ltd) 100 tablet 10 x 10 tablets
+^ESCT1434817	Kolanticon gel (Esteve Pharmaceuticals Ltd)
+^ESCT1434818	Kolanticon gel (Esteve Pharmaceuticals Ltd) 500 ml
+^ESCT1434819	Kolanticon gel (Esteve Pharmaceuticals Ltd) 200 ml
+^ESCTDI1018585	Dicycloverine 10mg/5ml oral solution (Zentiva)
+^ESCTDI1018586	Dicycloverine 10mg/5ml oral solution (Zentiva) 120 ml
+^ESCTDI1018844	Dicycloverine 20mg tablets (Zentiva)
+^ESCTDI1018845	Dicycloverine 20mg tablets (Zentiva) 84 tablet 4 x 21 tablets
+^ESCTDI1018846	Dicycloverine 10mg tablets (Zentiva)
+^ESCTDI1018847	Dicycloverine 10mg tablets (Zentiva) 100 tablet 10 x 10 tablets
+^ESCTDI1019323	Dicycloverine 10mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI1019324	Dicycloverine 10mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 120 ml
+^ESCTDI1019325	Dicycloverine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI1019326	Dicycloverine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet 10 x 10 tablets
+^ESCTDI1019327	Dicycloverine 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI1019328	Dicycloverine 20mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 4 x 21 tablets
+^ESCTDI1019329	Dicycloverine 10mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTDI1019330	Dicycloverine 10mg/5ml oral solution (A A H Pharmaceuticals Ltd) 120 ml
+^ESCTDI1019332	Dicycloverine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI1019334	Dicycloverine 10mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTDI1019335	Dicycloverine 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI1019337	Dicycloverine 20mg tablets (A A H Pharmaceuticals Ltd) 84 tablet
+^ESCTDI1042932	Dicycloverine 10mg/5ml oral solution (Waymade Healthcare Plc)
+^ESCTDI1042933	Dicycloverine 10mg/5ml oral solution (Waymade Healthcare Plc) 120 ml
+^ESCTDI1042934	Dicycloverine 10mg tablets (Waymade Healthcare Plc)
+^ESCTDI1042935	Dicycloverine 10mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTDI1042936	Dicycloverine 20mg tablets (Waymade Healthcare Plc)
+^ESCTDI1042937	Dicycloverine 20mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTDI1058856	Dicycloverine 10mg/5ml oral solution (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1058857	Dicycloverine 10mg/5ml oral solution (Phoenix Healthcare Distribution Ltd) 120 ml
+^ESCTDI1058858	Dicycloverine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1058859	Dicycloverine 10mg tablets (Phoenix Healthcare Distribution Ltd) 100 tablet
+^ESCTDI1058860	Dicycloverine 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1058861	Dicycloverine 20mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTDI1113647	Dicycloverine 10mg/5ml oral solution 100 ml
+^ESCTDI1113648	Dicycloverine 10mg/5ml oral solution 300 ml
+^ESCTDI1113662	Dicycloverine 10mg/5ml oral solution (Thame Laboratories Ltd)
+^ESCTDI1113666	Dicycloverine 10mg/5ml oral solution (Thame Laboratories Ltd) 100 ml
+^ESCTDI1113670	Dicycloverine 10mg/5ml oral solution (Thame Laboratories Ltd) 120 ml
+^ESCTDI1113672	Dicycloverine 10mg/5ml oral solution (Thame Laboratories Ltd) 300 ml
+^ESCTDI1117186	Dicycloverine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI1117187	Dicycloverine 10mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTDI1117188	Dicycloverine 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI1117189	Dicycloverine 20mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTDI1117190	Dicycloverine 10mg/5ml oral solution (Sigma Pharmaceuticals Plc)
+^ESCTDI1117191	Dicycloverine 10mg/5ml oral solution (Sigma Pharmaceuticals Plc) 120 ml
+^ESCTDI1118237	Dicycloverine 10mg/5ml oral solution (Focus Pharmaceuticals Ltd)
+^ESCTDI1118238	Dicycloverine 10mg/5ml oral solution (Focus Pharmaceuticals Ltd) 120 ml
+^ESCTDI1118239	Dicycloverine 10mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTDI1118240	Dicycloverine 10mg tablets (Focus Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCTDI1118241	Dicycloverine 20mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTDI1118242	Dicycloverine 20mg tablets (Focus Pharmaceuticals Ltd) 84 tablet 7 x 12 tablets
+^ESCTDI1119335	Dicycloverine 10mg/5ml oral solution (DE Pharmaceuticals)
+^ESCTDI1119336	Dicycloverine 10mg/5ml oral solution (DE Pharmaceuticals) 120 ml
+^ESCTDI1119337	Dicycloverine 10mg tablets (DE Pharmaceuticals)
+^ESCTDI1119338	Dicycloverine 10mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTDI1119339	Dicycloverine 20mg tablets (DE Pharmaceuticals)
+^ESCTDI1119340	Dicycloverine 20mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCTDI1153653	Dicycloverine 10mg tablets (Teva UK Ltd)
+^ESCTDI1153654	Dicycloverine 10mg tablets (Teva UK Ltd) 100 tablet
+^ESCTDI1153655	Dicycloverine 20mg tablets (Teva UK Ltd)
+^ESCTDI1153656	Dicycloverine 20mg tablets (Teva UK Ltd) 84 tablet
+^ESCTDI1153657	Dicycloverine 10mg/5ml oral solution (Teva UK Ltd)
+^ESCTDI1153658	Dicycloverine 10mg/5ml oral solution (Teva UK Ltd) 120 ml
+^ESCTDI316849	Dicycloverine
+^ESCTDI316850	Dicyclomine
+^ESCTDI606138	Dicycloverine 20mg tablets
+^ESCTDI606141	Dicycloverine hydrochloride 20 mg oral tablet
+^ESCTDI606142	Dicyclomine hydrochloride 20 mg oral tablet
+^ESCTDI606143	Dicycloverine 10mg tablets
+^ESCTDI606146	Dicycloverine hydrochloride 10 mg oral tablet
+^ESCTDI606147	Dicyclomine hydrochloride 10 mg oral tablet
+^ESCTDI606148	Dicycloverine 10mg/5ml oral solution
+^ESCTDI606149	Dicyclomine hydrochloride 10mg/5mL oral liquid
+^ESCTDI606150	Dicycloverine hydrochloride 10mg/5mL oral liquid
+^ESCTDI606151	Dicyclomine hydrochloride 10mg/5ml syrup
+^ESCTDI640399	Dicyclomine hydrochloride 10mg capsule
+^ESCTDI640401	Dicyclomine hydrochloride 10 mg/1 each oral capsule
+^ESCTDI640403	Dicycloverine hydrochloride 10 mg/1 each oral capsule
+^ESCTDI647398	Dicyclomine in oral dosage form
+^ESCTDI647400	Dicycloverine in oral dosage form
+^ESCTDI647403	Dicycloverine in parenteral dosage form
+^ESCTDI647404	Dicyclomine in parenteral dosage form
+^ESCTDI647408	Dicyclomine hydrochloride 20mg capsule
+^ESCTDI647409	Dicycloverine hydrochloride 20 mg/1 each oral capsule
+^ESCTDI647411	Dicyclomine hydrochloride 20 mg/1 each oral capsule
+^ESCTDI663720	Dicyclomine hydrochloride 10mg/mL injection solution 2mL vial
+^ESCTDI663721	Dicyclomine hydrochloride 10mg/mL injection
+^ESCTDI842862	Dicycloverine 10mg/5ml oral solution 120 ml
+^ESCTDI847791	Dicycloverine 20mg tablets 84 tablet
+^ESCTDI848541	Dicycloverine 10mg tablets 100 tablet
+^ESCTGE859415	Generic Kolanticon gel sugar free 500 ml
+^ESCTGE859416	Generic Kolanticon gel sugar free 200 ml
+^ESCTGE862387	Generic Kolanticon gel sugar free
+^ESCTKO859792	Kolanticon gel (Peckforton Pharmaceuticals Ltd)
+^ESCTKO859793	Kolanticon gel (Peckforton Pharmaceuticals Ltd) 500 ml
+^ESCTKO859795	Kolanticon gel (Peckforton Pharmaceuticals Ltd) 200 ml
+^ESCTKO918984	Kolanticon
+^ESCTME815185	Merbentyl 10mg tablets (Sanofi)
+^ESCTME818584	Merbentyl 10mg/5ml syrup (Sanofi)
+^ESCTME830769	Merbentyl 20 tablets (Sanofi)
+^ESCTME856540	Merbentyl 10mg tablets (Sanofi) 100 tablet 10 x 10 tablets
+^ESCTME856541	Merbentyl 20 tablets (Sanofi) 84 tablet 4 x 21 tablets
+^ESCTME856542	Merbentyl 10mg/5ml syrup (Sanofi) 120 ml
+^ESCTME919086	Merbentyl
+^ESCTOR647396	Oral form dicyclomine
+^ESCTPA647401	Parenteral form dicyclomine
+^ESCTPR316851	Product containing dicycloverine
+^ESCTPR316852	Product containing dicyclomine
+^ESCTPR606139	Product containing dicyclomine hydrochloride 20 mg/1 each oral tablet
+^ESCTPR606140	Product containing dicycloverine hydrochloride 20 mg/1 each oral tablet
+^ESCTPR606144	Product containing dicyclomine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR606145	Product containing dicycloverine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR640400	Product containing dicycloverine hydrochloride 10 mg/1 each oral capsule
+^ESCTPR640402	Product containing dicyclomine hydrochloride 10 mg/1 each oral capsule
+^ESCTPR647397	Product containing dicycloverine in oral dosage form
+^ESCTPR647399	Product containing dicyclomine in oral dosage form
+^ESCTPR647402	Product containing dicycloverine in parenteral dosage form
+^ESCTPR647405	Product containing dicyclomine in parenteral dosage form
+^ESCTPR647410	Product containing dicyclomine hydrochloride 20 mg/1 each oral capsule
+^ESCTPR647412	Product containing dicycloverine hydrochloride 20 mg/1 each oral capsule
+DIOR142408NEMIS	Dicycloverine  Oral Solution, Sugar Free  10 mg/5 ml
+DIOR17626NEMIS	Dicycloverine  Oral solution  10 mg/5 ml
+DITA10374BRIDL	Dicyclomine Hydrochloride  Tablets  20 mg
+DITA17627NEMIS	Dicycloverine  Tablets  10 mg
+DITA17628NEMIS	Dicycloverine  Tablets  20 mg
+DITA889	Dicyclomine Hydrochloride  Tablets  10 mg
+KOGE3808	Kolanticon  Gel  
+KOGE3809	Kolantyl  Gel  
+MESY1777	Merbentyl  Syrup  10 mg/5 ml
+META10038BRIDL	Merbentyl  Tablets  20 mg
+META10491BRIDL	Merbentyl 20  Tablets  20 mg
+META1778	Merbentyl  Tablets  10 mg

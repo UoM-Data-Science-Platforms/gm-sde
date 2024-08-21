@@ -1,0 +1,1223 @@
+^ESCT1177582	Fentanyl 25micrograms/5ml solution for injection pre-filled syringes
+^ESCT1177583	Fentanyl 25micrograms/5ml solution for injection pre-filled syringes (Special Order)
+^ESCT1177584	Fentanyl 25micrograms/5ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCT1177585	Fentanyl 25micrograms/5ml solution for injection pre-filled syringes 9 pre-filled disposable injection
+^ESCT1177586	Fentanyl 25micrograms/5ml solution for injection pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCT1177587	Fentanyl 25micrograms/5ml solution for injection pre-filled syringes (Special Order) 9 pre-filled disposable injection
+^ESCT1179024	Product containing fentanyl
+^ESCT1180993	Mylafent 12micrograms/hour transdermal patches (Mylan) 5 patch
+^ESCT1180994	Mylafent 75micrograms/hour transdermal patches (Mylan)
+^ESCT1180995	Mylafent 100micrograms/hour transdermal patches (Mylan) 5 patch
+^ESCT1185042	Mylafent 25micrograms/hour transdermal patches (Mylan)
+^ESCT1187092	Mylafent 50micrograms/hour transdermal patches (Mylan) 5 patch
+^ESCT1187093	Mylafent 75micrograms/hour transdermal patches (Mylan) 5 patch
+^ESCT1187094	Mylafent 100micrograms/hour transdermal patches (Mylan)
+^ESCT1190175	Mylafent 12micrograms/hour transdermal patches (Mylan)
+^ESCT1190176	Mylafent 25micrograms/hour transdermal patches (Mylan) 5 patch
+^ESCT1190177	Mylafent 50micrograms/hour transdermal patches (Mylan)
+^ESCT1194969	Opiodur 12micrograms/hour transdermal patches (RX Farma)
+^ESCT1194970	Opiodur 12micrograms/hour transdermal patches (RX Farma) 5 patch
+^ESCT1194971	Opiodur 25micrograms/hour transdermal patches (RX Farma)
+^ESCT1194972	Opiodur 25micrograms/hour transdermal patches (RX Farma) 5 patch
+^ESCT1194973	Opiodur 50micrograms/hour transdermal patches (RX Farma)
+^ESCT1194974	Opiodur 50micrograms/hour transdermal patches (RX Farma) 5 patch
+^ESCT1194975	Opiodur 75micrograms/hour transdermal patches (RX Farma)
+^ESCT1194976	Opiodur 75micrograms/hour transdermal patches (RX Farma) 5 patch
+^ESCT1194977	Opiodur 100micrograms/hour transdermal patches (RX Farma)
+^ESCT1194978	Opiodur 100micrograms/hour transdermal patches (RX Farma) 5 patch
+^ESCT1194993	Fentanyl 1.25mg/50ml solution for infusion pre-filled syringes
+^ESCT1194994	Fentanyl 1.25mg/50ml solution for infusion pre-filled syringes (Special Order)
+^ESCT1194995	Fentanyl 1.25mg/50ml solution for infusion pre-filled syringes 1 pre-filled disposable injection
+^ESCT1194996	Fentanyl 1.25mg/50ml solution for infusion pre-filled syringes 10 pre-filled disposable injection
+^ESCT1194997	Fentanyl 1.25mg/50ml solution for infusion pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCT1194998	Fentanyl 1.25mg/50ml solution for infusion pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCT1195737	Sublimaze 500micrograms/10ml solution for injection ampoules (Piramal Critical Care Ltd) 5 ampoule
+^ESCT1196340	Sublimaze 500micrograms/10ml solution for injection ampoules (Piramal Critical Care Ltd)
+^ESCT1208619	Fentanyl in transdermal dosage form
+^ESCT1208620	Product containing fentanyl in transdermal dosage form
+^ESCT1208912	Fentanyl 25 microgram/hour prolonged-release transdermal patch
+^ESCT1208913	Product containing precisely fentanyl 25 microgram/1 hour prolonged-release transdermal patch
+^ESCT1208916	Fentanyl 50 microgram/hour prolonged-release transdermal patch
+^ESCT1208917	Product containing precisely fentanyl 50 microgram/1 hour prolonged-release transdermal patch
+^ESCT1208922	Fentanyl 75 microgram/hour prolonged-release transdermal patch
+^ESCT1208923	Product containing precisely fentanyl 75 microgram/1 hour prolonged-release transdermal patch
+^ESCT1208926	Fentanyl 100 microgram/hour prolonged-release transdermal patch
+^ESCT1208927	Product containing precisely fentanyl 100 microgram/1 hour prolonged-release transdermal patch
+^ESCT1209398	Fentanyl (as fentanyl citrate) 500 microgram/10 mL solution for injection ampoule
+^ESCT1209399	Fentanyl (as fentanyl citrate) 500 microgram/10 mL solution for injection ampule
+^ESCT1209400	Product containing precisely fentanyl (as fentanyl citrate) 500 microgram/10 milliliter conventional release solution for injection ampule
+^ESCT1209401	Fentanyl (as fentanyl citrate) 100 microgram/2 mL solution for injection ampoule
+^ESCT1209402	Fentanyl (as fentanyl citrate) 100 microgram/2 mL solution for injection ampule
+^ESCT1209403	Product containing precisely fentanyl (as fentanyl citrate) 100 microgram/2 milliliter conventional release solution for injection ampule
+^ESCT1215974	Fentanyl 100micrograms/2ml solution for injection ampoules
+^ESCT1215975	Fentanyl 100micrograms/hour transdermal patches
+^ESCT1215976	Fentanyl 25micrograms/hour transdermal patches
+^ESCT1215977	Fentanyl 500micrograms/10ml solution for injection ampoules
+^ESCT1215978	Fentanyl 50micrograms/hour transdermal patches
+^ESCT1215979	Fentanyl 75micrograms/hour transdermal patches
+^ESCT1218160	Fentanyl
+^ESCT1226490	Fentanyl+droperidol
+^ESCT1226491	Product containing droperidol and fentanyl
+^ESCT1226492	Droperidol and fentanyl product
+^ESCT1250426	Fentanyl 100micrograms/2ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250427	Fentanyl 100micrograms/2ml solution for injection ampoules (Advanz Pharma) 10 ampoule
+^ESCT1250428	Fentanyl 500micrograms/10ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250429	Fentanyl 500micrograms/10ml solution for injection ampoules (Advanz Pharma) 10 ampoule
+^ESCT1250591	Bufyl 1.25mg/ml and 2micrograms/ml 250ml infusion bags (Advanz Pharma)
+^ESCT1250592	Bufyl 1.25mg/ml and 2micrograms/ml 500ml infusion bags (Advanz Pharma)
+^ESCT1250593	Bufyl 1mg/ml and 2micrograms/ml 250ml infusion bags (Advanz Pharma)
+^ESCT1250594	Bufyl 1mg/ml and 2micrograms/ml 500ml infusion bags (Advanz Pharma)
+^ESCT1250601	Bufyl 1mg/ml and 2micrograms/ml 250ml infusion bags (Advanz Pharma) 20 bag
+^ESCT1250602	Bufyl 1mg/ml and 2micrograms/ml 500ml infusion bags (Advanz Pharma) 10 bag
+^ESCT1250603	Bufyl 1.25mg/ml and 2micrograms/ml 250ml infusion bags (Advanz Pharma) 20 bag
+^ESCT1250604	Bufyl 1.25mg/ml and 2micrograms/ml 500ml infusion bags (Advanz Pharma) 10 bag
+^ESCT1258261	Durogesic DTrans 25micrograms/hour transdermal patches (Janssen-Cilag Ltd)
+^ESCT1258262	Durogesic DTrans 25micrograms/hour transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCT1258263	Durogesic DTrans 50micrograms/hour transdermal patches (Janssen-Cilag Ltd)
+^ESCT1258264	Durogesic DTrans 50micrograms/hour transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCT1258265	Durogesic DTrans 75micrograms/hour transdermal patches (Janssen-Cilag Ltd)
+^ESCT1258266	Durogesic DTrans 75micrograms/hour transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCT1258267	Durogesic DTrans 100micrograms/hour transdermal patches (Janssen-Cilag Ltd)
+^ESCT1258268	Durogesic DTrans 100micrograms/hour transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCT1258276	Durogesic DTrans 12micrograms/hour transdermal patches (Janssen-Cilag Ltd)
+^ESCT1258277	Durogesic DTrans 12micrograms/hour transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCT1260309	Durogesic DTrans 12micrograms/hour transdermal patches (Waymade Healthcare Plc)
+^ESCT1260310	Durogesic DTrans 12micrograms/hour transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCT1260311	Durogesic DTrans 25micrograms/hour transdermal patches (Waymade Healthcare Plc)
+^ESCT1260312	Durogesic DTrans 25micrograms/hour transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCT1260313	Durogesic DTrans 50micrograms/hour transdermal patches (Waymade Healthcare Plc)
+^ESCT1260314	Durogesic DTrans 50micrograms/hour transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCT1260315	Durogesic DTrans 75micrograms/hour transdermal patches (Waymade Healthcare Plc)
+^ESCT1260316	Durogesic DTrans 75micrograms/hour transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCT1260317	Durogesic DTrans 100micrograms/hour transdermal patches (Waymade Healthcare Plc)
+^ESCT1260318	Durogesic DTrans 100micrograms/hour transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCT1260322	Durogesic DTrans 12micrograms/hour transdermal patches (Mawdsley-Brooks & Company Ltd)
+^ESCT1260323	Durogesic DTrans 12micrograms/hour transdermal patches (Mawdsley-Brooks & Company Ltd) 5 patch
+^ESCT1260324	Durogesic DTrans 25micrograms/hour transdermal patches (Mawdsley-Brooks & Company Ltd)
+^ESCT1260325	Durogesic DTrans 25micrograms/hour transdermal patches (Mawdsley-Brooks & Company Ltd) 5 patch
+^ESCT1260326	Durogesic DTrans 50micrograms/hour transdermal patches (Mawdsley-Brooks & Company Ltd)
+^ESCT1260327	Durogesic DTrans 50micrograms/hour transdermal patches (Mawdsley-Brooks & Company Ltd) 5 patch
+^ESCT1260328	Durogesic DTrans 75micrograms/hour transdermal patches (Mawdsley-Brooks & Company Ltd)
+^ESCT1260329	Durogesic DTrans 75micrograms/hour transdermal patches (Mawdsley-Brooks & Company Ltd) 5 patch
+^ESCT1260330	Durogesic DTrans 100micrograms/hour transdermal patches (Mawdsley-Brooks & Company Ltd)
+^ESCT1260331	Durogesic DTrans 100micrograms/hour transdermal patches (Mawdsley-Brooks & Company Ltd) 5 patch
+^ESCT1260334	Durogesic DTrans 100micrograms/hour transdermal patches (DE Pharmaceuticals)
+^ESCT1260335	Durogesic DTrans 100micrograms/hour transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCT1260336	Durogesic DTrans 12micrograms/hour transdermal patches (DE Pharmaceuticals)
+^ESCT1260337	Durogesic DTrans 12micrograms/hour transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCT1260338	Durogesic DTrans 25micrograms/hour transdermal patches (DE Pharmaceuticals)
+^ESCT1260339	Durogesic DTrans 25micrograms/hour transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCT1260340	Durogesic DTrans 50micrograms/hour transdermal patches (DE Pharmaceuticals)
+^ESCT1260341	Durogesic DTrans 50micrograms/hour transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCT1260342	Durogesic DTrans 75micrograms/hour transdermal patches (DE Pharmaceuticals)
+^ESCT1260343	Durogesic DTrans 75micrograms/hour transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCT1260344	Durogesic DTrans 12micrograms/hour transdermal patches (Lexon (UK) Ltd)
+^ESCT1260345	Durogesic DTrans 12micrograms/hour transdermal patches (Lexon (UK) Ltd) 5 patch
+^ESCT1260346	Durogesic DTrans 25micrograms/hour transdermal patches (Lexon (UK) Ltd)
+^ESCT1260347	Durogesic DTrans 25micrograms/hour transdermal patches (Lexon (UK) Ltd) 5 patch
+^ESCT1260348	Durogesic DTrans 50micrograms/hour transdermal patches (Lexon (UK) Ltd)
+^ESCT1260349	Durogesic DTrans 50micrograms/hour transdermal patches (Lexon (UK) Ltd) 5 patch
+^ESCT1260350	Durogesic DTrans 75micrograms/hour transdermal patches (Lexon (UK) Ltd)
+^ESCT1260351	Durogesic DTrans 75micrograms/hour transdermal patches (Lexon (UK) Ltd) 5 patch
+^ESCT1260352	Durogesic DTrans 100micrograms/hour transdermal patches (Lexon (UK) Ltd)
+^ESCT1260353	Durogesic DTrans 100micrograms/hour transdermal patches (Lexon (UK) Ltd) 5 patch
+^ESCT1260903	Cynril
+^ESCT1263813	Cynril 200microgram lozenges with integral oromucosal applicator (Fontus Health Ltd)
+^ESCT1263814	Cynril 200microgram lozenges with integral oromucosal applicator (Fontus Health Ltd) 3 lozenge
+^ESCT1263817	Cynril 400microgram lozenges with integral oromucosal applicator (Fontus Health Ltd)
+^ESCT1263818	Cynril 400microgram lozenges with integral oromucosal applicator (Fontus Health Ltd) 3 lozenge
+^ESCT1263820	Cynril 600microgram lozenges with integral oromucosal applicator (Fontus Health Ltd)
+^ESCT1263821	Cynril 600microgram lozenges with integral oromucosal applicator (Fontus Health Ltd) 3 lozenge
+^ESCT1263823	Cynril 800microgram lozenges with integral oromucosal applicator (Fontus Health Ltd)
+^ESCT1263824	Cynril 800microgram lozenges with integral oromucosal applicator (Fontus Health Ltd) 3 lozenge
+^ESCT1263839	Cynril 1.2mg lozenges with integral oromucosal applicator (Fontus Health Ltd)
+^ESCT1263841	Cynril 1.2mg lozenges with integral oromucosal applicator (Fontus Health Ltd) 3 lozenge
+^ESCT1263879	Cynril 1.6mg lozenges with integral oromucosal applicator (Fontus Health Ltd)
+^ESCT1263882	Cynril 1.6mg lozenges with integral oromucosal applicator (Fontus Health Ltd) 3 lozenge
+^ESCT1266647	Durogesic DTrans 12micrograms/hour transdermal patches (CST Pharma Ltd)
+^ESCT1266648	Durogesic DTrans 12micrograms/hour transdermal patches (CST Pharma Ltd) 5 patch
+^ESCT1266650	Durogesic DTrans 25micrograms/hour transdermal patches (CST Pharma Ltd)
+^ESCT1266651	Durogesic DTrans 25micrograms/hour transdermal patches (CST Pharma Ltd) 5 patch
+^ESCT1266654	Durogesic DTrans 50micrograms/hour transdermal patches (CST Pharma Ltd)
+^ESCT1266657	Durogesic DTrans 50micrograms/hour transdermal patches (CST Pharma Ltd) 5 patch
+^ESCT1266659	Durogesic DTrans 75micrograms/hour transdermal patches (CST Pharma Ltd)
+^ESCT1266660	Durogesic DTrans 75micrograms/hour transdermal patches (CST Pharma Ltd) 5 patch
+^ESCT1266664	Durogesic DTrans 100micrograms/hour transdermal patches (CST Pharma Ltd)
+^ESCT1266666	Durogesic DTrans 100micrograms/hour transdermal patches (CST Pharma Ltd) 5 patch
+^ESCT1266904	Matrifen 50micrograms/hour transdermal patches (CST Pharma Ltd)
+^ESCT1266906	Matrifen 50micrograms/hour transdermal patches (CST Pharma Ltd) 5 patch
+^ESCT1266928	Matrifen 12micrograms/hour transdermal patches (CST Pharma Ltd)
+^ESCT1266930	Matrifen 12micrograms/hour transdermal patches (CST Pharma Ltd) 5 patch
+^ESCT1266936	Matrifen 25micrograms/hour transdermal patches (CST Pharma Ltd)
+^ESCT1266937	Matrifen 25micrograms/hour transdermal patches (CST Pharma Ltd) 5 patch
+^ESCT1266940	Matrifen 75micrograms/hour transdermal patches (CST Pharma Ltd)
+^ESCT1266941	Matrifen 75micrograms/hour transdermal patches (CST Pharma Ltd) 5 patch
+^ESCT1266942	Matrifen 100micrograms/hour transdermal patches (CST Pharma Ltd)
+^ESCT1266943	Matrifen 100micrograms/hour transdermal patches (CST Pharma Ltd) 5 patch
+^ESCT1267088	Actiq 400microgram lozenges with integral oromucosal applicator (CST Pharma Ltd)
+^ESCT1267089	Actiq 400microgram lozenges with integral oromucosal applicator (CST Pharma Ltd) 30 lozenge
+^ESCT1267210	Actiq 200microgram lozenges with integral oromucosal applicator (CST Pharma Ltd)
+^ESCT1267211	Actiq 200microgram lozenges with integral oromucosal applicator (CST Pharma Ltd) 30 lozenge
+^ESCT1267253	Actiq 600microgram lozenges with integral oromucosal applicator (CST Pharma Ltd)
+^ESCT1267254	Actiq 600microgram lozenges with integral oromucosal applicator (CST Pharma Ltd) 30 lozenge
+^ESCT1267255	Actiq 800microgram lozenges with integral oromucosal applicator (CST Pharma Ltd)
+^ESCT1267256	Actiq 800microgram lozenges with integral oromucosal applicator (CST Pharma Ltd) 30 lozenge
+^ESCT1274110	Actiq 200microgram lozenges with integral oromucosal applicator (Pilsco Ltd)
+^ESCT1274111	Actiq 200microgram lozenges with integral oromucosal applicator (Pilsco Ltd) 30 lozenge
+^ESCT1274229	Durogesic DTrans 100micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1274230	Durogesic DTrans 12micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1274231	Durogesic DTrans 12micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1274232	Durogesic DTrans 100micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1274233	Durogesic DTrans 25micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1274234	Durogesic DTrans 25micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1274235	Durogesic DTrans 50micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1274236	Durogesic DTrans 50micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1274237	Durogesic DTrans 75micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1274238	Durogesic DTrans 75micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1274617	Matrifen 12micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1274619	Matrifen 12micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1274621	Matrifen 25micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1274623	Matrifen 25micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1279668	Opiodur 12micrograms/hour transdermal patches (Zentiva)
+^ESCT1279670	Opiodur 12micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCT1279677	Opiodur 25micrograms/hour transdermal patches (Zentiva)
+^ESCT1279679	Opiodur 25micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCT1279684	Opiodur 50micrograms/hour transdermal patches (Zentiva)
+^ESCT1279685	Opiodur 50micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCT1279686	Opiodur 75micrograms/hour transdermal patches (Zentiva)
+^ESCT1279687	Opiodur 75micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCT1279688	Opiodur 100micrograms/hour transdermal patches (Zentiva)
+^ESCT1279689	Opiodur 100micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCT1280875	Fentanyl 2.5mg/50ml solution for infusion pre-filled syringes 1 pre-filled disposable injection
+^ESCT1280876	Fentanyl 2.5mg/50ml solution for infusion pre-filled syringes (Special Order)
+^ESCT1280877	Fentanyl 2.5mg/50ml solution for infusion pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCT1280907	Fentanyl 2.5mg/50ml solution for infusion pre-filled syringes
+^ESCT1297880	Victanyl 12micrograms/hour transdermal patches (Accord Healthcare Ltd)
+^ESCT1297881	Victanyl 12micrograms/hour transdermal patches (Accord Healthcare Ltd) 5 patch
+^ESCT1299821	Victanyl 25micrograms/hour transdermal patches (Accord Healthcare Ltd)
+^ESCT1299822	Victanyl 25micrograms/hour transdermal patches (Accord Healthcare Ltd) 5 patch
+^ESCT1299823	Victanyl 50micrograms/hour transdermal patches (Accord Healthcare Ltd)
+^ESCT1299824	Victanyl 50micrograms/hour transdermal patches (Accord Healthcare Ltd) 5 patch
+^ESCT1299825	Victanyl 75micrograms/hour transdermal patches (Accord Healthcare Ltd)
+^ESCT1299826	Victanyl 75micrograms/hour transdermal patches (Accord Healthcare Ltd) 5 patch
+^ESCT1299827	Victanyl 100micrograms/hour transdermal patches (Accord Healthcare Ltd)
+^ESCT1299828	Victanyl 100micrograms/hour transdermal patches (Accord Healthcare Ltd) 5 patch
+^ESCT1300414	Matrifen 50micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1300415	Matrifen 50micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1300416	Matrifen 75micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1300417	Matrifen 75micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1300418	Matrifen 100micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1300419	Matrifen 100micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1300447	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 500micrograms/250ml infusion bags 5 bag
+^ESCT1300448	Bufyl 1mg/ml and 2micrograms/ml 250ml infusion bags (Advanz Pharma) 5 bag
+^ESCT1300449	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 500micrograms/250ml infusion bags 5 bag
+^ESCT1300450	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 1mg/500ml infusion bags 5 bag
+^ESCT1300451	Bufyl 1.25mg/ml and 2micrograms/ml 250ml infusion bags (Advanz Pharma) 5 bag
+^ESCT1300452	Bufyl 1mg/ml and 2micrograms/ml 500ml infusion bags (Advanz Pharma) 5 bag
+^ESCT1300498	Actiq 200microgram lozenges with integral oromucosal applicator (DE Pharmaceuticals)
+^ESCT1300499	Actiq 200microgram lozenges with integral oromucosal applicator (DE Pharmaceuticals) 30 lozenge
+^ESCT1300500	Actiq 400microgram lozenges with integral oromucosal applicator (DE Pharmaceuticals)
+^ESCT1300501	Actiq 400microgram lozenges with integral oromucosal applicator (DE Pharmaceuticals) 30 lozenge
+^ESCT1304316	Fentanyl 100micrograms/2ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304317	Fentanyl 100micrograms/2ml solution for injection ampoules (hameln pharma Ltd) 10 ampoule
+^ESCT1304318	Fentanyl 500micrograms/10ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304319	Fentanyl 500micrograms/10ml solution for injection ampoules (hameln pharma Ltd) 10 ampoule
+^ESCT1304327	Fentanyl 2.5mg/50ml solution for infusion vials (hameln pharma Ltd)
+^ESCT1304328	Fentanyl 2.5mg/50ml solution for infusion vials (hameln pharma Ltd) 1 vial
+^ESCT1306255	Levobupivacaine 100mg/100ml / Fentanyl 200micrograms/100ml infusion bags 1 bag
+^ESCT1306256	Levobupivacaine 100mg/100ml / Fentanyl 200micrograms/100ml infusion bags (Special Order)
+^ESCT1306257	Levobupivacaine 100mg/100ml / Fentanyl 200micrograms/100ml infusion bags (Special Order) 1 bag
+^ESCT1306439	Levobupivacaine 100mg/100ml / Fentanyl 200micrograms/100ml infusion bags
+^ESCT1351404	Fentanyl-containing product in parenteral dose form
+^ESCT1354744	Droperidol and fentanyl only product
+^ESCT1355010	Fentanyl only product
+^ESCT1358534	Fentanyl only product in parenteral dose form
+^ESCT1358535	Fentanyl only product in transdermal dose form
+^ESCT1361049	Fentanyl (as fentanyl citrate) 50 microgram/mL solution for injection
+^ESCT1363606	Fentanyl-containing product in oromucosal dose form
+^ESCT1363607	Fentanyl only product in oromucosal dose form
+^ESCT1367203	Fentanyl 40micrograms/dose transdermal system
+^ESCT1375815	Mezolar Matrix 12micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1375816	Mezolar Matrix 12micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1375817	Mezolar Matrix 25micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1375818	Mezolar Matrix 25micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1375819	Mezolar Matrix 50micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1375820	Mezolar Matrix 50micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1375821	Mezolar Matrix 75micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1375822	Mezolar Matrix 75micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1375823	Mezolar Matrix 100micrograms/hour transdermal patches (Pilsco Ltd)
+^ESCT1375824	Mezolar Matrix 100micrograms/hour transdermal patches (Pilsco Ltd) 5 patch
+^ESCT1381226	Droperidol- and fentanyl-containing product
+^ESCT1381637	Fentanyl 300 microgram oromucosal lozenge
+^ESCT1383199	Fentanyl 12 microgram/hour prolonged-release transdermal patch
+^ESCT1383380	Fentanyl 200 microgram buccal tablet
+^ESCT1383402	Fentanyl 600 microgram buccal tablet
+^ESCT1383423	Fentanyl 800 microgram buccal tablet
+^ESCT1383441	Fentanyl 100 microgram buccal tablet
+^ESCT1383450	Fentanyl 400 microgram buccal tablet
+^ESCT1383523	Fentanyl 300 microgram buccal tablet
+^ESCT1384135	Fentanyl 400 microgram buccal film
+^ESCT1384136	Fentanyl 600 microgram buccal film
+^ESCT1384139	Fentanyl 200 microgram buccal film
+^ESCT1384142	Fentanyl 800 microgram buccal film
+^ESCT1384143	Fentanyl 1.2 mg buccal film
+^ESCT1387101	Fentanyl-containing product in transdermal dose form
+^ESCT1422253	Fentanyl 25micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1422254	Fentanyl 25micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1422255	Fentanyl 50micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1422256	Fentanyl 50micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1422257	Fentanyl 75micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1422258	Fentanyl 75micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1422259	Fentanyl 100micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1422260	Fentanyl 100micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1422285	Osmanil 25micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1422286	Osmanil 25micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1422287	Osmanil 50micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1422288	Osmanil 50micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1422289	Osmanil 75micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1422290	Osmanil 75micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1422291	Osmanil 100micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1422292	Osmanil 100micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1422315	Osmanil 12micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1422316	Osmanil 12micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1423031	Opiodur 12micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1423032	Opiodur 12micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1423033	Opiodur 25micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1423034	Opiodur 25micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1423035	Opiodur 50micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1423036	Opiodur 50micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1423037	Opiodur 75micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1423038	Opiodur 75micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1423039	Opiodur 100micrograms/hour transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1423040	Opiodur 100micrograms/hour transdermal patches (Zentiva Pharma UK Ltd) 5 patch
+^ESCT1424959	Fentanyl 40micrograms/dose transdermal system
+^ESCT1431339	Fentanyl 2.5mg/50ml solution for infusion pre-filled syringes 10 pre-filled disposable injection
+^ESCT1431340	Fentanyl 2.5mg/50ml solution for infusion pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCT1438507	Mylafent 12micrograms/hour transdermal patches (Viatris UK Healthcare Ltd)
+^ESCT1438508	Mylafent 12micrograms/hour transdermal patches (Viatris UK Healthcare Ltd) 5 patch
+^ESCT1438509	Mylafent 25micrograms/hour transdermal patches (Viatris UK Healthcare Ltd)
+^ESCT1438510	Mylafent 25micrograms/hour transdermal patches (Viatris UK Healthcare Ltd) 5 patch
+^ESCT1438511	Mylafent 50micrograms/hour transdermal patches (Viatris UK Healthcare Ltd)
+^ESCT1438512	Mylafent 50micrograms/hour transdermal patches (Viatris UK Healthcare Ltd) 5 patch
+^ESCT1438513	Mylafent 75micrograms/hour transdermal patches (Viatris UK Healthcare Ltd)
+^ESCT1438514	Mylafent 75micrograms/hour transdermal patches (Viatris UK Healthcare Ltd) 5 patch
+^ESCT1438515	Mylafent 100micrograms/hour transdermal patches (Viatris UK Healthcare Ltd)
+^ESCT1438516	Mylafent 100micrograms/hour transdermal patches (Viatris UK Healthcare Ltd) 5 patch
+^ESCTAB924412	Abstral
+^ESCTAB977023	Abstral 100microgram sublingual tablets (Kyowa Kirin Ltd)
+^ESCTAB977024	Abstral 100microgram sublingual tablets (Kyowa Kirin Ltd) 10 tablet
+^ESCTAB977025	Abstral 100microgram sublingual tablets (Kyowa Kirin Ltd) 30 tablet 3 x 10 tablets
+^ESCTAB977027	Abstral 800microgram sublingual tablets (Kyowa Kirin Ltd)
+^ESCTAB977028	Abstral 800microgram sublingual tablets (Kyowa Kirin Ltd) 30 tablet 3 x 10 tablets
+^ESCTAB977030	Abstral 600microgram sublingual tablets (Kyowa Kirin Ltd)
+^ESCTAB977031	Abstral 600microgram sublingual tablets (Kyowa Kirin Ltd) 30 tablet 3 x 10 tablets
+^ESCTAB977034	Abstral 400microgram sublingual tablets (Kyowa Kirin Ltd)
+^ESCTAB977035	Abstral 400microgram sublingual tablets (Kyowa Kirin Ltd) 10 tablet
+^ESCTAB977036	Abstral 400microgram sublingual tablets (Kyowa Kirin Ltd) 30 tablet 3 x 10 tablets
+^ESCTAB977039	Abstral 300microgram sublingual tablets (Kyowa Kirin Ltd)
+^ESCTAB977040	Abstral 300microgram sublingual tablets (Kyowa Kirin Ltd) 10 tablet
+^ESCTAB977041	Abstral 300microgram sublingual tablets (Kyowa Kirin Ltd) 30 tablet 3 x 10 tablets
+^ESCTAB977044	Abstral 200microgram sublingual tablets (Kyowa Kirin Ltd)
+^ESCTAB977045	Abstral 200microgram sublingual tablets (Kyowa Kirin Ltd) 10 tablet
+^ESCTAB977046	Abstral 200microgram sublingual tablets (Kyowa Kirin Ltd) 30 tablet 3 x 10 tablets
+^ESCTAC804778	Actiq 200microgram lozenges with integral oromucosal applicator (Teva UK Ltd)
+^ESCTAC809730	Actiq 1.2mg lozenges with integral oromucosal applicator (Teva UK Ltd)
+^ESCTAC815940	Actiq 400microgram lozenges with integral oromucosal applicator (Teva UK Ltd)
+^ESCTAC822867	Actiq 800microgram lozenges with integral oromucosal applicator (Teva UK Ltd)
+^ESCTAC822963	Actiq 1.6mg lozenges with integral oromucosal applicator (Teva UK Ltd)
+^ESCTAC832159	Actiq 600microgram lozenges with integral oromucosal applicator (Teva UK Ltd)
+^ESCTAC856754	Actiq 1.6mg lozenges with integral oromucosal applicator (Teva UK Ltd) 30 lozenge
+^ESCTAC856758	Actiq 1.6mg lozenges with integral oromucosal applicator (Teva UK Ltd) 3 lozenge
+^ESCTAC856771	Actiq 1.2mg lozenges with integral oromucosal applicator (Teva UK Ltd) 30 lozenge
+^ESCTAC856772	Actiq 1.2mg lozenges with integral oromucosal applicator (Teva UK Ltd) 3 lozenge
+^ESCTAC856775	Actiq 800microgram lozenges with integral oromucosal applicator (Teva UK Ltd) 30 lozenge
+^ESCTAC856776	Actiq 800microgram lozenges with integral oromucosal applicator (Teva UK Ltd) 3 lozenge
+^ESCTAC856780	Actiq 600microgram lozenges with integral oromucosal applicator (Teva UK Ltd) 30 lozenge
+^ESCTAC856784	Actiq 600microgram lozenges with integral oromucosal applicator (Teva UK Ltd) 3 lozenge
+^ESCTAC856789	Actiq 400microgram lozenges with integral oromucosal applicator (Teva UK Ltd) 30 lozenge
+^ESCTAC856790	Actiq 400microgram lozenges with integral oromucosal applicator (Teva UK Ltd) 3 lozenge
+^ESCTAC856792	Actiq 200microgram lozenges with integral oromucosal applicator (Teva UK Ltd) 30 lozenge
+^ESCTAC856793	Actiq 200microgram lozenges with integral oromucosal applicator (Teva UK Ltd) 3 lozenge
+^ESCTAC913592	Actiq
+^ESCTBR1057615	Breakyl 200microgram buccal films (Meda Pharmaceuticals Ltd)
+^ESCTBR1057616	Breakyl 200microgram buccal films (Meda Pharmaceuticals Ltd) 10 film
+^ESCTBR1057622	Breakyl 400microgram buccal films (Meda Pharmaceuticals Ltd)
+^ESCTBR1057623	Breakyl 400microgram buccal films (Meda Pharmaceuticals Ltd) 10 film
+^ESCTBR1057625	Breakyl 800microgram buccal films (Meda Pharmaceuticals Ltd)
+^ESCTBR1057626	Breakyl 800microgram buccal films (Meda Pharmaceuticals Ltd) 28 film
+^ESCTBR944967	Breakyl
+^ESCTBU1023462	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 500micrograms/250ml infusion bags
+^ESCTBU1023463	Bufyl 1.25mg/ml and 2micrograms/ml 250ml infusion bags (AMCo)
+^ESCTBU1023464	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 1mg/500ml infusion bags
+^ESCTBU1023465	Bufyl 1.25mg/ml and 2micrograms/ml 500ml infusion bags (AMCo)
+^ESCTBU1023488	Bufyl 1mg/ml and 2micrograms/ml 250ml infusion bags (AMCo)
+^ESCTBU1023489	Bufyl 1mg/ml and 2micrograms/ml 500ml infusion bags (AMCo)
+^ESCTBU1023947	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 500micrograms/250ml infusion bags 20 bag
+^ESCTBU1023949	Bufyl 1mg/ml and 2micrograms/ml 250ml infusion bags (AMCo) 20 bag
+^ESCTBU1023966	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 1mg/500ml infusion bags 10 bag
+^ESCTBU1023967	Bufyl 1mg/ml and 2micrograms/ml 500ml infusion bags (AMCo) 10 bag
+^ESCTBU1024144	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 500micrograms/250ml infusion bags 20 bag
+^ESCTBU1024145	Bufyl 1.25mg/ml and 2micrograms/ml 250ml infusion bags (AMCo) 20 bag
+^ESCTBU1024146	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 1mg/500ml infusion bags 10 bag
+^ESCTBU1024147	Bufyl 1.25mg/ml and 2micrograms/ml 500ml infusion bags (AMCo) 10 bag
+^ESCTBU1047518	Bupivacaine 156.25mg/250ml (0.0625%) / Fentanyl 500micrograms/250ml solution for infusion bottles
+^ESCTBU1047520	Bupivacaine 156.25mg/250ml (0.0625%) / Fentanyl 500micrograms/250ml solution for infusion bottles 1 bottle
+^ESCTBU1047521	Bupivacaine 156.25mg/250ml (0.0625%) / Fentanyl 500micrograms/250ml solution for infusion bottles 20 bottle
+^ESCTBU1047523	Bupivacaine 156.25mg/250ml (0.0625%) / Fentanyl 500micrograms/250ml infusion bottles (Special Order)
+^ESCTBU1047524	Bupivacaine 156.25mg/250ml (0.0625%) / Fentanyl 500micrograms/250ml infusion bottles (Special Order) 1 bottle
+^ESCTBU1047525	Bupivacaine 156.25mg/250ml (0.0625%) / Fentanyl 500micrograms/250ml infusion bottles (Special Order) 20 bottle
+^ESCTBU1047526	Bupivacaine 1g/1litre (0.1%) / Fentanyl 2mg/1litre infusion bags
+^ESCTBU1047527	Bupivacaine 1g/1litre (0.1%) / Fentanyl 2mg/1litre infusion bags 1 bag
+^ESCTBU1047528	Bupivacaine 1g/1litre (0.1%) / Fentanyl 2mg/1litre infusion bags 10 bag
+^ESCTBU1047529	Bupivacaine 1g/1litre (0.1%) / Fentanyl 2mg/1litre infusion bags (Special Order)
+^ESCTBU1047530	Bupivacaine 1g/1litre (0.1%) / Fentanyl 2mg/1litre infusion bags (Special Order) 1 bag
+^ESCTBU1047531	Bupivacaine 1g/1litre (0.1%) / Fentanyl 2mg/1litre infusion bags (Special Order) 10 bag
+^ESCTBU1047535	Bupivacaine 300mg/300ml (0.1%) / Fentanyl 600micrograms/300ml infusion bags
+^ESCTBU1047536	Bupivacaine 300mg/300ml (0.1%) / Fentanyl 600micrograms/300ml infusion bags 1 bag
+^ESCTBU1047537	Bupivacaine 300mg/300ml (0.1%) / Fentanyl 600micrograms/300ml infusion bags (Special Order)
+^ESCTBU1047538	Bupivacaine 300mg/300ml (0.1%) / Fentanyl 600micrograms/300ml infusion bags (Special Order) 1 bag
+^ESCTBU1047539	Bupivacaine 50mg/50ml (0.1%) / Fentanyl 100micrograms/50ml infusion bags
+^ESCTBU1047540	Bupivacaine 50mg/50ml (0.1%) / Fentanyl 100micrograms/50ml infusion bags 1 bag
+^ESCTBU1047541	Bupivacaine 50mg/50ml (0.1%) / Fentanyl 100micrograms/50ml infusion bags 50 bag
+^ESCTBU1047542	Bupivacaine 50mg/50ml (0.1%) / Fentanyl 100micrograms/50ml infusion bags (Special Order)
+^ESCTBU1047543	Bupivacaine 50mg/50ml (0.1%) / Fentanyl 100micrograms/50ml infusion bags (Special Order) 1 bag
+^ESCTBU1047545	Bupivacaine 50mg/50ml (0.1%) / Fentanyl 100micrograms/50ml infusion bags (Special Order) 50 bag
+^ESCTBU1047637	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags 30 bag
+^ESCTBU1047638	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags 10 bag
+^ESCTBU1047640	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags (Special Order) 30 bag
+^ESCTBU1047641	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags (Special Order) 10 bag
+^ESCTBU1048102	Bupivacaine 375mg/300ml (0.125%) / Fentanyl 600micrograms/300ml infusion bags 1 bag
+^ESCTBU1048103	Bupivacaine 375mg/300ml (0.125%) / Fentanyl 600micrograms/300ml infusion bags (Special Order)
+^ESCTBU1048104	Bupivacaine 375mg/300ml (0.125%) / Fentanyl 600micrograms/300ml infusion bags (Special Order) 1 bag
+^ESCTBU1048105	Bupivacaine 300mg/300ml (0.1%) / Fentanyl 1.2mg/300ml infusion bags
+^ESCTBU1048106	Bupivacaine 300mg/300ml (0.1%) / Fentanyl 1.2mg/300ml infusion bags 1 bag
+^ESCTBU1048107	Bupivacaine 300mg/300ml (0.1%) / Fentanyl 1.2mg/300ml infusion bags (Special Order)
+^ESCTBU1048108	Bupivacaine 300mg/300ml (0.1%) / Fentanyl 1.2mg/300ml infusion bags (Special Order) 1 bag
+^ESCTBU1048109	Bupivacaine 750mg/500ml (0.15%) / Fentanyl 1mg/500ml solution for infusion bottles
+^ESCTBU1048110	Bupivacaine 750mg/500ml (0.15%) / Fentanyl 1mg/500ml solution for infusion bottles 1 bottle
+^ESCTBU1048111	Bupivacaine 750mg/500ml (0.15%) / Fentanyl 1mg/500ml solution for infusion bottles 15 bottle
+^ESCTBU1048112	Bupivacaine 750mg/500ml (0.15%) / Fentanyl 1mg/500ml solution for infusion bottles (Special Order)
+^ESCTBU1048113	Bupivacaine 750mg/500ml (0.15%) / Fentanyl 1mg/500ml solution for infusion bottles (Special Order) 1 bottle
+^ESCTBU1048114	Bupivacaine 750mg/500ml (0.15%) / Fentanyl 1mg/500ml solution for infusion bottles (Special Order) 15 bottle
+^ESCTBU1048115	Bupivacaine 375mg/250ml (0.15%) / Fentanyl 500micrograms/250ml infusion bags
+^ESCTBU1048116	Bupivacaine 375mg/250ml (0.15%) / Fentanyl 500micrograms/250ml infusion bags 1 bag
+^ESCTBU1048117	Bupivacaine 375mg/250ml (0.15%) / Fentanyl 500micrograms/250ml infusion bags 10 bag
+^ESCTBU1048118	Bupivacaine 375mg/250ml (0.15%) / Fentanyl 500micrograms/250ml infusion bags (Special Order)
+^ESCTBU1048119	Bupivacaine 375mg/250ml (0.15%) / Fentanyl 500micrograms/250ml infusion bags (Special Order) 1 bag
+^ESCTBU1048120	Bupivacaine 375mg/250ml (0.15%) / Fentanyl 500micrograms/250ml infusion bags (Special Order) 10 bag
+^ESCTBU1048128	Bupivacaine 375mg/300ml (0.125%) / Fentanyl 600micrograms/300ml infusion bags
+^ESCTBU1049573	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 2mg/500ml infusion bags
+^ESCTBU1049574	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 2mg/500ml infusion bags 1 bag
+^ESCTBU1049575	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 2mg/500ml infusion bags 15 bag
+^ESCTBU1049576	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 2mg/500ml infusion bags (Special Order)
+^ESCTBU1049577	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 2mg/500ml infusion bags (Special Order) 1 bag
+^ESCTBU1049578	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 2mg/500ml infusion bags (Special Order) 15 bag
+^ESCTBU1049579	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 2mg/500ml infusion bags
+^ESCTBU1049580	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 2mg/500ml infusion bags 1 bag
+^ESCTBU1049581	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 2mg/500ml infusion bags 15 bag
+^ESCTBU1049582	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 2mg/500ml infusion bags (Special Order)
+^ESCTBU1049583	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 2mg/500ml infusion bags (Special Order) 15 bag
+^ESCTBU1049584	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 2mg/500ml infusion bags (Special Order) 1 bag
+^ESCTBU1049585	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 1mg/250ml infusion bags
+^ESCTBU1049586	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 1mg/250ml infusion bags 1 bag
+^ESCTBU1049587	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 1mg/250ml infusion bags 20 bag
+^ESCTBU1049588	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 1mg/250ml infusion bags (Special Order)
+^ESCTBU1049589	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 1mg/250ml infusion bags (Special Order) 20 bag
+^ESCTBU1049590	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 1mg/250ml infusion bags (Special Order) 1 bag
+^ESCTBU1049631	Bupivacaine 50mg/50ml (0.1%) / Fentanyl 100micrograms/50ml solution for infusion pre-filled syringes
+^ESCTBU1049634	Bupivacaine 50mg/50ml (0.1%) / Fentanyl 100micrograms/50ml solution for infusion pre-filled syringes 1 pre-filled disposable injection
+^ESCTBU1049638	Bupivacaine 50mg/50ml (0.1%) / Fentanyl 100micrograms/50ml solution for infusion pre-filled syringes 10 pre-filled disposable injection
+^ESCTBU1049641	Bupivacaine 50mg/50ml (0.1%) / Fentanyl 100micrograms/50ml solution for infusion pre-filled syringes (Special Order)
+^ESCTBU1049642	Bupivacaine 50mg/50ml (0.1%) / Fentanyl 100micrograms/50ml solution for infusion pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTBU1049643	Bupivacaine 50mg/50ml (0.1%) / Fentanyl 100micrograms/50ml solution for infusion pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCTBU1049652	Bupivacaine 10mg/10ml (0.1%) / Fentanyl 20micrograms/10ml solution for infusion ampoules
+^ESCTBU1049654	Bupivacaine 10mg/10ml (0.1%) / Fentanyl 20micrograms/10ml solution for infusion ampoules 1 ampoule
+^ESCTBU1049655	Bupivacaine 10mg/10ml (0.1%) / Fentanyl 20micrograms/10ml solution for infusion ampoules 10 ampoule
+^ESCTBU1049656	Bupivacaine 10mg/10ml (0.1%) / Fentanyl 20micrograms/10ml solution for infusion ampoules (Special Order)
+^ESCTBU1049657	Bupivacaine 10mg/10ml (0.1%) / Fentanyl 20micrograms/10ml solution for infusion ampoules (Special Order) 1 ampoule
+^ESCTBU1049658	Bupivacaine 10mg/10ml (0.1%) / Fentanyl 20micrograms/10ml solution for infusion ampoules (Special Order) 10 ampoule
+^ESCTBU1049659	Bupivacaine 15mg/15ml (0.1%) / Fentanyl 30micrograms/15ml solution for infusion pre-filled syringes
+^ESCTBU1049660	Bupivacaine 15mg/15ml (0.1%) / Fentanyl 30micrograms/15ml solution for infusion pre-filled syringes 1 pre-filled disposable injection
+^ESCTBU1049661	Bupivacaine 15mg/15ml (0.1%) / Fentanyl 30micrograms/15ml solution for infusion pre-filled syringes (Special Order)
+^ESCTBU1049662	Bupivacaine 15mg/15ml (0.1%) / Fentanyl 30micrograms/15ml solution for infusion pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTBU1049927	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 250micrograms/250ml infusion bags
+^ESCTBU1049928	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 250micrograms/250ml infusion bags 1 bag
+^ESCTBU1049929	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 250micrograms/250ml infusion bags 20 bag
+^ESCTBU1049930	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 250micrograms/250ml infusion bags (Special Order)
+^ESCTBU1049931	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 250micrograms/250ml infusion bags (Special Order) 1 bag
+^ESCTBU1049932	Bupivacaine 312.5mg/250ml (0.125%) / Fentanyl 250micrograms/250ml infusion bags (Special Order) 20 bag
+^ESCTBU1049933	Bupivacaine 750mg/500ml (0.15%) / Fentanyl 1mg/500ml infusion bags
+^ESCTBU1049934	Bupivacaine 750mg/500ml (0.15%) / Fentanyl 1mg/500ml infusion bags 1 bag
+^ESCTBU1049935	Bupivacaine 750mg/500ml (0.15%) / Fentanyl 1mg/500ml infusion bags 15 bag
+^ESCTBU1049936	Bupivacaine 750mg/500ml (0.15%) / Fentanyl 1mg/500ml infusion bags (Special Order)
+^ESCTBU1049937	Bupivacaine 750mg/500ml (0.15%) / Fentanyl 1mg/500ml infusion bags (Special Order) 1 bag
+^ESCTBU1049938	Bupivacaine 750mg/500ml (0.15%) / Fentanyl 1mg/500ml infusion bags (Special Order) 15 bag
+^ESCTBU1049939	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml infusion bags
+^ESCTBU1049940	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml infusion bags 1 bag
+^ESCTBU1049941	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml infusion bags 10 bag
+^ESCTBU1049942	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml infusion bags (Special Order)
+^ESCTBU1049943	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml infusion bags (Special Order) 1 bag
+^ESCTBU1049944	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml infusion bags (Special Order) 10 bag
+^ESCTBU1049945	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml infusion bags 30 bag
+^ESCTBU1049946	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml infusion bags (Special Order) 30 bag
+^ESCTBU1050575	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml solution for infusion bottles
+^ESCTBU1050576	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml solution for infusion bottles 1 bottle
+^ESCTBU1050577	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml solution for infusion bottles 20 bottle
+^ESCTBU1050578	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml solution for infusion bottles (Special Order)
+^ESCTBU1050579	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml solution for infusion bottles (Special Order) 1 bottle
+^ESCTBU1050580	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 1.25mg/250ml solution for infusion bottles (Special Order) 20 bottle
+^ESCTBU1050581	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 2.5mg/500ml solution for infusion bottles
+^ESCTBU1050582	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 2.5mg/500ml solution for infusion bottles 1 bottle
+^ESCTBU1050583	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 2.5mg/500ml solution for infusion bottles 15 bottle
+^ESCTBU1050584	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 2.5mg/500ml solution for infusion bottles (Special Order)
+^ESCTBU1050585	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 2.5mg/500ml solution for infusion bottles (Special Order) 1 bottle
+^ESCTBU1050586	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 2.5mg/500ml solution for infusion bottles (Special Order) 15 bottle
+^ESCTBU1055641	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 4.165mg/500ml solution for infusion bottles
+^ESCTBU1055642	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 4.165mg/500ml solution for infusion bottles 1 bottle
+^ESCTBU1055643	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 4.165mg/500ml solution for infusion bottles 15 bottle
+^ESCTBU1055644	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 4.165mg/500ml solution for infusion bottles (Special Order)
+^ESCTBU1055645	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 4.165mg/500ml solution for infusion bottles (Special Order) 1 bottle
+^ESCTBU1055646	Bupivacaine 625mg/500ml (0.125%) / Fentanyl 4.165mg/500ml solution for infusion bottles (Special Order) 15 bottle
+^ESCTBU675715	Bupivacaine hydrochloride+fentanyl
+^ESCTBU675741	Bupivacaine hydrochloride+fentanyl 0.1%/2micrograms/mL injection
+^ESCTBU936079	Bufyl
+^ESCTBU997898	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags 1 bag
+^ESCTBU997899	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 500micrograms/250ml infusion bags 1 bag
+^ESCTBU997900	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 1mg/500ml infusion bags 1 bag
+^ESCTBU997901	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags (Special Order)
+^ESCTBU997902	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 500micrograms/250ml infusion bags (Special Order)
+^ESCTBU997903	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 1mg/500ml infusion bags (Special Order)
+^ESCTBU997904	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags (Special Order) 1 bag
+^ESCTBU997905	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 500micrograms/250ml infusion bags (Special Order) 1 bag
+^ESCTBU997906	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 1mg/500ml infusion bags (Special Order) 1 bag
+^ESCTBU997938	Bupivacaine + Fentanyl
+^ESCTBU997975	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags
+^ESCTBU997976	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 500micrograms/250ml infusion bags
+^ESCTBU997977	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 1mg/500ml infusion bags
+^ESCTDU1011910	Durogesic DTrans 100micrograms transdermal patches (DE Pharmaceuticals)
+^ESCTDU1011911	Durogesic DTrans 100micrograms transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCTDU1011912	Durogesic DTrans 12micrograms transdermal patches (DE Pharmaceuticals)
+^ESCTDU1011913	Durogesic DTrans 12micrograms transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCTDU1011914	Durogesic DTrans 25micrograms transdermal patches (DE Pharmaceuticals)
+^ESCTDU1011915	Durogesic DTrans 25micrograms transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCTDU1011916	Durogesic DTrans 50micrograms transdermal patches (DE Pharmaceuticals)
+^ESCTDU1011917	Durogesic DTrans 50micrograms transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCTDU1011918	Durogesic DTrans 75micrograms transdermal patches (DE Pharmaceuticals)
+^ESCTDU1011919	Durogesic DTrans 75micrograms transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCTDU1024507	Durogesic DTrans 12micrograms transdermal patches (Lexon (UK) Ltd)
+^ESCTDU1024509	Durogesic DTrans 12micrograms transdermal patches (Lexon (UK) Ltd) 5 patch
+^ESCTDU1024511	Durogesic DTrans 25micrograms transdermal patches (Lexon (UK) Ltd)
+^ESCTDU1024512	Durogesic DTrans 25micrograms transdermal patches (Lexon (UK) Ltd) 5 patch
+^ESCTDU1024514	Durogesic DTrans 50micrograms transdermal patches (Lexon (UK) Ltd)
+^ESCTDU1024515	Durogesic DTrans 50micrograms transdermal patches (Lexon (UK) Ltd) 5 patch
+^ESCTDU1024516	Durogesic DTrans 75micrograms transdermal patches (Lexon (UK) Ltd)
+^ESCTDU1024517	Durogesic DTrans 75micrograms transdermal patches (Lexon (UK) Ltd) 5 patch
+^ESCTDU1024518	Durogesic DTrans 100micrograms transdermal patches (Lexon (UK) Ltd)
+^ESCTDU1024519	Durogesic DTrans 100micrograms transdermal patches (Lexon (UK) Ltd) 5 patch
+^ESCTDU857406	Durogesic 50micrograms transdermal patches (Janssen-Cilag Ltd)
+^ESCTDU857407	Durogesic 50micrograms transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCTDU857409	Durogesic 75micrograms transdermal patches (Janssen-Cilag Ltd)
+^ESCTDU857410	Durogesic 75micrograms transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCTDU857412	Durogesic 25micrograms transdermal patches (Janssen-Cilag Ltd)
+^ESCTDU857415	Durogesic 25micrograms transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCTDU857423	Durogesic 100micrograms transdermal patches (Janssen-Cilag Ltd)
+^ESCTDU857424	Durogesic 100micrograms transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCTDU912557	Durogesic DTrans 25micrograms transdermal patches (Janssen-Cilag Ltd)
+^ESCTDU912558	Durogesic DTrans 25micrograms transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCTDU912559	Durogesic DTrans 50micrograms transdermal patches (Janssen-Cilag Ltd)
+^ESCTDU912560	Durogesic DTrans 50micrograms transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCTDU912561	Durogesic DTrans 75micrograms transdermal patches (Janssen-Cilag Ltd)
+^ESCTDU912562	Durogesic DTrans 75micrograms transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCTDU912563	Durogesic DTrans 100micrograms transdermal patches (Janssen-Cilag Ltd)
+^ESCTDU912564	Durogesic DTrans 100micrograms transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCTDU914945	Durogesic
+^ESCTDU914947	Durogesic DTrans
+^ESCTDU923162	Durogesic DTrans 12micrograms transdermal patches (Janssen-Cilag Ltd)
+^ESCTDU923164	Durogesic DTrans 12micrograms transdermal patches (Janssen-Cilag Ltd) 5 patch
+^ESCTDU977984	Durogesic DTrans 12micrograms transdermal patches (Waymade Healthcare Plc)
+^ESCTDU977985	Durogesic DTrans 12micrograms transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCTDU977986	Durogesic DTrans 25micrograms transdermal patches (Waymade Healthcare Plc)
+^ESCTDU977987	Durogesic DTrans 25micrograms transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCTDU977988	Durogesic DTrans 50micrograms transdermal patches (Waymade Healthcare Plc)
+^ESCTDU977989	Durogesic DTrans 50micrograms transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCTDU977990	Durogesic DTrans 75micrograms transdermal patches (Waymade Healthcare Plc)
+^ESCTDU977991	Durogesic DTrans 75micrograms transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCTDU977992	Durogesic DTrans 100micrograms transdermal patches (Waymade Healthcare Plc)
+^ESCTDU977993	Durogesic DTrans 100micrograms transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCTDU993230	Durogesic DTrans 12micrograms transdermal patches (Mawdsley-Brooks & Company Ltd)
+^ESCTDU993231	Durogesic DTrans 12micrograms transdermal patches (Mawdsley-Brooks & Company Ltd) 5 patch
+^ESCTDU993232	Durogesic DTrans 25micrograms transdermal patches (Mawdsley-Brooks & Company Ltd)
+^ESCTDU993233	Durogesic DTrans 25micrograms transdermal patches (Mawdsley-Brooks & Company Ltd) 5 patch
+^ESCTDU993236	Durogesic DTrans 50micrograms transdermal patches (Mawdsley-Brooks & Company Ltd)
+^ESCTDU993237	Durogesic DTrans 50micrograms transdermal patches (Mawdsley-Brooks & Company Ltd) 5 patch
+^ESCTDU993238	Durogesic DTrans 75micrograms transdermal patches (Mawdsley-Brooks & Company Ltd)
+^ESCTDU993239	Durogesic DTrans 75micrograms transdermal patches (Mawdsley-Brooks & Company Ltd) 5 patch
+^ESCTDU993240	Durogesic DTrans 100micrograms transdermal patches (Mawdsley-Brooks & Company Ltd)
+^ESCTDU993241	Durogesic DTrans 100micrograms transdermal patches (Mawdsley-Brooks & Company Ltd) 5 patch
+^ESCTEF924459	Effentora
+^ESCTEF977237	Effentora 100microgram buccal tablets (Teva UK Ltd)
+^ESCTEF977238	Effentora 100microgram buccal tablets (Teva UK Ltd) 4 tablet
+^ESCTEF977240	Effentora 200microgram buccal tablets (Teva UK Ltd)
+^ESCTEF977241	Effentora 200microgram buccal tablets (Teva UK Ltd) 4 tablet
+^ESCTEF977243	Effentora 400microgram buccal tablets (Teva UK Ltd)
+^ESCTEF977244	Effentora 400microgram buccal tablets (Teva UK Ltd) 4 tablet
+^ESCTEF977247	Effentora 800microgram buccal tablets (Teva UK Ltd)
+^ESCTEF977248	Effentora 800microgram buccal tablets (Teva UK Ltd) 4 tablet
+^ESCTEF977252	Effentora 600microgram buccal tablets (Teva UK Ltd)
+^ESCTEF977253	Effentora 600microgram buccal tablets (Teva UK Ltd) 4 tablet
+^ESCTEF997889	Effentora 100microgram buccal tablets (Teva UK Ltd) 28 tablet 7 x 4 tablets
+^ESCTEF997891	Effentora 200microgram buccal tablets (Teva UK Ltd) 28 tablet 7 x 4 tablets
+^ESCTEF997893	Effentora 400microgram buccal tablets (Teva UK Ltd) 28 tablet 7 x 4 tablets
+^ESCTEF997895	Effentora 600microgram buccal tablets (Teva UK Ltd) 28 tablet 7 x 4 tablets
+^ESCTEF997897	Effentora 800microgram buccal tablets (Teva UK Ltd) 28 tablet 7 x 4 tablets
+^ESCTFE1003495	Fentanyl 100micrograms/dose nasal spray 8 dose
+^ESCTFE1003496	Fentanyl 100micrograms/dose nasal spray 32 dose
+^ESCTFE1003500	Fentanyl 400micrograms/dose nasal spray 8 dose
+^ESCTFE1003501	Fentanyl 400micrograms/dose nasal spray 32 dose
+^ESCTFE1003554	Fentanyl 400micrograms/dose nasal spray
+^ESCTFE1005775	Fentanyl 25micrograms/hour transdermal patches (Phoenix Healthcare Distribution Ltd)
+^ESCTFE1005776	Fentanyl 25micrograms/hour transdermal patches (Phoenix Healthcare Distribution Ltd) 5 patch
+^ESCTFE1005777	Fentanyl 50micrograms/hour transdermal patches (Phoenix Healthcare Distribution Ltd)
+^ESCTFE1005778	Fentanyl 50micrograms/hour transdermal patches (Phoenix Healthcare Distribution Ltd) 5 patch
+^ESCTFE1005779	Fentanyl 75micrograms/hour transdermal patches (Phoenix Healthcare Distribution Ltd)
+^ESCTFE1005780	Fentanyl 75micrograms/hour transdermal patches (Phoenix Healthcare Distribution Ltd) 5 patch
+^ESCTFE1005781	Fentanyl 100micrograms/hour transdermal patches (Phoenix Healthcare Distribution Ltd)
+^ESCTFE1005782	Fentanyl 100micrograms/hour transdermal patches (Phoenix Healthcare Distribution Ltd) 5 patch
+^ESCTFE1020517	Fencino 12micrograms/hour transdermal patches (Ethypharm UK Ltd)
+^ESCTFE1020518	Fencino 12micrograms/hour transdermal patches (Ethypharm UK Ltd) 5 patch
+^ESCTFE1020519	Fencino 25micrograms/hour transdermal patches (Ethypharm UK Ltd)
+^ESCTFE1020520	Fencino 25micrograms/hour transdermal patches (Ethypharm UK Ltd) 5 patch
+^ESCTFE1020521	Fencino 50micrograms/hour transdermal patches (Ethypharm UK Ltd)
+^ESCTFE1020522	Fencino 50micrograms/hour transdermal patches (Ethypharm UK Ltd) 5 patch
+^ESCTFE1020523	Fencino 75micrograms/hour transdermal patches (Ethypharm UK Ltd)
+^ESCTFE1020524	Fencino 75micrograms/hour transdermal patches (Ethypharm UK Ltd) 5 patch
+^ESCTFE1020525	Fencino 100micrograms/hour transdermal patches (Ethypharm UK Ltd)
+^ESCTFE1020526	Fencino 100micrograms/hour transdermal patches (Ethypharm UK Ltd) 5 patch
+^ESCTFE1021351	Fentanyl 200micrograms/dose nasal spray 6 dose
+^ESCTFE1021353	Fentanyl 100micrograms/dose nasal spray 6 dose
+^ESCTFE1021355	Fentanyl 50micrograms/dose nasal spray 6 dose
+^ESCTFE1047951	Fentanyl 10micrograms/1ml solution for injection ampoules
+^ESCTFE1047952	Fentanyl 10micrograms/1ml solution for injection ampoules 1 ampoule
+^ESCTFE1047953	Fentanyl 10micrograms/1ml solution for injection ampoules 10 ampoule
+^ESCTFE1047954	Fentanyl 10micrograms/1ml solution for injection ampoules (Special Order)
+^ESCTFE1047955	Fentanyl 10micrograms/1ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTFE1047956	Fentanyl 10micrograms/1ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTFE1047957	Fentanyl 1.2mg/120ml infusion bags
+^ESCTFE1047958	Fentanyl 1.2mg/120ml infusion bags 1 bag
+^ESCTFE1047959	Fentanyl 1.2mg/120ml infusion bags (Special Order)
+^ESCTFE1047960	Fentanyl 1.2mg/120ml infusion bags (Special Order) 1 bag
+^ESCTFE1047961	Fentanyl 1mg/50ml solution for infusion pre-filled syringes
+^ESCTFE1047962	Fentanyl 1mg/50ml solution for infusion pre-filled syringes 1 pre-filled disposable injection
+^ESCTFE1047963	Fentanyl 1mg/50ml solution for infusion pre-filled syringes 10 pre-filled disposable injection
+^ESCTFE1047964	Fentanyl 1mg/50ml solution for infusion pre-filled syringes (Special Order)
+^ESCTFE1047965	Fentanyl 1mg/50ml solution for infusion pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTFE1047966	Fentanyl 1mg/50ml solution for infusion pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCTFE1047967	Fentanyl 2.5mg/50ml solution for infusion vials
+^ESCTFE1047968	Fentanyl 2.5mg/50ml solution for infusion vials 1 vial
+^ESCTFE1047969	Fentanyl 2.5mg/50ml solution for infusion vials (Special Order)
+^ESCTFE1047970	Fentanyl 2.5mg/50ml solution for infusion vials (Special Order) 1 vial
+^ESCTFE1047971	Fentanyl 3mg/300ml infusion bags
+^ESCTFE1047972	Fentanyl 3mg/300ml infusion bags 1 bag
+^ESCTFE1047973	Fentanyl 3mg/300ml infusion bags (Special Order)
+^ESCTFE1047974	Fentanyl 3mg/300ml infusion bags (Special Order) 1 bag
+^ESCTFE1047975	Fentanyl 5mg/250ml infusion bags
+^ESCTFE1047976	Fentanyl 5mg/250ml infusion bags 1 bag
+^ESCTFE1047977	Fentanyl 5mg/250ml infusion bags 20 bag
+^ESCTFE1047978	Fentanyl 5mg/250ml infusion bags (Special Order)
+^ESCTFE1047979	Fentanyl 5mg/250ml infusion bags (Special Order) 1 bag
+^ESCTFE1047980	Fentanyl 5mg/250ml infusion bags (Special Order) 20 bag
+^ESCTFE1047989	Fentanyl 25mg/500ml solution for infusion bottles
+^ESCTFE1047990	Fentanyl 25mg/500ml solution for infusion bottles 1 bottle
+^ESCTFE1047991	Fentanyl 25mg/500ml solution for infusion bottles (Special Order)
+^ESCTFE1047992	Fentanyl 25mg/500ml solution for infusion bottles (Special Order) 1 bottle
+^ESCTFE1047993	Fentanyl 50mg/1litre solution for infusion bottles
+^ESCTFE1047996	Fentanyl 50mg/1litre solution for infusion bottles 1 bottle
+^ESCTFE1047997	Fentanyl 50mg/1litre solution for infusion bottles (Special Order)
+^ESCTFE1047998	Fentanyl 50mg/1litre solution for infusion bottles (Special Order) 1 bottle
+^ESCTFE1057614	Fentanyl 200microgram buccal films sugar free 10 film
+^ESCTFE1057621	Fentanyl 400microgram buccal films sugar free 10 film
+^ESCTFE1057624	Fentanyl 800microgram buccal films sugar free 28 film
+^ESCTFE1057969	Fentanyl 200microgram buccal films sugar free
+^ESCTFE1057970	Fentanyl 400microgram buccal films sugar free
+^ESCTFE1057971	Fentanyl 800microgram buccal films sugar free
+^ESCTFE1058297	Fentanyl 12micrograms/hour transdermal patches (Waymade Healthcare Plc)
+^ESCTFE1058298	Fentanyl 12micrograms/hour transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCTFE1058299	Fentanyl 25micrograms/hour transdermal patches (Waymade Healthcare Plc)
+^ESCTFE1058300	Fentanyl 25micrograms/hour transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCTFE1058301	Fentanyl 50micrograms/hour transdermal patches (Waymade Healthcare Plc)
+^ESCTFE1058302	Fentanyl 50micrograms/hour transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCTFE1058305	Fentanyl 75micrograms/hour transdermal patches (Waymade Healthcare Plc)
+^ESCTFE1058306	Fentanyl 75micrograms/hour transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCTFE1058307	Fentanyl 100micrograms/hour transdermal patches (Waymade Healthcare Plc)
+^ESCTFE1058308	Fentanyl 100micrograms/hour transdermal patches (Waymade Healthcare Plc) 5 patch
+^ESCTFE1059103	Fentanyl 37.5microgram/hour transdermal patches 5 patch
+^ESCTFE1059354	Fentanyl 37.5microgram/hour transdermal patches
+^ESCTFE1061392	Fentanyl 12micrograms/hour transdermal patches (Phoenix Healthcare Distribution Ltd)
+^ESCTFE1061393	Fentanyl 12micrograms/hour transdermal patches (Phoenix Healthcare Distribution Ltd) 5 patch
+^ESCTFE1066042	Fentanyl 133microgram sublingual tablets sugar free 30 tablet
+^ESCTFE1066045	Fentanyl 267microgram sublingual tablets sugar free 30 tablet
+^ESCTFE1066048	Fentanyl 533microgram sublingual tablets sugar free 30 tablet
+^ESCTFE1066398	Fentanyl 133microgram sublingual tablets sugar free
+^ESCTFE1066399	Fentanyl 267microgram sublingual tablets sugar free
+^ESCTFE1066400	Fentanyl 533microgram sublingual tablets sugar free
+^ESCTFE1076898	Fentanyl 24.75mg/990ml infusion bags
+^ESCTFE1076901	Fentanyl 24.75mg/990ml infusion bags 1 bag
+^ESCTFE1076903	Fentanyl 24.75mg/990ml infusion bags 5 bag
+^ESCTFE1076905	Fentanyl 24.75mg/990ml infusion bags (Special Order)
+^ESCTFE1076906	Fentanyl 24.75mg/990ml infusion bags (Special Order) 1 bag
+^ESCTFE1076908	Fentanyl 24.75mg/990ml infusion bags (Special Order) 5 bag
+^ESCTFE1107872	Fentanyl 100micrograms/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTFE1107873	Fentanyl 100micrograms/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule
+^ESCTFE1107874	Fentanyl 500micrograms/10ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTFE1107875	Fentanyl 500micrograms/10ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule
+^ESCTFE1107966	Fentanyl 2.5mg/50ml solution for infusion vials (Hameln Pharmaceuticals Ltd)
+^ESCTFE1107967	Fentanyl 2.5mg/50ml solution for infusion vials (Hameln Pharmaceuticals Ltd) 1 vial
+^ESCTFE1119383	Fentanyl 12micrograms/hour transdermal patches (DE Pharmaceuticals)
+^ESCTFE1119384	Fentanyl 12micrograms/hour transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCTFE1119385	Fentanyl 25micrograms/hour transdermal patches (DE Pharmaceuticals)
+^ESCTFE1119386	Fentanyl 25micrograms/hour transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCTFE1119387	Fentanyl 50micrograms/hour transdermal patches (DE Pharmaceuticals)
+^ESCTFE1119388	Fentanyl 50micrograms/hour transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCTFE1119389	Fentanyl 75micrograms/hour transdermal patches (DE Pharmaceuticals)
+^ESCTFE1119390	Fentanyl 75micrograms/hour transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCTFE1119391	Fentanyl 100micrograms/hour transdermal patches (DE Pharmaceuticals)
+^ESCTFE1119392	Fentanyl 100micrograms/hour transdermal patches (DE Pharmaceuticals) 5 patch
+^ESCTFE1142380	Fentanyl 40micrograms/dose transdermal system 6 system
+^ESCTFE315425	Fentanyl
+^ESCTFE315426	Fentanyl product
+^ESCTFE450988	Fentanyl 1.6mg lozenges
+^ESCTFE450989	Fentanyl 1600micrograms lozenge
+^ESCTFE450990	Fentanyl 1.6mg lozenge
+^ESCTFE450991	Fentanyl 1.2mg lozenges
+^ESCTFE450992	Fentanyl 1200micrograms lozenge
+^ESCTFE450993	Fentanyl 1.2mg lozenge
+^ESCTFE450994	Fentanyl 800microgram lozenges
+^ESCTFE450995	Fentanyl 800micrograms lozenge
+^ESCTFE450996	Fentanyl 600microgram lozenges
+^ESCTFE450997	Fentanyl 600micrograms lozenge
+^ESCTFE450998	Fentanyl 400microgram lozenges
+^ESCTFE450999	Fentanyl 400micrograms lozenge
+^ESCTFE451000	Fentanyl citrate 400mcg lozenge
+^ESCTFE451001	Fentanyl 200microgram lozenges
+^ESCTFE451002	Fentanyl 200micrograms lozenge
+^ESCTFE616859	Fentanyl 25micrograms/hour transdermal patches
+^ESCTFE616860	Fentanyl 25micrograms/hour patch
+^ESCTFE616861	Fentanyl 50micrograms/hour transdermal patches
+^ESCTFE616862	Fentanyl 50micrograms/hour patch
+^ESCTFE616863	Fentanyl 75micrograms/hour transdermal patches
+^ESCTFE616864	Fentanyl 75micrograms/hour patch
+^ESCTFE616865	Fentanyl 100micrograms/hour transdermal patches
+^ESCTFE616866	Fentanyl 100micrograms/hour patch
+^ESCTFE616867	Fentanyl 100micrograms/2ml solution for injection ampoules
+^ESCTFE616868	Fentanyl 100micrograms/2mL injection
+^ESCTFE616869	Fentanyl 50mcg/mL injection solution 2mL ampoule
+^ESCTFE616870	Fentanyl 50mcg/mL injection solution 2mL ampule
+^ESCTFE616871	Fentanyl 500micrograms/10ml solution for injection ampoules
+^ESCTFE616872	Fentanyl 500micrograms/10mL injection
+^ESCTFE616873	Fentanyl 50mcg/mL injection solution 10mL ampoule
+^ESCTFE616874	Fentanyl 50mcg/mL injection solution 10mL ampule
+^ESCTFE617738	Fentanyl+droperidol
+^ESCTFE633932	Fentanyl 300micrograms lozenge
+^ESCTFE690983	Fentanyl 12micrograms/hour patch
+^ESCTFE690984	Fentanyl 12.5mg transdermal patch
+^ESCTFE696661	Fentanyl 40micrograms/dose transdermal system
+^ESCTFE696662	Fentanyl 40micrograms/activation iontophoretic transdermal system
+^ESCTFE696663	Fentanyl 40mcg/activation iontophoretic transdermal system
+^ESCTFE699227	Fentanyl 200micrograms buccal tablet
+^ESCTFE700302	Fentanyl 600micrograms buccal tablet
+^ESCTFE701641	Fentanyl 800micrograms buccal tablet
+^ESCTFE702510	Fentanyl 100micrograms buccal tablet
+^ESCTFE702844	Fentanyl 400micrograms buccal tablet
+^ESCTFE706359	Fentanyl 300micrograms buccal tablet
+^ESCTFE727211	Fentanyl 400microgram buccal soluble film
+^ESCTFE727212	Fentanyl 600microgram buccal soluble film
+^ESCTFE727266	Fentanyl 200microgram buccal soluble film
+^ESCTFE727350	Fentanyl 800microgram buccal soluble film
+^ESCTFE727353	Fentanyl 1.2mg buccal soluble film
+^ESCTFE836821	Fentanyl 200microgram lozenges 3 lozenge
+^ESCTFE837620	Fentanyl 1.2mg lozenges 30 lozenge
+^ESCTFE842604	Fentanyl 1.6mg lozenges 3 lozenge
+^ESCTFE846952	Fentanyl 400microgram lozenges 30 lozenge
+^ESCTFE847181	Fentanyl 600microgram lozenges 30 lozenge
+^ESCTFE847460	Fentanyl 1.6mg lozenges 30 lozenge
+^ESCTFE847912	Fentanyl 400microgram lozenges 3 lozenge
+^ESCTFE848208	Fentanyl 600microgram lozenges 3 lozenge
+^ESCTFE848300	Fentanyl 800microgram lozenges 30 lozenge
+^ESCTFE848339	Fentanyl 800microgram lozenges 3 lozenge
+^ESCTFE848346	Fentanyl 200microgram lozenges 30 lozenge
+^ESCTFE848667	Fentanyl 1.2mg lozenges 3 lozenge
+^ESCTFE857405	Fentanyl 50micrograms/hour transdermal patches 5 patch
+^ESCTFE857408	Fentanyl 75micrograms/hour transdermal patches 5 patch
+^ESCTFE857411	Fentanyl 25micrograms/hour transdermal patches 5 patch
+^ESCTFE857419	Fentanyl 100micrograms/hour transdermal patches 5 patch
+^ESCTFE866099	Fentanyl 100micrograms/2ml solution for injection ampoules 10 ampoule
+^ESCTFE866100	Fentanyl 100micrograms/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFE866101	Fentanyl 100micrograms/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTFE866104	Fentanyl 100micrograms/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTFE866105	Fentanyl 100micrograms/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTFE870583	Fentanyl 500micrograms/10ml solution for injection ampoules 5 ampoule
+^ESCTFE870584	Fentanyl 500micrograms/10ml solution for injection ampoules 10 ampoule
+^ESCTFE870587	Fentanyl 500micrograms/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFE870590	Fentanyl 500micrograms/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTFE870601	Fentanyl 500micrograms/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTFE870604	Fentanyl 500micrograms/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTFE921698	Fentalis
+^ESCTFE922582	Fentanyl 25micrograms/hour transdermal patches (A A H Pharmaceuticals Ltd)
+^ESCTFE922583	Fentanyl 25micrograms/hour transdermal patches (A A H Pharmaceuticals Ltd) 5 patch
+^ESCTFE922584	Fentanyl 50micrograms/hour transdermal patches (A A H Pharmaceuticals Ltd)
+^ESCTFE922585	Fentanyl 50micrograms/hour transdermal patches (A A H Pharmaceuticals Ltd) 5 patch
+^ESCTFE922586	Fentanyl 75micrograms/hour transdermal patches (A A H Pharmaceuticals Ltd)
+^ESCTFE922587	Fentanyl 75micrograms/hour transdermal patches (A A H Pharmaceuticals Ltd) 5 patch
+^ESCTFE922588	Fentanyl 100micrograms/hour transdermal patches (A A H Pharmaceuticals Ltd)
+^ESCTFE922589	Fentanyl 100micrograms/hour transdermal patches (A A H Pharmaceuticals Ltd) 5 patch
+^ESCTFE923160	Fentanyl 12micrograms/hour transdermal patches 5 patch
+^ESCTFE923182	Fentanyl 12micrograms/hour transdermal patches
+^ESCTFE928358	Fentanyl 100micrograms/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFE928359	Fentanyl 100micrograms/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTFE928360	Fentanyl 500micrograms/10ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFE928361	Fentanyl 500micrograms/10ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTFE931637	Fentanyl 100micrograms/2ml solution for injection ampoules (AMCo)
+^ESCTFE931638	Fentanyl 100micrograms/2ml solution for injection ampoules (AMCo) 10 ampoule
+^ESCTFE931639	Fentanyl 500micrograms/10ml solution for injection ampoules (AMCo)
+^ESCTFE931640	Fentanyl 500micrograms/10ml solution for injection ampoules (AMCo) 10 ampoule
+^ESCTFE932069	Fentanyl 25micrograms/hour transdermal patches (Teva UK Ltd)
+^ESCTFE932070	Fentanyl 25micrograms/hour transdermal patches (Teva UK Ltd) 5 patch
+^ESCTFE932071	Fentanyl 50micrograms/hour transdermal patches (Teva UK Ltd)
+^ESCTFE932072	Fentanyl 50micrograms/hour transdermal patches (Teva UK Ltd) 5 patch
+^ESCTFE932073	Fentanyl 75micrograms/hour transdermal patches (Teva UK Ltd)
+^ESCTFE932074	Fentanyl 75micrograms/hour transdermal patches (Teva UK Ltd) 5 patch
+^ESCTFE932075	Fentanyl 100micrograms/hour transdermal patches (Teva UK Ltd)
+^ESCTFE932076	Fentanyl 100micrograms/hour transdermal patches (Teva UK Ltd) 5 patch
+^ESCTFE935948	Fencino
+^ESCTFE940103	Fentanyl 12micrograms/hour transdermal patches (A A H Pharmaceuticals Ltd)
+^ESCTFE940105	Fentanyl 12micrograms/hour transdermal patches (A A H Pharmaceuticals Ltd) 5 patch
+^ESCTFE955967	Fentalis Reservoir 25micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTFE955969	Fentalis Reservoir 50micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTFE955971	Fentalis Reservoir 75micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTFE955973	Fentalis Reservoir 100micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTFE955975	Fentalis Reservoir 25micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTFE955977	Fentalis Reservoir 50micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTFE955979	Fentalis Reservoir 75micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTFE955981	Fentalis Reservoir 100micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTFE962498	Fentanyl 25micrograms/hour transdermal patches (Zentiva)
+^ESCTFE962499	Fentanyl 25micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCTFE962500	Fentanyl 50micrograms/hour transdermal patches (Zentiva)
+^ESCTFE962501	Fentanyl 50micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCTFE962502	Fentanyl 75micrograms/hour transdermal patches (Zentiva)
+^ESCTFE962503	Fentanyl 75micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCTFE962504	Fentanyl 100micrograms/hour transdermal patches (Zentiva)
+^ESCTFE962505	Fentanyl 100micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCTFE967409	Fentanyl 40micrograms/dose transdermal system 1 system
+^ESCTFE976996	Fentanyl 100microgram sublingual tablets sugar free 10 tablet
+^ESCTFE976997	Fentanyl 100microgram sublingual tablets sugar free 30 tablet
+^ESCTFE977026	Fentanyl 800microgram sublingual tablets sugar free 30 tablet
+^ESCTFE977029	Fentanyl 600microgram sublingual tablets sugar free 30 tablet
+^ESCTFE977032	Fentanyl 400microgram sublingual tablets sugar free 10 tablet
+^ESCTFE977033	Fentanyl 400microgram sublingual tablets sugar free 30 tablet
+^ESCTFE977037	Fentanyl 300microgram sublingual tablets sugar free 10 tablet
+^ESCTFE977038	Fentanyl 300microgram sublingual tablets sugar free 30 tablet
+^ESCTFE977042	Fentanyl 200microgram sublingual tablets sugar free 10 tablet
+^ESCTFE977043	Fentanyl 200microgram sublingual tablets sugar free 30 tablet
+^ESCTFE977059	Fentanyl 100microgram sublingual tablets sugar free
+^ESCTFE977060	Fentanyl 200microgram sublingual tablets sugar free
+^ESCTFE977061	Fentanyl 300microgram sublingual tablets sugar free
+^ESCTFE977062	Fentanyl 400microgram sublingual tablets sugar free
+^ESCTFE977063	Fentanyl 600microgram sublingual tablets sugar free
+^ESCTFE977064	Fentanyl 800microgram sublingual tablets sugar free
+^ESCTFE977236	Fentanyl 100microgram buccal tablets sugar free 4 tablet
+^ESCTFE977239	Fentanyl 200microgram buccal tablets sugar free 4 tablet
+^ESCTFE977242	Fentanyl 400microgram buccal tablets sugar free 4 tablet
+^ESCTFE977245	Fentanyl 600microgram buccal tablets sugar free 4 tablet
+^ESCTFE977246	Fentanyl 800microgram buccal tablets sugar free 4 tablet
+^ESCTFE977255	Fentanyl 100microgram buccal tablets sugar free
+^ESCTFE977256	Fentanyl 200microgram buccal tablets sugar free
+^ESCTFE977257	Fentanyl 400microgram buccal tablets sugar free
+^ESCTFE977258	Fentanyl 600microgram buccal tablets sugar free
+^ESCTFE977259	Fentanyl 800microgram buccal tablets sugar free
+^ESCTFE977737	Fentanyl 25micrograms/hour transdermal patches (Actavis UK Ltd)
+^ESCTFE977738	Fentanyl 25micrograms/hour transdermal patches (Actavis UK Ltd) 5 patch
+^ESCTFE977739	Fentanyl 50micrograms/hour transdermal patches (Actavis UK Ltd)
+^ESCTFE977740	Fentanyl 50micrograms/hour transdermal patches (Actavis UK Ltd) 5 patch
+^ESCTFE977741	Fentanyl 75micrograms/hour transdermal patches (Actavis UK Ltd)
+^ESCTFE977742	Fentanyl 75micrograms/hour transdermal patches (Actavis UK Ltd) 5 patch
+^ESCTFE977743	Fentanyl 100micrograms/hour transdermal patches (Actavis UK Ltd)
+^ESCTFE977744	Fentanyl 100micrograms/hour transdermal patches (Actavis UK Ltd) 5 patch
+^ESCTFE978327	Fentanyl 100micrograms/hour transdermal patches (Sigma Pharmaceuticals Plc)
+^ESCTFE978328	Fentanyl 100micrograms/hour transdermal patches (Sigma Pharmaceuticals Plc) 5 patch
+^ESCTFE978337	Fentanyl 25micrograms/hour transdermal patches (Sigma Pharmaceuticals Plc)
+^ESCTFE978338	Fentanyl 25micrograms/hour transdermal patches (Sigma Pharmaceuticals Plc) 5 patch
+^ESCTFE978339	Fentanyl 50micrograms/hour transdermal patches (Sigma Pharmaceuticals Plc)
+^ESCTFE978340	Fentanyl 50micrograms/hour transdermal patches (Sigma Pharmaceuticals Plc) 5 patch
+^ESCTFE978341	Fentanyl 75micrograms/hour transdermal patches (Sigma Pharmaceuticals Plc)
+^ESCTFE978342	Fentanyl 75micrograms/hour transdermal patches (Sigma Pharmaceuticals Plc) 5 patch
+^ESCTFE983373	Fentanyl 100micrograms/2ml solution for injection ampoules (Actavis UK Ltd)
+^ESCTFE983380	Fentanyl 100micrograms/2ml solution for injection ampoules (Actavis UK Ltd) 10 ampoule
+^ESCTFE983385	Fentanyl 500micrograms/10ml solution for injection ampoules (Actavis UK Ltd)
+^ESCTFE983386	Fentanyl 500micrograms/10ml solution for injection ampoules (Actavis UK Ltd) 10 ampoule
+^ESCTFE987676	Fentanyl 50micrograms/dose nasal spray 10 dose
+^ESCTFE987677	Fentanyl 50micrograms/dose nasal spray 20 dose
+^ESCTFE987682	Fentanyl 100micrograms/dose nasal spray 10 dose
+^ESCTFE987683	Fentanyl 100micrograms/dose nasal spray 20 dose
+^ESCTFE987688	Fentanyl 200micrograms/dose nasal spray 10 dose
+^ESCTFE987689	Fentanyl 200micrograms/dose nasal spray 20 dose
+^ESCTFE987713	Fentanyl 100micrograms/dose nasal spray
+^ESCTFE987714	Fentanyl 200micrograms/dose nasal spray
+^ESCTFE987715	Fentanyl 50micrograms/dose nasal spray
+^ESCTFE997888	Fentanyl 100microgram buccal tablets sugar free 28 tablet
+^ESCTFE997890	Fentanyl 200microgram buccal tablets sugar free 28 tablet
+^ESCTFE997892	Fentanyl 400microgram buccal tablets sugar free 28 tablet
+^ESCTFE997894	Fentanyl 600microgram buccal tablets sugar free 28 tablet
+^ESCTFE997896	Fentanyl 800microgram buccal tablets sugar free 28 tablet
+^ESCTIN1021352	Instanyl 200micrograms/dose nasal spray (Takeda UK Ltd) 6 dose 6 x 0.1ml unit doses
+^ESCTIN1021354	Instanyl 100micrograms/dose nasal spray (Takeda UK Ltd) 6 dose 6 x 0.1ml unit doses
+^ESCTIN1021356	Instanyl 50micrograms/dose nasal spray (Takeda UK Ltd) 6 dose 6 x 0.1ml unit doses
+^ESCTIN928548	Instanyl
+^ESCTIN987678	Instanyl 50micrograms/dose nasal spray (Takeda UK Ltd)
+^ESCTIN987679	Instanyl 50micrograms/dose nasal spray (Takeda UK Ltd) 10 dose
+^ESCTIN987680	Instanyl 50micrograms/dose nasal spray (Takeda UK Ltd) 20 dose
+^ESCTIN987684	Instanyl 100micrograms/dose nasal spray (Takeda UK Ltd)
+^ESCTIN987685	Instanyl 100micrograms/dose nasal spray (Takeda UK Ltd) 10 dose
+^ESCTIN987686	Instanyl 100micrograms/dose nasal spray (Takeda UK Ltd) 20 dose
+^ESCTIN987690	Instanyl 200micrograms/dose nasal spray (Takeda UK Ltd)
+^ESCTIN987691	Instanyl 200micrograms/dose nasal spray (Takeda UK Ltd) 10 dose
+^ESCTIN987692	Instanyl 200micrograms/dose nasal spray (Takeda UK Ltd) 20 dose
+^ESCTIO1142379	Ionsys 40micrograms/dose transdermal system (The Medicines Company UK Ltd)
+^ESCTIO1142381	Ionsys 40micrograms/dose transdermal system (The Medicines Company UK Ltd) 6 system
+^ESCTIO924361	Ionsys
+^ESCTIO967414	Ionsys 40micrograms/dose iontophoretic transdermal system (Janssen-Cilag Ltd)
+^ESCTIO967416	Ionsys 40micrograms/dose iontophoretic transdermal system (Janssen-Cilag Ltd) 1 system 80 doses
+^ESCTLE1047429	Levobupivacaine 500mg/500ml / Fentanyl 2mg/500ml infusion bags
+^ESCTLE1047430	Levobupivacaine 500mg/500ml / Fentanyl 2mg/500ml infusion bags 1 bag
+^ESCTLE1047431	Levobupivacaine 500mg/500ml / Fentanyl 2mg/500ml infusion bags 15 bag
+^ESCTLE1047432	Levobupivacaine 500mg/500ml / Fentanyl 2mg/500ml infusion bags (Special Order)
+^ESCTLE1047433	Levobupivacaine 500mg/500ml / Fentanyl 2mg/500ml infusion bags (Special Order) 1 bag
+^ESCTLE1047434	Levobupivacaine 500mg/500ml / Fentanyl 2mg/500ml infusion bags (Special Order) 15 bag
+^ESCTLE1047435	Levobupivacaine 500mg/500ml / Fentanyl 1mg/500ml infusion bags
+^ESCTLE1047436	Levobupivacaine 500mg/500ml / Fentanyl 1mg/500ml infusion bags 1 bag
+^ESCTLE1047437	Levobupivacaine 500mg/500ml / Fentanyl 1mg/500ml infusion bags 15 bag
+^ESCTLE1047438	Levobupivacaine 500mg/500ml / Fentanyl 1mg/500ml infusion bags (Special Order)
+^ESCTLE1047439	Levobupivacaine 500mg/500ml / Fentanyl 1mg/500ml infusion bags (Special Order) 1 bag
+^ESCTLE1047440	Levobupivacaine 500mg/500ml / Fentanyl 1mg/500ml infusion bags (Special Order) 15 bag
+^ESCTLE1047441	Levobupivacaine 125mg/100ml / Fentanyl 200micrograms/100ml infusion bags
+^ESCTLE1047442	Levobupivacaine 125mg/100ml / Fentanyl 200micrograms/100ml infusion bags 1 bag
+^ESCTLE1047443	Levobupivacaine 125mg/100ml / Fentanyl 200micrograms/100ml infusion bags 30 bag
+^ESCTLE1047444	Levobupivacaine 125mg/100ml / Fentanyl 200micrograms/100ml infusion bags (Special Order)
+^ESCTLE1047445	Levobupivacaine 125mg/100ml / Fentanyl 200micrograms/100ml infusion bags (Special Order) 1 bag
+^ESCTLE1047446	Levobupivacaine 125mg/100ml / Fentanyl 200micrograms/100ml infusion bags (Special Order) 30 bag
+^ESCTLE1047447	Levobupivacaine + Fentanyl
+^ESCTLE1048169	Levobupivacaine 312.5mg/250ml / Fentanyl 1mg/250ml infusion bags
+^ESCTLE1048170	Levobupivacaine 312.5mg/250ml / Fentanyl 1mg/250ml infusion bags 1 bag
+^ESCTLE1048171	Levobupivacaine 312.5mg/250ml / Fentanyl 1mg/250ml infusion bags 20 bag
+^ESCTLE1048172	Levobupivacaine 312.5mg/250ml / Fentanyl 1mg/250ml infusion bags (Special Order)
+^ESCTLE1048173	Levobupivacaine 312.5mg/250ml / Fentanyl 1mg/250ml infusion bags (Special Order) 1 bag
+^ESCTLE1048174	Levobupivacaine 312.5mg/250ml / Fentanyl 1mg/250ml infusion bags (Special Order) 20 bag
+^ESCTLE1058814	Levobupivacaine 250mg/250ml / Fentanyl 1.25mg/250ml infusion bags
+^ESCTLE1058815	Levobupivacaine 250mg/250ml / Fentanyl 1.25mg/250ml infusion bags 1 bag
+^ESCTLE1058816	Levobupivacaine 250mg/250ml / Fentanyl 1.25mg/250ml infusion bags (Special Order)
+^ESCTLE1058817	Levobupivacaine 250mg/250ml / Fentanyl 1.25mg/250ml infusion bags (Special Order) 1 bag
+^ESCTLE1116690	Levobupivacaine 250mg/250ml / Fentanyl 500micrograms/250ml infusion bags
+^ESCTLE1116691	Levobupivacaine 250mg/250ml / Fentanyl 500micrograms/250ml infusion bags 1 bag
+^ESCTLE1116692	Levobupivacaine 250mg/250ml / Fentanyl 500micrograms/250ml infusion bags (Special Order)
+^ESCTLE1116693	Levobupivacaine 250mg/250ml / Fentanyl 500micrograms/250ml infusion bags (Special Order) 1 bag
+^ESCTLE1116694	Levobupivacaine 312.5mg/250ml / Fentanyl 500micrograms/250ml infusion bags
+^ESCTLE1116695	Levobupivacaine 312.5mg/250ml / Fentanyl 500micrograms/250ml infusion bags 1 bag
+^ESCTLE1116696	Levobupivacaine 312.5mg/250ml / Fentanyl 500micrograms/250ml infusion bags (Special Order)
+^ESCTLE1116697	Levobupivacaine 312.5mg/250ml / Fentanyl 500micrograms/250ml infusion bags (Special Order) 1 bag
+^ESCTLE1157658	Levobupivacaine hydrochloride 625mg/500ml / Fentanyl 2mg/500ml infusion bags
+^ESCTLE1157659	Levobupivacaine hydrochloride 625mg/500ml / Fentanyl 2mg/500ml infusion bags (Special Order)
+^ESCTLE1157660	Levobupivacaine hydrochloride 625mg/500ml / Fentanyl 2mg/500ml infusion bags 1 bag
+^ESCTLE1157662	Levobupivacaine hydrochloride 625mg/500ml / Fentanyl 2mg/500ml infusion bags (Special Order) 1 bag
+^ESCTLE1157664	Levobupivacaine hydrochloride 625mg/500ml / Fentanyl 1mg/500ml infusion bags
+^ESCTLE1157665	Levobupivacaine hydrochloride 625mg/500ml / Fentanyl 1mg/500ml infusion bags 1 bag
+^ESCTLE1157666	Levobupivacaine hydrochloride 625mg/500ml / Fentanyl 1mg/500ml infusion bags (Special Order)
+^ESCTLE1157667	Levobupivacaine hydrochloride 625mg/500ml / Fentanyl 1mg/500ml infusion bags (Special Order) 1 bag
+^ESCTMA919286	Matrifen
+^ESCTMA936148	Matrifen 12micrograms/hour transdermal patches (Teva UK Ltd)
+^ESCTMA936151	Matrifen 12micrograms/hour transdermal patches (Teva UK Ltd) 5 patch
+^ESCTMA936152	Matrifen 25micrograms/hour transdermal patches (Teva UK Ltd)
+^ESCTMA936153	Matrifen 25micrograms/hour transdermal patches (Teva UK Ltd) 5 patch
+^ESCTMA936156	Matrifen 50micrograms/hour transdermal patches (Teva UK Ltd)
+^ESCTMA936157	Matrifen 50micrograms/hour transdermal patches (Teva UK Ltd) 5 patch
+^ESCTMA936160	Matrifen 75micrograms/hour transdermal patches (Teva UK Ltd)
+^ESCTMA936161	Matrifen 75micrograms/hour transdermal patches (Teva UK Ltd) 5 patch
+^ESCTMA936162	Matrifen 100micrograms/hour transdermal patches (Teva UK Ltd)
+^ESCTMA936163	Matrifen 100micrograms/hour transdermal patches (Teva UK Ltd) 5 patch
+^ESCTME1059104	Mezolar Matrix 37.5microgram/hour transdermal patches (Sandoz Ltd)
+^ESCTME1059105	Mezolar Matrix 37.5microgram/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTME921181	Mezolar Matrix
+^ESCTME956085	Mezolar Matrix 12micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTME956087	Mezolar Matrix 12micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTME956089	Mezolar Matrix 25micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTME956091	Mezolar Matrix 25micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTME956095	Mezolar Matrix 50micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTME956099	Mezolar Matrix 50micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTME956103	Mezolar Matrix 75micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTME956105	Mezolar Matrix 75micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTME956107	Mezolar Matrix 100micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTME956109	Mezolar Matrix 100micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTMY1067453	Mylafent 12micrograms/hour transdermal patches (Mylan Ltd)
+^ESCTMY1067454	Mylafent 12micrograms/hour transdermal patches (Mylan Ltd) 5 patch
+^ESCTMY1067455	Mylafent 25micrograms/hour transdermal patches (Mylan Ltd)
+^ESCTMY1067456	Mylafent 25micrograms/hour transdermal patches (Mylan Ltd) 5 patch
+^ESCTMY1067457	Mylafent 50micrograms/hour transdermal patches (Mylan Ltd)
+^ESCTMY1067458	Mylafent 50micrograms/hour transdermal patches (Mylan Ltd) 5 patch
+^ESCTMY1067459	Mylafent 75micrograms/hour transdermal patches (Mylan Ltd)
+^ESCTMY1067460	Mylafent 75micrograms/hour transdermal patches (Mylan Ltd) 5 patch
+^ESCTMY1067461	Mylafent 100micrograms/hour transdermal patches (Mylan Ltd)
+^ESCTMY1067462	Mylafent 100micrograms/hour transdermal patches (Mylan Ltd) 5 patch
+^ESCTMY946188	Mylafent
+^ESCTOP1056900	Opiodur 12micrograms/hour transdermal patches (Pfizer Ltd)
+^ESCTOP1056901	Opiodur 12micrograms/hour transdermal patches (Pfizer Ltd) 5 patch
+^ESCTOP1056902	Opiodur 25micrograms/hour transdermal patches (Pfizer Ltd)
+^ESCTOP1056903	Opiodur 25micrograms/hour transdermal patches (Pfizer Ltd) 5 patch
+^ESCTOP1056904	Opiodur 75micrograms/hour transdermal patches (Pfizer Ltd)
+^ESCTOP1056905	Opiodur 75micrograms/hour transdermal patches (Pfizer Ltd) 5 patch
+^ESCTOP1056906	Opiodur 100micrograms/hour transdermal patches (Pfizer Ltd)
+^ESCTOP1056907	Opiodur 100micrograms/hour transdermal patches (Pfizer Ltd) 5 patch
+^ESCTOP1056909	Opiodur 50micrograms/hour transdermal patches (Pfizer Ltd)
+^ESCTOP1056910	Opiodur 50micrograms/hour transdermal patches (Pfizer Ltd) 5 patch
+^ESCTOP944971	Opiodur
+^ESCTOS921352	Osmach
+^ESCTOS926170	Osmanil
+^ESCTOS963729	Osmach 25micrograms/hour transdermal patches (Teva UK Ltd)
+^ESCTOS963730	Osmach 25micrograms/hour transdermal patches (Teva UK Ltd) 5 patch
+^ESCTOS963731	Osmach 50micrograms/hour transdermal patches (Teva UK Ltd)
+^ESCTOS963732	Osmach 50micrograms/hour transdermal patches (Teva UK Ltd) 5 patch
+^ESCTOS963733	Osmach 75micrograms/hour transdermal patches (Teva UK Ltd)
+^ESCTOS963734	Osmach 75micrograms/hour transdermal patches (Teva UK Ltd) 5 patch
+^ESCTOS963735	Osmach 100micrograms/hour transdermal patches (Ratiopharm UK Ltd)
+^ESCTOS963736	Osmach 100micrograms/hour transdermal patches (Ratiopharm UK Ltd) 5 patch
+^ESCTOS980351	Osmanil 25micrograms/hour transdermal patches (Zentiva)
+^ESCTOS980352	Osmanil 25micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCTOS980353	Osmanil 50micrograms/hour transdermal patches (Zentiva)
+^ESCTOS980354	Osmanil 50micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCTOS980355	Osmanil 75micrograms/hour transdermal patches (Zentiva)
+^ESCTOS980356	Osmanil 75micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCTOS980357	Osmanil 100micrograms/hour transdermal patches (Zentiva)
+^ESCTOS980358	Osmanil 100micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCTOS988218	Osmanil 12micrograms/hour transdermal patches (Zentiva)
+^ESCTOS988219	Osmanil 12micrograms/hour transdermal patches (Zentiva) 5 patch
+^ESCTPE1003497	PecFent 100micrograms/dose nasal spray (Kyowa Kirin Ltd)
+^ESCTPE1003498	PecFent 100micrograms/dose nasal spray (Kyowa Kirin Ltd) 8 dose
+^ESCTPE1003499	PecFent 100micrograms/dose nasal spray (Kyowa Kirin Ltd) 32 dose 4 x 8 doses
+^ESCTPE1003502	PecFent 400micrograms/dose nasal spray (Kyowa Kirin Ltd)
+^ESCTPE1003503	PecFent 400micrograms/dose nasal spray (Kyowa Kirin Ltd) 8 dose
+^ESCTPE1003504	PecFent 400micrograms/dose nasal spray (Kyowa Kirin Ltd) 32 dose 4 x 8 doses
+^ESCTPE931812	PecFent
+^ESCTRE1066038	Recivit 400microgram sublingual tablets (Grunenthal Ltd)
+^ESCTRE1066039	Recivit 400microgram sublingual tablets (Grunenthal Ltd) 30 tablet 10 x 3 tablets
+^ESCTRE1066040	Recivit 800microgram sublingual tablets (Grunenthal Ltd)
+^ESCTRE1066041	Recivit 800microgram sublingual tablets (Grunenthal Ltd) 30 tablet 10 x 3 tablets
+^ESCTRE1066043	Recivit 133microgram sublingual tablets (Grunenthal Ltd)
+^ESCTRE1066044	Recivit 133microgram sublingual tablets (Grunenthal Ltd) 30 tablet 10 x 3 tablets
+^ESCTRE1066046	Recivit 267microgram sublingual tablets (Grunenthal Ltd)
+^ESCTRE1066047	Recivit 267microgram sublingual tablets (Grunenthal Ltd) 30 tablet 10 x 3 tablets
+^ESCTRE1066049	Recivit 533microgram sublingual tablets (Grunenthal Ltd)
+^ESCTRE1066050	Recivit 533microgram sublingual tablets (Grunenthal Ltd) 30 tablet 10 x 3 tablets
+^ESCTRE946156	Recivit
+^ESCTSU866102	Sublimaze 100micrograms/2ml solution for injection ampoules (Janssen-Cilag Ltd)
+^ESCTSU866103	Sublimaze 100micrograms/2ml solution for injection ampoules (Janssen-Cilag Ltd) 10 ampoule
+^ESCTSU870593	Sublimaze 500micrograms/10ml solution for injection ampoules (Janssen-Cilag Ltd)
+^ESCTSU870597	Sublimaze 500micrograms/10ml solution for injection ampoules (Janssen-Cilag Ltd) 5 ampoule
+^ESCTSU916476	Sublimaze
+^ESCTTI916733	Tilofyl
+^ESCTTI919169	Tilofyl 25micrograms/hour transdermal patches (Tillomed Laboratories Ltd)
+^ESCTTI919171	Tilofyl 25micrograms/hour transdermal patches (Tillomed Laboratories Ltd) 5 patch
+^ESCTTI919173	Tilofyl 50micrograms/hour transdermal patches (Tillomed Laboratories Ltd)
+^ESCTTI919174	Tilofyl 50micrograms/hour transdermal patches (Tillomed Laboratories Ltd) 5 patch
+^ESCTTI919178	Tilofyl 75micrograms/hour transdermal patches (Tillomed Laboratories Ltd)
+^ESCTTI919182	Tilofyl 75micrograms/hour transdermal patches (Tillomed Laboratories Ltd) 5 patch
+^ESCTTI919186	Tilofyl 100micrograms/hour transdermal patches (Tillomed Laboratories Ltd)
+^ESCTTI919188	Tilofyl 100micrograms/hour transdermal patches (Tillomed Laboratories Ltd) 5 patch
+^ESCTVI1142898	Victanyl 12micrograms/hour transdermal patches (Actavis UK Ltd)
+^ESCTVI1142899	Victanyl 12micrograms/hour transdermal patches (Actavis UK Ltd) 5 patch
+^ESCTVI926191	Victanyl
+^ESCTVI980947	Victanyl 25micrograms/hour transdermal patches (Actavis UK Ltd)
+^ESCTVI980948	Victanyl 25micrograms/hour transdermal patches (Actavis UK Ltd) 5 patch
+^ESCTVI980949	Victanyl 50micrograms/hour transdermal patches (Actavis UK Ltd)
+^ESCTVI980950	Victanyl 50micrograms/hour transdermal patches (Actavis UK Ltd) 5 patch
+^ESCTVI980951	Victanyl 75micrograms/hour transdermal patches (Actavis UK Ltd)
+^ESCTVI980952	Victanyl 75micrograms/hour transdermal patches (Actavis UK Ltd) 5 patch
+^ESCTVI980953	Victanyl 100micrograms/hour transdermal patches (Actavis UK Ltd)
+^ESCTVI980954	Victanyl 100micrograms/hour transdermal patches (Actavis UK Ltd) 5 patch
+^ESCTYE1118963	Yemex 12micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTYE1118964	Yemex 12micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTYE1118965	Yemex 25micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTYE1118966	Yemex 25micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTYE1118967	Yemex 50micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTYE1118968	Yemex 50micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTYE1118971	Yemex 75micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTYE1118972	Yemex 75micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTYE1118974	Yemex 100micrograms/hour transdermal patches (Sandoz Ltd)
+^ESCTYE1118975	Yemex 100micrograms/hour transdermal patches (Sandoz Ltd) 5 patch
+^ESCTYE951531	Yemex
+ABSU34385NEMIS	Abstral  Sublingual tablets  100 micrograms
+ABSU34386NEMIS	Abstral  Sublingual tablets  200 micrograms
+ABSU34387NEMIS	Abstral  Sublingual tablets  300 micrograms
+ABSU34388NEMIS	Abstral  Sublingual tablets  400 micrograms
+ABSU34389NEMIS	Abstral  Sublingual tablets  600 micrograms
+ABSU34390NEMIS	Abstral  Sublingual tablets  800 micrograms
+ACLO5822NEMIS	Actiq  Lozenge with Oral Applicator  200 micrograms
+ACLO5823NEMIS	Actiq  Lozenge with Oral Applicator  400 micrograms
+ACLO5824NEMIS	Actiq  Lozenge with Oral Applicator  600 micrograms
+ACLO5825NEMIS	Actiq  Lozenge with Oral Applicator  800 micrograms
+ACLO5826NEMIS	Actiq  Lozenge with Oral Applicator  1200 micrograms
+ACLO5827NEMIS	Actiq  Lozenge with Oral Applicator  1600 micrograms
+BRBU85997NEMIS	Breakyl  Buccal Films  200 micrograms
+BRBU85998NEMIS	Breakyl  Buccal Films  400 micrograms
+BRBU85999NEMIS	Breakyl  Buccal Films  800 micrograms
+BUIN76890NEMIS	Bufyl  Infusion  1.25 mg/ml + 2 micrograms/ml, 500 ml bag
+BUIN76891NEMIS	Bufyl  Infusion  1.25 mg/ml + 2 micrograms/ml, 250 ml bag
+BUIN76892NEMIS	Bufyl  Infusion  1 mg/ml + 2 micrograms/ml, 500 ml bag
+BUIN76893NEMIS	Bufyl  Infusion  1 mg/ml + 2 micrograms/ml, 250 ml bag
+CYLO131911NEMIS	Cynril  Lozenge with Oral Applicator  200 micrograms
+CYLO131912NEMIS	Cynril  Lozenge with Oral Applicator  400 micrograms
+CYLO131913NEMIS	Cynril  Lozenge with Oral Applicator  600 micrograms
+CYLO131914NEMIS	Cynril  Lozenge with Oral Applicator  800 micrograms
+CYLO131915NEMIS	Cynril  Lozenge with Oral Applicator  1200 micrograms
+CYLO131916NEMIS	Cynril  Lozenge with Oral Applicator  1600 micrograms
+DUTR19685NEMIS	Durogesic Dtrans  Transdermal patches  25 micrograms/hour
+DUTR19686NEMIS	Durogesic Dtrans  Transdermal patches  50 micrograms/hour
+DUTR19687NEMIS	Durogesic Dtrans  Transdermal patches  75 micrograms/hour
+DUTR19688NEMIS	Durogesic Dtrans  Transdermal patches  100 micrograms/hour
+DUTR21395NEMIS	Durogesic Dtrans  Transdermal patches  12 micrograms/hour
+DUTR25820EMIS	Durogesic  Transdermal patches  100 micrograms/hour
+DUTR25821EMIS	Durogesic  Transdermal patches  25 micrograms/hour
+DUTR25822EMIS	Durogesic  Transdermal patches  50 micrograms/hour
+DUTR25823EMIS	Durogesic  Transdermal patches  75 micrograms/hour
+EFBU34546NEMIS	Effentora  Buccal tablets  100 micrograms
+EFBU34547NEMIS	Effentora  Buccal tablets  200 micrograms
+EFBU34548NEMIS	Effentora  Buccal tablets  400 micrograms
+EFBU34549NEMIS	Effentora  Buccal tablets  600 micrograms
+EFBU34550NEMIS	Effentora  Buccal tablets  800 micrograms
+FEBU34538NEMIS	Fentanyl  Buccal Tablets Sugar Free  100 micrograms
+FEBU34539NEMIS	Fentanyl  Buccal Tablets Sugar Free  200 micrograms
+FEBU34540NEMIS	Fentanyl  Buccal Tablets Sugar Free  400 micrograms
+FEBU34541NEMIS	Fentanyl  Buccal Tablets Sugar Free  600 micrograms
+FEBU34542NEMIS	Fentanyl  Buccal Tablets Sugar Free  800 micrograms
+FEBU85993NEMIS	Fentanyl  Buccal Films Sugar Free  200 micrograms
+FEBU85994NEMIS	Fentanyl  Buccal Films Sugar Free  400 micrograms
+FEBU85995NEMIS	Fentanyl  Buccal Films Sugar Free  800 micrograms
+FEIN15506NEMIS	Fentanyl Citrate  Solution for injection  50 micrograms/ml, 2 ml ampoule
+FEIN30898EMIS	Fentanyl Citrate  Injection  500 micrograms/10 ml ampoule
+FEIN37873MGEMIS	Fentanyl Citrate  Injection  50 micrograms/ml, 2 ml ampoule (A.A.H. Pharm)
+FEIN37874MGEMIS	Fentanyl Citrate  Injection  50 micrograms/ml, 2 ml ampoule (Martindale)
+FEIN7080	Fentanyl Citrate  Injection  50 micrograms/ml
+FELO5815NEMIS	Fentanyl Citrate  Lozenge with Oral Applicator  200 micrograms
+FELO5816NEMIS	Fentanyl Citrate  Lozenge with Oral Applicator  400 micrograms
+FELO5817NEMIS	Fentanyl Citrate  Lozenge with Oral Applicator  600 micrograms
+FELO5818NEMIS	Fentanyl Citrate  Lozenge with Oral Applicator  800 micrograms
+FELO5819NEMIS	Fentanyl Citrate  Lozenge with Oral Applicator  1200 micrograms
+FELO5820NEMIS	Fentanyl Citrate  Lozenge with Oral Applicator  1600 micrograms
+FENA39137NEMIS	Fentanyl  Nasal spray  50 micrograms/dose
+FENA39138NEMIS	Fentanyl  Nasal spray  100 micrograms/dose
+FENA39139NEMIS	Fentanyl  Nasal spray  200 micrograms/dose
+FENA46728NEMIS	Fentanyl  Nasal spray  400 micrograms/dose
+FESO100596NEMIS	Fentanyl  Solution for infusion  2.5 mg/50 ml vial
+FESU141931NEMIS	Fenhuma  Sublingual tablets  100 micrograms
+FESU141932NEMIS	Fenhuma  Sublingual tablets  200 micrograms
+FESU141933NEMIS	Fenhuma  Sublingual tablets  300 micrograms
+FESU141934NEMIS	Fenhuma  Sublingual tablets  400 micrograms
+FESU141935NEMIS	Fenhuma  Sublingual tablets  600 micrograms
+FESU141936NEMIS	Fenhuma  Sublingual tablets  800 micrograms
+FESU144573NEMIS	Fentanyl  Sublingual Tablets Sugar Free  67 micrograms
+FESU144703NEMIS	Fentanyl  Sublingual tablets  133 micrograms
+FESU144704NEMIS	Fentanyl  Sublingual tablets  267 micrograms
+FESU144705NEMIS	Fentanyl  Sublingual tablets  400 micrograms
+FESU144706NEMIS	Fentanyl  Sublingual tablets  533 micrograms
+FESU144707NEMIS	Fentanyl  Sublingual tablets  67 micrograms
+FESU144708NEMIS	Fentanyl  Sublingual tablets  800 micrograms
+FESU34378NEMIS	Fentanyl  Sublingual Tablets Sugar Free  100 micrograms
+FESU34379NEMIS	Fentanyl  Sublingual Tablets Sugar Free  200 micrograms
+FESU34380NEMIS	Fentanyl  Sublingual Tablets Sugar Free  300 micrograms
+FESU34381NEMIS	Fentanyl  Sublingual Tablets Sugar Free  400 micrograms
+FESU34382NEMIS	Fentanyl  Sublingual Tablets Sugar Free  600 micrograms
+FESU34383NEMIS	Fentanyl  Sublingual Tablets Sugar Free  800 micrograms
+FESU89447NEMIS	Fentanyl  Sublingual Tablets Sugar Free  133 micrograms
+FESU89448NEMIS	Fentanyl  Sublingual Tablets Sugar Free  267 micrograms
+FESU89449NEMIS	Fentanyl  Sublingual Tablets Sugar Free  533 micrograms
+FETR114113NEMIS	Fentanyl  Transdermal System  40 micrograms/dose
+FETR21394NEMIS	Fentanyl  Transdermal patches  12 micrograms/hour
+FETR25828EMIS	Fentanyl  Transdermal patches  100 micrograms/hour
+FETR25829EMIS	Fentanyl  Transdermal patches  25 micrograms/hour
+FETR25830EMIS	Fentanyl  Transdermal patches  50 micrograms/hour
+FETR25831EMIS	Fentanyl  Transdermal patches  75 micrograms/hour
+FETR28980NEMIS	Fentalis Reservoir  Transdermal patches  100 micrograms/hour
+FETR28981NEMIS	Fentalis Reservoir  Transdermal patches  75 micrograms/hour
+FETR28982NEMIS	Fentalis Reservoir  Transdermal patches  50 micrograms/hour
+FETR28983NEMIS	Fentalis Reservoir  Transdermal patches  25 micrograms/hour
+FETR35064MGEMIS	Fentanyl  Transdermal patches  100 micrograms/hour (A.A.H. Pharm)
+FETR35065MGEMIS	Fentanyl  Transdermal patches  25 micrograms/hour (A.A.H. Pharm)
+FETR35066MGEMIS	Fentanyl  Transdermal patches  50 micrograms/hour (A.A.H. Pharm)
+FETR35067MGEMIS	Fentanyl  Transdermal patches  75 micrograms/hour (A.A.H. Pharm)
+FETR51747NEMIS	Fencino  Transdermal patches  12 micrograms/hour
+FETR51748NEMIS	Fencino  Transdermal patches  25 micrograms/hour
+FETR51749NEMIS	Fencino  Transdermal patches  50 microgram/hour
+FETR51750NEMIS	Fencino  Transdermal patches  75 micrograms/hour
+FETR51751NEMIS	Fencino  Transdermal patches  100 micrograms/hour
+FETR86952NEMIS	Fentanyl  Transdermal patches  37.5 micrograms/hour
+INNA39141NEMIS	Instanyl  Nasal spray  50 micrograms/dose
+INNA39142NEMIS	Instanyl  Nasal spray  100 micrograms/dose
+INNA39143NEMIS	Instanyl  Nasal spray  200 micrograms/dose
+IOIO28976NEMIS	Ionsys  Iontophoretic Transdermal System  40 micrograms/dose
+IRSU144574NEMIS	Iremia  Sublingual tablets  67 micrograms
+IRSU144575NEMIS	Iremia  Sublingual tablets  133 micrograms
+IRSU144576NEMIS	Iremia  Sublingual tablets  267 micrograms
+IRSU144577NEMIS	Iremia  Sublingual tablets  400 micrograms
+IRSU144578NEMIS	Iremia  Sublingual tablets  533 micrograms
+IRSU144611NEMIS	Iremia  Sublingual tablets  800 micrograms
+MATR23866NEMIS	Matrifen  Transdermal patches  12 micrograms/hour
+MATR23867NEMIS	Matrifen  Transdermal patches  25 micrograms/hour
+MATR23868NEMIS	Matrifen  Transdermal patches  50 micrograms/hour
+MATR23869NEMIS	Matrifen  Transdermal patches  75 micrograms/hour
+MATR23870NEMIS	Matrifen  Transdermal patches  100 micrograms/hour
+METR28492NEMIS	Mezolar Matrix  Transdermal patches  12 micrograms/hour
+METR28493NEMIS	Mezolar Matrix  Transdermal patches  50 micrograms/hour
+METR28494NEMIS	Mezolar Matrix  Transdermal patches  75 micrograms/hour
+METR28495NEMIS	Mezolar Matrix  Transdermal patches  100 micrograms/hour
+METR28496NEMIS	Mezolar Matrix  Transdermal patches  25 micrograms/hour
+METR86953NEMIS	Mezolar Matrix  Transdermal patches  37.5 micrograms/hour
+MYTR102010NEMIS	Mylafent  Transdermal patches  25 micrograms/hour
+MYTR89806NEMIS	Mylafent  Transdermal patches  12 micrograms/hour
+MYTR89807NEMIS	Mylafent  Transdermal patches  50 micrograms/hour
+MYTR89808NEMIS	Mylafent  Transdermal patches  75 micrograms/hour
+MYTR89809NEMIS	Mylafent  Transdermal patches  100 micrograms/hour
+OPTR86002NEMIS	Opiodur  Transdermal patches  100 micrograms/hour
+OPTR86003NEMIS	Opiodur  Transdermal patches  12 micrograms/hour
+OPTR86004NEMIS	Opiodur  Transdermal patches  25 micrograms/hour
+OPTR86005NEMIS	Opiodur  Transdermal patches  50 micrograms/hour
+OPTR86006NEMIS	Opiodur  Transdermal patches  75 micrograms/hour
+OSTR29894NEMIS	Osmach  Transdermal patches  25 micrograms/hour
+OSTR29895NEMIS	Osmach  Transdermal patches  50 micrograms/hour
+OSTR29896NEMIS	Osmach  Transdermal patches  75 micrograms/hour
+OSTR29897NEMIS	Osmach  Transdermal patches  100 micrograms/hour
+OSTR35173NEMIS	Osmanil  Transdermal patches  25 micrograms/hour
+OSTR35174NEMIS	Osmanil  Transdermal patches  50 micrograms/hour
+OSTR35175NEMIS	Osmanil  Transdermal patches  75 micrograms/hour
+OSTR35176NEMIS	Osmanil  Transdermal patches  100 micrograms/hour
+OSTR39146NEMIS	Osmanil  Transdermal patches  12 micrograms/hour
+PENA46732NEMIS	Pecfent  Nasal spray  400 micrograms/dose
+PENA46733NEMIS	Pecfent  Nasal spray  100 micrograms/dose
+RESU89451NEMIS	Recivit  Sublingual tablets  133 micrograms
+RESU89452NEMIS	Recivit  Sublingual tablets  267 micrograms
+RESU89453NEMIS	Recivit  Sublingual tablets  400 micrograms
+RESU89454NEMIS	Recivit  Sublingual tablets  533 micrograms
+RESU89455NEMIS	Recivit  Sublingual tablets  800 micrograms
+SUIN15507NEMIS	Sublimaze  Injection  50 micrograms/ml, 2 ml ampoule
+SUIN30900EMIS	Sublimaze  Injection  500 micrograms/10 ml ampoule
+SUINEGTON6742	Sublimaze  Injection  50 micrograms/ml
+THINEGTON6744	Thalamonal  Injection  2.5 mg/ml
+TITR20887NEMIS	Tilofyl  Transdermal patches  75 micrograms/hour
+TITR20888NEMIS	Tilofyl  Transdermal patches  50 micrograms/hour
+TITR20889NEMIS	Tilofyl  Transdermal patches  25 micrograms/hour
+TITR20891NEMIS	Tilofyl  Transdermal patches  100 micrograms/hour
+VITR114527NEMIS	Victanyl  Transdermal patches  12 micrograms/hour 
+VITR35736NEMIS	Victanyl  Transdermal patches  75 micrograms/hour
+VITR35737NEMIS	Victanyl  Transdermal patches  100 micrograms/hour
+VITR35738NEMIS	Victanyl  Transdermal patches  25 micrograms/hour
+VITR35739NEMIS	Victanyl  Transdermal patches  50 micrograms/hour
+YETR104754NEMIS	Yemex  Transdermal patches  100 micrograms/hour
+YETR104755NEMIS	Yemex  Transdermal patches  75 micrograms/hour
+YETR104756NEMIS	Yemex  Transdermal patches  50 micrograms/hour
+YETR104757NEMIS	Yemex  Transdermal patches  25 micrograms/hour
+YETR104758NEMIS	Yemex  Transdermal patches  12 micrograms/hour

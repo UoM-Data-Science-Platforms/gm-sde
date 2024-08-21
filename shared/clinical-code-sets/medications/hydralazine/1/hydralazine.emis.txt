@@ -1,0 +1,368 @@
+^ESCT1167914	Hydralazine and hydrochlorothiazide
+^ESCT1167915	Product containing hydralazine and hydrochlorothiazide
+^ESCT1176685	Hydralazine 5mg/5ml oral suspension 100 ml
+^ESCT1176686	Hydralazine 5mg/5ml oral suspension (Special Order) 100 ml
+^ESCT1178084	Product containing only hydralazine hydrochloride 25 mg/1 each oral tablet
+^ESCT1179498	Hydralazine 50mg tablets (Mylan) 56 tablet
+^ESCT1182118	Product containing only hydralazine hydrochloride 10 mg/1 each oral tablet
+^ESCT1182594	Product containing only isosorbide dinitrate 20 mg and hydralazine 37.5 mg/1 each oral tablet
+^ESCT1183233	Product containing only hydralazine hydrochloride 25 mg and hydrochlorothiazide 15 mg and reserpine 0.1 mg/1 each oral tablet
+^ESCT1183416	Hydralazine 25mg tablets (Mylan) 56 tablet
+^ESCT1185940	Hydralazine 25mg tablets (Mylan)
+^ESCT1185949	Hydralazine 50mg tablets (Mylan)
+^ESCT1187200	Product containing only hydralazine hydrochloride 50 mg/1 each oral tablet
+^ESCT1187679	Product containing hydralazine hydrochloride and hydrochlorothiazide
+^ESCT1187680	Hydralazine hydrochloride and hydrochlorothiazide
+^ESCT1188337	Product containing only hydralazine hydrochloride 100 mg/1 each oral tablet
+^ESCT1188534	Product containing only hydralazine hydrochloride 100 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCT1188535	Product containing only hydralazine hydrochloride 25 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCT1188536	Product containing only hydralazine hydrochloride 50 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCT1198224	Hydralazine 10mg tablets 1 tablet
+^ESCT1198225	Hydralazine 10mg tablets (Special Order)
+^ESCT1198226	Hydralazine 10mg tablets (Special Order) 1 tablet
+^ESCT1207555	Hydralazine and isosorbide product
+^ESCT1207556	Product containing hydralazine and isosorbide
+^ESCT1207559	Hydralazine and isosorbide in oral dosage form
+^ESCT1207560	Product containing hydralazine and isosorbide in oral dosage form
+^ESCT1207572	Hydralazine and hydrochlorothiazide in oral dosage form
+^ESCT1207573	Product containing hydralazine and hydrochlorothiazide in oral dosage form
+^ESCT1215060	Hydralazine 25mg tablets (Morningside Healthcare Ltd)
+^ESCT1215061	Hydralazine 25mg tablets (Morningside Healthcare Ltd) 56 tablet
+^ESCT1215063	Hydralazine 50mg tablets (Morningside Healthcare Ltd)
+^ESCT1215064	Hydralazine 50mg tablets (Morningside Healthcare Ltd) 56 tablet
+^ESCT1217374	Hydralazine
+^ESCT1217375	Hydralazine product
+^ESCT1222896	Product containing precisely hydralazine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1222897	Product containing precisely hydralazine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1229153	Hydralazine hydrochloride 25 mg and hydrochlorothiazide 15 mg and reserpine 0.1 mg oral tablet
+^ESCT1229154	Product containing precisely hydralazine hydrochloride 25 milligram and hydrochlorothiazide 15 milligram and reserpine 100 microgram/1 each conventional release oral tablet
+^ESCT1229155	Hydralazine hydrochloride 25 mg and hydrochlorothiazide 15 mg and reserpine 100 microgram oral tablet
+^ESCT1229156	Hydralazine hydrochloride 100 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCT1229157	Product containing precisely hydralazine hydrochloride 100 milligram and hydrochlorothiazide 50 milligram/1 each conventional release oral capsule
+^ESCT1229158	Hydralazine hydrochloride 100 mg and hydrochlorothiazide 50 mg oral capsule
+^ESCT1229159	Hydralazine hydrochloride 25 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCT1229160	Product containing precisely hydralazine hydrochloride 25 milligram and hydrochlorothiazide 25 milligram/1 each conventional release oral capsule
+^ESCT1229161	Hydralazine hydrochloride 25 mg and hydrochlorothiazide 25 mg oral capsule
+^ESCT1229162	Hydralazine hydrochloride 50 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCT1229163	Product containing precisely hydralazine hydrochloride 50 milligram and hydrochlorothiazide 50 milligram/1 each conventional release oral capsule
+^ESCT1229164	Hydralazine hydrochloride 50 mg and hydrochlorothiazide 50 mg oral capsule
+^ESCT1232341	Product containing precisely hydralazine hydrochloride 100 milligram/1 each conventional release oral tablet
+^ESCT1232342	Product containing precisely hydralazine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1232879	Isosorbide dinitrate 20 mg and hydralazine 37.5 mg oral tablet
+^ESCT1232880	Product containing precisely hydralazine 37.5 milligram and isosorbide dinitrate 20 milligram/1 each conventional release oral tablet
+^ESCT1232881	Hydralazine 37.5 mg and isosorbide dinitrate 20 mg oral tablet
+^ESCT1237016	Hydralazine and hydrochlorothiazide
+^ESCT1237017	Hydralazine and hydrochlorothiazide product
+^ESCT1250055	Apresoline 25mg tablets (Advanz Pharma)
+^ESCT1250086	Apresoline 25mg tablets (Advanz Pharma) 84 tablet
+^ESCT1250259	Apresoline 20mg powder for solution for injection ampoules (Advanz Pharma)
+^ESCT1250260	Apresoline 20mg powder for solution for injection ampoules (Advanz Pharma) 5 ampoule
+^ESCT1250832	Hydralazine 20mg powder for concentrate for solution for injection ampoules (Advanz Pharma)
+^ESCT1250833	Hydralazine 20mg powder for concentrate for solution for injection ampoules (Advanz Pharma) 5 ampoule
+^ESCT1250840	Hydralazine 25mg tablets (Advanz Pharma)
+^ESCT1250841	Hydralazine 25mg tablets (Advanz Pharma) 84 tablet
+^ESCT1276436	Hydralazine 10mg/5ml oral suspension 100 ml
+^ESCT1276437	Hydralazine 10mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCT1276955	Hydralazine 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1276956	Hydralazine 10mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1299749	Hydralazine 25mg tablets (Accord Healthcare Ltd)
+^ESCT1299754	Hydralazine 25mg tablets (Accord Healthcare Ltd) 56 tablet
+^ESCT1351449	Hydralazine- and hydrochlorothiazide- and reserpine-containing product in oral dose form
+^ESCT1351864	Hydralazine- and hydrochlorothiazide- and reserpine-containing product
+^ESCT1355310	Hydralazine only product
+^ESCT1355311	Hydralazine and hydrochlorothiazide only product
+^ESCT1355312	Hydralazine and hydrochlorothiazide and reserpine only product
+^ESCT1355313	Hydralazine and isosorbide only product
+^ESCT1358768	Hydralazine and hydrochlorothiazide and reserpine only product in oral dose form
+^ESCT1358769	Hydralazine and hydrochlorothiazide only product in oral dose form
+^ESCT1358770	Hydralazine and isosorbide only product in oral dose form
+^ESCT1358771	Hydralazine only product in oral dose form
+^ESCT1358772	Hydralazine only product in parenteral dose form
+^ESCT1364106	Hydralazine hydrochloride 20 mg powder for solution for injection vial
+^ESCT1376049	Hydralazine 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376050	Hydralazine 50mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1383720	Hydralazine-containing product in parenteral dose form
+^ESCT1383853	Hydralazine-containing product in oral dose form
+^ESCT1385453	Hydralazine- and hydrochlorothiazide-containing product
+^ESCT1386794	Hydralazine- and isosorbide-containing product
+^ESCT1386796	Hydralazine- and isosorbide-containing product in oral dose form
+^ESCT1386804	Hydralazine- and hydrochlorothiazide-containing product in oral dose form
+^ESCT1404696	Hydralazine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404697	Hydralazine 25mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1409534	Hydralazine 50mg tablets (Accord Healthcare Ltd)
+^ESCT1409816	Hydralazine 50mg tablets (Accord Healthcare Ltd) 56 tablet
+^ESCT1425543	Hydralazine 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425700	Hydralazine 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425993	Hydralazine 25mg tablets (Kent Pharma (UK) Ltd) 56 tablet
+^ESCT1425994	Hydralazine 50mg tablets (Kent Pharma (UK) Ltd) 56 tablet
+^ESCT1436825	Hydralazine 25mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436849	Hydralazine 50mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437158	Hydralazine 25mg tablets (Viatris UK Healthcare Ltd) 56 tablet
+^ESCT1437159	Hydralazine 50mg tablets (Viatris UK Healthcare Ltd) 56 tablet
+^ESCTAP820809	Apresoline 25mg tablets (AMCo)
+^ESCTAP849426	Apresoline 25mg tablets (AMCo) 84 tablet
+^ESCTAP865604	Apresoline 20mg powder for solution for injection ampoules (AMCo)
+^ESCTAP865605	Apresoline 20mg powder for solution for injection ampoules (AMCo) 5 ampoule
+^ESCTAP913886	Apresoline
+^ESCTAP931098	Apo-Hydralazine 10mg tablets (Imported (United States))
+^ESCTAP931099	Apo-Hydralazine 10mg tablets (Imported (United States)) 100 tablet
+^ESCTHY1002491	Hydralazine 25mg tablets 100 tablet
+^ESCTHY1002492	Hydralazine 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHY1002493	Hydralazine 25mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTHY1005907	Hydralazine 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1005909	Hydralazine 25mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTHY1005911	Hydralazine 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1005913	Hydralazine 50mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTHY1023439	Hydralazine 25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTHY1023440	Hydralazine 25mg tablets (Almus Pharmaceuticals Ltd) 56 tablet
+^ESCTHY1023441	Hydralazine 50mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTHY1023442	Hydralazine 50mg tablets (Almus Pharmaceuticals Ltd) 56 tablet
+^ESCTHY1043890	Hydralazine 50mg tablets (Waymade Healthcare Plc)
+^ESCTHY1043891	Hydralazine 50mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTHY1044239	Hydralazine 25mg/5ml oral suspension 100 ml
+^ESCTHY1044240	Hydralazine 25mg/5ml oral suspension (Special Order) 100 ml
+^ESCTHY1063565	Hydralazine 25mg tablets (DE Pharmaceuticals)
+^ESCTHY1063566	Hydralazine 25mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTHY1063569	Hydralazine 50mg tablets (DE Pharmaceuticals)
+^ESCTHY1063571	Hydralazine 50mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTHY1103018	Hydralazine 35mg/5ml oral suspension 1 ml
+^ESCTHY1103019	Hydralazine 35mg/5ml oral suspension (Special Order)
+^ESCTHY1103020	Hydralazine 35mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY1103874	Hydralazine 35mg/5ml oral suspension
+^ESCTHY1117810	Hydralazine 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHY1117811	Hydralazine 25mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTHY1117812	Hydralazine 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHY1117813	Hydralazine 50mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTHY1120488	Hydralazine 20mg powder for concentrate for solution for injection ampoules (AMCo)
+^ESCTHY1120489	Hydralazine 20mg powder for concentrate for solution for injection ampoules (AMCo) 5 ampoule
+^ESCTHY1120797	Hydralazine 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTHY1120799	Hydralazine 25mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTHY1120800	Hydralazine 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTHY1120803	Hydralazine 50mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTHY1126452	Hydralazine 25mg tablets (AMCo)
+^ESCTHY1126453	Hydralazine 25mg tablets (AMCo) 84 tablet
+^ESCTHY1126515	Hydralazine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTHY1158464	Hydralazine 20mg powder for solution for injection ampoules
+^ESCTHY286156	Hydralazine
+^ESCTHY607221	Hydralazine 25mg tablets
+^ESCTHY607223	Hydralazine hydrochloride 25 mg oral tablet
+^ESCTHY607224	Hydralazine 50mg tablets
+^ESCTHY607226	Hydralazine hydrochloride 50 mg oral tablet
+^ESCTHY607227	Hydralazine 20mg powder for solution for injection ampoules
+^ESCTHY607228	Hydralazine hydrochloride 20mg injection (pdr for recon)
+^ESCTHY607229	Hydralazine hydrochloride 20mg injection powder vial
+^ESCTHY642393	Hydralazine hydrochloride 25 mg and hydrochlorothiazide 15 mg and reserpine 0.1 mg oral tablet
+^ESCTHY642395	Hydralazine hydrochloride 100 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCTHY642397	Hydralazine hydrochloride 25 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCTHY642399	Hydralazine hydrochloride 50 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCTHY660996	Hydralazine hydrochloride + hydrochlorothiazide
+^ESCTHY661489	Hydralazine hydrochloride + hydrochlorothiazide + reserpine
+^ESCTHY685810	Hydralazine hydrochloride 100 mg oral tablet
+^ESCTHY685812	Hydralazine 10mg tablets
+^ESCTHY685814	Hydralazine hydrochloride 10 mg oral tablet
+^ESCTHY711536	Hydralazine in parenteral dosage form
+^ESCTHY712898	Hydralazine in oral dosage form
+^ESCTHY804656	Hydralazine 50mg tablets (Actavis UK Ltd)
+^ESCTHY804660	Hydralazine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY804844	Hydralazine 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTHY805409	Hydralazine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTHY806281	Hydralazine 25mg tablets (Mylan Ltd)
+^ESCTHY808090	Hydralazine 50mg tablets (Mylan Ltd)
+^ESCTHY811435	Hydralazine 50mg tablets (Sandoz Ltd)
+^ESCTHY811685	Hydralazine 25mg tablets (Actavis UK Ltd)
+^ESCTHY818653	Hydralazine 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTHY828014	Hydralazine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY832913	Hydralazine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTHY834483	Hydralazine 25mg tablets 84 tablet
+^ESCTHY836106	Hydralazine 25mg tablets 500 tablet
+^ESCTHY847769	Hydralazine 50mg tablets 56 tablet
+^ESCTHY847795	Hydralazine 25mg tablets 56 tablet
+^ESCTHY849421	Hydralazine 25mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTHY849423	Hydralazine 25mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTHY849428	Hydralazine 25mg tablets (Actavis UK Ltd) 56 tablet
+^ESCTHY849429	Hydralazine 25mg tablets (Mylan Ltd) 56 tablet
+^ESCTHY849431	Hydralazine 25mg tablets (Kent Pharmaceuticals Ltd) 56 tablet
+^ESCTHY849432	Hydralazine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTHY849433	Hydralazine 50mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTHY849436	Hydralazine 50mg tablets (Actavis UK Ltd) 56 tablet
+^ESCTHY849437	Hydralazine 50mg tablets (Mylan Ltd) 56 tablet
+^ESCTHY849438	Hydralazine 50mg tablets (Kent Pharmaceuticals Ltd) 56 tablet
+^ESCTHY849441	Hydralazine 50mg tablets (Sandoz Ltd) 56 tablet
+^ESCTHY849445	Hydralazine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTHY865600	Hydralazine 20mg powder for solution for injection ampoules 5 ampoule
+^ESCTHY907065	Hydralazine 25mg/5ml oral solution 1 ml
+^ESCTHY907067	Hydralazine 25mg/5ml oral solution (Special Order)
+^ESCTHY907068	Hydralazine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY907069	Hydralazine 10mg/5ml oral solution 1 ml
+^ESCTHY907070	Hydralazine 10mg/5ml oral solution (Special Order)
+^ESCTHY907071	Hydralazine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY907072	Hydralazine 10mg/5ml oral suspension 1 ml
+^ESCTHY907073	Hydralazine 25mg/5ml oral suspension 1 ml
+^ESCTHY907074	Hydralazine 10mg/5ml oral suspension (Special Order)
+^ESCTHY907075	Hydralazine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907076	Hydralazine 25mg/5ml oral suspension (Special Order)
+^ESCTHY907077	Hydralazine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907078	Hydralazine 50mg/5ml oral solution 1 ml
+^ESCTHY907079	Hydralazine 50mg/5ml oral solution (Special Order)
+^ESCTHY907080	Hydralazine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY907081	Hydralazine 50mg/5ml oral suspension 1 ml
+^ESCTHY907082	Hydralazine 50mg/5ml oral suspension (Special Order)
+^ESCTHY907083	Hydralazine 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907139	Hydralazine 10mg/5ml oral solution
+^ESCTHY907140	Hydralazine 10mg/5ml oral suspension
+^ESCTHY907141	Hydralazine 50mg/5ml oral solution
+^ESCTHY907142	Hydralazine 50mg/5ml oral suspension
+^ESCTHY907620	Hydralazine 25mg/5ml oral solution
+^ESCTHY907621	Hydralazine 25mg/5ml oral suspension
+^ESCTHY931097	Hydralazine 10mg tablets 100 tablet
+^ESCTHY950615	Hydralazine 1.25mg/5ml oral suspension 1 ml
+^ESCTHY950616	Hydralazine 1.25mg/5ml oral suspension (Special Order)
+^ESCTHY950617	Hydralazine 1.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950618	Hydralazine 1.25mg/5ml oral solution 1 ml
+^ESCTHY950619	Hydralazine 1.25mg/5ml oral solution (Special Order)
+^ESCTHY950621	Hydralazine 1.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950623	Hydralazine 100mg/5ml oral suspension 1 ml
+^ESCTHY950624	Hydralazine 100mg/5ml oral suspension (Special Order)
+^ESCTHY950625	Hydralazine 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950628	Hydralazine 100mg/5ml oral solution 1 ml
+^ESCTHY950630	Hydralazine 100mg/5ml oral solution (Special Order)
+^ESCTHY950631	Hydralazine 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950638	Hydralazine 12.5mg/5ml oral suspension 1 ml
+^ESCTHY950639	Hydralazine 12.5mg/5ml oral suspension (Special Order)
+^ESCTHY950640	Hydralazine 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950641	Hydralazine 12.5mg/5ml oral solution 1 ml
+^ESCTHY950642	Hydralazine 12.5mg/5ml oral solution (Special Order)
+^ESCTHY950643	Hydralazine 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950644	Hydralazine 15mg/5ml oral suspension 1 ml
+^ESCTHY950645	Hydralazine 15mg/5ml oral suspension (Special Order)
+^ESCTHY950646	Hydralazine 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950647	Hydralazine 15mg/5ml oral solution 1 ml
+^ESCTHY950648	Hydralazine 15mg/5ml oral solution (Special Order)
+^ESCTHY950649	Hydralazine 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950675	Hydralazine 1mg/5ml oral suspension 1 ml
+^ESCTHY950676	Hydralazine 1mg/5ml oral suspension (Special Order)
+^ESCTHY950677	Hydralazine 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950678	Hydralazine 1mg/5ml oral solution 1 ml
+^ESCTHY950679	Hydralazine 1mg/5ml oral solution (Special Order)
+^ESCTHY950680	Hydralazine 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950682	Hydralazine 2.5mg/5ml oral suspension 1 ml
+^ESCTHY950684	Hydralazine 2.5mg/5ml oral suspension (Special Order)
+^ESCTHY950686	Hydralazine 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950688	Hydralazine 2.5mg/5ml oral solution 1 ml
+^ESCTHY950690	Hydralazine 2.5mg/5ml oral solution (Special Order)
+^ESCTHY950691	Hydralazine 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950695	Hydralazine 20mg/5ml oral suspension 1 ml
+^ESCTHY950696	Hydralazine 20mg/5ml oral suspension (Special Order)
+^ESCTHY950697	Hydralazine 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950698	Hydralazine 20mg/5ml oral solution 1 ml
+^ESCTHY950699	Hydralazine 20mg/5ml oral solution (Special Order)
+^ESCTHY950700	Hydralazine 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950703	Hydralazine 2mg/5ml oral suspension 1 ml
+^ESCTHY950704	Hydralazine 2mg/5ml oral suspension (Special Order)
+^ESCTHY950705	Hydralazine 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950708	Hydralazine 2mg/5ml oral solution 1 ml
+^ESCTHY950709	Hydralazine 2mg/5ml oral solution (Special Order)
+^ESCTHY950710	Hydralazine 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950711	Hydralazine 3mg/5ml oral suspension 1 ml
+^ESCTHY950712	Hydralazine 3mg/5ml oral suspension (Special Order)
+^ESCTHY950713	Hydralazine 3mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950714	Hydralazine 3mg/5ml oral solution 1 ml
+^ESCTHY950715	Hydralazine 3mg/5ml oral solution (Special Order)
+^ESCTHY950716	Hydralazine 3mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950717	Hydralazine 4mg/5ml oral suspension 1 ml
+^ESCTHY950718	Hydralazine 4mg/5ml oral suspension (Special Order)
+^ESCTHY950719	Hydralazine 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950720	Hydralazine 4mg/5ml oral solution 1 ml
+^ESCTHY950721	Hydralazine 4mg/5ml oral solution (Special Order)
+^ESCTHY950723	Hydralazine 4mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950726	Hydralazine 5mg/5ml oral suspension 1 ml
+^ESCTHY950728	Hydralazine 5mg/5ml oral suspension (Special Order)
+^ESCTHY950729	Hydralazine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950732	Hydralazine 5mg/5ml oral solution 1 ml
+^ESCTHY950733	Hydralazine 5mg/5ml oral solution (Special Order)
+^ESCTHY950734	Hydralazine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950738	Hydralazine 62.5mg/5ml oral suspension 1 ml
+^ESCTHY950740	Hydralazine 62.5mg/5ml oral suspension (Special Order)
+^ESCTHY950741	Hydralazine 62.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950746	Hydralazine 62.5mg/5ml oral solution 1 ml
+^ESCTHY950747	Hydralazine 62.5mg/5ml oral solution (Special Order)
+^ESCTHY950748	Hydralazine 62.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950749	Hydralazine 7.5mg/5ml oral suspension 1 ml
+^ESCTHY950750	Hydralazine 7.5mg/5ml oral suspension (Special Order)
+^ESCTHY950751	Hydralazine 7.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950752	Hydralazine 7.5mg/5ml oral solution 1 ml
+^ESCTHY950753	Hydralazine 7.5mg/5ml oral solution (Special Order)
+^ESCTHY950754	Hydralazine 7.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950755	Hydralazine 75mg/5ml oral suspension 1 ml
+^ESCTHY950756	Hydralazine 75mg/5ml oral suspension (Special Order)
+^ESCTHY950757	Hydralazine 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950758	Hydralazine 75mg/5ml oral solution 1 ml
+^ESCTHY950759	Hydralazine 75mg/5ml oral solution (Special Order)
+^ESCTHY950760	Hydralazine 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY950832	Hydralazine 1.25mg/5ml oral solution
+^ESCTHY950833	Hydralazine 1.25mg/5ml oral suspension
+^ESCTHY950834	Hydralazine 100mg/5ml oral solution
+^ESCTHY950835	Hydralazine 100mg/5ml oral suspension
+^ESCTHY950836	Hydralazine 12.5mg/5ml oral solution
+^ESCTHY950837	Hydralazine 12.5mg/5ml oral suspension
+^ESCTHY950838	Hydralazine 15mg/5ml oral solution
+^ESCTHY950839	Hydralazine 15mg/5ml oral suspension
+^ESCTHY950840	Hydralazine 1mg/5ml oral solution
+^ESCTHY950841	Hydralazine 1mg/5ml oral suspension
+^ESCTHY950842	Hydralazine 2.5mg/5ml oral solution
+^ESCTHY950843	Hydralazine 2.5mg/5ml oral suspension
+^ESCTHY950844	Hydralazine 20mg/5ml oral solution
+^ESCTHY950845	Hydralazine 20mg/5ml oral suspension
+^ESCTHY950846	Hydralazine 2mg/5ml oral solution
+^ESCTHY950847	Hydralazine 2mg/5ml oral suspension
+^ESCTHY950848	Hydralazine 3mg/5ml oral solution
+^ESCTHY950849	Hydralazine 3mg/5ml oral suspension
+^ESCTHY950850	Hydralazine 4mg/5ml oral solution
+^ESCTHY950851	Hydralazine 4mg/5ml oral suspension
+^ESCTHY950852	Hydralazine 5mg/5ml oral solution
+^ESCTHY950853	Hydralazine 5mg/5ml oral suspension
+^ESCTHY950854	Hydralazine 62.5mg/5ml oral solution
+^ESCTHY950855	Hydralazine 62.5mg/5ml oral suspension
+^ESCTHY950856	Hydralazine 7.5mg/5ml oral solution
+^ESCTHY950857	Hydralazine 7.5mg/5ml oral suspension
+^ESCTHY950858	Hydralazine 75mg/5ml oral solution
+^ESCTHY950859	Hydralazine 75mg/5ml oral suspension
+^ESCTHY999201	Hydralazine 25mg tablets (Sovereign Medical Ltd)
+^ESCTHY999203	Hydralazine 25mg tablets (Sovereign Medical Ltd) 56 tablet
+^ESCTIS693281	Isosorbide dinitrate 20 mg and hydralazine 37.5 mg oral tablet
+^ESCTIS694444	Isosorbide dinitrate + hydralazine
+^ESCTPR286157	Product containing hydralazine
+^ESCTPR607222	Product containing hydralazine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR607225	Product containing hydralazine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR642394	Product containing hydralazine hydrochloride 25 mg and hydrochlorothiazide 15 mg and reserpine 0.1 mg/1 each oral tablet
+^ESCTPR642396	Product containing hydralazine hydrochloride 100 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCTPR642398	Product containing hydralazine hydrochloride 25 mg and hydrochlorothiazide 25 mg/1 each oral capsule
+^ESCTPR642400	Product containing hydralazine hydrochloride 50 mg and hydrochlorothiazide 50 mg/1 each oral capsule
+^ESCTPR661490	Product containing hydralazine hydrochloride and hydrochlorothiazide and reserpine
+^ESCTPR685811	Product containing hydralazine hydrochloride 100 mg/1 each oral tablet
+^ESCTPR685813	Product containing hydralazine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR693282	Product containing isosorbide dinitrate 20 mg and hydralazine 37.5 mg/1 each oral tablet
+^ESCTPR694445	Product containing hydralazine and isosorbide dinitrate
+^ESCTPR711537	Product containing hydralazine in parenteral dosage form
+^ESCTPR712899	Product containing hydralazine in oral dosage form
+APIN8847BRIDL	Apresoline  Powder For Solution For Injection  20 mg ampoule
+APTA130287NEMIS	Apo-Hydralazine  Tablets  10 mg
+APTA190	Apresoline  Tablets  25 mg
+APTA191	Apresoline  Tablets  50 mg
+HYIN1385	Hydralazine Hydrochloride  Powder For Solution For Injection  20 mg ampoule
+HYOR110031NEMIS	Hydralazine Hydrochloride  Oral solution  25 mg/5 ml
+HYOR29371NEMIS	Hydralazine Hydrochloride  Oral suspension  10 mg/5 ml
+HYTA130285NEMIS	Hydralazine Hydrochloride  Tablets  10 mg
+HYTA1386	Hydralazine Hydrochloride  Tablets  25 mg
+HYTA1387	Hydralazine Hydrochloride  Tablets  50 mg
+HYTA35475MGEMIS	Hydralazine Hydrochloride  Tablets  25 mg (A.A.H. Pharm)
+HYTA35476MGEMIS	Hydralazine Hydrochloride  Tablets  25 mg (Generics (UK))
+HYTA35477MGEMIS	Hydralazine Hydrochloride  Tablets  25 mg (Alpharma)
+HYTA35478MGEMIS	Hydralazine Hydrochloride  Tablets  25 mg (Kent Pharm)
+HYTA35479MGEMIS	Hydralazine Hydrochloride  Tablets  25 mg (Unichem)
+HYTA35480MGEMIS	Hydralazine Hydrochloride  Tablets  50 mg (Alpharma)
+HYTA35481MGEMIS	Hydralazine Hydrochloride  Tablets  50 mg (Unichem)
+HYTA35482MGEMIS	Hydralazine Hydrochloride  Tablets  50 mg (Kent Pharm)
+HYTA35483MGEMIS	Hydralazine Hydrochloride  Tablets  50 mg (Generics (UK))
+HYTA35484MGEMIS	Hydralazine Hydrochloride  Tablets  50 mg (Sandoz)
+HYTA35485MGEMIS	Hydralazine Hydrochloride  Tablets  50 mg (A.A.H. Pharm)

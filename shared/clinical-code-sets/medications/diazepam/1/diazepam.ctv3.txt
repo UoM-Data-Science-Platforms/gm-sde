@@ -1,0 +1,76 @@
+d21..	Diazepam [anxiolytic]
+d211.	Diazepam 2mg capsule
+d21p.	Valium 2mg capsule
+d21g.	Solis 2mg capsule
+d212.	Diazepam 5mg capsule
+d21q.	Valium 5mg capsule
+d21h.	Solis 5mg capsule
+d213.	Diazepam 2mg tablet
+d21r.	Valium 2mg tablet
+d21m.	Tensium 2mg tablet
+d21e.	Evacalm 2mg tablet
+d21a.	Atensine 2mg tablet
+d21B.	Rimapam 2mg tablet
+d217.	Alupram 2mg tablet
+d214.	Diazepam 5mg tablet
+d21s.	Valium 5mg tablet
+d21n.	Tensium 5mg tablet
+d21f.	Evacalm 5mg tablet
+d21b.	Atensine 5mg tablet
+d21C.	Rimapam 5mg tablet
+d218.	Alupram 5mg tablet
+d215.	Diazepam 10mg tablet
+d21t.	Valium 10mg tablet
+d21o.	Tensium 10mg tablet
+d21c.	Atensine 10mg tablet
+d21D.	Rimapam 10mg tablet
+d219.	Alupram 10mg tablet
+d216.	Diazepam 2mg/5mL oral solution
+d21u.	Valium 2mg/5mL syrup
+d21E.	Dialar 2mg/5mL syrup
+d21A.	Diazepam 5mg/5mL oral solution
+d21F.	Dialar 5mg/5mL syrup
+d21H.	Diazepam 1mg/5mL suspension
+d21I.	Diazepam 2.5mg/5mL suspension
+d21J.	Diazepam 10mg/5mL suspension
+d21z.	Diazepam 10mg suppository
+d21y.	Valium 10mg suppository
+d21G.	Valclair 10mg suppository
+do1..	Diazepam [epilepsy use]
+do18.	Diazepam 5mg/2.5mL RecTube
+do19.	Diazepam 10mg/2.5mL RecTube
+do1A.	Diazepam 2.5mg/1.25mL RecTube
+do1B.	Diazepam 20mg/5mL RecTube
+do1t.	Diazepam 2.5mg/1.25mL rectal solution
+do1u.	Diazepam 20mg/5mL rectal solution
+do1v.	Diazepam 10mg/2mL injection emulsion
+do11.	Diazemuls [ep] 10mg/2mL injection
+d21d.	Diazemuls 10mg/2mL injection
+do1w.	Diazepam 10mg/2mL injection
+o534.	Valium 10mg/2mL injection
+do16.	Valium [ep] 10mg/2mL injection
+d21v.	Valium [anxiol] 10mg/2ml injection
+d21w.	Valium dup del injection
+d21i.	Stesolid 10mg/2mL injection
+do12.	Stesolid [ep] 10mg/2mL injection
+do1x.	Diazepam 5mg/2.5mL rectal solution
+d21k.	Stesolid 5mg/2.5mL rectal solution
+do1y.	Diazepam 10mg/2.5mL rectal solution
+d21l.	Stesolid 10mg/2.5mL rectal solution
+do1z.	Diazepam 20mg/4mL injection
+do17.	Valium [ep] 20mg/4mL injection
+d21j.	Stesolid 20mg/4mL injection
+j81..	Diazepam [skeletal muscle relaxant]
+o53..	Diazepam [anaesthesia]
+x01BA	Oral diazepam
+x01BB	Parenteral diazepam
+x01BC	Rectal diazepam
+d21x.	Valium 5mg suppository
+x02LM	Diazepam
+o535.	Valium
+x02sR	Tensium
+x02rZ	Stesolid
+x02ZZ	Diazemuls
+x02pk	Rimapam
+x02ty	Valclair
+x02ZT	Dialar

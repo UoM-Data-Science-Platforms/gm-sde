@@ -1,0 +1,66 @@
+^ESCT1178053	Product containing only propantheline bromide 15 mg/1 each oral tablet
+^ESCT1181601	Product containing only propantheline bromide 7.5 mg/1 each oral tablet
+^ESCT1217982	Propantheline
+^ESCT1217983	Propantheline product
+^ESCT1222528	Product containing precisely propantheline bromide 15 milligram/1 each conventional release oral tablet
+^ESCT1228341	Product containing precisely propantheline bromide 7.5 milligram/1 each conventional release oral tablet
+^ESCT1351673	Propantheline-containing product in oral dose form
+^ESCT1356523	Propantheline only product
+^ESCT1359688	Propantheline only product in oral dose form
+^ESCTPR1034499	Propantheline bromide 15mg tablets 100 tablet
+^ESCTPR1034500	Propantheline bromide 15mg tablets (Imported (United States))
+^ESCTPR1034501	Propantheline bromide 15mg tablets (Imported (United States)) 100 tablet
+^ESCTPR309065	Propantheline
+^ESCTPR309066	Product containing propantheline
+^ESCTPR606162	Propantheline bromide 15mg tablets
+^ESCTPR606163	Product containing propantheline bromide 15 mg/1 each oral tablet
+^ESCTPR606164	Propantheline bromide 15 mg oral tablet
+^ESCTPR640361	Propantheline bromide 7.5 mg oral tablet
+^ESCTPR640362	Product containing propantheline bromide 7.5 mg/1 each oral tablet
+^ESCTPR830302	Pro-Banthine 15mg tablets (Kyowa Kirin Ltd)
+^ESCTPR847537	Propantheline bromide 15mg tablets 112 tablet
+^ESCTPR855515	Pro-Banthine 15mg tablets (Kyowa Kirin Ltd) 112 tablet 4 x 28 tablets
+^ESCTPR908296	Propantheline bromide 15mg/5ml oral solution 1 ml
+^ESCTPR908298	Propantheline bromide 15mg/5ml oral solution (Special Order)
+^ESCTPR908299	Propantheline bromide 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR908300	Propantheline bromide 15mg/5ml oral suspension 1 ml
+^ESCTPR908302	Propantheline bromide 15mg/5ml oral suspension (Special Order)
+^ESCTPR908304	Propantheline bromide 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR908311	Propantheline bromide 7.5mg/5ml oral solution 1 ml
+^ESCTPR908314	Propantheline bromide 7.5mg/5ml oral solution (Special Order)
+^ESCTPR908319	Propantheline bromide 7.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR908327	Propantheline bromide 7.5mg/5ml oral suspension 1 ml
+^ESCTPR908333	Propantheline bromide 7.5mg/5ml oral suspension (Special Order)
+^ESCTPR908335	Propantheline bromide 7.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR908495	Propantheline bromide 15mg/5ml oral solution
+^ESCTPR908496	Propantheline bromide 15mg/5ml oral suspension
+^ESCTPR908497	Propantheline bromide 7.5mg/5ml oral solution
+^ESCTPR908498	Propantheline bromide 7.5mg/5ml oral suspension
+^ESCTPR959613	Propantheline bromide 10mg/5ml oral solution 1 ml
+^ESCTPR959615	Propantheline bromide 10mg/5ml oral solution (Special Order)
+^ESCTPR959616	Propantheline bromide 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR959617	Propantheline bromide 2.5mg/5ml oral solution 1 ml
+^ESCTPR959618	Propantheline bromide 2.5mg/5ml oral solution (Special Order)
+^ESCTPR959619	Propantheline bromide 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR959621	Propantheline bromide 30mg/5ml oral solution 1 ml
+^ESCTPR959622	Propantheline bromide 30mg/5ml oral solution (Special Order)
+^ESCTPR959626	Propantheline bromide 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR959640	Propantheline bromide 5mg/5ml oral solution 1 ml
+^ESCTPR959644	Propantheline bromide 5mg/5ml oral solution (Special Order)
+^ESCTPR959645	Propantheline bromide 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR959649	Propantheline bromide 6.25mg/5ml oral solution 1 ml
+^ESCTPR959653	Propantheline bromide 6.25mg/5ml oral solution (Special Order)
+^ESCTPR959654	Propantheline bromide 10mg/5ml oral solution
+^ESCTPR959655	Propantheline bromide 2.5mg/5ml oral solution
+^ESCTPR959656	Propantheline bromide 30mg/5ml oral solution
+^ESCTPR959657	Propantheline bromide 5mg/5ml oral solution
+^ESCTPR959658	Propantheline bromide 6.25mg/5ml oral solution
+^ESCTPR959659	Propantheline bromide 6.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR959661	Propantheline bromide 6.4mg/5ml oral solution 1 ml
+^ESCTPR959662	Propantheline bromide 6.4mg/5ml oral solution (Special Order)
+^ESCTPR959663	Propantheline bromide 6.4mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR959767	Propantheline bromide 6.4mg/5ml oral solution
+PROR48272NEMIS	Propantheline Bromide  Oral suspension  15 mg/5 ml
+PRTA4212	Pro-Banthine  Tablets  15 mg
+PRTA4223	Propantheline  Tablets  15 mg
+PRTA5341	Propantheline Bromide  Tablets  15 mg

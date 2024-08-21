@@ -1,0 +1,441 @@
+^ESCT1178780	Product containing only oxybutynin hydrochloride 5 mg/1 each oral tablet
+^ESCT1182193	Product containing only oxybutynin hydrochloride 2.5 mg/1 each oral tablet
+^ESCT1183507	Oxybutynin 2.5mg tablets (Mylan) 84 tablet 6 x 14 tablets
+^ESCT1184269	Oxybutynin 5mg tablets (Mylan)
+^ESCT1186358	Oxybutynin 2.5mg tablets (Mylan)
+^ESCT1188221	Product containing only oxybutynin hydrochloride 3 mg/1 each oral tablet
+^ESCT1188797	Oxybutynin 5mg tablets (Mylan) 84 tablet 6 x 14 tablets
+^ESCT1203817	Oxybutynin chloride 5 mg prolonged-release oral tablet
+^ESCT1203818	Product containing precisely oxybutynin chloride 5 milligram/1 each prolonged-release oral tablet
+^ESCT1203833	Oxybutynin hydrochloride 15mg prolonged-release oral tablet
+^ESCT1203847	Oxybutynin chloride 10 mg prolonged-release oral tablet
+^ESCT1203848	Product containing precisely oxybutynin chloride 10 milligram/1 each prolonged-release oral tablet
+^ESCT1204527	Oxybutynin chloride 1 mg/mL oral solution
+^ESCT1204528	Product containing precisely oxybutynin chloride 1 milligram/1 milliliter conventional release oral solution
+^ESCT1208746	Oxybutynin chloride 500 microgram/mL oral solution
+^ESCT1208747	Product containing precisely oxybutynin chloride 500 microgram/1 milliliter conventional release oral solution
+^ESCT1212412	Oxybutynin 5mg modified-release tablets
+^ESCT1212413	Oxybutynin 10mg modified-release tablets
+^ESCT1215326	Oxybutynin 2.5mg/5ml oral solution
+^ESCT1217951	Oxybutynin
+^ESCT1217952	Oxybutynin product
+^ESCT1224942	Product containing precisely oxybutynin chloride 2.5 milligram/1 each conventional release oral tablet
+^ESCT1224943	Oxybutynin chloride 2.5 mg oral tablet
+^ESCT1224944	Product containing precisely oxybutynin chloride 5 milligram/1 each conventional release oral tablet
+^ESCT1224945	Oxybutynin chloride 5 mg oral tablet
+^ESCT1224946	Oxybutynin chloride 3 mg oral tablet
+^ESCT1224947	Product containing precisely oxybutynin chloride 3 milligram/1 each conventional release oral tablet
+^ESCT1258421	Oxybutynin 2.5mg tablets (Strides Pharma UK Ltd)
+^ESCT1258422	Oxybutynin 2.5mg tablets (Strides Pharma UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1258423	Oxybutynin 2.5mg tablets (Strides Pharma UK Ltd) 84 tablet 12 x 7 tablets
+^ESCT1258424	Oxybutynin 5mg tablets (Strides Pharma UK Ltd)
+^ESCT1258425	Oxybutynin 5mg tablets (Strides Pharma UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1258426	Oxybutynin 5mg tablets (Strides Pharma UK Ltd) 84 tablet 12 x 7 tablets
+^ESCT1260161	Cystrin 5mg tablets (Sanofi)
+^ESCT1260166	Cystrin 5mg tablets (Sanofi) 84 tablet
+^ESCT1267022	Ditropan 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267023	Ditropan 5mg tablets (Mawdsley-Brooks & Company Ltd) 84 tablet
+^ESCT1270895	Lyrinel XL 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1270896	Lyrinel XL 5mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1270897	Lyrinel XL 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1270898	Lyrinel XL 10mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1275373	Oxybutynin 3mg tablets (DE Pharmaceuticals)
+^ESCT1275374	Oxybutynin 3mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCT1280707	Kentera 3.9mg/24hours patches (Pharmaram Ltd)
+^ESCT1280708	Kentera 3.9mg/24hours patches (Pharmaram Ltd) 8 patch
+^ESCT1299654	Oxybutynin 2.5mg/5ml oral solution sugar free (Brillpharma Ltd)
+^ESCT1299655	Oxybutynin 2.5mg/5ml oral solution sugar free (Brillpharma Ltd) 150 ml
+^ESCT1299656	Oxybutynin 5mg/5ml oral solution sugar free (Brillpharma Ltd)
+^ESCT1299657	Oxybutynin 5mg/5ml oral solution sugar free (Brillpharma Ltd) 150 ml
+^ESCT1300644	Ditropan 5mg tablets (DE Pharmaceuticals)
+^ESCT1300645	Ditropan 5mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCT1300783	Kentera 3.9mg/24hours patches (DE Pharmaceuticals)
+^ESCT1300784	Kentera 3.9mg/24hours patches (DE Pharmaceuticals) 8 patch
+^ESCT1300823	Lyrinel XL 10mg tablets (DE Pharmaceuticals)
+^ESCT1300824	Lyrinel XL 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1301128	Oxybutynin 2.5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1301129	Oxybutynin 2.5mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1301130	Oxybutynin 5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1301131	Oxybutynin 5mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1304720	Oxybutynin 2.5mg tablets (Morningside Healthcare Ltd)
+^ESCT1304721	Oxybutynin 2.5mg tablets (Morningside Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1304722	Oxybutynin 5mg tablets (Morningside Healthcare Ltd)
+^ESCT1304724	Oxybutynin 5mg tablets (Morningside Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1306815	Ditropan 2.5mg tablets (Cheplapharm Arzneimittel GmbH)
+^ESCT1306816	Ditropan 5mg tablets (Cheplapharm Arzneimittel GmbH)
+^ESCT1306819	Ditropan 2.5mg tablets (Cheplapharm Arzneimittel GmbH) 84 tablet 4 x 21 tablets
+^ESCT1306820	Ditropan 5mg tablets (Cheplapharm Arzneimittel GmbH) 84 tablet 4 x 21 tablets
+^ESCT1350823	Oxybutynin-containing product in cutaneous dose form
+^ESCT1356186	Oxybutynin only product
+^ESCT1359445	Oxybutynin only product in cutaneous dose form
+^ESCT1359446	Oxybutynin only product in oral dose form
+^ESCT1364158	Oxybutynin 162 microgram/hour prolonged-release transdermal patch
+^ESCT1364956	Oxybutynin-containing product in transdermal dose form
+^ESCT1365747	Oxybutynin only product in transdermal dose form
+^ESCT1383705	Oxybutynin-containing product in oral dose form
+^ESCT1384100	Oxybutynin hydrochloride 100 microgram/mg cutaneous gel
+^ESCT1384101	Oxybutynin chloride 100 microgram/mg cutaneous gel
+^ESCT1402523	Oxybutynin 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1402526	Oxybutynin 5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1402527	Oxybutynin 2.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402529	Oxybutynin 2.5mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1402531	Oxybutynin 2.5mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1402533	Oxybutynin 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402534	Oxybutynin 5mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1402535	Oxybutynin 5mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1402536	Oxybutynin 3mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402537	Oxybutynin 3mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1402881	Oxybutynin 5mg modified-release tablets
+^ESCT1402882	Oxybutynin 10mg modified-release tablets
+^ESCT1405280	Oxybutynin 2.5mg/5ml oral solution sugar free (Roma Pharmaceuticals Ltd)
+^ESCT1405281	Oxybutynin 2.5mg/5ml oral solution sugar free (Roma Pharmaceuticals Ltd) 150 ml
+^ESCT1405282	Oxybutynin 5mg/5ml oral solution sugar free (Roma Pharmaceuticals Ltd)
+^ESCT1405283	Oxybutynin 5mg/5ml oral solution sugar free (Roma Pharmaceuticals Ltd) 150 ml
+^ESCT1409199	Oxybutynin hydrochloride 5 mg prolonged-release oral tablet
+^ESCT1409200	Oxybutynin hydrochloride 10 mg prolonged-release oral tablet
+^ESCT1409203	Oxybutynin hydrochloride 1 mg/mL oral solution
+^ESCT1409245	Oxybutynin hydrochloride 500 microgram/mL oral solution
+^ESCT1409705	Ditropan 2.5mg tablets (Neon Healthcare Ltd)
+^ESCT1409745	Ditropan 5mg tablets (Neon Healthcare Ltd)
+^ESCT1409944	Ditropan 2.5mg tablets (Neon Healthcare Ltd) 84 tablet 4 x 21 tablets
+^ESCT1409945	Ditropan 5mg tablets (Neon Healthcare Ltd) 84 tablet 4 x 21 tablets
+^ESCT1422415	Oxybutynin 3mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422416	Oxybutynin 3mg tablets (Zentiva Pharma UK Ltd) 56 tablet 4 x 14 tablets
+^ESCT1425582	Oxybutynin 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425813	Oxybutynin 2.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426344	Oxybutynin 2.5mg tablets (Kent Pharma (UK) Ltd) 84 tablet 12 x 7 tablets
+^ESCT1426346	Oxybutynin 5mg tablets (Kent Pharma (UK) Ltd) 84 tablet 4 x 21 tablets
+^ESCT1427174	Oxybutynin 5mg tablets (Kent Pharma (UK) Ltd) 56 tablet 2 x 28 tablets
+^ESCT1429423	Oxybutynin 2.5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1429424	Oxybutynin 2.5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1433911	Kentera 3.9mg/24hours patches (Accord Healthcare Ltd)
+^ESCT1433912	Kentera 3.9mg/24hours patches (Accord Healthcare Ltd) 8 patch
+^ESCT1436926	Oxybutynin 2.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436979	Oxybutynin 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437368	Oxybutynin 2.5mg tablets (Viatris UK Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCT1437370	Oxybutynin 5mg tablets (Viatris UK Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCTCY801599	Cystrin 3mg tablets (Sanofi)
+^ESCTCY804701	Cystrin 5mg tablets (Zentiva)
+^ESCTCY854173	Cystrin 3mg tablets (Sanofi) 56 tablet
+^ESCTCY854205	Cystrin 5mg tablets (Zentiva) 84 tablet
+^ESCTCY914639	Cystrin
+^ESCTDI820729	Ditropan 2.5mg tablets (Sanofi)
+^ESCTDI824222	Ditropan 5mg tablets (Sanofi)
+^ESCTDI854188	Ditropan 2.5mg tablets (Sanofi) 84 tablet 4 x 21 tablets
+^ESCTDI854206	Ditropan 5mg tablets (Sanofi) 84 tablet 4 x 21 tablets
+^ESCTDI858377	Ditropan XL 5mg tablets (Janssen-Cilag Ltd)
+^ESCTDI858379	Ditropan XL 5mg tablets (Janssen-Cilag Ltd) 30 tablet
+^ESCTDI858395	Ditropan XL 10mg tablets (Janssen-Cilag Ltd)
+^ESCTDI858397	Ditropan XL 10mg tablets (Janssen-Cilag Ltd) 30 tablet
+^ESCTDI858410	Ditropan 2.5mg/5ml elixir (Sanofi)
+^ESCTDI858413	Ditropan 2.5mg/5ml elixir (Sanofi) 150 ml
+^ESCTDI877800	Ditropan 5mg tablets (Waymade Healthcare Plc)
+^ESCTDI877801	Ditropan 5mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTDI879276	Ditropan 5mg tablets (Dowelhurst Ltd)
+^ESCTDI879280	Ditropan 5mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTDI914876	Ditropan
+^ESCTDI914877	Ditropan XL
+^ESCTDI971000	Ditropan 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI971002	Ditropan 5mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTDI988894	Ditropan 5mg tablets (Lexon (UK) Ltd)
+^ESCTDI988895	Ditropan 5mg tablets (Lexon (UK) Ltd) 60 tablet
+^ESCTKE913485	Kentera 3.9mg/24hours patches (Orion Pharma (UK) Ltd)
+^ESCTKE913486	Kentera 3.9mg/24hours patches (Orion Pharma (UK) Ltd) 8 patch
+^ESCTKE919170	Kentera
+^ESCTLY1068401	Lyrinel XL 5mg tablets (Waymade Healthcare Plc)
+^ESCTLY1068402	Lyrinel XL 5mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLY1120832	Lyrinel XL 10mg tablets (Waymade Healthcare Plc)
+^ESCTLY1120834	Lyrinel XL 10mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLY870653	Lyrinel XL 5mg tablets (Janssen-Cilag Ltd)
+^ESCTLY870654	Lyrinel XL 5mg tablets (Janssen-Cilag Ltd) 30 tablet
+^ESCTLY870655	Lyrinel XL 10mg tablets (Janssen-Cilag Ltd)
+^ESCTLY870656	Lyrinel XL 10mg tablets (Janssen-Cilag Ltd) 30 tablet
+^ESCTLY919274	Lyrinel XL
+^ESCTOX1006214	Oxybutynin 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTOX1006215	Oxybutynin 2.5mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTOX1006216	Oxybutynin 2.5mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTOX1006217	Oxybutynin 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTOX1006218	Oxybutynin 5mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTOX1006219	Oxybutynin 5mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTOX1006345	Oxybutynin 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTOX1006347	Oxybutynin 5mg tablets (Almus Pharmaceuticals Ltd) 84 tablet
+^ESCTOX1006349	Oxybutynin 5mg tablets (Almus Pharmaceuticals Ltd) 56 tablet
+^ESCTOX1006352	Oxybutynin 2.5mg tablets (Almus Pharmaceuticals Ltd) 56 tablet
+^ESCTOX1009247	Oxybutynin 2.5mg tablets (Strides Shasun (UK) Ltd)
+^ESCTOX1009248	Oxybutynin 2.5mg tablets (Strides Shasun (UK) Ltd) 56 tablet 8 x 7 tablets
+^ESCTOX1009249	Oxybutynin 2.5mg tablets (Strides Shasun (UK) Ltd) 84 tablet 12 x 7 tablets
+^ESCTOX1009250	Oxybutynin 5mg tablets (Strides Shasun (UK) Ltd)
+^ESCTOX1009251	Oxybutynin 5mg tablets (Strides Shasun (UK) Ltd) 56 tablet 8 x 7 tablets
+^ESCTOX1009252	Oxybutynin 5mg tablets (Strides Shasun (UK) Ltd) 84 tablet 12 x 7 tablets
+^ESCTOX1011426	Oxybutynin 3mg tablets (Zentiva)
+^ESCTOX1011427	Oxybutynin 3mg tablets (Zentiva) 56 tablet 4 x 14 tablets
+^ESCTOX1012695	Oxybutynin 2.5mg/5ml oral solution 1 ml
+^ESCTOX1012696	Oxybutynin 2.5mg/5ml oral solution (Special Order)
+^ESCTOX1012697	Oxybutynin 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTOX1020556	Oxybutynin 5mg tablets (Actavis UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTOX1036008	Oxybutynin 5mg/30ml bladder irrigation vials 10 vial
+^ESCTOX1036009	Oxybutynin 5mg/30ml bladder irrigation vials (Special Order) 10 vial
+^ESCTOX1036720	Oxybutynin 2.5mg/5ml oral solution (Special Order) 150 ml
+^ESCTOX1037161	Oxybutynin 5mg/5ml oral solution 125 ml
+^ESCTOX1037162	Oxybutynin 5mg/5ml oral solution (Special Order) 125 ml
+^ESCTOX1037163	Oxybutynin 5mg/5ml oral suspension 100 ml
+^ESCTOX1037164	Oxybutynin 5mg/5ml oral suspension (Special Order) 100 ml
+^ESCTOX1037197	Oxybutynin 2.5mg/5ml oral suspension 1 ml
+^ESCTOX1037198	Oxybutynin 2.5mg/5ml oral suspension 100 ml
+^ESCTOX1037199	Oxybutynin 2.5mg/5ml oral suspension (Special Order)
+^ESCTOX1037200	Oxybutynin 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTOX1037201	Oxybutynin 2.5mg/5ml oral suspension (Special Order) 100 ml
+^ESCTOX1039035	Oxybutynin 2.5mg/5ml oral suspension
+^ESCTOX1040162	Oxybutynin 10mg/30ml bladder irrigation vials
+^ESCTOX1040163	Oxybutynin 10mg/30ml bladder irrigation vials 1 vial
+^ESCTOX1040164	Oxybutynin 10mg/30ml bladder irrigation vials 10 vial
+^ESCTOX1040165	Oxybutynin 10mg/30ml bladder irrigation vials (Special Order)
+^ESCTOX1040166	Oxybutynin 10mg/30ml bladder irrigation vials (Special Order) 1 vial
+^ESCTOX1040167	Oxybutynin 10mg/30ml bladder irrigation vials (Special Order) 10 vial
+^ESCTOX1040380	Oxybutynin 2.5mg tablets (Teva UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTOX1041901	Oxybutynin 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTOX1041902	Oxybutynin 2.5mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTOX1041903	Oxybutynin 2.5mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTOX1041904	Oxybutynin 5mg tablets (Waymade Healthcare Plc)
+^ESCTOX1041905	Oxybutynin 5mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTOX1041906	Oxybutynin 5mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTOX1042665	Oxybutynin 5mg tablets (Teva UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTOX1057254	Oxybutynin 2.5mg tablets (Accord Healthcare Ltd)
+^ESCTOX1057255	Oxybutynin 2.5mg tablets (Accord Healthcare Ltd) 56 tablet 8 x 7 tablets
+^ESCTOX1057256	Oxybutynin 2.5mg tablets (Accord Healthcare Ltd) 84 tablet 12 x 7 tablets
+^ESCTOX1057257	Oxybutynin 5mg tablets (Accord Healthcare Ltd)
+^ESCTOX1057258	Oxybutynin 5mg tablets (Accord Healthcare Ltd) 56 tablet 8 x 7 tablets
+^ESCTOX1057259	Oxybutynin 5mg tablets (Accord Healthcare Ltd) 84 tablet 12 x 7 tablets
+^ESCTOX1088653	Oxybutynin 2.5mg tablets (Tillomed Laboratories Ltd) 56 tablet
+^ESCTOX1088656	Oxybutynin 5mg tablets (Tillomed Laboratories Ltd) 56 tablet
+^ESCTOX1098926	Oxybutynin 2.5mg tablets (Actavis UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTOX1116091	Oxybutynin 2.5mg/5ml oral solution sugar free 150 ml
+^ESCTOX1116092	Oxybutynin 2.5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTOX1116093	Oxybutynin 2.5mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTOX1116099	Oxybutynin 5mg/5ml oral solution sugar free 150 ml
+^ESCTOX1116100	Oxybutynin 5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTOX1116101	Oxybutynin 5mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTOX1116540	Oxybutynin 2.5mg/5ml oral solution sugar free
+^ESCTOX1116541	Oxybutynin 5mg/5ml oral solution sugar free
+^ESCTOX1117008	Oxybutynin 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTOX1117009	Oxybutynin 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTOX1118483	Oxybutynin 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX1118484	Oxybutynin 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTOX1118721	Oxybutynin 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOX1118722	Oxybutynin 2.5mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTOX1118723	Oxybutynin 3mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOX1118724	Oxybutynin 3mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTOX1118725	Oxybutynin 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOX1118726	Oxybutynin 5mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTOX1118727	Oxybutynin 5mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTOX1118728	Oxybutynin 2.5mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTOX1119525	Oxybutynin 2.5mg tablets (DE Pharmaceuticals)
+^ESCTOX1119526	Oxybutynin 2.5mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTOX1119527	Oxybutynin 2.5mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCTOX1119528	Oxybutynin 5mg tablets (DE Pharmaceuticals)
+^ESCTOX1119529	Oxybutynin 5mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTOX1119530	Oxybutynin 5mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCTOX1122010	Oxybutynin 2.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTOX1122011	Oxybutynin 2.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTOX1126526	Oxybutynin 2.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX1126527	Oxybutynin 2.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTOX1145904	Oxybutynin 3mg/5ml oral suspension 1 ml
+^ESCTOX1145905	Oxybutynin 3mg/5ml oral suspension (Special Order)
+^ESCTOX1145906	Oxybutynin 3mg/5ml oral suspension (Special Order) 1 ml
+^ESCTOX1146217	Oxybutynin 3mg/5ml oral suspension
+^ESCTOX1153485	Oxybutynin 3mg tablets (Morningside Healthcare Ltd)
+^ESCTOX1153486	Oxybutynin 3mg tablets (Morningside Healthcare Ltd) 56 tablet
+^ESCTOX307588	Oxybutynin
+^ESCTOX613417	Oxybutynin hydrochloride m/r product
+^ESCTOX613418	Oxybutynin hydrochloride
+^ESCTOX613419	Oxybutynin product
+^ESCTOX613420	Oxybutynin 2.5mg tablets
+^ESCTOX613422	Oxybutynin hydrochloride 2.5 mg oral tablet
+^ESCTOX613423	Oxybutynin 5mg tablets
+^ESCTOX613425	Oxybutynin hydrochloride 5 mg oral tablet
+^ESCTOX613426	Oxybutynin 3mg tablets
+^ESCTOX613428	Oxybutynin hydrochloride 3 mg oral tablet
+^ESCTOX613429	Oxybutynin 2.5mg/5ml oral solution
+^ESCTOX613430	Oxybutynin hydrochloride 2.5mg/5mL elixir
+^ESCTOX613431	Oxybutynin 5mg/5ml oral solution sugar free
+^ESCTOX613432	Oxybutynin hydrochloride 5mg/5mL s/f oral solution
+^ESCTOX613433	Oxybutynin chloride 5mg/5mL syrup
+^ESCTOX613434	Oxybutynin 5mg modified-release tablets
+^ESCTOX613435	Oxybutynin hydrochloride 5mg m/r tablet
+^ESCTOX613436	Oxybutynin 10mg modified-release tablets
+^ESCTOX613437	Oxybutynin hydrochloride 10mg m/r tablet
+^ESCTOX639963	Oxybutynin hydrochloride 15mg m/r tablet
+^ESCTOX677651	Oxybutynin 3.9mg/day transdermal system
+^ESCTOX677652	Oxybutynin 3.9mg/day transdermal patch
+^ESCTOX677653	Oxybutynin 3.9mg/24hours transdermal system
+^ESCTOX677654	Oxybutynin 3.9mg/24hours transdermal patch
+^ESCTOX711438	Oxybutynin in topical dosage form
+^ESCTOX711488	Oxybutynin in oral dosage form
+^ESCTOX725474	Oxybutynin chloride 10% (100mg/g) topical gel
+^ESCTOX801638	Oxybutynin 5mg tablets (Actavis UK Ltd)
+^ESCTOX803462	Oxybutynin 3mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX803494	Oxybutynin 2.5mg tablets (Sterwin Medicines)
+^ESCTOX805632	Oxybutynin 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX805800	Oxybutynin 2.5mg tablets (Actavis UK Ltd)
+^ESCTOX807462	Oxybutynin 2.5mg tablets (Teva UK Ltd)
+^ESCTOX807713	Oxybutynin 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTOX807727	Oxybutynin 5mg tablets (Approved Prescription Services Ltd)
+^ESCTOX808206	Oxybutynin 3mg tablets (Pfizer Ltd)
+^ESCTOX811185	Oxybutynin 2.5mg tablets (Sandoz Ltd)
+^ESCTOX811392	Oxybutynin 5mg tablets (Teva UK Ltd)
+^ESCTOX812740	Oxybutynin 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX818119	Oxybutynin 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX818188	Oxybutynin 2.5mg tablets (Mylan Ltd)
+^ESCTOX820184	Oxybutynin 3mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX820187	Oxybutynin 2.5mg tablets (Approved Prescription Services Ltd)
+^ESCTOX820393	Oxybutynin 5mg tablets (Sandoz Ltd)
+^ESCTOX820558	Oxybutynin 5mg tablets (Mylan Ltd)
+^ESCTOX820706	Oxybutynin 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX821552	Oxybutynin 5mg tablets (Sterwin Medicines)
+^ESCTOX822953	Oxybutynin 2.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTOX835929	Oxybutynin 3mg tablets 56 tablet
+^ESCTOX836944	Oxybutynin 5mg tablets 56 tablet
+^ESCTOX842732	Oxybutynin 2.5mg tablets 56 tablet
+^ESCTOX846715	Oxybutynin 5mg tablets 84 tablet
+^ESCTOX847813	Oxybutynin 2.5mg tablets 84 tablet
+^ESCTOX854171	Oxybutynin 3mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTOX854172	Oxybutynin 3mg tablets (Pfizer Ltd) 56 tablet
+^ESCTOX854174	Oxybutynin 3mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTOX854178	Oxybutynin 2.5mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 8 x 7 tablets
+^ESCTOX854179	Oxybutynin 2.5mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 12 x 7 tablets
+^ESCTOX854180	Oxybutynin 2.5mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTOX854181	Oxybutynin 2.5mg tablets (Approved Prescription Services Ltd) 56 tablet 4 x 14 tablets
+^ESCTOX854183	Oxybutynin 2.5mg tablets (Mylan Ltd) 84 tablet 6 x 14 tablets
+^ESCTOX854184	Oxybutynin 2.5mg tablets (Teva UK Ltd) 84 tablet 3 x 28 tablets
+^ESCTOX854186	Oxybutynin 2.5mg tablets (Kent Pharmaceuticals Ltd) 84 tablet 12 x 7 tablets
+^ESCTOX854187	Oxybutynin 2.5mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTOX854189	Oxybutynin 2.5mg tablets (Sterwin Medicines) 84 tablet 4 x 21 tablets
+^ESCTOX854190	Oxybutynin 2.5mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 8 x 7 tablets
+^ESCTOX854192	Oxybutynin 2.5mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 7 x 12 tablets
+^ESCTOX854197	Oxybutynin 5mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 8 x 7 tablets
+^ESCTOX854198	Oxybutynin 5mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 12 x 7 tablets
+^ESCTOX854199	Oxybutynin 5mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTOX854200	Oxybutynin 5mg tablets (Approved Prescription Services Ltd) 56 tablet 4 x 14 tablets
+^ESCTOX854201	Oxybutynin 5mg tablets (Mylan Ltd) 84 tablet 6 x 14 tablets
+^ESCTOX854202	Oxybutynin 5mg tablets (Teva UK Ltd) 84 tablet 3 x 28 tablets
+^ESCTOX854203	Oxybutynin 5mg tablets (Kent Pharmaceuticals Ltd) 84 tablet 4 x 21 tablets
+^ESCTOX854204	Oxybutynin 5mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTOX854207	Oxybutynin 5mg tablets (Sterwin Medicines) 84 tablet 4 x 21 tablets
+^ESCTOX854208	Oxybutynin 5mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTOX854209	Oxybutynin 5mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 12 x 7 tablets
+^ESCTOX858374	Oxybutynin 5mg modified-release tablets 30 tablet
+^ESCTOX858391	Oxybutynin 10mg modified-release tablets 30 tablet
+^ESCTOX858407	Oxybutynin 2.5mg/5ml oral solution 150 ml
+^ESCTOX877799	Oxybutynin 5mg tablets 60 tablet
+^ESCTOX878698	Oxybutynin 5mg tablets (Dowelhurst Ltd)
+^ESCTOX878699	Oxybutynin 5mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTOX902621	Oxybutynin 2.5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTOX902625	Oxybutynin 2.5mg tablets (Genus Pharmaceuticals Ltd) 84 tablet 4 x 21 tablets
+^ESCTOX902626	Oxybutynin 5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTOX902627	Oxybutynin 5mg tablets (Genus Pharmaceuticals Ltd) 84 tablet 4 x 21 tablets
+^ESCTOX908230	Oxybutynin 5mg/5ml oral solution 1 ml
+^ESCTOX908231	Oxybutynin 5mg/5ml oral solution (Special Order)
+^ESCTOX908232	Oxybutynin 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTOX908233	Oxybutynin 5mg/5ml oral suspension 1 ml
+^ESCTOX908234	Oxybutynin 5mg/5ml oral suspension (Special Order)
+^ESCTOX908235	Oxybutynin 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTOX908481	Oxybutynin 5mg/5ml oral solution
+^ESCTOX908482	Oxybutynin 5mg/5ml oral suspension
+^ESCTOX913484	Oxybutynin 3.9mg/24hours transdermal patches 8 patch
+^ESCTOX913494	Oxybutynin 3.9mg/24hours transdermal patches
+^ESCTOX923658	Oxybutynin 2.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTOX923662	Oxybutynin 2.5mg tablets (Almus Pharmaceuticals Ltd) 84 tablet 7 x 12 tablets
+^ESCTOX928954	Oxybutynin 2.5mg tablets (Arrow Generics Ltd)
+^ESCTOX928956	Oxybutynin 2.5mg tablets (Arrow Generics Ltd) 84 tablet
+^ESCTOX928957	Oxybutynin 5mg tablets (Arrow Generics Ltd)
+^ESCTOX928958	Oxybutynin 5mg tablets (Arrow Generics Ltd) 84 tablet
+^ESCTOX957413	Oxybutynin 12.5mg/5ml oral solution 1 ml
+^ESCTOX957414	Oxybutynin 12.5mg/5ml oral solution (Special Order)
+^ESCTOX957415	Oxybutynin 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTOX957423	Oxybutynin 3mg/5ml oral solution 1 ml
+^ESCTOX957426	Oxybutynin 3mg/5ml oral solution (Special Order)
+^ESCTOX957428	Oxybutynin 3mg/5ml oral solution (Special Order) 1 ml
+^ESCTOX957432	Oxybutynin 8mg/5ml oral solution 1 ml
+^ESCTOX957435	Oxybutynin 8mg/5ml oral solution (Special Order)
+^ESCTOX957437	Oxybutynin 8mg/5ml oral solution (Special Order) 1 ml
+^ESCTOX957590	Oxybutynin 12.5mg/5ml oral solution
+^ESCTOX957591	Oxybutynin 3mg/5ml oral solution
+^ESCTOX957592	Oxybutynin 8mg/5ml oral solution
+^ESCTOX962497	Oxybutynin 5mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 2 x 28 tablets
+^ESCTOX965588	Oxybutynin 2.5mg tablets (Tillomed Laboratories Ltd)
+^ESCTOX965589	Oxybutynin 2.5mg tablets (Tillomed Laboratories Ltd) 84 tablet
+^ESCTOX965590	Oxybutynin 5mg tablets (Tillomed Laboratories Ltd)
+^ESCTOX965591	Oxybutynin 5mg tablets (Tillomed Laboratories Ltd) 84 tablet
+^ESCTOX968852	Oxybutynin 2.5mg tablets (Niche Generics Ltd)
+^ESCTOX968854	Oxybutynin 2.5mg tablets (Niche Generics Ltd) 56 tablet
+^ESCTOX968856	Oxybutynin 2.5mg tablets (Niche Generics Ltd) 84 tablet
+^ESCTOX968857	Oxybutynin 5mg tablets (Niche Generics Ltd)
+^ESCTOX968860	Oxybutynin 5mg tablets (Niche Generics Ltd) 56 tablet
+^ESCTOX968861	Oxybutynin 5mg tablets (Niche Generics Ltd) 84 tablet
+^ESCTOX969653	Oxybutynin 5mg/15ml bladder irrigation vials 1 vial
+^ESCTOX969655	Oxybutynin 5mg/15ml bladder irrigation vials (Special Order)
+^ESCTOX969657	Oxybutynin 5mg/15ml bladder irrigation vials (Special Order) 1 vial
+^ESCTOX969860	Oxybutynin 5mg/15ml bladder irrigation vials
+^ESCTOX978639	Oxybutynin 5mg/30ml bladder irrigation pre-filled syringes 1 pre-filled disposable injection
+^ESCTOX978640	Oxybutynin 5mg/30ml bladder irrigation pre-filled syringes (Special Order)
+^ESCTOX978641	Oxybutynin 5mg/30ml bladder irrigation pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTOX978642	Oxybutynin 5mg/30ml bladder irrigation vials 1 vial
+^ESCTOX978643	Oxybutynin 5mg/30ml bladder irrigation vials (Special Order)
+^ESCTOX978644	Oxybutynin 5mg/30ml bladder irrigation vials (Special Order) 1 vial
+^ESCTOX978661	Oxybutynin 5mg/30ml bladder irrigation pre-filled syringes
+^ESCTOX978662	Oxybutynin 5mg/30ml bladder irrigation vials
+^ESCTPR307589	Product containing oxybutynin
+^ESCTPR613421	Product containing oxybutynin hydrochloride 2.5 mg/1 each oral tablet
+^ESCTPR613424	Product containing oxybutynin hydrochloride 5 mg/1 each oral tablet
+^ESCTPR613427	Product containing oxybutynin hydrochloride 3 mg/1 each oral tablet
+^ESCTPR711439	Product containing oxybutynin in topical dosage form
+^ESCTPR711489	Product containing oxybutynin in oral dosage form
+COTA32872EMIS	Contimin  Tablets  2.5 mg
+COTA32873EMIS	Contimin  Tablets  5 mg
+CYTA19598EMIS	Cystrin  Tablets  3 mg
+CYTA19599EMIS	Cystrin  Tablets  5 mg
+DIEL23585EMIS	Ditropan  Elixir  2.5 mg/5 ml
+DIM/4780NEMIS	Ditropan Xl  M/R tablets  5 mg
+DIM/4781NEMIS	Ditropan Xl  M/R tablets  10 mg
+DITA10944BRIDL	Ditropan  Tablets  2.5 mg
+KETR20081NEMIS	Kentera  Transdermal patches  3.9 mg/24 hours
+LYM/15358NEMIS	Lyrinel Xl  M/R tablets  5 mg
+LYM/15359NEMIS	Lyrinel Xl  M/R tablets  10 mg
+OXBL125058NEMIS	Oxybutynin Hydrochloride  Bladder irrigation  5 mg/30 ml pre-filled syringe
+OXBL125059NEMIS	Oxybutynin Hydrochloride  Bladder irrigation  5 mg/30 ml vial
+OXEL23587EMIS	Oxybutynin Hydrochloride  Oral solution  2.5 mg/5 ml
+OXM/4776NEMIS	Oxybutynin Hydrochloride  M/R tablets  5 mg
+OXM/4777NEMIS	Oxybutynin Hydrochloride  M/R tablets  10 mg
+OXOR101985NEMIS	Oxybutynin Hydrochloride  Oral Solution, Sugar Free  2.5 mg/5 ml
+OXOR101986NEMIS	Oxybutynin Hydrochloride  Oral Solution, Sugar Free  5 mg/5 ml
+OXOR45596NEMIS	Oxybutynin Hydrochloride  Oral solution  5 mg/5 ml
+OXOR46786NEMIS	Oxybutynin Hydrochloride  Oral suspension  5 mg/5 ml
+OXOR77606NEMIS	Oxybutynin Hydrochloride  Oral suspension  2.5 mg/5 ml
+OXTA19601EMIS	Oxybutynin Hydrochloride  Tablets  3 mg
+OXTA36345MGEMIS	Oxybutynin Hydrochloride  Tablets  3 mg (A.A.H. Pharm)
+OXTA36346MGEMIS	Oxybutynin Hydrochloride  Tablets  3 mg (Pfizer)
+OXTA36347MGEMIS	Oxybutynin Hydrochloride  Tablets  3 mg (Unichem)
+OXTA36366MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Sterwin Medicines)
+OXTA36367MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Alpharma)
+OXTA36368MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Ivax Pharmaceuticals)
+OXTA36369MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Sandoz)
+OXTA36370MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Unichem)
+OXTA36371MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Generics (UK))
+OXTA36372MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (A.A.H. Pharm)
+OXTA36373MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Kent Pharm)
+OXTA36374MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Genus Pharm)
+OXTA36375MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Alpharma)
+OXTA36376MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (A.A.H. Pharm)
+OXTA36377MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Kent Pharm)
+OXTA36378MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Ivax Pharmaceuticals)
+OXTA36379MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Unichem)
+OXTA36380MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Sandoz)
+OXTA36381MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Generics (UK))
+OXTA36382MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Sterwin Medicines)
+OXTA36383MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Genus Pharm)
+OXTA8594BRID	Ditropan  Tablets  5 mg
+OXTA9033EMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg
+OXTA9034EMIS	Oxybutynin Hydrochloride  Tablets  5 mg
+OXTR20079NEMIS	Oxybutynin Hydrochloride  Transdermal patches  3.9 mg/24 hours
+PRTA1112NEMIS	Promictuline  Tablets  2.5 mg
+PRTA1113NEMIS	Promictuline  Tablets  5 mg

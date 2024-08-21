@@ -1,0 +1,22 @@
+bu1..00	DIPYRIDAMOLE
+bu1z.00	DIPYRIDAMOLE 10mg/2mL injection
+bu1G.00	OFCRAM PR 200mg m/r capsules
+bu1F.00	ATTIA 200mg m/r capsules
+bu1E.00	DIPYRIDAMOLE 50mg/5mL oral suspension
+bu1D.00	PERSANTIN RETARD 200mg m/r capsules
+bu1C.00	DIPYRIDAMOLE 200mg m/r capsules
+bu1B.00	*MODAPLATE 25mg tablets
+bu1A.00	*MODAPLATE 100mg tablets
+bu19.00	*CEREBROVASE 100mg tablets
+bu18.00	*CEREBROVASE 25mg tablets
+bu17.00	*VASYROL 100mg tablets
+bu16.00	*VASYROL 25mg tablets
+bu15.00	DIPYRIDAMOLE 100mg tablets
+bu14.00	DIPYRIDAMOLE 25mg tablets
+bu13.00	PERSANTIN 10mg/2mL injection
+bu12.00	PERSANTIN 100mg tablets
+bu11.00	*PERSANTIN 25mg tablets
+bu4..00	DIPYRIDAMOLE+ASPIRIN
+bu43.00	MOLITA 200mg/25mg m/r capsules
+bu42.00	ASASANTIN RETARD m/r capsules
+bu41.00	DIPYRIDAMOLE+ASPIRIN 200mg/25mg m/r capsules

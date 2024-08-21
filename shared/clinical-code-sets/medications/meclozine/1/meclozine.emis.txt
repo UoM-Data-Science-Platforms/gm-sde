@@ -1,0 +1,66 @@
+^ESCT1181436	Product containing only meclozine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181437	Product containing only meclizine hydrochloride 50 mg/1 each oral tablet
+^ESCT1181609	Product containing only meclizine hydrochloride 30 mg/1 each oral tablet
+^ESCT1181610	Product containing only meclozine hydrochloride 30 mg/1 each oral tablet
+^ESCT1181675	Product containing only meclozine hydrochloride 12.5 mg/1 each oral tablet
+^ESCT1181676	Product containing only meclizine hydrochloride 12.5 mg/1 each oral tablet
+^ESCT1181677	Product containing only meclizine hydrochloride 25 mg/1 each oral tablet
+^ESCT1181722	Product containing only meclozine hydrochloride 25 mg/1 each oral tablet
+^ESCT1220145	Meclozine
+^ESCT1220146	Meclizine product
+^ESCT1220147	Meclozine product
+^ESCT1227988	Product containing precisely meclozine hydrochloride 12.5 milligram/1 each conventional release oral tablet
+^ESCT1227989	Product containing precisely meclozine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1227990	Product containing precisely meclozine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1228423	Product containing precisely meclozine hydrochloride 30 milligram/1 each conventional release oral tablet
+^ESCT1351533	Meclozine-containing product in oral dose form
+^ESCT1351534	Meclizine-containing product in oral dose form
+^ESCT1355771	Meclozine only product
+^ESCT1355772	Meclizine only product
+^ESCT1359104	Meclozine only product in oral dose form
+^ESCT1359105	Meclizine only product in oral dose form
+^ESCT1364293	Meclozine hydrochloride 12.5 mg oromucosal lozenge
+^ESCT1364294	Meclizine hydrochloride 12.5 mg oromucosal lozenge
+^ESCT1364938	Meclozine-containing product in oromucosal dose form
+^ESCT1364939	Meclizine-containing product in oromucosal dose form
+^ESCT1365727	Meclozine only product in oromucosal dose form
+^ESCT1365728	Meclizine only product in oromucosal dose form
+^ESCTME388170	Meclozine
+^ESCTME388171	Meclizine
+^ESCTME639373	Meclozine hydrochloride 12.5mg tablet
+^ESCTME639376	Meclizine hydrochloride 12.5 mg oral tablet
+^ESCTME639377	Meclozine hydrochloride 12.5 mg oral tablet
+^ESCTME639378	Meclizine hydrochloride 25mg tablet
+^ESCTME639381	Meclozine hydrochloride 25 mg oral tablet
+^ESCTME639382	Meclizine hydrochloride 25 mg oral tablet
+^ESCTME639383	Meclizine hydrochloride 50mg tablet
+^ESCTME639386	Meclozine hydrochloride 50 mg oral tablet
+^ESCTME639387	Meclizine hydrochloride 50 mg oral tablet
+^ESCTME640509	Meclizine hydrochloride 30mg tablet
+^ESCTME640512	Meclozine hydrochloride 30 mg oral tablet
+^ESCTME640513	Meclizine hydrochloride 30 mg oral tablet
+^ESCTME675535	Meclozine 12.5mg pastille
+^ESCTME869671	Meclozine 12.5mg tablets 12 tablet
+^ESCTME869824	Meclozine 12.5mg tablets
+^ESCTME903493	Meclozine 12.5mg pastilles sugar free 10 pastille
+^ESCTME903514	Meclozine 12.5mg pastilles sugar free
+^ESCTPR388172	Product containing meclozine
+^ESCTPR388173	Product containing meclizine
+^ESCTPR639374	Product containing meclizine hydrochloride 12.5 mg/1 each oral tablet
+^ESCTPR639375	Product containing meclozine hydrochloride 12.5 mg/1 each oral tablet
+^ESCTPR639379	Product containing meclizine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR639380	Product containing meclozine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR639384	Product containing meclizine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR639385	Product containing meclozine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR640510	Product containing meclizine hydrochloride 30 mg/1 each oral tablet
+^ESCTPR640511	Product containing meclozine hydrochloride 30 mg/1 each oral tablet
+^ESCTSE869674	Sea-Legs 12.5mg tablets (G.R. Lane Health Products Ltd)
+^ESCTSE869675	Sea-Legs 12.5mg tablets (G.R. Lane Health Products Ltd) 12 tablet
+^ESCTTR903494	Traveleeze Soft & Chewy pastilles (Ernest Jackson & Co. Ltd)
+^ESCTTR903495	Traveleeze Soft & Chewy pastilles (Ernest Jackson & Co. Ltd) 10 pastille
+^ESCTTR916840	Traveleeze
+ANTA170	Ancoloxin  Tablets
+MEPA78511NEMIS	Meclozine Hydrochloride  Pastilles Sugar Free  12.5 mg
+META15009NEMIS	Meclozine Hydrochloride  Tablets  12.5 mg
+SETA15011NEMIS	Sea-Legs  Tablets  12.5 mg
+TRPA78513NEMIS	Traveleeze Soft & Chewy  Pastilles  

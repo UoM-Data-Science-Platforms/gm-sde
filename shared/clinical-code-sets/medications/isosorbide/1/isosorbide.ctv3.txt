@@ -1,0 +1,225 @@
+bl3..	ISMO - isosorbide mononitrate
+x006y	Modified release isosorbide mononitrate
+bl3z.	Isosorbide mononitrate 20mg m/r tablet
+bl3y.	Isosorbide mononitrate 60mg m/r tablet
+blkN.	Monomil XL 60mg m/r tablet
+blkL.	Zemon XL 60mg m/r tablet
+blkK.	Carmil XL 60mg m/r tablet
+blkJ.	Trangina XL 60mg m/r tablet
+blkH.	Monigen XL 60mg m/r tablet
+blkF.	Eumon 60 XL m/r tablet
+blkE.	Cibral XL 60mg m/r tablet
+blkB.	Xismox XL 60 m/r tablet
+blkA.	Monomax XL 60mg m/r tablet
+blk9.	Monit XL 60 m/r tablet
+blk8.	Slomon XL 60 m/r tablet
+bl3b.	Imdur 60mg Durule
+bl3W.	Chemydur 60XL m/r tablet
+bl3V.	Monodur 60mg m/r tablet
+bl3U.	Monosorb XL 60 m/r tablet
+bl3T.	Isotard 60XL m/r tablet
+bl3S.	Modisal 60 XL m/r tablet
+bl3R.	Ketanodur 60mg m/r tablet
+bl3K.	Isib 60XL m/r tablet
+bl3u.	Isosorbide mononitrate 25mg m/r capsule
+blk6.	Isodur 25XL m/r capsule
+blk3.	Isotard 25XL m/r capsule
+bl3r.	Dynamin XL25 m/r capsule
+bl3o.	Modisal LA 25 m/r capsule
+bl3n.	Elantan LA 25 capsule
+bl3j.	Isosorbide mononitrate 40mg m/r tablet
+blkO.	Zemon 40XL 40mg m/r tablet
+bl3t.	Eumon 40 XL m/r tablet
+bl3k.	Monit SR 40mg m/r tablet
+bl3h.	Ismo Retard 40mg m/r tablet
+bl3X.	Isotard 40XL m/r tablet
+bl3d.	Isosorbide mononitrate 50mg m/r capsule
+x00Tf	MCR-50 m/r capsule
+bl3f.	Mono cedocard Retard 50mg tablets 28CP
+blkM.	Phasonit LA50 50mg m/r capsule
+blk7.	Isodur 50XL m/r capsule
+blk5.	Isib 50XL m/r capsule
+blk4.	Isotard 50XL m/r capsule
+bl3s.	Dynamin XL50 m/r capsule
+bl3q.	Modisal LA 50 m/r capsule
+bl3c.	Elantan LA 50 m/r capsule
+bl3Z.	Isosorbide mononitrate 50mg m/r tablet
+blk2.	Isotard 50XL m/r tablet
+bl3Y.	Isosorbide mononitrate 25mg m/r tablet
+blk1.	Isotard 25XL m/r tablet
+bl3M.	Isosorbide mononitrate 40mg m/r capsule
+bl3Q.	Angeze SR 40 m/r capsule
+bl3P.	Monomax SR 40 m/r capsule
+bl3L.	Isosorbide mononitrate 60mg m/r capsule
+bl3O.	Angeze SR 60 m/r capsule
+bl3N.	Monomax SR 60 m/r capsule
+blk..	Isosorbide mononitrate 2
+blkR.	CARMIL 40mg tablets
+blkQ.	CARMIL 20mg tablets
+blkP.	TARDISC XL 60mg m/r tablets
+bl3x.	Isosorbide mononitrate 40mg tablet
+blkG.	Cibral 40mg tablet
+bl3m.	Isib 40mg tablet
+bl3a.	Ismo 40 tablet
+bl3H.	Isotrate 40mg tablet
+bl3F.	Angeze 40mg tablet
+bl3C.	Angitate 40mg tablet
+bl38.	Mono-Cedocard 40mg tablet
+bl32.	Elantan 40mg tablet
+bl3w.	Isosorbide mononitrate 20mg tablet
+blkD.	Cibral 20mg tablet
+bl3l.	Isib 20mg tablet
+bl3g.	Isotrate 20mg tablet
+bl3J.	Dynamin 20mg tablet
+bl3E.	Angeze 20mg tablet
+bl3B.	Angitate 20mg tablet
+bl37.	Mono-Cedocard 20mg tablet
+bl35.	Monit 20mg tablet
+bl33.	Ismo 20 tablet
+bl31.	Elantan 20mg tablet
+bl3v.	Isosorbide mononitrate 10mg tablet
+blkC.	Cibral 10mg tablet
+bl3i.	Mono-Cedocard 10mg tablet
+bl3e.	Elantan 10 tablet
+bl3I.	Dynamin 10mg tablet
+bl3G.	Isotrate 10mg tablet
+bl3D.	Angeze 10mg tablet
+bl3A.	Angitate 10mg tablet
+bl39.	Ismo 10 tablet
+bl36.	Monit LS 10mg tablet
+bl3p.	Isosorbide mononitrate 10mg+20mg tablet starter pack
+bl34.	Ismo tablet starter pack
+blm..	Isosorbide mononitrate+aspirin
+blmz.	Isosorbide mononitrate+aspirin 60mg/75mg m/r tablet
+blm1.	IMAZIN XL 60mg/75mg m/r tablet
+blmy.	Isosorbide mononitrate+aspirin 60mg/150mg m/r tablet
+blm2.	IMAZIN XL forte 60mg/150mg m/r tablet
+bly..	Isosorbide dinitrate [generic additions]
+bly1.	Isosorbide dinitrate 5mg sublingual tablet
+bl27.	Isordil 5mg sublingual tablet
+bl21.	Cedocard-5 sublingual tablet
+bly2.	Isosorbide dinitrate 10mg tablet
+bl2z.	Jeridin 10mg tablet
+bl2d.	Vascardin 10mg tablet
+bl2b.	Sorbitrate 10mg tablet
+bl28.	Isordil 10mg tablet
+bl25.	Isoket 10mg tablet
+bl22.	Cedocard-10 tablet
+bly3.	Isosorbide dinitrate 20mg tablet
+bl2y.	Jeridin 20mg tablet
+bl2c.	Sorbitrate 20mg tablet
+bl26.	Isoket 20mg tablet
+bl23.	Cedocard-20 tablet
+bly4.	Isosorbide dinitrate 30mg tablet
+bl2e.	Vascardin 30mg tablet
+bl29.	Isordil 30mg tablet
+bly5.	Isosorbide dinitrate 20mg m/r tablet
+bl2g.	Isoket Retard 20 m/r tablet
+bl2f.	Cedocard Retard 20mg m/r tablet
+bly6.	Isosorbide dinitrate 20mg m/r capsule
+bl2t.	Isoket Retard 20 m/r capsule
+bl2r.	Sorbid-20 SA m/r capsule
+bl2i.	Soni-Slo 20mg m/r capsule
+bly7.	Isosorbide dinitrate 40mg m/r capsule
+bl2k.	Sorbid-40 SA m/r capsule
+bl2j.	Soni-Slo 40mg m/r capsule
+bl2h.	Isordil Tembids 40mg m/r capsule
+bly8.	Isosorbide dinitrate 5mg chewable tablet
+bl2a.	Sorbichew 5mg chewable tablet
+bly9.	Isosorbide dinitrate 40mg tablet
+bl2s.	Cedocard-40 tablet
+blya.	Isosorbide dinitrate 25mg/50mL injection
+bl2v.	Isoket 0.05% 25mg/50mL injection
+blyb.	Isosorbide dinitrate 1.25mg spray
+bl2x.	Imtack 1.25mg spray
+bl2B.	Angitak 1.25mg spray
+blyc.	Isosorbide dinitrate 30mg transdermal spray
+bl2A.	Isocard 30mg transdermal spray
+blyw.	Isosorbide dinitrate 40mg m/r tablet
+bl2w.	Cedocard Retard 40mg m/r tablet
+bl2u.	Isoket Retard 40 m/r tablet
+blyx.	Isosorbide dinitrate 10mg/10mL injection
+bl2o.	Isoket 0.1% 10mg/10mL injection
+bl2l.	Cedocard IV 10mg/10mL injection
+blyy.	Isosorbide dinitrate 50mg/50mL injection
+bl2p.	Isoket 0.1% 50mg/50mL injection
+bl2m.	Cedocard IV 50mg/50mL injection
+blyz.	Isosorbide dinitrate 100mg/100mL injection
+bl2q.	Isoket 0.1% 100mg/100mL injection
+bl2n.	Cedocard IV 100mg/100mL injection
+x006v	Modified release isosorbide dinitrate
+x006w	Parenteral isosorbide dinitrate
+x01RD	Oral isosorbide dinitrate
+bl24.	Isoket 5mg tablet
+x03qm	Transdermal isosorbide dinitrate
+x02RM	Isordil
+x02RN	Isordil Tembids
+x02Qm	Angeze
+x046c	Angeze SR 40
+x046d	Angeze SR 60
+x05Ja	Cibral
+x05Jb	Cibral XL
+x02Qo	Elantan
+x02Qp	Elantan LA
+x03x7	Elantan 10
+x03x8	Elantan LA 25
+x03x9	Elantan LA 50
+x02Qn	Dynamin
+x02Qv	Monit
+x02Qw	Monit LS
+x02Qx	Monit SR
+x058v	Monit XL 60
+x02Qs	Ismo
+x02Qt	Ismo Retard
+x045J	Ismo 10
+x045K	Ismo 20
+x045L	Ismo 40
+x055Z	Isodur 25XL
+x055a	Isodur 50XL
+x03jk	Modisal
+x03sn	Modisal 60 XL
+x04wj	Modisal LA 25
+x04wk	Modisal LA 50
+x05qU	Phasonit LA50
+x04qv	Chemydur 60XL
+x02RK	Isoket
+x02RL	Isoket Retard
+x045M	Isoket Retard 20
+x045N	Isoket Retard 40
+x04xa	IMAZIN XL
+x04xb	IMAZIN XL forte
+x05lp	Carmil XL
+x05lm	Eumon
+x05l9	Trangina XL
+x05pJ	Zemon XL
+x05vD	Zemon 40XL
+x04on	Monosorb XL 60
+x02RO	Jeridin
+x02RJ	Imtack
+x02Qy	Mono-Cedocard
+x02Qz	MCR (Mono-Cedocard Retard)
+x02RH	Cedocard
+x02RI	Cedocard Retard
+x03qn	Isocard
+x02Qr	Isib
+x045I	Isib 60XL
+x04xZ	Isib 50XL
+x05bz	Monigen XL
+x05rr	Monomil XL
+x057M	Slomon XL 60
+x02RQ	Sorbichew
+x02RS	Sorbitrate
+x04yo	Angitak
+x03cc	Monomax SR
+x03sr	Monomax SR 40
+x03ss	Monomax SR 60
+x05Ds	Monomax XL
+x04os	Monodur
+x03kX	Isotard
+x045Z	Isotard 60XL
+x04r3	Isotard 40XL
+x04tk	Isotard 25XL
+x04tl	Isotard 50XL
+x02Qq	Imdur
+x02Qu	Isotrate
+x03er	Ketanodur

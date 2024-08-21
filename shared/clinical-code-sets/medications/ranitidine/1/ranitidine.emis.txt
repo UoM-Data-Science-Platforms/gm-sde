@@ -1,0 +1,717 @@
+^ESCT1174813	Ranitidine 150mg/5ml oral solution sugar free 150 ml
+^ESCT1174814	Ranitidine 150mg/5ml oral solution sugar free (Creo Pharma Ltd)
+^ESCT1174815	Ranitidine 150mg/5ml oral solution sugar free (Creo Pharma Ltd) 150 ml
+^ESCT1174963	Ranitidine 150mg/5ml oral solution sugar free
+^ESCT1175487	Ranitidine 150mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1175488	Ranitidine 150mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCT1175881	Gavilast Heartburn and Indigestion 75mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCT1175882	Gavilast Heartburn and Indigestion 75mg tablets (Reckitt Benckiser Healthcare (UK) Ltd) 12 tablet 2 x 6 tablets
+^ESCT1176120	Ranitidine 150mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1176121	Ranitidine 150mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCT1176240	Ranitidine 70mg/5ml oral suspension 100 ml
+^ESCT1176241	Ranitidine 70mg/5ml oral suspension (Special Order) 100 ml
+^ESCT1177866	Product containing only ranitidine bismuth citrate 400 mg/1 each oral tablet
+^ESCT1178054	Product containing only ranitidine 300 mg/1 each oral tablet
+^ESCT1178545	Product containing only ranitidine 75 mg/1 each oral tablet
+^ESCT1179504	Ranitidine 150mg tablets (Mylan) 60 tablet 2 x 30 tablets
+^ESCT1185605	Ranitidine 300mg tablets (Mylan) 30 tablet 2 x 15 tablets
+^ESCT1187165	Product containing only ranitidine 150 mg/1 each oral tablet
+^ESCT1189243	Ranitidine 150mg tablets (Mylan)
+^ESCT1189257	Ranitidine 300mg tablets (Mylan)
+^ESCT1208686	Ranitidine (as ranitidine hydrochloride) 15 mg/mL oral solution
+^ESCT1208687	Product containing precisely ranitidine (as ranitidine hydrochloride) 15 milligram/1 milliliter conventional release oral solution
+^ESCT1210078	Ranitidine (as ranitidine hydrochloride) 50 mg/2 mL solution for injection ampoule
+^ESCT1210079	Product containing precisely ranitidine (as ranitidine hydrochloride) 50 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1210080	Ranitidine (as ranitidine hydrochloride) 50 mg/2 mL solution for injection ampule
+^ESCT1212249	Ranitidine 75mg/5ml oral solution sugar free
+^ESCT1214984	Ranitidine 50mg/2ml solution for injection ampoules
+^ESCT1215154	Ranitidine 75mg tablets (Herbal Concepts Ltd)
+^ESCT1215155	Ranitidine 150mg tablets (Ennogen Pharma Ltd)
+^ESCT1215156	Ranitidine 75mg tablets (Herbal Concepts Ltd) 12 tablet
+^ESCT1215157	Ranitidine 150mg tablets (Ennogen Pharma Ltd) 60 tablet
+^ESCT1215158	Ranitidine 300mg tablets (Ennogen Pharma Ltd)
+^ESCT1215161	Ranitidine 300mg tablets (Ennogen Pharma Ltd) 30 tablet
+^ESCT1218475	Ranitidine
+^ESCT1218476	Ranitidine product
+^ESCT1220985	Ranitidine bismuth citrate
+^ESCT1220986	Ranitidine bismuth citrate product
+^ESCT1222547	Ranitidine (as ranitidine hydrochloride) 150 mg effervescent oral tablet
+^ESCT1222548	Product containing precisely ranitidine (as ranitidine hydrochloride) 150 milligram/1 each conventional release effervescent oral tablet
+^ESCT1222549	Product containing precisely ranitidine (as ranitidine hydrochloride) 300 milligram/1 each conventional release effervescent oral tablet
+^ESCT1222550	Ranitidine (as ranitidine hydrochloride) 300 mg effervescent oral tablet
+^ESCT1222551	Product containing precisely ranitidine (as ranitidine hydrochloride) 150 milligram/1 each conventional release oral tablet
+^ESCT1222552	Ranitidine (as ranitidine hydrochloride) 150 mg oral tablet
+^ESCT1222553	Product containing precisely ranitidine (as ranitidine hydrochloride) 300 milligram/1 each conventional release oral tablet
+^ESCT1222554	Ranitidine (as ranitidine hydrochloride) 300 mg oral tablet
+^ESCT1222585	Product containing precisely ranitidine bismuth citrate 400 milligram/1 each conventional release oral tablet
+^ESCT1227203	Ranitidine (as ranitidine hydrochloride) 75 mg oral tablet
+^ESCT1227204	Product containing precisely ranitidine (as ranitidine hydrochloride) 75 milligram/1 each conventional release oral tablet
+^ESCT1237535	Ranitidine 300mg tablets (Zanza Specials International Ltd)
+^ESCT1237536	Ranitidine 300mg tablets (Zanza Specials International Ltd) 30 tablet 2 x 15 tablets
+^ESCT1237537	Ranitidine 150mg tablets (Zanza Specials International Ltd)
+^ESCT1237538	Ranitidine 150mg tablets (Zanza Specials International Ltd) 60 tablet 4 x 15 tablets
+^ESCT1250338	Ranitidine 50mg/2ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250339	Ranitidine 50mg/2ml solution for injection ampoules (Advanz Pharma) 5 ampoule
+^ESCT1250595	Ranitidine 75mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250596	Ranitidine 75mg/5ml oral solution sugar free (Advanz Pharma) 300 ml
+^ESCT1255660	Ranitidine 37.5mg/5ml oral solution 1 ml
+^ESCT1255661	Ranitidine 37.5mg/5ml oral solution (Special Order)
+^ESCT1255662	Ranitidine 37.5mg/5ml oral solution (Special Order) 1 ml
+^ESCT1255779	Ranitidine 37.5mg/5ml oral solution
+^ESCT1257478	Ranitidine 150mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257483	Ranitidine 150mg tablets (Noumed Life Sciences Ltd) 60 tablet 6 x 10 tablets
+^ESCT1257488	Ranitidine 300mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257493	Ranitidine 300mg tablets (Noumed Life Sciences Ltd) 30 tablet 3 x 10 tablets
+^ESCT1259695	Ranitidine 150mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1259696	Ranitidine 150mg tablets (Flamingo Pharma (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCT1259697	Ranitidine 300mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1259698	Ranitidine 300mg tablets (Flamingo Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1259699	Ranitidine 75mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1259700	Ranitidine 75mg tablets (Flamingo Pharma (UK) Ltd) 12 tablet 2 x 6 tablets
+^ESCT1260091	Ranitidine 150mg tablets (Relonchem Ltd)
+^ESCT1260092	Ranitidine 150mg tablets (Relonchem Ltd) 60 tablet
+^ESCT1260093	Ranitidine 300mg tablets (Relonchem Ltd)
+^ESCT1260094	Ranitidine 300mg tablets (Relonchem Ltd) 30 tablet
+^ESCT1264710	Ranitidine 150mg effervescent tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264711	Ranitidine 150mg effervescent tablets (Mawdsley-Brooks & Company Ltd) 60 tablet 4 x 15 tablets
+^ESCT1264712	Ranitidine 300mg effervescent tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264713	Ranitidine 300mg effervescent tablets (Mawdsley-Brooks & Company Ltd) 30 tablet 2 x 15 tablets
+^ESCT1265819	Ranitidine 75mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1265820	Ranitidine 75mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd) 300 ml
+^ESCT1275547	Ranitidine 150mg effervescent tablets (DE Pharmaceuticals)
+^ESCT1275548	Ranitidine 150mg effervescent tablets (DE Pharmaceuticals) 60 tablet 4 x 15 tablets
+^ESCT1275549	Ranitidine 300mg effervescent tablets (DE Pharmaceuticals)
+^ESCT1275550	Ranitidine 300mg effervescent tablets (DE Pharmaceuticals) 30 tablet 2 x 15 tablets
+^ESCT1275551	Ranitidine 75mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1275552	Ranitidine 75mg/5ml oral solution sugar free (DE Pharmaceuticals) 100 ml
+^ESCT1275553	Ranitidine 75mg/5ml oral solution sugar free (DE Pharmaceuticals) 300 ml
+^ESCT1279011	Ranitidine 150mg/5ml oral solution sugar free (Zentiva)
+^ESCT1279012	Ranitidine 150mg/5ml oral solution sugar free (Zentiva) 150 ml
+^ESCT1279413	Ranitidine 75mg tablets (Noumed Life Sciences Ltd)
+^ESCT1279414	Ranitidine 75mg tablets (Noumed Life Sciences Ltd) 12 tablet 2 x 6 tablets
+^ESCT1356584	Ranitidine only product
+^ESCT1359724	Ranitidine only product in oral dose form
+^ESCT1359725	Ranitidine only product in parenteral dose form
+^ESCT1361275	Ranitidine (as ranitidine hydrochloride) 25 mg/mL solution for injection
+^ESCT1370627	Ranitidine bismuth citrate
+^ESCT1381272	Ranitidine-containing product in oral dose form
+^ESCT1381273	Ranitidine-containing product in parenteral dose form
+^ESCT1382482	Ranitidine (as ranitidine hydrochloride) 75 mg effervescent oral tablet
+^ESCT1382621	Ranitidine (as ranitidine hydrochloride) 25 mg effervescent oral tablet
+^ESCT1402101	Ranitidine 75mg/5ml oral solution sugar free
+^ESCT1403721	Ranitidine 150mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403722	Ranitidine 150mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1403789	Ranitidine 300mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403790	Ranitidine 300mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1410311	Zantac 75 Dissolve tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410312	Zantac 75 Dissolve tablets (GlaxoSmithKline Consumer Healthcare UK Ltd) 24 tablet 2 x 12 tablets
+^ESCT1422241	Ranitidine 150mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422242	Ranitidine 150mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1422247	Ranitidine 300mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422248	Ranitidine 300mg tablets (Zentiva Pharma UK Ltd) 30 tablet
+^ESCT1422844	Ranitidine 150mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1422845	Ranitidine 150mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd) 150 ml
+^ESCT1425614	Ranitidine 150mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425722	Ranitidine 300mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425771	Ranitidine 300mg effervescent tablets (Kent Pharma (UK) Ltd)
+^ESCT1425891	Ranitidine 150mg effervescent tablets (Kent Pharma (UK) Ltd)
+^ESCT1426015	Ranitidine 150mg tablets (Kent Pharma (UK) Ltd) 60 tablet 4 x 15 tablets
+^ESCT1426016	Ranitidine 300mg tablets (Kent Pharma (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCT1426295	Ranitidine 300mg effervescent tablets (Kent Pharma (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCT1426493	Ranitidine 150mg effervescent tablets (Kent Pharma (UK) Ltd) 60 tablet 4 x 15 tablets
+^ESCT1427547	Ranitidine 75mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427548	Ranitidine 75mg tablets (Kent Pharma (UK) Ltd) 12 tablet
+^ESCT1436811	Ranitidine 150mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436879	Ranitidine 300mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437177	Ranitidine 150mg tablets (Viatris UK Healthcare Ltd) 60 tablet 2 x 30 tablets
+^ESCT1437178	Ranitidine 300mg tablets (Viatris UK Healthcare Ltd) 30 tablet 2 x 15 tablets
+^ESCTAL642487	Alcohol+ranitidine hydrochloride 7.5%vv/16.8mg syrup
+^ESCTBO1128353	Boots Heartburn Relief 75mg tablets (The Boots Company Plc)
+^ESCTBO1128354	Boots Heartburn Relief 75mg tablets (The Boots Company Plc) 12 tablet
+^ESCTGA877620	Gavilast 75mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTGA877621	Gavilast 75mg tablets (Reckitt Benckiser Healthcare (UK) Ltd) 6 tablet
+^ESCTGA877622	Gavilast 75mg tablets (Reckitt Benckiser Healthcare (UK) Ltd) 12 tablet 2 x 6 tablets
+^ESCTGA877623	Gavilast-P 75mg tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTGA877624	Gavilast-P 75mg tablets (Reckitt Benckiser Healthcare (UK) Ltd) 24 tablet 4 x 6 tablets
+^ESCTGA898043	Gavilast 75mg tablets (Reckitt Benckiser Healthcare (UK) Ltd) 48 tablet 8 x 6 tablets
+^ESCTGA919238	Gavilast
+^ESCTHI805234	Histac 150mg tablets (Ranbaxy (UK) Ltd)
+^ESCTHI821129	Histac 300mg tablets (Ranbaxy (UK) Ltd)
+^ESCTHI849652	Histac 150mg tablets (Ranbaxy (UK) Ltd) 60 tablet 2 x 30 tablets
+^ESCTHI849670	Histac 300mg tablets (Ranbaxy (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCTHI918849	Histac
+^ESCTLL1018622	Lloydspharmacy Heartburn & Indigestion Relief tablets (Lloyds Pharmacy Ltd)
+^ESCTLL1018623	Lloydspharmacy Heartburn & Indigestion Relief tablets (Lloyds Pharmacy Ltd) 12 tablet 2 x 6 tablets
+^ESCTLL901681	Lloydspharmacy Indigestion Relief 75mg tablets (Lloyds Pharmacy Ltd)
+^ESCTLL901689	Lloydspharmacy Indigestion Relief 75mg tablets (Lloyds Pharmacy Ltd) 12 tablet 2 x 6 tablets
+^ESCTLL901690	Lloydspharmacy Ranitidine Indigestion Relief and Prevention 75mg tablets (Lloyds Pharmacy Ltd)
+^ESCTLL901691	Lloydspharmacy Ranitidine Indigestion Relief and Prevention 75mg tablets (Lloyds Pharmacy Ltd) 24 tablet 4 x 6 tablets
+^ESCTLL965337	Lloydspharmacy Indigestion Relief 75mg tablets (Lloyds Pharmacy Ltd) 24 tablet 4 x 6 tablets
+^ESCTPR327950	Product containing ranitidine
+^ESCTPR415625	Product containing ranitidine bismuth citrate
+^ESCTPR606222	Product containing ranitidine 150 mg/1 each oral tablet
+^ESCTPR606225	Product containing ranitidine 300 mg/1 each oral tablet
+^ESCTPR606294	Product containing ranitidine bismuth citrate 400 mg/1 each oral tablet
+^ESCTPR618858	Product containing ranitidine in oral dosage form
+^ESCTPR618860	Product containing ranitidine in parenteral dosage form
+^ESCTPR619917	Product containing ranitidine 75 mg/1 each oral tablet
+^ESCTPY820958	Pylorid 400mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTPY853598	Pylorid 400mg tablets (GlaxoSmithKline UK Ltd) 14 tablet
+^ESCTPY915829	Pylorid
+^ESCTRA1005954	Ranitidine 150mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRA1005955	Ranitidine 150mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTRA1005956	Ranitidine 300mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRA1005957	Ranitidine 300mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTRA1006333	Ranitidine 75mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+^ESCTRA1006335	Ranitidine 75mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd) 300 ml
+^ESCTRA1006894	Ranitidine 150mg effervescent tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRA1006895	Ranitidine 150mg effervescent tablets (Phoenix Healthcare Distribution Ltd) 60 tablet 4 x 15 tablets
+^ESCTRA1006896	Ranitidine 300mg effervescent tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRA1006897	Ranitidine 300mg effervescent tablets (Phoenix Healthcare Distribution Ltd) 30 tablet 2 x 15 tablets
+^ESCTRA1010924	Ranitidine 150mg tablets (Accord Healthcare Ltd)
+^ESCTRA1010925	Ranitidine 150mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTRA1010926	Ranitidine 300mg tablets (Accord Healthcare Ltd)
+^ESCTRA1010927	Ranitidine 300mg tablets (Accord Healthcare Ltd) 30 tablet
+^ESCTRA1017841	Ranitidine 150mg tablets (Milpharm Ltd)
+^ESCTRA1017842	Ranitidine 150mg tablets (Milpharm Ltd) 60 tablet
+^ESCTRA1017845	Ranitidine 300mg tablets (Milpharm Ltd)
+^ESCTRA1017846	Ranitidine 300mg tablets (Milpharm Ltd) 30 tablet
+^ESCTRA1023603	Ranitidine 75mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTRA1023604	Ranitidine 75mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd) 300 ml
+^ESCTRA1036760	Ranitidine 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRA1036761	Ranitidine 75mg tablets (Sigma Pharmaceuticals Plc) 12 tablet
+^ESCTRA1037167	Ranitidine 5mg/5ml oral solution 100 ml
+^ESCTRA1037168	Ranitidine 5mg/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTRA1037169	Ranitidine 5mg/5ml oral suspension 100 ml
+^ESCTRA1037170	Ranitidine 5mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTRA1038075	Ranitidine 150mg tablets (Medreich Plc)
+^ESCTRA1038076	Ranitidine 150mg tablets (Medreich Plc) 60 tablet
+^ESCTRA1038077	Ranitidine 300mg tablets (Medreich Plc)
+^ESCTRA1038078	Ranitidine 300mg tablets (Medreich Plc) 30 tablet
+^ESCTRA1038107	Ranitidine 75mg tablets (Medreich Plc)
+^ESCTRA1038108	Ranitidine 75mg tablets (Medreich Plc) 12 tablet
+^ESCTRA1038964	Ranitidine 50mg/50ml infusion bags
+^ESCTRA1038965	Ranitidine 50mg/50ml infusion bags 1 bag
+^ESCTRA1038966	Ranitidine 50mg/50ml infusion bags 20 bag
+^ESCTRA1038967	Ranitidine 50mg/50ml infusion bags 50 bag
+^ESCTRA1038968	Ranitidine 50mg/50ml infusion bags (Special Order)
+^ESCTRA1038969	Ranitidine 50mg/50ml infusion bags (Special Order) 1 bag
+^ESCTRA1038970	Ranitidine 50mg/50ml infusion bags (Special Order) 20 bag
+^ESCTRA1038971	Ranitidine 50mg/50ml infusion bags (Special Order) 50 bag
+^ESCTRA1040994	Ranitidine 50mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTRA1040995	Ranitidine 50mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTRA1042040	Ranitidine 75mg tablets (Cubic Pharmaceuticals Ltd)
+^ESCTRA1042042	Ranitidine 75mg tablets (Cubic Pharmaceuticals Ltd) 12 tablet
+^ESCTRA1042366	Ranitidine 150mg tablets (Waymade Healthcare Plc)
+^ESCTRA1042367	Ranitidine 150mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTRA1042368	Ranitidine 300mg tablets (Waymade Healthcare Plc)
+^ESCTRA1042369	Ranitidine 300mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTRA1045496	Ranitidine 75mg tablets (MedRx Developments Ltd)
+^ESCTRA1045497	Ranitidine 75mg tablets (MedRx Developments Ltd) 12 tablet
+^ESCTRA1049050	Ranitidine 75mg tablets (Colorama Pharmaceuticals Ltd)
+^ESCTRA1049051	Ranitidine 75mg tablets (Colorama Pharmaceuticals Ltd) 12 tablet
+^ESCTRA1049703	Ranitidine 75mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRA1049704	Ranitidine 75mg tablets (A A H Pharmaceuticals Ltd) 12 tablet
+^ESCTRA1053864	Ranitidine 75mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTRA1054812	Ranitidine 75mg tablets (J M McGill Ltd)
+^ESCTRA1054813	Ranitidine 75mg tablets (J M McGill Ltd) 12 tablet
+^ESCTRA1058468	Ranitidine 150mg effervescent tablets (Teva UK Ltd)
+^ESCTRA1058469	Ranitidine 150mg effervescent tablets (Teva UK Ltd) 60 tablet 4 x 15 tablets
+^ESCTRA1058470	Ranitidine 300mg effervescent tablets (Teva UK Ltd)
+^ESCTRA1058471	Ranitidine 300mg effervescent tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTRA1061805	Ranitidine 75mg tablets (Niche Pharma Ltd)
+^ESCTRA1061807	Ranitidine 75mg tablets (Niche Pharma Ltd) 12 tablet
+^ESCTRA1062141	Ranitidine 75mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTRA1063291	Ranitidine 75mg tablets (DE Pharmaceuticals)
+^ESCTRA1063292	Ranitidine 75mg tablets (DE Pharmaceuticals) 12 tablet
+^ESCTRA1067604	Ranitidine 75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRA1067605	Ranitidine 75mg tablets (Mawdsley-Brooks & Company Ltd) 12 tablet
+^ESCTRA1074625	Ranicalm 75mg tablets (Bristol Laboratories Ltd)
+^ESCTRA1074627	Ranicalm 75mg tablets (Bristol Laboratories Ltd) 12 tablet
+^ESCTRA1084959	Ranitidine 75mg tablets (Icarus Pharmaceuticals Ltd)
+^ESCTRA1084961	Ranitidine 75mg tablets (Icarus Pharmaceuticals Ltd) 12 tablet
+^ESCTRA1089373	Ranitidine 75mg tablets (Ennogen Healthcare Ltd)
+^ESCTRA1089374	Ranitidine 75mg tablets (Ennogen Healthcare Ltd) 12 tablet
+^ESCTRA1101635	Ranitidine 75mg tablets (Pharma-z Ltd)
+^ESCTRA1101636	Ranitidine 75mg tablets (Pharma-z Ltd) 12 tablet
+^ESCTRA1109857	Ranitidine 75mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTRA1109858	Ranitidine 75mg tablets (Kent Pharmaceuticals Ltd) 12 tablet
+^ESCTRA1119698	Ranitidine 150mg tablets (DE Pharmaceuticals)
+^ESCTRA1119699	Ranitidine 150mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTRA1119700	Ranitidine 300mg tablets (DE Pharmaceuticals)
+^ESCTRA1119701	Ranitidine 300mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTRA1142495	Ranitidine 75mg tablets (Bell,Sons & Co (Druggists) Ltd)
+^ESCTRA1142496	Ranitidine 75mg tablets (Bell,Sons & Co (Druggists) Ltd) 12 tablet
+^ESCTRA1146089	Ranitidine 6mg/5ml oral solution 1 ml
+^ESCTRA1146090	Ranitidine 6mg/5ml oral solution (Special Order)
+^ESCTRA1146091	Ranitidine 6mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA1146225	Ranitidine 6mg/5ml oral solution
+^ESCTRA1146431	Ranitidine 50mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA1146432	Ranitidine 50mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCTRA1162853	Ranitidine 1mg/5ml oral solution 1 ml
+^ESCTRA1162854	Ranitidine 1mg/5ml oral solution (Special Order)
+^ESCTRA1162855	Ranitidine 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA1162922	Ranitidine 1mg/5ml oral solution
+^ESCTRA327949	Ranitidine
+^ESCTRA415624	Ranitidine bismuth citrate
+^ESCTRA606215	Ranitidine 150mg effervescent tablets
+^ESCTRA606216	Ranitidine 150mg effervescent tablet
+^ESCTRA606217	Ranitidine 300mg effervescent tablets
+^ESCTRA606218	Ranitidine 300mg effervescent tablet
+^ESCTRA606219	Ranitidine 75mg/5ml oral solution sugar free
+^ESCTRA606220	Ranitidine 75mg/5mL syrup
+^ESCTRA606221	Ranitidine 150mg tablets
+^ESCTRA606223	Ranitidine 150 mg oral tablet
+^ESCTRA606224	Ranitidine 300mg tablets
+^ESCTRA606226	Ranitidine 300 mg oral tablet
+^ESCTRA606227	Ranitidine 50mg/2ml solution for injection ampoules
+^ESCTRA606228	Ranitidine 50mg/2mL injection
+^ESCTRA606229	Ranitidine 25mg/mL injection solution 2mL ampoule
+^ESCTRA606230	Ranitidine 25mg/mL injection solution 2mL ampule
+^ESCTRA606231	Ranitidine 50mg/2mL solution for injection ampoule
+^ESCTRA606293	Ranitidine bismuth citrate 400mg tablets
+^ESCTRA606295	Ranitidine bismuth citrate 400 mg oral tablet
+^ESCTRA618857	Ranitidine in oral dosage form
+^ESCTRA618859	Ranitidine in parenteral dosage form
+^ESCTRA619916	Ranitidine 75mg tablets
+^ESCTRA619918	Ranitidine 75 mg oral tablet
+^ESCTRA641612	Ranitidine hydrochloride 150mg gel capsule
+^ESCTRA641613	Ranitidine hydrochloride 300mg gel capsule
+^ESCTRA663908	Ranitidine hydrochloride 25mg/mL injection solution 6mL vial
+^ESCTRA664164	Ranitidine hydrochloride 50mg/50mL intravenous injection solution premixed 50mL bag
+^ESCTRA664165	Ranitidine hydrochloride 50mg/50mL injection
+^ESCTRA664204	Ranitidine hydrochloride 25mg/mL injection solution 40mL vial
+^ESCTRA664535	Ranitidine hydrochloride 25mg/mL injection solution 2mL vial
+^ESCTRA664536	Ranitidine hydrochloride 25mg/mL injection
+^ESCTRA675579	Ranitidine 75mg effervescent tablet
+^ESCTRA680446	Ranitidine 25mg effervescent tablet
+^ESCTRA802050	Ranitidine 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA803611	Ranitidine 150mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRA803884	Ranitidine 300mg effervescent tablets (A A H Pharmaceuticals Ltd)
+^ESCTRA803939	Ranitidine 150mg tablets (Teva UK Ltd)
+^ESCTRA804053	Ranitidine 150mg tablets (Sterwin Medicines)
+^ESCTRA804873	Ranitidine 150mg tablets (Mylan Ltd)
+^ESCTRA804992	Ranitidine 150mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTRA805114	Raciran 300 tablets (Opus Pharmaceuticals Ltd)
+^ESCTRA805154	Ranitidine 300mg tablets (The Boots Company Plc)
+^ESCTRA806814	Ranitidine 75mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTRA806939	Ranitidine 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRA807088	Rantec 300 tablets (Teva UK Ltd)
+^ESCTRA807866	Ranitidine 150mg tablets (Sandoz Ltd)
+^ESCTRA808045	Ranitidine 150mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA808548	Ranitidine 300mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRA809899	Ranitidine 300mg tablets (Actavis UK Ltd)
+^ESCTRA810162	Ranitidine 150mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTRA810221	Ranitidine 300mg tablets (Sterwin Medicines)
+^ESCTRA811166	Ranitidine 300mg tablets (Mylan Ltd)
+^ESCTRA812256	Ranitidine 300mg effervescent tablets (Sandoz Ltd)
+^ESCTRA813635	Ranitidine 150mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRA815187	Ranitidine 300mg tablets (Teva UK Ltd)
+^ESCTRA816409	Ranzac 75mg tablets (Boston Healthcare Ltd)
+^ESCTRA816678	Ranitidine 300mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTRA819832	Ranitidine 300mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTRA819935	Ranitidine 75mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA819968	Ranitidine 150mg effervescent tablets (A A H Pharmaceuticals Ltd)
+^ESCTRA820008	Ranitidine 150mg tablets (Actavis UK Ltd)
+^ESCTRA820757	Ranitidine 300mg effervescent tablets (Kent Pharmaceuticals Ltd)
+^ESCTRA820929	Ranitidine 150mg effervescent tablets (Actavis UK Ltd)
+^ESCTRA820933	Ranitidine 150mg effervescent tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA821175	Raciran 150 tablets (Opus Pharmaceuticals Ltd)
+^ESCTRA821182	Ranitil 150mg tablets (Tillomed Laboratories Ltd)
+^ESCTRA821255	Rantec 150 tablets (Teva UK Ltd)
+^ESCTRA822821	Ranitil 300mg tablets (Tillomed Laboratories Ltd)
+^ESCTRA823835	Ranitidine 300mg effervescent tablets (Actavis UK Ltd)
+^ESCTRA824260	Ranitidine 300mg tablets (Sandoz Ltd)
+^ESCTRA825020	Ranitic 300mg tablets (Tillomed Laboratories Ltd)
+^ESCTRA825597	Ranitidine 150mg tablets (The Boots Company Plc)
+^ESCTRA827230	Ranitic 150mg tablets (Tillomed Laboratories Ltd)
+^ESCTRA830310	Ranitidine 150mg effervescent tablets (Sandoz Ltd)
+^ESCTRA830325	Ranitidine 150mg effervescent tablets (Kent Pharmaceuticals Ltd)
+^ESCTRA833483	Ranitidine 75mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTRA833692	Ranitidine 300mg effervescent tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRA834334	Ranitidine 150mg effervescent tablets 60 tablet
+^ESCTRA834356	Ranitidine 150mg tablets 60 tablet
+^ESCTRA835366	Ranitidine 300mg effervescent tablets 30 tablet
+^ESCTRA841386	Ranitidine bismuth citrate 400mg tablets 14 tablet
+^ESCTRA846816	Ranitidine 50mg/2ml solution for injection ampoules 5 ampoule
+^ESCTRA847067	Ranitidine 75mg tablets 6 tablet
+^ESCTRA847707	Ranitidine 75mg tablets 24 tablet
+^ESCTRA847741	Ranitidine 300mg tablets 30 tablet
+^ESCTRA847869	Ranitidine 75mg/5ml oral solution sugar free 300 ml
+^ESCTRA847974	Ranitidine 75mg tablets 12 tablet
+^ESCTRA848023	Ranitidine 75mg tablets 48 tablet
+^ESCTRA849615	Ranitidine 150mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTRA849618	Ranitidine 150mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRA849627	Ranitidine 150mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRA849632	Rantec 150 tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRA849640	Ranitidine 150mg tablets (The Boots Company Plc) 60 tablet 2 x 30 tablets
+^ESCTRA849641	Ranitidine 150mg tablets (Mylan Ltd) 60 tablet 2 x 30 tablets
+^ESCTRA849643	Ranitidine 150mg tablets (IVAX Pharmaceuticals UK Ltd) 60 tablet 2 x 30 tablets
+^ESCTRA849644	Ranitidine 300mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTRA849645	Ranitidine 150mg tablets (Kent Pharmaceuticals Ltd) 60 tablet 4 x 15 tablets
+^ESCTRA849646	Ranitidine 150mg tablets (Sandoz Ltd) 60 tablet 6 x 10 tablets
+^ESCTRA849647	Ranitidine 300mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTRA849648	Ranitidine 300mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTRA849649	Raciran 150 tablets (Opus Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTRA849650	Rantec 300 tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTRA849651	Ranitidine 300mg tablets (The Boots Company Plc) 30 tablet 2 x 15 tablets
+^ESCTRA849653	Ranitidine 300mg tablets (Mylan Ltd) 30 tablet 2 x 15 tablets
+^ESCTRA849656	Ranitidine 300mg tablets (IVAX Pharmaceuticals UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTRA849658	Ranitidine 300mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTRA849660	Ranitidine 150mg tablets (Ranbaxy (UK) Ltd) 60 tablet 2 x 30 tablets
+^ESCTRA849661	Ranitidine 300mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTRA849664	Raciran 300 tablets (Opus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTRA849665	Ranitidine 150mg tablets (Sterwin Medicines) 60 tablet 2 x 30 tablets
+^ESCTRA849667	Ranitic 150mg tablets (Tillomed Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCTRA849669	Ranitidine 300mg tablets (Ranbaxy (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCTRA849671	Ranitil 150mg tablets (Tillomed Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCTRA849672	Ranitidine 300mg tablets (Sterwin Medicines) 30 tablet 2 x 15 tablets
+^ESCTRA849674	Ranitic 300mg tablets (Tillomed Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCTRA849675	Ranitidine 150mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet 2 x 30 tablets
+^ESCTRA849676	Ranitil 300mg tablets (Tillomed Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCTRA849677	Ranitidine 300mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 2 x 15 tablets
+^ESCTRA853621	Ranzac 75mg tablets (Boston Healthcare Ltd) 6 tablet
+^ESCTRA853641	Ranitidine 300mg effervescent tablets (A A H Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTRA853642	Ranitidine 300mg effervescent tablets (Actavis UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTRA853646	Ranitidine 300mg effervescent tablets (Kent Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTRA853648	Ranitidine 300mg effervescent tablets (Sandoz Ltd) 30 tablet 2 x 15 tablets
+^ESCTRA853649	Ranitidine 300mg effervescent tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 2 x 15 tablets
+^ESCTRA853942	Ranitidine 75mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 300 ml
+^ESCTRA853945	Ranitidine 75mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 300 ml
+^ESCTRA853946	Ranitidine 75mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 300 ml
+^ESCTRA856898	Ranitidine 150mg effervescent tablets (A A H Pharmaceuticals Ltd) 60 tablet 4 x 15 tablets
+^ESCTRA856899	Ranitidine 150mg effervescent tablets (Actavis UK Ltd) 60 tablet 4 x 15 tablets
+^ESCTRA856902	Ranitidine 150mg effervescent tablets (Kent Pharmaceuticals Ltd) 60 tablet 4 x 15 tablets
+^ESCTRA856904	Ranitidine 150mg effervescent tablets (Sandoz Ltd) 60 tablet 4 x 15 tablets
+^ESCTRA856905	Ranitidine 150mg effervescent tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet 4 x 15 tablets
+^ESCTRA860961	Ranitidine 150mg tablets (Mercury Pharma Group Ltd)
+^ESCTRA860963	Ranitidine 150mg tablets (Mercury Pharma Group Ltd) 60 tablet 6 x 10 tablets
+^ESCTRA860964	Ranitidine 300mg tablets (Mercury Pharma Group Ltd)
+^ESCTRA860965	Ranitidine 300mg tablets (Mercury Pharma Group Ltd) 30 tablet 3 x 10 tablets
+^ESCTRA869422	Ranitidine 75mg effervescent tablets sugar free 24 tablet
+^ESCTRA869423	Ranitidine 75mg effervescent tablets sugar free 12 tablet
+^ESCTRA869596	Ranitidine 75mg effervescent tablets sugar free
+^ESCTRA915857	Raciran
+^ESCTRA915875	Ranitic
+^ESCTRA915877	Ranitil
+^ESCTRA915881	Rantec
+^ESCTRA915885	Ranzac
+^ESCTRA915973	Ranitidine 50mg/2ml solution for injection ampoules (AMCo)
+^ESCTRA915975	Ranitidine 50mg/2ml solution for injection ampoules (AMCo) 5 ampoule
+^ESCTRA924238	Ranitidine 75mg tablets (Galpharm International Ltd)
+^ESCTRA924239	Ranitidine 75mg tablets (Galpharm International Ltd) 6 tablet
+^ESCTRA925879	Ranitidine 75mg tablets (Nucare Plc)
+^ESCTRA925880	Ranitidine 75mg tablets (Nucare Plc) 12 tablet
+^ESCTRA929071	Ranitidine 150mg tablets (Arrow Generics Ltd)
+^ESCTRA929072	Ranitidine 150mg tablets (Arrow Generics Ltd) 60 tablet
+^ESCTRA929073	Ranitidine 300mg tablets (Arrow Generics Ltd)
+^ESCTRA929074	Ranitidine 300mg tablets (Arrow Generics Ltd) 30 tablet
+^ESCTRA930662	Ranitidine 75mg/5ml oral solution sugar free (Orbis Consumer Products Ltd)
+^ESCTRA930663	Ranitidine 75mg/5ml oral solution sugar free (Orbis Consumer Products Ltd) 300 ml
+^ESCTRA937990	Ranzac 75mg tablets (Boston Healthcare Ltd) 12 tablet 2 x 6 tablets
+^ESCTRA941222	Ranitidine 150mg tablets (Zentiva)
+^ESCTRA941223	Ranitidine 150mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTRA941230	Ranitidine 75mg/5ml oral solution sugar free 100 ml
+^ESCTRA941231	Ranitidine 75mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 100 ml
+^ESCTRA947451	Ranicalm
+^ESCTRA951594	Ranitidine 75mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCTRA951599	Ranitidine 75mg/5ml oral solution sugar free (Teva UK Ltd) 300 ml
+^ESCTRA957494	Ranitidine 1.5mg/5ml oral suspension 1 ml
+^ESCTRA957495	Ranitidine 1.5mg/5ml oral suspension (Special Order)
+^ESCTRA957496	Ranitidine 1.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA957500	Ranitidine 1.5mg/5ml oral solution 1 ml
+^ESCTRA957501	Ranitidine 1.5mg/5ml oral solution (Special Order)
+^ESCTRA957502	Ranitidine 1.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA957507	Ranitidine 1.8mg/5ml oral suspension 1 ml
+^ESCTRA957510	Ranitidine 1.8mg/5ml oral suspension (Special Order)
+^ESCTRA957511	Ranitidine 1.8mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA957514	Ranitidine 1.8mg/5ml oral solution 1 ml
+^ESCTRA957517	Ranitidine 1.8mg/5ml oral solution (Special Order)
+^ESCTRA957520	Ranitidine 1.8mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA957523	Ranitidine 10mg/5ml oral suspension 1 ml
+^ESCTRA957525	Ranitidine 10mg/5ml oral suspension (Special Order)
+^ESCTRA957526	Ranitidine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA957529	Ranitidine 10mg/5ml oral solution 1 ml
+^ESCTRA957532	Ranitidine 10mg/5ml oral solution (Special Order)
+^ESCTRA957533	Ranitidine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA957545	Ranitidine 16mg/5ml oral suspension 1 ml
+^ESCTRA957546	Ranitidine 16mg/5ml oral suspension (Special Order)
+^ESCTRA957547	Ranitidine 16mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA957549	Ranitidine 16mg/5ml oral solution 1 ml
+^ESCTRA957550	Ranitidine 16mg/5ml oral solution (Special Order)
+^ESCTRA957551	Ranitidine 16mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA957692	Ranitidine 1.5mg/5ml oral solution
+^ESCTRA957693	Ranitidine 1.5mg/5ml oral suspension
+^ESCTRA957694	Ranitidine 1.8mg/5ml oral solution
+^ESCTRA957695	Ranitidine 1.8mg/5ml oral suspension
+^ESCTRA957696	Ranitidine 10mg/5ml oral solution
+^ESCTRA957697	Ranitidine 10mg/5ml oral suspension
+^ESCTRA957698	Ranitidine 16mg/5ml oral solution
+^ESCTRA957699	Ranitidine 16mg/5ml oral suspension
+^ESCTRA958249	Ranitidine 18mg/5ml oral suspension 1 ml
+^ESCTRA958251	Ranitidine 18mg/5ml oral suspension (Special Order)
+^ESCTRA958253	Ranitidine 18mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA958303	Ranitidine 18mg/5ml oral solution 1 ml
+^ESCTRA958307	Ranitidine 18mg/5ml oral solution (Special Order)
+^ESCTRA958321	Ranitidine 18mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA958337	Ranitidine 25mg/5ml oral suspension 1 ml
+^ESCTRA958338	Ranitidine 25mg/5ml oral suspension (Special Order)
+^ESCTRA958340	Ranitidine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA958342	Ranitidine 25mg/5ml oral solution 1 ml
+^ESCTRA958343	Ranitidine 25mg/5ml oral solution (Special Order)
+^ESCTRA958345	Ranitidine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA958347	Ranitidine 30mg/5ml oral suspension 1 ml
+^ESCTRA958353	Ranitidine 30mg/5ml oral suspension (Special Order)
+^ESCTRA958357	Ranitidine 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA958361	Ranitidine 30mg/5ml oral solution 1 ml
+^ESCTRA958363	Ranitidine 30mg/5ml oral solution (Special Order)
+^ESCTRA958367	Ranitidine 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA958371	Ranitidine 31mg/5ml oral suspension 1 ml
+^ESCTRA958373	Ranitidine 31mg/5ml oral suspension (Special Order)
+^ESCTRA958375	Ranitidine 31mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA958383	Ranitidine 31mg/5ml oral solution 1 ml
+^ESCTRA958385	Ranitidine 31mg/5ml oral solution (Special Order)
+^ESCTRA958387	Ranitidine 31mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA958395	Ranitidine 3mg/5ml oral suspension 1 ml
+^ESCTRA958397	Ranitidine 3mg/5ml oral suspension (Special Order)
+^ESCTRA958399	Ranitidine 3mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA958401	Ranitidine 3mg/5ml oral solution 1 ml
+^ESCTRA958403	Ranitidine 3mg/5ml oral solution (Special Order)
+^ESCTRA958405	Ranitidine 3mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA958413	Ranitidine 40mg/5ml oral suspension 1 ml
+^ESCTRA958415	Ranitidine 40mg/5ml oral suspension (Special Order)
+^ESCTRA958417	Ranitidine 40mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA958425	Ranitidine 40mg/5ml oral solution 1 ml
+^ESCTRA958427	Ranitidine 40mg/5ml oral solution (Special Order)
+^ESCTRA958429	Ranitidine 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA958431	Ranitidine 4mg/5ml oral suspension 1 ml
+^ESCTRA958433	Ranitidine 4mg/5ml oral suspension (Special Order)
+^ESCTRA958437	Ranitidine 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA958443	Ranitidine 4mg/5ml oral solution 1 ml
+^ESCTRA958447	Ranitidine 4mg/5ml oral solution (Special Order)
+^ESCTRA958451	Ranitidine 4mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA958455	Ranitidine 50mg/5ml oral suspension 1 ml
+^ESCTRA958459	Ranitidine 50mg/5ml oral suspension (Special Order)
+^ESCTRA958461	Ranitidine 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA958471	Ranitidine 50mg/5ml oral solution 1 ml
+^ESCTRA958475	Ranitidine 50mg/5ml oral solution (Special Order)
+^ESCTRA958477	Ranitidine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA958483	Ranitidine 5mg/5ml oral suspension 1 ml
+^ESCTRA958487	Ranitidine 5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTRA958489	Ranitidine 5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTRA958514	Ranitidine 5mg/5ml oral solution 1 ml
+^ESCTRA958516	Ranitidine 5mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTRA958518	Ranitidine 5mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTRA958526	Ranitidine 70mg/5ml oral suspension 1 ml
+^ESCTRA958527	Ranitidine 70mg/5ml oral suspension (Special Order)
+^ESCTRA958528	Ranitidine 70mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA958581	Ranitidine 18mg/5ml oral solution
+^ESCTRA958583	Ranitidine 18mg/5ml oral suspension
+^ESCTRA958585	Ranitidine 25mg/5ml oral solution
+^ESCTRA958587	Ranitidine 25mg/5ml oral suspension
+^ESCTRA958687	Ranitidine 70mg/5ml oral solution 1 ml
+^ESCTRA958689	Ranitidine 70mg/5ml oral solution (Special Order)
+^ESCTRA958691	Ranitidine 70mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA958703	Ranitidine 75mg/5ml oral suspension 1 ml
+^ESCTRA958705	Ranitidine 75mg/5ml oral suspension (Special Order)
+^ESCTRA958707	Ranitidine 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA958715	Ranitidine 75mg/5ml oral solution 1 ml
+^ESCTRA958717	Ranitidine 75mg/5ml oral solution (Special Order)
+^ESCTRA958719	Ranitidine 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA958733	Ranitidine 8mg/5ml oral suspension 1 ml
+^ESCTRA958735	Ranitidine 8mg/5ml oral suspension (Special Order)
+^ESCTRA958739	Ranitidine 8mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA958745	Ranitidine 8mg/5ml oral solution 1 ml
+^ESCTRA958749	Ranitidine 8mg/5ml oral solution (Special Order)
+^ESCTRA958753	Ranitidine 8mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA958962	Ranitidine 30mg/5ml oral solution
+^ESCTRA958964	Ranitidine 30mg/5ml oral suspension
+^ESCTRA958966	Ranitidine 31mg/5ml oral solution
+^ESCTRA958968	Ranitidine 31mg/5ml oral suspension
+^ESCTRA958970	Ranitidine 3mg/5ml oral solution
+^ESCTRA958972	Ranitidine 3mg/5ml oral suspension
+^ESCTRA958974	Ranitidine 40mg/5ml oral solution
+^ESCTRA958976	Ranitidine 40mg/5ml oral suspension
+^ESCTRA958978	Ranitidine 4mg/5ml oral solution
+^ESCTRA958980	Ranitidine 4mg/5ml oral suspension
+^ESCTRA958982	Ranitidine 50mg/5ml oral solution
+^ESCTRA958984	Ranitidine 50mg/5ml oral suspension
+^ESCTRA958986	Ranitidine 5mg/5ml oral solution
+^ESCTRA958988	Ranitidine 5mg/5ml oral suspension
+^ESCTRA958990	Ranitidine 70mg/5ml oral solution
+^ESCTRA958992	Ranitidine 70mg/5ml oral suspension
+^ESCTRA959039	Ranitidine 75mg/5ml oral solution
+^ESCTRA959040	Ranitidine 75mg/5ml oral suspension
+^ESCTRA959041	Ranitidine 8mg/5ml oral suspension
+^ESCTRA959042	Ranitidine 8mg/5ml oral solution
+^ESCTRA960689	Ranitidine 150mg tablets (Dowelhurst Ltd)
+^ESCTRA960690	Ranitidine 150mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTRA960692	Ranitidine 300mg tablets (Dowelhurst Ltd)
+^ESCTRA960693	Ranitidine 300mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTRA960722	Ranitidine 300mg tablets (Zentiva)
+^ESCTRA960723	Ranitidine 300mg tablets (Zentiva) 30 tablet
+^ESCTRA975480	Ranitidine 150mg tablets (Boston Healthcare Ltd)
+^ESCTRA975481	Ranitidine 150mg tablets (Boston Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCTRA975482	Ranitidine 300mg tablets (Boston Healthcare Ltd)
+^ESCTRA975483	Ranitidine 300mg tablets (Boston Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCTRA978632	Ranitidine 75mg tablets (Galpharm International Ltd) 24 tablet 4 x 6 tablets
+^ESCTRA979206	Ranitidine 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRA979208	Ranitidine 300mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTRA979210	Ranitidine 300mg effervescent tablets (Sigma Pharmaceuticals Plc)
+^ESCTRA979211	Ranitidine 300mg effervescent tablets (Sigma Pharmaceuticals Plc) 30 tablet 2 x 15 tablets
+^ESCTRA979510	Ranitidine 75mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTRA979511	Ranitidine 75mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 300 ml
+^ESCTRA980659	Ranitidine 75mg tablets (Galpharm International Ltd) 12 tablet 2 x 6 tablets
+^ESCTRA983033	Ranitidine 75mg tablets (Vantage)
+^ESCTRA983034	Ranitidine 75mg tablets (Vantage) 6 tablet
+^ESCTRA983598	Ranitidine 20mg/5ml oral solution 1 ml
+^ESCTRA983599	Ranitidine 20mg/5ml oral solution (Special Order)
+^ESCTRA983600	Ranitidine 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA983601	Ranitidine 20mg/5ml oral suspension 1 ml
+^ESCTRA983602	Ranitidine 20mg/5ml oral suspension (Special Order)
+^ESCTRA983603	Ranitidine 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA983703	Ranitidine 20mg/5ml oral solution
+^ESCTRA983704	Ranitidine 20mg/5ml oral suspension
+^ESCTRA985928	Ranitidine 75mg/5ml oral solution sugar free (Actavis UK Ltd)
+^ESCTRA985929	Ranitidine 75mg/5ml oral solution sugar free (Actavis UK Ltd) 300 ml
+^ESCTRA985989	Ranitidine 12mg/5ml oral solution 1 ml
+^ESCTRA985990	Ranitidine 12mg/5ml oral solution (Special Order)
+^ESCTRA985991	Ranitidine 12mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA985992	Ranitidine 12mg/5ml oral suspension 1 ml
+^ESCTRA985993	Ranitidine 12mg/5ml oral suspension (Special Order)
+^ESCTRA985994	Ranitidine 12mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA986117	Ranitidine 12mg/5ml oral solution
+^ESCTRA986118	Ranitidine 12mg/5ml oral suspension
+^ESCTRA986994	Ranitidine 300mg tablets (Zanza Laboratories Ltd)
+^ESCTRA986995	Ranitidine 300mg tablets (Zanza Laboratories Ltd) 30 tablet 2 x 15 tablets
+^ESCTRA986996	Ranitidine 150mg tablets (Zanza Laboratories Ltd)
+^ESCTRA986997	Ranitidine 150mg tablets (Zanza Laboratories Ltd) 60 tablet 4 x 15 tablets
+^ESCTRA987756	Ranitidine 11.4mg/5ml oral solution 1 ml
+^ESCTRA987757	Ranitidine 11.4mg/5ml oral solution (Special Order)
+^ESCTRA987759	Ranitidine 11.4mg/5ml oral solution (Special Order) 1 ml
+^ESCTRA987762	Ranitidine 11.4mg/5ml oral suspension 1 ml
+^ESCTRA987763	Ranitidine 11.4mg/5ml oral suspension (Special Order)
+^ESCTRA987764	Ranitidine 11.4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTRA987990	Ranitidine 75mg tablets (Bristol Laboratories Ltd)
+^ESCTRA987991	Ranitidine 75mg tablets (Bristol Laboratories Ltd) 12 tablet 2 x 6 tablets
+^ESCTRA987992	Ranitidine 150mg tablets (Bristol Laboratories Ltd)
+^ESCTRA987993	Ranitidine 150mg tablets (Bristol Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCTRA987994	Ranitidine 300mg tablets (Bristol Laboratories Ltd)
+^ESCTRA987995	Ranitidine 300mg tablets (Bristol Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCTRA988080	Ranitidine 11.4mg/5ml oral solution
+^ESCTRA988081	Ranitidine 11.4mg/5ml oral suspension
+^ESCTRA988932	Ranitidine 50mg/2ml solution for injection ampoules (Alliance Pharmaceuticals Ltd)
+^ESCTRA988933	Ranitidine 50mg/2ml solution for injection ampoules (Alliance Pharmaceuticals Ltd) 5 ampoule
+^ESCTRA999251	Ranitidine 150mg effervescent tablets (Sovereign Medical Ltd)
+^ESCTRA999252	Ranitidine 150mg effervescent tablets (Sovereign Medical Ltd) 60 tablet 4 x 15 tablets
+^ESCTRA999253	Ranitidine 300mg effervescent tablets (Sovereign Medical Ltd)
+^ESCTRA999254	Ranitidine 300mg effervescent tablets (Sovereign Medical Ltd) 30 tablet 2 x 15 tablets
+^ESCTVI815366	Vivatak Indigestion Relief 75mg tablets (Lexon (UK) Ltd)
+^ESCTVI853626	Vivatak Indigestion Relief 75mg tablets (Lexon (UK) Ltd) 6 tablet
+^ESCTVI853627	Vivatak Indigestion Relief 75mg tablets (Lexon (UK) Ltd) 12 tablet 2 x 6 tablets
+^ESCTVI917184	Vivatak
+^ESCTZA804116	Zantac 300mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTZA808432	Zantac 150mg effervescent tablets (GlaxoSmithKline UK Ltd)
+^ESCTZA810998	Zantac 50mg/2ml solution for injection ampoules (GlaxoSmithKline UK Ltd)
+^ESCTZA811375	Zantac 150mg/10ml syrup (GlaxoSmithKline UK Ltd)
+^ESCTZA819259	Zantac 150mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTZA820347	Zaedoc 150 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTZA827722	Zantac 300mg effervescent tablets (GlaxoSmithKline UK Ltd)
+^ESCTZA828412	Zantac 75 Relief tablets (Omega Pharma Ltd)
+^ESCTZA832236	Zantac 75 tablets (Omega Pharma Ltd)
+^ESCTZA849629	Zaedoc 150 tablets (Ashbourne Pharmaceuticals Ltd) 60 tablet 4 x 15 tablets
+^ESCTZA849642	Zantac 150mg tablets (GlaxoSmithKline UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTZA849655	Zantac 300mg tablets (GlaxoSmithKline UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTZA853608	Zantac 50mg/2ml solution for injection ampoules (GlaxoSmithKline UK Ltd) 5 ampoule
+^ESCTZA853622	Zantac 75 tablets (Omega Pharma Ltd) 24 tablet 2 x 12 tablets
+^ESCTZA853623	Zantac 75 tablets (Omega Pharma Ltd) 48 tablet 4 x 12 tablets
+^ESCTZA853624	Zantac 75 Relief tablets (Omega Pharma Ltd) 6 tablet
+^ESCTZA853625	Zantac 75 Relief tablets (Omega Pharma Ltd) 12 tablet
+^ESCTZA853643	Zantac 300mg effervescent tablets (GlaxoSmithKline UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTZA853943	Zantac 150mg/10ml syrup (GlaxoSmithKline UK Ltd) 300 ml
+^ESCTZA856901	Zantac 150mg effervescent tablets (GlaxoSmithKline UK Ltd) 60 tablet 4 x 15 tablets
+^ESCTZA869424	Zantac 75 Dissolve tablets (GlaxoSmithKline Consumer Healthcare)
+^ESCTZA869425	Zantac 75 Dissolve tablets (GlaxoSmithKline Consumer Healthcare) 24 tablet 2 x 12 tablets
+^ESCTZA869426	Zantac 75 Relief Dissolve tablets (Omega Pharma Ltd)
+^ESCTZA869427	Zantac 75 Relief Dissolve tablets (Omega Pharma Ltd) 12 tablet
+^ESCTZA878425	Zantac 150mg tablets (Waymade Healthcare Plc)
+^ESCTZA878426	Zantac 150mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTZA917313	Zaedoc
+^ESCTZA917329	Zantac
+^ESCTZA929538	Zantac 150mg tablets (Dowelhurst Ltd)
+^ESCTZA929539	Zantac 150mg tablets (Dowelhurst Ltd) 60 tablet
+HITA6654NEMIS	Histac  Tablets  150 mg
+HITA6655NEMIS	Histac  Tablets  300 mg
+PYTA26985EMIS	Pylorid  Tablets  400 mg
+RADI10652BRIDL	Ranitidine  Dispersible tablets  150 mg
+RAEF17935EMIS	Ranitidine  Effervescent tablets  150 mg
+RAEF17936EMIS	Ranitidine  Effervescent tablets  300 mg
+RAEF36846MGEMIS	Ranitidine  Effervescent tablets  150 mg (A.A.H. Pharm)
+RAEF36847MGEMIS	Ranitidine  Effervescent tablets  150 mg (Alpharma)
+RAEF36848MGEMIS	Ranitidine  Effervescent tablets  150 mg (Unichem)
+RAEF36849MGEMIS	Ranitidine  Effervescent tablets  150 mg (Sandoz)
+RAEF36850MGEMIS	Ranitidine  Effervescent tablets  150 mg (Kent Pharm)
+RAEF36851MGEMIS	Ranitidine  Effervescent tablets  300 mg (A.A.H. Pharm)
+RAEF36852MGEMIS	Ranitidine  Effervescent tablets  300 mg (Sandoz)
+RAEF36853MGEMIS	Ranitidine  Effervescent tablets  300 mg (Kent Pharm)
+RAEF36854MGEMIS	Ranitidine  Effervescent tablets  300 mg (Alpharma)
+RAEF36855MGEMIS	Ranitidine  Effervescent tablets  300 mg (Unichem)
+RAIN2431	Ranitidine  Solution for injection  25 mg/ml, 2 ml ampoule
+RAIN36856MGEMIS	Ranitidine  Injection  25 mg/ml, 2 ml ampoule (Goldshield)
+RAOR125011NEMIS	Ranitidine  Oral Solution, Sugar Free  150 mg/5 ml
+RAOR14288NEMIS	Ranitidine  Oral solution  Sugar Free 150 mg/10 ml
+RAOR37834MGEMIS	Ranitidine  Oral solution  Sugar Free 150 mg/10 ml (Rosemont Pharm)
+RAOR37835MGEMIS	Ranitidine  Oral solution  Sugar Free 150 mg/10 ml (Unichem)
+RAOR37836MGEMIS	Ranitidine  Oral solution  Sugar Free 150 mg/10 ml (A.A.H. Pharm)
+RAOR48248NEMIS	Ranitidine  Oral suspension  5 mg/5 ml
+RAOR77545NEMIS	Ranitidine  Oral solution  5 mg/5 ml
+RAS/10802BRIDL	Ranitidine  S/f syrup  75 mg/5 ml
+RASY8927BRECO	Ranitidine  Syrup  150 mg/10 ml
+RATA11631NEMIS	Ranitil  Tablets  150 mg
+RATA11632NEMIS	Ranitil  Tablets  300 mg
+RATA16163NEMIS	Ranzac  Tablets  75 mg
+RATA2432	Ranitidine  Tablets  150 mg
+RATA2433	Ranitidine  Tablets  300 mg
+RATA26987EMIS	Ranitidine Bismuth Citrate  Tablets  400 mg
+RATA31414EMIS	Raciran  Tablets  150 mg
+RATA31415EMIS	Raciran  Tablets  300 mg
+RATA35233EMIS	Ranitidine  Tablets  75 mg
+RATA35520EMIS	Rantec  Tablets  150 mg
+RATA35521EMIS	Rantec  Tablets  300 mg
+RATA36857MGEMIS	Ranitidine  Tablets  150 mg (A.A.H. Pharm)
+RATA36858MGEMIS	Ranitidine  Tablets  150 mg (Teva UK)
+RATA36859MGEMIS	Ranitidine  Tablets  150 mg (Sterwin Medicines)
+RATA36860MGEMIS	Ranitidine  Tablets  150 mg (Generics (UK))
+RATA36861MGEMIS	Ranitidine  Tablets  150 mg (Ivax Pharmaceuticals)
+RATA36862MGEMIS	Ranitidine  Tablets  150 mg (Sandoz)
+RATA36863MGEMIS	Ranitidine  Tablets  150 mg (Unichem)
+RATA36864MGEMIS	Ranitidine  Tablets  150 mg (Kent Pharm)
+RATA36865MGEMIS	Ranitidine  Tablets  150 mg (Ranbaxy)
+RATA36866MGEMIS	Ranitidine  Tablets  150 mg (Alpharma)
+RATA36867MGEMIS	Ranitidine  Tablets  150 mg (The Boots Company)
+RATA36868MGEMIS	Ranitidine  Tablets  150 mg (Goldshield)
+RATA36869MGEMIS	Ranitidine  Tablets  300 mg (Unichem)
+RATA36870MGEMIS	Ranitidine  Tablets  300 mg (The Boots Company)
+RATA36871MGEMIS	Ranitidine  Tablets  300 mg (A.A.H. Pharm)
+RATA36872MGEMIS	Ranitidine  Tablets  300 mg (Ranbaxy)
+RATA36873MGEMIS	Ranitidine  Tablets  300 mg (Alpharma)
+RATA36874MGEMIS	Ranitidine  Tablets  300 mg (Sterwin Medicines)
+RATA36875MGEMIS	Ranitidine  Tablets  300 mg (Generics (UK))
+RATA36876MGEMIS	Ranitidine  Tablets  300 mg (Teva UK)
+RATA36877MGEMIS	Ranitidine  Tablets  300 mg (Ivax Pharmaceuticals)
+RATA36878MGEMIS	Ranitidine  Tablets  300 mg (Kent Pharm)
+RATA36879MGEMIS	Ranitidine  Tablets  300 mg (Sandoz)
+RATA36880MGEMIS	Ranitidine  Tablets  300 mg (Goldshield)
+RATA45008NEMIS	Ranitic  Tablets  150 mg
+RATA45009NEMIS	Ranitic  Tablets  300 mg
+ZADI8963EGTON	Zantac  Dispersible tablets  150 mg
+ZAEF16095NEMIS	Zantac 75 Relief Dissolve  Effervescent tablets  75 mg
+ZAEF17931EMIS	Zantac  Effervescent tablets  150 mg
+ZAEF17932EMIS	Zantac  Effervescent tablets  300 mg
+ZAIN3089	Zantac  Solution for injection  25 mg/ml, 2 ml ampoule
+ZAS/10816BRIDL	Zantac  S/f syrup  75 mg/5 ml
+ZATA16093NEMIS	Zantac 75 Relief  Tablets  75 mg
+ZATA3090	Zantac  Tablets  150 mg
+ZATA3091	Zantac  Tablets  300 mg
+ZATA32170EMIS	Zaedoc 150  Tablets  150 mg
+ZATA35231EMIS	Zantac 75  Tablets  75 mg
