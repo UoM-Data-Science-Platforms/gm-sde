@@ -50,6 +50,87 @@ This project required the following clinical code sets:
 - galantamine v1
 - rivastigmine v1
 - memantine v1
+- alimemazine v1
+- alprazolam v1
+- alverine v1
+- atenolol v1
+- beclometasone v1
+- bupropion v1
+- captopril v1
+- cimetidine v1
+- clorazepate v1
+- codeine v1
+- colchicine v1
+- dextropropoxyphene v1
+- diazepam v1
+- digoxin v1
+- dipyridamole v1
+- disopyramide-phosphate v1
+- fentanyl v1
+- fluvoxamine v1
+- furosemide v1
+- haloperidol v1
+- hydralazine v1
+- hydrocortisone v1
+- isosorbide v1
+- loperamide v1
+- metoprolol v1
+- morphine v1
+- nifedipine v1
+- prednisolone v1
+- prednisone v1
+- quinine v1
+- ranitidine v1
+- theophylline v1
+- timolol v1
+- trazodone v1
+- triamterene v1
+- warfarin v1
+- amantadine v1
+- belladona v1
+- carbamazepine v1
+- cyclobenzaprine v1
+- cyproheptadine v1
+- loxapine v1
+- pethidine v1
+- levomepromazine v1
+- oxcarbazepine v1
+- pimozide v1
+- amitriptyline v1
+- amoxapine v1
+- atropine v1
+- benztropine v1
+- chlorphenamine v1
+- chlorpromazine v1
+- clemastine v1
+- clomipramine v1
+- clozapine v1
+- darifenacin v1
+- desipramine v1
+- dicyclomine v1
+- diphenhydramine v1
+- doxepin v1
+- flavoxate v1
+- hydroxyzine v1
+- imipramine v1
+- meclozine v1
+- mepyramine v1
+- nortriptyline v1
+- orphenadrine v1
+- oxybutynin v1
+- paroxetine v1
+- perphenazine v1
+- procyclidine v1
+- promazine v1
+- promethazine v1
+- propantheline v1
+- scopolamine v1
+- solifenacin v1
+- tolterodine v1
+- trifluoperazine v1
+- trihexyphenidyl v1
+- trimipramine v1
+- trospium v1
 
 Further details for each code set can be found below.
 
@@ -252,6 +333,1711 @@ By examining the prevalence of codes (number of patients with the code in their 
 - Find_missing_codes last run 2024-07-18
 
 LINK: [https://github.com/rw251/.../medications/memantine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/memantine/1)
+
+### Alimemazine
+
+Any prescription of alimemazine. Other names: Alfresed/Itzenal/Trimeprazine/Vallergan.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.5% - 0.6%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |   16298 (0.642%) |    16298 (0.642%) |
+| 2024-08-09 | TPP             | 202109     |     1193 (0.59%) |      1193 (0.59%) |
+| 2024-08-09 | Vision          | 336361     |    1792 (0.533%) |     1792 (0.533%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-07-19
+
+LINK: [https://github.com/rw251/.../medications/alimemazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/alimemazine/1)
+
+### Alprazolam
+
+Any prescription of alprazolam. Other names: Xanax.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.00% - 0.02%` suggests that this code set is well defined, but not routinely used in primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |    306 (0.0121%) |     306 (0.0121%) |
+| 2024-08-09 | TPP             | 202109     |     7 (0.00346%) |      7 (0.00346%) |
+| 2024-08-09 | Vision          | 336361     |     68 (0.0202%) |      68 (0.0202%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-07-19
+
+LINK: [https://github.com/rw251/.../medications/alprazolam/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/alprazolam/1)
+
+### Alverine
+
+Any prescription of alverine. Other names: Alvercol/Audmonal/Gielism/Relaxyl/Simalvia/Spasmonal.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.6% - 2.4%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |    41399 (1.63%) |     41399 (1.63%) |
+| 2024-08-09 | TPP             | 202109     |     4836 (2.39%) |      4836 (2.39%) |
+| 2024-08-09 | Vision          | 336361     |     7431 (2.21%) |      7431 (2.21%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-07-19
+
+LINK: [https://github.com/rw251/.../medications/alverine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/alverine/1)
+
+### Atenolol
+
+Any prescription of atenolol. Other names: Antipressan/Atenix/Beta-adalat/Co-tenidone/Kalten/Tenben/Tenchlor/Tenif/Tenoret/Tenormin/Totamol/Totaretic/Vasaten.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.5% - 3.3%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |    62123 (2.45%) |     62123 (2.45%) |
+| 2024-08-09 | TPP             | 202109     |     6756 (3.34%) |      6756 (3.34%) |
+| 2024-08-09 | Vision          | 336361     |     9365 (2.78%) |      9365 (2.78%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-07-19
+
+LINK: [https://github.com/rw251/.../medications/atenolol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/atenolol/1)
+
+### Beclometasone
+
+Category: "steroids".
+
+Any prescription of beclometasone.
+
+This code set has been autogenerated by identifying the relevant codes in the BNF files. The BNF codes are then mapped to SNOMED, and then on to EMIS, Readv2 and CTV3.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `21% - 23%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |      199 (0.01%) |       204 (0.01%) |
+| 2022-06-28 | TPP             | 212907     |       19 (0.01%) |        18 (0.01%) |
+| 2022-06-28 | Vision          | 343146     |       67 (0.02%) |        67 (0.02%) |
+| 2024-08-15 | EMIS            | 2537886    |   527245 (20.8%) |    527245 (20.8%) |
+| 2024-08-15 | TPP             | 202124     |    46728 (23.1%) |     46728 (23.1%) |
+| 2024-08-15 | Vision          | 336422     |    75695 (22.5%) |     75695 (22.5%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-15
+
+LINK: [https://github.com/rw251/.../medications/beclometasone/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/beclometasone/1)
+
+### Bupropion
+
+Any prescription of Bupropion. Other names: Amfebutamone/Zyban.
+
+This code set also includes the combination drug Naltrexone + Bupropion, also known as Mysimba.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.7% - 1.4%` suggests that this code set is well defined, but perhaps more frequently used in the TPP practices in GM.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-05-08 | EMIS            | 2516912    |   17901 (0.711%) |    17901 (0.711%) |
+| 2024-05-08 | TPP             | 200013     |     2767 (1.38%) |      2767 (1.38%) |
+| 2024-05-08 | Vision          | 334384     |    2799 (0.837%) |     2799 (0.837%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-08
+
+LINK: [https://github.com/rw251/.../medications/bupropion/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/bupropion/1)
+
+### Captopril
+
+Any prescription of captopril. Other names: Acepril/Acezide/Capoten/Capozide/Capto-co/Captomex/Co-zidocapt/Ecopace/Hypapril/Hyteneze/Kaplon/Noyada/Tensopril.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.06% - 0.09%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |   1633 (0.0644%) |    1633 (0.0644%) |
+| 2024-08-09 | TPP             | 202109     |    179 (0.0886%) |     179 (0.0886%) |
+| 2024-08-09 | Vision          | 336361     |    261 (0.0776%) |     261 (0.0776%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-07-19
+
+LINK: [https://github.com/rw251/.../medications/captopril/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/captopril/1)
+
+### Cimetidine
+
+Any prescription of cimetidine. Other names: Acid-eze/Acitak/Acitak-200/Acitak-400/Acitak-800/Algitec/Cimetidin/Dyspamet/Galenamet/Peptimax/Phimetin/Tagadine/Tagamet/Ultec/Zita.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.1% - 1.4%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |    26785 (1.06%) |     26785 (1.06%) |
+| 2024-08-09 | TPP             | 202109     |     2173 (1.08%) |      2173 (1.08%) |
+| 2024-08-09 | Vision          | 336361     |     4596 (1.37%) |      4596 (1.37%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-07-19
+
+LINK: [https://github.com/rw251/.../medications/cimetidine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/cimetidine/1)
+
+### Clorazepate
+
+Any prescription of clorazepate. Other names: Clorazepic/Tranxene.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.00% - 0.02%` suggests that this code set is well defined, but not routinely used in primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |      76 (0.003%) |       76 (0.003%) |
+| 2024-08-09 | TPP             | 202109     |     6 (0.00297%) |      6 (0.00297%) |
+| 2024-08-09 | Vision          | 336361     |     69 (0.0205%) |      69 (0.0205%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-07-19
+
+LINK: [https://github.com/rw251/.../medications/clorazepate/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/clorazepate/1)
+
+### Codeine
+
+Any prescription of codeine. Includes combination drugs such as co-codamol and co-codaprin. Other names: Bepro/Co-codamol/Co-codaprin/Codipar/Diarrest/Emcozin/Galcodine/Kaodene/Kapake/Medocodene/Paracodol/Solpadol/Tylex/Zapain.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `31% - 38%` suggests that this code set is well defined, but perhaps more frequently used in the TPP practices in GM.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-15 | EMIS            | 2537886    |   778838 (30.7%) |    779840 (30.7%) |
+| 2024-08-15 | TPP             | 202124     |    63896 (31.6%) |     76229 (37.7%) |
+| 2024-08-15 | Vision          | 336422     |   105102 (31.2%) |    105131 (31.2%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-15
+
+LINK: [https://github.com/rw251/.../medications/codeine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/codeine/1)
+
+### Colchicine
+
+Any prescription of colchicine.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `XXX% - XXX%` suggests that this code set is well defined, but perhaps more frequently used in the TPP practices in GM.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-07-19 | EMIS            | xxxxxxx    |                  |                   |
+| 2024-07-19 | TPP             | xxxxxxx    |                  |                   |
+| 2024-07-19 | Vision          | xxxxxxx    |                  |                   |
+#### Audit log
+
+- Find_missing_codes last run 2024-07-19
+
+LINK: [https://github.com/rw251/.../medications/colchicine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/colchicine/1)
+
+### Dextropropoxyphene
+
+Any prescription of dextropropoxyphene. Other names: Co-proxamol/Distalgesic/Doloxene.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.4% - 3.6%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |     60982 (2.4%) |      60982 (2.4%) |
+| 2024-08-09 | TPP             | 202109     |     6329 (3.13%) |      6329 (3.13%) |
+| 2024-08-09 | Vision          | 336361     |    12244 (3.64%) |     12244 (3.64%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/dextropropoxyphene/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/dextropropoxyphene/1)
+
+### Diazepam
+
+Any prescription of diazepam. Other names: Alupram/Atensine/Dialar/Diazemuls/Evacalm/Rimapam/Solis/Stesolid/Tensium/Valclair/Valium.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `8.7% - 10.0%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |   220310 (8.68%) |    220310 (8.68%) |
+| 2024-08-09 | TPP             | 202109     |      20244 (10%) |       20244 (10%) |
+| 2024-08-09 | Vision          | 336361     |    30637 (9.11%) |     30637 (9.11%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/diazepam/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/diazepam/1)
+
+### Digoxin
+
+Any prescription of digoxin. Other names: Digamex/Digibind/Digifab/Lanoxin/Lanoxin-pg.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.36% - 0.48%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |    9173 (0.362%) |     9173 (0.362%) |
+| 2024-08-09 | TPP             | 202109     |     972 (0.481%) |      972 (0.481%) |
+| 2024-08-09 | Vision          | 336361     |    1240 (0.369%) |     1240 (0.369%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/digoxin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/digoxin/1)
+
+### Dipyridamole
+
+Any prescription of dipyridamole. Other names: Asasantin/Atransipar/Attia/Cerebrovase/Modaplate/Molita/Ofcram/Persantin/Pyridantin/Trolactin/Vasyrol.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.19% - 0.22%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |    4745 (0.187%) |     4745 (0.187%) |
+| 2024-08-09 | TPP             | 202109     |     435 (0.215%) |      435 (0.215%) |
+| 2024-08-09 | Vision          | 336361     |     675 (0.201%) |      675 (0.201%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/dipyridamole/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/dipyridamole/1)
+
+### Disopyramide phosphate
+
+Any prescription of disopyramide phosphate. Other names: Dirythmin/Isomide/Rythmodan.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.01% - 0.01%` suggests that this code set is well defined, but not used in primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |   140 (0.00552%) |    140 (0.00552%) |
+| 2024-08-09 | TPP             | 202109     |     23 (0.0114%) |      23 (0.0114%) |
+| 2024-08-09 | Vision          | 336361     |     34 (0.0101%) |      34 (0.0101%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/disopyramide-phosphate/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/disopyramide-phosphate/1)
+
+### Fentanyl
+
+Any prescription of fentanyl. Other names: Abstral/Actiq/Breakyl/Bufyl/Cynril/Durogesic/Effentora/Fencino/Fenhuma/Fentalis/Instanyl/Ionsys/Iremia/Matrifen/Mezolar/Mylafent/Opiodur/Osmach/Osmanil/Pecfent/Recivit/Sublimaze/Thalamonal/Tilofyl/Victanyl/Yemex.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.4% - 0.5%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |   10495 (0.414%) |    10495 (0.414%) |
+| 2024-08-09 | TPP             | 202109     |    1039 (0.514%) |     1039 (0.514%) |
+| 2024-08-09 | Vision          | 336361     |    1464 (0.435%) |     1464 (0.435%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/fentanyl/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/fentanyl/1)
+
+### Fluvoxamine
+
+Any prescription of fluvoxamine. Other names: Faverin.
+
+Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. The prevalence range `0.039% - 0.045%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-05-01 | EMIS            | 2530927    |    991 (0.0392%) |     991 (0.0392%) |
+| 2024-05-01 | TPP             | 201816     |     90 (0.0446%) |      90 (0.0446%) |
+| 2024-05-01 | Vision          | 335411     |    136 (0.0405%) |     136 (0.0405%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-01
+
+LINK: [https://github.com/rw251/.../medications/fluvoxamine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/fluvoxamine/1)
+
+### Furosemide
+
+Any prescription of furosemide. Other names: Aluzine/Co-amilofruse/Diumide-k/Diuresal/Dryptal/Froop/Frumax/Frusemide/Frusene/Frusetic/Frusid/Frusol/Lasikal/Lasilactone/Lasipressin/Lasix/Rusyde.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.8% - 5.3%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |    95912 (3.78%) |     95906 (3.78%) |
+| 2024-08-09 | TPP             | 202109     |    10750 (5.32%) |     10723 (5.31%) |
+| 2024-08-09 | Vision          | 336361     |    13718 (4.08%) |     13713 (4.08%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/furosemide/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/furosemide/1)
+
+### Haloperidol
+
+Any prescription of Haloperidol. Other names:Dozic/Fortunan/Haldol/Halkid/Kentace/Serenace.
+
+Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.14% - 0.19%` suggests that this code set is well defined. Though the Vision practices are perhaps slighly on the low side, though this could be due to the small numbers.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     5151 (0.19%) |      5151 (0.19%) |
+| 2022-03-24 | TPP             | 212645     |      422 (0.20%) |       422 (0.20%) |
+| 2022-03-24 | Vision          | 341667     |      478 (0.14%) |       478 (0.14%) |
+| 2024-05-07 | EMIS            | 2516912    |    4492 (0.178%) |     4492 (0.178%) |
+| 2024-05-07 | TPP             | 200013     |     375 (0.187%) |      375 (0.187%) |
+| 2024-05-07 | Vision          | 334384     |     480 (0.144%) |      480 (0.144%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-07
+
+LINK: [https://github.com/rw251/.../medications/haloperidol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/haloperidol/1)
+
+### Hydralazine
+
+Any prescription of hydralazine. Other names: Apresoline.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.03% - 0.03%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |    826 (0.0326%) |     826 (0.0326%) |
+| 2024-08-09 | TPP             | 202109     |     62 (0.0307%) |      62 (0.0307%) |
+| 2024-08-09 | Vision          | 336361     |     99 (0.0294%) |      99 (0.0294%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/hydralazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/hydralazine/1)
+
+### Hydrocortisone
+
+Category: "steroids".
+
+Any prescription of hydrocortisone. Other names: Alkindi/Colifoam/Cortenema/Cortucid/Dermacort/Dioderm/Efcortelan/Efcortesol/Efmody/Framycort/Gentisone/Gregoderm/Hc45/Hydrocortistab/Hydrocortone/Hydventia/Lanacort/Nystaform/Plenadren/Proctofoam/Proctosedyl/Softacort/Uniroid/Xyloproct/Zenoxone.
+
+This code set has been autogenerated by identifying the relevant codes in the BNF files. The BNF codes are then mapped to SNOMED, and then on to EMIS, Readv2 and CTV3.
+
+Updated with SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `46% - 47%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |     2849 (0.11%) |      3013 (0.11%) |
+| 2022-06-28 | TPP             | 212907     |      272 (0.13%) |       314 (0.15%) |
+| 2022-06-28 | Vision          | 343146     |      388 (0.11%) |       398 (0.12%) |
+| 2024-08-15 | EMIS            | 2537886    |  1160525 (45.7%) |   1160525 (45.7%) |
+| 2024-08-15 | TPP             | 202124     |    95548 (47.3%) |     95548 (47.3%) |
+| 2024-08-15 | Vision          | 336422     |   157279 (46.8%) |    157293 (46.8%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-15
+
+LINK: [https://github.com/rw251/.../medications/hydrocortisone/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/hydrocortisone/1)
+
+### Isosorbide
+
+Any prescription of isosorbide. Other names: Angeze/Angitak/Angitate/Carmil/Cedocard/Chemydur/Cibral/Dynamin/Elantan/Elantan-10/Elantan-20/Elantan-40/Eumon/Imazin/Imdur/Imo/Imtack/Isib/Ismo/Isocard/Isodur/Isoket/Isordil/Isotard/Isotrate/Jeridin/Ketanodur/Mcr-50/Medomon/Modisal/Monigen/Monit/Monodur/Monomax/Monomil/Monosorb/Nyzamac/Phasonit/Relosorb/Slomon/Soni-slo/Sorbichew/Sorbid-20/Sorbid-40/Sorbitrate/Tardisc/Trangina/Vascardin/Zemon/Ziotan.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.1% - 1.4%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |     27918 (1.1%) |      27918 (1.1%) |
+| 2024-08-09 | TPP             | 202109     |     2756 (1.36%) |      2756 (1.36%) |
+| 2024-08-09 | Vision          | 336361     |     3866 (1.15%) |      3866 (1.15%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/isosorbide/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/isosorbide/1)
+
+### Loperamide
+
+Any prescription of loperamide. Other names: Arret/Diah-limit/Diaquitte/Diareze/Diasorb/Diocalm/Diocaps/Dioraleze/Entrocalm/Imodium/Lodiar/Loperagen/Loritax/Norimode/Normaloe.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.3% - 5.4%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |   107934 (4.25%) |    107934 (4.25%) |
+| 2024-08-09 | TPP             | 202109     |    10845 (5.37%) |     10845 (5.37%) |
+| 2024-08-09 | Vision          | 336361     |    15070 (4.48%) |     15070 (4.48%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/loperamide/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/loperamide/1)
+
+### Metoprolol
+
+Any prescription of metoprolol. Other names: Arbralene/Betaloc/Lopresor/Mepranix/Metoros/Tensomex.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.1% - 0.1%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |    3670 (0.145%) |     3670 (0.145%) |
+| 2024-08-09 | TPP             | 202109     |     196 (0.097%) |      196 (0.097%) |
+| 2024-08-09 | Vision          | 336361     |     474 (0.141%) |      474 (0.141%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/metoprolol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/metoprolol/1)
+
+### Morphine
+
+Any prescription of morphine. Other names: Actimorph/Cyclimorph/Dropizol/Filnarine/Morcap/Morphgesic/MST Coninuous/MXL/Oramorph/Rhotard/Sevredol/Zomorph.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.2% - 2.9%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-15 | EMIS            | 2537886    |     55917 (2.2%) |      55917 (2.2%) |
+| 2024-08-15 | TPP             | 202124     |     5793 (2.87%) |      5793 (2.87%) |
+| 2024-08-15 | Vision          | 336422     |     8116 (2.41%) |      8116 (2.41%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-15
+
+LINK: [https://github.com/rw251/.../medications/morphine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/morphine/1)
+
+### Nifedipine
+
+Any prescription of nifedipine. Other names: Adalat/Adalat-ic/Adanif/Adipine/Angiopine/Calanif/Calchan/Calcilat/Calcipine/Cardilate/Combitens/Coracten/Coroday/Dexipress/Fortipine/Genalat/Hypolar/Kentipine/Neozipine/Nidef/Nifedipin-ratiopharm/Nifedipress/Nifedotard/Nifelease/Nifensar/Nifopress/Nimodrel/Nivaten/Slofedipine/Tenif/Tensipine/Unipine/Valni/Vasad.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.2% - 1.4%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |    30296 (1.19%) |     30296 (1.19%) |
+| 2024-08-09 | TPP             | 202109     |     2900 (1.43%) |      2900 (1.43%) |
+| 2024-08-09 | Vision          | 336361     |     4121 (1.23%) |      4121 (1.23%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/nifedipine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/nifedipine/1)
+
+### Prednisolone
+
+Category: "steroids".
+
+Any prescription of prednisolone. Other names: Codelsol/Codelson/Deltacortril/Deltastab/Dilacort/Pevanti/Precortisyl/Predenema/Predfoam/Prednesol/Predsol/Sintisone.
+
+This code set has been autogenerated by identifying the relevant codes in the BNF files. The BNF codes are then mapped to SNOMED, and then on to EMIS, Readv2 and CTV3.
+
+Updated from new SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `19% - 22%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |   345343 (13.0%) |    365422 (13.7%) |
+| 2022-06-28 | TPP             | 212907     |    33546 (15.8%) |     34009 (16.0%) |
+| 2022-06-28 | Vision          | 343146     |    52939 (15.4%) |     55299 (16.1%) |
+| 2024-08-15 | EMIS            | 2537886    |     482206 (19%) |      482206 (19%) |
+| 2024-08-15 | TPP             | 202124     |    38923 (19.3%) |     38923 (19.3%) |
+| 2024-08-15 | Vision          | 336422     |    74961 (22.3%) |     74961 (22.3%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-15
+
+LINK: [https://github.com/rw251/.../medications/prednisolone/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/prednisolone/1)
+
+### Oral prednisone
+
+Any prescription of oral prednisone. Other names: Decortin/Decortisyl/Econosone/Lodotra.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.004% - 0.04%` suggests that this code set is well defined, but is not routinely prescribed in primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-03-31 | EMIS            | 2604007    |     435 (0.017%) |      435 (0.017%) |
+| 2021-03-31 | TPP             | 210535     |      73 (0.035%) |       73 (0.035%) |
+| 2021-03-31 | Vision          | 333730     |     213 (0.064%) |      213 (0.064%) |
+| 2024-08-09 | EMIS            | 2536869    |    109 (0.0043%) |     109 (0.0043%) |
+| 2024-08-09 | TPP             | 202109     |     71 (0.0351%) |      71 (0.0351%) |
+| 2024-08-09 | Vision          | 336361     |    22 (0.00654%) |     22 (0.00654%) |
+
+LINK: [https://github.com/rw251/.../medications/prednisone/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/prednisone/1)
+
+### Quinine
+
+Any prescription of quinine. Other names: .
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.8% - 2.2%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |    46419 (1.83%) |     46419 (1.83%) |
+| 2024-08-09 | TPP             | 202109     |     4472 (2.21%) |      4472 (2.21%) |
+| 2024-08-09 | Vision          | 336361     |     6217 (1.85%) |      6217 (1.85%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/quinine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/quinine/1)
+
+### Ranitidine
+
+Any prescription of ranitidine. Other names: Gavilast/Gavilast-p/Histac/Pylorid/Raciran/Ranicalm/Ranitic/Ranitil/Rantec/Ranzac/Vivatak/Zaedoc/Zantac.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `5.5% - 5.6%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |   139001 (5.48%) |    139001 (5.48%) |
+| 2024-08-09 | TPP             | 202109     |    11273 (5.58%) |     11273 (5.58%) |
+| 2024-08-09 | Vision          | 336361     |    18638 (5.54%) |     18638 (5.54%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/ranitidine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/ranitidine/1)
+
+### Theophylline
+
+Any prescription of theophylline. Other names: Biophylline/Franol/Labophylline/Lasma/Nuelin/Pro-vent/Slo-phyllin/Theo-24/Theo-dur/Theograd/Uniphyllin.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.3% - 0.5%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |    7564 (0.298%) |     7564 (0.298%) |
+| 2024-08-09 | TPP             | 202109     |     920 (0.455%) |      920 (0.455%) |
+| 2024-08-09 | Vision          | 336361     |    1235 (0.367%) |     1235 (0.367%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/theophylline/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/theophylline/1)
+
+### Timolol
+
+Any prescription of timolol. Other names: Betim/Blocadren.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.7% - 0.8%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |   17466 (0.688%) |    17466 (0.688%) |
+| 2024-08-09 | TPP             | 202109     |    1529 (0.757%) |     1529 (0.757%) |
+| 2024-08-09 | Vision          | 336361     |     2219 (0.66%) |      2219 (0.66%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/timolol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/timolol/1)
+
+### Trazodone
+
+Any prescription of trazodone. Other names: Molipaxin.
+
+Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. The prevalence range `0.7% - 1.2%` suggests this is well defined, but with TPP practices having an elevated level of prescribing in this area.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-05-01 | EMIS            | 2530927    |   19406 (0.767%) |    19406 (0.767%) |
+| 2024-05-01 | TPP             | 201816     |     2327 (1.15%) |      2327 (1.15%) |
+| 2024-05-01 | Vision          | 335411     |    2261 (0.674%) |     2261 (0.674%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-01
+
+LINK: [https://github.com/rw251/.../medications/trazodone/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/trazodone/1)
+
+### Triamterene
+
+Any prescription of triamterene. Other names: Co-triamterzide/Dyazide/Dytac/Dytide/Frusene/Kalspare/Triam-co/Triamaxco.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.04% - 0.11%` suggests that this code set is not well defined, but the numbers are very small so perhaps just not routinely prescribed in primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |   1709 (0.0674%) |    1709 (0.0674%) |
+| 2024-08-09 | TPP             | 202109     |     74 (0.0366%) |      74 (0.0366%) |
+| 2024-08-09 | Vision          | 336361     |     377 (0.112%) |      377 (0.112%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/triamterene/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/triamterene/1)
+
+### Warfarin
+
+Any prescription of warfarin. Other names: Coumadin/Marevan.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.1% - 1.4%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-09 | EMIS            | 2536869    |    26640 (1.05%) |     26640 (1.05%) |
+| 2024-08-09 | TPP             | 202109     |     2749 (1.36%) |      2749 (1.36%) |
+| 2024-08-09 | Vision          | 336361     |     3856 (1.15%) |      3856 (1.15%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-09
+
+LINK: [https://github.com/rw251/.../medications/warfarin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/warfarin/1)
+
+### Amantadine
+
+Any prescription of amantadine. Other names: Amantidine/Lysovir/Mantadine/Symmetrel.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.06% - 0.08%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |   1412 (0.0556%) |    1412 (0.0556%) |
+| 2024-08-14 | TPP             | 202124     |    158 (0.0782%) |     158 (0.0782%) |
+| 2024-08-14 | Vision          | 336422     |     249 (0.074%) |      249 (0.074%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/amantadine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/amantadine/1)
+
+### Belladonna
+
+Any prescription of belladonna.
+
+NB. This is just for belladonna e.g. belladonna tincture, and does not include belladonna alkaloids such as atropine.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0 - 0%` means that this is never prescribed in UK primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |           0 (0%) |            0 (0%) |
+| 2024-08-14 | TPP             | 202124     |           0 (0%) |            0 (0%) |
+| 2024-08-14 | Vision          | 336422     |           0 (0%) |            0 (0%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-14
+
+LINK: [https://github.com/rw251/.../medications/belladona/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/belladona/1)
+
+### Carbamazepine
+
+Category: "mood-stabilizers".
+
+Any prescription of carbamazepine. Other names include: Arbil/Carbagen/Curatil/Epimaz/Teril Retard/Tegretol/Timonil.
+
+This code set has been autogenerated by identifying the relevant codes in the BNF files. The BNF codes are then mapped to SNOMED, and then on to EMIS, Readv2 and CTV3. Finally the SNOMED hierarchy was searched to find any descendants of matched codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.94% - 1.13%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |    23498 (0.88%) |     24641 (0.92%) |
+| 2022-06-28 | TPP             | 212907     |     2282 (1.07%) |      2442 (1.15%) |
+| 2022-06-28 | Vision          | 343146     |     3520 (1.03%) |      3617 (1.05%) |
+| 2024-05-02 | EMIS            | 2530927    |   23826 (0.941%) |    23826 (0.941%) |
+| 2024-05-02 | TPP             | 201816     |     2256 (1.12%) |      2256 (1.12%) |
+| 2024-05-02 | Vision          | 335411     |     3793 (1.13%) |      3793 (1.13%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-02
+
+LINK: [https://github.com/rw251/.../medications/carbamazepine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/carbamazepine/1)
+
+### Cyclobenzaprine
+
+Any prescription of cyclobenzaprine. As of 2024, this drug is not available in the UK.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0% - 0%` suggests that this code set is not used in uk primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |           0 (0%) |            0 (0%) |
+| 2024-08-14 | TPP             | 202124     |           0 (0%) |            0 (0%) |
+| 2024-08-14 | Vision          | 336422     |           0 (0%) |            0 (0%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/cyclobenzaprine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/cyclobenzaprine/1)
+
+### Cyproheptadine
+
+Any prescription of cyproheptadine. Other names: Periactin.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.4% - 0.7%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |   1793 (0.0706%) |    1793 (0.0706%) |
+| 2024-08-14 | TPP             | 202124     |     70 (0.0346%) |      70 (0.0346%) |
+| 2024-08-14 | Vision          | 336422     |    152 (0.0452%) |     152 (0.0452%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/cyproheptadine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/cyproheptadine/1)
+
+### Loxapine
+
+Any prescription of Loxapine. Other names: Adasuve/Loxapac
+
+Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.0006% - 0.0015%` suggests that this drug is not prescribed in UK primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     15 (0.0006%) |      15 (0.0006%) |
+| 2022-03-24 | TPP             | 212645     |      3 (0.0014%) |       3 (0.0014%) |
+| 2022-03-24 | Vision          | 341667     |      5 (0.0015%) |       5 (0.0015%) |
+| 2024-05-07 | EMIS            | 2516912    |   13 (0.000517%) |    13 (0.000517%) |
+| 2024-05-07 | TPP             | 200013     |       2 (0.001%) |        2 (0.001%) |
+| 2024-05-07 | Vision          | 334384     |     8 (0.00239%) |      8 (0.00239%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-07
+
+LINK: [https://github.com/rw251/.../medications/loxapine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/loxapine/1)
+
+### Pethidine
+
+Any prescription of pethidine. Other names: Meperidine/Operidine/Pamergan/Pethilorfan/Phenoperidine.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.03% - 0.07%` suggests that this code set is well defined, but perhaps with a reduced frequency in the TPP practices in GM.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |   1686 (0.0664%) |    1686 (0.0664%) |
+| 2024-08-14 | TPP             | 202124     |     65 (0.0322%) |      65 (0.0322%) |
+| 2024-08-14 | Vision          | 336422     |    221 (0.0657%) |     221 (0.0657%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/pethidine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/pethidine/1)
+
+### Levomepromazine
+
+Any prescription of Levomepromazine. Other names: Levinan/Levorol/Methotrimeprazine/Nozinan/Veractil
+
+Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.08% - 0.12%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     1920 (0.07%) |      1920 (0.07%) |
+| 2022-03-24 | TPP             | 212645     |      269 (0.13%) |       269 (0.13%) |
+| 2022-03-24 | Vision          | 341667     |      314 (0.09%) |       314 (0.09%) |
+| 2024-05-07 | EMIS            | 2516912    |    1964 (0.078%) |     1964 (0.078%) |
+| 2024-05-07 | TPP             | 200013     |     248 (0.124%) |      248 (0.124%) |
+| 2024-05-07 | Vision          | 334384     |    297 (0.0888%) |     297 (0.0888%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-07
+
+LINK: [https://github.com/rw251/.../medications/levomepromazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/levomepromazine/1)
+
+### Oxcarbazepine
+
+Any prescription of oxcarbazepine. Other names: Trileptal.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.03% - 0.05%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |    866 (0.0341%) |     866 (0.0341%) |
+| 2024-08-14 | TPP             | 202124     |    104 (0.0515%) |     104 (0.0515%) |
+| 2024-08-14 | Vision          | 336422     |    112 (0.0333%) |     112 (0.0333%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/oxcarbazepine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/oxcarbazepine/1)
+
+### Pimozide
+
+Any prescription of Pimozide. Other names: Orap
+
+Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.005% - 0.013%` is possibly not sufficiently narrow to guarantee that this code set is well defined. However this is likely due to the very small numbers, which also suggest that this is not used in UK general practice.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     108 (0.004%) |      108 (0.004%) |
+| 2022-03-24 | TPP             | 212645     |      12 (0.006%) |       12 (0.006%) |
+| 2022-03-24 | Vision          | 341667     |      33 (0.010%) |       33 (0.010%) |
+| 2024-05-07 | EMIS            | 2516912    |     83 (0.0033%) |      83 (0.0033%) |
+| 2024-05-07 | TPP             | 200013     |      10 (0.005%) |       10 (0.005%) |
+| 2024-05-07 | Vision          | 334384     |     44 (0.0132%) |      44 (0.0132%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-07
+
+LINK: [https://github.com/rw251/.../medications/pimozide/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/pimozide/1)
+
+### Amitriptyline
+
+Category: "antidepressants".
+
+Any prescription of amitriptyline. Other names: Domical/Elavil/Lentizol/Limbitrol/Triptafen/Tryptizol.
+
+This code set originally created by identifying the relevant codes in the BNF files. The BNF codes are then mapped to SNOMED, and then on to EMIS, Readv2 and CTV3. Subsequently extended by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.6% - 15.5%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |   298158 (11.2%) |    310707 (11.7%) |
+| 2022-06-28 | TPP             | 212907     |    30661 (14.4%) |     31657 (14.9%) |
+| 2022-06-28 | Vision          | 343146     |    40318 (11.7%) |     41443 (12.1%) |
+| 2024-05-01 | EMIS            | 2530927    |   319521 (12.6%) |    319521 (12.6%) |
+| 2024-05-01 | TPP             | 201816     |    31374 (15.5%) |     31374 (15.5%) |
+| 2024-05-01 | Vision          | 335411     |    43941 (13.1%) |     43941 (13.1%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-01
+
+LINK: [https://github.com/rw251/.../medications/amitriptyline/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/amitriptyline/1)
+
+### Amoxapine
+
+Any prescription of amoxapine. Other names: Asendis/Defanyl.
+
+Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. The prevalence range `0.0% - 0.002%` suggests this medication is not used in primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-05-01 | EMIS            | 2530927    |    42 (0.00166%) |     42 (0.00166%) |
+| 2024-05-01 | TPP             | 201816     |     5 (0.00248%) |      5 (0.00248%) |
+| 2024-05-01 | Vision          | 335411     |    3 (0.000894%) |     3 (0.000894%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-01
+
+LINK: [https://github.com/rw251/.../medications/amoxapine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/amoxapine/1)
+
+### Atropine
+
+Any prescription of atropine. Other names: Eumydrin/Mydricaine.
+
+Also include the combination drug co-phenotrope. Other names: Diarphen/Dymotil/Lofenoxal/Lomotil/Tropergen.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.53% - 0.89%` suggests that this is reasonably well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |   15456 (0.609%) |    15456 (0.609%) |
+| 2024-08-14 | TPP             | 202124     |    1802 (0.892%) |     1802 (0.892%) |
+| 2024-08-14 | Vision          | 336422     |     1783 (0.53%) |      1783 (0.53%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/atropine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/atropine/1)
+
+### Benztropine
+
+Any prescription of benztropine. Other names: Benzatropine/Cogentin.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.003% - 0.005%` suggests that this code set is well defined, but not used in uk primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |   128 (0.00504%) |    128 (0.00504%) |
+| 2024-08-14 | TPP             | 202124     |     7 (0.00346%) |      7 (0.00346%) |
+| 2024-08-14 | Vision          | 336422     |    12 (0.00357%) |     12 (0.00357%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/benztropine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/benztropine/1)
+
+
+LINK: [https://github.com/rw251/.../medications/chlorphenamine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/chlorphenamine/1)
+
+### Chlorpromazine
+
+Any prescription of Chlorpromazine. Other names: Chloractil/Chlorazin/Dozine/Largactil.
+
+Dozine is included as it appears as a descendant of Chlorpromazine Hydrocholride in the Readv2 and CTV3 dictionaries. However, it has been discontinued for so long that it does not appear online and so is not currently verified as a source of Chlorpromazine.
+
+This code set does not include Chlorpromazine in forms exclusively used to combat nausea, or for use in anaesthesia.
+
+Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.20% - 0.29%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     7808 (0.29%) |      7808 (0.29%) |
+| 2022-03-24 | TPP             | 212645     |      653 (0.31%) |       653 (0.31%) |
+| 2022-03-24 | Vision          | 341667     |      619 (0.18%) |       619 (0.18%) |
+| 2024-05-07 | EMIS            | 2516912    |    6724 (0.267%) |     6724 (0.267%) |
+| 2024-05-07 | TPP             | 200013     |     578 (0.289%) |      578 (0.289%) |
+| 2024-05-07 | Vision          | 334384     |     659 (0.197%) |      659 (0.197%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-07
+
+LINK: [https://github.com/rw251/.../medications/chlorpromazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/chlorpromazine/1)
+
+### Clemastine
+
+Any prescription of clemastine. Other names: Tavegil.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.04% - 1.5%` suggests that this code set is not well defined. However closer analysis shows that the relatively high number of prescriptions from Vision practices occurred prior to 2010. When filtering to just prescriptions since 2010 we find a prevalence range of `0.002% - 0.008%` suggesting well defined but not prescribed any more in uk primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |   2366 (0.0932%) |    2366 (0.0932%) |
+| 2024-08-14 | TPP             | 202124     |     71 (0.0351%) |      71 (0.0351%) |
+| 2024-08-14 | Vision          | 336422     |     4964 (1.48%) |      4964 (1.48%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/clemastine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/clemastine/1)
+
+### Clomipramine
+
+Category: "antidepressants".
+
+Any prescription of clomipramine. Other names: Anafranil/Tranquax.
+
+This code set originally created by identifying the relevant codes in the BNF files. The BNF codes are then mapped to SNOMED, and then on to EMIS, Readv2 and CTV3. Subsequently extended by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.25% - 0.42%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |     6265 (0.24%) |      6570 (0.25%) |
+| 2022-06-28 | TPP             | 212907     |      575 (0.27%) |       594 (0.28%) |
+| 2022-06-28 | Vision          | 343146     |     1323 (0.39%) |      1350 (0.39%) |
+| 2024-05-01 | EMIS            | 2530927    |    6209 (0.245%) |     6209 (0.245%) |
+| 2024-05-01 | TPP             | 201816     |     527 (0.261%) |      527 (0.261%) |
+| 2024-05-01 | Vision          | 335411     |    1416 (0.422%) |     1416 (0.422%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-01
+
+LINK: [https://github.com/rw251/.../medications/clomipramine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/clomipramine/1)
+
+### Clozapine
+
+Any prescription of Clozapine. Other names: Clozaril/Denzapine/Zaponex.
+
+Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.03% - 0.06%` is possibly not sufficiently narrow to guarantee that this code set is well defined. However this is likely because of the small numbers involved.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     1580 (0.06%) |      1580 (0.06%) |
+| 2022-03-24 | TPP             | 212645     |       68 (0.03%) |        68 (0.03%) |
+| 2022-03-24 | Vision          | 341667     |      135 (0.04%) |       135 (0.04%) |
+| 2024-05-07 | EMIS            | 2516912    |   1614 (0.0641%) |    1614 (0.0641%) |
+| 2024-05-07 | TPP             | 200013     |     69 (0.0345%) |      69 (0.0345%) |
+| 2024-05-07 | Vision          | 334384     |    153 (0.0458%) |     153 (0.0458%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-07
+
+LINK: [https://github.com/rw251/.../medications/clozapine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/clozapine/1)
+
+### Darifenacin
+
+Any prescription of darifenacin. Other names: Emselex.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.08% - 0.4%` suggests that this code set is not well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |    3589 (0.141%) |     3589 (0.141%) |
+| 2024-08-14 | TPP             | 202124     |     874 (0.432%) |      874 (0.432%) |
+| 2024-08-14 | Vision          | 336422     |    282 (0.0838%) |     282 (0.0838%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/darifenacin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/darifenacin/1)
+
+### Desipramine
+
+Category: "antidepressants".
+
+Any prescription of desipramine. Other names: Pertofran.
+
+This code set originally created by identifying the relevant codes in the BNF files. The BNF codes are then mapped to SNOMED, and then on to EMIS, Readv2 and CTV3. Subsequently extended by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0% - 0%` suggests that this drug is never used in primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-05-01 | EMIS            | 2530927    |           0 (0%) |            0 (0%) |
+| 2024-05-01 | TPP             | 201816     |           0 (0%) |            0 (0%) |
+| 2024-05-01 | Vision          | 335411     |           0 (0%) |            0 (0%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-01
+
+LINK: [https://github.com/rw251/.../medications/desipramine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/desipramine/1)
+
+### Dicyclomine
+
+Any prescription of dicyclomine. Other names: Dicycloverine/Kolanticon/Kolantyl/Merbentyl.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.7% - 2.2%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |     43037 (1.7%) |      43037 (1.7%) |
+| 2024-08-14 | TPP             | 202124     |      4444 (2.2%) |       4444 (2.2%) |
+| 2024-08-14 | Vision          | 336422     |     6282 (1.87%) |      6282 (1.87%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/dicyclomine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/dicyclomine/1)
+
+### Diphenhydramine
+
+Any prescription of diphenhydramine. Other names: Dreemon/Histergan/Mandalyn/Nightcalm/Paxidorm.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.13% - 0.19%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |    4700 (0.185%) |     4700 (0.185%) |
+| 2024-08-14 | TPP             | 202124     |     252 (0.125%) |      252 (0.125%) |
+| 2024-08-14 | Vision          | 336422     |     496 (0.147%) |      496 (0.147%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/diphenhydramine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/diphenhydramine/1)
+
+### Doxepin
+
+Category: "antidepressants".
+
+Any prescription of doxepin. Other names: Sinepin/Sinequan.
+
+Does not include doxepin cream (aka Xepin).
+
+This code set originally created by identifying the relevant codes in the BNF files. The BNF codes are then mapped to SNOMED, and then on to EMIS, Readv2 and CTV3. Subsequently extended by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.06% - 0.14%` suggests that this code set is well defined for EMIS and Vision, but with a higher prevalence coming from TPP practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |     1542 (0.06%) |      1596 (0.06%) |
+| 2022-06-28 | TPP             | 212907     |      315 (0.15%) |       317 (0.15%) |
+| 2022-06-28 | Vision          | 343146     |      163 (0.05%) |       167 (0.05%) |
+| 2024-05-01 | EMIS            | 2530927    |   1507 (0.0595%) |    1507 (0.0595%) |
+| 2024-05-01 | TPP             | 201816     |     279 (0.138%) |      279 (0.138%) |
+| 2024-05-01 | Vision          | 335411     |    195 (0.0581%) |     195 (0.0581%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-01
+
+LINK: [https://github.com/rw251/.../medications/doxepin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/doxepin/1)
+
+### Flavoxate
+
+Any prescription of flavoxate. Other names: Urispas.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.05% - 0.06%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |   1351 (0.0532%) |    1351 (0.0532%) |
+| 2024-08-14 | TPP             | 202124     |    115 (0.0569%) |     115 (0.0569%) |
+| 2024-08-14 | Vision          | 336422     |    211 (0.0627%) |     211 (0.0627%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/flavoxate/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/flavoxate/1)
+
+### Hydroxyzine
+
+Any prescription of hydroxyzine. Other names: Atarax/Ucerax.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.6% - 2.0%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |    40888 (1.61%) |     40888 (1.61%) |
+| 2024-08-14 | TPP             | 202124     |     3410 (1.69%) |      3410 (1.69%) |
+| 2024-08-14 | Vision          | 336422     |     6755 (2.01%) |      6755 (2.01%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/hydroxyzine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/hydroxyzine/1)
+
+### Imipramine
+
+Category: "antidepressants".
+
+Any prescription of imipramine. Other names: Praminil/Tofranil.
+
+This code set originally created by identifying the relevant codes in the BNF files. The BNF codes are then mapped to SNOMED, and then on to EMIS, Readv2 and CTV3. Subsequently extended by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.16% - 0.31%` suggests that this code set is either not well defined, or the prevalence of prescription varies according to practice.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |     6575 (0.25%) |      6920 (0.26%) |
+| 2022-06-28 | TPP             | 212907     |      346 (0.16%) |       357 (0.17%) |
+| 2022-06-28 | Vision          | 343146     |      907 (0.26%) |       958 (0.28%) |
+| 2024-05-01 | EMIS            | 2530927    |    6422 (0.254%) |     6422 (0.254%) |
+| 2024-05-01 | TPP             | 201816     |      323 (0.16%) |       323 (0.16%) |
+| 2024-05-01 | Vision          | 335411     |    1050 (0.313%) |     1050 (0.313%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-01
+
+LINK: [https://github.com/rw251/.../medications/imipramine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/imipramine/1)
+
+### Meclozine
+
+Any prescription of meclozine. Other names: Ancoloxin/Meclizine/Sea-legs/Traveleeze.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.00% - 0.00%` suggests that this code set is well defined, but not used in uk primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |    29 (0.00114%) |     29 (0.00114%) |
+| 2024-08-14 | TPP             | 202124     |    2 (0.000989%) |     2 (0.000989%) |
+| 2024-08-14 | Vision          | 336422     |     6 (0.00178%) |      6 (0.00178%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/meclozine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/meclozine/1)
+
+### Mepyramine
+
+Any prescription of mepyramine. Other names: Pyrilamine.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.086% - 0.088%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |   2177 (0.0858%) |    2177 (0.0858%) |
+| 2024-08-14 | TPP             | 202124     |    177 (0.0876%) |     177 (0.0876%) |
+| 2024-08-14 | Vision          | 336422     |    294 (0.0874%) |     294 (0.0874%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/mepyramine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/mepyramine/1)
+
+### Nortriptyline
+
+Category: "antidepressants".
+
+Any prescription of nortriptyline. Other names: Allegron/Aventyl/Motipress/Motival
+
+This code set originally created by identifying the relevant codes in the BNF files. The BNF codes are then mapped to SNOMED, and then on to EMIS, Readv2 and CTV3. Subsequently extended by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.3% - 1.5%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |    35576 (1.34%) |     36747 (1.38%) |
+| 2022-06-28 | TPP             | 212907     |     2390 (1.12%) |      2481 (1.17%) |
+| 2022-06-28 | Vision          | 343146     |     3882 (1.13%) |      3960 (1.15%) |
+| 2024-05-01 | EMIS            | 2530927    |    38820 (1.53%) |     38820 (1.53%) |
+| 2024-05-01 | TPP             | 201816     |     2552 (1.26%) |      2552 (1.26%) |
+| 2024-05-01 | Vision          | 335411     |     4519 (1.35%) |      4519 (1.35%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-01
+
+LINK: [https://github.com/rw251/.../medications/nortriptyline/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/nortriptyline/1)
+
+### Orphenadrine
+
+Any prescription of orphenadrine. Other names: Biorphen/Disipal/Lysantin/Norflex.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.01% - 0.02%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |    332 (0.0131%) |     332 (0.0131%) |
+| 2024-08-14 | TPP             | 202124     |     38 (0.0188%) |      38 (0.0188%) |
+| 2024-08-14 | Vision          | 336422     |     44 (0.0131%) |      44 (0.0131%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/orphenadrine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/orphenadrine/1)
+
+### Oxybutynin
+
+Any prescription of oxybutynin. Other names: Contimin/Cystrin/Ditropan/Kentera/Lyrinel/Promictuline/Urimin.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.8% - 2.2%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |    44465 (1.75%) |     44465 (1.75%) |
+| 2024-08-14 | TPP             | 202124     |     4183 (2.07%) |      4183 (2.07%) |
+| 2024-08-14 | Vision          | 336422     |     7301 (2.17%) |      7301 (2.17%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/oxybutynin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/oxybutynin/1)
+
+### Paroxetine
+
+Category: "antidepressants".
+
+Any prescription of paroxetine (Other names: Seroxat).
+
+Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.1% - 2.3%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |    51795 (1.94%) |     54087 (2.03%) |
+| 2022-06-28 | TPP             | 212907     |     4481 (2.10%) |      4654 (2.19%) |
+| 2022-06-28 | Vision          | 343146     |     6228 (1.81%) |      6455 (1.88%) |
+| 2024-05-01 | EMIS            | 2530927    |    51777 (2.05%) |     51777 (2.05%) |
+| 2024-05-01 | TPP             | 201816     |     4320 (2.14%) |      4320 (2.14%) |
+| 2024-05-01 | Vision          | 335411     |     7674 (2.29%) |      7674 (2.29%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-01
+
+LINK: [https://github.com/rw251/.../medications/paroxetine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/paroxetine/1)
+
+### Perphenazine
+
+Any prescription of Perphenazine. Other names: Fentazin/Triptafen
+
+Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.04% - 0.08%` is possibly not sufficiently narrow to guarantee that this code set is well defined. However, this may be due to the small numbers involved.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     2336 (0.09%) |      2336 (0.09%) |
+| 2022-03-24 | TPP             | 212645     |      113 (0.05%) |       113 (0.05%) |
+| 2022-03-24 | Vision          | 341667     |       99 (0.03%) |        99 (0.03%) |
+| 2024-05-07 | EMIS            | 2516912    |   1916 (0.0761%) |    1916 (0.0761%) |
+| 2024-05-07 | TPP             | 200013     |    109 (0.0545%) |     109 (0.0545%) |
+| 2024-05-07 | Vision          | 334384     |    122 (0.0365%) |     122 (0.0365%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-07
+
+LINK: [https://github.com/rw251/.../medications/perphenazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/perphenazine/1)
+
+### Procyclidine
+
+Any prescription of procyclidine. Other names: Arpicolin/Kemadrin/Muscinil.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.29% - 0.30%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |    7382 (0.291%) |     7382 (0.291%) |
+| 2024-08-14 | TPP             | 202124     |     603 (0.298%) |      603 (0.298%) |
+| 2024-08-14 | Vision          | 336422     |     966 (0.287%) |      966 (0.287%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/procyclidine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/procyclidine/1)
+
+### Promazine
+
+Any prescription of Promazine. Other names: Prazine/Sparine
+
+Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.78% - 1.46%` suggests that this code set may not be well defined. EMIS practices have a much reduced prevalence.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-05-07 | EMIS            | 2516912    |   19727 (0.784%) |    19727 (0.784%) |
+| 2024-05-07 | TPP             | 200013     |     2704 (1.35%) |      2704 (1.35%) |
+| 2024-05-07 | Vision          | 334384     |     4878 (1.46%) |      4878 (1.46%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-07
+
+LINK: [https://github.com/rw251/.../medications/promazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/promazine/1)
+
+### Promethazine
+
+Category: "antihistamines".
+
+Any prescription of promethazine.
+
+This code set has been autogenerated by identifying the relevant codes in the BNF files. The BNF codes are then mapped to SNOMED, and then on to EMIS, Readv2 and CTV3.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4% - 6%` suggests that this code set is not well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |    78620 (2.95%) |     84079 (3.16%) |
+| 2022-06-28 | TPP             | 212907     |     5828 (2.74%) |      5937 (2.79%) |
+| 2022-06-28 | Vision          | 343146     |    15077 (4.39%) |     15977 (4.66%) |
+| 2024-08-15 | EMIS            | 2537886    |   108667 (4.28%) |    108667 (4.28%) |
+| 2024-08-15 | TPP             | 202124     |     7230 (3.58%) |      7230 (3.58%) |
+| 2024-08-15 | Vision          | 336422     |    20401 (6.06%) |     20401 (6.06%) |
+### Audit log
+
+- Find_missing_codes last run 2024-08-15
+
+LINK: [https://github.com/rw251/.../medications/promethazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/promethazine/1)
+
+### Propantheline
+
+Any prescription of propantheline. Other names: Pro-banthine.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.14% - 0.17%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |    3825 (0.151%) |     3825 (0.151%) |
+| 2024-08-14 | TPP             | 202124     |     291 (0.144%) |      291 (0.144%) |
+| 2024-08-14 | Vision          | 336422     |     562 (0.167%) |      562 (0.167%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/propantheline/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/propantheline/1)
+
+### Scopolamine
+
+Any prescription of scopolamine. Other names: Buscopan/Hyoscine/Joy-rides/Kwells/Scopoderm.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `6.6% - 8.8%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |   181793 (7.16%) |    181793 (7.16%) |
+| 2024-08-14 | TPP             | 202124     |    17772 (8.79%) |     17772 (8.79%) |
+| 2024-08-14 | Vision          | 336422     |    22129 (6.58%) |     22129 (6.58%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/scopolamine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/scopolamine/1)
+
+### Solifenacin
+
+Any prescription of solifenacin. Other names: Giraxine/Vecit/Vesicare/Vesomni.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.4% - 2.0%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |    38688 (1.52%) |     38688 (1.52%) |
+| 2024-08-14 | TPP             | 202124     |     4009 (1.98%) |      4009 (1.98%) |
+| 2024-08-14 | Vision          | 336422     |     4735 (1.41%) |      4735 (1.41%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/solifenacin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/solifenacin/1)
+
+### Tolterodine
+
+Any prescription of tolterodine. Other names: Blerone/Detrusitol/Efflosomyl/Inconex/Mariosea/Neditol/Preblacon/Santizor/Tolterma/Tolthen.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.7% - 1.7%` suggests that this code set is perhaps not well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |    21816 (0.86%) |     21816 (0.86%) |
+| 2024-08-14 | TPP             | 202124     |     3394 (1.68%) |      3394 (1.68%) |
+| 2024-08-14 | Vision          | 336422     |    2510 (0.746%) |     2510 (0.746%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/tolterodine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/tolterodine/1)
+
+### Trifluoperazine
+
+Any prescription of Trifluoperazine. Other names: Parstelin/Stelazine/Terrazine
+
+Code set created by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.08% - 0.14%` is possibly not sufficiently narrow to guarantee that this code set is well defined. Alternatively there is lower prevalence of prescribing these drugs in TPP practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     4260 (0.16%) |      4260 (0.16%) |
+| 2022-03-24 | TPP             | 212645     |      189 (0.09%) |       189 (0.09%) |
+| 2022-03-24 | Vision          | 341667     |      361 (0.11%) |       361 (0.11%) |
+| 2024-05-07 | EMIS            | 2516912    |    3621 (0.144%) |     3621 (0.144%) |
+| 2024-05-07 | TPP             | 200013     |    167 (0.0835%) |     167 (0.0835%) |
+| 2024-05-07 | Vision          | 334384     |     450 (0.135%) |      450 (0.135%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-07
+
+LINK: [https://github.com/rw251/.../medications/trifluoperazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/trifluoperazine/1)
+
+### Trihexyphenidyl
+
+Any prescription of trihexyphenidyl. Other names: Agitane/Artane/Bentex/Benzhexol/Broflex.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.05% - 0.06%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |   1247 (0.0491%) |    1247 (0.0491%) |
+| 2024-08-14 | TPP             | 202124     |     96 (0.0475%) |      96 (0.0475%) |
+| 2024-08-14 | Vision          | 336422     |    215 (0.0639%) |     215 (0.0639%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/trihexyphenidyl/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/trihexyphenidyl/1)
+
+### Trimipramine
+
+Category: "antidepressants".
+
+Any prescription of trimipramine. Other names: Surmontil.
+
+This code set originally created by identifying the relevant codes in the BNF files. The BNF codes are then mapped to SNOMED, and then on to EMIS, Readv2 and CTV3. Subsequently extended by searching the SNOMED, CTV3 and Readv2 hierarchies for the main name and the brand equivalents, then mapped to EMIS codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.06% - 0.25%` suggests that this code set is not well defined, or is prescribed more frequenly in the Vision practices in GM.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2664831    |     1794 (0.07%) |      1879 (0.07%) |
+| 2022-06-28 | TPP             | 212907     |      120 (0.06%) |       122 (0.06%) |
+| 2022-06-28 | Vision          | 343146     |      785 (0.23%) |       808 (0.24%) |
+| 2024-05-01 | EMIS            | 2530927    |   1700 (0.0672%) |    1700 (0.0672%) |
+| 2024-05-01 | TPP             | 201816     |     115 (0.057%) |      115 (0.057%) |
+| 2024-05-01 | Vision          | 335411     |     847 (0.253%) |      847 (0.253%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-05-01
+
+LINK: [https://github.com/rw251/.../medications/trimipramine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/trimipramine/1)
+
+### Trospium
+
+Any prescription of trospium. Other names: Flotros/Regurin/Uraplex.
+
+Code set created from SNOMED searches and then mapped to Read v2, CTV3 and EMIS.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.48% - 0.57%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-08-14 | EMIS            | 2537886    |   14297 (0.563%) |    14297 (0.563%) |
+| 2024-08-14 | TPP             | 202124     |    1142 (0.565%) |     1142 (0.565%) |
+| 2024-08-14 | Vision          | 336422     |    1609 (0.478%) |     1609 (0.478%) |
+#### Audit log
+
+- Find_missing_codes last run 2024-08-13
+
+LINK: [https://github.com/rw251/.../medications/trospium/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/trospium/1)
 # Clinical code sets
 
 All code sets required for this analysis are available here: [https://github.com/rw251/.../SDE Lighthouse 03 - Kontopantelis/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/SDE%20Lighthouse%2003%20-%20Kontopantelis/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.

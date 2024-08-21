@@ -21,24 +21,24 @@
 -- >>> Following code sets injected: donepezil v1/galantamine v1/rivastigmine v1/memantine v1
 
 -- Anticholinergic score 1
---|> CODESET alimemazine:1 alprazolam:1 alverine:1 atenolol:1 beclometasone:1 bupropion:1 captopril:1
---|> CODESET cimetidine:1 clorazepate:1 codeine:1 colchicine:1 dextropropoxyphene:1 diazepam:1 digoxin:1
---|> CODESET dipyridamole:1 disopyramide-phosphate:1 fentanyl:1 fluvoxamine:1 furosemide:1 haloperidol:1
---|> CODESET hydralazine:1 hydrocortisone:1 isosorbide:1 loperamide:1 metoprolol:1 morphine:1 nifedipine:1
---|> CODESET prednisolone:1 prednisone:1 quinine:1 ranitidine:1 theophylline:1 timolol:1 trazodone:1
---|> CODESET triamterene:1 warfarin:1
+-- >>> Following code sets injected: alimemazine v1/alprazolam v1/alverine v1/atenolol v1/beclometasone v1/bupropion v1/captopril v1
+-- >>> Following code sets injected: cimetidine v1/clorazepate v1/codeine v1/colchicine v1/dextropropoxyphene v1/diazepam v1/digoxin v1
+-- >>> Following code sets injected: dipyridamole v1/disopyramide-phosphate v1/fentanyl v1/fluvoxamine v1/furosemide v1/haloperidol v1
+-- >>> Following code sets injected: hydralazine v1/hydrocortisone v1/isosorbide v1/loperamide v1/metoprolol v1/morphine v1/nifedipine v1
+-- >>> Following code sets injected: prednisolone v1/prednisone v1/quinine v1/ranitidine v1/theophylline v1/timolol v1/trazodone v1
+-- >>> Following code sets injected: triamterene v1/warfarin v1
 
 -- Anticholinergic score 2
---|> CODESET amantadine:1 belladona:1 carbamazepine:1 cyclobenzaprine cyproheptadine:1 loxapine:1
---|> CODESET pethidine:1 levomepromazine:1 oxcarbazepine:1 pimozide:1
+-- >>> Following code sets injected: amantadine v1/belladona v1/carbamazepine v1/cyclobenzaprine v1/cyproheptadine v1/loxapine v1
+-- >>> Following code sets injected: pethidine v1/levomepromazine v1/oxcarbazepine v1/pimozide v1
 
 -- Anticholinergic score 3
---|> CODESET amitriptyline:1 amoxapine:1 atropine:1 benztropine:1 chlorphenamine:1 chlorpromazine:1
---|> CODESET clemastine:1 clomipramine:1 clozapine:1 darifenacin:1 desipramine:1 dicyclomine:1
---|> CODESET diphenhydramine:1 doxepin:1 flavoxate:1 hydroxyzine:1 imipramine:1 meclozine:1 mepyramine:1
---|> CODESET nortriptyline:1 orphenadrine:1 oxybutynin:1 paroxetine:1 perphenazine:1 procyclidine:1
---|> CODESET promazine:1 promethazine:1 propantheline:1 scopolamine:1 solifenacin:1 tolterodine:1
---|> CODESET trifluoperazine:1 trihexyphenidyl:1 trimipramine:1 trospium:1
+-- >>> Following code sets injected: amitriptyline v1/amoxapine v1/atropine v1/benztropine v1/chlorphenamine v1/chlorpromazine v1
+-- >>> Following code sets injected: clemastine v1/clomipramine v1/clozapine v1/darifenacin v1/desipramine v1/dicyclomine v1
+-- >>> Following code sets injected: diphenhydramine v1/doxepin v1/flavoxate v1/hydroxyzine v1/imipramine v1/meclozine v1/mepyramine v1
+-- >>> Following code sets injected: nortriptyline v1/orphenadrine v1/oxybutynin v1/paroxetine v1/perphenazine v1/procyclidine v1
+-- >>> Following code sets injected: promazine v1/promethazine v1/propantheline v1/scopolamine v1/solifenacin v1/tolterodine v1
+-- >>> Following code sets injected: trifluoperazine v1/trihexyphenidyl v1/trimipramine v1/trospium v1
 
 -- Populate a temp table with all the drugs without refsets that we get from GP_Medications
 DROP TABLE IF EXISTS LH003_Medication_Codes;

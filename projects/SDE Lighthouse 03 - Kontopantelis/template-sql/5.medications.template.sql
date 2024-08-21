@@ -19,24 +19,24 @@
 --> CODESET donepezil:1 galantamine:1 rivastigmine:1 memantine:1 
 
 -- Anticholinergic score 1
---|> CODESET alimemazine:1 alprazolam:1 alverine:1 atenolol:1 beclometasone:1 bupropion:1 captopril:1
---|> CODESET cimetidine:1 clorazepate:1 codeine:1 colchicine:1 dextropropoxyphene:1 diazepam:1 digoxin:1
---|> CODESET dipyridamole:1 disopyramide-phosphate:1 fentanyl:1 fluvoxamine:1 furosemide:1 haloperidol:1
---|> CODESET hydralazine:1 hydrocortisone:1 isosorbide:1 loperamide:1 metoprolol:1 morphine:1 nifedipine:1
---|> CODESET prednisolone:1 prednisone:1 quinine:1 ranitidine:1 theophylline:1 timolol:1 trazodone:1
---|> CODESET triamterene:1 warfarin:1
+--> CODESET alimemazine:1 alprazolam:1 alverine:1 atenolol:1 beclometasone:1 bupropion:1 captopril:1
+--> CODESET cimetidine:1 clorazepate:1 codeine:1 colchicine:1 dextropropoxyphene:1 diazepam:1 digoxin:1
+--> CODESET dipyridamole:1 disopyramide-phosphate:1 fentanyl:1 fluvoxamine:1 furosemide:1 haloperidol:1
+--> CODESET hydralazine:1 hydrocortisone:1 isosorbide:1 loperamide:1 metoprolol:1 morphine:1 nifedipine:1
+--> CODESET prednisolone:1 prednisone:1 quinine:1 ranitidine:1 theophylline:1 timolol:1 trazodone:1
+--> CODESET triamterene:1 warfarin:1
 
 -- Anticholinergic score 2
---|> CODESET amantadine:1 belladona:1 carbamazepine:1 cyclobenzaprine cyproheptadine:1 loxapine:1
---|> CODESET pethidine:1 levomepromazine:1 oxcarbazepine:1 pimozide:1
+--> CODESET amantadine:1 belladona:1 carbamazepine:1 cyclobenzaprine:1 cyproheptadine:1 loxapine:1
+--> CODESET pethidine:1 levomepromazine:1 oxcarbazepine:1 pimozide:1
 
 -- Anticholinergic score 3
---|> CODESET amitriptyline:1 amoxapine:1 atropine:1 benztropine:1 chlorphenamine:1 chlorpromazine:1
---|> CODESET clemastine:1 clomipramine:1 clozapine:1 darifenacin:1 desipramine:1 dicyclomine:1
---|> CODESET diphenhydramine:1 doxepin:1 flavoxate:1 hydroxyzine:1 imipramine:1 meclozine:1 mepyramine:1
---|> CODESET nortriptyline:1 orphenadrine:1 oxybutynin:1 paroxetine:1 perphenazine:1 procyclidine:1
---|> CODESET promazine:1 promethazine:1 propantheline:1 scopolamine:1 solifenacin:1 tolterodine:1
---|> CODESET trifluoperazine:1 trihexyphenidyl:1 trimipramine:1 trospium:1
+--> CODESET amitriptyline:1 amoxapine:1 atropine:1 benztropine:1 chlorphenamine:1 chlorpromazine:1
+--> CODESET clemastine:1 clomipramine:1 clozapine:1 darifenacin:1 desipramine:1 dicyclomine:1
+--> CODESET diphenhydramine:1 doxepin:1 flavoxate:1 hydroxyzine:1 imipramine:1 meclozine:1 mepyramine:1
+--> CODESET nortriptyline:1 orphenadrine:1 oxybutynin:1 paroxetine:1 perphenazine:1 procyclidine:1
+--> CODESET promazine:1 promethazine:1 propantheline:1 scopolamine:1 solifenacin:1 tolterodine:1
+--> CODESET trifluoperazine:1 trihexyphenidyl:1 trimipramine:1 trospium:1
 
 -- Populate a temp table with all the drugs without refsets that we get from GP_Medications
 DROP TABLE IF EXISTS LH003_Medication_Codes;
