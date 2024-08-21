@@ -218,17 +218,24 @@ async function generateSql(project, projectName, templates, isSnowflake, config)
 
     const outputName = templateName.replace('.template', '');
 
-    const finalSQL = sql
-      .replace(/\{\{code-set-table\}\}/g, codeSetTableName)
-      .replace(/\{\{cohort-table\}\}/g, cohortTableName)
-      .replace(/\{\{project-schema\}\}/g, config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA);
+    if (isSnowflake) {
+      const finalSQL = sql
+        .replace(/\{\{code-set-table\}\}/g, codeSetTableName)
+        .replace(/\{\{cohort-table\}\}/g, cohortTableName)
+        .replace(/\{\{project-schema\}\}/g, config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA);
 
-    writeFileSync(join(OUTPUT_DIRECTORY, outputName), finalSQL);
+      writeFileSync(join(OUTPUT_DIRECTORY, outputName), finalSQL);
+    } else {
+      let codeSetSql = await (codeSets.length > 0 ? createCodeSetSQL(codeSets) : '');
+      const finalSQL = sql.replace(CODESET_MARKER, codeSetSql);
+
+      writeFileSync(join(OUTPUT_DIRECTORY, outputName), finalSQL);
+    }
   }
   const flattenedCodeSets = Object.keys(allCodeSets)
     .map((codeSet) => Array.from(allCodeSets[codeSet]).map((version) => ({ codeSet, version })))
     .flat();
-  if (flattenedCodeSets.length > 0) {
+  if (flattenedCodeSets.length > 0 && isSnowflake) {
     // we have some codesets so write the file to populate the code set tables
     const { sql, csv } = await (flattenedCodeSets.length > 0
       ? createCodeSetSQL(flattenedCodeSets, projectNameChunked, config)
