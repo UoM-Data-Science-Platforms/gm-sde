@@ -1,0 +1,44 @@
+^ESCTLU257360	Lupus nephritis - WHO Class II
+^ESCTLU267516	Lupus with glomerular sclerosis
+^ESCTLU267517	Lupus nephritis - WHO Class VI
+^ESCTLU308669	Lupus nephritis - WHO Class IV
+^ESCTLU334360	Lupus nephritis - WHO Class V
+^ESCTLU369178	Lupus nephritis - WHO Class I
+^ESCTLU374466	Lupus nephritis - WHO Class III
+^ESCTME334359	Membranous lupus glomerulonephritis
+^ESCTSL257358	SLE glomerulonephritis syndrome, WHO class II
+^ESCTSL257359	SLE with mesangial proliferative glomerulonephritis
+^ESCTSL267514	SLE glomerulonephritis syndrome, WHO class VI
+^ESCTSL267515	SLE with advanced sclerosing glomerulonephritis
+^ESCTSL308667	SLE glomerulonephritis syndrome, WHO class IV
+^ESCTSL308668	SLE with diffuse proliferative glomerulonephritis
+^ESCTSL334357	SLE glomerulonephritis syndrome, WHO class V
+^ESCTSL334358	SLE with membranous glomerulonephritis
+^ESCTSL361922	SLE glomerulonephritis syndrome
+^ESCTSL369176	SLE glomerulonephritis syndrome, WHO class I
+^ESCTSL369177	SLE with normal kidneys
+^ESCTSL374464	SLE glomerulonephritis syndrome, WHO class III
+^ESCTSL374465	SLE with focal AND segmental proliferative glomerulonephritis
+^ESCTSY257361	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class II
+^ESCTSY257362	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization (WHO) class II
+^ESCTSY257363	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class II
+^ESCTSY267518	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class VI
+^ESCTSY267519	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization (WHO) class VI
+^ESCTSY267520	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class VI
+^ESCTSY308670	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class IV
+^ESCTSY308671	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization (WHO) class IV
+^ESCTSY308672	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class IV
+^ESCTSY334361	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class V
+^ESCTSY334362	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization (WHO) class V
+^ESCTSY334363	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class V
+^ESCTSY361924	Systemic lupus erythematosus glomerulonephritis syndrome
+^ESCTSY369179	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class I
+^ESCTSY369180	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization (WHO) class I
+^ESCTSY369181	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class I
+^ESCTSY374467	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization (WHO) class III
+^ESCTSY374468	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class III
+^ESCTSY374469	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class III
+^ESCTGL809990	Glomerular disease due to systemic lupus erythematosus
+^ESCTGL809991	Glomerular disease due to SLE (systemic lupus erythematosus)
+^ESCTNE809113	Nephropathy co-occurrent and due to systemic lupus erythematosus
+^ESCTNE809115	Nephrotic syndrome co-occurrent and due to systemic lupus erythematosus
