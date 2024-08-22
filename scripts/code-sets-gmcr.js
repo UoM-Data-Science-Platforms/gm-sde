@@ -10,7 +10,8 @@ const EMIS = 'emis';
 const SNOMED = 'snomed';
 const READv2 = 'readv2';
 const CTV3 = 'ctv3';
-const terminologies = [EMIS, SNOMED, READv2, CTV3];
+const ICD10 = 'icd10';
+const terminologies = [EMIS, SNOMED, READv2, CTV3, ICD10];
 let clinicalCodesByTerminology;
 let clinicalCodesByConcept;
 
@@ -156,6 +157,7 @@ There are ${codeSetTypes.length} code set types. They are: ${codeSetTypes
             if (x === 'readv2') return chalk.bgGreen.bold(x);
             if (x === 'ctv3') return chalk.bgYellow.black(x);
             if (x === 'snomed') return chalk.bgWhite.black(x);
+            if (x === 'icd10') return chalk.bgBlue.white(x);
             return x;
           })
           .join(' ')}`
@@ -801,8 +803,8 @@ function checkForUnexpectedFiles(codeSetType, codeSetName, version) {
     throw new Error(`
 The file names in the ${CODE_SET_DIR} directory should either be:
 
-- a code set ("name.[ctv3|readv2|snomed|emis].txt")
-- metadata ("name.[ctv3|readv2|snomed|emis].metadata.[txt|json]")
+- a code set ("name.[ctv3|readv2|snomed|emis|icd10].txt")
+- metadata ("name.[ctv3|readv2|snomed|emis|icd10].metadata.[txt|json]")
 - or a readme ("README.md")
 
 The following file names do not conform:\n\n${invalidNames.join('\n')}\n\n`);
@@ -929,7 +931,7 @@ function isValidCodeSet(codeSet) {
  * @param {sting} version
  */
 function isValidCodeSetFile(codeSet) {
-  return codeSet.match(/\.(ctv3|emis|readv2|snomed)\.txt$/);
+  return codeSet.match(/\.(ctv3|emis|readv2|snomed|icd10)\.txt$/);
 }
 
 /**
@@ -938,7 +940,7 @@ function isValidCodeSetFile(codeSet) {
  */
 function isValidCodeSetMetadataFile(codeSet) {
   return (
-    codeSet.match(/\.(ctv3|emis|readv2|snomed)\.metadata\.(txt|json)$/) ||
+    codeSet.match(/\.(ctv3|emis|readv2|snomed|icd10)\.metadata\.(txt|json)$/) ||
     codeSet === 'README.md' ||
     codeSet === 'template.json'
   );
