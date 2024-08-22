@@ -1,0 +1,535 @@
+ALTR122267NEMIS	Almuriva  Transdermal patches  4.6 mg/24 hours
+ALTR122269NEMIS	Almuriva  Transdermal patches  9.5 mg/24 hours
+ALTR139200NEMIS	Alzest  Transdermal patches  13.3 mg/24 hours
+ALTR143010NEMIS	Almuriva  Transdermal patches  13.3 mg/24 hours
+ALTR89305NEMIS	Alzest  Transdermal patches  4.6 mg/24 hours
+ALTR89306NEMIS	Alzest  Transdermal patches  9.5 mg/24 hours
+ELTR105706NEMIS	Eluden  Transdermal patches  4.6 mg/24 hours
+ELTR105707NEMIS	Eluden  Transdermal patches  9.5 mg/24 hours
+ERTR105312NEMIS	Erastig  Transdermal patches  13.3 mg/24 hours
+ERTR88198NEMIS	Erastig  Transdermal patches  4.6 mg/24 hours
+ERTR88199NEMIS	Erastig  Transdermal patches  9.5 mg/24 hours
+EXCA33018EMIS	Exelon  Capsules  1.5 mg
+EXCA33019EMIS	Exelon  Capsules  3 mg
+EXCA33020EMIS	Exelon  Capsules  4.5 mg
+EXCA33021EMIS	Exelon  Capsules  6 mg
+EXOR11861NEMIS	Exelon  Oral solution  2 mg/ml
+EXTR27769NEMIS	Exelon  Transdermal patches  4.6 mg/24 hours
+EXTR27777NEMIS	Exelon  Transdermal patches  9.5 mg/24 hours
+EXTR79454NEMIS	Exelon  Transdermal patches  13.3 mg/24 hours
+KECA78595NEMIS	Kerstipon  Capsules  1.5 mg
+KECA78596NEMIS	Kerstipon  Capsules  3 mg
+KECA78597NEMIS	Kerstipon  Capsules  4.5 mg
+KECA78598NEMIS	Kerstipon  Capsules  6 mg
+NICA52131NEMIS	Nimvastid  Capsules  1.5 mg
+NICA52132NEMIS	Nimvastid  Capsules  3 mg
+NICA52133NEMIS	Nimvastid  Capsules  4.5 mg
+NICA52134NEMIS	Nimvastid  Capsules  6 mg
+PRTR92113NEMIS	Prometax  Transdermal patches  4.6 mg/24 hours
+PRTR92117NEMIS	Prometax  Transdermal patches  9.5 mg/24 hours
+RICA33026EMIS	Rivastigmine Hydrogen Tartrate  Capsules  1.5 mg
+RICA33027EMIS	Rivastigmine Hydrogen Tartrate  Capsules  3 mg
+RICA33028EMIS	Rivastigmine Hydrogen Tartrate  Capsules  4.5 mg
+RICA33029EMIS	Rivastigmine Hydrogen Tartrate  Capsules  6 mg
+RIOR11860NEMIS	Rivastigmine Hydrogen Tartrate  Oral Solution, Sugar Free  2 mg/ml
+RITR27762NEMIS	Rivastigmine  Transdermal patches  4.6 mg/24 hours
+RITR27765NEMIS	Rivastigmine  Transdermal patches  9.5 mg/24 hours
+RITR79453NEMIS	Rivastigmine  Transdermal patches  13.3 mg/24 hours
+SOTR91631NEMIS	Somniton  Transdermal patches  4.6 mg/24 hours
+SOTR91639NEMIS	Somniton  Transdermal patches  9.5 mg/24 hours
+VOTR113412NEMIS	Voleze  Transdermal patches  13.3 mg/24 hours
+VOTR79476NEMIS	Voleze  Transdermal patches  4.6 mg/24 hours
+VOTR79477NEMIS	Voleze  Transdermal patches  9.5 mg/24 hours
+ZETR144658NEMIS	Zeyzelf Twice Weekly  Transdermal patches  4.6 mg/24 hours
+ZETR144659NEMIS	Zeyzelf Twice Weekly  Transdermal patches  9.5 mg/24 hours
+^ESCT1178694	Product containing only rivastigmine 1.5 mg/1 each oral capsule
+^ESCT1180474	Rivastigmine 6mg capsules (Mylan) 56 capsule 4 x 14 capsules
+^ESCT1180475	Rivastigmine 3mg capsules (Mylan)
+^ESCT1180476	Rivastigmine 3mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1180477	Rivastigmine 3mg capsules (Mylan) 56 capsule 4 x 14 capsules
+^ESCT1180478	Rivastigmine 1.5mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1180525	Eluden 9.5mg/24hours transdermal patches (Mylan) 30 patch 5 x 6 patches
+^ESCT1181700	Product containing only rivastigmine 6 mg/1 each oral capsule
+^ESCT1181998	Product containing only rivastigmine 4.5 mg/1 each oral capsule
+^ESCT1184438	Rivastigmine 6mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1184439	Rivastigmine 1.5mg capsules (Mylan)
+^ESCT1186810	Eluden 4.6mg/24hours transdermal patches (Mylan)
+^ESCT1186811	Eluden 9.5mg/24hours transdermal patches (Mylan)
+^ESCT1188125	Product containing only rivastigmine 3 mg/1 each oral capsule
+^ESCT1189627	Rivastigmine 6mg capsules (Mylan)
+^ESCT1189628	Rivastigmine 4.5mg capsules (Mylan)
+^ESCT1189629	Rivastigmine 4.5mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1189630	Rivastigmine 4.5mg capsules (Mylan) 56 capsule 4 x 14 capsules
+^ESCT1189631	Rivastigmine 1.5mg capsules (Mylan) 56 capsule 4 x 14 capsules
+^ESCT1189677	Eluden 4.6mg/24hours transdermal patches (Mylan) 30 patch 5 x 6 patches
+^ESCT1208611	Rivastigmine in transdermal dosage form
+^ESCT1208612	Product containing rivastigmine in transdermal dosage form
+^ESCT1224031	Rivastigmine
+^ESCT1224032	Rivastigmine product
+^ESCT1224033	Rivastigmine (as rivastigmine tartrate) 1.5 mg oral capsule
+^ESCT1224034	Product containing precisely rivastigmine (as rivastigmine tartrate) 1.5 milligram/1 each conventional release oral capsule
+^ESCT1224035	Product containing precisely rivastigmine (as rivastigmine tartrate) 3 milligram/1 each conventional release oral capsule
+^ESCT1224036	Rivastigmine (as rivastigmine tartrate) 3 mg oral capsule
+^ESCT1224037	Rivastigmine (as rivastigmine tartrate) 4.5 mg oral capsule
+^ESCT1224038	Product containing precisely rivastigmine (as rivastigmine tartrate) 4.5 milligram/1 each conventional release oral capsule
+^ESCT1224039	Product containing precisely rivastigmine (as rivastigmine tartrate) 6 milligram/1 each conventional release oral capsule
+^ESCT1224040	Rivastigmine (as rivastigmine tartrate) 6 mg oral capsule
+^ESCT1230552	Rivastigmine (as rivastigmine tartrate) 2 mg/mL oral solution
+^ESCT1230553	Product containing precisely rivastigmine (as rivastigmine tartrate) 2 milligram/1 milliliter conventional release oral solution
+^ESCT1250699	Voleze 4.6mg/24hours transdermal patches (Advanz Pharma)
+^ESCT1250700	Voleze 4.6mg/24hours transdermal patches (Advanz Pharma) 30 patch
+^ESCT1250852	Voleze 13.3mg/24hours transdermal patches (Advanz Pharma)
+^ESCT1250853	Voleze 13.3mg/24hours transdermal patches (Advanz Pharma) 30 patch
+^ESCT1258011	Rivastigmine 2mg/ml oral solution sugar free (Sandoz Ltd)
+^ESCT1258012	Rivastigmine 2mg/ml oral solution sugar free (Sandoz Ltd) 120 ml
+^ESCT1258023	Exelon 9.5mg/24hours transdermal patches (Originalis B.V.)
+^ESCT1258024	Exelon 9.5mg/24hours transdermal patches (Originalis B.V.) 30 patch
+^ESCT1258025	Exelon 4.6mg/24hours transdermal patches (Originalis B.V.)
+^ESCT1258026	Exelon 4.6mg/24hours transdermal patches (Originalis B.V.) 30 patch
+^ESCT1259884	Rivastigmine 1.5mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259885	Rivastigmine 1.5mg capsules (Torrent Pharma (UK) Ltd) 28 capsule
+^ESCT1259886	Rivastigmine 3mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259887	Rivastigmine 3mg capsules (Torrent Pharma (UK) Ltd) 28 capsule
+^ESCT1259888	Rivastigmine 4.5mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259889	Rivastigmine 4.5mg capsules (Torrent Pharma (UK) Ltd) 28 capsule
+^ESCT1259890	Rivastigmine 6mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259891	Rivastigmine 6mg capsules (Torrent Pharma (UK) Ltd) 28 capsule
+^ESCT1267415	Exelon 4.6mg/24hours transdermal patches (CST Pharma Ltd)
+^ESCT1267416	Exelon 4.6mg/24hours transdermal patches (CST Pharma Ltd) 30 patch
+^ESCT1267417	Exelon 9.5mg/24hours transdermal patches (CST Pharma Ltd)
+^ESCT1267418	Exelon 9.5mg/24hours transdermal patches (CST Pharma Ltd) 30 patch
+^ESCT1350725	Rivastigmine-containing product in cutaneous dose form
+^ESCT1356645	Rivastigmine only product
+^ESCT1359771	Rivastigmine only product in cutaneous dose form
+^ESCT1359772	Rivastigmine only product in oral dose form
+^ESCT1359773	Rivastigmine only product in transdermal dose form
+^ESCT1364435	Rivastigmine 192 microgram/hour prolonged-release transdermal patch
+^ESCT1364436	Rivastigmine 396 microgram/hour prolonged-release transdermal patch
+^ESCT1383732	Rivastigmine-containing product in oral dose form
+^ESCT1387097	Rivastigmine-containing product in transdermal dose form
+^ESCT1389143	Prometax 9.5mg/24hours transdermal patches (Sandoz Ltd)
+^ESCT1389144	Prometax 9.5mg/24hours transdermal patches (Sandoz Ltd) 30 patch
+^ESCT1389145	Prometax 4.6mg/24hours transdermal patches (Sandoz Ltd)
+^ESCT1389146	Prometax 4.6mg/24hours transdermal patches (Sandoz Ltd) 30 patch
+^ESCT1402103	Exelon 13.3mg/24hours transdermal patches (CST Pharma Ltd)
+^ESCT1402105	Exelon 13.3mg/24hours transdermal patches (CST Pharma Ltd) 30 patch
+^ESCT1403914	Rivastigmine 1.5mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403915	Rivastigmine 1.5mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1403918	Rivastigmine 3mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403919	Rivastigmine 3mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1403920	Rivastigmine 4.5mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403922	Rivastigmine 4.5mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1403925	Rivastigmine 6mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403926	Rivastigmine 6mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1404538	Rivastigmine 1.5mg capsules (Bristol Laboratories Ltd)
+^ESCT1404539	Rivastigmine 1.5mg capsules (Bristol Laboratories Ltd) 28 capsule 2 x 14 capsules
+^ESCT1404540	Rivastigmine 3mg capsules (Bristol Laboratories Ltd)
+^ESCT1404541	Rivastigmine 3mg capsules (Bristol Laboratories Ltd) 28 capsule 2 x 14 capsules
+^ESCT1404542	Rivastigmine 4.5mg capsules (Bristol Laboratories Ltd)
+^ESCT1404543	Rivastigmine 4.5mg capsules (Bristol Laboratories Ltd) 28 capsule 2 x 14 capsules
+^ESCT1404544	Rivastigmine 6mg capsules (Bristol Laboratories Ltd)
+^ESCT1404545	Rivastigmine 6mg capsules (Bristol Laboratories Ltd) 28 capsule 2 x 14 capsules
+^ESCT1419078	Alzest 13.3mg/24hours transdermal patches (Dr Reddy's Laboratories (UK) Ltd) 30 patch
+^ESCT1419080	Alzest 13.3mg/24hours transdermal patches (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1422670	Somniton 4.6mg/24hours transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1422671	Somniton 4.6mg/24hours transdermal patches (Zentiva Pharma UK Ltd) 30 patch
+^ESCT1422672	Somniton 9.5mg/24hours transdermal patches (Zentiva Pharma UK Ltd)
+^ESCT1422673	Somniton 9.5mg/24hours transdermal patches (Zentiva Pharma UK Ltd) 30 patch
+^ESCT1429483	Rivastigmine 1.5mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1429484	Rivastigmine 2mg/ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1429485	Rivastigmine 2mg/ml oral solution sugar free (Medihealth (Northern) Ltd) 120 ml
+^ESCT1429486	Rivastigmine 3mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1429487	Rivastigmine 4.5mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1429488	Rivastigmine 6mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1438353	Rivastigmine 6mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438354	Rivastigmine 6mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1438355	Rivastigmine 6mg capsules (Viatris UK Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1438356	Rivastigmine 4.5mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438357	Rivastigmine 4.5mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1438358	Rivastigmine 4.5mg capsules (Viatris UK Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1438359	Rivastigmine 3mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438360	Rivastigmine 3mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1438361	Rivastigmine 3mg capsules (Viatris UK Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1438362	Rivastigmine 1.5mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438363	Rivastigmine 1.5mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1438364	Rivastigmine 1.5mg capsules (Viatris UK Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1438541	Eluden 4.6mg/24hours transdermal patches (Viatris UK Healthcare Ltd)
+^ESCT1438542	Eluden 4.6mg/24hours transdermal patches (Viatris UK Healthcare Ltd) 30 patch 5 x 6 patches
+^ESCT1438543	Eluden 9.5mg/24hours transdermal patches (Viatris UK Healthcare Ltd)
+^ESCT1438544	Eluden 9.5mg/24hours transdermal patches (Viatris UK Healthcare Ltd) 30 patch 5 x 6 patches
+^ESCTAL1066298	Alzest 4.6mg/24hours transdermal patches (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1066299	Alzest 4.6mg/24hours transdermal patches (Dr Reddy's Laboratories (UK) Ltd) 30 patch
+^ESCTAL1066300	Alzest 9.5mg/24hours transdermal patches (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1066301	Alzest 9.5mg/24hours transdermal patches (Dr Reddy's Laboratories (UK) Ltd) 30 patch
+^ESCTAL1158788	Almuriva 4.6mg/24hours transdermal patches (Sandoz Ltd)
+^ESCTAL1158789	Almuriva 4.6mg/24hours transdermal patches (Sandoz Ltd) 30 patch
+^ESCTAL1158790	Almuriva 9.5mg/24hours transdermal patches (Sandoz Ltd)
+^ESCTAL1158791	Almuriva 9.5mg/24hours transdermal patches (Sandoz Ltd) 30 patch
+^ESCTAL946150	Alzest
+^ESCTAL958055	Almuriva
+^ESCTEL1094481	Eluden 4.6mg/24hours transdermal patches (Mylan Ltd)
+^ESCTEL1094482	Eluden 4.6mg/24hours transdermal patches (Mylan Ltd) 30 patch 5 x 6 patches
+^ESCTEL1094483	Eluden 9.5mg/24hours transdermal patches (Mylan Ltd)
+^ESCTEL1094484	Eluden 9.5mg/24hours transdermal patches (Mylan Ltd) 30 patch 5 x 6 patches
+^ESCTEL947501	Eluden
+^ESCTER1048210	Erastig 9.5mg/24hours transdermal patches (Teva UK Ltd)
+^ESCTER1048211	Erastig 9.5mg/24hours transdermal patches (Teva UK Ltd) 30 patch
+^ESCTER1048230	Erastig 4.6mg/24hours transdermal patches (Teva UK Ltd)
+^ESCTER1048231	Erastig 4.6mg/24hours transdermal patches (Teva UK Ltd) 30 patch
+^ESCTER1126202	Erastig 13.3mg/24hours transdermal patches (Teva UK Ltd)
+^ESCTER1126204	Erastig 13.3mg/24hours transdermal patches (Teva UK Ltd) 30 patch
+^ESCTER942324	Erastig
+^ESCTEX1001976	Exelon 1.5mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTEX1001977	Exelon 4.5mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTEX1001978	Exelon 4.5mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCTEX1001979	Exelon 4.6mg/24hours transdermal patches (Mawdsley-Brooks & Company Ltd)
+^ESCTEX1001980	Exelon 4.6mg/24hours transdermal patches (Mawdsley-Brooks & Company Ltd) 30 patch
+^ESCTEX1001981	Exelon 9.5mg/24hours transdermal patches (Mawdsley-Brooks & Company Ltd)
+^ESCTEX1001982	Exelon 9.5mg/24hours transdermal patches (Mawdsley-Brooks & Company Ltd) 30 patch
+^ESCTEX1003225	Exelon 4.6mg/24hours transdermal patches (Waymade Healthcare Plc)
+^ESCTEX1003226	Exelon 4.6mg/24hours transdermal patches (Waymade Healthcare Plc) 30 patch
+^ESCTEX1003227	Exelon 9.5mg/24hours transdermal patches (Waymade Healthcare Plc)
+^ESCTEX1003228	Exelon 9.5mg/24hours transdermal patches (Waymade Healthcare Plc) 30 patch
+^ESCTEX1005712	Exelon 2mg/ml oral solution (Sigma Pharmaceuticals Plc)
+^ESCTEX1005713	Exelon 2mg/ml oral solution (Sigma Pharmaceuticals Plc) 120 ml
+^ESCTEX1007151	Exelon 1.5mg capsules (Lexon (UK) Ltd)
+^ESCTEX1007152	Exelon 1.5mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTEX1007153	Exelon 3mg capsules (Lexon (UK) Ltd)
+^ESCTEX1007154	Exelon 3mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTEX1007155	Exelon 4.5mg capsules (Lexon (UK) Ltd)
+^ESCTEX1007156	Exelon 4.5mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTEX1007157	Exelon 6mg capsules (Lexon (UK) Ltd)
+^ESCTEX1007158	Exelon 6mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTEX1007159	Exelon 9.5mg/24hours transdermal patches (Lexon (UK) Ltd)
+^ESCTEX1007160	Exelon 9.5mg/24hours transdermal patches (Lexon (UK) Ltd) 30 patch
+^ESCTEX1008047	Exelon 6mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTEX1009008	Exelon 1.5mg capsules (Necessity Supplies Ltd)
+^ESCTEX1009009	Exelon 1.5mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTEX1009010	Exelon 4.5mg capsules (Necessity Supplies Ltd)
+^ESCTEX1009011	Exelon 4.5mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTEX1009012	Exelon 3mg capsules (Necessity Supplies Ltd)
+^ESCTEX1009013	Exelon 3mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTEX1009014	Exelon 6mg capsules (Necessity Supplies Ltd)
+^ESCTEX1009015	Exelon 6mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTEX1009016	Exelon 4.6mg/24hours transdermal patches (Necessity Supplies Ltd)
+^ESCTEX1009017	Exelon 4.6mg/24hours transdermal patches (Necessity Supplies Ltd) 30 patch
+^ESCTEX1009018	Exelon 9.5mg/24hours transdermal patches (Necessity Supplies Ltd)
+^ESCTEX1009019	Exelon 9.5mg/24hours transdermal patches (Necessity Supplies Ltd) 30 patch
+^ESCTEX1009319	Exelon 1.5mg capsules (Stephar (U.K.) Ltd)
+^ESCTEX1009320	Exelon 1.5mg capsules (Stephar (U.K.) Ltd) 28 capsule
+^ESCTEX1009321	Exelon 3mg capsules (Stephar (U.K.) Ltd)
+^ESCTEX1009322	Exelon 3mg capsules (Stephar (U.K.) Ltd) 28 capsule
+^ESCTEX1009324	Exelon 4.5mg capsules (Stephar (U.K.) Ltd)
+^ESCTEX1009325	Exelon 4.5mg capsules (Stephar (U.K.) Ltd) 28 capsule
+^ESCTEX1009326	Exelon 6mg capsules (Stephar (U.K.) Ltd)
+^ESCTEX1009327	Exelon 6mg capsules (Stephar (U.K.) Ltd) 28 capsule
+^ESCTEX1011937	Exelon 4.6mg/24hours transdermal patches (DE Pharmaceuticals)
+^ESCTEX1011938	Exelon 4.6mg/24hours transdermal patches (DE Pharmaceuticals) 30 patch
+^ESCTEX1011939	Exelon 9.5mg/24hours transdermal patches (DE Pharmaceuticals)
+^ESCTEX1011940	Exelon 9.5mg/24hours transdermal patches (DE Pharmaceuticals) 30 patch
+^ESCTEX1023540	Exelon 1.5mg capsules (Waymade Healthcare Plc) 56 capsule
+^ESCTEX1023541	Exelon 3mg capsules (Waymade Healthcare Plc) 56 capsule
+^ESCTEX1047055	Exelon 13.3mg/24hours transdermal patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX1047056	Exelon 13.3mg/24hours transdermal patches (Novartis Pharmaceuticals UK Ltd) 30 patch
+^ESCTEX864067	Exelon 1.5mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX864069	Exelon 1.5mg capsules (Novartis Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTEX864071	Exelon 1.5mg capsules (Novartis Pharmaceuticals UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTEX864074	Exelon 3mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX864076	Exelon 3mg capsules (Novartis Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTEX864079	Exelon 3mg capsules (Novartis Pharmaceuticals UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTEX865327	Exelon 4.5mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX865329	Exelon 4.5mg capsules (Novartis Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTEX865330	Exelon 4.5mg capsules (Novartis Pharmaceuticals UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTEX865335	Exelon 6mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX865336	Exelon 6mg capsules (Novartis Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTEX865338	Exelon 6mg capsules (Novartis Pharmaceuticals UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTEX869102	Exelon 2mg/ml oral solution (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX869103	Exelon 2mg/ml oral solution (Novartis Pharmaceuticals UK Ltd) 120 ml
+^ESCTEX876994	Exelon 2mg/ml oral solution (Waymade Healthcare Plc)
+^ESCTEX876996	Exelon 2mg/ml oral solution (Waymade Healthcare Plc) 120 ml
+^ESCTEX877839	Exelon 1.5mg capsules (Waymade Healthcare Plc)
+^ESCTEX877840	Exelon 1.5mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTEX877842	Exelon 3mg capsules (Waymade Healthcare Plc)
+^ESCTEX877843	Exelon 3mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTEX877846	Exelon 4.5mg capsules (Waymade Healthcare Plc)
+^ESCTEX877849	Exelon 4.5mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTEX877850	Exelon 6mg capsules (Waymade Healthcare Plc)
+^ESCTEX877851	Exelon 6mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTEX918784	Exelon
+^ESCTEX930005	Exelon 1.5mg capsules (Dowelhurst Ltd)
+^ESCTEX930007	Exelon 1.5mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTEX930009	Exelon 3mg capsules (Dowelhurst Ltd)
+^ESCTEX930011	Exelon 3mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTEX930013	Exelon 4.5mg capsules (Dowelhurst Ltd)
+^ESCTEX930015	Exelon 4.5mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTEX930017	Exelon 6mg capsules (Dowelhurst Ltd)
+^ESCTEX930018	Exelon 6mg capsules (Dowelhurst Ltd) 28 capsule
+^ESCTEX947786	Exelon 4.6mg/24hours transdermal patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX947788	Exelon 4.6mg/24hours transdermal patches (Novartis Pharmaceuticals UK Ltd) 30 patch
+^ESCTEX947790	Exelon 9.5mg/24hours transdermal patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTEX947791	Exelon 9.5mg/24hours transdermal patches (Novartis Pharmaceuticals UK Ltd) 30 patch
+^ESCTEX966641	Exelon 2mg/ml oral solution (DE Pharmaceuticals)
+^ESCTEX966642	Exelon 2mg/ml oral solution (DE Pharmaceuticals) 120 ml
+^ESCTEX966643	Exelon 1.5mg capsules (DE Pharmaceuticals)
+^ESCTEX966644	Exelon 1.5mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTEX966645	Exelon 3mg capsules (DE Pharmaceuticals)
+^ESCTEX966646	Exelon 3mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTEX966647	Exelon 4.5mg capsules (DE Pharmaceuticals)
+^ESCTEX966648	Exelon 4.5mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTEX966649	Exelon 6mg capsules (DE Pharmaceuticals)
+^ESCTEX966650	Exelon 6mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTEX970094	Exelon 1.5mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTEX970096	Exelon 1.5mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTEX970097	Exelon 3mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTEX970098	Exelon 3mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTEX970099	Exelon 4.5mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTEX970100	Exelon 4.5mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTEX970101	Exelon 6mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTEX970102	Exelon 6mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTEX989020	Exelon 2mg/ml oral solution (Lexon (UK) Ltd)
+^ESCTEX989021	Exelon 2mg/ml oral solution (Lexon (UK) Ltd) 120 ml
+^ESCTEX993320	Exelon 1.5mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTEX993321	Exelon 1.5mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCTEX993322	Exelon 3mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTEX993323	Exelon 3mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCTEX993324	Exelon 6mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTEX993325	Exelon 6mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCTEX993326	Exelon 2mg/ml oral solution (Mawdsley-Brooks & Company Ltd)
+^ESCTEX993327	Exelon 2mg/ml oral solution (Mawdsley-Brooks & Company Ltd) 120 ml
+^ESCTKE1043990	Kerstipon 1.5mg capsules (Aspire Pharma Ltd)
+^ESCTKE1043991	Kerstipon 1.5mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCTKE1043992	Kerstipon 3mg capsules (Aspire Pharma Ltd)
+^ESCTKE1043993	Kerstipon 3mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCTKE1043994	Kerstipon 4.5mg capsules (Aspire Pharma Ltd)
+^ESCTKE1043995	Kerstipon 4.5mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCTKE1043996	Kerstipon 6mg capsules (Aspire Pharma Ltd)
+^ESCTKE1043997	Kerstipon 6mg capsules (Aspire Pharma Ltd) 28 capsule 4 x 7 capsules
+^ESCTKE942213	Kerstipon
+^ESCTNI1022555	Nimvastid 1.5mg capsules (Consilient Health Ltd)
+^ESCTNI1022556	Nimvastid 1.5mg capsules (Consilient Health Ltd) 28 capsule 2 x 14 capsules
+^ESCTNI1022562	Nimvastid 4.5mg capsules (Consilient Health Ltd)
+^ESCTNI1022564	Nimvastid 4.5mg capsules (Consilient Health Ltd) 28 capsule 2 x 14 capsules
+^ESCTNI1022566	Nimvastid 3mg capsules (Consilient Health Ltd)
+^ESCTNI1022568	Nimvastid 3mg capsules (Consilient Health Ltd) 28 capsule 2 x 14 capsules
+^ESCTNI1022570	Nimvastid 6mg capsules (Consilient Health Ltd)
+^ESCTNI1022571	Nimvastid 6mg capsules (Consilient Health Ltd) 28 capsule 2 x 14 capsules
+^ESCTNI936034	Nimvastid
+^ESCTPR1075996	Prometax 9.5mg/24hours transdermal patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTPR1075997	Prometax 9.5mg/24hours transdermal patches (Novartis Pharmaceuticals UK Ltd) 30 patch
+^ESCTPR1076002	Prometax 4.6mg/24hours transdermal patches (Novartis Pharmaceuticals UK Ltd)
+^ESCTPR1076005	Prometax 4.6mg/24hours transdermal patches (Novartis Pharmaceuticals UK Ltd) 30 patch
+^ESCTPR611055	Product containing rivastigmine
+^ESCTPR611058	Product containing rivastigmine 1.5 mg/1 each oral capsule
+^ESCTPR611061	Product containing rivastigmine 3 mg/1 each oral capsule
+^ESCTPR611064	Product containing rivastigmine 4.5 mg/1 each oral capsule
+^ESCTPR611067	Product containing rivastigmine 6 mg/1 each oral capsule
+^ESCTPR711604	Product containing rivastigmine in oral dosage form
+^ESCTPR712508	Product containing rivastigmine in topical dosage form
+^ESCTPR947457	Prometax
+^ESCTRI1022147	Rivastigmine 1.5mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTRI1022148	Rivastigmine 1.5mg capsules (A A H Pharmaceuticals Ltd) 28 capsule
+^ESCTRI1022149	Rivastigmine 1.5mg capsules (A A H Pharmaceuticals Ltd) 56 capsule
+^ESCTRI1022150	Rivastigmine 3mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTRI1022151	Rivastigmine 3mg capsules (A A H Pharmaceuticals Ltd) 28 capsule
+^ESCTRI1022152	Rivastigmine 3mg capsules (A A H Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1022153	Rivastigmine 4.5mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTRI1022154	Rivastigmine 4.5mg capsules (A A H Pharmaceuticals Ltd) 28 capsule
+^ESCTRI1022155	Rivastigmine 4.5mg capsules (A A H Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1022156	Rivastigmine 6mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTRI1022157	Rivastigmine 6mg capsules (A A H Pharmaceuticals Ltd) 28 capsule
+^ESCTRI1022158	Rivastigmine 6mg capsules (A A H Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1023231	Rivastigmine 1.5mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI1023232	Rivastigmine 1.5mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCTRI1023233	Rivastigmine 1.5mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTRI1023234	Rivastigmine 3mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI1023235	Rivastigmine 3mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCTRI1023236	Rivastigmine 3mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTRI1023237	Rivastigmine 4.5mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI1023238	Rivastigmine 4.5mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCTRI1023239	Rivastigmine 4.5mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTRI1023240	Rivastigmine 6mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI1023241	Rivastigmine 6mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCTRI1023507	Rivastigmine 6mg capsules (Mylan Ltd)
+^ESCTRI1023508	Rivastigmine 6mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1023509	Rivastigmine 6mg capsules (Mylan Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1023510	Rivastigmine 4.5mg capsules (Mylan Ltd)
+^ESCTRI1023511	Rivastigmine 4.5mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1023512	Rivastigmine 4.5mg capsules (Mylan Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1023513	Rivastigmine 3mg capsules (Mylan Ltd)
+^ESCTRI1023514	Rivastigmine 3mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1023515	Rivastigmine 3mg capsules (Mylan Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1023516	Rivastigmine 1.5mg capsules (Mylan Ltd)
+^ESCTRI1023517	Rivastigmine 1.5mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1023518	Rivastigmine 1.5mg capsules (Mylan Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1023946	Rivastigmine 6mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTRI1026518	Rivastigmine 1.5mg capsules (Actavis UK Ltd)
+^ESCTRI1026519	Rivastigmine 1.5mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1026520	Rivastigmine 1.5mg capsules (Actavis UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1026521	Rivastigmine 3mg capsules (Actavis UK Ltd)
+^ESCTRI1026522	Rivastigmine 3mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1026523	Rivastigmine 3mg capsules (Actavis UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1026524	Rivastigmine 4.5mg capsules (Actavis UK Ltd)
+^ESCTRI1026525	Rivastigmine 4.5mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1026526	Rivastigmine 4.5mg capsules (Actavis UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1026595	Rivastigmine 6mg capsules (Actavis UK Ltd)
+^ESCTRI1026596	Rivastigmine 6mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1026597	Rivastigmine 6mg capsules (Actavis UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1028801	Rivastigmine 1.5mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI1028802	Rivastigmine 1.5mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1028803	Rivastigmine 1.5mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1028804	Rivastigmine 3mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI1028805	Rivastigmine 3mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1028806	Rivastigmine 3mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1028807	Rivastigmine 4.5mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI1028808	Rivastigmine 4.5mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1028809	Rivastigmine 4.5mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1028810	Rivastigmine 6mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI1028811	Rivastigmine 6mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1028812	Rivastigmine 6mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1033423	Rivastigmine 1.5mg capsules (Sandoz Ltd)
+^ESCTRI1033426	Rivastigmine 1.5mg capsules (Sandoz Ltd) 28 capsule
+^ESCTRI1033429	Rivastigmine 1.5mg capsules (Sandoz Ltd) 56 capsule
+^ESCTRI1033434	Rivastigmine 3mg capsules (Sandoz Ltd)
+^ESCTRI1033435	Rivastigmine 3mg capsules (Sandoz Ltd) 28 capsule
+^ESCTRI1033438	Rivastigmine 3mg capsules (Sandoz Ltd) 56 capsule
+^ESCTRI1033439	Rivastigmine 4.5mg capsules (Sandoz Ltd)
+^ESCTRI1033441	Rivastigmine 4.5mg capsules (Sandoz Ltd) 28 capsule
+^ESCTRI1033443	Rivastigmine 4.5mg capsules (Sandoz Ltd) 56 capsule
+^ESCTRI1033448	Rivastigmine 6mg capsules (Sandoz Ltd)
+^ESCTRI1033449	Rivastigmine 6mg capsules (Sandoz Ltd) 28 capsule
+^ESCTRI1033452	Rivastigmine 6mg capsules (Sandoz Ltd) 56 capsule
+^ESCTRI1033845	Rivastigmine 1.5mg capsules (Teva UK Ltd)
+^ESCTRI1033846	Rivastigmine 1.5mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1033847	Rivastigmine 1.5mg capsules (Teva UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1033848	Rivastigmine 3mg capsules (Teva UK Ltd)
+^ESCTRI1033849	Rivastigmine 3mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1033850	Rivastigmine 3mg capsules (Teva UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1033851	Rivastigmine 4.5mg capsules (Teva UK Ltd)
+^ESCTRI1033852	Rivastigmine 4.5mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1033853	Rivastigmine 4.5mg capsules (Teva UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1033854	Rivastigmine 6mg capsules (Teva UK Ltd)
+^ESCTRI1033855	Rivastigmine 6mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1033856	Rivastigmine 6mg capsules (Teva UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTRI1035278	Rivastigmine 2mg/ml oral solution 120 ml
+^ESCTRI1035282	Rivastigmine 2mg/ml oral solution (Teva UK Ltd)
+^ESCTRI1035283	Rivastigmine 2mg/ml oral solution (Teva UK Ltd) 120 ml
+^ESCTRI1039350	Rivastigmine 2mg/ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTRI1039351	Rivastigmine 2mg/ml oral solution (A A H Pharmaceuticals Ltd) 120 ml
+^ESCTRI1042441	Rivastigmine 1.5mg capsules (Waymade Healthcare Plc)
+^ESCTRI1042442	Rivastigmine 1.5mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRI1042443	Rivastigmine 3mg capsules (Waymade Healthcare Plc)
+^ESCTRI1042444	Rivastigmine 3mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRI1042445	Rivastigmine 4.5mg capsules (Waymade Healthcare Plc)
+^ESCTRI1042446	Rivastigmine 4.5mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRI1042447	Rivastigmine 6mg capsules (Waymade Healthcare Plc)
+^ESCTRI1042448	Rivastigmine 6mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRI1042449	Rivastigmine 1.5mg capsules (Waymade Healthcare Plc) 56 capsule
+^ESCTRI1042450	Rivastigmine 3mg capsules (Waymade Healthcare Plc) 56 capsule
+^ESCTRI1042451	Rivastigmine 4.5mg capsules (Waymade Healthcare Plc) 56 capsule
+^ESCTRI1042452	Rivastigmine 6mg capsules (Waymade Healthcare Plc) 56 capsule
+^ESCTRI1047054	Rivastigmine 13.3mg/24hours transdermal patches 30 patch
+^ESCTRI1047239	Rivastigmine 13.3mg/24hours transdermal patches
+^ESCTRI1047866	Rivastigmine 2mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTRI1047867	Rivastigmine 2mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 120 ml
+^ESCTRI1048683	Rivastigmine 4.6mg/24hours transdermal patches (A A H Pharmaceuticals Ltd)
+^ESCTRI1048684	Rivastigmine 4.6mg/24hours transdermal patches (A A H Pharmaceuticals Ltd) 30 patch
+^ESCTRI1048685	Rivastigmine 9.5mg/24hours transdermal patches (A A H Pharmaceuticals Ltd)
+^ESCTRI1048686	Rivastigmine 9.5mg/24hours transdermal patches (A A H Pharmaceuticals Ltd) 30 patch
+^ESCTRI1049639	Rivastigmine 2mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI1049640	Rivastigmine 2mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 120 ml
+^ESCTRI1058709	Rivastigmine 4.6mg/24hours transdermal patches (Actavis UK Ltd)
+^ESCTRI1058710	Rivastigmine 4.6mg/24hours transdermal patches (Actavis UK Ltd) 30 patch
+^ESCTRI1058711	Rivastigmine 9.5mg/24hours transdermal patches (Actavis UK Ltd)
+^ESCTRI1058712	Rivastigmine 9.5mg/24hours transdermal patches (Actavis UK Ltd) 30 patch
+^ESCTRI1109692	Rivastigmine 1.5mg capsules (Crescent Pharma Ltd)
+^ESCTRI1109693	Rivastigmine 1.5mg capsules (Crescent Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1109695	Rivastigmine 3mg capsules (Crescent Pharma Ltd)
+^ESCTRI1109696	Rivastigmine 3mg capsules (Crescent Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1109697	Rivastigmine 4.5mg capsules (Crescent Pharma Ltd)
+^ESCTRI1109698	Rivastigmine 4.5mg capsules (Crescent Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1109699	Rivastigmine 6mg capsules (Crescent Pharma Ltd)
+^ESCTRI1109700	Rivastigmine 6mg capsules (Crescent Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTRI1119732	Rivastigmine 1.5mg capsules (DE Pharmaceuticals)
+^ESCTRI1119733	Rivastigmine 1.5mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTRI1119734	Rivastigmine 1.5mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCTRI1119735	Rivastigmine 3mg capsules (DE Pharmaceuticals)
+^ESCTRI1119736	Rivastigmine 3mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTRI1119737	Rivastigmine 3mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCTRI1119738	Rivastigmine 4.5mg capsules (DE Pharmaceuticals)
+^ESCTRI1119739	Rivastigmine 4.5mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTRI1119740	Rivastigmine 4.5mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCTRI1119741	Rivastigmine 6mg capsules (DE Pharmaceuticals)
+^ESCTRI1119742	Rivastigmine 6mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTRI1119743	Rivastigmine 6mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCTRI1119744	Rivastigmine 4.6mg/24hours transdermal patches (DE Pharmaceuticals)
+^ESCTRI1119745	Rivastigmine 4.6mg/24hours transdermal patches (DE Pharmaceuticals) 30 patch
+^ESCTRI1119746	Rivastigmine 9.5mg/24hours transdermal patches (DE Pharmaceuticals)
+^ESCTRI1119747	Rivastigmine 9.5mg/24hours transdermal patches (DE Pharmaceuticals) 30 patch
+^ESCTRI1126582	Rivastigmine 13.3mg/24hours transdermal patches (A A H Pharmaceuticals Ltd)
+^ESCTRI1126583	Rivastigmine 13.3mg/24hours transdermal patches (A A H Pharmaceuticals Ltd) 30 patch
+^ESCTRI1126779	Rivastigmine 2mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTRI1126781	Rivastigmine 2mg/ml oral solution sugar free (DE Pharmaceuticals) 120 ml
+^ESCTRI1127268	Rivastigmine 1.5mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127271	Rivastigmine 1.5mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTRI1127272	Rivastigmine 3mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127273	Rivastigmine 3mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTRI1127276	Rivastigmine 4.5mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127282	Rivastigmine 4.5mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTRI1127284	Rivastigmine 4.5mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCTRI1127286	Rivastigmine 6mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127288	Rivastigmine 6mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTRI1127289	Rivastigmine 6mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCTRI1128182	Rivastigmine 2mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTRI1128183	Rivastigmine 2mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 120 ml
+^ESCTRI1142040	Rivastigmine 9.5mg/24hours transdermal patches (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI1142041	Rivastigmine 9.5mg/24hours transdermal patches (Alliance Healthcare (Distribution) Ltd) 30 patch
+^ESCTRI611054	Rivastigmine
+^ESCTRI611056	Rivastigmine 1.5mg capsules
+^ESCTRI611057	Rivastigmine 1.5 mg/1 each oral capsule
+^ESCTRI611059	Rivastigmine 3mg capsules
+^ESCTRI611060	Rivastigmine 3 mg/1 each oral capsule
+^ESCTRI611062	Rivastigmine 4.5mg capsules
+^ESCTRI611063	Rivastigmine 4.5 mg/1 each oral capsule
+^ESCTRI611065	Rivastigmine 6mg capsules
+^ESCTRI611066	Rivastigmine 6 mg/1 each oral capsule
+^ESCTRI676486	Rivastigmine 2mg/ml oral solution
+^ESCTRI676487	Rivastigmine 2mg/mL oral solution
+^ESCTRI708420	Rivastigmine 4.6mg/24 hours transdermal patch
+^ESCTRI708894	Rivastigmine 9.5mg/24 hours transdermal patch
+^ESCTRI711603	Rivastigmine in oral dosage form
+^ESCTRI712507	Rivastigmine in topical dosage form
+^ESCTRI864065	Rivastigmine 1.5mg capsules 28 capsule
+^ESCTRI864066	Rivastigmine 1.5mg capsules 56 capsule
+^ESCTRI864072	Rivastigmine 3mg capsules 28 capsule
+^ESCTRI864073	Rivastigmine 3mg capsules 56 capsule
+^ESCTRI865325	Rivastigmine 4.5mg capsules 28 capsule
+^ESCTRI865326	Rivastigmine 4.5mg capsules 56 capsule
+^ESCTRI865332	Rivastigmine 6mg capsules 28 capsule
+^ESCTRI865334	Rivastigmine 6mg capsules 56 capsule
+^ESCTRI869101	Rivastigmine 2mg/ml oral solution sugar free 120 ml
+^ESCTRI869155	Rivastigmine 2mg/ml oral solution sugar free
+^ESCTRI933557	Rivastigmine 6mg capsules (Waymade Healthcare Plc)
+^ESCTRI933563	Rivastigmine 6mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRI933565	Rivastigmine 4.5mg capsules (Waymade Healthcare Plc)
+^ESCTRI933566	Rivastigmine 4.5mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRI933567	Rivastigmine 3mg capsules (Waymade Healthcare Plc)
+^ESCTRI933568	Rivastigmine 3mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRI933569	Rivastigmine 1.5mg capsules (Waymade Healthcare Plc)
+^ESCTRI933570	Rivastigmine 1.5mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRI942325	Rivatev
+^ESCTRI947784	Rivastigmine 4.6mg/24hours transdermal patches 30 patch
+^ESCTRI947789	Rivastigmine 9.5mg/24hours transdermal patches 30 patch
+^ESCTRI948665	Rivastigmine 4.6mg/24hours transdermal patches
+^ESCTRI948666	Rivastigmine 9.5mg/24hours transdermal patches
+^ESCTSO1076809	Somniton 4.6mg/24hours transdermal patches (Zentiva)
+^ESCTSO1076810	Somniton 4.6mg/24hours transdermal patches (Zentiva) 30 patch
+^ESCTSO1076811	Somniton 9.5mg/24hours transdermal patches (Zentiva)
+^ESCTSO1076812	Somniton 9.5mg/24hours transdermal patches (Zentiva) 30 patch
+^ESCTSO947459	Somniton
+^ESCTVO1046760	Voleze 4.6mg/24hours transdermal patches (Focus Pharmaceuticals Ltd)
+^ESCTVO1046761	Voleze 4.6mg/24hours transdermal patches (Focus Pharmaceuticals Ltd) 30 patch
+^ESCTVO1046762	Voleze 9.5mg/24hours transdermal patches (Focus Pharmaceuticals Ltd)
+^ESCTVO1046763	Voleze 9.5mg/24hours transdermal patches (Focus Pharmaceuticals Ltd) 30 patch
+^ESCTVO1142068	Voleze 13.3mg/24hours transdermal patches (Focus Pharmaceuticals Ltd)
+^ESCTVO1142071	Voleze 13.3mg/24hours transdermal patches (Focus Pharmaceuticals Ltd) 30 patch
+^ESCTVO942298	Voleze

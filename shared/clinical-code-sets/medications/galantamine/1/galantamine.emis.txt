@@ -1,0 +1,353 @@
+ACCA71642NEMIS	Acumor Xl  M/R capsules  24 mg
+ACCA71646NEMIS	Acumor Xl  M/R capsules  16 mg
+ACCA71648NEMIS	Acumor Xl  M/R capsules  8 mg
+COM/100690NEMIS	Consion Xl  M/R capsules  8 mg
+COM/100691NEMIS	Consion Xl  M/R capsules  16 mg
+COM/100692NEMIS	Consion Xl  M/R capsules  24 mg
+ELM/78999NEMIS	Elmino Xl  M/R capsules  8 mg
+ELM/79002NEMIS	Elmino Xl  M/R capsules  16 mg
+ELM/79018NEMIS	Elmino Xl  M/R capsules  24 mg
+GAM/118256NEMIS	Galzemic Xl  M/R capsules  8 mg
+GAM/118257NEMIS	Galzemic Xl  M/R capsules  16 mg
+GAM/118258NEMIS	Galzemic Xl  M/R capsules  24 mg
+GAM/127691NEMIS	Gaalin  M/R capsules  16 mg
+GAM/127692NEMIS	Gaalin  M/R capsules  24 mg
+GAM/127693NEMIS	Gaalin  M/R capsules  8 mg
+GAM/20295NEMIS	Galantamine Hydrobromide  M/R capsules  8 mg
+GAM/20296NEMIS	Galantamine Hydrobromide  M/R capsules  16 mg
+GAM/20297NEMIS	Galantamine Hydrobromide  M/R capsules  24 mg
+GAM/51685NEMIS	Galsya Xl  M/R capsules  8 mg
+GAM/51686NEMIS	Galsya Xl  M/R capsules  16 mg
+GAM/51687NEMIS	Galsya Xl  M/R capsules  24 mg
+GAM/76902NEMIS	Gatalin Xl  M/R capsules  8 mg
+GAM/76903NEMIS	Gatalin Xl  M/R capsules  16 mg
+GAM/76904NEMIS	Gatalin Xl  M/R capsules  24 mg
+GAM/95117NEMIS	Gazylan Xl  M/R capsules  16 mg
+GAM/95121NEMIS	Gazylan Xl  M/R capsules  24 mg
+GAM/95122NEMIS	Gazylan Xl  M/R capsules  8 mg
+GAOR127241NEMIS	Galzemic  Oral solution  4 mg/ml
+GAOR13846NEMIS	Galantamine Hydrobromide  Oral solution  Sugar Free 4 mg/ml
+GATA5327NEMIS	Galantamine Hydrobromide  Tablets  4 mg
+GATA5329NEMIS	Galantamine Hydrobromide  Tablets  8 mg
+GATA5330NEMIS	Galantamine Hydrobromide  Tablets  12 mg
+LOM/78217NEMIS	Lotprosin Xl  M/R capsules  8 mg
+LOM/78218NEMIS	Lotprosin Xl  M/R capsules  16 mg
+LOM/78219NEMIS	Lotprosin Xl  M/R capsules  24 mg
+LUM/94879NEMIS	Luventa Xl  M/R capsules  24 mg
+LUM/94880NEMIS	Luventa Xl  M/R capsules  8 mg
+LUM/94881NEMIS	Luventa Xl  M/R capsules  16 mg
+REM/20299NEMIS	Reminyl Xl  M/R capsules  8 mg
+REM/20300NEMIS	Reminyl Xl  M/R capsules  16 mg
+REM/20301NEMIS	Reminyl Xl  M/R capsules  24 mg
+REOR13847NEMIS	Reminyl  Oral solution  4 mg/ml
+RETA5332NEMIS	Reminyl  Tablets  4 mg
+RETA5333NEMIS	Reminyl  Tablets  8 mg
+RETA5334NEMIS	Reminyl  Tablets  12 mg
+ZEM/52814NEMIS	Zeebral Xl  M/R capsules  8 mg
+ZEM/52815NEMIS	Zeebral Xl  M/R capsules  16 mg
+ZEM/52816NEMIS	Zeebral Xl  M/R capsules  24 mg
+^ESCT1180506	Acumor XL 16mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1181701	Product containing only galantamine 4 mg/1 each oral tablet
+^ESCT1181702	Product containing only galantamine 8 mg/1 each oral tablet
+^ESCT1184514	Acumor XL 8mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1184515	Acumor XL 24mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1186554	Acumor XL 16mg capsules (Mylan)
+^ESCT1188126	Product containing only galantamine 12 mg/1 each oral tablet
+^ESCT1189662	Acumor XL 8mg capsules (Mylan)
+^ESCT1189663	Acumor XL 24mg capsules (Mylan)
+^ESCT1193529	Galzemic
+^ESCT1194547	Galzemic 4mg/ml oral solution (Creo Pharma Ltd)
+^ESCT1194548	Galzemic 4mg/ml oral solution (Creo Pharma Ltd) 100 ml
+^ESCT1203790	Galantamine 8mg prolonged-release oral capsule
+^ESCT1203828	Galantamine 24mg prolonged-release oral capsule
+^ESCT1203865	Galantamine 16mg prolonged-release oral capsule
+^ESCT1204508	Galantamine 4mg/mL conventional release oral solution
+^ESCT1207246	Galantamine in oral dosage form
+^ESCT1207247	Product containing galantamine in oral dosage form
+^ESCT1212489	Gaalin
+^ESCT1213761	Gaalin 16mg modified-release capsules (Milpharm Ltd)
+^ESCT1213762	Gaalin 16mg modified-release capsules (Milpharm Ltd) 28 capsule
+^ESCT1213763	Gaalin 8mg modified-release capsules (Milpharm Ltd)
+^ESCT1213764	Gaalin 8mg modified-release capsules (Milpharm Ltd) 28 capsule
+^ESCT1213776	Gaalin 24mg modified-release capsules (Milpharm Ltd)
+^ESCT1213778	Gaalin 24mg modified-release capsules (Milpharm Ltd) 28 capsule
+^ESCT1224041	Galantamine
+^ESCT1224042	Galantamine product
+^ESCT1224043	Product containing precisely galantamine (as galantamine hydrobromide) 4 milligram/1 each conventional release oral tablet
+^ESCT1224044	Galantamine (as galantamine hydrobromide) 4 mg oral tablet
+^ESCT1224045	Galantamine (as galantamine hydrobromide) 8 mg oral tablet
+^ESCT1224046	Product containing precisely galantamine (as galantamine hydrobromide) 8 milligram/1 each conventional release oral tablet
+^ESCT1224047	Galantamine (as galantamine hydrobromide) 12 mg oral tablet
+^ESCT1224048	Product containing precisely galantamine (as galantamine hydrobromide) 12 milligram/1 each conventional release oral tablet
+^ESCT1259161	Reminyl 4mg/ml oral solution (Originalis B.V.)
+^ESCT1259162	Reminyl 4mg/ml oral solution (Originalis B.V.) 100 ml
+^ESCT1259163	Reminyl XL 24mg capsules (Originalis B.V.)
+^ESCT1259164	Reminyl XL 24mg capsules (Originalis B.V.) 28 capsule
+^ESCT1267034	Reminyl 4mg/ml oral solution (CST Pharma Ltd)
+^ESCT1267036	Reminyl 4mg/ml oral solution (CST Pharma Ltd) 100 ml
+^ESCT1267824	Galantamine 20mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1267825	Galantamine 20mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCT1271269	Galantamine 12mg tablets (DE Pharmaceuticals)
+^ESCT1271270	Galantamine 12mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCT1271271	Galantamine 20mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCT1271272	Galantamine 20mg/5ml oral solution sugar free (Thame Laboratories Ltd) 100 ml
+^ESCT1271384	Lotprosin XL 8mg capsules (Accord Healthcare Ltd)
+^ESCT1271385	Lotprosin XL 8mg capsules (Accord Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1271386	Lotprosin XL 16mg capsules (Accord Healthcare Ltd)
+^ESCT1271387	Lotprosin XL 16mg capsules (Accord Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1271388	Lotprosin XL 24mg capsules (Accord Healthcare Ltd)
+^ESCT1271389	Lotprosin XL 24mg capsules (Accord Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1274938	Galantamine 20mg/5ml oral solution sugar free (CST Pharma Ltd)
+^ESCT1274939	Galantamine 20mg/5ml oral solution sugar free (CST Pharma Ltd) 100 ml
+^ESCT1355152	Galantamine only product
+^ESCT1358641	Galantamine only product in oral dose form
+^ESCT1375983	Galantamine 20mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375984	Galantamine 20mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 100 ml
+^ESCT1385915	Galantamine (as galantamine hydrobromide) 4 mg/mL oral solution
+^ESCT1386664	Galantamine-containing product in oral dose form
+^ESCT1404825	Galantamine 20mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCT1404826	Galantamine 20mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 100 ml
+^ESCT1422598	Elmino XL 24mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422599	Elmino XL 24mg capsules (Zentiva Pharma UK Ltd) 28 capsule
+^ESCT1422600	Elmino XL 16mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422601	Elmino XL 16mg capsules (Zentiva Pharma UK Ltd) 28 capsule
+^ESCT1422602	Elmino XL 8mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422603	Elmino XL 8mg capsules (Zentiva Pharma UK Ltd) 28 capsule
+^ESCT1422643	Galzemic XL 8mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422644	Galzemic XL 8mg capsules (Zentiva Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1422645	Galzemic XL 16mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422646	Galzemic XL 16mg capsules (Zentiva Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1422647	Galzemic XL 24mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422648	Galzemic XL 24mg capsules (Zentiva Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1426608	Reminyl 4mg/ml oral solution (Takeda UK Ltd)
+^ESCT1426609	Reminyl 4mg/ml oral solution (Takeda UK Ltd) 100 ml
+^ESCT1426993	Reminyl XL 16mg capsules (Takeda UK Ltd)
+^ESCT1426994	Reminyl XL 16mg capsules (Takeda UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1426995	Reminyl XL 8mg capsules (Takeda UK Ltd)
+^ESCT1426996	Reminyl XL 8mg capsules (Takeda UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1426997	Reminyl XL 24mg capsules (Takeda UK Ltd)
+^ESCT1426998	Reminyl XL 24mg capsules (Takeda UK Ltd) 28 capsule 4 x 7 capsules
+^ESCT1427948	Galzemic 4mg/ml oral solution (Zentiva Pharma UK Ltd)
+^ESCT1427949	Galzemic 4mg/ml oral solution (Zentiva Pharma UK Ltd) 100 ml
+^ESCT1438418	Acumor XL 8mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438419	Acumor XL 8mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1438420	Acumor XL 16mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438421	Acumor XL 16mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCT1438422	Acumor XL 24mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1438423	Acumor XL 24mg capsules (Viatris UK Healthcare Ltd) 28 capsule 2 x 14 capsules
+^ESCTAC1028204	Acumor XL 8mg capsules (Mylan Ltd)
+^ESCTAC1028205	Acumor XL 8mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTAC1028206	Acumor XL 16mg capsules (Mylan Ltd)
+^ESCTAC1028207	Acumor XL 16mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTAC1028208	Acumor XL 24mg capsules (Mylan Ltd)
+^ESCTAC1028209	Acumor XL 24mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTAC939043	Acumor XL
+^ESCTCO1108714	Consion XL 8mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTCO1108715	Consion XL 8mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule
+^ESCTCO1108716	Consion XL 16mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTCO1108717	Consion XL 16mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule
+^ESCTCO1108718	Consion XL 24mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTCO1108719	Consion XL 24mg capsules (Dr Reddy's Laboratories (UK) Ltd) 28 capsule
+^ESCTCO949884	Consion XL
+^ESCTEL1046822	Elmino XL 24mg capsules (Zentiva)
+^ESCTEL1046823	Elmino XL 24mg capsules (Zentiva) 28 capsule
+^ESCTEL1046824	Elmino XL 16mg capsules (Zentiva)
+^ESCTEL1046825	Elmino XL 16mg capsules (Zentiva) 28 capsule
+^ESCTEL1046826	Elmino XL 8mg capsules (Zentiva)
+^ESCTEL1046827	Elmino XL 8mg capsules (Zentiva) 28 capsule
+^ESCTEL942285	Elmino
+^ESCTGA1005263	Galantamine 4mg tablets (Special Order)
+^ESCTGA1005264	Galantamine 4mg tablets 1 tablet
+^ESCTGA1005265	Galantamine 4mg tablets (Special Order) 1 tablet
+^ESCTGA1020478	Galsya XL 8mg capsules (Consilient Health Ltd)
+^ESCTGA1020479	Galsya XL 8mg capsules (Consilient Health Ltd) 28 capsule 2 x 14 capsules
+^ESCTGA1020484	Galsya XL 16mg capsules (Consilient Health Ltd)
+^ESCTGA1020485	Galsya XL 16mg capsules (Consilient Health Ltd) 28 capsule 2 x 14 capsules
+^ESCTGA1020486	Galsya XL 24mg capsules (Consilient Health Ltd)
+^ESCTGA1020487	Galsya XL 24mg capsules (Consilient Health Ltd) 28 capsule 2 x 14 capsules
+^ESCTGA1023939	Galantamine 20mg/5ml oral solution sugar free (Sandoz Ltd)
+^ESCTGA1023940	Galantamine 20mg/5ml oral solution sugar free (Sandoz Ltd) 100 ml
+^ESCTGA1024487	Galantamine 12mg tablets (Teva UK Ltd)
+^ESCTGA1024488	Galantamine 12mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTGA1024489	Galantamine 8mg tablets (Teva UK Ltd)
+^ESCTGA1024490	Galantamine 8mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTGA1024924	Galantamine 8mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGA1024925	Galantamine 8mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTGA1024926	Galantamine 12mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGA1024927	Galantamine 12mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTGA1024946	Galantamine 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTGA1024947	Galantamine 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTGA1026616	Galantamine 20mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA1026617	Galantamine 20mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTGA1037829	Gatalin XL 8mg capsules (Aspire Pharma Ltd)
+^ESCTGA1037833	Gatalin XL 8mg capsules (Aspire Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTGA1037841	Gatalin XL 16mg capsules (Aspire Pharma Ltd)
+^ESCTGA1037842	Gatalin XL 16mg capsules (Aspire Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTGA1037855	Gatalin XL 24mg capsules (Aspire Pharma Ltd)
+^ESCTGA1037856	Gatalin XL 24mg capsules (Aspire Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTGA1051076	Galantamine 20mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTGA1051077	Galantamine 20mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd) 100 ml
+^ESCTGA1061428	Galantamine 20mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTGA1061429	Galantamine 20mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd) 100 ml
+^ESCTGA1062343	Galzemic XL 8mg capsules (Creo Pharma Ltd)
+^ESCTGA1062345	Galzemic XL 8mg capsules (Creo Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTGA1062347	Galzemic XL 16mg capsules (Creo Pharma Ltd)
+^ESCTGA1062350	Galzemic XL 16mg capsules (Creo Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTGA1062354	Galzemic XL 24mg capsules (Creo Pharma Ltd)
+^ESCTGA1062358	Galzemic XL 24mg capsules (Creo Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTGA1081592	Galantamine 20mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTGA1081594	Galantamine 20mg/5ml oral solution sugar free (Ennogen Healthcare Ltd) 100 ml
+^ESCTGA1092055	Galantamine 8mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA1092059	Galantamine 8mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTGA1092063	Galantamine 12mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGA1092066	Galantamine 12mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTGA1094957	Gazylan XL 8mg capsules (Teva UK Ltd)
+^ESCTGA1094958	Gazylan XL 8mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTGA1094959	Gazylan XL 16mg capsules (Teva UK Ltd)
+^ESCTGA1094960	Gazylan XL 16mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTGA1094961	Gazylan XL 24mg capsules (Teva UK Ltd)
+^ESCTGA1094962	Gazylan XL 24mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTGA1101091	Galantamine 20mg/5ml oral solution sugar free (J M McGill Ltd)
+^ESCTGA1101092	Galantamine 20mg/5ml oral solution sugar free (J M McGill Ltd) 100 ml
+^ESCTGA1117647	Galantamine 20mg/5ml oral solution sugar free (Niche Pharma Ltd)
+^ESCTGA1117648	Galantamine 20mg/5ml oral solution sugar free (Niche Pharma Ltd) 100 ml
+^ESCTGA1117782	Galantamine 20mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTGA1117783	Galantamine 20mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 100 ml
+^ESCTGA611068	Galantamine
+^ESCTGA611070	Galantamine 4mg tablets
+^ESCTGA611072	Galantamine 4 mg oral tablet
+^ESCTGA611073	Galantamine 8mg tablets
+^ESCTGA611075	Galantamine 8 mg oral tablet
+^ESCTGA611076	Galantamine 12mg tablets
+^ESCTGA611078	Galantamine 12 mg oral tablet
+^ESCTGA675285	Galantamine 4mg/mL s/f oral solution
+^ESCTGA689153	Galantamine 24mg m/r capsule
+^ESCTGA689625	Galantamine 8mg m/r capsule
+^ESCTGA690208	Galantamine 16mg m/r capsule
+^ESCTGA861922	Galantamine 20mg/5ml oral solution sugar free 100 ml
+^ESCTGA862079	Galantamine 20mg/5ml oral solution sugar free
+^ESCTGA864099	Galantamine 4mg tablets 56 tablet
+^ESCTGA864103	Galantamine 8mg tablets 56 tablet
+^ESCTGA864106	Galantamine 12mg tablets 56 tablet
+^ESCTGA915571	Galantamine 16mg modified-release capsules 28 capsule
+^ESCTGA915582	Galantamine 8mg modified-release capsules 28 capsule
+^ESCTGA915588	Galantamine 24mg modified-release capsules 28 capsule
+^ESCTGA915637	Galantamine 16mg modified-release capsules
+^ESCTGA915639	Galantamine 24mg modified-release capsules
+^ESCTGA915641	Galantamine 8mg modified-release capsules
+^ESCTGA935937	Galsya XL
+^ESCTGA940057	Gatalin XL
+^ESCTGA946093	Galantex XL
+^ESCTGA946094	Galzemic XL
+^ESCTGA947505	Gazylan XL
+^ESCTLO1040807	Lotprosin XL 8mg capsules (Actavis UK Ltd)
+^ESCTLO1040808	Lotprosin XL 8mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTLO1040812	Lotprosin XL 16mg capsules (Actavis UK Ltd)
+^ESCTLO1040813	Lotprosin XL 16mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTLO1040814	Lotprosin XL 24mg capsules (Actavis UK Ltd)
+^ESCTLO1040815	Lotprosin XL 24mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTLO940157	Lotprosin XL
+^ESCTLU1086179	Luventa XL 8mg capsules (Fontus Health Ltd)
+^ESCTLU1086180	Luventa XL 8mg capsules (Fontus Health Ltd) 28 capsule 2 x 14 capsules
+^ESCTLU1086181	Luventa XL 16mg capsules (Fontus Health Ltd)
+^ESCTLU1086182	Luventa XL 16mg capsules (Fontus Health Ltd) 28 capsule 2 x 14 capsules
+^ESCTLU1086183	Luventa XL 24mg capsules (Fontus Health Ltd)
+^ESCTLU1086184	Luventa XL 24mg capsules (Fontus Health Ltd) 28 capsule 2 x 14 capsules
+^ESCTLU947483	Luventa XL
+^ESCTPR611069	Product containing galantamine
+^ESCTPR611071	Product containing galantamine 4 mg/1 each oral tablet
+^ESCTPR611074	Product containing galantamine 8 mg/1 each oral tablet
+^ESCTPR611077	Product containing galantamine 12 mg/1 each oral tablet
+^ESCTRE1001355	Reminyl XL 8mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTRE1001356	Reminyl XL 8mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTRE1001357	Reminyl 12mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRE1001358	Reminyl 12mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTRE1002785	Reminyl 4mg/ml oral solution (Sigma Pharmaceuticals Plc)
+^ESCTRE1002787	Reminyl 4mg/ml oral solution (Sigma Pharmaceuticals Plc) 100 ml
+^ESCTRE1008235	Reminyl XL 16mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTRE1008236	Reminyl XL 16mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTRE1008237	Reminyl XL 24mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTRE1008238	Reminyl XL 24mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTRE1008252	Reminyl 12mg tablets (Necessity Supplies Ltd)
+^ESCTRE1008253	Reminyl 12mg tablets (Necessity Supplies Ltd) 56 tablet
+^ESCTRE1008255	Reminyl 8mg tablets (Necessity Supplies Ltd)
+^ESCTRE1008257	Reminyl 8mg tablets (Necessity Supplies Ltd) 56 tablet
+^ESCTRE1008258	Reminyl XL 16mg capsules (Necessity Supplies Ltd)
+^ESCTRE1008259	Reminyl XL 16mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTRE1008261	Reminyl XL 24mg capsules (Necessity Supplies Ltd)
+^ESCTRE1008263	Reminyl XL 24mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTRE1008265	Reminyl XL 8mg capsules (Necessity Supplies Ltd)
+^ESCTRE1008266	Reminyl XL 8mg capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTRE1012230	Reminyl 4mg/ml oral solution (DE Pharmaceuticals)
+^ESCTRE1012231	Reminyl 4mg/ml oral solution (DE Pharmaceuticals) 100 ml
+^ESCTRE1012435	Reminyl 4mg/ml oral solution (Mawdsley-Brooks & Company Ltd)
+^ESCTRE1012436	Reminyl 4mg/ml oral solution (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCTRE1061543	Reminyl 4mg/ml oral solution (Waymade Healthcare Plc)
+^ESCTRE1061544	Reminyl 4mg/ml oral solution (Waymade Healthcare Plc) 100 ml
+^ESCTRE861924	Reminyl 4mg/ml oral solution (Shire Pharmaceuticals Ltd)
+^ESCTRE861926	Reminyl 4mg/ml oral solution (Shire Pharmaceuticals Ltd) 100 ml
+^ESCTRE864101	Reminyl 4mg tablets (Shire Pharmaceuticals Ltd)
+^ESCTRE864102	Reminyl 4mg tablets (Shire Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTRE864104	Reminyl 8mg tablets (Shire Pharmaceuticals Ltd)
+^ESCTRE864105	Reminyl 8mg tablets (Shire Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTRE864107	Reminyl 12mg tablets (Shire Pharmaceuticals Ltd)
+^ESCTRE864108	Reminyl 12mg tablets (Shire Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTRE878243	Reminyl 4mg tablets (Waymade Healthcare Plc)
+^ESCTRE878244	Reminyl 4mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTRE878245	Reminyl 12mg tablets (Waymade Healthcare Plc)
+^ESCTRE878247	Reminyl 12mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTRE879676	Reminyl 12mg tablets (Dowelhurst Ltd)
+^ESCTRE879677	Reminyl 12mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTRE879680	Reminyl 4mg tablets (Dowelhurst Ltd)
+^ESCTRE879683	Reminyl 4mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTRE879684	Reminyl 8mg tablets (Dowelhurst Ltd)
+^ESCTRE879686	Reminyl 8mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTRE915574	Reminyl XL 16mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTRE915579	Reminyl XL 16mg capsules (Shire Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCTRE915584	Reminyl XL 8mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTRE915586	Reminyl XL 8mg capsules (Shire Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCTRE915590	Reminyl XL 24mg capsules (Shire Pharmaceuticals Ltd)
+^ESCTRE915592	Reminyl XL 24mg capsules (Shire Pharmaceuticals Ltd) 28 capsule 4 x 7 capsules
+^ESCTRE915955	Reminyl
+^ESCTRE915957	Reminyl XL
+^ESCTRE930137	Reminyl 8mg tablets (Waymade Healthcare Plc)
+^ESCTRE930138	Reminyl 8mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTRE947278	Reminyl XL 8mg capsules (Waymade Healthcare Plc)
+^ESCTRE947280	Reminyl XL 8mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRE947281	Reminyl XL 16mg capsules (Waymade Healthcare Plc)
+^ESCTRE947282	Reminyl XL 16mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRE947283	Reminyl XL 24mg capsules (Waymade Healthcare Plc)
+^ESCTRE947284	Reminyl XL 24mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTRE967437	Reminyl 8mg tablets (DE Pharmaceuticals)
+^ESCTRE967439	Reminyl 8mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTRE967440	Reminyl 12mg tablets (DE Pharmaceuticals)
+^ESCTRE967441	Reminyl 12mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTRE967444	Reminyl XL 8mg capsules (DE Pharmaceuticals)
+^ESCTRE967445	Reminyl XL 8mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTRE967447	Reminyl XL 16mg capsules (DE Pharmaceuticals)
+^ESCTRE967449	Reminyl XL 16mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTRE967450	Reminyl XL 24mg capsules (DE Pharmaceuticals)
+^ESCTRE967451	Reminyl XL 24mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTRE973927	Reminyl 12mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRE973929	Reminyl 12mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTRE973932	Reminyl 8mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRE973933	Reminyl 8mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTRE973934	Reminyl XL 16mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTRE973935	Reminyl XL 16mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTRE973938	Reminyl XL 24mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTRE973939	Reminyl XL 24mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTRE973940	Reminyl XL 8mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTRE973941	Reminyl XL 8mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTRE989817	Reminyl XL 16mg capsules (Lexon (UK) Ltd)
+^ESCTRE989818	Reminyl XL 16mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTRE989819	Reminyl XL 8mg capsules (Lexon (UK) Ltd)
+^ESCTRE989820	Reminyl XL 8mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTRE989821	Reminyl XL 24mg capsules (Lexon (UK) Ltd)
+^ESCTRE989822	Reminyl XL 24mg capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTZE1024473	Zeebral XL 16mg capsules (Teva UK Ltd)
+^ESCTZE1024474	Zeebral XL 16mg capsules (Teva UK Ltd) 28 capsule 4 x 7 capsules
+^ESCTZE1024481	Zeebral XL 24mg capsules (Teva UK Ltd)
+^ESCTZE1024483	Zeebral XL 24mg capsules (Teva UK Ltd) 28 capsule 4 x 7 capsules
+^ESCTZE1024510	Zeebral XL 8mg capsules (Teva UK Ltd)
+^ESCTZE1024513	Zeebral XL 8mg capsules (Teva UK Ltd) 28 capsule 4 x 7 capsules
+^ESCTZE936142	Zeebral XL
