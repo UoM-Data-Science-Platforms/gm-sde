@@ -15,25 +15,24 @@
 
 -- Medication categories such as "antiplatelet" should give the actual drug within that
 -- category
-USE DATABASE INTERMEDIATE;
 
 --> CODESET belimumab:1 hydroxychloroquine:1 chloroquine:1
-DROP TABLE IF EXISTS INTERMEDIATE.GP_RECORD.LH004_med_codes;
-CREATE TEMPORARY TABLE INTERMEDIATE.GP_RECORD.LH004_med_codes AS
+DROP TABLE IF EXISTS LH004_med_codes;
+CREATE TEMPORARY TABLE LH004_med_codes AS
 SELECT
-    "FK_Patient_ID",
+    "GmPseudo",
     CAST("MedicationDate" AS DATE) AS "MedicationDate",
     "SuppliedCode",
     "Dosage",
     "Quantity",
     "Units"
-FROM GP_RECORD."GP_Medications_SecondaryUses"
-WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept in ('belimumab','hydroxychloroquine','chloroquine'))
-AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}});
+FROM INTERMEDIATE.GP_RECORD."GP_Medications_SecondaryUses" gp
+INNER JOIN {{cohort-table}} c ON gp."FK_Patient_ID" = c."FK_Patient_ID"
+WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept in ('belimumab','hydroxychloroquine','chloroquine'));
 
-DROP TABLE IF EXISTS {{project-schema}}."2_medications";
-CREATE TABLE {{project-schema}}."2_medications" AS
-SELECT "FK_Patient_ID", "MedicationDate",
+DROP TABLE IF EXISTS {{project-schema}}."LH004-2_medications";
+CREATE TABLE {{project-schema}}."LH004-2_medications" AS
+SELECT "GmPseudo" AS "PatientID", "MedicationDate",
     CASE 
         WHEN "Field_ID" IN ('SAL_COD','NONASPANTIPLTDRUG_COD') THEN 'Antiplatelet'
         WHEN "Field_ID" IN ('Immunosuppression_Drugs') THEN 'Immunosuppression'
@@ -43,12 +42,12 @@ SELECT "FK_Patient_ID", "MedicationDate",
         ELSE "Field_ID"
     END AS MedicationCategory, 
     SPLIT_PART(LOWER("MedicationDescription"), ' ',0) AS Medication, "Dosage_GP_Medications", "Quantity", "Units"
-FROM GP_RECORD."MedicationsClusters"
+FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" mc
+INNER JOIN {{cohort-table}} c ON mc."FK_Patient_ID" = c."FK_Patient_ID"
 WHERE "Field_ID" IN ('Immunosuppression_Drugs', 'Prednisolone', 'ACEInhibitor','SGLT2','SAL_COD','NONASPANTIPLTDRUG_COD','Statin','DOAC','Warfarin','ORANTICOAGDRUG_COD','ARB')
-AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}})
 UNION
 SELECT 
-    "FK_Patient_ID", 
+    "GmPseudo", 
     "MedicationDate",
     CASE
         WHEN "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept = 'chloroquine') THEN     'HydroxychloroquineOrChloroquine'
@@ -63,4 +62,4 @@ SELECT
     "Dosage",
     "Quantity",
     "Units"
-FROM INTERMEDIATE.GP_RECORD.LH004_med_codes;
+FROM LH004_med_codes;

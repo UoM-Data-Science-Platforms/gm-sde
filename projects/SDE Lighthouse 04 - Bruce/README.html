@@ -120,60 +120,7 @@ The RDE has access to the entire de-identified database and so builds up an expe
 The RDE has access to a library of resusable SQL queries for common tasks, and sets of clinical codes for different phenotypes, built up from previous studies.
 Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Reusable queries</h2>
-<p>This project required the following reusable queries:</p>
-<ul>
-<li>Define Cohort for LH004: patients that had an SLE diagnosis</li>
-<li>Year of birth</li>
-<li>Create table of patients who are registered with a GM GP</li>
-</ul>
-<p>Further details for each query can be found below.</p>
-<h3>Define Cohort for LH004: patients that had an SLE diagnosis</h3>
-<p>To build the cohort of patients needed for LH004. This reduces duplication of code in the template scripts.</p>
-<p><em>Input</em></p>
-<pre><code>None
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>Temp tables as follows:
- #Cohort
-</code></pre>
-<p><em>File</em>: <code>query-build-lh004-cohort.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-lh004-cohort.sql">https://github.com/rw251/.../query-build-lh004-cohort.sql</a></p>
-<hr>
-<h3>Year of birth</h3>
-<p>To get the year of birth for each patient.</p>
-<p><em>Assumptions</em></p>
-<ul>
-<li>Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:</li>
-<li>If the patients has a YOB in their primary care data feed we use that as most likely to be up to date</li>
-<li>If every YOB for a patient is the same, then we use that</li>
-<li>If there is a single most recently updated YOB in the database then we use that</li>
-<li>Otherwise we take the highest YOB for the patient that is not in the future</li>
-</ul>
-<p><em>Input</em></p>
-<pre><code>Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
- 	- FK_Patient_Link_ID - unique patient id
-	- YearOfBirth - INT
-</code></pre>
-<p><em>File</em>: <code>query-patient-year-of-birth.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql">https://github.com/rw251/.../query-patient-year-of-birth.sql</a></p>
-<hr>
-<h3>Create table of patients who are registered with a GM GP</h3>
-<p>undefined</p>
-<p><em>Input</em></p>
-<pre><code>undefined
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>undefined
-</code></pre>
-<p><em>File</em>: <code>query-get-possible-patients.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql">https://github.com/rw251/.../query-get-possible-patients.sql</a></p>
-<h2>Clinical code sets</h2>
+<p>This project did not require any reusable queries from the local library <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction">https://github.com/rw251/gm-idcr/tree/master/shared/Reusable queries for data extraction</a>.## Clinical code sets</p>
 <p>This project required the following clinical code sets:</p>
 <ul>
 <li>sle v1</li>
@@ -186,16 +133,30 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>belimumab v1</li>
 <li>hydroxychloroquine v1</li>
 <li>chloroquine v1</li>
-<li>tuberculosis v1</li>
 <li>hepatitis-a v1</li>
 <li>hepatitis-b v1</li>
 <li>hepatitis-c v1</li>
 <li>hepatitis-d v1</li>
-<li>infections v1</li>
-<li>flu-vaccination v1</li>
-<li>covid-vaccination v1</li>
-<li>pneumococcal-vaccination v1</li>
-<li>shingles-vaccination v1</li>
+<li>tuberculosis v1</li>
+<li>antiphospholipid-syndrome v1</li>
+<li>infections v2</li>
+<li>bone-infection v1</li>
+<li>cardiovascular-infection v1</li>
+<li>cellulitis v1</li>
+<li>diverticulitis v1</li>
+<li>gastrointestinal-infections v1</li>
+<li>genital-tract-infections v1</li>
+<li>hepatobiliary-infection v1</li>
+<li>infection-other v1</li>
+<li>lrti v1</li>
+<li>muscle-infection v1</li>
+<li>neurological-infection v1</li>
+<li>peritonitis v1</li>
+<li>puerpural-infection v1</li>
+<li>pyelonephritis v1</li>
+<li>urti-bacterial v1</li>
+<li>urti-viral v1</li>
+<li>uti v2</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
 <h3>Systemic Lupus Erythematosus (SLE)</h3>
@@ -668,66 +629,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/chloroquine/1">https://github.com/rw251/.../medications/chloroquine/1</a></p>
-<h3>Tuberculosis</h3>
-<p>Any code indicating a diagnosis of tuberculosis. This code set was developed using the reference coding table in the GMCR environment, converting from ICD10 codes A15 - A19, followed by a complete cross reference check with SNOMED and mapping to other terminologies.</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.33 -0.46%</code> suggests that this code set is well defined.</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2024-05-09</td>
-<td>EMIS</td>
-<td>2516912</td>
-<td style="text-align:right">11598 (0.461%)</td>
-<td style="text-align:right">11598 (0.461%)</td>
-</tr>
-<tr>
-<td>2024-05-09</td>
-<td>TPP</td>
-<td>200013</td>
-<td style="text-align:right">689 (0.344%)</td>
-<td style="text-align:right">689 (0.344%)</td>
-</tr>
-<tr>
-<td>2024-05-09</td>
-<td>Vision</td>
-<td>334384</td>
-<td style="text-align:right">1058 (0.316%)</td>
-<td style="text-align:right">1058 (0.316%)</td>
-</tr>
-<tr>
-<td>2024-07-16</td>
-<td>EMIS</td>
-<td>2696332</td>
-<td style="text-align:right">125681 (4.66%)</td>
-<td style="text-align:right">12455 (0.462%)</td>
-</tr>
-<tr>
-<td>2024-07-16</td>
-<td>TPP</td>
-<td>215597</td>
-<td style="text-align:right">1346 (0.624%)</td>
-<td style="text-align:right">767 (0.356%)</td>
-</tr>
-<tr>
-<td>2024-07-16</td>
-<td>Vision</td>
-<td>351153</td>
-<td style="text-align:right">13197 (3.76%)</td>
-<td style="text-align:right">1142 (0.325%)</td>
-</tr>
-</tbody>
-</table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/tuberculosis/1">https://github.com/rw251/.../conditions/tuberculosis/1</a></p>
 <h3>Hepatitis A</h3>
 <p>Any code indicating that a patient has hepatitis A.</p>
 <h4>Prevalence log</h4>
@@ -900,11 +801,136 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Find_missing_codes last run 2024-07-17</li>
 </ul>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hepatitis-d/1">https://github.com/rw251/.../conditions/hepatitis-d/1</a></p>
+<h3>Tuberculosis</h3>
+<p>Any code indicating a diagnosis of tuberculosis. This code set was developed using the reference coding table in the GMCR environment, converting from ICD10 codes A15 - A19, followed by a complete cross reference check with SNOMED and mapping to other terminologies.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.33 -0.46%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-05-09</td>
+<td>EMIS</td>
+<td>2516912</td>
+<td style="text-align:right">11598 (0.461%)</td>
+<td style="text-align:right">11598 (0.461%)</td>
+</tr>
+<tr>
+<td>2024-05-09</td>
+<td>TPP</td>
+<td>200013</td>
+<td style="text-align:right">689 (0.344%)</td>
+<td style="text-align:right">689 (0.344%)</td>
+</tr>
+<tr>
+<td>2024-05-09</td>
+<td>Vision</td>
+<td>334384</td>
+<td style="text-align:right">1058 (0.316%)</td>
+<td style="text-align:right">1058 (0.316%)</td>
+</tr>
+<tr>
+<td>2024-07-16</td>
+<td>EMIS</td>
+<td>2696332</td>
+<td style="text-align:right">125681 (4.66%)</td>
+<td style="text-align:right">12455 (0.462%)</td>
+</tr>
+<tr>
+<td>2024-07-16</td>
+<td>TPP</td>
+<td>215597</td>
+<td style="text-align:right">1346 (0.624%)</td>
+<td style="text-align:right">767 (0.356%)</td>
+</tr>
+<tr>
+<td>2024-07-16</td>
+<td>Vision</td>
+<td>351153</td>
+<td style="text-align:right">13197 (3.76%)</td>
+<td style="text-align:right">1142 (0.325%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/tuberculosis/1">https://github.com/rw251/.../conditions/tuberculosis/1</a></p>
+<h3>Antiphospholipid syndrome</h3>
+<p>Any code indicating a diagnosis of antiphospholipid syndrome. Taken from: https://nhs-pcd-refset.pages.dev/</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.03% - 0.05%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023-12-15</td>
+<td>EMIS</td>
+<td>2515618</td>
+<td style="text-align:right">1178 (0.0468%)</td>
+<td style="text-align:right">1178 (0.0468%)</td>
+</tr>
+<tr>
+<td>2023-12-15</td>
+<td>TPP</td>
+<td>201264</td>
+<td style="text-align:right">55 (0.0273%)</td>
+<td style="text-align:right">55 (0.0273%)</td>
+</tr>
+<tr>
+<td>2023-12-15</td>
+<td>Vision</td>
+<td>334040</td>
+<td style="text-align:right">123 (0.0368%)</td>
+<td style="text-align:right">121 (0.0362%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/antiphospholipid-syndrome/1">https://github.com/rw251/.../conditions/antiphospholipid-syndrome/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
 <h3>Infections</h3>
-<p>Any code indicating an infection. Codes from https://research-information.bris.ac.uk/en/datasets/cprd-codes-infections-and-autoimmune-diseases.</p>
-<p>This code set was built for lighthouse study number 4 (Bruce - SLE).</p>
+<p>Any code indicating an infection. Created as the union of the following code sets:</p>
+<ul>
+<li>bone-infection (v1)</li>
+<li>cardiovascular-infection (v1)</li>
+<li>cellulitis (v1)</li>
+<li>diverticulitis (v1)</li>
+<li>gastrointestinal-infections (v1)</li>
+<li>genital-tract-infections (v1)</li>
+<li>hepatobiliary-infection (v1)</li>
+<li>infection-other (v1)</li>
+<li>lrti (v1)</li>
+<li>muscle-infection (v1)</li>
+<li>neurological-infection (v1)</li>
+<li>peritonitis (v1)</li>
+<li>puerpural-infection (v1)</li>
+<li>pyelonephritis (v1)</li>
+<li>urti-bacterial (v1)</li>
+<li>urti-viral (v1)</li>
+<li>uti (v2)</li>
+</ul>
+<p>Each of which was derived from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>74.1% - 80.1%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>74% - 80.1%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -917,86 +943,36 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2024-05-01</td>
+<td>2024-07-10</td>
 <td>EMIS</td>
-<td>2530927</td>
-<td style="text-align:right">1875578 (74.1%)</td>
-<td style="text-align:right">1875483 (74.1%)</td>
+<td>2533608</td>
+<td style="text-align:right">1880834 (74.2%)</td>
+<td style="text-align:right">1873816 (74%)</td>
 </tr>
 <tr>
-<td>2024-05-01</td>
+<td>2024-07-10</td>
 <td>TPP</td>
-<td>201816</td>
-<td style="text-align:right">161930 (80.2%)</td>
-<td style="text-align:right">161753 (80.1%)</td>
+<td>201974</td>
+<td style="text-align:right">162093 (80.3%)</td>
+<td style="text-align:right">161814 (80.1%)</td>
 </tr>
 <tr>
-<td>2024-05-01</td>
+<td>2024-07-10</td>
 <td>Vision</td>
-<td>335411</td>
-<td style="text-align:right">253518 (75.6%)</td>
-<td style="text-align:right">253503 (75.6%)</td>
-</tr>
-<tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/infections/1">https://github.com/rw251/.../conditions/infections/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>335755</td>
+<td style="text-align:right">254065 (75.7%)</td>
+<td style="text-align:right">252991 (75.3%)</td>
 </tr>
 </tbody>
 </table>
-<h3>Flu vaccination</h3>
-<p>Any code that indicates that the patient has had a flu vaccine. Includes procedure codes and admin codes confirming a vaccination has been administered. <strong>NB it does not include the flu vaccine product - see the <code>flu-vaccine</code> code set</strong></p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2024-02-27</td>
-<td>EMIS</td>
-<td>2525130</td>
-<td style="text-align:right">1269267 (50.3%)</td>
-<td style="text-align:right">1269291 (50.3%)</td>
-</tr>
-<tr>
-<td>2024-02-27</td>
-<td>TPP</td>
-<td>201782</td>
-<td style="text-align:right">91527 (45.4%)</td>
-<td style="text-align:right">91540 (45.4%)</td>
-</tr>
-<tr>
-<td>2024-02-27</td>
-<td>Vision</td>
-<td>335118</td>
-<td style="text-align:right">169002 (50.4%)</td>
-<td style="text-align:right">169017 (50.4%)</td>
-</tr>
-<tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/flu-vaccination/1">https://github.com/rw251/.../procedures/flu-vaccination/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-</tr>
-</tbody>
-</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/infections/2">https://github.com/rw251/.../conditions/infections/2</a></p>
+<h3>Bone infection</h3>
+<p>Infection of bone or joints, regardless of causative organism. Including osteomyelitis, septic arthritis, pyogenic arthritis.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
-<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>1.19% - 26.55%</code> as of 11th March 2021 is too wide. However the prevalence figure of 26.55% from EMIS is close to public data and is likely ok.</p>
-<p><strong>UPDATE - 25th March 2021</strong> Missing Read and CTV3 codes were added to the vaccination list and now the range of <code>26.91% - 32.96%</code> seems reasonable. It should be noted that there is an approx 2 week lag between events occurring and them being entered in the record.</p>
-<p><strong>UPDATE - 12th April 2021</strong>, latest prevalence figures.</p>
-<p><strong>UPDATE - 18th March 2022</strong> There are now new codes for things like 3rd/4th/booster dose of vaccine. The latest prevalence shows <code>65.0% - 66.3%</code> have at least one vaccine code in the GP_Events table, and <code>88.2% - 93.6%</code> have at least one code for the vaccine in the GP_Medications table.</p>
-<p><strong>UPDATE - 24th January 2024</strong> There has clearly been a reporting change as the prevalence of the vaccine as a medication has gone down. The event codes for the administration of the COVID vaccine seem to be the reliable place to find this informaiton.</p>
-<h5>MED</h5>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>2.0 - 2.3%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1009,198 +985,40 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2021-05-12</td>
+<td>2024-07-09</td>
 <td>EMIS</td>
-<td>2606497</td>
-<td style="text-align:right">0 (0%)</td>
-<td style="text-align:right">379577(14.56%)</td>
+<td>2533608</td>
+<td style="text-align:right">58668 (2.32%)</td>
+<td style="text-align:right">58584 (2.31%)</td>
 </tr>
 <tr>
-<td>2021-05-12</td>
+<td>2024-07-09</td>
 <td>TPP</td>
-<td>210810</td>
-<td style="text-align:right">0 (0%)</td>
-<td style="text-align:right">1637(0.78%)</td>
+<td>201974</td>
+<td style="text-align:right">5062 (2.51%)</td>
+<td style="text-align:right">4374 (2.17%)</td>
 </tr>
 <tr>
-<td>2021-05-12</td>
+<td>2024-07-09</td>
 <td>Vision</td>
-<td>334784</td>
-<td style="text-align:right">0 (0%)</td>
-<td style="text-align:right">93(0.03%)</td>
-</tr>
-<tr>
-<td>2022-03-18</td>
-<td>EMIS</td>
-<td>2658131</td>
-<td style="text-align:right">1750506 (65.9%)</td>
-<td style="text-align:right">1763420(66.3%)</td>
-</tr>
-<tr>
-<td>2022-03-18</td>
-<td>TPP</td>
-<td>212662</td>
-<td style="text-align:right">8207 (3.9%)</td>
-<td style="text-align:right">138285(65.0%)</td>
-</tr>
-<tr>
-<td>2022-03-18</td>
-<td>Vision</td>
-<td>341594</td>
-<td style="text-align:right">122060 (35.7%)</td>
-<td style="text-align:right">225844(66.1%)</td>
-</tr>
-<tr>
-<td>2024-01-23</td>
-<td>EMIS</td>
-<td>2520311</td>
-<td style="text-align:right">1547833 (61.4%)</td>
-<td style="text-align:right">1547833 (61.4%)</td>
-</tr>
-<tr>
-<td>2024-01-23</td>
-<td>TPP</td>
-<td>201513</td>
-<td style="text-align:right">8819 (4.38%)</td>
-<td style="text-align:right">8819 (4.38%)</td>
-</tr>
-<tr>
-<td>2024-01-23</td>
-<td>Vision</td>
-<td>334747</td>
-<td style="text-align:right">127541 (38.1%)</td>
-<td style="text-align:right">127541 (38.1%)</td>
-</tr>
-<tr>
-<td>2024-04-23</td>
-<td>EMIS</td>
-<td>2530666</td>
-<td style="text-align:right">1538265 (60.8%)</td>
-<td style="text-align:right">1538265 (60.8%)</td>
-</tr>
-<tr>
-<td>2024-04-23</td>
-<td>TPP</td>
-<td>201812</td>
-<td style="text-align:right">9383 (4.65%)</td>
-<td style="text-align:right">9383 (4.65%)</td>
-</tr>
-<tr>
-<td>2024-04-23</td>
-<td>Vision</td>
-<td>335433</td>
-<td style="text-align:right">127287 (37.9%)</td>
-<td style="text-align:right">127287 (37.9%)</td>
-</tr>
-</tbody>
-</table>
-<h5>EVENT</h5>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2021-05-12</td>
-<td>EMIS</td>
-<td>2606497</td>
-<td style="text-align:right">4446 (0.17%)</td>
-<td style="text-align:right">1101577 (42.26%)</td>
-</tr>
-<tr>
-<td>2021-05-12</td>
-<td>TPP</td>
-<td>210810</td>
-<td style="text-align:right">7 (0.00%)</td>
-<td style="text-align:right">87841 (41.66%)</td>
-</tr>
-<tr>
-<td>2021-05-12</td>
-<td>Vision</td>
-<td>334784</td>
-<td style="text-align:right">1 (0.00%)</td>
-<td style="text-align:right">142724 (42.63%)</td>
-</tr>
-<tr>
-<td>2022-03-18</td>
-<td>EMIS</td>
-<td>2658131</td>
-<td style="text-align:right">2486786 (93.6%)</td>
-<td style="text-align:right">1676951 (63.1%)</td>
-</tr>
-<tr>
-<td>2022-03-18</td>
-<td>TPP</td>
-<td>212662</td>
-<td style="text-align:right">187463 (88.2%)</td>
-<td style="text-align:right">7314 (3.44%)</td>
-</tr>
-<tr>
-<td>2022-03-18</td>
-<td>Vision</td>
-<td>341594</td>
-<td style="text-align:right">312617 (91.5%)</td>
-<td style="text-align:right">62512 (18.3%)</td>
-</tr>
-<tr>
-<td>2024-01-23</td>
-<td>EMIS</td>
-<td>2520311</td>
-<td style="text-align:right">243506 (9.66%)</td>
-<td style="text-align:right">1571372 (62.3%)</td>
-</tr>
-<tr>
-<td>2024-01-23</td>
-<td>TPP</td>
-<td>201513</td>
-<td style="text-align:right">2322 (1.15%)</td>
-<td style="text-align:right">137349 (68.2%)</td>
-</tr>
-<tr>
-<td>2024-01-23</td>
-<td>Vision</td>
-<td>334747</td>
-<td style="text-align:right">32138 (9.6%)</td>
-<td style="text-align:right">209223 (62.5%)</td>
-</tr>
-<tr>
-<td>2024-04-23</td>
-<td>EMIS</td>
-<td>2530666</td>
-<td style="text-align:right">1611670 (63.7%)</td>
-<td style="text-align:right">1573511 (62.2%)</td>
-</tr>
-<tr>
-<td>2024-04-23</td>
-<td>TPP</td>
-<td>201812</td>
-<td style="text-align:right">10713 (5.31%)</td>
-<td style="text-align:right">136355 (67.6%)</td>
-</tr>
-<tr>
-<td>2024-04-23</td>
-<td>Vision</td>
-<td>335433</td>
-<td style="text-align:right">214580 (64%)</td>
-<td style="text-align:right">208920 (62.3%)</td>
+<td>335755</td>
+<td style="text-align:right">6718 (2%)</td>
+<td style="text-align:right">6627 (1.97%)</td>
 </tr>
 </tbody>
 </table>
 <h4>Audit log</h4>
 <ul>
-<li>Find_missing_codes last run 2024-01-23</li>
+<li>Find_missing_codes last run 2024-07-05</li>
 </ul>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1">https://github.com/rw251/.../procedures/covid-vaccination/1</a></p>
-<h3>Pneumococcal vaccination</h3>
-<p>Codes taken from OpenCodelists https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/pcv_cod/20200812/#full-list and https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/pneuvac1_cod/20210127/#full-list</p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/bone-infection/1">https://github.com/rw251/.../conditions/bone-infection/1</a></p>
+<h3>Cardiovascular infections</h3>
+<p>Infections of the tissues of the heart, including endocarditis, myocarditis, pericarditis, regardless of infectious organism.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>34.2% - 34.8%</code> for EMIS and Vision suggests that this code set is well defined. TPP practices are a lot lower at <code>16.2%</code> which may be down to the way the codes are recorded there.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.12 - 0.14%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1213,106 +1031,40 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2023-11-01</td>
+<td>2024-07-09</td>
 <td>EMIS</td>
-<td>2472595</td>
-<td style="text-align:right">722523 (29.2%)</td>
-<td style="text-align:right">862422 (34.8%)</td>
+<td>2533608</td>
+<td style="text-align:right">3281 (0.129%)</td>
+<td style="text-align:right">3041 (0.12%)</td>
 </tr>
 <tr>
-<td>2023-11-01</td>
+<td>2024-07-09</td>
 <td>TPP</td>
-<td>200603</td>
-<td style="text-align:right">30992 (15.4%)</td>
-<td style="text-align:right">32488 (16.2%)</td>
+<td>201974</td>
+<td style="text-align:right">275 (0.136%)</td>
+<td style="text-align:right">273 (0.135%)</td>
 </tr>
 <tr>
-<td>2023-11-01</td>
+<td>2024-07-09</td>
 <td>Vision</td>
-<td>332447</td>
-<td style="text-align:right">110871 (33.3%)</td>
-<td style="text-align:right">113668 (34.2%)</td>
+<td>335755</td>
+<td style="text-align:right">408 (0.122%)</td>
+<td style="text-align:right">407 (0.121%)</td>
 </tr>
 </tbody>
 </table>
-<p>MED</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2023-11-10</td>
-<td>EMIS</td>
-<td>2482563</td>
-<td style="text-align:right">43312 (1.74%)</td>
-<td style="text-align:right">43313 (1.74%)</td>
-</tr>
-<tr>
-<td>2023-11-10</td>
-<td>TPP</td>
-<td>201030</td>
-<td style="text-align:right">73 (0.0363%)</td>
-<td style="text-align:right">74 (0.0368%)</td>
-</tr>
-<tr>
-<td>2023-11-10</td>
-<td>Vision</td>
-<td>333490</td>
-<td style="text-align:right">2702 (0.81%)</td>
-<td style="text-align:right">2702 (0.81%)</td>
-</tr>
-</tbody>
-</table>
-<p>EVENT</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2023-11-10</td>
-<td>EMIS</td>
-<td>2482563</td>
-<td style="text-align:right">722186 (29.1%)</td>
-<td style="text-align:right">860756 (34.7%)</td>
-</tr>
-<tr>
-<td>2023-11-10</td>
-<td>TPP</td>
-<td>201030</td>
-<td style="text-align:right">31354 (15.6%)</td>
-<td style="text-align:right">32487 (16.2%)</td>
-</tr>
-<tr>
-<td>2023-11-10</td>
-<td>Vision</td>
-<td>333490</td>
-<td style="text-align:right">110696 (33.2%)</td>
-<td style="text-align:right">113431 (34%)</td>
-</tr>
-</tbody>
-</table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/pneumococcal-vaccination/1">https://github.com/rw251/.../procedures/pneumococcal-vaccination/1</a></p>
-<h3>Shingles vaccination</h3>
-<p>Codes taken from OpenCodelists https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/shvacgp_cod/20200812/#full-list and https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/shvacgp1_cod/20211221/#full-list and https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/shvacgp2_cod/20211221/#full-list</p>
-<p>Also the following codes were added as advised by RQ062 PI: n4v1, n4v4.</p>
-<p>** 01.05.24: codes were added from <a href="https://nhs-pcd-refset.pages.dev/">NHS ref</a></p>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cardiovascular-infection/1">https://github.com/rw251/.../conditions/cardiovascular-infection/1</a></p>
+<h3>Cellulitis</h3>
+<p>Bacterial infection of the skin and subcutaneous tissues, including cellulitis and erysipelas, excluding localised superficial infections such as abscess without cellulitis.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence <code>6.26 - 7.55%</code> suggests that this code set is well defined.</p>
-<p>From GP_Events:</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>6.1 - 7.2%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -1325,29 +1077,40 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2024-02-27</td>
+<td>2024-07-09</td>
 <td>EMIS</td>
-<td>2525130</td>
-<td style="text-align:right">158147 (6.26%)</td>
-<td style="text-align:right">159573 (6.32%)</td>
+<td>2533608</td>
+<td style="text-align:right">175869 (6.94%)</td>
+<td style="text-align:right">153542 (6.06%)</td>
 </tr>
 <tr>
-<td>2024-02-27</td>
+<td>2024-07-09</td>
 <td>TPP</td>
-<td>201782</td>
-<td style="text-align:right">15218 (7.54%)</td>
-<td style="text-align:right">15232 (7.55%)</td>
+<td>201974</td>
+<td style="text-align:right">14259 (7.06%)</td>
+<td style="text-align:right">14130 (7%)</td>
 </tr>
 <tr>
-<td>2024-02-27</td>
+<td>2024-07-09</td>
 <td>Vision</td>
-<td>335118</td>
-<td style="text-align:right">21409 (6.39%)</td>
-<td style="text-align:right">21616 (6.45%)</td>
+<td>335755</td>
+<td style="text-align:right">30236 (9.01%)</td>
+<td style="text-align:right">24101 (7.18%)</td>
 </tr>
 </tbody>
 </table>
-<p>From GP_Medications:</p>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cellulitis/1">https://github.com/rw251/.../conditions/cellulitis/1</a></p>
+<h3>Diverticulitis</h3>
+<p>Bacterial infection of diverticular disease, including diverticular abscesses.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range is <code>0.58 - 1.02%</code>.</p>
 <table>
 <thead>
 <tr>
@@ -1360,34 +1123,649 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2024-02-27</td>
+<td>2024-07-09</td>
 <td>EMIS</td>
-<td>2525130</td>
-<td style="text-align:right">9011 (0.357%)</td>
-<td style="text-align:right">9011 (0.357%)</td>
+<td>2533608</td>
+<td style="text-align:right">18971 (0.749%)</td>
+<td style="text-align:right">18954 (0.748%)</td>
 </tr>
 <tr>
-<td>2024-02-27</td>
+<td>2024-07-09</td>
 <td>TPP</td>
-<td>201782</td>
-<td style="text-align:right">145 (0.0719%)</td>
-<td style="text-align:right">145 (0.0719%)</td>
+<td>201974</td>
+<td style="text-align:right">2066 (1.02%)</td>
+<td style="text-align:right">2066 (1.02%)</td>
 </tr>
 <tr>
-<td>2024-02-27</td>
+<td>2024-07-09</td>
 <td>Vision</td>
-<td>335118</td>
-<td style="text-align:right">473 (0.141%)</td>
-<td style="text-align:right">473 (0.141%)</td>
-</tr>
-<tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/shingles-vaccination/1">https://github.com/rw251/.../procedures/shingles-vaccination/1</a></td>
-<td></td>
-<td></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
+<td>335755</td>
+<td style="text-align:right">1922 (0.572%)</td>
+<td style="text-align:right">1921 (0.572%)</td>
 </tr>
 </tbody>
 </table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diverticulitis/1">https://github.com/rw251/.../conditions/diverticulitis/1</a></p>
+<h3>Gastrointestinal infections</h3>
+<p>Infections of the intestinal tract (gastroenteritis, colitis, enteritis) of presumed bacterial origin, excluding viral and protozoal gastrointestinal infections.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range is <code>0.95 - 1.56%</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-11</td>
+<td>EMIS</td>
+<td>2533608</td>
+<td style="text-align:right">40067 (1.58%)</td>
+<td style="text-align:right">39642 (1.56%)</td>
+</tr>
+<tr>
+<td>2024-07-11</td>
+<td>TPP</td>
+<td>201974</td>
+<td style="text-align:right">2019 (1%)</td>
+<td style="text-align:right">1910 (0.946%)</td>
+</tr>
+<tr>
+<td>2024-07-11</td>
+<td>Vision</td>
+<td>335755</td>
+<td style="text-align:right">3972 (1.18%)</td>
+<td style="text-align:right">4179 (1.24%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/gastrointestinal-infections/1">https://github.com/rw251/.../conditions/gastrointestinal-infections/1</a></p>
+<h3>Genital tract infections</h3>
+<p>Infections of the male or female upper genital tract. Including pelvic inflammatory disease, salpingitis, endometritis, oophritis, cervicitis, epididymitis, orchitis, prostatitis. Excluding superficial infections e.g. vulvovaginitis, balanitis.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>7.3 - 8.5%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-09</td>
+<td>EMIS</td>
+<td>2533608</td>
+<td style="text-align:right">215633 (8.51%)</td>
+<td style="text-align:right">215616 (8.51%)</td>
+</tr>
+<tr>
+<td>2024-07-09</td>
+<td>TPP</td>
+<td>201974</td>
+<td style="text-align:right">14831 (7.34%)</td>
+<td style="text-align:right">14831 (7.34%)</td>
+</tr>
+<tr>
+<td>2024-07-09</td>
+<td>Vision</td>
+<td>335755</td>
+<td style="text-align:right">26957 (8.03%)</td>
+<td style="text-align:right">26902 (8.01%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/genital-tract-infections/1">https://github.com/rw251/.../conditions/genital-tract-infections/1</a></p>
+<h3>Hepatobiliary infection</h3>
+<p>Infectious hepatitis or liver abscess, regardless of type of infectious organism. Including hep A, B, C, D, E. Infections of the gallbladder or biliary tract, including cholecystitis, cholangitis, or empyema of the gallbladder, regardless of type of infectious organism.</p>
+<p>Excluding past history of infection, carrier of infection, family history of infection, congenital infection, vaccination against infection, infectious contact.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>2.7 - 3.2%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-09</td>
+<td>EMIS</td>
+<td>2533608</td>
+<td style="text-align:right">81254 (3.21%)</td>
+<td style="text-align:right">81238 (3.21%)</td>
+</tr>
+<tr>
+<td>2024-07-09</td>
+<td>TPP</td>
+<td>201974</td>
+<td style="text-align:right">5729 (2.84%)</td>
+<td style="text-align:right">5656 (2.8%)</td>
+</tr>
+<tr>
+<td>2024-07-09</td>
+<td>Vision</td>
+<td>335755</td>
+<td style="text-align:right">9140 (2.72%)</td>
+<td style="text-align:right">9069 (2.7%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hepatobiliary-infection/1">https://github.com/rw251/.../conditions/hepatobiliary-infection/1</a></p>
+<h3>Other infections</h3>
+<p>This includes any infection that is not covered by the following code sets:</p>
+<ul>
+<li>bone-infection</li>
+<li>cardiovascular-infection</li>
+<li>cellulitis</li>
+<li>diverticulitis</li>
+<li>gastrointestinal-infections</li>
+<li>genital-tract-infections</li>
+<li>hepatobiliary-infection</li>
+<li>lrti</li>
+<li>muscle-infection</li>
+<li>neurological-infection</li>
+<li>peritonitis</li>
+<li>puerpural-infection</li>
+<li>pyelonephritis</li>
+<li>urti-bacterial</li>
+<li>utri-viral</li>
+<li>uti</li>
+</ul>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>The code set classed many infections as &quot;other&quot;, and this is what is created here. The code set was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>32.5 - 34.6%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-10</td>
+<td>EMIS</td>
+<td>2533608</td>
+<td style="text-align:right">863540 (34.1%)</td>
+<td style="text-align:right">858486 (33.9%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>TPP</td>
+<td>201974</td>
+<td style="text-align:right">70032 (34.7%)</td>
+<td style="text-align:right">69983 (34.6%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>Vision</td>
+<td>335755</td>
+<td style="text-align:right">109858 (32.7%)</td>
+<td style="text-align:right">109142 (32.5%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/infection-other/1">https://github.com/rw251/.../conditions/infection-other/1</a></p>
+<h3>Lower respiratory tract infections</h3>
+<p>Infections of the lower respiratory tract, including pneumonia, pulmonary TB, infective exacerbation COPD/asthma, empyema, lung abscesses, regardless of type of infective organism.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>30.4 - 36.5%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-09</td>
+<td>EMIS</td>
+<td>2533608</td>
+<td style="text-align:right">770850 (30.4%)</td>
+<td style="text-align:right">770695 (30.4%)</td>
+</tr>
+<tr>
+<td>2024-07-09</td>
+<td>TPP</td>
+<td>201974</td>
+<td style="text-align:right">73694 (36.5%)</td>
+<td style="text-align:right">73643 (36.5%)</td>
+</tr>
+<tr>
+<td>2024-07-09</td>
+<td>Vision</td>
+<td>335755</td>
+<td style="text-align:right">107068 (31.9%)</td>
+<td style="text-align:right">106959 (31.9%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/lrti/1">https://github.com/rw251/.../conditions/lrti/1</a></p>
+<h3>Muscle infection</h3>
+<p>Includes muscle abscess, myositis, necrotising fasciitis and gas gangrene.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.076 - 0.086%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-10</td>
+<td>EMIS</td>
+<td>2533608</td>
+<td style="text-align:right">1983 (0.0783%)</td>
+<td style="text-align:right">1917 (0.0757%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>TPP</td>
+<td>201974</td>
+<td style="text-align:right">174 (0.0861%)</td>
+<td style="text-align:right">174 (0.0861%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>Vision</td>
+<td>335755</td>
+<td style="text-align:right">294 (0.0876%)</td>
+<td style="text-align:right">278 (0.0828%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/muscle-infection/1">https://github.com/rw251/.../conditions/muscle-infection/1</a></p>
+<h3>Neurological infections</h3>
+<p>Infections of the central nervous system (brain, meninges, spinal cord) regardless of causative organism. Including meningitis, encephalitis and cranial abscess.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.54 - 0.78%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-10</td>
+<td>EMIS</td>
+<td>2533608</td>
+<td style="text-align:right">21441 (0.846%)</td>
+<td style="text-align:right">19839 (0.783%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>TPP</td>
+<td>201974</td>
+<td style="text-align:right">1705 (0.844%)</td>
+<td style="text-align:right">1084 (0.537%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>Vision</td>
+<td>335755</td>
+<td style="text-align:right">2612 (0.778%)</td>
+<td style="text-align:right">2362 (0.703%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/neurological-infection/1">https://github.com/rw251/.../conditions/neurological-infection/1</a></p>
+<h3>Peritonitis</h3>
+<p>Inflammation of the peritoneal cavity. The peritoneal cavity includes an extensive serous membrane that covers the entire abdominal wall and is reflected over the contained viscera, the greater and lesser omentum, and the transverse mesocolon.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.084 - 0.091%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-10</td>
+<td>EMIS</td>
+<td>2533608</td>
+<td style="text-align:right">2530 (0.0999%)</td>
+<td style="text-align:right">2309 (0.0911%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>TPP</td>
+<td>201974</td>
+<td style="text-align:right">180 (0.0891%)</td>
+<td style="text-align:right">180 (0.0891%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>Vision</td>
+<td>335755</td>
+<td style="text-align:right">300 (0.0894%)</td>
+<td style="text-align:right">283 (0.0843%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/peritonitis/1">https://github.com/rw251/.../conditions/peritonitis/1</a></p>
+<h3>Puerpural infections</h3>
+<p>An infection associated with pregnancy, the puerperium or lactation (including mastitis, endometritis, puerperal sepsis).</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.16 - 1.42%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-10</td>
+<td>EMIS</td>
+<td>2533608</td>
+<td style="text-align:right">29325 (1.16%)</td>
+<td style="text-align:right">29352 (1.16%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>TPP</td>
+<td>201974</td>
+<td style="text-align:right">2738 (1.36%)</td>
+<td style="text-align:right">2737 (1.36%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>Vision</td>
+<td>335755</td>
+<td style="text-align:right">4753 (1.42%)</td>
+<td style="text-align:right">4761 (1.42%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/puerpural-infection/1">https://github.com/rw251/.../conditions/puerpural-infection/1</a></p>
+<h3>Pyelonephritis</h3>
+<p>Bacterial infection of the kidney tissue, renal pelvis or calyces or renal or perinephric abscess due to bacterial infection.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.11 - 1.22%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-10</td>
+<td>EMIS</td>
+<td>2533608</td>
+<td style="text-align:right">30900 (1.22%)</td>
+<td style="text-align:right">30897 (1.22%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>TPP</td>
+<td>201974</td>
+<td style="text-align:right">2340 (1.16%)</td>
+<td style="text-align:right">2340 (1.16%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>Vision</td>
+<td>335755</td>
+<td style="text-align:right">3724 (1.11%)</td>
+<td style="text-align:right">3724 (1.11%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/pyelonephritis/1">https://github.com/rw251/.../conditions/pyelonephritis/1</a></p>
+<h3>Bacterial upper respiratory tract infections</h3>
+<p>Infections of the upper respiratory tract of likely bacterial origin or for which antibiotics could reasonably be given. Including mastoiditis, streptococcal pharyngitis, otitis media, sinusitis, tonsillitis, tracheitis.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>37 - 41%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-10</td>
+<td>EMIS</td>
+<td>2533608</td>
+<td style="text-align:right">953545 (37.6%)</td>
+<td style="text-align:right">934097 (36.9%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>TPP</td>
+<td>201974</td>
+<td style="text-align:right">83471 (41.3%)</td>
+<td style="text-align:right">83417 (41.3%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>Vision</td>
+<td>335755</td>
+<td style="text-align:right">134343 (40%)</td>
+<td style="text-align:right">131752 (39.2%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/urti-bacterial/1">https://github.com/rw251/.../conditions/urti-bacterial/1</a></p>
+<h3>Viral upper respiratory tract infection</h3>
+<p>Infections of the upper respiratory tract of likely viral origin. Including laryngitis, pharyngitis, rhinitis, influenza, common cold.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>58 - 67%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-10</td>
+<td>EMIS</td>
+<td>2533608</td>
+<td style="text-align:right">1476852 (58.3%)</td>
+<td style="text-align:right">1461371 (57.7%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>TPP</td>
+<td>201974</td>
+<td style="text-align:right">134604 (66.6%)</td>
+<td style="text-align:right">134234 (66.5%)</td>
+</tr>
+<tr>
+<td>2024-07-10</td>
+<td>Vision</td>
+<td>335755</td>
+<td style="text-align:right">204148 (60.8%)</td>
+<td style="text-align:right">200927 (59.8%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/urti-viral/1">https://github.com/rw251/.../conditions/urti-viral/1</a></p>
+<h3>Urinary tract infection (UTI)</h3>
+<p>Bacterial infections of the lower urinary tract including urethra, bladder or ureters, excluding pyelonephritis (see separate code set). Excluding chlamydial and gonococcal urethritis and asymptomatic bacteriuria.</p>
+<p>This code set was created from a Readv2 code set developed from the University of Bristol:</p>
+<p>Jessica Watson (2018): CPRD codes: infections and autoimmune diseases. https://doi.org/10.5523/bris.2954m5h0ync672u8yzx16xxj7l</p>
+<p>It was then mapped to EMIS, CTV3 and SNOMED, and supplemented with codes from a traversal of the SNOMED hierarchy.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>19.8 - 21.8%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-07-12</td>
+<td>EMIS</td>
+<td>2695312</td>
+<td style="text-align:right">535660 (19.9%)</td>
+<td style="text-align:right">534987 (19.8%)</td>
+</tr>
+<tr>
+<td>2024-07-12</td>
+<td>TPP</td>
+<td>215330</td>
+<td style="text-align:right">46923 (21.8%)</td>
+<td style="text-align:right">46873 (21.8%)</td>
+</tr>
+<tr>
+<td>2024-07-12</td>
+<td>Vision</td>
+<td>350931</td>
+<td style="text-align:right">72881 (20.8%)</td>
+<td style="text-align:right">72568 (20.7%)</td>
+</tr>
+</tbody>
+</table>
+<h4>Audit log</h4>
+<ul>
+<li>Find_missing_codes last run 2024-07-05</li>
+</ul>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/uti/2">https://github.com/rw251/.../conditions/uti/2</a></p>
 <h1>Clinical code sets</h1>
 <p>All code sets required for this analysis are available here: <a href="https://github.com/rw251/gm-idcr/tree/master/projects/SDE%20Lighthouse%2004%20-%20Bruce/clinical-code-sets.csv">https://github.com/rw251/.../SDE Lighthouse 04 - Bruce/clinical-code-sets.csv</a>. Individual lists for each concept can also be found by using the links above.</p>
