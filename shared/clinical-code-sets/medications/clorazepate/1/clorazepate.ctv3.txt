@@ -1,0 +1,6 @@
+d27..	Clorazepate dipotassium
+d27z.	Clorazepate dipotassium 15mg capsule
+d272.	Tranxene 15mg capsule
+d27y.	Clorazepate dipotassium 7.5mg capsule
+d271.	Tranxene 7.5mg capsule
+x02t3	Tranxene

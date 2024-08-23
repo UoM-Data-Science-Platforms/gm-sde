@@ -1,0 +1,89 @@
+a81..	Codeine phosphate [gastro-intestinal use]
+a816.	Codeine phosphate+kaolin 10mg/3g/10mL mixture
+a815.	Kaodene mixture
+cg1..	Codeine phosphate
+cg11.	Codeine linctus BP
+cg12.	Diabetic codeine linctus BP
+cg14.	Galcodine 15mg/5mL s/f linctus
+cg13.	Codeine phosphate 3mg/5mL paediatric linctus
+cg15.	Galcodine 3mg/5mL paediatric s/f linctus
+ch25.	Benylin with codeine syrup
+dia1.	Aspirin/paracetamol/codeine tablets
+dia2.	Paracetamol+codeine phosphate 500mg/8mg tablet
+dl13.	Migraleve yellow tablet
+dl1a.	Migraleve yellow tablets x48
+dibe.	Parake tablet
+dib8.	Panadeine tablet
+dib5.	Neurodyne capsule
+dib3.	Medocodeine tablet
+dia3.	Paracetamol+codeine phosphate 500mg/8mg dispersible tablet
+diba.	Panadeine soluble tablet
+dia4.	Aspirin+codeine 400mg/8mg tablet
+dia5.	Aspirin+codeine 400mg/8mg dispersible tablet
+diab.	Codis dispersible tablet
+diaI.	Paracetamol+codeine phosphate 500mg/30mg/sachet powder
+diaJ.	Kapake Insts 500mg/30mg/sachet powder
+diaK.	Paracetamol+codeine phosphate 1000mg/60mg/sachet powder
+diaL.	Kapake Insts 1000mg/60mg/sachet powder
+diaO.	Aspirin+codeine phosphate 500mg/8mg dispersible tablet
+diaP.	Codis 500 dispersible tablet
+diaU.	Paracetamol+codeine phosphate 500mg/15mg tablet
+diaT.	Codipar Caplet
+diap.	Paracetamol+codeine phosphate 500mg/8mg effervescent tablet
+dibb.	Paracodol soluble tablet
+diaq.	Paracetamol+codeine phosphate 500mg/8mg capsule
+diar.	Paracodol capsule
+dibM.	Paracetamol+codeine phosphate 500mg/13.5mg tablet
+dibN.	Panadol Ultra tablet
+dibQ.	Paracetamol+codeine phosphate 500mg/12.8mg tablet
+dibR.	Solpadeine Max tablet
+dicv.	PARACETAMOL+CODEINE PHOSPHATE 500mg/15mg effervescent tablet
+dj4..	Codeine phosphate [analgesic]
+dj41.	Codeine phosphate 15mg tablet
+dj42.	Codeine phosphate 30mg tablet
+dj43.	Codeine phosphate 60mg tablet
+dj44.	Codeine phosphate 25mg/5mL syrup
+dj45.	Codeine phosphate 60mg/1mL injection
+dj46.	Codeine phosphate powder
+j28O.	Ibuprofen+codeine phosphate 200mg/12.5mg tablet
+j28V.	Ibuprofen+codeine phosphate 200mg/12.8mg tablet
+j2pT.	Solpadeine Migraine Ibuprofen & Codeine tablet
+j2pM.	Cuprofen PLUS tablet
+j28U.	Solpaflex tablet
+j28I.	Nurofen Plus tablet
+j28z.	Ibuprofen+codeine phosphate 300mg/20mg m/r tablet
+j28H.	Codafen Continus m/r tablet
+x006P	Ibuprofen+codeine phosphate
+x00et	Aspirin+codeine 300mg/8mg tablet
+x01Kc	Oral codeine
+x01Kd	Codeine linctus
+x01Ke	Parenteral codeine
+x042Y	Benylin with codeine
+x0607	Solpadeine Migraine Ibuprofen & Codeine
+x02gA	Kaodene
+x02da	Galcodine
+x02mq	Paracodol
+dibG.	Tylex Effervescent soluble tablet
+dibt.	Tylex capsule
+x02tZ	Tylex
+x03tW	Tylex Effervescent
+dibS.	Solpadol capsule
+dibu.	Solpadol effervescent tablet
+dibz.	Solpadol Caplet
+x02rA	Solpadol
+diam.	Kapake tablet
+diao.	Kapake capsule
+dicN.	Kapake 30/500 effervescent tablet
+x02gB	Kapake
+x04v6	Kapake Insts
+dibW.	Medocodene 30/500 capsule
+dicR.	Medocodene 30/500 effervescent tablet
+x0571	Medocodene 30/500
+dic3.	Zapain Caplet
+dic4.	Zapain capsule
+x05C7	Zapain
+dica.	CODIPAR 15mg/500mg effervescent tablets
+x05hj	Codipar
+a814.	Diarrest liquid
+x02ZY	Diarrest
+dl12.	Migraleve pink tablet

@@ -1,0 +1,70 @@
+ALTA7117	Alprazolam  Tablets  250 micrograms
+ALTA7118	Alprazolam  Tablets  500 micrograms
+XATA5679	Xanax  Tablets  250 micrograms
+XATA5680	Xanax  Tablets  500 micrograms
+^ESCT1181066	Product containing only alprazolam 0.25 milligram/1 each oral tablet
+^ESCT1181364	Product containing only alprazolam 0.5 milligram/1 each oral tablet
+^ESCT1181566	Product containing only alprazolam 1 mg/1 each oral tablet
+^ESCT1181648	Product containing only alprazolam 2 mg/1 each oral tablet
+^ESCT1204464	Alprazolam 1mg/ml conventional release oral solution
+^ESCT1206139	Alprazolam in oral dosage form
+^ESCT1206140	Product containing alprazolam in oral dosage form
+^ESCT1221396	Alprazolam
+^ESCT1221397	Alprazolam product
+^ESCT1223341	Alprazolam 250 microgram oral tablet
+^ESCT1223342	Product containing precisely alprazolam 250 microgram/1 each conventional release oral tablet
+^ESCT1223343	Alprazolam 500 microgram oral tablet
+^ESCT1223344	Product containing precisely alprazolam 500 microgram/1 each conventional release oral tablet
+^ESCT1227530	Product containing precisely alprazolam 1 milligram/1 each conventional release oral tablet
+^ESCT1227762	Product containing precisely alprazolam 2 milligram/1 each conventional release oral tablet
+^ESCT1301329	Xanax 250microgram tablets (Upjohn Ltd)
+^ESCT1301330	Xanax 250microgram tablets (Upjohn Ltd) 60 tablet
+^ESCT1301331	Xanax 500microgram tablets (Upjohn Ltd)
+^ESCT1301332	Xanax 500microgram tablets (Upjohn Ltd) 60 tablet
+^ESCT1303975	Xanax 250microgram tablets (Upjohn UK Ltd)
+^ESCT1303976	Xanax 250microgram tablets (Upjohn UK Ltd) 60 tablet
+^ESCT1303977	Xanax 500microgram tablets (Upjohn UK Ltd)
+^ESCT1303978	Xanax 500microgram tablets (Upjohn UK Ltd) 60 tablet
+^ESCT1353395	Alprazolam only product
+^ESCT1357420	Alprazolam only product in oral dose form
+^ESCT1364768	Alprazolam-containing product in oromucosal dose form
+^ESCT1365567	Alprazolam only product in oromucosal dose form
+^ESCT1381693	Alprazolam 100 microgram/mL oral solution
+^ESCT1383180	Alprazolam 500 microgram orodispersible tablet
+^ESCT1383186	Alprazolam 1 mg orodispersible tablet
+^ESCT1383190	Alprazolam 250 microgram orodispersible tablet
+^ESCT1383195	Alprazolam 2 mg orodispersible tablet
+^ESCT1385910	Alprazolam 1 mg/mL oral solution
+^ESCT1386136	Alprazolam-containing product in oral dose form
+^ESCT1437725	Xanax 250microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1437726	Xanax 250microgram tablets (Viatris UK Healthcare Ltd) 60 tablet
+^ESCT1437729	Xanax 500microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1437730	Xanax 500microgram tablets (Viatris UK Healthcare Ltd) 60 tablet
+^ESCTAL419137	Alprazolam
+^ESCTAL609111	Alprazolam 250microgram tablets
+^ESCTAL609112	Alprazolam 0.25 mg oral tablet
+^ESCTAL609114	Alprazolam 500microgram tablets
+^ESCTAL609115	Alprazolam 0.5 mg oral tablet
+^ESCTAL635193	Alprazolam 1mg/ml concentrate
+^ESCTAL635194	Alprazolam 0.5mg/5ml oral solution
+^ESCTAL635195	Alprazolam 0.5mg/5ml solution
+^ESCTAL635202	Alprazolam 1 mg oral tablet
+^ESCTAL638786	Alprazolam 2 mg oral tablet
+^ESCTAL690281	Alprazolam 500mcg orally disintegrating tablet
+^ESCTAL690282	Alprazolam 0.5mg orally disintegrating tablet
+^ESCTAL690369	Alprazolam 1mg orally disintegrating tablet
+^ESCTAL690580	Alprazolam 250mcg orally disintegrating tablet
+^ESCTAL690581	Alprazolam 0.25mg orally disintegrating tablet
+^ESCTAL690704	Alprazolam 2mg orally disintegrating tablet
+^ESCTAL871748	Alprazolam 250microgram tablets 60 tablet
+^ESCTAL871757	Alprazolam 500microgram tablets 60 tablet
+^ESCTPR419138	Product containing alprazolam
+^ESCTPR609113	Product containing alprazolam 0.25 milligram/1 each oral tablet
+^ESCTPR609116	Product containing alprazolam 0.5 milligram/1 each oral tablet
+^ESCTPR635203	Product containing alprazolam 1 mg/1 each oral tablet
+^ESCTPR638787	Product containing alprazolam 2 mg/1 each oral tablet
+^ESCTXA871750	Xanax 250microgram tablets (Pfizer Ltd)
+^ESCTXA871751	Xanax 250microgram tablets (Pfizer Ltd) 60 tablet
+^ESCTXA871759	Xanax 500microgram tablets (Pfizer Ltd)
+^ESCTXA871760	Xanax 500microgram tablets (Pfizer Ltd) 60 tablet
+^ESCTXA917252	Xanax

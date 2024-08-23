@@ -1,0 +1,9 @@
+gdB..	Trospium chloride
+gdBy.	TROSPIUM CHLORIDE 60mg m/r capsules
+gdB4.	URAPLEX 20mg tablets
+gdB3.	FLOTROS 20mg tablets
+gdB2.	REGURIN XL 60mg m/r capsules
+gdBz.	Trospium chloride 20mg tablet
+gdB1.	Regurin 20mg tablet
+x05CG	Trospium
+x05CH	Regurin

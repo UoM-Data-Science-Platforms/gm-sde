@@ -1,0 +1,30 @@
+dy3..00	GALANTAMINE
+dy3z.00	GALANTAMINE 12mg tablets
+dy3y.00	GALANTAMINE 8mg tablets
+dy3x.00	*GALANTAMINE 4mg tablets
+dy3w.00	GALANTAMINE 4mg/mL sugar free oral solution
+dy3v.00	GALANTAMINE 24mg m/r capsules
+dy3u.00	GALANTAMINE 16mg m/r capsules
+dy3t.00	GALANTAMINE 8mg m/r capsules
+dy3M.00	LUVENTA XL 24mg m/r capsules
+dy3L.00	LUVENTA XL 16mg m/r capsules
+dy3K.00	LUVENTA XL 8mg m/r capsules
+dy3J.00	ELMINO XL 24mg m/r capsules
+dy3I.00	ELMINO XL 16mg m/r capsules
+dy3H.00	ELMINO XL 8mg m/r capsules
+dy3G.00	LOTPROSIN XL 24mg m/r capsules
+dy3F.00	LOTPROSIN XL 16mg m/r capsules
+dy3E.00	LOTPROSIN XL 8mg m/r capsules
+dy3D.00	ACUMOR XL 24mg m/r capsules
+dy3C.00	ACUMOR XL 16mg m/r capsules
+dy3B.00	ACUMOR XL 8mg m/r capsules
+dy3A.00	GALSYA XL 24mg m/r capsules
+dy39.00	GALSYA XL 16mg m/r capsules
+dy38.00	GALSYA XL 8mg m/r capsules
+dy37.00	REMINYL XL 24mg m/r capsules
+dy36.00	REMINYL XL 16mg m/r capsules
+dy35.00	REMINYL XL 8mg m/r capsules
+dy34.00	REMINYL 4mg/mL sugar free oral solution
+dy33.00	REMINYL 12mg tablets
+dy32.00	REMINYL 8mg tablets
+dy31.00	*REMINYL 4mg tablets

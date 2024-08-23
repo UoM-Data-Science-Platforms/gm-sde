@@ -1,0 +1,8 @@
+dr31.	Cogentin 2mg tablet
+dr32.	Cogentin 2mg/2mL injection
+x02Xj	Cogentin
+dr3..	Benzatropine mesylate
+dr3y.	Benzatropine mesylate 2mg tablet
+dr3z.	Benzatropine mesylate 2mg/2mL injection
+x01DT	Benzatropine
+x05M5	Benzatropine mesylate - chemical

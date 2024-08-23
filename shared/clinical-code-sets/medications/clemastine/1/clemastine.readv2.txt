@@ -1,0 +1,8 @@
+c85..00	CLEMASTINE
+c85z.00	CLEMASTINE 500micrograms/5mL elixir
+c85y.00	CLEMASTINE 1mg tablets
+c855.00	*ALLER-EZE PLUS tablets
+c854.00	CLEMASTINE+PHENYLPROPANOLAMINE 0.5mg/25mg tablets
+c853.00	*ALLER-EZE tablets
+c852.00	TAVEGIL 500micrograms/5mL elixir
+c851.00	TAVEGIL 1mg tablets

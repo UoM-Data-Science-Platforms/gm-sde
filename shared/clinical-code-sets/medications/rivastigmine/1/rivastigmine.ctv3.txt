@@ -1,0 +1,33 @@
+dy2..	Rivastigmine
+dy2V.	ELUDEN 9.5mg/24hours transdermal patches
+dy2U.	ELUDEN 4.6mg/24hours transdermal patches
+dy2T.	VOLEZE 13.3mg/24hours transdermal patches
+dy2S.	VOLEZE 9.5mg/24hours transdermal patches
+dy2R.	VOLEZE 4.6mg/24hours transdermal patches
+dy2Q.	SOMNITON 9.5mg/24hours transdermal patches
+dy2P.	SOMNITON 4.6mg/24hours transdermal patches
+dy2O.	PROMETAX 9.5mg/24hours transdermal patches
+dy2N.	PROMETAX 4.6mg/24hours transdermal patches
+dy2M.	ALZEST 9.5mg/24hours transdermal patches
+dy2L.	ALZEST 4.6mg/24hours transdermal patches
+dy2K.	RIVASTIGMINE 13.3mg/24hours transdermal patches
+dy2J.	EXELON 13.3mg/24hours transdermal patches
+dy2I.	NIMVASTID 6mg capsules
+dy2H.	NIMVASTID 4.5mg capsules
+dy2G.	NIMVASTID 3mg capsules
+dy2F.	NIMVASTID 1.5mg capsules
+dy2E.	RIVASTIGMINE 9.5mg/24hrs patches
+dy2C.	EXELON 9.5mg/24hrs patches
+dy2D.	RIVASTIGMINE 4.6mg/24hrs patches
+dy2B.	EXELON 4.6mg/24hrs patches
+dy29.	Rivastigmine 2mg/mL oral solution
+dy2A.	Exelon 2mg/mL oral solution
+dy24.	Rivastigmine 6mg capsule
+dy28.	Exelon 6mg capsule
+dy23.	Rivastigmine 4.5mg capsule
+dy27.	Exelon 4.5mg capsule
+dy22.	Rivastigmine 3mg capsule
+dy26.	Exelon 3mg capsule
+dy21.	Rivastigmine 1.5mg capsule
+dy25.	Exelon 1.5mg capsule
+x03zp	Exelon

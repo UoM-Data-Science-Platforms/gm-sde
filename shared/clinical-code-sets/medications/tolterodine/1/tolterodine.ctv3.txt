@@ -1,0 +1,19 @@
+gdA..	Tolterodine L-tartrate
+gdAG.	INCONEX XL 2mg m/r capsules
+gdAF.	INCONEX XL 4mg m/r capsules
+gdAE.	BLERONE XL 4mg m/r capsules
+gdAD.	EFFLOSOMYL XL 4mg m/r capsules
+gdAC.	TOLTERODINE TARTRATE 2mg m/r capsules
+gdAB.	NEDITOL XL 2mg m/r capsules
+gdAA.	NEDITOL XL 4mg m/r capsules
+gdA9.	PREBLACON XL 4mg m/r capsules
+gdA8.	MARIOSEA XL 4mg m/r capsules
+gdA7.	SANTIZOR XL 4mg m/r capsules
+gdA5.	Tolterodine L-tartrate 4mg m/r capsule
+gdA6.	Detrusitol XL 4mg m/r capsule
+gdA2.	Tolterodine L-tartrate 2mg tablet
+gdA4.	Detrusitol 2mg tablet
+gdA1.	Tolterodine L-tartrate 1mg tablet
+gdA3.	Detrusitol 1mg tablet
+x04p6	Detrusitol
+x05Y0	Detrusitol XL

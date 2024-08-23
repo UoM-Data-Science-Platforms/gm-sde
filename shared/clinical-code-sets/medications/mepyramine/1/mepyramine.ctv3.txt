@@ -1,0 +1,10 @@
+c8d..	Mepyramine maleate [antihistamine]
+c8dz.	Mepyramine maleate 50mg tablet
+c8d1.	Anthisan 50mg tablet
+dha..	Mepyramine maleate [nausea]
+m34y.	Mepyramine maleate+benzocaine 2%/2% spray
+m348.	Anthisan Plus Sting Relief spray
+m34z.	Mepyramine maleate 2% cream
+x00FS	Anthisan cream
+m342.	Anthisan cream 25g
+x01E4	Mepyramine

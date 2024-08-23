@@ -1,0 +1,41 @@
+c88..	Diphenhydramine hydrochloride [antihistamine]
+c88I.	GALPHARM ONE A NIGHT NIGHTCALM 50mg tablets
+c883.	Diphenhydramine hydrochloride 25mg tablet
+c88H.	Care Night Time Sleep Aid 25mg tablet
+c88E.	Histergan 25mg tablet
+c88B.	Dreemon 25mg tablet
+c889.	Paxidorm 25mg tablet
+c888.	Nightcalm 25mg tablet
+c882.	Nytol 25mg tablet
+c884.	Diphenhydramine hydrochloride 10mg/5mL syrup
+c88D.	Histergan 10mg/5mL syrup
+c88C.	Dreemon 10mg/5mL syrup
+c885.	Medinex 10mg/5mL syrup
+c887.	Diphenhydramine hydrochloride 50mg tablet
+c88G.	Vantage Pharmacy Sleep Aid 50mg tablet
+c886.	Nytol One-A-Night 50mg tablet
+c88x.	Diphenhydramine hydrochloride 6.25mg/5mL syrup
+c88F.	Mandalyn Paediatric 6.25mg/5mL syrup
+c88y.	Diphenhydramine hydrochloride 50mg capsule
+c88A.	Sleepia 50mg capsule
+c88z.	Diphenhydramine hydrochloride 25mg capsule
+c881.	Benadryl 25mg capsule
+dh6..	Diphenhydramine hydrochloride [nausea]
+dibO.	Paracetamol+diphenhydramine hydrochloride 500mg/25mg tablet
+dibP.	Panadol Night tablet
+dibT.	Paracetamol+diphenhydramine hydrochloride 120mg/12.5mg s/f oral solution
+dibV.	Medised Infant oral solution
+dibU.	Dozol sugar free syrup
+m347.	Diphenhydramine hydrochloride 2% cream
+x05FI	Histergan 2% cream
+m34B.	Histergan 2% cream 25g
+x03dj	Aller-eze cream
+m346.	Aller-eze cream 25g
+x01E1	Diphenhydramine product
+x05FJ	Histergan
+ch3u.	Mandalyn Expectorant syrup
+x05Zh	Mandalyn Paediatric
+x05Zj	Mandalyn Expectorant
+x03dt	Nightcalm
+x03hx	Paxidorm
+ch2n.	Covonia Night Time Formula syrup

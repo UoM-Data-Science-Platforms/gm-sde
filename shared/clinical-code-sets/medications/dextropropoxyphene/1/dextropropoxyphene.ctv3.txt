@@ -1,0 +1,11 @@
+dj6..	Dextropropoxyphene hydrochloride
+dj61.	Dextropropoxyphene hydrochloride 65mg capsule
+dj62.	Doloxene 65mg capsule
+x01KV	Dextropropoxyphene
+diae.	Doloxene Compound capsule
+x02aK	Doloxene
+x02aL	Doloxene Compound
+diad.	Distalgesic tablet
+x02a9	Distalgesic
+dia7.	Co-proxamol 32.5mg/325mg tablet
+diax.	Co-proxamol 32.5mg/325mg/5mL s/f suspension

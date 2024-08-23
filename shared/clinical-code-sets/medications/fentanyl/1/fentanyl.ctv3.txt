@@ -1,0 +1,146 @@
+o42..	Fentanyl
+x05pK	Bupivacaine hydrochloride+fentanyl
+oa2J.	Bupivacaine hydrochloride+fentanyl 0.1%/2micrograms/mL injection
+x004Z	Fentanyl+droperidol
+o42w.	Fentanyl+droperidol 100micrograms/5mg/2mL injection
+o423.	Thalamonal injection
+o42y.	Fentanyl 500micrograms/10mL injection
+o422.	Sublimaze 500micrograms/10mL injection
+o42x.	Fentanyl 100micrograms/2mL injection
+o42z.	Fentanyl 100micrograms injection
+o421.	Sublimaze 100micrograms/2mL injection
+o42v.	Fentanyl 200micrograms lozenge
+o42C.	Actiq 200micrograms lozenge
+o42u.	Fentanyl 400micrograms lozenge
+o42D.	Actiq 400micrograms lozenge
+o42t.	Fentanyl 600micrograms lozenge
+o42E.	Actiq 600micrograms lozenge
+o42s.	Fentanyl 800micrograms lozenge
+o42F.	Actiq 800micrograms lozenge
+o42r.	Fentanyl 1200micrograms lozenge
+o42G.	Actiq 1200micrograms lozenge
+o42q.	Fentanyl 1600micrograms lozenge
+o42H.	Actiq 1600micrograms lozenge
+o42p.	FENTANYL 40micrograms/dose iontophoretic transdermal system
+o42c.	IONSYS 40micrograms/dose iontophoretic transdermal system
+o42o.	FENTANYL 200micrograms buccal tablets
+o42n.	EFFENTORA 200micrograms buccal tablets
+o42m.	FENTANYL 100micrograms buccal tablets
+o42l.	EFFENTORA 100micrograms buccal tablets
+o42k.	FENTALIS RESERVOIR 75micrograms/hr patches
+o42j.	FENTALIS RESERVOIR 50micrograms/hr patches
+o42i.	FENTALIS RESERVOIR 25micrograms/hr patches
+o42h.	FENTALIS RESERVOIR 100micrograms/hr patches
+o42R.	Fentanyl 12micrograms/hour patch
+o42X.	MEZOLAR MATRIX 12micrograms/hour patches
+o42S.	MATRIFEN 12micrograms/hr patches
+o42Q.	Durogesic DTrans 12micrograms/hour patch
+o427.	Fentanyl 100micrograms/hour patch
+o42g.	OSMACH 100micrograms/hour patches
+o42b.	MEZOLAR MATRIX 100micrograms/hour patches
+o42W.	MATRIFEN 100micrograms/hr patches
+o42P.	Tilofyl 100micrograms/hour patch
+o42L.	Durogesic DTrans 100micrograms/hour patch
+o42B.	Durogesic 100micrograms/hour patch
+o426.	Fentanyl 75micrograms/hour patch
+o42f.	OSMACH 75micrograms/hour patches
+o42a.	MEZOLAR MATRIX 75micrograms/hour patches
+o42V.	MATRIFEN 75micrograms/hr patches
+o42O.	Tilofyl 75micrograms/hour patch
+o42K.	Durogesic DTrans 75micrograms/hour patch
+o42A.	Durogesic 75micrograms/hour patch
+o425.	Fentanyl 50micrograms/hour patch
+o42e.	OSMACH 50micrograms/hour patches
+o42Z.	MEZOLAR MATRIX 50micrograms/hour patches
+o42U.	MATRIFEN 50micrograms/hr patches
+o42N.	Tilofyl 50micrograms/hour patch
+o42J.	Durogesic DTrans 50micrograms/hour patch
+o429.	Durogesic 50micrograms/hour patch
+o424.	Fentanyl 25micrograms/hour patch
+o42d.	OSMACH 25micrograms/hour patches
+o42Y.	MEZOLAR MATRIX 25micrograms/hour patches
+o42T.	MATRIFEN 25micrograms/hr patches
+o42M.	Tilofyl 25micrograms/hour patch
+o42I.	Durogesic DTrans 25micrograms/hour patch
+o428.	Durogesic 25micrograms/hour patch
+o4d..	FENTANYL (2)
+o4dz.	PECFENT 400micrograms nasal spray
+o4dy.	PECFENT 100micrograms nasal spray
+o4dx.	FENTANYL 200micrograms nasal spray
+o4dw.	INSTANYL 200micrograms nasal spray
+o4dv.	FENTANYL 100micrograms nasal spray
+o4du.	INSTANYL 100micrograms nasal spray
+o4dt.	FENTANYL 50micrograms nasal spray
+o4ds.	INSTANYL 50micrograms nasal spray
+o4dr.	OSMANIL 12micrograms/hr patches
+o4dq.	VICTANYL 100micrograms/hour patches
+o4dp.	VICTANYL 75micrograms/hour patches
+o4do.	VICTANYL 50micrograms/hour patches
+o4dn.	VICTANYL 25micrograms/hour patches
+o4dm.	OSMANIL 100micrograms/hr patches
+o4dl.	OSMANIL 75micrograms/hr patches
+o4dk.	OSMANIL 50micrograms/hr patches
+o4dj.	OSMANIL 25micrograms/hr patches
+o4di.	FENTANYL 800micrograms sublingual tablets
+o4dh.	ABSTRAL 800micrograms sublingual tablets
+o4dg.	FENTANYL 600micrograms sublingual tablets
+o4df.	ABSTRAL 600micrograms sublingual tablets
+o4de.	FENTANYL 400micrograms sublingual tablets
+o4dd.	ABSTRAL 400micrograms sublingual tablets
+o4dc.	FENTANYL 300micrograms sublingual tablets
+o4db.	ABSTRAL 300micrograms sublingual tablets
+o4da.	FENTANYL 200micrograms sublingual tablets
+o4dZ.	OPIODUR 75micrograms/hour transdermal patches
+o4dY.	OPIODUR 50micrograms/hour transdermal patches
+o4dX.	OPIODUR 25micrograms/hour transdermal patches
+o4dW.	OPIODUR 12micrograms/hour transdermal patches
+o4dV.	RECIVIT 800micrograms sublingual tablets
+o4dU.	FENTANYL 533micrograms sublingual tablets
+o4dT.	RECIVIT 533micrograms sublingual tablets
+o4dS.	RECIVIT 400micrograms sublingual tablets
+o4dR.	FENTANYL 267micrograms sublingual tablets
+o4dQ.	RECIVIT 267micrograms sublingual tablets
+o4dP.	FENTANYL 133micrograms sublingual tablets
+o4dO.	RECIVIT 133micrograms sublingual tablets
+o4dN.	FENTANYL 67micrograms sublingual tablets
+o4dM.	RECIVIT 67micrograms sublingual tablets
+o4dL.	FENTANYL 800micrograms buccal film
+o4dK.	BREAKYL 800micrograms buccal film
+o4dJ.	FENTANYL 400micrograms buccal film
+o4dI.	BREAKYL 400micrograms buccal film
+o4dH.	FENTANYL 200micrograms buccal film
+o4dG.	BREAKYL 200micrograms buccal film
+o4dF.	FENCINO 100micrograms/hr patches
+o4dE.	FENCINO 75micrograms/hr patches
+o4dD.	FENCINO 50micrograms/hr patches
+o4dC.	FENCINO 25micrograms/hr patches
+o4dB.	FENCINO 12micrograms/hr patches
+o4dA.	FENTANYL 400micrograms nasal spray
+o4d9.	ABSTRAL 200micrograms sublingual tablets
+o4d8.	FENTANYL 100micrograms sublingual tablets
+o4d7.	ABSTRAL 100micrograms sublingual tablets
+o4d6.	FENTANYL 800micrograms buccal tablets
+o4d5.	EFFENTORA 800micrograms buccal tablets
+o4d4.	FENTANYL 600micrograms buccal tablets
+o4d3.	EFFENTORA 600micrograms buccal tablets
+o4d2.	FENTANYL 400micrograms buccal tablets
+o4d1.	EFFENTORA 400micrograms buccal tablets
+o4e..	FENTANYL (3)
+o4e8.	YEMEX 100micrograms/hour transdermal patches
+o4e7.	YEMEX 75micrograms/hour transdermal patches
+o4e6.	YEMEX 50micrograms/hour transdermal patches
+o4e5.	YEMEX 25micrograms/hour transdermal patches
+o4e4.	YEMEX 12micrograms/hour transdermal patches
+o4e3.	FENTANYL 37.5micrograms/hour transdermal patches
+o4e2.	MEZOLAR MATRIX 37.5micrograms/hour patches
+o4e1.	OPIODUR 100micrograms/hour transdermal patches
+oa2N.	BUPIVACAINE HCL+FENTANYL 1.25mg/2micrograms/mL injection
+x02al	Durogesic
+x05wN	Durogesic DTrans
+x05yH	Tilofyl
+x05EG	Actiq
+x02rg	Sublimaze
+oa2K.	BUFYL 1mg/2micrograms/mL solution for infusion 250mL
+oa2L.	BUFYL 1mg/2micrograms/mL solution for infusion 500mL
+oa2M.	BUFYL 1.25mg/2micrograms/mL solution for infusion 250mL
+oa2O.	BUFYL 1.25mg/2micrograms/mL solution for infusion 500mL

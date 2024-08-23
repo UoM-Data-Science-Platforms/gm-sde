@@ -1,0 +1,13 @@
+dnm..	Oxcarbazepine
+dnmz.	Oxcarbazepine 600mg tablet
+dnm3.	Trileptal 600 tablet
+dnmy.	Oxcarbazepine 300mg tablet
+dnm2.	Trileptal 300 tablet
+dnmx.	Oxcarbazepine 150mg tablet
+dnm1.	Trileptal 150 tablet
+dnmw.	Oxcarbazepine 60mg/mL s/f oral suspension
+dnm4.	Trileptal 60mg/mL s/f oral suspension
+x0572	Trileptal 150
+x0573	Trileptal 300
+x0574	Trileptal 600
+x05i7	Trileptal

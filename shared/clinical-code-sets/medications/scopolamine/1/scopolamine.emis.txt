@@ -1,0 +1,469 @@
+^ESCT1174237	Hyoscine butylbromide 20mg/5ml oral suspension 1 ml
+^ESCT1174238	Hyoscine butylbromide 20mg/5ml oral suspension (Special Order)
+^ESCT1174239	Hyoscine butylbromide 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1174379	Hyoscine butylbromide 20mg/5ml oral suspension
+^ESCT1178186	Product containing only scopolamine hydrobromide 0.3 milligram/1 each oral tablet
+^ESCT1178532	Product containing only scopolamine hydrobromide 0.15 milligram/1 each oral tablet
+^ESCT1179329	Product containing only atropine sulfate 0.0194 mg and hyoscyamine sulfate 0.1037 mg and scopolamine hydrobromide 0.0065 mg/1 each oral tablet
+^ESCT1181520	Product containing only scopolamine hydrobromide 0.4 milligram/1 each oral tablet
+^ESCT1181668	Product containing only methscopolamine bromide 2.5 mg/1 each oral tablet
+^ESCT1187163	Product containing only scopolamine butylbromide 10 mg/1 each oral tablet
+^ESCT1187971	Product containing hyoscine hydrobromide and papaveretum
+^ESCT1187972	Product containing papaveretum and scopolamine hydrobromide
+^ESCT1187973	Papaveretum and scopolamine hydrobromide
+^ESCT1187974	Hyoscine hydrobromide and papaveretum
+^ESCT1196141	Buscopan 10mg tablets (Sanofi) 56 tablet 2 x 28 tablets
+^ESCT1196206	Buscopan 20mg/1ml solution for injection ampoules (Sanofi) 10 ampoule
+^ESCT1196334	Buscopan 10mg tablets (Sanofi) 20 tablet
+^ESCT1196336	Buscopan 20mg/1ml solution for injection ampoules (Sanofi)
+^ESCT1196354	Buscopan 10mg tablets (Sanofi)
+^ESCT1205677	Hyoscine in transdermal dosage form
+^ESCT1205678	Product containing scopolamine in transdermal dosage form
+^ESCT1205679	Scopolamine in transdermal dosage form
+^ESCT1206469	Atropine and hyoscyamine and scopolamine product
+^ESCT1206470	Product containing atropine and hyoscyamine and scopolamine
+^ESCT1206471	Atropine and hyoscyamine and scopolamine in oral dosage form
+^ESCT1206472	Product containing atropine and hyoscyamine and scopolamine in oral dosage form
+^ESCT1208909	Hyoscine 13.889 microgram/hour prolonged-release transdermal patch
+^ESCT1208910	Scopolamine 13.889 microgram/hour prolonged-release transdermal patch
+^ESCT1208911	Product containing precisely scopolamine 13.889 microgram/1 hour prolonged-release transdermal patch
+^ESCT1209585	Hyoscine butylbromide 20 mg/mL solution for injection ampoule
+^ESCT1209586	Scopolamine butylbromide 20 mg/mL solution for injection ampule
+^ESCT1209587	Product containing precisely scopolamine butylbromide 20 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209588	Hyoscine hydrobromide 400 microgram/mL solution for injection ampoule
+^ESCT1209589	Scopolamine hydrobromide 400 microgram/mL solution for injection ampule
+^ESCT1209590	Product containing precisely scopolamine hydrobromide 400 microgram/1 milliliter conventional release solution for injection ampule
+^ESCT1209591	Hyoscine hydrobromide 600 microgram/mL solution for injection ampoule
+^ESCT1209592	Scopolamine hydrobromide 600 microgram/mL solution for injection ampule
+^ESCT1209593	Product containing precisely scopolamine hydrobromide 600 microgram/1 milliliter conventional release solution for injection ampule
+^ESCT1209946	Hyoscine hydrobromide 400 microgram/mL and papaveretum 15.4 mg/mL solution for injection ampoule
+^ESCT1209947	Product containing precisely papaveretum 15.4 milligram/1 milliliter and scopolamine hydrobromide 400 microgram/1 milliliter conventional release solution for injection ampule
+^ESCT1209948	Papaveretum 15.4 mg/mL and scopolamine hydrobromide 400 microgram/mL solution for injection ampule
+^ESCT1212363	Hyoscine 1mg/72hours transdermal patches
+^ESCT1212547	Hyoscine hydrobromide
+^ESCT1212548	Hyoscine butylbromide
+^ESCT1215348	Papaveretum 15.4mg/1ml / Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules
+^ESCT1215535	Hyoscine butylbromide 20mg/1ml solution for injection ampoules
+^ESCT1215537	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules
+^ESCT1215538	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules
+^ESCT1219588	Scopolamine product
+^ESCT1219589	Hyoscine product
+^ESCT1222526	Hyoscine butylbromide 10 mg oral tablet
+^ESCT1222527	Product containing precisely scopolamine butylbromide 10 milligram/1 each conventional release oral tablet
+^ESCT1223632	Product containing precisely scopolamine hydrobromide 300 microgram/1 each conventional release oral tablet
+^ESCT1223633	Scopolamine hydrobromide 300 microgram oral tablet
+^ESCT1223634	Hyoscine hydrobromide 300 microgram oral tablet
+^ESCT1226553	Hyoscine hydrobromide and papaveretum product
+^ESCT1226554	Papaveretum and scopolamine hydrobromide product
+^ESCT1226712	Hyoscine hydrobromide 150 microgram oral tablet
+^ESCT1226713	Product containing precisely scopolamine hydrobromide 150 microgram/1 each conventional release oral tablet
+^ESCT1226714	Scopolamine hydrobromide 150 microgram oral tablet
+^ESCT1227934	Product containing precisely methscopolamine bromide 2.5 milligram/1 each conventional release oral tablet
+^ESCT1227935	Hyoscine methylbromide 2.5 mg oral tablet
+^ESCT1228123	Scopolamine hydrobromide 0.4 mg oral tablet
+^ESCT1228124	Hyoscine hydrobromide 400 microgram oral tablet
+^ESCT1228125	Product containing precisely scopolamine hydrobromide 400 microgram/1 each conventional release oral tablet
+^ESCT1228126	Scopolamine hydrobromide 400 microgram oral tablet
+^ESCT1228970	Atropine sulfate 0.0194 mg and hyoscyamine sulfate 0.1037 mg and scopolamine hydrobromide 0.0065 mg oral tablet
+^ESCT1228971	Atropine sulfate 19.4 microgram and hyoscyamine sulfate 103.7 microgram and scopolamine hydrobromide 6.5 microgram oral tablet
+^ESCT1228972	Product containing precisely atropine sulfate 19.4 microgram and hyoscyamine sulfate 103.7 microgram and scopolamine hydrobromide 6.5 microgram/1 each conventional release oral tablet
+^ESCT1228973	Atropine sulfate 19.4 microgram and hyoscine hydrobromide 6.5 microgram and hyoscyamine sulfate 103.7 microgram oral tablet
+^ESCT1250267	Joy-rides 150microgram chewable tablets (Teva UK Ltd)
+^ESCT1250268	Joy-rides 150microgram chewable tablets (Teva UK Ltd) 12 tablet
+^ESCT1266981	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (DE Pharmaceuticals)
+^ESCT1266984	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (DE Pharmaceuticals) 10 ampoule
+^ESCT1266986	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (DE Pharmaceuticals)
+^ESCT1266987	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (DE Pharmaceuticals) 10 ampoule
+^ESCT1275106	Scopoderm 1.5mg patches (Pilsco Ltd)
+^ESCT1275107	Scopoderm 1.5mg patches (Pilsco Ltd) 2 patch
+^ESCT1279462	Hyoscine butylbromide 10mg tablets 100 tablet
+^ESCT1279463	Buscopan 10mg tablets (Sanofi) 100 tablet 5 x 20 tablets
+^ESCT1349785	Hyoscine- and papaveretum-containing product
+^ESCT1349786	Papaveretum- and scopolamine-containing product
+^ESCT1350743	Hyoscine-containing product in ocular dose form
+^ESCT1350744	Scopolamine-containing product in ocular dose form
+^ESCT1350898	Hyoscine-containing product in cutaneous dose form
+^ESCT1350899	Scopolamine-containing product in cutaneous dose form
+^ESCT1351631	Hyoscine- and papaveretum-containing product in parenteral dose form
+^ESCT1351632	Papaveretum- and scopolamine-containing product in parenteral dose form
+^ESCT1353614	Atropine and hyoscine and hyoscyamine only product
+^ESCT1353615	Atropine and hyoscyamine and scopolamine only product
+^ESCT1356226	Hyoscine and papaveretum only product
+^ESCT1356227	Papaveretum and scopolamine only product
+^ESCT1356694	Hyoscine only product
+^ESCT1356695	Scopolamine only product
+^ESCT1357568	Atropine and hyoscine and hyoscyamine only product in oral dose form
+^ESCT1357569	Atropine and hyoscyamine and scopolamine only product in oral dose form
+^ESCT1359475	Hyoscine and papaveretum only product in parenteral dose form
+^ESCT1359476	Papaveretum and scopolamine only product in parenteral dose form
+^ESCT1359808	Hyoscine only product in cutaneous dose form
+^ESCT1359809	Scopolamine only product in cutaneous dose form
+^ESCT1359810	Hyoscine only product in ocular dose form
+^ESCT1359811	Scopolamine only product in ocular dose form
+^ESCT1359812	Hyoscine only product in oral dose form
+^ESCT1359813	Scopolamine only product in oral dose form
+^ESCT1359814	Hyoscine only product in parenteral dose form
+^ESCT1359815	Scopolamine only product in parenteral dose form
+^ESCT1359816	Hyoscine only product in transdermal dose form
+^ESCT1359817	Scopolamine only product in transdermal dose form
+^ESCT1361222	Hyoscine hydrobromide 400 microgram/mL and papaveretum 15.4 mg/mL solution for injection
+^ESCT1361223	Papaveretum 15.4 mg/mL and scopolamine hydrobromide 400 microgram/mL solution for injection
+^ESCT1361287	Hyoscine butylbromide 20 mg/mL solution for injection
+^ESCT1361288	Scopolamine butylbromide 20 mg/mL solution for injection
+^ESCT1361289	Hyoscine hydrobromide 600 microgram/mL solution for injection
+^ESCT1361290	Scopolamine hydrobromide 600 microgram/mL solution for injection
+^ESCT1361291	Hyoscine hydrobromide 400 microgram/mL solution for injection
+^ESCT1361292	Scopolamine hydrobromide 400 microgram/mL solution for injection
+^ESCT1364374	Hyoscine (as hyoscine hydrobromide) 1.25 mg/mL eye solution
+^ESCT1364375	Scopolamine (as scopolamine hydrobromide) 1.25 mg/mL eye solution
+^ESCT1364376	Hyoscine (as hyoscine hydrobromide) 2.5 mg/mL eye solution
+^ESCT1364377	Scopolamine (as scopolamine hydrobromide) 2.5 mg/mL eye solution
+^ESCT1364378	Hyoscine (as hyoscine hydrobromide) 5 mg/mL eye solution
+^ESCT1364379	Scopolamine (as scopolamine hydrobromide) 5 mg/mL eye solution
+^ESCT1370619	Papaveretum + Hyoscine hydrobromide
+^ESCT1371876	Hyoscine hydrobromide 0.5% eye drops
+^ESCT1375708	Hyoscine 1mg/72hours transdermal patches
+^ESCT1376155	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Medihealth (Northern) Ltd)
+^ESCT1376156	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Medihealth (Northern) Ltd) 10 ampoule
+^ESCT1383733	Hyoscine-containing product in oral dose form
+^ESCT1383734	Scopolamine-containing product in oral dose form
+^ESCT1383908	Hyoscine-containing product in parenteral dose form
+^ESCT1383909	Scopolamine-containing product in parenteral dose form
+^ESCT1386034	Hyoscine-containing product in transdermal dose form
+^ESCT1386035	Scopolamine-containing product in transdermal dose form
+^ESCT1386294	Atropine- and hyoscine- and hyoscyamine-containing product
+^ESCT1386295	Atropine- and hyoscyamine- and scopolamine-containing product
+^ESCT1386296	Atropine- and hyoscine- and hyoscyamine-containing product in oral dose form
+^ESCT1386297	Atropine- and hyoscyamine- and scopolamine-containing product in oral dose form
+^ESCT1387177	Kwells 300microgram tablets (Dexcel-Pharma Ltd)
+^ESCT1387200	Kwells 300microgram tablets (Dexcel-Pharma Ltd) 12 tablet
+^ESCT1387223	Kwells Kids 150microgram tablets (Dexcel-Pharma Ltd)
+^ESCT1387224	Kwells Kids 150microgram tablets (Dexcel-Pharma Ltd) 12 tablet
+^ESCT1403151	Hyoscine butylbromide 20mg/1ml solution for injection ampoules (AS Kalceks)
+^ESCT1403153	Hyoscine butylbromide 20mg/1ml solution for injection ampoules (AS Kalceks) 10 ampoule
+^ESCT1410646	Scopoderm 1.5mg patches (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410647	Scopoderm 1.5mg patches (GlaxoSmithKline Consumer Healthcare UK Ltd) 2 patch
+^ESCT1435576	Hyoscine butylbromide 20mg tablets 100 tablet
+^ESCT1435577	Hyoscine butylbromide 20mg tablets (Morningside Healthcare Ltd)
+^ESCT1435578	Hyoscine butylbromide 20mg tablets (Morningside Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCT1435579	Hyoscine butylbromide 10mg tablets (Morningside Healthcare Ltd)
+^ESCT1435580	Hyoscine butylbromide 10mg tablets (Morningside Healthcare Ltd) 100 tablet 10 x 10 tablets
+^ESCT1435663	Hyoscine butylbromide 20mg tablets
+^ESCT1440932	Scopoderm 1.5mg patches (Baxter Healthcare Ltd)
+^ESCT1440933	Scopoderm 1.5mg patches (Baxter Healthcare Ltd) 2 patch
+^ESCTAT641930	Atropine sulfate 0.0194 mg and hyoscyamine sulfate 0.1037 mg and scopolamine hydrobromide 0.0065 mg oral tablet
+^ESCTAT661517	Atropine sulphate + hyoscyamine sulphate + scopolamine hydrobromide
+^ESCTAT661518	Atropine sulfate + hyoscyamine sulfate + scopolamine hydrobromide
+^ESCTBU1007282	Buscopan 10mg tablets (Lexon (UK) Ltd)
+^ESCTBU1007284	Buscopan 10mg tablets (Lexon (UK) Ltd) 40 tablet
+^ESCTBU1011675	Buscopan 10mg tablets (DE Pharmaceuticals) 40 tablet
+^ESCTBU1022284	Buscopan 10mg tablets (Sigma Pharmaceuticals Plc) 40 tablet
+^ESCTBU1059030	Buscopan IBS Relief 10mg tablets (Sanofi) 40 tablet 4 x 10 tablets
+^ESCTBU1119306	Buscopan 10mg tablets (Waymade Healthcare Plc) 40 tablet
+^ESCTBU1121401	Buscopan 10mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTBU822916	Buscopan 10mg tablets (Boehringer Ingelheim Ltd)
+^ESCTBU855787	Buscopan 10mg tablets (Boehringer Ingelheim Ltd) 20 tablet
+^ESCTBU855790	Buscopan 10mg tablets (Boehringer Ingelheim Ltd) 56 tablet 2 x 28 tablets
+^ESCTBU860369	Buscopan 20mg/1ml solution for injection ampoules (Boehringer Ingelheim Ltd)
+^ESCTBU860371	Buscopan 20mg/1ml solution for injection ampoules (Boehringer Ingelheim Ltd) 10 ampoule
+^ESCTBU879194	Buscopan 10mg tablets (Dowelhurst Ltd)
+^ESCTBU879195	Buscopan 10mg tablets (Dowelhurst Ltd) 20 tablet
+^ESCTBU911632	Buscopan IBS Relief 10mg tablets (Sanofi)
+^ESCTBU911633	Buscopan IBS Relief 10mg tablets (Sanofi) 20 tablet 2 x 10 tablets
+^ESCTBU920150	Buscopan
+^ESCTBU929834	Buscopan 10mg tablets (Waymade Healthcare Plc)
+^ESCTBU929837	Buscopan 10mg tablets (Waymade Healthcare Plc) 20 tablet
+^ESCTBU966304	Buscopan 10mg tablets (DE Pharmaceuticals)
+^ESCTBU966305	Buscopan 10mg tablets (DE Pharmaceuticals) 20 tablet
+^ESCTBU970759	Buscopan 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBU970767	Buscopan 10mg tablets (Sigma Pharmaceuticals Plc) 20 tablet
+^ESCTBU997354	Buscopan Cramps 10mg tablets (Sanofi)
+^ESCTBU997355	Buscopan Cramps 10mg tablets (Sanofi) 20 tablet 2 x 10 tablets
+^ESCTHY1007283	Hyoscine butylbromide 10mg tablets 40 tablet
+^ESCTHY1024158	Hyoscine hydrobromide 500micrograms/5ml oral suspension 1 ml
+^ESCTHY1024159	Hyoscine hydrobromide 500micrograms/5ml oral suspension (Drug Tariff Special Order)
+^ESCTHY1024160	Hyoscine hydrobromide 500micrograms/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTHY1024381	Hyoscine hydrobromide 500micrograms/5ml oral suspension
+^ESCTHY1029353	Hyoscine 1mg/72hours transdermal patches 5 patch
+^ESCTHY1029888	Hyoscine hydrobromide 2mg/5ml oral suspension 1 ml
+^ESCTHY1029889	Hyoscine hydrobromide 2mg/5ml oral suspension (Special Order)
+^ESCTHY1029890	Hyoscine hydrobromide 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY1030092	Hyoscine hydrobromide 2mg/5ml oral suspension
+^ESCTHY1037151	Hyoscine hydrobromide 300micrograms/5ml oral solution 100 ml
+^ESCTHY1037153	Hyoscine hydrobromide 300micrograms/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTHY1037156	Hyoscine hydrobromide 300micrograms/5ml oral suspension 1 ml
+^ESCTHY1037157	Hyoscine hydrobromide 300micrograms/5ml oral suspension 100 ml
+^ESCTHY1037158	Hyoscine hydrobromide 300micrograms/5ml oral suspension (Drug Tariff Special Order)
+^ESCTHY1037159	Hyoscine hydrobromide 300micrograms/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTHY1037160	Hyoscine hydrobromide 300micrograms/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTHY1039034	Hyoscine hydrobromide 300micrograms/5ml oral suspension
+^ESCTHY1044241	Hyoscine hydrobromide 500micrograms/5ml oral suspension 100 ml
+^ESCTHY1044242	Hyoscine hydrobromide 500micrograms/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTHY1045493	Hyoscine hydrobromide 0.5% eye drops 1 ml
+^ESCTHY1045494	Hyoscine hydrobromide 0.5% eye drops (Special Order)
+^ESCTHY1045495	Hyoscine hydrobromide 0.5% eye drops (Special Order) 1 ml
+^ESCTHY1045740	Hyoscine hydrobromide 500micrograms/5ml oral solution 100 ml
+^ESCTHY1045741	Hyoscine hydrobromide 500micrograms/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTHY1045811	Hyoscine butylbromide 10mg/5ml oral solution 100 ml
+^ESCTHY1045812	Hyoscine butylbromide 10mg/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTHY1045813	Hyoscine butylbromide 10mg/5ml oral suspension 100 ml
+^ESCTHY1045814	Hyoscine butylbromide 10mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTHY1054780	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (J M McGill Ltd)
+^ESCTHY1054782	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (J M McGill Ltd) 10 ampoule
+^ESCTHY1061601	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Niche Pharma Ltd)
+^ESCTHY1061602	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Niche Pharma Ltd) 10 ampoule
+^ESCTHY1100332	Hyoscine hydrobromide 300microgram tablets (J M McGill Ltd)
+^ESCTHY1100333	Hyoscine hydrobromide 300microgram tablets (J M McGill Ltd) 12 tablet
+^ESCTHY1101422	Hyoscine hydrobromide 300microgram tablets (Colorama Pharmaceuticals Ltd)
+^ESCTHY1101423	Hyoscine hydrobromide 300microgram tablets (Colorama Pharmaceuticals Ltd) 12 tablet
+^ESCTHY1107753	Hyoscine hydrobromide 300microgram tablets (Ennogen Healthcare Ltd)
+^ESCTHY1107754	Hyoscine hydrobromide 300microgram tablets (Ennogen Healthcare Ltd) 12 tablet
+^ESCTHY1108993	Hyoscine hydrobromide 300microgram tablets (Niche Pharma Ltd)
+^ESCTHY1108994	Hyoscine hydrobromide 300microgram tablets (Niche Pharma Ltd) 12 tablet
+^ESCTHY1111843	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Ennogen Healthcare Ltd)
+^ESCTHY1111844	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Ennogen Healthcare Ltd) 10 ampoule
+^ESCTHY1142322	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Phoenix Labs Ltd)
+^ESCTHY1142324	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Phoenix Labs Ltd) 10 ampoule 2 x 5 x 1ml ampoules
+^ESCTHY368509	Hyoscine (base)
+^ESCTHY368511	Hyoscine
+^ESCTHY606152	Hyoscine butylbromide
+^ESCTHY606153	Hyoscine butylbromide 10mg tablets
+^ESCTHY606156	Hyoscine butylbromide 20mg/1ml solution for injection ampoules
+^ESCTHY606157	Hyoscine butylbromide 20mg/1mL injection
+^ESCTHY606158	Hyoscine butylbromide 20mg/mL injection solution 1mL ampoule
+^ESCTHY606159	Hyoscine butylbromide 20mg/mL injection solution 1mL ampule
+^ESCTHY606160	Hyoscine butylbromide 20mg/1mL solution for injection ampoule
+^ESCTHY609865	Hyoscine hydrobromide 300microgram tablets
+^ESCTHY609868	Hyoscine 1mg/72hours transdermal patches
+^ESCTHY609869	Hyoscine hydrobromide 1mg/72hours transdermal patch
+^ESCTHY615559	Hyoscine hydrobromide 0.25% eye drops
+^ESCTHY617909	Hyoscine hydrobromide + Papaveretum
+^ESCTHY618153	Hyoscine hydrobromide 0.125% eye drops
+^ESCTHY618154	Hyoscine hydrobromide 0.5% eye drops
+^ESCTHY618760	Hyoscine hydrobromide 150microgram tablets
+^ESCTHY619945	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules
+^ESCTHY619946	Hyoscine hydrobromide 400micrograms/1mL injection
+^ESCTHY619947	Hyoscine hydrobromide 400micrograms/mL injection solution ampoule
+^ESCTHY619948	Hyoscine hydrobromide 400micrograms/mL injection solution ampule
+^ESCTHY619949	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules
+^ESCTHY619950	Hyoscine hydrobromide 600micrograms/1mL injection
+^ESCTHY619951	Hyoscine hydrobromide 600micrograms/mL injection solution ampoule
+^ESCTHY619952	Hyoscine hydrobromide 600micrograms/mL injection solution ampule
+^ESCTHY640704	Hyoscine 500micrograms/72hours transdermal patch
+^ESCTHY696712	Hyoscine hydrobromide
+^ESCTHY839731	Hyoscine butylbromide 10mg tablets 56 tablet
+^ESCTHY843729	Hyoscine hydrobromide 300microgram tablets 12 tablet
+^ESCTHY844118	Hyoscine butylbromide 10mg tablets 20 tablet
+^ESCTHY859713	Hyoscine 1mg/72hours transdermal patches 2 patch
+^ESCTHY860366	Hyoscine butylbromide 20mg/1ml solution for injection ampoules 10 ampoule
+^ESCTHY864374	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules 10 ampoule
+^ESCTHY864376	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTHY864377	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTHY864380	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (UCB Pharma Ltd)
+^ESCTHY864383	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (UCB Pharma Ltd) 10 ampoule
+^ESCTHY864386	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTHY864388	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTHY864392	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY864395	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTHY865023	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules 10 ampoule
+^ESCTHY865040	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTHY865042	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTHY865046	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTHY865051	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTHY865052	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY865054	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTHY866243	Hyoscine hydrobromide 150microgram tablets 12 tablet
+^ESCTHY866250	Hyoscine hydrobromide 150microgram chewable tablets sugar free 12 tablet
+^ESCTHY866586	Hyoscine hydrobromide 150microgram chewable tablets sugar free
+^ESCTHY907226	Hyoscine butylbromide 10mg/5ml oral solution 1 ml
+^ESCTHY907230	Hyoscine butylbromide 10mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTHY907232	Hyoscine butylbromide 10mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTHY907233	Hyoscine butylbromide 10mg/5ml oral suspension 1 ml
+^ESCTHY907234	Hyoscine butylbromide 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTHY907236	Hyoscine butylbromide 10mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTHY907240	Hyoscine hydrobromide 300micrograms/5ml oral solution 1 ml
+^ESCTHY907241	Hyoscine hydrobromide 300micrograms/5ml oral solution (Drug Tariff Special Order)
+^ESCTHY907242	Hyoscine hydrobromide 300micrograms/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTHY907245	Hyoscine hydrobromide 500micrograms/5ml oral solution 1 ml
+^ESCTHY907247	Hyoscine hydrobromide 500micrograms/5ml oral solution (Drug Tariff Special Order)
+^ESCTHY907248	Hyoscine hydrobromide 500micrograms/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTHY907252	Hyoscine hydrobromide 600micrograms/5ml oral solution 1 ml
+^ESCTHY907253	Hyoscine hydrobromide 600micrograms/5ml oral solution (Special Order)
+^ESCTHY907254	Hyoscine hydrobromide 600micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHY907258	Hyoscine hydrobromide 75micrograms/5ml oral solution 1 ml
+^ESCTHY907260	Hyoscine hydrobromide 150micrograms/5ml oral solution 1 ml
+^ESCTHY907262	Hyoscine hydrobromide 75micrograms/5ml oral solution (Special Order)
+^ESCTHY907264	Hyoscine hydrobromide 75micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHY907265	Hyoscine hydrobromide 150micrograms/5ml oral solution (Special Order)
+^ESCTHY907266	Hyoscine hydrobromide 150micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHY907267	Hyoscine hydrobromide 200micrograms/5ml oral solution 1 ml
+^ESCTHY907268	Hyoscine hydrobromide 200micrograms/5ml oral solution (Special Order)
+^ESCTHY907269	Hyoscine hydrobromide 200micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHY907423	Hyoscine butylbromide 10mg/5ml oral solution
+^ESCTHY907424	Hyoscine butylbromide 10mg/5ml oral suspension
+^ESCTHY907425	Hyoscine hydrobromide 150micrograms/5ml oral solution
+^ESCTHY907426	Hyoscine hydrobromide 200micrograms/5ml oral solution
+^ESCTHY907427	Hyoscine hydrobromide 300micrograms/5ml oral solution
+^ESCTHY907428	Hyoscine hydrobromide 500micrograms/5ml oral solution
+^ESCTHY907429	Hyoscine hydrobromide 600micrograms/5ml oral solution
+^ESCTHY907430	Hyoscine hydrobromide 75micrograms/5ml oral solution
+^ESCTHY918523	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTHY918525	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Wockhardt UK Ltd) 10 ampoule
+^ESCTHY918527	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTHY918529	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Wockhardt UK Ltd) 10 ampoule
+^ESCTHY951288	Hyoscine butylbromide 100mg/5ml oral solution 1 ml
+^ESCTHY951289	Hyoscine butylbromide 100mg/5ml oral solution (Special Order)
+^ESCTHY951290	Hyoscine butylbromide 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951291	Hyoscine butylbromide 1mg/5ml oral solution 1 ml
+^ESCTHY951292	Hyoscine butylbromide 1mg/5ml oral solution (Special Order)
+^ESCTHY951293	Hyoscine butylbromide 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951294	Hyoscine butylbromide 20mg/5ml oral solution 1 ml
+^ESCTHY951295	Hyoscine butylbromide 20mg/5ml oral solution (Special Order)
+^ESCTHY951296	Hyoscine butylbromide 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951297	Hyoscine butylbromide 400micrograms/5ml oral solution 1 ml
+^ESCTHY951298	Hyoscine butylbromide 400micrograms/5ml oral solution (Special Order)
+^ESCTHY951299	Hyoscine butylbromide 400micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHY951300	Hyoscine butylbromide 500micrograms/5ml oral solution 1 ml
+^ESCTHY951301	Hyoscine butylbromide 500micrograms/5ml oral solution (Special Order)
+^ESCTHY951302	Hyoscine butylbromide 500micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHY951303	Hyoscine butylbromide 5mg/5ml oral solution 1 ml
+^ESCTHY951304	Hyoscine butylbromide 5mg/5ml oral solution (Special Order)
+^ESCTHY951306	Hyoscine butylbromide 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951312	Hyoscine hydrobromide 100micrograms/5ml oral solution 1 ml
+^ESCTHY951313	Hyoscine hydrobromide 100micrograms/5ml oral solution (Special Order)
+^ESCTHY951314	Hyoscine hydrobromide 100micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHY951318	Hyoscine hydrobromide 125micrograms/5ml oral solution 1 ml
+^ESCTHY951320	Hyoscine hydrobromide 125micrograms/5ml oral solution (Special Order)
+^ESCTHY951322	Hyoscine hydrobromide 125micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHY951324	Hyoscine hydrobromide 250micrograms/5ml oral solution 1 ml
+^ESCTHY951326	Hyoscine hydrobromide 250micrograms/5ml oral solution (Special Order)
+^ESCTHY951327	Hyoscine hydrobromide 250micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHY951331	Hyoscine hydrobromide 25micrograms/5ml oral solution 1 ml
+^ESCTHY951334	Hyoscine hydrobromide 25micrograms/5ml oral solution (Special Order)
+^ESCTHY951335	Hyoscine hydrobromide 25micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHY951339	Hyoscine hydrobromide 3mg/5ml oral solution 1 ml
+^ESCTHY951340	Hyoscine hydrobromide 3mg/5ml oral solution (Special Order)
+^ESCTHY951342	Hyoscine hydrobromide 3mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951345	Hyoscine hydrobromide 400micrograms/5ml oral solution 1 ml
+^ESCTHY951346	Hyoscine hydrobromide 400micrograms/5ml oral solution (Special Order)
+^ESCTHY951347	Hyoscine hydrobromide 400micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTHY952090	Hyoscine butylbromide 100mg/5ml oral solution
+^ESCTHY952092	Hyoscine butylbromide 1mg/5ml oral solution
+^ESCTHY952094	Hyoscine butylbromide 20mg/5ml oral solution
+^ESCTHY952096	Hyoscine butylbromide 400micrograms/5ml oral solution
+^ESCTHY952098	Hyoscine butylbromide 500micrograms/5ml oral solution
+^ESCTHY952100	Hyoscine butylbromide 5mg/5ml oral solution
+^ESCTHY952102	Hyoscine hydrobromide 100micrograms/5ml oral solution
+^ESCTHY952104	Hyoscine hydrobromide 125micrograms/5ml oral solution
+^ESCTHY952106	Hyoscine hydrobromide 250micrograms/5ml oral solution
+^ESCTHY952108	Hyoscine hydrobromide 25micrograms/5ml oral solution
+^ESCTHY952110	Hyoscine hydrobromide 3mg/5ml oral solution
+^ESCTHY952111	Hyoscine hydrobromide 400micrograms/5ml oral solution
+^ESCTHY988146	Hyoscine butylbromide 4.9mg/5ml oral solution 1 ml
+^ESCTHY988147	Hyoscine butylbromide 4.9mg/5ml oral solution (Special Order)
+^ESCTHY988148	Hyoscine butylbromide 4.9mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY988236	Hyoscine butylbromide 4.9mg/5ml oral solution
+^ESCTJO866251	Joy-rides 150microgram chewable tablets (Forest Laboratories UK Ltd)
+^ESCTJO866253	Joy-rides 150microgram chewable tablets (Forest Laboratories UK Ltd) 12 tablet
+^ESCTKW819450	Kwells 300microgram tablets (Bayer Plc)
+^ESCTKW855786	Kwells 300microgram tablets (Bayer Plc) 12 tablet
+^ESCTKW866246	Kwells Kids 150microgram tablets (Bayer Plc)
+^ESCTKW866247	Kwells Kids 150microgram tablets (Bayer Plc) 12 tablet
+^ESCTKW920508	Kwells
+^ESCTME639217	Methscopolamine bromide 2.5 mg oral tablet
+^ESCTPA616899	Papaveretum 15.4mg/1ml / Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules
+^ESCTPA616900	Papaveretum+hyoscine 15.4mg/400micrograms/1mL injection
+^ESCTPA616901	Papaveretum 15.4mg/hyoscine 400mcg injection solution 1mL ampoule
+^ESCTPA616902	Papaveretum 15.4mg/hyoscine 400mcg injection solution 1mL ampule
+^ESCTPA617907	Papaveretum + Hyoscine hydrobromide
+^ESCTPA617908	Papaveretum+hyoscine hydrobromide
+^ESCTPA913049	Papaveretum 15.4mg/1ml / Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules 10 ampoule
+^ESCTPA913050	Papaveretum 15.4mg/1ml / Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTPA913052	Papaveretum 15.4mg/1ml / Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTPA925734	Papaveretum 15.4mg/1ml / Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTPA925735	Papaveretum 15.4mg/1ml / Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTPA925753	Papaveretum 15.4mg/1ml / Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPA925754	Papaveretum 15.4mg/1ml / Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTPR368512	Product containing scopolamine
+^ESCTPR606154	Product containing scopolamine butylbromide 10 mg/1 each oral tablet
+^ESCTPR609867	Product containing scopolamine hydrobromide 0.3 milligram/1 each oral tablet
+^ESCTPR618762	Product containing scopolamine hydrobromide 0.15 milligram/1 each oral tablet
+^ESCTPR639218	Product containing methscopolamine bromide 2.5 mg/1 each oral tablet
+^ESCTPR639808	Product containing scopolamine hydrobromide 0.4 milligram/1 each oral tablet
+^ESCTPR641931	Product containing atropine sulfate 0.0194 mg and hyoscyamine sulfate 0.1037 mg and scopolamine hydrobromide 0.0065 mg/1 each oral tablet
+^ESCTPR661519	Product containing atropine sulfate and hyoscyamine sulfate and scopolamine hydrobromide
+^ESCTPR702312	Product containing scopolamine in ophthalmic dosage form
+^ESCTPR711202	Product containing scopolamine in topical dosage form
+^ESCTPR711606	Product containing scopolamine in oral dosage form
+^ESCTPR716344	Product containing scopolamine in parenteral dosage form
+^ESCTPR771980	Product containing scopolamine butylbromide in parenteral dosage form
+^ESCTPR772033	Product containing scopolamine hydrobromide in parenteral dosage form
+^ESCTPR772035	Product containing scopolamine hydrobromide in transdermal dosage form
+^ESCTSC1012445	Scopoderm TTS 1.5mg patches (Mawdsley-Brooks & Company Ltd)
+^ESCTSC1012446	Scopoderm TTS 1.5mg patches (Mawdsley-Brooks & Company Ltd) 2 patch
+^ESCTSC1029354	Scopoderm TTS 1.5mg patches (Novartis Consumer Health UK Ltd) 5 patch
+^ESCTSC368510	Scopolamine
+^ESCTSC606155	Scopolamine butylbromide 10 mg oral tablet
+^ESCTSC609866	Scopolamine hydrobromide 0.3 mg oral tablet
+^ESCTSC615560	Scopolamine hydrobromide 0.25% ophthalmic solution
+^ESCTSC618761	Scopolamine hydrobromide 0.15 mg oral tablet
+^ESCTSC639807	Scopolamine hydrobromide 0.4 mg oral tablet
+^ESCTSC640703	Scopolamine 1.5mg/unt patch
+^ESCTSC641213	Scopolamine 0.5mg/24 hr patch
+^ESCTSC702311	Scopolamine in ophthalmic dosage form
+^ESCTSC711201	Scopolamine in topical dosage form
+^ESCTSC711605	Scopolamine in oral dosage form
+^ESCTSC716343	Scopolamine in parenteral dosage form
+^ESCTSC771979	Scopolamine butylbromide in parenteral dosage form
+^ESCTSC772032	Scopolamine hydrobromide in parenteral dosage form
+^ESCTSC772034	Scopolamine hydrobromide in transdermal dosage form
+^ESCTSC859716	Scopoderm TTS 1.5mg patches (Novartis Consumer Health UK Ltd)
+^ESCTSC859717	Scopoderm TTS 1.5mg patches (Novartis Consumer Health UK Ltd) 2 patch
+^ESCTSC914500	Scopoderm 1.5mg patches (GlaxoSmithKline Consumer Healthcare)
+^ESCTSC914502	Scopoderm 1.5mg patches (GlaxoSmithKline Consumer Healthcare) 2 patch
+^ESCTSC916179	Scopoderm
+^ESCTSC965714	Scopoderm TTS 1.5mg patches (Waymade Healthcare Plc)
+^ESCTSC965715	Scopoderm TTS 1.5mg patches (Waymade Healthcare Plc) 2 patch
+^ESCTTR942792	Travel Calm 300microgram tablets (The Boots Company Plc)
+^ESCTTR942793	Travel Calm 300microgram tablets (The Boots Company Plc) 12 tablet
+BUIN443	Buscopan  Injection  20 mg/ml, 1 ml ampoule
+BUTA444	Buscopan  Tablets  10 mg
+HYCH15532NEMIS	Hyoscine Hydrobromide  Chewable Tablets Sugar Free  150 micrograms
+HYEY3736	Hyoscine  Eye drops  0.25 %
+HYEY5016	Hyoscine Hydrobromide  Eye drops  0.25 %
+HYIN1412	Hyoscine Butylbromide  Injection  20 mg/ml, 1 ml ampoule
+HYIN35441MGEMIS	Hyoscine  Injection  400 micrograms/ml, 1 ml ampoule (A.A.H. Pharm)
+HYIN35442MGEMIS	Hyoscine  Injection  400 micrograms/ml, 1 ml ampoule (Ucb Pharma)
+HYIN35443MGEMIS	Hyoscine  Injection  400 micrograms/ml, 1 ml ampoule (Martindale)
+HYIN35444MGEMIS	Hyoscine  Injection  400 micrograms/ml, 1 ml ampoule (Unichem)
+HYIN35445MGEMIS	Hyoscine  Injection  400 micrograms/ml, 1 ml ampoule (Wockhardt UK)
+HYIN35446MGEMIS	Hyoscine  Injection  600 micrograms/ml, 1 ml ampoule (A.A.H. Pharm)
+HYIN35447MGEMIS	Hyoscine  Injection  600 micrograms/ml, 1 ml ampoule (Martindale)
+HYIN35448MGEMIS	Hyoscine  Injection  600 micrograms/ml, 1 ml ampoule (Unichem)
+HYIN35449MGEMIS	Hyoscine  Injection  600 micrograms/ml, 1 ml ampoule (Wockhardt UK)
+HYINEGTON6380	Hyoscine  Injection  400 micrograms/ml, 1 ml ampoule
+HYINEGTON6381	Hyoscine  Injection  600 micrograms/ml, 1 ml ampoule
+HYOR36254NEMIS	Hyoscine Hydrobromide  Oral solution  300 micrograms/5 ml
+HYOR46476NEMIS	Hyoscine Butylbromide  Oral solution  10 mg/5 ml
+HYOR46477NEMIS	Hyoscine Butylbromide  Oral suspension  10 mg/5 ml
+HYOR46478NEMIS	Hyoscine Butylbromide  Oral solution  500 micrograms/5 ml
+HYOR46479NEMIS	Hyoscine Hydrobromide  Oral solution  600 micrograms/5 ml
+HYOR46746NEMIS	Hyoscine Hydrobromide  Oral solution  500 micrograms/5 ml
+HYOR77537NEMIS	Hyoscine Hydrobromide  Oral suspension  300 micrograms/5 ml
+HYOR78960NEMIS	Hyoscine Hydrobromide  Oral suspension  500 micrograms/5 ml
+HYSO34949NEMIS	Hyoscine Hydrobromide  Solution for injection  400 micrograms/1 ml ampoule
+HYSO34950NEMIS	Hyoscine Hydrobromide  Solution for injection  600 micrograms/1 ml ampoule
+HYTA141081NEMIS	Hyoscine Butylbromide  Tablets  20 mg
+HYTA1413	Hyoscine Butylbromide  Tablets  10 mg
+HYTA1414	Hyoscine Hydrobromide  Tablets  300 micrograms
+HYTA15533NEMIS	Hyoscine Hydrobromide  Tablets  150 micrograms
+HYTR32877EMIS	Hyoscine Hydrobromide  Transdermal patches  1.5 mg (1 mg/72 hours)
+HYTR33132EMIS	Hyoscine Hydrobromide  Transdermal patches  1.5 mg/72 hrs
+JOCH15535NEMIS	Joy-Rides  Chewable tablets  150 micrograms
+KWTA15537NEMIS	Kwells Kids  Tablets  150 micrograms
+KWTA22722NEMIS	Kwells  Tablets  300 micrograms
+OMINEGTON6401	Omnopon-Scopolamine  Injection
+PAIN30724EMIS	Papaveretum And Hyoscine  Injection  
+PAIN45012NEMIS	Papaveretum And Hyoscine  Injection  15.4 mg/ml + 400 micrograms/ml, 1 ml ampoule
+SCTR32875EMIS	Scopoderm Tts  Transdermal patches  1 mg/72 hours, (1.5 mg patch)
+SCTR95952NEMIS	Scopoderm  Transdermal patches  1.5 mg (1 mg/72 hours)

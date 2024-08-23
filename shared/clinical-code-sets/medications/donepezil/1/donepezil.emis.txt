@@ -1,0 +1,335 @@
+DOOR23858NEMIS	Donepezil Hydrochloride  Orodispersible Tablets (Sugar Free)  5 mg
+DOOR23859NEMIS	Donepezil Hydrochloride  Orodispersible Tablets (Sugar Free)  10 mg
+DOOR90888NEMIS	Donepezil Hydrochloride  Oral Solution, Sugar Free  1 mg/ml
+DOTA30546EMIS	Donepezil Hydrochloride  Tablets  10 mg
+DOTA30547EMIS	Donepezil Hydrochloride  Tablets  5 mg
+^ESCT1177021	Donepezil 5mg tablets (Milpharm Ltd)
+^ESCT1177022	Donepezil 5mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1177023	Donepezil 10mg tablets (Milpharm Ltd)
+^ESCT1177024	Donepezil 10mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1178640	Product containing only donepezil hydrochloride 23 mg/1 each oral tablet
+^ESCT1178693	Product containing only donepezil hydrochloride 10 mg/1 each oral tablet
+^ESCT1180904	Donepezil 5mg tablets (Mylan) 28 tablet
+^ESCT1180905	Donepezil 10mg tablets (Mylan)
+^ESCT1180908	Donepezil 5mg orodispersible tablets sugar free (Mylan)
+^ESCT1180909	Donepezil 5mg orodispersible tablets sugar free (Mylan) 28 tablet
+^ESCT1180910	Donepezil 10mg orodispersible tablets sugar free (Mylan) 28 tablet
+^ESCT1184960	Donepezil 10mg tablets (Mylan) 28 tablet
+^ESCT1186986	Donepezil 10mg orodispersible tablets sugar free (Mylan)
+^ESCT1188124	Product containing only donepezil hydrochloride 5 mg/1 each oral tablet
+^ESCT1190111	Donepezil 5mg tablets (Mylan)
+^ESCT1206361	Donepezil in oral dosage form
+^ESCT1206362	Product containing donepezil in oral dosage form
+^ESCT1216282	Donepezil 5mg tablets (Cipla EU Ltd)
+^ESCT1216283	Donepezil 5mg tablets (Cipla EU Ltd) 28 tablet
+^ESCT1216284	Donepezil 10mg tablets (Cipla EU Ltd)
+^ESCT1216285	Donepezil 10mg tablets (Cipla EU Ltd) 28 tablet
+^ESCT1220875	Donepezil
+^ESCT1220876	Donepezil product
+^ESCT1224029	Product containing precisely donepezil hydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1224030	Product containing precisely donepezil hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1235432	Product containing precisely donepezil hydrochloride 23 milligram/1 each conventional release oral tablet
+^ESCT1236801	Donepezil + memantine
+^ESCT1236802	Product containing donepezil and memantine
+^ESCT1236803	Donepezil and memantine product
+^ESCT1259134	Donepezil 5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259135	Donepezil 5mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259136	Donepezil 10mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259137	Donepezil 10mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1263987	Donepezil 5mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1263988	Donepezil 5mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1263990	Donepezil 10mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1263991	Donepezil 10mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1263997	Donepezil 1mg/ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1263998	Donepezil 1mg/ml oral solution sugar free (Mawdsley-Brooks & Company Ltd) 150 ml
+^ESCT1266149	Donepezil 1mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1266150	Donepezil 1mg/ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1306479	Donepezil 5mg tablets (Crescent Pharma Ltd)
+^ESCT1306480	Donepezil 5mg tablets (Crescent Pharma Ltd) 28 tablet
+^ESCT1354722	Donepezil only product
+^ESCT1354723	Donepezil and memantine only product
+^ESCT1358314	Donepezil and memantine only product in oral dose form
+^ESCT1358315	Donepezil only product in oral dose form
+^ESCT1364216	Donepezil hydrochloride 10 mg orodispersible tablet
+^ESCT1364217	Donepezil hydrochloride 1 mg/mL oral solution
+^ESCT1364218	Donepezil hydrochloride 5 mg orodispersible tablet
+^ESCT1364875	Donepezil-containing product in oromucosal dose form
+^ESCT1365671	Donepezil only product in oromucosal dose form
+^ESCT1375518	Donepezil 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375519	Donepezil 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375521	Donepezil 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375522	Donepezil 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1385232	Donepezil- and memantine-containing product
+^ESCT1385233	Donepezil- and memantine-containing product in oral dose form
+^ESCT1386239	Donepezil-containing product in oral dose form
+^ESCT1422484	Donepezil 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422485	Donepezil 5mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422486	Donepezil 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422487	Donepezil 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1427683	Donepezil 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427684	Donepezil 5mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427685	Donepezil 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427686	Donepezil 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1433721	Donepezil 5mg tablets (Bristol Laboratories Ltd)
+^ESCT1433722	Donepezil 5mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1433723	Donepezil 10mg tablets (Bristol Laboratories Ltd)
+^ESCT1433724	Donepezil 10mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1435533	Donepezil 5mg orodispersible tablets sugar free (DE Pharmaceuticals)
+^ESCT1435535	Donepezil 5mg orodispersible tablets sugar free (DE Pharmaceuticals) 28 tablet
+^ESCT1435536	Donepezil 10mg orodispersible tablets sugar free (DE Pharmaceuticals)
+^ESCT1435537	Donepezil 10mg orodispersible tablets sugar free (DE Pharmaceuticals) 28 tablet
+^ESCT1438642	Donepezil 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438643	Donepezil 5mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438644	Donepezil 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438645	Donepezil 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438654	Donepezil 5mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd)
+^ESCT1438655	Donepezil 5mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1438656	Donepezil 10mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd)
+^ESCT1438657	Donepezil 10mg orodispersible tablets sugar free (Viatris UK Healthcare Ltd) 28 tablet
+^ESCTDO1014675	Donepezil 10mg tablets 56 tablet
+^ESCTDO1022725	Donepezil 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDO1022726	Donepezil 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTDO1022727	Donepezil 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDO1022728	Donepezil 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTDO1024491	Donepezil 5mg tablets (Teva UK Ltd)
+^ESCTDO1024492	Donepezil 5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1024493	Donepezil 10mg tablets (Teva UK Ltd)
+^ESCTDO1024494	Donepezil 10mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1024498	Donepezil 5mg orodispersible tablets sugar free (Teva UK Ltd)
+^ESCTDO1024499	Donepezil 5mg orodispersible tablets sugar free (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1024500	Donepezil 10mg orodispersible tablets sugar free (Teva UK Ltd)
+^ESCTDO1024502	Donepezil 10mg orodispersible tablets sugar free (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1025487	Donepezil 5mg tablets (Actavis UK Ltd)
+^ESCTDO1025488	Donepezil 5mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1025489	Donepezil 10mg tablets (Actavis UK Ltd)
+^ESCTDO1025490	Donepezil 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1025491	Donepezil 5mg orodispersible tablets sugar free (Actavis UK Ltd)
+^ESCTDO1025492	Donepezil 5mg orodispersible tablets sugar free (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1025493	Donepezil 10mg orodispersible tablets sugar free (Actavis UK Ltd)
+^ESCTDO1025494	Donepezil 10mg orodispersible tablets sugar free (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1025573	Donepezil 5mg tablets (Wockhardt UK Ltd)
+^ESCTDO1025574	Donepezil 5mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1025575	Donepezil 10mg tablets (Wockhardt UK Ltd)
+^ESCTDO1025576	Donepezil 10mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1025830	Donepezil 5mg tablets (Ranbaxy (UK) Ltd)
+^ESCTDO1025831	Donepezil 5mg tablets (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1025832	Donepezil 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTDO1025833	Donepezil 10mg tablets (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1026430	Donepezil 5mg tablets (Accord Healthcare Ltd)
+^ESCTDO1026431	Donepezil 5mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1026432	Donepezil 10mg tablets (Accord Healthcare Ltd)
+^ESCTDO1026433	Donepezil 10mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1026606	Donepezil 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO1026607	Donepezil 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTDO1026608	Donepezil 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO1026609	Donepezil 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTDO1026610	Donepezil 5mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO1026611	Donepezil 5mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1026612	Donepezil 10mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO1026613	Donepezil 10mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1026659	Donepezil 5mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDO1026660	Donepezil 5mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTDO1026661	Donepezil 10mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDO1026662	Donepezil 10mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTDO1026663	Donepezil 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDO1026664	Donepezil 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTDO1026665	Donepezil 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDO1026666	Donepezil 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTDO1027556	Donepezil 5mg orodispersible tablets sugar free (Sandoz Ltd)
+^ESCTDO1027557	Donepezil 5mg orodispersible tablets sugar free (Sandoz Ltd) 28 tablet
+^ESCTDO1027558	Donepezil 10mg orodispersible tablets sugar free (Sandoz Ltd)
+^ESCTDO1027559	Donepezil 10mg orodispersible tablets sugar free (Sandoz Ltd) 28 tablet
+^ESCTDO1027560	Donepezil 5mg tablets (Sandoz Ltd)
+^ESCTDO1027561	Donepezil 5mg tablets (Sandoz Ltd) 28 tablet
+^ESCTDO1027562	Donepezil 10mg tablets (Sandoz Ltd)
+^ESCTDO1027563	Donepezil 10mg tablets (Sandoz Ltd) 28 tablet
+^ESCTDO1028143	Donepezil 5mg tablets (Consilient Health Ltd)
+^ESCTDO1028144	Donepezil 5mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1028145	Donepezil 10mg tablets (Consilient Health Ltd)
+^ESCTDO1028146	Donepezil 10mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1028147	Donepezil 5mg orodispersible tablets 28 tablet
+^ESCTDO1028148	Donepezil 5mg orodispersible tablets (Consilient Health Ltd)
+^ESCTDO1028149	Donepezil 5mg orodispersible tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1028150	Donepezil 10mg orodispersible tablets 28 tablet
+^ESCTDO1028151	Donepezil 10mg orodispersible tablets (Consilient Health Ltd)
+^ESCTDO1028152	Donepezil 10mg orodispersible tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTDO1028153	Donepezil 10mg orodispersible tablets
+^ESCTDO1028154	Donepezil 5mg orodispersible tablets
+^ESCTDO1028787	Donepezil 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTDO1028788	Donepezil 5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1028789	Donepezil 10mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTDO1028790	Donepezil 10mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1028970	Donepezil 5mg tablets (Arrow Generics Ltd)
+^ESCTDO1028971	Donepezil 5mg tablets (Arrow Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1028974	Donepezil 10mg tablets (Arrow Generics Ltd)
+^ESCTDO1028976	Donepezil 10mg tablets (Arrow Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1028977	Donepezil 5mg orodispersible tablets sugar free (Arrow Generics Ltd)
+^ESCTDO1028978	Donepezil 5mg orodispersible tablets sugar free (Arrow Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1028979	Donepezil 10mg orodispersible tablets sugar free (Arrow Generics Ltd)
+^ESCTDO1028980	Donepezil 10mg orodispersible tablets sugar free (Arrow Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1029693	Donepezil 5mg orodispersible tablets sugar free (Beacon Pharmaceuticals Ltd)
+^ESCTDO1029694	Donepezil 5mg orodispersible tablets sugar free (Beacon Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1029695	Donepezil 10mg orodispersible tablets sugar free (Beacon Pharmaceuticals Ltd)
+^ESCTDO1029696	Donepezil 10mg orodispersible tablets sugar free (Beacon Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1033577	Donepezil 5mg tablets (Zentiva)
+^ESCTDO1033578	Donepezil 5mg tablets (Zentiva) 28 tablet
+^ESCTDO1033579	Donepezil 10mg tablets (Zentiva)
+^ESCTDO1033580	Donepezil 10mg tablets (Zentiva) 28 tablet
+^ESCTDO1036766	Donepezil 5mg tablets (Pfizer Ltd)
+^ESCTDO1036767	Donepezil 5mg tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1036768	Donepezil 10mg tablets (Pfizer Ltd)
+^ESCTDO1036769	Donepezil 10mg tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1049826	Donepezil 5mg tablets (Waymade Healthcare Plc)
+^ESCTDO1049827	Donepezil 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTDO1049828	Donepezil 10mg tablets (Waymade Healthcare Plc)
+^ESCTDO1049829	Donepezil 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTDO1058946	Donepezil 5mg tablets (Sovereign Medical Ltd)
+^ESCTDO1058947	Donepezil 5mg tablets (Sovereign Medical Ltd) 28 tablet
+^ESCTDO1058948	Donepezil 10mg tablets (Sovereign Medical Ltd)
+^ESCTDO1058949	Donepezil 10mg tablets (Sovereign Medical Ltd) 28 tablet
+^ESCTDO1060591	Donepezil 5mg orodispersible tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDO1060592	Donepezil 5mg orodispersible tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTDO1060593	Donepezil 10mg orodispersible tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDO1060594	Donepezil 10mg orodispersible tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTDO1060595	Donepezil 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDO1060596	Donepezil 5mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTDO1060597	Donepezil 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDO1060598	Donepezil 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTDO1061888	Donepezil 10mg tablets (DE Pharmaceuticals)
+^ESCTDO1061889	Donepezil 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTDO1061890	Donepezil 5mg tablets (DE Pharmaceuticals)
+^ESCTDO1061891	Donepezil 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTDO1068477	Donepezil 1mg/ml oral solution sugar free 150 ml
+^ESCTDO1068479	Donepezil 1mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTDO1068480	Donepezil 1mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTDO1068560	Donepezil 1mg/ml oral solution sugar free
+^ESCTDO1069387	Donepezil 1mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO1069389	Donepezil 1mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTDO1091230	Donepezil 1mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDO1091231	Donepezil 1mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTDO1115955	Donepezil 5mg tablets (Macleods Pharma UK Ltd)
+^ESCTDO1115962	Donepezil 5mg tablets (Macleods Pharma UK Ltd) 28 tablet
+^ESCTDO1115980	Donepezil 10mg tablets (Macleods Pharma UK Ltd)
+^ESCTDO1115981	Donepezil 10mg tablets (Macleods Pharma UK Ltd) 28 tablet
+^ESCTDO1117451	Donepezil 10mg orodispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTDO1117452	Donepezil 10mg orodispersible tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTDO1117454	Donepezil 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDO1117456	Donepezil 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTDO1117457	Donepezil 1mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTDO1117458	Donepezil 1mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTDO1117459	Donepezil 5mg orodispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTDO1117460	Donepezil 5mg orodispersible tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTDO1117463	Donepezil 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDO1117464	Donepezil 5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTDO1119177	Donepezil 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDO1119217	Donepezil 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTDO1119352	Donepezil 5mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTDO1119353	Donepezil 5mg orodispersible tablets (DE Pharmaceuticals) 28 tablet
+^ESCTDO1119354	Donepezil 10mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTDO1119355	Donepezil 10mg orodispersible tablets (DE Pharmaceuticals) 28 tablet
+^ESCTDO1126593	Donepezil 5mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDO1126594	Donepezil 5mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTDO1126595	Donepezil 10mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDO1126596	Donepezil 10mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTDO1141842	Donepezil 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDO1141843	Donepezil 5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTDO1141844	Donepezil 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDO1141845	Donepezil 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTDO1152804	Donepezil 5mg tablets (Mylan Ltd)
+^ESCTDO1152805	Donepezil 5mg tablets (Mylan Ltd) 28 tablet
+^ESCTDO1152806	Donepezil 10mg tablets (Mylan Ltd)
+^ESCTDO1152807	Donepezil 10mg tablets (Mylan Ltd) 28 tablet
+^ESCTDO1152827	Donepezil 5mg orodispersible tablets sugar free (Mylan Ltd)
+^ESCTDO1152828	Donepezil 5mg orodispersible tablets sugar free (Mylan Ltd) 28 tablet
+^ESCTDO1152829	Donepezil 10mg orodispersible tablets sugar free (Mylan Ltd)
+^ESCTDO1152830	Donepezil 10mg orodispersible tablets sugar free (Mylan Ltd) 28 tablet
+^ESCTDO415474	Donepezil
+^ESCTDO415476	Donepezil hydrochloride
+^ESCTDO611048	Donepezil 5mg tablets
+^ESCTDO611050	Donepezil hydrochloride 5 mg oral tablet
+^ESCTDO611051	Donepezil 10mg tablets
+^ESCTDO611053	Donepezil hydrochloride 10 mg oral tablet
+^ESCTDO685110	Donepezil 10mg orally disintegrating tablet
+^ESCTDO685111	Donepezil hydrochloride 10mg orally disintegrating tablet
+^ESCTDO685112	Donepezil 1mg/mL oral solution
+^ESCTDO685113	Donepezil hydrochloride 1mg/mL oral solution
+^ESCTDO685114	Donepezil 5mg orally disintegrating tablet
+^ESCTDO685115	Donepezil hydrochloride 5mg orally disintegrating tablet
+^ESCTDO733635	Donepezil hydrochloride 23 mg oral tablet
+^ESCTDO773763	Donepezil + memantine
+^ESCTDO773764	Donepezil and memantine in oral dosage form
+^ESCTDO844844	Donepezil 5mg tablets 28 tablet
+^ESCTDO848156	Donepezil 10mg tablets 28 tablet
+^ESCTDO878590	Donepezil 10mg tablets (Dowelhurst Ltd)
+^ESCTDO878591	Donepezil 10mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTDO878601	Donepezil 5mg tablets (Dowelhurst Ltd)
+^ESCTDO878603	Donepezil 5mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTDO936605	Donepezil 5mg orodispersible tablets sugar free 28 tablet
+^ESCTDO936608	Donepezil 10mg orodispersible tablets sugar free 28 tablet
+^ESCTDO936663	Donepezil 10mg orodispersible tablets sugar free
+^ESCTDO936664	Donepezil 5mg orodispersible tablets sugar free
+^ESCTDO981755	Donepezil 10mg/5ml oral suspension 1 ml
+^ESCTDO981756	Donepezil 10mg/5ml oral suspension (Special Order)
+^ESCTDO981757	Donepezil 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDO981764	Donepezil 10mg/5ml oral suspension
+^ESCTPR415475	Product containing donepezil
+^ESCTPR415477	Product containing donepezil hydrochloride
+^ESCTPR611049	Product containing donepezil hydrochloride 5 mg/1 each oral tablet
+^ESCTPR611052	Product containing donepezil hydrochloride 10 mg/1 each oral tablet
+^ESCTPR733636	Product containing donepezil hydrochloride 23 mg/1 each oral tablet
+^ESCTPR773765	Product containing donepezil and memantine in oral dosage form
+AROR23861NEMIS	Aricept Evess  Orodispersible tablets  5 mg
+AROR23862NEMIS	Aricept Evess  Orodispersible tablets  10 mg
+ARTA30542EMIS	Aricept  Tablets  10 mg
+ARTA30543EMIS	Aricept  Tablets  5 mg
+^ESCTAR1001865	Aricept Evess 10mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAR1001866	Aricept Evess 10mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAR1002235	Aricept Evess 10mg orodispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTAR1002236	Aricept Evess 10mg orodispersible tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAR1002771	Aricept 10mg tablets (Necessity Supplies Ltd)
+^ESCTAR1002773	Aricept 10mg tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTAR1002775	Aricept 5mg tablets (Necessity Supplies Ltd)
+^ESCTAR1002778	Aricept 5mg tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTAR1014679	Aricept 10mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTAR1020902	Aricept Evess 10mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTAR1020903	Aricept Evess 10mg orodispersible tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAR1023839	Aricept Evess 10mg orodispersible tablets (Lexon (UK) Ltd)
+^ESCTAR1023841	Aricept Evess 10mg orodispersible tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTAR1121392	Aricept Evess 10mg orodispersible tablets (Waymade Healthcare Plc)
+^ESCTAR1121393	Aricept Evess 10mg orodispersible tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAR804886	Aricept 10mg tablets (Eisai Ltd)
+^ESCTAR822884	Aricept 5mg tablets (Eisai Ltd)
+^ESCTAR856796	Aricept 5mg tablets (Eisai Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR856799	Aricept 10mg tablets (Eisai Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR877562	Aricept 5mg tablets (Waymade Healthcare Plc)
+^ESCTAR877565	Aricept 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAR877567	Aricept 10mg tablets (Waymade Healthcare Plc)
+^ESCTAR877568	Aricept 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAR879130	Aricept 10mg tablets (Dowelhurst Ltd)
+^ESCTAR879132	Aricept 10mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTAR879137	Aricept 5mg tablets (Dowelhurst Ltd)
+^ESCTAR879139	Aricept 5mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTAR913918	Aricept
+^ESCTAR913920	Aricept Evess
+^ESCTAR936606	Aricept Evess 5mg orodispersible tablets (Eisai Ltd)
+^ESCTAR936607	Aricept Evess 5mg orodispersible tablets (Eisai Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR936609	Aricept Evess 10mg orodispersible tablets (Eisai Ltd)
+^ESCTAR936610	Aricept Evess 10mg orodispersible tablets (Eisai Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR966220	Aricept 5mg tablets (DE Pharmaceuticals)
+^ESCTAR966221	Aricept 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAR966222	Aricept 10mg tablets (DE Pharmaceuticals)
+^ESCTAR966223	Aricept 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAR969786	Aricept 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAR969788	Aricept 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAR969789	Aricept 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAR969790	Aricept 5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAR988709	Aricept 5mg tablets (Lexon (UK) Ltd)
+^ESCTAR988710	Aricept 5mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTAR988711	Aricept 10mg tablets (Lexon (UK) Ltd)
+^ESCTAR988712	Aricept 10mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTAR990121	Aricept 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAR990124	Aricept 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAR990127	Aricept 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAR990129	Aricept 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAR992929	Aricept 10mg tablets (Stephar (U.K.) Ltd)
+^ESCTAR992931	Aricept 10mg tablets (Stephar (U.K.) Ltd) 28 tablet

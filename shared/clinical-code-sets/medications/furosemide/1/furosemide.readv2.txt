@@ -1,0 +1,70 @@
+b31..00	FUROSEMIDE
+b31z.11	FRUSEMIDE 250mg/25mL injection
+b31z.00	FUROSEMIDE 250mg/25mL injection
+b31y.11	FRUSEMIDE 20mg/2mL injection
+b31y.00	FUROSEMIDE 20mg/2mL injection
+b31x.00	*FRUSEMIDE 1mg/1mL liquid
+b31u.11	FRUSEMIDE 50mg/5mL injection
+b31u.00	FUROSEMIDE 50mg/5mL injection
+b31t.11	FRUSEMIDE 50mg/5mL sugar free solution
+b31t.00	FUROSEMIDE 50mg/5mL sugar free solution
+b31s.11	FRUSEMIDE 40mg/5mL sugar free solution
+b31s.00	FUROSEMIDE 40mg/5mL sugar free solution
+b31r.11	FRUSEMIDE 20mg/5mL sugar free solution
+b31r.00	FUROSEMIDE 20mg/5mL sugar free solution
+b31q.00	*RUSYDE 40mg tablets
+b31p.00	*RUSYDE 20mg tablets
+b31o.00	*FRUMAX 40mg tablets
+b31n.00	*LASIX 250mg/25mL injection
+b31m.00	*LASIX 50mg/5mL injection
+b31l.00	LASIX 20mg/2mL injection
+b31k.00	LASIX PAEDIATRIC 1mg/1mL liquid
+b31j.00	*LASIX 500mg tablets
+b31i.00	*LASIX 40mg tablets
+b31h.00	*LASIX 20mg tablets
+b31g.00	*FRUSID 40mg tablets
+b31f.00	*FRUSETIC 40mg tablets
+b31e.00	*DRYPTAL 250mg/25mL injection
+b31d.00	*DRYPTAL 50mg/5mL injection
+b31c.00	*DRYPTAL 20mg/2mL injection
+b31b.00	*DRYPTAL 500mg tablets
+b31a.00	*DRYPTAL 40mg tablets
+b31H.00	FRUSOL 50mg/5mL sugar free oral solution
+b31G.00	FRUSOL 40mg/5mL sugar free oral solution
+b31F.00	FRUSOL 20mg/5mL sugar free oral solution
+b31E.00	FROOP 40mg tablets
+b31D.00	FRUSEMIDE 250mg/25mL prefilled syringe
+b31C.11	FRUSEMIDE 80mg/8mL prefilled syringe
+b31C.00	FUROSEMIDE 80mg/8mL prefilled syringe
+b31B.00	MIN-I-JET FRUSEMIDE 80mg/8mL injection
+b31A.00	MIN-I-JET FRUSEMIDE 250mg/25mL injection
+b319.00	*DIURESAL 50mg/5mL injection
+b318.00	*DIURESAL 20mg/2mL injection
+b317.00	*DIURESAL 40mg tablets
+b316.00	*ALUZINE 500mg tablets
+b315.00	*ALUZINE 40mg tablets
+b314.00	*ALUZINE 20mg tablets
+b313.11	FRUSEMIDE 500mg tablets
+b313.00	FUROSEMIDE 500mg tablets
+b312.11	FRUSEMIDE 40mg tablets
+b312.00	FUROSEMIDE 40mg tablets
+b311.11	FRUSEMIDE 20mg tablets
+b311.00	FUROSEMIDE 20mg tablets
+b51H.00	TRIAMTERENE+FUROSEMIDE 50mg/40mg tablets
+b51J.00	SPIRONOLACTONE+FUROSEMIDE 50mg/20mg capsules
+b91f.00	FUROSEMIDE+POTASSIUM 20mg/10mmol m/r tablets
+b31..11	FRUSEMIDE
+b51H.11	TRIAMTERENE+FRUSEMIDE 50mg/40mg tablets
+b51J.11	SPIRONOLACTONE+FRUSEMIDE 50mg/20mg capsules
+b91d.00	FRUSEMIDE+POTASSIUM 40mg/8mmol m/r tablets
+b91f.11	FRUSEMIDE+POTASSIUM 20mg/10mmol m/r tablets
+b91g.00	FRUSEMIDE tablets+POTASSIUM m/r tablets 40mg/10mmol pack
+bdeF.00	PENBUTOLOL SULPHATE+FRUSEMIDE 40mg/20mg tablets
+b918.00	LASIX+K tablets 30day-CP combination pack
+b51S.00	*FROOP CO 5mg/40mg tablets
+b519.00	LASILACTONE capsules
+b517.00	FRUSENE tablets
+b51n.00	*FRUSENE tablets 56CP
+b917.00	*LASIKAL tablets
+bde8.00	*LASIPRESSIN tablets
+b914.00	*DIUMIDE-K CONTINUS tablets

@@ -1,0 +1,17 @@
+gdA..00	TOLTERODINE L-TARTRATE
+gdAG.00	INCONEX XL 2mg m/r capsules
+gdAF.00	INCONEX XL 4mg m/r capsules
+gdAE.00	BLERONE XL 4mg m/r capsules
+gdAD.00	EFFLOSOMYL XL 4mg m/r capsules
+gdAC.00	TOLTERODINE TARTRATE 2mg m/r capsules
+gdAB.00	NEDITOL XL 2mg m/r capsules
+gdAA.00	NEDITOL XL 4mg m/r capsules
+gdA9.00	PREBLACON XL 4mg m/r capsules
+gdA8.00	MARIOSEA XL 4mg m/r capsules
+gdA7.00	SANTIZOR XL 4mg m/r capsules
+gdA6.00	DETRUSITOL XL 4mg m/r capsules
+gdA5.00	TOLTERODINE L-TARTRATE 4mg m/r capsules
+gdA4.00	DETRUSITOL 2mg tablets
+gdA3.00	DETRUSITOL 1mg tablets
+gdA2.00	TOLTERODINE L-TARTRATE 2mg tablets
+gdA1.00	TOLTERODINE L-TARTRATE 1mg tablets

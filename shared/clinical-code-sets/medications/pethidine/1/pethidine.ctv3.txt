@@ -1,0 +1,23 @@
+djg..	Pethidine hydrochloride [analgesic]
+djg1.	Pethidine 25mg paediatric tablet
+djg2.	Pethidine hydrochloride 50mg tablet
+djg3.	Pethidine [analg] 50mg/1ml injection
+djg8.	Pethidine hydrochloride+promethazine hydrochloride 100mg/50mg/2mL injection
+djg5.	Pamergan P100 injection
+o48..	Pethidine hydrochloride [anaesthesia]
+o481.	Pethidine hydrochloride 50mg/5mL injection
+o482.	Pethidine hydrochloride 100mg/10mL injection
+o483.	Pethidine hydrochloride 50mg/1mL injection
+djg6.	Pethilorfan 50mg/1mL injection
+o484.	Pethidine hydrochloride 100mg/2mL injection
+x01Km	Pethidine analogue
+x01Ko	Phenoperidine
+o49z.	Phenoperidine hydrochloride 10mg/10mL injection
+o492.	Operidine 10mg/10mL injection
+o49y.	Phenoperidine hydrochloride 2mg/2mL injection
+o491.	Operidine 2mg/2mL injection
+o49..	Phenoperidine hydrochloride
+x01Kn	Meperidine
+djg7.	Pethilorfan 100mg/2mL injection
+x02md	Pamergan P100
+x044R	Operidine

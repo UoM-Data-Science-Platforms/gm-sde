@@ -1,0 +1,407 @@
+ACTA26301EMIS	Acitak  Tablets  200 mg
+ACTA26302EMIS	Acitak  Tablets  400 mg
+ACTA26303EMIS	Acitak  Tablets  800 mg
+ALSU9283BRIDL	Algitec  Suspension
+ALTA8881EGTON	Algitec  Chewable tablets
+CICH8422EGTON	Cimetidine  Chewable tablets  200 mg
+CIEF9243EMIS	Cimetidine  Effervescent tablets  400 mg
+CIIN623	Cimetidine  Injection  100 mg/ml, 2 ml ampoule
+CIIN624	Cimetidine  Intravenous infusion  4 mg/ml
+CIOR14287NEMIS	Cimetidine  Oral solution  200 mg/5 ml
+CIOR44086NEMIS	Cimetidine  Oral Solution, Sugar Free  200 mg/5 ml
+CISU13821NEMIS	Cimetidine  Sugar free suspension  200 mg/5 ml
+CISU37833MGEMIS	Cimetidine  Sugar free suspension  200 mg/5 ml (Rosemont Pharm)
+CISY625	Cimetidine  Syrup  200 mg/5 ml
+CITA138191NEMIS	Cimetidine (Imported)  Tablets  200 mg
+CITA138192NEMIS	Cimetidine (Imported)  Tablets  400 mg
+CITA138193NEMIS	Cimetidine (Imported)  Tablets  800 mg
+CITA34329MGEMIS	Cimetidine  Tablets  200 mg (Generics (UK))
+CITA34330MGEMIS	Cimetidine  Tablets  200 mg (Sandoz)
+CITA34331MGEMIS	Cimetidine  Tablets  200 mg (Kent Pharm)
+CITA34332MGEMIS	Cimetidine  Tablets  200 mg (A.A.H. Pharm)
+CITA34333MGEMIS	Cimetidine  Tablets  200 mg (Unichem)
+CITA34334MGEMIS	Cimetidine  Tablets  200 mg (Alpharma)
+CITA34335MGEMIS	Cimetidine  Tablets  200 mg (Ranbaxy)
+CITA34336MGEMIS	Cimetidine  Tablets  200 mg (Ivax Pharmaceuticals)
+CITA34337MGEMIS	Cimetidine  Tablets  200 mg (Teva UK)
+CITA34338MGEMIS	Cimetidine  Tablets  400 mg (Sandoz)
+CITA34339MGEMIS	Cimetidine  Tablets  400 mg (Teva UK)
+CITA34340MGEMIS	Cimetidine  Tablets  400 mg (Unichem)
+CITA34341MGEMIS	Cimetidine  Tablets  400 mg (Generics (UK))
+CITA34342MGEMIS	Cimetidine  Tablets  400 mg (Ranbaxy)
+CITA34343MGEMIS	Cimetidine  Tablets  400 mg (Alpharma)
+CITA34344MGEMIS	Cimetidine  Tablets  400 mg (Ivax Pharmaceuticals)
+CITA34345MGEMIS	Cimetidine  Tablets  400 mg (A.A.H. Pharm)
+CITA34346MGEMIS	Cimetidine  Tablets  400 mg (Kent Pharm)
+CITA34347MGEMIS	Cimetidine  Tablets  800 mg (Generics (UK))
+CITA34348MGEMIS	Cimetidine  Tablets  800 mg (Sandoz)
+CITA34349MGEMIS	Cimetidine  Tablets  800 mg (Teva UK)
+CITA34350MGEMIS	Cimetidine  Tablets  800 mg (Alpharma)
+CITA34351MGEMIS	Cimetidine  Tablets  800 mg (Ivax Pharmaceuticals)
+CITA34352MGEMIS	Cimetidine  Tablets  800 mg (Unichem)
+CITA34353MGEMIS	Cimetidine  Tablets  800 mg (A.A.H. Pharm)
+CITA34354MGEMIS	Cimetidine  Tablets  800 mg (Kent Pharm)
+CITA34355MGEMIS	Cimetidine  Tablets  800 mg (Ranbaxy)
+CITA626	Cimetidine  Tablets  200 mg
+CITA627	Cimetidine  Tablets  400 mg
+CITA628	Cimetidine  Tablets  800 mg
+DYSU10204BRIDL	Dyspamet  Suspension  
+DYTA5853	Dyspamet  Chewable tablets  200 mg
+GATA23984EMIS	Galenamet  Tablets  200 mg
+GATA23985EMIS	Galenamet  Tablets  400 mg
+GATA23986EMIS	Galenamet  Tablets  800 mg
+PETA10769BRIDL	Peptimax 200  Tablets  200 mg
+PETA10771BRIDL	Peptimax 400  Tablets  400 mg
+PETA10773BRIDL	Peptimax 800  Tablets  800 mg
+PHTA22233EMIS	Phimetin  Tablets  200 mg
+PHTA22234EMIS	Phimetin  Tablets  400 mg
+PHTA22235EMIS	Phimetin  Tablets  800 mg
+TAEF9241EMIS	Tagamet  Effervescent tablets  400 mg
+TAIN2772	Tagamet  Injection  100 mg/ml, 2 ml ampoule
+TAIN2773	Tagamet  Intravenous infusion  4 mg/ml
+TASU29442EMIS	Tagamet Dual Action  Suspension
+TASY2774	Tagamet  Syrup  200 mg/5 ml
+TATA2775	Tagamet  Tablets  200 mg
+TATA2776	Tagamet  Tablets  400 mg
+TATA2777	Tagamet  Tablets  800 mg
+TATA33085EMIS	Tagadine  Tablets  400 mg
+ULTA24242EMIS	Ultec  Tablets  200 mg
+ULTA24243EMIS	Ultec  Tablets  400 mg
+ULTA8961DLSEM	Ultec  Tablets  800 mg
+ZITA23671EMIS	Zita  Tablets  200 mg
+ZITA23672EMIS	Zita  Tablets  400 mg
+ZITA23673EMIS	Zita  Tablets  800 mg
+^ESCT1177896	Product containing only cimetidine 200 mg/1 each oral tablet
+^ESCT1177897	Product containing only cimetidine 400 mg/1 each oral tablet
+^ESCT1179572	Cimetidine 200mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCT1179573	Cimetidine 800mg tablets (Mylan) 30 tablet
+^ESCT1179839	Cimetidine 400mg tablets (Mylan)
+^ESCT1182544	Product containing only cimetidine 100 mg/1 each oral tablet
+^ESCT1183488	Cimetidine 400mg tablets (Mylan) 60 tablet
+^ESCT1183724	Cimetidine 200mg tablets (Mylan)
+^ESCT1185404	Product containing only cimetidine 300 mg/1 each oral tablet
+^ESCT1187164	Product containing only cimetidine 800 mg/1 each oral tablet
+^ESCT1188777	Cimetidine 200mg tablets (Mylan) 60 tablet
+^ESCT1188778	Cimetidine 800mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCT1189249	Cimetidine 800mg tablets (Mylan)
+^ESCT1204482	Cimetidine 40 mg/mL oral solution
+^ESCT1204483	Product containing precisely cimetidine 40 milligram/1 milliliter conventional release oral solution
+^ESCT1204659	Cimetidine hydrochloride 300mg/50mL(0.9%) conventional release solution for infusion 50mL bag
+^ESCT1204660	Cimetidine hydrochloride 300mg/50 mL injection
+^ESCT1209156	Cimetidine 200 mg/2 mL solution for injection ampoule
+^ESCT1209157	Product containing precisely cimetidine 200 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1209158	Cimetidine 200 mg/2 mL solution for injection ampule
+^ESCT1215349	Cimetidine 200mg tablets (Medreich Plc)
+^ESCT1215350	Cimetidine 200mg tablets (Medreich Plc) 60 tablet 3 x 20 tablets
+^ESCT1215351	Cimetidine 400mg tablets (Medreich Plc)
+^ESCT1215352	Cimetidine 400mg tablets (Medreich Plc) 60 tablet 6 x 10 tablets
+^ESCT1215526	Cimetidine 800mg tablets (Medreich Plc)
+^ESCT1215527	Cimetidine 800mg tablets (Medreich Plc) 30 tablet 3 x 10 tablets
+^ESCT1216089	Cimetidine 200mg/2ml solution for injection ampoules
+^ESCT1216090	Cimetidine 200mg/5ml oral solution
+^ESCT1216091	Cimetidine 200mg/5ml oral solution sugar free
+^ESCT1220086	Cimetidine
+^ESCT1220087	Cimetidine product
+^ESCT1222542	Cimetidine 400 mg effervescent oral tablet
+^ESCT1222543	Product containing precisely cimetidine 400 milligram/1 each conventional release effervescent oral tablet
+^ESCT1222544	Product containing precisely cimetidine 200 milligram/1 each conventional release oral tablet
+^ESCT1222545	Product containing precisely cimetidine 400 milligram/1 each conventional release oral tablet
+^ESCT1222546	Product containing precisely cimetidine 800 milligram/1 each conventional release oral tablet
+^ESCT1226699	Cimetidine 40 mg/mL oral suspension
+^ESCT1226700	Product containing precisely cimetidine 40 milligram/1 milliliter conventional release oral suspension
+^ESCT1226721	Cimetidine+alginate
+^ESCT1226722	Product containing cimetidine and sodium alginate
+^ESCT1226723	Cimetidine and sodium alginate product
+^ESCT1227093	Product containing precisely cimetidine 100 milligram/1 each conventional release oral tablet
+^ESCT1228789	Product containing precisely cimetidine 300 milligram/1 each conventional release oral tablet
+^ESCT1264855	Cimetidine 200mg tablets (DE Pharmaceuticals) 120 tablet
+^ESCT1264951	Cimetidine 200mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1264952	Cimetidine 200mg/5ml oral solution sugar free (DE Pharmaceuticals) 300 ml
+^ESCT1301265	Cimetidine 400mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCT1354235	Cimetidine only product
+^ESCT1354236	Cimetidine and sodium alginate only product
+^ESCT1357982	Cimetidine only product in oral dose form
+^ESCT1357983	Cimetidine only product in parenteral dose form
+^ESCT1360963	Cimetidine 100 mg/mL solution for injection
+^ESCT1364205	Cimetidine 6 mg/mL solution for injection
+^ESCT1375121	Cimetidine 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375122	Cimetidine 200mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1375123	Cimetidine 200mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375124	Cimetidine 200mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 300 ml
+^ESCT1375125	Cimetidine 400mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375126	Cimetidine 400mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1376119	Cimetidine 200mg tablets (Imported)
+^ESCT1376120	Cimetidine 200mg tablets (Imported) 60 tablet
+^ESCT1376121	Cimetidine 400mg tablets (Imported)
+^ESCT1376122	Cimetidine 400mg tablets (Imported) 60 tablet
+^ESCT1376123	Cimetidine 800mg tablets (Imported)
+^ESCT1376124	Cimetidine 800mg tablets (Imported) 30 tablet
+^ESCT1381269	Cimetidine-containing product in oral dose form
+^ESCT1381270	Cimetidine-containing product in parenteral dose form
+^ESCT1381271	Cimetidine- and sodium alginate-containing product
+^ESCT1382610	Cimetidine 10 mg/mL oral suspension
+^ESCT1402973	Cimetidine 200mg tablets 50 tablet
+^ESCT1402974	Cimetidine 200mg tablets 100 tablet
+^ESCT1402975	Cimetidine 200mg tablets (Imported) 50 tablet
+^ESCT1402976	Cimetidine 200mg tablets (Imported) 100 tablet
+^ESCT1402977	Cimetidine 400mg tablets 100 tablet
+^ESCT1402978	Cimetidine 400mg tablets (Imported) 100 tablet
+^ESCT1402979	Cimetidine 800mg tablets 100 tablet
+^ESCT1402980	Cimetidine 800mg tablets (Imported) 100 tablet
+^ESCT1425581	Cimetidine 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425714	Tagadine 400mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425850	Cimetidine 400mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425852	Cimetidine 800mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426242	Cimetidine 200mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCT1426243	Cimetidine 400mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCT1426244	Tagadine 400mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCT1426245	Cimetidine 800mg tablets (Kent Pharma (UK) Ltd) 30 tablet
+^ESCT1434796	Tagamet 200mg/5ml syrup (Rosemont Pharmaceuticals Ltd)
+^ESCT1434809	Tagamet 200mg/5ml syrup (Rosemont Pharmaceuticals Ltd) 600 ml
+^ESCT1436781	Cimetidine 200mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436841	Cimetidine 800mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436869	Cimetidine 400mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437317	Cimetidine 200mg tablets (Viatris UK Healthcare Ltd) 60 tablet
+^ESCT1437318	Cimetidine 400mg tablets (Viatris UK Healthcare Ltd) 60 tablet
+^ESCT1437319	Cimetidine 800mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCTAC807565	Acid-Eze 200mg tablets (Manx Healthcare Ltd)
+^ESCTAC822153	Acitak 400mg tablets (Opus Pharmaceuticals Ltd)
+^ESCTAC852601	Acid-Eze 200mg tablets (Manx Healthcare Ltd) 12 tablet
+^ESCTAC852628	Acitak 400mg tablets (Opus Pharmaceuticals Ltd) 60 tablet
+^ESCTAC913555	Acitak
+^ESCTCI1005321	Cimetidine 200mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1005322	Cimetidine 200mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTCI1005323	Cimetidine 400mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1005324	Cimetidine 400mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTCI1005325	Cimetidine 800mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1005326	Cimetidine 800mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTCI1010862	Cimetidine 200mg tablets (Accord Healthcare Ltd)
+^ESCTCI1010863	Cimetidine 200mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTCI1010864	Cimetidine 400mg tablets (Accord Healthcare Ltd)
+^ESCTCI1010865	Cimetidine 400mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTCI1010866	Cimetidine 800mg tablets (Accord Healthcare Ltd)
+^ESCTCI1010867	Cimetidine 800mg tablets (Accord Healthcare Ltd) 30 tablet
+^ESCTCI1042032	Cimetidine 200mg tablets (Waymade Healthcare Plc)
+^ESCTCI1042034	Cimetidine 200mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTCI1042035	Cimetidine 400mg tablets (Waymade Healthcare Plc)
+^ESCTCI1042036	Cimetidine 400mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTCI1042037	Cimetidine 800mg tablets (Waymade Healthcare Plc)
+^ESCTCI1042038	Cimetidine 800mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTCI1058224	Cimetidine 200mg tablets (Bristol Laboratories Ltd)
+^ESCTCI1058225	Cimetidine 200mg tablets (Bristol Laboratories Ltd) 60 tablet
+^ESCTCI1058226	Cimetidine 400mg tablets (Bristol Laboratories Ltd)
+^ESCTCI1058227	Cimetidine 400mg tablets (Bristol Laboratories Ltd) 60 tablet
+^ESCTCI1058228	Cimetidine 800mg tablets (Bristol Laboratories Ltd)
+^ESCTCI1058229	Cimetidine 800mg tablets (Bristol Laboratories Ltd) 30 tablet
+^ESCTCI1060441	Cimetidine 200mg tablets (DE Pharmaceuticals)
+^ESCTCI1060442	Cimetidine 200mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTCI1060445	Cimetidine 400mg tablets (DE Pharmaceuticals)
+^ESCTCI1060447	Cimetidine 400mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTCI1060452	Cimetidine 800mg tablets (DE Pharmaceuticals)
+^ESCTCI1060453	Cimetidine 800mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTCI1107773	Cimetidine 200mg tablets (Ennogen Pharma Ltd)
+^ESCTCI1107774	Cimetidine 200mg tablets (Ennogen Pharma Ltd) 60 tablet
+^ESCTCI1107775	Cimetidine 400mg tablets (Ennogen Pharma Ltd)
+^ESCTCI1107776	Cimetidine 400mg tablets (Ennogen Pharma Ltd) 60 tablet
+^ESCTCI1107777	Cimetidine 800mg tablets (Ennogen Pharma Ltd)
+^ESCTCI1107778	Cimetidine 800mg tablets (Ennogen Pharma Ltd) 30 tablet
+^ESCTCI1117026	Cimetidine 200mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI1117027	Cimetidine 200mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTCI1117028	Cimetidine 800mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI1117029	Cimetidine 800mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTCI1119081	Cimetidine 800mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCI1119082	Cimetidine 800mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTCI1126953	Cimetidine 200mg/5ml oral suspension sugar free 1 ml
+^ESCTCI1126954	Cimetidine 200mg/5ml oral suspension sugar free (Special Order)
+^ESCTCI1126955	Cimetidine 200mg/5ml oral suspension sugar free (Special Order) 1 ml
+^ESCTCI1149771	Cimetidine 200mg tablets (Essential Generics Ltd)
+^ESCTCI1149773	Cimetidine 200mg tablets (Essential Generics Ltd) 120 tablet 5 x 24 tablets
+^ESCTCI1149777	Cimetidine 400mg tablets (Essential Generics Ltd)
+^ESCTCI1149779	Cimetidine 400mg tablets (Essential Generics Ltd) 60 tablet 4 x 15 tablets
+^ESCTCI385924	Cimetidine
+^ESCTCI606193	Cimetidine 400mg effervescent tablets sugar free
+^ESCTCI606194	Cimetidine 400mg effervescent tablet
+^ESCTCI606195	Cimetidine 200mg tablets
+^ESCTCI606197	Cimetidine 200 mg oral tablet
+^ESCTCI606198	Cimetidine 400mg tablets
+^ESCTCI606200	Cimetidine 400 mg oral tablet
+^ESCTCI606201	Cimetidine 800mg tablets
+^ESCTCI606203	Cimetidine 800 mg oral tablet
+^ESCTCI606204	Cimetidine 200mg/5ml oral solution
+^ESCTCI606205	Cimetidine 200mg/5mL syrup
+^ESCTCI606207	Cimetidine 200mg/2ml solution for injection ampoules
+^ESCTCI606208	Cimetidine 200mg/2mL injection
+^ESCTCI606209	Cimetidine 100mg/mL injection solution 2mL ampoule
+^ESCTCI606210	Cimetidine 100mg/mL injection solution 2mL ampule
+^ESCTCI606211	Cimetidine 200mg/2mL solution for injection ampoule
+^ESCTCI606212	Cimetidine 200mg/2mL solution for injection ampule
+^ESCTCI618663	Cimetidine 200mg/5ml oral suspension sugar free
+^ESCTCI618664	Cimetidine 200mg/5mL oral suspension
+^ESCTCI618852	Cimetidine in oral dosage form
+^ESCTCI618854	Cimetidine in parenteral dosage form
+^ESCTCI618856	Cimetidine+alginate
+^ESCTCI619663	Cimetidine 100mg tablets
+^ESCTCI619665	Cimetidine 100 mg oral tablet
+^ESCTCI640830	Cimetidine 300mg oral solution
+^ESCTCI641484	Cimetidine 300 mg oral tablet
+^ESCTCI664079	Cimetidine hydrochloride 300mg/50mL(0.9%) intravenous solution 50mL bag
+^ESCTCI664080	Cimetidine hydrochloride 300mg/50 mL injection
+^ESCTCI675298	Cimetidine 200mg/5ml oral solution sugar free
+^ESCTCI675299	Cimetidine 200mg/5mL s/f oral solution
+^ESCTCI680352	Cimetidine 200mg/20mL oral suspension
+^ESCTCI680353	Cimetidine 200mg oral suspension
+^ESCTCI800620	Cimetidine 400mg tablets (Sandoz Ltd)
+^ESCTCI801858	Cimetidine 200mg tablets (Mylan Ltd)
+^ESCTCI802811	Cimetidine 400mg tablets (Teva UK Ltd)
+^ESCTCI804126	Cimetidine 400mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI804345	Cimetidine 200mg tablets (Sandoz Ltd)
+^ESCTCI807418	Cimetidine 800mg tablets (Mylan Ltd)
+^ESCTCI807666	Cimetidine 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCI809706	Cimetidine 800mg tablets (Sandoz Ltd)
+^ESCTCI810035	Cimetidine 800mg tablets (Teva UK Ltd)
+^ESCTCI810046	Cimetidine 400mg tablets (Mylan Ltd)
+^ESCTCI810194	Cimetidine 400mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCI810407	Cimetidine 800mg tablets (Actavis UK Ltd)
+^ESCTCI811383	Cimetidine 800mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCI811432	Cimetidine 400mg tablets (Actavis UK Ltd)
+^ESCTCI812073	Cimetidine 200mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTCI812693	Cimetidine 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCI813742	Cimetidine 800mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI816651	Cimetidine 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI819677	Cimetidine 200mg tablets (Actavis UK Ltd)
+^ESCTCI821348	Cimetidine 400mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCI823155	Cimetidine 200mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCI823409	Cimetidine 400mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCI824851	Cimetidine 800mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCI825469	Cimetidine 400mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCI825999	Cimetidine 800mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCI832699	Cimetidine 200mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCI832917	Cimetidine 200mg tablets (Teva UK Ltd)
+^ESCTCI834732	Cimetidine 200mg tablets 60 tablet
+^ESCTCI834754	Cimetidine 200mg tablets 120 tablet
+^ESCTCI836581	Cimetidine 200mg tablets 12 tablet
+^ESCTCI841460	Cimetidine 200mg/5ml oral solution 600 ml
+^ESCTCI842496	Cimetidine 400mg tablets 56 tablet
+^ESCTCI844016	Cimetidine 200mg/2ml solution for injection ampoules 20 ampoule
+^ESCTCI846590	Cimetidine 400mg tablets 60 tablet
+^ESCTCI847156	Cimetidine 200mg/5ml oral suspension sugar free 300 ml
+^ESCTCI847173	Cimetidine 200mg/5ml oral suspension sugar free 600 ml
+^ESCTCI847509	Cimetidine 800mg tablets 30 tablet
+^ESCTCI847881	Cimetidine 200mg tablets 112 tablet
+^ESCTCI852582	Cimetidine 200mg tablets (Actavis UK Ltd) 60 tablet
+^ESCTCI852584	Cimetidine 200mg tablets (Mylan Ltd) 60 tablet
+^ESCTCI852586	Cimetidine 200mg tablets (IVAX Pharmaceuticals UK Ltd) 60 tablet
+^ESCTCI852588	Cimetidine 200mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTCI852591	Cimetidine 200mg tablets (Sandoz Ltd) 120 tablet
+^ESCTCI852593	Cimetidine 200mg tablets (Ranbaxy (UK) Ltd) 60 tablet
+^ESCTCI852596	Cimetidine 200mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet 2 x 30 tablets
+^ESCTCI852602	Cimetidine 200mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTCI852603	Cimetidine 200mg tablets (A A H Pharmaceuticals Ltd) 120 tablet
+^ESCTCI852604	Cimetidine 200mg tablets (Teva UK Ltd) 60 tablet
+^ESCTCI852609	Cimetidine 400mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTCI852611	Cimetidine 400mg tablets (Actavis UK Ltd) 60 tablet 4 x 15 tablets
+^ESCTCI852612	Cimetidine 400mg tablets (Teva UK Ltd) 60 tablet
+^ESCTCI852613	Cimetidine 400mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet 6 x 10 tablets
+^ESCTCI852623	Cimetidine 400mg tablets (Mylan Ltd) 60 tablet
+^ESCTCI852624	Cimetidine 400mg tablets (IVAX Pharmaceuticals UK Ltd) 60 tablet 4 x 15 tablets
+^ESCTCI852625	Cimetidine 400mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTCI852626	Cimetidine 400mg tablets (Sandoz Ltd) 60 tablet
+^ESCTCI852630	Cimetidine 400mg tablets (Ranbaxy (UK) Ltd) 60 tablet 4 x 15 tablets
+^ESCTCI852638	Cimetidine 800mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTCI852639	Cimetidine 800mg tablets (Actavis UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTCI852640	Cimetidine 800mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTCI852641	Cimetidine 800mg tablets (Mylan Ltd) 30 tablet
+^ESCTCI852642	Cimetidine 800mg tablets (IVAX Pharmaceuticals UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTCI852643	Cimetidine 800mg tablets (Kent Pharmaceuticals Ltd) 30 tablet
+^ESCTCI852644	Cimetidine 800mg tablets (Sandoz Ltd) 30 tablet
+^ESCTCI852646	Cimetidine 800mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 2 x 15 tablets
+^ESCTCI855863	Cimetidine 200mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd) 300 ml
+^ESCTCI859161	Cimetidine 400mg effervescent tablets sugar free 60 tablet
+^ESCTCI871620	Cimetidine 200mg chewable tablets sugar free 120 tablet
+^ESCTCI871689	Cimetidine 200mg chewable tablets sugar free
+^ESCTCI883628	Cimetidine 200mg/5ml oral solution sugar free 300 ml
+^ESCTCI883630	Cimetidine 200mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTCI883632	Cimetidine 200mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 300 ml
+^ESCTCI883633	Cimetidine 200mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTCI883642	Cimetidine 200mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 300 ml
+^ESCTCI883643	Cimetidine 200mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI883645	Cimetidine 200mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 300 ml
+^ESCTCI902906	Cimetidine 100mg tablets 12 tablet
+^ESCTCI909274	Cimetidine 800mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCI909276	Cimetidine 800mg tablets (Ranbaxy (UK) Ltd) 30 tablet
+^ESCTCI923596	Cimetidine 400mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCI923597	Cimetidine 400mg tablets (Almus Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTCI928864	Cimetidine 200mg tablets (Arrow Generics Ltd)
+^ESCTCI928865	Cimetidine 200mg tablets (Arrow Generics Ltd) 60 tablet
+^ESCTCI928866	Cimetidine 400mg tablets (Arrow Generics Ltd)
+^ESCTCI928867	Cimetidine 400mg tablets (Arrow Generics Ltd) 60 tablet
+^ESCTCI928868	Cimetidine 800mg tablets (Arrow Generics Ltd)
+^ESCTCI928869	Cimetidine 800mg tablets (Arrow Generics Ltd) 30 tablet
+^ESCTCI940895	Cimetidine 200mg tablets (Dexcel-Pharma Ltd)
+^ESCTCI940896	Cimetidine 200mg tablets (Dexcel-Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTCI940897	Cimetidine 200mg tablets (Dexcel-Pharma Ltd) 120 tablet
+^ESCTCI940898	Cimetidine 400mg tablets (Dexcel-Pharma Ltd)
+^ESCTCI940899	Cimetidine 400mg tablets (Dexcel-Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTCI940900	Cimetidine 800mg tablets (Dexcel-Pharma Ltd)
+^ESCTCI940901	Cimetidine 800mg tablets (Dexcel-Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTCI960359	Cimetidine 200mg tablets (Dowelhurst Ltd)
+^ESCTCI960360	Cimetidine 200mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTCI960362	Cimetidine 400mg tablets (Dowelhurst Ltd)
+^ESCTCI960363	Cimetidine 400mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTCI960366	Cimetidine 800mg tablets (Dowelhurst Ltd)
+^ESCTCI960367	Cimetidine 800mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTCI965426	Cimetidine 200mg tablets (Tillomed Laboratories Ltd)
+^ESCTCI965427	Cimetidine 200mg tablets (Tillomed Laboratories Ltd) 60 tablet
+^ESCTCI965428	Cimetidine 400mg tablets (Tillomed Laboratories Ltd)
+^ESCTCI965429	Cimetidine 400mg tablets (Tillomed Laboratories Ltd) 60 tablet
+^ESCTCI965430	Cimetidine 800mg tablets (Tillomed Laboratories Ltd)
+^ESCTCI965431	Cimetidine 800mg tablets (Tillomed Laboratories Ltd) 30 tablet
+^ESCTCI975488	Cimetidine 400mg tablets (Boston Healthcare Ltd)
+^ESCTCI975490	Cimetidine 400mg tablets (Boston Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCTDY831768	Dyspamet 200mg/5ml oral suspension (Mercury Pharma Group Ltd)
+^ESCTDY855862	Dyspamet 200mg/5ml oral suspension (Mercury Pharma Group Ltd) 600 ml
+^ESCTDY871624	Dyspamet 200mg chewable tablets (GlaxoSmithKline UK Ltd)
+^ESCTDY871625	Dyspamet 200mg chewable tablets (GlaxoSmithKline UK Ltd) 120 tablet
+^ESCTDY914967	Dyspamet
+^ESCTGA820672	Galenamet 400mg tablets (Galen Ltd)
+^ESCTGA852622	Galenamet 400mg tablets (Galen Ltd) 56 tablet
+^ESCTGA919701	Galenamet
+^ESCTPE801726	Peptimax 400 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTPE821152	Peptimax 200 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTPE852605	Peptimax 200 tablets (Ashbourne Pharmaceuticals Ltd) 112 tablet
+^ESCTPE852614	Peptimax 400 tablets (Ashbourne Pharmaceuticals Ltd) 56 tablet
+^ESCTPE915566	Peptimax
+^ESCTPR385925	Product containing cimetidine
+^ESCTPR606196	Product containing cimetidine 200 mg/1 each oral tablet
+^ESCTPR606199	Product containing cimetidine 400 mg/1 each oral tablet
+^ESCTPR606202	Product containing cimetidine 800 mg/1 each oral tablet
+^ESCTPR618853	Product containing cimetidine in oral dosage form
+^ESCTPR618855	Product containing cimetidine in parenteral dosage form
+^ESCTPR619664	Product containing cimetidine 100 mg/1 each oral tablet
+^ESCTPR641485	Product containing cimetidine 300 mg/1 each oral tablet
+^ESCTTA809803	Tagamet 200mg/2ml solution for injection ampoules (GlaxoSmithKline UK Ltd)
+^ESCTTA810167	Tagamet 800mg tablets (Chemidex Pharma Ltd)
+^ESCTTA814811	Tagamet 200mg tablets (Chemidex Pharma Ltd)
+^ESCTTA818860	Tagamet 400mg tablets (Chemidex Pharma Ltd)
+^ESCTTA819080	Tagadine 400mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTA824099	Tagamet 200mg/5ml syrup (Essential Pharma Ltd)
+^ESCTTA852607	Tagamet 200mg tablets (Chemidex Pharma Ltd) 120 tablet 5 x 24 tablets
+^ESCTTA852627	Tagadine 400mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTTA852629	Tagamet 400mg tablets (Chemidex Pharma Ltd) 60 tablet 4 x 15 tablets
+^ESCTTA852645	Tagamet 800mg tablets (Chemidex Pharma Ltd) 30 tablet 2 x 15 tablets
+^ESCTTA855867	Tagamet 200mg/5ml syrup (Essential Pharma Ltd) 600 ml
+^ESCTTA857053	Tagamet 200mg/2ml solution for injection ampoules (GlaxoSmithKline UK Ltd) 20 ampoule
+^ESCTTA859162	Tagamet 400mg effervescent tablets (GlaxoSmithKline UK Ltd)
+^ESCTTA859163	Tagamet 400mg effervescent tablets (GlaxoSmithKline UK Ltd) 60 tablet 4 x 15 tablets
+^ESCTTA902908	Tagamet 100 tablets (Accura Health Ltd)
+^ESCTTA902909	Tagamet 100 tablets (Accura Health Ltd) 12 tablet
+^ESCTTA916604	Tagadine
+^ESCTTA916606	Tagamet
+^ESCTTA929576	Tagamet 400mg tablets (Dowelhurst Ltd)
+^ESCTTA929578	Tagamet 400mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTUL820449	Ultec 400mg tablets (Teva UK Ltd)
+^ESCTUL852615	Ultec 400mg tablets (Teva UK Ltd) 60 tablet
+^ESCTUL916912	Ultec
+^ESCTZI823112	Zita 400mg tablets (LPC Medical (UK) Ltd)
+^ESCTZI852618	Zita 400mg tablets (LPC Medical (UK) Ltd) 60 tablet
+^ESCTZI917406	Zita

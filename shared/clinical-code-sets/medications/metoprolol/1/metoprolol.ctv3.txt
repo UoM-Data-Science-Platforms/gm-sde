@@ -1,0 +1,39 @@
+bd6..	Metoprolol tartrate
+bd6w.	Metoprolol tartrate 100mg tablet
+bd6e.	Tensomex 100mg tablet
+bd6d.	Arbralene 100mg tablet
+bd68.	Mepranix 100mg tablet
+bd66.	Lopresor 100mg tablet
+bd62.	Betaloc 100mg tablet
+bd6x.	Metoprolol tartrate 50mg tablet
+bd6c.	Arbralene 50mg tablet
+bd67.	Mepranix 50mg tablet
+bd65.	Lopresor 50mg tablet
+bd61.	Betaloc 50mg tablet
+bd6y.	Metoprolol tartrate 5mg/5mL injection
+bd6a.	Lopresor 5mg/5mL injection
+bd63.	Betaloc 5mg/5mL injection
+bd6z.	Metoprolol tartrate 200mg m/r tablet
+bd6b.	Lopresor SR 200mg m/r tablet
+bd64.	Betaloc-SA 200mg Durule
+bdeA.	Metoprolol tartrate+hydrochlorothiazide 100mg/12.5mg tablet
+bde1.	Co-Betaloc tablet
+bdeB.	Metoprolol tartrate+hydrochlorothiazide 200mg/25mg m/r tablet
+bde2.	Co-Betaloc SA tablet
+bdeC.	Metoprolol tartrate+chlorthalidone 100mg/12.5mg tablet
+bde9.	Lopresoretic tablet
+bdh..	Metoprolol fumarate
+bdh1.	Metoprolol fumarate 190mg tablet
+bdh3.	Metoros 190mg tablet
+bdh2.	Metoprolol fumarate 95mg tablet
+bdh4.	Metoros 95mg tablet
+x007i	Metoprolol+diuretic
+x01C4	Metoprolol
+x05gS	Tensomex
+x02UG	Arbralene
+x02hu	Lopresor
+x02hv	Lopresor SR
+x02Va	Betaloc
+x02Vb	Betaloc-SA
+x02Xf	Co-Betaloc
+x02Xg	Co-Betaloc SA

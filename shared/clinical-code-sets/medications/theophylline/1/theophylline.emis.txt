@@ -1,0 +1,426 @@
+^ESCT1176215	Theophylline 50mg/5ml oral solution 500 ml
+^ESCT1176216	Theophylline 50mg/5ml oral solution (Drug Tariff Special Order) 500 ml
+^ESCT1176217	Theophylline 50mg/5ml oral suspension 1 ml
+^ESCT1176218	Theophylline 50mg/5ml oral suspension 500 ml
+^ESCT1176219	Theophylline 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1176220	Theophylline 50mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1176221	Theophylline 50mg/5ml oral suspension (Drug Tariff Special Order) 500 ml
+^ESCT1176246	Theophylline 60mg/5ml oral suspension 200 ml
+^ESCT1176247	Theophylline 60mg/5ml oral suspension (Special Order) 200 ml
+^ESCT1176669	Theophylline 50mg/5ml oral suspension
+^ESCT1177980	Product containing theophylline sodium glycinate
+^ESCT1178135	Product containing only ephedrine sulfate 15 mg and theophylline 120 mg/1 each oral tablet
+^ESCT1178341	Product containing only theophylline, anhydrous 400 mg/1 each oral capsule
+^ESCT1178405	Product containing only theophylline, anhydrous 125 mg/1 each oral capsule
+^ESCT1179268	Product containing only theophylline 100 mg/1 each oral tablet
+^ESCT1179282	Product containing only theophylline, anhydrous 200 mg/1 each oral tablet
+^ESCT1180996	Theophylline 50mg/5ml oral solution (Drug Tariff Special Order)
+^ESCT1180997	Theophylline 50mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCT1181048	Product containing only ephedrine hydrochloride 11 mg and theophylline 120 mg/1 each oral tablet
+^ESCT1181409	Product containing only theophylline, anhydrous 100 mg/1 each oral capsule
+^ESCT1181513	Product containing only theophylline 200 mg/1 each oral tablet
+^ESCT1181596	Product containing only theophylline, anhydrous 50 mg/1 each oral capsule
+^ESCT1181619	Product containing only theophylline 75 mg/1 each oral capsule
+^ESCT1181663	Product containing only theophylline, anhydrous 300 mg/1 each oral capsule
+^ESCT1181737	Product containing only theophylline, anhydrous 400 mg/1 each oral tablet
+^ESCT1182967	Ephedrine sulfate and hydroxyzine hydrochloride and theophylline
+^ESCT1182968	Product containing ephedrine sulfate and hydroxyzine hydrochloride and theophylline
+^ESCT1183231	Product containing only guaifenesin 183 mg and theophylline 305 mg/1 each oral capsule
+^ESCT1185383	Product containing only theophylline 300 mg/1 each oral tablet
+^ESCT1185395	Product containing only theophylline 250 mg/1 each oral tablet
+^ESCT1187258	Product containing only theophylline 125 mg/1 each oral tablet
+^ESCT1187486	Product containing only theophylline, anhydrous 200 mg/1 each oral capsule
+^ESCT1187556	Product containing only theophylline, anhydrous 75 mg/1 each oral capsule
+^ESCT1187686	Product containing potassium iodide and theophylline
+^ESCT1187687	Potassium iodide and theophylline
+^ESCT1188473	Product containing only theophylline, anhydrous 300 mg/1 each oral tablet
+^ESCT1188533	Product containing only guaifenesin 91.44 mg and theophylline 152.4 mg/1 each oral capsule
+^ESCT1203193	Theophylline 400 mg prolonged-release oral tablet
+^ESCT1203194	Product containing precisely theophylline 400 milligram/1 each prolonged-release oral tablet
+^ESCT1203386	Theophylline anhydrous 300mg prolonged-release oral tablet
+^ESCT1203406	Theophylline anhydrous 450mg prolonged-release oral tablet
+^ESCT1203458	Theophylline 175 mg prolonged-release oral tablet
+^ESCT1203459	Product containing precisely theophylline 175 milligram/1 each prolonged-release oral tablet
+^ESCT1203462	Theophylline 200 mg prolonged-release oral tablet
+^ESCT1203463	Product containing precisely theophylline 200 milligram/1 each prolonged-release oral tablet
+^ESCT1203493	Theophylline, anhydrous 100mg prolonged-release oral tablet
+^ESCT1203525	Theophylline 300 mg prolonged-release oral tablet
+^ESCT1203526	Product containing precisely theophylline 300 milligram/1 each prolonged-release oral tablet
+^ESCT1203527	Theophylline, anhydrous 600mg prolonged-release oral tablet
+^ESCT1203540	Theophylline 500mg prolonged-release oral tablet
+^ESCT1203541	Theophylline 250 mg prolonged-release oral tablet
+^ESCT1203542	Product containing precisely theophylline 250 milligram/1 each prolonged-release oral tablet
+^ESCT1203628	Theophylline 65mg prolonged-release oral capsule
+^ESCT1203654	Theophylline 300 mg prolonged-release oral capsule
+^ESCT1203655	Product containing precisely theophylline 300 milligram/1 each prolonged-release oral capsule
+^ESCT1203660	Theophylline 60 mg prolonged-release oral capsule
+^ESCT1203661	Product containing precisely theophylline 60 milligram/1 each prolonged-release oral capsule
+^ESCT1203662	Theophylline 100mg prolonged-release oral capsule
+^ESCT1203671	Theophylline 125 mg prolonged-release oral capsule
+^ESCT1203672	Product containing precisely theophylline 125 milligram/1 each prolonged-release oral capsule
+^ESCT1203714	Theophylline 260mg prolonged-release oral capsule
+^ESCT1203773	Theophylline 250 mg prolonged-release oral capsule
+^ESCT1203774	Product containing precisely theophylline 250 milligram/1 each prolonged-release oral capsule
+^ESCT1203806	Theophylline 130mg prolonged-release oral capsule
+^ESCT1203837	Theophylline 50mg prolonged-release oral capsule
+^ESCT1204551	Theophylline 10mg/5mL conventional release oral solution
+^ESCT1205568	Evacuated blood collection tube with citrate and theophylline and adenosine and dipyramidole
+^ESCT1205569	Vacuum blood collection tube with CTAD
+^ESCT1206805	Ephedrine and theophylline in oral dosage form
+^ESCT1206806	Product containing ephedrine and theophylline in oral dosage form
+^ESCT1207441	Guaifenesin and theophylline in oral dosage form
+^ESCT1207442	Product containing guaifenesin and theophylline in oral dosage form
+^ESCT1214680	Theophylline 300mg modified-release capsules
+^ESCT1214836	Theophylline 175mg modified-release tablets
+^ESCT1214837	Theophylline 200mg modified-release tablets
+^ESCT1214838	Theophylline 250mg modified-release tablets
+^ESCT1214839	Theophylline 250mg modified-release capsules
+^ESCT1214840	Theophylline 300mg modified-release tablets
+^ESCT1214841	Theophylline 400mg modified-release tablets
+^ESCT1214842	Theophylline 60mg modified-release capsules
+^ESCT1215079	Theophylline 125mg modified-release capsules
+^ESCT1219290	Theophylline
+^ESCT1219291	Theophylline product
+^ESCT1219724	Theophylline sodium glycinate
+^ESCT1219725	Theophylline sodium glycinate product
+^ESCT1223227	Product containing precisely theophylline 125 milligram/1 each conventional release oral tablet
+^ESCT1223228	Theophylline monohydrate (as theophylline sodium glycinate) 12 mg/mL oral solution
+^ESCT1223229	Product containing precisely theophylline monohydrate (as theophylline sodium glycinate) 12 milligram/1 milliliter conventional release oral solution
+^ESCT1223230	Product containing precisely ephedrine hydrochloride 11 milligram and theophylline 120 milligram/1 each conventional release oral tablet
+^ESCT1223231	Product containing precisely ephedrine sulfate 15 milligram and theophylline 120 milligram/1 each conventional release oral tablet
+^ESCT1227843	Theophylline, anhydrous 100 mg/1 each oral capsule
+^ESCT1227844	Theophylline anhydrous 100 mg oral capsule
+^ESCT1227845	Product containing precisely theophylline anhydrous 100 milligram/1 each conventional release oral capsule
+^ESCT1227848	Theophylline, anhydrous 200 mg/1 each oral capsule
+^ESCT1227849	Product containing precisely theophylline anhydrous 200 milligram/1 each conventional release oral capsule
+^ESCT1227850	Theophylline anhydrous 200 mg oral capsule
+^ESCT1227851	Theophylline, anhydrous 300 mg/1 each oral capsule
+^ESCT1227852	Theophylline anhydrous 300 mg oral capsule
+^ESCT1227853	Product containing precisely theophylline anhydrous 300 milligram/1 each conventional release oral capsule
+^ESCT1227854	Theophylline, anhydrous 400 mg/1 each oral capsule
+^ESCT1227855	Theophylline anhydrous 400 mg oral capsule
+^ESCT1227856	Product containing precisely theophylline anhydrous 400 milligram/1 each conventional release oral capsule
+^ESCT1228069	Theophylline, anhydrous 400 mg oral tablet
+^ESCT1228070	Theophylline anhydrous 400 mg oral tablet
+^ESCT1228071	Product containing precisely theophylline anhydrous 400 milligram/1 each conventional release oral tablet
+^ESCT1228072	Product containing precisely theophylline 200 milligram/1 each conventional release oral tablet
+^ESCT1228304	Theophylline, anhydrous 75 mg/1 each oral capsule
+^ESCT1228305	Product containing precisely theophylline anhydrous 75 milligram/1 each conventional release oral capsule
+^ESCT1228306	Theophylline anhydrous 75 mg oral capsule
+^ESCT1228307	Theophylline, anhydrous 50 mg/1 each oral capsule
+^ESCT1228308	Theophylline anhydrous 50 mg oral capsule
+^ESCT1228309	Product containing precisely theophylline anhydrous 50 milligram/1 each conventional release oral capsule
+^ESCT1228348	Theophylline, anhydrous 125 mg/1 each oral capsule
+^ESCT1228349	Product containing precisely theophylline anhydrous 125 milligram/1 each conventional release oral capsule
+^ESCT1228350	Theophylline anhydrous 125 mg oral capsule
+^ESCT1228500	Theophylline 75 mg/1 each oral capsule
+^ESCT1228501	Theophylline 75 mg oral capsule
+^ESCT1228502	Product containing precisely theophylline 75 milligram/1 each conventional release oral capsule
+^ESCT1228602	Product containing precisely theophylline 100 milligram/1 each conventional release oral tablet
+^ESCT1228662	Theophylline, anhydrous 300 mg oral tablet
+^ESCT1228663	Theophylline anhydrous 300 mg oral tablet
+^ESCT1228664	Product containing precisely theophylline anhydrous 300 milligram/1 each conventional release oral tablet
+^ESCT1228677	Theophylline, anhydrous 200 mg oral tablet
+^ESCT1228678	Theophylline anhydrous 200 mg oral tablet
+^ESCT1228679	Product containing precisely theophylline anhydrous 200 milligram/1 each conventional release oral tablet
+^ESCT1228707	Product containing precisely theophylline 300 milligram/1 each conventional release oral tablet
+^ESCT1228752	Product containing precisely theophylline 250 milligram/1 each conventional release oral tablet
+^ESCT1229145	Guaifenesin 183 mg and theophylline 305 mg/1 each oral capsule
+^ESCT1229146	Product containing precisely guaifenesin 183 milligram and theophylline 305 milligram/1 each conventional release oral capsule
+^ESCT1229147	Guaifenesin 183 mg and theophylline 305 mg oral capsule
+^ESCT1229148	Guaifenesin 91.44 mg and theophylline 152.4 mg/1 each oral capsule
+^ESCT1229149	Guaifenesin 91.44 mg and theophylline 152.4 mg oral capsule
+^ESCT1229150	Product containing precisely guaifenesin 91.44 milligram and theophylline 152.4 milligram/1 each conventional release oral capsule
+^ESCT1229793	Ephedrine and theophylline product
+^ESCT1229866	Potassium iodide and theophylline
+^ESCT1229867	Potassium iodide and theophylline product
+^ESCT1230023	Guaifenesin + theophylline
+^ESCT1230024	Guaifenesin and theophylline product
+^ESCT1268086	Nuelin SA 175mg tablets (Mylan)
+^ESCT1268105	Nuelin SA 250 tablets (Mylan)
+^ESCT1268180	Nuelin SA 175mg tablets (Mylan) 60 tablet
+^ESCT1268181	Nuelin SA 250 tablets (Mylan) 60 tablet
+^ESCT1270939	Nuelin SA 175mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1270941	Nuelin SA 175mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCT1270944	Nuelin SA 250 tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1270946	Nuelin SA 250 tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCT1354824	Ephedrine and theophylline only product
+^ESCT1355247	Guaifenesin and theophylline only product
+^ESCT1356466	Potassium iodide and theophylline only product
+^ESCT1356943	Theophylline only product
+^ESCT1358386	Ephedrine and theophylline only product in oral dose form
+^ESCT1358724	Guaifenesin and theophylline only product in oral dose form
+^ESCT1360018	Theophylline only product in oral dose form
+^ESCT1360019	Theophylline only product in parenteral dose form
+^ESCT1364177	Theophylline 5.33 mg/mL oral solution
+^ESCT1382128	Theophylline-containing product in oral dose form
+^ESCT1382290	Potassium iodide- and theophylline-containing product
+^ESCT1382332	Guaifenesin- and theophylline-containing product
+^ESCT1382634	Theophylline 10 mg/mL oral solution
+^ESCT1383749	Theophylline-containing product in parenteral dose form
+^ESCT1385922	Theophylline 2 mg/mL oral solution
+^ESCT1386449	Ephedrine- and theophylline-containing product in oral dose form
+^ESCT1386746	Guaifenesin- and theophylline-containing product in oral dose form
+^ESCT1436817	Nuelin SA 175mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436922	Nuelin SA 250 tablets (Viatris UK Healthcare Ltd)
+^ESCT1437427	Nuelin SA 175mg tablets (Viatris UK Healthcare Ltd) 60 tablet
+^ESCT1437428	Nuelin SA 250 tablets (Viatris UK Healthcare Ltd) 60 tablet
+^ESCTEP608601	Ephedrine hydrochloride 11 mg and theophylline 120 mg oral tablet
+^ESCTEP608604	Ephedrine sulfate 15 mg and theophylline 120 mg oral tablet
+^ESCTEP642206	Ephedrine sulfate+hydroxyzine hydrochloride+theophylline 6.25mg/2.5mg/32.5mg syrup
+^ESCTEP660964	Ephedrine + theophylline
+^ESCTEP661301	Ephedrine sulphate + hydroxyzine hydrochloride + theophylline
+^ESCTEP661302	Ephedrine sulfate + hydroxyzine hydrochloride + theophylline
+^ESCTFR863706	Franol tablets (Sanofi)
+^ESCTFR863708	Franol tablets (Sanofi) 90 tablet
+^ESCTFR864905	Franol Plus tablets (Sanofi)
+^ESCTFR864906	Franol Plus tablets (Sanofi) 90 tablet
+^ESCTFR918447	Franol
+^ESCTFR919431	Franol Plus
+^ESCTGU642372	Guaifenesin+theophylline 100mg/150mg liquid
+^ESCTGU642373	Guaifenesin+theophylline 100mg/80mg liquid
+^ESCTGU642374	Guaifenesin 183 mg and theophylline 305 mg/1 each oral capsule
+^ESCTGU642377	Guaifenesin+theophylline 90mg/150mg syrup
+^ESCTGU642378	Guaifenesin 91.44 mg and theophylline 152.4 mg/1 each oral capsule
+^ESCTGU642380	Guaifenesin+theophylline sodium glycinate 100mg/300mg elixir
+^ESCTGU642381	Guaifenesin + theophylline sodium glycinate 100mg/300mg elixir
+^ESCTGU642382	Guaifenesin+theophylline, anhydrous 90mg/150mg liquid
+^ESCTGU661500	Guaifenesin + theophylline
+^ESCTME618524	Mersalyl sodium 100mg/theophylline 50mg injection solution 1mL vial
+^ESCTME618525	Mersalyl sodium+theophylline 100mg/50mg/1mL injection
+^ESCTNU805259	Nuelin SA 175mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTNU815923	Nuelin 60mg/5ml liquid (3M Health Care Ltd)
+^ESCTNU817227	Nuelin SA 250 tablets (Meda Pharmaceuticals Ltd)
+^ESCTNU817895	Nuelin 125mg tablets (3M Health Care Ltd)
+^ESCTNU855409	Nuelin 125mg tablets (3M Health Care Ltd) 90 tablet
+^ESCTNU855410	Nuelin 60mg/5ml liquid (3M Health Care Ltd) 300 ml
+^ESCTNU855427	Nuelin SA 175mg tablets (Meda Pharmaceuticals Ltd) 60 tablet
+^ESCTNU855430	Nuelin SA 250 tablets (Meda Pharmaceuticals Ltd) 60 tablet
+^ESCTNU918363	Nuelin
+^ESCTNU919579	Nuelin SA
+^ESCTPO642532	Potassium iodide+theophylline, anhydrous 130mg/80mg elixir
+^ESCTPO661144	Potassium iodide + theophylline
+^ESCTPR358130	Product containing theophylline
+^ESCTPR608568	Product containing theophylline 125 mg/1 each oral tablet
+^ESCTPR608600	Product containing ephedrine hydrochloride 11 mg and theophylline 120 mg/1 each oral tablet
+^ESCTPR608603	Product containing ephedrine sulfate 15 mg and theophylline 120 mg/1 each oral tablet
+^ESCTPR639060	Product containing theophylline, anhydrous 100 mg/1 each oral capsule
+^ESCTPR639066	Product containing theophylline, anhydrous 200 mg/1 each oral capsule
+^ESCTPR639068	Product containing theophylline, anhydrous 300 mg/1 each oral capsule
+^ESCTPR639070	Product containing theophylline, anhydrous 400 mg/1 each oral capsule
+^ESCTPR639536	Product containing theophylline, anhydrous 400 mg/1 each oral tablet
+^ESCTPR639538	Product containing theophylline 200 mg/1 each oral tablet
+^ESCTPR640287	Product containing theophylline, anhydrous 75 mg/1 each oral capsule
+^ESCTPR640289	Product containing theophylline, anhydrous 50 mg/1 each oral capsule
+^ESCTPR640372	Product containing theophylline, anhydrous 125 mg/1 each oral capsule
+^ESCTPR640772	Product containing theophylline 75 mg/1 each oral capsule
+^ESCTPR641104	Product containing theophylline 100 mg/1 each oral tablet
+^ESCTPR641258	Product containing theophylline, anhydrous 300 mg/1 each oral tablet
+^ESCTPR641279	Product containing theophylline, anhydrous 200 mg/1 each oral tablet
+^ESCTPR641346	Product containing theophylline 300 mg/1 each oral tablet
+^ESCTPR641417	Product containing theophylline 250 mg/1 each oral tablet
+^ESCTPR642375	Product containing guaifenesin 183 mg and theophylline 305 mg/1 each oral capsule
+^ESCTPR642379	Product containing guaifenesin 91.44 mg and theophylline 152.4 mg/1 each oral capsule
+^ESCTPR647803	Product containing theophylline in oral dosage form
+^ESCTPR660965	Product containing ephedrine and theophylline
+^ESCTPR661501	Product containing guaifenesin and theophylline
+^ESCTPR711648	Product containing theophylline in parenteral dosage form
+^ESCTSL805173	Slo-Phyllin 125mg capsules (Merck Serono Ltd)
+^ESCTSL819896	Slo-Phyllin 250mg capsules (Merck Serono Ltd)
+^ESCTSL825065	Slo-Phyllin 60mg capsules (Merck Serono Ltd)
+^ESCTSL855401	Slo-Phyllin 250mg capsules (Merck Serono Ltd) 56 capsule 7 x 8 capsules
+^ESCTSL855402	Slo-Phyllin 250mg capsules (Merck Serono Ltd) 100 capsule
+^ESCTSL855404	Slo-Phyllin 125mg capsules (Merck Serono Ltd) 56 capsule 7 x 8 capsules
+^ESCTSL855407	Slo-Phyllin 60mg capsules (Merck Serono Ltd) 56 capsule 7 x 8 capsules
+^ESCTTH1059000	Theophylline 125mg/5ml oral suspension 1 ml
+^ESCTTH1059001	Theophylline 125mg/5ml oral suspension (Special Order)
+^ESCTTH1059002	Theophylline 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTH1059048	Theophylline 125mg/5ml oral suspension
+^ESCTTH1067123	Theophylline 5mg/5ml oral solution 1 ml
+^ESCTTH1067124	Theophylline 5mg/5ml oral solution (Special Order)
+^ESCTTH1067125	Theophylline 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTTH1067227	Theophylline 5mg/5ml oral solution
+^ESCTTH1067693	Theophylline 50mg/5ml oral solution 1 ml
+^ESCTTH1067694	Theophylline 50mg/5ml oral solution (Special Order)
+^ESCTTH1067695	Theophylline 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTTH1067760	Theophylline 50mg/5ml oral solution
+^ESCTTH1116173	Theo-24 300mg modified-release capsules (Imported (United States))
+^ESCTTH1116174	Theophylline 300mg modified-release capsules 100 capsule
+^ESCTTH1116175	Theo-24 300mg modified-release capsules (Imported (United States)) 100 capsule
+^ESCTTH1159896	Theophylline 75mg/5ml oral suspension 1 ml
+^ESCTTH1159897	Theophylline 75mg/5ml oral suspension (Special Order)
+^ESCTTH1159898	Theophylline 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTH1160192	Theophylline 75mg/5ml oral suspension
+^ESCTTH358129	Theophylline
+^ESCTTH373161	Theophylline sodium glycinate
+^ESCTTH608564	Theophylline 10mg/5mL s/f oral solution
+^ESCTTH608567	Theophylline 125mg tablets
+^ESCTTH608569	Theophylline 125 mg oral tablet
+^ESCTTH608570	Theophylline 60mg/5ml oral solution
+^ESCTTH608571	Theophylline 60mg/5mL liquid
+^ESCTTH608572	Theophylline 175mg modified-release tablets
+^ESCTTH608573	Theophylline 175mg m/r tablet
+^ESCTTH608574	Theophylline 250mg modified-release tablets
+^ESCTTH608575	Theophylline 250mg m/r tablet
+^ESCTTH608576	Theophylline 60mg modified-release capsules
+^ESCTTH608577	Theophylline 60mg m/r capsule
+^ESCTTH608578	Theophylline 125mg modified-release capsules
+^ESCTTH608579	Theophylline 125mg m/r capsule
+^ESCTTH608580	Theophylline 250mg modified-release capsules
+^ESCTTH608581	Theophylline 250mg m/r capsule
+^ESCTTH608582	Theophylline 200mg modified-release tablets
+^ESCTTH608583	Theophylline 200mg m/r tablet
+^ESCTTH608584	Theophylline 300mg modified-release tablets
+^ESCTTH608585	Theophylline 300mg m/r tablet
+^ESCTTH608586	Theophylline 400mg modified-release tablets
+^ESCTTH608587	Theophylline 400mg m/r tablet
+^ESCTTH608599	Theophylline 120mg / Ephedrine hydrochloride 11mg tablets
+^ESCTTH608602	Theophylline 120mg / Ephedrine sulfate 15mg tablets
+^ESCTTH608605	Theophylline 120mg / Ephedrine sulphate 15mg tablets
+^ESCTTH639059	Theophylline, anhydrous 100 mg/1 each oral capsule
+^ESCTTH639065	Theophylline, anhydrous 200 mg/1 each oral capsule
+^ESCTTH639067	Theophylline, anhydrous 300 mg/1 each oral capsule
+^ESCTTH639069	Theophylline, anhydrous 400 mg/1 each oral capsule
+^ESCTTH639120	Theophylline 80mg/15mL elixir
+^ESCTTH639535	Theophylline, anhydrous 400 mg oral tablet
+^ESCTTH639537	Theophylline 200 mg oral tablet
+^ESCTTH640286	Theophylline, anhydrous 75 mg/1 each oral capsule
+^ESCTTH640288	Theophylline, anhydrous 50 mg/1 each oral capsule
+^ESCTTH640371	Theophylline, anhydrous 125 mg/1 each oral capsule
+^ESCTTH640536	Theophylline 100mg m/r capsule
+^ESCTTH640559	Theophylline anhydrous 450mg m/r tablet
+^ESCTTH640771	Theophylline 75 mg/1 each oral capsule
+^ESCTTH641102	Theophylline anhydrous 300mg m/r tablet
+^ESCTTH641103	Theophylline 100 mg oral tablet
+^ESCTTH641117	Theophylline, anhydrous 80mg/15mL syrup
+^ESCTTH641257	Theophylline, anhydrous 300 mg oral tablet
+^ESCTTH641278	Theophylline, anhydrous 200 mg oral tablet
+^ESCTTH641345	Theophylline 300 mg oral tablet
+^ESCTTH641415	Theophylline 500mg m/r tablet
+^ESCTTH641416	Theophylline 250 mg oral tablet
+^ESCTTH645040	Theophylline, anhydrous 100mg m/r tablet
+^ESCTTH645090	Theophylline 300mg modified-release capsules
+^ESCTTH645091	Theophylline 300mg m/r capsule
+^ESCTTH645092	Theophylline 300mg modified-release capsule
+^ESCTTH645093	Theophylline 50mg m/r capsule
+^ESCTTH645094	Theophylline, anhydrous 600mg m/r tablet
+^ESCTTH647801	Theophylline m/r
+^ESCTTH647802	Theophylline in oral dosage form
+^ESCTTH660963	Theophylline + Ephedrine
+^ESCTTH680712	Theophylline 150mg/15mL oral solution
+^ESCTTH680713	Theophylline 10mg/mL oral solution
+^ESCTTH680714	Theophylline 65mg m/r capsule
+^ESCTTH680715	Theophylline 130mg m/r capsule
+^ESCTTH680716	Theophylline 260mg m/r capsule
+^ESCTTH711647	Theophylline in parenteral dosage form
+^ESCTTH809291	Theo-Dur 200mg tablets (AstraZeneca UK Ltd)
+^ESCTTH822777	Theo-Dur 300mg tablets (AstraZeneca UK Ltd)
+^ESCTTH834348	Theophylline 200mg modified-release tablets 56 tablet
+^ESCTTH835899	Theophylline 250mg modified-release tablets 60 tablet
+^ESCTTH836497	Theophylline 60mg/5ml oral solution 300 ml
+^ESCTTH838195	Theophylline 250mg modified-release capsules 100 capsule
+^ESCTTH839689	Theophylline 300mg modified-release tablets 56 tablet
+^ESCTTH842601	Theophylline 125mg tablets 90 tablet
+^ESCTTH846894	Theophylline 125mg modified-release capsules 56 capsule
+^ESCTTH847194	Theophylline 175mg modified-release tablets 60 tablet
+^ESCTTH847542	Theophylline 200mg modified-release tablets 100 tablet
+^ESCTTH848168	Theophylline 300mg modified-release tablets 100 tablet
+^ESCTTH848247	Theophylline 250mg modified-release capsules 56 capsule
+^ESCTTH848719	Theophylline 60mg modified-release capsules 56 capsule
+^ESCTTH855419	Theo-Dur 200mg tablets (AstraZeneca UK Ltd) 100 tablet
+^ESCTTH855433	Theo-Dur 300mg tablets (AstraZeneca UK Ltd) 100 tablet
+^ESCTTH857797	Theophylline 400mg modified-release tablets 56 tablet
+^ESCTTH863704	Theophylline 120mg / Ephedrine hydrochloride 11mg tablets 90 tablet
+^ESCTTH864902	Theophylline 120mg / Ephedrine sulfate 15mg tablets 90 tablet
+^ESCTTH908865	Theophylline 10mg/5ml oral solution 1 ml
+^ESCTTH908866	Theophylline 10mg/5ml oral solution (Special Order)
+^ESCTTH908867	Theophylline 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTTH908870	Theophylline 10mg/5ml oral suspension 1 ml
+^ESCTTH908871	Theophylline 10mg/5ml oral suspension (Special Order)
+^ESCTTH908872	Theophylline 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTH909027	Theophylline 10mg/5ml oral suspension
+^ESCTTH909028	Theophylline 10mg/5ml oral solution
+^ESCTTH975535	Theophylline 60mg/5ml oral solution 1 ml
+^ESCTTH975536	Theophylline 60mg/5ml oral solution (Special Order)
+^ESCTTH975537	Theophylline 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTTH975538	Theophylline 60mg/5ml oral suspension 1 ml
+^ESCTTH975539	Theophylline 60mg/5ml oral suspension (Special Order)
+^ESCTTH975540	Theophylline 60mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTH975606	Theophylline 60mg/5ml oral suspension
+^ESCTTH979053	Theophylline 250mg/5ml oral solution 1 ml
+^ESCTTH979054	Theophylline 250mg/5ml oral solution (Special Order)
+^ESCTTH979055	Theophylline 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTTH979056	Theophylline 250mg/5ml oral suspension 1 ml
+^ESCTTH979057	Theophylline 250mg/5ml oral suspension (Special Order)
+^ESCTTH979058	Theophylline 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTH979622	Theophylline 250mg/5ml oral solution
+^ESCTTH979623	Theophylline 250mg/5ml oral suspension
+^ESCTTH984287	Theophylline 300mg suppositories 1 suppository
+^ESCTTH984288	Theophylline 300mg suppositories (Special Order)
+^ESCTTH984289	Theophylline 300mg suppositories (Special Order) 1 suppository
+^ESCTTH985113	Theophylline 300mg suppositories
+^ESCTTH987768	Theophylline 120mg/5ml oral solution 1 ml
+^ESCTTH987769	Theophylline 120mg/5ml oral solution (Special Order)
+^ESCTTH987771	Theophylline 120mg/5ml oral solution (Special Order) 1 ml
+^ESCTTH987774	Theophylline 120mg/5ml oral suspension 1 ml
+^ESCTTH987775	Theophylline 120mg/5ml oral suspension (Special Order)
+^ESCTTH987776	Theophylline 120mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTH987780	Theophylline 175mg/5ml oral suspension 1 ml
+^ESCTTH987781	Theophylline 175mg/5ml oral suspension (Special Order)
+^ESCTTH987782	Theophylline 175mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTH987785	Theophylline 175mg/5ml oral solution 1 ml
+^ESCTTH987786	Theophylline 175mg/5ml oral solution (Special Order)
+^ESCTTH987788	Theophylline 175mg/5ml oral solution (Special Order) 1 ml
+^ESCTTH988084	Theophylline 120mg/5ml oral solution
+^ESCTTH988085	Theophylline 120mg/5ml oral suspension
+^ESCTTH988086	Theophylline 175mg/5ml oral solution
+^ESCTTH988087	Theophylline 175mg/5ml oral suspension
+^ESCTUN817086	Uniphyllin Continus 200mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTUN855421	Uniphyllin Continus 200mg tablets (Napp Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTUN857794	Uniphyllin Continus 300mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTUN857796	Uniphyllin Continus 300mg tablets (Napp Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTUN857798	Uniphyllin Continus 400mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTUN857802	Uniphyllin Continus 400mg tablets (Napp Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTUN916935	Uniphyllin Continus
+BISY368	Biophylline  Syrup  125 mg/5 ml
+FRTA3607	Franol  Tablets  
+FRTA3608	Franol Plus  Tablets  
+LAIN5744	Labophylline  Injection  
+LATA1632	Lasma  Tablets  300 mg
+NULI2041	Nuelin  Liquid  60 mg/5 ml
+NUTA2042	Nuelin  Tablets  125 mg
+NUTA2043	Nuelin Sa  M/R tablets  175 mg
+NUTA5746	Nuelin Sa 250  M/R tablets  250 mg
+PRCA2350	Pro-Vent  Capsules  300 mg
+SLCA2582	Slo-Phyllin  Capsules  125 mg
+SLCA2583	Slo-Phyllin  Capsules  250 mg
+SLCA2584	Slo-Phyllin  Capsules  60 mg
+THCA2840	Theophylline S/R  Capsules  125 mg
+THCA2841	Theophylline S/R  Capsules  250 mg
+THCA2842	Theophylline S/R  Capsules  60 mg
+THCA5427	Theophylline  Capsules  300 mg
+THCA9093HILLI	Theophylline S/R  Capsules  300 mg
+THIN9944HILLI	Theophylline  Injection  20 mg/ml
+THLI2839	Theophylline Hydrate  Liquid  60 mg/5 ml
+THOR125570NEMIS	Theophylline  Oral suspension  50 mg/5 ml
+THOR89791NEMIS	Theophylline  Oral solution  50 mg/5 ml
+THPA5428	Theophylline  Paediatric tablets  200 mg
+THSY5434	Theophylline Hydrate  Syrup  125 mg/5 ml
+THTA27278EMIS	Theophylline S/R  Tablets  200 mg
+THTA2834	Theo-Dur  Tablets  200 mg
+THTA2835	Theo-Dur  Tablets  300 mg
+THTA2837	Theograd  Tablets  350 mg
+THTA2843	Theophylline S/R  Tablets  175 mg
+THTA5429	Theophylline  Tablets  125 mg
+THTA5430	Theophylline  Tablets  200 mg
+THTA5431	Theophylline  Tablets  300 mg
+THTA5432	Theophylline  Tablets  350 mg
+THTA5433	Theophylline  Tablets  400 mg
+THTA7015	Theophylline  Tablets  250 mg
+THTA765NEMIS	Theophylline S/R  Tablets  250 mg
+THTA9047BRIDL	Theophylline Sr  Tablets  400 mg
+THTA9094HILLI	Theophylline S/R  Tablets  300 mg
+THTA9552EMIS	Theophylline S/R  Tablets  500 mg
+UNPA2985	Uniphyllin Continus  M/R tablets  200 mg
+UNTA10133BRIDL	Uniphyllin Continus  M/R tablets  300 mg
+UNTA2986	Uniphyllin Continus  M/R tablets  400 mg

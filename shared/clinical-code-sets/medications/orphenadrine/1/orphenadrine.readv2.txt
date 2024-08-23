@@ -1,0 +1,13 @@
+dr2..00	ORPHENADRINE HYDROCHLORIDE
+dr2z.00	ORPHENADRINE 40mg/2mL injection
+dr2y.00	ORPHENADRINE 50mg tablets
+dr2x.00	ORPHENADRINE 25mg/5mL oral solution
+dr2w.00	ORPHENADRINE 50mg/5mL syrup
+dr23.00	*DISIPAL 40mg/2mL injection
+dr22.00	DISIPAL 50mg tablets
+dr21.00	BIORPHEN 25mg/5mL oral solution
+j86..00	ORPHENADRINE CITRATE
+j86z.00	ORPHENADRINE 60mg/2mL injection
+j86y.00	*ORPHENADRINE 100mg tablets
+j862.00	*NORFLEX 60mg/2mL injection
+j861.00	*NORFLEX 100mg tablets

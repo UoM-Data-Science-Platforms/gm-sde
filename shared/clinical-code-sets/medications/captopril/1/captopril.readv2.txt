@@ -1,0 +1,47 @@
+bi1..00	CAPTOPRIL
+bi1z.00	CAPTOPRIL 50mg tablets
+bi1y.00	CAPTOPRIL 50mg tablets x56
+bi1x.00	CAPTOPRIL 25mg tablets x56
+bi1w.00	CAPTOPRIL 25mg tablets
+bi1v.00	CAPTOPRIL 12.5mg tablets
+bi1s.00	CAPOZIDE 50mg/25mg tablets
+bi1r.00	*TENSOPRIL 50mg tablets
+bi1q.00	*TENSOPRIL 25mg tablets
+bi1p.00	*TENSOPRIL 12.5mg tablets
+bi1o.00	*HYTENEZE 50 tablets
+bi1n.00	*HYTENEZE 25 tablets
+bi1m.00	*HYTENEZE 12.5 tablets
+bi1l.00	*KAPLON 50mg tablets
+bi1k.00	*KAPLON 25mg tablets
+bi1j.00	*KAPLON 12.5mg tablets
+bi1i.00	ECOPACE 50mg tablets
+bi1h.00	ECOPACE 25mg tablets
+bi1g.00	ECOPACE 12.5mg tablets
+bi1f.11	CO-ZIDOCAPT 50mg/25mg tablets
+bi1f.00	CAPTOPRIL+HYDROCHLOROTHIAZIDE 50mg/25mg tablets
+bi1e.11	CO-ZIDOCAPT 25mg/12.5mg tablets
+bi1e.00	CAPTOPRIL+HYDROCHLOROTHIAZIDE 25mg/12.5mg tablets
+bi1d.00	*CAPOZIDE LS 25mg tabletsx28CP
+bi1c.00	*CAPOZIDE 50mg tablets x28
+bi1b.00	ACEZIDE 50mg tablets x56
+bi1a.00	CAPOTEN 50mg tablets x56
+bi1K.00	CAPTOPRIL 25mg/5mL oral solution
+bi1J.00	NOYADA 25mg/5mL oral solution
+bi1I.00	CAPTOPRIL 5mg/5mL oral solution
+bi1H.00	NOYADA 5mg/5mL oral solution
+bi1G.00	*CO-ZIDOCAPT 50mg/25mg tablets
+bi1F.00	CO-ZIDOCAPT 25mg/12.5mg tablet
+bi1E.00	*CAPTO-CO 50mg/25mg tablets
+bi1D.00	*CAPTO-CO 25mg/12.5mg tablets
+bi1C.00	*HYPAPRIL 50mg tablets
+bi1B.00	*HYPAPRIL 25mg tablets
+bi1A.00	*HYPAPRIL 12.5mg tablets
+bi19.00	CAPOTEN 50mg tablets
+bi18.00	CAPOTEN 25mg tablets x56
+bi17.00	CAPOTEN 25mg tablets
+bi16.00	*CAPOTEN 12.5mg tablets
+bi15.00	ACEPRIL 50mg tablets x56
+bi14.00	ACEPRIL 50mg tablets
+bi13.00	ACEPRIL 25mg tablets x56
+bi12.00	ACEPRIL 25mg tablets
+bi11.00	ACEPRIL 12.5mg tablets

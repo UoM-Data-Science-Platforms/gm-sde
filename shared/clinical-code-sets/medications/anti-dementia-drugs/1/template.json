@@ -1,0 +1,8 @@
+{
+  "code-sets": [
+    { "name": "donepezil", "version": "1" },
+    { "name": "galantamine", "version": "1" },
+    { "name": "rivastigmine", "version": "1" },
+    { "name": "memantine", "version": "1" }
+  ]
+}

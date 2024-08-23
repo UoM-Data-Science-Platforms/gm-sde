@@ -1,0 +1,28 @@
+bd6..00	METOPROLOL TARTRATE
+bd6z.00	METOPROLOL 200mg m/r tablets
+bd6y.00	METOPROLOL 5mg/5mL injection
+bd6x.00	METOPROLOL 50mg tablets
+bd6w.00	METOPROLOL 100mg tablets
+bd6e.00	*TENSOMEX 100mg tablets
+bd6d.00	*ARBRALENE 100mg tablets
+bd6c.00	*ARBRALENE 50mg tablets
+bd6b.00	LOPRESOR SR 200mg m/r tablets
+bd6a.00	*LOPRESOR 5mg/5mL injection
+bd68.00	*MEPRANIX 100mg tablets
+bd67.00	*MEPRANIX 50mg tablets
+bd66.00	LOPRESOR 100mg tablets
+bd65.00	LOPRESOR 50mg tablets
+bd64.00	BETALOC-SA DURULES 200mg m/r tablets
+bd63.00	BETALOC 5mg/5mL injection
+bd62.00	*BETALOC 100mg tablets
+bd61.00	*BETALOC 50mg tablets
+bdeA.00	METOPROLOL TART+HYDROCHLOROTHIAZIDE 100mg/12.5mg tablets
+bdeB.00	METOPROLOL TART+HYDROCHLOROTHIAZIDE 200mg/25mg m/r tablets
+bdeC.00	METOPROLOL TART+CHLORTHALIDONE 100mg/12.5mg tablets
+bdh..00	*METOPROLOL FUMARATE
+bdh4.00	*METOROS 95mg tablets
+bdh3.00	*METOROS 190mg tablets
+bdh2.00	METOPROLOL FUMARATE 95mg tablets
+bdh1.00	METOPROLOL FUMARATE 190mg tablets
+bde1.00	*CO-BETALOC tablets
+bde2.00	*CO-BETALOC SA m/r tablets

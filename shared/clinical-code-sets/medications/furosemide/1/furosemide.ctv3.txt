@@ -1,0 +1,71 @@
+b31..	Furosemide
+x01Qp	Parenteral furosemide
+b31z.	Frusemide 250mg/25mL injection
+b31n.	Lasix 250mg/25mL injection
+b31e.	Dryptal 250mg/25mL injection
+b31y.	Frusemide 20mg/2mL injection
+b31l.	Lasix 20mg/2mL injection
+b31c.	Dryptal 20mg/2mL injection
+b318.	Diuresal 20mg/2mL injection
+b31u.	Frusemide 50mg/5mL injection
+b31m.	Lasix 50mg/5mL injection
+b31d.	Dryptal 50mg/5mL injection
+b319.	Diuresal 50mg/5mL injection
+b31D.	Frusemide 250mg/25mL prefilled syringe
+b31A.	Min-I-Jet Frusemide 250mg/25mL prefilled syringe
+b31C.	Frusemide 80mg/8mL prefilled syringe
+b31B.	Min-I-Jet Frusemide 80mg/8mL prefilled syringe
+x01Qo	Oral furosemide
+b31x.	Frusemide 1mg/mL oral solution
+b31k.	Lasix 1mg/mL paediatric liquid
+b31t.	Frusemide 50mg/5mL s/f oral solution
+b31H.	Frusol 50mg/5mL s/f oral solution
+b31s.	Frusemide 40mg/5mL s/f oral solution
+b31G.	Frusol 40mg/5mL s/f oral solution
+b31r.	Frusemide 20mg/5mL s/f oral solution
+b31F.	Frusol 20mg/5mL s/f oral solution
+b313.	Frusemide 500mg tablet
+b31j.	Lasix 500mg tablet
+b31b.	Dryptal 500mg tablet
+b316.	Aluzine 500mg tablet
+b312.	Frusemide 40mg tablet
+b31q.	Rusyde 40mg tablet
+b31o.	Frumax 40mg tablet
+b31i.	Lasix 40mg tablet
+b31g.	Frusid 40mg tablet
+b31f.	Frusetic 40mg tablet
+b31a.	Dryptal 40mg tablet
+b31E.	Froop 40mg tablet
+b317.	Diuresal 40mg tablet
+b315.	Aluzine 40mg tablet
+b311.	Frusemide 20mg tablet
+b31p.	Rusyde 20mg tablet
+b31h.	Lasix 20mg tablet
+b314.	Aluzine 20mg tablet
+b51H.	Triamterene+frusemide 50mg/40mg tablet
+b517.	Frusene tablet
+b51n.	Frusene tablets 56CP
+b51J.	Spironolactone+frusemide 50mg/20mg capsule
+b519.	Lasilactone capsule
+b91d.	Frusemide+potassium 40mg/8mmol m/r tablet
+b914.	Diumide-K Continus m/r tablet
+b91f.	Frusemide+potassium 20mg/10mmol m/r tablet
+b917.	Lasikal m/r tablet
+b91g.	Frusemide tablet+potassium m/r tablet 40mg/10mmol pack
+x00fV	Lasix+K tablet combination pack
+b918.	Lasix+K tablets 30day-CP combination pack
+bdeF.	Penbutolol sulphate+frusemide 40mg/20mg tablet
+bde8.	Lasipressin tablet
+x02jN	Min-I-Jet Frusemide
+x02qC	Rusyde
+x02h8	Lasix
+x03sd	Lasix+K
+x02dS	Frusid
+b51S.	Froop Co 5mg/40mg tablet
+x02dN	Froop
+x04rj	Froop Co
+x04vQ	Frusol
+x02aa	Dryptal
+x02S3	Lasilactone
+x03zy	Frusene
+x02h7	Lasikal

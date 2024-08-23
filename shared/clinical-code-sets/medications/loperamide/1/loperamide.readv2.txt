@@ -1,0 +1,26 @@
+a83..00	LOPERAMIDE HYDROCHLORIDE
+a83z.00	LOPERAMIDE HYDROCHLORIDE 1mg/5mL sugar free syrup
+a83y.00	LOPERAMIDE HYDROCHLORIDE 2mg capsules
+a83x.00	LOPERAMIDE HYDROCHLORIDE 2mg tablets
+a83w.00	LOPERAMIDE HYDROCHLORIDE 2mg oro-dispersible tablets
+a83E.00	IMODIUM INSTANT MELTS 2mg oro-dispersible tablets
+a83D.00	IMODIUM INSTANTS 2mg oro-dispersible tablets
+a83C.00	DIAQUITTE 2mg capsules
+a83B.00	ENTROCALM 2mg capsules
+a83A.00	*DIASORB 2mg capsules
+a839.00	*LODIAR 2mg capsules
+a838.11	IMODIUM 0.2mg/mL sugar free liquid
+a838.00	IMODIUM 1mg/5mL sugar free liquid
+a837.11	LOPERAMIDE HYDROCHLORIDE 0.2mg/mL sugar free liquid
+a837.00	LOPERAMIDE HYDROCHLORIDE 1mg/5mL sugar free liquid
+a836.00	NORMALOE 2mg tablets
+a835.00	NORIMODE 2mg tablets
+a834.00	*DIOCAPS 2mg capsules
+a833.00	*LOPERAGEN capsules
+a832.00	IMODIUM 1mg/5mL sugar free syrup
+a831.00	IMODIUM 2mg capsules
+a85..00	LOPERAMIDE HYDROCHLORIDE+SIMETHICONE
+a854.00	IMODIUM PLUS 2mg/125mg caplets
+a853.00	LOPERAMIDE HYDROCHLORIDE 2mg / SIMETHICONE 125mg tablets
+a852.00	IMODIUM PLUS 2mg/125mg chewable tablets
+a851.00	LOPERAMIDE HYDROCHLORIDE+SIMETHICONE 2mg/125mg chewable tablets

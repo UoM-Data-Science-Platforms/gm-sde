@@ -1,0 +1,358 @@
+^ESCT1178353	Product containing only dipyridamole 50 mg/1 each oral tablet
+^ESCT1178354	Product containing only dipyridamole 75 mg/1 each oral tablet
+^ESCT1179493	Dipyridamole 100mg tablets (Mylan) 84 tablet 6 x 14 tablets
+^ESCT1184005	Quality and Outcomes Framework general practice extraction - dipyridamole medication prescribable within general practice simple reference set
+^ESCT1187236	Product containing only dipyridamole 25 mg/1 each oral tablet
+^ESCT1187237	Product containing only dipyridamole 100 mg/1 each oral tablet
+^ESCT1187238	Aspirin and dipyridamole
+^ESCT1187239	Product containing aspirin and dipyridamole
+^ESCT1189493	Dipyridamole 100mg tablets (Mylan)
+^ESCT1203657	Dipyridamole 200 mg prolonged-release oral capsule
+^ESCT1203658	Product containing precisely dipyridamole 200 milligram/1 each prolonged-release oral capsule
+^ESCT1203858	Aspirin 25 mg and dipyridamole 200 mg prolonged-release oral capsule
+^ESCT1203859	Product containing precisely aspirin 25 milligram and dipyridamole 200 milligram/1 each prolonged-release oral capsule
+^ESCT1206025	Aspirin and dipyridamole in oral dosage form
+^ESCT1206026	Product containing aspirin and dipyridamole in oral dosage form
+^ESCT1206354	Dipyridamole in oral dosage form
+^ESCT1206355	Product containing dipyridamole in oral dosage form
+^ESCT1209258	Dipyridamole 10 mg/2 mL solution for injection ampoule
+^ESCT1209259	Product containing precisely dipyridamole 10 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1209260	Dipyridamole 10 mg/2 mL solution for injection ampule
+^ESCT1212311	Dipyridamole 200mg modified-release capsules
+^ESCT1215787	Dipyridamole 10mg/2ml solution for injection ampoules
+^ESCT1215788	Dipyridamole 200mg modified-release / Aspirin 25mg capsules
+^ESCT1215789	Dipyridamole 50mg/5ml oral suspension sugar free
+^ESCT1216182	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd) 60 capsule
+^ESCT1219308	Dipyridamole
+^ESCT1219309	Dipyridamole product
+^ESCT1223135	Product containing precisely dipyridamole 25 milligram/1 each conventional release oral tablet
+^ESCT1223136	Product containing precisely dipyridamole 100 milligram/1 each conventional release oral tablet
+^ESCT1223140	Aspirin and dipyridamole product
+^ESCT1227956	Product containing precisely dipyridamole 50 milligram/1 each conventional release oral tablet
+^ESCT1227957	Product containing precisely dipyridamole 75 milligram/1 each conventional release oral tablet
+^ESCT1230407	Dipyridamole 50mg/5mL oral suspension
+^ESCT1230408	Product containing precisely dipyridamole 10 milligram/1 milliliter conventional release oral suspension
+^ESCT1230409	Dipyridamole 10 mg/mL oral suspension
+^ESCT1237384	QOF (Quality and Outcomes Framework) general practice extraction - dipyridamole medication prescribable within general practice simple reference set
+^ESCT1250760	Ofcram PR 200mg capsules (Advanz Pharma)
+^ESCT1250761	Ofcram PR 200mg capsules (Advanz Pharma) 60 capsule
+^ESCT1351360	Dipyridamole-containing product in parenteral dose form
+^ESCT1353581	Aspirin and dipyridamole only product
+^ESCT1354679	Dipyridamole only product
+^ESCT1357541	Aspirin and dipyridamole only product in oral dose form
+^ESCT1358290	Dipyridamole only product in oral dose form
+^ESCT1358291	Dipyridamole only product in parenteral dose form
+^ESCT1360999	Dipyridamole 5 mg/mL solution for injection
+^ESCT1375499	Dipyridamole 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375500	Dipyridamole 100mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1375501	Dipyridamole 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375502	Dipyridamole 25mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1386090	Aspirin- and dipyridamole-containing product in oral dose form
+^ESCT1386235	Dipyridamole-containing product in oral dose form
+^ESCT1402054	Dipyridamole 200mg modified-release capsules
+^ESCT1409546	Dipyridamole 25mg tablets (Accord Healthcare Ltd)
+^ESCT1409748	Dipyridamole 100mg tablets (Accord Healthcare Ltd)
+^ESCT1409801	Dipyridamole 100mg tablets (Accord Healthcare Ltd) 84 tablet
+^ESCT1409807	Dipyridamole 25mg tablets (Accord Healthcare Ltd) 84 tablet
+^ESCT1425694	Dipyridamole 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425779	Dipyridamole 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425954	Dipyridamole 100mg tablets (Kent Pharma (UK) Ltd) 84 tablet
+^ESCT1425955	Dipyridamole 100mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1425977	Dipyridamole 25mg tablets (Kent Pharma (UK) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1425978	Dipyridamole 25mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1435538	Dipyridamole 200mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCT1435539	Dipyridamole 200mg/5ml oral suspension sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1437021	Dipyridamole 100mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437135	Dipyridamole 100mg tablets (Viatris UK Healthcare Ltd) 84 tablet 6 x 14 tablets
+^ESCTAS1014725	Asasantin Retard capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTAS1014726	Asasantin Retard capsules (Mawdsley-Brooks & Company Ltd) 60 capsule
+^ESCTAS608120	Aspirin + Dipyridamole
+^ESCTAS860837	Asasantin Retard capsules (Boehringer Ingelheim Ltd)
+^ESCTAS860848	Asasantin Retard capsules (Boehringer Ingelheim Ltd) 60 capsule
+^ESCTAS877577	Asasantin Retard capsules (Waymade Healthcare Plc)
+^ESCTAS877600	Asasantin Retard capsules (Waymade Healthcare Plc) 60 capsule
+^ESCTAS880016	Asasantin Retard capsules (Dowelhurst Ltd)
+^ESCTAS880017	Asasantin Retard capsules (Dowelhurst Ltd) 60 capsule
+^ESCTAS913952	Asasantin Retard
+^ESCTAT1066296	Attia 200mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAT1066297	Attia 200mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd) 60 capsule
+^ESCTAT1162252	Atransipar 200mg/25mg modified-release capsules (Par Laboratories Europe Ltd)
+^ESCTAT1162253	Atransipar 200mg/25mg modified-release capsules (Par Laboratories Europe Ltd) 60 capsule
+^ESCTAT946152	Attia
+^ESCTAT958530	Atransipar
+^ESCTDI1005651	Dipyridamole 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1005652	Dipyridamole 25mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTDI1005653	Dipyridamole 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1005654	Dipyridamole 100mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTDI1006385	Dipyridamole 100mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI1006388	Dipyridamole 100mg tablets (Almus Pharmaceuticals Ltd) 84 tablet
+^ESCTDI1021432	Dipyridamole 100mg/5ml oral suspension 150 ml
+^ESCTDI1021434	Dipyridamole 100mg/5ml oral suspension (Special Order) 150 ml
+^ESCTDI1029246	Dipyridamole 25mg/5ml oral suspension 100 ml
+^ESCTDI1029247	Dipyridamole 25mg/5ml oral suspension (Special Order) 100 ml
+^ESCTDI1042821	Dipyridamole 25mg tablets (Waymade Healthcare Plc)
+^ESCTDI1042822	Dipyridamole 25mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTDI1042823	Dipyridamole 100mg tablets (Waymade Healthcare Plc)
+^ESCTDI1042824	Dipyridamole 100mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTDI1047131	Dipyridamole 50mg/5ml oral suspension sugar free (Waymade Healthcare Plc)
+^ESCTDI1047132	Dipyridamole 50mg/5ml oral suspension sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTDI1055018	Dipyridamole 200mg modified-release / Aspirin 25mg capsules 100 capsule
+^ESCTDI1061015	Dipyridamole 100mg tablets (DE Pharmaceuticals)
+^ESCTDI1061016	Dipyridamole 100mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCTDI1061018	Dipyridamole 25mg tablets (DE Pharmaceuticals)
+^ESCTDI1061020	Dipyridamole 25mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCTDI1061886	Dipyridamole 50mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCTDI1061887	Dipyridamole 50mg/5ml oral suspension sugar free (DE Pharmaceuticals) 150 ml
+^ESCTDI1066282	Dipyridamole 200mg/5ml oral suspension 100 ml
+^ESCTDI1066283	Dipyridamole 200mg/5ml oral suspension (Special Order) 100 ml
+^ESCTDI1067976	Dipyridamole 200mg modified-release capsules (A A H Pharmaceuticals Ltd)
+^ESCTDI1067977	Dipyridamole 200mg modified-release capsules (A A H Pharmaceuticals Ltd) 60 capsule
+^ESCTDI1100041	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTDI1100042	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (A A H Pharmaceuticals Ltd) 100 capsule 2 x 50 capsules
+^ESCTDI1116015	Dipyridamole 50mg/5ml oral suspension sugar free (Pinewood Healthcare)
+^ESCTDI1116016	Dipyridamole 50mg/5ml oral suspension sugar free (Pinewood Healthcare) 150 ml
+^ESCTDI1117425	Dipyridamole 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI1117427	Dipyridamole 100mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTDI1117431	Dipyridamole 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI1117433	Dipyridamole 25mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTDI1119163	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTDI1119164	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (Mawdsley-Brooks & Company Ltd) 100 capsule 2 x 50 capsules
+^ESCTDI1119348	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (DE Pharmaceuticals)
+^ESCTDI1119349	Dipyridamole 200mg modified-release / Aspirin 25mg capsules (DE Pharmaceuticals) 100 capsule 2 x 50 capsules
+^ESCTDI1119350	Dipyridamole 200mg modified-release capsules (DE Pharmaceuticals)
+^ESCTDI1119351	Dipyridamole 200mg modified-release capsules (DE Pharmaceuticals) 60 capsule
+^ESCTDI1137309	Dipyridamole 200mg/5ml oral suspension sugar free 150 ml
+^ESCTDI1137312	Dipyridamole 200mg/5ml oral suspension sugar free (Thame Laboratories Ltd)
+^ESCTDI1137319	Dipyridamole 200mg/5ml oral suspension sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTDI1137399	Dipyridamole 200mg/5ml oral suspension sugar free
+^ESCTDI1141968	Dipyridamole 200mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI1141969	Dipyridamole 200mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTDI1142734	Dipyridamole 200mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDI1142735	Dipyridamole 200mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTDI358709	Dipyridamole
+^ESCTDI608093	Dipyridamole 25mg tablets
+^ESCTDI608095	Dipyridamole 25 mg oral tablet
+^ESCTDI608096	Dipyridamole 100mg tablets
+^ESCTDI608098	Dipyridamole 100 mg oral tablet
+^ESCTDI608099	Dipyridamole 200mg modified-release capsules
+^ESCTDI608100	Dipyridamole 200mg m/r capsule
+^ESCTDI608102	Dipyridamole 10mg/2ml solution for injection ampoules
+^ESCTDI608103	Dipyridamole 10mg/2mL injection
+^ESCTDI608104	Dipyridamole 5mg/mL injection solution 2mL ampoule
+^ESCTDI608105	Dipyridamole 5mg/mL injection solution 2mL ampule
+^ESCTDI608118	Dipyridamole + Aspirin
+^ESCTDI608119	Dipyridamole+aspirin
+^ESCTDI608121	Dipyridamole 200mg modified-release / Aspirin 25mg capsules
+^ESCTDI608122	Dipyridamole+aspirin 200mg/25mg m/r capsule
+^ESCTDI639292	Dipyridamole 50 mg oral tablet
+^ESCTDI639294	Dipyridamole 75 mg oral tablet
+^ESCTDI660876	Dipyridamole 50mg/5ml oral suspension sugar free
+^ESCTDI675305	Dipyridamole 50mg/5mL oral suspension
+^ESCTDI803254	Dipyridamole 50mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI804749	Dipyridamole 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI806321	Dipyridamole 25mg tablets (Actavis UK Ltd)
+^ESCTDI810874	Dipyridamole 50mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTDI818477	Dipyridamole 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI820752	Dipyridamole 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI820873	Dipyridamole 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI823152	Dipyridamole 100mg tablets (Mylan Ltd)
+^ESCTDI824755	Dipyridamole 100mg tablets (Actavis UK Ltd)
+^ESCTDI828819	Dipyridamole 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI831476	Dipyridamole 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI834339	Dipyridamole 25mg tablets 84 tablet
+^ESCTDI842599	Dipyridamole 10mg/2ml solution for injection ampoules 5 ampoule
+^ESCTDI843943	Dipyridamole 25mg tablets 100 tablet
+^ESCTDI845187	Dipyridamole 100mg tablets 100 tablet
+^ESCTDI846889	Dipyridamole 100mg tablets 84 tablet
+^ESCTDI847783	Dipyridamole 50mg/5ml oral suspension sugar free 150 ml
+^ESCTDI848111	Dipyridamole 200mg modified-release capsules 60 capsule
+^ESCTDI849113	Dipyridamole 100mg tablets (A A H Pharmaceuticals Ltd) 84 tablet
+^ESCTDI849114	Dipyridamole 100mg tablets (Actavis UK Ltd) 84 tablet
+^ESCTDI849116	Dipyridamole 100mg tablets (Mylan Ltd) 84 tablet 6 x 14 tablets
+^ESCTDI849119	Dipyridamole 100mg tablets (Kent Pharmaceuticals Ltd) 84 tablet
+^ESCTDI849120	Dipyridamole 100mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTDI849131	Dipyridamole 100mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTDI849267	Dipyridamole 25mg tablets (A A H Pharmaceuticals Ltd) 84 tablet
+^ESCTDI849274	Dipyridamole 25mg tablets (Actavis UK Ltd) 84 tablet
+^ESCTDI849287	Dipyridamole 25mg tablets (Kent Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTDI849288	Dipyridamole 25mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTDI849291	Dipyridamole 25mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTDI849292	Dipyridamole 25mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTDI856391	Dipyridamole 50mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTDI856392	Dipyridamole 50mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTDI860824	Dipyridamole 200mg modified-release / Aspirin 25mg capsules 60 capsule
+^ESCTDI866220	Dipyridamole 50mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDI866221	Dipyridamole 50mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTDI879894	Dipyridamole 200mg modified-release capsules 30 capsule
+^ESCTDI906292	Dipyridamole 100mg/5ml oral solution 1 ml
+^ESCTDI906294	Dipyridamole 100mg/5ml oral solution (Special Order)
+^ESCTDI906295	Dipyridamole 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI906296	Dipyridamole 100mg/5ml oral suspension 1 ml
+^ESCTDI906297	Dipyridamole 100mg/5ml oral suspension (Special Order)
+^ESCTDI906299	Dipyridamole 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI906315	Dipyridamole 200mg/5ml oral solution 1 ml
+^ESCTDI906317	Dipyridamole 200mg/5ml oral solution (Special Order)
+^ESCTDI906318	Dipyridamole 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI906320	Dipyridamole 200mg/5ml oral suspension 1 ml
+^ESCTDI906322	Dipyridamole 200mg/5ml oral suspension (Special Order)
+^ESCTDI906324	Dipyridamole 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI906325	Dipyridamole 250mg/5ml oral solution 1 ml
+^ESCTDI906326	Dipyridamole 250mg/5ml oral solution (Special Order)
+^ESCTDI906327	Dipyridamole 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI906328	Dipyridamole 50mg/5ml oral solution 1 ml
+^ESCTDI906329	Dipyridamole 50mg/5ml oral solution (Special Order)
+^ESCTDI906330	Dipyridamole 250mg/5ml oral suspension 1 ml
+^ESCTDI906331	Dipyridamole 250mg/5ml oral suspension (Special Order)
+^ESCTDI906332	Dipyridamole 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI906333	Dipyridamole 25mg/5ml oral solution 1 ml
+^ESCTDI906334	Dipyridamole 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI906335	Dipyridamole 25mg/5ml oral solution (Special Order)
+^ESCTDI906336	Dipyridamole 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI906337	Dipyridamole 25mg/5ml oral suspension 1 ml
+^ESCTDI906338	Dipyridamole 25mg/5ml oral suspension (Special Order)
+^ESCTDI906339	Dipyridamole 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI906434	Dipyridamole 50mg/5ml oral solution
+^ESCTDI906435	Dipyridamole 25mg/5ml oral suspension
+^ESCTDI906436	Dipyridamole 25mg/5ml oral solution
+^ESCTDI906437	Dipyridamole 250mg/5ml oral suspension
+^ESCTDI906438	Dipyridamole 250mg/5ml oral solution
+^ESCTDI906439	Dipyridamole 200mg/5ml oral suspension
+^ESCTDI906440	Dipyridamole 200mg/5ml oral solution
+^ESCTDI906441	Dipyridamole 100mg/5ml oral suspension
+^ESCTDI906442	Dipyridamole 100mg/5ml oral solution
+^ESCTDI935399	Dipyridamole 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTDI935400	Dipyridamole 25mg tablets (Dr Reddy's Laboratories (UK) Ltd) 84 tablet
+^ESCTDI935401	Dipyridamole 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTDI935402	Dipyridamole 100mg tablets (Dr Reddy's Laboratories (UK) Ltd) 84 tablet
+^ESCTDI945346	Dipyridamole 10mg/5ml oral suspension 1 ml
+^ESCTDI945347	Dipyridamole 10mg/5ml oral suspension (Special Order)
+^ESCTDI945348	Dipyridamole 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI945353	Dipyridamole 10mg/5ml oral solution 1 ml
+^ESCTDI945356	Dipyridamole 10mg/5ml oral solution (Special Order)
+^ESCTDI945357	Dipyridamole 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945362	Dipyridamole 12.5mg/5ml oral suspension 1 ml
+^ESCTDI945363	Dipyridamole 12.5mg/5ml oral suspension (Special Order)
+^ESCTDI945364	Dipyridamole 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI945368	Dipyridamole 12.5mg/5ml oral solution 1 ml
+^ESCTDI945371	Dipyridamole 12.5mg/5ml oral solution (Special Order)
+^ESCTDI945375	Dipyridamole 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945388	Dipyridamole 15mg/5ml oral suspension 1 ml
+^ESCTDI945391	Dipyridamole 15mg/5ml oral suspension (Special Order)
+^ESCTDI945393	Dipyridamole 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI945401	Dipyridamole 15mg/5ml oral solution 1 ml
+^ESCTDI945407	Dipyridamole 15mg/5ml oral solution (Special Order)
+^ESCTDI945412	Dipyridamole 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945422	Dipyridamole 20mg/5ml oral suspension 1 ml
+^ESCTDI945423	Dipyridamole 20mg/5ml oral suspension (Special Order)
+^ESCTDI945426	Dipyridamole 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI945434	Dipyridamole 20mg/5ml oral solution 1 ml
+^ESCTDI945454	Dipyridamole 20mg/5ml oral solution (Special Order)
+^ESCTDI945457	Dipyridamole 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945474	Dipyridamole 30mg/5ml oral suspension 1 ml
+^ESCTDI945481	Dipyridamole 30mg/5ml oral suspension (Special Order)
+^ESCTDI945484	Dipyridamole 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI945495	Dipyridamole 30mg/5ml oral solution 1 ml
+^ESCTDI945497	Dipyridamole 30mg/5ml oral solution (Special Order)
+^ESCTDI945500	Dipyridamole 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945510	Dipyridamole 5mg/5ml oral suspension 1 ml
+^ESCTDI945514	Dipyridamole 5mg/5ml oral suspension (Special Order)
+^ESCTDI945517	Dipyridamole 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI945523	Dipyridamole 5mg/5ml oral solution 1 ml
+^ESCTDI945524	Dipyridamole 10mg/5ml oral solution
+^ESCTDI945525	Dipyridamole 10mg/5ml oral suspension
+^ESCTDI945526	Dipyridamole 5mg/5ml oral solution (Special Order)
+^ESCTDI945528	Dipyridamole 12.5mg/5ml oral solution
+^ESCTDI945529	Dipyridamole 12.5mg/5ml oral suspension
+^ESCTDI945530	Dipyridamole 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI945531	Dipyridamole 15mg/5ml oral solution
+^ESCTDI945533	Dipyridamole 15mg/5ml oral suspension
+^ESCTDI945534	Dipyridamole 20mg/5ml oral solution
+^ESCTDI945536	Dipyridamole 20mg/5ml oral suspension
+^ESCTDI945537	Dipyridamole 30mg/5ml oral solution
+^ESCTDI945538	Dipyridamole 30mg/5ml oral suspension
+^ESCTDI945539	Dipyridamole 5mg/5ml oral solution
+^ESCTDI945540	Dipyridamole 5mg/5ml oral suspension
+^ESCTDI978307	Dipyridamole 50mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc)
+^ESCTDI978308	Dipyridamole 50mg/5ml oral suspension sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTMO1055021	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTMO1055022	Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd) 100 capsule 2 x 50 capsules
+^ESCTMO944911	Molita
+^ESCTOF1088631	Ofcram PR 200mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTOF1088632	Ofcram PR 200mg capsules (Focus Pharmaceuticals Ltd) 60 capsule
+^ESCTOF947509	Ofcram PR
+^ESCTPE1003061	Persantin Retard 200mg capsules (Necessity Supplies Ltd)
+^ESCTPE1003063	Persantin Retard 200mg capsules (Necessity Supplies Ltd) 60 capsule
+^ESCTPE1014740	Persantin Retard 200mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTPE1014741	Persantin Retard 200mg capsules (Mawdsley-Brooks & Company Ltd) 60 capsule
+^ESCTPE1058438	Persantin Retard 200mg capsules (Consilient Health Ltd)
+^ESCTPE1058439	Persantin Retard 200mg capsules (Consilient Health Ltd) 60 capsule
+^ESCTPE817011	Persantin Retard 200mg capsules (Boehringer Ingelheim Ltd)
+^ESCTPE820517	Persantin 100mg tablets (Boehringer Ingelheim Ltd)
+^ESCTPE820609	Persantin 25mg tablets (Boehringer Ingelheim Ltd)
+^ESCTPE820680	Persantin 10mg/2ml solution for injection ampoules (Boehringer Ingelheim Ltd)
+^ESCTPE849115	Persantin 100mg tablets (Boehringer Ingelheim Ltd) 84 tablet 7 x 12 tablets
+^ESCTPE849218	Persantin Retard 200mg capsules (Boehringer Ingelheim Ltd) 60 capsule
+^ESCTPE849279	Persantin 25mg tablets (Boehringer Ingelheim Ltd) 84 tablet 4 x 21 tablets
+^ESCTPE857042	Persantin 10mg/2ml solution for injection ampoules (Boehringer Ingelheim Ltd) 5 ampoule
+^ESCTPE878174	Persantin Retard 200mg capsules (Waymade Healthcare Plc)
+^ESCTPE878176	Persantin Retard 200mg capsules (Waymade Healthcare Plc) 60 capsule
+^ESCTPE879896	Persantin Retard 200mg capsules (Dowelhurst Ltd)
+^ESCTPE879910	Persantin Retard 200mg capsules (Dowelhurst Ltd) 30 capsule
+^ESCTPE879912	Persantin Retard 200mg capsules (Dowelhurst Ltd) 60 capsule
+^ESCTPE915589	Persantin
+^ESCTPE915591	Persantin Retard
+^ESCTPE967334	Persantin Retard 200mg capsules (DE Pharmaceuticals)
+^ESCTPE967335	Persantin Retard 200mg capsules (DE Pharmaceuticals) 60 capsule
+^ESCTPE974767	Persantin Retard 200mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTPE974768	Persantin Retard 200mg capsules (Sigma Pharmaceuticals Plc) 60 capsule
+^ESCTPR358710	Product containing dipyridamole
+^ESCTPR608094	Product containing dipyridamole 25 mg/1 each oral tablet
+^ESCTPR608097	Product containing dipyridamole 100 mg/1 each oral tablet
+^ESCTPR639293	Product containing dipyridamole 50 mg/1 each oral tablet
+^ESCTPR639295	Product containing dipyridamole 75 mg/1 each oral tablet
+^ESCTPY808195	Pyridantin 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTPY820333	Pyridantin 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTPY851610	Pyridantin 25mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTPY851611	Pyridantin 100mg tablets (Dr Reddy's Laboratories (UK) Ltd) 100 tablet
+^ESCTPY915833	Pyridantin
+^ESCTQU950039	Quality and Outcomes Framework - dipyridamole medication prescribable within general practice simple reference set
+^ESCTTR1158295	Trolactin 200mg modified-release capsules (Actavis UK Ltd)
+^ESCTTR1158296	Trolactin 200mg modified-release capsules (Actavis UK Ltd) 60 capsule
+^ESCTTR958017	Trolactin
+ASM/33164EMIS	Asasantin Retard  M/R capsules  
+ATM/124051NEMIS	Atransipar  M/R capsules  200 mg + 25 mg
+ATM/89303NEMIS	Attia  M/R capsules  200 mg
+CETA10790BRIDL	Cerebrovase 25  Tablets  25 mg
+CETA10792BRIDL	Cerebrovase 100  Tablets  100 mg
+DIIN4852	Dipyridamole  Injection  5 mg/ml, 2 ml ampoule
+DIM/18533NEMIS	Dipyridamole And Aspirin  M/R capsules  200 mg + 25 mg
+DIM/30709EMIS	Dipyridamole  M/R capsules  200 mg
+DIOR35895NEMIS	Dipyridamole  Oral suspension  200 mg/5 ml
+DIOR36226NEMIS	Dipyridamole  Oral suspension  100 mg/5 ml
+DIOR40308NEMIS	Dipyridamole  Oral solution  250 mg/5 ml
+DIOR45613NEMIS	Dipyridamole  Oral solution  100 mg/5 ml
+DIOR46729NEMIS	Dipyridamole  Oral solution  200 mg/5 ml
+DISU110029NEMIS	Dipyridamole  Sugar-free oral suspension  200 mg/5 ml
+DISU35068EMIS	Dipyridamole  Sugar-free oral suspension  50 mg/5 ml
+DITA34845MGEMIS	Dipyridamole  Tablets  100 mg (A.A.H. Pharm)
+DITA34846MGEMIS	Dipyridamole  Tablets  100 mg (Kent Pharm)
+DITA34847MGEMIS	Dipyridamole  Tablets  100 mg (Unichem)
+DITA34848MGEMIS	Dipyridamole  Tablets  100 mg (Generics (UK))
+DITA34849MGEMIS	Dipyridamole  Tablets  100 mg (Alpharma)
+DITA34850MGEMIS	Dipyridamole  Tablets  25 mg (Alpharma)
+DITA34851MGEMIS	Dipyridamole  Tablets  25 mg (Kent Pharm)
+DITA34852MGEMIS	Dipyridamole  Tablets  25 mg (A.A.H. Pharm)
+DITA34853MGEMIS	Dipyridamole  Tablets  25 mg (Unichem)
+DITA929	Dipyridamole  Tablets  100 mg
+DITA930	Dipyridamole  Tablets  25 mg
+MOM/83187NEMIS	Molita  M/R capsules  200 mg + 25 mg
+MOTA24258EMIS	Modaplate  Tablets  100 mg
+MOTA27590EMIS	Modaplate  Tablets  25 mg
+OFM/101962NEMIS	Ofcram Pr  M/R capsules  200 mg
+PEIN2205	Persantin  Injection  5 mg/ml, 2 ml ampoule
+PEM/30707EMIS	Persantin Retard  M/R capsules  200 mg
+PETA2206	Persantin  Tablets  100 mg
+PETA2207	Persantin  Tablets  25 mg
+PYTA15943NEMIS	Pyridantin  Tablets  25 mg
+PYTA15944NEMIS	Pyridantin  Tablets  100 mg
+TRM/122219NEMIS	Trolactin  M/R capsules  200 mg

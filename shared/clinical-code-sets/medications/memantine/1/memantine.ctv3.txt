@@ -1,0 +1,11 @@
+dB1..	Memantine hydrochloride
+dB19.	NEMDATINE 20mg tablets
+dB18.	NEMDATINE 10mg tablets
+dB17.	EBIXA TREATMENT INITIATION PACK tablets
+dB16.	MEMANTINE HYDROCHLORIDE 20mg tablets
+dB15.	EBIXA 20mg tablets
+dB12.	Memantine hydrochloride 10mg/g oral drops
+dB14.	Ebixa 10mg/g oral drops
+dB11.	Memantine hydrochloride 10mg tablet
+dB13.	Ebixa 10mg tablet
+x05gA	Ebixa

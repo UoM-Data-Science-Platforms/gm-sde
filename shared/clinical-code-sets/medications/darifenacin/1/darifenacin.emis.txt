@@ -1,0 +1,70 @@
+^ESCT1182135	Product containing darifenacin
+^ESCT1203235	Darifenacin (as darifenacin hydrobromide) 7.5 mg prolonged-release oral tablet
+^ESCT1203236	Product containing precisely darifenacin (as darifenacin hydrobromide) 7.5 milligram/1 each prolonged-release oral tablet
+^ESCT1203476	Darifenacin (as darifenacin hydrobromide) 15 mg prolonged-release oral tablet
+^ESCT1203477	Product containing precisely darifenacin (as darifenacin hydrobromide) 15 milligram/1 each prolonged-release oral tablet
+^ESCT1206009	Darifenacin in oral dosage form
+^ESCT1206010	Product containing darifenacin in oral dosage form
+^ESCT1212475	Darifenacin 7.5mg modified-release tablets
+^ESCT1212476	Darifenacin 15mg modified-release tablets
+^ESCT1232520	Darifenacin
+^ESCT1232521	Darifenacin product
+^ESCT1258017	Emselex 7.5mg modified-release tablets (Originalis B.V.)
+^ESCT1258018	Emselex 7.5mg modified-release tablets (Originalis B.V.) 28 tablet
+^ESCT1258019	Emselex 15mg modified-release tablets (Originalis B.V.)
+^ESCT1258020	Emselex 15mg modified-release tablets (Originalis B.V.) 28 tablet
+^ESCT1267145	Emselex 15mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267146	Emselex 15mg modified-release tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1267148	Emselex 7.5mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267149	Emselex 7.5mg modified-release tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1267407	Emselex 15mg modified-release tablets (CST Pharma Ltd)
+^ESCT1267408	Emselex 15mg modified-release tablets (CST Pharma Ltd) 28 tablet
+^ESCT1267409	Emselex 7.5mg modified-release tablets (CST Pharma Ltd)
+^ESCT1267410	Emselex 7.5mg modified-release tablets (CST Pharma Ltd) 28 tablet
+^ESCT1268421	Emselex 7.5mg modified-release tablets (Merus Labs Luxco II S.a R.L.)
+^ESCT1268422	Emselex 7.5mg modified-release tablets (Merus Labs Luxco II S.a R.L.) 28 tablet 2 x 14 tablets
+^ESCT1268423	Emselex 15mg modified-release tablets (Merus Labs Luxco II S.a R.L.)
+^ESCT1268424	Emselex 15mg modified-release tablets (Merus Labs Luxco II S.a R.L.) 28 tablet 2 x 14 tablets
+^ESCT1274250	Emselex 15mg modified-release tablets (Pilsco Ltd)
+^ESCT1274251	Emselex 15mg modified-release tablets (Pilsco Ltd) 28 tablet
+^ESCT1274252	Emselex 7.5mg modified-release tablets (Pilsco Ltd)
+^ESCT1274253	Emselex 7.5mg modified-release tablets (Pilsco Ltd) 28 tablet
+^ESCT1300682	Emselex 7.5mg modified-release tablets (DE Pharmaceuticals)
+^ESCT1300683	Emselex 7.5mg modified-release tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1300684	Emselex 15mg modified-release tablets (DE Pharmaceuticals)
+^ESCT1300685	Emselex 15mg modified-release tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1354461	Darifenacin only product
+^ESCT1358152	Darifenacin only product in oral dose form
+^ESCT1375669	Darifenacin 15mg modified-release tablets
+^ESCT1375670	Darifenacin 7.5mg modified-release tablets
+^ESCT1386082	Darifenacin-containing product in oral dose form
+^ESCT1387362	Emselex 7.5mg modified-release tablets (Norgine Pharmaceuticals Ltd)
+^ESCT1387363	Emselex 7.5mg modified-release tablets (Norgine Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1387364	Emselex 15mg modified-release tablets (Norgine Pharmaceuticals Ltd)
+^ESCT1387365	Emselex 15mg modified-release tablets (Norgine Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1389495	Emselex 15mg modified-release tablets (Ethigen Ltd)
+^ESCT1389496	Emselex 15mg modified-release tablets (Ethigen Ltd) 28 tablet
+^ESCT1389497	Emselex 7.5mg modified-release tablets (Ethigen Ltd)
+^ESCT1389498	Emselex 7.5mg modified-release tablets (Ethigen Ltd) 28 tablet
+^ESCT1410789	Emselex 7.5mg modified-release tablets (Aspire Pharma Ltd)
+^ESCT1410790	Emselex 7.5mg modified-release tablets (Aspire Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1410791	Emselex 15mg modified-release tablets (Aspire Pharma Ltd)
+^ESCT1410792	Emselex 15mg modified-release tablets (Aspire Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTDA1132549	Darifenacin 15mg modified-release tablets (J M McGill Ltd)
+^ESCTDA1132552	Darifenacin 15mg modified-release tablets (J M McGill Ltd) 28 tablet
+^ESCTDA688745	Darifenacin 7.5mg modified-release tablets
+^ESCTDA688746	Darifenacin 7.5mg m/r tablet
+^ESCTDA689144	Darifenacin
+^ESCTDA690488	Darifenacin 15mg modified-release tablets
+^ESCTDA690489	Darifenacin 15mg m/r tablet
+^ESCTDA934681	Darifenacin 7.5mg modified-release tablets 28 tablet
+^ESCTDA934684	Darifenacin 15mg modified-release tablets 28 tablet
+^ESCTEM915063	Emselex
+^ESCTEM934682	Emselex 7.5mg modified-release tablets (Merus Labs Luxco S.a R.L.)
+^ESCTEM934683	Emselex 7.5mg modified-release tablets (Merus Labs Luxco S.a R.L.) 28 tablet 2 x 14 tablets
+^ESCTEM934685	Emselex 15mg modified-release tablets (Merus Labs Luxco S.a R.L.)
+^ESCTEM934686	Emselex 15mg modified-release tablets (Merus Labs Luxco S.a R.L.) 28 tablet 2 x 14 tablets
+DAM/23489NEMIS	Darifenacin  M/R tablets  7.5 mg
+DAM/23491NEMIS	Darifenacin  M/R tablets  15 mg
+EMM/23495NEMIS	Emselex  M/R tablets  7.5 mg
+EMM/23496NEMIS	Emselex  M/R tablets  15 mg

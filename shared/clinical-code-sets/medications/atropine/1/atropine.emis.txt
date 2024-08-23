@@ -1,0 +1,612 @@
+^ESCT1177893	Product containing only atropine sulfate 0.6 milligram/1 each oral tablet
+^ESCT1179265	Product containing only atropine sulfate 0.4 milligram/1 each oral tablet
+^ESCT1179329	Product containing only atropine sulfate 0.0194 mg and hyoscyamine sulfate 0.1037 mg and scopolamine hydrobromide 0.0065 mg/1 each oral tablet
+^ESCT1183183	Product containing only atropine sulfate 0.025 mg and diphenoxylate hydrochloride 2.5 mg/1 each oral tablet
+^ESCT1188074	Product containing atropine and pralidoxime
+^ESCT1188075	Atropine and pralidoxime
+^ESCT1188512	Product containing only atropine 0.025 mg and difenoxin hydrochloride 1 mg/1 each oral tablet
+^ESCT1204473	Atropine sulfate 500micrograms/5mL conventional release oral solution
+^ESCT1206340	Atropine and diphenoxylate product
+^ESCT1206341	Product containing atropine and diphenoxylate
+^ESCT1206342	Atropine and diphenoxylate in oral dosage form
+^ESCT1206343	Product containing atropine and diphenoxylate in oral dosage form
+^ESCT1206469	Atropine and hyoscyamine and scopolamine product
+^ESCT1206470	Product containing atropine and hyoscyamine and scopolamine
+^ESCT1206471	Atropine and hyoscyamine and scopolamine in oral dosage form
+^ESCT1206472	Product containing atropine and hyoscyamine and scopolamine in oral dosage form
+^ESCT1206483	Atropine and difenoxin product
+^ESCT1206484	Product containing atropine and difenoxin
+^ESCT1206485	Atropine and difenoxin in oral dosage form
+^ESCT1206486	Product containing atropine and difenoxin in oral dosage form
+^ESCT1208286	Atropine and pralidoxime in parenteral dosage form
+^ESCT1208287	Product containing atropine and pralidoxime in parenteral dosage form
+^ESCT1209092	Atropine sulfate 1.25 mg/mL solution for injection ampoule
+^ESCT1209093	Product containing precisely atropine sulfate 1.25 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209094	Atropine sulfate 1.25 mg/mL solution for injection ampule
+^ESCT1209095	Atropine sulfate 1 mg/10 mL solution for injection syringe
+^ESCT1209096	Product containing precisely atropine sulfate 1 milligram/10 milliliter conventional release solution for injection syringe
+^ESCT1210284	Atropine sulfate 1 mg/mL solution for injection ampoule
+^ESCT1210285	Atropine sulfate 1 mg/mL solution for injection ampule
+^ESCT1210286	Product containing precisely atropine sulfate 1 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210287	Atropine sulfate 3 mg/10 mL solution for injection ampoule
+^ESCT1210288	Atropine sulfate 3 mg/10 mL solution for injection ampule
+^ESCT1210289	Product containing precisely atropine sulfate 3 milligram/10 milliliter conventional release solution for injection ampule
+^ESCT1210290	Atropine sulfate 400 microgram/mL solution for injection ampoule
+^ESCT1210291	Atropine sulfate 400 microgram/mL solution for injection ampule
+^ESCT1210292	Product containing precisely atropine sulfate 400 microgram/1 milliliter conventional release solution for injection ampule
+^ESCT1210293	Atropine sulfate 600 microgram/mL solution for injection ampoule
+^ESCT1210294	Atropine sulfate 600 microgram/mL solution for injection ampule
+^ESCT1210295	Product containing precisely atropine sulfate 600 microgram/1 milliliter conventional release solution for injection ampule
+^ESCT1214719	Atropine 1% eye drops 0.5ml unit dose preservative free
+^ESCT1214720	Atropine 1% eye drops preservative free
+^ESCT1214721	Atropine 1.25mg/1ml solution for injection ampoules
+^ESCT1214722	Atropine 1mg/10ml solution for injection pre-filled syringes
+^ESCT1214723	Atropine 1mg/1ml solution for injection ampoules
+^ESCT1214724	Atropine 1mg/5ml solution for injection pre-filled syringes
+^ESCT1214725	Atropine 3mg/10ml solution for injection ampoules
+^ESCT1214726	Atropine 3mg/10ml solution for injection pre-filled syringes
+^ESCT1214727	Atropine 3mg/30ml solution for injection pre-filled syringes
+^ESCT1214728	Atropine 400micrograms/1ml solution for injection ampoules
+^ESCT1214729	Atropine 500micrograms/5ml solution for injection pre-filled syringes
+^ESCT1214730	Atropine 600micrograms/1ml solution for injection ampoules
+^ESCT1214731	Atropine 600micrograms/1ml solution for injection pre-filled syringes
+^ESCT1219646	Atropine
+^ESCT1219647	Atropine product
+^ESCT1222519	Product containing precisely atropine sulfate 600 microgram/1 each conventional release oral tablet
+^ESCT1222520	Atropine sulfate 600 microgram oral tablet
+^ESCT1225633	Atropine sulfate 10 mg/mL eye drops
+^ESCT1225634	Product containing precisely atropine sulfate 10 milligram/1 milliliter conventional release eye drops
+^ESCT1225635	Atropine sulfate 10 mg/g eye ointment
+^ESCT1225636	Product containing precisely atropine sulfate 10 milligram/1 gram conventional release eye ointment
+^ESCT1226623	Atropine sulfate 1.25 mg/mL eye drops
+^ESCT1226624	Product containing precisely atropine sulfate 1.25 milligram/1 milliliter conventional release eye drops
+^ESCT1226625	Atropine sulfate 5 mg/mL eye drops
+^ESCT1226626	Product containing precisely atropine sulfate 5 milligram/1 milliliter conventional release eye drops
+^ESCT1226627	Product containing precisely atropine sulfate 20 milligram/1 milliliter conventional release eye drops
+^ESCT1226628	Atropine sulfate 20 mg/mL eye drops
+^ESCT1228572	Atropine sulfate 0.4 mg oral tablet
+^ESCT1228573	Atropine sulfate 400 microgram oral tablet
+^ESCT1228574	Product containing precisely atropine sulfate 400 microgram/1 each conventional release oral tablet
+^ESCT1228965	Atropine 0.025 mg and difenoxin hydrochloride 1 mg oral tablet
+^ESCT1228966	Product containing precisely atropine 25 microgram and difenoxin hydrochloride 1 milligram/1 each conventional release oral tablet
+^ESCT1228967	Atropine 25 microgram and difenoxin hydrochloride 1 mg oral tablet
+^ESCT1228968	Product containing precisely atropine sulfate 25 microgram and diphenoxylate hydrochloride 2.5 milligram/1 each conventional release oral tablet
+^ESCT1228969	Atropine sulfate 25 microgram and diphenoxylate hydrochloride 2.5 mg oral tablet
+^ESCT1228970	Atropine sulfate 0.0194 mg and hyoscyamine sulfate 0.1037 mg and scopolamine hydrobromide 0.0065 mg oral tablet
+^ESCT1228971	Atropine sulfate 19.4 microgram and hyoscyamine sulfate 103.7 microgram and scopolamine hydrobromide 6.5 microgram oral tablet
+^ESCT1228972	Product containing precisely atropine sulfate 19.4 microgram and hyoscyamine sulfate 103.7 microgram and scopolamine hydrobromide 6.5 microgram/1 each conventional release oral tablet
+^ESCT1228973	Atropine sulfate 19.4 microgram and hyoscine hydrobromide 6.5 microgram and hyoscyamine sulfate 103.7 microgram oral tablet
+^ESCT1229889	Atropine sulphate+edrophonium chloride
+^ESCT1229890	Product containing atropine sulfate and edrophonium chloride
+^ESCT1229891	Atropine sulfate and edrophonium chloride product
+^ESCT1230665	Atropine and pralidoxime
+^ESCT1230666	Atropine and pralidoxime product
+^ESCT1237206	Isopto Atropine 1% eye drops (Alcon Eye Care Ltd)
+^ESCT1237207	Isopto Atropine 1% eye drops (Alcon Eye Care Ltd) 5 ml
+^ESCT1250372	Atropine 600micrograms/1ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250373	Atropine 600micrograms/1ml solution for injection ampoules (Advanz Pharma) 10 ampoule
+^ESCT1275080	Minims atropine sulfate 1% eye drops 0.5ml unit dose (Pilsco Ltd)
+^ESCT1275081	Minims atropine sulfate 1% eye drops 0.5ml unit dose (Pilsco Ltd) 20 unit dose
+^ESCT1304011	Atropine 600micrograms/1ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304012	Atropine 600micrograms/1ml solution for injection ampoules (hameln pharma Ltd) 10 ampoule
+^ESCT1349675	Atropine- and edrophonium-containing product
+^ESCT1350842	Atropine-containing product in ocular dose form
+^ESCT1353610	Atropine only product
+^ESCT1353611	Atropine and difenoxin only product
+^ESCT1353612	Atropine and diphenoxylate only product
+^ESCT1353613	Atropine and edrophonium only product
+^ESCT1353614	Atropine and hyoscine and hyoscyamine only product
+^ESCT1353615	Atropine and hyoscyamine and scopolamine only product
+^ESCT1353616	Atropine and pralidoxime only product
+^ESCT1357566	Atropine and difenoxin only product in oral dose form
+^ESCT1357567	Atropine and diphenoxylate only product in oral dose form
+^ESCT1357568	Atropine and hyoscine and hyoscyamine only product in oral dose form
+^ESCT1357569	Atropine and hyoscyamine and scopolamine only product in oral dose form
+^ESCT1357570	Atropine and pralidoxime only product in parenteral dose form
+^ESCT1357571	Atropine only product in ocular dose form
+^ESCT1357572	Atropine only product in oral dose form
+^ESCT1357573	Atropine only product in parenteral dose form
+^ESCT1360929	Atropine sulfate 300 microgram/mL solution for injection
+^ESCT1360930	Atropine sulfate 400 microgram/mL solution for injection
+^ESCT1360931	Atropine sulfate 1 mg/mL solution for injection
+^ESCT1360932	Atropine sulfate 600 microgram/mL solution for injection
+^ESCT1360933	Atropine sulfate 1.25 mg/mL solution for injection
+^ESCT1360934	Atropine sulfate 100 microgram/mL solution for injection
+^ESCT1364599	Atropine sulfate 310 microgram/mL eye solution
+^ESCT1364600	Atropine sulfate 620 microgram/mL eye solution
+^ESCT1364601	Atropine sulfate 1 mg/mL eye solution
+^ESCT1364602	Atropine sulfate 2.5 mg/mL eye solution
+^ESCT1374837	Atropine 1% eye drops (Medihealth (Northern) Ltd)
+^ESCT1374838	Atropine 1% eye drops (Medihealth (Northern) Ltd) 10 ml
+^ESCT1381336	Atropine-containing product in oral dose form
+^ESCT1381337	Atropine-containing product in parenteral dose form
+^ESCT1381543	Atropine sulfate 5 microgram/mg eye ointment
+^ESCT1382547	Atropine- and pralidoxime-containing product
+^ESCT1386228	Atropine- and diphenoxylate-containing product
+^ESCT1386229	Atropine- and diphenoxylate-containing product in oral dose form
+^ESCT1386294	Atropine- and hyoscine- and hyoscyamine-containing product
+^ESCT1386295	Atropine- and hyoscyamine- and scopolamine-containing product
+^ESCT1386296	Atropine- and hyoscine- and hyoscyamine-containing product in oral dose form
+^ESCT1386297	Atropine- and hyoscyamine- and scopolamine-containing product in oral dose form
+^ESCT1386298	Atropine- and difenoxin-containing product
+^ESCT1386299	Atropine- and difenoxin-containing product in oral dose form
+^ESCT1387055	Atropine- and pralidoxime-containing product in parenteral dose form
+^ESCT1410218	Isopto Atropine 1% eye drops (Alcon Eye Care UK Ltd)
+^ESCT1410219	Isopto Atropine 1% eye drops (Alcon Eye Care UK Ltd) 5 ml
+^ESCT1410605	Atropine 500micrograms/5ml oral solution (Special Order)
+^ESCT1410606	Atropine 500micrograms/5ml oral solution (Special Order) 1 ml
+^ESCT1411507	Atropine 500micrograms/5ml oral solution (Special Order) 100 ml
+^ESCT1411508	Atropine 500micrograms/5ml oral solution (Special Order) 50 ml
+^ESCT1412219	Atropine 500micrograms/5ml oral solution (Special Order) 125 ml
+^ESCT1414356	Atropine sulfate 200 microgram/mL solution for injection
+^ESCT1424069	Atropine 1% eye drops (Aspire Pharma Ltd)
+^ESCT1424070	Atropine 1% eye drops (Aspire Pharma Ltd) 5 ml
+^ESCT1424071	Atropine 1% eye drops (Aspire Pharma Ltd) 10 ml
+^ESCT1425735	Atropine 1% eye drops (Kent Pharma (UK) Ltd)
+^ESCT1426093	Atropine 1% eye drops (Kent Pharma (UK) Ltd) 10 ml
+^ESCT1426641	Atropine 600microgram tablets (Kent Pharma (UK) Ltd)
+^ESCT1426642	Atropine 600microgram tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1430121	Atropine 1% eye drops (Alliance Healthcare (Distribution) Ltd) 5 ml
+^ESCTA1615540	A1 - Atropine sulfate 1% drops
+^ESCTA1615541	A1 - Atropine sulphate 1% drops
+^ESCTAT1007397	Atropine 600micrograms/1ml solution for injection ampoules (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1007398	Atropine 600micrograms/1ml solution for injection ampoules (Phoenix Healthcare Distribution Ltd) 10 ampoule
+^ESCTAT1022406	Atropine 600microgram tablets (DE Pharmaceuticals)
+^ESCTAT1022408	Atropine 600microgram tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAT1025716	Atropine 0.125% eye drops 1 ml
+^ESCTAT1025717	Atropine 0.125% eye drops (Special Order)
+^ESCTAT1025719	Atropine 0.125% eye drops (Special Order) 1 ml
+^ESCTAT1025720	Atropine 0.125% eye drops 10 ml
+^ESCTAT1025722	Atropine 0.125% eye drops (Special Order) 10 ml
+^ESCTAT1025723	Atropine 2% eye drops 1 ml
+^ESCTAT1025724	Atropine 2% eye drops 10 ml
+^ESCTAT1025725	Atropine 2% eye drops (Special Order)
+^ESCTAT1025726	Atropine 2% eye drops (Special Order) 1 ml
+^ESCTAT1025727	Atropine 2% eye drops (Special Order) 10 ml
+^ESCTAT1025728	Atropine 4% eye drops
+^ESCTAT1025729	Atropine 4% eye drops 1 ml
+^ESCTAT1025730	Atropine 4% eye drops 10 ml
+^ESCTAT1025731	Atropine 4% eye drops (Special Order)
+^ESCTAT1025732	Atropine 4% eye drops (Special Order) 1 ml
+^ESCTAT1025733	Atropine 4% eye drops (Special Order) 10 ml
+^ESCTAT1025734	Atropine 3mg/5ml solution for injection ampoules
+^ESCTAT1025735	Atropine 3mg/5ml solution for injection ampoules 1 ampoule
+^ESCTAT1025736	Atropine 3mg/5ml solution for injection ampoules 10 ampoule
+^ESCTAT1025737	Atropine 3mg/5ml solution for injection ampoules (Special Order)
+^ESCTAT1025738	Atropine 3mg/5ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTAT1025739	Atropine 3mg/5ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTAT1025927	Atropine 500micrograms/5ml oral solution 100 ml
+^ESCTAT1025928	Atropine 500micrograms/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTAT1025929	Atropine 500micrograms/5ml oral solution 50 ml
+^ESCTAT1025930	Atropine 500micrograms/5ml oral solution (Drug Tariff Special Order) 50 ml
+^ESCTAT1026348	Atropine 600micrograms/5ml oral solution 200 ml
+^ESCTAT1026349	Atropine 600micrograms/5ml oral solution (Special Order) 200 ml
+^ESCTAT1030024	Atropine 1% eye drops preservative free 1 ml
+^ESCTAT1030025	Atropine 1% eye drops preservative free (Special Order)
+^ESCTAT1030026	Atropine 1% eye drops preservative free (Special Order) 1 ml
+^ESCTAT1041443	Atropine 0.5% eye drops (Waymade Healthcare Plc)
+^ESCTAT1041444	Atropine 0.5% eye drops (Waymade Healthcare Plc) 10 ml
+^ESCTAT1041445	Atropine 1% eye drops (Waymade Healthcare Plc)
+^ESCTAT1041446	Atropine 1% eye drops (Waymade Healthcare Plc) 10 ml
+^ESCTAT1042234	Atropine 100mg/50ml solution for infusion bottles
+^ESCTAT1042235	Atropine 100mg/50ml solution for infusion bottles 1 bottle
+^ESCTAT1042236	Atropine 100mg/50ml solution for infusion bottles (Special Order)
+^ESCTAT1042237	Atropine 100mg/50ml solution for infusion bottles (Special Order) 1 bottle
+^ESCTAT1045399	Atropine 600microgram tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAT1045400	Atropine 600microgram tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAT1049113	Atropine 1% eye drops (DE Pharmaceuticals)
+^ESCTAT1049114	Atropine 1% eye drops (DE Pharmaceuticals) 10 ml
+^ESCTAT1067905	Atropine 1mg/5ml solution for injection pre-filled syringes 10 pre-filled disposable injection
+^ESCTAT1067906	Atropine 1mg/5ml solution for injection pre-filled syringes (Aguettant Ltd)
+^ESCTAT1067907	Atropine 1mg/5ml solution for injection pre-filled syringes (Aguettant Ltd) 10 pre-filled disposable injection
+^ESCTAT1067908	Atropine 3mg/10ml solution for injection pre-filled syringes 10 pre-filled disposable injection
+^ESCTAT1067909	Atropine 3mg/10ml solution for injection pre-filled syringes (Aguettant Ltd)
+^ESCTAT1067910	Atropine 3mg/10ml solution for injection pre-filled syringes (Aguettant Ltd) 10 pre-filled disposable injection
+^ESCTAT1070766	Atropine 1mg/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd) 10 pre-filled disposable injection
+^ESCTAT1070767	Atropine 3mg/10ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd) 10 pre-filled disposable injection
+^ESCTAT1107779	Atropine 0.5% eye drops 1 ml
+^ESCTAT1107780	Atropine 0.5% eye drops (Special Order)
+^ESCTAT1107781	Atropine 0.5% eye drops (Special Order) 1 ml
+^ESCTAT1107782	Atropine 1% eye ointment 1 gram
+^ESCTAT1107783	Atropine 1% eye ointment (Special Order)
+^ESCTAT1107784	Atropine 1% eye ointment (Special Order) 1 gram
+^ESCTAT1126859	Atropine 500micrograms/0.3ml / Adrenaline (base) 60micrograms/0.3ml / Procaine hydrochloride 3mg/0.3ml solution for injection ampoules
+^ESCTAT1126860	Atropine 500micrograms/0.3ml / Adrenaline (base) 60micrograms/0.3ml / Procaine hydrochloride 3mg/0.3ml solution for injection ampoules 1 ampoule
+^ESCTAT1126862	Atropine 500micrograms/0.3ml / Adrenaline (base) 60micrograms/0.3ml / Procaine hydrochloride 3mg/0.3ml solution for injection ampoules (Special Order)
+^ESCTAT1126863	Atropine 500micrograms/0.3ml / Adrenaline (base) 60micrograms/0.3ml / Procaine hydrochloride 3mg/0.3ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTAT1126870	Atropine 1mg/0.3ml / Adrenaline (base) 120micrograms/0.3ml / Procaine hydrochloride 6mg/0.3ml solution for injection ampoules
+^ESCTAT1126871	Atropine 1mg/0.3ml / Adrenaline (base) 120micrograms/0.3ml / Procaine hydrochloride 6mg/0.3ml solution for injection ampoules 1 ampoule
+^ESCTAT1126872	Atropine 1mg/0.3ml / Adrenaline (base) 120micrograms/0.3ml / Procaine hydrochloride 6mg/0.3ml solution for injection ampoules (Special Order)
+^ESCTAT1126873	Atropine 1mg/0.3ml / Adrenaline (base) 120micrograms/0.3ml / Procaine hydrochloride 6mg/0.3ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTAT1126876	Atropine + Adrenaline + Procaine
+^ESCTAT1128230	Atropine 500micrograms/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+^ESCTAT1128231	Atropine 500micrograms/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd) 1 pre-filled disposable injection
+^ESCTAT1128232	Atropine 500micrograms/5ml solution for injection pre-filled syringes 10 pre-filled disposable injection
+^ESCTAT1128233	Atropine 500micrograms/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd) 10 pre-filled disposable injection
+^ESCTAT1131769	Atropine 500micrograms/5ml oral solution 125 ml
+^ESCTAT1131770	Atropine 500micrograms/5ml oral solution (Drug Tariff Special Order) 125 ml
+^ESCTAT1142994	Atropine 500micrograms/5ml solution for injection pre-filled syringes (Aguettant Ltd)
+^ESCTAT1142996	Atropine 500micrograms/5ml solution for injection pre-filled syringes (Aguettant Ltd) 1 pre-filled disposable injection
+^ESCTAT1142997	Atropine 500micrograms/5ml solution for injection pre-filled syringes (Aguettant Ltd) 10 pre-filled disposable injection
+^ESCTAT1143019	Atropine 1mg/5ml solution for injection pre-filled syringes (Aguettant Ltd) 1 pre-filled disposable injection
+^ESCTAT1143027	Atropine 3mg/10ml solution for injection pre-filled syringes (Aguettant Ltd) 1 pre-filled disposable injection
+^ESCTAT1146160	Atropine 600micrograms/1ml solution for injection ampoules (Sigma Pharmaceuticals Plc)
+^ESCTAT1146161	Atropine 600micrograms/1ml solution for injection ampoules (Sigma Pharmaceuticals Plc) 10 ampoule
+^ESCTAT1146168	Atropine 1% eye drops (Sigma Pharmaceuticals Plc)
+^ESCTAT1146169	Atropine 1% eye drops (Sigma Pharmaceuticals Plc) 10 ml
+^ESCTAT1151961	Atropine 40micrograms/2ml solution for injection ampoules
+^ESCTAT1151962	Atropine 40micrograms/2ml solution for injection ampoules 1 ampoule
+^ESCTAT1151964	Atropine 40micrograms/2ml solution for injection ampoules 10 ampoule
+^ESCTAT1151965	Atropine 40micrograms/2ml solution for injection ampoules (Special Order)
+^ESCTAT1151967	Atropine 40micrograms/2ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTAT1151968	Atropine 40micrograms/2ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTAT370227	Atropine
+^ESCTAT451157	Atropine 600micrograms/1ml solution for injection pre-filled syringes
+^ESCTAT451158	Atropine sulfate 600micrograms/1mL prefilled syringe
+^ESCTAT451159	Atropine sulphate 600micrograms/1mL prefilled syringe
+^ESCTAT451160	Atropine 600micrograms/1mL solution for injection pre-filled syringe
+^ESCTAT606128	Atropine 600microgram tablets
+^ESCTAT606130	Atropine sulfate 0.6 mg oral tablet
+^ESCTAT606131	Atropine methonitrate
+^ESCTAT606851	Atropine 400micrograms/1ml solution for injection ampoules
+^ESCTAT606852	Atropine sulphate 400micrograms/1mL injection
+^ESCTAT606853	Atropine sulfate 400micrograms/1mL injection
+^ESCTAT606854	Atropine 600micrograms/1ml solution for injection ampoules
+^ESCTAT606855	Atropine sulfate 600micrograms/1mL injection
+^ESCTAT606856	Atropine sulphate 600micrograms/1mL injection
+^ESCTAT606857	Atropine sulphate 800micrograms/1mL injection
+^ESCTAT606858	Atropine sulfate 800micrograms/1mL injection
+^ESCTAT606859	Atropine 1mg/1ml solution for injection ampoules
+^ESCTAT606860	Atropine sulfate 1mg/1mL injection
+^ESCTAT606861	Atropine sulphate 1mg/1mL injection
+^ESCTAT606862	Atropine 1.25mg/1ml solution for injection ampoules
+^ESCTAT606863	Atropine sulphate 1.25mg/1mL injection
+^ESCTAT606864	Atropine sulfate 1.25mg/1mL injection
+^ESCTAT606865	Atropine 3mg/10ml solution for injection pre-filled syringes
+^ESCTAT606866	Atropine sulfate 3mg/10mL prefilled syringe
+^ESCTAT606867	Atropine sulphate 3mg/10mL prefilled syringe
+^ESCTAT606868	Atropine 3mg/30ml solution for injection pre-filled syringes
+^ESCTAT606869	Atropine sulphate 3mg/30mL prefilled syringe
+^ESCTAT606870	Atropine sulfate 3mg/30mL prefilled syringe
+^ESCTAT606871	Atropine 3mg/10ml solution for injection ampoules
+^ESCTAT606872	Atropine sulphate 3mg/10mL injection
+^ESCTAT606873	Atropine sulfate 3mg/10mL injection
+^ESCTAT606874	Atropine 1mg/5ml solution for injection pre-filled syringes
+^ESCTAT606875	Atropine sulfate 1mg/5mL prefilled syringe
+^ESCTAT606876	Atropine sulphate 1mg/5mL prefilled syringe
+^ESCTAT615535	Atropine 1% eye drops
+^ESCTAT615536	Atropine sulfate 1% eye drops
+^ESCTAT615537	Atropine sulphate 1% eye drops
+^ESCTAT615538	Atropine sulphate 1% solution
+^ESCTAT615539	Atropine sulfate 1% solution
+^ESCTAT615542	Atropine 1% eye ointment
+^ESCTAT615543	Atropine sulphate 1% eye ointment
+^ESCTAT615544	Atropine sulfate 1% eye ointment
+^ESCTAT615545	Atropine 1% eye drops 0.5ml unit dose preservative free
+^ESCTAT615546	Atropine sulphate 1% single-use eye drops
+^ESCTAT615547	Atropine sulfate 1% single-use eye drops
+^ESCTAT618064	Atropine sulphate 0.031% eye drops
+^ESCTAT618065	Atropine sulfate 0.031% eye drops
+^ESCTAT618066	Atropine sulphate 0.062% eye drops
+^ESCTAT618067	Atropine sulfate 0.062% eye drops
+^ESCTAT618068	Atropine sulphate 0.1% eye drops
+^ESCTAT618069	Atropine sulfate 0.1% eye drops
+^ESCTAT618070	Atropine 0.125% eye drops
+^ESCTAT618071	Atropine sulphate 0.125% eye drops
+^ESCTAT618072	Atropine sulfate 0.125% eye drops
+^ESCTAT618073	Atropine sulphate 0.25% eye drops
+^ESCTAT618074	Atropine sulfate 0.25% eye drops
+^ESCTAT618075	Atropine 0.5% eye drops
+^ESCTAT618076	Atropine sulphate 0.5% eye drops
+^ESCTAT618077	Atropine sulfate 0.5% eye drops
+^ESCTAT618078	Atropine 1% eye drops preservative free
+^ESCTAT618079	Atropine sulfate 1% preservative-free eye drops
+^ESCTAT618080	Atropine sulphate 1% preservative-free eye drops
+^ESCTAT618081	Atropine 2% eye drops
+^ESCTAT618082	Atropine sulphate 2% eye drops
+^ESCTAT618083	Atropine sulfate 2% eye drops
+^ESCTAT618450	Atropine sulphate 500micrograms/1mL injection
+^ESCTAT618451	Atropine sulfate 500micrograms/1mL injection
+^ESCTAT618452	Atropine sulphate 2mg/1mL injection
+^ESCTAT618453	Atropine sulfate 2mg/1mL injection
+^ESCTAT618643	Atropine sulphate 500micrograms/5mL s/f solution
+^ESCTAT618644	Atropine sulfate 500micrograms/5mL s/f solution
+^ESCTAT618678	Atropine 500micrograms/5ml solution for injection pre-filled syringes
+^ESCTAT618679	Atropine sulphate 500micrograms/5mL prefilled syringe
+^ESCTAT618680	Atropine sulfate 500micrograms/5mL prefilled syringe
+^ESCTAT618681	Atropine 1mg/10ml solution for injection pre-filled syringes
+^ESCTAT618682	Atropine sulfate 1mg/10mL prefilled syringe
+^ESCTAT618683	Atropine sulphate 1mg/10mL prefilled syringe
+^ESCTAT619051	Atropine in oral dosage form
+^ESCTAT619053	Atropine in parenteral dosage form
+^ESCTAT619055	Atropine in ophthalmic dosage form
+^ESCTAT620271	Atropine sulphate 0.5% eye ointment
+^ESCTAT620272	Atropine sulfate 0.5% eye ointment
+^ESCTAT641013	Atropine sulfate 0.4 mg oral tablet
+^ESCTAT641922	Atropine 0.025 mg and difenoxin hydrochloride 1 mg oral tablet
+^ESCTAT641925	Atropine sulphate + diphenoxylate hydrochloride 0.025mg/2.5mg liquid
+^ESCTAT641926	Atropine sulfate + diphenoxylate hydrochloride 0.025mg/2.5mg liquid
+^ESCTAT641929	Atropine sulfate 0.025 mg and diphenoxylate hydrochloride 2.5 mg oral tablet
+^ESCTAT641930	Atropine sulfate 0.0194 mg and hyoscyamine sulfate 0.1037 mg and scopolamine hydrobromide 0.0065 mg oral tablet
+^ESCTAT643123	Atropine sulphate 140mcg/edrophonium chloride 10mg injection solution vial
+^ESCTAT643124	Atropine sulfate 140mcg/edrophonium chloride 10mg injection solution vial
+^ESCTAT661214	Atropine sulphate + diphenoxylate hydrochloride
+^ESCTAT661215	Atropine sulfate + diphenoxylate hydrochloride
+^ESCTAT661222	Atropine sulphate+edrophonium chloride
+^ESCTAT661223	Atropine sulfate+edrophonium chloride
+^ESCTAT661517	Atropine sulphate + hyoscyamine sulphate + scopolamine hydrobromide
+^ESCTAT661518	Atropine sulfate + hyoscyamine sulfate + scopolamine hydrobromide
+^ESCTAT677531	Atropine+pralidoxime
+^ESCTAT677532	Atropine/pralidoxime two auto-injectors injection solution
+^ESCTAT677533	Atropine/pralidoxime single auto-injector solution
+^ESCTAT677534	Atropine 2.1mg/pralidoxime 600mg single auto-injector solution
+^ESCTAT677535	Atropine 2mg/pralidoxime 600mg two auto-injectors solution
+^ESCTAT804736	Atropine 1% eye drops (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT818691	Atropine 0.5% eye drops (A A H Pharmaceuticals Ltd)
+^ESCTAT818942	Atropine 0.5% eye drops (Martindale Pharmaceuticals Ltd)
+^ESCTAT820079	Atropine 1% eye drops (Kent Pharmaceuticals Ltd)
+^ESCTAT820894	Atropine 1% eye drops (A A H Pharmaceuticals Ltd)
+^ESCTAT830748	Atropine 1% eye drops (Martindale Pharmaceuticals Ltd)
+^ESCTAT831253	Atropine 0.5% eye drops (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT836141	Atropine 0.5% eye drops 10 ml
+^ESCTAT847348	Atropine 1% eye drops 10 ml
+^ESCTAT850376	Atropine 0.5% eye drops (Martindale Pharmaceuticals Ltd) 10 ml
+^ESCTAT850377	Atropine 0.5% eye drops (A A H Pharmaceuticals Ltd) 10 ml
+^ESCTAT850378	Atropine 0.5% eye drops (Alliance Healthcare (Distribution) Ltd) 10 ml
+^ESCTAT850379	Atropine 1% eye drops (A A H Pharmaceuticals Ltd) 10 ml
+^ESCTAT850380	Atropine 1% eye drops (Kent Pharmaceuticals Ltd) 10 ml
+^ESCTAT850381	Atropine 1% eye drops (Martindale Pharmaceuticals Ltd) 10 ml
+^ESCTAT850382	Atropine 1% eye drops (Alliance Healthcare (Distribution) Ltd) 10 ml
+^ESCTAT864546	Atropine 600microgram tablets 28 tablet
+^ESCTAT864547	Atropine 600microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTAT864550	Atropine 600microgram tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAT864552	Atropine 600microgram tablets (Wockhardt UK Ltd)
+^ESCTAT864553	Atropine 600microgram tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTAT864554	Atropine 600microgram tablets (Kent Pharmaceuticals Ltd)
+^ESCTAT864555	Atropine 600microgram tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTAT864556	Atropine 600microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT864557	Atropine 600microgram tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTAT865674	Atropine 1% eye drops 5 ml
+^ESCTAT865755	Atropine 1% eye drops 0.5ml unit dose preservative free 20 unit dose
+^ESCTAT865778	Atropine 1% eye ointment 3 gram
+^ESCTAT865780	Atropine 1% eye ointment (A A H Pharmaceuticals Ltd)
+^ESCTAT865785	Atropine 1% eye ointment (A A H Pharmaceuticals Ltd) 3 gram
+^ESCTAT865789	Atropine 1% eye ointment (Martindale Pharmaceuticals Ltd)
+^ESCTAT865790	Atropine 1% eye ointment (Martindale Pharmaceuticals Ltd) 3 gram
+^ESCTAT865792	Atropine 1% eye ointment (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT865794	Atropine 1% eye ointment (Alliance Healthcare (Distribution) Ltd) 3 gram
+^ESCTAT865800	Atropine 600micrograms/1ml solution for injection ampoules 10 ampoule
+^ESCTAT865801	Atropine 600micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTAT865802	Atropine 600micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTAT865803	Atropine 600micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTAT865804	Atropine 600micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTAT865805	Atropine 600micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT865806	Atropine 600micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTAT870974	Atropine 3mg/10ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTAT870975	Atropine 3mg/10ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+^ESCTAT870976	Atropine 3mg/10ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd) 1 pre-filled disposable injection
+^ESCTAT870977	Atropine 3mg/10ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+^ESCTAT870978	Atropine 3mg/10ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd) 1 pre-filled disposable injection
+^ESCTAT870979	Atropine 3mg/10ml solution for injection pre-filled syringes (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT870980	Atropine 3mg/10ml solution for injection pre-filled syringes (Alliance Healthcare (Distribution) Ltd) 1 pre-filled disposable injection
+^ESCTAT871116	Atropine 1.25mg/1ml solution for injection ampoules 10 ampoule
+^ESCTAT871117	Atropine 1.25mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTAT871118	Atropine 1.25mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTAT871119	Atropine 1.25mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTAT871120	Atropine 1.25mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTAT871121	Atropine 1.25mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT871122	Atropine 1.25mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTAT871139	Atropine 500micrograms/5ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTAT871140	Atropine 500micrograms/5ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd)
+^ESCTAT871141	Atropine 500micrograms/5ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd) 1 pre-filled disposable injection
+^ESCTAT871142	Atropine 1mg/10ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTAT871143	Atropine 1mg/10ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd)
+^ESCTAT871144	Atropine 1mg/10ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd) 1 pre-filled disposable injection
+^ESCTAT871145	Atropine 3mg/30ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTAT871146	Atropine 3mg/30ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd)
+^ESCTAT871147	Atropine 3mg/30ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd) 1 pre-filled disposable injection
+^ESCTAT875333	Atropine 600micrograms/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTAT875334	Atropine 600micrograms/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule
+^ESCTAT900919	Atropine 1mg/1ml solution for injection ampoules 10 ampoule
+^ESCTAT900920	Atropine 1mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTAT900923	Atropine 1mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTAT900924	Atropine 1mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTAT900925	Atropine 1mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTAT900926	Atropine 1mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT900929	Atropine 1mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTAT900938	Atropine 400micrograms/1ml solution for injection ampoules 10 ampoule
+^ESCTAT900952	Atropine 400micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTAT900957	Atropine 400micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTAT900958	Atropine 400micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTAT900959	Atropine 400micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTAT900960	Atropine 400micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTAT900961	Atropine 400micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTAT901031	Atropine 1mg/5ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTAT901032	Atropine 1mg/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+^ESCTAT901033	Atropine 1mg/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd) 1 pre-filled disposable injection
+^ESCTAT901034	Atropine 1mg/5ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+^ESCTAT901035	Atropine 1mg/5ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd) 1 pre-filled disposable injection
+^ESCTAT901075	Atropine 600micrograms/1ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTAT901076	Atropine 600micrograms/1ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+^ESCTAT901077	Atropine 600micrograms/1ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd) 1 pre-filled disposable injection
+^ESCTAT901078	Atropine 600micrograms/1ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+^ESCTAT901079	Atropine 600micrograms/1ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd) 1 pre-filled disposable injection
+^ESCTAT902058	Atropine 3mg/10ml solution for injection ampoules 1 ampoule
+^ESCTAT902059	Atropine 3mg/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTAT902060	Atropine 3mg/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 1 ampoule
+^ESCTAT904515	Atropine 250micrograms/5ml oral solution 1 ml
+^ESCTAT904517	Atropine 250micrograms/5ml oral solution (Special Order)
+^ESCTAT904519	Atropine 250micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTAT904520	Atropine 400micrograms/5ml oral solution 1 ml
+^ESCTAT904521	Atropine 300micrograms/5ml oral solution 1 ml
+^ESCTAT904522	Atropine 400micrograms/5ml oral solution (Special Order)
+^ESCTAT904523	Atropine 250micrograms/5ml oral suspension 1 ml
+^ESCTAT904524	Atropine 400micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTAT904526	Atropine 250micrograms/5ml oral suspension (Special Order)
+^ESCTAT904528	Atropine 300micrograms/5ml oral solution (Special Order)
+^ESCTAT904529	Atropine 250micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTAT904530	Atropine 300micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTAT904531	Atropine 400micrograms/5ml oral suspension 1 ml
+^ESCTAT904533	Atropine 400micrograms/5ml oral suspension (Special Order)
+^ESCTAT904535	Atropine 400micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTAT904537	Atropine 300micrograms/5ml oral suspension 1 ml
+^ESCTAT904538	Atropine 300micrograms/5ml oral suspension (Special Order)
+^ESCTAT904540	Atropine 300micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTAT904564	Atropine 500micrograms/5ml oral solution 1 ml
+^ESCTAT904567	Atropine 500micrograms/5ml oral solution (Drug Tariff Special Order)
+^ESCTAT904571	Atropine 500micrograms/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTAT904574	Atropine 500micrograms/5ml oral suspension 1 ml
+^ESCTAT904578	Atropine 500micrograms/5ml oral suspension (Special Order)
+^ESCTAT904581	Atropine 500micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTAT904768	Atropine 250micrograms/5ml oral solution
+^ESCTAT904769	Atropine 250micrograms/5ml oral suspension
+^ESCTAT904770	Atropine 300micrograms/5ml oral solution
+^ESCTAT904771	Atropine 300micrograms/5ml oral suspension
+^ESCTAT904772	Atropine 400micrograms/5ml oral solution
+^ESCTAT904773	Atropine 400micrograms/5ml oral suspension
+^ESCTAT904774	Atropine 500micrograms/5ml oral solution
+^ESCTAT904776	Atropine 500micrograms/5ml oral suspension
+^ESCTAT931490	Atropine 600micrograms/1ml solution for injection ampoules (AMCo)
+^ESCTAT931491	Atropine 600micrograms/1ml solution for injection ampoules (AMCo) 10 ampoule
+^ESCTAT939006	Atropine sulfate powder
+^ESCTAT939008	Atropine sulfate powder 10 gram
+^ESCTAT939011	Atropine sulfate powder 5 gram
+^ESCTAT939017	Atropine sulfate powder (Imported (Germany))
+^ESCTAT939021	Atropine sulfate powder (Imported (Germany)) 10 gram
+^ESCTAT939027	Atropine sulfate powder (Imported (Germany)) 5 gram
+^ESCTAT945645	Atropine 100micrograms/5ml oral solution 1 ml
+^ESCTAT945647	Atropine 100micrograms/5ml oral solution (Special Order)
+^ESCTAT945648	Atropine 100micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTAT945650	Atropine 150micrograms/5ml oral solution 1 ml
+^ESCTAT945651	Atropine 150micrograms/5ml oral solution (Special Order)
+^ESCTAT945652	Atropine 150micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTAT945654	Atropine 200micrograms/5ml oral solution 1 ml
+^ESCTAT945655	Atropine 200micrograms/5ml oral solution (Special Order)
+^ESCTAT945656	Atropine 200micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTAT945660	Atropine 50micrograms/5ml oral solution 1 ml
+^ESCTAT945661	Atropine 50micrograms/5ml oral solution (Special Order)
+^ESCTAT945662	Atropine 50micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTAT945666	Atropine 5mg/5ml oral solution 1 ml
+^ESCTAT945667	Atropine 5mg/5ml oral solution (Special Order)
+^ESCTAT945668	Atropine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAT945671	Atropine 600micrograms/5ml oral solution 1 ml
+^ESCTAT945673	Atropine 600micrograms/5ml oral solution (Special Order)
+^ESCTAT945675	Atropine 600micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTAT945906	Atropine 850micrograms/5ml oral solution 1 ml
+^ESCTAT945909	Atropine 850micrograms/5ml oral solution (Special Order)
+^ESCTAT945911	Atropine 850micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTAT946025	Atropine 100micrograms/5ml oral solution
+^ESCTAT946026	Atropine 150micrograms/5ml oral solution
+^ESCTAT946027	Atropine 200micrograms/5ml oral solution
+^ESCTAT946030	Atropine 50micrograms/5ml oral solution
+^ESCTAT946031	Atropine 5mg/5ml oral solution
+^ESCTAT946032	Atropine 600micrograms/5ml oral solution
+^ESCTAT946033	Atropine 850micrograms/5ml oral solution
+^ESCTAT959935	Atropine 1% eye drops (Dowelhurst Ltd)
+^ESCTAT959937	Atropine 1% eye drops (Dowelhurst Ltd) 10 ml
+^ESCTCO641924	Co-phenotrope 2500mcg/25micrograms liquid
+^ESCTCO641927	Co-phenotrope 2.5mg/0.025mg tablets
+^ESCTIS865676	Isopto Atropine 1% eye drops (Alcon Laboratories (UK) Ltd)
+^ESCTIS865678	Isopto Atropine 1% eye drops (Alcon Laboratories (UK) Ltd) 5 ml
+^ESCTIS922194	Isopto Atropine
+^ESCTME606132	Methylatropine nitrate
+^ESCTMI865756	Minims atropine sulfate 1% eye drops 0.5ml unit dose (Bausch & Lomb UK Ltd)
+^ESCTMI865757	Minims atropine sulfate 1% eye drops 0.5ml unit dose (Bausch & Lomb UK Ltd) 20 unit dose
+^ESCTMO616896	Morphine sulphate+atropine sulphate 10mg/600micrograms/1mL injection
+^ESCTMO616897	Morphine sulfate+atropine sulfate 10mg/600micrograms/1mL injection
+^ESCTMY1126865	Mydricaine No1 solution for injection 0.3ml ampoules (Special Order)
+^ESCTMY1126866	Mydricaine No1 solution for injection 0.3ml ampoules (Special Order) 1 ampoule
+^ESCTMY1126874	Mydricaine No2 solution for injection 0.3ml ampoules (Special Order)
+^ESCTMY1126875	Mydricaine No2 solution for injection 0.3ml ampoules (Special Order) 1 ampoule
+^ESCTPR370228	Product containing atropine
+^ESCTPR606129	Product containing atropine sulfate 0.6 milligram/1 each oral tablet
+^ESCTPR619052	Product containing atropine in oral dosage form
+^ESCTPR619054	Product containing atropine in parenteral dosage form
+^ESCTPR619056	Product containing atropine in ophthalmic dosage form
+^ESCTPR641014	Product containing atropine sulfate 0.4 milligram/1 each oral tablet
+^ESCTPR641923	Product containing atropine 0.025 mg and difenoxin hydrochloride 1 mg/1 each oral tablet
+^ESCTPR641928	Product containing atropine sulfate 0.025 mg and diphenoxylate hydrochloride 2.5 mg/1 each oral tablet
+^ESCTPR641931	Product containing atropine sulfate 0.0194 mg and hyoscyamine sulfate 0.1037 mg and scopolamine hydrobromide 0.0065 mg/1 each oral tablet
+^ESCTPR661216	Product containing atropine sulfate and diphenoxylate hydrochloride
+^ESCTPR661519	Product containing atropine sulfate and hyoscyamine sulfate and scopolamine hydrobromide
+ADSP3119	Adrenaline And Atropine  Spray
+ATEY15434NEMIS	Atropine Sulfate  Eye Drops Unit Dose, Preservative Free  1 %
+ATEY241	Atropine Sulfate  Eye drops  1 %
+ATEY3201	Atropine  Eye ointment  1 %
+ATEY33858MGEMIS	Atropine Sulfate  Eye drops  1 % (Unichem)
+ATEY33859MGEMIS	Atropine Sulfate  Eye drops  1 % (Kent Pharm)
+ATEY33860MGEMIS	Atropine Sulfate  Eye drops  1 % (A.A.H. Pharm)
+ATEY33861MGEMIS	Atropine Sulfate  Eye drops  1 % (Martindale)
+ATEY33862MGEMIS	Atropine  Eye ointment  1 % (A.A.H. Pharm)
+ATEY33863MGEMIS	Atropine  Eye ointment  1 % (Martindale)
+ATEY33864MGEMIS	Atropine  Eye ointment  1 % (Unichem)
+ATEY37608MGEMIS	Atropine Sulfate  Eye drops  0.5 % (A.A.H. Pharm)
+ATEY37609MGEMIS	Atropine Sulfate  Eye drops  0.5 % (Martindale)
+ATEY37610MGEMIS	Atropine Sulfate  Eye drops  0.5 % (Unichem)
+ATEY627NEMIS	Atropine Sulfate  Eye drops  0.5 %
+ATIN139534NEMIS	Atropine Sulfate  Injection  40 micrograms/2 ml ampoule
+ATIN242	Atropine Sulfate  Injection  1 mg/ml, 1 ml ampoule
+ATIN243	Atropine Sulfate  Injection  400 micrograms/ml, 1 ml ampoule
+ATIN244	Atropine Sulfate  Injection  600 micrograms/ml, 1 ml ampoule
+ATIN245	Atropine Sulfate  Injection  800 micrograms/ml
+ATIN3032NEMIS	Atropine Sulfate  Injection  100 micrograms/ml, 5 ml syringe
+ATIN3035NEMIS	Atropine Sulfate  Injection  100 micrograms/ml, 10 ml syringe
+ATIN3036NEMIS	Atropine Sulfate  Injection  100 micrograms/ml, 30 ml syringe
+ATIN3039NEMIS	Atropine Sulfate  Injection  200 micrograms/ml, 5 ml syringe
+ATIN3041NEMIS	Atropine Sulfate  Injection  300 micrograms/ml, 10 ml syringe
+ATIN33865MGEMIS	Atropine Sulfate  Injection  600 micrograms/ml, 1 ml ampoule (A.A.H. Pharm)
+ATIN33866MGEMIS	Atropine Sulfate  Injection  600 micrograms/ml, 1 ml ampoule (Martindale)
+ATIN33867MGEMIS	Atropine Sulfate  Injection  600 micrograms/ml, 1 ml ampoule (Unichem)
+ATIN33868MGEMIS	Atropine Sulfate  Injection  600 micrograms/ml, 1 ml ampoule (Phoenix)
+ATOR27606NEMIS	Atropine Sulfate  Oral solution  500 micrograms/5 ml
+ATSO142510NEMIS	Atropine Sulfate  Solution for injection  1 mg/10 ml pre-filled syringe
+ATTA3202	Atropine Sulfate  Tablets  600 micrograms
+ATTA33902MGEMIS	Atropine Sulfate  Tablets  600 micrograms (A.A.H. Pharm)
+ATTA33903MGEMIS	Atropine Sulfate  Tablets  600 micrograms (Wockhardt UK)
+ATTA33904MGEMIS	Atropine Sulfate  Tablets  600 micrograms (Kent Pharm)
+ATTA33905MGEMIS	Atropine Sulfate  Tablets  600 micrograms (Unichem)
+COTA9352HILLI	Co-Phenotrope 2.5/0.025  Tablets  
+ISEY3786	Isopto Atropine  Eye drops  
+MIEY5976	Minims Atropine Sulfate  Eye-drops  1 %
+MIIN24299NEMIS	Min-I-Jet Atropine  Injection  3 mg/30 ml pre-filled syringe
+MIIN24300NEMIS	Min-I-Jet Atropine  Injection  500 micrograms/5 ml pre-filled syringe
+MIIN24301NEMIS	Min-I-Jet Atropine  Injection  1 mg/10 ml pre-filled syringe
+MIIN27530EMIS	Min-I-Jet Atropine  Injection  100 micrograms/ml
+MOINEGTON6391	Morphine And Atropine  Injection  1 ml ampoule
+OPEY4085	Opulets Atropine Sulphate  Eye drops  1 %
+^ESCT1198053	Co-phenotrope 2.5mg/0.025mg tablets 1 tablet
+^ESCT1198054	Co-phenotrope 2.5mg/0.025mg tablets (Special Order)
+^ESCT1198055	Co-phenotrope 2.5mg/0.025mg tablets (Special Order) 1 tablet
+^ESCT1250027	Lomotil 2.5mg/25microgram tablets (Advanz Pharma)
+^ESCT1250144	Lomotil 2.5mg/25microgram tablets (Advanz Pharma) 100 tablet 5 x 20 tablets
+^ESCT1250483	Co-phenotrope 2.5mg/0.025mg tablets (Advanz Pharma)
+^ESCT1250484	Co-phenotrope 2.5mg/0.025mg tablets (Advanz Pharma) 100 tablet 10 x 10 tablets
+^ESCT1439858	Co-phenotrope 2.5mg/0.025mg tablets (Part VIIID Drug Tariff Special Order) 20 tablet
+^ESCT1441194	Co-phenotrope 2.5mg/0.025mg tablets (Part VIIID Drug Tariff Special Order)
+^ESCT1441195	Co-phenotrope 2.5mg/0.025mg tablets (Part VIIID Drug Tariff Special Order) 1 tablet
+^ESCTCO1006988	Co-phenotrope
+^ESCTCO847196	Co-phenotrope 2.5mg/0.025mg tablets 100 tablet
+^ESCTCO896926	Co-phenotrope 2.5mg/0.025mg tablets 20 tablet
+^ESCTCO966208	Co-phenotrope 2.5mg/0.025mg tablets (AMCo)
+^ESCTCO966209	Co-phenotrope 2.5mg/0.025mg tablets (AMCo) 100 tablet 10 x 10 tablets
+^ESCTCO979815	Co-phenotrope 2.5mg/0.025mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO979816	Co-phenotrope 2.5mg/0.025mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTCO982272	Co-phenotrope 2.5mg/0.025mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO982273	Co-phenotrope 2.5mg/0.025mg tablets (A A H Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCTDY896927	Dymotil 2.5mg/25microgram tablets (Mercury Pharma Group Ltd)
+^ESCTDY896928	Dymotil 2.5mg/25microgram tablets (Mercury Pharma Group Ltd) 20 tablet 2 x 10 tablets
+^ESCTDY914955	Dymotil
+^ESCTLO1056159	Lomotil 2.5mg/25microgram tablets (Imported (Ireland))
+^ESCTLO1056160	Lomotil 2.5mg/25microgram tablets (Imported (Ireland)) 100 tablet
+^ESCTLO1159911	Lofenoxal 2.5mg/25microgram tablets (Imported (Australia))
+^ESCTLO1159912	Lofenoxal 2.5mg/25microgram tablets (Imported (Australia)) 20 tablet
+^ESCTLO809552	Lomotil 2.5mg/25microgram tablets (AMCo)
+^ESCTLO855770	Lomotil 2.5mg/25microgram tablets (AMCo) 100 tablet 5 x 20 tablets
+^ESCTLO919488	Lomotil
+^ESCTLO971061	Lomotil 2.5mg/25microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTLO971064	Lomotil 2.5mg/25microgram tablets (Sigma Pharmaceuticals Plc) 100 tablet
+COLI9351HILLI	Co-Phenotrope 2.5/0.025  Liquid
+DYTA17494NEMIS	Dymotil  Tablets  
+LOLI1686	Lomotil  Liquid  
+LOTA1687	Lomotil  Tablets  
+TRTA24398EMIS	Troperagen  Tablets  

@@ -1,0 +1,5 @@
+d22..00	ALPRAZOLAM
+d22z.00	ALPRAZOLAM 500microgram tablets
+d22y.00	ALPRAZOLAM 250microgram tablets
+d222.00	XANAX 500micrograms tablets
+d221.00	XANAX 250micrograms tablets

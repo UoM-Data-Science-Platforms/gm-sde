@@ -1,0 +1,1354 @@
+^ESCT1172767	Codeine 3mg/5ml linctus paediatric
+^ESCT1173703	Codeine 15mg tablets (Sun Pharmaceuticals UK Ltd)
+^ESCT1173704	Codeine 15mg tablets (Sun Pharmaceuticals UK Ltd) 28 tablet
+^ESCT1173705	Codeine 15mg tablets (Sun Pharmaceuticals UK Ltd) 100 tablet
+^ESCT1173706	Codeine 30mg tablets (Sun Pharmaceuticals UK Ltd)
+^ESCT1173707	Codeine 30mg tablets (Sun Pharmaceuticals UK Ltd) 28 tablet
+^ESCT1173708	Codeine 30mg tablets (Sun Pharmaceuticals UK Ltd) 500 tablet
+^ESCT1173888	Co-codamol 60mg/1000mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1178194	Product containing only paracetamol 500 mg and codeine phosphate 13.5 mg/1 each oral tablet
+^ESCT1178195	Product containing only acetaminophen 500 mg and codeine phosphate 13.5 mg/1 each oral tablet
+^ESCT1179324	Product containing only aspirin 325 mg and carisoprodol 200 mg and codeine phosphate 16 mg/1 each oral tablet
+^ESCT1179702	Medocodene 30mg/500mg effervescent tablets (Mylan) 90 tablet
+^ESCT1181123	Product containing only acetaminophen 500 mg and codeine phosphate 30 mg/1 each oral tablet
+^ESCT1181124	Product containing only paracetamol 500 mg and codeine phosphate 30 mg/1 each oral tablet
+^ESCT1181125	Product containing only acetaminophen 500 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCT1181126	Product containing only paracetamol 500 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCT1181129	Product containing only codeine phosphate 30 mg/1 each oral tablet
+^ESCT1181130	Product containing only codeine phosphate 60 mg/1 each oral tablet
+^ESCT1181322	Product containing only acetaminophen 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCT1181323	Product containing only paracetamol 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCT1181915	Product containing only acetaminophen 500 mg and codeine phosphate 12.8 mg/1 each oral tablet
+^ESCT1181916	Product containing only paracetamol 500 mg and codeine phosphate 12.8 mg/1 each oral tablet
+^ESCT1182046	Product containing only aspirin 325 mg and codeine 60 mg/1 each oral tablet
+^ESCT1182364	Product containing only ibuprofen 200 mg and codeine phosphate 12.8 mg/1 each oral tablet
+^ESCT1182388	Codeine and phenylephrine and promethazine
+^ESCT1182389	Product containing codeine and phenylephrine and promethazine
+^ESCT1182469	Product containing only aspirin 325 mg and codeine 30 mg/1 each oral tablet
+^ESCT1182556	Bromodiphenhydramine and codeine
+^ESCT1182557	Product containing bromodiphenhydramine and codeine
+^ESCT1182558	Product containing bromazine and codeine
+^ESCT1182559	Bromazine and codeine
+^ESCT1182637	Product containing only acetaminophen 500 mg and codeine phosphate 15 mg/1 each oral tablet
+^ESCT1182638	Product containing only paracetamol 500 mg and codeine phosphate 15 mg/1 each oral tablet
+^ESCT1183090	Product containing codeine and kaolin
+^ESCT1183091	Codeine and kaolin
+^ESCT1183187	Product containing only paracetamol 300 mg and codeine phosphate 15 mg/1 each oral tablet
+^ESCT1183188	Product containing only acetaminophen 300 mg and codeine phosphate 15 mg/1 each oral tablet
+^ESCT1183194	Product containing only paracetamol 300 mg and codeine phosphate 60 mg/1 each oral tablet
+^ESCT1183195	Product containing only acetaminophen 300 mg and codeine phosphate 60 mg/1 each oral tablet
+^ESCT1183599	Medocodene 30mg/500mg effervescent tablets (Mylan)
+^ESCT1183851	Co-codamol 30mg/500mg capsules (Mylan)
+^ESCT1185261	Product containing only aspirin 300 mg and codeine 8 mg/1 each oral tablet
+^ESCT1185436	Product containing only paracetamol 300 mg and codeine phosphate 30 mg/1 each oral tablet
+^ESCT1185437	Product containing only acetaminophen 300 mg and codeine phosphate 30 mg/1 each oral tablet
+^ESCT1185562	Product containing only codeine sulfate 30 mg/1 each oral tablet
+^ESCT1185959	Co-codamol 8mg/500mg tablets (Mylan)
+^ESCT1186020	Co-codamol 30mg/500mg tablets (Mylan)
+^ESCT1186368	Co-codamol 8mg/500mg effervescent tablets (Mylan)
+^ESCT1187308	Product containing only codeine phosphate 15 mg/1 each oral tablet
+^ESCT1187424	Product containing only aspirin 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCT1188260	Product containing only ibuprofen 200 mg and codeine phosphate 12.5 mg/1 each oral tablet
+^ESCT1188636	Product containing only codeine sulfate 15 mg/1 each oral tablet
+^ESCT1188637	Product containing only codeine sulfate 60 mg/1 each oral tablet
+^ESCT1188898	Co-codamol 30mg/500mg effervescent tablets (Mylan)
+^ESCT1195074	Codeine 3mg/5ml linctus paediatric
+^ESCT1196650	Emcozin
+^ESCT1197976	Emcozin 30mg/500mg tablets (M & A Pharmachem Ltd)
+^ESCT1197977	Emcozin 30mg/500mg tablets (M & A Pharmachem Ltd) 100 tablet 10 x 10 tablets
+^ESCT1199334	Co-codamol 8mg/500mg caplets (A A H Pharmaceuticals Ltd)
+^ESCT1199353	Co-codamol 8mg/500mg tablets (Accord Healthcare Ltd)
+^ESCT1203035	Caffeine 15 mg and codeine phosphate 15 mg and paracetamol 300 mg oral tablet
+^ESCT1203036	Acetaminophen 300 mg and caffeine 15 mg and codeine phosphate 15 mg oral tablet
+^ESCT1203037	Product containing precisely caffeine 15 milligram and codeine phosphate 15 milligram and paracetamol 300 milligram/1 each conventional release oral tablet
+^ESCT1203038	Caffeine and codeine and paracetamol product
+^ESCT1203039	Product containing caffeine and codeine and paracetamol
+^ESCT1203040	Acetaminophen and caffeine and codeine product
+^ESCT1203041	Caffeine and codeine and paracetamol in oral dosage form
+^ESCT1203042	Product containing acetaminophen and caffeine and codeine in oral dosage form
+^ESCT1203043	Acetaminophen and caffeine and codeine in oral dosage form
+^ESCT1203044	Product containing caffeine and codeine and paracetamol in oral dosage form
+^ESCT1203045	Caffeine 15 mg and codeine phosphate 30 mg and paracetamol 300 mg oral tablet
+^ESCT1203046	Acetaminophen 300 mg and caffeine 15 mg and codeine phosphate 30 mg oral tablet
+^ESCT1203047	Product containing precisely caffeine 15 milligram and codeine phosphate 30 milligram and paracetamol 300 milligram/1 each conventional release oral tablet
+^ESCT1203320	Codeine phosphate 20 mg and ibuprofen 300 mg prolonged-release oral tablet
+^ESCT1203321	Product containing precisely codeine phosphate 20 milligram and ibuprofen 300 milligram/1 each prolonged-release oral tablet
+^ESCT1204488	Codeine phosphate 3 mg/mL oral solution
+^ESCT1204489	Product containing precisely codeine phosphate 3 milligram/1 milliliter conventional release oral solution
+^ESCT1206083	Codeine and paracetamol in oral dosage form
+^ESCT1206084	Product containing codeine and paracetamol in oral dosage form
+^ESCT1206085	Acetaminophen and codeine in oral dosage form
+^ESCT1206105	Codeine and ibuprofen in oral dosage form
+^ESCT1206106	Product containing codeine and ibuprofen in oral dosage form
+^ESCT1206304	Aspirin and butalbital and caffeine and codeine product
+^ESCT1206305	Product containing aspirin and butalbital and caffeine and codeine
+^ESCT1206307	Aspirin and butalbital and caffeine and codeine in oral dosage form
+^ESCT1206308	Product containing aspirin and butalbital and caffeine and codeine in oral dosage form
+^ESCT1206313	Aspirin and carisoprodol and codeine product
+^ESCT1206314	Product containing aspirin and carisoprodol and codeine
+^ESCT1206315	Aspirin and carisoprodol and codeine in oral dosage form
+^ESCT1206316	Product containing aspirin and carisoprodol and codeine in oral dosage form
+^ESCT1207566	Butalbital and caffeine and codeine and paracetamol product
+^ESCT1207567	Product containing butalbital and caffeine and codeine and paracetamol
+^ESCT1207568	Acetaminophen and butalbital and caffeine and codeine product
+^ESCT1207569	Butalbital and caffeine and codeine and paracetamol in oral dosage form
+^ESCT1207570	Acetaminophen and butalbital and caffeine and codeine in oral dosage form
+^ESCT1207571	Product containing butalbital and caffeine and codeine and paracetamol in oral dosage form
+^ESCT1208723	Codeine phosphate 5 mg/mL oral solution
+^ESCT1208724	Product containing precisely codeine phosphate 5 milligram/1 milliliter conventional release oral solution
+^ESCT1208769	Codeine phosphate 600 microgram/mL oral solution
+^ESCT1208770	Product containing precisely codeine phosphate 600 microgram/1 milliliter conventional release oral solution
+^ESCT1209182	Codeine phosphate 60 mg/mL solution for injection ampoule
+^ESCT1209183	Product containing precisely codeine phosphate 60 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1209184	Codeine phosphate 60 mg/mL solution for injection ampule
+^ESCT1212349	Codeine 15mg/5ml linctus sugar free
+^ESCT1212370	Codeine 25mg/5ml oral solution
+^ESCT1213812	Codeine 30mg tablets (Sun Pharmaceuticals UK Ltd) 100 tablet
+^ESCT1215516	Co-codamol 15mg/500mg tablets (Medreich Plc)
+^ESCT1215546	Ibuprofen 300mg modified-release / Codeine 20mg tablets
+^ESCT1215868	Codeine 60mg/1ml solution for injection ampoules
+^ESCT1215869	Codeine phosphate powder
+^ESCT1220195	Codeine
+^ESCT1220196	Codeine product
+^ESCT1223725	Product containing precisely codeine phosphate 30 milligram and paracetamol 500 milligram/1 sachet effervescent powder for conventional release oral suspension
+^ESCT1223726	Codeine phosphate 30 mg and paracetamol 500 mg effervescent powder for oral suspension sachet
+^ESCT1223727	Acetaminophen 500 mg and codeine phosphate 30 mg effervescent powder for oral suspension sachet
+^ESCT1223728	Codeine phosphate 60 mg and paracetamol 1 g effervescent powder for oral suspension sachet
+^ESCT1223729	Product containing precisely codeine phosphate 60 milligram and paracetamol 1 gram/1 sachet effervescent powder for conventional release oral suspension
+^ESCT1223730	Acetaminophen 1 g and codeine phosphate 60 mg effervescent powder for oral suspension sachet
+^ESCT1223731	Product containing precisely codeine phosphate 30 milligram and paracetamol 500 milligram/1 each conventional release oral tablet
+^ESCT1223732	Codeine phosphate 30 mg and paracetamol 500 mg oral tablet
+^ESCT1223733	Product containing precisely codeine phosphate 30 milligram and paracetamol 500 milligram/1 each conventional release effervescent oral tablet
+^ESCT1223734	Codeine phosphate 30 mg and paracetamol 500 mg effervescent oral tablet
+^ESCT1223735	Acetaminophen 500 mg and codeine phosphate 30 mg effervescent oral tablet
+^ESCT1223736	Product containing precisely codeine phosphate 30 milligram and paracetamol 500 milligram/1 each conventional release oral capsule
+^ESCT1223737	Codeine phosphate 30 mg and paracetamol 500 mg oral capsule
+^ESCT1223738	Acetaminophen 500 mg and codeine phosphate 30 mg oral capsule
+^ESCT1223745	Product containing precisely codeine phosphate 13.5 milligram and paracetamol 500 milligram/1 each conventional release oral tablet
+^ESCT1223746	Codeine phosphate 13.5 mg and paracetamol 500 mg oral tablet
+^ESCT1223750	Product containing precisely codeine phosphate 12.8 milligram and paracetamol 500 milligram/1 each conventional release oral tablet
+^ESCT1223751	Codeine phosphate 12.8 mg and paracetamol 500 mg oral tablet
+^ESCT1223774	Product containing precisely codeine phosphate 15 milligram/1 each conventional release oral tablet
+^ESCT1223775	Product containing precisely codeine phosphate 30 milligram/1 each conventional release oral tablet
+^ESCT1223776	Product containing precisely codeine phosphate 60 milligram/1 each conventional release oral tablet
+^ESCT1225414	Ibuprofen 200 mg and codeine phosphate 12.5 mg oral tablet
+^ESCT1225415	Codeine phosphate 12.5 mg and ibuprofen 200 mg oral tablet
+^ESCT1225416	Product containing precisely codeine phosphate 12.5 milligram and ibuprofen 200 milligram/1 each conventional release oral tablet
+^ESCT1225419	Product containing precisely codeine phosphate 12.8 milligram and ibuprofen 200 milligram/1 each conventional release oral tablet
+^ESCT1225420	Codeine phosphate 12.8 mg and ibuprofen 200 mg oral tablet
+^ESCT1227505	Butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg and paracetamol 325 mg oral capsule
+^ESCT1227506	Acetaminophen 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg oral capsule
+^ESCT1227507	Product containing precisely butalbital 50 milligram and caffeine 40 milligram and codeine phosphate 30 milligram and paracetamol 325 milligram/1 each conventional release oral capsule
+^ESCT1227508	Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCT1227509	Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg oral capsule
+^ESCT1227510	Product containing precisely aspirin 325 milligram and butalbital 50 milligram and caffeine 40 milligram and codeine phosphate 30 milligram/1 each conventional release oral capsule
+^ESCT1228950	Product containing precisely aspirin 325 milligram and carisoprodol 200 milligram and codeine phosphate 16 milligram/1 each conventional release oral tablet
+^ESCT1228988	Codeine phosphate 15 mg and paracetamol 300 mg oral tablet
+^ESCT1228989	Product containing precisely codeine phosphate 15 milligram and paracetamol 300 milligram/1 each conventional release oral tablet
+^ESCT1228997	Codeine phosphate 30 mg and paracetamol 300 mg oral tablet
+^ESCT1228998	Product containing precisely codeine phosphate 30 milligram and paracetamol 300 milligram/1 each conventional release oral tablet
+^ESCT1228999	Codeine phosphate 60 mg and paracetamol 300 mg oral tablet
+^ESCT1229000	Product containing precisely codeine phosphate 60 milligram and paracetamol 300 milligram/1 each conventional release oral tablet
+^ESCT1230079	Bromodiphenhydramine and codeine product
+^ESCT1230080	Bromazine and codeine product
+^ESCT1230211	Product containing precisely aspirin 300 milligram and codeine 8 milligram/1 each conventional release oral tablet
+^ESCT1230424	Codeine phosphate 15 mg and paracetamol 500 mg oral tablet
+^ESCT1230425	Product containing precisely codeine phosphate 15 milligram and paracetamol 500 milligram/1 each conventional release oral tablet
+^ESCT1231759	Aspirin and codeine product
+^ESCT1231885	Codeine and phenylephrine and promethazine
+^ESCT1231886	Codeine and phenylephrine and promethazine product
+^ESCT1231895	Pseudoephedrine + codeine + guaifenesin
+^ESCT1231896	Product containing codeine and guaifenesin and pseudoephedrine
+^ESCT1231897	Codeine and guaifenesin and pseudoephedrine product
+^ESCT1231946	Phenylephrine + chlorpheniramine + codeine + potassium iodide
+^ESCT1231947	Product containing chlorphenamine and codeine and phenylephrine and potassium iodide
+^ESCT1231948	Chlorphenamine and codeine and phenylephrine and potassium iodide product
+^ESCT1231949	Chlorpheniramine and codeine and phenylephrine and potassium iodide product
+^ESCT1231950	Codeine + guaifenesin
+^ESCT1231951	Product containing codeine and guaifenesin
+^ESCT1231952	Codeine and guaifenesin product
+^ESCT1232082	Chlorpheniramine + pseudoephedrine + codeine
+^ESCT1232083	Chlorphenamine and codeine and pseudoephedrine product
+^ESCT1232084	Product containing chlorphenamine and codeine and pseudoephedrine
+^ESCT1232085	Chlorpheniramine and codeine and pseudoephedrine product
+^ESCT1232125	Co-codamol
+^ESCT1232126	Acetaminophen and codeine product
+^ESCT1232127	Codeine and paracetamol product
+^ESCT1232164	Product containing precisely aspirin 325 milligram and codeine 30 milligram/1 each conventional release oral tablet
+^ESCT1232165	Product containing precisely aspirin 325 milligram and codeine 60 milligram/1 each conventional release oral tablet
+^ESCT1232831	Product containing codeine and terpin
+^ESCT1232832	Codeine and terpin product
+^ESCT1233208	Product containing codeine and guaiacol
+^ESCT1233209	Codeine and guaiacol product
+^ESCT1233765	Codeine and ibuprofen product
+^ESCT1234439	Codeine and kaolin product
+^ESCT1235015	Codeine + pseudoephedrine
+^ESCT1235016	Product containing codeine and pseudoephedrine
+^ESCT1235017	Codeine and pseudoephedrine product
+^ESCT1235314	Product containing precisely codeine sulfate 15 milligram/1 each conventional release oral tablet
+^ESCT1235319	Product containing precisely codeine sulfate 60 milligram/1 each conventional release oral tablet
+^ESCT1235320	Product containing precisely codeine sulfate 30 milligram/1 each conventional release oral tablet
+^ESCT1237488	Co-codamol 30mg/500mg effervescent tablets (Zanza Specials International Ltd)
+^ESCT1250006	Zapain 30mg/500mg tablets (Advanz Pharma)
+^ESCT1250030	Zapain 30mg/500mg capsules (Advanz Pharma)
+^ESCT1250111	Zapain 30mg/500mg tablets (Advanz Pharma) 100 tablet
+^ESCT1250115	Zapain 30mg/500mg capsules (Advanz Pharma) 100 capsule
+^ESCT1250236	Codipar 15mg/500mg tablets (Advanz Pharma)
+^ESCT1250237	Codipar 15mg/500mg tablets (Advanz Pharma) 100 tablet 10 x 10 tablets
+^ESCT1250510	Co-codamol 30mg/500mg capsules (Advanz Pharma)
+^ESCT1250553	Codipar 15mg/500mg capsules (Advanz Pharma)
+^ESCT1250554	Codipar 15mg/500mg capsules (Advanz Pharma) 100 capsule 5 x 20 capsules
+^ESCT1250555	Codipar 15mg/500mg effervescent tablets (Advanz Pharma)
+^ESCT1250556	Codipar 15mg/500mg effervescent tablets (Advanz Pharma) 100 tablet 4 x 25 tablets
+^ESCT1250608	Co-codamol 30mg/500mg effervescent tablets (Advanz Pharma)
+^ESCT1250641	Co-codamol 30mg/500mg caplets (Advanz Pharma)
+^ESCT1255507	Codeine 25mg/5ml oral solution
+^ESCT1256229	Codeine 15mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1256230	Codeine 15mg tablets (Sun Pharmaceutical Industries Europe B.V.) 28 tablet
+^ESCT1256231	Codeine 15mg tablets (Sun Pharmaceutical Industries Europe B.V.) 100 tablet
+^ESCT1256232	Codeine 30mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1256233	Codeine 30mg tablets (Sun Pharmaceutical Industries Europe B.V.) 28 tablet
+^ESCT1256234	Codeine 30mg tablets (Sun Pharmaceutical Industries Europe B.V.) 500 tablet
+^ESCT1256256	Codeine 30mg tablets (Sun Pharmaceutical Industries Europe B.V.) 100 tablet
+^ESCT1259521	Co-codamol 30mg/500mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259526	Co-codamol 60mg/1000mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1263964	Codeine 30mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCT1265523	Co-codamol 15mg/500mg capsules (DE Pharmaceuticals)
+^ESCT1275902	Codeine 60mg tablets (Accord Healthcare Ltd)
+^ESCT1275950	Codeine 60mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1276920	Codeine 15mg tablets (Accord Healthcare Ltd)
+^ESCT1276921	Codeine 30mg tablets (Accord Healthcare Ltd)
+^ESCT1276942	Codeine 15mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1276943	Codeine 30mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1299130	Co-codamol 30mg/500mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCT1299582	Paracetamol + Codeine + Buclizine
+^ESCT1299585	Co-codamol 30mg/500mg/5ml oral solution sugar free
+^ESCT1300997	Solpadol 30mg/500mg caplets (DE Pharmaceuticals)
+^ESCT1300998	Solpadol 30mg/500mg caplets (DE Pharmaceuticals) 100 tablet
+^ESCT1306237	Codasolve 8mg/500mg/30mg effervescent tablets (Kent Pharmaceuticals Ltd)
+^ESCT1306247	Co-codamol 8mg/500mg effervescent tablets sugar free (Accord Healthcare Ltd)
+^ESCT1306397	Co-codamol 8mg/500mg effervescent tablets sugar free
+^ESCT1306398	Generic Codasolve 8mg/500mg/30mg effervescent tablets sugar free
+^ESCT1306450	Co-codamol 30mg/500mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1351241	Aspirin- and codeine-containing product in oral dose form
+^ESCT1353568	Aspirin and butalbital and caffeine and codeine only product
+^ESCT1353578	Aspirin and carisoprodol and codeine only product
+^ESCT1353579	Aspirin and codeine only product
+^ESCT1353850	Bromazine and codeine only product
+^ESCT1353851	Bromodiphenhydramine and codeine only product
+^ESCT1353883	Butalbital and caffeine and codeine and paracetamol only product
+^ESCT1353884	Acetaminophen and butalbital and caffeine and codeine only product
+^ESCT1353906	Caffeine and codeine and paracetamol only product
+^ESCT1353907	Acetaminophen and caffeine and codeine only product
+^ESCT1354158	Chlorphenamine and codeine and phenylephrine and potassium iodide only product
+^ESCT1354159	Chlorpheniramine and codeine and phenylephrine and potassium iodide only product
+^ESCT1354160	Chlorphenamine and codeine and pseudoephedrine only product
+^ESCT1354161	Chlorpheniramine and codeine and pseudoephedrine only product
+^ESCT1354351	Codeine only product
+^ESCT1354352	Codeine and guaiacol only product
+^ESCT1354353	Codeine and guaifenesin only product
+^ESCT1354354	Codeine and guaifenesin and pseudoephedrine only product
+^ESCT1354355	Codeine and ibuprofen only product
+^ESCT1354356	Codeine and kaolin only product
+^ESCT1354357	Codeine and paracetamol only product
+^ESCT1354358	Acetaminophen and codeine only product
+^ESCT1354359	Codeine and phenylephrine and promethazine only product
+^ESCT1354360	Codeine and pseudoephedrine only product
+^ESCT1354361	Codeine and terpin only product
+^ESCT1357530	Aspirin and butalbital and caffeine and codeine only product in oral dose form
+^ESCT1357538	Aspirin and carisoprodol and codeine only product in oral dose form
+^ESCT1357540	Aspirin and codeine only product in oral dose form
+^ESCT1357766	Butalbital and caffeine and codeine and paracetamol only product in oral dose form
+^ESCT1357767	Acetaminophen and butalbital and caffeine and codeine only product in oral dose form
+^ESCT1357778	Caffeine and codeine and paracetamol only product in oral dose form
+^ESCT1357779	Acetaminophen and caffeine and codeine only product in oral dose form
+^ESCT1358070	Codeine and ibuprofen only product in oral dose form
+^ESCT1358071	Codeine and paracetamol only product in oral dose form
+^ESCT1358072	Acetaminophen and codeine only product in oral dose form
+^ESCT1358073	Codeine only product in oral dose form
+^ESCT1358074	Codeine only product in parenteral dose form
+^ESCT1360972	Codeine phosphate 60 mg/mL solution for injection
+^ESCT1364066	Codeine phosphate 2 mg/mL and promethazine hydrochloride 1.25 mg/mL oral solution
+^ESCT1364067	Codeine phosphate 2 mg/mL and phenylephrine hydrochloride 1 mg/mL and promethazine hydrochloride 1.25 mg/mL oral solution
+^ESCT1364101	Bromazine hydrochloride 2.5 mg/mL and codeine phosphate 2 mg/mL oral solution
+^ESCT1364102	Bromodiphenhydramine hydrochloride 2.5 mg/mL and codeine phosphate 2 mg/mL oral solution
+^ESCT1364103	Brompheniramine maleate 400 microgram/mL and codeine phosphate 2 mg/mL and phenylpropanolamine hydrochloride 2.5 mg/mL oral solution
+^ESCT1364104	Codeine phosphate 1 mg/mL and kaolin 300 mg/mL oral suspension
+^ESCT1364801	Bromazine- and codeine-containing product in oral dose form
+^ESCT1364802	Bromodiphenhydramine- and codeine-containing product in oral dose form
+^ESCT1364806	Brompheniramine- and codeine- and phenylpropanolamine-containing product in oral dose form
+^ESCT1364849	Codeine- and kaolin-containing product in oral dose form
+^ESCT1364850	Codeine- and phenylephrine- and promethazine-containing product in oral dose form
+^ESCT1364851	Codeine- and promethazine-containing product in oral dose form
+^ESCT1365596	Bromazine and codeine only product in oral dose form
+^ESCT1365597	Bromodiphenhydramine and codeine only product in oral dose form
+^ESCT1365599	Brompheniramine- and codeine- and phenylpropanolamine-containing product
+^ESCT1365644	Codeine and kaolin only product in oral dose form
+^ESCT1365645	Codeine and phenylephrine and promethazine only product in oral dose form
+^ESCT1365646	Codeine- and promethazine-containing product
+^ESCT1365861	Brompheniramine and codeine and phenylpropanolamine only product
+^ESCT1365862	Brompheniramine and codeine and phenylpropanolamine only product in oral dose form
+^ESCT1365885	Codeine and promethazine only product
+^ESCT1365886	Codeine and promethazine only product in oral dose form
+^ESCT1367263	Kaolin light 1.5g/5ml / Codeine 5mg/5ml oral suspension sugar free
+^ESCT1374292	Co-codamol 8mg/500mg effervescent tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1375268	Co-codamol 30mg/500mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375321	Co-codamol 15mg/500mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375322	Co-codamol 8mg/500mg effervescent tablets (Medihealth (Northern) Ltd)
+^ESCT1375324	Co-codamol 8mg/500mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375328	Co-codamol 8mg/500mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375346	Co-codamol 30mg/500mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375353	Co-codamol 30mg/500mg caplets (Medihealth (Northern) Ltd)
+^ESCT1375357	Co-codamol 15mg/500mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375361	Co-codamol 30mg/500mg effervescent tablets (Medihealth (Northern) Ltd)
+^ESCT1375370	Co-codamol 30mg/500mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375372	Codeine 15mg/5ml linctus sugar free (Medihealth (Northern) Ltd)
+^ESCT1375373	Codeine 15mg/5ml linctus sugar free (Medihealth (Northern) Ltd) 2000 ml
+^ESCT1375392	Codeine 30mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375393	Codeine 30mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1375692	Codeine 15mg/5ml linctus sugar free
+^ESCT1381415	Codeine-containing product in oral dose form
+^ESCT1381416	Codeine-containing product in parenteral dose form
+^ESCT1382348	Bromazine- and codeine-containing product
+^ESCT1382349	Bromodiphenhydramine- and codeine-containing product
+^ESCT1382961	Codeine- and phenylephrine- and promethazine-containing product
+^ESCT1382966	Codeine- and guaifenesin- and pseudoephedrine-containing product
+^ESCT1382984	Chlorphenamine- and codeine- and phenylephrine- and potassium iodide-containing product
+^ESCT1382985	Chlorpheniramine- and codeine- and phenylephrine- and potassium iodide-containing product
+^ESCT1382986	Codeine- and guaifenesin-containing product
+^ESCT1383028	Chlorphenamine- and codeine- and pseudoephedrine-containing product
+^ESCT1383029	Chlorpheniramine- and codeine- and pseudoephedrine-containing product
+^ESCT1383996	Codeine- and pseudoephedrine-containing product
+^ESCT1385814	Caffeine- and codeine- and paracetamol-containing product
+^ESCT1385815	Acetaminophen- and caffeine- and codeine-containing product
+^ESCT1385816	Caffeine- and codeine- and paracetamol-containing product in oral dose form
+^ESCT1385817	Acetaminophen- and caffeine- and codeine-containing product in oral dose form
+^ESCT1386115	Codeine- and paracetamol-containing product in oral dose form
+^ESCT1386116	Acetaminophen- and codeine-containing product in oral dose form
+^ESCT1386127	Codeine- and ibuprofen-containing product in oral dose form
+^ESCT1386211	Aspirin- and butalbital- and caffeine- and codeine-containing product
+^ESCT1386212	Aspirin- and butalbital- and caffeine- and codeine-containing product in oral dose form
+^ESCT1386215	Aspirin- and carisoprodol- and codeine-containing product
+^ESCT1386216	Aspirin- and carisoprodol- and codeine-containing product in oral dose form
+^ESCT1386800	Butalbital- and caffeine- and codeine- and paracetamol-containing product
+^ESCT1386801	Acetaminophen- and butalbital- and caffeine- and codeine-containing product
+^ESCT1386802	Butalbital- and caffeine- and codeine- and paracetamol-containing product in oral dose form
+^ESCT1386803	Acetaminophen- and butalbital- and caffeine- and codeine-containing product in oral dose form
+^ESCT1403679	Codeine 30mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403701	Codeine 15mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403702	Codeine 15mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1404691	Codeine 60mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404692	Codeine 60mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1409759	Panadol Ultra 12.8mg/500mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410206	Solpaflex tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410207	Solpaflex tablets (GlaxoSmithKline Consumer Healthcare UK Ltd) 12 tablet
+^ESCT1410208	Solpaflex tablets (GlaxoSmithKline Consumer Healthcare UK Ltd) 24 tablet 2 x 12 tablets
+^ESCT1410705	Co-codamol 30mg/500mg tablets (Accord Healthcare Ltd)
+^ESCT1411264	Co-codamol 8mg/500mg effervescent tablets (Fannin (UK) Ltd)
+^ESCT1411267	Co-codamol 30mg/500mg effervescent tablets (Fannin (UK) Ltd)
+^ESCT1412208	Co-codamol 8mg/500mg caplets (Accord Healthcare Ltd)
+^ESCT1412419	Co-codamol 15mg/500mg tablets (Accord Healthcare Ltd)
+^ESCT1421711	Co-codamol 8mg/500mg effervescent tablets (Zentiva Pharma UK Ltd)
+^ESCT1421814	Co-codamol 30mg/500mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421837	Co-codamol 8mg/500mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422056	Co-codamol 30mg/500mg effervescent tablets (Zentiva Pharma UK Ltd)
+^ESCT1422215	Co-codamol 30mg/500mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422482	Co-codamol 15mg/500mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1424794	Co-codaprin 8mg/400mg dispersible tablets
+^ESCT1424918	Kaolin light 1.5g/5ml / Codeine 5mg/5ml oral suspension sugar free
+^ESCT1425526	Codeine 15mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425561	Co-codamol 30mg/500mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425584	Co-codamol 8mg/500mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425640	Codeine 60mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425799	Co-codamol 8mg/500mg effervescent tablets (Kent Pharma (UK) Ltd)
+^ESCT1425907	Codeine 30mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426269	Codeine 15mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426270	Codeine 15mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426271	Codeine 15mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426281	Codeine 30mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426282	Codeine 30mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426283	Codeine 30mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1426288	Codeine 60mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426289	Codeine 60mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426610	Codeine 15mg/5ml linctus sugar free (Kent Pharma (UK) Ltd)
+^ESCT1426611	Codeine 15mg/5ml linctus sugar free (Kent Pharma (UK) Ltd) 2000 ml
+^ESCT1426612	Codeine 15mg/5ml linctus sugar free (Kent Pharma (UK) Ltd) 200 ml
+^ESCT1426647	Co-codamol 30mg/500mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426757	Co-codamol 30mg/500mg effervescent tablets (Kent Pharma (UK) Ltd)
+^ESCT1426904	Co-codamol 30mg/500mg caplets (Kent Pharma (UK) Ltd)
+^ESCT1427661	Co-codamol 8mg/500mg caplets (Kent Pharma (UK) Ltd)
+^ESCT1427667	Co-codamol 8mg/500mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427671	Co-codamol 15mg/500mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1428078	Codasolve 8mg/500mg/30mg effervescent tablets (Kent Pharma (UK) Ltd)
+^ESCT1429063	Codeine 25mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1429064	Codeine 25mg/5ml oral solution (Medihealth (Northern) Ltd) 500 ml
+^ESCT1430407	Pulmo Bailly oral solution (Dendron Brands Ltd)
+^ESCT1430408	Pulmo Bailly oral solution (Dendron Brands Ltd) 90 ml
+^ESCT1433204	Emcozin 30mg/500mg tablets (GlucoRx Ltd)
+^ESCT1433205	Emcozin 30mg/500mg tablets (GlucoRx Ltd) 100 tablet 10 x 10 tablets
+^ESCT1433838	Co-codamol 15mg/500mg effervescent tablets sugar free (Accord Healthcare Ltd)
+^ESCT1433840	Zipamol Plus 8mg/500mg effervescent tablets (Accord Healthcare Ltd)
+^ESCT1434092	Co-codamol 8mg/500mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1436341	Co-codamol 15mg/500mg effervescent tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1436874	Co-codamol 8mg/500mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436960	Co-codamol 8mg/500mg effervescent tablets (Viatris UK Healthcare Ltd)
+^ESCT1437932	Co-codamol 30mg/500mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437943	Co-codamol 30mg/500mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437969	Medocodene 30mg/500mg effervescent tablets (Viatris UK Healthcare Ltd)
+^ESCT1437970	Medocodene 30mg/500mg effervescent tablets (Viatris UK Healthcare Ltd) 90 tablet
+^ESCT1437983	Co-codamol 30mg/500mg effervescent tablets (Viatris UK Healthcare Ltd)
+^ESCT1439648	Co-codamol 8mg/500mg capsules (Lucis Pharma Ltd)
+^ESCTAC610101	Acetaminophen 500 mg and codeine phosphate 30 mg oral tablet
+^ESCTAC610121	Acetaminophen 500 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCTAC610138	Acetaminophen 500 mg and codeine phosphate 13.5 mg oral tablet
+^ESCTAC610147	Acetaminophen 500 mg and codeine phosphate 12.8 mg oral tablet
+^ESCTAC635083	Acetaminophen 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCTAC641964	Acetaminophen + alcohol + codeine phosphate 120mg/7%vv/12mg elixir
+^ESCTAC641971	Acetaminophen + codeine phosphate 120mg/12mg suspension
+^ESCTAC641981	Acetaminophen 300 mg and codeine phosphate 15 mg oral tablet
+^ESCTAC642006	Acetaminophen 300 mg and codeine phosphate 30 mg oral tablet
+^ESCTAC642012	Acetaminophen 300 mg and codeine phosphate 60 mg oral tablet
+^ESCTAC661095	Acetaminophen + alcohol + codeine phosphate
+^ESCTAC661361	Acetaminophen+butalbital+caffeine+codeine phosphate
+^ESCTAC675366	Acetaminophen 500 mg and codeine phosphate 15 mg oral tablet
+^ESCTAC682831	Acetaminophen + codeine
+^ESCTAS610079	Aspirin + codeine 400mg/8mg dispersible tablet
+^ESCTAS635088	Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCTAS641890	Aspirin 325 mg and carisoprodol 200 mg and codeine phosphate 16 mg oral tablet
+^ESCTAS660951	Aspirin + butalbital + caffeine + codeine phosphate
+^ESCTAS661395	Aspirin + carisoprodol + codeine phosphate
+^ESCTAS670357	Aspirin 300 mg and codeine 8 mg oral tablet
+^ESCTAS675455	Aspirin + codeine 500mg/8mg dispersible tablet
+^ESCTAS682182	Aspirin + Codeine
+^ESCTAS682183	Aspirin + codeine
+^ESCTAS682866	Aspirin 325 mg and codeine 30 mg oral tablet
+^ESCTAS682868	Aspirin 325 mg and codeine 60 mg oral tablet
+^ESCTAS874218	Aspirin 500mg / Codeine 8mg dispersible tablets sugar free 32 tablet
+^ESCTAS874256	Aspirin 500mg / Codeine 8mg dispersible tablets sugar free
+^ESCTBE902988	Bepro 6.75mg/5ml syrup (Wallace Manufacturing Chemists Ltd)
+^ESCTBE902989	Bepro 6.75mg/5ml syrup (Wallace Manufacturing Chemists Ltd) 150 ml
+^ESCTBE912704	Benylin with Codeine oral solution (Pfizer Consumer Healthcare Ltd)
+^ESCTBE912705	Benylin with Codeine oral solution (Pfizer Consumer Healthcare Ltd) 300 ml
+^ESCTBE914083	Bepro
+^ESCTBO1005247	Boots Paracetamol and Codeine Extra capsules (The Boots Company Plc)
+^ESCTBO1005248	Boots Paracetamol and Codeine Extra capsules (The Boots Company Plc) 32 capsule
+^ESCTBO1030040	Boots Aspirin and Codeine tablets (The Boots Company Plc)
+^ESCTBO1030042	Boots Aspirin and Codeine tablets (The Boots Company Plc) 32 tablet
+^ESCTBO1128379	Boots Ibuprofen and Codeine 200mg/12.8mg tablets (The Boots Company Plc)
+^ESCTBO1128380	Boots Ibuprofen and Codeine 200mg/12.8mg tablets (The Boots Company Plc) 16 tablet
+^ESCTBO1128381	Boots Ibuprofen and Codeine 200mg/12.8mg tablets (The Boots Company Plc) 32 tablet
+^ESCTBR635900	Bromodiphenhydramine+codeine 12.5mg/5mL/10 mg/5mL syrup
+^ESCTBR636210	Brompheniramine maleate+codeine phosphate+phenylpropanolamine hydrochloride 2mg/5mL 10mg/5mL 12.5mg/5mL syrup
+^ESCTBR663813	Bromodiphenhydramine+codeine
+^ESCTBR664210	Brompheniramine maleate+codeine phosphate+phenylpropanolamine hydrochloride
+^ESCTCH682731	Chlorpheniramine + pseudoephedrine + codeine
+^ESCTCO1005540	Co-codamol 15mg/500mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO1005585	Co-codamol 8mg/500mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1005587	Co-codamol 8mg/500mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1005589	Co-codamol 30mg/500mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1005591	Co-codamol 30mg/500mg effervescent tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1005594	Co-codamol 30mg/500mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1005599	Codeine 15mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1005600	Codeine 15mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCO1005601	Codeine 15mg tablets (Phoenix Healthcare Distribution Ltd) 100 tablet
+^ESCTCO1005602	Codeine 30mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1005603	Codeine 30mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTCO1006375	Codeine 15mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCO1006376	Codeine 15mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTCO1006995	Co-codaprin
+^ESCTCO1007248	Co-codamol 8mg/500mg effervescent tablets (Fannin UK Ltd)
+^ESCTCO1007252	Co-codamol 30mg/500mg effervescent tablets (Fannin UK Ltd)
+^ESCTCO1007591	Codeine 30mg tablets (Phoenix Healthcare Distribution Ltd) 100 tablet
+^ESCTCO1007592	Codeine 30mg tablets (Phoenix Healthcare Distribution Ltd) 500 tablet
+^ESCTCO1007957	Co-codamol 8mg/500mg tablets (Wockhardt UK Ltd)
+^ESCTCO1011330	Codeine 10mg suppositories 1 suppository
+^ESCTCO1011332	Codeine 10mg suppositories (Special Order)
+^ESCTCO1011333	Codeine 10mg suppositories (Special Order) 1 suppository
+^ESCTCO1011413	Codeine 10mg suppositories
+^ESCTCO1012347	Codeine 30mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTCO1014667	Co-codamol 8mg/500mg effervescent tablets (Vantage)
+^ESCTCO1015481	Codeine 15mg/5ml linctus sugar free (Pinewood Healthcare)
+^ESCTCO1015482	Codeine 15mg/5ml linctus sugar free (Pinewood Healthcare) 200 ml
+^ESCTCO1015483	Codeine 15mg/5ml linctus sugar free (Pinewood Healthcare) 2000 ml
+^ESCTCO1017798	Codipar 15mg/500mg capsules (AMCo)
+^ESCTCO1017799	Codipar 15mg/500mg capsules (AMCo) 100 capsule 5 x 20 capsules
+^ESCTCO1017879	Co-codamol 15mg/500mg capsules
+^ESCTCO1017942	Codipar 15mg/500mg effervescent tablets (AMCo)
+^ESCTCO1017943	Codipar 15mg/500mg effervescent tablets (AMCo) 100 tablet 4 x 25 tablets
+^ESCTCO1018166	Co-codamol 15mg/500mg effervescent tablets sugar free
+^ESCTCO1023227	Co-codamol 15mg/500mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO1025977	Codeine 20mg suppositories 1 suppository
+^ESCTCO1025978	Codeine 20mg suppositories (Special Order)
+^ESCTCO1025979	Codeine 20mg suppositories (Special Order) 1 suppository
+^ESCTCO1026024	Codeine 20mg suppositories
+^ESCTCO1028188	Co-codamol 30mg/500mg effervescent tablets (AMCo)
+^ESCTCO1028843	Codeine 30mg suppositories 1 suppository
+^ESCTCO1028844	Codeine 30mg suppositories (Special Order)
+^ESCTCO1028845	Codeine 30mg suppositories (Special Order) 1 suppository
+^ESCTCO1029164	Codeine 30mg suppositories
+^ESCTCO1029738	Codeine 10mg suppositories 10 suppository
+^ESCTCO1029739	Codeine 10mg suppositories (Special Order) 10 suppository
+^ESCTCO1029819	Codeine 30mg suppositories 6 suppository
+^ESCTCO1029820	Codeine 30mg suppositories 12 suppository
+^ESCTCO1029821	Codeine 30mg suppositories 20 suppository
+^ESCTCO1029822	Codeine 30mg suppositories (Special Order) 6 suppository
+^ESCTCO1029825	Codeine 30mg suppositories (Special Order) 12 suppository
+^ESCTCO1029826	Codeine 30mg suppositories (Special Order) 20 suppository
+^ESCTCO1029827	Codeine 30mg/5ml oral solution 500 ml
+^ESCTCO1029828	Codeine 30mg/5ml oral solution (Special Order) 500 ml
+^ESCTCO1029999	Co-codamol 30mg/500mg caplets (AMCo)
+^ESCTCO1033575	Co-codamol 15mg/500mg tablets (Zentiva)
+^ESCTCO1034663	Co-codamol 30mg/500mg tablets (Bristol Laboratories Ltd)
+^ESCTCO1034665	Codeine 15mg tablets (Bristol Laboratories Ltd) 30 tablet
+^ESCTCO1035587	Codeine 5mg suppositories 10 suppository
+^ESCTCO1035588	Codeine 5mg suppositories (Special Order)
+^ESCTCO1035589	Codeine 5mg suppositories (Special Order) 10 suppository
+^ESCTCO1035590	Codeine 6mg suppositories (Special Order)
+^ESCTCO1035591	Codeine 6mg suppositories 20 suppository
+^ESCTCO1035592	Codeine 6mg suppositories (Special Order) 20 suppository
+^ESCTCO1035593	Codeine 1mg suppositories 10 suppository
+^ESCTCO1035594	Codeine 1mg suppositories (Special Order)
+^ESCTCO1035595	Codeine 1mg suppositories (Special Order) 10 suppository
+^ESCTCO1035621	Codeine 5mg suppositories 1 suppository
+^ESCTCO1035622	Codeine 5mg suppositories (Special Order) 1 suppository
+^ESCTCO1035623	Codeine 6mg suppositories 1 suppository
+^ESCTCO1035624	Codeine 6mg suppositories (Special Order) 1 suppository
+^ESCTCO1035625	Codeine 1mg suppositories 1 suppository
+^ESCTCO1035626	Codeine 1mg suppositories (Special Order) 1 suppository
+^ESCTCO1035735	Codeine 1mg suppositories
+^ESCTCO1035736	Codeine 5mg suppositories
+^ESCTCO1035737	Codeine 6mg suppositories
+^ESCTCO1036786	Codeine 15mg suppositories 1 suppository
+^ESCTCO1036787	Codeine 15mg suppositories (Special Order)
+^ESCTCO1036788	Codeine 15mg suppositories (Special Order) 1 suppository
+^ESCTCO1036975	Codeine 15mg suppositories
+^ESCTCO1042959	Codeine 15mg tablets (Waymade Healthcare Plc)
+^ESCTCO1042962	Codeine 15mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCO1042963	Codeine 15mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTCO1042966	Codeine 30mg tablets (Waymade Healthcare Plc)
+^ESCTCO1042968	Codeine 30mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCO1042970	Codeine 30mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTCO1042971	Codeine 30mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTCO1042972	Codeine 30mg tablets (Waymade Healthcare Plc) 500 tablet
+^ESCTCO1042983	Codeine 60mg tablets (Waymade Healthcare Plc)
+^ESCTCO1042984	Codeine 60mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTCO1043580	Co-codamol 30mg/500mg caplets (Waymade Healthcare Plc)
+^ESCTCO1043582	Co-codamol 8mg/500mg capsules (Waymade Healthcare Plc)
+^ESCTCO1043586	Co-codamol 30mg/500mg capsules (Waymade Healthcare Plc)
+^ESCTCO1043788	Co-codamol 8mg/500mg effervescent tablets (Waymade Healthcare Plc)
+^ESCTCO1043794	Co-codamol 30mg/500mg effervescent tablets (Waymade Healthcare Plc)
+^ESCTCO1043802	Co-codamol 15mg/500mg tablets (Waymade Healthcare Plc)
+^ESCTCO1043808	Co-codamol 30mg/500mg tablets (Waymade Healthcare Plc)
+^ESCTCO1044247	Codeine 15mg/5ml linctus (Waymade Healthcare Plc)
+^ESCTCO1044248	Codeine 15mg/5ml linctus (Waymade Healthcare Plc) 200 ml
+^ESCTCO1044249	Codeine 15mg/5ml linctus (Waymade Healthcare Plc) 2000 ml
+^ESCTCO1046716	Codeine 15mg suppositories 12 suppository
+^ESCTCO1046717	Codeine 15mg suppositories 20 suppository
+^ESCTCO1046718	Codeine 15mg suppositories (Special Order) 12 suppository
+^ESCTCO1046719	Codeine 15mg suppositories (Special Order) 20 suppository
+^ESCTCO1047092	Co-codamol 8mg/500mg tablets (Waymade Healthcare Plc)
+^ESCTCO1047143	Co-codamol 30mg/500mg caplets (J M McGill Ltd)
+^ESCTCO1047901	Codeine 2mg suppositories
+^ESCTCO1047902	Codeine 2mg suppositories 1 suppository
+^ESCTCO1047903	Codeine 2mg suppositories 10 suppository
+^ESCTCO1047904	Codeine 2mg suppositories 20 suppository
+^ESCTCO1047905	Codeine 2mg suppositories (Special Order)
+^ESCTCO1047906	Codeine 2mg suppositories (Special Order) 1 suppository
+^ESCTCO1047907	Codeine 2mg suppositories (Special Order) 10 suppository
+^ESCTCO1047908	Codeine 2mg suppositories (Special Order) 20 suppository
+^ESCTCO1047909	Codeine 3mg suppositories
+^ESCTCO1047910	Codeine 3mg suppositories 1 suppository
+^ESCTCO1047911	Codeine 3mg suppositories 10 suppository
+^ESCTCO1047912	Codeine 3mg suppositories (Special Order)
+^ESCTCO1047913	Codeine 3mg suppositories (Special Order) 1 suppository
+^ESCTCO1047914	Codeine 3mg suppositories (Special Order) 10 suppository
+^ESCTCO1049292	Co-codamol 30mg/500mg caplets (DE Pharmaceuticals)
+^ESCTCO1049294	Co-codamol 8mg/500mg caplets (DE Pharmaceuticals)
+^ESCTCO1049296	Co-codamol 30mg/500mg capsules (DE Pharmaceuticals)
+^ESCTCO1049298	Co-codamol 8mg/500mg capsules (DE Pharmaceuticals)
+^ESCTCO1049303	Co-codamol 8mg/500mg effervescent tablets (DE Pharmaceuticals)
+^ESCTCO1049305	Co-codamol 30mg/500mg effervescent tablets (DE Pharmaceuticals)
+^ESCTCO1049316	Co-codamol 15mg/500mg tablets (DE Pharmaceuticals)
+^ESCTCO1049318	Co-codamol 30mg/500mg tablets (DE Pharmaceuticals)
+^ESCTCO1049324	Co-codamol 8mg/500mg tablets (DE Pharmaceuticals)
+^ESCTCO1049344	Codeine 15mg/5ml linctus sugar free (DE Pharmaceuticals)
+^ESCTCO1049345	Codeine 15mg/5ml linctus sugar free (DE Pharmaceuticals) 2000 ml
+^ESCTCO1050662	Co-codamol 30mg/500mg caplets (A A H Pharmaceuticals Ltd)
+^ESCTCO1050673	Co-codamol 30mg/500mg caplets (Actavis UK Ltd)
+^ESCTCO1055208	Co-codamol 30mg/500mg caplets (AM Distributions (Yorkshire) Ltd)
+^ESCTCO1058826	Co-codamol 30mg/500mg caplets (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1058831	Co-codamol 8mg/500mg effervescent tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1058834	Codeine 15mg/5ml linctus sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTCO1058835	Codeine 15mg/5ml linctus sugar free (Phoenix Healthcare Distribution Ltd) 2000 ml
+^ESCTCO1060781	Codeine 15mg tablets (DE Pharmaceuticals)
+^ESCTCO1060782	Codeine 15mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCO1060783	Codeine 15mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTCO1060784	Codeine 30mg tablets (DE Pharmaceuticals)
+^ESCTCO1060785	Codeine 30mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCO1060786	Codeine 30mg tablets (DE Pharmaceuticals) 500 tablet
+^ESCTCO1060787	Codeine 60mg tablets (DE Pharmaceuticals)
+^ESCTCO1060791	Codeine 60mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTCO1062475	Co-codamol 30mg/500mg tablets (M & A Pharmachem Ltd)
+^ESCTCO1062478	Co-codamol 8mg/500mg tablets (M & A Pharmachem Ltd)
+^ESCTCO1104208	Codeine 30mg/1ml solution for injection ampoules 10 ampoule
+^ESCTCO1104209	Codeine 30mg/1ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTCO1109664	Co-codamol 8mg/500mg tablets (Crescent Pharma Ltd)
+^ESCTCO1109844	Codeine 15mg tablets (Crescent Pharma Ltd)
+^ESCTCO1109845	Codeine 15mg tablets (Crescent Pharma Ltd) 28 tablet
+^ESCTCO1109846	Codeine 30mg tablets (Crescent Pharma Ltd)
+^ESCTCO1109847	Codeine 30mg tablets (Crescent Pharma Ltd) 28 tablet
+^ESCTCO1109848	Codeine 60mg tablets (Crescent Pharma Ltd)
+^ESCTCO1109849	Codeine 60mg tablets (Crescent Pharma Ltd) 28 tablet
+^ESCTCO1117098	Co-codamol 30mg/500mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO1117101	Co-codamol 8mg/500mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCO1117112	Co-codaprin 8mg/400mg dispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO1117114	Codeine 30mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO1117115	Codeine 30mg tablets (Sigma Pharmaceuticals Plc) 500 tablet
+^ESCTCO1117116	Codeine 15mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTCO1117117	Codeine 30mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCO1117118	Codeine 30mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTCO1117119	Codeine 60mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO1117120	Codeine 60mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCO1118841	Co-codamol 15mg/500mg tablets (Galen Ltd)
+^ESCTCO1119107	Co-codamol 8mg/500mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO1119110	Co-codamol 30mg/500mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO1119112	Co-codamol 8mg/500mg effervescent tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO1119114	Co-codamol 30mg/500mg effervescent tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO1119122	Codeine 15mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO1119123	Codeine 15mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTCO1119124	Codeine 30mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO1119125	Codeine 30mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTCO1119207	Co-codamol 30mg/500mg caplets (Mawdsley-Brooks & Company Ltd)
+^ESCTCO1119318	Codeine 25mg/5ml oral solution (DE Pharmaceuticals)
+^ESCTCO1119319	Codeine 25mg/5ml oral solution (DE Pharmaceuticals) 500 ml
+^ESCTCO1119356	Codeine 30mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTCO1126267	Co-codamol 8mg/500mg caplets (Actavis UK Ltd)
+^ESCTCO1128413	Co-codamol 30mg/500mg effervescent tablets (Vantage)
+^ESCTCO1137114	Co-codamol 8mg/500mg caplets (Wockhardt UK Ltd)
+^ESCTCO1141787	Co-codamol 8mg/500mg caplets (Kent Pharmaceuticals Ltd)
+^ESCTCO1141807	Co-codamol 8mg/500mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTCO1141817	Co-codamol 15mg/500mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO1142479	Co-codamol 30mg/500mg caplets (Wockhardt UK Ltd)
+^ESCTCO1145117	Codeine 60mg/1ml solution for injection ampoules (Torbay Pharmaceuticals)
+^ESCTCO1145118	Codeine 60mg/1ml solution for injection ampoules (Torbay Pharmaceuticals) 10 ampoule
+^ESCTCO1157003	Co-codamol 15mg/500mg tablets (Actavis UK Ltd)
+^ESCTCO1162267	Co-codamol 15mg/500mg capsules (Galen Ltd)
+^ESCTCO1162319	Co-codamol 60mg/1000mg tablets (Actavis UK Ltd)
+^ESCTCO1162382	Co-codamol 60mg/1000mg tablets
+^ESCTCO1162392	Co-codamol 15mg/500mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCO1162889	Codeine 60mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCO1162890	Codeine 60mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTCO1163094	Co-codamol 15mg/500mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO389783	Codeine
+^ESCTCO606334	Codeine phosphate+kaolin 10mg/3g/10mL mixture
+^ESCTCO608948	Codeine phosphate product
+^ESCTCO608950	Codeine 3mg/5ml linctus paediatric
+^ESCTCO608951	Codeine phosphate 3mg/5mL pediatric linctus
+^ESCTCO608952	Codeine phosphate 3mg/5mL paediatric linctus
+^ESCTCO608953	Codeine 15mg/5ml linctus sugar free
+^ESCTCO608954	Codeine phosphate 15mg/5mL s/f linctus
+^ESCTCO608956	Codeine phosphate 15mg/5mL diabetic linctus
+^ESCTCO610072	Co-codamol 8mg/500mg tablets
+^ESCTCO610073	Co-codamol 8mg/500mg tablet
+^ESCTCO610075	Co-codamol 8mg/500mg dispersible tablet
+^ESCTCO610077	Co-codaprin 8mg/400mg dispersible tablets
+^ESCTCO610078	Co-codaprin 8mg/400mg dispersible tablet
+^ESCTCO610092	Co-codamol 30mg/500mg effervescent powder sachets sugar free
+^ESCTCO610094	Co-codamol 30mg/500mg sachet powder
+^ESCTCO610095	Co-codamol 60mg/1000mg effervescent powder sachets sugar free
+^ESCTCO610096	Co-codamol 60mg/1000mg /sachet powder
+^ESCTCO610098	Co-codamol 30mg/500mg tablets
+^ESCTCO610103	Co-codamol 8mg/500mg effervescent tablets
+^ESCTCO610105	Co-codamol 8mg/500mg effervescent tablet
+^ESCTCO610106	Co-codamol 8mg/500mg capsules
+^ESCTCO610107	Co-codamol 8mg/500mg capsule
+^ESCTCO610116	Co-codamol 30mg/500mg effervescent tablets
+^ESCTCO610118	Co-codamol 30mg/500mg effervescent tablet
+^ESCTCO610119	Co-codamol 30mg/500mg capsules
+^ESCTCO610144	Co-codamol 12.8mg/500mg tablets
+^ESCTCO610213	Codeine 15mg tablets
+^ESCTCO610215	Codeine phosphate 15 mg oral tablet
+^ESCTCO610216	Codeine 30mg tablets
+^ESCTCO610218	Codeine phosphate 30 mg oral tablet
+^ESCTCO610219	Codeine 60mg tablets
+^ESCTCO610221	Codeine phosphate 60 mg oral tablet
+^ESCTCO610222	Codeine 25mg/5ml oral solution
+^ESCTCO610223	Codeine phosphate 25mg/5mL syrup
+^ESCTCO610224	Codeine 60mg/1ml solution for injection ampoules
+^ESCTCO610225	Codeine phosphate 60mg/1mL injection
+^ESCTCO610226	Codeine phosphate 60mg/mL injection solution 1mL ampoule
+^ESCTCO610227	Codeine phosphate 60mg/mL injection solution 1mL ampule
+^ESCTCO610228	Codeine phosphate powder
+^ESCTCO619315	Codeine in oral dosage form
+^ESCTCO619317	Codeine linctus
+^ESCTCO619318	Codeine in parenteral dosage form
+^ESCTCO640192	Codeine phosphate 4.56mg/mL
+^ESCTCO640193	Codeine phosphate 5mg/mL
+^ESCTCO642088	Codeine phosphate+promethazine hydrochloride 10mg/6.25mg syrup
+^ESCTCO642089	Codeine phosphate+pseudoephedrine hydrochloride+triprolidine hydrochloride 10mg/30mg/1.25mg liquid
+^ESCTCO642090	Codeine phosphate + pseudoephedrine hydrochloride + triprolidine hydrochloride 10mg/30mg/1.25mg liquid
+^ESCTCO651123	Codeine phosphate 30mg/1mL injection
+^ESCTCO663681	Codeine phosphate + promethazine hydrochloride
+^ESCTCO664257	Codeine phosphate + pseudoephedrine hydrochloride + triprolidine hydrochloride
+^ESCTCO675454	Co-codaprin 8mg/500mg dispersible tablet
+^ESCTCO682538	Codeine + guaifenesin
+^ESCTCO682830	Co-codamol
+^ESCTCO692733	Codeine + terpin
+^ESCTCO692734	Codeine + Terpin
+^ESCTCO695972	Codeine + guaiacol
+^ESCTCO695973	Codeine + Guaiacol
+^ESCTCO698981	Codeine + ibuprofen
+^ESCTCO706290	Codeine + Kaolin
+^ESCTCO706291	Codeine+kaolin
+^ESCTCO720445	Codeine + pseudoephedrine
+^ESCTCO727208	Codeine sulphate
+^ESCTCO727209	Codeine sulfate
+^ESCTCO729177	Codeine sulfate 15 mg oral tablet
+^ESCTCO729191	Codeine sulfate 60 mg oral tablet
+^ESCTCO729252	Codeine sulfate 30 mg oral tablet
+^ESCTCO797738	Codeine 15mg tablets (Actavis UK Ltd)
+^ESCTCO798410	Co-codamol 8mg/500mg effervescent tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO799343	Co-codamol 8mg/500mg tablets (OBG Pharmaceuticals Ltd)
+^ESCTCO801386	Codeine 25mg/5ml oral solution (Thornton & Ross Ltd)
+^ESCTCO803349	Codeine 25mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO803386	Codeine 15mg/5ml linctus (A A H Pharmaceuticals Ltd)
+^ESCTCO803612	Codeine 15mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO803872	Codeine 15mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCO804085	Codeine 30mg tablets (Actavis UK Ltd)
+^ESCTCO804688	Codeine 15mg/5ml linctus (Thornton & Ross Ltd)
+^ESCTCO805011	Co-codamol 8mg/500mg tablets (Actavis UK Ltd)
+^ESCTCO805337	Co-codamol 30mg/500mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO807631	Co-codamol 8mg/500mg effervescent tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO807825	Co-codamol 8mg/500mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO808099	Codeine 15mg/5ml linctus (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO808127	Codeine 30mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO808159	Co-codamol 8mg/500mg tablets (Aspar Pharmaceuticals Ltd)
+^ESCTCO808213	Codeine 60mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO808225	Codeine 60mg tablets (Teva UK Ltd)
+^ESCTCO808390	Codeine 15mg tablets (Wockhardt UK Ltd)
+^ESCTCO809001	Co-codamol 30mg/500mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO809337	Codeine 30mg tablets (Teva UK Ltd)
+^ESCTCO809624	Codeine 60mg tablets (Actavis UK Ltd)
+^ESCTCO810636	Co-codamol 8mg/500mg tablets (Mylan Ltd)
+^ESCTCO811308	Co-codamol 30mg/500mg tablets (Wockhardt UK Ltd)
+^ESCTCO811427	Codeine 60mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCO811437	Co-codamol 8mg/500mg effervescent tablets (The Boots Company Plc)
+^ESCTCO811831	Codeine 60mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO812456	Codeine 30mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCO813284	Co-codamol 8mg/500mg effervescent tablets (Zentiva)
+^ESCTCO816033	Codeine 30mg tablets (Wockhardt UK Ltd)
+^ESCTCO816715	Codeine 60mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTCO819446	Co-codamol 8mg/500mg tablets (Teva UK Ltd)
+^ESCTCO819939	Co-codamol 30mg/500mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO820004	Codeine 60mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTCO820063	Co-codamol 8mg/500mg effervescent tablets (Mylan Ltd)
+^ESCTCO820250	Co-codamol 8mg/500mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO820441	Codeine 15mg tablets (Teva UK Ltd)
+^ESCTCO820463	Codeine 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO820560	Codeine 60mg tablets (Wockhardt UK Ltd)
+^ESCTCO820585	Codeine 15mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO820669	Codeine 25mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTCO820715	Codeine 60mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO820828	Co-codamol 8mg/500mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO821366	Codeine 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO821374	Co-codamol 8mg/500mg effervescent tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO822788	Co-codamol 30mg/500mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCO823209	Codeine 60mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO825943	Co-codamol 8mg/500mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO826401	Co-codamol 8mg/500mg tablets (The Boots Company Plc)
+^ESCTCO827735	Codeine 15mg/5ml linctus (The Boots Company Plc)
+^ESCTCO829435	Co-codamol 30mg/500mg tablets (Zentiva)
+^ESCTCO830568	Codeine 30mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO832262	Codeine 30mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO833566	Co-codamol 8mg/500mg effervescent tablets (Sandoz Ltd)
+^ESCTCO833659	Co-codamol 8mg/500mg tablets (Zentiva)
+^ESCTCO834256	Codeine 60mg tablets 28 tablet
+^ESCTCO834634	Codeine 15mg tablets 30 tablet
+^ESCTCO835347	Codeine 30mg tablets 28 tablet
+^ESCTCO839206	Codeine 15mg/5ml linctus 100 ml
+^ESCTCO840409	Codeine 30mg tablets 100 tablet
+^ESCTCO842405	Codeine 30mg tablets 500 tablet
+^ESCTCO842607	Codeine 30mg tablets 30 tablet
+^ESCTCO846804	Codeine 15mg/5ml linctus 200 ml
+^ESCTCO846962	Codeine 60mg tablets 100 tablet
+^ESCTCO846975	Codeine 25mg/5ml oral solution 500 ml
+^ESCTCO847076	Codeine 60mg tablets 30 tablet
+^ESCTCO847685	Codeine 60mg/1ml solution for injection ampoules 10 ampoule
+^ESCTCO847967	Codeine 15mg/5ml linctus 2000 ml
+^ESCTCO848083	Codeine 15mg/5ml linctus 500 ml
+^ESCTCO848619	Codeine 15mg tablets 100 tablet
+^ESCTCO848688	Codeine 15mg tablets 28 tablet
+^ESCTCO853386	Codeine 15mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCO853389	Codeine 15mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTCO853392	Codeine 15mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTCO853403	Codeine 15mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO853408	Codeine 15mg tablets (Teva UK Ltd) 28 tablet
+^ESCTCO853413	Codeine 15mg tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTCO853464	Codeine 15mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTCO853466	Codeine 15mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTCO853467	Codeine 15mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTCO853468	Codeine 15mg tablets (Ranbaxy (UK) Ltd) 100 tablet
+^ESCTCO853469	Codeine 15mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTCO853470	Codeine 15mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTCO853509	Codeine 30mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCO853510	Codeine 30mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTCO853514	Codeine 30mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTCO853522	Codeine 30mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO853528	Codeine 30mg tablets (Teva UK Ltd) 28 tablet
+^ESCTCO853534	Codeine 30mg tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTCO853536	Codeine 30mg tablets (IVAX Pharmaceuticals UK Ltd) 100 tablet
+^ESCTCO853542	Codeine 30mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTCO853544	Codeine 30mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTCO853546	Codeine 30mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTCO853550	Codeine 30mg tablets (Ranbaxy (UK) Ltd) 30 tablet
+^ESCTCO853553	Codeine 30mg tablets (Ranbaxy (UK) Ltd) 100 tablet
+^ESCTCO853557	Codeine 30mg tablets (Ranbaxy (UK) Ltd) 500 tablet
+^ESCTCO853563	Codeine 30mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTCO853566	Codeine 30mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTCO853569	Codeine 30mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTCO853579	Codeine 60mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTCO853581	Codeine 60mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTCO853583	Codeine 60mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTCO853590	Codeine 60mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO853592	Codeine 60mg tablets (Teva UK Ltd) 28 tablet
+^ESCTCO853594	Codeine 60mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTCO853596	Codeine 60mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTCO853599	Codeine 60mg tablets (Ranbaxy (UK) Ltd) 100 tablet
+^ESCTCO853600	Codeine 60mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTCO853602	Codeine 60mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTCO853604	Codeine 60mg tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTCO856763	Codeine 15mg/5ml linctus (A A H Pharmaceuticals Ltd) 200 ml
+^ESCTCO856764	Codeine 15mg/5ml linctus (A A H Pharmaceuticals Ltd) 500 ml
+^ESCTCO856765	Codeine 15mg/5ml linctus (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTCO856766	Codeine 15mg/5ml linctus (The Boots Company Plc) 2000 ml
+^ESCTCO856767	Codeine 15mg/5ml linctus (Thornton & Ross Ltd) 100 ml
+^ESCTCO856769	Codeine 15mg/5ml linctus (Thornton & Ross Ltd) 200 ml
+^ESCTCO856770	Codeine 15mg/5ml linctus (Thornton & Ross Ltd) 500 ml
+^ESCTCO856773	Codeine 15mg/5ml linctus (Thornton & Ross Ltd) 2000 ml
+^ESCTCO856774	Codeine 15mg/5ml linctus (Alliance Healthcare (Distribution) Ltd) 2000 ml
+^ESCTCO856795	Codeine 25mg/5ml oral solution (A A H Pharmaceuticals Ltd) 500 ml
+^ESCTCO856803	Codeine 25mg/5ml oral solution (Thornton & Ross Ltd) 500 ml
+^ESCTCO856804	Codeine 25mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 500 ml
+^ESCTCO857066	Codeine 60mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTCO857067	Codeine 60mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTCO857068	Codeine 60mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTCO858478	Codeine 3mg/5ml linctus paediatric sugar free 2000 ml
+^ESCTCO861154	Codeine 3mg/5ml linctus paediatric sugar free
+^ESCTCO861808	Codafen Continus tablets (Napp Pharmaceuticals Ltd)
+^ESCTCO861813	Codafen Continus tablets (Napp Pharmaceuticals Ltd) 56 tablet
+^ESCTCO861819	Codafen Continus tablets (Napp Pharmaceuticals Ltd) 112 tablet
+^ESCTCO861923	Codeine 15mg/5ml linctus sugar free 2000 ml
+^ESCTCO861925	Codeine 15mg/5ml linctus sugar free 200 ml
+^ESCTCO861927	Codeine 15mg/5ml linctus sugar free 500 ml
+^ESCTCO861933	Codeine 15mg/5ml linctus sugar free (A A H Pharmaceuticals Ltd)
+^ESCTCO861937	Codeine 15mg/5ml linctus sugar free (A A H Pharmaceuticals Ltd) 2000 ml
+^ESCTCO861939	Codeine 15mg/5ml linctus sugar free (A A H Pharmaceuticals Ltd) 200 ml
+^ESCTCO861940	Codeine 15mg/5ml linctus sugar free (A A H Pharmaceuticals Ltd) 500 ml
+^ESCTCO861943	Codeine 15mg/5ml linctus sugar free (Vantage)
+^ESCTCO861944	Codeine 15mg/5ml linctus sugar free (Vantage) 200 ml
+^ESCTCO861947	Codeine 15mg/5ml linctus sugar free (Kent Pharmaceuticals Ltd)
+^ESCTCO861949	Codeine 15mg/5ml linctus sugar free (Kent Pharmaceuticals Ltd) 2000 ml
+^ESCTCO861951	Codeine 15mg/5ml linctus sugar free (Kent Pharmaceuticals Ltd) 200 ml
+^ESCTCO861954	Codeine 15mg/5ml linctus sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO861956	Codeine 15mg/5ml linctus sugar free (Alliance Healthcare (Distribution) Ltd) 2000 ml
+^ESCTCO861962	Codeine 15mg/5ml linctus sugar free (Thornton & Ross Ltd)
+^ESCTCO861964	Codeine 15mg/5ml linctus sugar free (Thornton & Ross Ltd) 500 ml
+^ESCTCO863370	Co-codaprin 8mg/400mg dispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO863374	Co-codaprin 8mg/400mg dispersible tablets (Actavis UK Ltd)
+^ESCTCO863379	Co-codaprin 8mg/400mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO863582	Codeine 15mg/5ml linctus (Alliance Healthcare (Distribution) Ltd) 200 ml
+^ESCTCO864502	Codipar 15mg/500mg tablets (AMCo)
+^ESCTCO864503	Codipar 15mg/500mg tablets (AMCo) 100 tablet 10 x 10 tablets
+^ESCTCO864526	Co-codamol 15mg/500mg tablets
+^ESCTCO866337	Co-codamol 30mg/500mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTCO872278	Codeine 30mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTCO873486	Co-codamol 30mg/500mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO874219	Codis 500 dispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTCO874221	Codis 500 dispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd) 32 tablet 4 x 8 tablets
+^ESCTCO874745	Co-codamol 8mg/500mg tablets (Vantage)
+^ESCTCO875937	Codeine phosphate powder 25 gram
+^ESCTCO875938	Codeine phosphate powder (A A H Pharmaceuticals Ltd)
+^ESCTCO875939	Codeine phosphate powder (A A H Pharmaceuticals Ltd) 25 gram
+^ESCTCO875940	Codeine phosphate powder (Martindale Pharmaceuticals Ltd)
+^ESCTCO875941	Codeine phosphate powder (Martindale Pharmaceuticals Ltd) 25 gram
+^ESCTCO875942	Codeine phosphate powder (Thornton & Ross Ltd)
+^ESCTCO875943	Codeine phosphate powder (Thornton & Ross Ltd) 25 gram
+^ESCTCO876679	Codeine 3mg/5ml linctus paediatric 100 ml
+^ESCTCO876682	Codeine 3mg/5ml linctus paediatric (Thornton & Ross Ltd)
+^ESCTCO876684	Codeine 3mg/5ml linctus paediatric (Thornton & Ross Ltd) 100 ml
+^ESCTCO878753	Co-codamol 30mg/500mg effervescent tablets (Zentiva)
+^ESCTCO878755	Co-codamol 30mg/500mg effervescent tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO880145	Co-codamol 30mg/500mg effervescent tablets (Kent Pharmaceuticals Ltd)
+^ESCTCO895971	Co-codamol 30mg/500mg tablets (Sandoz Ltd)
+^ESCTCO896238	Codeine 30mg tablets (Ranbaxy (UK) Ltd) 28 tablet
+^ESCTCO896872	Codeine 15mg/5ml linctus sugar free (Thornton & Ross Ltd) 200 ml
+^ESCTCO896875	Co-codamol 30mg/500mg effervescent tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO897010	Codeine 30mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTCO901597	Co-codamol 8mg/500mg tablets (Lloyds Pharmacy Ltd)
+^ESCTCO902987	Codeine 6.75mg/5ml oral solution 150 ml
+^ESCTCO903000	Codeine 6.75mg/5ml oral solution
+^ESCTCO903062	Co-codamol 30mg/500mg caplets (Kent Pharmaceuticals Ltd)
+^ESCTCO905931	Codeine 10mg/5ml oral solution 1 ml
+^ESCTCO905933	Codeine 10mg/5ml oral solution (Special Order)
+^ESCTCO905934	Codeine 5mg/5ml oral solution 1 ml
+^ESCTCO905935	Codeine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTCO905936	Codeine 5mg/5ml oral solution (Special Order)
+^ESCTCO905937	Codeine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCO905938	Codeine 10mg/5ml oral suspension 1 ml
+^ESCTCO905939	Codeine 10mg/5ml oral suspension (Special Order)
+^ESCTCO905940	Codeine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCO905941	Codeine 5mg/5ml oral suspension 1 ml
+^ESCTCO905942	Codeine 5mg/5ml oral suspension (Special Order)
+^ESCTCO905943	Codeine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCO906154	Codeine 10mg/5ml oral solution
+^ESCTCO906155	Codeine 10mg/5ml oral suspension
+^ESCTCO906156	Codeine 5mg/5ml oral solution
+^ESCTCO906157	Codeine 5mg/5ml oral suspension
+^ESCTCO909914	Co-codamol 30mg/500mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO911682	Co-codamol 8mg/500mg effervescent tablets (Teva UK Ltd)
+^ESCTCO912281	Codeine 60mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTCO913181	Codeine 15mg/5ml linctus sugar free (Alliance Healthcare (Distribution) Ltd) 200 ml
+^ESCTCO914487	Codipar
+^ESCTCO915993	Co-codamol 30mg/500mg tablets (Mylan Ltd)
+^ESCTCO918660	Co-codamol 30mg/500mg capsules (Mylan Ltd)
+^ESCTCO918676	Co-codamol 30mg/500mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTCO920022	Co-codamol 30mg/500mg effervescent tablets (Mylan Ltd)
+^ESCTCO920798	Co-codamol 30mg/500mg tablets (Actavis UK Ltd)
+^ESCTCO921121	Co-codamol 30mg/500mg capsules (Teva UK Ltd)
+^ESCTCO921125	Co-codamol 30mg/500mg tablets (Teva UK Ltd)
+^ESCTCO923523	Co-codamol 8mg/500mg effervescent tablets (Almus Pharmaceuticals Ltd)
+^ESCTCO923526	Co-codamol 30mg/500mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCO923869	Codeine 15mg/5ml linctus (Lloyds Pharmacy Ltd)
+^ESCTCO923870	Codeine 15mg/5ml linctus (Lloyds Pharmacy Ltd) 200 ml
+^ESCTCO926138	Codeine 15mg/5ml linctus
+^ESCTCO928919	Co-codamol 8mg/500mg tablets (Arrow Generics Ltd)
+^ESCTCO928921	Co-codamol 30mg/500mg tablets (Arrow Generics Ltd)
+^ESCTCO928929	Codeine 15mg tablets (Arrow Generics Ltd)
+^ESCTCO928930	Codeine 15mg tablets (Arrow Generics Ltd) 30 tablet
+^ESCTCO928931	Codeine 30mg tablets (Arrow Generics Ltd)
+^ESCTCO928932	Codeine 30mg tablets (Arrow Generics Ltd) 30 tablet
+^ESCTCO928933	Codeine 60mg tablets (Arrow Generics Ltd)
+^ESCTCO928937	Codeine 60mg tablets (Arrow Generics Ltd) 30 tablet
+^ESCTCO931178	Codeine 30mg tablets (Teva UK Ltd) 100 tablet 4 x 25 tablets
+^ESCTCO933276	Co-codamol 30mg/500mg capsules (Zentiva)
+^ESCTCO934053	Co-codamol 8mg/500mg effervescent tablets (Bayer Plc)
+^ESCTCO935207	Co-codamol 30mg/500mg capsules (Actavis UK Ltd)
+^ESCTCO939366	Co-codamol 30mg/500mg effervescent tablets (Almus Pharmaceuticals Ltd)
+^ESCTCO939557	Codeine 30mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCO939558	Codeine 30mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO940672	Codeine 15mg tablets (Sandoz Ltd)
+^ESCTCO940673	Codeine 15mg tablets (Sandoz Ltd) 28 tablet
+^ESCTCO940674	Codeine 30mg tablets (Sandoz Ltd)
+^ESCTCO940675	Codeine 30mg tablets (Sandoz Ltd) 28 tablet
+^ESCTCO940676	Codeine 60mg tablets (Sandoz Ltd)
+^ESCTCO940677	Codeine 60mg tablets (Sandoz Ltd) 28 tablet
+^ESCTCO941111	Co-codamol 8mg/500mg caplets (Vantage)
+^ESCTCO942705	Co-codaprin 8mg/400mg tablets (The Boots Company Plc)
+^ESCTCO942831	Co-codaprin 8mg/400mg tablets
+^ESCTCO943240	Codeine 30mg/5ml oral solution 1 ml
+^ESCTCO943241	Codeine 30mg/5ml oral solution (Special Order)
+^ESCTCO943242	Codeine 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTCO943243	Codeine 50mg/5ml oral solution 1 ml
+^ESCTCO943244	Codeine 50mg/5ml oral solution (Special Order)
+^ESCTCO943245	Codeine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTCO943246	Codeine 60mg/5ml oral solution 1 ml
+^ESCTCO943247	Codeine 60mg/5ml oral solution (Special Order)
+^ESCTCO943248	Codeine 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTCO943364	Codeine 30mg/5ml oral solution
+^ESCTCO943365	Codeine 50mg/5ml oral solution
+^ESCTCO943366	Codeine 60mg/5ml oral solution
+^ESCTCO948669	Codeine 30mg/1ml solution for injection ampoules 1 ampoule
+^ESCTCO948670	Codeine 30mg/1ml solution for injection ampoules (Special Order)
+^ESCTCO948671	Codeine 30mg/1ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTCO949201	Codeine 30mg/1ml solution for injection ampoules
+^ESCTCO955930	Co-codamol 8mg/500mg capsules (Actavis UK Ltd)
+^ESCTCO961802	Co-codamol 8mg/500mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCO965454	Co-codamol 8mg/500mg tablets (Tillomed Laboratories Ltd)
+^ESCTCO966731	Co-codamol 8mg/500mg/5ml oral suspension (Special Order)
+^ESCTCO966768	Co-codamol 8mg/500mg/5ml oral solution (Special Order)
+^ESCTCO966819	Co-codamol 8mg/500mg/5ml oral solution
+^ESCTCO966820	Co-codamol 8mg/500mg/5ml oral suspension
+^ESCTCO968990	Co-codamol 30mg/500mg capsules (Consilient Health Ltd)
+^ESCTCO969501	Co-codamol 30mg/500mg effervescent tablets (Teva UK Ltd)
+^ESCTCO970641	Co-codamol 8mg/500mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO975347	Codeine 15mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO975348	Codeine 30mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO975407	Codeine 15mg/5ml linctus (Bell,Sons & Co (Druggists) Ltd)
+^ESCTCO975408	Codeine 15mg/5ml linctus (Bell,Sons & Co (Druggists) Ltd) 200 ml
+^ESCTCO975657	Co-codamol 8mg/500mg tablets (Boston Healthcare Ltd)
+^ESCTCO978143	Codeine 15mg/5ml linctus
+^ESCTCO978283	Co-codamol 30mg/500mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCO978404	Co-codamol 30mg/500mg effervescent tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO978656	Co-codamol 8mg/500mg effervescent tablets (Numark Ltd)
+^ESCTCO978986	Co-codamol 8mg/500mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCO979401	Codeine 15mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO979403	Codeine 15mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTCO979405	Codeine 15mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTCO979493	Co-codamol 8mg/500mg effervescent tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO979500	Co-codamol 8mg/500mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCO979506	Codeine 15mg/5ml linctus (Sigma Pharmaceuticals Plc)
+^ESCTCO979507	Codeine 15mg/5ml linctus (Sigma Pharmaceuticals Plc) 200 ml
+^ESCTCO979508	Codeine 15mg/5ml linctus sugar free (Sigma Pharmaceuticals Plc)
+^ESCTCO979509	Codeine 15mg/5ml linctus sugar free (Sigma Pharmaceuticals Plc) 200 ml
+^ESCTCO979813	Codeine phosphate powder (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO979814	Codeine phosphate powder (Alliance Healthcare (Distribution) Ltd) 25 gram
+^ESCTCO980989	Co-codamol 8mg/500mg tablets (Numark Ltd)
+^ESCTCO981723	Co-codamol 30mg/500mg effervescent tablets (Actavis UK Ltd)
+^ESCTCO983214	Co-codamol 8mg/500mg capsules (Bayer Plc)
+^ESCTCO984718	Co-codamol 8mg/500mg effervescent tablets (Actavis UK Ltd)
+^ESCTCO986932	Co-codamol 30mg/500mg effervescent tablets (Zanza Laboratories Ltd)
+^ESCTCO987140	Co-codamol 8mg/500mg tablets (Bristol Laboratories Ltd)
+^ESCTCO987144	Codeine 15mg tablets (Bristol Laboratories Ltd)
+^ESCTCO987145	Codeine 15mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO987146	Codeine 15mg tablets (Bristol Laboratories Ltd) 100 tablet
+^ESCTCO987147	Codeine 15mg tablets 500 tablet
+^ESCTCO987148	Codeine 15mg tablets (Bristol Laboratories Ltd) 500 tablet
+^ESCTCO987817	Codeine 30mg tablets (Bristol Laboratories Ltd)
+^ESCTCO987818	Codeine 30mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO987819	Codeine 30mg tablets (Bristol Laboratories Ltd) 100 tablet
+^ESCTCO987820	Codeine 30mg tablets (Bristol Laboratories Ltd) 500 tablet
+^ESCTCO988948	Codeine 15mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTCO988949	Codeine 30mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTCO991774	Co-codamol 30mg/500mg capsules (AMCo)
+^ESCTCO997829	Co-codamol 8mg/500mg effervescent tablets (Lloyds Pharmacy Ltd)
+^ESCTCU903038	Cuprofen PLUS tablets (SSL International Plc)
+^ESCTCU903039	Cuprofen PLUS tablets (SSL International Plc) 12 tablet
+^ESCTCU903040	Cuprofen PLUS tablets (SSL International Plc) 24 tablet 4 x 6 tablets
+^ESCTDI608955	Diabetic codeine linctus BP
+^ESCTFE934041	Feminax Period Pain capsules (Bayer Plc)
+^ESCTGA858481	Galcodine 3mg/5ml linctus paediatric (Thornton & Ross Ltd)
+^ESCTGA858482	Galcodine 3mg/5ml linctus paediatric (Thornton & Ross Ltd) 2000 ml
+^ESCTGA861945	Galcodine 15mg/5ml linctus (Thornton & Ross Ltd)
+^ESCTGA861946	Galcodine 15mg/5ml linctus (Thornton & Ross Ltd) 2000 ml
+^ESCTGA919699	Galcodine
+^ESCTGE862410	Generic Migraleve Pink tablets
+^ESCTGE912703	Generic Benylin with Codeine oral solution 300 ml
+^ESCTGE912804	Generic Benylin with Codeine oral solution
+^ESCTGE925924	Generic Solpadeine Plus soluble tablets sugar free
+^ESCTGU695971	Guaiacol + Codeine
+^ESCTGU919176	Guaiacol 75mg/5ml / Codeine 7mg/5ml oral solution 90 ml
+^ESCTGU919389	Guaiacol 75mg/5ml / Codeine 7mg/5ml oral solution
+^ESCTIB615070	Ibuprofen 200 mg and codeine phosphate 12.5 mg oral tablet
+^ESCTIB615081	Ibuprofen 200mg / Codeine 12.8mg tablets
+^ESCTIB615083	Ibuprofen 200 mg and codeine phosphate 12.8 mg oral tablet
+^ESCTIB615097	Ibuprofen 300mg modified-release / Codeine 20mg tablets
+^ESCTIB615098	Ibuprofen+codeine phosphate 300mg/20mg m/r tablet
+^ESCTIB698980	Ibuprofen + Codeine
+^ESCTIB861786	Ibuprofen 300mg modified-release / Codeine 20mg tablets 56 tablet
+^ESCTIB861787	Ibuprofen 300mg modified-release / Codeine 20mg tablets 112 tablet
+^ESCTIB865538	Ibuprofen 200mg / Codeine 12.8mg tablets 12 tablet
+^ESCTIB865540	Ibuprofen 200mg / Codeine 12.8mg tablets 24 tablet
+^ESCTIB925769	Ibuprofen 200mg / Codeine 12.8mg tablets 32 tablet
+^ESCTIB967295	Ibuprofen 200mg / Codeine 12.8mg tablets 16 tablet
+^ESCTKA1002601	Kapake 15mg/500mg tablets (Galen Ltd)
+^ESCTKA1002607	Kapake 15mg/500mg tablets (Galen Ltd) 100 tablet 10 x 10 tablets
+^ESCTKA606333	Kaolin light 1.5g/5ml / Codeine 5mg/5ml oral suspension sugar free
+^ESCTKA807301	Kapake 30mg/500mg tablets (Galen Ltd)
+^ESCTKA822905	Kapake 30mg/500mg capsules (Galen Ltd)
+^ESCTKA853918	Kapake 30mg/500mg tablets (Galen Ltd) 500 tablet
+^ESCTKA853920	Kapake 30mg/500mg tablets (Galen Ltd) 100 tablet 10 x 10 tablets
+^ESCTKA853922	Kapake 30mg/500mg tablets (Galen Ltd) 30 tablet 3 x 10 tablets
+^ESCTKA853947	Kapake 30mg/500mg capsules (Galen Ltd) 100 capsule
+^ESCTKA860435	Kapake Insts 60mg/1000mg effervescent powder sachets (Galen Ltd)
+^ESCTKA860437	Kapake Insts 60mg/1000mg effervescent powder sachets (Galen Ltd) 50 sachet
+^ESCTKA860454	Kapake Insts 30mg/500mg effervescent powder sachets (Galen Ltd)
+^ESCTKA860459	Kapake Insts 30mg/500mg effervescent powder sachets (Galen Ltd) 100 sachet
+^ESCTKA872254	Kaolin light 1.5g/5ml / Codeine 5mg/5ml oral suspension sugar free 250 ml
+^ESCTKA872260	Kaodene oral suspension (Sovereign Medical Ltd)
+^ESCTKA872261	Kaodene oral suspension (Sovereign Medical Ltd) 250 ml
+^ESCTKA896498	Kapake 30mg/500mg effervescent tablets (Galen Ltd)
+^ESCTKA896499	Kapake 30mg/500mg effervescent tablets (Galen Ltd) 100 tablet 10 x 10 tablets
+^ESCTKA918173	Kapake
+^ESCTKA918400	Kaodene
+^ESCTKA919386	Kapake Insts
+^ESCTKA930400	Kapake 30mg/500mg capsules (Waymade Healthcare Plc)
+^ESCTKA930402	Kapake 30mg/500mg capsules (Waymade Healthcare Plc) 100 capsule
+^ESCTME803107	Medocodene 30mg/500mg capsules (UCB Pharma Ltd)
+^ESCTME853958	Medocodene 30mg/500mg capsules (UCB Pharma Ltd) 100 capsule
+^ESCTME919080	Medocodene
+^ESCTME919563	Medocodene 30mg/500mg effervescent tablets (Mylan Ltd)
+^ESCTME919565	Medocodene 30mg/500mg effervescent tablets (Mylan Ltd) 90 tablet
+^ESCTMI861318	Migraleve Yellow tablets (McNeil Products Ltd)
+^ESCTMI861334	Migraleve Pink tablets (McNeil Products Ltd)
+^ESCTMI918603	Migraine Relief 8mg/500mg capsules (The Boots Company Plc)
+^ESCTNU865541	Nurofen Plus tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCTNU865544	Nurofen Plus tablets (Reckitt Benckiser Healthcare (UK) Ltd) 24 tablet 2 x 12 tablets
+^ESCTNU865545	Nurofen Plus tablets (Reckitt Benckiser Healthcare (UK) Ltd) 12 tablet
+^ESCTNU925770	Nurofen Plus tablets (Reckitt Benckiser Healthcare (UK) Ltd) 32 tablet 4 x 8 tablets
+^ESCTNU967299	Nurofen Plus tablets (Reckitt Benckiser Healthcare (UK) Ltd) 16 tablet
+^ESCTPA610074	Paracetamol+codeine phosphate 500mg/8mg tablet
+^ESCTPA610076	Paracetamol+codeine phosphate 500mg/8mg dispersible tablet
+^ESCTPA610093	Paracetamol+codeine phosphate 500mg/30mg/sachet powder
+^ESCTPA610097	Paracetamol+codeine phosphate 1000mg/60mg/sachet powder
+^ESCTPA610102	Paracetamol 500 mg and codeine phosphate 30 mg oral tablet
+^ESCTPA610104	Paracetamol+codeine phosphate 500mg/8mg effervescent tablet
+^ESCTPA610108	Paracetamol+codeine phosphate 500mg/8mg capsule
+^ESCTPA610117	Paracetamol+codeine phosphate 500mg/30mg effervescent tablet
+^ESCTPA610120	Paracetamol 500 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCTPA610134	Paracetamol+codeine phosphate 500mg/13.5mg tablet
+^ESCTPA610137	Paracetamol 500 mg and codeine phosphate 13.5 mg oral tablet
+^ESCTPA610148	Paracetamol 500 mg and codeine phosphate 12.8 mg oral tablet
+^ESCTPA635081	Paracetamol + butalbital + caffeine + codeine phosphate 325mg/50mg/40mg/30mg capsule
+^ESCTPA635082	Paracetamol 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCTPA641963	Paracetamol + alcohol + codeine phosphate 120mg/7%vv/12mg elixir
+^ESCTPA641970	Paracetamol + codeine phosphate 120mg/12mg suspension
+^ESCTPA641978	Paracetamol + codeine phosphate 300mg/15mg tablet
+^ESCTPA641982	Paracetamol 300 mg and codeine phosphate 15 mg oral tablet
+^ESCTPA642003	Paracetamol + codeine phosphate 300mg/30mg tablet
+^ESCTPA642007	Paracetamol 300 mg and codeine phosphate 30 mg oral tablet
+^ESCTPA642008	Paracetamol + codeine phosphate 300mg/60mg tablet
+^ESCTPA642011	Paracetamol 300 mg and codeine phosphate 60 mg oral tablet
+^ESCTPA661094	Paracetamol + alcohol + codeine phosphate
+^ESCTPA661360	Paracetamol+butalbital+caffeine+codeine phosphate
+^ESCTPA675362	Paracetamol+codeine phosphate 500mg/15mg tablet
+^ESCTPA675365	Paracetamol 500 mg and codeine phosphate 15 mg oral tablet
+^ESCTPA820795	Paracodol 8mg/500mg effervescent tablets (Bayer Plc)
+^ESCTPA824101	Paracodol 8mg/500mg capsules (Bayer Plc)
+^ESCTPA828343	Panadol Ultra 12.8mg/500mg tablets (GlaxoSmithKline Consumer Healthcare)
+^ESCTPA853661	Paracodol 8mg/500mg capsules (Bayer Plc) 20 capsule 2 x 10 capsules
+^ESCTPA853662	Paracodol 8mg/500mg capsules (Bayer Plc) 10 capsule
+^ESCTPA853871	Paracodol 8mg/500mg effervescent tablets (Bayer Plc) 24 tablet
+^ESCTPA853872	Paracodol 8mg/500mg effervescent tablets (Bayer Plc) 12 tablet
+^ESCTPA915505	Paracodol
+^ESCTPA931683	Paracodol 8mg/500mg capsules (Bayer Plc) 32 capsule 4 x 8 capsules
+^ESCTPA933009	Paracodol 8mg/500mg effervescent tablets (Bayer Plc) 32 tablet 8 x 4 tablets
+^ESCTPH682433	Phenylephrine + promethazine + codeine
+^ESCTPH682537	Phenylephrine + chlorpheniramine + codeine + potassium iodide
+^ESCTPH705439	Phenylephrine 5mg/promethazine 6.25mg/codeine 10mg in 5mL oral syrup
+^ESCTPR389784	Product containing codeine
+^ESCTPR608949	Product containing codeine phosphate
+^ESCTPR610099	Product containing acetaminophen 500 mg and codeine phosphate 30 mg/1 each oral tablet
+^ESCTPR610100	Product containing paracetamol 500 mg and codeine phosphate 30 mg/1 each oral tablet
+^ESCTPR610122	Product containing acetaminophen 500 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCTPR610123	Product containing paracetamol 500 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCTPR610135	Product containing acetaminophen 500 mg and codeine phosphate 13.5 mg/1 each oral tablet
+^ESCTPR610136	Product containing paracetamol 500 mg and codeine phosphate 13.5 mg/1 each oral tablet
+^ESCTPR610145	Product containing acetaminophen 500 mg and codeine phosphate 12.8 mg/1 each oral tablet
+^ESCTPR610146	Product containing paracetamol 500 mg and codeine phosphate 12.8 mg/1 each oral tablet
+^ESCTPR610214	Product containing codeine phosphate 15 mg/1 each oral tablet
+^ESCTPR610217	Product containing codeine phosphate 30 mg/1 each oral tablet
+^ESCTPR610220	Product containing codeine phosphate 60 mg/1 each oral tablet
+^ESCTPR615071	Product containing ibuprofen 200 mg and codeine phosphate 12.5 mg/1 each oral tablet
+^ESCTPR615082	Product containing ibuprofen 200 mg and codeine phosphate 12.8 mg/1 each oral tablet
+^ESCTPR619316	Product containing codeine in oral dosage form
+^ESCTPR619319	Product containing codeine in parenteral dosage form
+^ESCTPR635084	Product containing acetaminophen 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCTPR635085	Product containing paracetamol 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCTPR635089	Product containing aspirin 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule
+^ESCTPR641891	Product containing aspirin 325 mg and carisoprodol 200 mg and codeine phosphate 16 mg/1 each oral tablet
+^ESCTPR641979	Product containing acetaminophen 300 mg and codeine phosphate 15 mg/1 each oral tablet
+^ESCTPR641980	Product containing paracetamol 300 mg and codeine phosphate 15 mg/1 each oral tablet
+^ESCTPR642004	Product containing acetaminophen 300 mg and codeine phosphate 30 mg/1 each oral tablet
+^ESCTPR642005	Product containing paracetamol 300 mg and codeine phosphate 30 mg/1 each oral tablet
+^ESCTPR642009	Product containing acetaminophen 300 mg and codeine phosphate 60 mg/1 each oral tablet
+^ESCTPR642010	Product containing paracetamol 300 mg and codeine phosphate 60 mg/1 each oral tablet
+^ESCTPR660952	Product containing aspirin and butalbital and caffeine and codeine phosphate
+^ESCTPR661362	Product containing butalbital and caffeine and codeine phosphate and paracetamol
+^ESCTPR661363	Product containing acetaminophen and butalbital and caffeine and codeine phosphate
+^ESCTPR661396	Product containing aspirin and carisoprodol and codeine phosphate
+^ESCTPR670358	Product containing aspirin 300 mg and codeine 8 mg/1 each oral tablet
+^ESCTPR675363	Product containing acetaminophen 500 mg and codeine phosphate 15 mg/1 each oral tablet
+^ESCTPR675364	Product containing paracetamol 500 mg and codeine phosphate 15 mg/1 each oral tablet
+^ESCTPR682184	Product containing aspirin and codeine
+^ESCTPR682832	Product containing codeine and paracetamol
+^ESCTPR682833	Product containing acetaminophen and codeine
+^ESCTPR682867	Product containing aspirin 325 mg and codeine 30 mg/1 each oral tablet
+^ESCTPR682869	Product containing aspirin 325 mg and codeine 60 mg/1 each oral tablet
+^ESCTPR698982	Product containing codeine and ibuprofen
+^ESCTPR727210	Product containing codeine sulfate
+^ESCTPR729178	Product containing codeine sulfate 15 mg/1 each oral tablet
+^ESCTPR729192	Product containing codeine sulfate 60 mg/1 each oral tablet
+^ESCTPR729253	Product containing codeine sulfate 30 mg/1 each oral tablet
+^ESCTPS682440	Pseudoephedrine + codeine + guaifenesin
+^ESCTPU919180	Pulmo Bailly oral solution (Dendron Ltd)
+^ESCTPU919184	Pulmo Bailly oral solution (Dendron Ltd) 90 ml
+^ESCTSO799224	Solpadol 30mg/500mg effervescent tablets (Sanofi)
+^ESCTSO807878	Solpadol 30mg/500mg capsules (Sanofi)
+^ESCTSO810926	Solpadol 30mg/500mg caplets (Sanofi)
+^ESCTSO820383	Solpadeine Max 12.8mg/500mg tablets (Omega Pharma Ltd)
+^ESCTSO853934	Solpadol 30mg/500mg caplets (Sanofi) 100 tablet 10 x 10 tablets
+^ESCTSO853954	Solpadol 30mg/500mg capsules (Sanofi) 100 capsule 10 x 10 capsules
+^ESCTSO853960	Solpadol 30mg/500mg effervescent tablets (Sanofi) 100 tablet 10 x 10 tablets
+^ESCTSO865548	Solpaflex tablets (GlaxoSmithKline Consumer Healthcare)
+^ESCTSO865550	Solpaflex tablets (GlaxoSmithKline Consumer Healthcare) 12 tablet
+^ESCTSO865553	Solpaflex tablets (GlaxoSmithKline Consumer Healthcare) 24 tablet 2 x 12 tablets
+^ESCTSO916336	Solpadol
+^ESCTSO925858	Solpadeine Plus soluble tablets (Omega Pharma Ltd)
+^ESCTSO926988	Solpadeine Migraine Ibuprofen & Codeine tablets (Omega Pharma Ltd)
+^ESCTSO926989	Solpadeine Migraine Ibuprofen & Codeine tablets (Omega Pharma Ltd) 24 tablet 2 x 12 tablets
+^ESCTSO927299	Solpadol 30mg/500mg caplets (Sanofi) 30 tablet 3 x 10 tablets
+^ESCTSO927301	Solpadol 30mg/500mg effervescent tablets (Sanofi) 30 tablet 3 x 10 tablets
+^ESCTSO947308	Solpadol 30mg/500mg effervescent tablets (Sanofi) 32 tablet 4 x 8 tablets
+^ESCTTE692732	Terpin + Codeine
+^ESCTTE874130	Terpin 32.5mg/5ml / Codeine 16mg/5ml linctus 200 ml
+^ESCTTE874131	Terpin 32.5mg/5ml / Codeine 16mg/5ml linctus (A A H Pharmaceuticals Ltd)
+^ESCTTE874133	Terpin 32.5mg/5ml / Codeine 16mg/5ml linctus (A A H Pharmaceuticals Ltd) 200 ml
+^ESCTTE874134	Terpin 32.5mg/5ml / Codeine 16mg/5ml linctus (Thornton & Ross Ltd)
+^ESCTTE874135	Terpin 32.5mg/5ml / Codeine 16mg/5ml linctus (Thornton & Ross Ltd) 200 ml
+^ESCTTE874271	Terpin 32.5mg/5ml / Codeine 16mg/5ml linctus
+^ESCTTE979650	Terpin 32.5mg/5ml / Codeine 16mg/5ml linctus (Sigma Pharmaceuticals Plc)
+^ESCTTE979651	Terpin 32.5mg/5ml / Codeine 16mg/5ml linctus (Sigma Pharmaceuticals Plc) 200 ml
+^ESCTTY802145	Tylex 30mg/500mg effervescent tablets (UCB Pharma Ltd)
+^ESCTTY811482	Tylex 30mg/500mg capsules (UCB Pharma Ltd)
+^ESCTTY853957	Tylex 30mg/500mg capsules (UCB Pharma Ltd) 100 capsule 5 x 20 capsules
+^ESCTTY853961	Tylex 30mg/500mg effervescent tablets (UCB Pharma Ltd) 90 tablet 15 x 6 tablets
+^ESCTTY880654	Tylex 30mg/500mg capsules (UCB Pharma Ltd) 24 capsule 3 x 8 capsules
+^ESCTTY912077	Tylex 30mg/500mg capsules (UCB Pharma Ltd) 8 capsule
+^ESCTTY916896	Tylex
+^ESCTTY933528	Tylex 30mg/500mg effervescent tablets (Waymade Healthcare Plc)
+^ESCTTY933529	Tylex 30mg/500mg effervescent tablets (Waymade Healthcare Plc) 90 tablet
+^ESCTTY973619	Tylex 30mg/500mg effervescent tablets (UCB Pharma Ltd) 100 tablet 10 x 10 tablets
+^ESCTZA802350	Zapain 30mg/500mg tablets (AMCo)
+^ESCTZA810123	Zapain 30mg/500mg capsules (AMCo)
+^ESCTZA853924	Zapain 30mg/500mg tablets (AMCo) 100 tablet
+^ESCTZA853951	Zapain 30mg/500mg capsules (AMCo) 100 capsule
+^ESCTZA917331	Zapain
+ASDI22726NEMIS	Aspirin And Codeine  Dispersible Tablets Sugar Free  500 mg + 8 mg
+ASTA3199	Aspirin Paracetamol And Codeine  Tablets
+BESY3228	Benylin With Codeine  Syrup  
+COCA14475NEMIS	Codipar  Tablets  15 mg/500 mg
+COCA23155EMIS	Co-Codamol 8/500  Capsules  
+COCA27288EMIS	Co-Codamol 30/500  Capsules  
+COCA34450MGEMIS	Co-Codamol 30/500  Capsules  (A.A.H. Pharm)
+COCA34451MGEMIS	Co-Codamol 30/500  Capsules  (Kent Pharm)
+COCA34452MGEMIS	Co-Codamol 30/500  Capsules  (Unichem)
+COCA34453MGEMIS	Co-Codamol 30/500  Capsules  (Generics (UK))
+COCA34454MGEMIS	Co-Codamol 30/500  Capsules  (Ivax Pharmaceuticals)
+COCA34455MGEMIS	Co-Codamol 30/500  Capsules  (Teva UK)
+COCA51631NEMIS	Co-Codamol 15/500  Capsules  
+COCA51632NEMIS	Codipar  Capsules  15 mg/500 mg
+CODI22728NEMIS	Codis 500  Dispersible Tablets Sugar Free  
+COEF136523NEMIS	Co-Codamol 8/500  Effervescent Tablets Sugar Free  
+COEF27289EMIS	Co-Codamol 30/500  Effervescent tablets  
+COEF34103EMIS	Co-Codamol 30/500  Effervescent powder  
+COEF34460MGEMIS	Co-Codamol 30/500  Effervescent tablets  (Winthrop Pharmaceuticals )
+COEF34461MGEMIS	Co-Codamol 30/500  Effervescent tablets  (Unichem)
+COEF34462MGEMIS	Co-Codamol 30/500  Effervescent tablets  (Kent Pharm)
+COEF34463MGEMIS	Co-Codamol 30/500  Effervescent tablets  (A.A.H. Pharm)
+COEF34464MGEMIS	Co-Codamol 30/500  Effervescent tablets  (Generics (UK))
+COEF51112NEMIS	Co-Codamol 15/500  Effervescent Tablets Sugar Free  
+COEF51113NEMIS	Codipar  Effervescent tablets  15 mg/500 mg
+COIN3336	Codeine Phosphate  Injection  60mg/ml, 1 ml ampoule
+COIN34467MGEMIS	Codeine Phosphate  Injection  60mg/ml, 1 ml ampoule (Martindale)
+COIN34468MGEMIS	Codeine Phosphate  Injection  60mg/ml, 1 ml ampoule (A.A.H. Pharm)
+COIN34469MGEMIS	Codeine Phosphate  Injection  60mg/ml, 1 ml ampoule (Unichem)
+COLI11705NEMIS	Codeine  Linctus sugar free  15 mg/5 ml
+COLI37800MGEMIS	Codeine  Linctus sugar free  BP (A.A.H. Pharm)
+COLI37801MGEMIS	Codeine  Linctus sugar free  BP (Vantage)
+COLI37802MGEMIS	Codeine  Linctus sugar free  BP (Kent Pharm)
+COLI37803MGEMIS	Codeine  Linctus sugar free  BP (Unichem)
+COLI37804MGEMIS	Codeine  Linctus sugar free  BP (Thornton & Ross)
+COLI705	Codeine Phosphate  Linctus  15 mg/5 ml
+COLI8978BRIDL	Codeine Paediatric  Linctus  3mg/5 ml
+COM/19840EMIS	Codafen Continus  M/R tablets  
+COOR135551NEMIS	Co-Codamol 30/500  Oral Solution, Sugar Free  30 mg/5 ml + 500 mg/5 ml
+COPO3925NEMIS	Codeine Phosphate  Powder  BP
+COSY3330	Codeine Linctus  Syrup  15 mg/5 ml
+COSY3337	Codeine Phosphate  Syrup  25 mg/5 ml
+COSY34494MGEMIS	Codeine Linctus  Syrup  15 mg/5 ml (A.A.H. Pharm)
+COSY34495MGEMIS	Codeine Linctus  Syrup  15 mg/5 ml (Thornton & Ross)
+COSY34496MGEMIS	Codeine Linctus  Syrup  15 mg/5 ml (Unichem)
+COSY34497MGEMIS	Codeine Linctus  Syrup  15 mg/5 ml (The Boots Company)
+COSY34498MGEMIS	Codeine Phosphate  Syrup  25 mg/5 ml (Thornton & Ross)
+COSY34499MGEMIS	Codeine Phosphate  Syrup  25 mg/5 ml (Unichem)
+COSY34500MGEMIS	Codeine Phosphate  Syrup  25 mg/5 ml (A.A.H. Pharm)
+COTA124117NEMIS	Co-Codamol 60/1000  Tablets  
+COTA14835NEMIS	Co-Codamol 15/500  Tablets  
+COTA27290EMIS	Co-Codamol 30/500  Tablets  
+COTA3322	Co-Codaprin  Tablets  
+COTA3323	Co-Codaprin Dispersible  Tablets  
+COTA3333	Codeine Phosphate  Tablets  15 mg
+COTA3334	Codeine Phosphate  Tablets  30 mg
+COTA3335	Codeine Phosphate  Tablets  60 mg
+COTA34539MGEMIS	Co-Codamol 30/500  Tablets  (Kent Pharm)
+COTA34540MGEMIS	Co-Codamol 30/500  Tablets  (Unichem)
+COTA34541MGEMIS	Co-Codamol 30/500  Tablets  (Wockhardt UK)
+COTA34542MGEMIS	Co-Codamol 30/500  Tablets  (A.A.H. Pharm)
+COTA34543MGEMIS	Co-Codamol 30/500  Tablets  (Winthrop Pharmaceuticals )
+COTA34544MGEMIS	Co-Codamol 30/500  Tablets  (Ivax Pharmaceuticals)
+COTA34545MGEMIS	Co-Codamol 30/500  Tablets  (Sandoz)
+COTA34546MGEMIS	Co-Codamol 30/500  Tablets  (Generics (UK))
+COTA34547MGEMIS	Co-Codamol 30/500  Tablets  (Alpharma)
+COTA34548MGEMIS	Co-Codamol 30/500  Tablets  (Teva UK)
+COTA34549MGEMIS	Co-Codaprin Dispersible  Tablets  (A.A.H. Pharm)
+COTA34550MGEMIS	Co-Codaprin Dispersible  Tablets  (Alpharma)
+COTA34551MGEMIS	Co-Codaprin Dispersible  Tablets  (Unichem)
+COTA34552MGEMIS	Codeine Phosphate  Tablets  15 mg (Alpharma)
+COTA34553MGEMIS	Codeine Phosphate  Tablets  15 mg (Kent Pharm)
+COTA34554MGEMIS	Codeine Phosphate  Tablets  15 mg (Ranbaxy)
+COTA34555MGEMIS	Codeine Phosphate  Tablets  15 mg (Wockhardt UK)
+COTA34556MGEMIS	Codeine Phosphate  Tablets  15 mg (Teva UK)
+COTA34557MGEMIS	Codeine Phosphate  Tablets  15 mg (Unichem)
+COTA34558MGEMIS	Codeine Phosphate  Tablets  15 mg (A.A.H. Pharm)
+COTA34559MGEMIS	Codeine Phosphate  Tablets  30 mg (Alpharma)
+COTA34560MGEMIS	Codeine Phosphate  Tablets  30 mg (A.A.H. Pharm)
+COTA34561MGEMIS	Codeine Phosphate  Tablets  30 mg (Teva UK)
+COTA34562MGEMIS	Codeine Phosphate  Tablets  30 mg (Ranbaxy)
+COTA34563MGEMIS	Codeine Phosphate  Tablets  30 mg (Wockhardt UK)
+COTA34564MGEMIS	Codeine Phosphate  Tablets  30 mg (Unichem)
+COTA34565MGEMIS	Codeine Phosphate  Tablets  30 mg (Ivax Pharmaceuticals)
+COTA34566MGEMIS	Codeine Phosphate  Tablets  30 mg (Kent Pharm)
+COTA34567MGEMIS	Codeine Phosphate  Tablets  60 mg (A.A.H. Pharm)
+COTA34568MGEMIS	Codeine Phosphate  Tablets  60 mg (Teva UK)
+COTA34569MGEMIS	Codeine Phosphate  Tablets  60 mg (Alpharma)
+COTA34570MGEMIS	Codeine Phosphate  Tablets  60 mg (Ranbaxy)
+COTA34571MGEMIS	Codeine Phosphate  Tablets  60 mg (Kent Pharm)
+COTA34572MGEMIS	Codeine Phosphate  Tablets  60 mg (Wockhardt UK)
+COTA34573MGEMIS	Codeine Phosphate  Tablets  60 mg (Unichem)
+COTA34576MGEMIS	Co-Codamol 8/500  Tablets  (OBG Pharm)
+COTA34577MGEMIS	Co-Codamol 8/500  Tablets  (Alpharma)
+COTA34578MGEMIS	Co-Codamol 8/500  Tablets  (Kent Pharm)
+COTA34579MGEMIS	Co-Codamol 8/500  Tablets  (Aspar)
+COTA34580MGEMIS	Co-Codamol 8/500  Tablets  (Generics (UK))
+COTA34581MGEMIS	Co-Codamol 8/500  Tablets  (Teva UK)
+COTA34582MGEMIS	Co-Codamol 8/500  Tablets  (Unichem)
+COTA34583MGEMIS	Co-Codamol 8/500  Tablets  (A.A.H. Pharm)
+COTA34584MGEMIS	Co-Codamol 8/500  Tablets  (Ivax Pharmaceuticals)
+COTA34585MGEMIS	Co-Codamol 8/500  Tablets  (The Boots Company)
+COTA34586MGEMIS	Co-Codamol 8/500  Tablets  (Winthrop Pharmaceuticals )
+COTA34587MGEMIS	Co-Codamol 8/500  Tablets  (Vantage)
+COTA34588MGEMIS	Co-Codamol 8/500  Tablets  (Lloyds)
+COTA34589MGEMIS	Co-Codamol 8/500 Effervescent  Tablets  (A.A.H. Pharm)
+COTA34590MGEMIS	Co-Codamol 8/500 Effervescent  Tablets  (Unichem)
+COTA34591MGEMIS	Co-Codamol 8/500 Effervescent  Tablets  (The Boots Company)
+COTA34592MGEMIS	Co-Codamol 8/500 Effervescent  Tablets  (Winthrop Pharmaceuticals )
+COTA34593MGEMIS	Co-Codamol 8/500 Effervescent  Tablets  (Generics (UK))
+COTA34594MGEMIS	Co-Codamol 8/500 Effervescent  Tablets  (Kent Pharm)
+COTA34595MGEMIS	Co-Codamol 8/500 Effervescent  Tablets  (Sandoz)
+COTA34596MGEMIS	Co-Codamol 8/500 Effervescent  Tablets  (Teva UK)
+COTA39569NEMIS	Co-Codamol 12.8/500  Tablets  
+COTA684	Co-Codamol 8/500  Tablets  
+COTA685	Co-Codamol 8/500 Effervescent  Tablets  
+CUTA17490NEMIS	Cuprofen Plus  Tablets  
+DILI5892	Diarrest  Liquid  
+EMTA128232NEMIS	Emcozin  Tablets  30 mg/500 mg
+GALI3619	Galcodine  Linctus  15 mg/5 ml
+GAPA9552HILLI	Galcodine  Paediatric linctus  3 mg/5 ml
+IBTA128529NEMIS	Ibuprofen And Codeine  Tablets  200 mg + 12.8 mg
+IBTA19439NEMIS	Ibuprofen M/r And Codeine  Tablets  300 mg + 20 mg
+KACA774NEMIS	Kapake  Capsules  30 mg/500 mg
+KAEF17221NEMIS	Kapake  Effervescent tablets  
+KAEF34100EMIS	Kapake Insts 30/500  Effervescent powder  
+KAEF35164EMIS	Kapake Insts 60/1000  Effervescent powder  
+KAMI3796	Kaodene  Mixture  
+KATA23796EMIS	Kapake  Tablets  30 mg/500 mg
+KATA48452NEMIS	Kapake  Tablets  15 mg/500 mg
+MECA20917NEMIS	Medocodene 30/500  Capsules  
+MEEF20867NEMIS	Medocodene 30/500  Effervescent tablets  
+MIPI8584EGTON	Migraleve  Pink tablets  
+MIYE8585EGTON	Migraleve  Yellow tablets  
+NUTA5832NEMIS	Nurofen Plus  Tablets  
+PACA29057NEMIS	Paracodol  Capsules  
+PAEF9018BRIDL	Paracodol  Effervescent tablets  
+PATA16106NEMIS	Panadol Ultra  Tablets  
+SOCA33988EMIS	Solpadol  Capsules  30 mg/500 mg
+SOEF10470BRIDL	Solpadol  Effervescent tablets  30 mg/500 mg
+SOSO117103NEMIS	Solpadeine Plus  Soluble tablets  
+SOTA16103NEMIS	Solpaflex  Tablets  
+SOTA21962EMIS	Solpadol  Caplets  30 mg/500 mg
+SOTA90749NEMIS	Solpadeine Max  Tablets  12.8 mg + 500 mg
+TYCA8769BRIDL	Tylex  Capsules  
+TYEF29218EMIS	Tylex  Effervescent tablets  
+VACA31042NEMIS	Vantage Co-Codamol  Caplets  8 mg + 500 mg
+ZACA13025NEMIS	Zapain  Capsules  30 mg + 500 mg
+ZACA13027NEMIS	Zapain  Tablets  30 mg + 500 mg

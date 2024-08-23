@@ -1,0 +1,576 @@
+^ESCT1179506	Diazepam 10mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1180320	Diazepam 10mg tablets (Mylan)
+^ESCT1181064	Product containing only diazepam 2 mg/1 each oral tablet
+^ESCT1181065	Product containing only diazepam 10 mg/1 each oral tablet
+^ESCT1185606	Diazepam 2mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1187265	Product containing only diazepam 5 mg/1 each oral tablet
+^ESCT1188678	Diazepam 5mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1188679	Diazepam 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1189482	Diazepam 5mg tablets (Mylan)
+^ESCT1189500	Diazepam 2mg tablets (Mylan)
+^ESCT1195968	Stesolid 10mg rectal tube (Accord Healthcare Ltd)
+^ESCT1196209	Diazemuls 10mg/2ml emulsion for injection ampoules (Accord Healthcare Ltd) 10 ampoule
+^ESCT1196327	Diazemuls 10mg/2ml emulsion for injection ampoules (Accord Healthcare Ltd)
+^ESCT1196513	Stesolid 10mg rectal tube (Accord Healthcare Ltd) 5 tube
+^ESCT1198525	Stesolid 10mg rectal tube (Actavis UK Ltd) 5 tube
+^ESCT1198918	Stesolid 10mg rectal tube (Actavis UK Ltd)
+^ESCT1198922	Diazemuls 10mg/2ml emulsion for injection ampoules (Actavis UK Ltd) 10 ampoule
+^ESCT1198924	Diazemuls 10mg/2ml emulsion for injection ampoules (Actavis UK Ltd)
+^ESCT1199497	Diazemuls 10mg/2ml emulsion for injection ampoules (Accord Healthcare Ltd)
+^ESCT1199502	Stesolid 10mg rectal tube (Accord Healthcare Ltd) 5 tube
+^ESCT1199515	Stesolid 10mg rectal tube (Accord Healthcare Ltd)
+^ESCT1199516	Diazemuls 10mg/2ml emulsion for injection ampoules (Accord Healthcare Ltd) 10 ampoule
+^ESCT1199535	Stesolid 5mg rectal tube (Accord Healthcare Ltd)
+^ESCT1199538	Stesolid 5mg rectal tube (Accord Healthcare Ltd) 5 tube
+^ESCT1205172	Diazepam 5mg/mL injection emulsion
+^ESCT1209228	Diazepam 10 mg/2 mL emulsion for injection ampoule
+^ESCT1209229	Product containing precisely diazepam 10 milligram/2 milliliter conventional release emulsion for injection ampule
+^ESCT1209230	Diazepam 10 mg/2 mL emulsion for injection ampule
+^ESCT1209231	Diazepam 10 mg/2 mL solution for injection ampoule
+^ESCT1209232	Diazepam 10 mg/2 mL solution for injection ampule
+^ESCT1209233	Product containing precisely diazepam 10 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1212459	Diazepam 2mg/5ml oral solution sugar free
+^ESCT1215897	Diazepam 10mg/2ml emulsion for injection ampoules
+^ESCT1215898	Diazepam 10mg/2ml solution for injection ampoules
+^ESCT1218496	Diazepam
+^ESCT1218497	Diazepam product
+^ESCT1223328	Product containing precisely diazepam 2 milligram/1 each conventional release oral tablet
+^ESCT1223329	Product containing precisely diazepam 5 milligram/1 each conventional release oral tablet
+^ESCT1223330	Product containing precisely diazepam 10 milligram/1 each conventional release oral tablet
+^ESCT1223331	Product containing precisely diazepam 400 microgram/1 milliliter conventional release oral solution
+^ESCT1223332	Diazepam 400 microgram/mL oral solution
+^ESCT1223333	Diazepam 1 mg/mL oral solution
+^ESCT1223334	Product containing precisely diazepam 1 milligram/1 milliliter conventional release oral solution
+^ESCT1223335	Product containing precisely diazepam 500 microgram/1 milliliter conventional release oral suspension
+^ESCT1223336	Diazepam 500 microgram/mL oral suspension
+^ESCT1223337	Diazepam 2 mg/mL oral suspension
+^ESCT1223338	Product containing precisely diazepam 2 milligram/1 milliliter conventional release oral suspension
+^ESCT1223339	Diazepam 10 mg rectal suppository
+^ESCT1223340	Product containing precisely diazepam 10 milligram/1 each conventional release rectal suppository
+^ESCT1234368	Product containing precisely diazepam 5 milligram/1 milliliter conventional release oral solution
+^ESCT1234369	Diazepam 5 mg/mL oral solution
+^ESCT1263969	Diazepam 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263970	Diazepam 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1266123	Diazepam 2mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1266124	Diazepam 2mg/5ml oral solution sugar free (DE Pharmaceuticals) 100 ml
+^ESCT1304015	Diazepam 10mg/2ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304016	Diazepam 10mg/2ml solution for injection ampoules (hameln pharma Ltd) 10 ampoule
+^ESCT1354563	Diazepam only product
+^ESCT1358215	Diazepam only product in oral dose form
+^ESCT1358216	Diazepam only product in parenteral dose form
+^ESCT1358217	Diazepam only product in rectal dose form
+^ESCT1360988	Diazepam 5 mg/mL emulsion for injection
+^ESCT1360989	Diazepam 5 mg/mL solution for injection
+^ESCT1364296	Diazepam 5 mg/mL suspension for injection
+^ESCT1367308	Diazepam 5mg/2.5ml rectal solution tube
+^ESCT1367422	Diazepam 10mg/2.5ml rectal solution tube
+^ESCT1367423	Diazepam 2.5mg/1.25ml rectal solution tube
+^ESCT1375446	Diazepam 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375448	Diazepam 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375449	Diazepam 2mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375450	Diazepam 2mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375459	Diazepam 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375460	Diazepam 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375462	Diazepam 2mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375463	Diazepam 2mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 100 ml
+^ESCT1375671	Diazepam 2mg/5ml oral solution sugar free
+^ESCT1381075	Diazepam 2 mg/mL rectal solution
+^ESCT1381076	Diazepam 4 mg/mL rectal solution
+^ESCT1381291	Diazepam-containing product in oral dose form
+^ESCT1381292	Diazepam-containing product in parenteral dose form
+^ESCT1381293	Diazepam-containing product in rectal dose form
+^ESCT1409480	Diazepam 5mg tablets (Accord Healthcare Ltd)
+^ESCT1409621	Diazepam 10mg tablets (Accord Healthcare Ltd)
+^ESCT1409751	Diazepam 2mg tablets (Accord Healthcare Ltd)
+^ESCT1409824	Diazepam 5mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1409825	Diazepam 10mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1409826	Diazepam 2mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1410717	Diazepam 2mg/5ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1410718	Diazepam 2mg/5ml oral solution sugar free (Accord Healthcare Ltd) 100 ml
+^ESCT1424937	Diazepam 5mg/2.5ml rectal solution tube
+^ESCT1425610	Diazepam 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425768	Diazepam 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425798	Diazepam 2mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426021	Diazepam 5mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426022	Diazepam 5mg tablets (Kent Pharma (UK) Ltd) 1000 tablet
+^ESCT1426024	Diazepam 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426026	Diazepam 10mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1426027	Diazepam 2mg tablets (Kent Pharma (UK) Ltd) 1000 tablet
+^ESCT1426028	Diazepam 2mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1434646	Diazepam 2mg/5ml oral suspension (DE Pharmaceuticals)
+^ESCT1434647	Diazepam 2mg/5ml oral suspension (DE Pharmaceuticals) 100 ml
+^ESCT1436725	Diazepam 10mg/5ml oral suspension 100 ml
+^ESCT1436726	Diazepam 10mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCT1436974	Diazepam 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437051	Diazepam 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437064	Diazepam 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437181	Diazepam 5mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437184	Diazepam 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437185	Diazepam 2mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438111	Diazepam 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1438112	Diazepam 10mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1438446	Diazepam 10mg/5ml oral suspension (Drug Tariff Special Order) 200 ml
+^ESCTDI1007611	Diazepam 2mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1007612	Diazepam 2mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTDI1007613	Diazepam 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1007614	Diazepam 5mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTDI1007615	Diazepam 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1007616	Diazepam 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTDI1021177	Diazepam 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDI1021178	Diazepam 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTDI1022134	Diazepam 2mg/5ml oral suspension 1 ml
+^ESCTDI1022135	Diazepam 2mg/5ml oral suspension (Special Order)
+^ESCTDI1022136	Diazepam 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI1022162	Diazepam 2mg/5ml oral suspension
+^ESCTDI1029059	Diazepam 10mg/5ml oral solution 100 ml
+^ESCTDI1029064	Diazepam 10mg/5ml oral solution (Special Order) 100 ml
+^ESCTDI1037143	Diazepam 10mg/5ml oral suspension 200 ml
+^ESCTDI1037144	Diazepam 10mg/5ml oral suspension (Special Order) 200 ml
+^ESCTDI1042777	Diazepam 2mg tablets (Waymade Healthcare Plc)
+^ESCTDI1042778	Diazepam 2mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTDI1042779	Diazepam 5mg tablets (Waymade Healthcare Plc)
+^ESCTDI1042780	Diazepam 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTDI1042781	Diazepam 10mg tablets (Waymade Healthcare Plc)
+^ESCTDI1042782	Diazepam 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTDI1045358	Diazepam 5mg/2.5ml rectal solution tube (Desitin Pharma Ltd)
+^ESCTDI1045359	Diazepam 5mg/2.5ml rectal solution tube (Desitin Pharma Ltd) 5 tube
+^ESCTDI1045360	Diazepam 10mg/2.5ml rectal solution tube (Desitin Pharma Ltd)
+^ESCTDI1045361	Diazepam 10mg/2.5ml rectal solution tube (Desitin Pharma Ltd) 5 tube
+^ESCTDI1046527	Diazepam 5mg/5ml oral solution (AM Distributions (Yorkshire) Ltd)
+^ESCTDI1046528	Diazepam 5mg/5ml oral solution (AM Distributions (Yorkshire) Ltd) 100 ml
+^ESCTDI1046538	Diazepam 10mg/5ml oral solution 200 ml
+^ESCTDI1046544	Diazepam 10mg/5ml oral solution (AM Distributions (Yorkshire) Ltd)
+^ESCTDI1046545	Diazepam 10mg/5ml oral solution (AM Distributions (Yorkshire) Ltd) 200 ml
+^ESCTDI1046936	Diazepam 15mg/5ml oral solution 1 ml
+^ESCTDI1046937	Diazepam 15mg/5ml oral solution 100 ml
+^ESCTDI1046938	Diazepam 15mg/5ml oral solution (Special Order)
+^ESCTDI1046939	Diazepam 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI1046940	Diazepam 15mg/5ml oral solution (Special Order) 100 ml
+^ESCTDI1046972	Diazepam 15mg/5ml oral solution
+^ESCTDI1058263	Diazepam 2mg tablets (Waymade Healthcare Plc) 1000 tablet
+^ESCTDI1058264	Diazepam 5mg tablets (Waymade Healthcare Plc) 1000 tablet
+^ESCTDI1058265	Diazepam 10mg tablets (Waymade Healthcare Plc) 500 tablet
+^ESCTDI1058847	Diazepam 2mg tablets (Phoenix Healthcare Distribution Ltd) 1000 tablet
+^ESCTDI1058848	Diazepam 5mg tablets (Phoenix Healthcare Distribution Ltd) 1000 tablet
+^ESCTDI1060850	Diazepam 10mg tablets (DE Pharmaceuticals)
+^ESCTDI1060852	Diazepam 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTDI1060855	Diazepam 2mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTDI1060860	Diazepam 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTDI1093930	Diazepam 10mg suppositories (Special Order)
+^ESCTDI1093933	Diazepam 10mg suppositories 1 suppository
+^ESCTDI1093935	Diazepam 10mg suppositories (Special Order) 1 suppository
+^ESCTDI1099932	Diazepam 2.5mg/1.25ml rectal solution tube (Ennogen Healthcare Ltd)
+^ESCTDI1099933	Diazepam 2.5mg/1.25ml rectal solution tube (Ennogen Healthcare Ltd) 5 tube
+^ESCTDI1109076	Diazepam 5mg tablets (Crescent Pharma Ltd)
+^ESCTDI1109077	Diazepam 5mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI1109078	Diazepam 2mg tablets (Crescent Pharma Ltd)
+^ESCTDI1109079	Diazepam 2mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI1109080	Diazepam 10mg tablets (Crescent Pharma Ltd)
+^ESCTDI1109081	Diazepam 10mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI1109553	Diazepam 2mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI1109555	Diazepam 2mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTDI1117176	Diazepam 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI1117177	Diazepam 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTDI1117180	Diazepam 10mg/2.5ml rectal solution tube (Sigma Pharmaceuticals Plc)
+^ESCTDI1117181	Diazepam 10mg/2.5ml rectal solution tube (Sigma Pharmaceuticals Plc) 5 tube
+^ESCTDI1117182	Diazepam 5mg/2.5ml rectal solution tube (Sigma Pharmaceuticals Plc)
+^ESCTDI1117183	Diazepam 5mg/2.5ml rectal solution tube (Sigma Pharmaceuticals Plc) 5 tube
+^ESCTDI1119152	Diazepam 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDI1119155	Diazepam 2mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTDI1119157	Diazepam 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDI1119158	Diazepam 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTDI1126166	Diazepam 2mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+^ESCTDI1126167	Diazepam 2mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd) 100 ml
+^ESCTDI1126981	Diazepam 2mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCTDI1126982	Diazepam 2mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCTDI1131907	Diazepam 2.5mg/1.25ml rectal solution tube (J M McGill Ltd)
+^ESCTDI1131908	Diazepam 2.5mg/1.25ml rectal solution tube (J M McGill Ltd) 5 tube
+^ESCTDI1143976	Diazepam 2mg/5ml oral suspension 100 ml
+^ESCTDI1143977	Diazepam 2mg/5ml oral suspension (Sandoz Ltd)
+^ESCTDI1143978	Diazepam 2mg/5ml oral suspension (Sandoz Ltd) 100 ml
+^ESCTDI1143979	Diazepam 5mg/5ml oral suspension 100 ml
+^ESCTDI1143981	Diazepam 5mg/5ml oral suspension (Sandoz Ltd)
+^ESCTDI1143982	Diazepam 5mg/5ml oral suspension (Sandoz Ltd) 100 ml
+^ESCTDI1144153	Diazepam 5mg/5ml oral suspension
+^ESCTDI1145323	Diazepam 2mg/5ml oral suspension (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI1145324	Diazepam 2mg/5ml oral suspension (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTDI1146388	Diazepam 2mg/5ml oral suspension (A A H Pharmaceuticals Ltd)
+^ESCTDI1146389	Diazepam 2mg/5ml oral suspension (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTDI1146390	Diazepam 5mg/5ml oral suspension (A A H Pharmaceuticals Ltd)
+^ESCTDI1146391	Diazepam 5mg/5ml oral suspension (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTDI328563	Diazepam
+^ESCTDI609092	Diazepam 2mg tablets
+^ESCTDI609094	Diazepam 2 mg oral tablet
+^ESCTDI609095	Diazepam 5mg tablets
+^ESCTDI609097	Diazepam 5 mg oral tablet
+^ESCTDI609098	Diazepam 10mg tablets
+^ESCTDI609100	Diazepam 10 mg oral tablet
+^ESCTDI609101	Diazepam 2mg/5ml oral solution
+^ESCTDI609102	Diazepam 2mg/5mL oral solution
+^ESCTDI609103	Diazepam 5mg/5ml oral solution
+^ESCTDI609104	Diazepam 5mg/5mL oral solution
+^ESCTDI609105	Diazepam 2.5mg / 5ml oral suspension
+^ESCTDI609106	Diazepam 2.5mg/5mL suspension
+^ESCTDI609107	Diazepam 10mg / 5ml oral suspension
+^ESCTDI609108	Diazepam 10mg/5mL suspension
+^ESCTDI609109	Diazepam 10mg suppositories
+^ESCTDI609110	Diazepam 10mg suppository
+^ESCTDI610807	Diazepam 2.5mg/1.25ml rectal solution tube
+^ESCTDI610808	Diazepam 2.5mg/1.25mL rectal solution
+^ESCTDI610809	Diazepam 2mg/ml rectal solution 1.25ml tube
+^ESCTDI610810	Diazepam 10mg/2ml emulsion for injection ampoules
+^ESCTDI610811	Diazepam 10mg/2mL injection emulsion
+^ESCTDI610812	Diazepam 5mg/mL injection emulsion 2mL ampoule
+^ESCTDI610813	Diazepam 5mg/mL injection emulsion 2mL ampule
+^ESCTDI610814	Diazepam 10mg/2ml solution for injection ampoules
+^ESCTDI610815	Diazepam 10mg/2mL injection
+^ESCTDI610816	Diazepam 5mg/mL injection solution 2mL ampoule
+^ESCTDI610817	Diazepam 5mg/mL injection solution 2mL ampule
+^ESCTDI610818	Diazepam 5mg/2.5ml rectal solution tube
+^ESCTDI610819	Diazepam 5mg/2.5mL rectal solution
+^ESCTDI610820	Diazepam 2mg/ml rectal solution 2.5ml tube
+^ESCTDI610821	Diazepam 10mg/2.5ml rectal solution tube
+^ESCTDI610822	Diazepam 10mg/2.5mL rectal solution
+^ESCTDI610823	Diazepam 4mg/ml rectal solution 2.5ml tube
+^ESCTDI618932	Diazepam in oral dosage form
+^ESCTDI618934	Diazepam in parenteral dosage form
+^ESCTDI618936	Diazepam in rectal dosage form
+^ESCTDI635317	Diazepam 5mg/ml gel
+^ESCTDI643081	Diazepam 10mg injection solution 1mL ampoule
+^ESCTDI643082	Diazepam 10mg injection solution 1mL ampule
+^ESCTDI643083	Diazepam 5mg injection solution 1mL ampoule
+^ESCTDI643084	Diazepam 5mg injection solution 1mL ampule
+^ESCTDI643085	Diazepam 5mg/mL injection solution 3mL ampoule
+^ESCTDI643086	Diazepam 5mg/mL injection solution 3mL ampule
+^ESCTDI645100	Diazepam 1mg/ml solution
+^ESCTDI661367	Diazepam 2mg/5ml oral solution sugar free
+^ESCTDI661368	Diazepam 2mg/5mL oral solution sugar free
+^ESCTDI661369	Diazepam 2mg/5ml oral solution sugar- free
+^ESCTDI705287	Diazepam 25mg/5ml oral solution
+^ESCTDI705288	Diazepam 5mg/mL oral solution
+^ESCTDI801358	Diazepam 10mg RecTubes (Wockhardt UK Ltd)
+^ESCTDI801405	Diazepam 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI801822	Diazepam 2mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTDI801971	Diazepam 5mg tablets (Actavis UK Ltd)
+^ESCTDI802357	Diazepam 10mg/2.5ml rectal solution tube (Sandoz Ltd)
+^ESCTDI803441	Diazepam 5mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTDI803809	Diazepam 5mg/2.5ml rectal solution tube (The Boots Company Plc)
+^ESCTDI803902	Diazepam 2mg tablets (Sandoz Ltd)
+^ESCTDI804829	Diazepam 10mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI805235	Diazepam 2mg/5ml oral solution (Sandoz Ltd)
+^ESCTDI806748	Diazepam 5mg tablets (Sandoz Ltd)
+^ESCTDI807000	Diazepam 2mg tablets (Teva UK Ltd)
+^ESCTDI807017	Diazepam 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI807200	Diazepam 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTDI808068	Diazepam 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTDI808616	Diazepam 2.5mg RecTubes (Wockhardt UK Ltd)
+^ESCTDI809739	Diazepam 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI811047	Diazepam 10mg/2.5ml rectal solution tube (A A H Pharmaceuticals Ltd)
+^ESCTDI811771	Diazepam 10mg tablets (Teva UK Ltd)
+^ESCTDI815638	Diazepam 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI815726	Diazepam 10mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTDI817638	Diazepam 2mg tablets (Ranbaxy (UK) Ltd)
+^ESCTDI817661	Diazepam 5mg/2.5ml rectal solution tube (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI818609	Diazepam 10mg tablets (Actavis UK Ltd)
+^ESCTDI819599	Diazepam 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI820379	Diazepam 5mg RecTubes (Wockhardt UK Ltd)
+^ESCTDI820400	Diazepam 5mg tablets (Mylan Ltd)
+^ESCTDI820616	Diazepam 5mg/2.5ml rectal solution tube (A A H Pharmaceuticals Ltd)
+^ESCTDI820702	Diazepam 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI820720	Diazepam 5mg tablets (Teva UK Ltd)
+^ESCTDI821177	Diazepam 10mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTDI821358	Diazepam 5mg/2.5ml rectal solution tube (Sandoz Ltd)
+^ESCTDI821370	Diazepam 2mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI822886	Diazepam 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI823180	Diazepam 2mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTDI824895	Diazepam 2mg tablets (The Boots Company Plc)
+^ESCTDI824949	Diazepam 2mg tablets (Actavis UK Ltd)
+^ESCTDI825457	Diazepam 5mg/5ml oral solution (Sandoz Ltd)
+^ESCTDI827740	Diazepam 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTDI828910	Diazepam 2mg tablets (Mylan Ltd)
+^ESCTDI830655	Diazepam 10mg tablets (Mylan Ltd)
+^ESCTDI830964	Diazepam 10mg/2.5ml rectal solution tube (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI831172	Diazepam 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI833278	Diazepam 5mg tablets (Ranbaxy (UK) Ltd)
+^ESCTDI834357	Diazepam 2.5mg/1.25ml rectal solution tube 5 tube
+^ESCTDI837755	Diazepam 2mg tablets 1000 tablet
+^ESCTDI843183	Diazepam 10mg/2.5ml rectal solution tube 5 tube
+^ESCTDI843253	Diazepam 5mg tablets 1000 tablet
+^ESCTDI846999	Diazepam 5mg tablets 28 tablet
+^ESCTDI847128	Diazepam 10mg tablets 28 tablet
+^ESCTDI847137	Diazepam 2mg/5ml oral solution 100 ml
+^ESCTDI847980	Diazepam 5mg/2.5ml rectal solution tube 5 tube
+^ESCTDI848183	Diazepam 2mg tablets 28 tablet
+^ESCTDI848244	Diazepam 5mg/5ml oral solution 100 ml
+^ESCTDI848460	Diazepam 10mg tablets 500 tablet
+^ESCTDI848486	Diazepam 2mg/5ml oral solution 500 ml
+^ESCTDI848608	Diazepam 10mg/2ml solution for injection ampoules 10 ampoule
+^ESCTDI849708	Diazepam 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849710	Diazepam 5mg tablets (A A H Pharmaceuticals Ltd) 1000 tablet
+^ESCTDI849711	Diazepam 5mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849712	Diazepam 5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849713	Diazepam 5mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849714	Diazepam 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTDI849716	Diazepam 5mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849717	Diazepam 10mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTDI849719	Diazepam 5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTDI849720	Diazepam 5mg tablets (Kent Pharmaceuticals Ltd) 1000 tablet
+^ESCTDI849722	Diazepam 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849723	Diazepam 5mg tablets (Ranbaxy (UK) Ltd) 28 tablet
+^ESCTDI849724	Diazepam 5mg tablets (Ranbaxy (UK) Ltd) 1000 tablet
+^ESCTDI849727	Diazepam 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849728	Diazepam 5mg tablets (Alliance Healthcare (Distribution) Ltd) 1000 tablet
+^ESCTDI849731	Diazepam 5mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849732	Diazepam 10mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849735	Diazepam 10mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849740	Diazepam 10mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849741	Diazepam 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849748	Diazepam 10mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTDI849749	Diazepam 2mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849750	Diazepam 2mg tablets (A A H Pharmaceuticals Ltd) 1000 tablet
+^ESCTDI849751	Diazepam 2mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849752	Diazepam 2mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849753	Diazepam 2mg tablets (The Boots Company Plc) 1000 tablet
+^ESCTDI849754	Diazepam 2mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849755	Diazepam 2mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849756	Diazepam 2mg tablets (Kent Pharmaceuticals Ltd) 1000 tablet
+^ESCTDI849757	Diazepam 2mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849758	Diazepam 2mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849759	Diazepam 2mg tablets (Ranbaxy (UK) Ltd) 1000 tablet
+^ESCTDI849761	Diazepam 2mg tablets (Ranbaxy (UK) Ltd) 28 tablet
+^ESCTDI849762	Diazepam 2mg tablets (Alliance Healthcare (Distribution) Ltd) 1000 tablet
+^ESCTDI849763	Diazepam 2mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849941	Diazepam 10mg tablets (Ranbaxy (UK) Ltd) 28 tablet
+^ESCTDI849946	Diazepam 10mg tablets (Ranbaxy (UK) Ltd) 500 tablet
+^ESCTDI849948	Diazepam 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849949	Diazepam 10mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTDI856615	Diazepam 10mg/2.5ml rectal solution tube (A A H Pharmaceuticals Ltd) 5 tube
+^ESCTDI856617	Diazepam 10mg RecTubes (Wockhardt UK Ltd) 5 tube
+^ESCTDI856618	Diazepam 10mg/2.5ml rectal solution tube (Sandoz Ltd) 5 tube
+^ESCTDI856619	Diazepam 10mg/2.5ml rectal solution tube (Alliance Healthcare (Distribution) Ltd) 5 tube
+^ESCTDI856623	Diazepam 2mg/5ml oral solution (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTDI856624	Diazepam 2mg/5ml oral solution (A A H Pharmaceuticals Ltd) 500 ml
+^ESCTDI856625	Diazepam 2mg/5ml oral solution (Sandoz Ltd) 100 ml
+^ESCTDI856626	Diazepam 2mg/5ml oral solution (Sandoz Ltd) 500 ml
+^ESCTDI856631	Diazepam 5mg/2.5ml rectal solution tube (A A H Pharmaceuticals Ltd) 5 tube
+^ESCTDI856633	Diazepam 5mg/2.5ml rectal solution tube (The Boots Company Plc) 5 tube
+^ESCTDI856634	Diazepam 5mg RecTubes (Wockhardt UK Ltd) 5 tube
+^ESCTDI856635	Diazepam 5mg/2.5ml rectal solution tube (Sandoz Ltd) 5 tube
+^ESCTDI856637	Diazepam 5mg/2.5ml rectal solution tube (Alliance Healthcare (Distribution) Ltd) 5 tube
+^ESCTDI856658	Diazepam 2.5mg RecTubes (Wockhardt UK Ltd) 5 tube
+^ESCTDI856661	Diazepam 5mg/5ml oral solution (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTDI856662	Diazepam 5mg/5ml oral solution (Sandoz Ltd) 100 ml
+^ESCTDI856995	Diazepam 10mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTDI856998	Diazepam 10mg/2ml solution for injection ampoules (Wockhardt UK Ltd) 10 ampoule
+^ESCTDI856999	Diazepam 10mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTDI864704	Diazepam 10mg suppositories 6 suppository
+^ESCTDI865999	Diazepam 10mg/2ml emulsion for injection ampoules 10 ampoule
+^ESCTDI866000	Diazemuls 10mg/2ml emulsion for injection ampoules (Actavis UK Ltd)
+^ESCTDI866002	Diazemuls 10mg/2ml emulsion for injection ampoules (Actavis UK Ltd) 10 ampoule
+^ESCTDI875343	Diazepam 10mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTDI875344	Diazepam 10mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule
+^ESCTDI909549	Diazepam 2.5mg/5ml oral solution 1 ml
+^ESCTDI909550	Diazepam 2.5mg/5ml oral solution (Special Order)
+^ESCTDI909551	Diazepam 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI909552	Diazepam 25mg/5ml oral solution 1 ml
+^ESCTDI909553	Diazepam 25mg/5ml oral solution (Special Order)
+^ESCTDI909554	Diazepam 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI909555	Diazepam 10mg/5ml oral solution 1 ml
+^ESCTDI909556	Diazepam 10mg/5ml oral solution (Special Order)
+^ESCTDI909557	Diazepam 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI909558	Diazepam 1mg/5ml oral solution 1 ml
+^ESCTDI909559	Diazepam 1mg/5ml oral solution (Special Order)
+^ESCTDI909560	Diazepam 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTDI909664	Diazepam 10mg/5ml oral solution
+^ESCTDI909665	Diazepam 1mg/5ml oral solution
+^ESCTDI909666	Diazepam 2.5mg/5ml oral solution
+^ESCTDI909930	Diazepam 5mg tablets (Sandoz Ltd) 1000 tablet
+^ESCTDI910581	Diazepam 2mg/5ml oral solution (Actavis UK Ltd)
+^ESCTDI910585	Diazepam 2mg/5ml oral solution (Actavis UK Ltd) 100 ml
+^ESCTDI912709	Diazepam 10mg tablets 100 tablet
+^ESCTDI912713	Diazepam 2mg tablets 100 tablet
+^ESCTDI912714	Diazepam 2mg tablets 500 tablet
+^ESCTDI914808	Diazemuls
+^ESCTDI923294	Diazepam 2mg/5ml oral solution sugar free 100 ml
+^ESCTDI923295	Diazepam 2mg/5ml oral solution sugar free (Actavis UK Ltd)
+^ESCTDI923296	Diazepam 2mg/5ml oral solution sugar free (Actavis UK Ltd) 100 ml
+^ESCTDI923544	Diazepam 2mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI923546	Diazepam 2mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI923547	Diazepam 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI923548	Diazepam 5mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI923549	Diazepam 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI923550	Diazepam 10mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI927759	Diazepam 5mg tablets (Relonchem Ltd)
+^ESCTDI927761	Diazepam 5mg tablets (Relonchem Ltd) 28 tablet
+^ESCTDI927762	Diazepam 5mg tablets (Relonchem Ltd) 1000 tablet
+^ESCTDI928939	Diazepam 2mg tablets (Arrow Generics Ltd)
+^ESCTDI928940	Diazepam 2mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTDI928941	Diazepam 2mg tablets (Arrow Generics Ltd) 1000 tablet
+^ESCTDI928942	Diazepam 5mg tablets (Arrow Generics Ltd)
+^ESCTDI928943	Diazepam 5mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTDI928944	Diazepam 5mg tablets (Arrow Generics Ltd) 1000 tablet
+^ESCTDI928945	Diazepam 10mg tablets (Arrow Generics Ltd)
+^ESCTDI928946	Diazepam 10mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTDI928947	Diazepam 10mg tablets (Arrow Generics Ltd) 500 tablet
+^ESCTDI935393	Diazepam 2mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTDI935394	Diazepam 2mg tablets (Dr Reddy's Laboratories (UK) Ltd) 1000 tablet
+^ESCTDI935395	Diazepam 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTDI935396	Diazepam 5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 1000 tablet
+^ESCTDI935397	Diazepam 10mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTDI935398	Diazepam 10mg tablets (Dr Reddy's Laboratories (UK) Ltd) 500 tablet
+^ESCTDI937721	Diazepam 2mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI937722	Diazepam 2mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTDI963823	Diazepam 2mg tablets (DE Pharmaceuticals)
+^ESCTDI963824	Diazepam 2mg tablets (DE Pharmaceuticals) 1000 tablet
+^ESCTDI963825	Diazepam 5mg tablets (DE Pharmaceuticals)
+^ESCTDI963826	Diazepam 5mg tablets (DE Pharmaceuticals) 1000 tablet
+^ESCTDI966736	Diazepam 10mg/5ml oral suspension 1 ml
+^ESCTDI966738	Diazepam 10mg/5ml oral suspension (Special Order)
+^ESCTDI966740	Diazepam 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI966811	Diazepam 2.5mg/5ml oral suspension 1 ml
+^ESCTDI966812	Diazepam 2.5mg/5ml oral suspension (Special Order)
+^ESCTDI966813	Diazepam 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDI966823	Diazepam 10mg/5ml oral suspension
+^ESCTDI966824	Diazepam 2.5mg/5ml oral suspension
+^ESCTDI967263	Diazepam 2mg tablets (Wockhardt UK Ltd)
+^ESCTDI967264	Diazepam 2mg tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTDI967265	Diazepam 5mg tablets (Wockhardt UK Ltd)
+^ESCTDI967266	Diazepam 5mg tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTDI967267	Diazepam 10mg tablets (Wockhardt UK Ltd)
+^ESCTDI967268	Diazepam 10mg tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTDI978295	Diazepam 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI978296	Diazepam 2mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTDI978297	Diazepam 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI978298	Diazepam 5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTDI978530	Diazepam 2mg/5ml oral solution (Sigma Pharmaceuticals Plc)
+^ESCTDI978532	Diazepam 2mg/5ml oral solution (Sigma Pharmaceuticals Plc) 500 ml
+^ESCTDI991824	Diazepam 2mg tablets (Wockhardt UK Ltd) 1000 tablet
+^ESCTDI991825	Diazepam 5mg tablets (Wockhardt UK Ltd) 1000 tablet
+^ESCTDI991826	Diazepam 10mg tablets (Wockhardt UK Ltd) 500 tablet
+^ESCTDI999171	Diazepam 2mg tablets (Sovereign Medical Ltd)
+^ESCTDI999172	Diazepam 2mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI999173	Diazepam 2mg tablets (Sovereign Medical Ltd) 1000 tablet
+^ESCTDI999174	Diazepam 5mg tablets (Sovereign Medical Ltd)
+^ESCTDI999175	Diazepam 5mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI999176	Diazepam 5mg tablets (Sovereign Medical Ltd) 1000 tablet
+^ESCTDI999177	Diazepam 10mg tablets (Sovereign Medical Ltd)
+^ESCTDI999178	Diazepam 10mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI999179	Diazepam 10mg tablets (Sovereign Medical Ltd) 500 tablet
+^ESCTPR328564	Product containing diazepam
+^ESCTPR609093	Product containing diazepam 2 mg/1 each oral tablet
+^ESCTPR609096	Product containing diazepam 5 mg/1 each oral tablet
+^ESCTPR609099	Product containing diazepam 10 mg/1 each oral tablet
+^ESCTPR618933	Product containing diazepam in oral dosage form
+^ESCTPR618935	Product containing diazepam in parenteral dosage form
+^ESCTPR618937	Product containing diazepam in rectal dosage form
+^ESCTST802455	Stesolid 5mg rectal tube (Actavis UK Ltd)
+^ESCTST804521	Stesolid 10mg rectal tube (Actavis UK Ltd)
+^ESCTST856616	Stesolid 10mg rectal tube (Actavis UK Ltd) 5 tube
+^ESCTST856632	Stesolid 5mg rectal tube (Actavis UK Ltd) 5 tube
+^ESCTST916428	Stesolid
+^ESCTTE912711	Tensium 10mg tablets (DDSA Pharmaceuticals Ltd)
+^ESCTTE912712	Tensium 10mg tablets (DDSA Pharmaceuticals Ltd) 100 tablet
+^ESCTTE912715	Tensium 2mg tablets (DDSA Pharmaceuticals Ltd)
+^ESCTTE912717	Tensium 2mg tablets (DDSA Pharmaceuticals Ltd) 100 tablet
+^ESCTTE912718	Tensium 2mg tablets (DDSA Pharmaceuticals Ltd) 500 tablet
+^ESCTTE916675	Tensium
+^ESCTVA864708	Valclair 10mg suppositories (Durbin Plc)
+^ESCTVA864709	Valclair 10mg suppositories (Durbin Plc) 6 suppository
+^ESCTVA916977	Valclair
+ALTA5654	Alupram  Tablets  10 mg
+ALTA5655	Alupram  Tablets  2 mg
+ALTA5656	Alupram  Tablets  5 mg
+ATTA232	Atensine  Tablets  10 mg
+ATTA233	Atensine  Tablets  2 mg
+ATTA234	Atensine  Tablets  5 mg
+DICA876	Diazepam  Capsules  2 mg
+DICA877	Diazepam  Capsules  5 mg
+DIIN16939NEMIS	Diazepam  Injection (Emulsion)  5 mg/ml, 2 ml ampoule
+DIIN16940NEMIS	Diazepam  Injection (Solution)  5 mg/ml, 2 ml ampoule
+DIIN3424	Diazemuls  Injection  5 mg/ml, 2 ml ampoule
+DIIN49598NEMIS	Diazepam  Injection (Solution)  5 mg/ml, 2 ml ampoule (A.A.H. Pharm)
+DIIN49599NEMIS	Diazepam  Injection (Solution)  5 mg/ml, 2 ml ampoule (Alliance Healthcare) 
+DIIN49600NEMIS	Diazepam  Injection (Solution)  5 mg/ml, 2 ml ampoule (Wockhardt UK)
+DIIN49601NEMIS	Diazepam  Injection (Solution)  5 mg/ml, 2 ml ampoule (Hameln Pharm Ltd)
+DIOR13302NEMIS	Diazepam  Oral solution  2 mg/5 ml
+DIOR23291NEMIS	Diazepam  Oral solution  25 mg/5 ml
+DIOR23498NEMIS	Diazepam  Oral suspension  2 mg/5 ml
+DIOR37823MGEMIS	Diazepam  Oral solution  2 mg/5 ml (Sandoz)
+DIOR37824MGEMIS	Diazepam  Oral solution  2 mg/5 ml (A.A.H. Pharm)
+DIOR37825MGEMIS	Diazepam  Oral solution  2 mg/5 ml (Alpharma)
+DIOR44060NEMIS	Diazepam  Oral Solution, Sugar Free  2 mg/5 ml
+DIOR46723NEMIS	Diazepam  Oral solution  10 mg/5 ml
+DIOR46724NEMIS	Diazepam  Oral solution  2.5 mg/5 ml
+DIRE25092EMIS	Diazepam  Rectubes  10 mg
+DIRE25093EMIS	Diazepam  Rectubes  5 mg
+DIRE29885EMIS	Diazepam Rectubes  Rectal tubes  10 mg
+DIRE29886EMIS	Diazepam Rectubes  Rectal tubes  2.5 mg
+DIRE29887EMIS	Diazepam Rectubes  Rectal tubes  20 mg
+DIRE29888EMIS	Diazepam Rectubes  Rectal tubes  5 mg
+DIRE29891EMIS	Diazepam  Rectal tubes  2.5 mg dose (2 mg/ml, 1.25 ml tube)
+DIRE29892EMIS	Diazepam  Rectal tubes  20 mg
+DIRE34763MGEMIS	Diazepam  Rectal tubes  10 mg dose (4 mg/ml, 2.5 ml tube) (Sandoz)
+DIRE34764MGEMIS	Diazepam  Rectal tubes  10 mg dose (4 mg/ml, 2.5 ml tube) (A.A.H. Pharm)
+DIRE34765MGEMIS	Diazepam  Rectal tubes  10 mg dose (4 mg/ml, 2.5 ml tube) (Unichem)
+DIRE34766MGEMIS	Diazepam  Rectal tubes  5 mg dose (2 mg/ml, 2.5 ml tube) (The Boots Company)
+DIRE34767MGEMIS	Diazepam  Rectal tubes  5 mg dose (2 mg/ml, 2.5 ml tube) (Unichem)
+DIRE34768MGEMIS	Diazepam  Rectal tubes  5 mg dose (2 mg/ml, 2.5 ml tube) (A.A.H. Pharm)
+DIRE34769MGEMIS	Diazepam  Rectal tubes  5 mg dose (2 mg/ml, 2.5 ml tube) (Sandoz)
+DIRE4825	Diazepam  Rectal tubes  10 mg dose (4 mg/ml, 2.5 ml tube)
+DIRE7076	Diazepam  Rectal tubes  5 mg dose (2 mg/ml, 2.5 ml tube)
+DIST35087EMIS	Diazepam  Strong Oral Solution  5 mg/5 ml
+DIST37578MGEMIS	Diazepam  Strong Oral Solution  5 mg/5 ml (A.A.H. Pharm)
+DIST37579MGEMIS	Diazepam  Strong Oral Solution  5 mg/5 ml (Sandoz)
+DISU13303NEMIS	Diazepam  Suspension  10 mg/5 ml
+DISU21126NEMIS	Diazepam  Suspension  2.5 mg/5 ml
+DISU4826	Diazepam  Suppositories  10 mg
+DISY4827	Diazepam  Syrup  2 mg/5 ml
+DITA34783MGEMIS	Diazepam  Tablets  10 mg (Ivax Pharmaceuticals)
+DITA34784MGEMIS	Diazepam  Tablets  10 mg (Ranbaxy)
+DITA34785MGEMIS	Diazepam  Tablets  10 mg (Kent Pharm)
+DITA34786MGEMIS	Diazepam  Tablets  10 mg (Teva UK)
+DITA34787MGEMIS	Diazepam  Tablets  10 mg (Unichem)
+DITA34788MGEMIS	Diazepam  Tablets  10 mg (Alpharma)
+DITA34789MGEMIS	Diazepam  Tablets  10 mg (A.A.H. Pharm)
+DITA34790MGEMIS	Diazepam  Tablets  10 mg (Generics (UK))
+DITA34791MGEMIS	Diazepam  Tablets  2 mg (Unichem)
+DITA34792MGEMIS	Diazepam  Tablets  2 mg (Ivax Pharmaceuticals)
+DITA34793MGEMIS	Diazepam  Tablets  2 mg (Sandoz)
+DITA34794MGEMIS	Diazepam  Tablets  2 mg (Teva UK)
+DITA34795MGEMIS	Diazepam  Tablets  2 mg (Ranbaxy)
+DITA34796MGEMIS	Diazepam  Tablets  2 mg (Kent Pharm)
+DITA34797MGEMIS	Diazepam  Tablets  2 mg (The Boots Company)
+DITA34798MGEMIS	Diazepam  Tablets  2 mg (Alpharma)
+DITA34799MGEMIS	Diazepam  Tablets  2 mg (Generics (UK))
+DITA34800MGEMIS	Diazepam  Tablets  2 mg (A.A.H. Pharm)
+DITA34801MGEMIS	Diazepam  Tablets  5 mg (Alpharma)
+DITA34802MGEMIS	Diazepam  Tablets  5 mg (Sandoz)
+DITA34803MGEMIS	Diazepam  Tablets  5 mg (A.A.H. Pharm)
+DITA34804MGEMIS	Diazepam  Tablets  5 mg (Unichem)
+DITA34805MGEMIS	Diazepam  Tablets  5 mg (Generics (UK))
+DITA34806MGEMIS	Diazepam  Tablets  5 mg (Kent Pharm)
+DITA34807MGEMIS	Diazepam  Tablets  5 mg (Teva UK)
+DITA34808MGEMIS	Diazepam  Tablets  5 mg (Ivax Pharmaceuticals)
+DITA34809MGEMIS	Diazepam  Tablets  5 mg (Ranbaxy)
+DITA879	Diazepam  Tablets  10 mg
+DITA880	Diazepam  Tablets  2 mg
+DITA881	Diazepam  Tablets  5 mg
+EVTA5665	Evacalm  Tablets  2 mg
+EVTA5666	Evacalm  Tablets  5 mg
+SOCA5669	Solis  Capsules  2 mg
+SOCA5670	Solis  Capsules  5 mg
+STIN2705	Stesolid  Injection  5 mg/ml
+STRE2706	Stesolid  Rectal tubes  10 mg
+STRE2707	Stesolid  Rectal tubes  5 mg
+TETA5674	Tensium  Tablets  10 mg
+TETA5675	Tensium  Tablets  2 mg
+TETA5676	Tensium  Tablets  5 mg
+VACA3002	Valium  Capsules  2 mg
+VAIN3003	Valium  Injection  10 mg
+VAIN3004	Valium  Injection  5 mg/ml
+VASU27036EMIS	Valclair  Suppositories  10 mg
+VASU3005	Valium  Suppositories  10 mg
+VASY3006	Valium  Syrup  2 mg/5 ml
+VATA25708EMIS	Valium  Tablets  10 mg
+VATA3007	Valium  Tablets  2 mg
+VATA3009	Valium  Tablets  5 mg

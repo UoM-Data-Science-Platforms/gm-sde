@@ -1,0 +1,20 @@
+bc2..	Disopyramide
+x01QI	Parenteral disopyramide
+bc2y.	Disopyramide 50mg/5mL injection
+bc26.	Rythmodan 50mg/5mL injection
+x01QH	Oral disopyramide
+bc2z.	Disopyramide 250mg m/r tablet
+bc27.	Rythmodan Retard 250mg m/r tablet
+bc2w.	Disopyramide 150mg m/r tablet
+bc23.	Dirythmin SA 150mg Durule
+bc2a.	Disopyramide 250mg m/r capsule
+bc29.	Isomide CR 250mg m/r capsule
+bc22.	Disopyramide 150mg capsule
+bc25.	Rythmodan 150mg capsule
+bc21.	Disopyramide 100mg capsule
+bc28.	Isomide 100mg capsule
+bc24.	Rythmodan 100mg capsule
+x0576	Isomide CR
+x02qD	Rythmodan
+x02qE	Rythmodan retard
+x02a3	Dirythmin SA

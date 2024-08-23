@@ -1,0 +1,12 @@
+a45..	Dicyclomine hydrochloride
+a45x.	Dicyclomine hydrochloride 20mg tablet
+a455.	Merbentyl 20mg tablet
+a45y.	Dicyclomine hydrochloride 10mg tablet
+a453.	Merbentyl 10mg tablet
+a45z.	Dicyclomine hydrochloride 10mg/5mL oral liquid
+a454.	Merbentyl 10mg/5mL syrup
+a452.	Kolantyl gel
+x01DY	Dicycloverine
+a451.	Kolanticon gel
+x02ic	Merbentyl
+x02gd	Kolanticon

@@ -1,4 +1,4 @@
-const { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } = require('fs');
+const { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync, read } = require('fs');
 const { join, basename } = require('path');
 const {
   createCodeSetSQL: createCodeSetSQLSnowflake,
@@ -236,6 +236,24 @@ async function generateSql(project, projectName, templates, isSnowflake, config)
     .map((codeSet) => Array.from(allCodeSets[codeSet]).map((version) => ({ codeSet, version })))
     .flat();
   if (flattenedCodeSets.length > 0 && isSnowflake) {
+    // we have some codesets so write the file to populate the code set tables
+    const { sql, csv } = await (flattenedCodeSets.length > 0
+      ? createCodeSetSQL(flattenedCodeSets, projectNameChunked, config)
+      : '');
+    // codeSetSql.forEach((sql, i) => {
+    //   const id = `0${i + 1}`.slice(-2);
+    //   writeFileSync(join(OUTPUT_DIRECTORY, `0.${id}.code-sets.sql`), sql);
+    // });
+
+    writeFileSync(join(OUTPUT_DIRECTORY, `0.code-sets.sql`), sql);
+    // And one big csv file
+    writeFileSync(join(OUTPUT_DIRECTORY, `0.code-sets.csv`), csv);
+  }
+
+  const flattenedCodeSets = Object.keys(allCodeSets)
+    .map((codeSet) => Array.from(allCodeSets[codeSet]).map((version) => ({ codeSet, version })))
+    .flat();
+  if (flattenedCodeSets.length > 0) {
     // we have some codesets so write the file to populate the code set tables
     const { sql, csv } = await (flattenedCodeSets.length > 0
       ? createCodeSetSQL(flattenedCodeSets, projectNameChunked, config)

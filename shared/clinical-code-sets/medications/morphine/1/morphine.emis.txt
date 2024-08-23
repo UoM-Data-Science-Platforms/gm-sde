@@ -1,0 +1,1670 @@
+^ESCT1176623	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes 20 pre-filled disposable injection
+^ESCT1176624	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes (Special Order) 20 pre-filled disposable injection
+^ESCT1177171	Morphine sulfate 500mg/500ml infusion bottles
+^ESCT1177172	Morphine sulfate 500mg/500ml infusion bottles (Special Order)
+^ESCT1177173	Morphine sulfate 500mg/500ml infusion bottles 1 bottle
+^ESCT1177174	Morphine sulfate 500mg/500ml infusion bottles (Special Order) 1 bottle
+^ESCT1177489	Morphine sulfate 2.5mg/25ml solution for injection pre-filled syringes
+^ESCT1177490	Morphine sulfate 2.5mg/25ml solution for injection pre-filled syringes (Special Order)
+^ESCT1177491	Morphine sulfate 2.5mg/25ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCT1177492	Morphine sulfate 2.5mg/25ml solution for injection pre-filled syringes 10 pre-filled disposable injection
+^ESCT1177493	Morphine sulfate 2.5mg/25ml solution for injection pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCT1177494	Morphine sulfate 2.5mg/25ml solution for injection pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCT1178198	Product containing only morphine sulfate 20 mg/1 each oral tablet
+^ESCT1178365	Product containing only morphine sulfate 200 mg/1 each oral tablet
+^ESCT1181512	Product containing only morphine sulfate 15 mg/1 each oral tablet
+^ESCT1184431	Morphine sulfate 10mg/5ml oral solution unit dose vials sugar free (Special Order)
+^ESCT1184432	Morphine sulfate 10mg/5ml oral solution unit dose vials sugar free (Special Order) 1 unit dose
+^ESCT1187312	Product containing only morphine sulfate 10 mg/1 each oral tablet
+^ESCT1187313	Product containing only morphine sulfate 50 mg/1 each oral tablet
+^ESCT1187414	Product containing only morphine sulfate 30 mg/1 each oral tablet
+^ESCT1187512	Product containing only morphine sulfate 60 mg/1 each oral tablet
+^ESCT1187513	Product containing only morphine sulfate 15 mg/1 each oral capsule
+^ESCT1187514	Product containing only morphine sulfate 30 mg/1 each oral capsule
+^ESCT1188632	Morphine sulfate and naltrexone hydrochloride
+^ESCT1188633	Product containing morphine sulfate and naltrexone hydrochloride
+^ESCT1194983	Morphine sulfate 2.5mg/50ml solution for infusion vials
+^ESCT1194984	Morphine sulfate 2.5mg/50ml solution for infusion vials (Special Order)
+^ESCT1194985	Morphine sulfate 2.5mg/50ml solution for infusion vials 1 vial
+^ESCT1194986	Morphine sulfate 2.5mg/50ml solution for infusion vials (Special Order) 1 vial
+^ESCT1195590	Morphine sulfate 15mg suppositories 1 suppository
+^ESCT1195591	Morphine sulfate 15mg suppositories (Special Order)
+^ESCT1195592	Morphine sulfate 15mg suppositories (Special Order) 1 suppository
+^ESCT1195593	Morphine sulfate 30mg suppositories 1 suppository
+^ESCT1195594	Morphine sulfate 30mg suppositories (Special Order)
+^ESCT1195595	Morphine sulfate 30mg suppositories (Special Order) 1 suppository
+^ESCT1195627	Morphine sulfate 2.5mg/5ml oral solution
+^ESCT1195628	Morphine sulfate 2.5mg/5ml oral solution (Special Order)
+^ESCT1195629	Morphine sulfate 2.5mg/5ml oral solution 1 ml
+^ESCT1195630	Morphine sulfate 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCT1198410	Morphine + Peppermint
+^ESCT1198607	MST Continus suspension 100mg granules sachets (Napp Pharmaceuticals Ltd)
+^ESCT1198658	MST Continus suspension 20mg granules sachets (Napp Pharmaceuticals Ltd) 30 sachet
+^ESCT1198664	MST Continus suspension 60mg granules sachets (Napp Pharmaceuticals Ltd) 30 sachet
+^ESCT1198680	MST Continus suspension 60mg granules sachets (Napp Pharmaceuticals Ltd)
+^ESCT1198697	MST Continus suspension 30mg granules sachets (Napp Pharmaceuticals Ltd)
+^ESCT1198705	MST Continus suspension 200mg granules sachets (Napp Pharmaceuticals Ltd) 30 sachet
+^ESCT1198721	MST Continus suspension 100mg granules sachets (Napp Pharmaceuticals Ltd) 30 sachet
+^ESCT1198726	MST Continus suspension 200mg granules sachets (Napp Pharmaceuticals Ltd)
+^ESCT1198820	MST Continus suspension 20mg granules sachets (Napp Pharmaceuticals Ltd)
+^ESCT1198821	MST Continus suspension 30mg granules sachets (Napp Pharmaceuticals Ltd) 30 sachet
+^ESCT1203196	Morphine sulfate 100 mg prolonged-release oral tablet
+^ESCT1203197	Product containing precisely morphine sulfate 100 milligram/1 each prolonged-release oral tablet
+^ESCT1203272	Morphine sulfate 5 mg prolonged-release oral tablet
+^ESCT1203273	Product containing precisely morphine sulfate 5 milligram/1 each prolonged-release oral tablet
+^ESCT1203292	Morphine sulfate 10 mg prolonged-release oral tablet
+^ESCT1203293	Product containing precisely morphine sulfate 10 milligram/1 each prolonged-release oral tablet
+^ESCT1203322	Morphine sulfate 200 mg prolonged-release oral tablet
+^ESCT1203323	Product containing precisely morphine sulfate 200 milligram/1 each prolonged-release oral tablet
+^ESCT1203411	Morphine sulfate 15 mg prolonged-release oral tablet
+^ESCT1203412	Product containing precisely morphine sulfate 15 milligram/1 each prolonged-release oral tablet
+^ESCT1203445	Morphine sulfate 30 mg prolonged-release oral tablet
+^ESCT1203446	Product containing precisely morphine sulfate 30 milligram/1 each prolonged-release oral tablet
+^ESCT1203558	Morphine sulfate 60 mg prolonged-release oral tablet
+^ESCT1203559	Product containing precisely morphine sulfate 60 milligram/1 each prolonged-release oral tablet
+^ESCT1203624	Morphine sulfate 90 mg prolonged-release oral capsule
+^ESCT1203625	Product containing precisely morphine sulfate 90 milligram/1 each prolonged-release oral capsule
+^ESCT1203653	Morphine sulfate 20mg + naltrexone hydrochloride 800microgram prolonged-release oral capsule
+^ESCT1203687	Morphine sulfate 200 mg prolonged-release oral capsule
+^ESCT1203688	Product containing precisely morphine sulfate 200 milligram/1 each prolonged-release oral capsule
+^ESCT1203701	Morphine sulfate 150 mg prolonged-release oral capsule
+^ESCT1203702	Product containing precisely morphine sulfate 150 milligram/1 each prolonged-release oral capsule
+^ESCT1203711	Morphine sulfate 50mg + naltrexone hydrochloride 2mg prolonged-release oral capsule
+^ESCT1203712	Morphine sulfate 20 mg prolonged-release oral capsule
+^ESCT1203713	Product containing precisely morphine sulfate 20 milligram/1 each prolonged-release oral capsule
+^ESCT1203751	Morphine sulfate 30 mg prolonged-release oral capsule
+^ESCT1203752	Product containing precisely morphine sulfate 30 milligram/1 each prolonged-release oral capsule
+^ESCT1203771	Morphine sulfate 80mg + naltrexone hydrochloride 3.2mg prolonged-release oral capsule
+^ESCT1203786	Morphine sulfate 10 mg prolonged-release oral capsule
+^ESCT1203787	Product containing precisely morphine sulfate 10 milligram/1 each prolonged-release oral capsule
+^ESCT1203830	Morphine sulfate 100 mg prolonged-release oral capsule
+^ESCT1203831	Product containing precisely morphine sulfate 100 milligram/1 each prolonged-release oral capsule
+^ESCT1203838	Morphine sulfate 100mg + naltrexone hydrochloride 4mg prolonged-release oral capsule
+^ESCT1203849	Morphine sulfate 60 mg prolonged-release oral capsule
+^ESCT1203850	Product containing precisely morphine sulfate 60 milligram/1 each prolonged-release oral capsule
+^ESCT1203874	Morphine sulfate 60mg + naltrexone hydrochloride 2.4mg prolonged-release oral capsule
+^ESCT1203875	Morphine sulfate 120 mg prolonged-release oral capsule
+^ESCT1203876	Product containing precisely morphine sulfate 120 milligram/1 each prolonged-release oral capsule
+^ESCT1203880	Morphine sulfate 80mg prolonged-release oral capsule
+^ESCT1203883	Morphine sulfate 30mg + naltrexone hydrochloride 1.2mg prolonged-release oral capsule
+^ESCT1203899	Morphine sulfate 50 mg prolonged-release oral capsule
+^ESCT1203900	Product containing precisely morphine sulfate 50 milligram/1 each prolonged-release oral capsule
+^ESCT1204524	Morphine sulfate 20 mg/mL oral solution
+^ESCT1204525	Product containing precisely morphine sulfate 20 milligram/1 milliliter conventional release oral solution
+^ESCT1210392	Morphine sulfate 10 mg/mL solution for injection ampoule
+^ESCT1210393	Morphine sulfate 10 mg/mL solution for injection ampule
+^ESCT1210394	Product containing precisely morphine sulfate 10 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210395	Morphine sulfate 15 mg/mL solution for injection ampoule
+^ESCT1210396	Product containing precisely morphine sulfate 15 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210397	Morphine sulfate 15 mg/mL solution for injection ampule
+^ESCT1210398	Morphine sulfate 20 mg/mL solution for injection ampoule
+^ESCT1210399	Morphine sulfate 20 mg/mL solution for injection ampule
+^ESCT1210400	Product containing precisely morphine sulfate 20 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210401	Morphine sulfate 30 mg/mL solution for injection ampoule
+^ESCT1210402	Morphine sulfate 30 mg/mL solution for injection ampule
+^ESCT1210403	Product containing precisely morphine sulfate 30 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1210404	Morphine sulfate 60 mg/2 mL solution for injection ampoule
+^ESCT1210405	Morphine sulfate 60 mg/2 mL solution for injection ampule
+^ESCT1210406	Product containing precisely morphine sulfate 60 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1212452	Morphine sulfate 15mg/1ml solution for injection ampoules
+^ESCT1215320	Opium tincture
+^ESCT1215585	Ipecacuanha and Morphine mixture BP 1980
+^ESCT1216004	Morphine 100mg modified-release capsules
+^ESCT1216005	Morphine 100mg modified-release tablets
+^ESCT1216006	Morphine 10mg modified-release capsules
+^ESCT1216007	Morphine 10mg modified-release tablets
+^ESCT1216008	Morphine 120mg modified-release capsules
+^ESCT1216009	Morphine 150mg modified-release capsules
+^ESCT1216010	Morphine 15mg modified-release tablets
+^ESCT1216011	Morphine 200mg modified-release capsules
+^ESCT1216012	Morphine 200mg modified-release tablets
+^ESCT1216013	Morphine 20mg modified-release capsules
+^ESCT1216014	Morphine 30mg modified-release capsules
+^ESCT1216015	Morphine 30mg modified-release tablets
+^ESCT1216016	Morphine 50mg modified-release capsules
+^ESCT1216017	Morphine 5mg modified-release tablets
+^ESCT1216018	Morphine 60mg modified-release capsules
+^ESCT1216019	Morphine 60mg modified-release tablets
+^ESCT1216020	Morphine 90mg modified-release capsules
+^ESCT1216021	Morphine and Cocaine elixir
+^ESCT1216022	Morphine hydrochloride powder
+^ESCT1216023	Morphine sulfate 10mg/1ml solution for injection ampoules
+^ESCT1216024	Morphine sulfate 10mg/5ml oral solution
+^ESCT1216025	Morphine sulfate 20mg/1ml solution for injection ampoules
+^ESCT1216026	Morphine sulfate 20mg/ml oral solution sugar free
+^ESCT1216027	Morphine sulfate 30mg/1ml solution for injection ampoules
+^ESCT1216028	Morphine sulfate 60mg/2ml solution for injection ampoules
+^ESCT1216029	Morphine sulfate powder
+^ESCT1219618	Morphine
+^ESCT1219619	Morphine product
+^ESCT1223752	Product containing precisely morphine sulfate 15 milligram/1 each conventional release rectal suppository
+^ESCT1223753	Morphine sulfate 15 mg rectal suppository
+^ESCT1223754	Morphine sulfate 10 mg rectal suppository
+^ESCT1223755	Product containing precisely morphine sulfate 10 milligram/1 each conventional release rectal suppository
+^ESCT1223756	Morphine sulfate 20 mg rectal suppository
+^ESCT1223757	Product containing precisely morphine sulfate 20 milligram/1 each conventional release rectal suppository
+^ESCT1223758	Product containing precisely morphine sulfate 2 milligram/1 milliliter conventional release oral solution
+^ESCT1223759	Morphine sulfate 2 mg/mL oral solution
+^ESCT1223760	Product containing precisely morphine hydrochloride 15 milligram/1 each conventional release rectal suppository
+^ESCT1223761	Morphine hydrochloride 15 mg rectal suppository
+^ESCT1223762	Morphine hydrochloride 30 mg rectal suppository
+^ESCT1223763	Product containing precisely morphine hydrochloride 30 milligram/1 each conventional release rectal suppository
+^ESCT1223764	Morphine sulfate 30 mg rectal suppository
+^ESCT1223765	Product containing precisely morphine sulfate 30 milligram/1 each conventional release rectal suppository
+^ESCT1223823	Product containing precisely morphine sulfate 10 milligram/1 each conventional release oral tablet
+^ESCT1223824	Product containing precisely morphine sulfate 20 milligram/1 each conventional release oral tablet
+^ESCT1223825	Product containing precisely morphine sulfate 50 milligram/1 each conventional release oral tablet
+^ESCT1226536	Kaolin + Morphine
+^ESCT1226537	Product containing kaolin and morphine
+^ESCT1226538	Kaolin and morphine product
+^ESCT1227410	Product containing precisely morphine sulfate 30 milligram/1 each conventional release oral tablet
+^ESCT1227411	Morphine sulfate 5 mg rectal suppository
+^ESCT1227412	Product containing precisely morphine sulfate 5 milligram/1 each conventional release rectal suppository
+^ESCT1228060	Product containing precisely morphine sulfate 200 milligram/1 each conventional release oral tablet
+^ESCT1228061	Product containing precisely morphine sulfate 15 milligram/1 each conventional release oral tablet
+^ESCT1228062	Product containing precisely morphine sulfate 60 milligram/1 each conventional release oral tablet
+^ESCT1228063	Morphine sulfate 15 mg/1 each oral capsule
+^ESCT1228064	Morphine sulfate 15 mg oral capsule
+^ESCT1228065	Product containing precisely morphine sulfate 15 milligram/1 each conventional release oral capsule
+^ESCT1228066	Morphine sulfate 30 mg/1 each oral capsule
+^ESCT1228067	Product containing precisely morphine sulfate 30 milligram/1 each conventional release oral capsule
+^ESCT1228068	Morphine sulfate 30 mg oral capsule
+^ESCT1233694	Product containing cyclizine and morphine
+^ESCT1233695	Cyclizine and morphine product
+^ESCT1233766	Ethylmorphine
+^ESCT1233767	Product containing ethyl morphine
+^ESCT1233768	Ethyl morphine product
+^ESCT1233807	Product containing morphine and peppermint oil
+^ESCT1233808	Morphine and peppermint oil product
+^ESCT1234025	Chloroform + Morphine
+^ESCT1234026	Product containing chloroform and morphine
+^ESCT1234027	Chloroform and morphine product
+^ESCT1234282	Product containing cocaine and morphine
+^ESCT1234283	Cocaine and morphine product
+^ESCT1250246	Cyclimorph 15 solution for injection 1ml ampoules (Advanz Pharma)
+^ESCT1250247	Cyclimorph 15 solution for injection 1ml ampoules (Advanz Pharma) 5 ampoule
+^ESCT1250248	Cyclimorph 10 solution for injection 1ml ampoules (Advanz Pharma)
+^ESCT1250249	Cyclimorph 10 solution for injection 1ml ampoules (Advanz Pharma) 5 ampoule
+^ESCT1250293	Morphgesic SR 10mg tablets (Advanz Pharma)
+^ESCT1250294	Morphgesic SR 10mg tablets (Advanz Pharma) 60 tablet 3 x 20 tablets
+^ESCT1250295	Morphgesic SR 30mg tablets (Advanz Pharma)
+^ESCT1250296	Morphgesic SR 30mg tablets (Advanz Pharma) 60 tablet 3 x 20 tablets
+^ESCT1250297	Morphgesic SR 60mg tablets (Advanz Pharma)
+^ESCT1250298	Morphgesic SR 60mg tablets (Advanz Pharma) 60 tablet 3 x 20 tablets
+^ESCT1250299	Morphgesic SR 100mg tablets (Advanz Pharma)
+^ESCT1250300	Morphgesic SR 100mg tablets (Advanz Pharma) 60 tablet 3 x 20 tablets
+^ESCT1260923	Dropizol
+^ESCT1264569	Morphine (Opium tincture) 10mg/ml oral drops sugar free 10 ml
+^ESCT1264570	Morphine (Opium tincture) 10mg/ml oral drops sugar free 30 ml
+^ESCT1264571	Dropizol 10mg/ml oral drops (S.L.A. Pharma (UK) Ltd)
+^ESCT1264572	Dropizol 10mg/ml oral drops (S.L.A. Pharma (UK) Ltd) 10 ml
+^ESCT1264573	Dropizol 10mg/ml oral drops (S.L.A. Pharma (UK) Ltd) 30 ml 3 x 10ml drops
+^ESCT1268324	Morphine (Opium tincture) 10mg/ml oral drops sugar free 100 ml
+^ESCT1270204	Morphine (Opium tincture) 10mg/ml oral drops sugar free
+^ESCT1300426	MST Continus 30mg tablets (Pilsco Ltd)
+^ESCT1300427	MST Continus 30mg tablets (Pilsco Ltd) 60 tablet
+^ESCT1300428	MST Continus 60mg tablets (Pilsco Ltd)
+^ESCT1300429	MST Continus 60mg tablets (Pilsco Ltd) 60 tablet
+^ESCT1300863	MST Continus 10mg tablets (DE Pharmaceuticals)
+^ESCT1300864	MST Continus 10mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCT1300865	MST Continus 30mg tablets (DE Pharmaceuticals)
+^ESCT1300866	MST Continus 30mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCT1300867	MST Continus 60mg tablets (DE Pharmaceuticals)
+^ESCT1300868	MST Continus 60mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCT1300869	MST Continus 100mg tablets (DE Pharmaceuticals)
+^ESCT1300870	MST Continus 100mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCT1300871	MST Continus 200mg tablets (DE Pharmaceuticals)
+^ESCT1300872	MST Continus 200mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCT1304136	Morphine sulfate 10mg/1ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304137	Morphine sulfate 10mg/1ml solution for injection ampoules (hameln pharma Ltd) 10 ampoule 2 x 5 x 1ml ampoules
+^ESCT1304343	Morphine sulfate 10mg/10ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304344	Morphine sulfate 10mg/10ml solution for injection ampoules (hameln pharma Ltd) 10 ampoule
+^ESCT1352227	Morphine only product
+^ESCT1352228	Morphine liposome only product
+^ESCT1352229	Morphine only product in oral dose form
+^ESCT1352230	Morphine only product in rectal dose form
+^ESCT1352231	Morphine only product in parenteral dose form
+^ESCT1352232	Morphine liposome only product in parenteral dose form
+^ESCT1354144	Chloroform and morphine only product
+^ESCT1354345	Cocaine and morphine only product
+^ESCT1354417	Cyclizine and morphine only product
+^ESCT1355555	Kaolin and morphine only product
+^ESCT1355974	Morphine and peppermint oil only product
+^ESCT1361179	Morphine sulfate 30 mg/mL solution for injection
+^ESCT1361180	Morphine sulfate 10 mg/mL solution for injection
+^ESCT1361181	Morphine sulfate 20 mg/mL solution for injection
+^ESCT1361182	Morphine sulfate 15 mg/mL solution for injection
+^ESCT1363374	Morphine- and naltrexone-containing product
+^ESCT1363375	Morphine and naltrexone only product
+^ESCT1363376	Morphine- and naltrexone-containing product in oral dose form
+^ESCT1363377	Morphine and naltrexone only product in oral dose form
+^ESCT1364505	Morphine sulfate liposome 10 mg/mL solution for injection
+^ESCT1364544	Morphine sulfate 10 mg/mL oral solution
+^ESCT1364545	Morphine sulfate 100 mg rectal suppository
+^ESCT1364546	Morphine sulfate 5 mg/mL oral suspension
+^ESCT1364547	Morphine sulfate 6.67 mg/mL oral suspension
+^ESCT1364548	Morphine sulfate 2 mg/mL oral suspension
+^ESCT1364549	Morphine sulfate 6 mg/mL oral solution
+^ESCT1364550	Morphine sulfate 3 mg/mL oral suspension
+^ESCT1364551	Morphine sulfate 35 mg rectal suppository
+^ESCT1364552	Morphine sulfate 50 mg rectal suppository
+^ESCT1364553	Morphine sulfate 75 mg rectal suppository
+^ESCT1375520	Morphine sulfate 50mg/50ml solution for infusion vials (Torbay Pharmaceuticals) 1 vial
+^ESCT1375683	Morphine sulfate 15mg/1ml solution for injection ampoules
+^ESCT1376102	Morphine sulfate 10mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCT1376103	Morphine sulfate 10mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCT1381243	Morphine-containing product in parenteral dose form
+^ESCT1381244	Morphine-containing product in rectal dose form
+^ESCT1381417	Morphine-containing product in oral dose form
+^ESCT1381807	Morphine sulfate 4 mg/mL oral solution
+^ESCT1383383	Morphine- and peppermint oil-containing product
+^ESCT1389442	Dropizol 10mg/ml oral drops (Pharmanovia)
+^ESCT1389443	Dropizol 10mg/ml oral drops (Pharmanovia) 10 ml
+^ESCT1389444	Dropizol 10mg/ml oral drops (Pharmanovia) 30 ml 3 x 10ml drops
+^ESCT1402333	Morphine sulfate 10mg/5ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1402335	Morphine sulfate 10mg/5ml oral solution (Medihealth (Northern) Ltd) 100 ml
+^ESCT1402337	Morphine sulfate 10mg/5ml oral solution (Medihealth (Northern) Ltd) 300 ml
+^ESCT1402338	Morphine sulfate 10mg/5ml oral solution (Medihealth (Northern) Ltd) 500 ml
+^ESCT1402969	MST Continus 60mg tablets (CST Pharma Ltd)
+^ESCT1402970	MST Continus 60mg tablets (CST Pharma Ltd) 60 tablet
+^ESCT1402971	MST Continus 100mg tablets (CST Pharma Ltd)
+^ESCT1402972	MST Continus 100mg tablets (CST Pharma Ltd) 60 tablet
+^ESCT1403163	Morphine sulfate 15mg/1ml solution for injection ampoules (AS Kalceks)
+^ESCT1403164	Morphine sulfate 15mg/1ml solution for injection ampoules (AS Kalceks) 10 ampoule
+^ESCT1403165	Morphine sulfate 10mg/1ml solution for injection ampoules (AS Kalceks)
+^ESCT1403166	Morphine sulfate 30mg/1ml solution for injection ampoules (AS Kalceks)
+^ESCT1403167	Morphine sulfate 30mg/1ml solution for injection ampoules (AS Kalceks) 10 ampoule
+^ESCT1403168	Morphine sulfate 10mg/1ml solution for injection ampoules (AS Kalceks) 10 ampoule
+^ESCT1411561	Morphine sulfate 10mg/5ml oral solution (Accord Healthcare Ltd)
+^ESCT1411562	Morphine sulfate 10mg/5ml oral solution (Accord Healthcare Ltd) 100 ml
+^ESCT1411563	Morphine sulfate 10mg/5ml oral solution (Accord Healthcare Ltd) 300 ml
+^ESCT1411564	Morphine sulfate 10mg/5ml oral solution (Accord Healthcare Ltd) 500 ml
+^ESCT1412642	Dropizol 10mg/ml oral drops (Atnahs Pharma UK Ltd)
+^ESCT1412643	Dropizol 10mg/ml oral drops (Atnahs Pharma UK Ltd) 10 ml
+^ESCT1412644	Dropizol 10mg/ml oral drops (Atnahs Pharma UK Ltd) 30 ml 3 x 10ml drops
+^ESCT1416924	Cyclizine tartrate 50 mg/mL and morphine tartrate 10 mg/mL solution for injection
+^ESCT1416925	Cyclizine tartrate 50 mg/mL and morphine tartrate 15 mg/mL solution for injection
+^ESCT1416926	Cyclizine- and morphine-containing product in parenteral dose form
+^ESCT1416927	Cyclizine and morphine only product in parenteral dose form
+^ESCT1421973	Oramorph 10mg/5ml oral solution (Glenwood GmbH)
+^ESCT1421974	Oramorph 10mg/5ml oral solution (Glenwood GmbH) 100 ml
+^ESCT1421975	Oramorph 10mg/5ml oral solution (Glenwood GmbH) 300 ml
+^ESCT1421976	Oramorph 10mg/5ml oral solution (Glenwood GmbH) 500 ml
+^ESCT1421990	Oramorph 20mg/ml concentrated oral solution (Glenwood GmbH)
+^ESCT1421991	Oramorph 20mg/ml concentrated oral solution (Glenwood GmbH) 30 ml
+^ESCT1421992	Oramorph 20mg/ml concentrated oral solution (Glenwood GmbH) 120 ml
+^ESCT1426580	Kaolin and Morphine mixture (Kent Pharma (UK) Ltd)
+^ESCT1426581	Kaolin and Morphine mixture (Kent Pharma (UK) Ltd) 200 ml
+^ESCT1427758	Morphine sulfate 10mg/5ml oral solution (Kent Pharma (UK) Ltd)
+^ESCT1427759	Morphine sulfate 10mg/5ml oral solution (Kent Pharma (UK) Ltd) 100 ml
+^ESCT1427760	Morphine sulfate 10mg/5ml oral solution (Kent Pharma (UK) Ltd) 300 ml
+^ESCT1427761	Morphine sulfate 10mg/5ml oral solution (Kent Pharma (UK) Ltd) 500 ml
+^ESCT1428309	Network Contract Directed Enhanced Service - opioid medications equivalent to 120mg of morphine daily or greater simple reference set
+^ESCT1431317	Morphine sulfate 1mg/20ml solution for infusion pre-filled syringes 1 pre-filled disposable injection
+^ESCT1431318	Morphine sulfate 1mg/20ml solution for infusion pre-filled syringes (Special Order)
+^ESCT1431319	Morphine sulfate 1mg/20ml solution for infusion pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCT1431320	Morphine sulfate 10mg/50ml solution for infusion pre-filled syringes 1 pre-filled disposable injection
+^ESCT1431321	Morphine sulfate 10mg/50ml solution for infusion pre-filled syringes (Special Order)
+^ESCT1431323	Morphine sulfate 10mg/50ml solution for infusion pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCT1431337	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes 55 pre-filled disposable injection
+^ESCT1431338	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes (Special Order) 55 pre-filled disposable injection
+^ESCT1431374	Morphine sulfate 10mg/50ml solution for infusion pre-filled syringes
+^ESCT1431375	Morphine sulfate 1mg/20ml solution for infusion pre-filled syringes
+^ESCT1432481	MST Continus 10mg tablets (Pilsco Ltd)
+^ESCT1432482	MST Continus 10mg tablets (Pilsco Ltd) 60 tablet
+^ESCT1435729	Actimorph
+^ESCT1436579	Morphine 1mg orodispersible tablets sugar free 56 tablet
+^ESCT1436580	Actimorph 1mg orodispersible tablets (Ethypharm UK Ltd)
+^ESCT1436587	Actimorph 1mg orodispersible tablets (Ethypharm UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1436596	Morphine 30mg orodispersible tablets sugar free 56 tablet
+^ESCT1436597	Actimorph 30mg orodispersible tablets (Ethypharm UK Ltd)
+^ESCT1436598	Actimorph 30mg orodispersible tablets (Ethypharm UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1436611	Morphine 2.5mg orodispersible tablets sugar free 56 tablet
+^ESCT1436612	Actimorph 2.5mg orodispersible tablets (Ethypharm UK Ltd)
+^ESCT1436613	Actimorph 2.5mg orodispersible tablets (Ethypharm UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1436649	Morphine 10mg orodispersible tablets sugar free 56 tablet
+^ESCT1436650	Actimorph 10mg orodispersible tablets (Ethypharm UK Ltd)
+^ESCT1436654	Actimorph 10mg orodispersible tablets (Ethypharm UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1436657	Morphine 20mg orodispersible tablets sugar free 56 tablet
+^ESCT1436658	Actimorph 20mg orodispersible tablets (Ethypharm UK Ltd)
+^ESCT1436661	Actimorph 20mg orodispersible tablets (Ethypharm UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1436675	Morphine 5mg orodispersible tablets sugar free 56 tablet
+^ESCT1436676	Actimorph 5mg orodispersible tablets (Ethypharm UK Ltd)
+^ESCT1436677	Actimorph 5mg orodispersible tablets (Ethypharm UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1436739	Morphine 10mg orodispersible tablets sugar free
+^ESCT1436740	Morphine 1mg orodispersible tablets sugar free
+^ESCT1436741	Morphine 2.5mg orodispersible tablets sugar free
+^ESCT1436742	Morphine 20mg orodispersible tablets sugar free
+^ESCT1436743	Morphine 30mg orodispersible tablets sugar free
+^ESCT1436744	Morphine 5mg orodispersible tablets sugar free
+^ESCTAM608979	Ammonium chloride+morphine mixture
+^ESCTCH701753	Chloroform + Morphine
+^ESCTCH701754	Chloroform + morphine
+^ESCTCH876713	Chloroform and Morphine tincture 500 ml
+^ESCTCH876714	Chloroform and Morphine tincture 2000 ml
+^ESCTCH876715	Chloroform and Morphine tincture (A A H Pharmaceuticals Ltd)
+^ESCTCH876716	Chloroform and Morphine tincture (A A H Pharmaceuticals Ltd) 500 ml
+^ESCTCH876717	Chloroform and Morphine tincture (A A H Pharmaceuticals Ltd) 2000 ml
+^ESCTCH876718	Chloroform and Morphine tincture (J M Loveridge Ltd)
+^ESCTCH876719	Chloroform and Morphine tincture (J M Loveridge Ltd) 500 ml
+^ESCTCH876720	Chloroform and Morphine tincture (J M Loveridge Ltd) 2000 ml
+^ESCTCH876721	Chloroform and Morphine tincture (Alliance Healthcare (Distribution) Ltd)
+^ESCTCH876722	Chloroform and Morphine tincture (Alliance Healthcare (Distribution) Ltd) 500 ml
+^ESCTCH876800	Chloroform and Morphine tincture
+^ESCTCH923958	Chalk with Opium mixture aromatic BP 1988
+^ESCTCO703999	Cocaine + Morphine
+^ESCTCY698388	Cyclizine + morphine
+^ESCTCY698389	Cyclizine + Morphine
+^ESCTCY865285	Cyclimorph 15 solution for injection 1ml ampoules (AMCo)
+^ESCTCY865286	Cyclimorph 15 solution for injection 1ml ampoules (AMCo) 5 ampoule
+^ESCTCY865290	Cyclimorph 10 solution for injection 1ml ampoules (AMCo)
+^ESCTCY865291	Cyclimorph 10 solution for injection 1ml ampoules (AMCo) 5 ampoule
+^ESCTCY914610	Cyclimorph
+^ESCTDE981503	Depodur 10mg/1ml suspension for injection vials (Flynn Pharma Ltd)
+^ESCTDE981504	Depodur 10mg/1ml suspension for injection vials (Flynn Pharma Ltd) 5 vial
+^ESCTET699010	Ethylmorphine
+^ESCTFI802945	Filnarine SR 60mg tablets (Teva UK Ltd)
+^ESCTFI806811	Filnarine SR 100mg tablets (Teva UK Ltd)
+^ESCTFI855602	Filnarine SR 60mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTFI855603	Filnarine SR 100mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTFI859160	Filnarine SR 10mg tablets (Teva UK Ltd)
+^ESCTFI859182	Filnarine SR 10mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTFI859197	Filnarine SR 30mg tablets (Teva UK Ltd)
+^ESCTFI859199	Filnarine SR 30mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTFI918216	Filnarine SR
+^ESCTFI976849	Filnarine SR 200mg tablets (Teva UK Ltd)
+^ESCTFI976850	Filnarine SR 200mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTIP1018549	Ipecacuanha and Morphine mixture BP 1980 200 ml
+^ESCTIP1018550	Ipecacuanha and Morphine mixture BP 1980 (Thornton & Ross Ltd)
+^ESCTIP1018551	Ipecacuanha and Morphine mixture BP 1980 (Thornton & Ross Ltd) 200 ml
+^ESCTIP608980	Ipecacuanha and Morphine mixture BP 1980
+^ESCTIP608981	Ipecacuanha+morphine mixture
+^ESCTJC869351	J Collis Browne's mixture (Thornton & Ross Ltd)
+^ESCTJC869352	J Collis Browne's mixture (Thornton & Ross Ltd) 100 ml
+^ESCTJC869353	J Collis Browne's mixture (Thornton & Ross Ltd) 45 ml
+^ESCTKA1011300	Kaolin and Morphine mixture (Almus Pharmaceuticals Ltd)
+^ESCTKA1011301	Kaolin and Morphine mixture (Almus Pharmaceuticals Ltd) 200 ml
+^ESCTKA617846	Kaolin + Morphine
+^ESCTKA617847	Kaolin+morphine
+^ESCTKA860328	Kaolin and Morphine mixture 200 ml
+^ESCTKA860331	Kaolin and Morphine mixture 2000 ml
+^ESCTKA860333	Kaolin and Morphine mixture (A A H Pharmaceuticals Ltd)
+^ESCTKA860334	Kaolin and Morphine mixture (A A H Pharmaceuticals Ltd) 2000 ml
+^ESCTKA860335	Kaolin and Morphine mixture (A A H Pharmaceuticals Ltd) 200 ml
+^ESCTKA860337	Kaolin and Morphine mixture (Kent Pharmaceuticals Ltd)
+^ESCTKA860338	Kaolin and Morphine mixture (Kent Pharmaceuticals Ltd) 200 ml
+^ESCTKA860339	Kaolin and Morphine mixture (Thornton & Ross Ltd)
+^ESCTKA860343	Kaolin and Morphine mixture (Thornton & Ross Ltd) 200 ml
+^ESCTKA860348	Kaolin and Morphine mixture (Alliance Healthcare (Distribution) Ltd)
+^ESCTKA860350	Kaolin and Morphine mixture (Alliance Healthcare (Distribution) Ltd) 200 ml
+^ESCTKA860353	Kaolin and Morphine mixture (Alliance Healthcare (Distribution) Ltd) 2000 ml
+^ESCTKA922634	Kaolin and Morphine mixture
+^ESCTKA923858	Kaolin and Morphine mixture (Lloyds Pharmacy Ltd)
+^ESCTKA923859	Kaolin and Morphine mixture (Lloyds Pharmacy Ltd) 200 ml
+^ESCTKA943052	Kaolin and Morphine mixture (The Boots Company Plc)
+^ESCTKA943053	Kaolin and Morphine mixture (The Boots Company Plc) 200 ml
+^ESCTKA973834	Kaolin and Morphine mixture
+^ESCTKE1077598	Ketamine 100mg/50ml / Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes
+^ESCTKE1077600	Ketamine 100mg/50ml / Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes 1 pre-filled disposable injection
+^ESCTKE1077601	Ketamine 100mg/50ml / Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes 10 pre-filled disposable injection
+^ESCTKE1077603	Ketamine 100mg/50ml / Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes (Special Order)
+^ESCTKE1077605	Ketamine 100mg/50ml / Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTKE1077607	Ketamine 100mg/50ml / Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCTKE1077609	Ketamine + Morphine
+^ESCTMO1000122	Morphine sulfate 50mg/50ml solution for infusion vials (Torbay Pharmaceuticals)
+^ESCTMO1000123	Morphine sulfate 50mg/50ml solution for infusion vials 10 vial
+^ESCTMO1000124	Morphine sulfate 50mg/50ml solution for infusion vials (Torbay Pharmaceuticals) 10 vial
+^ESCTMO1003323	Morphine 2% gel 1 gram
+^ESCTMO1003324	Morphine 2% gel (Special Order)
+^ESCTMO1003325	Morphine 2% gel (Special Order) 1 gram
+^ESCTMO1003358	Morphine 2% gel
+^ESCTMO1007054	Morphine sulfate 10mg/5ml oral solution (Mawdsley-Brooks & Company Ltd)
+^ESCTMO1007055	Morphine sulfate 10mg/5ml oral solution (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCTMO1007056	Morphine sulfate 10mg/5ml oral solution (Mawdsley-Brooks & Company Ltd) 300 ml
+^ESCTMO1007057	Morphine sulfate 10mg/5ml oral solution (Mawdsley-Brooks & Company Ltd) 500 ml
+^ESCTMO1007974	Morphine sulfate 100mg/100ml infusion bags 1 bag
+^ESCTMO1007975	Morphine sulfate 100mg/100ml infusion bags (Special Order)
+^ESCTMO1007976	Morphine sulfate 100mg/100ml infusion bags (Special Order) 1 bag
+^ESCTMO1008015	Morphine sulfate 100mg/100ml infusion bags
+^ESCTMO1022449	Morphine sulfate 300mg/10ml solution for injection ampoules 1 ampoule
+^ESCTMO1022450	Morphine sulfate 300mg/10ml solution for injection ampoules (Special Order)
+^ESCTMO1022451	Morphine sulfate 300mg/10ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO1022563	Morphine sulfate 300mg/10ml solution for injection ampoules
+^ESCTMO1023246	Morphine sulfate 10mg/5ml oral solution unit dose vials sugar free 1 unit dose
+^ESCTMO1023247	Morphine sulfate 10mg/5ml oral solution unit dose vials sugar free (Imported (France))
+^ESCTMO1023250	Morphine sulfate 10mg/5ml oral solution unit dose vials sugar free (Imported (France)) 1 unit dose
+^ESCTMO1024385	Morphine sulfate 20mg suppositories (Special Order)
+^ESCTMO1024386	Morphine sulfate 20mg suppositories 1 suppository
+^ESCTMO1024387	Morphine sulfate 20mg suppositories (Special Order) 1 suppository
+^ESCTMO1024388	Morphine 0.1% gel 1 gram
+^ESCTMO1024389	Morphine 0.1% gel (Special Order)
+^ESCTMO1024390	Morphine 0.1% gel (Special Order) 1 gram
+^ESCTMO1024640	Morphine 0.1% gel
+^ESCTMO1026148	Morphine hydrochloride 20mg/5ml oral solution 1 ml
+^ESCTMO1026149	Morphine hydrochloride 20mg/5ml oral solution (Special Order)
+^ESCTMO1026150	Morphine hydrochloride 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO1026251	Morphine hydrochloride 20mg/5ml oral solution
+^ESCTMO1026671	Morphine sulfate 50mg/50ml solution for infusion vials (A A H Pharmaceuticals Ltd)
+^ESCTMO1026672	Morphine sulfate 50mg/50ml solution for infusion vials (A A H Pharmaceuticals Ltd) 1 vial
+^ESCTMO1026673	Morphine sulfate 100mg/50ml solution for infusion vials (A A H Pharmaceuticals Ltd)
+^ESCTMO1026674	Morphine sulfate 100mg/50ml solution for infusion vials (A A H Pharmaceuticals Ltd) 1 vial
+^ESCTMO1028813	Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes 1 pre-filled disposable injection
+^ESCTMO1028814	Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes (Special Order)
+^ESCTMO1028815	Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTMO1028826	Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes
+^ESCTMO1029841	Morphine sulfate 100mg/100ml infusion bags 10 bag
+^ESCTMO1029842	Morphine sulfate 100mg/100ml infusion bags (Special Order) 10 bag
+^ESCTMO1029868	Morphine sulfate 2mg/10ml solution for injection ampoules 10 ampoule
+^ESCTMO1029869	Morphine sulfate 2mg/10ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1029870	Morphine sulfate 5mg/5ml solution for injection ampoules 10 ampoule
+^ESCTMO1029871	Morphine sulfate 5mg/5ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1036381	Morphine 0.2% gel 1 gram
+^ESCTMO1036382	Morphine 0.2% gel (Special Order)
+^ESCTMO1036383	Morphine 0.2% gel (Special Order) 1 gram
+^ESCTMO1036596	Morphine 0.2% gel
+^ESCTMO1038974	Morphine sulfate 60mg/2ml solution for injection ampoules (Actavis UK Ltd)
+^ESCTMO1038975	Morphine sulfate 60mg/2ml solution for injection ampoules (Actavis UK Ltd) 5 ampoule
+^ESCTMO1039255	Morphine hydrochloride 5mg/5ml oral solution 200 ml
+^ESCTMO1039256	Morphine hydrochloride 5mg/5ml oral solution (Special Order) 200 ml
+^ESCTMO1039265	Morphine sulfate 10mg/10ml solution for injection ampoules 1 ampoule
+^ESCTMO1039266	Morphine sulfate 10mg/10ml solution for injection ampoules 10 ampoule
+^ESCTMO1039267	Morphine sulfate 10mg/10ml solution for injection ampoules (Special Order)
+^ESCTMO1039268	Morphine sulfate 10mg/10ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1039281	Morphine hydrochloride 10mg/10ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTMO1039282	Morphine hydrochloride 10mg/10ml solution for injection pre-filled syringes 10 pre-filled disposable injection
+^ESCTMO1039283	Morphine hydrochloride 10mg/10ml solution for injection pre-filled syringes (Special Order)
+^ESCTMO1039284	Morphine sulfate 10mg/10ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO1039285	Morphine hydrochloride 10mg/10ml solution for injection pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCTMO1039286	Morphine hydrochloride 10mg/10ml solution for injection pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTMO1039287	Morphine hydrochloride 50mg/50ml solution for infusion pre-filled syringes 1 pre-filled disposable injection
+^ESCTMO1039288	Morphine hydrochloride 50mg/50ml solution for infusion pre-filled syringes 10 pre-filled disposable injection
+^ESCTMO1039289	Morphine hydrochloride 50mg/50ml solution for infusion pre-filled syringes (Special Order)
+^ESCTMO1039290	Morphine hydrochloride 50mg/50ml solution for infusion pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTMO1039291	Morphine hydrochloride 50mg/50ml solution for infusion pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCTMO1039399	Morphine sulfate 100mg/10ml solution for injection ampoules 1 ampoule
+^ESCTMO1039400	Morphine sulfate 100mg/10ml solution for injection ampoules 10 ampoule
+^ESCTMO1039402	Morphine sulfate 100mg/10ml solution for injection ampoules (Special Order)
+^ESCTMO1039403	Morphine sulfate 100mg/10ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO1039404	Morphine sulfate 100mg/10ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1039438	Morphine hydrochloride 1mg/1ml solution for injection ampoules 1 ampoule
+^ESCTMO1039439	Morphine hydrochloride 1mg/1ml solution for injection ampoules 10 ampoule
+^ESCTMO1039440	Morphine hydrochloride 1mg/1ml solution for injection ampoules (Special Order)
+^ESCTMO1039441	Morphine hydrochloride 1mg/1ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO1039442	Morphine hydrochloride 1mg/1ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1039446	Morphine hydrochloride 5mg/5ml solution for injection ampoules 1 ampoule
+^ESCTMO1039447	Morphine hydrochloride 5mg/5ml solution for injection ampoules 10 ampoule
+^ESCTMO1039448	Morphine hydrochloride 5mg/5ml solution for injection ampoules (Special Order)
+^ESCTMO1039449	Morphine hydrochloride 5mg/5ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO1039450	Morphine hydrochloride 5mg/5ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1039627	Morphine hydrochloride 10mg/10ml solution for injection pre-filled syringes
+^ESCTMO1039629	Morphine hydrochloride 1mg/1ml solution for injection ampoules
+^ESCTMO1039630	Morphine hydrochloride 50mg/50ml solution for infusion pre-filled syringes
+^ESCTMO1039632	Morphine hydrochloride 5mg/5ml solution for injection ampoules
+^ESCTMO1039633	Morphine sulfate 100mg/10ml solution for injection ampoules
+^ESCTMO1039634	Morphine sulfate 10mg/10ml solution for injection ampoules
+^ESCTMO1040094	Morphine sulfate 50mg/5ml solution for injection ampoules 1 ampoule
+^ESCTMO1040096	Morphine sulfate 50mg/5ml solution for injection ampoules 10 ampoule
+^ESCTMO1040097	Morphine sulfate 50mg/5ml solution for injection ampoules (Special Order)
+^ESCTMO1040098	Morphine sulfate 50mg/5ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO1040101	Morphine sulfate 50mg/5ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1040172	Morphine sulfate 50mg/5ml solution for injection ampoules
+^ESCTMO1040417	Morphine sulfate 10mg/5ml oral solution (Actavis UK Ltd)
+^ESCTMO1040418	Morphine sulfate 10mg/5ml oral solution (Actavis UK Ltd) 100 ml
+^ESCTMO1040419	Morphine sulfate 10mg/5ml oral solution (Actavis UK Ltd) 300 ml
+^ESCTMO1040420	Morphine sulfate 10mg/5ml oral solution (Actavis UK Ltd) 500 ml
+^ESCTMO1041337	Morphine sulfate 5mg/5ml solution for injection ampoules 5 ampoule
+^ESCTMO1041338	Morphine sulfate 5mg/5ml solution for injection ampoules (Special Order) 5 ampoule
+^ESCTMO1041372	Morphine sulfate 500micrograms/5ml oral solution 60 ml
+^ESCTMO1041373	Morphine sulfate 500micrograms/5ml oral solution (Special Order) 60 ml
+^ESCTMO1041468	Morphine hydrochloride 50mg/50ml solution for infusion pre-filled syringes 5 pre-filled disposable injection
+^ESCTMO1041469	Morphine hydrochloride 50mg/50ml solution for infusion pre-filled syringes (Special Order) 5 pre-filled disposable injection
+^ESCTMO1042267	Morphine sulfate 2mg/10ml solution for injection ampoules 5 ampoule
+^ESCTMO1042268	Morphine sulfate 2mg/10ml solution for injection ampoules (Special Order) 5 ampoule
+^ESCTMO1042336	Morphine sulfate 100mg/100ml infusion bags 30 bag
+^ESCTMO1042337	Morphine sulfate 100mg/100ml infusion bags (Special Order) 30 bag
+^ESCTMO1044041	Morphine sulfate 10mg/10ml solution for injection ampoules 5 ampoule
+^ESCTMO1044042	Morphine sulfate 10mg/10ml solution for injection ampoules (Special Order) 5 ampoule
+^ESCTMO1047179	Morphine sulfate 1g/1litre infusion bags
+^ESCTMO1047180	Morphine sulfate 1g/1litre infusion bags 1 bag
+^ESCTMO1047181	Morphine sulfate 1g/1litre infusion bags 10 bag
+^ESCTMO1047182	Morphine sulfate 1g/1litre infusion bags (Special Order)
+^ESCTMO1047183	Morphine sulfate 1g/1litre infusion bags (Special Order) 1 bag
+^ESCTMO1047184	Morphine sulfate 1g/1litre infusion bags (Special Order) 10 bag
+^ESCTMO1047185	Morphine sulfate 500mg/500ml infusion bags
+^ESCTMO1047186	Morphine sulfate 500mg/500ml infusion bags 1 bag
+^ESCTMO1047187	Morphine sulfate 500mg/500ml infusion bags 15 bag
+^ESCTMO1047188	Morphine sulfate 500mg/500ml infusion bags (Special Order)
+^ESCTMO1047189	Morphine sulfate 500mg/500ml infusion bags (Special Order) 1 bag
+^ESCTMO1047190	Morphine sulfate 500mg/500ml infusion bags (Special Order) 15 bag
+^ESCTMO1047191	Morphine sulfate 250mg/250ml infusion bags
+^ESCTMO1047192	Morphine sulfate 250mg/250ml infusion bags 1 bag
+^ESCTMO1047193	Morphine sulfate 250mg/250ml infusion bags 20 bag
+^ESCTMO1047194	Morphine sulfate 250mg/250ml infusion bags (Special Order)
+^ESCTMO1047195	Morphine sulfate 250mg/250ml infusion bags (Special Order) 1 bag
+^ESCTMO1047196	Morphine sulfate 250mg/250ml infusion bags (Special Order) 20 bag
+^ESCTMO1047201	Morphine sulfate 1g/1litre solution for infusion bottles
+^ESCTMO1047202	Morphine sulfate 1g/1litre solution for infusion bottles 1 bottle
+^ESCTMO1047203	Morphine sulfate 1g/1litre solution for infusion bottles 6 bottle
+^ESCTMO1047204	Morphine sulfate 1g/1litre solution for infusion bottles (Special Order)
+^ESCTMO1047205	Morphine sulfate 1g/1litre solution for infusion bottles (Special Order) 1 bottle
+^ESCTMO1047206	Morphine sulfate 1g/1litre solution for infusion bottles (Special Order) 6 bottle
+^ESCTMO1047207	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes
+^ESCTMO1047208	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes 1 pre-filled disposable injection
+^ESCTMO1047209	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes 5 pre-filled disposable injection
+^ESCTMO1047210	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes 10 pre-filled disposable injection
+^ESCTMO1047211	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes (Special Order)
+^ESCTMO1047212	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTMO1047213	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes (Special Order) 5 pre-filled disposable injection
+^ESCTMO1047214	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCTMO1047215	Morphine sulfate 2mg/2ml solution for injection ampoules
+^ESCTMO1047216	Morphine sulfate 2mg/2ml solution for injection ampoules 1 ampoule
+^ESCTMO1047217	Morphine sulfate 2mg/2ml solution for injection ampoules 5 ampoule
+^ESCTMO1047218	Morphine sulfate 2mg/2ml solution for injection ampoules 10 ampoule
+^ESCTMO1047219	Morphine sulfate 2mg/2ml solution for injection ampoules (Special Order)
+^ESCTMO1047220	Morphine sulfate 2mg/2ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO1047221	Morphine sulfate 2mg/2ml solution for injection ampoules (Special Order) 5 ampoule
+^ESCTMO1047222	Morphine sulfate 2mg/2ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1047223	Morphine sulfate 1mg/1ml solution for injection ampoules
+^ESCTMO1047224	Morphine sulfate 1mg/1ml solution for injection ampoules 1 ampoule
+^ESCTMO1047225	Morphine sulfate 1mg/1ml solution for injection ampoules 10 ampoule
+^ESCTMO1047226	Morphine sulfate 1mg/1ml solution for injection ampoules (Special Order)
+^ESCTMO1047227	Morphine sulfate 1mg/1ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1047228	Morphine sulfate 1mg/1ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO1047230	Morphine sulfate 120mg/120ml infusion bags
+^ESCTMO1047232	Morphine sulfate 120mg/120ml infusion bags 1 bag
+^ESCTMO1047234	Morphine sulfate 120mg/120ml infusion bags (Special Order)
+^ESCTMO1047235	Morphine sulfate 120mg/120ml infusion bags (Special Order) 1 bag
+^ESCTMO1047255	Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes 10 pre-filled disposable injection
+^ESCTMO1047256	Morphine sulfate 100mg/50ml solution for infusion pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCTMO1047297	Morphine sulfate 120mg/60ml solution for infusion vials
+^ESCTMO1047298	Morphine sulfate 120mg/60ml solution for infusion vials 1 vial
+^ESCTMO1047299	Morphine sulfate 120mg/60ml solution for infusion vials 10 vial
+^ESCTMO1047300	Morphine sulfate 120mg/60ml solution for infusion vials (Special Order)
+^ESCTMO1047301	Morphine sulfate 120mg/60ml solution for infusion vials (Special Order) 1 vial
+^ESCTMO1047302	Morphine sulfate 120mg/60ml solution for infusion vials (Special Order) 10 vial
+^ESCTMO1047303	Morphine sulfate 5mg/25ml solution for infusion pre-filled syringes
+^ESCTMO1047304	Morphine sulfate 5mg/25ml solution for infusion pre-filled syringes 1 pre-filled disposable injection
+^ESCTMO1047305	Morphine sulfate 5mg/25ml solution for infusion pre-filled syringes 10 pre-filled disposable injection
+^ESCTMO1047306	Morphine sulfate 5mg/25ml solution for infusion pre-filled syringes (Special Order)
+^ESCTMO1047307	Morphine sulfate 5mg/25ml solution for infusion pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTMO1047308	Morphine sulfate 5mg/25ml solution for infusion pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCTMO1047309	Morphine sulfate 20mg/10ml solution for injection pre-filled syringes
+^ESCTMO1047310	Morphine sulfate 20mg/10ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTMO1047311	Morphine sulfate 20mg/10ml solution for injection pre-filled syringes 20 pre-filled disposable injection
+^ESCTMO1047312	Morphine sulfate 20mg/10ml solution for injection pre-filled syringes (Special Order)
+^ESCTMO1047313	Morphine sulfate 20mg/10ml solution for injection pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTMO1047314	Morphine sulfate 20mg/10ml solution for injection pre-filled syringes (Special Order) 20 pre-filled disposable injection
+^ESCTMO1047315	Morphine sulfate 1g/25ml solution for injection pre-filled syringes
+^ESCTMO1047316	Morphine sulfate 1g/25ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTMO1047317	Morphine sulfate 1g/25ml solution for injection pre-filled syringes 10 pre-filled disposable injection
+^ESCTMO1047318	Morphine sulfate 1g/25ml solution for injection pre-filled syringes (Special Order)
+^ESCTMO1047319	Morphine sulfate 1g/25ml solution for injection pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTMO1047320	Morphine sulfate 1g/25ml solution for injection pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCTMO1047321	Morphine sulfate 50mg/25ml solution for injection ampoules
+^ESCTMO1047322	Morphine sulfate 50mg/25ml solution for injection ampoules 1 ampoule
+^ESCTMO1047323	Morphine sulfate 50mg/25ml solution for injection ampoules (Special Order)
+^ESCTMO1047324	Morphine sulfate 50mg/25ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO1047325	Morphine sulfate 50mg/25ml solution for injection ampoules 10 ampoule
+^ESCTMO1047326	Morphine sulfate 50mg/25ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1047327	Morphine sulfate 60mg/30ml solution for injection vials
+^ESCTMO1047328	Morphine sulfate 60mg/30ml solution for injection vials 1 vial
+^ESCTMO1047329	Morphine sulfate 60mg/30ml solution for injection vials 10 vial
+^ESCTMO1047330	Morphine sulfate 60mg/30ml solution for injection vials (Special Order)
+^ESCTMO1047331	Morphine sulfate 60mg/30ml solution for injection vials (Special Order) 10 vial
+^ESCTMO1047332	Morphine sulfate 60mg/30ml solution for injection vials (Special Order) 1 vial
+^ESCTMO1047470	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes 39 pre-filled disposable injection
+^ESCTMO1047471	Morphine sulfate 50mg/50ml solution for infusion pre-filled syringes (Special Order) 39 pre-filled disposable injection
+^ESCTMO1047472	Morphine sulfate 300mg/10ml solution for injection ampoules 5 ampoule
+^ESCTMO1047473	Morphine sulfate 300mg/10ml solution for injection ampoules 10 ampoule
+^ESCTMO1047474	Morphine sulfate 300mg/10ml solution for injection ampoules (Special Order) 5 ampoule
+^ESCTMO1047475	Morphine sulfate 300mg/10ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1055724	Morphine sulfate 50mg/1ml solution for injection ampoules
+^ESCTMO1055726	Morphine sulfate 50mg/1ml solution for injection ampoules 1 ampoule
+^ESCTMO1055727	Morphine sulfate 50mg/1ml solution for injection ampoules 10 ampoule
+^ESCTMO1055728	Morphine sulfate 50mg/1ml solution for injection ampoules (Special Order)
+^ESCTMO1055729	Morphine sulfate 50mg/1ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO1055730	Morphine sulfate 50mg/1ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1055741	Morphine sulfate 2g/1litre / Cyclizine hydrochloride 2g/1litre infusion bags
+^ESCTMO1055742	Morphine sulfate 2g/1litre / Cyclizine hydrochloride 2g/1litre infusion bags 1 bag
+^ESCTMO1055743	Morphine sulfate 2g/1litre / Cyclizine hydrochloride 2g/1litre infusion bags 10 bag
+^ESCTMO1055746	Morphine sulfate 2g/1litre / Cyclizine hydrochloride 2g/1litre infusion bags (Special Order)
+^ESCTMO1055747	Morphine sulfate 2g/1litre / Cyclizine hydrochloride 2g/1litre infusion bags (Special Order) 1 bag
+^ESCTMO1055748	Morphine sulfate 2g/1litre / Cyclizine hydrochloride 2g/1litre infusion bags (Special Order) 10 bag
+^ESCTMO1056260	Morphine 0.1% in Intrasite gel (Special Order)
+^ESCTMO1056508	Morphine 0.1% in Intrasite gel
+^ESCTMO1056654	Morphine 0.1% in Intrasite gel 1 ml
+^ESCTMO1056655	Morphine 0.1% in Intrasite gel 10 ml
+^ESCTMO1056656	Morphine 0.1% in Intrasite gel (Special Order) 1 ml
+^ESCTMO1056657	Morphine 0.1% in Intrasite gel (Special Order) 10 ml
+^ESCTMO1056824	Morphgesic SR 10mg tablets (Waymade Healthcare Plc)
+^ESCTMO1056825	Morphgesic SR 10mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTMO1063091	Morphine 5mg/5ml nebuliser liquid ampoules
+^ESCTMO1063092	Morphine 5mg/5ml nebuliser liquid ampoules 1 ampoule
+^ESCTMO1063093	Morphine 5mg/5ml nebuliser liquid ampoules 10 ampoule
+^ESCTMO1063094	Morphine 5mg/5ml nebuliser liquid ampoules (Special Order)
+^ESCTMO1063095	Morphine 5mg/5ml nebuliser liquid ampoules (Special Order) 1 ampoule
+^ESCTMO1063096	Morphine 5mg/5ml nebuliser liquid ampoules (Special Order) 10 ampoule
+^ESCTMO1063097	Morphine sulfate 500mg/10ml solution for injection ampoules
+^ESCTMO1063098	Morphine sulfate 500mg/10ml solution for injection ampoules 1 ampoule
+^ESCTMO1063099	Morphine sulfate 500mg/10ml solution for injection ampoules 10 ampoule
+^ESCTMO1063100	Morphine sulfate 500mg/10ml solution for injection ampoules (Special Order)
+^ESCTMO1063101	Morphine sulfate 500mg/10ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO1063102	Morphine sulfate 500mg/10ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1063386	Morphine 0.2% in Intrasite gel 1 ml
+^ESCTMO1063387	Morphine 0.2% in Intrasite gel (Special Order)
+^ESCTMO1063388	Morphine 0.2% in Intrasite gel (Special Order) 1 ml
+^ESCTMO1064230	Morphine 0.2% in Intrasite gel
+^ESCTMO1066012	Morphine sulfate 10mg/1ml solution for injection ampoules (DE Pharmaceuticals)
+^ESCTMO1066013	Morphine sulfate 10mg/1ml solution for injection ampoules (DE Pharmaceuticals) 10 ampoule
+^ESCTMO1066014	Morphine sulfate 30mg/1ml solution for injection ampoules (DE Pharmaceuticals)
+^ESCTMO1066017	Morphine sulfate 30mg/1ml solution for injection ampoules (DE Pharmaceuticals) 10 ampoule
+^ESCTMO1066018	Morphine sulfate 10mg/5ml oral solution (DE Pharmaceuticals)
+^ESCTMO1066019	Morphine sulfate 10mg/5ml oral solution (DE Pharmaceuticals) 100 ml
+^ESCTMO1066020	Morphine sulfate 10mg/5ml oral solution (DE Pharmaceuticals) 300 ml
+^ESCTMO1066021	Morphine sulfate 10mg/5ml oral solution (DE Pharmaceuticals) 500 ml
+^ESCTMO1068499	Morphine sulfate 200micrograms/1ml solution for injection pre-filled syringes
+^ESCTMO1068500	Morphine sulfate 200micrograms/1ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTMO1068501	Morphine sulfate 200micrograms/1ml solution for injection pre-filled syringes 10 pre-filled disposable injection
+^ESCTMO1068503	Morphine sulfate 200micrograms/1ml solution for injection pre-filled syringes (Special Order)
+^ESCTMO1068505	Morphine sulfate 200micrograms/1ml solution for injection pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTMO1068506	Morphine sulfate 200micrograms/1ml solution for injection pre-filled syringes (Special Order) 10 pre-filled disposable injection
+^ESCTMO1107067	Morphine sulfate 40mg/1ml solution for injection ampoules
+^ESCTMO1107069	Morphine sulfate 40mg/1ml solution for injection ampoules 1 ampoule
+^ESCTMO1107070	Morphine sulfate 40mg/1ml solution for injection ampoules 10 ampoule
+^ESCTMO1107072	Morphine sulfate 40mg/1ml solution for injection ampoules (Special Order)
+^ESCTMO1107073	Morphine sulfate 40mg/1ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO1107078	Morphine sulfate 40mg/1ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTMO1109145	Morphine sulfate 3mg/50ml solution for infusion vials
+^ESCTMO1109146	Morphine sulfate 3mg/50ml solution for infusion vials 1 vial
+^ESCTMO1109147	Morphine sulfate 3mg/50ml solution for infusion vials 10 vial
+^ESCTMO1109148	Morphine sulfate 3mg/50ml solution for infusion vials (Special Order)
+^ESCTMO1109149	Morphine sulfate 3mg/50ml solution for infusion vials (Special Order) 1 vial
+^ESCTMO1109150	Morphine sulfate 3mg/50ml solution for infusion vials (Special Order) 10 vial
+^ESCTMO1118294	Morphine sulfate 10mg/5ml oral solution (Sigma Pharmaceuticals Plc)
+^ESCTMO1118295	Morphine sulfate 10mg/5ml oral solution (Sigma Pharmaceuticals Plc) 100 ml
+^ESCTMO1118296	Morphine sulfate 10mg/5ml oral solution (Sigma Pharmaceuticals Plc) 300 ml
+^ESCTMO1118297	Morphine sulfate 10mg/5ml oral solution (Sigma Pharmaceuticals Plc) 500 ml
+^ESCTMO1126715	Morphine sulfate 5mg/5ml solution for injection ampoules (Torbay Pharmaceuticals)
+^ESCTMO1126716	Morphine sulfate 5mg/5ml solution for injection ampoules (Torbay Pharmaceuticals) 10 ampoule
+^ESCTMO1126717	Morphine sulfate 10mg/10ml solution for injection ampoules (Torbay Pharmaceuticals)
+^ESCTMO1126718	Morphine sulfate 10mg/10ml solution for injection ampoules (Torbay Pharmaceuticals) 10 ampoule
+^ESCTMO1126719	Morphine sulfate 100mg/50ml solution for infusion vials 10 vial
+^ESCTMO1126720	Morphine sulfate 100mg/50ml solution for infusion vials (Torbay Pharmaceuticals)
+^ESCTMO1126721	Morphine sulfate 100mg/50ml solution for infusion vials (Torbay Pharmaceuticals) 10 vial
+^ESCTMO1127860	Morphine sulfate 1mg/1ml solution for injection ampoules (Torbay Pharmaceuticals)
+^ESCTMO1127861	Morphine sulfate 1mg/1ml solution for injection ampoules (Torbay Pharmaceuticals) 10 ampoule
+^ESCTMO1128320	Morphine sulfate 10mg/10ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTMO1128321	Morphine sulfate 10mg/10ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule
+^ESCTMO1134766	Morphine sulfate 2mg/20ml solution for injection pre-filled syringes
+^ESCTMO1134768	Morphine sulfate 2mg/20ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTMO1134769	Morphine sulfate 2mg/20ml solution for injection pre-filled syringes 49 pre-filled disposable injection
+^ESCTMO1134772	Morphine sulfate 2mg/20ml solution for injection pre-filled syringes (Special Order)
+^ESCTMO1134773	Morphine sulfate 2mg/20ml solution for injection pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTMO1134776	Morphine sulfate 2mg/20ml solution for injection pre-filled syringes (Special Order) 49 pre-filled disposable injection
+^ESCTMO1134779	Morphine sulfate 4mg/20ml solution for injection pre-filled syringes
+^ESCTMO1134780	Morphine sulfate 4mg/20ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTMO1134781	Morphine sulfate 4mg/20ml solution for injection pre-filled syringes 49 pre-filled disposable injection
+^ESCTMO1134782	Morphine sulfate 4mg/20ml solution for injection pre-filled syringes (Special Order)
+^ESCTMO1134784	Morphine sulfate 4mg/20ml solution for injection pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTMO1134786	Morphine sulfate 4mg/20ml solution for injection pre-filled syringes (Special Order) 49 pre-filled disposable injection
+^ESCTMO1134788	Morphine sulfate 800micrograms/20ml solution for injection pre-filled syringes
+^ESCTMO1134790	Morphine sulfate 800micrograms/20ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTMO1134791	Morphine sulfate 800micrograms/20ml solution for injection pre-filled syringes 49 pre-filled disposable injection
+^ESCTMO1134792	Morphine sulfate 800micrograms/20ml solution for injection pre-filled syringes (Special Order)
+^ESCTMO1134793	Morphine sulfate 800micrograms/20ml solution for injection pre-filled syringes (Special Order) 1 pre-filled disposable injection
+^ESCTMO1134794	Morphine sulfate 800micrograms/20ml solution for injection pre-filled syringes (Special Order) 49 pre-filled disposable injection
+^ESCTMO1142011	Morphine sulfate 10mg/5ml oral solution (Kent Pharmaceuticals Ltd)
+^ESCTMO1142012	Morphine sulfate 10mg/5ml oral solution (Kent Pharmaceuticals Ltd) 100 ml
+^ESCTMO1142013	Morphine sulfate 10mg/5ml oral solution (Kent Pharmaceuticals Ltd) 300 ml
+^ESCTMO1142014	Morphine sulfate 10mg/5ml oral solution (Kent Pharmaceuticals Ltd) 500 ml
+^ESCTMO1147805	Morphine sulfate 10mg/5ml oral solution (Wockhardt UK Ltd)
+^ESCTMO1147806	Morphine sulfate 10mg/5ml oral solution (Wockhardt UK Ltd) 100 ml
+^ESCTMO1147807	Morphine sulfate 10mg/5ml oral solution (Wockhardt UK Ltd) 300 ml
+^ESCTMO1147808	Morphine sulfate 10mg/5ml oral solution (Wockhardt UK Ltd) 500 ml
+^ESCTMO369614	Morphine
+^ESCTMO610154	Morphine sulfate 15mg suppositories
+^ESCTMO610155	Morphine sulfate 15mg suppository
+^ESCTMO610156	Morphine sulphate 15mg suppository
+^ESCTMO610157	Morphine sulphate 15mg suppositories
+^ESCTMO610158	Morphine sulfate 10mg suppositories
+^ESCTMO610159	Morphine sulphate 10mg suppository
+^ESCTMO610160	Morphine sulfate 10mg suppository
+^ESCTMO610161	Morphine sulphate 10mg suppositories
+^ESCTMO610162	Morphine sulfate 20mg suppositories
+^ESCTMO610163	Morphine sulfate 20mg suppository
+^ESCTMO610164	Morphine sulphate 20mg suppository
+^ESCTMO610165	Morphine sulphate 20mg suppositories
+^ESCTMO610166	Morphine sulphate 10mg/5mL oral unit dose vial
+^ESCTMO610167	Morphine sulfate 10mg/5mL oral unit dose vial
+^ESCTMO610168	Morphine sulphate 30mg/5mL oral unit dose vial
+^ESCTMO610169	Morphine sulfate 30mg/5mL oral unit dose vial
+^ESCTMO610170	Morphine sulphate 100mg/5mL oral unit dose vial
+^ESCTMO610171	Morphine sulfate 100mg/5mL oral unit dose vial
+^ESCTMO610172	Morphine sulfate 10mg/5ml oral solution
+^ESCTMO610173	Morphine sulfate 10mg/5mL oral solution
+^ESCTMO610174	Morphine sulphate 10mg/5mL oral solution
+^ESCTMO610175	Morphine sulphate 10mg/5ml oral solution
+^ESCTMO610176	Morphine sulphate 100mg/5mL oral solution
+^ESCTMO610177	Morphine sulfate 100mg/5mL oral solution
+^ESCTMO610178	Morphine sulphate 20mg/sachet granules for suspension
+^ESCTMO610179	Morphine sulfate 20mg/sachet granules for suspension
+^ESCTMO610180	Morphine sulphate 30mg/sachet granules for suspension
+^ESCTMO610181	Morphine sulfate 30mg/sachet granules for suspension
+^ESCTMO610182	Morphine hydrochloride 15mg suppositories
+^ESCTMO610183	Morphine hydrochloride 15mg suppository
+^ESCTMO610184	Morphine hydrochloride 30mg suppositories
+^ESCTMO610185	Morphine hydrochloride 30mg suppository
+^ESCTMO610186	Morphine hydrochloride powder
+^ESCTMO610188	Morphine sulfate powder
+^ESCTMO610189	Morphine sulphate powder
+^ESCTMO610190	Morphine sulfate 30mg suppositories
+^ESCTMO610191	Morphine sulfate 30mg suppository
+^ESCTMO610192	Morphine sulphate 30mg suppository
+^ESCTMO610193	Morphine sulphate 30mg suppositories
+^ESCTMO610196	Morphine analgesic elixirs
+^ESCTMO610197	Morphine and Cocaine elixir
+^ESCTMO610198	Morphine + cocaine elixir
+^ESCTMO610420	Morphine 10mg tablets
+^ESCTMO610422	Morphine sulfate 10 mg oral tablet
+^ESCTMO610423	Morphine 20mg tablets
+^ESCTMO610425	Morphine sulfate 20 mg oral tablet
+^ESCTMO610426	Morphine 5mg modified-release tablets
+^ESCTMO610427	Morphine sulfate 5mg m/r tablet
+^ESCTMO610428	Morphine sulphate 5mg m/r tablet
+^ESCTMO610429	Morphine 10mg modified-release tablets
+^ESCTMO610430	Morphine sulphate 10mg m/r tablet
+^ESCTMO610431	Morphine sulfate 10mg m/r tablet
+^ESCTMO610432	Morphine 15mg modified-release tablets
+^ESCTMO610433	Morphine sulfate 15mg m/r tablet
+^ESCTMO610434	Morphine sulphate 15mg m/r tablet
+^ESCTMO610435	Morphine 30mg modified-release tablets
+^ESCTMO610436	Morphine sulphate 30mg m/r tablet
+^ESCTMO610437	Morphine sulfate 30mg m/r tablet
+^ESCTMO610438	Morphine 60mg modified-release tablets
+^ESCTMO610439	Morphine sulfate 60mg m/r tablet
+^ESCTMO610440	Morphine sulphate 60mg m/r tablet
+^ESCTMO610441	Morphine 100mg modified-release tablets
+^ESCTMO610442	Morphine sulphate 100mg m/r tablet
+^ESCTMO610443	Morphine sulfate 100mg m/r tablet
+^ESCTMO610444	Morphine 200mg modified-release tablets
+^ESCTMO610445	Morphine sulfate 200mg m/r tablet
+^ESCTMO610446	Morphine sulphate 200mg m/r tablet
+^ESCTMO610447	Morphine sulphate 60mg/sachet granules for suspension
+^ESCTMO610448	Morphine sulfate 60mg/sachet granules for suspension
+^ESCTMO610449	Morphine sulphate 100mg/sachet granules for suspension
+^ESCTMO610450	Morphine sulfate 100mg/sachet granules for suspension
+^ESCTMO610451	Morphine sulphate 200mg/sachet granules for suspension
+^ESCTMO610452	Morphine sulfate 200mg/sachet granules for suspension
+^ESCTMO610453	Morphine 10mg modified-release capsules
+^ESCTMO610454	Morphine sulfate 10mg m/r capsule
+^ESCTMO610455	Morphine sulphate 10mg m/r capsule
+^ESCTMO610456	Morphine 30mg modified-release capsules
+^ESCTMO610457	Morphine sulphate 30mg m/r capsule
+^ESCTMO610458	Morphine sulfate 30mg m/r capsule
+^ESCTMO610459	Morphine 60mg modified-release capsules
+^ESCTMO610460	Morphine sulfate 60mg m/r capsule
+^ESCTMO610461	Morphine sulphate 60mg m/r capsule
+^ESCTMO610462	Morphine 100mg modified-release capsules
+^ESCTMO610463	Morphine sulphate 100mg m/r capsule
+^ESCTMO610464	Morphine sulfate 100mg m/r capsule
+^ESCTMO610465	Morphine 50mg tablets
+^ESCTMO610467	Morphine sulfate 50 mg oral tablet
+^ESCTMO610468	Morphine 90mg modified-release capsules
+^ESCTMO610469	Morphine sulphate 90mg m/r capsule
+^ESCTMO610470	Morphine sulfate 90mg m/r capsule
+^ESCTMO610471	Morphine 120mg modified-release capsules
+^ESCTMO610472	Morphine sulfate 120mg m/r capsule
+^ESCTMO610473	Morphine sulphate 120mg m/r capsule
+^ESCTMO610474	Morphine 150mg modified-release capsules
+^ESCTMO610475	Morphine sulphate 150mg m/r capsule
+^ESCTMO610476	Morphine sulfate 150mg m/r capsule
+^ESCTMO610477	Morphine 200mg modified-release capsules
+^ESCTMO610478	Morphine sulfate 200mg m/r capsule
+^ESCTMO610479	Morphine sulphate 200mg m/r capsule
+^ESCTMO610480	Morphine 20mg modified-release capsules
+^ESCTMO610481	Morphine sulphate 20mg m/r capsule
+^ESCTMO610482	Morphine sulfate 20mg m/r capsule
+^ESCTMO610483	Morphine 50mg modified-release capsules
+^ESCTMO610484	Morphine sulfate 50mg m/r capsule
+^ESCTMO610485	Morphine sulphate 50mg m/r capsule
+^ESCTMO610486	Morphine sulphate 50mg/50mL prefilled syringe
+^ESCTMO610487	Morphine sulfate 50mg/50mL prefilled syringe
+^ESCTMO610488	Morphine sulphate 100mg/50mL prefilled syringe
+^ESCTMO610489	Morphine sulfate 100mg/50mL prefilled syringe
+^ESCTMO610492	Morphine sulphate 50mg/50mL injection
+^ESCTMO610493	Morphine sulfate 50mg/50mL injection
+^ESCTMO610494	Morphine sulphate 100mg/50mL injection
+^ESCTMO610495	Morphine sulfate 100mg/50mL injection
+^ESCTMO610496	Morphine sulfate 20mg/ml oral solution sugar free
+^ESCTMO610497	Morphine sulphate 20mg/mL oral solution
+^ESCTMO610498	Morphine sulfate 20mg/mL concentrated oral solution
+^ESCTMO610499	Morphine sulphate 20mg/ml oral solution sugar free
+^ESCTMO610500	Morphine sulphate 35mg rectal tampon
+^ESCTMO610501	Morphine sulfate 35mg rectal tampon
+^ESCTMO610502	Morphine sulphate 50mg rectal tampon
+^ESCTMO610503	Morphine sulfate 50mg rectal tampon
+^ESCTMO610504	Morphine sulphate 75mg rectal tampon
+^ESCTMO610505	Morphine sulfate 75mg rectal tampon
+^ESCTMO610506	Morphine sulphate 100mg rectal tampon
+^ESCTMO610507	Morphine sulfate 100mg rectal tampon
+^ESCTMO616882	Morphine sulfate 20mg/1ml solution for injection ampoules
+^ESCTMO616883	Morphine sulphate 20mg/1mL injection
+^ESCTMO616884	Morphine sulfate 20mg/1mL injection
+^ESCTMO616885	Morphine sulphate 20mg/1ml solution for injection ampoules
+^ESCTMO616886	Morphine sulfate 30mg/1ml solution for injection ampoules
+^ESCTMO616887	Morphine sulfate 30mg/1mL injection
+^ESCTMO616888	Morphine sulphate 30mg/1mL injection
+^ESCTMO616889	Morphine sulphate 30mg/1ml solution for injection ampoules
+^ESCTMO616890	Morphine sulphate 20mg/2mL injection
+^ESCTMO616891	Morphine sulfate 20mg/2mL injection
+^ESCTMO616892	Morphine sulphate 30mg/2mL injection
+^ESCTMO616893	Morphine sulfate 30mg/2mL injection
+^ESCTMO616894	Morphine sulphate 40mg/2mL injection
+^ESCTMO616895	Morphine sulfate 40mg/2mL injection
+^ESCTMO616896	Morphine sulphate+atropine sulphate 10mg/600micrograms/1mL injection
+^ESCTMO616897	Morphine sulfate+atropine sulfate 10mg/600micrograms/1mL injection
+^ESCTMO617884	Morphine in parenteral dosage form
+^ESCTMO617886	Morphine in rectal dosage form
+^ESCTMO617888	Morphine tablets
+^ESCTMO618660	Morphine hydrochloride 10mg/mL oral solution
+^ESCTMO619320	Morphine in oral dosage form
+^ESCTMO619322	Morphine oral granules
+^ESCTMO619953	Morphine sulfate 10mg/1ml solution for injection ampoules
+^ESCTMO619954	Morphine sulphate 10mg/1mL injection
+^ESCTMO619955	Morphine sulfate 10mg/1mL injection
+^ESCTMO619956	Morphine sulphate 10mg/1ml solution for injection ampoules
+^ESCTMO619957	Morphine sulfate 15mg/1ml solution for injection ampoules
+^ESCTMO619958	Morphine sulfate 15mg/1mL injection
+^ESCTMO619959	Morphine sulphate 15mg/1mL injection
+^ESCTMO619960	Morphine sulphate 15mg/1ml solution for injection ampoules
+^ESCTMO619961	Morphine sulfate 60mg/2ml solution for injection ampoules
+^ESCTMO619962	Morphine sulphate 60mg/2mL injection
+^ESCTMO619963	Morphine sulfate 60mg/2mL injection
+^ESCTMO619964	Morphine sulphate 60mg/2ml solution for injection ampoules
+^ESCTMO620000	Morphine capsule
+^ESCTMO633909	Morphine sulfate 30 mg oral tablet
+^ESCTMO633911	Morphine sulphate 2mg/mL injection
+^ESCTMO633912	Morphine sulfate 2mg/mL injection
+^ESCTMO633913	Morphine sulphate 4mg/mL injection
+^ESCTMO633914	Morphine sulfate 4mg/mL injection
+^ESCTMO633915	Morphine sulphate 5mg/mL injection
+^ESCTMO633916	Morphine sulfate 5mg/mL injection
+^ESCTMO633917	Morphine sulphate 8mg/mL injection
+^ESCTMO633918	Morphine sulfate 8mg/mL injection
+^ESCTMO633919	Morphine sulphate 25mg/mL injection
+^ESCTMO633920	Morphine sulfate 25mg/mL injection
+^ESCTMO633921	Morphine sulphate 50mg/mL injection
+^ESCTMO633922	Morphine sulfate 50mg/mL injection
+^ESCTMO633923	Morphine sulfate 5mg suppositories
+^ESCTMO633924	Morphine sulfate 5mg suppository
+^ESCTMO633925	Morphine sulphate 5mg suppository
+^ESCTMO633926	Morphine sulphate 5mg suppositories
+^ESCTMO639367	Morphine sulphate 10mg/10 mL injection
+^ESCTMO639368	Morphine sulfate 10mg/10 mL injection
+^ESCTMO639369	Morphine sulphate 200mg/20 mL solution
+^ESCTMO639370	Morphine sulfate 200mg/20 mL solution
+^ESCTMO639371	Morphine sulphate 500mg/20 mL solution
+^ESCTMO639372	Morphine sulfate 500mg/20 mL solution
+^ESCTMO639523	Morphine sulfate 200 mg oral tablet
+^ESCTMO639525	Morphine sulfate 15 mg oral tablet
+^ESCTMO639527	Morphine sulfate 60 mg oral tablet
+^ESCTMO639529	Morphine sulphate 20mg/5mL solution
+^ESCTMO639530	Morphine sulfate 20mg/5mL solution
+^ESCTMO639531	Morphine sulfate 15 mg/1 each oral capsule
+^ESCTMO639533	Morphine sulfate 30 mg/1 each oral capsule
+^ESCTMO641698	Morphine sulphate 0.5mg/mL injection
+^ESCTMO641699	Morphine sulfate 0.5mg/mL injection
+^ESCTMO641700	Morphine sulphate 1mg/mL injection
+^ESCTMO641701	Morphine sulfate 1mg/mL injection
+^ESCTMO663825	Morphine sulphate 10mg/5ml oral solution sugar free 5ml unit dose vial
+^ESCTMO663826	Morphine sulfate 10mg/5mL oral solution sugar free 5mL unit dose vial
+^ESCTMO675231	Morphine sulphate 30mg/30mL injection
+^ESCTMO675232	Morphine sulfate 30mg/30mL injection
+^ESCTMO675411	Morphine sulphate 10mg/mL injection solution prefilled syringe
+^ESCTMO675412	Morphine sulphate 10mg/1mL prefilled syringe
+^ESCTMO675413	Morphine sulfate 10mg/1mL prefilled syringe
+^ESCTMO675414	Morphine sulfate 10mg/mL injection solution prefilled syringe
+^ESCTMO682503	Morphine sulphate 10mg/mL extended release liposome injection
+^ESCTMO682504	Morphine sulfate 10mg/mL extended release liposome injection
+^ESCTMO698387	Morphine + Cyclizine
+^ESCTMO699260	Morphine + Peppermint oil
+^ESCTMO699261	Morphine + peppermint oil
+^ESCTMO703997	Morphine + Cocaine
+^ESCTMO703998	Morphine + cocaine
+^ESCTMO704101	Morphine sulphate 80mg m/r capsule
+^ESCTMO704102	Morphine sulfate 80mg m/r capsule
+^ESCTMO728229	Morphine sulphate + naltrexone hydrochloride
+^ESCTMO728230	Morphine sulfate + naltrexone hydrochloride
+^ESCTMO729359	Morphine sulphate 100mg + naltrexone hydrochloride 4mg m/r capsule
+^ESCTMO729360	Morphine sulfate 100mg + naltrexone hydrochloride 4mg m/r capsule
+^ESCTMO729361	Morphine sulphate 20mg + naltrexone hydrochloride 800microgram m/r capsule
+^ESCTMO729362	Morphine sulfate 20mg + naltrexone hydrochloride 800microgram m/r capsule
+^ESCTMO729372	Morphine sulphate 30mg + naltrexone hydrochloride 1.2mg m/r capsule
+^ESCTMO729373	Morphine sulfate 30mg + naltrexone hydrochloride 1.2mg m/r capsule
+^ESCTMO729374	Morphine sulphate 50mg + naltrexone hydrochloride 2mg m/r capsule
+^ESCTMO729375	Morphine sulfate 50mg + naltrexone hydrochloride 2mg m/r capsule
+^ESCTMO729383	Morphine sulphate 60mg + naltrexone hydrochloride 2.4mg m/r capsule
+^ESCTMO729384	Morphine sulfate 60mg + naltrexone hydrochloride 2.4mg m/r capsule
+^ESCTMO729404	Morphine sulphate 80mg + naltrexone hydrochloride 3.2mg m/r capsule
+^ESCTMO729405	Morphine sulfate 80mg + naltrexone hydrochloride 3.2mg m/r capsule
+^ESCTMO841259	Morphine 200mg modified-release tablets 60 tablet
+^ESCTMO847382	Morphine 5mg modified-release tablets 60 tablet
+^ESCTMO848212	Morphine 100mg modified-release tablets 60 tablet
+^ESCTMO848314	Morphine 15mg modified-release tablets 60 tablet
+^ESCTMO848321	Morphine 60mg modified-release tablets 60 tablet
+^ESCTMO857865	Morphine 10mg tablets 56 tablet
+^ESCTMO859159	Morphine 10mg modified-release tablets 60 tablet
+^ESCTMO859164	Morphine 20mg tablets 56 tablet
+^ESCTMO859194	Morphine 30mg modified-release tablets 60 tablet
+^ESCTMO859198	Morphine 50mg tablets 56 tablet
+^ESCTMO859746	Morphine sulfate 10mg/5ml oral solution 100 ml
+^ESCTMO859747	Morphine sulfate 10mg/5ml oral solution 300 ml
+^ESCTMO859748	Morphine sulfate 10mg/5ml oral solution 500 ml
+^ESCTMO859749	Morphine sulfate 10mg/5ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTMO859750	Morphine sulfate 10mg/5ml oral solution (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTMO859755	Morphine sulfate 10mg/5ml oral solution (A A H Pharmaceuticals Ltd) 300 ml
+^ESCTMO859756	Morphine sulfate 10mg/5ml oral solution (A A H Pharmaceuticals Ltd) 500 ml
+^ESCTMO859767	Morphine sulfate 10mg/5ml oral solution (Martindale Pharmaceuticals Ltd)
+^ESCTMO859768	Morphine sulfate 10mg/5ml oral solution (Martindale Pharmaceuticals Ltd) 100 ml
+^ESCTMO859771	Morphine sulfate 10mg/5ml oral solution (Martindale Pharmaceuticals Ltd) 300 ml
+^ESCTMO859772	Morphine sulfate 10mg/5ml oral solution (Martindale Pharmaceuticals Ltd) 500 ml
+^ESCTMO861113	Morphine sulfate 10mg/5ml oral solution unit dose vials sugar free 20 unit dose
+^ESCTMO861979	Morphine sulfate 20mg/ml oral solution sugar free 30 ml
+^ESCTMO861981	Morphine sulfate 20mg/ml oral solution sugar free 120 ml
+^ESCTMO862337	Morphine sulfate 10mg/5ml oral solution unit dose vials sugar free
+^ESCTMO862730	Morphine sulfate 100mg/5ml oral solution unit dose vials sugar free 20 unit dose
+^ESCTMO862744	Morphine sulfate 30mg/5ml oral solution unit dose vials sugar free 20 unit dose
+^ESCTMO862933	Morphine sulfate 100mg/5ml oral solution unit dose vials sugar free
+^ESCTMO862934	Morphine sulfate 30mg/5ml oral solution unit dose vials sugar free
+^ESCTMO863121	Morphine 30mg modified-release capsules 60 capsule
+^ESCTMO863122	Morphine 30mg modified-release capsules 28 capsule
+^ESCTMO863127	Morphine 10mg modified-release capsules 60 capsule
+^ESCTMO864264	Morphine 60mg modified-release capsules 60 capsule
+^ESCTMO864265	Morphine 60mg modified-release capsules 28 capsule
+^ESCTMO865261	Morphine 100mg modified-release capsules 60 capsule
+^ESCTMO865262	Morphine 20mg modified-release capsules 60 capsule
+^ESCTMO865264	Morcap SR 20mg capsules (Hospira UK Ltd)
+^ESCTMO865267	Morcap SR 20mg capsules (Hospira UK Ltd) 60 capsule 6 x 10 capsules
+^ESCTMO865269	Morcap SR 100mg capsules (Hospira UK Ltd)
+^ESCTMO865270	Morcap SR 100mg capsules (Hospira UK Ltd) 60 capsule 6 x 10 capsules
+^ESCTMO865272	Morphine 90mg modified-release capsules 28 capsule
+^ESCTMO865275	Morphine 150mg modified-release capsules 28 capsule
+^ESCTMO865278	Morphine 120mg modified-release capsules 28 capsule
+^ESCTMO865284	Morphine tartrate 15mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules 5 ampoule
+^ESCTMO865288	Morphine tartrate 10mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules 5 ampoule
+^ESCTMO865410	Morphine tartrate 10mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules
+^ESCTMO865411	Morphine tartrate 15mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules
+^ESCTMO866593	Morphine 50mg modified-release capsules 60 capsule
+^ESCTMO866596	Morcap SR 50mg capsules (Hospira UK Ltd)
+^ESCTMO866598	Morcap SR 50mg capsules (Hospira UK Ltd) 60 capsule 6 x 10 capsules
+^ESCTMO866599	Morphine 200mg modified-release capsules 60 capsule
+^ESCTMO866604	Morphine sulfate 10mg suppositories 12 suppository
+^ESCTMO866606	Morphine sulfate 10mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCTMO866607	Morphine sulfate 10mg suppositories (A A H Pharmaceuticals Ltd) 12 suppository
+^ESCTMO866608	Morphine sulfate 10mg suppositories (Martindale Pharmaceuticals Ltd)
+^ESCTMO866610	Morphine sulfate 10mg suppositories (Martindale Pharmaceuticals Ltd) 12 suppository
+^ESCTMO866612	Morphine sulfate 10mg suppositories (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO866613	Morphine sulfate 10mg suppositories (Alliance Healthcare (Distribution) Ltd) 12 suppository
+^ESCTMO866616	Morphine sulfate 15mg suppositories 12 suppository
+^ESCTMO866619	Morphine sulfate 15mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCTMO866621	Morphine sulfate 15mg suppositories (A A H Pharmaceuticals Ltd) 12 suppository
+^ESCTMO866623	Morphine sulfate 15mg suppositories (Martindale Pharmaceuticals Ltd)
+^ESCTMO866625	Morphine sulfate 15mg suppositories (Martindale Pharmaceuticals Ltd) 12 suppository
+^ESCTMO866626	Morphine sulfate 15mg suppositories (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO866628	Morphine sulfate 15mg suppositories (Alliance Healthcare (Distribution) Ltd) 12 suppository
+^ESCTMO866631	Morphine sulfate 30mg suppositories 12 suppository
+^ESCTMO866634	Morphine sulfate 30mg suppositories (Aurum Pharmaceuticals Ltd)
+^ESCTMO866636	Morphine sulfate 30mg suppositories (Aurum Pharmaceuticals Ltd) 12 suppository
+^ESCTMO866639	Morphine sulfate 30mg suppositories (Martindale Pharmaceuticals Ltd)
+^ESCTMO866641	Morphine sulfate 30mg suppositories (Martindale Pharmaceuticals Ltd) 12 suppository
+^ESCTMO866643	Morphine sulfate 30mg suppositories (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO866644	Morphine sulfate 30mg suppositories (Alliance Healthcare (Distribution) Ltd) 12 suppository
+^ESCTMO866689	Morphine sulfate 15mg/1ml solution for injection ampoules 5 ampoule
+^ESCTMO866690	Morphine sulfate 15mg/1ml solution for injection ampoules 10 ampoule
+^ESCTMO866694	Morphine sulfate 15mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTMO866700	Morphine sulfate 15mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTMO866706	Morphine sulfate 15mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTMO866707	Morphine sulfate 15mg/1ml solution for injection ampoules (UCB Pharma Ltd)
+^ESCTMO866708	Morphine sulfate 15mg/1ml solution for injection ampoules (UCB Pharma Ltd) 5 ampoule
+^ESCTMO866711	Morphine sulfate 15mg/1ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTMO866712	Morphine sulfate 15mg/1ml solution for injection ampoules (Wockhardt UK Ltd) 10 ampoule
+^ESCTMO866714	Morphine sulfate 15mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTMO866716	Morphine sulfate 15mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTMO866719	Morphine sulfate 15mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO866723	Morphine sulfate 15mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCTMO866724	Morphine sulfate 30mg/1ml solution for injection ampoules 5 ampoule
+^ESCTMO866725	Morphine sulfate 30mg/1ml solution for injection ampoules 10 ampoule
+^ESCTMO866728	Morphine sulfate 30mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTMO866730	Morphine sulfate 30mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTMO866731	Morphine sulfate 30mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTMO866733	Morphine sulfate 30mg/1ml solution for injection ampoules (UCB Pharma Ltd)
+^ESCTMO866734	Morphine sulfate 30mg/1ml solution for injection ampoules (UCB Pharma Ltd) 5 ampoule
+^ESCTMO866736	Morphine sulfate 30mg/1ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTMO866737	Morphine sulfate 30mg/1ml solution for injection ampoules (Wockhardt UK Ltd) 10 ampoule
+^ESCTMO866738	Morphine sulfate 30mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTMO866739	Morphine sulfate 30mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTMO866740	Morphine sulfate 30mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO866742	Morphine sulfate 30mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCTMO867117	Morphine 60mg modified-release granules sachets sugar free 30 sachet
+^ESCTMO867120	Morphine 100mg modified-release granules sachets sugar free 30 sachet
+^ESCTMO867126	Morphine 200mg modified-release granules sachets sugar free 30 sachet
+^ESCTMO867273	Morphine 100mg modified-release granules sachets sugar free
+^ESCTMO867274	Morphine 200mg modified-release granules sachets sugar free
+^ESCTMO867275	Morphine 60mg modified-release granules sachets sugar free
+^ESCTMO868564	Morphine sulfate 30mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCTMO868565	Morphine sulfate 30mg suppositories (A A H Pharmaceuticals Ltd) 12 suppository
+^ESCTMO868712	Morphine sulfate powder 2 gram
+^ESCTMO868715	Morphine sulfate powder 5 gram
+^ESCTMO868718	Morphine sulfate powder 25 gram
+^ESCTMO868721	Morphine sulfate powder (A A H Pharmaceuticals Ltd)
+^ESCTMO868725	Morphine sulfate powder (A A H Pharmaceuticals Ltd) 5 gram
+^ESCTMO868729	Morphine sulfate powder (A A H Pharmaceuticals Ltd) 25 gram
+^ESCTMO868733	Morphine sulfate powder (Martindale Pharmaceuticals Ltd)
+^ESCTMO868734	Morphine sulfate powder (Martindale Pharmaceuticals Ltd) 2 gram
+^ESCTMO868735	Morphine sulfate powder (Martindale Pharmaceuticals Ltd) 5 gram
+^ESCTMO868737	Morphine sulfate powder (Martindale Pharmaceuticals Ltd) 25 gram
+^ESCTMO868739	Morphine sulfate powder (Thornton & Ross Ltd)
+^ESCTMO868741	Morphine sulfate powder (Thornton & Ross Ltd) 5 gram
+^ESCTMO868746	Morphine sulfate powder (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO868748	Morphine sulfate powder (Alliance Healthcare (Distribution) Ltd) 2 gram
+^ESCTMO868750	Morphine sulfate powder (Alliance Healthcare (Distribution) Ltd) 5 gram
+^ESCTMO868752	Morphine sulfate powder (Alliance Healthcare (Distribution) Ltd) 25 gram
+^ESCTMO868781	Morphine hydrochloride powder 2 gram
+^ESCTMO868782	Morphine hydrochloride powder 5 gram
+^ESCTMO868783	Morphine hydrochloride powder 25 gram
+^ESCTMO868784	Morphine hydrochloride powder (A A H Pharmaceuticals Ltd)
+^ESCTMO868785	Morphine hydrochloride powder (A A H Pharmaceuticals Ltd) 2 gram
+^ESCTMO868786	Morphine hydrochloride powder (A A H Pharmaceuticals Ltd) 5 gram
+^ESCTMO868787	Morphine hydrochloride powder (A A H Pharmaceuticals Ltd) 25 gram
+^ESCTMO868788	Morphine hydrochloride powder (Martindale Pharmaceuticals Ltd)
+^ESCTMO868789	Morphine hydrochloride powder (Martindale Pharmaceuticals Ltd) 5 gram
+^ESCTMO868790	Morphine hydrochloride powder (Martindale Pharmaceuticals Ltd) 25 gram
+^ESCTMO868791	Morphine hydrochloride powder (Thornton & Ross Ltd)
+^ESCTMO868793	Morphine hydrochloride powder (Thornton & Ross Ltd) 5 gram
+^ESCTMO868795	Morphine hydrochloride powder (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO868796	Morphine hydrochloride powder (Alliance Healthcare (Distribution) Ltd) 2 gram
+^ESCTMO868798	Morphine hydrochloride powder (Alliance Healthcare (Distribution) Ltd) 5 gram
+^ESCTMO868799	Morphine hydrochloride powder (Alliance Healthcare (Distribution) Ltd) 25 gram
+^ESCTMO869349	Morphine 1mg/5ml / Peppermint oil 1.5microlitres/5ml oral solution 100 ml
+^ESCTMO869350	Morphine 1mg/5ml / Peppermint oil 1.5microlitres/5ml oral solution 45 ml
+^ESCTMO869388	Morphine 1mg/5ml / Peppermint oil 1.5microlitres/5ml oral solution
+^ESCTMO869490	Morphine 20mg modified-release granules sachets sugar free 30 sachet
+^ESCTMO869497	Morphine 30mg modified-release granules sachets sugar free 30 sachet
+^ESCTMO869523	Morphine sulfate 10mg/1ml solution for injection ampoules 5 ampoule
+^ESCTMO869524	Morphine sulfate 10mg/1ml solution for injection ampoules 10 ampoule
+^ESCTMO869525	Morphine sulfate 10mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTMO869526	Morphine sulfate 10mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTMO869527	Morphine sulfate 10mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTMO869528	Morphine sulfate 10mg/1ml solution for injection ampoules (UCB Pharma Ltd)
+^ESCTMO869529	Morphine sulfate 10mg/1ml solution for injection ampoules (UCB Pharma Ltd) 5 ampoule
+^ESCTMO869530	Morphine sulfate 10mg/1ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTMO869531	Morphine sulfate 10mg/1ml solution for injection ampoules (Wockhardt UK Ltd) 10 ampoule
+^ESCTMO869532	Morphine sulfate 10mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTMO869533	Morphine sulfate 10mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTMO869534	Morphine sulfate 10mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO869535	Morphine sulfate 10mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCTMO869577	Morphine 200mg modified-release capsules 28 capsule
+^ESCTMO869593	Morphine 20mg modified-release granules sachets sugar free
+^ESCTMO869594	Morphine 30mg modified-release granules sachets sugar free
+^ESCTMO870195	Morphine sulfate 60mg/2ml solution for injection ampoules 5 ampoule
+^ESCTMO870200	Morphine sulfate 60mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTMO870201	Morphine sulfate 60mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTMO870203	Morphine sulfate 60mg/2ml solution for injection ampoules (UCB Pharma Ltd)
+^ESCTMO870206	Morphine sulfate 60mg/2ml solution for injection ampoules (UCB Pharma Ltd) 5 ampoule
+^ESCTMO870208	Morphine sulfate 60mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTMO870210	Morphine sulfate 60mg/2ml solution for injection ampoules (Wockhardt UK Ltd) 5 ampoule
+^ESCTMO870213	Morphine sulfate 60mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO870214	Morphine sulfate 60mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCTMO870220	Morphine sulfate 20mg/1ml solution for injection ampoules 10 ampoule
+^ESCTMO870222	Morphine sulfate 20mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTMO870224	Morphine sulfate 20mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTMO870227	Morphine sulfate 20mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTMO870228	Morphine sulfate 20mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTMO870623	Morphgesic SR 10mg tablets (AMCo)
+^ESCTMO870624	Morphine sulfate 20mg suppositories 12 suppository
+^ESCTMO870625	Morphgesic SR 10mg tablets (AMCo) 60 tablet 3 x 20 tablets
+^ESCTMO870626	Morphine sulfate 20mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCTMO870629	Morphine sulfate 20mg suppositories (A A H Pharmaceuticals Ltd) 12 suppository
+^ESCTMO870630	Morphine sulfate 20mg suppositories (Martindale Pharmaceuticals Ltd)
+^ESCTMO870631	Morphine sulfate 20mg suppositories (Martindale Pharmaceuticals Ltd) 12 suppository
+^ESCTMO870632	Morphgesic SR 30mg tablets (AMCo)
+^ESCTMO870633	Morphgesic SR 30mg tablets (AMCo) 60 tablet 3 x 20 tablets
+^ESCTMO870636	Morphgesic SR 60mg tablets (AMCo)
+^ESCTMO870637	Morphgesic SR 60mg tablets (AMCo) 60 tablet 3 x 20 tablets
+^ESCTMO870643	Morphgesic SR 100mg tablets (AMCo)
+^ESCTMO870645	Morphgesic SR 100mg tablets (AMCo) 60 tablet 3 x 20 tablets
+^ESCTMO874277	Morphine hydrochloride 15mg suppositories 12 suppository
+^ESCTMO874279	Morphine hydrochloride 15mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCTMO874281	Morphine hydrochloride 15mg suppositories (A A H Pharmaceuticals Ltd) 12 suppository
+^ESCTMO876630	Morphine and Cocaine elixir 200 ml
+^ESCTMO901203	Morphine tartrate 15mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTMO901204	Morphine tartrate 15mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules 10 ampoule
+^ESCTMO901205	Morphine tartrate 15mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTMO901206	Morphine tartrate 10mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTMO901207	Morphine tartrate 10mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules 10 ampoule
+^ESCTMO901208	Morphine tartrate 10mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTMO903822	Morphine and Cocaine elixir (Extemp Order)
+^ESCTMO903823	Morphine and Cocaine elixir (Extemp Order) 200 ml
+^ESCTMO905813	Morphine sulfate 10mg/1ml solution for injection ampoules (UCB Pharma Ltd) 10 ampoule
+^ESCTMO905816	Morphine sulfate 15mg/1ml solution for injection ampoules (UCB Pharma Ltd) 10 ampoule
+^ESCTMO905819	Morphine sulfate 30mg/1ml solution for injection ampoules (UCB Pharma Ltd) 10 ampoule
+^ESCTMO906239	Morphine sulfate 20mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO906243	Morphine sulfate 20mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTMO906291	Morphine tartrate 10mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTMO906293	Morphine tartrate 10mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTMO906298	Morphine tartrate 15mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTMO906301	Morphine tartrate 15mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTMO909926	Morphine sulfate 30mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTMO918331	Morphgesic SR
+^ESCTMO919318	Morcap SR
+^ESCTMO923123	Morphine sulfate 10mg/10ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTMO923124	Morphine sulfate 10mg/10ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd)
+^ESCTMO923125	Morphine sulfate 10mg/10ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd) 1 pre-filled disposable injection
+^ESCTMO923154	Morphine sulfate 10mg/10ml solution for injection pre-filled syringes
+^ESCTMO923263	Morphine tartrate 10mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO923264	Morphine tartrate 10mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTMO923265	Morphine tartrate 15mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO923266	Morphine tartrate 15mg/1ml / Cyclizine tartrate 50mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTMO923267	Morphine sulfate 10mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO923268	Morphine sulfate 10mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTMO923269	Morphine sulfate 10mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 300 ml
+^ESCTMO923270	Morphine sulfate 10mg/5ml oral solution (Alliance Healthcare (Distribution) Ltd) 500 ml
+^ESCTMO923271	Morphine sulfate 20mg suppositories (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO923272	Morphine sulfate 20mg suppositories (Alliance Healthcare (Distribution) Ltd) 12 suppository
+^ESCTMO925837	Morphine sulfate 10mg/1ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTMO925838	Morphine sulfate 10mg/1ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+^ESCTMO925839	Morphine sulfate 10mg/1ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd) 1 pre-filled disposable injection
+^ESCTMO925840	Morphine sulfate 10mg/1ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+^ESCTMO925841	Morphine sulfate 10mg/1ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd) 1 pre-filled disposable injection
+^ESCTMO925869	Morphine sulfate 100mg/50ml solution for infusion vials 1 vial
+^ESCTMO925870	Morphine sulfate 100mg/50ml solution for infusion vials (Martindale Pharmaceuticals Ltd)
+^ESCTMO925871	Morphine sulfate 100mg/50ml solution for infusion vials (Martindale Pharmaceuticals Ltd) 1 vial
+^ESCTMO925872	Morphine sulfate 50mg/50ml solution for infusion vials 1 vial
+^ESCTMO925873	Morphine sulfate 50mg/50ml solution for infusion vials (Martindale Pharmaceuticals Ltd)
+^ESCTMO925874	Morphine sulfate 50mg/50ml solution for infusion vials (Martindale Pharmaceuticals Ltd) 1 vial
+^ESCTMO925875	Morphine sulfate 50mg/50ml solution for infusion vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO925876	Morphine sulfate 50mg/50ml solution for infusion vials (Alliance Healthcare (Distribution) Ltd) 1 vial
+^ESCTMO925925	Morphine sulfate 10mg/1ml solution for injection pre-filled syringes
+^ESCTMO926936	Morphine sulfate 100mg/50ml solution for infusion vials
+^ESCTMO926937	Morphine sulfate 50mg/50ml solution for infusion vials
+^ESCTMO931566	Morphine sulfate 10mg/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTMO931568	Morphine sulfate 10mg/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule 2 x 5 x 1ml ampoules
+^ESCTMO939521	Morphine and Cocaine elixir 1 ml
+^ESCTMO939523	Morphine and Cocaine elixir (Special Order)
+^ESCTMO939524	Morphine and Cocaine elixir (Special Order) 1 ml
+^ESCTMO946595	Morphine hydrochloride 1.5mg/5ml oral solution 1 ml
+^ESCTMO946596	Morphine hydrochloride 1.5mg/5ml oral solution (Special Order)
+^ESCTMO946597	Morphine hydrochloride 1.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946598	Morphine hydrochloride 100mg/5ml oral solution 1 ml
+^ESCTMO946600	Morphine hydrochloride 100mg/5ml oral solution (Special Order)
+^ESCTMO946601	Morphine hydrochloride 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946603	Morphine hydrochloride 10mg/5ml oral solution 1 ml
+^ESCTMO946604	Morphine hydrochloride 10mg/5ml oral solution (Special Order)
+^ESCTMO946605	Morphine hydrochloride 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946606	Morphine hydrochloride 15mg/5ml oral solution 1 ml
+^ESCTMO946607	Morphine hydrochloride 15mg/5ml oral solution (Special Order)
+^ESCTMO946608	Morphine hydrochloride 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946609	Morphine hydrochloride 25mg/5ml oral solution 1 ml
+^ESCTMO946610	Morphine hydrochloride 25mg/5ml oral solution (Special Order)
+^ESCTMO946611	Morphine hydrochloride 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946613	Morphine hydrochloride 50mg/5ml oral solution 1 ml
+^ESCTMO946614	Morphine hydrochloride 50mg/5ml oral solution (Special Order)
+^ESCTMO946615	Morphine hydrochloride 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946616	Morphine hydrochloride 5mg/5ml oral solution 1 ml
+^ESCTMO946617	Morphine hydrochloride 5mg/5ml oral solution (Special Order)
+^ESCTMO946618	Morphine hydrochloride 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946698	Morphine hydrochloride 1.5mg/5ml oral solution
+^ESCTMO946699	Morphine hydrochloride 100mg/5ml oral solution
+^ESCTMO946700	Morphine hydrochloride 10mg/5ml oral solution
+^ESCTMO946701	Morphine hydrochloride 15mg/5ml oral solution
+^ESCTMO946702	Morphine hydrochloride 25mg/5ml oral solution
+^ESCTMO946703	Morphine hydrochloride 50mg/5ml oral solution
+^ESCTMO946704	Morphine hydrochloride 5mg/5ml oral solution
+^ESCTMO946717	Morphine sulfate 80mg/5ml oral solution 1 ml
+^ESCTMO946718	Morphine sulfate 80mg/5ml oral solution (Special Order)
+^ESCTMO946719	Morphine sulfate 80mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946720	Morphine sulfate 75mg/5ml oral solution 1 ml
+^ESCTMO946721	Morphine sulfate 75mg/5ml oral solution (Special Order)
+^ESCTMO946722	Morphine sulfate 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946723	Morphine sulfate 60mg/5ml oral solution 1 ml
+^ESCTMO946724	Morphine sulfate 60mg/5ml oral solution (Special Order)
+^ESCTMO946725	Morphine sulfate 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946726	Morphine sulfate 5mg/5ml oral solution 1 ml
+^ESCTMO946727	Morphine sulfate 5mg/5ml oral solution (Special Order)
+^ESCTMO946728	Morphine sulfate 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946729	Morphine sulfate 5mg/5ml oral solution
+^ESCTMO946730	Morphine sulfate 60mg/5ml oral solution
+^ESCTMO946731	Morphine sulfate 75mg/5ml oral solution
+^ESCTMO946732	Morphine sulfate 80mg/5ml oral solution
+^ESCTMO946734	Morphine sulfate 50mg/5ml oral solution 1 ml
+^ESCTMO946735	Morphine sulfate 50mg/5ml oral solution (Special Order)
+^ESCTMO946736	Morphine sulfate 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946737	Morphine sulfate 50mg/5ml oral solution
+^ESCTMO946770	Morphine sulfate 40mg/5ml oral solution 1 ml
+^ESCTMO946771	Morphine sulfate 40mg/5ml oral solution (Special Order)
+^ESCTMO946772	Morphine sulfate 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946773	Morphine sulfate 3mg/5ml oral solution 1 ml
+^ESCTMO946774	Morphine sulfate 3mg/5ml oral solution (Special Order)
+^ESCTMO946775	Morphine sulfate 3mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946780	Morphine sulfate 30mg/5ml oral solution (Special Order)
+^ESCTMO946781	Morphine sulfate 30mg/5ml oral solution 1 ml
+^ESCTMO946782	Morphine sulfate 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946799	Morphine sulfate 3.35mg/5ml oral solution 1 ml
+^ESCTMO946800	Morphine sulfate 3.35mg/5ml oral solution (Special Order)
+^ESCTMO946801	Morphine sulfate 3.35mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946802	Morphine sulfate 2mg/5ml oral solution 1 ml
+^ESCTMO946803	Morphine sulfate 2mg/5ml oral solution (Special Order)
+^ESCTMO946805	Morphine sulfate 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946811	Morphine sulfate 1mg/5ml oral solution 1 ml
+^ESCTMO946813	Morphine sulfate 1mg/5ml oral solution (Special Order)
+^ESCTMO946815	Morphine sulfate 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO946820	Morphine sulfate 1g/5ml oral solution 1 ml
+^ESCTMO946823	Morphine sulfate 1g/5ml oral solution (Special Order)
+^ESCTMO946827	Morphine sulfate 1g/5ml oral solution (Special Order) 1 ml
+^ESCTMO946842	Morphine sulfate 1.5mg/5ml oral solution 1 ml
+^ESCTMO946849	Morphine sulfate 1.5mg/5ml oral solution (Special Order)
+^ESCTMO946852	Morphine sulfate 1.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO947141	Morphine sulfate 1.5mg/5ml oral solution
+^ESCTMO947142	Morphine sulfate 1g/5ml oral solution
+^ESCTMO947143	Morphine sulfate 1mg/5ml oral solution
+^ESCTMO947144	Morphine sulfate 2mg/5ml oral solution
+^ESCTMO947145	Morphine sulfate 3.35mg/5ml oral solution
+^ESCTMO947146	Morphine sulfate 30mg/5ml oral solution
+^ESCTMO947147	Morphine sulfate 3mg/5ml oral solution
+^ESCTMO947148	Morphine sulfate 40mg/5ml oral solution
+^ESCTMO947299	Morphine sulfate 20mg/5ml oral solution 1 ml
+^ESCTMO947300	Morphine sulfate 20mg/5ml oral solution (Special Order)
+^ESCTMO947301	Morphine sulfate 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTMO947401	Morphine sulfate 20mg/5ml oral solution
+^ESCTMO947964	Morphine sulfate 500micrograms/5ml oral solution 1 ml
+^ESCTMO947965	Morphine sulfate 500micrograms/5ml oral solution (Special Order)
+^ESCTMO947966	Morphine sulfate 500micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTMO948521	Morphine sulfate 500micrograms/5ml oral solution
+^ESCTMO948714	Morphine hydrochloride 10mg suppositories 1 suppository
+^ESCTMO948715	Morphine hydrochloride 10mg suppositories (Special Order)
+^ESCTMO948716	Morphine hydrochloride 10mg suppositories (Special Order) 1 suppository
+^ESCTMO948719	Morphine hydrochloride 30mg suppositories 1 suppository
+^ESCTMO948720	Morphine hydrochloride 30mg suppositories (Special Order)
+^ESCTMO948722	Morphine hydrochloride 30mg suppositories (Special Order) 1 suppository
+^ESCTMO948726	Morphine 200mg capsules 1 capsule
+^ESCTMO948727	Morphine 200mg capsules (Special Order)
+^ESCTMO948729	Morphine 200mg capsules (Special Order) 1 capsule
+^ESCTMO948731	Morphine 30mg capsules 1 capsule
+^ESCTMO948732	Morphine 30mg capsules (Special Order)
+^ESCTMO948734	Morphine 30mg capsules (Special Order) 1 capsule
+^ESCTMO948737	Morphine 60mg capsules 1 capsule
+^ESCTMO948739	Morphine 60mg capsules (Special Order)
+^ESCTMO948740	Morphine 60mg capsules (Special Order) 1 capsule
+^ESCTMO948777	Morphine sulfate 10mg/2ml solution for injection ampoules 1 ampoule
+^ESCTMO948778	Morphine sulfate 10mg/2ml solution for injection ampoules (Special Order)
+^ESCTMO948780	Morphine sulfate 10mg/2ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO948783	Morphine sulfate 2.5mg/5ml solution for injection ampoules 1 ampoule
+^ESCTMO948784	Morphine sulfate 2.5mg/5ml solution for injection ampoules (Special Order)
+^ESCTMO948785	Morphine sulfate 2.5mg/5ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO948802	Morphine sulfate 2mg/10ml solution for injection ampoules 1 ampoule
+^ESCTMO948805	Morphine sulfate 2mg/10ml solution for injection ampoules (Special Order)
+^ESCTMO948806	Morphine sulfate 2mg/10ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO948809	Morphine sulfate 20mg/2ml solution for injection ampoules 1 ampoule
+^ESCTMO948812	Morphine sulfate 20mg/2ml solution for injection ampoules (Special Order)
+^ESCTMO948813	Morphine sulfate 20mg/2ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO948815	Morphine sulfate 2mg/5ml solution for injection ampoules 1 ampoule
+^ESCTMO948816	Morphine sulfate 2mg/5ml solution for injection ampoules (Special Order)
+^ESCTMO948817	Morphine sulfate 2mg/5ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO948818	Morphine sulfate 4mg/10ml solution for injection ampoules 1 ampoule
+^ESCTMO948820	Morphine sulfate 4mg/10ml solution for injection ampoules (Special Order)
+^ESCTMO948821	Morphine sulfate 4mg/10ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO948822	Morphine sulfate 5mg/10ml solution for injection ampoules 1 ampoule
+^ESCTMO948823	Morphine sulfate 5mg/10ml solution for injection ampoules (Special Order)
+^ESCTMO948824	Morphine sulfate 5mg/10ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO948825	Morphine sulfate 5mg/1ml solution for injection ampoules 1 ampoule
+^ESCTMO948826	Morphine sulfate 5mg/1ml solution for injection ampoules (Special Order)
+^ESCTMO948827	Morphine sulfate 5mg/1ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO948828	Morphine sulfate 5mg/5ml solution for injection ampoules 1 ampoule
+^ESCTMO948829	Morphine sulfate 5mg/5ml solution for injection ampoules (Special Order)
+^ESCTMO948830	Morphine sulfate 5mg/5ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTMO948835	Morphine sulfate 100mg suppositories 1 suppository
+^ESCTMO948836	Morphine sulfate 100mg suppositories (Special Order)
+^ESCTMO948839	Morphine sulfate 100mg suppositories (Special Order) 1 suppository
+^ESCTMO948843	Morphine sulfate 2.5mg suppositories 1 suppository
+^ESCTMO948844	Morphine sulfate 2.5mg suppositories (Special Order)
+^ESCTMO948845	Morphine sulfate 2.5mg suppositories (Special Order) 1 suppository
+^ESCTMO948846	Morphine sulfate 50mg suppositories 1 suppository
+^ESCTMO948847	Morphine sulfate 50mg suppositories (Special Order)
+^ESCTMO948848	Morphine sulfate 50mg suppositories (Special Order) 1 suppository
+^ESCTMO948849	Morphine sulfate 5mg suppositories 1 suppository
+^ESCTMO948850	Morphine sulfate 5mg suppositories (Special Order)
+^ESCTMO948851	Morphine sulfate 5mg suppositories (Special Order) 1 suppository
+^ESCTMO948852	Morphine sulfate 60mg suppositories 1 suppository
+^ESCTMO948853	Morphine sulfate 60mg suppositories (Special Order)
+^ESCTMO948854	Morphine sulfate 60mg suppositories (Special Order) 1 suppository
+^ESCTMO948855	Morphine sulfate 750mg suppositories 1 suppository
+^ESCTMO948856	Morphine sulfate 750mg suppositories (Special Order)
+^ESCTMO948857	Morphine sulfate 750mg suppositories (Special Order) 1 suppository
+^ESCTMO949213	Morphine 200mg capsules
+^ESCTMO949214	Morphine 30mg capsules
+^ESCTMO949215	Morphine 60mg capsules
+^ESCTMO949216	Morphine hydrochloride 10mg suppositories
+^ESCTMO949217	Morphine sulfate 100mg suppositories
+^ESCTMO949219	Morphine sulfate 10mg/2ml solution for injection ampoules
+^ESCTMO949220	Morphine sulfate 2.5mg suppositories
+^ESCTMO949221	Morphine sulfate 2.5mg/5ml solution for injection ampoules
+^ESCTMO949222	Morphine sulfate 20mg/2ml solution for injection ampoules
+^ESCTMO949223	Morphine sulfate 2mg/10ml solution for injection ampoules
+^ESCTMO949224	Morphine sulfate 2mg/5ml solution for injection ampoules
+^ESCTMO949225	Morphine sulfate 4mg/10ml solution for injection ampoules
+^ESCTMO949226	Morphine sulfate 50mg suppositories
+^ESCTMO949227	Morphine sulfate 5mg/10ml solution for injection ampoules
+^ESCTMO949228	Morphine sulfate 5mg/1ml solution for injection ampoules
+^ESCTMO949229	Morphine sulfate 5mg/5ml solution for injection ampoules
+^ESCTMO949230	Morphine sulfate 60mg suppositories
+^ESCTMO949231	Morphine sulfate 750mg suppositories
+^ESCTMO979682	Morphine hydrochloride powder (Sigma Pharmaceuticals Plc)
+^ESCTMO979683	Morphine hydrochloride powder (Sigma Pharmaceuticals Plc) 2 gram
+^ESCTMO979684	Morphine hydrochloride powder (Sigma Pharmaceuticals Plc) 5 gram
+^ESCTMO979685	Morphine hydrochloride powder (Sigma Pharmaceuticals Plc) 25 gram
+^ESCTMO979686	Morphine 100mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTMO979687	Morphine 100mg modified-release tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTMO979688	Morphine 10mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTMO979689	Morphine 10mg modified-release tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTMO979690	Morphine 30mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTMO979691	Morphine 30mg modified-release tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTMO979692	Morphine 60mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTMO979693	Morphine 60mg modified-release tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTMO979694	Morphine sulfate powder (Sigma Pharmaceuticals Plc)
+^ESCTMO979695	Morphine sulfate powder (Sigma Pharmaceuticals Plc) 25 gram
+^ESCTMO979696	Morphine sulfate powder (Sigma Pharmaceuticals Plc) 2 gram
+^ESCTMO979697	Morphine sulfate powder (Sigma Pharmaceuticals Plc) 5 gram
+^ESCTMO979825	Morphine sulfate 100mg/50ml solution for infusion vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO979826	Morphine sulfate 100mg/50ml solution for infusion vials (Alliance Healthcare (Distribution) Ltd) 1 vial
+^ESCTMO979827	Morphine sulfate 10mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule 2 x 5 x 1ml ampoules
+^ESCTMO979828	Morphine sulfate 15mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTMO981501	Morphine sulfate 10mg/1ml suspension for injection vials
+^ESCTMO981502	Morphine sulfate 10mg/1ml suspension for injection vials 5 vial
+^ESCTMO994001	Morphine 10mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTMO994002	Morphine 10mg modified-release tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTMO994003	Morphine 30mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTMO994004	Morphine 30mg modified-release tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTMO994005	Morphine 60mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTMO994006	Morphine 60mg modified-release tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTMO994007	Morphine 100mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTMO994008	Morphine 100mg modified-release tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTMO994009	Morphine 200mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTMO994010	Morphine 200mg modified-release tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTMO999379	Morphine sulfate 30mg/30ml solution for infusion vials 10 vial
+^ESCTMO999380	Morphine sulfate 30mg/30ml solution for infusion vials (South Devon Healthcare)
+^ESCTMO999381	Morphine sulfate 30mg/30ml solution for infusion vials (South Devon Healthcare) 10 vial
+^ESCTMO999543	Morphine sulfate 30mg/30ml solution for infusion vials
+^ESCTMS808223	MST Continus 15mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTMS813250	MST Continus 200mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTMS833140	MST Continus 5mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTMS853932	MST Continus 15mg tablets (Napp Pharmaceuticals Ltd) 60 tablet 2 x 30 tablets
+^ESCTMS853935	MST Continus 5mg tablets (Napp Pharmaceuticals Ltd) 60 tablet 2 x 30 tablets
+^ESCTMS853940	MST Continus 200mg tablets (Napp Pharmaceuticals Ltd) 60 tablet 4 x 15 tablets
+^ESCTMS857723	MST Continus 60mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTMS857724	MST Continus 60mg tablets (Napp Pharmaceuticals Ltd) 60 tablet 2 x 30 tablets
+^ESCTMS857725	MST Continus 100mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTMS857726	MST Continus 100mg tablets (Napp Pharmaceuticals Ltd) 60 tablet 2 x 30 tablets
+^ESCTMS859185	MST Continus 10mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTMS859187	MST Continus 10mg tablets (Napp Pharmaceuticals Ltd) 60 tablet 2 x 30 tablets
+^ESCTMS859195	MST Continus 30mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTMS859196	MST Continus 30mg tablets (Napp Pharmaceuticals Ltd) 60 tablet 2 x 30 tablets
+^ESCTMS867118	MST Continus Suspension 60mg granules sachets (Napp Pharmaceuticals Ltd)
+^ESCTMS867119	MST Continus Suspension 60mg granules sachets (Napp Pharmaceuticals Ltd) 30 sachet
+^ESCTMS867121	MST Continus Suspension 100mg granules sachets (Napp Pharmaceuticals Ltd)
+^ESCTMS867122	MST Continus Suspension 100mg granules sachets (Napp Pharmaceuticals Ltd) 30 sachet
+^ESCTMS867127	MST Continus Suspension 200mg granules sachets (Napp Pharmaceuticals Ltd)
+^ESCTMS867128	MST Continus Suspension 200mg granules sachets (Napp Pharmaceuticals Ltd) 30 sachet
+^ESCTMS869491	MST Continus Suspension 20mg granules sachets (Napp Pharmaceuticals Ltd)
+^ESCTMS869494	MST Continus Suspension 20mg granules sachets (Napp Pharmaceuticals Ltd) 30 sachet
+^ESCTMS869498	MST Continus Suspension 30mg granules sachets (Napp Pharmaceuticals Ltd)
+^ESCTMS869499	MST Continus Suspension 30mg granules sachets (Napp Pharmaceuticals Ltd) 30 sachet
+^ESCTMS918705	MST Continus
+^ESCTMX863125	MXL 30mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTMX863126	MXL 30mg capsules (Napp Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTMX864268	MXL 60mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTMX864269	MXL 60mg capsules (Napp Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTMX865273	MXL 90mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTMX865274	MXL 90mg capsules (Napp Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTMX865276	MXL 150mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTMX865277	MXL 150mg capsules (Napp Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTMX865279	MXL 120mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTMX865280	MXL 120mg capsules (Napp Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTMX869578	MXL 200mg capsules (Napp Pharmaceuticals Ltd)
+^ESCTMX869580	MXL 200mg capsules (Napp Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTMX918516	MXL
+^ESCTOP874410	Opium tincture 100 ml
+^ESCTOP874411	Opium tincture (Alliance Healthcare (Distribution) Ltd)
+^ESCTOP874413	Opium tincture (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTOR859761	Oramorph 10mg/5ml oral solution (Boehringer Ingelheim Ltd)
+^ESCTOR859764	Oramorph 10mg/5ml oral solution (Boehringer Ingelheim Ltd) 100 ml
+^ESCTOR859765	Oramorph 10mg/5ml oral solution (Boehringer Ingelheim Ltd) 300 ml
+^ESCTOR859766	Oramorph 10mg/5ml oral solution (Boehringer Ingelheim Ltd) 500 ml
+^ESCTOR861114	Oramorph 10mg/5ml oral solution unit dose vials (Boehringer Ingelheim Ltd)
+^ESCTOR861115	Oramorph 10mg/5ml oral solution unit dose vials (Boehringer Ingelheim Ltd) 20 unit dose 2 x 10 unit dose vials
+^ESCTOR862009	Oramorph 20mg/ml concentrated oral solution (Boehringer Ingelheim Ltd)
+^ESCTOR862011	Oramorph 20mg/ml concentrated oral solution (Boehringer Ingelheim Ltd) 30 ml
+^ESCTOR862013	Oramorph 20mg/ml concentrated oral solution (Boehringer Ingelheim Ltd) 120 ml
+^ESCTOR862732	Oramorph 100mg/5ml oral solution unit dose vials (Boehringer Ingelheim Ltd)
+^ESCTOR862733	Oramorph 100mg/5ml oral solution unit dose vials (Boehringer Ingelheim Ltd) 20 unit dose 2 x 10 unit dose vials
+^ESCTOR862745	Oramorph 30mg/5ml oral solution unit dose vials (Boehringer Ingelheim Ltd)
+^ESCTOR862747	Oramorph 30mg/5ml oral solution unit dose vials (Boehringer Ingelheim Ltd) 20 unit dose 2 x 10 unit dose vials
+^ESCTOR915367	Oramorph
+^ESCTPR369615	Product containing morphine
+^ESCTPR610421	Product containing morphine sulfate 10 mg/1 each oral tablet
+^ESCTPR610424	Product containing morphine sulfate 20 mg/1 each oral tablet
+^ESCTPR610466	Product containing morphine sulfate 50 mg/1 each oral tablet
+^ESCTPR617885	Product containing morphine in parenteral dosage form
+^ESCTPR617887	Product containing morphine in rectal dosage form
+^ESCTPR619321	Product containing morphine in oral dosage form
+^ESCTPR633910	Product containing morphine sulfate 30 mg/1 each oral tablet
+^ESCTPR639524	Product containing morphine sulfate 200 mg/1 each oral tablet
+^ESCTPR639526	Product containing morphine sulfate 15 mg/1 each oral tablet
+^ESCTPR639528	Product containing morphine sulfate 60 mg/1 each oral tablet
+^ESCTPR639532	Product containing morphine sulfate 15 mg/1 each oral capsule
+^ESCTPR639534	Product containing morphine sulfate 30 mg/1 each oral capsule
+^ESCTRH870627	Rhotard Morphine SR 10mg tablets (Sovereign Medical Ltd)
+^ESCTRH870628	Rhotard Morphine SR 10mg tablets (Sovereign Medical Ltd) 60 tablet
+^ESCTRH870634	Rhotard Morphine SR 30mg tablets (Sovereign Medical Ltd)
+^ESCTRH870635	Rhotard Morphine SR 30mg tablets (Sovereign Medical Ltd) 60 tablet
+^ESCTRH870638	Rhotard Morphine SR 60mg tablets (Sovereign Medical Ltd)
+^ESCTRH870639	Rhotard Morphine SR 60mg tablets (Sovereign Medical Ltd) 60 tablet
+^ESCTRH870647	Rhotard Morphine SR 100mg tablets (Sovereign Medical Ltd)
+^ESCTRH870649	Rhotard Morphine SR 100mg tablets (Sovereign Medical Ltd) 60 tablet
+^ESCTRH916025	Rhotard SR
+^ESCTSE857866	Sevredol 10mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTSE857867	Sevredol 10mg tablets (Napp Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTSE859181	Sevredol 20mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTSE859190	Sevredol 20mg tablets (Napp Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTSE859201	Sevredol 50mg tablets (Napp Pharmaceuticals Ltd)
+^ESCTSE859203	Sevredol 50mg tablets (Napp Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTSE859759	Sevredol 10mg/5ml oral solution (Napp Pharmaceuticals Ltd)
+^ESCTSE859774	Sevredol 10mg/5ml oral solution (Napp Pharmaceuticals Ltd) 100 ml
+^ESCTSE859776	Sevredol 10mg/5ml oral solution (Napp Pharmaceuticals Ltd) 300 ml
+^ESCTSE859778	Sevredol 10mg/5ml oral solution (Napp Pharmaceuticals Ltd) 500 ml
+^ESCTSE861990	Sevredol 20mg/ml concentrated oral solution (Napp Pharmaceuticals Ltd)
+^ESCTSE861998	Sevredol 20mg/ml concentrated oral solution (Napp Pharmaceuticals Ltd) 30 ml
+^ESCTSE862003	Sevredol 20mg/ml concentrated oral solution (Napp Pharmaceuticals Ltd) 120 ml
+^ESCTSE916256	Sevredol
+^ESCTZO863123	Zomorph 30mg modified-release capsules (Ethypharm UK Ltd)
+^ESCTZO863124	Zomorph 30mg modified-release capsules (Ethypharm UK Ltd) 60 capsule 6 x 10 capsules
+^ESCTZO863128	Zomorph 10mg modified-release capsules (Ethypharm UK Ltd)
+^ESCTZO863129	Zomorph 10mg modified-release capsules (Ethypharm UK Ltd) 60 capsule 6 x 10 capsules
+^ESCTZO864266	Zomorph 60mg modified-release capsules (Ethypharm UK Ltd)
+^ESCTZO864267	Zomorph 60mg modified-release capsules (Ethypharm UK Ltd) 60 capsule 6 x 10 capsules
+^ESCTZO865263	Zomorph 100mg modified-release capsules (Ethypharm UK Ltd)
+^ESCTZO865265	Zomorph 100mg modified-release capsules (Ethypharm UK Ltd) 60 capsule 6 x 10 capsules
+^ESCTZO866601	Zomorph 200mg modified-release capsules (Ethypharm UK Ltd)
+^ESCTZO866603	Zomorph 200mg modified-release capsules (Ethypharm UK Ltd) 60 capsule 6 x 10 capsules
+^ESCTZO917434	Zomorph
+ACOR141559NEMIS	Actimorph  Orodispersible tablets  1 mg
+ACOR141560NEMIS	Actimorph  Orodispersible tablets  2.5 mg
+ACOR141561NEMIS	Actimorph  Orodispersible tablets  5 mg
+ACOR141562NEMIS	Actimorph  Orodispersible tablets  10 mg
+ACOR141565NEMIS	Actimorph  Orodispersible tablets  20 mg
+ACOR141566NEMIS	Actimorph  Orodispersible tablets  30 mg
+ARMI5902	Aromatic Chalk With Opium  Mixture  
+CHTI25319EMIS	Chloroform And Morphine  Tincture bp  
+CYIN3369	Cyclimorph-10  Solution for injection  1 ml ampoule
+CYIN3370	Cyclimorph-15  Solution for injection  1 ml ampoule
+DESU36277NEMIS	Depodur  Suspension For Injection  10 mg/ml, 1 ml vial
+DROR133111NEMIS	Dropizol  Oral drops  10 mg/ml
+FIM/13146NEMIS	Filnarine Sr  M/R tablets  30 mg
+FIM/13147NEMIS	Filnarine Sr  M/R tablets  60 mg
+FIM/33500NEMIS	Filnarine Sr  M/R tablets  200 mg
+FIS/13145NEMIS	Filnarine Sr  M/R tablets  10 mg
+FIS/13149NEMIS	Filnarine Sr  M/R tablets  100 mg
+KAMI1541	Kaolin And Morphine  Mixture  bp
+KAMI35621MGEMIS	Kaolin And Morphine  Mixture  bp (A.A.H. Pharm)
+KAMI35622MGEMIS	Kaolin And Morphine  Mixture  bp (Kent Pharm)
+KAMI35623MGEMIS	Kaolin And Morphine  Mixture  bp (Thornton & Ross)
+KAMI35624MGEMIS	Kaolin And Morphine  Mixture  bp (Unichem)
+MIIN17260NEMIS	Min-I-Jet Morphine Sulfate  Injection  1 mg/ml, 10 ml pre-filled syringe
+MIIN18043EMIS	Min-I-Jet Morphine Sulfate  Injection  10 mg/ml
+M-M/27330EMIS	M-Eslon  M/R capsules  10 mg
+M-M/27331EMIS	M-Eslon  M/R capsules  100 mg
+M-M/27332EMIS	M-Eslon  M/R capsules  30 mg
+M-M/27333EMIS	M-Eslon  M/R capsules  60 mg
+MOCR4019NEMIS	Morphine Hydrochloride  Crystals  BP
+MOEL4144NEMIS	Morphine And Cocaine  Elixir  BPC
+MOGE113865NEMIS	Morphine Sulfate In Intrasite  Gel  0.1 %
+MOGE98869NEMIS	Morphine Sulfate In Intrasite  Gel  0.2 %
+MOIN105367NEMIS	Morphine Sulfate  Injection  1 mg/ml, 5 ml ampoule
+MOIN105373NEMIS	Morphine Sulfate  Injection  1 mg/ml, 10 ml ampoule
+MOIN125044NEMIS	Morphine Sulfate  Injection  1 mg/ml, 1 ml ampoule
+MOIN15786NEMIS	Morphine Sulfate  Injection  30 mg/ml, 2 ml ampoule
+MOIN17259NEMIS	Morphine Sulfate  Injection  1 mg/ml, 10 ml pre-filled syringe
+MOIN20102NEMIS	Morphine Sulfate  Injection  20 mg/ml, 1 ml ampoule
+MOIN20541NEMIS	Morphine Sulfate  Injection  30 mg/ml, 1 ml ampoule
+MOIN21406NEMIS	Morphine Tartrate And Cyclizine Tartrate  Solution for injection  15 mg/ml + 50 mg/ml, 1 ml ampoule
+MOIN21407NEMIS	Morphine Tartrate And Cyclizine Tartrate  Solution for injection  10 mg/ml + 50 mg/ml, 1 ml ampoule
+MOIN23131NEMIS	Morphine Sulfate  Injection  10 mg/ml, 1 ml ampoule
+MOIN23132NEMIS	Morphine Sulfate  Injection  15 mg/ml, 1 ml ampoule
+MOIN23559NEMIS	Morphine Sulfate  Solution for infusion  2 mg/ml, 50 ml vial
+MOIN30111EMIS	Morphine Sulfate  Injection  1 mg/ml, 50 ml syringe
+MOIN30112EMIS	Morphine Sulfate  Injection  2 mg/ml, 50 ml syringe
+MOIN5712	Morphine Sulfate  Injection  10 mg/ml
+MOIN5713	Morphine Sulfate  Injection  15 mg/ml
+MOIN5714	Morphine Sulfate  Injection  30 mg/ml
+MOINEGTON6391	Morphine And Atropine  Injection  1 ml ampoule
+MOM/15327NEMIS	Morphgesic Sr  M/R tablets  10 mg
+MOM/15328NEMIS	Morphgesic Sr  M/R tablets  30 mg
+MOM/15329NEMIS	Morphgesic Sr  M/R tablets  60 mg
+MOM/15330NEMIS	Morphgesic Sr  M/R tablets  100 mg
+MOM/16937NEMIS	Morphine Sulfate  M/R suspension  20 mg/sachet, granules sugar free
+MOM/16938NEMIS	Morphine Sulfate  M/R suspension  30 mg/sachet, granules sugar free
+MOM/18037EMIS	Morphine Sulfate  M/R tablets  10 mg
+MOM/2010NEMIS	Morphine Sulfate  M/R capsules  10 mg
+MOM/2011NEMIS	Morphine Sulfate  M/R capsules  30 mg
+MOM/2012NEMIS	Morphine Sulfate  M/R capsules  60 mg
+MOM/2013NEMIS	Morphine Sulfate  M/R capsules  100 mg
+MOM/2014NEMIS	Morphine Sulfate  M/R capsules  200 mg
+MOM/20361EMIS	Morphine Sulfate  M/R tablets  15 mg
+MOM/24162EMIS	Morphine Sulfate  M/R suspension  100 mg/sachet, granules sugar free
+MOM/24163EMIS	Morphine Sulfate  M/R suspension  200 mg/sachet, granules sugar free
+MOM/24164EMIS	Morphine Sulfate  M/R suspension  60 mg/sachet, granules sugar free
+MOM/24687EMIS	Morphine Sulfate  M/R tablets  5 mg
+MOM/29644EMIS	Morcap Sr  M/R capsules  100 mg
+MOM/29645EMIS	Morcap Sr  M/R capsules  20 mg
+MOM/29646EMIS	Morcap Sr  M/R capsules  50 mg
+MOM/3692NEMIS	Morphine Sulfate  M/R capsules  90 mg
+MOM/3693NEMIS	Morphine Sulfate  M/R capsules  120 mg
+MOM/3694NEMIS	Morphine Sulfate  M/R capsules  150 mg
+MOM/3695NEMIS	Morphine Sulfate  M/R capsules  20 mg
+MOM/3696NEMIS	Morphine Sulfate  M/R capsules  50 mg
+MOOR133109NEMIS	Morphine (Opium Tincture)  Oral Drops Sugar Free  10 mg/ml
+MOOR138432NEMIS	Morphine Sulfate  Oral solution  500 micrograms/5 ml
+MOOR141551NEMIS	Morphine Sulfate  Orodispersible Tablets (Sugar Free)  1 mg
+MOOR141552NEMIS	Morphine Sulfate  Orodispersible Tablets (Sugar Free)  2.5 mg
+MOOR141553NEMIS	Morphine Sulfate  Orodispersible Tablets (Sugar Free)  5 mg
+MOOR141554NEMIS	Morphine Sulfate  Orodispersible Tablets (Sugar Free)  10 mg
+MOOR141555NEMIS	Morphine Sulfate  Orodispersible Tablets (Sugar Free)  20 mg
+MOOR141556NEMIS	Morphine Sulfate  Orodispersible Tablets (Sugar Free)  30 mg
+MOOR18040EMIS	Morphine Sulfate  Oral solution  10 mg/5 ml
+MOOR18041EMIS	Morphine Sulfate  Concentrated Oral Solution  20mg/ml (100mg/5ml) sugar free
+MOOR22039EMIS	Morphine Sulfate  Oral solution (unit dose)  Sugar Free 10 mg/5 ml vial
+MOOR22040EMIS	Morphine Sulfate  Oral solution (unit dose)  Sugar Free 100 mg/5 ml vial
+MOOR22041EMIS	Morphine Sulfate  Oral solution (unit dose)  Sugar Free 30 mg/5 ml vial
+MOOR29092NEMIS	Morphine Sulfate  Oral solution  5 mg/5 ml
+MOOR36103MGEMIS	Morphine Sulfate  Oral solution  10 mg/5 ml (A.A.H. Pharm)
+MOOR36104MGEMIS	Morphine Sulfate  Oral solution  10 mg/5 ml (Martindale)
+MOOR73942NEMIS	Morphine Hydrochloride  Oral solution  10 mg/5 ml
+MOPO4020NEMIS	Morphine Sulfate  Powder  BP
+MOS/9215EMIS	Morphine Sulfate  M/R tablets  200 mg
+MOSA22492EMIS	Morphine Sulfate  Sachets  20 mg
+MOSA22493EMIS	Morphine Sulfate  Sachets  30 mg
+MOSO105702NEMIS	Morphine Sulfate  Solution for infusion  1 mg/ml, 50 ml vial
+MOSU1890	Morphine Sulfate  Suppositories  15 mg
+MOSU1891	Morphine Sulfate  Suppositories  30 mg
+MOSU20324EMIS	Morphine Sulfate  Suppositories  10 mg
+MOSU20325EMIS	Morphine Sulfate  Suppositories  20 mg
+MOSU20327EMIS	Morphine Hydrochloride  Suppositories  30 mg
+MOSU36105MGEMIS	Morphine Sulfate  Suppositories  15 mg (A.A.H. Pharm)
+MOSU36106MGEMIS	Morphine Sulfate  Suppositories  15 mg (Martindale)
+MOSU36107MGEMIS	Morphine Sulfate  Suppositories  15 mg (Unichem)
+MOSU36108MGEMIS	Morphine Sulfate  Suppositories  30 mg (Aurum Pharm)
+MOSU36109MGEMIS	Morphine Sulfate  Suppositories  30 mg (Martindale)
+MOSU36110MGEMIS	Morphine Sulfate  Suppositories  30 mg (Unichem)
+MOSU36111MGEMIS	Morphine Sulfate  Suppositories  30 mg (A.A.H. Pharm)
+MOSU36112MGEMIS	Morphine Sulfate  Suppositories  10 mg (A.A.H. Pharm)
+MOSU36113MGEMIS	Morphine Sulfate  Suppositories  10 mg (Martindale)
+MOSU36114MGEMIS	Morphine Sulfate  Suppositories  10 mg (Unichem)
+MOSU36275NEMIS	Morphine Sulfate  Suspension For Injection  10 mg/ml, 1 ml vial
+MOSU5161NEMIS	Morphine Sulfate  Suppositories  35 mg
+MOSU5162NEMIS	Morphine Sulfate  Suppositories  50 mg
+MOSU5163NEMIS	Morphine Sulfate  Suppositories  75 mg
+MOSU5164NEMIS	Morphine Sulfate  Suppositories  100 mg
+MOSU5166NEMIS	Moraxen  Suppositories  35 mg
+MOSU5167NEMIS	Moraxen  Suppositories  50 mg
+MOSU5168NEMIS	Moraxen  Suppositories  75 mg
+MOSU5169NEMIS	Moraxen  Suppositories  100 mg
+MOSU5179	Morphine Hydrochloride  Suppositories  15 mg
+MOTA1892	Morphine Sulfate  Tablets  10 mg
+MOTA1893	Morphine Sulfate  M/R tablets  100 mg
+MOTA1894	Morphine Sulfate  M/R tablets  30 mg
+MOTA1895	Morphine Sulfate  M/R tablets  60 mg
+MOTA28323EMIS	Morphine Sulfate  Tablets  50 mg
+MOTA9216EMIS	Morphine Sulfate  Tablets  20 mg
+MSM/20359EMIS	Mst Continus  M/R tablets  15 mg
+MSM/24156EMIS	Mst Continus  M/R suspension  100 mg
+MSM/24157EMIS	Mst Continus  M/R suspension  200 mg
+MSM/24158EMIS	Mst Continus  M/R suspension  60 mg
+MSM/24685EMIS	Mst Continus  M/R tablets  5 mg
+MSSA22488EMIS	Mst Continus  M/R suspension  20 mg
+MSSA22489EMIS	Mst Continus  M/R suspension  30 mg
+MSTA1902	Mst Continus  M/R tablets  10 mg
+MSTA1903	Mst Continus  M/R tablets  100 mg
+MSTA1904	Mst Continus  M/R tablets  30 mg
+MSTA1905	Mst Continus  M/R tablets  60 mg
+MSTA9212EMIS	Mst Continus  M/R tablets  200 mg
+MXM/28909EMIS	Mxl  M/R capsules  120 mg
+MXM/28910EMIS	Mxl  M/R capsules  150 mg
+MXM/28911EMIS	Mxl  M/R capsules  200 mg
+MXM/28912EMIS	Mxl  M/R capsules  30 mg
+MXM/28913EMIS	Mxl  M/R capsules  60 mg
+MXM/28914EMIS	Mxl  M/R capsules  90 mg
+NEIN9741HILLI	Nepenthe  Injection  8.4 mg/ml
+NEOREGTON6732	Nepenthe  Oral solution  8.4 mg/ml
+ORM/24189EMIS	Oramorph Sr  M/R tablets  10 mg
+ORM/24190EMIS	Oramorph Sr  M/R tablets  100 mg
+ORM/24191EMIS	Oramorph Sr  M/R tablets  30 mg
+ORM/24192EMIS	Oramorph Sr  M/R tablets  60 mg
+OROR22033EMIS	Oramorph Unit Dose  Oral solution  10 mg/5 ml vial
+OROR22034EMIS	Oramorph Unit Dose  Oral solution  100 mg/5 ml vial
+OROR22035EMIS	Oramorph Unit Dose  Oral solution  30 mg/5 ml vial
+OROR9268BRIDL	Oramorph  Oral solution  10 mg/5 ml
+OROR9270BRIDL	Oramorph Concentrated  Oral solution  20 mg/ml (100 mg/5 ml)
+RAIN30107EMIS	Rapiject  Injection  1 mg/ml, 50 ml syringe
+RAIN30108EMIS	Rapiject  Injection  2 mg/ml, 50 ml syringe
+SECO35144EMIS	Sevredol  Concentrated Oral Solution  20 mg/ml
+SEOR35145EMIS	Sevredol  Oral solution  10 mg/5 ml
+SESU20319EMIS	Sevredol  Suppositories  10 mg
+SESU20320EMIS	Sevredol  Suppositories  20 mg
+SESU20321EMIS	Sevredol  Suppositories  30 mg
+SETA28321EMIS	Sevredol  Tablets  50 mg
+SETA9219EMIS	Sevredol  Tablets  10 mg
+SETA9220EMIS	Sevredol  Tablets  20 mg
+ZOM/31466EMIS	Zomorph  M/R capsules  10 mg
+ZOM/31467EMIS	Zomorph  M/R capsules  100 mg
+ZOM/31468EMIS	Zomorph  M/R capsules  200 mg
+ZOM/31469EMIS	Zomorph  M/R capsules  30 mg
+ZOM/31470EMIS	Zomorph  M/R capsules  60 mg

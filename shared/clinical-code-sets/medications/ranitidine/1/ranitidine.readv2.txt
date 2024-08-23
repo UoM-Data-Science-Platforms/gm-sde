@@ -1,0 +1,37 @@
+a62..00	RANITIDINE
+a62z.00	RANITIDINE 50mg/2mL injection
+a62y.00	RANITIDINE 300mg tablets
+a62x.00	RANITIDINE 150mg dispersible tablets
+a62w.00	RANITIDINE 150mg tablets
+a62v.11	RANITIDINE 150mg/10mL sugar free oral solution
+a62v.00	RANITIDINE 150mg/10mL sugar free syrup
+a62u.00	RANITIDINE 75mg effervescent tablets
+a62Q.00	ZANTAC 75 tablets
+a62P.00	RANZAC 75mg tablets
+a62O.00	GAVILAST-P 75mg tablets
+a62N.00	RANITIDINE 75mg tablets
+a62M.00	ZANTAC 75 DISSOLVE effervescent tablets
+a62L.00	RANITIL 300mg tablets
+a62K.00	RANITIL 150mg tablets
+a62J.00	HISTAC 300mg tablets
+a62I.00	HISTAC 150mg tablets
+a62H.00	RANITIC 300mg tablets
+a62G.00	RANITIC 150mg tablets
+a62F.00	*RANTEC 300mg tablets
+a62E.00	*RANTEC 150mg tablets
+a62D.00	*ZAEDOC 300 tablets
+a62C.00	*ZAEDOC 150 tablets
+a62B.00	*RACIRAN 300mg tablets
+a62A.00	*RACIRAN 150mg tablets
+a629.00	RANITIDINE 300mg effervescent tablets
+a628.00	RANITIDINE 150mg effervescent tablets
+a627.00	ZANTAC EFFERVESCENT 300mg tablets
+a626.00	ZANTAC EFFERVESCENT 150mg tablets
+a625.00	ZANTAC 150mg/10mL sugar free syrup 300mL
+a624.00	ZANTAC 50mg/2mL injection
+a623.00	ZANTAC 300mg tablets
+a622.00	ZANTAC 150mg dispersible tablets
+a621.00	ZANTAC 150mg tablets
+a6d..00	RANITIDINE BISMUTH CITRATE
+a6d2.00	*PYLORID 400mg tablets
+a6d1.00	RANITIDINE BISMUTH CITRATE 400mg tablets

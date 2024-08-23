@@ -1,33 +1,64 @@
 --┌────────────────────────────────────┐
---│ SDE Lighthouse study 10 - Crosbie  │
+--│ LH010 Patient file                 │
 --└────────────────────────────────────┘
 
---Just want the output, not the messages
-SET NOCOUNT ON;
+set(StudyStartDate) = to_date('');
+set(StudyEndDate)   = to_date('');
 
-DECLARE @StartDate datetime;
-DECLARE @EndDate datetime;
-SET @StartDate = 'CHANGE'; -- CHECK THIS AND  - CURRENTLY EXCLUDING ANY PATIENTS THAT WEREN'T 18 IN 2006
-SET @EndDate = 'CHANGE';
+---- create temp table of all patients in cohort
+--------
 
---> EXECUTE query-build-lh009-cohort.sql
+-- deaths table
 
---> EXECUTE query-patient-lsoa.sql
---> EXECUTE query-patient-imd.sql
---> EXECUTE query-patient-smoking-status.sql
---> EXECUTE query-patient-alcohol-intake.sql
+DROP TABLE IF EXISTS Death;
+CREATE TEMPORARY TABLE Death AS
+SELECT 
+    DEATH."GmPseudo",
+    TO_DATE(DEATH."RegisteredDateOfDeath") AS DeathDate,
+    OM."DiagnosisOriginalMentionCode",
+    OM."DiagnosisOriginalMentionDesc",
+    OM."DiagnosisOriginalMentionChapterCode",
+    OM."DiagnosisOriginalMentionChapterDesc",
+    OM."DiagnosisOriginalMentionCategory1Code",
+    OM."DiagnosisOriginalMentionCategory1Desc"
+FROM PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" DEATH
+LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions" OM 
+        ON OM."XSeqNo" = DEATH."XSeqNo" AND OM."DiagnosisOriginalMentionNumber" = 1
+WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM virtualWards);
 
---bring together for final output
---patients in main cohort
-SELECT	 PatientId = FK_Patient_Link_ID
-		,YearOfBirth
-		,Sex
-		,LSOA_Code
-		,EthnicMainGroup ----- CHANGE TO MORE SPECIFIC ETHNICITY ?
-		,IMD2019Decile1IsMostDeprived10IsLeastDeprived
-		,DeathDate
-FROM #Cohort m
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientAlcoholIntake alc ON alc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+
+-- patient demographics table
+
+--DROP TABLE IF EXISTS Patients;
+--CREATE TEMPORARY TABLE Patients AS 
+SELECT * EXCLUDE (rownum)
+FROM (
+SELECT 
+	"Snapshot", 
+	D."GmPseudo" AS GmPseudo,
+	"FK_Patient_ID", 
+	"DateOfBirth",
+	DATE_TRUNC(month, dth.DeathDate) AS DeathDate,
+	"DiagnosisOriginalMentionCode" AS CauseOfDeathCode,
+	"DiagnosisOriginalMentionDesc" AS CauseOfDeathDesc,
+	"DiagnosisOriginalMentionChapterCode" AS CauseOfDeathChapterCode,
+    "DiagnosisOriginalMentionChapterDesc" AS CauseOfDeathChapterDesc,
+    "DiagnosisOriginalMentionCategory1Code" AS CauseOfDeathCategoryCode,
+    "DiagnosisOriginalMentionCategory1Desc" AS CauseOfDeathCategoryDesc,
+	LSOA11, 
+	"IMD_Decile", 
+	"Age", 
+	"Sex", 
+	"EthnicityLatest_Category", 
+	"PracticeCode", -- need to anonymise
+	row_number() over (partition by D."GmPseudo" order by "Snapshot" desc) rownum
+FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D
+LEFT JOIN Death dth ON dth."GmPseudo" = D."GmPseudo"
+WHERE D."GmPseudo" IN (select "GmPseudo" from virtualwards) -- patients in virtual ward table only
+)
+WHERE rownum = 1; -- get latest demographic snapshot only
+
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+--14k rows

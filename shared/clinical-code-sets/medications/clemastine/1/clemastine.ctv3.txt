@@ -1,0 +1,10 @@
+c854.	Clemastine+phenylpropanolamine 0.5/25mg tablet
+c855.	Aller-eze Plus tablet
+c85y.	Clemastine 1mg tablet
+c853.	Aller-eze tablet
+c851.	Tavegil 1mg tablet
+c85z.	Clemastine 500micrograms/5mL elixir
+c852.	Tavegil 500micrograms/5mL elixir
+x0024	Clemastine+phenylpropanolamine
+x00f3	Clemastine 1.34mg tablet
+x02sD	Tavegil 
