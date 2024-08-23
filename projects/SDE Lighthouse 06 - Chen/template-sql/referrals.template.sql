@@ -1,33 +1,37 @@
---┌──────────────────────────────────────────┐
---│ SDE Lighthouse study 06 - Chen           │
---└──────────────────────────────────────────┘
-
---Just want the output, not the messages
-SET NOCOUNT ON;
-
-DECLARE @StartDate datetime;
-DECLARE @EndDate datetime;
-SET @StartDate = '2017-01-01';
-SET @EndDate = '2023-12-31';
+--┌────────────────────────────────────────────────────┐
+--│ SDE Lighthouse study 06 - Chen - referrals         │
+--└────────────────────────────────────────────────────┘
 
 --> EXECUTE query-build-lh006-cohort.sql
 
--- CODESET acute-pain-service:1 social-care-prescribing:1 pain-management:1 surgery:1
-
---bring together for final output
---patients in main cohort
-SELECT	 PatientId = FK_Patient_Link_ID
-FROM #Cohort p
-
+DROP TABLE IF EXISTS referralsClusters;
+CREATE TEMPORARY TABLE referralsClusters AS
 SELECT 
-	PatientId = FK_Patient_Link_ID, 
-	CodingDate = CAST(EventDate AS DATE), 
-    Code = SuppliedCode, 
-	Concept = a.Concept
-	CodeDescription = a.description  
-FROM SharedCare.GP_Events gp
-LEFT OUTER JOIN #AllCodes a ON gp.SuppliedCode = a.Code
-WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept NOT IN ('cancer', 'opoid-analgesics', 'chronic-pain'))) 
-	AND gp.EventDate BETWEEN @StartDate AND @EndDate
-	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-
+    ec."FK_Patient_ID"
+    , TO_DATE(ec."EventDate") AS "MedicationDate"
+    , ec."SCTID" AS "SnomedCode"
+    , CASE WHEN ec."Cluster_ID" = 'SOCPRESREF_COD' THEN 'social prescribing referral'
+			WHEN ("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%physiotherap%') THEN 'physiotherapy-referral'
+			WHEN ("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%psych%') THEN 'psychological-therapy-referral'
+			WHEN ("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%acupun%') THEN 'acupuncture-referral'
+			WHEN ("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%pain%') THEN 'pain-related-referral' 
+			WHEN ("Cluster_ID" in ('REFERRAL_COD') AND (lower("Term") like '%surgeon%' or lower("Term") like '%surgery%' or lower("Term") like '%surgical%' )) THEN 'surgery-referral' 
+           ELSE 'other' END AS "CodeSet"
+    , ec."Term" AS "Description"
+FROM INTERMEDIATE.GP_RECORD."EventsClusters" ec
+WHERE 
+	(
+    ("Cluster_ID" in ('SOCPRESREF_COD')) -- social prescribing referral
+	OR
+	("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%physiotherap%') -- physiotherapy referral
+	OR 
+	("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%psych%') -- psychological therapy referral
+	OR
+	("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%acupun%') -- acupuncture referral 
+	OR
+	("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%pain%') -- pain-related  referral 
+	OR 
+	("Cluster_ID" in ('REFERRAL_COD') AND (lower("Term") like '%surgeon%' or lower("Term") like '%surgery%' or lower("Term") like '%surgical%' )) -- surgery referral 
+    )
+AND TO_DATE(ec."EventDate") BETWEEN $StudyStartDate and $StudyEndDate;
+    AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort);

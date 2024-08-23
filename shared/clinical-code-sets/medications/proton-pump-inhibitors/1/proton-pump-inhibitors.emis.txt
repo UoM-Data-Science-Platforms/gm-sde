@@ -1,0 +1,94 @@
+^ESCT1196009	Mezzopram 40mg dispersible gastro-resistant tablets (Sandoz Ltd)
+^ESCT1196169	Mezzopram 20mg dispersible gastro-resistant tablets (Sandoz Ltd)
+^ESCT1196303	Mezzopram 10mg dispersible gastro-resistant tablets (Sandoz Ltd)
+^ESCT1198034	Nexium Control 20mg gastro-resistant capsules (Pfizer Consumer Healthcare Ltd)
+^ESCT1271041	Guardium acid reflux control 20mg gastro-resistant tablets (Reckitt Benckiser Healthcare (UK) Ltd)
+^ESCT1279816	Mepradec 20mg gastro-resistant capsules (Dexcel-Pharma Ltd)
+^ESCT1279818	Mepradec 10mg gastro-resistant capsules (Dexcel-Pharma Ltd)
+^ESCT1387160	Nexium 20mg gastro-resistant tablets (Grunenthal Ltd)
+^ESCT1387161	Nexium 40mg gastro-resistant tablets (Grunenthal Ltd)
+^ESCT1387953	Nexium 10mg gastro-resistant granules sachets (Grunenthal Ltd)
+^ESCT1402060	Omeprazole 10mg dispersible gastro-resistant tablets
+^ESCT1402061	Omeprazole 20mg dispersible gastro-resistant tablets
+^ESCT1402062	Omeprazole 40mg dispersible gastro-resistant tablets
+^ESCT1411066	Pantoloc Control 20mg gastro-resistant tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1412172	Nexium Control 20mg gastro-resistant tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1412504	Nexium Control 20mg gastro-resistant capsules (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1433092	Losec 10mg gastro-resistant capsules (Neon Healthcare Ltd)
+^ESCT1433094	Losec MUPS 20mg gastro-resistant tablets (Neon Healthcare Ltd)
+^ESCT1433098	Losec MUPS 40mg gastro-resistant tablets (Neon Healthcare Ltd)
+^ESCT1433099	Losec MUPS 10mg gastro-resistant tablets (Neon Healthcare Ltd)
+^ESCT1433101	Losec 20mg gastro-resistant capsules (Neon Healthcare Ltd)
+^ESCT1433102	Losec 40mg gastro-resistant capsules (Neon Healthcare Ltd)
+^ESCTEM1002905	Emozul 40mg gastro-resistant capsules (Consilient Health Ltd)
+^ESCTEM1002908	Emozul 20mg gastro-resistant capsules (Consilient Health Ltd)
+^ESCTES1003170	Esomeprazole 20mg gastro-resistant capsules
+^ESCTES1003171	Esomeprazole 40mg gastro-resistant capsules
+^ESCTES988643	Esomeprazole 10mg gastro-resistant granules sachets
+^ESCTLA866774	Lansoprazole 15mg orodispersible tablets
+^ESCTLA866775	Lansoprazole 30mg orodispersible tablets
+^ESCTLA975090	Lansoprazole 10mg oral powder sachets
+^ESCTLO802035	Losec 10mg gastro-resistant capsules (AstraZeneca UK Ltd)
+^ESCTLO815279	Losec MUPS 20mg gastro-resistant tablets (AstraZeneca UK Ltd)
+^ESCTLO821229	Losec MUPS 40mg gastro-resistant tablets (AstraZeneca UK Ltd)
+^ESCTLO823051	Losec MUPS 10mg gastro-resistant tablets (AstraZeneca UK Ltd)
+^ESCTLO833155	Losec 20mg gastro-resistant capsules (AstraZeneca UK Ltd)
+^ESCTLO833986	Losec 40mg gastro-resistant capsules (AstraZeneca UK Ltd)
+^ESCTME1011263	Mezzopram 10mg gastro-resistant tablets (Sandoz Ltd)
+^ESCTME1011264	Mezzopram 20mg gastro-resistant tablets (Sandoz Ltd)
+^ESCTME1011265	Mezzopram 40mg gastro-resistant tablets (Sandoz Ltd)
+^ESCTME933254	Mepradec 20mg gastro-resistant capsules (Discovery Pharmaceuticals)
+^ESCTME933256	Mepradec 10mg gastro-resistant capsules (Discovery Pharmaceuticals)
+^ESCTNE1047017	Nexium 20mg gastro-resistant tablets (Arrow Generics Ltd)
+^ESCTNE1047019	Nexium 40mg gastro-resistant tablets (Arrow Generics Ltd)
+^ESCTNE1109240	Nexium Control 20mg gastro-resistant tablets (Pfizer Consumer Healthcare Ltd)
+^ESCTNE804812	Nexium 20mg gastro-resistant tablets (AstraZeneca UK Ltd)
+^ESCTNE807533	Nexium 40mg gastro-resistant tablets (AstraZeneca UK Ltd)
+^ESCTNE988493	Nexium 10mg gastro-resistant granules sachets (AstraZeneca UK Ltd)
+^ESCTOM862943	Omeran 20mg gastro-resistant tablets (Ranbaxy (UK) Ltd)
+^ESCTPA801702	Pariet 20mg gastro-resistant tablets (Eisai Ltd)
+^ESCTPA807149	Pariet 10mg gastro-resistant tablets (Eisai Ltd)
+^ESCTPA997453	Pantoloc Control 20mg gastro-resistant tablets (GlaxoSmithKline Consumer Healthcare)
+^ESCTPR804871	Protium 20mg gastro-resistant tablets (Nycomed UK Ltd)
+^ESCTPR833129	Protium 40mg gastro-resistant tablets (Nycomed UK Ltd)
+^ESCTVE1153564	Ventra 20mg gastro-resistant capsules (Ethypharm UK Ltd)
+^ESCTVE1153566	Ventra 40mg gastro-resistant capsules (Ethypharm UK Ltd)
+^ESCTZO801416	Zoton 15mg gastro-resistant capsules (Wyeth Pharmaceuticals)
+^ESCTZO806791	Zoton 30mg gastro-resistant capsules (Wyeth Pharmaceuticals)
+^ESCTZO866653	Zoton FasTab 15mg (Pfizer Ltd)
+^ESCTZO866661	Zoton FasTab 30mg (Pfizer Ltd)
+EMGA45519NEMIS	Emozul  Gastro-resistant Capsules  20 mg
+EMGA45520NEMIS	Emozul  Gastro-resistant Capsules  40 mg
+ESGA39420NEMIS	Esomeprazole  Granules for Oral Suspension (Gastro-Resistant)  10 mg sachet
+ESGA45517NEMIS	Esomeprazole  Gastro-resistant Capsules  20 mg
+ESGA45518NEMIS	Esomeprazole  Gastro-resistant Capsules  40 mg
+LAOR14898NEMIS	Lansoprazole  Orodispersible tablets (Gastro-Resistant)  15 mg
+LAOR14900NEMIS	Lansoprazole  Orodispersible tablets (Gastro-Resistant)  30 mg
+LOCA23820EMIS	Losec  Capsules  40 mg
+LOCA25323EMIS	Losec  Capsules  10 mg
+LOCA9369BRIDL	Losec  Capsules  20 mg
+LOTA1189NEMIS	Losec Mups  Tablets  10 mg
+LOTA1190NEMIS	Losec Mups  Tablets  20 mg
+LOTA1191NEMIS	Losec Mups  Tablets  40 mg
+MECA23120NEMIS	Mepradec  Capsules (Gastro-Resistant)  20 mg
+MEGA23119NEMIS	Mepradec  Capsules (Gastro-Resistant)  10 mg
+MEGA48143NEMIS	Mezzopram  Dispersible (Gastro-Resistant) Tablets  10 mg
+MEGA48144NEMIS	Mezzopram  Dispersible (Gastro-Resistant) Tablets  20 mg
+MEGA48145NEMIS	Mezzopram  Dispersible (Gastro-Resistant) Tablets  40 mg
+NEGR39419NEMIS	Nexium  Granules for Oral Suspension (Gastro-Resistant)  10 mg sachet
+NETA5128NEMIS	Nexium  Tablets  20 mg
+NETA5129NEMIS	Nexium  Tablets  40 mg
+OMDI13049NEMIS	Omeprazole  Dispersible (Gastro-Resistant) Tablets  10 mg
+OMDI13050NEMIS	Omeprazole  Dispersible (Gastro-Resistant) Tablets  20 mg
+OMDI13051NEMIS	Omeprazole  Dispersible (Gastro-Resistant) Tablets  40 mg
+OMTA14455NEMIS	Omeran  Tablets  20 mg
+PATA34090EMIS	Pariet  E/c tablets  10 mg
+PATA34091EMIS	Pariet  E/c tablets  20 mg
+PRTA200NEMIS	Protium  E/c tablets  20 mg
+PRTA29717EMIS	Protium  E/c tablets  40 mg
+VEGA118062NEMIS	Ventra  Gastro-resistant Capsules  40 mg
+VEGA118063NEMIS	Ventra  Gastro-resistant Capsules  20 mg
+ZOCA24444EMIS	Zoton  Capsules (Gastro-Resistant)  30 mg
+ZOCA28115EMIS	Zoton  Capsules (Gastro-Resistant)  15 mg
+ZOOR14902NEMIS	Zoton Fastab  Orodispersible tablets (Gastro-Resistant)  15 mg
+ZOOR14903NEMIS	Zoton Fastab  Orodispersible tablets (Gastro-Resistant)  30 mg

@@ -2,45 +2,57 @@
 --│ Medications for LH006 cohort │
 --└──────────────────────────────┘
 
+-- meds: benzodiazepines, gabapentinoids, nsaids, opioids, antidepressants
+
 ------------ RESEARCH DATA ENGINEER CHECK ------------
 -- 
 ------------------------------------------------------
 
--- All prescriptions of: antipsychotic medication.
-
--- OUTPUT: Data with the following fields
--- 	-   PatientId (int)
---	-	MedicationCategory
---  -   MedicationName
---  -   Quantity
---  -   Dosage
-
---Just want the output, not the messages
-SET NOCOUNT ON;
-
--- Set the start date
-set(StudyStartDate) = to_date('2017-01-01');
-set(StudyEndDate)   = to_date('2023-12-31');
+USE DATABASE PRESENTATION;
+USE SCHEMA GP_RECORD;
 
 --> EXECUTE query-build-lh006-cohort.sql
 
--- codesets already added (from buid-lh006-cohort file): opioids:1 cancer:1 chronic-pain:1
-
--- CODESET nsaids:1 benzodiazepines:1 gabapentinoid:1
-
---  PATIENTS WITH RX OF SELECTED MEDS (2017 - 2023)
-
-DROP TABLE IF EXISTS meds;
-CREATE TEMPORARY TABLE AS
+DROP TABLE IF EXISTS prescriptions;
+CREATE TEMPORARY TABLE prescriptions AS
 SELECT 
-	 m."FK_Patient_ID",
-		TO_DATE("MedicationDate") as PrescriptionDate,
-		FullDescription,
-		MedicationCategory = CASE WHEN vcs.Concept IS NOT NULL THEN vcs.Concept ELSE vs.Concept END
-FROM INTERMEDIATE.GP_RECORD."GP_Medications_SecondaryUses" m
-WHERE m."FK_Patient_ID" IN (SELECT FK_Patient_ID FROM Cohort)
-LEFT JOIN VersionedSnomedSets vs ON vs.FK_Patient_ID = m."FK_Patient_ID" AND (Concept IN ('opioids','nsaids','benzodiazepines','gabapentinoid' ) AND [Version]=1)
-LEFT JOIN VersionedCodeSets vcs ON vcs.FK_Patient_ID = m."FK_Patient_ID" AND (Concept IN ('opioids','nsaids','benzodiazepines','gabapentinoid' ) AND [Version]=1)
-AND m."MedicationDate" BETWEEN $StudyStartDate and $StudyEndDate  
+    ec."FK_Patient_ID"
+    , TO_DATE(ec."MedicationDate") AS "MedicationDate"
+    , ec."SCTID" AS "SnomedCode"
+	, ec."Quantity"
+    , ec."Dosage_GP_Medications" AS "Dosage"
+    , CASE WHEN ec."Cluster_ID" = 'BENZODRUG_COD' THEN 'benzodiazepine' -- benzodiazepines
+           WHEN ec."Cluster_ID" = 'GABADRUG_COD' THEN 'gabapentinoid' -- gabapentinoids
+           WHEN ec."Cluster_ID" = 'ORALNSAIDDRUG_COD' THEN 'nsaid' -- oral nsaids
+		   WHEN ec."Cluster_ID" = 'OPIOIDDRUG_COD' THEN 'opioid' -- opioids except heroin addiction substitutes
+	       WHEN ec."Cluster_ID" = 'ANTIDEPDRUG_COD' THEN 'antidepressant' -- antidepressants
+           ELSE 'other' END AS "CodeSet"
+    , ec."MedicationDescription" AS "Description"
+FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
+WHERE "Cluster_ID" in 
+    ('BENZODRUG_COD', 'GABADRUG_COD', 'ORALNSAIDDRUG_COD', 'OPIOIDDRUG_COD', 'ANTIDEPDRUG_COD')
+    AND TO_DATE(ec."MedicationDate") BETWEEN $StudyStartDate and $StudyEndDate
+    AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort);
 
 
+-- ONLY KEEP DOSAGE INFO IF IT HAS APPEARED > 50 TIMES
+
+DROP TABLE IF EXISTS SafeDosages;
+CREATE TEMPORARY TABLE SafeDosages AS
+SELECT "Dosage" 
+FROM prescriptions
+GROUP BY "Dosage"
+HAVING count(*) >= 50;
+
+-- final table with redacted dosage info
+
+SELECT 
+    p."FK_Patient_ID",
+    p."MedicationDate",
+    p."SnomedCode",
+    p."Quantity",
+    p."Concept",
+    p."Description",
+    IFNULL(sd."Dosage", 'REDACTED') as Dosage
+FROM prescriptions p
+LEFT JOIN SafeDosages sd ON sd."Dosage" = p."Dosage"

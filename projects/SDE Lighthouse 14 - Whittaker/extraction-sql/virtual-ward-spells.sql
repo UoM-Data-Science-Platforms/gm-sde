@@ -1,17 +1,26 @@
 --┌────────────────────────────────────┐
---│ LH004 Virtual ward file            │
+--│ LH014 Virtual ward file        │
 --└────────────────────────────────────┘
----- find the latest snapshot for each spell
 
-create temporary table virtualWards as
+-------- RESEARCH DATA ENGINEER CHECK ---------
+-- Richard Williams	2024-08-09	Review complete
+
+-- each provider starting providing VW data at different times, so data is incomplete for periods.
+
+USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
+
+set(StudyStartDate) = to_date('2018-01-01');
+set(StudyEndDate)   = to_date('2024-06-30');
+
+---- Use the latest snapshot for each spell and get all relevant information
 select  
-    dem."GmPseudo",
-    vw."Unique Spell ID",
+    SUBSTRING(vw."Pseudo NHS Number", 2)::INT "GmPseudo",
+    ROW_NUMBER() OVER(PARTITION BY "Pseudo NHS Number" ORDER BY "SnapshotDate") AS "PatientSpellNumber",
     vw."SnapshotDate",
     vw."Admission Source ID",
     adm."Admission Source Description",
-    vw."Admission Date",
-    vw."Discharge Date",
+    TO_DATE(vw."Admission Date") AS "Admission Date",
+    TO_DATE(vw."Discharge Date") AS "Discharge Date",
     vw."Length of stay",
     vw."LoS Group",
     vw."Year Of Birth",
@@ -23,8 +32,8 @@ select
     vw."Postcode_LSOA_2011",
     vw."ProviderName",
     vw."Referral Group",
-    vw."Referral Date",
-    vw."Referral Accepted Date",
+    TO_DATE(vw."Referral Date") AS "Referral Date",
+    TO_DATE(vw."Referral Accepted Date") AS "Referral Accepted Date",
     vw."Primary ICD10 Code Group ID",
     vw."Primary ICD10 Code Group",
     vw."Ward ID",
@@ -38,19 +47,17 @@ select
     vw."Diagnosis Pathway",
     vw."Step up or down",
     vw."Using tech-enabled service"
-    
 from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw
--- join to demographics
-left join INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" dem
-    on dem."GmPseudo" = SUBSTRING(vw."Pseudo NHS Number", 2)::INT
 -- get admission source description
 left join (select distinct "Admission Source ID", "Admission Source Description" 
            from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.DQ_VIRTUAL_WARDS_ADMISSION_SOURCE) adm
     on adm."Admission Source ID" = vw."Admission Source ID"
--- filter to the latest snapshot for each spell
+-- filter to the latest snapshot for each spell (as advised by colleague at NHS GM)
 inner join (select  "Unique Spell ID", Max("SnapshotDate") "LatestRecord" 
             from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY
             group by all) a 
     on a."Unique Spell ID" = vw."Unique Spell ID" and vw."SnapshotDate" = a."LatestRecord"
+where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate;
 
-    
+-- 16,107 patients
+--24,608 spells

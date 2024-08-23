@@ -1,6 +1,6 @@
---┌───────────────────────────────┐
---│ Hospital stay information     │
---└───────────────────────────────┘
+--┌───────────────────────────────────────────┐
+--│ Hospital stay information for cohort      │
+--└───────────────────────────────────────────┘
 
 ---- RESEARCH DATA ENGINEER CHECK ----
 
@@ -20,7 +20,7 @@ DECLARE @EndDate datetime;
 SET @StartDate = 'CHANGE';
 SET @EndDate = 'CHANGE';
 
-
+--> EXECUTE query-build-lh009-cohort.sql
 ----------------------------------------------------------------------------------------
 
 --> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:false

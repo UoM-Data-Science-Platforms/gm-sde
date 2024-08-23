@@ -73,7 +73,7 @@ BEGIN
 				CREATE TEMPORARY TABLE FKsFromEMIS AS
 				SELECT "FK_Reference_Coding_ID" AS CodeId, "LocalCode" AS SourceCode, 'EMIS' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Local_Code"
-				WHERE "LocalCode" IN (SELECT code FROM codesemis WHERE Concept = concept)
+				WHERE "LocalCode" IN (SELECT code FROM codesemis WHERE Concept = :concept)
 				AND "FK_Reference_Coding_ID"!=-1;
 
 				-- Find all FKs for the SNOMED codes
@@ -81,7 +81,7 @@ BEGIN
 				CREATE TEMPORARY TABLE FKsFromSNOMED AS
 				SELECT "PK_Reference_Coding_ID" AS CodeId, "SnomedCT_ConceptID" AS SourceCode, 'SNOMED' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Coding"
-				WHERE "SnomedCT_ConceptID" IN (SELECT code FROM codessnomed WHERE Concept = concept)
+				WHERE "SnomedCT_ConceptID" IN (SELECT code FROM codessnomed WHERE Concept = :concept)
 				AND "PK_Reference_Coding_ID"!=-1;
 
 				-- Find all FKs for the Readv2 codes
@@ -89,7 +89,7 @@ BEGIN
 				CREATE TEMPORARY TABLE FKsFromReadv2 AS
 				SELECT A."PK_Reference_Coding_ID" AS CodeId, CASE WHEN A."Term" IS NULL THEN A."MainCode" ELSE CONCAT(A."MainCode", A."Term") END AS SourceCode, 'Readv2' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Coding" A
-				INNER JOIN codesreadv2 B ON Code = "MainCode" AND ( term = A."Term" OR term IS NULL)  and Concept = concept
+				INNER JOIN codesreadv2 B ON Code = "MainCode" AND ( term = A."Term" OR term IS NULL)  and Concept = :concept
 				WHERE "CodingType"='ReadCodeV2'
 				AND "PK_Reference_Coding_ID"!=-1;
 
@@ -98,7 +98,7 @@ BEGIN
 				CREATE TEMPORARY TABLE FKsFromCTV3 AS
 				SELECT "PK_Reference_Coding_ID" AS CodeId, "MainCode" AS SourceCode, 'CTV3' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Coding" A
-				INNER JOIN codesctv3 B ON Code = "MainCode" AND ( term = A."Term" OR term IS NULL)  and Concept = concept
+				INNER JOIN codesctv3 B ON Code = "MainCode" AND ( term = A."Term" OR term IS NULL)  and Concept = :concept
 				WHERE "CodingType"='CTV3'
 				AND "PK_Reference_Coding_ID"!=-1;
 
@@ -119,7 +119,7 @@ BEGIN
 				CREATE TEMPORARY TABLE SNOFKsFromEMIS AS
 				SELECT "FK_Reference_SnomedCT_ID" AS SnomedId, "LocalCode" AS SourceCode, 'EMIS' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Local_Code"
-				WHERE "LocalCode" IN (SELECT code FROM codesemis WHERE Concept = concept)
+				WHERE "LocalCode" IN (SELECT code FROM codesemis WHERE Concept = :concept)
 				AND "FK_Reference_SnomedCT_ID"!=-1;
 
 				-- Find all SNOMED FKs for the SNOMED codes
@@ -127,7 +127,7 @@ BEGIN
 				CREATE TEMPORARY TABLE SNOFKsFromSNOMED AS
 				SELECT "PK_Reference_SnomedCT_ID" AS SnomedId, "ConceptID" AS SourceCode, 'SNOMED' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_SnomedCT"
-				WHERE "ConceptID" IN (SELECT code FROM codessnomed WHERE Concept = concept)
+				WHERE "ConceptID" IN (SELECT code FROM codessnomed WHERE Concept = :concept)
 				AND "PK_Reference_SnomedCT_ID"!=-1;
 
 				-- Find all SNOMED FKs for the Readv2 codes
@@ -135,7 +135,7 @@ BEGIN
 				CREATE TEMPORARY TABLE SNOFKsFromReadv2 AS
 				SELECT "FK_Reference_SnomedCT_ID" AS SnomedId, CASE WHEN "Term" IS NULL THEN "MainCode" ELSE CONCAT("MainCode", "Term") END AS SourceCode, 'Readv2' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Coding" A
-				INNER JOIN codesreadv2 B ON Code = "MainCode" AND ( term = A."Term" OR term IS NULL)  and Concept = concept
+				INNER JOIN codesreadv2 B ON Code = "MainCode" AND ( term = A."Term" OR term IS NULL)  and Concept = :concept
 				WHERE "CodingType"='ReadCodeV2'
 				AND "FK_Reference_SnomedCT_ID"!=-1;
 
@@ -144,7 +144,7 @@ BEGIN
 				CREATE TEMPORARY TABLE SNOFKsFromCTV3 AS
 				SELECT "FK_Reference_SnomedCT_ID" AS SnomedId, "MainCode" AS SourceCode, 'CTV3' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Coding" A
-				INNER JOIN codesctv3 B ON Code = "MainCode" AND ( term = A."Term" OR term IS NULL)  and Concept = concept
+				INNER JOIN codesctv3 B ON Code = "MainCode" AND ( term = A."Term" OR term IS NULL)  and Concept = :concept
 				WHERE "CodingType"='CTV3'
 				AND "FK_Reference_SnomedCT_ID"!=-1;
 
@@ -166,22 +166,22 @@ BEGIN
 			SELECT "LocalCode" AS Code, "LocalCodeDescription" AS Description, SourceCode, SourceTerminology
 			FROM INTERMEDIATE.GP_Record."Reference_Local_Code" rlc
 			INNER JOIN FKs f ON f.CodeId = rlc."FK_Reference_Coding_ID"
-			WHERE "LocalCode" NOT IN (SELECT Code FROM codesemis WHERE Concept = concept)
+			WHERE "LocalCode" NOT IN (SELECT Code FROM codesemis WHERE Concept = :concept)
 			UNION
 			SELECT "LocalCode", "LocalCodeDescription", SourceCode, SourceTerminology
 			FROM INTERMEDIATE.GP_Record."Reference_Local_Code" rlc
 			INNER JOIN SNOFKs f ON f.SnomedId = rlc."FK_Reference_SnomedCT_ID"
-			WHERE "LocalCode" NOT IN (SELECT Code FROM codesemis WHERE Concept = concept);
+			WHERE "LocalCode" NOT IN (SELECT Code FROM codesemis WHERE Concept = :concept);
 
 			newinsertions := newinsertions + (SELECT COUNT(*) FROM NewEMIS);
 
 			-- If we found new ones we add them to the codesemis table so the 
 			-- next pass can use them to potentially find new codes
 			INSERT INTO codesemis
-			SELECT concept,1,Code,null,Description FROM NewEMIS;
+			SELECT :concept,1,Code,null,Description FROM NewEMIS;
 
 			INSERT INTO CodeCheckOutput
-			SELECT concept,'EMIS',Code,null,Description,iteration, SourceCode, SourceTerminology FROM NewEMIS;
+			SELECT :concept,'EMIS',Code,null,Description,:iteration, SourceCode, SourceTerminology FROM NewEMIS;
 
 			-- Now we find Readv2 codes from the foreign keys that we don't already
 			-- have in our code set
@@ -202,7 +202,7 @@ BEGIN
 			FROM INTERMEDIATE.GP_Record."Reference_Coding" rlc
 			INNER JOIN FKs f ON f.CodeId = rlc."PK_Reference_Coding_ID"
 			WHERE "CodingType"='ReadCodeV2'
-			AND "MainCode" NOT IN (SELECT Code FROM codesreadv2 WHERE Concept = concept)
+			AND "MainCode" NOT IN (SELECT Code FROM codesreadv2 WHERE Concept = :concept)
 			UNION
 			SELECT
 				CASE
@@ -219,17 +219,17 @@ BEGIN
 			FROM INTERMEDIATE.GP_Record."Reference_Coding" rlc
 			INNER JOIN SNOFKs f ON f.SnomedId = rlc."FK_Reference_SnomedCT_ID"
 			WHERE "CodingType"='ReadCodeV2'
-			AND "MainCode" NOT IN (SELECT Code FROM codesreadv2 WHERE Concept = concept);
+			AND "MainCode" NOT IN (SELECT Code FROM codesreadv2 WHERE Concept = :concept);
 
 			newinsertions := newinsertions + (SELECT COUNT(*) FROM NewReadv2);
 
 			-- If we found new ones we add them to the codesreadv2 table so the 
 			-- next pass can use them to potentially find new codes
 			INSERT INTO codesreadv2
-			SELECT concept,1,Code,null,Description FROM NewReadv2;
+			SELECT :concept,1,Code,null,Description FROM NewReadv2;
 
 			INSERT INTO CodeCheckOutput
-			SELECT concept,'Readv2',Code,"Term",Description,iteration, SourceCode, SourceTerminology FROM NewReadv2;
+			SELECT :concept,'Readv2',Code,"Term",Description,:iteration, SourceCode, SourceTerminology FROM NewReadv2;
 
 			-- Now we find CTV3 codes from the foreign keys that we don't already
 			-- have in our code set
@@ -247,7 +247,7 @@ BEGIN
 			FROM INTERMEDIATE.GP_Record."Reference_Coding" rlc
 			INNER JOIN FKs f ON f.CodeId = rlc."PK_Reference_Coding_ID"
 			WHERE "CodingType"='CTV3'
-			AND "MainCode" NOT IN (SELECT Code FROM codesctv3 WHERE Concept = concept)
+			AND "MainCode" NOT IN (SELECT Code FROM codesctv3 WHERE Concept = :concept)
 			UNION
 			SELECT
 				"MainCode" AS Code,
@@ -261,7 +261,7 @@ BEGIN
 			FROM INTERMEDIATE.GP_Record."Reference_Coding" rlc
 			INNER JOIN SNOFKs f ON f.SnomedId = rlc."FK_Reference_SnomedCT_ID"
 			WHERE "CodingType"='CTV3'
-			AND "MainCode" NOT IN (SELECT Code FROM codesctv3 WHERE Concept = concept);
+			AND "MainCode" NOT IN (SELECT Code FROM codesctv3 WHERE Concept = :concept);
 			
 			newinsertions := newinsertions + (SELECT COUNT(*) FROM NewReadv2);
 			
@@ -269,10 +269,10 @@ BEGIN
 			-- If we found new ones we add them to the codesctv3 table so the 
 			-- next pass can use them to potentially find new codes
 			INSERT INTO codesctv3
-			SELECT concept,1,Code,"Term",Description FROM NewCTV3;
+			SELECT :concept,1,Code,"Term",Description FROM NewCTV3;
 
 			INSERT INTO CodeCheckOutput
-			SELECT concept,'CTV3',Code,"Term",Description,iteration, SourceCode, SourceTerminology FROM NewCTV3;
+			SELECT :concept,'CTV3',Code,"Term",Description,:iteration, SourceCode, SourceTerminology FROM NewCTV3;
 
 			-- Now we find SNOMED codes from the foreign keys that we don't already
 			-- have in our code set
@@ -281,7 +281,7 @@ BEGIN
 			SELECT "ConceptID" AS Code, "Term" AS Description, SourceCode, SourceTerminology
 			FROM INTERMEDIATE.GP_Record."Reference_SnomedCT" rlc
 			INNER JOIN SNOFKs f ON f.SnomedId = rlc."PK_Reference_SnomedCT_ID"
-			WHERE "ConceptID" NOT IN (SELECT Code FROM codessnomed WHERE Concept = concept);
+			WHERE "ConceptID" NOT IN (SELECT Code FROM codessnomed WHERE Concept = :concept);
 
 			newinsertions := newinsertions + (SELECT COUNT(*) FROM NewSNOMED);
 
@@ -289,21 +289,21 @@ BEGIN
 			-- If we found new ones we add them to the codessnomed table so the 
 			-- next pass can use them to potentially find new codes
 			INSERT INTO codessnomed
-			SELECT concept,1,Code,null,Description FROM NewSNOMED;
+			SELECT :concept,1,Code,null,Description FROM NewSNOMED;
 
 			INSERT INTO CodeCheckOutput
-			SELECT concept, 'SNOMED',Code,null,Description,iteration, SourceCode, SourceTerminology FROM NewSNOMED;
+			SELECT :concept, 'SNOMED',Code,null,Description,:iteration, SourceCode, SourceTerminology FROM NewSNOMED;
 		END WHILE;
 
 		-- If NewInsertions is not 0 then it means the iteration hasn't finished yet
 		IF (newinsertions > 0) THEN
-			SELECT CONCAT(concept, ' had more than 5 iterations were performed. Please read the notes at the top of this file.');
+			SELECT CONCAT(:concept, ' had more than 5 iterations were performed. Please read the notes at the top of this file.');
 		END IF;
 
-		DELETE FROM TEMP_Concepts WHERE Concept = concept;
+		DELETE FROM TEMP_Concepts WHERE Concept = :concept;
 		counter := (SELECT COUNT(*) FROM TEMP_Concepts);
 	END WHILE;
-END
+END;
 
 -- Final output
 SELECT 

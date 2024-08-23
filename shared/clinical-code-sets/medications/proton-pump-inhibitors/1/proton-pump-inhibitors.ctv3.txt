@@ -1,0 +1,30 @@
+a6b2.	Losec 20mg capsules x28
+a6b4.	Losec 40mg capsule
+a6b6.	Losec 10mg capsule
+a6bC.	Losec MUPS 10mg tablet
+a6bD.	Losec MUPS 20mg tablet
+a6bE.	Losec MUPS 40mg tablet
+a6bG.	Omeran 20mg e/c tablet
+a6bO.	MEPRADEC 10mg e/c capsules
+a6bP.	MEPRADEC 20mg e/c capsules
+a6bQ.	MEZZOPRAM 10mg gastro-resistant tablets
+a6bR.	MEZZOPRAM 20mg gastro-resistant tablets
+a6bS.	MEZZOPRAM 40mg gastro-resistant tablets
+a6c1.	Zoton 30mg capsule
+a6c4.	Zoton 15mg capsule
+a6c7.	Lansoprazole 15mg oro-dispersible tablet
+a6c8.	Lansoprazole 30mg oro-dispersible tablet
+a6c9.	Zoton FasTab 15mg oro-dispersible tablet
+a6cA.	Zoton FasTab 30mg oro-dispersible tablet
+a6e2.	Protium 40mg e/c tablet
+a6e6.	Protium 20mg e/c tablet
+a6f3.	Pariet 10mg e/c tablet
+a6f4.	Pariet 20mg e/c tablet
+a6h1.	Nexium 20mg tablet
+a6h2.	Nexium 40mg tablet
+a6h4.	NEXIUM 10mg gastro-resistant granules for oral suspension
+a6h5.	EMOZUL 20mg gastro-resistant capsules
+a6h6.	EMOZUL 40mg gastro-resistant capsules
+a6hu.	ESOMEPRAZOLE 40mg gastro-resistant capsules
+a6hv.	ESOMEPRAZOLE 20mg gastro-resistant capsules
+a6hw.	ESOMEPRAZOLE 10mg gastro-resistant granules for oral susp

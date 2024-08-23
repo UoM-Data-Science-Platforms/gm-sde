@@ -1,1 +1,2 @@
 F3360	Phantom limb syndrome with pain
+F336.	Phantom limb syndrome
