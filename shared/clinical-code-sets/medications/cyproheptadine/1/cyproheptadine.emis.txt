@@ -1,0 +1,43 @@
+^ESCT1181049	Product containing only cyproheptadine hydrochloride 4 mg/1 each oral tablet
+^ESCT1206951	Cyproheptadine in oral dosage form
+^ESCT1206952	Product containing cyproheptadine in oral dosage form
+^ESCT1217550	Cyproheptadine
+^ESCT1217551	Cyproheptadine product
+^ESCT1223245	Product containing precisely cyproheptadine hydrochloride 4 milligram/1 each conventional release oral tablet
+^ESCT1354430	Cyproheptadine only product
+^ESCT1358126	Cyproheptadine only product in oral dose form
+^ESCT1364069	Cyproheptadine hydrochloride 400 microgram/mL oral solution
+^ESCT1386523	Cyproheptadine-containing product in oral dose form
+^ESCTCY1013657	Cyproheptadine 4mg tablets 1 tablet
+^ESCTCY1013672	Cyproheptadine 4mg tablets (Special Order)
+^ESCTCY1013673	Cyproheptadine 4mg tablets (Special Order) 1 tablet
+^ESCTCY292386	Cyproheptadine
+^ESCTCY608803	Cyproheptadine 4mg tablets
+^ESCTCY608805	Cyproheptadine hydrochloride 4 mg oral tablet
+^ESCTCY641580	Cyproheptadine hydrochloride 2mg/5mL oral syrup
+^ESCTCY848692	Cyproheptadine 4mg tablets 30 tablet
+^ESCTCY905989	Cyproheptadine 2mg/5ml oral solution 1 ml
+^ESCTCY905990	Cyproheptadine 2mg/5ml oral solution (Special Order)
+^ESCTCY905991	Cyproheptadine 4mg/5ml oral solution 1 ml
+^ESCTCY905992	Cyproheptadine 4mg/5ml oral solution (Special Order)
+^ESCTCY905993	Cyproheptadine 4mg/5ml oral solution (Special Order) 1 ml
+^ESCTCY905994	Cyproheptadine 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTCY905995	Cyproheptadine 4mg/5ml oral suspension 1 ml
+^ESCTCY905996	Cyproheptadine 4mg/5ml oral suspension (Special Order)
+^ESCTCY905997	Cyproheptadine 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCY905998	Cyproheptadine 2mg/5ml oral suspension 1 ml
+^ESCTCY906000	Cyproheptadine 2mg/5ml oral suspension (Special Order)
+^ESCTCY906001	Cyproheptadine 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCY906391	Cyproheptadine 2mg/5ml oral solution
+^ESCTCY906392	Cyproheptadine 2mg/5ml oral suspension
+^ESCTCY906393	Cyproheptadine 4mg/5ml oral solution
+^ESCTCY906394	Cyproheptadine 4mg/5ml oral suspension
+^ESCTPE804647	Periactin 4mg tablets (Teva UK Ltd)
+^ESCTPE855558	Periactin 4mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPE915578	Periactin
+^ESCTPR292387	Product containing cyproheptadine
+^ESCTPR608804	Product containing cyproheptadine hydrochloride 4 mg/1 each oral tablet
+CYSY4796	Cyproheptadine Hydrochloride  Syrup  2 mg/5 ml
+CYTA4797	Cyproheptadine Hydrochloride  Tablets  4 mg
+PESY4135	Periactin  Syrup  2 mg/5 ml
+PETA4136	Periactin  Tablets  4 mg

@@ -1,17 +1,21 @@
 --┌────────────────────────────────────┐
---│ LH004 Patient file                 │
+--│ LH014 Patient file                 │
 --└────────────────────────────────────┘
+
+-------- RESEARCH DATA ENGINEER CHECK ---------
+-- Richard Williams	2024-08-09	Review complete
 
 -- *** this file gets extra patient demographics from the GP record for about 85% of the patients in the VW data.
 -- Some patients are missing for a couple of reasons:
 -- 1. opted out of sharing GP record info
 -- 2. Their GP practice has not signed up to sharing info
+-- 3. Different inclusion criterias between the VW dataset and the GP data
 
+-- For patients that don't appear in demographics table, basic demographics can be taken from VW table.
 -- Information in this file will be based on the latest snapshot available, so may be conflicting with information 
 -- from the VW table which was based on time of activity.
 
--- NOTE: 2000 or so patients in the VW table do not appear in the patient demographics table, for various reasons.
--- For patients that don't appear in demographics table, basic demographics can be taken from VW table
+USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
 
 set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-06-30');
@@ -21,7 +25,7 @@ drop table if exists virtualWards;
 create temporary table virtualWards as
 select  
 	distinct SUBSTRING(vw."Pseudo NHS Number", 2)::INT as "GmPseudo"
-from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw;
+from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw
 where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate;
 
 
@@ -50,16 +54,15 @@ SELECT *
 FROM (
 SELECT 
 	"Snapshot", 
-	D."GmPseudo" AS GmPseudo,
-	"FK_Patient_ID", 
+	D."GmPseudo",
 	"DateOfBirth",
-	DATE_TRUNC(month, dth.DeathDate) AS DeathDate,
-	"DiagnosisOriginalMentionCode" AS CauseOfDeathCode,
-	"DiagnosisOriginalMentionDesc" AS CauseOfDeathDesc,
-	"DiagnosisOriginalMentionChapterCode" AS CauseOfDeathChapterCode,
-    "DiagnosisOriginalMentionChapterDesc" AS CauseOfDeathChapterDesc,
-    "DiagnosisOriginalMentionCategory1Code" AS CauseOfDeathCategoryCode,
-    "DiagnosisOriginalMentionCategory1Desc" AS CauseOfDeathCategoryDesc,
+	DATE_TRUNC(month, dth.DeathDate) AS "DeathDate",
+	"DiagnosisOriginalMentionCode" AS "CauseOfDeathCode",
+	"DiagnosisOriginalMentionDesc" AS "CauseOfDeathDesc",
+	"DiagnosisOriginalMentionChapterCode" AS "CauseOfDeathChapterCode",
+    "DiagnosisOriginalMentionChapterDesc" AS "CauseOfDeathChapterDesc",
+    "DiagnosisOriginalMentionCategory1Code" AS "CauseOfDeathCategoryCode",
+    "DiagnosisOriginalMentionCategory1Desc" AS "CauseOfDeathCategoryDesc",
 	LSOA11, 
 	"IMD_Decile", 
 	"Age", 

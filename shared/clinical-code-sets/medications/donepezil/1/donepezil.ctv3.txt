@@ -1,0 +1,10 @@
+dy1..	Donepezil hydrochloride
+dy1z.	DONEPEZIL HYDROCHLORIDE 5mg oro-dispersible tablets
+dy15.	ARICEPT EVESS 5mg oro-dispersible tablets
+dy1y.	DONEPEZIL HYDROCHLORIDE 10mg oro-dispersible tablets
+dy16.	ARICEPT EVESS 10mg oro-dispersible tablets
+dy12.	Donepezil hydrochloride 10mg tablet
+dy14.	Aricept 10mg tablet
+dy11.	Donepezil hydrochloride 5mg tablet
+dy13.	Aricept 5mg tablet
+x03lX	Aricept

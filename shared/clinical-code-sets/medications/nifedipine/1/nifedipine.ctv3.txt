@@ -1,0 +1,142 @@
+bdez.	Atenolol+nifedipine 50mg/20mg m/r capsule
+bdet.	Tenif capsule
+bdes.	Beta-Adalat capsule
+bdeR.	Combitens m/r capsule
+bl8..	Nifedipine
+x01CW	Oral nifedipine
+x008F	Modified release nifedipine
+bl8z.	Nifedipine 20mg m/r tablet
+x00Tm	Adalate LP 20mg m/r tablet
+x00Tl	Adalat AR 20mg m/r tablet
+bllb.	Valni 20 Retard 20mg m/r tablet
+bll9.	Kentipine MR 20mg m/r tablet
+bll6.	Calchan MR 20mg m/r tablet
+bl8t.	Nifopress Retard 20mg m/r tablet
+bl8s.	Coroday MR 20mg m/r tablet
+bl8r.	Nifedotard 20MR m/r tablet
+bl8q.	Hypolar Retard 20 m/r tablet
+bl8n.	Nifelease 20mg m/r tablet
+bl8m.	Angiopine MR 20mg m/r tablet
+bl8l.	Cardilate MR 20mg m/r tablet
+bl8h.	Nifensar XL 20mg m/r tablet
+bl8Z.	Nivaten Retard 20mg m/r tablet
+bl8U.	Nifedipress MR 20 m/r tablet
+bl8R.	Genalat Retard 20mg m/r tablet
+bl8O.	Slofedipine 20mg m/r tablet
+bl8M.	Adalat LA 20mg m/r tablet
+bl8K.	Tensipine MR 20 m/r tablet
+bl8E.	Nimodrel MR 20 m/r tablet
+bl8A.	Adipine MR 20 m/r tablet
+bl83.	Adalat Retard 20 m/r tablet
+bl8y.	Nifedipine 60mg m/r tablet
+blle.	Nimodrel XL 60mg m/r tablet
+blld.	Adipine XL 60mg m/r tablet
+bll4.	Adipine LA 60 m/r tablet
+bll2.	Slofedipine XL 60mg m/r tablet
+bl8j.	Adalat LA 60mg m/r tablet
+bl8x.	Nifedipine 30mg m/r tablet
+bllf.	Nimodrel XL 30mg m/r tablet
+bllc.	Adipine XL 30mg m/r tablet
+bll5.	Hypolar XL 30 m/r tablet
+bll3.	Adipine LA 30 m/r tablet
+bll1.	Slofedipine XL 30mg m/r tablet
+bl8i.	Adalat LA 30mg m/r tablet
+bl8C.	Unipine XL 30mg m/r tablet
+bl8w.	Nifedipine 10mg m/r tablet
+blla.	Hypolar Retard 10mg m/r tablet
+bll8.	Kentipine MR 10mg m/r tablet
+bll7.	Calchan MR 10mg m/r tablet
+bl8T.	Nivaten Retard 10mg m/r tablet
+bl8S.	Nifedipress MR 10 m/r tablet
+bl8Q.	Genalat Retard 10mg m/r tablet
+bl8P.	Angiopine MR 10mg m/r tablet
+bl8J.	Tensipine MR 10 m/r tablet
+bl8H.	Cardilate MR 10mg m/r tablet
+bl8D.	Nimodrel MR 10 m/r tablet
+bl8B.	Adipine MR 10 m/r tablet
+bl84.	Adalat Retard 10 m/r tablet
+bl8v.	Nifedipine 20mg m/r capsule
+bl8e.	Coracten SR 20mg m/r capsule
+bl8u.	Nifedipine 10mg m/r capsule
+bl8k.	Coracten SR 10mg m/r capsule
+bl8W.	Nifedipine 60mg m/r capsule
+bl8Y.	Coracten XL 60mg m/r capsule
+bl8V.	Nifedipine 30mg m/r capsule
+bl8X.	Coracten XL 30mg m/r capsule
+bl8F.	Nifedipine 40mg m/r tablet
+bl8L.	Fortipine LA40 m/r tablet
+bl8G.	Angiopine 40 LA m/r tablet
+bl86.	Nifedipine 10mg capsule
+x00Du	Adalate 10mg capsule
+bl8o.	Calanif 10mg capsule
+bl8g.	Angiopine 10mg capsule
+bl8d.	Calcipine 10mg capsule
+bl8b.	Calcilat 10mg capsule
+bl8a.	Vasad 10mg capsule
+bl82.	Adalat 10mg capsule
+bl85.	Nifedipine 5mg capsule
+bl8p.	Calanif 5mg capsule
+bl8f.	Angiopine 5mg capsule
+bl8c.	Calcipine 5mg capsule
+bl89.	Vasad 5mg capsule
+bl81.	Adalat 5mg capsule
+x009B	Parenteral nifedipine
+bl88.	Nifedipine 200micrograms/2mL prefilled syringe
+bl87.	Adalat IC 200micrograms/2mL prefilled syringe
+bll..	Nifedipine [2]
+blll.	ADANIF XL 60mg m/r tablets
+bllk.	ADANIF XL 30mg m/r tablets
+bllj.	NIDEF 60mg m/r tablets
+blli.	NIDEF 30mg m/r tablets
+bllh.	VALNI XL 60mg m/r tablets
+bllg.	VALNI XL 30mg m/r tablets
+x04wL	Nifopress Retard
+x02QH	Adalat
+x02QI	Adalat Retard
+x02QJ	Adalat LA
+x02VT	Beta-Adalat
+x047Y	Adalat AR
+x047Z	Adalat Retard 10
+x047a	Adalat Retard 20
+x02Qk	Coracten SR
+x04vg	Coracten XL
+x02QK	Adipine MR
+x047f	Adipine MR 10
+x047g	Adipine MR 20
+x04yc	Adipine LA 30
+x04yd	Adipine LA 60
+x05wO	Adipine XL
+x03jP	Fortipine LA
+x03zv	Fortipine LA40
+x03lF	Nifedotard 20MR
+x02QR	Nifelease
+x02QS	Nifensar XL
+x044T	Nifedipress MR 20
+x04cf	Nifedipress MR 10
+x03hZ	Tensipine MR
+x03yS	Tensipine MR 10
+x03yT	Tensipine MR 20
+x05sM	Valni Retard
+x04qk	Coroday MR
+x02QQ	Hypolar Retard
+x049o	Hypolar Retard 20
+x05Dw	Hypolar XL 30
+x02QN	Calanif
+x02QL	Angiopine
+x02QM	Angiopine MR
+x046e	Angiopine 40 LA
+x02QP	Cardilate MR
+x03d3	Unipine XL
+x04om	Nivaten Retard
+x02QO	Calcilat
+x03lM	Slofedipine
+x04wM	Slofedipine XL
+x03pa	Genalat Retard
+x03e0	Nimodrel MR
+x045x	Nimodrel MR 10
+x045y	Nimodrel MR 20
+x0606	Nimodrel XL
+x05ok	Kentipine MR
+x05G5	Calchan MR
+x02sL	Tenif
+x04ve	Combitens

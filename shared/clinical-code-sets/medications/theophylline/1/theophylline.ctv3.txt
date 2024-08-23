@@ -1,0 +1,54 @@
+c43..	Theophylline product
+c43z.	Theophylline 200mg tablet
+c43y.	Theophylline 400mg m/r tablet
+c43e.	Uniphyllin Continus 400mg m/r tablet
+c43x.	Theophylline 350mg m/r tablet
+c43i.	Biophylline 350mg m/r tablet
+c43d.	Theograd 350mg m/r tablet
+c43w.	Theophylline 300mg m/r tablet
+c43h.	Uniphyllin Continus 300mg m/r tablet
+c43c.	Theo-Dur 300mg m/r tablet
+c434.	Lasma 300mg m/r tablet
+c43v.	Theophylline 200mg m/r tablet
+c43f.	Uniphyllin Continus 200mg m/r tablet
+c43b.	Theo-Dur 200mg m/r tablet
+c43u.	Theophylline 250mg m/r capsule
+c43a.	Slo-Phyllin 250mg m/r capsule
+c43t.	Theophylline 125mg m/r capsule
+c439.	Slo-Phyllin 125mg m/r capsule
+c43s.	Theophylline 60mg m/r capsule
+c438.	Slo-Phyllin 60mg m/r capsule
+c43r.	Theophylline 300mg m/r capsule
+c437.	Pro-Vent 300mg m/r capsule
+c43q.	Theophylline 250mg m/r tablet
+c436.	Nuelin SA-250 m/r tablet
+c43p.	Theophylline 175mg m/r tablet
+c435.	Nuelin SA 175mg m/r tablet
+c43o.	Theophylline 60mg/5mL liquid
+c433.	Nuelin 60mg/5mL liquid
+c43n.	Theophylline 125mg tablet
+c432.	Nuelin 125mg tablet
+c43m.	Theophylline 125mg/5mL syrup
+c431.	Biophylline 125mg/5mL syrup
+c43k.	Theophylline 500mg m/r tablet
+c43j.	Biophylline 500mg m/r tablet
+c43B.	Theophylline 10mg/5mL s/f oral solution
+c43A.	Theophylline 200mg/10mL injection
+c43g.	Labophylline 200mg/10mL injection
+c51y.	Ephedrine hydrochloride+theophylline 11mg/120mg tablet Ambiguous code-duplicated issue (new code x060n)
+c51z.	Ephedrine sulphate+theophylline 15mg/120mg tablet
+c51u.	Franol Plus tablet
+x00RO	Mersalyl sodium+theophylline 100mg/50mg/1mL injection
+b711.	Mersalyl injection 2mL
+x060n	Ephedrine hydrochloride+theophylline 11mg/120mg tablet
+c51t.	Franol tablet
+x02tm	Uniphyllin Continus
+x02h9	Lasma
+x02lT	Nuelin
+x02lU	Nuelin SA
+x046E	Nuelin SA-250
+c521.	Franol old tablet
+c522.	Franol Plus old tablet
+c523.	Franol Expectorant elixir
+x02dI	Franol
+x02dJ	Franol Plus

@@ -1,0 +1,791 @@
+^ESCT1178024	Product containing only nifedipine 10 mg/1 each oral capsule
+^ESCT1179574	Tensipine MR 10 tablets (Thornton & Ross Ltd) 56 tablet 4 x 14 tablets
+^ESCT1179577	Adalat LA 20mg tablets (Bayer Plc) 28 tablet 2 x 14 tablets
+^ESCT1179578	Tensipine MR 20 tablets (Thornton & Ross Ltd) 56 tablet 4 x 14 tablets
+^ESCT1179639	Adalat LA 30mg tablets (Bayer Plc) 28 tablet 2 x 14 tablets
+^ESCT1181288	Product containing only nifedipine 5 mg/1 each oral capsule
+^ESCT1181442	Product containing only nifedipine 20 mg/1 each oral capsule
+^ESCT1183492	Nifedipine 5mg capsules (Mylan) 84 capsule 6 x 14 capsules
+^ESCT1185944	Adalat LA 60mg tablets (Bayer Plc)
+^ESCT1185956	Coroday MR 20mg tablets (Mylan)
+^ESCT1186389	Nifedipine 10mg capsules (Mylan)
+^ESCT1186390	Adalat LA 20mg tablets (Bayer Plc)
+^ESCT1187441	Product containing only nifedipine 30 mg/1 each oral tablet
+^ESCT1187442	Product containing only nifedipine 60 mg/1 each oral tablet
+^ESCT1187676	Product containing atenolol and nifedipine
+^ESCT1187677	Atenolol and nifedipine
+^ESCT1187678	Atenolol + Nifedipine
+^ESCT1188110	Tensipine MR 20 tablets (Thornton & Ross Ltd)
+^ESCT1188115	Tensipine MR 10 tablets (Thornton & Ross Ltd)
+^ESCT1188775	Nifedipine 10mg capsules (Mylan) 84 capsule 6 x 14 capsules
+^ESCT1188776	Adalat LA 60mg tablets (Bayer Plc) 28 tablet 2 x 14 tablets
+^ESCT1188779	Coroday MR 20mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1188837	Adalat LA 30mg tablets (Bayer Plc)
+^ESCT1189485	Nifedipine 5mg capsules (Mylan)
+^ESCT1199558	Tensipine MR 10 tablets (Genus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCT1199612	Tensipine MR 20 tablets (Genus Pharmaceuticals Ltd)
+^ESCT1199616	Tensipine MR 20 tablets (Genus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCT1199676	Tensipine MR 10 tablets (Genus Pharmaceuticals Ltd)
+^ESCT1203211	Nifedipine 60 mg prolonged-release oral tablet
+^ESCT1203212	Product containing precisely nifedipine 60 milligram/1 each prolonged-release oral tablet
+^ESCT1203224	Nifedipine 90mg prolonged-release oral tablet
+^ESCT1203314	Nifedipine 20 mg prolonged-release oral tablet
+^ESCT1203315	Product containing precisely nifedipine 20 milligram/1 each prolonged-release oral tablet
+^ESCT1203384	Nifedipine 40 mg prolonged-release oral tablet
+^ESCT1203385	Product containing precisely nifedipine 40 milligram/1 each prolonged-release oral tablet
+^ESCT1203483	Nifedipine 30 mg prolonged-release oral tablet
+^ESCT1203484	Product containing precisely nifedipine 30 milligram/1 each prolonged-release oral tablet
+^ESCT1203550	Nifedipine 10 mg prolonged-release oral tablet
+^ESCT1203551	Product containing precisely nifedipine 10 milligram/1 each prolonged-release oral tablet
+^ESCT1203679	Nifedipine 20 mg prolonged-release oral capsule
+^ESCT1203680	Product containing precisely nifedipine 20 milligram/1 each prolonged-release oral capsule
+^ESCT1203760	Nifedipine 30 mg prolonged-release oral capsule
+^ESCT1203761	Product containing precisely nifedipine 30 milligram/1 each prolonged-release oral capsule
+^ESCT1203764	Atenolol 50 mg and nifedipine 20 mg prolonged-release oral capsule
+^ESCT1203765	Product containing precisely atenolol 50 milligram and nifedipine 20 milligram/1 each prolonged-release oral capsule
+^ESCT1203781	Nifedipine 10 mg prolonged-release oral capsule
+^ESCT1203782	Product containing precisely nifedipine 10 milligram/1 each prolonged-release oral capsule
+^ESCT1203863	Nifedipine 60 mg prolonged-release oral capsule
+^ESCT1203864	Product containing precisely nifedipine 60 milligram/1 each prolonged-release oral capsule
+^ESCT1212284	Nifedipine 40mg modified-release tablets
+^ESCT1212285	Nifedipine 30mg modified-release capsules
+^ESCT1212286	Nifedipine 60mg modified-release capsules
+^ESCT1212287	Nifedipine 10mg modified-release capsules
+^ESCT1212288	Nifedipine 20mg modified-release capsules
+^ESCT1212289	Nifedipine 10mg modified-release tablets
+^ESCT1212290	Nifedipine 30mg modified-release tablets
+^ESCT1212291	Nifedipine 60mg modified-release tablets
+^ESCT1212292	Nifedipine 20mg modified-release tablets
+^ESCT1214706	Atenolol 50mg / Nifedipine 20mg modified-release capsules
+^ESCT1220160	Nifedipine
+^ESCT1220161	Nifedipine product
+^ESCT1223059	Product containing precisely nifedipine 5 milligram/1 each conventional release oral capsule
+^ESCT1223060	Nifedipine 5 mg oral capsule
+^ESCT1223061	Product containing precisely nifedipine 10 milligram/1 each conventional release oral capsule
+^ESCT1223062	Nifedipine 10 mg oral capsule
+^ESCT1227625	Product containing precisely nifedipine 30 milligram/1 each conventional release oral tablet
+^ESCT1227626	Product containing precisely nifedipine 60 milligram/1 each conventional release oral tablet
+^ESCT1228022	Nifedipine 20 mg/1 each oral capsule
+^ESCT1228023	Product containing precisely nifedipine 20 milligram/1 each conventional release oral capsule
+^ESCT1228024	Nifedipine 20 mg oral capsule
+^ESCT1229804	Atenolol and nifedipine product
+^ESCT1250012	Fortipine LA 40 tablets (Advanz Pharma)
+^ESCT1250019	Nifopress Retard 20mg tablets (Advanz Pharma)
+^ESCT1250103	Nifopress Retard 20mg tablets (Advanz Pharma) 56 tablet 2 x 28 tablets
+^ESCT1250104	Nifopress Retard 20mg tablets (Advanz Pharma) 112 tablet 8 x 14 tablets
+^ESCT1250125	Fortipine LA 40 tablets (Advanz Pharma) 30 tablet 3 x 10 tablets
+^ESCT1250534	Adanif XL 30mg tablets (Advanz Pharma)
+^ESCT1250535	Adanif XL 30mg tablets (Advanz Pharma) 28 tablet
+^ESCT1250536	Adanif XL 60mg tablets (Advanz Pharma)
+^ESCT1250537	Adanif XL 60mg tablets (Advanz Pharma) 28 tablet
+^ESCT1258417	Nifedipine 5mg capsules (Strides Pharma UK Ltd)
+^ESCT1258418	Nifedipine 5mg capsules (Strides Pharma UK Ltd) 84 capsule 12 x 7 capsules
+^ESCT1258419	Nifedipine 10mg capsules (Strides Pharma UK Ltd)
+^ESCT1258420	Nifedipine 10mg capsules (Strides Pharma UK Ltd) 84 capsule 12 x 7 capsules
+^ESCT1265352	Nifedipine 5mg capsules (Relonchem Ltd)
+^ESCT1265354	Nifedipine 5mg capsules (Relonchem Ltd) 90 capsule 9 x 10 capsules
+^ESCT1265356	Nifedipine 10mg capsules (Relonchem Ltd)
+^ESCT1265358	Nifedipine 10mg capsules (Relonchem Ltd) 90 capsule 9 x 10 capsules
+^ESCT1265998	Adalat LA 20 tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1265999	Adalat LA 20 tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1266006	Adalat LA 60 tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1266009	Adalat LA 60 tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1266844	Adalat LA 30 tablets (CST Pharma Ltd)
+^ESCT1266845	Adalat LA 30 tablets (CST Pharma Ltd) 28 tablet
+^ESCT1274112	Adalat LA 30 tablets (Pilsco Ltd)
+^ESCT1274113	Adalat LA 30 tablets (Pilsco Ltd) 28 tablet
+^ESCT1274114	Adalat LA 60 tablets (Pilsco Ltd)
+^ESCT1274115	Adalat LA 60 tablets (Pilsco Ltd) 28 tablet
+^ESCT1274815	Nifedipine 5mg capsules (CST Pharma Ltd)
+^ESCT1274817	Nifedipine 5mg capsules (CST Pharma Ltd) 90 capsule
+^ESCT1274818	Nifedipine 5mg capsules (CST Pharma Ltd) 84 capsule
+^ESCT1275958	Adalat LA 20mg tablets (Waymade Healthcare Plc)
+^ESCT1275959	Adalat LA 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCT1275970	Adalat LA 20mg tablets (Dowelhurst Ltd)
+^ESCT1275971	Adalat LA 20mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCT1275981	Adalat LA 20mg tablets (DE Pharmaceuticals)
+^ESCT1275982	Adalat LA 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1275983	Adalat LA 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCT1275984	Adalat LA 20mg tablets (Sigma Pharmaceuticals Plc) 14 tablet
+^ESCT1275989	Adalat LA 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCT1275990	Adalat LA 20mg tablets (Necessity Supplies Ltd)
+^ESCT1275991	Adalat LA 20mg tablets (Necessity Supplies Ltd) 28 tablet
+^ESCT1276016	Adalat LA 20mg tablets (Lexon (UK) Ltd)
+^ESCT1276017	Adalat LA 20mg tablets (Lexon (UK) Ltd) 28 tablet
+^ESCT1276155	Adalat LA 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1276156	Adalat LA 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1276814	Nifedipine 5mg capsules (Alliance Healthcare (Distribution) Ltd) 90 capsule 9 x 10 capsules
+^ESCT1276815	Nifedipine 10mg capsules (Alliance Healthcare (Distribution) Ltd) 90 capsule 9 x 10 capsules
+^ESCT1300895	Nifedipine 10mg capsules (DE Pharmaceuticals)
+^ESCT1300896	Nifedipine 10mg capsules (DE Pharmaceuticals) 84 capsule
+^ESCT1351245	Atenolol- and nifedipine-containing product in oral dose form
+^ESCT1353602	Atenolol and nifedipine only product
+^ESCT1356058	Nifedipine only product
+^ESCT1357557	Atenolol and nifedipine only product in oral dose form
+^ESCT1359356	Nifedipine only product in oral dose form
+^ESCT1359357	Nifedipine only product in parenteral dose form
+^ESCT1375693	Nifedipine 60mg modified-release capsules
+^ESCT1376193	Nifedipine 60mg modified-release tablets (Morningside Healthcare Ltd)
+^ESCT1376194	Nifedipine 60mg modified-release tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1376216	Nifedipine 30mg modified-release tablets (Morningside Healthcare Ltd)
+^ESCT1376219	Nifedipine 30mg modified-release tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1381246	Nifedipine-containing product in parenteral dose form
+^ESCT1381319	Nifedipine-containing product in oral dose form
+^ESCT1398411	Dexipress MR
+^ESCT1402071	Nifedipine 20mg modified-release capsules
+^ESCT1402072	Nifedipine 60mg modified-release tablets
+^ESCT1402073	Nifedipine 10mg modified-release tablets
+^ESCT1402074	Nifedipine 20mg modified-release tablets
+^ESCT1402075	Nifedipine 10mg modified-release capsules
+^ESCT1402394	Nifedipine 10mg capsules (Medihealth (Northern) Ltd)
+^ESCT1402395	Nifedipine 10mg capsules (Medihealth (Northern) Ltd) 90 capsule
+^ESCT1402396	Nifedipine 10mg capsules (Medihealth (Northern) Ltd) 84 capsule
+^ESCT1402835	Nifedipine 30mg modified-release capsules
+^ESCT1402836	Nifedipine 40mg modified-release tablets
+^ESCT1402877	Nifedipine 30mg modified-release tablets
+^ESCT1403780	Dexipress MR 20mg tablets (Dexcel-Pharma Ltd)
+^ESCT1403781	Dexipress MR 20mg tablets (Dexcel-Pharma Ltd) 56 tablet 2 x 28 tablets
+^ESCT1421766	Slofedipine XL 60 tablets (Zentiva Pharma UK Ltd)
+^ESCT1421920	Slofedipine XL 60 tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1421969	Slofedipine XL 30mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421970	Slofedipine XL 30mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422249	Valni XL 30mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422250	Valni XL 30mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422251	Valni XL 60mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422252	Valni XL 60mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1423931	Nifedipine 20mg/ml oral drops (Drug Tariff Special Order) 30 ml
+^ESCT1425514	Kentipine MR 20 tablets (Kent Pharma (UK) Ltd)
+^ESCT1425537	Nifedipine 5mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425695	Nifedipine 10mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425803	Kentipine MR 10 tablets (Kent Pharma (UK) Ltd)
+^ESCT1426241	Nifedipine 10mg capsules (Kent Pharma (UK) Ltd) 84 capsule 6 x 14 capsules
+^ESCT1426246	Kentipine MR 10 tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1426247	Kentipine MR 20 tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1426248	Nifedipine 5mg capsules (Kent Pharma (UK) Ltd) 84 capsule 6 x 14 capsules
+^ESCT1427096	Neozipine XL 30mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427097	Neozipine XL 30mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1427098	Neozipine XL 60mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427099	Neozipine XL 60mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1427241	Nifedipine 20mg/ml oral drops (Drug Tariff Special Order)
+^ESCT1427242	Nifedipine 20mg/ml oral drops (Drug Tariff Special Order) 1 ml
+^ESCT1427774	Nifedipine 10mg modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1427775	Nifedipine 10mg modified-release tablets (Kent Pharma (UK) Ltd) 56 tablet
+^ESCT1427776	Nifedipine 20mg modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1427777	Nifedipine 20mg modified-release tablets (Kent Pharma (UK) Ltd) 56 tablet
+^ESCT1429377	Nifedipine 10mg capsules (A A H Pharmaceuticals Ltd) 90 capsule
+^ESCT1429378	Nifedipine 5mg capsules (A A H Pharmaceuticals Ltd) 90 capsule
+^ESCT1429397	Nifedipine 5mg capsules (Medihealth (Northern) Ltd)
+^ESCT1429398	Nifedipine 5mg capsules (Medihealth (Northern) Ltd) 90 capsule
+^ESCT1434742	Nifedipine 5mg capsules (DE Pharmaceuticals)
+^ESCT1434743	Nifedipine 5mg capsules (DE Pharmaceuticals) 90 capsule
+^ESCT1436541	Nifedipine 10mg capsules (DE Pharmaceuticals) 90 capsule
+^ESCT1436868	Coroday MR 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436989	Nifedipine 5mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437060	Nifedipine 10mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437316	Nifedipine 10mg capsules (Viatris UK Healthcare Ltd) 84 capsule 6 x 14 capsules
+^ESCT1437320	Coroday MR 20mg tablets (Viatris UK Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1437321	Nifedipine 5mg capsules (Viatris UK Healthcare Ltd) 84 capsule 6 x 14 capsules
+^ESCTAD1001830	Adalat LA 30 tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAD1001831	Adalat LA 30 tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAD1002228	Adalat LA 20 tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAD1002618	Adalat 10mg capsules (Necessity Supplies Ltd)
+^ESCTAD1002620	Adalat 10mg capsules (Necessity Supplies Ltd) 50 capsule
+^ESCTAD1002623	Adalat LA 20 tablets (Necessity Supplies Ltd)
+^ESCTAD1002625	Adalat LA 20 tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTAD1002627	Adalat LA 30 tablets (Necessity Supplies Ltd)
+^ESCTAD1002629	Adalat LA 30 tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTAD1002631	Adalat LA 60 tablets (Necessity Supplies Ltd)
+^ESCTAD1002632	Adalat LA 60 tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTAD1002635	Adalat retard 20mg tablets (Necessity Supplies Ltd)
+^ESCTAD1002636	Adalat retard 20mg tablets (Necessity Supplies Ltd) 60 tablet
+^ESCTAD1003480	Adanif XL 30mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTAD1003481	Adanif XL 30mg tablets (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTAD1003482	Adanif XL 60mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTAD1003483	Adanif XL 60mg tablets (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTAD1008320	Adalat LA 30 tablets (Mawdsley-Brooks & Company Ltd) 14 tablet
+^ESCTAD1011635	Adalat retard 20mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTAD1012357	Adalat 10mg capsules (DE Pharmaceuticals) 90 capsule
+^ESCTAD1023823	Adalat LA 60 tablets (Lexon (UK) Ltd)
+^ESCTAD1023824	Adalat LA 60 tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTAD1118530	Adalat LA 20 tablets (Lexon (UK) Ltd)
+^ESCTAD1118531	Adalat LA 20 tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTAD1118532	Adalat LA 30 tablets (Lexon (UK) Ltd)
+^ESCTAD1118533	Adalat LA 30 tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTAD798149	Adalat retard 20mg tablets (Bayer Plc)
+^ESCTAD801371	Adalat 5mg capsules (Bayer Plc)
+^ESCTAD802323	Adipine MR 20 tablets (Chiesi Ltd)
+^ESCTAD807361	Adalat LA 60 tablets (Bayer Plc)
+^ESCTAD820094	Adalat retard 10mg tablets (Bayer Plc)
+^ESCTAD824416	Adalat 10mg capsules (Bayer Plc)
+^ESCTAD827739	Adipine MR 10 tablets (Chiesi Ltd)
+^ESCTAD830791	Adalat LA 20 tablets (Bayer Plc)
+^ESCTAD852564	Adalat 10mg capsules (Bayer Plc) 90 capsule 9 x 10 capsules
+^ESCTAD852580	Adalat LA 60 tablets (Bayer Plc) 28 tablet 2 x 14 tablets
+^ESCTAD852669	Adalat retard 10mg tablets (Bayer Plc) 56 tablet 4 x 14 tablets
+^ESCTAD852684	Adipine MR 10 tablets (Chiesi Ltd) 56 tablet 4 x 14 tablets
+^ESCTAD852708	Adalat retard 20mg tablets (Bayer Plc) 56 tablet 4 x 14 tablets
+^ESCTAD852709	Adalat LA 20 tablets (Bayer Plc) 28 tablet 2 x 14 tablets
+^ESCTAD852732	Adipine MR 20 tablets (Chiesi Ltd) 56 tablet 4 x 14 tablets
+^ESCTAD852737	Adalat 5mg capsules (Bayer Plc) 90 capsule 9 x 10 capsules
+^ESCTAD857714	Adalat LA 30 tablets (Bayer Plc)
+^ESCTAD857715	Adalat LA 30 tablets (Bayer Plc) 28 tablet 2 x 14 tablets
+^ESCTAD877511	Adalat 10mg capsules (Waymade Healthcare Plc)
+^ESCTAD877514	Adalat 10mg capsules (Waymade Healthcare Plc) 50 capsule
+^ESCTAD877552	Adalat LA 20 tablets (Waymade Healthcare Plc)
+^ESCTAD877553	Adalat LA 20 tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAD877570	Adalat LA 30 tablets (Waymade Healthcare Plc)
+^ESCTAD877573	Adalat LA 30 tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAD877575	Adalat LA 60 tablets (Waymade Healthcare Plc)
+^ESCTAD877576	Adalat LA 60 tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAD877629	Adalat retard 20mg tablets (Waymade Healthcare Plc)
+^ESCTAD877632	Adalat retard 20mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTAD877633	Adalat retard 20mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTAD878523	Adalat LA 30 tablets (Dowelhurst Ltd)
+^ESCTAD878525	Adalat LA 30 tablets (Dowelhurst Ltd) 28 tablet
+^ESCTAD878529	Adalat LA 60 tablets (Dowelhurst Ltd)
+^ESCTAD878531	Adalat LA 60 tablets (Dowelhurst Ltd) 28 tablet
+^ESCTAD878532	Adalat LA 60 tablets (Dowelhurst Ltd) 28 tablet
+^ESCTAD878544	Adalat retard 20mg tablets (Dowelhurst Ltd)
+^ESCTAD878545	Adalat retard 20mg tablets (Dowelhurst Ltd) 60 tablet
+^ESCTAD912181	Adipine XL 30mg tablets (Chiesi Ltd)
+^ESCTAD912182	Adipine XL 30mg tablets (Chiesi Ltd) 28 tablet 2 x 14 tablets
+^ESCTAD912183	Adipine XL 60mg tablets (Chiesi Ltd)
+^ESCTAD912184	Adipine XL 60mg tablets (Chiesi Ltd) 28 tablet 2 x 14 tablets
+^ESCTAD913608	Adalat
+^ESCTAD913610	Adalat LA
+^ESCTAD913612	Adalat retard
+^ESCTAD913638	Adipine MR
+^ESCTAD913640	Adipine XL
+^ESCTAD929483	Adalat 10mg capsules (Dowelhurst Ltd)
+^ESCTAD929484	Adalat 10mg capsules (Dowelhurst Ltd) 50 capsule
+^ESCTAD929485	Adalat LA 20 tablets (Dowelhurst Ltd)
+^ESCTAD929486	Adalat LA 20 tablets (Dowelhurst Ltd) 28 tablet
+^ESCTAD931804	Adanif XL
+^ESCTAD959169	Adalat retard 20mg tablets (Dowelhurst Ltd) 56 tablet
+^ESCTAD966162	Adalat 10mg capsules (DE Pharmaceuticals)
+^ESCTAD966163	Adalat 10mg capsules (DE Pharmaceuticals) 50 capsule
+^ESCTAD966164	Adalat LA 20 tablets (DE Pharmaceuticals)
+^ESCTAD966165	Adalat LA 20 tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAD966166	Adalat LA 30 tablets (DE Pharmaceuticals)
+^ESCTAD966168	Adalat LA 30 tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAD966170	Adalat LA 60 tablets (DE Pharmaceuticals)
+^ESCTAD966171	Adalat LA 60 tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAD966172	Adalat retard 20mg tablets (DE Pharmaceuticals)
+^ESCTAD966173	Adalat retard 20mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTAD968240	Adalat 10mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTAD968241	Adalat 10mg capsules (Sigma Pharmaceuticals Plc) 50 capsule
+^ESCTAD968260	Adalat LA 20 tablets (Sigma Pharmaceuticals Plc)
+^ESCTAD968261	Adalat LA 20 tablets (Sigma Pharmaceuticals Plc) 14 tablet
+^ESCTAD968262	Adalat LA 30 tablets (Sigma Pharmaceuticals Plc)
+^ESCTAD968263	Adalat LA 30 tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAD968264	Adalat LA 60 tablets (Sigma Pharmaceuticals Plc)
+^ESCTAD968265	Adalat LA 60 tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAD968266	Adalat retard 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAD968267	Adalat retard 20mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTAD988668	Adalat 10mg capsules (Lexon (UK) Ltd)
+^ESCTAD988669	Adalat 10mg capsules (Lexon (UK) Ltd) 50 capsule
+^ESCTAD988670	Adalat retard 20mg tablets (Lexon (UK) Ltd)
+^ESCTAD988671	Adalat retard 20mg tablets (Lexon (UK) Ltd) 56 tablet
+^ESCTAD988672	Adalat retard 20mg tablets (Lexon (UK) Ltd) 60 tablet
+^ESCTAD990024	Adalat 10mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTAD990025	Adalat 10mg capsules (Mawdsley-Brooks & Company Ltd) 50 capsule
+^ESCTAD990026	Adalat retard 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAD990028	Adalat retard 20mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTAD990030	Adalat retard 20mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTAD992914	Adalat 10mg capsules (Stephar (U.K.) Ltd)
+^ESCTAD992915	Adalat 10mg capsules (Stephar (U.K.) Ltd) 50 capsule
+^ESCTAD992916	Adalat 10mg capsules (Stephar (U.K.) Ltd) 100 capsule
+^ESCTAD992917	Adalat retard 20mg tablets (Stephar (U.K.) Ltd)
+^ESCTAD992918	Adalat retard 20mg tablets (Stephar (U.K.) Ltd) 60 tablet
+^ESCTAN820093	Angiopine MR 10mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAN826093	Angiopine 10 capsules (Ashbourne Pharmaceuticals Ltd)
+^ESCTAN829990	Angiopine MR 20mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTAN852563	Angiopine 10 capsules (Ashbourne Pharmaceuticals Ltd) 84 capsule
+^ESCTAN852659	Angiopine MR 10mg tablets (Ashbourne Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAN852707	Angiopine MR 20mg tablets (Ashbourne Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAN913836	Angiopine
+^ESCTAN913838	Angiopine MR
+^ESCTAT607157	Atenolol 50mg / Nifedipine 20mg modified-release capsules
+^ESCTAT607158	Atenolol 50mg / nifedipine 20mg m/r capsule
+^ESCTAT660985	Atenolol + Nifedipine
+^ESCTAT660986	Atenolol+nifedipine
+^ESCTAT859486	Atenolol 50mg / Nifedipine 20mg modified-release capsules 28 capsule
+^ESCTBE1002880	Beta-Adalat modified-release capsules (Necessity Supplies Ltd)
+^ESCTBE1002881	Beta-Adalat modified-release capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTBE859489	Beta-Adalat modified-release capsules (Bayer Plc)
+^ESCTBE859490	Beta-Adalat modified-release capsules (Bayer Plc) 28 capsule 2 x 14 capsules
+^ESCTBE879174	Beta-Adalat modified-release capsules (Dowelhurst Ltd)
+^ESCTBE879177	Beta-Adalat modified-release capsules (Dowelhurst Ltd) 28 capsule
+^ESCTBE914099	Beta-Adalat
+^ESCTBE929788	Beta-Adalat modified-release capsules (Waymade Healthcare Plc)
+^ESCTBE929792	Beta-Adalat modified-release capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTBE966277	Beta-Adalat modified-release capsules (DE Pharmaceuticals)
+^ESCTBE966278	Beta-Adalat modified-release capsules (DE Pharmaceuticals) 28 capsule
+^ESCTBE969898	Beta-Adalat modified-release capsules (Sigma Pharmaceuticals Plc)
+^ESCTBE969899	Beta-Adalat modified-release capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTBE988731	Beta-Adalat modified-release capsules (Lexon (UK) Ltd)
+^ESCTBE988732	Beta-Adalat modified-release capsules (Lexon (UK) Ltd) 28 capsule
+^ESCTBE990927	Beta-Adalat modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTBE990928	Beta-Adalat modified-release capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTCA800319	Calchan MR 20 tablets (Ranbaxy (UK) Ltd)
+^ESCTCA801345	Cardilate MR 10mg tablets (Teva UK Ltd)
+^ESCTCA820552	Calchan MR 10 tablets (Ranbaxy (UK) Ltd)
+^ESCTCA832101	Cardilate MR 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCA852676	Cardilate MR 10mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA852682	Calchan MR 10 tablets (Ranbaxy (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA852712	Calchan MR 20 tablets (Ranbaxy (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCTCA852721	Cardilate MR 20mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 7 x 8 tablets
+^ESCTCA914207	Calchan MR
+^ESCTCA914309	Cardilate MR
+^ESCTCO803954	Coracten SR 10mg capsules (UCB Pharma Ltd)
+^ESCTCO804895	Coracten XL 30mg capsules (UCB Pharma Ltd)
+^ESCTCO810001	Coroday MR 20mg tablets (Mylan Ltd)
+^ESCTCO812983	Coracten SR 20mg capsules (UCB Pharma Ltd)
+^ESCTCO852578	Coracten SR 20mg capsules (UCB Pharma Ltd) 60 capsule 5 x 12 capsules
+^ESCTCO852714	Coroday MR 20mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTCO852733	Coracten SR 10mg capsules (UCB Pharma Ltd) 60 capsule 5 x 12 capsules
+^ESCTCO854906	Coracten XL 30mg capsules (UCB Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTCO861452	Coracten XL 60mg capsules (UCB Pharma Ltd)
+^ESCTCO861454	Coracten XL 60mg capsules (UCB Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTCO914541	Coracten SR
+^ESCTCO914542	Coracten XL
+^ESCTCO914558	Coroday MR
+^ESCTCO936635	Coracten SR 20mg capsules (Waymade Healthcare Plc)
+^ESCTCO936636	Coracten SR 20mg capsules (Waymade Healthcare Plc) 60 capsule
+^ESCTCO966468	Coracten SR 20mg capsules (DE Pharmaceuticals)
+^ESCTCO966469	Coracten SR 20mg capsules (DE Pharmaceuticals) 60 capsule
+^ESCTFO805334	Fortipine LA 40 tablets (AMCo)
+^ESCTFO854912	Fortipine LA 40 tablets (AMCo) 30 tablet 3 x 10 tablets
+^ESCTFO919021	Fortipine LA
+^ESCTHY821005	Hypolar Retard 20 tablets (Sandoz Ltd)
+^ESCTHY852724	Hypolar Retard 20 tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTHY857716	Hypolar XL 30 tablets (Sandoz Ltd)
+^ESCTHY857717	Hypolar XL 30 tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTHY873571	Hypolar Retard 10mg tablets (Sandoz Ltd)
+^ESCTHY873572	Hypolar Retard 10mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTHY918379	Hypolar Retard
+^ESCTHY919595	Hypolar XL
+^ESCTKE802126	Kentipine MR 20 tablets (Kent Pharmaceuticals Ltd)
+^ESCTKE821508	Kentipine MR 10 tablets (Kent Pharmaceuticals Ltd)
+^ESCTKE852678	Kentipine MR 10 tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTKE852727	Kentipine MR 20 tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTKE918576	Kentipine MR
+^ESCTNE919803	Neozipine XL
+^ESCTNE932400	Neozipine XL 30mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNE932401	Neozipine XL 30mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTNE932405	Neozipine XL 60mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTNE932409	Neozipine XL 60mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTNI1008316	Nifedipine 30mg modified-release tablets 14 tablet
+^ESCTNI1009243	Nifedipine 5mg capsules (Strides Shasun (UK) Ltd)
+^ESCTNI1009244	Nifedipine 5mg capsules (Strides Shasun (UK) Ltd) 84 capsule 12 x 7 capsules
+^ESCTNI1009245	Nifedipine 10mg capsules (Strides Shasun (UK) Ltd)
+^ESCTNI1009246	Nifedipine 10mg capsules (Strides Shasun (UK) Ltd) 84 capsule 12 x 7 capsules
+^ESCTNI1041809	Nifedipine 5mg capsules (Waymade Healthcare Plc)
+^ESCTNI1041810	Nifedipine 5mg capsules (Waymade Healthcare Plc) 84 capsule
+^ESCTNI1041811	Nifedipine 10mg capsules (Waymade Healthcare Plc)
+^ESCTNI1041812	Nifedipine 10mg capsules (Waymade Healthcare Plc) 84 capsule
+^ESCTNI1042265	Nifedipine 20mg modified-release tablets (Cubic Pharmaceuticals Ltd)
+^ESCTNI1042266	Nifedipine 20mg modified-release tablets (Cubic Pharmaceuticals Ltd) 56 tablet
+^ESCTNI1042269	Nifedipine 10mg modified-release tablets (Cubic Pharmaceuticals Ltd)
+^ESCTNI1042270	Nifedipine 10mg modified-release tablets (Cubic Pharmaceuticals Ltd) 56 tablet
+^ESCTNI1045527	Nifedipine 2% ointment 1 gram
+^ESCTNI1045528	Nifedipine 2% ointment (Special Order)
+^ESCTNI1045529	Nifedipine 2% ointment (Special Order) 1 gram
+^ESCTNI1045560	Nifedipine 2% ointment
+^ESCTNI1047291	Nifedipine 10mg modified-release tablets (DE Pharmaceuticals)
+^ESCTNI1047292	Nifedipine 10mg modified-release tablets (DE Pharmaceuticals) 56 tablet
+^ESCTNI1047293	Nifedipine 20mg modified-release tablets (DE Pharmaceuticals)
+^ESCTNI1047294	Nifedipine 20mg modified-release tablets (DE Pharmaceuticals) 56 tablet
+^ESCTNI1056448	Nifedipine 10mg/5ml oral suspension 100 ml
+^ESCTNI1056449	Nifedipine 10mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTNI1056748	Nifedipine 10mg modified-release tablets (J M McGill Ltd)
+^ESCTNI1056749	Nifedipine 10mg modified-release tablets (J M McGill Ltd) 56 tablet
+^ESCTNI1056750	Nifedipine 20mg modified-release tablets (J M McGill Ltd)
+^ESCTNI1056751	Nifedipine 20mg modified-release tablets (J M McGill Ltd) 56 tablet
+^ESCTNI1061793	Nifedipine 10mg modified-release tablets (Niche Pharma Ltd)
+^ESCTNI1061794	Nifedipine 10mg modified-release tablets (Niche Pharma Ltd) 56 tablet
+^ESCTNI1061795	Nifedipine 20mg modified-release tablets (Niche Pharma Ltd)
+^ESCTNI1061796	Nifedipine 20mg modified-release tablets (Niche Pharma Ltd) 56 tablet
+^ESCTNI1063125	Nifedipine 30mg modified-release tablets (DE Pharmaceuticals)
+^ESCTNI1063126	Nifedipine 30mg modified-release tablets (DE Pharmaceuticals) 28 tablet
+^ESCTNI1063138	Nifedipine 10mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTNI1063139	Nifedipine 10mg modified-release tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTNI1063140	Nifedipine 20mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTNI1063141	Nifedipine 20mg modified-release tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTNI1063142	Nifedipine 30mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTNI1063143	Nifedipine 30mg modified-release tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTNI1067548	Nifedipine 10mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTNI1067549	Nifedipine 10mg modified-release tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTNI1067550	Nifedipine 20mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTNI1067551	Nifedipine 20mg modified-release tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTNI1067552	Nifedipine 30mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTNI1067553	Nifedipine 30mg modified-release tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTNI1067933	Nifedipine 20mg modified-release tablets (Ethigen Ltd)
+^ESCTNI1067934	Nifedipine 20mg modified-release tablets (Ethigen Ltd) 56 tablet
+^ESCTNI1067937	Nifedipine 10mg modified-release tablets (Ethigen Ltd)
+^ESCTNI1067938	Nifedipine 10mg modified-release tablets (Ethigen Ltd) 56 tablet
+^ESCTNI1067939	Nifedipine 30mg modified-release tablets (Ethigen Ltd)
+^ESCTNI1067940	Nifedipine 30mg modified-release tablets (Ethigen Ltd) 28 tablet
+^ESCTNI1077260	Nifedipine 10mg modified-release tablets (Colorama Pharmaceuticals Ltd)
+^ESCTNI1077261	Nifedipine 10mg modified-release tablets (Colorama Pharmaceuticals Ltd) 56 tablet
+^ESCTNI1077267	Nifedipine 20mg modified-release tablets (Colorama Pharmaceuticals Ltd)
+^ESCTNI1077269	Nifedipine 20mg modified-release tablets (Colorama Pharmaceuticals Ltd) 28 tablet
+^ESCTNI1077270	Nifedipine 20mg modified-release tablets (Colorama Pharmaceuticals Ltd) 56 tablet
+^ESCTNI1077271	Nifedipine 30mg modified-release tablets (Colorama Pharmaceuticals Ltd)
+^ESCTNI1077272	Nifedipine 30mg modified-release tablets (Colorama Pharmaceuticals Ltd) 28 tablet
+^ESCTNI1079913	Nifedipine 10mg modified-release tablets (Icarus Pharmaceuticals Ltd)
+^ESCTNI1079916	Nifedipine 10mg modified-release tablets (Icarus Pharmaceuticals Ltd) 56 tablet
+^ESCTNI1079923	Nifedipine 20mg modified-release tablets (Icarus Pharmaceuticals Ltd)
+^ESCTNI1079924	Nifedipine 20mg modified-release tablets (Icarus Pharmaceuticals Ltd) 56 tablet
+^ESCTNI1079927	Nifedipine 30mg modified-release tablets (Icarus Pharmaceuticals Ltd)
+^ESCTNI1079929	Nifedipine 30mg modified-release tablets (Icarus Pharmaceuticals Ltd) 28 tablet
+^ESCTNI1089357	Nifedipine 10mg modified-release tablets (Ennogen Healthcare Ltd)
+^ESCTNI1089358	Nifedipine 10mg modified-release tablets (Ennogen Healthcare Ltd) 56 tablet
+^ESCTNI1089359	Nifedipine 20mg modified-release tablets (Ennogen Healthcare Ltd)
+^ESCTNI1089360	Nifedipine 20mg modified-release tablets (Ennogen Healthcare Ltd) 56 tablet
+^ESCTNI1099268	Nifedipine 5mg/5ml oral suspension 100 ml
+^ESCTNI1099269	Nifedipine 5mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTNI1099918	Nifedipine 40mg modified-release tablets (Ennogen Healthcare Ltd)
+^ESCTNI1099919	Nifedipine 40mg modified-release tablets (Ennogen Healthcare Ltd) 30 tablet
+^ESCTNI1100678	Nifedipine 30mg modified-release tablets (Ennogen Healthcare Ltd)
+^ESCTNI1100679	Nifedipine 30mg modified-release tablets (Ennogen Healthcare Ltd) 28 tablet
+^ESCTNI1100685	Nifedipine 20mg modified-release tablets (Ennogen Healthcare Ltd) 28 tablet
+^ESCTNI1101569	Nifedipine 20mg modified-release tablets (Pharma-z Ltd)
+^ESCTNI1101570	Nifedipine 20mg modified-release tablets (Pharma-z Ltd) 56 tablet
+^ESCTNI1104221	Nifedipine 10mg modified-release tablets (AM Distributions (Yorkshire) Ltd)
+^ESCTNI1104223	Nifedipine 10mg modified-release tablets (AM Distributions (Yorkshire) Ltd) 56 tablet
+^ESCTNI1104226	Nifedipine 20mg modified-release tablets (AM Distributions (Yorkshire) Ltd)
+^ESCTNI1104227	Nifedipine 20mg modified-release tablets (AM Distributions (Yorkshire) Ltd) 56 tablet
+^ESCTNI1104228	Nifedipine 30mg modified-release tablets (AM Distributions (Yorkshire) Ltd)
+^ESCTNI1104229	Nifedipine 30mg modified-release tablets (AM Distributions (Yorkshire) Ltd) 28 tablet
+^ESCTNI1142030	Nifedipine 10mg modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTNI1142031	Nifedipine 10mg modified-release tablets (Kent Pharmaceuticals Ltd) 56 tablet
+^ESCTNI1142032	Nifedipine 20mg modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTNI1142033	Nifedipine 20mg modified-release tablets (Kent Pharmaceuticals Ltd) 56 tablet
+^ESCTNI1162931	Nidef 30mg modified-release tablets (Morningside Healthcare Ltd)
+^ESCTNI1162932	Nidef 30mg modified-release tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTNI1162933	Nidef 60mg modified-release tablets (Morningside Healthcare Ltd)
+^ESCTNI1162934	Nidef 60mg modified-release tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTNI388657	Nifedipine
+^ESCTNI607597	Nifedipine 5mg capsules
+^ESCTNI607598	Nifedipine 5 mg/1 each oral capsule
+^ESCTNI607600	Nifedipine 10mg capsules
+^ESCTNI607601	Nifedipine 10 mg/1 each oral capsule
+^ESCTNI607604	Nifedipine 40mg modified-release tablets
+^ESCTNI607605	Nifedipine 40mg m/r tablet
+^ESCTNI607606	Nifedipine 30mg modified-release capsules
+^ESCTNI607607	Nifedipine 30mg m/r capsule
+^ESCTNI607608	Nifedipine 60mg modified-release capsules
+^ESCTNI607609	Nifedipine 60mg m/r capsule
+^ESCTNI607610	Nifedipine 10mg modified-release capsules
+^ESCTNI607611	Nifedipine 10mg m/r capsule
+^ESCTNI607612	Nifedipine 20mg modified-release capsules
+^ESCTNI607613	Nifedipine 20mg m/r capsule
+^ESCTNI607614	Nifedipine 10mg modified-release tablets
+^ESCTNI607615	Nifedipine 10mg m/r tablet
+^ESCTNI607616	Nifedipine 30mg modified-release tablets
+^ESCTNI607617	Nifedipine 30mg m/r tablet
+^ESCTNI607618	Nifedipine 60mg modified-release tablets
+^ESCTNI607619	Nifedipine 60mg m/r tablet
+^ESCTNI607620	Nifedipine 20mg modified-release tablets
+^ESCTNI607621	Nifedipine 20mg m/r tablet
+^ESCTNI617910	Nifedipine in parenteral dosage form
+^ESCTNI619012	Nifedipine in oral dosage form
+^ESCTNI635987	Nifedipine 30 mg oral tablet
+^ESCTNI635989	Nifedipine 60 mg oral tablet
+^ESCTNI639456	Nifedipine 20 mg/1 each oral capsule
+^ESCTNI639459	Nifedipine 90mg m/r tablet
+^ESCTNI804622	Nifedipine 5mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTNI805111	Nifedipine 5mg capsules (Teva UK Ltd)
+^ESCTNI808562	Nifopress Retard 20mg tablets (AMCo)
+^ESCTNI808854	Nifedipine 5mg capsules (Actavis UK Ltd)
+^ESCTNI809132	Nifedipine 10mg capsules (Teva UK Ltd)
+^ESCTNI816119	Nifedipine 5mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTNI817475	Nifedipine 10mg capsules (The Boots Company Plc)
+^ESCTNI818586	Nifedipine 10mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTNI818907	Nifedipine 10mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTNI820487	Nifedipress MR 20 tablets (Dexcel-Pharma Ltd)
+^ESCTNI820649	Nifedipine 10mg capsules (Actavis UK Ltd)
+^ESCTNI820761	Nifedipine 5mg capsules (Mylan Ltd)
+^ESCTNI820771	Nifedipine 10mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTNI822164	Nifedipine 5mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTNI822761	Nifedipine 5mg capsules (The Boots Company Plc)
+^ESCTNI826294	Nifedipine 5mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTNI830208	Nifedipine 10mg capsules (Mylan Ltd)
+^ESCTNI830562	Nifedipine 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTNI831977	Nifedipress MR 10 tablets (Dexcel-Pharma Ltd)
+^ESCTNI834234	Nifedipine 30mg modified-release capsules 28 capsule
+^ESCTNI834695	Nifedipine 10mg capsules 90 capsule
+^ESCTNI839486	Nifedipine 20mg modified-release tablets 112 tablet
+^ESCTNI840445	Nifedipine 20mg modified-release tablets 28 tablet
+^ESCTNI842216	Nifedipine 60mg modified-release tablets 28 tablet
+^ESCTNI842710	Nifedipine 5mg capsules 100 capsule
+^ESCTNI846706	Nifedipine 20mg modified-release tablets 56 tablet
+^ESCTNI846807	Nifedipine 10mg capsules 84 capsule
+^ESCTNI846925	Nifedipine 5mg capsules 90 capsule
+^ESCTNI847399	Nifedipine 5mg capsules 84 capsule
+^ESCTNI847884	Nifedipine 10mg capsules 100 capsule
+^ESCTNI847940	Nifedipine 20mg modified-release capsules 60 capsule
+^ESCTNI847941	Nifedipine 10mg modified-release tablets 56 tablet
+^ESCTNI848259	Nifedipine 40mg modified-release tablets 30 tablet
+^ESCTNI848412	Nifedipine 10mg modified-release capsules 60 capsule
+^ESCTNI852560	Nifedipine 10mg capsules (A A H Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852561	Nifedipine 10mg capsules (Actavis UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852562	Nifedipine 10mg capsules (Teva UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852565	Nifedipine 10mg capsules (The Boots Company Plc) 84 capsule
+^ESCTNI852566	Nifedipine 10mg capsules (Mylan Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852567	Nifedipine 10mg capsules (IVAX Pharmaceuticals UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852571	Nifedipine 10mg capsules (IVAX Pharmaceuticals UK Ltd) 100 capsule
+^ESCTNI852572	Nifedipine 10mg capsules (Kent Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852573	Nifedipine 10mg capsules (Alliance Healthcare (Distribution) Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852671	Nifedipress MR 10 tablets (Dexcel-Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTNI852710	Nifedipress MR 20 tablets (Dexcel-Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTNI852717	Nifopress Retard 20mg tablets (AMCo) 56 tablet 2 x 28 tablets
+^ESCTNI852718	Nifopress Retard 20mg tablets (AMCo) 112 tablet 8 x 14 tablets
+^ESCTNI852734	Nifedipine 5mg capsules (A A H Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852735	Nifedipine 5mg capsules (Actavis UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852736	Nifedipine 5mg capsules (Teva UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852738	Nifedipine 5mg capsules (The Boots Company Plc) 84 capsule
+^ESCTNI852768	Nifedipine 5mg capsules (Mylan Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852769	Nifedipine 5mg capsules (IVAX Pharmaceuticals UK Ltd) 100 capsule
+^ESCTNI852770	Nifedipine 5mg capsules (IVAX Pharmaceuticals UK Ltd) 84 capsule 3 x 28 capsules
+^ESCTNI852771	Nifedipine 5mg capsules (Kent Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI852772	Nifedipine 5mg capsules (Alliance Healthcare (Distribution) Ltd) 84 capsule 6 x 14 capsules
+^ESCTNI857713	Nifedipine 30mg modified-release tablets 28 tablet
+^ESCTNI861450	Nifedipine 60mg modified-release capsules 28 capsule
+^ESCTNI877508	Nifedipine 10mg capsules 50 capsule
+^ESCTNI877625	Nifedipine 20mg modified-release tablets 60 tablet
+^ESCTNI877626	Nifedipine 20mg modified-release tablets 100 tablet
+^ESCTNI900896	Nifedipress MR 20 tablets (Actavis UK Ltd)
+^ESCTNI900897	Nifedipress MR 20 tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTNI900903	Nifedipress MR 10 tablets (Teva UK Ltd)
+^ESCTNI900906	Nifedipress MR 10 tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTNI900907	Nifedipress MR 20 tablets (Teva UK Ltd)
+^ESCTNI900908	Nifedipress MR 20 tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTNI908168	Nifedipine 100mg/5ml oral suspension 1 ml
+^ESCTNI908171	Nifedipine 100mg/5ml oral suspension (Special Order)
+^ESCTNI908173	Nifedipine 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI908176	Nifedipine 10mg/5ml oral suspension 1 ml
+^ESCTNI908177	Nifedipine 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTNI908182	Nifedipine 10mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTNI908191	Nifedipine 60mg/5ml oral suspension 1 ml
+^ESCTNI908192	Nifedipine 60mg/5ml oral suspension (Special Order)
+^ESCTNI908194	Nifedipine 60mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI908195	Nifedipine 20mg/5ml oral suspension 1 ml
+^ESCTNI908198	Nifedipine 20mg/5ml oral suspension (Special Order)
+^ESCTNI908199	Nifedipine 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI908202	Nifedipine 5mg/5ml oral suspension 1 ml
+^ESCTNI908206	Nifedipine 5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTNI908208	Nifedipine 5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTNI908472	Nifedipine 100mg/5ml oral suspension
+^ESCTNI908473	Nifedipine 10mg/5ml oral suspension
+^ESCTNI908474	Nifedipine 20mg/5ml oral suspension
+^ESCTNI908475	Nifedipine 5mg/5ml oral suspension
+^ESCTNI908476	Nifedipine 60mg/5ml oral suspension
+^ESCTNI912401	Nifedipine 20mg/ml oral drops 30 ml
+^ESCTNI912402	Nifedipine 20mg/ml oral drops 100 ml
+^ESCTNI912403	Nifedipin-ratiopharm 20mg/ml oral drops (Imported (Germany))
+^ESCTNI912404	Nifedipin-ratiopharm 20mg/ml oral drops (Imported (Germany)) 30 ml
+^ESCTNI912405	Nifedipin-ratiopharm 20mg/ml oral drops (Imported (Germany)) 100 ml
+^ESCTNI912623	Nifedipine 20mg/ml oral drops
+^ESCTNI918767	Nifopress MR 20mg tablets (Teva UK Ltd)
+^ESCTNI918769	Nifopress MR 20mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTNI918944	Nifedipress MR
+^ESCTNI919562	Nifopress Retard
+^ESCTNI919809	Nimodrel XL
+^ESCTNI923157	Nifopress MR
+^ESCTNI925730	Nifedipine 10mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTNI925731	Nifedipine 10mg modified-release tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTNI925732	Nifedipine 20mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTNI925733	Nifedipine 20mg modified-release tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTNI925748	Nifedipine 10mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNI925749	Nifedipine 10mg modified-release tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTNI925750	Nifedipine 20mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNI925751	Nifedipine 20mg modified-release tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTNI926931	Nimodrel XL 30mg tablets (Zurich Pharmaceuticals)
+^ESCTNI926932	Nimodrel XL 30mg tablets (Zurich Pharmaceuticals) 28 tablet 2 x 14 tablets
+^ESCTNI926933	Nimodrel XL 60mg tablets (Zurich Pharmaceuticals)
+^ESCTNI926934	Nimodrel XL 60mg tablets (Zurich Pharmaceuticals) 28 tablet 2 x 14 tablets
+^ESCTNI931125	Nifedipine 30mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTNI931127	Nifedipine 30mg modified-release tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTNI948329	Nifedipine 1mg/5ml oral suspension 1 ml
+^ESCTNI948330	Nifedipine 1mg/5ml oral suspension (Special Order)
+^ESCTNI948360	Nifedipine 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI948361	Nifedipine 2.2mg/5ml oral suspension 1 ml
+^ESCTNI948362	Nifedipine 2.2mg/5ml oral suspension (Special Order)
+^ESCTNI948363	Nifedipine 2.2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI948364	Nifedipine 2.5mg/5ml oral suspension 1 ml
+^ESCTNI948365	Nifedipine 2.5mg/5ml oral suspension (Special Order)
+^ESCTNI948366	Nifedipine 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI948546	Nifedipine 1mg/5ml oral suspension
+^ESCTNI948547	Nifedipine 2.2mg/5ml oral suspension
+^ESCTNI948549	Nifedipine 2.5mg/5ml oral suspension
+^ESCTNI954885	Nifedipine 25mg/5ml oral suspension 1 ml
+^ESCTNI954887	Nifedipine 25mg/5ml oral suspension (Special Order)
+^ESCTNI954889	Nifedipine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI954891	Nifedipine 2mg/5ml oral suspension 1 ml
+^ESCTNI954893	Nifedipine 2mg/5ml oral suspension (Special Order)
+^ESCTNI954895	Nifedipine 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI954897	Nifedipine 30mg/5ml oral suspension 1 ml
+^ESCTNI954899	Nifedipine 30mg/5ml oral suspension (Special Order)
+^ESCTNI954901	Nifedipine 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI954903	Nifedipine 4mg/5ml oral suspension 1 ml
+^ESCTNI954905	Nifedipine 4mg/5ml oral suspension (Special Order)
+^ESCTNI954907	Nifedipine 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI954909	Nifedipine 7.5mg/5ml oral suspension 1 ml
+^ESCTNI954911	Nifedipine 7.5mg/5ml oral suspension (Special Order)
+^ESCTNI954913	Nifedipine 7.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNI955748	Nifedipine 25mg/5ml oral suspension
+^ESCTNI955750	Nifedipine 2mg/5ml oral suspension
+^ESCTNI955752	Nifedipine 30mg/5ml oral suspension
+^ESCTNI955754	Nifedipine 4mg/5ml oral suspension
+^ESCTNI955755	Nifedipine 7.5mg/5ml oral suspension
+^ESCTNI958560	Nidef
+^ESCTNI968259	Nifedipine 20mg modified-release tablets 14 tablet
+^ESCTNI978057	Nifedipine 5mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTNI978058	Nifedipine 5mg capsules (Sigma Pharmaceuticals Plc) 84 capsule
+^ESCTNI986095	Nifedipine 20mg/ml oral drops 1 ml
+^ESCTNI986096	Nifedipine 20mg/ml oral drops (Special Order)
+^ESCTNI986097	Nifedipine 20mg/ml oral drops (Special Order) 1 ml
+^ESCTPR388658	Product containing nifedipine
+^ESCTPR607599	Product containing nifedipine 5 mg/1 each oral capsule
+^ESCTPR607602	Product containing nifedipine 10 mg/1 each oral capsule
+^ESCTPR617911	Product containing nifedipine in parenteral dosage form
+^ESCTPR619013	Product containing nifedipine in oral dosage form
+^ESCTPR635988	Product containing nifedipine 30 mg/1 each oral tablet
+^ESCTPR635990	Product containing nifedipine 60 mg/1 each oral tablet
+^ESCTPR639457	Product containing nifedipine 20 mg/1 each oral capsule
+^ESCTSL820575	Slofedipine XL 60 tablets (Zentiva)
+^ESCTSL828422	Slofedipine 20mg tablets (Sterwin Medicines)
+^ESCTSL852581	Slofedipine XL 60 tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTSL852731	Slofedipine 20mg tablets (Sterwin Medicines) 56 tablet 4 x 14 tablets
+^ESCTSL857718	Slofedipine XL 30mg tablets (Zentiva)
+^ESCTSL857719	Slofedipine XL 30mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTSL916302	Slofedipine
+^ESCTSL916304	Slofedipine XL
+^ESCTTE1001569	Tenif 50mg/20mg modified-release capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTTE1001570	Tenif 50mg/20mg modified-release capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTTE1008431	Tenif 50mg/20mg modified-release capsules (Necessity Supplies Ltd)
+^ESCTTE1008432	Tenif 50mg/20mg modified-release capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTTE812700	Tensipine MR 20 tablets (Genus Pharmaceuticals Ltd)
+^ESCTTE814447	Tensipine MR 10 tablets (Genus Pharmaceuticals Ltd)
+^ESCTTE852674	Tensipine MR 10 tablets (Genus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTTE852715	Tensipine MR 20 tablets (Genus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTTE859487	Tenif 50mg/20mg modified-release capsules (AstraZeneca UK Ltd)
+^ESCTTE859488	Tenif 50mg/20mg modified-release capsules (AstraZeneca UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTTE878347	Tenif 50mg/20mg modified-release capsules (Waymade Healthcare Plc)
+^ESCTTE878348	Tenif 50mg/20mg modified-release capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTTE879744	Tenif 50mg/20mg modified-release capsules (Dowelhurst Ltd)
+^ESCTTE879745	Tenif 50mg/20mg modified-release capsules (Dowelhurst Ltd) 28 capsule
+^ESCTTE916663	Tenif
+^ESCTTE916673	Tensipine MR
+^ESCTTE967760	Tenif 50mg/20mg modified-release capsules (DE Pharmaceuticals)
+^ESCTTE967761	Tenif 50mg/20mg modified-release capsules (DE Pharmaceuticals) 28 capsule
+^ESCTTE973975	Tenif 50mg/20mg modified-release capsules (Sigma Pharmaceuticals Plc)
+^ESCTTE973976	Tenif 50mg/20mg modified-release capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTVA821262	Valni 20 Retard tablets (Tillomed Laboratories Ltd)
+^ESCTVA852725	Valni 20 Retard tablets (Tillomed Laboratories Ltd) 56 tablet
+^ESCTVA916987	Valni Retard
+^ESCTVA920138	Valni XL
+^ESCTVA962143	Valni XL 30mg tablets (Zentiva)
+^ESCTVA962144	Valni XL 30mg tablets (Zentiva) 28 tablet
+^ESCTVA962145	Valni XL 60mg tablets (Zentiva)
+^ESCTVA962146	Valni XL 60mg tablets (Zentiva) 28 tablet
+ADCA46	Adalat  Capsules  10 mg
+ADCA47	Adalat  Capsules  5 mg
+ADCO8575EGTON	Adalat I C  Coronary injection  100 mcg/ml
+ADM/19382NEMIS	Adipine Xl  M/R tablets  30 mg
+ADM/19383NEMIS	Adipine Xl  M/R tablets  60 mg
+ADM/19822EMIS	Adalat La  M/R tablets  30 mg
+ADM/19823EMIS	Adalat La  M/R tablets  60 mg
+ADM/27060EMIS	Adipine Mr 20  M/R tablets  20 mg
+ADM/28056EMIS	Adipine Mr 10  M/R tablets  10 mg
+ADM/45636NEMIS	Adanif Xl  M/R tablets  30 mg
+ADM/45637NEMIS	Adanif Xl  M/R tablets  60 mg
+ADM/4NEMIS	Adalat La  M/R tablets  20 mg
+ADM/650NEMIS	Adipine LA 60  M/R tablets  60 mg
+ADM/651NEMIS	Adipine LA 30  M/R tablets  30 mg
+ADTA48	Adalat Retard  Tablets  20 mg
+ADTA8424EGTON	Adalat Retard 10  Tablets  10 mg
+ANCA10522BRIDL	Angiopine  Capsules  5 mg
+ANCA10524BRIDL	Angiopine  Capsules  10 mg
+ANM/25441EMIS	Angiopine  M/R tablets  20 mg
+ANM/30194EMIS	Angiopine 40 La  M/R tablets  40 mg
+ANM/31403EMIS	Angiopine  M/R tablets  10 mg
+ATCA19667NEMIS	Atenolol And M/r Nifedipine  Capsules  50 mg + 20 mg
+BECA8451EGTON	Beta-Adalat  Capsules  
+CACA9201BRIDL	Calcipine-5  Capsules  5 mg
+CACA9203BRIDL	Calcipine-10  Capsules  10 mg
+CAM/25338EMIS	Cardilate Mr  M/R tablets  20 mg
+CAM/32324EMIS	Cardilate Mr  M/R tablets  10 mg
+CAM/6711NEMIS	Calchan Mr  M/R tablets  10 mg
+CAM/6712NEMIS	Calchan Mr  M/R tablets  20 mg
+CATA26563EMIS	Calanif  Capsules  10 mg
+CATA26564EMIS	Calanif  Capsules  5 mg
+COM/19775EMIS	Coracten  M/R capsules  10 mg
+COM/34392EMIS	Combitens  M/R capsules  
+COM/3460NEMIS	Coroday MR  M/R tablets  20 mg
+COM/35189EMIS	Coracten Xl  M/R capsules  30 mg
+COM/35190EMIS	Coracten Xl  M/R capsules  60 mg
+COSR10743BRIDL	Coracten  M/R capsules  20 mg
+DEM/138914NEMIS	Dexipress Mr  M/R tablets  20 mg
+FOM/30026EMIS	Fortipine La  M/R tablets  40 mg
+HYM/13497NEMIS	Hypolar Xl 30  M/R tablets  30 mg
+HYM/29964EMIS	Hypolar Retard 20  M/R tablets  20 mg
+NEM/44782NEMIS	Neozipine Xl  M/R tablets  30 mg
+NEM/44783NEMIS	Neozipine Xl  M/R tablets  60 mg
+NICA1986	Nifedipine  Capsules  10 mg
+NICA1987	Nifedipine  Capsules  5 mg
+NICA36214MGEMIS	Nifedipine  Capsules  10 mg (Teva UK)
+NICA36215MGEMIS	Nifedipine  Capsules  10 mg (The Boots Company)
+NICA36216MGEMIS	Nifedipine  Capsules  10 mg (Kent Pharm)
+NICA36217MGEMIS	Nifedipine  Capsules  10 mg (A.A.H. Pharm)
+NICA36218MGEMIS	Nifedipine  Capsules  10 mg (Alpharma)
+NICA36219MGEMIS	Nifedipine  Capsules  10 mg (Ivax Pharmaceuticals)
+NICA36220MGEMIS	Nifedipine  Capsules  10 mg (Generics (UK))
+NICA36221MGEMIS	Nifedipine  Capsules  10 mg (Unichem)
+NICA36222MGEMIS	Nifedipine  Capsules  5 mg (Kent Pharm)
+NICA36223MGEMIS	Nifedipine  Capsules  5 mg (Teva UK)
+NICA36224MGEMIS	Nifedipine  Capsules  5 mg (Alpharma)
+NICA36225MGEMIS	Nifedipine  Capsules  5 mg (Unichem)
+NICA36226MGEMIS	Nifedipine  Capsules  5 mg (Generics (UK))
+NICA36227MGEMIS	Nifedipine  Capsules  5 mg (A.A.H. Pharm)
+NICA36228MGEMIS	Nifedipine  Capsules  5 mg (The Boots Company)
+NICA36229MGEMIS	Nifedipine  Capsules  5 mg (Ivax Pharmaceuticals)
+NIM/124308NEMIS	Nidef  M/R tablets  30 mg
+NIM/124309NEMIS	Nidef  M/R tablets  60 mg
+NIM/147NEMIS	Nivaten Retard  M/R tablets  20 mg
+NIM/172NEMIS	Nifedipine  M/R capsules  30 mg
+NIM/173NEMIS	Nifedipine  M/R capsules  60 mg
+NIM/19537EMIS	Nifedipine  M/R tablets  20 mg
+NIM/19539EMIS	Nifensar Xl  M/R tablets  20 mg
+NIM/19777EMIS	Nifedipine  M/R capsules  10 mg
+NIM/19826EMIS	Nifedipine  M/R tablets  30 mg
+NIM/19827EMIS	Nifedipine  M/R tablets  60 mg
+NIM/22979NEMIS	Nimodrel Xl  M/R tablets  30 mg
+NIM/22980NEMIS	Nimodrel Xl  M/R tablets  60 mg
+NIM/25815EMIS	Nifelease  M/R tablets  20 mg
+NIM/28058EMIS	Nifedipine  M/R tablets  10 mg
+NIM/29369EMIS	Nimodrel Mr  M/R tablets  10 mg
+NIM/29370EMIS	Nimodrel Mr  M/R tablets  20 mg
+NIM/30028EMIS	Nifedipine  M/R tablets  40 mg
+NIM/32635EMIS	Nivaten Retard  M/R tablets  10 mg
+NIM/35381EMIS	Nifedipress Mr  M/R tablets  10 mg
+NIM/35382EMIS	Nifedipress Mr  M/R tablets  20 mg
+NIM/3698NEMIS	Nifedotard 20 MR  M/R tablets  20 mg
+NIM/5299NEMIS	Nifopress Retard  M/R tablets  20 mg
+NIOR11615NEMIS	Nifedipine  Oral drops  20 mg/ml
+NIOR36283NEMIS	Nifedipine  Oral suspension  5 mg/5 ml
+NIOR40325NEMIS	Nifedipine  Oral suspension  2.5 mg/5 ml
+NIOR46511NEMIS	Nifedipine  Oral suspension  10 mg/5 ml
+NISR9016EMIS	Nifedipine  M/R capsules  20 mg
+SLM/35167EMIS	Slofedipine Xl  M/R tablets  30 mg
+SLM/35168EMIS	Slofedipine Xl  M/R tablets  60 mg
+SLTA32947EMIS	Slofedipine  M/R tablets  20 mg
+TECA8555EGTON	Tenif  Capsules  50 mg + 20 mg
+TEM/29664EMIS	Tensipine Mr  M/R tablets  10 mg
+TEM/29665EMIS	Tensipine Mr  M/R tablets  20 mg
+UNM/29667EMIS	Unipine Xl  M/R tablets  30 mg
+VAM/15924NEMIS	Valni 20 Retard  M/R tablets  20 mg
+VAM/29308NEMIS	Valni Xl  M/R tablets  30 mg
+VAM/29309NEMIS	Valni Xl  M/R tablets  60 mg

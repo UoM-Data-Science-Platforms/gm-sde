@@ -1,0 +1,164 @@
+^ESCT1179297	Product containing only orphenadrine citrate 100 mg/1 each oral tablet
+^ESCT1179323	Product containing only aspirin 428 mg and caffeine 30 mg and orphenadrine citrate 25 mg/1 each oral tablet
+^ESCT1181695	Product containing only orphenadrine hydrochloride 50 mg/1 each oral tablet
+^ESCT1183176	Product containing only aspirin 385 mg and caffeine 30 mg and orphenadrine citrate 25 mg/1 each oral tablet
+^ESCT1188510	Product containing only aspirin 770 mg and caffeine 60 mg and orphenadrine citrate 50 mg/1 each oral tablet
+^ESCT1188511	Product containing only aspirin 856 mg and caffeine 60 mg and orphenadrine citrate 50 mg/1 each oral tablet
+^ESCT1198209	Orphenadrine 50mg tablets 1 tablet
+^ESCT1198210	Orphenadrine 50mg tablets (Special Order)
+^ESCT1198211	Orphenadrine 50mg tablets (Special Order) 1 tablet
+^ESCT1198227	Lysantin 50mg tablets (Imported (Denmark))
+^ESCT1198228	Lysantin 50mg tablets (Imported (Denmark)) 100 tablet
+^ESCT1201875	Orphenadrine and paracetamol product
+^ESCT1201876	Product containing orphenadrine and paracetamol
+^ESCT1201877	Acetaminophen and orphenadrine product
+^ESCT1203486	Orphenadrine citrate 100mg prolonged-release oral tablet
+^ESCT1204743	Paracetamol + orphenadrine citrate 500mg/50mg
+^ESCT1204744	Acetaminophen + orphenadrine citrate 500mg/50mg
+^ESCT1206317	Aspirin and caffeine and orphenadrine in oral dosage form
+^ESCT1206318	Product containing aspirin and caffeine and orphenadrine in oral dosage form
+^ESCT1208744	Orphenadrine hydrochloride 10 mg/mL oral solution
+^ESCT1208745	Product containing precisely orphenadrine hydrochloride 10 milligram/1 milliliter conventional release oral solution
+^ESCT1212384	Orphenadrine 50mg/5ml oral solution sugar free
+^ESCT1217921	Orphenadrine
+^ESCT1217922	Orphenadrine product
+^ESCT1224000	Product containing precisely orphenadrine hydrochloride 5 milligram/1 milliliter conventional release oral solution
+^ESCT1224001	Orphenadrine hydrochloride 5 mg/mL oral solution
+^ESCT1224002	Product containing precisely orphenadrine 50 milligram/1 each conventional release oral tablet
+^ESCT1224003	Orphenadrine 50 mg oral tablet
+^ESCT1228753	Product containing precisely orphenadrine citrate 100 milligram/1 each conventional release oral tablet
+^ESCT1228939	Product containing precisely aspirin 385 milligram and caffeine 30 milligram and orphenadrine citrate 25 milligram/1 each conventional release oral tablet
+^ESCT1228940	Product containing precisely aspirin 428 milligram and caffeine 30 milligram and orphenadrine citrate 25 milligram/1 each conventional release oral tablet
+^ESCT1228944	Product containing precisely aspirin 770 milligram and caffeine 60 milligram and orphenadrine citrate 50 milligram/1 each conventional release oral tablet
+^ESCT1228945	Product containing precisely aspirin 856 milligram and caffeine 60 milligram and orphenadrine citrate 50 milligram/1 each conventional release oral tablet
+^ESCT1232033	Orphenadrine + aspirin + caffeine
+^ESCT1232034	Aspirin and caffeine and orphenadrine product
+^ESCT1353574	Aspirin and caffeine and orphenadrine only product
+^ESCT1356161	Orphenadrine only product
+^ESCT1356162	Orphenadrine and paracetamol only product
+^ESCT1356163	Acetaminophen and orphenadrine only product
+^ESCT1357535	Aspirin and caffeine and orphenadrine only product in oral dose form
+^ESCT1359431	Orphenadrine only product in oral dose form
+^ESCT1359432	Orphenadrine only product in parenteral dose form
+^ESCT1362700	Orphenadrine hydrochloride 50 mg oral tablet
+^ESCT1367114	Orphenadrine 50mg tablets
+^ESCT1374387	Orphenadrine 50mg/5ml oral solution sugar free
+^ESCT1383013	Aspirin- and caffeine- and orphenadrine-containing product
+^ESCT1383704	Orphenadrine-containing product in oral dose form
+^ESCT1383741	Orphenadrine-containing product in parenteral dose form
+^ESCT1385761	Orphenadrine- and paracetamol-containing product
+^ESCT1385762	Acetaminophen- and orphenadrine-containing product
+^ESCT1386217	Aspirin- and caffeine- and orphenadrine-containing product in oral dose form
+^ESCT1402489	Orphenadrine 50mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1402490	Orphenadrine 50mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1424861	Orphenadrine 50mg tablets
+^ESCT1439818	Orphenadrine 50mg tablets (Part VIIID Drug Tariff Special Order) 100 tablet
+^ESCT1441196	Orphenadrine 50mg tablets (Part VIIID Drug Tariff Special Order)
+^ESCT1441197	Orphenadrine 50mg tablets (Part VIIID Drug Tariff Special Order) 1 tablet
+^ESCTAC642154	Acetaminophen + orphenadrine citrate 500mg/50mg caplets
+^ESCTAC661161	Acetaminophen + orphenadrine citrate
+^ESCTAS641875	Aspirin 385 mg and caffeine 30 mg and orphenadrine citrate 25 mg oral tablet
+^ESCTAS641877	Aspirin 428 mg and caffeine 30 mg and orphenadrine citrate 25 mg oral tablet
+^ESCTAS641884	Aspirin 770 mg and caffeine 60 mg and orphenadrine citrate 50 mg oral tablet
+^ESCTAS641886	Aspirin 856 mg and caffeine 60 mg and orphenadrine citrate 50 mg oral tablet
+^ESCTBI798666	Biorphen 25mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTBI856489	Biorphen 25mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 200 ml
+^ESCTBI914135	Biorphen
+^ESCTDI1002284	Disipal 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI1002285	Disipal 50mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTDI1104353	Disipal 50mg tablets (Waymade Healthcare Plc)
+^ESCTDI1104354	Disipal 50mg tablets (Waymade Healthcare Plc) 250 tablet
+^ESCTDI803623	Disipal 50mg tablets (Astellas Pharma Ltd)
+^ESCTDI856482	Disipal 50mg tablets (Astellas Pharma Ltd) 250 tablet
+^ESCTDI914868	Disipal
+^ESCTDI966575	Disipal 50mg tablets (DE Pharmaceuticals)
+^ESCTDI966577	Disipal 50mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTDI992959	Disipal 50mg tablets (Stephar (U.K.) Ltd)
+^ESCTDI992960	Disipal 50mg tablets (Stephar (U.K.) Ltd) 50 tablet
+^ESCTDI993200	Disipal 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDI993202	Disipal 50mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTOR1014621	Orphenadrine 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTOR1014622	Orphenadrine 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTOR1041895	Orphenadrine 50mg tablets (Waymade Healthcare Plc)
+^ESCTOR1041896	Orphenadrine 50mg tablets (Waymade Healthcare Plc) 250 tablet
+^ESCTOR1051078	Orphenadrine 50mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTOR1051079	Orphenadrine 50mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd) 150 ml
+^ESCTOR1089361	Orphenadrine 50mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTOR1089362	Orphenadrine 50mg/5ml oral solution sugar free (Ennogen Healthcare Ltd) 150 ml
+^ESCTOR1101115	Orphenadrine 50mg/5ml oral solution sugar free (J M McGill Ltd)
+^ESCTOR1101116	Orphenadrine 50mg/5ml oral solution sugar free (J M McGill Ltd) 150 ml
+^ESCTOR1109017	Orphenadrine 50mg/5ml oral solution sugar free (Niche Pharma Ltd)
+^ESCTOR1109018	Orphenadrine 50mg/5ml oral solution sugar free (Niche Pharma Ltd) 150 ml
+^ESCTOR1119510	Orphenadrine 50mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTOR1119511	Orphenadrine 50mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTOR1119512	Orphenadrine 50mg tablets (DE Pharmaceuticals)
+^ESCTOR1119513	Orphenadrine 50mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTOR1119514	Orphenadrine 50mg tablets (DE Pharmaceuticals) 250 tablet
+^ESCTOR1138756	Orphenadrine 50mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCTOR1138759	Orphenadrine 50mg/5ml oral solution sugar free (Teva UK Ltd) 150 ml
+^ESCTOR306430	Orphenadrine
+^ESCTOR610939	Orphenadrine 50mg/5ml oral solution sugar free
+^ESCTOR610940	Orphenadrine hydrochloride 50mg/5mL syrup
+^ESCTOR610941	Orphenadrine 25mg/5ml oral solution sugar free
+^ESCTOR610942	Orphenadrine hydrochloride 25mg/5mL oral liquid
+^ESCTOR610943	Orphenadrine 50mg tablets
+^ESCTOR610945	Orphenadrine hydrochloride 50 mg oral tablet
+^ESCTOR641418	Orphenadrine citrate 100 mg oral tablet
+^ESCTOR641429	Orphenadrine citrate 30mg/mL injection solution ampoule
+^ESCTOR641430	Orphenadrine citrate 30mg/mL injection
+^ESCTOR641431	Orphenadrine citrate 30mg/mL injection solution ampule
+^ESCTOR645033	Orphenadrine citrate 100mg m/r tablet
+^ESCTOR682683	Orphenadrine + aspirin + caffeine
+^ESCTOR711486	Orphenadrine in oral dosage form
+^ESCTOR711621	Orphenadrine in parenteral dosage form
+^ESCTOR801859	Orphenadrine 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTOR820597	Orphenadrine 50mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTOR821522	Orphenadrine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOR834065	Orphenadrine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOR836224	Orphenadrine 50mg tablets 250 tablet
+^ESCTOR846707	Orphenadrine 50mg tablets 100 tablet
+^ESCTOR847065	Orphenadrine 50mg/5ml oral solution sugar free 150 ml
+^ESCTOR848553	Orphenadrine 25mg/5ml oral solution sugar free 200 ml
+^ESCTOR856480	Orphenadrine 50mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTOR856484	Orphenadrine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTOR856485	Orphenadrine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCTOR856494	Orphenadrine 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTOR856496	Orphenadrine 50mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTOR868155	Orphenadrine 50mg tablets (Teva UK Ltd)
+^ESCTOR868157	Orphenadrine 50mg tablets (Teva UK Ltd) 100 tablet
+^ESCTOR868160	Orphenadrine 50mg tablets (Teva UK Ltd) 250 tablet
+^ESCTOR872452	Orphenadrine 50mg tablets (A A H Pharmaceuticals Ltd) 250 tablet
+^ESCTOR957384	Orphenadrine 25mg/5ml oral solution 1 ml
+^ESCTOR957385	Orphenadrine 25mg/5ml oral solution (Special Order)
+^ESCTOR957386	Orphenadrine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTOR957587	Orphenadrine 25mg/5ml oral solution
+^ESCTOR966576	Orphenadrine 50mg tablets 50 tablet
+^ESCTOR978595	Orphenadrine 50mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTOR978596	Orphenadrine 50mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTPA642153	Paracetamol + orphenadrine citrate 500mg/50mg caplets
+^ESCTPA661160	Paracetamol + orphenadrine citrate
+^ESCTPR306431	Product containing orphenadrine
+^ESCTPR610944	Product containing orphenadrine hydrochloride 50 mg/1 each oral tablet
+^ESCTPR641419	Product containing orphenadrine citrate 100 mg/1 each oral tablet
+^ESCTPR641876	Product containing aspirin 385 mg and caffeine 30 mg and orphenadrine citrate 25 mg/1 each oral tablet
+^ESCTPR641878	Product containing aspirin 428 mg and caffeine 30 mg and orphenadrine citrate 25 mg/1 each oral tablet
+^ESCTPR641885	Product containing aspirin 770 mg and caffeine 60 mg and orphenadrine citrate 50 mg/1 each oral tablet
+^ESCTPR641887	Product containing aspirin 856 mg and caffeine 60 mg and orphenadrine citrate 50 mg/1 each oral tablet
+^ESCTPR682684	Product containing aspirin and caffeine and orphenadrine
+^ESCTPR711487	Product containing orphenadrine in oral dosage form
+^ESCTPR711622	Product containing orphenadrine in parenteral dosage form
+BIEL3247	Biorphen  Oral solution  25mg/5 ml
+DIIN934	Disipal  Injection  20 mg/ml
+DITA935	Disipal  Tablets  50 mg
+NOIN2025	Norflex  Injection  30 mg/ml
+NOTA2026	Norflex  Tablets  100 mg
+OREL5231	Orphenadrine Hydrochloride  Oral Solution, Sugar Free  25mg/5 ml
+ORIN2105	Orphenadrine Hydrochloride  Injection  20 mg/ml
+ORIN5229	Orphenadrine Citrate  Injection  30 mg/ml
+OROR33893EMIS	Orphenadrine Hydrochloride  Oral solution  Sugar Free 50 mg/5 ml
+OROR37563MGEMIS	Orphenadrine Hydrochloride  Oral solution  Sugar Free 50 mg/5 ml (A.A.H. Pharm)
+OROR37564MGEMIS	Orphenadrine Hydrochloride  Oral solution  Sugar Free 50 mg/5 ml (Rosemont Pharm)
+ORTA2106	Orphenadrine Hydrochloride  Tablets  50 mg
+ORTA36341MGEMIS	Orphenadrine Hydrochloride  Tablets  50 mg (Unichem)
+ORTA36342MGEMIS	Orphenadrine Hydrochloride  Tablets  50 mg (A.A.H. Pharm)
+ORTA36343MGEMIS	Orphenadrine Hydrochloride  Tablets  50 mg (Teva UK)

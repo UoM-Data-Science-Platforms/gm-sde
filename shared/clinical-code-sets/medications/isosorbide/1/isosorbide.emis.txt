@@ -1,0 +1,1224 @@
+^ESCT1177213	Isosorbide mononitrate 20mg tablets (Milpharm Ltd)
+^ESCT1177214	Isosorbide mononitrate 20mg tablets (Milpharm Ltd) 56 tablet
+^ESCT1177215	Isosorbide mononitrate 40mg tablets (Milpharm Ltd)
+^ESCT1177216	Isosorbide mononitrate 40mg tablets (Milpharm Ltd) 56 tablet
+^ESCT1177217	Carmil XL 60mg tablets (Milpharm Ltd)
+^ESCT1177218	Carmil XL 60mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1178119	Aspirin and isosorbide mononitrate
+^ESCT1178120	Product containing aspirin and isosorbide mononitrate
+^ESCT1178121	Aspirin + Isosorbide mononitrate
+^ESCT1178653	Nyzamac SR 40mg capsules (Ethypharm UK Ltd)
+^ESCT1178686	Carmil XL 60mg tablets (Mylan)
+^ESCT1179502	Isosorbide mononitrate 40mg tablets (Mylan) 100 tablet
+^ESCT1179588	Nyzamac SR 60mg capsules (Ethypharm UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1179590	Xismox XL 60 tablets (Thornton & Ross Ltd) 28 tablet 2 x 14 tablets
+^ESCT1179838	Xismox XL 60 tablets (Thornton & Ross Ltd)
+^ESCT1179951	Nyzamac SR
+^ESCT1181641	Product containing only isosorbide dinitrate 5 mg/1 each oral tablet
+^ESCT1182594	Product containing only isosorbide dinitrate 20 mg and hydralazine 37.5 mg/1 each oral tablet
+^ESCT1182775	Nyzamac SR 60mg capsules (Ethypharm UK Ltd)
+^ESCT1183449	Nyzamac SR 40mg capsules (Ethypharm UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1183498	Monigen XL 60 tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1184267	Monigen XL 60 tablets (Mylan)
+^ESCT1184280	Isosorbide mononitrate 10mg tablets (Mylan)
+^ESCT1184293	Isosorbide mononitrate 40mg tablets (Mylan)
+^ESCT1185597	Isosorbide mononitrate 10mg tablets (Mylan) 100 tablet
+^ESCT1185603	Isosorbide mononitrate 20mg tablets (Mylan) 100 tablet
+^ESCT1185694	Carmil XL 60mg tablets (Mylan) 28 tablet
+^ESCT1187219	Product containing only isosorbide mononitrate 10 mg/1 each oral tablet
+^ESCT1187220	Product containing only isosorbide mononitrate 20 mg/1 each oral tablet
+^ESCT1187221	Product containing only isosorbide mononitrate 40 mg/1 each oral tablet
+^ESCT1187226	Product containing only isosorbide dinitrate 10 mg/1 each oral tablet
+^ESCT1187227	Product containing only isosorbide dinitrate 20 mg/1 each oral tablet
+^ESCT1187228	Product containing only isosorbide dinitrate 30 mg/1 each oral tablet
+^ESCT1187475	Product containing only isosorbide dinitrate 40 mg/1 each oral tablet
+^ESCT1189491	Isosorbide mononitrate 20mg tablets (Mylan)
+^ESCT1198720	Imdur 60mg modified-release tablets (TopRidge Pharma (Ireland) Ltd)
+^ESCT1198818	Imdur 60mg modified-release tablets (TopRidge Pharma (Ireland) Ltd) 28 tablet 4 x 7 tablets
+^ESCT1199617	Xismox XL 60 tablets (Genus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1199644	Xismox XL 60 tablets (Genus Pharmaceuticals Ltd)
+^ESCT1203261	Isosorbide mononitrate 120mg prolonged-release oral tablet
+^ESCT1203329	Isosorbide dinitrate 40 mg prolonged-release oral tablet
+^ESCT1203330	Product containing precisely isosorbide dinitrate 40 milligram/1 each prolonged-release oral tablet
+^ESCT1203377	Isosorbide mononitrate 40 mg prolonged-release oral tablet
+^ESCT1203378	Product containing precisely isosorbide mononitrate 40 milligram/1 each prolonged-release oral tablet
+^ESCT1203427	Isosorbide mononitrate 60 mg prolonged-release oral tablet
+^ESCT1203428	Product containing precisely isosorbide mononitrate 60 milligram/1 each prolonged-release oral tablet
+^ESCT1203451	Isosorbide mononitrate 25 mg prolonged-release oral tablet
+^ESCT1203452	Product containing precisely isosorbide mononitrate 25 milligram/1 each prolonged-release oral tablet
+^ESCT1203490	Isosorbide mononitrate 30mg prolonged-release oral tablet
+^ESCT1203512	Isosorbide mononitrate 50 mg prolonged-release oral tablet
+^ESCT1203513	Product containing precisely isosorbide mononitrate 50 milligram/1 each prolonged-release oral tablet
+^ESCT1203516	Isosorbide dinitrate 20 mg prolonged-release oral tablet
+^ESCT1203517	Product containing precisely isosorbide dinitrate 20 milligram/1 each prolonged-release oral tablet
+^ESCT1203733	Isosorbide mononitrate 60 mg prolonged-release oral capsule
+^ESCT1203734	Product containing precisely isosorbide mononitrate 60 milligram/1 each prolonged-release oral capsule
+^ESCT1203753	Isosorbide mononitrate 50 mg prolonged-release oral capsule
+^ESCT1203754	Product containing precisely isosorbide mononitrate 50 milligram/1 each prolonged-release oral capsule
+^ESCT1203815	Isosorbide mononitrate 40 mg prolonged-release oral capsule
+^ESCT1203816	Product containing precisely isosorbide mononitrate 40 milligram/1 each prolonged-release oral capsule
+^ESCT1203842	Isosorbide mononitrate 25 mg prolonged-release oral capsule
+^ESCT1203843	Product containing precisely isosorbide mononitrate 25 milligram/1 each prolonged-release oral capsule
+^ESCT1203867	Isosorbide dinitrate 40 mg prolonged-release oral capsule
+^ESCT1203868	Product containing precisely isosorbide dinitrate 40 milligram/1 each prolonged-release oral capsule
+^ESCT1204450	Isosorbide dinitrate 30 mg/actuation transdermal spray
+^ESCT1204451	Product containing precisely isosorbide dinitrate 30 milligram/actuation conventional release transdermal spray
+^ESCT1205778	Isosorbide in transdermal dosage form
+^ESCT1205779	Product containing isosorbide in transdermal dosage form
+^ESCT1206109	Isosorbide in parenteral dosage form
+^ESCT1206110	Product containing isosorbide in parenteral dosage form
+^ESCT1206111	Isosorbide in oropharyngeal dosage form
+^ESCT1206112	Product containing isosorbide in oropharyngeal dosage form
+^ESCT1206113	Isosorbide in sublingual dosage form
+^ESCT1206114	Product containing isosorbide in sublingual dosage form
+^ESCT1206115	Isosorbide in oral dosage form
+^ESCT1206116	Product containing isosorbide in oral dosage form
+^ESCT1207555	Hydralazine and isosorbide product
+^ESCT1207556	Product containing hydralazine and isosorbide
+^ESCT1207559	Hydralazine and isosorbide in oral dosage form
+^ESCT1207560	Product containing hydralazine and isosorbide in oral dosage form
+^ESCT1209667	Isosorbide dinitrate 10 mg/10 mL solution for injection ampoule
+^ESCT1209668	Isosorbide dinitrate 10 mg/10 mL solution for injection ampule
+^ESCT1209669	Product containing precisely isosorbide dinitrate 10 milligram/10 milliliter conventional release solution for injection ampule
+^ESCT1209670	Isosorbide dinitrate 50 mg/50 mL solution for injection bottle
+^ESCT1209671	Product containing precisely isosorbide dinitrate 50 milligram/50 milliliter conventional release solution for injection bottle
+^ESCT1209672	Isosorbide dinitrate 25 mg/50 mL solution for injection bottle
+^ESCT1209673	Product containing precisely isosorbide dinitrate 25 milligram/50 milliliter conventional release solution for injection bottle
+^ESCT1212264	Isosorbide mononitrate 60mg modified-release capsules
+^ESCT1212265	Isosorbide mononitrate 40mg modified-release capsules
+^ESCT1212266	Isosorbide mononitrate 25mg modified-release tablets
+^ESCT1212267	Isosorbide mononitrate 50mg modified-release tablets
+^ESCT1212268	Isosorbide mononitrate 50mg modified-release capsules
+^ESCT1212269	Isosorbide mononitrate 40mg modified-release tablets
+^ESCT1212270	Isosorbide mononitrate 25mg modified-release capsules
+^ESCT1212271	Isosorbide mononitrate 60mg modified-release tablets
+^ESCT1212296	Isosorbide dinitrate 20mg modified-release tablets
+^ESCT1214237	Isosorbide mononitrate 40mg tablets (Medreich Plc)
+^ESCT1214238	Isosorbide mononitrate 40mg tablets (Medreich Plc) 56 tablet 4 x 14 tablets
+^ESCT1214703	Aspirin 150mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCT1214704	Aspirin 75mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCT1215528	Isosorbide mononitrate 20mg tablets (Medreich Plc)
+^ESCT1215529	Isosorbide mononitrate 20mg tablets (Medreich Plc) 56 tablet 4 x 14 tablets
+^ESCT1215595	Isosorbide dinitrate 10mg/10ml solution for injection ampoules
+^ESCT1215596	Isosorbide dinitrate 25mg/50ml infusion bottles
+^ESCT1215597	Isosorbide dinitrate 30mg/dose transdermal spray
+^ESCT1215598	Isosorbide dinitrate 40mg modified-release capsules
+^ESCT1215599	Isosorbide dinitrate 40mg modified-release tablets
+^ESCT1215600	Isosorbide dinitrate 50mg/50ml infusion bottles
+^ESCT1216335	Isosorbide dinitrate
+^ESCT1216336	Isosorbide mononitrate
+^ESCT1220866	Isosorbide
+^ESCT1220867	Isosorbide product
+^ESCT1223049	Product containing precisely isosorbide mononitrate 10 milligram/1 each conventional release oral tablet
+^ESCT1223050	Product containing precisely isosorbide mononitrate 20 milligram/1 each conventional release oral tablet
+^ESCT1223051	Product containing precisely isosorbide mononitrate 40 milligram/1 each conventional release oral tablet
+^ESCT1223085	Aspirin and isosorbide mononitrate product
+^ESCT1223086	Product containing precisely isosorbide dinitrate 10 milligram/1 each conventional release oral tablet
+^ESCT1223087	Product containing precisely isosorbide dinitrate 20 milligram/1 each conventional release oral tablet
+^ESCT1223088	Product containing precisely isosorbide dinitrate 30 milligram/1 each conventional release oral tablet
+^ESCT1223089	Product containing precisely isosorbide dinitrate 1.25 milligram/actuation conventional release sublingual spray
+^ESCT1223090	Isosorbide dinitrate 1.25 mg/actuation sublingual spray
+^ESCT1227727	Product containing precisely isosorbide dinitrate 5 milligram/1 each conventional release oral tablet
+^ESCT1227744	Product containing precisely isosorbide dinitrate 40 milligram/1 each conventional release oral tablet
+^ESCT1232879	Isosorbide dinitrate 20 mg and hydralazine 37.5 mg oral tablet
+^ESCT1232880	Product containing precisely hydralazine 37.5 milligram and isosorbide dinitrate 20 milligram/1 each conventional release oral tablet
+^ESCT1232881	Hydralazine 37.5 mg and isosorbide dinitrate 20 mg oral tablet
+^ESCT1250032	Chemydur 60XL tablets (Advanz Pharma)
+^ESCT1250107	Chemydur 60XL tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1259702	Isosorbide mononitrate 10mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1259704	Isosorbide mononitrate 10mg tablets (Flamingo Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1259708	Isosorbide mononitrate 20mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1259710	Isosorbide mononitrate 20mg tablets (Flamingo Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1259713	Isosorbide mononitrate 40mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1259714	Isosorbide mononitrate 40mg tablets (Flamingo Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1264283	Isosorbide mononitrate 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264284	Isosorbide mononitrate 10mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCT1264286	Isosorbide mononitrate 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264289	Isosorbide mononitrate 20mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCT1264293	Isosorbide mononitrate 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264295	Isosorbide mononitrate 40mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCT1267294	Isosorbide mononitrate 20mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCT1267870	Isotard 25XL tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267871	Isotard 25XL tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1267949	Isotard 60XL tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267950	Isotard 60XL tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1268373	Ziotan XL 50mg capsules (Healthcare Pharma Ltd)
+^ESCT1268374	Ziotan XL 50mg capsules (Healthcare Pharma Ltd) 28 capsule
+^ESCT1279913	Tardisc XL 60 tablets (Dexcel-Pharma Ltd)
+^ESCT1279914	Tardisc XL 60 tablets (Dexcel-Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1299745	Elantan LA50 capsules (Forum Health Products Ltd)
+^ESCT1299747	Isoket Retard 20 tablets (Forum Health Products Ltd)
+^ESCT1299748	Isosorbide dinitrate 20mg tablets (Accord Healthcare Ltd)
+^ESCT1299752	Elantan LA25 capsules (Forum Health Products Ltd)
+^ESCT1299756	Isoket Retard 20 tablets (Forum Health Products Ltd) 56 tablet 4 x 14 tablets
+^ESCT1299757	Isosorbide dinitrate 20mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1299758	Elantan LA25 capsules (Forum Health Products Ltd) 28 capsule 2 x 14 capsules
+^ESCT1299760	Elantan LA50 capsules (Forum Health Products Ltd) 28 capsule 2 x 14 capsules
+^ESCT1299772	Isoket Retard 40 tablets (Forum Health Products Ltd)
+^ESCT1299773	Isoket Retard 40 tablets (Forum Health Products Ltd) 56 tablet 4 x 14 tablets
+^ESCT1299782	Trangina XL 60mg tablets (Accord Healthcare Ltd)
+^ESCT1299783	Trangina XL 60mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1299789	Isoket 0.1% solution for injection 10ml ampoules (Forum Health Products Ltd)
+^ESCT1299790	Isoket 0.1% solution for injection 10ml ampoules (Forum Health Products Ltd) 10 ampoule
+^ESCT1300763	Isotard 25XL tablets (DE Pharmaceuticals)
+^ESCT1300764	Isotard 25XL tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1300765	Isotard 60XL tablets (DE Pharmaceuticals)
+^ESCT1300766	Isotard 60XL tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1349674	Aspirin- and isosorbide-containing product
+^ESCT1351880	Isosorbide-containing product in oromucosal dose form
+^ESCT1353584	Aspirin and isosorbide only product
+^ESCT1355313	Hydralazine and isosorbide only product
+^ESCT1355535	Isosorbide only product
+^ESCT1358770	Hydralazine and isosorbide only product in oral dose form
+^ESCT1358924	Isosorbide only product in oral dose form
+^ESCT1358925	Isosorbide only product in oromucosal dose form
+^ESCT1358926	Isosorbide only product in parenteral dose form
+^ESCT1358927	Isosorbide only product in transdermal dose form
+^ESCT1361119	Isosorbide dinitrate 500 microgram/mL solution for injection
+^ESCT1361120	Isosorbide dinitrate 1 mg/mL solution for injection
+^ESCT1370611	Aspirin + Isosorbide mononitrate
+^ESCT1375710	Isosorbide mononitrate 50mg modified-release tablets
+^ESCT1375711	Isosorbide mononitrate 25mg modified-release tablets
+^ESCT1378357	Isosorbide-containing product
+^ESCT1381743	Isosorbide dinitrate 2.5 mg sublingual tablet
+^ESCT1383520	Isosorbide dinitrate 10 mg sublingual tablet
+^ESCT1383543	Isosorbide dinitrate 5 mg sublingual tablet
+^ESCT1386041	Isosorbide-containing product in transdermal dose form
+^ESCT1386129	Isosorbide-containing product in parenteral dose form
+^ESCT1386130	Isosorbide-containing product in oropharyngeal dose form
+^ESCT1386131	Isosorbide-containing product in sublingual dose form
+^ESCT1386132	Isosorbide-containing product in oral dose form
+^ESCT1386794	Hydralazine- and isosorbide-containing product
+^ESCT1386796	Hydralazine- and isosorbide-containing product in oral dose form
+^ESCT1401897	Isosorbide dinitrate 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401898	Isosorbide dinitrate 10mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1401899	Isosorbide dinitrate 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401900	Isosorbide dinitrate 20mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1401901	Isosorbide mononitrate 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401902	Isosorbide mononitrate 40mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1401908	Isosorbide mononitrate 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401909	Isosorbide mononitrate 10mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1401910	Isosorbide mononitrate 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401911	Isosorbide mononitrate 20mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1402066	Isosorbide mononitrate 40mg modified-release tablets
+^ESCT1402067	Isosorbide mononitrate 40mg modified-release capsules
+^ESCT1402068	Isosorbide dinitrate 20mg modified-release tablets
+^ESCT1402087	Isosorbide mononitrate 60mg modified-release capsules
+^ESCT1402088	Isosorbide mononitrate 25mg modified-release capsules
+^ESCT1402089	Isosorbide mononitrate 60mg modified-release tablets
+^ESCT1402090	Isosorbide mononitrate 50mg modified-release capsules
+^ESCT1409602	Isosorbide dinitrate 10mg tablets (Accord Healthcare Ltd)
+^ESCT1409634	Zemon 60 XL tablets (Fannin (UK) Ltd)
+^ESCT1409684	Isosorbide mononitrate 10mg tablets (Accord Healthcare Ltd)
+^ESCT1409806	Isosorbide mononitrate 10mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1409868	Isosorbide dinitrate 10mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1409910	Zemon 60 XL tablets (Fannin (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1425432	Isosorbide mononitrate 10mg tablets (Medreich Plc)
+^ESCT1425433	Isosorbide mononitrate 10mg tablets (Medreich Plc) 56 tablet 4 x 14 tablets
+^ESCT1425434	Isosorbide mononitrate 30mg tablets 56 tablet
+^ESCT1425435	Isosorbide mononitrate 30mg tablets (Medreich Plc)
+^ESCT1425436	Isosorbide mononitrate 30mg tablets (Medreich Plc) 56 tablet 4 x 14 tablets
+^ESCT1425461	Isosorbide mononitrate 30mg tablets
+^ESCT1425558	Isosorbide mononitrate 50mg modified-release capsules (Kent Pharma (UK) Ltd)
+^ESCT1425567	Isosorbide dinitrate 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425596	Isosorbide mononitrate 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425691	Isosorbide mononitrate 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425707	Isosorbide dinitrate 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425742	Isosorbide mononitrate 40mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425887	Zemon 40 XL tablets (Kent Pharma (UK) Ltd)
+^ESCT1425901	Isosorbide mononitrate 25mg modified-release capsules (Kent Pharma (UK) Ltd)
+^ESCT1425975	Isosorbide mononitrate 10mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1425976	Isosorbide mononitrate 10mg tablets (Kent Pharma (UK) Ltd) 56 tablet 2 x 28 tablets
+^ESCT1426008	Isosorbide mononitrate 40mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426009	Isosorbide mononitrate 40mg tablets (Kent Pharma (UK) Ltd) 56 tablet
+^ESCT1426011	Isosorbide mononitrate 20mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426012	Isosorbide mononitrate 20mg tablets (Kent Pharma (UK) Ltd) 56 tablet 2 x 28 tablets
+^ESCT1426135	Zemon 40 XL tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426147	Isosorbide dinitrate 20mg tablets (Kent Pharma (UK) Ltd) 56 tablet 2 x 28 tablets
+^ESCT1426155	Isosorbide dinitrate 10mg tablets (Kent Pharma (UK) Ltd) 56 tablet 2 x 28 tablets
+^ESCT1426264	Isosorbide mononitrate 25mg modified-release capsules (Kent Pharma (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1426266	Isosorbide mononitrate 50mg modified-release capsules (Kent Pharma (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1426869	Monosorb XL 60 tablets (Kent Pharma (UK) Ltd)
+^ESCT1426870	Monosorb XL 60 tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426922	Imo LA 50mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426923	Imo LA 50mg capsules (Kent Pharma (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1434789	Ismo Retard 40mg tablets (Esteve Pharmaceuticals Ltd)
+^ESCT1434792	Ismo 10 tablets (Esteve Pharmaceuticals Ltd)
+^ESCT1434793	Ismo 20 tablets (Esteve Pharmaceuticals Ltd)
+^ESCT1434798	Ismo 10 tablets (Esteve Pharmaceuticals Ltd) 60 tablet 3 x 20 tablets
+^ESCT1434799	Ismo 20 tablets (Esteve Pharmaceuticals Ltd) 60 tablet 3 x 20 tablets
+^ESCT1434804	Ismo Retard 40mg tablets (Esteve Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1436975	Monigen XL 60 tablets (Viatris UK Healthcare Ltd)
+^ESCT1437006	Carmil XL 60mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437013	Isosorbide mononitrate 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437019	Isosorbide mononitrate 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437042	Isosorbide mononitrate 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437148	Isosorbide mononitrate 10mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437172	Isosorbide mononitrate 40mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437174	Isosorbide mononitrate 20mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437340	Monigen XL 60 tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437342	Carmil XL 60mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCTAN809659	Angeze 10 tablets (Opus Pharmaceuticals Ltd)
+^ESCTAN820050	Angeze 20 tablets (Opus Pharmaceuticals Ltd)
+^ESCTAN849289	Angeze 10 tablets (Opus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAN849619	Angeze 20 tablets (Opus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTAN865611	Angitak 1.25mg/dose spray (LPC Medical (UK) Ltd)
+^ESCTAN865613	Angitak 1.25mg/dose spray (LPC Medical (UK) Ltd) 200 dose
+^ESCTAN913834	Angeze
+^ESCTAN913847	Angitak
+^ESCTAS607670	Aspirin + Isosorbide mononitrate
+^ESCTAS607672	Aspirin 150mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCTAS607674	Aspirin 75mg / Isosorbide mononitrate 60mg modified-release tablets
+^ESCTAS862062	Aspirin 75mg / Isosorbide mononitrate 60mg modified-release tablets 28 tablet
+^ESCTAS862065	Aspirin 150mg / Isosorbide mononitrate 60mg modified-release tablets 28 tablet
+^ESCTCA821661	Carmil XL 60mg tablets (Mylan Ltd)
+^ESCTCA853400	Carmil XL 60mg tablets (Mylan Ltd) 28 tablet
+^ESCTCA914325	Carmil XL
+^ESCTCE816765	Cedocard Retard 20 tablets (Pfizer Ltd)
+^ESCTCE850823	Cedocard Retard 20 tablets (Pfizer Ltd) 60 tablet 6 x 10 tablets
+^ESCTCE859040	Cedocard Retard 40 tablets (Pfizer Ltd)
+^ESCTCE859041	Cedocard Retard 40 tablets (Pfizer Ltd) 60 tablet
+^ESCTCE870795	Cedocard 5 tablets (Pfizer Ltd)
+^ESCTCE870801	Cedocard 5 tablets (Pfizer Ltd) 60 tablet
+^ESCTCE870802	Cedocard 5 tablets (Pfizer Ltd) 180 tablet
+^ESCTCE914342	Cedocard
+^ESCTCE914344	Cedocard Retard
+^ESCTCH810575	Chemydur 60XL tablets (AMCo)
+^ESCTCH853406	Chemydur 60XL tablets (AMCo) 28 tablet 2 x 14 tablets
+^ESCTCH920084	Chemydur 60XL
+^ESCTCI801836	Cibral 20 tablets (Ranbaxy (UK) Ltd)
+^ESCTCI804857	Cibral 10 tablets (Ranbaxy (UK) Ltd)
+^ESCTCI806792	Cibral 40 tablets (Ranbaxy (UK) Ltd)
+^ESCTCI820992	Cibral XL 60 tablets (Ranbaxy (UK) Ltd)
+^ESCTCI849280	Cibral 10 tablets (Ranbaxy (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCTCI849569	Cibral 40 tablets (Ranbaxy (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCTCI849602	Cibral 20 tablets (Ranbaxy (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCTCI853390	Cibral XL 60 tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI920004	Cibral
+^ESCTCI920054	Cibral XL
+^ESCTDY801352	Dynamin 20mg tablets (Teva UK Ltd)
+^ESCTDY817252	Dynamin XL50 capsules (Teva UK Ltd)
+^ESCTDY820377	Dynamin XL25 capsules (Teva UK Ltd)
+^ESCTDY820445	Dynamin 10mg tablets (Teva UK Ltd)
+^ESCTDY849276	Dynamin 10mg tablets (Teva UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTDY849600	Dynamin 20mg tablets (Teva UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTDY855167	Dynamin XL25 capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTDY855169	Dynamin XL50 capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTDY914957	Dynamin
+^ESCTDY914959	Dynamin XL
+^ESCTEL1001965	Elantan LA50 capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTEL1008979	Elantan LA50 capsules (Necessity Supplies Ltd)
+^ESCTEL1008980	Elantan LA50 capsules (Necessity Supplies Ltd) 28 capsule
+^ESCTEL1008981	Elantan LA50 capsules (Necessity Supplies Ltd) 30 capsule
+^ESCTEL1022734	Elantan LA25 capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTEL1022738	Elantan LA25 capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTEL1110449	Elantan LA25 capsules (Waymade Healthcare Plc)
+^ESCTEL1110452	Elantan LA25 capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTEL801629	Elantan LA50 capsules (Aspire Pharma Ltd)
+^ESCTEL812206	Elantan 20 tablets (UCB Pharma Ltd)
+^ESCTEL819138	Elantan 40 tablets (UCB Pharma Ltd)
+^ESCTEL819183	Elantan 10 tablets (UCB Pharma Ltd)
+^ESCTEL820344	Elantan LA25 capsules (Aspire Pharma Ltd)
+^ESCTEL849295	Elantan 10 tablets (UCB Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTEL849296	Elantan 10 tablets (UCB Pharma Ltd) 84 tablet 6 x 14 tablets
+^ESCTEL849585	Elantan 40 tablets (UCB Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTEL849587	Elantan 40 tablets (UCB Pharma Ltd) 84 tablet 6 x 14 tablets
+^ESCTEL849636	Elantan 20 tablets (UCB Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTEL849637	Elantan 20 tablets (UCB Pharma Ltd) 84 tablet 6 x 14 tablets
+^ESCTEL853380	Elantan LA25 capsules (Aspire Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTEL853424	Elantan LA50 capsules (Aspire Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTEL878511	Elantan LA50 capsules (Waymade Healthcare Plc)
+^ESCTEL878512	Elantan LA50 capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTEL879302	Elantan LA50 capsules (Dowelhurst Ltd)
+^ESCTEL879305	Elantan LA50 capsules (Dowelhurst Ltd) 30 capsule
+^ESCTEL915017	Elantan
+^ESCTEL915019	Elantan LA
+^ESCTEL933599	Elantan 10 tablets (Waymade Healthcare Plc)
+^ESCTEL933600	Elantan 10 tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTEL933601	Elantan 20 tablets (Waymade Healthcare Plc)
+^ESCTEL933602	Elantan 20 tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTEL933603	Elantan 40 tablets (Waymade Healthcare Plc)
+^ESCTEL933604	Elantan 40 tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTEL951073	Elantan LA50 capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTEL966604	Elantan LA50 capsules (DE Pharmaceuticals)
+^ESCTEL966605	Elantan LA50 capsules (DE Pharmaceuticals) 30 capsule
+^ESCTEL966606	Elantan LA50 capsules (DE Pharmaceuticals) 28 capsule
+^ESCTEL993257	Elantan LA50 capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTEL993258	Elantan LA50 capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTEU1003189	Eumon 60 XL tablets (Tillomed Laboratories Ltd)
+^ESCTEU1003190	Eumon 60 XL tablets (Tillomed Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTEU928574	Eumon XL
+^ESCTEU988930	Eumon 40 XL tablets (Tillomed Laboratories Ltd)
+^ESCTEU988931	Eumon 40 XL tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTIM1009085	Imdur 60mg modified-release tablets (Necessity Supplies Ltd)
+^ESCTIM1009086	Imdur 60mg modified-release tablets (Necessity Supplies Ltd) 28 tablet
+^ESCTIM1009087	Imdur 60mg modified-release tablets (Necessity Supplies Ltd) 60 tablet
+^ESCTIM1011962	Imdur 60mg modified-release tablets (DE Pharmaceuticals) 30 tablet
+^ESCTIM818072	Imdur 60mg modified-release tablets (AstraZeneca UK Ltd)
+^ESCTIM853383	Imdur 60mg modified-release tablets (AstraZeneca UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTIM862063	Imazin XL tablets (Napp Pharmaceuticals Ltd)
+^ESCTIM862064	Imazin XL tablets (Napp Pharmaceuticals Ltd) 28 tablet
+^ESCTIM862069	Imazin XL forte tablets (Napp Pharmaceuticals Ltd)
+^ESCTIM862070	Imazin XL forte tablets (Napp Pharmaceuticals Ltd) 28 tablet
+^ESCTIM877930	Imdur 60mg modified-release tablets (Waymade Healthcare Plc)
+^ESCTIM877931	Imdur 60mg modified-release tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTIM877933	Imdur 60mg modified-release tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTIM879420	Imdur 60mg modified-release tablets (Dowelhurst Ltd)
+^ESCTIM879421	Imdur 60mg modified-release tablets (Dowelhurst Ltd) 28 tablet
+^ESCTIM879424	Imdur 60mg modified-release tablets (Dowelhurst Ltd) 60 tablet
+^ESCTIM879425	Imdur 60mg modified-release tablets (Dowelhurst Ltd) 30 tablet
+^ESCTIM906310	Imo LA 50mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTIM906316	Imo LA 50mg capsules (Kent Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTIM918742	Imdur
+^ESCTIM918957	Imazin XL
+^ESCTIM919377	Imo LA
+^ESCTIM920629	Imazin XL forte
+^ESCTIM930365	Imdur 60mg modified-release tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTIM967036	Imdur 60mg modified-release tablets (DE Pharmaceuticals)
+^ESCTIM967037	Imdur 60mg modified-release tablets (DE Pharmaceuticals) 28 tablet
+^ESCTIM967038	Imdur 60mg modified-release tablets (DE Pharmaceuticals) 60 tablet
+^ESCTIM970278	Imdur 60mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTIM970279	Imdur 60mg modified-release tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTIM970280	Imdur 60mg modified-release tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTIM989180	Imdur 60mg modified-release tablets (Lexon (UK) Ltd)
+^ESCTIM989181	Imdur 60mg modified-release tablets (Lexon (UK) Ltd) 28 tablet
+^ESCTIM989182	Imdur 60mg modified-release tablets (Lexon (UK) Ltd) 30 tablet
+^ESCTIM989183	Imdur 60mg modified-release tablets (Lexon (UK) Ltd) 60 tablet
+^ESCTIM992585	Imdur 60mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIM992586	Imdur 60mg modified-release tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTIM992587	Imdur 60mg modified-release tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTIM992588	Imdur 60mg modified-release tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTIM992988	Imdur 60mg modified-release tablets (Stephar (U.K.) Ltd)
+^ESCTIM992989	Imdur 60mg modified-release tablets (Stephar (U.K.) Ltd) 28 tablet
+^ESCTIM992990	Imdur 60mg modified-release tablets (Stephar (U.K.) Ltd) 30 tablet
+^ESCTIM992993	Imdur 60mg modified-release tablets (Stephar (U.K.) Ltd) 60 tablet
+^ESCTIS1001179	Isosorbide dinitrate 10mg tablets (Essential Generics Ltd)
+^ESCTIS1001180	Isosorbide dinitrate 10mg tablets (Essential Generics Ltd) 56 tablet
+^ESCTIS1001185	Isosorbide dinitrate 20mg tablets (Essential Generics Ltd)
+^ESCTIS1001186	Isosorbide dinitrate 20mg tablets (Essential Generics Ltd) 56 tablet
+^ESCTIS1006048	Isosorbide dinitrate 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTIS1006049	Isosorbide dinitrate 10mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTIS1006050	Isosorbide dinitrate 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTIS1006051	Isosorbide dinitrate 20mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTIS1006052	Isosorbide mononitrate 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTIS1006053	Isosorbide mononitrate 10mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTIS1006054	Isosorbide mononitrate 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTIS1006055	Isosorbide mononitrate 20mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTIS1006056	Isosorbide mononitrate 40mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTIS1006057	Isosorbide mononitrate 40mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTIS1036661	Isosorbide dinitrate 10mg/5ml oral suspension 100 ml
+^ESCTIS1036662	Isosorbide dinitrate 10mg/5ml oral suspension (Special Order) 100 ml
+^ESCTIS1036663	Isosorbide dinitrate 20mg/5ml oral suspension 100 ml
+^ESCTIS1036664	Isosorbide dinitrate 20mg/5ml oral suspension (Special Order) 100 ml
+^ESCTIS1036665	Isosorbide mononitrate 10mg/5ml oral suspension 100 ml
+^ESCTIS1036666	Isosorbide mononitrate 10mg/5ml oral suspension (Special Order) 100 ml
+^ESCTIS1044067	Isosorbide dinitrate 10mg tablets (Waymade Healthcare Plc)
+^ESCTIS1044068	Isosorbide dinitrate 10mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTIS1044069	Isosorbide dinitrate 20mg tablets (Waymade Healthcare Plc)
+^ESCTIS1044073	Isosorbide dinitrate 20mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTIS1044081	Isosorbide mononitrate 10mg tablets (Waymade Healthcare Plc)
+^ESCTIS1044083	Isosorbide mononitrate 10mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTIS1044084	Isosorbide mononitrate 20mg tablets (Waymade Healthcare Plc)
+^ESCTIS1044087	Isosorbide mononitrate 20mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTIS1044089	Isosorbide mononitrate 40mg tablets (Waymade Healthcare Plc)
+^ESCTIS1044091	Isosorbide mononitrate 40mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTIS1049834	Isosorbide mononitrate 40mg modified-release tablets (Ennogen Healthcare Ltd)
+^ESCTIS1049835	Isosorbide mononitrate 40mg modified-release tablets (Ennogen Healthcare Ltd) 28 tablet
+^ESCTIS1054786	Isosorbide mononitrate 40mg modified-release capsules (J M McGill Ltd)
+^ESCTIS1054788	Isosorbide mononitrate 40mg modified-release capsules (J M McGill Ltd) 28 capsule
+^ESCTIS1054790	Isosorbide mononitrate 40mg modified-release tablets (J M McGill Ltd)
+^ESCTIS1054791	Isosorbide mononitrate 40mg modified-release tablets (J M McGill Ltd) 28 tablet
+^ESCTIS1055210	Isosorbide mononitrate 40mg modified-release tablets (AM Distributions (Yorkshire) Ltd)
+^ESCTIS1055211	Isosorbide mononitrate 40mg modified-release tablets (AM Distributions (Yorkshire) Ltd) 28 tablet
+^ESCTIS1057986	Isosorbide mononitrate 20mg tablets (Accord Healthcare Ltd)
+^ESCTIS1057987	Isosorbide mononitrate 20mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS1057988	Isosorbide mononitrate 40mg tablets (Accord Healthcare Ltd)
+^ESCTIS1057989	Isosorbide mononitrate 40mg tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS1058214	Isosorbide dinitrate 40mg modified-release tablets (Cubic Pharmaceuticals Ltd)
+^ESCTIS1058215	Isosorbide dinitrate 40mg modified-release tablets (Cubic Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS1058216	Isosorbide dinitrate 20mg modified-release tablets (Cubic Pharmaceuticals Ltd)
+^ESCTIS1058217	Isosorbide dinitrate 20mg modified-release tablets (Cubic Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS1058220	Isosorbide mononitrate 40mg modified-release tablets (Cubic Pharmaceuticals Ltd)
+^ESCTIS1058221	Isosorbide mononitrate 40mg modified-release tablets (Cubic Pharmaceuticals Ltd) 28 tablet
+^ESCTIS1058222	Isosorbide mononitrate 40mg modified-release capsules (Cubic Pharmaceuticals Ltd)
+^ESCTIS1058223	Isosorbide mononitrate 40mg modified-release capsules (Cubic Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTIS1058326	Isosorbide mononitrate 25mg modified-release capsules (Waymade Healthcare Plc)
+^ESCTIS1058327	Isosorbide mononitrate 25mg modified-release capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTIS1058328	Isosorbide mononitrate 50mg modified-release capsules (Waymade Healthcare Plc)
+^ESCTIS1058329	Isosorbide mononitrate 50mg modified-release capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTIS1061603	Isosorbide mononitrate 40mg modified-release tablets (Niche Pharma Ltd)
+^ESCTIS1061604	Isosorbide mononitrate 40mg modified-release tablets (Niche Pharma Ltd) 28 tablet
+^ESCTIS1061621	Isosorbide mononitrate 40mg modified-release tablets (DE Pharmaceuticals)
+^ESCTIS1061622	Isosorbide mononitrate 40mg modified-release tablets (DE Pharmaceuticals) 28 tablet
+^ESCTIS1061702	Isosorbide mononitrate 10mg tablets (DE Pharmaceuticals)
+^ESCTIS1061703	Isosorbide mononitrate 10mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTIS1061704	Isosorbide mononitrate 20mg tablets (DE Pharmaceuticals)
+^ESCTIS1061705	Isosorbide mononitrate 20mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTIS1061706	Isosorbide mononitrate 40mg tablets (DE Pharmaceuticals)
+^ESCTIS1061707	Isosorbide mononitrate 40mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTIS1063278	Isosorbide dinitrate 20mg modified-release tablets (Colorama Pharmaceuticals Ltd)
+^ESCTIS1063280	Isosorbide dinitrate 20mg modified-release tablets (Colorama Pharmaceuticals Ltd) 56 tablet
+^ESCTIS1063661	Isosorbide mononitrate 40mg modified-release tablets (Ethigen Ltd)
+^ESCTIS1063662	Isosorbide mononitrate 40mg modified-release tablets (Ethigen Ltd) 28 tablet
+^ESCTIS1066086	Isosorbide dinitrate 20mg modified-release tablets (CST Pharma Ltd)
+^ESCTIS1066087	Isosorbide dinitrate 20mg modified-release tablets (CST Pharma Ltd) 56 tablet
+^ESCTIS1066088	Isosorbide mononitrate 40mg modified-release capsules (CST Pharma Ltd)
+^ESCTIS1066089	Isosorbide mononitrate 40mg modified-release capsules (CST Pharma Ltd) 28 capsule
+^ESCTIS1066090	Isosorbide mononitrate 40mg modified-release tablets (CST Pharma Ltd)
+^ESCTIS1066091	Isosorbide mononitrate 40mg modified-release tablets (CST Pharma Ltd) 28 tablet
+^ESCTIS1066311	Isosorbide mononitrate 20mg/5ml oral suspension 100 ml
+^ESCTIS1066312	Isosorbide mononitrate 20mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTIS1067171	Isosorbide mononitrate 40mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIS1067172	Isosorbide mononitrate 40mg modified-release tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTIS1068243	Isosorbide mononitrate 40mg modified-release tablets (Sigma Pharmaceuticals Plc)
+^ESCTIS1068244	Isosorbide mononitrate 40mg modified-release tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTIS1068277	Isosorbide mononitrate 40mg modified-release capsules (Sigma Pharmaceuticals Plc)
+^ESCTIS1068278	Isosorbide mononitrate 40mg modified-release capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTIS1077251	Isosorbide mononitrate 40mg modified-release tablets (Colorama Pharmaceuticals Ltd)
+^ESCTIS1077253	Isosorbide mononitrate 40mg modified-release tablets (Colorama Pharmaceuticals Ltd) 28 tablet
+^ESCTIS1078251	Isosorbide mononitrate 40mg modified-release tablets (Icarus Pharmaceuticals Ltd)
+^ESCTIS1078254	Isosorbide mononitrate 40mg modified-release tablets (Icarus Pharmaceuticals Ltd) 28 tablet
+^ESCTIS1079782	Isosorbide mononitrate 40mg modified-release capsules (Icarus Pharmaceuticals Ltd)
+^ESCTIS1079785	Isosorbide mononitrate 40mg modified-release capsules (Icarus Pharmaceuticals Ltd) 28 capsule
+^ESCTIS1100341	Isosorbide dinitrate 20mg modified-release tablets (J M McGill Ltd)
+^ESCTIS1100342	Isosorbide dinitrate 20mg modified-release tablets (J M McGill Ltd) 56 tablet
+^ESCTIS1100343	Isosorbide dinitrate 40mg modified-release tablets (J M McGill Ltd)
+^ESCTIS1100344	Isosorbide dinitrate 40mg modified-release tablets (J M McGill Ltd) 56 tablet
+^ESCTIS1100661	Isosorbide dinitrate 20mg modified-release tablets (Ennogen Healthcare Ltd)
+^ESCTIS1100662	Isosorbide dinitrate 20mg modified-release tablets (Ennogen Healthcare Ltd) 56 tablet
+^ESCTIS1100663	Isosorbide dinitrate 40mg modified-release tablets (Ennogen Healthcare Ltd)
+^ESCTIS1100664	Isosorbide dinitrate 40mg modified-release tablets (Ennogen Healthcare Ltd) 56 tablet
+^ESCTIS1100665	Isosorbide mononitrate 40mg modified-release capsules (Ennogen Healthcare Ltd)
+^ESCTIS1100666	Isosorbide mononitrate 40mg modified-release capsules (Ennogen Healthcare Ltd) 28 capsule
+^ESCTIS1101433	Isosorbide dinitrate 40mg modified-release tablets (Colorama Pharmaceuticals Ltd)
+^ESCTIS1101434	Isosorbide dinitrate 40mg modified-release tablets (Colorama Pharmaceuticals Ltd) 56 tablet
+^ESCTIS1101537	Isosorbide mononitrate 40mg modified-release tablets (Pharma-z Ltd)
+^ESCTIS1101538	Isosorbide mononitrate 40mg modified-release tablets (Pharma-z Ltd) 28 tablet
+^ESCTIS1109000	Isosorbide dinitrate 20mg modified-release tablets (Niche Pharma Ltd)
+^ESCTIS1109001	Isosorbide dinitrate 20mg modified-release tablets (Niche Pharma Ltd) 56 tablet
+^ESCTIS1109002	Isosorbide dinitrate 40mg modified-release tablets (Niche Pharma Ltd)
+^ESCTIS1109003	Isosorbide dinitrate 40mg modified-release tablets (Niche Pharma Ltd) 56 tablet
+^ESCTIS1109133	Isosorbide dinitrate 25mg/50ml solution for infusion vials
+^ESCTIS1109134	Isosorbide dinitrate 25mg/50ml solution for infusion vials 1 vial
+^ESCTIS1109135	Isosorbide dinitrate 25mg/50ml solution for infusion vials 10 vial
+^ESCTIS1109136	Isosorbide dinitrate 25mg/50ml solution for infusion vials (Special Order)
+^ESCTIS1109137	Isosorbide dinitrate 25mg/50ml solution for infusion vials (Special Order) 1 vial
+^ESCTIS1109138	Isosorbide dinitrate 25mg/50ml solution for infusion vials (Special Order) 10 vial
+^ESCTIS1109139	Isosorbide dinitrate 50mg/50ml solution for infusion vials 1 vial
+^ESCTIS1109140	Isosorbide dinitrate 50mg/50ml solution for infusion vials 10 vial
+^ESCTIS1109141	Isosorbide dinitrate 50mg/50ml solution for infusion vials (Special Order)
+^ESCTIS1109142	Isosorbide dinitrate 50mg/50ml solution for infusion vials (Special Order) 1 vial
+^ESCTIS1109143	Isosorbide dinitrate 50mg/50ml solution for infusion vials (Special Order) 10 vial
+^ESCTIS1109144	Isosorbide dinitrate 50mg/50ml solution for infusion vials
+^ESCTIS1117900	Isosorbide mononitrate 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIS1117901	Isosorbide mononitrate 40mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTIS1117902	Isosorbide dinitrate 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIS1117903	Isosorbide dinitrate 10mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTIS1117904	Isosorbide dinitrate 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIS1117905	Isosorbide dinitrate 20mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTIS1119409	Isosorbide dinitrate 10mg tablets (DE Pharmaceuticals)
+^ESCTIS1119410	Isosorbide dinitrate 10mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTIS1119411	Isosorbide dinitrate 20mg tablets (DE Pharmaceuticals)
+^ESCTIS1119412	Isosorbide mononitrate 25mg modified-release capsules (DE Pharmaceuticals)
+^ESCTIS1119413	Isosorbide mononitrate 25mg modified-release capsules (DE Pharmaceuticals) 28 capsule
+^ESCTIS1119414	Isosorbide mononitrate 50mg modified-release capsules (DE Pharmaceuticals)
+^ESCTIS1119415	Isosorbide mononitrate 50mg modified-release capsules (DE Pharmaceuticals) 28 capsule
+^ESCTIS1119416	Isosorbide mononitrate 60mg modified-release tablets (DE Pharmaceuticals)
+^ESCTIS1119417	Isosorbide mononitrate 60mg modified-release tablets (DE Pharmaceuticals) 28 tablet
+^ESCTIS1119531	Isosorbide dinitrate 20mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTIS1120891	Isosorbide dinitrate 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIS1120892	Isosorbide dinitrate 10mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTIS1120893	Isosorbide dinitrate 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIS1120894	Isosorbide dinitrate 20mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTIS1120895	Isosorbide mononitrate 60mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIS1120896	Isosorbide mononitrate 60mg modified-release tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTIS1145193	Isosorbide dinitrate 25mg/50ml solution for infusion vials (Torbay Pharmaceuticals)
+^ESCTIS1145194	Isosorbide dinitrate 25mg/50ml solution for infusion vials (Torbay Pharmaceuticals) 10 vial
+^ESCTIS1145195	Isosorbide dinitrate 50mg/50ml concentrate for solution for infusion vials (Torbay Pharmaceuticals)
+^ESCTIS1145196	Isosorbide dinitrate 50mg/50ml concentrate for solution for infusion vials (Torbay Pharmaceuticals) 10 vial
+^ESCTIS1145197	Isosorbide dinitrate 10mg/10ml concentrate for solution for injection ampoules (Torbay Pharmaceuticals)
+^ESCTIS1145198	Isosorbide dinitrate 10mg/10ml concentrate for solution for injection ampoules (Torbay Pharmaceuticals) 10 ampoule
+^ESCTIS259395	Isosorbide dinitrate
+^ESCTIS415461	Isosorbide
+^ESCTIS415466	Isosorbide mononitrate
+^ESCTIS607536	Isosorbide mononitrate 60mg modified-release capsules
+^ESCTIS607537	Isosorbide mononitrate 60mg m/r capsule
+^ESCTIS607538	Isosorbide mononitrate 40mg modified-release capsules
+^ESCTIS607539	Isosorbide mononitrate 40mg m/r capsule
+^ESCTIS607540	Isosorbide mononitrate 25mg modified-release tablets
+^ESCTIS607541	Isosorbide mononitrate 25mg m/r tablet
+^ESCTIS607542	Isosorbide mononitrate 50mg modified-release tablets
+^ESCTIS607543	Isosorbide mononitrate 50mg m/r tablet
+^ESCTIS607544	Isosorbide mononitrate 50mg modified-release capsules
+^ESCTIS607545	Isosorbide mononitrate 50mg m/r capsule
+^ESCTIS607547	Isosorbide mononitrate 40mg modified-release tablets
+^ESCTIS607548	Isosorbide mononitrate 40mg m/r tablet
+^ESCTIS607549	Isosorbide mononitrate 25mg modified-release capsules
+^ESCTIS607550	Isosorbide mononitrate 25mg m/r capsule
+^ESCTIS607551	Isosorbide mononitrate 10mg tablets
+^ESCTIS607553	Isosorbide mononitrate 10 mg oral tablet
+^ESCTIS607554	Isosorbide mononitrate 20mg tablets
+^ESCTIS607556	Isosorbide mononitrate 20 mg oral tablet
+^ESCTIS607557	Isosorbide mononitrate 40mg tablets
+^ESCTIS607559	Isosorbide mononitrate 40 mg oral tablet
+^ESCTIS607560	Isosorbide mononitrate 60mg modified-release tablets
+^ESCTIS607561	Isosorbide mononitrate 60mg m/r tablet
+^ESCTIS607671	Isosorbide mononitrate+aspirin
+^ESCTIS607673	Isosorbide mononitrate+aspirin 60mg/150mg m/r tablet
+^ESCTIS607675	Isosorbide mononitrate+aspirin 60mg/75mg m/r tablet
+^ESCTIS607676	Isosorbide dinitrate 5mg sublingual tablet
+^ESCTIS607677	Isosorbide dinitrate 10mg tablets
+^ESCTIS607679	Isosorbide dinitrate 10 mg oral tablet
+^ESCTIS607680	Isosorbide dinitrate 20mg tablets
+^ESCTIS607682	Isosorbide dinitrate 20 mg oral tablet
+^ESCTIS607683	Isosorbide dinitrate 30mg tablets
+^ESCTIS607685	Isosorbide dinitrate 30 mg oral tablet
+^ESCTIS607686	Isosorbide dinitrate 20mg modified-release tablets
+^ESCTIS607687	Isosorbide dinitrate 20mg m/r tablet
+^ESCTIS607688	Isosorbide dinitrate 25mg/50ml infusion bottles
+^ESCTIS607689	Isosorbide dinitrate 25mg/50mL injection
+^ESCTIS607690	Isosorbide dinitrate 500micrograms/mL injection solution 50mL vial
+^ESCTIS607691	Isosorbide dinitrate 1.25mg/dose sublingual spray sugar free
+^ESCTIS607692	Isosorbide dinitrate 1.25mg spray
+^ESCTIS607693	Isosorbide dinitrate sublingual 1.25mg spray
+^ESCTIS607694	Isosorbide dinitrate 30mg/dose transdermal spray
+^ESCTIS607695	Isosorbide dinitrate 30mg transdermal spray
+^ESCTIS607696	Isosorbide dinitrate 40mg modified-release tablets
+^ESCTIS607697	Isosorbide dinitrate 40mg m/r tablet
+^ESCTIS607698	Isosorbide dinitrate 10mg/10ml solution for injection ampoules
+^ESCTIS607699	Isosorbide dinitrate 10mg/10mL injection
+^ESCTIS607700	Isosorbide dinitrate 1mg/mL injection solution 10mL ampoule
+^ESCTIS607701	Isosorbide dinitrate 1mg/mL injection solution 10mL ampule
+^ESCTIS607702	Isosorbide dinitrate 50mg/50ml infusion bottles
+^ESCTIS607703	Isosorbide dinitrate 50mg/50mL injection
+^ESCTIS607704	Isosorbide dinitrate 1mg/mL injection solution 50mL vial
+^ESCTIS617843	Isosorbide dinitrate in parenteral dosage form
+^ESCTIS619540	Isosorbide dinitrate in oral dosage form
+^ESCTIS638720	Isosorbide dinitrate 5mg tablets
+^ESCTIS638722	Isosorbide dinitrate 5 mg oral tablet
+^ESCTIS638728	Isosorbide dinitrate sublingual 2.5mg tablet
+^ESCTIS638737	Isosorbide dinitrate 40 mg oral tablet
+^ESCTIS641295	Isosorbide mononitrate 30mg m/r tablet
+^ESCTIS641437	Isosorbide dinitrate 40mg modified-release capsules
+^ESCTIS641438	Isosorbide dinitrate 40mg capsule
+^ESCTIS641439	Isosorbide dinitrate 40mg m/r capsule
+^ESCTIS655563	Isosorbide mononitrate 120mg m/r tablet
+^ESCTIS693281	Isosorbide dinitrate 20 mg and hydralazine 37.5 mg oral tablet
+^ESCTIS694444	Isosorbide dinitrate + hydralazine
+^ESCTIS705820	Isosorbide dinitrate in sublingual dosage form
+^ESCTIS706346	Isosorbide dinitrate sublingual 10mg tablet
+^ESCTIS707065	Isosorbide dinitrate sublingual 5mg tablet
+^ESCTIS720035	Isosorbide dinitrate in oropharyngeal dosage form
+^ESCTIS801719	Isosorbide mononitrate 10mg tablets (Teva UK Ltd)
+^ESCTIS802939	Isosorbide mononitrate 40mg tablets (Sandoz Ltd)
+^ESCTIS803164	Isosorbide mononitrate 40mg tablets (Teva UK Ltd)
+^ESCTIS805263	Isosorbide mononitrate 50mg modified-release capsules (Kent Pharmaceuticals Ltd)
+^ESCTIS805699	Isosorbide mononitrate 40mg tablets (Actavis UK Ltd)
+^ESCTIS806515	Isosorbide dinitrate 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIS808043	Isordil 10mg tablets (Shire Pharmaceuticals Ltd)
+^ESCTIS808188	Isosorbide mononitrate 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIS811211	Isoket Retard 20 tablets (Aspire Pharma Ltd)
+^ESCTIS811235	Isosorbide dinitrate 20mg tablets (Actavis UK Ltd)
+^ESCTIS811239	Isosorbide mononitrate 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTIS812151	Isosorbide dinitrate 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIS812202	Isosorbide mononitrate 50mg modified-release capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTIS812326	Isosorbide mononitrate 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIS812358	Isosorbide dinitrate 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIS813230	Isosorbide mononitrate 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIS815197	Isosorbide mononitrate 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIS815256	Isosorbide dinitrate 10mg tablets (Actavis UK Ltd)
+^ESCTIS817888	Isosorbide mononitrate 60mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIS818068	Isosorbide mononitrate 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIS818614	Isosorbide dinitrate 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIS818951	Isosorbide dinitrate 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIS819876	Ismo Retard 40mg tablets (Intrapharm Laboratories Ltd)
+^ESCTIS819958	Isosorbide mononitrate 20mg tablets (The Boots Company Plc)
+^ESCTIS819987	Isosorbide mononitrate 20mg tablets (Teva UK Ltd)
+^ESCTIS820010	Isosorbide mononitrate 25mg modified-release capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTIS820068	Isosorbide mononitrate 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTIS820112	Isodur 25XL capsules (Galen Ltd)
+^ESCTIS820259	Isosorbide mononitrate 40mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIS820279	Isotard 40XL tablets (Kyowa Kirin Ltd)
+^ESCTIS820338	Isosorbide mononitrate 10mg tablets (Actavis UK Ltd)
+^ESCTIS820384	Isosorbide mononitrate 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIS820444	Isosorbide mononitrate 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTIS820455	Ismo 10 tablets (Intrapharm Laboratories Ltd)
+^ESCTIS820863	Ismo 20 tablets (Intrapharm Laboratories Ltd)
+^ESCTIS821344	Isosorbide mononitrate 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIS821567	Isotard 60XL tablets (Kyowa Kirin Ltd)
+^ESCTIS821894	Isib 60XL tablets (Alliance Pharmaceuticals Ltd)
+^ESCTIS822862	Isosorbide mononitrate 10mg tablets (Mylan Ltd)
+^ESCTIS822926	Isosorbide mononitrate 20mg tablets (Sandoz Ltd)
+^ESCTIS822949	Ismo 40 tablets (Roche Products Ltd)
+^ESCTIS822976	Isosorbide mononitrate 20mg tablets (Mylan Ltd)
+^ESCTIS822984	Isosorbide dinitrate 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIS823194	Isosorbide mononitrate 20mg tablets (Actavis UK Ltd)
+^ESCTIS826609	Isosorbide mononitrate 40mg tablets (Mylan Ltd)
+^ESCTIS827324	Isosorbide mononitrate 10mg tablets (The Boots Company Plc)
+^ESCTIS827977	Isosorbide mononitrate 10mg tablets (Sandoz Ltd)
+^ESCTIS830573	Isodur 50XL capsules (Galen Ltd)
+^ESCTIS830959	Isosorbide mononitrate 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIS831483	Isosorbide mononitrate 25mg modified-release capsules (Kent Pharmaceuticals Ltd)
+^ESCTIS834886	Isosorbide mononitrate 40mg tablets 56 tablet
+^ESCTIS838748	Isosorbide mononitrate 20mg tablets 56 tablet
+^ESCTIS840674	Isosorbide mononitrate 10mg tablets 84 tablet
+^ESCTIS842278	Isosorbide mononitrate 10mg tablets 60 tablet
+^ESCTIS842612	Isosorbide mononitrate 10mg tablets 56 tablet
+^ESCTIS843286	Isosorbide dinitrate 20mg modified-release tablets 56 tablet
+^ESCTIS844483	Isosorbide mononitrate 40mg tablets 60 tablet
+^ESCTIS846810	Isosorbide mononitrate 60mg modified-release capsules 28 capsule
+^ESCTIS846813	Isosorbide mononitrate 25mg modified-release capsules 28 capsule
+^ESCTIS847242	Isosorbide mononitrate 40mg modified-release tablets 28 tablet
+^ESCTIS847415	Isosorbide mononitrate 40mg tablets 100 tablet
+^ESCTIS847590	Isosorbide mononitrate 40mg modified-release capsules 28 capsule
+^ESCTIS847597	Isosorbide dinitrate 10mg tablets 56 tablet
+^ESCTIS847656	Isosorbide mononitrate 50mg modified-release capsules 28 capsule
+^ESCTIS847719	Isosorbide mononitrate 20mg tablets 60 tablet
+^ESCTIS847928	Isosorbide dinitrate 20mg modified-release tablets 60 tablet
+^ESCTIS847947	Isosorbide mononitrate 60mg modified-release tablets 30 tablet
+^ESCTIS847962	Isosorbide dinitrate 20mg tablets 56 tablet
+^ESCTIS848192	Isosorbide mononitrate 40mg tablets 84 tablet
+^ESCTIS848340	Isosorbide mononitrate 10mg tablets 100 tablet
+^ESCTIS848345	Isosorbide mononitrate 20mg tablets 100 tablet
+^ESCTIS848384	Isosorbide mononitrate 60mg modified-release tablets 28 tablet
+^ESCTIS848529	Isosorbide mononitrate 40mg modified-release tablets 30 tablet
+^ESCTIS848585	Isosorbide mononitrate 20mg tablets 84 tablet
+^ESCTIS848617	Isosorbide dinitrate 10mg tablets 112 tablet
+^ESCTIS849265	Isosorbide mononitrate 10mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTIS849266	Isosorbide mononitrate 10mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS849272	Isosorbide mononitrate 10mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS849273	Isosorbide mononitrate 10mg tablets (Teva UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTIS849278	Isosorbide mononitrate 10mg tablets (The Boots Company Plc) 56 tablet
+^ESCTIS849281	Isosorbide mononitrate 10mg tablets (Mylan Ltd) 100 tablet
+^ESCTIS849282	Isosorbide mononitrate 10mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS849284	Isosorbide mononitrate 10mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTIS849285	Isosorbide mononitrate 10mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 2 x 28 tablets
+^ESCTIS849286	Isosorbide mononitrate 10mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS849297	Isosorbide mononitrate 10mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS849368	Ismo 10 tablets (Intrapharm Laboratories Ltd) 60 tablet 3 x 20 tablets
+^ESCTIS849563	Isosorbide mononitrate 40mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTIS849566	Isosorbide mononitrate 40mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS849567	Isosorbide mononitrate 40mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS849568	Isosorbide mononitrate 40mg tablets (Teva UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTIS849570	Isosorbide mononitrate 40mg tablets (Mylan Ltd) 100 tablet
+^ESCTIS849572	Isosorbide mononitrate 40mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS849575	Isosorbide mononitrate 40mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTIS849576	Isosorbide mononitrate 40mg tablets (Kent Pharmaceuticals Ltd) 56 tablet
+^ESCTIS849579	Isosorbide mononitrate 40mg tablets (Sandoz Ltd) 56 tablet
+^ESCTIS849581	Ismo 40 tablets (Roche Products Ltd) 60 tablet 6 x 10 tablets
+^ESCTIS849589	Isosorbide mononitrate 40mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS849594	Isosorbide mononitrate 20mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTIS849595	Isosorbide mononitrate 20mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTIS849596	Isosorbide mononitrate 20mg tablets (Actavis UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTIS849598	Isosorbide mononitrate 20mg tablets (Teva UK Ltd) 56 tablet 2 x 28 tablets
+^ESCTIS849601	Isosorbide mononitrate 20mg tablets (The Boots Company Plc) 56 tablet
+^ESCTIS849605	Isosorbide mononitrate 20mg tablets (Mylan Ltd) 100 tablet
+^ESCTIS849608	Isosorbide mononitrate 20mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS849610	Isosorbide mononitrate 20mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTIS849613	Isosorbide mononitrate 20mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 2 x 28 tablets
+^ESCTIS849616	Isosorbide mononitrate 20mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS849620	Ismo 20 tablets (Intrapharm Laboratories Ltd) 60 tablet 3 x 20 tablets
+^ESCTIS849638	Isosorbide mononitrate 20mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTIS849639	Isosorbide mononitrate 20mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS850737	Ismo Retard 40mg tablets (Intrapharm Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCTIS850749	Isotard 40XL tablets (Kyowa Kirin Ltd) 28 tablet 2 x 14 tablets
+^ESCTIS850824	Isoket Retard 20 tablets (Aspire Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS850825	Isosorbide dinitrate 20mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS850826	Isosorbide dinitrate 20mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS850827	Isosorbide dinitrate 20mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 2 x 28 tablets
+^ESCTIS850828	Isosorbide dinitrate 20mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS850852	Isosorbide dinitrate 10mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS850883	Isosorbide dinitrate 10mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS850886	Isosorbide dinitrate 10mg tablets (Kent Pharmaceuticals Ltd) 56 tablet 2 x 28 tablets
+^ESCTIS850892	Isordil 10mg tablets (Shire Pharmaceuticals Ltd) 112 tablet
+^ESCTIS850899	Isosorbide dinitrate 10mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS853377	Isosorbide mononitrate 25mg modified-release capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTIS853378	Isosorbide mononitrate 25mg modified-release capsules (Kent Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTIS853379	Isodur 25XL capsules (Galen Ltd) 28 capsule 2 x 14 capsules
+^ESCTIS853382	Isib 60XL tablets (Alliance Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIS853411	Isotard 60XL tablets (Kyowa Kirin Ltd) 28 tablet 2 x 14 tablets
+^ESCTIS853414	Isosorbide mononitrate 60mg modified-release tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTIS853420	Isodur 50XL capsules (Galen Ltd) 28 capsule 2 x 14 capsules
+^ESCTIS853427	Isosorbide mononitrate 50mg modified-release capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTIS853428	Isosorbide mononitrate 50mg modified-release capsules (Kent Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTIS859038	Isosorbide dinitrate 40mg modified-release tablets 60 tablet
+^ESCTIS859039	Isosorbide dinitrate 40mg modified-release tablets 56 tablet
+^ESCTIS859042	Isoket Retard 40 tablets (Aspire Pharma Ltd)
+^ESCTIS859043	Isoket Retard 40 tablets (Aspire Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS859200	Isosorbide mononitrate 25mg modified-release tablets 28 tablet
+^ESCTIS859202	Isotard 25XL tablets (Kyowa Kirin Ltd)
+^ESCTIS859204	Isotard 25XL tablets (Kyowa Kirin Ltd) 28 tablet 2 x 14 tablets
+^ESCTIS859205	Isosorbide mononitrate 50mg modified-release tablets 28 tablet
+^ESCTIS859207	Isotard 50XL tablets (Kyowa Kirin Ltd)
+^ESCTIS859208	Isotard 50XL tablets (Kyowa Kirin Ltd) 28 tablet 2 x 14 tablets
+^ESCTIS860766	Isosorbide dinitrate 30mg tablets 112 tablet
+^ESCTIS860775	Isordil 30mg tablets (Shire Pharmaceuticals Ltd)
+^ESCTIS860776	Isordil 30mg tablets (Shire Pharmaceuticals Ltd) 112 tablet
+^ESCTIS863599	Isosorbide mononitrate 10mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTIS863604	Isosorbide mononitrate 40mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTIS865610	Isosorbide dinitrate 1.25mg/dose sublingual spray sugar free 200 dose
+^ESCTIS870759	Isosorbide dinitrate 20mg modified-release capsules 56 capsule
+^ESCTIS870760	Isosorbide dinitrate 20mg modified-release capsules 100 capsule
+^ESCTIS870771	Isosorbide dinitrate 40mg modified-release capsules 56 capsule
+^ESCTIS870772	Isosorbide dinitrate 40mg modified-release capsules 100 capsule
+^ESCTIS870779	Isordil Tembids 40mg modified-release capsules (Shire Pharmaceuticals Ltd)
+^ESCTIS870780	Isordil Tembids 40mg modified-release capsules (Shire Pharmaceuticals Ltd) 56 capsule
+^ESCTIS870794	Isosorbide dinitrate 5mg tablets 100 tablet
+^ESCTIS870798	Isosorbide dinitrate 5mg tablets 60 tablet
+^ESCTIS870799	Isosorbide dinitrate 5mg tablets 180 tablet
+^ESCTIS870800	Isosorbide dinitrate 5mg tablets 500 tablet
+^ESCTIS870804	Isoket 5 tablets (Schwarz Pharma Ltd)
+^ESCTIS870806	Isoket 5 tablets (Schwarz Pharma Ltd) 500 tablet
+^ESCTIS870812	Isordil 5mg tablets (Shire Pharmaceuticals Ltd)
+^ESCTIS870815	Isordil 5mg tablets (Shire Pharmaceuticals Ltd) 100 tablet
+^ESCTIS870838	Isosorbide dinitrate 30mg/dose transdermal spray 65 dose
+^ESCTIS870841	Isocard 30mg/dose transdermal spray (LPC Medical (UK) Ltd)
+^ESCTIS870842	Isocard 30mg/dose transdermal spray (LPC Medical (UK) Ltd) 65 dose
+^ESCTIS870906	Isosorbide dinitrate 20mg modified-release capsules
+^ESCTIS871036	Isosorbide mononitrate 25mg modified-release capsules (A A H Pharmaceuticals Ltd)
+^ESCTIS871045	Isosorbide mononitrate 25mg modified-release capsules (A A H Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTIS871054	Isosorbide mononitrate 50mg modified-release capsules (A A H Pharmaceuticals Ltd)
+^ESCTIS871055	Isosorbide mononitrate 50mg modified-release capsules (A A H Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTIS871056	Isosorbide mononitrate 60mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCTIS871057	Isosorbide mononitrate 60mg modified-release tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIS873119	Isosorbide dinitrate 10mg/10ml solution for injection ampoules 10 ampoule
+^ESCTIS873120	Isosorbide dinitrate 10mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTIS873121	Isosorbide dinitrate 10mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTIS873123	Isoket 0.1% solution for injection 10ml ampoules (Aspire Pharma Ltd)
+^ESCTIS873125	Isoket 0.1% solution for injection 10ml ampoules (Aspire Pharma Ltd) 10 ampoule
+^ESCTIS873126	Isosorbide dinitrate 50mg/50ml infusion bottles 1 bottle
+^ESCTIS873127	Isoket 0.1% infusion 50ml bottles (UCB Pharma Ltd)
+^ESCTIS873128	Isoket 0.1% infusion 50ml bottles (UCB Pharma Ltd) 1 bottle
+^ESCTIS873132	Isosorbide dinitrate 25mg/50ml infusion bottles 1 bottle
+^ESCTIS873133	Isoket 0.05% infusion 50ml bottles (UCB Pharma Ltd)
+^ESCTIS873134	Isoket 0.05% infusion 50ml bottles (UCB Pharma Ltd) 1 bottle
+^ESCTIS877928	Isosorbide mononitrate 60mg modified-release tablets 60 tablet
+^ESCTIS877953	Isosorbide mononitrate 20mg tablets 50 tablet
+^ESCTIS877957	Ismo 20 tablets (Waymade Healthcare Plc)
+^ESCTIS877960	Ismo 20 tablets (Waymade Healthcare Plc) 50 tablet
+^ESCTIS878510	Isosorbide mononitrate 50mg modified-release capsules 30 capsule
+^ESCTIS879411	Ismo 20 tablets (Dowelhurst Ltd)
+^ESCTIS879412	Ismo 20 tablets (Dowelhurst Ltd) 50 tablet
+^ESCTIS900524	Isosorbide dinitrate 100mg/100ml solution for infusion bottles
+^ESCTIS900530	Isosorbide dinitrate 100mg/100ml solution for infusion bottles 1 bottle
+^ESCTIS900535	Isoket 0.1% solution for infusion 100ml bottles (Schwarz Pharma Ltd)
+^ESCTIS900539	Isoket 0.1% solution for infusion 100ml bottles (Schwarz Pharma Ltd) 1 bottle
+^ESCTIS907326	Isosorbide dinitrate 10mg/5ml oral solution 1 ml
+^ESCTIS907327	Isosorbide dinitrate 10mg/5ml oral solution (Special Order)
+^ESCTIS907328	Isosorbide dinitrate 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTIS907329	Isosorbide dinitrate 10mg/5ml oral suspension 1 ml
+^ESCTIS907330	Isosorbide dinitrate 10mg/5ml oral suspension (Special Order)
+^ESCTIS907331	Isosorbide dinitrate 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIS907332	Isosorbide mononitrate 10mg/5ml oral solution 1 ml
+^ESCTIS907335	Isosorbide mononitrate 10mg/5ml oral solution (Special Order)
+^ESCTIS907336	Isosorbide mononitrate 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTIS907337	Isosorbide mononitrate 20mg/5ml oral solution 1 ml
+^ESCTIS907338	Isosorbide mononitrate 20mg/5ml oral solution (Special Order)
+^ESCTIS907339	Isosorbide mononitrate 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTIS907340	Isosorbide mononitrate 20mg/5ml oral suspension 1 ml
+^ESCTIS907341	Isosorbide mononitrate 20mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTIS907342	Isosorbide mononitrate 20mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTIS907343	Isosorbide mononitrate 10mg/5ml oral suspension 1 ml
+^ESCTIS907345	Isosorbide mononitrate 10mg/5ml oral suspension (Special Order)
+^ESCTIS907346	Isosorbide dinitrate 20mg/5ml oral solution 1 ml
+^ESCTIS907347	Isosorbide mononitrate 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIS907348	Isosorbide mononitrate 30mg/5ml oral solution 1 ml
+^ESCTIS907349	Isosorbide mononitrate 30mg/5ml oral solution (Special Order)
+^ESCTIS907350	Isosorbide mononitrate 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTIS907351	Isosorbide dinitrate 20mg/5ml oral solution (Special Order)
+^ESCTIS907352	Isosorbide dinitrate 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTIS907353	Isosorbide mononitrate 30mg/5ml oral suspension 1 ml
+^ESCTIS907354	Isosorbide mononitrate 30mg/5ml oral suspension (Special Order)
+^ESCTIS907355	Isosorbide mononitrate 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIS907356	Isosorbide dinitrate 20mg/5ml oral suspension 1 ml
+^ESCTIS907357	Isosorbide dinitrate 20mg/5ml oral suspension (Special Order)
+^ESCTIS907359	Isosorbide dinitrate 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIS907446	Isosorbide dinitrate 20mg/5ml oral solution
+^ESCTIS907447	Isosorbide dinitrate 20mg/5ml oral suspension
+^ESCTIS907448	Isosorbide mononitrate 10mg/5ml oral solution
+^ESCTIS907449	Isosorbide mononitrate 10mg/5ml oral suspension
+^ESCTIS907609	Isosorbide dinitrate 10mg/5ml oral solution
+^ESCTIS907610	Isosorbide dinitrate 10mg/5ml oral suspension
+^ESCTIS907611	Isosorbide mononitrate 20mg/5ml oral solution
+^ESCTIS907612	Isosorbide mononitrate 20mg/5ml oral suspension
+^ESCTIS907613	Isosorbide mononitrate 30mg/5ml oral solution
+^ESCTIS907614	Isosorbide mononitrate 30mg/5ml oral suspension
+^ESCTIS917570	Isosorbide dinitrate 25mg/50ml infusion bottles 40 bottle
+^ESCTIS917571	Isoket 0.05% infusion 50ml bottles (UCB Pharma Ltd) 40 bottle
+^ESCTIS917572	Isosorbide dinitrate 50mg/50ml infusion bottles 40 bottle
+^ESCTIS917573	Isoket 0.1% infusion 50ml bottles (UCB Pharma Ltd) 40 bottle
+^ESCTIS918165	Ismo
+^ESCTIS918167	Isordil Tembids
+^ESCTIS918397	Isoket Retard
+^ESCTIS918566	Isodur XL
+^ESCTIS918568	Isordil
+^ESCTIS918970	Isoket
+^ESCTIS918972	Isotard XL
+^ESCTIS919382	Isib XL
+^ESCTIS919384	Isocard
+^ESCTIS919628	Ismo Retard
+^ESCTIS923721	Isosorbide mononitrate 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTIS923722	Isosorbide mononitrate 10mg tablets (Almus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS923726	Isosorbide mononitrate 20mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTIS923728	Isosorbide mononitrate 20mg tablets (Almus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS923730	Isosorbide mononitrate 40mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTIS923731	Isosorbide mononitrate 40mg tablets (Almus Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS923732	Isosorbide mononitrate 60mg modified-release tablets (Almus Pharmaceuticals Ltd)
+^ESCTIS923733	Isosorbide mononitrate 60mg modified-release tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIS928781	Isosorbide mononitrate 10mg tablets (Arrow Generics Ltd)
+^ESCTIS928782	Isosorbide mononitrate 10mg tablets (Arrow Generics Ltd) 56 tablet
+^ESCTIS928784	Isosorbide mononitrate 20mg tablets (Arrow Generics Ltd)
+^ESCTIS928787	Isosorbide mononitrate 20mg tablets (Arrow Generics Ltd) 56 tablet
+^ESCTIS928789	Isosorbide mononitrate 40mg tablets (Arrow Generics Ltd)
+^ESCTIS928790	Isosorbide mononitrate 40mg tablets (Arrow Generics Ltd) 56 tablet
+^ESCTIS929922	Ismo Retard 40mg tablets (Dowelhurst Ltd)
+^ESCTIS929923	Ismo Retard 40mg tablets (Dowelhurst Ltd) 30 tablet
+^ESCTIS931609	Isosorbide dinitrate 10mg/10ml concentrate for solution for injection ampoules (Mercury Pharma Group Ltd)
+^ESCTIS931610	Isosorbide dinitrate 10mg/10ml concentrate for solution for injection ampoules (Mercury Pharma Group Ltd) 10 ampoule
+^ESCTIS934792	Isosorbide mononitrate 60mg modified-release tablets (Arrow Generics Ltd)
+^ESCTIS934794	Isosorbide mononitrate 60mg modified-release tablets (Arrow Generics Ltd) 28 tablet
+^ESCTIS940875	Isosorbide mononitrate 10mg tablets (Dexcel-Pharma Ltd)
+^ESCTIS940876	Isosorbide mononitrate 10mg tablets (Dexcel-Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS940877	Isosorbide mononitrate 20mg tablets (Dexcel-Pharma Ltd)
+^ESCTIS940878	Isosorbide mononitrate 20mg tablets (Dexcel-Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS940879	Isosorbide mononitrate 40mg tablets (Dexcel-Pharma Ltd)
+^ESCTIS940880	Isosorbide mononitrate 40mg tablets (Dexcel-Pharma Ltd) 56 tablet 4 x 14 tablets
+^ESCTIS951980	Isosorbide dinitrate 30mg/5ml oral suspension 1 ml
+^ESCTIS951982	Isosorbide dinitrate 30mg/5ml oral suspension (Special Order)
+^ESCTIS951984	Isosorbide dinitrate 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIS951992	Isosorbide dinitrate 30mg/5ml oral solution 1 ml
+^ESCTIS951994	Isosorbide dinitrate 30mg/5ml oral solution (Special Order)
+^ESCTIS951996	Isosorbide dinitrate 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTIS951998	Isosorbide dinitrate 40mg/5ml oral suspension 1 ml
+^ESCTIS952000	Isosorbide dinitrate 40mg/5ml oral suspension (Special Order)
+^ESCTIS952002	Isosorbide dinitrate 40mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIS952004	Isosorbide dinitrate 40mg/5ml oral solution 1 ml
+^ESCTIS952006	Isosorbide dinitrate 40mg/5ml oral solution (Special Order)
+^ESCTIS952008	Isosorbide dinitrate 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTIS952012	Isosorbide dinitrate 5mg/5ml oral suspension 1 ml
+^ESCTIS952016	Isosorbide dinitrate 5mg/5ml oral suspension (Special Order)
+^ESCTIS952020	Isosorbide dinitrate 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIS952024	Isosorbide dinitrate 5mg/5ml oral solution 1 ml
+^ESCTIS952027	Isosorbide dinitrate 5mg/5ml oral solution (Special Order)
+^ESCTIS952029	Isosorbide dinitrate 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTIS952035	Isosorbide mononitrate 15mg/5ml oral solution 1 ml
+^ESCTIS952040	Isosorbide mononitrate 15mg/5ml oral solution (Special Order)
+^ESCTIS952044	Isosorbide mononitrate 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTIS952046	Isosorbide mononitrate 40mg/5ml oral solution 1 ml
+^ESCTIS952050	Isosorbide mononitrate 40mg/5ml oral solution (Special Order)
+^ESCTIS952054	Isosorbide mononitrate 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTIS952058	Isosorbide mononitrate 60mg/5ml oral solution 1 ml
+^ESCTIS952060	Isosorbide mononitrate 60mg/5ml oral solution (Special Order)
+^ESCTIS952064	Isosorbide mononitrate 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTIS952212	Isosorbide dinitrate 30mg/5ml oral solution
+^ESCTIS952214	Isosorbide dinitrate 30mg/5ml oral suspension
+^ESCTIS952216	Isosorbide dinitrate 40mg/5ml oral solution
+^ESCTIS952218	Isosorbide dinitrate 40mg/5ml oral suspension
+^ESCTIS952220	Isosorbide dinitrate 5mg/5ml oral solution
+^ESCTIS952222	Isosorbide dinitrate 5mg/5ml oral suspension
+^ESCTIS952224	Isosorbide mononitrate 15mg/5ml oral solution
+^ESCTIS952226	Isosorbide mononitrate 40mg/5ml oral solution
+^ESCTIS952228	Isosorbide mononitrate 60mg/5ml oral solution
+^ESCTIS963850	Isosorbide mononitrate 40mg modified-release capsules (DE Pharmaceuticals)
+^ESCTIS963851	Isosorbide mononitrate 40mg modified-release capsules (DE Pharmaceuticals) 28 capsule
+^ESCTIS978047	Isosorbide mononitrate 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIS978048	Isosorbide mononitrate 10mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTIS978049	Isosorbide mononitrate 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIS978050	Isosorbide mononitrate 20mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTIS992841	Ismo Retard 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTIS992842	Ismo Retard 40mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTKE820946	Ketanodur 60mg modified-release tablets (Necessity Supplies Ltd)
+^ESCTKE853402	Ketanodur 60mg modified-release tablets (Necessity Supplies Ltd) 30 tablet 2 x 15 tablets
+^ESCTKE919390	Ketanodur
+^ESCTMC823896	MCR-50 modified-release capsules (Pfizer Ltd)
+^ESCTMC853422	MCR-50 modified-release capsules (Pfizer Ltd) 28 capsule 2 x 14 capsules
+^ESCTMO1003152	Modisal XL 40mg tablets (Ennogen Pharma Ltd)
+^ESCTMO1003153	Modisal XL 40mg tablets (Ennogen Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTMO1008915	Monosorb XL 60 tablets (Almus Pharmaceuticals Ltd)
+^ESCTMO1008917	Monosorb XL 60 tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMO617842	Modified release isosorbide dinitrate
+^ESCTMO617845	Modified release isosorbide mononitrate
+^ESCTMO799116	Monit XL60 tablets (Sanofi-Synthelabo Ltd)
+^ESCTMO804187	Monit 20mg tablets (Sanofi-Synthelabo Ltd)
+^ESCTMO804663	Monit LS 10mg tablets (Sanofi-Synthelabo Ltd)
+^ESCTMO808272	Modisal LA50 capsules (Sandoz Ltd)
+^ESCTMO812644	Monomax SR 60 capsules (Chiesi Ltd)
+^ESCTMO814426	Modisal 60 XL tablets (Sandoz Ltd)
+^ESCTMO815032	Monomax SR 40 capsules (Chiesi Ltd)
+^ESCTMO819234	Monomax XL 60mg tablets (Chiesi Ltd)
+^ESCTMO820014	Monosorb XL 60 tablets (Dexcel-Pharma Ltd)
+^ESCTMO820401	Monigen XL 60 tablets (Mylan Ltd)
+^ESCTMO822881	Modisal LA25 capsules (Sandoz Ltd)
+^ESCTMO829290	Monit SR 40mg tablets (Sanofi-Synthelabo Ltd)
+^ESCTMO849293	Monit LS 10mg tablets (Sanofi-Synthelabo Ltd) 100 tablet
+^ESCTMO849294	Monit LS 10mg tablets (Sanofi-Synthelabo Ltd) 56 tablet 4 x 14 tablets
+^ESCTMO849626	Monit 20mg tablets (Sanofi-Synthelabo Ltd) 100 tablet
+^ESCTMO849628	Monit 20mg tablets (Sanofi-Synthelabo Ltd) 56 tablet 4 x 14 tablets
+^ESCTMO850744	Monit SR 40mg tablets (Sanofi-Synthelabo Ltd) 28 tablet 2 x 14 tablets
+^ESCTMO850772	Monomax SR 40 capsules (Chiesi Ltd) 28 capsule 2 x 14 capsules
+^ESCTMO853370	Monomax SR 60 capsules (Chiesi Ltd) 28 capsule 2 x 14 capsules
+^ESCTMO853376	Modisal LA25 capsules (Sandoz Ltd) 28 capsule 2 x 14 capsules
+^ESCTMO853388	Monosorb XL 60 tablets (Dexcel-Pharma Ltd) 28 tablet
+^ESCTMO853394	Monigen XL 60 tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTMO853398	Modisal 60 XL tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTMO853407	Monit XL60 tablets (Sanofi-Synthelabo Ltd) 28 tablet 4 x 7 tablets
+^ESCTMO853412	Monomax XL 60mg tablets (Chiesi Ltd) 28 tablet 2 x 14 tablets
+^ESCTMO853421	Modisal LA50 capsules (Sandoz Ltd) 28 capsule 2 x 14 capsules
+^ESCTMO871534	Monomil XL 60mg tablets (Teva UK Ltd)
+^ESCTMO871537	Monomil XL 60mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMO900892	Monosorb XL 60 tablets (Kent Pharmaceuticals Ltd)
+^ESCTMO900893	Monosorb XL 60 tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTMO900898	Monosorb XL 60 tablets (Teva UK Ltd)
+^ESCTMO900899	Monosorb XL 60 tablets (Teva UK Ltd) 28 tablet
+^ESCTMO918323	Monit
+^ESCTMO918688	Modisal XL
+^ESCTMO918694	Monomax SR
+^ESCTMO918696	Monomax XL
+^ESCTMO919117	Monit XL
+^ESCTMO919312	Monit SR
+^ESCTMO919314	Monomil XL
+^ESCTMO919527	Modisal LA
+^ESCTMO919529	Monosorb XL
+^ESCTMO919777	Monigen XL
+^ESCTPH874674	Phasonit LA50 capsules (Schwarz Pharma Ltd)
+^ESCTPH874676	Phasonit LA50 capsules (Schwarz Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCTPH915601	Phasonit LA50
+^ESCTPR259396	Product containing isosorbide dinitrate
+^ESCTPR415462	Product containing isosorbide
+^ESCTPR415467	Product containing isosorbide mononitrate
+^ESCTPR607552	Product containing isosorbide mononitrate 10 mg/1 each oral tablet
+^ESCTPR607555	Product containing isosorbide mononitrate 20 mg/1 each oral tablet
+^ESCTPR607558	Product containing isosorbide mononitrate 40 mg/1 each oral tablet
+^ESCTPR607678	Product containing isosorbide dinitrate 10 mg/1 each oral tablet
+^ESCTPR607681	Product containing isosorbide dinitrate 20 mg/1 each oral tablet
+^ESCTPR607684	Product containing isosorbide dinitrate 30 mg/1 each oral tablet
+^ESCTPR617844	Product containing isosorbide dinitrate in parenteral dosage form
+^ESCTPR619541	Product containing isosorbide dinitrate in oral dosage form
+^ESCTPR638721	Product containing isosorbide dinitrate 5 mg/1 each oral tablet
+^ESCTPR638738	Product containing isosorbide dinitrate 40 mg/1 each oral tablet
+^ESCTPR693282	Product containing isosorbide dinitrate 20 mg and hydralazine 37.5 mg/1 each oral tablet
+^ESCTPR694445	Product containing hydralazine and isosorbide dinitrate
+^ESCTPR705821	Product containing isosorbide dinitrate in sublingual dosage form
+^ESCTPR720036	Product containing isosorbide dinitrate in oropharyngeal dosage form
+^ESCTRE926268	Relosorb XL
+^ESCTRE981109	Relosorb XL 60mg tablets (Relonchem Ltd)
+^ESCTRE981110	Relosorb XL 60mg tablets (Relonchem Ltd) 28 tablet 2 x 14 tablets
+^ESCTSL832910	Slomon XL 60 tablets (Zurich Pharmaceuticals)
+^ESCTSL853415	Slomon XL 60 tablets (Zurich Pharmaceuticals) 28 tablet 2 x 14 tablets
+^ESCTSL916308	Slomon XL
+^ESCTSO870763	Sorbid-20 SA capsules (AstraZeneca UK Ltd)
+^ESCTSO870764	Sorbid-20 SA capsules (AstraZeneca UK Ltd) 56 capsule
+^ESCTSO870766	Soni-Slo SR 20mg capsules (Lipha Pharmaceuticals Ltd)
+^ESCTSO870767	Soni-Slo SR 20mg capsules (Lipha Pharmaceuticals Ltd) 100 capsule
+^ESCTSO870775	Sorbid-40 SA capsules (AstraZeneca UK Ltd)
+^ESCTSO870776	Sorbid-40 SA capsules (AstraZeneca UK Ltd) 56 capsule
+^ESCTSO870777	Soni-Slo SR 40mg capsules (Lipha Pharmaceuticals Ltd)
+^ESCTSO870778	Soni-Slo SR 40mg capsules (Lipha Pharmaceuticals Ltd) 100 capsule
+^ESCTTA930325	Tardisc XL
+^ESCTTA997623	Tardisc XL 60 tablets (Discovery Pharmaceuticals)
+^ESCTTA997624	Tardisc XL 60 tablets (Discovery Pharmaceuticals) 28 tablet 2 x 14 tablets
+^ESCTTR620141	Transdermal isosorbide dinitrate
+^ESCTTR868205	Trangina XL 60mg tablets (Actavis UK Ltd)
+^ESCTTR868206	Trangina XL 60mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR916818	Trangina XL
+^ESCTXI809997	Xismox XL 60 tablets (Genus Pharmaceuticals Ltd)
+^ESCTXI853397	Xismox XL 60 tablets (Genus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZE819667	Zemon 60 XL tablets (Fannin UK Ltd)
+^ESCTZE829717	Zemon 40 XL tablets (Kent Pharmaceuticals Ltd)
+^ESCTZE850718	Zemon 40 XL tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTZE853404	Zemon 60 XL tablets (Fannin UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTZE917347	Zemon XL
+^ESCTZI906021	Ziotan XL 50mg capsules (Chanelle Medical UK Ltd)
+^ESCTZI906307	Ziotan XL 50mg capsules (Chanelle Medical UK Ltd) 28 capsule
+^ESCTZI917398	Ziotan XL
+ANM/29351EMIS	Angeze Sr  M/R capsules  40 mg
+ANM/29352EMIS	Angeze Sr  M/R capsules  60 mg
+ANSP214NEMIS	Angitak  Spray  1.25 mg/dose
+ANTA24268EMIS	Angitate  Tablets  10 mg
+ANTA24269EMIS	Angitate  Tablets  20 mg
+ANTA24270EMIS	Angitate  Tablets  40 mg
+ANTA26307EMIS	Angeze  Tablets  10 mg
+ANTA26308EMIS	Angeze  Tablets  20 mg
+ANTA26309EMIS	Angeze  Tablets  40 mg
+CAM/47261NEMIS	Carmil Xl  M/R tablets  60 mg
+CETA505	Cedocard-10  Tablets  10 mg
+CETA506	Cedocard-5  Tablets  5 mg
+CETAEGTON6667	Cedocard-20  Tablets  20 mg
+CETAEGTON6669	Cedocard-40  Tablets  40 mg
+CETAEGTON6673	Cedocard Retard-20  M/R tablets  20 mg
+CETAEGTON6675	Cedocard Retard-40  M/R tablets  40 mg
+CHM/1739NEMIS	Chemydur 60Xl  M/R tablets  60 mg
+CIM/10962NEMIS	Cibral Xl 60  M/R tablets  60 mg
+CITA10959NEMIS	Cibral  Tablets  10 mg
+CITA10960NEMIS	Cibral  Tablets  20 mg
+CITA11082NEMIS	Cibral  Tablets  40 mg
+DYCA13139NEMIS	Dynamin Xl25  M/R capsules  25 mg
+DYM/13141NEMIS	Dynamin Xl50  M/R capsules  50 mg
+DYTA4500NEMIS	Dynamin  Tablets  10 mg
+DYTA4501NEMIS	Dynamin  Tablets  20 mg
+ELCA8767BRIDL	Elantan La 50  M/R capsules  50 mg
+ELM/20277EMIS	Elantan La 25  M/R capsules  25 mg
+ELTA1030	Elantan 20  Tablets  20 mg
+ELTA1031	Elantan 40  Tablets  40 mg
+ELTA9507BRIDL	Elantan 10  Tablets  10 mg
+EUM/15405NEMIS	Eumon 60 Xl  M/R tablets  60 mg
+EUM/15922NEMIS	Eumon 40 Xl  M/R tablets  40 mg
+IMM/35359EMIS	Imazin Xl  M/R tablets  
+IMM/35362EMIS	Imazin Xl Forte  M/R tablets  
+IMM/45014NEMIS	Imo La  M/R capsules  50 mg
+IMSP21951EMIS	Imtack  Spray  1.25 mg/dose
+IMTA8900BRIDL	Imdur  M/R tablets  60 mg
+ISCA1517	Isordil Tembids  M/R capsules  40 mg
+ISCA8793BRIDL	Isosorbide Mononitrate  M/R capsules  50 mg
+ISDU10518BRIDL	Isosorbide Mononitrate  Durules  60 mg
+ISIN10381HILLI	Isoket 0.05%  Solution for infusion  25 mg/50 ml bottle
+ISIN1501	Isoket 0.1%  Solution for injection  10 mg/10 ml ampoule
+ISIN19719EMIS	Isoket 0.1%  Injection  100 mg/100 ml
+ISIN19721EMIS	Isosorbide Dinitrate  Injection  100 mg/100 ml
+ISIN5057	Isosorbide Dinitrate  Solution for injection  10 mg/10 ml ampoule
+ISIN9512EMIS	Isoket 0.1%  Solution for infusion  50 mg/50 ml bottle
+ISIN9514EMIS	Isosorbide Dinitrate  Solution for infusion  50 mg/50 ml bottle
+ISIN9638HILLI	Isosorbide Dinitrate  Solution for infusion  25 mg/50 ml bottle
+ISM/18556NEMIS	Isosorbide Mononitrate And Aspirin  M/R tablets  60 mg + 75 mg
+ISM/18557NEMIS	Isosorbide Mononitrate And Aspirin  M/R tablets  60 mg + 150 mg
+ISM/19723EMIS	Isoket Retard  M/R tablets  40 mg
+ISM/19726EMIS	Isosorbide Dinitrate  M/R capsules  20 mg
+ISM/19727EMIS	Isosorbide Dinitrate  M/R capsules  40 mg
+ISM/1998NEMIS	Isodur 50 XL  M/R capsules  50 mg
+ISM/1999NEMIS	Isodur 25 XL  M/R capsules  25 mg
+ISM/215NEMIS	Isotard 25 Xl  M/R capsules  25 mg
+ISM/216NEMIS	Isotard 50 Xl  M/R capsules  50 mg
+ISM/22449EMIS	Isosorbide Mononitrate  M/R capsules  25 mg
+ISM/28139EMIS	Isib 60Xl  M/R tablets  60 mg
+ISM/30269EMIS	Isosorbide Mononitrate  M/R capsules  40 mg
+ISM/30270EMIS	Isosorbide Mononitrate  M/R capsules  60 mg
+ISM/33756EMIS	Isotard 25 Xl  M/R tablets  25 mg
+ISM/33758EMIS	Isotard 50 Xl  M/R tablets  50 mg
+ISM/33761EMIS	Isosorbide Mononitrate  M/R tablets  25 mg
+ISM/33762EMIS	Isosorbide Mononitrate  M/R tablets  50 mg
+ISM/35368EMIS	Isib 50Xl  M/R capsules  50 mg
+ISM/35445EMIS	Isotard 60 Xl  M/R tablets  60 mg
+ISM/35567MGEMIS	Isosorbide Mononitrate  M/R capsules  50 mg (Kent Pharm)
+ISM/35568MGEMIS	Isosorbide Mononitrate  M/R capsules  50 mg (Unichem)
+ISM/35569MGEMIS	Isosorbide Mononitrate  M/R capsules  50 mg (A.A.H. Pharm)
+ISM/35570MGEMIS	Isosorbide Mononitrate  M/R capsules  25 mg (Unichem)
+ISM/35571MGEMIS	Isosorbide Mononitrate  M/R capsules  25 mg (Kent Pharm)
+ISM/35572MGEMIS	Isosorbide Mononitrate  M/R capsules  25 mg (A.A.H. Pharm)
+ISM/35573MGEMIS	Isosorbide Mononitrate  M/R tablets  60 mg (Unichem)
+ISM/35574MGEMIS	Isosorbide Mononitrate  M/R tablets  60 mg (A.A.H. Pharm)
+ISM/814NEMIS	Isotard 40 XL  M/R tablets  40 mg
+ISME31948EMIS	Isocard  Metered dose aerosol  30 mg/dose
+ISME31950EMIS	Isosorbide Dinitrate  Metered dose aerosol  30 mg/dose
+ISOR29334NEMIS	Isosorbide Mononitrate  Oral suspension  20 mg/5 ml
+ISOR46481NEMIS	Isosorbide Dinitrate  Oral solution  20 mg/5 ml
+ISOR46482NEMIS	Isosorbide Dinitrate  Oral suspension  20 mg/5 ml
+ISOR46776NEMIS	Isosorbide Mononitrate  Oral solution  20 mg/5 ml
+ISS/9640HILLI	Isosorbide Mononitrate  M/R tablets  60 mg
+ISSO116256NEMIS	Isosorbide Dinitrate  Solution for infusion  25 mg/50 ml vial
+ISSO116257NEMIS	Isosorbide Dinitrate  Solution for infusion  50 mg/50 ml vial
+ISSP21953EMIS	Isosorbide Dinitrate  Spray  1.25 mg/dose
+ISSR10516BRIDL	Isosorbide Mononitrate  Sr capsules  50 mg
+ISSR10741BRIDL	Isosorbide Mononitrate  M/R tablets  40 mg
+ISSR4529NEMIS	Isosorbide Mononitrate  Sr capsules  25 mg
+ISSR4530NEMIS	Isosorbide Mononitrate  Sr capsules  50 mg
+ISTA10053BRIDL	Ismo  Tablets  10 mg
+ISTA10055BRIDL	Ismo  Tablets  40 mg
+ISTA10514BRIDL	Ismo  Tablets  20 mg
+ISTA139764NEMIS	Isosorbide Mononitrate  Tablets  30 mg
+ISTA1498	Ismo 20  Tablets  20 mg
+ISTA1502	Isoket 10  Tablets  10 mg
+ISTA1503	Isoket 20  Tablets  20 mg
+ISTA1504	Isoket 5  Tablets  5 mg
+ISTA1505	Isoket Retard  M/R tablets  20 mg
+ISTA1514	Isordil  Tablets  10 mg
+ISTA1515	Isordil  Tablets  30 mg
+ISTA1516	Isordil  Sublingual tablets  5 mg
+ISTA1519	Isosorbide Dinitrate  Tablets  10 mg
+ISTA1520	Isosorbide Dinitrate  Tablets  20 mg
+ISTA1521	Isosorbide Dinitrate  Tablets  40 mg
+ISTA1522	Isosorbide Dinitrate  Tablets  5 mg
+ISTA1523	Isosorbide Mononitrate  Tablets  20 mg
+ISTA1524	Isosorbide Mononitrate  Tablets  40 mg
+ISTA18832EMIS	Isib 20  Tablets  20 mg
+ISTA18834EMIS	Isib 40  Tablets  40 mg
+ISTA23407EMIS	Ismo  Tablets (starter pack)  
+ISTA2EGTON	Ismo Retard  M/R tablets  40 mg
+ISTA35575MGEMIS	Isosorbide Dinitrate  Tablets  10 mg (Alpharma)
+ISTA35576MGEMIS	Isosorbide Dinitrate  Tablets  10 mg (A.A.H. Pharm)
+ISTA35577MGEMIS	Isosorbide Dinitrate  Tablets  10 mg (Kent Pharm)
+ISTA35578MGEMIS	Isosorbide Dinitrate  Tablets  10 mg (Unichem)
+ISTA35579MGEMIS	Isosorbide Dinitrate  Tablets  20 mg (Kent Pharm)
+ISTA35580MGEMIS	Isosorbide Dinitrate  Tablets  20 mg (Alpharma)
+ISTA35581MGEMIS	Isosorbide Dinitrate  Tablets  20 mg (A.A.H. Pharm)
+ISTA35582MGEMIS	Isosorbide Dinitrate  Tablets  20 mg (Unichem)
+ISTA35583MGEMIS	Isosorbide Mononitrate  Tablets  20 mg (Kent Pharm)
+ISTA35584MGEMIS	Isosorbide Mononitrate  Tablets  20 mg (The Boots Company)
+ISTA35585MGEMIS	Isosorbide Mononitrate  Tablets  20 mg (Teva UK)
+ISTA35586MGEMIS	Isosorbide Mononitrate  Tablets  20 mg (Ivax Pharmaceuticals)
+ISTA35587MGEMIS	Isosorbide Mononitrate  Tablets  20 mg (Unichem)
+ISTA35588MGEMIS	Isosorbide Mononitrate  Tablets  20 mg (Sandoz)
+ISTA35589MGEMIS	Isosorbide Mononitrate  Tablets  20 mg (Generics (UK))
+ISTA35590MGEMIS	Isosorbide Mononitrate  Tablets  20 mg (Alpharma)
+ISTA35591MGEMIS	Isosorbide Mononitrate  Tablets  20 mg (A.A.H. Pharm)
+ISTA35592MGEMIS	Isosorbide Mononitrate  Tablets  40 mg (Sandoz)
+ISTA35593MGEMIS	Isosorbide Mononitrate  Tablets  40 mg (Teva UK)
+ISTA35594MGEMIS	Isosorbide Mononitrate  Tablets  40 mg (Alpharma)
+ISTA35595MGEMIS	Isosorbide Mononitrate  Tablets  40 mg (A.A.H. Pharm)
+ISTA35596MGEMIS	Isosorbide Mononitrate  Tablets  40 mg (Unichem)
+ISTA35597MGEMIS	Isosorbide Mononitrate  Tablets  40 mg (Kent Pharm)
+ISTA35598MGEMIS	Isosorbide Mononitrate  Tablets  40 mg (Ivax Pharmaceuticals)
+ISTA35599MGEMIS	Isosorbide Mononitrate  Tablets  40 mg (Generics (UK))
+ISTA35609MGEMIS	Isosorbide Mononitrate  Tablets  10 mg (Teva UK)
+ISTA35610MGEMIS	Isosorbide Mononitrate  Tablets  10 mg (Kent Pharm)
+ISTA35611MGEMIS	Isosorbide Mononitrate  Tablets  10 mg (Ivax Pharmaceuticals)
+ISTA35612MGEMIS	Isosorbide Mononitrate  Tablets  10 mg (A.A.H. Pharm)
+ISTA35613MGEMIS	Isosorbide Mononitrate  Tablets  10 mg (Alpharma)
+ISTA35614MGEMIS	Isosorbide Mononitrate  Tablets  10 mg (Unichem)
+ISTA35615MGEMIS	Isosorbide Mononitrate  Tablets  10 mg (Generics (UK))
+ISTA35616MGEMIS	Isosorbide Mononitrate  Tablets  10 mg (The Boots Company)
+ISTA35617MGEMIS	Isosorbide Mononitrate  Tablets  10 mg (Sandoz)
+ISTA5058	Isosorbide Mononitrate  Tablets  10 mg
+ISTA6836	Isosorbide Dinitrate  M/R tablets  20 mg
+ISTA6837	Isosorbide Dinitrate  M/R tablets  40 mg
+ISTA6941	Isosorbide Dinitrate  Tablets  30 mg
+ISTA9423BRIDL	Isotrate  Tablets  20 mg
+ISTA9955BRIDL	Isosorbide Dinitrate  Sublingual tablets  5 mg
+MCSR9252BRIDL	Mcr-50  M/R capsules  50 mg
+MOM/15560NEMIS	Monigen Xl 60  M/R tablets  60 mg
+MOM/19425NEMIS	Monomil Xl  M/R tablets  60 mg
+MOM/28763EMIS	Monomax Sr 40  M/R capsules  40 mg
+MOM/28765EMIS	Monomax Sr 60  M/R capsules  60 mg
+MOM/32492EMIS	Monosorb Xl 60  M/R tablets  60 mg
+MOM/35487EMIS	Modisal Xl  M/R tablets  60 mg
+MOM/6280NEMIS	Monomax Xl  M/R tablets  60 mg
+MOM/6324NEMIS	Monit Xl  M/R tablets  60 mg
+MOM/75968NEMIS	Modisal Xl  M/R tablets  40 mg
+MOSR4531NEMIS	Modisal La25  Sr capsules  25 mg
+MOSR4533NEMIS	Modisal La50  Sr capsules  50 mg
+MOTA10739BRIDL	Monit Sr  M/R tablets  40 mg
+MOTA1872	Monit  Tablets  20 mg
+MOTA1873	Monit Ls  Tablets  10 mg
+MOTA1874	Mono-Cedocard 20  Tablets  20 mg
+MOTA1875	Mono-Cedocard 40  Tablets  40 mg
+MOTA8512EGTON	Mono-Cedocard 10  Tablets  10 mg
+NYM/124703NEMIS	Nyzamac Sr  M/R capsules  40 mg
+NYM/124704NEMIS	Nyzamac Sr  M/R capsules  60 mg
+PHM/16286NEMIS	Phasonit La  M/R capsules  50 mg
+REM/36684NEMIS	Relosorb Xl  M/R tablets  60 mg
+SLM/15779NEMIS	Slomon Xl 60  M/R tablets  60 mg
+SOCA2643	Soni-Slo  M/R capsules  20 mg
+SOCA2644	Soni-Slo  M/R capsules  40 mg
+SOM/19729EMIS	Sorbid Sa  M/R tablets  20 mg
+SOM/31304EMIS	Sorbid Sa  M/R capsules  20 mg
+SOM/31305EMIS	Sorbid Sa  M/R capsules  40 mg
+SOTA2645	Sorbichew  Tablets  5 mg
+SOTA2646	Sorbid Sa  M/R tablets  40 mg
+SOTA2647	Sorbitrate  Tablets  10 mg
+SOTA2648	Sorbitrate  Tablets  20 mg
+TAM/42121NEMIS	Tardisc Xl  M/R tablets  60 mg
+TRM/20869NEMIS	Trangina Xl  M/R tablets  60 mg
+VATA3013	Vascardin  Tablets  10 mg
+VATA3014	Vascardin  Tablets  30 mg
+XIM/11387NEMIS	Xismox Xl 60  M/R tablets  60 mg
+ZEM/16698NEMIS	Zemon 60 Xl  M/R tablets  60 mg
+ZEM/18925NEMIS	Zemon 40 Xl  M/R tablets  40 mg

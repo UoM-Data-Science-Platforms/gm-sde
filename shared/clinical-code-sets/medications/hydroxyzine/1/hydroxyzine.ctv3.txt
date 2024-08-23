@@ -1,0 +1,13 @@
+c8a..	Hydroxyzine hydrochloride [antihististamine]
+d28..	Hydroxyzine HCl [anxiolytic]
+d28x.	Hydroxyzine hydrochloride 10mg tablet
+d281.	Atarax 10mg tablet
+d28y.	Hydroxyzine hydrochloride 25mg tablet
+d284.	Ucerax 25mg tablet
+d282.	Atarax 25mg tablet
+d28z.	Hydroxyzine hydrochloride 10mg/5mL syrup
+d285.	Ucerax 10mg/5mL syrup
+d283.	Atarax 10mg/5mL syrup
+x01E3	Hydroxyzine
+x02td	Ucerax
+x02Ue	Atarax

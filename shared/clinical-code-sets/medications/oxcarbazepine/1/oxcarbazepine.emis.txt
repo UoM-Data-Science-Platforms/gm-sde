@@ -1,0 +1,182 @@
+^ESCT1178209	Product containing only oxcarbazepine 600 mg/1 each oral tablet
+^ESCT1179806	Oxcarbazepine 150mg tablets (Mylan) 50 tablet
+^ESCT1179807	Oxcarbazepine 600mg tablets (Mylan) 50 tablet
+^ESCT1181988	Product containing only oxcarbazepine 150 mg/1 each oral tablet
+^ESCT1183700	Oxcarbazepine 150mg tablets (Mylan)
+^ESCT1184893	Oxcarbazepine 300mg tablets (Mylan) 50 tablet
+^ESCT1184894	Oxcarbazepine 600mg tablets (Mylan)
+^ESCT1186922	Oxcarbazepine 300mg tablets (Mylan)
+^ESCT1187323	Product containing only oxcarbazepine 300 mg/1 each oral tablet
+^ESCT1204583	Oxcarbazepine 60 mg/mL oral suspension
+^ESCT1204584	Product containing precisely oxcarbazepine 60 milligram/1 milliliter conventional release oral suspension
+^ESCT1212467	Oxcarbazepine 60mg/ml oral suspension sugar free
+^ESCT1221558	Oxcarbazepine
+^ESCT1221559	Oxcarbazepine product
+^ESCT1223957	Product containing precisely oxcarbazepine 150 milligram/1 each conventional release oral tablet
+^ESCT1223958	Product containing precisely oxcarbazepine 300 milligram/1 each conventional release oral tablet
+^ESCT1223959	Product containing precisely oxcarbazepine 600 milligram/1 each conventional release oral tablet
+^ESCT1258096	Oxcarbazepine 600mg tablets (Sandoz Ltd)
+^ESCT1258097	Oxcarbazepine 600mg tablets (Sandoz Ltd) 50 tablet 5 x 10 tablets
+^ESCT1258098	Oxcarbazepine 300mg tablets (Sandoz Ltd)
+^ESCT1258099	Oxcarbazepine 300mg tablets (Sandoz Ltd) 50 tablet 5 x 10 tablets
+^ESCT1258101	Oxcarbazepine 150mg tablets (Sandoz Ltd)
+^ESCT1258103	Oxcarbazepine 150mg tablets (Sandoz Ltd) 50 tablet 5 x 10 tablets
+^ESCT1259911	Trileptal 60mg/ml oral suspension (Originalis B.V.)
+^ESCT1259912	Trileptal 60mg/ml oral suspension (Originalis B.V.) 250 ml
+^ESCT1259913	Trileptal 300mg tablets (Originalis B.V.)
+^ESCT1259914	Trileptal 300mg tablets (Originalis B.V.) 50 tablet
+^ESCT1267153	Trileptal 60mg/ml oral suspension (CST Pharma Ltd)
+^ESCT1267154	Trileptal 60mg/ml oral suspension (CST Pharma Ltd) 250 ml
+^ESCT1301038	Trileptal 60mg/ml oral suspension (DE Pharmaceuticals)
+^ESCT1301039	Trileptal 60mg/ml oral suspension (DE Pharmaceuticals) 250 ml
+^ESCT1304732	Oxcarbazepine 600mg tablets (Morningside Healthcare Ltd)
+^ESCT1304733	Oxcarbazepine 600mg tablets (Morningside Healthcare Ltd) 50 tablet 5 x 10 tablets
+^ESCT1304744	Oxcarbazepine 300mg tablets (Morningside Healthcare Ltd)
+^ESCT1304745	Oxcarbazepine 300mg tablets (Morningside Healthcare Ltd) 50 tablet 10 x 5 tablets
+^ESCT1351618	Oxcarbazepine-containing product in oral dose form
+^ESCT1356175	Oxcarbazepine only product
+^ESCT1359441	Oxcarbazepine only product in oral dose form
+^ESCT1374382	Oxcarbazepine 60mg/ml oral suspension sugar free
+^ESCT1402491	Oxcarbazepine 150mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402495	Oxcarbazepine 150mg tablets (Medihealth (Northern) Ltd) 50 tablet
+^ESCT1402497	Oxcarbazepine 300mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402498	Oxcarbazepine 300mg tablets (Medihealth (Northern) Ltd) 50 tablet
+^ESCT1402499	Oxcarbazepine 600mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402500	Oxcarbazepine 600mg tablets (Medihealth (Northern) Ltd) 50 tablet
+^ESCT1405433	Trileptal 60mg/ml oral suspension (Pilsco Ltd)
+^ESCT1405434	Trileptal 60mg/ml oral suspension (Pilsco Ltd) 250 ml
+^ESCT1438081	Oxcarbazepine 150mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438082	Oxcarbazepine 150mg tablets (Viatris UK Healthcare Ltd) 50 tablet
+^ESCT1438083	Oxcarbazepine 300mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438084	Oxcarbazepine 300mg tablets (Viatris UK Healthcare Ltd) 50 tablet
+^ESCT1438085	Oxcarbazepine 600mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438086	Oxcarbazepine 600mg tablets (Viatris UK Healthcare Ltd) 50 tablet
+^ESCT1439700	Trileptal 300mg tablets (Pharmaram Ltd)
+^ESCT1439701	Trileptal 300mg tablets (Pharmaram Ltd) 50 tablet
+^ESCTOX1119519	Oxcarbazepine 150mg tablets (DE Pharmaceuticals)
+^ESCTOX1119520	Oxcarbazepine 150mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTOX1119521	Oxcarbazepine 300mg tablets (DE Pharmaceuticals)
+^ESCTOX1119522	Oxcarbazepine 300mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTOX1119523	Oxcarbazepine 600mg tablets (DE Pharmaceuticals)
+^ESCTOX1119524	Oxcarbazepine 600mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTOX1121447	Oxcarbazepine 600mg tablets 100 tablet
+^ESCTOX1126914	Oxcarbazepine 150mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOX1126915	Oxcarbazepine 150mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTOX1126916	Oxcarbazepine 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOX1126917	Oxcarbazepine 300mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTOX1126918	Oxcarbazepine 600mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTOX1126919	Oxcarbazepine 600mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTOX427331	Oxcarbazepine
+^ESCTOX610789	Oxcarbazepine 150mg tablets
+^ESCTOX610791	Oxcarbazepine 150 mg oral tablet
+^ESCTOX610792	Oxcarbazepine 300mg tablets
+^ESCTOX610794	Oxcarbazepine 300 mg oral tablet
+^ESCTOX610795	Oxcarbazepine 600mg tablets
+^ESCTOX610797	Oxcarbazepine 600 mg oral tablet
+^ESCTOX675345	Oxcarbazepine 60mg/ml oral suspension sugar free
+^ESCTOX675346	Oxcarbazepine 60mg/mL s/f oral suspension
+^ESCTOX675347	Oxcarbazepine 300mg/5mL oral suspension
+^ESCTOX863291	Oxcarbazepine 300mg tablets 50 tablet
+^ESCTOX864327	Oxcarbazepine 600mg tablets 50 tablet
+^ESCTOX864859	Oxcarbazepine 150mg tablets 50 tablet
+^ESCTOX896323	Oxcarbazepine 60mg/ml oral suspension sugar free 250 ml
+^ESCTOX944404	Oxcarbazepine 150mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX944405	Oxcarbazepine 150mg tablets (A A H Pharmaceuticals Ltd) 50 tablet
+^ESCTOX944406	Oxcarbazepine 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX944407	Oxcarbazepine 300mg tablets (A A H Pharmaceuticals Ltd) 50 tablet
+^ESCTOX944408	Oxcarbazepine 600mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTOX944409	Oxcarbazepine 600mg tablets (A A H Pharmaceuticals Ltd) 50 tablet
+^ESCTOX957389	Oxcarbazepine 400mg/5ml oral suspension 1 ml
+^ESCTOX957390	Oxcarbazepine 400mg/5ml oral suspension (Special Order)
+^ESCTOX957392	Oxcarbazepine 400mg/5ml oral suspension (Special Order) 1 ml
+^ESCTOX957588	Oxcarbazepine 400mg/5ml oral suspension
+^ESCTOX962468	Oxcarbazepine 150mg tablets (Mylan Ltd)
+^ESCTOX962469	Oxcarbazepine 150mg tablets (Mylan Ltd) 50 tablet
+^ESCTOX962470	Oxcarbazepine 300mg tablets (Mylan Ltd)
+^ESCTOX962471	Oxcarbazepine 300mg tablets (Mylan Ltd) 50 tablet
+^ESCTOX962472	Oxcarbazepine 600mg tablets (Mylan Ltd)
+^ESCTOX962473	Oxcarbazepine 600mg tablets (Mylan Ltd) 50 tablet
+^ESCTOX964561	Oxcarbazepine 150mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX964562	Oxcarbazepine 150mg tablets (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTOX964566	Oxcarbazepine 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX964567	Oxcarbazepine 300mg tablets (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTOX964568	Oxcarbazepine 600mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTOX964569	Oxcarbazepine 600mg tablets (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTOX978597	Oxcarbazepine 150mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOX978598	Oxcarbazepine 150mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTOX978599	Oxcarbazepine 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOX978600	Oxcarbazepine 300mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTOX978601	Oxcarbazepine 600mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTOX978603	Oxcarbazepine 600mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTOX979023	Oxcarbazepine 150mg tablets (Actavis UK Ltd)
+^ESCTOX979024	Oxcarbazepine 150mg tablets (Actavis UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTOX979025	Oxcarbazepine 600mg tablets (Actavis UK Ltd)
+^ESCTOX979026	Oxcarbazepine 600mg tablets (Actavis UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTOX979027	Oxcarbazepine 300mg tablets (Actavis UK Ltd)
+^ESCTOX979028	Oxcarbazepine 300mg tablets (Actavis UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTOX985827	Oxcarbazepine 150mg tablets (Teva UK Ltd)
+^ESCTOX985828	Oxcarbazepine 150mg tablets (Teva UK Ltd) 50 tablet 10 x 5 tablets
+^ESCTOX985829	Oxcarbazepine 300mg tablets (Teva UK Ltd)
+^ESCTOX985830	Oxcarbazepine 300mg tablets (Teva UK Ltd) 50 tablet 10 x 5 tablets
+^ESCTOX985831	Oxcarbazepine 600mg tablets (Teva UK Ltd)
+^ESCTOX985832	Oxcarbazepine 600mg tablets (Teva UK Ltd) 50 tablet 10 x 5 tablets
+^ESCTPR427332	Product containing oxcarbazepine
+^ESCTPR610790	Product containing oxcarbazepine 150 mg/1 each oral tablet
+^ESCTPR610793	Product containing oxcarbazepine 300 mg/1 each oral tablet
+^ESCTPR610796	Product containing oxcarbazepine 600 mg/1 each oral tablet
+^ESCTTR1001640	Trileptal 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTR1001641	Trileptal 300mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTTR1001642	Trileptal 600mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTTR1001643	Trileptal 600mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTTR1008479	Trileptal 300mg tablets (Necessity Supplies Ltd)
+^ESCTTR1008480	Trileptal 300mg tablets (Necessity Supplies Ltd) 50 tablet
+^ESCTTR1008483	Trileptal 600mg tablets (Necessity Supplies Ltd)
+^ESCTTR1008484	Trileptal 600mg tablets (Necessity Supplies Ltd) 50 tablet
+^ESCTTR1012302	Trileptal 600mg tablets (DE Pharmaceuticals)
+^ESCTTR1012303	Trileptal 600mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTTR1049383	Trileptal 60mg/ml oral suspension (Waymade Healthcare Plc)
+^ESCTTR1049384	Trileptal 60mg/ml oral suspension (Waymade Healthcare Plc) 250 ml
+^ESCTTR1121448	Trileptal 600mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTTR863307	Trileptal 300mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTR863310	Trileptal 300mg tablets (Novartis Pharmaceuticals UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTTR864328	Trileptal 600mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTR864329	Trileptal 600mg tablets (Novartis Pharmaceuticals UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTTR864860	Trileptal 150mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTR864862	Trileptal 150mg tablets (Novartis Pharmaceuticals UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTTR896324	Trileptal 60mg/ml oral suspension (Novartis Pharmaceuticals UK Ltd)
+^ESCTTR896325	Trileptal 60mg/ml oral suspension (Novartis Pharmaceuticals UK Ltd) 250 ml
+^ESCTTR916855	Trileptal
+^ESCTTR929557	Trileptal 300mg tablets (Dowelhurst Ltd)
+^ESCTTR929558	Trileptal 300mg tablets (Dowelhurst Ltd) 50 tablet
+^ESCTTR929559	Trileptal 600mg tablets (Dowelhurst Ltd)
+^ESCTTR929560	Trileptal 600mg tablets (Dowelhurst Ltd) 50 tablet
+^ESCTTR929867	Trileptal 600mg tablets (Waymade Healthcare Plc)
+^ESCTTR929869	Trileptal 600mg tablets (Waymade Healthcare Plc) 50 tablet
+^ESCTTR929874	Trileptal 300mg tablets (Waymade Healthcare Plc)
+^ESCTTR929875	Trileptal 300mg tablets (Waymade Healthcare Plc) 50 tablet
+^ESCTTR929880	Trileptal 150mg tablets (Waymade Healthcare Plc)
+^ESCTTR929881	Trileptal 150mg tablets (Waymade Healthcare Plc) 50 tablet
+^ESCTTR960242	Trileptal 150mg tablets (Dowelhurst Ltd)
+^ESCTTR960243	Trileptal 150mg tablets (Dowelhurst Ltd) 50 tablet
+^ESCTTR967967	Trileptal 300mg tablets (DE Pharmaceuticals)
+^ESCTTR967968	Trileptal 300mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTTR974541	Trileptal 150mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR974542	Trileptal 150mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTTR974543	Trileptal 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR974544	Trileptal 300mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTTR974545	Trileptal 600mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR974546	Trileptal 600mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTTR990261	Trileptal 300mg tablets (Lexon (UK) Ltd)
+^ESCTTR990262	Trileptal 300mg tablets (Lexon (UK) Ltd) 50 tablet
+^ESCTTR990263	Trileptal 600mg tablets (Lexon (UK) Ltd)
+^ESCTTR990264	Trileptal 600mg tablets (Lexon (UK) Ltd) 50 tablet
+^ESCTTR994235	Trileptal 300mg tablets (Stephar (U.K.) Ltd)
+^ESCTTR994236	Trileptal 300mg tablets (Stephar (U.K.) Ltd) 50 tablet
+OXOR14323NEMIS	Oxcarbazepine  Oral Suspension Sugar Free  60 mg/ml
+OXTA3254NEMIS	Oxcarbazepine  Tablets  150 mg
+OXTA3256NEMIS	Oxcarbazepine  Tablets  300 mg
+OXTA3257NEMIS	Oxcarbazepine  Tablets  600 mg
+TROR14324NEMIS	Trileptal  Oral suspension  60 mg/ml
+TRTA3258NEMIS	Trileptal  Tablets  150 mg
+TRTA3259NEMIS	Trileptal  Tablets  300 mg
+TRTA3260NEMIS	Trileptal  Tablets  600 mg

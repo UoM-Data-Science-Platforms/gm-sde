@@ -1,0 +1,204 @@
+^ESCT1178910	Product containing only solifenacin 10 mg/1 each oral tablet
+^ESCT1182494	Product containing only solifenacin 5 mg/1 each oral tablet
+^ESCT1214216	Solifenacin 1mg/ml oral suspension sugar free 150 ml
+^ESCT1214217	Vesicare 1mg/ml oral suspension (Astellas Pharma Ltd)
+^ESCT1214218	Vesicare 1mg/ml oral suspension (Astellas Pharma Ltd) 150 ml
+^ESCT1214436	Solifenacin 1mg/ml oral suspension sugar free
+^ESCT1230325	Solifenacin
+^ESCT1230326	Solifenacin product
+^ESCT1232448	Solifenacin succinate 10 mg oral tablet
+^ESCT1232449	Product containing precisely solifenacin succinate 10 milligram/1 each conventional release oral tablet
+^ESCT1232450	Product containing precisely solifenacin succinate 5 milligram/1 each conventional release oral tablet
+^ESCT1232451	Solifenacin succinate 5 mg oral tablet
+^ESCT1258116	Vesicare 10mg tablets (Pharmaram Ltd)
+^ESCT1258117	Vesicare 10mg tablets (Pharmaram Ltd) 30 tablet
+^ESCT1258118	Vesicare 5mg tablets (Pharmaram Ltd)
+^ESCT1258119	Vesicare 5mg tablets (Pharmaram Ltd) 30 tablet
+^ESCT1259917	Vesicare 10mg tablets (Originalis B.V.)
+^ESCT1259919	Vesicare 10mg tablets (Originalis B.V.) 30 tablet
+^ESCT1263200	Solifenacin 5mg tablets (Mylan)
+^ESCT1263202	Solifenacin 5mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1263203	Solifenacin 10mg tablets (Mylan)
+^ESCT1263206	Solifenacin 10mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1265339	Solifenacin 5mg tablets (Sandoz Ltd)
+^ESCT1265345	Solifenacin 5mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCT1265824	Solifenacin 5mg tablets (Zentiva)
+^ESCT1265826	Solifenacin 5mg tablets (Zentiva) 30 tablet 3 x 10 tablets
+^ESCT1265827	Solifenacin 10mg tablets (Zentiva)
+^ESCT1265828	Solifenacin 10mg tablets (Zentiva) 30 tablet 3 x 10 tablets
+^ESCT1266028	Solifenacin 10mg tablets 250 tablet
+^ESCT1266029	Solifenacin 10mg tablets (Consilient Health Ltd)
+^ESCT1266030	Solifenacin 10mg tablets (Consilient Health Ltd) 30 tablet 3 x 10 tablets
+^ESCT1266031	Solifenacin 10mg tablets (Consilient Health Ltd) 250 tablet
+^ESCT1266032	Solifenacin 5mg tablets 250 tablet
+^ESCT1266033	Solifenacin 5mg tablets (Consilient Health Ltd)
+^ESCT1266034	Solifenacin 5mg tablets (Consilient Health Ltd) 30 tablet 3 x 10 tablets
+^ESCT1266035	Solifenacin 5mg tablets (Consilient Health Ltd) 250 tablet
+^ESCT1266472	Solifenacin 5mg tablets (Aristo Pharma Ltd)
+^ESCT1266473	Solifenacin 5mg tablets (Aristo Pharma Ltd) 30 tablet 2 x 15 tablets
+^ESCT1266477	Solifenacin 10mg tablets (Aristo Pharma Ltd)
+^ESCT1266478	Solifenacin 10mg tablets (Aristo Pharma Ltd) 30 tablet 2 x 15 tablets
+^ESCT1266576	Solifenacin 5mg tablets (Teva UK Ltd)
+^ESCT1266577	Solifenacin 5mg tablets (Teva UK Ltd) 30 tablet
+^ESCT1266578	Solifenacin 10mg tablets (Teva UK Ltd)
+^ESCT1266579	Solifenacin 10mg tablets (Teva UK Ltd) 30 tablet
+^ESCT1266708	Solifenacin 10mg tablets (Sandoz Ltd)
+^ESCT1266709	Solifenacin 10mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCT1266710	Solifenacin 10mg tablets (Sandoz Ltd) 100 tablet 10 x 10 tablets
+^ESCT1266808	Solifenacin 5mg tablets (Aspire Pharma Ltd)
+^ESCT1266809	Solifenacin 5mg tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1266810	Solifenacin 10mg tablets (Aspire Pharma Ltd)
+^ESCT1266811	Solifenacin 10mg tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1266816	Solifenacin 10mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1266817	Solifenacin 10mg tablets (Sun Pharmaceutical Industries Europe B.V.) 30 tablet 3 x 10 tablets
+^ESCT1266828	Vesicare 10mg tablets (CST Pharma Ltd)
+^ESCT1266829	Vesicare 10mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1266890	Vesicare 5mg tablets (CST Pharma Ltd)
+^ESCT1266891	Vesicare 5mg tablets (CST Pharma Ltd) 30 tablet
+^ESCT1266900	Solifenacin 5mg tablets (Genus Pharmaceuticals Ltd)
+^ESCT1266902	Solifenacin 5mg tablets (Genus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1266908	Solifenacin 10mg tablets (Genus Pharmaceuticals Ltd)
+^ESCT1266909	Solifenacin 10mg tablets (Genus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1267295	Solifenacin 5mg tablets (Accord Healthcare Ltd)
+^ESCT1267296	Solifenacin 5mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1267297	Solifenacin 10mg tablets (Accord Healthcare Ltd)
+^ESCT1267298	Solifenacin 10mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1267602	Solifenacin 10mg tablets (Tillomed Laboratories Ltd)
+^ESCT1267603	Solifenacin 10mg tablets (Tillomed Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCT1267604	Solifenacin 5mg tablets (Tillomed Laboratories Ltd)
+^ESCT1267605	Solifenacin 5mg tablets (Tillomed Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCT1267632	Solifenacin 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1267633	Solifenacin 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1267634	Solifenacin 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1267635	Solifenacin 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1267696	Solifenacin 5mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1267715	Solifenacin 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1267716	Solifenacin 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1267717	Solifenacin 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1267835	Solifenacin 10mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1267836	Solifenacin 10mg tablets (Glenmark Pharmaceuticals Europe Ltd) 30 tablet 3 x 10 tablets
+^ESCT1267839	Solifenacin 5mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1267840	Solifenacin 5mg tablets (Glenmark Pharmaceuticals Europe Ltd) 30 tablet 3 x 10 tablets
+^ESCT1271063	Solifenacin 5mg/5ml oral solution sugar free 150 ml
+^ESCT1271064	Solifenacin 5mg/5ml oral solution sugar free (Bristol Laboratories Ltd)
+^ESCT1271065	Solifenacin 5mg/5ml oral solution sugar free (Bristol Laboratories Ltd) 150 ml
+^ESCT1271325	Solifenacin 5mg/5ml oral solution sugar free
+^ESCT1274491	Solifenacin 10mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCT1274494	Solifenacin 5mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCT1274930	Vesicare 10mg tablets (Pilsco Ltd)
+^ESCT1274931	Vesicare 10mg tablets (Pilsco Ltd) 30 tablet
+^ESCT1274932	Vesicare 5mg tablets (Pilsco Ltd)
+^ESCT1274933	Vesicare 5mg tablets (Pilsco Ltd) 30 tablet
+^ESCT1275187	Vesomni 6mg/0.4mg modified-release tablets (Pilsco Ltd)
+^ESCT1275188	Vesomni 6mg/0.4mg modified-release tablets (Pilsco Ltd) 30 tablet
+^ESCT1275438	Solifenacin 5mg tablets (A A H Pharmaceuticals Ltd) 250 tablet
+^ESCT1275439	Solifenacin 10mg tablets (A A H Pharmaceuticals Ltd) 250 tablet
+^ESCT1275642	Solifenacin 5mg tablets (DE Pharmaceuticals)
+^ESCT1275643	Solifenacin 5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1275644	Solifenacin 10mg tablets (DE Pharmaceuticals)
+^ESCT1275645	Solifenacin 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1280777	Vesicare 5mg tablets (Pharmaram Ltd) 100 tablet
+^ESCT1280778	Vesicare 10mg tablets (Pharmaram Ltd) 100 tablet
+^ESCT1299177	Solifenacin 5mg tablets (Sun Pharmaceutical Industries Europe B.V.)
+^ESCT1299178	Solifenacin 5mg tablets (Sun Pharmaceutical Industries Europe B.V.) 30 tablet 3 x 10 tablets
+^ESCT1300206	Giraxine
+^ESCT1300942	Giraxine 5mg tablets (Medreich Plc)
+^ESCT1300943	Giraxine 5mg tablets (Medreich Plc) 30 tablet 3 x 10 tablets
+^ESCT1300944	Giraxine 10mg tablets (Medreich Plc)
+^ESCT1300945	Giraxine 10mg tablets (Medreich Plc) 30 tablet 3 x 10 tablets
+^ESCT1301054	Vesomni 6mg/0.4mg modified-release tablets (DE Pharmaceuticals)
+^ESCT1301055	Vesomni 6mg/0.4mg modified-release tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1351708	Solifenacin-containing product in oral dose form
+^ESCT1356785	Solifenacin only product
+^ESCT1359897	Solifenacin only product in oral dose form
+^ESCT1374760	Solifenacin 5mg tablets (Milpharm Ltd)
+^ESCT1374761	Solifenacin 5mg tablets (Milpharm Ltd) 30 tablet
+^ESCT1374762	Solifenacin 10mg tablets (Milpharm Ltd)
+^ESCT1374763	Solifenacin 10mg tablets (Milpharm Ltd) 30 tablet
+^ESCT1403480	Solifenacin 5mg tablets (Bristol Laboratories Ltd)
+^ESCT1403482	Solifenacin 5mg tablets (Bristol Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCT1403483	Solifenacin 10mg tablets (Bristol Laboratories Ltd)
+^ESCT1403486	Solifenacin 10mg tablets (Bristol Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCT1403827	Solifenacin 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1403828	Solifenacin 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCT1404083	Solifenacin 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404084	Solifenacin 10mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1404086	Solifenacin 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404087	Solifenacin 5mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1404089	Solifenacin 10mg tablets (Medihealth (Northern) Ltd) 250 tablet
+^ESCT1404090	Solifenacin 5mg tablets (Medihealth (Northern) Ltd) 250 tablet
+^ESCT1404619	Solifenacin 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1404620	Solifenacin 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCT1412673	Solifenacin 5mg/5ml oral solution sugar free (Brillpharma Ltd)
+^ESCT1412674	Solifenacin 5mg/5ml oral solution sugar free (Brillpharma Ltd) 150 ml
+^ESCT1422943	Solifenacin 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422944	Solifenacin 5mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1422945	Solifenacin 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422946	Solifenacin 10mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1435481	Solifenacin 10mg tablets (DE Pharmaceuticals) 250 tablet
+^ESCT1435483	Solifenacin 5mg tablets (DE Pharmaceuticals) 250 tablet
+^ESCT1436721	Solifenacin 10mg tablets (Crescent Pharma Ltd)
+^ESCT1436722	Solifenacin 10mg tablets (Crescent Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1436723	Solifenacin 5mg Tablets (Crescent Pharma Ltd)
+^ESCT1436724	Solifenacin 5mg Tablets (Crescent Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1439110	Solifenacin 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439111	Solifenacin 5mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1439112	Solifenacin 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439113	Solifenacin 10mg tablets (Viatris UK Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCTPR673840	Product containing solifenacin
+^ESCTPR687937	Product containing solifenacin 10 mg/1 each oral tablet
+^ESCTPR687940	Product containing solifenacin 5 mg/1 each oral tablet
+^ESCTSO1007644	Solifenacin 10mg/5ml oral solution 1 ml
+^ESCTSO1007645	Solifenacin 10mg/5ml oral solution (Special Order)
+^ESCTSO1007646	Solifenacin 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTSO1007647	Solifenacin 10mg/5ml oral suspension 1 ml
+^ESCTSO1007648	Solifenacin 10mg/5ml oral suspension (Special Order)
+^ESCTSO1007649	Solifenacin 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSO1007654	Solifenacin 10mg/5ml oral solution
+^ESCTSO1007655	Solifenacin 10mg/5ml oral suspension
+^ESCTSO1059036	Solifenacin 6mg / Tamsulosin 400microgram modified-release tablets 30 tablet
+^ESCTSO1059042	Solifenacin + Tamsulosin
+^ESCTSO1059047	Solifenacin 6mg / Tamsulosin 400microgram modified-release tablets
+^ESCTSO1066888	Solifenacin 5mg tablets 100 tablet
+^ESCTSO1066890	Solifenacin 10mg tablets 100 tablet
+^ESCTSO673839	Solifenacin
+^ESCTSO687936	Solifenacin 10mg tablets
+^ESCTSO687938	Solifenacin 10 mg oral tablet
+^ESCTSO687939	Solifenacin 5mg tablets
+^ESCTSO687941	Solifenacin 5 mg oral tablet
+^ESCTSO902637	Solifenacin 5mg tablets 30 tablet
+^ESCTSO902640	Solifenacin 10mg tablets 30 tablet
+^ESCTVE1008245	Vesicare 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTVE1008246	Vesicare 5mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTVE1008247	Vesicare 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTVE1008248	Vesicare 10mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTVE1023933	Vesicare 10mg tablets (DE Pharmaceuticals)
+^ESCTVE1023934	Vesicare 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTVE1023935	Vesicare 5mg tablets (DE Pharmaceuticals)
+^ESCTVE1023936	Vesicare 5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTVE1034592	Vesicare 5mg tablets (Waymade Healthcare Plc)
+^ESCTVE1034593	Vesicare 5mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTVE1034594	Vesicare 10mg tablets (Waymade Healthcare Plc)
+^ESCTVE1034595	Vesicare 10mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTVE1059037	Vesomni 6mg/0.4mg modified-release tablets (Astellas Pharma Ltd)
+^ESCTVE1059038	Vesomni 6mg/0.4mg modified-release tablets (Astellas Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTVE1066889	Vesicare 5mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTVE1066891	Vesicare 10mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTVE902638	Vesicare 5mg tablets (Astellas Pharma Ltd)
+^ESCTVE902639	Vesicare 5mg tablets (Astellas Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTVE902641	Vesicare 10mg tablets (Astellas Pharma Ltd)
+^ESCTVE902642	Vesicare 10mg tablets (Astellas Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTVE917080	Vesicare
+^ESCTVE945039	Vesomni
+SOM/86924NEMIS	Solifenacin And Tamsulosin  M/R tablets  6 mg + 400 micrograms
+SOOR128012NEMIS	Solifenacin  Oral Suspension Sugar Free  1 mg/ml
+SOOR140214NEMIS	Solifenacin  Oral Solution, Sugar Free  5 mg/5 ml
+SOOR46852NEMIS	Solifenacin  Oral solution  10 mg/5 ml
+SOOR46853NEMIS	Solifenacin  Oral suspension  10 mg/5 ml
+SOTA18745NEMIS	Solifenacin  Tablets  5 mg
+SOTA18747NEMIS	Solifenacin  Tablets  10 mg
+VEM/144191NEMIS	Vecit  M/R tablets  6 mg + 400 micrograms
+VEM/86926NEMIS	Vesomni  M/R tablets  6 mg + 400 micrograms
+VEOR128015NEMIS	Vesicare  Oral suspension  1 mg/ml
+VETA18749NEMIS	Vesicare  Tablets  5 mg
+VETA18750NEMIS	Vesicare  Tablets  10 mg

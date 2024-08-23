@@ -1,0 +1,14 @@
+dr6..	Procyclidine hydrochloride
+dr6w.	Procyclidine hydrochloride 2.5mg/5mL sugar free syrup
+dr61.	Arpicolin 2.5mg/5mL syrup
+dr6x.	Procyclidine hydrochloride 5mg/5mL sugar free syrup
+dr62.	Arpicolin 5mg/5mL syrup
+dr6y.	Procyclidine hydrochloride 5mg tablet
+dr65.	Muscinil 5mg tablet
+dr63.	Kemadrin 5mg tablet
+dr6z.	Procyclidine hydrochloride 10mg/2mL injection
+dr64.	Kemadrin 10mg/2mL injection
+x01Dj	Procyclidine
+x03jj	Muscinil
+x02gJ	Kemadrin
+x02UM	Arpicolin

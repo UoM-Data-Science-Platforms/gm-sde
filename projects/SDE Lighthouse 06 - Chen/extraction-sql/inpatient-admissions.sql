@@ -1,6 +1,6 @@
---┌──────────────────────────────────────────────────────┐
---│ SDE Lighthouse study 06 - Chen - Hospital admissions │
---└──────────────────────────────────────────────────────┘
+--┌────────────────────────────────────────────────────────────────┐
+--│ SDE Lighthouse study 06 - Chen - Inpatient hospital admissions │
+--└────────────────────────────────────────────────────────────────┘
 
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
@@ -61,17 +61,13 @@ LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
 WHERE 
     (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
 
--- LOAD CODESETS
+-- find patients with chronic pain
 
 DROP TABLE IF EXISTS chronic_pain;
 CREATE TEMPORARY TABLE chronic_pain AS
 SELECT "FK_Patient_ID", to_date("EventDate") AS "EventDate"
 FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
-WHERE ( 
-  "FK_Reference_Coding_ID" IN (SELECT FK_Reference_Coding_ID FROM SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDCODESETS_PERMANENT WHERE Concept = 'chronic-pain' AND Version = 1) 
-    OR
-  "FK_Reference_SnomedCT_ID" IN (SELECT FK_Reference_SnomedCT_ID FROM SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDSNOMEDSETS_PERMANENT WHERE Concept = 'chronic-pain' AND Version = 1)
-      )
+WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES.AllCodesPermanent WHERE Concept = 'chronic-pain' AND Version = 1) 
 AND "EventDate" BETWEEN $StudyStartDate and $StudyEndDate; 
 
 -- find first chronic pain code in the study period 
@@ -92,11 +88,7 @@ SELECT e."FK_Patient_ID", to_date("EventDate") AS "EventDate"
 FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
 INNER JOIN FirstPain fp ON fp."FK_Patient_ID" = e."FK_Patient_ID" 
 				AND e."EventDate" BETWEEN DATEADD(year, 1, FirstPainCodeDate) AND DATEADD(year, -1, FirstPainCodeDate)
-WHERE ( 
-  "FK_Reference_Coding_ID" IN (SELECT FK_Reference_Coding_ID FROM SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDCODESETS_PERMANENT WHERE Concept = 'cancer' AND Version = 1) 
-    OR
-  "FK_Reference_SnomedCT_ID" IN (SELECT FK_Reference_SnomedCT_ID FROM SDE_REPOSITORY.SHARED_UTILITIES.VERSIONEDSNOMEDSETS_PERMANENT WHERE Concept = 'cancer' AND Version = 1)
-      )
+WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES.AllCodesPermanent WHERE Concept = 'cancer' AND Version = 1)
 AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain); --only look in patients with chronic pain
 
 -- find patients in the chronic pain cohort who received more than 2 opioids
@@ -154,35 +146,21 @@ LEFT JOIN
 
 
 
--- find all inpatient admissions for greater manchester trusts
-
-DROP TABLE IF EXISTS ManchesterTrusts;
-CREATE TEMPORARY TABLE ManchesterTrusts AS 
-SELECT *
-FROM PRESENTATION.NATIONAL_FLOWS_APC."DS708_Apcs"
-WHERE "ProviderDesc" IN 
-    ('Manchester University NHS Foundation Trust',
-     'Pennine Acute Hospitals NHS Trust',
-     'Northern Care Alliance NHS Foundation Trust',
-     'Wrightington, Wigan And Leigh NHS Foundation Trust',
-     'Stockport NHS Foundation Trust',
-     'Bolton NHS Foundation Trust',
-     'Tameside And Glossop Integrated Care NHS Foundation Trust',
-     'The Christie NHS Foundation Trust')
-  -- FILTER OUT ELECTIVE ??   
-  AND TO_DATE("AdmissionDttm") BETWEEN $StudyStartDate and $StudyEndDate
-  AND "GmPseudo" IN (SELECT "GmPseudo" FROM Cohort)
-     ;
-
--- final table
-
-SELECT
+-- get all inpatient admissions
+SELECT 
     "GmPseudo"
     , TO_DATE("AdmissionDttm") AS "AdmissionDate"
     , TO_DATE("DischargeDttm") AS "DischargeDate"
-    , "ProviderDesc"
+	, "AdmissionMethodCode"
+	, "AdmissionMethodDesc"
     , "HospitalSpellDuration" AS "LOS_days"
     , "DerPrimaryDiagnosisChapterDescReportingEpisode" AS PrimaryDiagnosisChapter
 	, "DerPrimaryDiagnosisCodeReportingEpisode" AS PrimaryDiagnosisCode 
     , "DerPrimaryDiagnosisDescReportingEpisode" AS PrimaryDiagnosisDesc
-FROM ManchesterTrusts
+FROM PRESENTATION.NATIONAL_FLOWS_APC."DS708_Apcs"
+WHERE 
+-- "ProviderDesc" IN ('Manchester University NHS Foundation Trust', 'Pennine Acute Hospitals NHS Trust', 'Northern Care Alliance NHS Foundation Trust', 'Wrightington, Wigan And Leigh NHS Foundation Trust', 'Stockport NHS Foundation Trust', 'Bolton NHS Foundation Trust', 'Tameside And Glossop Integrated Care NHS Foundation Trust', 'The Christie NHS Foundation Trust') AND
+-- FILTER OUT ELECTIVE ??   
+TO_DATE("AdmissionDttm") BETWEEN $StudyStartDate AND $StudyEndDate
+AND "GmPseudo" IN (SELECT "GmPseudo" FROM Cohort);
+

@@ -1,0 +1,918 @@
+^ESCT1175284	Furosemide 50mg/5ml solution for injection ampoules (Accord Healthcare Ltd)
+^ESCT1175285	Furosemide 50mg/5ml solution for injection ampoules (Accord Healthcare Ltd) 10 ampoule
+^ESCT1177908	Product containing only frusemide 500 mg/1 each oral tablet
+^ESCT1177911	Product containing only spironolactone 50 mg and furosemide 20 mg/1 each oral capsule
+^ESCT1179496	Furosemide 40mg tablets (Mylan) 1000 tablet
+^ESCT1179816	Furosemide 40mg tablets (Mylan)
+^ESCT1181171	Product containing only frusemide 20 mg/1 each oral tablet
+^ESCT1182795	Product containing only furosemide 80 mg/1 each oral tablet
+^ESCT1182803	Furosemide and potassium
+^ESCT1182804	Product containing furosemide and potassium
+^ESCT1183134	Amiloride and furosemide
+^ESCT1183135	Product containing amiloride and furosemide
+^ESCT1183409	Furosemide 20mg tablets (Mylan) 28 tablet
+^ESCT1183410	Furosemide 40mg tablets (Mylan) 28 tablet
+^ESCT1183737	Furosemide 20mg tablets (Mylan)
+^ESCT1187179	Product containing only frusemide 40 mg/1 each oral tablet
+^ESCT1187183	Product containing only triamterene 50 mg and furosemide 40 mg/1 each oral tablet
+^ESCT1187184	Product containing only amiloride 2.5 mg and furosemide 20 mg/1 each oral tablet
+^ESCT1187185	Product containing only amiloride 5 mg and furosemide 40 mg/1 each oral tablet
+^ESCT1187186	Product containing only amiloride 10 mg and furosemide 80 mg/1 each oral tablet
+^ESCT1188668	Furosemide 20mg tablets (Mylan) 250 tablet
+^ESCT1199318	Furosemide 40mg tablets (Crescent Pharma Ltd) 250 tablet
+^ESCT1203291	Frusemide+potassium 40mg/8Mmol prolonged-release oral tablet
+^ESCT1203533	Frusemide+potassium 20mg/10Mmol prolonged-release oral tablet
+^ESCT1204502	Furosemide 4 mg/mL oral solution
+^ESCT1204503	Product containing precisely furosemide 4 milligram/1 milliliter conventional release oral solution
+^ESCT1204504	Furosemide 8 mg/mL oral solution
+^ESCT1204505	Product containing precisely furosemide 8 milligram/1 milliliter conventional release oral solution
+^ESCT1204506	Furosemide 10 mg/mL oral solution
+^ESCT1204507	Product containing precisely furosemide 10 milligram/1 milliliter conventional release oral solution
+^ESCT1206197	Amiloride and furosemide in oral dosage form
+^ESCT1206198	Product containing amiloride and furosemide in oral dosage form
+^ESCT1207252	Furosemide and triamterene in oral dosage form
+^ESCT1207253	Product containing furosemide and triamterene in oral dosage form
+^ESCT1209468	Furosemide 20 mg/2 mL solution for injection ampoule
+^ESCT1209469	Furosemide 20 mg/2 mL solution for injection ampule
+^ESCT1209470	Product containing precisely furosemide 20 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1209471	Furosemide 50 mg/5 mL solution for injection ampoule
+^ESCT1209472	Furosemide 50 mg/5 mL solution for injection ampule
+^ESCT1209473	Product containing precisely furosemide 50 milligram/5 milliliter conventional release solution for injection ampule
+^ESCT1209474	Furosemide 80 mg/8 mL solution for injection syringe
+^ESCT1209475	Product containing precisely furosemide 80 milligram/8 milliliter conventional release solution for injection syringe
+^ESCT1212256	Furosemide 20mg/5ml oral solution sugar free
+^ESCT1212257	Furosemide 40mg/5ml oral solution sugar free
+^ESCT1212258	Furosemide 50mg/5ml oral solution sugar free
+^ESCT1214326	Furosemide 40mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCT1215144	Furosemide 20mg tablets (Ennogen Pharma Ltd)
+^ESCT1215145	Furosemide 20mg tablets (Ennogen Pharma Ltd) 28 tablet
+^ESCT1215705	Furosemide 20mg / Potassium chloride 750mg (potassium 10mmol) modified-release tablets
+^ESCT1215706	Furosemide 20mg/2ml solution for injection ampoules
+^ESCT1215707	Furosemide 50mg/5ml solution for injection ampoules
+^ESCT1215708	Furosemide 80mg/8ml solution for injection pre-filled syringes
+^ESCT1215913	Furosemide 40mg tablets (Ennogen Pharma Ltd)
+^ESCT1215914	Furosemide 40mg tablets (Ennogen Pharma Ltd) 28 tablet
+^ESCT1220009	Furosemide
+^ESCT1220010	Furosemide product
+^ESCT1222737	Furosemide 20 mg oral tablet
+^ESCT1222738	Product containing precisely furosemide 20 milligram/1 each conventional release oral tablet
+^ESCT1222739	Product containing precisely furosemide 40 milligram/1 each conventional release oral tablet
+^ESCT1222740	Furosemide 40 mg oral tablet
+^ESCT1222741	Furosemide 500 mg oral tablet
+^ESCT1222742	Product containing precisely furosemide 500 milligram/1 each conventional release oral tablet
+^ESCT1222743	Product containing precisely furosemide 1 milligram/1 milliliter conventional release oral solution
+^ESCT1222744	Furosemide 1 mg/mL oral solution
+^ESCT1222779	Product containing precisely furosemide 40 milligram and triamterene 50 milligram/1 each conventional release oral tablet
+^ESCT1222780	Furosemide 40 mg and triamterene 50 mg oral tablet
+^ESCT1222781	Furosemide 20 mg and spironolactone 50 mg oral capsule
+^ESCT1222782	Product containing precisely furosemide 20 milligram and spironolactone 50 milligram/1 each conventional release oral capsule
+^ESCT1222787	Amiloride hydrochloride 2.5 mg and furosemide 20 mg oral tablet
+^ESCT1222788	Product containing precisely amiloride hydrochloride 2.5 milligram and furosemide 20 milligram/1 each conventional release oral tablet
+^ESCT1222789	Amiloride hydrochloride 5 mg and furosemide 40 mg oral tablet
+^ESCT1222790	Product containing precisely amiloride hydrochloride 5 milligram and furosemide 40 milligram/1 each conventional release oral tablet
+^ESCT1222791	Product containing precisely amiloride hydrochloride 10 milligram and furosemide 80 milligram/1 each conventional release oral tablet
+^ESCT1222792	Amiloride hydrochloride 10 mg and furosemide 80 mg oral tablet
+^ESCT1229648	Product containing precisely furosemide 80 milligram/1 each conventional release oral tablet
+^ESCT1229781	Furosemide and spironolactone product
+^ESCT1229782	Furosemide and potassium
+^ESCT1229783	Furosemide and potassium product
+^ESCT1229981	Furosemide and triamterene product
+^ESCT1232810	Furosemide + Potassium chloride
+^ESCT1232811	Product containing furosemide and potassium chloride
+^ESCT1232812	Furosemide and potassium chloride product
+^ESCT1236872	Amiloride and furosemide
+^ESCT1236873	Amiloride and furosemide product
+^ESCT1249704	Furosemide 20mg tablets (Crescent Pharma Ltd) 250 tablet
+^ESCT1250362	Furosemide 20mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250363	Furosemide 20mg/5ml oral solution sugar free (Advanz Pharma) 150 ml
+^ESCT1250364	Furosemide 40mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250365	Furosemide 40mg/5ml oral solution sugar free (Advanz Pharma) 150 ml
+^ESCT1250366	Furosemide 50mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250367	Furosemide 50mg/5ml oral solution sugar free (Advanz Pharma) 150 ml
+^ESCT1250432	Furosemide 20mg/2ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250433	Furosemide 20mg/2ml solution for injection ampoules (Advanz Pharma) 10 ampoule
+^ESCT1250435	Furosemide 250mg/25ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250437	Furosemide 250mg/25ml solution for injection ampoules (Advanz Pharma) 10 ampoule
+^ESCT1250438	Furosemide 50mg/5ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250439	Furosemide 50mg/5ml solution for injection ampoules (Advanz Pharma) 10 ampoule
+^ESCT1250561	Furosemide 40mg tablets (Advanz Pharma)
+^ESCT1250562	Furosemide 40mg tablets (Advanz Pharma) 1000 tablet
+^ESCT1250563	Furosemide 500mg tablets (Advanz Pharma)
+^ESCT1250564	Furosemide 500mg tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1255490	Furosemide 50mg/5ml oral solution sugar free
+^ESCT1263975	Furosemide 20mg tablets (Sovereign Medical Ltd)
+^ESCT1263976	Furosemide 20mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1263977	Furosemide 40mg tablets (Sovereign Medical Ltd)
+^ESCT1263978	Furosemide 40mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1279746	Furosemide 500mg tablets (Accord Healthcare Ltd)
+^ESCT1279750	Furosemide 500mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1304021	Furosemide 20mg/2ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304022	Furosemide 20mg/2ml solution for injection ampoules (hameln pharma Ltd) 10 ampoule 2 x 5 x 2ml ampoules
+^ESCT1304023	Furosemide 50mg/5ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304024	Furosemide 50mg/5ml solution for injection ampoules (hameln pharma Ltd) 10 ampoule 2 x 5 x 5ml ampoules
+^ESCT1304025	Furosemide 250mg/25ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304026	Furosemide 250mg/25ml solution for injection ampoules (hameln pharma Ltd) 10 ampoule 2 x 5 x 25ml ampoules
+^ESCT1306764	Furosemide 20mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1306765	Furosemide 20mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet
+^ESCT1351421	Furosemide- and spironolactone-containing product in oral dose form
+^ESCT1353444	Amiloride and furosemide only product
+^ESCT1355132	Furosemide only product
+^ESCT1355133	Furosemide and potassium only product
+^ESCT1355134	Furosemide and potassium chloride only product
+^ESCT1355135	Furosemide and spironolactone only product
+^ESCT1355136	Furosemide and triamterene only product
+^ESCT1357453	Amiloride and furosemide only product in oral dose form
+^ESCT1358628	Furosemide and spironolactone only product in oral dose form
+^ESCT1358629	Furosemide and triamterene only product in oral dose form
+^ESCT1358630	Furosemide only product in oral dose form
+^ESCT1358631	Furosemide only product in parenteral dose form
+^ESCT1361068	Furosemide 10 mg/mL solution for injection
+^ESCT1374221	Furosemide 20mg/2ml solution for injection ampoules (Baxter Healthcare Ltd)
+^ESCT1374222	Furosemide 20mg/2ml solution for injection ampoules (Baxter Healthcare Ltd) 10 ampoule
+^ESCT1374223	Furosemide 50mg/5ml solution for injection ampoules (Baxter Healthcare Ltd)
+^ESCT1374224	Furosemide 50mg/5ml solution for injection ampoules (Baxter Healthcare Ltd) 10 ampoule
+^ESCT1375951	Furosemide 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375952	Furosemide 20mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375954	Furosemide 20mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375955	Furosemide 20mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1375958	Furosemide 40mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375959	Furosemide 40mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1375960	Furosemide 500mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375961	Furosemide 500mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375962	Furosemide 50mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375963	Furosemide 50mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1375964	Furosemide 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375965	Furosemide 40mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1381475	Furosemide-containing product in oral dose form
+^ESCT1381476	Furosemide-containing product in parenteral dose form
+^ESCT1382270	Furosemide- and potassium-containing product
+^ESCT1385297	Amiloride- and furosemide-containing product
+^ESCT1386156	Amiloride- and furosemide-containing product in oral dose form
+^ESCT1386667	Furosemide- and triamterene-containing product in oral dose form
+^ESCT1402058	Furosemide 40mg/5ml oral solution sugar free
+^ESCT1402846	Furosemide 20mg/5ml oral solution sugar free
+^ESCT1403156	Furosemide 20mg/2ml solution for injection ampoules (AS Kalceks)
+^ESCT1403157	Furosemide 20mg/2ml solution for injection ampoules (AS Kalceks) 10 ampoule
+^ESCT1403177	Furosemide 40mg/4ml solution for injection ampoules 10 ampoule
+^ESCT1403178	Furosemide 40mg/4ml solution for injection ampoules (AS Kalceks)
+^ESCT1403179	Furosemide 40mg/4ml solution for injection ampoules (AS Kalceks) 10 ampoule
+^ESCT1403189	Furosemide 40mg/4ml solution for injection ampoules
+^ESCT1409699	Furosemide 20mg tablets (Accord Healthcare Ltd)
+^ESCT1409802	Furosemide 20mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1410361	Diumide-K Continus tablets (Teofarma S.r.l.)
+^ESCT1410362	Diumide-K Continus tablets (Teofarma S.r.l.) 30 tablet 5 x 6 tablets
+^ESCT1425635	Furosemide 500mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425709	Furosemide 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425727	Furosemide 40mg/5ml oral solution sugar free (Kent Pharma (UK) Ltd)
+^ESCT1425827	Furosemide 40mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425959	Furosemide 20mg tablets (Kent Pharma (UK) Ltd) 250 tablet
+^ESCT1425960	Furosemide 20mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1425963	Furosemide 40mg tablets (Kent Pharma (UK) Ltd) 1000 tablet
+^ESCT1425964	Furosemide 40mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1425987	Furosemide 500mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1425999	Furosemide 40mg/5ml oral solution sugar free (Kent Pharma (UK) Ltd) 150 ml
+^ESCT1426232	Furosemide 500mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426680	Furosemide 20mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1429967	Furosemide 40mg tablets (Ipca Laboratories UK Ltd)
+^ESCT1429968	Furosemide 40mg tablets (Ipca Laboratories UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1433922	Furosemide 5mg/5ml oral solution (Drug Tariff Special Order)
+^ESCT1433923	Furosemide 5mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCT1433924	Furosemide 5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1433925	Furosemide 5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1433945	Furosemide 5mg/5ml oral solution (Drug Tariff Special Order) 150 ml
+^ESCT1433946	Furosemide 5mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCT1434518	Furosemide 20mg tablets (Relonchem Ltd)
+^ESCT1434519	Furosemide 20mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1434520	Furosemide 40mg tablets (Relonchem Ltd)
+^ESCT1434521	Furosemide 40mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1436806	Furosemide 40mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436837	Furosemide 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437137	Furosemide 20mg tablets (Viatris UK Healthcare Ltd) 250 tablet
+^ESCT1437138	Furosemide 20mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1437139	Furosemide 40mg tablets (Viatris UK Healthcare Ltd) 1000 tablet
+^ESCT1437140	Furosemide 40mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCTAM1010009	Amiloride + Furosemide
+^ESCTAM606813	Amiloride 2.5 mg and furosemide 20 mg oral tablet
+^ESCTAM606816	Amiloride 5 mg and furosemide 40 mg oral tablet
+^ESCTAM606819	Amiloride 10 mg and furosemide 80 mg oral tablet
+^ESCTAM780358	Amiloride + furosemide
+^ESCTAM943264	Amiloride 10mg/5ml / Furosemide 125mg/5ml oral suspension 1 ml
+^ESCTAM943265	Amiloride 10mg/5ml / Furosemide 125mg/5ml oral suspension (Special Order)
+^ESCTAM943266	Amiloride 10mg/5ml / Furosemide 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM943267	Amiloride 10mg/5ml / Furosemide 125mg/5ml oral solution 1 ml
+^ESCTAM943268	Amiloride 10mg/5ml / Furosemide 125mg/5ml oral solution (Special Order)
+^ESCTAM943269	Amiloride 10mg/5ml / Furosemide 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM943355	Amiloride 10mg/5ml / Furosemide 125mg/5ml oral solution
+^ESCTAM943356	Amiloride 10mg/5ml / Furosemide 125mg/5ml oral suspension
+^ESCTCO606811	Co-amilofruse 2.5mg/20mg tablets
+^ESCTCO606814	Co-amilofruse 5mg/40mg tablets
+^ESCTCO606817	Co-amilofruse 10mg/80mg tablets
+^ESCTDI1100284	Diuresal 500mg tablets (Ennogen Pharma Ltd)
+^ESCTDI1100285	Diuresal 500mg tablets (Ennogen Pharma Ltd) 28 tablet
+^ESCTDI870756	Diumide-K Continus tablets (Teofarma)
+^ESCTDI870757	Diumide-K Continus tablets (Teofarma) 30 tablet 5 x 6 tablets
+^ESCTDI947550	Diuresal
+^ESCTFR606686	Frusemide 20 mg oral tablet
+^ESCTFR606689	Frusemide 40 mg oral tablet
+^ESCTFR606692	Frusemide 500 mg oral tablet
+^ESCTFR606694	Frusemide 80mg/8mL prefilled syringe
+^ESCTFR606695	Frusemide 10mg/mL injection solution 8mL prefilled syringe
+^ESCTFR606699	Frusemide 20mg/5mL s/f oral solution
+^ESCTFR606701	Frusemide 40mg/5mL s/f oral solution
+^ESCTFR606703	Frusemide 50mg/5mL s/f oral solution
+^ESCTFR606705	Frusemide 50mg/5mL injection
+^ESCTFR606706	Frusemide 10mg/mL injection solution 5mL ampoule
+^ESCTFR606707	Frusemide 10mg/mL injection solution 5mL ampule
+^ESCTFR606710	Frusemide 1mg/mL oral solution
+^ESCTFR606712	Frusemide 20mg/2mL injection
+^ESCTFR606713	Frusemide 10mg/mL injection solution 2mL ampoule
+^ESCTFR606714	Frusemide 10mg/mL injection solution 2mL ampule
+^ESCTFR606718	Frusemide 10mg/mL injection
+^ESCTFR606720	Frusemide 250mg/25mL injection
+^ESCTFR606721	Frusemide 10mg/mL injection solution 25mL vial
+^ESCTFR606826	Frusemide+potassium 40mg/8Mmol m/r tablet
+^ESCTFR606828	Frusemide+potassium 20mg/10Mmol m/r tablet
+^ESCTFR677720	Frusemide 10mg/mL injection solution 4mL prefilled syringe
+^ESCTFR677722	Frusemide 10mg/mL injection solution 10mL prefilled syringe
+^ESCTFR692470	Frusemide + potassium chloride
+^ESCTFR801295	Frusene 50mg/40mg tablets (Orion Pharma (UK) Ltd)
+^ESCTFR803126	Frusid 40mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTFR810648	Froop Co 5mg/40mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTFR818800	Frusol 40mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTFR820372	Frusol 20mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTFR821602	Froop 40mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTFR829438	Frusol 50mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTFR849171	Froop 40mg tablets (Ashbourne Pharmaceuticals Ltd) 28 tablet
+^ESCTFR849495	Frusol 40mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTFR851623	Frusid 40mg tablets (Dr Reddy's Laboratories (UK) Ltd) 1000 tablet
+^ESCTFR851784	Frusene 50mg/40mg tablets (Orion Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCTFR851785	Frusene 50mg/40mg tablets (Orion Pharma (UK) Ltd) 100 tablet
+^ESCTFR853310	Froop Co 5mg/40mg tablets (Ashbourne Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTFR855729	Frusol 20mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTFR855747	Frusol 50mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTFR918625	Froop Co
+^ESCTFR918814	Frusene
+^ESCTFR919224	Frusid
+^ESCTFR919226	Frusol
+^ESCTFR919694	Froop
+^ESCTFU1005827	Furosemide 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTFU1005828	Furosemide 20mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTFU1005829	Furosemide 40mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTFU1005830	Furosemide 40mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTFU1005831	Furosemide 500mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTFU1005832	Furosemide 500mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTFU1007623	Furosemide 40mg tablets (Phoenix Healthcare Distribution Ltd) 1000 tablet
+^ESCTFU1010885	Furosemide 40mg tablets (Accord Healthcare Ltd)
+^ESCTFU1010886	Furosemide 40mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTFU1013115	Furosemide 20mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTFU1013117	Furosemide 20mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTFU1013121	Furosemide 40mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTFU1013138	Furosemide 40mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTFU1013212	Furosemide 50mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTFU1013219	Furosemide 50mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTFU1018897	Furosemide 40mg tablets (AMCo)
+^ESCTFU1018898	Furosemide 40mg tablets (AMCo) 1000 tablet
+^ESCTFU1018899	Furosemide 500mg tablets (AMCo)
+^ESCTFU1018900	Furosemide 500mg tablets (AMCo) 28 tablet 2 x 14 tablets
+^ESCTFU1026400	Furosemide 20mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTFU1026401	Furosemide 20mg/2ml solution for injection ampoules (Wockhardt UK Ltd) 10 ampoule
+^ESCTFU1028578	Furosemide 250mg/25ml solution for injection vials 10 vial
+^ESCTFU1028579	Furosemide 250mg/25ml solution for injection vials (Wockhardt UK Ltd)
+^ESCTFU1028580	Furosemide 250mg/25ml solution for injection vials (Wockhardt UK Ltd) 10 vial
+^ESCTFU1028823	Furosemide 250mg/25ml solution for injection vials
+^ESCTFU1043653	Furosemide 20mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTFU1043654	Furosemide 20mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTFU1043655	Furosemide 40mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTFU1043656	Furosemide 40mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTFU1043657	Furosemide 20mg tablets (Waymade Healthcare Plc)
+^ESCTFU1043658	Furosemide 20mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTFU1043659	Furosemide 40mg tablets (Waymade Healthcare Plc)
+^ESCTFU1043660	Furosemide 40mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTFU1043661	Furosemide 40mg tablets (Waymade Healthcare Plc) 1000 tablet
+^ESCTFU1045795	Furosemide 5mg/5ml oral solution 150 ml
+^ESCTFU1045796	Furosemide 5mg/5ml oral solution (Special Order) 150 ml
+^ESCTFU1045797	Furosemide 5mg/5ml oral suspension 100 ml
+^ESCTFU1045798	Furosemide 5mg/5ml oral suspension (Special Order) 100 ml
+^ESCTFU1050627	Furosemide 500mg tablets (Ennogen Healthcare Ltd)
+^ESCTFU1050628	Furosemide 500mg tablets (Ennogen Healthcare Ltd) 28 tablet
+^ESCTFU1061327	Furosemide 20mg tablets (DE Pharmaceuticals)
+^ESCTFU1061328	Furosemide 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTFU1061329	Furosemide 20mg tablets (DE Pharmaceuticals) 250 tablet
+^ESCTFU1061330	Furosemide 40mg tablets (DE Pharmaceuticals)
+^ESCTFU1061331	Furosemide 40mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTFU1061332	Furosemide 40mg tablets (DE Pharmaceuticals) 1000 tablet
+^ESCTFU1061337	Furosemide 500mg tablets (DE Pharmaceuticals)
+^ESCTFU1061338	Furosemide 500mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTFU1062002	Furosemide 20mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTFU1062003	Furosemide 20mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTFU1062004	Furosemide 40mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTFU1062005	Furosemide 40mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTFU1062006	Furosemide 50mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTFU1062007	Furosemide 50mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTFU1066194	Furosemide 50micrograms/dose nasal spray
+^ESCTFU1066196	Furosemide 50micrograms/dose nasal spray 1 ml
+^ESCTFU1066197	Furosemide 50micrograms/dose nasal spray 10 ml
+^ESCTFU1066199	Furosemide 50micrograms/dose nasal spray (Special Order)
+^ESCTFU1066200	Furosemide 50micrograms/dose nasal spray (Special Order) 1 ml
+^ESCTFU1066201	Furosemide 50micrograms/dose nasal spray (Special Order) 10 ml
+^ESCTFU1068279	Furosemide 500mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTFU1068280	Furosemide 500mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTFU1068308	Furosemide 500mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTFU1068309	Furosemide 500mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTFU1101525	Furosemide 500mg tablets (Pharma-z Ltd)
+^ESCTFU1101527	Furosemide 500mg tablets (Pharma-z Ltd) 28 tablet
+^ESCTFU1109686	Furosemide 20mg tablets (Crescent Pharma Ltd)
+^ESCTFU1109687	Furosemide 20mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU1109688	Furosemide 40mg tablets (Crescent Pharma Ltd)
+^ESCTFU1109689	Furosemide 40mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU1116648	Furosemide 5mg/5ml oral solution sugar free (Special Order)
+^ESCTFU1116649	Furosemide 5mg/5ml oral solution sugar free 1 ml
+^ESCTFU1116650	Furosemide 5mg/5ml oral solution sugar free (Special Order) 1 ml
+^ESCTFU1117775	Furosemide 40mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTFU1117776	Furosemide 40mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTFU1120116	Furosemide 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTFU1120117	Furosemide 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTFU1120118	Furosemide 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTFU1120119	Furosemide 40mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTFU1126381	Furosemide 20mg/2ml solution for injection ampoules (Accord Healthcare Ltd)
+^ESCTFU1126382	Furosemide 20mg/2ml solution for injection ampoules (Accord Healthcare Ltd) 10 ampoule
+^ESCTFU1126532	Furosemide 20mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTFU1126533	Furosemide 20mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTFU1126537	Furosemide 40mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTFU1126538	Furosemide 40mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTFU1126542	Furosemide 50mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTFU1126543	Furosemide 50mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTFU1158463	Furosemide 250mg/25ml solution for injection ampoules
+^ESCTFU1161635	Furosemide 20mg/2ml solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+^ESCTFU1161636	Furosemide 20mg/2ml solution for injection ampoules (Peckforton Pharmaceuticals Ltd) 10 ampoule
+^ESCTFU1161637	Furosemide 50mg/5ml solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+^ESCTFU1161638	Furosemide 50mg/5ml solution for injection ampoules (Peckforton Pharmaceuticals Ltd) 10 ampoule
+^ESCTFU382707	Furosemide
+^ESCTFU606684	Furosemide 20mg tablets
+^ESCTFU606687	Furosemide 40mg tablets
+^ESCTFU606690	Furosemide 500mg tablets
+^ESCTFU606693	Furosemide 80mg/8ml solution for injection pre-filled syringes
+^ESCTFU606696	Furosemide 10mg/mL injection solution 8mL prefilled syringe
+^ESCTFU606697	Furosemide 80mg/8mL prefilled syringe
+^ESCTFU606698	Furosemide 20mg/5ml oral solution sugar free
+^ESCTFU606700	Furosemide 40mg/5ml oral solution sugar free
+^ESCTFU606702	Furosemide 50mg/5ml oral solution sugar free
+^ESCTFU606704	Furosemide 50mg/5ml solution for injection ampoules
+^ESCTFU606708	Furosemide 50mg/5mL injection
+^ESCTFU606709	Furosemide 5mg/5ml oral solution sugar free
+^ESCTFU606711	Furosemide 20mg/2ml solution for injection ampoules
+^ESCTFU606715	Furosemide 10mg/mL injection solution 2mL ampule
+^ESCTFU606716	Furosemide 10mg/mL injection
+^ESCTFU606717	Furosemide 20mg/2mL injection
+^ESCTFU606719	Furosemide 250mg/25ml solution for injection ampoules
+^ESCTFU606722	Furosemide 10mg/mL injection solution 25mL vial
+^ESCTFU606723	Furosemide 250mg/25mL injection
+^ESCTFU606827	Furosemide 20mg / Potassium chloride 750mg (potassium 10mmol) modified-release tablets
+^ESCTFU619527	Furosemide in oral dosage form
+^ESCTFU619529	Furosemide in parenteral dosage form
+^ESCTFU655589	Furosemide 80 mg oral tablet
+^ESCTFU660930	Furosemide+potassium
+^ESCTFU661416	Furosemide + triamterene
+^ESCTFU677721	Furosemide 10mg/mL injection solution 4mL prefilled syringe
+^ESCTFU677723	Furosemide 10mg/mL injection solution 10mL prefilled syringe
+^ESCTFU692468	Furosemide + Potassium chloride
+^ESCTFU692469	Furosemide + potassium chloride
+^ESCTFU800361	Furosemide 20mg tablets (Teva UK Ltd)
+^ESCTFU801604	Furosemide 50mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFU803157	Furosemide 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFU803749	Furosemide 500mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFU803768	Furosemide 20mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFU803807	Furosemide 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFU804364	Furosemide 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFU804403	Furosemide 50mg/5ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTFU804669	Furosemide 40mg tablets (Mylan Ltd)
+^ESCTFU806270	Furosemide 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFU807177	Furosemide 20mg tablets (Mylan Ltd)
+^ESCTFU808133	Furosemide 50mg/5ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFU809744	Furosemide 500mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFU811291	Furosemide 40mg tablets (Actavis UK Ltd)
+^ESCTFU811420	Furosemide 500mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFU816523	Furosemide 40mg tablets (Wockhardt UK Ltd)
+^ESCTFU818083	Furosemide 40mg tablets (Teva UK Ltd)
+^ESCTFU818997	Furosemide 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFU819013	Furosemide 250mg/25ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTFU819865	Furosemide 40mg/5ml oral solution sugar free (Kent Pharmaceuticals Ltd)
+^ESCTFU819869	Furosemide 20mg tablets (Wockhardt UK Ltd)
+^ESCTFU820397	Furosemide 250mg/25ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFU820587	Furosemide 20mg tablets (Actavis UK Ltd)
+^ESCTFU820596	Furosemide 20mg/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTFU820848	Furosemide 20mg tablets (Sandoz Ltd)
+^ESCTFU822676	Furosemide 20mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTFU823157	Furosemide 500mg tablets (Teva UK Ltd)
+^ESCTFU823827	Furosemide 40mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFU826975	Furosemide 500mg tablets (Actavis UK Ltd)
+^ESCTFU829444	Furosemide 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTFU829970	Furosemide 40mg tablets (Sandoz Ltd)
+^ESCTFU834360	Furosemide 80mg/8ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTFU834425	Furosemide 5mg/5ml oral solution sugar free 150 ml
+^ESCTFU834613	Furosemide 40mg tablets 1000 tablet
+^ESCTFU835215	Furosemide 20mg/2ml solution for injection ampoules 10 ampoule
+^ESCTFU836807	Furosemide 50mg/5ml oral solution sugar free 150 ml
+^ESCTFU837147	Furosemide 500mg tablets 28 tablet
+^ESCTFU844951	Furosemide 20mg/2ml solution for injection ampoules 5 ampoule
+^ESCTFU846792	Furosemide 50mg/5ml solution for injection ampoules 10 ampoule
+^ESCTFU847083	Furosemide 20mg tablets 28 tablet
+^ESCTFU847089	Furosemide 40mg tablets 28 tablet
+^ESCTFU847441	Furosemide 250mg/25ml solution for injection ampoules 10 ampoule
+^ESCTFU847608	Furosemide 20mg tablets 250 tablet
+^ESCTFU847701	Furosemide 20mg/5ml oral solution sugar free 150 ml
+^ESCTFU847836	Furosemide 40mg/5ml oral solution sugar free 150 ml
+^ESCTFU848144	Furosemide 40mg tablets 250 tablet
+^ESCTFU848711	Furosemide 500mg tablets 100 tablet
+^ESCTFU849136	Furosemide 20mg tablets (A A H Pharmaceuticals Ltd) 250 tablet
+^ESCTFU849137	Furosemide 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTFU849140	Furosemide 20mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU849143	Furosemide 20mg tablets (Teva UK Ltd) 28 tablet
+^ESCTFU849150	Furosemide 20mg tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTFU849152	Furosemide 20mg tablets (Mylan Ltd) 250 tablet
+^ESCTFU849153	Furosemide 20mg tablets (Mylan Ltd) 28 tablet
+^ESCTFU849154	Furosemide 20mg tablets (Kent Pharmaceuticals Ltd) 250 tablet
+^ESCTFU849156	Furosemide 20mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTFU849157	Furosemide 20mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU849165	Furosemide 40mg tablets (A A H Pharmaceuticals Ltd) 1000 tablet
+^ESCTFU849166	Furosemide 40mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTFU849168	Furosemide 40mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU849170	Furosemide 40mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU849176	Furosemide 40mg tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTFU849177	Furosemide 40mg tablets (Mylan Ltd) 1000 tablet
+^ESCTFU849178	Furosemide 40mg tablets (Mylan Ltd) 28 tablet
+^ESCTFU849181	Furosemide 40mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU849183	Furosemide 40mg tablets (Kent Pharmaceuticals Ltd) 1000 tablet
+^ESCTFU849184	Furosemide 40mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU849186	Furosemide 40mg tablets (Alliance Healthcare (Distribution) Ltd) 1000 tablet
+^ESCTFU849187	Furosemide 40mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU849380	Furosemide 500mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU849382	Furosemide 500mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU849384	Furosemide 500mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU849387	Furosemide 500mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTFU849389	Furosemide 500mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU849492	Furosemide 40mg/5ml oral solution sugar free (Kent Pharmaceuticals Ltd) 150 ml
+^ESCTFU851442	Furosemide 20mg tablets (Sandoz Ltd) 250 tablet
+^ESCTFU851443	Furosemide 40mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU851444	Furosemide 40mg tablets (Sandoz Ltd) 1000 tablet
+^ESCTFU851765	Furosemide 500mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTFU856856	Furosemide 50mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTFU856858	Furosemide 50mg/5ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTFU856859	Furosemide 50mg/5ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTFU856864	Furosemide 20mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTFU856868	Furosemide 20mg/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTFU856869	Furosemide 20mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTFU856893	Furosemide 250mg/25ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTFU856950	Furosemide 250mg/25ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTFU857868	Furosemide 80mg/8ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd)
+^ESCTFU857869	Furosemide 80mg/8ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd) 1 pre-filled disposable injection
+^ESCTFU863593	Furosemide 20mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCTFU863598	Furosemide 20mg / Potassium chloride 750mg (potassium 10mmol) modified-release tablets 100 tablet
+^ESCTFU869019	Furosemide 20mg tablets 500 tablet
+^ESCTFU869020	Furosemide 20mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTFU870755	Furosemide 40mg / Potassium chloride 600mg (potassium 8mmol) modified-release tablets 30 tablet
+^ESCTFU870917	Furosemide 40mg / Potassium chloride 600mg (potassium 8mmol) modified-release tablets
+^ESCTFU875393	Furosemide 20mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTFU875395	Furosemide 20mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule 2 x 5 x 2ml ampoules
+^ESCTFU875399	Furosemide 50mg/5ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTFU875401	Furosemide 50mg/5ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule 2 x 5 x 5ml ampoules
+^ESCTFU875402	Furosemide 250mg/25ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTFU875403	Furosemide 250mg/25ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule 2 x 5 x 25ml ampoules
+^ESCTFU896883	Furosemide 80mg/8ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+^ESCTFU896884	Furosemide 80mg/8ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd) 1 pre-filled disposable injection
+^ESCTFU906779	Furosemide 4mg/5ml oral solution 1 ml
+^ESCTFU906780	Furosemide 4mg/5ml oral solution (Special Order)
+^ESCTFU906782	Furosemide 4mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU906788	Furosemide 4mg/5ml oral suspension 1 ml
+^ESCTFU906790	Furosemide 4mg/5ml oral suspension (Special Order)
+^ESCTFU906792	Furosemide 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU907053	Furosemide 4mg/5ml oral solution
+^ESCTFU907055	Furosemide 4mg/5ml oral suspension
+^ESCTFU909278	Furosemide 20mg tablets (Ranbaxy (UK) Ltd)
+^ESCTFU909279	Furosemide 20mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU909285	Furosemide 40mg tablets (Ranbaxy (UK) Ltd)
+^ESCTFU909286	Furosemide 40mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU923649	Furosemide 20mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTFU923650	Furosemide 20mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU923654	Furosemide 40mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTFU923655	Furosemide 40mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU927146	Furosemide 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTFU927148	Furosemide 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTFU927151	Furosemide 40mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTFU927152	Furosemide 40mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTFU927156	Furosemide 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTFU927157	Furosemide 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTFU927644	Furosemide 20mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTFU927645	Furosemide 20mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTFU927646	Furosemide 40mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTFU927647	Furosemide 40mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTFU927648	Furosemide 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTFU927649	Furosemide 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTFU927949	Furosemide 20mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTFU927950	Furosemide 20mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd) 150 ml
+^ESCTFU927951	Furosemide 40mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTFU927952	Furosemide 40mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd) 150 ml
+^ESCTFU927982	Furosemide 50mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTFU927983	Furosemide 50mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd) 150 ml
+^ESCTFU929198	Furosemide 20mg tablets (Arrow Generics Ltd)
+^ESCTFU929199	Furosemide 20mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTFU929200	Furosemide 40mg tablets (Arrow Generics Ltd)
+^ESCTFU929201	Furosemide 40mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTFU931643	Furosemide 20mg/2ml solution for injection ampoules (AMCo)
+^ESCTFU931644	Furosemide 20mg/2ml solution for injection ampoules (AMCo) 10 ampoule
+^ESCTFU931646	Furosemide 250mg/25ml solution for injection ampoules (AMCo)
+^ESCTFU931648	Furosemide 250mg/25ml solution for injection ampoules (AMCo) 10 ampoule
+^ESCTFU931649	Furosemide 50mg/5ml solution for injection ampoules (AMCo)
+^ESCTFU931650	Furosemide 50mg/5ml solution for injection ampoules (AMCo) 10 ampoule
+^ESCTFU932190	Furosemide 40mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCTFU932191	Furosemide 40mg/5ml oral solution sugar free (Teva UK Ltd) 150 ml
+^ESCTFU932193	Furosemide 50mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCTFU932194	Furosemide 50mg/5ml oral solution sugar free (Teva UK Ltd) 150 ml
+^ESCTFU933333	Furosemide 20mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCTFU933334	Furosemide 20mg/5ml oral solution sugar free (Teva UK Ltd) 150 ml
+^ESCTFU935450	Furosemide 250mg/25ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTFU935451	Furosemide 250mg/25ml solution for injection ampoules (Wockhardt UK Ltd) 10 ampoule
+^ESCTFU945313	Furosemide 100mg/5ml oral suspension 1 ml
+^ESCTFU945314	Furosemide 100mg/5ml oral suspension (Special Order)
+^ESCTFU945315	Furosemide 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945316	Furosemide 100mg/5ml oral solution 1 ml
+^ESCTFU945317	Furosemide 100mg/5ml oral solution (Special Order)
+^ESCTFU945318	Furosemide 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945319	Furosemide 10mg/5ml oral suspension 1 ml
+^ESCTFU945320	Furosemide 10mg/5ml oral suspension (Special Order)
+^ESCTFU945321	Furosemide 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945322	Furosemide 10mg/5ml oral solution 1 ml
+^ESCTFU945323	Furosemide 10mg/5ml oral solution (Special Order)
+^ESCTFU945324	Furosemide 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945325	Furosemide 12.5mg/5ml oral suspension 1 ml
+^ESCTFU945326	Furosemide 12.5mg/5ml oral suspension (Special Order)
+^ESCTFU945327	Furosemide 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945328	Furosemide 12.5mg/5ml oral solution 1 ml
+^ESCTFU945329	Furosemide 12.5mg/5ml oral solution (Special Order)
+^ESCTFU945330	Furosemide 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945331	Furosemide 120mg/5ml oral suspension 1 ml
+^ESCTFU945332	Furosemide 120mg/5ml oral suspension (Special Order)
+^ESCTFU945333	Furosemide 120mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945334	Furosemide 120mg/5ml oral solution 1 ml
+^ESCTFU945335	Furosemide 120mg/5ml oral solution (Special Order)
+^ESCTFU945336	Furosemide 120mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945337	Furosemide 15mg/5ml oral suspension 1 ml
+^ESCTFU945338	Furosemide 15mg/5ml oral suspension (Special Order)
+^ESCTFU945339	Furosemide 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945340	Furosemide 15mg/5ml oral solution 1 ml
+^ESCTFU945341	Furosemide 15mg/5ml oral solution (Special Order)
+^ESCTFU945342	Furosemide 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945343	Furosemide 1mg/5ml oral suspension 1 ml
+^ESCTFU945344	Furosemide 1mg/5ml oral suspension (Special Order)
+^ESCTFU945345	Furosemide 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945349	Furosemide 1mg/5ml oral solution 1 ml
+^ESCTFU945350	Furosemide 1mg/5ml oral solution (Special Order)
+^ESCTFU945351	Furosemide 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945352	Furosemide 200mg/5ml oral suspension 1 ml
+^ESCTFU945354	Furosemide 200mg/5ml oral suspension (Special Order)
+^ESCTFU945355	Furosemide 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945358	Furosemide 200mg/5ml oral solution 1 ml
+^ESCTFU945359	Furosemide 200mg/5ml oral solution (Special Order)
+^ESCTFU945360	Furosemide 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945372	Furosemide 20mg/5ml oral suspension 1 ml
+^ESCTFU945378	Furosemide 20mg/5ml oral suspension (Special Order)
+^ESCTFU945380	Furosemide 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945396	Furosemide 20mg/5ml oral solution 1 ml
+^ESCTFU945400	Furosemide 20mg/5ml oral solution (Special Order)
+^ESCTFU945404	Furosemide 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945417	Furosemide 250mg/5ml oral suspension 1 ml
+^ESCTFU945420	Furosemide 250mg/5ml oral suspension (Special Order)
+^ESCTFU945421	Furosemide 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945424	Furosemide 250mg/5ml oral solution 1 ml
+^ESCTFU945428	Furosemide 250mg/5ml oral solution (Special Order)
+^ESCTFU945431	Furosemide 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945469	Furosemide 25mg/5ml oral suspension 1 ml
+^ESCTFU945476	Furosemide 25mg/5ml oral suspension (Special Order)
+^ESCTFU945479	Furosemide 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945489	Furosemide 25mg/5ml oral solution 1 ml
+^ESCTFU945494	Furosemide 25mg/5ml oral solution (Special Order)
+^ESCTFU945499	Furosemide 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945509	Furosemide 2mg/5ml oral suspension 1 ml
+^ESCTFU945511	Furosemide 2mg/5ml oral suspension (Special Order)
+^ESCTFU945516	Furosemide 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945527	Furosemide 2mg/5ml oral solution 1 ml
+^ESCTFU945532	Furosemide 2mg/5ml oral solution (Special Order)
+^ESCTFU945535	Furosemide 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945547	Furosemide 3.4mg/5ml oral suspension 1 ml
+^ESCTFU945553	Furosemide 3.4mg/5ml oral suspension (Special Order)
+^ESCTFU945555	Furosemide 3.4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945562	Furosemide 3.4mg/5ml oral solution 1 ml
+^ESCTFU945566	Furosemide 3.4mg/5ml oral solution (Special Order)
+^ESCTFU945569	Furosemide 3.4mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945589	Furosemide 100mg/5ml oral solution
+^ESCTFU945590	Furosemide 100mg/5ml oral suspension
+^ESCTFU945591	Furosemide 10mg/5ml oral solution
+^ESCTFU945592	Furosemide 10mg/5ml oral suspension
+^ESCTFU945593	Furosemide 12.5mg/5ml oral solution
+^ESCTFU945594	Furosemide 12.5mg/5ml oral suspension
+^ESCTFU945595	Furosemide 120mg/5ml oral solution
+^ESCTFU945596	Furosemide 120mg/5ml oral suspension
+^ESCTFU945597	Furosemide 15mg/5ml oral solution
+^ESCTFU945598	Furosemide 15mg/5ml oral suspension
+^ESCTFU945599	Furosemide 1mg/5ml oral solution
+^ESCTFU945600	Furosemide 1mg/5ml oral suspension
+^ESCTFU945601	Furosemide 200mg/5ml oral solution
+^ESCTFU945602	Furosemide 200mg/5ml oral suspension
+^ESCTFU945603	Furosemide 20mg/5ml oral solution
+^ESCTFU945604	Furosemide 20mg/5ml oral suspension
+^ESCTFU945605	Furosemide 250mg/5ml oral solution
+^ESCTFU945606	Furosemide 250mg/5ml oral suspension
+^ESCTFU945607	Furosemide 25mg/5ml oral solution
+^ESCTFU945608	Furosemide 25mg/5ml oral suspension
+^ESCTFU945609	Furosemide 2mg/5ml oral solution
+^ESCTFU945610	Furosemide 2mg/5ml oral suspension
+^ESCTFU945611	Furosemide 3.4mg/5ml oral solution
+^ESCTFU945612	Furosemide 3.4mg/5ml oral suspension
+^ESCTFU945624	Furosemide 30mg/5ml oral suspension 1 ml
+^ESCTFU945626	Furosemide 30mg/5ml oral suspension (Special Order)
+^ESCTFU945628	Furosemide 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945631	Furosemide 30mg/5ml oral solution 1 ml
+^ESCTFU945633	Furosemide 30mg/5ml oral solution (Special Order)
+^ESCTFU945635	Furosemide 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945639	Furosemide 330mg/5ml oral suspension 1 ml
+^ESCTFU945641	Furosemide 330mg/5ml oral suspension (Special Order)
+^ESCTFU945644	Furosemide 330mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945646	Furosemide 330mg/5ml oral solution 1 ml
+^ESCTFU945649	Furosemide 330mg/5ml oral solution (Special Order)
+^ESCTFU945653	Furosemide 330mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945657	Furosemide 35mg/5ml oral suspension 1 ml
+^ESCTFU945658	Furosemide 35mg/5ml oral suspension (Special Order)
+^ESCTFU945659	Furosemide 35mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945663	Furosemide 35mg/5ml oral solution 1 ml
+^ESCTFU945664	Furosemide 35mg/5ml oral solution (Special Order)
+^ESCTFU945665	Furosemide 35mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945669	Furosemide 37.5mg/5ml oral suspension 1 ml
+^ESCTFU945670	Furosemide 37.5mg/5ml oral suspension (Special Order)
+^ESCTFU945672	Furosemide 37.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945676	Furosemide 37.5mg/5ml oral solution 1 ml
+^ESCTFU945677	Furosemide 37.5mg/5ml oral solution (Special Order)
+^ESCTFU945678	Furosemide 37.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945682	Furosemide 3mg/5ml oral suspension 1 ml
+^ESCTFU945683	Furosemide 3mg/5ml oral suspension (Special Order)
+^ESCTFU945685	Furosemide 3mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945687	Furosemide 3mg/5ml oral solution 1 ml
+^ESCTFU945689	Furosemide 3mg/5ml oral solution (Special Order)
+^ESCTFU945690	Furosemide 3mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945698	Furosemide 4.5mg/5ml oral suspension 1 ml
+^ESCTFU945699	Furosemide 4.5mg/5ml oral suspension (Special Order)
+^ESCTFU945701	Furosemide 4.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945703	Furosemide 4.5mg/5ml oral solution 1 ml
+^ESCTFU945705	Furosemide 4.5mg/5ml oral solution (Special Order)
+^ESCTFU945707	Furosemide 4.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945709	Furosemide 40mg/5ml oral suspension 1 ml
+^ESCTFU945710	Furosemide 40mg/5ml oral suspension (Special Order)
+^ESCTFU945711	Furosemide 40mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945712	Furosemide 40mg/5ml oral solution 1 ml
+^ESCTFU945713	Furosemide 40mg/5ml oral solution (Special Order)
+^ESCTFU945714	Furosemide 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945722	Furosemide 500mg/5ml oral suspension 1 ml
+^ESCTFU945725	Furosemide 500mg/5ml oral suspension (Special Order)
+^ESCTFU945726	Furosemide 500mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945727	Furosemide 500mg/5ml oral solution 1 ml
+^ESCTFU945729	Furosemide 500mg/5ml oral solution (Special Order)
+^ESCTFU945730	Furosemide 500mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945736	Furosemide 50mg/5ml oral suspension 1 ml
+^ESCTFU945737	Furosemide 50mg/5ml oral suspension (Special Order)
+^ESCTFU945738	Furosemide 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945742	Furosemide 50mg/5ml oral solution 1 ml
+^ESCTFU945743	Furosemide 50mg/5ml oral solution (Special Order)
+^ESCTFU945744	Furosemide 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945748	Furosemide 6.5mg/5ml oral suspension 1 ml
+^ESCTFU945751	Furosemide 6.5mg/5ml oral suspension (Special Order)
+^ESCTFU945753	Furosemide 6.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945755	Furosemide 6.5mg/5ml oral solution 1 ml
+^ESCTFU945757	Furosemide 6.5mg/5ml oral solution (Special Order)
+^ESCTFU945759	Furosemide 6.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945769	Furosemide 60mg/5ml oral suspension 1 ml
+^ESCTFU945770	Furosemide 60mg/5ml oral suspension (Special Order)
+^ESCTFU945771	Furosemide 60mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945772	Furosemide 60mg/5ml oral solution 1 ml
+^ESCTFU945773	Furosemide 60mg/5ml oral solution (Special Order)
+^ESCTFU945774	Furosemide 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945858	Furosemide 80mg/5ml oral suspension 1 ml
+^ESCTFU945859	Furosemide 80mg/5ml oral suspension (Special Order)
+^ESCTFU945860	Furosemide 80mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU945861	Furosemide 80mg/5ml oral solution 1 ml
+^ESCTFU945862	Furosemide 80mg/5ml oral solution (Special Order)
+^ESCTFU945863	Furosemide 80mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945864	Furosemide 8mg/5ml oral solution 1 ml
+^ESCTFU945865	Furosemide 8mg/5ml oral solution (Special Order)
+^ESCTFU945866	Furosemide 8mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU945867	Furosemide 8mg/5ml oral suspension 1 ml
+^ESCTFU945868	Furosemide 8mg/5ml oral suspension (Special Order)
+^ESCTFU945869	Furosemide 8mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU946101	Furosemide 30mg/5ml oral solution
+^ESCTFU946103	Furosemide 30mg/5ml oral suspension
+^ESCTFU946105	Furosemide 330mg/5ml oral solution
+^ESCTFU946107	Furosemide 330mg/5ml oral suspension
+^ESCTFU946109	Furosemide 35mg/5ml oral solution
+^ESCTFU946111	Furosemide 35mg/5ml oral suspension
+^ESCTFU946113	Furosemide 37.5mg/5ml oral solution
+^ESCTFU946115	Furosemide 37.5mg/5ml oral suspension
+^ESCTFU946117	Furosemide 3mg/5ml oral solution
+^ESCTFU946119	Furosemide 3mg/5ml oral suspension
+^ESCTFU946121	Furosemide 4.5mg/5ml oral solution
+^ESCTFU946122	Furosemide 4.5mg/5ml oral suspension
+^ESCTFU946124	Furosemide 40mg/5ml oral solution
+^ESCTFU946126	Furosemide 40mg/5ml oral suspension
+^ESCTFU946128	Furosemide 500mg/5ml oral solution
+^ESCTFU946130	Furosemide 500mg/5ml oral suspension
+^ESCTFU946132	Furosemide 50mg/5ml oral solution
+^ESCTFU946133	Furosemide 50mg/5ml oral suspension
+^ESCTFU946135	Furosemide 6.5mg/5ml oral solution
+^ESCTFU946137	Furosemide 6.5mg/5ml oral suspension
+^ESCTFU946139	Furosemide 60mg/5ml oral solution
+^ESCTFU946140	Furosemide 60mg/5ml oral suspension
+^ESCTFU946142	Furosemide 80mg/5ml oral solution
+^ESCTFU946143	Furosemide 80mg/5ml oral suspension
+^ESCTFU946145	Furosemide 8mg/5ml oral solution
+^ESCTFU946147	Furosemide 8mg/5ml oral suspension
+^ESCTFU964252	Furosemide 20mg/5ml oral solution sugar free (Pinewood Healthcare)
+^ESCTFU964253	Furosemide 20mg/5ml oral solution sugar free (Pinewood Healthcare) 150 ml
+^ESCTFU964254	Furosemide 40mg/5ml oral solution sugar free (Pinewood Healthcare)
+^ESCTFU964255	Furosemide 40mg/5ml oral solution sugar free (Pinewood Healthcare) 150 ml
+^ESCTFU964256	Furosemide 50mg/5ml oral solution sugar free (Pinewood Healthcare)
+^ESCTFU964257	Furosemide 50mg/5ml oral solution sugar free (Pinewood Healthcare) 150 ml
+^ESCTFU966706	Furosemide 5mg/5ml oral solution 1 ml
+^ESCTFU966707	Furosemide 5mg/5ml oral solution (Special Order)
+^ESCTFU966709	Furosemide 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTFU966713	Furosemide 5mg/5ml oral suspension 1 ml
+^ESCTFU966715	Furosemide 5mg/5ml oral suspension (Special Order)
+^ESCTFU966717	Furosemide 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFU966825	Furosemide 5mg/5ml oral solution
+^ESCTFU966826	Furosemide 5mg/5ml oral suspension
+^ESCTFU967269	Furosemide 20mg/2ml solution for injection vials 10 vial
+^ESCTFU967270	Furosemide 20mg/2ml solution for injection vials (Wockhardt UK Ltd)
+^ESCTFU967271	Furosemide 20mg/2ml solution for injection vials (Wockhardt UK Ltd) 10 vial
+^ESCTFU967272	Furosemide 20mg/2ml solution for injection vials
+^ESCTFU975526	Furosemide 40mg tablets (Boston Healthcare Ltd)
+^ESCTFU975527	Furosemide 40mg tablets (Boston Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU975528	Furosemide 40mg tablets (Boston Healthcare Ltd) 1000 tablet
+^ESCTFU975529	Furosemide 20mg tablets (Boston Healthcare Ltd)
+^ESCTFU975530	Furosemide 20mg tablets (Boston Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU978369	Furosemide 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTFU978370	Furosemide 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTFU987863	Furosemide 20mg tablets (Bristol Laboratories Ltd)
+^ESCTFU987865	Furosemide 20mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU987866	Furosemide 20mg tablets (Bristol Laboratories Ltd) 250 tablet
+^ESCTFU987867	Furosemide 40mg tablets (Bristol Laboratories Ltd)
+^ESCTFU987868	Furosemide 40mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTFU987869	Furosemide 40mg tablets (Bristol Laboratories Ltd) 1000 tablet
+^ESCTLA799080	Lasix 20mg/2ml solution for injection ampoules (Sanofi)
+^ESCTLA802421	Lasix 40mg tablets (Sanofi)
+^ESCTLA821316	Lasix 5mg/5ml oral solution (Borg Medicare)
+^ESCTLA821319	Lasix 20mg tablets (Borg Medicare)
+^ESCTLA827625	Lasix 500mg tablets (Sanofi)
+^ESCTLA849147	Lasix 20mg tablets (Borg Medicare) 28 tablet 2 x 14 tablets
+^ESCTLA849172	Lasix 40mg tablets (Sanofi) 250 tablet
+^ESCTLA849174	Lasix 40mg tablets (Sanofi) 28 tablet 2 x 14 tablets
+^ESCTLA849386	Lasix 500mg tablets (Sanofi) 100 tablet
+^ESCTLA855757	Lasix 5mg/5ml oral solution (Borg Medicare) 150 ml
+^ESCTLA856867	Lasix 20mg/2ml solution for injection ampoules (Sanofi) 5 ampoule
+^ESCTLA863063	Lasilactone 20mg/50mg capsules (Sanofi)
+^ESCTLA863064	Lasilactone 20mg/50mg capsules (Sanofi) 28 capsule 2 x 14 capsules
+^ESCTLA863601	Lasikal modified-release tablets (Borg Medicare)
+^ESCTLA863603	Lasikal modified-release tablets (Borg Medicare) 100 tablet
+^ESCTLA918775	Lasilactone
+^ESCTLA918989	Lasikal
+^ESCTLA919404	Lasix
+^ESCTLA935497	Lasilactone 20mg/50mg capsules (Waymade Healthcare Plc)
+^ESCTLA935498	Lasilactone 20mg/50mg capsules (Waymade Healthcare Plc) 30 capsule
+^ESCTLA959848	Lasilactone 20mg/50mg capsules (Dowelhurst Ltd)
+^ESCTLA959849	Lasilactone 20mg/50mg capsules (Dowelhurst Ltd) 30 capsule
+^ESCTLA975297	Lasilactone 20mg/50mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTLA975298	Lasilactone 20mg/50mg capsules (Sigma Pharmaceuticals Plc) 30 capsule
+^ESCTLA975299	Lasilactone 20mg/50mg capsules (Sigma Pharmaceuticals Plc) 50 capsule
+^ESCTLA989249	Lasilactone 20mg/50mg capsules (Lexon (UK) Ltd)
+^ESCTLA989250	Lasilactone 20mg/50mg capsules (Lexon (UK) Ltd) 30 capsule
+^ESCTLA992903	Lasilactone 20mg/50mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTLA992904	Lasilactone 20mg/50mg capsules (Mawdsley-Brooks & Company Ltd) 30 capsule
+^ESCTPR382708	Product containing furosemide
+^ESCTPR606685	Product containing frusemide 20 mg/1 each oral tablet
+^ESCTPR606688	Product containing frusemide 40 mg/1 each oral tablet
+^ESCTPR606691	Product containing frusemide 500 mg/1 each oral tablet
+^ESCTPR606797	Product containing triamterene 50 mg and furosemide 40 mg/1 each oral tablet
+^ESCTPR606801	Product containing spironolactone 50 mg and furosemide 20 mg/1 each oral capsule
+^ESCTPR606812	Product containing amiloride 2.5 mg and furosemide 20 mg/1 each oral tablet
+^ESCTPR606815	Product containing amiloride 5 mg and furosemide 40 mg/1 each oral tablet
+^ESCTPR606818	Product containing amiloride 10 mg and furosemide 80 mg/1 each oral tablet
+^ESCTPR619528	Product containing furosemide in oral dosage form
+^ESCTPR619530	Product containing furosemide in parenteral dosage form
+^ESCTPR655590	Product containing furosemide 80 mg/1 each oral tablet
+^ESCTPR660927	Product containing furosemide and spironolactone
+^ESCTPR661417	Product containing furosemide and triamterene
+^ESCTSP606799	Spironolactone 50mg / Furosemide 20mg capsules
+^ESCTSP606800	Spironolactone 50 mg and furosemide 20 mg/1 each oral capsule
+^ESCTSP660925	Spironolactone + Furosemide
+^ESCTSP660926	Spironolactone+furosemide
+^ESCTSP863062	Spironolactone 50mg / Furosemide 20mg capsules 28 capsule
+^ESCTSP935496	Spironolactone 50mg / Furosemide 20mg capsules 30 capsule
+^ESCTSP975295	Spironolactone 50mg / Furosemide 20mg capsules 50 capsule
+^ESCTTR606796	Triamterene 50mg / Furosemide 40mg tablets
+^ESCTTR606798	Triamterene 50 mg and furosemide 40 mg oral tablet
+^ESCTTR661415	Triamterene + Furosemide
+^ESCTTR846960	Triamterene 50mg / Furosemide 40mg tablets 100 tablet
+^ESCTTR848024	Triamterene 50mg / Furosemide 40mg tablets 56 tablet
+ALTA90	Aluzine  Tablets  20 mg
+ALTA91	Aluzine  Tablets  40 mg
+ALTA92	Aluzine  Tablets  500 mg
+DITA954	Diumide K Continus  Tablets  
+DITA957	Diuresal  Tablets  40 mg
+DITA96295NEMIS	Diuresal  Tablets  500 mg
+DRIN1001	Dryptal  Injection  20 mg/2 ml
+DRIN19737EMIS	Dryptal  Injection  50 mg/5 ml
+DRTA1002	Dryptal  Tablets  40 mg
+DRTA9442HILLI	Dryptal  Tablets  500 mg
+FRIN20536EMIS	Frusemide  Injection  250 mg/25 ml ampoule
+FRIN20537EMIS	Frusemide  Injection  50 mg/5 ml ampoule
+FRIN35248MGEMIS	Frusemide  Injection  250 mg/25 ml ampoule (A.A.H. Pharm)
+FRIN35249MGEMIS	Frusemide  Injection  250 mg/25 ml ampoule (Phoenix)
+FRIN3687NEMIS	Frusemide  Injection  10 mg/ml, 8 ml syringe
+FRIN4952	Frusemide  Injection  20 mg/2 ml ampoule
+FRLI10331BRIDL	Frusemide Paediatric  Liquid  Sugar Free 1 mg/ml
+FRLI35250MGEMIS	Frusemide Paediatric  Liquid  Sugar Free 1 mg/ml (Rosemont Pharm)
+FROR24962EMIS	Frusemide  Oral solution  Sugar Free 10 mg/ml
+FROR24963EMIS	Frusemide  Oral solution  Sugar Free 4 mg/ml
+FROR24964EMIS	Frusemide  Oral solution  Sugar Free 8 mg/ml
+FRSO34644EMIS	Frusol  Solution  20 mg/5 ml
+FRSO34645EMIS	Frusol  Solution  40 mg/5 ml
+FRSO34646EMIS	Frusol  Solution  50 mg/5 ml
+FRTA1248	Frusemide  Tablets  20 mg
+FRTA1249	Frusemide  Tablets  40 mg
+FRTA1250	Frusemide  Tablets  500 mg
+FRTA1251	Frusene  Tablets  
+FRTA1252	Frusid  Tablets  40 mg
+FRTA32866EMIS	Froop Co  Tablets  
+FRTA9205BRIDL	Froop  Tablets  40 mg
+FUIN17670NEMIS	Furosemide  Injection  10 mg/ml, 5 ml ampoule
+FUIN17671NEMIS	Furosemide  Injection  10 mg/ml, 2 ml ampoule
+FUIN17678NEMIS	Furosemide  Injection  10 mg/ml, 8 ml pre-filled syringe
+FUIN23006NEMIS	Furosemide  Injection  10 mg/ml, 25 ml ampoule
+FUIN38116MGEMIS	Furosemide  Injection  10 mg/ml, 5 ml ampoule (A.A.H. Pharm)
+FUIN38117MGEMIS	Furosemide  Injection  10 mg/ml, 5 ml ampoule (Martindale)
+FUIN38118MGEMIS	Furosemide  Injection  10 mg/ml, 5 ml ampoule (Unichem)
+FUIN38119MGEMIS	Furosemide  Injection  10 mg/ml, 5 ml ampoule (Phoenix)
+FUIN38120MGEMIS	Furosemide  Injection  10 mg/ml, 2 ml ampoule (Unichem)
+FUIN38121MGEMIS	Furosemide  Injection  10 mg/ml, 2 ml ampoule (Martindale)
+FUIN38122MGEMIS	Furosemide  Injection  10 mg/ml, 2 ml ampoule (A.A.H. Pharm)
+FUIN38123MGEMIS	Furosemide  Injection  10 mg/ml, 2 ml ampoule (Phoenix)
+FUIN38149MGEMIS	Furosemide  Injection  10 mg/ml, 8 ml pre-filled syringe (A.A.H. Pharm)
+FUOR17672NEMIS	Furosemide  Oral Solution, Sugar Free  4 mg/ml (20 mg/5 ml)
+FUOR17673NEMIS	Furosemide  Oral Solution, Sugar Free  8 mg/ml (40 mg/5 ml)
+FUOR17674NEMIS	Furosemide  Oral Solution, Sugar Free  10 mg/ml (50 mg/5 ml)
+FUOR22606NEMIS	Furosemide  Oral solution  1 mg/ml
+FUOR38124MGEMIS	Furosemide  Oral Solution, Sugar Free  8 mg/ml (Kent Pharm)
+FUOR46743NEMIS	Furosemide  Oral suspension  5 mg/5 ml
+FUTA17675NEMIS	Furosemide  Tablets  20 mg
+FUTA17676NEMIS	Furosemide  Tablets  40 mg
+FUTA17677NEMIS	Furosemide  Tablets  500 mg
+FUTA18552NEMIS	Furosemide And M/r Potassium  Tablets  40 mg + 8 mmol
+FUTA18562NEMIS	Furosemide And M/r Potassium  Tablets  20 mg + 10 mmol
+FUTA38125MGEMIS	Furosemide  Tablets  20 mg (Teva UK)
+FUTA38126MGEMIS	Furosemide  Tablets  20 mg (Unichem)
+FUTA38127MGEMIS	Furosemide  Tablets  20 mg (A.A.H. Pharm)
+FUTA38128MGEMIS	Furosemide  Tablets  20 mg (Generics (UK))
+FUTA38129MGEMIS	Furosemide  Tablets  20 mg (Kent Pharm)
+FUTA38130MGEMIS	Furosemide  Tablets  20 mg (Wockhardt UK)
+FUTA38131MGEMIS	Furosemide  Tablets  20 mg (Alpharma)
+FUTA38132MGEMIS	Furosemide  Tablets  20 mg (Sandoz)
+FUTA38133MGEMIS	Furosemide  Tablets  20 mg (Ranbaxy)
+FUTA38134MGEMIS	Furosemide  Tablets  40 mg (A.A.H. Pharm)
+FUTA38135MGEMIS	Furosemide  Tablets  40 mg (Unichem)
+FUTA38136MGEMIS	Furosemide  Tablets  40 mg (Generics (UK))
+FUTA38137MGEMIS	Furosemide  Tablets  40 mg (Alpharma)
+FUTA38138MGEMIS	Furosemide  Tablets  40 mg (Wockhardt UK)
+FUTA38139MGEMIS	Furosemide  Tablets  40 mg (Teva UK)
+FUTA38140MGEMIS	Furosemide  Tablets  40 mg (Kent Pharm)
+FUTA38141MGEMIS	Furosemide  Tablets  40 mg (Ivax Pharmaceuticals)
+FUTA38142MGEMIS	Furosemide  Tablets  40 mg (Sandoz)
+FUTA38143MGEMIS	Furosemide  Tablets  40 mg (Ranbaxy)
+FUTA38144MGEMIS	Furosemide  Tablets  500 mg (A.A.H. Pharm)
+FUTA38145MGEMIS	Furosemide  Tablets  500 mg (Unichem)
+FUTA38146MGEMIS	Furosemide  Tablets  500 mg (Kent Pharm)
+FUTA38147MGEMIS	Furosemide  Tablets  500 mg (Teva UK)
+FUTA38148MGEMIS	Furosemide  Tablets  500 mg (Alpharma)
+LACA1623	Lasilactone  Capsules  50 mg + 20 mg
+LAIN20532EMIS	Lasix  Injection  250 mg/25 ml
+LAIN20533EMIS	Lasix  Injection  50 mg/5 ml
+LAIN8816BRIDL	Lasix  Injection  20 mg/2 ml ampoule
+LAINEGTON8106	Lasix  Injection  10 mg/ml
+LALI1627	Lasix  Liquid  1 mg/ml
+LATA1622	Lasikal  Tablets  
+LATA1624	Lasipressin  Tablets
+LATA1628	Lasix  Tablets  20 mg
+LATA1629	Lasix  Tablets  40 mg
+LATA1630	Lasix  Tablets  500 mg
+LATA1631	Lasix + K  Tablets
+MIIN17680NEMIS	Min-I-Jet Furosemide  Injection  10 mg/ml, 8 ml pre-filled syringe
+MIIN3689NEMIS	Min-I-Jet Frusemide  Injection  10 mg/ml, 8 ml syringe
+RUTA4237NEMIS	Rusyde  Tablets  20 mg
+RUTA4238NEMIS	Rusyde  Tablets  40 mg
+SPCA18564NEMIS	Spironolactone And Furosemide  Capsules  50 mg + 20 mg
+TRTA17682NEMIS	Triamterene And Furosemide  Tablets  50 mg + 40 mg
+TRTA997NEMIS	Triamterene And Frusemide  Tablets  50 mg + 40 mg

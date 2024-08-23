@@ -1,0 +1,57 @@
+bdd..00	TIMOLOL MALEATE [B-BLOCKER]
+bddz.00	TIMOLOL 10mg tablets
+bdd2.00	*BLOCADREN 10mg tablets
+bdd1.00	*BETIM 10mg tablets
+bdeK.00	TIMOLOL MALEATE+CO-AMILOZIDE 10mg/2.5mg/25mg tablets
+bdeL.00	TIMOLOL MALEATE+BENDROFLUMETHIAZIDE 10mg/2.5mg tablets
+bdeL.11	TIMOLOL MALEATE+BENDROFLUAZIDE 10mg/2.5mg tablets
+bdeM.00	TIMOLOL MALEATE+BENDROFLUAZIDE 20mg/5mg tablets
+k8f..00	TIMOLOL MALEATE [EYE]
+k8fz.00	TIMOLOL 0.5% eye drops
+k8fy.00	TIMOLOL 0.25% eye drops
+k8fI.00	TIMOLOL 1mg/g single-dose eye gel
+k8fH.00	TIOPEX 1mg/g single-dose eye gel 0.4g
+k8fG.00	*NYOGEL 0.1% liquid eye gel
+k8fF.00	*TIMOLOL 0.1% liquid eye gel
+k8fE.00	*GLAU-OPT 0.5% eye drops 5mL
+k8fD.00	*GLAU-OPT 0.25% eye drops 5mL
+k8fC.00	TIMOPTOL LA 0.5% liquid eye gel
+k8fB.00	TIMOPTOL LA 0.25% liquid eye gel
+k8fA.00	TIMOLOL 0.5% liquid eye gel
+k8f9.00	TIMOLOL 0.25% liquid eye gel
+k8f8.00	GLAUCOL 0.5% single-use eye drops
+k8f7.00	GLAUCOL 0.25% single-use eye drops
+k8f6.00	TIMOLOL 0.5% eye drops 0.25mL unit dose dispenser
+k8f5.00	TIMOPTOL 0.5% eye drops 0.25mL unit dose dispenser
+k8f4.00	TIMOLOL 0.25% eye drops 0.25mL unit dose dispenser
+k8f3.00	TIMOPTOL 0.25% eye drops 0.25mL unit dose dispenser
+k8f2.00	TIMOPTOL 0.5% eye drops 5mL
+k8f1.00	TIMOPTOL 0.25% eye drops 5mL
+k8k..00	DORZOLAMIDE+TIMOLOL
+k8k5.00	TIDOMAT 20mg/5mg/mL eye drops 5mL
+k8k4.00	DORZOLAMIDE+TIMOLOL 2%/0.5% single-use eye drops
+k8k3.00	COSOPT 2%/0.5% single-use eye drops 0.2mL
+k8k2.00	COSOPT 2%/0.5% eye drops 5mL
+k8k1.00	DORZOLAMIDE+TIMOLOL 2%/0.5% eye drops
+k8m..00	LATANOPROST+TIMOLOL
+k8mz.00	LATANOPROST+TIMOLOL 0.005%/0.5% eye drops
+k8m1.00	XALACOM 0.005%/0.5% eye drops 2.5mL
+k8p..00	BRIMONIDINE+TIMOLOL
+k8p2.00	COMBIGAN 0.2%/0.5% eye drops 5mL
+k8p1.00	BRIMONIDINE TARTRATE 0.2% / TIMOLOL 0.5% eye drops
+k8q..00	TIMOLOL+TRAVOPROST
+k8q2.00	DUOTRAV 0.004%/0.5% eye drops 2.5mL
+k8q1.00	TRAVOPROST 0.004% / TIMOLOL 0.5% eye drops
+k8r..00	BIMATOPROST+TIMOLOL
+k8r4.00	BIMATOPROST+TIMOLOL 0.03%/0.5% single-use eye drops
+k8r3.00	GANFORT 0.03%/0.5% single-use eye drops 0.4mL
+k8r2.00	GANFORT 0.03%/0.5% eye drops 3mL
+k8r1.00	BIMATOPROST 0.03% / TIMOLOL 0.5% eye drops
+k8s..00	BRINZOLAMIDE+TIMOLOL
+k8sz.00	BRINZOLAMIDE 1% / TIMOLOL 0.5% eye drops
+k8s1.00	AZARGA 1%/0.5% eye drops 5mL
+k8v..00	TAFLUPROST+TIMOLOL
+k8v2.00	TAFLUPROST+TIMOLOL 15micrograms/5mg/mL single-use eye drops
+k8v1.00	TAPTIQOM 15micrograms/5mg/mL single-use eye drops 0.3mL
+bdea.00	*MODUCREN tablets
+bdeb.00	PRESTIM tablets

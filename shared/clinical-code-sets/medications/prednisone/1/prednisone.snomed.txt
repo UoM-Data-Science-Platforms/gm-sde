@@ -7,3 +7,50 @@
 418349006	Product containing precisely prednisone 1 milligram/1 each conventional release oral tablet (clinical drug)
 768296006	Product containing prednisone in oral dosage form (medicinal product form)
 116602009	Prednisone (substance)
+377105001	Prednisone 5mg (product)
+777310000	Prednisone (product)
+780283001	Product containing only prednisone in oral dose form (medicinal product form)
+17873811000001108	Prednisone 5mg modified-release tablets (product)
+17873911000001103	Lodotra 5mg modified-release tablets (Napp Pharmaceuticals Ltd) (product)
+17872811000001100	Prednisone 1mg modified-release tablets (product)
+17872911000001105	Lodotra 1mg modified-release tablets (Napp Pharmaceuticals Ltd) (product)
+42087611000001109	Prednisone 1mg tablets (product)
+11386511000001109	Decortin 1mg tablets (Merck & Co. Inc) (product)
+42087711000001100	Prednisone 50mg tablets (product)
+11387311000001100	Decortin 50mg tablets (Merck & Co. Inc) (product)
+42087811000001108	Prednisone 5mg tablets (product)
+11387011000001103	Decortin 5mg tablets (Merck & Co. Inc) (product)
+17873211000001107	Prednisone 2mg modified-release tablets (product)
+17873311000001104	Lodotra 2mg modified-release tablets (Napp Pharmaceuticals Ltd) (product)
+254101000001106	Prednisone 1mg tablet
+324701000001100	Prednisone 5mg tablet
+395201000001102	Prednisone 20mg tablet - product
+11387211000001108	Prednisone 50mg tablets 50 tablet (product)
+11387411000001107	Decortin 50mg tablets (Merck & Co. Inc) 50 tablet (product)
+11386911000001102	Prednisone 5mg tablets 100 tablet (product)
+11387111000001102	Decortin 5mg tablets (Merck & Co. Inc) 100 tablet (product)
+11386711000001104	Prednisone 1mg tablets 100 tablet (product)
+11386811000001107	Decortin 1mg tablets (Merck & Co. Inc) 100 tablet (product)
+11386411000001105	Prednisone 1mg tablets 50 tablet (product)
+11386611000001108	Decortin 1mg tablets (Merck & Co. Inc) 50 tablet (product)
+17874211000001105	Prednisone 5mg modified-release tablets 100 tablet (product)
+17874311000001102	Lodotra 5mg modified-release tablets (Napp Pharmaceuticals Ltd) 100 tablet (product)
+17874011000001100	Prednisone 5mg modified-release tablets 30 tablet (product)
+17874111000001104	Lodotra 5mg modified-release tablets (Napp Pharmaceuticals Ltd) 30 tablet (product)
+17873611000001109	Prednisone 2mg modified-release tablets 100 tablet (product)
+17873711000001100	Lodotra 2mg modified-release tablets (Napp Pharmaceuticals Ltd) 100 tablet (product)
+17873411000001106	Prednisone 2mg modified-release tablets 30 tablet (product)
+17873511000001105	Lodotra 2mg modified-release tablets (Napp Pharmaceuticals Ltd) 30 tablet (product)
+17873011000001102	Prednisone 1mg modified-release tablets 30 tablet (product)
+17873111000001101	Lodotra 1mg modified-release tablets (Napp Pharmaceuticals Ltd) 30 tablet (product)
+11031501000001107	PREDNISONE 5mg m/r tablets
+11049501000001107	PREDNISONE 1mg m/r tablets
+11059601000001108	PREDNISONE 2mg m/r tablets
+10709201000001106	Lodotra (product)
+11003201000001103	LODOTRA 2mg m/r tablets
+11031401000001108	LODOTRA 1mg m/r tablets
+11049401000001108	LODOTRA 5mg m/r tablets
+900901000001108	Econosone 1mg tablet
+1985701000001101	Econosone 5mg tablet
+153301000001109	Decortisyl 5mg tablet
+9254901000001104	Decortin (product)

@@ -11,10 +11,6 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- Set the temp end date until new legal basis
-DECLARE @TEMPRQ038EndDate datetime;
-SET @TEMPRQ038EndDate = '2022-06-01';
-
 -- Build the main cohort
 --┌────────────────────────────────────────────────────┐
 --│ Define Cohort for RQ038: COVID + frailty project   │
@@ -25,23 +21,12 @@ SET @TEMPRQ038EndDate = '2022-06-01';
 --						patient who was >=60 years old on 1 Jan 2020 and have at least
 --				 		one GP recorded positive COVID test
 --            UPDATE 21/12/22 - recent SURG approved ALL patients >= 60 years
--- INPUT: A variable:
---	@TEMPRQ038EndDate - the date that we will not get records beyond
+-- INPUT: None
 
 -- OUTPUT: Temp tables as follows:
 -- #Patients - list of patient ids of the cohort
 
 ------------------------------------------------------------------------------
-
--- Only include patients who were first registered at a GP practice prior
--- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
--- If we only looked at patients who first registered before July 2022, then
--- there is a chance that their data was processed after COPI expired.
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM SharedCare.Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TEMPRQ038EndDate;
 
 -- Table of all patients with a GP record
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
@@ -49,8 +34,7 @@ SELECT DISTINCT FK_Patient_Link_ID
 INTO #Patients
 FROM SharedCare.Patient
 WHERE FK_Reference_Tenancy_ID=2
-AND GPPracticeCode NOT LIKE 'ZZZ%'
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+AND GPPracticeCode NOT LIKE 'ZZZ%';
 
 --┌───────────────┐
 --│ Year of birth │
@@ -222,7 +206,8 @@ CREATE TABLE #codessnomed (
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
-
+INSERT INTO #codessnomed
+VALUES ('efi-falls',1,'1912002',NULL,'Fall (event)'),('efi-falls',1,'49808004',NULL,'Old-age (finding)'),('efi-falls',1,'161898004',NULL,'Falls (finding)'),('efi-falls',1,'217082002',NULL,'Accidental fall (event)'),('efi-falls',1,'217154006',NULL,'Fall on same level from slipping, tripping or stumbling (event)'),('efi-falls',1,'271873000',NULL,'Senility (finding)'),('efi-falls',1,'279992002',NULL,'Recurrent falls (finding)'),('efi-falls',1,'298343000',NULL,'Finding related to falls (finding)'),('efi-falls',1,'298344006',NULL,'Elderly fall (finding)'),('efi-falls',1,'247541000000106',NULL,'Referral to falls service (procedure)'),('efi-falls',1,'248451000000109',NULL,'Referral to elderly falls prevention clinic (procedure)'),('efi-falls',1,'294231000000103',NULL,'Provision of telecare community alarm service (regime/therapy)'),('efi-falls',1,'501661000000103',NULL,'[D]Old age (situation)')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codessnomed;
@@ -348,5 +333,4 @@ WHERE SuppliedCode IN (
   AND VERSION = 1
 )
 AND e.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate < @TEMPRQ038EndDate
 ORDER BY e.FK_Patient_Link_ID, e.EventDate;

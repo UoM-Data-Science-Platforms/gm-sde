@@ -1,0 +1,331 @@
+^ESCT1172762	Digoxin 100micrograms/1ml solution for injection ampoules
+^ESCT1172763	Digoxin 50micrograms/ml oral solution
+^ESCT1177475	Digoxin 62.5microgram tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1177476	Digoxin 62.5microgram tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1177477	Digoxin 125microgram tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1177478	Digoxin 125microgram tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1177479	Digoxin 250microgram tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1177480	Digoxin 250microgram tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1178072	Product containing only digoxin 62.5 microgram/1 each oral tablet
+^ESCT1178073	Product containing digoxin specific antibody
+^ESCT1179308	Product containing only digoxin 200 microgram/1 each oral capsule
+^ESCT1183162	Product containing only digoxin 50 microgram/1 each oral capsule
+^ESCT1187173	Product containing only digoxin 125 microgram/1 each oral tablet
+^ESCT1187174	Product containing only digoxin 250 microgram/1 each oral tablet
+^ESCT1187557	Product containing only digoxin 100 microgram/1 each oral capsule
+^ESCT1195052	Digoxin 50micrograms/ml oral solution
+^ESCT1195075	Digoxin 100micrograms/1ml solution for injection ampoules
+^ESCT1209243	Digoxin 500 microgram/2 mL solution for injection ampoule
+^ESCT1209244	Digoxin 500 microgram/2 mL solution for injection ampule
+^ESCT1209245	Product containing precisely digoxin 500 microgram/2 milliliter conventional release solution for injection ampule
+^ESCT1209609	Digoxin 50 microgram/mL oral solution
+^ESCT1209610	Product containing precisely digoxin 50 microgram/1 milliliter conventional release oral solution
+^ESCT1210317	Digoxin 100 microgram/mL solution for injection ampoule
+^ESCT1210318	Digoxin 100 microgram/mL solution for injection ampule
+^ESCT1210319	Product containing precisely digoxin 100 microgram/1 milliliter conventional release solution for injection ampule
+^ESCT1215905	Digoxin 500micrograms/2ml solution for infusion ampoules
+^ESCT1216434	Digoxin
+^ESCT1216435	Digoxin product
+^ESCT1222705	Digoxin 62.5 microgram oral tablet
+^ESCT1222706	Product containing precisely digoxin 62.5 microgram/1 each conventional release oral tablet
+^ESCT1222707	Product containing precisely digoxin 125 microgram/1 each conventional release oral tablet
+^ESCT1222708	Digoxin 125 microgram oral tablet
+^ESCT1222709	Product containing precisely digoxin 250 microgram/1 each conventional release oral tablet
+^ESCT1222710	Digoxin 250 microgram oral tablet
+^ESCT1222718	Digoxin specific antibody
+^ESCT1222719	Digoxin immune fab product
+^ESCT1222720	Product containing digoxin immune fab
+^ESCT1228310	Digoxin 100 microgram/1 each oral capsule
+^ESCT1228311	Product containing precisely digoxin 100 microgram/1 each conventional release oral capsule
+^ESCT1228312	Digoxin 100 microgram oral capsule
+^ESCT1228830	Digoxin 50 microgram/1 each oral capsule
+^ESCT1228831	Digoxin 50 microgram oral capsule
+^ESCT1228832	Product containing precisely digoxin 50 microgram/1 each conventional release oral capsule
+^ESCT1228833	Digoxin 200 microgram/1 each oral capsule
+^ESCT1228834	Product containing precisely digoxin 200 microgram/1 each conventional release oral capsule
+^ESCT1228835	Digoxin 200 microgram oral capsule
+^ESCT1250422	Digoxin 500micrograms/2ml solution for infusion ampoules (Advanz Pharma)
+^ESCT1250423	Digoxin 500micrograms/2ml solution for infusion ampoules (Advanz Pharma) 10 ampoule
+^ESCT1263971	Digoxin 62.5microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263972	Digoxin 62.5microgram tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1276922	Digoxin 125microgram tablets (Accord Healthcare Ltd)
+^ESCT1276930	Digoxin 62.5microgram tablets (Accord Healthcare Ltd)
+^ESCT1276934	Digoxin 62.5microgram tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1276935	Digoxin 125microgram tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1354611	Digoxin only product
+^ESCT1354612	Digoxin immune fab only product
+^ESCT1358250	Digoxin only product in oral dose form
+^ESCT1358251	Digoxin only product in parenteral dose form
+^ESCT1360993	Digoxin 100 microgram/mL solution for injection
+^ESCT1360994	Digoxin 250 microgram/mL solution for injection
+^ESCT1375484	Digoxin 125microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1375485	Digoxin 125microgram tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375486	Digoxin 250microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1375487	Digoxin 250microgram tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375488	Digoxin 62.5microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1375489	Digoxin 62.5microgram tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1381471	Digoxin-containing product in oral dose form
+^ESCT1381472	Digoxin-containing product in parenteral dose form
+^ESCT1409616	Digoxin 250microgram tablets (Accord Healthcare Ltd)
+^ESCT1409803	Digoxin 250microgram tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1425612	Digoxin 125microgram tablets (Kent Pharma (UK) Ltd)
+^ESCT1425862	Digoxin 250microgram tablets (Kent Pharma (UK) Ltd)
+^ESCT1425889	Digoxin 62.5microgram tablets (Kent Pharma (UK) Ltd)
+^ESCT1425956	Digoxin 62.5microgram tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1425961	Digoxin 125microgram tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1425962	Digoxin 250microgram tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1430534	DigiFab 40mg powder for solution for infusion vials (WEP Clinical)
+^ESCT1430535	DigiFab 40mg powder for solution for infusion vials (WEP Clinical) 1 vial
+^ESCT1441020	DigiFab 40mg powder for solution for infusion vials (Protherics Medicines Development Ltd)
+^ESCT1441021	DigiFab 40mg powder for solution for infusion vials (Protherics Medicines Development Ltd) 1 vial
+^ESCTDI1005641	Digoxin 62.5microgram tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1005642	Digoxin 62.5microgram tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTDI1005643	Digoxin 125microgram tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1005644	Digoxin 125microgram tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTDI1005645	Digoxin 250microgram tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDI1005646	Digoxin 250microgram tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTDI1023635	Digoxin-specific antibody fragments 38mg powder for solution for infusion vials
+^ESCTDI1024851	Digoxin 100micrograms/1ml solution for injection ampoules (Special Order)
+^ESCTDI1024852	Digoxin 100micrograms/1ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTDI1024853	Digoxin 100micrograms/1ml solution for injection ampoules 1 ampoule
+^ESCTDI1024854	Digoxin 100micrograms/1ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTDI1024857	Digoxin 50micrograms/1ml solution for injection ampoules
+^ESCTDI1024858	Digoxin 50micrograms/1ml solution for injection ampoules 1 ampoule
+^ESCTDI1024859	Digoxin 50micrograms/1ml solution for injection ampoules 10 ampoule
+^ESCTDI1024860	Digoxin 50micrograms/1ml solution for injection ampoules (Special Order)
+^ESCTDI1024861	Digoxin 50micrograms/1ml solution for injection ampoules (Special Order) 1 ampoule
+^ESCTDI1024862	Digoxin 50micrograms/1ml solution for injection ampoules (Special Order) 10 ampoule
+^ESCTDI1029378	Digoxin-specific antibody fragments 40mg powder for solution for infusion vials 1 vial
+^ESCTDI1029379	DigiFab 40mg powder for solution for infusion vials (BTG International Ltd)
+^ESCTDI1029380	DigiFab 40mg powder for solution for infusion vials (BTG International Ltd) 1 vial
+^ESCTDI1029382	Digoxin-specific antibody fragments 40mg powder for solution for infusion vials
+^ESCTDI1034666	Digoxin 62.5microgram tablets (Bristol Laboratories Ltd)
+^ESCTDI1034667	Digoxin 62.5microgram tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCTDI1042938	Digoxin 62.5microgram tablets (Waymade Healthcare Plc)
+^ESCTDI1042939	Digoxin 62.5microgram tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTDI1042940	Digoxin 125microgram tablets (Waymade Healthcare Plc)
+^ESCTDI1042941	Digoxin 125microgram tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTDI1042942	Digoxin 250microgram tablets (Waymade Healthcare Plc)
+^ESCTDI1042943	Digoxin 250microgram tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTDI1060883	Digoxin 125microgram tablets (DE Pharmaceuticals)
+^ESCTDI1060884	Digoxin 125microgram tablets (DE Pharmaceuticals) 28 tablet
+^ESCTDI1060975	Digoxin 250microgram tablets (DE Pharmaceuticals)
+^ESCTDI1060977	Digoxin 250microgram tablets (DE Pharmaceuticals) 28 tablet
+^ESCTDI1061003	Digoxin 62.5microgram tablets (DE Pharmaceuticals)
+^ESCTDI1061005	Digoxin 62.5microgram tablets (DE Pharmaceuticals) 28 tablet
+^ESCTDI1117192	Digoxin 125microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI1117193	Digoxin 125microgram tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTDI1117400	Digoxin 250microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI1117401	Digoxin 250microgram tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTDI1117402	Digoxin 62.5microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTDI1117403	Digoxin 62.5microgram tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTDI1117409	Digoxin 250microgram tablets (Sigma Pharmaceuticals Plc) 500 tablet
+^ESCTDI1117414	Digoxin 62.5microgram tablets (Sigma Pharmaceuticals Plc) 500 tablet
+^ESCTDI1119159	Digoxin 125microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDI1119160	Digoxin 125microgram tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTDI1119161	Digoxin 250microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDI1119162	Digoxin 250microgram tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTDI251109	Digoxin
+^ESCTDI606620	Digoxin 62.5microgram tablets
+^ESCTDI606622	Digoxin 62.5 microgram/1 each oral tablet
+^ESCTDI606623	Digoxin 125microgram tablets
+^ESCTDI606625	Digoxin 125 microgram/1 each oral tablet
+^ESCTDI606626	Digoxin 250microgram tablets
+^ESCTDI606627	Digoxin 250 microgram/1 each oral tablet
+^ESCTDI606629	Digoxin 100micrograms/1ml solution for injection ampoules
+^ESCTDI606630	Digoxin 100micrograms/1mL paediatric injection
+^ESCTDI606631	Digoxin 100micrograms/1mL pediatric injection
+^ESCTDI606632	Digoxin 50micrograms/ml oral solution
+^ESCTDI606633	Digoxin 50micrograms/mL pediatric oral solution
+^ESCTDI606634	Digoxin 50micrograms/mL paediatric oral solution
+^ESCTDI606635	Digoxin 500micrograms/2ml solution for infusion ampoules
+^ESCTDI606636	Digoxin 500micrograms/2mL injection
+^ESCTDI606637	Digoxin 250micrograms/mL injection solution 2mL ampoule
+^ESCTDI606638	Digoxin 250micrograms/mL injection solution 2mL ampule
+^ESCTDI606645	Digoxin specific antibody
+^ESCTDI606646	Digoxin-specific antibody fragments 38mg powder for solution for injection vials
+^ESCTDI606647	Digoxin specific antibody 40mg injection (pdr for recon)
+^ESCTDI619519	Digoxin in oral dosage form
+^ESCTDI619521	Digoxin in parenteral dosage form
+^ESCTDI640291	Digoxin 100 microgram/1 each oral capsule
+^ESCTDI641592	Digoxin 50 microgram/1 each oral capsule
+^ESCTDI641594	Digoxin 200 microgram/1 each oral capsule
+^ESCTDI642994	Digoxin specific antibody 38mg powder for injection solution vial
+^ESCTDI685015	Digoxin 50mcg/mL paediatric oral elixir
+^ESCTDI685016	Digoxin 50mcg/mL pediatric oral elixir
+^ESCTDI801659	Digoxin 62.5microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI802213	Digoxin 62.5microgram tablets (Teva UK Ltd)
+^ESCTDI802407	Digamex 250microgram tablets (Actavis UK Ltd)
+^ESCTDI802736	Digoxin 125microgram tablets (The Boots Company Plc)
+^ESCTDI803383	Digoxin 125microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI804855	Digoxin 62.5microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI804984	Digoxin 500micrograms/2ml solution for infusion ampoules (A A H Pharmaceuticals Ltd)
+^ESCTDI805102	Digoxin 125microgram tablets (Actavis UK Ltd)
+^ESCTDI805113	Digoxin 125microgram tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTDI807842	Digamex 62.5microgram tablets (Actavis UK Ltd)
+^ESCTDI809911	Digoxin 125microgram tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI811008	Digoxin 250microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDI815648	Digoxin 250microgram tablets (The Boots Company Plc)
+^ESCTDI818569	Digoxin 250microgram tablets (Actavis UK Ltd)
+^ESCTDI819100	Digoxin 250microgram tablets (Teva UK Ltd)
+^ESCTDI819874	Digoxin 62.5microgram tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTDI819970	Digoxin 250microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI820084	Digoxin 250microgram tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTDI820784	Digamex 125microgram tablets (Actavis UK Ltd)
+^ESCTDI822978	Digoxin 125microgram tablets (Approved Prescription Services Ltd)
+^ESCTDI825323	Digoxin 62.5microgram tablets (Actavis UK Ltd)
+^ESCTDI827477	Digoxin 250microgram tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI829544	Digoxin 62.5microgram tablets (The Boots Company Plc)
+^ESCTDI829875	Digoxin 62.5microgram tablets (Kent Pharmaceuticals Ltd)
+^ESCTDI832920	Digoxin 125microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTDI834605	Digoxin 250microgram tablets 28 tablet
+^ESCTDI839217	Digoxin 125microgram tablets 500 tablet
+^ESCTDI841408	Digoxin 62.5microgram tablets 28 tablet
+^ESCTDI841413	Digoxin 500micrograms/2ml solution for infusion ampoules 10 ampoule
+^ESCTDI844910	Digoxin 50micrograms/ml oral solution 60 ml
+^ESCTDI847198	Digoxin 250microgram tablets 500 tablet
+^ESCTDI847524	Digoxin 500micrograms/2ml solution for infusion ampoules 5 ampoule
+^ESCTDI847938	Digoxin 125microgram tablets 28 tablet
+^ESCTDI848248	Digoxin 62.5microgram tablets 500 tablet
+^ESCTDI849124	Digoxin 62.5microgram tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849125	Digoxin 62.5microgram tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849126	Digamex 62.5microgram tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849127	Digoxin 62.5microgram tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849128	Digoxin 62.5microgram tablets (The Boots Company Plc) 28 tablet
+^ESCTDI849130	Digoxin 62.5microgram tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTDI849132	Digoxin 62.5microgram tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849133	Digoxin 62.5microgram tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849134	Digoxin 125microgram tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849141	Digoxin 125microgram tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849145	Digamex 125microgram tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849149	Digoxin 125microgram tablets (Approved Prescription Services Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849151	Digoxin 125microgram tablets (The Boots Company Plc) 28 tablet
+^ESCTDI849158	Digoxin 125microgram tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTDI849160	Digoxin 125microgram tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849163	Digoxin 125microgram tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849164	Digoxin 250microgram tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849167	Digoxin 250microgram tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849169	Digamex 250microgram tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849173	Digoxin 250microgram tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849175	Digoxin 250microgram tablets (The Boots Company Plc) 28 tablet
+^ESCTDI849180	Digoxin 250microgram tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTDI849182	Digoxin 250microgram tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI849185	Digoxin 250microgram tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI857070	Digoxin 500micrograms/2ml solution for infusion ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTDI872743	Digoxin-specific antibody fragments 38mg powder for solution for infusion vials 1 vial
+^ESCTDI872744	Digibind 38mg powder for solution for injection vials (GlaxoSmithKline UK Ltd)
+^ESCTDI872745	Digibind 38mg powder for solution for injection vials (GlaxoSmithKline UK Ltd) 1 vial
+^ESCTDI914844	Digamex
+^ESCTDI914846	Digibind
+^ESCTDI923552	Digoxin 62.5microgram tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI923554	Digoxin 62.5microgram tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI923555	Digoxin 125microgram tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI923556	Digoxin 125microgram tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI923557	Digoxin 250microgram tablets (Almus Pharmaceuticals Ltd)
+^ESCTDI923559	Digoxin 250microgram tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI929175	Digoxin 100micrograms/1ml solution for injection ampoules 10 ampoule
+^ESCTDI931630	Digoxin 500micrograms/2ml solution for infusion ampoules (AMCo)
+^ESCTDI931631	Digoxin 500micrograms/2ml solution for infusion ampoules (AMCo) 10 ampoule
+^ESCTDI932063	Digoxin 125microgram tablets (Teva UK Ltd)
+^ESCTDI932064	Digoxin 125microgram tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI939061	DigiFab
+^ESCTDI941375	Digoxin 125micrograms/5ml oral suspension 1 ml
+^ESCTDI941380	Digoxin 125micrograms/5ml oral suspension (Special Order)
+^ESCTDI941381	Digoxin 125micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTDI941385	Digoxin 125micrograms/5ml oral solution 1 ml
+^ESCTDI941386	Digoxin 125micrograms/5ml oral solution (Special Order)
+^ESCTDI941387	Digoxin 125micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTDI941391	Digoxin 250micrograms/5ml oral suspension 1 ml
+^ESCTDI941392	Digoxin 250micrograms/5ml oral suspension (Special Order)
+^ESCTDI941394	Digoxin 250micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTDI941397	Digoxin 250micrograms/5ml oral solution 1 ml
+^ESCTDI941399	Digoxin 250micrograms/5ml oral solution (Special Order)
+^ESCTDI941401	Digoxin 250micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTDI941404	Digoxin 75micrograms/5ml oral suspension 1 ml
+^ESCTDI941407	Digoxin 75micrograms/5ml oral suspension (Special Order)
+^ESCTDI941408	Digoxin 75micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTDI941409	Digoxin 75micrograms/5ml oral solution 1 ml
+^ESCTDI941412	Digoxin 75micrograms/5ml oral solution (Special Order)
+^ESCTDI941413	Digoxin 75micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTDI941603	Digoxin 75micrograms/5ml oral solution
+^ESCTDI941604	Digoxin 75micrograms/5ml oral suspension
+^ESCTDI941606	Digoxin 125micrograms/5ml oral solution
+^ESCTDI941607	Digoxin 125micrograms/5ml oral suspension
+^ESCTDI941608	Digoxin 250micrograms/5ml oral solution
+^ESCTDI941609	Digoxin 250micrograms/5ml oral suspension
+^ESCTDI987821	Digoxin 125microgram tablets (Bristol Laboratories Ltd)
+^ESCTDI987822	Digoxin 125microgram tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI987823	Digoxin 250microgram tablets (Bristol Laboratories Ltd)
+^ESCTDI987824	Digoxin 250microgram tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTLA1002558	Lanoxin PG 50micrograms/ml elixir (Sigma Pharmaceuticals Plc)
+^ESCTLA1002559	Lanoxin PG 50micrograms/ml elixir (Sigma Pharmaceuticals Plc) 60 ml
+^ESCTLA1012037	Lanoxin PG 50micrograms/ml elixir (DE Pharmaceuticals)
+^ESCTLA1012038	Lanoxin PG 50micrograms/ml elixir (DE Pharmaceuticals) 60 ml
+^ESCTLA808084	Lanoxin 500micrograms/2ml solution for infusion ampoules (Aspen Pharma Trading Ltd)
+^ESCTLA809920	Lanoxin PG 50micrograms/ml elixir (Aspen Pharma Trading Ltd)
+^ESCTLA816346	Lanoxin PG 62.5microgram tablets (Aspen Pharma Trading Ltd)
+^ESCTLA820272	Lanoxin 125 tablets (Aspen Pharma Trading Ltd)
+^ESCTLA832762	Lanoxin 250microgram tablets (Aspen Pharma Trading Ltd)
+^ESCTLA849129	Lanoxin PG 62.5microgram tablets (Aspen Pharma Trading Ltd) 500 tablet
+^ESCTLA849155	Lanoxin 125 tablets (Aspen Pharma Trading Ltd) 500 tablet
+^ESCTLA849179	Lanoxin 250microgram tablets (Aspen Pharma Trading Ltd) 500 tablet
+^ESCTLA849794	Lanoxin PG 50micrograms/ml elixir (Aspen Pharma Trading Ltd) 60 ml
+^ESCTLA857071	Lanoxin 500micrograms/2ml solution for infusion ampoules (Aspen Pharma Trading Ltd) 5 ampoule
+^ESCTLA918410	Lanoxin
+^ESCTLA929176	Lanoxin Injection Pediatric 100micrograms/1ml solution for injection ampoules (Imported (United States))
+^ESCTLA929177	Lanoxin Injection Pediatric 100micrograms/1ml solution for injection ampoules (Imported (United States)) 10 ampoule
+^ESCTLA965712	Lanoxin PG 50micrograms/ml elixir (Waymade Healthcare Plc)
+^ESCTLA965713	Lanoxin PG 50micrograms/ml elixir (Waymade Healthcare Plc) 60 ml
+^ESCTLA989247	Lanoxin PG 50micrograms/ml elixir (Lexon (UK) Ltd)
+^ESCTLA989248	Lanoxin PG 50micrograms/ml elixir (Lexon (UK) Ltd) 60 ml
+^ESCTLA992881	Lanoxin PG 50micrograms/ml elixir (Mawdsley-Brooks & Company Ltd)
+^ESCTLA992882	Lanoxin PG 50micrograms/ml elixir (Mawdsley-Brooks & Company Ltd) 60 ml
+^ESCTPR251110	Product containing digoxin
+^ESCTPR606621	Product containing digoxin 62.5 microgram/1 each oral tablet
+^ESCTPR606624	Product containing digoxin 125 microgram/1 each oral tablet
+^ESCTPR606628	Product containing digoxin 250 microgram/1 each oral tablet
+^ESCTPR619520	Product containing digoxin in oral dosage form
+^ESCTPR619522	Product containing digoxin in parenteral dosage form
+^ESCTPR640292	Product containing digoxin 100 microgram/1 each oral capsule
+^ESCTPR641593	Product containing digoxin 50 microgram/1 each oral capsule
+^ESCTPR641595	Product containing digoxin 200 microgram/1 each oral capsule
+DIEL10376BRIDL	Digoxin  Elixir  50 micrograms/ml
+DIIN10971NEMIS	Digibind  Powder For Solution For Injection  38 mg vial
+DIIN34748MGEMIS	Digoxin  Injection  250 micrograms/ml, 2 ml ampoule (A.A.H. Pharm)
+DIIN4838	Digoxin  Injection  250 micrograms/ml
+DIIN8295	Digoxin  Injection  100 micrograms/ml
+DIIN901	Digoxin  Injection  250 micrograms/1 ml
+DIIN902	Digoxin  Solution for infusion  250 micrograms/ml, 2 ml ampoule
+DIPO73932NEMIS	Digifab  Powder for solution for infusion  40 mg vial
+DISO28502NEMIS	Digoxin  Solution for injection  100 micrograms/ml, 1 ml ampoule
+DITA11911NEMIS	Digamex  Tablets  62.5 micrograms
+DITA11912NEMIS	Digamex  Tablets  125 micrograms
+DITA11913NEMIS	Digamex  Tablets  250 micrograms
+DITA34815MGEMIS	Digoxin  Tablets  125 micrograms (The Boots Company)
+DITA34816MGEMIS	Digoxin  Tablets  125 micrograms (Unichem)
+DITA34817MGEMIS	Digoxin  Tablets  125 micrograms (Alpharma)
+DITA34818MGEMIS	Digoxin  Tablets  125 micrograms (Ivax Pharmaceuticals)
+DITA34819MGEMIS	Digoxin  Tablets  125 micrograms (Kent Pharm)
+DITA34820MGEMIS	Digoxin  Tablets  125 micrograms (A.A.H. Pharm)
+DITA34821MGEMIS	Digoxin  Tablets  250 micrograms (Unichem)
+DITA34822MGEMIS	Digoxin  Tablets  250 micrograms (The Boots Company)
+DITA34823MGEMIS	Digoxin  Tablets  250 micrograms (Alpharma)
+DITA34824MGEMIS	Digoxin  Tablets  250 micrograms (Teva UK)
+DITA34825MGEMIS	Digoxin  Tablets  250 micrograms (A.A.H. Pharm)
+DITA34826MGEMIS	Digoxin  Tablets  250 micrograms (Ivax Pharmaceuticals)
+DITA34827MGEMIS	Digoxin  Tablets  250 micrograms (Kent Pharm)
+DITA34828MGEMIS	Digoxin  Tablets  62.5 micrograms (A.A.H. Pharm)
+DITA34829MGEMIS	Digoxin  Tablets  62.5 micrograms (Teva UK)
+DITA34830MGEMIS	Digoxin  Tablets  62.5 micrograms (Unichem)
+DITA34831MGEMIS	Digoxin  Tablets  62.5 micrograms (Ivax Pharmaceuticals)
+DITA34832MGEMIS	Digoxin  Tablets  62.5 micrograms (Alpharma)
+DITA34833MGEMIS	Digoxin  Tablets  62.5 micrograms (The Boots Company)
+DITA34834MGEMIS	Digoxin  Tablets  62.5 micrograms (Kent Pharm)
+DITA905	Digoxin  Tablets  125 micrograms
+DITA906	Digoxin  Tablets  250 micrograms
+DITA908	Digoxin  Tablets  62.5 micrograms
+LAEL8807BRIDL	Lanoxin-Pg  Elixir  50 micrograms/ml
+LAIN1594	Lanoxin  Solution for infusion  250 micrograms/ml, 2 ml ampoule
+LATA1595	Lanoxin  Tablets  125 micrograms
+LATA1596	Lanoxin  Tablets  250 micrograms
+LATA1597	Lanoxin-Pg  Tablets  62.5 micrograms

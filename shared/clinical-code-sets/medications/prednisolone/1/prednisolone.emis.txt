@@ -554,3 +554,520 @@ PRTA36690MGEMIS	Prednisolone  Tablets  5 mg (Kent Pharm)
 PRTA36691MGEMIS	Prednisolone  Tablets  5 mg (Unichem)
 PRTA36692MGEMIS	Prednisolone  Tablets  5 mg (A.A.H. Pharm)
 PRTA36693MGEMIS	Prednisolone  Tablets  5 mg (Wockhardt UK)
+^ESCT1179106	Product containing neomycin sulfate and polymyxin B sulfate and prednisolone acetate
+^ESCT1179107	Neomycin sulfate and polymyxin B sulfate and prednisolone acetate
+^ESCT1183038	Product containing neomycin and prednisolone
+^ESCT1183039	Neomycin and prednisolone
+^ESCT1183040	Neomycin + Prednisolone
+^ESCT1183941	Prednisolone sodium phosphate 5mg suppositories (A A H Pharmaceuticals Ltd) 10 suppository
+^ESCT1187750	Dibucaine and prednisolone
+^ESCT1187751	Product containing cinchocaine and prednisolone
+^ESCT1187752	Cinchocaine and prednisolone
+^ESCT1187753	Product containing dibucaine and prednisolone
+^ESCT1187754	Cinchocaine + Prednisolone
+^ESCT1188025	Product containing prednisolone sodium phosphate
+^ESCT1195983	Predsol 0.5% ear/eye drops (RPH Pharmaceuticals AB)
+^ESCT1196080	Predsol 20mg/100ml retention enema (RPH Pharmaceuticals AB)
+^ESCT1196176	Prednisolone sodium phosphate 5mg suppositories (RPH Pharmaceuticals AB)
+^ESCT1196205	Predsol 0.5% ear/eye drops (RPH Pharmaceuticals AB) 10 ml
+^ESCT1196357	Predsol 20mg/100ml retention enema (RPH Pharmaceuticals AB) 7 enema 7 x 100ml enemas
+^ESCT1196446	Prednisolone sodium phosphate 5mg suppositories (RPH Pharmaceuticals AB) 10 suppository 2 x 5 suppositories
+^ESCT1201860	Gentamicin and prednisolone product
+^ESCT1201861	Product containing gentamicin and prednisolone
+^ESCT1204394	Prednisolone 0.01% conventional release eye drops
+^ESCT1204395	Prednisolone 0.03% conventional release eye drops
+^ESCT1204396	Prednisolone 0.1% conventional release eye drops
+^ESCT1204397	Prednisolone 0.3% conventional release eye drops
+^ESCT1204398	Prednisolone sodium phosphate 0.5% conventional release eye drops
+^ESCT1210038	Prednisolone acetate 25 mg/mL suspension for injection ampoule
+^ESCT1210039	Product containing precisely prednisolone acetate 25 milligram/1 milliliter conventional release suspension for injection ampule
+^ESCT1210040	Prednisolone acetate 25 mg/mL suspension for injection ampule
+^ESCT1212436	Prednisolone sodium phosphate 0.5% eye drops 0.5ml unit dose preservative free
+^ESCT1212451	Prednisolone 20mg/application foam enema
+^ESCT1216280	Prednisolone 20mg/100ml rectal solution (RPH Pharmaceuticals AB)
+^ESCT1216281	Prednisolone 20mg/100ml rectal solution (RPH Pharmaceuticals AB) 7 enema 7 x 100ml enemas
+^ESCT1218522	Prednisolone ophthalmic preparation
+^ESCT1218523	Product containing prednisolone in ocular dosage form
+^ESCT1218524	Prednisolone in ocular dosage form
+^ESCT1218657	Prednisolone product
+^ESCT1222678	Prednisolone (as prednisolone sodium phosphate) 5 mg rectal suppository
+^ESCT1222679	Product containing precisely prednisolone (as prednisolone sodium phosphate) 5 milligram/1 each conventional release rectal suppository
+^ESCT1225779	Neomycin sulfate 5 mg/mL and prednisolone sodium phosphate 5 mg/mL ear or eye drops solution
+^ESCT1225780	Product containing precisely neomycin sulfate 5 milligram/1 milliliter and prednisolone sodium phosphate 5 milligram/1 milliliter conventional release solution for ear or eye drops
+^ESCT1226663	Prednisolone acetate 1% eye drops
+^ESCT1226664	Prednisolone acetate 10 mg/mL eye drops
+^ESCT1226665	Product containing precisely prednisolone acetate 10 milligram/1 milliliter conventional release eye drops
+^ESCT1227207	Product containing precisely prednisolone sodium phosphate 5 milligram/1 milliliter conventional release solution for ear or eye drops
+^ESCT1227208	Prednisolone sodium phosphate 5 mg/mL ear or eye drops solution
+^ESCT1229814	Neomycin sulfate and polymyxin B sulfate and prednisolone acetate
+^ESCT1229815	Neomycin sulfate and polymyxin B sulfate and prednisolone acetate product
+^ESCT1233673	Dibucaine and prednisolone product
+^ESCT1233674	Cinchocaine and prednisolone product
+^ESCT1233809	Neomycin and prednisolone product
+^ESCT1259194	Prednisolone 20mg/100ml rectal solution (Alliance Healthcare (Distribution) Ltd)
+^ESCT1259195	Prednisolone 20mg/100ml rectal solution (Alliance Healthcare (Distribution) Ltd) 7 enema 7 x 100ml enemas
+^ESCT1263893	Prednisolone sodium phosphate 0.5% ear/eye drops (RPH Pharmaceuticals AB)
+^ESCT1263894	Prednisolone sodium phosphate 0.5% ear/eye drops (RPH Pharmaceuticals AB) 10 ml
+^ESCT1266173	Prednisolone sodium phosphate 0.5% ear/eye drops (Alliance Healthcare (Distribution) Ltd)
+^ESCT1266174	Prednisolone sodium phosphate 0.5% ear/eye drops (Alliance Healthcare (Distribution) Ltd) 10 ml
+^ESCT1268063	Prednisolone 20mg/100ml rectal solution
+^ESCT1268090	Scheriproct ointment (LEO Pharma)
+^ESCT1268100	Scheriproct suppositories (LEO Pharma)
+^ESCT1268188	Scheriproct suppositories (LEO Pharma) 12 suppository
+^ESCT1268189	Scheriproct ointment (LEO Pharma) 30 gram
+^ESCT1268246	Prednisolone 20mg/100ml rectal solution 7 enema
+^ESCT1268247	Prednisolone 20mg/100ml rectal solution 1 enema
+^ESCT1274785	Prednisolone 20mg/application foam enema (CST Pharma Ltd)
+^ESCT1274787	Prednisolone 20mg/application foam enema (CST Pharma Ltd) 14 dose
+^ESCT1275100	Prednisolone 5mg soluble tablets (Pilsco Ltd)
+^ESCT1275101	Prednisolone 5mg soluble tablets (Pilsco Ltd) 30 tablet
+^ESCT1275520	Prednisolone 20mg/application foam enema (DE Pharmaceuticals)
+^ESCT1275521	Prednisolone 20mg/application foam enema (DE Pharmaceuticals) 14 dose
+^ESCT1303226	Coronavirus disease 2019 (COVID-19) general practice extraction - prednisolone medication simple reference set
+^ESCT1303227	COVID-19 general practice extraction - prednisolone medication simple reference set
+^ESCT1349688	Neomycin- and polymyxin B- and prednisolone-containing product
+^ESCT1350803	Prednisolone-containing product in cutaneous dose form
+^ESCT1354242	Cinchocaine and prednisolone only product
+^ESCT1354243	Dibucaine and prednisolone only product
+^ESCT1355176	Gentamicin and prednisolone only product
+^ESCT1356036	Neomycin and polymyxin B and prednisolone only product
+^ESCT1356037	Neomycin and prednisolone only product
+^ESCT1356495	Prednisolone only product
+^ESCT1359656	Prednisolone only product in cutaneous dose form
+^ESCT1359657	Prednisolone only product in ocular dose form
+^ESCT1359658	Prednisolone only product in oral dose form
+^ESCT1359659	Prednisolone only product in parenteral dose form
+^ESCT1359660	Prednisolone only product in rectal dose form
+^ESCT1361262	Prednisolone acetate 25 mg/mL suspension for injection
+^ESCT1363414	Prednisolone- and sulfacetamide-containing product
+^ESCT1363415	Prednisolone and sulfacetamide only product
+^ESCT1363416	Prednisolone- and sulfacetamide-containing product in ocular dose form
+^ESCT1363417	Prednisolone and sulfacetamide only product in ocular dose form
+^ESCT1364013	Prednisolone (as prednisolone sodium phosphate) 10 microgram/mL eye solution
+^ESCT1364014	Prednisolone (as prednisolone sodium phosphate) 30 microgram/mL eye solution
+^ESCT1364015	Prednisolone (as prednisolone sodium phosphate) 100 microgram/mL eye solution
+^ESCT1364016	Prednisolone (as prednisolone sodium phosphate) 300 microgram/mL eye solution
+^ESCT1364017	Prednisolone (as prednisolone sodium phosphate) 1 mg/mL eye solution
+^ESCT1364018	Prednisolone (as prednisolone sodium phosphate) 3 mg/mL eye solution
+^ESCT1364019	Prednisolone 5 mg orodispersible tablet
+^ESCT1364020	Prednisolone 25 mg/mL eye suspension
+^ESCT1364021	Prednisolone (as prednisolone sodium phosphate) 5 mg/mL eye solution
+^ESCT1364022	Prednisolone 1.25 mg/mL eye solution
+^ESCT1364023	Prednisolone 10 mg/mL eye solution
+^ESCT1364024	Cinchocaine 1 mg and prednisolone (as prednisolone sodium phosphate) 1.3 mg rectal suppository
+^ESCT1364025	Dibucaine 1 mg and prednisolone (as prednisolone sodium phosphate) 1.3 mg rectal suppository
+^ESCT1364834	Cinchocaine- and prednisolone-containing product in rectal dose form
+^ESCT1364835	Dibucaine- and prednisolone-containing product in rectal dose form
+^ESCT1364975	Prednisolone-containing product in oromucosal dose form
+^ESCT1365031	Prednisolone only product in otic dose form
+^ESCT1365032	Prednisolone-containing product in otic dose form
+^ESCT1365043	Neomycin- and prednisolone-containing product in otic dose form
+^ESCT1365044	Neomycin- and prednisolone-containing product in ocular dose form
+^ESCT1365045	Neomycin and prednisolone only product in otic dose form
+^ESCT1365046	Neomycin and prednisolone only product in ocular dose form
+^ESCT1365630	Cinchocaine and prednisolone only product in rectal dose form
+^ESCT1365631	Dibucaine and prednisolone only product in rectal dose form
+^ESCT1365770	Prednisolone only product in oromucosal dose form
+^ESCT1367092	Prednisolone 20mg/100ml enema long tube
+^ESCT1367380	Prednisolone 5mg soluble tablets
+^ESCT1369955	Prednisolone 20mg/100ml rectal solution
+^ESCT1374385	Prednisolone sodium phosphate 0.5% eye drops 0.5ml unit dose preservative free
+^ESCT1374394	Prednisolone 20mg/application foam enema
+^ESCT1376135	Prednisolone sodium phosphate 5mg suppositories (Imported)
+^ESCT1376136	Prednisolone sodium phosphate 5mg suppositories (Imported) 10 suppository
+^ESCT1377259	Prednisolone-containing product in ocular dose form
+^ESCT1381267	Prednisolone-containing product in oral dose form
+^ESCT1381448	Prednisolone-containing product in parenteral dose form
+^ESCT1381449	Prednisolone-containing product in rectal dose form
+^ESCT1381771	Prednisolone (as prednisolone sodium phosphate) 3 mg/mL oral solution
+^ESCT1381772	Prednisolone (as prednisolone sodium phosphate) 1 mg/mL oral solution
+^ESCT1381810	Prednisolone acetate 1.25 mg/mL eye suspension
+^ESCT1381811	Prednisolone acetate 10 mg/mL eye suspension
+^ESCT1381840	Prednisolone acetate 1.2 mg/mL eye suspension
+^ESCT1381990	Prednisolone acetate 2 microgram/mg and sulfacetamide sodium 100 microgram/mg eye ointment
+^ESCT1381991	Prednisolone acetate 2.5 microgram/mg and sulfacetamide sodium 100 microgram/mg eye ointment
+^ESCT1383164	Prednisolone (as prednisolone sodium phosphate) 5 mg/mL oral solution
+^ESCT1383462	Prednisolone (as prednisolone sodium phosphate) 10 mg orodispersible tablet
+^ESCT1383468	Prednisolone (as prednisolone sodium phosphate) 15 mg orodispersible tablet
+^ESCT1383477	Prednisolone (as prednisolone sodium phosphate) 30 mg orodispersible tablet
+^ESCT1385756	Gentamicin- and prednisolone-containing product
+^ESCT1403460	Prednisolone sodium phosphate 5mg suppositories (Medihealth (Northern) Ltd)
+^ESCT1403461	Prednisolone sodium phosphate 5mg suppositories (Medihealth (Northern) Ltd) 10 suppository
+^ESCT1409555	Scheriproct ointment (Karo Pharma)
+^ESCT1409597	Scheriproct suppositories (Karo Pharma)
+^ESCT1410008	Scheriproct suppositories (Karo Pharma) 12 suppository
+^ESCT1410010	Scheriproct ointment (Karo Pharma) 30 gram
+^ESCT1414282	Prednisolone acetate 1.2 mg/mL eye drops suspension
+^ESCT1414753	Prednisolone (as prednisolone metasulfobenzoate sodium) 20 mg/actuation rectal foam
+^ESCT1414754	Prednisolone (as prednisolone sodium metazoate) 20 mg/actuation rectal foam
+^ESCT1425063	Prednisolone 20mg/100ml enema long tube
+^ESCT1425064	Prednisolone 20mg/100ml rectal solution
+^ESCT1431969	Prednisolone 5mg tablets (Relonchem Ltd)
+^ESCT1431970	Prednisolone 5mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1434108	Prednisolone 1mg gastro-resistant tablets 100 tablet
+^ESCT1434109	Prednisolone 1mg gastro-resistant tablets (Phoenix Labs Ltd) 100 tablet
+^ESCT1436302	Prednisolone 10mg/ml oral solution sugar free (Aerona Clinical Ltd)
+^ESCT1436303	Prednisolone 10mg/ml oral solution sugar free (Aerona Clinical Ltd) 30 ml
+^ESCT1439674	Prednisolone 1mg gastro-resistant tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCT1440851	Pred Forte 1% eye drops (AbbVie Ltd)
+^ESCT1440852	Pred Forte 1% eye drops (AbbVie Ltd) 5 ml
+^ESCT1440853	Pred Forte 1% eye drops (AbbVie Ltd) 10 ml
+^ESCTCI698316	Cinchocaine + Prednisolone
+^ESCTCI698317	Cinchocaine + prednisolone
+^ESCTCI835231	Cinchocaine 1mg / Prednisolone hexanoate 1.3mg suppositories 12 suppository
+^ESCTCI846166	Cinchocaine 0.5% / Prednisolone 0.19% ointment 30 gram
+^ESCTCI861147	Cinchocaine 0.5% / Prednisolone 0.19% ointment
+^ESCTCI861894	Cinchocaine 1mg / Prednisolone hexanoate 1.3mg suppositories
+^ESCTDE914704	Deltacortril
+^ESCTDE914705	Deltacortril Enteric
+^ESCTDE914707	Deltastab
+^ESCTDI942321	Dilacort
+^ESCTGE642338	Gentamicin sulphate + prednisolone acetate 0.3%/0.6%ww ointment
+^ESCTGE642339	Gentamicin sulfate + prednisolone acetate 0.3%/0.6%ww ointment
+^ESCTGE642340	Gentamicin sulfate+prednisolone acetate 0.3%/1%vv suspension
+^ESCTGE642341	Gentamicin sulfate + prednisolone acetate 0.3%/1%vv suspension
+^ESCTGE661316	Gentamicin sulphate + prednisolone acetate
+^ESCTGE661317	Gentamicin sulfate + prednisolone acetate
+^ESCTMI859614	Minims prednisolone sodium phosphate 0.5% eye drops 0.5ml unit dose (Bausch & Lomb UK Ltd)
+^ESCTMI859615	Minims prednisolone sodium phosphate 0.5% eye drops 0.5ml unit dose (Bausch & Lomb UK Ltd) 20 unit dose
+^ESCTNE615783	Neomycin 0.5% / Prednisolone 0.5% ear/eye drops
+^ESCTNE642516	Neomycin sulfate+polymyxin b sulfate+prednisolone acetate 0.35%/10000unt/0.5%wv suspension
+^ESCTNE642517	Neomycin sulfate + polymyxin b sulfate + prednisolone acetate 0.35%/10000unt/0.5%wv suspension
+^ESCTNE661010	Neomycin sulphate + polymyxin b sulphate + prednisolone acetate
+^ESCTNE661011	Neomycin sulfate + polymyxin b sulfate + prednisolone acetate
+^ESCTNE699273	Neomycin + Prednisolone
+^ESCTNE699274	Neomycin + prednisolone
+^ESCTPE949868	Pevanti
+^ESCTPR1002413	Prednisolone sodium phosphate 5mg suppositories (Special Order)
+^ESCTPR1002414	Prednisolone sodium phosphate 5mg suppositories 1 suppository
+^ESCTPR1002415	Prednisolone sodium phosphate 5mg suppositories (Special Order) 1 suppository
+^ESCTPR1003096	Pred Forte 1% eye drops (Necessity Supplies Ltd)
+^ESCTPR1003097	Pred Forte 1% eye drops (Necessity Supplies Ltd) 5 ml
+^ESCTPR1003098	Pred Forte 1% eye drops (Necessity Supplies Ltd) 10 ml
+^ESCTPR1012200	Pred Forte 1% eye drops (DE Pharmaceuticals)
+^ESCTPR1012201	Pred Forte 1% eye drops (DE Pharmaceuticals) 5 ml
+^ESCTPR1012202	Pred Forte 1% eye drops (DE Pharmaceuticals) 10 ml
+^ESCTPR1017948	Prednisolone 20mg/application foam enema (Essential Generics Ltd)
+^ESCTPR1017949	Prednisolone 20mg/application foam enema (Essential Generics Ltd) 14 dose
+^ESCTPR1021130	Prednisolone 20mg/application foam enema (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1021131	Prednisolone 20mg/application foam enema (Alliance Healthcare (Distribution) Ltd) 14 dose
+^ESCTPR1024971	Prednisolone 20mg/application foam enema (A A H Pharmaceuticals Ltd)
+^ESCTPR1024972	Prednisolone 20mg/application foam enema (A A H Pharmaceuticals Ltd) 14 dose
+^ESCTPR1030409	Prednisolone sodium phosphate 5mg suppositories (Focus Pharmaceuticals Ltd)
+^ESCTPR1030410	Prednisolone sodium phosphate 5mg suppositories (Focus Pharmaceuticals Ltd) 10 suppository 2 x 5 suppositories
+^ESCTPR1035543	Prednisolone sodium phosphate 5mg suppositories (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1035544	Prednisolone sodium phosphate 5mg suppositories (Alliance Healthcare (Distribution) Ltd) 10 suppository 2 x 5 suppositories
+^ESCTPR1036670	Prednisolone sodium phosphate 0.03% eye drops 10 ml
+^ESCTPR1036671	Prednisolone sodium phosphate 0.03% eye drops (Drug Tariff Special Order) 10 ml
+^ESCTPR1036672	Prednisolone sodium phosphate 0.03% eye drops preservative free 10 ml
+^ESCTPR1036673	Prednisolone sodium phosphate 0.03% eye drops preservative free (Drug Tariff Special Order) 10 ml
+^ESCTPR1040545	Prednisolone sodium phosphate 5mg suppositories (A A H Pharmaceuticals Ltd)
+^ESCTPR1040546	Prednisolone sodium phosphate 5mg suppositories (A A H Pharmaceuticals Ltd) 10 suppository 2 x 5 suppositories
+^ESCTPR1056539	Prednisolone sodium phosphate 0.1% eye drops 10 ml
+^ESCTPR1056540	Prednisolone sodium phosphate 0.1% eye drops (Drug Tariff Special Order) 10 ml
+^ESCTPR1056541	Prednisolone sodium phosphate 0.3% eye drops 10 ml
+^ESCTPR1056542	Prednisolone sodium phosphate 0.3% eye drops (Drug Tariff Special Order) 10 ml
+^ESCTPR1056914	Prednisolone sodium phosphate 0.003% eye drops 10 ml
+^ESCTPR1056915	Prednisolone sodium phosphate 0.003% eye drops (Special Order) 10 ml
+^ESCTPR1056916	Prednisolone sodium phosphate 0.01% eye drops 10 ml
+^ESCTPR1056917	Prednisolone sodium phosphate 0.01% eye drops (Special Order) 10 ml
+^ESCTPR1056918	Prednisolone sodium phosphate 0.01% eye drops preservative free 10 ml
+^ESCTPR1056919	Prednisolone sodium phosphate 0.01% eye drops preservative free (Special Order) 10 ml
+^ESCTPR1056920	Prednisolone sodium phosphate 0.05% eye drops 5 ml
+^ESCTPR1056921	Prednisolone sodium phosphate 0.05% eye drops 10 ml
+^ESCTPR1056922	Prednisolone sodium phosphate 0.05% eye drops (Drug Tariff Special Order) 5 ml
+^ESCTPR1056923	Prednisolone sodium phosphate 0.05% eye drops (Drug Tariff Special Order) 10 ml
+^ESCTPR1062425	Prednisolone sodium phosphate 5mg suppositories (CST Pharma Ltd)
+^ESCTPR1062427	Prednisolone sodium phosphate 5mg suppositories (CST Pharma Ltd) 10 suppository
+^ESCTPR1099474	Prednisolone sodium phosphate 1% eye drops preservative free 10 ml
+^ESCTPR1099475	Prednisolone sodium phosphate 1% eye drops preservative free (Drug Tariff Special Order) 10 ml
+^ESCTPR1099476	Prednisolone sodium phosphate 0.05% eye drops preservative free 10 ml
+^ESCTPR1099477	Prednisolone sodium phosphate 0.05% eye drops preservative free (Drug Tariff Special Order) 10 ml
+^ESCTPR1099483	Prednisolone sodium phosphate 0.1% eye drops preservative free 10 ml
+^ESCTPR1099484	Prednisolone sodium phosphate 0.1% eye drops preservative free (Drug Tariff Special Order) 10 ml
+^ESCTPR1099485	Prednisolone sodium phosphate 0.3% eye drops preservative free 10 ml
+^ESCTPR1099486	Prednisolone sodium phosphate 0.3% eye drops preservative free (Drug Tariff Special Order) 10 ml
+^ESCTPR1104307	Prednisolone sodium phosphate 0.5% eye drops preservative free 10 ml
+^ESCTPR1104308	Prednisolone sodium phosphate 0.5% eye drops preservative free (Special Order) 10 ml
+^ESCTPR1109102	Pred Forte 1% eye drops (Waymade Healthcare Plc) 10 ml
+^ESCTPR329314	Prednisolone ophthalmic preparation
+^ESCTPR334946	Prednisolone
+^ESCTPR334947	Prednisolone preparation
+^ESCTPR334948	Product containing prednisolone
+^ESCTPR606510	Prednisolone sodium phosphate 5mg suppositories
+^ESCTPR606511	Prednisolone 5mg suppository
+^ESCTPR606512	Prednisolone 20mg/100ml enema long tube
+^ESCTPR606513	Prednisolone 20mg/100mL long tube retention enema
+^ESCTPR606514	Prednisolone 20mg/100ml enema standard tube
+^ESCTPR606515	Prednisolone 20mg/100mL standard tube retention enema
+^ESCTPR612599	Prednisolone 5mg soluble tablets
+^ESCTPR612600	Prednisolone 5mg soluble tablet
+^ESCTPR615274	Prednisolone 25mg/1ml suspension for injection ampoules
+^ESCTPR615275	Prednisolone acetate 25mg/1mL injection
+^ESCTPR615276	Prednisolone acetate 25mg/mL injection suspension 1mL ampoule
+^ESCTPR615277	Prednisolone acetate 25mg/mL injection suspension 1mL ampule
+^ESCTPR615513	Prednisolone sodium phosphate 0.5% eye drops 0.5ml unit dose preservative free
+^ESCTPR615514	Prednisolone sodium phosphate 0.5% single-use eye drops
+^ESCTPR615780	Prednisolone 0.5% / Neomycin 0.5% ear/eye drops
+^ESCTPR615781	Prednisolone sodium phosphate+neomycin sulphate 0.5%/0.5% eye/ear drops
+^ESCTPR615782	Prednisolone sodium phosphate+neomycin sulfate 0.5%/0.5% eye/ear drops
+^ESCTPR618197	Prednisolone 0.001% eye drops
+^ESCTPR618198	Prednisolone 0.003% eye drops
+^ESCTPR618199	Prednisolone 0.01% preservative-free eye drops
+^ESCTPR618200	Prednisolone 0.01% eye drops
+^ESCTPR618201	Prednisolone 0.03% preservative-free eye drops
+^ESCTPR618202	Prednisolone 0.03% eye drops
+^ESCTPR618203	Prednisolone 0.1% preservative-free eye drops
+^ESCTPR618204	Prednisolone 0.1% eye drops
+^ESCTPR618205	Prednisolone 0.3% preservative-free eye drops
+^ESCTPR618206	Prednisolone 0.3% eye drops
+^ESCTPR618207	Prednisolone acetate 1% eye drops
+^ESCTPR618816	Prednisolone in oral dosage form
+^ESCTPR618817	Product containing prednisolone in oral dosage form
+^ESCTPR618842	Prednisolone 20mg/application foam enema
+^ESCTPR618843	Prednisolone 20mg rectal foam
+^ESCTPR619432	Prednisolone in parenteral dosage form
+^ESCTPR619433	Product containing prednisolone in parenteral dosage form
+^ESCTPR619434	Prednisolone in topical dosage form
+^ESCTPR619435	Product containing prednisolone in topical dosage form
+^ESCTPR619436	Prednisolone drops
+^ESCTPR619437	Prednisolone in rectal dosage form
+^ESCTPR619438	Product containing prednisolone in rectal dosage form
+^ESCTPR619925	Prednisolone sodium phosphate 0.5% ear/eye drops
+^ESCTPR619926	Prednisolone sodium phosphate 0.5% eye/ear drops
+^ESCTPR639088	Prednisolone 15mg/5mL syrup
+^ESCTPR639089	Prednisolone 5mg/5mL syrup
+^ESCTPR639137	Prednisolone acetate 25mg/mL suspension
+^ESCTPR639597	Prednisolone acetate 0.125% suspension
+^ESCTPR639598	Prednisolone acetate 1% suspension
+^ESCTPR639879	Prednisolone acetate 0.12% suspension
+^ESCTPR639972	Prednisolone sodium phosphate 1% solution
+^ESCTPR640542	Prednisolone sodium phosphate 5mg/5mL liquid
+^ESCTPR640543	Prednisolone sodium phosphate 6.7mg/5mL oral solution
+^ESCTPR640647	Prednisolone sodium phosphate 1/8% solution
+^ESCTPR642533	Prednisolone acetate+sulfacetamide sodium 0.2%wv/10%wv suspension
+^ESCTPR642534	Prednisolone acetate + sulphacetamide sodium 0.2%wv/10%wv suspension
+^ESCTPR642535	Prednisolone acetate+sulfacetamide sodium 0.2%ww/10%ww ointment
+^ESCTPR642536	Prednisolone acetate + sulphacetamide sodium 0.2%ww/10%ww ointment
+^ESCTPR642537	Prednisolone acetate+sulfacetamide sodium 0.25%wv/10%wv suspension
+^ESCTPR642538	Prednisolone acetate + sulphacetamide sodium 0.25%wv/10%wv suspension
+^ESCTPR642542	Prednisolone acetate+sulfacetamide sodium 0.25%ww/10%ww ointment
+^ESCTPR642543	Prednisolone acetate + sulphacetamide sodium 0.25%ww/10%ww ointment
+^ESCTPR642544	Prednisolone acetate+sulfacetamide sodium 5mg/100mg ointment
+^ESCTPR642545	Prednisolone acetate + sulphacetamide sodium 5mg/100mg ointment
+^ESCTPR642546	Prednisolone acetate+sulfacetamide sodium 5mg/100mg suspension
+^ESCTPR642547	Prednisolone acetate + sulphacetamide sodium 5mg/100mg suspension
+^ESCTPR663858	Prednisolone sodium phosphate 20mg/mL injection solution 5mL vial
+^ESCTPR664104	Prednisolone sodium phosphate 20mg/mL injection solution 10mL vial
+^ESCTPR664139	Prednisolone acetate 50mg/mL injection suspension 10mL vial
+^ESCTPR664140	Prednisolone acetate 50mg/mL injection
+^ESCTPR664141	Prednisolone acetate 50mg/mL suspension
+^ESCTPR664255	Prednisolone acetate + sulphacetamide sodium 0.5%ww/10%ww ointment
+^ESCTPR664256	Prednisolone acetate + sulfacetamide sodium 0.5%ww/10%ww ointment
+^ESCTPR664342	Prednisolone hexanoate 1.3mg / Cinchocaine 1mg suppository
+^ESCTPR664445	Prednisolone sodium phosphate 20mg/mL injection solution 2mL vial
+^ESCTPR664494	Prednisolone acetate 50mg/mL injection suspension 30mL vial
+^ESCTPR664551	Prednisolone sodium phosphate
+^ESCTPR670470	Prednisolone acetate + sulphacetamide sodium
+^ESCTPR670471	Prednisolone acetate + sulfacetamide sodium
+^ESCTPR689516	Prednisolone 5mg/mL oral solution
+^ESCTPR703120	Prednisolone 10mg orally disintegrating tablet
+^ESCTPR703442	Prednisolone 15mg orally disintegrating tablet
+^ESCTPR703767	Prednisolone 30mg orally disintegrating tablet
+^ESCTPR811626	Predfoam 20mg/application enema (Chemidex Pharma Ltd)
+^ESCTPR831806	Predsol 5mg suppositories (Focus Pharmaceuticals Ltd)
+^ESCTPR844693	Prednisolone 20mg/application foam enema 14 dose
+^ESCTPR848493	Prednisolone sodium phosphate 5mg suppositories 10 suppository
+^ESCTPR855917	Predfoam 20mg/application enema (Chemidex Pharma Ltd) 14 dose
+^ESCTPR855922	Predsol 5mg suppositories (Focus Pharmaceuticals Ltd) 10 suppository
+^ESCTPR857440	Prednisolone 0.5% / Neomycin 0.5% ear/eye drops 10 ml
+^ESCTPR857443	Predsol-N ear/eye drops (Focus Pharmaceuticals Ltd)
+^ESCTPR857444	Predsol-N ear/eye drops (Focus Pharmaceuticals Ltd) 10 ml
+^ESCTPR859593	Prednisolone sodium phosphate 0.5% ear/eye drops 10 ml
+^ESCTPR859599	Predsol 0.5% ear/eye drops (Focus Pharmaceuticals Ltd)
+^ESCTPR859601	Predsol 0.5% ear/eye drops (Focus Pharmaceuticals Ltd) 10 ml
+^ESCTPR859606	Prednisolone sodium phosphate 0.5% eye drops 0.5ml unit dose preservative free 20 unit dose
+^ESCTPR859623	Prednisolone acetate 1% eye drops 5 ml
+^ESCTPR859625	Prednisolone acetate 1% eye drops 10 ml
+^ESCTPR859628	Pred Forte 1% eye drops (Allergan Ltd)
+^ESCTPR859630	Pred Forte 1% eye drops (Allergan Ltd) 5 ml
+^ESCTPR859631	Pred Forte 1% eye drops (Allergan Ltd) 10 ml
+^ESCTPR861694	Prednisolone 20mg/100ml enema long tube 1 enema
+^ESCTPR861735	Predenema 20mg/100ml long tube (Forest Laboratories UK Ltd)
+^ESCTPR861738	Predenema 20mg/100ml long tube (Forest Laboratories UK Ltd) 1 enema
+^ESCTPR861752	Prednisolone 20mg/100ml enema standard tube 7 enema
+^ESCTPR861761	Prednisolone 20mg/100ml enema standard tube 1 enema
+^ESCTPR861767	Predenema 20mg/100ml standard tube (Forest Laboratories UK Ltd)
+^ESCTPR861771	Predenema 20mg/100ml standard tube (Forest Laboratories UK Ltd) 1 enema
+^ESCTPR861777	Predsol 20mg/100ml retention enema (Focus Pharmaceuticals Ltd)
+^ESCTPR861779	Predsol 20mg/100ml retention enema (Focus Pharmaceuticals Ltd) 7 enema 7 x 100ml enemas
+^ESCTPR911594	Prednisolone sodium phosphate 0.1% ear drops 1 ml
+^ESCTPR911595	Prednisolone sodium phosphate 0.1% ear drops (Special Order)
+^ESCTPR911596	Prednisolone sodium phosphate 0.1% ear drops (Special Order) 1 ml
+^ESCTPR911597	Prednisolone sodium phosphate 0.3% ear drops 1 ml
+^ESCTPR911598	Prednisolone sodium phosphate 0.3% ear drops (Special Order)
+^ESCTPR911599	Prednisolone sodium phosphate 0.3% ear drops (Special Order) 1 ml
+^ESCTPR911615	Prednisolone sodium phosphate 0.1% ear drops
+^ESCTPR911616	Prednisolone sodium phosphate 0.3% ear drops
+^ESCTPR915701	Predenema
+^ESCTPR915703	Predfoam
+^ESCTPR915705	Predsol
+^ESCTPR915707	Predsol-N
+^ESCTPR917133	Prednisolone sodium phosphate 0.01% eye drops preservative free 1 ml
+^ESCTPR917135	Prednisolone sodium phosphate 0.01% eye drops preservative free (Special Order)
+^ESCTPR917137	Prednisolone sodium phosphate 0.01% eye drops preservative free (Special Order) 1 ml
+^ESCTPR917163	Prednisolone 40mg/100ml enema 1 enema
+^ESCTPR917169	Prednisolone 40mg/100ml enema (Special Order)
+^ESCTPR917173	Prednisolone 40mg/100ml enema (Special Order) 1 enema
+^ESCTPR917175	Prednisolone sodium phosphate 1% eye drops preservative free 1 ml
+^ESCTPR917177	Prednisolone sodium phosphate 1% eye drops preservative free (Drug Tariff Special Order)
+^ESCTPR917179	Prednisolone sodium phosphate 1% eye drops preservative free (Drug Tariff Special Order) 1 ml
+^ESCTPR917187	Prednisolone sodium phosphate 0.5% eye drops preservative free 1 ml
+^ESCTPR917191	Prednisolone sodium phosphate 0.5% eye drops preservative free (Special Order)
+^ESCTPR917193	Prednisolone sodium phosphate 0.5% eye drops preservative free (Special Order) 1 ml
+^ESCTPR917208	Prednisolone sodium phosphate 0.3% eye drops preservative free 1 ml
+^ESCTPR917212	Prednisolone sodium phosphate 0.3% eye drops preservative free (Drug Tariff Special Order)
+^ESCTPR917216	Prednisolone sodium phosphate 0.3% eye drops preservative free (Drug Tariff Special Order) 1 ml
+^ESCTPR917220	Prednisolone sodium phosphate 0.3% eye drops 1 ml
+^ESCTPR917222	Prednisolone sodium phosphate 0.3% eye drops (Drug Tariff Special Order)
+^ESCTPR917224	Prednisolone sodium phosphate 0.3% eye drops (Drug Tariff Special Order) 1 ml
+^ESCTPR917237	Prednisolone sodium phosphate 0.25% eye drops preservative free 1 ml
+^ESCTPR917239	Prednisolone sodium phosphate 0.25% eye drops preservative free (Special Order)
+^ESCTPR917241	Prednisolone sodium phosphate 0.25% eye drops preservative free (Special Order) 1 ml
+^ESCTPR917243	Prednisolone sodium phosphate 0.25% eye drops 1 ml
+^ESCTPR917245	Prednisolone sodium phosphate 0.25% eye drops (Special Order)
+^ESCTPR917247	Prednisolone sodium phosphate 0.25% eye drops (Special Order) 1 ml
+^ESCTPR917251	Prednisolone sodium phosphate 0.13% eye drops 1 ml
+^ESCTPR917253	Prednisolone sodium phosphate 0.13% eye drops (Special Order)
+^ESCTPR917257	Prednisolone sodium phosphate 0.13% eye drops (Special Order) 1 ml
+^ESCTPR917261	Prednisolone sodium phosphate 0.125% eye drops preservative free 1 ml
+^ESCTPR917263	Prednisolone sodium phosphate 0.125% eye drops preservative free (Special Order)
+^ESCTPR917265	Prednisolone sodium phosphate 0.125% eye drops preservative free (Special Order) 1 ml
+^ESCTPR917273	Prednisolone sodium phosphate 0.125% eye drops 1 ml
+^ESCTPR917275	Prednisolone sodium phosphate 0.125% eye drops (Special Order)
+^ESCTPR917279	Prednisolone sodium phosphate 0.125% eye drops (Special Order) 1 ml
+^ESCTPR917284	Prednisolone sodium phosphate 0.1% eye drops preservative free 1 ml
+^ESCTPR917290	Prednisolone sodium phosphate 0.1% eye drops preservative free (Drug Tariff Special Order)
+^ESCTPR917294	Prednisolone sodium phosphate 0.1% eye drops preservative free (Drug Tariff Special Order) 1 ml
+^ESCTPR917296	Prednisolone sodium phosphate 0.1% eye drops 1 ml
+^ESCTPR917298	Prednisolone sodium phosphate 0.1% eye drops (Drug Tariff Special Order)
+^ESCTPR917300	Prednisolone sodium phosphate 0.1% eye drops (Drug Tariff Special Order) 1 ml
+^ESCTPR917316	Prednisolone sodium phosphate 0.05% eye drops preservative free 1 ml
+^ESCTPR917318	Prednisolone sodium phosphate 0.05% eye drops preservative free (Drug Tariff Special Order)
+^ESCTPR917322	Prednisolone sodium phosphate 0.05% eye drops preservative free (Drug Tariff Special Order) 1 ml
+^ESCTPR917326	Prednisolone sodium phosphate 0.05% eye drops 1 ml
+^ESCTPR917328	Prednisolone sodium phosphate 0.05% eye drops (Drug Tariff Special Order)
+^ESCTPR917330	Prednisolone sodium phosphate 0.05% eye drops (Drug Tariff Special Order) 1 ml
+^ESCTPR917344	Prednisolone sodium phosphate 0.03% eye drops preservative free 1 ml
+^ESCTPR917346	Prednisolone sodium phosphate 0.03% eye drops preservative free (Drug Tariff Special Order)
+^ESCTPR917348	Prednisolone sodium phosphate 0.03% eye drops preservative free (Drug Tariff Special Order) 1 ml
+^ESCTPR917354	Prednisolone sodium phosphate 0.03% eye drops 1 ml
+^ESCTPR917358	Prednisolone sodium phosphate 0.03% eye drops (Drug Tariff Special Order)
+^ESCTPR917360	Prednisolone sodium phosphate 0.03% eye drops (Drug Tariff Special Order) 1 ml
+^ESCTPR917362	Prednisolone sodium phosphate 0.025% eye drops preservative free 1 ml
+^ESCTPR917364	Prednisolone sodium phosphate 0.025% eye drops preservative free (Special Order)
+^ESCTPR917365	Prednisolone sodium phosphate 0.025% eye drops preservative free (Special Order) 1 ml
+^ESCTPR917367	Prednisolone sodium phosphate 0.025% eye drops 1 ml
+^ESCTPR917375	Prednisolone sodium phosphate 0.025% eye drops (Special Order)
+^ESCTPR917377	Prednisolone sodium phosphate 0.025% eye drops (Special Order) 1 ml
+^ESCTPR917379	Prednisolone sodium phosphate 0.01% eye drops 1 ml
+^ESCTPR917381	Prednisolone sodium phosphate 0.01% eye drops (Special Order)
+^ESCTPR917383	Prednisolone sodium phosphate 0.01% eye drops (Special Order) 1 ml
+^ESCTPR917385	Prednisolone sodium phosphate 0.005% eye drops 1 ml
+^ESCTPR917387	Prednisolone sodium phosphate 0.005% eye drops (Special Order)
+^ESCTPR917389	Prednisolone sodium phosphate 0.005% eye drops (Special Order) 1 ml
+^ESCTPR917497	Prednisolone 40mg/100ml enema
+^ESCTPR917498	Prednisolone sodium phosphate 0.005% eye drops
+^ESCTPR917499	Prednisolone sodium phosphate 0.01% eye drops
+^ESCTPR917500	Prednisolone sodium phosphate 0.01% eye drops preservative free
+^ESCTPR917501	Prednisolone sodium phosphate 0.025% eye drops
+^ESCTPR917502	Prednisolone sodium phosphate 0.025% eye drops preservative free
+^ESCTPR917503	Prednisolone sodium phosphate 0.03% eye drops
+^ESCTPR917504	Prednisolone sodium phosphate 0.03% eye drops preservative free
+^ESCTPR917505	Prednisolone sodium phosphate 0.05% eye drops
+^ESCTPR917506	Prednisolone sodium phosphate 0.05% eye drops preservative free
+^ESCTPR917507	Prednisolone sodium phosphate 0.1% eye drops
+^ESCTPR917508	Prednisolone sodium phosphate 0.1% eye drops preservative free
+^ESCTPR917509	Prednisolone sodium phosphate 0.125% eye drops
+^ESCTPR917510	Prednisolone sodium phosphate 0.125% eye drops preservative free
+^ESCTPR917511	Prednisolone sodium phosphate 0.13% eye drops
+^ESCTPR917512	Prednisolone sodium phosphate 0.25% eye drops
+^ESCTPR917513	Prednisolone sodium phosphate 0.25% eye drops preservative free
+^ESCTPR917514	Prednisolone sodium phosphate 0.3% eye drops
+^ESCTPR917515	Prednisolone sodium phosphate 0.3% eye drops preservative free
+^ESCTPR917516	Prednisolone sodium phosphate 0.5% eye drops preservative free
+^ESCTPR917517	Prednisolone sodium phosphate 1% eye drops preservative free
+^ESCTPR940177	Predsol-N ear/eye drops (Waymade Healthcare Plc)
+^ESCTPR940180	Predsol-N ear/eye drops (Waymade Healthcare Plc) 10 ml
+^ESCTPR956206	Pred Forte 1% eye drops (Waymade Healthcare Plc)
+^ESCTPR956208	Pred Forte 1% eye drops (Waymade Healthcare Plc) 5 ml
+^ESCTPR960596	Prednisolone 1mg tablets (Dowelhurst Ltd)
+^ESCTPR960597	Prednisolone 1mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTPR960598	Prednisolone 5mg tablets (Dowelhurst Ltd)
+^ESCTPR960599	Prednisolone 5mg tablets (Dowelhurst Ltd) 28 tablet
+^ESCTPR960600	Prednisolone 2.5mg gastro-resistant tablets (Dowelhurst Ltd)
+^ESCTPR960601	Prednisolone 2.5mg gastro-resistant tablets (Dowelhurst Ltd) 28 tablet
+^ESCTPR960602	Prednisolone 5mg gastro-resistant tablets (Dowelhurst Ltd)
+^ESCTPR960603	Prednisolone 5mg gastro-resistant tablets (Dowelhurst Ltd) 28 tablet
+^ESCTPR987566	Prednisolone sodium phosphate 0.003% eye drops 1 ml
+^ESCTPR987569	Prednisolone sodium phosphate 0.003% eye drops (Special Order)
+^ESCTPR987573	Prednisolone sodium phosphate 0.003% eye drops (Special Order) 1 ml
+^ESCTPR987707	Prednisolone sodium phosphate 0.003% eye drops
+^ESCTSC807083	Scheriproct ointment (Bayer Plc)
+^ESCTSC812684	Scheriproct suppositories (Bayer Plc)
+^ESCTSC856720	Scheriproct suppositories (Bayer Plc) 12 suppository
+^ESCTSC856729	Scheriproct ointment (Bayer Plc) 30 gram
+^ESCTSC935506	Scheriproct ointment (Waymade Healthcare Plc)
+^ESCTSC935507	Scheriproct ointment (Waymade Healthcare Plc) 30 gram
+CIOI19982NEMIS	Cinchocaine And Prednisolone  Ointment  0.5 % + 0.19 %
+CISU20115NEMIS	Cinchocaine And Prednisolone  Suppositories  1 mg + 1.3 mg
+COIN710	Codelsol  Injection  16 mg/1 ml
+DETA3396	Delta-Phoricol  Tablets  5 mg
+DETA3399	Deltastab  Tablets  1 mg
+DETA3400	Deltastab  Tablets  5 mg
+MIEY3944	Minims Prednisolone  Eye drops  0.5 %
+PRDR19457NEMIS	Prednisolone And Neomycin  Drops  0.5 % + 0.5 %
+PRDR4203	Predsol  Drops  0.5 %
+PRDR4204	Predsol-N  Drops  
+PRDR5326	Prednisolone Sodium Phosphate  Drops  0.5 %
+PREY10015BRIDL	Pred Forte  Eye drops  1 %
+PREY11256NEMIS	Prednisolone Sodium Phosphate  Eye drops (preservative-free)  0.5 %
+PREY11257NEMIS	Prednisolone Sodium Phosphate  Eye drops (preservative-free)  1 %
+PREY11423NEMIS	Prednisolone Sodium Phosphate  Eye drops  0.3 %
+PREY11586NEMIS	Prednisolone Acetate  Eye drops  1 %
+PREY12019NEMIS	Prednisolone Sodium Phosphate  Eye drops  0.1 %
+PREY12497NEMIS	Prednisolone Sodium Phosphate  Eye drops (preservative-free)  0.125 %
+PREY13006NEMIS	Prednisolone Sodium Phosphate  Eye drops  0.03 %
+PREY141867NEMIS	Prednisolone Sodium Phosphate  Eye drops (preservative-free)  0.05 %
+PREY14584NEMIS	Prednisolone Sodium Phosphate  Eye drops  0.003 %
+PREY15421NEMIS	Prednisolone Sodium Phosphate  Eye Drops Unit Dose, Preservative Free  0.5 %
+PREY27883EMIS	Prednisolone Sodium Phosphate  Eye-drops  0.01 %
+PREY30205EMIS	Prednisolone Sodium Phosphate  Eye drops (preservative-free)  0.1 %
+PREY30322EMIS	Prednisolone Sodium Phosphate  Eye drops (preservative-free)  0.3 %
+PREY30689EMIS	Prednisolone Sodium Phosphate  Eye drops (preservative-free)  0.03 %
+PREY33146EMIS	Prednisolone Sodium Phosphate  Eye drops  0.05 %
+PREY5327	Prednisolone Sodium Phosphate  Eye drops  0.5 %
+PREY9193BRIDL	Pred Forte  Eye drops  1 %
+PREY9606BRIDL	Prednisolone  Eye drops  1 %
+PRFO4199	Predfoam  Foam  20 mg/application
+PRFO5322	Prednisolone  Foam  20 mg/application
+PRIN5323	Prednisolone  Injection  16 mg/ml
+PRRE2325	Prednisolone  Rectal solution  20 mg/100 ml
+PRRE2331	Predsol  Retention enema  20 mg
+PRRE30288EMIS	Predenema  Retention enema  long tube, 20 mg/100 ml
+PRRE30290EMIS	Prednisolone  Retention enema  long tube, 20 mg/100 ml
+PRRE4198	Predenema  Retention enema  standard tube, 20 mg/100 ml
+PRSU10427BRIDL	Prednisolone  Suppositories  5 mg
+PRSU138318NEMIS	Prednisolone Sodium Phosphate (Imported)  Suppositories  5 mg
+PRSU75953NEMIS	Prednisolone Sodium Phosphate  Suppositories  5 mg
+PRSU8641EGTON	Predsol  Suppositories  5 mg
+PRTA144261NEMIS	Prednisolone  Tablets  4 mg
+PRTA144262NEMIS	Prednisolone  Tablets  3 mg
+PRTA144264NEMIS	Prednisolone  Tablets  2 mg
+PRTA144265NEMIS	Prednisolone  Tablets  500 micrograms
+PRTA4195	Precortisyl  Tablets  1 mg
+PRTA4196	Precortisyl  Tablets  5 mg
+PRTA4197	Precortisyl Forte  Tablets  25 mg
+PRTA4200	Prednesol  Soluble tablets  5 mg
+SCOI2503	Scheriproct  Ointment  
+SCSU2504	Scheriproct  Suppositories  

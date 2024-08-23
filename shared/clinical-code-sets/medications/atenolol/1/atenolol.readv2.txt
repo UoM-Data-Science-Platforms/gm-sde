@@ -1,0 +1,44 @@
+bd3..00	ATENOLOL
+bd3z.00	ATENIX 25mg tablets
+bd3y.00	ATENOLOL 5mg/10mL injection
+bd3x.00	ATENOLOL 25mg/5mL syrup
+bd3l.00	*ANTIPRESSAN 25mg tablets
+bd3k.00	*TOTAMOL 25mg tablets
+bd3j.00	ATENOLOL 25mg tablets
+bd3i.00	*TOTAMOL 100mg tablets
+bd3h.00	*TOTAMOL 50mg tablets
+bd3g.00	ATENIX 100mg tablets
+bd3f.00	ATENIX 50mg tablets
+bd3e.00	*VASATEN 100mg tablets
+bd3d.00	*VASATEN 50mg tablets
+bd3c.00	*TENORMIN 25 tablets
+bd3b.00	*ANTIPRESSAN 100mg tablets
+bd3a.00	*ANTIPRESSAN 50mg tablets
+bd39.00	*TENIF 50/20mg capsules
+bd38.00	*BETA-ADALAT 50/20mg capsules
+bd37.00	*TENORMIN CCU PACK
+bd36.00	ATENOLOL 100mg tablets
+bd35.00	ATENOLOL 50mg tablets
+bd34.00	TENORMIN LS 50mg tablets
+bd33.00	TENORMIN 5mg/10mL injection
+bd32.00	TENORMIN 25mg/5mL syrup
+bd31.00	TENORMIN 100mg tablets
+bdeP.00	ATENOLOL+BENDROFLUAZIDE 25mg/1.25mg capsules
+bdem.11	ATENOLOL+CHLORTHALIDONE 50mg/12.5mg tablets
+bdem.12	ATENOLOL+CHLORTALIDONE 50mg/12.5mg tablets
+bden.11	ATENOLOL+CHLORTHALIDONE 100mg/25mg tablets
+bden.12	ATENOLOL+CHLORTALIDONE 100mg/25mg tablets
+bdey.00	ATENOLOL+CO-AMILOZIDE 50mg/2.5mg/25mg capsules
+bdez.00	ATENOLOL+NIFEDIPINE 50mg/20mg m/r capsules
+bde7.00	KALTEN capsules
+bdeg.00	TENORET-50 tablets
+bdeq.00	*TENCHLOR 50/12.5mg tablets
+bder.00	*TENCHLOR 100/25mg tablets
+bdet.00	TENIF 50/20mg capsules
+bdeQ.00	*TENBEN capsules
+bdeN.00	TOTARETIC 50mg/12.5mg tablets
+bdeO.00	TOTARETIC 100mg/25mg tablets
+bdeh.	TENORETIC tablets
+bdeo.	ATENIXCO 50/12.5mg tablets
+bdep.	*ATENIXCO 100/25mg tablets
+bdes.	*BETA-ADALAT 50/20mg capsules

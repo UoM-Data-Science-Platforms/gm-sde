@@ -1,0 +1,18 @@
+a4d..	Alverine citrate
+a4d7.	AUDMONAL FORTE 120mg capsules
+a4d6.	AUDMONAL 60mg capsules
+a4d4.	Alverine citrate 120mg capsule
+a4d5.	Spasmonal Forte 120mg capsule
+a4dy.	Alverine citrate+sterculia 0.5%/62% granules
+a4d1.	Alvercol granules
+ab46.	Alvercol granules 500g
+a4dz.	Alverine citrate 60mg capsule
+a4d3.	Relaxyl 60mg capsule
+a4d2.	Spasmonal 60mg capsule
+x019u	Alverine
+x05Kj	Alverine citrate - chemical
+x02rL	Spasmonal
+x04cO	Spasmonal Forte
+x052H	Spasmonal Fibre
+x02pB	Relaxyl
+x0483	Alvercol

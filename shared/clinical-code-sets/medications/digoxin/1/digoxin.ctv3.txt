@@ -1,0 +1,24 @@
+b111.	Digoxin 62.5micrograms tablet
+b11C.	Digamex 62.5micrograms tablet
+b118.	Lanoxin-PG 62.5micrograms tablet
+b112.	Digoxin 125micrograms tablet
+b11D.	Digamex 125micrograms tablet
+b115.	Lanoxin 125micrograms tablet
+b113.	Digoxin 250micrograms tablet
+b11E.	Digamex 250micrograms tablet
+b116.	Lanoxin 250micrograms tablet
+b114.	Digoxin 100micrograms/1mL paediatric injection
+b11A.	Digoxin 50micrograms/mL paediatric oral solution
+b119.	Lanoxin-PG 50micrograms/mL elixir
+b11B.	Digoxin 500micrograms/2mL injection
+b117.	Lanoxin 500micrograms/2mL injection
+b16..	Digoxin specific antibody
+b164.	DIGOXIN IMMUNE FAB (ovine) 40mg powder for soln for infusion
+b163.	DIGIFAB 40mg powder for solution for infusion
+b162.	Digoxin specific antibody 38mg injection (pdr for recon)
+b161.	Digibind 38mg injection (pdr for recon)
+x01Qk	Oral digoxin
+x01Ql	Parenteral digoxin
+x02gw	Lanoxin
+x02gx	Lanoxin-PG
+x02Zn	Digibind

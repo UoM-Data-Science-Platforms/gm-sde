@@ -1,0 +1,70 @@
+a41..	Atropine sulphate [antispasmodic]
+a411.	Atropine sulphate 600micrograms tablet
+a42..	Atropine methonitrate
+a42z.	Atropine methonitrate 0.6% solution
+a421.	Eumydrin 0.6% solution
+bb2..	Atropine sulphate [antiarrhythmic]
+bb21.	Atropine sulphate 400micrograms/1mL injection
+bb22.	Atropine sulphate 600micrograms/1mL injection
+bb23.	Atropine sulphate 15mg/25mL injection
+bb24.	Atropine sulphate 800micrograms/1mL injection
+bb25.	Atropine sulphate 1mg/1mL injection
+bb26.	Atropine sulphate 600micrograms/0.5mL injection
+bb27.	Atropine sulphate 1.25mg/1mL injection
+bb28.	Atropine sulphate 3mg/10mL prefilled syringe
+bb29.	Atropine sulphate 3mg/30mL prefilled syringe
+bb2A.	Min-I-Jet Atropine sulphate 3mg/30mL prefilled syringe
+bb2B.	Atropine sulphate 3mg/10mL injection
+bb2C.	Atropine sulphate 1mg/5mL prefilled syringe
+bb2D.	Atropine sulphate 600micrograms/1mL prefilled syringe
+c511.	Adrenaline+atropine compound spray
+k71..	Atropine sulphate [eyes]
+k717.	ATROPINE SULPHATE 0.5% eye drops
+k711.	Atropine sulphate 1% eye drops
+x026z	Isopto Atropine 1% eye drops
+k713.	Isopto Atropine eye drops 5mL
+k712.	Atropine sulphate 1% eye ointment
+k714.	Minims Atropine sulphate single-use eye drops 0.5mL
+k715.	Opulets Atropine single-use eye drops 0.5mL
+k716.	Atropine sulphate 1% single-use eye drops
+x0270	Minims Atropine sulphate 1% single-use eye drops
+o31..	Atropine sulphate [premedication]
+o458.	Morphine sulphate+atropine sulphate 10mg/600micrograms/1mL injection
+x007y	Morphine sulphate+atropine sulphate
+x00IS	Atropine sulphate 0.031% eye drops
+x00IT	Atropine sulphate 0.062% eye drops
+x00IU	Atropine sulphate 0.1% eye drops
+x00IV	Atropine sulphate 0.125% eye drops
+x00IW	Atropine sulphate 0.25% eye drops
+x00IX	Atropine sulphate 0.5% eye drops
+x00IY	Atropine sulphate 1% preservative-free eye drops
+x00IZ	Atropine sulphate 2% eye drops
+x00Qr	Atropine sulphate 500micrograms/1mL injection
+x00Qs	Atropine sulphate 2mg/1mL injection
+x00W5	Atropine sulphate 500micrograms/5mL s/f solution
+x00YY	Atropine sulphate 500micrograms/5mL prefilled syringe
+x00Yq	Min-I-Jet Atropine sulphate 500micrograms/5mL prefilled syringe
+x00YZ	Atropine sulphate 1mg/10mL prefilled syringe
+x00Yr	Min-I-Jet Atropine sulphate 1mg/10mL prefilled syringe
+x01DO	Atropine
+x01DR	Atropine eye preparations
+x04yr	Atropine sulphate 0.5% eye ointment
+x01DQ	Parenteral atropine
+x01DP	Oral atropine
+x02jC	Min-I-Jet Atropine sulphate
+x041r	Minims Atropine sulphate
+x045U	Isopto Atropine
+x05LT	Atropine methonitrate - chemical
+x05LU	Atropine sulphate - chemical
+a823.	Co-phenotrope 2.5mg/25micrograms tablet
+x00f9	Diarphen tablet
+a827.	Dymotil tablet
+a826.	Lotharin tablet
+a825.	Tropergen tablet
+a821.	Lomotil tablet
+a824.	Co-phenotrope 2.5mg/25micrograms/5mL oral liquid
+a822.	Lomotil liquid
+x002H	Co-phenotrope
+x02hp	Lomotil
+x05ry	Dymotil
+x02tU	Tropergen

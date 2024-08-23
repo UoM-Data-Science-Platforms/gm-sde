@@ -1,0 +1,31 @@
+gda..	Oxybutynin hydrochloride
+gda1.	Oxybutynin hydrochloride 2.5mg tablet
+gdaE.	Promictuline 2.5mg tablet
+gdaB.	Contimin 2.5mg tablet
+gda2.	Ditropan 2.5mg tablet
+gda3.	Oxybutynin hydrochloride 5mg tablet
+gdaF.	Promictuline 5mg tablet
+gdaD.	Urimin 5mg tablet
+gdaC.	Contimin 5mg tablet
+gda7.	Cystrin 5mg tablet
+gda4.	Ditropan 5mg tablet
+gda5.	Oxybutynin hydrochloride 3mg tablet
+gda6.	Cystrin 3mg tablet
+gda9.	Oxybutynin hydrochloride 2.5mg/5mL elixir
+gda8.	Ditropan 2.5mg/5mL elixir
+gdaA.	Oxybutynin hydrochloride 5mg/5mL s/f oral solution
+gdax.	Oxybutynin 3.9mg/24hours transdermal patch
+gdaI.	Kentera 3.9mg/24hours transdermal patch
+gday.	Oxybutynin hydrochloride 5mg m/r tablet
+gdaG.	Lyrinel XL 5mg m/r tablet
+gdaz.	Oxybutynin hydrochloride 10mg m/r tablet
+gdaH.	Lyrinel XL 10mg m/r tablet
+x01Dg	Oxybutynin
+x05xA	Kentera
+x05mg	Lyrinel XL
+x02aC	Ditropan
+x059U	Ditropan XL
+x053a	Promictuline
+x03qp	Urimin
+x03qB	Contimin
+x02YZ	Cystrin

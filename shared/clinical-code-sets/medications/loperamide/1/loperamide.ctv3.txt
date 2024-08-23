@@ -1,0 +1,48 @@
+a83..	Loperamide hydrochloride
+a837.	Loperamide hydrochloride 0.2mg/mL s/f liquid
+a838.	Imodium 0.2mg/mL s/f liquid
+a83w.	Loperamide hydrochloride 2mg oro-dispersible tablet
+a83E.	Imodium Instant Melts 2mg oro-dispersible tablet
+a83D.	Imodium Instants 2mg oro-dispersible tablet
+a83x.	Loperamide hydrochloride 2mg tablet
+a836.	Normaloe 2mg tablet
+a835.	Norimode 2mg tablet
+a83y.	Loperamide hydrochloride 2mg capsule
+x00Dz	Diocalm Ultra 2mg capsule
+x00Dy	Diareze 2mg capsule
+x00Dv	Arret 2mg capsule
+a83C.	Diaquitte 2mg capsule
+a83B.	Entrocalm 2mg capsule
+a83A.	Diasorb 2mg capsule
+a839.	Lodiar 2mg capsule
+a834.	Diocaps 2mg capsule
+a833.	LoperaGen 2mg capsule
+a831.	Imodium 2mg capsule
+a83z.	Loperamide hydrochloride 1mg/5mL sugar free syrup
+x00ef	Arret 1mg/5mL syrup
+a832.	Imodium 1mg/5mL sugar free syrup
+a85..	Loperamide hydrochloride+simethicone
+a853.	Loperamide hydrochloride 2mg / simethicone 125mg tablet
+a854.	Imodium Plus 2mg/125mg Caplet
+a851.	Loperamide hydrochloride+simethicone 2mg/125mg chewable tablet
+a852.	Imodium Plus 2mg/125mg chewable tablet
+x019e	Loperamide
+x02fT	Imodium
+x04rb	Imodium Plus
+x05ez	Imodium Instants
+x05f7	Imodium Instant Melts
+x05F1	Entrocalm
+x02UO	Arret
+x04y2	Diasorb
+x00bk	Diocalm Replenish sachet
+x00fA	Diocalm Dual Action tablet
+x02Zw	Diocalm
+x03xU	Diocalm Dual Action
+x03xV	Diocalm Replenish
+x03xW	Diocalm Ultra
+x02Zx	Diocaps
+x02hr	LoperaGen
+x0468	Norimode
+x03eZ	Normaloe
+x03qF	Lodiar
+x05ce	Diaquitte

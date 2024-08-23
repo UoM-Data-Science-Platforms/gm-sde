@@ -52,22 +52,41 @@ WHERE
     (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
 
 
-
 -- table of pharmacogenetic test patients
 
 ------
 
 
-DROP TABLE IF EXISTS Cohort;
-CREATE TEMPORARY TABLE AS
-SELECT DISTINCT 
+-- create main cohort
+
+DROP TABLE IF EXISTS MainCohort;
+CREATE TEMPORARY TABLE MainCohort AS
+SELECT DISTINCT
 	 "FK_Patient_ID",
-	 "GmPseudo"
-INTO Cohort
-FROM Pharmacogenetic p
+	 "GmPseudo",
+     "Sex" as Sex,
+     YEAR("DateOfBirth") AS YearOfBirth
+FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p
+WHERE "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
+ 	--AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM PharmacogenticTable)
+GROUP BY  "FK_Patient_ID",
+	 "GmPseudo",
+     "Sex",
+     YEAR("DateOfBirth");
+
+-- create table of potential patients to match to the main cohort
+
+DROP TABLE IF EXISTS PotentialMatches;
+CREATE TEMPORARY TABLE PotentialMatches AS
+SELECT DISTINCT "FK_Patient_ID", 
+		"Sex" as Sex,
+		YEAR("DateOfBirth") AS YearOfBirth
+FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" dem
+AND "FK_Patient_ID" NOT IN (SELECT "FK_Patient_ID" FROM MainCohort);
 
 
+-- run matching script with parameters filled in
 
----------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------
+--> EXECUTE query-cohort-matching-yob-sex-alt-SDE.sql yob-flex:2 num-matches:5
+
+-------------------------------

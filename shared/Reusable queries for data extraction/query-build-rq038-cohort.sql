@@ -7,23 +7,12 @@
 --						patient who was >=60 years old on 1 Jan 2020 and have at least
 --				 		one GP recorded positive COVID test
 --            UPDATE 21/12/22 - recent SURG approved ALL patients >= 60 years
--- INPUT: A variable:
---	@TEMPRQ038EndDate - the date that we will not get records beyond
+-- INPUT: None
 
 -- OUTPUT: Temp tables as follows:
 -- #Patients - list of patient ids of the cohort
 
 ------------------------------------------------------------------------------
-
--- Only include patients who were first registered at a GP practice prior
--- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
--- If we only looked at patients who first registered before July 2022, then
--- there is a chance that their data was processed after COPI expired.
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM SharedCare.Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < @TEMPRQ038EndDate;
 
 -- Table of all patients with a GP record
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
@@ -31,8 +20,7 @@ SELECT DISTINCT FK_Patient_Link_ID
 INTO #Patients
 FROM SharedCare.Patient
 WHERE FK_Reference_Tenancy_ID=2
-AND GPPracticeCode NOT LIKE 'ZZZ%'
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+AND GPPracticeCode NOT LIKE 'ZZZ%';
 
 --> EXECUTE query-patient-year-of-birth.sql
 

@@ -1,0 +1,32 @@
+dy3..	Galantamine
+dy3z.	Galantamine 12mg tablet
+dy33.	Reminyl 12mg tablet
+dy3y.	Galantamine 8mg tablet
+dy32.	Reminyl 8mg tablet
+dy3x.	Galantamine 4mg tablet
+dy31.	Reminyl 4mg tablet
+dy3w.	Galantamine 4mg/mL s/f oral solution
+dy34.	Reminyl 4mg/mL s/f oral solution
+dy3v.	Galantamine 24mg m/r capsule
+dy37.	Reminyl XL 24mg m/r capsule
+dy3u.	Galantamine 16mg m/r capsule
+dy36.	Reminyl XL 16mg m/r capsule
+dy3t.	Galantamine 8mg m/r capsule
+dy35.	Reminyl XL 8mg m/r capsule
+dy3M.	LUVENTA XL 24mg m/r capsules
+dy3L.	LUVENTA XL 16mg m/r capsules
+dy3K.	LUVENTA XL 8mg m/r capsules
+dy3J.	ELMINO XL 24mg m/r capsules
+dy3I.	ELMINO XL 16mg m/r capsules
+dy3H.	ELMINO XL 8mg m/r capsules
+dy3G.	LOTPROSIN XL 24mg m/r capsules
+dy3F.	LOTPROSIN XL 16mg m/r capsules
+dy3E.	LOTPROSIN XL 8mg m/r capsules
+dy3D.	ACUMOR XL 24mg m/r capsules
+dy3C.	ACUMOR XL 16mg m/r capsules
+dy3B.	ACUMOR XL 8mg m/r capsules
+dy3A.	GALSYA XL 24mg m/r capsules
+dy39.	GALSYA XL 16mg m/r capsules
+dy38.	GALSYA XL 8mg m/r capsules
+x05CF	Reminyl
+x05xc	Reminyl XL

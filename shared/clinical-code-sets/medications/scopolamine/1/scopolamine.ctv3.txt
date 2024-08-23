@@ -1,0 +1,45 @@
+o477.	Omnopon Scopolamine injection
+x006F	Scopolamine
+x02Me	Scopolamine hydrobromide
+x02LU	Hyoscine hydrobromide 600micrograms/1mL injection
+o332.	Hyoscine 600micrograms/mL injection
+dh84.	Hyoscine [CNS] 600microgram/1ml injection
+x02LT	Hyoscine hydrobromide 400micrograms/1mL injection
+o331.	Hyoscine 400micrograms/mL injection
+dh83.	Hyoscine [CNS] 400microgram/1ml injection
+x00fM	Hyoscine hydrobromide 150micrograms tablet
+x00fT	Kwells Junior tablet
+x00fO	Joy-rides tablet
+x00Je	Hyoscine hydrobromide 0.5% eye drops
+x00Jd	Hyoscine hydrobromide 0.125% eye drops
+o33..	Hyoscine hydrobromide [anaesthesia]
+k741.	Hyoscine hydrobromide 0.25% eye drops
+k74..	Hyoscine hydrobromide [eye]
+dh87.	Hyoscine 1mg/72hours transdermal patch
+dh88.	Scopoderm 1.5mg transdermal patch
+dh85.	Scopoderm TTS transdermal patch
+dh86.	Hyoscine 500micrograms/72hours transdermal patch
+dh81.	Hyoscine hydrobromide 300micrograms tablet
+x00fS	Kwells tablet
+dh8..	Hyoscine hydrobromide [central nervous system use]
+dh8C.	JOY-RIDES 150micrograms chewable tablets
+dh8B.	HYOSCINE HYDROBROMIDE 150micrograms tablets
+dh8A.	KWELLS KIDS 150micrograms tablets
+dh89.	KWELLS 300micrograms tablets
+dh82.	Hyoscine 600micrograms tablets
+a47..	Butylscopolamine bromide
+a47z.	Hyoscine butylbromide 20mg/1mL injection
+a472.	Buscopan 20mg/1mL injection
+a47y.	Hyoscine butylbromide 10mg tablet
+a473.	Buscopan IBS Relief 10mg tablet
+a471.	Buscopan 10mg tablet
+a474.	BUSCOPAN CRAMPS 10mg tablets
+o473.	Papaveretum+hyoscine 15.4mg/400micrograms/1mL injection
+o47B.	Papaveretum+hyoscine 7.7mg/400micrograms/1mL injection
+x0091	Papaveretum+hyoscine hydrobromide
+x02gh	Kwells
+x02gi	Kwells Junior
+x02qc	Scopoderm TTS
+x05wq	Scopoderm
+x02WE	Buscopan
+x05w5	Buscopan IBS Relief

@@ -123,9 +123,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>This project required the following reusable queries:</p>
 <ul>
 <li>This file loads whichever code set is specified, and inserts into a permanent snowflake table</li>
-<li>Classify secondary admissions</li>
-<li>Secondary admissions and length of stay</li>
-<li>Secondary discharges</li>
 <li>Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls</li>
 </ul>
 <p>Further details for each query can be found below.</p>
@@ -142,80 +139,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-insert-code-set-into-snowflake.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-insert-code-set-into-snowflake.sql">https://github.com/rw251/.../query-insert-code-set-into-snowflake.sql</a></p>
 <hr>
-<h3>Classify secondary admissions</h3>
-<p>To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.</p>
-<p><em>Assumptions</em></p>
-<ul>
-<li>We assume patients can only have one admission per day. This is probably not true, but where we see multiple admissions it is more likely to be data duplication, or internal admissions, than an admission, discharge and another admission in the same day.</li>
-<li>Where patients have multiple admissions we choose the &quot;highest&quot; category for admission with the categories ranked as follows: Maternity &gt; Unplanned &gt; Planned &gt; Transfer &gt; Unknown</li>
-<li>We have used the following classifications based on the AdmissionTypeCode:
-<ul>
-<li>PLANNED: PL (ELECTIVE PLANNED), 11 (Elective - Waiting List), WL (ELECTIVE WL), 13 (Elective - Planned), 12 (Elective - Booked), BL (ELECTIVE BOOKED), D (NULL), Endoscopy (Endoscopy), OP (DIRECT OUTPAT CLINIC), Venesection (X36.2 Venesection), Colonoscopy (H22.9 Colonoscopy), Medical (Medical)</li>
-<li>UNPLANNED: AE (AE.DEPT.OF PROVIDER), 21 (Emergency - Local A&amp;E), I (NULL), GP (GP OR LOCUM GP), 22 (Emergency - GP), 23 (Emergency - Bed Bureau), 28 (Emergency - Other (inc other provider A&amp;E)), 2D (Emergency - Other), 24 (Emergency - Clinic), EM (EMERGENCY OTHER), AI (ACUTE TO INTMED CARE), BB (EMERGENCY BED BUREAU), DO (EMERGENCY DOMICILE), 2A (A+E Department of another provider where the Patient has not been admitted), A+E (Admission	 A+E Admission), Emerg (GP	Emergency GP Patient)</li>
-<li>MATERNITY: 31 (Maternity ante-partum), BH (BABY BORN IN HOSP), AN (MATERNITY ANTENATAL), 82 (Birth in this Health Care Provider), PN (MATERNITY POST NATAL), B (NULL), 32 (Maternity post-partum), BHOSP (Birth in this Health Care Provider)</li>
-<li>TRANSFER: 81 (Transfer from other hosp (not A&amp;E)), TR (PLAN TRANS TO TRUST), ET (EM TRAN (OTHER PROV)), HospTran (Transfer from other NHS Hospital), T (TRANSFER), CentTrans (Transfer from CEN Site)</li>
-<li>OTHER: Anything else not previously classified</li>
-</ul>
-</li>
-</ul>
-<p><em>Input</em></p>
-<pre><code>No pre-requisites
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-	- AdmissionType - One of: Maternity/Unplanned/Planned/Transfer/Unknown
-</code></pre>
-<p><em>File</em>: <code>query-classify-secondary-admissions.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql">https://github.com/rw251/.../query-classify-secondary-admissions.sql</a></p>
-<hr>
-<h3>Secondary admissions and length of stay</h3>
-<p>To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.</p>
-<p><em>Input</em></p>
-<pre><code>One parameter
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>Two temp table as follows:
- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
-   on the same day to the same hopsital then it's most likely data duplication rather than two short
-   hospital stays)
- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-	- DischargeDate - date of discharge (YYYY-MM-DD)
-	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
-</code></pre>
-<p><em>File</em>: <code>query-get-admissions-and-length-of-stay.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay.sql">https://github.com/rw251/.../query-get-admissions-and-length-of-stay.sql</a></p>
-<hr>
-<h3>Secondary discharges</h3>
-<p>To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.</p>
-<p><em>Input</em></p>
-<pre><code>One parameter
-	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
- 	- FK_Patient_Link_ID - unique patient id
-	- DischargeDate - date of discharge (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges
-   on the same day to the same hopsital then it's most likely data duplication rather than two short
-   hospital stays)
-</code></pre>
-<p><em>File</em>: <code>query-get-discharges.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql">https://github.com/rw251/.../query-get-discharges.sql</a></p>
-<hr>
 <h3>Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls</h3>
 <p>To build the cohort of patients needed for LH001. This reduces duplication of code in the template scripts.</p>
 <p><em>Input</em></p>
@@ -230,13 +153,64 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Clinical code sets</h2>
 <p>This project required the following clinical code sets:</p>
 <ul>
-<li>surgery-referral v1</li>
+<li>cancer v1</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
-<h3>Surgery</h3>
-<p>Any code indicating referral to surgery.</p>
+<h3>Cancer</h3>
+<p>Readv2 codes from code sets published by in:</p>
+<p>Zhu Y, Edwards D, Mant J, Payne RA, Kiddle S. Characteristics, service use and mortality of clusters of multimorbid patients in England: A population-based study. BMC Med [Internet]. 2020 Apr 10 [cited 2021 Apr 14];18(1):78. Available from: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01543-8</p>
+<p>The above paper used the definition of LTCs as first determined in:</p>
+<p>Barnett K, Mercer SW, Norbury M, Watt G, Wyke S, Guthrie B. Epidemiology of multimorbidity and implications for health care, research, and medical education: A cross-sectional study. Lancet [Internet]. 2012 Jul 7 [cited 2021 Apr 14];380(9836):37–43. Available from: www.thelancet.com</p>
+<p>CTV3 and SNOMED code sets from OpenSafely.</p>
+<p>ICD10 codes have been provided and verified by the Christie team (004).</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>1.22% - 4.46%</code> suggests a potential overreporting from TPP practices.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set, as of 19th July 2021.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Concept</th>
+<th style="text-align:center">Version</th>
+<th style="text-align:center">System</th>
+<th style="text-align:center">Patients</th>
+<th style="text-align:center">PatientsWithConcept</th>
+<th style="text-align:center">PatientsWithConceptFromCode</th>
+<th style="text-align:center">PercentageOfPatients</th>
+<th style="text-align:center">PercentageOfPatientsFromCode</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">cancer</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">EMIS</td>
+<td style="text-align:center">2615750</td>
+<td style="text-align:center">118723</td>
+<td style="text-align:center">78901</td>
+<td style="text-align:center">4.53877473000096</td>
+<td style="text-align:center">3.01638153493262</td>
+</tr>
+<tr>
+<td style="text-align:center">cancer</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">TPP</td>
+<td style="text-align:center">211345</td>
+<td style="text-align:center">9607</td>
+<td style="text-align:center">7280</td>
+<td style="text-align:center">4.5456481109087</td>
+<td style="text-align:center">3.44460479311079</td>
+</tr>
+<tr>
+<td style="text-align:center">cancer</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">Vision</td>
+<td style="text-align:center">336528</td>
+<td style="text-align:center">16642</td>
+<td style="text-align:center">11427</td>
+<td style="text-align:center">4.94520515380592</td>
+<td style="text-align:center">3.39555698188561</td>
+</tr>
+</tbody>
+</table>
 <table>
 <thead>
 <tr>
@@ -249,28 +223,28 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2024-04-12</td>
+<td>2024-02-22</td>
 <td>EMIS</td>
-<td>2528955</td>
-<td style="text-align:right">30968 (1.22%)</td>
-<td style="text-align:right">30463 (1.2%)</td>
+<td>2524209</td>
+<td style="text-align:right">123626 (4.9%)</td>
+<td style="text-align:right">123152 (4.88%)</td>
 </tr>
 <tr>
-<td>2024-04-12</td>
+<td>2024-02-22</td>
 <td>TPP</td>
-<td>201791</td>
-<td style="text-align:right">9008 (4.46%)</td>
-<td style="text-align:right">8967 (4.44%)</td>
+<td>201752</td>
+<td style="text-align:right">11008 (5.46%)</td>
+<td style="text-align:right">8580 (4.25%)</td>
 </tr>
 <tr>
-<td>2024-04-12</td>
+<td>2024-02-22</td>
 <td>Vision</td>
-<td>335318</td>
-<td style="text-align:right">5040 (1.5%)</td>
-<td style="text-align:right">5013 (1.49%)</td>
+<td>335007</td>
+<td style="text-align:right">16786 (5.01%)</td>
+<td style="text-align:right">16713 (4.99%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/referrals/surgery-referral/1">https://github.com/rw251/.../referrals/surgery-referral/1</a></td>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/1">https://github.com/rw251/.../conditions/cancer/1</a></td>
 <td></td>
 <td></td>
 <td style="text-align:right"></td>

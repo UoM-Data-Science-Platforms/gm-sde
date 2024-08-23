@@ -6,3 +6,352 @@ fe4e.	PLENADREN 5mg m/r tablets
 fe4f.	HYDROCORTISONE 5mg m/r tablets
 fe4g.	PLENADREN 20mg m/r tablets
 fe4h.	HYDROCORTISONE 20mg m/r tablets
+ai1..	Rectal hydrocortisone
+ai11.	Hydrocortisone 25mg suppository
+ai14.	Hydrocortisone acetate 10% rectal foam
+x00MF	Colifoam 10% foam
+ai12.	Colifoam 10% foam 20.8g
+ai15.	Hydrocortisone acetate 25mg suppository
+aj1n.	Hydrocortisone+lignocaine 0.2%/1% spray
+aj1m.	Perinal spray
+fe43.	Hydrocortistab 20mg tablet
+fe46.	Hydrocortisone 100mg injection (pdr for recon)
+fe4c.	Solu-Cortef 100mg injection (pdr for recon)
+fe47.	Hydrocortisone 500mg/5mL injection
+fe4a.	Efcortesol 500mg/5mL injection
+fe4d.	Hydrocortisone 100mg/1mL injection
+fe49.	Efcortesol 100mg/1mL injection
+fe4z.	Hydrocortisone 100mg/2mL injection (pdr for recon)+diluent
+fe4b.	Solu-Cortef 100mg injection (pdr for recon)+diluent
+fe48.	Efcortelan Soluble 100mg injection (pdr for recon)+diluent
+j42..	Hydrocortisone acetate [musculoskeletal use]
+j421.	Hydrocortisone acetate 25mg/1mL injection
+j423.	Hydrocortistab 25mg/1mL injection
+k66..	Hydrocortisone acetate [eye]
+k661.	Chloromycetin Hydrocortisone eye ointment 4g
+k667.	Hydrocortisone acetate 0.5% eye ointment
+k668.	Hydrocortisone acetate 1% eye ointment
+k669.	Hydrocortisone acetate 2.5% eye ointment
+k66B.	Hydrocortisone acetate+neomycin sulphate 1.5%/0.5% eye drops 10mL
+k66w.	Hydrocortisone acetate+chloramphenicol 0.5%/1% eye ointment
+x026v	Chloromycetin Hydrocortisone eye ointment
+k66x.	Hydrocortisone acetate eye ointment
+k66z.	Hydrocortisone acetate 1% eye drops
+l35z.	Gentamicin+hydrocortisone acetate 0.3%/1% ear drops
+x01HF	Gentisone HC ear drops
+l355.	Gentisone HC ear drops 10mL
+l36B.	Neomycin+hydrocortisone 0.5%/1.5% ear drops
+l36u.	Neomycin+hydrocortisone 0.5%/1.5% eye/ear ointment
+x00Lg	Neo-Cortef eye/ear ointment
+l364.	Neo-Cortef ear ointment 3.9g
+k66A.	Neo-Cortef eye ointment
+l36v.	Neomycin+hydrocortisone 0.5%/1.5% eye/ear drops
+x00La	Neo-Cortef eye/ear drops
+l369.	Neo-Cortef ear drops 10mL
+l363.	Neo-Cortef ear drops 5mL
+k666.	Neo-Cortef eye drops
+lb4z.	Hydrocortisone 2.5mg lozenge
+lb42.	Corlan lozenge
+m41..	Hydrocortisone creams
+x00Gm	Hydrocortisone 1% cream
+x05r8	Exe-Cort Hydrocortisone 1% cream
+m41w.	Exe-Cort Hydrocortisone 1% cream 15g
+x00H2	Mildison Lipocream 1% cream
+m41m.	Mildison Lipocream 1% cream 30g
+x00Gp	Hydrocortisyl 1% cream
+m41l.	Hydrocortisyl 1% cream 15g
+x00GN	Efcortelan 1% cream
+m41o.	Efcortelan 1% cream 30g
+m41i.	Efcortelan 1% cream 50g
+m41h.	Efcortelan P 1% cream 15g
+m41s.	Kerfoot hydrocortisone cream
+m41r.	HC45 cream
+m414.	Hydrocortisone 1% cream 100g
+m413.	Hydrocortisone 1% cream 50g
+m412.	Hydrocortisone 1% cream 30g
+m411.	Hydrocortisone 1% cream 15g
+x00Gl	Hydrocortisone 0.5% cream
+x00GM	Efcortelan 0.5% cream
+m41n.	Efcortelan 0.5% cream 30g
+m41g.	Efcortelan 0.5% cream 15g
+m41a.	Hydrocortisone 0.5% cream 100g
+m419.	Hydrocortisone 0.5% cream 50g
+m418.	Hydrocortisone 0.5% cream 30g
+m417.	Hydrocortisone 0.5% cream 15g
+m4pz.	Hydrocortisone acetate 1% cream
+x00Go	Hydrocortistab 1% cream
+m41k.	Hydrocortistab 1% cream 15g
+m4p2.	Lanacort cream
+m4p1.	Hydrocal 1% cream
+m4lx.	Hydrocortisone butyrate 0.1% lipocream
+x00Tx	Locoid 0.1% lipocream
+m4la.	Locoid 0.1% lipocream 100g
+m4l3.	Locoid 0.1% lipocream 30g
+m4lw.	Hydrocortisone butyrate 0.1% cream
+x00Gw	Locoid 0.1% cream
+m4l2.	Locoid 0.1% cream 100g
+m4l1.	Locoid 0.1% cream 30g
+m41u.	Hydrocortisone 0.1% cream
+x04pc	Dayleve 0.1% cream
+m41t.	Dayleve 0.1% cream 15g
+x00G6	Dioderm cream
+m41e.	Dioderm 0.1% cream 30g
+m41q.	Dermacort cream
+m415.	Hydrocortisone 0.1% cream 30g
+m41b.	Hydrocortisone 2.5% cream
+x00GO	Efcortelan 2.5% cream
+m41p.	Efcortelan 2.5% cream 30g
+m41j.	Efcortelan 2.5% cream 15g
+m41C.	Hydrocortisone 2.5% cream 50g
+m41B.	Hydrocortisone 2.5% cream 30g
+m41A.	Hydrocortisone 2.5% cream 15g
+m41D.	Hydrocortisone 1% aqueous cream
+m41v.	Zenoxone 1% aqueous cream
+m416.	Hydrocortisone 0.125% cream
+m41f.	Dome-Cort 0.125% cream
+m42..	Hydrocortisone ointments
+x027S	Hydrocortisone 0.5% ointment
+x00Wu	Efcortelan 0.5% ointment
+m42c.	Efcortelan 0.5% ointment 30g
+m425.	Efcortelan 0.5% ointment 15g
+m421.	Hydrocortisone 0.5% ointment 15g
+x00X5	Hydrocortisone 1% ointment
+x00X8	Hydrocortisyl 1% ointment
+m42a.	Hydrocortisyl 1% ointment 15g
+x00X7	Hydrocortistab 1% ointment
+m429.	Hydrocortistab 1% ointment 15g
+x00Wv	Efcortelan 1% ointment
+m42d.	Efcortelan 1% ointment 30g
+m427.	Efcortelan 1% ointment 50g
+m426.	Efcortelan P 1% ointment 15g
+m424.	Hydrocortisone 1% ointment 100g
+m423.	Hydrocortisone 1% ointment 30g
+m422.	Hydrocortisone 1% ointment 15g
+m4ly.	Hydrocortisone butyrate 0.1% ointment
+x00XB	Locoid 0.1% ointment
+m4l5.	Locoid 0.1% ointment 100g
+m4l4.	Locoid 0.1% ointment 30g
+m42g.	Hydrocortisone acetate 1% ointment
+m42f.	Lanacort ointment
+m42b.	Hydrocortisone 2.5% ointment
+x00Ww	Efcortelan 2.5% ointment
+m42e.	Efcortelan 2.5% ointment 30g
+m428.	Efcortelan 2.5% ointment 15g
+m42C.	Hydrocortisone 2.5% ointment 50g
+m42B.	Hydrocortisone 2.5% ointment 30g
+m42A.	Hydrocortisone 2.5% ointment 15g
+m42D.	HYDROCORTISONE 1% ointment 50g
+m43..	Hydrocortisone lotions/dressng
+m431.	Hydrocortisone 1% lotion
+x01NR	Efcortelan 1% lotion
+m432.	Efcortelan 1% lotion 20mL
+m44..	Hydrocortisone compound preprations
+m44f.	HYDROMOL HC INTENSIVE cream 100g
+m44e.	HYDROMOL HC INTENSIVE cream 30g
+m447.	Eurax-hydrocortisone cream 30g
+m44w.	Hydrocortisone+crotamiton 0.25%/10% cream
+x03m3	Eurax HC cream
+m44c.	Eurax-HC cream 15g
+x00GU	Eurax-Hydrocortisone cream
+m44x.	Hydrocortisone acetate+pramoxine hydrochloride 1.0/1.0% foam
+x00MG	Epifoam foam
+m446.	Epifoam foam 10.6g
+m44z.	Hydrocortisone+urea 1%/10% cream
+x00FN	Alphaderm cream
+m442.	Alphaderm cream 100g
+m441.	Alphaderm cream 30g
+m45..	Hydrocortisone+antimicrobials
+m451.	Hydrocortisone/neomycin cream
+m45H.	Hydrocortisone+clioquinol 1%/3% ointment
+x00XX	Vioform Hydrocortisone ointment
+m45u.	Vioform-hydrocortisone ointment 30g
+m45J.	Hydrocortisone+clioquinol 1%/3% cream
+x00Hu	Vioform Hydrocortisone cream
+m45t.	Vioform-hydrocortisone cream 30g
+m45M.	Hydrocortisone+oxytetracycline 50/150mg spray
+x00cx	Terra-Cortril spray
+m45q.	Terra-cortril spray 60mL
+m45p.	Terra-cortril spray 30mL
+m45N.	Hydrocortisone+oxytetracycline 1.0/3% ointment
+x00XQ	Terra-Cortril ointment
+m45o.	Terra-cortril ointment 30g
+m45n.	Terra-cortril ointment 15g
+m45S.	Hydrocortisone acetate+gentamicin 1%/0.3% cream
+x00Gc	Gentisone HC cream
+m45d.	Gentisone HC cream 15g
+m45T.	Hydrocortisone acetate+fucidic acid 1%/2% ointment
+x00X0	Fucidin H ointment
+m45c.	Fucidin-H ointment 30g
+m45b.	Fucidin-H ointment 15g
+m45B.	Fucidin-H ointment 60g
+m45U.	Hydrocortisone acetate+fusidic acid 1%/2% gel
+x00Mo	Fucidin H gel
+m45a.	Fucidin-H gel 30g
+m459.	Fucidin-H gel 15g
+m45V.	Hydrocortisone acetate+fusidic acid 1%/2% cream
+x00Ga	Fucidin H cream
+m45A.	Fucidin-H cream 60g
+m458.	Fucidin-H cream 30g
+m457.	Fucidin-H cream 15g
+m45W.	Hydrocortisone+econazole nitrate 1%/1% cream
+x00GI	Econacort cream
+m455.	Econacort cream 30g
+m45X.	Hydrocortisone+miconazole nitrate 1%/2% ointment
+x00Wl	Daktacort ointment
+m45v.	Daktacort ointment 30g
+m45Y.	Hydrocortisone+miconazole nitrate 1%/2% cream
+x05YY	Daktacort HC cream
+m45C.	Daktacort HC cream 15g
+x00G0	Daktacort cream
+m454.	Daktacort cream 30g
+m45Z.	Hydrocortisone+clotrimazole 1%/1% cream
+x03ky	Canesten Hydrocortisone cream
+m45w.	Canesten Hydrocortisone cream 15g
+x00Fm	Canesten HC cream
+m453.	Canesten-HC cream 30g
+m45x.	Hydrocortisone+neomycin 1%/0.5% ointment
+m45y.	Hydrocortisone+neomycin 1%/0.5% cream
+m4l..	Hydrocortisone butyrate
+m4lt.	Hydrocortisone butyrate 0.1% emulsion
+m4lb.	Locoid Crelo 0.1% emulsion
+m4lu.	Hydrocortisone butyrate+chlorquinaldol 0.1%/3% ointment
+x00XC	Locoid C 0.1% ointment
+m4l9.	Locoid C 0.1% ointment 30g
+m4lv.	Hydrocortisone butyrate+chlorquinaldol 0.1%/3% cream
+x00Gx	Locoid C 0.1% cream
+m4l8.	Locoid C 0.1% cream 30g
+m4lz.	Hydrocortisone butyrate 0.1% scalp lotion
+x00bs	Locoid 0.1% scalp lotion
+m4l7.	Locoid 0.1% scalp lotion 100mL
+m4l6.	Locoid 0.1% scalp lotion 30mL
+m4p..	Hydrocortisone acetate [topical]
+m51N.	Coal tar solution+hydrocortisone 3%/0.25% cream
+x00Fn	Carbo-Cort cream
+m51q.	Carbo-Cort cream 30g
+m51W.	Coal tar extract+hydrocortisone 3%/0.25% cream
+m666.	Quinoderm+hydrocortisone cream 30g
+x005p	Hydrocortisone+fusidic acid
+x005q	Hydrocortisone+gentamicin
+x01NY	Gentisone HC ointment
+m45e.	Gentisone HC ointment 15g
+x005s	Hydrocortisone+pramocaine
+x005t	Hydrocortisone+sodium fusidate
+x005u	Hydrocortisone+chlorquinaldol
+x005v	Hydrocortisone+chloramphenicol
+x00T5	Actinac lotion (pdr for recon)
+m661.	Actinac lotion 25mL x 2
+x005x	Hydrocortisone+clioquinol
+x01NX	Barquinol-HC cream
+m452.	Barquinol-HC cream 15g
+x005y	Hydrocortisone+clotrimazole
+x005z	Hydrocortisone+crotamiton
+x0060	Hydrocortisone+dimeticone '350'
+x00Fw	Cobadex 1% cream
+m41d.	Cobadex 1% cream 20g
+x00Fv	Cobadex 0.5% cream
+m41c.	Cobadex 0.5% cream 20g
+x0061	Hydrocortisone+econazole
+x0062	Hydrocortisone+lignocaine
+x0063	Hydrocortisone+miconazole
+x0064	Hydrocortisone+neomycin
+x00XT	Tri-Cicatrin ointment
+m44b.	Tri-cicatrin ointment 30g
+m44a.	Tri-cicatrin ointment 15g
+x00LR	Otosporin ear drops
+l413.	Otosporin ear drops 10mL
+l412.	Otosporin ear drops 5mL
+x0066	Hydrocortisone+nystatin
+x00XI	Nystaform-HC 1% ointment
+m45l.	Nystaform-HC 1% ointment 30g
+x00X2	Gregoderm ointment
+m45g.	Gregoderm ointment 15g
+m45f.	Gregoderm ointment 4g
+x00He	Timodine cream
+m45s.	Timodine cream 30g
+x00Hd	Terra-Cortril Nystatin cream
+m45r.	Terra-cortril Nystatin cream 30g
+x00H9	Nystaform-HC 0.5% cream
+m45k.	Nystaform-HC 0.5% cream 30g
+m45j.	Nystaform-HC 0.5% cream 15g
+x0067	Hydrocortisone+oxytetracycline
+x00LV	Terra-Cortril ear drops
+l419.	Terra-cortril ear drops 5mL
+x0069	Hydrocortisone+potassium hydroxyquinoline
+x00HO	Quinoderm+hydrocortisone cream
+x00HL	Quinocort cream
+m45m.	Quinocort cream 30g
+x006A	Hydrocortisone+urea
+x00Fk	Calmurid HC cream
+m44d.	Calmurid HC cream 50g
+m444.	Calmurid-HC cream 100g
+m443.	Calmurid-HC cream 30g
+m44v.	Sential HC cream
+m449.	Sential cream 100g
+m448.	Sential cream 30g
+x00aE	Hydrocortisone acetate powder
+x00yI	Topical hydrocortisone
+x03n9	Hydrocortisone acetate+neomycin sulphate 1.5%/0.5% eye drops
+x01NT	Rectal hydrocortisone preparations
+ai13.	Cortenema 100mg/60mL enema
+x01NS	Hydrocortisone eye ointment
+x01NU	Topical compound hydrocortisone preparation
+x01NW	Eczederm+hydrocortisone cream
+m445.	Eczederm+hydrocort cream 25g
+x01NV	Framycort ointment
+m456.	Framycort ointment 15g
+m45i.	Nybadex ointment
+m45h.	Hydroderm ointment
+k662.	Cortucid eye ointment
+x01NZ	Parenteral hydrocortisone
+j422.	Hydrocortistab 125mg injection
+x01Na	Oral hydrocortisone
+x040J	Vioform Hydrocortisone
+x040r	Canesten Hydrocortisone
+x041S	Eurax-Hydrocortisone
+x05r9	Exe-Cort Hydrocortisone
+x03zE	Colifoam
+x02b0	Efcortesol
+x03x5	Efcortelan
+x049g	Hydrocortone
+k663.	Framycort eye drops 5mL
+k665.	Framycort eye ointment 3.5g
+l341.	Framycort ear drops 5mL
+x01H7	Framycort eye ointment
+x01H8	Framycort eye drops
+x01H9	Framycort ear drops
+x02f9	Hydrocortistab
+x05md	Zenoxone
+mea2.	Nystaform cream 30g
+mea3.	Nystaform ointment 30g
+x01Ib	Nystaform ointment
+x027n	Nystaform cream
+x046L	Nystaform
+x046M	Nystaform-HC
+aj19.	Proctofoam-HC foam 24g
+aj1s.	Proctofoam-HC foam 21.2g
+x00MH	Proctofoam HC foam
+x03wf	Proctofoam HC
+aj1i.	Xyloproct ointment 30g
+aj1j.	Xyloproct suppository x10
+aj1t.	Xyloproct ointment 20g
+x00XZ	Xyloproct ointment
+x00eD	Xyloproct suppository
+x03sL	Xyloproct
+aj1a.	Proctosedyl ointment 30g
+aj1b.	Proctosedyl suppository
+x00XM	Proctosedyl ointment
+x03wg	Proctosedyl
+aj1g.	Uniroid ointment 15g
+aj1h.	Uniroid suppository
+aj1k.	Uniroid-HC ointment 30g
+aj1l.	Uniroid-HC suppository
+x00XV	Uniroid-HC ointment
+x01Nt	Uniroid ointment
+x02tn	Uniroid-HC
+x02gv	Lanacort
+x043A	Gentisone HC
+x043P	Gregoderm
+x02ZD	Dermacort
+x03xY	Dioderm
+x02eX	HC45
+ah1E.	Germoloids HC spray 30mL
