@@ -1,3 +1,18 @@
+Only outstanding are:
+
+- await SLE code set from PI
+- decide whether to look for SLE and hepatitis in HES as well as GP - does it add many people?
+- RDE check
+
+DROP TABLE IF EXISTS APCS_SLE;
+CREATE TEMPORARY TABLE APCS_SLE AS
+select SUBSTRING("Der_Pseudo_NHS_Number", 2)::INT AS "GmPseudo", MIN(CAST("Admission_Date" AS DATE)) AS "SLEDate"
+from INTERMEDIATE.national_flows_apc."tbl_Data_SUS_APCS"
+where contains(lower("Der_Diagnosis_All"), 'm321') -- Systemic lupus erythematosus with organ or system involvement
+or contains(lower("Der_Diagnosis_All"), 'm328') -- Other forms of systemic lupus erythematosus
+or contains(lower("Der_Diagnosis_All"), 'm329') -- Systemic lupus erythematosus, unspecified
+group by SUBSTRING("Der_Pseudo_NHS_Number", 2)::INT;
+
 # General
 
 - Send SLE code set to double check
@@ -11,8 +26,8 @@
 
 - would format of PatientId, Date, MedicationCategory, Medication, Dose work instead?
   YES
-- Need to add hydrochlorquine and chlorquine code sets once we have table in snowflake
-- Need to link back to gmpseudo
+  DONE- Need to add hydrochlorquine and chlorquine code sets once we have table in snowflake
+  DONE- Need to link back to gmpseudo
 
 # comorbidities
 
@@ -21,7 +36,7 @@
   YES
 - viral hepatitis (A, B, C and D) - combined or separate?
   SEPARATE
-- just need to check syntax of code set usage
+  DONE- just need to check syntax of code set usage
 
 # infections / vaccines
 
@@ -45,21 +60,11 @@ PreviousSmear (ever y/n)
 SmearDates
 SmearResults (for each smear documented)
 
-PNEUVACDRUG_COD Pneumococcal vaccine drug codes
-PCVDRUG_COD Pneumococcal conjugate vaccines
-
-SFLUGPDRUG_COD Seasonal influenza inactivated vaccine codes
-INTGPDRUG_COD Intranasal seasonal influenza vaccine drug codes
-
-SHVACGP_COD
-SHVACGP1_COD
-SHVACGP2_COD
-
-HPVVACDRUG_COD HPV vaccine drug codes
+ALL DONE
 
 # mortality
 
-- cause of death - we can provide the ICD10 code - do you want it mapping to a description?
+DONE- cause of death - we can provide the ICD10 code - do you want it mapping to a description?
 
 ## Appear under Immunosuppression_Drugs
 
