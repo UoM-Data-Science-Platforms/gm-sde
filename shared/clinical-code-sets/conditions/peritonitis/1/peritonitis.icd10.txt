@@ -1,0 +1,13 @@
+K352	Acute appendicitis with generalized peritonitis
+K353	Acute appendicitis with localized peritonitis
+K650	Acute peritonitis
+K658	Other peritonitis
+K659	Peritonitis, unspecified
+K678	Other disorders of peritoneum in infectious diseases classified elsewhere
+N733	Female acute pelvic peritonitis
+N734	Female chronic pelvic peritonitis
+N735	Female pelvic peritonitis, unspecified
+N738	Other specified female pelvic inflammatory diseases
+N739	Female pelvic inflammatory disease, unspecified
+O080	Genital tract and pelvic infection following abortion and ectopic and molar pregnancy
+P781	Other neonatal peritonitis

@@ -1,0 +1,10 @@
+N10X	Acute tubulo-interstitial nephritis
+N12X	Tubulo-interstitial nephritis, not specified as acute or chronic
+N110	Nonobstructive reflux-associated chronic pyelonephritis
+N111	Chronic obstructive pyelonephritis
+N118	Other chronic tubulo-interstitial nephritis
+N119	Chronic tubulo-interstitial nephritis, unspecified
+N136	Pyonephrosis
+N137	Vesicoureteral-reflux-associated uropathy
+N151	Renal and perinephric abscess
+O230	Infections of kidney in pregnancy

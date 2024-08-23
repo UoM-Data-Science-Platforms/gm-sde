@@ -1,0 +1,25 @@
+A395	Meningococcal heart disease
+A520	Cardiovascular syphilis
+B332	Viral carditis
+B376	Candidal endocarditis
+D868	Sarcoidosis of other and combined sites
+I010	Acute rheumatic pericarditis
+I011	Acute rheumatic endocarditis
+I012	Acute rheumatic myocarditis
+I38X	Endocarditis, valve unspecified
+I090	Rheumatic myocarditis
+I092	Chronic rheumatic pericarditis
+I300	Acute nonspecific idiopathic pericarditis
+I301	Infective pericarditis
+I330	Acute and subacute infective endocarditis
+I339	Acute endocarditis, unspecified
+I398	Endocarditis, valve unspecified, in diseases classified elsewhere
+I400	Infective myocarditis
+I401	Isolated myocarditis
+I408	Other acute myocarditis
+I409	Acute myocarditis, unspecified
+I410	Myocarditis in bacterial diseases classified elsewhere
+I411	Myocarditis in viral diseases classified elsewhere
+I412	Myocarditis in other infectious and parasitic diseases classified elsewhere
+I418	Myocarditis in other diseases classified elsewhere
+I514	Myocarditis, unspecified

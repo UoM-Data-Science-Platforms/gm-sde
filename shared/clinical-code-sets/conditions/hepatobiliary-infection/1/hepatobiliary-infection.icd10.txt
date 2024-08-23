@@ -1,0 +1,37 @@
+A064	Amoebic liver abscess
+B150	Hepatitis A with hepatic coma
+B159	Hepatitis A without hepatic coma
+B160	Acute hepatitis B with delta-agent (coinfection) with hepatic coma
+B161	Acute hepatitis B with delta-agent (coinfection) without hepatic coma
+B162	Acute hepatitis B without delta-agent with hepatic coma
+B169	Acute hepatitis B without delta-agent and without hepatic coma
+B178	Other specified acute viral hepatitis
+B179	Acute viral hepatitis, unspecified
+B181	Chronic viral hepatitis B without delta-agent
+B182	Chronic viral hepatitis C
+B188	Other chronic viral hepatitis
+B189	Chronic viral hepatitis, unspecified
+B190	Unspecified viral hepatitis with hepatic coma
+B199	Unspecified viral hepatitis without hepatic coma
+B251	Cytomegaloviral hepatitis
+B581	Toxoplasma hepatitis
+K713	Toxic liver disease with chronic persistent hepatitis
+K715	Toxic liver disease with chronic active hepatitis
+K730	Chronic persistent hepatitis, not elsewhere classified
+K731	Chronic lobular hepatitis, not elsewhere classified
+K732	Chronic active hepatitis, not elsewhere classified
+K738	Other chronic hepatitis, not elsewhere classified
+K739	Chronic hepatitis, unspecified
+K750	Abscess of liver
+K770	Liver disorders in infectious and parasitic diseases classified elsewhere
+K800	Calculus of gallbladder with acute cholecystitis
+K801	Calculus of gallbladder with other cholecystitis
+K802	Calculus of gallbladder without cholecystitis
+K803	Calculus of bile duct with cholangitis
+K804	Calculus of bile duct with cholecystitis
+K805	Calculus of bile duct without cholangitis or cholecystitis
+K810	Acute cholecystitis
+K811	Chronic cholecystitis
+K818	Other cholecystitis
+K819	Cholecystitis, unspecified
+K830	Cholangitis

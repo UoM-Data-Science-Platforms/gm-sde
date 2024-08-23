@@ -1,0 +1,50 @@
+A181	Tuberculosis of genitourinary system
+A510	Primary genital syphilis
+A513	Secondary syphilis of skin and mucous membranes
+A540	Gonococcal infection of lower genitourinary tract without periurethral or accessory gland abscess
+A541	Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess
+A542	Gonococcal pelviperitonitis and other gonococcal genitourinary infections
+A560	Chlamydial infection of lower genitourinary tract
+A561	Chlamydial infection of pelviperitoneum and other genitourinary organs
+A562	Chlamydial infection of genitourinary tract, unspecified
+A568	Sexually transmitted chlamydial infection of other sites
+A590	Urogenital trichomoniasis
+A748	Other chlamydial diseases
+A749	Chlamydial infection, unspecified
+B373	Candidiasis of vulva and vagina
+B374	Candidiasis of other urogenital sites
+N342	Other urethritis
+N410	Acute prostatitis
+N411	Chronic prostatitis
+N413	Prostatocystitis
+N450	Orchitis, epididymitis and epididymo-orchitis with abscess
+N459	Orchitis, epididymitis and epididymo-orchitis without abscess
+N490	Inflammatory disorders of seminal vesicle
+N491	Inflammatory disorders of spermatic cord, tunica vaginalis and vas deferens
+N492	Inflammatory disorders of scrotum
+N498	Inflammatory disorders of other specified male genital organs
+N499	Inflammatory disorder of unspecified male genital organ
+N700	Acute salpingitis and oophoritis
+N701	Chronic salpingitis and oophoritis
+N709	Salpingitis and oophoritis, unspecified
+N710	Acute inflammatory disease of uterus
+N711	Chronic inflammatory disease of uterus
+N719	Inflammatory disease of uterus, unspecified
+N730	Acute parametritis and pelvic cellulitis
+N731	Chronic parametritis and pelvic cellulitis
+N732	Unspecified parametritis and pelvic cellulitis
+N738	Other specified female pelvic inflammatory diseases
+N739	Female pelvic inflammatory disease, unspecified
+N742	Female syphilitic pelvic inflammatory disease
+N744	Female chlamydial pelvic inflammatory disease
+N748	Female pelvic inflammatory disorders in other diseases classified elsewhere
+N760	Acute vaginitis
+N762	Acute vulvitis
+N763	Subacute and chronic vulvitis
+N764	Abscess of vulva
+N768	Other specified inflammation of vagina and vulva
+N770	Ulceration of vulva in infectious and parasitic diseases classified elsewhere
+N771	Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic diseases classified elsewhere
+N778	Vulvovaginal ulceration and inflammation in other diseases classified elsewhere
+N952	Postmenopausal atrophic vaginitis
+O080	Genital tract and pelvic infection following abortion and ectopic and molar pregnancy

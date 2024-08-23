@@ -1,0 +1,16 @@
+A46X	Erysipelas
+A260	Cutaneous erysipeloid
+A269	Erysipeloid, unspecified
+H601	Cellulitis of external ear
+K122	Cellulitis and abscess of mouth
+L00X	Staphylococcal scalded skin syndrome
+L030	Cellulitis of finger and toe
+L031	Cellulitis of other parts of limb
+L032	Cellulitis of face
+L033	Cellulitis of trunk
+L038	Cellulitis of other sites
+L039	Cellulitis, unspecified
+L080	Pyoderma
+L983	Eosinophilic cellulitis [Wells]
+N730	Acute parametritis and pelvic cellulitis
+N732	Unspecified parametritis and pelvic cellulitis

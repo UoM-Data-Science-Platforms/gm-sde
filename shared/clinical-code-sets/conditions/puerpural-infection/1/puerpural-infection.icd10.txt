@@ -1,0 +1,13 @@
+O85X	Puerperal sepsis
+O411	Infection of amniotic sac and membranes
+O860	Infection of obstetric surgical wound
+O864	Pyrexia of unknown origin following delivery
+O861	Other infection of genital tract following delivery
+O868	Other specified puerperal infections
+O910	Infection of nipple associated with childbirth
+O912	Nonpurulent mastitis associated with childbirth
+O984	Viral hepatitis complicating pregnancy, childbirth and the puerperium
+O985	Other viral diseases complicating pregnancy, childbirth and the puerperium
+O988	Other maternal infectious and parasitic diseases complicating pregnancy, childbirth and the puerperium
+O989	Unspecified maternal infectious or parasitic disease complicating pregnancy, childbirth and the puerperium
+O992	Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium

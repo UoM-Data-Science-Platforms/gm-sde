@@ -1,0 +1,17 @@
+A480	Gas gangrene
+A544	Gonococcal infection of musculoskeletal system
+K437	Other and unspecified ventral hernia with gangrene
+K439	Other and unspecified ventral hernia without obstruction or gangrene
+M331	Other dermatomyositis
+M332	Polymyositis
+M339	Dermatopolymyositis, unspecified
+M360	Dermato(poly)myositis in neoplastic disease
+M600	Infective myositis
+M601	Interstitial myositis
+M602	Foreign body granuloma of soft tissue, not elsewhere classified
+M608	Other myositis
+M609	Myositis, unspecified
+M632	Myositis in other infectious diseases classified elsewhere
+M633	Myositis in sarcoidosis
+M726	Necrotizing fasciitis
+R02X	Gangrene, not elsewhere classified

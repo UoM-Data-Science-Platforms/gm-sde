@@ -219,10 +219,10 @@ async function generateSql(project, projectName, templates, isSnowflake, config)
     const outputName = templateName.replace('.template', '');
 
     if (isSnowflake) {
-      const finalSQL = sql
+      const finalSQL = `USE SCHEMA ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES};\n\n${sql
         .replace(/\{\{code-set-table\}\}/g, codeSetTableName)
         .replace(/\{\{cohort-table\}\}/g, cohortTableName)
-        .replace(/\{\{project-schema\}\}/g, config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA);
+        .replace(/\{\{project-schema\}\}/g, config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA)}`;
 
       writeFileSync(join(OUTPUT_DIRECTORY, outputName), finalSQL);
     } else {
