@@ -132,8 +132,8 @@ AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM SDE_REPOSITORY.SHARED_UTILIT
 
 -- Get Lupus neprhitis
 -- >>> Following code sets injected: lupus-nephritis v1
-DROP TABLE IF EXISTS LH004_lupus_neprhritis;
-CREATE TEMPORARY TABLE LH004_lupus_neprhritis AS
+DROP TABLE IF EXISTS LH004_lupus_nephritis;
+CREATE TEMPORARY TABLE LH004_lupus_nephritis AS
 SELECT "FK_Patient_ID", MIN("EventDate") AS "FirstLupusNephritisDiagnosis"
 FROM LH004_cohort_codes
 WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_04_Bruce" WHERE concept = 'lupus-nephritis')
@@ -220,7 +220,7 @@ FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce" sle
     LEFT OUTER JOIN LH004_hdl hdl ON hdl."GmPseudo" = sle."GmPseudo"
     LEFT OUTER JOIN LH004_ldl ldl ON ldl."GmPseudo" = sle."GmPseudo"
     LEFT OUTER JOIN LH004_triglycerides triglycerides ON triglycerides."GmPseudo" = sle."GmPseudo"
-    LEFT OUTER JOIN LH004_lupus_neprhritis nephritis ON nephritis."FK_Patient_ID" = sle."FK_Patient_ID"
+    LEFT OUTER JOIN LH004_lupus_nephritis nephritis ON nephritis."FK_Patient_ID" = sle."FK_Patient_ID"
     LEFT OUTER JOIN LH004_ckd_1 ckd1 ON ckd1."FK_Patient_ID" = sle."FK_Patient_ID"
     LEFT OUTER JOIN LH004_ckd_2 ckd2 ON ckd2."FK_Patient_ID" = sle."FK_Patient_ID"
     LEFT OUTER JOIN LH004_ckd_3 ckd3 ON ckd3."FK_Patient_ID" = sle."FK_Patient_ID"
