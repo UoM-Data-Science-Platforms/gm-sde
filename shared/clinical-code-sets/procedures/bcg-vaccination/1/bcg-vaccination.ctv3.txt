@@ -14,3 +14,9 @@ XaLK7	Booster BCG vaccination
 653..	BCG vaccination
 n423.	BCG percutaneous vaccine
 653..	BCG administration
+x0018	Bacillus Calmette-Guerin injection used in malignancy
+x05Zp	ImmuCyst 81mg injection (pdr for recon)
+x00S2	Oncotice injection (pdr for recon)+diluent
+x00Rz	Immucyst injection (pdr for recon)+diluent
+x05GP	Bacillus Calmette-Guerin used in malignancy
+x05GR	OncoTICE 12.5mg powder for reconstitution

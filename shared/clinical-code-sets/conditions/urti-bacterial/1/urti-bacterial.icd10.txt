@@ -1,0 +1,51 @@
+A38X	Scarlet fever
+A361	Nasopharyngeal diphtheria
+A362	Laryngeal diphtheria
+A368	Other diphtheria
+A369	Diphtheria, unspecified
+A378	Whooping cough due to other Bordetella species
+A379	Whooping cough, unspecified
+A545	Gonococcal pharyngitis
+A691	Other Vincent infections
+B053	Measles complicated by otitis media
+H650	Acute serous otitis media
+H651	Other acute nonsuppurative otitis media
+H652	Chronic serous otitis media
+H653	Chronic mucoid otitis media
+H654	Other chronic nonsuppurative otitis media
+H659	Nonsuppurative otitis media, unspecified
+H660	Acute suppurative otitis media
+H661	Chronic tubotympanic suppurative otitis media
+H662	Chronic atticoantral suppurative otitis media
+H663	Other chronic suppurative otitis media
+H664	Suppurative otitis media, unspecified
+H669	Otitis media, unspecified
+H678	Otitis media in other diseases classified elsewhere
+H680	Eustachian salpingitis
+H700	Acute mastoiditis
+H701	Chronic mastoiditis
+H708	Other mastoiditis and related conditions
+H709	Mastoiditis, unspecified
+H730	Acute myringitis
+H731	Chronic myringitis
+H750	Mastoiditis in infectious and parasitic diseases classified elsewhere
+J010	Acute maxillary sinusitis
+J011	Acute frontal sinusitis
+J012	Acute ethmoidal sinusitis
+J013	Acute sphenoidal sinusitis
+J014	Acute pansinusitis
+J018	Other acute sinusitis
+J019	Acute sinusitis, unspecified
+J020	Streptococcal pharyngitis
+J028	Acute pharyngitis due to other specified organisms
+J029	Acute pharyngitis, unspecified
+J030	Streptococcal tonsillitis
+J038	Acute tonsillitis due to other specified organisms
+J039	Acute tonsillitis, unspecified
+J040	Acute laryngitis
+J041	Acute tracheitis
+J042	Acute laryngotracheitis
+J051	Acute epiglottitis
+J328	Other chronic sinusitis
+J329	Chronic sinusitis, unspecified
+J371	Chronic laryngotracheitis

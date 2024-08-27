@@ -51,3 +51,196 @@
 ^ESCTVE304532	Verruca necrogenica
 ^ESCTWA304533	Warty tuberculosis
 EMISNQTU1	Tuberculosis of urinary tract
+^ESCT1165577	Myositis caused by Mycobacterium tuberculosis
+^ESCT1165578	Tuberculous myositis
+^ESCT1165579	Infection of digestive system caused by Mycobacterium tuberculosis
+^ESCT1165580	Tuberculosis of digestive system
+^ESCT1165581	Infection of endocrine gland caused by Mycobacterium tuberculosis
+^ESCT1165582	Tuberculosis of endocrine gland
+^ESCT1165585	Human immunodeficiency virus World Health Organization 2007 stage 1 co-occurrent with tuberculosis
+^ESCT1165586	WHO 2007 HIV infection clinical stage 1 and tuberculosis
+^ESCT1165589	Human immunodeficiency virus World Health Organization 2007 stage 2 co-occurrent with tuberculosis
+^ESCT1165590	WHO 2007 HIV infection clinical stage 2 and tuberculosis
+^ESCT1165593	Human immunodeficiency virus World Health Organization 2007 stage 3 co-occurrent with tuberculosis
+^ESCT1165594	WHO 2007 HIV infection clinical stage 3 and tuberculosis
+^ESCT1165597	Human immunodeficiency virus World Health Organization 2007 stage 4 co-occurrent with tuberculosis
+^ESCT1165598	WHO 2007 HIV infection clinical stage 4 and tuberculosis
+^ESCT1349373	Ghon complex
+^ESCT1349374	Tubercular lesion of lung
+^ESCT1349375	Ghon tubercle
+^ESCT1391081	Tuberculosis of placenta
+^ESCT1391189	Tuberculosis of inner ear
+^ESCT1391190	Tuberculosis of middle ear
+^ESCT1394307	Dacryoadenitis caused by Mycobacterium tuberculosis
+^ESCT1394308	Mycobacterium tuberculosis dacryoadenitis
+^ESCT1394309	Tuberculous dacryoadenitis
+^ESCT1395086	Hydrocephalus due to tuberculosis of brain
+^ESCT1395087	Tuberculosis hydrocephalus
+^ESCT1395794	Infection of eyelid caused by Mycobacterium tuberculosis
+^ESCT1395795	Involvement of eyelid in tuberculosis
+^ESCT1396451	Panuveitis caused by Mycobacterium tuberculosis
+^ESCT1396452	Tuberculosis panuveitis
+^ESCT1408591	Tuberculous myelitis
+^ESCTAC290998	Acute tuberculosis
+^ESCTAC344831	Acute diffuse tuberculosis
+^ESCTAC477641	Acute tuberculous pericarditis
+^ESCTAC514691	Acute tuberculous ulcer
+^ESCTAC514692	Acute miliary cutaneous tuberculosis
+^ESCTAC706896	Active tuberculosis
+^ESCTAC785757	Acute miliary tuberculosis of single site
+^ESCTAD474131	Addison's disease due to tuberculosis
+^ESCTAN684331	Antibiotic resistant tuberculosis
+^ESCTCA487329	Caseating tuberculoid granuloma
+^ESCTCH286644	Chronic tuberculosis
+^ESCTCH351602	Chronic miliary tuberculosis
+^ESCTCH367026	Chronic granulomatous tuberculosis
+^ESCTCH474126	Chronic tuberculous iridocyclitis
+^ESCTCO739615	Constrictive pericarditis due to Mycobacterium tuberculosis complex
+^ESCTCO739617	Constrictive pericarditis caused by Mycobacterium tuberculosis complex
+^ESCTCU358922	Cutaneous tuberculosis
+^ESCTCU514695	Cutaneous tuberculous gumma
+^ESCTDR701243	Drug resistant tuberculosis
+^ESCTEX699063	Extensively drug resistant tuberculosis
+^ESCTEX699064	Extreme drug resistant tuberculosis
+^ESCTEX699065	Extremely drug resistant tuberculosis
+^ESCTEX796099	Extrapulmonary tuberculosis co-occurrent with human immunodeficiency virus infection
+^ESCTEX796100	Extrapulmonary TB (tuberculosis) co-occurrent with HIV (human immunodeficiency virus) infection
+^ESCTGE471162	Generalized tuberculosis
+^ESCTGE471163	Generalised tuberculosis
+^ESCTGE565384	Genital tuberculosis
+^ESCTIN637553	Infection due to Mycobacterium microti
+^ESCTIN637554	Infection caused by Mycobacterium microti
+^ESCTIN637622	Infection due to Mycobacterium africanum
+^ESCTIN637623	Infection caused by Mycobacterium africanum
+^ESCTIN637624	Infection due to mycobacterium tuberculosis hominis
+^ESCTIN637625	Infection caused by mycobacterium tuberculosis hominis
+^ESCTIN638137	Infection due to Mycobacterium bovis
+^ESCTIN638138	Infection caused by Mycobacterium bovis
+^ESCTIN638283	Infection due to Mycobacterium tuberculosis
+^ESCTIN638284	Infection caused by Mycobacterium tuberculosis
+^ESCTIN782198	Infection of musculoskeletal system caused by Mycobacterium tuberculosis
+^ESCTIR846747	Iridocyclitis due to tuberculosis
+^ESCTKE477323	Keratitis caused by tuberculosis
+^ESCTLA727650	Lady Windermere syndrome
+^ESCTLU771886	Lupus vulgaris of nose
+^ESCTME514696	Metastatic tuberculous ulcer
+^ESCTMI367027	Miliary granuloma of tuberculosis
+^ESCTMY761313	Mycobacterial lymphadenitis
+^ESCTNA256628	Nasal tuberculosis
+^ESCTOR507464	Oral tuberculosis
+^ESCTOR725493	Orificial tuberculosis
+^ESCTPE739605	Pericarditis with pericardial effusion due to Mycobacterium tuberculosis complex
+^ESCTPE739607	Pericarditis with pericardial effusion caused by Mycobacterium tuberculosis complex
+^ESCTPO307971	Pott's disease
+^ESCTPO332653	Postprimary tuberculosis
+^ESCTPR748799	Primary tuberculous complex confirmed by culture
+^ESCTPR748800	Primary tuberculous complex confirmed histologically
+^ESCTPR748801	Primary tuberculous complex confirmed by microscopic examination
+^ESCTPR748803	Primary tuberculous complex confirmed
+^ESCTPR748804	Primary tuberculous complex with bacteriological or histological examination results unknown
+^ESCTRE332650	Reactivation tuberculosis
+^ESCTRE332651	Reinfection tuberculosis
+^ESCTRE733243	Reinfection pulmonary tuberculosis
+^ESCTRE733244	Reinfection respiratory tuberculosis
+^ESCTRE733344	Relapse pulmonary tuberculosis
+^ESCTRE733345	Relapse respiratory tuberculosis
+^ESCTRE753298	Respiratory tuberculosis
+^ESCTSE332652	Secondary tuberculosis
+^ESCTSI505543	Silicotuberculosis
+^ESCTTB301956	TB - Tuberculous cystitis
+^ESCTTB321405	TB - Renal tuberculosis
+^ESCTTB344953	TB - Tuberculous meningitis
+^ESCTTB344954	TBM - Tuberculous meningitis
+^ESCTTB382304	TB - Tuberculosis of ureter
+^ESCTTB565385	TB - Genital tuberculosis
+^ESCTTB701797	TB, extrapulmonary
+^ESCTTB932589	TB (tuberculosis) in childbirth
+^ESCTTU256627	Tuberculosis of nose
+^ESCTTU257058	Tuberculous ascites
+^ESCTTU263165	Tuberculosis of subcutaneous cellular tissue
+^ESCTTU264094	Tuberculosis orificialis of anus
+^ESCTTU267323	Tuberculous lymphadenopathy
+^ESCTTU267324	Tuberculosis of lymph node
+^ESCTTU270155	Tuberculosis of brain
+^ESCTTU270621	Tuberculosis of seminal vesicle
+^ESCTTU271497	Tuberculous tenosynovitis
+^ESCTTU272473	Tuberculosis of hip
+^ESCTTU272474	Tuberculosis of hip joint
+^ESCTTU274096	Tuberculoma
+^ESCTTU274235	Tuberculosis of oesophagus
+^ESCTTU274236	Tuberculosis of esophagus
+^ESCTTU277193	Tuberculosis of knee
+^ESCTTU277194	Tuberculosis of knee joint
+^ESCTTU289621	Tuberculosis orificialis of mouth
+^ESCTTU295606	Tuberculosis of spleen
+^ESCTTU307972	Tuberculous spondylitis
+^ESCTTU311651	Tuberculous osteitis
+^ESCTTU321167	Tuberculous necrosis of bone
+^ESCTTU321835	Tuberculosis of peritoneum
+^ESCTTU321837	Tuberculosis (TB) peritonitis
+^ESCTTU326459	Tuberculosis of myocardium
+^ESCTTU328017	Tuberculous disseminated chorioretinitis
+^ESCTTU330213	Tuberculosis (TB) salpingitis
+^ESCTTU330620	Tuberculous dactylitis
+^ESCTTU335929	Tuberculosis of endocardium
+^ESCTTU339986	Tuberculosis of glottis
+^ESCTTU344951	Tuberculosis of meninges
+^ESCTTU347660	Tuberculosis of intestines
+^ESCTTU347661	Tuberculosis of intestine
+^ESCTTU347662	Tuberculosis of intestinal tract
+^ESCTTU352120	Tuberculosis (TB) of uterine cervix
+^ESCTTU353776	Tuberculous chancre
+^ESCTTU358919	Tuberculosis of skin
+^ESCTTU358921	Tuberculoderma
+^ESCTTU359400	Tuberculosis of pericardium
+^ESCTTU359401	Tuberculous pericarditis
+^ESCTTU366119	Tuberculosis of mastoid process
+^ESCTTU368389	Tuberculous polyserositis
+^ESCTTU381978	Tuberculosis of bones of lower extremity
+^ESCTTU382608	Tuberculosis of lung with involvement of bronchus
+^ESCTTU386111	Tuberculosis of epididymis
+^ESCTTU386112	Tuberculous epididymitis
+^ESCTTU389678	Tuberculous otitis media
+^ESCTTU420019	Tuberculosis of conjunctiva
+^ESCTTU420020	Tuberculous conjunctivitis
+^ESCTTU473312	Tuberculosis of adrenal glands
+^ESCTTU474129	Tuberculous Addison's disease
+^ESCTTU474132	Tuberculous Addison disease
+^ESCTTU479607	Tuberculosis in mother complicating pregnancy, childbirth AND/OR puerperium
+^ESCTTU481953	Tuberculosis of humerus
+^ESCTTU481961	Tuberculosis of the bones of the ankle and/or foot
+^ESCTTU505392	Tuberculous chylothorax
+^ESCTTU505584	Tuberculous bronchopleural fistula
+^ESCTTU505987	Tuberculous mesenteric adenitis
+^ESCTTU508440	Tuberculous duodenitis
+^ESCTTU509645	Tuberculous stricture of ureter
+^ESCTTU509744	Tuberculous urethritis
+^ESCTTU509845	Tuberculous epididymo-orchitis
+^ESCTTU510738	Tuberculosis of breast
+^ESCTTU514693	Tuberculosis cutis miliaris disseminata
+^ESCTTU514694	Tuberculosis cutis acuta generalisata
+^ESCTTU549984	Tuberculosis in pregnancy
+^ESCTTU549985	Tuberculosis+pregnancy
+^ESCTTU589942	Tuberculosis of colon
+^ESCTTU590329	Tuberculosis of heart
+^ESCTTU604156	Tuberculous uveitis
+^ESCTTU697419	Tuberculosis associated with AIDS
+^ESCTTU697420	Tuberculosis associated with acquired immunodeficiency syndrome
+^ESCTTU701796	Tuberculosis, extrapulmonary
+^ESCTTU725494	Tuberculosis of external body orifice
+^ESCTTU732954	Tuberculosis of oropharynx
+^ESCTTU733313	Tuberculous pleural effusion
+^ESCTTU733355	Tuberculosis of spinal cord
+^ESCTTU733703	Tuberculous arachnoiditis
+^ESCTTU733831	Tuberculosis of abdomen
+^ESCTTU733892	Tuberculous ileitis
+^ESCTTU733893	Tuberculosis of ileum
+^ESCTTU737687	Tuberculosis of bone of upper limb
+^ESCTTU739606	Tuberculous pericarditis with pericardial effusion
+^ESCTTU739616	Tuberculous constrictive pericarditis
+^ESCTTU748802	Tuberculoma of spinal cord confirmed
+^ESCTTU753299	Tuberculosis of respiratory system
+^ESCTTU776123	Tuberculous ulceration of vulva
+^ESCTTU782199	Tuberculosis of musculoskeletal system
+^ESCTTU846748	Tuberculous neuritis
+^ESCTTU932588	Tuberculosis in mother complicating childbirth

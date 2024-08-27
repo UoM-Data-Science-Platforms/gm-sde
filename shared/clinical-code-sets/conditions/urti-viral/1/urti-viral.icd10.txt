@@ -1,0 +1,32 @@
+A564	Chlamydial infection of pharynx
+A665	Gangosa
+A691	Other Vincent infections
+B002	Herpesviral gingivostomatitis and pharyngotonsillitis
+B085	Enteroviral vesicular pharyngitis
+B302	Viral pharyngoconjunctivitis
+B974	Respiratory syncytial virus as the cause of diseases classified to other chapters
+H671	Otitis media in viral diseases classified elsewhere
+J00X	Acute nasopharyngitis [common cold]
+J09X	Influenza due to identified zoonotic or pandemic influenza virus
+J019	Acute sinusitis, unspecified
+J028	Acute pharyngitis due to other specified organisms
+J029	Acute pharyngitis, unspecified
+J038	Acute tonsillitis due to other specified organisms
+J039	Acute tonsillitis, unspecified
+J040	Acute laryngitis
+J042	Acute laryngotracheitis
+J051	Acute epiglottitis
+J060	Acute laryngopharyngitis
+J068	Other acute upper respiratory infections of multiple sites
+J069	Acute upper respiratory infection, unspecified
+J101	Influenza with other respiratory manifestations, seasonal influenza virus identified
+J110	Influenza with pneumonia, virus not identified
+J111	Influenza with other respiratory manifestations, virus not identified
+J118	Influenza with other manifestations, virus not identified
+J300	Vasomotor rhinitis
+J310	Chronic rhinitis
+J311	Chronic nasopharyngitis
+J312	Chronic pharyngitis
+J350	Chronic tonsillitis
+J370	Chronic laryngitis
+J371	Chronic laryngotracheitis

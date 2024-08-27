@@ -1,0 +1,9 @@
+ZV02B00	[V]Hepatitis B carrier
+A702.00	Viral hepatitis B with coma
+A702000	Acute hepatitis B with delta agent (coinfection) with hepatic coma
+A703.00	Viral (serum) hepatitis B
+A703000	Acute hepatitis B with delta-agent (coinfection) without hepatic coma
+A705100	Acute delta-(super)infection of hepatitis B carrier
+A707000	Chronic viral hepatitis B with delta-agent
+A707100	Chronic viral hepatitis B without delta-agent
+A707300	Chronic viral hepatitis B

@@ -1,0 +1,3 @@
+A700.00	Viral hepatitis A with coma
+A701.00	Viral (infectious) hepatitis A
+2J23.00	Hepatitis A - current infection

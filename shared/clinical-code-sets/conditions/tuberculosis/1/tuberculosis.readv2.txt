@@ -1,123 +1,222 @@
-A10..	Primary tuberculous infection
-A100.	Primary tuberculous complex
-A101.	Tuberculous pleurisy in primary progressive tuberculosis
-A10y.	Other primary progressive tuberculosis
-A10z.	Primary tuberculous infection NOS
-A11..	Pulmonary tuberculosis
-A11..	Lung tuberculosis
-A110.	Infiltrative lung tuberculosis
-A111.	Nodular lung tuberculosis
-A113.	Tuberculosis of bronchus
-A115.	Tuberculous bronchiectasis
-A116.	Tuberculous pneumonia
-A117.	Tuberculous pneumothorax
-A11y.	Other specified pulmonary tuberculosis
-A11z.	Pulmonary tuberculosis NOS
-A12..	Other respiratory tuberculosis
-A120.	Tuberculous pleurisy
-A1201	Tuberculous empyema
-A1202	Tuberculous hydrothorax
-A120z	Tuberculous pleurisy NOS
-A121.	Tuberculosis of intrathoracic lymph nodes
-A1210	Tuberculosis of hilar lymph nodes
-A1211	Tuberculosis of mediastinal lymph nodes
-A1212	Tuberculosis of tracheobronchial lymph nodes
-A121z	Tuberculosis of intrathoracic lymph nodes NOS
-A122.	Isolated tracheal or bronchial tuberculosis
-A1220	Isolated tracheal tuberculosis
-A1221	Isolated bronchial tuberculosis
-A122z	Isolated tracheal or bronchial tuberculosis NOS
-A123.	Tuberculous laryngitis
-A124.	Respiratory tuberculosis, bacteriologically and histologically confirmed
-A1240	Tuberculosis of lung, confirmed by sputum microscopy with or without culture
-A1241	Tuberculosis of lung, confirmed by culture only
-A1242	Tuberculosis of lung, confirmed histologically
-A1243	Tuberculosis of lung, confirmed by unspecified means
-A1244	Tuberculosis of intrathoracic lymph nodes, confirmed bacteriologically and histologically
-A1245	Tuberculosis of larynx, trachea and bronchus, confirmed bacteriologically and histologically
-A1246	Tuberculous pleurisy, confirmed bacteriologically and histologically
-A1247	Primary respiratory tuberculosis, confirmed bacteriologically and histologically
-A125.	Respiratory tuberculosis, not confirmed bacteriologically or histologically
-A1250	Tuberculosis of lung, bacteriologically and histologically negative
-A1251	Tuberculosis of lung, bacteriological and histological examination not done
-A1252	Primary respiratory tuberculosis without mention of bacteriological or histological confirmation
-A12y.	Other specified respiratory tuberculosis
-A12y0	Tuberculosis of mediastinum
-A12y1	Tuberculosis of nasopharynx
-A12y2	Tuberculosis of nasal septum
-A12y3	Tuberculosis of nasal sinus
-A12yz	Other specified respiratory tuberculosis NOS
-A14..	Tuberculosis of intestines, peritoneum and mesenteric glands
-A14y.	Other gastrointestinal tract tuberculosis
-A14y5	Tuberculosis of retroperitoneal lymph nodes
-A14yz	Other gastrointestinal tract tuberculosis NOS
-A15..	Tuberculosis of bones and joints
-A15..	Tuberculous osteomylelytis
-A15..	Tuberculous arthritis
-A15..	Tuberculous synovitis
-A15z.	Tuberculosis of bones or joints NOS
-A16..	Tuberculosis of genitourinary system
-A163.	Tuberculosis of other urinary organs
-A165.	Tuberculosis of other male genital organs
-A165z	Tuberculosis of other male genital organs NOS
-A167.	Tuberculosis of other female genital organs
-A167z	Tuberculosis of other female genital organs NOS
-A16z.	Genitourinary tuberculosis NOS
-A17..	Tuberculosis of other organs
-A1702	Tuberculosis - scrofuloderma
-A1703	Tuberculosis - lupus NOS
-A1706	Tuberculosis lichenoides
-A1707	Tuberculosis papulonecrotica
-A1708	Tuberculosis verrucosa cutis
-A170z	Tuberculosis of skin and subcutaneous tissue NOS
-A171.	Tuberculosis with erythema nodosum hypersensitivity reaction
-A171z	Erythema nodosum with tuberculosis NOS
-A1720	Tuberculous - cervical lymphadenitis
-A1720	Scrofula - tuberculous cervical lymph nodes
-A1721	Scrofulous tuberculous abscess
-A172z	Tuberculosis of peripheral lymph nodes NOS
-A173.	Tuberculosis of eye
-A173z	Tuberculosis of eye NOS
-A174.	Tuberculosis of ear
-A17y.	Tuberculosis of other specified organs
-A17yz	Tuberculosis of other specified organs NOS
-A17z.	Tuberculosis of other organs NOS
-A18..	Miliary tuberculosis
-A180.	Acute miliary tuberculosis
-A1800	Acute miliary tuberculosis of a single specified site
-A1801	Acute miliary tuberculosis of multiple sites
-A18y.	Other specified miliary tuberculosis
-A18z.	Miliary tuberculosis NOS
-A1y..	Other specified tuberculosis
-A1z..	Tuberculosis NOS
-Ayu10	[X]Other respiratory tuberculosis, confirmed bacteriologically and histologically
-Ayu11	[X]Respiratory tuberculosis unspecified, confirmed bacteriologically and histologically
-Ayu12	[X]Other respiratory tuberculosis, without mention of bacteriological or histological confirmation
-Ayu13	[X]Respiratory tuberculosis unspecified, without mention of bacteriological or histological confirmation
-Ayu14	[X]Other tuberculosis of nervous system
-Ayu15	[X]Tuberculosis of nervous system, unspecified
-Ayu16	[X]Tuberculosis of other specified organs
-Ayu17	[X]Acute miliary tuberculosis, unspecified
-Ayu18	[X]Other miliary tuberculosis
-Ayu19	[X]Miliary tuberculosis, unspecified
-G5320	Concato's disease
-H510.	Pleurisy without effusion or active tuberculosis
-H510z	Pleurisy without effusion or active tuberculosis NOS
-A1...	Tuberculosis
-A1200	Tuberculosis of pleura
-A125X	Respiratory tuberculosis unspecified, without mention of bacteriological or histological confirmation
-A13..	Tuberculosis of meninges and central nervous system
-A13y.	Other specified tuberculosis of central nervous system
-A13z.	Tuberculosis of central nervous system NOS
-A14z.	Tuberculosis of gastrointestinal tract NOS
-A15y.	Tuberculosis of other specified joint
-A166.	Tuberculous oophoritis or salpingitis
-A168.	Tuberculosis of urinary tract
-A1700	Tuberculosis - lupus exedens
-A1701	Tuberculosis - lupus vulgaris
-A1704	Tuberculosis colliquativa
-A1711	Tuberculous erythema nodosum
-A172.	Tuberculosis of peripheral lymph nodes
-Ayu1.	[X]Tuberculosis
-Jyu93	[X]Tuberculous disorders of intestine and mesentery
-N018.	Tuberculous arthritis
+A10..00	Primary tuberculous infection
+A100.00	Primary tuberculous complex
+A101.00	Tuberculous pleurisy in primary progressive tuberculosis
+A10y.00	Other primary progressive tuberculosis
+A10z.00	Primary tuberculous infection NOS
+A11..00	Pulmonary tuberculosis
+A11..00	Lung tuberculosis
+A110.00	Infiltrative lung tuberculosis
+A111.00	Nodular lung tuberculosis
+A113.00	Tuberculosis of bronchus
+A115.00	Tuberculous bronchiectasis
+A116.00	Tuberculous pneumonia
+A117.00	Tuberculous pneumothorax
+A11y.00	Other specified pulmonary tuberculosis
+A11z.00	Pulmonary tuberculosis NOS
+A12..00	Other respiratory tuberculosis
+A120.00	Tuberculous pleurisy
+A120100	Tuberculous empyema
+A120200	Tuberculous hydrothorax
+A120z00	Tuberculous pleurisy NOS
+A121.00	Tuberculosis of intrathoracic lymph nodes
+A121000	Tuberculosis of hilar lymph nodes
+A121100	Tuberculosis of mediastinal lymph nodes
+A121200	Tuberculosis of tracheobronchial lymph nodes
+A121z00	Tuberculosis of intrathoracic lymph nodes NOS
+A122.00	Isolated tracheal or bronchial tuberculosis
+A122000	Isolated tracheal tuberculosis
+A122100	Isolated bronchial tuberculosis
+A122z00	Isolated tracheal or bronchial tuberculosis NOS
+A123.00	Tuberculous laryngitis
+A124.00	Respiratory tuberculosis, bacteriologically and histologically confirmed
+A124000	Tuberculosis of lung, confirmed by sputum microscopy with or without culture
+A124100	Tuberculosis of lung, confirmed by culture only
+A124200	Tuberculosis of lung, confirmed histologically
+A124300	Tuberculosis of lung, confirmed by unspecified means
+A124400	Tuberculosis of intrathoracic lymph nodes, confirmed bacteriologically and histologically
+A124500	Tuberculosis of larynx, trachea and bronchus, confirmed bacteriologically and histologically
+A124600	Tuberculous pleurisy, confirmed bacteriologically and histologically
+A124700	Primary respiratory tuberculosis, confirmed bacteriologically and histologically
+A125.00	Respiratory tuberculosis, not confirmed bacteriologically or histologically
+A125000	Tuberculosis of lung, bacteriologically and histologically negative
+A125100	Tuberculosis of lung, bacteriological and histological examination not done
+A125200	Primary respiratory tuberculosis without mention of bacteriological or histological confirmation
+A12y.00	Other specified respiratory tuberculosis
+A12y000	Tuberculosis of mediastinum
+A12y100	Tuberculosis of nasopharynx
+A12y200	Tuberculosis of nasal septum
+A12y300	Tuberculosis of nasal sinus
+A12yz00	Other specified respiratory tuberculosis NOS
+A14..00	Tuberculosis of intestines, peritoneum and mesenteric glands
+A14y.00	Other gastrointestinal tract tuberculosis
+A14y500	Tuberculosis of retroperitoneal lymph nodes
+A14yz00	Other gastrointestinal tract tuberculosis NOS
+A15..00	Tuberculosis of bones and joints
+A15..00	Tuberculous osteomylelytis
+A15..00	Tuberculous arthritis
+A15..00	Tuberculous synovitis
+A15z.00	Tuberculosis of bones or joints NOS
+A16..00	Tuberculosis of genitourinary system
+A163.00	Tuberculosis of other urinary organs
+A165.00	Tuberculosis of other male genital organs
+A165z00	Tuberculosis of other male genital organs NOS
+A167.00	Tuberculosis of other female genital organs
+A167z00	Tuberculosis of other female genital organs NOS
+A16z.00	Genitourinary tuberculosis NOS
+A17..00	Tuberculosis of other organs
+A170200	Tuberculosis - scrofuloderma
+A170300	Tuberculosis - lupus NOS
+A170600	Tuberculosis lichenoides
+A170700	Tuberculosis papulonecrotica
+A170800	Tuberculosis verrucosa cutis
+A170z00	Tuberculosis of skin and subcutaneous tissue NOS
+A171.00	Tuberculosis with erythema nodosum hypersensitivity reaction
+A171z00	Erythema nodosum with tuberculosis NOS
+A172000	Tuberculous - cervical lymphadenitis
+A172000	Scrofula - tuberculous cervical lymph nodes
+A172100	Scrofulous tuberculous abscess
+A172z00	Tuberculosis of peripheral lymph nodes NOS
+A173.00	Tuberculosis of eye
+A173z00	Tuberculosis of eye NOS
+A174.00	Tuberculosis of ear
+A17y.00	Tuberculosis of other specified organs
+A17yz00	Tuberculosis of other specified organs NOS
+A17z.00	Tuberculosis of other organs NOS
+A18..00	Miliary tuberculosis
+A180.00	Acute miliary tuberculosis
+A180000	Acute miliary tuberculosis of a single specified site
+A180100	Acute miliary tuberculosis of multiple sites
+A18y.00	Other specified miliary tuberculosis
+A18z.00	Miliary tuberculosis NOS
+A1y..00	Other specified tuberculosis
+A1z..00	Tuberculosis NOS
+Ayu1000	[X]Other respiratory tuberculosis, confirmed bacteriologically and histologically
+Ayu1100	[X]Respiratory tuberculosis unspecified, confirmed bacteriologically and histologically
+Ayu1200	[X]Other respiratory tuberculosis, without mention of bacteriological or histological confirmation
+Ayu1300	[X]Respiratory tuberculosis unspecified, without mention of bacteriological or histological confirmation
+Ayu1400	[X]Other tuberculosis of nervous system
+Ayu1500	[X]Tuberculosis of nervous system, unspecified
+Ayu1600	[X]Tuberculosis of other specified organs
+Ayu1700	[X]Acute miliary tuberculosis, unspecified
+Ayu1800	[X]Other miliary tuberculosis
+Ayu1900	[X]Miliary tuberculosis, unspecified
+G532000	Concato's disease
+H510.00	Pleurisy without effusion or active tuberculosis
+H510z00	Pleurisy without effusion or active tuberculosis NOS
+A1...00	Tuberculosis
+A120000	Tuberculosis of pleura
+A125X00	Respiratory tuberculosis unspecified, without mention of bacteriological or histological confirmation
+A13..00	Tuberculosis of meninges and central nervous system
+A13y.00	Other specified tuberculosis of central nervous system
+A13z.00	Tuberculosis of central nervous system NOS
+A14z.00	Tuberculosis of gastrointestinal tract NOS
+A15y.00	Tuberculosis of other specified joint
+A166.00	Tuberculous oophoritis or salpingitis
+A168.00	Tuberculosis of urinary tract
+A170000	Tuberculosis - lupus exedens
+A170100	Tuberculosis - lupus vulgaris
+A170400	Tuberculosis colliquativa
+A171100	Tuberculous erythema nodosum
+A172.00	Tuberculosis of peripheral lymph nodes
+Ayu1.00	[X]Tuberculosis
+Jyu9300	[X]Tuberculous disorders of intestine and mesentery
+N018.00	Tuberculous arthritis
+65Y2.00	Streptomycin resistant tuberculosis
+65Y3.00	Rifampicin resistant tuberculosis
+65Y4.00	Pyrazinamide resistant tuberculosis
+65Y5.00	Isoniazid resistant tuberculosis
+65Y6.00	Ethionamide resistant tuberculosis
+65Y7.00	Ethambutol resistant tuberculosis
+65Y8.00	Ciprofloxacin resistant tuberculosis
+A112.00	Tuberculosis of lung with cavitation
+A114.00	Tuberculous fibrosis of lung
+A130.00	Tuberculous meningitis
+A130000	Tuberculosis of cerebral meninges
+A130100	Tuberculosis of spinal meninges
+A130200	Tuberculous leptomeningitis
+A130300	Tuberculous meningoencephalitis
+A130z00	Tuberculous meningitis NOS
+A131.00	Tuberculoma of meninges
+A132.00	Tuberculoma of brain
+A134.00	Tuberculoma of spinal cord
+A136000	Tuberculous encephalitis
+A140.00	Tuberculous peritonitis
+A14y000	Tuberculosis of anus
+A14y100	Tuberculosis of large intestine
+A14y300	Tuberculosis of mesenteric lymph glands
+A14y400	Tuberculosis of rectum
+A150.00	Tuberculosis of vertebral column - Pott's
+A151.00	Tuberculosis of hip
+A152.00	Tuberculosis of knee
+A154.00	Tuberculous mastoiditis
+A15x.00	Tuberculosis of other specified bones
+A160.00	Tuberculosis of kidney
+A160000	Tuberculous nephropathy
+A160100	Tuberculous pyelitis
+A160200	Tuberculous pyelonephritis
+A160z00	Tuberculosis of kidney NOS
+A161.00	Tuberculosis of bladder
+A162.00	Tuberculosis of ureter
+A164.00	Tuberculosis of epididymis
+A165000	Tuberculosis of prostate
+A165100	Tuberculosis seminal vesicle
+A165200	Tuberculosis of testis
+A166000	Tuberculous oophoritis
+A166100	Tuberculous salpingitis
+A166z00	Tuberculous oophoritis or salpingitis NOS
+A167000	Tuberculous cervicitis
+A167100	Tuberculous endometritis
+A170500	Tuberculosis cutis
+A172200	Tuberculous adenitis
+A173000	Tuberculous chorioretinitis
+A173100	Tuberculous episcleritis
+A173200	Tuberculous interstitial keratitis
+A173300	Tuberculous chronic iridocyclitis
+A173400	Tuberculous keratoconjunctivitis
+A175.00	Tuberculosis of thyroid gland
+A176.00	Tuberculosis of adrenal glands - Addison's disease
+A177.00	Tuberculosis spleen
+A178.00	Tuberculosis oesophagus
+A17y000	Tuberculosis endocardium
+A17y100	Tuberculosis myocardium
+A17y200	Tuberculosis pericardium
+A17y300	Tuberculosis of stomach
+A17y400	Tuberculosis of liver
+A19..00	Disseminated tuberculosis
+A1A..00	Multidrug resistant tuberculosis
+A1A0.00	Extensively drug resistant tuberculosis
+F004.00	Meningitis - tuberculous
+F033300	Encephalitis due to tuberculosis
+F4A5500	Keratitis due to tuberculosis
+G500300	Acute pericarditis - tuberculous
+G520600	Acute myocarditis - tuberculous
+J550200	Peritonitis - tuberculous
+K154800	Cystitis in tuberculosis
+K214300	Prostatitis in tuberculosis
+K43..00	Female tuberculous pelvic inflammatory disease
+L173.00	Maternal tuberculosis during pregnancy, childbirth and the puerperium
+L173000	Maternal tuberculosis, unspecified whether during pregnancy or the puerperium
+L173z00	Maternal tuberculosis during pregnancy, childbirth or the puerperium NOS
+N22yD00	Tuberculous infection of tendon sheath
+N304.00	Tuberculosis of spine (Pott's)
+N304000	Tuberculosis of cervical spine
+N304100	Tuberculosis of thoracic spine
+N304200	Tuberculosis of lumbar spine
+N305.00	Tuberculosis of limb bones
+N305000	Tuberculosis of unspecified limb bone
+N305100	Tuberculosis of the upper arm bone
+N305200	Tuberculosis of the forearm bone
+N305400	Tuberculosis of the lower leg bone
+N305500	Tuberculosis of other limb bones
+N305600	Tuberculosis of multiple limb bones
+N305z00	Tuberculosis of limb bones NOS
+N306.00	Tuberculosis of other bones
+N306000	Tuberculosis of bone, site unspecified
+N306100	Tuberculosis of the bones of the shoulder region
+N306200	Tuberculosis of the bones of the hand
+N306300	Tuberculosis of the bones of the ankle and foot
+N306400	Tuberculosis of the bones of other sites
+N306500	Tuberculosis of the bones of multiple sites
+N306z00	Tuberculosis of bone NOS
+Q402400	Congenital tuberculosis
+A170.00	Tuberculosis of skin and subcutaneous tissue

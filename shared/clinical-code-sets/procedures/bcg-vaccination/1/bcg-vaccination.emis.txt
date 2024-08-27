@@ -6,4 +6,18 @@
 ^ESCTTU318144	Tuberculosis vaccination
 ^ESCTTU318145	Tuberculosis immunization
 ^ESCTTU318147	Tuberculosis immunisation
-BAIN8798EGTON	Bacillus Calmette-Guerin Vaccine  Injection  
+BAIN8798EGTON	Bacillus Calmette-Guerin Vaccine  Injection
+BAIN8800EGTON	Bacillus Calmett-Guerin Vaccine,Isoniazid-Resistant  Injection  
+BCPO132676NEMIS	Bcg Vaccine Ajv  Powder For Suspension For Injection  1 ml vial
+IMBL11823NEMIS	Immucyst  Powder For Intravesical Suspension  81 mg vial
+ONBL10825NEMIS	Oncotice  Powder For Intravesical Suspension  12.5 mg vial
+^ESCT1265607	BCG Vaccine AJV powder for suspension for injection 1ml vials (AJ Vaccines)
+^ESCT1265678	Bacillus Calmette-Guerin vaccine powder for suspension for injection 1ml vials
+^ESCT1399688	Tuberculosis vaccine
+^ESCT1405803	Administration of vaccine product containing only live attenuated Mycobacterium bovis antigen
+^ESCT1410589	OncoTICE 12.5mg powder for reconstitution for instillation vials (Merck Sharp & Dohme (UK) Ltd)
+^ESCTBA1152295	Bacillus Calmette-Guerin vaccine powder and solvent for suspension for injection ampoules
+^ESCTBA915798	Bacillus Calmette-Guerin vaccine powder and solvent for suspension for injection vials (Statens Serum Institut)
+^ESCTIM902831	ImmuCyst 81mg powder for reconstitution for instillation vials (Alliance Pharmaceuticals Ltd)
+^ESCTIN1152201	InterVax BCG vaccine powder and solvent for suspension for injection ampoules (InterVax Ltd)
+^ESCTON902834	OncoTICE 12.5mg powder for reconstitution for instillation vials (Merck Sharp & Dohme Ltd)

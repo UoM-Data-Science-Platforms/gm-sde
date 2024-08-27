@@ -117,3 +117,126 @@ XE2aj	Tuberculosis of peripheral lymph nodes
 XE2uC	Tuberculosis of skin and subcutaneous tissue
 XE2wL	Tuberculous pleural empyema
 XSCD2	Tuberculosis of central nervous system
+A112.	Tuberculosis of lung with cavitation
+A114.	Tuberculous fibrosis of lung
+A1300	Tuberculosis of cerebral meninges
+A1301	Tuberculosis of spinal meninges
+A1302	Tuberculous leptomeningitis
+A1303	Tuberculous meningoencephalitis
+A130z	Tuberculous meningitis NOS
+A131.	Tuberculoma of meninges
+A132.	Tuberculoma of brain
+A140.	Tuberculous peritonitis
+A14y0	Tuberculosis of anus
+A14y1	Tuberculosis of large intestine
+A14y3	Tuberculosis of mesenteric lymph nodes
+A14y4	Tuberculosis of rectum
+A151.	Tuberculosis of hip joint
+A152.	Tuberculosis of knee joint
+A154.	Tuberculous mastoiditis
+A15x.	Tuberculosis of other specified bones
+A160.	Renal tuberculosis
+A1600	Tuberculous nephropathy
+A1601	Tuberculous pyelitis
+A1602	Tuberculous pyelonephritis
+A160z	Tuberculosis of kidney NOS
+A162.	Tuberculosis of ureter
+A164.	Tuberculous epididymitis
+A1651	Tuberculosis of seminal vesicle
+A1652	Tuberculosis of testis
+A1660	Tuberculous oophoritis
+A1661	Tuberculous salpingitis
+A166z	Tuberculous oophoritis or salpingitis NOS
+A1670	Tuberculous cervicitis
+A1671	Tuberculous endometritis
+A1722	Tuberculous adenitis (& peripheral nodes)
+A1730	Tuberculous chorioretinitis
+A1731	Tuberculous episcleritis
+A1732	Tuberculous interstitial keratitis
+A1733	Tuberculous chronic iridocyclitis
+A1734	Tuberculous keratoconjunctivitis
+A175.	Tuberculosis of thyroid gland
+A176.	Tuberculous Addison's disease
+A177.	Tuberculosis of spleen
+A178.	Tuberculosis of oesophagus
+A17y0	Tuberculosis of endocardium
+A17y1	Tuberculosis of myocardium
+A17y2	Tuberculosis of pericardium
+A17y3	Tuberculosis of stomach
+A17y4	Tuberculosis of liver
+F004.	Tuberculous meningitis
+F0333	Tuberculous encephalitis
+F4A55	Keratitis due to tuberculosis
+G5003	Acute tuberculous pericarditis
+G5206	Acute myocarditis - tuberculous
+K1548	Tuberculous cystitis
+K2143	Tuberculous prostatitis
+K43..	Female tuberculous pelvic inflammatory disease
+L173.	Maternal tuberculosis during pregnancy, childbirth and the puerperium
+L1730	Maternal tuberculosis, unspecified whether during pregnancy or the puerperium
+L173z	Maternal tuberculosis during pregnancy, childbirth or the puerperium NOS
+N22yD	Tuberculous infection of tendon sheath
+N3040	Tuberculosis of cervical spine
+N3041	Tuberculosis of thoracic spine
+N3042	Tuberculosis of lumbar spine
+N305.	Tuberculosis of limb bones
+N3050	Tuberculosis of unspecified limb bone
+N3051	Tuberculosis of the upper arm bone
+N3052	Tuberculosis of the forearm bone
+N3054	Tuberculosis of the lower leg bone
+N3055	Tuberculosis of other limb bones
+N3056	Tuberculosis of multiple limb bones
+N305z	Tuberculosis of limb bones NOS
+N306.	Tuberculosis of other bones
+N3060	Tuberculosis of bone, site unspecified
+N3061	Tuberculosis of the bones of the shoulder region
+N3062	Tuberculosis of the bones of the hand
+N3063	Tuberculosis of the bones of the ankle and foot
+N3064	Tuberculosis of the bones of other sites
+N3065	Tuberculosis of the bones of multiple sites
+N306z	Tuberculosis of bone NOS
+Q4024	Congenital tuberculosis
+X00lR	Lupus vulgaris of nose
+X101K	Tuberculous chylothorax
+X103w	Silicotuberculosis
+X104j	Tuberculous bronchopleural fistula
+X206m	Tuberculous mesenteric adenitis
+X20RQ	Oral tuberculosis
+X302J	Tuberculous duodenitis
+X30AC	Tuberculous ascites
+X30N4	Tuberculous stricture of ureter
+X30P3	Tuberculous urethritis
+X400e	Tuberculous epididymo-orchitis
+X40Fa	Tuberculosis of breast
+X40Mg	Tuberculosis of adrenal glands
+X70Gx	Chronic miliary tuberculosis
+X70Gy	Tuberculosis of lymph node
+X70H4	Osteitis cystica tuberculosa multiplex
+X70HA	Tuberculous chancre
+X70HB	Acute tuberculous ulcer
+X70HC	Acute miliary cutaneous tuberculosis
+X70HD	Cutaneous tuberculous gumma
+X70HI	Tuberculous polyserositis
+XE0yI	Tuberculosis in pregnancy
+XSCGD	Disseminated tuberculosis
+Xa1p6	Genital tuberculosis
+Xa86R	Tuberculosis of colon
+Xa8Dm	Tuberculosis of heart
+Xa9Cj	Tuberculosis of spine
+XaEVl	Tuberculous uveitis
+XaKB5	Antibiotic resistant tuberculosis
+XaKB6	Streptomycin resistant tuberculosis
+XaKB7	Rifampicin resistant tuberculosis
+XaKB8	Pyrazinamide resistant tuberculosis
+XaKB9	Isoniazid resistant tuberculosis
+XaKBA	Ethionamide resistant tuberculosis
+XaKBB	Ethambutol resistant tuberculosis
+XaKBC	Ciprofloxacin resistant tuberculosis
+Xac8c	Multidrug resistant tuberculosis
+Xac8d	Extensively drug resistant tuberculosis
+A15..	Tuberculosis of bones and joints
+A170.	Tuberculosis of skin and subcutaneous tissue
+A1702	Tuberculosis cutis
+F0413	Tuberculoma of spinal cord
+N018.	Tuberculosis of joint
+X70H3	Tuberculosis of bone

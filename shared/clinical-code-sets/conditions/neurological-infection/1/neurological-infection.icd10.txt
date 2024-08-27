@@ -1,0 +1,99 @@
+A066	Amoebic brain abscess
+A86X	Unspecified viral encephalitis
+A89X	Unspecified viral infection of central nervous system
+A170	Tuberculous meningitis
+A171	Meningeal tuberculoma
+A178	Other tuberculosis of nervous system
+A179	Tuberculosis of nervous system, unspecified
+A203	Plague meningitis
+A321	Listerial meningitis and meningoencephalitis
+A390	Meningococcal meningitis
+A398	Other meningococcal infections
+A504	Late congenital neurosyphilis [juvenile neurosyphilis]
+A514	Other secondary syphilis
+A521	Symptomatic neurosyphilis
+A522	Asymptomatic neurosyphilis
+A523	Neurosyphilis, unspecified
+A800	Acute paralytic poliomyelitis, vaccine-associated
+A801	Acute paralytic poliomyelitis, wild virus, imported
+A802	Acute paralytic poliomyelitis, wild virus, indigenous
+A803	Acute paralytic poliomyelitis, other and unspecified
+A804	Acute nonparalytic poliomyelitis
+A809	Acute poliomyelitis, unspecified
+A810	Creutzfeldt-Jakob disease
+A811	Subacute sclerosing panencephalitis
+A812	Progressive multifocal leukoencephalopathy
+A818	Other atypical virus infections of central nervous system
+A819	Atypical virus infection of central nervous system, unspecified
+A829	Rabies, unspecified
+A830	Japanese encephalitis
+A831	Western equine encephalitis
+A832	Eastern equine encephalitis
+A833	St Louis encephalitis
+A834	Australian encephalitis
+A835	California encephalitis
+A838	Other mosquito-borne viral encephalitis
+A839	Mosquito-borne viral encephalitis, unspecified
+A840	Far Eastern tick-borne encephalitis [Russian spring-summer encephalitis]
+A841	Central European tick-borne encephalitis
+A848	Other tick-borne viral encephalitis
+A849	Tick-borne viral encephalitis, unspecified
+A851	Adenoviral encephalitis
+A852	Arthropod-borne viral encephalitis, unspecified
+A858	Other specified viral encephalitis
+A870	Enteroviral meningitis
+A871	Adenoviral meningitis
+A872	Lymphocytic choriomeningitis
+A878	Other viral meningitis
+A879	Viral meningitis, unspecified
+A888	Other specified viral infections of central nervous system
+A930	Oropouche virus disease
+B003	Herpesviral meningitis
+B004	Herpesviral encephalitis
+B011	Varicella encephalitis
+B020	Zoster encephalitis
+B021	Zoster meningitis
+B050	Measles complicated by encephalitis
+B051	Measles complicated by meningitis
+B060	Rubella with neurological complications
+B220	HIV disease resulting in encephalopathy
+B261	Mumps meningitis
+B262	Mumps encephalitis
+B375	Candidal meningitis
+B384	Coccidioidomycosis meningitis
+B431	Phaeomycotic brain abscess
+B451	Cerebral cryptococcosis
+B461	Rhinocerebral mucormycosis
+B500	Plasmodium falciparum malaria with cerebral complications
+B582	Toxoplasma meningoencephalitis
+B690	Cysticercosis of central nervous system
+G000	Haemophilus meningitis
+G001	Pneumococcal meningitis
+G01X	Meningitis in bacterial diseases classified elsewhere
+G002	Streptococcal meningitis
+G003	Staphylococcal meningitis
+G07X	Intracranial and intraspinal abscess and granuloma in diseases classified elsewhere
+G008	Other bacterial meningitis
+G08X	Intracranial and intraspinal phlebitis and thrombophlebitis
+G009	Bacterial meningitis, unspecified
+G020	Meningitis in viral diseases classified elsewhere
+G021	Meningitis in mycoses
+G028	Meningitis in other specified infectious and parasitic diseases classified elsewhere
+G030	Nonpyogenic meningitis
+G031	Chronic meningitis
+G032	Benign recurrent meningitis [Mollaret]
+G038	Meningitis due to other specified causes
+G039	Meningitis, unspecified
+G040	Acute disseminated encephalitis
+G042	Bacterial meningoencephalitis and meningomyelitis, not elsewhere classified
+G048	Other encephalitis, myelitis and encephalomyelitis
+G049	Encephalitis, myelitis and encephalomyelitis, unspecified
+G050	Encephalitis, myelitis and encephalomyelitis in bacterial diseases classified elsewhere
+G051	Encephalitis, myelitis and encephalomyelitis in viral diseases classified elsewhere
+G052	Encephalitis, myelitis and encephalomyelitis in other infectious and parasitic diseases classified elsewhere
+G058	Encephalitis, myelitis and encephalomyelitis in other diseases classified elsewhere
+G060	Intracranial abscess and granuloma
+G061	Intraspinal abscess and granuloma
+G062	Extradural and subdural abscess, unspecified
+G361	Acute and subacute haemorrhagic leukoencephalitis [Hurst]
+G373	Acute transverse myelitis in demyelinating disease of central nervous system

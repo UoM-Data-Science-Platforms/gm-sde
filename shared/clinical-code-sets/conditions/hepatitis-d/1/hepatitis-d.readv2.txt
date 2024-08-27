@@ -1,0 +1,4 @@
+A707000	Chronic viral hepatitis B with delta-agent
+A705100	Acute delta-(super)infection of hepatitis B carrier
+A702000	Acute hepatitis B with delta agent (coinfection) with hepatic coma
+A703000	Acute hepatitis B with delta-agent (coinfection) without hepatic coma

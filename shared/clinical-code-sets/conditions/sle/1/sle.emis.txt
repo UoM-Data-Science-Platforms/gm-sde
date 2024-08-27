@@ -1,14 +1,7 @@
 ^ESCTBU514089	Bullous systemic lupus erythematosus
-^ESCTCD512809	CDLE - Chronic discoid lupus erythematosus
 ^ESCTCE406029	Cerebral systemic lupus erythematosus
-^ESCTCH512808	Chronic discoid lupus erythematosus
 ^ESCTCH512810	Chilblain lupus erythematosus
-^ESCTDI378949	Discoid lupus erythematosus of eyelid
-^ESCTDI378950	Discoid lupus erythematosus eyelid
-^ESCTDI378951	Discoid lupus eyelid
-^ESCTDL480563	DLE - Discoid lupus erythematosus
 ^ESCTLE480559	LE - Lupus erythematosus
-^ESCTLE480564	LE - Discoid lupus erythematosus
 ^ESCTLI514085	Limited lupus erythematosus
 ^ESCTLU257360	Lupus nephritis - WHO Class II
 ^ESCTLU267516	Lupus with glomerular sclerosis
@@ -25,8 +18,6 @@
 ^ESCTME334359	Membranous lupus glomerulonephritis
 ^ESCTNE405966	Neonatal lupus
 ^ESCTRO512807	Rowell's syndrome
-^ESCTSA514093	SACLE - Subacute cutaneous lupus erythematosus
-^ESCTSC514092	SCLE - Subacute cutaneous lupus erythematosus
 ^ESCTSK514086	Skin and joint lupus
 ^ESCTSL257358	SLE glomerulonephritis syndrome, WHO class II
 ^ESCTSL257359	SLE with mesangial proliferative glomerulonephritis
@@ -105,11 +96,9 @@ EMISNQSY6	Systemic lupus erythematosus encephalitis
 ^ESCTLU668215	Lupus erythematosus-associated necrotising vasculitis
 ^ESCTLU668216	Lupus erythematosus-associated necrotizing vasculitis
 ^ESCTLU668219	Lupus erythematosus-associated poikiloderma
-^ESCTLU668221	Lupus erythematosus-associated nail dystrophy
 ^ESCTLU761502	Lupus erythematosus of oral mucous membrane
 ^ESCTLU761503	Lupus erythematosus of oral mucosa
 ^ESCTLU815524	Lupus cheilitis
-^ESCTNA668222	Nail dystrophy due to lupus erythematosus
 ^ESCTNE668217	Necrotising vasculitis due to lupus erythematosus
 ^ESCTNE668218	Necrotizing vasculitis due to lupus erythematosus
 ^ESCTNE809113	Nephropathy co-occurrent and due to systemic lupus erythematosus

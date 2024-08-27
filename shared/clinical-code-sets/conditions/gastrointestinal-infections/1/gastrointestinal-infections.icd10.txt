@@ -1,0 +1,49 @@
+A000	Cholera due to Vibrio cholerae 01, biovar cholerae
+A001	Cholera due to Vibrio cholerae 01, biovar eltor
+A009	Cholera, unspecified
+A010	Typhoid fever
+A011	Paratyphoid fever A
+A012	Paratyphoid fever B
+A013	Paratyphoid fever C
+A014	Paratyphoid fever, unspecified
+A020	Salmonella enteritis
+A021	Salmonella sepsis
+A022	Localized salmonella infections
+A028	Other specified salmonella infections
+A029	Salmonella infection, unspecified
+A030	Shigellosis due to Shigella dysenteriae
+A031	Shigellosis due to Shigella flexneri
+A032	Shigellosis due to Shigella boydii
+A033	Shigellosis due to Shigella sonnei
+A038	Other shigellosis
+A039	Shigellosis, unspecified
+A040	Enteropathogenic Escherichia coli infection
+A041	Enterotoxigenic Escherichia coli infection
+A042	Enteroinvasive Escherichia coli infection
+A043	Enterohaemorrhagic Escherichia coli infection
+A044	Other intestinal Escherichia coli infections
+A045	Campylobacter enteritis
+A047	Enterocolitis due to Clostridium difficile
+A048	Other specified bacterial intestinal infections
+A049	Bacterial intestinal infection, unspecified
+A050	Foodborne staphylococcal intoxication
+A051	Botulism
+A052	Foodborne Clostridium perfringens [Clostridium welchii] intoxication
+A053	Foodborne Vibrio parahaemolyticus intoxication
+A054	Foodborne Bacillus cereus intoxication
+A058	Other specified bacterial foodborne intoxications
+A059	Bacterial foodborne intoxication, unspecified
+A090	Other and unspecified gastroenteritis and colitis of infectious origin
+A183	Tuberculosis of intestines, peritoneum and mesenteric glands
+A222	Gastrointestinal anthrax
+A327	Listerial sepsis
+A328	Other forms of listeriosis
+A329	Listeriosis, unspecified
+A421	Abdominal actinomycosis
+A546	Gonococcal infection of anus and rectum
+A563	Chlamydial infection of anus and rectum
+B980	Helicobacter pylori [H.pylori] as the cause of diseases classified to other chapters
+K20X	Oesophagitis
+K221	Ulcer of oesophagus
+K296	Other gastritis
+K521	Toxic gastroenteritis and colitis

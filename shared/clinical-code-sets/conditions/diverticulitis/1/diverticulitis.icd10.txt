@@ -1,0 +1,6 @@
+K570	Diverticular disease of small intestine with perforation and abscess
+K571	Diverticular disease of small intestine without perforation or abscess
+K573	Diverticular disease of large intestine without perforation or abscess
+K574	Diverticular disease of both small and large intestine with perforation and abscess
+K578	Diverticular disease of intestine, part unspecified, with perforation and abscess
+K579	Diverticular disease of intestine, part unspecified, without perforation or abscess

@@ -1,0 +1,15 @@
+A181	Tuberculosis of genitourinary system
+A540	Gonococcal infection of lower genitourinary tract without periurethral or accessory gland abscess
+A541	Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess
+B650	Schistosomiasis due to Schistosoma haematobium [urinary schistosomiasis]
+N10X	Acute tubulo-interstitial nephritis
+N118	Other chronic tubulo-interstitial nephritis
+N119	Chronic tubulo-interstitial nephritis, unspecified
+N300	Acute cystitis
+N302	Other chronic cystitis
+N308	Other cystitis
+N309	Cystitis, unspecified
+N341	Nonspecific urethritis
+N342	Other urethritis
+N390	Urinary tract infection, site not specified
+N413	Prostatocystitis

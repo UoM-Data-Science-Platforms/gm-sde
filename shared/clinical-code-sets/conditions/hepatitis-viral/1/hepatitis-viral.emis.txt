@@ -1,0 +1,135 @@
+EMISNQHE6	Hepatitis C carrier
+EMISNQVI15	Viral hepatitis D
+^ESCT1165465	Chronic viral hepatitis D
+^ESCT1165466	Chronic infection caused by Hepatitis D virus
+^ESCT1206122	Chronic hepatitis C caused by hepatitis C virus genotype 6
+^ESCT1206123	Chronic hepatitis C caused by hepatitis C virus genotype 5
+^ESCT1206477	Chronic hepatitis C caused by Hepatitis C virus genotype 3
+^ESCT1206692	Chronic hepatitis C caused by Hepatitis C virus genotype 2
+^ESCT1206693	Chronic hepatitis C caused by Hepatitis C virus genotype 4
+^ESCT1206694	Chronic hepatitis C caused by Hepatitis C virus genotype 1
+^ESCT1207003	Chronic hepatitis C caused by Hepatitis C virus genotype 1b
+^ESCT1207004	Chronic hepatitis C caused by Hepatitis C virus genotype 1a
+^ESCT1378985	Hepatitis caused by Toxoplasma
+^ESCT1393852	Chronic hepatitis C co-occurrent with human immunodeficiency virus infection
+^ESCT1393855	Chronic hepatitis B co-occurrent with hepatitis C and hepatitis D
+^ESCT1393856	Chronic hepatitis B with hepatitis C and hepatitis D
+^ESCT1407102	Hepatic coma due to acute hepatitis B with delta agent
+^ESCT1407103	Hepatic coma due to viral hepatitis C
+^ESCT1408726	Recurrent viral hepatitis C
+^ESCT1421007	Non-alcoholic steatohepatitis
+^ESCTAC271042	Acute fulminating type B viral hepatitis
+^ESCTAC280019	Acute fulminating type A viral hepatitis
+^ESCTAC290109	Acute type A viral hepatitis
+^ESCTAC290111	Acute hepatitis A
+^ESCTAC311009	Acute hepatitis
+^ESCTAC322668	Acute fulminating viral hepatitis
+^ESCTAC374892	Acute type B viral hepatitis
+^ESCTAC374893	Acute hepatitis B
+^ESCTAC508659	Acute hepatitis B with hepatitis D
+^ESCTAC508664	Acute non-A non-B hepatitis
+^ESCTAC783725	Acute hepatic failure caused by hepatitis virus
+^ESCTAL372150	ALA - Amoebic liver abscess
+^ESCTAL372151	ALA - Amebic liver abscess
+^ESCTAM372149	Amebic liver abscess
+^ESCTAN257631	Anicteric viral hepatitis
+^ESCTAN336652	Anicteric type B viral hepatitis
+^ESCTAN378534	Anicteric type A viral hepatitis
+^ESCTAV343297	AVH - Acute viral hepatitis
+^ESCTCH251617	Chronic aggressive type B viral hepatitis
+^ESCTCH312224	Chronic persistent type B viral hepatitis
+^ESCTCH312225	Chronic immune tolerant hepatitis B
+^ESCTCH331256	Chronic active type B viral hepatitis
+^ESCTCH347517	Chronic persistent viral hepatitis
+^ESCTCH350719	Chronic type B viral hepatitis
+^ESCTCH358728	Chronic active viral hepatitis
+^ESCTCH395954	Chronic aggressive viral hepatitis
+^ESCTCH440701	Chronic type C viral hepatitis
+^ESCTCH508665	Chronic viral hepatitis B with hepatitis D
+^ESCTCH508667	Chronic non-A non-B hepatitis
+^ESCTCH510269	Chlamydial perihepatitis
+^ESCTCH738453	Chronic hepatitis E
+^ESCTCH758312	Chronic hepatitis C with stage 2 fibrosis
+^ESCTCH762996	Chronic active hepatitis C
+^ESCTCH811214	Chronic hepatitis C with stage 3 fibrosis
+^ESCTCM474278	CMV - Cytomegalovirus hepatitis
+^ESCTCO478742	Coxsackie virus hepatitis
+^ESCTCO483724	Congenital hepatitis
+^ESCTCY474276	Cytomegalovirus hepatitis
+^ESCTCY474280	Cytomegalic inclusion virus hepatitis
+^ESCTDR508675	Drug-induced hepatitis
+^ESCTEB591321	EBV - Epstein-Barr virus hepatitis
+^ESCTEN508672	Enflurane hepatitis
+^ESCTEP591320	Epstein-Barr virus hepatitis
+^ESCTFI510266	Fitz-Hugh and Curtis syndrome
+^ESCTFI510268	Fitz-Hugh-Curtis syndrome - gonococcal
+^ESCTFI510270	Fitz-Hugh-Curtis syndrome - chlamydial
+^ESCTHA508670	Halothane hepatitis
+^ESCTHE308263	Hepatitis in coxsackie viral disease
+^ESCTHE315149	Hepatitis A
+^ESCTHE357442	Hepatitis B
+^ESCTHE357444	Hepatitis B infection
+^ESCTHE474261	Hepatitis non-A non-B
+^ESCTHE478745	Hepatitis with adenovirus
+^ESCTHE478746	Hepatitis caused by adenovirus
+^ESCTHE508657	Hepatitis due to infection
+^ESCTHE508660	Hepatitis D superinfection of hepatitis B carrier
+^ESCTHE658918	Hepatitis G
+^ESCTHE726025	Hepatitis B associated with Human immunodeficiency virus infection
+^ESCTHE726347	Hepatitis B and hepatitis C
+^ESCTHE761561	Hepatitis D virus infection
+^ESCTHE761562	Hepatitis D
+^ESCTHE781990	Hepatitis caused by sexually transmissible virus
+^ESCTHE798710	Hepatitis E virus infection
+^ESCTHE798712	Hepatitis E
+^ESCTHE846605	Herpes simplex hepatitis
+^ESCTHH508671	HH - Halothane hepatitis
+^ESCTIH315150	IH - Infectious hepatitis
+^ESCTIN440615	Inflammatory disorder of liver
+^ESCTIN440617	Inflammatory liver disease
+^ESCTIN508654	Infectious disease of liver
+^ESCTIN591322	Infectious mononucleosis hepatitis
+^ESCTIS508676	Ischaemic hepatitis
+^ESCTIS508677	Ischemic hepatitis
+^ESCTLI478736	Liver abscess due to portal pyemia
+^ESCTLI508653	Liver disorder due to infection
+^ESCTMA385183	Malarial hepatitis
+^ESCTNA726693	NASH - Nonalcoholic steatohepatitis
+^ESCTOC771204	Occult chronic type B viral hepatitis
+^ESCTOC771205	Occult hepatitis B infection
+^ESCTPI478722	Pipestem portal cirrhosis
+^ESCTPO296233	Posttransfusion viral hepatitis
+^ESCTPO296234	Posttransfusion hepatitis
+^ESCTQU478748	Quaternary syphilitic hepatitis
+^ESCTRE320281	Relapsing type A viral hepatitis
+^ESCTRE344704	Relapsing viral hepatitis
+^ESCTRE732842	Reactivation of hepatitis B viral hepatitis
+^ESCTRE756886	Reactivation of hepatitis C viral hepatitis
+^ESCTSE781991	Sexually transmissible viral hepatitis
+^ESCTSH357443	SH - Serum hepatitis
+^ESCTSU783726	Subacute hepatic failure caused by hepatitis virus
+^ESCTTO478751	Toxin-associated hepatitis
+^ESCTTR296235	Transfusion hepatitis
+^ESCTTY332123	Type C viral hepatitis
+^ESCTTY357440	Type B viral hepatitis
+^ESCTVH255858	VH - Viral hepatitis
+^ESCTVI275471	Viral hepatitis A with hepatic coma
+^ESCTVI291948	Viral hepatitis B with hepatic coma
+^ESCTVI315147	Viral hepatitis, type A
+^ESCTVI332125	Viral hepatitis type C
+^ESCTVI357445	Viral hepatitis type B
+^ESCTVI420078	Viral hepatitis A without hepatic coma
+^ESCTVI420082	Viral hepatitis B without hepatic coma
+^ESCTVI658917	Viral hepatitis, type G
+^ESCTVI703240	Viral hepatitis A without hepatic coma, without hepatitis delta
+^ESCTVI703241	Viral hepatitis A without hepatic coma, without hepatitis D
+^ESCTVI703242	Viral hepatitis A without hepatic coma, without delta-agent
+^ESCTVI761559	Viral hepatitis D
+^ESCTVI761560	Viral hepatitis type D
+^ESCTVI798709	Viral hepatitis E
+^ESCTVI798711	Viral hepatitis type E
+^ESCTVI932555	Viral hepatitis in mother complicating childbirth
+^ESCTVI932556	Viral hepatitis in childbirth
+^ESCTVI932557	Viral hepatitis in mother complicating pregnancy
+^ESCTVI932558	Viral hepatitis in pregnancy
+^ESCTZO478726	Zooparasitic portal cirrhosis

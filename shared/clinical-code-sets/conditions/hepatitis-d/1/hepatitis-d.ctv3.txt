@@ -1,0 +1,6 @@
+X306c	Acute hepatitis B with hepatitis D
+X306d	Hepatitis D superinfection of hepatitis B carrier
+X306j	Chronic viral hepatitis B with hepatitis D
+A7030	Acute hepatitis B with delta-agent (coinfection) without hepatic coma
+A7020	Acute hepatitis B with delta agent (coinfection) with hepatic coma
+X73mc	Hepatitis D virus

@@ -1,0 +1,79 @@
+A150	Tuberculosis of lung, confirmed by sputum microscopy with or without culture
+A151	Tuberculosis of lung, confirmed by culture only
+A152	Tuberculosis of lung, confirmed histologically
+A153	Tuberculosis of lung, confirmed by unspecified means
+A156	Tuberculous pleurisy, confirmed bacteriologically and histologically
+A160	Tuberculosis of lung, bacteriologically and histologically negative
+A161	Tuberculosis of lung, bacteriological and histological examination not done
+A162	Tuberculosis of lung, without mention of bacteriological or histological confirmation
+A165	Tuberculous pleurisy, without mention of bacteriological or histological confirmation
+A168	Other respiratory tuberculosis, without mention of bacteriological or histological confirmation
+A202	Pneumonic plague
+A221	Pulmonary anthrax
+A310	Pulmonary mycobacterial infection
+A420	Pulmonary actinomycosis
+A430	Pulmonary nocardiosis
+A481	Legionnaires disease
+B012	Varicella pneumonia
+B052	Measles complicated by pneumonia
+B59X	Pneumocystosis
+B206	HIV disease resulting in Pneumocystis jirovecii pneumonia
+B250	Cytomegaloviral pneumonitis
+B371	Pulmonary candidiasis
+B583	Pulmonary toxoplasmosis
+B671	Echinococcus granulosus infection of lung
+B953	Streptococcus pneumoniae as the cause of diseases classified to other chapters
+B961	Klebsiella pneumoniae [K. pneumoniae] as the cause of diseases classified to other chapters
+J13X	Pneumonia due to Streptococcus pneumoniae
+J14X	Pneumonia due to Haemophilus influenzae
+J22X	Unspecified acute lower respiratory infection
+J40X	Bronchitis, not specified as acute or chronic
+J110	Influenza with pneumonia, virus not identified
+J120	Adenoviral pneumonia
+J121	Respiratory syncytial virus pneumonia
+J122	Parainfluenza virus pneumonia
+J123	Human metapneumovirus pneumonia
+J128	Other viral pneumonia
+J129	Viral pneumonia, unspecified
+J150	Pneumonia due to Klebsiella pneumoniae
+J151	Pneumonia due to Pseudomonas
+J152	Pneumonia due to staphylococcus
+J153	Pneumonia due to streptococcus, group B
+J154	Pneumonia due to other streptococci
+J155	Pneumonia due to Escherichia coli
+J156	Pneumonia due to other Gram-negative bacteria
+J157	Pneumonia due to Mycoplasma pneumoniae
+J158	Other bacterial pneumonia
+J159	Bacterial pneumonia, unspecified
+J160	Chlamydial pneumonia
+J168	Pneumonia due to other specified infectious organisms
+J170	Pneumonia in bacterial diseases classified elsewhere
+J171	Pneumonia in viral diseases classified elsewhere
+J172	Pneumonia in mycoses
+J178	Pneumonia in other diseases classified elsewhere
+J180	Bronchopneumonia, unspecified
+J181	Lobar pneumonia, unspecified
+J182	Hypostatic pneumonia, unspecified
+J188	Other pneumonia, organism unspecified
+J189	Pneumonia, unspecified
+J200	Acute bronchitis due to Mycoplasma pneumoniae
+J201	Acute bronchitis due to Haemophilus influenzae
+J202	Acute bronchitis due to streptococcus
+J203	Acute bronchitis due to coxsackievirus
+J204	Acute bronchitis due to parainfluenza virus
+J205	Acute bronchitis due to respiratory syncytial virus
+J206	Acute bronchitis due to rhinovirus
+J207	Acute bronchitis due to echovirus
+J208	Acute bronchitis due to other specified organisms
+J209	Acute bronchitis, unspecified
+J210	Acute bronchiolitis due to respiratory syncytial virus
+J211	Acute bronchiolitis due to human metapneumovirus
+J218	Acute bronchiolitis due to other specified organisms
+J219	Acute bronchiolitis, unspecified
+J440	Chronic obstructive pulmonary disease with acute lower respiratory infection
+J677	Air-conditioner and humidifier lung
+J678	Hypersensitivity pneumonitis due to other organic dusts
+J690	Pneumonitis due to food and vomit
+J698	Pneumonitis due to other solids and liquids
+J851	Abscess of lung with pneumonia
+R091	Pleurisy

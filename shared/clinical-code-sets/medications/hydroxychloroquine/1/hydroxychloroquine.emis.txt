@@ -6,3 +6,206 @@ HYOR34435NEMIS	Hydroxychloroquine  Oral suspension  400 mg/5 ml
 HYOR46475NEMIS	Hydroxychloroquine  Oral suspension  200 mg/5 ml
 HYOR46474NEMIS	Hydroxychloroquine  Oral solution  200 mg/5 ml
 HYOR77631NEMIS	Hydroxychloroquine  Oral suspension  100 mg/5 ml
+^ESCT1178835	Product containing only hydroxychloroquine sulfate 200 mg/1 each oral tablet
+^ESCT1220081	Hydroxychloroquine
+^ESCT1220082	Hydroxychloroquine product
+^ESCT1225499	Product containing precisely hydroxychloroquine sulfate 200 milligram/1 each conventional release oral tablet
+^ESCT1264280	Hydroxychloroquine 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264282	Hydroxychloroquine 200mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCT1304850	Hydroxychloroquine 200mg tablets (Ipca Laboratories UK Ltd)
+^ESCT1304851	Hydroxychloroquine 200mg tablets (Ipca Laboratories UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1355370	Hydroxychloroquine only product
+^ESCT1358820	Hydroxychloroquine only product in oral dose form
+^ESCT1373961	Hydroxychloroquine 300mg tablets 30 tablet
+^ESCT1373962	Hydroxychloroquine 300mg tablets (Blackrock Pharmaceuticals Ltd)
+^ESCT1373963	Hydroxychloroquine 300mg tablets (Blackrock Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1374228	Hydroxychloroquine 200mg tablets (Accord Healthcare Ltd)
+^ESCT1374229	Hydroxychloroquine 200mg tablets (Accord Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1374937	Hydroxychloroquine 300mg tablets
+^ESCT1376077	Hydroxychloroquine 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376078	Hydroxychloroquine 200mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1385114	Hydroxychloroquine-containing product in oral dose form
+^ESCT1388962	Hydroxychloroquine 200mg tablets (Blackrock Pharmaceuticals Ltd)
+^ESCT1388963	Hydroxychloroquine 200mg tablets (Blackrock Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCT1402591	Hydroxychloroquine 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1402592	Hydroxychloroquine 300mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1422686	Hydroxychloroquine 200mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422687	Hydroxychloroquine 200mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1427701	Hydroxychloroquine 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427702	Hydroxychloroquine 200mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCT1434722	Hydroxychloroquine 300mg tablets (DE Pharmaceuticals)
+^ESCT1434723	Hydroxychloroquine 300mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTHY1007626	Hydroxychloroquine 200mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1007627	Hydroxychloroquine 200mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTHY1029374	Hydroxychloroquine 200mg tablets (Teva UK Ltd)
+^ESCTHY1029375	Hydroxychloroquine 200mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTHY1029650	Hydroxychloroquine 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY1029651	Hydroxychloroquine 200mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTHY1030184	Hydroxychloroquine 200mg tablets (Creo Pharma Ltd)
+^ESCTHY1030185	Hydroxychloroquine 200mg tablets (Creo Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTHY1043910	Hydroxychloroquine 200mg tablets (Waymade Healthcare Plc)
+^ESCTHY1043911	Hydroxychloroquine 200mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTHY1063632	Hydroxychloroquine 200mg tablets (DE Pharmaceuticals)
+^ESCTHY1063633	Hydroxychloroquine 200mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTHY1115052	Hydroxychloroquine 200mg/5ml oral suspension 100 ml
+^ESCTHY1115054	Hydroxychloroquine 200mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTHY1116415	Hydroxychloroquine 200mg tablets (Zentiva)
+^ESCTHY1116416	Hydroxychloroquine 200mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTHY1117839	Hydroxychloroquine 200mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHY1117840	Hydroxychloroquine 200mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTHY1124810	Hydroxychloroquine 50mg/5ml oral suspension 300 ml
+^ESCTHY1124811	Hydroxychloroquine 50mg/5ml oral suspension 500 ml
+^ESCTHY1124812	Hydroxychloroquine 50mg/5ml oral suspension (Special Order) 300 ml
+^ESCTHY1124813	Hydroxychloroquine 50mg/5ml oral suspension (Special Order) 500 ml
+^ESCTHY1141860	Hydroxychloroquine 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTHY1141861	Hydroxychloroquine 200mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTHY1162845	Hydroxychloroquine 400mg/5ml oral suspension 1 ml
+^ESCTHY1162847	Hydroxychloroquine 400mg/5ml oral suspension (Special Order)
+^ESCTHY1162849	Hydroxychloroquine 400mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY1162918	Hydroxychloroquine 400mg/5ml oral suspension
+^ESCTHY271392	Hydroxychloroquine sulfate
+^ESCTHY271393	Hydroxychloroquine sulphate
+^ESCTHY385866	Hydroxychloroquine
+^ESCTHY615308	Hydroxychloroquine 200mg tablets
+^ESCTHY615310	Hydroxychloroquine sulfate 200 mg oral tablet
+^ESCTHY638246	Hydroxychloroquine
+^ESCTHY772229	Hydroxychloroquine in oral dosage form
+^ESCTHY840007	Hydroxychloroquine 200mg tablets 60 tablet
+^ESCTHY907172	Hydroxychloroquine 100mg/5ml oral solution 1 ml
+^ESCTHY907173	Hydroxychloroquine 120mg/5ml oral solution 1 ml
+^ESCTHY907175	Hydroxychloroquine 120mg/5ml oral solution (Special Order)
+^ESCTHY907179	Hydroxychloroquine 120mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY907180	Hydroxychloroquine 100mg/5ml oral solution (Special Order)
+^ESCTHY907182	Hydroxychloroquine 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY907183	Hydroxychloroquine 120mg/5ml oral suspension 1 ml
+^ESCTHY907185	Hydroxychloroquine 120mg/5ml oral suspension (Special Order)
+^ESCTHY907186	Hydroxychloroquine 120mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907191	Hydroxychloroquine 100mg/5ml oral suspension 1 ml
+^ESCTHY907193	Hydroxychloroquine 100mg/5ml oral suspension (Special Order)
+^ESCTHY907194	Hydroxychloroquine 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907195	Hydroxychloroquine 150mg/5ml oral solution 1 ml
+^ESCTHY907196	Hydroxychloroquine 150mg/5ml oral solution (Special Order)
+^ESCTHY907197	Hydroxychloroquine 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY907198	Hydroxychloroquine 150mg/5ml oral suspension 1 ml
+^ESCTHY907199	Hydroxychloroquine 150mg/5ml oral suspension (Special Order)
+^ESCTHY907200	Hydroxychloroquine 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907201	Hydroxychloroquine 50mg/5ml oral solution 1 ml
+^ESCTHY907202	Hydroxychloroquine 50mg/5ml oral solution (Special Order)
+^ESCTHY907203	Hydroxychloroquine 35mg/5ml oral solution 1 ml
+^ESCTHY907204	Hydroxychloroquine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY907205	Hydroxychloroquine 35mg/5ml oral solution (Special Order)
+^ESCTHY907206	Hydroxychloroquine 35mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY907207	Hydroxychloroquine 50mg/5ml oral suspension 1 ml
+^ESCTHY907209	Hydroxychloroquine 200mg/5ml oral solution 1 ml
+^ESCTHY907211	Hydroxychloroquine 50mg/5ml oral suspension (Special Order)
+^ESCTHY907212	Hydroxychloroquine 200mg/5ml oral solution (Special Order)
+^ESCTHY907215	Hydroxychloroquine 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY907216	Hydroxychloroquine 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907220	Hydroxychloroquine 35mg/5ml oral suspension 1 ml
+^ESCTHY907222	Hydroxychloroquine 75mg/5ml oral solution 1 ml
+^ESCTHY907223	Hydroxychloroquine 200mg/5ml oral suspension 1 ml
+^ESCTHY907224	Hydroxychloroquine 35mg/5ml oral suspension (Special Order)
+^ESCTHY907225	Hydroxychloroquine 200mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTHY907227	Hydroxychloroquine 75mg/5ml oral solution (Special Order)
+^ESCTHY907228	Hydroxychloroquine 35mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907231	Hydroxychloroquine 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY907235	Hydroxychloroquine 75mg/5ml oral suspension 1 ml
+^ESCTHY907237	Hydroxychloroquine 200mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTHY907238	Hydroxychloroquine 75mg/5ml oral suspension (Special Order)
+^ESCTHY907239	Hydroxychloroquine 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907407	Hydroxychloroquine 100mg/5ml oral solution
+^ESCTHY907408	Hydroxychloroquine 100mg/5ml oral suspension
+^ESCTHY907409	Hydroxychloroquine 120mg/5ml oral solution
+^ESCTHY907410	Hydroxychloroquine 120mg/5ml oral suspension
+^ESCTHY907411	Hydroxychloroquine 150mg/5ml oral solution
+^ESCTHY907412	Hydroxychloroquine 150mg/5ml oral suspension
+^ESCTHY907413	Hydroxychloroquine 35mg/5ml oral solution
+^ESCTHY907414	Hydroxychloroquine 35mg/5ml oral suspension
+^ESCTHY907415	Hydroxychloroquine 50mg/5ml oral solution
+^ESCTHY907416	Hydroxychloroquine 50mg/5ml oral suspension
+^ESCTHY907417	Hydroxychloroquine 75mg/5ml oral solution
+^ESCTHY907418	Hydroxychloroquine 75mg/5ml oral suspension
+^ESCTHY907419	Hydroxychloroquine 200mg/5ml oral solution
+^ESCTHY907420	Hydroxychloroquine 200mg/5ml oral suspension
+^ESCTHY951138	Hydroxychloroquine 108mg/5ml oral solution 1 ml
+^ESCTHY951139	Hydroxychloroquine 108mg/5ml oral solution (Special Order)
+^ESCTHY951140	Hydroxychloroquine 108mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951141	Hydroxychloroquine 15mg/5ml oral solution 1 ml
+^ESCTHY951142	Hydroxychloroquine 15mg/5ml oral solution (Special Order)
+^ESCTHY951143	Hydroxychloroquine 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951144	Hydroxychloroquine 160mg/5ml oral solution 1 ml
+^ESCTHY951145	Hydroxychloroquine 160mg/5ml oral solution (Special Order)
+^ESCTHY951146	Hydroxychloroquine 160mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951147	Hydroxychloroquine 20mg/5ml oral solution 1 ml
+^ESCTHY951148	Hydroxychloroquine 20mg/5ml oral solution (Special Order)
+^ESCTHY951149	Hydroxychloroquine 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951150	Hydroxychloroquine 22mg/5ml oral solution 1 ml
+^ESCTHY951151	Hydroxychloroquine 22mg/5ml oral solution (Special Order)
+^ESCTHY951152	Hydroxychloroquine 22mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951153	Hydroxychloroquine 250mg/5ml oral solution 1 ml
+^ESCTHY951155	Hydroxychloroquine 250mg/5ml oral solution (Special Order)
+^ESCTHY951156	Hydroxychloroquine 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951159	Hydroxychloroquine 25mg/5ml oral solution 1 ml
+^ESCTHY951160	Hydroxychloroquine 25mg/5ml oral solution (Special Order)
+^ESCTHY951161	Hydroxychloroquine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951162	Hydroxychloroquine 30mg/5ml oral solution 1 ml
+^ESCTHY951163	Hydroxychloroquine 30mg/5ml oral solution (Special Order)
+^ESCTHY951164	Hydroxychloroquine 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951167	Hydroxychloroquine 36mg/5ml oral solution 1 ml
+^ESCTHY951169	Hydroxychloroquine 36mg/5ml oral solution (Special Order)
+^ESCTHY951170	Hydroxychloroquine 36mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951171	Hydroxychloroquine 400mg/5ml oral solution 1 ml
+^ESCTHY951172	Hydroxychloroquine 400mg/5ml oral solution (Special Order)
+^ESCTHY951173	Hydroxychloroquine 400mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951175	Hydroxychloroquine 40mg/5ml oral solution 1 ml
+^ESCTHY951176	Hydroxychloroquine 40mg/5ml oral solution (Special Order)
+^ESCTHY951179	Hydroxychloroquine 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951180	Hydroxychloroquine 53.33mg/5ml oral solution 1 ml
+^ESCTHY951181	Hydroxychloroquine 53.33mg/5ml oral solution (Special Order)
+^ESCTHY951182	Hydroxychloroquine 53.33mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951186	Hydroxychloroquine 60mg/5ml oral solution 1 ml
+^ESCTHY951187	Hydroxychloroquine 60mg/5ml oral solution (Special Order)
+^ESCTHY951188	Hydroxychloroquine 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951192	Hydroxychloroquine 65mg/5ml oral solution 1 ml
+^ESCTHY951193	Hydroxychloroquine 65mg/5ml oral solution (Special Order)
+^ESCTHY951195	Hydroxychloroquine 65mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951198	Hydroxychloroquine 70mg/5ml oral solution 1 ml
+^ESCTHY951199	Hydroxychloroquine 70mg/5ml oral solution (Special Order)
+^ESCTHY951200	Hydroxychloroquine 70mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951201	Hydroxychloroquine 80mg/5ml oral solution 1 ml
+^ESCTHY951202	Hydroxychloroquine 80mg/5ml oral solution (Special Order)
+^ESCTHY951203	Hydroxychloroquine 80mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951204	Hydroxychloroquine 85mg/5ml oral solution 1 ml
+^ESCTHY951205	Hydroxychloroquine 85mg/5ml oral solution (Special Order)
+^ESCTHY951206	Hydroxychloroquine 85mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY951848	Hydroxychloroquine 108mg/5ml oral solution
+^ESCTHY951850	Hydroxychloroquine 160mg/5ml oral solution
+^ESCTHY951852	Hydroxychloroquine 20mg/5ml oral solution
+^ESCTHY951854	Hydroxychloroquine 22mg/5ml oral solution
+^ESCTHY951856	Hydroxychloroquine 250mg/5ml oral solution
+^ESCTHY951858	Hydroxychloroquine 25mg/5ml oral solution
+^ESCTHY951860	Hydroxychloroquine 30mg/5ml oral solution
+^ESCTHY951862	Hydroxychloroquine 36mg/5ml oral solution
+^ESCTHY951864	Hydroxychloroquine 400mg/5ml oral solution
+^ESCTHY951866	Hydroxychloroquine 40mg/5ml oral solution
+^ESCTHY951868	Hydroxychloroquine 53.33mg/5ml oral solution
+^ESCTHY951870	Hydroxychloroquine 60mg/5ml oral solution
+^ESCTHY951872	Hydroxychloroquine 65mg/5ml oral solution
+^ESCTHY951874	Hydroxychloroquine 70mg/5ml oral solution
+^ESCTHY951876	Hydroxychloroquine 80mg/5ml oral solution
+^ESCTHY951878	Hydroxychloroquine 85mg/5ml oral solution
+^ESCTHY952082	Hydroxychloroquine 15mg/5ml oral solution
+^ESCTHY987885	Hydroxychloroquine 200mg tablets (Bristol Laboratories Ltd)
+^ESCTHY987886	Hydroxychloroquine 200mg tablets (Bristol Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCTHY998983	Hydroxychloroquine 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTHY998985	Hydroxychloroquine 200mg tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTPL820855	Plaquenil 200mg tablets (Sanofi)
+^ESCTPL855774	Plaquenil 200mg tablets (Sanofi) 60 tablet 6 x 10 tablets
+^ESCTPL915646	Plaquenil
+^ESCTPR385867	Product containing hydroxychloroquine
+^ESCTPR615309	Product containing hydroxychloroquine sulfate 200 mg/1 each oral tablet
+^ESCTPR772230	Product containing hydroxychloroquine in oral dosage form
+^ESCTQU930329	Quinoric
+^ESCTQU997707	Quinoric 200mg tablets (Bristol Laboratories Ltd)
+^ESCTQU997708	Quinoric 200mg tablets (Bristol Laboratories Ltd) 60 tablet 6 x 10 tablets
+HYTA137829NEMIS	Hydroxychloroquine Sulfate  Tablets  300 mg

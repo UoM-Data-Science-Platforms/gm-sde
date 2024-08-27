@@ -1,0 +1,22 @@
+A180	Tuberculosis of bones and joints
+A544	Gonococcal infection of musculoskeletal system
+A666	Bone and joint lesions of yaws
+B453	Osseous cryptococcosis
+B672	Echinococcus granulosus infection of bone
+K103	Alveolitis of jaws
+M000	Staphylococcal arthritis and polyarthritis
+M001	Pneumococcal arthritis and polyarthritis
+M002	Other streptococcal arthritis and polyarthritis
+M008	Arthritis and polyarthritis due to other specified bacterial agents
+M009	Pyogenic arthritis, unspecified
+M013	Arthritis in other bacterial diseases classified elsewhere
+M018	Arthritis in other infectious and parasitic diseases classified elsewhere
+M462	Osteomyelitis of vertebra
+M860	Acute haematogenous osteomyelitis
+M861	Other acute osteomyelitis
+M862	Subacute osteomyelitis
+M865	Other chronic haematogenous osteomyelitis
+M866	Other chronic osteomyelitis
+M868	Other osteomyelitis
+M869	Osteomyelitis, unspecified
+T845	Infection and inflammatory reaction due to internal joint prosthesis

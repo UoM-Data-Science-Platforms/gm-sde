@@ -1,0 +1,106 @@
+^ESCT1172774	Chloroquine phosphate 250mg tablets and Proguanil 100mg tablets
+^ESCT1178724	Product containing only chloroquine phosphate 250 mg/1 each oral tablet
+^ESCT1181433	Product containing only chloroquine phosphate 500 mg/1 each oral tablet
+^ESCT1188001	Product containing only chloroquine sulfate 200 mg/1 each oral tablet
+^ESCT1195070	Chloroquine phosphate 250mg tablets and Proguanil 100mg tablets
+^ESCT1208719	Chloroquine phosphate 16 mg/mL oral solution
+^ESCT1208720	Product containing precisely chloroquine phosphate 16 milligram/1 milliliter conventional release oral solution
+^ESCT1208721	Chloroquine sulfate 13.6 mg/mL oral solution
+^ESCT1208722	Product containing precisely chloroquine sulfate 13.6 milligram/1 milliliter conventional release oral solution
+^ESCT1216073	Chloroquine phosphate 80mg/5ml oral solution
+^ESCT1216074	Chloroquine sulfate 68mg/5ml oral solution
+^ESCT1217036	Chloroquine
+^ESCT1217037	Chloroquine product
+^ESCT1224553	Product containing precisely chloroquine phosphate 250 milligram/1 each conventional release oral tablet
+^ESCT1227189	Product containing precisely chloroquine sulfate 200 milligram/1 each conventional release oral tablet
+^ESCT1227969	Product containing precisely chloroquine phosphate 500 milligram/1 each conventional release oral tablet
+^ESCT1354148	Chloroquine only product
+^ESCT1357933	Chloroquine only product in oral dose form
+^ESCT1357934	Chloroquine only product in parenteral dose form
+^ESCT1376587	Chloroquine-containing product
+^ESCT1383580	Chloroquine-containing product in parenteral dose form
+^ESCT1383666	Chloroquine-containing product in oral dose form
+^ESCTAV863826	Avloclor 250mg tablets (Alliance Pharmaceuticals Ltd)
+^ESCTAV863830	Avloclor 250mg tablets (Alliance Pharmaceuticals Ltd) 20 tablet 2 x 10 tablets
+^ESCTAV865683	Avloclor 250mg tablets (Alliance Pharmaceuticals Ltd) 14 tablet
+^ESCTAV914015	Avloclor
+^ESCTCH1144671	Chloroquine sulfate 68mg/5ml oral solution 1 ml
+^ESCTCH1144672	Chloroquine sulfate 68mg/5ml oral solution (Special Order)
+^ESCTCH1144673	Chloroquine sulfate 68mg/5ml oral solution (Special Order) 1 ml
+^ESCTCH273330	Chloroquine
+^ESCTCH612275	Chloroquine phosphate 250mg tablets
+^ESCTCH612277	Chloroquine phosphate 250 mg oral tablet
+^ESCTCH612278	Chloroquine phosphate 80mg/5ml oral solution
+^ESCTCH612279	Chloroquine phosphate 80mg/5mL syrup
+^ESCTCH612280	Chloroquine hydrochloride 50mg/mL injection 5mL ampoule
+^ESCTCH612281	Chloroquine sulphate 272.5mg/5mL injection
+^ESCTCH612282	Chloroquine 200mg/5mL injection
+^ESCTCH612283	Chloroquine sulfate 272.5mg/5mL injection
+^ESCTCH612284	Chloroquine hydrochloride 50mg/mL injection 5mL ampule
+^ESCTCH612339	Chloroquine phosphate 250mg tablets and Proguanil 100mg tablets
+^ESCTCH619816	Chloroquine sulfate 200mg tablets
+^ESCTCH619818	Chloroquine sulfate 200 mg oral tablet
+^ESCTCH619819	Chloroquine sulphate 200mg tablets
+^ESCTCH619820	Chloroquine sulfate 68mg/5ml oral solution
+^ESCTCH619821	Chloroquine sulfate 68mg/5mL syrup
+^ESCTCH619822	Chloroquine sulphate 68mg/5mL syrup
+^ESCTCH619823	Chloroquine sulphate 68mg/5ml oral solution
+^ESCTCH635906	Chloroquine phosphate 50mg/mL injection 5mL ampoule
+^ESCTCH635907	Chloroquine phosphate 50mg/mL injection 5mL ampule
+^ESCTCH639320	Chloroquine phosphate 500 mg oral tablet
+^ESCTCH665165	Chloroquine hydrochloride 50mg/mL injection solution 5mL vial
+^ESCTCH665166	Chloroquine hydrochloride 50mg/mL injection
+^ESCTCH708402	Chloroquine in parenteral dosage form
+^ESCTCH710654	Chloroquine in oral dosage form
+^ESCTCH863821	Chloroquine phosphate 250mg tablets 20 tablet
+^ESCTCH863822	Chloroquine phosphate 250mg tablets 100 tablet
+^ESCTCH863831	Chloroquine phosphate 250mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCH863834	Chloroquine phosphate 250mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTCH863892	Chloroquine sulfate 200mg tablets 28 tablet
+^ESCTCH864735	Chloroquine sulfate 68mg/5ml oral solution 100 ml
+^ESCTCH865682	Chloroquine phosphate 250mg tablets 14 tablet
+^ESCTCH865687	Chloroquine phosphate 250mg tablets and Proguanil 100mg tablets 112 tablet
+^ESCTCH869548	Chloroquine sulfate 200mg/5ml solution for injection ampoules 10 ampoule
+^ESCTCH869588	Chloroquine sulfate 200mg/5ml solution for injection ampoules
+^ESCTCH870902	Chloroquine phosphate 80mg/5ml oral solution 75 ml
+^ESCTCH873496	Chloroquine sulfate 200mg/5ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCH873497	Chloroquine sulfate 200mg/5ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTCH882339	Chloroquine sulfate 200mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTCH882353	Chloroquine sulfate 200mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTCH909908	Chloroquine sulfate 200mg/5ml solution for injection ampoules (Sanofi)
+^ESCTCH909909	Chloroquine sulfate 200mg/5ml solution for injection ampoules (Sanofi) 10 ampoule
+^ESCTCH963958	Chloroquine phosphate
+^ESCTCH963959	Chloroquine sulfate
+^ESCTMA870903	Malarivon 80mg/5ml syrup (Wallace Manufacturing Chemists Ltd)
+^ESCTMA870904	Malarivon 80mg/5ml syrup (Wallace Manufacturing Chemists Ltd) 75 ml
+^ESCTMA919278	Malarivon
+^ESCTNI863893	Nivaquine 200mg tablets (Sanofi)
+^ESCTNI863894	Nivaquine 200mg tablets (Sanofi) 28 tablet
+^ESCTNI864736	Nivaquine 68mg/5ml syrup (Sanofi)
+^ESCTNI864737	Nivaquine 68mg/5ml syrup (Sanofi) 100 ml
+^ESCTNI869549	Nivaquine 200mg/5ml solution for injection ampoules (Aventis Pharma)
+^ESCTNI869553	Nivaquine 200mg/5ml solution for injection ampoules (Aventis Pharma) 10 ampoule
+^ESCTNI919352	Nivaquine
+^ESCTPA865689	Paludrine/Avloclor tablets anti-malarial travel pack (Alliance Pharmaceuticals Ltd)
+^ESCTPA865693	Paludrine/Avloclor tablets anti-malarial travel pack (Alliance Pharmaceuticals Ltd) 112 tablet 7 x (2 tablets + 14 tablets)
+^ESCTPR273331	Product containing chloroquine
+^ESCTPR612276	Product containing chloroquine phosphate 250 mg/1 each oral tablet
+^ESCTPR612338	Proguanil hydrochloride+chloroquine phosphate
+^ESCTPR612340	Proguanil hydrochloride tablet+chloroquine phosphate tablet 100mg/250mg pack
+^ESCTPR612341	Proguanil hydrochloride 100mg tablet and chloroquine phosphate 250mg tablet pack
+^ESCTPR619817	Product containing chloroquine sulfate 200 mg/1 each oral tablet
+^ESCTPR639321	Product containing chloroquine phosphate 500 mg/1 each oral tablet
+^ESCTPR708403	Product containing chloroquine in parenteral dosage form
+^ESCTPR710655	Product containing chloroquine in oral dosage form
+AVTA260	Avloclor  Tablets  250 mg
+CHIN22195NEMIS	Chloroquine Sulfate  Injection  40 mg/ml, 5 ml ampoule
+CHSY4722	Chloroquine Phosphate  Oral solution  80 mg/5 ml
+CHSY4724	Chloroquine Sulfate  Oral solution  68 mg/5 ml
+CHTA21509NEMIS	Chloroquine Phosphate And Proguanil  Tablets  250 mg + 100 mg
+CHTA34258MGEMIS	Chloroquine Phosphate  Tablets  250 mg (Unichem)
+CHTA576	Chloroquine Phosphate  Tablets  250 mg (equivalent to 155 mg chloroquine base)
+CHTA577	Chloroquine Sulfate  Tablets  200 mg
+MASY3871	Malarivon  Syrup  80 mg/5 ml
+NISY4036	Nivaquine  Syrup  68 mg/5 ml
+NITA2007	Nivaquine  Tablets  200 mg
+PATA32351EMIS	Paludrine/Avloclor  Tablets (Travel Pack)  
