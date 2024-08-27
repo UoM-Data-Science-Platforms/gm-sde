@@ -1,0 +1,6 @@
+--  - PatientId
+--  - ReferralDate
+--  - ReferralCategory/Code
+--  - ReferralDescription (including reason, type of referral etc)
+--  - Practice location/name (if allowed)
+--  - Hospital or other service location/name (if allowed)

@@ -20,8 +20,8 @@ USE SDE_REPOSITORY.SHARED_UTILITIES;
 TODO currently setting year range to be 1950-1951 to keep cohort small for testing
 NEEDS CHANGING
 
-DROP TABLE IF EXISTS {{cohort-table}};
-CREATE TABLE {{cohort-table}} AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_09_Thompson";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_09_Thompson" AS
 SELECT 
 	cohort."GmPseudo",
 	"FK_Patient_ID",
@@ -38,8 +38,8 @@ AND (YEAR("RegisteredDateOfDeath") IS NULL OR YEAR("RegisteredDateOfDeath") >= 2
 AND YEAR("DateOfBirth") BETWEEN 1950 AND 1951
 QUALIFY row_number() OVER (PARTITION BY cohort."GmPseudo" ORDER BY "Snapshot" DESC) = 1;
 
-DROP TABLE IF EXISTS {{project-schema}}."LH009-1_Patients";
-CREATE TABLE {{project-schema}}."LH009-1_Patients" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH009-1_Patients";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH009-1_Patients" AS
 SELECT
 	c."GmPseudo" AS "PatientID", "YearOfBirth", "Ethnicity", "EthnicityCategory", "LSOA", "IMD2019Decile1IsMostDeprived10IsLeastDeprived",
 	"ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "Anxiety_DiagnosisDate", "Asthma_DiagnosisDate", 
@@ -57,5 +57,5 @@ SELECT
 	"PeripheralArterialDisease_DiagnosisDate", "ProstateDisorder_DiagnosisDate", "Psoriasis_DiagnosisDate",
 	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate"
 FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_Diagnosis" ltc
-INNER JOIN {{cohort-table}} c ON c."GmPseudo" = ltc."GmPseudo"
+INNER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_09_Thompson" c ON c."GmPseudo" = ltc."GmPseudo"
 QUALIFY row_number() OVER (PARTITION BY ltc."GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot

@@ -41,7 +41,9 @@ SET @EndDate = 'CHANGE';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> CODESET hormone-replacement-therapy-meds:1
+-- >>> Codesets required... Inserting the code set code
+-- >>> Codesets extracted into 0.code-sets.sql
+-- >>> Following code sets injected: hormone-replacement-therapy-meds v1
 
 
 -- RX OF MEDS SINCE START DATE FOR COHORT, WITH CONCEPT AND DESCRIPTION

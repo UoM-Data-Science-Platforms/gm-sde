@@ -1,3 +1,5 @@
+Q "All women aged between 30 years and 70 years that were alive in 2020." - is that 30-70 in 2020 or today?
+
 ## Code sets to reuse
 
 systemic lupus erythematous (SLE)
