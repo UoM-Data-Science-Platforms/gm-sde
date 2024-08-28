@@ -1,13 +1,10 @@
---┌──────────────────────────────────────────────────────────┐
---│ SDE Lighthouse study 06 - Chen - adverse events          │
---└──────────────────────────────────────────────────────────┘
+USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
-USE INTERMEDIATE.GP_RECORD;
+--┌──────────────────────────────────────────────┐
+--│ SDE Lighthouse study 06 - Patients           │
+--└──────────────────────────────────────────────┘
 
--- events needed: suicide, fracture
-
-set(StudyStartDate) = to_date('2017-01-01');
-set(StudyEndDate)   = to_date('2023-12-31');
+USE PRESENTATION.GP_RECORD;
 
 --┌───────────────────────────────────────────────────────────────────────────┐
 --│ Define Cohort for LH006: patients that had multiple opioid prescriptions  │
@@ -23,11 +20,12 @@ set(StudyEndDate)   = to_date('2023-12-31');
 -- OUTPUT: Temp tables as follows:
 -- Cohort
 
-USE DATABASE INTERMEDIATE;
-USE SCHEMA GP_RECORD;
-
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
+
+-- >>> Codesets required... Inserting the code set code
+-- >>> Codesets extracted into 0.code-sets.sql
+-- >>> Following code sets injected: chronic-pain v1/cancer v1
 
 --ALL DEATHS 
 
@@ -55,8 +53,8 @@ ON t2."GmPseudo" = p."GmPseudo" AND t2.LatestSnapshot = p."Snapshot";
 
 -- FIND ALL ADULT PATIENTS ALIVE AT STUDY START DATE
 
-DROP TABLE IF EXISTS AlivePatientsAtStart;
-CREATE TEMPORARY TABLE AlivePatientsAtStart AS 
+DROP TABLE IF EXISTS AliveAdultsAtStart;
+CREATE TEMPORARY TABLE AliveAdultsAtStart AS 
 SELECT  
     dem.*, 
     Death.DeathDate
@@ -71,8 +69,9 @@ DROP TABLE IF EXISTS chronic_pain;
 CREATE TEMPORARY TABLE chronic_pain AS
 SELECT "FK_Patient_ID", to_date("EventDate") AS "EventDate"
 FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
-WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES.AllCodesPermanent WHERE Concept = 'chronic-pain' AND Version = 1) 
-AND "EventDate" BETWEEN $StudyStartDate and $StudyEndDate; 
+WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_06_Chen" WHERE concept = 'chronic-pain' AND Version = 1) 
+AND "EventDate" BETWEEN $StudyStartDate and $StudyEndDate
+AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AliveAdultsAtStart); -- only include alive patients at study start
 
 -- find first chronic pain code in the study period 
 DROP TABLE IF EXISTS FirstPain;
@@ -92,8 +91,10 @@ SELECT e."FK_Patient_ID", to_date("EventDate") AS "EventDate"
 FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
 INNER JOIN FirstPain fp ON fp."FK_Patient_ID" = e."FK_Patient_ID" 
 				AND e."EventDate" BETWEEN DATEADD(year, 1, FirstPainCodeDate) AND DATEADD(year, -1, FirstPainCodeDate)
-WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES.AllCodesPermanent WHERE Concept = 'cancer' AND Version = 1)
-AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain); --only look in patients with chronic pain
+WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_06_Chen" WHERE concept = 'cancer' AND Version = 1)
+AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain) --only look in patients with chronic pain
+AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AliveAdultsAtStart); -- only include alive patients at study start 
+
 
 -- find patients in the chronic pain cohort who received more than 2 opioids
 -- for 14 days, within a 90 day period, after their first chronic pain code
@@ -136,8 +137,8 @@ GROUP BY "FK_Patient_ID";
 
 -- create cohort of patients, join to demographics table to get GmPseudo
 
-DROP TABLE IF EXISTS Cohort;
-CREATE TEMPORARY TABLE Cohort AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen" AS
 SELECT DISTINCT
 	 i."FK_Patient_ID",
      dem."GmPseudo",
@@ -149,18 +150,47 @@ LEFT JOIN
     ) dem ON dem."FK_Patient_ID" = i."FK_Patient_ID";
 
 
+	
+--- death table to join to later
 
-SELECT DISTINCT 
-	ec."FK_Patient_ID",
-    TO_DATE(ec."EventDate") AS "EventDate",
-    CASE WHEN ec."Cluster_ID" = 'eFI2_Fracture' THEN 'fracture'
-         WHEN ec."Cluster_ID" = 'eFI2_SelfHarm' THEN 'self-harm'
-             ELSE 'other' END AS "Concept", 
-    ec."SuppliedCode",
-    ec."Term"
-FROM INTERMEDIATE.GP_RECORD."EventsClusters" ec
-WHERE "Cluster_ID" in 
-    ('eFI2_Fracture',
-     'eFI2_SelfHarm')
-AND TO_DATE(ec."EventDate") BETWEEN $StudyStartDate AND $StudyEndDate
-AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort)
+DROP TABLE IF EXISTS Death;
+CREATE TEMPORARY TABLE Death AS
+SELECT 
+    DEATH."GmPseudo",
+    TO_DATE(DEATH."RegisteredDateOfDeath") AS DeathDate,
+    OM."DiagnosisOriginalMentionCode",
+    OM."DiagnosisOriginalMentionDesc",
+    OM."DiagnosisOriginalMentionChapterCode",
+    OM."DiagnosisOriginalMentionChapterDesc",
+    OM."DiagnosisOriginalMentionCategory1Code",
+    OM."DiagnosisOriginalMentionCategory1Desc"
+FROM PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" DEATH
+LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions" OM 
+        ON OM."XSeqNo" = DEATH."XSeqNo" AND OM."DiagnosisOriginalMentionNumber" = 1;
+
+-- create cohort of patients
+-- join to demographic table to get ethnicity and date of birth
+
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."1_Patients";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."1_Patients" AS
+SELECT
+	 co."FK_Patient_ID",
+	 dem."GmPseudo",
+	 dem."Sex",
+	 dem."Age",
+	 dem."IMD_Decile",
+	 dem."EthnicityLatest_Category",
+	 dem."PracticeCode", 
+	 dth.DeathDate,
+	 dem."DateOfBirth", 
+	 co.IndexDate
+FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen"  co
+LEFT OUTER JOIN        -- use row_number to filter demographics table to most recent snapshot
+	(
+	SELECT 
+		*, 
+		ROW_NUMBER() OVER (PARTITION BY "FK_Patient_ID" ORDER BY "Snapshot" DESC) AS ROWNUM
+	FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p 
+	) dem	ON dem."FK_Patient_ID" = co."FK_Patient_ID"
+LEFT OUTER JOIN Death dth ON dth."GmPseudo" = dem."GmPseudo"
+WHERE dem.ROWNUM = 1

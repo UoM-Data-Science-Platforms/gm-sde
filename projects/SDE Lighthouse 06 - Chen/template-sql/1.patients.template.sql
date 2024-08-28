@@ -2,11 +2,8 @@
 --│ SDE Lighthouse study 06 - Patients           │
 --└──────────────────────────────────────────────┘
 
-USE DATABASE PRESENTATION;
-USE SCHEMA GP_RECORD;
-
 --> EXECUTE query-build-lh006-cohort.sql
-
+	
 --- death table to join to later
 
 DROP TABLE IF EXISTS Death;
@@ -27,8 +24,8 @@ LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions
 -- create cohort of patients
 -- join to demographic table to get ethnicity and date of birth
 
---DROP TABLE IF EXISTS Patients;
---CREATE TEMPORARY TABLE Patients AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."1_Patients";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."1_Patients" AS
 SELECT
 	 co."FK_Patient_ID",
 	 dem."GmPseudo",
@@ -40,7 +37,7 @@ SELECT
 	 dth.DeathDate,
 	 dem."DateOfBirth", 
 	 co.IndexDate
-FROM Cohort co
+FROM {{cohort-table}}  co
 LEFT OUTER JOIN        -- use row_number to filter demographics table to most recent snapshot
 	(
 	SELECT 

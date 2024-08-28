@@ -2,10 +2,11 @@
 --│ SDE Lighthouse study 06 - Chen - referrals         │
 --└────────────────────────────────────────────────────┘
 
---> EXECUTE query-build-lh006-cohort.sql
+set(StudyStartDate) = to_date('2017-01-01');
+set(StudyEndDate)   = to_date('2023-12-31');
 
-DROP TABLE IF EXISTS referralsClusters;
-CREATE TEMPORARY TABLE referralsClusters AS
+DROP TABLE IF EXISTS {{project-schema}}."6_Referrals";
+CREATE TABLE {{project-schema}}."6_Referrals" AS
 SELECT 
     ec."FK_Patient_ID"
     , TO_DATE(ec."EventDate") AS "MedicationDate"
@@ -33,5 +34,5 @@ WHERE
 	OR 
 	("Cluster_ID" in ('REFERRAL_COD') AND (lower("Term") like '%surgeon%' or lower("Term") like '%surgery%' or lower("Term") like '%surgical%' )) -- surgery referral 
     )
-AND TO_DATE(ec."EventDate") BETWEEN $StudyStartDate and $StudyEndDate;
-    AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort);
+AND TO_DATE(ec."EventDate") BETWEEN $StudyStartDate and $StudyEndDate
+AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}});

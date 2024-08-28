@@ -1,3 +1,5 @@
+USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
+
 --┌──────────────────────────────┐
 --│ Medications for LH006 cohort │
 --└──────────────────────────────┘
@@ -8,10 +10,10 @@
 -- 
 ------------------------------------------------------
 
-USE DATABASE PRESENTATION;
-USE SCHEMA GP_RECORD;
+USE PRESENTATION.GP_RECORD;
 
---> EXECUTE query-build-lh006-cohort.sql
+set(StudyStartDate) = to_date('2017-01-01');
+set(StudyEndDate)   = to_date('2023-12-31');
 
 DROP TABLE IF EXISTS prescriptions;
 CREATE TEMPORARY TABLE prescriptions AS
@@ -32,7 +34,7 @@ FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
 WHERE "Cluster_ID" in 
     ('BENZODRUG_COD', 'GABADRUG_COD', 'ORALNSAIDDRUG_COD', 'OPIOIDDRUG_COD', 'ANTIDEPDRUG_COD')
     AND TO_DATE(ec."MedicationDate") BETWEEN $StudyStartDate and $StudyEndDate
-    AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort);
+    AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen");
 
 
 -- ONLY KEEP DOSAGE INFO IF IT HAS APPEARED > 50 TIMES
@@ -46,13 +48,15 @@ HAVING count(*) >= 50;
 
 -- final table with redacted dosage info
 
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."2_Medications";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."2_Medications" AS
 SELECT 
     p."FK_Patient_ID",
     p."MedicationDate",
     p."SnomedCode",
     p."Quantity",
-    p."Concept",
+    p."CodeSet",
     p."Description",
-    IFNULL(sd."Dosage", 'REDACTED') as Dosage
+    IFNULL(sd."Dosage", 'REDACTED') as "Dosage"
 FROM prescriptions p
 LEFT JOIN SafeDosages sd ON sd."Dosage" = p."Dosage"
