@@ -17,21 +17,23 @@ DROP TABLE IF EXISTS ManchesterTrusts;
 CREATE TEMPORARY TABLE ManchesterTrusts AS 
 SELECT *
 FROM PRESENTATION.NATIONAL_FLOWS_APC."DS708_Apcs"
-WHERE "ProviderDesc" IN 
+WHERE "ProviderDesc" IN    -- limit to trusts that have virtual ward data 
     ('Manchester University NHS Foundation Trust',
-     'Pennine Acute Hospitals NHS Trust',
+     --'Pennine Acute Hospitals NHS Trust',
      'Northern Care Alliance NHS Foundation Trust',
      'Wrightington, Wigan And Leigh NHS Foundation Trust',
      'Stockport NHS Foundation Trust',
      'Bolton NHS Foundation Trust',
      'Tameside And Glossop Integrated Care NHS Foundation Trust')
+where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 and "HospitalSpellDuration" != '*'; -- < 10 records have missing discharge date and spell duration, so exclude
   -- FILTER OUT ELECTIVE ??   
   
 -- MONTHLY ADMISSION COUNTS AND AVG LENGTH OF STAY BY TRUST
 
     -- GROUP BY TRUST ONLY
-
+DROP TABLE IF EXISTS {{project-schema}}."6a_TrustLevelAdmissions";
+CREATE TABLE {{project-schema}}."6a_TrustLevelAdmissions" AS
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -39,28 +41,27 @@ select
     , count(*) as Admissions  
     , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
 from ManchesterTrusts
-where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
---AND IsReadmission" = 'FALSE'
 group by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
-    -- GROUP BY TRUST ONLY
     -- READMISSIONS ONLY
-
+DROP TABLE IF EXISTS {{project-schema}}."6b_TrustLevelReadmissions";
+CREATE TABLE {{project-schema}}."6b_TrustLevelReadmissions" AS
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
     ,"ProviderDesc"
     , count(*) as Readmissions  
     , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
-from ManchesterTrusts
-where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
+FROM ManchesterTrusts
 and "IsReadmission" = 'TRUE'
 group by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
     -- GROUP BY TRUST AND ICD CATEGORY 
 
+DROP TABLE IF EXISTS {{project-schema}}."6c_TrustLevelAdmissions_icd";
+CREATE TABLE {{project-schema}}."6c_TrustLevelAdmissions_icd" AS
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -69,8 +70,7 @@ select
     , "DerPrimaryDiagnosisChapterDescReportingEpisode" as PrimaryICDCategoryDesc
     , count(*) as Admissions  
     , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
-from ManchesterTrusts
-where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
+FROM ManchesterTrusts
 group by   
       YEAR("AdmissionDttm") 
     , MONTH("AdmissionDttm") 
@@ -85,7 +85,8 @@ order by
     , "DerPrimaryDiagnosisChapterDescReportingEpisode";
 
     -- GROUP BY TRUST AND AGE BAND
- 
+DROP TABLE IF EXISTS {{project-schema}}."6d_TrustLevelAdmissions_age";
+CREATE TABLE {{project-schema}}."6d_TrustLevelAdmissions_age" AS
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -100,7 +101,6 @@ select
     , count(*) as Admissions  
     , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
 from ManchesterTrusts
-where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
 and "AgeAtStartOfSpellSus" between 0 and 120 -- REMOVE UNREALISTIC VALUES
 group by 
       YEAR("AdmissionDttm")
@@ -130,7 +130,6 @@ order by
 	-- by ICD   -- providing this is likely to have too many small numbers, as we could only do it using 'chief complaint snomed code'
 	-- by ageband 
 
-
 DROP TABLE IF EXISTS ManchesterTrustsAE;
 CREATE TEMPORARY TABLE ManchesterTrustsAE AS 
 SELECT *
@@ -147,7 +146,8 @@ AND  TO_DATE("ArrivalDate") between $StudyStartDate and $StudyEndDate
 
     
 -- total
- 
+DROP TABLE IF EXISTS {{project-schema}}."6e_TrustLevelAEAdmissions";
+CREATE TABLE {{project-schema}}."6e_TrustLevelAEAdmissions" AS
 SELECT
 	  YEAR("ArrivalDate") AS "Year"
     , MONTH("ArrivalDate") AS "Month"
@@ -165,7 +165,8 @@ ORDER BY
 	, "ProviderDesc"
 
 -- by Age band
-
+DROP TABLE IF EXISTS {{project-schema}}."6f_TrustLevelAEAdmissions_age";
+CREATE TABLE {{project-schema}}."6f_TrustLevelAEAdmissions_age" AS
 SELECT
 	  YEAR("ArrivalDate") AS "Year"
     , MONTH("ArrivalDate") AS "Month"

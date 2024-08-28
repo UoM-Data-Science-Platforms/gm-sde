@@ -13,7 +13,10 @@ set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-06-30');
 
 ---- Use the latest snapshot for each spell and get all relevant information
-select  
+
+DROP TABLE IF EXISTS {{project-schema}}."2_VirtualWards";
+CREATE TABLE {{project-schema}}."2_VirtualWards" AS
+SELECT 
     SUBSTRING(vw."Pseudo NHS Number", 2)::INT "GmPseudo",
     ROW_NUMBER() OVER(PARTITION BY "Pseudo NHS Number" ORDER BY "SnapshotDate") AS "PatientSpellNumber",
     vw."SnapshotDate",
@@ -57,7 +60,8 @@ inner join (select  "Unique Spell ID", Max("SnapshotDate") "LatestRecord"
             from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY
             group by all) a 
     on a."Unique Spell ID" = vw."Unique Spell ID" and vw."SnapshotDate" = a."LatestRecord"
-where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate;
+where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate
+AND SUBSTRING(vw."Pseudo NHS Number", 2)::INT IN (select "GmPseudo" from {{cohort-table}}); -- extra check to ensure consistent cohort
 
 -- 16,107 patients
 --24,608 spells
