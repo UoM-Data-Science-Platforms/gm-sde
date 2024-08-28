@@ -12,11 +12,10 @@
 -- OUTPUT: Temp tables as follows:
 -- Cohort
 
-USE DATABASE INTERMEDIATE;
-USE SCHEMA GP_RECORD;
-
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
+
+--> CODESET chronic-pain:1 cancer:1
 
 --ALL DEATHS 
 
@@ -60,7 +59,7 @@ DROP TABLE IF EXISTS chronic_pain;
 CREATE TEMPORARY TABLE chronic_pain AS
 SELECT "FK_Patient_ID", to_date("EventDate") AS "EventDate"
 FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
-WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES.AllCodesPermanent WHERE Concept = 'chronic-pain' AND Version = 1) 
+WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept = 'chronic-pain' AND Version = 1) 
 AND "EventDate" BETWEEN $StudyStartDate and $StudyEndDate
 AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AliveAdultsAtStart); -- only include alive patients at study start
 
@@ -82,9 +81,9 @@ SELECT e."FK_Patient_ID", to_date("EventDate") AS "EventDate"
 FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
 INNER JOIN FirstPain fp ON fp."FK_Patient_ID" = e."FK_Patient_ID" 
 				AND e."EventDate" BETWEEN DATEADD(year, 1, FirstPainCodeDate) AND DATEADD(year, -1, FirstPainCodeDate)
-WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES.AllCodesPermanent WHERE Concept = 'cancer' AND Version = 1)
+WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept = 'cancer' AND Version = 1)
 AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain) --only look in patients with chronic pain
-AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AliveAdultsAtStart); -- only include alive patients at study start 
+AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AliveAdultsAtStart); -- only include alive patients at study start 
 
 
 -- find patients in the chronic pain cohort who received more than 2 opioids
@@ -128,8 +127,8 @@ GROUP BY "FK_Patient_ID";
 
 -- create cohort of patients, join to demographics table to get GmPseudo
 
-DROP TABLE IF EXISTS Cohort;
-CREATE TEMPORARY TABLE Cohort AS
+DROP TABLE IF EXISTS {{cohort-table}};
+CREATE TABLE {{cohort-table}} AS
 SELECT DISTINCT
 	 i."FK_Patient_ID",
      dem."GmPseudo",
