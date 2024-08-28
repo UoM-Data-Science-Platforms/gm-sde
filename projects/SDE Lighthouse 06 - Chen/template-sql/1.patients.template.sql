@@ -30,12 +30,14 @@ SELECT
 	 co."FK_Patient_ID",
 	 dem."GmPseudo",
 	 dem."Sex",
+	 dem."DateOfBirth", 
 	 dem."Age",
 	 dem."IMD_Decile",
 	 dem."EthnicityLatest_Category",
 	 dem."PracticeCode", 
 	 dth.DeathDate,
-	 dem."DateOfBirth", 
+     dth."DiagnosisOriginalMentionCode" AS "ReasonForDeathCode",
+     dth."DiagnosisOriginalMentionDesc" AS "ReasonForDeathDesc",
 	 co.IndexDate
 FROM {{cohort-table}}  co
 LEFT OUTER JOIN        -- use row_number to filter demographics table to most recent snapshot

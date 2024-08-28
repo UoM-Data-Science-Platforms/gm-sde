@@ -10,8 +10,6 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- 
 ------------------------------------------------------
 
-USE PRESENTATION.GP_RECORD;
-
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
 

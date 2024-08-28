@@ -4,8 +4,6 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --│ SDE Lighthouse study 06 - pain diagnoses           │
 --└────────────────────────────────────────────────────┘
 
-USE PRESENTATION.GP_RECORD;
-
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
 
@@ -26,7 +24,7 @@ SELECT
     ec."FK_Patient_ID"
     , TO_DATE(ec."EventDate") AS "DiagnosisDate"
     , ec."SCTID" AS "SnomedCode"
-    , CASE WHEN ((lower("Term") like '%neuropa%' AND lower("Term") like '%diab%'))  THEN  'diabetic-neuropathy'
+    , CASE WHEN (lower("Term") like '%neuropa%' AND lower("Term") like '%diab%')  THEN  'diabetic-neuropathy'
            WHEN ("Cluster_ID" = 'eFI2_PeripheralNeuropathy')                        THEN  'peripheral-neuropathy' 
 		   WHEN ("Cluster_ID" = 'RARTH_COD') THEN 'rheumatoid-arthritis'
 		   WHEN ("Cluster_ID" = 'eFI2_Osteoarthritis') THEN 'osteoarthritis'
@@ -36,7 +34,7 @@ SELECT
 FROM INTERMEDIATE.GP_RECORD."EventsClusters" ec
 WHERE 
 	(
-	((lower("Term") like '%neuropa%' AND lower("Term") like '%diabet%'))  OR -- diabetic neuropathy
+	(lower("Term") like '%neuropa%' AND lower("Term") like '%diabet%')  OR -- diabetic neuropathy
 	("Cluster_ID" = 'eFI2_PeripheralNeuropathy') OR -- peripheral neuropathy
 	("Cluster_ID" = 'RARTH_COD') OR -- rheumatoid arthritis diagnosis codes
 	("Cluster_ID" = 'eFI2_Osteoarthritis') OR -- osteoarthritis

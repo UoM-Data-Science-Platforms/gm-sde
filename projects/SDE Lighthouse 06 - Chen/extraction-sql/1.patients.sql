@@ -4,8 +4,6 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --│ SDE Lighthouse study 06 - Patients           │
 --└──────────────────────────────────────────────┘
 
-USE PRESENTATION.GP_RECORD;
-
 --┌───────────────────────────────────────────────────────────────────────────┐
 --│ Define Cohort for LH006: patients that had multiple opioid prescriptions  │
 --└───────────────────────────────────────────────────────────────────────────┘
@@ -177,12 +175,14 @@ SELECT
 	 co."FK_Patient_ID",
 	 dem."GmPseudo",
 	 dem."Sex",
+	 dem."DateOfBirth", 
 	 dem."Age",
 	 dem."IMD_Decile",
 	 dem."EthnicityLatest_Category",
 	 dem."PracticeCode", 
 	 dth.DeathDate,
-	 dem."DateOfBirth", 
+     dth."DiagnosisOriginalMentionCode" AS "ReasonForDeathCode",
+     dth."DiagnosisOriginalMentionDesc" AS "ReasonForDeathDesc",
 	 co.IndexDate
 FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen"  co
 LEFT OUTER JOIN        -- use row_number to filter demographics table to most recent snapshot
