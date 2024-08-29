@@ -1,3 +1,5 @@
+USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
+
 --┌─────────────────────┐
 --│ LH001: Medications  │
 --└─────────────────────┘
@@ -11,39 +13,35 @@ set(EndDate)   = to_date('2024-06-30');
 
 -- one med missing: ondansetron 
 
-USE DATABASE PRESENTATION;
-USE SCHEMA GP_RECORD;
-
---> EXECUTE query-build-lh001-cohort.sql
-
 DROP TABLE IF EXISTS prescriptions;
 CREATE TEMPORARY TABLE prescriptions AS
 SELECT 
     ec."FK_Patient_ID"
+	, c."GmPseudo"
     , TO_DATE(ec."MedicationDate") AS "MedicationDate"
     , ec."SCTID" AS "SnomedCode"
 	, ec."Quantity"
     , ec."Dosage_GP_Medications" AS "Dosage" 
     , CASE WHEN ec."Field_ID" = 'Statin' THEN "FoundValue" -- statin
 			--antidepressants
-	       WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%citalopram%')    THEN 'citalopram'
-		   WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%escitalopram%')  THEN 'escitalopram'
-	       WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%fluvoxamine%')   THEN 'fluvoxamine'
-	       WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%paroxetine%')    THEN 'paroxetine'
-		   WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%sertraline%')    THEN 'sertraline'
-	       WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%venlafaxine%')   THEN 'venlafaxine'
-		   WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%amitriptyline%') THEN 'amitriptyline'
-           WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%clomipramine%')  THEN 'clomipramine'
-		   WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%doxepin%')       THEN 'doxepin'
-		   WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%imipramine%')    THEN 'imipramine'
-		   WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%nortriptyline%') THEN 'nortiptyline'
-		   WHEN ("Field_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%trimipramine%')  THEN 'trimipramine'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%citalopram%')    THEN 'citalopram'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%escitalopram%')  THEN 'escitalopram'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%fluvoxamine%')   THEN 'fluvoxamine'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%paroxetine%')    THEN 'paroxetine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%sertraline%')    THEN 'sertraline'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%venlafaxine%')   THEN 'venlafaxine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%amitriptyline%') THEN 'amitriptyline'
+           WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%clomipramine%')  THEN 'clomipramine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%doxepin%')       THEN 'doxepin'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%imipramine%')    THEN 'imipramine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%nortriptyline%') THEN 'nortiptyline'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%trimipramine%')  THEN 'trimipramine'
 			-- proton pump inhibitors
-		   WHEN ("Field_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%esomeprazole%') THEN 'esomeprazole'
-		   WHEN ("Field_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%lansoprazole%') THEN 'lansoprazole'
-		   WHEN ("Field_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%omeprazole%')   THEN 'omeprazole'
-		   WHEN ("Field_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%pantoprazole%') THEN 'pantoprazole'
-		   WHEN ("Field_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%rabeprazole%')  THEN 'rabeprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%esomeprazole%') THEN 'esomeprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%lansoprazole%') THEN 'lansoprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%omeprazole%')   THEN 'omeprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%pantoprazole%') THEN 'pantoprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%rabeprazole%')  THEN 'rabeprazole'
 			--immunosuppressants
 		   WHEN ("Cluster_ID" = 'IMTRTATRISKDRUG_COD' AND LOWER("MedicationDescription") LIKE '%tacrolimus%') THEN 'tacrolimus'
 		   --anticoagulants
@@ -51,8 +49,8 @@ SELECT
 		   --antiepilepsy
 		   WHEN ("Cluster_ID" = 'EPILDRUG_COD' AND LOWER("MedicationDescription") LIKE '%phenytoin%') 	     THEN 'phenytoin'
 		   --nsaids
-		   WHEN	("Field_ID" = 'ORALNSAIDDRUG_COD' AND LOWER("MedicationDescription") LIKE '%celecoxib%') 	 THEN 'celecoxib'
-		   WHEN ("Field_ID" = 'ORALNSAIDDRUG_COD' AND LOWER("MedicationDescription") LIKE '%piroxicam%') 	 THEN 'piroxicam'
+		   WHEN	("Cluster_ID" = 'ORALNSAIDDRUG_COD' AND LOWER("MedicationDescription") LIKE '%celecoxib%') 	 THEN 'celecoxib'
+		   WHEN ("Cluster_ID" = 'ORALNSAIDDRUG_COD' AND LOWER("MedicationDescription") LIKE '%piroxicam%') 	 THEN 'piroxicam'
 		   WHEN ("Cluster_ID" = 'ORALNSAIDDRUG_COD' AND LOWER("MedicationDescription") LIKE '%diclofenac%')   THEN 'diclofenac'
 		   WHEN ("Cluster_ID" = 'ORALNSAIDDRUG_COD' AND LOWER("MedicationDescription") LIKE '%ibuprofen%')	 THEN 'ibuprofen'
 		   --opioids
@@ -63,7 +61,8 @@ SELECT
 		   ELSE 'other' END AS "Concept"
 
     , ec."MedicationDescription" AS "Description"
-FROM INMedicationDescriptionEDIATE.GP_RECORD."MedicationsClusters" ec
+FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
+INNER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_01_Newman" c ON c."FK_Patient_ID" = ec."FK_Patient_ID"
 WHERE 
 	("Field_ID" IN ('Statin')) OR -- statins
 	("Field_ID" IN ('ANTIDEPDRUG_COD') -- SSRIs
@@ -85,8 +84,7 @@ WHERE
 	("Cluster_ID" = 'EPILDRUG_COD' AND LOWER("MedicationDescription") LIKE '%phenytoin%') OR
 	("Cluster_ID" = 'CLODRUG_COD') 	OR
 	("Cluster_ID" = 'OPIOIDDRUG_COD' AND LOWER("MedicationDescription") LIKE '%codeine%')
-AND TO_DATE(ec."MedicationDate") BETWEEN $StartDate and $EndDate
-AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM Cohort);
+AND TO_DATE(ec."MedicationDate") BETWEEN $StartDate and $EndDate;
 
 
 -- ONLY KEEP DOSAGE INFO IF IT HAS APPEARED > 50 TIMES, AS IT CAN BE BESPOKE
@@ -100,8 +98,15 @@ HAVING count(*) >= 50;
 
 -- final table with redacted dosage info
 
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."lh001_2_Medications";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."lh001_2_Medications" AS
 SELECT 
-    p.*,
+    p."GmPseudo", -- NEEDS PSEUDONYMISING
+	p."MedicationDate",
+	p."Quantity",
+	p."SnomedCode",
+	p."Concept",
+	p."Description",
     IFNULL(sd."Dosage", 'REDACTED') as Dosage
 FROM prescriptions p
 LEFT JOIN SafeDosages sd ON sd."Dosage" = p."Dosage"
