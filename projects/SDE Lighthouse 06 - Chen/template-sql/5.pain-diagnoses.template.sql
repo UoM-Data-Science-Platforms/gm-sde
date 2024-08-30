@@ -2,6 +2,12 @@
 --│ SDE Lighthouse study 06 - pain diagnoses           │
 --└────────────────────────────────────────────────────┘
 
+-------- RESEARCH DATA ENGINEER CHECK ---------------
+-- Richard Williams	2024-08-30	Review in progress --
+--   Suggest diabetic neuropathy has separate      --
+--   code set                                      --
+-----------------------------------------------------
+
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
 
@@ -57,8 +63,7 @@ WHERE cs.concept IN ('chronic-pain', 'neck-problems','neuropathic-pain', 'chest-
 -- some codes appear in multiple code sets (e.g. back pain appearing in the more speciifc 'back-pain' and the more broad 'chronic-pain'), 
 -- so we're using sum case when statements to reduce the number of rows but indicate which code sets each code belongs to.
 
-DROP TABLE IF EXISTS {{project-schema}}."5_PainDiagnoses";
-CREATE TABLE {{project-schema}}."5_PainDiagnoses" AS
+{{create-output-table::"5_PainDiagnoses"::"GmPseudo"}}
 SELECT 
 	"GmPseudo", -- NEEDS PSEUDONYMISING 
 	"DiagnosisDate", 

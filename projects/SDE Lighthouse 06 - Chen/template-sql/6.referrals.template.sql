@@ -2,11 +2,14 @@
 --│ SDE Lighthouse study 06 - Chen - referrals         │
 --└────────────────────────────────────────────────────┘
 
+-------- RESEARCH DATA ENGINEER CHECK ------------
+-- Richard Williams	2024-08-30	Review complete --
+--------------------------------------------------
+
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
 
-DROP TABLE IF EXISTS {{project-schema}}."6_Referrals";
-CREATE TABLE {{project-schema}}."6_Referrals" AS
+{{create-output-table::"6_Referrals"::"GmPseudo"}}
 SELECT 
     co."GmPseudo" -- NEEDS PSEUDONYMISING
     , TO_DATE(ec."EventDate") AS "MedicationDate"

@@ -2,6 +2,10 @@
 --│ SDE Lighthouse study 06 - Patients           │
 --└──────────────────────────────────────────────┘
 
+-------- RESEARCH DATA ENGINEER CHECK ------------
+-- Richard Williams	2024-08-30	Review complete --
+--------------------------------------------------
+
 --> EXECUTE query-build-lh006-cohort.sql
 	
 --- death table to join to later
@@ -24,12 +28,11 @@ LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions
 -- create cohort of patients
 -- join to demographic table to get ethnicity and date of birth
 
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."1_Patients";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."1_Patients" AS
+{{create-output-table::"1_Patients"::"GmPseudo"}}
 SELECT
 	 dem."GmPseudo", -- NEEDS PSEUDONYMISING
 	 dem."Sex",
-	 dem."DateOfBirth", 
+	 dem."DateOfBirth" AS "MonthOfBirth", -- I've renamed this to what it actually is
 	 dem."Age",
 	 dem."IMD_Decile",
 	 dem."EthnicityLatest_Category",

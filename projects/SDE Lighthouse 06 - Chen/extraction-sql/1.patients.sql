@@ -4,6 +4,10 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --│ SDE Lighthouse study 06 - Patients           │
 --└──────────────────────────────────────────────┘
 
+-------- RESEARCH DATA ENGINEER CHECK ------------
+-- Richard Williams	2024-08-30	Review complete --
+--------------------------------------------------
+
 --┌───────────────────────────────────────────────────────────────────────────┐
 --│ Define Cohort for LH006: patients that had multiple opioid prescriptions  │
 --└───────────────────────────────────────────────────────────────────────────┘
@@ -13,6 +17,7 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- COHORT: Any adult patient with non-chronic cancer pain, who received more than two oral or transdermal opioid prescriptions
 --          for 14 days within 90 days, between 2017 and 2023.
 --          Excluding patients with a cancer diagnosis within 12 months from index date
+--			Opioids should exclude the main addiction substitutes
 
 -- INPUT: none
 -- OUTPUT: Temp tables as follows:
@@ -116,7 +121,7 @@ SELECT
 FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
 INNER JOIN FirstPain fp ON fp."FK_Patient_ID" = ec."FK_Patient_ID" 
 WHERE 
-	"Cluster_ID" in ('OPIOIDDRUG_COD') 									-- opioids only
+	"Cluster_ID" in ('OPIOIDDRUG_COD') 									-- opioids only (excluding heroin substitutes)
 	AND TO_DATE(ec."MedicationDate") > fp.FirstPainCodeDate				-- only prescriptions after the patients first pain code
 	AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain) -- chronic pain patients only 
 	AND ec."FK_Patient_ID" NOT IN (SELECT "FK_Patient_ID" FROM cancer)  -- exclude cancer patients
@@ -169,12 +174,15 @@ LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions
 -- create cohort of patients
 -- join to demographic table to get ethnicity and date of birth
 
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."1_Patients";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."1_Patients" AS
+
+-- First we create a table in an area only visible to the RDEs which contains
+-- the GmPseudo or FK_Patient_IDs. These cannot be released to end users.
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."1_Patients_WITH_PSEUDO_IDS";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."1_Patients_WITH_PSEUDO_IDS" AS
 SELECT
 	 dem."GmPseudo", -- NEEDS PSEUDONYMISING
 	 dem."Sex",
-	 dem."DateOfBirth", 
+	 dem."DateOfBirth" AS "MonthOfBirth", -- I've renamed this to what it actually is
 	 dem."Age",
 	 dem."IMD_Decile",
 	 dem."EthnicityLatest_Category",
@@ -187,3 +195,11 @@ FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen"  co
 LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" dem ON dem."GmPseudo" = co."GmPseudo"
 LEFT OUTER JOIN Death dth ON dth."GmPseudo" = co."GmPseudo"
 QUALIFY row_number() OVER (PARTITION BY dem."GmPseudo" ORDER BY "Snapshot" DESC) = 1;
+
+-- Then we select from that table, to populate the table for the end users
+-- where the GmPseudo or FK_Patient_ID fields are redacted via a function
+-- created in the 0.code-sets.sql
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."1_Patients";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."1_Patients" AS
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_06_Chen("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."1_Patients_WITH_PSEUDO_IDS";
