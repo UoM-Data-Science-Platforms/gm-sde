@@ -20,9 +20,6 @@ SELECT
 	, "DerPrimaryDiagnosisCodeReportingEpisode" AS "PrimaryDiagnosisCode" 
     , "DerPrimaryDiagnosisDescReportingEpisode" AS "PrimaryDiagnosisDesc"
 FROM PRESENTATION.NATIONAL_FLOWS_APC."DS708_Apcs" ap
-LEFT JOIN {{cohort-table}} c ON c."GmPseudo" = ap."GmPseudo"
-WHERE 
--- FILTER OUT ELECTIVE ??   
-TO_DATE("AdmissionDttm") BETWEEN $StudyStartDate AND $StudyEndDate
+WHERE  TO_DATE("AdmissionDttm") BETWEEN $StudyStartDate AND $StudyEndDate
 AND ap."GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}});
 
