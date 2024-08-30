@@ -134,7 +134,7 @@ SELECT DISTINCT
      dem."GmPseudo",
 	 i.IndexDate
 FROM IndexDates i
-LEFT JOIN 
+LEFT JOIN -- join to demographics table to get GmPseudo
     (SELECT DISTINCT "FK_Patient_ID", "GmPseudo"
      FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses"
     ) dem ON dem."FK_Patient_ID" = i."FK_Patient_ID";

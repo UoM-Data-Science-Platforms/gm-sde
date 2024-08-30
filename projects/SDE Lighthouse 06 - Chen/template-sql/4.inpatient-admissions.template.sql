@@ -11,7 +11,6 @@ DROP TABLE IF EXISTS {{project-schema}}."4_InpatientAdmissions";
 CREATE TABLE {{project-schema}}."4_InpatientAdmissions" AS
 SELECT 
     ap."GmPseudo"
-	, c."FK_Patient_ID"
     , TO_DATE("AdmissionDttm") AS "AdmissionDate"
     , TO_DATE("DischargeDttm") AS "DischargeDate"
 	, "AdmissionMethodCode"

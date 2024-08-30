@@ -27,8 +27,7 @@ LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."1_Patients";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."1_Patients" AS
 SELECT
-	 co."FK_Patient_ID",
-	 dem."GmPseudo",
+	 dem."GmPseudo", -- NEEDS PSEUDONYMISING
 	 dem."Sex",
 	 dem."DateOfBirth", 
 	 dem."Age",
@@ -40,12 +39,6 @@ SELECT
      dth."DiagnosisOriginalMentionDesc" AS "ReasonForDeathDesc",
 	 co.IndexDate
 FROM {{cohort-table}}  co
-LEFT OUTER JOIN        -- use row_number to filter demographics table to most recent snapshot
-	(
-	SELECT 
-		*, 
-		ROW_NUMBER() OVER (PARTITION BY "FK_Patient_ID" ORDER BY "Snapshot" DESC) AS ROWNUM
-	FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p 
-	) dem	ON dem."FK_Patient_ID" = co."FK_Patient_ID"
-LEFT OUTER JOIN Death dth ON dth."GmPseudo" = dem."GmPseudo"
-WHERE dem.ROWNUM = 1
+LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" dem ON dem."GmPseudo" = co."GmPseudo"
+LEFT OUTER JOIN Death dth ON dth."GmPseudo" = co."GmPseudo"
+QUALIFY row_number() OVER (PARTITION BY dem."GmPseudo" ORDER BY "Snapshot" DESC) = 1;

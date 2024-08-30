@@ -13,19 +13,18 @@ DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."4_InpatientAdmissions";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."4_InpatientAdmissions" AS
 SELECT 
     ap."GmPseudo"
-	, c."FK_Patient_ID"
     , TO_DATE("AdmissionDttm") AS "AdmissionDate"
     , TO_DATE("DischargeDttm") AS "DischargeDate"
 	, "AdmissionMethodCode"
 	, "AdmissionMethodDesc"
     , "HospitalSpellDuration" AS "LOS_days"
-    , "DerPrimaryDiagnosisChapterDescReportingEpisode" AS PrimaryDiagnosisChapter
-	, "DerPrimaryDiagnosisCodeReportingEpisode" AS PrimaryDiagnosisCode 
-    , "DerPrimaryDiagnosisDescReportingEpisode" AS PrimaryDiagnosisDesc
+    , "DerPrimaryDiagnosisChapterDescReportingEpisode" AS "PrimaryDiagnosisChapter"
+	, "DerPrimaryDiagnosisCodeReportingEpisode" AS "PrimaryDiagnosisCode" 
+    , "DerPrimaryDiagnosisDescReportingEpisode" AS "PrimaryDiagnosisDesc"
 FROM PRESENTATION.NATIONAL_FLOWS_APC."DS708_Apcs" ap
 LEFT JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen" c ON c."GmPseudo" = ap."GmPseudo"
 WHERE 
 -- FILTER OUT ELECTIVE ??   
 TO_DATE("AdmissionDttm") BETWEEN $StudyStartDate AND $StudyEndDate
-AND "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen");
+AND ap."GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen");
 

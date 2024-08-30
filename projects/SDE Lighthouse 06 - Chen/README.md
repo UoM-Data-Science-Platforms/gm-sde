@@ -71,6 +71,8 @@ This project required the following clinical code sets:
 
 - chronic-pain v1
 - cancer v1
+- selfharm-episodes v1
+- fracture v1
 - neck-problems v1
 - neuropathic-pain v1
 - chest-pain v1
@@ -129,6 +131,43 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2024-02-22 | TPP | 201752 | 11008 (5.46%) | 8580 (4.25%) | 
 | 2024-02-22 | Vision | 335007 | 16786 (5.01%) | 16713 (4.99%) | 
 LINK: [https://github.com/rw251/.../conditions/cancer/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/1)
+
+### Self-harm Episodes
+
+Defined as any episode of self-harm (except accidental) or attempted suicide
+
+Readv2 code set supplied by the PI for RQ-029(Steeg)
+
+CTV3 and SNOMED code sets created using the Reference_Coding table in the GMCR, based on the Readv2 code set.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. The prevalence range `3.83% - 4.17%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-04-14 | EMIS            | 2603707    |   102353 (3.97%) |     95004 (3.65%) |
+| 2021-04-14 | TPP             | 210613     |     7591 (3.61%) |      7257 (3.45%) |
+| 2021-04-14 | Vision          | 333786     |    12661 (3.79%) |     11975 (3.59%) |
+| 2024-04-30 | EMIS            | 2530927    |   105617 (4.17%) |    105491 (4.17%) |
+| 2024-04-30 | TPP             | 201816     |     8865 (4.39%) |         8072 (4%) |
+| 2024-04-30 | Vision          | 335411     |    12867 (3.84%) |     12836 (3.83%) |
+
+LINK: [https://github.com/rw251/.../patient/selfharm-episodes/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/selfharm-episodes/1)
+
+### Fracture
+
+Any code indicating a fracture. Based on read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/84/codelist/res84-fracture-codes/
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `19.6% - 23.2%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2023-12-13 | EMIS | 2515618 | 521295 (20.7%) | 521373 (20.7%) | 
+| 2023-12-13 | TPP | 201264 | 47617 (23.7%) | 46765 (23.2%) | 
+| 2023-12-13 | Vision | 334040 | 65475 (19.6%) | 65482 (19.6%) | 
+
+LINK: [https://github.com/rw251/.../conditions/fracture/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/fracture/1)
 
 ### Neck problems
 

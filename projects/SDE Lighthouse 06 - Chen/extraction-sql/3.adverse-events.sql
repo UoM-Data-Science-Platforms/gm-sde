@@ -4,22 +4,26 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --│ SDE Lighthouse study 06 - Chen - adverse events          │
 --└──────────────────────────────────────────────────────────┘
 
+-- NOTE: the SDE does have self harm and fracture code sets (eFI2_SelfHarm and eFI2_Fracture)
+-- but our GMCR code sets seem more comprehensive
+
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
 
+-- >>> Codesets required... Inserting the code set code
+-- >>> Codesets extracted into 0.code-sets.sql
+-- >>> Following code sets injected: selfharm-episodes v1/fracture v1
+
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."3_AdverseEvents";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."3_AdverseEvents" AS
-SELECT DISTINCT 
-	ec."FK_Patient_ID",
-    TO_DATE(ec."EventDate") AS "EventDate",
-    CASE WHEN ec."Cluster_ID" = 'eFI2_Fracture' THEN 'fracture'
-         WHEN ec."Cluster_ID" = 'eFI2_SelfHarm' THEN 'self-harm'
-             ELSE 'other' END AS "Concept", 
-    ec."SuppliedCode",
-    ec."Term" AS "Description"
-FROM INTERMEDIATE.GP_RECORD."EventsClusters" ec
-WHERE "Cluster_ID" in 
-    ('eFI2_Fracture',
-     'eFI2_SelfHarm')
-AND TO_DATE(ec."EventDate") BETWEEN $StudyStartDate AND $StudyEndDate
-AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen")
+SELECT DISTINCT
+	cohort."GmPseudo",  -- NEEDS PSEUDONYMISING
+	to_date("EventDate") as "EventDate",
+	cs.concept AS "Concept",
+	"SuppliedCode", 
+	"Term" AS "Description"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen" cohort
+LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" events ON events."FK_Patient_ID" = cohort."FK_Patient_ID"
+LEFT OUTER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_06_Chen" cs ON cs.code = events."SuppliedCode" 
+WHERE cs.concept IN ('selfharm-episodes', 'fracture')
+	AND TO_DATE(events."EventDate") BETWEEN $StudyStartDate AND $StudyEndDate;
