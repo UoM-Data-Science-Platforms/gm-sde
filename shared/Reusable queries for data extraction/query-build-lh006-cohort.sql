@@ -7,6 +7,7 @@
 -- COHORT: Any adult patient with non-chronic cancer pain, who received more than two oral or transdermal opioid prescriptions
 --          for 14 days within 90 days, between 2017 and 2023.
 --          Excluding patients with a cancer diagnosis within 12 months from index date
+--			Opioids should exclude the main addiction substitutes
 
 -- INPUT: none
 -- OUTPUT: Temp tables as follows:
@@ -108,7 +109,7 @@ SELECT
 FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
 INNER JOIN FirstPain fp ON fp."FK_Patient_ID" = ec."FK_Patient_ID" 
 WHERE 
-	"Cluster_ID" in ('OPIOIDDRUG_COD') 									-- opioids only
+	"Cluster_ID" in ('OPIOIDDRUG_COD') 									-- opioids only (excluding heroin substitutes)
 	AND TO_DATE(ec."MedicationDate") > fp.FirstPainCodeDate				-- only prescriptions after the patients first pain code
 	AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain) -- chronic pain patients only 
 	AND ec."FK_Patient_ID" NOT IN (SELECT "FK_Patient_ID" FROM cancer)  -- exclude cancer patients
