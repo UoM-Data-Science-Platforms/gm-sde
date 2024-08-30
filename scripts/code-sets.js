@@ -267,19 +267,89 @@ Generating the SQL...`);
     '-'
   )} and execute the remaining sql files.
 
+USE ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES};
+
 -- Creates the code set table for this project.
-DROP TABLE IF EXISTS ${
-    config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
-  }."Code_Sets_${projectNameChunked.join('_')}";
-CREATE TABLE ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."Code_Sets_${projectNameChunked.join(
-    '_'
-  )}" (
+DROP TABLE IF EXISTS "Code_Sets_${projectNameChunked.join('_')}";
+CREATE TABLE "Code_Sets_${projectNameChunked.join('_')}" (
 	CONCEPT VARCHAR(255),
 	VERSION NUMBER(38,0),
 	TERMINOLOGY VARCHAR(20),
 	CODE VARCHAR(20),
 	DESCRIPTION VARCHAR(255)
-);`;
+);
+
+-----------------------------------------------------------------------------------------------
+-- START: GmPseudo obfuscator                                                                --
+-----------------------------------------------------------------------------------------------
+
+-- Can't provide GmPseudo. Need to obfuscate it. Requirements
+--  - Consistent, so two different SQL files for the same study would produce the same output
+--  - Study-specific. GmPseudo=xxx would come out as different ids in different studies
+--  - Repeatable. GmPseudo=xxx would always produce the same id
+--  - Secure. Can't inadvertently reveal gmpseudo, or allow guessing.
+
+-- Current solution.
+-- Create a study specific hash for each GmPseudo in the database. But, only use this to sort
+-- the patients in study specific random way. We then assign number (1,2,3...) according to
+-- this ordering. On subsequent runs, we only do this to GmPseudo ids that haven't already
+-- been done for this study. The table is stored in a location only visible to the data
+-- engineers, but the original mapping from GmPseudo to study specific pseudo is maintained in
+-- case of query.
+
+-- First create the output table unless it already exists
+CREATE TABLE IF NOT EXISTS "Patient_ID_Mapping_${projectNameChunked.join('_')}" (
+    "GmPseudo" NUMBER(38,0),
+    "Hash" VARCHAR(255),
+    "StudyPatientPseudoId" NUMBER(38,0)
+);
+
+-- Make a temp table of all "new" GmPseudo ids. I.e. any GmPseudo ids
+-- that we've already got a unique id for for this study are excluded
+DROP TABLE IF EXISTS "AllPseudos_${projectNameChunked.join('_')}";
+CREATE TEMPORARY TABLE "AllPseudos_${projectNameChunked.join('_')}" AS
+SELECT DISTINCT "GmPseudo" FROM intermediate.gp_record."DemographicsProtectedCharacteristics"
+EXCEPT
+SELECT "GmPseudo" FROM "Patient_ID_Mapping_${projectNameChunked.join('_')}";
+
+-- Find the highest currently assigned id. Ids are given incrementally, so now ones
+-- need to start at +1 of the current highest
+SET highestPatientId = (
+    SELECT IFNULL(MAX("StudyPatientPseudoId"),0) FROM "Patient_ID_Mapping_${projectNameChunked.join(
+      '_'
+    )}"
+);
+
+-- Make a study specific hash for each new GmPseudo and insert it
+-- into the patient lookup table
+INSERT INTO "Patient_ID_Mapping_${projectNameChunked.join('_')}"
+SELECT
+    "GmPseudo",
+    SHA2(CONCAT('${projectNameChunked.join('_')}', "GmPseudo")) AS "Hash",
+    $highestPatientId + ROW_NUMBER() OVER (ORDER BY "Hash")
+FROM "AllPseudos_${projectNameChunked.join('_')}";
+
+-- Define the function to return the study specific id
+-- NB we need one function per study because UDFs don't allow
+-- dynamic table names to be set from the arguments
+DROP FUNCTION IF EXISTS gm_pseudo_hash_${projectNameChunked.join('_')}(NUMBER(38,0));
+CREATE FUNCTION gm_pseudo_hash_${projectNameChunked.join('_')}("GmPseudo" NUMBER(38,0))
+  RETURNS NUMBER(38,0)
+  AS
+  $$
+    SELECT MAX("StudyPatientPseudoId")
+    FROM ${
+      config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
+    }."Patient_ID_Mapping_${projectNameChunked.join('_')}"
+    WHERE "GmPseudo" = GmPseudo
+  $$
+  ;
+
+-----------------------------------------------------------------------------------------------
+-- END: GmPseudo obfuscator                                                                  --
+-----------------------------------------------------------------------------------------------
+
+`;
 
   return { sql, csv };
 };

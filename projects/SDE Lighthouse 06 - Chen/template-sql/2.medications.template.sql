@@ -4,9 +4,9 @@
 
 -- meds: benzodiazepines, gabapentinoids, nsaids, opioids, antidepressants
 
------------- RESEARCH DATA ENGINEER CHECK ------------
--- 
-------------------------------------------------------
+-------- RESEARCH DATA ENGINEER CHECK ------------
+-- Richard Williams	2024-08-30	Review complete --
+--------------------------------------------------
 
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
@@ -62,8 +62,7 @@ LEFT JOIN SafeDosages sd ON sd."Dosage" = p."Dosage";
 
 -- transform into wide format to reduce the number of rows in final table
 
-DROP TABLE IF EXISTS {{project-schema}}."2_Medications";
-CREATE TABLE {{project-schema}}."2_Medications" AS
+{{create-output-table::"2_Medications"::"GmPseudo"}}
 SELECT "GmPseudo",
 	YEAR("MedicationDate") AS "Year",
     MONTH("MedicationDate") AS "Month",

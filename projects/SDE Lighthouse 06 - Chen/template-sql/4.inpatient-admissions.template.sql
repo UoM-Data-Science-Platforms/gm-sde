@@ -2,13 +2,16 @@
 --│ SDE Lighthouse study 06 - Chen - Inpatient hospital admissions │
 --└────────────────────────────────────────────────────────────────┘
 
+-------- RESEARCH DATA ENGINEER CHECK ------------
+-- Richard Williams	2024-08-30	Review complete --
+--------------------------------------------------
+
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
 
 -- get all inpatient admissions
 
-DROP TABLE IF EXISTS {{project-schema}}."4_InpatientAdmissions";
-CREATE TABLE {{project-schema}}."4_InpatientAdmissions" AS
+{{create-output-table::"4_InpatientAdmissions"::"GmPseudo"}}
 SELECT 
     ap."GmPseudo"
     , TO_DATE("AdmissionDttm") AS "AdmissionDate"

@@ -6,9 +6,9 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
 -- meds: benzodiazepines, gabapentinoids, nsaids, opioids, antidepressants
 
------------- RESEARCH DATA ENGINEER CHECK ------------
--- 
-------------------------------------------------------
+-------- RESEARCH DATA ENGINEER CHECK ------------
+-- Richard Williams	2024-08-30	Review complete --
+--------------------------------------------------
 
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
@@ -64,8 +64,11 @@ LEFT JOIN SafeDosages sd ON sd."Dosage" = p."Dosage";
 
 -- transform into wide format to reduce the number of rows in final table
 
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."2_Medications";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."2_Medications" AS
+
+-- First we create a table in an area only visible to the RDEs which contains
+-- the GmPseudo or FK_Patient_IDs. These cannot be released to end users.
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."2_Medications_WITH_PSEUDO_IDS";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."2_Medications_WITH_PSEUDO_IDS" AS
 SELECT "GmPseudo",
 	YEAR("MedicationDate") AS "Year",
     MONTH("MedicationDate") AS "Month",
@@ -81,3 +84,11 @@ GROUP BY "GmPseudo",
 ORDER BY 
 	YEAR("MedicationDate"),
     MONTH("MedicationDate");
+
+-- Then we select from that table, to populate the table for the end users
+-- where the GmPseudo or FK_Patient_ID fields are redacted via a function
+-- created in the 0.code-sets.sql
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."2_Medications";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."2_Medications" AS
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_06_Chen("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."2_Medications_WITH_PSEUDO_IDS";

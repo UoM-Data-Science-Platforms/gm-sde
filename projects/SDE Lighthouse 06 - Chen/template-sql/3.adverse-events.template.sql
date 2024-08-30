@@ -2,6 +2,10 @@
 --│ SDE Lighthouse study 06 - Chen - adverse events          │
 --└──────────────────────────────────────────────────────────┘
 
+-------- RESEARCH DATA ENGINEER CHECK ------------
+-- Richard Williams	2024-08-30	Review complete --
+--------------------------------------------------
+
 -- NOTE: the SDE does have self harm and fracture code sets (eFI2_SelfHarm and eFI2_Fracture)
 -- but our GMCR code sets seem more comprehensive
 
@@ -10,8 +14,7 @@ set(StudyEndDate)   = to_date('2023-12-31');
 
 --> CODESET selfharm-episodes:1 fracture:1
 
-DROP TABLE IF EXISTS {{project-schema}}."3_AdverseEvents";
-CREATE TABLE {{project-schema}}."3_AdverseEvents" AS
+{{create-output-table::"3_AdverseEvents"::"GmPseudo"}}
 SELECT DISTINCT
 	cohort."GmPseudo",  -- NEEDS PSEUDONYMISING
 	to_date("EventDate") as "EventDate",

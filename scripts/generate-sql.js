@@ -194,6 +194,88 @@ function warnIfNoTemplatesFound(project, templates) {
   }
 }
 
+function processNextOutputTable(sql, templateName, config, projectNameChunked) {
+  //{{create-output-table::"1_Patients"::"GmPseudo"}}
+  //{{create-output-table-no-gmpseudo-ids::"1_Patients"}
+  const outputTableRegex = /\{\{create-output-table::([^}:]*)::([^}:]*)\}\}/;
+  const outputTableNoIdsRegex = /\{\{create-output-table-no-gmpseudo-ids::([^}:]*)\}\}/;
+
+  let isMatch = false;
+
+  const outputTableMatch = outputTableRegex.exec(sql);
+  const outputTableNoIdsMatch = outputTableNoIdsRegex.exec(sql);
+  if (outputTableMatch) {
+    isMatch = true;
+    let needSemiColon = false;
+
+    const indexOfOutputTable = sql.indexOf('{{create-output-table');
+    let indexOfFinalSemiColon = sql.indexOf(';', indexOfOutputTable);
+    if (indexOfFinalSemiColon < 0) {
+      needSemiColon = true;
+      indexOfFinalSemiColon = sql.length - 1;
+    }
+
+    const [, tableName, gmPsudoColumnName] = outputTableMatch;
+    const tableNameNoQuotes = tableName.match(/^"?([^"]+)"?$/)[1];
+
+    const replacedSql =
+      sql.substring(indexOfOutputTable, indexOfFinalSemiColon + 1).replace(
+        outputTableRegex,
+        `
+-- First we create a table in an area only visible to the RDEs which contains
+-- the GmPseudo or FK_Patient_IDs. These cannot be released to end users.
+DROP TABLE IF EXISTS ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_PSEUDO_IDS";
+CREATE TABLE ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_PSEUDO_IDS" AS`
+      ) + (needSemiColon ? ';' : '');
+
+    const finalSql = `
+
+-- Then we select from that table, to populate the table for the end users
+-- where the GmPseudo or FK_Patient_ID fields are redacted via a function
+-- created in the 0.code-sets.sql
+DROP TABLE IF EXISTS ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName};
+CREATE TABLE ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName} AS
+SELECT ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}.gm_pseudo_hash_${projectNameChunked.join(
+      '_'
+    )}(${gmPsudoColumnName}) AS "PatientID", * EXCLUDE ${gmPsudoColumnName}
+FROM ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_PSEUDO_IDS";`;
+
+    sql =
+      sql.substring(0, indexOfOutputTable) +
+      replacedSql +
+      finalSql +
+      sql.substring(indexOfFinalSemiColon + 1);
+  } else if (outputTableNoIdsMatch) {
+    isMatch = true;
+    let needSemiColon = false;
+
+    const indexOfOutputTable = sql.indexOf('{{create-output-table-no-gmpseudo-ids');
+    let indexOfFinalSemiColon = sql.indexOf(';', indexOfOutputTable);
+    if (indexOfFinalSemiColon < 0) {
+      needSemiColon = true;
+      indexOfFinalSemiColon = sql.length - 1;
+    }
+
+    const [, tableName] = outputTableNoIdsMatch;
+
+    const replacedSql =
+      sql.substring(indexOfOutputTable, indexOfFinalSemiColon + 1).replace(
+        outputTableNoIdsRegex,
+        `
+-- There are no patient ids (GmPseudo or FK_Patient_ID) so we don't need to 
+-- obfuscate them. Instead we just create a table, readable by the analysts
+-- where we put the data.
+DROP TABLE IF EXISTS ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName};
+CREATE TABLE ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName} AS`
+      ) + (needSemiColon ? ';' : '');
+
+    sql =
+      sql.substring(0, indexOfOutputTable) + replacedSql + sql.substring(indexOfFinalSemiColon + 1);
+  }
+  if (isMatch) return sql;
+  else return false;
+}
+
 async function generateSql(project, projectName, templates, isSnowflake, config) {
   const OUTPUT_DIRECTORY = join(project, EXTRACTION_SQL_DIR);
   const allCodeSets = {};
@@ -218,8 +300,32 @@ async function generateSql(project, projectName, templates, isSnowflake, config)
 
     const outputName = templateName.replace('.template', '');
 
+    let finalSQL;
     if (isSnowflake) {
-      const finalSQL = `USE SCHEMA ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES};\n\n${sql
+      if (sql.match(/\{\{no-output-table\}\}/)) {
+        finalSQL = sql.replace(
+          /\{\{no-output-table\}\}/,
+          '-- No output table required for this script'
+        );
+      } else {
+        finalSQL = processNextOutputTable(sql, templateName, config, projectNameChunked);
+        if (!finalSQL) {
+          console.log(`${templateName} does not contain one of the following:
+  {{create-output-table::table-name::gm-pseudo-id-column}}  -- the typical sql template that writes output data to a table
+  {{create-output-table-no-gmpseudo-ids::table-name}}       -- sql templates where the output does not include patient ids (GmPseudo or FK_Patient_ID)
+  {{no-output-table}}                                       -- for sql templates that don't have an output`);
+          process.exit();
+        }
+        let anyMoreSQL = true;
+        while (anyMoreSQL) {
+          anyMoreSQL = processNextOutputTable(finalSQL, templateName, config, projectNameChunked);
+          if (anyMoreSQL) {
+            finalSQL = anyMoreSQL;
+          }
+        }
+      }
+
+      finalSQL = `USE SCHEMA ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES};\n\n${finalSQL
         .replace(/\{\{code-set-table\}\}/g, codeSetTableName)
         .replace(/\{\{cohort-table\}\}/g, cohortTableName)
         .replace(/\{\{project-schema\}\}/g, config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA)}`;
@@ -227,7 +333,7 @@ async function generateSql(project, projectName, templates, isSnowflake, config)
       writeFileSync(join(OUTPUT_DIRECTORY, outputName), finalSQL);
     } else {
       let codeSetSql = await (codeSets.length > 0 ? createCodeSetSQL(codeSets) : '');
-      const finalSQL = sql.replace(CODESET_MARKER, codeSetSql);
+      finalSQL = sql.replace(CODESET_MARKER, codeSetSql);
 
       writeFileSync(join(OUTPUT_DIRECTORY, outputName), finalSQL);
     }
@@ -617,7 +723,7 @@ ${isSnowflake ? '-- >>> Codesets extracted into 0.code-sets.sql' : CODESET_MARKE
     .join('\n');
   return { sql: generatedSql, codeSets: requiredCodeSets };
 }
-//stitch(join(__dirname, '..', 'projects', '017 - Humphreys'));
+// stitch(join(__dirname, '..', 'projects', 'SDE Lighthouse 06 - Chen'), true);
 // stitch(join(__dirname, '..', 'projects', '001 - Grant'));
 //stitch(join(__dirname, '..', 'projects', '046 - Gupta'));
 module.exports = { stitch };

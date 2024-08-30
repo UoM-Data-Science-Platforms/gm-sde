@@ -4,6 +4,12 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --│ SDE Lighthouse study 06 - pain diagnoses           │
 --└────────────────────────────────────────────────────┘
 
+-------- RESEARCH DATA ENGINEER CHECK ---------------
+-- Richard Williams	2024-08-30	Review in progress --
+--   Suggest diabetic neuropathy has separate      --
+--   code set                                      --
+-----------------------------------------------------
+
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
 
@@ -61,8 +67,11 @@ WHERE cs.concept IN ('chronic-pain', 'neck-problems','neuropathic-pain', 'chest-
 -- some codes appear in multiple code sets (e.g. back pain appearing in the more speciifc 'back-pain' and the more broad 'chronic-pain'), 
 -- so we're using sum case when statements to reduce the number of rows but indicate which code sets each code belongs to.
 
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."5_PainDiagnoses";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."5_PainDiagnoses" AS
+
+-- First we create a table in an area only visible to the RDEs which contains
+-- the GmPseudo or FK_Patient_IDs. These cannot be released to end users.
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."5_PainDiagnoses_WITH_PSEUDO_IDS";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."5_PainDiagnoses_WITH_PSEUDO_IDS" AS
 SELECT 
 	"GmPseudo", -- NEEDS PSEUDONYMISING 
 	"DiagnosisDate", 
@@ -85,3 +94,11 @@ SELECT
     SUM(CASE WHEN "Concept" = 'chronic-pancreatitis' THEN 1 ELSE 0 END) AS "ChronicPancreatitis"
 FROM diagnoses
 GROUP BY "GmPseudo", "DiagnosisDate", "SnomedCode", "Description";
+
+-- Then we select from that table, to populate the table for the end users
+-- where the GmPseudo or FK_Patient_ID fields are redacted via a function
+-- created in the 0.code-sets.sql
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."5_PainDiagnoses";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."5_PainDiagnoses" AS
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_06_Chen("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."5_PainDiagnoses_WITH_PSEUDO_IDS";
