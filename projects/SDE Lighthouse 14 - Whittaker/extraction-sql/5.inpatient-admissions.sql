@@ -1,3 +1,5 @@
+USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
+
 --┌────────────────────────────────────────────────────────────┐
 --│ SDE Lighthouse study 14 - Whittaker - Inpatient admissions │
 --└────────────────────────────────────────────────────────────┘
@@ -5,28 +7,16 @@
 -------- RESEARCH DATA ENGINEER CHECK ---------
 -- Richard Williams	2024-08-09	Review complete
 
-USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
-
 -- Date range: 2018 to present
 
 set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-05-31');
 
----- find all virtual ward patients, using latest snapshot for each spell
-/*
-drop table if exists virtualWards;
-create temporary table virtualWards as
-select  
-	distinct SUBSTRING(vw."Pseudo NHS Number", 2)::INT as "GmPseudo"
-from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw
-where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate;
-*/
-
 -- get all inpatient admissions
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."5_InpatientAdmissions";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."5_InpatientAdmissions" AS
 SELECT 
-    "GmPseudo"
+    "GmPseudo" -- NEEDS PSEUDONYMISING
     , TO_DATE("AdmissionDttm") AS "AdmissionDate"
     , TO_DATE("DischargeDttm") AS "DischargeDate"
 	, "AdmissionMethodCode"
