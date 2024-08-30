@@ -99,9 +99,11 @@ This project required the following clinical code sets:
 
 Further details for each code set can be found below.
 
-### Alcohol heavy drinker
+### Adverse Drug Reaction
 
-Any code suggestive that a patient is a heavy drinker.
+Any code suggestive that a patient has had an adverse reaction from a drug or component of a drug
+
+Codes retrieved manually from the GP event table in the SDE, searching terms that include '%adverse%' and ('%reaction% or '%effect%') 
 
 LINK: [https://github.com/rw251/.../patient/adverse-drug-reaction/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/adverse-drug-reaction/1)
 # Clinical code sets

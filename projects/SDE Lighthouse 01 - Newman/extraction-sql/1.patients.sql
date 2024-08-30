@@ -12,6 +12,9 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
 -- COHORT: Any patient with a pharmacogenetic test, or a matched control.
 
+set(StudyStartDate) = to_date('2023-06-01');
+set(StudyEndDate)   = to_date('2024-06-30');
+
 --ALL DEATHS 
 
 DROP TABLE IF EXISTS Death;
