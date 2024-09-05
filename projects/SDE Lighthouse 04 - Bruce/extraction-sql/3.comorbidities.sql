@@ -84,8 +84,12 @@ LEFT OUTER JOIN LH004_Tuberculosis tuberculosis ON tuberculosis."FK_Patient_ID" 
 LEFT OUTER JOIN LH004_AntiphospholipidSyndrome antiphos ON antiphos."FK_Patient_ID" = c."FK_Patient_ID";
 
 
+-- ... processing [[create-output-table::"LH004-3_comorbidities"]] ... 
+-- ... Need to create an output table called "LH004-3_comorbidities" and replace 
+-- ... the GmPseudo column with a study-specific random patient id.
+
 -- First we create a table in an area only visible to the RDEs which contains
--- the GmPseudos. These cannot be released to end users.
+-- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-3_comorbidities_WITH_PSEUDO_IDS";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-3_comorbidities_WITH_PSEUDO_IDS" AS
 SELECT
@@ -129,9 +133,9 @@ SET highestPatientId = (
 -- into the patient lookup table
 INSERT INTO "Patient_ID_Mapping_SDE_Lighthouse_04_Bruce"
 SELECT
-    "GmPseudo",
-    SHA2(CONCAT('SDE_Lighthouse_04_Bruce', "GmPseudo")) AS "Hash",
-    $highestPatientId + ROW_NUMBER() OVER (ORDER BY "Hash")
+    "GmPseudo", -- the GM SDE patient ids for patients in this cohort
+    SHA2(CONCAT('SDE_Lighthouse_04_Bruce', "GmPseudo")) AS "Hash", -- used to provide a random (study-specific) ordering for the patient ids we provide
+    $highestPatientId + ROW_NUMBER() OVER (ORDER BY "Hash") -- the patient id that we provide to the analysts
 FROM "AllPseudos_SDE_Lighthouse_04_Bruce";
 
 -- Finally, we select from the output table which includes the GmPseudos, in order

@@ -222,10 +222,18 @@ function processNextOutputTable(sql, templateName, config, projectNameChunked) {
       sql.substring(indexOfOutputTable, indexOfFinalSemiColon + 1).replace(
         outputTableRegex,
         `
+-- ... processing ${outputTableMatch[0].replace(/\{/g, '[').replace(/\}/g, ']')} ... 
+-- ... Need to create an output table called ${tableName} and replace 
+-- ... the GmPseudo column with a study-specific random patient id.
+
 -- First we create a table in an area only visible to the RDEs which contains
--- the GmPseudos. These cannot be released to end users.
-DROP TABLE IF EXISTS ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_PSEUDO_IDS";
-CREATE TABLE ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_PSEUDO_IDS" AS`
+-- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
+DROP TABLE IF EXISTS ${
+          config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
+        }."${tableNameNoQuotes}_WITH_PSEUDO_IDS";
+CREATE TABLE ${
+          config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
+        }."${tableNameNoQuotes}_WITH_PSEUDO_IDS" AS`
       ) + (needSemiColon ? ';' : '');
 
     const finalSql = `
@@ -253,9 +261,11 @@ SET highestPatientId = (
 -- into the patient lookup table
 INSERT INTO "Patient_ID_Mapping_${projectNameChunked.join('_')}"
 SELECT
-    "GmPseudo",
-    SHA2(CONCAT('${projectNameChunked.join('_')}', "GmPseudo")) AS "Hash",
-    $highestPatientId + ROW_NUMBER() OVER (ORDER BY "Hash")
+    "GmPseudo", -- the GM SDE patient ids for patients in this cohort
+    SHA2(CONCAT('${projectNameChunked.join(
+      '_'
+    )}', "GmPseudo")) AS "Hash", -- used to provide a random (study-specific) ordering for the patient ids we provide
+    $highestPatientId + ROW_NUMBER() OVER (ORDER BY "Hash") -- the patient id that we provide to the analysts
 FROM "AllPseudos_${projectNameChunked.join('_')}";
 
 -- Finally, we select from the output table which includes the GmPseudos, in order
@@ -751,7 +761,7 @@ ${isSnowflake ? '-- >>> Codesets extracted into 0.code-sets.sql' : CODESET_MARKE
     .join('\n');
   return { sql: generatedSql, codeSets: requiredCodeSets };
 }
-// stitch(join(__dirname, '..', 'projects', 'SDE Lighthouse 06 - Chen'), true);
+// stitch(join(__dirname, '..', 'projects', 'SDE Lighthouse 04 - Bruce'), true);
 // stitch(join(__dirname, '..', 'projects', '001 - Grant'));
 //stitch(join(__dirname, '..', 'projects', '046 - Gupta'));
 module.exports = { stitch };
