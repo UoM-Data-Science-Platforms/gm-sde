@@ -175,10 +175,9 @@ FROM LH004_cohort_codes
 WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept = 'ckd-stage-5')
 GROUP BY "FK_Patient_ID";
 
-DROP TABLE IF EXISTS {{project-schema}}."LH004-1_Patients";
-CREATE TABLE {{project-schema}}."LH004-1_Patients" AS
+{{create-output-table::"LH004-1_Patients"}}
 SELECT
-	sle."GmPseudo" AS "PatientID",
+	sle."GmPseudo",
 	sle."Sex",
 	sle."YearOfBirth",
 	sle."Ethnicity",

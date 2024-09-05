@@ -43,9 +43,8 @@ WHERE "SuppliedCode" IN (
 )
 AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}});
 
-DROP TABLE IF EXISTS {{project-schema}}."LH004-4_infections_gp";
-CREATE TABLE {{project-schema}}."LH004-4_infections_gp" AS
-SELECT "GmPseudo" AS "PatientID",
+{{create-output-table::"LH004-4_infections_gp"}}
+SELECT "GmPseudo",
 	CASE
 		WHEN "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept = 'bone-infection') THEN 'bone-infection'
 		WHEN "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept = 'cardiovascular-infection') THEN 'cardiovascular-infection'

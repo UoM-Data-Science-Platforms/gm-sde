@@ -33,10 +33,9 @@
 --> CODESET infection-other:1 lrti:1 muscle-infection:1 neurological-infection:1 peritonitis:1
 --> CODESET puerpural-infection:1 pyelonephritis:1 urti-bacterial:1 urti-viral:1 uti:2
 
-DROP TABLE IF EXISTS {{project-schema}}."LH004-4_infections_hospital";
-CREATE TABLE {{project-schema}}."LH004-4_infections_hospital" AS
+{{create-output-table::"LH004-4_infections_hospital"}}
 SELECT
-	SUBSTRING("Der_Pseudo_NHS_Number", 2)::INT AS "PatientID",
+	SUBSTRING("Der_Pseudo_NHS_Number", 2)::INT AS "GmPseudo",
 	b.concept AS "Infection",
 	b.description AS "InfectionDescription",
 	"Admission_Date"

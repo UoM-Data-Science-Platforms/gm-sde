@@ -1,4 +1,4 @@
-const { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync, read } = require('fs');
+const { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } = require('fs');
 const { join, basename } = require('path');
 const {
   createCodeSetSQL: createCodeSetSQLSnowflake,
@@ -197,7 +197,7 @@ function warnIfNoTemplatesFound(project, templates) {
 function processNextOutputTable(sql, templateName, config, projectNameChunked) {
   //{{create-output-table::"1_Patients"::"GmPseudo"}}
   //{{create-output-table-no-gmpseudo-ids::"1_Patients"}
-  const outputTableRegex = /\{\{create-output-table::([^}:]*)::([^}:]*)\}\}/;
+  const outputTableRegex = /\{\{create-output-table::([^}:]*)\}\}/;
   const outputTableNoIdsRegex = /\{\{create-output-table-no-gmpseudo-ids::([^}:]*)\}\}/;
 
   let isMatch = false;
@@ -215,7 +215,7 @@ function processNextOutputTable(sql, templateName, config, projectNameChunked) {
       indexOfFinalSemiColon = sql.length - 1;
     }
 
-    const [, tableName, gmPsudoColumnName] = outputTableMatch;
+    const [, tableName] = outputTableMatch;
     const tableNameNoQuotes = tableName.match(/^"?([^"]+)"?$/)[1];
 
     const replacedSql =
@@ -223,21 +223,49 @@ function processNextOutputTable(sql, templateName, config, projectNameChunked) {
         outputTableRegex,
         `
 -- First we create a table in an area only visible to the RDEs which contains
--- the GmPseudo or FK_Patient_IDs. These cannot be released to end users.
+-- the GmPseudos. These cannot be released to end users.
 DROP TABLE IF EXISTS ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_PSEUDO_IDS";
 CREATE TABLE ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_PSEUDO_IDS" AS`
       ) + (needSemiColon ? ';' : '');
 
     const finalSql = `
 
--- Then we select from that table, to populate the table for the end users
--- where the GmPseudo or FK_Patient_ID fields are redacted via a function
--- created in the 0.code-sets.sql
+-- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
+-- of all "new" GmPseudo ids. I.e. any GmPseudo ids that we've already got a unique id for
+-- for this study are excluded
+DROP TABLE IF EXISTS "AllPseudos_${projectNameChunked.join('_')}";
+CREATE TEMPORARY TABLE "AllPseudos_${projectNameChunked.join('_')}" AS
+SELECT DISTINCT "GmPseudo" FROM ${
+      config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
+    }."${tableNameNoQuotes}_WITH_PSEUDO_IDS"
+EXCEPT
+SELECT "GmPseudo" FROM "Patient_ID_Mapping_${projectNameChunked.join('_')}";
+
+-- Find the highest currently assigned id. Ids are given incrementally, so now ones
+-- need to start at +1 of the current highest
+SET highestPatientId = (
+    SELECT IFNULL(MAX("StudyPatientPseudoId"),0) FROM "Patient_ID_Mapping_${projectNameChunked.join(
+      '_'
+    )}"
+);
+
+-- Make a study specific hash for each new GmPseudo and insert it
+-- into the patient lookup table
+INSERT INTO "Patient_ID_Mapping_${projectNameChunked.join('_')}"
+SELECT
+    "GmPseudo",
+    SHA2(CONCAT('${projectNameChunked.join('_')}', "GmPseudo")) AS "Hash",
+    $highestPatientId + ROW_NUMBER() OVER (ORDER BY "Hash")
+FROM "AllPseudos_${projectNameChunked.join('_')}";
+
+-- Finally, we select from the output table which includes the GmPseudos, in order
+-- to populate the table for the end users where the GmPseudo fields are redacted via a function
+-- created in the 0.code-sets.sql file
 DROP TABLE IF EXISTS ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName};
 CREATE TABLE ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName} AS
 SELECT ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}.gm_pseudo_hash_${projectNameChunked.join(
       '_'
-    )}(${gmPsudoColumnName}) AS "PatientID", * EXCLUDE ${gmPsudoColumnName}
+    )}("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
 FROM ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_PSEUDO_IDS";`;
 
     sql =
@@ -262,7 +290,7 @@ FROM ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WIT
       sql.substring(indexOfOutputTable, indexOfFinalSemiColon + 1).replace(
         outputTableNoIdsRegex,
         `
--- There are no patient ids (GmPseudo or FK_Patient_ID) so we don't need to 
+-- There are no patient ids ("GmPseudo") so we don't need to 
 -- obfuscate them. Instead we just create a table, readable by the analysts
 -- where we put the data.
 DROP TABLE IF EXISTS ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName};
@@ -311,8 +339,8 @@ async function generateSql(project, projectName, templates, isSnowflake, config)
         finalSQL = processNextOutputTable(sql, templateName, config, projectNameChunked);
         if (!finalSQL) {
           console.log(`${templateName} does not contain one of the following:
-  {{create-output-table::table-name::gm-pseudo-id-column}}  -- the typical sql template that writes output data to a table
-  {{create-output-table-no-gmpseudo-ids::table-name}}       -- sql templates where the output does not include patient ids (GmPseudo or FK_Patient_ID)
+  {{create-output-table::table-name}}                       -- the typical sql template that writes output data to a table
+  {{create-output-table-no-gmpseudo-ids::table-name}}       -- sql templates where the output does not include patient ids ("GmPseudo")
   {{no-output-table}}                                       -- for sql templates that don't have an output`);
           process.exit();
         }

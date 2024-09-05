@@ -37,10 +37,13 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- >>> Following code sets injected: infection-other v1/lrti v1/muscle-infection v1/neurological-infection v1/peritonitis v1
 -- >>> Following code sets injected: puerpural-infection v1/pyelonephritis v1/urti-bacterial v1/urti-viral v1/uti v2
 
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital" AS
+
+-- First we create a table in an area only visible to the RDEs which contains
+-- the GmPseudos. These cannot be released to end users.
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital_WITH_PSEUDO_IDS";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital_WITH_PSEUDO_IDS" AS
 SELECT
-	SUBSTRING("Der_Pseudo_NHS_Number", 2)::INT AS "PatientID",
+	SUBSTRING("Der_Pseudo_NHS_Number", 2)::INT AS "GmPseudo",
 	b.concept AS "Infection",
 	b.description AS "InfectionDescription",
 	"Admission_Date"
@@ -50,3 +53,35 @@ where "APCS_First_Ep_Ind"='1'
 and b.terminology='icd10'
 and b.concept != 'infections'
 AND SUBSTRING("Der_Pseudo_NHS_Number", 2)::INT IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce");
+
+-- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
+-- of all "new" GmPseudo ids. I.e. any GmPseudo ids that we've already got a unique id for
+-- for this study are excluded
+DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_04_Bruce";
+CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_04_Bruce" AS
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital_WITH_PSEUDO_IDS"
+EXCEPT
+SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_04_Bruce";
+
+-- Find the highest currently assigned id. Ids are given incrementally, so now ones
+-- need to start at +1 of the current highest
+SET highestPatientId = (
+    SELECT IFNULL(MAX("StudyPatientPseudoId"),0) FROM "Patient_ID_Mapping_SDE_Lighthouse_04_Bruce"
+);
+
+-- Make a study specific hash for each new GmPseudo and insert it
+-- into the patient lookup table
+INSERT INTO "Patient_ID_Mapping_SDE_Lighthouse_04_Bruce"
+SELECT
+    "GmPseudo",
+    SHA2(CONCAT('SDE_Lighthouse_04_Bruce', "GmPseudo")) AS "Hash",
+    $highestPatientId + ROW_NUMBER() OVER (ORDER BY "Hash")
+FROM "AllPseudos_SDE_Lighthouse_04_Bruce";
+
+-- Finally, we select from the output table which includes the GmPseudos, in order
+-- to populate the table for the end users where the GmPseudo fields are redacted via a function
+-- created in the 0.code-sets.sql file
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital" AS
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_04_Bruce("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital_WITH_PSEUDO_IDS";

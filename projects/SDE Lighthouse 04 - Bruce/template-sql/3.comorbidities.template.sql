@@ -79,10 +79,9 @@ LEFT OUTER JOIN LH004_HepD hepd ON hepd."FK_Patient_ID" = c."FK_Patient_ID"
 LEFT OUTER JOIN LH004_Tuberculosis tuberculosis ON tuberculosis."FK_Patient_ID" = c."FK_Patient_ID"
 LEFT OUTER JOIN LH004_AntiphospholipidSyndrome antiphos ON antiphos."FK_Patient_ID" = c."FK_Patient_ID";
 
-DROP TABLE IF EXISTS {{project-schema}}."LH004-3_comorbidities";
-CREATE TABLE {{project-schema}}."LH004-3_comorbidities" AS
+{{create-output-table::"LH004-3_comorbidities"}}
 SELECT
-	h."GmPseudo" AS "PatientID", "ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "AntiphospholipidSyndrome_DiagnosisDate",
+	h."GmPseudo", "ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "AntiphospholipidSyndrome_DiagnosisDate",
 	"Anxiety_DiagnosisDate", "Asthma_DiagnosisDate", "AtrialFibrillation_DiagnosisDate", "Autism_DiagnosisDate",
 	"BlindnessLowVision_DiagnosisDate", "Bronchiectasis_DiagnosisDate", "Bulimia_DiagnosisDate",
 	"Cancer_DiagnosisDate", "ChronicKidneyDisease_DiagnosisDate", "ChronicLiverDisease_DiagnosisDate",

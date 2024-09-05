@@ -30,9 +30,8 @@ FROM INTERMEDIATE.GP_RECORD."GP_Medications_SecondaryUses" gp
 INNER JOIN {{cohort-table}} c ON gp."FK_Patient_ID" = c."FK_Patient_ID"
 WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept in ('belimumab','hydroxychloroquine','chloroquine'));
 
-DROP TABLE IF EXISTS {{project-schema}}."LH004-2_medications";
-CREATE TABLE {{project-schema}}."LH004-2_medications" AS
-SELECT "GmPseudo" AS "PatientID", "MedicationDate",
+{{create-output-table::"LH004-2_medications"}}
+SELECT "GmPseudo", "MedicationDate",
     CASE 
         WHEN "Field_ID" IN ('SAL_COD','NONASPANTIPLTDRUG_COD') THEN 'Antiplatelet'
         WHEN "Field_ID" IN ('Immunosuppression_Drugs') THEN 'Immunosuppression'

@@ -165,9 +165,8 @@ WHERE SCTID IN (
 	WHERE "VaccinationType" = 'Shingles'
 );
 
-DROP TABLE IF EXISTS {{project-schema}}."LH004-5_vaccinations";
-CREATE TABLE {{project-schema}}."LH004-5_vaccinations" AS
-SELECT DISTINCT "GmPseudo" AS "PatientID", "VaccinationType", "VaccinationDate"
+{{create-output-table::"LH004-5_vaccinations"}}
+SELECT DISTINCT "GmPseudo", "VaccinationType", "VaccinationDate"
 FROM "TEMP-LH004-5_vaccinations" v
 LEFT OUTER JOIN {{cohort-table}} c ON c."FK_Patient_ID" = v."PatientID"
 ORDER BY "GmPseudo", "VaccinationDate";

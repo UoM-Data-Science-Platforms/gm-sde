@@ -36,9 +36,8 @@ LEFT OUTER JOIN intermediate.gp_record.national_clusters_formatted ncf ON ncf."S
 WHERE "Field_ID" = 'SMEAR_COD'
 AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}});
 
-DROP TABLE IF EXISTS {{project-schema}}."LH004-6_smears";
-CREATE TABLE {{project-schema}}."LH004-6_smears" AS
-SELECT DISTINCT "GmPseudo" AS "PatientID", "EventDate","SNOMED_code_description" AS "SmearDescription"
+{{create-output-table::"LH004-6_smears"}}
+SELECT DISTINCT "GmPseudo", "EventDate","SNOMED_code_description" AS "SmearDescription"
 FROM TEMP_LH004_SMEAR_RECORDS smear
 INNER JOIN {{cohort-table}} c ON c."FK_Patient_ID" = smear."FK_Patient_ID"
 ORDER BY "GmPseudo", "EventDate";
