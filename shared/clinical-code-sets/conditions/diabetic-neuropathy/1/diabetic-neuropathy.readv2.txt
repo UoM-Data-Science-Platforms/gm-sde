@@ -1,0 +1,17 @@
+1M8..	Diabetic peripheral neuropathic pain
+2G5i.	FootSkin scale risk level 3 high risk
+2G5j.	FootSkin scale risk level 4 high risk
+66Ac.	Diabetic peripheral neuropathy screening
+C109A	Non-insulin dependent diabetes mellitus with mononeuropathy
+C109B	Non-insulin dependent diabetes mellitus with polyneuropathy
+C109H	Non-insulin dependent diabetes mellitus with neuropathic arthropathy
+C10FA	Type 2 diabetes mellitus with mononeuropathy
+C10FB	Type 2 diabetes mellitus with polyneuropathy
+C10FH	Type 2 diabetes mellitus with neuropathic arthropathy
+F1711	Autonomic neuropathy due to diabetes
+F3720	Acute painful diabetic neuropathy
+F3721	Chronic painful diabetic neuropathy
+F3722	Asymptomatic diabetic neuropathy
+F3y0.	Diabetic mononeuropathy
+M2711	Neuropathic diabetic ulcer - foot
+N0301	Diabetic Charcot arthropathy

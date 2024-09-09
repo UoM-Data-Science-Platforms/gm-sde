@@ -23,18 +23,16 @@ SELECT
     cohort."GmPseudo"
     , TO_DATE(ec."EventDate") AS "DiagnosisDate"
     , ec."SCTID" AS "SnomedCode"
-    , CASE WHEN (lower("Term") like '%neuropa%' AND lower("Term") like '%diab%')  THEN  'diabetic-neuropathy'       -- this code takes a while to run due to wildcards
-           WHEN ("Cluster_ID" = 'eFI2_PeripheralNeuropathy')                        THEN  'peripheral-neuropathy' 
-		   WHEN ("Cluster_ID" = 'RARTH_COD') THEN 'rheumatoid-arthritis'
-		   WHEN ("Cluster_ID" = 'eFI2_Osteoarthritis') THEN 'osteoarthritis'
-		   WHEN	("Cluster_ID" = 'eFI2_BackPainTimeSensitive') THEN 'back-pain' -- in last 5 years
+    , CASE WHEN ("Cluster_ID" = 'eFI2_PeripheralNeuropathy')    THEN 'peripheral-neuropathy' 
+		   WHEN ("Cluster_ID" = 'RARTH_COD') 					THEN 'rheumatoid-arthritis'
+		   WHEN ("Cluster_ID" = 'eFI2_Osteoarthritis') 			THEN 'osteoarthritis'
+		   WHEN	("Cluster_ID" = 'eFI2_BackPainTimeSensitive') 	THEN 'back-pain' -- in last 5 years
            ELSE 'other' END AS "Concept"
     , ec."Term" AS "Description"
 FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."EventsClusters" ec ON ec."FK_Patient_ID" = cohort."FK_Patient_ID"
 WHERE 
 	(
-	(lower("Term") like '%neuropa%' AND lower("Term") like '%diabet%')  OR -- diabetic neuropathy
 	("Cluster_ID" = 'eFI2_PeripheralNeuropathy') OR -- peripheral neuropathy
 	("Cluster_ID" = 'RARTH_COD') OR -- rheumatoid arthritis diagnosis codes
 	("Cluster_ID" = 'eFI2_Osteoarthritis') OR -- osteoarthritis
@@ -53,7 +51,7 @@ SELECT
 FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" events ON events."FK_Patient_ID" = cohort."FK_Patient_ID"
 LEFT OUTER JOIN {{code-set-table}} cs ON cs.code = events."SuppliedCode" 
-WHERE cs.concept IN ('chronic-pain', 'neck-problems','neuropathic-pain', 'chest-pain','post-herpetic-neuralgia', 'ankylosing-spondylitis',
+WHERE cs.concept IN ('diabetic-neuropathy','chronic-pain', 'neck-problems','neuropathic-pain', 'chest-pain','post-herpetic-neuralgia', 'ankylosing-spondylitis',
 				'psoriatic-arthritis', 'fibromyalgia', 'temporomandibular-pain', 'phantom-limb-pain', 'chronic-pancreatitis' )
 	AND events."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}})
 	AND TO_DATE("EventDate") BETWEEN $StudyStartDate AND $StudyEndDate;
@@ -69,7 +67,8 @@ SELECT
 	"DiagnosisDate", 
 	"SnomedCode", 
 	"Description", 
-    SUM(CASE WHEN "Concept" = 'chronic-pain' THEN 1 ELSE 0 END) AS "ChronicPain",
+	SUM(CASE WHEN "Concept" = 'chronic-pain' THEN 1 ELSE 0 END) AS "ChronicPain",
+    SUM(CASE WHEN "Concept" = 'diabetic-neuropathy' THEN 1 ELSE 0 END) AS "DiabeticNeuropathy",
     SUM(CASE WHEN "Concept" = 'peripheral-neuropathy' THEN 1 ELSE 0 END) AS "PeripheralNeuropathy",
     SUM(CASE WHEN "Concept" = 'rheumatoid-arthritis' THEN 1 ELSE 0 END) AS "RheumatoidArthritis",
     SUM(CASE WHEN "Concept" = 'osteoarthritis' THEN 1 ELSE 0 END) AS "Osteoarthritis",
