@@ -5,8 +5,6 @@
 -------- RESEARCH DATA ENGINEER CHECK ---------
 -- Richard Williams	2024-08-09	Review complete
 
-USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
-
 -- Date range: 2018 to present
 
 set(StudyStartDate) = to_date('2018-04-01');

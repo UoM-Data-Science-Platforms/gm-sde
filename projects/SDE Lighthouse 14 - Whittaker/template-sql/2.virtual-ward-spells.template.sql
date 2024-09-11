@@ -7,8 +7,6 @@
 
 -- each provider starting providing VW data at different times, so data is incomplete for periods.
 
-USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
-
 set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-06-30');
 
@@ -17,7 +15,7 @@ set(StudyEndDate)   = to_date('2024-06-30');
 DROP TABLE IF EXISTS {{project-schema}}."2_VirtualWards";
 CREATE TABLE {{project-schema}}."2_VirtualWards" AS
 SELECT 
-    SUBSTRING(vw."Pseudo NHS Number", 2)::INT "GmPseudo",
+    SUBSTRING(vw."Pseudo NHS Number", 2)::INT "GmPseudo", -- NEEDS PSEUDONYMISING
     ROW_NUMBER() OVER(PARTITION BY "Pseudo NHS Number" ORDER BY "SnapshotDate") AS "PatientSpellNumber",
     vw."SnapshotDate",
     vw."Admission Source ID",

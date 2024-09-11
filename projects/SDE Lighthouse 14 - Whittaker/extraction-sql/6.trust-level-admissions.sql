@@ -1,11 +1,11 @@
+USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
+
 --┌──────────────────────────────────────────────────────────────┐
 --│ SDE Lighthouse study 14 - Whittaker - Trust level admissions │
 --└──────────────────────────────────────────────────────────────┘
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
 -- Richard Williams	2024-08-09	Review complete
-
-USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
 
 -- Date range: 2018 to present
 
@@ -46,7 +46,7 @@ order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
     -- READMISSIONS ONLY
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."6b_TrustLevelReadmissions";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."6a_TrustLevelReadmissions" AS
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."6b_TrustLevelReadmissions" AS
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"

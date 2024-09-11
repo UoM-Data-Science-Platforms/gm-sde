@@ -15,8 +15,6 @@
 -- Information in this file will be based on the latest snapshot available, so may be conflicting with information 
 -- from the VW table which was based on time of activity.
 
-USE PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS;
-
 set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-06-30');
 
@@ -24,8 +22,6 @@ set(StudyEndDate)   = to_date('2024-06-30');
 
 DROP TABLE IF EXISTS {{cohort-table}};
 CREATE TABLE {{cohort-table}} AS
---drop table if exists virtualWards;
---create temporary table virtualWards as
 SELECT  
 	DISTINCT SUBSTRING(vw."Pseudo NHS Number", 2)::INT AS "GmPseudo"
 FROM PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw
@@ -59,7 +55,7 @@ SELECT *
 FROM (
 SELECT 
 	"Snapshot", 
-	D."GmPseudo",
+	D."GmPseudo", -- NEEDS PSEUDONYMISING
 	"DateOfBirth",
 	DATE_TRUNC(month, dth.DeathDate) AS "DeathDate",
 	"DiagnosisOriginalMentionCode" AS "CauseOfDeathCode",
@@ -74,9 +70,9 @@ SELECT
 	"Sex", 
 	"EthnicityLatest_Category", 
 	"MarriageCivilPartership"
-FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D
+FROM {{cohort-table}} co
+LEFT JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D ON co."GmPseudo" = D."GmPseudo"
 LEFT JOIN Death dth ON dth."GmPseudo" = D."GmPseudo"
-WHERE D."GmPseudo" IN (select "GmPseudo" from {{cohort-table}}) -- patients in virtual ward table only
 QUALIFY row_number() OVER (PARTITION BY D."GmPseudo" ORDER BY "Snapshot" DESC) = 1 -- this brings back the values from the most recent snapshot
 );
 
