@@ -10,8 +10,7 @@ set(StudyEndDate)   = to_date('2024-06-30');
 
 -- find all GP contacts for virtual ward cohort
 
-DROP TABLE IF EXISTS {{project-schema}}."4_ContactProxy";
-CREATE TABLE {{project-schema}}."4_ContactProxy" AS
+{{create-output-table::"4_ContactProxy"}}
 SELECT
     "GmPseudo" -- NEEDS PSEUDONYMISING
     , "EventDate" as "GPProxyEncounterDate"

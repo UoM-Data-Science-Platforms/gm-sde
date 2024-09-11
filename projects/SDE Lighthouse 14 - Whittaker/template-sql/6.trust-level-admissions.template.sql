@@ -30,8 +30,7 @@ and "HospitalSpellDuration" != '*'; -- < 10 records have missing discharge date 
 -- MONTHLY ADMISSION COUNTS AND AVG LENGTH OF STAY BY TRUST
 
     -- GROUP BY TRUST ONLY
-DROP TABLE IF EXISTS {{project-schema}}."6a_TrustLevelAdmissions";
-CREATE TABLE {{project-schema}}."6a_TrustLevelAdmissions" AS
+{{create-output-table::"6a_TrustLevelAdmissions"}}
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -43,8 +42,7 @@ group by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
     -- READMISSIONS ONLY
-DROP TABLE IF EXISTS {{project-schema}}."6b_TrustLevelReadmissions";
-CREATE TABLE {{project-schema}}."6b_TrustLevelReadmissions" AS
+{{create-output-table::"6b_TrustLevelReadmissions"}}
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -58,8 +56,7 @@ order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
     -- GROUP BY TRUST AND ICD CATEGORY 
 
-DROP TABLE IF EXISTS {{project-schema}}."6c_TrustLevelAdmissions_icd";
-CREATE TABLE {{project-schema}}."6c_TrustLevelAdmissions_icd" AS
+{{create-output-table::"6c_TrustLevelAdmissions_icd"}}
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -83,8 +80,7 @@ order by
     , "DerPrimaryDiagnosisChapterDescReportingEpisode";
 
     -- GROUP BY TRUST AND AGE BAND
-DROP TABLE IF EXISTS {{project-schema}}."6d_TrustLevelAdmissions_age";
-CREATE TABLE {{project-schema}}."6d_TrustLevelAdmissions_age" AS
+{{create-output-table::"6d_TrustLevelAdmissions_age"}}
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -144,8 +140,7 @@ AND  TO_DATE("ArrivalDate") between $StudyStartDate and $StudyEndDate
 
     
 -- total
-DROP TABLE IF EXISTS {{project-schema}}."6e_TrustLevelAEAdmissions";
-CREATE TABLE {{project-schema}}."6e_TrustLevelAEAdmissions" AS
+{{create-output-table::"6e_TrustLevelAEAdmissions"}}
 SELECT
 	  YEAR("ArrivalDate") AS "Year"
     , MONTH("ArrivalDate") AS "Month"
@@ -163,8 +158,7 @@ ORDER BY
 	, "ProviderDesc"
 
 -- by Age band
-DROP TABLE IF EXISTS {{project-schema}}."6f_TrustLevelAEAdmissions_age";
-CREATE TABLE {{project-schema}}."6f_TrustLevelAEAdmissions_age" AS
+{{create-output-table::"6f_TrustLevelAEAdmissions_age"}}
 SELECT
 	  YEAR("ArrivalDate") AS "Year"
     , MONTH("ArrivalDate") AS "Month"

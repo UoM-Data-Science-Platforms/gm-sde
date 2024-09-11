@@ -1,6 +1,6 @@
---┌────────────────────────────────────┐
+--┌────────────────────────────────┐
 --│ LH014 Virtual ward file        │
---└────────────────────────────────────┘
+--└────────────────────────────────┘
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
 -- Richard Williams	2024-08-09	Review complete
@@ -12,10 +12,9 @@ set(StudyEndDate)   = to_date('2024-06-30');
 
 ---- Use the latest snapshot for each spell and get all relevant information
 
-DROP TABLE IF EXISTS {{project-schema}}."2_VirtualWards";
-CREATE TABLE {{project-schema}}."2_VirtualWards" AS
+{{create-output-table::"2_VirtualWards"}}
 SELECT 
-    SUBSTRING(vw."Pseudo NHS Number", 2)::INT "GmPseudo", -- NEEDS PSEUDONYMISING
+    SUBSTRING(vw."Pseudo NHS Number", 2)::INT AS "GmPseudo", 
     ROW_NUMBER() OVER(PARTITION BY "Pseudo NHS Number" ORDER BY "SnapshotDate") AS "PatientSpellNumber",
     vw."SnapshotDate",
     vw."Admission Source ID",

@@ -11,8 +11,7 @@ set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-05-31');
 
 -- get all inpatient admissions
-DROP TABLE IF EXISTS {{project-schema}}."5_InpatientAdmissions";
-CREATE TABLE {{project-schema}}."5_InpatientAdmissions" AS
+{{create-output-table::"5_InpatientAdmissions"}}
 SELECT 
     "GmPseudo" -- NEEDS PSEUDONYMISING
     , TO_DATE("AdmissionDttm") AS "AdmissionDate"

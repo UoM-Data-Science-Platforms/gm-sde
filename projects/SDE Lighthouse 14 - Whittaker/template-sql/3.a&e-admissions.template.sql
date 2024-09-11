@@ -12,8 +12,7 @@ set(StudyEndDate)   = to_date('2024-06-30');
 
 -- get all a&e admissions for the virtual ward cohort
 
-DROP TABLE IF EXISTS {{project-schema}}."3_AEAdmissions";
-CREATE TABLE {{project-schema}}."3_AEAdmissions" AS
+{{create-output-table::"3_AEAdmissions"}}
 SELECT 
 E."GmPseudo",  -- NEEDS PSEUDONYMISING
 TO_DATE(E."ArrivalDate") AS "ArrivalDate",

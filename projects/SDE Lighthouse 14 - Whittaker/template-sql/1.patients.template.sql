@@ -49,8 +49,7 @@ WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}});
 
 -- patient demographics table
 
-DROP TABLE IF EXISTS {{project-schema}}."1_Patients";
-CREATE TABLE {{project-schema}}."1_Patients" AS
+{{create-output-table::"1_Patients"}}
 SELECT *
 FROM (
 SELECT 
