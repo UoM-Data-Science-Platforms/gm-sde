@@ -1,0 +1,70 @@
+14A81	H/O: Deep Vein Thrombosis
+14AC.	H/O: pulmonary embolus
+7A093	Open embolectomy of pulmonary artery
+7A0A1	Percutaneous transluminal embolectomy of pulmonary artery
+G4010	Post operative pulmonary embolus
+G4011	Recurrent pulmonary embolism
+G8016	Thrombophlebitis of the femoral vein
+G8017	Thrombophlebitis of the popliteal vein
+G8018	Thrombophlebitis of the anterior tibial vein
+G801A	Thrombophlebitis of the posterior tibial vein
+G801B	Deep vein thrombophlebitis of the leg unspecified
+G801C	Deep vein thrombosis of leg related to air travel
+G801D	Deep vein thrombosis of lower limb
+G801E	Deep vein thrombosis of leg related to intravenous drug use
+G801F	Deep vein thrombosis of peroneal vein
+G801G	Recurrent deep vein thrombosis
+G801H	Unprovoked deep vein thrombosis
+G801J	Provoked deep vein thrombosis
+G801z	Deep vein phlebitis and thrombophlebitis of the leg NOS
+G802.	Phlebitis and thrombophlebitis of the leg NOS
+G80y4	Thrombophlebitis of the common iliac vein
+G80y5	Thrombophlebitis of the internal iliac vein
+G80y6	Thrombophlebitis of the external iliac vein
+G80y7	Thrombophlebitis of the iliac vein unspecified
+G80y8	Phlebitis and thrombophlebitis of the iliac vein NOS
+G81..	Portal vein thrombosis
+G82..	Other venous embolism and thrombosis
+G824.	Axillary vein thrombosis
+G825.	Thrombosis of subclavian vein
+G826.	Thrombosis of internal jugular vein
+G82y.	Other embolism and thrombosis
+G82z.	Embolism and thrombosis NOS
+G82zz	Embolism and thrombosis NOS
+J4202	Thrombus of the superior mesenteric veins
+J420y	Mesenteric thrombus NOS
+L0964	Pulmonary embolism following abortive pregnancy
+L413.	Antenatal deep vein thrombosis
+L4130	Antenatal deep vein thrombosis unspecified
+L4131	Antenatal deep vein thrombosis - delivered
+L4132	Antenatal deep vein thrombosis with antenatal complication
+L413z	Antenatal deep vein thrombosis NOS
+L4140	Postnatal deep vein thrombosis unspecified
+L4141	Postnatal deep vein thrombosis - delivered with postnatal complication
+L4142	Postnatal deep vein thrombosis with postnatal complication
+L414z	Postnatal deep vein thrombosis NOS
+L43..	Obstetric pulmonary embolism
+L432.	Obstetric blood-clot pulmonary embolism
+L4320	Obstetric blood-clot pulmonary embolism unspecified
+L4321	Obstetric blood-clot pulmonary embolism - delivered
+L4322	Obstetric blood-clot pulmonary embolism - delivered with postnatal complication
+L4323	Obstetric blood-clot pulmonary embolism with antenatal complication
+L4324	Obstetric blood-clot pulmonary embolism with postnatal complication
+L432z	Obstetric blood-clot pulmonary embolism NOS
+L43y0	Other obstetric pulmonary embolism unspecified
+L43y1	Other obstetric pulmonary embolism - delivered
+L43y2	Other obstetric pulmonary embolism - delivered with postnatal complication
+L43y3	Other obstetric pulmonary embolism with antenatal complication
+L43y4	Other obstetric pulmonary embolism with postnatal complication
+L43yz	Other obstetric pulmonary embolism NOS
+L43z.	Obstetric pulmonary embolism NOS
+L43z0	Obstetric pulmonary embolism NOS, unspecified
+L43z1	Obstetric pulmonary embolism NOS - delivered
+L43z2	Obstetric pulmonary embolism NOS - delivered with postnatal complication
+L43z3	Obstetric pulmonary embolism NOS with antenatal complication
+L43z4	Obstetric pulmonary embolism NOS with postnatal complication
+L43zz	Obstetric pulmonary embolism NOS
+Lyu64	[X]Other obstetric embolism
+SP122	Post operative deep vein thrombosis
+ZV128	[V] Personal history deep vein thrombosis
+ZV129	[V] Personal history of pulmonary embolism

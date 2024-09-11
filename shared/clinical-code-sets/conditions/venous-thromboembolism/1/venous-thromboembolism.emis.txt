@@ -1,0 +1,189 @@
+^ESCT1168904	Thrombosis of iliac vein
+^ESCT1168905	Iliac vein thrombosis
+^ESCT1210766	Chronic deep vein thrombosis of right iliac vein
+^ESCT1210767	Chronic deep vein thrombosis of left iliac vein
+^ESCT1210768	Acute deep vein thrombosis of right iliac vein
+^ESCT1210769	Acute deep vein thrombosis of left iliac vein
+^ESCT1212579	Acute deep vein thrombosis of right upper limb following procedure
+^ESCT1212580	Acute deep vein thrombosis of left upper limb following procedure
+^ESCT1212584	Acute deep vein thrombosis of right lower limb following procedure
+^ESCT1212585	Acute deep vein thrombosis of left lower limb following procedure
+^ESCT1212599	Saddle embolus of pulmonary artery with acute cor pulmonale
+^ESCT1212600	Acute cor pulmonale co-occurrent and due to saddle embolus of pulmonary artery
+^ESCT1236899	Pulmonary embolism due to and following acute myocardial infarction
+^ESCT1245632	[V] Personal history deep vein thrombosis
+^ESCT1245633	[V] Personal history DVT (deep vein thrombosis)
+^ESCT1394629	Phlebitis and thrombophlebitis of iliac vein
+^ESCT1394929	Pulmonary embolism due to and following ectopic pregnancy
+^ESCT1394930	Pulmonary embolism due to and following molar pregnancy
+^ESCT1394948	Deep vein thrombosis of lower extremity due to intravenous drug use
+^ESCT1394949	Deep vein thrombosis of lower limb due to intravenous drug use
+^ESCT1417815	Acute deep vein thrombosis of right lower limb following coronary artery bypass graft
+^ESCT1417816	Acute deep vein thrombosis of right lower limb as a sequela of coronary artery bypass graft
+^ESCT1417817	Acute deep vein thrombosis of right lower limb as a late effect of coronary artery bypass graft
+^ESCT1417818	Acute deep vein thrombosis of left lower limb following coronary artery bypass graft
+^ESCT1417819	Acute deep vein thrombosis of left lower limb as a late effect of coronary artery bypass graft
+^ESCT1417820	Acute deep vein thrombosis of left lower limb as a sequela of coronary artery bypass graft
+^ESCT1417901	Thrombophlebitis of right axillary vein
+^ESCT1417902	Thrombophlebitis of left axillary vein
+^ESCT1418009	Thrombophlebitis of left popliteal vein
+^ESCT1418010	Thrombophlebitis of right popliteal vein
+^ESCT1418011	Thrombophlebitis of right tibial vein
+^ESCT1418012	Thrombophlebitis of left tibial vein
+^ESCT1419417	Acute deep venous thrombosis of left peroneal vein
+^ESCT1419418	Acute DVT (deep vein thrombosis) of left peroneal vein
+^ESCT1419486	Acute deep venous thrombosis of right peroneal vein
+^ESCT1419487	Acute DVT (deep vein thrombosis) of right peroneal vein
+^ESCTAC505762	Acute massive pulmonary embolism
+^ESCTAC760958	Acute pulmonary embolism
+^ESCTAC761720	Acute pulmonary thromboembolism
+^ESCTAC796635	Acute deep vein thrombosis of lower limb
+^ESCTAC804141	Acute deep venous thrombosis of lower limb due to coronary artery bypass grafting
+^ESCTAC804142	Acute deep venous thrombosis of lower extremity due to coronary artery bypass graft
+^ESCTAC804153	Acute deep venous thrombosis of calf
+^ESCTAC804154	Acute deep venous thrombosis of popliteal vein
+^ESCTAC804155	Acute deep venous thrombosis of tibial vein
+^ESCTAC804156	Acute deep venous thrombosis of thigh
+^ESCTAC804157	Acute deep venous thrombosis
+^ESCTAC804158	Acute deep venous thrombosis of femoral vein
+^ESCTAC804159	Acute deep venous thrombosis of iliofemoral vein
+^ESCTAC804160	Acute deep venous thrombosis of ileofemoral vein
+^ESCTAC804161	Acute deep venous thrombosis of upper extremity
+^ESCTAC804167	Acute deep venous thrombosis of pelvic vein
+^ESCTAC804169	Acute thrombosis of subclavian vein
+^ESCTAC804190	Acute thrombosis of mesenteric vein
+^ESCTAC804250	Acute deep venous thrombosis of axillary vein
+^ESCTAC804251	Acute deep venous thrombosis of internal jugular vein
+^ESCTAC804292	Acute deep venous thrombosis of upper extremity as complication of procedure
+^ESCTAC804293	Acute deep venous thrombosis of lower extremity as complication of procedure
+^ESCTAC804579	Acute thrombosis of splenic vein
+^ESCTAC808736	Acute deep venous thrombosis of bilateral femoral veins
+^ESCTAC808737	Acute deep vein thrombosis of bilateral femoral veins
+^ESCTAM505763	AMPE - Acute massive pulmonary embolism
+^ESCTAM505764	AMP - Acute massive pulmonary embolism
+^ESCTAN330895	Antepartum deep vein thrombosis
+^ESCTAN330896	Antepartum deep phlebothrombosis
+^ESCTBI729140	Bilateral deep vein thrombosis of lower extremities
+^ESCTBI808735	Bilateral acute deep vein thrombosis of femoral veins
+^ESCTBL358736	Blue phlebitis
+^ESCTCH761718	Chronic pulmonary thromboembolism
+^ESCTCH761719	Chronic pulmonary thromboembolism without pulmonary hypertension
+^ESCTCH765448	Chronic deep vein thrombosis of pelvic vein
+^ESCTCH804137	Chronic deep venous thrombosis of lower limb due to coronary artery bypass grafting
+^ESCTCH804138	Chronic deep venous thrombosis of lower extremity due to coronary artery bypass graft
+^ESCTCH804143	Chronic deep venous thrombosis of calf
+^ESCTCH804144	Chronic deep venous thrombosis of lower extremity
+^ESCTCH804145	Chronic deep venous thrombosis of popliteal vein
+^ESCTCH804146	Chronic deep venous thrombosis of tibial vein
+^ESCTCH804147	Chronic deep venous thrombosis of thigh
+^ESCTCH804148	Chronic deep venous thrombosis of femoral vein
+^ESCTCH804149	Chronic deep venous thrombosis of iliofemoral vein
+^ESCTCH804150	Chronic deep venous thrombosis of ileofemoral vein
+^ESCTCH804152	Chronic deep venous thrombosis of upper extremity
+^ESCTCH804165	Chronic thrombosis of subclavian vein
+^ESCTCH804189	Chronic thrombosis of mesenteric vein
+^ESCTCH804210	Chronic pulmonary embolism
+^ESCTCH804252	Chronic deep venous thrombosis of internal jugular vein
+^ESCTCH804291	Chronic deep venous thrombosis of upper extremity as complication of procedure
+^ESCTCH804578	Chronic thrombosis of splenic vein
+^ESCTCH984964	Chronic deep venous thrombosis
+^ESCTDE273015	Deep vein thrombosis of splenic vein
+^ESCTDE276583	Deep thrombophlebitis
+^ESCTDE278434	Deep vein thrombosis of portal vein
+^ESCTDE440328	Deep venous thrombosis of upper extremity
+^ESCTDE440329	Deep venous thrombosis of pelvic vein
+^ESCTDE478567	Deep venous thrombosis of the superior mesenteric vein
+^ESCTDE505926	Deep venous thrombosis of the inferior mesenteric vein
+^ESCTDE669474	Deep venous thrombosis of lower extremity
+^ESCTDE669476	Deep venous thrombosis of leg
+^ESCTDE669477	Deep venous thrombosis of lower limb
+^ESCTDE707856	Deep venous thrombosis of profunda femoris vein
+^ESCTDE707858	Deep venous thrombosis of deep femoral vein
+^ESCTDE707860	Deep venous thrombosis of the popliteal vein
+^ESCTDE709359	Deep venous thrombosis associated with coronary artery bypass graft
+^ESCTDE721397	Deep venous thrombosis of tibial vein
+^ESCTDE727374	Deep venous thrombosis of peroneal vein
+^ESCTDE729141	Deep vein thrombosis of bilateral lower extremities
+^ESCTDE757322	Deep venous thrombosis of femoropopliteal vein
+^ESCTDV440326	DVT - Deep vein thrombosis
+^ESCTDV669475	DVT - Deep vein thrombosis of lower limb
+^ESCTEM374405	Embolectomy of pulmonary artery
+^ESCTEM645283	Embolus care: pulmonary
+^ESCTEM721944	Embolism from thrombosis of vein of distal lower extremity
+^ESCTEM721945	Embolism from venous thrombosis of lower leg
+^ESCTFA344409	Failed attempted termination of pregnancy with pulmonary embolism
+^ESCTFA344410	Failed attempted abortion with pulmonary embolism
+^ESCTHI454055	History of deep vein thrombosis
+^ESCTHI454061	History of pulmonary embolus
+^ESCTHI709538	History of thromboembolism of vein
+^ESCTHI709539	History of venous thromboembolic disease
+^ESCTHI804485	History of recurrent deep vein thrombosis
+^ESCTHI932666	History of pulmonary embolism on long-term anticoagulation therapy
+^ESCTHO454053	H/O: Deep vein thrombosis
+^ESCTIF505931	IFVT - Iliofemoral vein thrombosis
+^ESCTIL340268	Illegal termination of pregnancy with pulmonary embolism
+^ESCTIL340269	Illegal abortion with pulmonary embolism
+^ESCTIL505930	Iliofemoral deep vein thrombosis
+^ESCTIL505932	Ileofemoral deep vein thrombosis
+^ESCTIN505925	Inferior mesenteric vein thrombosis
+^ESCTIN725461	Infarction of lung due to iatrogenic pulmonary embolism
+^ESCTIN749890	Induced termination of pregnancy complicated by pulmonary embolism
+^ESCTLE332804	Legal termination of pregnancy with pulmonary embolism
+^ESCTLE332805	Legal abortion with pulmonary embolism
+^ESCTMI358805	Milk leg syndrome
+^ESCTMI383602	Miscarriage with pulmonary embolism
+^ESCTPE346292	PE - Pulmonary embolism
+^ESCTPE374407	PE - Pulmonary embolectomy
+^ESCTPE466633	Percutaneous embolectomy of pulmonary artery
+^ESCTPE505761	PE - Pulmonary thromboembolism
+^ESCTPH358733	Phlegmasia cerulea dolens
+^ESCTPH358734	Phlegmasia caerula dolens
+^ESCTPH358735	Phlegmasia cerula dolens
+^ESCTPH358804	Phlegmasia alba dolens
+^ESCTPO341434	Postpartum deep phlebothrombosis
+^ESCTPO341435	Postpartum deep vein thrombosis
+^ESCTPO351758	Postpartum iliofemoral thrombophlebitis
+^ESCTPR836103	Provoked DVT (deep vein thrombosis)
+^ESCTPT505760	PTE - Pulmonary thromboembolism
+^ESCTPU250906	Pulmonary embolism following molar AND/OR ectopic pregnancy
+^ESCTPU351757	Puerperal phlegmasia alba dolens
+^ESCTPU370804	Pulmonary microemboli
+^ESCTPU374406	Pulmonary embolectomy
+^ESCTPU480230	Puerperal pulmonary embolism
+^ESCTPU505759	Pulmonary thromboembolism
+^ESCTPU645282	Pulmonary embolus care
+^ESCTPU725462	Pulmonary embolism and infarction, iatrogenic
+^ESCTPU769948	Pulmonary embolism on long-term anticoagulation therapy
+^ESCTPU784852	Pulmonary embolism as current complication following acute myocardial infarction
+^ESCTPU784853	Pulmonary embolism following acute myocardial infarction
+^ESCTPU796728	Pulmonary embolism with pulmonary infarction
+^ESCTPU796729	Pulmonary embolism with infarction
+^ESCTPU932565	Pulmonary embolism in childbirth
+^ESCTPV278435	PVT - Portal vein thrombosis
+^ESCTRE374404	Removal of pulmonary embolus
+^ESCTRE766507	Recurrent DVT (deep vein thrombosis)
+^ESCTSA505766	SAMPE - Subacute massive pulmonary embolism
+^ESCTSA810600	Saddle embolus of pulmonary artery
+^ESCTSP273014	Splenic vein thrombosis
+^ESCTSP383603	Spontaneous abortion with pulmonary embolism
+^ESCTSU505765	Subacute massive pulmonary embolism
+^ESCTTE749891	Termination of pregnancy complicated by pulmonary embolism
+^ESCTTH252627	Thrombophlebitis of deep femoral vein
+^ESCTTH261743	Thrombophlebitis of tibial vein
+^ESCTTH335111	Thrombophlebitis of femoropopliteal vein
+^ESCTTH405677	Thrombophlebitis of mesenteric vein
+^ESCTTH405686	Thrombophlebitis of deep veins of upper extremities
+^ESCTTH707857	Thrombosis of profunda femoris vein
+^ESCTTH707859	Thrombosis of the popliteal vein
+^ESCTTH720979	Thrombophlebitis of subclavian vein
+^ESCTTH721215	Thrombophlebitis of axillary vein
+^ESCTTL466635	TL - Transluminal pulmonary embolectomy
+^ESCTTL504738	TL - Transluminal fragmentation of pulmonary embolus
+^ESCTTR374408	Trendelenburg operation
+^ESCTTR466634	Transluminal pulmonary embolectomy
+^ESCTTR504737	Transluminal fragmentation of pulmonary embolus
+^ESCTTR634846	Traumatic thrombosis of axillary vein
+^ESCTUN836101	Unprovoked DVT (deep vein thrombosis)
+^ESCTVE709832	Venous thromboembolic disease
+^ESCTWH358806	White leg
+EMISNQRE297	Recurrent deep vein thrombosis
