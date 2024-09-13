@@ -1,0 +1,31 @@
+C106.	Diabetes mellitus with neuropathy
+F1711	Diabetic autonomic neuropathy
+F372.	Diabetic neuropathy
+F3720	Acute painful diabetic neuropathy
+F3721	Chronic painful diabetic neuropathy
+F3722	Asymptomatic diabetic neuropathy
+F3813	Diabetic amyotrophy
+M2711	Neuropathic diabetic ulcer - foot
+N0301	Diabetic neuropathic arthropathy
+X00Ag	Diabetic neuropathy
+X00Ah	Diabetic distal sensorimotor polyneuropathy
+X00Ai	Diabetic acute painful polyneuropathy
+X00Aj	Diabetic chronic painful polyneuropathy
+X00Ak	Diabetic asymmetric polyneuropathy
+X00Al	Diabetic mononeuropathy
+Xa0lK	Diabetic femoral mononeuropathy
+Xac0x	Diabetic peripheral neuropathic pain
+XaEnn	Type 1 diabetes mellitus with mononeuropathy
+XaEno	Type I diabetes mellitus with polyneuropathy
+XaEnp	Type II diabetes mellitus with mononeuropathy
+XaEnq	Type II diabetes mellitus with polyneuropathy
+XaFmM	Type I diabetes mellitus with neuropathic arthropathy
+XaFn9	Type II diabetes mellitus with neuropathic arthropathy
+XaIyt	Diabetic peripheral neuropathy screening
+XaPmW	Diabetic femoral mononeuropathy
+XaPmX	Diabetic amyotrophy
+XaXbW	Symptomatic diabetic peripheral neuropathy
+XE12I	Diabetic neuropathy
+XE15k	Diabetic polyneuropathy
+Xaczx	FootSkin scale risk level 3 high risk
+Xaczy	FootSkin scale risk level 4 high risk
