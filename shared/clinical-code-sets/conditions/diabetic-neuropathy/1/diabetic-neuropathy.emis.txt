@@ -1,0 +1,150 @@
+^ESCT1210249	Cervical radiculoplexus neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1210250	Cervical radiculoplexus neuropathy with diabetes mellitus
+^ESCT1210251	CRPN - diabetic cervical radiculoplexus neuropathy
+^ESCT1218076	DLRPN - diabetic lumbosacral radiculoplexus neuropathy
+^ESCT1218077	Lumbosacral radiculoplexus neuropathy with diabetes mellitus
+^ESCT1218078	Lumbosacral radiculoplexus neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1218079	Diabetic lumbosacral plexopathy
+^ESCT1218084	Symmetric proximal motor neuropathy with diabetes mellitus
+^ESCT1218085	Symmetric proximal motor neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1218090	DRPN - diabetic radiculoplexus neuropathy
+^ESCT1218091	Radiculoplexus neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1218092	Radiculoplexus neuropathy with diabetes mellitus
+^ESCT1218542	Polyneuropathy due to diabetes mellitus
+^ESCT1218543	Polyneuropathy co-occurrent and due to diabetes mellitus
+^ESCT1218601	Autonomic neuropathy with diabetes mellitus
+^ESCT1218602	Autonomic neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1219928	Asymmetric proximal motor neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1219929	Asymmetric proximal motor neuropathy with diabetes mellitus
+^ESCT1220024	Mononeuropathy simplex co-occurrent and due to diabetes mellitus
+^ESCT1220025	Mononeuropathy simplex with diabetes mellitus
+^ESCT1221847	Mixed sensorimotor polyneuropathy co-occurrent and due to diabetes mellitus
+^ESCT1221848	Motor polyneuropathy co-occurrent and due to diabetes mellitus
+^ESCT1221849	Sensory neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1222066	Asymptomatic neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1222067	Asymptomatic neuropathy with diabetes mellitus
+^ESCT1222111	Neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1222112	Acute painful polyneuropathy co-occurrent and due to diabetes mellitus
+^ESCT1222113	Chronic painful polyneuropathy co-occurrent and due to diabetes mellitus
+^ESCT1222114	Asymmetric polyneuropathy co-occurrent and due to diabetes mellitus
+^ESCT1222115	Mononeuropathy co-occurrent and due to diabetes mellitus
+^ESCT1227305	Femoral mononeuropathy co-occurrent and due to diabetes mellitus
+^ESCT1227306	Femoral mononeuropathy with diabetes mellitus
+^ESCT1233105	Mononeuropathy with type 2 diabetes mellitus
+^ESCT1233106	Mononeuropathy co-occurrent and due to type 2 diabetes mellitus
+^ESCT1233275	Mononeuropathy with type 1 diabetes mellitus
+^ESCT1233276	Mononeuropathy co-occurrent and due to type 1 diabetes mellitus
+^ESCT1234204	Peripheral neuropathy co-occurrent and due to diabetes mellitus
+^ESCT1234480	Lumbosacral radiculoplexus neuropathy co-occurrent and due to type 2 diabetes mellitus
+^ESCT1234481	Lumbosacral radiculoplexus neuropathy with type 2 diabetes mellitus
+^ESCT1234482	Diabetes type II with amyotrophy
+^ESCT1234546	Lumbosacral radiculoplexus neuropathy with type 1 diabetes mellitus
+^ESCT1234547	Lumbosacral radiculoplexus neuropathy co-occurrent and due to type 1 diabetes mellitus
+^ESCT1234548	Lumbosacral radiculoplexus neuropathy with type I diabetes mellitus
+^ESCT1236320	Autonomic neuropathy with type 1 diabetes mellitus
+^ESCT1236321	Autonomic neuropathy co-occurrent and due to type 1 diabetes mellitus
+^ESCT1236322	Autonomic neuropathy with type I diabetes mellitus
+^ESCT1236323	Autonomic neuropathy with type 2 diabetes mellitus
+^ESCT1236324	Autonomic neuropathy co-occurrent and due to type 2 diabetes mellitus
+^ESCT1236325	Autonomic neuropathy with type II diabetes mellitus
+^ESCT1236372	Polyneuropathy co-occurrent and due to type 1 diabetes mellitus
+^ESCT1236373	Polyneuropathy co-occurrent and due to type 2 diabetes mellitus
+^ESCT1237038	Peripheral neuropathy with type 2 diabetes
+^ESCT1237039	Peripheral neuropathy co-occurrent and due to type 2 diabetes mellitus
+^ESCT1237063	Peripheral neuropathy with type 1 diabetes mellitus
+^ESCT1249155	Radiculoplexoneuropathy due to diabetes mellitus
+^ESCT1249156	Diabetic radiculoplexus neuropathy
+^ESCT1270237	Mononeuropathy associated with type 1 diabetes mellitus
+^ESCT1270240	Mononeuropathy associated with type 2 diabetes mellitus
+^ESCT1379006	Neuropathic ulcer of foot due to diabetes mellitus
+^ESCT1379007	Neuropathic arthropathy due to diabetes mellitus
+^ESCT1391680	Neuropathy due to type 1 diabetes mellitus
+^ESCT1391709	Neuropathic ulcer of heel due to type 2 diabetes mellitus
+^ESCT1391710	Neuropathic ulcer of midfoot due to type 2 diabetes mellitus
+^ESCT1391714	Sensory polyneuropathy due to diabetes mellitus
+^ESCT1391715	Diabetic sensory polyneuropathy
+^ESCT1395201	Generalised diabetic autonomic neuropathy
+^ESCT1395202	Generalised autonomic neuropathy due to diabetes mellitus
+^ESCT1405751	Mononeuropathy multiplex due to diabetes mellitus
+^ESCT1405777	Lumbosacral radiculoplexus neuropathy due to diabetes mellitus
+^ESCT1405781	Symmetric proximal motor neuropathy due to diabetes mellitus
+^ESCT1405782	Radiculoplexus neuropathy due to diabetes mellitus
+^ESCT1405878	Autonomic neuropathy due to diabetes mellitus
+^ESCT1406100	Asymmetric proximal motor neuropathy due to diabetes mellitus
+^ESCT1406113	Mononeuropathy simplex due to diabetes mellitus
+^ESCT1406752	Mixed sensorimotor polyneuropathy due to diabetes mellitus
+^ESCT1406753	Motor polyneuropathy due to diabetes mellitus
+^ESCT1406757	Sensory neuropathy due to diabetes mellitus
+^ESCT1407132	Acute painful neuropathy due to diabetes mellitus
+^ESCT1407133	Chronic painful neuropathy due to diabetes mellitus
+^ESCT1407134	Asymptomatic neuropathy due to diabetes mellitus
+^ESCT1407246	Neuropathy due to diabetes mellitus
+^ESCT1407247	Acute painful polyneuropathy due to diabetes mellitus
+^ESCT1407248	Chronic painful polyneuropathy due to diabetes mellitus
+^ESCT1407249	Asymmetric polyneuropathy due to diabetes mellitus
+^ESCT1407250	Mononeuropathy due to diabetes mellitus
+^ESCT1407864	Neuropathy with neurologic complication due to diabetes mellitus
+^ESCT1407884	Femoral mononeuropathy due to diabetes mellitus
+^ESCT1408376	Mononeuropathy due to type 2 diabetes mellitus
+^ESCT1408386	Mononeuropathy due to type 1 diabetes mellitus
+^ESCT1408458	Peripheral neuropathy due to diabetes mellitus
+^ESCT1408492	Lumbosacral radiculoplexus neuropathy due to type 2 diabetes mellitus
+^ESCT1408493	Lumbosacral radiculoplexus neuropathy due to type 1 diabetes mellitus
+^ESCT1408875	Autonomic neuropathy due to type 1 diabetes mellitus
+^ESCT1408876	Autonomic neuropathy due to type 2 diabetes mellitus
+^ESCT1409248	Cervical radiculoplexus neuropathy due to diabetes mellitus
+^ESCT1409457	Neuropathic arthropathy due to type 2 diabetes mellitus
+^ESCT1409460	Peripheral neuropathy due to type 2 diabetes mellitus
+^ESCT1409525	Neuropathic ulcer of toe due to type 2 diabetes mellitus
+^ESCT1409527	Neuropathic ulcer of foot due to type 2 diabetes mellitus
+^ESCT1417416	Autonomic neuropathy due to drug induced diabetes mellitus
+^ESCT1417417	Diabetic autonomic neuropathy due to drug induced diabetes mellitus
+^ESCT1417427	Polyneuropathy due to drug induced diabetes mellitus
+^ESCTAM706789	Amyotrophy due to type 2 diabetes mellitus
+^ESCTAM707589	Amyotrophy due to type 1 diabetes mellitus
+^ESCTAS379381	Asymmetric diabetic proximal motor neuropathy
+^ESCTDI307604	Diabetic mononeuropathy multiplex
+^ESCTDI312874	Diabetic lumbosacral radiculoplexus neuropathy
+^ESCTDI313050	Diabetic radiculopathy
+^ESCTDI331986	Diabetic autonomic neuropathy
+^ESCTDI383062	Diabetic mononeuropathy simplex
+^ESCTDI438362	Diabetic mixed sensory-motor polyneuropathy
+^ESCTDI438363	Diabetic motor polyneuropathy
+^ESCTDI439213	Diabetic sensory polyneuropathy
+^ESCTDI480892	Diabetic neuropathic arthropathy
+^ESCTDI500954	Diabetic distal sensorimotor polyneuropathy
+^ESCTDI500955	Diabetic acute painful polyneuropathy
+^ESCTDI500956	Diabetic chronic painful polyneuropathy
+^ESCTDI500957	Diabetic asymmetric polyneuropathy
+^ESCTDI620432	Diabetic neuropathy with neurologic complication
+^ESCTDI622080	Diabetic femoral mononeuropathy
+^ESCTDI703203	Diabetic peripheral neuropathy
+^ESCTDI706790	Diabetes type 2 with amyotrophy
+^ESCTDI769679	Diabetic autonomic neuropathy due to type 1 diabetes mellitus
+^ESCTDI769680	Diabetic autonomic neuropathy due to type 2 diabetes mellitus
+^ESCTDI786158	Diabetic radiculoplexus neuropathy
+^ESCTDI796691	Diabetic neuropathic arthropathy associated with type 2 diabetes mellitus
+^ESCTDI796692	Diabetic Charcot's arthropathy associated with type 2 diabetes mellitus
+^ESCTDI796894	Diabetic peripheral neuropathy associated with type 2 diabetes mellitus
+^ESCTDI796895	Diabetic peripheral neuropathy associated with type II diabetes mellitus
+^ESCTDI802246	Diabetic neuropathic arthropathy due to type 1 diabetes mellitus
+^ESCTDI802247	Diabetes mellitus type 1 with diabetic Charcot's arthropathy
+^ESCTDP834330	DPNP - diabetic peripheral neuropathic pain
+^ESCTMO695412	Mononeuropathy associated with type II diabetes mellitus
+^ESCTMO696275	Mononeuropathy associated with type I diabetes mellitus
+^ESCTNE760984	Neuropathy due to unstable diabetes mellitus type 1
+^ESCTNE760985	Neuropathy due to brittle type I diabetes mellitus
+^ESCTNE802244	Neuropathic arthropathy due to type 1 diabetes mellitus
+^ESCTNE803425	Neuropathic ulcer of midfoot AND/OR heel due to type 2 diabetes mellitus
+^ESCTNE804417	Neuropathic toe ulcer due to type 2 diabetes mellitus
+^ESCTNE804424	Neuropathic foot ulcer due to type 2 diabetes mellitus
+^ESCTNE812038	Neuropathy due to type 2 diabetes mellitus
+^ESCTPE802248	Peripheral neuropathy due to type 1 diabetes mellitus
+^ESCTPE802249	Peripheral neuropathy co-occurrent and due to type 1 diabetes mellitus
+^ESCTPE803488	Peripheral sensory neuropathy due to type 2 diabetes mellitus
+^ESCTPO770809	Polyneuropathy due to type 1 diabetes mellitus
+^ESCTPO770812	Polyneuropathy due to diabetes mellitus type II
+^ESCTRA786157	Radiculoplexoneuropathy due to diabetes mellitus
+^ESCTSE803208	Sensory neuropathy due to type 1 diabetes mellitus
+^ESCTSY312979	Symmetric diabetic proximal motor neuropathy
+^ESCTSY824104	Symptomatic diabetic peripheral neuropathy
