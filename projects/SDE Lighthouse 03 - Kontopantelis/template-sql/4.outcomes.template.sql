@@ -43,22 +43,21 @@
 --> CODESET delirium:1 fracture:1 falls:1 social-care-referral:1 safeguarding-referral:1
 
 
-DROP TABLE IF EXISTS OutcomeCodes;
-CREATE TEMPORARY TABLE OutcomeCodes AS
-SELECT GmPseudo, "SuppliedCode", to_date("EventDate") as EventDate
+DROP TABLE IF EXISTS "OutcomeCodes";
+CREATE TEMPORARY TABLE "OutcomeCodes" AS
+SELECT "GmPseudo", "SuppliedCode", to_date("EventDate") as "EventDate"
 FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" events 
-    ON events."FK_Patient_ID" = cohort.FK_Patient_ID
+    ON events."FK_Patient_ID" = cohort."FK_Patient_ID"
 WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept IN (
 	'delirium','fracture','falls','social-care-referral','advance-care-planning','safeguarding-referral'
 ));
 
-DROP TABLE IF EXISTS {{project-schema}}."4_Outcomes";
-CREATE TABLE {{project-schema}}."4_Outcomes" AS
+{{create-output-table::"LH003-4_Outcomes"}}
 -- gp admissions
-select "GmPseudo" AS "PatientID", 'GP encounter' AS "OutcomeName", "EventDate" AS "OutcomeDate"
-from "Contacts_Proxy"
-WHERE "GmPseudo" IN (SELECT GmPseudo FROM {{cohort-table}})
+select "GmPseudo", 'GP encounter' AS "OutcomeName", "EventDate" AS "OutcomeDate"
+from INTERMEDIATE.GP_RECORD."Contacts_Proxy"
+WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}})
 AND "EventDate" >= '2006-01-01'
 UNION
 -- hospital admissions
@@ -81,15 +80,15 @@ select top 100
         WHEN "Admission_Method" IN ('82','83') THEN 'Other Hospital Admission - Birth of Baby'
         -- [81] Other Admission: Transfer of any admitted PATIENT from other Hospital Provider other than in an emergency
         WHEN "Admission_Method" = '81' THEN 'Non-emergency admission via hospital transfer'
-    END AS OutcomeName,
-    TO_DATE("Admission_Date") AS OutcomeDate
-from NATIONAL_FLOWS_APC."tbl_Data_SUS_APCS"
-WHERE "GmPseudo" IN (SELECT GmPseudo FROM {{cohort-table}})
+    END,  -- "OutcomeName"
+    TO_DATE("Admission_Date") -- "OutcomeDate"
+from INTERMEDIATE.NATIONAL_FLOWS_APC."tbl_Data_SUS_APCS"
+WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}})
 AND TO_DATE("Admission_Date") >= '2006-01-01'
 UNION
 -- Things we get from GP_Events
 SELECT
-    GmPseudo AS PatientID,
+    "GmPseudo",
     CASE
         WHEN concept='delirium' THEN 'Delirium'
         WHEN concept='fracture' THEN 'Fracture'
@@ -97,16 +96,16 @@ SELECT
         WHEN concept='social-care-referral' THEN 'Social Care Referral'
         WHEN concept='advance-care-planning' THEN 'Advance Care Planning'
         WHEN concept='safeguarding-referral' THEN 'Safeguarding Referral'
-    END AS OutcomeName,
-    EventDate AS OutcomeDate
-FROM OutcomeCodes x
+    END, -- "OutcomeName",
+    "EventDate" -- "OutcomeDate"
+FROM "OutcomeCodes" x
 LEFT OUTER JOIN {{code-set-table}} c 
 ON c.code = x."SuppliedCode"
-WHERE EventDate >= '2006-01-01'
+WHERE "EventDate" >= '2006-01-01'
 UNION
 -- Things we get from REFSETs
 SELECT 
-	GmPseudo,
+	"GmPseudo",
 	CASE
 		WHEN "Field_ID" = 'DEMCPRVW_COD' THEN 'Dementia care plan review'
 		WHEN "Field_ID" = 'DEMCPRVWDEC_COD' THEN 'Patient chose not to have dementia care plan review'
@@ -116,11 +115,11 @@ SELECT
 		WHEN "Field_ID" = 'DEMMEDRVW_COD' THEN 'Dementia medication review'
 		WHEN "Field_ID" = 'MEDRVWDEC_COD' THEN 'Patient chose not to have a medication review'
 		WHEN "Field_ID" = 'SOCPRESREF_COD' THEN 'Referral to social prescribing'
-	END AS OutcomeName,
+	END, -- "OutcomeName",
 	TO_DATE("EventDate")
 FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."EventsClusters" events 
-    ON events."FK_Patient_ID" = cohort.FK_Patient_ID
+    ON events."FK_Patient_ID" = cohort."FK_Patient_ID"
 WHERE "Field_ID" IN ('DEMCPRVW_COD','DEMCPRVWDEC_COD','MEDRVW_COD','STRUCTMEDRVW_COD','STRMEDRWVDEC_COD','DEMMEDRVW_COD','MEDRVWDEC_COD','SOCPRESREF_COD')
 AND TO_DATE("EventDate") >= '2006-01-01';
 

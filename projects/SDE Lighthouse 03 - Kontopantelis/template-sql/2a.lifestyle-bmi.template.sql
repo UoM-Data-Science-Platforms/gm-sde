@@ -10,12 +10,11 @@
 --		- TestResult
 --		- TestUnit
 
-DROP TABLE IF EXISTS {{project-schema}}."2a_Lifestyl_BMI";
-CREATE TABLE {{project-schema}}."2a_Lifestyl_BMI" AS
+{{create-output-table::"LH003-2a_Lifestyl_BMI"}}
 SELECT 
-  "GmPseudo" AS PatientID,
-	"EventDate" AS TestDate,
-	"BMI" AS TestResult
+  "GmPseudo",
+	"EventDate" AS "TestDate",
+	"BMI" AS "TestResult"
 FROM INTERMEDIATE.GP_RECORD."Readings_BMI"
-WHERE "GmPseudo" IN (SELECT GmPseudo FROM {{cohort-table}})
+WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}})
 AND YEAR("EventDate") >= 2006;

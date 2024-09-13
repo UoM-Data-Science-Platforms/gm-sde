@@ -1,3 +1,5 @@
+USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
+
 --┌─────────────┐
 --│ Medications │
 --└─────────────┘
@@ -41,12 +43,12 @@
 -- >>> Following code sets injected: trifluoperazine v1/trihexyphenidyl v1/trimipramine v1/trospium v1
 
 -- Populate a temp table with all the drugs without refsets that we get from GP_Medications
-DROP TABLE IF EXISTS LH003_Medication_Codes;
-CREATE TEMPORARY TABLE LH003_Medication_Codes AS
-SELECT GmPseudo, "SuppliedCode", to_date("MedicationDate") as MedicationDate
+DROP TABLE IF EXISTS "LH003_Medication_Codes";
+CREATE TEMPORARY TABLE "LH003_Medication_Codes" AS
+SELECT "GmPseudo", "SuppliedCode", to_date("MedicationDate") as "MedicationDate"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis" cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."GP_Medications_SecondaryUses" meds 
-    ON meds."FK_Patient_ID" = cohort.FK_Patient_ID
+    ON meds."FK_Patient_ID" = cohort."FK_Patient_ID"
 WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_03_Kontopantelis" WHERE concept IN('donepezil','galantamine','rivastigmine','memantine','alimemazine',
 'alprazolam','alverine','atenolol','beclometasone','bupropion','captopril','cimetidine','clorazepate','codeine','colchicine',
 'dextropropoxyphene','diazepam','digoxin','dipyridamole','disopyramide-phosphate','fentanyl','fluvoxamine','furosemide','haloperidol','hydralazine',
@@ -58,12 +60,20 @@ WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_
 'nortriptyline','orphenadrine','oxybutynin','paroxetine','perphenazine','procyclidine','promazine','promethazine','propantheline',
 'scopolamine','solifenacin','tolterodine','trifluoperazine','trihexyphenidyl','trimipramine','trospium'));
 
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."5_Medications";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."5_Medications" AS
+
+
+-- ... processing [[create-output-table::"LH003-5_Medications"]] ... 
+-- ... Need to create an output table called "LH003-5_Medications" and replace 
+-- ... the GmPseudo column with a study-specific random patient id.
+
+-- First we create a table in an area only visible to the RDEs which contains
+-- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-5_Medications_WITH_PSEUDO_IDS";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-5_Medications_WITH_PSEUDO_IDS" AS
 -- For antidementia and anticholinergic (no refsets) we query the data from the temp table above
 SELECT
-    GmPseudo AS "PatientID",
-	MedicationDate AS "PrescriptionDate",
+    "GmPseudo",
+	"MedicationDate" AS "PrescriptionDate",
     CASE
         WHEN concept='donepezil' THEN 'Antidementia drug'
         WHEN concept='galantamine' THEN 'Antidementia drug'
@@ -153,17 +163,17 @@ SELECT
     END AS "MedicationGroup",
     concept AS "MedicationType",
     description AS "Medication"
-FROM LH003_Medication_Codes x
+FROM "LH003_Medication_Codes" x
 LEFT OUTER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_03_Kontopantelis" c 
 ON c.code = x."SuppliedCode"
-WHERE MedicationDate >= '2006-01-01'
+WHERE "MedicationDate" >= '2006-01-01'
 UNION
 -- Link the above to the data from the Refset clusters
-SELECT GmPseudo, TO_DATE("MedicationDate") AS "MedicationDate", 
+SELECT "GmPseudo", TO_DATE("MedicationDate"), 
     CASE
         WHEN "Field_ID" = 'BENZODRUG_COD' THEN 'Benzodiazipine related'
         WHEN "Field_ID" = 'ANTIPSYDRUG_COD' THEN 'Antipsychotic'
-    END AS "MedicationCategory",
+    END, -- "MedicationCategory",
 		-- to get the medication the quickest way is to just split the description by ' ' and take the first part
     split_part(
         regexp_replace( -- this replace removes characters at the start e.g. "~DRUGNAME"
@@ -174,10 +184,42 @@ SELECT GmPseudo, TO_DATE("MedicationDate") AS "MedicationDate",
             '[\*\\]~\\[]',
             ''
         ), 
-    ' ', 1) AS "MedicationType",
-    "MedicationDescription" AS "Medication"
+    ' ', 1), -- "MedicationType",
+    "MedicationDescription" -- "Medication"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis" cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."MedicationsClusters" meds 
-    ON meds."FK_Patient_ID" = cohort.FK_Patient_ID
+    ON meds."FK_Patient_ID" = cohort."FK_Patient_ID"
 WHERE "Field_ID" IN ('ANTIPSYDRUG_COD','BENZODRUG_COD')
 AND TO_DATE("MedicationDate") >= '2006-01-01';
+
+-- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
+-- of all "new" GmPseudo ids. I.e. any GmPseudo ids that we've already got a unique id for
+-- for this study are excluded
+DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_03_Kontopantelis";
+CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_03_Kontopantelis" AS
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-5_Medications_WITH_PSEUDO_IDS"
+EXCEPT
+SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_03_Kontopantelis";
+
+-- Find the highest currently assigned id. Ids are given incrementally, so now ones
+-- need to start at +1 of the current highest
+SET highestPatientId = (
+    SELECT IFNULL(MAX("StudyPatientPseudoId"),0) FROM "Patient_ID_Mapping_SDE_Lighthouse_03_Kontopantelis"
+);
+
+-- Make a study specific hash for each new GmPseudo and insert it
+-- into the patient lookup table
+INSERT INTO "Patient_ID_Mapping_SDE_Lighthouse_03_Kontopantelis"
+SELECT
+    "GmPseudo", -- the GM SDE patient ids for patients in this cohort
+    SHA2(CONCAT('SDE_Lighthouse_03_Kontopantelis', "GmPseudo")) AS "Hash", -- used to provide a random (study-specific) ordering for the patient ids we provide
+    $highestPatientId + ROW_NUMBER() OVER (ORDER BY "Hash") -- the patient id that we provide to the analysts
+FROM "AllPseudos_SDE_Lighthouse_03_Kontopantelis";
+
+-- Finally, we select from the output table which includes the GmPseudos, in order
+-- to populate the table for the end users where the GmPseudo fields are redacted via a function
+-- created in the 0.code-sets.sql file
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-5_Medications";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-5_Medications" AS
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_03_Kontopantelis("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-5_Medications_WITH_PSEUDO_IDS";

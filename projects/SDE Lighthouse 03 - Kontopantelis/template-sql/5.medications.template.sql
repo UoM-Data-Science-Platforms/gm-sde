@@ -39,12 +39,12 @@
 --> CODESET trifluoperazine:1 trihexyphenidyl:1 trimipramine:1 trospium:1
 
 -- Populate a temp table with all the drugs without refsets that we get from GP_Medications
-DROP TABLE IF EXISTS LH003_Medication_Codes;
-CREATE TEMPORARY TABLE LH003_Medication_Codes AS
-SELECT GmPseudo, "SuppliedCode", to_date("MedicationDate") as MedicationDate
+DROP TABLE IF EXISTS "LH003_Medication_Codes";
+CREATE TEMPORARY TABLE "LH003_Medication_Codes" AS
+SELECT "GmPseudo", "SuppliedCode", to_date("MedicationDate") as "MedicationDate"
 FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."GP_Medications_SecondaryUses" meds 
-    ON meds."FK_Patient_ID" = cohort.FK_Patient_ID
+    ON meds."FK_Patient_ID" = cohort."FK_Patient_ID"
 WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept IN('donepezil','galantamine','rivastigmine','memantine','alimemazine',
 'alprazolam','alverine','atenolol','beclometasone','bupropion','captopril','cimetidine','clorazepate','codeine','colchicine',
 'dextropropoxyphene','diazepam','digoxin','dipyridamole','disopyramide-phosphate','fentanyl','fluvoxamine','furosemide','haloperidol','hydralazine',
@@ -56,12 +56,12 @@ WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept IN('d
 'nortriptyline','orphenadrine','oxybutynin','paroxetine','perphenazine','procyclidine','promazine','promethazine','propantheline',
 'scopolamine','solifenacin','tolterodine','trifluoperazine','trihexyphenidyl','trimipramine','trospium'));
 
-DROP TABLE IF EXISTS {{project-schema}}."5_Medications";
-CREATE TABLE {{project-schema}}."5_Medications" AS
+
+{{create-output-table::"LH003-5_Medications"}}
 -- For antidementia and anticholinergic (no refsets) we query the data from the temp table above
 SELECT
-    GmPseudo AS "PatientID",
-	MedicationDate AS "PrescriptionDate",
+    "GmPseudo",
+	"MedicationDate" AS "PrescriptionDate",
     CASE
         WHEN concept='donepezil' THEN 'Antidementia drug'
         WHEN concept='galantamine' THEN 'Antidementia drug'
@@ -151,17 +151,17 @@ SELECT
     END AS "MedicationGroup",
     concept AS "MedicationType",
     description AS "Medication"
-FROM LH003_Medication_Codes x
+FROM "LH003_Medication_Codes" x
 LEFT OUTER JOIN {{code-set-table}} c 
 ON c.code = x."SuppliedCode"
-WHERE MedicationDate >= '2006-01-01'
+WHERE "MedicationDate" >= '2006-01-01'
 UNION
 -- Link the above to the data from the Refset clusters
-SELECT GmPseudo, TO_DATE("MedicationDate") AS "MedicationDate", 
+SELECT "GmPseudo", TO_DATE("MedicationDate"), 
     CASE
         WHEN "Field_ID" = 'BENZODRUG_COD' THEN 'Benzodiazipine related'
         WHEN "Field_ID" = 'ANTIPSYDRUG_COD' THEN 'Antipsychotic'
-    END AS "MedicationCategory",
+    END, -- "MedicationCategory",
 		-- to get the medication the quickest way is to just split the description by ' ' and take the first part
     split_part(
         regexp_replace( -- this replace removes characters at the start e.g. "~DRUGNAME"
@@ -172,10 +172,10 @@ SELECT GmPseudo, TO_DATE("MedicationDate") AS "MedicationDate",
             '[\*\\]~\\[]',
             ''
         ), 
-    ' ', 1) AS "MedicationType",
-    "MedicationDescription" AS "Medication"
+    ' ', 1), -- "MedicationType",
+    "MedicationDescription" -- "Medication"
 FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."MedicationsClusters" meds 
-    ON meds."FK_Patient_ID" = cohort.FK_Patient_ID
+    ON meds."FK_Patient_ID" = cohort."FK_Patient_ID"
 WHERE "Field_ID" IN ('ANTIPSYDRUG_COD','BENZODRUG_COD')
 AND TO_DATE("MedicationDate") >= '2006-01-01';
