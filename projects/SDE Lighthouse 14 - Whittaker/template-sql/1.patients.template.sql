@@ -15,6 +15,10 @@
 -- Information in this file will be based on the latest snapshot available, so may be conflicting with information 
 -- from the VW table which was based on time of activity.
 
+ -- need to load a codeset for the pipeline to work so loading an example one
+
+-- CODESET allergy-ace:1      
+
 set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-06-30');
 

@@ -22,7 +22,7 @@ set(StudyEndDate)   = to_date('2024-06-30');
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."4_ContactProxy_WITH_PSEUDO_IDS";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."4_ContactProxy_WITH_PSEUDO_IDS" AS
 SELECT
-    "GmPseudo" -- NEEDS PSEUDONYMISING
+    "GmPseudo" 
     , "EventDate" as "GPProxyEncounterDate"
 FROM PRESENTATION.GP_RECORD."Contacts_Proxy_Detail_SecondaryUses"
 WHERE "GmPseudo" IN (select "GmPseudo" from SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_14_Whittaker")
