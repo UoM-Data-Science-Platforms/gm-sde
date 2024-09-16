@@ -1,0 +1,43 @@
+^ESCT1177971	CLE - Congenital lobar emphysema
+^ESCT1393679	Chronic emphysema due to vapour
+^ESCT1393680	Chronic emphysema caused by vapour
+^ESCT1394395	Bilateral congenital lobar emphysema
+^ESCT1394396	Congenital lobar emphysema of bilateral lungs
+^ESCT1394397	Congenital lobar emphysema of both lungs
+^ESCT1416137	Emphysema of left lung
+^ESCT1416138	Emphysema of right lung
+^ESCTAL257891	Alveolar emphysema of lung
+^ESCTBU478147	Bullous emphysema
+^ESCTCE361179	Centriacinar emphysema
+^ESCTCH357506	Chronic diffuse emphysema due to inhalation of chemical fumes AND/OR vapours
+^ESCTCH357507	Chronic diffuse emphysema due to inhalation of chemical fumes AND/OR vapors
+^ESCTCH357508	Chronic diffuse emphysema caused by inhalation of chemical fumes AND/OR vapors
+^ESCTCH357509	Chronic diffuse emphysema caused by inhalation of chemical fumes AND/OR vapours
+^ESCTCH473299	Chronic bronchitis with emphysema
+^ESCTCH478182	Chronic emphysema caused by chemical fumes
+^ESCTCH505430	Chemical emphysema
+^ESCTCO327486	Congenital emphysema
+^ESCTCO358923	Congenital lobar emphysema
+^ESCTCO762716	Combined pulmonary fibrosis and emphysema syndrome
+^ESCTCP762715	CPFE - combined pulmonary fibrosis and emphysema
+^ESCTEM392136	Emphysema of lung
+^ESCTEM478146	Emphysematous bulla
+^ESCTHA348778	Haemolytic anaemia with emphysema AND cutis laxa
+^ESCTHE348779	Hemolytic anemia with emphysema AND cutis laxa
+^ESCTIN327488	Infantile lobar emphysema
+^ESCTOB276742	Obstructive emphysema
+^ESCTPA257888	Panacinar emphysema
+^ESCTPA301380	Paraseptal emphysema
+^ESCTPE301381	Peripheral lobular emphysema
+^ESCTPU505427	Pulmonary emphysema in alpha-1 PI deficiency
+^ESCTPU505428	Pulmonary emphysema in alpha-1 primary immunodeficiency deficiency
+^ESCTPU762714	Pulmonary emphysema co-occurrent with fibrosis of lung
+^ESCTSC505431	Scar emphysema
+^ESCTSU301382	Subpleural emphysema
+^ESCTTO505429	Toxic emphysema
+^ESCTUN322830	Unilateral emphysema
+^ESCTVE257890	Vesicular emphysema
+^ESCT1270469	Interstitial emphysema
+^ESCTCL327487	CLE - Congenital lobar emphysema
+^ESCTIN376402	Interstitial emphysema of lung
+^ESCTIN376403	Interstitial pulmonary emphysema

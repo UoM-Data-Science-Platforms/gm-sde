@@ -1,0 +1,30 @@
+^ESCT1182857	Bronchiolitis fibrosa obliterans
+^ESCT1365146	Chronic bronchitis co-occurrent with wheeze
+^ESCTAC704901	Acute exacerbation of chronic bronchitis
+^ESCTAC809019	Acute exacerbation of chronic obstructive bronchitis
+^ESCTBI505491	BIP - Bronchiolitis obliterans with usual interstitial pneumonitis
+^ESCTBR365087	Bronchial atresia with segmental pulmonary emphysema
+^ESCTBR473300	Bronchitis with airway obstruction
+^ESCTBR505490	Bronchiolitis obliterans with usual interstitial pneumonitis
+^ESCTCA395562	Catarrhal bronchitis
+^ESCTCH302430	Chronic obliterative bronchiolitis due to inhalation of chemical fumes AND/OR vapours
+^ESCTCH302431	Chronic obliterative bronchiolitis due to inhalation of chemical fumes AND/OR vapors
+^ESCTCH302432	Chronic bronchiolitis obliterans due to chemical fumes
+^ESCTCH302433	Chronic obliterative bronchiolitis caused by inhalation of chemical fumes AND/OR vapors
+^ESCTCH302434	Chronic bronchiolitis obliterans caused by chemical fumes
+^ESCTCH302435	Chronic obliterative bronchiolitis caused by inhalation of chemical fumes AND/OR vapours
+^ESCTCH473299	Chronic bronchitis with emphysema
+^ESCTCH473303	Chronic obstructive bronchitis
+^ESCTCH478184	Chemical bronchiolitis obliterans
+^ESCTCH621364	Chronic mucus hypersecretion
+^ESCTCH803322	Chronic obstructive lung disease co-occurrent with acute bronchitis
+^ESCTCO473301	COB - Chronic obstructive bronchitis
+^ESCTDR505426	Drug-induced bronchiolitis obliterans
+^ESCTFE387319	Fetid chronic bronchitis
+^ESCTIN330431	Industrial bronchitis
+^ESCTOB314522	Obliterative bronchiolitis
+^ESCTOB314523	OB - Obliterative bronchiolitis
+^ESCTOB473302	Obstructive chronic bronchitis
+^ESCTOC330430	Occupational bronchitis
+^ESCTOC330432	Occupational chronic bronchitis
+^ESCTTO478183	Toxic bronchiolitis obliterans

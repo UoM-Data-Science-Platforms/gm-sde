@@ -1,0 +1,27 @@
+H31..	Chronic bronchitis
+H310.	Simple chronic bronchitis
+H310z	Simple chronic bronchitis NOS
+H311.	Mucopurulent chronic bronchitis
+H311z	Mucopurulent chronic bronchitis NOS
+H3120	Chronic asthmatic bronchitis
+H3121	Emphysematous bronchitis
+H3122	Acute exacerbation of chronic bronchitis
+H312z	Obstructive chronic bronchitis NOS
+H313.	Mixed simple and mucopurulent chronic bronchitis
+H31y.	Other chronic bronchitis
+H31y1	Chronic tracheobronchitis
+H31yz	Other chronic bronchitis NOS
+H31z.	Chronic bronchitis NOS
+H4641	Chemical bronchiolitis obliterans
+X101l	Obliterative bronchiolitis
+X101m	Drug-induced bronchiolitis obliterans
+XE0YM	Purulent chronic bronchitis
+XE0ZN	Tracheobronchitis - chronic
+Xaa7C	Eosinophilic bronchitis
+H0614	Obliterating fibrous bronchiolitis
+X101j	Industrial bronchitis
+X101j	Occupational bronchitis
+X101j	Occupational chronic bronchitis
+X101j	Occupational chronic bronchitis
+XE0ZL	Simple chronic bronchitis
+H3...	Chronic obstructive bronchitis

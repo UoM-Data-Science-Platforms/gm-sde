@@ -1,0 +1,30 @@
+H3121	Emphysematous bronchitis
+H32..	Emphysema
+H320.	Chronic bullous emphysema
+H3200	Segmental bullous emphysema
+H3201	Zonal bullous emphysema
+H3202	Giant bullous emphysema
+H320z	Chronic bullous emphysema NOS
+H321.	Panlobular emphysema
+H322.	Centrilobular emphysema
+H32y.	Other emphysema
+H32y0	Acute vesicular emphysema
+H32y2	MacLeod's unilateral emphysema
+H32z.	Emphysema NOS
+H4640	Chronic emphysema due to chemical fumes
+Hyu30	[X]Other emphysema
+X101n	Pulmonary emphysema
+X101o	Pulmonary emphysema in alpha-1 PI deficiency
+X101p	Toxic emphysema
+X101q	CLE - Congenital lobar emphysema
+X101r	Scar emphysema
+XE0YN	Bullous emphysema with collapse
+XE0YO	Atrophic (senile) emphysema
+XE0YP	Other emphysema NOS
+H3203	Bullous emphysema with collapse
+H32y1	Atrophic (senile) emphysema
+H32y1	Emphysema: [acute interstitial] or [atrophic - senile]
+H32yz	(Sawyer-Jones syndrome) or (other emphysema NOS)
+H32yz	Other emphysema NOS
+H32yz	Sawyer - Jones syndrome
+H581.	Interstitial pulmonary emphysema

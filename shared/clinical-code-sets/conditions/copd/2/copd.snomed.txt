@@ -1,0 +1,15 @@
+10692761000119107	Asthma-chronic obstructive pulmonary disease overlap syndrome (disorder)
+196001008	Chronic obstructive pulmonary disease with acute lower respiratory infection (disorder)
+293991000000106	Very severe chronic obstructive pulmonary disease (disorder)
+313296004	Mild chronic obstructive pulmonary disease (disorder)
+313297008	Moderate chronic obstructive pulmonary disease (disorder)
+313299006	Severe chronic obstructive pulmonary disease (disorder)
+371611000000107	Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation - enhanced services administration (procedure)
+847091000000104	Acute non-infective exacerbation of chronic obstructive pulmonary disease (disorder)
+135836000	End stage chronic obstructive airways disease (disorder)
+195951007	Acute exacerbation of chronic obstructive airways disease (disorder)
+285381006	Acute infective exacerbation of chronic obstructive airways disease (disorder)
+1751000119100	Acute exacerbation of chronic obstructive airways disease with asthma
+106001000119101	Chronic obstructive lung disease co-occurrent with acute bronchitis
+13645005	Chronic obstructive lung disease
+408501008	Admit COPD emergency (procedure)

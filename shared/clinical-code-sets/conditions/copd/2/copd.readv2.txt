@@ -1,0 +1,19 @@
+8H2R.00	Admit COPD emergency
+9kf0.00	Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation
+9kf0.11	Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation
+H3...00	Chronic obstructive pulmonary disease
+H3...11	Chronic obstructive airways disease
+H312200	Acute exacerbation of chronic obstructive airways disease
+H36..00	Mild chronic obstructive pulmonary disease
+H37..00	Moderate chronic obstructive pulmonary disease
+H38..00	Severe chronic obstructive pulmonary disease
+H39..00	Very severe chronic obstructive pulmonary disease
+H3A..00	End stage chronic obstructive airways disease
+H3B..00	Asthma-chronic obstructive pulmonary disease overlap syndrome
+H3y..00	Other specified chronic obstructive airways disease
+H3y..11	Other specified chronic obstructive pulmonary disease
+H3y0.00	Chronic obstructive pulmonary disease with acute lower respiratory infection
+H3y1.00	Chronic obstructive pulmonary disease with acute exacerbation, unspecified
+H3z..00	Chronic obstructive airways disease NOS
+H3z..11	Chronic obstructive pulmonary disease NOS
+Hyu3100	[X]Other specified chronic obstructive pulmonary disease
