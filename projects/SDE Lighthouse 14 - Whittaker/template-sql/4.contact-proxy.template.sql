@@ -12,7 +12,7 @@ set(StudyEndDate)   = to_date('2024-06-30');
 
 {{create-output-table::"4_ContactProxy"}}
 SELECT
-    "GmPseudo" -- NEEDS PSEUDONYMISING
+    "GmPseudo" 
     , "EventDate" as "GPProxyEncounterDate"
 FROM PRESENTATION.GP_RECORD."Contacts_Proxy_Detail_SecondaryUses"
 WHERE "GmPseudo" IN (select "GmPseudo" from {{cohort-table}})

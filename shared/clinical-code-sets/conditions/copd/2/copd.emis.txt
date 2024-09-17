@@ -1,0 +1,26 @@
+EMISNQAC878	Acute non-infective exacerbation of chronic obstructive pulmonary disease
+ESCTAC8	Acute infective exacerbation of chronic obstructive airways disease
+^ESCT1248980	Admit COPD emergency
+^ESCT1407139	COPD (chronic obstructive pulmonary disease) with acute lower respiratory infection
+^ESCTAC478142	Acute exacerbation of COPD
+^ESCTAC478143	Acute exacerbation of chronic obstructive pulmonary disease
+^ESCTAC797017	Acute exacerbation of chronic obstructive airways disease with asthma
+^ESCTAC828717	Acute non-infective exacerbation of COPD (chronic obstructive pulmonary disease)
+^ESCTAC931734	ACOS - asthma-chronic obstructive pulmonary disease overlap syndrome
+^ESCTAS931733	Asthma-COPD overlap syndrome (ACOS)
+^ESCTCA271627	CAFL - Chronic airflow limitation
+^ESCTCA271629	CAO - Chronic airflow obstruction
+^ESCTCA271631	CAL - Chronic airflow limitation
+^ESCTCH271623	Chronic obstructive lung disease
+^ESCTCH271624	Chronic airway obstruction
+^ESCTCH271625	Chronic irreversible airway obstruction
+^ESCTCH271626	Chronic airflow obstruction
+^ESCTCH271630	Chronic airflow limitation
+^ESCTCH271634	Chronic airway disease
+^ESCTCH803322	Chronic obstructive lung disease co-occurrent with acute bronchitis
+^ESCTCO271632	COPD - Chronic obstructive pulmonary disease
+^ESCTCO271635	COLD - Chronic obstructive lung disease
+^ESCTCO812098	COPD (Chronic obstructive pulmonary disease) patient unsuitable for pulmonary rehabilitation
+^ESCTEM676323	Emergency hospital admission for chronic obstructive pulmonary disease
+^ESCTEM676325	Emergency hospital admission for COPD (chronic obstructive pulmonary disease)
+^ESCTEN451080	End stage chronic obstructive pulmonary disease

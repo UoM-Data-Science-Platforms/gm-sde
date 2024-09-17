@@ -1,0 +1,27 @@
+6003001	Giant bullous emphysema (disorder)
+195957006	Chronic bullous emphysema (disorder)
+195958001	Segmental bullous emphysema (disorder)
+195959009	Zonal bullous emphysema (disorder)
+195963002	Acute vesicular emphysema (disorder)
+196026004	Chronic emphysema due to chemical fumes (disorder)
+233674008	Pulmonary emphysema in alpha-1 PI deficiency (disorder)
+233675009	Toxic emphysema (disorder)
+233677001	Scar emphysema (disorder)
+266355005	Bullous emphysema with collapse (disorder)
+266356006	Atrophic (senile) emphysema (disorder)
+45145000	Unilateral emphysema (disorder)
+47895001	Congenital emphysema (disorder)
+4981000	Panacinar emphysema (disorder)
+66987001	Congenital lobar emphysema (disorder)
+68328006	Centriacinar emphysema (disorder)
+87433001	Pulmonary emphysema (disorder)
+16846004	Obstructive emphysema
+31898008	Paraseptal emphysema
+60805002	Hemolytic anemia with emphysema AND cutis laxa
+66110007	Chronic diffuse emphysema caused by inhalation of chemical fumes AND/OR vapors
+70756004	Bronchial atresia with segmental pulmonary emphysema
+836477007	Chronic emphysema caused by vapor
+840493007	Congenital lobar emphysema of bilateral lungs
+708030004	Pulmonary emphysema co-occurrent with fibrosis of lung
+1010333003	Emphysema of left lung (disorder)	
+1010334009	Emphysema of right lung (disorder)

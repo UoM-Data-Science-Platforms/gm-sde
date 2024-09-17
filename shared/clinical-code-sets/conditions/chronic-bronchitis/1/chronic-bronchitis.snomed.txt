@@ -1,0 +1,23 @@
+185086009	Chronic obstructive bronchitis (disorder)
+195949008	Chronic asthmatic bronchitis (disorder)
+195953005	Mixed simple and mucopurulent chronic bronchitis (disorder)
+266395007	Chronic: [bronchitis NOS] or [tracheobronchitis]
+425748003	Acute exacerbation of chronic bronchitis (disorder)
+52571006	Chronic tracheobronchitis (disorder)
+61937009	Simple chronic bronchitis (disorder)
+63480004	Chronic bronchitis (disorder)
+74417001	Mucopurulent chronic bronchitis (disorder)
+84409004	Fetid chronic bronchitis (disorder)
+866901000000103	Eosinophilic bronchitis (disorder)
+89549007	Catarrhal bronchitis (disorder)
+40100001	Obliterative bronchiolitis (disorder)
+106001000119101	Chronic obstructive lung disease co-occurrent with acute bronchitis
+293241000119100	Acute exacerbation of chronic obstructive bronchitis
+49691004	Occupational bronchitis
+360470001	Chronic mucus hypersecretion
+785736001	Chronic bronchitis co-occurrent with wheeze
+233723008	Bronchiolitis obliterans with usual interstitial pneumonitis (disorder)
+196027008	Toxic bronchiolitis obliterans (disorder)
+233673002	Drug-induced bronchiolitis obliterans (disorder)
+32544004	Chronic obliterative bronchiolitis caused by inhalation of chemical fumes AND/OR vapors (disorder)
+266394006	(Simple chronic bronchitis) or (smoker's cough) or (senile tracheobronchitis)

@@ -23,14 +23,14 @@ WHERE "ProviderDesc" IN    -- limit to trusts that have virtual ward data
      'Stockport NHS Foundation Trust',
      'Bolton NHS Foundation Trust',
      'Tameside And Glossop Integrated Care NHS Foundation Trust')
-where TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
-and "HospitalSpellDuration" != '*'; -- < 10 records have missing discharge date and spell duration, so exclude
+	AND TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
+	AND "HospitalSpellDuration" != '*'; -- < 10 records have missing discharge date and spell duration, so exclude
   -- FILTER OUT ELECTIVE ??   
   
 -- MONTHLY ADMISSION COUNTS AND AVG LENGTH OF STAY BY TRUST
 
     -- GROUP BY TRUST ONLY
-{{create-output-table::"6a_TrustLevelAdmissions"}}
+{{create-output-table-no-gmpseudo-ids::"6a_TrustLevelAdmissions"}}
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -41,8 +41,8 @@ from ManchesterTrusts
 group by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
-    -- READMISSIONS ONLY
-{{create-output-table::"6b_TrustLevelReadmissions"}}
+   -- READMISSIONS ONLY
+{{create-output-table-no-gmpseudo-ids::"6b_TrustLevelReadmissions"}}
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -50,13 +50,13 @@ select
     , count(*) as Readmissions  
     , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
 FROM ManchesterTrusts
-and "IsReadmission" = 'TRUE'
+WHERE "IsReadmission" = 'TRUE'
 group by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
     -- GROUP BY TRUST AND ICD CATEGORY 
 
-{{create-output-table::"6c_TrustLevelAdmissions_icd"}}
+{{create-output-table-no-gmpseudo-ids::"6c_TrustLevelAdmissions_icd"}}
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -80,7 +80,7 @@ order by
     , "DerPrimaryDiagnosisChapterDescReportingEpisode";
 
     -- GROUP BY TRUST AND AGE BAND
-{{create-output-table::"6d_TrustLevelAdmissions_age"}}
+{{create-output-table-no-gmpseudo-ids::"6d_TrustLevelAdmissions_age"}}
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -95,7 +95,7 @@ select
     , count(*) as Admissions  
     , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
 from ManchesterTrusts
-and "AgeAtStartOfSpellSus" between 0 and 120 -- REMOVE UNREALISTIC VALUES
+WHERE "AgeAtStartOfSpellSus" between 0 and 120 -- REMOVE UNREALISTIC VALUES
 group by 
       YEAR("AdmissionDttm")
     , MONTH("AdmissionDttm")
@@ -136,11 +136,11 @@ WHERE "ProviderDesc" IN
      'Stockport NHS Foundation Trust',
      'Bolton NHS Foundation Trust',
      'Tameside And Glossop Integrated Care NHS Foundation Trust')
-AND  TO_DATE("ArrivalDate") between $StudyStartDate and $StudyEndDate
+AND  TO_DATE("ArrivalDate") between $StudyStartDate and $StudyEndDate;
 
     
 -- total
-{{create-output-table::"6e_TrustLevelAEAdmissions"}}
+{{create-output-table-no-gmpseudo-ids::"6e_TrustLevelAEAdmissions"}}
 SELECT
 	  YEAR("ArrivalDate") AS "Year"
     , MONTH("ArrivalDate") AS "Month"
@@ -155,10 +155,10 @@ GROUP BY
 ORDER BY 
 	  YEAR("ArrivalDate")
     , MONTH("ArrivalDate")
-	, "ProviderDesc"
+	, "ProviderDesc";
 
 -- by Age band
-{{create-output-table::"6f_TrustLevelAEAdmissions_age"}}
+{{create-output-table-no-gmpseudo-ids::"6f_TrustLevelAEAdmissions_age"}}
 SELECT
 	  YEAR("ArrivalDate") AS "Year"
     , MONTH("ArrivalDate") AS "Month"
@@ -192,4 +192,4 @@ ORDER BY YEAR("ArrivalDate")
          when "AgeAtArrival" between 51 and 70  then '4. 51-70'
          when "AgeAtArrival" between 71 and 90  then '5. 71-90'
          when "AgeAtArrival" > 90  then '6. >90'
-            else NULL end
+            else NULL end;

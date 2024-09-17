@@ -1,0 +1,22 @@
+H31..00	Chronic bronchitis
+H310.00	Simple chronic bronchitis
+H310000	Chronic catarrhal bronchitis
+H310z00	Simple chronic bronchitis NOS
+H311.00	Mucopurulent chronic bronchitis
+H311000	Purulent chronic bronchitis
+H311100	Fetid chronic bronchitis
+H311z00	Mucopurulent chronic bronchitis NOS
+H312.00	Obstructive chronic bronchitis
+H312000	Chronic asthmatic bronchitis
+H312011	Chronic wheezy bronchitis
+H312100	Emphysematous bronchitis
+H312300	Bronchiolitis obliterans
+H312z00	Obstructive chronic bronchitis NOS
+H313.00	Mixed simple and mucopurulent chronic bronchitis
+H31y.00	Other chronic bronchitis
+H31y100	Chronic tracheobronchitis
+H31yz00	Other chronic bronchitis NOS
+H31z.00	Chronic bronchitis NOS
+H464100	Obliterative bronchiolitis due to chemical fumes
+H583200	Eosinophilic bronchitis
+H061400	Obliterating fibrous bronchiolitis

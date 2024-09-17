@@ -1,0 +1,19 @@
+H312100	Emphysematous bronchitis
+H32..00	Emphysema
+H320.00	Chronic bullous emphysema
+H320000	Segmental bullous emphysema
+H320100	Zonal bullous emphysema
+H320200	Giant bullous emphysema
+H320300	Bullous emphysema with collapse
+H320z00	Chronic bullous emphysema NOS
+H321.00	Panlobular emphysema
+H322.00	Centrilobular emphysema
+H32y.00	Other emphysema
+H32y000	Acute vesicular emphysema
+H32y100	Atrophic (senile) emphysema
+H32y200	MacLeod's unilateral emphysema
+H32yz00	Other emphysema NOS
+H32z.00	Emphysema NOS
+H464000	Chronic emphysema due to chemical fumes
+Hyu3000	[X]Other emphysema
+H581.00	Interstitial emphysema
