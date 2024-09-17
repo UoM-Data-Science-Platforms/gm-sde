@@ -57,7 +57,8 @@ WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept IN (
 -- gp admissions
 select "GmPseudo", 'GP encounter' AS "OutcomeName", "EventDate" AS "OutcomeDate"
 from INTERMEDIATE.GP_RECORD."Contacts_Proxy"
-WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}})
+WHERE "Contact" = 1
+AND "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}})
 AND "EventDate" >= '2006-01-01'
 UNION
 -- hospital admissions

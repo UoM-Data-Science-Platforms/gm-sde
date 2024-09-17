@@ -69,7 +69,8 @@ CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-4_Outcomes_WITH_PSEUDO_IDS" 
 -- gp admissions
 select "GmPseudo", 'GP encounter' AS "OutcomeName", "EventDate" AS "OutcomeDate"
 from INTERMEDIATE.GP_RECORD."Contacts_Proxy"
-WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis")
+WHERE "Contact" = 1
+AND "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis")
 AND "EventDate" >= '2006-01-01'
 UNION
 -- hospital admissions
