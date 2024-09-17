@@ -12,6 +12,12 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --		- Ethnicity
 --		- YearAndMonthOfDeath
 
+-- NB1 PI did not request date of dementia diagnosis, but it seems likely
+-- that they will need it, so including as well.
+
+-- NB2 Date of death was requested in a separate file, but including it here
+-- for brevity, and because it has a 1-2-1 relationship with patient.
+
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis" (
 	"GmPseudo" NUMBER(38,0),
@@ -36,11 +42,12 @@ CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-1_Patients_WITH_PSEUDO_IDS" 
 SELECT 
 	cohort."GmPseudo",
 	"Sex",
-	YEAR("DateOfBirth") AS YearOfBirth,
-	"EthnicityLatest" AS Ethnicity,
-	"EthnicityLatest_Category" AS EthnicityCategory,
-	"IMD_Decile" AS IMD2019Decile1IsMostDeprived10IsLeastDeprived,
-	"RegisteredDateOfDeath"
+	YEAR("DateOfBirth") AS "YearOfBirth",
+	"EthnicityLatest" AS "Ethnicity",
+	"EthnicityLatest_Category" AS "EthnicityCategory",
+	"IMD_Decile" AS "IMD2019Decile1IsMostDeprived10IsLeastDeprived",
+	"FirstDementiaDate",
+	CAST("RegisteredDateOfDeath" AS DATE) AS "RegisteredDateOfDeath"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis" cohort
 LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" demo
 	ON demo."GmPseudo" = cohort."GmPseudo"

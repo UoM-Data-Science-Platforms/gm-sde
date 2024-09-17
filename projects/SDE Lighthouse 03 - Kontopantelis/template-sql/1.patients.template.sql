@@ -10,6 +10,12 @@
 --		- Ethnicity
 --		- YearAndMonthOfDeath
 
+-- NB1 PI did not request date of dementia diagnosis, but it seems likely
+-- that they will need it, so including as well.
+
+-- NB2 Date of death was requested in a separate file, but including it here
+-- for brevity, and because it has a 1-2-1 relationship with patient.
+
 DROP TABLE IF EXISTS {{cohort-table}};
 CREATE TABLE {{cohort-table}} (
 	"GmPseudo" NUMBER(38,0),
@@ -26,11 +32,12 @@ GROUP BY "GmPseudo", "FK_Patient_ID";
 SELECT 
 	cohort."GmPseudo",
 	"Sex",
-	YEAR("DateOfBirth") AS YearOfBirth,
-	"EthnicityLatest" AS Ethnicity,
-	"EthnicityLatest_Category" AS EthnicityCategory,
-	"IMD_Decile" AS IMD2019Decile1IsMostDeprived10IsLeastDeprived,
-	"RegisteredDateOfDeath"
+	YEAR("DateOfBirth") AS "YearOfBirth",
+	"EthnicityLatest" AS "Ethnicity",
+	"EthnicityLatest_Category" AS "EthnicityCategory",
+	"IMD_Decile" AS "IMD2019Decile1IsMostDeprived10IsLeastDeprived",
+	"FirstDementiaDate",
+	CAST("RegisteredDateOfDeath" AS DATE) AS "RegisteredDateOfDeath"
 FROM {{cohort-table}} cohort
 LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" demo
 	ON demo."GmPseudo" = cohort."GmPseudo"
