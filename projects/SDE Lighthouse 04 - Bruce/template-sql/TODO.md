@@ -28,3 +28,8 @@ group by SUBSTRING("Der_Pseudo_NHS_Number", 2)::INT;
 - For medication files 2-4, the PI confirmed that a single file with columns PatientId, Date, MedicationCategory, Medication, Dose would be fine.
 - Comorbidities initially requested in long format (patientid, date, condition), but PI confirmed that wide format (which is what is already in Snowflake and so easier for us) would be fine.
 - They also confirmed that hepatitis A, B, C and D should be given separately i.e. 4 columns instead of 1.
+- Hospital infections. The PI requested "hospital admission for infection". It should be noted that:
+  - The HES data contains a primary diagnosis code - BUT it is unclear exactly how this is coded. E.g. if a person is admitted with a myocardial infarction caused by an infection, then the primary diagnosis will be the MI, but presumably they study team would want this patient.
+  - So probably best to use the secondary diagnosis codes as well.
+  - This has the possibility that hospital acquired infections are counted - but there are specific ICD10 codes for hospital-acquired infections and so we don't think that our code sets will capture those patients.
+  - Therefore we look at all diagnoses in hospital and provide details for any that contain any infection related code

@@ -51,10 +51,9 @@ SELECT
 	b.concept AS "Infection",
 	b.description AS "InfectionDescription",
 	"Admission_Date"
-FROM INTERMEDIATE.national_flows_apc."tbl_Data_SUS_APCE" a
-LEFT OUTER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_04_Bruce" b ON b.code = a."Der_Primary_Diagnosis_Code"
-where "APCS_First_Ep_Ind"='1'
-and b.terminology='icd10'
+FROM INTERMEDIATE.national_flows_apc."tbl_Data_SUS_APCS" a
+LEFT OUTER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_04_Bruce" b ON CHARINDEX(UPPER(b.code), UPPER(a."Der_Diagnosis_All")) > 0
+where b.terminology='icd10'
 and b.concept != 'infections'
 AND SUBSTRING("Der_Pseudo_NHS_Number", 2)::INT IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce");
 
