@@ -26,7 +26,7 @@ QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1
 
 -- load codesets for conditions not in above LTC table
 
---> CODESET myocardial-infarction:1 angina:1 tuberculosis:1 venous-thromboembolism:1 pneumonia:1 copd:1
+--> CODESET myocardial-infarction:1 angina:1 tuberculosis:1 venous-thromboembolism:1 pneumonia:1 copd:1 efi-mobility-problems:1 efi-vision-problems:1
 
 --  create table of conditions not included in LTC table
 
@@ -42,7 +42,7 @@ SELECT DISTINCT
 FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
 LEFT JOIN {{code-set-table}} cs ON cs.code = e."SuppliedCode"
 LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" dem ON dem."FK_Patient_ID" = co."FK_Patient_ID" -- join to demographics table to get GmPseudo
-WHERE cs.concept IN ('myocardial-infarction', 'angina', 'tuberculosis', 'venous-thromboembolism', 'pneumonia', 'copd')
+WHERE cs.concept IN ('myocardial-infarction', 'angina', 'tuberculosis', 'venous-thromboembolism', 'pneumonia', 'copd', 'efi-mobility-problems', 'efi-vision-problems')
 	AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}});
 
 -- for each patient, find each comorbidity and the date of first diagnosis
@@ -64,7 +64,9 @@ SELECT "GmPseudo",
 	CASE WHEN concept = 'tuberculosis' THEN "FirstDiagnosisDate" ELSE 0 END AS "Tuberculosis_DiagnosisDate",
 	CASE WHEN concept = 'venous-thromboembolism' THEN "FirstDiagnosisDate" ELSE 0 END AS "VenousThromboembolism_DiagnosisDate",
 	CASE WHEN concept = 'pneumonia' THEN "FirstDiagnosisDate" ELSE 0 END AS "Pneumonia_DiagnosisDate",
-	CASE WHEN concept = 'copd' THEN "FirstDiagnosisDate" ELSE 0 END AS "COPD_DiagnosisDate"
+	CASE WHEN concept = 'copd' THEN "FirstDiagnosisDate" ELSE 0 END AS "COPD_DiagnosisDate",
+	CASE WHEN concept = 'efi-mobility-problems' THEN "MobilityProblems" ELSE 0 END AS "MobilityProblems_DiagnosisDate",
+	CASE WHEN concept = 'efi-vision-problems' THEN "VisionProblems" ELSE 0 END AS "VisionProblems_DiagnosisDate"
 FROM OtherDiagsSummary
 GROUP BY "GmPseudo";
 
@@ -79,7 +81,9 @@ SELECT
 	ot."Tuberculosis_DiagnosisDate",
 	ot."VenousThromboembolism_DiagnosisDate",
 	ot."Pneumonia_DiagnosisDate",
-	ot."COPD_DiagnosisDate" AS "COPD_DiagnosisDateGMCRCodeSet"
+	ot."COPD_DiagnosisDate" AS "COPD_DiagnosisDateGMCRCodeSet",
+	ot."MobilityProblems_DiagnosisDate",
+	ot."VisionProblems_DiagnosisDate"
 FROM StandardLTCs ltc
 LEFT JOIN OtherDiagsSummaryWide	 ot ON ot."GmPseudo" = ltc."GmPseudo";
 
