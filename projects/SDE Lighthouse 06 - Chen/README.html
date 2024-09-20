@@ -153,6 +153,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>cancer v1</li>
 <li>selfharm-episodes v1</li>
 <li>fracture v1</li>
+<li>diabetic-neuropathy v1</li>
 <li>neck-problems v1</li>
 <li>neuropathic-pain v1</li>
 <li>chest-pain v1</li>
@@ -409,6 +410,52 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/fracture/1">https://github.com/rw251/.../conditions/fracture/1</a></p>
+<h3>Diabetic neuropathy</h3>
+<p>Any code indicating a diagnosis of diabetic neuropathy, or any kind of neuropathy caused by diabetes.</p>
+<p>Code set was built from searching the SDE clusters table for terms that include both '%diabet%' and '%neuropath%'.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.58% - 1.53%</code> suggests that this code set is potentially missing some codes.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-09-09</td>
+<td>EMIS</td>
+<td>2539735</td>
+<td style="text-align:right">23652 (0.931%)</td>
+<td style="text-align:right">23652 (0.931%)</td>
+</tr>
+<tr>
+<td>2024-09-09</td>
+<td>TPP</td>
+<td>202189</td>
+<td style="text-align:right">3093 (1.53%)</td>
+<td style="text-align:right">3093 (1.53%)</td>
+</tr>
+<tr>
+<td>2024-09-09</td>
+<td>Vision</td>
+<td>336595</td>
+<td style="text-align:right">1934 (0.575%)</td>
+<td style="text-align:right">1934 (0.575%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetic-neuropathy/1">https://github.com/rw251/.../conditions/diabetic-neuropathy/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
 <h3>Neck problems</h3>
 <p>Any code indicating neck problems. SNOMED codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/174/codelist/res174-neck-diagnoses/</p>
 <h4>Prevalence log</h4>
