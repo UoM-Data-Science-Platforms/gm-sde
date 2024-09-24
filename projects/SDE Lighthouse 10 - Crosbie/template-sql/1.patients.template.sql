@@ -85,6 +85,7 @@ WHERE ("Cancer_QOF" is not null or "Cancer_DiagnosisDate" is not null or "Cancer
 
 {{create-output-table::"1_Patients"}}
 SELECT
+	 dem."Snapshot",
 	 dem."GmPseudo", 
 	 dem."Sex",
 	 dem."DateOfBirth" AS "MonthOfBirth", 
