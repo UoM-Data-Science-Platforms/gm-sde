@@ -7,7 +7,7 @@
 set(StudyStartDate) = to_date('2023-06-01');
 set(StudyEndDate)   = to_date('2024-06-30');
 
---> EXECUTE query-get-possible-patientsSDE.sql
+--> EXECUTE query-get-possible-patientsSDE.sql minimum-age:18
 
 -- table of pharmacogenetic test patients
 
@@ -47,7 +47,6 @@ SELECT
 		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%pantoprazole%') THEN 'pantoprazole'
 		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%rabeprazole%')  THEN 'rabeprazole'
 		   ELSE 'other' END AS "Concept"
-
     , ec."MedicationDescription" AS "Description"
 FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
 INNER JOIN {{cohort-table}} c ON c."FK_Patient_ID" = ec."FK_Patient_ID"

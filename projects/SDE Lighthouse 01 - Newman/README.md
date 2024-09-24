@@ -71,9 +71,9 @@ A temp table as follows:
   - MatchingPatientId - id of the matched patient
   - MatchingYearOfBirth - year of birth of the matched patient
 ```
-_File_: `query-cohort-matching-yob-sex-ethnicitySDE.sql`
+_File_: `query-cohort-matching-yob-sex-ethnicity.sql`
 
-_Link_: [https://github.com/rw251/.../query-cohort-matching-yob-sex-ethnicitySDE.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-ethnicitySDE.sql)
+_Link_: [https://github.com/rw251/.../query-cohort-matching-yob-sex-ethnicity.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-ethnicity.sql)
 
 ---
 ### Create table of patients who were alive at the study start date

@@ -18,6 +18,9 @@ set(StudyEndDate)   = to_date('2024-06-30');
 
 -- this script requires an input of StudyStartDate
 
+-- takes one parameter: 
+-- minimum-age : integer - The minimum age of the group of patients. Typically this would be 0 (all patients) or 18 (all adults)
+
 --ALL DEATHS 
 
 DROP TABLE IF EXISTS Death;
@@ -37,15 +40,15 @@ LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions
 
 -- GET LATEST SNAPSHOT OF DEMOGRAPHICS TABLE
 
-DROP TABLE IF EXISTS LatestSnapshotAdults;
-CREATE TEMPORARY TABLE LatestSnapshotAdults AS
+DROP TABLE IF EXISTS LatestSnapshot;
+CREATE TEMPORARY TABLE LatestSnapshot AS
 SELECT 
     p.*
 FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p 
 INNER JOIN (
     SELECT "GmPseudo", MAX("Snapshot") AS LatestSnapshot
     FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p 
-    WHERE DATEDIFF(YEAR, TO_DATE("DateOfBirth"), $StudyStartDate) >= 18 -- adults only
+	WHERE DATEDIFF(YEAR, TO_DATE("DateOfBirth"), $StudyStartDate) >= 18 -- adults only
     GROUP BY "GmPseudo"
     ) t2
 ON t2."GmPseudo" = p."GmPseudo" AND t2.LatestSnapshot = p."Snapshot";
@@ -57,7 +60,7 @@ CREATE TEMPORARY TABLE AlivePatientsAtStart AS
 SELECT  
     dem.*, 
     Death.DeathDate
-FROM LatestSnapshotAdults dem
+FROM LatestSnapshot dem
 LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
 WHERE 
     (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
@@ -101,7 +104,6 @@ SELECT
 		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%pantoprazole%') THEN 'pantoprazole'
 		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%rabeprazole%')  THEN 'rabeprazole'
 		   ELSE 'other' END AS "Concept"
-
     , ec."MedicationDescription" AS "Description"
 FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
 INNER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_01_Newman" c ON c."FK_Patient_ID" = ec."FK_Patient_ID"
