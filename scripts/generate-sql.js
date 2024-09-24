@@ -273,9 +273,9 @@ FROM "AllPseudos_${projectNameChunked.join('_')}";
 -- created in the 0.code-sets.sql file
 DROP TABLE IF EXISTS ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName};
 CREATE TABLE ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName} AS
-SELECT ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}.gm_pseudo_hash_${projectNameChunked.join(
-      '_'
-    )}("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
+SELECT ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}.gm_pseudo_hash_${projectNameChunked.join('_')}("GmPseudo") AS "PatientID",
+	${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}.gm_pseudo_hash_${projectNameChunked.join('_')}("MainCohortMatchedGmPseudo") AS "MainCohortMatchedPatientID",
+	* EXCLUDE ("GmPseudo", "MainCohortMatchedGmPseudo")
 FROM ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_PSEUDO_IDS";`;
 
     sql =
