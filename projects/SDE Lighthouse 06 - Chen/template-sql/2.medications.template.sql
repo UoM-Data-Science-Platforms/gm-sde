@@ -43,7 +43,7 @@ HAVING count(*) >= 50;
 -- table with redacted dosage info
 
 DROP TABLE IF EXISTS prescriptions1;
-CREATE TABLE prescriptions1 AS
+CREATE TEMPORARY TABLE prescriptions1 AS
 SELECT 
     p."GmPseudo",
     p."MedicationDate",
