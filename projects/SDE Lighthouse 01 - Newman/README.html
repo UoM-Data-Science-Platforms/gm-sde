@@ -124,21 +124,10 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Reusable queries</h2>
 <p>This project required the following reusable queries:</p>
 <ul>
-<li>Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls</li>
 <li>Cohort matching on year of birth / sex</li>
+<li>Create table of patients who were alive at the study start date</li>
 </ul>
 <p>Further details for each query can be found below.</p>
-<h3>Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls</h3>
-<p>To build the cohort of patients needed for LH001. This reduces duplication of code in the template scripts.</p>
-<p><em>Input</em></p>
-<pre><code>undefined
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>undefined
-</code></pre>
-<p><em>File</em>: <code>query-build-lh001-cohort.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-lh001-cohort.sql">https://github.com/rw251/.../query-build-lh001-cohort.sql</a></p>
-<hr>
 <h3>Cohort matching on year of birth / sex</h3>
 <p>To take a primary cohort and find a 1:n matched cohort based on year of birth and sex.</p>
 <p><em>Input</em></p>
@@ -164,8 +153,19 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
   - MatchingPatientId - id of the matched patient
   - MatchingYearOfBirth - year of birth of the matched patient
 </code></pre>
-<p><em>File</em>: <code>query-cohort-matching-yob-sex-alt-SDE.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-alt-SDE.sql">https://github.com/rw251/.../query-cohort-matching-yob-sex-alt-SDE.sql</a></p>
+<p><em>File</em>: <code>query-cohort-matching-yob-sex-ethnicitySDE.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-ethnicitySDE.sql">https://github.com/rw251/.../query-cohort-matching-yob-sex-ethnicitySDE.sql</a></p>
+<hr>
+<h3>Create table of patients who were alive at the study start date</h3>
+<p>undefined</p>
+<p><em>Input</em></p>
+<pre><code>undefined
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>undefined
+</code></pre>
+<p><em>File</em>: <code>query-get-possible-patientsSDE.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patientsSDE.sql">https://github.com/rw251/.../query-get-possible-patientsSDE.sql</a></p>
 <h2>Clinical code sets</h2>
 <p>This project required the following clinical code sets:</p>
 <ul>

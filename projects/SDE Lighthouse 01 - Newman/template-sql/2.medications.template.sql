@@ -96,10 +96,9 @@ HAVING count(*) >= 50;
 
 -- final table with redacted dosage info
 
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."lh001_2_Medications";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."lh001_2_Medications" AS
+{{create-output-table::"2_Medications"}}
 SELECT 
-    p."GmPseudo", -- NEEDS PSEUDONYMISING
+    p."GmPseudo", 
 	p."MedicationDate",
 	p."Quantity",
 	p."SnomedCode",
