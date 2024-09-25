@@ -65,6 +65,5 @@ FROM "AllPseudos_SDE_Lighthouse_01_Newman";
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."4_Comorbidities";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."4_Comorbidities" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_01_Newman("GmPseudo") AS "PatientID",
-	SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_01_Newman("MainCohortMatchedGmPseudo") AS "MainCohortMatchedPatientID",
-	* EXCLUDE ("GmPseudo", "MainCohortMatchedGmPseudo")
+	* EXCLUDE "GmPseudo"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."4_Comorbidities_WITH_PSEUDO_IDS"; -- this brings back the values from the most recent snapshot

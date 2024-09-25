@@ -150,6 +150,5 @@ FROM "AllPseudos_SDE_Lighthouse_01_Newman";
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."2_Medications";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."2_Medications" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_01_Newman("GmPseudo") AS "PatientID",
-	SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_01_Newman("MainCohortMatchedGmPseudo") AS "MainCohortMatchedPatientID",
-	* EXCLUDE ("GmPseudo", "MainCohortMatchedGmPseudo")
+	* EXCLUDE "GmPseudo"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."2_Medications_WITH_PSEUDO_IDS";
