@@ -199,13 +199,13 @@ function processNextOutputTable(sql, templateName, config, projectNameChunked) {
   //{{create-output-table-no-gmpseudo-ids::"1_Patients"}
   const outputTableRegex = /\{\{create-output-table::([^}:]*)\}\}/;
   const outputTableNoIdsRegex = /\{\{create-output-table-no-gmpseudo-ids::([^}:]*)\}\}/;
-  const outputTableMultipleIdsRegex = /\{\{create-output-table-multiple-ids::([^}:]*)\}\}/;
+  const outputTableMatchedCohortRegex = /\{\{create-output-table-matched-cohort::([^}:]*)\}\}/;
 
   let isMatch = false;
 
   const outputTableMatch = outputTableRegex.exec(sql);
   const outputTableNoIdsMatch = outputTableNoIdsRegex.exec(sql);
-  const outputTableMultipleIdsMatch = outputTableMultipleIdsRegex.exec(sql);
+  const outputTableMatchedCohortMatch = outputTableMatchedCohortRegex.exec(sql);
   if (outputTableMatch) {
     isMatch = true;
     let needSemiColon = false;
@@ -284,25 +284,25 @@ FROM ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WIT
       replacedSql +
       finalSql +
       sql.substring(indexOfFinalSemiColon + 1);
-  } else if (outputTableMultipleIdsMatch) {
+  } else if (outputTableMatchedCohortMatch) {
     isMatch = true;
     let needSemiColon = false;
 
-    const indexOfOutputTable = sql.indexOf('{{create-output-table-multiple-ids');
+    const indexOfOutputTable = sql.indexOf('{{create-output-table-matched-cohort');
     let indexOfFinalSemiColon = sql.indexOf(';', indexOfOutputTable);
     if (indexOfFinalSemiColon < 0) {
       needSemiColon = true;
       indexOfFinalSemiColon = sql.length - 1;
     }
 
-    const [, tableName] = outputTableMultipleIdsMatch;
+    const [, tableName] = outputTableMatchedCohortMatch;
     const tableNameNoQuotes = tableName.match(/^"?([^"]+)"?$/)[1];
 
     const replacedSql =
       sql.substring(indexOfOutputTable, indexOfFinalSemiColon + 1).replace(
-        outputTableMultipleIdsRegex,
+        outputTableMatchedCohortRegex,
         `
--- ... processing ${outputTableMultipleIdsMatch[0].replace(/\{/g, '[').replace(/\}/g, ']')} ... 
+-- ... processing ${outputTableMatchedCohortMatch[0].replace(/\{/g, '[').replace(/\}/g, ']')} ... 
 -- ... Need to create an output table called ${tableName} and replace 
 -- ... the GmPseudo column with a study-specific random patient id.
 
@@ -319,11 +319,16 @@ CREATE TABLE ${
     const finalSql = `
 
 -- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
--- of all "new" GmPseudo ids. I.e. any GmPseudo ids that we've already got a unique id for
--- for this study are excluded
+-- of all "new" GmPseudo ids from either the main column or the matched column. I.e. any GmPseudo ids that 
+-- we've already got a unique id for for this study are excluded
+
 DROP TABLE IF EXISTS "AllPseudos_${projectNameChunked.join('_')}";
 CREATE TEMPORARY TABLE "AllPseudos_${projectNameChunked.join('_')}" AS
 SELECT DISTINCT "GmPseudo" FROM ${
+      config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
+    }."${tableNameNoQuotes}_WITH_PSEUDO_IDS"
+UNION 
+SELECT DISTINCT "MainCohortMatchedGmPseudo" FROM ${
       config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
     }."${tableNameNoQuotes}_WITH_PSEUDO_IDS"
 EXCEPT
