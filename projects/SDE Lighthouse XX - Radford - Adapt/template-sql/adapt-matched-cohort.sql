@@ -131,5 +131,9 @@ insert into "LymphomaStats"
 select 11,'Patients with lymphoma in HES APC data BUT NOT the GP record', count(*) 
 from (select * from "PatsFromSUSWithGPRecord" except select * from "PatsFromGPRecord");
 
+insert into "LymphomaStats"
+select 12,'Patients with lymphoma in HES APC data OR the GP record', count(*) 
+from (select * from "PatsFromSUSWithGPRecord" union select * from "PatsFromGPRecord");
+
 select "Category", "Number" from "LymphomaStats"
 order by "Order";
