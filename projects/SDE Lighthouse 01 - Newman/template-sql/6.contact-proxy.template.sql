@@ -7,8 +7,9 @@ set(StudyEndDate)   = to_date('2024-06-30');
 
 -- find all GP contacts for the pharmacogenetic patients and the matched cohort
 
+{{create-output-table::"6_ContactProxy"}}
 SELECT
-    "GmPseudo" -- NEEDS PSEUDONYMISING
+    "GmPseudo"
     , "EventDate" as "GPProxyEncounterDate"
 FROM PRESENTATION.GP_RECORD."Contacts_Proxy_Detail_SecondaryUses"
 WHERE "Contact" = 1 

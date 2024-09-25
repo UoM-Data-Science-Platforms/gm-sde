@@ -36,6 +36,7 @@ The group is responsible for:
 | Richard Williams   | Lead Research Data Engineer | University of Manchester |
 | Iliada Eleftheriou | Research Data Engineer      | University of Manchester |
 | George Tilston     | Research Data Engineer      | University of Manchester |
+| Le Mai Parkes      | Research Data Engineer      | University of Manchester |
 
 Other members may be added to the group, but this will only be done with the approval of the RGG.
 

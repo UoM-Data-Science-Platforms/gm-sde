@@ -37,28 +37,11 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
-- Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls
 - Cohort matching on year of birth / sex
+- Create table of patients who were alive at the study start date
 
 Further details for each query can be found below.
 
-### Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls
-To build the cohort of patients needed for LH001. This reduces duplication of code in the template scripts.
-
-_Input_
-```
-undefined
-```
-
-_Output_
-```
-undefined
-```
-_File_: `query-build-lh001-cohort.sql`
-
-_Link_: [https://github.com/rw251/.../query-build-lh001-cohort.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-lh001-cohort.sql)
-
----
 ### Cohort matching on year of birth / sex
 To take a primary cohort and find a 1:n matched cohort based on year of birth and sex.
 
@@ -88,9 +71,26 @@ A temp table as follows:
   - MatchingPatientId - id of the matched patient
   - MatchingYearOfBirth - year of birth of the matched patient
 ```
-_File_: `query-cohort-matching-yob-sex-alt-SDE.sql`
+_File_: `query-cohort-matching-yob-sex-ethnicity.sql`
 
-_Link_: [https://github.com/rw251/.../query-cohort-matching-yob-sex-alt-SDE.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-alt-SDE.sql)
+_Link_: [https://github.com/rw251/.../query-cohort-matching-yob-sex-ethnicity.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-ethnicity.sql)
+
+---
+### Create table of patients who were alive at the study start date
+undefined
+
+_Input_
+```
+undefined
+```
+
+_Output_
+```
+undefined
+```
+_File_: `query-get-possible-patientsSDE.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-possible-patientsSDE.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patientsSDE.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:

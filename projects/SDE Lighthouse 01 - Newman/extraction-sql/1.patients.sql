@@ -4,16 +4,22 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --│ LH001 Patient file                 │
 --└────────────────────────────────────┘
 
---┌────────────────────────────────────────────────────────────────────────────────────────────┐
---│ Define Cohort for LH001: patients that had pharmacogenetic testing, and matched controls   │
---└────────────────────────────────────────────────────────────────────────────────────────────┘
-
--- OBJECTIVE: To build the cohort of patients needed for LH001. This reduces duplication of code in the template scripts.
-
 -- COHORT: Any patient with a pharmacogenetic test, or a matched control.
 
 set(StudyStartDate) = to_date('2023-06-01');
 set(StudyEndDate)   = to_date('2024-06-30');
+
+
+--┌─────────────────────────────────────────────────────────────────┐
+--│ Create table of patients who were alive at the study start date │
+--└─────────────────────────────────────────────────────────────────┘
+
+-- ** any patients opted out of sharing GP data would not appear in the final table
+
+-- this script requires an input of StudyStartDate
+
+-- takes one parameter: 
+-- minimum-age : integer - The minimum age of the group of patients. Typically this would be 0 (all patients) or 18 (all adults)
 
 --ALL DEATHS 
 
@@ -34,15 +40,15 @@ LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions
 
 -- GET LATEST SNAPSHOT OF DEMOGRAPHICS TABLE
 
-DROP TABLE IF EXISTS LatestSnapshotAdults;
-CREATE TEMPORARY TABLE LatestSnapshotAdults AS
+DROP TABLE IF EXISTS LatestSnapshot;
+CREATE TEMPORARY TABLE LatestSnapshot AS
 SELECT 
     p.*
 FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p 
 INNER JOIN (
     SELECT "GmPseudo", MAX("Snapshot") AS LatestSnapshot
-    FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p 
-    WHERE DATEDIFF(YEAR, TO_DATE("DateOfBirth"), $StudyStartDate) >= 18 -- adults only
+    FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p 
+	WHERE DATEDIFF(YEAR, TO_DATE("DateOfBirth"), $StudyStartDate) >= 18 -- adults only
     GROUP BY "GmPseudo"
     ) t2
 ON t2."GmPseudo" = p."GmPseudo" AND t2.LatestSnapshot = p."Snapshot";
@@ -54,7 +60,7 @@ CREATE TEMPORARY TABLE AlivePatientsAtStart AS
 SELECT  
     dem.*, 
     Death.DeathDate
-FROM LatestSnapshotAdults dem
+FROM LatestSnapshot dem
 LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
 WHERE 
     (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
@@ -64,7 +70,59 @@ WHERE
 
 ------
 
+
+--- table of new prescriptions to use for potential matches
+
+DROP TABLE IF EXISTS prescriptions;
+CREATE TEMPORARY TABLE prescriptions AS
+SELECT 
+    ec."FK_Patient_ID"
+	, c."GmPseudo"
+    , TO_DATE(ec."MedicationDate") AS "MedicationDate"
+    , ec."SCTID" AS "SnomedCode"
+	, ec."Quantity"
+    , ec."Dosage_GP_Medications" AS "Dosage" 
+    , CASE WHEN ec."Field_ID" = 'Statin' THEN "FoundValue" -- statin
+			-- SSRIs
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%citalopram%')    THEN 'citalopram'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%escitalopram%')  THEN 'escitalopram'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%fluvoxamine%')   THEN 'fluvoxamine'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%paroxetine%')    THEN 'paroxetine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%sertraline%')    THEN 'sertraline'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%venlafaxine%')   THEN 'venlafaxine'
+		   -- tricyclic antidepressants
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%amitriptyline%') THEN 'amitriptyline'
+           WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%clomipramine%')  THEN 'clomipramine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%doxepin%')       THEN 'doxepin'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%imipramine%')    THEN 'imipramine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%nortriptyline%') THEN 'nortiptyline'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%trimipramine%')  THEN 'trimipramine'
+			-- proton pump inhibitors
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%esomeprazole%') THEN 'esomeprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%lansoprazole%') THEN 'lansoprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%omeprazole%')   THEN 'omeprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%pantoprazole%') THEN 'pantoprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%rabeprazole%')  THEN 'rabeprazole'
+		   ELSE 'other' END AS "Concept"
+    , ec."MedicationDescription" AS "Description"
+FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
+INNER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_01_Newman" c ON c."FK_Patient_ID" = ec."FK_Patient_ID"
+WHERE 
+	-- Statins
+	("Field_ID" = 'Statin') OR 
+	-- SSRIs
+	("Field_ID" = 'ANTIDEPDRUG_COD' AND (LOWER("MedicationDescription") LIKE '%citalopram%' OR LOWER("MedicationDescription") LIKE '%escitalopram%' OR LOWER("MedicationDescription") LIKE '%fluvoxamine%' OR LOWER("MedicationDescription") LIKE '%paroxetine%' OR LOWER("MedicationDescription") LIKE '%sertraline%' OR LOWER("MedicationDescription") LIKE '%venlafaxine%')) OR
+	-- tricyclic antidepressants
+	("Field_ID" = 'ANTIDEPDRUG_COD' AND (LOWER("MedicationDescription") LIKE '%amitriptyline%' OR LOWER("MedicationDescription") LIKE '%clomipramine%' OR LOWER("MedicationDescription") LIKE '%doxepin%' OR LOWER("MedicationDescription") LIKE '%imipramine%' OR LOWER("MedicationDescription") LIKE '%nortriptyline%' OR LOWER("MedicationDescription") LIKE '%trimipramine%')) OR
+	-- proton pump inhibitors
+	( "Field_ID" = 'ULCERHEALDRUG_COD' AND (LOWER("MedicationDescription") LIKE '%esomeprazole%' OR LOWER("MedicationDescription") LIKE '%lansoprazole%' OR LOWER("MedicationDescription") LIKE '%omeprazole%' OR LOWER("MedicationDescription") LIKE '%pantoprazole%' OR LOWER("MedicationDescription") LIKE '%rabeprazole%' )) OR 
+
+AND TO_DATE(ec."MedicationDate") BETWEEN $StartDate and $EndDate;
+
+
+
 -- create main cohort
+-- use the latest snapshot before the start of the PROGRESS study
 
 DROP TABLE IF EXISTS MainCohort;
 CREATE TEMPORARY TABLE MainCohort AS
@@ -72,24 +130,34 @@ SELECT DISTINCT
 	 "FK_Patient_ID",
 	 "GmPseudo",
      "Sex" as Sex,
-     YEAR("DateOfBirth") AS YearOfBirth
+     YEAR("DateOfBirth") AS YearOfBirth,
+	 "EthnicityLatest_Category" AS EthnicCategory,
+	 --IndexDate : DATE OF STUDY START : IPTIP OR PROGRESS -- SET AS PROGRESS FOR NOW TO TEST
+	 '2022-07-01' AS IndexDate,
+	 "Snapshot"
 FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p
 WHERE "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
- 	--AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM PharmacogenticTable)
-GROUP BY  "FK_Patient_ID",
-	 "GmPseudo",
-     "Sex",
-     YEAR("DateOfBirth");
+ 	--AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM PharmacogeneticTable)
+    AND "Snapshot" <= '2022-07-01'
+QUALIFY row_number() OVER (PARTITION BY p."GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot
 
 -- create table of potential patients to match to the main cohort
 
 DROP TABLE IF EXISTS PotentialMatches;
 CREATE TEMPORARY TABLE PotentialMatches AS
-SELECT DISTINCT "FK_Patient_ID", 
+SELECT DISTINCT "GmPseudo", 
 		"Sex" as Sex,
-		YEAR("DateOfBirth") AS YearOfBirth
+		YEAR("DateOfBirth") AS YearOfBirth,
+		"EthnicityLatest_Category" AS EthnicCategory
 FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p
-WHERE "FK_Patient_ID" NOT IN (SELECT "FK_Patient_ID" FROM MainCohort);
+WHERE 
+"GmPseudo" NOT IN (SELECT "GmPseudo" FROM MainCohort)
+	AND "Snapshot" <= '2022-07-01'
+QUALIFY row_number() OVER (PARTITION BY p."GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot
+
+
+-- TO DO: 
+ -- LIMIT THE POTENTIAL MATCHES TO PATIENTS THAT HAD A NEW PRESCRIPTION OF SSRI,TCA,PPI OR STATIN)
 
 
 -- run matching script with parameters filled in
@@ -134,27 +202,30 @@ WHERE "FK_Patient_ID" NOT IN (SELECT "FK_Patient_ID" FROM MainCohort);
 
 DROP TABLE IF EXISTS Cases;
 CREATE TEMPORARY TABLE Cases AS
-SELECT "FK_Patient_ID" AS PatientId, 
+SELECT "GmPseudo" AS PatientId, 
 	YearOfBirth, 
 	Sex, 
-	Row_Number() OVER(PARTITION BY YearOfBirth, Sex ORDER BY "FK_Patient_ID") AS CaseRowNumber
+	EthnicCategory,
+		Row_Number() OVER(PARTITION BY YearOfBirth, Sex, EthnicCategory ORDER BY "GmPseudo") AS CaseRowNumber
 FROM MainCohort;
+
 
 -- Then we do the same with the PotentialMatches table
 DROP TABLE IF EXISTS Matches;
 CREATE TEMPORARY TABLE Matches AS
-SELECT "FK_Patient_ID" AS PatientId, 
+SELECT "GmPseudo" AS PatientId, 
 	YearOfBirth, 
 	Sex, 
-	Row_Number() OVER(PARTITION BY YearOfBirth, Sex ORDER BY "FK_Patient_ID") AS AssignedPersonNumber
+	EthnicCategory,
+	Row_Number() OVER(PARTITION BY YearOfBirth, Sex, EthnicCategory ORDER BY "GmPseudo") AS AssignedPersonNumber
 FROM PotentialMatches;
 
 -- Find the number of people with each characteristic in the main cohort
 DROP TABLE IF EXISTS CharacteristicCount;
 CREATE TEMPORARY TABLE CharacteristicCount AS
-SELECT YearOfBirth, Sex, COUNT(*) AS "Count" 
+SELECT YearOfBirth, Sex, EthnicCategory, COUNT(*) AS "Count" 
 FROM Cases 
-GROUP BY YearOfBirth, Sex;
+GROUP BY YearOfBirth, Sex, EthnicCategory;
 
 -- Find the number of potential matches for each Age/Sex combination
 -- The output of this is useful for seeing how many matches you can get
@@ -167,17 +238,18 @@ CREATE TEMPORARY TABLE CohortStore (
   PatientId BIGINT, 
   YearOfBirth INT, 
   Sex nchar(1), 
+  EthnicCategory varchar(50),
   MatchingPatientId BIGINT,
   MatchingYearOfBirth INT
 );
 
 --1. First match try to match people exactly. We do this as follows:
---    - For each YOB/Sex combination we find all potential matches. E.g. all patients
---      in the potential matches with sex='F' and yob=1957
---    - We then try to assign a single match to all cohort members with sex='F' and yob=1957
---    - If there are still matches unused, we then assign a second match to all cohort members
---    - This continues until we either run out of matches, or successfully match everyone with
---      the desired number of matches.
+--    - For each YOB/Sex/EthnicCategory combination we find all potential matches. E.g. all patients
+--    - in the potential matches with sex='F' and yob=1957 and EthnicCategory = 'White British'
+--    - We then try to assign a single match to all cohort members with sex='F' and yob=1957 and
+--    - EthnicCategory = 'White British'. If there are still matches unused, we then assign
+--    - a second match to all cohort members. This continues until we either run out of matches,
+--    - or successfully match everyone with the desired number of matches.
 
 DECLARE 
     counter INT;
@@ -188,12 +260,13 @@ BEGIN
     WHILE (counter <= 5) DO 
     
         INSERT INTO CohortStore
-          SELECT c.PatientId, c.YearOfBirth, c.Sex, p.PatientId AS MatchedPatientId, c.YearOfBirth
+          SELECT c.PatientId, c.YearOfBirth, c.Sex, c.EthnicCategory, p.PatientId AS MatchedPatientId, c.YearOfBirth
           FROM Cases c
-            INNER JOIN CharacteristicCount cc on cc.YearOfBirth = c.YearOfBirth and cc.Sex = c.Sex
+            INNER JOIN CharacteristicCount cc on cc.YearOfBirth = c.YearOfBirth and cc.Sex = c.Sex and cc.EthnicCategory = c.EthnicCategory
             INNER JOIN Matches p 
               ON p.Sex = c.Sex 
               AND p.YearOfBirth = c.YearOfBirth 
+			  AND p.EthnicCategory = c.EthnicCategory
               -- This next line is the trick to only matching each person once
               AND p.AssignedPersonNumber = CaseRowNumber + (:counter - 1) * cc."Count";
               
@@ -220,25 +293,27 @@ BEGIN
     CohortStoreRowsAtStart1 := (SELECT COUNT(*) FROM CohortStore);
     
 		INSERT INTO CohortStore
-		SELECT sub.PatientId, sub.YearOfBirth, sub.Sex, MatchedPatientId, MAX(m.YearOfBirth) FROM (
-		SELECT c.PatientId, c.YearOfBirth, c.Sex, MAX(p.PatientId) AS MatchedPatientId, Row_Number() OVER(PARTITION BY MAX(p.PatientId) ORDER BY p.PatientId) AS AssignedPersonNumber
+		SELECT sub.PatientId, sub.YearOfBirth, sub.Sex, sub.EthnicCategory, MatchedPatientId, MAX(m.YearOfBirth) FROM (
+		SELECT c.PatientId, c.YearOfBirth, c.Sex, c.EthnicCategory, MAX(p.PatientId) AS MatchedPatientId, Row_Number() OVER(PARTITION BY MAX(p.PatientId) ORDER BY p.PatientId) AS AssignedPersonNumber
 		FROM Cases c
 		INNER JOIN Matches p 
 			ON p.Sex = c.Sex 
+			AND p.EthnicCategory = c.EthnicCategory
 			AND p.YearOfBirth >= c.YearOfBirth - 2
 			AND p.YearOfBirth <= c.YearOfBirth + 2
 		WHERE c.PatientId in (
 			-- find patients who aren't currently matched
 			select PatientId from Cases except select PatientId from CohortStore
 		)
-		GROUP BY c.PatientId, c.YearOfBirth, c.Sex, p.PatientId) sub
+		GROUP BY c.PatientId, c.YearOfBirth, c.Sex, c.EthnicCategory, p.PatientId) sub
 		INNER JOIN Matches m 
 			ON m.Sex = sub.Sex 
+			AND m.EthnicCategory = sub.EthnicCategory
 			AND m.PatientId = sub.MatchedPatientId
 			AND m.YearOfBirth >= sub.YearOfBirth - 2
 			AND m.YearOfBirth <= sub.YearOfBirth + 2
 		WHERE sub.AssignedPersonNumber = 1
-		GROUP BY sub.PatientId, sub.YearOfBirth, sub.Sex, MatchedPatientId;
+		GROUP BY sub.PatientId, sub.YearOfBirth, sub.Sex, sub.EthnicCategory, MatchedPatientId;
 
         lastrowinsert1 := CohortStoreRowsAtStart1 - (SELECT COUNT(*) FROM CohortStore);
 
@@ -270,6 +345,7 @@ BEGIN
                 FROM Matches p
                 INNER JOIN Cases c
                   ON p.Sex = c.Sex 
+				  AND p.EthnicCategory = c.EthnicCategory
                   AND p.YearOfBirth >= c.YearOfBirth - 2
                   AND p.YearOfBirth <= c.YearOfBirth + 2
                 WHERE c.PatientId IN (
@@ -284,7 +360,7 @@ BEGIN
                 WHERE MatchedPatientNumber = 1;
                 
                 INSERT INTO CohortStore
-                SELECT s.PatientId, c.YearOfBirth, c.Sex, MatchedPatientId, m.YearOfBirth FROM CohortPatientForEachMatchingPatientWithCohortNumbered s
+                SELECT s.PatientId, c.YearOfBirth, c.Sex, c.EthnicCategory, MatchedPatientId, m.YearOfBirth FROM CohortPatientForEachMatchingPatientWithCohortNumbered s
                 LEFT OUTER JOIN Cases c ON c.PatientId = s.PatientId
                 LEFT OUTER JOIN Matches m ON m.PatientId = MatchedPatientId
                 WHERE PatientNumber = 1;
@@ -300,54 +376,122 @@ BEGIN
 END;
 
 
--- create permanent cohort table, indicating whether each patient is from the main or the matched cohort
-
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_01_Newman";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_01_Newman" AS
-SELECT
-	"FK_Patient_ID", 
-	"GmPseudo", 
-	CASE WHEN D."FK_Patient_ID" IN (select PATIENTID from CohortStore) THEN 'Main'
-			WHEN D."FK_Patient_ID" IN (select MATCHINGPATIENTID from CohortStore) THEN 'Matched'
-			ELSE 'Check' END AS "Cohort",
-	"DateOfBirth",
-	row_number() over (partition by D."GmPseudo" order by "Snapshot" desc) rownum
-FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D
-WHERE D."FK_Patient_ID" IN (select PATIENTID from CohortStore) OR      -- patients in main cohort
-		D."FK_Patient_ID" IN (select MATCHINGPATIENTID from CohortStore)
-QUALIFY row_number() OVER (PARTITION BY D."GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot
-
-
--------------------------------
-
--- patient demographics table
-
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."lh001_1_Patients";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."lh001_1_Patients" AS
+-- Get the matched cohort detail - same as main cohort
+DROP TABLE IF EXISTS MatchedCohort;
+CREATE TEMPORARY TABLE MatchedCohort AS
 SELECT 
-	"Snapshot", 
-	D."GmPseudo", --- NEEDS PSEUDONYMISING
-	D."DateOfBirth",
-    c."Cohort",
-	dth.DeathDate AS "DeathDate",
+  c.MatchingPatientId AS "GmPseudo",
+  c.Sex,
+  c.MatchingYearOfBirth,
+  c.EthnicCategory,
+  c.PatientId AS PatientWhoIsMatched,
+FROM CohortStore c;
+
+-- bring main and matched cohort together for final output
+
+
+-- ... processing [[create-output-table::"1_Patients"]] ... 
+-- ... Need to create an output table called "1_Patients" and replace 
+-- ... the GmPseudo column with a study-specific random patient id.
+
+-- First we create a table in an area only visible to the RDEs which contains
+-- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."1_Patients_WITH_PSEUDO_IDS";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."1_Patients_WITH_PSEUDO_IDS" AS
+SELECT 
+	 m."GmPseudo",
+	 D."Snapshot",
+     NULL AS "MainCohortMatchedGmPseudo",
+     m.Sex AS "Sex",
+     D."DateOfBirth" AS "YearAndMonthOfBirth",
+	 EthnicCategory AS "EthnicCategory",
+	 LSOA11 AS "LSOA11", 
+	"IMD_Decile", 
+	"PracticeCode", 
+	"Frailty", -- 92% missingness
+	 --IndexDate,
+	 dth.DeathDate AS "DeathDate",
 	"DiagnosisOriginalMentionCode" AS "CauseOfDeathCode",
 	"DiagnosisOriginalMentionDesc" AS "CauseOfDeathDesc",
 	"DiagnosisOriginalMentionChapterCode" AS "CauseOfDeathChapterCode",
     "DiagnosisOriginalMentionChapterDesc" AS "CauseOfDeathChapterDesc",
     "DiagnosisOriginalMentionCategory1Code" AS "CauseOfDeathCategoryCode",
     "DiagnosisOriginalMentionCategory1Desc" AS "CauseOfDeathCategoryDesc",
-	LSOA11 AS "LSOA11", 
+FROM MainCohort m
+LEFT OUTER JOIN Death dth ON dth."GmPseudo" = m."GmPseudo"
+LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D on D."GmPseudo" = m."GmPseudo"
+WHERE D."Snapshot" <= '2022-07-01'
+QUALIFY row_number() OVER (PARTITION BY D."GmPseudo" ORDER BY D."Snapshot" DESC) = 1 -- this brings back the values from the most recent snapshot
+UNION
+SELECT
+ 	 m."GmPseudo",
+	 D."Snapshot",
+	 PatientWhoIsMatched AS "MainCohortMatchedGmPseudo", 
+     m.Sex AS "Sex",
+     D."DateOfBirth" AS "YearAndMonthOfBirth",
+	 EthnicCategory AS "EthnicCategory",
+	 LSOA11 AS "LSOA11", 
 	"IMD_Decile", 
-	"Age", 
-	"Sex", 
-	"EthnicityLatest_Category", 
 	"PracticeCode", 
 	"Frailty", -- 92% missingness
-FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D
-INNER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_01_Newman" c ON c."GmPseudo" = D."GmPseudo"
-LEFT JOIN Death dth ON dth."GmPseudo" = D."GmPseudo"
-QUALIFY row_number() OVER (PARTITION BY D."GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot
+	 dth.DeathDate AS "DeathDate",
+	"DiagnosisOriginalMentionCode" AS "CauseOfDeathCode",
+	"DiagnosisOriginalMentionDesc" AS "CauseOfDeathDesc",
+	"DiagnosisOriginalMentionChapterCode" AS "CauseOfDeathChapterCode",
+    "DiagnosisOriginalMentionChapterDesc" AS "CauseOfDeathChapterDesc",
+    "DiagnosisOriginalMentionCategory1Code" AS "CauseOfDeathCategoryCode",
+    "DiagnosisOriginalMentionCategory1Desc" AS "CauseOfDeathCategoryDesc",
+FROM MatchedCohort m
+LEFT JOIN Death dth ON dth."GmPseudo" = m."GmPseudo"
+LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D on D."GmPseudo" = m."GmPseudo"
+WHERE D."Snapshot" <= '2022-07-01'
+QUALIFY row_number() OVER (PARTITION BY D."GmPseudo" ORDER BY D."Snapshot" DESC) = 1 -- this brings back the values from the most recent snapshot
+;
 
----------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------
+-- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
+-- of all "new" GmPseudo ids. I.e. any GmPseudo ids that we've already got a unique id for
+-- for this study are excluded
+DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_01_Newman";
+CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_01_Newman" AS
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."1_Patients_WITH_PSEUDO_IDS"
+EXCEPT
+SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_01_Newman";
+
+-- Find the highest currently assigned id. Ids are given incrementally, so now ones
+-- need to start at +1 of the current highest
+SET highestPatientId = (
+    SELECT IFNULL(MAX("StudyPatientPseudoId"),0) FROM "Patient_ID_Mapping_SDE_Lighthouse_01_Newman"
+);
+
+-- Make a study specific hash for each new GmPseudo and insert it
+-- into the patient lookup table
+INSERT INTO "Patient_ID_Mapping_SDE_Lighthouse_01_Newman"
+SELECT
+    "GmPseudo", -- the GM SDE patient ids for patients in this cohort
+    SHA2(CONCAT('SDE_Lighthouse_01_Newman', "GmPseudo")) AS "Hash", -- used to provide a random (study-specific) ordering for the patient ids we provide
+    $highestPatientId + ROW_NUMBER() OVER (ORDER BY "Hash") -- the patient id that we provide to the analysts
+FROM "AllPseudos_SDE_Lighthouse_01_Newman";
+
+-- Finally, we select from the output table which includes the GmPseudos, in order
+-- to populate the table for the end users where the GmPseudo fields are redacted via a function
+-- created in the 0.code-sets.sql file
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."1_Patients";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."1_Patients" AS
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_01_Newman("GmPseudo") AS "PatientID",
+	SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_01_Newman("MainCohortMatchedGmPseudo") AS "MainCohortMatchedPatientID",
+	* EXCLUDE ("GmPseudo", "MainCohortMatchedGmPseudo")
+FROM SDE_REPOSITORY.SHARED_UTILITIES."1_Patients_WITH_PSEUDO_IDS";
+
+-- create simpler version of the above table to be the cohort table that other files pull from
+
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_01_Newman";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_01_Newman" AS 
+SELECT 
+	 m."GmPseudo",
+     NULL AS "MainCohortMatchedPatientId"
+FROM MainCohort m
+UNION
+SELECT
+ 	 m."GmPseudo",
+	 PatientWhoIsMatched AS "MainCohortMatchedPatientId", 
+FROM MatchedCohort m;

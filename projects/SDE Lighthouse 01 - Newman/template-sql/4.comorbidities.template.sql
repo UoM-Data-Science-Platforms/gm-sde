@@ -2,8 +2,9 @@
 --│ SDE Lighthouse study 01 - Newman - comorbidities │
 --└──────────────────────────────────────────────────┘
 
+{{create-output-table::"4_Comorbidities"}}
 SELECT
-	"GmPseudo", -- NEEDS PSEUDONYMISING
+	"GmPseudo", 
 	"ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "Anxiety_DiagnosisDate", "Asthma_DiagnosisDate", 
 	"AtrialFibrillation_DiagnosisDate", "Autism_DiagnosisDate", "BlindnessLowVision_DiagnosisDate", "Bronchiectasis_DiagnosisDate", 
 	"Bulimia_DiagnosisDate", "Cancer_DiagnosisDate", "ChronicKidneyDisease_DiagnosisDate", "ChronicLiverDisease_DiagnosisDate",
@@ -20,6 +21,6 @@ SELECT
 	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate",
 	"FirstLTC", "FirstLTC_DiagnosisDate", "SecondLTC", "SecondLTC_DiagnosisDate", "ThirdLTC",
 	"ThirdLTC_DiagnosisDate", "FourthLTC", "FourthLTC_DiagnosisDate", "FifthLTC", "FifthLTC_DiagnosisDate"
-FROM GP_RECORD."LongTermConditionRegister_Diagnosis"
+FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_Diagnosis"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}})
 QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot
