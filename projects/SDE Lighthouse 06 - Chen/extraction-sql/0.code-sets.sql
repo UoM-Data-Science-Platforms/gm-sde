@@ -46,7 +46,7 @@ CREATE TABLE "Code_Sets_SDE_Lighthouse_06_Chen" (
 --  - Secure. Can't inadvertently reveal gmpseudo, or allow guessing.
 
 -- Current solution.
--- Create a study specific hash for each GmPseudo in the database. But, only use this to sort
+-- Create a study specific hash for each GmPseudo. But, only use this to sort
 -- the patients in study specific random way. We then assign number (1,2,3...) according to
 -- this ordering. On subsequent runs, we only do this to GmPseudo ids that haven't already
 -- been done for this study. The table is stored in a location only visible to the data
@@ -60,28 +60,6 @@ CREATE TABLE IF NOT EXISTS "Patient_ID_Mapping_SDE_Lighthouse_06_Chen" (
     "StudyPatientPseudoId" NUMBER(38,0)
 );
 
--- Make a temp table of all "new" GmPseudo ids. I.e. any GmPseudo ids
--- that we've already got a unique id for for this study are excluded
-DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_06_Chen";
-CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_06_Chen" AS
-SELECT DISTINCT "GmPseudo" FROM intermediate.gp_record."DemographicsProtectedCharacteristics"
-EXCEPT
-SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_06_Chen";
-
--- Find the highest currently assigned id. Ids are given incrementally, so now ones
--- need to start at +1 of the current highest
-SET highestPatientId = (
-    SELECT IFNULL(MAX("StudyPatientPseudoId"),0) FROM "Patient_ID_Mapping_SDE_Lighthouse_06_Chen"
-);
-
--- Make a study specific hash for each new GmPseudo and insert it
--- into the patient lookup table
-INSERT INTO "Patient_ID_Mapping_SDE_Lighthouse_06_Chen"
-SELECT
-    "GmPseudo",
-    SHA2(CONCAT('SDE_Lighthouse_06_Chen', "GmPseudo")) AS "Hash",
-    $highestPatientId + ROW_NUMBER() OVER (ORDER BY "Hash")
-FROM "AllPseudos_SDE_Lighthouse_06_Chen";
 
 -- Define the function to return the study specific id
 -- NB we need one function per study because UDFs don't allow
