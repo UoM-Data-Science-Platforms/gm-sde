@@ -309,3 +309,5 @@ BEGIN
 	select 'Potentially missing code', Source, LocalCode, LocalCodeDescription from SharedCare.Reference_Local_Code
 	where LocalCode in (select SuppliedCode from #MEDSPossibleExtraCodes);
 END
+
+{{no-output-table}}

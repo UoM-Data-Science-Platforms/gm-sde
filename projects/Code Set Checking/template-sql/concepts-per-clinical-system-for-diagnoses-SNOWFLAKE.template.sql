@@ -132,3 +132,4 @@ SELECT Concept, Version,
 		' (',
 		case when PercentageOfPatientsFromCode = 0 then 0 else round(PercentageOfPatientsFromCode ,2-floor(log(10,abs(PercentageOfPatientsFromCode )))) end, '%) | ') AS TextForReadMe  FROM TempFinal;
 
+{{no-output-table}}

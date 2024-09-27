@@ -161,3 +161,5 @@ select CONCAT(p1.Year, @TabChar,p1.Month, @TabChar, CASE
 from #PrevalenceMonthBreakdown p1	
 left outer join #PrevalenceMonthBreakdown p2 on (p1.Year = p2.Year AND p1.Month = p2.Month + 1) OR (p1.Year = p2.Year + 1 and p1.Month = 1 and p2.Month = 12)
 ) sub ORDER BY sub.rn;
+
+{{no-output-table}}

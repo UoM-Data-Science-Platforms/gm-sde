@@ -202,3 +202,4 @@ BEGIN
 	where LocalCode in (select SuppliedCode from #PossibleExtraCodes);
 END
 
+{{no-output-table}}

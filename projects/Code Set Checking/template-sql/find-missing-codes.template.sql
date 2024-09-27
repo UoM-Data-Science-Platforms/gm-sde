@@ -306,3 +306,4 @@ FROM #CodeCheckOutput
 GROUP BY Concept,Terminology, Code, Term, Description, Iteration
 ORDER BY Concept,Iteration, Terminology, Code, [Description]
 
+{{no-output-table}}

@@ -23,7 +23,8 @@ SET NOCOUNT ON;
 
 --> EXECUTE query-practice-systems-lookup.sql
 
---> CODESET breast-cancer-screening:1
+--> CODESET insert-concepts-here:1
+
 DECLARE @concept varchar(255);
 SET @concept = 'breast-cancer-screening';
 
@@ -180,3 +181,5 @@ BEGIN
 	select 'Potentially missing code', Source, LocalCode, LocalCodeDescription from SharedCare.Reference_Local_Code
 	where LocalCode in (select SuppliedCode from #PossibleExtraCodes);
 END
+
+{{no-output-table}}

@@ -20,7 +20,7 @@
 --         it was found in. The higher the iteration the less likely it is that the code is correct,
 --         and therefore codes like these should be checked carefully.
 
---> CODESET insert-concepts-here:version-number
+--> CODESET pregnancy-delivery:1
 
 --TODO doing stuff with CTV3 and "Term" codes - perhaps need to allow the CTV3 codes in 
 --the code sets to have 10 characters - 5 is the equivalent of the root readv2 code
@@ -46,7 +46,31 @@ CREATE TEMPORARY TABLE CodeCheckOutput (
 -- then the code below can be tweaked.
 DROP TABLE IF EXISTS TEMP_Concepts;
 CREATE TEMPORARY TABLE TEMP_Concepts AS
-select distinct Concept from AllCodes;
+select distinct Concept from SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking";
+
+DROP TABLE IF EXISTS codesctv3;
+CREATE TEMPORARY TABLE codesctv3 AS 
+SELECT concept, version, null as term, code, description
+FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking"
+WHERE TERMINOLOGY = 'ctv3';
+
+DROP TABLE IF EXISTS codesreadv2;
+CREATE TEMPORARY TABLE codesreadv2 AS 
+SELECT concept, version, null as term, code, description
+FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking"
+WHERE TERMINOLOGY = 'readv2';
+
+DROP TABLE IF EXISTS codessnomed;
+CREATE TEMPORARY TABLE codessnomed AS 
+SELECT concept, version, code, description
+FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking"
+WHERE TERMINOLOGY = 'snomed';
+
+DROP TABLE IF EXISTS codesemis;
+CREATE TEMPORARY TABLE codesemis AS 
+SELECT concept, version, null as term, code, description
+FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking"
+WHERE TERMINOLOGY = 'emis';
 
 
 DECLARE
@@ -73,7 +97,8 @@ BEGIN
 				CREATE TEMPORARY TABLE FKsFromEMIS AS
 				SELECT "FK_Reference_Coding_ID" AS CodeId, "LocalCode" AS SourceCode, 'EMIS' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Local_Code"
-				WHERE "LocalCode" IN (SELECT code FROM codesemis WHERE Concept = :concept)
+				WHERE 
+                "LocalCode" IN (SELECT code FROM codesemis WHERE Concept = :concept)
 				AND "FK_Reference_Coding_ID"!=-1;
 
 				-- Find all FKs for the SNOMED codes
@@ -81,15 +106,16 @@ BEGIN
 				CREATE TEMPORARY TABLE FKsFromSNOMED AS
 				SELECT "PK_Reference_Coding_ID" AS CodeId, "SnomedCT_ConceptID" AS SourceCode, 'SNOMED' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Coding"
-				WHERE "SnomedCT_ConceptID" IN (SELECT code FROM codessnomed WHERE Concept = :concept)
+				WHERE 
+                "SnomedCT_ConceptID" IN (SELECT code FROM codessnomed WHERE Concept = :concept)
 				AND "PK_Reference_Coding_ID"!=-1;
 
 				-- Find all FKs for the Readv2 codes
 				DROP TABLE IF EXISTS FKsFromReadv2;
 				CREATE TEMPORARY TABLE FKsFromReadv2 AS
-				SELECT A."PK_Reference_Coding_ID" AS CodeId, CASE WHEN A."Term" IS NULL THEN A."MainCode" ELSE CONCAT(A."MainCode", A."Term") END AS SourceCode, 'Readv2' AS SourceTerminology
+				SELECT A."PK_Reference_Coding_ID" AS CodeId, A."MainCode" AS SourceCode, 'Readv2' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Coding" A
-				INNER JOIN codesreadv2 B ON Code = "MainCode" AND ( term = A."Term" OR term IS NULL)  and Concept = :concept
+				INNER JOIN codesreadv2 B ON Code = "MainCode" AND Concept = :concept
 				WHERE "CodingType"='ReadCodeV2'
 				AND "PK_Reference_Coding_ID"!=-1;
 
@@ -98,7 +124,7 @@ BEGIN
 				CREATE TEMPORARY TABLE FKsFromCTV3 AS
 				SELECT "PK_Reference_Coding_ID" AS CodeId, "MainCode" AS SourceCode, 'CTV3' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Coding" A
-				INNER JOIN codesctv3 B ON Code = "MainCode" AND ( term = A."Term" OR term IS NULL)  and Concept = :concept
+				INNER JOIN codesctv3 B ON Code = "MainCode" AND Concept = :concept
 				WHERE "CodingType"='CTV3'
 				AND "PK_Reference_Coding_ID"!=-1;
 
@@ -135,7 +161,7 @@ BEGIN
 				CREATE TEMPORARY TABLE SNOFKsFromReadv2 AS
 				SELECT "FK_Reference_SnomedCT_ID" AS SnomedId, CASE WHEN "Term" IS NULL THEN "MainCode" ELSE CONCAT("MainCode", "Term") END AS SourceCode, 'Readv2' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Coding" A
-				INNER JOIN codesreadv2 B ON Code = "MainCode" AND ( term = A."Term" OR term IS NULL)  and Concept = :concept
+				INNER JOIN codesreadv2 B ON Code = "MainCode" AND Concept = :concept
 				WHERE "CodingType"='ReadCodeV2'
 				AND "FK_Reference_SnomedCT_ID"!=-1;
 
@@ -144,7 +170,7 @@ BEGIN
 				CREATE TEMPORARY TABLE SNOFKsFromCTV3 AS
 				SELECT "FK_Reference_SnomedCT_ID" AS SnomedId, "MainCode" AS SourceCode, 'CTV3' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Coding" A
-				INNER JOIN codesctv3 B ON Code = "MainCode" AND ( term = A."Term" OR term IS NULL)  and Concept = :concept
+				INNER JOIN codesctv3 B ON Code = "MainCode" AND Concept = :concept
 				WHERE "CodingType"='CTV3'
 				AND "FK_Reference_SnomedCT_ID"!=-1;
 
@@ -289,10 +315,10 @@ BEGIN
 			-- If we found new ones we add them to the codessnomed table so the 
 			-- next pass can use them to potentially find new codes
 			INSERT INTO codessnomed
-			SELECT :concept,1,Code,null,Description FROM NewSNOMED;
+			SELECT :concept,1,Code,Description FROM NewSNOMED;
 
 			INSERT INTO CodeCheckOutput
-			SELECT :concept, 'SNOMED',Code,null,Description,:iteration, SourceCode, SourceTerminology FROM NewSNOMED;
+			SELECT :concept, 'SNOMED',Code, null, Description,1, SourceCode, SourceTerminology FROM NewSNOMED;
 		END WHILE;
 
 		-- If NewInsertions is not 0 then it means the iteration hasn't finished yet
@@ -318,3 +344,4 @@ FROM CodeCheckOutput
 GROUP BY Concept,Terminology, Code, "Term", Description, Iteration
 ORDER BY Concept,Iteration, Terminology, Code, Description
 
+{{no-output-table}}
