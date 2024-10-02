@@ -14,7 +14,7 @@ set(StudyEndDate)   = to_date('2023-12-31');
 
 --> CODESET selfharm-episodes:1 fracture:1
 
-{{create-output-table::"3_AdverseEvents"}}
+{{create-output-table::"LH001-3_AdverseEvents"}}
 SELECT DISTINCT
 	cohort."GmPseudo",  -- NEEDS PSEUDONYMISING
 	to_date("EventDate") as "EventDate",

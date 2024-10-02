@@ -9,7 +9,7 @@
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
 
-{{create-output-table::"6_Referrals"}}
+{{create-output-table::"LH001-6_Referrals"}}
 SELECT 
     co."GmPseudo" -- NEEDS PSEUDONYMISING
     , TO_DATE(ec."EventDate") AS "MedicationDate"

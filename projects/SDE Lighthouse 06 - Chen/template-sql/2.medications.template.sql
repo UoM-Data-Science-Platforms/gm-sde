@@ -62,7 +62,7 @@ LEFT JOIN SafeDosages sd ON sd."Dosage" = p."Dosage";
 
 -- transform into wide format to reduce the number of rows in final table
 
-{{create-output-table::"2_Medications"}}
+{{create-output-table::"LH001-2_Medications"}}
 SELECT "GmPseudo",
 	YEAR("MedicationDate") AS "Year",
     MONTH("MedicationDate") AS "Month",

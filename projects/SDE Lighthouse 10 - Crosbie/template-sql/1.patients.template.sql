@@ -7,67 +7,17 @@
 set(StudyStartDate) = to_date('2016-01-01');
 set(StudyEndDate)   = to_date('2024-08-01');
 
-
-
--- GET ALL PATIENTS THAT HAD A LUNG HEALTH CHECK - FROM THE LINKED MFT DATA
-
----------------------------------------------
-
-
-
---ALL DEATHS 
-
-DROP TABLE IF EXISTS Death;
-CREATE TEMPORARY TABLE Death AS
-SELECT 
-    DEATH."GmPseudo",
-    TO_DATE(DEATH."RegisteredDateOfDeath") AS DeathDate,
-    OM."DiagnosisOriginalMentionCode",
-    OM."DiagnosisOriginalMentionDesc",
-    OM."DiagnosisOriginalMentionChapterCode",
-    OM."DiagnosisOriginalMentionChapterDesc",
-    OM."DiagnosisOriginalMentionCategory1Code",
-    OM."DiagnosisOriginalMentionCategory1Desc"
-FROM PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" DEATH
-LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions" OM 
-        ON OM."XSeqNo" = DEATH."XSeqNo" AND OM."DiagnosisOriginalMentionNumber" = 1;
-
--- GET LATEST SNAPSHOT OF DEMOGRAPHICS TABLE
-
-DROP TABLE IF EXISTS LatestSnapshotAdults;
-CREATE TEMPORARY TABLE LatestSnapshotAdults AS
-SELECT 
-    p.*
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p 
-INNER JOIN (
-    SELECT "GmPseudo", MAX("Snapshot") AS LatestSnapshot
-    FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p 
-    WHERE DATEDIFF(YEAR, TO_DATE("DateOfBirth"), $StudyStartDate) >= 50 -- over 50s only at study start date
-    GROUP BY "GmPseudo"
-    ) t2
-ON t2."GmPseudo" = p."GmPseudo" AND t2.LatestSnapshot = p."Snapshot";
-
--- FIND ALL ADULT OVER 50s ALIVE AT STUDY START DATE
-
-DROP TABLE IF EXISTS AliveAdultsAtStart;
-CREATE TEMPORARY TABLE AliveAdultsAtStart AS 
-SELECT  
-    dem.*, 
-    Death.DeathDate
-FROM LatestSnapshotAdults dem
-LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
-WHERE 
-    (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
-
+--> EXECUTE query-get-possible-patientsSDE.sql minimum-age:18
 
 -- GET COHORT OF PATIENTS THAT HAD A LUNG HEALTH CHECK
 
 DROP TABLE IF EXISTS {{cohort-table}};
 CREATE TABLE {{cohort-table}} AS 
 SELECT "GmPseudo", "FK_Patient_ID" 
-FROM LatestSnapshotAdults
+FROM AlivePatientsAtStart
+WHERE DATEDIFF(YEAR, "DateOfBirth",$StudyStartDate) >= 50  -- over 50 in 2016
 LEFT OUTER JOIN **LUNGHEALTHCHECKTABLE**
-
+LIMIT 1000 --THIS IS TEMPORARY
 
 
 -- PERSONAL HISTORY OF CANCER - TO JOIN TO LATER
@@ -79,6 +29,30 @@ SELECT DISTINCT ltc."GmPseudo", "FK_Patient_ID"
 FROM LongTermConditionRegister_SecondaryUses ltc
 WHERE ("Cancer_QOF" is not null or "Cancer_DiagnosisDate" is not null or "Cancer_DiagnosisAge" is not null or "Cancer_QOF_DiagnosedL5Y" is not null)
 	AND "GmPseudo" IN {{cohort-table}}
+
+-- COPD meds
+
+DROP TABLE IF EXISTS COPDMeds;
+CREATE TEMPORARY TABLE COPDMeds AS 
+SELECT c."GmPseudo"
+    , MIN(TO_DATE(ec."MedicationDate")) AS "MinCOPDMedDate"
+FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
+INNER JOIN {{cohort-table}} c ON c."FK_Patient_ID" = ec."FK_Patient_ID"
+WHERE "Field_ID" IN ('COPDICSDRUG_COD')
+	AND TO_DATE(ec."MedicationDate") <=  $StudyStartDate
+
+-- Statins
+
+DROP TABLE IF EXISTS Statins;
+CREATE TEMPORARY TABLE Statins AS 
+SELECT c."GmPseudo"
+    , MIN(TO_DATE(ec."MedicationDate")) AS "MinStatinDate"
+FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
+INNER JOIN {{cohort-table}} c ON c."FK_Patient_ID" = ec."FK_Patient_ID"
+WHERE "Field_ID" IN ('Statin')
+	AND TO_DATE(ec."MedicationDate") <=  $StudyStartDate
+GROUP BY ec."FK_Patient_ID"
+	, c."GmPseudo"
 
 
 -- FOR THE ABOVE COHORT, GET ALL REQUIRED DEMOGRAPHICS
@@ -105,12 +79,18 @@ SELECT
 	 dem."AlcoholStatus",
 	 dem."Alcohol_Date",
 	 dem."AlcoholConsumption",
-	 -- TODO: drug history: COPD meds, statins 
 	 dem."SmokingStatus",
 	 dem."Smoking_Date",
 	 dem."SmokingConsumption"
+	 dem."SmokingConsumption",
+	 CASE WHEN copd."GmPseudo" IS NOT NULL THEN 1 ELSE 0 END AS "HistoryOfCOPDMeds",
+	 copd."MinCOPDMedDate",
+	 CASE WHEN stat."GmPseudo" IS NOT NULL THEN 1 ELSE 0 END AS "HistoryOfStatins",
+	 copd."MinStatinDate"
 FROM {{cohort-table}}  co
 LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" dem ON dem."GmPseudo" = co."GmPseudo"
 LEFT OUTER JOIN Death dth ON dth."GmPseudo" = co."GmPseudo"
 LEFT OUTER JOIN PersonalHistoryCancer phc ON phc."GmPseudo" = co."GmPseudo"
+LEFT OUTER JOIN COPDMeds copd ON copd."GmPseudo" = co."GmPseudo" 
+LEFT OUTER JOIN Statins stat ON stat."GmPseudo" = co."GmPseudo" 
 QUALIFY row_number() OVER (PARTITION BY dem."GmPseudo" ORDER BY "Snapshot" DESC) = 1;

@@ -61,7 +61,7 @@ WHERE cs.concept IN ('diabetic-neuropathy','chronic-pain', 'neck-problems','neur
 -- some codes appear in multiple code sets (e.g. back pain appearing in the more speciifc 'back-pain' and the more broad 'chronic-pain'), 
 -- so we're using sum case when statements to reduce the number of rows but indicate which code sets each code belongs to.
 
-{{create-output-table::"5_PainDiagnoses"}}
+{{create-output-table::"LH001-5_PainDiagnoses"}}
 SELECT 
 	"GmPseudo", -- NEEDS PSEUDONYMISING 
 	"DiagnosisDate", 

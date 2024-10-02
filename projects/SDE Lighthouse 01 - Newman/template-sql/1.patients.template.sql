@@ -200,7 +200,7 @@ FROM CohortStore c;
 
 -- bring main and matched cohort together for final output
 
-{{create-output-table-matched-cohort::"1_Patients"}}
+{{create-output-table-matched-cohort::"LH001-1_Patients"}}
 SELECT 
 	 m."GmPseudo",
 	 D."Snapshot",
