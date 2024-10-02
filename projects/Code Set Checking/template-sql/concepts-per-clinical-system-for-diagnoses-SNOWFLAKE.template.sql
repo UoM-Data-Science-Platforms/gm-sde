@@ -1,4 +1,4 @@
-﻿--┌───────────────────────────────────────┐
+--┌───────────────────────────────────────┐
 --│ Clinical concepts per clinical system │
 --└───────────────────────────────────────┘
 
@@ -23,41 +23,34 @@
 --  - Patients  - the number of patients for this system supplier
 --  - PercentageOfPatients  - the percentage of patients for this system supplier with this concept
 
---> CODESET insert-concepts-here:1
+--> CODESET height:1
 --> EXECUTE query-practice-systems-lookup-SNOWFLAKE.sql
 
--- First get all patients from the GP_Events table who have a matching "FK_Reference_Coding_ID"
--- First get all patients from the GP_Events table who have a matching "FK_Reference_Coding_ID"
-DROP TABLE IF EXISTS PatientsWithFKCode;
-CREATE TEMPORARY TABLE PatientsWithFKCode AS
-SELECT "FK_Patient_ID", "FK_Reference_Coding_ID" FROM GP_RECORD."GP_Events_SecondaryUses"
-WHERE "FK_Reference_Coding_ID" IN (SELECT "FK_REFERENCE_CODING_ID" FROM VersionedCodeSets);
---00:02:11
+DROP TABLE IF EXISTS VersionedCodeSets;
+CREATE TEMPORARY TABLE VersionedCodeSets AS
+SELECT 	CONCEPT,
+	VERSION,
+	TERMINOLOGY,
+	CODE,
+	DESCRIPTION 
+FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking";
 
--- Then get all patients from the GP_Events table who have a matching "FK_Reference_SnomedCT_ID"
-DROP TABLE IF EXISTS PatientsWithSNOMEDCode;
-CREATE TEMPORARY TABLE PatientsWithSNOMEDCode AS
-SELECT "FK_Patient_ID", "FK_Reference_SnomedCT_ID" FROM GP_RECORD."GP_Events_SecondaryUses"
-WHERE "FK_Reference_SnomedCT_ID" IN (SELECT "FK_REFERENCE_SNOMEDCT_ID" FROM VersionedSnomedSets);
---00:02:01
+-- First get all patients from the GP_Events table who have a Code that exists in the code set table
 
--- Link the above temp tables with the concept tables to find a list of patients with events
 DROP TABLE IF EXISTS PatientsWithCode;
 CREATE TEMPORARY TABLE PatientsWithCode AS
-SELECT "FK_Patient_ID", CONCEPT, VERSION FROM PatientsWithFKCode p
-INNER JOIN VersionedCodeSets v ON v."FK_REFERENCE_CODING_ID" = p."FK_Reference_Coding_ID"
-UNION
-SELECT "FK_Patient_ID", CONCEPT, VERSION FROM PatientsWithSNOMEDCode p
-INNER JOIN VersionedSnomedSets v ON v."FK_REFERENCE_SNOMEDCT_ID" = p."FK_Reference_SnomedCT_ID"
-GROUP BY "FK_Patient_ID", CONCEPT, VERSION;
---00:02:34
+SELECT "FK_Patient_ID", "SuppliedCode", CONCEPT, VERSION  
+FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" p
+INNER JOIN VersionedCodeSets v ON v.CODE = p."SuppliedCode"
+GROUP BY "FK_Patient_ID", "SuppliedCode", CONCEPT, VERSION;
 
-SET snapshotdate = (SELECT MAX("Snapshot") FROM GP_RECORD."DemographicsProtectedCharacteristics");
+SET snapshotdate = (SELECT MAX("Snapshot") FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics");
 
 -- Counts the number of patients for each version of each concept for each clinical system
 DROP TABLE IF EXISTS PatientsWithCodePerSystem;
 CREATE TEMPORARY TABLE PatientsWithCodePerSystem AS
-SELECT SYSTEM, CONCEPT, VERSION, count(*) as Count FROM GP_RECORD."DemographicsProtectedCharacteristics" p
+SELECT SYSTEM, CONCEPT, VERSION, count(*) as Count
+FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p
 INNER JOIN PracticeSystemLookup s on s.PracticeId = p."PracticeCode"
 INNER JOIN PatientsWithCode c on c."FK_Patient_ID" = p."FK_Patient_ID"
 WHERE "Snapshot" = $snapshotdate
@@ -68,33 +61,18 @@ GROUP BY SYSTEM, CONCEPT, VERSION;
 -- Counts the number of patients per system
 DROP TABLE IF EXISTS PatientsPerSystem;
 CREATE TEMPORARY TABLE PatientsPerSystem AS
-SELECT SYSTEM, count(*) as Count FROM GP_RECORD."DemographicsProtectedCharacteristics" p
+SELECT SYSTEM, count(*) as Count FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p
 INNER JOIN PracticeSystemLookup s on s.PracticeId = p."PracticeCode"
 WHERE "Snapshot" = $snapshotdate
 GROUP BY SYSTEM;
 --00:00:15
 
--- Finds all patients with one of the clinical codes in the events table
-DROP TABLE IF EXISTS PatientsWithSuppliedCode;
-CREATE TEMPORARY TABLE PatientsWithSuppliedCode AS
-SELECT "FK_Patient_ID", "SuppliedCode" FROM GP_RECORD."GP_Events_SecondaryUses"
-WHERE "SuppliedCode" IN (SELECT CODE FROM AllCodes);
---00:05:23
-
-
-DROP TABLE IF EXISTS PatientsWithSuppliedConcept;
-CREATE TEMPORARY TABLE PatientsWithSuppliedConcept AS
-SELECT "FK_Patient_ID", CONCEPT, VERSION AS VERSION FROM PatientsWithSuppliedCode p
-INNER JOIN AllCodes a on a.Code = p."SuppliedCode"
-GROUP BY "FK_Patient_ID", CONCEPT, VERSION;
---00:05:17
-
 -- Counts the number of patients for each version of each concept for each clinical system
 DROP TABLE IF EXISTS PatientsWithSuppConceptPerSystem;
 CREATE TEMPORARY TABLE PatientsWithSuppConceptPerSystem AS
-SELECT SYSTEM, CONCEPT, VERSION, count(*) as Count FROM GP_RECORD."DemographicsProtectedCharacteristics" p
+SELECT SYSTEM, CONCEPT, VERSION, count(*) as Count FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p
 INNER JOIN PracticeSystemLookup s on s.PracticeId = p."PracticeCode"
-INNER JOIN PatientsWithSuppliedConcept c on c."FK_Patient_ID" = p."FK_Patient_ID"
+INNER JOIN PatientsWithCode c on c."FK_Patient_ID" = p."FK_Patient_ID"
 WHERE "Snapshot" = $snapshotdate
 GROUP BY SYSTEM, CONCEPT, VERSION;
 --00:01:31
@@ -102,11 +80,11 @@ GROUP BY SYSTEM, CONCEPT, VERSION;
 -- Populate table with system/event type possibilities
 DROP TABLE IF EXISTS SystemEventCombos;
 CREATE TEMPORARY TABLE SystemEventCombos AS
-SELECT DISTINCT CONCEPT, VERSION,'EMIS' as SYSTEM FROM AllCodes
+SELECT DISTINCT CONCEPT, VERSION,'EMIS' as SYSTEM FROM VersionedCodeSets
 UNION
-SELECT DISTINCT CONCEPT, VERSION,'TPP' as SYSTEM FROM AllCodes
+SELECT DISTINCT CONCEPT, VERSION,'TPP' as SYSTEM FROM VersionedCodeSets
 UNION
-SELECT DISTINCT CONCEPT, VERSION,'Vision' as SYSTEM FROM AllCodes;
+SELECT DISTINCT CONCEPT, VERSION,'Vision' as SYSTEM FROM VersionedCodeSets;
 
 DROP TABLE IF EXISTS TempFinal;
 CREATE TEMPORARY TABLE TempFinal AS

@@ -1,4 +1,4 @@
-﻿--┌─────────────────────────────────────────────────┐
+--┌─────────────────────────────────────────────────┐
 --│ Finds missing codes using the existing mappings │
 --└─────────────────────────────────────────────────┘
 
@@ -20,7 +20,7 @@
 --         it was found in. The higher the iteration the less likely it is that the code is correct,
 --         and therefore codes like these should be checked carefully.
 
---> CODESET pregnancy-delivery:1
+--> CODESET height:1
 
 --TODO doing stuff with CTV3 and "Term" codes - perhaps need to allow the CTV3 codes in 
 --the code sets to have 10 characters - 5 is the equivalent of the root readv2 code
