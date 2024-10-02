@@ -67,15 +67,6 @@ WHERE "Snapshot" = $snapshotdate
 GROUP BY SYSTEM;
 --00:00:15
 
--- Counts the number of patients for each version of each concept for each clinical system
-DROP TABLE IF EXISTS PatientsWithSuppConceptPerSystem;
-CREATE TEMPORARY TABLE PatientsWithSuppConceptPerSystem AS
-SELECT SYSTEM, CONCEPT, VERSION, count(*) as Count FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p
-INNER JOIN PracticeSystemLookup s on s.PracticeId = p."PracticeCode"
-INNER JOIN PatientsWithCode c on c."FK_Patient_ID" = p."FK_Patient_ID"
-WHERE "Snapshot" = $snapshotdate
-GROUP BY SYSTEM, CONCEPT, VERSION;
---00:01:31
 
 -- Populate table with system/event type possibilities
 DROP TABLE IF EXISTS SystemEventCombos;
@@ -90,13 +81,10 @@ DROP TABLE IF EXISTS TempFinal;
 CREATE TEMPORARY TABLE TempFinal AS
 SELECT 
 	s.Concept, s.VERSION, pps.SYSTEM, MAX(pps.Count) as Patients, SUM(CASE WHEN p.Count IS NULL THEN 0 ELSE p.Count END) as PatientsWithConcept,
-	SUM(CASE WHEN psps.Count IS NULL THEN 0 ELSE psps.Count END) as PatiensWithConceptFromCode,
 	SUM(CASE WHEN p.Count IS NULL THEN 0 ELSE 100 * CAST(p.Count AS float)/pps.Count END) as PercentageOfPatients,
-	SUM(CASE WHEN psps.Count IS NULL THEN 0 ELSE 100 * CAST(psps.Count AS float)/pps.Count END) as PercentageOfPatientsFromCode
 FROM SystemEventCombos s
 LEFT OUTER JOIN PatientsWithCodePerSystem p on p.SYSTEM = s.SYSTEM AND p.Concept = s.Concept AND p.VERSION = s.VERSION
 INNER JOIN PatientsPerSystem pps ON pps.SYSTEM = s.SYSTEM
-LEFT OUTER JOIN PatientsWithSuppConceptPerSystem psps ON psps.SYSTEM = s.SYSTEM AND psps.Concept = s.Concept AND psps.VERSION = s.VERSION
 GROUP BY s.Concept, s.VERSION, pps.SYSTEM
 ORDER BY s.Concept, s.VERSION, pps.SYSTEM;
 
@@ -105,9 +93,6 @@ SELECT Concept, Version,
 	CONCAT('| ', CURRENT_DATE() , ' | ', System, ' | ', Patients, ' | ',
 		PatientsWithConcept, 
 		' (',
-		case when PercentageOfPatients = 0 then 0 else round(PercentageOfPatients ,2-floor(log(10,abs(PercentageOfPatients )))) end, '%) | ',
-		PatiensWithConceptFromCode, 
-		' (',
-		case when PercentageOfPatientsFromCode = 0 then 0 else round(PercentageOfPatientsFromCode ,2-floor(log(10,abs(PercentageOfPatientsFromCode )))) end, '%) | ') AS TextForReadMe  FROM TempFinal;
+		case when PercentageOfPatients = 0 then 0 else round(PercentageOfPatients ,2-floor(log(10,abs(PercentageOfPatients )))) end, '%) | ') AS TextForReadMe  FROM TempFinal;
 
 {{no-output-table}}
