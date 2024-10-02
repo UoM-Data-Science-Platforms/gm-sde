@@ -324,6 +324,7 @@ CREATE TABLE ${
 
 DROP TABLE IF EXISTS "AllPseudos_${projectNameChunked.join('_')}";
 CREATE TEMPORARY TABLE "AllPseudos_${projectNameChunked.join('_')}" AS
+(
 SELECT DISTINCT "GmPseudo" FROM ${
       config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
     }."${tableNameNoQuotes}_WITH_PSEUDO_IDS"
@@ -331,6 +332,7 @@ UNION
 SELECT DISTINCT "MainCohortMatchedGmPseudo" FROM ${
       config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
     }."${tableNameNoQuotes}_WITH_PSEUDO_IDS"
+)
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_${projectNameChunked.join('_')}";
 
