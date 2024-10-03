@@ -35,7 +35,7 @@
 -- 2. Ensure there is only a code-set specified in the script you are running (all other template files should have 'insert-concept-here')
 -- 2. Run the stitching logic (generate-sql-windows.bat) to produce the extraction files
 -- 3. Check the '0.code-sets.csv' file to ensure it contains only the codes you are expecting.
--- 3. Run the file '0.code-sets.sql' in the extraction folder (to create an empty code set table for this project)
+-- 3. Run in snowflake the file '0.code-sets.sql' from the extraction folder (to create an empty code set table for this project)
 -- 4. Before running the script you must load the code sets for this project into the code set table in snowflake:
 --    a. From the "Database" menu on the far left hand side within snowflake, select "Add Data"
 --    b. Select "Load data into a Table"
