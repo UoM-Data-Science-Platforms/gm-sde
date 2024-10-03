@@ -199,11 +199,13 @@ function processNextOutputTable(sql, templateName, config, projectNameChunked) {
   //{{create-output-table-no-gmpseudo-ids::"1_Patients"}
   const outputTableRegex = /\{\{create-output-table::([^}:]*)\}\}/;
   const outputTableNoIdsRegex = /\{\{create-output-table-no-gmpseudo-ids::([^}:]*)\}\}/;
+  const outputTableMatchedCohortRegex = /\{\{create-output-table-matched-cohort::([^}:]*)\}\}/;
 
   let isMatch = false;
 
   const outputTableMatch = outputTableRegex.exec(sql);
   const outputTableNoIdsMatch = outputTableNoIdsRegex.exec(sql);
+  const outputTableMatchedCohortMatch = outputTableMatchedCohortRegex.exec(sql);
   if (outputTableMatch) {
     isMatch = true;
     let needSemiColon = false;
@@ -273,9 +275,8 @@ FROM "AllPseudos_${projectNameChunked.join('_')}";
 -- created in the 0.code-sets.sql file
 DROP TABLE IF EXISTS ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName};
 CREATE TABLE ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName} AS
-SELECT ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}.gm_pseudo_hash_${projectNameChunked.join(
-      '_'
-    )}("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
+SELECT ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}.gm_pseudo_hash_${projectNameChunked.join('_')}("GmPseudo") AS "PatientID",
+	* EXCLUDE "GmPseudo"
 FROM ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_PSEUDO_IDS";`;
 
     sql =
@@ -283,7 +284,94 @@ FROM ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WIT
       replacedSql +
       finalSql +
       sql.substring(indexOfFinalSemiColon + 1);
-  } else if (outputTableNoIdsMatch) {
+  } else if (outputTableMatchedCohortMatch) {
+    isMatch = true;
+    let needSemiColon = false;
+
+    const indexOfOutputTable = sql.indexOf('{{create-output-table-matched-cohort');
+    let indexOfFinalSemiColon = sql.indexOf(';', indexOfOutputTable);
+    if (indexOfFinalSemiColon < 0) {
+      needSemiColon = true;
+      indexOfFinalSemiColon = sql.length - 1;
+    }
+
+    const [, tableName] = outputTableMatchedCohortMatch;
+    const tableNameNoQuotes = tableName.match(/^"?([^"]+)"?$/)[1];
+
+    const replacedSql =
+      sql.substring(indexOfOutputTable, indexOfFinalSemiColon + 1).replace(
+        outputTableMatchedCohortRegex,
+        `
+-- ... processing ${outputTableMatchedCohortMatch[0].replace(/\{/g, '[').replace(/\}/g, ']')} ... 
+-- ... Need to create an output table called ${tableName} and replace 
+-- ... the GmPseudo column with a study-specific random patient id.
+
+-- First we create a table in an area only visible to the RDEs which contains
+-- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
+DROP TABLE IF EXISTS ${
+          config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
+        }."${tableNameNoQuotes}_WITH_PSEUDO_IDS";
+CREATE TABLE ${
+          config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
+        }."${tableNameNoQuotes}_WITH_PSEUDO_IDS" AS`
+      ) + (needSemiColon ? ';' : '');
+
+    const finalSql = `
+
+-- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
+-- of all "new" GmPseudo ids from either the main column or the matched column. I.e. any GmPseudo ids that 
+-- we've already got a unique id for for this study are excluded
+
+DROP TABLE IF EXISTS "AllPseudos_${projectNameChunked.join('_')}";
+CREATE TEMPORARY TABLE "AllPseudos_${projectNameChunked.join('_')}" AS
+(
+SELECT DISTINCT "GmPseudo" FROM ${
+      config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
+    }."${tableNameNoQuotes}_WITH_PSEUDO_IDS"
+UNION 
+SELECT DISTINCT "MainCohortMatchedGmPseudo" FROM ${
+      config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
+    }."${tableNameNoQuotes}_WITH_PSEUDO_IDS"
+)
+EXCEPT
+SELECT "GmPseudo" FROM "Patient_ID_Mapping_${projectNameChunked.join('_')}";
+
+-- Find the highest currently assigned id. Ids are given incrementally, so now ones
+-- need to start at +1 of the current highest
+SET highestPatientId = (
+    SELECT IFNULL(MAX("StudyPatientPseudoId"),0) FROM "Patient_ID_Mapping_${projectNameChunked.join(
+      '_'
+    )}"
+);
+
+-- Make a study specific hash for each new GmPseudo and insert it
+-- into the patient lookup table
+INSERT INTO "Patient_ID_Mapping_${projectNameChunked.join('_')}"
+SELECT
+    "GmPseudo", -- the GM SDE patient ids for patients in this cohort
+    SHA2(CONCAT('${projectNameChunked.join(
+      '_'
+    )}', "GmPseudo")) AS "Hash", -- used to provide a random (study-specific) ordering for the patient ids we provide
+    $highestPatientId + ROW_NUMBER() OVER (ORDER BY "Hash") -- the patient id that we provide to the analysts
+FROM "AllPseudos_${projectNameChunked.join('_')}";
+
+-- Finally, we select from the output table which includes the GmPseudos, in order
+-- to populate the table for the end users where the GmPseudo fields are redacted via a function
+-- created in the 0.code-sets.sql file
+DROP TABLE IF EXISTS ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName};
+CREATE TABLE ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName} AS
+SELECT ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}.gm_pseudo_hash_${projectNameChunked.join('_')}("GmPseudo") AS "PatientID",
+	${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}.gm_pseudo_hash_${projectNameChunked.join('_')}("MainCohortMatchedGmPseudo") AS "MainCohortMatchedPatientID",
+	* EXCLUDE ("GmPseudo", "MainCohortMatchedGmPseudo")
+FROM ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_PSEUDO_IDS";`;
+
+    sql =
+      sql.substring(0, indexOfOutputTable) +
+      replacedSql +
+      finalSql +
+      sql.substring(indexOfFinalSemiColon + 1);
+ 
+} else if (outputTableNoIdsMatch) {
     isMatch = true;
     let needSemiColon = false;
 
