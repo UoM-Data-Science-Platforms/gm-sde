@@ -23,7 +23,7 @@
 --  - Patients  - the number of patients for this system supplier
 --  - PercentageOfPatients  - the percentage of patients for this system supplier with this concept
 
---> CODESET sle:1
+--> CODESET insert-concept-here:1
 --> EXECUTE query-practice-systems-lookup-SNOWFLAKE.sql
 
 DROP TABLE IF EXISTS AllCodes;
