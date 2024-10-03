@@ -23,7 +23,7 @@
 --  - Patients  - the number of patients for this system supplier
 --  - PercentageOfPatients  - the percentage of patients for this system supplier with this concept
 
---> CODESET insert-concepts-here:1
+--> CODESET sle:1
 --> EXECUTE query-practice-systems-lookup-SNOWFLAKE.sql
 
 DROP TABLE IF EXISTS AllCodes;
@@ -40,7 +40,7 @@ CREATE TEMPORARY TABLE AllCodes (
 DROP TABLE IF EXISTS Code_Sets_To_Use;
 CREATE TEMPORARY TABLE Code_Sets_To_Use AS
 SELECT *
-FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking_GT"; -- EDIT THIS LINE TO ADD YOUR INITIALS ON END OF TABLE
+FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking"; -- EDIT THIS LINE TO ADD YOUR INITIALS ON END OF TABLE
 
 -------------------
 
@@ -54,7 +54,7 @@ WHERE TERMINOLOGY = 'ctv3';
 
 DROP TABLE IF EXISTS codesreadv2;
 CREATE TEMPORARY TABLE codesreadv2 AS 
-SELECT concept, version, CASE WHEN TERMINOLOGY = 'readv2' then substr(CODE, 6, 2) else null end as term , code, description	
+SELECT concept, version, CASE WHEN TERMINOLOGY = 'readv2' AND LEN(CODE) > 5 then substr(CODE, 6, 2) else null end as term , code, description	
 FROM Code_Sets_To_Use
 WHERE TERMINOLOGY = 'readv2';
 
@@ -170,8 +170,6 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 
 
-
-
 -- First get all patients from the GP_Events table who have a Code that exists in the code set table
 
 DROP TABLE IF EXISTS PatientsWithFKCode;
@@ -199,8 +197,8 @@ SET snapshotdate = (SELECT MAX("Snapshot") FROM INTERMEDIATE.GP_RECORD."Demograp
 -- Counts the number of patients for each version of each concept for each clinical system
 DROP TABLE IF EXISTS PatientsWithCodePerSystem;
 CREATE TEMPORARY TABLE PatientsWithCodePerSystem AS
-SELECT SYSTEM, CONCEPT, VERSION, count(*) as Count FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p
-
+SELECT SYSTEM, CONCEPT, VERSION, count(*) as Count 
+FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p
 INNER JOIN PracticeSystemLookup s on s.PracticeId = p."PracticeCode"
 INNER JOIN PatientsWithCode c on c."FK_Patient_ID" = p."FK_Patient_ID"
 WHERE "Snapshot" = $snapshotdate
@@ -269,16 +267,12 @@ ORDER BY s.Concept, s.VERSION, pps.SYSTEM;
 
 -- FINAL EVENT TABLE
 SELECT Concept, Version, 
-	CONCAT('| ', FORMAT (getdate(), 'yyyy-MM-dd') , ' | ', System, ' | ', Patients, ' | ',
 	CONCAT('| ', CURRENT_DATE() , ' | ', System, ' | ', Patients, ' | ',
 		PatientsWithConcept, 
 		' (',
-		case when PercentageOfPatients = 0 then 0 else round(PercentageOfPatients ,2-floor(log10(abs(PercentageOfPatients )))) end, '%) | ',
 		case when PercentageOfPatients = 0 then 0 else round(PercentageOfPatients ,2-floor(log(10,abs(PercentageOfPatients )))) end, '%) | ',
 		PatiensWithConceptFromCode, 
 		' (',
-		case when PercentageOfPatientsFromCode = 0 then 0 else round(PercentageOfPatientsFromCode ,2-floor(log10(abs(PercentageOfPatientsFromCode )))) end, '%) | ') AS TextForReadMe  FROM #TempFinal
-
-
+		case when PercentageOfPatientsFromCode = 0 then 0 else round(PercentageOfPatientsFromCode ,2-floor(log(10,abs(PercentageOfPatientsFromCode )))) end, '%) | ') AS TextForReadMe  FROM TempFinal;
 
 {{no-output-table}}
