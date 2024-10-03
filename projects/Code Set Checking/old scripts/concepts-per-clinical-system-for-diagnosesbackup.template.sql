@@ -33,7 +33,7 @@ SELECT 	CONCEPT,
 	TERMINOLOGY,
 	CODE,
 	DESCRIPTION 
-FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking_GT";
 
 -- First get all patients from the GP_Events table who have a Code that exists in the code set table
 
