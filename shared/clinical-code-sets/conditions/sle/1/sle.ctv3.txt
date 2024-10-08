@@ -1,37 +1,25 @@
 F3710	Polyneuropathy in disseminated lupus erythematosus
 F3961	Myopathy due to disseminated lupus erythematosus
 H57y4	Lung disease with systemic lupus erythematosus
-K01x4	(Nephr synd in system lupus erythemat) or (lupus nephritis]
-M154.	Lupus erythematosus
-M1540	Lupus erythematosus chronicus
-M1542	Lupus erythematosus migrans
-M1543	Lupus erythematosus nodularis
-M1544	Lupus erythematosus profundus
-M1546	Lupus erythematosus unguium mutilans
-M154z	Lupus erythematosus NOS
-N000.	Systemic lupus erythematosus
-N0002	Drug-induced systemic lupus erythematosus
-N000z	Systemic lupus erythematosus NOS
-Nyu43	[X]Other forms of systemic lupus erythematosus
-X00Dx	Cerebral lupus
+K01x4	(Nephr synd in system lupus erythemat) or (lupus nephritis)
+X704X	Systemic lupus erythematosus with organ/system involvement
+X704c	Systemic lupus erythematosus with multisystem involvement
 X30Kn	Lupus nephritis - WHO Class I
 X30Ko	Lupus nephritis - WHO Class II
 X30Kp	Lupus nephritis - WHO Class III
 X30Kq	Lupus nephritis - WHO Class IV
 X30Kr	Lupus nephritis - WHO Class V
 X30Ks	Lupus nephritis - WHO Class VI
-X50Ew	Lupus erythematosus and erythema multiforme-like syndrome
-X50Ez	Chilblain lupus erythematosus
-X704W	Limited lupus erythematosus
-X704X	Systemic lupus erythematosus with organ/system involvement
-X704a	Lupus panniculitis
-X704b	Bullous systemic lupus erythematosus
-X704c	Systemic lupus erythematosus with multisystem involvement
-X704g	Neonatal lupus erythematosus
-XE0da	Lupus nephritis
-XM197	[EDTA] Lupus erythematosus associated with renal failure
 XaBE1	Renal tubulo-interstitial disord in systemic lupus erythemat
-XaC1J	Systemic lupus erythematosus with pericarditis
 X0046	Chorea in systemic lupus erythematosus
 X1038	Lupus pneumonia
 X705w	Lupus vasculitis
+M154.	LE - Lupus erythematosus
+M154z	Lupus erythematosus NOS
+N000.	Disseminated lupus erythematosus
+N000z	Systemic lupus erythematosus NOS
+Nyu43	[X]Other forms of systemic lupus erythematosus
+X00Dx	Cerebral lupus
+X704W	Skin and joint lupus
+XE0da	Lupus nephritis
+XaC1J	Systemic lupus erythematosus with pericarditis

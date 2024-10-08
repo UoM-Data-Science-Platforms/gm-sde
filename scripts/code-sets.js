@@ -270,8 +270,8 @@ Generating the SQL...`);
 USE ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES};
 
 -- Creates the code set table for this project.
-DROP TABLE IF EXISTS "Code_Sets_${projectNameChunked.join('_')}_MP";
-CREATE TABLE "Code_Sets_${projectNameChunked.join('_')}_MP" (
+DROP TABLE IF EXISTS "Code_Sets_${projectNameChunked.join('_')}";
+CREATE TABLE "Code_Sets_${projectNameChunked.join('_')}" (
 	CONCEPT VARCHAR(255),
 	VERSION NUMBER(38,0),
 	TERMINOLOGY VARCHAR(20),
