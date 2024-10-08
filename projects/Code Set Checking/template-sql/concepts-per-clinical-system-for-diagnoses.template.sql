@@ -15,13 +15,38 @@
 
 -- INPUT: No pre-requisites
 
--- OUTPUT: Two tables (one for events and one for medications) with the following fields
+-- OUTPUT: A tables with the following fields:
 -- 	- Concept - the clinical concept e.g. the diagnosis, medication, procedure...
 --  - Version - the version of the clinical concept
---  - System  - the clinical system (EMIS/Vision/TPP)
---  - PatientsWithConcept  - the number of patients with a clinical code for this concept in their record
---  - Patients  - the number of patients for this system supplier
---  - PercentageOfPatients  - the percentage of patients for this system supplier with this concept
+--  - TEXTFORREADME - | Date | Practice system | Population | Patients from ID | Patient from code |
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--  INSTRUCTIONS (permanent local changes that remain uncommited to master)
+		-- these steps ensure that two RDEs can work on code sets at the same time without conflict
+
+-- 1. Open code-sets.js (gm-sde > scripts), edit lines 273 and 274 to add your initials (e.g. "Code_Sets_${projectNameChunked.join('_')}_GT" )
+-- 2. Add your initials on the end of any references to "Code_Sets_Code_Set_Checking" in the template files (e.g. "Code_Sets_Code_Set_Checking_GT")
+		-- e.g. line 80 in this file
+
+-- INSTRUCTIONS (steps involved each time a script is run)
+
+-- 1. Specify a code set in the template file you want to run (e.g. change 'insert-code-set-here' to 'height') and check version number
+-- 2. Ensure there is only a code-set specified in the script you are running (all other template files should have 'insert-concept-here')
+-- 2. Run the stitching logic (generate-sql-windows.bat) to produce the extraction files
+-- 3. Check the '0.code-sets.csv' file to ensure it contains only the codes you are expecting.
+-- 3. Run in snowflake the file '0.code-sets.sql' from the extraction folder (to create an empty code set table for this project)
+-- 4. Before running the script you must load the code sets for this project into the code set table in snowflake:
+--    a. From the "Database" menu on the far left hand side within snowflake, select "Add Data"
+--    b. Select "Load data into a Table"
+--    c. Browse to select the 0.code-sets.csv file in this directory
+--    d. Select the "SDE_REPOSITORY.SHARED_UTILITIES" schema
+--    e. Select the table: "Code_Sets_Code_Set_Checking_YourInitials" and click "Next"
+--    f. Select the file format "Delimited files (CSV/TSV)"
+--    g. Double check that the preview looks ok and then click "Load"
+-- 6. You can now copy the script you are running into snowflake and execute.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 --> CODESET insert-concept-here:1
 --> EXECUTE query-practice-systems-lookup-SNOWFLAKE.sql

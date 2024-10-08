@@ -1,8 +1,11 @@
-XE0da	Lupus nephritis
+XaBE1	Renal tubulo-interstitial disorder in systemic lupus erythematosus
+K01x4	Nephrotic syndrome in systemic lupus erythematosus
 X30Kn	Lupus nephritis - WHO Class I
-X30Ko	Lupus nephritis - WHO Class II
 X30Kp	Lupus nephritis - WHO Class III
-X30Kq	Lupus nephritis - WHO Class IV
 X30Kr	Lupus nephritis - WHO Class V
-X30Ks	Lupus nephritis - WHO Class VI
 K01x4	(Nephrotic syndrome in systemic lupus erythematosus) or (lupus nephritis)
+XE0da	Lupus nephritis
+X30Kq	Lupus nephritis - WHO Class IV
+X30Ko	Lupus nephritis - WHO Class II
+K01x4	Lupus nephritis
+X30Ks	Lupus nephritis - WHO Class VI
