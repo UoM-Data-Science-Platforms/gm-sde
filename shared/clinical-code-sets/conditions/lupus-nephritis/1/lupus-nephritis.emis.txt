@@ -1,3 +1,7 @@
+^ESCTNE809116	Nephrosis co-occurrent and due to systemic lupus erythematosus
+^ESCTNE809117	Nephrosis with systemic lupus erythematosus
+^ESCTGL809990	Glomerular disease due to systemic lupus erythematosus
+^ESCTGL809991	Glomerular disease due to SLE (systemic lupus erythematosus)
 ^ESCTLU257360	Lupus nephritis - WHO Class II
 ^ESCTLU267516	Lupus with glomerular sclerosis
 ^ESCTLU267517	Lupus nephritis - WHO Class VI
@@ -6,6 +10,8 @@
 ^ESCTLU369178	Lupus nephritis - WHO Class I
 ^ESCTLU374466	Lupus nephritis - WHO Class III
 ^ESCTME334359	Membranous lupus glomerulonephritis
+^ESCTNE809113	Nephropathy co-occurrent and due to systemic lupus erythematosus
+^ESCTNE809115	Nephrotic syndrome co-occurrent and due to systemic lupus erythematosus
 ^ESCTSL257358	SLE glomerulonephritis syndrome, WHO class II
 ^ESCTSL257359	SLE with mesangial proliferative glomerulonephritis
 ^ESCTSL267514	SLE glomerulonephritis syndrome, WHO class VI
@@ -16,7 +22,6 @@
 ^ESCTSL334358	SLE with membranous glomerulonephritis
 ^ESCTSL361922	SLE glomerulonephritis syndrome
 ^ESCTSL369176	SLE glomerulonephritis syndrome, WHO class I
-^ESCTSL369177	SLE with normal kidneys
 ^ESCTSL374464	SLE glomerulonephritis syndrome, WHO class III
 ^ESCTSL374465	SLE with focal AND segmental proliferative glomerulonephritis
 ^ESCTSY257361	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class II
@@ -38,7 +43,3 @@
 ^ESCTSY374467	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization (WHO) class III
 ^ESCTSY374468	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organisation (WHO) class III
 ^ESCTSY374469	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class III
-^ESCTGL809990	Glomerular disease due to systemic lupus erythematosus
-^ESCTGL809991	Glomerular disease due to SLE (systemic lupus erythematosus)
-^ESCTNE809113	Nephropathy co-occurrent and due to systemic lupus erythematosus
-^ESCTNE809115	Nephrotic syndrome co-occurrent and due to systemic lupus erythematosus

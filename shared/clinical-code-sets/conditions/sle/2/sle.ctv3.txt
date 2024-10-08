@@ -1,0 +1,25 @@
+F3710	Polyneuropathy in disseminated lupus erythematosus
+F3961	Myopathy due to disseminated lupus erythematosus
+H57y4	Lung disease with systemic lupus erythematosus
+K01x4	(Nephr synd in system lupus erythemat) or (lupus nephritis)
+X704X	Systemic lupus erythematosus with organ/system involvement
+X704c	Systemic lupus erythematosus with multisystem involvement
+X30Kn	Lupus nephritis - WHO Class I
+X30Ko	Lupus nephritis - WHO Class II
+X30Kp	Lupus nephritis - WHO Class III
+X30Kq	Lupus nephritis - WHO Class IV
+X30Kr	Lupus nephritis - WHO Class V
+X30Ks	Lupus nephritis - WHO Class VI
+XaBE1	Renal tubulo-interstitial disord in systemic lupus erythemat
+X0046	Chorea in systemic lupus erythematosus
+X1038	Lupus pneumonia
+X705w	Lupus vasculitis
+M154.	LE - Lupus erythematosus
+M154z	Lupus erythematosus NOS
+N000.	Disseminated lupus erythematosus
+N000z	Systemic lupus erythematosus NOS
+Nyu43	[X]Other forms of systemic lupus erythematosus
+X00Dx	Cerebral lupus
+X704W	Skin and joint lupus
+XE0da	Lupus nephritis
+XaC1J	Systemic lupus erythematosus with pericarditis

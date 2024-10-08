@@ -1,0 +1,37 @@
+^ESCTBU514089	Bullous systemic lupus erythematosus
+^ESCTCE406029	Cerebral systemic lupus erythematosus
+^ESCTCH512810	Chilblain lupus erythematosus
+^ESCTLE480559	LE - Lupus erythematosus
+^ESCTLI514085	Limited lupus erythematosus
+^ESCTLU257360	Lupus nephritis - WHO Class II
+^ESCTLU267516	Lupus with glomerular sclerosis
+^ESCTLU267517	Lupus nephritis - WHO Class VI
+^ESCTLU273907	Lupus profundus
+^ESCTLU308669	Lupus nephritis - WHO Class IV
+^ESCTLU334360	Lupus nephritis - WHO Class V
+^ESCTLU369178	Lupus nephritis - WHO Class I
+^ESCTLU374466	Lupus nephritis - WHO Class III
+^ESCTLU406027	Lupus encephalopathy
+^ESCTLU480560	Lupus
+^ESCTLU514088	Lupus panniculitis
+^ESCTME334359	Membranous lupus glomerulonephritis
+^ESCTNE405966	Neonatal lupus
+^ESCTRO512807	Rowell's syndrome
+^ESCTSK514086	Skin and joint lupus
+^ESCTSL257358	SLE glomerulonephritis syndrome, WHO class II
+^ESCTSL267514	SLE glomerulonephritis syndrome, WHO class VI
+^ESCTSL308667	SLE glomerulonephritis syndrome, WHO class IV
+^ESCTSL334357	SLE glomerulonephritis syndrome, WHO class V
+^ESCTSL340060	SLE - Systemic lupus erythematosus
+^ESCTSY257362	Systemic lupus erythematosus glomerulonephritis syndrome, WHO class II
+^ESCTSY267518	Systemic lupus erythematosus glomerulonephritis syndrome, WHO class VI
+^ESCTSY308670	Systemic lupus erythematosus glomerulonephritis syndrome, WHO class IV
+^ESCTSY334361	Systemic lupus erythematosus glomerulonephritis syndrome, WHO class V
+^ESCTSY369179	Systemic lupus erythematosus glomerulonephritis syndrome, WHO class I
+^ESCTSY374467	Systemic lupus erythematosus glomerulonephritis syndrome, WHO class III
+^ESCTSY405618	Systemic lupus erythematosus arthritis
+^ESCTSY514090	Systemic lupus erythematosus with multisystem involvement
+^ESCTSY668184	Systemic lupus erythematosus of childhood
+^ESCTSY751150	Systemic lupus erythematosus in remission
+^ESCTSY832077	Systemic lupus erythematosus/Sjogren's overlap syndrome
+^ESCTVA514174	Vasculitis due to lupus erythematosus

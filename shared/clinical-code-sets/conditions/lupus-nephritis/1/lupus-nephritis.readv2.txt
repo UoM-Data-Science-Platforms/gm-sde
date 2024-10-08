@@ -1,1 +1,5 @@
-K01x4	Lupus nephritis
+K0B40	Renal tubulo-interstitial disorder in systemic lupus erythematosus
+K0B4000	Renal tubulo-interstitial disorder in systemic lupus erythematosus
+K01x4	Nephrotic syndrome in systemic lupus erythematosus
+K01x400	Nephrotic syndrome in systemic lupus erythematosus
+K01x411	Lupus nephritis

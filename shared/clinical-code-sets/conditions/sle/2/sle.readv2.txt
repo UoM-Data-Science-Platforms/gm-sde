@@ -1,0 +1,20 @@
+F3710	Polyneuropathy in disseminated lupus erythematosus
+F3961	Myopathy due to disseminated lupus erythematosus
+H57y4	Lung disease with systemic lupus erythematosus
+K01x4	Lupus nephritis
+K01x4	Nephrotic syndrome in systemic lupus erythematosus
+M154	Lupus erythematosus
+M154z	Lupus erythematosus NOS
+N000	Systemic lupus erythematosus
+N000z	Systemic lupus erythematosus NOS
+Nyu43	[X]Other forms of systemic lupus erythematosus
+K0B4000	Renal tubulo-interstitial disorder in systemic lupus erythematosus
+N000300	Systemic lupus erythematosus with organ or system involvement
+N000400	Systemic lupus erythematosus with pericarditis
+N000600	Cerebral lupus
+M154.	Lupus erythematosus
+M154.00	Lupus erythematosus
+N000.	Systemic lupus erythematosus
+N000.00	Systemic lupus erythematosus
+N0000	Disseminated lupus erythematosus
+N000000	Disseminated lupus erythematosus
