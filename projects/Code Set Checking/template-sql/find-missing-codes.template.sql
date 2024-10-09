@@ -79,41 +79,73 @@ DROP TABLE IF EXISTS Code_Sets_To_Use;
 CREATE TEMPORARY TABLE Code_Sets_To_Use AS
 SELECT *
 FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking"; -- EDIT THIS LINE TO ADD YOUR INITIALS ON END OF TABLE
-
 -------------------
-
 
 DROP TABLE IF EXISTS TEMP_Concepts;
 CREATE TEMPORARY TABLE TEMP_Concepts AS
 select distinct Concept from Code_Sets_To_Use;
 
-DROP TABLE IF EXISTS codesctv3;
-CREATE TEMPORARY TABLE codesctv3 AS 
-SELECT concept, version, null as term, code, description
-FROM Code_Sets_To_Use
-WHERE TERMINOLOGY = 'ctv3';
-
-DROP TABLE IF EXISTS codesreadv2;
-CREATE TEMPORARY TABLE codesreadv2 AS 
-SELECT concept, version, null as term, code, description
-FROM Code_Sets_To_Use
-WHERE TERMINOLOGY = 'readv2';
 
 DROP TABLE IF EXISTS codessnomed;
-CREATE TEMPORARY TABLE codessnomed AS 
-SELECT concept, version, code, description
+CREATE TEMPORARY TABLE codessnomed (
+  	concept varchar(255) NOT NULL,
+  	version INT NOT NULL,
+	code varchar(20) NOT NULL,
+  	term varchar(20) NULL,
+	description varchar(255) NULL
+) ;
+
+INSERT INTO codessnomed
+SELECT concept, version, code, null as term, description
 FROM Code_Sets_To_Use
 WHERE TERMINOLOGY = 'snomed';
 
+DROP TABLE IF EXISTS codesreadv2;
+CREATE TEMPORARY TABLE codesreadv2 (
+  	concept varchar(255) NOT NULL,
+  	version INT NOT NULL,
+	code varchar(20) NOT NULL,
+  	term varchar(20) NULL,
+	description varchar(255) NULL
+) ;
+
+INSERT INTO codesreadv2
+SELECT concept, version, code, CASE WHEN LENGTH(code) > 5 THEN RIGHT(CODE,2) ELSE null END as term, description
+FROM Code_Sets_To_Use
+WHERE TERMINOLOGY = 'readv2';
+
+DROP TABLE IF EXISTS codesctv3;
+CREATE TEMPORARY TABLE codesctv3 (
+  	concept varchar(255) NOT NULL,
+  	version INT NOT NULL,
+	code varchar(20) NOT NULL,
+  	term varchar(20) NULL,
+	description varchar(255) NULL
+) ;
+
+INSERT INTO codesctv3
+SELECT concept, version, code, CASE WHEN LENGTH(code) > 5 THEN RIGHT(CODE,2) ELSE null END as term, description
+FROM Code_Sets_To_Use
+WHERE TERMINOLOGY = 'ctv3';
+
 DROP TABLE IF EXISTS codesemis;
-CREATE TEMPORARY TABLE codesemis AS 
-SELECT concept, version, null as term, code, description
+CREATE TEMPORARY TABLE codesemis (
+  	concept varchar(255) NOT NULL,
+  	version INT NOT NULL,
+	code varchar(20) NOT NULL,
+  	term varchar(20) NULL,
+	description varchar(255) NULL
+) ;
+
+INSERT INTO codesemis
+SELECT concept, version, code, null as term, description
 FROM Code_Sets_To_Use
 WHERE TERMINOLOGY = 'emis';
 
 
+
 DECLARE
-		counter INT;
+	counter INT;
     iteration INT; 
     newinsertions INT;
     concept VARCHAR(255);
@@ -152,9 +184,9 @@ BEGIN
 				-- Find all FKs for the Readv2 codes
 				DROP TABLE IF EXISTS FKsFromReadv2;
 				CREATE TEMPORARY TABLE FKsFromReadv2 AS
-				SELECT A."PK_Reference_Coding_ID" AS CodeId, A."MainCode" AS SourceCode, 'Readv2' AS SourceTerminology
+				SELECT A."PK_Reference_Coding_ID" AS CodeId, CASE WHEN "Term" IS NULL THEN "MainCode" ELSE CONCAT("MainCode", "Term") END AS SourceCode, 'Readv2' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Coding" A
-				INNER JOIN codesreadv2 B ON Code = "MainCode" AND Concept = :concept
+				INNER JOIN codesreadv2 B ON Code = "MainCode" AND Concept = :concept AND (term = A."Term" OR term IS NULL)
 				WHERE "CodingType"='ReadCodeV2'
 				AND "PK_Reference_Coding_ID"!=-1;
 
@@ -200,7 +232,7 @@ BEGIN
 				CREATE TEMPORARY TABLE SNOFKsFromReadv2 AS
 				SELECT "FK_Reference_SnomedCT_ID" AS SnomedId, CASE WHEN "Term" IS NULL THEN "MainCode" ELSE CONCAT("MainCode", "Term") END AS SourceCode, 'Readv2' AS SourceTerminology
 				FROM INTERMEDIATE.GP_Record."Reference_Coding" A
-				INNER JOIN codesreadv2 B ON Code = "MainCode" AND Concept = :concept
+				INNER JOIN codesreadv2 B ON Code = "MainCode" AND Concept = :concept AND (term = A."Term" OR term IS NULL)
 				WHERE "CodingType"='ReadCodeV2'
 				AND "FK_Reference_SnomedCT_ID"!=-1;
 
@@ -354,10 +386,10 @@ BEGIN
 			-- If we found new ones we add them to the codessnomed table so the 
 			-- next pass can use them to potentially find new codes
 			INSERT INTO codessnomed
-			SELECT :concept,1,Code,Description FROM NewSNOMED;
+			SELECT :concept,1,Code,null,Description FROM NewSNOMED;
 
 			INSERT INTO CodeCheckOutput
-			SELECT :concept, 'SNOMED',Code, null, Description,1, SourceCode, SourceTerminology FROM NewSNOMED;
+			SELECT :concept, 'SNOMED',Code, null, Description,:iteration, SourceCode, SourceTerminology FROM NewSNOMED;
 		END WHILE;
 
 		-- If NewInsertions is not 0 then it means the iteration hasn't finished yet
@@ -371,7 +403,7 @@ BEGIN
 END;
 
 -- Final output
-SELECT 
+/*SELECT 
 	Concept,
 	Terminology, 
 	Code,
@@ -381,6 +413,11 @@ SELECT
 	listagg(CONCAT(CodeFromWhichThisWasFound, '(',TerminologyOfCodeFromWhichThisWasFound,')'),', ') WITHIN GROUP (ORDER BY CodeFromWhichThisWasFound) AS FoundFrom
 FROM CodeCheckOutput
 GROUP BY Concept,Terminology, Code, "Term", Description, Iteration
-ORDER BY Concept,Iteration, Terminology, Code, Description
+ORDER BY Concept,Iteration, Terminology, Code, Description */
+
+select distinct Terminology, Code, MAX(Description) AS Description 
+from CODECHECKOUTPUT
+GROUP BY Terminology, Code
+ORDER BY Terminology, Code; 
 
 {{no-output-table}}
