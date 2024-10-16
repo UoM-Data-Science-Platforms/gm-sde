@@ -33,10 +33,10 @@
 
 -- 1. Specify a code set in the template file you want to run (e.g. change 'insert-code-set-here' to 'height') and check version number
 -- 2. Ensure there is only a code-set specified in the script you are running (all other template files should have 'insert-concept-here')
--- 2. Run the stitching logic (generate-sql-windows.bat) to produce the extraction files
--- 3. Check the '0.code-sets.csv' file to ensure it contains only the codes you are expecting.
--- 3. Run in snowflake the file '0.code-sets.sql' from the extraction folder (to create an empty code set table for this project)
--- 4. Before running the script you must load the code sets for this project into the code set table in snowflake:
+-- 3. Run the stitching logic (generate-sql-windows.bat) to produce the extraction files
+-- 4. Check the '0.code-sets.csv' file to ensure it contains only the codes you are expecting.
+-- 5. Run in snowflake the file '0.code-sets.sql' from the extraction folder (to create an empty code set table for this project)
+-- 6. Before running the script you must load the code sets for this project into the code set table in snowflake:
 --    a. From the "Database" menu on the far left hand side within snowflake, select "Add Data"
 --    b. Select "Load data into a Table"
 --    c. Browse to select the 0.code-sets.csv file in this directory
@@ -44,7 +44,7 @@
 --    e. Select the table: "Code_Sets_Code_Set_Checking_YourInitials" and click "Next"
 --    f. Select the file format "Delimited files (CSV/TSV)"
 --    g. Double check that the preview looks ok and then click "Load"
--- 6. You can now copy the script you are running into snowflake and execute.
+-- 7. You can now copy the script you are running into snowflake and execute.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -417,9 +417,9 @@ FROM CodeCheckOutput
 GROUP BY Concept,Terminology, Code, "Term", Description, Iteration
 ORDER BY Concept,Iteration, Terminology, Code, Description */
 
-select distinct Terminology, Code, MAX(Description) AS Description 
+select distinct Terminology, Code, MAX(Description) AS Description, Iteration
 from CODECHECKOUTPUT
-GROUP BY Terminology, Code
-ORDER BY Terminology, Code; 
+GROUP BY Terminology, Code, Iteration
+ORDER BY Iteration,Terminology, Code; 
 
 {{no-output-table}}

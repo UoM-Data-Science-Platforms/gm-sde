@@ -33,10 +33,10 @@
 
 -- 1. Specify a code set in the template file you want to run (e.g. change 'insert-code-set-here' to 'height') and check version number
 -- 2. Ensure there is only a code-set specified in the script you are running (all other template files should have 'insert-concept-here')
--- 2. Run the stitching logic (generate-sql-windows.bat) to produce the extraction files
--- 3. Check the '0.code-sets.csv' file to ensure it contains only the codes you are expecting.
--- 3. Run in snowflake the file '0.code-sets.sql' from the extraction folder (to create an empty code set table for this project)
--- 4. Before running the script you must load the code sets for this project into the code set table in snowflake:
+-- 3. Run the stitching logic (generate-sql-windows.bat) to produce the extraction files
+-- 4. Check the '0.code-sets.csv' file to ensure it contains only the codes you are expecting.
+-- 5. Run in snowflake the file '0.code-sets.sql' from the extraction folder (to create an empty code set table for this project)
+-- 6. Before running the script you must load the code sets for this project into the code set table in snowflake:
 --    a. From the "Database" menu on the far left hand side within snowflake, select "Add Data"
 --    b. Select "Load data into a Table"
 --    c. Browse to select the 0.code-sets.csv file in this directory
@@ -44,12 +44,12 @@
 --    e. Select the table: "Code_Sets_Code_Set_Checking_YourInitials" and click "Next"
 --    f. Select the file format "Delimited files (CSV/TSV)"
 --    g. Double check that the preview looks ok and then click "Load"
--- 6. You can now copy the script you are running into snowflake and execute.
+-- 7. You can now copy the script you are running into snowflake and execute.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 --> CODESET insert-concept-here:1
---> EXECUTE query-practice-systems-lookup-SNOWFLAKE.sql
+--> EXECUTE query-practice-systems-lookup.sql
 
 DROP TABLE IF EXISTS AllCodes;
 CREATE TEMPORARY TABLE AllCodes (
@@ -239,14 +239,12 @@ SELECT SYSTEM, count(*) as Count FROM INTERMEDIATE.GP_RECORD."DemographicsProtec
 INNER JOIN PracticeSystemLookup s on s.PracticeId = p."PracticeCode"
 WHERE "Snapshot" = $snapshotdate
 GROUP BY SYSTEM;
---00:00:15
 
 -- Finds all patients with one of the clinical codes in the events table
 DROP TABLE IF EXISTS PatientsWithSuppliedCode;
 CREATE TEMPORARY TABLE PatientsWithSuppliedCode AS
 SELECT "FK_Patient_ID", "SuppliedCode" FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses"
 WHERE "SuppliedCode" IN (SELECT CODE FROM AllCodes);
---00:05:23
 
 
 DROP TABLE IF EXISTS PatientsWithSuppliedConcept;
@@ -254,7 +252,6 @@ CREATE TEMPORARY TABLE PatientsWithSuppliedConcept AS
 SELECT "FK_Patient_ID", CONCEPT, VERSION AS VERSION FROM PatientsWithSuppliedCode p
 INNER JOIN AllCodes a on a.Code = p."SuppliedCode"
 GROUP BY "FK_Patient_ID", CONCEPT, VERSION;
---00:05:17
 
 -- Counts the number of patients for each version of each concept for each clinical system
 DROP TABLE IF EXISTS PatientsWithSuppConceptPerSystem;
@@ -264,7 +261,6 @@ INNER JOIN PracticeSystemLookup s on s.PracticeId = p."PracticeCode"
 INNER JOIN PatientsWithSuppliedConcept c on c."FK_Patient_ID" = p."FK_Patient_ID"
 WHERE "Snapshot" = $snapshotdate
 GROUP BY SYSTEM, CONCEPT, VERSION;
---00:01:31
 
 -- Populate table with system/event type possibilities
 DROP TABLE IF EXISTS SystemEventCombos;
@@ -274,8 +270,6 @@ UNION
 SELECT DISTINCT CONCEPT, VERSION,'TPP' as SYSTEM FROM AllCodes
 UNION
 SELECT DISTINCT CONCEPT, VERSION,'Vision' as SYSTEM FROM AllCodes;
-
-
 
 DROP TABLE IF EXISTS TempFinal;
 CREATE TEMPORARY TABLE TempFinal AS
