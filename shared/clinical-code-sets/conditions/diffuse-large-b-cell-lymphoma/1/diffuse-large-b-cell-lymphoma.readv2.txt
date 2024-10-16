@@ -44,3 +44,90 @@ B627W	Unspecified B-cell non-Hodgkin's lymphoma
 B627X	Diffuse non-Hodgkin's lymphoma, unspecified                                                                                                                                                           
 ByuDE00	[X]Unspecified B-cell non-Hodgkin's lymphoma
 ByuD2	[X]Other types of diffuse non-Hodgkin's lymphoma
+B628.	Follicular lymphoma
+B628.00	Follicular lymphoma
+B6287	Other types of follicular lymphoma
+B628700	Other types of follicular lymphoma
+B62F.00	Nonfollicular lymphoma
+B62F.11	Non-follicular lymphoma
+B62F2	Lymphoblastic (diffuse) lymphoma
+B62F200	Lymphoblastic (diffuse) lymphoma
+B62Fy	Other non-follicular lymphoma
+B62Fy00	Other non-follicular lymphoma
+BBg10	[M]Malignant lymphoma, diffuse NOS
+BBg1000	[M]Malignant lymphoma, diffuse NOS
+BBg3.	[M]Malignant lymphoma, undifferentiated cell type NOS
+BBg3.00	[M]Malignant lymphoma, undifferentiated cell type NOS
+BBg5.	[M]Malignant lymphoma, convoluted cell type NOS
+BBg5.00	[M]Malignant lymphoma, convoluted cell type NOS
+BBg6.	[M]Lymphosarcoma NOS
+BBg6.00	[M]Lymphosarcoma NOS
+BBg8.	[M]Malignant lymphoma, immunoblastic type
+BBg8.00	[M]Malignant lymphoma, immunoblastic type
+BBg9.	[M]Malignant lymphoma, mixed lymphocytic-histiocytic NOS
+BBg9.00	[M]Malignant lymphoma, mixed lymphocytic-histiocytic NOS
+BBg9.11	[M]Reticulolymphosarcoma NOS
+BBg9.12	[M]Reticulolymphosarcoma, diffuse
+BBgA.	[M]Malignant lymphoma, centroblastic-centrocytic, diffuse
+BBgA.00	[M]Malignant lymphoma, centroblastic-centrocytic, diffuse
+BBgA.11	[M]Germinoblastoma, diffuse
+BBgB.	[M]Malignant lymphoma, follicular centre cell NOS
+BBgB.00	[M]Malignant lymphoma, follicular centre cell NOS
+BBgC.	[M]Malignant lymphoma, lymphocytic, well differentiated NOS
+BBgC.00	[M]Malignant lymphoma, lymphocytic, well differentiated NOS
+BBgC.11	[M]Lymphocytic lymphoma NOS
+BBgC.12	[M]Lymphocytic lymphosarcoma NOS
+BBgD.	[M]Malignant lymphoma, lymphocytic, intermediate differentiation NOS
+BBgD.00	[M]Malignant lymphoma, lymphocytic, intermediate differentiation NOS
+BBgE.	[M]Malignant lymphoma, centrocytic
+BBgE.00	[M]Malignant lymphoma, centrocytic
+BBgF.	[M]Malignant lymphoma, follicular centre cell, cleaved NOS
+BBgF.00	[M]Malignant lymphoma, follicular centre cell, cleaved NOS
+BBgG.	[M]Malignant lymphoma, lymphocytic, poorly differentiated NOS
+BBgG.00	[M]Malignant lymphoma, lymphocytic, poorly differentiated NOS
+BBgG.11	[M]Lymphoblastic lymphosarcoma NOS
+BBgG.12	[M]Lymphoblastic lymphoma NOS
+BBgG.13	[M]Lymphoblastoma NOS
+BBgH.	[M]Prolymphocytic lymphosarcoma
+BBgH.00	[M]Prolymphocytic lymphosarcoma
+BBgJ.	[M]Malignant lymphoma, centroblastic type NOS
+BBgJ.00	[M]Malignant lymphoma, centroblastic type NOS
+BBgJ.11	[M]Germinoblastic sarcoma NOS
+BBgK.	[M]Malignant lymphoma, follicular centre cell, non-cleaved NOS
+BBgK.00	[M]Malignant lymphoma, follicular centre cell, non-cleaved NOS
+BBgM.	[M]Malignant lymphoma, small cleaved cell, diffuse
+BBgM.00	[M]Malignant lymphoma, small cleaved cell, diffuse
+BBgS.	[M]Malignant lymphoma, large cell, cleaved, diffuse
+BBgS.00	[M]Malignant lymphoma, large cell, cleaved, diffuse
+BBgV.	[M]Malignant lymphoma, small cell, noncleaved, diffuse
+BBgV.00	[M]Malignant lymphoma, small cell, noncleaved, diffuse
+BBk0.	[M]Malignant lymphoma, nodular NOS
+BBk0.00	[M]Malignant lymphoma, nodular NOS
+BBk0.11	[M]Brill - Symmers' disease
+BBk0.12	[M]Follicular lymphosarcoma NOS
+BBk0.13	[M]Giant follicular lymphoma
+BBk0.14	[M]Nodular lymphosarcoma NOS
+BBk2.	[M]Malignant lymphoma, centroblastic-centrocytic, follicular
+BBk2.00	[M]Malignant lymphoma, centroblastic-centrocytic, follicular
+BBk2.11	[M]Germinoblastoma, follicular
+BBk3.	[M]Malignant lymphoma, lymphocytic, well differentiated, nodular
+BBk3.00	[M]Malignant lymphoma, lymphocytic, well differentiated, nodular
+BBk4.	[M]Malignant lymphoma, lymphocytic, intermediate differentiation, nodular
+BBk4.00	[M]Malignant lymphoma, lymphocytic, intermediate differentiation, nodular
+BBk5.	[M]Malignant lymphoma, follicular centre cell, cleaved, follicular
+BBk5.00	[M]Malignant lymphoma, follicular centre cell, cleaved, follicular
+BBk6.	[M]Malignant lymphoma, lymphocytic, poorly differentiated, nodular
+BBk6.00	[M]Malignant lymphoma, lymphocytic, poorly differentiated, nodular
+BBk8.	[M]Malignant lymphoma, follicular centre cell, noncleaved, follicular
+BBk8.00	[M]Malignant lymphoma, follicular centre cell, noncleaved, follicular
+BBmH.	[M] Large cell lymphoma
+BBmH.00	[M] Large cell lymphoma
+ByuD1	[X]Other types of follicular non-Hodgkin's lymphoma
+ByuD100	[X]Other types of follicular non-Hodgkin's lymphoma
+ByuD3	[X]Other specified types of non-Hodgkin's lymphoma
+ByuD300	[X]Other specified types of non-Hodgkin's lymphoma
+ByuDC	[X]Diffuse non-Hodgkin's lymphoma, unspecified
+ByuDC00	[X]Diffuse non-Hodgkin's lymphoma, unspecified
+ByuDF	[X]Non-Hodgkin's lymphoma, unspecified type
+ByuDF00	[X]Non-Hodgkin's lymphoma, unspecified type
+ByuDF11	[X]Non-Hodgkin's lymphoma NOS

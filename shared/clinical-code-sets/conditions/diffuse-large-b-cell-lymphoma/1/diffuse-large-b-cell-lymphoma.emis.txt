@@ -125,3 +125,16 @@
 ^ESCTPR729990	Primary mediastinal (thymic) large B-cell lymphoma
 ^ESCTRE475308	Reticulolymphosarcoma, diffuse
 ^ESCTRE475310	Reticulolymphosarcoma
+^ESCT1366050	High grade B-cell lymphoma with MYC and BCL2 and/or BCL6 rearrangements
+^ESCT1366622	Diffuse large B-cell lymphoma activated B-cell subtype
+^ESCT1366657	Diffuse large B-cell lymphoma germinal centre B-cell subtype
+^ESCTAL738496	ALK positive large B-cell lymphoma
+^ESCTAN738497	Anaplastic lymphoma kinase positive large B-cell lymphoma
+^ESCTBC799577	B-cell lymphoma, unclassifiable, with features intermediate between diffuse large B-cell lymphoma and Burkitt lymphoma
+^ESCTDI796388	Diffuse large B-cell lymphoma associated with chronic inflammation
+^ESCTDL796389	DLBCL (diffuse large B-cell lymphoma) associated with chronic inflammation
+^ESCTEP775207	Epstein-Barr virus positive diffuse large B-cell lymphoma of elderly
+^ESCTMA738584	Malignant lymphoma, diffuse large B-cell, immunoblastic
+^ESCTME441558	Mediastinal large B-cell lymphoma
+^ESCTPR441557	Primary effusion lymphoma
+^ESCTTH441559	Thymic large B-cell lymphoma

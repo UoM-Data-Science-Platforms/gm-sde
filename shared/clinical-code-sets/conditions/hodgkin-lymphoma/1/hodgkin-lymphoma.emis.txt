@@ -1,0 +1,190 @@
+^ESCT1169431	Classical Hodgkin lymphoma
+^ESCT1169432	Classical Hodgkin lymphoma
+^ESCT1172018	B-cell Hodgkin's lymphoma
+^ESCT1192683	Hodgkin's disease NOS of intra-abdominal lymph nodes
+^ESCT1192684	Hodgkin's disease NOS of intrapelvic lymph nodes
+^ESCT1192685	Hodgkin's disease NOS of intrathoracic lymph nodes
+^ESCT1192686	Hodgkin's disease NOS of lymph nodes inguinal region and leg
+^ESCT1192687	Hodgkin's disease NOS of lymph nodes of axilla and arm
+^ESCT1192688	Hodgkin's disease NOS of lymph nodes of head, face and neck
+^ESCT1192689	Hodgkin's disease NOS of lymph nodes of multiple sites
+^ESCT1192690	Hodgkin's disease NOS of spleen
+^ESCT1192692	Hodgkin's, lymphocytic-histiocytic predominance unspec site
+^ESCT1245583	[M]Hodgkin's disease, nodular sclerosis NOS
+^ESCT1270488	Hodgkin's paragranuloma
+^ESCT1393127	Relapsing classical Hodgkin lymphoma
+^ESCT1393483	Hodgkin sarcoma
+^ESCT1393484	Hodgkin's sarcoma
+^ESCT1393485	Hodgkin granuloma
+^ESCT1393486	Hodgkin's granuloma
+^ESCT1406209	Hodgkin paragranuloma of spleen
+^ESCTCL276816	Classical Hodgkin lymphoma, lymphocyte depletion, diffuse fibrosis
+^ESCTCL312913	Classical Hodgkin lymphoma, nodular sclerosis, cellular phase
+^ESCTCL316918	Classical Hodgkin lymphoma, mixed cellularity
+^ESCTCL320831	Classical Hodgkin lymphoma, nodular sclerosis, grade 2
+^ESCTCL323575	Classical Hodgkin lymphoma, nodular sclerosis, grade 1
+^ESCTCL334700	Classical Hodgkin lymphoma, nodular sclerosis
+^ESCTCL365677	Classical Hodgkin lymphoma, lymphocyte depletion, reticular
+^ESCTCL421345	Classical Hodgkin lymphoma, lymphocyte depletion
+^ESCTCL441556	Classical Hodgkin lymphoma, lymphocyte-rich
+^ESCTHD430927	HD - Hodgkin's disease
+^ESCTHO273023	Hodgkin lymphoma
+^ESCTHO273024	Hodgkin's disease
+^ESCTHO273027	Hodgkin lymphoma, no ICD-O subtype
+^ESCTHO273028	Hodgkin lymphoma, no International Classification of Diseases for Oncology subtype
+^ESCTHO276814	Hodgkin lymphoma, lymphocyte depletion, diffuse fibrosis
+^ESCTHO276815	Hodgkin's disease, lymphocytic depletion, diffuse fibrosis
+^ESCTHO312911	Hodgkin lymphoma, nodular sclerosis, cellular phase
+^ESCTHO312912	Hodgkin's disease, nodular sclerosis, cellular phase
+^ESCTHO316916	Hodgkin lymphoma, mixed cellularity
+^ESCTHO316917	Hodgkin's disease, mixed cellularity
+^ESCTHO320827	Hodgkin lymphoma, nodular sclerosis, grade 2
+^ESCTHO320828	Hodgkin's disease, nodular sclerosis, lymphocytic depletion
+^ESCTHO320829	Hodgkin's disease, nodular sclerosis, syncytial variant
+^ESCTHO320830	Hodgkin's disease, nodular sclerosis, lymphocyte depletion
+^ESCTHO323571	Hodgkin lymphoma, nodular sclerosis, grade 1
+^ESCTHO323572	Hodgkin's disease, nodular sclerosis, lymphocytic predominance
+^ESCTHO323573	Hodgkin disease, nodular sclerosis, mixed cellularity
+^ESCTHO323574	Hodgkin disease, nodular sclerosis, lymphocyte predominance
+^ESCTHO325838	Hodgkin sarcoma [obs]
+^ESCTHO325839	Hodgkin's sarcoma
+^ESCTHO334699	Hodgkin lymphoma, nodular sclerosis
+^ESCTHO364822	Hodgkin lymphoma, nodular lymphocyte predominance
+^ESCTHO364823	Hodgkin's disease, lymphocytic predominance, nodular
+^ESCTHO364824	Hodgkin paragranuloma, nodular [obs]
+^ESCTHO364825	Hodgkin paragranuloma [obs]
+^ESCTHO364826	Hodgkin lymphoma, lymphocyte predominance, nodular
+^ESCTHO365675	Hodgkin lymphoma, lymphocyte depletion, reticular
+^ESCTHO365676	Hodgkin's disease, lymphocytic depletion, reticular
+^ESCTHO370614	Hodgkin granuloma [obs]
+^ESCTHO370615	Hodgkin's granuloma
+^ESCTHO402176	Hodgkin disease, lymphocytic-histiocytic predominance of intra-abdominal lymph nodes
+^ESCTHO402178	Hodgkin disease, lymphocytic-histiocytic predominance of intrapelvic lymph nodes
+^ESCTHO402180	Hodgkin disease, lymphocytic-histiocytic predominance of intrathoracic lymph nodes
+^ESCTHO402188	Hodgkin disease, lymphocytic-histiocytic predominance of spleen
+^ESCTHO402198	Hodgkin disease, mixed cellularity of spleen
+^ESCTHO402208	Hodgkin disease, nodular sclerosis of spleen
+^ESCTHO402211	Hodgkin's disease of intra-abdominal lymph nodes
+^ESCTHO402212	Hodgkin disease of intra-abdominal lymph nodes
+^ESCTHO402213	Hodgkin's disease of intrapelvic lymph nodes
+^ESCTHO402214	Hodgkin disease of intrapelvic lymph nodes
+^ESCTHO402215	Hodgkin's disease of intrathoracic lymph nodes
+^ESCTHO402216	Hodgkin disease of intrathoracic lymph nodes
+^ESCTHO402217	Hodgkin's disease of lymph nodes of axilla AND/OR upper limb
+^ESCTHO402218	Hodgkin disease of lymph nodes of axilla AND/OR upper limb
+^ESCTHO402219	Hodgkin's disease of lymph nodes of head, face AND/OR neck
+^ESCTHO402220	Hodgkin disease of lymph nodes of head, face AND/OR neck
+^ESCTHO402221	Hodgkin's disease of lymph nodes of inguinal region AND/OR lower limb
+^ESCTHO402222	Hodgkin disease of lymph nodes of inguinal region AND/OR lower limb
+^ESCTHO402223	Hodgkin's disease of lymph nodes of multiple sites
+^ESCTHO402224	Hodgkin disease of lymph nodes of multiple sites
+^ESCTHO402225	Hodgkin's disease of spleen
+^ESCTHO402226	Hodgkin disease of spleen
+^ESCTHO402230	Hodgkin granuloma of intrapelvic lymph nodes
+^ESCTHO402232	Hodgkin granuloma of intrathoracic lymph nodes
+^ESCTHO402240	Hodgkin granuloma of spleen
+^ESCTHO402243	Hodgkin's paragranuloma of lymph nodes of axilla AND/OR upper limb
+^ESCTHO402245	Hodgkin paragranuloma of lymph nodes of axilla AND/OR upper limb
+^ESCTHO402246	Hodgkin's paragranuloma of lymph nodes of head, face AND/OR neck
+^ESCTHO402248	Hodgkin paragranuloma of lymph nodes of head, face AND/OR neck
+^ESCTHO402249	Hodgkin's paragranuloma of lymph nodes of inguinal region AND/OR lower limb
+^ESCTHO402251	Hodgkin paragranuloma of lymph nodes of inguinal region AND/OR lower limb
+^ESCTHO402253	Hodgkin paragranuloma of spleen
+^ESCTHO402257	Hodgkin sarcoma of intra-abdominal lymph nodes
+^ESCTHO402259	Hodgkin sarcoma of intrapelvic lymph nodes
+^ESCTHO402261	Hodgkin sarcoma of intrathoracic lymph nodes
+^ESCTHO402269	Hodgkin sarcoma of spleen
+^ESCTHO421343	Hodgkin lymphoma, lymphocyte depletion
+^ESCTHO421344	Hodgkin's disease, lymphocytic depletion
+^ESCTHO430930	Hodgkin disease
+^ESCTHO430943	Hodgkin's granuloma (clinical)
+^ESCTHO430945	Hodgkin granuloma
+^ESCTHO430947	Hodgkin's paragranuloma (clinical)
+^ESCTHO430948	Hodgkin lymphoma, nodular lymphocyte predominance
+^ESCTHO430949	Hodgkin's sarcoma (clinical)
+^ESCTHO430951	Hodgkin sarcoma
+^ESCTHO430953	Hodgkin lymphoma, lymphocyte-rich (clinical)
+^ESCTHO430955	Hodgkin's disease, nodular sclerosis (clinical)
+^ESCTHO430957	Hodgkin disease, nodular sclerosis
+^ESCTHO430958	Hodgkin's disease, mixed cellularity (clinical)
+^ESCTHO430960	Hodgkin disease, mixed cellularity
+^ESCTHO430961	Hodgkin mixed cellularity lymphoma
+^ESCTHO430962	Hodgkin's disease, lymphocytic depletion (clinical)
+^ESCTHO430964	Hodgkin disease, lymphocytic depletion
+^ESCTHO441552	Hodgkin lymphoma, lymphocyte-rich
+^ESCTHO441553	Hodgkin's disease, lymphocytic-histiocytic predominance [obs]
+^ESCTHO441554	Hodgkin's disease, lymphocyte predominance, diffuse [obs]
+^ESCTHO441555	Hodgkin's disease, lymphocyte predominance [obs]
+^ESCTHO442017	Hodgkin lymphoma (category)
+^ESCTHO442018	Hodgkin lymphoma - category
+^ESCTHO475167	Hodgkin paragranuloma of intrathoracic lymph nodes
+^ESCTHO475174	Hodgkin paragranuloma of intrapelvic lymph nodes
+^ESCTHO475176	Hodgkin paragranuloma of lymph nodes of multiple sites
+^ESCTHO475178	Hodgkin granuloma of lymph nodes of head, face and neck
+^ESCTHO475180	Hodgkin granuloma of intra-abdominal lymph nodes
+^ESCTHO475182	Hodgkin granuloma of lymph nodes of axilla and upper limb
+^ESCTHO475184	Hodgkin granuloma of lymph nodes of inguinal region and lower limb
+^ESCTHO475186	Hodgkin granuloma of lymph nodes of multiple sites
+^ESCTHO475188	Hodgkin sarcoma of lymph nodes of head, face and neck
+^ESCTHO475190	Hodgkin sarcoma of lymph nodes of axilla and upper limb
+^ESCTHO475192	Hodgkin sarcoma of lymph nodes of inguinal region and lower limb
+^ESCTHO475194	Hodgkin sarcoma of lymph nodes of multiple sites
+^ESCTHO475196	Hodgkin disease, lymphocytic-histiocytic predominance of lymph nodes of head, face and neck
+^ESCTHO475199	Hodgkin disease, lymphocytic-histiocytic predominance of lymph nodes of axilla and upper limb
+^ESCTHO475201	Hodgkin disease, lymphocytic-histiocytic predominance of lymph nodes of inguinal region and lower limb
+^ESCTHO475203	Hodgkin disease, lymphocytic-histiocytic predominance of lymph nodes of multiple sites
+^ESCTHO475205	Hodgkin disease, nodular sclerosis of lymph nodes of head, face and neck
+^ESCTHO475207	Hodgkin disease, nodular sclerosis of intrathoracic lymph nodes
+^ESCTHO475209	Hodgkin disease, nodular sclerosis of intra-abdominal lymph nodes
+^ESCTHO475211	Hodgkin disease, nodular sclerosis of lymph nodes of axilla and upper limb
+^ESCTHO475213	Hodgkin disease, nodular sclerosis of lymph nodes of inguinal region and lower limb
+^ESCTHO475215	Hodgkin disease, nodular sclerosis of intrapelvic lymph nodes
+^ESCTHO475217	Hodgkin disease, nodular sclerosis of lymph nodes of multiple sites
+^ESCTHO475219	Hodgkin disease, mixed cellularity of lymph nodes of head, face and neck
+^ESCTHO475221	Hodgkin disease, mixed cellularity of intrathoracic lymph nodes
+^ESCTHO475223	Hodgkin disease, mixed cellularity of intra-abdominal lymph nodes
+^ESCTHO475225	Hodgkin disease, mixed cellularity of lymph nodes of axilla and upper limb
+^ESCTHO475227	Hodgkin disease, mixed cellularity of lymph nodes of inguinal region and lower limb
+^ESCTHO475229	Hodgkin disease, mixed cellularity of intrapelvic lymph nodes
+^ESCTHO475231	Hodgkin disease, mixed cellularity of lymph nodes of multiple sites
+^ESCTHO475233	Hodgkin disease, lymphocytic depletion of lymph nodes of head, face and neck
+^ESCTHO475235	Hodgkin disease, lymphocytic depletion of intrathoracic lymph nodes
+^ESCTHO475237	Hodgkin disease, lymphocytic depletion of intra-abdominal lymph nodes
+^ESCTHO475239	Hodgkin disease, lymphocytic depletion of lymph nodes of axilla and upper limb
+^ESCTHO475241	Hodgkin disease, lymphocytic depletion of lymph nodes of inguinal region and lower limb
+^ESCTHO475243	Hodgkin disease, lymphocytic depletion of intrapelvic lymph nodes
+^ESCTHO475245	Hodgkin disease, lymphocytic depletion of spleen
+^ESCTHO475247	Hodgkin disease, lymphocytic depletion of lymph nodes of multiple sites
+^ESCTHO560210	Hodgkin's disease, lymphocytic predominance - diffuse
+^ESCTHO560211	Hodgkin disease, lymphocytic predominance - diffuse
+^ESCTHO560212	Hodgkin's disease, nodular sclerosis - lymphocytic predominance
+^ESCTHO560213	Hodgkin disease, nodular sclerosis - lymphocytic predominance
+^ESCTHO560214	Hodgkin's disease, nodular sclerosis - mixed cellularity
+^ESCTHO560215	Hodgkin disease, nodular sclerosis - mixed cellularity
+^ESCTHO560216	Hodgkin's disease, nodular sclerosis - lymphocytic depletion
+^ESCTHO560217	Hodgkin's disease, nodular sclerosis - syncytial variant
+^ESCTHO560218	Hodgkin disease, nodular sclerosis - lymphocytic depletion
+^ESCTHO597080	Hodgkin's disease, lymphocytic depletion, diffuse fibrosis
+^ESCTHO597081	Hodgkin disease, lymphocytic depletion, diffuse fibrosis
+^ESCTHO597082	Hodgkin's disease, lymphocytic depletion, reticular type
+^ESCTHO597083	Hodgkin disease, lymphocytic depletion, reticular type
+^ESCTHO597084	Hodgkin's disease, nodular sclerosis - cellular phase
+^ESCTHO597085	Hodgkin disease, nodular sclerosis - cellular phase
+^ESCTHO667124	Hodgkin's disease affecting skin
+^ESCTHO667125	Hodgkin disease affecting skin
+^ESCTHO705362	Hodgkin's disease in remission
+^ESCTHO705363	Hodgkin disease in remission
+^ESCTHO705364	Hodgkin lymphoma in remission
+^ESCTHO705365	Hodgkin's lymphoma in remission
+^ESCTHO706567	Hodgkin's disease, lymphocytic depletion of lymph nodes of head
+^ESCTHO706568	Hodgkin's disease, lymphocytic depletion of head
+^ESCTHO706569	Hodgkin disease, lymphocytic depletion of lymph nodes of head
+^ESCTLY430931	Lymphoma, Hodgkins
+^ESCTLY669269	Lymphomatoid papulosis with Hodgkin's disease
+^ESCTLY669270	Lymphomatoid papulosis with Hodgkin disease
+^ESCTMA273025	Malignant lymphoma, Hodgkin's
+^ESCTMA430928	Malignant Hodgkin's lymphoma
+^ESCTNO442015	Non-Hodgkin lymphoma (category)
+^ESCTNO442016	Non-Hodgkin lymphoma - category
+^ESCTSP669370	Specific skin infiltration in Hodgkin's disease
+^ESCTSP669371	Specific skin infiltration in Hodgkin disease

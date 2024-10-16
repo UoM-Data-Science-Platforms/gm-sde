@@ -114,3 +114,5 @@ BBjA.00	[M]Hodgkin's sarcoma
 BBj9.00	[M]Hodgkin's granuloma
 BBj8.00	[M]Hodgkin's paragranuloma
 BBj0.00	[M]Hodgkin's disease NOS
+ByuD0	[X]Other Hodgkin's disease
+ByuD000	[X]Other Hodgkin's disease
