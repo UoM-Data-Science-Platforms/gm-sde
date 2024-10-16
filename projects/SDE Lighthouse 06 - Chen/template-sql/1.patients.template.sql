@@ -26,7 +26,7 @@ set(StudyEndDate)   = to_date('2023-12-31');
 
 --> CODESET chronic-pain:1 cancer:1
 
---> EXECUTE query-get-possible-patientsSDE.sql minimum-age:18
+--> EXECUTE query-get-possible-patients.sql minimum-age:18
 
 -- find patients with chronic pain
 

@@ -7,7 +7,7 @@
 set(StudyStartDate) = to_date('2016-01-01');
 set(StudyEndDate)   = to_date('2024-08-01');
 
---> EXECUTE query-get-possible-patientsSDE.sql minimum-age:18
+--> EXECUTE query-get-possible-patients.sql minimum-age:18
 
 -- GET COHORT OF PATIENTS THAT HAD A LUNG HEALTH CHECK
 

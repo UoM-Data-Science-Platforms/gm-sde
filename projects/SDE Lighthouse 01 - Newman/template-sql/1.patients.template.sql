@@ -7,7 +7,7 @@
 set(StudyStartDate) = to_date('2023-06-01');
 set(StudyEndDate)   = to_date('2024-06-30');
 
---> EXECUTE query-get-possible-patientsSDE.sql minimum-age:18
+--> EXECUTE query-get-possible-patients.sql minimum-age:18
 
 -- table of pharmacogenetic test patients
 

@@ -15,7 +15,7 @@ const TEMPLATE_SQL_DIR = 'template-sql';
 const README_NAME = 'README';
 const SHARED_DIRECTORY = join(__dirname, '..', 'shared');
 const SCRIPTS_DIRECTORY = join(__dirname, '..', 'scripts');
-const REUSABLE_DIRECTORY = join(SHARED_DIRECTORY, 'Reusable queries for data extraction');
+const REUSABLE_DIRECTORY = join(SHARED_DIRECTORY, 'Reusable queries for data extraction/queries-SNOWFLAKE');
 const CODESET_MARKER = '[[[{{{(((CODESET_SQL)))}}}]]]';
 
 const includedSqlFiles = [];
