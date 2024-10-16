@@ -1,0 +1,164 @@
+ESCTAB1	Abnormal gait
+^ESCT1165411	Dependent lymphoedema due to impaired mobility
+^ESCT1165412	Dependent lymphedema due to impaired mobility
+^ESCT1166540	Dissociative neurological symptom disorder co-occurrent with symptoms of gait disorder
+^ESCT1271763	[D]Gait abnormality
+^ESCT1351188	Unable to balance when standing with both feet apart
+^ESCT1351189	Unable to balance when standing with both feet in tandem stance
+^ESCT1351190	Unable to balance when standing with both feet in semi tandem stance
+^ESCT1351191	Unable to balance when standing with both feet together
+^ESCT1405666	Unsteady gait
+^ESCT1405667	Instability of gait
+^ESCT1406120	Limitation of motion
+^ESCT1406121	Limited mobility
+^ESCT1419809	Abasia
+^ESCTAB713972	Abnormal gait due to impairment of balance
+^ESCTAB716270	Abnormal gait due to muscle weakness
+^ESCTAM819588	Ambulation with assistance of one person
+^ESCTAM819590	Ambulation with assistance of two people
+^ESCTAM819592	Ambulation with assistance of team of people
+^ESCTAS767931	Assistance with mobility
+^ESCTAS767932	Assistance with walking using device
+^ESCTAS770012	Assistance with mobility in bed
+^ESCTBA527922	Bad balance
+^ESCTBA647434	Balance impairment
+^ESCTBE453455	Bed-fast
+^ESCTBE453456	Bedridden patient
+^ESCTBI528012	Bizarre gait
+^ESCTCA527997	Cautious gait
+^ESCTCH453452	Chair-fast
+^ESCTDE411987	Dependence on walking stick
+^ESCTDE494409	Dependent on wheelchair
+^ESCTDE566309	Decreased balance
+^ESCTDE707498	Dependent for walking
+^ESCTDE819529	Dependent lymphoedema due to immobility
+^ESCTDI286071	Disequilibrium when walking
+^ESCTDI566109	Difficulty walking on the flat
+^ESCTDI566110	Difficulty walking on flat surfaces
+^ESCTDI566117	Difficulty walking up a slope
+^ESCTDI566124	Difficulty walking down a slope
+^ESCTDI566136	Difficulty walking up hill
+^ESCTDI566137	Difficulty walking uphill
+^ESCTDI566149	Difficulty walking down hill
+^ESCTDI566150	Difficulty walking downhill
+^ESCTDI566157	Difficulty walking up step
+^ESCTDI566164	Difficulty walking down step
+^ESCTDI566178	Difficulty climbing stairs
+^ESCTDI566185	Difficulty walking down stairs
+^ESCTDI566193	Difficulty initiating walking
+^ESCTDI566200	Difficulty in stopping walking
+^ESCTDI566208	Difficulty in starting and stopping walking spontaneously
+^ESCTDI566215	Difficulty walking on a narrow line
+^ESCTDI566222	Difficulty walking heel to toe
+^ESCTDI566308	Difficulty balancing
+^ESCTDI566316	Difficulty balancing when sitting
+^ESCTDI566324	Difficulty balancing when standing
+^ESCTDI568721	Difficulty balancing when bending
+^ESCTDI568727	Difficulty balancing when reaching
+^ESCTDI589558	Difficulty mobilising using mobility aids
+^ESCTDI589559	Difficulty mobilizing using mobility aids
+^ESCTDI589572	Difficulty mobilising using wheelchair
+^ESCTDI589573	Difficulty mobilizing using wheelchair
+^ESCTDI772651	Difficulty walking on uneven surface
+^ESCTDI772663	Difficulty walking in corridor
+^ESCTDI772664	Difficulty walking in room
+^ESCTDI844382	Difficulty mobilising using mobility scooter
+^ESCTDO566192	Does not initiate walking
+^ESCTDO566307	Does not balance
+^ESCTDO566315	Does not balance when sitting
+^ESCTDO566323	Does not balance when standing
+^ESCTDO568722	Does not balance when bending
+^ESCTDO568728	Does not balance when reaching
+^ESCTDO589556	Does not mobilise using mobility aids
+^ESCTDO589557	Does not mobilize using mobility aids
+^ESCTDO589570	Does not mobilise using wheelchair
+^ESCTDO589571	Does not mobilize using wheelchair
+^ESCTDO779456	Does use walking aid when standing alone
+^ESCTDO844551	Does not mobilise using mobility scooter
+^ESCTDO844554	Does not mobilise using outdoor motorised wheelchair
+^ESCTEF672489	Effect of impaired mobility
+^ESCTEL527999	Elderly gait
+^ESCTEN494912	Ensuring mobility aid available
+^ESCTFE527918	Feels as though will fall
+^ESCTFE552825	Feels shaky
+^ESCTFU802176	Functional gait abnormality
+^ESCTGA285572	Gait problem
+^ESCTGA285573	Gait difficulty
+^ESCTGA702622	Gait dyspraxia
+^ESCTHA527781	Has gone off legs
+^ESCTHA527782	Has gone off feet
+^ESCTHY552811	Hysterical gait
+^ESCTIM443193	Impaired wheelchair mobility
+^ESCTIM443194	Impaired bed mobility
+^ESCTIM497651	Impaired walking
+^ESCTIM647432	Impairment of balance
+^ESCTIM670622	Impaired mobility: physiological status
+^ESCTIM670623	Immobility consequences: physiological
+^ESCTIM670624	Impaired mobility: psycho-cognitive status
+^ESCTIM670625	Immobility consequences: psycho-cognitive
+^ESCTIN528011	Incongruous gait
+^ESCTIN654594	Instability of gait
+^ESCTKE527920	Keeps losing balance
+^ESCTLI263590	Limitation of motion
+^ESCTLI263591	Limited mobility
+^ESCTLO407707	Loss of control of walking
+^ESCTLO407708	Loss of control of legs
+^ESCTLO566305	Loss of balance
+^ESCTMO819589	Mobilisation with assistance of one person
+^ESCTMO819591	Mobilisation with assistance of two people
+^ESCTMO819593	Mobilisation with assistance of team of people
+^ESCTMU360193	Musculoskeletal immobility
+^ESCTMU708374	Multifactorial gait problem
+^ESCTPH384999	Physical mobility impairment
+^ESCTPO527921	Poor balance
+^ESCTPO527933	Postural sway when standing
+^ESCTPR647433	Problem with balance
+^ESCTSE527998	Senile gait
+^ESCTST453454	Staying in bed
+^ESCTST453458	Stuck in bed
+^ESCTST808048	Stumbling gait
+^ESCTTO528000	Tottering gait
+^ESCTUN286069	Unsteady when walking
+^ESCTUN286070	Unstable when walking
+^ESCTUN527928	Unsteady when standing
+^ESCTUN527929	Unstable when on feet
+^ESCTUN527930	Unstable when standing
+^ESCTUN527931	Unsteady on feet
+^ESCTUN527932	Unstable on legs
+^ESCTUN527934	Unsteady when turning
+^ESCTUN527935	Unstable when turning around
+^ESCTUN566094	Unable to walk
+^ESCTUN566102	Unable to walk on the flat
+^ESCTUN566103	Unable to walk on flat surfaces
+^ESCTUN566113	Unable to walk up a slope
+^ESCTUN566120	Unable to walk down a slope
+^ESCTUN566129	Unable to walk up hill
+^ESCTUN566130	Unable to walk uphill
+^ESCTUN566142	Unable to walk down hill
+^ESCTUN566143	Unable to walk downhill
+^ESCTUN566153	Unable to walk up step
+^ESCTUN566160	Unable to walk down step
+^ESCTUN566181	Unable to walk down stairs
+^ESCTUN566189	Unable to initiate walking
+^ESCTUN566196	Unable to stop walking
+^ESCTUN566203	Unable to start and stop walking spontaneously
+^ESCTUN566211	Unable to walk on a narrow line
+^ESCTUN566218	Unable to walk heel to toe
+^ESCTUN566312	Unable to balance when sitting
+^ESCTUN566319	Unable to balance when standing
+^ESCTUN568725	Unable to balance when bending
+^ESCTUN568731	Unable to balance when reaching
+^ESCTUN589550	Unable to mobilise using mobility aids
+^ESCTUN589551	Unable to mobilize using mobility aids
+^ESCTUN589564	Unable to mobilise using wheelchair
+^ESCTUN589565	Unable to mobilize using wheelchair
+^ESCTUN654593	Unsteady gait
+^ESCTUN772648	Unable to walk on uneven surface
+^ESCTUN810238	Unable to walk long distances
+^ESCTUN823640	Unable to mobilise using mobility scooter
+^ESCTUS779457	Uses walking aid when standing alone
+^ESCTUS779458	Uses walking assistance device when standing alone
+^ESCTWA472171	Walking stick loan
+^ESCTWA707499	Walking with assistance
+^ESCTWH494407	Wheelchair bound
+^ESCTWH494408	Wheelchair dependence

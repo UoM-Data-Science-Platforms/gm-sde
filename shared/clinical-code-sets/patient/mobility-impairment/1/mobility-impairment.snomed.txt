@@ -1,0 +1,208 @@
+100831000000109	Difficulty walking up stairs
+102491009	Immobile
+102567002	Loss of control of walking
+105504002	Dependence on walking stick
+1070531000000108	Difficulty mobilising using mobility scooter
+1072211000000102	Does not mobilise using mobility scooter
+1072231000000105	Does not mobilise using outdoor motorised wheelchair
+129857008	Impaired wheelchair mobility
+129859006	Impaired bed mobility
+138073002	Needs walking aid in home
+138081001	Immobile
+138082008	Mobility very poor
+138083003	Mobility poor
+142650001	Immobile
+142661009	Walking aid use
+142663007	Stick only for walking
+151601002	Use of indoor mobility aids
+156615004	Difficulty in walking
+158195007	[D]Gait abnormality
+158200003	[D]Gait abnormality NOS
+160681005	Mobile outside with aid
+160683008	Needs walking aid in home
+160684002	Confined to chair
+160685001	Bed-ridden
+160691004	Immobile
+160692006	Mobility very poor
+160693001	Mobility poor
+162259001	(Unsteadiness present) or (feels off balance)
+165243005	Independent in wheelchair
+165244004	Minimal help in wheelchair
+165251008	Walking aid use
+165253006	Stick only for walking
+165255004	Uses zimmer frame
+183259003	Loan of walking stick
+183368003	Use of indoor mobility aids
+202565009	Difficulty in walking
+202566005	Walking difficulty due to unspecified site
+202571003	Walking difficulty due to other specified site
+202573000	Difficulty in walking NOS
+203041005	Immobility syndrome
+206782006	[D] Poor mobility
+206817004	[D]Gait abnormality
+206823009	[D]Gait abnormality NOS
+207597001	[X]Difficulty in walking, not elsewhere classified
+207598006	[X]Other and unspecified abnormalities of gait and mobility
+22325002	Abnormal gait
+225612007	Wheelchair bound
+225991001	Ensuring mobility aid available
+22631008	Unsteady when walking
+228158008	Walking disability
+243101000000107	Patient walking with assistance
+248244005	Walking distance reduced
+249897001	Has gone off legs
+249983008	Feels as though will fall
+249984002	Keeps losing balance
+249985001	Poor balance
+249990003	Unsteady when standing
+249991004	Postural sway when standing
+249992006	Unsteady when turning
+250044006	Cautious gait
+250045007	Tottering gait
+250055006	Incongruous gait
+250056007	Bizarre gait
+250991000119100	Stumbling gait
+271707009	Hysterical gait
+271713000	General unsteadiness
+282145008	Unable to walk
+282150002	Unable to walk on the flat
+282153000	Difficulty walking on the flat
+282156008	Unable to walk up a slope
+282159001	Difficulty walking up a slope
+282162003	Unable to walk down a slope
+282165001	Difficulty walking down a slope
+282168004	Unable to walk up hill
+282171007	Difficulty walking up hill
+282174004	Unable to walk down hill
+282177006	Difficulty walking down hill
+282180007	Unable to walk up step
+282183009	Difficulty walking up step
+282186001	Unable to walk down step
+282189008	Difficulty walking down step
+282195009	Difficulty walking up stairs
+282198006	Unable to walk down stairs
+282201001	Difficulty walking down stairs
+282204009	Unable to initiate walking
+282206006	Does not initiate walking
+282207002	Difficulty initiating walking
+282210009	Unable to stop walking
+282213006	Difficulty in stopping walking
+282216003	Unable to start and stop walking spontaneously
+282220004	Difficulty in starting and stopping walking spontaneously
+282223002	Unable to walk on a narrow line
+282226005	Difficulty walking on a narrow line
+282229003	Unable to walk heel to toe
+282232000	Difficulty walking heel to toe
+282299006	Unable to balance
+282301004	Does not balance
+282302006	Difficulty balancing
+282305008	Unable to balance when sitting
+282307000	Does not balance when sitting
+282308005	Difficulty balancing when sitting
+282311006	Unable to balance when standing
+282314003	Does not balance when standing
+282315002	Difficulty balancing when standing
+284408005	Difficulty balancing when bending
+284409002	Does not balance when bending
+284411006	Unable to balance when bending
+284413009	Difficulty balancing when reaching
+284414003	Does not balance when reaching
+284416001	Unable to balance when reaching
+299031000000106	Disorder of gait and/or balance present
+299041000000102	Disorder of gait and/or balance present 
+299051000000104	Disorder of gait and/or balance present 
+301571004	Unable to mobilize using mobility aids
+301573001	Does not mobilize using mobility aids
+301574007	Difficulty mobilizing using mobility aids
+301577000	Unable to mobilize using wheelchair
+301579002	Does not mobilize using wheelchair
+301580004	Difficulty mobilizing using wheelchair
+316247003	[V]Reduced mobility
+320301000000109	Unable to walk long distances
+32181000119106	Gait disorder due to weakness
+3235001	Disorder of balance
+372111000000109	Unable to mobilise using mobility scooter - Common Assessment Framework
+387603000	Impairment of balance
+39061000000102	Impaired mobility
+390621000000101	[X]Difficulty in walking, not elsewhere classified
+393623001	Unsteady gait
+394616008	Unsteady gait
+394922001	[D]Unsteady gait
+401265005	Mobility equipment requested
+404974001	Impaired mobility: physiological status
+404975000	Impaired mobility: psycho-cognitive status
+406209002	Effect of impaired mobility
+40911000000107	Mobility equipment requested
+412601000000100	[D]Gait abnormality NOS
+413121008	Dependent on helper pushing wheelchair
+41321000000105	Impaired mobility
+416111000000107	[V]Reduced mobility
+424429009	Gait dyspraxia
+427512004	Dependent for walking
+428116008	Multifactorial gait problem
+431524008	Abnormal gait due to impairment of balance
+432559006	Abnormal gait due to muscle weakness
+43271000000103	Mobility equipment requested
+439761000000108	[D]Gait abnormality NOS
+443320005	Uses single walking stick
+443392007	Uses single crutch for walking
+443663000	Uses two crutches for walking
+443699005	Uses two walking sticks
+45431000000103	Mobility equipment requested (context-dependent category)
+46501000000103	Impaired mobility
+47211000000102	Mobility equipment requested
+47561000000102	Impaired mobility
+478851000000106	[X]Other and unspecified abnormalities of gait and mobility
+495881000000100	[D]Poor mobility
+496121000000100	[D]Gait abnormality
+502971000000105	[D]Unsteady gait
+505941000000106	Uses single walking stick
+505961000000107	Uses two walking sticks
+506431000000103	Uses two crutches for walking
+506441000000107	Uses single crutch for walking
+519381000000101	Dependent lymphoedema due to immobility
+520871000000108	Ambulation with assistance of one person
+520881000000105	Ambulation with assistance of two people
+520891000000107	Ambulation with assistance of team of people
+594781000000100	Walking difficulty due to unspecified site
+594801000000104	Walking difficulty due to other specified site
+594811000000102	Difficulty in walking NOS
+67759008	Musculoskeletal immobility
+69161000119103	Functional gait abnormality
+707261001	Deterioration in ability to walk up stairs
+710803000	Assistance with mobility
+710804006	Assistance with walking using device
+711387003	Deterioration in ability to walk
+713138001	Assistance with mobility in bed
+715012000	Unable to walk on uneven surface
+715015003	Difficulty walking on uneven surface
+715027000	Difficulty walking in corridor
+715028005	Difficulty walking in room
+719232003	Difficulty walking
+720011008	Does use walking aid when standing alone
+735392002	Dependent lymphedema due to impaired mobility
+736313002	Dissociative neurological symptom disorder co-occurrent with symptoms of gait disorder
+762291000000104	Unable to mobilise using mobility scooter
+772235004	Unable to balance when standing with both feet apart
+772236003	Unable to balance when standing with both feet in tandem stance
+772237007	Unable to balance when standing with both feet in semi tandem stance
+772238002	Unable to balance when standing with both feet together
+781091000000100	Worsening balance
+783581000000107	Deterioration in ability to walk
+783591000000109	Deterioration in walking 
+784841000000103	Deterioration in ability to walk up stairs
+784851000000100	Deterioration in walking up stairs 
+82971005	Impaired mobility
+832781000000102	Immobile
+83811000000101	Mobility equipment requested
+8510008	Reduced mobility
+913761000000104	Uses single walking stick
+913771000000106	Uses single walking stick 
+913781000000108	Uses two walking sticks
+913791000000105	Uses two walking sticks 
+913921000000105	Uses single crutch for walking
+913931000000107	Uses two crutches for walking
+918231000000108	Uses single crutch for walking
+918251000000101	Uses two crutches for walking
+9589009	Difficulty walking
+95971000000103	Difficulty walking up stairs

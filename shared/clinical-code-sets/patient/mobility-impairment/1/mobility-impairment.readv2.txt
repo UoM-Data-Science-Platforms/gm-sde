@@ -1,0 +1,88 @@
+13C2.	Mobile outside with aid
+13C2.00	Mobile outside with aid
+13C4.	Needs walking aid in home
+13C4.00	Needs walking aid in home
+13C5.	Confined to chair
+13C5.00	Confined to chair
+13C5.11	Chairbound
+13C6.	Bed-ridden
+13C6.00	Bed-ridden
+13C6.11	Bedbound
+13CC.	Immobile
+13CC.00	Immobile
+13CD.	Mobility very poor
+13CD.00	Mobility very poor
+13CE.	Mobility poor
+13CE.00	Mobility poor
+13CP.	Impaired mobility
+13CP.00	Impaired mobility
+185..11	Walking distance reduced
+1B5..13	Unsteady symptom
+1B52.11	Feels off balance
+29LB.	Unable to balance
+29LB.00	Unable to balance
+29LD.	Disorder of gait and/or balance present
+29LD.00	Disorder of gait and/or balance present
+29LF.	Worsening balance
+29LF.00	Worsening balance
+3980.	Immobile
+3980.00	Immobile
+3981.	Independent in wheelchair
+3981.00	Independent in wheelchair
+3982.	Minimal help in wheelchair
+3982.00	Minimal help in wheelchair
+398A.	Dependent on helper pushing wheelchair
+398A.00	Dependent on helper pushing wheelchair
+398B.	Deterioration in ability to walk
+398B.00	Deterioration in ability to walk
+398C.	Deterioration in ability to walk up stairs
+398C.00	Deterioration in ability to walk up stairs
+3993.	Difficulty walking up stairs
+3993.00	Difficulty walking up stairs
+39B..	Walking aid use
+39B..00	Walking aid use
+39B1.	Stick only for walking
+39B1.00	Stick only for walking
+39B3.	Uses zimmer frame
+39B3.00	Uses zimmer frame
+39B4.	Uses single walking stick
+39B4.00	Uses single walking stick
+39B5.	Uses two walking sticks
+39B5.00	Uses two walking sticks
+39B6.	Uses single crutch for walking
+39B6.00	Uses single crutch for walking
+39B7.	Uses two crutches for walking
+39B7.00	Uses two crutches for walking
+8DA6.	Loan of walking stick
+8DA6.00	Loan of walking stick
+8F75.	Use of indoor mobility aids
+8F75.00	Use of indoor mobility aids
+8M42.	Mobility equipment requested
+8M42.00	Mobility equipment requested
+N097.	Difficulty in walking
+N097.00	Difficulty in walking
+N0970	Walking difficulty due to unspecified site
+N097000	Walking difficulty due to unspecified site
+N0974	Walking difficulty due to other specified site
+N097400	Walking difficulty due to other specified site
+N097z	Difficulty in walking NOS
+N097z00	Difficulty in walking NOS
+N2331	Immobility syndrome
+N233100	Immobility syndrome
+R00A.	[D] Poor mobility
+R00A.00	[D] Poor mobility
+R00C.	[D]Immobility
+R00C.00	[D]Immobility
+R012.	[D]Gait abnormality
+R012.00	[D]Gait abnormality
+R012z	[D]Gait abnormality NOS
+R012z00	[D]Gait abnormality NOS
+Ryu31	[X]Difficulty in walking, not elsewhere classified
+Ryu3100	[X]Difficulty in walking, not elsewhere classified
+Ryu32	[X]Other and unspecified abnormalities of gait and mobility
+Ryu3200	[X]Other and unspecified abnormalities of gait and mobility
+ZV4L0	[V]Reduced mobility
+ZV4L000	[V]Reduced mobility
+ZV4L011	[V] Poor mobility
+ZV4L3	[V]Need for assistance due to reduced mobility
+ZV4L300	[V]Need for assistance due to reduced mobility

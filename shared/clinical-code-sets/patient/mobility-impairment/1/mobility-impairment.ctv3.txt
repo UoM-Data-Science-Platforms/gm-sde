@@ -1,0 +1,113 @@
+13C2.	Mobile outside with aid
+13C4.	Needs walking aid in home
+13C5.	Confined to chair
+13C6.	Stuck in bed
+13CD.	Mobility very poor
+13CE.	Poor mobility
+185..	Walking distance reduced
+1B5..	Unsteady symptom
+1B52.	Feels off balance
+3980.	Immobile
+3981.	Independent in wheelchair
+3982.	Minimal help in wheelchair
+39B..	Walking aid use
+39B1.	Stick only for walking
+39B3.	Uses zimmer frame
+8DA6.	Walking stick loan
+8F75.	Use of indoor mobility aids
+N097.	Difficulty in walking
+N0970	Walking difficulty due to unspecified site
+N0974	Walking difficulty due to other specified site
+N097z	Difficulty in walking NOS
+N2331	Immobility syndrome
+R00A.	[D] Poor mobility
+R012.	[D]Gait abnormality
+R012z	[D]Gait abnormality NOS
+Ryu31	[X]Difficulty in walking, not elsewhere classified
+Ryu32	[X]Other and unspecified abnormalities of gait and mobility
+Ua1nC	Impaired mobility
+Ua1nH	Reduced mobility
+Ua1pR	Wheelchair bound
+Ua1tX	Unsteady gait
+Ua2E1	Ensuring mobility aid available
+Ub0ip	Walking disability
+X76A1	Walking distance reduced
+X76lz	Has gone off legs
+X76oC	Feels off balance
+X76oD	Keeps losing balance
+X76oE	Poor balance
+X76oQ	Unsteady when standing
+X76oR	Postural sway when standing
+X76oW	Unsteady when turning
+X76ob	Unsteady when walking
+X76pn	Senile gait
+X76po	Tottering gait
+X76q0	Incongruous gait
+X76q1	Bizarre gait
+XM04I	Hysterical gait
+XM04S	General unsteadiness
+Xa20j	Unable to walk
+Xa20o	Unable to walk on the flat
+Xa20r	Difficulty walking on the flat
+Xa20u	Unable to walk up a slope
+Xa20x	Difficulty walking up a slope
+Xa210	Unable to walk down a slope
+Xa213	Difficulty walking down a slope
+Xa216	Unable to walk uphill
+Xa219	Difficulty walking uphill
+Xa21C	Unable to walk downhill
+Xa21F	Difficulty walking downhill
+Xa21I	Unable to walk up step
+Xa21L	Difficulty walking up step
+Xa21O	Unable to walk down step
+Xa21R	Difficulty walking down step
+Xa21W	Difficulty walking up stairs
+Xa21Z	Unable to walk down stairs
+Xa21c	Difficulty walking down stairs
+Xa21f	Unable to initiate walking
+Xa21h	Does not initiate walking
+Xa21i	Difficulty initiating walking
+Xa21l	Unable to stop walking
+Xa21o	Difficulty in stopping walking
+Xa21r	Unable to start and stop walking spontaneously
+Xa21u	Difficulty in starting and stopping walking spontaneously
+Xa21x	Unable to walk on a narrow line
+Xa220	Difficulty walking on a narrow line
+Xa223	Unable to walk heel to toe
+Xa226	Difficulty walking heel to toe
+Xa23O	Unable to balance
+Xa23Q	Does not balance
+Xa23R	Difficulty balancing
+Xa23Y	Unable to balance when sitting
+Xa23b	Does not balance when sitting
+Xa23c	Difficulty balancing when sitting
+Xa23g	Unable to balance when standing
+Xa23i	Does not balance when standing
+Xa23j	Difficulty balancing when standing
+Xa2iK	Difficulty balancing when bending
+Xa2iL	Does not balance when bending
+Xa2iN	Unable to balance when bending
+Xa2iP	Difficulty balancing when reaching
+Xa2iQ	Does not balance when reaching
+Xa2iS	Unable to balance when reaching
+Xa6tR	Gait problem
+Xa6td	Problem with balance
+Xa80f	Unable to mobilise using mobility aids
+Xa80h	Does not mobilise using mobility aids
+Xa80i	Difficulty mobilising using mobility aids
+Xa80l	Unable to mobilise using wheelchair
+Xa80n	Does not mobilise using wheelchair
+Xa80o	Difficulty mobilising using wheelchair
+XaImN	Unsteady gait              [D]
+XaIvb	Mobility equipment requested
+XaJi6	Dependent on helper pushing wheelchair
+XaNEY	Disorder of gait and/or balance present
+XaR5Y	Dependent lymphoedema due to immobility
+XaXkT	Worsening balance
+XaXnq	Deterioration in ability to walk
+XaXqb	Deterioration in ability to walk up stairs
+XabFq	Uses single walking stick
+XabFr	Uses two walking sticks
+XabFy	Uses single crutch for walking
+XabFz	Uses two crutches for walking
+ZV4L0	[V]Reduced mobility
