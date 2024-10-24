@@ -22,3 +22,6 @@
 1240761000000102	Suspected disease caused by 2019 novel coronavirus (situation)
 1300681000000102	Assessment using coronavirus disease 19 severity scale (procedure)
 1325181000000106	Ongoing symptomatic disease caused by severe acute respiratory syndrome coronavirus 2 (disorder)
+1240581000000104	Severe acute respiratory syndrome coronavirus 2 detected (finding)
+1240751000000100	Disease caused by 2019 novel coronavirus (disorder)
+189486241000119100	Asymptomatic Severe acute respiratory syndrome coronavirus 2 infection (finding)

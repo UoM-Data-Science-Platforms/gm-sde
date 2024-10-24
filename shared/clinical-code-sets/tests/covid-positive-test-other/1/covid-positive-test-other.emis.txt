@@ -86,3 +86,36 @@ EMISNQCO303	Confirmed 2019-nCoV (novel coronavirus) infection
 ^ESCT1348659	Asymptomatic Severe acute respiratory syndrome coronavirus 2 infection
 ^ESCT1348660	Asymptomatic 2019-nCoV (novel coronavirus) infection
 ^ESCT1421535	Detection of ribonucleic acid of SARS-CoV-2 in bronchoalveolar lavage fluid
+^ESCT1299074	2019-nCoV (novel coronavirus) detected
+^ESCT1299075	Wuhan 2019-nCoV (novel coronavirus) detected
+^ESCT1299076	2019 novel coronavirus detected
+^ESCT1299116	Suspected disease caused by 2019-nCoV (novel coronavirus)
+^ESCT1299117	Suspected disease caused by 2019 novel coronavirus
+^ESCT1299118	Suspected disease caused by Wuhan 2019-nCoV (novel coronavirus)
+^ESCT1300227	Assessment using COVID-19 severity scale
+^ESCT1301230	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected
+^ESCT1301245	Suspected COVID-19
+^ESCT1301246	Suspected COVID-19 caused by SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)
+^ESCT1301247	Possible COVID-19
+^ESCT1303246	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) qualitative existence in specimen
+^ESCT1303247	2019-nCoV (novel coronavirus) qualitative existence in specimen
+^ESCT1303928	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive
+^ESCT1348303	COVID-19
+^ESCT1348304	Disease caused by 2019 novel coronavirus
+^ESCT1348305	Disease caused by 2019-nCoV
+^ESCT1348306	Disease caused by Severe acute respiratory syndrome coronavirus 2
+^ESCT1348360	2019-nCoV (novel coronavirus) detection result positive at the limit of detection
+^ESCT1348394	Severe acute respiratory syndrome coronavirus 2 detected
+^ESCT1348395	COVID-19 detected
+^ESCT1348462	Suspected COVID-19
+^ESCT1348463	Suspected disease caused by 2019 novel coronavirus
+^ESCT1348464	Suspected disease caused by Severe acute respiratory coronavirus 2
+^ESCT1348465	Suspected disease caused by 2019-nCoV (novel coronavirus)
+^ESCT1348466	Suspected disease caused by SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)
+^ESCT1348467	Possible COVID-19
+^ESCT1348646	Acute COVID-19 infection
+^ESCT1348647	Acute disease caused by severe acute respiratory syndrome coronavirus 2 infection
+^ESCT1348648	Ongoing symptomatic COVID-19
+^ESCT1348649	Ongoing symptomatic disease caused by severe acute respiratory syndrome coronavirus 2
+^ESCTCO826499	Coronavirus RNA (ribonucleic acid) measurement by NAAT (nucleic acid amplification test)
+^ESCTCO826500	Coronavirus ribonucleic acid measurement by nucleic acid amplification test
