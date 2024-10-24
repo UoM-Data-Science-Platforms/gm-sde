@@ -1,0 +1,130 @@
+ESCTAL5	Allergy to tomato
+^ESCTAL769611	Allergy to hazelnut
+EMISNQAL32	Allergy to kiwi fruit
+EMISNQAL33	Allergy to rice
+ESCTAL5	Allergy to tomato
+ESCTAL7	Allergy to pineapple
+ESCTAL8	Allergy to pork
+EMISNQAL5	Allergies and adverse reactions
+^ESCTAD579670	Adverse reaction caused by losartan
+^ESCTCA578106	Carbamazepine adverse reaction
+^ESCTCA578261	Cardioselective beta-blocker adverse reaction
+^ESCTCE578983	Cefotaxime adverse reaction
+^ESCTDE579206	Dexamethasone adverse reaction
+^ESCTDR579658	Drug reaction: ACE inhibitor
+^ESCTLO578167	Lorazepam adverse reaction
+^ESCTMI578741	Miconazole adverse reaction
+^ESCTNO578043	Nortriptyline adverse reaction
+^ESCTOE579336	Oestriol adverse reaction
+^ESCTPA577698	Paracetamol adverse reaction
+^ESCTTE578190	Tetrabenazine adverse reaction
+^ESCTTI578289	Timolol adverse reaction
+^ESCTAD780683	Adverse reaction caused by candesartan
+^ESCTCE578959	Cefadroxil adverse reaction
+^ESCTCO577890	Cocaine adverse reaction
+^ESCTDO577809	Domperidone adverse reaction
+^ESCTHY578399	Hyoscine adverse reaction
+^ESCTHY578784	Hydroxychloroquine adverse reaction
+^ESCTIR579468	Iron adverse reaction
+^ESCTME579012	Metronidazole adverse reaction
+^ESCTNO579270	Norethisterone adverse reaction
+^ESCTPE578664	Penicillamine adverse reaction
+^ESCTPY578777	Pyrimethamine adverse reaction
+^ESCTTR579217	Triamcinolone adverse reaction
+^ESCTVA578885	Vancomycin adverse reaction
+ESCTAL2	Allergy to pollen
+^ESCT1407604	Adverse reaction to diphtheria, pertussis, and tetanus vaccine
+^ESCTAD350790	ADR - Adverse drug reaction
+^ESCTBL577942	Bleomycin adverse reaction
+^ESCT1270348	Dosulepin adverse reaction
+^ESCTCL578153	Clobazam adverse reaction
+^ESCTCL579004	Clindamycin adverse reaction
+^ESCTGE577848	General anaesthetic drug adverse reaction
+^ESCTHA578198	Haloperidol adverse reaction
+^ESCTHY579525	Hydroxocobalamin adverse reaction
+^ESCTME577810	Metoclopramide adverse reaction
+^ESCTME577833	Mebeverine adverse reaction
+^ESCTME577959	Methotrexate adverse reaction
+^ESCTPI578925	Pivampicillin adverse reaction
+^ESCTPR579180	Prednisone adverse reaction
+^ESCTRI579099	Rifampicin adverse reaction
+^ESCT1408371	Adverse reaction to influenza virus vaccine
+^ESCTAD737571	Adverse reaction to mirtazapine
+^ESCTAN577695	Analgesic adverse reaction
+^ESCTCY579527	Cyanocobalamin adverse reaction
+^ESCTDI577723	Diamorphine adverse reaction
+^ESCTFE579476	Ferrous fumarate adverse reaction
+^ESCTNY578728	Nystatin adverse reaction
+^ESCTPE579667	Perindopril adverse reaction
+^ESCTPR579212	Prednisolone adverse reaction
+^ESCTAD473308	Adverse drug reaction notification
+^ESCTCL578049	Clomipramine adverse reaction
+^ESCTCO579340	Conjugated oestrogens adverse reaction
+^ESCTKE577858	Ketamine adverse reaction
+^ESCTLE811798	Leflunomide adverse reaction
+^ESCT1407197	Adverse reaction to bacterial vaccine
+^ESCT1407200	Adverse reaction to tuberculosis vaccine
+^ESCTAM578921	Amoxicillin adverse reaction
+^ESCTCO578951	Colistin adverse reaction
+^ESCTHY578479	Hydroxyzine adverse reaction
+^ESCTME578269	Metoprolol adverse reaction
+^ESCTPI578939	Pivmecillinam adverse reaction
+^ESCTTR579462	Tranexamic acid adverse reaction
+^ESCTCE578977	Cefaclor adverse reaction
+^ESCTCY578003	Cyclosporin adverse reaction
+^ESCTDA579108	Dapsone adverse reaction
+^ESCTHY691268	Hydrocortisone adverse reaction
+^ESCTLA578090	Lamotrigine adverse reaction
+^ESCTPR578223	Prochlorperazine adverse reaction
+^ESCTSO578287	Sotalol adverse reaction
+^ESCTTR578403	Trihexyphenidyl adverse reaction
+EMISNQAD12	Adverse cutaneous reaction to acupuncture
+^ESCTAD491157	Adverse reaction to local astringents and local detergents
+^ESCTDO579060	Doxycycline adverse reaction
+^ESCTER693109	Erythromycin adverse reaction
+^ESCTFE579486	Ferrous sulphate adverse reaction
+^ESCTLA578278	Labetalol adverse reaction
+^ESCTME579210	Methylprednisolone adverse reaction
+^ESCTSU579027	Sulphadiazine adverse reaction
+^ESCTTE578169	Temazepam adverse reaction
+^ESCT1276191	Sulphonamide adverse reaction
+^ESCTCH578151	Chlordiazepoxide adverse reaction
+^ESCTCH578786	Chloroquine adverse reaction
+^ESCTDO578038	Doxepin adverse reaction
+^ESCTFU578894	Fusidic acid adverse reaction
+^ESCTLY579062	Lymecycline adverse reaction
+^ESCTPR578217	Promazine adverse reaction
+^ESCTST578871	Streptomycin adverse reaction
+^ESCT1270349	Local anaesthetic drug adverse reaction
+^ESCTBE578259	Beta-adrenoceptor blocking drug adverse reaction
+^ESCTBU577719	Buprenorphine adverse reaction
+^ESCTCE578961	Cephalexin adverse reaction
+^ESCTCE578985	Ceftazidime adverse reaction
+^ESCTCH578175	Chloral hydrate adverse reaction
+^ESCTDI578165	Diazepam adverse reaction
+^ESCTEP578384	Ephedrine adverse reaction
+^ESCTIB490971	Ibuprofen adverse reaction
+^ESCTME577961	Mercaptopurine adverse reaction
+^ESCTME578859	Mebendazole adverse reaction
+^ESCTMI577945	Mitomycin adverse reaction
+^ESCTPR578104	Primidone adverse reaction
+^ESCTQU578792	Quinine adverse reaction
+^ESCTSA578357	Salbutamol adverse reaction
+^ESCT1270347	Chlorphenamine adverse reaction
+^ESCTAZ578881	Azithromycin adverse reaction
+^ESCTCE578971	Cephradine adverse reaction
+^ESCTDO578054	Dothiepin adverse reaction
+^ESCTGL579241	Gliclazide adverse reaction
+^ESCTLO578041	Lofepramine adverse reaction
+^ESCTNE578185	Neuroleptic adverse reaction
+^ESCT1407599	Vaccine adverse reaction
+^ESCTAM578919	Amoxycillin adverse reaction
+^ESCTCA579170	Carbimazole adverse reaction
+^ESCTCH578213	Chlorpromazine adverse reaction
+^ESCTCI578077	Citalopram adverse reaction
+^ESCTOE579310	Oestradiol adverse reaction
+^ESCTOX579064	Oxytetracycline adverse reaction
+^ESCTPH578109	Phenytoin adverse reaction
+^ESCTPR577860	Propofol adverse reaction
+^ESCTSU692946	Suxamethonium adverse reaction
+^ESCTTA577993	Tamoxifen adverse reaction
