@@ -1,0 +1,13 @@
+6152.	Intrauterine contraceptive device removed
+7D1E4	Removal of intrauterine contraceptive device from pouch of Douglas
+7E091	Replacement of intrauterine contraceptive device
+7E093	Removal of displaced intrauterine contraceptive device
+X403J	Removal of displaced intrauterine device from peritoneal cavity
+XM0oH	Transvaginal removal of coil
+Xa9gb	Removal of intrauterine contraceptive device NEC
+XaC3g	Removing coil
+XaEWC	[V]Removal of intrauterine contraceptive device
+XaJlK	Removal of Mirena coil
+XaZZX	Replacement of intrauterine system
+XabuT	Removal of intrauterine system
+ZV254	[V]Removal of intrauterine contraceptive device

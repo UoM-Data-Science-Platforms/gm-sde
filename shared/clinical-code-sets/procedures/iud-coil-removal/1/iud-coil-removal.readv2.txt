@@ -1,0 +1,24 @@
+6152.	IUD removed
+6152.00	IUD removed
+7D1E4	Removal of intrauterine contraceptive device from pouch of Douglas
+7D1E400	Removal of intrauterine contraceptive device from pouch of Douglas
+7D1E411	Removal of contraceptive coil from pouch of Douglas
+7E091	Replacement of intrauterine contraceptive device
+7E09100	Replacement of intrauterine contraceptive device
+7E09111	Change of intrauterine contraceptive device
+7E092	Removal of intrauterine contraceptive device NEC
+7E09200	Removal of intrauterine contraceptive device NEC
+7E093	Removal of displaced intrauterine contraceptive device
+7E09300	Removal of displaced intrauterine contraceptive device
+7E095	Removal of Mirena coil
+7E09500	Removal of Mirena coil
+7E096	Replacement of intrauterine system
+7E09600	Replacement of intrauterine system
+7E098	Removal of intrauterine system
+7E09800	Removal of intrauterine system
+ZV25413	[V]Removal of coil
+ZV25416	[V]Removal of intrauterine contraceptive device
+ZV2541B	[V]Removal of intrauterine contraceptive device
+ZV25E	[V]Removal of intrauterine contraceptive device
+ZV25E00	[V]Removal of intrauterine contraceptive device
+ZV25E11	[V]Removal of coil

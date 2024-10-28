@@ -1,0 +1,23 @@
+^ESCT1369415	Complex removal of intrauterine contraceptive device
+^ESCT1369416	Complex removal of IUCD
+^ESCTCH325445	Change of coil
+^ESCTCO555963	Coil - vaginal removal
+^ESCTFL777834	Fluoroscopy guided removal of IUCD (intrauterine contraceptive device)
+^ESCTFL777836	Fluoroscopy guided removal of intrauterine contraceptive device
+^ESCTIU325443	IUCD - Change of intrauterine contraceptive device
+^ESCTIU325444	IUD - Change of intrauterine device
+^ESCTIU361054	IUCD -Removal of intrauterine contraceptive device
+^ESCTIU361055	IUD - Removal of intrauterine device
+^ESCTIU467490	IUD - Removal of displaced intrauterine device
+^ESCTIU510015	IUD - Removal of displaced intrauterine device from peritoneal cavity
+^ESCTIU510016	IUCD - Removal of displaced intrauterine contraceptive device from peritoneal cavity
+^ESCTRE325441	Replacement of IUD
+^ESCTRE325446	Replacement of contraceptive intrauterine device
+^ESCTRE361052	Removing coil
+^ESCTRE467489	Removal of displaced coil
+^ESCTRE510014	Removal of displaced intrauterine device from peritoneal cavity
+^ESCTRE510017	Removal of displaced intrauterine contraceptive device from peritoneal cavity
+^ESCTRE747860	Removal of IUS (intrauterine system)
+^ESCTRE777835	Removal of intrauterine contraceptive device using fluoroscopic guidance
+^ESCTRE828547	Replacement of IUS (intrauterine system)
+^ESCTTR555962	Transvaginal removal of coil
