@@ -1,0 +1,36 @@
+36041611000001107	Medroxyprogesterone 500mg/2.5ml suspension for injection vials
+1183411000001108	Medroxyprogesterone 500mg/2.5ml suspension for injection vials
+36041511000001108	Medroxyprogesterone 150mg/1ml suspension for injection vials
+3602811000001106	Medroxyprogesterone 150mg/1ml suspension for injection vials
+60311000001102	Farlutal 500 suspension for injection 2.5ml vials (Pfizer Ltd)
+2825911000001100	Farlutal 500 suspension for injection 2.5ml vials (Pfizer Ltd)
+3603311000001107	Depo-Provera 150mg/1ml suspension for injection vials (Pfizer Ltd)
+3603511000001101	Depo-Provera 150mg/1ml suspension for injection vials (Pfizer Ltd)
+5260111000001109	Depo-Provera 150mg/1ml suspension for injection vials (Waymade Healthcare Plc)
+5260211000001103	Depo-Provera 150mg/1ml suspension for injection vials (Waymade Healthcare Plc)
+14221611000001107	Depo-Provera 150mg/1ml suspension for injection vials (Sigma Pharmaceuticals Plc)
+14222011000001108	Depo-Provera 150mg/1ml suspension for injection vials (Sigma Pharmaceuticals Plc)
+769811000001103	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Pfizer Ltd)
+1986411000001101	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Pfizer Ltd)
+10522811000001108	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Waymade Healthcare Plc)
+10522911000001103	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Waymade Healthcare Plc)
+13157311000001106	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Dowelhurst Ltd)
+13157411000001104	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Dowelhurst Ltd)
+14220511000001101	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Sigma Pharmaceuticals Plc)
+14220711000001106	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Sigma Pharmaceuticals Plc)
+17341611000001109	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Mawdsley-Brooks & Company Ltd)
+17341711000001100	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Mawdsley-Brooks & Company Ltd)
+18249611000001106	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Necessity Supplies Ltd)
+18249811000001105	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Necessity Supplies Ltd)
+18572611000001106	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (DE Pharmaceuticals)
+18572711000001102	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (DE Pharmaceuticals)
+22214111000001104	Medroxyprogesterone 104mg/0.65ml suspension for injection pre-filled disposable devices
+22208711000001108	Medroxyprogesterone 104mg/0.65ml suspension for injection pre-filled disposable devices
+22208811000001100	Sayana Press 104mg/0.65 ml suspension for injection pre-filled disposable devices (Pfizer Ltd)
+22208911000001105	Sayana Press 104mg/0.65 ml suspension for injection pre-filled disposable devices (Pfizer Ltd)
+571111000001101	Noristerat 200mg/1ml solution for injection ampoules (Bayer Plc)
+2817011000001100	Noristerat 200mg/1ml solution for injection ampoules (Bayer Plc)
+12199311000001104	Noristerat 200mg/1ml solution for injection ampoules (Waymade Healthcare Plc)
+12199411000001106	Noristerat 200mg/1ml solution for injection ampoules (Waymade Healthcare Plc)
+36032611000001102	Norethisterone 200mg/1ml solution for injection ampoules
+998511000001102	Norethisterone 200mg/1ml solution for injection ampoules

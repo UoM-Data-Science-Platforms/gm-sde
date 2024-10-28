@@ -1,0 +1,323 @@
+326447002	Norethisterone 350microgram tablets
+1313211000001103	Norethisterone 350microgram tablets
+167411000001104	Noriday 350microgram tablets (Pfizer Ltd)
+1843411000001105	Noriday 350microgram tablets (Pfizer Ltd)
+193611000001107	Micronor 350microgram tablets (Janssen-Cilag Ltd)
+1844411000001108	Micronor 350microgram tablets (Janssen-Cilag Ltd)
+326425002	Levonorgestrel 30microgram tablets
+982011000001106	Levonorgestrel 30microgram tablets
+39454311000001101	Levonorgestrel 30microgram tablets
+42311000001109	Microval 30microgram tablets (Wyeth Pharmaceuticals)
+1929911000001107	Microval 30microgram tablets (Wyeth Pharmaceuticals)
+221011000001108	Norgeston 30microgram tablets (Bayer Plc)
+1930011000001102	Norgeston 30microgram tablets (Bayer Plc)
+39454411000001108	Levonorgestrel 30microgram tablets (Imported)
+39454511000001107	Levonorgestrel 30microgram tablets (Imported)
+400430004	Norgestrel 75microgram tablets
+1234311000001106	Norgestrel 75microgram tablets
+260111000001105	Neogest 75microgram tablets (Schering Health Care Ltd)
+2389711000001106	Neogest 75microgram tablets (Schering Health Care Ltd)
+326421006	Etynodiol 500microgram tablets
+1243111000001108	Etynodiol 500microgram tablets
+462011000001107	Femulen 500microgram tablets (Pfizer Ltd)
+2595611000001102	Femulen 500microgram tablets (Pfizer Ltd)
+400419002	Desogestrel 75microgram tablets
+3410511000001107	Desogestrel 75microgram tablets
+36546711000001106	Desogestrel 75microgram tablets
+36546811000001103	Desogestrel 75microgram tablets
+3411311000001106	Cerazette 75microgram tablets (Organon Pharma (UK) Ltd)
+3411611000001101	Cerazette 75microgram tablets (Organon Pharma (UK) Ltd)
+21520611000001101	Nacrez 75microgram tablets (Teva UK Ltd)
+21520711000001105	Nacrez 75microgram tablets (Teva UK Ltd)
+21695811000001107	Desogestrel 75microgram tablets (Alliance Healthcare (Distribution) Ltd)
+21695911000001102	Desogestrel 75microgram tablets (Alliance Healthcare (Distribution) Ltd)
+21701011000001107	Aizea 75microgram tablets (Besins Healthcare (UK) Ltd)
+21701111000001108	Aizea 75microgram tablets (Besins Healthcare (UK) Ltd)
+21706911000001101	Desorex 75microgram tablets (Somex Pharma)
+21707011000001102	Desorex 75microgram tablets (Somex Pharma)
+21732311000001109	Desogestrel 75microgram tablets (A A H Pharmaceuticals Ltd)
+21732411000001102	Desogestrel 75microgram tablets (A A H Pharmaceuticals Ltd)
+22263411000001107	Cerelle 75microgram tablets (Consilient Health Ltd)
+22263511000001106	Cerelle 75microgram tablets (Consilient Health Ltd)
+22502911000001100	Desomono 75microgram tablets (MedRx Licences Ltd)
+22503011000001108	Desomono 75microgram tablets (MedRx Licences Ltd)
+22665311000001101	Desogestrel 75microgram tablets (Actavis UK Ltd)
+22665411000001108	Desogestrel 75microgram tablets (Actavis UK Ltd)
+23269711000001105	Zelleta 75microgram tablets (Morningside Healthcare Ltd)
+23269811000001102	Zelleta 75microgram tablets (Morningside Healthcare Ltd)
+23968111000001101	Desogestrel 75microgram tablets (DE Pharmaceuticals)
+23968211000001107	Desogestrel 75microgram tablets (DE Pharmaceuticals)
+24677711000001105	Feanolla 75microgram tablets (Lupin Healthcare (UK) Ltd)
+24677811000001102	Feanolla 75microgram tablets (Lupin Healthcare (UK) Ltd)
+29760711000001107	Desogestrel 75microgram tablets (Zentiva Pharma UK Ltd)
+29760811000001104	Desogestrel 75microgram tablets (Zentiva Pharma UK Ltd)
+29802211000001102	Desogestrel 75microgram tablets (Sigma Pharmaceuticals Plc)
+29802411000001103	Desogestrel 75microgram tablets (Sigma Pharmaceuticals Plc)
+30021211000001100	Desogestrel 75microgram tablets (Mawdsley-Brooks & Company Ltd)
+30021311000001108	Desogestrel 75microgram tablets (Mawdsley-Brooks & Company Ltd)
+34551611000001104	Desogestrel 75microgram tablets (Crescent Pharma Ltd)
+34551711000001108	Desogestrel 75microgram tablets (Crescent Pharma Ltd)
+35102211000001103	Desogestrel 75microgram tablets (Lupin Healthcare (UK) Ltd)
+35102311000001106	Desogestrel 75microgram tablets (Lupin Healthcare (UK) Ltd)
+36546611000001102	Moonia 75microgram tablets (Stragen UK Ltd)
+36547111000001108	Moonia 75microgram tablets (Stragen UK Ltd)
+36546911000001108	Moonia 75microgram tablets (Stragen UK Ltd)
+36547311000001105	Moonia 75microgram tablets (Stragen UK Ltd)
+38829211000001101	Desogestrel 75microgram tablets (Morningside Healthcare Ltd)
+38829311000001109	Desogestrel 75microgram tablets (Morningside Healthcare Ltd)
+38867011000001109	Desogestrel 75microgram tablets (Medihealth (Northern) Ltd)
+38867111000001105	Desogestrel 75microgram tablets (Medihealth (Northern) Ltd)
+326364003	Ethinylestradiol 35microgram / Norgestimate 250microgram tablets
+1319111000001107	Ethinylestradiol 35microgram / Norgestimate 250microgram tablets
+1078411000001102	Ethinylestradiol 35microgram / Norgestimate 250microgram tablets
+380211000001105	Cilest 35microgram/250microgram tablets (Janssen-Cilag Ltd)
+1852311000001105	Cilest 35microgram/250microgram tablets (Janssen-Cilag Ltd)
+1852611000001100	Cilest 35microgram/250microgram tablets (Janssen-Cilag Ltd)
+22562211000001105	Lizinna 250microgram/35microgram tablets (Morningside Healthcare Ltd)
+22562311000001102	Lizinna 250microgram/35microgram tablets (Morningside Healthcare Ltd)
+31364011000001106	Cilique 250microgram/35microgram tablets (Consilient Health Ltd)
+31364211000001101	Cilique 250microgram/35microgram tablets (Consilient Health Ltd)
+326325001	Levonorgestrel 250microgram / Ethinylestradiol 30microgram tablets
+1227411000001107	Levonorgestrel 250microgram / Ethinylestradiol 30microgram tablets
+769711000001106	Eugynon 30 tablets (Schering Health Care Ltd)
+1969911000001103	Eugynon 30 tablets (Schering Health Care Ltd)
+326324002	Ethinylestradiol 30microgram / Levonorgestrel 150microgram tablets
+1010411000001108	Ethinylestradiol 30microgram / Levonorgestrel 150microgram tablets
+961711000001104	Ethinylestradiol 30microgram / Levonorgestrel 150microgram tablets
+42111000001107	Microgynon 30 tablets (Bayer Plc)
+1974011000001106	Microgynon 30 tablets (Bayer Plc)
+3050411000001108	Microgynon 30 tablets (Bayer Plc)
+492611000001103	Ovranette 150microgram/30microgram tablets (Pfizer Ltd)
+1974811000001100	Ovranette 150microgram/30microgram tablets (Pfizer Ltd)
+16614111000001103	Levest 150/30 tablets (Morningside Healthcare Ltd)
+16614211000001109	Levest 150/30 tablets (Morningside Healthcare Ltd)
+16614411000001108	Levest 150/30 tablets (Morningside Healthcare Ltd)
+17220611000001108	Levest 150/30 tablets (Actavis UK Ltd)
+17220711000001104	Levest 150/30 tablets (Actavis UK Ltd)
+17346711000001106	Rigevidon tablets (Consilient Health Ltd)
+17346811000001103	Rigevidon tablets (Consilient Health Ltd)
+18358111000001100	Elevin 150microgram/30microgram tablets (MedRx Licences Ltd)
+22223511000001100	Elevin 150microgram/30microgram tablets (MedRx Licences Ltd)
+18358211000001106	Elevin 150microgram/30microgram tablets (MedRx Licences Ltd)
+24677511000001100	Maexeni 150microgram/30microgram tablets (Lupin Healthcare (UK) Ltd)
+24677611000001101	Maexeni 150microgram/30microgram tablets (Lupin Healthcare (UK) Ltd)
+24684511000001103	Erlibelle 30microgram/150microgram tablets (Actavis UK Ltd)
+24684611000001104	Erlibelle 30microgram/150microgram tablets (Actavis UK Ltd)
+34104511000001102	Leandra 30microgram/150microgram tablets (Genesis Pharmaceuticals Ltd)
+34104611000001103	Leandra 30microgram/150microgram tablets (Genesis Pharmaceuticals Ltd)
+38738111000001100	Ambelina 150microgram/30microgram tablets (Crescent Pharma Ltd)
+38738411000001105	Ambelina 150microgram/30microgram tablets (Crescent Pharma Ltd)
+326341000	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets
+1253611000001103	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets
+3227311000001106	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets
+4431411000001109	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets
+4431711000001103	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets
+39216611000001106	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets
+235311000001105	Ovysmen 500microgram/35microgram tablets (Janssen-Cilag Ltd)
+2077511000001103	Ovysmen 500microgram/35microgram tablets (Janssen-Cilag Ltd)
+312411000001108	Brevinor 500microgram/35microgram tablets (Pfizer Ltd)
+2077911000001105	Brevinor 500microgram/35microgram tablets (Pfizer Ltd)
+3227811000001102	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Janssen-Cilag Ltd)
+3227911000001107	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Janssen-Cilag Ltd)
+4431511000001108	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Pfizer Ltd)
+4431611000001107	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Pfizer Ltd)
+4431811000001106	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Pfizer Ltd)
+39216911000001100	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Imported)
+39217011000001101	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Imported)
+377414004	Ethinylestradiol 35microgram / Norethisterone 1mg tablets
+1082311000001104	Ethinylestradiol 35microgram / Norethisterone 1mg tablets
+3228211000001104	Ethinylestradiol 35microgram / Norethisterone 1mg tablets
+3235211000001109	Ethinylestradiol 35microgram / Norethisterone 1mg tablets
+4431111000001104	Ethinylestradiol 35microgram / Norethisterone 1mg tablets
+39217111000001100	Ethinylestradiol 35microgram / Norethisterone 1mg tablets
+403611000001106	Norimin 1mg/35microgram tablets (Pfizer Ltd)
+2078211000001102	Norimin 1mg/35microgram tablets (Pfizer Ltd)
+3228611000001102	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Janssen-Cilag Ltd)
+3228811000001103	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Janssen-Cilag Ltd)
+3235411000001108	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Janssen-Cilag Ltd)
+4431211000001105	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Pfizer Ltd)
+4431311000001102	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Pfizer Ltd)
+39217211000001106	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Imported)
+39217311000001103	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Imported)
+326309006	Ethinylestradiol 20microgram / Desogestrel 150microgram tablets
+1235811000001101	Ethinylestradiol 20microgram / Desogestrel 150microgram tablets
+208311000001105	Mercilon 150microgram/20microgram tablets (Organon Pharma (UK) Ltd)
+2619611000001105	Mercilon 150microgram/20microgram tablets (Organon Pharma (UK) Ltd)
+17346911000001108	Gedarel 20microgram/150microgram tablets (Consilient Health Ltd)
+17347011000001107	Gedarel 20microgram/150microgram tablets (Consilient Health Ltd)
+21933611000001103	Lestramyl 20microgram/150microgram tablets (Viatris UK Healthcare Ltd)
+21933811000001104	Lestramyl 20microgram/150microgram tablets (Viatris UK Healthcare Ltd)
+24678111000001105	Munalea 150microgram/20microgram tablets (Lupin Healthcare (UK) Ltd)
+24678311000001107	Munalea 150microgram/20microgram tablets (Lupin Healthcare (UK) Ltd)
+28006411000001100	Alenini 150microgram/20microgram tablets (Actavis UK Ltd)
+28006511000001101	Alenini 150microgram/20microgram tablets (Actavis UK Ltd)
+29910811000001108	Bimizza 150microgram/20microgram tablets (Morningside Healthcare Ltd)
+29911111000001107	Bimizza 150microgram/20microgram tablets (Morningside Healthcare Ltd)
+326310001	Ethinylestradiol 30microgram / Desogestrel 150microgram tablets
+1015611000001103	Ethinylestradiol 30microgram / Desogestrel 150microgram tablets
+524211000001108	Marvelon tablets (Organon Pharma (UK) Ltd)
+2620511000001105	Marvelon tablets (Organon Pharma (UK) Ltd)
+17348811000001102	Gedarel 30microgram/150microgram tablets (Consilient Health Ltd)
+17349111000001102	Gedarel 30microgram/150microgram tablets (Consilient Health Ltd)
+21730911000001106	Cimizt 30microgram/150microgram tablets (Morningside Healthcare Ltd)
+21731311000001100	Cimizt 30microgram/150microgram tablets (Morningside Healthcare Ltd)
+21930311000001102	Lestramyl 30microgram/150microgram tablets (Viatris UK Healthcare Ltd)
+21930411000001109	Lestramyl 30microgram/150microgram tablets (Viatris UK Healthcare Ltd)
+24677911000001107	Munalea 150microgram/30microgram tablets (Lupin Healthcare (UK) Ltd)
+24678011000001109	Munalea 150microgram/30microgram tablets (Lupin Healthcare (UK) Ltd)
+24684111000001107	Alenvona 150microgram/30microgram tablets (Teva UK Ltd)
+24684211000001101	Alenvona 150microgram/30microgram tablets (Teva UK Ltd)
+377360003	Ethinylestradiol 30microgram / Drospirenone 3mg tablets
+1056411000001101	Ethinylestradiol 30microgram / Drospirenone 3mg tablets
+34697211000001106	Ethinylestradiol 30microgram / Drospirenone 3mg tablets
+439011000001108	Yasmin tablets (Bayer Plc)
+2646411000001106	Yasmin tablets (Bayer Plc)
+23649211000001107	Lucette 0.03mg/3mg tablets (Consilient Health Ltd)
+23649311000001104	Lucette 0.03mg/3mg tablets (Consilient Health Ltd)
+24564811000001106	Acondro 0.03mg/3mg tablets (Viatris UK Healthcare Ltd)
+24565011000001101	Acondro 0.03mg/3mg tablets (Viatris UK Healthcare Ltd)
+24684311000001109	Cleosensa 0.03mg/3mg tablets (Actavis UK Ltd)
+24684411000001102	Cleosensa 0.03mg/3mg tablets (Actavis UK Ltd)
+27979911000001107	Dretine 0.03mg/3mg tablets (Theramex HQ UK Ltd)
+27980011000001108	Dretine 0.03mg/3mg tablets (Theramex HQ UK Ltd)
+29911411000001102	Yacella 0.03mg/3mg tablets (Morningside Healthcare Ltd)
+29911511000001103	Yacella 0.03mg/3mg tablets (Morningside Healthcare Ltd)
+33017111000001106	Yiznell 0.03mg/3mg tablets (Lupin Healthcare (UK) Ltd)
+33017411000001101	Yiznell 0.03mg/3mg tablets (Lupin Healthcare (UK) Ltd)
+34181511000001103	Ellanite 0.03mg/3mg tablets (Stragen UK Ltd)
+34181611000001104	Ellanite 0.03mg/3mg tablets (Stragen UK Ltd)
+34697311000001103	Ellanite 0.03mg/3mg tablets (Stragen UK Ltd)
+3557311000001103	Generic Tri-Minulet tablets
+3046511000001106	Generic Tri-Minulet tablets
+3046611000001105	Tri-Minulet tablets (Wyeth Pharmaceuticals)
+3047111000001104	Tri-Minulet tablets (Wyeth Pharmaceuticals)
+3047311000001102	Triadene tablets (Bayer Plc)
+3047411000001109	Triadene tablets (Bayer Plc)
+326358005	Ethinylestradiol 30microgram / Gestodene 75microgram tablets
+3048411000001108	Ethinylestradiol 30microgram / Gestodene 75microgram tablets
+36543711000001104	Ethinylestradiol 30microgram / Gestodene 75microgram tablets
+3048611000001106	Minulet tablets (Wyeth Pharmaceuticals)
+3048711000001102	Minulet tablets (Wyeth Pharmaceuticals)
+3048811000001105	Femodene tablets (Bayer Plc)
+3048911000001100	Femodene tablets (Bayer Plc)
+11753211000001109	Katya 30/75 tablets (Stragen UK Ltd)
+11753311000001101	Katya 30/75 tablets (Stragen UK Ltd)
+36543911000001102	Katya 30/75 tablets (Stragen UK Ltd)
+17351511000001107	Millinette 30microgram/75microgram tablets (Consilient Health Ltd)
+17351811000001105	Millinette 30microgram/75microgram tablets (Consilient Health Ltd)
+24676611000001103	Aidulan 30microgram/75microgram tablets (Lupin Healthcare (UK) Ltd)
+24676711000001107	Aidulan 30microgram/75microgram tablets (Lupin Healthcare (UK) Ltd)
+30805911000001101	Sofiperla 75microgram/30microgram tablets (Actavis UK Ltd)
+30806011000001109	Sofiperla 75microgram/30microgram tablets (Actavis UK Ltd)
+38340211000001108	Akizza 75microgram/30microgram tablets (Morningside Healthcare Ltd)
+38340311000001100	Akizza 75microgram/30microgram tablets (Morningside Healthcare Ltd)
+326361006	Ethinylestradiol 20microgram / Gestodene 75microgram tablets
+3049011000001109	Ethinylestradiol 20microgram / Gestodene 75microgram tablets
+36549311000001100	Ethinylestradiol 20microgram / Gestodene 75microgram tablets
+3049211000001104	Femodette tablets (Bayer Plc)
+3049411000001100	Femodette tablets (Bayer Plc)
+11758611000001104	Sunya 20/75 tablets (Stragen UK Ltd)
+11758711000001108	Sunya 20/75 tablets (Stragen UK Ltd)
+36549711000001101	Sunya 20/75 tablets (Stragen UK Ltd)
+17353311000001100	Millinette 20microgram/75microgram tablets (Consilient Health Ltd)
+17353411000001107	Millinette 20microgram/75microgram tablets (Consilient Health Ltd)
+24676211000001100	Aidulan 20microgram/75microgram tablets (Lupin Healthcare (UK) Ltd)
+24676311000001108	Aidulan 20microgram/75microgram tablets (Lupin Healthcare (UK) Ltd)
+30805711000001103	Juliperla 75microgram/20microgram tablets (Actavis UK Ltd)
+30805811000001106	Juliperla 75microgram/20microgram tablets (Actavis UK Ltd)
+38335711000001105	Akizza 75microgram/20microgram tablets (Morningside Healthcare Ltd)
+38335911000001107	Akizza 75microgram/20microgram tablets (Morningside Healthcare Ltd)
+3546811000001107	Generic Microgynon 30 ED tablets
+3052411000001109	Generic Microgynon 30 ED tablets
+3052511000001108	Microgynon 30 ED tablets (Bayer Plc)
+3052611000001107	Microgynon 30 ED tablets (Bayer Plc)
+326350003	Ethinylestradiol 20microgram / Norethisterone acetate 1mg tablets
+3058011000001102	Ethinylestradiol 20microgram / Norethisterone acetate 1mg tablets
+3058111000001101	Loestrin 20 tablets (Galen Ltd)
+3058211000001107	Loestrin 20 tablets (Galen Ltd)
+326351004	Ethinylestradiol 30microgram / Norethisterone acetate 1.5mg tablets
+3058311000001104	Ethinylestradiol 30microgram / Norethisterone acetate 1.5mg tablets
+3058411000001106	Loestrin 30 tablets (Galen Ltd)
+3058511000001105	Loestrin 30 tablets (Galen Ltd)
+36062011000001103	Generic Femodene ED tablets
+3174511000001106	Generic Femodene ED tablets
+3174811000001109	Femodene ED tablets (Bayer Plc)
+3174911000001104	Femodene ED tablets (Bayer Plc)
+3545111000001106	Generic Logynon tablets
+3212511000001107	Generic Logynon tablets
+3212711000001102	Trinordiol tablets (Wyeth Pharmaceuticals)
+3212911000001100	Trinordiol tablets (Wyeth Pharmaceuticals)
+3213311000001106	Logynon tablets (Bayer Plc)
+3213811000001102	Logynon tablets (Bayer Plc)
+17444111000001106	TriRegol tablets (Consilient Health Ltd)
+17444211000001100	TriRegol tablets (Consilient Health Ltd)
+3545011000001105	Generic Logynon ED tablets
+3214711000001107	Generic Logynon ED tablets
+3215011000001109	Logynon ED tablets (Bayer Plc)
+3215811000001103	Logynon ED tablets (Bayer Plc)
+3464511000001102	Generic Trinovum tablets
+3233211000001105	Generic Trinovum tablets
+3233311000001102	Trinovum tablets (Janssen-Cilag Ltd)
+3233611000001107	Trinovum tablets (Janssen-Cilag Ltd)
+3404311000001107	Generic Binovum tablets
+3236111000001109	Generic Binovum tablets
+3236411000001104	Binovum tablets (Janssen-Cilag Ltd)
+3236511000001100	Binovum tablets (Janssen-Cilag Ltd)
+326369008	Mestranol 50microgram / Norethisterone 1mg tablets
+3831211000001103	Mestranol 50microgram / Norethisterone 1mg tablets
+39229811000001109	Mestranol 50microgram / Norethisterone 1mg tablets
+3831411000001104	Norinyl-1 tablets (Pfizer Ltd)
+3831811000001102	Norinyl-1 tablets (Pfizer Ltd)
+39229711000001101	Mestranol 50microgram / Norethisterone 1mg tablets (Imported)
+39229911000001104	Mestranol 50microgram / Norethisterone 1mg tablets (Imported)
+4436711000001109	Generic Synphase tablets
+4431911000001101	Generic Synphase tablets
+4432011000001108	Synphase tablets (Pfizer Ltd)
+4433611000001106	Synphase tablets (Pfizer Ltd)
+38998911000001103	Synphase tablets (Imported (Germany))
+38999011000001107	Synphase tablets (Imported (Germany))
+38999311000001105	Synphase tablets (Imported (Canada))
+38999911000001106	Synphase tablets (Imported (Canada))
+326326000	Levonorgestrel 250microgram / Ethinylestradiol 50microgram tablets
+4546411000001108	Levonorgestrel 250microgram / Ethinylestradiol 50microgram tablets
+4546511000001107	Levonorgestrel 250microgram / Ethinylestradiol 50microgram tablets
+4546611000001106	Eugynon 50 tablets (Schering Health Care Ltd)
+4547011000001101	Eugynon 50 tablets (Schering Health Care Ltd)
+4547111000001100	Schering PC4 tablets (Schering Health Care Ltd)
+4547211000001106	Schering PC4 tablets (Schering Health Care Ltd)
+4547311000001103	Ovran tablets (Wyeth Pharmaceuticals)
+4547411000001105	Ovran tablets (Wyeth Pharmaceuticals)
+15473911000001109	Generic Qlaira tablets
+15469911000001104	Generic Qlaira tablets
+15470011000001100	Qlaira tablets (Bayer Plc)
+15470111000001104	Qlaira tablets (Bayer Plc)
+21711311000001107	Ethinylestradiol 20microgram / Drospirenone 3mg tablets
+21707111000001101	Ethinylestradiol 20microgram / Drospirenone 3mg tablets
+22263611000001105	Yaz tablets (Imported (United States))
+22263711000001101	Yaz tablets (Imported (United States))
+30195711000001107	Eloine 0.02mg/3mg tablets (Bayer Plc)
+30196011000001101	Eloine 0.02mg/3mg tablets (Bayer Plc)
+30252711000001105	Daylette 0.02mg/3mg tablets (Consilient Health Ltd)
+30252811000001102	Daylette 0.02mg/3mg tablets (Consilient Health Ltd)
+39069811000001105	Ethinylestradiol 20microgram / Drospirenone 3mg tablets (Imported)
+39069911000001100	Ethinylestradiol 20microgram / Drospirenone 3mg tablets (Imported)
+22403311000001100	Estradiol 1.5mg / Nomegestrol 2.5mg tablets
+22311311000001109	Estradiol 1.5mg / Nomegestrol 2.5mg tablets
+22311511000001103	Zoely 2.5mg/1.5mg tablets (Theramex HQ UK Ltd)
+22311711000001108	Zoely 2.5mg/1.5mg tablets (Theramex HQ UK Ltd)
+15364511000001104	NuvaRing 0.12mg/0.015mg per day vaginal delivery system (Organon Pharma (UK) Ltd)
+15364611000001100	NuvaRing 0.12mg/0.015mg per day vaginal delivery system (Organon Pharma (UK) Ltd)
+36602211000001100	SyreniRing 0.12mg/0.015mg per day vaginal delivery system (Crescent Pharma Ltd)
+36602311000001108	SyreniRing 0.12mg/0.015mg per day vaginal delivery system (Crescent Pharma Ltd)
+15364711000001109	Ethinylestradiol 2.7mg / Etonogestrel 11.7mg vaginal delivery system
+15364411000001103	Ethinylestradiol 2.7mg / Etonogestrel 11.7mg vaginal delivery system
+4639611000001105	Ethinylestradiol 33.9micrograms/24hours / Norelgestromin 203micrograms/24hours transdermal patches
+4607911000001102	Ethinylestradiol 33.9micrograms/24hours / Norelgestromin 203micrograms/24hours transdermal patches
+4608311000001102	Evra transdermal patches (Gedeon Richter (UK) Ltd)
+4608811000001106	Evra transdermal patches (Gedeon Richter (UK) Ltd)
+41874011000001104	Desogestrel 75microgram tablets (product)
+41876911000001108	Ethinylestradiol 30microgram / Drospirenone 3mg tablets (product)
+41877011000001107	Ethinylestradiol 30microgram / Gestodene 75microgram tablets (product)
+41877111000001108	Ethinylestradiol 30microgram / Levonorgestrel 150microgram tablets (product)
+41877811000001101	Etynodiol 500microgram tablets (product)
+41880611000001105	Norethisterone 350microgram tablets (product)

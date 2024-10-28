@@ -1,0 +1,644 @@
+ACTA89976NEMIS	Acondro  Tablets  30 micrograms + 3 mg
+AITA78226NEMIS	Aizea  Tablets  75 micrograms
+AITA90953NEMIS	Aidulan  Tablets  20 micrograms + 75 micrograms
+AITA90954NEMIS	Aidulan  Tablets  30 micrograms + 75 micrograms
+AKTA135982NEMIS	Akizza  Tablets  20 micrograms + 75 micrograms
+AKTA135983NEMIS	Akizza  Tablets  30 micrograms + 75 micrograms
+ALTA90873NEMIS	Alenvona  Tablets  150 micrograms + 30 micrograms
+ALTA96307NEMIS	Alenini  Tablets  150 micrograms + 20 micrograms
+AMTA137831NEMIS	Ambelina  Tablets  150 micrograms + 30 micrograms
+BITA104159NEMIS	Bimizza  Tablets  150 micrograms + 20 micrograms
+BITA367	Binovum  Tablets  
+BRTA400	Brevinor  Tablets  
+CETA13845NEMIS	Cerazette  Tablets  75 micrograms
+CETA78101NEMIS	Cerelle  Tablets  75 micrograms
+CITA108993NEMIS	Cilique  Tablets  250 micrograms + 35 micrograms
+CITA78294NEMIS	Cimizt  Tablets  30 micrograms + 150 micrograms
+CITA9210EMIS	Cilest  Tablets  
+CLTA90879NEMIS	Cleosensa  Tablets  30 micrograms + 3 mg
+DATA104930NEMIS	Daylette  Tablets  20 micrograms + 3 mg
+DETA13843NEMIS	Desogestrel  Tablets  75 micrograms
+DETA78235NEMIS	Desorex  Tablets  75 micrograms
+DETA81474NEMIS	Desomono  Tablets  75 micrograms
+DRTA96300NEMIS	Dretine  Tablets  30 micrograms + 3 mg
+ELTA104781NEMIS	Eloine  Tablets  20 micrograms + 3 mg
+ELTA122199NEMIS	Ellanite  Tablets  30 micrograms + 3 mg
+ELTA48174NEMIS	Elevin  Tablets  30 micrograms + 150 micrograms
+ERTA90886NEMIS	Erlibelle  Tablets  30 micrograms + 150 micrograms
+ESTA79458NEMIS	Estradiol And Nomegestrol  Tablets  1.5 mg + 2.5 mg
+ETPA18984NEMIS	Ethinylestradiol And Norelgestromin  Patches  33.9 micrograms/24 hours + 203 micrograms/24 hours
+ETTA104779NEMIS	Ethinylestradiol And Drospirenone  Tablets  20 micrograms + 3 mg
+ETTA138282NEMIS	Ethinylestradiol And Drospirenone (Imported)  Tablets  20 micrograms + 3 mg
+ETTA138338NEMIS	Ethinylestradiol And Norethisterone (Imported)  Tablets  35 micrograms + 1 mg
+ETTA138339NEMIS	Ethinylestradiol And Norethisterone (Imported)  Tablets  35 micrograms + 500 micrograms
+ETTA17654NEMIS	Etynodiol  Tablets  500 micrograms
+ETTA18964NEMIS	Ethinylestradiol And Gestodene  Tablets  30 micrograms + 75 micrograms
+ETTA18971NEMIS	Ethinylestradiol And Levonorgestrel  Tablets  30 micrograms + 150 micrograms
+ETTA18976NEMIS	Ethinylestradiol And Drospirenone  Tablets  30 micrograms + 3 mg
+ETTA33041EMIS	Ethynodiol Diacetate  Tablets  500 micrograms
+ETTA38333MGEMIS	Ethinylestradiol And Norethisterone  Tablets  35 micrograms + 500 micrograms (Janssen-Cilag)
+ETTA38334MGEMIS	Ethinylestradiol And Norethisterone  Tablets  35 micrograms + 500 micrograms (Pfizer)
+ETTA38335MGEMIS	Ethinylestradiol And Norethisterone  Tablets  35 micrograms + 1 mg (Janssen-Cilag)
+ETTA38336MGEMIS	Ethinylestradiol And Norethisterone  Tablets  35 micrograms + 1 mg (Pfizer)
+ETVA124947NEMIS	Ethinylestradiol And Etonogestrel  Vaginal Delivery System  2.7 mg + 11.7 mg
+EUTA1121	Eugynon 30  Tablets  
+EUTA1122	Eugynon 50  Tablets
+EVTR15476NEMIS	Evra  Transdermal patches  33.9 micrograms/24 hours + 203 micrograms/24 hours
+FETA1153	Femulen  Tablets  500 micrograms
+FETA1536NEMIS	Femodette  Tablets  
+FETA19272EMIS	Femodene E.D.  Tablets  
+FETA90956NEMIS	Feanolla  Tablets  75 micrograms
+FETAEGTON7749	Femodene  Tablets  
+GETA44818NEMIS	Gedarel 30/150  Tablets  
+GETA44822NEMIS	Gedarel 20/150  Tablets  
+IMSU1039NEMIS	Implanon  Subdermal implant  68 mg
+JUTA105354NEMIS	Juliperla  Tablets  75 micrograms + 20 micrograms
+KATA26225NEMIS	Katya 30/75  Tablets  
+LETA122062NEMIS	Leandra  Tablet  30 micrograms + 150 micrograms
+LETA138940NEMIS	Levonorgestrel (Imported)  Tablets  30 micrograms
+LETA40465NEMIS	Levest 150/30  Tablets  
+LETA90794NEMIS	Lestramyl  Tablets  20 micrograms + 150 micrograms
+LETA90795NEMIS	Lestramyl  Tablets  30 micrograms + 150 micrograms
+LITA81509NEMIS	Lizinna  Tablets  250 micrograms + 35 micrograms
+LOTA1683	Loestrin 20  Tablets  
+LOTA1685	Logynon  Tablets  
+LOTA3849	Loestrin 30  Tablets  
+LOTA9092BRIDL	Logynon Ed  Tablets  
+LUTA86739NEMIS	Lucette  Tablets  30 micrograms + 3 mg
+MATA1723	Marvelon  Tablets  
+MATA90958NEMIS	Maexeni  Tablets  150 micrograms + 30 micrograms
+META138418NEMIS	Mestranol And Norethisterone (Imported)  Tablets  50 micrograms + 1 mg
+META9719BRIDL	Mercilon  Tablets  
+MICO44831NEMIS	Millinette 30/75  Tablets  
+MICO44834NEMIS	Millinette 20/75  Tablets  
+MITA1828	Microgynon 30  Tablets  
+MITA30523EMIS	Microgynon 30 Ed  Tablets  
+MITA3923	Micronor  Tablets  350 micrograms
+MITA3924	Microval  Tablets  30 micrograms
+MITA8869EGTON	Minulet  Tablets  
+MOTA130415NEMIS	Moonia  Tablets  75 micrograms
+MUTA90984NEMIS	Munalea  Tablets  150 micrograms + 20 micrograms
+MUTA90985NEMIS	Munalea  Tablets  150 micrograms + 30 micrograms
+NATA78103NEMIS	Nacrez  Tablets  75 micrograms
+NESU46640NEMIS	Nexplanon  Subdermal implant  68 mg
+NETA4016	Neogest  Tablets  
+NOTA2029	Noriday  Tablets  350 micrograms
+NOTA2030	Norimin  Tablets  
+NOTA29946EMIS	Norethisterone  Tablets  350 micrograms
+NOTA4046	Norgeston  Tablets  30 micrograms
+NOTA4047	Norinyl-1  Tablets  
+NUVA34633NEMIS	Nuvaring  Vaginal ring  
+OVTA2126	Ovran  Tablets  
+OVTA2127	Ovranette  Tablets  
+OVTA2128	Ovysmen  Tablets  
+QLTA36524NEMIS	Qlaira  Tablets  
+RICO44864NEMIS	Rigevidon  Tablets  
+SCTAEGTON7752	Schering Pc4  Tablets  
+SOTA105358NEMIS	Sofiperla  Tablets  75 micrograms + 30 micrograms
+SUTA26223NEMIS	Sunya 20/75  Tablets  
+SYTA138332NEMIS	Synphase Calendar Pack (Imported Canada)  Tablets  
+SYTA138333NEMIS	Synphase Calendar Pack (Imported Germany)  Tablets  
+SYTA8812BRIDL	Synphase Calendar Pack  Tablets  
+SYVA130634NEMIS	Syreniring  Vaginal Delivery System  
+TRCO44812NEMIS	Triregol  Tablets  
+TRTA19567EMIS	Triadene  Tablets  
+TRTA19715EMIS	Tri-Minulet  Tablets  
+TRTA2943	Trinordiol  Tablets  
+TRTA4458	Trinovum  Tablets  
+YATA104161NEMIS	Yacella  Tablets  30 micrograms + 3 mg
+YATA12813NEMIS	Yasmin  Tablets  
+YATA41125NEMIS	Yaz  Tablets  
+YITA117106NEMIS	Yiznell  Tablets  30 micrograms + 3 mg
+ZETA83195NEMIS	Zelleta  Tablets  75 micrograms
+ZOTA79462NEMIS	Zoely  Tablets  2.5 mg + 1.5 mg
+^ESCT1176675	Desogestrel 75microgram tablets (Lupin (Europe) Ltd)
+^ESCT1176676	Desogestrel 75microgram tablets (Lupin (Europe) Ltd) 84 tablet 3 x 28 tablets
+^ESCT1178763	Product containing only desogestrel 0.15 milligram and ethinylestradiol 0.03 milligram/1 each oral tablet
+^ESCT1178764	Product containing only desogestrel 0.15 milligram and ethinyl estradiol 0.03 milligram/1 each oral tablet
+^ESCT1178765	Product containing only ethinyl estradiol 0.03 milligram and levonorgestrel 0.15 milligram/1 each oral tablet
+^ESCT1178766	Product containing only ethinylestradiol 0.03 milligram and levonorgestrel 0.15 milligram/1 each oral tablet
+^ESCT1178767	Product containing only ethinyl estradiol 0.05 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCT1178768	Product containing only ethinylestradiol 0.05 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCT1178769	Product containing only mestranol 50 microgram and norethindrone 1 mg/1 each oral tablet
+^ESCT1178770	Product containing only mestranol 50 microgram and norethisterone 1 mg/1 each oral tablet
+^ESCT1178771	Product containing only ethynodiol diacetate 0.5 milligram/1 each oral tablet
+^ESCT1178772	Product containing only levonorgestrel 0.03 milligram/1 each oral tablet
+^ESCT1178774	Product containing only norethisterone 0.35 milligram/1 each oral tablet
+^ESCT1178775	Product containing only norethindrone 0.35 milligram oral tablet
+^ESCT1179339	Product containing only ethinyl estradiol 0.035 mg and norethindrone 1 mg/1 each oral tablet
+^ESCT1179340	Product containing only ethinyl estradiol 0.035 mg and norethisterone 1 mg/1 each oral tablet
+^ESCT1181872	Product containing only ethinylestradiol 0.03 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCT1181873	Product containing only ethinyl oestradiol 0.03 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCT1181874	Product containing only ethinyl estradiol 0.03 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCT1181875	Product containing only ethinylestradiol 0.02 milligram and norethisterone acetate 1 milligram/1 each oral tablet
+^ESCT1181876	Product containing only ethinyl estradiol 0.02 milligram and norethindrone acetate 1 milligram/1 each oral tablet
+^ESCT1181877	Product containing only ethinyl estradiol 0.035 milligram and norgestimate 0.25 milligram/1 each oral tablet
+^ESCT1181878	Product containing only ethinylestradiol 0.035 milligram and norgestimate 0.25 milligram/1 each oral tablet
+^ESCT1182188	Product containing only desogestrel 0.15 milligram and ethinylestradiol 0.02 milligram/1 each oral tablet
+^ESCT1182189	Product containing only desogestrel 0.15 milligram and ethinyl estradiol 0.02 milligram/1 each oral tablet
+^ESCT1182190	Product containing only ethinyl estradiol 0.03 milligram and gestodene 0.075 milligram/1 each oral tablet
+^ESCT1182191	Product containing only ethinylestradiol 0.03 milligram and gestodene 0.075 milligram/1 each oral tablet
+^ESCT1185015	Lestramyl 20microgram/150microgram tablets (Mylan) 63 tablet 3 x 21 tablets
+^ESCT1185251	Product containing only desogestrel 0.075 milligram/1 each oral tablet
+^ESCT1185252	Product containing only norgestrel 0.075 milligram/1 each oral tablet
+^ESCT1187063	Lestramyl 30microgram/150microgram tablets (Mylan) 63 tablet 3 x 21 tablets
+^ESCT1187095	Acondro 0.03mg/3mg tablets (Mylan) 63 tablet 3 x 21 tablets
+^ESCT1188211	Product containing only ethinyl estradiol 0.035 milligram and norethindrone 0.5 milligram/1 each oral tablet
+^ESCT1188212	Product containing only ethinylestradiol 0.035 milligram and norethisterone 0.5 milligram/1 each oral tablet
+^ESCT1188213	Product containing only ethinylestradiol 0.03 milligram and norethisterone acetate 1.5 milligram/1 each oral tablet
+^ESCT1188214	Product containing only ethinyl estradiol 0.03 milligram and norethindrone acetate 1.5 milligram/1 each oral tablet
+^ESCT1188215	Product containing only ethinyl estradiol 0.02 milligram and gestodene 0.075 milligram/1 each oral tablet
+^ESCT1188216	Product containing only ethinylestradiol 0.02 milligram and gestodene 0.075 milligram/1 each oral tablet
+^ESCT1188523	Product containing only drospirenone 3 mg and ethinyl estradiol 0.03 mg/1 each oral tablet
+^ESCT1189436	Lestramyl 30microgram/150microgram tablets (Mylan)
+^ESCT1189438	Lestramyl 20microgram/150microgram tablets (Mylan)
+^ESCT1190178	Acondro 0.03mg/3mg tablets (Mylan)
+^ESCT1195780	Aidulan 30microgram/75microgram tablets (Lupin Healthcare (UK) Ltd) 63 tablet 3 x 21 tablets
+^ESCT1195789	Munalea 150microgram/20microgram tablets (Lupin Healthcare (UK) Ltd) 63 tablet 3 x 21 tablets
+^ESCT1195961	Munalea 150microgram/30microgram tablets (Lupin Healthcare (UK) Ltd) 63 tablet 3 x 21 tablets
+^ESCT1196037	Aidulan 20microgram/75microgram tablets (Lupin Healthcare (UK) Ltd) 63 tablet 3 x 21 tablets
+^ESCT1196231	Aidulan 30microgram/75microgram tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196234	Maexeni 150microgram/30microgram tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196235	Feanolla 75microgram tablets (Lupin Healthcare (UK) Ltd) 84 tablet 3 x 28 tablets
+^ESCT1196264	Yiznell 0.03mg/3mg tablets (Lupin Healthcare (UK) Ltd) 63 tablet 3 x 21 tablets
+^ESCT1196366	Aidulan 20microgram/75microgram tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196367	Munalea 150microgram/20microgram tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196462	Munalea 150microgram/30microgram tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196489	Desogestrel 75microgram tablets (Lupin Healthcare (UK) Ltd) 84 tablet 3 x 28 tablets
+^ESCT1196562	Maexeni 150microgram/30microgram tablets (Lupin Healthcare (UK) Ltd) 63 tablet 3 x 21 tablets
+^ESCT1196563	Feanolla 75microgram tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196582	Yiznell 0.03mg/3mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196596	Desogestrel 75microgram tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1215712	Generic Femodene ED tablets
+^ESCT1224858	Desogestrel 150 microgram and ethinyl estradiol 20 microgram oral tablet
+^ESCT1224859	Product containing precisely desogestrel 150 microgram and ethinylestradiol 20 microgram/1 each conventional release oral tablet
+^ESCT1224860	Desogestrel 150 microgram and ethinylestradiol 20 microgram oral tablet
+^ESCT1224861	Product containing precisely desogestrel 150 microgram and ethinylestradiol 30 microgram/1 each conventional release oral tablet
+^ESCT1224862	Desogestrel 150 microgram and ethinyl estradiol 30 microgram oral tablet
+^ESCT1224863	Desogestrel 150 microgram and ethinylestradiol 30 microgram oral tablet
+^ESCT1224864	Ethinylestradiol 30 microgram and levonorgestrel 150 microgram oral tablet
+^ESCT1224865	Ethinyl estradiol 30 microgram and levonorgestrel 150 microgram oral tablet
+^ESCT1224866	Product containing precisely ethinylestradiol 30 microgram and levonorgestrel 150 microgram/1 each conventional release oral tablet
+^ESCT1224867	Product containing precisely ethinylestradiol 30 microgram and levonorgestrel 250 microgram/1 each conventional release oral tablet
+^ESCT1224868	Ethinylestradiol 30 microgram and levonorgestrel 250 microgram oral tablet
+^ESCT1224869	Ethinyl estradiol 30 microgram and levonorgestrel 250 microgram oral tablet
+^ESCT1224870	Ethinylestradiol 50 microgram and levonorgestrel 250 microgram oral tablet
+^ESCT1224871	Product containing precisely ethinylestradiol 50 microgram and levonorgestrel 250 microgram/1 each conventional release oral tablet
+^ESCT1224872	Ethinyl estradiol 50 microgram and levonorgestrel 250 microgram oral tablet
+^ESCT1224876	Product containing precisely ethinylestradiol 35 microgram and norethisterone 500 microgram/1 each conventional release oral tablet
+^ESCT1224877	Ethinyl estradiol 35 microgram and norethindrone 500 microgram oral tablet
+^ESCT1224878	Ethinylestradiol 35 microgram and norethisterone 500 microgram oral tablet
+^ESCT1224879	Ethinylestradiol 20 microgram and norethisterone acetate 1 mg oral tablet
+^ESCT1224880	Ethinyl estradiol 20 microgram and norethindrone acetate 1 mg oral tablet
+^ESCT1224881	Product containing precisely ethinylestradiol 20 microgram and norethisterone acetate 1 milligram/1 each conventional release oral tablet
+^ESCT1224882	Ethinyl estradiol 30 microgram and norethindrone acetate 1.5 mg oral tablet
+^ESCT1224883	Product containing precisely ethinylestradiol 30 microgram and norethisterone acetate 1.5 milligram/1 each conventional release oral tablet
+^ESCT1224884	Ethinylestradiol 30 microgram and norethisterone acetate 1.5 mg oral tablet
+^ESCT1224885	Product containing precisely ethinylestradiol 30 microgram and gestodene 75 microgram/1 each conventional release oral tablet
+^ESCT1224886	Ethinyl estradiol 30 microgram and gestodene 75 microgram oral tablet
+^ESCT1224887	Ethinylestradiol 30 microgram and gestodene 75 microgram oral tablet
+^ESCT1224888	Ethinylestradiol 20 microgram and gestodene 75 microgram oral tablet
+^ESCT1224889	Product containing precisely ethinylestradiol 20 microgram and gestodene 75 microgram/1 each conventional release oral tablet
+^ESCT1224890	Ethinyl estradiol 20 microgram and gestodene 75 microgram oral tablet
+^ESCT1224891	Product containing precisely ethinylestradiol 35 microgram and norgestimate 250 microgram/1 each conventional release oral tablet
+^ESCT1224892	Ethinylestradiol 35 microgram and norgestimate 250 microgram oral tablet
+^ESCT1224893	Ethinyl estradiol 35 microgram and norgestimate 250 microgram oral tablet
+^ESCT1224894	Product containing precisely mestranol 50 microgram and norethisterone 1 milligram/1 each conventional release oral tablet
+^ESCT1224895	Product containing precisely etynodiol diacetate 500 microgram/1 each conventional release oral tablet
+^ESCT1224896	Ethynodiol diacetate 500 microgram oral tablet
+^ESCT1224897	Etynodiol diacetate 500 microgram oral tablet
+^ESCT1224898	Levonorgestrel 30 microgram oral tablet
+^ESCT1224899	Product containing precisely levonorgestrel 30 microgram/1 each conventional release oral tablet
+^ESCT1224905	Norethindrone 350 microgram oral tablet
+^ESCT1224906	Product containing precisely norethisterone 350 microgram/1 each conventional release oral tablet
+^ESCT1224907	Norethisterone 350 microgram oral tablet
+^ESCT1229069	Product containing precisely drospirenone 3 milligram and ethinylestradiol 30 microgram/1 each conventional release oral tablet
+^ESCT1229070	Drospirenone 3 mg and ethinylestradiol 30 microgram oral tablet
+^ESCT1229071	Drospirenone 3 mg and ethinyl estradiol 30 microgram oral tablet
+^ESCT1229117	Ethinylestradiol 35 microgram and norethisterone 1 mg oral tablet
+^ESCT1229118	Ethinyl estradiol 35 microgram and norethindrone 1 mg oral tablet
+^ESCT1229119	Product containing precisely ethinylestradiol 35 microgram and norethisterone 1 milligram/1 each conventional release oral tablet
+^ESCT1230090	Desogestrel 75 microgram oral tablet
+^ESCT1230091	Product containing precisely desogestrel 75 microgram/1 each conventional release oral tablet
+^ESCT1230095	Product containing precisely norgestrel 75 microgram/1 each conventional release oral tablet
+^ESCT1230096	Norgestrel 75 microgram oral tablet
+^ESCT1250772	Dretine 0.03mg/3mg tablets (Theramex HQ UK Ltd)
+^ESCT1250773	Dretine 0.03mg/3mg tablets (Theramex HQ UK Ltd) 63 tablet 3 x 21 tablets
+^ESCT1255381	Ethinylestradiol 30microgram / Gestodene 75microgram tablets 21 tablet
+^ESCT1255382	Katya 30/75 tablets (Stragen UK Ltd) 21 tablet
+^ESCT1255401	Moonia 75microgram tablets (Stragen UK Ltd)
+^ESCT1255402	Desogestrel 75microgram tablets 28 tablet
+^ESCT1255403	Desogestrel 75microgram tablets 168 tablet
+^ESCT1255404	Moonia 75microgram tablets (Stragen UK Ltd) 28 tablet
+^ESCT1255405	Moonia 75microgram tablets (Stragen UK Ltd) 84 tablet 3 x 28 tablets
+^ESCT1255406	Moonia 75microgram tablets (Stragen UK Ltd) 168 tablet 6 x 28 tablets
+^ESCT1255407	Ethinylestradiol 20microgram / Gestodene 75microgram tablets 21 tablet
+^ESCT1255408	Sunya 20/75 tablets (Stragen UK Ltd) 21 tablet
+^ESCT1255831	SyreniRing 0.12mg/0.015mg per day vaginal delivery system (Crescent Pharma Ltd)
+^ESCT1255832	SyreniRing 0.12mg/0.015mg per day vaginal delivery system (Crescent Pharma Ltd) 3 system
+^ESCT1278923	Desogestrel 75microgram tablets (Zentiva)
+^ESCT1278924	Desogestrel 75microgram tablets (Zentiva) 84 tablet 3 x 28 tablets
+^ESCT1304746	Akizza 75microgram/20microgram tablets (Morningside Healthcare Ltd)
+^ESCT1304747	Akizza 75microgram/20microgram tablets (Morningside Healthcare Ltd) 63 tablet 3 x 21 tablets
+^ESCT1304774	Akizza 75microgram/30microgram tablets (Morningside Healthcare Ltd)
+^ESCT1304775	Akizza 75microgram/30microgram tablets (Morningside Healthcare Ltd) 63 tablet 3 x 21 tablets
+^ESCT1374258	Ambelina 150microgram/30microgram tablets (Crescent Pharma Ltd)
+^ESCT1374261	Ambelina 150microgram/30microgram tablets (Crescent Pharma Ltd) 63 tablet 3 x 21 tablets
+^ESCT1375088	Desogestrel 75microgram tablets (Morningside Healthcare Ltd)
+^ESCT1375089	Desogestrel 75microgram tablets (Morningside Healthcare Ltd) 84 tablet 3 x 28 tablets
+^ESCT1375439	Desogestrel 75microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1375440	Desogestrel 75microgram tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1376252	Synphase tablets (Imported (Germany))
+^ESCT1376253	Synphase tablets (Imported (Germany)) 21 tablet
+^ESCT1376256	Synphase tablets (Imported (Canada))
+^ESCT1376262	Synphase tablets (Imported (Canada)) 21 tablet
+^ESCT1389032	Zoely 2.5mg/1.5mg tablets (Theramex HQ UK Ltd)
+^ESCT1389033	Zoely 2.5mg/1.5mg tablets (Theramex HQ UK Ltd) 84 tablet 3 x 28 tablets
+^ESCT1402509	Ethinylestradiol 20microgram / Drospirenone 3mg tablets (Imported)
+^ESCT1402510	Ethinylestradiol 20microgram / Drospirenone 3mg tablets (Imported) 84 tablet
+^ESCT1403799	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets 84 tablet
+^ESCT1403802	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Imported)
+^ESCT1403803	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Imported) 84 tablet
+^ESCT1403804	Ethinylestradiol 35microgram / Norethisterone 1mg tablets 84 tablet
+^ESCT1403805	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Imported)
+^ESCT1403806	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Imported) 84 tablet
+^ESCT1403896	Mestranol 50microgram / Norethisterone 1mg tablets (Imported)
+^ESCT1403897	Mestranol 50microgram / Norethisterone 1mg tablets 84 tablet
+^ESCT1403898	Mestranol 50microgram / Norethisterone 1mg tablets (Imported) 84 tablet
+^ESCT1409549	Mercilon 150microgram/20microgram tablets (Organon Pharma (UK) Ltd)
+^ESCT1409635	Marvelon tablets (Organon Pharma (UK) Ltd)
+^ESCT1410005	Mercilon 150microgram/20microgram tablets (Organon Pharma (UK) Ltd) 63 tablet 3 x 21 tablets
+^ESCT1410006	Marvelon tablets (Organon Pharma (UK) Ltd) 63 tablet 3 x 21 tablets
+^ESCT1410136	Cerazette 75microgram tablets (Organon Pharma (UK) Ltd)
+^ESCT1410137	Cerazette 75microgram tablets (Organon Pharma (UK) Ltd) 84 tablet 3 x 28 tablets
+^ESCT1410985	NuvaRing 0.12mg/0.015mg per day vaginal delivery system (Organon Pharma (UK) Ltd)
+^ESCT1410986	NuvaRing 0.12mg/0.015mg per day vaginal delivery system (Organon Pharma (UK) Ltd) 3 system
+^ESCT1411253	Nexplanon 68mg implant (Organon Pharma (UK) Ltd)
+^ESCT1412731	Synphase tablets (Imported (Germany)) 21 tablet 1 x (7 tabs + 9 tabs + 5 tabs)
+^ESCT1412732	Synphase tablets (Imported (Canada)) 21 tablet 1 x (7 tabs + 9 tabs + 5 tabs)
+^ESCT1418652	Levonorgestrel 30microgram tablets 84 tablet
+^ESCT1418653	Levonorgestrel 30microgram tablets (Imported)
+^ESCT1418654	Levonorgestrel 30microgram tablets (Imported) 84 tablet
+^ESCT1422690	Desogestrel 75microgram tablets (Zentiva Pharma UK Ltd)
+^ESCT1422691	Desogestrel 75microgram tablets (Zentiva Pharma UK Ltd) 84 tablet 3 x 28 tablets
+^ESCT1437715	Evra transdermal patches (Gedeon Richter (UK) Ltd)
+^ESCT1437716	Evra transdermal patches (Gedeon Richter (UK) Ltd) 9 patch
+^ESCT1438456	Lestramyl 30microgram/150microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1438457	Lestramyl 30microgram/150microgram tablets (Viatris UK Healthcare Ltd) 63 tablet 3 x 21 tablets
+^ESCT1438458	Lestramyl 20microgram/150microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1438459	Lestramyl 20microgram/150microgram tablets (Viatris UK Healthcare Ltd) 63 tablet 3 x 21 tablets
+^ESCT1438517	Acondro 0.03mg/3mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438518	Acondro 0.03mg/3mg tablets (Viatris UK Healthcare Ltd) 63 tablet 3 x 21 tablets
+^ESCTAC1067495	Acondro 0.03mg/3mg tablets (Mylan Ltd)
+^ESCTAC1067497	Acondro 0.03mg/3mg tablets (Mylan Ltd) 63 tablet 3 x 21 tablets
+^ESCTAI1040744	Aizea 75microgram tablets (Besins Healthcare (UK) Ltd)
+^ESCTAI1040745	Aizea 75microgram tablets (Besins Healthcare (UK) Ltd) 84 tablet 3 x 28 tablets
+^ESCTAI1068460	Aidulan 20microgram/75microgram tablets (Lupin (Europe) Ltd)
+^ESCTAI1068461	Aidulan 20microgram/75microgram tablets (Lupin (Europe) Ltd) 63 tablet 3 x 21 tablets
+^ESCTAI1068462	Aidulan 30microgram/75microgram tablets (Lupin (Europe) Ltd)
+^ESCTAI1068463	Aidulan 30microgram/75microgram tablets (Lupin (Europe) Ltd) 63 tablet 3 x 21 tablets
+^ESCTAL1068533	Alenvona 150microgram/30microgram tablets (Teva UK Ltd)
+^ESCTAL1068534	Alenvona 150microgram/30microgram tablets (Teva UK Ltd) 63 tablet 3 x 21 tablets
+^ESCTAL1100408	Alenini 150microgram/20microgram tablets (Actavis UK Ltd)
+^ESCTAL1100409	Alenini 150microgram/20microgram tablets (Actavis UK Ltd) 63 tablet 3 x 21 tablets
+^ESCTBI1118141	Bimizza 150microgram/20microgram tablets (Morningside Healthcare Ltd)
+^ESCTBI1118144	Bimizza 150microgram/20microgram tablets (Morningside Healthcare Ltd) 63 tablet 3 x 21 tablets
+^ESCTBI860326	Binovum tablets (Janssen-Cilag Ltd)
+^ESCTBI860327	Binovum tablets (Janssen-Cilag Ltd) 63 tablet 3 x (7 tablets + 14 tablets)
+^ESCTBR810073	Brevinor 500microgram/35microgram tablets (Pfizer Ltd)
+^ESCTBR854541	Brevinor 500microgram/35microgram tablets (Pfizer Ltd) 63 tablet 3 x 21 tablets
+^ESCTCE1045921	Cerelle 75microgram tablets (Consilient Health Ltd)
+^ESCTCE1045922	Cerelle 75microgram tablets (Consilient Health Ltd) 84 tablet 3 x 28 tablets
+^ESCTCE861746	Cerazette 75microgram tablets (Merck Sharp & Dohme Ltd)
+^ESCTCE861749	Cerazette 75microgram tablets (Merck Sharp & Dohme Ltd) 84 tablet 3 x 28 tablets
+^ESCTCI1040976	Cimizt 30microgram/150microgram tablets (Morningside Healthcare Ltd)
+^ESCTCI1040980	Cimizt 30microgram/150microgram tablets (Morningside Healthcare Ltd) 63 tablet 3 x 21 tablets
+^ESCTCI1131725	Cilique 250microgram/35microgram tablets (Consilient Health Ltd)
+^ESCTCI1131727	Cilique 250microgram/35microgram tablets (Consilient Health Ltd) 63 tablet 3 x 21 tablets
+^ESCTCI812437	Cilest 35microgram/250microgram tablets (Janssen-Cilag Ltd)
+^ESCTCI853440	Cilest 35microgram/250microgram tablets (Janssen-Cilag Ltd) 63 tablet 3 x 21 tablets
+^ESCTCI853443	Cilest 35microgram/250microgram tablets (Janssen-Cilag Ltd) 126 tablet 6 x 21 tablets
+^ESCTCL1068535	Cleosensa 0.03mg/3mg tablets (Actavis UK Ltd)
+^ESCTCL1068536	Cleosensa 0.03mg/3mg tablets (Actavis UK Ltd) 63 tablet 3 x 21 tablets
+^ESCTDA1121236	Daylette 0.02mg/3mg tablets (Consilient Health Ltd)
+^ESCTDA1121237	Daylette 0.02mg/3mg tablets (Consilient Health Ltd) 84 tablet 3 x 28 tablets
+^ESCTDE1040702	Desogestrel 75microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1040703	Desogestrel 75microgram tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 3 x 28 tablets
+^ESCTDE1040791	Desorex 75microgram tablets (Somex Pharma)
+^ESCTDE1040792	Desorex 75microgram tablets (Somex Pharma) 84 tablet 3 x 28 tablets
+^ESCTDE1040990	Desogestrel 75microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTDE1040991	Desogestrel 75microgram tablets (A A H Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets
+^ESCTDE1048124	Desomono 75microgram tablets (MedRx Licences Ltd)
+^ESCTDE1048125	Desomono 75microgram tablets (MedRx Licences Ltd) 84 tablet 3 x 28 tablets
+^ESCTDE1049557	Desogestrel 75microgram tablets (Actavis UK Ltd)
+^ESCTDE1049558	Desogestrel 75microgram tablets (Actavis UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTDE1061873	Desogestrel 75microgram tablets (DE Pharmaceuticals)
+^ESCTDE1061874	Desogestrel 75microgram tablets (DE Pharmaceuticals) 84 tablet 3 x 28 tablets
+^ESCTDE1116781	Desogestrel 75microgram tablets (Creo Pharma Ltd)
+^ESCTDE1116782	Desogestrel 75microgram tablets (Creo Pharma Ltd) 84 tablet 3 x 28 tablets
+^ESCTDE1117157	Desogestrel 75microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTDE1117159	Desogestrel 75microgram tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTDE1119148	Desogestrel 75microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDE1119149	Desogestrel 75microgram tablets (Mawdsley-Brooks & Company Ltd) 84 tablet
+^ESCTDE1161739	Desogestrel 75microgram tablets (Crescent Pharma Ltd)
+^ESCTDE1161740	Desogestrel 75microgram tablets (Crescent Pharma Ltd) 84 tablet 3 x 28 tablets
+^ESCTDE613251	Desogestrel 0.15 milligram and ethinyl estradiol 0.02 milligram oral tablet
+^ESCTDE613252	Desogestrel 0.15 milligram and ethinylestradiol 0.02 milligram oral tablet
+^ESCTDE613255	Desogestrel 150microgram / Ethinylestradiol 20microgram tablets
+^ESCTDE613257	Desogestrel 0.15 milligram and ethinyl estradiol 0.03 milligram oral tablet
+^ESCTDE613258	Desogestrel 0.15 milligram and ethinylestradiol 0.03 milligram oral tablet
+^ESCTDE613261	Desogestrel 150microgram / Ethinylestradiol 30microgram tablets
+^ESCTDE663928	Desogestrel 75microgram tablets
+^ESCTDE663929	Desogestrel 0.075 mg oral tablet
+^ESCTDE861740	Desogestrel 75microgram tablets 84 tablet
+^ESCTDR1100171	Dretine 0.03mg/3mg tablets (Teva UK Ltd)
+^ESCTDR1100172	Dretine 0.03mg/3mg tablets (Teva UK Ltd) 63 tablet 3 x 21 tablets
+^ESCTDR642174	Drospirenone 3 mg and ethinyl estradiol 0.03 mg oral tablet
+^ESCTDR642175	Drospirenone 3mg / Ethinylestradiol 30microgram tablets
+^ESCTEL1009894	Elevin 150microgram/30microgram tablets (MedRx Licences Ltd)
+^ESCTEL1009895	Elevin 150microgram/30microgram tablets (MedRx Licences Ltd) 63 tablet 3 x 21 tablets
+^ESCTEL1045584	Elevin 150microgram/30microgram tablets (MedRx Licences Ltd) 21 tablet
+^ESCTEL1120701	Eloine 0.02mg/3mg tablets (Bayer Plc)
+^ESCTEL1120704	Eloine 0.02mg/3mg tablets (Bayer Plc) 84 tablet 3 x 28 tablets
+^ESCTEL1158347	Ellanite 0.03mg/3mg tablets (Stragen UK Ltd)
+^ESCTEL1158348	Ellanite 0.03mg/3mg tablets (Stragen UK Ltd) 63 tablet 3 x 21 tablets
+^ESCTEL1163035	Ellanite 0.03mg/3mg tablets (Stragen UK Ltd) 21 tablet
+^ESCTER1068537	Erlibelle 30microgram/150microgram tablets (Actavis UK Ltd)
+^ESCTER1068538	Erlibelle 30microgram/150microgram tablets (Actavis UK Ltd) 63 tablet 3 x 21 tablets
+^ESCTES1046386	Estradiol 1.5mg / Nomegestrol 2.5mg tablets 84 tablet
+^ESCTES1047237	Estradiol 1.5mg / Nomegestrol 2.5mg tablets
+^ESCTET1040793	Ethinylestradiol 20microgram / Drospirenone 3mg tablets 84 tablet
+^ESCTET1040825	Ethinylestradiol 20microgram / Drospirenone 3mg tablets
+^ESCTET1163034	Ethinylestradiol 30microgram / Drospirenone 3mg tablets 21 tablet
+^ESCTET613250	Ethinylestradiol 20microgram / Desogestrel 150microgram tablets
+^ESCTET613256	Ethinylestradiol 30microgram / Desogestrel 150microgram tablets
+^ESCTET613262	Ethinylestradiol 30microgram / Levonorgestrel 150microgram tablets
+^ESCTET613263	Ethinyl estradiol 0.03 mg and levonorgestrel 0.15 mg oral tablet
+^ESCTET613264	Ethinylestradiol 0.03 mg and levonorgestrel 0.15 mg oral tablet
+^ESCTET613270	Ethinyl estradiol 0.03 mg and levonorgestrel 0.25 mg oral tablet
+^ESCTET613271	Ethinylestradiol 0.03 mg and levonorgestrel 0.25 mg oral tablet
+^ESCTET613275	Ethinyl estradiol 0.05 mg and levonorgestrel 0.25 mg each oral tablet
+^ESCTET613276	Ethinylestradiol 0.05 mg and levonorgestrel 0.25 mg/1 each oral tablet
+^ESCTET613281	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets
+^ESCTET613282	Ethinyl estradiol 0.035 mg and norethindrone 0.5 mg oral tablet
+^ESCTET613283	Ethinylestradiol 0.035 mg and norethisterone 0.5 mg oral tablet
+^ESCTET613287	Ethinylestradiol 20microgram / Norethisterone acetate 1mg tablets
+^ESCTET613288	Ethinyl estradiol 0.02 mg and norethindrone acetate 1 mg oral tablet
+^ESCTET613289	Ethinylestradiol 0.02 mg and norethisterone acetate 1 mg oral tablet
+^ESCTET613293	Ethinylestradiol 30microgram / Norethisterone acetate 1.5mg tablets
+^ESCTET613294	Ethinyl estradiol 0.03 mg and norethindrone acetate 1.5 mg oral tablet
+^ESCTET613295	Ethinylestradiol 0.03 mg and norethisterone acetate 1.5 mg oral tablet
+^ESCTET613299	Ethinylestradiol 30microgram / Gestodene 75microgram tablets
+^ESCTET613300	Ethinyl estradiol 0.03 mg and gestodene 0.075 mg oral tablet
+^ESCTET613301	Ethinylestradiol 0.03 mg and gestodene 0.075 mg oral tablet
+^ESCTET613308	Ethinylestradiol 20microgram / Gestodene 75microgram tablets
+^ESCTET613309	Ethinyl estradiol 0.02 mg and gestodene 0.075 mg/1 each oral tablet
+^ESCTET613310	Ethinylestradiol 0.02 mg and gestodene 0.075 mg/1 each oral tablet
+^ESCTET613314	Ethinylestradiol 35microgram / Norgestimate 250microgram tablets
+^ESCTET613315	Ethinyl estradiol 0.035 mg and norgestimate 0.25 mg oral tablet
+^ESCTET613316	Ethinylestradiol 0.035 mg and norgestimate 0.25 mg oral tablet
+^ESCTET613332	Etynodiol 500microgram tablets
+^ESCTET613333	Ethynodiol diacetate 0.5 mg oral tablet
+^ESCTET642172	Ethinylestradiol 30microgram / Drospirenone 3mg tablets
+^ESCTET642305	Ethinylestradiol 35microgram / Norethisterone 1mg tablets
+^ESCTET642308	Ethinyl estradiol 0.035 mg and norethindrone 1 mg oral tablet
+^ESCTET642309	Ethinyl estradiol 0.035 mg and norethisterone 1 mg oral tablet
+^ESCTET835220	Ethinylestradiol 30microgram / Levonorgestrel 150microgram tablets 63 tablet
+^ESCTET839084	Ethinylestradiol 30microgram / Levonorgestrel 150microgram tablets 21 tablet
+^ESCTET839653	Ethinylestradiol 30microgram / Desogestrel 150microgram tablets 63 tablet
+^ESCTET843076	Ethinylestradiol 30microgram / Drospirenone 3mg tablets 63 tablet
+^ESCTET845348	Ethinylestradiol 35microgram / Norgestimate 250microgram tablets 126 tablet
+^ESCTET845832	Ethinylestradiol 35microgram / Norethisterone 1mg tablets 63 tablet
+^ESCTET847993	Ethinylestradiol 20microgram / Desogestrel 150microgram tablets 63 tablet
+^ESCTET848057	Etynodiol 500microgram tablets 84 tablet
+^ESCTET848147	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets 63 tablet
+^ESCTET848716	Ethinylestradiol 35microgram / Norgestimate 250microgram tablets 63 tablet
+^ESCTET858963	Ethinylestradiol 30microgram / Gestodene 75microgram tablets 63 tablet
+^ESCTET858969	Ethinylestradiol 20microgram / Gestodene 75microgram tablets 63 tablet
+^ESCTET859055	Ethinylestradiol 20microgram / Norethisterone acetate 1mg tablets 63 tablet
+^ESCTET859058	Ethinylestradiol 30microgram / Norethisterone acetate 1.5mg tablets 63 tablet
+^ESCTET860275	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets 21 tablet
+^ESCTET860280	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Janssen-Cilag Ltd)
+^ESCTET860281	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Janssen-Cilag Ltd) 21 tablet
+^ESCTET860283	Ethinylestradiol 35microgram / Norethisterone 1mg tablets 21 tablet
+^ESCTET860284	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Janssen-Cilag Ltd)
+^ESCTET860286	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Janssen-Cilag Ltd) 21 tablet
+^ESCTET860320	Ethinylestradiol 35microgram / Norethisterone 1mg tablets 42 tablet
+^ESCTET860321	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Janssen-Cilag Ltd) 42 tablet
+^ESCTET869847	Ethinylestradiol 35microgram / Norethisterone 1mg tablets 9 tablet
+^ESCTET869848	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Pfizer Ltd)
+^ESCTET869849	Ethinylestradiol 35microgram / Norethisterone 1mg tablets (Pfizer Ltd) 9 tablet
+^ESCTET869850	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets 7 tablet
+^ESCTET869851	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Pfizer Ltd)
+^ESCTET869852	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Pfizer Ltd) 7 tablet
+^ESCTET869853	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets 5 tablet
+^ESCTET869854	Ethinylestradiol 35microgram / Norethisterone 500microgram tablets (Pfizer Ltd) 5 tablet
+^ESCTET871304	Ethinylestradiol 33.9micrograms/24hours / Norelgestromin 203micrograms/24hours transdermal patches 9 patch
+^ESCTET871592	Ethinylestradiol 33.9micrograms/24hours / Norelgestromin 203micrograms/24hours transdermal patches
+^ESCTET980959	Ethinylestradiol 2.7mg / Etonogestrel 11.7mg vaginal delivery system 3 system
+^ESCTET980962	Ethinylestradiol 2.7mg / Etonogestrel 11.7mg vaginal delivery system
+^ESCTEU824008	Eugynon 30 tablets (Schering Health Care Ltd)
+^ESCTEU854140	Eugynon 30 tablets (Schering Health Care Ltd) 63 tablet 3 x 21 tablets
+^ESCTEU870822	Eugynon 50 tablets (Schering Health Care Ltd)
+^ESCTEU870826	Eugynon 50 tablets (Schering Health Care Ltd) 21 tablet
+^ESCTEV871308	Evra transdermal patches (Janssen-Cilag Ltd)
+^ESCTEV871313	Evra transdermal patches (Janssen-Cilag Ltd) 9 patch
+^ESCTFE1068472	Feanolla 75microgram tablets (Lupin (Europe) Ltd)
+^ESCTFE1068473	Feanolla 75microgram tablets (Lupin (Europe) Ltd) 84 tablet 3 x 28 tablets
+^ESCTFE817608	Femulen 500microgram tablets (Pfizer Ltd)
+^ESCTFE856446	Femulen 500microgram tablets (Pfizer Ltd) 84 tablet 3 x 28 tablets
+^ESCTFE858967	Femodene tablets (Bayer Plc)
+^ESCTFE858968	Femodene tablets (Bayer Plc) 63 tablet 3 x 21 tablets
+^ESCTFE858971	Femodette tablets (Bayer Plc)
+^ESCTFE858972	Femodette tablets (Bayer Plc) 63 tablet 3 x 21 tablets
+^ESCTFE859797	Femodene ED tablets (Bayer Plc)
+^ESCTFE859798	Femodene ED tablets (Bayer Plc) 84 tablet 3 x (21 tablets + 7 tablets)
+^ESCTGE1000533	Gedarel 20microgram/150microgram tablets (Consilient Health Ltd)
+^ESCTGE1000534	Gedarel 20microgram/150microgram tablets (Consilient Health Ltd) 63 tablet 3 x 21 tablets
+^ESCTGE1000549	Gedarel 30microgram/150microgram tablets (Consilient Health Ltd)
+^ESCTGE1000552	Gedarel 30microgram/150microgram tablets (Consilient Health Ltd) 63 tablet 3 x 21 tablets
+^ESCTGE613304	Gestodene 75microgram / Ethinylestradiol 30microgram tablets
+^ESCTGE613313	Gestodene 75microgram / Ethinylestradiol 20microgram tablets
+^ESCTGE858950	Generic Tri-Minulet tablets 63 tablet
+^ESCTGE858999	Generic Microgynon 30 ED tablets 84 tablet
+^ESCTGE859794	Generic Femodene ED tablets 84 tablet
+^ESCTGE860170	Generic Logynon tablets 63 tablet
+^ESCTGE860187	Generic Logynon ED tablets 84 tablet
+^ESCTGE860311	Generic Trinovum tablets 63 tablet
+^ESCTGE860324	Generic Binovum tablets 63 tablet
+^ESCTGE861684	Generic Binovum tablets
+^ESCTGE862096	Generic Trinovum tablets
+^ESCTGE862390	Generic Logynon ED tablets
+^ESCTGE862391	Generic Logynon tablets
+^ESCTGE862409	Generic Microgynon 30 ED tablets
+^ESCTGE862519	Generic Tri-Minulet tablets
+^ESCTGE869855	Generic Synphase tablets 21 tablet
+^ESCTGE869896	Generic Synphase tablets
+^ESCTGE981895	Generic Qlaira tablets 84 tablet
+^ESCTGE981935	Generic Qlaira tablets
+^ESCTIM821017	Implanon 68mg implant (Organon Laboratories Ltd)
+^ESCTJU1126560	Juliperla 75microgram/20microgram tablets (Actavis UK Ltd)
+^ESCTJU1126561	Juliperla 75microgram/20microgram tablets (Actavis UK Ltd) 63 tablet 3 x 21 tablets
+^ESCTKA942746	Katya 30/75 tablets (Stragen UK Ltd)
+^ESCTKA942747	Katya 30/75 tablets (Stragen UK Ltd) 63 tablet 3 x 21 tablets
+^ESCTLE1042814	Lestramyl 30microgram/150microgram tablets (Mylan Ltd)
+^ESCTLE1042815	Lestramyl 30microgram/150microgram tablets (Mylan Ltd) 63 tablet 3 x 21 tablets
+^ESCTLE1042847	Lestramyl 20microgram/150microgram tablets (Mylan Ltd)
+^ESCTLE1042849	Lestramyl 20microgram/150microgram tablets (Mylan Ltd) 63 tablet 3 x 21 tablets
+^ESCTLE1157656	Leandra 30microgram/150microgram tablets (Genesis Pharmaceuticals Ltd)
+^ESCTLE1157657	Leandra 30microgram/150microgram tablets (Genesis Pharmaceuticals Ltd) 63 tablet 3 x 21 tablets
+^ESCTLE613267	Levonorgestrel 150microgram / Ethinylestradiol 30microgram tablets
+^ESCTLE613268	Levonorgestrel 250microgram / Ethinylestradiol 30microgram tablets
+^ESCTLE613274	Levonorgestrel 250microgram / Ethinylestradiol 50microgram tablets
+^ESCTLE613335	Levonorgestrel 30microgram tablets
+^ESCTLE613336	Levonorgestrel 0.03 mg oral tablet
+^ESCTLE836340	Levonorgestrel 30microgram tablets 35 tablet
+^ESCTLE847918	Levonorgestrel 250microgram / Ethinylestradiol 30microgram tablets 63 tablet
+^ESCTLE870820	Levonorgestrel 250microgram / Ethinylestradiol 50microgram tablets 4 tablet
+^ESCTLE870821	Levonorgestrel 250microgram / Ethinylestradiol 50microgram tablets 21 tablet
+^ESCTLE993666	Levest 150/30 tablets (Morningside Healthcare Ltd)
+^ESCTLE993667	Levest 150/30 tablets (Morningside Healthcare Ltd) 21 tablet
+^ESCTLE993668	Levest 150/30 tablets (Morningside Healthcare Ltd) 63 tablet 3 x 21 tablets
+^ESCTLE999390	Levest 150/30 tablets (Actavis UK Ltd)
+^ESCTLE999391	Levest 150/30 tablets (Actavis UK Ltd) 63 tablet 3 x 21 tablets
+^ESCTLI1048630	Lizinna 250microgram/35microgram tablets (Morningside Healthcare Ltd)
+^ESCTLI1048631	Lizinna 250microgram/35microgram tablets (Morningside Healthcare Ltd) 63 tablet 3 x 21 tablets
+^ESCTLO859056	Loestrin 20 tablets (Galen Ltd)
+^ESCTLO859057	Loestrin 20 tablets (Galen Ltd) 63 tablet 3 x 21 tablets
+^ESCTLO859059	Loestrin 30 tablets (Galen Ltd)
+^ESCTLO859060	Loestrin 30 tablets (Galen Ltd) 63 tablet 3 x 21 tablets
+^ESCTLO860175	Logynon tablets (Bayer Plc)
+^ESCTLO860179	Logynon tablets (Bayer Plc) 63 tablet 3 x(6 tabs + 5 tabs + 10 tabs)
+^ESCTLO860190	Logynon ED tablets (Bayer Plc)
+^ESCTLO860198	Logynon ED tablets (Bayer Plc) 84 tablet 3x(6tabs+5tabs+10tabs+7tabs)
+^ESCTLU1058802	Lucette 0.03mg/3mg tablets (Consilient Health Ltd)
+^ESCTLU1058803	Lucette 0.03mg/3mg tablets (Consilient Health Ltd) 63 tablet 3 x 21 tablets
+^ESCTMA1068470	Maexeni 150microgram/30microgram tablets (Lupin (Europe) Ltd)
+^ESCTMA1068471	Maexeni 150microgram/30microgram tablets (Lupin (Europe) Ltd) 63 tablet 3 x 21 tablets
+^ESCTMA819675	Marvelon tablets (Merck Sharp & Dohme Ltd)
+^ESCTMA856538	Marvelon tablets (Merck Sharp & Dohme Ltd) 63 tablet 3 x 21 tablets
+^ESCTME613320	Mestranol 50microgram / Norethisterone 1mg tablets
+^ESCTME613323	Mestranol 50 microgram and norethisterone 1 mg oral tablet
+^ESCTME613324	Mestranol 50 microgram and norethindrone 1 mg oral tablet
+^ESCTME806716	Mercilon 150microgram/20microgram tablets (Merck Sharp & Dohme Ltd)
+^ESCTME856534	Mercilon 150microgram/20microgram tablets (Merck Sharp & Dohme Ltd) 63 tablet 3 x 21 tablets
+^ESCTME864773	Mestranol 50microgram / Norethisterone 1mg tablets 63 tablet
+^ESCTMI1000575	Millinette 30microgram/75microgram tablets (Consilient Health Ltd)
+^ESCTMI1000578	Millinette 30microgram/75microgram tablets (Consilient Health Ltd) 63 tablet 3 x 21 tablets
+^ESCTMI1000593	Millinette 20microgram/75microgram tablets (Consilient Health Ltd)
+^ESCTMI1000594	Millinette 20microgram/75microgram tablets (Consilient Health Ltd) 63 tablet 3 x 21 tablets
+^ESCTMI801682	Microgynon 30 tablets (Bayer Plc)
+^ESCTMI801685	Microval 30microgram tablets (Wyeth Pharmaceuticals)
+^ESCTMI805408	Micronor 350microgram tablets (Janssen-Cilag Ltd)
+^ESCTMI853381	Micronor 350microgram tablets (Janssen-Cilag Ltd) 84 tablet 3 x 28 tablets
+^ESCTMI854030	Microval 30microgram tablets (Wyeth Pharmaceuticals) 35 tablet
+^ESCTMI854141	Microgynon 30 tablets (Bayer Plc) 21 tablet
+^ESCTMI858965	Minulet tablets (Wyeth Pharmaceuticals)
+^ESCTMI858966	Minulet tablets (Wyeth Pharmaceuticals) 63 tablet 3 x 21 tablets
+^ESCTMI858979	Microgynon 30 tablets (Bayer Plc) 63 tablet 3 x 21 tablets
+^ESCTMI859000	Microgynon 30 ED tablets (Bayer Plc)
+^ESCTMI859001	Microgynon 30 ED tablets (Bayer Plc) 84 tablet 3 x (21 tablets + 7 tablets)
+^ESCTMU1068474	Munalea 150microgram/30microgram tablets (Lupin (Europe) Ltd)
+^ESCTMU1068475	Munalea 150microgram/30microgram tablets (Lupin (Europe) Ltd) 63 tablet 3 x 21 tablets
+^ESCTMU1068476	Munalea 150microgram/20microgram tablets (Lupin (Europe) Ltd)
+^ESCTMU1068478	Munalea 150microgram/20microgram tablets (Lupin (Europe) Ltd) 63 tablet 3 x 21 tablets
+^ESCTNA1039082	Nacrez 75microgram tablets (Teva UK Ltd)
+^ESCTNA1039083	Nacrez 75microgram tablets (Teva UK Ltd) 84 tablet 3 x 28 tablets
+^ESCTNE808124	Neogest 75microgram tablets (Schering Health Care Ltd)
+^ESCTNE855809	Neogest 75microgram tablets (Schering Health Care Ltd) 35 tablet
+^ESCTNO613286	Norethisterone 500microgram / Ethinylestradiol 35microgram tablets
+^ESCTNO613292	Norethisterone acetate 1mg / Ethinylestradiol 20microgram tablets
+^ESCTNO613298	Norethisterone acetate 1.5mg / Ethinylestradiol 30microgram tablets
+^ESCTNO613319	Norgestimate 250microgram / Ethinylestradiol 35microgram tablets
+^ESCTNO613325	Norethisterone 1mg / Mestranol 50microgram tablets
+^ESCTNO613348	Norethisterone 350microgram tablets
+^ESCTNO613349	Norethindrone 0.35 mg oral tablet
+^ESCTNO613350	Norethisterone 0.35 mg oral tablet
+^ESCTNO663940	Norgestrel 75microgram tablets
+^ESCTNO663941	Norgestrel 0.075 mg oral tablet
+^ESCTNO805100	Noriday 350microgram tablets (Pfizer Ltd)
+^ESCTNO806855	Norgeston 30microgram tablets (Bayer Plc)
+^ESCTNO813802	Norimin 1mg/35microgram tablets (Pfizer Ltd)
+^ESCTNO847979	Norgestrel 75microgram tablets 35 tablet
+^ESCTNO848664	Norethisterone 350microgram tablets 84 tablet
+^ESCTNO853375	Noriday 350microgram tablets (Pfizer Ltd) 84 tablet 3 x 28 tablets
+^ESCTNO854031	Norgeston 30microgram tablets (Bayer Plc) 35 tablet
+^ESCTNO854547	Norimin 1mg/35microgram tablets (Pfizer Ltd) 63 tablet 3 x 21 tablets
+^ESCTNO864776	Norinyl-1 tablets (Pfizer Ltd)
+^ESCTNO864780	Norinyl-1 tablets (Pfizer Ltd) 63 tablet 3 x 21 tablets
+^ESCTNU980960	NuvaRing 0.12mg/0.015mg per day vaginal delivery system (Merck Sharp & Dohme Ltd)
+^ESCTNU980961	NuvaRing 0.12mg/0.015mg per day vaginal delivery system (Merck Sharp & Dohme Ltd) 3 system
+^ESCTOV807355	Ovysmen 500microgram/35microgram tablets (Janssen-Cilag Ltd)
+^ESCTOV818688	Ovranette 150microgram/30microgram tablets (Pfizer Ltd)
+^ESCTOV854142	Ovranette 150microgram/30microgram tablets (Pfizer Ltd) 63 tablet 3 x 21 tablets
+^ESCTOV854535	Ovysmen 500microgram/35microgram tablets (Janssen-Cilag Ltd) 63 tablet 3 x 21 tablets
+^ESCTOV870829	Ovran tablets (Wyeth Pharmaceuticals)
+^ESCTOV870830	Ovran tablets (Wyeth Pharmaceuticals) 21 tablet
+^ESCTPR613253	Product containing desogestrel 0.15 milligram and ethinyl estradiol 0.02 milligram/1 each oral tablet
+^ESCTPR613254	Product containing desogestrel 0.15 milligram and ethinylestradiol 0.02 milligram/1 each oral tablet
+^ESCTPR613259	Product containing desogestrel 0.15 milligram and ethinylestradiol 0.03 milligram/1 each oral tablet
+^ESCTPR613260	Product containing desogestrel 0.15 milligram and ethinyl estradiol 0.03 milligram/1 each oral tablet
+^ESCTPR613265	Product containing ethinylestradiol 0.03 milligram and levonorgestrel 0.15 milligram/1 each oral tablet
+^ESCTPR613266	Product containing ethinyl estradiol 0.03 milligram and levonorgestrel 0.15 milligram/1 each oral tablet
+^ESCTPR613269	Product containing ethinylestradiol 0.03 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCTPR613272	Product containing ethinyl estradiol 0.03 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCTPR613273	Product containing ethinyl oestradiol 0.03 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCTPR613277	Product containing ethinyl estradiol 0.05 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCTPR613278	Product containing ethinylestradiol 0.05 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCTPR613284	Product containing ethinyl estradiol 0.035 milligram and norethindrone 0.5 milligram/1 each oral tablet
+^ESCTPR613285	Product containing ethinylestradiol 0.035 milligram and norethisterone 0.5 milligram/1 each oral tablet
+^ESCTPR613290	Product containing ethinyl estradiol 0.02 milligram and norethindrone acetate 1 milligram/1 each oral tablet
+^ESCTPR613291	Product containing ethinylestradiol 0.02 milligram and norethisterone acetate 1 milligram/1 each oral tablet
+^ESCTPR613296	Product containing ethinyl estradiol 0.03 milligram and norethindrone acetate 1.5 milligram/1 each oral tablet
+^ESCTPR613297	Product containing ethinylestradiol 0.03 milligram and norethisterone acetate 1.5 milligram/1 each oral tablet
+^ESCTPR613302	Product containing ethinyl estradiol 0.03 milligram and gestodene 0.075 milligram/1 each oral tablet
+^ESCTPR613303	Product containing ethinylestradiol 0.03 milligram and gestodene 0.075 milligram/1 each oral tablet
+^ESCTPR613311	Product containing ethinyl estradiol 0.02 milligram and gestodene 0.075 milligram/1 each oral tablet
+^ESCTPR613312	Product containing ethinylestradiol 0.02 milligram and gestodene 0.075 milligram/1 each oral tablet
+^ESCTPR613317	Product containing ethinyl estradiol 0.035 milligram and norgestimate 0.25 milligram/1 each oral tablet
+^ESCTPR613318	Product containing ethinylestradiol 0.035 milligram and norgestimate 0.25 milligram/1 each oral tablet
+^ESCTPR613321	Product containing mestranol 50 microgram and norethindrone 1 mg/1 each oral tablet
+^ESCTPR613322	Product containing mestranol 50 microgram and norethisterone 1 mg/1 each oral tablet
+^ESCTPR613334	Product containing ethynodiol diacetate 0.5 milligram/1 each oral tablet
+^ESCTPR613337	Product containing levonorgestrel 0.03 milligram/1 each oral tablet
+^ESCTPR613351	Product containing norethisterone 0.35 milligram/1 each oral tablet
+^ESCTPR613352	Product containing norethindrone 0.35 milligram oral tablet
+^ESCTPR642173	Product containing drospirenone 3 mg and ethinyl estradiol 0.03 mg/1 each oral tablet
+^ESCTPR642306	Product containing ethinyl estradiol 0.035 mg and norethisterone 1 mg/1 each oral tablet
+^ESCTPR642307	Product containing ethinyl estradiol 0.035 mg and norethindrone 1 mg/1 each oral tablet
+^ESCTPR663930	Product containing desogestrel 0.075 milligram/1 each oral tablet
+^ESCTPR663942	Product containing norgestrel 0.075 milligram/1 each oral tablet
+^ESCTQL981896	Qlaira tablets (Bayer Plc)
+^ESCTQL981897	Qlaira tablets (Bayer Plc) 84 tablet 3 x (2 + 2 + 2 + 17 + 5 tabs)
+^ESCTRI1000531	Rigevidon tablets (Consilient Health Ltd)
+^ESCTRI1000532	Rigevidon tablets (Consilient Health Ltd) 63 tablet 3 x 21 tablets
+^ESCTSC870827	Schering PC4 tablets (Schering Health Care Ltd)
+^ESCTSC870828	Schering PC4 tablets (Schering Health Care Ltd) 4 tablet
+^ESCTSO1126562	Sofiperla 75microgram/30microgram tablets (Actavis UK Ltd)
+^ESCTSO1126563	Sofiperla 75microgram/30microgram tablets (Actavis UK Ltd) 63 tablet 3 x 21 tablets
+^ESCTSU942799	Sunya 20/75 tablets (Stragen UK Ltd)
+^ESCTSU942800	Sunya 20/75 tablets (Stragen UK Ltd) 63 tablet 3 x 21 tablets
+^ESCTSY869856	Synphase tablets (Pfizer Ltd)
+^ESCTSY869872	Synphase tablets (Pfizer Ltd) 21 tablet 1 x (7 tabs + 9 tabs + 5 tabs)
+^ESCTTR1001444	TriRegol tablets (Consilient Health Ltd)
+^ESCTTR1001445	TriRegol tablets (Consilient Health Ltd) 63 tablet 3 x (6tabs + 5tabs + 10tabs)
+^ESCTTR858951	Tri-Minulet tablets (Wyeth Pharmaceuticals)
+^ESCTTR858952	Tri-Minulet tablets (Wyeth Pharmaceuticals) 63 tablet 3 x(6 tabs + 5 tabs + 10 tabs)
+^ESCTTR858953	Triadene tablets (Bayer Plc)
+^ESCTTR858954	Triadene tablets (Bayer Plc) 63 tablet 3 x(6 tabs + 5 tabs + 10 tabs)
+^ESCTTR860171	Trinordiol tablets (Wyeth Pharmaceuticals)
+^ESCTTR860172	Trinordiol tablets (Wyeth Pharmaceuticals) 63 tablet 3 x(6 tabs + 5 tabs + 10 tabs)
+^ESCTTR860312	Trinovum tablets (Janssen-Cilag Ltd)
+^ESCTTR860313	Trinovum tablets (Janssen-Cilag Ltd) 63 tablet 3 x (7tabs + 7tabs + 7tabs)
+^ESCTYA1045923	Yaz tablets (Imported (United States))
+^ESCTYA1045924	Yaz tablets (Imported (United States)) 84 tablet 3 x 28 tablets
+^ESCTYA1118147	Yacella 0.03mg/3mg tablets (Morningside Healthcare Ltd)
+^ESCTYA1118148	Yacella 0.03mg/3mg tablets (Morningside Healthcare Ltd) 63 tablet 3 x 21 tablets
+^ESCTYA816048	Yasmin tablets (Bayer Plc)
+^ESCTYA856663	Yasmin tablets (Bayer Plc) 63 tablet 3 x 21 tablets
+^ESCTYI1147446	Yiznell 0.03mg/3mg tablets (Lupin (Europe) Ltd)
+^ESCTYI1147449	Yiznell 0.03mg/3mg tablets (Lupin (Europe) Ltd) 63 tablet 3 x 21 tablets
+^ESCTZE1055292	Zelleta 75microgram tablets (Morningside Healthcare Ltd)
+^ESCTZE1055293	Zelleta 75microgram tablets (Morningside Healthcare Ltd) 84 tablet 3 x 28 tablets
+^ESCTZO1046388	Zoely 2.5mg/1.5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTZO1046390	Zoely 2.5mg/1.5mg tablets (Merck Sharp & Dohme Ltd) 84 tablet 3 x 28 tablets

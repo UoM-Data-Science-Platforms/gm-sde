@@ -1,0 +1,13 @@
+ETSU1036NEMIS	Etonogestrel  Subdermal implant  68 mg
+IMSU1039NEMIS	Implanon  Subdermal implant  68 mg
+NESU46640NEMIS	Nexplanon  Subdermal implant  68 mg
+^ESCT1300893	Nexplanon 68mg implant (DE Pharmaceuticals)
+^ESCT1300894	Nexplanon 68mg implant (DE Pharmaceuticals) 1 device
+^ESCT1411253	Nexplanon 68mg implant (Organon Pharma (UK) Ltd)
+^ESCT1411254	Nexplanon 68mg implant (Organon Pharma (UK) Ltd) 1 device
+^ESCT1424957	Etonogestrel 68mg implant
+^ESCTET848315	Etonogestrel 68mg implant 1 device
+^ESCTIM821017	Implanon 68mg implant (Organon Laboratories Ltd)
+^ESCTIM856928	Implanon 68mg implant (Organon Laboratories Ltd) 1 device
+^ESCTNE1006936	Nexplanon 68mg implant (Merck Sharp & Dohme Ltd)
+^ESCTNE1006937	Nexplanon 68mg implant (Merck Sharp & Dohme Ltd) 1 device

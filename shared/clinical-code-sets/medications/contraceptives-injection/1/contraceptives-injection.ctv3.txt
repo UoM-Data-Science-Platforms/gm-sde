@@ -1,0 +1,7 @@
+ga32.	Depo-Provera 150mg/1mL injection
+ga36.	Depo-Provera 150mg/1mL prefilled syringe
+ga37.	SAYANA 104mg/0.65mL susp for injection prefilled syringe
+ga38.	MEDROXYPROGESTERONE ACET 104mg/0.65mL susp for injection pfs
+ga61.	Noristerat 200mg/1mL oily injection
+hc25.	Farlutal 500mg/2.5mL injection
+hc2v.	Medroxyprogesterone acetate 500mg/2.5mL injection

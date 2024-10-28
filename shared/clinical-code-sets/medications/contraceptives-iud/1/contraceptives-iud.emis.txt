@@ -1,0 +1,118 @@
+ANIN71536NEMIS	Ancora 375 Ag  Intra uterine device  
+ANIN71538NEMIS	Ancora 375 Cu  Intra uterine device  
+BEIN140897NEMIS	Benilexa One Handed  Intrauterine Delivery System  20 micrograms/24 hours
+COIN71540NEMIS	Copper T380 A  Intra uterine device  
+FLIN25413NEMIS	Flexi-T+380  Intra uterine device  
+FLIN3846NEMIS	Flexi-T 300  Intra uterine device  
+GYIN1632NEMIS	Gynefixpt  Intra-uterine device  
+GYIN33973EMIS	Gynefix  Intra-uterine device  
+IUIN133582NEMIS	Iub Ballerine Midi  Intra uterine device  
+KYIN125611NEMIS	Kyleena  Intra-uterine device  19.5 mg
+LEIN101280NEMIS	Levosert  Intra-uterine device  20 micrograms/24 hours
+LEIN125609NEMIS	Levonorgestrel  Intra-uterine device  19.5 mg
+LEIN26766EMIS	Levonorgestrel  Intra-uterine device  52 mg (20 micrograms/24 hours)
+LEIN89218NEMIS	Levonorgestrel  Intra-uterine device  13.5 mg
+LOIN21197NEMIS	Load 375  Intra uterine device  
+MIIN26764EMIS	Mirena  Intra-uterine device  52 mg (20 micrograms/24 hours)
+MIIN27116NEMIS	Mini TT380 Slimline  Intra uterine device  
+MUIN10098BRIDL	Multiload  Intra-uterine device  cu 375
+MUIN13787NEMIS	Multi-Safe 375  Intra uterine device  
+MUIN9830BRIDL	Multiload  Intra uterine device  cu 250
+MUIN9832BRIDL	Multiload  Intra uterine device  short cu 250
+NEIN17179NEMIS	Neo-Safe T380  Intra-uterine device  
+NOIN10088BRIDL	Nova-T  Intra-uterine device  
+NOIN3562NEMIS	Nova T380  Intra-uterine device  
+NOIN71542NEMIS	Novaplus T 380 Ag  Intra uterine device  Normal
+NOIN71544NEMIS	Novaplus T 380 Cu  Intra uterine device  Normal
+NOIN74004NEMIS	Novaplus T 380 Ag  Intra uterine device  Mini
+NOIN74005NEMIS	Novaplus T 380 Ag  Intra uterine device  Maxi
+NOIN74006NEMIS	Novaplus T 380 Cu  Intra uterine device  Mini
+OPIN47370NEMIS	Optima Tcu 380A  Intra uterine device  
+STIN39428NEMIS	Steriload  Intra uterine device  
+T-IN6435NEMIS	T-Safe 380 A QL  Intra uterine device  
+TTIN21201NEMIS	Tt380 Slimline  Intra uterine device  
+UTIN21205NEMIS	Ut380 Short  Intra uterine device  
+UTIN21206NEMIS	Ut380 Standard  Intra uterine device  
+^ESCT1176297	Levonorgestrel 19.5mg intrauterine device 1 device
+^ESCT1176298	Kyleena 19.5mg intrauterine device (Bayer Plc)
+^ESCT1176299	Kyleena 19.5mg intrauterine device (Bayer Plc) 1 device
+^ESCT1176545	Levonorgestrel 19.5mg intrauterine device
+^ESCT1186960	Levosert 20micrograms/24hours intrauterine device (Gedeon Richter (UK) Ltd)
+^ESCT1190086	Levosert 20micrograms/24hours intrauterine device (Gedeon Richter (UK) Ltd) 1 device
+^ESCT1267100	Mirena 20micrograms/24hours intrauterine device (CST Pharma Ltd)
+^ESCT1267101	Mirena 20micrograms/24hours intrauterine device (CST Pharma Ltd) 1 device
+^ESCT1273913	IUB Ballerine MIDI intrauterine contraceptive device (Durbin Plc)
+^ESCT1273914	IUB Ballerine MIDI intrauterine contraceptive device (Durbin Plc) 1 device
+^ESCT1425023	Levonorgestrel 20micrograms/24hours intrauterine device
+^ESCT1434458	Benilexa One Handed 20micrograms/24hours intrauterine delivery system (Gedeon Richter (UK) Ltd)
+^ESCT1434459	Benilexa One Handed 20micrograms/24hours intrauterine delivery system (Gedeon Richter (UK) Ltd) 1 device
+^ESCTAN1026313	Ancora 375 Cu intrauterine contraceptive device (R.F. Medical Supplies Ltd)
+^ESCTAN1026314	Ancora 375 Cu intrauterine contraceptive device (R.F. Medical Supplies Ltd) 1 device
+^ESCTAN1026319	Ancora 375 Ag intrauterine contraceptive device (R.F. Medical Supplies Ltd)
+^ESCTAN1026320	Ancora 375 Ag intrauterine contraceptive device (R.F. Medical Supplies Ltd) 1 device
+^ESCTCO1026315	Copper T380 A intrauterine contraceptive device (R.F. Medical Supplies Ltd)
+^ESCTCO1026316	Copper T380 A intrauterine contraceptive device (R.F. Medical Supplies Ltd) 1 device
+^ESCTFL824636	Flexi-T 300 intrauterine contraceptive device (Durbin Plc)
+^ESCTFL854797	Flexi-T 300 intrauterine contraceptive device (Durbin Plc) 1 device
+^ESCTFL917629	Flexi-T+ 380 intrauterine contraceptive device (Durbin Plc)
+^ESCTFL917630	Flexi-T+ 380 intrauterine contraceptive device (Durbin Plc) 1 device
+^ESCTGY818919	GyneFixPT intrauterine contraceptive device (Family Planning Sales Ltd)
+^ESCTGY820392	GyneFix intrauterine contraceptive device (Williams Medical Supplies Ltd)
+^ESCTGY854798	GyneFix intrauterine contraceptive device (Williams Medical Supplies Ltd) 1 device
+^ESCTGY854800	GyneFixPT intrauterine contraceptive device (Family Planning Sales Ltd) 1 device
+^ESCTGY896231	Gyne-T 380S intrauterine device (Janssen-Cilag Ltd)
+^ESCTGY896232	Gyne-T 380S intrauterine device (Janssen-Cilag Ltd) 1 device
+^ESCTIN848389	Intrauterine contraceptive device 1 device
+^ESCTLE1065781	Levonorgestrel 13.5mg intrauterine device 1 device
+^ESCTLE1066056	Levonorgestrel 13.5mg intrauterine device
+^ESCTLE1115919	Levosert 20micrograms/24hours intrauterine device (Allergan Ltd)
+^ESCTLE1115921	Levosert 20micrograms/24hours intrauterine device (Allergan Ltd) 1 device
+^ESCTLE862263	Levonorgestrel 20micrograms/24hours intrauterine device 1 device
+^ESCTLO921632	Load 375 intrauterine contraceptive device (Durbin Plc)
+^ESCTLO921634	Load 375 intrauterine contraceptive device (Durbin Plc) 1 device
+^ESCTMI1008059	Mirena 20micrograms/24hours intrauterine device (Mawdsley-Brooks & Company Ltd)
+^ESCTMI1008060	Mirena 20micrograms/24hours intrauterine device (Mawdsley-Brooks & Company Ltd) 1 device
+^ESCTMI862264	Mirena 20micrograms/24hours intrauterine device (Bayer Plc)
+^ESCTMI862265	Mirena 20micrograms/24hours intrauterine device (Bayer Plc) 1 device
+^ESCTMI879520	Mirena 20micrograms/24hours intrauterine device (Dowelhurst Ltd)
+^ESCTMI879521	Mirena 20micrograms/24hours intrauterine device (Dowelhurst Ltd) 1 device
+^ESCTMI933631	Mirena 20micrograms/24hours intrauterine device (Waymade Healthcare Plc)
+^ESCTMI933632	Mirena 20micrograms/24hours intrauterine device (Waymade Healthcare Plc) 1 device
+^ESCTMI946047	Mini TT380 Slimline intrauterine contraceptive device (Durbin Plc)
+^ESCTMI946053	Mini TT380 Slimline intrauterine contraceptive device (Durbin Plc) 1 device
+^ESCTMU805449	Multi-Safe 375 intrauterine contraceptive device (Williams Medical Supplies Ltd)
+^ESCTMU820529	Multiload Cu250 intrauterine contraceptive device (Organon Laboratories Ltd)
+^ESCTMU821275	Multiload Cu250 Short intrauterine contraceptive device (Organon Laboratories Ltd)
+^ESCTMU823176	Multiload Cu375 intrauterine contraceptive device (Organon Laboratories Ltd)
+^ESCTMU854801	Multiload Cu250 intrauterine contraceptive device (Organon Laboratories Ltd) 1 device
+^ESCTMU854803	Multiload Cu250 Short intrauterine contraceptive device (Organon Laboratories Ltd) 1 device
+^ESCTMU854804	Multiload Cu375 intrauterine contraceptive device (Organon Laboratories Ltd) 1 device
+^ESCTMU854805	Multi-Safe 375 intrauterine contraceptive device (Williams Medical Supplies Ltd) 1 device
+^ESCTNE895865	Neo-Safe T380 intrauterine contraceptive device (Williams Medical Supplies Ltd)
+^ESCTNE895867	Neo-Safe T380 intrauterine contraceptive device (Williams Medical Supplies Ltd) 1 device
+^ESCTNO1026317	Novaplus T 380 Cu intrauterine contraceptive device normal (R.F. Medical Supplies Ltd)
+^ESCTNO1026318	Novaplus T 380 Cu intrauterine contraceptive device normal (R.F. Medical Supplies Ltd) 1 device
+^ESCTNO1026321	Novaplus T 380 Ag intrauterine contraceptive device normal (R.F. Medical Supplies Ltd)
+^ESCTNO1026322	Novaplus T 380 Ag intrauterine contraceptive device normal (R.F. Medical Supplies Ltd) 1 device
+^ESCTNO1029608	Novaplus T 380 Ag intrauterine contraceptive device mini (R.F. Medical Supplies Ltd)
+^ESCTNO1029609	Novaplus T 380 Ag intrauterine contraceptive device mini (R.F. Medical Supplies Ltd) 1 device
+^ESCTNO1029611	Novaplus T 380 Ag intrauterine contraceptive device maxi (R.F. Medical Supplies Ltd)
+^ESCTNO1029612	Novaplus T 380 Ag intrauterine contraceptive device maxi (R.F. Medical Supplies Ltd) 1 device
+^ESCTNO1029616	Novaplus T 380 Cu intrauterine contraceptive device mini (R.F. Medical Supplies Ltd)
+^ESCTNO1029620	Novaplus T 380 Cu intrauterine contraceptive device mini (R.F. Medical Supplies Ltd) 1 device
+^ESCTNO810927	Nova-T intrauterine contraceptive device (Schering Health Care Ltd)
+^ESCTNO830698	Nova-T 380 intrauterine contraceptive device (Bayer Plc)
+^ESCTNO854806	Nova-T intrauterine contraceptive device (Schering Health Care Ltd) 1 device
+^ESCTNO854807	Nova-T 380 intrauterine contraceptive device (Bayer Plc) 1 device
+^ESCTOP1008674	Optima TCu 380A intrauterine contraceptive device (Farla Medical Ltd)
+^ESCTOP1008675	Optima TCu 380A intrauterine contraceptive device (Farla Medical Ltd) 1 device
+^ESCTST988503	Steriload intrauterine contraceptive device (Farla Medical Ltd)
+^ESCTST988504	Steriload intrauterine contraceptive device (Farla Medical Ltd) 1 device
+^ESCTTS802701	T-Safe 380A QL intrauterine contraceptive device (Williams Medical Supplies Ltd)
+^ESCTTS854809	T-Safe 380A QL intrauterine contraceptive device (Williams Medical Supplies Ltd) 1 device
+^ESCTTT921636	TT380 Slimline intrauterine contraceptive device (Durbin Plc)
+^ESCTTT921638	TT380 Slimline intrauterine contraceptive device (Durbin Plc) 1 device
+^ESCTUT921640	UT380 Short intrauterine contraceptive device (Durbin Plc)
+^ESCTUT921642	UT380 Short intrauterine contraceptive device (Durbin Plc) 1 device
+^ESCTUT921644	UT380 Standard intrauterine contraceptive device (Durbin Plc)
+^ESCTUT921646	UT380 Standard intrauterine contraceptive device (Durbin Plc) 1 device

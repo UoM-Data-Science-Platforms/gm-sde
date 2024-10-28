@@ -1,0 +1,26 @@
+ga26.	Levonorgestrel 52mg intrauterine system
+ga27.	Mirena 52mg intrauterine system
+ga2G.	LEVONORGESTREL 13.5mg intrauterine system
+ga2I.	LEVOSERT 20micrograms/24hours intrauterine system
+pg37.	Multiload Cu-250 Type 5a/normal intra-uterine device x1
+pg38.	Multiload Cu-250 Type 5b/short intra-uterine device x1
+pg3A.	NOVAPLUS T 380Ag mini intra-uterine contraceptive device
+pg3B.	NOVAPLUS T 380Ag maxi intra-uterine contraceptive device
+pg3C.	NOVAPLUS T 380Cu normal intra-uterine contraceptive device
+pg3D.	NOVAPLUS T 380Cu mini intra-uterine contraceptive device
+pg3E.	ANCORA 375Cu intra-uterine contraceptive device
+pg3F.	ANCORA 375Ag intra-uterine contraceptive device
+pg3a.	Multiload Cu-375 1 iucd
+pg3b.	Nova T intrauterine contraceptive device
+pg3l.	GyneFixPT intrauterine contraceptive device
+pg3m.	Flexi-T 300 intrauterine contraceptive device
+pg3n.	Nova T 380 intrauterine contraceptive device
+pg3o.	T Safe 380A intrauterine contraceptive device
+pg3s.	LOAD 375 intra-uterine contraceptive device
+pg3t.	TT 380 SLIMLINE intra-uterine contraceptive device
+pg3u.	UT 380 SHORT intra-uterine contraceptive device
+pg3v.	UT 380 STANDARD intra-uterine contraceptive device
+pg3w.	STERILOAD intra-uterine contraceptive device
+pg3x.	OPTIMA TCu380A intra-uterine contraceptive device
+pg3y.	COPPER T 380A intra-uterine contraceptive device
+pg3z.	NOVAPLUS T 380Ag normal intra-uterine contraceptive device

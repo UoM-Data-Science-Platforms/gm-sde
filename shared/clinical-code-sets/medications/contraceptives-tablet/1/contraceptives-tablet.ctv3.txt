@@ -1,0 +1,78 @@
+ga12.	Ethynodiol diacetate 500micrograms tablet
+ga22.	Norgeston tablet
+ga51.	Micronor tablet
+ga5z.	Norethisterone 350mcg tablet
+ga8A.	Desogestrel 75micrograms tablet
+ga8B.	Cerazette 75micrograms tablet
+ga8C.	CERELLE 75micrograms tablets
+ga8F.	ZELLETA 75micrograms tablets
+ga8G.	FEANOLLA 75micrograms tablets
+g862.	Brevinor tablet
+g891.	Cilest tablet
+g8A2.	Ethinylestradiol+drospirenone 30micrograms/3mg tablet
+g886.	Ethinylestradiol+gestodene 30micrograms/75micrograms tablet
+g83A.	Ethinylestradiol+levonorgestrel 30micrograms/150micrograms tablet
+g886.	Ethinyloestradiol+gestodene 30micrograms/75micrograms tablet
+g83A.	Ethinyloestradiol+levonorgestrel 30micrograms/150micrograms tablet
+fh1r.	Evra transdermal patch
+g882.	Femodene tablet
+g888.	Femodette tablet
+g815.	GEDAREL 30micrograms/150micrograms tablets
+g83E.	LEVEST tablets
+g893.	LIZINNA tablets
+g873.	Loestrin 20 tablet
+g874.	Loestrin 30 tablet
+g832.	Logynon tablet
+g8A5.	LUCETTE tablets
+g83I.	MAEXENI tablets
+g811.	Marvelon tablet
+g812.	Mercilon tablet
+g83D.	Microgynon 30 ED tablet
+g834.	Microgynon 30 tablet
+g864.	Norimin tablet
+g911.	Norinyl-1 tablet
+gj11.	NUVARING 120mcg/15mcg/24 hours vaginal delivery system
+g837.	Ovranette tablet
+g865.	Ovysmen tablet
+g83G.	RIGEVIDON tablets
+g867.	Trinovum tablet
+g8A1.	Yasmin tablet
+g816.	GEDAREL 20micrograms/150micrograms tablets
+g817.	CIMIZT 30micrograms/150micrograms tablets
+g818.	LESTRAMYL 20micrograms/150micrograms tablets
+g819.	LESTRAMYL 30micrograms/150micrograms tablets
+g81A.	ALENVONA 30micrograms/150micrograms tablets
+g81B.	ALENINI 20micrograms/150micrograms tablets
+g831.	Eugynon 30 tablet
+g833.	Logynon ED tablet
+g835.	Ovran tablet
+g838.	Schering PC4 tablet
+g839.	Trinordiol tablet
+g83F.	TRIREGOL tablets
+g83H.	ELEVIN tablets
+g83J.	ERLIBELLE tablets
+g851.	Eugynon-50 tablet
+g861.	Binovum tablet
+g866.	Synphase tablet
+g881.	Minulet tablet
+g883.	Femodene ED tablet
+g884.	Tri-Minulet tablet
+g885.	Triadene tablet
+g889.	KATYA 30/75 tablets
+g88A.	SUNYA 20/75 tablets
+g88B.	MILLINETTE 20micrograms/75micrograms tablets
+g88C.	MILLINETTE 30micrograms/75micrograms tablets
+g8A6.	ACONDRO 30micrograms/3mg tablets
+g8A7.	CLEOSENSA 30micrograms/3mg tablets
+g8A8.	ELOINE tablets
+ga11.	Femulen tablet
+ga21.	Microval tablet
+ga41.	Neogest tablet
+ga52.	Noriday tablet 28CP
+ga81.	DESOREX 75micrograms tablets
+ga82.	NACREZ 75micrograms tablets
+ga8D.	AIZEA 75micrograms tablets
+ga8E.	DESOMONO 75micrograms tablets
+gk11.	QLAIRA tablets
+gl11.	ZOELY 2.5mg/1.5mg tablets
+gl12.	NOMEGESTROL ACETATE+ESTRADIOL 2.5mg/1.5mg tablets

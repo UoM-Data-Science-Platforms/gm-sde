@@ -1,0 +1,48 @@
+DEIN14413NEMIS	Depo-Provera  Injection  150 mg/ml, 1 ml vial
+DEIN3401	Depo-Provera  Injection  150 mg/1 ml
+DEPR29122EMIS	Depo-Provera  Prefilled syringe  150 mg/1 ml
+FAIN1143	Farlutal  Injection  200 mg/ml
+FAIN15498NEMIS	Farlutal  Injection  200 mg/ml, 2.5 ml vial
+MEIN15497NEMIS	Medroxyprogesterone Acetate  Injection  200 mg/ml, 2.5 ml vial
+MEIN1746	Medroxyprogesterone Acetate  Injection  200 mg/ml
+MESU139742NEMIS	Medroxyprogesterone Acetate  Suspension For Injection  150 mg/1 ml vial
+MESU81503NEMIS	Medroxyprogesterone Acetate  Suspension For Injection  104 mg/0.65 ml pre-filled device
+NOIN17875NEMIS	Norethisterone Enantate  Solution for injection  200 mg/1 ml ampoule
+NOIN4048	Noristerat  Solution for injection  200 mg/1 ml ampoule
+SASU81505NEMIS	Sayana Press  Suspension For Injection  104 mg/0.65 ml pre-filled device
+^ESCT1215420	Norethisterone 200mg/1ml solution for injection ampoules
+^ESCT1215509	Medroxyprogesterone 150mg/1ml suspension for injection vials
+^ESCT1215510	Medroxyprogesterone 500mg/2.5ml suspension for injection vials
+^ESCTDE1000483	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Mawdsley-Brooks & Company Ltd)
+^ESCTDE1000484	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Mawdsley-Brooks & Company Ltd) 1 pre-filled disposable injection
+^ESCTDE1008916	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Necessity Supplies Ltd)
+^ESCTDE1008918	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Necessity Supplies Ltd) 1 pre-filled disposable injection
+^ESCTDE1011886	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (DE Pharmaceuticals)
+^ESCTDE1011887	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (DE Pharmaceuticals) 1 pre-filled disposable injection
+^ESCTDE824009	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Pfizer Ltd)
+^ESCTDE854159	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Pfizer Ltd) 1 pre-filled disposable injection
+^ESCTDE862687	Depo-Provera 150mg/1ml suspension for injection vials (Pfizer Ltd)
+^ESCTDE862689	Depo-Provera 150mg/1ml suspension for injection vials (Pfizer Ltd) 1 vial
+^ESCTDE876989	Depo-Provera 150mg/1ml suspension for injection vials (Waymade Healthcare Plc)
+^ESCTDE876990	Depo-Provera 150mg/1ml suspension for injection vials (Waymade Healthcare Plc) 1 vial
+^ESCTDE930095	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Waymade Healthcare Plc)
+^ESCTDE930096	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Waymade Healthcare Plc) 1 pre-filled disposable injection
+^ESCTDE959724	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Dowelhurst Ltd)
+^ESCTDE959725	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Dowelhurst Ltd) 1 pre-filled disposable injection
+^ESCTDE970002	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Sigma Pharmaceuticals Plc)
+^ESCTDE970004	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Sigma Pharmaceuticals Plc) 1 pre-filled disposable injection
+^ESCTDE970013	Depo-Provera 150mg/1ml suspension for injection vials (Sigma Pharmaceuticals Plc)
+^ESCTDE970017	Depo-Provera 150mg/1ml suspension for injection vials (Sigma Pharmaceuticals Plc) 1 vial
+^ESCTFA801938	Farlutal 500 suspension for injection 2.5ml vials (Pfizer Ltd)
+^ESCTFA857337	Farlutal 500 suspension for injection 2.5ml vials (Pfizer Ltd) 1 vial
+^ESCTME1045455	Medroxyprogesterone 104mg/0.65ml suspension for injection pre-filled disposable devices 1 pre-filled disposable injection
+^ESCTME1045501	Medroxyprogesterone 104mg/0.65ml suspension for injection pre-filled disposable devices
+^ESCTME847560	Medroxyprogesterone 500mg/2.5ml suspension for injection vials 1 vial
+^ESCTME862682	Medroxyprogesterone 150mg/1ml suspension for injection vials 1 vial
+^ESCTNO820111	Noristerat 200mg/1ml solution for injection ampoules (Bayer Plc)
+^ESCTNO837788	Norethisterone 200mg/1ml solution for injection ampoules 1 ampoule
+^ESCTNO857283	Noristerat 200mg/1ml solution for injection ampoules (Bayer Plc) 1 ampoule
+^ESCTNO947276	Noristerat 200mg/1ml solution for injection ampoules (Waymade Healthcare Plc)
+^ESCTNO947277	Noristerat 200mg/1ml solution for injection ampoules (Waymade Healthcare Plc) 1 ampoule
+^ESCTSA1045456	Sayana Press 104mg/0.65 ml suspension for injection pre-filled disposable devices (Pfizer Ltd)
+^ESCTSA1045457	Sayana Press 104mg/0.65 ml suspension for injection pre-filled disposable devices (Pfizer Ltd) 1 pre-filled disposable injection
