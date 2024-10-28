@@ -42,14 +42,40 @@ INNER JOIN (
     ) t2
 ON t2."GmPseudo" = p."GmPseudo" AND t2.LatestSnapshot = p."Snapshot";
 
+-- CREATE A PATIENT SUMMARY TABLE TO WORK OUT WHICH PATIENTS HAVE LEFT GM 
+-- AND THEREFORE THEIR DATA FEED STOPPED 
+
+drop table if exists PatientSummary;
+create temporary table PatientSummary as
+select dem."GmPseudo", 
+        min("Snapshot") as "min", 
+        max("Snapshot") as "max", 
+        max(DeathDate) as DeathDate
+from PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" dem
+LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
+group by dem."GmPseudo";
+
+-- FIND THE DATE THAT PATIENT LEFT GM
+
+drop table if exists leftGMDate;
+create temporary table leftGMDate as 
+select *,
+    case when DeathDate is null and "max" < (select max("max") from PatientSummary) then "max" else null end as "leftGMDate"
+from PatientSummary;
+
 -- FIND ALL ADULT PATIENTS ALIVE AT STUDY START DATE
 
 DROP TABLE IF EXISTS AlivePatientsAtStart;
 CREATE TEMPORARY TABLE AlivePatientsAtStart AS 
 SELECT  
     dem.*, 
-    Death.DeathDate
+    Death.DeathDate,
+	l."leftGMDate"
 FROM LatestSnapshot dem
 LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
+LEFT JOIN leftGMDate l ON l."GmPseudo" = dem."GmPseudo"
 WHERE 
-    (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
+    (DeathDate IS NULL OR DeathDate > $StudyStartDate) -- alive on study start date
+	AND 
+	(leftGMDate IS NULL OR leftGMDate > $StudyEndDate); -- if patient left GM (therefore we stop receiving their data), ensure it is after study end date
+ 
