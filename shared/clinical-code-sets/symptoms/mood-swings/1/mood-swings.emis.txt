@@ -1,0 +1,13 @@
+^ESCTBE493517	Becomes angry very easily
+^ESCTCY596408	Cyclic mood swings
+^ESCTDE524891	Depression worse in morning
+^ESCTDE524893	Depression worse later in day
+^ESCTDI494464	Difficult temperament
+^ESCTDI524890	Diurnal variation of mood
+^ESCTEA494462	Easily upset
+^ESCTFE524892	Feels low in the mornings
+^ESCTMO571760	Moody
+^ESCTTE494463	Temperamental
+^ESCTUN494466	Unpredictable in mood
+^ESCTVA564797	Variability of mood
+^ESCTVO494467	Volatile Mood

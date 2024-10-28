@@ -1,0 +1,11 @@
+Ua18O	Becomes angry very easily
+Ua1r3	Easily upset
+Ua1r5	Temperamental
+Ua1r6	Unpredictable in mood
+Ua1r7	Volatile Mood
+X761I	Diurnal variation of mood
+X761J	Feels low in the mornings
+X761K	Depression worse later in day
+Xa1eL	Variability of mood
+Xa3Xf	Moody
+XaAyL	Cyclic mood swings
