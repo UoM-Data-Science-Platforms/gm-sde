@@ -1,0 +1,7 @@
+1146911000000102	Complex insertion of intrauterine contraceptive device (procedure)
+341391000000105	Insertion of T shaped 375 millimetres squared copper coated intrauterine contraceptive device (procedure)
+341401000000108	Insertion of T shaped 380 millimetres squared copper coated intrauterine contraceptive device (procedure)
+341381000000108	Insertion of frameless 330 millimetres squared copper coated intrauterine contraceptive device (procedure)
+472837007	Insertion of hormone releasing intrauterine contraceptive device (procedure)
+2017281000000103	Insertion of intrauterine contraceptive device using ultrasonographic guidance (procedure)
+65200003	Insertion of intrauterine contraceptive device (procedure)

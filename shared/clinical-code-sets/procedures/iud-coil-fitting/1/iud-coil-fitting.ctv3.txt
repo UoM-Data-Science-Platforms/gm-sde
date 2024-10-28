@@ -1,0 +1,8 @@
+XaBSw	Introduction of Mirena coil
+XaXK3	Insertion of T shaped 375 millimetres squared copper coated intrauterine contraceptive device
+XabuS	Insertion of intrauterine system
+6151.	Intrauterine contraceptive device fitted
+7E090	Introduction of intrauterine contraceptive device
+XaEWB	[V]Reinsertion of intrauterine contraceptive device
+ZV251	[V]Intrauterine contraceptive device insertion
+ZV254	[V]Reinsertion of intrauterine contraceptive device

@@ -1,0 +1,17 @@
+61511	Insertion of T shaped 375 millimetres squared copper coated intrauterine contraceptive device
+6151100	Insertion of T shaped 375 millimetres squared copper coated intrauterine contraceptive device
+7E094	Introduction of Mirena coil
+7E09400	Introduction of Mirena coil
+7E097	Insertion of intrauterine system
+7E09700	Insertion of intrauterine system
+7E090	Introduction of intrauterine contraceptive device
+6151.	IUD fitted
+6151.00	IUD fitted
+ZV251	[V]Intrauterine contraceptive device insertion
+ZV25100	[V]Intrauterine contraceptive device insertion
+ZV25111	[V]Coil insertion
+ZV25112	[V]Intrauterine contraceptive device insertion
+ZV25113	[V]Intrauterine contraceptive device insertion
+ZV25415	[V]Reinsertion of intrauterine contraceptive device
+ZV2541A	[V]Reinsertion of intrauterine contraceptive device
+ZV25D00	[V]Reinsertion of intrauterine contraceptive device

@@ -1,0 +1,11 @@
+EMISNQIN70	Insertion of T shaped 375mm2 copper coated intraut cont.device
+^ESCT1369410	Complex insertion of intrauterine contraceptive device
+^ESCT1369411	Complex insertion of IUCD
+^ESCTIN747857	Insertion of IUS (intrauterine system)
+^ESCTIN810930	Insertion of frameless 330 millimetres squared copper coated intrauterine contraceptive device
+^ESCTIN810932	Insertion of T shaped 380 millimetres squared copper coated intrauterine contraceptive device
+^ESCTFI356015	Fitting of coil
+^ESCTFI356019	Fitting of intrauterine device
+^ESCTIN356013	Insertion of intrauterine device
+^ESCTIN356014	Insertion of IUD
+^ESCTIU356017	IUD - Fitting of intrauterine device
