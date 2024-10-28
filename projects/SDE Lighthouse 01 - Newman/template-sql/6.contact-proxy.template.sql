@@ -7,7 +7,7 @@ set(StudyEndDate)   = to_date('2024-06-30');
 
 -- find all GP contacts for the pharmacogenetic patients and the matched cohort
 
-{{create-output-table::"6_ContactProxy"}}
+{{create-output-table::"LH001-6_ContactProxy"}}
 SELECT
     "GmPseudo"
     , "EventDate" as "GPProxyEncounterDate"

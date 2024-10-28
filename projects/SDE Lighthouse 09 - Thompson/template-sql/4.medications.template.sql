@@ -45,7 +45,7 @@ DROP TABLE IF EXISTS prescriptions;
 CREATE TEMPORARY TABLE prescriptions AS
 SELECT 
     co."GmPseudo"
-    , TO_DATE(ec."MedicationDate") AS "MedicationDate"
+    , TO_DATE(ec."Date") AS "MedicationDate"
     , ec."SCTID" AS "SnomedCode"
 	, ec."Quantity"
     , ec."Dosage_GP_Medications" AS "Dosage"
@@ -55,9 +55,9 @@ SELECT
            ELSE 'other' END AS "CodeSet"
     , ec."MedicationDescription" AS "Description"
 FROM {{cohort-table}} co
-LEFT JOIN INTERMEDIATE.GP_RECORD."MedicationsClusters" ec ON co."FK_Patient_ID" = ec."FK_Patient_ID"
+LEFT JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec ON co."FK_Patient_ID" = ec."FK_Patient_ID"
 WHERE "Cluster_ID" in ('ORALNSAIDDRUG_COD')
-    AND TO_DATE(ec."MedicationDate") BETWEEN $StudyStartDate and $StudyEndDate;
+    AND TO_DATE(ec."Date") BETWEEN $StudyStartDate and $StudyEndDate;
 
 -- ONLY KEEP DOSAGE INFO IF IT HAS APPEARED > 50 TIMES
 

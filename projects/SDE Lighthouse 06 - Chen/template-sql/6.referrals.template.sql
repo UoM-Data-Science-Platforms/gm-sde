@@ -9,10 +9,10 @@
 set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
 
-{{create-output-table::"LH001-6_Referrals"}}
+{{create-output-table::"LH006-6_Referrals"}}
 SELECT 
     co."GmPseudo" -- NEEDS PSEUDONYMISING
-    , TO_DATE(ec."EventDate") AS "MedicationDate"
+    , TO_DATE(ec."Date") AS "MedicationDate"
     , ec."SCTID" AS "SnomedCode"
     , CASE WHEN ec."Cluster_ID" = 'SOCPRESREF_COD' THEN 'social prescribing referral'
 			WHEN ("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%physiotherap%') THEN 'physiotherapy-referral'
@@ -23,7 +23,7 @@ SELECT
            ELSE 'other' END AS "CodeSet"
     , ec."Term" AS "Description"
 FROM {{cohort-table}} co 
-LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."EventsClusters" ec ON ec."FK_Patient_ID" = co."FK_Patient_ID"
+LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec ON ec."FK_Patient_ID" = co."FK_Patient_ID"
 WHERE 
 	(
     ("Cluster_ID" in ('SOCPRESREF_COD')) OR-- social prescribing referral
@@ -33,4 +33,4 @@ WHERE
 	("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%pain%') OR -- pain-related  referral  
 	("Cluster_ID" in ('REFERRAL_COD') AND (lower("Term") like '%surgeon%' or lower("Term") like '%surgery%' or lower("Term") like '%surgical%' )) -- surgery referral 
     )
-AND TO_DATE(ec."EventDate") BETWEEN $StudyStartDate and $StudyEndDate;
+AND TO_DATE(ec."Date") BETWEEN $StudyStartDate and $StudyEndDate;

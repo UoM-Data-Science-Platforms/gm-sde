@@ -149,10 +149,10 @@ where cs.concept = 'hodgkin-lymphoma';
 drop table if exists "PatsFromGPRecord";
 create temporary table "PatsFromGPRecord" as
 select "GmPseudo" from "GPPatsWithDLBCL" d
-inner join "DemographicsProtectedCharacteristics" dpc on dpc."FK_Patient_ID" = d."FK_Patient_ID"
+inner join presentation.gp_record."DemographicsProtectedCharacteristics_SecondaryUses" dpc on dpc."FK_Patient_ID" = d."FK_Patient_ID"
 UNION
 select "GmPseudo" from "GPPatsWithHodgkinLymphoma" h
-inner join "DemographicsProtectedCharacteristics" dpc on dpc."FK_Patient_ID" = h."FK_Patient_ID";
+inner join presentation.gp_record."DemographicsProtectedCharacteristics_SecondaryUses" dpc on dpc."FK_Patient_ID" = h."FK_Patient_ID";
 
 -- Now we find any patients with one or both, and link to demographics
 -- table to get the GmPseudo
@@ -187,7 +187,7 @@ SELECT top 1000 DISTINCT
 FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p
 WHERE "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
  	--AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM ADAPT)
-    AND "Snapshot" <= '2022-07-01'
+    AND "Snapshot" <= $StudyStartDate
 QUALIFY row_number() OVER (PARTITION BY p."GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot
 
 -- create table of potential patients to match to the main cohort
@@ -202,7 +202,7 @@ FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses"
 WHERE p."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
 	AND p."GmPseudo" NOT IN (SELECT "GmPseudo" FROM MainCohort)
 	AND p."GmPseudo" IN (SELECT "GmPseudo" FROM "LymphomaPatients")
-	AND "Snapshot" <= '2022-07-01' -- demographic information at closest date to the start of the trial
+	AND "Snapshot" <= $StudyStartDate -- demographic information at closest date to the start of the trial
 QUALIFY row_number() OVER (PARTITION BY p."GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot
 
 
@@ -248,20 +248,19 @@ QUALIFY row_number() OVER (PARTITION BY p."GmPseudo" ORDER BY "Snapshot" DESC) =
 
 DROP TABLE IF EXISTS Cases;
 CREATE TEMPORARY TABLE Cases AS
-SELECT "GmPseudo" AS PatientId, 
+SELECT "FK_Patient_ID" AS PatientId, 
 	YearOfBirth, 
 	Sex, 
-	Row_Number() OVER(PARTITION BY YearOfBirth, Sex ORDER BY "GmPseudo") AS CaseRowNumber
+	Row_Number() OVER(PARTITION BY YearOfBirth, Sex ORDER BY "FK_Patient_ID") AS CaseRowNumber
 FROM MainCohort;
-
 
 -- Then we do the same with the PotentialMatches table
 DROP TABLE IF EXISTS Matches;
 CREATE TEMPORARY TABLE Matches AS
-SELECT "GmPseudo" AS PatientId, 
+SELECT "FK_Patient_ID" AS PatientId, 
 	YearOfBirth, 
-	Sex,
-	Row_Number() OVER(PARTITION BY YearOfBirth, Sex ORDER BY "GmPseudo") AS AssignedPersonNumber
+	Sex, 
+	Row_Number() OVER(PARTITION BY YearOfBirth, Sex ORDER BY "FK_Patient_ID") AS AssignedPersonNumber
 FROM PotentialMatches;
 
 -- Find the number of people with each characteristic in the main cohort
@@ -288,11 +287,11 @@ CREATE TEMPORARY TABLE CohortStore (
 
 --1. First match try to match people exactly. We do this as follows:
 --    - For each YOB/Sex combination we find all potential matches. E.g. all patients
---    - in the potential matches with sex='F' and yob=1957 
+--      in the potential matches with sex='F' and yob=1957
 --    - We then try to assign a single match to all cohort members with sex='F' and yob=1957
---    - If there are still matches unused, we then assign
---    - a second match to all cohort members. This continues until we either run out of matches,
---    - or successfully match everyone with the desired number of matches.
+--    - If there are still matches unused, we then assign a second match to all cohort members
+--    - This continues until we either run out of matches, or successfully match everyone with
+--      the desired number of matches.
 
 DECLARE 
     counter INT;
@@ -349,7 +348,7 @@ BEGIN
 		GROUP BY c.PatientId, c.YearOfBirth, c.Sex, p.PatientId) sub
 		INNER JOIN Matches m 
 			ON m.Sex = sub.Sex 
- 			AND m.PatientId = sub.MatchedPatientId
+			AND m.PatientId = sub.MatchedPatientId
 			AND m.YearOfBirth >= sub.YearOfBirth - 5
 			AND m.YearOfBirth <= sub.YearOfBirth + 5
 		WHERE sub.AssignedPersonNumber = 1
@@ -416,16 +415,15 @@ END;
 
 
 
-
 -- Get the matched cohort detail - same as main cohort
 DROP TABLE IF EXISTS MatchedCohort;
 CREATE TEMPORARY TABLE MatchedCohort AS
 SELECT 
   c.MatchingPatientId AS "GmPseudo",
+  c.YearOfBirth,
   c.Sex,
   c.MatchingYearOfBirth,
-  c.EthnicCategory,
   c.PatientId AS PatientWhoIsMatched,
-FROM CohortStore c;
+select * FROM CohortStore c;
 
 -- No output table required for this script

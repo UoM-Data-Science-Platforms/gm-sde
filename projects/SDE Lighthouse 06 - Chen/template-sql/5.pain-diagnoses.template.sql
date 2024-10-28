@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS diagnoses;
 CREATE TEMPORARY TABLE diagnoses AS
 SELECT 
     cohort."GmPseudo"
-    , TO_DATE(ec."EventDate") AS "DiagnosisDate"
+    , TO_DATE(ec."Date") AS "DiagnosisDate"
     , ec."SCTID" AS "SnomedCode"
     , CASE WHEN ("Cluster_ID" = 'eFI2_PeripheralNeuropathy')    THEN 'peripheral-neuropathy' 
 		   WHEN ("Cluster_ID" = 'RARTH_COD') 					THEN 'rheumatoid-arthritis'
@@ -30,7 +30,7 @@ SELECT
            ELSE 'other' END AS "Concept"
     , ec."Term" AS "Description"
 FROM {{cohort-table}} cohort
-LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."EventsClusters" ec ON ec."FK_Patient_ID" = cohort."FK_Patient_ID"
+LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec ON ec."FK_Patient_ID" = cohort."FK_Patient_ID"
 WHERE 
 	(
 	("Cluster_ID" = 'eFI2_PeripheralNeuropathy') OR -- peripheral neuropathy
@@ -38,7 +38,7 @@ WHERE
 	("Cluster_ID" = 'eFI2_Osteoarthritis') OR -- osteoarthritis
 	("Cluster_ID" = 'eFI2_BackPainTimeSensitive') -- back pain in last 5 years
 	)
-AND TO_DATE(ec."EventDate") BETWEEN $StudyStartDate and $StudyEndDate
+AND TO_DATE(ec."Date") BETWEEN $StudyStartDate and $StudyEndDate
 AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}})
 UNION
 -- find diagnoses codes that don't exist in a cluster
@@ -61,7 +61,7 @@ WHERE cs.concept IN ('diabetic-neuropathy','chronic-pain', 'neck-problems','neur
 -- some codes appear in multiple code sets (e.g. back pain appearing in the more speciifc 'back-pain' and the more broad 'chronic-pain'), 
 -- so we're using sum case when statements to reduce the number of rows but indicate which code sets each code belongs to.
 
-{{create-output-table::"LH001-5_PainDiagnoses"}}
+{{create-output-table::"LH006-5_PainDiagnoses"}}
 SELECT 
 	"GmPseudo", -- NEEDS PSEUDONYMISING 
 	"DiagnosisDate", 

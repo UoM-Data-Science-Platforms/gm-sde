@@ -9,7 +9,7 @@ set(EndDate) = to_date('2024-06-30');
 
 -- find adverse reactions from GP events table
 
-{{create-output-table::"3_AdverseReactions"}}
+{{create-output-table::"LH001-3_AdverseReactions"}}
 SELECT DISTINCT
 	co."GmPseudo"
 	, to_date("EventDate") AS "DiagnosisDate"

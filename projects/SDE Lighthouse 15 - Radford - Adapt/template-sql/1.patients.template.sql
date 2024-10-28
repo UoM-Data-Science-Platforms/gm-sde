@@ -21,7 +21,7 @@
 set(StudyStartDate) = to_date('2015-03-01');
 set(StudyEndDate)   = to_date('2022-03-31');
 
---> EXECUTE query-get-possible-patientsSDE.sql minimum-age:18
+--> EXECUTE query-get-possible-patients.sql minimum-age:18
 
 --> CODESET diffuse-large-b-cell-lymphoma:1 hodgkin-lymphoma:1
 
@@ -75,7 +75,7 @@ drop table if exists "GPPatsWithDLBCL";
 create temporary table "GPPatsWithDLBCL" as
 select distinct e."FK_Patient_ID" 
 from INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
-left join SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_15_Radford_Adapt" cs on cs.code = e."SuppliedCode"
+left join {{code-set-table}} cs on cs.code = e."SuppliedCode"
 where cs.concept = 'diffuse-large-b-cell-lymphoma';
 
 -- And for Hodgkin Lymphoma
@@ -83,7 +83,7 @@ drop table if exists "GPPatsWithHodgkinLymphoma";
 create temporary table "GPPatsWithHodgkinLymphoma" as
 select distinct "FK_Patient_ID" 
 from INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
-left join SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_15_Radford_Adapt" cs on cs.code = e."SuppliedCode"
+left join {{code-set-table}} cs on cs.code = e."SuppliedCode"
 where cs.concept = 'hodgkin-lymphoma';
 
 -- join GP tables together and get GmPseudo

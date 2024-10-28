@@ -162,8 +162,8 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>Output</em></p>
 <pre><code>undefined
 </code></pre>
-<p><em>File</em>: <code>query-get-possible-patientsSDE.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patientsSDE.sql">https://github.com/rw251/.../query-get-possible-patientsSDE.sql</a></p>
+<p><em>File</em>: <code>query-get-possible-patients.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql">https://github.com/rw251/.../query-get-possible-patients.sql</a></p>
 <h2>Clinical code sets</h2>
 <p>This project required the following clinical code sets:</p>
 <ul>
@@ -171,9 +171,51 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>hodgkin-lymphoma v1</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
-<h3>TODO</h3>
-<p>Code set added to get a rough idea of how well recorded this is in GP data. It has not been developed robustly and should be properly validated prior to actual usage.</p>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diffuse-large-b-cell-lymphoma/1">https://github.com/rw251/.../conditions/diffuse-large-b-cell-lymphoma/1</a></p>
+<h3>Diffuse large b cell lymphoma</h3>
+<p>Child codes taken from snomed hierarchy using (1172695008 - Diffuse large B cell malignant lymphoma (morphologic abnormality)) and (109969005Diffuse large B-cell malignant lymphoma (disorder)).</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.07% - 0.09%</code> suggests that this code set is rare but well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-10-16</td>
+<td>EMIS</td>
+<td>2709725</td>
+<td style="text-align:right">2461 (0.0908%)</td>
+<td style="text-align:right">2461 (0.0908%)</td>
+</tr>
+<tr>
+<td>2024-10-16</td>
+<td>TPP</td>
+<td>216275</td>
+<td style="text-align:right">162 (0.0749%)</td>
+<td style="text-align:right">162 (0.0749%)</td>
+</tr>
+<tr>
+<td>2024-10-16</td>
+<td>Vision</td>
+<td>352021</td>
+<td style="text-align:right">350 (0.0994%)</td>
+<td style="text-align:right">350 (0.0994%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diffuse-large-b-cell-lymphoma/1">https://github.com/rw251/.../conditions/diffuse-large-b-cell-lymphoma/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
 <h3>Hogkin lymphoma</h3>
 <p>Codes taken from snomed hierarchy - all child codes of (118599009 - Hodgkin's disease)</p>
 <h4>Prevalence log</h4>

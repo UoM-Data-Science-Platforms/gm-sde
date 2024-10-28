@@ -1,5 +1,5 @@
 --┌───────────────────────────────────────────────────────────────────┐
---│ SDE Lighthouse study 15 - Radford - Inpatient hospital admissions │
+--│ SDE Lighthouse study 09 - Thompson - Inpatient hospital admissions │
 --└───────────────────────────────────────────────────────────────────┘
 
 -------- RESEARCH DATA ENGINEER CHECK ------------
@@ -11,7 +11,7 @@ set(StudyEndDate)   = to_date('2023-12-31'); -- change
 
 -- get all inpatient admissions
 
-{{create-output-table::"LH015-2_InpatientAdmissions"}}
+{{create-output-table::"LH009-6_InpatientAdmissions"}}
 SELECT 
     ap."GmPseudo"
     , TO_DATE("AdmissionDttm") AS "AdmissionDate"

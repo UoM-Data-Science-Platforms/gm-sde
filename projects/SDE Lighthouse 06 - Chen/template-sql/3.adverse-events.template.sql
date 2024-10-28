@@ -14,10 +14,10 @@ set(StudyEndDate)   = to_date('2023-12-31');
 
 --> CODESET selfharm-episodes:1 fracture:1
 
-{{create-output-table::"LH001-3_AdverseEvents"}}
+{{create-output-table::"LH006-3_AdverseEvents"}}
 SELECT DISTINCT
-	cohort."GmPseudo",  -- NEEDS PSEUDONYMISING
-	to_date("EventDate") as "EventDate",
+	cohort."GmPseudo",  
+	to_date("Date") as "EventDate",
 	cs.concept AS "Concept",
 	"SuppliedCode", 
 	"Term" AS "Description"
@@ -25,4 +25,4 @@ FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" events ON events."FK_Patient_ID" = cohort."FK_Patient_ID"
 LEFT OUTER JOIN {{code-set-table}} cs ON cs.code = events."SuppliedCode" 
 WHERE cs.concept IN ('selfharm-episodes', 'fracture')
-	AND TO_DATE(events."EventDate") BETWEEN $StudyStartDate AND $StudyEndDate;
+	AND TO_DATE(events."Date") BETWEEN $StudyStartDate AND $StudyEndDate;

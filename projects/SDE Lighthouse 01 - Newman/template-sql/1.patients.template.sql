@@ -21,7 +21,7 @@ CREATE TEMPORARY TABLE new_prescriptions AS
 SELECT 
     ec."FK_Patient_ID"
 	, c."GmPseudo"
-    , TO_DATE(ec."MedicationDate") AS "MedicationDate"
+    , TO_DATE(ec."Date") AS "Date"
     , ec."SCTID" AS "SnomedCode"
     , CASE WHEN ec."Field_ID" = 'Statin' THEN "FoundValue" -- statin
 			-- SSRIs
@@ -46,7 +46,7 @@ SELECT
 		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%rabeprazole%')  THEN 'rabeprazole'
 		   ELSE 'other' END AS "Concept"
     , ec."MedicationDescription" AS "Description"
-FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
+FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec
 INNER JOIN {{cohort-table}} c ON c."FK_Patient_ID" = ec."FK_Patient_ID"
 WHERE 
 	-- Statins
@@ -57,7 +57,7 @@ WHERE
 	("Field_ID" = 'ANTIDEPDRUG_COD' AND (LOWER("MedicationDescription") LIKE '%amitriptyline%' OR LOWER("MedicationDescription") LIKE '%clomipramine%' OR LOWER("MedicationDescription") LIKE '%doxepin%' OR LOWER("MedicationDescription") LIKE '%imipramine%' OR LOWER("MedicationDescription") LIKE '%nortriptyline%' OR LOWER("MedicationDescription") LIKE '%trimipramine%')) OR
 	-- proton pump inhibitors
 	( "Field_ID" = 'ULCERHEALDRUG_COD' AND (LOWER("MedicationDescription") LIKE '%esomeprazole%' OR LOWER("MedicationDescription") LIKE '%lansoprazole%' OR LOWER("MedicationDescription") LIKE '%omeprazole%' OR LOWER("MedicationDescription") LIKE '%pantoprazole%' OR LOWER("MedicationDescription") LIKE '%rabeprazole%' )) )
-AND TO_DATE(ec."MedicationDate") BETWEEN '2023-06-01' and '2025-06-01';
+AND TO_DATE(ec."Date") BETWEEN '2023-06-01' and '2025-06-01';
 
 -- table of old prescriptions 
 --	(we will use this to find patients that weren't prescribed the medication before,but have been prescribed it more recently)
@@ -66,7 +66,7 @@ DROP TABLE IF EXISTS old_prescriptions;
 CREATE TEMPORARY TABLE old_prescriptions AS
 SELECT 
     ec."FK_Patient_ID"
-    , TO_DATE(ec."MedicationDate") AS "MedicationDate"
+    , TO_DATE(ec."Date") AS "Date"
     , ec."SCTID" AS "SnomedCode"
     , CASE WHEN ec."Field_ID" = 'Statin' THEN "FoundValue" -- statin
 			-- SSRIs
@@ -91,7 +91,7 @@ SELECT
 		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%rabeprazole%')  THEN 'rabeprazole'
 		   ELSE 'other' END AS "Concept"
     , ec."MedicationDescription" AS "Description"
-FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" ec
+FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec
 WHERE 
 	-- Statins
 	(("Field_ID" = 'Statin') OR 
@@ -101,7 +101,7 @@ WHERE
 	("Field_ID" = 'ANTIDEPDRUG_COD' AND (LOWER("MedicationDescription") LIKE '%amitriptyline%' OR LOWER("MedicationDescription") LIKE '%clomipramine%' OR LOWER("MedicationDescription") LIKE '%doxepin%' OR LOWER("MedicationDescription") LIKE '%imipramine%' OR LOWER("MedicationDescription") LIKE '%nortriptyline%' OR LOWER("MedicationDescription") LIKE '%trimipramine%')) OR
 	-- proton pump inhibitors
 	( "Field_ID" = 'ULCERHEALDRUG_COD' AND (LOWER("MedicationDescription") LIKE '%esomeprazole%' OR LOWER("MedicationDescription") LIKE '%lansoprazole%' OR LOWER("MedicationDescription") LIKE '%omeprazole%' OR LOWER("MedicationDescription") LIKE '%pantoprazole%' OR LOWER("MedicationDescription") LIKE '%rabeprazole%' )))
-AND TO_DATE(ec."MedicationDate") < '2023-06-01';
+AND TO_DATE(ec."Date") < '2023-06-01';
 
 -- binary columns for each med type, indicating whether patient was ever prescribed it before June 2023
 

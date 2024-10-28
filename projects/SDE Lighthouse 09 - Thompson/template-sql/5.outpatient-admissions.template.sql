@@ -1,5 +1,5 @@
 --┌────────────────────────────────────────────────────────────────────┐
---│ SDE Lighthouse study 15 - Radford - Outpatient hospital encounters │
+--│ SDE Lighthouse study 09 - Thompson - Outpatient hospital encounters │
 --└────────────────────────────────────────────────────────────────────┘
 
 -------- RESEARCH DATA ENGINEER CHECK ------------
@@ -11,7 +11,7 @@ set(StudyEndDate)   = to_date('2022-03-31'); -- change
 
 -- get all inpatient admissions
 
-{{create-output-table::"LH015-5_OutpatientAdmissions"}}
+{{create-output-table::"LH009-5_OutpatientAdmissions"}}
 SELECT 
     ROW_NUMBER() OVER (ORDER BY "Pseudo NHS Number","Appointment Date Time") AS "AppointmentID"	
 	, SUBSTRING("Pseudo NHS Number", 2)::INT AS "GmPseudo" 

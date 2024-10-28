@@ -7,7 +7,7 @@ set(StudyEndDate)   = to_date('2024-08-31');
 
 -- get all inpatient admissions
 
-{{create-output-table::"6_InpatientAdmissions"}}
+{{create-output-table::"LH010-5_InpatientAdmissions"}}
 SELECT 
     ap."GmPseudo"
     , TO_DATE("AdmissionDttm") AS "AdmissionDate"

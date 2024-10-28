@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS diagnoses;
 CREATE TEMPORARY TABLE diagnoses AS
 SELECT 
     cohort."GmPseudo"
-    , TO_DATE(ec."EventDate") AS "DiagnosisDate"
+    , TO_DATE(ec."Date") AS "DiagnosisDate"
     , ec."SCTID" AS "SnomedCode"
     , CASE --diagnoses
 		   WHEN ("Cluster_ID" = 'SLUPUS_COD')   					THEN 'systemic-lupus-erythematosus' 
@@ -44,7 +44,7 @@ FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec ON ec."FK_Patient_ID" = cohort."FK_Patient_ID"
 WHERE 
 	("Cluster_ID" IN())
-AND TO_DATE(ec."EventDate") BETWEEN $StudyStartDate and $StudyEndDate
+AND TO_DATE(ec."Date") BETWEEN $StudyStartDate and $StudyEndDate
 AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}})
 UNION
 -- find diagnoses codes that don't exist in a cluster
