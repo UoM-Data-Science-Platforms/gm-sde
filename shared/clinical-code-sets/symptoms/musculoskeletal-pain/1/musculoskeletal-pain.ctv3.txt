@@ -1,0 +1,176 @@
+16C..	Backache symptom
+16C2.	Backache
+16C3.	Backache with radiation
+16C4.	Back pain worse on sneezing
+16C5.	C/O - low back pain
+16C6.	Back pain without radiation NOS
+16C7.	C/O - upper back ache
+16CZ.	Backache symptom NOS
+1A53.	C/O - lumbar pain
+1DC8.	Generalised pain
+N12..	Acute back pain - disc
+N131.	Pain in cervical spine
+N142.	Pain in lumbar spine
+N1420	Lumbago with sciatica
+N145.	Backache, unspecified
+N14y.	(Other back symptoms) or (facet joint syndrome)
+N2410	Myalgia unspecified
+R00z2	[D]Pain, generalised
+X75rs	Myalgia
+X75rt	Intercostal myalgia
+XE0up	Lumbar pain
+XE1F4	Nonspecific pain in the neck region
+XE1FB	Pain in lumbar spine
+XE1FE	Backache, unspecified
+XE1Fm	Myalgia unspecified
+XE1HU	Neck pain NOS
+XE1He	Low back pain
+XE1IU	Myalgia/myositis - NOS
+XM0Cq	C/O - lumbar pain
+XM1GI	Pain in back
+Xa0sM	Acute low back pain
+Xa0wj	Pain in cervical spine
+Xa0wt	Nonspecific pain in the lumbar region
+182B0	Costal margin chest pain
+1D24.	C/O - a back symptom
+A741.	Epidemic pleurodynia
+A78y2	Epidemic cervical myalgia
+F26y1	Ophthalmoplegic migraine
+F32z.	Bertolotti's syndrome
+G73z0	Vascular claudication
+N094.	Pain in joint - arthralgia
+N0940	Arthralgia of unspecified site
+N0941	Shoulder joint pain
+N0942	Elbow joint pain
+N0943	Wrist joint pain
+N0944	Hand joint pain
+N0945	Hip joint pain
+N0947	Arthralgia of the ankle and foot
+N0948	Arthralgia of other specified site
+N0949	Polyarthralgia
+N094B	Sternoclavicular joint pain
+N094C	Arthralgia of acromioclavicular joint
+N094D	Elbow joint pain
+N094E	Distal radioulnar joint pain
+N094F	Wrist joint pain
+N094G	Metacarpophalangeal joint pain
+N094H	Proximal interphalangeal joint of finger pain
+N094J	Distal interphalangeal joint of finger pain
+N094L	Sacroiliac joint pain
+N094N	Tibiofibular joint pain
+N094P	Arthralgia of ankle
+N094Q	Subtalar joint pain
+N094R	Talonavicular joint pain
+N094S	Arthralgia of other tarsal joint
+N094T	First metatarsophalangeal joint pain
+N094U	Lesser metatarsophalangeal joint pain
+N094V	Interphalangeal joint of toe pain
+N094z	Arthralgia NOS
+N096.	Musculoskeletal pain - joints
+N0960	Other joint symptoms of unspecified site
+N0961	Other joint symptoms of the shoulder region
+N0965	Hip snapping
+N0967	Other joint symptoms of the ankle and foot
+N096D	Other symptoms - elbow
+N096K	Other symptoms - hip
+N123.	Intervertebral disc prolapse NOS
+N12z.	Other and unspecified disc disorders
+N12z0	Other disc disorders of unspecified site
+N12z2	Other thoracic disc disorders
+N12zz	Disc disorders NOS
+N2157	Trochanteric bursitis
+N2158	Iliotibial band syndrome
+N2172	Metatarsalgia NOS
+N21y0	Anterior shin splints
+N2401	Fibrositis unspecified
+N242z	Policeman's disease
+N33A0	Bony pelvic pain
+N33A1	Clavicle pain
+Nyu70	[X]Other cervical disc displacement
+Nyu73	[X]Lumbar and other intervertebral disc disorders with myelopathy
+Nyu75	[X]Other specified intervertebral disc displacement
+Nyu77	[X]Other specified intervertebral disc disorders
+R065A	[D]Musculoskeletal chest pain
+R090C	[D]Loin pain
+X705M	Eosinophilia myalgia syndrome
+X7063	Soft tissue rheumatism
+X707a	Metatarsalgia
+X708C	Fibrositis and nodular fasciitis
+X709g	Viral myalgia
+X70Cg	Slipped intervertebral disc
+X70Ci	Intervertebral disc prolapse NOS
+X70Dq	Persistent prosthetic joint pain
+X75rq	Bone pain
+X75rv	Hip pain
+X75rx	Fibrositis
+X75s4	Facet joint syndrome
+XE0VR	Intermittent claudication
+XE0rW	Lumbar ache - renal
+XE1EY	Joint pain
+XE1EZ	Shoulder joint pain
+XE1Ea	Arthralgia of the upper arm
+XE1Eb	Arthralgia of the forearm
+XE1Ec	Arthralgia of the pelvic region and thigh
+XE1Ee	Arthralgia of the ankle and foot
+XE1En	Other joint symptoms of unspecified site
+XE1Eq	Other joint symptoms of the ankle and foot
+XE1Ez	Disorder of intervertebral disc
+XE1FH	Other back symptoms
+XE1H6	Pain in joint - coxalgia
+XE1H8	Shoulder joint pain
+XE1HQ	Slipped disc
+XE1Hs	Metatarsalgia
+XM092	Loin pain
+XM0CD	C/O - a back symptom
+XM0Cp	C/O - loin pain
+XM0Cr	C/O - renal pain
+XM10e	Renal pain
+XM1Qu	Claudication
+XSDWB	Venous intermittent claudication
+Xa0Jr	Rubella arthralgia
+Xa0wY	Xiphoidalgia syndrome
+Xa0wk	Cervical trigger point syndrome
+Xa0wl	Cervical segmental dysfunction
+Xa0wq	Thoracic trigger point syndrome
+Xa0wv	Lumbar trigger point syndrome
+Xa0yA	Myofascial pain
+Xa0yD	Lumbar zygapophysial joint pain
+Xa0yG	Foot joint pain
+Xa0yH	Metatarsophalangeal joint pain
+Xa0yK	Muscle tension pain
+Xa1hJ	Musculoskeletal chest pain
+Xa2CA	Malignant bone pain
+Xa34v	Painful tooth socket
+Xa3gU	Intervertebral disc lesion NOS
+Xa6aA	Rib pain
+Xa6sP	Cervical facet joint pain
+Xa6sQ	Thoracic facet joint pain
+Xa6sR	Pain on joint movement
+Xa6tC	Pain on movement of skeletal muscle
+Xa6vL	Temporomandibular joint painful on movement
+Xa6x0	Cervical spine - painful on movement
+Xa6ye	Thoracic spine - painful on movement
+Xa70A	Lumbar spine - painful on movement
+Xa71A	Pain of sternum
+Xa73D	Shoulder joint painful on movement
+Xa73E	Shoulder joint - painful arc
+Xa74O	Elbow joint - painful on movement
+Xa75r	Wrist joint painful on movement
+Xa77U	Finger joint painful on movement
+Xa78u	Thumb joint painful on movement
+Xa7Af	Hip joint painful on movement
+Xa7Bq	Knee joint - painful on movement
+Xa7DC	Ankle joint - painful on movement
+Xa7EJ	Foot joint - painful on movement
+Xa7Ex	Subtalar joint - painful on movement
+Xa7GF	Toe joint painful on movement
+Xa84p	Pain in femur
+XaB9L	Bertolotti's syndrome
+XaC1M	Pain due to hip joint prosthesis
+XaC1N	Pain due to knee joint prosthesis
+XaC1O	Pain due to shoulder joint prosthesis
+XabU1	Shoulder joint painful on external rotation
+Xag7K	Pelvic girdle pain
+Zw040	[Q] Central disc prolapse
+Zw041	[Q] Posterolateral disc prolapse
+Zw042	[Q] Sequestrated disc prolapse

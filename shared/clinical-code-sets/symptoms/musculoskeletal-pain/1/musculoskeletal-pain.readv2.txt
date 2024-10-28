@@ -1,0 +1,202 @@
+16C..	Backache symptom
+16C..00	Backache symptom
+16C2.	Backache
+16C2.00	Backache
+16C3.	Backache with radiation
+16C3.00	Backache with radiation
+16C4.	Back pain worse on sneezing
+16C4.00	Back pain worse on sneezing
+16C5.	C/O - low back pain
+16C5.00	C/O - low back pain
+16C6.	Back pain without radiation NOS
+16C6.00	Back pain without radiation NOS
+16C7.	C/O - upper back ache
+16C7.00	C/O - upper back ache
+16CZ.	Backache symptom NOS
+16CZ.00	Backache symptom NOS
+182B.	Rib pain
+182B.00	Rib pain
+182B0	Costal margin chest pain
+182B000	Costal margin chest pain
+1A53.00	Lumbar ache - renal
+1A53.11	C/O - loin pain
+1A53.12	C/O - lumbar pain
+1A53.13	C/O - renal pain
+1D24.11	C/O - a back symptom
+1DC8.	Generalised pain [symptom]
+1DC8.00	Generalised pain [symptom]
+1DCC.	Aching muscles
+1DCC.00	Aching muscles
+1M02.	Shoulder joint painful on movement
+1M02.00	Shoulder joint painful on movement
+1M03.	Shoulder joint painful on external rotation
+1M03.00	Shoulder joint painful on external rotation
+A741.	Epidemic pleurodynia
+A741.00	Epidemic pleurodynia
+A741.11	Bornholm disease
+A741.12	Devil's grip
+A78y2	Epidemic cervical myalgia
+A78y200	Epidemic cervical myalgia
+F26y1	Ophthalmoplegic migraine
+F26y100	Ophthalmoplegic migraine
+F26y111	Moebius' ophthalmoplegic migraine
+F32z.11	Bertolotti's syndrome
+G73z0	Intermittent claudication
+G73z000	Intermittent claudication
+G73z011	Claudication
+G73z012	Vascular claudication
+N094.	Pain in joint - arthralgia
+N094.00	Pain in joint - arthralgia
+N094.11	Ache in joint
+N0940	Arthralgia of unspecified site
+N094000	Arthralgia of unspecified site
+N0941	Arthralgia of the shoulder region
+N094100	Arthralgia of the shoulder region
+N094111	Shoulder joint pain
+N094200	Arthralgia of the upper arm
+N094211	Elbow joint pain
+N094300	Arthralgia of the forearm
+N094311	Wrist joint pain
+N0944	Arthralgia of the hand
+N094400	Arthralgia of the hand
+N094411	Hand joint pain
+N094500	Arthralgia of the pelvic region and thigh
+N094511	Coxalgia
+N094512	Hip joint pain
+N094700	Arthralgia of the ankle and foot
+N094711	Ankle joint pain
+N0948	Arthralgia of other specified site
+N094800	Arthralgia of other specified site
+N0949	Arthralgia of multiple joints
+N094900	Arthralgia of multiple joints
+N094A	Arthralgia of shoulder
+N094A00	Arthralgia of shoulder
+N094B	Arthralgia of sternoclavicular joint
+N094B00	Arthralgia of sternoclavicular joint
+N094C	Arthralgia of acromioclavicular joint
+N094C00	Arthralgia of acromioclavicular joint
+N094D	Arthralgia of elbow
+N094D00	Arthralgia of elbow
+N094D11	Elbow joint pain
+N094E	Arthralgia of distal radio-ulnar joint
+N094E00	Arthralgia of distal radio-ulnar joint
+N094F00	Arthralgia of wrist
+N094G	Arthralgia of metacarpophalangeal joint
+N094G00	Arthralgia of metacarpophalangeal joint
+N094H	Arthralgia of proximal interphalangeal joint of finger
+N094H00	Arthralgia of proximal interphalangeal joint of finger
+N094J	Arthralgia of distal interphalangeal joint of finger
+N094J00	Arthralgia of distal interphalangeal joint of finger
+N094K	Arthralgia of hip
+N094K00	Arthralgia of hip
+N094K11	Coxalgia
+N094K12	Hip pain
+N094L	Arthralgia of sacro-iliac joint
+N094L00	Arthralgia of sacro-iliac joint
+N094N	Arthralgia of tibio-fibular joint
+N094N00	Arthralgia of tibio-fibular joint
+N094P	Arthralgia of ankle
+N094P00	Arthralgia of ankle
+N094Q	Arthralgia of subtalar joint
+N094Q00	Arthralgia of subtalar joint
+N094R	Arthralgia of talonavicular joint
+N094R00	Arthralgia of talonavicular joint
+N094S	Arthralgia of other tarsal joint
+N094S00	Arthralgia of other tarsal joint
+N094T	Arthralgia of 1st metatarsophalangeal joint
+N094T00	Arthralgia of 1st metatarsophalangeal joint
+N094U	Arthralgia of lesser metatarsophalangeal joint
+N094U00	Arthralgia of lesser metatarsophalangeal joint
+N094V	Arthralgia of interphalangeal joint of toe
+N094V00	Arthralgia of interphalangeal joint of toe
+N094z	Arthralgia NOS
+N094z00	Arthralgia NOS
+N096.12	Musculoskeletal pain - joints
+N096000	Other joint symptoms of unspecified site
+N0961	Other joint symptoms of the shoulder region
+N096100	Other joint symptoms of the shoulder region
+N096511	Hip snapping
+N096700	Other joint symptoms of the ankle and foot
+N096D	Other symptoms - elbow
+N096D00	Other symptoms - elbow
+N096K	Other symptoms - hip
+N096K00	Other symptoms - hip
+N12..00	Intervertebral disc disorders
+N12..11	Displacement of intervertebral disc
+N12..12	Slipped intervertebral disc
+N12..13	Acute back pain - disc
+N123.11	Intervertebral disc prolapse NOS
+N12z.	Other and unspecified disc disorders
+N12z.00	Other and unspecified disc disorders
+N12z0	Other disc disorders of unspecified site
+N12z000	Other disc disorders of unspecified site
+N12z2	Other thoracic disc disorders
+N12z200	Other thoracic disc disorders
+N12zz	Disc disorders NOS
+N12zz00	Disc disorders NOS
+N131.00	Cervicalgia - pain in neck
+N131.11	Pain in cervical spine
+N138.	Cervicalgia
+N138.00	Cervicalgia
+N142.00	Pain in lumbar spine
+N142.11	Low back pain
+N142.12	Lumbalgia
+N142.13	Acute back pain - lumbar
+N142.14	Lumbago
+N1420	Lumbago with sciatica
+N142000	Lumbago with sciatica
+N145.	Backache, unspecified
+N145.00	Backache, unspecified
+N145.11	Acute back pain - unspecified
+N145.12	Back pain, unspecified
+N14y.00	Other back symptoms
+N14y.11	Facet joint syndrome
+N2157	Trochanteric bursitis
+N215700	Trochanteric bursitis
+N2159	Iliotibial band syndrome
+N215900	Iliotibial band syndrome
+N2172	Metatarsalgia NOS
+N217200	Metatarsalgia NOS
+N21y0	Anterior shin splints
+N21y000	Anterior shin splints
+N2401	Fibrositis unspecified
+N240100	Fibrositis unspecified
+N241000	Myalgia unspecified
+N241011	Intercostal myalgia
+N241012	Muscle pain
+N2413	Viral myalgia
+N241300	Viral myalgia
+N242z11	Policeman's disease
+N33A.	Bone pain
+N33A.00	Bone pain
+N33A0	Bony pelvic pain
+N33A000	Bony pelvic pain
+N33A1	Clavicle pain
+N33A100	Clavicle pain
+Nyu70	[X]Other cervical disc displacement
+Nyu7000	[X]Other cervical disc displacement
+Nyu73	[X]Lumbar and other intervertebral disc disorders with myelopathy
+Nyu7300	[X]Lumbar and other intervertebral disc disorders with myelopathy
+Nyu75	[X]Other specified intervertebral disc displacement
+Nyu7500	[X]Other specified intervertebral disc displacement
+Nyu77	[X]Other specified intervertebral disc disorders
+Nyu7700	[X]Other specified intervertebral disc disorders
+R00z2	[D]Pain, generalized
+R00z200	[D]Pain, generalized
+R00z211	[D]General aches and pains
+R065A	[D]Musculoskeletal chest pain
+R065A00	[D]Musculoskeletal chest pain
+R090C	[D]Loin pain
+R090C00	[D]Loin pain
+SP07A	Pain due to hip joint prosthesis
+SP07A00	Pain due to hip joint prosthesis
+SP07B	Pain due to knee joint prosthesis
+SP07B00	Pain due to knee joint prosthesis
+SP07C	Pain due to shoulder joint prosthesis
+SP07C00	Pain due to shoulder joint prosthesis
+Zw040	[Q] Central disc prolapse
+Zw04000	[Q] Central disc prolapse
+Zw041	[Q] Posterolateral disc prolapse
+Zw04100	[Q] Posterolateral disc prolapse
+Zw042	[Q] Sequestrated disc prolapse
+Zw04200	[Q] Sequestrated disc prolapse

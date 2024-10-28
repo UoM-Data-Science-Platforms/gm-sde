@@ -1,0 +1,248 @@
+EMISNQNO10	Non-mechanical back pain
+EMISNQSH46	Shoulder joint painful on movement
+EMISNQSH47	Shoulder joint painful on external rotation
+^ESCT1166653	Chronic arthralgia of temporomandibular joint
+^ESCT1166659	Infrequent episodic arthralgia of temporomandibular joint
+^ESCT1168885	Myofascial pain with referral
+^ESCT1169170	Chronic musculoskeletal pain
+^ESCT1169171	Chronic pain secondary to musculoskeletal structure
+^ESCT1169329	Chronic primary musculoskeletal pain
+^ESCT1169338	Chronic musculoskeletal pain due to persistent inflammation
+^ESCT1169339	Chronic musculoskeletal pain due to disease of nervous system
+^ESCT1172799	Bilateral temporomandibular joint pain
+^ESCT1172800	Pain in bilateral temporomandibular joints
+^ESCT1172801	Bilateral TMJ (temporomandibular joint) pain
+^ESCT1172802	Pain in both temporomandibular joints
+^ESCT1173185	Greater trochanteric pain syndrome of right lower limb
+^ESCT1173186	Bilateral greater trochanteric pain syndrome of lower limbs
+^ESCT1173187	Greater trochanteric pain syndrome of both lower limbs
+^ESCT1173188	Greater trochanteric pain syndrome of bilateral lower limbs
+^ESCT1173189	Greater trochanteric pain syndrome of left lower limb
+^ESCT1179005	GTPS - greater trochanteric pain syndrome
+^ESCT1185656	Myofascial trigger point syndrome
+^ESCT1185890	Symphysis pubis dysfunction
+^ESCT1190226	Metacarpophalangeal joint pain
+^ESCT1190227	First metatarsophalangeal joint pain
+^ESCT1190228	Finger joint painful on movement
+^ESCT1190229	Interphalangeal joint of toe pain
+^ESCT1190230	Proximal interphalangeal joint of finger pain
+^ESCT1190231	Sacroiliac joint pain
+^ESCT1190232	Subtalar joint pain
+^ESCT1190233	Talonavicular joint pain
+^ESCT1190544	Generalized aches and pains
+^ESCT1193198	Multiple joint pain
+^ESCT1212235	Bilateral chronic pain following total hip arthroplasty
+^ESCT1212236	Chronic pain following bilateral total hip arthroplasty
+^ESCT1212237	Chronic pain following total arthroplasty of both hips
+^ESCT1351806	Anti-cyclic citrullinated peptide antibody positive arthralgia
+^ESCT1351807	Anti-CCP (anti-cyclic citrullinated peptide) antibody positive arthralgia
+^ESCT1353090	Pain of right shoulder blade
+^ESCT1353091	Pain of left shoulder blade
+^ESCT1353092	Pain of right acromioclavicular joint
+^ESCT1353093	Pain of left acromioclavicular joint
+^ESCT1362095	Chronic sacroiliac joint pain
+^ESCT1367056	Myofascial pain syndrome of thoracic spine
+^ESCT1367076	Vertebral joint pain
+^ESCT1367389	Myofascial pain syndrome of lumbar spine
+^ESCT1368792	Pain of right sternoclavicular joint
+^ESCT1368793	Pain of left sternoclavicular joint
+^ESCT1368796	Joint pain in right hand
+^ESCT1368797	Joint pain in left hand
+^ESCT1370791	Bilateral acromioclavicular joint pain
+^ESCT1370792	Pain of bilateral acromioclavicular joints
+^ESCT1370793	Pain of both acromioclavicular joints
+^ESCT1371184	Bilateral pain of shoulder blades
+^ESCT1371185	Pain of both shoulder blades
+^ESCT1371186	Pain of bilateral shoulder blades
+^ESCT1371866	Bilateral pain of joint of hands
+^ESCT1371867	Pain of joint of both hands
+^ESCT1371868	Pain of joint of bilateral hands
+^ESCT1379689	Myofascial pain syndrome of neck
+^ESCT1379690	Cervical myofascial pain syndrome
+^ESCT1379691	Myofascial pain syndrome of thorax
+^ESCT1379692	Thoracic myofascial pain syndrome
+^ESCT1379693	Myofascial pain syndrome of lower back
+^ESCT1379694	Lumbar myofascial pain syndrome
+^ESCT1391964	Intermittent claudication due to atherosclerosis of artery of limb
+^ESCT1405543	Greater trochanteric pain syndrome
+^ESCT1411047	Right greater trochanteric pain syndrome of lower limb
+^ESCT1411049	Left greater trochanteric pain syndrome of lower limb
+^ESCT1415605	Pain of joint of knee
+^ESCT1418019	Bilateral intermittent claudication of lower limbs due to atherosclerosis of nonbiological bypass graft
+^ESCT1418020	Intermittent claudication of bilateral lower limbs due to atherosclerosis of nonbiological bypass graft
+^ESCT1418021	Intermittent claudication of both lower limbs due to atherosclerosis of nonbiological bypass graft
+^ESCT1418022	Intermittent claudication of bilateral lower extremities due to atherosclerosis of nonbiological bypass graft
+^ESCTAB801398	Abdominal muscle pain
+^ESCTAC256375	Achillodynia
+^ESCTAC481405	Acromioclavicular joint pain
+^ESCTAC803565	Acute arthralgia of knee
+^ESCTAC803566	Acute knee joint pain
+^ESCTAN550258	Ankle and/or foot joint pain
+^ESCTAN586707	Ankle joint - painful on movement
+^ESCTAR343730	Articular pain
+^ESCTAR399445	Arthralgia of temporomandibular joint
+^ESCTAR407690	Arm claudication
+^ESCTAR481410	Arthralgia of distal radioulnar joint
+^ESCTAR481422	Arthralgia of tibiofibular joint
+^ESCTAR562113	Arthralgia of foot
+^ESCTAX689394	Axis pressure pain
+^ESCTBA454511	Back ache
+^ESCTBE390399	Bertolotti syndrome
+^ESCTBI947973	Bilateral foot joint pain
+^ESCTBI949318	Bilateral total knee chronic pain following arthroplasty
+^ESCTCE382831	Cervical pain
+^ESCTCE562056	Cervical trigger point syndrome
+^ESCTCE562057	Cervical segmental dysfunction
+^ESCTCE585032	Cervical facet joint pain
+^ESCTCE585363	Cervical spine painful on movement
+^ESCTCE705250	Cervicothoracic segmental dysfunction
+^ESCTCE748130	Cervical discogenic pain
+^ESCTCE756283	Centrally mediated myalgia
+^ESCTCH339234	Charleyhorse
+^ESCTCH353264	Charcot's syndrome
+^ESCTCH804076	Chronic pain in coccyx for more than three months
+^ESCTCH949319	Chronic pain following bilateral total knee arthroplasty
+^ESCTCH949321	Chronic pain following left total hip arthroplasty
+^ESCTCH949322	Chronic pain following left total knee arthroplasty
+^ESCTCH949323	Chronic pain following right total hip arthroplasty
+^ESCTCH949325	Chronic pain following right total knee arthroplasty
+^ESCTCO454518	Complaining of low back pain
+^ESCTCO454520	Complaining of upper back ache
+^ESCTCO553253	Complaining of a back symptom
+^ESCTCO553313	Complaining of loin pain
+^ESCTCO553315	Complaining of renal pain
+^ESCTDI481409	Distal radioulnar joint pain
+^ESCTDI481417	Distal interphalangeal joint of finger pain
+^ESCTDI748944	Discogenic pain
+^ESCTDO585583	Dorsal spine - painful on movement
+^ESCTEL586055	Elbow joint - painful on movement
+^ESCTEM405631	EMS - Eosinophilia myalgia syndrome
+^ESCTEO405630	Eosinophilia myalgia syndrome
+^ESCTEO668628	Eosinophilia-myalgia syndrome from tryptophan
+^ESCTEP385495	Epidemic myalgia
+^ESCTEP385496	Epidemic myositis
+^ESCTEP385497	Epidemic benign dry pleurisy
+^ESCTEP385498	Epidemic pleurisy
+^ESCTFA524320	Facet joint pain
+^ESCTFA562109	Facet syndrome of lumbar spine
+^ESCTFA585033	Facet syndrome of cervical spine
+^ESCTFI514281	Fibrositis and nodular fasciitis
+^ESCTFO562112	Foot joint pain
+^ESCTFO586787	Foot joint - painful on movement
+^ESCTFR796083	Fracture pain
+^ESCTGE385030	Generalized body aches
+^ESCTGE385031	Generalized pain
+^ESCTGE385032	Generalised pain
+^ESCTGE385034	Generalised body aches
+^ESCTGT262204	GTPS - greater trochanteric pain syndrome
+^ESCTHI586527	Hip joint painful on movement
+^ESCTIC353266	IC - Intermittent claudication
+^ESCTIL701525	Iliotibial band syndrome
+^ESCTIL810025	Iliotibial band friction syndrome of right knee
+^ESCTIN369651	Intervertebral disc extrusion
+^ESCTIN369655	Intervertebral disc protrusion
+^ESCTIN947813	Intermittent claudication of bilateral lower limbs co-occurrent and due to atherosclerosis
+^ESCTIN947815	Intermittent claudication of left lower limb co-occurrent and due to atherosclerosis
+^ESCTIN947818	Intermittent claudication of right lower limb co-occurrent and due to atherosclerosis
+^ESCTIV369652	IVDP - Intervertebral disc prolapse
+^ESCTJA320725	Jaw claudication
+^ESCTJO770366	Joint pain of pelvic region
+^ESCTKI556152	Kidney pain
+^ESCTKN586611	Knee joint painful on movement
+^ESCTLA407691	Lame arm
+^ESCTLB562068	LBP - Low back pain
+^ESCTLE481432	Lesser metatarsophalangeal joint pain
+^ESCTLO562069	Low back syndrome
+^ESCTLO752564	Localised masticatory muscle soreness
+^ESCTLO752565	Localized masticatory muscle soreness
+^ESCTLU325897	Lumbago-sciatica due to displacement of lumbar intervertebral disc
+^ESCTLU562070	Lumbalgia
+^ESCTLU562072	Lumbar pain
+^ESCTLU562075	Lumbar trigger point syndrome
+^ESCTLU562106	Lumbar facet joint pain
+^ESCTLU562107	Lumbar zygapophysial joint pain
+^ESCTLU562108	Lumbar facet syndrome
+^ESCTLU585721	Lumbar spine painful on movement
+^ESCTLU748946	Lumbar discogenic pain
+^ESCTMA566858	Malignant bone pain
+^ESCTME562114	Metatarsophalangeal joint pain
+^ESCTMP787954	MPS - myofascial pain syndrome
+^ESCTMU362158	Muscle ache
+^ESCTMU562118	Muscle tension pain
+^ESCTMY353265	Myasthenia angiosclerotica
+^ESCTMY362159	Myodynia
+^ESCTMY362160	Myosalgia
+^ESCTMY362161	Myoneuralgia
+^ESCTMY562104	Myofascial pain
+^ESCTMY769493	Myalgia of pelvic floor
+^ESCTMY787953	Myofascial pain syndrome
+^ESCTMY787955	Myofascial pain dysfunction syndrome
+^ESCTMY992173	Myalgia caused by statin
+^ESCTNE382832	Neck ache
+^ESCTNO382830	Nonspecific pain in the neck region
+^ESCTNO562073	Nonspecific pain in the lumbar region
+^ESCTOS270029	Osteodynia
+^ESCTPA266075	Pain in ball of foot
+^ESCTPA283073	Pain in scapula
+^ESCTPA343729	Painful joint
+^ESCTPA382828	Painful neck
+^ESCTPA454512	Pain in back
+^ESCTPA570008	Painful tooth socket
+^ESCTPA585036	Pain on joint movement
+^ESCTPA585091	Pain on movement of skeletal muscle
+^ESCTPA585798	Pain of sternum
+^ESCTPA589855	Pain in femur
+^ESCTPA647490	Painful swelling of joint
+^ESCTPA710484	Pain on passive stretch of joint
+^ESCTPA717222	Pain in symphysis pubis in pregnancy
+^ESCTPA766598	Painful os peroneum syndrome
+^ESCTPA766600	Painful os peroneum
+^ESCTPA796084	Pain due to fracture
+^ESCTPE514532	Persistent prosthetic joint pain
+^ESCTPE757888	Pelvic girdle pain
+^ESCTPG757889	PGP - pelvic girdle pain
+^ESCTPI369650	PID - Prolapsed intervertebral disc
+^ESCTPI369654	PIVD - Prolapsed intervertebral disc
+^ESCTPO307451	Polyarthralgia
+^ESCTPO405629	Polymyalgia
+^ESCTPO766599	POPS - painful os peroneum syndrome
+^ESCTPR298580	Primary fibrositis
+^ESCTPR369649	Prolapsed intervertebral disc
+^ESCTPR405632	Primary fibromyalgia syndrome
+^ESCTRE556151	Renal pain
+^ESCTRU559512	Rubella arthralgia
+^ESCTSA255002	Sacrocoxalgia
+^ESCTSA390397	Sacralization-scoliosis-sciatica syndrome
+^ESCTSA390398	Sacralisation-scoliosis-sciatica syndrome
+^ESCTSC283071	Scapulalgia
+^ESCTSC283072	Scapulodynia
+^ESCTSE317085	Segmental dysfunction
+^ESCTSE389586	Secondary fibrositis
+^ESCTSE834993	Secondary fibromyalgia
+^ESCTSH283074	Shoulder blade pain
+^ESCTSH585975	Shoulder joint - painful arc
+^ESCTSL369648	Slipped disc
+^ESCTSO562105	Soft tissue rheumatism
+^ESCTST481403	Sternoclavicular joint pain
+^ESCTSU586831	Subtalar joint painful on movement
+^ESCTTA759382	Tarsalgia
+^ESCTTE284262	Tenalgia
+^ESCTTE284263	Tenodynia
+^ESCTTE284264	Tendon pain
+^ESCTTE585214	Temporomandibular joint painful on movement
+^ESCTTH562064	Thoracic trigger point syndrome
+^ESCTTH585034	Thoracic facet joint pain
+^ESCTTH585035	Thoracic facet syndrome
+^ESCTTH585582	Thoracic spine - painful on movement
+^ESCTTH586385	Thumb joint painful on movement
+^ESCTTH748945	Thoracic discogenic pain
+^ESCTTI481421	Tibiofibular joint pain
+^ESCTTO586921	Toe joint painful on movement
+^ESCTTR668629	Tryptophan induced eosinophilia-myalgia syndrome
+^ESCTVE405673	Venous intermittent claudication
+^ESCTVE405674	Venous claudication
+^ESCTWH262203	Whirlbone lameness
+^ESCTWR586172	Wrist joint painful on movement
+^ESCTXI395703	Xiphodynia
+^ESCTXI396094	Xiphoidalgia syndrome
+^ESCTXI396095	Xiphoidalgia
