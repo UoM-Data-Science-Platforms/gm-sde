@@ -1,0 +1,7 @@
+^ESCTGY472470	Gynecological referral
+^ESCTLI472751	Listed for Gynaecology admission
+^ESCTLI472752	Listed for Gyne admission
+^ESCTLI472754	Listed for Gynecology admission
+^ESCTPR472843	Private referral to gynecologist
+^ESCTRE472469	Referral to gynaecology service
+^ESCTRE472472	Referral to gynecology service

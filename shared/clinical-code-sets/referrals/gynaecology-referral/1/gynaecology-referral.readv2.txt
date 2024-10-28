@@ -1,0 +1,15 @@
+8HTB.00	Referral to fertility clinic 
+8H4V.00	Referral to gynaecology special-interest GP
+8H58.00	Gynaecological referral
+8Hku.00	Referral to community gynaecology service
+8HMO.00	Listed for gynaecological admission
+8HV7.00	Private referral to gynaecologist
+ZL5D.00	Referral to obstetrician and gynaecologist
+ZL5D200	Referral to gynaecologist
+8H4A.11	Referred to genitourinary physician
+8H4W.00	Referral to urology special-interest GP
+8H5B.00	Referred to urologist
+8HTa.00	Referral to genitourinary clinic
+8HVA.00	Private referral to urologist
+ZL5AJ00	Referral to genitourinary physician
+ZL5GP00	Referral to urologist

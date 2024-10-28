@@ -1,0 +1,11 @@
+8H4A.	Referred to venereologist
+8H58.	Referral to gynaecology service
+8H5B.	Referred to urologist
+8HMO.	Listed for Gynae admission
+8HTB.	Referral to fertility clinic
+8HV7.	Private referral to gynaecologist
+8HVA.	Private referral to urologist
+XaJwU	Referral to genitourinary clinic
+XaMA6	Referral to gynaecology special interest general practitioner
+XaMFf	Referral to urology special interest general practitioner
+XaXsb	Referral to community gynaecology service
