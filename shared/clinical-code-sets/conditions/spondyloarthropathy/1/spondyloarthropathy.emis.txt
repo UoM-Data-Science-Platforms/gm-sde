@@ -1,0 +1,60 @@
+EMISNQAX2	Axial spondyloarthritis
+^ESCTAS265343	AS - Ankylosing spondylitis
+^ESCTBE265339	Bekhterev's disease
+^ESCTCE356105	Cervical spinal cord compression
+^ESCTCE356106	Cervical spondylitic cord compression
+^ESCTCE481511	Cervical spondylosis with root compression
+^ESCTCE647809	Cervical osteoarthritis
+^ESCTCE647812	Cervical spondylarthritis
+^ESCTCE647813	Cervical spine degeneration
+^ESCTCO381270	Congenital spondylolysis of lumbosacral region
+^ESCTCS647811	CS - Cervical spondylosis
+^ESCTFR331696	Fracture of spine
+^ESCTFR331698	Fracture of spinal vertebra
+^ESCTFR331699	Fracture of vertebra
+^ESCTFR331700	Fractured spine
+^ESCTID265342	Idiopathic ankylosing spondylitis
+^ESCTIN481486	Inflammatory spondylopathy
+^ESCTIN481488	Inflammatory spondylopathy associated with another disorder
+^ESCTKO419375	Kozlowski spondylometaphyseal dysplasia
+^ESCTKU514475	Kummell's spondylitis
+^ESCTKU514476	Kummell-Verneuil disease
+^ESCTKU514472	Kummell disease
+^ESCTKU514477	Kummell's spondylitis
+^ESCTKU514478	Kummell-Verneuil disease
+^ESCTLU327997	Lumbar AND/OR sacral osteoarthritis
+^ESCTMA265336	Marie Strumpell spondylitis
+^ESCTMA265341	Marie-Strumpell spondylitis
+^ESCTOA264120	OA - Osteoarthritis of the spine
+^ESCTOA264121	OA - Osteoarthritis of spine
+^ESCTPS285960	Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome
+^ESCTPS285962	Pseudoachondroplastic dysplasia
+^ESCTRH265337	Rheumatoid spondylitis
+^ESCTSA339520	Sacroiliac joint inflamed
+^ESCTSA339521	Sacroiliac joint active
+^ESCTSE285961	SED syndrome
+^ESCTSE334216	SEDT - Spondyloepiphyseal dysplasia tarda
+^ESCTSE561659	SED - Spondyloepiphyseal dysplasia
+^ESCTSE561660	SEDC - Spondyloepiphyseal dysplasia congenita
+^ESCTSP255444	Spondylolisthesis, grade 4
+^ESCTSP264118	Spondylarthrosis
+^ESCTSP264122	Spondarthropathy
+^ESCTSP265338	Spondylosis deformans
+^ESCTSP267422	Spondylogenic compression of thoracic spinal cord
+^ESCTSP270833	Spondylolisthesis, grade 3
+^ESCTSP321687	Spondylolisthesis, grade 1
+^ESCTSP331697	Spinal fracture
+^ESCTSP351817	Spondylolisthesis, grade 2
+^ESCTSP356104	Spondylogenic compression of cervical spinal cord
+^ESCTSP361987	Spinal osteoarthritis
+^ESCTSP386925	Spondarthritis
+^ESCTSP419376	Spondylometaphyseal dysplasia Kozlowski type
+^ESCTSP514482	Spondyloptosis
+^ESCTSP561662	Spondyloepiphyseal dysplasia congenita group
+^ESCTSP636426	Spondyloarthropathy
+^ESCTTH267423	Thoracic spondylosis with cord compression
+^ESCTTH481517	Thoracic spondylosis with root compression
+^ESCTTH647818	Thoracic spondylarthritis
+^ESCTTH647819	Thoracic osteoarthritis
+^ESCTXL334214	X-linked spondyloepiphyseal dysplasia
+^ESCTXL334215	X-linked spondyloepiphyseal dysplasia tarda

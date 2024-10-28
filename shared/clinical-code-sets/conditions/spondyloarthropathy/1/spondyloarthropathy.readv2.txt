@@ -1,0 +1,125 @@
+7J34112	Buck fusion of lumbar spine for spondylolisthesis
+7J48500	Spondylolisthesis operation
+7J48511	Gill excision of spondylolisthesis
+7J48K00	Reduction of spondylolisthesis and fusion
+7J48L00	Fusion spondylolisthesis in situ
+F163200	Myelopathy due to spondylosis
+F337200	Nerve root and plexus compressions in spondylosis
+N10..00	Inflammatory spondylopathies
+N100.00	Ankylosing spondylitis
+N100.11	Marie - Strumpell spondylitis
+N101.00	Spinal enthesopathy
+N102.00	Sacroiliitis NEC
+N10y.00	Other inflammatory spondylopathies
+N10y000	Inflammatory spondylopathies in diseases EC
+N10yz00	Other inflammatory spondylopathies NOS
+N10z.00	Spondylitis NOS
+N11..00	Spondylosis and allied disorders
+N110.00	Cervical spondylosis without myelopathy
+N110000	Single-level cervical spondylosis without myelopathy
+N110100	Two-level cervical spondylosis without myelopathy
+N110.11	Cervical spondylosis
+N110200	Multiple-level cervical spondylosis without myelopathy
+N111.00	Cervical spondylosis with myelopathy
+N111000	Single-level cervical spondylosis with myelopathy
+N111100	Two-level cervical spondylosis with myelopathy
+N111200	Multiple-level cervical spondylosis with myelopathy
+N112.00	Thoracic spondylosis without myelopathy
+N112000	Single-level thoracic spondylosis without myelopathy
+N112100	Two-level thoracic spondylosis without myelopathy
+N112.11	Thoracic spondylosis
+N112200	Multiple-level thoracic spondylosis without myelopathy
+N112300	Dorsal spondylosis without myelopathy
+N113.00	Thoracic spondylosis with myelopathy
+N113000	Single-level thoracic spondylosis with myelopathy
+N113200	Multiple-level thoracic spondylosis with myelopathy
+N114.00	Lumbosacral spondylosis without myelopathy
+N114000	Single-level lumbosacral spondylosis without myelopathy
+N114100	Two-level lumbosacral spondylosis without myelopathy
+N114.12	Lumbar spondylosis
+N114200	Multiple-level lumbosacral spondylosis without myelopathy
+N115.00	Lumbosacral spondylosis with myelopathy
+N115000	Single-level lumbosacral spondylosis with myelopathy
+N115100	Two-level lumbosacral spondylosis with myelopathy
+N115200	Multiple-level lumbosacral spondylosis with myelopathy
+N118.00	Traumatic spondylopathy
+N119.00	Cervical spondylosis with radiculopathy
+N119000	Single-level cervical spondylosis with radiculopathy
+N119100	Two-level cervical spondylosis with radiculopathy
+N119200	Multiple-level cervical spondylosis with radiculopathy
+N11A.00	Cervical spondylosis with vascular compression
+N11B.00	Thoracic spondylosis with radiculopathy
+N11B000	Single-level thoracic spondylosis with radiculopathy
+N11B100	Two-level thoracic spondylosis with radiculopathy
+N11B200	Multiple-level thoracic spondylosis with radiculopathy
+N11C.00	Lumbosacral spondylosis with radiculopathy
+N11C000	Single-level lumbosacral spondylosis with radiculopathy
+N11C100	Two-level lumbosacral spondylosis with radiculopathy
+N11C200	Multiple-level lumbosacral spondylosis with radiculopathy
+N11E.00	Cervical spondylosis
+N11y.00	Other spondyloses and allied disorders
+N11y200	Neuropathic spondylopathy
+N11z.00	Spondylosis NOS
+N11z000	Spondylosis without myelopathy; NOS
+N11z100	Spondylosis with myelopathy; NOS
+N11zz00	Spondylosis NOS
+N384.00	Acquired spondylolisthesis
+N384000	Dysplastic spondylolisthesis
+N384100	Isthmic spondylolisthesis
+N384200	Degenerative spondylolisthesis
+N384300	Pedicular spondylolisthesis
+N388.00	Spondylolysis
+Nyu6.00	[X]Spondylopathies
+Nyu6100	[X]Other specified inflammatory spondylopathies
+Nyu6300	[X]Other spondylosis with radiculopathy
+Nyu6400	[X]Other spondylosis
+Nyu6700	[X]Collapsed vertebra in diseases classified elsewhere
+Nyu6900	[X]Spondylopathy; unspecified
+PG11.00	Congenital lumbosacral spondylolysis
+PG12.00	Congenital spondylolisthesis
+PG46.00	Spondyloepiphyseal dysplasia
+PG46000	Spondyloepiphyseal dysplasia congenita
+PG46100	Spondyloepiphyseal dysplasia tarda
+PG4E.00	Spondylometaphyseal dysplasia
+S100B00	Closed fracture axis; spondylolysis
+S100J00	Closed fracture cervical vertebra; spondylolysis
+S102200	Closed fracture thoracic vertebra; spondylolysis
+S104200	Closed fracture lumbar vertebra; spondylolysis
+Zw04600	[Q] Spondylolisthesis grade 1
+Zw04700	[Q] Spondylolisthesis grade 2
+Zw04800	[Q] Spondylolisthesis grade 3
+Zw04900	[Q] Spondylolisthesis grade 4
+Zw04A00	[Q] Spondyloptosis
+7J34000	Primary posterior fusion of lumbar spine
+7J34011	Bosworth posterior interlaminal fusion of lumbar spine
+7J342	Primary intertransverse fusion lumbar spine NEC
+7J34200	Primary intertransverse fusion lumbar spine NEC
+G651.	Vertebral artery syndrome
+G651.00	Vertebral artery syndrome
+N0401	Other rheumatoid arthritis of spine
+N040100	Other rheumatoid arthritis of spine
+N05zK	Osteoarthritis NOS, of sacro-iliac joint
+N05zK00	Osteoarthritis NOS, of sacro-iliac joint
+N1...11	Dorsopathies
+N11D.	Osteoarthritis of spine
+N11D.00	Osteoarthritis of spine
+N11D0	Osteoarthritis of cervical spine
+N11D000	Osteoarthritis of cervical spine
+N11D1	Osteoarthritis of thoracic spine
+N11D100	Osteoarthritis of thoracic spine
+N11D2	Osteoarthritis of lumbar spine
+N11D200	Osteoarthritis of lumbar spine
+N11D3	Osteoarthritis of spine NOS
+N11D300	Osteoarthritis of spine NOS
+Nyu59	[X]Other specified deforming dorsopathies
+Nyu5900	[X]Other specified deforming dorsopathies
+Nyu62	[X]Other spondylosis with myelopathy
+Nyu6200	[X]Other spondylosis with myelopathy
+Nyu65	[X]Other specified spondylopathies
+Nyu6500	[X]Other specified spondylopathies
+Nyu68	[X]Spondylopathy in other diseases classified elsewhere
+Nyu6800	[X]Spondylopathy in other diseases classified elsewhere
+Nyu79	[X]Other specified dorsopathies
+Nyu7900	[X]Other specified dorsopathies
+PG446	Pseudoachondroplasia
+PG44600	Pseudoachondroplasia
