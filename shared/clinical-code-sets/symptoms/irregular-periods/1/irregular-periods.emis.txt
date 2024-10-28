@@ -1,0 +1,7 @@
+^ESCT1391031	Excessive menstruation with irregular cycle
+^ESCTIR380432	Irregular menstrual bleeding
+^ESCTIR380433	Irregular menstruation
+^ESCTIR380436	Irregular uterine bleeding
+^ESCTME380434	Menstrual periods irregular
+^ESCTPE526446	Period has come early
+^ESCTVA380435	Variable menstrual cycle

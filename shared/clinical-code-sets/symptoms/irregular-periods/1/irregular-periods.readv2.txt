@@ -1,0 +1,6 @@
+K594.	Irregular menstrual cycle
+K594.00	Irregular menstrual cycle
+K594z	Irregular menstrual cycle NOS
+K594z00	Irregular menstrual cycle NOS
+Kyu9C	[X]Other specified irregular menstruation
+Kyu9C00	[X]Other specified irregular menstruation
