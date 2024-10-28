@@ -1,0 +1,139 @@
+1B...	Nervous system symptoms
+1B1A.00	Memory loss - amnesia
+1B1A.11	Amnesia symptom
+1B1A.12	Memory loss symptom
+1B1A.13	Memory disturbance
+1B1A0	Temporary loss of memory
+1B1A000	Temporary loss of memory
+1B1A1	Short-term memory loss
+1B1A100	Short-term memory loss
+1B1S.	Transient global amnesia
+1B1S.00	Transient global amnesia
+1B1Y.	Poor visual sequential memory
+1B1Y.00	Poor visual sequential memory
+1B1a.	Poor auditory sequential memory
+1B1a.00	Poor auditory sequential memory
+1B6A.	Muzzy headed
+1B6A.00	Muzzy headed
+1BL..	Loss of judgment
+1BL..00	Loss of judgment
+1BR..	Reduced concentration
+1BR..00	Reduced concentration
+1BR0.	Reduced concentration span
+1BR0.00	Reduced concentration span
+1BR0.11	Short attention span
+1BW..	Poor concentration
+1BW..00	Poor concentration
+1S21.	Disturbance of memory for order of events
+1S21.00	Disturbance of memory for order of events
+1S23.	Memory impairment
+1S23.00	Memory impairment
+2232.	O/E - mentally confused
+2232.00	O/E - mentally confused
+2232.11	O/E - confused
+284..	O/E - disorientated
+284..00	O/E - disorientated
+2841.	Confused
+2841.00	Confused
+2841.11	Confusion
+2842.	Disorientated in time
+2842.00	Disorientated in time
+28E..	Cognitive decline
+28E..00	Cognitive decline
+28E0.	Mild cognitive impairment
+28E0.00	Mild cognitive impairment
+28E1.	Moderate cognitive impairment
+28E1.00	Moderate cognitive impairment
+28E2.	Severe cognitive impairment
+28E2.00	Severe cognitive impairment
+28E3.	Cognitive impairment
+28E3.00	Cognitive impairment
+28G..	Forgetful
+28G..00	Forgetful
+28H..	Mentally vague
+28H..00	Mentally vague
+28Q1.	Unable to make considered choices
+28Q1.00	Unable to make considered choices
+3A10.	Memory: own age not known
+3A10.00	Memory: own age not known
+3A20.	Memory: present time not known
+3A20.00	Memory: present time not known
+3A30.	Memory: present place not knwn
+3A30.00	Memory: present place not knwn
+3A40.	Memory: present year not known
+3A40.00	Memory: present year not known
+3A50.	Memory: own DOB not known
+3A50.00	Memory: own DOB not known
+3A60.	Memory: present month not knwn
+3A60.00	Memory: present month not knwn
+3A70.	Memory: important event not kn
+3A70.00	Memory: important event not kn
+3A80.	Memory: import.person not knwn
+3A80.00	Memory: import.person not knwn
+3A91.	Memory: count down unsuccess.
+3A91.00	Memory: count down unsuccess.
+3AA1.	Memory: address recall unsucc.
+3AA1.00	Memory: address recall unsucc.
+3AE1.	GDS level 2 - very mild cognitive decline
+3AE1.00	GDS level 2 - very mild cognitive decline
+3AE2.	GDS level 3 - mild cognitive decline
+3AE2.00	GDS level 3 - mild cognitive decline
+3AE3.	GDS level 4 - moderate cognitive decline
+3AE3.00	GDS level 4 - moderate cognitive decline
+3AE4.	GDS level 5 - moderately severe cognitive decline
+3AE4.00	GDS level 5 - moderately severe cognitive decline
+3AE5.	GDS level 6 - severe cognitive decline
+3AE5.00	GDS level 6 - severe cognitive decline
+3AE6.	GDS level 7 - very severe cognitive decline
+3AE6.00	GDS level 7 - very severe cognitive decline
+3AG1.	Memory: months of year in reverse unsuccessful
+3AG1.00	Memory: months of year in reverse unsuccessful
+6AQ..	Mild cognitive impairment review
+6AQ..00	Mild cognitive impairment review
+8HTY.	Referral to memory clinic
+8HTY.00	Referral to memory clinic
+8IHL.	Mild cognitive impairment review declined
+8IHL.00	Mild cognitive impairment review declined
+9OlB.	Mild cognitive impairment review invitation
+9OlB.00	Mild cognitive impairment review invitation
+9OlB0	Mild cognitive impairment review invitation first letter
+9OlB000	Mild cognitive impairment review invitation first letter
+9OlB1	Mild cognitive impairment review invitation second letter
+9OlB100	Mild cognitive impairment review invitation second letter
+9OlB2	Mild cognitive impairment review invitation third letter
+9OlB200	Mild cognitive impairment review invitation third letter
+E2A10	Mild memory disturbance
+E2A1000	Mild memory disturbance
+Eu057	[X]Mild cognitive disorder
+Eu05700	[X]Mild cognitive disorder
+Eu058	[X]Cognitive communication disorder
+Eu05800	[X]Cognitive communication disorder
+Eu812	[X]Specific disorder of arithmetical skills
+Eu81200	[X]Specific disorder of arithmetical skills
+Eu81211	[X]Developmental acalculia
+Eu81212	[X]Developmental arithmetical disorder
+Eu81213	[X]Developmental Gerstmann's syndrome
+Eu90000	[X]Disturbance of activity and attention
+G655.	Transient global amnesia
+G655.00	Transient global amnesia
+K5A23	Menopausal concentration lack
+K5A2300	Menopausal concentration lack
+R009.	[D]Confusion
+R009.00	[D]Confusion
+R009.11	[D] Senile confusion
+R00z000	[D]Amnesia (retrograde)
+R00z011	[D]Memory deficit
+R00z5	[D]Anterograde amnesia
+R00z500	[D]Anterograde amnesia
+R00zX	[D]Disorientation, unspecified
+R00zX00	[D]Disorientation, unspecified
+R140z	[D]Brain and central nervous system abnormal function study NOS
+R140z00	[D]Brain and central nervous system abnormal function study NOS
+Ryu50	[X]Other amnesia
+Ryu5000	[X]Other amnesia
+Ryu51	[X]Other and unspecified symptoms and signs involving cognitive functions and awareness
+Ryu5100	[X]Other and unspecified symptoms and signs involving cognitive functions and awareness
+Ryu57	[X]Disorientation, unspecified
+Ryu5700	[X]Disorientation, unspecified
+ZV405	[V]Disorder of attention
+ZV40500	[V]Disorder of attention

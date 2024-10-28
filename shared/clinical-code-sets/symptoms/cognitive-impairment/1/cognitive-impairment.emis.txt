@@ -1,0 +1,332 @@
+EMISHGT58	Memory: Months backwards: errors
+EMISLO2	Loss of concentration
+EMISNQDI90	Distress
+EMISNQEA2	Early warning sign of possible relapse
+EMISNQFE12	Feeling isolated
+EMISNQHO52	Hopelessness
+EMISNQIM12	Impaired cognition
+EMISNQIN131	Inattention
+EMISNQMI228	Mild cognitive impairment annual review
+EMISNQPE36	Perceived lack of control over life
+EMISR4QCO2	Cognitive impairment
+^ESCT1170619	Cognitive deficit in communication skills
+^ESCT1170620	Cognitive deficit in visuospatial function
+^ESCT1170621	Cognitive deficit in psychomotor function
+^ESCT1190534	[D]Confusion
+^ESCT1248783	Memory: import.person not knwn
+^ESCT1271821	[X]Disturbance of activity and attention
+^ESCT1377079	Disorientation to person, time and place
+^ESCT1393525	Amnestic mild cognitive disorder
+^ESCT1393526	aMCI - amnestic mild cognitive impairment
+^ESCT1397984	Education for memory impairment
+^ESCT1405794	Foggy mind
+^ESCT1406858	Memory: present month not known
+^ESCT1406859	Memory: important event not known
+^ESCTAB325952	Absent minded
+^ESCTAC445236	Acute confusion
+^ESCTAM259808	Amnesia for remote events
+^ESCTAM317983	Amnesia for recent events
+^ESCTAM524637	Amnesia for day to day facts
+^ESCTAM524645	Amnesia for important personal information
+^ESCTAN394338	Antegrade amnesia
+^ESCTAN713775	Anxiety about loss of memory
+^ESCTAS676891	Assess memory loss care
+^ESCTAT805685	Attention delay
+^ESCTBA646219	Bad memory
+^ESCTBE315892	Bewilderment
+^ESCTBE524685	Bewildered
+^ESCTCA524639	Cannot remember today's date
+^ESCTCA524642	Cannot remember reigning monarch
+^ESCTCA524644	Cannot remember current prime minister
+^ESCTCA524646	Cannot remember names of intimates
+^ESCTCA524648	Cannot remember own age
+^ESCTCA524649	Cannot remember wedding anniversary
+^ESCTCA524650	Cannot remember birth dates of children
+^ESCTCA524651	Cannot remember name of school
+^ESCTCH445237	Chronic confusion
+^ESCTCL315890	Clouded consciousness
+^ESCTCO347510	Concentration impairment
+^ESCTCO634897	Cognitive safety issue
+^ESCTCO646208	Cognitive disturbance
+^ESCTCO646209	Cognitive dysfunction
+^ESCTCO646211	Cognitive deficit
+^ESCTCO727473	Cognitive disorder
+^ESCTCO764365	Cognitive disorder due to disorder
+^ESCTCO804516	Cognitive deficit in attention
+^ESCTDA315893	Dazed state
+^ESCTDA315895	Dazed
+^ESCTDE311996	Defective judgement
+^ESCTDE600667	Delayed verbal memory
+^ESCTDI263859	Disturbance in judgement
+^ESCTDI281201	Disturbance of orientation in time
+^ESCTDI313612	Disorientation as to people, time and place
+^ESCTDI351571	Disturbance of orientation
+^ESCTDI351572	Disorientation
+^ESCTDI352055	Disorientation for person
+^ESCTDI352056	Disturbance of orientation to person
+^ESCTDI352057	Disorientated in person
+^ESCTDI358614	Disorientation as to self
+^ESCTDI367797	Disorientated in place
+^ESCTDI367798	Disturbance of orientation to place
+^ESCTDI373671	Disturbance of attention
+^ESCTDI427124	Disturbance of cognitive learning
+^ESCTDI524591	Difficulty problem solving
+^ESCTDI524592	Difficulty solving problems
+^ESCTDI524598	Difficulty making plans
+^ESCTDI524599	Difficulty making decisions
+^ESCTDI524693	Diversion of thought
+^ESCTDI557154	Difficulty in remembering dates
+^ESCTDI573722	Directs attention
+^ESCTDI573724	Difficulty directing attention
+^ESCTDI593214	Difficulty reasoning
+^ESCTDI593217	Difficulty performing logical sequencing
+^ESCTDI593222	Difficulty using decision making strategies
+^ESCTDI593227	Difficulty using visuospatial reasoning
+^ESCTDI593232	Difficulty using arithmetic reasoning
+^ESCTDI593236	Difficulty using verbal reasoning
+^ESCTDI593265	Difficulty making considered choices
+^ESCTDI596420	Difficulty processing information
+^ESCTDI596427	Difficulty analysing information
+^ESCTDI596428	Difficulty analyzing information
+^ESCTDI600676	Difficulty processing information accurately
+^ESCTDI600679	Difficulty processing information at normal speed
+^ESCTDI646220	Disturbance of memory
+^ESCTDI699503	Difficulty problem solving without conflict
+^ESCTDI700214	Diminished judgement
+^ESCTDI798132	Difficulty following instructions
+^ESCTDI844212	Difficulty recognising familiar people
+^ESCTDI844215	Difficulty remembering places
+^ESCTDI844322	Difficulty dividing attention
+^ESCTDI844335	Difficulty finding way around familiar environment
+^ESCTDI844336	Difficulty finding way around school environment
+^ESCTDI844338	Difficulty finding way around work environment
+^ESCTDI844345	Difficulty identifying choices
+^ESCTDI844357	Difficulty making decision on safe entry of visitors
+^ESCTDI844359	Difficulty making decision on safe information to give over telephone
+^ESCTDI844406	Difficulty recognising objects
+^ESCTDI844407	Difficulty recognising objects by sight
+^ESCTDI844408	Difficulty recognising objects by touch
+^ESCTDI844410	Difficulty recognising surroundings
+^ESCTDI844412	Difficulty remembering past events
+^ESCTDI844413	Difficulty remembering people
+^ESCTDI844414	Difficulty remembering routines
+^ESCTDI844419	Difficulty shifting attention
+^ESCTDI844429	Difficulty sustaining attention
+^ESCTDO573721	Does direct attention
+^ESCTDO573723	Does not direct attention
+^ESCTDO844235	Does not problem solve
+^ESCTDO844236	Does not process information at normal speed
+^ESCTDO844239	Does not recognise objects by touch
+^ESCTDO844241	Does not remember routines
+^ESCTDO844243	Does not shift attention
+^ESCTDO844266	Does recognise objects by touch
+^ESCTDO844468	Does not analyse information
+^ESCTDO844494	Does not divide attention
+^ESCTDO844506	Does not find way around familiar environment
+^ESCTDO844507	Does not find way around school environment
+^ESCTDO844508	Does not find way around work environment
+^ESCTDO844516	Does not identify choices
+^ESCTDO844528	Does not make decision on safe entry of visitors
+^ESCTDO844529	Does not make decision on safe information to give over telephone
+^ESCTDO844531	Does not make decisions
+^ESCTDO844567	Does not process information
+^ESCTDO844568	Does not process information accurately
+^ESCTDO844573	Does not recognise familiar people
+^ESCTDO844578	Does not recognise objects
+^ESCTDO844579	Does not recognise objects by sight
+^ESCTDO844582	Does not recognise surroundings
+^ESCTDO844583	Does not remember past events
+^ESCTDO844584	Does not remember people
+^ESCTDO844586	Does not remember places
+^ESCTDO844600	Does not sustain attention
+^ESCTDO844622	Does not use decision making strategies
+^ESCTDO844762	Does recognise objects
+^ESCTDO844764	Does recognise objects by sight
+^ESCTDO844770	Does remember past events
+^ESCTDO844809	Does use decision making strategies
+^ESCTDU315894	Dullness of senses
+^ESCTDY646216	Dysmnesia
+^ESCTEA524837	Easily distracted
+^ESCTFI627188	Finding related to ability to recognise objects by touch
+^ESCTFI627189	Finding related to ability to recognize objects by touch
+^ESCTFI627210	Finding related to ability to recognise objects by sight
+^ESCTFI627211	Finding related to ability to recognize objects by sight
+^ESCTFI627622	Finding related to ability to use arithmetic reasoning
+^ESCTFO524619	Forgets what was going to do
+^ESCTFO524620	Forgets what was going to say
+^ESCTFO524621	Forgets recent activities
+^ESCTFO524622	Forgets what has just done
+^ESCTFO524623	Forgets what has just said
+^ESCTFO524624	Forgets what has just read
+^ESCTFO524625	Forgets what has just seen
+^ESCTFO524626	Forgets what has just heard
+^ESCTFO701551	Forgets to complete personal care
+^ESCTGE285126	General inattentiveness
+^ESCTGE524712	Getting lost
+^ESCTGE524713	Getting lost inside the home
+^ESCTGL674965	Global Deterioration Scale (GDS) level 2 - very mild cognitive decline
+^ESCTGL674966	Global Deterioration Scale level 2 - very mild cognitive decline
+^ESCTGL674968	Global Deterioration Scale (GDS) level 3 - mild cognitive decline
+^ESCTGL674969	Global Deterioration Scale level 3 - mild cognitive decline
+^ESCTGL674971	Global Deterioration Scale (GDS) level 4 - moderate cognitive decline
+^ESCTGL674972	Global Deterioration Scale level 4 - moderate cognitive decline
+^ESCTGL674974	Global Deterioration Scale (GDS) level 5 - moderately severe cognitive decline
+^ESCTGL674975	Global Deterioration Scale level 5 - moderately severe cognitive decline
+^ESCTGL674977	Global Deterioration Scale (GDS) level 6 - severe cognitive decline
+^ESCTGL674978	Global Deterioration Scale level 6 - severe cognitive decline
+^ESCTGL674980	Global Deterioration Scale (GDS) level 7 - very severe cognitive decline
+^ESCTGL674981	Global Deterioration Scale level 7 - very severe cognitive decline
+^ESCTHA568144	Has delayed recall
+^ESCTHY275437	Hysterical amnesia
+^ESCTIM311995	Impaired judgement
+^ESCTIM646215	Impaired memory
+^ESCTIN394590	Incomplete clearmindedness
+^ESCTIN524600	Indecision
+^ESCTIN565585	Intermittent confusion
+^ESCTIR264819	Irrelevant answer
+^ESCTLA417839	Lack of thinking ability
+^ESCTLA417840	Lack of reasoning ability
+^ESCTLA499786	Language-related cognitive disorder
+^ESCTLA524865	Lack of judgement
+^ESCTLA672353	Lack of awareness
+^ESCTLI524830	Limited concentration
+^ESCTLI700549	Limited reasoning ability
+^ESCTLI701981	Limited ability to think abstractly
+^ESCTLI701982	Limited abstract thinking ability
+^ESCTLO259809	Loss of memory for remote events
+^ESCTLO317984	Loss of memory for recent events
+^ESCTLO327935	LOM - Loss of memory
+^ESCTLO327938	Loss of memory
+^ESCTLO454781	Loss of judgement
+^ESCTLO524609	Long-term memory loss
+^ESCTLO524692	Loss of direction of thought
+^ESCTMA676889	Manage memory loss care
+^ESCTME327934	Memory loss
+^ESCTME327936	Memory gone
+^ESCTME459109	Memory: own date of birth not known
+^ESCTME459122	Memory: important person not known
+^ESCTME493555	Memory lapses
+^ESCTME498137	Memory retraining
+^ESCTME590482	Memory skills training
+^ESCTME590483	Memory training
+^ESCTME644612	Mental health treatment
+^ESCTME646214	Memory dysfunction
+^ESCTME646217	Memory problem
+^ESCTME676885	Memory loss care
+^ESCTME676886	Memory loss care education
+^ESCTME676888	Memory loss care management
+^ESCTME676890	Memory loss care assessment
+^ESCTME694187	Mentally dull
+^ESCTME694188	Mental dullness
+^ESCTME846146	Mental health advice and support intervention
+^ESCTMI417837	Minimal cognitive impairment
+^ESCTMI493554	Minor memory lapses
+^ESCTMI494481	Mistakes people's identity
+^ESCTMU315897	Muddled
+^ESCTMU524682	Muddled thought
+^ESCTMU524683	Muddled thinking
+^ESCTMU525452	Muzziness
+^ESCTNE764364	Neurocognitive disorder
+^ESCTNO317985	No memory for recent events
+^ESCTON455061	On examination - mentally confused
+^ESCTON456670	On examination - disorientated
+^ESCTON494132	Onset of confusion
+^ESCTOR351573	Orientation confused
+^ESCTOR351574	Orientation poor
+^ESCTOR717348	Organic amnesia of language
+^ESCTOR717349	Organic amnestic language disorder
+^ESCTPI420379	Pilot's vertigo
+^ESCTPO259810	Poor memory for remote events
+^ESCTPO524608	Poor long-term memory
+^ESCTPO524616	Poor short-term memory
+^ESCTPO524703	Poor grasp of abstract concepts
+^ESCTPO524838	Poor attention control
+^ESCTPO557151	Post-traumatic amnesia
+^ESCTPO557153	Posttraumatic amnesia
+^ESCTPO646218	Poor memory
+^ESCTPT557152	PTA - Post-traumatic amnesia
+^ESCTPU524684	Puzzled
+^ESCTRA334155	RA - Retrograde amnesia
+^ESCTRE524833	Reduced attention span
+^ESCTRE827125	Referral to memory assessment service
+^ESCTSC704119	Scattered attention
+^ESCTSE290142	Selective inattention
+^ESCTSE290143	Selective attention
+^ESCTSH524618	Short term memory loss
+^ESCTSH524834	Short concentration span
+^ESCTSI524694	Sidetracked from flow of thought
+^ESCTSP420378	Spatial disorientation
+^ESCTTE454715	Temporary memory loss
+^ESCTTE676887	Teach memory loss care
+^ESCTTG501184	TGA - Transient global amnesia
+^ESCTTR596802	Transient memory loss
+^ESCTTR596803	Transient amnesia
+^ESCTUN303514	Uncompensated short term memory deficit
+^ESCTUN347509	Unable to concentrate
+^ESCTUN524638	Unable to remember today's date
+^ESCTUN524640	Unable to remember name of reigning monarch
+^ESCTUN524641	Unable to remember name of current monarch
+^ESCTUN524643	Unable to remember name of current prime minister
+^ESCTUN524647	Unable to remember own age
+^ESCTUN524681	Unable to think clearly
+^ESCTUN569773	Unable to recognise objects
+^ESCTUN569774	Unable to recognize objects
+^ESCTUN569780	Unable to recognise objects by touch
+^ESCTUN569781	Unable to recognize objects by touch
+^ESCTUN569790	Unable to recognise objects by sight
+^ESCTUN569791	Unable to recognize objects by sight
+^ESCTUN569792	Unable to recognize objects visually
+^ESCTUN569793	Unable to recognise objects visually
+^ESCTUN569800	Unable to recognise faces by sight
+^ESCTUN569801	Unable to recognize faces by sight
+^ESCTUN569804	Unable to recognise faces
+^ESCTUN569805	Unable to recognize faces
+^ESCTUN569812	Unable to recognise sounds
+^ESCTUN569813	Unable to recognize sounds
+^ESCTUN569818	Unable to recognise surroundings
+^ESCTUN569819	Unable to recognize surroundings
+^ESCTUN569840	Unable to recognise odours
+^ESCTUN569841	Unable to recognize odors
+^ESCTUN569842	Unable to recognize smells
+^ESCTUN569843	Unable to recognise smells
+^ESCTUN569845	Unable to remember own date of birth
+^ESCTUN569848	Unable to remember day of the week
+^ESCTUN569850	Unable to remember month of year
+^ESCTUN569853	Unable to remember current year
+^ESCTUN569865	Unable to recall random address at five minutes
+^ESCTUN569867	Unable to reproduce geometric figure at five minutes
+^ESCTUN569869	Unable to recall five digit number at five minutes
+^ESCTUN569876	Unable to remember motor skills
+^ESCTUN569878	Unable to remember new motor skills
+^ESCTUN569880	Unable to remember old motor skills
+^ESCTUN569882	Unable to remember objects
+^ESCTUN569885	Unable to remember faces
+^ESCTUN569887	Unable to remember sounds
+^ESCTUN570616	Unable to recognise familiar people
+^ESCTUN570617	Unable to recognize familiar people
+^ESCTUN570651	Unable to find way around a familiar environment
+^ESCTUN573720	Unable to direct attention
+^ESCTUN593213	Unable to reason
+^ESCTUN593218	Unable to perform logical sequencing
+^ESCTUN593221	Unable to use decision making strategies
+^ESCTUN593226	Unable to use visuospatial reasoning
+^ESCTUN593231	Unable to use arithmetic reasoning
+^ESCTUN593235	Unable to use verbal reasoning
+^ESCTUN596419	Unable to process information
+^ESCTUN596425	Unable to analyse information
+^ESCTUN596426	Unable to analyze information
+^ESCTUN600675	Unable to process information accurately
+^ESCTUN600678	Unable to process information at normal speed
+^ESCTUN672354	Unawareness
+^ESCTUN844871	Unable to divide attention
+^ESCTUN844900	Unable to identify choices
+^ESCTUN844916	Unable to make decision on safe entry of visitors
+^ESCTUN844917	Unable to make decision on safe information to give over telephone
+^ESCTUN844919	Unable to make decisions
+^ESCTUN844973	Unable to problem solve
+^ESCTUN844990	Unable to remember past events
+^ESCTUN844991	Unable to remember people
+^ESCTUN844992	Unable to remember places
+^ESCTUN844993	Unable to remember routines
+^ESCTUN845000	Unable to shift attention
+^ESCTUN845018	Unable to sustain attention

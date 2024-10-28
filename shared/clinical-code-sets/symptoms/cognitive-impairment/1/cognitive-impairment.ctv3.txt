@@ -1,0 +1,172 @@
+1B...	Nervous system symptoms (& [CNS])
+1B1A.	Memory loss symptom
+1B1A0	Temporary loss of memory
+1BL..	Loss of judgment
+2232.	O/E - mentally confused
+284..	O/E - disorientated
+2841.	Muddled
+3A10.	Memory: own age not known
+3A20.	Memory: present time not known
+3A30.	Memory: present place not knwn
+3A40.	Memory: present year not known
+3A50.	Memory: own DOB not known
+3A60.	Memory: present month not knwn
+3A70.	Memory: important event not kn
+3A80.	Memory: import.person not knwn
+3A91.	Memory: count down unsuccess.
+3AA1.	Memory: address recall unsucc.
+E2A10	Mild memory disturbance
+Eu812	[X]Specific disorder of arithmetical skills
+Eu900	[X]Disturbance of activity and attention
+K5A23	Menopausal concentration lack
+R009.	[D]Confusion
+R00z0	[D]Memory deficit
+R00z5	[D]Anterograde amnesia
+R140z	[D]Brain and central nervous system abnormal function study NOS
+Ryu50	[X]Other amnesia
+Ryu51	[X]Other and unspecified symptoms and signs involving cognitive functions and awareness
+Ryu57	[X]Disorientation, unspecified
+Ua189	Impaired cognition
+Ua196	Minor memory lapses
+Ua197	Memory lapses
+Ua1W9	Onset of confusion
+Ua1XX	Unable to concentrate
+Ua1rO	Mistakes people's identity
+Ub0qV	Memory retraining
+Ub1TB	Language-related cognitive disorder
+X00E2	Transient global amnesia
+X00RS	Mild cognitive disorder
+X75x5	Difficulty solving problems
+X75x7	Difficulty making plans
+X75x8	Indecision
+X75xC	Poor long-term memory
+X75xD	Poor memory for remote events
+X75xG	No memory for recent events
+X75xH	Short-term memory loss
+X75xI	Forgets what was going to do
+X75xJ	Forgets what was going to say
+X75xK	Forgets recent activities
+X75xL	Forgets what has just done
+X75xM	Forgets what has just said
+X75xN	Forgets what has just read
+X75xO	Forgets what has just seen
+X75xP	Forgets what has just heard
+X75xU	[D]Memory deficit
+X75xV	Forgetful
+X75xY	Memory loss - amnesia
+X75xZ	Anterograde amnesia
+X75xd	Amnesia for day to day facts
+X75xe	Unable to remember today's date
+X75xf	Unable to remember name of reigning monarch
+X75xg	Unable to remember name of current prime minister
+X75xh	Amnesia for important personal information
+X75xi	Cannot remember names of intimates
+X75xj	Unable to remember own age
+X75xk	Cannot remember wedding anniversary
+X75xl	Cannot remember birth dates of children
+X75xm	Cannot remember name of school
+X75yC	Unable to think clearly
+X75yD	Puzzled
+X75yO	Sidetracked from flow of thought
+X75ya	Poor grasp of abstract concepts
+X75yj	Spatial disorientation
+X75yk	Getting lost
+X75yl	Getting lost inside the home
+X760c	Reduced concentration
+X760d	Short concentration span
+X760g	General inattentiveness
+X760h	Poor attention control
+X7616	Lack of judgement
+X769Z	Dullness of senses
+X769b	Muzzy headed
+X769p	Absent minded
+X769r	Mentally vague
+XE1bq	Mild memory disturbance
+XM03t	Orientation poor
+XM06s	Retrograde amnesia
+XM1Ad	Disorientation, unspecified
+XM1MZ	Post-traumatic amnesia
+XM1Ma	Difficulty in remembering dates
+XSJK7	Poor concentration
+Xa00t	Disorientated in time
+Xa00u	Disorientation for person
+Xa089	Disorientated in place
+Xa1sZ	Intermittent confusion
+Xa2W6	Has delayed recall
+Xa30J	Unable to recognise objects
+Xa30Q	Unable to recognise objects by touch
+Xa30T	Unable to recognise objects visually
+Xa30b	Unable to recognise faces by sight
+Xa30g	Unable to recognise faces
+Xa30k	Unable to recognise sounds
+Xa30o	Unable to recognise surroundings
+Xa312	Unable to recognise smells
+Xa315	Unable to remember own date of birth
+Xa318	Unable to remember day of the week
+Xa31A	Unable to remember month of year
+Xa31D	Unable to remember current year
+Xa31W	Unable to recall random address at five minutes
+Xa31Y	Unable to reproduce geometric figure at five minutes
+Xa31a	Unable to recall five digit number at five minutes
+Xa31q	Unable to remember motor skills
+Xa31s	Unable to remember new motor skills
+Xa31u	Unable to remember old motor skills
+Xa31x	Unable to remember objects
+Xa320	Unable to remember faces
+Xa322	Unable to remember sounds
+Xa3Ek	Unable to recognise familiar people
+Xa3F8	Unable to find way around a familiar environment
+Xa4Ft	Unable to direct attention
+Xa4Fu	Does direct attention
+Xa4Fv	Does not direct attention
+Xa4Fw	Difficulty directing attention
+Xa8Jp	Memory skills training
+XaA2K	Unable to reason
+XaA2L	Difficulty reasoning
+XaA2O	Difficulty performing logical sequencing
+XaA2P	Unable to perform logical sequencing
+XaA2S	Unable to use decision-making strategies
+XaA2T	Difficulty using decision-making strategies
+XaA2X	Unable to use visuospatial reasoning
+XaA2Y	Difficulty using visuospatial reasoning
+XaA2c	Unable to use arithmetic reasoning
+XaA2d	Difficulty using arithmetic reasoning
+XaA2g	Unable to use verbal reasoning
+XaA2h	Difficulty using verbal reasoning
+XaA3A	Unable to make considered choices
+XaA3B	Difficulty making considered choices
+XaAyU	Unable to process information
+XaAyV	Difficulty processing information
+XaAyY	Unable to analyse information
+XaAyZ	Difficulty analysing information
+XaB5o	Transient memory loss
+XaCxj	Selective attention
+XaCy1	Delayed verbal memory
+XaCy7	Unable to process information accurately
+XaCy8	Difficulty processing information accurately
+XaCyA	Unable to process information at normal speed
+XaCyB	Difficulty processing information at normal speed
+XaD3E	Lack of awareness
+XaINE	Acute confusion
+XaJBS	GDS level 2 - very mild cognitive decline
+XaJBT	GDS level 3 - mild cognitive decline
+XaJBU	GDS level 4 - moderate cognitive decline
+XaJBV	GDS level 5 - moderately severe cognitive decline
+XaJBW	GDS level 6 - severe cognitive decline
+XaJBX	GDS level 7 - very severe cognitive decline
+XaJfi	Poor visual sequential memory
+XaJfj	Poor auditory sequential memory
+XaJua	Referral to memory clinic
+XaKUo	Disturbance of memory for order of events
+Xaagi	Mild cognitive impairment
+Xaagj	Moderate cognitive impairment
+Xaagk	Severe cognitive impairment
+XabmL	Disorder of attention
+XacFq	Cognitive communication disorder
+Xaeaw	Memory: months of year in reverse unsuccessful
+XaeeO	Mild cognitive impairment review invitation
+XaeeP	Mild cognitive impairment review invitation first letter
+XaeeQ	Mild cognitive impairment review invitation second letter
+XaeeR	Mild cognitive impairment review invitation third letter
+XaeeS	Mild cognitive impairment review declined
+Xaeta	Mild cognitive impairment review

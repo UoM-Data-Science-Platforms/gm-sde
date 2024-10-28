@@ -1,0 +1,362 @@
+100881000000108	GDS level 2 - very mild cognitive decline
+100891000000105	GDS level 3 - mild cognitive decline
+100901000000106	GDS level 4 - moderate cognitive decline
+100911000000108	GDS level 5 - moderately severe cognitive decline
+100921000000102	GDS level 6 - severe cognitive decline
+100931000000100	GDS level 7 - very severe cognitive decline
+1034921000000105	Memory: months of year in reverse unsuccessful
+1034931000000107	Memory: months of year in reverse unsuccessful 
+1036821000000108	Mild cognitive impairment review invitation
+1036831000000105	Mild cognitive impairment review invitation 
+1036841000000101	Mild cognitive impairment review invitation first letter
+1036851000000103	Mild cognitive impairment review first letter 
+1036861000000100	Mild cognitive impairment review invitation second letter
+1036871000000107	Mild cognitive impairment review invitation second letter 
+1036881000000109	Mild cognitive impairment review invitation third letter
+1036891000000106	Mild cognitive impairment review invitation third letter 
+1036901000000107	Mild cognitive impairment review declined
+1036911000000109	Mild cognitive impairment review declined 
+1047041000000108	Mild cognitive impairment review
+1050691000000108	Mild cognitive impairment review
+1052381000000103	Mild cognitive impairment annual review
+1068921000000107	Difficulty recognising familiar people
+1068951000000102	Difficulty remembering places
+1069131000000100	Does not problem solve
+1069141000000109	Does not process information at normal speed
+1069171000000103	Does not recognise objects by touch
+1069191000000104	Does not remember routines
+1069211000000100	Does not shift attention
+1069421000000107	Does recognise objects by touch
+1069971000000101	Difficulty dividing attention
+1070101000000109	Difficulty finding way around familiar environment
+1070111000000106	Difficulty finding way around school environment
+1070121000000100	Difficulty finding way around work environment
+1070191000000102	Difficulty identifying choices
+1070311000000108	Difficulty making decision on safe entry of visitors
+1070321000000102	Difficulty making decision on safe information to give over telephone
+1070761000000109	Difficulty recognising objects
+1070771000000102	Difficulty recognising objects by sight
+1070781000000100	Difficulty recognising objects by touch
+1070801000000104	Difficulty recognising surroundings
+1070821000000108	Difficulty remembering past events
+1070831000000105	Difficulty remembering people
+1070841000000101	Difficulty remembering routines
+1070891000000106	Difficulty shifting attention
+1070981000000102	Difficulty sustaining attention
+1071371000000106	Does not analyse information
+1071621000000102	Does not divide attention
+1071761000000100	Does not find way around familiar environment
+1071771000000107	Does not find way around school environment
+1071781000000109	Does not find way around work environment
+1071881000000100	Does not identify choices
+1072001000000107	Does not make decision on safe entry of visitors
+1072011000000109	Does not make decision on safe information to give over telephone
+1072021000000103	Does not make decisions
+1072351000000106	Does not process information
+1072361000000109	Does not process information accurately
+1072411000000103	Does not recognise familiar people
+1072451000000104	Does not recognise objects
+1072461000000101	Does not recognise objects by sight
+1072491000000107	Does not recognise surroundings
+1072501000000101	Does not remember past events
+1072511000000104	Does not remember people
+1072521000000105	Does not remember places
+1072651000000101	Does not sustain attention
+1072861000000104	Does not use decision making strategies
+1074101000000102	Does recognise objects
+1074111000000100	Does recognise objects by sight
+1074151000000101	Does remember past events
+1074481000000100	Does use decision making strategies
+1074861000000106	Unable to divide attention
+1075041000000101	Unable to identify choices
+1075161000000104	Unable to make decision on safe entry of visitors
+1075171000000106	Unable to make decision on safe information to give over telephone
+1075181000000108	Unable to make decisions
+1075541000000108	Unable to problem solve
+1075681000000104	Unable to remember past events
+1075691000000102	Unable to remember people
+1075701000000102	Unable to remember places
+1075711000000100	Unable to remember routines
+1075771000000105	Unable to shift attention
+1075881000000103	Unable to sustain attention
+1084541000000103	Mental health advice and support intervention
+110352000	Minimal cognitive impairment
+110355003	Lack of thinking ability
+111481000000100	Poor visual sequential memory
+112077003	Spatial disorientation
+116340000	Disturbance of cognitive learning
+117931000000104	Poor visual sequential memory
+130987000	Acute confusion
+130988005	Chronic confusion
+139484009	Memory disturbance (& amnesia (& symptom))
+139928000	O/E - mentally confused
+139940000	O/E - mental state
+140816001	O/E - disorientated
+140826008	Mild cognitive disorder
+142261000119100	Cognitive deficit in attention
+142271000119106	Cognitive deficit in communication skills
+142281000119109	Cognitive deficit in visuospatial function
+142291000119107	Cognitive deficit in psychomotor function
+142689007	Memory: own age not known
+142693001	Memory: present time known
+142696009	Memory: present place known
+142699002	Memory: present year known
+142701002	Memory: own DOB not known
+142705006	Memory: present month known
+142707003	Memory: important event not kn
+142710005	Memory: import.person not knwn
+142715000	Memory: count down unsuccess.
+145040006	Mild cognitive disorder
+154843007	Mental health disorder
+154961004	Memory disturbance: [mild]
+158178004	[D]Amnesia (retrograde)
+16039007	Hysterical amnesia
+162199006	Memory disturbance (& amnesia (& symptom))
+162200009	Temporary loss of memory
+162327005	Loss of judgement
+162702000	On examination - mentally confused
+163608000	On examination - disorientated
+163619002	Mild cognitive disorder
+165280004	Memory: own age not known
+165283002	Memory: present time not known
+165286005	Memory: present place not known
+165289003	Memory: present year not known
+165292004	Memory: own date of birth not known
+165295002	Memory: present month not known
+165298000	Memory: important event not known
+165301001	Memory: important person not known
+165305005	Memory: count down unsuccessful
+165308007	Memory: address recall unsuccessful
+170231000000104	Referral to memory clinic
+174891000000105	Referral to memory clinic
+186561000000101	Disturbance of memory for order of events
+186771000000100	Disorientated in time
+190001000000109	Disturbance of memory for order of events
+190211000000104	Disorientated in time
+191716000	Dissociative amnesia
+192071009	Mild memory disturbance
+192195008	Mild cognitive disorder
+192420000	Dissociative amnesia
+192593005	[X]Disturbance of activity and attention
+195202003	Transient global amnesia
+19657006	Disorientated in time
+196891000000105	Attention delay
+198439001	Menopausal concentration lack
+206784007	[D]Amnesia (retrograde)
+206789002	[D]Anterograde amnesia
+206799007	[X]Disorientation, unspecified
+207606006	[X]Other amnesia
+207607002	[X]Other and unspecified symptoms and signs involving cognitive functions and awareness
+207613006	[X]Disorientation, unspecified
+20991000175106	Education for memory impairment
+22058002	Inattention
+225037001	Minor memory lapses
+225038006	Memory lapses
+225440008	Onset of confusion
+225666004	Mistakes people's identity
+228551009	Memory retraining
+229676007	Language-related cognitive disorder
+230736007	Transient global amnesia
+231447009	Mild cognitive disorder
+247582001	Difficulty solving problems
+247584000	Difficulty making plans
+247585004	Difficulty making decisions
+247588002	Poor long-term memory
+247592009	Poor short-term memory
+247593004	Forgets what was going to do
+247594005	Forgets what was going to say
+247595006	Forgets recent activities
+247596007	Forgets what has just done
+247597003	Forgets what has just said
+247598008	Forgets what has just read
+247599000	Forgets what has just seen
+247600002	Forgets what has just heard
+247606008	Amnesia
+247607004	Amnesia for day to day facts
+247608009	Unable to remember today's date
+247609001	Unable to remember name of reigning monarch
+247610006	Unable to remember name of current prime minister
+247611005	Amnesia for important personal information
+247612003	Cannot remember names of intimates
+247613008	Unable to remember own age
+247614002	Cannot remember wedding anniversary
+247615001	Cannot remember birth dates of children
+247616000	Cannot remember name of school
+247640008	Unable to think clearly
+247641007	Puzzled
+247648001	Loss of direction of thought
+247657007	Poor grasp of abstract concepts
+247664009	Getting lost
+247665005	Getting lost inside the home
+247761005	Reduced concentration
+247762003	Reduced concentration span
+247764002	Easily distracted
+247788000	Lack of judgement
+248224004	Muzzy headed
+248236005	Mentally vague
+25124003	Selective inattention
+26329005	Poor concentration
+268792003	Memory disturbance: [mild]
+274645001	Disorientation, unspecified
+274648004	[X]Other/unsp symp & signs invol cognit function & awareness
+275277000	Post-traumatic amnesia
+275278005	Difficulty in remembering dates
+281793005	Intermittent confusion
+283902008	Has delayed recall
+285157008	Unable to recognize objects
+285161002	Unable to recognize objects by touch
+285164005	Unable to recognize objects by sight
+285169000	Unable to recognize faces by sight
+285171000	Unable to recognize faces
+285174008	Unable to recognize sounds
+285177001	Unable to recognize surroundings
+285186006	Unable to recognize odors
+285188007	Unable to remember own date of birth
+285191007	Unable to remember day of the week
+285194004	Unable to remember month of year
+285197006	Unable to remember current year
+285208000	Unable to recall random address at five minutes
+285210003	Unable to reproduce geometric figure at five minutes
+285212006	Unable to recall five digit number at five minutes
+285219002	Unable to remember motor skills
+285221007	Unable to remember new motor skills
+285223005	Unable to remember old motor skills
+285225003	Unable to remember objects
+285228001	Unable to remember faces
+285230004	Unable to remember sounds
+285774001	Unable to recognize familiar people
+285797003	Unable to find way around a familiar environment
+288770006	Unable to direct attention
+288771005	Does direct attention
+288772003	Does not direct attention
+288773008	Difficulty directing attention
+302262007	Memory skills training
+304643002	Unable to reason
+304644008	Difficulty reasoning
+304647001	Difficulty performing logical sequencing
+304648006	Unable to perform logical sequencing
+304651004	Unable to use decision making strategies
+304652006	Difficulty using decision making strategies
+304656009	Unable to use visuospatial reasoning
+304657000	Difficulty using visuospatial reasoning
+304661006	Unable to use arithmetic reasoning
+304662004	Difficulty using arithmetic reasoning
+304665002	Unable to use verbal reasoning
+304666001	Difficulty using verbal reasoning
+304688001	Unable to make considered choices
+304689009	Difficulty making considered choices
+307084006	Unable to process information
+307085007	Difficulty processing information
+307088009	Unable to analyze information
+307089001	Difficulty analyzing information
+307413004	Transient memory loss
+311533004	Delayed verbal memory
+311539000	Unable to process information accurately
+311540003	Difficulty processing information accurately
+311542006	Unable to process information at normal speed
+311543001	Difficulty processing information at normal speed
+323331000000106	Anxiety about loss of memory
+33254005	Uncompensated short term memory deficit
+365529002	Finding related to ability to recognize objects by touch
+365540005	Finding related to ability to recognize objects by sight
+365693001	Finding related to ability to use arithmetic reasoning
+366963000	Transient global amnesia
+366970000	Reduced concentration
+367187006	Transient global amnesia
+367194009	Reduced concentration
+371092001	Cognitive safety issue
+38504003	Impaired judgement
+385893007	Mental health treatment
+386805003	Mild cognitive disorder
+386806002	Impaired cognition
+386807006	Memory impairment
+389334000	Reduced concentration span
+390067004	Reduced concentration span
+392770004	Mentally vague
+393724003	Mentally vague
+39538002	Disorientation to person, time and place
+395568000	Poor concentration
+395614001	Poor concentration
+395658001	Poor concentration
+401441000000106	[X]Other and unspecified symptoms and signs involving cognitive functions and awareness
+406124004	Lack of awareness
+407630006	Global Deterioration Scale level 2 - very mild cognitive decline
+407631005	Global Deterioration Scale level 3 - mild cognitive decline
+407632003	Global Deterioration Scale level 4 - moderate cognitive decline
+407633008	Global Deterioration Scale level 5 - moderately severe cognitive decline
+407634002	Global Deterioration Scale level 6 - severe cognitive decline
+407635001	Global Deterioration Scale level 7 - very severe cognitive decline
+408899008	Memory loss care
+408900003	Memory loss care education
+408901004	Memory loss care management
+408902006	Memory loss care assessment
+40917007	Clouded consciousness
+41171000000106	Mild cognitive disorder
+413088002	Poor visual sequential memory
+413089005	Poor auditory sequential memory
+415276009	Referral to memory clinic
+416106008	Disturbance of memory for order of events
+419621000000101	[X]Other/unspecified symptoms & signs involving cognitive functions & awareness
+419723007	Mentally dull
+42176003	Amnesia for recent events
+422742006	Difficulty problem solving without conflict
+423124001	Diminished judgement
+423324006	Limited reasoning ability
+423864004	Forgets to complete personal care
+424100000	Limited ability to think abstractly
+425248002	Scattered attention
+431432003	Anxiety about loss of memory
+433081000	Organic amnesia of language
+443265004	Cognitive disorder
+464511000000105	[X]Disturbance of activity and attention
+468031000000103	[X]Disorientation, unspecified
+46991000	Absent minded
+480201000000101	[X]Other amnesia
+480341000000105	[X]Disorientation, unspecified
+48167000	Amnesia
+4941000175101	Difficulty following instructions
+495901000000102	[D]Amnesia (retrograde)
+495941000000104	[D]Anterograde amnesia
+51921000	Retrograde amnesia
+55533009	Forgetful
+60032008	Unable to concentrate
+6149008	Amnesia for remote events
+62476001	Disorientated
+62766000	Disorientation for person
+66797003	Disorientation as to self
+683531000000104	Disorientation, unspecified
+702955000	Moderate cognitive impairment
+702956004	Severe cognitive impairment
+709073001	Neurocognitive disorder
+716635007	Cognitive communication disorder
+72440003	Disorientated in place
+76039005	Disturbance of attention
+78461004	Memory impairment
+78521000000105	Mild cognitive disorder
+80216008	Impaired cognition
+808311000000102	Poor short-term memory
+823961000000102	Referral to memory assessment service
+836301008	Amnestic mild cognitive disorder
+85701000000105	GDS level 6 - severe cognitive decline
+8684002	Disturbance in judgement
+88822006	Anterograde amnesia
+888271000000101	Mild cognitive impairment
+888281000000104	Mild cognitive impairment 
+888291000000102	Moderate cognitive impairment
+888301000000103	Moderate cognitive impairment 
+888311000000101	Severe cognitive impairment
+888321000000107	Severe cognitive impairment 
+88962006	Incomplete clearmindedness
+89051002	Temporary amnesia
+918271000000105	Impaired cognition
+9288000	Irrelevant answer
+932281000000102	Disorder of attention
+938471000000100	Disorder of attention
+955351000000105	Cognitive communication disorder
+96021000000109	GDS level 2 - very mild cognitive decline
+96031000000106	GDS level 3 - mild cognitive decline
+96041000000102	GDS level 4 - moderate cognitive decline
+96051000000104	GDS level 5 - moderately severe cognitive decline
+96061000000101	GDS level 7 - very severe cognitive decline
+965711000000101	Cognitive communication disorder
+990531000000107	Memory impairment
