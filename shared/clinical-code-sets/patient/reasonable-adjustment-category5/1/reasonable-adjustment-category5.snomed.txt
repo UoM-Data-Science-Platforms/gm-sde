@@ -1,0 +1,13 @@
+307089001	Difficulty analysing information
+311540003	Difficulty processing information accurately
+311543001	Difficulty processing information at normal speed
+1325291000000103	Emergency contact details of specialist support team
+1108141000000108	Expresses pain atypically
+1108121000000101	Has My Healthcare Passport
+737350008	Needs assistance with communication
+1108131000000104	Requires appointment reminders
+1325421000000100	Requires approach to care to be discussed with carer
+1108151000000106	Requires carer to be present at encounters
+955771000000100	Uses apps on mobile device to support communication
+954871000000106	Uses switches for communication
+936561000000105	Uses Tadoma method for communication

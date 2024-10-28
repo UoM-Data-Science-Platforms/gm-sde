@@ -1,0 +1,19 @@
+1325321000000108	Anxiety related to clinical environment
+105506000	Dependence on seeing eye dog
+792871000000101	Has anticipatory care plan
+231501003	Needle phobia
+829101000000101	Needs assistance with medication regimen adherence
+314434008	Preference for female healthcare professional
+314435009	Preference for male healthcare professional
+1325411000000106	Requires distraction technique whilst undergoing care procedure
+1108171000000102	Requires extended appointment
+1325341000000101	Requires familiarisation with care environment
+1325331000000105	Requires familiarisation with care procedure
+1325351000000103	Requires first appointment in appointment schedule
+1325371000000107	Requires home visit appointments
+1325361000000100	Requires last appointment in appointment schedule
+1325841000000109	Requires minimal waiting time between arrival and being seen in care environment
+1108161000000109	Requires priority appointment
+1325401000000109	Requires single room during inpatient care
+285035003	Self care deficit for medication management
+865301000000107	Uses dispensed monitored dosage system

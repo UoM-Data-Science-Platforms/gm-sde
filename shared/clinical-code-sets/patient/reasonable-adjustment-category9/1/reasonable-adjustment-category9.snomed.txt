@@ -1,0 +1,11 @@
+1325321000000108	Anxiety related to clinical environment
+246622003	Eyes sensitive to light
+247994001	Noise intolerance
+409668002	Photophobia
+1325341000000101	Requires familiarisation with care environment
+1325381000000109	Requires low light environment
+1325391000000106	Requires low noise environment
+1325401000000109	Requires single room during inpatient care
+1108191000000103	Requires wheelchair access
+1325301000000104	Uses emotional support animal
+862731000000105	Uses guide dog for the blind

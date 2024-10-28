@@ -1,0 +1,202 @@
+362721000000106	Abkhazian language interpreter needed
+362691000000102	Afar language interpreter needed
+362571000000102	Afrikaans language interpreter needed
+203281000000104	Akan language interpreter needed
+203291000000102	Albanian language interpreter needed
+203301000000103	Amharic language interpreter needed
+203311000000101	Arabic language interpreter needed
+972511000000109	Aragonese interpreter needed
+362261000000106	Armenian language interpreter needed
+362231000000101	Assamese language interpreter needed
+972521000000103	Avaric interpreter needed
+972531000000101	Avestan interpreter needed
+362541000000108	Aymara language interpreter needed
+362611000000106	Azerbaijani language interpreter needed
+972541000000105	Bambara interpreter needed
+972551000000108	Bashkir interpreter needed
+362641000000107	Basque language interpreter needed
+362071000000107	Belarusian language interpreter needed
+203321000000107	Bengali language interpreter needed
+362201000000107	Bihari language interpreter needed
+362171000000106	Bislama language interpreter needed
+972561000000106	Bosnian interpreter needed
+359821000000104	Brawa language interpreter needed
+362141000000100	Breton language interpreter needed
+353921000000107	Bulgarian language interpreter needed
+362371000000109	Burmese language interpreter needed
+203381000000108	Cantonese language interpreter needed
+362041000000101	Catalan language interpreter needed
+362331000000107	Central Khmer language interpreter needed
+972571000000104	Chamorro interpreter needed
+972581000000102	Chechen interpreter needed
+972591000000100	Chinese interpreter needed
+972601000000106	Church Slavic interpreter needed
+972611000000108	Chuvash interpreter needed
+972621000000102	Cornish interpreter needed
+361941000000107	Corsican language interpreter needed
+972631000000100	Cree interpreter needed
+203391000000105	Croatian language interpreter needed
+203401000000108	Czech language interpreter needed
+361971000000101	Danish language interpreter needed
+972641000000109	Dhivehi interpreter needed
+203411000000105	Dutch language interpreter needed
+362781000000107	Dzongkha language interpreter needed
+343671000000102	English language interpreter needed
+361881000000106	Esperanto language interpreter needed
+361911000000106	Estonian language interpreter needed
+359791000000109	Ethiopian language interpreter needed
+972651000000107	Ewe interpreter needed
+361791000000100	Faroese language interpreter needed
+203421000000104	Farsi language interpreter needed
+361821000000105	Fijian language interpreter needed
+343701000000103	Finnish language interpreter needed
+343711000000101	Flemish language interpreter needed
+203521000000103	French Creole language interpreter needed
+203441000000106	French language interpreter needed
+361501000000104	Frisian language interpreter needed
+972671000000103	Fulah interpreter needed
+343721000000107	Gaelic language interpreter needed
+361851000000100	Galician language interpreter needed
+203801000000105	Ganda language interpreter needed
+361471000000106	Georgian language interpreter needed
+203581000000102	German language interpreter needed
+203591000000100	Greek language interpreter needed
+361441000000100	Guarani language interpreter needed
+203601000000106	Gujarati language interpreter needed
+972681000000101	Haitian interpreter needed
+203611000000108	Hakka language interpreter needed
+203631000000100	Hausa language interpreter needed
+203641000000109	Hebrew language interpreter needed
+972691000000104	Herero interpreter needed
+203651000000107	Hindi language interpreter needed
+972701000000104	Hiri Motu interpreter needed
+360431000000104	Hungarian language interpreter needed
+359881000000103	Iban language interpreter needed
+360401000000105	Icelandic language interpreter needed
+972711000000102	Ido interpreter needed
+203531000000101	Igbo language interpreter needed
+362111000000101	Indonesian language interpreter needed
+972721000000108	Interlingua interpreter needed
+360341000000102	Interlingue language interpreter needed
+315594003	Interpreter needed
+360311000000103	Inuktitut language interpreter needed
+360251000000107	Inupiaq language interpreter needed
+972731000000105	Irish interpreter needed
+203371000000106	Italian language interpreter needed
+203681000000101	Japanese language interpreter needed
+360281000000101	Javanese language interpreter needed
+362011000000102	Kalaallisut language interpreter needed
+360101000000102	Kannada language interpreter needed
+972741000000101	Kanuri interpreter needed
+360191000000109	Kashmiri language interpreter needed
+360221000000102	Kazakh language interpreter needed
+972751000000103	Kikuyu interpreter needed
+360131000000108	Kinyarwanda language interpreter needed
+359851000000109	Kirghiz language interpreter needed
+972771000000107	Komi interpreter needed
+972781000000109	Kongo interpreter needed
+203691000000104	Korean language interpreter needed
+972791000000106	Kuanyama interpreter needed
+203701000000104	Kurdish language interpreter needed
+343771000000106	Kutchi language interpreter needed
+360371000000108	Lao language interpreter needed
+972801000000105	Latin interpreter needed
+360071000000106	Latvian language interpreter needed
+972811000000107	Limburgan interpreter needed
+203711000000102	Lingala language interpreter needed
+203721000000108	Lithuanian language interpreter needed
+972821000000101	Luba-Katanga interpreter needed
+359761000000103	Luganda language interpreter needed
+972831000000104	Luxembourgish interpreter needed
+359971000000108	Macedonian language interpreter needed
+360011000000101	Malagasy language interpreter needed
+360161000000103	Malay language interpreter needed
+203811000000107	Malayalam language interpreter needed
+359731000000108	Maltese language interpreter needed
+203821000000101	Mandarin language interpreter needed
+972851000000106	Manx interpreter needed
+359911000000103	Maori language interpreter needed
+359701000000102	Marathi language interpreter needed
+972861000000109	Marshallese interpreter needed
+359671000000101	Moldavian language interpreter needed
+359641000000107	Mongolian language interpreter needed
+364351000000107	Nauru language interpreter needed
+972881000000100	Navajo interpreter needed
+352931000000102	Ndebele language interpreter needed
+972891000000103	Ndonga interpreter needed
+364251000000104	Nepali language interpreter needed
+972911000000100	North Ndebele interpreter needed
+972921000000106	Northern Sami interpreter needed
+972931000000108	Norwegian BokmÃ¥l interpreter needed
+203831000000104	Norwegian language interpreter needed
+972941000000104	Norwegian Nynorsk interpreter needed
+973071000000100	Nuosu interpreter needed
+972951000000101	Nyanja interpreter needed
+364311000000108	Occitan language interpreter needed
+972981000000107	Ojibwa interpreter needed
+364211000000103	Oriya language interpreter needed
+362991000000107	Oromo language interpreter needed
+973001000000108	Ossetian interpreter needed
+973011000000105	Pali interpreter needed
+203961000000103	Panjabi language interpreter needed
+203841000000108	Pashto language interpreter needed
+203901000000102	Polish language interpreter needed
+203911000000100	Portuguese language interpreter needed
+364011000000105	Quechua language interpreter needed
+353881000000101	Romanian language interpreter needed
+364481000000106	Romansh language interpreter needed
+1047321000000104	Romany language interpreter needed
+363061000000105	Rundi language interpreter needed
+203971000000105	Russian language interpreter needed
+363841000000104	Samoan language interpreter needed
+364051000000109	Sango language interpreter needed
+973031000000102	Sanskrit interpreter needed
+973041000000106	Sardinian interpreter needed
+973051000000109	Scottish Gaelic interpreter needed
+203981000000107	Serbian language interpreter needed
+973061000000107	Serbo-Croatian interpreter needed
+203991000000109	Shona language interpreter needed
+363711000000105	Sindhi language interpreter needed
+204011000000102	Sinhala language interpreter needed
+352901000000108	Slovak language interpreter needed
+363591000000107	Slovenian language interpreter needed
+204021000000108	Somali language interpreter needed
+973081000000103	South Ndebele interpreter needed
+363651000000100	Southern Sotho language interpreter needed
+204031000000105	Spanish language interpreter needed
+363781000000103	Sundanese language interpreter needed
+204041000000101	Swahili language interpreter needed
+363621000000105	Swati language interpreter needed
+204051000000103	Swedish language interpreter needed
+204081000000109	Sylheti language interpreter needed
+204111000000101	Tagalog language interpreter needed
+973101000000109	Tahitian interpreter needed
+363681000000106	Tajik language interpreter needed
+204131000000109	Tamil language interpreter needed
+363221000000107	Tatar language interpreter needed
+363341000000107	Telugu language interpreter needed
+204151000000102	Thai language interpreter needed
+363141000000105	Tibetan language interpreter needed
+204171000000106	Tigrinya language interpreter needed
+363461000000100	Tongan language interpreter needed
+363181000000102	Tsonga language interpreter needed
+363941000000108	Tswana language interpreter needed
+204191000000105	Turkish language interpreter needed
+363551000000104	Turkmen language interpreter needed
+363301000000109	Twi language interpreter needed
+364141000000107	Uighur language interpreter needed
+204201000000107	Ukrainian language interpreter needed
+204211000000109	Urdu language interpreter needed
+362961000000101	Uzbek language interpreter needed
+973121000000100	Venda interpreter needed
+204221000000103	Vietnamese language interpreter needed
+973131000000103	Volapük interpreter needed
+973141000000107	Walloon interpreter needed
+204231000000101	Welsh language interpreter needed
+973151000000105	Western Frisian interpreter needed
+973161000000108	Wolof interpreter needed
+364511000000100	Xhosa language interpreter needed
+363021000000102	Yiddish language interpreter needed
+204241000000105	Yoruba language interpreter needed
+362911000000103	Zhuang language interpreter needed
+362821000000104	Zulu language interpreter needed

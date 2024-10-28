@@ -1,0 +1,6 @@
+13o88	Uses Tadoma method for communication
+13o8800	Uses Tadoma method for communication
+13o8C	Uses switches for communication
+13o8C00	Uses switches for communication
+13o8G	Uses apps on mobile device to support communication
+13o8G00	Uses apps on mobile device to support communication

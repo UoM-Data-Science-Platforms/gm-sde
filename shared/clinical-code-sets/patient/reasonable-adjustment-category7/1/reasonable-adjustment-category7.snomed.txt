@@ -1,0 +1,12 @@
+105506000	Dependence on seeing eye dog
+1325291000000103	Emergency contact details of specialist support team
+816361000000101	Has appointed person with personal welfare lasting power of attorney (Mental Capacity Act 2005)
+988851000000103	Has appointed relevant person's representative (Mental Capacity Act 2005)
+829101000000101	Needs assistance with medication regimen adherence
+1325861000000105	Requires additional healthcare personnel to be present at encounter
+1325421000000100	Requires approach to care to be discussed with carer
+240451000000106	Requires constant supervision
+1109351000000102	Requires enhanced discharge planning
+225861007	Unsafe to be left alone
+1325301000000104	Uses emotional support animal
+862731000000105	Uses guide dog for the blind

@@ -1,0 +1,6 @@
+XaAyZ	Difficulty analysing information
+XaCy8	Difficulty processing information accurately
+XaCyB	Difficulty processing information at normal speed
+XabsV	Uses Tadoma method for communication
+XacFQ	Uses switches for communication
+XacHa	Uses apps on mobile device to support communication

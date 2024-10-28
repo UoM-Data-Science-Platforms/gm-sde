@@ -1,0 +1,12 @@
+^ESCT1167688	Needs assistance with communication
+^ESCT1262288	Has My Healthcare Passport
+^ESCT1262289	Requires appointment reminders
+^ESCT1262290	Expresses pain atypically
+^ESCT1262291	Atypical expression of pain
+^ESCT1262292	Requires carer to be present at encounters
+^ESCT1399601	Emergency contact details of specialist support team
+^ESCT1399614	Requires approach to care to be discussed with carer
+^ESCTDI596427	Difficulty analysing information
+^ESCTDI596428	Difficulty analyzing information
+^ESCTDI600676	Difficulty processing information accurately
+^ESCTDI600679	Difficulty processing information at normal speed
