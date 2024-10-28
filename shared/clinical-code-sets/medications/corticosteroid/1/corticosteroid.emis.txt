@@ -1,0 +1,1185 @@
+ADOR35146NEMIS	Adcortyl In Orabase For Mouth Ulcer  Oromucosal Paste  0.1 %
+ADOR49	Adcortyl In Orabase  Oral paste  0.1 %
+ADSU21768NEMIS	Adcortyl Intra-Articular/Intradermal  Suspension For Injection  10 mg/ml, 1 ml ampoule
+ADSU21769NEMIS	Adcortyl Intra-Articular/Intradermal  Suspension For Injection  10 mg/ml, 5 ml vial
+ALGR127576NEMIS	Alkindi  Granules In Capsules For Opening  500 micrograms
+ALGR127578NEMIS	Alkindi  Granules In Capsules For Opening  1 mg
+ALGR127579NEMIS	Alkindi  Granules In Capsules For Opening  2 mg
+ALGR127580NEMIS	Alkindi  Granules In Capsules For Opening  5 mg
+BEIN9185HILLI	Betnesol  Solution for injection  4 mg/ml, 1 ml ampoule
+BEIN9273HILLI	Betamethasone Sodium Phosphate  Solution for injection  4 mg/ml, 1 ml ampoule
+BETA3239	Betnelan  Tablets  500 micrograms
+BETA345	Betamethasone Sodium Phosphate  Soluble tablets  Sugar Free 500 micrograms
+BETA353	Betnesol  Tablets  500 micrograms
+BETA4644	Betamethasone  Tablets  500 micrograms
+CATA29922EMIS	Calcort  Tablets  6 mg
+CATA32098EMIS	Calcort  Tablets  30 mg
+CATA32198EMIS	Calcort  Tablets  1 mg
+COFO3342	Colifoam  Foam  10 %
+COTA3363	Cortisone  Tablets  25 mg
+COTA34574MGEMIS	Cortisone  Tablets  25 mg (A.A.H. Pharm)
+COTA34575MGEMIS	Cortisone  Tablets  25 mg (Unichem)
+COTA743	Cortisone Acetate  Tablets  25 mg
+DEIN21128NEMIS	Dexamethasone  Injection  4 mg/ml, 2 ml vial
+DEIN21129NEMIS	Dexamethasone  Injection  4 mg/ml, 1 ml ampoule
+DEIN829	Deltastab  Suspension For Injection  25 mg/ml, 1 ml ampoule
+DEOR45731NEMIS	Dexamethasone  Oral solution  5 mg/5 ml
+DEOR45732NEMIS	Dexamethasone  Oral suspension  5 mg/5 ml
+DEOR45733NEMIS	Dexamethasone  Oral solution  500 micrograms/5 ml
+DEOR45734NEMIS	Dexamethasone  Oral suspension  500 micrograms/5 ml
+DESO110021NEMIS	Dexamethasone  Soluble Tablets Sugar Free  2 mg
+DESO110022NEMIS	Dexamethasone  Soluble Tablets Sugar Free  4 mg
+DESO110023NEMIS	Dexamethasone  Soluble Tablets Sugar Free  8 mg
+DESO126795NEMIS	Dexamethasone (base)  Solution for injection  3.3 mg/1 ml ampoule
+DESO126796NEMIS	Dexamethasone (base)  Solution for injection  3.8 mg/1 ml vial
+DESO126797NEMIS	Dexamethasone (base)  Solution for injection  6.6 mg/2 ml ampoule
+DESO126798NEMIS	Dexamethasone (base)  Solution for injection  6.6 mg/2 ml vial
+DESO140890NEMIS	Dexamethasone  Soluble Tablets Sugar Free  10 mg
+DESO140891NEMIS	Dexamethasone  Soluble Tablets Sugar Free  20 mg
+DESU100647NEMIS	Dexamethasone  Sugar-free oral solution  20 mg/5 ml
+DESU4741NEMIS	Dexsol  Sugar-free oral solution  2 mg/5 ml
+DESU4742NEMIS	Dexamethasone  Sugar-free oral solution  2 mg/5 ml
+DESU88757NEMIS	Dexamethasone  Sugar-free oral solution  10 mg/5 ml
+DETA124642NEMIS	Dexamethasone  Tablets  40 mg
+DETA126892NEMIS	Dexamethasone  Tablets  8 mg
+DETA29924EMIS	Deflazacort  Tablets  6 mg
+DETA32100EMIS	Deflazacort  Tablets  30 mg
+DETA32200EMIS	Deflazacort  Tablets  1 mg
+DETA34714MGEMIS	Dexamethasone  Tablets  2 mg (A.A.H. Pharm)
+DETA34715MGEMIS	Dexamethasone  Tablets  2 mg (Organon)
+DETA34716MGEMIS	Dexamethasone  Tablets  2 mg (Unichem)
+DETA34717MGEMIS	Dexamethasone  Tablets  500 micrograms (A.A.H. Pharm)
+DETA34718MGEMIS	Dexamethasone  Tablets  500 micrograms (Organon)
+DETA34719MGEMIS	Dexamethasone  Tablets  500 micrograms (Unichem)
+DETA41464NEMIS	Dexamethasone  Tablets  4 mg
+DETA817	Decadron  Tablets  500 micrograms
+DETA827	Deltacortril Enteric  E/c tablets  2.5 mg
+DETA828	Deltacortril Enteric  E/c tablets  5 mg
+DETA845	Dexamethasone  Tablets  2 mg
+DETA846	Dexamethasone  Tablets  500 micrograms
+DIGA81516NEMIS	Dilacort  Gastro-resistant Tablets  2.5 mg
+DIGA81517NEMIS	Dilacort  Gastro-resistant Tablets  5 mg
+EFM/140454NEMIS	Efmody  M/R capsules  5 mg
+EFM/140455NEMIS	Efmody  M/R capsules  10 mg
+EFSO23286NEMIS	Efcortesol  Solution for injection  100 mg/ml, 1 ml ampoule
+EFSO23287NEMIS	Efcortesol  Solution for injection  100 mg/ml, 5 ml ampoule
+FLLI30575EMIS	Fludrocortisone Acetate  Liquid  250 micrograms/5 ml
+FLOR144189NEMIS	Fludrocortisone  Oral Solution, Sugar Free  100 micrograms/ml
+FLOR46453NEMIS	Fludrocortisone  Oral suspension  50 micrograms/5 ml
+FLOR51930NEMIS	Fludrocortisone  Oral suspension  125 micrograms/5 ml
+FLSU16951NEMIS	Fludrocortisone  Suspension  20 micrograms/5 ml
+FLSU24124NEMIS	Fludrocortisone  Suspension  100 micrograms/5 ml
+FLTA1185	Florinef  Tablets  100 micrograms
+FLTA145286NEMIS	Fludrocortisone  Tablets  50 micrograms
+FLTA8362BRID	Fludrocortisone  Tablets  100 micrograms
+GLSO124531NEMIS	Glensoludex  Soluble tablets  2 mg
+GLSO124532NEMIS	Glensoludex  Soluble tablets  4 mg
+GLSO124533NEMIS	Glensoludex  Soluble tablets  8 mg
+HYDI141864NEMIS	Hydrocortisone  Dispersible Tablets Sugar Free  5 mg
+HYDI141865NEMIS	Hydrocortisone  Dispersible Tablets Sugar Free  10 mg
+HYDI141866NEMIS	Hydrocortisone  Dispersible Tablets Sugar Free  20 mg
+HYGR127571NEMIS	Hydrocortisone  Granules In Capsules For Opening  500 micrograms
+HYGR127572NEMIS	Hydrocortisone  Granules In Capsules For Opening  1 mg
+HYGR127573NEMIS	Hydrocortisone  Granules In Capsules For Opening  2 mg
+HYGR127574NEMIS	Hydrocortisone  Granules In Capsules For Opening  5 mg
+HYIN1399	Hydrocortistab  Suspension For Injection  25 mg/ml, 1 ml ampoule
+HYIN3726	Hydrocortisone Sodium Succinate  Powder For Solution For Injection  100 mg/vial
+HYIN5000	Hydrocortisone  Injection  100 mg/vial
+HYIN5006	Hydrocortisone Acetate  Suspension For Injection  25 mg/ml, 1 ml ampoule
+HYM/140451NEMIS	Hydrocortisone  M/R capsules  5 mg
+HYM/140452NEMIS	Hydrocortisone  M/R capsules  10 mg
+HYM/77083NEMIS	Hydrocortisone  M/R tablets  5 mg
+HYM/77084NEMIS	Hydrocortisone  M/R tablets  20 mg
+HYOR11425NEMIS	Hydrocortisone  Oral Suspension (Sugar-Free)  5 mg/5 ml
+HYOR145016NEMIS	Hydrocortisone  Oral Solution, Sugar Free  10 mg/5 ml
+HYOR145017NEMIS	Hydrocortisone  Oral Solution, Sugar Free  5 mg/5 ml
+HYOR28585EMIS	Hydrocortisone  Oral suspension  10 mg/5 ml
+HYOR4787NEMIS	Hydrocortisone  Oral suspension  25 mg/5 ml
+HYPO77660NEMIS	Hydrocortisone Sodium Succinate  Powder and solvent for solution for injection  100 mg/vial
+HYSO130494NEMIS	Hydrocortisone Sodium Phosphate  Soluble Tablets Sugar Free  10 mg
+HYSO23283NEMIS	Hydrocortisone Sodium Phosphate  Solution for injection  100 mg/ml, 1 ml ampoule
+HYSO23285NEMIS	Hydrocortisone Sodium Phosphate  Solution for injection  100 mg/ml, 5 ml ampoule
+HYSU764NEMIS	Hydrocortisone  Suspension  5 mg/5 ml
+HYTA131895NEMIS	Hydventia  Tablets  10 mg
+HYTA131896NEMIS	Hydventia  Tablets  20 mg
+HYTA1398	Hydrocortisone  Tablets  20 mg
+HYTA140204NEMIS	Hydrocortisone  Tablets  2.5 mg
+HYTA140205NEMIS	Hydrocortisone  Tablets  5 mg
+HYTA140206NEMIS	Hydrocortisone  Tablets  15 mg
+HYTA3724	Hydrocortisone  Tablets  10 mg
+HYTA3731	Hydrocortone  Tablets  10 mg
+HYTA3732	Hydrocortone  Tablets  20 mg
+KEPR20562EMIS	Kenalog  Prefilled syringe  40 mg/1 ml
+KEPR20563EMIS	Kenalog  Prefilled syringe  80 mg/2 ml
+KESU39491NEMIS	Kenalog  Suspension For Injection  40 mg/ml, 1 ml vial
+LOM/46712NEMIS	Lodotra  M/R tablets  1 mg
+LOM/46713NEMIS	Lodotra  M/R tablets  2 mg
+LOM/46714NEMIS	Lodotra  M/R tablets  5 mg
+MAOR52610NEMIS	Martapan  Oral solution  2 mg/5 ml
+MEIN20437EMIS	Methylprednisolone Sodium Succinate  Injection  1 gram/vial
+MEIN20438EMIS	Methylprednisolone Sodium Succinate  Injection  125 mg/vial
+MEPO20445EMIS	Methylprednisolone Sodium Succinate  Powder and solvent for solution for injection  1 gram vial
+MEPO20446EMIS	Methylprednisolone Sodium Succinate  Powder and solvent for solution for injection  125 mg vial
+MEPO20447EMIS	Methylprednisolone Sodium Succinate  Powder and solvent for solution for injection  2 gram vial
+MEPO20448EMIS	Methylprednisolone Sodium Succinate  Powder and solvent for solution for injection  40 mg vial
+MEPO20449EMIS	Methylprednisolone Sodium Succinate  Powder and solvent for solution for injection  500 mg vial
+META19829EMIS	Medrone  Tablets  100 mg
+META19831EMIS	Methylprednisolone  Tablets  100 mg
+META3886	Medrone  Tablets  16 mg
+META3887	Medrone  Tablets  2 mg
+META3888	Medrone  Tablets  4 mg
+META5147	Methylprednisolone  Tablets  16 mg
+META6974	Methylprednisolone  Tablets  2 mg
+META6975	Methylprednisolone  Tablets  4 mg
+NETA124644NEMIS	Neofordex  Tablets  40 mg
+PETA100622NEMIS	Pevanti  Tablets  2.5 mg
+PETA100624NEMIS	Pevanti  Tablets  5 mg
+PETA100625NEMIS	Pevanti  Tablets  10 mg
+PETA100627NEMIS	Pevanti  Tablets  20 mg
+PETA100628NEMIS	Pevanti  Tablets  25 mg
+PLM/77086NEMIS	Plenadren  M/R tablets  5 mg
+PLM/77087NEMIS	Plenadren  M/R tablets  20 mg
+PRE/36621MGEMIS	Prednisolone  E/c tablets  2.5 mg (Alpharma)
+PRE/36622MGEMIS	Prednisolone  E/c tablets  2.5 mg (Kent Pharm)
+PRE/36623MGEMIS	Prednisolone  E/c tablets  2.5 mg (Unichem)
+PRE/36624MGEMIS	Prednisolone  E/c tablets  2.5 mg (A.A.H. Pharm)
+PRE/36625MGEMIS	Prednisolone  E/c tablets  5 mg (Unichem)
+PRE/36626MGEMIS	Prednisolone  E/c tablets  5 mg (Kent Pharm)
+PRE/36627MGEMIS	Prednisolone  E/c tablets  5 mg (Alpharma)
+PRE/36628MGEMIS	Prednisolone  E/c tablets  5 mg (A.A.H. Pharm)
+PREN8411EGTON	Prednisolone  E/c tablets  2.5 mg
+PREN8412EGTON	Prednisolone  E/c tablets  5 mg
+PRFO4199	Predfoam  Foam  20 mg/application
+PRFO5322	Prednisolone  Foam  20 mg/application
+PRGA114530NEMIS	Prednisolone  Gastro-resistant Tablets  1 mg
+PRIN5325	Prednisolone Acetate  Suspension For Injection  25 mg/ml, 1 ml ampoule
+PRM/46706NEMIS	Prednisone  M/R tablets  1 mg
+PRM/46707NEMIS	Prednisone  M/R tablets  2 mg
+PRM/46708NEMIS	Prednisone  M/R tablets  5 mg
+PROR101263NEMIS	Prednisolone  Oral solution  5 mg/5 ml unit dose
+PROR103677NEMIS	Prednisolone  Oral Solution, Sugar Free  10 mg/ml
+PROR88709NEMIS	Prednisolone  Oral solution  15 mg/5 ml
+PRRE2325	Prednisolone  Rectal solution  20 mg/100 ml
+PRRE2331	Predsol  Retention enema  20 mg
+PRRE30288EMIS	Predenema  Retention enema  long tube, 20 mg/100 ml
+PRRE30290EMIS	Prednisolone  Retention enema  long tube, 20 mg/100 ml
+PRRE4198	Predenema  Retention enema  standard tube, 20 mg/100 ml
+PRSO10225BRIDL	Prednisolone  Soluble tablets  5 mg
+PRSO36634MGEMIS	Prednisolone  Soluble tablets  5 mg (Unichem)
+PRSO36635MGEMIS	Prednisolone  Soluble tablets  5 mg (A.A.H. Pharm)
+PRSO36636MGEMIS	Prednisolone  Soluble tablets  5 mg (Sovereign)
+PRTA100618NEMIS	Prednisolone  Tablets  10 mg
+PRTA100619NEMIS	Prednisolone  Tablets  20 mg
+PRTA116231NEMIS	Prednisolone  Tablets  30 mg
+PRTA144261NEMIS	Prednisolone  Tablets  4 mg
+PRTA144262NEMIS	Prednisolone  Tablets  3 mg
+PRTA144264NEMIS	Prednisolone  Tablets  2 mg
+PRTA144265NEMIS	Prednisolone  Tablets  500 micrograms
+PRTA18432EMIS	Prednisolone  Tablets  25 mg
+PRTA2326	Prednisolone  Tablets  1 mg
+PRTA2327	Prednisolone  Tablets  2.5 mg
+PRTA2328	Prednisolone  Tablets  5 mg
+PRTA36665MGEMIS	Prednisolone  Tablets  25 mg (Unichem)
+PRTA36666MGEMIS	Prednisolone  Tablets  25 mg (A.A.H. Pharm)
+PRTA36667MGEMIS	Prednisolone  Tablets  25 mg (Sanofi-Aventis)
+PRTA36680MGEMIS	Prednisolone  Tablets  1 mg (Unichem)
+PRTA36681MGEMIS	Prednisolone  Tablets  1 mg (Teva UK)
+PRTA36682MGEMIS	Prednisolone  Tablets  1 mg (Alpharma)
+PRTA36683MGEMIS	Prednisolone  Tablets  1 mg (A.A.H. Pharm)
+PRTA36684MGEMIS	Prednisolone  Tablets  1 mg (Kent Pharm)
+PRTA36685MGEMIS	Prednisolone  Tablets  1 mg (The Boots Company)
+PRTA36686MGEMIS	Prednisolone  Tablets  1 mg (Wockhardt UK)
+PRTA36687MGEMIS	Prednisolone  Tablets  5 mg (Alpharma)
+PRTA36688MGEMIS	Prednisolone  Tablets  5 mg (The Boots Company)
+PRTA36689MGEMIS	Prednisolone  Tablets  5 mg (Teva UK)
+PRTA36690MGEMIS	Prednisolone  Tablets  5 mg (Kent Pharm)
+PRTA36691MGEMIS	Prednisolone  Tablets  5 mg (Unichem)
+PRTA36692MGEMIS	Prednisolone  Tablets  5 mg (A.A.H. Pharm)
+PRTA36693MGEMIS	Prednisolone  Tablets  5 mg (Wockhardt UK)
+SOIN2637	Solu-Cortef  Powder For Solution For Injection  100 mg/vial
+SOIN5921	Solu-Medrone  Powder and solvent for solution for injection  40 mg vial
+SOPO20454EMIS	Solu-Medrone  Powder and solvent for solution for injection  1 gram vial
+SOPO20455EMIS	Solu-Medrone  Powder and solvent for solution for injection  125 mg vial
+SOPO20456EMIS	Solu-Medrone  Powder and solvent for solution for injection  2 gram vial
+SOPO20457EMIS	Solu-Medrone  Powder and solvent for solution for injection  500 mg vial
+SOPO77661NEMIS	Solu-Cortef  Powder and solvent for solution for injection  100 mg/vial
+TRPR20566EMIS	Triamcinolone Acetonide  Prefilled syringe  40 mg/1 ml
+TRPR20567EMIS	Triamcinolone Acetonide  Prefilled syringe  80 mg/2 ml
+TRSU21765NEMIS	Triamcinolone Acetonide  Suspension For Injection  10 mg/ml, 1 ml ampoule
+TRSU21766NEMIS	Triamcinolone Acetonide  Suspension For Injection  10 mg/ml, 5 ml vial
+TRSU39490NEMIS	Triamcinolone Acetonide  Suspension For Injection  40 mg/ml, 1 ml vial
+^ESCT1173927	Neofordex 40mg tablets (Aspire Pharma Ltd)
+^ESCT1173983	Dexamethasone 40mg tablets
+^ESCT1175404	Hydrocortisone 10mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1175406	Hydrocortisone 20mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1176726	Hydrocortisone 10mg tablets (Flynn Pharma Ltd)
+^ESCT1176728	Hydrocortisone 20mg tablets (Flynn Pharma Ltd)
+^ESCT1178330	Product containing only prednisone 50 mg/1 each oral tablet
+^ESCT1178736	Product containing only betamethasone 500 microgram/1 each oral tablet
+^ESCT1178737	Product containing only dexamethasone 2 mg/1 each oral tablet
+^ESCT1178738	Product containing only methylprednisolone 100 mg/1 each oral tablet
+^ESCT1178739	Product containing only methylprednisolone 4 mg/1 each oral tablet
+^ESCT1181350	Product containing only prednisone 5 mg/1 each oral tablet
+^ESCT1181802	Product containing only prednisolone 1 mg/1 each oral tablet
+^ESCT1182163	Product containing only cortisone acetate 25 mg/1 each oral tablet
+^ESCT1182164	Product containing only dexamethasone 0.5 milligram/1 each oral tablet
+^ESCT1182165	Product containing only hydrocortisone 10 mg/1 each oral tablet
+^ESCT1182166	Product containing only hydrocortisone 20 mg/1 each oral tablet
+^ESCT1182167	Product containing only methylprednisolone 16 mg/1 each oral tablet
+^ESCT1182168	Product containing only prednisolone 5 mg/1 each oral tablet
+^ESCT1182169	Product containing only prednisolone 50 mg/1 each oral tablet
+^ESCT1182170	Product containing only deflazacort 30 mg/1 each oral tablet
+^ESCT1182171	Product containing only deflazacort 1 mg/1 each oral tablet
+^ESCT1182582	Product containing only prednisone 1 mg/1 each oral tablet
+^ESCT1185386	Product containing only dexamethasone 4 mg/1 each oral tablet
+^ESCT1188186	Product containing only fludrocortisone acetate 100 microgram/1 each oral tablet
+^ESCT1188187	Product containing only methylprednisolone 2 mg/1 each oral tablet
+^ESCT1188188	Product containing only prednisolone 25 mg/1 each oral tablet
+^ESCT1188190	Product containing only deflazacort 6 mg/1 each oral tablet
+^ESCT1195449	Dexamethasone 500microgram tablets (Consilient Health Ltd)
+^ESCT1195729	Dexamethasone (base) 3.8mg/1ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCT1195904	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCT1195915	Dexamethasone (base) 6.6mg/2ml solution for injection vials
+^ESCT1195997	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1196018	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCT1196080	Predsol 20mg/100ml retention enema (RPH Pharmaceuticals AB)
+^ESCT1196083	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCT1196084	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Pfizer Ltd)
+^ESCT1196087	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules
+^ESCT1196124	Dexamethasone (base) 6.6mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCT1196144	Dexamethasone (base) 6.6mg/2ml solution for injection vials (Pfizer Ltd)
+^ESCT1196210	Dexamethasone (base) 6.6mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCT1196253	Dexamethasone (base) 3.8mg/1ml solution for injection vials
+^ESCT1196263	Betamethasone 4mg/1ml solution for injection ampoules (RPH Pharmaceuticals AB)
+^ESCT1196312	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCT1196313	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCT1196364	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules
+^ESCT1196403	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1196470	Dexamethasone (base) 3.8mg/1ml solution for injection vials (Aspen Pharma Trading Ltd)
+^ESCT1196475	Dexamethasone (base) 3.8mg/1ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCT1196547	Betamethasone 500microgram soluble tablets sugar free (RPH Pharmaceuticals AB)
+^ESCT1197801	Dexamethasone 4mg tablets (Teva UK Ltd)
+^ESCT1197814	Dexamethasone 8mg tablets (Teva UK Ltd)
+^ESCT1197892	Fludrocortisone 150microgram capsules (Special Order)
+^ESCT1197927	Dexamethasone 8mg tablets
+^ESCT1197932	Fludrocortisone 150microgram capsules
+^ESCT1198317	Dexamethasone 8mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1213124	Alkindi 5mg granules in capsules for opening (Diurnal Ltd)
+^ESCT1213141	Alkindi 0.5mg granules in capsules for opening (Diurnal Ltd)
+^ESCT1213148	Alkindi 1mg granules in capsules for opening (Diurnal Ltd)
+^ESCT1213151	Alkindi 2mg granules in capsules for opening (Diurnal Ltd)
+^ESCT1213583	Hydrocortisone 1mg granules in capsules for opening
+^ESCT1213584	Hydrocortisone 2mg granules in capsules for opening
+^ESCT1213585	Hydrocortisone 500microgram granules in capsules for opening
+^ESCT1213586	Hydrocortisone 5mg granules in capsules for opening
+^ESCT1214776	Betamethasone 4mg/1ml solution for injection ampoules
+^ESCT1214873	Triamcinolone acetonide 10mg/1ml suspension for injection ampoules
+^ESCT1214874	Triamcinolone acetonide 40mg/1ml suspension for injection pre-filled syringes
+^ESCT1214875	Triamcinolone acetonide 40mg/1ml suspension for injection vials
+^ESCT1214876	Triamcinolone acetonide 50mg/5ml suspension for injection vials
+^ESCT1214877	Triamcinolone acetonide 80mg/2ml suspension for injection pre-filled syringes
+^ESCT1215308	Prednisolone 25mg/1ml suspension for injection ampoules
+^ESCT1215661	Hydrocortisone acetate 25mg/1ml suspension for injection ampoules
+^ESCT1215663	Hydrocortisone sodium phosphate 100mg/1ml solution for injection ampoules
+^ESCT1215664	Hydrocortisone sodium phosphate 500mg/5ml solution for injection ampoules
+^ESCT1216280	Prednisolone 20mg/100ml rectal solution (RPH Pharmaceuticals AB)
+^ESCT1224640	Product containing precisely fludrocortisone acetate 100 microgram/1 each conventional release oral tablet
+^ESCT1224641	Fludrocortisone acetate 100 microgram oral tablet
+^ESCT1224642	Betamethasone 500 microgram oral tablet
+^ESCT1224643	Product containing precisely betamethasone 500 microgram/1 each conventional release oral tablet
+^ESCT1224644	Product containing precisely cortisone acetate 25 milligram/1 each conventional release oral tablet
+^ESCT1224645	Product containing precisely dexamethasone 500 microgram/1 each conventional release oral tablet
+^ESCT1224646	Dexamethasone 500 microgram oral tablet
+^ESCT1224647	Product containing precisely dexamethasone 2 milligram/1 each conventional release oral tablet
+^ESCT1224648	Dexamethasone 100 microgram/mL oral solution
+^ESCT1224649	Product containing precisely dexamethasone 100 microgram/1 milliliter conventional release oral solution
+^ESCT1224650	Product containing precisely hydrocortisone 10 milligram/1 each conventional release oral tablet
+^ESCT1224651	Product containing precisely hydrocortisone 20 milligram/1 each conventional release oral tablet
+^ESCT1224652	Product containing precisely methylprednisolone 100 milligram/1 each conventional release oral tablet
+^ESCT1224653	Product containing precisely methylprednisolone 2 milligram/1 each conventional release oral tablet
+^ESCT1224654	Product containing precisely methylprednisolone 4 milligram/1 each conventional release oral tablet
+^ESCT1224655	Product containing precisely methylprednisolone 16 milligram/1 each conventional release oral tablet
+^ESCT1224656	Product containing precisely prednisolone 1 milligram/1 each conventional release oral tablet
+^ESCT1224657	Product containing precisely prednisolone 5 milligram/1 each conventional release oral tablet
+^ESCT1224658	Prednisolone 2.5 mg gastro-resistant oral tablet
+^ESCT1224659	Product containing precisely prednisolone 2.5 milligram/1 each gastro-resistant oral tablet
+^ESCT1224660	Product containing precisely prednisolone 5 milligram/1 each gastro-resistant oral tablet
+^ESCT1224661	Prednisolone 5 mg gastro-resistant oral tablet
+^ESCT1224662	Product containing precisely prednisolone 50 milligram/1 each conventional release oral tablet
+^ESCT1224663	Product containing precisely prednisolone 25 milligram/1 each conventional release oral tablet
+^ESCT1224665	Product containing precisely deflazacort 6 milligram/1 each conventional release oral tablet
+^ESCT1224666	Product containing precisely deflazacort 30 milligram/1 each conventional release oral tablet
+^ESCT1224667	Product containing precisely deflazacort 1 milligram/1 each conventional release oral tablet
+^ESCT1225824	Triamcinolone acetonide 1 mg/g oromucosal paste
+^ESCT1225825	Product containing precisely triamcinolone acetonide 1 milligram/1 gram conventional release oromucosal paste
+^ESCT1227757	Product containing precisely prednisone 5 milligram/1 each conventional release oral tablet
+^ESCT1227784	Product containing precisely prednisone 50 milligram/1 each conventional release oral tablet
+^ESCT1228718	Product containing precisely dexamethasone 4 milligram/1 each conventional release oral tablet
+^ESCT1232539	Prednisolone 3 mg/mL oral solution
+^ESCT1232540	Product containing precisely prednisolone 3 milligram/1 milliliter conventional release oral solution
+^ESCT1232768	Product containing precisely prednisone 1 milligram/1 each conventional release oral tablet
+^ESCT1234842	Product containing precisely prednisolone 2 milligram/1 milliliter conventional release oral solution
+^ESCT1234843	Prednisolone 2 mg/mL oral solution
+^ESCT1234917	Product containing precisely prednisolone 1 milligram/1 milliliter conventional release oral suspension
+^ESCT1234918	Prednisolone 1 mg/mL oral suspension
+^ESCT1234919	Product containing precisely prednisolone 3 milligram/1 milliliter conventional release oral suspension
+^ESCT1234920	Prednisolone 3 mg/mL oral suspension
+^ESCT1250034	Deltastab 25mg/1ml suspension for injection ampoules (Advanz Pharma)
+^ESCT1250035	Prednisolone 5mg soluble tablets (Advanz Pharma)
+^ESCT1250183	Hydrocortistab 25mg/1ml suspension for injection ampoules (Advanz Pharma)
+^ESCT1250244	Efcortesol 100mg/1ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250306	Efcortesol 500mg/5ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250701	Dexamethasone 2mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250781	Pevanti 2.5mg tablets (Advanz Pharma)
+^ESCT1250783	Pevanti 5mg tablets (Advanz Pharma)
+^ESCT1250785	Pevanti 10mg tablets (Advanz Pharma)
+^ESCT1250787	Pevanti 20mg tablets (Advanz Pharma)
+^ESCT1250789	Pevanti 25mg tablets (Advanz Pharma)
+^ESCT1250793	Dexamethasone 10mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250795	Dexamethasone 20mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250804	Prednisolone 10mg/ml oral solution sugar free (Advanz Pharma)
+^ESCT1250834	Hydrocortisone sodium phosphate 100mg/1ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250836	Hydrocortisone sodium phosphate 500mg/5ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250871	Hydrocortisone 10mg tablets (Advanz Pharma)
+^ESCT1250898	Hydrocortisone 20mg tablets (Advanz Pharma)
+^ESCT1254461	Hydrocortisone 10mg tablets (Resolution Chemicals Ltd)
+^ESCT1254463	Hydrocortisone 20mg tablets (Resolution Chemicals Ltd)
+^ESCT1255521	Prednisolone 2.5mg gastro-resistant tablets (Bristol Laboratories Ltd)
+^ESCT1255696	Hydrocortisone 10mg soluble tablets sugar free (Colonis Pharma Ltd)
+^ESCT1255772	Hydrocortisone 10mg soluble tablets sugar free
+^ESCT1256074	Hydrocortisone 10mg tablets (Accord Healthcare Ltd)
+^ESCT1256076	Hydrocortisone 20mg tablets (Accord Healthcare Ltd)
+^ESCT1258427	Prednisolone 1mg tablets (Strides Pharma UK Ltd)
+^ESCT1258429	Prednisolone 5mg tablets (Strides Pharma UK Ltd)
+^ESCT1259078	Medrone 100mg tablets (Originalis B.V.)
+^ESCT1259128	Plenadren 5mg modified-release tablets (Originalis B.V.)
+^ESCT1259194	Prednisolone 20mg/100ml rectal solution (Alliance Healthcare (Distribution) Ltd)
+^ESCT1259820	Fludrocortisone 50microgram tablets (Special Order)
+^ESCT1259928	Fludrocortisone 50microgram tablets
+^ESCT1260033	Hydventia 20mg tablets (OcXia)
+^ESCT1260035	Hydventia 10mg tablets (OcXia)
+^ESCT1264224	Dexamethasone 2mg/5ml oral solution sugar free
+^ESCT1264268	Hydrocortisone 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264433	Betamethasone 500microgram soluble tablets sugar free (DE Pharmaceuticals)
+^ESCT1264603	Hydrocortisone 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264631	Prednisolone 1mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264633	Prednisolone 2.5mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264637	Prednisolone 5mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264641	Prednisolone 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1265448	Dexamethasone 500microgram tablets (Martindale Pharmaceuticals Ltd)
+^ESCT1265451	Dexamethasone 2mg tablets (Martindale Pharmaceuticals Ltd)
+^ESCT1265584	Dexamethasone 4mg tablets (DE Pharmaceuticals)
+^ESCT1267010	Dexamethasone 500microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267487	Colifoam 10% aerosol (CST Pharma Ltd)
+^ESCT1267728	Hydrocortisone 10mg soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1267746	Hydrocortisone 10mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1267988	Plenadren 5mg modified-release tablets (CST Pharma Ltd)
+^ESCT1268063	Prednisolone 20mg/100ml rectal solution
+^ESCT1268224	Colifoam 10% aerosol (Mylan)
+^ESCT1271253	Dexamethasone 2mg soluble tablets sugar free (DE Pharmaceuticals)
+^ESCT1271255	Dexamethasone 4mg soluble tablets sugar free (DE Pharmaceuticals)
+^ESCT1271257	Dexamethasone 8mg soluble tablets sugar free (DE Pharmaceuticals)
+^ESCT1274197	Dexamethasone 4mg tablets (Advanz Pharma)
+^ESCT1274763	Dexamethasone 500microgram tablets (CST Pharma Ltd)
+^ESCT1274785	Prednisolone 20mg/application foam enema (CST Pharma Ltd)
+^ESCT1274952	Fludrocortisone 100microgram tablets (CST Pharma Ltd)
+^ESCT1275100	Prednisolone 5mg soluble tablets (Pilsco Ltd)
+^ESCT1275241	Dexamethasone 4mg tablets (CST Pharma Ltd)
+^ESCT1275520	Prednisolone 20mg/application foam enema (DE Pharmaceuticals)
+^ESCT1275522	Prednisolone 1mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCT1275524	Prednisolone 10mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1275526	Prednisolone 25mg tablets (DE Pharmaceuticals)
+^ESCT1276925	Prednisolone 2.5mg gastro-resistant tablets (Accord Healthcare Ltd)
+^ESCT1276929	Prednisolone 1mg tablets (Accord Healthcare Ltd)
+^ESCT1279616	Prednisolone 10mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1280165	Prednisolone 25mg tablets (Accord Healthcare Ltd)
+^ESCT1280168	Prednisolone 10mg tablets (Accord Healthcare Ltd)
+^ESCT1280170	Prednisolone 20mg tablets (Accord Healthcare Ltd)
+^ESCT1299366	Dexamethasone 500microgram tablets (Actavis UK Ltd)
+^ESCT1299640	Hydrocortisone 10mg tablets (Mibe Pharma UK Ltd)
+^ESCT1299750	Prednisolone 5mg gastro-resistant tablets (Accord Healthcare Ltd)
+^ESCT1299963	Prednisolone 2.5mg tablets (Accord Healthcare Ltd)
+^ESCT1300266	Dexamethasone 2mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCT1300280	Hydrocortisone 20mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1300697	Fludrocortisone 100microgram tablets (DE Pharmaceuticals)
+^ESCT1304234	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304281	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304363	Fludrocortisone 100microgram tablets (Mylan)
+^ESCT1304437	Hydrocortisone 10mg soluble tablets sugar free (Creo Pharma Ltd)
+^ESCT1306309	Hydrocortisone sodium succinate 100mg powder for solution for injection vials (Panpharma UK Ltd)
+^ESCT1306470	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Panpharma UK Ltd)
+^ESCT1306472	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (Panpharma UK Ltd)
+^ESCT1374095	Dexamethasone 2mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCT1374118	Prednisolone 5mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1374394	Prednisolone 20mg/application foam enema
+^ESCT1374728	Fludrocortisone 100microgram tablets (Aspen Pharma Trading Ltd)
+^ESCT1374897	Betamethasone 500microgram soluble tablets sugar free (Medihealth (Northern) Ltd)
+^ESCT1375441	Dexamethasone 2mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375443	Dexamethasone 4mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375445	Dexamethasone 2mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375866	Fludrocortisone 100microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1376073	Hydrocortisone 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376075	Hydrocortisone 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376170	Hydrocortisone 10mg soluble tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1387165	Deltacortril 5mg gastro-resistant tablets (Phoenix Labs Ltd)
+^ESCT1387176	Deltacortril 2.5mg gastro-resistant tablets (Phoenix Labs Ltd)
+^ESCT1388817	Prednisolone 2.5mg gastro-resistant tablets (Phoenix Labs Ltd)
+^ESCT1388820	Prednisolone 5mg gastro-resistant tablets (Phoenix Labs Ltd)
+^ESCT1389248	Prednisolone 1mg gastro-resistant tablets (Phoenix Labs Ltd)
+^ESCT1401979	Decadron 4mg tablets (CST Pharma Ltd)
+^ESCT1401981	Decadron 500microgram tablets (CST Pharma Ltd)
+^ESCT1402701	Betamethasone 500microgram soluble tablets sugar free (Roma Pharmaceuticals Ltd)
+^ESCT1403357	Prednisolone 1mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403365	Prednisolone 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403396	Prednisolone 2.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403402	Prednisolone 30mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403406	Prednisolone 10mg/ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1403458	Prednisolone 5mg soluble tablets (Medihealth (Northern) Ltd)
+^ESCT1403462	Prednisolone 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403684	Prednisolone 5mg gastro-resistant tablets (Medihealth (Northern) Ltd)
+^ESCT1404516	Dexamethasone 500microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1404527	Prednisolone 2.5mg gastro-resistant tablets (Medihealth (Northern) Ltd)
+^ESCT1409492	Prednisolone 5mg tablets (Accord Healthcare Ltd)
+^ESCT1410119	Decadron 500microgram tablets (Organon Pharma (UK) Ltd)
+^ESCT1412276	Prednisolone 30mg tablets (Accord Healthcare Ltd)
+^ESCT1412410	Dexamethasone 2mg tablets (Accord Healthcare Ltd)
+^ESCT1412421	Prednisolone 5mg soluble tablets (Accord Healthcare Ltd)
+^ESCT1422054	Prednisolone 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1424816	Betamethasone 500microgram soluble tablets sugar free
+^ESCT1425063	Prednisolone 20mg/100ml enema long tube
+^ESCT1425064	Prednisolone 20mg/100ml rectal solution
+^ESCT1425068	Prednisolone 5mg soluble tablets
+^ESCT1425631	Prednisolone 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425684	Prednisolone 5mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1425784	Prednisolone 2.5mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1425796	Prednisolone 1mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427356	Methylprednisolone sodium succinate 500mg powder and solvent for solution for injection vials (Kent Pharma (UK) Ltd)
+^ESCT1427358	Methylprednisolone sodium succinate 1g powder and solvent for solution for injection vials (Kent Pharma (UK) Ltd)
+^ESCT1427380	Plenadren 5mg modified-release tablets (Takeda UK Ltd)
+^ESCT1427382	Plenadren 20mg modified-release tablets (Takeda UK Ltd)
+^ESCT1427676	Dexamethasone 2mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427699	Hydrocortisone 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1429437	Prednisolone 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429793	Hydrocortisone 2.5mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1429798	Hydrocortisone 5mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1429801	Hydrocortisone 15mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1429825	Hydrocortisone 15mg tablets
+^ESCT1429826	Hydrocortisone 2.5mg tablets
+^ESCT1429827	Hydrocortisone 5mg tablets
+^ESCT1430141	Dexamethasone 10mg/5ml oral solution sugar free (Synchrony Pharma Ltd)
+^ESCT1430143	Dexamethasone 20mg/5ml oral solution sugar free (Synchrony Pharma Ltd)
+^ESCT1431255	Efmody 5mg modified-release capsules (Diurnal Ltd)
+^ESCT1431263	Efmody 10mg modified-release capsules (Diurnal Ltd)
+^ESCT1431406	Fludrocortisone 100microgram tablets (Accord Healthcare Ltd)
+^ESCT1431572	Hydrocortisone 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1431574	Hydrocortisone 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1431581	Hydrocortisone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1431658	Hydrocortisone 10mg modified-release capsules
+^ESCT1431659	Hydrocortisone 5mg modified-release capsules
+^ESCT1431969	Prednisolone 5mg tablets (Relonchem Ltd)
+^ESCT1433784	Hydrocortisone 10mg tablets (Dexcel-Pharma Ltd)
+^ESCT1433790	Betamethasone 500microgram soluble tablets sugar free (Manx Healthcare Ltd)
+^ESCT1434466	Dexamethasone 10mg soluble tablets sugar free (Aspire Pharma Ltd)
+^ESCT1434469	Dexamethasone 20mg soluble tablets sugar free (Aspire Pharma Ltd)
+^ESCT1434510	Dexamethasone 10mg soluble tablets sugar free
+^ESCT1434511	Dexamethasone 20mg soluble tablets sugar free
+^ESCT1436302	Prednisolone 10mg/ml oral solution sugar free (Aerona Clinical Ltd)
+^ESCT1437541	Colifoam 10% aerosol (Viatris UK Healthcare Ltd)
+^ESCT1438568	Fludrocortisone 100microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1439661	Hydrocortisone 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1439667	Hydrocortisone 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1439672	Hydrocortisone 15mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAD802688	Adcortyl Intra-articular / Intradermal 50mg/5ml suspension for injection vials (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTAD803328	Adcortyl in Orabase 0.1% oromucosal paste (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTAD804827	Adcortyl In Orabase for Mouth Ulcer 0.1% oromucosal paste (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTAD832529	Adcortyl Intra-articular / Intradermal 10mg/1ml suspension for injection ampoules (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTBE1018633	Betnesol 500microgram soluble tablets (Waymade Healthcare Plc)
+^ESCTBE1035701	Betamethasone 500microgram soluble tablets sugar free (Focus Pharmaceuticals Ltd)
+^ESCTBE1036437	Betamethasone 500microgram soluble tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTBE1036471	Betamethasone 500microgram soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTBE1045408	Betamethasone 500microgram soluble tablets sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTBE1127629	Betamethasone 4mg/1ml solution for injection ampoules (Focus Pharmaceuticals Ltd)
+^ESCTBE1128211	Betamethasone 4mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTBE1128234	Betamethasone 4mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTBE612514	Betamethasone 500microgram soluble tablets sugar free
+^ESCTBE612515	Betamethasone 500micrograms soluble tablet
+^ESCTBE612516	Betamethasone 500microgram tablets
+^ESCTBE612518	Betamethasone 500 microgram/1 each oral tablet
+^ESCTBE612519	Betamethasone 4mg/1ml solution for injection ampoules
+^ESCTBE612520	Betamethasone 4mg/mL injection solution 1mL ampoule
+^ESCTBE612521	Betamethasone 4mg/mL injection solution 1mL ampule
+^ESCTBE863506	Betnesol 500microgram soluble tablets (Focus Pharmaceuticals Ltd)
+^ESCTBE864514	Betnelan 500microgram tablets (Focus Pharmaceuticals Ltd)
+^ESCTBE865670	Betnesol 4mg/1ml solution for injection ampoules (Focus Pharmaceuticals Ltd)
+^ESCTCA1119141	Calcort 6mg tablets (Lexon (UK) Ltd)
+^ESCTCA1121404	Calcort 6mg tablets (Waymade Healthcare Plc)
+^ESCTCA864052	Calcort 6mg tablets (Sanofi)
+^ESCTCA864971	Calcort 1mg tablets (Shire Pharmaceuticals Ltd)
+^ESCTCA865904	Calcort 30mg tablets (Shire Pharmaceuticals Ltd)
+^ESCTCO1008686	Colifoam 10% aerosol (Necessity Supplies Ltd)
+^ESCTCO1011869	Colifoam 10% aerosol (DE Pharmaceuticals)
+^ESCTCO1025763	Cortisone 25mg tablets (Special Order)
+^ESCTCO612522	Cortisone 25mg tablets
+^ESCTCO612524	Cortisone acetate 25 mg oral tablet
+^ESCTCO858977	Colifoam 10% aerosol (Meda Pharmaceuticals Ltd)
+^ESCTCO863278	Cortisone 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCO863287	Cortisone 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCO905945	Cortisone 5mg/5ml oral suspension (Special Order)
+^ESCTCO906380	Cortisone 5mg/5ml oral suspension
+^ESCTCO909252	Cortisone 5mg capsules (Special Order)
+^ESCTCO909661	Cortisone 5mg capsules
+^ESCTCO940904	Cortisone 25mg tablets (Sanofi)
+^ESCTCO943211	Cortisone 2.5mg/5ml oral suspension (Special Order)
+^ESCTCO943214	Cortisone 2.5mg/5ml oral solution (Special Order)
+^ESCTCO943374	Cortisone 2.5mg/5ml oral solution
+^ESCTCO943375	Cortisone 2.5mg/5ml oral suspension
+^ESCTCO992684	Colifoam 10% aerosol (Mawdsley-Brooks & Company Ltd)
+^ESCTCO993261	Colifoam 10% aerosol (Waymade Healthcare Plc)
+^ESCTDE1005630	Dexamethasone 2mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDE1006377	Dexamethasone 2mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTDE1020857	Dexamethasone 3.3mg/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTDE1042774	Dexamethasone 2mg tablets (Waymade Healthcare Plc)
+^ESCTDE1042783	Dexamethasone 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDE1044269	Dexamethasone 6.6mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTDE1044671	Dexamethasone 6.6mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTDE1044930	Dexamethasone 6.6mg/2ml solution for injection ampoules
+^ESCTDE1047245	Dexamethasone 2mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTDE1058261	Dexamethasone 2mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTDE1061875	Dexamethasone 2mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTDE1061877	Dexamethasone 2mg tablets (DE Pharmaceuticals)
+^ESCTDE1065436	Dexamethasone 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTDE1065509	Dexamethasone 10mg/5ml oral solution sugar free
+^ESCTDE1066125	Dexamethasone 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDE1066172	Dexamethasone 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1067536	Dexamethasone 10mg capsules (Special Order)
+^ESCTDE1067628	Dexamethasone 10mg capsules
+^ESCTDE1068232	Dexamethasone 2mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCTDE1068429	Dexamethasone 500microgram tablets (Teva UK Ltd)
+^ESCTDE1099879	Dexamethasone 3.8mg/1ml solution for injection vials (Aspen Pharma Trading Ltd)
+^ESCTDE1100000	Dexamethasone 3.8mg/1ml solution for injection vials
+^ESCTDE1100728	Dexamethasone 6.6mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1100730	Dexamethasone 3.8mg/1ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1100743	Dexamethasone 3.8mg/1ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTDE1108671	Dexamethasone 10mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTDE1108674	Dexamethasone 20mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTDE1108703	Dexamethasone 20mg/5ml oral solution sugar free
+^ESCTDE1111972	Dexamethasone 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDE1117168	Dexamethasone 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTDE1117170	Dexamethasone 2mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTDE1117172	Dexamethasone 500microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTDE1119322	Dexamethasone 500microgram tablets (DE Pharmaceuticals)
+^ESCTDE1126590	Dexamethasone 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDE1129588	Dexamethasone 400microgram capsules (Special Order)
+^ESCTDE1129611	Dexamethasone 400microgram capsules
+^ESCTDE1137508	Dexamethasone 2mg soluble tablets sugar free (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTDE1137522	Dexamethasone 8mg soluble tablets sugar free (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTDE1137527	Dexamethasone 4mg soluble tablets sugar free (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTDE1138501	Dexamethasone 500microgram tablets (Aspire Pharma Ltd)
+^ESCTDE1138572	Dexamethasone 2mg soluble tablets sugar free
+^ESCTDE1138573	Dexamethasone 4mg soluble tablets sugar free
+^ESCTDE1138574	Dexamethasone 8mg soluble tablets sugar free
+^ESCTDE1139515	Dexamethasone 3.3mg/1ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTDE1141797	Dexamethasone 2mg soluble tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDE1141799	Dexamethasone 4mg soluble tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDE1141801	Dexamethasone 8mg soluble tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDE1141835	Dexamethasone 2mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDE1141962	Dexamethasone 2mg soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1141964	Dexamethasone 4mg soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1141966	Dexamethasone 8mg soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1147174	Deflazacort 22.75mg/1ml oral suspension (Special Order)
+^ESCTDE1147653	Deflazacort 22.75mg/1ml oral suspension
+^ESCTDE1152046	Dexamethasone 4mg tablets (Consilient Health Ltd)
+^ESCTDE1152588	Dexamethasone 4mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDE1153282	Dexamethasone 2mg tablets (Actavis UK Ltd)
+^ESCTDE1157074	Dexamethasone 2mg tablets (Aspire Pharma Ltd)
+^ESCTDE1160990	Dexamethasone 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE612525	Dexamethasone 500microgram tablets
+^ESCTDE612526	Dexamethasone 0.5 mg oral tablet
+^ESCTDE612528	Dexamethasone 2mg tablets
+^ESCTDE612530	Dexamethasone 2 mg oral tablet
+^ESCTDE612531	Dexamethasone 500micrograms/5ml oral solution
+^ESCTDE612532	Dexamethasone 500micrograms/5mL oral solution
+^ESCTDE612533	Dexamethasone 2mg/5ml oral solution sugar free
+^ESCTDE612534	Dexamethasone 2mg/5mL s/f oral solution
+^ESCTDE612613	Deflazacort 6mg tablets
+^ESCTDE612615	Deflazacort 6 mg oral tablet
+^ESCTDE612616	Deflazacort 30mg tablets
+^ESCTDE612618	Deflazacort 30 mg oral tablet
+^ESCTDE612619	Deflazacort 1mg tablets
+^ESCTDE612621	Deflazacort 1 mg oral tablet
+^ESCTDE641359	Dexamethasone 4mg tablets
+^ESCTDE641361	Dexamethasone 4 mg oral tablet
+^ESCTDE810644	Deltacortril 5mg gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+^ESCTDE811400	Deltastab 25mg/1ml suspension for injection ampoules (AMCo)
+^ESCTDE817427	Deltacortril 2.5mg gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+^ESCTDE860777	Dexamethasone 500microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTDE860781	Decadron 500microgram tablets (Merck Sharp & Dohme Ltd)
+^ESCTDE860790	Dexamethasone 500microgram tablets (Organon Laboratories Ltd)
+^ESCTDE860800	Dexamethasone 500microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE860815	Dexamethasone 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDE860826	Dexamethasone 2mg tablets (Aspen Pharma Trading Ltd)
+^ESCTDE860832	Dexamethasone 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE864980	Dexsol 2mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTDE866671	Dexamethasone 8mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTDE866678	Dexamethasone 8mg/2ml solution for injection vials (Organon Laboratories Ltd)
+^ESCTDE866680	Dexamethasone 8mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE866685	Dexamethasone 4mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTDE866687	Dexamethasone 4mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+^ESCTDE866697	Dexamethasone 4mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE866715	Dexamethasone 3.3mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTDE866718	Dexamethasone 3.3mg/1ml solution for injection ampoules (Pfizer Ltd)
+^ESCTDE866721	Dexamethasone 3.3mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE866727	Dexamethasone 6.6mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTDE866745	Dexamethasone 6.6mg/2ml solution for injection vials (Pfizer Ltd)
+^ESCTDE866748	Dexamethasone 6.6mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE866769	Dexamethasone 6.6mg/2ml solution for injection vials
+^ESCTDE866770	Dexamethasone 3.3mg/1ml solution for injection ampoules
+^ESCTDE866771	Dexamethasone 4mg/1ml solution for injection ampoules
+^ESCTDE866772	Dexamethasone 8mg/2ml solution for injection vials
+^ESCTDE906104	Dexamethasone 1mg/5ml oral solution (Special Order)
+^ESCTDE906110	Dexamethasone 1mg/5ml oral suspension (Special Order)
+^ESCTDE906115	Dexamethasone 100micrograms/5ml oral solution (Special Order)
+^ESCTDE906118	Dexamethasone 200micrograms/5ml oral solution (Special Order)
+^ESCTDE906122	Dexamethasone 200micrograms/5ml oral suspension (Special Order)
+^ESCTDE906124	Dexamethasone 100micrograms/5ml oral suspension (Special Order)
+^ESCTDE906163	Dexamethasone 200micrograms/5ml oral suspension
+^ESCTDE906164	Dexamethasone 200micrograms/5ml oral solution
+^ESCTDE906165	Dexamethasone 1mg/5ml oral suspension
+^ESCTDE906166	Dexamethasone 1mg/5ml oral solution
+^ESCTDE906167	Dexamethasone 100micrograms/5ml oral suspension
+^ESCTDE906168	Dexamethasone 100micrograms/5ml oral solution
+^ESCTDE906198	Dexamethasone 2.5mg/5ml oral solution (Special Order)
+^ESCTDE906203	Dexamethasone 5mg/5ml oral solution (Special Order)
+^ESCTDE906204	Dexamethasone 2.5mg/5ml oral suspension (Special Order)
+^ESCTDE906205	Dexamethasone 500micrograms/5ml oral solution (Special Order)
+^ESCTDE906210	Dexamethasone 5mg/5ml oral suspension (Special Order)
+^ESCTDE906223	Dexamethasone 500micrograms/5ml oral suspension (Special Order)
+^ESCTDE906397	Dexamethasone 2.5mg/5ml oral solution
+^ESCTDE906398	Dexamethasone 2.5mg/5ml oral suspension
+^ESCTDE906399	Dexamethasone 500micrograms/5ml oral suspension
+^ESCTDE906400	Dexamethasone 5mg/5ml oral solution
+^ESCTDE906401	Dexamethasone 5mg/5ml oral suspension
+^ESCTDE909243	Dexamethasone 100microgram capsules (Special Order)
+^ESCTDE909663	Dexamethasone 100microgram capsules
+^ESCTDE912824	Dexamethasone 100mg/5ml solution for injection vials (Hospira UK Ltd)
+^ESCTDE913152	Dexamethasone 100mg/5ml solution for injection vials
+^ESCTDE914102	Dexamethasone 100mg/5ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTDE930149	Dexamethasone 2mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTDE939214	Decortin 1mg tablets (Imported (Germany))
+^ESCTDE939219	Decortin 5mg tablets (Imported (Germany))
+^ESCTDE939222	Decortin 50mg tablets (Imported (Germany))
+^ESCTDE941270	Dexamethasone 10mg/5ml oral solution (Special Order)
+^ESCTDE941273	Dexamethasone 10mg/5ml oral solution
+^ESCTDE941946	Dexamethasone 1.25mg/5ml oral suspension (Special Order)
+^ESCTDE941952	Dexamethasone 1.25mg/5ml oral solution (Special Order)
+^ESCTDE941955	Dexamethasone 1.5mg/5ml oral suspension (Special Order)
+^ESCTDE941958	Dexamethasone 1.5mg/5ml oral solution (Special Order)
+^ESCTDE941961	Dexamethasone 10mg/5ml oral suspension (Special Order)
+^ESCTDE941970	Dexamethasone 14mg/5ml oral suspension (Special Order)
+^ESCTDE941976	Dexamethasone 14mg/5ml oral solution (Special Order)
+^ESCTDE941982	Dexamethasone 16.7mg/5ml oral suspension (Special Order)
+^ESCTDE941985	Dexamethasone 16.7mg/5ml oral solution (Special Order)
+^ESCTDE941991	Dexamethasone 16mg/5ml oral suspension (Special Order)
+^ESCTDE941997	Dexamethasone 16mg/5ml oral solution (Special Order)
+^ESCTDE942000	Dexamethasone 20mg/5ml oral suspension (Special Order)
+^ESCTDE942006	Dexamethasone 20mg/5ml oral solution (Special Order)
+^ESCTDE942009	Dexamethasone 250micrograms/5ml oral suspension (Special Order)
+^ESCTDE942015	Dexamethasone 250micrograms/5ml oral solution (Special Order)
+^ESCTDE942019	Dexamethasone 2mg/5ml oral suspension (Special Order)
+^ESCTDE942024	Dexamethasone 2mg/5ml oral solution (Special Order)
+^ESCTDE942027	Dexamethasone 3mg/5ml oral suspension (Special Order)
+^ESCTDE942031	Dexamethasone 3mg/5ml oral solution (Special Order)
+^ESCTDE942036	Dexamethasone 4mg/5ml oral suspension (Special Order)
+^ESCTDE942039	Dexamethasone 4mg/5ml oral solution (Special Order)
+^ESCTDE942042	Dexamethasone 6mg/5ml oral suspension (Special Order)
+^ESCTDE942045	Dexamethasone 6mg/5ml oral solution (Special Order)
+^ESCTDE942048	Dexamethasone 8mg/5ml oral suspension (Special Order)
+^ESCTDE942051	Dexamethasone 8mg/5ml oral solution (Special Order)
+^ESCTDE942328	Dexamethasone 1.25mg/5ml oral solution
+^ESCTDE942330	Dexamethasone 1.25mg/5ml oral suspension
+^ESCTDE942332	Dexamethasone 1.5mg/5ml oral solution
+^ESCTDE942335	Dexamethasone 1.5mg/5ml oral suspension
+^ESCTDE942337	Dexamethasone 10mg/5ml oral suspension
+^ESCTDE942339	Dexamethasone 14mg/5ml oral solution
+^ESCTDE942341	Dexamethasone 14mg/5ml oral suspension
+^ESCTDE942343	Dexamethasone 16.7mg/5ml oral solution
+^ESCTDE942345	Dexamethasone 16.7mg/5ml oral suspension
+^ESCTDE942347	Dexamethasone 16mg/5ml oral solution
+^ESCTDE942349	Dexamethasone 16mg/5ml oral suspension
+^ESCTDE942351	Dexamethasone 20mg/5ml oral solution
+^ESCTDE942353	Dexamethasone 20mg/5ml oral suspension
+^ESCTDE942354	Dexamethasone 250micrograms/5ml oral solution
+^ESCTDE942356	Dexamethasone 250micrograms/5ml oral suspension
+^ESCTDE942358	Dexamethasone 2mg/5ml oral solution
+^ESCTDE942360	Dexamethasone 2mg/5ml oral suspension
+^ESCTDE942362	Dexamethasone 3mg/5ml oral solution
+^ESCTDE942364	Dexamethasone 3mg/5ml oral suspension
+^ESCTDE942366	Dexamethasone 4mg/5ml oral solution
+^ESCTDE942368	Dexamethasone 4mg/5ml oral suspension
+^ESCTDE942370	Dexamethasone 6mg/5ml oral solution
+^ESCTDE942372	Dexamethasone 6mg/5ml oral suspension
+^ESCTDE942374	Dexamethasone 8mg/5ml oral solution
+^ESCTDE942376	Dexamethasone 8mg/5ml oral suspension
+^ESCTDE978513	Dexamethasone 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDE979794	Dexamethasone 500microgram tablets (Essential Generics Ltd)
+^ESCTDE981746	Deflazacort 1mg tablets (Special Order)
+^ESCTDE983388	Dexamethasone 2mg tablets (Teva UK Ltd)
+^ESCTDI1048253	Dilacort 2.5mg gastro-resistant tablets (Auden McKenzie (Pharma Division) Ltd)
+^ESCTDI1048259	Dilacort 5mg gastro-resistant tablets (Auden McKenzie (Pharma Division) Ltd)
+^ESCTDI1144134	Dilacort 2.5mg gastro-resistant tablets (Crescent Pharma Ltd)
+^ESCTDI1144136	Dilacort 5mg gastro-resistant tablets (Crescent Pharma Ltd)
+^ESCTDI1152762	Dilacort 2.5mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTDI1152764	Dilacort 5mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTEF864984	Efcortesol 100mg/1ml solution for injection ampoules (AMCo)
+^ESCTEF873677	Efcortesol 500mg/5ml solution for injection ampoules (AMCo)
+^ESCTFL1002484	Florinef 100microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTFL1011948	Florinef 100microgram tablets (DE Pharmaceuticals)
+^ESCTFL1139869	Fludrocortisone 100microgram tablets (Aspen Pharma Trading Ltd)
+^ESCTFL1141970	Fludrocortisone 100microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL1142736	Fludrocortisone 100microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTFL612511	Fludrocortisone 100microgram tablets
+^ESCTFL612513	Fludrocortisone acetate 100 microgram/1 each oral tablet
+^ESCTFL827964	Florinef 100microgram tablets (Aspen Pharma Trading Ltd)
+^ESCTFL906646	Fludrocortisone 100micrograms/5ml oral suspension (Drug Tariff Special Order)
+^ESCTFL906655	Fludrocortisone 125micrograms/5ml oral suspension (Special Order)
+^ESCTFL906669	Fludrocortisone 250micrograms/5ml oral suspension (Special Order)
+^ESCTFL906670	Fludrocortisone 400micrograms/5ml oral suspension (Special Order)
+^ESCTFL906675	Fludrocortisone 500micrograms/5ml oral suspension (Special Order)
+^ESCTFL906680	Fludrocortisone 50micrograms/5ml oral suspension (Drug Tariff Special Order)
+^ESCTFL906681	Fludrocortisone 25micrograms/5ml oral suspension (Special Order)
+^ESCTFL906683	Fludrocortisone 150micrograms/5ml oral suspension (Special Order)
+^ESCTFL906689	Fludrocortisone 200micrograms/5ml oral suspension (Special Order)
+^ESCTFL906690	Fludrocortisone 62.5micrograms/5ml oral suspension (Special Order)
+^ESCTFL906694	Fludrocortisone 85micrograms/5ml oral suspension (Special Order)
+^ESCTFL907007	Fludrocortisone 100micrograms/5ml oral suspension
+^ESCTFL907008	Fludrocortisone 125micrograms/5ml oral suspension
+^ESCTFL907009	Fludrocortisone 150micrograms/5ml oral suspension
+^ESCTFL907010	Fludrocortisone 200micrograms/5ml oral suspension
+^ESCTFL907011	Fludrocortisone 250micrograms/5ml oral suspension
+^ESCTFL907012	Fludrocortisone 25micrograms/5ml oral suspension
+^ESCTFL907013	Fludrocortisone 400micrograms/5ml oral suspension
+^ESCTFL907014	Fludrocortisone 500micrograms/5ml oral suspension
+^ESCTFL907015	Fludrocortisone 50micrograms/5ml oral suspension
+^ESCTFL907016	Fludrocortisone 62.5micrograms/5ml oral suspension
+^ESCTFL907017	Fludrocortisone 85micrograms/5ml oral suspension
+^ESCTFL909248	Fludrocortisone 50microgram capsules (Special Order)
+^ESCTFL909677	Fludrocortisone 50microgram capsules
+^ESCTFL944819	Fludrocortisone 10micrograms/5ml oral suspension (Special Order)
+^ESCTFL944825	Fludrocortisone 130micrograms/5ml oral suspension (Special Order)
+^ESCTFL944831	Fludrocortisone 187.5micrograms/5ml oral suspension (Special Order)
+^ESCTFL944837	Fludrocortisone 1mg/5ml oral suspension (Special Order)
+^ESCTFL944852	Fludrocortisone 20micrograms/5ml oral suspension (Special Order)
+^ESCTFL944872	Fludrocortisone 30micrograms/5ml oral suspension (Special Order)
+^ESCTFL944904	Fludrocortisone 600micrograms/5ml oral suspension (Special Order)
+^ESCTFL944919	Fludrocortisone 625micrograms/5ml oral suspension (Special Order)
+^ESCTFL944935	Fludrocortisone 750micrograms/5ml oral suspension (Special Order)
+^ESCTFL944948	Fludrocortisone 75micrograms/5ml oral suspension (Special Order)
+^ESCTFL944966	Fludrocortisone 850micrograms/5ml oral suspension (Special Order)
+^ESCTFL945541	Fludrocortisone 10micrograms/5ml oral suspension
+^ESCTFL945542	Fludrocortisone 130micrograms/5ml oral suspension
+^ESCTFL945543	Fludrocortisone 187.5micrograms/5ml oral suspension
+^ESCTFL945544	Fludrocortisone 1mg/5ml oral suspension
+^ESCTFL945545	Fludrocortisone 20micrograms/5ml oral suspension
+^ESCTFL945546	Fludrocortisone 30micrograms/5ml oral suspension
+^ESCTFL945548	Fludrocortisone 600micrograms/5ml oral suspension
+^ESCTFL945549	Fludrocortisone 625micrograms/5ml oral suspension
+^ESCTFL945550	Fludrocortisone 750micrograms/5ml oral suspension
+^ESCTFL945551	Fludrocortisone 75micrograms/5ml oral suspension
+^ESCTFL945552	Fludrocortisone 850micrograms/5ml oral suspension
+^ESCTFL979066	Florinef 100microgram tablets (Waymade Healthcare Plc)
+^ESCTFL981325	Fludrocortisone 30microgram capsules (Special Order)
+^ESCTFL981382	Fludrocortisone 30microgram capsules
+^ESCTFL989095	Florinef 100microgram tablets (Lexon (UK) Ltd)
+^ESCTFL993382	Florinef 100microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1163234	Glensoludex 2mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTGL1163237	Glensoludex 4mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTGL1163239	Glensoludex 8mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTHY1002494	Hydrocortisone 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHY1006015	Hydrocortisone 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1006017	Hydrocortisone 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1006437	Hydrocortisone 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTHY1006439	Hydrocortisone 20mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTHY1010219	Hydrocortisone 10mg tablets (Teva UK Ltd)
+^ESCTHY1010239	Hydrocortisone 20mg tablets (Teva UK Ltd)
+^ESCTHY1011956	Hydrocortisone 10mg tablets (DE Pharmaceuticals)
+^ESCTHY1025749	Hydrocortisone 5mg/5ml oral suspension sugar free (Special Order)
+^ESCTHY1025761	Hydrocortisone 5mg/5ml oral suspension sugar free
+^ESCTHY1028913	Hydrocortisone 1mg capsules (Special Order)
+^ESCTHY1029172	Hydrocortisone 1mg capsules
+^ESCTHY1038875	Hydrocortisone 20mg modified-release tablets
+^ESCTHY1038876	Hydrocortisone 5mg modified-release tablets
+^ESCTHY1043904	Hydrocortisone 10mg tablets (Waymade Healthcare Plc)
+^ESCTHY1043906	Hydrocortisone 20mg tablets (Waymade Healthcare Plc)
+^ESCTHY1063620	Hydrocortisone 10mg tablets (DE Pharmaceuticals)
+^ESCTHY1063622	Hydrocortisone 20mg tablets (DE Pharmaceuticals)
+^ESCTHY1104322	Hydrocortisone 5mg/5ml oral solution (Special Order)
+^ESCTHY1104345	Hydrocortisone 5mg/5ml oral solution
+^ESCTHY1117495	Hydrocortisone 20mg tablets (Sovereign Medical Ltd)
+^ESCTHY1122594	Hydrocortisone sodium phosphate 100mg/1ml solution for injection ampoules (AMCo)
+^ESCTHY1122601	Hydrocortisone sodium phosphate 500mg/5ml solution for injection ampoules (AMCo)
+^ESCTHY1141858	Hydrocortisone 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTHY1144705	Hydrocortisone 10mg tablets (Alissa Healthcare Research Ltd)
+^ESCTHY1151348	Hydrocortisone 10mg tablets (AMCo)
+^ESCTHY1162305	Hydrocortisone 10mg tablets (Bristol Laboratories Ltd)
+^ESCTHY1162307	Hydrocortisone 20mg tablets (Bristol Laboratories Ltd)
+^ESCTHY1163072	Hydrocortisone 20mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTHY606507	Hydrocortisone 10% foam aerosol enema
+^ESCTHY606508	Hydrocortisone acetate 10% rectal foam
+^ESCTHY612540	Hydrocortisone 10mg tablets
+^ESCTHY612542	Hydrocortisone 10 mg oral tablet
+^ESCTHY612543	Hydrocortisone 20mg tablets
+^ESCTHY612545	Hydrocortisone 20 mg oral tablet
+^ESCTHY612547	Hydrocortisone sodium phosphate 500mg/5ml solution for injection ampoules
+^ESCTHY612548	Hydrocortisone 100mg/mL injection solution ampoule 5mL
+^ESCTHY612549	Hydrocortisone 100mg/mL injection solution ampule 5mL
+^ESCTHY612550	Hydrocortisone sodium phosphate 100mg/1ml solution for injection ampoules
+^ESCTHY612551	Hydrocortisone 100mg/mL injection solution ampoule 1mL
+^ESCTHY612552	Hydrocortisone 100mg/mL injection solution ampule 1mL
+^ESCTHY615270	Hydrocortisone acetate 25mg/1ml suspension for injection ampoules
+^ESCTHY615271	Hydrocortisone acetate 25mg/1mL injection
+^ESCTHY615272	Hydrocortisone acetate 25mg/mL injection suspension 1mL ampoule
+^ESCTHY615273	Hydrocortisone acetate 25mg/mL injection suspension 1mL ampule
+^ESCTHY805722	Hydrocortone 10mg tablets (Auden McKenzie (Pharma Division) Ltd)
+^ESCTHY821355	Hydrocortone 20mg tablets (Auden McKenzie (Pharma Division) Ltd)
+^ESCTHY858748	Hydrocortistab 25mg/1ml suspension for injection ampoules (AMCo)
+^ESCTHY867902	Hydrocortisone sodium succinate 100mg powder and solvent for solution for injection vials
+^ESCTHY907154	Hydrocortisone 25mg/5ml oral suspension (Special Order)
+^ESCTHY907157	Hydrocortisone 5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTHY907161	Hydrocortisone 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTHY907162	Hydrocortisone 2.5mg/5ml oral suspension (Special Order)
+^ESCTHY907166	Hydrocortisone 20mg/5ml oral suspension (Special Order)
+^ESCTHY907168	Hydrocortisone 12.5mg/5ml oral suspension (Special Order)
+^ESCTHY907622	Hydrocortisone 10mg/5ml oral suspension
+^ESCTHY907623	Hydrocortisone 12.5mg/5ml oral suspension
+^ESCTHY907624	Hydrocortisone 2.5mg/5ml oral suspension
+^ESCTHY907625	Hydrocortisone 20mg/5ml oral suspension
+^ESCTHY907626	Hydrocortisone 25mg/5ml oral suspension
+^ESCTHY907627	Hydrocortisone 5mg/5ml oral suspension
+^ESCTHY950764	Hydrocortisone 1.5mg/5ml oral suspension (Special Order)
+^ESCTHY950768	Hydrocortisone 100mg/5ml oral suspension (Special Order)
+^ESCTHY950772	Hydrocortisone 13.95mg/5ml oral suspension (Special Order)
+^ESCTHY950775	Hydrocortisone 18mg/5ml oral suspension (Special Order)
+^ESCTHY950778	Hydrocortisone 1mg/5ml oral suspension (Special Order)
+^ESCTHY950781	Hydrocortisone 2.6mg/5ml oral suspension (Special Order)
+^ESCTHY950784	Hydrocortisone 250micrograms/5ml oral suspension (Special Order)
+^ESCTHY950789	Hydrocortisone 2mg/5ml oral suspension (Special Order)
+^ESCTHY950878	Hydrocortisone 1.5mg/5ml oral suspension
+^ESCTHY950879	Hydrocortisone 100mg/5ml oral suspension
+^ESCTHY950880	Hydrocortisone 13.95mg/5ml oral suspension
+^ESCTHY950881	Hydrocortisone 18mg/5ml oral suspension
+^ESCTHY950882	Hydrocortisone 1mg/5ml oral suspension
+^ESCTHY950883	Hydrocortisone 2.6mg/5ml oral suspension
+^ESCTHY950884	Hydrocortisone 250micrograms/5ml oral suspension
+^ESCTHY950885	Hydrocortisone 2mg/5ml oral suspension
+^ESCTHY950987	Hydrocortisone 3.6mg/5ml oral suspension (Special Order)
+^ESCTHY950990	Hydrocortisone 3.75mg/5ml oral suspension (Special Order)
+^ESCTHY950993	Hydrocortisone 30mg/5ml oral suspension (Special Order)
+^ESCTHY950996	Hydrocortisone 3mg/5ml oral suspension (Special Order)
+^ESCTHY950999	Hydrocortisone 4.25mg/5ml oral suspension (Special Order)
+^ESCTHY951002	Hydrocortisone 4mg/5ml oral suspension (Special Order)
+^ESCTHY951005	Hydrocortisone 50micrograms/5ml oral suspension (Special Order)
+^ESCTHY951008	Hydrocortisone 50mg/5ml oral suspension (Special Order)
+^ESCTHY951011	Hydrocortisone 6.25mg/5ml oral suspension (Special Order)
+^ESCTHY951014	Hydrocortisone 6mg/5ml oral suspension (Special Order)
+^ESCTHY951020	Hydrocortisone 3.6mg/5ml oral suspension
+^ESCTHY951021	Hydrocortisone 3.75mg/5ml oral suspension
+^ESCTHY951022	Hydrocortisone 30mg/5ml oral suspension
+^ESCTHY951023	Hydrocortisone 3mg/5ml oral suspension
+^ESCTHY951024	Hydrocortisone 4.25mg/5ml oral suspension
+^ESCTHY951025	Hydrocortisone 4mg/5ml oral suspension
+^ESCTHY951026	Hydrocortisone 50mg/5ml oral suspension
+^ESCTHY951027	Hydrocortisone 50micrograms/5ml oral suspension
+^ESCTHY951028	Hydrocortisone 6.25mg/5ml oral suspension
+^ESCTHY951029	Hydrocortisone 6mg/5ml oral suspension
+^ESCTHY951031	Hydrocortisone 7.5mg/5ml oral suspension (Special Order)
+^ESCTHY951034	Hydrocortisone 75mg/5ml oral suspension (Special Order)
+^ESCTHY951058	Hydrocortisone 7mg/5ml oral suspension (Special Order)
+^ESCTHY951061	Hydrocortisone 85micrograms/5ml oral suspension (Special Order)
+^ESCTHY951106	Hydrocortisone 7.5mg/5ml oral suspension
+^ESCTHY951107	Hydrocortisone 75mg/5ml oral suspension
+^ESCTHY951108	Hydrocortisone 7mg/5ml oral suspension
+^ESCTHY951109	Hydrocortisone 85micrograms/5ml oral suspension
+^ESCTHY964189	Hydrocortisone 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTHY964191	Hydrocortisone 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTHY964645	Hydrocortisone 10mg tablets (Actavis UK Ltd)
+^ESCTHY964647	Hydrocortisone 20mg tablets (Actavis UK Ltd)
+^ESCTHY965998	Hydrocortisone 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY966000	Hydrocortisone 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY966827	Hydrocortisone sodium succinate 100mg powder for solution for injection vials
+^ESCTHY978400	Hydrocortisone 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHY978402	Hydrocortisone 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHY981535	Hydrocortisone 2mg capsules (Special Order)
+^ESCTHY981623	Hydrocortisone 2mg capsules
+^ESCTHY982416	Hydrocortisone 2.5mg capsules (Special Order)
+^ESCTHY982507	Hydrocortisone 2.5mg capsules
+^ESCTHY992574	Hydrocortisone 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTKE809767	Kenalog Intra-articular / Intramuscular 40mg/1ml suspension for injection vials (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTKE825153	Kenalog Intramuscular 40mg/1ml suspension for injection pre-filled syringes (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTKE830027	Kenalog Intramuscular 80mg/2ml suspension for injection pre-filled syringes (Bristol-Myers Squibb Pharmaceuticals Ltd)
+^ESCTLO1005476	Lodotra 1mg modified-release tablets (Napp Pharmaceuticals Ltd)
+^ESCTLO1005480	Lodotra 2mg modified-release tablets (Napp Pharmaceuticals Ltd)
+^ESCTLO1005486	Lodotra 5mg modified-release tablets (Napp Pharmaceuticals Ltd)
+^ESCTMA1023216	Martapan 2mg/5ml oral solution (Martindale Pharmaceuticals Ltd)
+^ESCTME1002097	Medrone 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTME1002582	Medrone 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME1012069	Medrone 100mg tablets (DE Pharmaceuticals)
+^ESCTME1026089	Methylprednisolone sodium succinate 500mg powder and solvent for solution for injection vials (Kent Pharmaceuticals Ltd)
+^ESCTME1026091	Methylprednisolone sodium succinate 1g powder and solvent for solution for injection vials (Kent Pharmaceuticals Ltd)
+^ESCTME1044680	Methylprednisolone sodium succinate 500mg powder and solvent for solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTME1044683	Methylprednisolone sodium succinate 1g powder and solvent for solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTME1126577	Methylprednisolone sodium succinate 40mg powder and solvent for solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTME612566	Methylprednisolone 100mg tablets
+^ESCTME612568	Methylprednisolone 100 mg oral tablet
+^ESCTME612569	Methylprednisolone 2mg tablets
+^ESCTME612571	Methylprednisolone 2 mg oral tablet
+^ESCTME612572	Methylprednisolone 4mg tablets
+^ESCTME612574	Methylprednisolone 4 mg oral tablet
+^ESCTME612575	Methylprednisolone 16mg tablets
+^ESCTME612577	Methylprednisolone 16 mg oral tablet
+^ESCTME866756	Medrone 2mg tablets (Pfizer Ltd)
+^ESCTME866760	Medrone 4mg tablets (Pfizer Ltd)
+^ESCTME866763	Medrone 16mg tablets (Pfizer Ltd)
+^ESCTME866766	Medrone 100mg tablets (Pfizer Ltd)
+^ESCTME867903	Methylprednisolone sodium succinate 1g powder and solvent for solution for injection vials
+^ESCTME867904	Methylprednisolone sodium succinate 500mg powder and solvent for solution for injection vials
+^ESCTME869649	Methylprednisolone sodium succinate 125mg powder and solvent for solution for injection vials
+^ESCTME869650	Methylprednisolone sodium succinate 2g powder and solvent for solution for injection vials
+^ESCTME869651	Methylprednisolone sodium succinate 40mg powder and solvent for solution for injection vials
+^ESCTME957063	Methylprednisolone 1mg/5ml oral suspension (Special Order)
+^ESCTME957611	Methylprednisolone 1mg/5ml oral suspension
+^ESCTPE1107924	Pevanti 2.5mg tablets (AMCo)
+^ESCTPE1107932	Pevanti 5mg tablets (AMCo)
+^ESCTPE1107935	Pevanti 10mg tablets (AMCo)
+^ESCTPE1107938	Pevanti 20mg tablets (AMCo)
+^ESCTPE1107940	Pevanti 25mg tablets (AMCo)
+^ESCTPL1038864	Plenadren 5mg modified-release tablets (Shire Pharmaceuticals Ltd)
+^ESCTPL1038867	Plenadren 20mg modified-release tablets (Shire Pharmaceuticals Ltd)
+^ESCTPR1005475	Prednisone 1mg modified-release tablets
+^ESCTPR1005479	Prednisone 2mg modified-release tablets
+^ESCTPR1005485	Prednisone 5mg modified-release tablets
+^ESCTPR1005877	Prednisolone 2.5mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPR1005881	Prednisolone 5mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPR1005885	Prednisolone 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPR1006662	Prednisolone 2.5mg gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+^ESCTPR1006665	Prednisolone 5mg gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+^ESCTPR1009253	Prednisolone 1mg tablets (Strides Shasun (UK) Ltd)
+^ESCTPR1009255	Prednisolone 5mg tablets (Strides Shasun (UK) Ltd)
+^ESCTPR1009428	Prednisolone 2.5mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTPR1009430	Prednisolone 5mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTPR1012376	Prednisolone 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPR1017948	Prednisolone 20mg/application foam enema (Essential Generics Ltd)
+^ESCTPR1021130	Prednisolone 20mg/application foam enema (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1022755	Prednisolone 2.5mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
+^ESCTPR1022757	Prednisolone 5mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)
+^ESCTPR1024971	Prednisolone 20mg/application foam enema (A A H Pharmaceuticals Ltd)
+^ESCTPR1042107	Prednisolone 1mg tablets (Waymade Healthcare Plc)
+^ESCTPR1042109	Prednisolone 5mg tablets (Waymade Healthcare Plc)
+^ESCTPR1047664	Prednisolone 2.5mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTPR1047667	Prednisolone 5mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTPR1108015	Prednisolone 10mg tablets
+^ESCTPR1108017	Prednisolone 2.5mg tablets
+^ESCTPR1108018	Prednisolone 20mg tablets
+^ESCTPR1109217	Prednisolone 5mg soluble tablets (Focus Pharmaceuticals Ltd)
+^ESCTPR1113329	Prednisolone 5mg/5ml oral solution unit dose (Logixx Pharma Solutions Ltd)
+^ESCTPR1113895	Prednisolone 5mg/5ml oral solution unit dose
+^ESCTPR1115019	Prednisolone 5mg/5ml oral solution unit dose (A A H Pharmaceuticals Ltd)
+^ESCTPR1117880	Prednisolone 10mg/ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTPR1118089	Prednisolone 10mg/ml oral solution sugar free
+^ESCTPR1119939	Prednisolone 2.5mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCTPR1119942	Prednisolone 5mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCTPR1119945	Prednisolone 5mg soluble tablets (DE Pharmaceuticals)
+^ESCTPR1119947	Prednisolone 1mg tablets (DE Pharmaceuticals)
+^ESCTPR1119949	Prednisolone 5mg tablets (DE Pharmaceuticals)
+^ESCTPR1120072	Prednisolone 10mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTPR1127062	Prednisolone 1mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1127064	Prednisolone 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPR1128272	Prednisolone 25mg tablets (Actavis UK Ltd)
+^ESCTPR1143519	Prednisolone 1mg gastro-resistant tablets (Alliance Pharmaceuticals Ltd)
+^ESCTPR1143786	Prednisolone 1mg gastro-resistant tablets
+^ESCTPR1144477	Prednisolone 5mg/5ml oral solution unit dose (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1145242	Prednisolone 10mg tablets (Actavis UK Ltd)
+^ESCTPR1145246	Prednisolone 2.5mg tablets (Actavis UK Ltd)
+^ESCTPR1145249	Prednisolone 20mg tablets (Actavis UK Ltd)
+^ESCTPR1145258	Prednisolone 30mg tablets (Actavis UK Ltd)
+^ESCTPR1145275	Prednisolone 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR1145277	Prednisolone 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR1145279	Prednisolone 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR1145281	Prednisolone 30mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR1145321	Prednisolone 30mg tablets
+^ESCTPR1145567	Prednisolone 1mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTPR1145571	Prednisolone 5mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTPR1151368	Prednisolone 1mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR1151387	Prednisolone 1mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1157005	Prednisolone 5mg soluble tablets (Actavis UK Ltd)
+^ESCTPR1158272	Prednisolone 5mg soluble tablets (Phoenix Labs Ltd)
+^ESCTPR1160814	Prednisolone 5mg gastro-resistant tablets (Bristol Laboratories Ltd)
+^ESCTPR606512	Prednisolone 20mg/100ml enema long tube
+^ESCTPR606513	Prednisolone 20mg/100mL long tube retention enema
+^ESCTPR606514	Prednisolone 20mg/100ml enema standard tube
+^ESCTPR606515	Prednisolone 20mg/100mL standard tube retention enema
+^ESCTPR612512	Product containing fludrocortisone acetate 100 microgram/1 each oral tablet
+^ESCTPR612517	Product containing betamethasone 500 microgram/1 each oral tablet
+^ESCTPR612523	Product containing cortisone acetate 25 mg/1 each oral tablet
+^ESCTPR612527	Product containing dexamethasone 0.5 milligram/1 each oral tablet
+^ESCTPR612529	Product containing dexamethasone 2 mg/1 each oral tablet
+^ESCTPR612541	Product containing hydrocortisone 10 mg/1 each oral tablet
+^ESCTPR612544	Product containing hydrocortisone 20 mg/1 each oral tablet
+^ESCTPR612567	Product containing methylprednisolone 100 mg/1 each oral tablet
+^ESCTPR612570	Product containing methylprednisolone 2 mg/1 each oral tablet
+^ESCTPR612573	Product containing methylprednisolone 4 mg/1 each oral tablet
+^ESCTPR612576	Product containing methylprednisolone 16 mg/1 each oral tablet
+^ESCTPR612589	Prednisolone 1mg tablets
+^ESCTPR612590	Product containing prednisolone 1 mg/1 each oral tablet
+^ESCTPR612591	Prednisolone 1 mg oral tablet
+^ESCTPR612592	Prednisolone 5mg tablets
+^ESCTPR612593	Product containing prednisolone 5 mg/1 each oral tablet
+^ESCTPR612594	Prednisolone 5 mg oral tablet
+^ESCTPR612595	Prednisolone 2.5mg gastro-resistant tablets
+^ESCTPR612596	Prednisolone 2.5mg e/c tablet
+^ESCTPR612597	Prednisolone 5mg gastro-resistant tablets
+^ESCTPR612598	Prednisolone 5mg e/c tablet
+^ESCTPR612599	Prednisolone 5mg soluble tablets
+^ESCTPR612600	Prednisolone 5mg soluble tablet
+^ESCTPR612601	Prednisolone 50mg tablets
+^ESCTPR612602	Product containing prednisolone 50 mg/1 each oral tablet
+^ESCTPR612603	Prednisolone 50 mg oral tablet
+^ESCTPR612604	Prednisolone 25mg tablets
+^ESCTPR612605	Product containing prednisolone 25 mg/1 each oral tablet
+^ESCTPR612606	Prednisolone 25 mg oral tablet
+^ESCTPR612614	Product containing deflazacort 6 mg/1 each oral tablet
+^ESCTPR612617	Product containing deflazacort 30 mg/1 each oral tablet
+^ESCTPR612620	Product containing deflazacort 1 mg/1 each oral tablet
+^ESCTPR615274	Prednisolone 25mg/1ml suspension for injection ampoules
+^ESCTPR615275	Prednisolone acetate 25mg/1mL injection
+^ESCTPR615276	Prednisolone acetate 25mg/mL injection suspension 1mL ampoule
+^ESCTPR615277	Prednisolone acetate 25mg/mL injection suspension 1mL ampule
+^ESCTPR618842	Prednisolone 20mg/application foam enema
+^ESCTPR618843	Prednisolone 20mg rectal foam
+^ESCTPR638761	Prednisone 5mg tablets
+^ESCTPR638762	Product containing prednisone 5 mg/1 each oral tablet
+^ESCTPR638763	Prednisone 5 mg oral tablet
+^ESCTPR638852	Prednisone 50mg tablets
+^ESCTPR638853	Product containing prednisone 50 mg/1 each oral tablet
+^ESCTPR638854	Prednisone 50 mg oral tablet
+^ESCTPR641360	Product containing dexamethasone 4 mg/1 each oral tablet
+^ESCTPR689353	Prednisolone 15mg/5ml oral solution
+^ESCTPR689354	Prednisolone 15mg/5mL oral solution
+^ESCTPR691988	Prednisone 1mg tablets
+^ESCTPR691989	Product containing prednisone 1 mg/1 each oral tablet
+^ESCTPR691990	Prednisone 1 mg oral tablet
+^ESCTPR711266	Prednisolone 10mg/5ml oral solution
+^ESCTPR711267	Prednisolone 10mg/5mL oral solution
+^ESCTPR715549	Prednisolone 5mg/5ml oral suspension
+^ESCTPR715550	Prednisolone 5mg/5mL oral suspension
+^ESCTPR715551	Prednisolone 15mg/5ml oral suspension
+^ESCTPR715552	Prednisolone 15mg/5mL oral suspension
+^ESCTPR801830	Prednisolone 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR802556	Prednisolone 5mg tablets (Actavis UK Ltd)
+^ESCTPR802587	Prednisolone 5mg tablets (The Boots Company Plc)
+^ESCTPR803515	Prednisolone 5mg tablets (Teva UK Ltd)
+^ESCTPR804848	Prednisolone 5mg soluble tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR807466	Prednisolone 1mg tablets (Teva UK Ltd)
+^ESCTPR807834	Prednisolone 5mg soluble tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR808080	Prednisolone 5mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR810120	Prednisolone 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR811264	Prednisolone 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR811626	Predfoam 20mg/application enema (Chemidex Pharma Ltd)
+^ESCTPR812417	Prednisolone 2.5mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTPR813136	Prednisolone 5mg soluble tablets (AMCo)
+^ESCTPR816665	Prednisolone 5mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR819258	Prednisolone 5mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTPR820710	Prednisolone 1mg tablets (Actavis UK Ltd)
+^ESCTPR820744	Prednisolone 1mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR820839	Prednisolone 5mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR821157	Prednisolone 2.5mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR821363	Prednisolone 1mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPR821761	Prednisolone 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR824090	Prednisolone 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR824321	Prednisolone 2.5mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR825467	Prednisolone 1mg tablets (The Boots Company Plc)
+^ESCTPR828485	Prednisolone 1mg tablets (Wockhardt UK Ltd)
+^ESCTPR829527	Prednisolone 2.5mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR830605	Prednisolone 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR834162	Prednisolone 5mg tablets (Wockhardt UK Ltd)
+^ESCTPR861735	Predenema 20mg/100ml long tube (Forest Laboratories UK Ltd)
+^ESCTPR861767	Predenema 20mg/100ml standard tube (Forest Laboratories UK Ltd)
+^ESCTPR861777	Predsol 20mg/100ml retention enema (Focus Pharmaceuticals Ltd)
+^ESCTPR868029	Prednisolone 2.5mg gastro-resistant tablets (Approved Prescription Services Ltd)
+^ESCTPR868033	Prednisolone 5mg gastro-resistant tablets (Approved Prescription Services Ltd)
+^ESCTPR872483	Prednisolone 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR872485	Prednisolone 50mg tablets (Approved Prescription Services Ltd)
+^ESCTPR873341	Prednisolone 25mg tablets (Zentiva)
+^ESCTPR908289	Prednisolone 2mg/5ml oral suspension (Special Order)
+^ESCTPR908492	Prednisolone 2mg/5ml oral suspension
+^ESCTPR917169	Prednisolone 40mg/100ml enema (Special Order)
+^ESCTPR917497	Prednisolone 40mg/100ml enema
+^ESCTPR923718	Prednisolone 1mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPR923720	Prednisolone 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPR929033	Prednisolone 1mg tablets (Arrow Generics Ltd)
+^ESCTPR929038	Prednisolone 5mg tablets (Arrow Generics Ltd)
+^ESCTPR958439	Prednisolone 1.5mg/5ml oral suspension (Special Order)
+^ESCTPR958449	Prednisolone 1.5mg/5ml oral solution (Special Order)
+^ESCTPR958463	Prednisolone 10mg/5ml oral suspension (Special Order)
+^ESCTPR958469	Prednisolone 10mg/5ml oral solution (Special Order)
+^ESCTPR958481	Prednisolone 15mg/5ml oral suspension (Special Order)
+^ESCTPR958493	Prednisolone 15mg/5ml oral solution (Special Order)
+^ESCTPR958499	Prednisolone 1mg/5ml oral suspension (Special Order)
+^ESCTPR958504	Prednisolone 1mg/5ml oral solution (Special Order)
+^ESCTPR958510	Prednisolone 2.5mg/5ml oral suspension (Special Order)
+^ESCTPR958522	Prednisolone 2.5mg/5ml oral solution (Special Order)
+^ESCTPR958531	Prednisolone 20mg/5ml oral suspension (Special Order)
+^ESCTPR958537	Prednisolone 20mg/5ml oral solution (Special Order)
+^ESCTPR958543	Prednisolone 25mg/5ml oral suspension (Special Order)
+^ESCTPR958549	Prednisolone 25mg/5ml oral solution (Special Order)
+^ESCTPR958937	Prednisolone 1.5mg/5ml oral solution
+^ESCTPR958939	Prednisolone 1.5mg/5ml oral suspension
+^ESCTPR958942	Prednisolone 10mg/5ml oral suspension
+^ESCTPR958946	Prednisolone 1mg/5ml oral solution
+^ESCTPR958948	Prednisolone 1mg/5ml oral suspension
+^ESCTPR958950	Prednisolone 2.5mg/5ml oral solution
+^ESCTPR958952	Prednisolone 2.5mg/5ml oral suspension
+^ESCTPR958954	Prednisolone 20mg/5ml oral solution
+^ESCTPR958956	Prednisolone 20mg/5ml oral suspension
+^ESCTPR958958	Prednisolone 25mg/5ml oral solution
+^ESCTPR958960	Prednisolone 25mg/5ml oral suspension
+^ESCTPR959377	Prednisolone 5mg/5ml oral suspension (Special Order)
+^ESCTPR959380	Prednisolone 5mg/5ml oral solution (Special Order)
+^ESCTPR959498	Prednisolone 5mg/5ml oral solution
+^ESCTPR960596	Prednisolone 1mg tablets (Dowelhurst Ltd)
+^ESCTPR960598	Prednisolone 5mg tablets (Dowelhurst Ltd)
+^ESCTPR960600	Prednisolone 2.5mg gastro-resistant tablets (Dowelhurst Ltd)
+^ESCTPR960602	Prednisolone 5mg gastro-resistant tablets (Dowelhurst Ltd)
+^ESCTPR969556	Prednisolone 1.67mg/5ml oral solution (Special Order)
+^ESCTPR969560	Prednisolone 1.67mg/5ml oral suspension (Special Order)
+^ESCTPR969861	Prednisolone 1.67mg/5ml oral solution
+^ESCTPR969862	Prednisolone 1.67mg/5ml oral suspension
+^ESCTPR975505	Prednisolone 1mg tablets (Boston Healthcare Ltd)
+^ESCTPR975509	Prednisolone 5mg tablets (Boston Healthcare Ltd)
+^ESCTPR979079	Prednisolone 5mg soluble tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR979111	Prednisolone 1mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR979113	Prednisolone 2.5mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+^ESCTPR979117	Prednisolone 5mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+^ESCTSO867748	Solu-Medrone 500mg powder and solvent for solution for injection vials (Pfizer Ltd)
+^ESCTSO867757	Solu-Medrone 1g powder and solvent for solution for injection vials (Pfizer Ltd)
+^ESCTSO867781	Solu-Cortef 100mg powder and solvent for solution for injection vials (Pfizer Ltd)
+^ESCTSO869616	Solu-Medrone 125mg powder and solvent for solution for injection vials (Pfizer Ltd)
+^ESCTSO869619	Solu-Medrone 2g powder and solvent for solution for injection vials (Pfizer Ltd)
+^ESCTSO869622	Solu-Medrone 40mg powder and solvent for solution for injection vials (Pfizer Ltd)
+^ESCTSO965718	Solu-Medrone 500mg powder and solvent for solution for injection vials (Waymade Healthcare Plc)
+^ESCTSO966612	Solu-Cortef 100mg powder for solution for injection vials (Pfizer Ltd)
+^ESCTTR1107957	Triamcinolone 0.1% oromucosal paste (Drug Tariff Special Order)
+^ESCTTR612609	Triamcinolone acetonide 80mg/2ml suspension for injection pre-filled syringes
+^ESCTTR612610	Triamcinolone acetonide 40mg/mL injection suspension 2mL prefilled syringe
+^ESCTTR612611	Triamcinolone acetonide 40mg/1ml suspension for injection pre-filled syringes
+^ESCTTR612612	Triamcinolone acetonide 40mg/mL injection suspension 1mL prefilled syringe
+^ESCTTR615278	Triamcinolone acetonide 10mg/1ml suspension for injection ampoules
+^ESCTTR615279	Triamcinolone acetonide 10mg/1mL intra-articular/intradermal injection
+^ESCTTR615280	Triamcinolone acetonide 10mg/mL injection suspension 1mL ampoule
+^ESCTTR615281	Triamcinolone acetonide 10mg/mL injection suspension 1mL ampule
+^ESCTTR615282	Triamcinolone acetonide 50mg/5ml suspension for injection vials
+^ESCTTR615283	Triamcinolone acetonide 50mg/5mL intra-articular/intradermal injection
+^ESCTTR615284	Triamcinolone acetonide 10mg/mL injection suspension 5mL vial
+^ESCTTR615875	Triamcinolone 0.1% oromucosal paste
+^ESCTTR615876	Triamcinolone acetonide 0.1% oral paste
+^ESCTTR706494	Triamcinolone acetonide 40mg/1ml suspension for injection vials
+^ESCTTR706495	Triamcinolone acetonide 40mg/mL injection suspension 1mL vial

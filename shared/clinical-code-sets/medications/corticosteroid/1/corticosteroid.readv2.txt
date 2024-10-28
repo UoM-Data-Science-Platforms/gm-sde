@@ -1,0 +1,88 @@
+ai21.	PREDENEMA standard tube enema 20mg/100mL
+ai22.	PREDENEMA long tube enema 20mg/100mL
+ai23.	PREDSOL 20mg/100mL enema
+ai25.	*PREDFOAM 20mg foam 25g
+ai26.	PREDNISOLONE 20mg/100mL enema
+ai28.	PREDNISOLONE 20mg/dose foam aerosol 20g
+ai29.	PREDNISOLONE 20mg/100mL long tube retention enema
+fb11.	FLORINEF 100micrograms tablets
+fb1z.	FLUDROCORTISONE ACET 100microgram tablets
+fe11.	BETNELAN 500micrograms tablets
+fe12.	*BETNESOL 500micrograms tabs
+fe13.	BETNESOL 4mg/1mL injection
+fe1y.	BETAMETHASONE 500microgram tablets
+fe1z.	BETAMETHASONE 4mg/1mL injection
+fe22.	*CORTISONE 25mg tablets
+fe31.	DEXAMETHASONE 500micrograms tablets
+fe32.	DEXAMETHASONE 2mg tablets
+fe33.	DECADRON 500micrograms tablets
+fe3A.	DEXSOL 2mg/5mL oral solution
+fe3B.	DEXAMETHASONE 10mg/5mL oral solution
+fe3C.	MARTAPAN 2mg/5mL oral solution
+fe3s.	DEXAMETHASONE 2mg/5mL sugar free solution
+fe41.	HYDROCORTISONE 10mg tablets
+fe42.	HYDROCORTISONE 20mg tablets
+fe44.	*HYDROCORTONE 10mg tablets
+fe45.	*HYDROCORTONE 20mg tablets
+fe46.	HYDROCORTISONE 100mg injection
+fe4b.	SOLU-CORTEF+WATER 100mg injection
+fe4e.	PLENADREN 5mg m/r tablets
+fe4f.	HYDROCORTISONE 5mg m/r tablets
+fe4g.	PLENADREN 20mg m/r tablets
+fe4h.	HYDROCORTISONE 20mg m/r tablets
+fe51.	MEDRONE 2mg tablets
+fe52.	MEDRONE 4mg tablets
+fe53.	MEDRONE 16mg tablets
+fe56.	SOLU-MEDRONE 40mg injection powder+diluent
+fe57.	SOLU-MEDRONE 125mg injection powder+diluent
+fe58.	SOLU-MEDRONE 500mg injection powder+diluent
+fe59.	SOLU-MEDRONE 1g injection powder+diluent
+fe5a.	SOLU-MEDRONE 2g injection
+fe5f.	MEDRONE 100mg tablets
+fe5m.	METHYLPREDNISOLONE 100mg tablets
+fe5n.	METHYLPREDNISOLONE 2mg tablets
+fe5o.	METHYLPREDNISOLONE 4mg tablets
+fe5p.	METHYLPREDNISOLONE 16mg tablets
+fe5s.	METHYLPREDNISOLONE 40mg injection powder+diluent
+fe5t.	METHYLPREDNISOLONE 125mg injection powder+diluent
+fe5u.	METHYLPREDNISOLONE 500mg injection powder+diluent
+fe5v.	METHYLPREDNISOLONE 1g injection powder+diluent
+fe5w.	METHYLPREDNISOLONE 2g injection powder+diluent
+fe61.	PREDNISOLONE 1mg tablets
+fe62.	PREDNISOLONE 5mg tablets
+fe65.	DELTACORTRIL ENTERIC 2.5mg tablets
+fe66.	DELTACORTRIL ENTERIC 5mg tablets
+fe6b.	DELTASTAB 25mg/1mL injection
+fe6h.	PREDNISOLONE 2.5mg e/c tablets
+fe6i.	PREDNISOLONE 5mg e/c tablets
+fe6j.	PREDNISOLONE 5mg soluble tablets
+fe6l.	DILACORT 5mg gastro-resistant tablets
+fe6m.	DILACORT 2.5mg gastro-resistant tablets
+fe6n.	PEVANTI 2.5mg tablets
+fe6o.	PEVANTI 25mg tablets
+fe6p.	PEVANTI 5mg tablets
+fe6q.	PEVANTI 10mg tablets
+fe6r.	PEVANTI 20mg tablets
+fe6s.	PREDNISOLONE 20mg tablets
+fe6t.	PREDNISOLONE 10mg tablets
+fe6v.	PREDNISOLONE 2.5mg tablets
+fe6z.	PREDNISOLONE 25mg tablets
+fe77.	LODOTRA 2mg m/r tablets
+fe78.	LODOTRA 5mg m/r tablets
+fe79.	LODOTRA 1mg m/r tablets
+fe7x.	PREDNISONE 5mg m/r tablets
+fe7y.	PREDNISONE 2mg m/r tablets
+fe7z.	PREDNISONE 1mg m/r tablets
+fe84.	*KENALOG 40mg/1mL syringe
+fe88.	KENALOG 80mg/2mL i-m prefilled syringe
+fe8v.	TRIAMCINOLONE ACETONIDE 80mg/2mL i-m prefilled syringe
+fe8w.	TRIAMCINOLONE ACETONIDE 40mg/1mL i-m prefilled syringe
+fe91.	DEFLAZACORT 6mg tablets
+fe92.	CALCORT 6mg tablets
+fe93.	*DEFLAZACORT 30mg tablets
+fe94.	*CALCORT 30mg tablets
+fe95.	*DEFLAZACORT 1mg tablets
+fe96.	*CALCORT 1mg tablets
+j421.	HYDROCORTISONE 25mg/1mL injection
+j423.	HYDROCORTISTAB 25mg/1mL injection
+j44z.	PREDNISOLONE ACETATE 25mg/1mL injection

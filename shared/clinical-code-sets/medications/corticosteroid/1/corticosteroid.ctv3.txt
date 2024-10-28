@@ -1,0 +1,90 @@
+ai21.	Predenema 20mg/100mL standard tube retention enema
+ai22.	Predenema 20mg/100mL long tube retention enema
+ai23.	Predsol 20mg/100mL retention enema
+ai25.	Predfoam 20mg foam 25g
+ai26.	Prednisolone 20mg/100mL enema
+ai28.	Prednisolone 20mg rectal foam 20g
+ai29.	Prednisolone 20mg/100mL long tube retention enema
+fb11.	Florinef 100mcg tablet
+fb1z.	Fludrocortisone acetate 100micrograms tablet
+fe11.	Betnelan 500mcg tablet
+fe12.	Betnesol 500mcg soluble tablet
+fe13.	Betnesol 4mg/1mL injection
+fe1y.	Betamethasone 500micrograms tablet
+fe1z.	Betamethasone 4mg/1mL injection
+fe22.	Cortisone acetate 25mg tablet
+fe31.	Dexamethasone 500micrograms tablet
+fe32.	Dexamethasone 2mg tablet
+fe33.	Decadron 500micrograms tablet
+fe3A.	Dexsol 2mg/5mL oral solution
+fe3B.	DEXAMETHASONE 10mg/5mL oral solution
+fe3C.	MARTAPAN 2mg/5mL oral solution
+fe3s.	Dexamethasone 2mg/5mL s/f oral solution
+fe41.	Hydrocortisone 10mg tablet
+fe42.	Hydrocortisone 20mg tablet
+fe44.	Hydrocortone 10mg tablet
+fe45.	Hydrocortone 20mg tablet
+fe46.	Hydrocortisone 100mg injection (pdr for recon)
+fe4b.	Solu-Cortef 100mg injection (pdr for recon)+diluent
+fe4e.	PLENADREN 5mg m/r tablets
+fe4f.	HYDROCORTISONE 5mg m/r tablets
+fe4g.	PLENADREN 20mg m/r tablets
+fe4h.	HYDROCORTISONE 20mg m/r tablets
+fe51.	Medrone 2mg tablet
+fe52.	Medrone 4mg tablet
+fe53.	Medrone 16mg tablet
+fe56.	Solu-Medrone 40mg injection (pdr for recon)+diluent
+fe57.	Solu-Medrone 125mg injection (pdr for recon)+diluent
+fe58.	Solu-Medrone 500mg injection (pdr for recon)+diluent
+fe59.	Solu-Medrone 1g injection (pdr for recon)+diluent
+fe5a.	Solu-Medrone 2g injection (pdr for recon)+diluent
+fe5f.	Medrone 100mg tablet
+fe5m.	Methylprednisolone 100mg tablet
+fe5n.	Methylprednisolone 2mg tablet
+fe5o.	Methylprednisolone 4mg tablet
+fe5p.	Methylprednisolone 16mg tablet
+fe5s.	Methylprednisolone 40mg injection (pdr for recon)+diluent
+fe5t.	Methylprednisolone 125mg injection (pdr for recon)+diluent
+fe5u.	Methylprednisolone 500mg injection (pdr for recon)+diluent
+fe5v.	Methylprednisolone 1g injection (pdr for recon)+diluent
+fe5w.	Methylprednisolone 2g injection (pdr for recon)+diluent
+fe61.	Prednisolone 1mg tablet
+fe62.	Prednisolone 5mg tablet
+fe65.	Deltacortril Enteric 2.5mg e/c tablet
+fe66.	Deltacortril Enteric 5mg e/c tablet
+fe6b.	Deltastab 25mg/1mL injection
+fe6h.	Prednisolone 2.5mg e/c tablet
+fe6i.	Prednisolone 5mg e/c tablet
+fe6j.	Prednisolone 5mg soluble tablet
+fe6l.	DILACORT 5mg gastro-resistant tablets
+fe6m.	DILACORT 2.5mg gastro-resistant tablets
+fe6n.	PEVANTI 2.5mg tablets
+fe6o.	PEVANTI 25mg tablets
+fe6p.	PEVANTI 5mg tablets
+fe6q.	PEVANTI 10mg tablets
+fe6r.	PEVANTI 20mg tablets
+fe6s.	PREDNISOLONE 20mg tablets
+fe6t.	PREDNISOLONE 10mg tablets
+fe6v.	Prednisolone 2.5mg tablet
+fe6z.	Prednisolone 25mg tablet
+fe77.	LODOTRA 2mg m/r tablets
+fe78.	LODOTRA 5mg m/r tablets
+fe79.	LODOTRA 1mg m/r tablets
+fe7x.	PREDNISONE 5mg m/r tablets
+fe7y.	PREDNISONE 2mg m/r tablets
+fe7z.	PREDNISONE 1mg m/r tablets
+fe84.	Kenalog 40mg/1mL prefilled syringe
+fe88.	Kenalog 80mg/2mL prefilled syringe
+fe8v.	Triamcinolone acetonide 80mg/2mL prefilled syringe
+fe8w.	Triamcinolone acetonide 40mg/1mL i-m prefilled syringe
+fe91.	Deflazacort 6mg tablet
+fe92.	Calcort 6mg tablet
+fe93.	Deflazacort 30mg tablet
+fe94.	Calcort 30mg tablet
+fe95.	Deflazacort 1mg tablet
+fe96.	Calcort 1mg tablet
+j421.	Hydrocortisone acetate 25mg/1mL injection
+j423.	Hydrocortistab 25mg/1mL injection
+j44z.	Prednisolone acetate 25mg/1mL injection
+x00MF	Colifoam 10% foam
+x027B	Adcortyl in Orabase oral paste
