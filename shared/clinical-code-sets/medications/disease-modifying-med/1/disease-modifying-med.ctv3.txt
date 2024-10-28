@@ -1,0 +1,81 @@
+aa61.	Salazopyrin 500mg tablet
+aa65.	Salazopyrin 250mg/5mL oral suspension
+aa6t.	SULFASALAZINE 250mg/5mL sugar free suspension
+aa6u.	Sulphasalazine 250mg/5mL oral suspension
+aa6v.	Sulphasalazine 500mg tablet
+h341.	Methotrexate 2.5mg tablet
+h342.	Methotrexate 10mg tablet
+h344.	Methotrexate 5mg/2mL injection
+h346.	Methotrexate 50mg/2mL injection
+h348.	Methotrexate 200mg/8mL injection
+h349.	Methotrexate 500mg/20mL injection
+h34A.	METHOTREXATE 15mg/1.5mL solution for injection prefilled syringe
+h34B.	METHOTREXATE 20mg/2mL solution for injection prefilled syringe
+h34C.	METHOTREXATE 25mg/2.5mL solution for injection prefilled syringe
+h34D.	METOJECT 7.5mg/0.75mL solution for injection prefilled syringe
+h34E.	METOJECT 10mg/1mL solution for injection prefilled syringe
+h34F.	METOJECT 15mg/1.5mL solution for injection prefilled syringe
+h34G.	METOJECT 20mg/2mL solution for injection prefilled syringe
+h34H.	METOJECT 25mg/2.5mL solution for injection prefilled syringe
+h34L.	METOJECT 7.5mg/0.15mL solution for injection pfs
+h34M.	METHOTREXATE 7.5mg/0.15mL solution for injection pfs
+h34N.	METOJECT 10mg/0.2mL solution for injection prefilled syringe
+h34O.	METHOTREXATE 10mg/0.2mL solution for injection pfs
+h34P.	METOJECT 15mg/0.3mL solution for injection prefilled syringe
+h34Q.	METHOTREXATE 15mg/0.3mL solution for injection pfs
+h34R.	METOJECT 20mg/0.4mL solution for injection prefilled syringe
+h34S.	METHOTREXATE 20mg/0.4mL solution for injection pfs
+h34T.	METOJECT 25mg/0.5mL solution for injection prefilled syringe
+h34U.	METHOTREXATE 25mg/0.5mL solution for injection pfs
+h34V.	METOJECT 30mg/0.6mL solution for injection prefilled syringe
+h34W.	METHOTREXATE 30mg/0.6mL solution for injection pfs
+h34a.	Methotrexate 1g/40mL injection
+h34p.	Maxtrex 2.5mg tablet
+h34q.	Maxtrex 10mg tablet
+h34w.	Methotrexate 1g/10mL injection
+h34x.	Methotrexate 5g/50mL injection
+h34y.	METHOTREXATE 7.5mg/0.75mL solution for injection prefilled syringe
+h34z.	METHOTREXATE 10mg/1mL solution for injection prefilled syringe
+h3G4.	METHOTREXATE 20mg/1mL solution for injection p/f syringe
+h3G5.	METHOTREXATE 25mg/1.25mL solution for injection p/f syringe
+h3G6.	METHOTREXATE 30mg/1.5mL solution for injection p/f syringe
+h3G7.	METOJECT 12.5mg/0.25mL soln for injection prefilled syringe
+h3G8.	METHOTREXATE 12.5mg/0.25mL solution for injection pfs
+h3G9.	METOJECT 17.5mg/0.35mL soln for injection prefilled syringe
+h3GA.	METHOTREXATE 17.5mg/0.35mL solution for injection pfs
+h3GB.	METOJECT 22.5mg/0.45mL soln for injection prefilled syringe
+h3GC.	METHOTREXATE 22.5mg/0.45mL solution for injection pfs
+h3GD.	METOJECT 27.5mg/0.55mL soln for injection prefilled syringe
+h3GE.	METHOTREXATE 27.5mg/0.55mL solution for injection pfs
+h3GF.	METOJECT PEN 7.5mg/0.15mL soln for injection prefilled pen
+h3GG.	METHOTREXATE 7.5mg/0.15mL soln for injection prefilled pen
+h3GH.	METOJECT PEN 10mg/0.2mL solution for injection prefilled pen
+h3GI.	METHOTREXATE 10mg/0.2mL solution for injection prefilled pen
+h3GJ.	METOJECT PEN 12.5mg/0.25mL soln for injection prefilled pen
+h3GK.	METHOTREXATE 12.5mg/0.25mL soln for injection prefilled pen
+h3GL.	METOJECT PEN 15mg/0.3mL solution for injection prefilled pen
+h3GM.	METHOTREXATE 15mg/0.3mL solution for injection prefilled pen
+h3GN.	METOJECT PEN 17.5mg/0.35mL soln for injection prefilled pen
+h3GO.	METHOTREXATE 17.5mg/0.35mL soln for injection prefilled pen
+h3GP.	METOJECT PEN 20mg/0.4mL solution for injection prefilled pen
+h3GQ.	METHOTREXATE 20mg/0.4mL solution for injection prefilled pen
+h3GR.	METOJECT PEN 22.5mg/0.45mL soln for injection prefilled pen
+h3GS.	METHOTREXATE 22.5mg/0.45mL soln for injection prefilled pen
+h3GT.	METOJECT PEN 25mg/0.5mL solution for injection prefilled pen
+h3GU.	METHOTREXATE 25mg/0.5mL solution for injection prefilled pen
+h3GV.	METOJECT PEN 27.5mg/0.55mL soln for injection prefilled pen
+h3GW.	METHOTREXATE 27.5mg/0.55mL soln for injection prefilled pen
+h3GX.	METOJECT PEN 30mg/0.6mL solution for injection prefilled pen
+h3GY.	METHOTREXATE 30mg/0.6mL solution for injection prefilled pen
+j541.	Plaquenil 200mg tablet
+j542.	QUINORIC 200mg tablets
+j54z.	Hydroxychloroquine sulphate 200mg tablet
+j551.	Salazopyrin EN 500mg e/c tablet
+j55z.	Sulphasalazine 500mg e/c tablet
+j591.	Arava 10mg tablet
+j592.	Arava 20mg tablet
+j593.	Arava 100mg tablet
+j59w.	LEFLUNOMIDE 15mg tablets
+j59x.	Leflunomide 10mg tablet
+j59y.	Leflunomide 20mg tablet
+j59z.	Leflunomide 100mg tablet

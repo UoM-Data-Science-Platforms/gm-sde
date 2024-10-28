@@ -1,0 +1,827 @@
+ARTA1670NEMIS	Arava  Tablets  10 mg
+ARTA1671NEMIS	Arava  Tablets  20 mg
+ARTA1672NEMIS	Arava  Tablets  100 mg
+EBSO52773NEMIS	Ebetrex  Solution for injection  10 mg/1 ml pre-filled syringe
+EBSO52774NEMIS	Ebetrex  Solution for injection  15 mg/1.5 ml pre-filled syringe
+EBSO52775NEMIS	Ebetrex  Solution for injection  7.5 mg/0.75 ml pre-filled syringe
+EBSO52780NEMIS	Ebetrex  Solution for injection  20 mg/1 ml pre-filled syringe
+EBSO52781NEMIS	Ebetrex  Solution for injection  25 mg/1.25 ml pre-filled syringe
+EBSO52782NEMIS	Ebetrex  Solution for injection  30 mg/1.5 ml pre-filled syringe
+HYOR34435NEMIS	Hydroxychloroquine  Oral suspension  400 mg/5 ml
+HYOR46474NEMIS	Hydroxychloroquine  Oral solution  200 mg/5 ml
+HYOR46475NEMIS	Hydroxychloroquine  Oral suspension  200 mg/5 ml
+HYOR77631NEMIS	Hydroxychloroquine  Oral suspension  100 mg/5 ml
+HYTA137829NEMIS	Hydroxychloroquine Sulfate  Tablets  300 mg
+HYTA5012	Hydroxychloroquine Sulfate  Tablets  200 mg
+JYOR124971NEMIS	Jylamvo  Oral solution  2 mg/ml
+LETA1666NEMIS	Leflunomide  Tablets  10 mg
+LETA1668NEMIS	Leflunomide  Tablets  20 mg
+LETA1669NEMIS	Leflunomide  Tablets  100 mg
+LETA89217NEMIS	Leflunomide  Tablets  15 mg
+MATA3882	Maxtrex  Tablets  10 mg
+MATA3883	Maxtrex  Tablets  2.5 mg
+MEIN109591NEMIS	Methotrexate  Injection  7.5 mg/0.3 ml (25 mg/ml), pre-filled syringe
+MEIN109592NEMIS	Methotrexate  Injection  10 mg/0.4 ml (25 mg/ml), pre-filled syringe
+MEIN109593NEMIS	Methotrexate  Injection  22.5 mg/0.9 ml (25 mg/ml), pre-filled syringe
+MEIN122130NEMIS	Methotrexate  Injection  10 mg/0.4 ml (25 mg/ml), pre-filled device  
+MEIN122132NEMIS	Methotrexate  Injection  12.5 mg/0.5 ml (25 mg/ml), pre-filled device  
+MEIN122134NEMIS	Methotrexate  Injection  15 mg/0.6 ml (25 mg/ml), pre-filled device  
+MEIN122135NEMIS	Methotrexate  Injection  17.5 mg/0.7 ml (25 mg/ml), pre-filled device  
+MEIN122136NEMIS	Methotrexate  Injection  20 mg/0.8 ml (25 mg/ml), pre-filled device  
+MEIN122137NEMIS	Methotrexate  Injection  22.5 mg/0.9 ml (25 mg/ml), pre-filled device  
+MEIN122138NEMIS	Methotrexate  Injection  25 mg/ml, 1 ml pre-filled device
+MEIN122139NEMIS	Methotrexate  Injection  7.5 mg/0.3 ml (25 mg/ml), pre-filled device  
+MEIN124627NEMIS	Methofill  Injection  10 mg/0.2 ml (50 mg/ml), pre-filled injector
+MEIN124628NEMIS	Methofill  Injection  12.5 mg/0.25 ml (50 mg/ml), pre-filled injector
+MEIN124629NEMIS	Methofill  Injection  15 mg/0.3 ml (50 mg/ml), pre-filled injector
+MEIN124630NEMIS	Methofill  Injection  17.5 mg/0.35 ml (50 mg/ml), pre-filled injector
+MEIN124631NEMIS	Methofill  Injection  20 mg/0.4 ml (50 mg/ml), pre-filled injector
+MEIN124632NEMIS	Methofill  Injection  22.5 mg/0.45 ml (50 mg/ml), pre-filled injector
+MEIN124633NEMIS	Methofill  Injection  25 mg/0.5 ml (50 mg/ml), pre-filled injector
+MEIN124634NEMIS	Methofill  Injection  27.5 mg/0.55 ml (50 mg/ml), pre-filled injector
+MEIN124635NEMIS	Methofill  Injection  30 mg/0.6 ml (50 mg/ml), pre-filled injector
+MEIN124636NEMIS	Methofill  Injection  7.5 mg/0.15 ml (50 mg/ml), pre-filled injector
+MEIN133553NEMIS	Methofill  Injection  7.5 mg/0.15 ml (50 mg/ml), pre-filled syringe
+MEIN133554NEMIS	Methofill  Injection  10 mg/0.2 ml (50 mg/ml), pre-filled syringe
+MEIN133555NEMIS	Methofill  Injection  12.5 mg/0.25 ml (50 mg/ml), pre-filled syringe
+MEIN133556NEMIS	Methofill  Injection  15 mg/0.3 ml (50 mg/ml), pre-filled syringe
+MEIN133557NEMIS	Methofill  Injection  17.5 mg/0.35 ml (50 mg/ml), pre-filled syringe
+MEIN133558NEMIS	Methofill  Injection  20 mg/0.4 ml (50 mg/ml), pre-filled syringe
+MEIN133559NEMIS	Methofill  Injection  22.5 mg/0.45 ml (50 mg/ml), pre-filled syringe
+MEIN133560NEMIS	Methofill  Injection  25 mg/0.5 ml (50 mg/ml), pre-filled syringe
+MEIN133561NEMIS	Methofill  Injection  27.5 mg/0.55 ml (50 mg/ml), pre-filled syringe
+MEIN133562NEMIS	Methofill  Injection  30 mg/0.6 ml (50 mg/ml), pre-filled syringe
+MEIN18085EMIS	Methotrexate  Injection  1 gram/40 ml vial
+MEIN18087EMIS	Methotrexate  Injection  200 mg/8 ml vial
+MEIN18088EMIS	Methotrexate  Injection  5 grams/200 ml vial
+MEIN18089EMIS	Methotrexate  Injection  5 mg/2 ml vial
+MEIN18090EMIS	Methotrexate  Injection  50 mg/2 ml vial
+MEIN18091EMIS	Methotrexate  Injection  500 mg/20 ml vial
+MEIN21798NEMIS	Methotrexate  Injection (pre-filled syringe)  7.5 mg in 0.75 ml (10 mg/ml)
+MEIN21799NEMIS	Methotrexate  Injection (pre-filled syringe)  10 mg in 1 ml (10 mg/ml)
+MEIN21800NEMIS	Methotrexate  Injection (pre-filled syringe)  15 mg in 1.5 ml (10 mg/ml)
+MEIN21801NEMIS	Methotrexate  Injection (pre-filled syringe)  10 mg/ml, 20 mg in 2 ml syringe
+MEIN21802NEMIS	Methotrexate  Injection (pre-filled syringe)  10 mg/ml, 25 mg in 2.5 ml syringe
+MEIN21804NEMIS	Metoject  Injection (pre-filled syringe)  10 mg/ml, 7.5 mg in 0.75 ml syringe
+MEIN21805NEMIS	Metoject  Injection (pre-filled syringe)  10 mg/ml, 10 mg in 1 ml syringe
+MEIN21806NEMIS	Metoject  Injection (pre-filled syringe)  10 mg/ml, 15 mg in 1.5 ml syringe
+MEIN21807NEMIS	Metoject  Injection (pre-filled syringe)  10 mg/ml, 20 mg in 2 ml syringe
+MEIN21808NEMIS	Metoject  Injection (pre-filled syringe)  10 mg/ml, 25 mg in 2.5 ml syringe
+MEIN22304NEMIS	Methotrexate  Injection  15 mg/0.6 ml (25 mg/ml), pre-filled syringe
+MEIN23840NEMIS	Methotrexate  Injection  12.5 mg/0.5 ml (25 mg/ml), pre-filled syringe
+MEIN3551NEMIS	Methotrexate  Injection  100 mg/ml, 10 ml vial
+MEIN3552NEMIS	Methotrexate  Injection  100 mg/ml, 50 ml vial
+MEIN35887MGEMIS	Methotrexate  Injection  1 gram/40 ml vial (A.A.H. Pharm)
+MEIN35888MGEMIS	Methotrexate  Injection  1 gram/40 ml vial (Unichem)
+MEIN35889MGEMIS	Methotrexate  Injection  1 gram/40 ml vial (Goldshield)
+MEIN35890MGEMIS	Methotrexate  Injection  200 mg/8 ml vial (A.A.H. Pharm)
+MEIN35891MGEMIS	Methotrexate  Injection  200 mg/8 ml vial (Goldshield)
+MEIN35892MGEMIS	Methotrexate  Injection  200 mg/8 ml vial (Unichem)
+MEIN35893MGEMIS	Methotrexate  Injection  500 mg/20 ml vial (A.A.H. Pharm)
+MEIN35894MGEMIS	Methotrexate  Injection  500 mg/20 ml vial (Mayne Pharma)
+MEIN35895MGEMIS	Methotrexate  Injection  500 mg/20 ml vial (Unichem)
+MEIN35896MGEMIS	Methotrexate  Injection  500 mg/20 ml vial (Goldshield)
+MEIN36532NEMIS	Methotrexate  Injection  7.5 mg/0.15 ml (50 mg/ml), pre-filled syringe
+MEIN36534NEMIS	Methotrexate  Injection  10 mg/0.2 ml (50 mg/ml), pre-filled syringe
+MEIN36535NEMIS	Methotrexate  Injection  15 mg/0.3 ml (50 mg/ml), pre-filled syringe
+MEIN36536NEMIS	Methotrexate  Injection  20 mg/0.4 ml (50 mg/ml), pre-filled syringe
+MEIN36538NEMIS	Methotrexate  Injection  25 mg/0.5 ml (50 mg/ml), pre-filled syringe
+MEIN36542NEMIS	Metoject  Injection (pre-filled syringe)  7.5 mg in 0.15 ml (50 mg/ml)
+MEIN36543NEMIS	Metoject  Injection (pre-filled syringe)  10 mg in 0.2 ml (50 mg/ml)
+MEIN36546NEMIS	Metoject  Injection (pre-filled syringe)  15 mg in 0.3 ml (50 mg/ml)
+MEIN36547NEMIS	Metoject  Injection (pre-filled syringe)  20 mg in 0.4 ml (50 mg/ml)
+MEIN36548NEMIS	Metoject  Injection (pre-filled syringe)  25 mg in 0.5 ml (50 mg/ml)
+MEIN47263NEMIS	Methotrexate  Injection  30 mg/0.6 ml (50 mg/ml), pre-filled syringe
+MEIN47264NEMIS	Metoject  Injection (pre-filled syringe)  30 mg in 0.6 ml (50 mg/ml)
+MEIN47679NEMIS	Methotrexate  Injection  17.5 mg/0.7 ml (25 mg/ml), pre-filled syringe
+MEIN51000NEMIS	Metoject  Injection (pre-filled syringe)  12.5 mg in 0.25 ml (50 mg/ml)
+MEIN51001NEMIS	Metoject  Injection (pre-filled syringe)  17.5 mg in 0.35 ml (50 mg/ml)
+MEIN51002NEMIS	Metoject  Injection (pre-filled syringe)  22.5 mg in 0.45 ml (50 mg/ml)
+MEIN51003NEMIS	Metoject  Injection (pre-filled syringe)  27.5 mg in 0.55 ml (50 mg/ml)
+MEIN51051NEMIS	Methotrexate  Injection  12.5 mg/0.25 ml (50 mg/ml), pre-filled syringe
+MEIN51052NEMIS	Methotrexate  Injection  17.5 mg/0.35 ml (50 mg/ml), pre-filled syringe
+MEIN51053NEMIS	Methotrexate  Injection  22.5 mg/0.45 ml (50 mg/ml), pre-filled syringe
+MEIN51054NEMIS	Methotrexate  Injection  27.5 mg/0.55 ml (50 mg/ml), pre-filled syringe
+MEIN52777NEMIS	Methotrexate  Injection (pre-filled syringe)  20 mg in 1 ml (20 mg/ml)
+MEIN52778NEMIS	Methotrexate  Injection (pre-filled syringe)  25 mg in 1.25 ml (20 mg/ml)
+MEIN52779NEMIS	Methotrexate  Injection (pre-filled syringe)  30 mg in 1.5 ml (20 mg/ml)
+MEIN76695NEMIS	Methotrexate  Injection  20 mg/0.8 ml (25 mg/ml), pre-filled syringe
+MEIN90723NEMIS	Methotrexate  Injection  7.5 mg/0.15 ml (50 mg/ml), pre-filled device
+MEIN90724NEMIS	Methotrexate  Injection  10 mg/0.2 ml (50 mg/ml), pre-filled device 
+MEIN90725NEMIS	Methotrexate  Injection  12.5 mg/0.25 ml (50 mg/ml), pre-filled device
+MEIN90726NEMIS	Methotrexate  Injection  15 mg/0.3 ml (50 mg/ml), pre-filled device
+MEIN90727NEMIS	Methotrexate  Injection  17.5 mg/0.35 ml (50 mg/ml), pre-filled device
+MEIN90728NEMIS	Methotrexate  Injection  20 mg/0.4 ml (50 mg/ml), pre-filled device
+MEIN90729NEMIS	Methotrexate  Injection  22.5 mg/0.45 ml (50 mg/ml), pre-filled device
+MEIN90730NEMIS	Methotrexate  Injection  25 mg/0.5 ml (50 mg/ml), pre-filled device
+MEIN90731NEMIS	Methotrexate  Injection  27.5 mg/0.55 ml (50 mg/ml), pre-filled device
+MEIN90732NEMIS	Methotrexate  Injection  30 mg/0.6 ml (50 mg/ml), pre-filled device
+MEIN90734NEMIS	Metoject Pen  Injection  7.5 mg/0.15 ml (50 mg/ml), pre-filled pen
+MEIN90735NEMIS	Metoject Pen  Injection  10 mg/0.2 ml (50 mg/ml), pre-filled pen
+MEIN90736NEMIS	Metoject Pen  Injection  12.5 mg/0.25 ml (50 mg/ml), pre-filled pen
+MEIN90737NEMIS	Metoject Pen  Injection  15 mg/0.3 ml (50 mg/ml), pre-filled pen
+MEIN90738NEMIS	Metoject Pen  Injection  17.5 mg/0.35 ml (50 mg/ml), pre-filled pen
+MEIN90739NEMIS	Metoject Pen  Injection  20 mg/0.4 ml (50 mg/ml), pre-filled pen
+MEIN90740NEMIS	Metoject Pen  Injection  22.5 mg/0.45 ml (50 mg/ml), pre-filled pen
+MEIN90741NEMIS	Metoject Pen  Injection  25 mg/0.5 ml (50 mg/ml), pre-filled pen
+MEIN90742NEMIS	Metoject Pen  Injection  27.5 mg/0.55 ml (50 mg/ml), pre-filled pen
+MEIN90743NEMIS	Metoject Pen  Injection  30 mg/0.6 ml (50 mg/ml), pre-filled pen
+MEOR105365NEMIS	Methotrexate  Oral Solution, Sugar Free  10 mg/5 ml (2 mg/ml)
+MEOR12018NEMIS	Methotrexate  Oral suspension  2.5 mg/5 ml
+MEOR14798NEMIS	Methotrexate  Oral solution  15 mg/5 ml
+MEOR15494NEMIS	Methotrexate  Oral solution  10 mg/5 ml
+MEOR21340NEMIS	Methotrexate  Oral suspension  10 mg/5 ml
+MEOR21341NEMIS	Methotrexate  Oral suspension  15 mg/5 ml
+MEOR21783NEMIS	Methotrexate  Oral suspension  7.5 mg/5 ml
+MEPR21327NEMIS	Methotrexate  Injection  25 mg/ml, 1ml pre-filled syringe
+META36032MGEMIS	Methotrexate  Tablets  2.5 mg (Kent Pharm)
+META36033MGEMIS	Methotrexate  Tablets  2.5 mg (A.A.H. Pharm)
+META36034MGEMIS	Methotrexate  Tablets  2.5 mg (Mayne Pharma)
+META36035MGEMIS	Methotrexate  Tablets  2.5 mg (Wyeth)
+META36036MGEMIS	Methotrexate  Tablets  2.5 mg (Unichem)
+META36041MGEMIS	Methotrexate  Tablets  10 mg (Unichem)
+META36042MGEMIS	Methotrexate  Tablets  10 mg (Mayne Pharma)
+META36043MGEMIS	Methotrexate  Tablets  10 mg (A.A.H. Pharm)
+META3900	Methotrexate  Tablets  2.5 mg
+META5136	Methotrexate  Tablets  10 mg
+NOIN122140NEMIS	Nordimet  Injection  10 mg/0.4 ml (25 mg/ml), pre-filled pen  
+NOIN122141NEMIS	Nordimet  Injection  12.5 mg/0.5 ml (25 mg/ml), pre-filled pen  
+NOIN122142NEMIS	Nordimet  Injection  15 mg/0.6 ml (25 mg/ml), pre-filled pen  
+NOIN122145NEMIS	Nordimet  Injection  17.5 mg/0.7 ml (25 mg/ml), pre-filled pen  
+NOIN122146NEMIS	Nordimet  Injection  20 mg/0.8 ml (25 mg/ml), pre-filled pen  
+NOIN122147NEMIS	Nordimet  Injection  22.5 mg/0.9 ml (25 mg/ml), pre-filled pen  
+NOIN122148NEMIS	Nordimet  Injection  25 mg/ml, 1 ml pre-filled pen  
+NOIN122149NEMIS	Nordimet  Injection  7.5 mg/0.3 ml (25 mg/ml), pre-filled pen  
+PLTA2289	Plaquenil  Tablets  200 mg
+QUTA40431NEMIS	Quinoric  Tablets  200 mg
+SAEN2477	Salazopyrin  En-tablets  500 mg
+SASU10642BRIDL	Salazopyrin  Suspension  250 mg/5 ml
+SATA2478	Salazopyrin  Tablets  500 mg
+SUE/17828NEMIS	Sulfasalazine  E/c tablets  500 mg
+SUE/38259MGEMIS	Sulfasalazine  E/c tablets  500 mg (A.A.H. Pharm)
+SUE/38260MGEMIS	Sulfasalazine  E/c tablets  500 mg (Kent Pharm)
+SUE/38261MGEMIS	Sulfasalazine  E/c tablets  500 mg (Alpharma)
+SUE/38262MGEMIS	Sulfasalazine  E/c tablets  500 mg (Unichem)
+SUE/38263MGEMIS	Sulfasalazine  E/c tablets  500 mg (Generics (UK))
+SUE/896NEMIS	Sulphasalazine  E/c tablets  500 mg
+SUEN2731	Sulphasalazine  En-tablets  500 mg
+SUGA78926NEMIS	Sulazine Ec  Gastro-resistant Tablets  500 mg
+SUOR45683NEMIS	Sulfasalazine  Oral Suspension (Sugar-Free)  250 mg/5 ml
+SUSU10709BRIDL	Sulphasalazine  Suspension  250mg/5 ml
+SUSU17835NEMIS	Sulfasalazine  Suspension  250 mg/5 ml
+SUTA17836NEMIS	Sulfasalazine  Tablets  500 mg
+SUTA2732	Sulphasalazine  Tablets  500 mg
+SUTA38264MGEMIS	Sulfasalazine  Tablets  500 mg (A.A.H. Pharm)
+SUTA38265MGEMIS	Sulfasalazine  Tablets  500 mg (Generics (UK))
+SUTA38266MGEMIS	Sulfasalazine  Tablets  500 mg (Kent Pharm)
+SUTA38267MGEMIS	Sulfasalazine  Tablets  500 mg (Alpharma)
+SUTA38268MGEMIS	Sulfasalazine  Tablets  500 mg (Unichem)
+SUTA38269MGEMIS	Sulfasalazine  Tablets  500 mg (Ivax Pharmaceuticals)
+ZLIN109595NEMIS	Zlatal  Injection  7.5 mg/0.3 ml (25 mg/ml), pre-filled syringe
+ZLIN109596NEMIS	Zlatal  Injection  10 mg/0.4 ml (25 mg/ml), pre-filled syringe
+ZLIN109597NEMIS	Zlatal  Injection  12.5 mg/0.5 ml (25 mg/ml), pre-filled syringe
+ZLIN109598NEMIS	Zlatal  Injection  15 mg/0.6 ml (25 mg/ml), pre-filled syringe
+ZLIN109599NEMIS	Zlatal  Injection  17.5 mg/0.7 ml (25 mg/ml), pre-filled syringe
+ZLIN109600NEMIS	Zlatal  Injection  20 mg/0.8 ml (25 mg/ml), pre-filled syringe
+ZLIN109601NEMIS	Zlatal  Injection  22.5 mg/0.9 ml (25 mg/ml), pre-filled syringe
+ZLIN109602NEMIS	Zlatal  Injection  25 mg/ml, 1 ml pre-filled syringe
+^ESCT1173834	Methofill 7.5mg/0.15ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+^ESCT1173839	Methofill 10mg/0.2ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+^ESCT1173841	Methofill 15mg/0.3ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+^ESCT1173843	Methofill 12.5mg/0.25ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+^ESCT1173846	Methofill 17.5mg/0.35ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+^ESCT1173848	Methofill 20mg/0.4ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+^ESCT1173850	Methofill 22.5mg/0.45ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+^ESCT1173852	Methofill 25mg/0.5ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+^ESCT1173854	Methofill 27.5mg/0.55ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+^ESCT1173856	Methofill 30mg/0.6ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+^ESCT1174649	Jylamvo 2mg/ml oral solution (Intrapharm Laboratories Ltd)
+^ESCT1175394	Methotrexate 2.5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCT1178064	Product containing only sulfasalazine 500 mg/1 each oral tablet
+^ESCT1178835	Product containing only hydroxychloroquine sulfate 200 mg/1 each oral tablet
+^ESCT1179827	Sulfasalazine 500mg tablets (Mylan)
+^ESCT1181930	Product containing only methotrexate 2.5 mg/1 each oral tablet
+^ESCT1182016	Product containing only leflunomide 20 mg/1 each oral tablet
+^ESCT1182197	Product containing only methotrexate 10 mg/1 each oral tablet
+^ESCT1182370	Product containing only leflunomide 10 mg/1 each oral tablet
+^ESCT1184313	Methotrexate 500mg/20ml solution for injection vials (Pfizer Ltd)
+^ESCT1184969	Leflunomide 10mg tablets (Mylan)
+^ESCT1185346	Methotrexate 2.5mg tablets (Pfizer Ltd)
+^ESCT1186400	Methotrexate 50mg/2ml solution for injection vials (Pfizer Ltd)
+^ESCT1186998	Leflunomide 20mg tablets (Mylan)
+^ESCT1188270	Product containing only leflunomide 100 mg/1 each oral tablet
+^ESCT1189304	Sulfasalazine 500mg gastro-resistant tablets (Mylan)
+^ESCT1189508	Methotrexate 5mg/2ml solution for injection vials (Pfizer Ltd)
+^ESCT1189509	Methotrexate 5g/50ml solution for infusion vials (Pfizer Ltd)
+^ESCT1189511	Methotrexate 1g/10ml solution for injection vials (Pfizer Ltd)
+^ESCT1215423	Methotrexate 1g/10ml solution for injection vials
+^ESCT1215424	Methotrexate 1g/40ml solution for injection vials
+^ESCT1215425	Methotrexate 200mg/8ml solution for injection vials
+^ESCT1215426	Methotrexate 500mg/20ml solution for injection vials
+^ESCT1215427	Methotrexate 50mg/2ml solution for injection vials
+^ESCT1215428	Methotrexate 5g/200ml solution for infusion vials
+^ESCT1215429	Methotrexate 5g/50ml solution for infusion vials
+^ESCT1215430	Methotrexate 5mg/2ml solution for injection vials
+^ESCT1222629	Sulfasalazine 50 mg/mL oral suspension
+^ESCT1222630	Product containing precisely sulfasalazine 50 milligram/1 milliliter conventional release oral suspension
+^ESCT1222631	Product containing precisely sulfasalazine 500 milligram/1 each conventional release oral tablet
+^ESCT1225032	Product containing precisely methotrexate 2.5 milligram/1 each conventional release oral tablet
+^ESCT1225033	Product containing precisely methotrexate 10 milligram/1 each conventional release oral tablet
+^ESCT1225499	Product containing precisely hydroxychloroquine sulfate 200 milligram/1 each conventional release oral tablet
+^ESCT1225500	Product containing precisely sulfasalazine 500 milligram/1 each gastro-resistant oral tablet
+^ESCT1225501	Sulfasalazine 500 mg gastro-resistant oral tablet
+^ESCT1225503	Product containing precisely leflunomide 10 milligram/1 each conventional release oral tablet
+^ESCT1225504	Product containing precisely leflunomide 20 milligram/1 each conventional release oral tablet
+^ESCT1225505	Product containing precisely leflunomide 100 milligram/1 each conventional release oral tablet
+^ESCT1250061	Methotrexate 2.5mg tablets (Advanz Pharma)
+^ESCT1250206	Methotrexate 50mg/2ml solution for injection vials (Advanz Pharma)
+^ESCT1250208	Methotrexate 5g/200ml solution for infusion vials (Advanz Pharma)
+^ESCT1250210	Methotrexate 200mg/8ml solution for injection vials (Advanz Pharma)
+^ESCT1250212	Methotrexate 500mg/20ml solution for injection vials (Advanz Pharma)
+^ESCT1250214	Methotrexate 1g/40ml solution for injection vials (Advanz Pharma)
+^ESCT1264280	Hydroxychloroquine 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264816	Sulfasalazine 500mg gastro-resistant tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1265892	Methotrexate 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1267051	Metoject PEN 7.5mg/0.15ml solution for injection pre-filled pen (CST Pharma Ltd)
+^ESCT1267053	Metoject PEN 10mg/0.2ml solution for injection pre-filled pen (CST Pharma Ltd)
+^ESCT1267055	Metoject PEN 12.5mg/0.25ml solution for injection pre-filled pen (CST Pharma Ltd)
+^ESCT1267347	Arava 10mg tablets (CST Pharma Ltd)
+^ESCT1267349	Arava 20mg tablets (CST Pharma Ltd)
+^ESCT1267515	Methotrexate 2mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1271107	Methofill 7.5mg/0.15ml solution for injection pre-filled syringes (Accord Healthcare Ltd)
+^ESCT1271109	Methofill 10mg/0.2ml solution for injection pre-filled syringes (Accord Healthcare Ltd)
+^ESCT1271111	Methofill 12.5mg/0.25ml solution for injection pre-filled syringes (Accord Healthcare Ltd)
+^ESCT1271113	Methofill 15mg/0.3ml solution for injection pre-filled syringes (Accord Healthcare Ltd)
+^ESCT1271115	Methofill 17.5mg/0.35ml solution for injection pre-filled syringes (Accord Healthcare Ltd)
+^ESCT1271119	Methofill 20mg/0.4ml solution for injection pre-filled syringes (Accord Healthcare Ltd)
+^ESCT1271121	Methofill 22.5mg/0.45ml solution for injection pre-filled syringes (Accord Healthcare Ltd)
+^ESCT1271123	Methofill 25mg/0.5ml solution for injection pre-filled syringes (Accord Healthcare Ltd)
+^ESCT1271125	Methofill 27.5mg/0.55ml solution for injection pre-filled syringes (Accord Healthcare Ltd)
+^ESCT1271127	Methofill 30mg/0.6ml solution for injection pre-filled syringes (Accord Healthcare Ltd)
+^ESCT1271135	Leflunomide 10mg tablets (Relonchem Ltd)
+^ESCT1271137	Leflunomide 20mg tablets (Relonchem Ltd)
+^ESCT1274753	Metoject PEN 10mg/0.2ml solution for injection pre-filled pen (Pilsco Ltd)
+^ESCT1274756	Metoject PEN 12.5mg/0.25ml solution for injection pre-filled pen (Pilsco Ltd)
+^ESCT1274759	Metoject PEN 7.5mg/0.15ml solution for injection pre-filled pen (Pilsco Ltd)
+^ESCT1275070	Metoject PEN 15mg/0.3ml solution for injection pre-filled pen (Pilsco Ltd)
+^ESCT1275072	Metoject PEN 17.5mg/0.35ml solution for injection pre-filled pen (Pilsco Ltd)
+^ESCT1275074	Metoject PEN 20mg/0.4ml solution for injection pre-filled pen (Pilsco Ltd)
+^ESCT1275076	Metoject PEN 22.5mg/0.45ml solution for injection pre-filled pen (Pilsco Ltd)
+^ESCT1275150	Methotrexate 1g/10ml solution for injection vials (medac UK)
+^ESCT1275152	Methotrexate 5g/50ml solution for infusion vials (medac UK)
+^ESCT1275646	Sulfasalazine 250mg/5ml oral suspension sugar free (DE Pharmaceuticals)
+^ESCT1279510	Methotrexate 100mg/4ml solution for injection pre-filled syringes (Special Order)
+^ESCT1279513	Methotrexate 40mg/1.6ml solution for injection pre-filled syringes (Special Order)
+^ESCT1279516	Methotrexate 45mg/1.8ml solution for injection pre-filled syringes (Special Order)
+^ESCT1279519	Methotrexate 60mg/2.4ml solution for injection pre-filled syringes (Special Order)
+^ESCT1279522	Methotrexate 80mg/3.2ml solution for injection pre-filled syringes (Special Order)
+^ESCT1279525	Methotrexate 85mg/3.4ml solution for injection pre-filled syringes (Special Order)
+^ESCT1279528	Methotrexate 90mg/3.6ml solution for injection pre-filled syringes (Special Order)
+^ESCT1279546	Methotrexate 100mg/4ml solution for injection pre-filled syringes
+^ESCT1279547	Methotrexate 40mg/1.6ml solution for injection pre-filled syringes
+^ESCT1279548	Methotrexate 45mg/1.8ml solution for injection pre-filled syringes
+^ESCT1279549	Methotrexate 60mg/2.4ml solution for injection pre-filled syringes
+^ESCT1279550	Methotrexate 80mg/3.2ml solution for injection pre-filled syringes
+^ESCT1279551	Methotrexate 85mg/3.4ml solution for injection pre-filled syringes
+^ESCT1279552	Methotrexate 90mg/3.6ml solution for injection pre-filled syringes
+^ESCT1300849	Metoject PEN 7.5mg/0.15ml solution for injection pre-filled pens (DE Pharmaceuticals)
+^ESCT1300851	Metoject PEN 10mg/0.2ml solution for injection pre-filled pens (DE Pharmaceuticals)
+^ESCT1300853	Metoject PEN 12.5mg/0.25ml solution for injection pre-filled pens (DE Pharmaceuticals)
+^ESCT1300855	Metoject PEN 15mg/0.3ml solution for injection pre-filled pens (DE Pharmaceuticals)
+^ESCT1300990	Salazopyrin 500mg tablets (DE Pharmaceuticals)
+^ESCT1302474	Metoject PEN 7.5mg/0.15ml solution for injection pre-filled pens (medac UK)
+^ESCT1302476	Metoject PEN 30mg/0.6ml solution for injection pre-filled pens (medac UK)
+^ESCT1302478	Metoject PEN 27.5mg/0.55ml solution for injection pre-filled pens (medac UK)
+^ESCT1302480	Metoject PEN 25mg/0.5ml solution for injection pre-filled pens (medac UK)
+^ESCT1302482	Metoject PEN 15mg/0.3ml solution for injection pre-filled pens (medac UK)
+^ESCT1302484	Metoject PEN 12.5mg/0.25ml solution for injection pre-filled pens (medac UK)
+^ESCT1302486	Metoject PEN 10mg/0.2ml solution for injection pre-filled pens (medac UK)
+^ESCT1302487	Metoject PEN 22.5mg/0.45ml solution for injection pre-filled pens (medac UK)
+^ESCT1302490	Metoject PEN 20mg/0.4ml solution for injection pre-filled pens (medac UK)
+^ESCT1302492	Metoject PEN 17.5mg/0.35ml solution for injection pre-filled pens (medac UK)
+^ESCT1303036	Metoject PEN 7.5mg/0.15ml solution for injection pre-filled pens (CST Pharma Ltd)
+^ESCT1303038	Metoject PEN 10mg/0.2ml solution for injection pre-filled pens (CST Pharma Ltd)
+^ESCT1303040	Metoject PEN 12.5mg/0.25ml solution for injection pre-filled pens (CST Pharma Ltd)
+^ESCT1303077	Metoject PEN 10mg/0.2ml solution for injection pre-filled pens (Pilsco Ltd)
+^ESCT1303079	Metoject PEN 12.5mg/0.25ml solution for injection pre-filled pens (Pilsco Ltd)
+^ESCT1303081	Metoject PEN 7.5mg/0.15ml solution for injection pre-filled pens (Pilsco Ltd)
+^ESCT1303091	Metoject PEN 15mg/0.3ml solution for injection pre-filled pens (Pilsco Ltd)
+^ESCT1303093	Metoject PEN 17.5mg/0.35ml solution for injection pre-filled pens (Pilsco Ltd)
+^ESCT1303095	Metoject PEN 20mg/0.4ml solution for injection pre-filled pens (Pilsco Ltd)
+^ESCT1303097	Metoject PEN 22.5mg/0.45ml solution for injection pre-filled pens (Pilsco Ltd)
+^ESCT1304171	Methotrexate 500mg/20ml solution for injection vials (hameln pharma Ltd)
+^ESCT1304175	Methotrexate 50mg/2ml solution for injection vials (hameln pharma Ltd)
+^ESCT1304850	Hydroxychloroquine 200mg tablets (Ipca Laboratories UK Ltd)
+^ESCT1373962	Hydroxychloroquine 300mg tablets (Blackrock Pharmaceuticals Ltd)
+^ESCT1374228	Hydroxychloroquine 200mg tablets (Accord Healthcare Ltd)
+^ESCT1374937	Hydroxychloroquine 300mg tablets
+^ESCT1376077	Hydroxychloroquine 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1388962	Hydroxychloroquine 200mg tablets (Blackrock Pharmaceuticals Ltd)
+^ESCT1401969	Leflunomide 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1401971	Leflunomide 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402237	Methotrexate 2.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402591	Hydroxychloroquine 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1404152	Sulfasalazine 500mg tablets (Medihealth (Northern) Ltd)
+^ESCT1409554	Sulfasalazine 500mg gastro-resistant tablets (Accord Healthcare Ltd)
+^ESCT1419024	Leflunomide 10mg tablets (Tillomed Laboratories Ltd)
+^ESCT1419028	Leflunomide 20mg tablets (Tillomed Laboratories Ltd)
+^ESCT1422490	Leflunomide 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422492	Leflunomide 20mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422686	Hydroxychloroquine 200mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1425552	Methotrexate 2.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425557	Sulfasalazine 500mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1425579	Sulfasalazine 500mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427701	Hydroxychloroquine 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1429336	Methotrexate 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429497	Sulfasalazine 250mg/5ml oral suspension sugar free (Medihealth (Northern) Ltd)
+^ESCT1429499	Sulfasalazine 500mg gastro-resistant tablets (Medihealth (Northern) Ltd)
+^ESCT1434722	Hydroxychloroquine 300mg tablets (DE Pharmaceuticals)
+^ESCT1434979	Jylamvo 2mg/ml oral solution (Esteve Pharmaceuticals Ltd)
+^ESCT1436840	Sulfasalazine 500mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437901	Sulfasalazine 500mg gastro-resistant tablets (Viatris UK Healthcare Ltd)
+^ESCT1438684	Leflunomide 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1438686	Leflunomide 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1439965	Methotrexate 800micrograms/0.2ml solution for injection pre-filled syringes (Special Order)
+^ESCT1440009	Methotrexate 800micrograms/0.2ml solution for injection pre-filled syringes
+^ESCTAR1002749	Arava 10mg tablets (Necessity Supplies Ltd)
+^ESCTAR1002751	Arava 20mg tablets (Necessity Supplies Ltd)
+^ESCTAR1008065	Arava 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAR1118600	Arava 10mg tablets (Lexon (UK) Ltd)
+^ESCTAR1118602	Arava 20mg tablets (Lexon (UK) Ltd)
+^ESCTAR801987	Arava 20mg tablets (Sanofi)
+^ESCTAR813840	Arava 100mg tablets (Sanofi)
+^ESCTAR818917	Arava 10mg tablets (Sanofi)
+^ESCTAR929735	Arava 10mg tablets (Waymade Healthcare Plc)
+^ESCTAR929740	Arava 20mg tablets (Waymade Healthcare Plc)
+^ESCTAR959170	Arava 10mg tablets (Dowelhurst Ltd)
+^ESCTAR966210	Arava 10mg tablets (DE Pharmaceuticals)
+^ESCTAR966212	Arava 20mg tablets (DE Pharmaceuticals)
+^ESCTAR969764	Arava 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAR969773	Arava 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAR990098	Arava 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTEB1024439	Ebetrex 7.5mg/0.75ml solution for injection pre-filled syringes (Sandoz Ltd)
+^ESCTEB1024441	Ebetrex 10mg/1ml solution for injection pre-filled syringes (Sandoz Ltd)
+^ESCTEB1024444	Ebetrex 15mg/1.5ml solution for injection pre-filled syringes (Sandoz Ltd)
+^ESCTEB1024450	Ebetrex 25mg/1.25ml solution for injection pre-filled syringes (Sandoz Ltd)
+^ESCTEB1024453	Ebetrex 20mg/1ml solution for injection pre-filled syringes (Sandoz Ltd)
+^ESCTEB1024607	Ebetrex 30mg/1.5ml solution for injection pre-filled syringes (Sandoz Ltd)
+^ESCTHY1007626	Hydroxychloroquine 200mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1029374	Hydroxychloroquine 200mg tablets (Teva UK Ltd)
+^ESCTHY1029650	Hydroxychloroquine 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY1030184	Hydroxychloroquine 200mg tablets (Creo Pharma Ltd)
+^ESCTHY1043910	Hydroxychloroquine 200mg tablets (Waymade Healthcare Plc)
+^ESCTHY1063632	Hydroxychloroquine 200mg tablets (DE Pharmaceuticals)
+^ESCTHY1116415	Hydroxychloroquine 200mg tablets (Zentiva)
+^ESCTHY1117839	Hydroxychloroquine 200mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHY1141860	Hydroxychloroquine 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTHY1162847	Hydroxychloroquine 400mg/5ml oral suspension (Special Order)
+^ESCTHY1162918	Hydroxychloroquine 400mg/5ml oral suspension
+^ESCTHY615308	Hydroxychloroquine 200mg tablets
+^ESCTHY615310	Hydroxychloroquine sulfate 200 mg oral tablet
+^ESCTHY907175	Hydroxychloroquine 120mg/5ml oral solution (Special Order)
+^ESCTHY907180	Hydroxychloroquine 100mg/5ml oral solution (Special Order)
+^ESCTHY907185	Hydroxychloroquine 120mg/5ml oral suspension (Special Order)
+^ESCTHY907193	Hydroxychloroquine 100mg/5ml oral suspension (Special Order)
+^ESCTHY907196	Hydroxychloroquine 150mg/5ml oral solution (Special Order)
+^ESCTHY907199	Hydroxychloroquine 150mg/5ml oral suspension (Special Order)
+^ESCTHY907202	Hydroxychloroquine 50mg/5ml oral solution (Special Order)
+^ESCTHY907205	Hydroxychloroquine 35mg/5ml oral solution (Special Order)
+^ESCTHY907211	Hydroxychloroquine 50mg/5ml oral suspension (Special Order)
+^ESCTHY907212	Hydroxychloroquine 200mg/5ml oral solution (Special Order)
+^ESCTHY907224	Hydroxychloroquine 35mg/5ml oral suspension (Special Order)
+^ESCTHY907225	Hydroxychloroquine 200mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTHY907227	Hydroxychloroquine 75mg/5ml oral solution (Special Order)
+^ESCTHY907238	Hydroxychloroquine 75mg/5ml oral suspension (Special Order)
+^ESCTHY907407	Hydroxychloroquine 100mg/5ml oral solution
+^ESCTHY907408	Hydroxychloroquine 100mg/5ml oral suspension
+^ESCTHY907409	Hydroxychloroquine 120mg/5ml oral solution
+^ESCTHY907410	Hydroxychloroquine 120mg/5ml oral suspension
+^ESCTHY907411	Hydroxychloroquine 150mg/5ml oral solution
+^ESCTHY907412	Hydroxychloroquine 150mg/5ml oral suspension
+^ESCTHY907413	Hydroxychloroquine 35mg/5ml oral solution
+^ESCTHY907414	Hydroxychloroquine 35mg/5ml oral suspension
+^ESCTHY907415	Hydroxychloroquine 50mg/5ml oral solution
+^ESCTHY907416	Hydroxychloroquine 50mg/5ml oral suspension
+^ESCTHY907417	Hydroxychloroquine 75mg/5ml oral solution
+^ESCTHY907418	Hydroxychloroquine 75mg/5ml oral suspension
+^ESCTHY907419	Hydroxychloroquine 200mg/5ml oral solution
+^ESCTHY907420	Hydroxychloroquine 200mg/5ml oral suspension
+^ESCTHY951139	Hydroxychloroquine 108mg/5ml oral solution (Special Order)
+^ESCTHY951142	Hydroxychloroquine 15mg/5ml oral solution (Special Order)
+^ESCTHY951145	Hydroxychloroquine 160mg/5ml oral solution (Special Order)
+^ESCTHY951148	Hydroxychloroquine 20mg/5ml oral solution (Special Order)
+^ESCTHY951151	Hydroxychloroquine 22mg/5ml oral solution (Special Order)
+^ESCTHY951155	Hydroxychloroquine 250mg/5ml oral solution (Special Order)
+^ESCTHY951160	Hydroxychloroquine 25mg/5ml oral solution (Special Order)
+^ESCTHY951163	Hydroxychloroquine 30mg/5ml oral solution (Special Order)
+^ESCTHY951169	Hydroxychloroquine 36mg/5ml oral solution (Special Order)
+^ESCTHY951172	Hydroxychloroquine 400mg/5ml oral solution (Special Order)
+^ESCTHY951176	Hydroxychloroquine 40mg/5ml oral solution (Special Order)
+^ESCTHY951181	Hydroxychloroquine 53.33mg/5ml oral solution (Special Order)
+^ESCTHY951187	Hydroxychloroquine 60mg/5ml oral solution (Special Order)
+^ESCTHY951193	Hydroxychloroquine 65mg/5ml oral solution (Special Order)
+^ESCTHY951199	Hydroxychloroquine 70mg/5ml oral solution (Special Order)
+^ESCTHY951202	Hydroxychloroquine 80mg/5ml oral solution (Special Order)
+^ESCTHY951205	Hydroxychloroquine 85mg/5ml oral solution (Special Order)
+^ESCTHY951848	Hydroxychloroquine 108mg/5ml oral solution
+^ESCTHY951850	Hydroxychloroquine 160mg/5ml oral solution
+^ESCTHY951852	Hydroxychloroquine 20mg/5ml oral solution
+^ESCTHY951854	Hydroxychloroquine 22mg/5ml oral solution
+^ESCTHY951856	Hydroxychloroquine 250mg/5ml oral solution
+^ESCTHY951858	Hydroxychloroquine 25mg/5ml oral solution
+^ESCTHY951860	Hydroxychloroquine 30mg/5ml oral solution
+^ESCTHY951862	Hydroxychloroquine 36mg/5ml oral solution
+^ESCTHY951864	Hydroxychloroquine 400mg/5ml oral solution
+^ESCTHY951866	Hydroxychloroquine 40mg/5ml oral solution
+^ESCTHY951868	Hydroxychloroquine 53.33mg/5ml oral solution
+^ESCTHY951870	Hydroxychloroquine 60mg/5ml oral solution
+^ESCTHY951872	Hydroxychloroquine 65mg/5ml oral solution
+^ESCTHY951874	Hydroxychloroquine 70mg/5ml oral solution
+^ESCTHY951876	Hydroxychloroquine 80mg/5ml oral solution
+^ESCTHY951878	Hydroxychloroquine 85mg/5ml oral solution
+^ESCTHY952082	Hydroxychloroquine 15mg/5ml oral solution
+^ESCTHY987885	Hydroxychloroquine 200mg tablets (Bristol Laboratories Ltd)
+^ESCTHY998983	Hydroxychloroquine 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLE1008185	Leflunomide 10mg tablets (medac UK)
+^ESCTLE1008187	Leflunomide 20mg tablets (medac UK)
+^ESCTLE1009756	Leflunomide 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE1009758	Leflunomide 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE1013599	Leflunomide 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLE1013603	Leflunomide 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLE1014081	Leflunomide 10mg tablets (Teva UK Ltd)
+^ESCTLE1014103	Leflunomide 20mg tablets (Teva UK Ltd)
+^ESCTLE1023129	Leflunomide 10mg tablets (Actavis UK Ltd)
+^ESCTLE1023133	Leflunomide 20mg tablets (Actavis UK Ltd)
+^ESCTLE1027610	Leflunomide 10mg tablets (Sandoz Ltd)
+^ESCTLE1027612	Leflunomide 20mg tablets (Sandoz Ltd)
+^ESCTLE1032841	Leflunomide 10mg tablets (Aspire Pharma Ltd)
+^ESCTLE1032844	Leflunomide 20mg tablets (Aspire Pharma Ltd)
+^ESCTLE1033583	Leflunomide 10mg tablets (Zentiva)
+^ESCTLE1033585	Leflunomide 20mg tablets (Zentiva)
+^ESCTLE1044070	Leflunomide 10mg tablets (Waymade Healthcare Plc)
+^ESCTLE1044072	Leflunomide 20mg tablets (Waymade Healthcare Plc)
+^ESCTLE1063263	Leflunomide 10mg tablets (Morningside Healthcare Ltd)
+^ESCTLE1063265	Leflunomide 20mg tablets (Morningside Healthcare Ltd)
+^ESCTLE1065625	Leflunomide 10mg tablets (DE Pharmaceuticals)
+^ESCTLE1065627	Leflunomide 20mg tablets (DE Pharmaceuticals)
+^ESCTLE1065757	Leflunomide 15mg tablets (medac UK)
+^ESCTLE1066055	Leflunomide 15mg tablets
+^ESCTLE1069400	Leflunomide 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE1117932	Leflunomide 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLE1117934	Leflunomide 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLE1120919	Leflunomide 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLE1152897	Leflunomide 10mg tablets (Mylan Ltd)
+^ESCTLE1152901	Leflunomide 20mg tablets (Mylan Ltd)
+^ESCTLE615331	Leflunomide 10mg tablets
+^ESCTLE615333	Leflunomide 10 mg oral tablet
+^ESCTLE615334	Leflunomide 20mg tablets
+^ESCTLE615336	Leflunomide 20 mg oral tablet
+^ESCTLE615337	Leflunomide 100mg tablets
+^ESCTLE615339	Leflunomide 100 mg oral tablet
+^ESCTMA810320	Maxtrex 10mg tablets (Pfizer Ltd)
+^ESCTMA820700	Maxtrex 2.5mg tablets (Pfizer Ltd)
+^ESCTME1008530	Metoject 30mg/0.6ml solution for injection pre-filled syringes (medac UK)
+^ESCTME1008883	Methotrexate 30mg/0.6ml solution for injection pre-filled syringes
+^ESCTME1018109	Metoject 12.5mg/0.25ml solution for injection pre-filled syringes (medac UK)
+^ESCTME1018113	Metoject 17.5mg/0.35ml solution for injection pre-filled syringes (medac UK)
+^ESCTME1018116	Metoject 22.5mg/0.45ml solution for injection pre-filled syringes (medac UK)
+^ESCTME1018120	Metoject 27.5mg/0.55ml solution for injection pre-filled syringes (medac UK)
+^ESCTME1018172	Methotrexate 12.5mg/0.25ml solution for injection pre-filled syringes
+^ESCTME1018173	Methotrexate 17.5mg/0.35ml solution for injection pre-filled syringes
+^ESCTME1018174	Methotrexate 22.5mg/0.45ml solution for injection pre-filled syringes
+^ESCTME1018175	Methotrexate 27.5mg/0.55ml solution for injection pre-filled syringes
+^ESCTME1024637	Methotrexate 20mg/1ml solution for injection pre-filled syringes
+^ESCTME1024638	Methotrexate 25mg/1.25ml solution for injection pre-filled syringes
+^ESCTME1024639	Methotrexate 30mg/1.5ml solution for injection pre-filled syringes
+^ESCTME1027804	Methotrexate 2.5mg tablets (Sandoz Ltd)
+^ESCTME1027806	Methotrexate 10mg tablets (Sandoz Ltd)
+^ESCTME1041594	Methotrexate 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTME1041597	Methotrexate 10mg tablets (Waymade Healthcare Plc)
+^ESCTME1045572	Methotrexate 10mg tablets (Teva UK Ltd)
+^ESCTME1045574	Methotrexate 2.5mg tablets (Teva UK Ltd)
+^ESCTME1063446	Methotrexate 10mg tablets (Morningside Healthcare Ltd)
+^ESCTME1063449	Methotrexate 2.5mg tablets (Morningside Healthcare Ltd)
+^ESCTME1065800	Methotrexate 10mg tablets (DE Pharmaceuticals)
+^ESCTME1065802	Methotrexate 2.5mg tablets (DE Pharmaceuticals)
+^ESCTME1067696	Metoject PEN 7.5mg/0.15ml solution for injection pre-filled pen (medac UK)
+^ESCTME1067699	Metoject PEN 30mg/0.6ml solution for injection pre-filled pen (medac UK)
+^ESCTME1067702	Metoject PEN 27.5mg/0.55ml solution for injection pre-filled pen (medac UK)
+^ESCTME1067705	Metoject PEN 25mg/0.5ml solution for injection pre-filled pen (medac UK)
+^ESCTME1067708	Metoject PEN 15mg/0.3ml solution for injection pre-filled pen (medac UK)
+^ESCTME1067711	Metoject PEN 12.5mg/0.25ml solution for injection pre-filled pen (medac UK)
+^ESCTME1067714	Metoject PEN 10mg/0.2ml solution for injection pre-filled pen (medac UK)
+^ESCTME1067716	Metoject PEN 22.5mg/0.45ml solution for injection pre-filled pen (medac UK)
+^ESCTME1067720	Metoject PEN 20mg/0.4ml solution for injection pre-filled pen (medac UK)
+^ESCTME1067723	Metoject PEN 17.5mg/0.35ml solution for injection pre-filled pen (medac UK)
+^ESCTME1067750	Methotrexate 10mg/0.2ml solution for injection pre-filled disposable devices
+^ESCTME1067751	Methotrexate 12.5mg/0.25ml solution for injection pre-filled disposable devices
+^ESCTME1067752	Methotrexate 15mg/0.3ml solution for injection pre-filled disposable devices
+^ESCTME1067753	Methotrexate 17.5mg/0.35ml solution for injection pre-filled disposable devices
+^ESCTME1067754	Methotrexate 20mg/0.4ml solution for injection pre-filled disposable devices
+^ESCTME1067755	Methotrexate 22.5mg/0.45ml solution for injection pre-filled disposable devices
+^ESCTME1067756	Methotrexate 25mg/0.5ml solution for injection pre-filled disposable devices
+^ESCTME1067757	Methotrexate 27.5mg/0.55ml solution for injection pre-filled disposable devices
+^ESCTME1067758	Methotrexate 30mg/0.6ml solution for injection pre-filled disposable devices
+^ESCTME1067759	Methotrexate 7.5mg/0.15ml solution for injection pre-filled disposable devices
+^ESCTME1099950	Methotrexate 1g/40ml solution for injection vials (Accord Healthcare Ltd)
+^ESCTME1099957	Methotrexate 500mg/20ml solution for injection vials (Accord Healthcare Ltd)
+^ESCTME1109736	Methotrexate 50mg/2ml solution for injection vials (Accord Healthcare Ltd)
+^ESCTME1118218	Methotrexate 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME1124550	Methotrexate 2mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTME1126505	Methotrexate 2mg/ml oral solution sugar free
+^ESCTME1128215	Methotrexate 2mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTME1128924	Methotrexate 2mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTME1158248	Methotrexate 10mg/0.4ml solution for injection pre-filled disposable devices
+^ESCTME1158249	Methotrexate 12.5mg/0.5ml solution for injection pre-filled disposable devices
+^ESCTME1158250	Methotrexate 15mg/0.6ml solution for injection pre-filled disposable devices
+^ESCTME1158251	Methotrexate 17.5mg/0.7ml solution for injection pre-filled disposable devices
+^ESCTME1158252	Methotrexate 20mg/0.8ml solution for injection pre-filled disposable devices
+^ESCTME1158253	Methotrexate 22.5mg/0.9ml solution for injection pre-filled disposable devices
+^ESCTME1158254	Methotrexate 25mg/1ml solution for injection pre-filled disposable devices
+^ESCTME1158255	Methotrexate 7.5mg/0.3ml solution for injection pre-filled disposable devices
+^ESCTME613672	Methotrexate 2.5mg tablets
+^ESCTME613674	Methotrexate 2.5 mg oral tablet
+^ESCTME613675	Methotrexate 10mg tablets
+^ESCTME613677	Methotrexate 10 mg oral tablet
+^ESCTME613678	Methotrexate 5mg/2ml solution for injection vials
+^ESCTME613679	Methotrexate 2.5mg/mL injection solution 2mL vial
+^ESCTME613680	Methotrexate 50mg/2ml solution for injection vials
+^ESCTME613681	Methotrexate 25mg/mL injection solution 2mL vial
+^ESCTME613682	Methotrexate 200mg/8ml solution for injection vials
+^ESCTME613683	Methotrexate 25mg/mL injection solution 8mL vial
+^ESCTME613684	Methotrexate 500mg/20ml solution for injection vials
+^ESCTME613685	Methotrexate 500mg/20mL injection
+^ESCTME613686	Methotrexate 25mg/mL injection solution 20mL vial
+^ESCTME613687	Methotrexate 1g/40ml solution for injection vials
+^ESCTME613688	Methotrexate 1g/40mL injection
+^ESCTME613689	Methotrexate 25mg/mL injection solution 40mL vial
+^ESCTME613690	Methotrexate 5g/200ml solution for infusion vials
+^ESCTME613691	Methotrexate 5g/200mL injection
+^ESCTME613692	Methotrexate 25mg/mL injection solution 200mL vial
+^ESCTME613693	Methotrexate 1g/10ml solution for injection vials
+^ESCTME613694	Methotrexate 1g/10mL injection
+^ESCTME613695	Methotrexate 100mg/mL injection solution 10mL vial
+^ESCTME613696	Methotrexate 5g/50ml solution for infusion vials
+^ESCTME613697	Methotrexate 5g/50mL injection
+^ESCTME613698	Methotrexate 100mg/mL injection solution 50mL vial
+^ESCTME804286	Methotrexate 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME805104	Methotrexate 2.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTME805361	Methotrexate 10mg tablets (Pfizer Ltd)
+^ESCTME806176	Methotrexate 2.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME812574	Methotrexate 2.5mg tablets (Hospira UK Ltd)
+^ESCTME821139	Methotrexate 2.5mg tablets (AMCo)
+^ESCTME821357	Methotrexate 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTME833542	Methotrexate 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTME862748	Methotrexate 50mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTME862773	Methotrexate 5mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTME862776	Methotrexate 50mg/2ml solution for injection vials (Hospira UK Ltd)
+^ESCTME862781	Methotrexate 50mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTME862794	Methotrexate 5mg/2ml solution for injection vials (Hospira UK Ltd)
+^ESCTME862797	Methotrexate 5mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTME862804	Methotrexate 50mg/2ml solution for injection vials (AMCo)
+^ESCTME862806	Methotrexate 5g/50ml solution for infusion vials (A A H Pharmaceuticals Ltd)
+^ESCTME862812	Methotrexate 5g/50ml solution for infusion vials (Hospira UK Ltd)
+^ESCTME862817	Methotrexate 5g/50ml solution for infusion vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTME862834	Methotrexate 1g/10ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTME862840	Methotrexate 1g/10ml solution for injection vials (Hospira UK Ltd)
+^ESCTME862843	Methotrexate 1g/10ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTME862854	Methotrexate 5g/200ml solution for infusion vials (A A H Pharmaceuticals Ltd)
+^ESCTME862856	Methotrexate 5g/200ml solution for infusion vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTME862859	Methotrexate 5g/200ml solution for infusion vials (AMCo)
+^ESCTME862864	Methotrexate 200mg/8ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTME862866	Methotrexate 200mg/8ml solution for injection vials (AMCo)
+^ESCTME862868	Methotrexate 200mg/8ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTME862874	Methotrexate 500mg/20ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTME862877	Methotrexate 500mg/20ml solution for injection vials (Hospira UK Ltd)
+^ESCTME862880	Methotrexate 500mg/20ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTME862885	Methotrexate 500mg/20ml solution for injection vials (AMCo)
+^ESCTME862894	Methotrexate 1g/40ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTME862896	Methotrexate 1g/40ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTME862899	Methotrexate 1g/40ml solution for injection vials (AMCo)
+^ESCTME907954	Methotrexate 10mg/5ml oral solution (Special Order)
+^ESCTME907961	Methotrexate 10mg/5ml oral suspension (Special Order)
+^ESCTME907966	Methotrexate 12.5mg/5ml oral solution (Special Order)
+^ESCTME907969	Methotrexate 12.5mg/5ml oral suspension (Special Order)
+^ESCTME907972	Methotrexate 15mg/5ml oral solution (Special Order)
+^ESCTME907976	Methotrexate 15mg/5ml oral suspension (Special Order)
+^ESCTME908000	Methotrexate 2.5mg/5ml oral solution (Special Order)
+^ESCTME908015	Methotrexate 2.5mg/5ml oral suspension (Special Order)
+^ESCTME908031	Methotrexate 7.5mg/5ml oral solution (Special Order)
+^ESCTME908032	Methotrexate 5mg/5ml oral solution (Special Order)
+^ESCTME908037	Methotrexate 7.5mg/5ml oral suspension (Special Order)
+^ESCTME908038	Methotrexate 5mg/5ml oral suspension (Special Order)
+^ESCTME908422	Methotrexate 10mg/5ml oral solution
+^ESCTME908423	Methotrexate 10mg/5ml oral suspension
+^ESCTME908424	Methotrexate 12.5mg/5ml oral solution
+^ESCTME908425	Methotrexate 12.5mg/5ml oral suspension
+^ESCTME908426	Methotrexate 15mg/5ml oral solution
+^ESCTME908427	Methotrexate 15mg/5ml oral suspension
+^ESCTME908429	Methotrexate 2.5mg/5ml oral solution
+^ESCTME908430	Methotrexate 2.5mg/5ml oral suspension
+^ESCTME908431	Methotrexate 5mg/5ml oral solution
+^ESCTME908432	Methotrexate 5mg/5ml oral suspension
+^ESCTME908433	Methotrexate 7.5mg/5ml oral solution
+^ESCTME908434	Methotrexate 7.5mg/5ml oral suspension
+^ESCTME918090	Methotrexate 50mg/2ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918100	Methotrexate 35mg/1.4ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918120	Methotrexate 32.5mg/1.3ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918132	Methotrexate 30mg/1.2ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918162	Methotrexate 27.5mg/1.1ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918176	Methotrexate 25mg/1ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918186	Methotrexate 22.5mg/0.9ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918192	Methotrexate 20mg/0.8ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918201	Methotrexate 17.5mg/0.7ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918213	Methotrexate 15mg/0.6ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918233	Methotrexate 12.5mg/0.5ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918246	Methotrexate 10mg/0.4ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918260	Methotrexate 7.5mg/0.3ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918275	Methotrexate 5mg/0.2ml solution for injection pre-filled syringes (Special Order)
+^ESCTME918476	Methotrexate 10mg/0.4ml solution for injection pre-filled syringes
+^ESCTME918478	Methotrexate 12.5mg/0.5ml solution for injection pre-filled syringes
+^ESCTME918480	Methotrexate 15mg/0.6ml solution for injection pre-filled syringes
+^ESCTME918482	Methotrexate 17.5mg/0.7ml solution for injection pre-filled syringes
+^ESCTME918484	Methotrexate 20mg/0.8ml solution for injection pre-filled syringes
+^ESCTME918486	Methotrexate 22.5mg/0.9ml solution for injection pre-filled syringes
+^ESCTME918488	Methotrexate 25mg/1ml solution for injection pre-filled syringes
+^ESCTME918490	Methotrexate 27.5mg/1.1ml solution for injection pre-filled syringes
+^ESCTME918492	Methotrexate 30mg/1.2ml solution for injection pre-filled syringes
+^ESCTME918494	Methotrexate 32.5mg/1.3ml solution for injection pre-filled syringes
+^ESCTME918496	Methotrexate 35mg/1.4ml solution for injection pre-filled syringes
+^ESCTME918498	Methotrexate 50mg/2ml solution for injection pre-filled syringes
+^ESCTME918500	Methotrexate 5mg/0.2ml solution for injection pre-filled syringes
+^ESCTME918502	Methotrexate 7.5mg/0.3ml solution for injection pre-filled syringes
+^ESCTME920156	Methotrexate 1g/10ml solution for injection vials (Wockhardt UK Ltd)
+^ESCTME920159	Methotrexate 5g/50ml solution for infusion vials (Wockhardt UK Ltd)
+^ESCTME931474	Metoject 7.5mg/0.75ml solution for injection pre-filled syringes (medac UK)
+^ESCTME931477	Metoject 10mg/1ml solution for injection pre-filled syringes (medac UK)
+^ESCTME931480	Metoject 15mg/1.5ml solution for injection pre-filled syringes (medac UK)
+^ESCTME931483	Metoject 20mg/2ml solution for injection pre-filled syringes (medac UK)
+^ESCTME931488	Metoject 25mg/2.5ml solution for injection pre-filled syringes (medac UK)
+^ESCTME931513	Methotrexate 10mg/1ml solution for injection pre-filled syringes
+^ESCTME931516	Methotrexate 15mg/1.5ml solution for injection pre-filled syringes
+^ESCTME931519	Methotrexate 20mg/2ml solution for injection pre-filled syringes
+^ESCTME931521	Methotrexate 25mg/2.5ml solution for injection pre-filled syringes
+^ESCTME931524	Methotrexate 7.5mg/0.75ml solution for injection pre-filled syringes
+^ESCTME934974	Methotrexate 50mg/2ml solution for injection vials (Teva UK Ltd)
+^ESCTME934977	Methotrexate 500mg/20ml solution for injection vials (Teva UK Ltd)
+^ESCTME935452	Methotrexate 2.5mg tablets (Wockhardt UK Ltd)
+^ESCTME935454	Methotrexate 10mg tablets (Wockhardt UK Ltd)
+^ESCTME936207	Methotrexate 1g/40ml solution for injection vials (Teva UK Ltd)
+^ESCTME954390	Methotrexate 12mg/5ml oral suspension (Special Order)
+^ESCTME954396	Methotrexate 12mg/5ml oral solution (Special Order)
+^ESCTME954402	Methotrexate 17.5mg/5ml oral suspension (Special Order)
+^ESCTME954408	Methotrexate 17.5mg/5ml oral solution (Special Order)
+^ESCTME954432	Methotrexate 18mg/5ml oral suspension (Special Order)
+^ESCTME954438	Methotrexate 18mg/5ml oral solution (Special Order)
+^ESCTME954444	Methotrexate 1mg/5ml oral suspension (Special Order)
+^ESCTME954450	Methotrexate 1mg/5ml oral solution (Special Order)
+^ESCTME954479	Methotrexate 20mg/5ml oral suspension (Special Order)
+^ESCTME954487	Methotrexate 20mg/5ml oral solution (Special Order)
+^ESCTME954509	Methotrexate 22.5mg/5ml oral suspension (Special Order)
+^ESCTME954517	Methotrexate 22.5mg/5ml oral solution (Special Order)
+^ESCTME954527	Methotrexate 25mg/5ml oral suspension (Special Order)
+^ESCTME954533	Methotrexate 25mg/5ml oral solution (Special Order)
+^ESCTME954539	Methotrexate 3.75mg/5ml oral suspension (Special Order)
+^ESCTME954545	Methotrexate 3.75mg/5ml oral solution (Special Order)
+^ESCTME954553	Methotrexate 4mg/5ml oral suspension (Special Order)
+^ESCTME954559	Methotrexate 4mg/5ml oral solution (Special Order)
+^ESCTME954567	Methotrexate 50mg/5ml oral suspension (Special Order)
+^ESCTME954575	Methotrexate 50mg/5ml oral solution (Special Order)
+^ESCTME954581	Methotrexate 6mg/5ml oral suspension (Special Order)
+^ESCTME954587	Methotrexate 6mg/5ml oral solution (Special Order)
+^ESCTME954595	Methotrexate 750micrograms/5ml oral suspension (Special Order)
+^ESCTME954607	Methotrexate 750micrograms/5ml oral solution (Special Order)
+^ESCTME954617	Methotrexate 7mg/5ml oral suspension (Special Order)
+^ESCTME954629	Methotrexate 7mg/5ml oral solution (Special Order)
+^ESCTME954641	Methotrexate 8mg/5ml oral suspension (Special Order)
+^ESCTME954647	Methotrexate 8mg/5ml oral solution (Special Order)
+^ESCTME954792	Methotrexate 12mg/5ml oral solution
+^ESCTME954794	Methotrexate 12mg/5ml oral suspension
+^ESCTME954796	Methotrexate 17.5mg/5ml oral solution
+^ESCTME954798	Methotrexate 17.5mg/5ml oral suspension
+^ESCTME954800	Methotrexate 18mg/5ml oral solution
+^ESCTME954802	Methotrexate 18mg/5ml oral suspension
+^ESCTME954804	Methotrexate 1mg/5ml oral solution
+^ESCTME954806	Methotrexate 1mg/5ml oral suspension
+^ESCTME954808	Methotrexate 20mg/5ml oral solution
+^ESCTME954810	Methotrexate 20mg/5ml oral suspension
+^ESCTME954812	Methotrexate 22.5mg/5ml oral solution
+^ESCTME954814	Methotrexate 22.5mg/5ml oral suspension
+^ESCTME954816	Methotrexate 50mg/5ml oral suspension
+^ESCTME954818	Methotrexate 6mg/5ml oral solution
+^ESCTME954820	Methotrexate 6mg/5ml oral suspension
+^ESCTME954822	Methotrexate 750micrograms/5ml oral solution
+^ESCTME954824	Methotrexate 750micrograms/5ml oral suspension
+^ESCTME954826	Methotrexate 7mg/5ml oral solution
+^ESCTME954828	Methotrexate 7mg/5ml oral suspension
+^ESCTME954830	Methotrexate 8mg/5ml oral solution
+^ESCTME954832	Methotrexate 8mg/5ml oral suspension
+^ESCTME954851	Methotrexate 25mg/5ml oral solution
+^ESCTME954853	Methotrexate 25mg/5ml oral suspension
+^ESCTME954855	Methotrexate 3.75mg/5ml oral solution
+^ESCTME954857	Methotrexate 3.75mg/5ml oral suspension
+^ESCTME954859	Methotrexate 4mg/5ml oral solution
+^ESCTME954861	Methotrexate 4mg/5ml oral suspension
+^ESCTME954863	Methotrexate 50mg/5ml oral solution
+^ESCTME974760	Methotrexate 2.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME977007	Methotrexate 2.5mg tablets (Waymade Healthcare Plc)
+^ESCTME977157	Methotrexate 2.5mg tablets (Orion Pharma (UK) Ltd)
+^ESCTME977167	Methotrexate 10mg tablets (Orion Pharma (UK) Ltd)
+^ESCTME977194	Methotrexate 25mg/3ml solution for injection pre-filled syringes (Special Order)
+^ESCTME977196	Methotrexate 500mg/20ml solution for injection vials (Hameln Pharmaceuticals Ltd)
+^ESCTME977207	Methotrexate 25mg/3ml solution for injection pre-filled syringes
+^ESCTME978558	Methotrexate 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTME978757	Methotrexate 50mg/2ml solution for injection vials (Hameln Pharmaceuticals Ltd)
+^ESCTME982311	Metoject 7.5mg/0.15ml solution for injection pre-filled syringes (medac UK)
+^ESCTME982314	Metoject 10mg/0.2ml solution for injection pre-filled syringes (medac UK)
+^ESCTME982317	Metoject 15mg/0.3ml solution for injection pre-filled syringes (medac UK)
+^ESCTME982320	Metoject 25mg/0.5ml solution for injection pre-filled syringes (medac UK)
+^ESCTME982323	Metoject 20mg/0.4ml solution for injection pre-filled syringes (medac UK)
+^ESCTME982355	Methotrexate 10mg/0.2ml solution for injection pre-filled syringes
+^ESCTME982356	Methotrexate 15mg/0.3ml solution for injection pre-filled syringes
+^ESCTME982357	Methotrexate 20mg/0.4ml solution for injection pre-filled syringes
+^ESCTME982358	Methotrexate 25mg/0.5ml solution for injection pre-filled syringes
+^ESCTME982359	Methotrexate 7.5mg/0.15ml solution for injection pre-filled syringes
+^ESCTNO1158194	Nordimet 7.5mg/0.3ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+^ESCTNO1158201	Nordimet 10mg/0.4ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+^ESCTNO1158204	Nordimet 12.5mg/0.5ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+^ESCTNO1158207	Nordimet 15mg/0.6ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+^ESCTNO1158210	Nordimet 17.5mg/0.7ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+^ESCTNO1158213	Nordimet 20mg/0.8ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+^ESCTNO1158216	Nordimet 22.5mg/0.9ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+^ESCTNO1158219	Nordimet 25mg/1ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+^ESCTPL820855	Plaquenil 200mg tablets (Sanofi)
+^ESCTPR606387	Product containing sulfasalazine 500 mg/1 each oral tablet
+^ESCTPR613673	Product containing methotrexate 2.5 mg/1 each oral tablet
+^ESCTPR613676	Product containing methotrexate 10 mg/1 each oral tablet
+^ESCTPR615309	Product containing hydroxychloroquine sulfate 200 mg/1 each oral tablet
+^ESCTPR615332	Product containing leflunomide 10 mg/1 each oral tablet
+^ESCTPR615335	Product containing leflunomide 20 mg/1 each oral tablet
+^ESCTPR615338	Product containing leflunomide 100 mg/1 each oral tablet
+^ESCTQU997707	Quinoric 200mg tablets (Bristol Laboratories Ltd)
+^ESCTSA801642	Salazopyrin 250mg/5ml oral suspension (Pfizer Ltd)
+^ESCTSA805343	Salazopyrin 500mg tablets (Pfizer Ltd)
+^ESCTSA805811	Salazopyrin EN-Tabs 500mg (Pfizer Ltd)
+^ESCTSA879705	Salazopyrin EN-Tabs 500mg (Dowelhurst Ltd)
+^ESCTSA879710	Salazopyrin 500mg tablets (Dowelhurst Ltd)
+^ESCTSA999145	Salazopyrin EN-Tabs 500mg (Waymade Healthcare Plc)
+^ESCTSU1004793	Sulfasalazine 500mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSU1004801	Sulfasalazine 500mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSU1026230	Sulfasalazine 250mg/5ml oral suspension (Special Order)
+^ESCTSU1027967	Sulfasalazine 500mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTSU1037055	Sulfasalazine 500mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTSU1042571	Sulfasalazine 500mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTSU1042576	Sulfasalazine 250mg/5ml oral suspension sugar free (Waymade Healthcare Plc)
+^ESCTSU1042579	Sulfasalazine 500mg tablets (Waymade Healthcare Plc)
+^ESCTSU1056878	Sulazine EC 500mg tablets (Teva UK Ltd)
+^ESCTSU1109035	Sulfasalazine 500mg tablets (Crescent Pharma Ltd)
+^ESCTSU1119975	Sulfasalazine 500mg gastro-resistant tablets (DE Pharmaceuticals)
+^ESCTSU1119977	Sulfasalazine 500mg tablets (DE Pharmaceuticals)
+^ESCTSU1127595	Sulfasalazine 500mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSU606383	Sulfasalazine 250mg/5ml oral suspension
+^ESCTSU606384	Sulphasalazine 250mg/5mL oral suspension
+^ESCTSU606385	Sulfasalazine 250mg/5mL oral suspension
+^ESCTSU606386	Sulfasalazine 500mg tablets
+^ESCTSU606388	Sulfasalazine 500 mg oral tablet
+^ESCTSU615311	Sulfasalazine 500mg gastro-resistant tablets
+^ESCTSU615312	Sulphasalazine 500mg e/c tablet
+^ESCTSU615313	Sulfasalazine 500mg e/c tablet
+^ESCTSU798736	Sulfasalazine 500mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSU804445	Sulfasalazine 500mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTSU805221	Sulfasalazine 500mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTSU806768	Sulfasalazine 500mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTSU807375	Sulfasalazine 500mg tablets (Mylan Ltd)
+^ESCTSU807393	Sulfasalazine 500mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSU807837	Sulfasalazine 500mg tablets (Actavis UK Ltd)
+^ESCTSU815008	Sulfasalazine 500mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSU818918	Sulazine EC 500mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTSU821094	Sulfasalazine 500mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSU879001	Sulfasalazine 500mg tablets (Dowelhurst Ltd)
+^ESCTSU893825	Sulfasalazine 500mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSU912687	Sulfasalazine 500mg gastro-resistant tablets (Mylan Ltd)
+^ESCTSU931222	Sulfasalazine 500mg tablets (Teva UK Ltd)
+^ESCTSU939573	Sulfasalazine 500mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTSU962013	Sulfasalazine 100mg/5ml oral suspension (Special Order)
+^ESCTSU962016	Sulfasalazine 125mg/5ml oral suspension (Special Order)
+^ESCTSU962019	Sulfasalazine 200mg/5ml oral suspension (Special Order)
+^ESCTSU962022	Sulfasalazine 500mg/5ml oral suspension (Special Order)
+^ESCTSU962080	Sulfasalazine 100mg/5ml oral suspension
+^ESCTSU962081	Sulfasalazine 125mg/5ml oral suspension
+^ESCTSU962082	Sulfasalazine 200mg/5ml oral suspension
+^ESCTSU962083	Sulfasalazine 500mg/5ml oral suspension
+^ESCTSU962576	Sulfasalazine 500mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTSU965252	Sulfasalazine 500mg tablets (Ranbaxy (UK) Ltd)
+^ESCTSU973912	Sulfasalazine 500mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+^ESCTSU979127	Sulfasalazine 500mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)
+^ESCTSU989680	Sulfasalazine 250mg/5ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTSU989927	Sulfasalazine 250mg/5ml oral suspension sugar free
+^ESCTSU993906	Sulfasalazine 250mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTSU994739	Sulfasalazine 250mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCTZL1132093	Zlatal 20mg/0.8ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+^ESCTZL1132098	Zlatal 22.5mg/0.9ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+^ESCTZL1132100	Zlatal 25mg/1ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+^ESCTZL1132105	Zlatal 10mg/0.4ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+^ESCTZL1132111	Zlatal 7.5mg/0.3ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+^ESCTZL1132116	Zlatal 12.5mg/0.5ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+^ESCTZL1132122	Zlatal 15mg/0.6ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+^ESCTZL1132128	Zlatal 17.5mg/0.7ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
