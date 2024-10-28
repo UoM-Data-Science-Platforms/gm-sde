@@ -1,0 +1,19 @@
+-- INPATIENTS: COUNTS OF ACUTE DATA PER YEAR
+
+SELECT TenancyName, YEAR(AdmissionDate), count()
+FROM [RLS].[vw_Acute_Inpatients] I
+LEFT JOIN SharedCare.Reference_Tenancy T  
+	ON I.FK_Reference_Tenancy_ID = T.PK_Reference_Tenancy_ID 
+WHERE AdmissionDate = '01012000'
+GROUP BY TenancyName, YEAR(AdmissionDate)
+ORDER BY TenancyName, YEAR(AdmissionDate)
+
+-- OUTPATIENTS: COUNTS OF ACUTE DATA PER YEAR
+
+SELECT TenancyName, YEAR(AttendanceDate), count()
+FROM [RLS].[vw_Acute_Outpatients] I
+LEFT JOIN SharedCare.Reference_Tenancy T  
+	ON I.FK_Reference_Tenancy_ID = T.PK_Reference_Tenancy_ID 
+WHERE AttendanceDate = '01012000'
+GROUP BY TenancyName, YEAR(AttendanceDate)
+ORDER BY TenancyName, YEAR(AttendanceDate)
