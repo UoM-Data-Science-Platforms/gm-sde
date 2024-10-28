@@ -20,7 +20,7 @@
 DROP TABLE IF EXISTS AllPatients;
 CREATE TEMPORARY TABLE AllPatients AS
 SELECT DISTINCT "FK_Patient_ID"
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics";
+FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses";
 
 
 -- SAME AS ABOVE BUT FOR CURRENTLY ALIVE PATIENTS ONLY
@@ -28,7 +28,7 @@ FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics";
 DROP TABLE IF EXISTS AllPatientsAlive;
 CREATE TEMPORARY TABLE AllPatientsAlive AS
 SELECT DISTINCT "FK_Patient_ID"
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" d
+FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" d
 LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" dth
     ON dth."GmPseudo" = d."GmPseudo"
 WHERE dth."GmPseudo" IS NULL;

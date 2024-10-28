@@ -65,7 +65,7 @@ CREATE TEMPORARY TABLE AllCodes (
 DROP TABLE IF EXISTS Code_Sets_To_Use;
 CREATE TEMPORARY TABLE Code_Sets_To_Use AS
 SELECT *
-FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking" -- EDIT THIS LINE TO ADD YOUR INITIALS ON END OF TABLE
+FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking_GT" -- EDIT THIS LINE TO ADD YOUR INITIALS ON END OF TABLE
 WHERE Code IS NOT NULL;
 
 -------------------
@@ -218,13 +218,13 @@ SELECT "FK_Patient_ID", CONCEPT, VERSION FROM PatientsWithSNOMEDCode p
 INNER JOIN VersionedSnomedSets v ON v."FK_REFERENCE_SNOMEDCT_ID" = p."FK_Reference_SnomedCT_ID"
 GROUP BY "FK_Patient_ID", CONCEPT, VERSION;
 
-SET snapshotdate = (SELECT MAX("Snapshot") FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics");
+SET snapshotdate = (SELECT MAX("Snapshot") FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses");
 
 -- Counts the number of patients for each version of each concept for each clinical system
 DROP TABLE IF EXISTS PatientsWithCodePerSystem;
 CREATE TEMPORARY TABLE PatientsWithCodePerSystem AS
 SELECT SYSTEM, CONCEPT, VERSION, count(*) as Count 
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p
+FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p
 INNER JOIN PracticeSystemLookup s on s.PracticeId = p."PracticeCode"
 INNER JOIN PatientsWithCode c on c."FK_Patient_ID" = p."FK_Patient_ID"
 WHERE "Snapshot" = $snapshotdate
@@ -235,7 +235,7 @@ GROUP BY SYSTEM, CONCEPT, VERSION;
 -- Counts the number of patients per system
 DROP TABLE IF EXISTS PatientsPerSystem;
 CREATE TEMPORARY TABLE PatientsPerSystem AS
-SELECT SYSTEM, count(*) as Count FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p
+SELECT SYSTEM, count(*) as Count FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p
 INNER JOIN PracticeSystemLookup s on s.PracticeId = p."PracticeCode"
 WHERE "Snapshot" = $snapshotdate
 GROUP BY SYSTEM;
@@ -259,7 +259,7 @@ GROUP BY "FK_Patient_ID", CONCEPT, VERSION;
 -- Counts the number of patients for each version of each concept for each clinical system
 DROP TABLE IF EXISTS PatientsWithSuppConceptPerSystem;
 CREATE TEMPORARY TABLE PatientsWithSuppConceptPerSystem AS
-SELECT SYSTEM, CONCEPT, VERSION, count(*) as Count FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" p
+SELECT SYSTEM, CONCEPT, VERSION, count(*) as Count FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p
 INNER JOIN PracticeSystemLookup s on s.PracticeId = p."PracticeCode"
 INNER JOIN PatientsWithSuppliedConcept c on c."FK_Patient_ID" = p."FK_Patient_ID"
 WHERE "Snapshot" = $snapshotdate
