@@ -1,0 +1,8 @@
+^ESCTHO479269	Hot flush
+^ESCTHO479270	Hot flashes
+^ESCTHO722251	Hot flash due to medication
+^ESCTHO722252	Hot flash caused by medication
+^ESCTHO804475	Hot flash in male
+^ESCTMA804474	Male hot flash
+^ESCTME479272	Menopausal hot flashes
+^ESCTNO804582	Non-menopausal hot flash

@@ -1,0 +1,7 @@
+439407002	Hot flash caused by medication (disorder)
+968361541000119107	Hot flash caused by aromatase inhibitor (disorder)
+759556531000119104	Hot flash caused by tamoxifen (disorder)
+67443009	Hot flash (finding)
+141631000119100	Male hot flash (disorder)
+143661000119109	Non-menopausal hot flash (disorder)
+198436008	Menopausal flushing (finding)

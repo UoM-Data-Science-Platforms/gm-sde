@@ -1,0 +1,5 @@
+1657.	Hot flushes
+1657.00	Hot flushes
+K5A20	Menopausal flushing
+K5A2000	Menopausal flushing
+K5A2011	Hot flushes - menopausal
