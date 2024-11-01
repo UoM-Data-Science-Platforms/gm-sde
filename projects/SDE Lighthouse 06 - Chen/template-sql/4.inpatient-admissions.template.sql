@@ -7,7 +7,7 @@
 --------------------------------------------------
 
 set(StudyStartDate) = to_date('2017-01-01');
-set(StudyEndDate)   = to_date('2023-12-31');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- get all inpatient admissions
 

@@ -8,43 +8,37 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- Richard Williams	2024-08-30	Review complete --
 --------------------------------------------------
 
--- NOTE: the SDE does have self harm and fracture code sets (eFI2_SelfHarm and eFI2_Fracture)
--- but our GMCR code sets seem more comprehensive
-
 set(StudyStartDate) = to_date('2017-01-01');
-set(StudyEndDate)   = to_date('2023-12-31');
-
--- >>> Codesets required... Inserting the code set code
--- >>> Codesets extracted into 0.code-sets.sql
--- >>> Following code sets injected: selfharm-episodes v1/fracture v1
+set(StudyEndDate)   = to_date('2024-10-31');
 
 
--- ... processing [[create-output-table::"3_AdverseEvents"]] ... 
--- ... Need to create an output table called "3_AdverseEvents" and replace 
+-- ... processing [[create-output-table::"LH006-3_AdverseEvents"]] ... 
+-- ... Need to create an output table called "LH006-3_AdverseEvents" and replace 
 -- ... the GmPseudo column with a study-specific random patient id.
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."3_AdverseEvents_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."3_AdverseEvents_WITH_PSEUDO_IDS" AS
-SELECT DISTINCT
-	cohort."GmPseudo",  -- NEEDS PSEUDONYMISING
-	to_date("EventDate") as "EventDate",
-	cs.concept AS "Concept",
-	"SuppliedCode", 
-	"Term" AS "Description"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen" cohort
-LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" events ON events."FK_Patient_ID" = cohort."FK_Patient_ID"
-LEFT OUTER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_06_Chen" cs ON cs.code = events."SuppliedCode" 
-WHERE cs.concept IN ('selfharm-episodes', 'fracture')
-	AND TO_DATE(events."EventDate") BETWEEN $StudyStartDate AND $StudyEndDate;
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-3_AdverseEvents_WITH_PSEUDO_IDS";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-3_AdverseEvents_WITH_PSEUDO_IDS" AS
+SELECT 
+    co."GmPseudo"
+    , TO_DATE(ec."Date") AS "MedicationDate"
+    , ec."SCTID" AS "SnomedCode"
+    , CASE WHEN ec."Cluster_ID" = 'eFI2_Fracture' THEN 'fracture' -- fracture
+           WHEN ec."Cluster_ID" = 'eFI2_SelfHarm' THEN 'self-harm' -- self harm
+           ELSE 'other' END AS "CodeSet"
+    , ec."Term" AS "Description"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen" co
+LEFT JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec ON co."FK_Patient_ID" = ec."FK_Patient_ID"
+WHERE "Cluster_ID" in ('eFI2_Fracture', 'eFI2_SelfHarm')
+    AND TO_DATE(ec."Date") BETWEEN $StudyStartDate and $StudyEndDate;
 
 -- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
 -- of all "new" GmPseudo ids. I.e. any GmPseudo ids that we've already got a unique id for
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_06_Chen";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_06_Chen" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."3_AdverseEvents_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-3_AdverseEvents_WITH_PSEUDO_IDS"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_06_Chen";
 
@@ -66,8 +60,8 @@ FROM "AllPseudos_SDE_Lighthouse_06_Chen";
 -- Finally, we select from the output table which includes the GmPseudos, in order
 -- to populate the table for the end users where the GmPseudo fields are redacted via a function
 -- created in the 0.code-sets.sql file
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."3_AdverseEvents";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."3_AdverseEvents" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-3_AdverseEvents";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-3_AdverseEvents" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_06_Chen("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."3_AdverseEvents_WITH_PSEUDO_IDS";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-3_AdverseEvents_WITH_PSEUDO_IDS";

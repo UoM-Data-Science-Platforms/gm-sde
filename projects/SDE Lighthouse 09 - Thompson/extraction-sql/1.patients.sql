@@ -7,7 +7,7 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- Cohort: 30-70 year old women, alive in 2020
 
 set(StudyStartDate) = to_date('2020-01-01');
-set(StudyEndDate)   = to_date('2024-09-31');
+set(StudyEndDate)   = to_date('2024-09-30');
 
 
 --┌─────────────────────────────────────────────────────────────────┐
@@ -53,30 +53,52 @@ INNER JOIN (
     ) t2
 ON t2."GmPseudo" = p."GmPseudo" AND t2.LatestSnapshot = p."Snapshot";
 
+-- CREATE A PATIENT SUMMARY TABLE TO WORK OUT WHICH PATIENTS HAVE LEFT GM 
+-- AND THEREFORE THEIR DATA FEED STOPPED 
+
+drop table if exists PatientSummary;
+create temporary table PatientSummary as
+select dem."GmPseudo", 
+        min("Snapshot") as "min", 
+        max("Snapshot") as "max", 
+        max(DeathDate) as DeathDate
+from PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" dem
+LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
+group by dem."GmPseudo";
+
+-- FIND THE DATE THAT PATIENT LEFT GM
+
+drop table if exists leftGMDate;
+create temporary table leftGMDate as 
+select *,
+    case when DeathDate is null and "max" < (select max("max") from PatientSummary) then "max" else null end as leftGMDate
+from PatientSummary;
+
 -- FIND ALL ADULT PATIENTS ALIVE AT STUDY START DATE
 
 DROP TABLE IF EXISTS AlivePatientsAtStart;
 CREATE TEMPORARY TABLE AlivePatientsAtStart AS 
 SELECT  
     dem.*, 
-    Death.DeathDate
+    Death.DeathDate,
+	l.leftGMDate
 FROM LatestSnapshot dem
 LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
+LEFT JOIN leftGMDate l ON l."GmPseudo" = dem."GmPseudo"
 WHERE 
-    (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
-
+    (Death.DeathDate IS NULL OR Death.DeathDate > $StudyStartDate) -- alive on study start date
+	AND 
+	(leftGMDate IS NULL OR leftGMDate > $StudyEndDate); -- if patient left GM (therefore we stop receiving their data), ensure it is after study end date
 
 -- GET COHORT OF WOMEN 30 - 70 YEARS OLD
 
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_09_Thompson";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_09_Thompson" AS 
-SELECT "GmPseudo", "FK_Patient_ID" 
+SELECT DISTINCT "GmPseudo", "FK_Patient_ID" 
 FROM AlivePatientsAtStart ap
 WHERE DATEDIFF(YEAR, "DateOfBirth",$StudyStartDate) BETWEEN 30 AND 70  -- over 50 in 2016
-	AND Sex = 'F'
+	AND "Sex" = 'F'
 LIMIT 1000; --THIS IS TEMPORARY
-
-
 
 
 -- FOR THE ABOVE COHORT, GET ALL REQUIRED DEMOGRAPHICS

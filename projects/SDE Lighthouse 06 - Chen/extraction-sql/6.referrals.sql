@@ -12,17 +12,17 @@ set(StudyStartDate) = to_date('2017-01-01');
 set(StudyEndDate)   = to_date('2023-12-31');
 
 
--- ... processing [[create-output-table::"6_Referrals"]] ... 
--- ... Need to create an output table called "6_Referrals" and replace 
+-- ... processing [[create-output-table::"LH006-6_Referrals"]] ... 
+-- ... Need to create an output table called "LH006-6_Referrals" and replace 
 -- ... the GmPseudo column with a study-specific random patient id.
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."6_Referrals_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."6_Referrals_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-6_Referrals_WITH_PSEUDO_IDS";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-6_Referrals_WITH_PSEUDO_IDS" AS
 SELECT 
     co."GmPseudo" -- NEEDS PSEUDONYMISING
-    , TO_DATE(ec."EventDate") AS "MedicationDate"
+    , TO_DATE(ec."Date") AS "MedicationDate"
     , ec."SCTID" AS "SnomedCode"
     , CASE WHEN ec."Cluster_ID" = 'SOCPRESREF_COD' THEN 'social prescribing referral'
 			WHEN ("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%physiotherap%') THEN 'physiotherapy-referral'
@@ -33,7 +33,7 @@ SELECT
            ELSE 'other' END AS "CodeSet"
     , ec."Term" AS "Description"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen" co 
-LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."EventsClusters" ec ON ec."FK_Patient_ID" = co."FK_Patient_ID"
+LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec ON ec."FK_Patient_ID" = co."FK_Patient_ID"
 WHERE 
 	(
     ("Cluster_ID" in ('SOCPRESREF_COD')) OR-- social prescribing referral
@@ -43,14 +43,14 @@ WHERE
 	("Cluster_ID" in ('REFERRAL_COD') AND lower("Term") LIKE '%pain%') OR -- pain-related  referral  
 	("Cluster_ID" in ('REFERRAL_COD') AND (lower("Term") like '%surgeon%' or lower("Term") like '%surgery%' or lower("Term") like '%surgical%' )) -- surgery referral 
     )
-AND TO_DATE(ec."EventDate") BETWEEN $StudyStartDate and $StudyEndDate;
+AND TO_DATE(ec."Date") BETWEEN $StudyStartDate and $StudyEndDate;
 
 -- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
 -- of all "new" GmPseudo ids. I.e. any GmPseudo ids that we've already got a unique id for
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_06_Chen";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_06_Chen" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."6_Referrals_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-6_Referrals_WITH_PSEUDO_IDS"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_06_Chen";
 
@@ -72,8 +72,8 @@ FROM "AllPseudos_SDE_Lighthouse_06_Chen";
 -- Finally, we select from the output table which includes the GmPseudos, in order
 -- to populate the table for the end users where the GmPseudo fields are redacted via a function
 -- created in the 0.code-sets.sql file
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."6_Referrals";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."6_Referrals" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-6_Referrals";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-6_Referrals" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_06_Chen("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."6_Referrals_WITH_PSEUDO_IDS";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-6_Referrals_WITH_PSEUDO_IDS";

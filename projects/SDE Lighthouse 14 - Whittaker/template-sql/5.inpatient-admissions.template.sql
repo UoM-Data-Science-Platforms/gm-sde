@@ -8,10 +8,10 @@
 -- Date range: 2018 to present
 
 set(StudyStartDate) = to_date('2018-01-01');
-set(StudyEndDate)   = to_date('2024-05-31');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- get all inpatient admissions
-{{create-output-table::"5_InpatientAdmissions"}}
+{{create-output-table::"LH014-5_InpatientAdmissions"}}
 SELECT 
     "GmPseudo" -- NEEDS PSEUDONYMISING
     , TO_DATE("AdmissionDttm") AS "AdmissionDate"

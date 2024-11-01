@@ -1,14 +1,12 @@
---┌──────────────────────────────────────────────┐
---│ SDE Lighthouse study 15 - Patients           │
---└──────────────────────────────────────────────┘
+
+--┌───────────────────────────────────────────────────────────────────────────────┐
+--│ Define Cohort for LH015: patients from the ADAPT cohort and matched controls  │
+--└───────────────────────────────────────────────────────────────────────────────┘
 
 -------- RESEARCH DATA ENGINEER CHECK ------------
 
 --------------------------------------------------
 
---┌───────────────────────────────────────────────────────────────────────────────┐
---│ Define Cohort for LH015: patients from the ADAPT cohort and matched controls  │
---└───────────────────────────────────────────────────────────────────────────────┘
 
 -- OBJECTIVE: To build the cohort of patients needed for LH015. This reduces duplication of code in the template scripts.
 
@@ -161,6 +159,72 @@ SELECT
   c.Sex,
   c.MatchingYearOfBirth,
   c.PatientId AS PatientWhoIsMatched,
-select * FROM CohortStore c;
+FROM CohortStore c;
 
-{{no-output-table}}
+
+-- create final cohort table by combining main and matched cohort
+
+{{create-output-table-matched-cohort::"LH015-1_Patients"}}
+SELECT 
+	 m."GmPseudo",
+	 D."Snapshot",
+     NULL AS "MainCohortMatchedGmPseudo",
+     m.Sex AS "Sex",
+     D."DateOfBirth" AS "YearAndMonthOfBirth",
+	 EthnicCategory AS "EthnicCategory",
+	 LSOA11 AS "LSOA11", 
+	"IMD_Decile", 
+	"PracticeCode", 
+	"Frailty",
+	 --IndexDate,
+	 dth.DeathDate AS "DeathDate",
+	"DiagnosisOriginalMentionCode" AS "CauseOfDeathCode",
+	"DiagnosisOriginalMentionDesc" AS "CauseOfDeathDesc",
+	"DiagnosisOriginalMentionChapterCode" AS "CauseOfDeathChapterCode",
+    "DiagnosisOriginalMentionChapterDesc" AS "CauseOfDeathChapterDesc",
+    "DiagnosisOriginalMentionCategory1Code" AS "CauseOfDeathCategoryCode",
+    "DiagnosisOriginalMentionCategory1Desc" AS "CauseOfDeathCategoryDesc",
+FROM MainCohort m
+LEFT OUTER JOIN Death dth ON dth."GmPseudo" = m."GmPseudo"
+LEFT OUTER JOIN AlivePatientsAtStart D on D."GmPseudo" = m."GmPseudo"
+WHERE D."Snapshot" <= '2022-07-01'
+QUALIFY row_number() OVER (PARTITION BY D."GmPseudo" ORDER BY D."Snapshot" DESC) = 1 -- this brings back the values from the most recent snapshot
+UNION
+SELECT
+ 	 m."GmPseudo",
+	 D."Snapshot",
+	 PatientWhoIsMatched AS "MainCohortMatchedGmPseudo", 
+     m.Sex AS "Sex",
+     D."DateOfBirth" AS "YearAndMonthOfBirth",
+	 EthnicCategory AS "EthnicCategory",
+	 LSOA11 AS "LSOA11", 
+	"IMD_Decile", 
+	"PracticeCode", 
+	"Frailty",
+	 dth.DeathDate AS "DeathDate",
+	"DiagnosisOriginalMentionCode" AS "CauseOfDeathCode",
+	"DiagnosisOriginalMentionDesc" AS "CauseOfDeathDesc",
+	"DiagnosisOriginalMentionChapterCode" AS "CauseOfDeathChapterCode",
+    "DiagnosisOriginalMentionChapterDesc" AS "CauseOfDeathChapterDesc",
+    "DiagnosisOriginalMentionCategory1Code" AS "CauseOfDeathCategoryCode",
+    "DiagnosisOriginalMentionCategory1Desc" AS "CauseOfDeathCategoryDesc",
+FROM MatchedCohort m
+LEFT JOIN Death dth ON dth."GmPseudo" = m."GmPseudo"
+LEFT OUTER JOIN AlivePatientsAtStart D on D."GmPseudo" = m."GmPseudo"
+WHERE D."Snapshot" <= '2022-07-01'
+QUALIFY row_number() OVER (PARTITION BY D."GmPseudo" ORDER BY D."Snapshot" DESC) = 1 -- this brings back the values from the most recent snapshot
+;
+
+-- create simpler version of the above table to be the cohort table that other files pull from
+
+DROP TABLE IF EXISTS {{cohort-table}};
+CREATE TABLE {{cohort-table}} AS 
+SELECT 
+	 m."GmPseudo",
+     NULL AS "MainCohortMatchedPatientId"
+FROM MainCohort m
+UNION
+SELECT
+ 	 m."GmPseudo",
+	 PatientWhoIsMatched AS "MainCohortMatchedPatientId", 
+FROM MatchedCohort m;

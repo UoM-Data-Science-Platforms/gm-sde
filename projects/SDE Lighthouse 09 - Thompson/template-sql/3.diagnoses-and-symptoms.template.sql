@@ -1,18 +1,18 @@
---┌────────────────────────────────────────────────────┐
---│ SDE Lighthouse study 06 - pain diagnoses           │
---└────────────────────────────────────────────────────┘
+--┌────────────────────────────────────────────────────────────┐
+--│ SDE Lighthouse study 09 - diagnoses and symptoms           │
+--└────────────────────────────────────────────────────────────┘
 
 -------- RESEARCH DATA ENGINEER CHECK ---------------
--- Richard Williams	2024-08-30	Review in progress --
---   Suggest diabetic neuropathy has separate      --
---   code set                                      --
 -----------------------------------------------------
 
-set(StudyStartDate) = to_date('2017-01-01');
-set(StudyEndDate)   = to_date('2023-12-31');
+set(StudyStartDate) = to_date('2020-01-01');
+set(StudyEndDate)   = to_date('2024-09-30');
 
---> CODESET chronic-pain:1 neck-problems:1 neuropathic-pain:1 chest-pain:1 post-herpetic-neuralgia:1 ankylosing-spondylitis:1
---> CODESET psoriatic-arthritis:1 fibromyalgia:1 temporomandibular-pain:1 phantom-limb-pain:1 chronic-pancreatitis:1
+--> CODESET cognitive-impairment:1 hot-flash:1 irregular-periods:1 muskuloskeletal-pain:1
+--> CODESET spondyloarthropathy:1
+
+-- TO DO : find out what neurological conditions the PI wants, as well as any skin 
+-- conditions other than psoriasis.
 
 --- create a table combining diagnoses from SDE clusters with diagnoses from GMCR code sets
 
@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS diagnoses;
 CREATE TEMPORARY TABLE diagnoses AS
 SELECT 
     cohort."GmPseudo"
-    , TO_DATE(ec."Date") AS "DiagnosisDate"
+    , TO_DATE(ec."Date") AS "Date"
     , ec."SCTID" AS "SnomedCode"
     , CASE --diagnoses
 		   WHEN ("Cluster_ID" = 'SLUPUS_COD')   					THEN 'systemic-lupus-erythematosus' 
@@ -42,23 +42,27 @@ SELECT
     , ec."Term" AS "Description"
 FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec ON ec."FK_Patient_ID" = cohort."FK_Patient_ID"
-WHERE 
-	("Cluster_ID" IN())
+WHERE (
+		"Cluster_ID" IN ('SLUPUS_COD', 'RARTH_COD', 'eFI2_InflammatoryBowelDisease', 'PSORIASIS_COD',
+					  'AST_COD', 'C19PREG_COD', 'eFI2_Anxiety','eFI2_InflammatoryBowelDisease')
+		OR "SCTID" IN ('42984000','31908003','339341000000102','169553002', 
+					   '698972004', '301806003','755621000000101', '384201000000103') 
+	  )
 AND TO_DATE(ec."Date") BETWEEN $StudyStartDate and $StudyEndDate
 AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}})
 UNION
 -- find diagnoses codes that don't exist in a cluster
 SELECT 
 	cohort."GmPseudo"
-	, to_date("EventDate") AS "DiagnosisDate"
+	, to_date("EventDate") AS "Date"
 	, events."SCTID" AS "SnomedCode"
 	, cs.concept AS "Concept"
 	, events."Term" AS "Description"
 FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" events ON events."FK_Patient_ID" = cohort."FK_Patient_ID"
 LEFT OUTER JOIN {{code-set-table}} cs ON cs.code = events."SuppliedCode" 
-WHERE cs.concept IN ('diabetic-neuropathy','chronic-pain', 'neck-problems','neuropathic-pain', 'chest-pain','post-herpetic-neuralgia', 'ankylosing-spondylitis',
-				'psoriatic-arthritis', 'fibromyalgia', 'temporomandibular-pain', 'phantom-limb-pain', 'chronic-pancreatitis' )
+WHERE cs.concept IN ('spondyloarthropathy', 'cognitive-impairment', 'hot-flash', 'irregular-periods', 
+						'muskuloskeletal-pain')
 	AND events."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}})
 	AND TO_DATE("EventDate") BETWEEN $StudyStartDate AND $StudyEndDate;
 
@@ -68,12 +72,4 @@ WHERE cs.concept IN ('diabetic-neuropathy','chronic-pain', 'neck-problems','neur
 -- so we're using sum case when statements to reduce the number of rows but indicate which code sets each code belongs to.
 
 {{create-output-table::"LH009-3_Diagnoses"}}
-SELECT 
-	"GmPseudo", -- NEEDS PSEUDONYMISING 
-	"DiagnosisDate", 
-	"SnomedCode", 
-	"Description", 
-	SUM(CASE WHEN "Concept" = 'chronic-pain' THEN 1 ELSE 0 END) AS "ChronicPain",
-    SUM(CASE WHEN "Concept" = 'diabetic-neuropathy' THEN 1 ELSE 0 END) AS "DiabeticNeuropathy",
-FROM diagnoses
-GROUP BY "GmPseudo", "DiagnosisDate", "SnomedCode", "Description";
+SELECT * from diagnoses

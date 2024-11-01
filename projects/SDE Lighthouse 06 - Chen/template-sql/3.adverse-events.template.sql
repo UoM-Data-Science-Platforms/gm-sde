@@ -6,23 +6,19 @@
 -- Richard Williams	2024-08-30	Review complete --
 --------------------------------------------------
 
--- NOTE: the SDE does have self harm and fracture code sets (eFI2_SelfHarm and eFI2_Fracture)
--- but our GMCR code sets seem more comprehensive
-
 set(StudyStartDate) = to_date('2017-01-01');
-set(StudyEndDate)   = to_date('2023-12-31');
-
---> CODESET selfharm-episodes:1 fracture:1
+set(StudyEndDate)   = to_date('2024-10-31');
 
 {{create-output-table::"LH006-3_AdverseEvents"}}
-SELECT DISTINCT
-	cohort."GmPseudo",  
-	to_date("Date") as "EventDate",
-	cs.concept AS "Concept",
-	"SuppliedCode", 
-	"Term" AS "Description"
-FROM {{cohort-table}} cohort
-LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" events ON events."FK_Patient_ID" = cohort."FK_Patient_ID"
-LEFT OUTER JOIN {{code-set-table}} cs ON cs.code = events."SuppliedCode" 
-WHERE cs.concept IN ('selfharm-episodes', 'fracture')
-	AND TO_DATE(events."Date") BETWEEN $StudyStartDate AND $StudyEndDate;
+SELECT 
+    co."GmPseudo"
+    , TO_DATE(ec."Date") AS "MedicationDate"
+    , ec."SCTID" AS "SnomedCode"
+    , CASE WHEN ec."Cluster_ID" = 'eFI2_Fracture' THEN 'fracture' -- fracture
+           WHEN ec."Cluster_ID" = 'eFI2_SelfHarm' THEN 'self-harm' -- self harm
+           ELSE 'other' END AS "CodeSet"
+    , ec."Term" AS "Description"
+FROM {{cohort-table}} co
+LEFT JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec ON co."FK_Patient_ID" = ec."FK_Patient_ID"
+WHERE "Cluster_ID" in ('eFI2_Fracture', 'eFI2_SelfHarm')
+    AND TO_DATE(ec."Date") BETWEEN $StudyStartDate and $StudyEndDate;

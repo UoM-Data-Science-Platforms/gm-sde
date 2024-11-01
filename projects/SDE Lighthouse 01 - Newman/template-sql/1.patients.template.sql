@@ -151,6 +151,7 @@ SELECT DISTINCT
      "Sex" as Sex,
      YEAR("DateOfBirth") AS YearOfBirth,
 	 "EthnicityLatest_Category" AS EthnicCategory,
+	 --Cohort : IPTIP or PROGRESS
 	 --IndexDate : DATE OF STUDY START : IPTIP OR PROGRESS -- SET AS PROGRESS FOR NOW TO TEST
 	 '2022-07-01' AS IndexDate,
 	 "Snapshot"
@@ -183,6 +184,9 @@ WHERE p."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
 QUALIFY row_number() OVER (PARTITION BY p."GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot
 
 
+
+-- TODO : create a replica of the above table but with a diff snapshot date based on 
+
 -- run matching script with parameters filled in
 
 --> EXECUTE query-cohort-matching-yob-sex-ethnicity.sql yob-flex:2 num-matches:5
@@ -211,7 +215,7 @@ SELECT
 	 LSOA11 AS "LSOA11", 
 	"IMD_Decile", 
 	"PracticeCode", 
-	"Frailty", -- 92% missingness
+	"Frailty", 
 	 --IndexDate,
 	 dth.DeathDate AS "DeathDate",
 	"DiagnosisOriginalMentionCode" AS "CauseOfDeathCode",
@@ -236,7 +240,7 @@ SELECT
 	 LSOA11 AS "LSOA11", 
 	"IMD_Decile", 
 	"PracticeCode", 
-	"Frailty", -- 92% missingness
+	"Frailty", 
 	 dth.DeathDate AS "DeathDate",
 	"DiagnosisOriginalMentionCode" AS "CauseOfDeathCode",
 	"DiagnosisOriginalMentionDesc" AS "CauseOfDeathDesc",

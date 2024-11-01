@@ -25,7 +25,7 @@ DROP TABLE IF EXISTS diagnoses;
 CREATE TEMPORARY TABLE diagnoses AS
 SELECT 
     cohort."GmPseudo"
-    , TO_DATE(ec."EventDate") AS "DiagnosisDate"
+    , TO_DATE(ec."Date") AS "DiagnosisDate"
     , ec."SCTID" AS "SnomedCode"
     , CASE WHEN ("Cluster_ID" = 'eFI2_PeripheralNeuropathy')    THEN 'peripheral-neuropathy' 
 		   WHEN ("Cluster_ID" = 'RARTH_COD') 					THEN 'rheumatoid-arthritis'
@@ -34,7 +34,7 @@ SELECT
            ELSE 'other' END AS "Concept"
     , ec."Term" AS "Description"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen" cohort
-LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."EventsClusters" ec ON ec."FK_Patient_ID" = cohort."FK_Patient_ID"
+LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec ON ec."FK_Patient_ID" = cohort."FK_Patient_ID"
 WHERE 
 	(
 	("Cluster_ID" = 'eFI2_PeripheralNeuropathy') OR -- peripheral neuropathy
@@ -42,7 +42,7 @@ WHERE
 	("Cluster_ID" = 'eFI2_Osteoarthritis') OR -- osteoarthritis
 	("Cluster_ID" = 'eFI2_BackPainTimeSensitive') -- back pain in last 5 years
 	)
-AND TO_DATE(ec."EventDate") BETWEEN $StudyStartDate and $StudyEndDate
+AND TO_DATE(ec."Date") BETWEEN $StudyStartDate and $StudyEndDate
 AND ec."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen")
 UNION
 -- find diagnoses codes that don't exist in a cluster
@@ -66,14 +66,14 @@ WHERE cs.concept IN ('diabetic-neuropathy','chronic-pain', 'neck-problems','neur
 -- so we're using sum case when statements to reduce the number of rows but indicate which code sets each code belongs to.
 
 
--- ... processing [[create-output-table::"5_PainDiagnoses"]] ... 
--- ... Need to create an output table called "5_PainDiagnoses" and replace 
+-- ... processing [[create-output-table::"LH006-5_PainDiagnoses"]] ... 
+-- ... Need to create an output table called "LH006-5_PainDiagnoses" and replace 
 -- ... the GmPseudo column with a study-specific random patient id.
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."5_PainDiagnoses_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."5_PainDiagnoses_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-5_PainDiagnoses_WITH_PSEUDO_IDS";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-5_PainDiagnoses_WITH_PSEUDO_IDS" AS
 SELECT 
 	"GmPseudo", -- NEEDS PSEUDONYMISING 
 	"DiagnosisDate", 
@@ -103,7 +103,7 @@ GROUP BY "GmPseudo", "DiagnosisDate", "SnomedCode", "Description";
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_06_Chen";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_06_Chen" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."5_PainDiagnoses_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-5_PainDiagnoses_WITH_PSEUDO_IDS"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_06_Chen";
 
@@ -125,8 +125,8 @@ FROM "AllPseudos_SDE_Lighthouse_06_Chen";
 -- Finally, we select from the output table which includes the GmPseudos, in order
 -- to populate the table for the end users where the GmPseudo fields are redacted via a function
 -- created in the 0.code-sets.sql file
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."5_PainDiagnoses";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."5_PainDiagnoses" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-5_PainDiagnoses";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-5_PainDiagnoses" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_06_Chen("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."5_PainDiagnoses_WITH_PSEUDO_IDS";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-5_PainDiagnoses_WITH_PSEUDO_IDS";

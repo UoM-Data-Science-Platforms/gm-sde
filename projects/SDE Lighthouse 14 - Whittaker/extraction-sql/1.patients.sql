@@ -22,7 +22,7 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- CODESET allergy-ace:1      
 
 set(StudyStartDate) = to_date('2018-01-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 ---- find the latest snapshot for each spell, to get all virtual ward patients
 
@@ -56,14 +56,14 @@ WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Coh
 -- patient demographics table
 
 
--- ... processing [[create-output-table::"1_Patients"]] ... 
--- ... Need to create an output table called "1_Patients" and replace 
+-- ... processing [[create-output-table::"LH014-1_Patients"]] ... 
+-- ... Need to create an output table called "LH014-1_Patients" and replace 
 -- ... the GmPseudo column with a study-specific random patient id.
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."1_Patients_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."1_Patients_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients_WITH_PSEUDO_IDS";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients_WITH_PSEUDO_IDS" AS
 SELECT *
 FROM (
 SELECT 
@@ -94,7 +94,7 @@ QUALIFY row_number() OVER (PARTITION BY D."GmPseudo" ORDER BY "Snapshot" DESC) =
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_14_Whittaker";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_14_Whittaker" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."1_Patients_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients_WITH_PSEUDO_IDS"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_14_Whittaker";
 
@@ -116,10 +116,11 @@ FROM "AllPseudos_SDE_Lighthouse_14_Whittaker";
 -- Finally, we select from the output table which includes the GmPseudos, in order
 -- to populate the table for the end users where the GmPseudo fields are redacted via a function
 -- created in the 0.code-sets.sql file
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."1_Patients";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."1_Patients" AS
-SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_14_Whittaker("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."1_Patients_WITH_PSEUDO_IDS";
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients" AS
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_14_Whittaker("GmPseudo") AS "PatientID",
+	* EXCLUDE "GmPseudo"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients_WITH_PSEUDO_IDS";
 
 ---------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------

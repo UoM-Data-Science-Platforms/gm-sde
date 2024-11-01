@@ -11,7 +11,7 @@ set(StudyEndDate)   = to_date('2024-09-30');
 
 {{create-output-table::"LH009-7_AEAdmissions"}}
 SELECT 
-	E."GmPseudo",  -- NEEDS PSEUDONYMISING
+	E."GmPseudo",  
 	TO_DATE(E."ArrivalDate") AS "ArrivalDate",
 	TO_DATE(E."EcDepartureDate") AS "DepartureDate",
 	E."EcDuration" AS LOS_Mins,

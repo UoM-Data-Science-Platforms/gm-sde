@@ -20,7 +20,7 @@
 -- CODESET allergy-ace:1      
 
 set(StudyStartDate) = to_date('2018-01-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 ---- find the latest snapshot for each spell, to get all virtual ward patients
 
@@ -53,7 +53,7 @@ WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}});
 
 -- patient demographics table
 
-{{create-output-table::"1_Patients"}}
+{{create-output-table::"LH014-1_Patients"}}
 SELECT *
 FROM (
 SELECT 

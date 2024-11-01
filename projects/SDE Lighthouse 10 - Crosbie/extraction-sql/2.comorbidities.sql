@@ -4,6 +4,9 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --│ SDE Lighthouse study 10 - Crosbie - comorbidities │
 --└───────────────────────────────────────────────────┘
 
+set(StudyStartDate) = to_date('2016-01-01');
+set(StudyEndDate)   = to_date('2024-08-01');
+
 DROP TABLE IF EXISTS StandardLTCs;
 CREATE TEMPORARY TABLE StandardLTCs AS
 SELECT
@@ -21,9 +24,12 @@ SELECT
 	"NonDiabeticHyperglycemia_DiagnosisDate", "Obesity_DiagnosisDate", "Osteoporosis_DiagnosisDate", "PainfulCondition_DiagnosisDate",
 	"PalliativeCare_DiagnosisDate", "ParkinsonsDisease_DiagnosisDate", "PepticUlcerDisease_DiagnosisDate",
 	"PeripheralArterialDisease_DiagnosisDate", "ProstateDisorder_DiagnosisDate", "Psoriasis_DiagnosisDate",
-	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate"
-FROM GP_RECORD."LongTermConditionRegister_Diagnosis"
+	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate",
+	"LTCCount_CambridgeMultimorbidityScore","CambridgeMultimorbidityScoreWeight_Consultations", "CambridgeMultimorbidityScoreWeight_Mortality",
+	"CambridgeMultimorbidityScoreWeight_EmergencyAdmissions", "CambridgeMultimorbidityScoreWeight_General", "CambridgeMultimorbidityScoreSegment"
+FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie")
+	AND "Snapshot" <= $StudyEndDate
 QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot
 
 -- load codesets for conditions not in above LTC table
@@ -39,7 +45,7 @@ CREATE TEMPORARY TABLE OtherDiags AS
 SELECT DISTINCT
 	e."FK_Patient_ID"
 	, dem."GmPseudo"
-	, to_date("EventDate") AS "DiagnosisDate"
+	, to_date("Date") AS "DiagnosisDate"
 	, e."SCTID" AS "SnomedCode"
 	, cs.concept
 	, e."Term" AS "Description"
@@ -47,7 +53,8 @@ FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
 LEFT JOIN SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_10_Crosbie" cs ON cs.code = e."SuppliedCode"
 LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" dem ON dem."FK_Patient_ID" = co."FK_Patient_ID" -- join to demographics table to get GmPseudo
 WHERE cs.concept IN ('myocardial-infarction', 'angina', 'tuberculosis', 'venous-thromboembolism', 'pneumonia', 'copd', 'emphysema', 'chronic-bronchitis', 'efi-mobility-problems' )
-	AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie");
+	AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie")
+	AND "Date" <= $StudyEndDate;
 
 -- for each patient, find each comorbidity and the date of first diagnosis
 

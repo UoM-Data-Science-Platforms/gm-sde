@@ -8,11 +8,11 @@
 -- each provider starting providing VW data at different times, so data is incomplete for periods.
 
 set(StudyStartDate) = to_date('2018-01-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 ---- Use the latest snapshot for each spell and get all relevant information
 
-{{create-output-table::"2_VirtualWards"}}
+{{create-output-table::"LH014-2_VirtualWards"}}
 SELECT 
     SUBSTRING(vw."Pseudo NHS Number", 2)::INT AS "GmPseudo", 
     ROW_NUMBER() OVER(PARTITION BY "Pseudo NHS Number" ORDER BY "SnapshotDate") AS "PatientSpellNumber",
@@ -60,5 +60,5 @@ inner join (select  "Unique Spell ID", Max("SnapshotDate") "LatestRecord"
 where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate
 AND SUBSTRING(vw."Pseudo NHS Number", 2)::INT IN (select "GmPseudo" from {{cohort-table}}); -- extra check to ensure consistent cohort
 
--- 16,107 patients
---24,608 spells
+-- 22.1k patients (2.3k patients don't have a record in the patients file)
+-- 36.6k spells

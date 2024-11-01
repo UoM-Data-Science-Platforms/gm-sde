@@ -6,11 +6,11 @@
 -- Richard Williams	2024-08-09	Review complete
 
 set(StudyStartDate) = to_date('2018-01-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- find all GP contacts for virtual ward cohort
 
-{{create-output-table::"4_ContactProxy"}}
+{{create-output-table::"LH014-4_ContactProxy"}}
 SELECT
     "GmPseudo" 
     , "EventDate" as "GPProxyEncounterDate"

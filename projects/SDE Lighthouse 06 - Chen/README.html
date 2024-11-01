@@ -132,27 +132,24 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Reusable queries</h2>
 <p>This project required the following reusable queries:</p>
 <ul>
-<li>Define Cohort for LH006: patients that had multiple opioid prescriptions</li>
+<li>Create table of patients who were alive at the study start date</li>
 </ul>
 <p>Further details for each query can be found below.</p>
-<h3>Define Cohort for LH006: patients that had multiple opioid prescriptions</h3>
-<p>To build the cohort of patients needed for LH006. This reduces duplication of code in the template scripts.</p>
+<h3>Create table of patients who were alive at the study start date</h3>
+<p>undefined</p>
 <p><em>Input</em></p>
-<pre><code>none
+<pre><code>undefined
 </code></pre>
 <p><em>Output</em></p>
-<pre><code>Temp tables as follows:
- Cohort
+<pre><code>undefined
 </code></pre>
-<p><em>File</em>: <code>query-build-lh006-cohort.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-build-lh006-cohort.sql">https://github.com/rw251/.../query-build-lh006-cohort.sql</a></p>
+<p><em>File</em>: <code>query-get-possible-patients.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql">https://github.com/rw251/.../query-get-possible-patients.sql</a></p>
 <h2>Clinical code sets</h2>
 <p>This project required the following clinical code sets:</p>
 <ul>
 <li>chronic-pain v1</li>
 <li>cancer v1</li>
-<li>selfharm-episodes v1</li>
-<li>fracture v1</li>
 <li>neck-problems v1</li>
 <li>neuropathic-pain v1</li>
 <li>chest-pain v1</li>
@@ -308,107 +305,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tr>
 </tbody>
 </table>
-<h3>Self-harm Episodes</h3>
-<p>Defined as any episode of self-harm (except accidental) or attempted suicide</p>
-<p>Readv2 code set supplied by the PI for RQ-029(Steeg)</p>
-<p>CTV3 and SNOMED code sets created using the Reference_Coding table in the GMCR, based on the Readv2 code set.</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. The prevalence range <code>3.83% - 4.17%</code> suggests that this code set is well defined.</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2021-04-14</td>
-<td>EMIS</td>
-<td>2603707</td>
-<td style="text-align:right">102353 (3.97%)</td>
-<td style="text-align:right">95004 (3.65%)</td>
-</tr>
-<tr>
-<td>2021-04-14</td>
-<td>TPP</td>
-<td>210613</td>
-<td style="text-align:right">7591 (3.61%)</td>
-<td style="text-align:right">7257 (3.45%)</td>
-</tr>
-<tr>
-<td>2021-04-14</td>
-<td>Vision</td>
-<td>333786</td>
-<td style="text-align:right">12661 (3.79%)</td>
-<td style="text-align:right">11975 (3.59%)</td>
-</tr>
-<tr>
-<td>2024-04-30</td>
-<td>EMIS</td>
-<td>2530927</td>
-<td style="text-align:right">105617 (4.17%)</td>
-<td style="text-align:right">105491 (4.17%)</td>
-</tr>
-<tr>
-<td>2024-04-30</td>
-<td>TPP</td>
-<td>201816</td>
-<td style="text-align:right">8865 (4.39%)</td>
-<td style="text-align:right">8072 (4%)</td>
-</tr>
-<tr>
-<td>2024-04-30</td>
-<td>Vision</td>
-<td>335411</td>
-<td style="text-align:right">12867 (3.84%)</td>
-<td style="text-align:right">12836 (3.83%)</td>
-</tr>
-</tbody>
-</table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/selfharm-episodes/1">https://github.com/rw251/.../patient/selfharm-episodes/1</a></p>
-<h3>Fracture</h3>
-<p>Any code indicating a fracture. Based on read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/84/codelist/res84-fracture-codes/</p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>19.6% - 23.2%</code> suggests that this code set is well defined.</p>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Practice system</th>
-<th>Population</th>
-<th style="text-align:right">Patients from ID</th>
-<th style="text-align:right">Patient from code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2023-12-13</td>
-<td>EMIS</td>
-<td>2515618</td>
-<td style="text-align:right">521295 (20.7%)</td>
-<td style="text-align:right">521373 (20.7%)</td>
-</tr>
-<tr>
-<td>2023-12-13</td>
-<td>TPP</td>
-<td>201264</td>
-<td style="text-align:right">47617 (23.7%)</td>
-<td style="text-align:right">46765 (23.2%)</td>
-</tr>
-<tr>
-<td>2023-12-13</td>
-<td>Vision</td>
-<td>334040</td>
-<td style="text-align:right">65475 (19.6%)</td>
-<td style="text-align:right">65482 (19.6%)</td>
-</tr>
-</tbody>
-</table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/fracture/1">https://github.com/rw251/.../conditions/fracture/1</a></p>
 <h3>Neck problems</h3>
 <p>Any code indicating neck problems. SNOMED codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/174/codelist/res174-neck-diagnoses/</p>
 <h4>Prevalence log</h4>

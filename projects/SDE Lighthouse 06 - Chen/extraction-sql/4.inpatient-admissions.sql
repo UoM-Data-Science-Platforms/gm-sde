@@ -9,19 +9,19 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --------------------------------------------------
 
 set(StudyStartDate) = to_date('2017-01-01');
-set(StudyEndDate)   = to_date('2023-12-31');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- get all inpatient admissions
 
 
--- ... processing [[create-output-table::"4_InpatientAdmissions"]] ... 
--- ... Need to create an output table called "4_InpatientAdmissions" and replace 
+-- ... processing [[create-output-table::"LH006-4_InpatientAdmissions"]] ... 
+-- ... Need to create an output table called "LH006-4_InpatientAdmissions" and replace 
 -- ... the GmPseudo column with a study-specific random patient id.
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."4_InpatientAdmissions_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."4_InpatientAdmissions_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-4_InpatientAdmissions_WITH_PSEUDO_IDS";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-4_InpatientAdmissions_WITH_PSEUDO_IDS" AS
 SELECT 
     ap."GmPseudo"
     , TO_DATE("AdmissionDttm") AS "AdmissionDate"
@@ -41,7 +41,7 @@ AND ap."GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Co
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_06_Chen";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_06_Chen" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."4_InpatientAdmissions_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-4_InpatientAdmissions_WITH_PSEUDO_IDS"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_06_Chen";
 
@@ -63,9 +63,9 @@ FROM "AllPseudos_SDE_Lighthouse_06_Chen";
 -- Finally, we select from the output table which includes the GmPseudos, in order
 -- to populate the table for the end users where the GmPseudo fields are redacted via a function
 -- created in the 0.code-sets.sql file
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."4_InpatientAdmissions";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."4_InpatientAdmissions" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-4_InpatientAdmissions";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-4_InpatientAdmissions" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_06_Chen("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."4_InpatientAdmissions_WITH_PSEUDO_IDS";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-4_InpatientAdmissions_WITH_PSEUDO_IDS";
 

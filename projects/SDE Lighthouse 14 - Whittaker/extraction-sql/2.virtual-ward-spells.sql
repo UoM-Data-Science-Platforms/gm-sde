@@ -10,19 +10,19 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- each provider starting providing VW data at different times, so data is incomplete for periods.
 
 set(StudyStartDate) = to_date('2018-01-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 ---- Use the latest snapshot for each spell and get all relevant information
 
 
--- ... processing [[create-output-table::"2_VirtualWards"]] ... 
--- ... Need to create an output table called "2_VirtualWards" and replace 
+-- ... processing [[create-output-table::"LH014-2_VirtualWards"]] ... 
+-- ... Need to create an output table called "LH014-2_VirtualWards" and replace 
 -- ... the GmPseudo column with a study-specific random patient id.
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."2_VirtualWards_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."2_VirtualWards_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards_WITH_PSEUDO_IDS";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards_WITH_PSEUDO_IDS" AS
 SELECT 
     SUBSTRING(vw."Pseudo NHS Number", 2)::INT AS "GmPseudo", 
     ROW_NUMBER() OVER(PARTITION BY "Pseudo NHS Number" ORDER BY "SnapshotDate") AS "PatientSpellNumber",
@@ -75,7 +75,7 @@ AND SUBSTRING(vw."Pseudo NHS Number", 2)::INT IN (select "GmPseudo" from SDE_REP
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_14_Whittaker";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_14_Whittaker" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."2_VirtualWards_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards_WITH_PSEUDO_IDS"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_14_Whittaker";
 
@@ -97,10 +97,11 @@ FROM "AllPseudos_SDE_Lighthouse_14_Whittaker";
 -- Finally, we select from the output table which includes the GmPseudos, in order
 -- to populate the table for the end users where the GmPseudo fields are redacted via a function
 -- created in the 0.code-sets.sql file
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."2_VirtualWards";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."2_VirtualWards" AS
-SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_14_Whittaker("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."2_VirtualWards_WITH_PSEUDO_IDS"; -- extra check to ensure consistent cohort
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards" AS
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_14_Whittaker("GmPseudo") AS "PatientID",
+	* EXCLUDE "GmPseudo"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards_WITH_PSEUDO_IDS"; -- extra check to ensure consistent cohort
 
 -- 16,107 patients
 --24,608 spells

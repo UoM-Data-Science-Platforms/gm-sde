@@ -5,6 +5,7 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --└────────────────────────────────────┘
 
 -- Cohort: >50s in 2016
+-- study team will do the cohort matching, so we provide all over 50s in 2016.
 
 set(StudyStartDate) = to_date('2016-01-01');
 set(StudyEndDate)   = to_date('2024-08-01');
@@ -53,18 +54,42 @@ INNER JOIN (
     ) t2
 ON t2."GmPseudo" = p."GmPseudo" AND t2.LatestSnapshot = p."Snapshot";
 
+-- CREATE A PATIENT SUMMARY TABLE TO WORK OUT WHICH PATIENTS HAVE LEFT GM 
+-- AND THEREFORE THEIR DATA FEED STOPPED 
+
+drop table if exists PatientSummary;
+create temporary table PatientSummary as
+select dem."GmPseudo", 
+        min("Snapshot") as "min", 
+        max("Snapshot") as "max", 
+        max(DeathDate) as DeathDate
+from PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" dem
+LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
+group by dem."GmPseudo";
+
+-- FIND THE DATE THAT PATIENT LEFT GM
+
+drop table if exists leftGMDate;
+create temporary table leftGMDate as 
+select *,
+    case when DeathDate is null and "max" < (select max("max") from PatientSummary) then "max" else null end as leftGMDate
+from PatientSummary;
+
 -- FIND ALL ADULT PATIENTS ALIVE AT STUDY START DATE
 
 DROP TABLE IF EXISTS AlivePatientsAtStart;
 CREATE TEMPORARY TABLE AlivePatientsAtStart AS 
 SELECT  
     dem.*, 
-    Death.DeathDate
+    Death.DeathDate,
+	l.leftGMDate
 FROM LatestSnapshot dem
 LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
+LEFT JOIN leftGMDate l ON l."GmPseudo" = dem."GmPseudo"
 WHERE 
-    (DeathDate IS NULL OR DeathDate > $StudyStartDate); -- alive on study start date
-
+    (Death.DeathDate IS NULL OR Death.DeathDate > $StudyStartDate) -- alive on study start date
+	AND 
+	(leftGMDate IS NULL OR leftGMDate > $StudyEndDate); -- if patient left GM (therefore we stop receiving their data), ensure it is after study end date
 
 -- GET COHORT OF PATIENTS THAT HAD A LUNG HEALTH CHECK
 
@@ -72,7 +97,7 @@ DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_C
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie" AS 
 SELECT "GmPseudo", "FK_Patient_ID" 
 FROM AlivePatientsAtStart
---LEFT OUTER JOIN **LUNGHEALTHCHECKTABLE**
+--LEFT OUTER JOIN **LUNGHEALTHCHECKTABLE** -- left join to identify who had a lung health check, but keep all over 50s
 WHERE DATEDIFF(YEAR, "DateOfBirth",$StudyStartDate) >= 50  -- over 50 in 2016
 LIMIT 1000; --THIS IS TEMPORARY
 
@@ -85,18 +110,18 @@ CREATE TEMPORARY TABLE PersonalHistoryCancer AS
 SELECT DISTINCT ltc."GmPseudo", "FK_Patient_ID"
 FROM PRESENTATION.GP_RECORD."LongTermConditionRegister_SecondaryUses" ltc
 WHERE ("Cancer_QOF" is not null or "Cancer_DiagnosisDate" is not null or "Cancer_DiagnosisAge" is not null or "Cancer_QOF_DiagnosedL5Y" is not null)
-	AND "GmPseudo" IN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie";
+	AND "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie");
 
 -- COPD meds
 
 DROP TABLE IF EXISTS COPDMeds;
 CREATE TEMPORARY TABLE COPDMeds AS 
 SELECT c."GmPseudo"
-    , MIN(TO_DATE(ec."MedicationDate")) AS "MinCOPDMedDate"
+    , MIN(TO_DATE(ec."Date")) AS "MinCOPDMedDate"
 FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec
 INNER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie" c ON c."FK_Patient_ID" = ec."FK_Patient_ID"
 WHERE "Field_ID" IN ('COPDICSDRUG_COD')
-	AND TO_DATE(ec."MedicationDate") <=  $StudyStartDate
+	AND TO_DATE(ec."Date") <=  $StudyStartDate
 GROUP BY c."GmPseudo";
 
 -- Statins
@@ -104,11 +129,11 @@ GROUP BY c."GmPseudo";
 DROP TABLE IF EXISTS Statins;
 CREATE TEMPORARY TABLE Statins AS 
 SELECT c."GmPseudo"
-    , MIN(TO_DATE(ec."MedicationDate")) AS "MinStatinDate"
+    , MIN(TO_DATE(ec."Date")) AS "MinStatinDate"
 FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec
 INNER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie" c ON c."FK_Patient_ID" = ec."FK_Patient_ID"
 WHERE "Field_ID" IN ('Statin')
-	AND TO_DATE(ec."MedicationDate") <=  $StudyStartDate
+	AND TO_DATE(ec."Date") <=  $StudyStartDate
 GROUP BY c."GmPseudo";
 
 -- reasonable adjustment flag
@@ -120,26 +145,44 @@ GROUP BY c."GmPseudo";
 
 DROP TABLE IF EXISTS ReasonableAdjustment;
 CREATE TEMPORARY TABLE ReasonableAdjustment AS 
+SELECT "GmPseudo", concept, MIN("Date") AS "MinDate" FROM (
 SELECT c."GmPseudo"
 	, "Field_ID" AS concept
-    , MIN(TO_DATE(ec."MedicationDate")) AS "MinDate"
+    , TO_DATE(ec."Date") AS "Date"
 FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec
 INNER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie" c ON c."FK_Patient_ID" = ec."FK_Patient_ID"
 WHERE "Field_ID" IN ('AIREQPROF_COD', 'AIFORMAT_COD', 'AIMETHOD_COD', 'AICOMSUP_COD' )
-	AND TO_DATE(ec."MedicationDate") <=  $StudyStartDate
+	AND TO_DATE(ec."Date") <=  $StudyStartDate
 UNION ALL
 -- reasonable adjustment categories 5 - 10
 SELECT 
 	 dem."GmPseudo"
 	, cs.concept
-	, MIN(to_date("EventDate")) AS "MinDate"
+	, to_date("EventDate") AS "Date"
 FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
 LEFT JOIN SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_10_Crosbie" cs ON cs.code = e."SuppliedCode"
-LEFT OUTER JOIN AlivePatientsAtStart dem ON dem."FK_Patient_ID" = co."FK_Patient_ID" -- to get GmPseudo
+LEFT OUTER JOIN AlivePatientsAtStart dem ON dem."FK_Patient_ID" = e."FK_Patient_ID" -- to get GmPseudo
 WHERE cs.concept IN ('reasonable-adjustment-category5', 'reasonable-adjustment-category6', 'reasonable-adjustment-category7', 
 					'reasonable-adjustment-category8', 'reasonable-adjustment-category9', 'reasonable-adjustment-category10')
-	AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie");
-GROUP BY dem."GmPseudo", "Field_ID";
+	AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie_GT")
+)
+GROUP BY "GmPseudo", concept;
+
+-- CONVERT REASONABLE ADJUSTMENT TABLE TO WIDE TO JOIN TO
+DROP TABLE IF EXISTS ReasonableAdjustmentWide;
+CREATE TEMPORARY TABLE ReasonableAdjustmentWide AS
+SELECT "GmPseudo",
+    CASE WHEN Concept = 'AICOMSUP_COD' THEN "MinDate" ELSE NULL END AS ReasAdjust_Cat1,
+    CASE WHEN Concept = 'AIREQPROF_COD' THEN "MinDate" ELSE NULL END AS ReasAdjust_Cat2,
+    CASE WHEN Concept = 'AIMETHOD_COD' THEN "MinDate" ELSE NULL END AS ReasAdjust_Cat3,
+    CASE WHEN Concept = 'AIFORMAT_COD' THEN "MinDate" ELSE NULL END AS ReasAdjust_Cat4,
+    CASE WHEN Concept = 'reasonable-adjustment-category5' THEN "MinDate" ELSE NULL END AS ReasAdjust_Cat5,
+    CASE WHEN Concept = 'reasonable-adjustment-category6' THEN "MinDate" ELSE NULL END AS ReasAdjust_Cat6,
+    CASE WHEN Concept = 'reasonable-adjustment-category7' THEN "MinDate" ELSE NULL END AS ReasAdjust_Cat7,
+    CASE WHEN Concept = 'reasonable-adjustment-category8' THEN "MinDate" ELSE NULL END AS ReasAdjust_Cat8,
+    CASE WHEN Concept = 'reasonable-adjustment-category9' THEN "MinDate" ELSE NULL END AS ReasAdjust_Cat9,
+    CASE WHEN Concept = 'reasonable-adjustment-category10' THEN "MinDate" ELSE NULL END AS ReasAdjust_Cat10
+FROM REASONABLEADJUSTMENT;
 
 -- FOR THE ABOVE COHORT, GET ALL REQUIRED DEMOGRAPHICS
 
@@ -161,7 +204,7 @@ SELECT
 	 dem."IMD_Decile",
 	 dem."EthnicityLatest_Category",
 	 dem."PracticeCode", 
-	 dth.DeathDate,
+	 DATE_TRUNC(month, dth.DeathDate) AS "DeathMonth", -- day of death masked
      dth."DiagnosisOriginalMentionCode" AS "ReasonForDeathCode",
      dth."DiagnosisOriginalMentionDesc" AS "ReasonForDeathDesc",
 	 dem."Frailty",
@@ -180,15 +223,23 @@ SELECT
 	 copd."MinCOPDMedDate",
 	 CASE WHEN stat."GmPseudo" IS NOT NULL THEN 1 ELSE 0 END AS "HistoryOfStatins",
 	 stat."MinStatinDate",
-	 CASE WHEN reas."GmPseudo" IS NOT NULL THEN 1 ELSE 0 END AS "ReasonableAdjustmentFlag",
-	 reas."MinReasonableAdjustmentDate"
+	 reas.ReasAdjust_Cat1 AS "ReasonableAdjustment1_MinDate",
+     reas.ReasAdjust_Cat2 AS "ReasonableAdjustment2_MinDate",
+     reas.ReasAdjust_Cat3 AS "ReasonableAdjustment3_MinDate",
+     reas.ReasAdjust_Cat4 AS "ReasonableAdjustment4_MinDate",
+     reas.ReasAdjust_Cat5 AS "ReasonableAdjustment5_MinDate",
+     reas.ReasAdjust_Cat6 AS "ReasonableAdjustment6_MinDate",
+     reas.ReasAdjust_Cat7 AS "ReasonableAdjustment7_MinDate",
+     reas.ReasAdjust_Cat8 AS "ReasonableAdjustment8_MinDate",
+     reas.ReasAdjust_Cat9 AS "ReasonableAdjustment9_MinDate",
+     reas.ReasAdjust_Cat10 AS "ReasonableAdjustment10_MinDate"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie"  co
 LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" dem ON dem."GmPseudo" = co."GmPseudo"
 LEFT OUTER JOIN Death dth ON dth."GmPseudo" = co."GmPseudo"
 LEFT OUTER JOIN PersonalHistoryCancer phc ON phc."GmPseudo" = co."GmPseudo"
 LEFT OUTER JOIN COPDMeds copd ON copd."GmPseudo" = co."GmPseudo" 
 LEFT OUTER JOIN Statins stat ON stat."GmPseudo" = co."GmPseudo" 
-LEFT OUTER JOIN ReasonableAdjustment reas ON reas."GmPseudo" = co."GmPseudo"
+LEFT OUTER JOIN ReasonableAdjustmentWide reas ON reas."GmPseudo" = co."GmPseudo"
 QUALIFY row_number() OVER (PARTITION BY dem."GmPseudo" ORDER BY "Snapshot" DESC) = 1;
 
 -- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 

@@ -22,8 +22,10 @@ SELECT
 	"NonDiabeticHyperglycemia_DiagnosisDate", "Obesity_DiagnosisDate", "Osteoporosis_DiagnosisDate", "PainfulCondition_DiagnosisDate",
 	"PalliativeCare_DiagnosisDate", "ParkinsonsDisease_DiagnosisDate", "PepticUlcerDisease_DiagnosisDate",
 	"PeripheralArterialDisease_DiagnosisDate", "ProstateDisorder_DiagnosisDate", "Psoriasis_DiagnosisDate",
-	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate"
-FROM GP_RECORD."LongTermConditionRegister_SecondaryUses"
+	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate",
+	"LTCCount_CambridgeMultimorbidityScore","CambridgeMultimorbidityScoreWeight_Consultations", "CambridgeMultimorbidityScoreWeight_Mortality",
+	"CambridgeMultimorbidityScoreWeight_EmergencyAdmissions", "CambridgeMultimorbidityScoreWeight_General", "CambridgeMultimorbidityScoreSegment"
+FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}})
 	AND "Snapshot" <= $StudyEndDate
 QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot

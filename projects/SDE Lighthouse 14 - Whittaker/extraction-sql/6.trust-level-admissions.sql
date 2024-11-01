@@ -10,7 +10,7 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- Date range: 2018 to present
 
 set(StudyStartDate) = to_date('2018-04-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- CREATE A TABLE OF ADMISSIONS FROM GM TRUSTS
 DROP TABLE IF EXISTS ManchesterTrusts;
@@ -36,8 +36,8 @@ WHERE "ProviderDesc" IN    -- limit to trusts that have virtual ward data
 -- There are no patient ids ("GmPseudo") so we don't need to 
 -- obfuscate them. Instead we just create a table, readable by the analysts
 -- where we put the data.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."6a_TrustLevelAdmissions";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."6a_TrustLevelAdmissions" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-6a_TrustLevelAdmissions";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-6a_TrustLevelAdmissions" AS
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -53,8 +53,8 @@ order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 -- There are no patient ids ("GmPseudo") so we don't need to 
 -- obfuscate them. Instead we just create a table, readable by the analysts
 -- where we put the data.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."6b_TrustLevelReadmissions";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."6b_TrustLevelReadmissions" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-6b_TrustLevelReadmissions";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-6b_TrustLevelReadmissions" AS
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -72,8 +72,8 @@ order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 -- There are no patient ids ("GmPseudo") so we don't need to 
 -- obfuscate them. Instead we just create a table, readable by the analysts
 -- where we put the data.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."6c_TrustLevelAdmissions_icd";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."6c_TrustLevelAdmissions_icd" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-6c_TrustLevelAdmissions_icd";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-6c_TrustLevelAdmissions_icd" AS
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -101,8 +101,8 @@ order by
 -- There are no patient ids ("GmPseudo") so we don't need to 
 -- obfuscate them. Instead we just create a table, readable by the analysts
 -- where we put the data.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."6d_TrustLevelAdmissions_age";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."6d_TrustLevelAdmissions_age" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-6d_TrustLevelAdmissions_age";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-6d_TrustLevelAdmissions_age" AS
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -128,7 +128,7 @@ group by
          when "AgeAtStartOfSpellSus" between 51 and 70  then '4. 51-70'
          when "AgeAtStartOfSpellSus" between 71 and 90  then '5. 71-90'
          when "AgeAtStartOfSpellSus" > 90  then '6. >90'
-            else null end
+            else end NULL
 order by 
       YEAR("AdmissionDttm")
     , MONTH("AdmissionDttm")
@@ -139,8 +139,7 @@ order by
          when "AgeAtStartOfSpellSus" between 51 and 70  then '4. 51-70'
          when "AgeAtStartOfSpellSus" between 71 and 90  then '5. 71-90'
          when "AgeAtStartOfSpellSus" > 90  then '6. >90'
-            else null end;
-
+            else end NULL;
 
 -- Emergency department attendances: 
 	-- Total
@@ -167,8 +166,8 @@ AND  TO_DATE("ArrivalDate") between $StudyStartDate and $StudyEndDate;
 -- There are no patient ids ("GmPseudo") so we don't need to 
 -- obfuscate them. Instead we just create a table, readable by the analysts
 -- where we put the data.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."6e_TrustLevelAEAdmissions";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."6e_TrustLevelAEAdmissions" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-6e_TrustLevelAEAdmissions";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-6e_TrustLevelAEAdmissions" AS
 SELECT
 	  YEAR("ArrivalDate") AS "Year"
     , MONTH("ArrivalDate") AS "Month"
@@ -183,15 +182,15 @@ GROUP BY
 ORDER BY 
 	  YEAR("ArrivalDate")
     , MONTH("ArrivalDate")
-	, "ProviderDesc"
+	, "ProviderDesc";
 
 -- by Age band
 
 -- There are no patient ids ("GmPseudo") so we don't need to 
 -- obfuscate them. Instead we just create a table, readable by the analysts
 -- where we put the data.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."6f_TrustLevelAEAdmissions_age";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."6f_TrustLevelAEAdmissions_age" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-6f_TrustLevelAEAdmissions_age";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-6f_TrustLevelAEAdmissions_age" AS
 SELECT
 	  YEAR("ArrivalDate") AS "Year"
     , MONTH("ArrivalDate") AS "Month"
@@ -225,5 +224,4 @@ ORDER BY YEAR("ArrivalDate")
          when "AgeAtArrival" between 51 and 70  then '4. 51-70'
          when "AgeAtArrival" between 71 and 90  then '5. 71-90'
          when "AgeAtArrival" > 90  then '6. >90'
-            else NULL end
-;
+            else NULL end;

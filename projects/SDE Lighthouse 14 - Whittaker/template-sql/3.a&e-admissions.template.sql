@@ -8,11 +8,11 @@
 -- Date range: 2018 to present
 
 set(StudyStartDate) = to_date('2018-01-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- get all a&e admissions for the virtual ward cohort
 
-{{create-output-table::"3_AEAdmissions"}}
+{{create-output-table::"LH014-3_AEAdmissions"}}
 SELECT 
 E."GmPseudo", 
 TO_DATE(E."ArrivalDate") AS "ArrivalDate",

@@ -8,7 +8,7 @@
 -- Date range: 2018 to present
 
 set(StudyStartDate) = to_date('2018-04-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- CREATE A TABLE OF ADMISSIONS FROM GM TRUSTS
 DROP TABLE IF EXISTS ManchesterTrusts;
@@ -30,25 +30,25 @@ WHERE "ProviderDesc" IN    -- limit to trusts that have virtual ward data
 -- MONTHLY ADMISSION COUNTS AND AVG LENGTH OF STAY BY TRUST
 
     -- GROUP BY TRUST ONLY
-{{create-output-table-no-gmpseudo-ids::"6a_TrustLevelAdmissions"}}
+{{create-output-table-no-gmpseudo-ids::"LH014-6a_TrustLevelAdmissions"}}
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
     ,"ProviderDesc"
     , count(*) as Admissions  
-    , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
+    , AVG("HospitalSpellDuration") as "Avg_LengthOfStayDays" 
 from ManchesterTrusts
 group by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
    -- READMISSIONS ONLY
-{{create-output-table-no-gmpseudo-ids::"6b_TrustLevelReadmissions"}}
+{{create-output-table-no-gmpseudo-ids::"LH014-6b_TrustLevelReadmissions"}}
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
     ,"ProviderDesc"
     , count(*) as Readmissions  
-    , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
+    , AVG("HospitalSpellDuration") as "Avg_LengthOfStayDays" 
 FROM ManchesterTrusts
 WHERE "IsReadmission" = 'TRUE'
 group by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
@@ -56,7 +56,7 @@ order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
     -- GROUP BY TRUST AND ICD CATEGORY 
 
-{{create-output-table-no-gmpseudo-ids::"6c_TrustLevelAdmissions_icd"}}
+{{create-output-table-no-gmpseudo-ids::"LH014-6c_TrustLevelAdmissions_icd"}}
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -64,7 +64,7 @@ select
     , "DerPrimaryDiagnosisChapterCodeReportingEpisode" as PrimaryICDCategoryCode
     , "DerPrimaryDiagnosisChapterDescReportingEpisode" as PrimaryICDCategoryDesc
     , count(*) as Admissions  
-    , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
+    , AVG("HospitalSpellDuration") as "Avg_LengthOfStayDays" 
 FROM ManchesterTrusts
 group by   
       YEAR("AdmissionDttm") 
@@ -80,7 +80,7 @@ order by
     , "DerPrimaryDiagnosisChapterDescReportingEpisode";
 
     -- GROUP BY TRUST AND AGE BAND
-{{create-output-table-no-gmpseudo-ids::"6d_TrustLevelAdmissions_age"}}
+{{create-output-table-no-gmpseudo-ids::"LH014-6d_TrustLevelAdmissions_age"}}
 select 
       YEAR("AdmissionDttm") AS "Year"
     , MONTH("AdmissionDttm") AS "Month"
@@ -93,7 +93,7 @@ select
          when "AgeAtStartOfSpellSus" > 90  then '6. >90'
             else NULL end as AgeBand
     , count(*) as Admissions  
-    , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
+    , AVG("HospitalSpellDuration") as "Avg_LengthOfStayDays" 
 from ManchesterTrusts
 WHERE "AgeAtStartOfSpellSus" between 0 and 120 -- REMOVE UNREALISTIC VALUES
 group by 
@@ -140,7 +140,7 @@ AND  TO_DATE("ArrivalDate") between $StudyStartDate and $StudyEndDate;
 
     
 -- total
-{{create-output-table-no-gmpseudo-ids::"6e_TrustLevelAEAdmissions"}}
+{{create-output-table-no-gmpseudo-ids::"LH014-6e_TrustLevelAEAdmissions"}}
 SELECT
 	  YEAR("ArrivalDate") AS "Year"
     , MONTH("ArrivalDate") AS "Month"
@@ -158,7 +158,7 @@ ORDER BY
 	, "ProviderDesc";
 
 -- by Age band
-{{create-output-table-no-gmpseudo-ids::"6f_TrustLevelAEAdmissions_age"}}
+{{create-output-table-no-gmpseudo-ids::"LH014-6f_TrustLevelAEAdmissions_age"}}
 SELECT
 	  YEAR("ArrivalDate") AS "Year"
     , MONTH("ArrivalDate") AS "Month"
