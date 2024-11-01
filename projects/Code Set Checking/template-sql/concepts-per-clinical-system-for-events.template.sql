@@ -49,7 +49,14 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 --> CODESET insert-concept-here:1
---> EXECUTE query-practice-systems-lookup.sql
+
+-- FIND WHICH GP SYSTEM EACH PRACTICE USES
+
+DROP TABLE IF EXISTS PracticeSystemLookup;
+CREATE TEMPORARY TABLE PracticeSystemLookup AS
+SELECT DISTINCT g."Practice_Code" AS PracticeId, g."Practice_System" AS System
+FROM PRESENTATION.GP_RECORD."GMCR_Timeliness" g;
+
 
 DROP TABLE IF EXISTS AllCodes;
 CREATE TEMPORARY TABLE AllCodes (

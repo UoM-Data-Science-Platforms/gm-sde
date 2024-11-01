@@ -49,7 +49,13 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 --> CODESET insert-concept-here:1
---> EXECUTE query-practice-systems-lookup.sql
+
+-- FIND WHICH GP SYSTEM EACH PRACTICE USES
+
+DROP TABLE IF EXISTS PracticeSystemLookup;
+CREATE TEMPORARY TABLE PracticeSystemLookup AS
+SELECT DISTINCT g."Practice_Code" AS PracticeId, g."Practice_System" AS System
+FROM PRESENTATION.GP_RECORD."GMCR_Timeliness" g;
 
 DROP TABLE IF EXISTS AllCodes;
 CREATE TEMPORARY TABLE AllCodes (
@@ -65,7 +71,7 @@ CREATE TEMPORARY TABLE AllCodes (
 DROP TABLE IF EXISTS Code_Sets_To_Use;
 CREATE TEMPORARY TABLE Code_Sets_To_Use AS
 SELECT *
-FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking_GT" -- EDIT THIS LINE TO ADD YOUR INITIALS ON END OF TABLE
+FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_Code_Set_Checking" -- EDIT THIS LINE TO ADD YOUR INITIALS ON END OF TABLE
 WHERE Code IS NOT NULL;
 
 -------------------
