@@ -7,10 +7,13 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- From application:
 --	Table 2: Lifestyle factors (from 2006 to present)
 --		- PatientID
---		- TestName ( smoking status, BMI, alcohol consumption)
+--		- TestName ( Alcohol, Smoking)
 --		- TestDate
+--		- Description
 --		- TestResult
---		- TestUnit
+--		- TestUnits
+--		- Status
+--		- Consumption
 
 -- NB1 - I'm only restricting BMI values to 2006 to present.
 -- NB2 - The PI confirmed that instead of raw values of when statuses were
@@ -35,7 +38,7 @@ SELECT
 	"Units" AS "TestUnits",
 	"AlcoholStatus" AS "Status",
 	"AlcoholConsumption" AS "Consumption"
-FROM INTERMEDIATE.GP_RECORD."Readings_Alcohol"
+FROM INTERMEDIATE.GP_RECORD."Readings_Alcohol_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis")
 UNION
 SELECT
@@ -50,7 +53,7 @@ SELECT
 		WHEN "SmokingConsumption_Date" = "SmokingStatus_Date" THEN "SmokingConsumption"
 		ELSE NULL
 	END -- "Consumption"
-FROM INTERMEDIATE.GP_RECORD."Readings_Smoking"
+FROM INTERMEDIATE.GP_RECORD."Readings_Smoking_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis");
 
 -- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
@@ -82,5 +85,6 @@ FROM "AllPseudos_SDE_Lighthouse_03_Kontopantelis";
 -- created in the 0.code-sets.sql file
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-2b_Lifestyle_Alcohol_Smoking";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-2b_Lifestyle_Alcohol_Smoking" AS
-SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_03_Kontopantelis("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_03_Kontopantelis("GmPseudo") AS "PatientID",
+	* EXCLUDE "GmPseudo"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-2b_Lifestyle_Alcohol_Smoking_WITH_PSEUDO_IDS";

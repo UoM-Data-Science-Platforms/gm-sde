@@ -5,10 +5,13 @@
 -- From application:
 --	Table 2: Lifestyle factors (from 2006 to present)
 --		- PatientID
---		- TestName ( smoking status, BMI, alcohol consumption)
+--		- TestName ( Alcohol, Smoking)
 --		- TestDate
+--		- Description
 --		- TestResult
---		- TestUnit
+--		- TestUnits
+--		- Status
+--		- Consumption
 
 -- NB1 - I'm only restricting BMI values to 2006 to present.
 -- NB2 - The PI confirmed that instead of raw values of when statuses were
@@ -25,7 +28,7 @@ SELECT
 	"Units" AS "TestUnits",
 	"AlcoholStatus" AS "Status",
 	"AlcoholConsumption" AS "Consumption"
-FROM INTERMEDIATE.GP_RECORD."Readings_Alcohol"
+FROM INTERMEDIATE.GP_RECORD."Readings_Alcohol_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}})
 UNION
 SELECT
@@ -40,5 +43,5 @@ SELECT
 		WHEN "SmokingConsumption_Date" = "SmokingStatus_Date" THEN "SmokingConsumption"
 		ELSE NULL
 	END -- "Consumption"
-FROM INTERMEDIATE.GP_RECORD."Readings_Smoking"
+FROM INTERMEDIATE.GP_RECORD."Readings_Smoking_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}});

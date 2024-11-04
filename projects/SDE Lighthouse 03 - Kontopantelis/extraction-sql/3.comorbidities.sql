@@ -27,23 +27,19 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities_WITH_PSEUDO_IDS";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities_WITH_PSEUDO_IDS" AS
 SELECT
-	"GmPseudo", "ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "Anxiety_DiagnosisDate", "Asthma_DiagnosisDate", 
-	"AtrialFibrillation_DiagnosisDate", "Autism_DiagnosisDate", "BlindnessLowVision_DiagnosisDate", "Bronchiectasis_DiagnosisDate", 
+	"GmPseudo", "ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "Asthma_DiagnosisDate", 
+	"AtrialFibrillation_DiagnosisDate", "Autism_DiagnosisDate", "BlindnessLowVision_DiagnosisDate", 
 	"Bulimia_DiagnosisDate", "Cancer_DiagnosisDate", "ChronicKidneyDisease_DiagnosisDate", "ChronicLiverDisease_DiagnosisDate",
 	"ChronicSinusitis_DiagnosisDate", "Constipation_DiagnosisDate", "COPD_DiagnosisDate", "CoronaryHeartDisease_DiagnosisDate",
-	"DeafnessHearingLoss_DiagnosisDate", "Dementia_DiagnosisDate", "Depression_DiagnosisDate", "DiabetesType1_DiagnosisDate",
-	"DiabetesType2_DiagnosisDate", "DiverticularDisease_DiagnosisDate", "DownsSyndrome_DiagnosisDate", "Eczema_DiagnosisDate",
+	"DeafnessHearingLoss_DiagnosisDate", "Dementia_DiagnosisDate", "Depression_DiagnosisDate", "DiverticularDisease_DiagnosisDate", "DownsSyndrome_DiagnosisDate", "Eczema_DiagnosisDate",
 	"Epilepsy_DiagnosisDate", "FamilialHypercholesterolemia_DiagnosisDate", "HeartFailure_DiagnosisDate",
-	"Hypertension_DiagnosisDate", "Immunosuppression_DiagnosisDate",
-	"InflammatoryBowelDisease_Crohns_DiagnosisDate", "IrritableBowelSyndrome_DiagnosisDate", "LearningDisability_DiagnosisDate",
-	"MentalHealth_SeriousMentalIllness_DiagnosisDate", "Migraine_DiagnosisDate", "MultipleSclerosis_DiagnosisDate",
-	"NonDiabeticHyperglycemia_DiagnosisDate", "Obesity_DiagnosisDate", "Osteoporosis_DiagnosisDate", "PainfulCondition_DiagnosisDate",
+	"Hypertension_DiagnosisDate", "LearningDisability_DiagnosisDate", "PainfulCondition_DiagnosisDate",
 	"PalliativeCare_DiagnosisDate", "ParkinsonsDisease_DiagnosisDate", "PepticUlcerDisease_DiagnosisDate",
 	"PeripheralArterialDisease_DiagnosisDate", "ProstateDisorder_DiagnosisDate", "Psoriasis_DiagnosisDate",
 	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate",
 	"FirstLTC", "FirstLTC_DiagnosisDate", "SecondLTC", "SecondLTC_DiagnosisDate", "ThirdLTC",
 	"ThirdLTC_DiagnosisDate", "FourthLTC", "FourthLTC_DiagnosisDate", "FifthLTC", "FifthLTC_DiagnosisDate"
-FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_Diagnosis"
+FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis")
 QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1;
 
@@ -76,5 +72,6 @@ FROM "AllPseudos_SDE_Lighthouse_03_Kontopantelis";
 -- created in the 0.code-sets.sql file
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities" AS
-SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_03_Kontopantelis("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_03_Kontopantelis("GmPseudo") AS "PatientID",
+	* EXCLUDE "GmPseudo"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities_WITH_PSEUDO_IDS"; -- this brings back the values from the most recent snapshot

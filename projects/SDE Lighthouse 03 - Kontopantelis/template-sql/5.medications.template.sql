@@ -60,7 +60,7 @@ WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept IN('d
 {{create-output-table::"LH003-5_Medications"}}
 -- For antidementia and anticholinergic (no refsets) we query the data from the temp table above
 SELECT
-    "GmPseudo",
+    x."GmPseudo",
 	"MedicationDate" AS "PrescriptionDate",
     CASE
         WHEN concept='donepezil' THEN 'Antidementia drug'
@@ -157,7 +157,7 @@ ON c.code = x."SuppliedCode"
 WHERE "MedicationDate" >= '2006-01-01'
 UNION
 -- Link the above to the data from the Refset clusters
-SELECT "GmPseudo", TO_DATE("MedicationDate"), 
+SELECT cohort."GmPseudo", TO_DATE("MedicationDate"), 
     CASE
         WHEN "Field_ID" = 'BENZODRUG_COD' THEN 'Benzodiazipine related'
         WHEN "Field_ID" = 'ANTIPSYDRUG_COD' THEN 'Antipsychotic'
@@ -167,15 +167,15 @@ SELECT "GmPseudo", TO_DATE("MedicationDate"),
         regexp_replace( -- this replace removes characters at the start e.g. "~DRUGNAME"
             regexp_replace( -- this replace removes certain trailing characters
 								-- to lower case so that CAPITAL and capital come out the same
-                lower("MedicationDescription"), '[_,\.\\(0-9]', ' ' 
+                lower("Term"), '[_,\.\\(0-9]', ' ' 
             ), 
             '[\*\\]~\\[]',
             ''
         ), 
     ' ', 1), -- "MedicationType",
-    "MedicationDescription" -- "Medication"
+    "Term" -- "Medication"
 FROM {{cohort-table}} cohort
-LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."MedicationsClusters" meds 
+LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" meds 
     ON meds."FK_Patient_ID" = cohort."FK_Patient_ID"
 WHERE "Field_ID" IN ('ANTIPSYDRUG_COD','BENZODRUG_COD')
 AND TO_DATE("MedicationDate") >= '2006-01-01';
