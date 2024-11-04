@@ -7,10 +7,7 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- From application:
 --	Table 3: Comorbidities (using full date range available)
 --		- PatientID
---		- Condition
---		- FirstDate
---		- LatestDate
---		- ConditionOccurences (number of times appeared)
+--		- All available comorbidity dates' columns
 
 -- NB1 - just using all the existing comorbidity data in the GP_Record schema.
 -- NB2 - this is not the format initially requested, but likely what the team
@@ -36,9 +33,7 @@ SELECT
 	"Hypertension_DiagnosisDate", "LearningDisability_DiagnosisDate", "PainfulCondition_DiagnosisDate",
 	"PalliativeCare_DiagnosisDate", "ParkinsonsDisease_DiagnosisDate", "PepticUlcerDisease_DiagnosisDate",
 	"PeripheralArterialDisease_DiagnosisDate", "ProstateDisorder_DiagnosisDate", "Psoriasis_DiagnosisDate",
-	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate",
-	"FirstLTC", "FirstLTC_DiagnosisDate", "SecondLTC", "SecondLTC_DiagnosisDate", "ThirdLTC",
-	"ThirdLTC_DiagnosisDate", "FourthLTC", "FourthLTC_DiagnosisDate", "FifthLTC", "FifthLTC_DiagnosisDate"
+	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate"
 FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis")
 QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1;

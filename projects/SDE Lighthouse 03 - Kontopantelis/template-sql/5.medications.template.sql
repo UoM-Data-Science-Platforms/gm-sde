@@ -7,6 +7,9 @@
 --  - PatientID
 --  - PrescriptionDate
 --  - MedicationGroup
+--  - MedicationType
+--  - Medication
+
 -- Medications included: antipsychotics, anti-dementia meds, anticholinergics, benzodiazepines, z-drugs and sedating antihistamines
 
 -- NB1 - PI confirmed wants columns PatientID, PrescriptionDate, MedicationGroup, MedicationType, Medication
