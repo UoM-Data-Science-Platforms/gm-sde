@@ -11,7 +11,7 @@
 --		- EthnicityCategory
 --		- EIMD2019Decile1IsMostDeprived10IsLeastDeprived
 --		- FirstDementiaDate
---		- YearAndMonthOfDeath
+--		- DeathYearAndMonth
 
 -- NB1 PI did not request date of dementia diagnosis, but it seems likely
 -- that they will need it, so including as well.
@@ -45,7 +45,7 @@ SELECT
 	"EthnicityLatest_Category" AS "EthnicityCategory",
 	"IMD_Decile" AS "IMD2019Decile1IsMostDeprived10IsLeastDeprived",
 	"FirstDementiaDate",
-	TO_CHAR(alive."DeathDate", 'YYYY-MM') AS "YearAndMonthOfDeath"
+	DATE_TRUNC(month, alive."DeathDate") AS "DeathYearAndMonth"
 FROM {{cohort-table}} cohort
 LEFT OUTER JOIN AlivePatientsAtStart alive
 	ON alive."GmPseudo" = cohort."GmPseudo"
