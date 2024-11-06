@@ -12,14 +12,13 @@ If providing a study with descriptions for each clinical code, check that none o
 4.	In previous projects I have excluded repeat medications by mistake
 Check this isn’t the case when refreshing files
 
-5.	When providing ‘Dosage’ from GP Meds, limit it to values that occur at least 50 times
+5.	When providing ‘Dosage’ from GP Meds, consider limiting it to values that occur at least 50 times
 When unique/rare values are used, mask this by setting to NULL
 
 
 ## Snowflake/SDE specific
 
-1.	Limit cohort to patients in DemographicsProtectedCharacteristics_SecondaryUses 
-This means we don’t include any opted out patients
+1. Mask death date using DATE_TRUNC to set the day to the first of the month.
 
 2.	Don’t include identifiers in final table 	
 Check that GmPseudo has been successfully pseudonymised, and that FK_Patient_ID is not included.
