@@ -5,7 +5,7 @@
 -------- RESEARCH DATA ENGINEER CHECK ---------
 
 set(StudyStartDate) = to_date('2020-01-01');
-set(StudyEndDate)   = to_date('2024-09-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- get all a&e admissions for the virtual ward cohort
 

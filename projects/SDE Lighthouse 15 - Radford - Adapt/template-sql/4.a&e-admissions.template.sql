@@ -12,7 +12,7 @@ set(StudyEndDate)   = to_date('2022-03-31');
 
 -- get all a&e admissions for the virtual ward cohort
 
-{{create-output-table::"4_AEAdmissions"}}
+{{create-output-table::"LH015-4_AEAdmissions"}}
 SELECT 
 	E."GmPseudo",  -- NEEDS PSEUDONYMISING
 	TO_DATE(E."ArrivalDate") AS "ArrivalDate",

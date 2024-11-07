@@ -7,7 +7,7 @@ set(StudyEndDate)   = to_date('2022-03-31');
 
 -- find all GP contacts for the adapt patients and the matched cohort
 
-{{create-output-table::"3_ContactProxy"}}
+{{create-output-table::"LH015-3_ContactProxy"}}
 SELECT
     "GmPseudo"
     , "EventDate" as "GPProxyEncounterDate"

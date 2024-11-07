@@ -1,22 +1,22 @@
 USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
---┌────────────────────────────────────────────────────┐
---│ SDE Lighthouse study 06 - pain diagnoses           │
---└────────────────────────────────────────────────────┘
+--┌────────────────────────────────────────────────────────────┐
+--│ SDE Lighthouse study 09 - diagnoses and symptoms           │
+--└────────────────────────────────────────────────────────────┘
 
 -------- RESEARCH DATA ENGINEER CHECK ---------------
--- Richard Williams	2024-08-30	Review in progress --
---   Suggest diabetic neuropathy has separate      --
---   code set                                      --
 -----------------------------------------------------
 
-set(StudyStartDate) = to_date('2017-01-01');
-set(StudyEndDate)   = to_date('2023-12-31');
+set(StudyStartDate) = to_date('2020-01-01');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- >>> Codesets required... Inserting the code set code
 -- >>> Codesets extracted into 0.code-sets.sql
--- >>> Following code sets injected: chronic-pain v1/neck-problems v1/neuropathic-pain v1/chest-pain v1/post-herpetic-neuralgia v1/ankylosing-spondylitis v1
--- >>> Following code sets injected: psoriatic-arthritis v1/fibromyalgia v1/temporomandibular-pain v1/phantom-limb-pain v1/chronic-pancreatitis v1
+-- >>> Following code sets injected: cognitive-impairment v1/hot-flash v1/irregular-periods v1/musculoskeletal-pain v1
+-- >>> Following code sets injected: spondyloarthropathy v1
+
+-- TO DO : find out what neurological conditions the PI wants, as well as any skin 
+-- conditions other than psoriasis.
 
 --- create a table combining diagnoses from SDE clusters with diagnoses from GMCR code sets
 
@@ -65,8 +65,8 @@ SELECT
 FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_09_Thompson" cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" events ON events."FK_Patient_ID" = cohort."FK_Patient_ID"
 LEFT OUTER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_09_Thompson" cs ON cs.code = events."SuppliedCode" 
-WHERE cs.concept IN ('diabetic-neuropathy','chronic-pain', 'neck-problems','neuropathic-pain', 'chest-pain','post-herpetic-neuralgia', 'ankylosing-spondylitis',
-				'psoriatic-arthritis', 'fibromyalgia', 'temporomandibular-pain', 'phantom-limb-pain', 'chronic-pancreatitis' )
+WHERE cs.concept IN ('spondyloarthropathy', 'cognitive-impairment', 'hot-flash', 'irregular-periods', 
+						'musculoskeletal-pain')
 	AND events."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_09_Thompson")
 	AND TO_DATE("EventDate") BETWEEN $StudyStartDate AND $StudyEndDate;
 

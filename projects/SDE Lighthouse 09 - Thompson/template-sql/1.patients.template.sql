@@ -5,7 +5,7 @@
 -- Cohort: 30-70 year old women, alive in 2020
 
 set(StudyStartDate) = to_date('2020-01-01');
-set(StudyEndDate)   = to_date('2024-09-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 --> EXECUTE query-get-possible-patients.sql minimum-age:18
 
@@ -16,9 +16,7 @@ CREATE TABLE {{cohort-table}} AS
 SELECT DISTINCT "GmPseudo", "FK_Patient_ID" 
 FROM AlivePatientsAtStart ap
 WHERE DATEDIFF(YEAR, "DateOfBirth",$StudyStartDate) BETWEEN 30 AND 70  -- over 50 in 2016
-	AND "Sex" = 'F'
-LIMIT 1000; --THIS IS TEMPORARY
-
+	AND "Sex" = 'F';
 
 -- FOR THE ABOVE COHORT, GET ALL REQUIRED DEMOGRAPHICS
 
@@ -32,7 +30,7 @@ SELECT
 	 dem."IMD_Decile",
 	 dem."EthnicityLatest_Category",
 	 dem."PracticeCode", 
-	 dth.DeathDate,
+	 DATE_TRUNC(month, dth.DeathDate) AS "DeathMonth", -- day of death masked
      dth."DiagnosisOriginalMentionCode" AS "ReasonForDeathCode",
      dth."DiagnosisOriginalMentionDesc" AS "ReasonForDeathDesc",
 	 dem."BMI",

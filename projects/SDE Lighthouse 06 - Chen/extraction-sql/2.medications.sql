@@ -32,22 +32,22 @@ LEFT JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryU
 WHERE "Cluster_ID" in ('BENZODRUG_COD', 'GABADRUG_COD', 'ORALNSAIDDRUG_COD', 'OPIOIDDRUG_COD', 'ANTIDEPDRUG_COD')
     AND TO_DATE(ec."Date") BETWEEN $StudyStartDate and $StudyEndDate;
 
--- create wide table
 
 DROP TABLE IF EXISTS prescriptions1;
 CREATE TEMPORARY TABLE prescriptions1 AS
 SELECT 
     p."GmPseudo",
     p."MedicationDate",
+    p."SnomedCode",
+    p."Dosage",
     p."CodeSet",
     p."Description",
 	CASE WHEN "CodeSet" = 'benzodiazepine' THEN 1 ELSE 0 END AS "Benzodiazepine",
 	CASE WHEN "CodeSet" = 'gabapentinoid' THEN 1 ELSE 0 END AS "Gabapentinoid",
 	CASE WHEN "CodeSet" = 'nsaid' THEN 1 ELSE 0 END AS "Nsaid",
 	CASE WHEN "CodeSet" = 'opioid' THEN 1 ELSE 0 END AS "Opioid",
-	CASE WHEN "CodeSet" = 'antidepressant' THEN 1 ELSE 0 END AS "Antidepressant"
+	CASE WHEN "CodeSet" = 'antidepressant' THEN 1 ELSE 0 END AS "Antidepressant",
 FROM prescriptions p
-
 -- transform into wide format to reduce the number of rows in final table
 
 

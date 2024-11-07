@@ -9,7 +9,7 @@
 -----------------------------------------------------
 
 set(StudyStartDate) = to_date('2017-01-01');
-set(StudyEndDate)   = to_date('2023-12-31');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 --> CODESET chronic-pain:1 neck-problems:1 neuropathic-pain:1 chest-pain:1 post-herpetic-neuralgia:1 ankylosing-spondylitis:1
 --> CODESET psoriatic-arthritis:1 fibromyalgia:1 temporomandibular-pain:1 phantom-limb-pain:1 chronic-pancreatitis:1

@@ -56,20 +56,15 @@ _Link_: [https://github.com/rw251/.../query-get-possible-patients.sql](https://g
 
 This project required the following clinical code sets:
 
-- chronic-pain v1
-- neck-problems v1
-- neuropathic-pain v1
-- chest-pain v1
-- post-herpetic-neuralgia v1
-- ankylosing-spondylitis v1
-- psoriatic-arthritis v1
-- fibromyalgia v1
-- temporomandibular-pain v1
-- phantom-limb-pain v1
-- chronic-pancreatitis v1
-- disease-modifying-med v1
+- cognitive-impairment v1
+- hot-flash v1
+- irregular-periods v1
+- musculoskeletal-pain v1
+- spondyloarthropathy v1
 - corticosteroid v1
 - anabolic-steroids v1
+- biologic-immune-modulators v1
+- disease-modifying-med v1
 - male-sex-hormones v1
 - female-sex-hormones v1
 - contraceptives-emergency-pills v1
@@ -80,207 +75,78 @@ This project required the following clinical code sets:
 
 Further details for each code set can be found below.
 
-### Chronic Pain
+### Cognitive impairment
 
-SNOMED and Read codes from study team for SDE-LS-006, used in previous CPRD studies.
+Any code indicating any kind of cognitive impairment or decline. Code set built from https://www.opencodelists.org/codelist/opensafely/symptoms-cognitive-impairment/7af0d32d/#full-list.
 
-EMIS and CTV3 codes retrieved from reference lookup in Graphnet database.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `57.8% - 60.6%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.8% - 4.3%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-04-12 | EMIS | 2528955 | 1462767 (57.8%) | 1462924 (57.8%) | 
-| 2024-04-12 | TPP | 201791 | 122358 (60.6%) | 121166 (60%) | 
-| 2024-04-12 | Vision | 335318 | 201694 (60.2%) | 201361 (60.1%) | 
-LINK: [https://github.com/rw251/.../conditions/chronic-pain/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-pain/1)
+| 2024-10-23 | EMIS | 2493415 | 106492 (4.27%) | 79922 (3.21%) | 
+| 2024-10-23 | TPP | 200976 | 8246 (4.1%) | 8183 (4.07%) | 
+| 2024-10-23 | Vision | 333066 | 12598 (3.78%) | 7707 (2.31%) | 
+LINK: [https://github.com/rw251/.../symptoms/cognitive-impairment/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/symptoms/cognitive-impairment/1)
 
-### Neck problems
+### hot flash
 
-Any code indicating neck problems. SNOMED codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/174/codelist/res174-neck-diagnoses/
+Any code indicating that the patient experienced a hot flash. Codes retrieved manually from Snomed browser: https://termbrowser.nhs.uk/
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `14.4% - 16%` suggests that this code set is well defined.
-
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.8% - 2.5%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-04-10 | EMIS | 2528955 | 376021 (14.9%) | 375153 (14.8%) | 
-| 2024-04-10 | TPP | 201791 | 33444 (16.6%) | 29081 (14.4%) | 
-| 2024-04-10 | Vision | 335318 | 53983 (16.1%) | 53559 (16%) | 
-LINK: [https://github.com/rw251/.../conditions/neck-problems/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/neck-problems/1)
+| 2024-10-23 | EMIS | 2493415 | 52142 (2.09%) | 52138 (2.09%) | 
+| 2024-10-23 | TPP | 200976 | 3644 (1.81%) | 3644 (1.81%) | 
+| 2024-10-23 | Vision | 333066 | 8294 (2.49%) | 8200 (2.46%) | 
+LINK: [https://github.com/rw251/.../symptoms/hot-flash/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/symptoms/hot-flash/1)
 
-### Neuropathic pain
+### Irregular periods
 
-Neuropathic pain is nerve pain that can happen if your nervous system malfunctions or gets damaged. You can feel pain from any of the various levels of your nervous system, including your peripheral nerves, your spinal cord and your brain. Damaged nerve fibers send the wrong signals to pain centers in your body, resulting in neuropathic pain.
-
-Readcodes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/176/codelist/res176-neuropathic-pain/
+Any code indicating irregular periods.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `9.34% - 10.3%` is perhaps too wide to suggest that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.8% - 3.5%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-04-10 | EMIS | 2528955 | 236155 (9.34%) | 236110 (9.34%) | 
-| 2024-04-10 | TPP | 201791 | 20713 (10.3%) | 20721 (10.3%) | 
-| 2024-04-10 | Vision | 335318 | 32262 (9.62%) | 32256 (9.62%) | 
+| 2024-10-23 | EMIS | 2493415 | 86671 (3.48%) | 86671 (3.48%) | 
+| 2024-10-23 | TPP | 200976 | 5686 (2.83%) | 5686 (2.83%) | 
+| 2024-10-23 | Vision | 333066 | 11097 (3.33%) | 11097 (3.33%) | 
+LINK: [https://github.com/rw251/.../symptoms/irregular-periods/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/symptoms/irregular-periods/1)
 
+### Musculoskeletal pain
 
-LINK: [https://github.com/rw251/.../conditions/neuropathic-pain/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/neuropathic-pain/1)
-
-### Chest pain
-
-Any code indicating chest pain.
+Any code indicating any kind of musculoskeletal pain. Code set built by combining codes from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/175/codelist/res175-msk-pain/ and all descendants of (279069000 - musculoskeletal pain)
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `14.2% - 15.4%`  indicates that this code set is well defined.
-
-update:
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `36.6% - 38.6%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-04-10 | EMIS | 2528955 | 376475 (14.9%) | 376475 (14.9%) | 
-| 2024-04-10 | TPP | 201791 | 28648 (14.2%) | 28648 (14.2%) | 
-| 2024-04-10 | Vision | 335318 | 51659 (15.4%) | 51656 (15.4%) | 
-LINK: [https://github.com/rw251/.../conditions/chest-pain/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chest-pain/1)
+| 2024-10-23 | EMIS | 2493415 | 918394 (36.8%) | 915133 (36.7%) | 
+| 2024-10-23 | TPP | 200976 | 75716 (37.7%) | 75705 (37.7%) | 
+| 2024-10-23 | Vision | 333066 | 128600 (38.6%) | 128138 (38.5%) | 
 
-###  Post herpetic neuralgia codes
+LINK: [https://github.com/rw251/.../symptoms/musculoskeletal-pain/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/symptoms/musculoskeletal-pain/1)
 
-Developed from https://getset.ga with inclusion terms and exclusion terms as below:
+### Spondyloarthopathy
 
-  "includeTerms": [
-    "post-herpetic neuralgia",
-    "post-zoster",
-    "post-herpetic",
-    "post zoster",
-    "post herpetic"
-  ],
-  "excludeTerms": [],
-
-  ## Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.18% - 0.24%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2023-10-12 | EMIS            | 2470460    |    5882 (0.24%)  |    5886 (0.24%)   |
-| 2023-10-12 | TPP             | 200512     |     374 (0.18%)  |     374 (0.18%)   |
-| 2023-10-12 | Vision          | 332318     |     695 (0.21%)  |     692 (0.21%)   |
-LINK: [https://github.com/rw251/.../conditions/post-herpetic-neuralgia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/post-herpetic-neuralgia/1)
-
-### Ankylosing Spondylitis
-
-A code indicating a diagnosis of ankylosing Spondylitis.
+Any code indicating spondyloarthropathy.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.12% - 0.14%` suggests this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-01-19 | EMIS            | 2519438    |    3089 (0.123%) |     3090 (0.123%) |
-| 2024-01-19 | TPP             | 201469     |     269 (0.134%) |      267 (0.133%) |
-| 2024-01-19 | Vision          | 334528     |      470 (0.14%) |       470 (0.14%) |
-#### Audit log
-
-- Find_missing_codes last run 2024-01-19
-
-LINK: [https://github.com/rw251/.../conditions/ankylosing-spondylitis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ankylosing-spondylitis/1)
-
-### Psoriatic arthritis
-
-Psoriatic arthritis is a type of arthritis linked with psoriasis, a chronic skin and nail disease.
-
-Any code indicating a diagnosis of psoriatic arthritis. Read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/34/codelist/res34-psoriatic_arthritis/
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.23% - 0.25%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.4% - 3.8%` suggests that this code set is well defined.
 
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-04-17 | EMIS | 2529782 | 5697 (0.225%) | 5697 (0.225%) | 
-| 2024-04-17 | TPP | 201840 | 470 (0.233%) | 470 (0.233%) | 
-| 2024-04-17 | Vision | 335411 | 841 (0.251%) | 841 (0.251%) | 
-LINK: [https://github.com/rw251/.../conditions/psoriatic-arthritis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/psoriatic-arthritis/1)
-
-### Fibromyalgia
-
-This list contains any code indicating fibromyalgia or generalised pain. Read codes from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/176/codelist/res176-fibromyalgia-and-generalized-pain-short/
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.19% - 2.76%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-04-11 | EMIS | 2528955 | 69969 (2.77%) | 69768 (2.76%) | 
-| 2024-04-11 | TPP | 201791 | 4422 (2.19%) | 2850 (1.41%) | 
-| 2024-04-11 | Vision | 335318 | 8841 (2.64%) | 8687 (2.59%) | 
-LINK: [https://github.com/rw251/.../conditions/fibromyalgia/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/fibromyalgia/1)
-
-### Temporomandibular Pain
-
-Any code indicating temporomandibular pain.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.22% - 0.40%` suggests that this code set is well defined.
-
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-04-16 | EMIS | 2529782 | 5931 (0.234%) | 5931 (0.234%) | 
-| 2024-04-16 | TPP | 201840 | 814 (0.403%) | 814 (0.403%) | 
-| 2024-04-16 | Vision | 335411 | 753 (0.225%) | 753 (0.225%) | 
-LINK: [https://github.com/rw251/.../conditions/temporomandibular-pain/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/temporomandibular-pain/1)
-
-### Phantom limb pain
-
-Any code indicating a diagnosis of phantom limb pain.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.00% - 0.01%` suggests that this code set is rarely used or very rare.
-
-update:
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-07-11 | EMIS | 2533608 | 282 (0.0111%) | 223 (0.0088%) | 
-| 2024-07-11 | TPP | 201974 | 24 (0.0119%) | 24 (0.0119%) | 
-| 2024-07-11 | Vision | 335755 | 22 (0.00655%) | 12 (0.00357%) | 
-LINK: [https://github.com/rw251/.../conditions/phantom-limb-pain/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/phantom-limb-pain/1)
-
-### Chronic pancreatitis
-
-Any code indicating a diagnosis of chronic pancreatitis. This code set also includes 'history of' chronic pancreatitis. Code set developed using the SNOMED online term browser.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.08% - 0.10%` suggests that this code set is well defined but rarely used.
-
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-04-17 | EMIS | 2529782 | 2346 (0.0927%) | 2346 (0.0927%) | 
-| 2024-04-17 | TPP | 201840 | 167 (0.0827%) | 167 (0.0827%) | 
-| 2024-04-17 | Vision | 335411 | 298 (0.0888%) | 298 (0.0888%) | 
-LINK: [https://github.com/rw251/.../conditions/chronic-pancreatitis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-pancreatitis/1)
-
-### Disease modifying medications
-
-This code set was created from https://nhs-drug-refset.pages.dev/
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.1% - 1.2%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-10-21 | EMIS | 2494756 | 26936 (1.08%) | 26936 (1.08%) | 
-| 2024-10-21 | TPP | 201090 | 2199 (1.09%) | 2199 (1.09%) | 
-| 2024-10-21 | Vision | 333236 | 4063 (1.22%) | 4063 (1.22%) | 
-LINK: [https://github.com/rw251/.../medications/disease-modifying-med/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/disease-modifying-med/1)
+| 2024-10-28 | EMIS | 2492275 | 94902 (3.81%) | 94784 (3.8%) | 
+| 2024-10-28 | TPP | 200915 | 7630 (3.8%) | 7630 (3.8%) | 
+| 2024-10-28 | Vision | 332914 | 11371 (3.42%) | 11361 (3.41%) | 
+LINK: [https://github.com/rw251/.../conditions/spondyloarthropathy/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/spondyloarthropathy/1)
 
 ### Corticosteroids
 
@@ -320,6 +186,34 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2024-04-29 | Vision | 335373 | 20 (0.00596%) | 20 (0.00596%) | 
 
 LINK: [https://github.com/rw251/.../medications/anabolic-steroids/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/anabolic-steroids/1)
+
+### Biologic immune modulators
+
+This code set was created from the snomed codes at https://nhs-drug-refset.pages.dev/
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.17% - 0.39%` suggests that this code set is relatively well defined but not often used in practice.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-11-04 | EMIS | 2826194 | 10920 (0.386%) | 10925 (0.387%) | 
+| 2024-11-04 | TPP | 188163 | 327 (0.174%) | 315 (0.167%) | 
+| 2024-11-04 | Vision | 8665 | 0 (0%) | 0 (0%) | 
+LINK: [https://github.com/rw251/.../medications/biologic-immune-modulators/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/biologic-immune-modulators/1)
+
+### Disease modifying medications
+
+This code set was created from https://nhs-drug-refset.pages.dev/
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.1% - 1.2%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2024-10-21 | EMIS | 2494756 | 26936 (1.08%) | 26936 (1.08%) | 
+| 2024-10-21 | TPP | 201090 | 2199 (1.09%) | 2199 (1.09%) | 
+| 2024-10-21 | Vision | 333236 | 4063 (1.22%) | 4063 (1.22%) | 
+LINK: [https://github.com/rw251/.../medications/disease-modifying-med/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/disease-modifying-med/1)
 
 ### Male sex hormones medications
 

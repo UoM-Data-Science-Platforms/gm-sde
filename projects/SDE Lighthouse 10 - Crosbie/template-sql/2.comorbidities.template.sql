@@ -3,7 +3,7 @@
 --└───────────────────────────────────────────────────┘
 
 set(StudyStartDate) = to_date('2016-01-01');
-set(StudyEndDate)   = to_date('2024-08-01');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 DROP TABLE IF EXISTS StandardLTCs;
 CREATE TEMPORARY TABLE StandardLTCs AS
@@ -39,44 +39,43 @@ QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1
 DROP TABLE IF EXISTS OtherDiags ;
 CREATE TEMPORARY TABLE OtherDiags AS
 SELECT DISTINCT
-	e."FK_Patient_ID"
-	, dem."GmPseudo"
-	, to_date("Date") AS "DiagnosisDate"
+	 dem."GmPseudo"
+	, to_date("EventDate") AS "DiagnosisDate"
 	, e."SCTID" AS "SnomedCode"
 	, cs.concept
 	, e."Term" AS "Description"
 FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
 LEFT JOIN {{code-set-table}} cs ON cs.code = e."SuppliedCode"
-LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" dem ON dem."FK_Patient_ID" = co."FK_Patient_ID" -- join to demographics table to get GmPseudo
+LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" dem ON dem."FK_Patient_ID" = e."FK_Patient_ID" -- join to demographics table to get GmPseudo
 WHERE cs.concept IN ('myocardial-infarction', 'angina', 'tuberculosis', 'venous-thromboembolism', 'pneumonia', 'copd', 'emphysema', 'chronic-bronchitis', 'efi-mobility-problems' )
 	AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}})
-	AND "Date" <= $StudyEndDate;
+	AND "EventDate" <= $StudyEndDate;
 
 -- for each patient, find each comorbidity and the date of first diagnosis
 
 DROP TABLE IF EXISTS OtherDiagsSummary;
-CREATE TABLE AS 
+CREATE TABLE OtherDiagsSummary AS 
 SELECT "GmPseudo", 
-	concept, MIN("DiagnosisDate") AS "FirstDiagnosisDate"   
+	concept, 
+	MIN("DiagnosisDate") AS "FirstDiagnosisDate"   
 FROM OtherDiags
 GROUP BY "GmPseudo", concept
 
 -- convert to wide format ready to join to the standard LTCs
 
 DROP TABLE IF EXISTS OtherDiagsSummaryWide;
-CREATE TEMPORARY TABLE OtherDiagsSummaryWide
+CREATE TEMPORARY TABLE OtherDiagsSummaryWide AS
 SELECT "GmPseudo",
-	CASE WHEN concept = 'myocardial-infarction' THEN "FirstDiagnosisDate" ELSE 0 END AS "MyocardialInfarction_DiagnosisDate",
-	CASE WHEN concept = 'angina' THEN "FirstDiagnosisDate" ELSE 0 END AS "Angina_DiagnosisDate",
-	CASE WHEN concept = 'tuberculosis' THEN "FirstDiagnosisDate" ELSE 0 END AS "Tuberculosis_DiagnosisDate",
-	CASE WHEN concept = 'venous-thromboembolism' THEN "FirstDiagnosisDate" ELSE 0 END AS "VenousThromboembolism_DiagnosisDate",
-	CASE WHEN concept = 'pneumonia' THEN "FirstDiagnosisDate" ELSE 0 END AS "Pneumonia_DiagnosisDate",
-	CASE WHEN concept = 'copd' THEN "FirstDiagnosisDate" ELSE 0 END AS "COPD_DiagnosisDate",
-	CASE WHEN concept = 'emphysema' THEN "FirstDiagnosisDate" ELSE 0 END AS "Emphysema_DiagnosisDate",
-	CASE WHEN concept = 'chronic-bronchitis' THEN "FirstDiagnosisDate" ELSE 0 END AS "ChronicBronchitis_DiagnosisDate",
-	CASE WHEN concept = 'efi-mobility-problems' THEN "MobilityProblems" ELSE 0 END AS "MobilityProblems_DiagnosisDate"
-FROM OtherDiagsSummary
-GROUP BY "GmPseudo";
+	CASE WHEN concept = 'myocardial-infarction' THEN "FirstDiagnosisDate" ELSE NULL END AS "MyocardialInfarction_DiagnosisDate",
+	CASE WHEN concept = 'angina' THEN "FirstDiagnosisDate" ELSE NULL END AS "Angina_DiagnosisDate",
+	CASE WHEN concept = 'tuberculosis' THEN "FirstDiagnosisDate" ELSE NULL END AS "Tuberculosis_DiagnosisDate",
+	CASE WHEN concept = 'venous-thromboembolism' THEN "FirstDiagnosisDate" ELSE NULL END AS "VenousThromboembolism_DiagnosisDate",
+	CASE WHEN concept = 'pneumonia' THEN "FirstDiagnosisDate" ELSE NULL END AS "Pneumonia_DiagnosisDate",
+	CASE WHEN concept = 'copd' THEN "FirstDiagnosisDate" ELSE NULL END AS "COPD_DiagnosisDate",
+	CASE WHEN concept = 'emphysema' THEN "FirstDiagnosisDate" ELSE NULL END AS "Emphysema_DiagnosisDate",
+	CASE WHEN concept = 'chronic-bronchitis' THEN "FirstDiagnosisDate" ELSE NULL END AS "ChronicBronchitis_DiagnosisDate",
+	CASE WHEN concept = 'efi-mobility-problems' THEN "FirstDiagnosisDate" ELSE NULL END AS "MobilityProblems_DiagnosisDate"
+FROM OtherDiagsSummary;
 
 
 -- FINAL TABLE JOIING TOGETHER THE STANDARD DIAGNOSES AND THE OTHERS

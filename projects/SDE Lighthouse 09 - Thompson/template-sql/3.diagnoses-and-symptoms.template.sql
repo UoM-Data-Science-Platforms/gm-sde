@@ -6,9 +6,9 @@
 -----------------------------------------------------
 
 set(StudyStartDate) = to_date('2020-01-01');
-set(StudyEndDate)   = to_date('2024-09-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
---> CODESET cognitive-impairment:1 hot-flash:1 irregular-periods:1 muskuloskeletal-pain:1
+--> CODESET cognitive-impairment:1 hot-flash:1 irregular-periods:1 musculoskeletal-pain:1
 --> CODESET spondyloarthropathy:1
 
 -- TO DO : find out what neurological conditions the PI wants, as well as any skin 
@@ -62,7 +62,7 @@ FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" events ON events."FK_Patient_ID" = cohort."FK_Patient_ID"
 LEFT OUTER JOIN {{code-set-table}} cs ON cs.code = events."SuppliedCode" 
 WHERE cs.concept IN ('spondyloarthropathy', 'cognitive-impairment', 'hot-flash', 'irregular-periods', 
-						'muskuloskeletal-pain')
+						'musculoskeletal-pain')
 	AND events."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}})
 	AND TO_DATE("EventDate") BETWEEN $StudyStartDate AND $StudyEndDate;
 

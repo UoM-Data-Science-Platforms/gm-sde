@@ -120,12 +120,12 @@ LEFT JOIN -- join to demographics table to get GmPseudo
 SELECT
 	 dem."GmPseudo", 
 	 dem."Sex",
-	 dem."DateOfBirth" AS "MonthOfBirth", 
+	 dem."DateOfBirth" AS "YearAndMonthOfBirth", 
 	 dem."Age",
 	 dem."IMD_Decile" AS "IMDDecile",
 	 dem."EthnicityLatest_Category",
 	 dem."PracticeCode", 
-	 dth.DeathDate AS "DeathDate",
+	 DATE_TRUNC(month, dth."DeathDate") AS "DeathYearAndMonth"
      dth."DiagnosisOriginalMentionCode" AS "ReasonForDeathCode",
      dth."DiagnosisOriginalMentionDesc" AS "ReasonForDeathDesc",
 	 co.IndexDate AS "IndexDate"

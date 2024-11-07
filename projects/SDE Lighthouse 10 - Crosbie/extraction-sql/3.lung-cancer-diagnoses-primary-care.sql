@@ -5,7 +5,7 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --└───────────────────────────────────────────────────────────────────────────┘
 
 set(StudyStartDate) = to_date('2016-01-01');
-set(StudyEndDate)   = to_date('2024-08-01');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- >>> Codesets required... Inserting the code set code
 -- >>> Codesets extracted into 0.code-sets.sql

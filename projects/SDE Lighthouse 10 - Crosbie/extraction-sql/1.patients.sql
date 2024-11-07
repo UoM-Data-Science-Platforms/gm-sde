@@ -8,7 +8,7 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- study team will do the cohort matching, so we provide all over 50s in 2016.
 
 set(StudyStartDate) = to_date('2016-01-01');
-set(StudyEndDate)   = to_date('2024-08-01');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 
 --┌─────────────────────────────────────────────────────────────────┐
@@ -111,6 +111,17 @@ SELECT DISTINCT ltc."GmPseudo", "FK_Patient_ID"
 FROM PRESENTATION.GP_RECORD."LongTermConditionRegister_SecondaryUses" ltc
 WHERE ("Cancer_QOF" is not null or "Cancer_DiagnosisDate" is not null or "Cancer_DiagnosisAge" is not null or "Cancer_QOF_DiagnosedL5Y" is not null)
 	AND "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie");
+
+
+-- POLYPHARMACY TABLE - HOW MAN BNF CHAPTERS HAS A PATIENT BEEN PRESCRIBED IN LAST 120 DAYS (AT STUDY START DATE)
+
+DROP TABLE IF EXISTS Polypharmacy;
+CREATE TEMPORARY TABLE Polypharmacy AS
+SELECT pol."GmPseudo", pol."Polypharmacy_Last120Days"
+FROM INTERMEDIATE.GP_RECORD."Polypharmacy_Summary_SecondaryUses" pol
+INNER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie" c ON c."FK_Patient_ID" = pol."FK_Patient_ID"
+WHERE "Snapshot" <= $StudyStartDate
+QUALIFY ROW_NUMBER() OVER (PARTITION BY pol."GmPseudo" ORDER BY pol."Snapshot" DESC) = 1;
 
 -- COPD meds
 
@@ -219,6 +230,7 @@ SELECT
 	 dem."SmokingStatus",
 	 dem."Smoking_Date",
 	 dem."SmokingConsumption",
+	 pol."Polypharmacy_Last120Days",
 	 CASE WHEN copd."GmPseudo" IS NOT NULL THEN 1 ELSE 0 END AS "HistoryOfCOPDMeds",
 	 copd."MinCOPDMedDate",
 	 CASE WHEN stat."GmPseudo" IS NOT NULL THEN 1 ELSE 0 END AS "HistoryOfStatins",
@@ -240,6 +252,7 @@ LEFT OUTER JOIN PersonalHistoryCancer phc ON phc."GmPseudo" = co."GmPseudo"
 LEFT OUTER JOIN COPDMeds copd ON copd."GmPseudo" = co."GmPseudo" 
 LEFT OUTER JOIN Statins stat ON stat."GmPseudo" = co."GmPseudo" 
 LEFT OUTER JOIN ReasonableAdjustmentWide reas ON reas."GmPseudo" = co."GmPseudo"
+LEFT OUTER JOIN Polypharmacy pol ON pol."GmPseudo" = co."GmPseudo"
 QUALIFY row_number() OVER (PARTITION BY dem."GmPseudo" ORDER BY "Snapshot" DESC) = 1;
 
 -- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 

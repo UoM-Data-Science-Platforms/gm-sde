@@ -11,11 +11,11 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --------------------------------------------------
 
 set(StudyStartDate) = to_date('2020-01-01');
-set(StudyEndDate)   = to_date('2024-09-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- >>> Codesets required... Inserting the code set code
 -- >>> Codesets extracted into 0.code-sets.sql
--- >>> Following code sets injected: disease-modifying-med v1/corticosteroid v1/anabolic-steroids v1
+-- >>> Following code sets injected: corticosteroid v1/anabolic-steroids v1/biologic-immune-modulators v1/disease-modifying-med v1
 -- >>> Following code sets injected: male-sex-hormones v1/female-sex-hormones v1
 -- >>> Following code sets injected: contraceptives-emergency-pills v1/contraceptives-tablet v1/contraceptives-iud v1/contraceptives-injection v1/contraceptives-implant v1
 
@@ -33,7 +33,7 @@ SELECT DISTINCT
 FROM INTERMEDIATE.GP_RECORD."GP_Medications_SecondaryUses" gp
 INNER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_09_Thompson" c ON gp."FK_Patient_ID" = c."FK_Patient_ID"
 INNER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_09_Thompson" co ON co.code = gp."SuppliedCode"
-WHERE co.concept in ('disease-modifying-med', 'corticosteroid', 'anabolic-steroids', 
+WHERE co.concept in ('corticosteroid', 'anabolic-steroids', 'biologic-immune-modulators','disease-modifying-med',
 				'male-sex-hormones', 'female-sex-hormones', 'contraceptives-emergency-pill',
 				'contraceptives-tablet', 'contraceptives-iud', 'contraceptives-injection', 'contraceptives-implant');
 
@@ -50,13 +50,11 @@ SELECT
     , ec."Dosage"
 	, ec."DosageUnits" AS "Units"
     , CASE WHEN ec."Cluster_ID" = 'ORALNSAIDDRUG_COD' THEN 'nsaid' -- oral nsaids
-		   WHEN ec."Cluster_ID" = 'BIOLDRUG_COD' 	  THEN 'biologics' -- biologic immune modulators
-		   WHEN ec."Cluster_ID" = 'DMARDSDRUG_COD'    THEN 'disease-modifying' -- disease modifying systemic meds
            ELSE 'other' END AS "CodeSet"
     , ec."Term" AS "Description"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_09_Thompson" co
 LEFT JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec ON co."FK_Patient_ID" = ec."FK_Patient_ID"
-WHERE "Cluster_ID" in ('ORALNSAIDDRUG_COD', 'BIOLDRUG_COD', 'DMARDSDRUG_COD')
+WHERE "Cluster_ID" in ('ORALNSAIDDRUG_COD')
     AND TO_DATE(ec."Date") BETWEEN $StudyStartDate and $StudyEndDate;
 
 

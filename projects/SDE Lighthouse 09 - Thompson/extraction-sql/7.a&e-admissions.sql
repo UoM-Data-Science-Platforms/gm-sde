@@ -7,7 +7,7 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -------- RESEARCH DATA ENGINEER CHECK ---------
 
 set(StudyStartDate) = to_date('2020-01-01');
-set(StudyEndDate)   = to_date('2024-09-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- get all a&e admissions for the virtual ward cohort
 
@@ -21,7 +21,7 @@ set(StudyEndDate)   = to_date('2024-09-30');
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH009-7_AEAdmissions_WITH_PSEUDO_IDS";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH009-7_AEAdmissions_WITH_PSEUDO_IDS" AS
 SELECT 
-	E."GmPseudo",  -- NEEDS PSEUDONYMISING
+	E."GmPseudo",  
 	TO_DATE(E."ArrivalDate") AS "ArrivalDate",
 	TO_DATE(E."EcDepartureDate") AS "DepartureDate",
 	E."EcDuration" AS LOS_Mins,

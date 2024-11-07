@@ -59,8 +59,8 @@ FROM (
 SELECT 
 	"Snapshot", 
 	D."GmPseudo", -- NEEDS PSEUDONYMISING
-	"DateOfBirth",
-	DATE_TRUNC(month, dth.DeathDate) AS "DeathDate",
+	"YearAndMonthOfBirth",
+	DATE_TRUNC(month, dth.DeathDate) AS "YearAndMonthOfDeath",
 	"DiagnosisOriginalMentionCode" AS "CauseOfDeathCode",
 	"DiagnosisOriginalMentionDesc" AS "CauseOfDeathDesc",
 	"DiagnosisOriginalMentionChapterCode" AS "CauseOfDeathChapterCode",

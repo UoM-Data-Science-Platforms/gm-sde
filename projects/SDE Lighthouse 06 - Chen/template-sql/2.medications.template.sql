@@ -17,8 +17,7 @@ SELECT
     co."GmPseudo"
     , TO_DATE(ec."Date") AS "MedicationDate"
     , ec."SCTID" AS "SnomedCode"
-	, ec."Quantity"
-    , ec."Dosage_GP_Medications" AS "Dosage"
+    , ec."Dosage"
     , CASE WHEN ec."Cluster_ID" = 'BENZODRUG_COD' THEN 'benzodiazepine' -- benzodiazepines
            WHEN ec."Cluster_ID" = 'GABADRUG_COD' THEN 'gabapentinoid' -- gabapentinoids
            WHEN ec."Cluster_ID" = 'ORALNSAIDDRUG_COD' THEN 'nsaid' -- oral nsaids
@@ -31,16 +30,6 @@ LEFT JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryU
 WHERE "Cluster_ID" in ('BENZODRUG_COD', 'GABADRUG_COD', 'ORALNSAIDDRUG_COD', 'OPIOIDDRUG_COD', 'ANTIDEPDRUG_COD')
     AND TO_DATE(ec."Date") BETWEEN $StudyStartDate and $StudyEndDate;
 
--- ONLY KEEP DOSAGE INFO IF IT HAS APPEARED > 50 TIMES
-
-DROP TABLE IF EXISTS SafeDosages;
-CREATE TEMPORARY TABLE SafeDosages AS
-SELECT "Dosage" 
-FROM prescriptions
-GROUP BY "Dosage"
-HAVING count(*) >= 50;
-
--- table with redacted dosage info
 
 DROP TABLE IF EXISTS prescriptions1;
 CREATE TEMPORARY TABLE prescriptions1 AS
@@ -48,7 +37,7 @@ SELECT
     p."GmPseudo",
     p."MedicationDate",
     p."SnomedCode",
-    p."Quantity",
+    p."Dosage",
     p."CodeSet",
     p."Description",
 	CASE WHEN "CodeSet" = 'benzodiazepine' THEN 1 ELSE 0 END AS "Benzodiazepine",
@@ -56,10 +45,7 @@ SELECT
 	CASE WHEN "CodeSet" = 'nsaid' THEN 1 ELSE 0 END AS "Nsaid",
 	CASE WHEN "CodeSet" = 'opioid' THEN 1 ELSE 0 END AS "Opioid",
 	CASE WHEN "CodeSet" = 'antidepressant' THEN 1 ELSE 0 END AS "Antidepressant",
-    IFNULL(sd."Dosage", 'REDACTED') as "Dosage"
-FROM prescriptions p
-LEFT JOIN SafeDosages sd ON sd."Dosage" = p."Dosage";
-
+FROM prescriptions p;
 -- transform into wide format to reduce the number of rows in final table
 
 {{create-output-table::"LH006-2_Medications"}}

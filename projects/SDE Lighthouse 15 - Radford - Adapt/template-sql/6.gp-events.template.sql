@@ -14,6 +14,7 @@ set(StudyEndDate)   = to_date('2022-03-31');
 
 -- SELECT ALL GP EVENTS 
 
+{{create-output-table::"LH015-6_OutpatientAdmissions"}}
 SELECT c."GmPseudo" 
 	"EventDate", 
 	"SCTID", 

@@ -115,11 +115,11 @@ WHERE
 
 DROP TABLE IF EXISTS chronic_pain;
 CREATE TEMPORARY TABLE chronic_pain AS
-SELECT "FK_Patient_ID", to_date("Date") AS "EventDate"
+SELECT "FK_Patient_ID", to_date("EventDate") AS "EventDate"
 FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
 WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_06_Chen" WHERE concept = 'chronic-pain' AND Version = 1) 
-AND "Date" BETWEEN $StudyStartDate and $StudyEndDate
-AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AliveAdultsAtStart); -- only include alive patients at study start
+AND "EventDate" BETWEEN $StudyStartDate and $StudyEndDate
+AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart); -- only include alive patients at study start
 
 -- find first chronic pain code in the study period 
 DROP TABLE IF EXISTS FirstPain;
@@ -135,13 +135,13 @@ GROUP BY "FK_Patient_ID";
 
 DROP TABLE IF EXISTS cancer;
 CREATE TEMPORARY TABLE cancer AS
-SELECT e."FK_Patient_ID", to_date("Date") AS "EventDate"
+SELECT e."FK_Patient_ID", to_date("EventDate") AS "EventDate"
 FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
 INNER JOIN FirstPain fp ON fp."FK_Patient_ID" = e."FK_Patient_ID" 
-				AND e."Date" BETWEEN DATEADD(year, 1, FirstPainCodeDate) AND DATEADD(year, -1, FirstPainCodeDate)
+				AND e."EventDate" BETWEEN DATEADD(year, 1, FirstPainCodeDate) AND DATEADD(year, -1, FirstPainCodeDate)
 WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_06_Chen" WHERE concept = 'cancer' AND Version = 1)
 AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain) --only look in patients with chronic pain
-AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AliveAdultsAtStart); -- only include alive patients at study start 
+AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart); -- only include alive patients at study start 
 
 
 -- find patients in the chronic pain cohort who received more than 2 opioids
@@ -156,10 +156,9 @@ SELECT
     ec."FK_Patient_ID"
     , TO_DATE(ec."Date") AS "MedicationDate"
     , ec."SCTID" AS "SnomedCode"
-    , ec."Units"
     , ec."Dosage"
-    , ec."Dosage_GP_Medications"
-    , ec."MedicationDescription" AS "Description"
+    , ec."DosageUnits"
+    , ec."Term" AS "Description"
 	, fp.FirstPainCodeDate
 	, TO_DATE(Lag(ec."Date", 1) OVER 
 		(PARTITION BY ec."FK_Patient_ID" ORDER BY "Date" ASC)) AS "PreviousOpioidDate"
@@ -214,13 +213,13 @@ SELECT
 	 dem."Sex",
 	 dem."DateOfBirth" AS "MonthOfBirth", 
 	 dem."Age",
-	 dem."IMD_Decile",
+	 dem."IMD_Decile" AS "IMDDecile",
 	 dem."EthnicityLatest_Category",
 	 dem."PracticeCode", 
-	 dth.DeathDate,
+	 dth.DeathDate AS "DeathDate",
      dth."DiagnosisOriginalMentionCode" AS "ReasonForDeathCode",
      dth."DiagnosisOriginalMentionDesc" AS "ReasonForDeathDesc",
-	 co.IndexDate
+	 co.IndexDate AS "IndexDate"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_06_Chen"  co
 LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" dem ON dem."GmPseudo" = co."GmPseudo"
 LEFT OUTER JOIN Death dth ON dth."GmPseudo" = co."GmPseudo"
