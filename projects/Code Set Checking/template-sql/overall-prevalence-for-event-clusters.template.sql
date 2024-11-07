@@ -44,8 +44,10 @@ DROP TABLE IF EXISTS events;
 CREATE TEMPORARY TABLE events AS
 SELECT DISTINCT
       "FK_Patient_ID",
-      "Cluster_ID"
-FROM INTERMEDIATE.GP_RECORD."EventsClusters" ;
+      "Cluster_ID",
+      c."Cluster_Description"
+FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" e
+INNER JOIN INTERMEDIATE.GP_RECORD."CLUSTERS" c ON c."Cluster_ID" = e."Cluster_ID";
 
 -- DECLARE A VARIABLE SO THAT THE TOTAL NUMBER OF PATIENTS CAN BE ACCESSED
 
@@ -62,6 +64,7 @@ DROP TABLE IF EXISTS Final;
 CREATE TEMPORARY TABLE Final AS 
 SELECT 
     Cluster,
+	ClusterDescription,
     :AllPatientCount AS "All_Patients",
     :AllPatientsAliveCount AS "Alive_Patients",
     SUM(CASE WHEN EventsID IS NOT NULL THEN 1 ELSE 0 END) AS "Patients_With_Event",
@@ -72,14 +75,18 @@ SELECT
            ROUND(SUM(CASE WHEN EventsID IS NOT NULL THEN 1 ELSE 0 END) / :AllPatientCount * 100,2), ' |',
            ROUND(SUM(CASE WHEN EventsID IS NOT NULL THEN 1 ELSE 0 END) / :AllPatientsAliveCount * 100,2), ' | ') AS "ReadMeText"
 FROM (
-    SELECT ap."FK_Patient_ID" AS AllPatientsID, p."FK_Patient_ID" AS EventsID, p."Cluster_ID" AS Cluster
+    SELECT ap."FK_Patient_ID" AS AllPatientsID, p."FK_Patient_ID" AS EventsID, p."Cluster_ID" AS Cluster, p."Cluster_Description" AS ClusterDescription
     FROM AllPatients ap
     LEFT OUTER JOIN events p ON p."FK_Patient_ID" = ap."FK_Patient_ID"
     ) SUB
-GROUP BY Cluster;
+GROUP BY Cluster, ClusterDescription;
 
 END; 
 
+-- UNCOMMENT THE BELOW LINES TO UPDATE THE PERMANENT PREVALENCE TABLE (AS THIS QUERY CAN TAKE A LONG TIME TO RUN)
+
+--DROP TABLE IF EXISTS EventsClustersPrevalence;
+--CREATE TABLE EventsClustersPrevalence AS 
 SELECT * 
 FROM Final
 
