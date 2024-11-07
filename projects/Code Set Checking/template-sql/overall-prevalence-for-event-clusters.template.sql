@@ -1,6 +1,6 @@
---┌────────────────────────────────────────────────┐
---│ Prevalence for each event cluster in snowflake │
---└────────────────────────────────────────────────┘
+--┌──────────────────────────────────────────┐
+--│ Prevalence for each cluster in snowflake │
+--└──────────────────────────────────────────┘
 
 -- OBJECTIVE: To provide a report on the proportion of patients who have a particular
 --            clinical concept in their record
@@ -25,14 +25,14 @@
 DROP TABLE IF EXISTS AllPatients;
 CREATE TEMPORARY TABLE AllPatients AS
 SELECT DISTINCT "FK_Patient_ID"
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics";
+FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses";
 
 -- SAME AS ABOVE BUT FOR CURRENTLY ALIVE PATIENTS ONLY
 
 DROP TABLE IF EXISTS AllPatientsAlive;
 CREATE TEMPORARY TABLE AllPatientsAlive AS
 SELECT DISTINCT "FK_Patient_ID"
-FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics" d
+FROM INTERMEDIATE.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" d
 LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" dth
     ON dth."GmPseudo" = d."GmPseudo"
 WHERE dth."GmPseudo" IS NULL;
@@ -43,11 +43,11 @@ WHERE dth."GmPseudo" IS NULL;
 DROP TABLE IF EXISTS events;
 CREATE TEMPORARY TABLE events AS
 SELECT DISTINCT
-      "FK_Patient_ID",
-      "Cluster_ID",
+      e."FK_Patient_ID",
+      e."Cluster_ID",
       c."Cluster_Description"
 FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" e
-INNER JOIN INTERMEDIATE.GP_RECORD."CLUSTERS" c ON c."Cluster_ID" = e."Cluster_ID";
+INNER JOIN INTERMEDIATE.GP_RECORD."Clusters" c ON c."Cluster_ID" = e."Cluster_ID";
 
 -- DECLARE A VARIABLE SO THAT THE TOTAL NUMBER OF PATIENTS CAN BE ACCESSED
 
