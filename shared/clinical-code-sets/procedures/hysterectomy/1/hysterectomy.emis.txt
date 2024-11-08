@@ -1,0 +1,174 @@
+EMISNQLA1	Laparoscopic hysterectomy
+EMISNQLA69	Laparoscopic-assist vaginal hysterec bilat salpingo-oophorectomy
+EMISNQRA14	Radical hysterectomy with bilateral salpingo-oophorectomy
+EMISNQRA15	Radical hysterectomy with conservation of ovaries
+EMISNQSU74	Subtotal abdominal hysterectomy with bilat salpingo-oophorectomy
+EMISNQSU75	Subtotal abdominal hysterectomy and right salpingo-oophorectomy
+EMISNQSU76	Subtotal abdominal hysterectomy and left salpingo-oophorectomy
+EMISNQVA15	Vaginal hysterectomy and left salpingo-oophorectomy
+EMISNQVA16	Vaginal hysterectomy and right salpingo-oophorectomy
+ESCTRA7	Radical trachelectomy with bilateral total pelvic lymphadenectomy and paraaortic lymph node biopsy
+^ESCT1167385	Abdominal hysterectomy with sacrocolpopexy using mesh
+^ESCT1168344	Supracervical hysterectomy with left salpingo-oophorectomy
+^ESCT1168345	Supracervical hysterectomy with right salpingo-oophorectomy
+^ESCT1168346	Total hysterectomy with left oophorectomy
+^ESCT1168347	Total hysterectomy with right oophorectomy
+^ESCT1168348	Total hysterectomy with left salpingo-oophorectomy
+^ESCT1168349	Total hysterectomy with right salpingo-oophorectomy
+^ESCT1168377	Total hysterectomy with right salpingectomy
+^ESCT1168378	Total hysterectomy with left salpingectomy
+^ESCT1169369	Vaginal hysterectomy and pelvic floor repair
+^ESCT1205895	Total hysterectomy via vaginal approach
+^ESCT1205896	Vaginal total hysterectomy
+^ESCT1205897	Total abdominal hysterectomy using intrafascial technique
+^ESCT1205898	Intrafascial TAH (total abdominal hysterectomy)
+^ESCT1205899	Total hysterectomy via vaginal approach using intrafascial technique
+^ESCT1205900	Intrafascial vaginal total hysterectomy
+^ESCT1206036	Laparoscopic adenomyomectomy
+^ESCT1270476	Hysteroscopic myomectomy
+^ESCT1363595	Classic intrafascial supracervical hysterectomy
+^ESCT1363596	Classic SEMM laparoscopic hysterectomy
+^ESCT1363597	CISH - classic intrafascial supracervical hysterectomy
+^ESCT1379204	LASH - laparoscopic supracervical hysterectomy
+^ESCT1384190	Uterine polypectomy via hysteroscopy
+^ESCT1394881	Postpartum hysterectomy
+^ESCT1394882	Postpartum excision of uterus
+^ESCT1405670	Loop electrosurgical excision procedure of cervix
+^ESCT1405671	DLE (Diathermy loop excision) of cervix
+^ESCT1405672	LEEP (Loop electrosurgical excision procedure) of cervix
+^ESCTAB271030	Abdominal hysterectomy with colpo-urethrocystopexy, Marshall-Marchetti-Krantz type
+^ESCTAM647463	Amputation of cervix
+^ESCTBI330098	Bilateral resection of cornua of fallopian tubes
+^ESCTBI390621	Bilateral hysterosalpingo-ovariectomy
+^ESCTCE316129	Cesarean hysterectomy
+^ESCTCE324681	Cervicectomy with synchronous colporrhaphy
+^ESCTCE432273	Cervix excision
+^ESCTCE647466	Cervicectomy
+^ESCTCL267572	Closure of vesicouterine fistula with hysterectomy
+^ESCTCO338500	Conization of uterine cervix
+^ESCTCO338501	Conisation of uterine cervix
+^ESCTCO360859	Cone biopsy of cervix with dilation, curettage and with repair
+^ESCTCO548315	Colpohysterectomy
+^ESCTCO652752	Cold knife cone biopsy of cervix
+^ESCTDL286897	DLE - Diathermy loop excision of cervix
+^ESCTEL510171	Elective caesarean hysterectomy
+^ESCTEL510172	Elective cesarean hysterectomy
+^ESCTEM510169	Emergency caesarean hysterectomy
+^ESCTEM510170	Emergency cesarean hysterectomy
+^ESCTEX250878	Excision of cervix by electroconisation
+^ESCTEX250879	Excision of cervix by electroconization
+^ESCTEX269737	Excision of endometrial synechiae
+^ESCTEX288769	Excision of cervical stump by abdominal approach
+^ESCTEX300288	Excision of septum of uterus
+^ESCTEX300289	Excision of congenital septum of uterus
+^ESCTEX308639	Excision of lesion of cervix
+^ESCTEX308640	Excision of lesion of uterine cervix
+^ESCTEX316978	Excision of cervical stump by vaginal approach
+^ESCTEX338044	Excision of uterus and supporting structures
+^ESCTEX393342	Excision of lesion of uterus
+^ESCTEX432274	Excision of cervix
+^ESCTEX510002	Excision of uterine polyp
+^ESCTEX510004	Excision of endometrial polyp
+^ESCTEX510040	Excision of rudimentary uterine horn
+^ESCTEX572840	Excision of cervix stump
+^ESCTEX572841	Excision of cervical stump
+^ESCTEX596273	Excision of myoma of cervix
+^ESCTEX599354	Extended abdominal hysterectomy
+^ESCTEX737411	Excisional biopsy of uterus
+^ESCTFA572846	Fallopian tube cornual resection
+^ESCTHE620895	Heaney operation for vaginal hysterectomy
+^ESCTHY288397	Hysterectomy for removal of hydatidiform mole
+^ESCTHY317710	Hysteromyomectomy
+^ESCTHY337806	Hysteroscopy with resection of congenital intrauterine septum
+^ESCTHY386754	Hysteroscopy with removal of submucous leiomyomata
+^ESCTHY572928	Hysterectomy and foetus removal
+^ESCTHY572929	Hysterectomy and fetus removal
+^ESCTHY572930	Hysterectomy in pregnancy
+^ESCTHY647464	Hysterotrachelectomy
+^ESCTHY731319	Hysteroscopic excision of polyp of uterus
+^ESCTHY733034	Hysteroscopic excision of leiomyoma of uterus
+^ESCTHY733681	Hysteroscopic excision of uterus and supporting structures
+^ESCTHY782638	Hysteroscopic bipolar electrosurgical excision of uterine fibroid
+^ESCTHY830218	Hysteroscopic bipolar electrosurgical excision of uterine polyp
+^ESCTIN510003	Intrauterine polypectomy
+^ESCTLA373315	Laparoscopic-assisted vaginal hysterectomy
+^ESCTLA373317	LAVH (Laparoscopy assisted vaginal hysterectomy)
+^ESCTLA509990	Laser excision of lesion of cervix
+^ESCTLA510010	Laparoscopic total hysterectomy
+^ESCTLA510011	Laparoscopic supracervical hysterectomy
+^ESCTLA510013	Laparoscopic radical hysterectomy
+^ESCTLA738046	Laparoscopic myomectomy
+^ESCTLA738047	Laparoscopic excision of uterine fibroid
+^ESCTLA738048	Laparoscopic excision of leiomyoma of uterus
+^ESCTLA748911	Laparoscopic assisted vaginal hysterectomy with repair of cystocoele
+^ESCTLA748912	Laparoscopic assisted vaginal hysterectomy with repair of cystocele
+^ESCTLA748913	Laparoscopic assisted vaginal hysterectomy with repair of rectocoele
+^ESCTLA748914	Laparoscopic assisted vaginal hysterectomy with repair of rectocele
+^ESCTLA748915	Laparoscopic assisted vaginal hysterectomy with repair of cystocoele and rectocoele
+^ESCTLA748916	Laparoscopic assisted vaginal hysterectomy with repair of cystocele and rectocele
+^ESCTLA764080	Laparoscopic total hysterectomy using robotic assistance
+^ESCTLA764082	Laparoscopic radical hysterectomy using robotic assistance
+^ESCTLA764248	Laparoscopic vaginal hysterectomy using robotic assistance
+^ESCTLA770035	Laparoscopic resection of uterine cornua
+^ESCTLA826973	Laparoscopic laser myomectomy
+^ESCTLE286895	LEEP procedure of cervix
+^ESCTLO286894	LOOP electro excision of cervix
+^ESCTMA295427	Manchester-Fothergill operation on uterus
+^ESCTMA620881	Mayo operation for vaginal hysterectomy
+^ESCTOP335468	Open excision of lesion of endometrium
+^ESCTOP738207	Open excision of lesion of uterus
+^ESCTPA647495	Partial hysterectomy
+^ESCTPA647496	Partial or subtotal hysterectomy
+^ESCTPA723292	Partial hysterectomy for removal of cornual ectopic pregnancy
+^ESCTPA723293	Partial excision of uterus for removal of interstitial ectopic pregnancy
+^ESCTRA307906	Radical vaginal hysterocolpectomy
+^ESCTRA307907	Radical vaginal hysterectomy, Schauta type operation
+^ESCTRA723639	Radical amputation of cervix with bilateral total pelvic lymphadenectomy and paraaortic lymph node biopsy
+^ESCTRE300290	Resection of uterine septum
+^ESCTRE393237	Removal of ectopic interstitial uterine pregnancy requiring total hysterectomy
+^ESCTRO764079	Robot assisted laparoscopic total hysterectomy
+^ESCTRO764081	Robot assisted laparoscopic radical hysterectomy
+^ESCTRO764247	Robot assisted laparoscopic vaginal hysterectomy
+^ESCTSC307908	Schauta-Amreich vaginal hysterectomy
+^ESCTSC594815	Schroeder operation for cervical myomectomy
+^ESCTSU264702	Surgical treatment of septic abortion
+^ESCTSU278158	Subtotal hysterectomy after caesarean delivery
+^ESCTSU278159	Subtotal hysterectomy after cesarean delivery
+^ESCTSU297473	Supracervical hysterectomy with removal of both tubes and ovaries
+^ESCTSU647497	Subtotal hysterectomy
+^ESCTSU647498	Supracervical hysterectomy
+^ESCTSU647499	Supracervical hysterectomy without removal of tube or ovary
+^ESCTTA426855	TAH - Total abdominal hysterectomy
+^ESCTTA426858	TAH BSO - Total abdominal hysterectomy and bilateral salpingo-oophorectomy
+^ESCTTC467509	TCER (Transcervical endometrial resection)
+^ESCTTO316130	Total hysterectomy after cesarean delivery
+^ESCTTO316131	Total hysterectomy after caesarean delivery
+^ESCTTO390620	Total hysterectomy with removal of both tubes and ovaries
+^ESCTTO426851	Total hysterectomy
+^ESCTTO732454	Total abdominal hysterectomy and removal of vaginal cuff
+^ESCTTO732809	Total laparoscopic excision of uterus by abdominal approach
+^ESCTTR647465	Trachelectomy
+^ESCTTR709163	Transcervical resection of leiomyoma
+^ESCTTR709164	Transcervical resection of leiomyoma of uterus
+^ESCTTU620877	Tuffier operation for vaginal hysterectomy
+^ESCTUT317708	Uterine myomectomy
+^ESCTUT317709	Uterine fibroidectomy
+^ESCTUT647501	Uterine fundectomy
+^ESCTVA293556	Vaginal hysterectomy with partial colpectomy and repair of enterocele
+^ESCTVA298560	Vaginal hysterectomy with total colpectomy and repair of enterocele
+^ESCTVA307910	Vaginal hysterocolpectomy and excision of parametrium
+^ESCTVA320510	Vaginal hysterectomy with total colpectomy
+^ESCTVA338421	Vaginal hysterectomy with repair of enterocele
+^ESCTVA353301	Vaginal hysterectomy with colpo-urethrocystopexy, Pereyra type
+^ESCTVA376740	Vaginal hysterectomy with partial colpectomy
+^ESCTVA421574	Vaginal hysterectomy with colpo-urethrocystopexy, Marshall-Marchetti-Krantz type
+^ESCTVA620889	Vaginal panhysterectomy
+^ESCTVA752711	Vaginal hysterectomy with repair of cystocoele and rectocoele
+^ESCTVA752712	Vaginal hysterectomy with repair of cystocele and rectocele
+^ESCTVH548316	VH - Vaginal hysterectomy
+^ESCTWA620874	Ward-Mayo operation for vaginal hysterectomy
+^ESCTWE509991	Wedge biopsy of cervix
+^ESCTWE509992	Wedge excision of cervix
+^ESCTWE622086	Wertheim-Meigs abdominal hysterectomy
+^ESCTWE622087	Wertheim operation
+^ESCTWE734656	Wedge excision of cervix uteri and suturing of surgical wound

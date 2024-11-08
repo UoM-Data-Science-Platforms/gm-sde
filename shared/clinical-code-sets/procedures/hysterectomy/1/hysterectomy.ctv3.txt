@@ -1,0 +1,101 @@
+7D17.	Repair of vaginal prolapse and amputation of cervix uteri
+7D170	Anterior and posterior colporrhaphy and amputation of cervix uteri
+7D172	Posterior colporrhaphy and amputation of cervix uteri NEC
+7D17y	Other specified repair of vaginal prolapse and amputation of cervix uteri
+7D17z	Repair of vaginal prolapse and amputation of cervix uteri NOS
+7E00.	Excision of cervix uteri
+7E000	Amputation of cervix
+7E001	Wedge excision of cervix uteri and suture however further qualified
+7E002	Excision of lesion of cervix
+7E004	Large loop excision of transformation zone
+7E00y	Other specified excision of cervix uteri
+7E00z	Excision of cervix uteri NOS
+7E014	Polypectomy of cervix
+7E020	Knife cone biopsy of cervix uteri
+7E021	Laser cone biopsy of cervix uteri
+7E04.	Wertheim's hysterectomy
+7E040	Radical abdominal hysterocolpectomy
+7E041	Abdominal hysterectomy and excision of periuterine tissue NEC
+7E043	Total abdominal hysterectomy NEC
+7E044	Subtotal abdominal hysterectomy
+7E045	TAH - total abdominal hysterectomy and bilateral salpingoophorectomy
+7E046	Radical hysterectomy
+7E047	Abdominal hysterectomy and right salpingoophorectomy
+7E04y	Other specified abdominal excision of uterus
+7E04z	Abdominal excision of uterus NOS
+7E05.	Vaginal hysterectomy (& Schauta radical)
+7E050	Vaginal hysterocolpectomy and excision of parametrium
+7E051	Vaginal hysterectomy and excision of periuterine tissue NEC
+7E053	Vaginal hysterectomy: [NEC] or [Heaney]
+7E05y	Ward vaginal hysterectomy
+7E05z	Vaginal excision of uterus NOS
+7E061	Open myomectomy
+7E062	Open excision of lesion of uterus NEC
+7E067	Endometrectomy
+7E06y	Vaginal myomectomy
+7E0D0	TCRE - Transcervical resection of endometrium
+7E0D3	Endoscopic uterine: [lesion destruction NEC] or [polypectomy]
+7E0D5	Transcervical resection endometrium
+7E0G0	Vaginal excision of lesion of uterus
+7F1A0	Caesarean hysterectomy
+X402y	Laser excision of lesion of cervix
+X402z	Wedge excision of cervix
+X403A	Intrauterine polypectomy
+X403C	Laparoscopy assisted vaginal hysterectomy
+X403D	Laparoscopic hysterectomy
+X403E	Total laparoscopic hysterectomy
+X403F	Laparoscopic supracervical hysterectomy
+X403I	Radical laparoscopic hysterectomy
+X403O	TCRE - Transcervical resection endometrium
+X403S	Myomectomy
+X403T	Hysteroscopic myomectomy
+X403U	Vaginal myomectomy
+X403W	Resection of uterine septum
+X403X	Endoscopic resection of uterine septum
+X403b	Excision of rudimentary uterine horn
+X405G	Emergency caesarean hysterectomy
+X405H	Elective caesarean hysterectomy
+XE06W	Polypectomy of cervix
+XE06Y	Abdominal hysterectomy
+XE06Z	Total abdominal hysterectomy with conservation of ovaries
+XE06a	Total abdominal hysterectomy and bilateral salpingo-oophorectomy
+XE06b	Vaginal hysterectomy
+XE06c	Vaginal hysterectomy NEC
+XE06d	Other specified vaginal excision of uterus
+XE06e	Open myomectomy
+XE06l	Endoscopic resection of lesion of uterus
+XE0HB	Repair of vaginal prolapse and amputation of cervix uteri NOS
+XE1QH	Cone biopsy of cervix
+XM1Ha	Endoscopic endometrial polypectomy
+XS8e3	Excision of lesion of uterus
+Xa3vh	Excision of cervix stump
+Xa3vo	Fallopian tube cornual resection
+Xa3xj	Hysterectomy and fetus removal
+Xa3xk	Hysterectomy in pregnancy
+Xa8H9	Abdominal hysterectomy and right salpingo-oophorectomy
+Xa8HA	Abdominal hysterectomy and left salpingo-oophorectomy
+Xa8PS	Loop diathermy excision of cervix
+Xa9gV	Endocervical excision NEC
+Xa9gW	Cone biopsy of cervix uteri NEC
+Xa9gY	Total abdominal hysterectomy NEC
+Xa9gZ	Abdominal hysterocolpectomy NEC
+Xa9ga	Vaginal hysterocolpectomy NEC
+XaBEI	Wertheim's hysterectomy
+XaC3d	Endocervical excision
+XaC3i	Extended abdominal hysterectomy
+XaC3j	Vaginal hysterocolpectomy
+XaC3o	Cone biopsy of cervix
+XaJr4	Abdominal hysterectomy with conservation of ovaries
+XaJr5	Vaginal hysterectomy with conservation of ovaries
+XaJy8	Laparoscopic total abdominal hysterectomy and bilateral salpingo-oophorectomy
+XaMBl	Excision of accessory uterus
+XaNQc	Transcervical resection of leiomyoma
+XaNln	Laparoscopic subtotal hysterectomy
+XaPmp	Laparoscopic-assisted vaginal hysterectomy with bilateral salpingo-oophorectomy
+XabO5	Subtotal abdominal hysterectomy and bilateral salpingo-oophorectomy
+XabO7	Subtotal abdominal hysterectomy and right salpingo-oophorectomy
+XabO8	Subtotal abdominal hysterectomy and left salpingo-oophorectomy
+XabO9	Vaginal hysterectomy and right salpingo-oophorectomy
+XabOA	Vaginal hysterectomy and left salpingo-oophorectomy
+XabOB	Radical hysterectomy with conservation of ovaries
+XabOC	Radical hysterectomy with bilateral salpingo-oophorectomy

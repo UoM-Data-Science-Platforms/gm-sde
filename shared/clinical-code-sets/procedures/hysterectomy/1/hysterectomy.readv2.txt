@@ -1,0 +1,149 @@
+7D17.	Repair of vaginal prolapse and amputation of cervix uteri
+7D17.00	Repair of vaginal prolapse and amputation of cervix uteri
+7D17.11	Colporrhaphy and amputation of cervix uteri
+7D170	Anterior and posterior colporrhaphy and amputation of cervix uteri
+7D17000	Anterior and posterior colporrhaphy and amputation of cervix uteri
+7D172	Posterior colporrhaphy and amputation of cervix uteri NEC
+7D17200	Posterior colporrhaphy and amputation of cervix uteri NEC
+7D17y	Other specified repair of vaginal prolapse and amputation of cervix uteri
+7D17y00	Other specified repair of vaginal prolapse and amputation of cervix uteri
+7D17z00	Repair of vaginal prolapse and amputation of cervix uteri NOS
+7E00.	Excision of cervix uteri
+7E00.00	Excision of cervix uteri
+7E000	Amputation of cervix uteri
+7E00000	Amputation of cervix uteri
+7E001	Wedge excision of cervix uteri and suture however further qualified
+7E00100	Wedge excision of cervix uteri and suture however further qualified
+7E002	Excision of lesion of cervix uteri
+7E00200	Excision of lesion of cervix uteri
+7E003	Endocervical excision NEC
+7E00300	Endocervical excision NEC
+7E004	Large loop excision transformation zone
+7E00400	Large loop excision transformation zone
+7E00411	LLETZ - Large loop excision of transformation zone
+7E005	Cervical polypectomy
+7E00500	Cervical polypectomy
+7E006	Loop diathermy excision of cervix
+7E00600	Loop diathermy excision of cervix
+7E00y	Other specified excision of cervix uteri
+7E00y00	Other specified excision of cervix uteri
+7E00z	Excision of cervix uteri NOS
+7E00z00	Excision of cervix uteri NOS
+7E00z11	Cervicectomy
+7E014	Avulsion of cervical polyp
+7E01400	Avulsion of cervical polyp
+7E01411	Polypectomy of cervix
+7E02000	Knife cone biopsy of cervix uteri
+7E021	Laser cone biopsy of cervix uteri
+7E02100	Laser cone biopsy of cervix uteri
+7E022	Cone biopsy of cervix uteri NEC
+7E02200	Cone biopsy of cervix uteri NEC
+7E04.	Abdominal excision of uterus
+7E04.00	Abdominal excision of uterus
+7E04.11	Abdominal hysterectomy
+7E04.12	Wertheim hysterectomy
+7E040	Abdominal hysterocolpectomy and excision of periuterine tissue
+7E04000	Abdominal hysterocolpectomy and excision of periuterine tissue
+7E041	Abdominal hysterectomy and excision of periuterine tissue NEC
+7E04100	Abdominal hysterectomy and excision of periuterine tissue NEC
+7E042	Abdominal hysterocolpectomy NEC
+7E04200	Abdominal hysterocolpectomy NEC
+7E04300	Total abdominal hysterectomy NEC
+7E04311	Bonney abdominal hysterectomy
+7E044	Subtotal abdominal hysterectomy
+7E04400	Subtotal abdominal hysterectomy
+7E045	Abdominal hysterectomy and bilateral salpingoophorectomy
+7E04500	Abdominal hysterectomy and bilateral salpingoophorectomy
+7E04511	Abdominal hysterectomy and bilateral salpingoophorectomy (BSO)
+7E04512	TAH - total abdominal hysterectomy and bilateral salpingoophorectomy
+7E046	Radical hysterectomy
+7E04600	Radical hysterectomy
+7E04700	Abdominal hysterectomy and right salpingoopherectomy
+7E04711	Abdominal hysterectomy and left salpingoopherectomy
+7E048	Abdominal hysterectomy and left salpingoophorectomy
+7E04800	Abdominal hysterectomy and left salpingoophorectomy
+7E049	Total abdominal hysterectomy and bilateral salpingoophorectomy
+7E04900	Total abdominal hysterectomy and bilateral salpingoophorectomy
+7E04A	Abdominal hysterectomy with conservation of ovaries
+7E04A00	Abdominal hysterectomy with conservation of ovaries
+7E04B	Laparoscopic total abdominal hysterectomy and bilateral salpingo-oophorectomy
+7E04B00	Laparoscopic total abdominal hysterectomy and bilateral salpingo-oophorectomy
+7E04C	Laparoscopic hysterectomy
+7E04C00	Laparoscopic hysterectomy
+7E04D	Excision of accessory uterus
+7E04D00	Excision of accessory uterus
+7E04E	Laparoscopic subtotal hysterectomy
+7E04E00	Laparoscopic subtotal hysterectomy
+7E04F	Subtotal abdominal hysterectomy with conservation of ovaries
+7E04F00	Subtotal abdominal hysterectomy with conservation of ovaries
+7E04G	Total abdominal hysterectomy with conservation of ovaries
+7E04G00	Total abdominal hysterectomy with conservation of ovaries
+7E04H	Subtotal abdominal hysterectomy and bilateral salpingo-oophorectomy
+7E04H00	Subtotal abdominal hysterectomy and bilateral salpingo-oophorectomy
+7E04J	Subtotal abdominal hysterectomy and right salpingo-oophorectomy
+7E04J00	Subtotal abdominal hysterectomy and right salpingo-oophorectomy
+7E04K	Subtotal abdominal hysterectomy and left salpingo-oophorectomy
+7E04K00	Subtotal abdominal hysterectomy and left salpingo-oophorectomy
+7E04N	Radical hysterectomy with conservation of ovaries
+7E04N00	Radical hysterectomy with conservation of ovaries
+7E04P	Radical hysterectomy with bilateral salpingo-oophorectomy
+7E04P00	Radical hysterectomy with bilateral salpingo-oophorectomy
+7E04y	Other specified abdominal excision of uterus
+7E04y00	Other specified abdominal excision of uterus
+7E04z	Abdominal excision of uterus NOS
+7E04z00	Abdominal excision of uterus NOS
+7E05.	Vaginal excision of uterus
+7E05.00	Vaginal excision of uterus
+7E05.11	Schauta radical vaginal hysterectomy
+7E05.12	Vaginal hysterectomy
+7E050	Vaginal hysterocolpectomy and excision of periuterine tissue
+7E05000	Vaginal hysterocolpectomy and excision of periuterine tissue
+7E051	Vaginal hysterectomy and excision of periuterine tissue NEC
+7E05100	Vaginal hysterectomy and excision of periuterine tissue NEC
+7E052	Vaginal hysterocolpectomy NEC
+7E05200	Vaginal hysterocolpectomy NEC
+7E053	Vaginal hysterectomy NEC
+7E05300	Vaginal hysterectomy NEC
+7E05311	Heaney vaginal hysterectomy
+7E054	Laparoscopic vaginal hysterectomy
+7E05400	Laparoscopic vaginal hysterectomy
+7E055	Vaginal hysterectomy with conservation of ovaries
+7E05500	Vaginal hysterectomy with conservation of ovaries
+7E056	Laparoscopic-assisted vaginal hysterectomy with bilateral salpingo-oophorectomy
+7E05600	Laparoscopic-assisted vaginal hysterectomy with bilateral salpingo-oophorectomy
+7E057	Vaginal hysterectomy and right salpingo-oophorectomy
+7E05700	Vaginal hysterectomy and right salpingo-oophorectomy
+7E058	Vaginal hysterectomy and left salpingo-oophorectomy
+7E05800	Vaginal hysterectomy and left salpingo-oophorectomy
+7E05y	Other specified vaginal excision of uterus
+7E05y00	Other specified vaginal excision of uterus
+7E05y11	Ward vaginal hysterectomy
+7E05z	Vaginal excision of uterus NOS
+7E05z00	Vaginal excision of uterus NOS
+7E06100	Open myomectomy
+7E06111	Excision fibroid
+7E06112	Myomectomy
+7E062	Open excision of lesion of uterus NEC
+7E06200	Open excision of lesion of uterus NEC
+7E06700	Endometrectomy
+7E06y11	Vaginal myomectomy
+7E0D000	Endoscopic excision of lesion of uterus
+7E0D011	Endoscopic resection of lesion of uterus
+7E0D012	Endoscopic myomectomy
+7E0D013	Myomectomy
+7E0D014	Endoscopic resection of uterine septum
+7E0D015	Hysteroscopic myomectomy
+7E0D016	TCRE - Transcervical resection of endometrium
+7E0D311	Endoscopic endometrial polypectomy
+7E0D4	Endoscopic resection of lesion of uterus
+7E0D400	Endoscopic resection of lesion of uterus
+7E0D5	Trans-cervical resection endometrium
+7E0D500	Trans-cervical resection endometrium
+7E0D7	Endoscopic endometrial polypectomy
+7E0D700	Endoscopic endometrial polypectomy
+7E0DC	Transcervical resection of fibroid
+7E0DC00	Transcervical resection of fibroid
+7E0G0	Vaginal excision of lesion of uterus
+7E0G000	Vaginal excision of lesion of uterus
+7F1A0	Caesarean hysterectomy
+7F1A000	Caesarean hysterectomy
