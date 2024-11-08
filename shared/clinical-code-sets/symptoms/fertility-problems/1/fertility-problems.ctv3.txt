@@ -1,0 +1,84 @@
+1AZ2.	Infertility problem
+K26..	Male infertility
+K26y.	Infertility due to extratesticular cause
+K26y0	Infertility due to drug therapy:[male] or [female]
+K26y2	Acquired obstructive azoospermia
+K26y3	Infertility due to radiation: [male] or female]
+K26y4	Infertility in systemic disease:[male] or [female]
+K26yz	Infertility due to extratesticular cause NOS
+K26z.	Male infertility NOS
+K5B..	Female subfertility
+K5B0.	Female infertility of anovulatory origin
+K5B00	Primary anovulatory infertility
+K5B01	Secondary anovulatory infertility
+K5B0z	Female infertility of anovulatory origin NOS
+K5B1.	Female infertility of pituitary - hypothalamic origin
+K5B10	Primary pituitary - hypothalamic infertility
+K5B11	Secondary pituitary - hypothalamic infertility
+K5B1z	Female infertility of pituitary - hypothalamic cause NOS
+K5B2.	Female infertility of tubal origin
+K5B20	Primary tubal infertility
+K5B21	Secondary tubal infertility
+K5B2z	Female infertility of tubal origin NOS
+K5B3.	Female infertility of uterine origin
+K5B30	Primary uterine infertility
+K5B31	Secondary uterine infertility
+K5B3z	Female infertility of uterine origin NOS
+K5B4.	Female infertility of cervical origin
+K5B40	Primary cervical infertility
+K5B41	Secondary cervical infertility
+K5B4z	Female infertility of cervical origin NOS
+K5B5.	Female infertility of vaginal origin
+K5B50	Primary vaginal infertility
+K5B51	Secondary vaginal infertility
+K5B5z	Female infertility of vaginal origin NOS
+K5By.	Other female infertility
+K5By0	Primary infertility unspecified
+K5By1	Secondary infertility unspecified
+K5Byz	Other female infertility NOS
+K5Bz.	Female infertility NOS
+Kyu9G	[X]Female infertility of other origin
+X4016	Primary male infertility
+X4017	Secondary male infertility
+X4018	Congenital male infertility
+X4019	Male infertility of chromosomal origin
+X401A	Male infertility of genetic origin
+X401B	Azoospermia with absent vasa in association with cystic fibrosis trait
+X401D	Male infertility of developmental origin
+X401E	Rudimentary testes associated with infertility
+X401H	XY Gonadal agenesis syndrome
+X401K	Congenitally impaired spermatogenesis
+X401L	Primary spermatogenic failure
+X401N	Oligosynaptic infertility
+X401P	Congenital impairment of sperm motility
+X401S	Infertility associated with multi-tailed spermatozoa and excessive DNA
+X401T	Congenital obstructive azoospermia
+X401X	Acquired male infertility
+X401Y	Acquired male infertility of endocrine origin
+X401Z	Acquired testicular failure
+X401a	Acquired impaired spermatogenesis
+X401e	Cytotoxic drug-induced hypospermatogenesis
+X401f	Drug abuse-induced hypospermatogenesis
+X401i	Teratozoospermia
+X401j	Globozoospermia
+X4093	Primary female infertility
+X4094	Secondary female infertility
+X4095	Female infertility due to ovulatory disorder
+X4097	Luteal phase defect
+X4098	Luteinised unruptured follicle syndrome
+X409C	Unexplained infertility
+X40Nc	Endocrine female infertility
+X76Lv	Infertility
+XE0ex	Female infertility of anovulatory origin
+XE0ey	Other female infertility NOS
+XE0h7	Secondary infertility
+Xa3g9	Female infertility with genitourinary tract disorder, NOS
+Xa3gA	Female infertility - cervical/vaginal
+Xa4Oh	Infertile
+Xa6Xq	Primary infertility
+Xa6Y8	Secondary infertility
+XaZ6K	Female infertility due to diminished ovarian reserve
+XE2tj	Fertility problem
+XaEHj	Subfertility
+XaXUx	Aspermia
+XaXbT	Oligoasthenozoospermia

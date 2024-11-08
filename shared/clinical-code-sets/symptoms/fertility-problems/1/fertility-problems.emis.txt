@@ -1,0 +1,108 @@
+EMISNQAS22	Aspermia
+EMISNQFE11	Female infertility due to diminished ovarian reserve
+EMISNQOL2	Oligoasthenozoospermia
+EMISNQTE6	Teratozoospermia
+^ESCT1201227	Male infertility with teratozoospermia due to single gene mutation
+^ESCT1202923	Male infertility with azoospermia due to single gene mutation
+^ESCT1202924	Male infertility with oligozoospermia due to single gene mutation
+^ESCT1222139	Chemotherapy-induced hypospermatogenesis
+^ESCT1349452	Female infertility due to zona pellucida defect
+^ESCT1395797	Male infertility due to Mycoplasma infection
+^ESCT1395798	Male infertility associated with Mycoplasma infection
+^ESCT1405624	Subfertility
+^ESCTAB257098	Abnormal spermatogenesis
+^ESCTAB620357	Absolute male infertility
+^ESCTAC479069	Acquired obstructive azoospermia
+^ESCTAC509887	Acquired male infertility
+^ESCTAC509888	Acquired male infertility of endocrine origin
+^ESCTAC509889	Acquired testicular failure
+^ESCTAC509890	Acquired impaired spermatogenesis
+^ESCTAG708204	Age related female infertility
+^ESCTAN549368	Anovulatory infertility
+^ESCTAZ509873	Azoospermia with absent vasa in association with cystic fibrosis trait
+^ESCTCA263763	Cannot achieve a pregnancy
+^ESCTCH509893	Chemotherapy induced hypospermatogenesis
+^ESCTCH753582	Chromosome 15q15.3 deletion syndrome
+^ESCTCO509870	Congenital male infertility
+^ESCTCO509878	Congenitally impaired spermatogenesis
+^ESCTCO509883	Congenital impairment of sperm motility
+^ESCTCO509886	Congenital obstructive azoospermia
+^ESCTCY509892	Cytotoxic drug-induced hypospermatogenesis
+^ESCTDE277404	Decreased fertility
+^ESCTDE753581	Deafness infertility syndrome
+^ESCTDI263762	Difficulty conceiving
+^ESCTDR509894	Drug abuse-induced hypospermatogenesis
+^ESCTEN511258	Endocrine female infertility
+^ESCTFE257340	Female infertility due to structural congenital anomaly of vagina
+^ESCTFE306900	Female infertility due to nonimplantation
+^ESCTFE356436	Female infertility associated with congenital anomaly of uterus
+^ESCTFE370778	Female infertility due to structural congenital anomaly of cervix
+^ESCTFE384360	Female infertility due to congenital anomaly of fallopian tube
+^ESCTFE387898	Female infertility due to acquired stenosis of fallopian tube
+^ESCTFE388382	Female infertility due to occlusion of fallopian tube
+^ESCTFE388383	Female infertility due to block of fallopian tube
+^ESCTFE496981	Female infertility associated with anovulation
+^ESCTFE510379	Female infertility due to ovulatory disorder
+^ESCTFE572135	Female infertility - cervical/vaginal
+^ESCTFE685465	Female infertility due to antisperm antibody
+^ESCTFE685466	Female infertility due to cervical mucus dysfunction
+^ESCTFE705979	Female infertility due to oligo-ovulation
+^ESCTFE708203	Female infertility due to advanced maternal age
+^ESCTFE762015	Female infertility due to cystic fibrosis
+^ESCTFE762016	Female hypofertility in classical cystic fibrosis
+^ESCTFE762017	Female hypofertility due to cystic fibrosis
+^ESCTFE769266	Female infertility due to endometriosis
+^ESCTFE769267	Female infertility due to pelvic peritoneal adhesion
+^ESCTFE801632	Female infertility due to disorder of pituitary gland
+^ESCTFE801633	Female infertility of pituitary origin
+^ESCTGL509897	Globozoospermia
+^ESCTIN254942	Infertility of cervical origin
+^ESCTIN256446	Infertile male syndrome
+^ESCTIN263760	Infertile
+^ESCTIN283505	Infertility due to germinal cell aplasia
+^ESCTIN293078	Infertility of uterine origin
+^ESCTIN299692	Infertility of vaginal origin
+^ESCTIN300541	Infertility due to germinal cell desquamation
+^ESCTIN313471	Infertility of tubal origin
+^ESCTIN335841	Infertility due to infection
+^ESCTIN337267	Infertility caused by radiation
+^ESCTIN344926	Infertility due to systemic disease
+^ESCTIN366076	Infertility due to oligospermia
+^ESCTIN366077	Infertility due to hypospermatogenesis
+^ESCTIN368290	Infertility due to incomplete spermatogenic arrest
+^ESCTIN388843	Infertility due to obstruction of efferent ducts
+^ESCTIN396181	Infertility due to complete spermatogenic arrest
+^ESCTIN509884	Infertility associated with multi-tailed spermatozoa and excessive DNA
+^ESCTIN509885	Infertility associated with multi-tailed spermatozoa and excessive deoxyribonucleic acid
+^ESCTIN620356	Infertility due to azoospermia
+^ESCTIN685928	Infertility due to testicular hypoplasia
+^ESCTIN705980	Infertility due to oligoovulation
+^ESCTLU510381	Luteal phase defect
+^ESCTLU510382	Luteinised unruptured follicle syndrome
+^ESCTLU510383	LUF - Luteinised unruptured follicle syndrome
+^ESCTLU510384	LUF - Luteinized unruptured follicle syndrome
+^ESCTLU510385	Luteinized unruptured follicle syndrome
+^ESCTMA396182	Male infertility due to complete spermatogenic arrest
+^ESCTMA509867	Male infertility without previous paternity
+^ESCTMA509869	Male infertility with previous paternity
+^ESCTMA509871	Male infertility of chromosomal origin
+^ESCTMA509872	Male infertility of genetic origin
+^ESCTMA509874	Male infertility of developmental origin
+^ESCTMA620358	Male infertility due to azoospermia
+^ESCTMA686171	Male infertility due to antisperm antibody
+^ESCTMA761724	Male infertility due to cystic fibrosis
+^ESCTMA761725	Male infertility in classical cystic fibrosis
+^ESCTOL509881	Oligosynaptic infertility
+^ESCTOL509882	Oligochiasmic infertility
+^ESCTPE475619	Pelvic inflammation with female sterility due to Chlamydia trachomatis
+^ESCTPE475620	Pelvic inflammation with female sterility caused by Chlamydia trachomatis
+^ESCTPR258067	Primary female infertility
+^ESCTPR509866	Primary male infertility
+^ESCTPR509879	Primary spermatogenic failure
+^ESCTSE509868	Secondary male infertility
+^ESCTSE753580	Sensorineural deafness and male infertility
+^ESCTTE336910	Testicular regression syndrome
+^ESCTTE336912	Testicular regression - embryonic
+^ESCTUN510388	Unexplained infertility
+^ESCTVA336911	Vanishing testes syndrome
+^ESCTXY336913	XY Gonadal agenesis syndrome

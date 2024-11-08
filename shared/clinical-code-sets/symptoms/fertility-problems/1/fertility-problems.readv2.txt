@@ -1,0 +1,87 @@
+1AZ2.11	Infertility problem
+49560	Teratozoospermia
+4956000	Teratozoospermia
+K26..	Male infertility
+K26..00	Male infertility
+K26y.	Infertility due to extratesticular cause
+K26y.00	Infertility due to extratesticular cause
+K26y0	Infertility due to drug therapy
+K26y000	Infertility due to drug therapy
+K26y2	Infertility due to efferent duct obstruction
+K26y200	Infertility due to efferent duct obstruction
+K26y3	Infertility due to radiation
+K26y300	Infertility due to radiation
+K26y4	Infertility in systemic disease
+K26y400	Infertility in systemic disease
+K26yz	Infertility due to extratesticular cause NOS
+K26yz00	Infertility due to extratesticular cause NOS
+K26z.	Male infertility NOS
+K26z.00	Male infertility NOS
+K5B..	Infertility - female
+K5B..00	Infertility - female
+K5B0.	Female infertility of anovulatory origin
+K5B0.00	Female infertility of anovulatory origin
+K5B0.11	Anovular cycle
+K5B00	Primary anovulatory infertility
+K5B0000	Primary anovulatory infertility
+K5B01	Secondary anovulatory infertility
+K5B0100	Secondary anovulatory infertility
+K5B0z	Female infertility of anovulatory origin NOS
+K5B0z00	Female infertility of anovulatory origin NOS
+K5B1.	Female infertility of pituitary - hypothalamic origin
+K5B1.00	Female infertility of pituitary - hypothalamic origin
+K5B10	Primary pituitary - hypothalamic infertility
+K5B1000	Primary pituitary - hypothalamic infertility
+K5B11	Secondary pituitary - hypothalamic infertility
+K5B1100	Secondary pituitary - hypothalamic infertility
+K5B1z	Female infertility of pituitary - hypothalamic cause NOS
+K5B1z00	Female infertility of pituitary - hypothalamic cause NOS
+K5B2.	Female infertility of tubal origin
+K5B2.00	Female infertility of tubal origin
+K5B20	Primary tubal infertility
+K5B2000	Primary tubal infertility
+K5B21	Secondary tubal infertility
+K5B2100	Secondary tubal infertility
+K5B2z	Female infertility of tubal origin NOS
+K5B2z00	Female infertility of tubal origin NOS
+K5B3.	Female infertility of uterine origin
+K5B3.00	Female infertility of uterine origin
+K5B30	Primary uterine infertility
+K5B3000	Primary uterine infertility
+K5B31	Secondary uterine infertility
+K5B3100	Secondary uterine infertility
+K5B3z	Female infertility of uterine origin NOS
+K5B3z00	Female infertility of uterine origin NOS
+K5B4.	Female infertility of cervical origin
+K5B4.00	Female infertility of cervical origin
+K5B40	Primary cervical infertility
+K5B4000	Primary cervical infertility
+K5B41	Secondary cervical infertility
+K5B4100	Secondary cervical infertility
+K5B4z	Female infertility of cervical origin NOS
+K5B4z00	Female infertility of cervical origin NOS
+K5B5.	Female infertility of vaginal origin
+K5B5.00	Female infertility of vaginal origin
+K5B50	Primary vaginal infertility
+K5B5000	Primary vaginal infertility
+K5B51	Secondary vaginal infertility
+K5B5100	Secondary vaginal infertility
+K5B5z	Female infertility of vaginal origin NOS
+K5B5z00	Female infertility of vaginal origin NOS
+K5B7.	Female infertility due to diminished ovarian reserve
+K5B7.00	Female infertility due to diminished ovarian reserve
+K5By.	Other female infertility
+K5By.00	Other female infertility
+K5By0	Primary infertility unspecified
+K5By000	Primary infertility unspecified
+K5By1	Secondary infertility unspecified
+K5By100	Secondary infertility unspecified
+K5Byz00	Other female infertility NOS
+K5Bz.	Female infertility NOS
+K5Bz.00	Female infertility NOS
+Kyu9G	[X]Female infertility of other origin
+Kyu9G00	[X]Female infertility of other origin
+1AZ2.00	Fertility problem
+K2610	Oligoasthenozoospermia
+K262.	Aspermia
+K5Byz11	Subfertility
