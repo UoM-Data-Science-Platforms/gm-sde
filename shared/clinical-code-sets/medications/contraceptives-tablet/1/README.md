@@ -1,8 +1,6 @@
 # Contraceptives - tablet
 
-This code set was based on BNF codes (mapped to SNOMED) starting with 070301, 070302,  following the approach used in https://arro.anglia.ac.uk/id/eprint/707403/4/Walker_2022.pdf
-
-Any codes in the above lists that related to injections, IUDs or implants, have been moved into their respective code set (e.g. contraceptives-implant)
+This code set was based on BNF codes (mapped to SNOMED) starting with 070301, 070302,  following the approach used in https://arro.anglia.ac.uk/id/eprint/707403/4/Walker_2022.pdf. So this code set incorporates all codes in 'progesterone-only' and 'combined-hormonal' code sets, except those related to injections, IUDs or implants, which have been moved into their respective code set (e.g. contraceptives-implant)
 
 NB this code also contains a small number of codes related to transdermal patches and vaginal delivery contraceptives.
 
