@@ -10,11 +10,66 @@
 66U1.00	Menopause initial assessment
 C163400	Early menopause
 C163111	Premature menopause NOS
-12F9.00	FH: Late menopause
-12F8.00	FH: Early menopause
 K5Az.00	Menopausal and postmenopausal disorder NOS
 K5A4.00	Artificial menopause state
 1512.00	Menopause
 67I1.00	Advice about the menopause
 C163100	Secondary ovarian failure
 K5A2z00	Menopausal symptoms NOS
+151K.	Postmenopausal state
+151K.00	Postmenopausal state
+1657.	Hot flushes
+1657.00	Hot flushes
+66U8.	HRT side-effects
+66U8.00	HRT side-effects
+66UB.	HRT: unopposed oestrogen
+66UB.00	HRT: unopposed oestrogen
+66UC.	HRT: combined oestrog/progest
+66UC.00	HRT: combined oestrog/progest
+66UH.	Hormone replacement therapy bleed pattern - normal
+66UH.00	Hormone replacement therapy bleed pattern - normal
+66UI.	Hormone replacement therapy bleed pattern - abnormal
+66UI.00	Hormone replacement therapy bleed pattern - abnormal
+66UJ.	Hormone replacement therapy bleed pattern - not relevant
+66UJ.00	Hormone replacement therapy bleed pattern - not relevant
+66UK.	Hormone replacement therapy bleed pattern - no bleeding
+66UK.00	Hormone replacement therapy bleed pattern - no bleeding
+66UL.	Years on hormone replacement therapy
+66UL.00	Years on hormone replacement therapy
+6A3..	Hormone replacement therapy review
+6A3..00	Hormone replacement therapy review
+8B64.00	Hormone replacement therapy
+8B64.12	HRT prophylaxis
+K171.	Post menopausal atrophic urethritis
+K171.00	Post menopausal atrophic urethritis
+K171.11	Post menopausal urethritis
+K592.12	Hypermenorrhoea
+K5920	Menorrhagia
+K592000	Menorrhagia
+K592011	Heavy periods
+K592012	Heavy menstrual bleeding
+K59B.	Postmenopausal postcoital bleeding
+K59B.00	Postmenopausal postcoital bleeding
+K5A..	Menopausal and postmenopausal disorders
+K5A..00	Menopausal and postmenopausal disorders
+K5A..11	Postmenopausal disorders
+K5A0.	Premenopausal menorrhagia
+K5A0.00	Premenopausal menorrhagia
+K5A0.11	Climacteric menorrhagia
+K5A1.	Postmenopausal bleeding
+K5A1.00	Postmenopausal bleeding
+K5A20	Menopausal flushing
+K5A2000	Menopausal flushing
+K5A2011	Hot flushes - menopausal
+K5A21	Menopausal sleeplessness
+K5A2100	Menopausal sleeplessness
+K5A22	Menopausal headache
+K5A2200	Menopausal headache
+K5A23	Menopausal concentration lack
+K5A2300	Menopausal concentration lack
+K5A5.	Perimenopausal atrophic vaginitis
+K5A5.00	Perimenopausal atrophic vaginitis
+K5A6.	Perimenopausal menorrhagia
+K5A6.00	Perimenopausal menorrhagia
+N3302	Postmenopausal osteoporosis
+N330200	Postmenopausal osteoporosis

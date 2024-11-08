@@ -1,0 +1,88 @@
+﻿EMISNQON7	On low dose hormone replacement therapy
+^ESCT1165732	Postmenopausal osteopenia
+^ESCT1165733	Osteopenia following menopause
+^ESCT1192511	Luteinizing hormone and follicle stimulating hormone checked
+^ESCT1229463	Heavy menstrual bleeding
+^ESCT1245245	Premenopausal menorrhagia
+^ESCT1248778	Menopause: sexual advice
+^ESCT1248923	Premenopausal state
+^ESCT1379004	Menopausal insomnia
+^ESCTAB409387	Abnormal presence of endometrial cells in specimen from a menopausal woman
+^ESCTAF596817	After menopause
+^ESCTAR300536	Artificial menopause
+^ESCTBE599063	Before menopause
+^ESCTBL374815	Bleeding after menopause
+^ESCTCH454314	"Change of life"
+^ESCTCL393697	Climacteric menorrhagia
+^ESCTCO722273	Counselling for menopause
+^ESCTCO722274	Counseling for menopause
+^ESCTDE281857	Delayed menopause
+^ESCTDE667021	Dermatosis of menopause
+^ESCTDI412599	Disorder associated with menstruation AND/OR menopause
+^ESCTDI700819	Difficulty managing menopause
+^ESCTDU591502	During menopause
+^ESCTEA638453	Early menopause
+^ESCTEN437319	Endometrial cells, cytologically benign, in a postmenopausal woman
+^ESCTEX393696	Excessive bleeding at onset of menopause
+^ESCTFL645957	Flooding during periods
+^ESCTHE645958	Heavy period
+^ESCTHO463877	Hormone replacement therapy (HRT) side-effects
+^ESCTHO463878	Hormone replacement therapy side effects
+^ESCTHO463887	Hormonal replacement therapy (HRT): unopposed oestrogen
+^ESCTHO463888	Hormonal replacement therapy (HRT): unopposed estrogen
+^ESCTHO463889	Hormonal replacement therapy: unopposed estrogen
+^ESCTHO463892	Hormonal replacement therapy (HRT): combined estrogen/progestogen
+^ESCTHO463893	Hormonal replacement therapy (HRT): combined oestrogen/progestogen
+^ESCTHO463894	Hormonal replacement therapy: combined estrogen/progestogen
+^ESCTHO479269	Hot flush
+^ESCTHO479270	Hot flashes
+^ESCTHR463886	HRT: unopposed estrogen
+^ESCTHR463891	HRT: combined estrogen/progestogen
+^ESCTHR549422	HRT - Hormone replacement therapy
+^ESCTHY645956	Hypermenorrhea
+^ESCTLU451344	Luteinising hormone and follicle stimulating hormone checked
+^ESCTLU764678	Luteinising hormone and follicle stimulating hormone check
+^ESCTLU764679	Luteinizing hormone and follicle stimulating hormone check
+^ESCTME283755	Menopausal urethral atrophy
+^ESCTME284682	Menopausal symptom
+^ESCTME361915	Menopausal problem
+^ESCTME393698	Menopausal menorrhagia
+^ESCTME435552	Menopausal syndrome
+^ESCTME454312	Menopause
+^ESCTME454315	Menopausal state
+^ESCTME454316	Menopause, function
+^ESCTME463895	Menopause dietary education
+^ESCTME463897	Menopause sexual education
+^ESCTME463899	Menopause sexual advice
+^ESCTME479272	Menopausal hot flashes
+^ESCTME510378	Menopause ovarian failure
+^ESCTME519260	Menopause monitoring status
+^ESCTME558585	Menopause finding
+^ESCTME558586	Menopause observation
+^ESCTME575344	Menopause present
+^ESCTNO510362	Normal menopause
+^ESCTPA283757	PAU - Postmenopausal atrophic urethritis
+^ESCTPE804882	Perimenopausal state
+^ESCTPE804883	Perimenopausal
+^ESCTPM374814	PMB - Postmenopausal bleeding
+^ESCTPO283754	Postmenopausal urethral atrophy
+^ESCTPO283756	Postmenopausal urethritis
+^ESCTPO300534	Postartificial menopausal syndrome
+^ESCTPO374431	Postmenopausal
+^ESCTPO503663	Postmenopausal atrophy of vocal cord
+^ESCTPO503664	Postmenopausal atrophy of vocal fold
+^ESCTPO560823	Post-hysterectomy menopause
+^ESCTPO560824	Post-radiation menopause
+^ESCTPO596818	Postmenopausal time period
+^ESCTPO634822	Postsurgical menopause
+^ESCTPO667936	Postmenopausal androgenetic alopecia
+^ESCTPO667942	Postmenopausal frontal fibrosing alopecia
+^ESCTPO668039	Postmenopausal flushing
+^ESCTPO668321	Postmenopausal pruritus
+^ESCTPR1116670	Promensil Post Menopause tablets (Pharmacare (Europe) Ltd)
+^ESCTPR393699	Preclimacteric menorrhagia
+^ESCTPR645959	Profuse menstrual flow
+^ESCTST742375	Static magnetic menopause-relief plate
+^ESCTSU634823	Surgical menopause
+^ESCTTE599062	Temporal periods relating to menopause
+^ESCTTH454313	The change

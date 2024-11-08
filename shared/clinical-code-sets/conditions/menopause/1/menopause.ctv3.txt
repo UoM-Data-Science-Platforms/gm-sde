@@ -20,8 +20,6 @@ Xa4eC	Menopause absent
 Xa9Go	During menopause
 XaBv4	Temporal periods relating to menopause
 XaBv7	Before menopause
-12F8.	FH: Early menopause
-12F9.	FH: Late menopause
 66U3.	Menopause symptoms present
 X74Wi	Menopause monitoring status
 66UD.	Menopause: dietary advice
@@ -34,3 +32,38 @@ C1631	Premature menopause NOS
 XE0h5	Menopause menorrhagia
 K5A2z	Menopausal symptoms NOS
 XaB7M	After menopause
+66U8.	HRT side-effects
+66UB.	HRT: unopposed oestrogen
+66UC.	HRT: combined oestrogen/progestogen
+8B64.	Hormone replacement therapy (& [prophylaxis] or [implant])
+K171.	Postmenopausal urethritis
+K5920	Menorrhagia
+K5A..	Postmenopausal disorders
+K5A0.	Premenopausal menorrhagia
+K5A20	Menopausal hot flushes
+K5A21	Menopausal sleeplessness
+K5A22	Menopausal headache
+K5A23	Menopausal concentration lack
+N3302	Postmenopausal osteoporosis
+X00na	Postmenopausal atrophy of vocal fold
+X76QX	Menopausal problem
+XE0eo	Hypermenorrhoea
+XE0ew	Premenopausal menorrhagia
+XE0h3	Menopausal and postmenopausal disorders
+XE0hs	Hormone replacement therapy
+XE10k	Secondary ovarian failure
+XE12k	Premature menopause
+XE1V6	Menopause monitoring
+XM0t2	Menopausal symptoms
+XSJGr	Postmenopausal state
+Xa4dw	Profuse menstrual flow
+Xa9CP	Perimenopausal menorrhagia
+XaBYP	Hot flushes
+XaIKG	Hormone replacement therapy review
+XaISA	Hormone replacement therapy bleed pattern - normal
+XaISB	Hormone replacement therapy bleed pattern - abnormal
+XaISC	Hormone replacement therapy bleed pattern - not relevant
+XaISD	Hormone replacement therapy bleed pattern - no bleeding
+XaISE	Years on hormone replacement therapy
+XaJM2	Perimenopausal atrophic vaginitis
+XaKJm	Postmenopausal postcoital bleeding

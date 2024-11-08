@@ -2,7 +2,6 @@
 237123000	Normal menopause (finding)
 276477006	Menopause observation
 289903006	Menopause
-289904000	Menopause absent (finding)
 373717006	Premature menopause
 423478005	Difficulty managing menopause
 31351009	Postartificial menopausal syndrome (disorder)
@@ -23,8 +22,6 @@
 170961007	Menopause dietary education
 170962000	Menopause sexual advice
 313207002	Menopause education
-160397006	Family history: Early menopause
-160398001	Family history: Late menopause
 170951000	Menopause symptoms present (finding)
 243875009	Menopause monitoring status (finding)
 88424000	Premenopausal menorrhagia (finding)
@@ -32,5 +29,44 @@
 161712005	Menopause, function
 735614005	Osteopenia following menopause
 439421000	Counseling for menopause
-427956008	History of normal menopause
 464852003	Static magnetic menopause-relief plate
+103610009	Abnormal presence of endometrial cells in specimen from a menopausal woman (finding)
+403389006	Postmenopausal flushing (disorder)
+403574001	Postmenopausal pruritus (disorder)
+68811000	Menopausal problem (finding)
+21801002	Menopausal symptom (finding)
+198436008	Menopausal flushing (finding)
+161541000119104	Perimenopausal state (finding)
+76498008	Postmenopausal state (finding)
+125155008	Endometrial cells, cytologically benign, in a postmenopausal woman (finding)
+415149004	Postmenopausal postcoital bleeding (finding)
+22636003	Premenopausal state (finding)
+170960008	Hormonal replacement therapy: combined estrogen/progestogen (finding)
+170959003	Hormonal replacement therapy: unopposed estrogen (finding)
+390989002	Hormone replacement therapy bleed pattern - abnormal (finding)
+390991005	Hormone replacement therapy bleed pattern - no bleeding (finding)
+390988005	Hormone replacement therapy bleed pattern - normal (finding)
+390990006	Hormone replacement therapy bleed pattern - not relevant (finding)
+170956005	Hormone replacement therapy side effects (finding)
+390992003	Years on hormone replacement therapy (finding)
+81785007	Menopause (finding)
+156051007	Menorrhagia (& [perimenopausal] or [menopause]) (finding)
+373718001	Artificial menopause (finding)
+1260298008	Depression following menopause (disorder)
+198439001	Menopausal concentration lack (disorder)
+198438009	Menopausal headache (disorder)
+1254878004	Menopausal hyperhidrosis (disorder)
+198437004	Menopausal sleeplessness (disorder)
+123756000	Menopausal syndrome (disorder)
+1338019004	Menopause caused by ionizing radiation (disorder)
+1338020005	Menopause due to and following radiotherapy (disorder)
+408386002	Perimenopausal atrophic vaginitis (disorder)
+403319002	Postmenopausal androgenetic alopecia (disorder)
+232449005	Postmenopausal atrophy of vocal cord (disorder)
+403325003	Postmenopausal frontal fibrosing alopecia (disorder)
+102447009	Postmenopausal osteoporosis (disorder)
+1295483002	Osteoporotic fracture due to postmenopausal osteoporosis (disorder)
+21237001	Postmenopausal urethral atrophy (disorder)
+134428006	Hormone replacement therapy review (regime/therapy)
+709262003	Luteinizing hormone and follicle stimulating hormone check (regime/therapy)
+29747911000001103	Promensil Post Menopause tablets (Pharmacare (Europe) Ltd) (product)
