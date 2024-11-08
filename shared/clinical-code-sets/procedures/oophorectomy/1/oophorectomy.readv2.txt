@@ -1,0 +1,59 @@
+7E045	Abdominal hysterectomy and bilateral salpingoophorectomy
+7E04500	Abdominal hysterectomy and bilateral salpingoophorectomy
+7E04511	Abdominal hysterectomy and bilateral salpingoophorectomy (BSO)
+7E04512	TAH - total abdominal hysterectomy and bilateral salpingoophorectomy
+7E04700	Abdominal hysterectomy and right salpingoopherectomy
+7E04711	Abdominal hysterectomy and left salpingoopherectomy
+7E048	Abdominal hysterectomy and left salpingoophorectomy
+7E04800	Abdominal hysterectomy and left salpingoophorectomy
+7E049	Total abdominal hysterectomy and bilateral salpingoophorectomy
+7E04900	Total abdominal hysterectomy and bilateral salpingoophorectomy
+7E04B	Laparoscopic total abdominal hysterectomy and bilateral salpingo-oophorectomy
+7E04B00	Laparoscopic total abdominal hysterectomy and bilateral salpingo-oophorectomy
+7E04H	Subtotal abdominal hysterectomy and bilateral salpingo-oophorectomy
+7E04H00	Subtotal abdominal hysterectomy and bilateral salpingo-oophorectomy
+7E04J	Subtotal abdominal hysterectomy and right salpingo-oophorectomy
+7E04J00	Subtotal abdominal hysterectomy and right salpingo-oophorectomy
+7E04K	Subtotal abdominal hysterectomy and left salpingo-oophorectomy
+7E04K00	Subtotal abdominal hysterectomy and left salpingo-oophorectomy
+7E04P	Radical hysterectomy with bilateral salpingo-oophorectomy
+7E04P00	Radical hysterectomy with bilateral salpingo-oophorectomy
+7E056	Laparoscopic-assisted vaginal hysterectomy with bilateral salpingo-oophorectomy
+7E05600	Laparoscopic-assisted vaginal hysterectomy with bilateral salpingo-oophorectomy
+7E057	Vaginal hysterectomy and right salpingo-oophorectomy
+7E05700	Vaginal hysterectomy and right salpingo-oophorectomy
+7E058	Vaginal hysterectomy and left salpingo-oophorectomy
+7E05800	Vaginal hysterectomy and left salpingo-oophorectomy
+7E100	Bilateral salpingoophorectomy
+7E10000	Bilateral salpingoophorectomy
+7E102	Bilateral oophorectomy NEC
+7E10200	Bilateral oophorectomy NEC
+7E110	Unilateral salpingoophorectomy NEC
+7E11000	Unilateral salpingoophorectomy NEC
+7E111	Salpingoophorectomy of remaining solitary fallopian tube and ovary
+7E11100	Salpingoophorectomy of remaining solitary fallopian tube and ovary
+7E115	Oophorectomy of remaining solitary ovary NEC
+7E11500	Oophorectomy of remaining solitary ovary NEC
+7E116	Right salpingoophorectomy
+7E11600	Right salpingoophorectomy
+7E117	Left salpingoophorectomy
+7E11700	Left salpingoophorectomy
+7E120	Salpingoophorectomy NEC
+7E12000	Salpingoophorectomy NEC
+7E123	Right oophorectomy NEC
+7E12300	Right oophorectomy NEC
+7E124	Left oophorectomy NEC
+7E12400	Left oophorectomy NEC
+7E20.	Partial excision of ovary
+7E20.00	Partial excision of ovary
+7E20.11	Partial oophorectomy
+7E200	Excision of wedge of ovary
+7E20000	Excision of wedge of ovary
+7E201	Excision of lesion of ovary
+7E20100	Excision of lesion of ovary
+7E203	Ovarian cystectomy
+7E20300	Ovarian cystectomy
+7E20y	Other specified partial excision of ovary
+7E20y00	Other specified partial excision of ovary
+7E20z	Partial excision of ovary NOS
+7E20z00	Partial excision of ovary NOS

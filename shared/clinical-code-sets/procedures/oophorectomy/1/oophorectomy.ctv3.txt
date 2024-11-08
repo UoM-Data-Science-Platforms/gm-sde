@@ -1,0 +1,37 @@
+7E045	TAH - total abdominal hysterectomy and bilateral salpingoophorectomy
+7E047	Abdominal hysterectomy and right salpingoophorectomy
+7E100	Bilateral salpingo-oophorectomy
+7E102	Bilateral oophorectomy NEC
+7E110	Unilateral salpingo-oophorectomy NEC
+7E111	Salpingo-oophorectomy of remaining solitary fallopian tube and ovary
+7E115	Oophorectomy of remaining solitary ovary NEC
+7E116	Right salpingo-oophorectomy
+7E117	Left salpingo-oophorectomy
+7E120	Salpingo-oophorectomy NEC
+7E123	Right oophorectomy NEC
+7E124	Left oophorectomy NEC
+7E20.	Partial oophorectomy
+7E200	Wedge resection of ovary
+7E201	Excision of lesion of ovary
+7E203	Removal of ovarian cyst
+7E20y	Other specified partial excision of ovary
+7E20z	Partial excision of ovary NOS
+X403k	Excision of tubo-ovarian mass
+XE06a	Total abdominal hysterectomy and bilateral salpingo-oophorectomy
+XE0N4	Salpingo-oophorectomy
+Xa8H9	Abdominal hysterectomy and right salpingo-oophorectomy
+Xa8HA	Abdominal hysterectomy and left salpingo-oophorectomy
+Xa8PW	Bilateral oophorectomy
+Xa8PX	Unilateral salpingo-oophorectomy
+Xa8Pa	Tubo-oophorectomy
+Xa8Pd	Right oophorectomy
+Xa8Pe	Left oophorectomy
+Xa8Ph	Excision biopsy of ovary
+XaJy8	Laparoscopic total abdominal hysterectomy and bilateral salpingo-oophorectomy
+XaPmp	Laparoscopic-assisted vaginal hysterectomy with bilateral salpingo-oophorectomy
+XabO5	Subtotal abdominal hysterectomy and bilateral salpingo-oophorectomy
+XabO7	Subtotal abdominal hysterectomy and right salpingo-oophorectomy
+XabO8	Subtotal abdominal hysterectomy and left salpingo-oophorectomy
+XabO9	Vaginal hysterectomy and right salpingo-oophorectomy
+XabOA	Vaginal hysterectomy and left salpingo-oophorectomy
+XabOC	Radical hysterectomy with bilateral salpingo-oophorectomy

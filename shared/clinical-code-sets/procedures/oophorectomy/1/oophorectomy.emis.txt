@@ -1,0 +1,67 @@
+EMISNQRA14	Radical hysterectomy with bilateral salpingo-oophorectomy
+EMISNQSU74	Subtotal abdominal hysterectomy with bilat salpingo-oophorectomy
+EMISNQSU75	Subtotal abdominal hysterectomy and right salpingo-oophorectomy
+EMISNQSU76	Subtotal abdominal hysterectomy and left salpingo-oophorectomy
+EMISNQVA15	Vaginal hysterectomy and left salpingo-oophorectomy
+EMISNQVA16	Vaginal hysterectomy and right salpingo-oophorectomy
+^ESCT1168344	Supracervical hysterectomy with left salpingo-oophorectomy
+^ESCT1168345	Supracervical hysterectomy with right salpingo-oophorectomy
+^ESCT1168346	Total hysterectomy with left oophorectomy
+^ESCT1168347	Total hysterectomy with right oophorectomy
+^ESCT1168348	Total hysterectomy with left salpingo-oophorectomy
+^ESCT1168349	Total hysterectomy with right salpingo-oophorectomy
+^ESCT1416186	Wedge resection of right ovary
+^ESCT1416187	Wedge resection of left ovary
+^ESCTBI298004	Bilateral salpingectomy with oophorectomy
+^ESCTBI321936	Bilateral wedge resection of ovary
+^ESCTBI390621	Bilateral hysterosalpingo-ovariectomy
+^ESCTBI748490	Bilateral oophorectomy for malignant neoplasm of ovary
+^ESCTBI748491	Bilateral oophorectomy for ovarian malignancy
+^ESCTBI748492	Bilateral oophorectomy for malignant tumor of ovary
+^ESCTBI748493	Bilateral oophorectomy for malignant tumour of ovary
+^ESCTBS298007	BSO - Bilateral salpingo-oophorectomy
+^ESCTCO298005	Complete salpingo-oophorectomy
+^ESCTEX426886	Excision of lesion of ovary in fragments
+^ESCTEX510045	Excision of tubo-ovarian mass
+^ESCTEX590618	Excision biopsy of ovary
+^ESCTEX647701	Excision of cyst of ovary
+^ESCTFE374997	Female castration
+^ESCTLA350585	Laparoscopic treatment of ectopic pregnancy with oophorectomy
+^ESCTLA729540	Laparoscopic wedge resection of ovary
+^ESCTLA732694	Laparoscopic salpingo-oophorectomy
+^ESCTLA733264	Laparoscopic salpingo-oophorectomy with conversion to laparotomy
+^ESCTLA737957	Laparoscopic oophorectomy
+^ESCTLA737958	Laparoscopic excision of ovary
+^ESCTLA749006	Laparoscopic left oophorectomy
+^ESCTLA749012	Laparoscopic right oophorectomy
+^ESCTLA749013	Laparoscopic left salpingo-oophorectomy
+^ESCTLA749014	Laparoscopic right salpingo-oophorectomy
+^ESCTLA749015	Laparoscopic excision of bilateral ovarian cysts
+^ESCTLA749016	Laparoscopic bilateral ovarian cystectomy
+^ESCTLA749017	Laparoscopic excision of cyst of left ovary
+^ESCTLA749018	Laparoscopic left ovarian cystectomy
+^ESCTLA749019	Laparoscopic excision of cyst of right ovary
+^ESCTLA749020	Laparoscopic right ovarian cystectomy
+^ESCTLA749510	Laparoscopic bilateral salpingo-oophorectomy
+^ESCTLA749565	Laparoscopic bilateral salpingo-oophorectomy with conversion to laparotomy
+^ESCTLA749566	Laparoscopic bilateral oophorectomy
+^ESCTLA749599	Laparoscopic left oophorectomy after prior right oophorectomy
+^ESCTLA749600	Laparoscopic right oophorectomy after prior left oophorectomy
+^ESCTLA749601	Laparoscopic left salpingo-oophorectomy after prior right salpingo-oophorectomy
+^ESCTLA749602	Laparoscopic right salpingo-oophorectomy after prior left salpingo-oophorectomy
+^ESCTLA764006	Laparoscopic bilateral salpingo-oophorectomy using robotic assistance
+^ESCTLO252543	Local excision of ovary
+^ESCTLS467526	LSO - Left salpingo-oophorectomy
+^ESCTOO647703	Oophorocystectomy
+^ESCTPA286161	Partial salpingo-oophorectomy
+^ESCTPR770201	Prophylactic oophorectomy
+^ESCTRO764005	Robot assisted laparoscopic bilateral salpingo-oophorectomy
+^ESCTRS467524	RSO - Right salpingo-oophorectomy
+^ESCTSO426692	SO - Salpingo-oophorectomy
+^ESCTSP374998	Spay operation
+^ESCTSU297473	Supracervical hysterectomy with removal of both tubes and ovaries
+^ESCTTA426858	TAH BSO - Total abdominal hysterectomy and bilateral salpingo-oophorectomy
+^ESCTTO390620	Total hysterectomy with removal of both tubes and ovaries
+^ESCTTO426691	TO - Tubo-oophorectomy
+^ESCTTU426690	Tubo-oophorectomy
+^ESCTWE426896	Wedge resection biopsy of ovary
