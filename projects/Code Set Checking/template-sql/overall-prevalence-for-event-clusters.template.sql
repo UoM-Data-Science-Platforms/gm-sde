@@ -47,8 +47,9 @@ SELECT DISTINCT
       e."Cluster_ID",
       c."Cluster_Description"
 FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" e
-INNER JOIN INTERMEDIATE.GP_RECORD."Clusters" c ON c."Cluster_ID" = e."Cluster_ID";
-
+INNER JOIN INTERMEDIATE.gp_record."Clusters" c ON c."Cluster_ID" = e."Cluster_ID"
+-- WHERE E."Cluster_ID" = ''   -- EDIT THIS LINE WITH SPECIFIC CLUSTERS, TAKES TOO LONG RUNNING ENTIRE TABLE
+;
 -- DECLARE A VARIABLE SO THAT THE TOTAL NUMBER OF PATIENTS CAN BE ACCESSED
 
 DECLARE AllPatientCount INT;
