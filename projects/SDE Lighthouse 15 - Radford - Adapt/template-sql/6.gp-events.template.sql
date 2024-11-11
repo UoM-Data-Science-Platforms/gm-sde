@@ -24,6 +24,5 @@ SELECT c."GmPseudo"
 	"Units"
 FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" gp  
 INNER JOIN {{cohort-table}} c ON c."FK_Patient_ID" = gp."FK_Patient_ID"
-WHERE "EventDate" BETWEEN $StudyStartDate and $StudyEndDate;
-
--- TODO : exclude sensitive codes (Andy Holden has list)
+WHERE "EventDate" BETWEEN $StudyStartDate and $StudyEndDate
+	AND "SCTID" NOT IN (SELECT "SCTID" FROM INTERMEDIATE.GP_RECORD."ExcludedCodes_SecondaryUses");;

@@ -9,7 +9,6 @@ set(StudyStartDate) = to_date('2020-01-01');
 set(StudyEndDate)   = to_date('2024-10-31');
 
 --> CODESET cognitive-impairment:1 hot-flash:1 irregular-periods:1 musculoskeletal-pain:1
---> CODESET spondyloarthropathy:1
 
 -- TO DO : find out what neurological conditions the PI wants, as well as any skin 
 -- conditions other than psoriasis.
@@ -26,18 +25,19 @@ SELECT
     , CASE --diagnoses
 		   WHEN ("Cluster_ID" = 'SLUPUS_COD')   					THEN 'systemic-lupus-erythematosus' 
 		   WHEN ("Cluster_ID" = 'RARTH_COD')    					THEN 'rheumatoid-arthritis' 
-		   WHEN ("Cluster_ID" = 'eFI2_InflammatoryBowelDisease')    THEN 'inflammatory-bowel-disease' 
-		   WHEN ("Cluster_ID" = 'PSORIASIS_COD')    				THEN 'psoriasis' 
-		   WHEN ("Cluster_ID" = 'AST_COD')    						THEN 'asthma' 
+		   --WHEN ("Cluster_ID" = 'eFI2_InflammatoryBowelDisease')  THEN 'inflammatory-bowel-disease' 
+		   --WHEN ("Cluster_ID" = 'PSORIASIS_COD')    				THEN 'psoriasis' 
+		   --WHEN ("Cluster_ID" = 'AST_COD')    					THEN 'asthma' 
 		   WHEN ("Cluster_ID" = 'C19PREG_COD')    					THEN 'pregnancy' 
-		   WHEN ("Cluster_ID" = 'eFI2_Anxiety')    					THEN 'anxiety' 
-		   WHEN ("Cluster_ID" = 'eFI2_InflammatoryBowelDisease')    THEN 'inflammatory-bowel-disease' 
+		   --WHEN ("Cluster_ID" = 'eFI2_Anxiety')    				THEN 'anxiety' 
+		   --WHEN ("Cluster_ID" = 'eFI2_InflammatoryBowelDisease')  THEN 'inflammatory-bowel-disease' 
 		   -- symptoms
 		   WHEN "SCTID" = '42984000' 								THEN 'night-sweats'
 		   WHEN "SCTID" = '31908003' 								THEN 'vaginal-dryness'
 		   WHEN "SCTID" = '339341000000102'							THEN 'contraceptive-implant-removal'
 		   WHEN "SCTID" IN ('169553002', '698972004', '301806003',
 		   					 '755621000000101', '384201000000103') 	THEN 'contraceptive-implant-fitting'
+		   WHEN "SCTID" = '43548008' 								THEN 'ovulation-pain'
            ELSE 'other' END AS "Concept"
     , ec."Term" AS "Description"
 FROM {{cohort-table}} cohort
@@ -61,7 +61,7 @@ SELECT
 FROM {{cohort-table}} cohort
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" events ON events."FK_Patient_ID" = cohort."FK_Patient_ID"
 LEFT OUTER JOIN {{code-set-table}} cs ON cs.code = events."SuppliedCode" 
-WHERE cs.concept IN ('spondyloarthropathy', 'cognitive-impairment', 'hot-flash', 'irregular-periods', 
+WHERE cs.concept IN ('cognitive-impairment', 'hot-flash', 'irregular-periods', 
 						'musculoskeletal-pain')
 	AND events."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}})
 	AND TO_DATE("EventDate") BETWEEN $StudyStartDate AND $StudyEndDate;
