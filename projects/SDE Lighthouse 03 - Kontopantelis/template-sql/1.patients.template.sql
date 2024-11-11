@@ -32,7 +32,7 @@ CREATE TABLE {{cohort-table}} (
 ) AS
 SELECT "GmPseudo", "FK_Patient_ID", MIN("Dementia_DiagnosisDate") AS FirstDementiaDate
 FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_SecondaryUses"
-WHERE "Dementia_DiagnosisDate" IS NOT NULL
+WHERE "Dementia_DiagnosisDate" IS NOT NULL AND "Dementia_DiagnosisDate" BETWEEN $StudyStartDate AND $StudyEndDate
 AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
 GROUP BY "GmPseudo", "FK_Patient_ID";
 

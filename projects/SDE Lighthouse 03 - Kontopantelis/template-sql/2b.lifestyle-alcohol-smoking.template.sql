@@ -18,6 +18,11 @@
 --			 recorded, they are happy with the information as currently used
 --			 within the tables below.
 
+
+set(StudyStartDate) = to_date('2006-01-01');
+set(StudyEndDate)   = to_date('2024-06-30');
+
+
 {{create-output-table::"LH003-2b_Lifestyle_Alcohol_Smoking"}}
 SELECT
 	"GmPseudo",
@@ -29,7 +34,7 @@ SELECT
 	"AlcoholStatus" AS "Status",
 	"AlcoholConsumption" AS "Consumption"
 FROM INTERMEDIATE.GP_RECORD."Readings_Alcohol_SecondaryUses"
-WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}})
+WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}}) AND "EventDate" BETWEEN $StudyStartDate AND $StudyEndDate
 UNION
 SELECT
 	"GmPseudo",
@@ -44,4 +49,4 @@ SELECT
 		ELSE NULL
 	END -- "Consumption"
 FROM INTERMEDIATE.GP_RECORD."Readings_Smoking_SecondaryUses"
-WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}});
+WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}}) AND "SmokingStatus_Date" BETWEEN $StudyStartDate AND $StudyEndDate;

@@ -41,6 +41,9 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --      - fractures (INCLUDED HERE)
 
 
+set(StudyStartDate) = to_date('2006-01-01');
+set(StudyEndDate)   = to_date('2024-06-30');
+
 --TODO|> CODESET advance-care-planning:1
 -- >>> Codesets required... Inserting the code set code
 -- >>> Codesets extracted into 0.code-sets.sql
@@ -76,7 +79,7 @@ WHERE contacts."Contact" = 1
     AND contacts."GmPseudo" IN (
         SELECT cohort."GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis" cohort
     )
-    AND contacts."EventDate" >= '2006-01-01'
+    AND contacts."EventDate" BETWEEN $StudyStartDate AND $StudyEndDate
 
 UNION
 
@@ -106,7 +109,7 @@ FROM INTERMEDIATE.NATIONAL_FLOWS_APC."tbl_Data_SUS_APCS" admissions
 WHERE SUBSTRING(admissions."Der_Pseudo_NHS_Number", 2)::INT IN (
         SELECT cohort."GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis" cohort
     )
-    AND TO_DATE(admissions."Admission_Date") >= '2006-01-01'
+    AND TO_DATE(admissions."Admission_Date") BETWEEN $StudyStartDate AND $StudyEndDate
 
 UNION
 
@@ -125,7 +128,7 @@ SELECT
 FROM "OutcomeCodes" outcomes
 LEFT JOIN SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_03_Kontopantelis" c 
     ON c.code = outcomes."SuppliedCode"
-WHERE outcomes."EventDate" >= '2006-01-01'
+WHERE outcomes."EventDate" BETWEEN $StudyStartDate AND $StudyEndDate
 
 UNION
 
@@ -150,7 +153,7 @@ WHERE events."Field_ID" IN (
         'DEMCPRVW_COD', 'DEMCPRVWDEC_COD', 'MEDRVW_COD', 'STRUCTMEDRVW_COD', 
         'STRMEDRWVDEC_COD', 'DEMMEDRVW_COD', 'MEDRVWDEC_COD', 'SOCPRESREF_COD'
     )
-    AND TO_DATE(events."EventDate") >= '2006-01-01';
+    AND TO_DATE(events."EventDate") BETWEEN $StudyStartDate AND $StudyEndDate;
 
 -- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
 -- of all "new" GmPseudo ids. I.e. any GmPseudo ids that we've already got a unique id for

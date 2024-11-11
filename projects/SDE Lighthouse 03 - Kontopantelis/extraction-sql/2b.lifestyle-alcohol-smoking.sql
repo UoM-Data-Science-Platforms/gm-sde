@@ -21,6 +21,11 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --			 within the tables below.
 
 
+set(StudyStartDate) = to_date('2006-01-01');
+set(StudyEndDate)   = to_date('2024-06-30');
+
+
+
 -- ... processing [[create-output-table::"LH003-2b_Lifestyle_Alcohol_Smoking"]] ... 
 -- ... Need to create an output table called "LH003-2b_Lifestyle_Alcohol_Smoking" and replace 
 -- ... the GmPseudo column with a study-specific random patient id.
@@ -39,7 +44,7 @@ SELECT
 	"AlcoholStatus" AS "Status",
 	"AlcoholConsumption" AS "Consumption"
 FROM INTERMEDIATE.GP_RECORD."Readings_Alcohol_SecondaryUses"
-WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis")
+WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis") AND "EventDate" BETWEEN $StudyStartDate AND $StudyEndDate
 UNION
 SELECT
 	"GmPseudo",
@@ -54,7 +59,7 @@ SELECT
 		ELSE NULL
 	END -- "Consumption"
 FROM INTERMEDIATE.GP_RECORD."Readings_Smoking_SecondaryUses"
-WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis");
+WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis") AND "SmokingStatus_Date" BETWEEN $StudyStartDate AND $StudyEndDate;
 
 -- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
 -- of all "new" GmPseudo ids. I.e. any GmPseudo ids that we've already got a unique id for
