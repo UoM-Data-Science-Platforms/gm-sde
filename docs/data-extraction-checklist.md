@@ -13,7 +13,10 @@ If providing a study with descriptions for each clinical code, check that none o
 Check this isn’t the case when refreshing files
 
 ## 5. When providing ‘Dosage’ from GP Meds, consider limiting it to values that occur at least 50 times
-When unique/rare values are used, mask this by setting to NULL
+When unique/rare values are used, mask this by setting to NULL. 
+
+## 6. Include start and end dates for all template files
+This avoids incorrect data with a future date, and means we can say to the research team what date range their data covers.
 
 
 # Snowflake/SDE specific
