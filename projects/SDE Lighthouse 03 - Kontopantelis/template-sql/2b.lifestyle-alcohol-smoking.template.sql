@@ -20,7 +20,7 @@
 
 
 set(StudyStartDate) = to_date('2006-01-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 
 {{create-output-table::"LH003-2b_Lifestyle_Alcohol_Smoking"}}

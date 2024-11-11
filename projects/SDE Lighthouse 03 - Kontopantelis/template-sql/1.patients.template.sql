@@ -20,7 +20,7 @@
 -- for brevity, and because it has a 1-2-1 relationship with patient.
 
 set(StudyStartDate) = to_date('2006-01-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 --> EXECUTE query-get-possible-patients.sql minimum-age:18
 

@@ -42,7 +42,7 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
 
 set(StudyStartDate) = to_date('2006-01-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 --TODO|> CODESET advance-care-planning:1
 -- >>> Codesets required... Inserting the code set code

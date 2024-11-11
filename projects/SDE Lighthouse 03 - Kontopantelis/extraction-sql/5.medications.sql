@@ -47,7 +47,7 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
 
 set(StudyStartDate) = to_date('2006-01-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 
 -- Populate a temp table with all the drugs without refsets that we get from GP_Medications

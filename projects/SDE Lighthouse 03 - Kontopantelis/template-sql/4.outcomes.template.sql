@@ -40,7 +40,7 @@
 
 
 set(StudyStartDate) = to_date('2006-01-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 --TODO|> CODESET advance-care-planning:1
 --> CODESET delirium:1 fracture:1 falls:1 social-care-referral:1 safeguarding-referral:1
