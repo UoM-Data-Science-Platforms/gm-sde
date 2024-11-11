@@ -1,0 +1,16 @@
+K592.00	Excessive or frequent menstruation
+K592.11	Frequent menses
+K592z	Excessive or frequent menstruation NOS
+K592z00	Excessive or frequent menstruation NOS
+K598.	Menometrorrhagia
+K598.00	Menometrorrhagia
+K59y.11	Metropathia haemorrhagica
+K5920	Menorrhagia
+K592000	Menorrhagia
+K592011	Heavy periods
+K592012	Heavy menstrual bleeding
+K5A0.	Premenopausal menorrhagia
+K5A0.00	Premenopausal menorrhagia
+K5A0.11	Climacteric menorrhagia
+K5A6.	Perimenopausal menorrhagia
+K5A6.00	Perimenopausal menorrhagia

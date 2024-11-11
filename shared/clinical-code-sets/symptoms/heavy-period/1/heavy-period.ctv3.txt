@@ -1,0 +1,12 @@
+K592.	Hypermenorrhoea
+K592z	Excessive or frequent menstruation NOS
+K59y.	Metropathia haemorrhagica
+X408g	Pubertal menorrhagia
+X408i	Metropathia haemorrhagica
+X408j	Polymenorrhagia
+XE0eo	Excessive and frequent menstruation
+XaFC2	Metromenorrhagia
+K5920	Menorrhagia
+XE0ew	Premenopausal menorrhagia
+XE0h5	Perimenopausal menorrhagia
+Xa9CP	Perimenopausal menorrhagia

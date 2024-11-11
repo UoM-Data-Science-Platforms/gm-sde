@@ -1,0 +1,11 @@
+^ESCT1391031	Excessive menstruation with irregular cycle
+^ESCTEP549360	Epimenorrhagia
+^ESCTFR549359	Frequent heavy periods
+^ESCTHY549361	Hyperpolymenorrhea
+^ESCTHY549362	Hyperpolymenorrhoea
+^ESCTME510368	Metropathia hemorrhagica
+^ESCTME604828	Metromenorrhagia
+^ESCTPO549358	Polymenorrhagia
+^ESCTPU510365	Pubertal menorrhagia
+^ESCT1229463	Heavy menstrual bleeding
+^ESCTHE645958	Heavy period

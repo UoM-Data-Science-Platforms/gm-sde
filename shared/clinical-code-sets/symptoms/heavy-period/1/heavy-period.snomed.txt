@@ -1,0 +1,8 @@
+266601003	Excessive and frequent menstruation (finding)
+788919002	Excessive menstruation with irregular cycle (finding)
+314631008	Menometrorrhagia (finding)
+1148913001	Menorrhagia due to blood coagulation disorder (finding)
+237128009	Metropathia hemorrhagica (finding)
+237125007	Pubertal menorrhagia (finding)
+198418008	Excessive &/or frequent menstruation
+386692008	Menorrhagia (finding)
