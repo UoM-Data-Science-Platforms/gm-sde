@@ -39,6 +39,9 @@
 --      - fractures (INCLUDED HERE)
 
 
+set(StudyStartDate) = to_date('2006-01-01');
+set(StudyEndDate)   = to_date('2024-10-31');
+
 --TODO|> CODESET advance-care-planning:1
 --> CODESET delirium:1 fracture:1 falls:1 social-care-referral:1 safeguarding-referral:1
 
@@ -64,7 +67,7 @@ WHERE contacts."Contact" = 1
     AND contacts."GmPseudo" IN (
         SELECT cohort."GmPseudo" FROM {{cohort-table}} cohort
     )
-    AND contacts."EventDate" >= '2006-01-01'
+    AND contacts."EventDate" BETWEEN $StudyStartDate AND $StudyEndDate
 
 UNION
 
@@ -94,7 +97,7 @@ FROM INTERMEDIATE.NATIONAL_FLOWS_APC."tbl_Data_SUS_APCS" admissions
 WHERE SUBSTRING(admissions."Der_Pseudo_NHS_Number", 2)::INT IN (
         SELECT cohort."GmPseudo" FROM {{cohort-table}} cohort
     )
-    AND TO_DATE(admissions."Admission_Date") >= '2006-01-01'
+    AND TO_DATE(admissions."Admission_Date") BETWEEN $StudyStartDate AND $StudyEndDate
 
 UNION
 
@@ -113,7 +116,7 @@ SELECT
 FROM "OutcomeCodes" outcomes
 LEFT JOIN {{code-set-table}} c 
     ON c.code = outcomes."SuppliedCode"
-WHERE outcomes."EventDate" >= '2006-01-01'
+WHERE outcomes."EventDate" BETWEEN $StudyStartDate AND $StudyEndDate
 
 UNION
 
@@ -138,7 +141,7 @@ WHERE events."Field_ID" IN (
         'DEMCPRVW_COD', 'DEMCPRVWDEC_COD', 'MEDRVW_COD', 'STRUCTMEDRVW_COD', 
         'STRMEDRWVDEC_COD', 'DEMMEDRVW_COD', 'MEDRVWDEC_COD', 'SOCPRESREF_COD'
     )
-    AND TO_DATE(events."EventDate") >= '2006-01-01';
+    AND TO_DATE(events."EventDate") BETWEEN $StudyStartDate AND $StudyEndDate;
 
 
 

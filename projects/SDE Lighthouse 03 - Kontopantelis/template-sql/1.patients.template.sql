@@ -20,7 +20,7 @@
 -- for brevity, and because it has a 1-2-1 relationship with patient.
 
 set(StudyStartDate) = to_date('2006-01-01');
-set(StudyEndDate)   = to_date('2024-06-30');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 --> EXECUTE query-get-possible-patients.sql minimum-age:18
 
@@ -32,7 +32,7 @@ CREATE TABLE {{cohort-table}} (
 ) AS
 SELECT "GmPseudo", "FK_Patient_ID", MIN("Dementia_DiagnosisDate") AS FirstDementiaDate
 FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_SecondaryUses"
-WHERE "Dementia_DiagnosisDate" IS NOT NULL
+WHERE "Dementia_DiagnosisDate" IS NOT NULL AND "Dementia_DiagnosisDate" BETWEEN $StudyStartDate AND $StudyEndDate
 AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
 GROUP BY "GmPseudo", "FK_Patient_ID";
 
