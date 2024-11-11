@@ -7,10 +7,9 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- From application:
 --	Table 2: Lifestyle factors (from 2006 to present)
 --		- PatientID
---		- TestName ( smoking status, BMI, alcohol consumption)
 --		- TestDate
 --		- TestResult
---		- TestUnit
+
 
 
 -- ... processing [[create-output-table::"LH003-2a_Lifestyl_BMI"]] ... 
@@ -25,7 +24,7 @@ SELECT
   "GmPseudo",
 	"EventDate" AS "TestDate",
 	"BMI" AS "TestResult"
-FROM INTERMEDIATE.GP_RECORD."Readings_BMI"
+FROM INTERMEDIATE.GP_RECORD."Readings_BMI_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis")
 AND YEAR("EventDate") >= 2006;
 
@@ -58,5 +57,6 @@ FROM "AllPseudos_SDE_Lighthouse_03_Kontopantelis";
 -- created in the 0.code-sets.sql file
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-2a_Lifestyl_BMI";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-2a_Lifestyl_BMI" AS
-SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_03_Kontopantelis("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_03_Kontopantelis("GmPseudo") AS "PatientID",
+	* EXCLUDE "GmPseudo"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-2a_Lifestyl_BMI_WITH_PSEUDO_IDS";
