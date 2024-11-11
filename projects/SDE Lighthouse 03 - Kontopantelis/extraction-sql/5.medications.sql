@@ -45,6 +45,11 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- >>> Following code sets injected: promazine v1/promethazine v1/propantheline v1/scopolamine v1/solifenacin v1/tolterodine v1
 -- >>> Following code sets injected: trifluoperazine v1/trihexyphenidyl v1/trimipramine v1/trospium v1
 
+
+set(StudyStartDate) = to_date('2006-01-01');
+set(StudyEndDate)   = to_date('2024-10-31');
+
+
 -- Populate a temp table with all the drugs without refsets that we get from GP_Medications
 DROP TABLE IF EXISTS "LH003_Medication_Codes";
 CREATE TEMPORARY TABLE "LH003_Medication_Codes" AS
@@ -169,7 +174,7 @@ SELECT
 FROM "LH003_Medication_Codes" x
 LEFT OUTER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_03_Kontopantelis" c 
 ON c.code = x."SuppliedCode"
-WHERE "MedicationDate" >= '2006-01-01'
+WHERE "MedicationDate" BETWEEN $StudyStartDate AND $StudyEndDate
 UNION
 -- Link the above to the data from the Refset clusters
 SELECT cohort."GmPseudo", TO_DATE("MedicationDate"), 
@@ -193,7 +198,7 @@ FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis" co
 LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" meds 
     ON meds."FK_Patient_ID" = cohort."FK_Patient_ID"
 WHERE "Field_ID" IN ('ANTIPSYDRUG_COD','BENZODRUG_COD')
-AND TO_DATE("MedicationDate") >= '2006-01-01';
+AND TO_DATE("MedicationDate") BETWEEN $StudyStartDate AND $StudyEndDate;
 
 -- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
 -- of all "new" GmPseudo ids. I.e. any GmPseudo ids that we've already got a unique id for

@@ -11,6 +11,10 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --		- TestResult
 
 
+set(StudyStartDate) = to_date('2006-01-01');
+set(StudyEndDate)   = to_date('2024-10-31');
+
+
 
 -- ... processing [[create-output-table::"LH003-2a_Lifestyl_BMI"]] ... 
 -- ... Need to create an output table called "LH003-2a_Lifestyl_BMI" and replace 
@@ -25,7 +29,7 @@ SELECT
 	"EventDate" AS "TestDate",
 	"BMI" AS "TestResult"
 FROM INTERMEDIATE.GP_RECORD."Readings_BMI_SecondaryUses"
-WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis")
+WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis") AND "EventDate" BETWEEN $StudyStartDate AND $StudyEndDate
 AND YEAR("EventDate") >= 2006;
 
 -- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
