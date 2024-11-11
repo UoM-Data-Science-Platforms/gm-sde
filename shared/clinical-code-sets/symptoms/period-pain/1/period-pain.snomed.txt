@@ -1,0 +1,6 @@
+286993001	Dysmenorrhea - non-psychogenic (disorder)
+5268006	Mechanical dysmenorrhea (disorder)
+65754002	Primary dysmenorrhea (disorder)
+191977008	Psychogenic dysmenorrhea (disorder)
+32096006	Secondary dysmenorrhea (disorder)
+289900009	Period pain present (finding)

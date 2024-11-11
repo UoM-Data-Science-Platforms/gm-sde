@@ -1,0 +1,9 @@
+E2652	Psychogenic dysmenorrhea
+E265200	Psychogenic dysmenorrhea
+Eu45y11	[X]Psychogenic dysmenorrhoea
+K583.12	Painful menstruation
+K583.14	Spasmodic dysmenorrhoea
+K5830	Primary dysmenorrhoea
+K583000	Primary dysmenorrhoea
+K5831	Secondary dysmenorrhoea
+K583100	Secondary dysmenorrhoea

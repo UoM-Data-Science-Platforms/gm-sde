@@ -1,0 +1,10 @@
+E2652	Psychogenic dysmenorrhea
+Eu45y	[X]Psychogenic dysmenorrhoea
+K583.	Spasmodic dysmenorrhoea
+X408t	Spasmodic dysmenorrhoea
+X408u	Secondary dysmenorrhoea
+XE0ek	Painful menstruation
+XE0gl	Dysmenorrhoea - non-psychogenic
+XE1bE	Psychogenic vaginismus
+Xa3g8	Dysmenorrhoea - non-psychogenic
+Xa4e8	Period pain present

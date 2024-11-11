@@ -1,0 +1,13 @@
+^ESCTCO301695	Congestive dysmenorrhoea
+^ESCTCO301696	Congestive dysmenorrhea
+^ESCTDY572133	Dysmenorrhoea - non-psychogenic
+^ESCTDY572134	Dysmenorrhea - non-psychogenic
+^ESCTME258367	Mechanical dysmenorrhoea
+^ESCTME258368	Mechanical dysmenorrhea
+^ESCTOB258369	Obstructive dysmenorrhea
+^ESCTOB258370	Obstructive dysmenorrhoea
+^ESCTPE575339	Period pain present
+^ESCTPE575341	Period pain
+^ESCTPR356918	Primary dysmenorrhea
+^ESCTPS476639	Psychogenic dysmenorrhoea
+^ESCTSE301694	Secondary dysmenorrhea
