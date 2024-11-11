@@ -69,13 +69,13 @@ DROP TABLE IF EXISTS AlivePatientsAtStart;
 CREATE TEMPORARY TABLE AlivePatientsAtStart AS 
 SELECT  
     dem.*, 
-    Death.DeathDate,
+    Death."DEATHDATE" AS "DeathDate",
 	l."leftGMDate"
 FROM LatestSnapshot dem
 LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
 LEFT JOIN leftGMDate l ON l."GmPseudo" = dem."GmPseudo"
 WHERE 
-    (DeathDate IS NULL OR DeathDate > $StudyStartDate) -- alive on study start date
+    (Death."DEATHDATE" IS NULL OR Death."DEATHDATE" > $StudyStartDate) -- alive on study start date
 	AND 
-	(leftGMDate IS NULL OR leftGMDate > $StudyEndDate); -- if patient left GM (therefore we stop receiving their data), ensure it is after study end date
+	(l."leftGMDate" IS NULL OR l."leftGMDate" > $StudyEndDate); -- if patient left GM (therefore we stop receiving their data), ensure it is after study end date
  

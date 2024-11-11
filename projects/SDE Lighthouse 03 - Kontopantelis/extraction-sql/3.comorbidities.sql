@@ -7,10 +7,7 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- From application:
 --	Table 3: Comorbidities (using full date range available)
 --		- PatientID
---		- Condition
---		- FirstDate
---		- LatestDate
---		- ConditionOccurences (number of times appeared)
+--		- All available comorbidity dates' columns
 
 -- NB1 - just using all the existing comorbidity data in the GP_Record schema.
 -- NB2 - this is not the format initially requested, but likely what the team
@@ -40,10 +37,8 @@ SELECT
 	"NonDiabeticHyperglycemia_DiagnosisDate", "Obesity_DiagnosisDate", "Osteoporosis_DiagnosisDate", "PainfulCondition_DiagnosisDate",
 	"PalliativeCare_DiagnosisDate", "ParkinsonsDisease_DiagnosisDate", "PepticUlcerDisease_DiagnosisDate",
 	"PeripheralArterialDisease_DiagnosisDate", "ProstateDisorder_DiagnosisDate", "Psoriasis_DiagnosisDate",
-	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate",
-	"FirstLTC", "FirstLTC_DiagnosisDate", "SecondLTC", "SecondLTC_DiagnosisDate", "ThirdLTC",
-	"ThirdLTC_DiagnosisDate", "FourthLTC", "FourthLTC_DiagnosisDate", "FifthLTC", "FifthLTC_DiagnosisDate"
-FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_Diagnosis"
+	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate"
+FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis")
 QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1;
 
@@ -76,5 +71,6 @@ FROM "AllPseudos_SDE_Lighthouse_03_Kontopantelis";
 -- created in the 0.code-sets.sql file
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities" AS
-SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_03_Kontopantelis("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_03_Kontopantelis("GmPseudo") AS "PatientID",
+	* EXCLUDE "GmPseudo"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities_WITH_PSEUDO_IDS"; -- this brings back the values from the most recent snapshot

@@ -9,6 +9,9 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --  - PatientID
 --  - PrescriptionDate
 --  - MedicationGroup
+--  - MedicationType
+--  - Medication
+
 -- Medications included: antipsychotics, anti-dementia meds, anticholinergics, benzodiazepines, z-drugs and sedating antihistamines
 
 -- NB1 - PI confirmed wants columns PatientID, PrescriptionDate, MedicationGroup, MedicationType, Medication
@@ -72,7 +75,7 @@ DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-5_Medications_WITH_P
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-5_Medications_WITH_PSEUDO_IDS" AS
 -- For antidementia and anticholinergic (no refsets) we query the data from the temp table above
 SELECT
-    "GmPseudo",
+    x."GmPseudo",
 	"MedicationDate" AS "PrescriptionDate",
     CASE
         WHEN concept='donepezil' THEN 'Antidementia drug'
@@ -169,7 +172,7 @@ ON c.code = x."SuppliedCode"
 WHERE "MedicationDate" >= '2006-01-01'
 UNION
 -- Link the above to the data from the Refset clusters
-SELECT "GmPseudo", TO_DATE("MedicationDate"), 
+SELECT cohort."GmPseudo", TO_DATE("MedicationDate"), 
     CASE
         WHEN "Field_ID" = 'BENZODRUG_COD' THEN 'Benzodiazipine related'
         WHEN "Field_ID" = 'ANTIPSYDRUG_COD' THEN 'Antipsychotic'
@@ -179,15 +182,15 @@ SELECT "GmPseudo", TO_DATE("MedicationDate"),
         regexp_replace( -- this replace removes characters at the start e.g. "~DRUGNAME"
             regexp_replace( -- this replace removes certain trailing characters
 								-- to lower case so that CAPITAL and capital come out the same
-                lower("MedicationDescription"), '[_,\.\\(0-9]', ' ' 
+                lower("Term"), '[_,\.\\(0-9]', ' ' 
             ), 
             '[\*\\]~\\[]',
             ''
         ), 
     ' ', 1), -- "MedicationType",
-    "MedicationDescription" -- "Medication"
+    "Term" -- "Medication"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis" cohort
-LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."MedicationsClusters" meds 
+LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" meds 
     ON meds."FK_Patient_ID" = cohort."FK_Patient_ID"
 WHERE "Field_ID" IN ('ANTIPSYDRUG_COD','BENZODRUG_COD')
 AND TO_DATE("MedicationDate") >= '2006-01-01';
@@ -221,5 +224,6 @@ FROM "AllPseudos_SDE_Lighthouse_03_Kontopantelis";
 -- created in the 0.code-sets.sql file
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-5_Medications";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-5_Medications" AS
-SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_03_Kontopantelis("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_03_Kontopantelis("GmPseudo") AS "PatientID",
+	* EXCLUDE "GmPseudo"
 FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-5_Medications_WITH_PSEUDO_IDS";
