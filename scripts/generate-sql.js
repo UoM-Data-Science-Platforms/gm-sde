@@ -232,10 +232,10 @@ function processNextOutputTable(sql, templateName, config, projectNameChunked) {
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
 DROP TABLE IF EXISTS ${
           config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
-        }."${tableNameNoQuotes}_WITH_PSEUDO_IDS";
+        }."${tableNameNoQuotes}_WITH_IDENTIFIER";
 CREATE TABLE ${
           config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
-        }."${tableNameNoQuotes}_WITH_PSEUDO_IDS" AS`
+        }."${tableNameNoQuotes}_WITH_IDENTIFIER" AS`
       ) + (needSemiColon ? ';' : '');
 
     const finalSql = `
@@ -247,7 +247,7 @@ DROP TABLE IF EXISTS "AllPseudos_${projectNameChunked.join('_')}";
 CREATE TEMPORARY TABLE "AllPseudos_${projectNameChunked.join('_')}" AS
 SELECT DISTINCT "GmPseudo" FROM ${
       config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
-    }."${tableNameNoQuotes}_WITH_PSEUDO_IDS"
+    }."${tableNameNoQuotes}_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_${projectNameChunked.join('_')}";
 
@@ -277,7 +277,7 @@ DROP TABLE IF EXISTS ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName};
 CREATE TABLE ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName} AS
 SELECT ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}.gm_pseudo_hash_${projectNameChunked.join('_')}("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_PSEUDO_IDS";`;
+FROM ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_IDENTIFIER";`;
 
     sql =
       sql.substring(0, indexOfOutputTable) +
@@ -310,10 +310,10 @@ FROM ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WIT
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
 DROP TABLE IF EXISTS ${
           config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
-        }."${tableNameNoQuotes}_WITH_PSEUDO_IDS";
+        }."${tableNameNoQuotes}_WITH_IDENTIFIER";
 CREATE TABLE ${
           config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
-        }."${tableNameNoQuotes}_WITH_PSEUDO_IDS" AS`
+        }."${tableNameNoQuotes}_WITH_IDENTIFIER" AS`
       ) + (needSemiColon ? ';' : '');
 
     const finalSql = `
@@ -327,11 +327,11 @@ CREATE TEMPORARY TABLE "AllPseudos_${projectNameChunked.join('_')}" AS
 (
 SELECT DISTINCT "GmPseudo" FROM ${
       config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
-    }."${tableNameNoQuotes}_WITH_PSEUDO_IDS"
+    }."${tableNameNoQuotes}_WITH_IDENTIFIER"
 UNION 
 SELECT DISTINCT "MainCohortMatchedGmPseudo" FROM ${
       config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES
-    }."${tableNameNoQuotes}_WITH_PSEUDO_IDS"
+    }."${tableNameNoQuotes}_WITH_IDENTIFIER"
 )
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_${projectNameChunked.join('_')}";
@@ -363,7 +363,7 @@ CREATE TABLE ${config.PROJECT_SPECIFIC_SCHEMA_FOR_DATA}.${tableName} AS
 SELECT ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}.gm_pseudo_hash_${projectNameChunked.join('_')}("GmPseudo") AS "PatientID",
 	${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}.gm_pseudo_hash_${projectNameChunked.join('_')}("MainCohortMatchedGmPseudo") AS "MainCohortMatchedPatientID",
 	* EXCLUDE ("GmPseudo", "MainCohortMatchedGmPseudo")
-FROM ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_PSEUDO_IDS";`;
+FROM ${config.PROJECT_SPECIFIC_SCHEMA_PRIVATE_TO_RDES}."${tableNameNoQuotes}_WITH_IDENTIFIER";`;
 
     sql =
       sql.substring(0, indexOfOutputTable) +
