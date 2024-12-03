@@ -32,7 +32,7 @@ DROP TABLE IF EXISTS TEMP_LH004_SMEAR_RECORDS;
 CREATE TEMPORARY TABLE TEMP_LH004_SMEAR_RECORDS AS
 SELECT "FK_Patient_ID", CAST("EventDate" AS DATE) AS "EventDate", SCTID, "SNOMED_code_description" 
 FROM INTERMEDIATE.gp_record."GP_Events_SecondaryUses" gp
-LEFT OUTER JOIN intermediate.gp_record.national_clusters_formatted ncf ON ncf."SNOMED_code" = gp.sctid
+LEFT OUTER JOIN intermediate.gp_record."Combined_EventsMedications_Clusters_SecondaryUses" ncf ON ncf."SNOMED_code" = gp.sctid
 WHERE "Field_ID" = 'SMEAR_COD'
 AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}});
 

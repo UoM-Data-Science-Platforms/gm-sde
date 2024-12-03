@@ -39,7 +39,7 @@ SELECT
 	b.concept AS "Infection",
 	b.description AS "InfectionDescription",
 	"Admission_Date"
-FROM INTERMEDIATE.national_flows_apc."tbl_Data_SUS_APCS" a
+FROM INTERMEDIATE.NATIONAL_FLOWS_APC."tbl_Data_SUS_APCS" a
 LEFT OUTER JOIN {{code-set-table}} b ON CHARINDEX(UPPER(b.code), UPPER(a."Der_Diagnosis_All")) > 0
 where b.terminology='icd10'
 and b.concept != 'infections'

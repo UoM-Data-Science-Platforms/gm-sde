@@ -20,11 +20,11 @@
 --	- EgfrDate
 --	- CreatinineResult
 --	- CreatinineDate
---	-	LDLCholesterol
+--	- LDLCholesterol
 --	- LDLCholesterolDate
---	-	HDLCholesterol
+--	- HDLCholesterol
 --	- HDLCholesterolDate
---	-	Triglycerides
+--	- Triglycerides
 --	- TrigylceridesDate 
 -- 
 --	All values need most recent value
@@ -36,6 +36,11 @@
 --  DeathDate
 --  CauseOfDeath
 
+set(StudyStartDate) = to_date('2024-10-31');
+set(StudyEndDate)   = to_date('2024-10-31');
+
+--> EXECUTE query-get-possible-patients.sql minimum-age:0
+
 -- Find all patients with SLE
 --> CODESET sle:1
 DROP TABLE IF EXISTS LH004_SLE_Dx;
@@ -43,6 +48,7 @@ CREATE TEMPORARY TABLE LH004_SLE_Dx AS
 SELECT "FK_Patient_ID", MIN(CAST("EventDate" AS DATE)) AS "FirstSLEDiagnosis"
 FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses"
 WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept = 'sle')
+	  AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
 GROUP BY "FK_Patient_ID";
 
 -- Create a temporary cohort table to link gmpseudo with fk_patient_id
@@ -75,7 +81,7 @@ CREATE TEMPORARY TABLE LH004_eGFR AS
 SELECT DISTINCT "GmPseudo", 
     last_value("eGFR") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "eGFRValue", 
     last_value(CAST("EventDate" AS DATE)) OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "eGFRDate"
-FROM INTERMEDIATE.GP_RECORD."Readings_eGFR"
+FROM INTERMEDIATE.GP_RECORD."Readings_eGFR_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}});
 
 -- Get creatinine
@@ -84,7 +90,7 @@ CREATE TEMPORARY TABLE LH004_creatinine AS
 SELECT DISTINCT "GmPseudo", 
     last_value("SerumCreatinine") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "SerumCreatinineValue", 
     last_value(CAST("EventDate" AS DATE)) OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "SerumCreatinineDate"
-FROM INTERMEDIATE.GP_RECORD."Readings_SerumCreatinine"
+FROM INTERMEDIATE.GP_RECORD."Readings_SerumCreatinine_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}});
 
 -- Get hdl cholesterol
@@ -93,7 +99,7 @@ CREATE TEMPORARY TABLE LH004_hdl AS
 SELECT DISTINCT "GmPseudo", 
     last_value("HDL") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "HDLValue", 
     last_value(CAST("EventDate" AS DATE)) OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "HDLDate"
-FROM INTERMEDIATE.GP_RECORD."Readings_Cholesterol"
+FROM INTERMEDIATE.GP_RECORD."Readings_Cholesterol_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}})
 AND "HDL" IS NOT NULL;
 
@@ -103,7 +109,7 @@ CREATE TEMPORARY TABLE LH004_ldl AS
 SELECT DISTINCT "GmPseudo", 
     last_value("LDL") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "LDLValue", 
     last_value(CAST("EventDate" AS DATE)) OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "LDLDate"
-FROM INTERMEDIATE.GP_RECORD."Readings_Cholesterol"
+FROM INTERMEDIATE.GP_RECORD."Readings_Cholesterol_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}})
 AND "LDL" IS NOT NULL;
 
@@ -113,7 +119,7 @@ CREATE TEMPORARY TABLE LH004_triglycerides AS
 SELECT DISTINCT "GmPseudo", 
     last_value("Triglycerides") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "TriglyceridesValue", 
     last_value(CAST("EventDate" AS DATE)) OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "TriglyceridesDate"
-FROM INTERMEDIATE.GP_RECORD."Readings_Cholesterol"
+FROM INTERMEDIATE.GP_RECORD."Readings_Cholesterol_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}})
 AND "Triglycerides" IS NOT NULL;
 

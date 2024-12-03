@@ -50,7 +50,28 @@ Prior to data extraction, the code is checked and signed off by another RDE.
 
 ## Reusable queries
   
-This project did not require any reusable queries from the local library [https://github.com/rw251/gm-idcr/tree/master/shared/Reusable queries for data extraction](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction).## Clinical code sets
+This project required the following reusable queries:
+
+- Create table of patients who were alive at the study start date
+
+Further details for each query can be found below.
+
+### Create table of patients who were alive at the study start date
+undefined
+
+_Input_
+```
+undefined
+```
+
+_Output_
+```
+undefined
+```
+_File_: `query-get-possible-patients.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-possible-patients.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql)
+## Clinical code sets
 
 This project required the following clinical code sets:
 
@@ -93,29 +114,21 @@ Further details for each code set can be found below.
 
 ### Systemic Lupus Erythematosus (SLE)
 
-Codes from: https://www.opencodelists.org/codelist/opensafely/systemic-lupus-erythematosus-sle/2020-05-12/#full-list
-
-Includes codes for other diagnoses that are "due to" or "caused by" SLE.
-
-Does not include lupus limited to the skin e.g. chronic cutaneous lupus erythematosus (aka discoid lupus erythematosus), subacute cutaneous lupus erythematosus, chilblain lupus, tumid lupus.
+Codes from: https://www.opencodelists.org/codelist/opensafely/systemic-lupus-erythematosus-sle/2020-05-12/#full-list and were selected by the researcher team (LightHouse study 04).
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
 
-The prevalence range `0.11% - 0.125%` suggests that this code set is well defined.
+The prevalence range `0.07% - 0.09%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2023-10-03 | EMIS            | 2469004    |    4340 (0.176%) |     2866 (0.116%) |
-| 2023-10-03 | TPP             | 200687     |     326 (0.162%) |      209 (0.104%) |
-| 2023-10-03 | Vision          | 332247     |     712 (0.214%) |      420 (0.126%) |
-| 2024-01-19 | EMIS            | 2519438    |    2912 (0.116%) |     2913 (0.116%) |
-| 2024-01-19 | TPP             | 201469     |     215 (0.107%) |      215 (0.107%) |
-| 2024-01-19 | Vision          | 334528     |     419 (0.125%) |      419 (0.125%) |
+| 2024-10-08 | EMIS            | 2712578    |   2242 (0.0827%) |    2229 (0.0822%) | 
+| 2024-10-08 | TPP             | 216471     |    162 (0.0748%) |     161 (0.0744%) | 
+| 2024-10-08 | Vision          | 352420     |    335 (0.0951%) |     333 (0.0945%) | 
 #### Audit log
 
-- Find_missing_codes last run 2024-01-19
-
+- Find_missing_codes last run 2024-10-07
 LINK: [https://github.com/rw251/.../conditions/sle/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/sle/1)
 
 ### Lupus nephritis
@@ -123,16 +136,16 @@ LINK: [https://github.com/rw251/.../conditions/sle/1](https://github.com/rw251/g
 Any diagnosis of lupus nephritis.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.005 - 0.009%` suggests that this code set is well defined, but not frequently used in primary care.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.004 - 0.009%` suggests that this code set is well defined, but not frequently used in primary care.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2024-08-21 | EMIS            | 2538487    |   195 (0.00768%) |    195 (0.00768%) |
-| 2024-08-21 | TPP             | 202116     |     19 (0.0094%) |      19 (0.0094%) |
-| 2024-08-21 | Vision          | 336479     |    18 (0.00535%) |     17 (0.00505%) |
+| 2024-10-08 | EMIS            | 2712578    |    198 (0.0073%) |     198 (0.0073%) | 
+| 2024-10-08 | TPP             | 216471     |    20 (0.00924%) |     20 (0.00924%) | 
+| 2024-10-08 | Vision          | 352420     |    16 (0.00454%) |     15 (0.00426%) | 
 #### Audit log
 
-- Find_missing_codes last run 2024-08-16
+- Find_missing_codes last run 2024-10-07
 
 LINK: [https://github.com/rw251/.../conditions/lupus-nephritis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/lupus-nephritis/1)
 

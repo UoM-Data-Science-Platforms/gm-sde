@@ -41,7 +41,7 @@ SELECT "GmPseudo", "MedicationDate",
         ELSE "Field_ID"
     END AS MedicationCategory, 
     SPLIT_PART(LOWER("MedicationDescription"), ' ',0) AS Medication, "Dosage_GP_Medications", "Quantity", "Units"
-FROM INTERMEDIATE.GP_RECORD."MedicationsClusters" mc
+FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" mc
 INNER JOIN {{cohort-table}} c ON mc."FK_Patient_ID" = c."FK_Patient_ID"
 WHERE "Field_ID" IN ('Immunosuppression_Drugs', 'Prednisolone', 'ACEInhibitor','SGLT2','SAL_COD','NONASPANTIPLTDRUG_COD','Statin','DOAC','Warfarin','ORANTICOAGDRUG_COD','ARB')
 UNION

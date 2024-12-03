@@ -22,11 +22,11 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --	- EgfrDate
 --	- CreatinineResult
 --	- CreatinineDate
---	-	LDLCholesterol
+--	- LDLCholesterol
 --	- LDLCholesterolDate
---	-	HDLCholesterol
+--	- HDLCholesterol
 --	- HDLCholesterolDate
---	-	Triglycerides
+--	- Triglycerides
 --	- TrigylceridesDate 
 -- 
 --	All values need most recent value
@@ -38,6 +38,91 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --  DeathDate
 --  CauseOfDeath
 
+set(StudyStartDate) = to_date('2024-10-31');
+set(StudyEndDate)   = to_date('2024-10-31');
+
+
+--┌─────────────────────────────────────────────────────────────────┐
+--│ Create table of patients who were alive at the study start date │
+--└─────────────────────────────────────────────────────────────────┘
+
+-- ** any patients opted out of sharing GP data would not appear in the final table
+
+-- this script requires an input of StudyStartDate
+
+-- takes one parameter: 
+-- minimum-age : integer - The minimum age of the group of patients. Typically this would be 0 (all patients) or 18 (all adults)
+
+--ALL DEATHS 
+
+DROP TABLE IF EXISTS Death;
+CREATE TEMPORARY TABLE Death AS
+SELECT 
+    DEATH."GmPseudo",
+    TO_DATE(DEATH."RegisteredDateOfDeath") AS DeathDate,
+	OM."DiagnosisOriginalMentionCode",
+    OM."DiagnosisOriginalMentionDesc",
+    OM."DiagnosisOriginalMentionChapterCode",
+    OM."DiagnosisOriginalMentionChapterDesc",
+    OM."DiagnosisOriginalMentionCategory1Code",
+    OM."DiagnosisOriginalMentionCategory1Desc"
+FROM PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_Pcmd" DEATH
+LEFT JOIN PRESENTATION.NATIONAL_FLOWS_PCMD."DS1804_PcmdDiagnosisOriginalMentions" OM 
+        ON OM."XSeqNo" = DEATH."XSeqNo" AND OM."DiagnosisOriginalMentionNumber" = 1;
+
+-- GET LATEST SNAPSHOT OF DEMOGRAPHICS TABLE
+
+DROP TABLE IF EXISTS LatestSnapshot;
+CREATE TEMPORARY TABLE LatestSnapshot AS
+SELECT 
+    p.*
+FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p 
+INNER JOIN (
+    SELECT "GmPseudo", MAX("Snapshot") AS LatestSnapshot
+    FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p 
+	WHERE DATEDIFF(YEAR, TO_DATE("DateOfBirth"), $StudyStartDate) >= 0 -- adults only
+    GROUP BY "GmPseudo"
+    ) t2
+ON t2."GmPseudo" = p."GmPseudo" AND t2.LatestSnapshot = p."Snapshot";
+
+-- CREATE A PATIENT SUMMARY TABLE TO WORK OUT WHICH PATIENTS HAVE LEFT GM 
+-- AND THEREFORE THEIR DATA FEED STOPPED 
+
+drop table if exists PatientSummary;
+create temporary table PatientSummary as
+select dem."GmPseudo", 
+        min("Snapshot") as "min", 
+        max("Snapshot") as "max", 
+        max(DeathDate) as DeathDate
+from PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" dem
+LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
+group by dem."GmPseudo";
+
+-- FIND THE DATE THAT PATIENT LEFT GM
+
+drop table if exists leftGMDate;
+create temporary table leftGMDate as 
+select *,
+    case when DeathDate is null and "max" < (select max("max") from PatientSummary) then "max" else null end as "leftGMDate"
+from PatientSummary;
+
+-- FIND ALL ADULT PATIENTS ALIVE AT STUDY START DATE
+
+DROP TABLE IF EXISTS AlivePatientsAtStart;
+CREATE TEMPORARY TABLE AlivePatientsAtStart AS 
+SELECT  
+    dem.*, 
+    Death."DEATHDATE" AS "DeathDate",
+	l."leftGMDate"
+FROM LatestSnapshot dem
+LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
+LEFT JOIN leftGMDate l ON l."GmPseudo" = dem."GmPseudo"
+WHERE 
+    (Death."DEATHDATE" IS NULL OR Death."DEATHDATE" > $StudyStartDate) -- alive on study start date
+	AND 
+	(l."leftGMDate" IS NULL OR l."leftGMDate" > $StudyEndDate); -- if patient left GM (therefore we stop receiving their data), ensure it is after study end date
+ 
+
 -- Find all patients with SLE
 -- >>> Codesets required... Inserting the code set code
 -- >>> Codesets extracted into 0.code-sets.sql
@@ -47,6 +132,7 @@ CREATE TEMPORARY TABLE LH004_SLE_Dx AS
 SELECT "FK_Patient_ID", MIN(CAST("EventDate" AS DATE)) AS "FirstSLEDiagnosis"
 FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses"
 WHERE "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_04_Bruce" WHERE concept = 'sle')
+	  AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
 GROUP BY "FK_Patient_ID";
 
 -- Create a temporary cohort table to link gmpseudo with fk_patient_id
@@ -79,7 +165,7 @@ CREATE TEMPORARY TABLE LH004_eGFR AS
 SELECT DISTINCT "GmPseudo", 
     last_value("eGFR") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "eGFRValue", 
     last_value(CAST("EventDate" AS DATE)) OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "eGFRDate"
-FROM INTERMEDIATE.GP_RECORD."Readings_eGFR"
+FROM INTERMEDIATE.GP_RECORD."Readings_eGFR_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce");
 
 -- Get creatinine
@@ -88,7 +174,7 @@ CREATE TEMPORARY TABLE LH004_creatinine AS
 SELECT DISTINCT "GmPseudo", 
     last_value("SerumCreatinine") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "SerumCreatinineValue", 
     last_value(CAST("EventDate" AS DATE)) OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "SerumCreatinineDate"
-FROM INTERMEDIATE.GP_RECORD."Readings_SerumCreatinine"
+FROM INTERMEDIATE.GP_RECORD."Readings_SerumCreatinine_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce");
 
 -- Get hdl cholesterol
@@ -97,7 +183,7 @@ CREATE TEMPORARY TABLE LH004_hdl AS
 SELECT DISTINCT "GmPseudo", 
     last_value("HDL") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "HDLValue", 
     last_value(CAST("EventDate" AS DATE)) OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "HDLDate"
-FROM INTERMEDIATE.GP_RECORD."Readings_Cholesterol"
+FROM INTERMEDIATE.GP_RECORD."Readings_Cholesterol_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce")
 AND "HDL" IS NOT NULL;
 
@@ -107,7 +193,7 @@ CREATE TEMPORARY TABLE LH004_ldl AS
 SELECT DISTINCT "GmPseudo", 
     last_value("LDL") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "LDLValue", 
     last_value(CAST("EventDate" AS DATE)) OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "LDLDate"
-FROM INTERMEDIATE.GP_RECORD."Readings_Cholesterol"
+FROM INTERMEDIATE.GP_RECORD."Readings_Cholesterol_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce")
 AND "LDL" IS NOT NULL;
 
@@ -117,7 +203,7 @@ CREATE TEMPORARY TABLE LH004_triglycerides AS
 SELECT DISTINCT "GmPseudo", 
     last_value("Triglycerides") OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "TriglyceridesValue", 
     last_value(CAST("EventDate" AS DATE)) OVER (PARTITION BY "GmPseudo" ORDER BY "EventDate") AS "TriglyceridesDate"
-FROM INTERMEDIATE.GP_RECORD."Readings_Cholesterol"
+FROM INTERMEDIATE.GP_RECORD."Readings_Cholesterol_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce")
 AND "Triglycerides" IS NOT NULL;
 
@@ -186,8 +272,8 @@ GROUP BY "FK_Patient_ID";
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-1_Patients_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-1_Patients_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-1_Patients_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-1_Patients_WITH_IDENTIFIER" AS
 SELECT
 	sle."GmPseudo",
 	sle."Sex",
@@ -240,7 +326,7 @@ FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce" sle
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_04_Bruce";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_04_Bruce" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-1_Patients_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-1_Patients_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_04_Bruce";
 
@@ -264,5 +350,6 @@ FROM "AllPseudos_SDE_Lighthouse_04_Bruce";
 -- created in the 0.code-sets.sql file
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-1_Patients";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-1_Patients" AS
-SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_04_Bruce("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-1_Patients_WITH_PSEUDO_IDS";
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_04_Bruce("GmPseudo") AS "PatientID",
+	* EXCLUDE "GmPseudo"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-1_Patients_WITH_IDENTIFIER";
