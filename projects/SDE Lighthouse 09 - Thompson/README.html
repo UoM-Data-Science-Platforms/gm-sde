@@ -138,11 +138,13 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Clinical code sets</h2>
 <p>This project required the following clinical code sets:</p>
 <ul>
+<li>menopause v1</li>
 <li>cognitive-impairment v1</li>
 <li>hot-flash v1</li>
 <li>irregular-periods v1</li>
 <li>musculoskeletal-pain v1</li>
-<li>spondyloarthropathy v1</li>
+<li>heavy-period v1</li>
+<li>fertility-problems v1</li>
 <li>corticosteroid v1</li>
 <li>anabolic-steroids v1</li>
 <li>biologic-immune-modulators v1</li>
@@ -154,8 +156,55 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>contraceptives-iud v1</li>
 <li>contraceptives-injection v1</li>
 <li>contraceptives-implant v1</li>
+<li>cancer-referral v1</li>
+<li>gynaecology-referral v1</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
+<h3>Menopause</h3>
+<p>Codes developed from GetSet. Includes any codes that mention menopause.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>10.9% - 12.1%</code> suggests this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-11-08</td>
+<td>EMIS</td>
+<td>2840867</td>
+<td style="text-align:right">309732 (10.9%)</td>
+<td style="text-align:right">162972 (5.74%)</td>
+</tr>
+<tr>
+<td>2024-11-08</td>
+<td>TPP</td>
+<td>188690</td>
+<td style="text-align:right">22897 (12.1%)</td>
+<td style="text-align:right">22887 (12.1%)</td>
+</tr>
+<tr>
+<td>2024-11-08</td>
+<td>Vision</td>
+<td>8669</td>
+<td style="text-align:right">421 (4.86%)</td>
+<td style="text-align:right">333 (3.84%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/menopause/1">https://github.com/rw251/.../conditions/menopause/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
 <h3>Cognitive impairment</h3>
 <p>Any code indicating any kind of cognitive impairment or decline. Code set built from https://www.opencodelists.org/codelist/opensafely/symptoms-cognitive-impairment/7af0d32d/#full-list.</p>
 <h4>Prevalence log</h4>
@@ -330,10 +379,10 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/symptoms/musculoskeletal-pain/1">https://github.com/rw251/.../symptoms/musculoskeletal-pain/1</a></p>
-<h3>Spondyloarthopathy</h3>
-<p>Any code indicating spondyloarthropathy.</p>
+<h3>Heavy period</h3>
+<p>Any code indicating heavy period (Menorrhagia).</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>3.4% - 3.8%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>5.3% - 5.5%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -346,28 +395,73 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2024-10-28</td>
+<td>2024-11-08</td>
 <td>EMIS</td>
-<td>2492275</td>
-<td style="text-align:right">94902 (3.81%)</td>
-<td style="text-align:right">94784 (3.8%)</td>
+<td>2840867</td>
+<td style="text-align:right">163634 (5.76%)</td>
+<td style="text-align:right">155523 (5.47%)</td>
 </tr>
 <tr>
-<td>2024-10-28</td>
+<td>2024-11-08</td>
 <td>TPP</td>
-<td>200915</td>
-<td style="text-align:right">7630 (3.8%)</td>
-<td style="text-align:right">7630 (3.8%)</td>
+<td>188690</td>
+<td style="text-align:right">10303 (5.46%)</td>
+<td style="text-align:right">9898 (5.25%)</td>
 </tr>
 <tr>
-<td>2024-10-28</td>
+<td>2024-11-08</td>
 <td>Vision</td>
-<td>332914</td>
-<td style="text-align:right">11371 (3.42%)</td>
-<td style="text-align:right">11361 (3.41%)</td>
+<td>8669</td>
+<td style="text-align:right">264 (3.05%)</td>
+<td style="text-align:right">224 (2.58%)</td>
 </tr>
 <tr>
-<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/spondyloarthropathy/1">https://github.com/rw251/.../conditions/spondyloarthropathy/1</a></td>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/symptoms/heavy-period/1">https://github.com/rw251/.../symptoms/heavy-period/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Fertility Problems</h3>
+<p>Any code indicating pproblems with fertility. Code set built from all descendants of (27034006 | Fertility problem (finding)).</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range for TPP and EMIS <code>2.2% - 2.5%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-11-07</td>
+<td>EMIS</td>
+<td>2823380</td>
+<td style="text-align:right">70918 (2.51%)</td>
+<td style="text-align:right">70855 (2.51%)</td>
+</tr>
+<tr>
+<td>2024-11-07</td>
+<td>TPP</td>
+<td>188082</td>
+<td style="text-align:right">4115 (2.19%)</td>
+<td style="text-align:right">4115 (2.19%)</td>
+</tr>
+<tr>
+<td>2024-11-07</td>
+<td>Vision</td>
+<td>8659</td>
+<td style="text-align:right">171 (1.97%)</td>
+<td style="text-align:right">144 (1.66%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/symptoms/fertility-problems/1">https://github.com/rw251/.../symptoms/fertility-problems/1</a></td>
 <td></td>
 <td></td>
 <td style="text-align:right"></td>
@@ -936,6 +1030,77 @@ Progesterone (0604012S0)</p>
 </tr>
 <tr>
 <td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/contraceptives-implant/1">https://github.com/rw251/.../medications/contraceptives-implant/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Referral for suspected cancer</h3>
+<p>This list contains any code that indicates patient was referred to a cancer service.</p>
+<p>Built from snomed browser for descendants of '199251000000107 | Fast track cancer referral (procedure)'</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>%%</code> suggests overreporting from TPP practices.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/referrals/cancer-referral/1">https://github.com/rw251/.../referrals/cancer-referral/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Referral to gynaecology or fertility service</h3>
+<p>This list contains any code that indicates patient was seen in, or referred to, a gynaecology or fertility service.</p>
+<p>Read codes from: https://www.ncbi.nlm.nih.gov/books/NBK568995/</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>%5.8 - 14.4%</code> suggests overreporting from TPP practices.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024-10-22</td>
+<td>EMIS</td>
+<td>2493415</td>
+<td style="text-align:right">145127 (5.82%)</td>
+<td style="text-align:right">145137 (5.82%)</td>
+</tr>
+<tr>
+<td>2024-10-22</td>
+<td>TPP</td>
+<td>200976</td>
+<td style="text-align:right">29015 (14.4%)</td>
+<td style="text-align:right">29016 (14.4%)</td>
+</tr>
+<tr>
+<td>2024-10-22</td>
+<td>Vision</td>
+<td>333066</td>
+<td style="text-align:right">22616 (6.79%)</td>
+<td style="text-align:right">22858 (6.86%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/referrals/gynaecology-referral/1">https://github.com/rw251/.../referrals/gynaecology-referral/1</a></td>
 <td></td>
 <td></td>
 <td style="text-align:right"></td>

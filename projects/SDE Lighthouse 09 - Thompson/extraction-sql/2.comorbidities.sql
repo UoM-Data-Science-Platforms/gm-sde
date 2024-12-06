@@ -1,18 +1,18 @@
 USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
---┌──────────────────────────────────────────────────┐
---│ SDE Lighthouse study 01 - Newman - comorbidities │
---└──────────────────────────────────────────────────┘
+--┌────────────────────────────────────────────────────┐
+--│ SDE Lighthouse study 09 - Thompson - comorbidities │
+--└────────────────────────────────────────────────────┘
 
 
--- ... processing [[create-output-table::"LH001-4_Comorbidities"]] ... 
--- ... Need to create an output table called "LH001-4_Comorbidities" and replace 
+-- ... processing [[create-output-table::"LH009-2_Comorbidities"]] ... 
+-- ... Need to create an output table called "LH009-2_Comorbidities" and replace 
 -- ... the GmPseudo column with a study-specific random patient id.
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH001-4_Comorbidities_WITH_IDENTIFIER";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH001-4_Comorbidities_WITH_IDENTIFIER" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH009-2_Comorbidities_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH009-2_Comorbidities_WITH_IDENTIFIER" AS
 SELECT
 	"GmPseudo", 
 	"ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "Anxiety_DiagnosisDate", "Asthma_DiagnosisDate", 
@@ -30,38 +30,38 @@ SELECT
 	"PeripheralArterialDisease_DiagnosisDate", "ProstateDisorder_DiagnosisDate", "Psoriasis_DiagnosisDate",
 	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate"
 FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_SecondaryUses"
-WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_01_Newman")
+WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_09_Thompson")
 QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1;
 
 -- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
 -- of all "new" GmPseudo ids. I.e. any GmPseudo ids that we've already got a unique id for
 -- for this study are excluded
-DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_01_Newman";
-CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_01_Newman" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH001-4_Comorbidities_WITH_IDENTIFIER"
+DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_09_Thompson";
+CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_09_Thompson" AS
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH009-2_Comorbidities_WITH_IDENTIFIER"
 EXCEPT
-SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_01_Newman";
+SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_09_Thompson";
 
 -- Find the highest currently assigned id. Ids are given incrementally, so now ones
 -- need to start at +1 of the current highest
 SET highestPatientId = (
-    SELECT IFNULL(MAX("StudyPatientPseudoId"),0) FROM "Patient_ID_Mapping_SDE_Lighthouse_01_Newman"
+    SELECT IFNULL(MAX("StudyPatientPseudoId"),0) FROM "Patient_ID_Mapping_SDE_Lighthouse_09_Thompson"
 );
 
 -- Make a study specific hash for each new GmPseudo and insert it
 -- into the patient lookup table
-INSERT INTO "Patient_ID_Mapping_SDE_Lighthouse_01_Newman"
+INSERT INTO "Patient_ID_Mapping_SDE_Lighthouse_09_Thompson"
 SELECT
     "GmPseudo", -- the GM SDE patient ids for patients in this cohort
-    SHA2(CONCAT('SDE_Lighthouse_01_Newman', "GmPseudo")) AS "Hash", -- used to provide a random (study-specific) ordering for the patient ids we provide
+    SHA2(CONCAT('SDE_Lighthouse_09_Thompson', "GmPseudo")) AS "Hash", -- used to provide a random (study-specific) ordering for the patient ids we provide
     $highestPatientId + ROW_NUMBER() OVER (ORDER BY "Hash") -- the patient id that we provide to the analysts
-FROM "AllPseudos_SDE_Lighthouse_01_Newman";
+FROM "AllPseudos_SDE_Lighthouse_09_Thompson";
 
 -- Finally, we select from the output table which includes the GmPseudos, in order
 -- to populate the table for the end users where the GmPseudo fields are redacted via a function
 -- created in the 0.code-sets.sql file
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH001-4_Comorbidities";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH001-4_Comorbidities" AS
-SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_01_Newman("GmPseudo") AS "PatientID",
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH009-2_Comorbidities";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH009-2_Comorbidities" AS
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_09_Thompson("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH001-4_Comorbidities_WITH_IDENTIFIER"; -- this brings back the values from the most recent snapshot
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH009-2_Comorbidities_WITH_IDENTIFIER"; -- this brings back the values from the most recent snapshot

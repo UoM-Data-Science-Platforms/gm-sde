@@ -6,10 +6,10 @@
 
 --------------------------------------------------
 
-set(StudyStartDate) = to_date('2015-03-01'); -- change
-set(StudyEndDate)   = to_date('2022-03-31'); -- change
+set(StudyStartDate) = to_date('2019-01-01');
+set(StudyEndDate)   = to_date('2024-10-31');
 
--- get all inpatient admissions
+-- get all outpatient admissions
 
 {{create-output-table::"LH015-5_OutpatientAdmissions"}}
 SELECT 

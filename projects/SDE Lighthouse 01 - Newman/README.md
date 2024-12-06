@@ -38,7 +38,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.
 This project required the following reusable queries:
 
 - Cohort matching on year of birth / sex
-- Create table of patients who were alive at the study start date
 
 Further details for each query can be found below.
 
@@ -74,23 +73,6 @@ A temp table as follows:
 _File_: `query-cohort-matching-yob-sex-ethnicity.sql`
 
 _Link_: [https://github.com/rw251/.../query-cohort-matching-yob-sex-ethnicity.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-ethnicity.sql)
-
----
-### Create table of patients who were alive at the study start date
-undefined
-
-_Input_
-```
-undefined
-```
-
-_Output_
-```
-undefined
-```
-_File_: `query-get-possible-patientsSDE.sql`
-
-_Link_: [https://github.com/rw251/.../query-get-possible-patientsSDE.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patientsSDE.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:

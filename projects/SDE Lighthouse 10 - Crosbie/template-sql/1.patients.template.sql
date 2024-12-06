@@ -3,7 +3,7 @@
 --└────────────────────────────────────┘
 
 -- Cohort: >50s in 2016
--- study team will do the cohort matching, so we provide all over 50s in 2016.
+-- study team will do the cohort matching, so we provide all over 50s in 2016 (with a flag to tell them which patients had a lung health check).
 
 set(StudyStartDate) = to_date('2016-01-01');
 set(StudyEndDate)   = to_date('2024-10-31');
@@ -66,7 +66,8 @@ WHERE "Field_ID" IN ('Statin')
 	AND TO_DATE(ec."Date") <=  $StudyStartDate
 GROUP BY c."GmPseudo";
 
--- reasonable adjustment flag
+-- reasonable adjustment flags https://digital.nhs.uk/services/reasonable-adjustment-flag
+-- flags 1 to 4 are already available as clusters in the GP Record, but 5 to 10 needed building as code sets
 
 --> CODESET reasonable-adjustment-category5:1 reasonable-adjustment-category6:1 reasonable-adjustment-category7:1 
 --> CODESET reasonable-adjustment-category8:1 reasonable-adjustment-category9:1 reasonable-adjustment-category10:1
@@ -132,7 +133,6 @@ SELECT
 	 dem."BMI_Date",
 	 dem."BMI_Description",
 	 CASE WHEN phc."GmPseudo" IS NOT NULL THEN 1 ELSE 0 END AS "PersonalHistoryOfCancer",
-	 -- TODO: family history of lung cancer
 	 dem."AlcoholStatus",
 	 dem."Alcohol_Date",
 	 dem."AlcoholConsumption",

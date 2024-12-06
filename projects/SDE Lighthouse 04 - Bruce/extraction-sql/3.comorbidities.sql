@@ -90,8 +90,8 @@ LEFT OUTER JOIN LH004_AntiphospholipidSyndrome antiphos ON antiphos."FK_Patient_
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-3_comorbidities_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-3_comorbidities_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-3_comorbidities_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-3_comorbidities_WITH_IDENTIFIER" AS
 SELECT
 	h."GmPseudo", "ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "AntiphospholipidSyndrome_DiagnosisDate",
 	"Anxiety_DiagnosisDate", "Asthma_DiagnosisDate", "AtrialFibrillation_DiagnosisDate", "Autism_DiagnosisDate",
@@ -119,7 +119,7 @@ QUALIFY row_number() OVER (PARTITION BY ltc."GmPseudo" ORDER BY "Snapshot" DESC)
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_04_Bruce";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_04_Bruce" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-3_comorbidities_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-3_comorbidities_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_04_Bruce";
 
@@ -143,5 +143,6 @@ FROM "AllPseudos_SDE_Lighthouse_04_Bruce";
 -- created in the 0.code-sets.sql file
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-3_comorbidities";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-3_comorbidities" AS
-SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_04_Bruce("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-3_comorbidities_WITH_PSEUDO_IDS"; -- this brings back the values from the most recent snapshot
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_04_Bruce("GmPseudo") AS "PatientID",
+	* EXCLUDE "GmPseudo"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-3_comorbidities_WITH_IDENTIFIER"; -- this brings back the values from the most recent snapshot

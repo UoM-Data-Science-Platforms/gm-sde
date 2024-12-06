@@ -1,8 +1,8 @@
---┌──────────────────────────────────────────────────┐
---│ SDE Lighthouse study 01 - Newman - comorbidities │
---└──────────────────────────────────────────────────┘
+--┌─────────────────────────────────────────────────┐
+--│ SDE Lighthouse study 15 - ADAPT - comorbidities │
+--└─────────────────────────────────────────────────┘
 
-{{create-output-table::"LH001-4_Comorbidities"}}
+{{create-output-table::"LH015-8_Comorbidities"}}
 SELECT
 	"GmPseudo", 
 	"ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "Anxiety_DiagnosisDate", "Asthma_DiagnosisDate", 

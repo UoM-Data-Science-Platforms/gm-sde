@@ -8,7 +8,7 @@
 -- Date range: 2018 to present
 
 set(StudyStartDate) = to_date('2018-01-01');
-set(StudyEndDate)   = to_date('2024-10-31');
+set(StudyEndDate)   = to_date('2024-11-31');
 
 -- get all a&e admissions for the virtual ward cohort
 
@@ -25,6 +25,9 @@ E."EmAttendanceCategoryDesc",
 E."EmAttendanceDisposalCode",
 E."EmAttendanceDisposalDesc"
 FROM PRESENTATION.NATIONAL_FLOWS_ECDS."DS707_Ecds" E
-WHERE "IsAttendance" = 1 -- advised to use this for A&E attendances
+WHERE "IsAttendance" = 1 -- advised to use this for A&E attendances -- contact Dan Young if more info needed (daniel.young1@nhs.net)
 	AND "GmPseudo" IN (select "GmPseudo" from {{cohort-table}})
 	AND TO_DATE(E."ArrivalDate") BETWEEN $StudyStartDate AND $StudyEndDate;
+
+-- 152.9k admissions
+-- 19,681 patients

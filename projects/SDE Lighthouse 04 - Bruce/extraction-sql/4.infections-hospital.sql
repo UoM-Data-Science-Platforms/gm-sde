@@ -44,8 +44,8 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital_WITH_IDENTIFIER" AS
 SELECT
 	SUBSTRING("Der_Pseudo_NHS_Number", 2)::INT AS "GmPseudo",
 	b.concept AS "Infection",
@@ -62,7 +62,7 @@ AND SUBSTRING("Der_Pseudo_NHS_Number", 2)::INT IN (SELECT "GmPseudo" FROM SDE_RE
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_04_Bruce";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_04_Bruce" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_04_Bruce";
 
@@ -86,5 +86,6 @@ FROM "AllPseudos_SDE_Lighthouse_04_Bruce";
 -- created in the 0.code-sets.sql file
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital" AS
-SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_04_Bruce("GmPseudo") AS "PatientID", * EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital_WITH_PSEUDO_IDS";
+SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_04_Bruce("GmPseudo") AS "PatientID",
+	* EXCLUDE "GmPseudo"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH004-4_infections_hospital_WITH_IDENTIFIER";

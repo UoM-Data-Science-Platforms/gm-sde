@@ -7,19 +7,18 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -------- RESEARCH DATA ENGINEER CHECK ---------
 -- Richard Williams	2024-08-09	Review complete
 
--- *** this file gets extra patient demographics from the GP record for about 85% of the patients in the VW data.
--- Some patients are missing for a couple of reasons:
+-- around 2.5k patients don't have a record in the demographics table, and therefore aren't included in the data provided, because we don't know their opt-out status.
+-- potential reasons for patients not appearing in the demographics table:
+
 -- 1. opted out of sharing GP record info
 -- 2. Their GP practice has not signed up to sharing info
--- 3. Different inclusion criterias between the VW dataset and the GP data
+-- 3. Discrepancies between snapshot dates in the VW dataset and the GP data when patients move practices
 
--- For patients that don't appear in demographics table, basic demographics can be taken from VW table.
--- Information in this file will be based on the latest snapshot available, so may be conflicting with information 
--- from the VW table which was based on time of activity.
 
  -- need to load a codeset for the pipeline to work so loading an example one
 
 -- CODESET allergy-ace:1      
+
 
 set(StudyStartDate) = to_date('2018-01-01');
 set(StudyEndDate)   = to_date('2024-10-31');
@@ -31,7 +30,8 @@ CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_14_Whittaker
 SELECT  
 	DISTINCT SUBSTRING(vw."Pseudo NHS Number", 2)::INT AS "GmPseudo"
 FROM PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw
-WHERE TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate;
+WHERE SUBSTRING(vw."Pseudo NHS Number", 2)::INT IN (SELECT "GmPseudo" FROM  PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses") -- limit to GM GP registered patients (which applies opt out)
+AND TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate;
 
 
 -- deaths table
@@ -62,15 +62,15 @@ WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Coh
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients_WITH_IDENTIFIER" AS
 SELECT *
 FROM (
 SELECT 
 	"Snapshot", 
-	D."GmPseudo", -- NEEDS PSEUDONYMISING
-	"DateOfBirth",
-	DATE_TRUNC(month, dth.DeathDate) AS "DeathDate",
+	D."GmPseudo", 
+	"YearAndMonthOfBirth",
+	DATE_TRUNC(month, dth.DeathDate) AS "YearAndMonthOfDeath",
 	"DiagnosisOriginalMentionCode" AS "CauseOfDeathCode",
 	"DiagnosisOriginalMentionDesc" AS "CauseOfDeathDesc",
 	"DiagnosisOriginalMentionChapterCode" AS "CauseOfDeathChapterCode",
@@ -94,7 +94,7 @@ QUALIFY row_number() OVER (PARTITION BY D."GmPseudo" ORDER BY "Snapshot" DESC) =
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_14_Whittaker";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_14_Whittaker" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_14_Whittaker";
 
@@ -120,7 +120,7 @@ DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_14_Whittaker("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients_WITH_PSEUDO_IDS";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-1_Patients_WITH_IDENTIFIER";
 
 ---------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------

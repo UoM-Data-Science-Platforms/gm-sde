@@ -11,7 +11,7 @@
 set(StudyStartDate) = to_date('2020-01-01');
 set(StudyEndDate)   = to_date('2024-10-31');
 
--- REFERRALS NOT IN CLUSTERS TABLE
+--> CODESET cancer-referral:1 gynaecology-referral:1
 
 {{create-output-table::"LH009-8_Referrals"}}
 SELECT DISTINCT
@@ -20,16 +20,9 @@ SELECT DISTINCT
 	gp."SCTID" AS "SnomedCode",
 	gp."Term" AS "Description"
 FROM {{cohort-table}} co
-LEFT OUTER JOIN intermediate.gp_record."GP_Events_SecondaryUses" gp ON gp."FK_Patient_ID" = co."FK_Patient_ID" 
-WHERE "SCTID" = '183862006' -- referral to fertility clinic (not in clusters table)
-	AND TO_DATE(gp."EventDate") BETWEEN $StudyStartDate and $StudyEndDate
-UNION
-SELECT DISTINCT
-    co."GmPseudo"
-    , TO_DATE(ec."Date") AS "Date"
-    , ec."SCTID" AS "SnomedCode"
-    , ec."Term" AS "Description"
-FROM {{cohort-table}} co
-LEFT JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec ON co."FK_Patient_ID" = ec."FK_Patient_ID"
-WHERE "Cluster_ID" = 'REFERRAL_COD'
-    AND TO_DATE(ec."Date") BETWEEN $StudyStartDate and $StudyEndDate;
+LEFT OUTER JOIN intermediate.gp_record."GP_Events_SecondaryUses" gp ON gp."FK_Patient_ID" = co."FK_Patient_ID"
+LEFT OUTER JOIN {{code-set-table}} cs ON cs.code = gp."SCTID"
+WHERE (("SCTID" = '183862006') -- referral to fertility clinic (not in clusters table)
+		OR
+	   (cs.concept IN ('cancer-referral', 'gynaecology-referral')))
+	AND TO_DATE(gp."EventDate") BETWEEN $StudyStartDate and $StudyEndDate;

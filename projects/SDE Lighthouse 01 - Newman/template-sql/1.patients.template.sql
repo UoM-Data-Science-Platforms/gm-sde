@@ -4,23 +4,43 @@
 
 -- COHORT: Any patient with a pharmacogenetic test, or a matched control.
 
-set(StudyStartDate) = to_date('2023-06-01');
+set(StudyStartDate) = to_date('2022-07-01');
 set(StudyEndDate)   = to_date('2024-06-30');
 
---> EXECUTE query-get-possible-patients.sql minimum-age:18
+
+--> query-get-possible-patients.sql minimum-age:18
 
 -- table of pharmacogenetic test patients
 
+-- for now, create a test table to imitate the pharmacogenetic data
+DROP TABLE IF EXISTS PharmacogeneticTable;
+CREATE TEMPORARY TABLE PharmacogeneticTable AS
+(SELECT DISTINCT
+    ec."FK_Patient_ID"
+	, ec."GmPseudo"
+    , 'IPTIP' as "Cohort"
+FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec
+LIMIT 500)
+UNION
+(SELECT DISTINCT
+    ec."FK_Patient_ID"
+	, ec."GmPseudo"
+    , 'PROGRESS' as "Cohort"
+FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec
+LIMIT 500);
+    
 ------
 
+--- the study team want to find patients that recently started on a new medication, to match to the main cohort
+--- so we build two tables, one for old prescriptions, and one for new
 
---- table of new prescriptions to use for potential matches
+-- build table of new prescriptions 
 
 DROP TABLE IF EXISTS new_prescriptions;
 CREATE TEMPORARY TABLE new_prescriptions AS
 SELECT 
     ec."FK_Patient_ID"
-	, c."GmPseudo"
+	, ec."GmPseudo"
     , TO_DATE(ec."Date") AS "Date"
     , ec."SCTID" AS "SnomedCode"
     , CASE WHEN ec."Field_ID" = 'Statin' THEN "FoundValue" -- statin
@@ -47,8 +67,9 @@ SELECT
 		   ELSE 'other' END AS "Concept"
     , ec."MedicationDescription" AS "Description"
 FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec
-INNER JOIN {{cohort-table}} c ON c."FK_Patient_ID" = ec."FK_Patient_ID"
 WHERE 
+	ec."GmPseudo" NOT IN (SELECT "GmPseudo" FROM PharmacogeneticTable)
+	AND
 	-- Statins
 	(("Field_ID" = 'Statin') OR 
 	-- SSRIs
@@ -62,45 +83,95 @@ AND TO_DATE(ec."Date") BETWEEN '2023-06-01' and '2025-06-01';
 -- table of old prescriptions 
 --	(we will use this to find patients that weren't prescribed the medication before,but have been prescribed it more recently)
 
-DROP TABLE IF EXISTS old_prescriptions;
-CREATE TEMPORARY TABLE old_prescriptions AS
+DROP TABLE IF EXISTS new_prescriptions;
+CREATE TEMPORARY TABLE new_prescriptions AS
 SELECT 
     ec."FK_Patient_ID"
+	, ec."GmPseudo"
     , TO_DATE(ec."Date") AS "Date"
     , ec."SCTID" AS "SnomedCode"
     , CASE WHEN ec."Field_ID" = 'Statin' THEN "FoundValue" -- statin
 			-- SSRIs
-	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%citalopram%')    THEN 'citalopram'
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%escitalopram%')  THEN 'escitalopram'
-	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%fluvoxamine%')   THEN 'fluvoxamine'
-	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%paroxetine%')    THEN 'paroxetine'
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%sertraline%')    THEN 'sertraline'
-	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%venlafaxine%')   THEN 'venlafaxine'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%citalopram%')    THEN 'citalopram'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%escitalopram%')  THEN 'escitalopram'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%fluvoxamine%')   THEN 'fluvoxamine'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%paroxetine%')    THEN 'paroxetine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%sertraline%')    THEN 'sertraline'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%venlafaxine%')   THEN 'venlafaxine'
 		   -- tricyclic antidepressants
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%amitriptyline%') THEN 'amitriptyline'
-           WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%clomipramine%')  THEN 'clomipramine'
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%doxepin%')       THEN 'doxepin'
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%imipramine%')    THEN 'imipramine'
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%nortriptyline%') THEN 'nortiptyline'
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%trimipramine%')  THEN 'trimipramine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%amitriptyline%') THEN 'amitriptyline'
+           WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%clomipramine%')  THEN 'clomipramine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%doxepin%')       THEN 'doxepin'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%imipramine%')    THEN 'imipramine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%nortriptyline%') THEN 'nortiptyline'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%trimipramine%')  THEN 'trimipramine'
 			-- proton pump inhibitors
-		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%esomeprazole%') THEN 'esomeprazole'
-		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%lansoprazole%') THEN 'lansoprazole'
-		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%omeprazole%')   THEN 'omeprazole'
-		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%pantoprazole%') THEN 'pantoprazole'
-		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%rabeprazole%')  THEN 'rabeprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("Term") LIKE '%esomeprazole%') THEN 'esomeprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("Term") LIKE '%lansoprazole%') THEN 'lansoprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("Term") LIKE '%omeprazole%')   THEN 'omeprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("Term") LIKE '%pantoprazole%') THEN 'pantoprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("Term") LIKE '%rabeprazole%')  THEN 'rabeprazole'
 		   ELSE 'other' END AS "Concept"
-    , ec."MedicationDescription" AS "Description"
+    , ec."Term" AS "Description"
 FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec
 WHERE 
+	ec."GmPseudo" NOT IN (SELECT "GmPseudo" FROM PharmacogeneticTable)
+	AND
 	-- Statins
 	(("Field_ID" = 'Statin') OR 
 	-- SSRIs
-	("Field_ID" = 'ANTIDEPDRUG_COD' AND (LOWER("MedicationDescription") LIKE '%citalopram%' OR LOWER("MedicationDescription") LIKE '%escitalopram%' OR LOWER("MedicationDescription") LIKE '%fluvoxamine%' OR LOWER("MedicationDescription") LIKE '%paroxetine%' OR LOWER("MedicationDescription") LIKE '%sertraline%' OR LOWER("MedicationDescription") LIKE '%venlafaxine%')) OR
+	("Field_ID" = 'ANTIDEPDRUG_COD' AND (LOWER("Term") LIKE '%citalopram%' OR LOWER("Term") LIKE '%escitalopram%' OR LOWER("Term") LIKE '%fluvoxamine%' OR LOWER("Term") LIKE '%paroxetine%' OR LOWER("Term") LIKE '%sertraline%' OR LOWER("Term") LIKE '%venlafaxine%')) OR
 	-- tricyclic antidepressants
-	("Field_ID" = 'ANTIDEPDRUG_COD' AND (LOWER("MedicationDescription") LIKE '%amitriptyline%' OR LOWER("MedicationDescription") LIKE '%clomipramine%' OR LOWER("MedicationDescription") LIKE '%doxepin%' OR LOWER("MedicationDescription") LIKE '%imipramine%' OR LOWER("MedicationDescription") LIKE '%nortriptyline%' OR LOWER("MedicationDescription") LIKE '%trimipramine%')) OR
+	("Field_ID" = 'ANTIDEPDRUG_COD' AND (LOWER("Term") LIKE '%amitriptyline%' OR LOWER("Term") LIKE '%clomipramine%' OR LOWER("Term") LIKE '%doxepin%' OR LOWER("Term") LIKE '%imipramine%' OR LOWER("Term") LIKE '%nortriptyline%' OR LOWER("Term") LIKE '%trimipramine%')) OR
 	-- proton pump inhibitors
-	( "Field_ID" = 'ULCERHEALDRUG_COD' AND (LOWER("MedicationDescription") LIKE '%esomeprazole%' OR LOWER("MedicationDescription") LIKE '%lansoprazole%' OR LOWER("MedicationDescription") LIKE '%omeprazole%' OR LOWER("MedicationDescription") LIKE '%pantoprazole%' OR LOWER("MedicationDescription") LIKE '%rabeprazole%' )))
+	( "Field_ID" = 'ULCERHEALDRUG_COD' AND (LOWER("Term") LIKE '%esomeprazole%' OR LOWER("Term") LIKE '%lansoprazole%' OR LOWER("Term") LIKE '%omeprazole%' OR LOWER("Term") LIKE '%pantoprazole%' OR LOWER("Term") LIKE '%rabeprazole%' )) )
+AND TO_DATE(ec."Date") BETWEEN '2023-06-01' and '2025-06-01';
+
+-- table of old prescriptions 
+--	(we will use this to find patients that weren't prescribed the medication before,but have been prescribed it more recently)
+
+DROP TABLE IF EXISTS old_prescriptions;
+CREATE TEMPORARY TABLE old_prescriptions AS
+SELECT 
+    ec."FK_Patient_ID"
+    , ec."GmPseudo"
+    , TO_DATE(ec."Date") AS "Date"
+    , ec."SCTID" AS "SnomedCode"
+    , CASE WHEN ec."Field_ID" = 'Statin' THEN "FoundValue" -- statin
+			-- SSRIs
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%citalopram%')    THEN 'citalopram'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%escitalopram%')  THEN 'escitalopram'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%fluvoxamine%')   THEN 'fluvoxamine'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%paroxetine%')    THEN 'paroxetine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%sertraline%')    THEN 'sertraline'
+	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%venlafaxine%')   THEN 'venlafaxine'
+		   -- tricyclic antidepressants
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%amitriptyline%') THEN 'amitriptyline'
+           WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%clomipramine%')  THEN 'clomipramine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%doxepin%')       THEN 'doxepin'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%imipramine%')    THEN 'imipramine'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%nortriptyline%') THEN 'nortiptyline'
+		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("Term") LIKE '%trimipramine%')  THEN 'trimipramine'
+			-- proton pump inhibitors
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("Term") LIKE '%esomeprazole%') THEN 'esomeprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("Term") LIKE '%lansoprazole%') THEN 'lansoprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("Term") LIKE '%omeprazole%')   THEN 'omeprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("Term") LIKE '%pantoprazole%') THEN 'pantoprazole'
+		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("Term") LIKE '%rabeprazole%')  THEN 'rabeprazole'
+		   ELSE 'other' END AS "Concept"
+    , ec."Term" AS "Description"
+FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec
+WHERE 
+	"GmPseudo" NOT IN (SELECT "GmPseudo" FROM PharmacogeneticTable)
+	AND
+	-- Statins
+	(("Field_ID" = 'Statin') OR 
+	-- SSRIs
+	("Field_ID" = 'ANTIDEPDRUG_COD' AND (LOWER("Term") LIKE '%citalopram%' OR LOWER("Term") LIKE '%escitalopram%' OR LOWER("Term") LIKE '%fluvoxamine%' OR LOWER("Term") LIKE '%paroxetine%' OR LOWER("Term") LIKE '%sertraline%' OR LOWER("Term") LIKE '%venlafaxine%')) OR
+	-- tricyclic antidepressants
+	("Field_ID" = 'ANTIDEPDRUG_COD' AND (LOWER("Term") LIKE '%amitriptyline%' OR LOWER("Term") LIKE '%clomipramine%' OR LOWER("Term") LIKE '%doxepin%' OR LOWER("Term") LIKE '%imipramine%' OR LOWER("Term") LIKE '%nortriptyline%' OR LOWER("Term") LIKE '%trimipramine%')) OR
+	-- proton pump inhibitors
+	( "Field_ID" = 'ULCERHEALDRUG_COD' AND (LOWER("Term") LIKE '%esomeprazole%' OR LOWER("Term") LIKE '%lansoprazole%' OR LOWER("Term") LIKE '%omeprazole%' OR LOWER("Term") LIKE '%pantoprazole%' OR LOWER("Term") LIKE '%rabeprazole%' )))
 AND TO_DATE(ec."Date") < '2023-06-01';
 
 -- binary columns for each med type, indicating whether patient was ever prescribed it before June 2023
@@ -142,23 +213,22 @@ GROUP BY "FK_Patient_ID") SUB;
 
 -- create main cohort
 -- use the latest snapshot before the start of the PROGRESS study
-
 DROP TABLE IF EXISTS MainCohort;
 CREATE TEMPORARY TABLE MainCohort AS
 SELECT DISTINCT
-	 "FK_Patient_ID",
-	 "GmPseudo",
+	 p."FK_Patient_ID",
+	 p."GmPseudo",
      "Sex" as Sex,
      YEAR("DateOfBirth") AS YearOfBirth,
 	 "EthnicityLatest_Category" AS EthnicCategory,
-	 --Cohort : IPTIP or PROGRESS
-	 --IndexDate : DATE OF STUDY START : IPTIP OR PROGRESS -- SET AS PROGRESS FOR NOW TO TEST
-	 '2022-07-01' AS IndexDate,
+     ph."Cohort",
+     CASE WHEN ph."Cohort" = 'PROGRESS' THEN '2023-06-01' WHEN ph."Cohort" = 'IPTIP' THEN '2022-07-01'
+        ELSE NULL END AS IndexDate,
 	 "Snapshot"
 FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p
-WHERE "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
- 	--AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM PharmacogeneticTable)
-    AND "Snapshot" <= '2022-07-01'
+INNER JOIN PharmacogeneticTable ph ON ph."GmPseudo" = p."GmPseudo" 
+WHERE p."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM PharmacogeneticTable)
+    AND "Snapshot" <= $StudyStartDate
 QUALIFY row_number() OVER (PARTITION BY p."GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot
 
 -- create table of potential patients to match to the main cohort
@@ -188,6 +258,7 @@ QUALIFY row_number() OVER (PARTITION BY p."GmPseudo" ORDER BY "Snapshot" DESC) =
 -- TODO : create a replica of the above table but with a diff snapshot date based on 
 
 -- run matching script with parameters filled in
+-- this will match the main cohort patients with up to 5 similar patients, with 2 years of flexibility around year of birth
 
 --> EXECUTE query-cohort-matching-yob-sex-ethnicity.sql yob-flex:2 num-matches:5
 
@@ -209,6 +280,8 @@ SELECT
 	 m."GmPseudo",
 	 D."Snapshot",
      NULL AS "MainCohortMatchedGmPseudo",
+     m."Cohort",
+     m.IndexDate AS "IndexDate",
      m.Sex AS "Sex",
      D."DateOfBirth" AS "YearAndMonthOfBirth",
 	 EthnicCategory AS "EthnicCategory",
@@ -216,14 +289,13 @@ SELECT
 	"IMD_Decile", 
 	"PracticeCode", 
 	"Frailty", 
-	 --IndexDate,
 	 dth.DeathDate AS "DeathDate",
 	"DiagnosisOriginalMentionCode" AS "CauseOfDeathCode",
 	"DiagnosisOriginalMentionDesc" AS "CauseOfDeathDesc",
 	"DiagnosisOriginalMentionChapterCode" AS "CauseOfDeathChapterCode",
     "DiagnosisOriginalMentionChapterDesc" AS "CauseOfDeathChapterDesc",
     "DiagnosisOriginalMentionCategory1Code" AS "CauseOfDeathCategoryCode",
-    "DiagnosisOriginalMentionCategory1Desc" AS "CauseOfDeathCategoryDesc",
+    "DiagnosisOriginalMentionCategory1Desc" AS "CauseOfDeathCategoryDesc"
 FROM MainCohort m
 LEFT OUTER JOIN Death dth ON dth."GmPseudo" = m."GmPseudo"
 LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D on D."GmPseudo" = m."GmPseudo"
@@ -234,6 +306,8 @@ SELECT
  	 m."GmPseudo",
 	 D."Snapshot",
 	 PatientWhoIsMatched AS "MainCohortMatchedGmPseudo", 
+     'MATCHED' AS "Cohort",
+     NULL AS "IndexDate",
      m.Sex AS "Sex",
      D."DateOfBirth" AS "YearAndMonthOfBirth",
 	 EthnicCategory AS "EthnicCategory",
@@ -247,7 +321,7 @@ SELECT
 	"DiagnosisOriginalMentionChapterCode" AS "CauseOfDeathChapterCode",
     "DiagnosisOriginalMentionChapterDesc" AS "CauseOfDeathChapterDesc",
     "DiagnosisOriginalMentionCategory1Code" AS "CauseOfDeathCategoryCode",
-    "DiagnosisOriginalMentionCategory1Desc" AS "CauseOfDeathCategoryDesc",
+    "DiagnosisOriginalMentionCategory1Desc" AS "CauseOfDeathCategoryDesc"
 FROM MatchedCohort m
 LEFT JOIN Death dth ON dth."GmPseudo" = m."GmPseudo"
 LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D on D."GmPseudo" = m."GmPseudo"

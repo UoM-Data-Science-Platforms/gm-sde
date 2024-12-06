@@ -10,14 +10,14 @@ set(StudyEndDate)   = to_date('2024-06-30');
 -- find all GP contacts for the pharmacogenetic patients and the matched cohort
 
 
--- ... processing [[create-output-table::"6_ContactProxy"]] ... 
--- ... Need to create an output table called "6_ContactProxy" and replace 
+-- ... processing [[create-output-table::"LH001-6_ContactProxy"]] ... 
+-- ... Need to create an output table called "LH001-6_ContactProxy" and replace 
 -- ... the GmPseudo column with a study-specific random patient id.
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."6_ContactProxy_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."6_ContactProxy_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH001-6_ContactProxy_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH001-6_ContactProxy_WITH_IDENTIFIER" AS
 SELECT
     "GmPseudo"
     , "EventDate" as "GPProxyEncounterDate"
@@ -31,7 +31,7 @@ WHERE "Contact" = 1
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_01_Newman";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_01_Newman" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."6_ContactProxy_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH001-6_ContactProxy_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_01_Newman";
 
@@ -53,10 +53,10 @@ FROM "AllPseudos_SDE_Lighthouse_01_Newman";
 -- Finally, we select from the output table which includes the GmPseudos, in order
 -- to populate the table for the end users where the GmPseudo fields are redacted via a function
 -- created in the 0.code-sets.sql file
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."6_ContactProxy";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."6_ContactProxy" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH001-6_ContactProxy";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH001-6_ContactProxy" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_01_Newman("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."6_ContactProxy_WITH_PSEUDO_IDS";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH001-6_ContactProxy_WITH_IDENTIFIER";
 
 
