@@ -24,7 +24,6 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 set(StudyStartDate) = to_date('2006-01-01');
 set(StudyEndDate)   = to_date('2024-10-31');
 
-
 --┌─────────────────────────────────────────────────────────────────┐
 --│ Create table of patients who were alive at the study start date │
 --└─────────────────────────────────────────────────────────────────┘
@@ -63,7 +62,7 @@ FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses"
 INNER JOIN (
     SELECT "GmPseudo", MAX("Snapshot") AS LatestSnapshot
     FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p 
-	WHERE DATEDIFF(YEAR, TO_DATE("DateOfBirth"), $StudyStartDate) >= 18 -- adults only
+	WHERE DATEDIFF(YEAR, TO_DATE("DateOfBirth"), $StudyEndDate) >= 18 -- adults only
     GROUP BY "GmPseudo"
     ) t2
 ON t2."GmPseudo" = p."GmPseudo" AND t2.LatestSnapshot = p."Snapshot";
@@ -104,7 +103,6 @@ WHERE
     (Death."DEATHDATE" IS NULL OR Death."DEATHDATE" > $StudyStartDate) -- alive on study start date
 	AND 
 	(l."leftGMDate" IS NULL OR l."leftGMDate" > $StudyEndDate); -- if patient left GM (therefore we stop receiving their data), ensure it is after study end date
- 
 
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_03_Kontopantelis" (
@@ -125,8 +123,8 @@ GROUP BY "GmPseudo", "FK_Patient_ID";
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-1_Patients_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-1_Patients_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-1_Patients_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-1_Patients_WITH_IDENTIFIER" AS
 SELECT 
 	cohort."GmPseudo",
 	"Sex",
@@ -146,7 +144,7 @@ QUALIFY row_number() OVER (PARTITION BY alive."GmPseudo" ORDER BY "Snapshot" DES
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_03_Kontopantelis";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_03_Kontopantelis" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-1_Patients_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-1_Patients_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_03_Kontopantelis";
 
@@ -172,4 +170,4 @@ DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-1_Patients";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-1_Patients" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_03_Kontopantelis("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-1_Patients_WITH_PSEUDO_IDS";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-1_Patients_WITH_IDENTIFIER";
