@@ -1,14 +1,11 @@
 
---┌─────────────────────────────────────────────────────────────────┐
---│ Create table of patients who were alive at the study start date │
---└─────────────────────────────────────────────────────────────────┘
+--┌───────────────────────────┐
+--│ Create table of patients  │
+--└───────────────────────────┘
 
 -- ** any patients opted out of sharing GP data would not appear in the final table
 
 -- this script requires an input of StudyStartDate
-
--- takes one parameter: 
--- minimum-age : integer - The minimum age of the group of patients. Typically this would be 0 (all patients) or 18 (all adults)
 
 --ALL DEATHS 
 
@@ -37,7 +34,6 @@ FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses"
 INNER JOIN (
     SELECT "GmPseudo", MAX("Snapshot") AS LatestSnapshot
     FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p 
-	WHERE DATEDIFF(YEAR, TO_DATE("DateOfBirth"), $StudyStartDate) >= {param:minimum-age} -- adults only
     GROUP BY "GmPseudo"
     ) t2
 ON t2."GmPseudo" = p."GmPseudo" AND t2.LatestSnapshot = p."Snapshot";
@@ -65,17 +61,18 @@ from PatientSummary;
 
 -- FIND ALL ADULT PATIENTS ALIVE AT STUDY START DATE
 
-DROP TABLE IF EXISTS AlivePatientsAtStart;
-CREATE TEMPORARY TABLE AlivePatientsAtStart AS 
+DROP TABLE IF EXISTS GPRegPatients;
+CREATE TEMPORARY TABLE GPRegPatients AS 
 SELECT  
     dem.*, 
     Death."DEATHDATE" AS "DeathDate",
 	l."leftGMDate"
 FROM LatestSnapshot dem
 LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
-LEFT JOIN leftGMDate l ON l."GmPseudo" = dem."GmPseudo"
-WHERE 
-    (Death."DEATHDATE" IS NULL OR Death."DEATHDATE" > $StudyStartDate) -- alive on study start date
-	AND 
-	(l."leftGMDate" IS NULL OR l."leftGMDate" > $StudyEndDate); -- if patient left GM (therefore we stop receiving their data), ensure it is after study end date
- 
+LEFT JOIN leftGMDate l ON l."GmPseudo" = dem."GmPseudo";
+
+ -- study teams can be provided with 'leftGMDate' to deal with themselves, or we can filter out
+ -- those that left within the study period, by applying the filter in the patient file
+
+ -- study teams can be provided with 'DeathDate' to deal with themselves, or we can filter out
+ -- those that died before the study started, by applying the filter in the patient file
