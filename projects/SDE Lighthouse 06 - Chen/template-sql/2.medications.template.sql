@@ -51,7 +51,7 @@ FROM prescriptions p;
 {{create-output-table::"LH006-2_Medications"}}
 SELECT "GmPseudo",
 	YEAR("MedicationDate") AS "Year",
-    MONTH("MedicationDate") AS "Month",
+    --MONTH("MedicationDate") AS "Month",
 	SUM("Benzodiazepine") AS "Benzodiazepines",
 	SUM("Gabapentinoid") AS "Gabapentinoids",
 	SUM("Nsaid") AS "Nsaids",
@@ -59,8 +59,8 @@ SELECT "GmPseudo",
 	SUM("Antidepressant") AS "Antidepressants"
 FROM prescriptions1
 GROUP BY "GmPseudo",
-	YEAR("MedicationDate"),
-    MONTH("MedicationDate")
+	YEAR("MedicationDate")
+    --,MONTH("MedicationDate")
 ORDER BY 
-	YEAR("MedicationDate"),
-    MONTH("MedicationDate");
+	YEAR("MedicationDate");
+    --,MONTH("MedicationDate");

@@ -34,7 +34,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.
 This project required the following reusable queries:
 
 - Cohort matching on year of birth / sex
-- Create table of patients who were alive at the study start date
+- Create table of patients
 
 Further details for each query can be found below.
 
@@ -43,18 +43,10 @@ To take a primary cohort and find a 1:n matched cohort based on year of birth an
 
 _Input_
 ```
-Takes two parameters
+Takes three parameters
   - yob-flex: integer - number of years each way that still allow a year of birth match
+  - diagyear-flex: integer - number of years each way that still allows matching on diagnosis year
   - num-matches: integer - number of matches for each patient in the cohort
- Requires two temp tables to exist as follows:
- MainCohort (FK_Patient_Link_ID, Sex, YearOfBirth)
- 	- FK_Patient_Link_ID - unique patient id
-	- Sex - M/F
-	- YearOfBirth - Integer
- PotentialMatches (FK_Patient_Link_ID, Sex, YearOfBirth)
- 	- FK_Patient_Link_ID - unique patient id
-	- Sex - M/F
-	- YearOfBirth - Integer
 ```
 
 _Output_
@@ -67,12 +59,12 @@ A temp table as follows:
   - MatchingPatientId - id of the matched patient
   - MatchingYearOfBirth - year of birth of the matched patient
 ```
-_File_: `query-cohort-matching-yob-sex-diagnosis.sql`
+_File_: `query-cohort-matching-yob-sex-diagnosisyear-replacement.sql`
 
-_Link_: [https://github.com/rw251/.../query-cohort-matching-yob-sex-diagnosis.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-diagnosis.sql)
+_Link_: [https://github.com/rw251/.../query-cohort-matching-yob-sex-diagnosisyear-replacement.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-diagnosisyear-replacement.sql)
 
 ---
-### Create table of patients who were alive at the study start date
+### Create table of patients
 undefined
 
 _Input_

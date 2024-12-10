@@ -66,8 +66,6 @@ WHERE cs.concept IN ('cognitive-impairment', 'hot-flash', 'irregular-periods',
 
 
 -- final table
--- some codes appear in multiple code sets (e.g. back pain appearing in the more speciifc 'back-pain' and the more broad 'chronic-pain'), 
--- so we're using sum case when statements to reduce the number of rows but indicate which code sets each code belongs to.
 
 
 -- ... processing [[create-output-table::"LH009-3_DiagnosesAndSymptoms"]] ... 

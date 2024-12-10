@@ -19,7 +19,17 @@
 set(StudyStartDate) = to_date('2015-03-01');
 set(StudyEndDate)   = to_date('2022-03-31');
 
---> EXECUTE query-get-possible-patients.sql minimum-age:18
+
+--> EXECUTE query-get-possible-patients.sql
+
+DROP TABLE IF EXISTS PatientsToInclude;
+CREATE TEMPORARY TABLE PatientsToInclude AS
+SELECT *
+FROM GPRegPatients 
+WHERE ("DeathDate" IS NULL OR "DeathDate" > $StudyStartDate) -- alive on study start date
+	AND 
+	("leftGMDate" IS NULL OR "leftGMDate" > $StudyEndDate) -- don't include patients who left GM mid study (as we lose their data)
+	AND DATEDIFF(YEAR, "DateOfBirth", $StudyStartDate) >= 18;   -- over 50 in 2016
 
 --> CODESET diffuse-large-b-cell-lymphoma:1 hodgkin-lymphoma:1 malignant-lymphoma:1
 
@@ -226,14 +236,14 @@ LEFT OUTER JOIN "PatsWithDLBCL" DLBCL ON DLBCL."GmPseudo" = p."GmPseudo"
 LEFT OUTER JOIN "GPPatsWithDLBCL" GPDLBCL ON GPDLBCL."FK_Patient_ID" = p."FK_Patient_ID"
 LEFT OUTER JOIN "PatsWithML" ML ON ML."FK_Patient_ID" = p."FK_Patient_ID"
 LEFT OUTER JOIN "PatsWithLymphomaAPC" MLAPC ON MLAPC."GmPseudo" = p."GmPseudo"
-WHERE p."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
+WHERE p."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM PatientsToInclude)
 	AND p."GmPseudo" NOT IN (SELECT "GmPseudo" FROM MainCohort)
 	AND p."GmPseudo" IN (SELECT "GmPseudo" FROM "LymphomaPatients")
 QUALIFY row_number() OVER (PARTITION BY p."GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot
 
 -- run matching script with parameters filled in
 
---> EXECUTE query-cohort-matching-yob-sex-diagnosis.sql yob-flex:2 num-matches:3
+--> EXECUTE query-cohort-matching-yob-sex-diagnosisyear-replacement.sql yob-flex:2 num-matches:3 diagyear-flex:5
 
 
 -- Get the matched cohort detail - same as main cohort
@@ -251,7 +261,8 @@ SELECT
   pm."FirstAdmissionDLBCL", 
   pm."FirstDiagnosisDLBCL",
   pm."FirstDiagnosisMalignantLymphoma",
-  pm."FirstAdmissionLymphoma"
+  pm."FirstAdmissionLymphoma",
+  pm.Diagnosis
 FROM CohortStore c
 LEFT OUTER JOIN PotentialMatches pm ON pm."GmPseudo" = c.MatchingPatientId;
 
@@ -264,6 +275,7 @@ SELECT
 	 D."Snapshot",
      NULL AS "MainCohortMatchedGmPseudo",
      m.Sex AS "Sex",
+	 m.Diagnosis,
      D."DateOfBirth" AS "YearAndMonthOfBirth",
 	 m.EthnicCategory AS "EthnicCategory",
 	 LSOA11 AS "LSOA11", 
@@ -286,7 +298,7 @@ SELECT
     m."FirstAdmissionLymphoma"
 FROM MainCohort m
 LEFT OUTER JOIN Death dth ON dth."GmPseudo" = m."GmPseudo"
-LEFT OUTER JOIN AlivePatientsAtStart D on D."GmPseudo" = m."GmPseudo"
+LEFT OUTER JOIN PatientsToInclude D on D."GmPseudo" = m."GmPseudo"
 QUALIFY row_number() OVER (PARTITION BY D."GmPseudo" ORDER BY D."Snapshot" DESC) = 1 -- this brings back the values from the most recent snapshot
 UNION
 SELECT
@@ -294,6 +306,7 @@ SELECT
 	 D."Snapshot",
 	 PatientWhoIsMatched AS "MainCohortMatchedGmPseudo", 
      m.Sex AS "Sex",
+	 m.Diagnosis,
      D."DateOfBirth" AS "YearAndMonthOfBirth",
 	 D."EthnicityLatest_Category" AS "EthnicCategory",
 	 LSOA11 AS "LSOA11", 
@@ -316,7 +329,7 @@ SELECT
      m."FirstAdmissionLymphoma"
 FROM MatchedCohort m
 LEFT OUTER JOIN Death dth ON dth."GmPseudo" = m."GmPseudo"
-LEFT OUTER JOIN AlivePatientsAtStart D on D."GmPseudo" = m."GmPseudo"
+LEFT OUTER JOIN PatientsToInclude D on D."GmPseudo" = m."GmPseudo"
 QUALIFY row_number() OVER (PARTITION BY D."GmPseudo" ORDER BY D."Snapshot" DESC) = 1 -- this brings back the values from the most recent snapshot
 ;
 

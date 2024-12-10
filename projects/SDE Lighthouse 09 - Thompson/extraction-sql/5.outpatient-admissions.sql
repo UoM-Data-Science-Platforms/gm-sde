@@ -5,7 +5,6 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --└────────────────────────────────────────────────────────────────────┘
 
 -------- RESEARCH DATA ENGINEER CHECK ------------
-
 --------------------------------------------------
 
 set(StudyStartDate) = to_date('2020-01-01');

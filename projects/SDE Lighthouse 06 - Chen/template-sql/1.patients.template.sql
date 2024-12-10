@@ -26,7 +26,16 @@ set(StudyEndDate)   = to_date('2024-10-31');
 
 --> CODESET chronic-pain:1 cancer:1
 
---> EXECUTE query-get-possible-patients.sql minimum-age:18
+--> EXECUTE query-get-possible-patients.sql
+
+DROP TABLE IF EXISTS PatientsToInclude;
+CREATE TEMPORARY TABLE PatientsToInclude AS
+SELECT 
+FROM GPRegPatients 
+WHERE ("DeathDate" IS NULL OR "DeathDate" > $StudyStartDate) -- alive on study start date
+	AND 
+	("leftGMDate" IS NULL OR "leftGMDate" > $StudyEndDate) -- don't include patients who left GM mid study (as we lose their data)
+	AND DATEDIFF(YEAR, "DateOfBirth", $StudyStartDate) >= 18; -- OVER 18s ONLY
 
 -- find patients with chronic pain
 
@@ -36,7 +45,7 @@ SELECT "FK_Patient_ID", to_date("EventDate") AS "EventDate"
 FROM  INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
 WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept = 'chronic-pain' AND Version = 1) 
 AND "EventDate" BETWEEN $StudyStartDate and $StudyEndDate
-AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart); -- only include alive patients at study start
+AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM PatientsToInclude); -- only include alive patients at study start
 
 -- find first chronic pain code in the study period 
 DROP TABLE IF EXISTS FirstPain;
@@ -58,7 +67,7 @@ INNER JOIN FirstPain fp ON fp."FK_Patient_ID" = e."FK_Patient_ID"
 				AND e."EventDate" BETWEEN DATEADD(year, 1, FirstPainCodeDate) AND DATEADD(year, -1, FirstPainCodeDate)
 WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept = 'cancer' AND Version = 1)
 AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM chronic_pain) --only look in patients with chronic pain
-AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart); -- only include alive patients at study start 
+AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM PatientsToInclude); -- only include alive patients at study start 
 
 
 -- find patients in the chronic pain cohort who received more than 2 opioids
@@ -125,7 +134,7 @@ SELECT
 	 dem."IMD_Decile" AS "IMDDecile",
 	 dem."EthnicityLatest_Category",
 	 dem."PracticeCode", 
-	 DATE_TRUNC(month, dth."DeathDate") AS "DeathYearAndMonth"
+	 DATE_TRUNC(month, dth.DeathDate) AS "DeathYearAndMonth",
      dth."DiagnosisOriginalMentionCode" AS "ReasonForDeathCode",
      dth."DiagnosisOriginalMentionDesc" AS "ReasonForDeathDesc",
 	 co.IndexDate AS "IndexDate"

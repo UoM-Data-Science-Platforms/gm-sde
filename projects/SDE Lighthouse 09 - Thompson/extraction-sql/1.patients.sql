@@ -10,16 +10,13 @@ set(StudyStartDate) = to_date('2020-01-01');
 set(StudyEndDate)   = to_date('2024-10-31');
 
 
---┌─────────────────────────────────────────────────────────────────┐
---│ Create table of patients who were alive at the study start date │
---└─────────────────────────────────────────────────────────────────┘
+--┌───────────────────────────┐
+--│ Create table of patients  │
+--└───────────────────────────┘
 
 -- ** any patients opted out of sharing GP data would not appear in the final table
 
 -- this script requires an input of StudyStartDate
-
--- takes one parameter: 
--- minimum-age : integer - The minimum age of the group of patients. Typically this would be 0 (all patients) or 18 (all adults)
 
 --ALL DEATHS 
 
@@ -48,7 +45,6 @@ FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses"
 INNER JOIN (
     SELECT "GmPseudo", MAX("Snapshot") AS LatestSnapshot
     FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p 
-	WHERE DATEDIFF(YEAR, TO_DATE("DateOfBirth"), $StudyStartDate) >= 18 -- adults only
     GROUP BY "GmPseudo"
     ) t2
 ON t2."GmPseudo" = p."GmPseudo" AND t2.LatestSnapshot = p."Snapshot";
@@ -76,29 +72,39 @@ from PatientSummary;
 
 -- FIND ALL ADULT PATIENTS ALIVE AT STUDY START DATE
 
-DROP TABLE IF EXISTS AlivePatientsAtStart;
-CREATE TEMPORARY TABLE AlivePatientsAtStart AS 
+DROP TABLE IF EXISTS GPRegPatients;
+CREATE TEMPORARY TABLE GPRegPatients AS 
 SELECT  
     dem.*, 
     Death."DEATHDATE" AS "DeathDate",
 	l."leftGMDate"
 FROM LatestSnapshot dem
 LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
-LEFT JOIN leftGMDate l ON l."GmPseudo" = dem."GmPseudo"
-WHERE 
-    (Death."DEATHDATE" IS NULL OR Death."DEATHDATE" > $StudyStartDate) -- alive on study start date
+LEFT JOIN leftGMDate l ON l."GmPseudo" = dem."GmPseudo";
+
+ -- study teams can be provided with 'leftGMDate' to deal with themselves, or we can filter out
+ -- those that left within the study period, by applying the filter in the patient file
+
+ -- study teams can be provided with 'DeathDate' to deal with themselves, or we can filter out
+ -- those that died before the study started, by applying the filter in the patient file
+
+
+DROP TABLE IF EXISTS PatientsToInclude;
+CREATE TEMPORARY TABLE PatientsToInclude AS
+SELECT 
+FROM GPRegPatients 
+WHERE ("DeathDate" IS NULL OR "DeathDate" > $StudyStartDate) -- alive on study start date
 	AND 
-	(l."leftGMDate" IS NULL OR l."leftGMDate" > $StudyEndDate); -- if patient left GM (therefore we stop receiving their data), ensure it is after study end date
- 
+	("leftGMDate" IS NULL OR "leftGMDate" > $StudyEndDate) -- don't include patients who left GM mid study (as we lose their data)
+	AND DATEDIFF(YEAR, "DateOfBirth", $StudyStartDate) BETWEEN 30 AND 70;   -- 30 to 70 in 2016
 
 -- GET COHORT OF WOMEN 30 - 70 YEARS OLD
 
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_09_Thompson";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_09_Thompson" AS 
 SELECT DISTINCT "GmPseudo", "FK_Patient_ID" 
-FROM AlivePatientsAtStart ap
-WHERE DATEDIFF(YEAR, "DateOfBirth",$StudyStartDate) BETWEEN 30 AND 70  -- over 50 in 2016
-	AND "Sex" = 'F';
+FROM PatientsToInclude ap
+	WHERE "Sex" = 'F'; --females only
 
 -- FOR THE ABOVE COHORT, GET ALL REQUIRED DEMOGRAPHICS
 

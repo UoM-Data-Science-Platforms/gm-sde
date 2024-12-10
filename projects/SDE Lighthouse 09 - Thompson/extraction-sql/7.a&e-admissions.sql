@@ -4,7 +4,8 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --│ SDE Lighthouse study 09 - Thompson - A&E Encounters         │
 --└────────────────────────────────────────────────────────────┘
 
--------- RESEARCH DATA ENGINEER CHECK ---------
+-------- RESEARCH DATA ENGINEER CHECK ------------
+--------------------------------------------------
 
 set(StudyStartDate) = to_date('2020-01-01');
 set(StudyEndDate)   = to_date('2024-10-31');

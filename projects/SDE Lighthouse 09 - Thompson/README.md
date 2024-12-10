@@ -33,11 +33,11 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
-- Create table of patients who were alive at the study start date
+- Create table of patients
 
 Further details for each query can be found below.
 
-### Create table of patients who were alive at the study start date
+### Create table of patients
 undefined
 
 _Input_
