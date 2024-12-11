@@ -326,33 +326,32 @@ QUALIFY row_number() OVER (PARTITION BY p."GmPseudo" ORDER BY "Snapshot" DESC) =
 -- run matching script with parameters filled in
 
 --┌────────────────────────────────────────────────────┐
---│ Cohort matching on year of birth / sex 					   │
+--│ Cohort matching on year of birth / sex / diagnosis │
 --└────────────────────────────────────────────────────┘
 
--- OBJECTIVE: To take a primary cohort and find a 1:n matched cohort based on year of birth and sex.
+-- OBJECTIVE: To take a primary cohort and find a 1:n matched cohort based on year of birth, sex and diagnosis.
 
--- INPUT: Takes three parameters
+-- INPUT: Takes two parameters
 --  - yob-flex: integer - number of years each way that still allow a year of birth match
---  - diagyear-flex: integer - number of years each way that still allows matching on diagnosis year
 --  - num-matches: integer - number of matches for each patient in the cohort
-
 -- Requires two temp tables to exist as follows:
 -- MainCohort (FK_Patient_Link_ID, Sex, YearOfBirth)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- Sex - M/F
 --	- YearOfBirth - Integer
---  - DiagnosisYear - Integer
+--  - Diagnosis - varchar
 -- PotentialMatches (FK_Patient_Link_ID, Sex, YearOfBirth)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- Sex - M/F
 --	- YearOfBirth - Integer
---  - DiagnosisYear - Integer
+--  - Diagnosis - varchar
 
 -- OUTPUT: A temp table as follows:
 -- #CohortStore (FK_Patient_Link_ID, YearOfBirth, Sex, MatchingPatientId, MatchingYearOfBirth)
 --  - FK_Patient_Link_ID - unique patient id for primary cohort patient
 --  - YearOfBirth - of the primary cohort patient
 --  - Sex - of the primary cohort patient
+--  - Diagnosis - diagnosis of patient
 --  - MatchingPatientId - id of the matched patient
 --  - MatchingYearOfBirth - year of birth of the matched patient
 
@@ -372,9 +371,10 @@ CREATE TEMPORARY TABLE Cases AS
 SELECT "GmPseudo" AS PatientId, 
 	YearOfBirth, 
 	Sex, 
-	DiagnosisYear,
-	Row_Number() OVER(PARTITION BY YearOfBirth, Sex, DiagnosisYear ORDER BY "GmPseudo") AS CaseRowNumber
+	Diagnosis,
+		Row_Number() OVER(PARTITION BY YearOfBirth, Sex, Diagnosis ORDER BY "GmPseudo") AS CaseRowNumber
 FROM MainCohort;
+
 
 -- Then we do the same with the PotentialMatches table
 DROP TABLE IF EXISTS Matches;
@@ -382,18 +382,18 @@ CREATE TEMPORARY TABLE Matches AS
 SELECT "GmPseudo" AS PatientId, 
 	YearOfBirth, 
 	Sex, 
-	DiagnosisYear,
-	Row_Number() OVER(PARTITION BY YearOfBirth, Sex, DiagnosisYear ORDER BY "GmPseudo") AS AssignedPersonNumber
+	Diagnosis,
+	Row_Number() OVER(PARTITION BY YearOfBirth, Sex, Diagnosis ORDER BY "GmPseudo") AS AssignedPersonNumber
 FROM PotentialMatches;
 
 -- Find the number of people with each characteristic in the main cohort
 DROP TABLE IF EXISTS CharacteristicCount;
 CREATE TEMPORARY TABLE CharacteristicCount AS
-SELECT YearOfBirth, Sex, DiagnosisYear, COUNT(*) AS "Count" 
+SELECT YearOfBirth, Sex, Diagnosis, COUNT(*) AS "Count" 
 FROM Cases 
-GROUP BY YearOfBirth, Sex, DiagnosisYear;
+GROUP BY YearOfBirth, Sex, Diagnosis;
 
--- Find the number of potential matches for each Age/Sex/DiagYear combination
+-- Find the number of potential matches for each Age/Sex combination
 -- The output of this is useful for seeing how many matches you can get
 -- SELECT A.YearOfBirth, A.Sex, B.Count / A.Count AS NumberOfPotentialMatchesPerCohortPatient FROM (SELECT * FROM #CharacteristicCount) A LEFT OUTER JOIN (SELECT YearOfBirth, Sex, COUNT(*) AS [Count] FROM #Matches GROUP BY YearOfBirth, Sex) B ON B.YearOfBirth = A.YearOfBirth AND B.Sex = A.Sex ORDER BY NumberOfPotentialMatches,A.YearOfBirth,A.Sex;
 
@@ -404,19 +404,18 @@ CREATE TEMPORARY TABLE CohortStore (
   PatientId BIGINT, 
   YearOfBirth INT, 
   Sex nchar(1), 
-  DiagnosisYear INT,
+  Diagnosis varchar(50),
   MatchingPatientId BIGINT,
-  MatchingYearOfBirth INT,
-  MatchingDiagnosisYear INT
+  MatchingYearOfBirth INT
 );
 
 --1. First match try to match people exactly. We do this as follows:
---    - For each YOB/Sex combination we find all potential matches. E.g. all patients
---      in the potential matches with sex='F' and yob=1957 and DiagYear = 1999
---    - We then try to assign a single match to all cohort members with sex='F' and yob=1957 and DiagYear = 1999
---    - If there are still matches unused, we then assign a second match to all cohort members
---    - This continues until we either run out of matches, or successfully match everyone with
---      the desired number of matches.
+--    - For each YOB/Sex/Diagnosis combination we find all potential matches. E.g. all patients
+--    - in the potential matches with sex='F' and yob=1957 and Diagnosis = 'White British'
+--    - We then try to assign a single match to all cohort members with sex='F' and yob=1957 and
+--    - Diagnosis = 'White British'. If there are still matches unused, we then assign
+--    - a second match to all cohort members. This continues until we either run out of matches,
+--    - or successfully match everyone with the desired number of matches.
 
 DECLARE 
     counter INT;
@@ -427,19 +426,19 @@ BEGIN
     WHILE (counter <= 3) DO 
     
         INSERT INTO CohortStore
-          SELECT c.PatientId, c.YearOfBirth, c.Sex, c.DiagnosisYear, p.PatientId AS MatchedPatientId, c.YearOfBirth, c.DiagnosisYear
+          SELECT c.PatientId, c.YearOfBirth, c.Sex, c.Diagnosis, p.PatientId AS MatchedPatientId, c.YearOfBirth
           FROM Cases c
-            INNER JOIN CharacteristicCount cc on cc.YearOfBirth = c.YearOfBirth and cc.Sex = c.Sex and cc.DiagnosisYear = c.DiagnosisYear
+            INNER JOIN CharacteristicCount cc on cc.YearOfBirth = c.YearOfBirth and cc.Sex = c.Sex and cc.Diagnosis = c.Diagnosis
             INNER JOIN Matches p 
               ON p.Sex = c.Sex 
               AND p.YearOfBirth = c.YearOfBirth 
-			  AND p.DiagnosisYear = c.DiagnosisYear
+			  AND p.Diagnosis = c.Diagnosis
               -- This next line is the trick to only matching each person once
-              --AND p.AssignedPersonNumber = CaseRowNumber + (:counter - 1) * cc."Count";
+              AND p.AssignedPersonNumber = CaseRowNumber + (:counter - 1) * cc."Count";
               
            -- We might not need this, but to be extra sure let's delete any patients who 
            -- we're already using to match people
-           --DELETE FROM Matches WHERE PatientId IN (SELECT MatchingPatientId FROM CohortStore);
+           DELETE FROM Matches WHERE PatientId IN (SELECT MatchingPatientId FROM CohortStore);
         
         counter := counter + 1; 
         
@@ -447,7 +446,7 @@ BEGIN
 
 END; 
 
---2. Now relax the yob and diagYear restriction to get extra matches for people with no matches
+--2. Now relax the yob restriction to get extra matches for people with no matches
 
 DECLARE 
     lastrowinsert1 INT;
@@ -460,39 +459,37 @@ BEGIN
     CohortStoreRowsAtStart1 := (SELECT COUNT(*) FROM CohortStore);
     
 		INSERT INTO CohortStore
-		SELECT sub.PatientId, sub.YearOfBirth, sub.Sex, sub.DiagnosisYear, MatchedPatientId, MAX(m.YearOfBirth), MAX(m.DiagnosisYear) FROM (
-		SELECT c.PatientId, c.YearOfBirth, c.Sex, c.DiagnosisYear, MAX(p.PatientId) AS MatchedPatientId, Row_Number() OVER(PARTITION BY MAX(p.PatientId) ORDER BY p.PatientId) AS AssignedPersonNumber
+		SELECT sub.PatientId, sub.YearOfBirth, sub.Sex, sub.Diagnosis, MatchedPatientId, MAX(m.YearOfBirth) FROM (
+		SELECT c.PatientId, c.YearOfBirth, c.Sex, c.Diagnosis, MAX(p.PatientId) AS MatchedPatientId, Row_Number() OVER(PARTITION BY MAX(p.PatientId) ORDER BY p.PatientId) AS AssignedPersonNumber
 		FROM Cases c
 		INNER JOIN Matches p 
 			ON p.Sex = c.Sex 
+			AND p.Diagnosis = c.Diagnosis 
 			AND p.YearOfBirth >= c.YearOfBirth - 2
 			AND p.YearOfBirth <= c.YearOfBirth + 2
-			AND p.DiagnosisYear >= c.DiagnosisYear - 5
-			AND p.DiagnosisYear <= c.DiagnosisYear + 5
-		--WHERE c.PatientId in (
+		WHERE c.PatientId in (
 			-- find patients who aren't currently matched
-			--select PatientId from Cases except select PatientId from CohortStore
+			select PatientId from Cases except select PatientId from CohortStore
 		)
-		GROUP BY c.PatientId, c.YearOfBirth, c.Sex, c.DiagnosisYear, p.PatientId) sub
+		GROUP BY c.PatientId, c.YearOfBirth, c.Sex, c.Diagnosis, p.PatientId) sub
 		INNER JOIN Matches m 
 			ON m.Sex = sub.Sex 
+			AND m.Diagnosis = sub.Diagnosis 
 			AND m.PatientId = sub.MatchedPatientId
 			AND m.YearOfBirth >= sub.YearOfBirth - 2
 			AND m.YearOfBirth <= sub.YearOfBirth + 2
-			AND m.DiagnosisYear >= sub.DiagnosisYear - 5
-			AND m.DiagnosisYear <= sub.DiagnosisYear + 5
 		WHERE sub.AssignedPersonNumber = 1
-		GROUP BY sub.PatientId, sub.YearOfBirth, sub.Sex, sub.DiagnosisYear, MatchedPatientId;
+		GROUP BY sub.PatientId, sub.YearOfBirth, sub.Sex, sub.Diagnosis, MatchedPatientId;
 
         lastrowinsert1 := CohortStoreRowsAtStart1 - (SELECT COUNT(*) FROM CohortStore);
 
-		--DELETE FROM Matches WHERE PatientId IN (SELECT MatchingPatientId FROM CohortStore);
+		DELETE FROM Matches WHERE PatientId IN (SELECT MatchingPatientId FROM CohortStore);
 
 	END WHILE;
 
 END;
 
---3. Now relax the yob and diagyear restriction to get extra matches for people with only 1, 2, 3, ... n-1 matches
+--3. Now relax the yob restriction to get extra matches for people with only 1, 2, 3, ... n-1 matches
 
 DECLARE
     Counter2 INT;
@@ -514,11 +511,9 @@ BEGIN
                 FROM Matches p
                 INNER JOIN Cases c
                   ON p.Sex = c.Sex 
+				  AND p.Diagnosis = c.Diagnosis 
                   AND p.YearOfBirth >= c.YearOfBirth - 2
                   AND p.YearOfBirth <= c.YearOfBirth + 2
-				  AND p.DiagnosisYear >= c.DiagnosisYear - 5
-			      AND p.DiagnosisYear <= c.DiagnosisYear + 5
-
                 WHERE c.PatientId IN (
                   -- find patients who only have @Counter2 matches
                   SELECT PatientId FROM CohortStore GROUP BY PatientId HAVING count(*) = :Counter2
@@ -531,14 +526,14 @@ BEGIN
                 WHERE MatchedPatientNumber = 1;
                 
                 INSERT INTO CohortStore
-                SELECT s.PatientId, c.YearOfBirth, c.Sex, c.DiagnosisYear, MatchedPatientId, m.YearOfBirth, m.DiagnosisYear FROM CohortPatientForEachMatchingPatientWithCohortNumbered s
+                SELECT s.PatientId, c.YearOfBirth, c.Sex, c.Diagnosis, MatchedPatientId, m.YearOfBirth FROM CohortPatientForEachMatchingPatientWithCohortNumbered s
                 LEFT OUTER JOIN Cases c ON c.PatientId = s.PatientId
                 LEFT OUTER JOIN Matches m ON m.PatientId = MatchedPatientId
                 WHERE PatientNumber = 1;
             
                 lastrowinsert := CohortStoreRowsAtStart - (SELECT COUNT(*) FROM CohortStore);
             
-                --DELETE FROM Matches WHERE PatientId IN (SELECT MatchingPatientId FROM CohortStore);
+                DELETE FROM Matches WHERE PatientId IN (SELECT MatchingPatientId FROM CohortStore);
                 
             END WHILE;
   
@@ -546,6 +541,48 @@ BEGIN
     END WHILE;
 END;
 
+-- 4. Now attempt to match any patients with 'unknown' diagnosis
+
+
+DECLARE 
+    lastrowinsert3 INT;
+    CohortStoreRowsAtStart3 INT;
+
+BEGIN 
+    lastrowinsert3 := 1; 
+    
+    WHILE (lastrowinsert3 > 0) DO 
+    CohortStoreRowsAtStart3 := (SELECT COUNT(*) FROM CohortStore);
+    
+		INSERT INTO CohortStore
+		SELECT sub.PatientId, sub.YearOfBirth, sub.Sex, sub.Diagnosis, MatchedPatientId, MAX(m.YearOfBirth) FROM (
+		SELECT c.PatientId, c.YearOfBirth, c.Sex, c.Diagnosis, MAX(p.PatientId) AS MatchedPatientId, Row_Number() OVER(PARTITION BY MAX(p.PatientId) ORDER BY p.PatientId) AS AssignedPersonNumber
+		FROM Cases c
+		INNER JOIN Matches p 
+			ON p.Sex = c.Sex 
+			AND c.Diagnosis = 'unknown' -- match those with unknown diag to any patient with similar YOB/Sex
+			AND p.YearOfBirth >= c.YearOfBirth - 2
+			AND p.YearOfBirth <= c.YearOfBirth + 2
+		WHERE c.PatientId in (
+			-- find patients who aren't currently matched
+			select PatientId from Cases except select PatientId from CohortStore
+		)
+		GROUP BY c.PatientId, c.YearOfBirth, c.Sex, c.Diagnosis, p.PatientId) sub
+		INNER JOIN Matches m 
+			ON m.Sex = sub.Sex 
+			AND sub.Diagnosis = 'unknown' -- match those with unknown diag to any patient with similar YOB/Sex			AND m.PatientId = sub.MatchedPatientId
+			AND m.YearOfBirth >= sub.YearOfBirth - 2
+			AND m.YearOfBirth <= sub.YearOfBirth + 2
+		WHERE sub.AssignedPersonNumber = 1
+		GROUP BY sub.PatientId, sub.YearOfBirth, sub.Sex, sub.Diagnosis, MatchedPatientId;
+
+        lastrowinsert3 := CohortStoreRowsAtStart3 - (SELECT COUNT(*) FROM CohortStore);
+
+		DELETE FROM Matches WHERE PatientId IN (SELECT MatchingPatientId FROM CohortStore);
+
+	END WHILE;
+
+END;
 
 
 -- Get the matched cohort detail - same as main cohort
@@ -555,8 +592,10 @@ SELECT
   c.MatchingPatientId AS "GmPseudo",
   c.YearOfBirth,
   c.Sex,
+  pm.Diagnosis,
   c.MatchingYearOfBirth,
   c.PatientId AS PatientWhoIsMatched,
+  c.Diagnosis AS MatchingDiagnosis,
   pm."FK_Patient_ID",
   pm."FirstAdmissionHodgkin", 
   pm."FirstDiagnosisHodgkin", 
@@ -564,9 +603,12 @@ SELECT
   pm."FirstDiagnosisDLBCL",
   pm."FirstDiagnosisMalignantLymphoma",
   pm."FirstAdmissionLymphoma",
-  pm.Diagnosis
+  --row_number() over (partition by c.PatientId order by square(c.YearOfBirth - c.MatchingYearOfBirth)) as matchingPriority
 FROM CohortStore c
 LEFT OUTER JOIN PotentialMatches pm ON pm."GmPseudo" = c.MatchingPatientId;
+QUALIFY row_number() over 																		--for the cases where there are more than 3 matches
+		(partition by c.PatientId order by square(c.YearOfBirth - c.MatchingYearOfBirth)) <= 3; --limit it to 3, based on closest YOB match
+
 
 
 -- create final cohort table by combining main and matched cohort
@@ -686,15 +728,26 @@ FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-1_Patients_WITH_IDENTIFIER";
 -- combine the main cohort, matched cohort, and any ADAPT patients that didn't have demographic
 -- info so we couldn't match them
 
+
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_15_Radford_Adapt";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_15_Radford_Adapt" AS 
 SELECT 
-	 m."GmPseudo"
+	 m."GmPseudo",
+     D."FK_Patient_ID"
 FROM MainCohort m
+-- 378 ADAPT patients with GP record so we can match 
+LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D on D."GmPseudo" = m."GmPseudo"
 UNION
 SELECT
- 	 m."GmPseudo"
+ 	 m."GmPseudo",
+     D."FK_Patient_ID"
 FROM MatchedCohort m
+LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D on D."GmPseudo" = m."GmPseudo"
+-- around 1,100 matched patients
 UNION 
-SELECT "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-0_AdaptPatients_WITH_IDENTIFIER";
+SELECT 
+     m."GmPseudo",
+     D."FK_Patient_ID"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-0_AdaptPatients_WITH_IDENTIFIER" m
+LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D on D."GmPseudo" = m."GmPseudo";
+-- around 300 patients with no GP record

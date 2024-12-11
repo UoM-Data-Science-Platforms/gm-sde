@@ -243,8 +243,7 @@ QUALIFY row_number() OVER (PARTITION BY p."GmPseudo" ORDER BY "Snapshot" DESC) =
 
 -- run matching script with parameters filled in
 
---> EXECUTE query-cohort-matching-yob-sex-diagnosisyear-replacement.sql yob-flex:2 num-matches:3 diagyear-flex:5
-
+--> EXECUTE query-cohort-matching-yob-sex-diagnosis.sql yob-flex:2 num-matches:3
 
 -- Get the matched cohort detail - same as main cohort
 DROP TABLE IF EXISTS MatchedCohort;
@@ -253,8 +252,10 @@ SELECT
   c.MatchingPatientId AS "GmPseudo",
   c.YearOfBirth,
   c.Sex,
+  pm.Diagnosis,
   c.MatchingYearOfBirth,
   c.PatientId AS PatientWhoIsMatched,
+  c.Diagnosis AS MatchingDiagnosis,
   pm."FK_Patient_ID",
   pm."FirstAdmissionHodgkin", 
   pm."FirstDiagnosisHodgkin", 
@@ -262,9 +263,12 @@ SELECT
   pm."FirstDiagnosisDLBCL",
   pm."FirstDiagnosisMalignantLymphoma",
   pm."FirstAdmissionLymphoma",
-  pm.Diagnosis
+  --row_number() over (partition by c.PatientId order by square(c.YearOfBirth - c.MatchingYearOfBirth)) as matchingPriority
 FROM CohortStore c
 LEFT OUTER JOIN PotentialMatches pm ON pm."GmPseudo" = c.MatchingPatientId;
+QUALIFY row_number() over 																		--for the cases where there are more than 3 matches
+		(partition by c.PatientId order by square(c.YearOfBirth - c.MatchingYearOfBirth)) <= 3; --limit it to 3, based on closest YOB match
+
 
 
 -- create final cohort table by combining main and matched cohort
@@ -337,15 +341,26 @@ QUALIFY row_number() OVER (PARTITION BY D."GmPseudo" ORDER BY D."Snapshot" DESC)
 -- combine the main cohort, matched cohort, and any ADAPT patients that didn't have demographic
 -- info so we couldn't match them
 
-DROP TABLE IF EXISTS {{cohort-table}};
-CREATE TABLE {{cohort-table}} AS 
+
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_15_Radford_Adapt";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_15_Radford_Adapt" AS 
 SELECT 
-	 m."GmPseudo"
+	 m."GmPseudo",
+     D."FK_Patient_ID"
 FROM MainCohort m
+-- 378 ADAPT patients with GP record so we can match 
+LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D on D."GmPseudo" = m."GmPseudo"
 UNION
 SELECT
- 	 m."GmPseudo"
+ 	 m."GmPseudo",
+     D."FK_Patient_ID"
 FROM MatchedCohort m
+LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D on D."GmPseudo" = m."GmPseudo"
+-- around 1,100 matched patients
 UNION 
-SELECT "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-0_AdaptPatients_WITH_IDENTIFIER";
+SELECT 
+     m."GmPseudo",
+     D."FK_Patient_ID"
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-0_AdaptPatients_WITH_IDENTIFIER" m
+LEFT OUTER JOIN PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" D on D."GmPseudo" = m."GmPseudo";
+-- around 300 patients with no GP record

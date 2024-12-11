@@ -10,6 +10,9 @@ set(StudyStartDate) = to_date('2022-07-01');
 set(StudyEndDate)   = to_date('2024-10-31');
 
 
+-- The cohort matching for this project currently uses: Sex, YearOfBirth, Ethnicity, and only involves patients 
+-- that have had a new prescription of SSRI, TCA, PPI or Statin)
+
 
 --┌───────────────────────────┐
 --│ Create table of patients  │
@@ -81,7 +84,7 @@ SELECT
 	l."leftGMDate"
 FROM LatestSnapshot dem
 LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
-LEFT JOIN leftGMDate l ON l."GmPseudo" = dem."GmPseudo"
+LEFT JOIN leftGMDate l ON l."GmPseudo" = dem."GmPseudo";
 
  -- study teams can be provided with 'leftGMDate' to deal with themselves, or we can filter out
  -- those that left within the study period, by applying the filter in the patient file
@@ -96,8 +99,8 @@ SELECT
 FROM GPRegPatients 
 WHERE ("DeathDate" IS NULL OR "DeathDate" > $StudyStartDate) -- alive on study start date
 	AND 
-	("leftGMDate" IS NULL OR "leftGMDate" > $StudyEndDate); -- don't include patients who left GM mid study (as we lose their data)
-	AND DATEDIFF(YEAR, "DateOfBirth", $StudyStartDate) >= 18 -- OVER 18s ONLY
+	("leftGMDate" IS NULL OR "leftGMDate" > $StudyEndDate) -- don't include patients who left GM mid study (as we lose their data)
+	AND DATEDIFF(YEAR, "DateOfBirth", $StudyStartDate) >= 18; -- OVER 18s ONLY
 
 -- table of pharmacogenetic test patients
 
@@ -124,53 +127,6 @@ LIMIT 500);
 --- so we build two tables, one for old prescriptions, and one for new
 
 -- build table of new prescriptions 
-
-DROP TABLE IF EXISTS new_prescriptions;
-CREATE TEMPORARY TABLE new_prescriptions AS
-SELECT 
-    ec."FK_Patient_ID"
-	, ec."GmPseudo"
-    , TO_DATE(ec."Date") AS "Date"
-    , ec."SCTID" AS "SnomedCode"
-    , CASE WHEN ec."Field_ID" = 'Statin' THEN "FoundValue" -- statin
-			-- SSRIs
-	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%citalopram%')    THEN 'citalopram'
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%escitalopram%')  THEN 'escitalopram'
-	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%fluvoxamine%')   THEN 'fluvoxamine'
-	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%paroxetine%')    THEN 'paroxetine'
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%sertraline%')    THEN 'sertraline'
-	       WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%venlafaxine%')   THEN 'venlafaxine'
-		   -- tricyclic antidepressants
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%amitriptyline%') THEN 'amitriptyline'
-           WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%clomipramine%')  THEN 'clomipramine'
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%doxepin%')       THEN 'doxepin'
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%imipramine%')    THEN 'imipramine'
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%nortriptyline%') THEN 'nortiptyline'
-		   WHEN ("Cluster_ID" = 'ANTIDEPDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%trimipramine%')  THEN 'trimipramine'
-			-- proton pump inhibitors
-		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%esomeprazole%') THEN 'esomeprazole'
-		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%lansoprazole%') THEN 'lansoprazole'
-		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%omeprazole%')   THEN 'omeprazole'
-		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%pantoprazole%') THEN 'pantoprazole'
-		   WHEN ("Cluster_ID" = 'ULCERHEALDRUG_COD') AND (LOWER("MedicationDescription") LIKE '%rabeprazole%')  THEN 'rabeprazole'
-		   ELSE 'other' END AS "Concept"
-    , ec."MedicationDescription" AS "Description"
-FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec
-WHERE 
-	ec."GmPseudo" NOT IN (SELECT "GmPseudo" FROM PharmacogeneticTable)
-	AND
-	-- Statins
-	(("Field_ID" = 'Statin') OR 
-	-- SSRIs
-	("Field_ID" = 'ANTIDEPDRUG_COD' AND (LOWER("MedicationDescription") LIKE '%citalopram%' OR LOWER("MedicationDescription") LIKE '%escitalopram%' OR LOWER("MedicationDescription") LIKE '%fluvoxamine%' OR LOWER("MedicationDescription") LIKE '%paroxetine%' OR LOWER("MedicationDescription") LIKE '%sertraline%' OR LOWER("MedicationDescription") LIKE '%venlafaxine%')) OR
-	-- tricyclic antidepressants
-	("Field_ID" = 'ANTIDEPDRUG_COD' AND (LOWER("MedicationDescription") LIKE '%amitriptyline%' OR LOWER("MedicationDescription") LIKE '%clomipramine%' OR LOWER("MedicationDescription") LIKE '%doxepin%' OR LOWER("MedicationDescription") LIKE '%imipramine%' OR LOWER("MedicationDescription") LIKE '%nortriptyline%' OR LOWER("MedicationDescription") LIKE '%trimipramine%')) OR
-	-- proton pump inhibitors
-	( "Field_ID" = 'ULCERHEALDRUG_COD' AND (LOWER("MedicationDescription") LIKE '%esomeprazole%' OR LOWER("MedicationDescription") LIKE '%lansoprazole%' OR LOWER("MedicationDescription") LIKE '%omeprazole%' OR LOWER("MedicationDescription") LIKE '%pantoprazole%' OR LOWER("MedicationDescription") LIKE '%rabeprazole%' )) )
-AND TO_DATE(ec."Date") BETWEEN '2023-06-01' and '2025-06-01';
-
--- table of old prescriptions 
---	(we will use this to find patients that weren't prescribed the medication before,but have been prescribed it more recently)
 
 DROP TABLE IF EXISTS new_prescriptions;
 CREATE TEMPORARY TABLE new_prescriptions AS
@@ -331,7 +287,7 @@ SELECT DISTINCT p."GmPseudo",
 FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses" p
 LEFT OUTER JOIN NewPrescriptionsSummary nps ON nps."FK_Patient_ID" = p."FK_Patient_ID"
 LEFT OUTER JOIN OldPrescriptionsSummary ops ON ops."FK_Patient_ID" = p."FK_Patient_ID"
-WHERE p."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM AlivePatientsAtStart)
+WHERE p."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM PatientsToInclude)
 	AND p."GmPseudo" NOT IN (SELECT "GmPseudo" FROM MainCohort)
 	AND "Snapshot" <= '2022-07-01' -- demographic information at closest date to the start of the trial
 	AND ( -- if a patient had no old prescriptions of a med type, but at least one new prescription, then include them

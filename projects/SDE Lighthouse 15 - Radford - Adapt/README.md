@@ -33,20 +33,30 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
-- Cohort matching on year of birth / sex
+- Cohort matching on year of birth / sex / diagnosis
 - Create table of patients
 
 Further details for each query can be found below.
 
-### Cohort matching on year of birth / sex
-To take a primary cohort and find a 1:n matched cohort based on year of birth and sex.
+### Cohort matching on year of birth / sex / diagnosis
+To take a primary cohort and find a 1:n matched cohort based on year of birth, sex and diagnosis.
 
 _Input_
 ```
-Takes three parameters
+Takes two parameters
   - yob-flex: integer - number of years each way that still allow a year of birth match
-  - diagyear-flex: integer - number of years each way that still allows matching on diagnosis year
   - num-matches: integer - number of matches for each patient in the cohort
+ Requires two temp tables to exist as follows:
+ MainCohort (FK_Patient_Link_ID, Sex, YearOfBirth)
+ 	- FK_Patient_Link_ID - unique patient id
+	- Sex - M/F
+	- YearOfBirth - Integer
+  - Diagnosis - varchar
+ PotentialMatches (FK_Patient_Link_ID, Sex, YearOfBirth)
+ 	- FK_Patient_Link_ID - unique patient id
+	- Sex - M/F
+	- YearOfBirth - Integer
+  - Diagnosis - varchar
 ```
 
 _Output_
@@ -56,12 +66,13 @@ A temp table as follows:
   - FK_Patient_Link_ID - unique patient id for primary cohort patient
   - YearOfBirth - of the primary cohort patient
   - Sex - of the primary cohort patient
+  - Diagnosis - diagnosis of patient
   - MatchingPatientId - id of the matched patient
   - MatchingYearOfBirth - year of birth of the matched patient
 ```
-_File_: `query-cohort-matching-yob-sex-diagnosisyear-replacement.sql`
+_File_: `query-cohort-matching-yob-sex-diagnosis.sql`
 
-_Link_: [https://github.com/rw251/.../query-cohort-matching-yob-sex-diagnosisyear-replacement.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-diagnosisyear-replacement.sql)
+_Link_: [https://github.com/rw251/.../query-cohort-matching-yob-sex-diagnosis.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-diagnosis.sql)
 
 ---
 ### Create table of patients

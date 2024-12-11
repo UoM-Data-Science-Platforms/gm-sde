@@ -8,6 +8,9 @@ set(StudyStartDate) = to_date('2022-07-01');
 set(StudyEndDate)   = to_date('2024-10-31');
 
 
+-- The cohort matching for this project currently uses: Sex, YearOfBirth, Ethnicity, and only involves patients 
+-- that have had a new prescription of SSRI, TCA, PPI or Statin)
+
 --> EXECUTE query-get-possible-patients.sql
 
 DROP TABLE IF EXISTS PatientsToInclude;
