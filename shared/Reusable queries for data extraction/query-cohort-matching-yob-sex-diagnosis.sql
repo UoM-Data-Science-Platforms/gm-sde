@@ -8,12 +8,12 @@
 --  - yob-flex: integer - number of years each way that still allow a year of birth match
 --  - num-matches: integer - number of matches for each patient in the cohort
 -- Requires two temp tables to exist as follows:
--- MainCohort (FK_Patient_Link_ID, Sex, YearOfBirth)
+-- MainCohort (FK_Patient_Link_ID, Sex, YearOfBirth, Diagnosis)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- Sex - M/F
 --	- YearOfBirth - Integer
 --  - Diagnosis - varchar
--- PotentialMatches (FK_Patient_Link_ID, Sex, YearOfBirth)
+-- PotentialMatches (FK_Patient_Link_ID, Sex, YearOfBirth, Diagnosis)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- Sex - M/F
 --	- YearOfBirth - Integer
@@ -36,7 +36,7 @@
 --  - For instances where lots of cases have no matches, consider allowing matching to occur with replacement.
 --    I.e. a patient can match more than one person in the main cohort.
 
--- First we extend the PrimaryCohort table to give each age-sex combo a unique number
+-- First we extend the PrimaryCohort table to give each age-sex-diagnosis combo a unique number
 -- and to avoid polluting the MainCohort table
 
 DROP TABLE IF EXISTS Cases;
@@ -47,7 +47,6 @@ SELECT "GmPseudo" AS PatientId,
 	Diagnosis,
 		Row_Number() OVER(PARTITION BY YearOfBirth, Sex, Diagnosis ORDER BY "GmPseudo") AS CaseRowNumber
 FROM MainCohort;
-
 
 -- Then we do the same with the PotentialMatches table
 DROP TABLE IF EXISTS Matches;
@@ -84,9 +83,9 @@ CREATE TEMPORARY TABLE CohortStore (
 
 --1. First match try to match people exactly. We do this as follows:
 --    - For each YOB/Sex/Diagnosis combination we find all potential matches. E.g. all patients
---    - in the potential matches with sex='F' and yob=1957 and Diagnosis = 'White British'
+--    - in the potential matches with sex='F' and yob=1957 and Diagnosis = 'T1Diabetes'
 --    - We then try to assign a single match to all cohort members with sex='F' and yob=1957 and
---    - Diagnosis = 'White British'. If there are still matches unused, we then assign
+--    - Diagnosis = 'T1Diabetes'. If there are still matches unused, we then assign
 --    - a second match to all cohort members. This continues until we either run out of matches,
 --    - or successfully match everyone with the desired number of matches.
 
@@ -137,7 +136,7 @@ BEGIN
 		FROM Cases c
 		INNER JOIN Matches p 
 			ON p.Sex = c.Sex 
-			AND p.Diagnosis = c.Diagnosis
+			AND p.Diagnosis = c.Diagnosis 
 			AND p.YearOfBirth >= c.YearOfBirth - {param:yob-flex}
 			AND p.YearOfBirth <= c.YearOfBirth + {param:yob-flex}
 		WHERE c.PatientId in (
@@ -147,7 +146,7 @@ BEGIN
 		GROUP BY c.PatientId, c.YearOfBirth, c.Sex, c.Diagnosis, p.PatientId) sub
 		INNER JOIN Matches m 
 			ON m.Sex = sub.Sex 
-			AND m.Diagnosis = sub.Diagnosis
+			AND m.Diagnosis = sub.Diagnosis 
 			AND m.PatientId = sub.MatchedPatientId
 			AND m.YearOfBirth >= sub.YearOfBirth - {param:yob-flex}
 			AND m.YearOfBirth <= sub.YearOfBirth + {param:yob-flex}
@@ -184,7 +183,7 @@ BEGIN
                 FROM Matches p
                 INNER JOIN Cases c
                   ON p.Sex = c.Sex 
-				  AND p.Diagnosis = c.Diagnosis
+				  AND p.Diagnosis = c.Diagnosis 
                   AND p.YearOfBirth >= c.YearOfBirth - {param:yob-flex}
                   AND p.YearOfBirth <= c.YearOfBirth + {param:yob-flex}
                 WHERE c.PatientId IN (

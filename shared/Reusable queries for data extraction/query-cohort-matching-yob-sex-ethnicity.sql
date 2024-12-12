@@ -1,21 +1,23 @@
---┌────────────────────────────────────────────────────┐
---│ Cohort matching on year of birth / sex 					   │
---└────────────────────────────────────────────────────┘
+--┌────────────────────────────────────────────────────────────┐
+--│ Cohort matching on year of birth / sex / ethnic category   │
+--└────────────────────────────────────────────────────────────┘
 
--- OBJECTIVE: To take a primary cohort and find a 1:n matched cohort based on year of birth and sex.
+-- OBJECTIVE: To take a primary cohort and find a 1:n matched cohort based on year of birth, sex and ethnicity.
 
 -- INPUT: Takes two parameters
 --  - yob-flex: integer - number of years each way that still allow a year of birth match
 --  - num-matches: integer - number of matches for each patient in the cohort
 -- Requires two temp tables to exist as follows:
--- MainCohort (FK_Patient_Link_ID, Sex, YearOfBirth)
+-- MainCohort (FK_Patient_Link_ID, Sex, YearOfBirth, EthnicCategory)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- Sex - M/F
 --	- YearOfBirth - Integer
+--  - EthnicCategory - Varchar
 -- PotentialMatches (FK_Patient_Link_ID, Sex, YearOfBirth)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- Sex - M/F
 --	- YearOfBirth - Integer
+--  - EthnicCategory - Varchar
 
 -- OUTPUT: A temp table as follows:
 -- #CohortStore (FK_Patient_Link_ID, YearOfBirth, Sex, MatchingPatientId, MatchingYearOfBirth)
