@@ -13,7 +13,7 @@
 --	- Sex - M/F
 --	- YearOfBirth - Integer
 --  - EthnicCategory - Varchar
--- PotentialMatches (FK_Patient_Link_ID, Sex, YearOfBirth)
+-- PotentialMatches (FK_Patient_Link_ID, Sex, YearOfBirth, EthnicCategory)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- Sex - M/F
 --	- YearOfBirth - Integer
@@ -35,7 +35,7 @@
 --  - For instances where lots of cases have no matches, consider allowing matching to occur with replacement.
 --    I.e. a patient can match more than one person in the main cohort.
 
--- First we extend the PrimaryCohort table to give each age-sex combo a unique number
+-- First we extend the PrimaryCohort table to give each age-sex-ethnicCategory combo a unique number
 -- and to avoid polluting the MainCohort table
 
 DROP TABLE IF EXISTS Cases;
