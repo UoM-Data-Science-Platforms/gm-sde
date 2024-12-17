@@ -47,12 +47,12 @@ Takes two parameters
   - yob-flex: integer - number of years each way that still allow a year of birth match
   - num-matches: integer - number of matches for each patient in the cohort
  Requires two temp tables to exist as follows:
- MainCohort (FK_Patient_Link_ID, Sex, YearOfBirth)
+ MainCohort (FK_Patient_Link_ID, Sex, YearOfBirth, Diagnosis)
  	- FK_Patient_Link_ID - unique patient id
 	- Sex - M/F
 	- YearOfBirth - Integer
   - Diagnosis - varchar
- PotentialMatches (FK_Patient_Link_ID, Sex, YearOfBirth)
+ PotentialMatches (FK_Patient_Link_ID, Sex, YearOfBirth, Diagnosis)
  	- FK_Patient_Link_ID - unique patient id
 	- Sex - M/F
 	- YearOfBirth - Integer

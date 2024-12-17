@@ -10,9 +10,6 @@ set(StudyEndDate)   = to_date('2024-10-31');
 
 --> CODESET menopause:1 cognitive-impairment:1 hot-flash:1 irregular-periods:1 musculoskeletal-pain:1 heavy-period:1 fertility-problems:1
 
--- TO DO : find out what neurological conditions the PI wants, as well as any skin 
--- conditions other than psoriasis.
-
 --- create a table combining diagnoses from SDE clusters with diagnoses from GMCR code sets
 
 -- find diagnosis codes that exist in the clusters tables

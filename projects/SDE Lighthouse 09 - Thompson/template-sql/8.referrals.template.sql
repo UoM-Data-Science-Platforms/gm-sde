@@ -2,8 +2,8 @@
 --│ SDE Lighthouse study 09 - Thompson - referrals          │
 --└─────────────────────────────────────────────────────────┘
 
--- referrals to gynaecology services, cancer services
--- could not find codes for fertility or women's health referrals
+-- referrals to gynaecology, fertility services, cancer services
+
 
 -------- RESEARCH DATA ENGINEER CHECK ------------
 --------------------------------------------------

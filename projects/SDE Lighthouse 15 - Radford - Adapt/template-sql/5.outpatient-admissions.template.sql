@@ -28,6 +28,6 @@ SELECT
 	, "Outcome Of Attendance Desc"
 FROM PRESENTATION.NATIONAL_FLOWS_OPA."DS709_Outpatients" ap
 WHERE "AppointmentDate" BETWEEN $StudyStartDate AND $StudyEndDate
-	AND ap."GmPseudo" IN (SELECT "GmPseudo" FROM {{cohort-table}})
+	AND SUBSTRING("Pseudo NHS Number", 2)::INT IN (SELECT "GmPseudo" FROM {{cohort-table}})
 	AND "Attended Or Did Not Attend Code" = 5; -- attended 
 

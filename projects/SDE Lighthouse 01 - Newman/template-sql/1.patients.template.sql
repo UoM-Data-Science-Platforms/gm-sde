@@ -217,7 +217,7 @@ WHERE p."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM PatientsToInclude)
 		(nps.STATIN = 1 AND ops.STATIN = 0)
 		)
 QUALIFY row_number() OVER (PARTITION BY p."GmPseudo" ORDER BY "Snapshot" DESC) = 1; -- this brings back the values from the most recent snapshot
-
+-- 123k patients
 
 
 -- TODO : create a replica of the above table but with a diff snapshot date based on 
