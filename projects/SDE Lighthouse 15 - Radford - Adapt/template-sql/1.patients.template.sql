@@ -265,7 +265,7 @@ SELECT
   pm."FirstAdmissionLymphoma",
   --row_number() over (partition by c.PatientId order by square(c.YearOfBirth - c.MatchingYearOfBirth)) as matchingPriority
 FROM CohortStore c
-LEFT OUTER JOIN PotentialMatches pm ON pm."GmPseudo" = c.MatchingPatientId;
+LEFT OUTER JOIN PotentialMatches pm ON pm."GmPseudo" = c.MatchingPatientId
 QUALIFY row_number() over 																		--for the cases where there are more than 3 matches
 		(partition by c.PatientId order by square(c.YearOfBirth - c.MatchingYearOfBirth)) <= 3; --limit it to 3, based on closest YOB match
 
