@@ -24,14 +24,14 @@ SELECT
     CAST("MedicationDate" AS DATE) AS "MedicationDate",
     "SuppliedCode",
     "Dosage",
-    "Quantity",
+ --   "Quantity",
     "Units"
 FROM INTERMEDIATE.GP_RECORD."GP_Medications_SecondaryUses" gp
 INNER JOIN {{cohort-table}} c ON gp."FK_Patient_ID" = c."FK_Patient_ID"
 WHERE "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept in ('belimumab','hydroxychloroquine','chloroquine'));
 
 {{create-output-table::"LH004-2_medications"}}
-SELECT "GmPseudo", "MedicationDate",
+SELECT c."GmPseudo", "MedicationDate",
     CASE 
         WHEN "Field_ID" IN ('SAL_COD','NONASPANTIPLTDRUG_COD') THEN 'Antiplatelet'
         WHEN "Field_ID" IN ('Immunosuppression_Drugs') THEN 'Immunosuppression'
@@ -40,7 +40,10 @@ SELECT "GmPseudo", "MedicationDate",
         WHEN "Field_ID" IN ('DOAC','Warfarin','ORANTICOAGDRUG_COD') THEN 'Anticoagulant'
         ELSE "Field_ID"
     END AS MedicationCategory, 
-    SPLIT_PART(LOWER("MedicationDescription"), ' ',0) AS Medication, "Dosage_GP_Medications", "Quantity", "Units"
+    SPLIT_PART(LOWER("Term"), ' ',0) AS Medication, 
+    CAST("Dosage" AS STRING) AS "Dosage", 
+ --   NULL AS "Quantity", 
+    "DosageUnits"
 FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" mc
 INNER JOIN {{cohort-table}} c ON mc."FK_Patient_ID" = c."FK_Patient_ID"
 WHERE "Field_ID" IN ('Immunosuppression_Drugs', 'Prednisolone', 'ACEInhibitor','SGLT2','SAL_COD','NONASPANTIPLTDRUG_COD','Statin','DOAC','Warfarin','ORANTICOAGDRUG_COD','ARB')
@@ -59,6 +62,6 @@ SELECT
         WHEN "SuppliedCode" IN (SELECT code FROM {{code-set-table}} WHERE concept = 'belimumab') THEN     'belimumab'
     END AS Medication,
     "Dosage",
-    "Quantity",
+ --   "Quantity",
     "Units"
 FROM LH004_med_codes;
