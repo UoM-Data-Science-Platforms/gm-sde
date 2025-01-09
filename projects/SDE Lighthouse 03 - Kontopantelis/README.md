@@ -37,28 +37,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.
 
 ## Reusable queries
   
-This project required the following reusable queries:
-
-- Create table of patients who were alive at the study start date
-
-Further details for each query can be found below.
-
-### Create table of patients who were alive at the study start date
-undefined
-
-_Input_
-```
-undefined
-```
-
-_Output_
-```
-undefined
-```
-_File_: `query-get-possible-patients.sql`
-
-_Link_: [https://github.com/rw251/.../query-get-possible-patients.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql)
-## Clinical code sets
+This project did not require any reusable queries from the local library [https://github.com/rw251/gm-idcr/tree/master/shared/Reusable queries for data extraction](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction).## Clinical code sets
 
 This project required the following clinical code sets:
 
