@@ -36,8 +36,8 @@
 --  DeathDate
 --  CauseOfDeath
 
-set(StudyStartDate) = to_date('2024-10-31');
-set(StudyEndDate)   = to_date('2024-10-31');
+set(StudyStartDate) = to_date('2024-12-31');
+set(StudyEndDate)   = to_date('2024-12-31');
 
 --> EXECUTE query-get-possible-patients.sql minimum-age:0
 

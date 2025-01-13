@@ -27,6 +27,10 @@
 
 -- PI agreed to separate files for infections, vaccinations and smear tests
 
+
+set(StudyEndDate)   = to_date('2024-12-31');
+
+
 -- Create the final table to populate
 DROP TABLE IF EXISTS "TEMP-LH004-5_vaccinations";
 CREATE TEMPORARY TABLE "TEMP-LH004-5_vaccinations" (
@@ -129,4 +133,5 @@ WHERE SCTID IN (
 SELECT DISTINCT "GmPseudo", "VaccinationType", "VaccinationDate"
 FROM "TEMP-LH004-5_vaccinations" v
 LEFT OUTER JOIN {{cohort-table}} c ON c."FK_Patient_ID" = v."PatientID"
+WHERE "VaccinationDate" <= $StudyEndDate
 ORDER BY "GmPseudo", "VaccinationDate";

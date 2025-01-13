@@ -29,6 +29,10 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
 -- PI agreed to separate files for infections, vaccinations and smear tests
 
+
+set(StudyEndDate)   = to_date('2024-12-31');
+
+
 -- Create the final table to populate
 DROP TABLE IF EXISTS "TEMP-LH004-5_vaccinations";
 CREATE TEMPORARY TABLE "TEMP-LH004-5_vaccinations" (
@@ -137,7 +141,7 @@ WHERE SCTID IN (
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-5_vaccinations_WITH_IDENTIFIER";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-5_vaccinations_WITH_IDENTIFIER" AS
 SELECT DISTINCT "GmPseudo", "VaccinationType", "VaccinationDate"
-FROM "TEMP-LH004-5_vaccinations" v
+FROM "TEMP-LH004-5_vaccinations" v WHERE "VaccinationDate" <= $StudyEndDate
 LEFT OUTER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce" c ON c."FK_Patient_ID" = v."PatientID"
 ORDER BY "GmPseudo", "VaccinationDate";
 

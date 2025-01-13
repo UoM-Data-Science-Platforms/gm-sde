@@ -29,6 +29,10 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
 -- PI agreed to separate files for infections, vaccinations and smear tests
 
+
+set(StudyEndDate)   = to_date('2024-12-31');
+
+
 -- Create temp tables of all the vaccine codes for speeding up future queries
 DROP TABLE IF EXISTS TEMP_LH004_SMEAR_RECORDS;
 CREATE TEMPORARY TABLE TEMP_LH004_SMEAR_RECORDS AS
@@ -47,7 +51,7 @@ AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM SDE_REPOSITORY.SHARED_UTILIT
 DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH004-6_smears_WITH_IDENTIFIER";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH004-6_smears_WITH_IDENTIFIER" AS
 SELECT DISTINCT "GmPseudo", "EventDate","Term" AS "SmearDescription"
-FROM TEMP_LH004_SMEAR_RECORDS smear
+FROM TEMP_LH004_SMEAR_RECORDS smear WHERE "EventDate" <= $StudyEndDate
 INNER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce" c ON c."FK_Patient_ID" = smear."FK_Patient_ID"
 ORDER BY "GmPseudo", "EventDate";
 

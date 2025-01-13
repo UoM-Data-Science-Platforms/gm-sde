@@ -33,6 +33,9 @@
 --> CODESET infection-other:1 lrti:1 muscle-infection:1 neurological-infection:1 peritonitis:1
 --> CODESET puerpural-infection:1 pyelonephritis:1 urti-bacterial:1 urti-viral:1 uti:2
 
+set(StudyEndDate)   = to_date('2024-12-31');
+
+
 DROP TABLE IF EXISTS LH004_InfectionCodes;
 CREATE TEMPORARY TABLE LH004_InfectionCodes AS
 SELECT "FK_Patient_ID", CAST("EventDate" AS DATE) AS "EventDate", "SuppliedCode"
@@ -66,4 +69,5 @@ SELECT "GmPseudo",
 	END AS "Infection",
 	"EventDate" AS "InfectionDate"
 FROM LH004_InfectionCodes ic
-LEFT OUTER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce" c ON c."FK_Patient_ID" = ic."FK_Patient_ID";
+LEFT OUTER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce" c ON c."FK_Patient_ID" = ic."FK_Patient_ID"
+WHERE "EventDate" <= $StudyEndDate;

@@ -16,6 +16,8 @@
 -- Medication categories such as "antiplatelet" should give the actual drug within that
 -- category
 
+set(StudyEndDate)   = to_date('2024-12-31');
+
 --> CODESET belimumab:1 hydroxychloroquine:1 chloroquine:1
 DROP TABLE IF EXISTS LH004_med_codes;
 CREATE TEMPORARY TABLE LH004_med_codes AS
@@ -47,6 +49,7 @@ SELECT c."GmPseudo", "MedicationDate",
 FROM INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" mc
 INNER JOIN {{cohort-table}} c ON mc."FK_Patient_ID" = c."FK_Patient_ID"
 WHERE "Field_ID" IN ('Immunosuppression_Drugs', 'Prednisolone', 'ACEInhibitor','SGLT2','SAL_COD','NONASPANTIPLTDRUG_COD','Statin','DOAC','Warfarin','ORANTICOAGDRUG_COD','ARB')
+    AND "MedicationDate" <= $StudyEndDate
 UNION
 SELECT 
     "GmPseudo", 
@@ -64,4 +67,4 @@ SELECT
     "Dosage",
  --   "Quantity",
     "Units"
-FROM LH004_med_codes;
+FROM LH004_med_codes WHERE "MedicationDate" <= $StudyEndDate;

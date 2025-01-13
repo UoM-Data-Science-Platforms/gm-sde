@@ -37,6 +37,9 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- >>> Following code sets injected: infection-other v1/lrti v1/muscle-infection v1/neurological-infection v1/peritonitis v1
 -- >>> Following code sets injected: puerpural-infection v1/pyelonephritis v1/urti-bacterial v1/urti-viral v1/uti v2
 
+set(StudyEndDate)   = to_date('2024-12-31');
+
+
 
 -- ... processing [[create-output-table::"LH004-4_infections_hospital"]] ... 
 -- ... Need to create an output table called "LH004-4_infections_hospital" and replace 

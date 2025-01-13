@@ -38,8 +38,8 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --  DeathDate
 --  CauseOfDeath
 
-set(StudyStartDate) = to_date('2024-10-31');
-set(StudyEndDate)   = to_date('2024-10-31');
+set(StudyStartDate) = to_date('2024-12-31');
+set(StudyEndDate)   = to_date('2024-12-31');
 
 
 --┌─────────────────────────────────────────────────────────────────┐
