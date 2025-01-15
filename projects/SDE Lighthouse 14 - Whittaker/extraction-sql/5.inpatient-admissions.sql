@@ -20,10 +20,10 @@ set(StudyEndDate)   = to_date('2024-10-31');
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-5_InpatientAdmissions_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-5_InpatientAdmissions_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-5_InpatientAdmissions_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-5_InpatientAdmissions_WITH_IDENTIFIER" AS
 SELECT 
-    "GmPseudo" -- NEEDS PSEUDONYMISING
+    "GmPseudo"
     , TO_DATE("AdmissionDttm") AS "AdmissionDate"
     , TO_DATE("DischargeDttm") AS "DischargeDate"
 	, "AdmissionMethodCode"
@@ -41,7 +41,7 @@ WHERE TO_DATE("AdmissionDttm") BETWEEN $StudyStartDate AND $StudyEndDate
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_14_Whittaker";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_14_Whittaker" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-5_InpatientAdmissions_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-5_InpatientAdmissions_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_14_Whittaker";
 
@@ -67,5 +67,5 @@ DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-5_InpatientAdmission
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-5_InpatientAdmissions" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_14_Whittaker("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-5_InpatientAdmissions_WITH_PSEUDO_IDS";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-5_InpatientAdmissions_WITH_IDENTIFIER";
 

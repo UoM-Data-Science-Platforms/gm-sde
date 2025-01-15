@@ -47,7 +47,7 @@ SELECT
 	CASE WHEN "CodeSet" = 'nsaid' THEN 1 ELSE 0 END AS "Nsaid",
 	CASE WHEN "CodeSet" = 'opioid' THEN 1 ELSE 0 END AS "Opioid",
 	CASE WHEN "CodeSet" = 'antidepressant' THEN 1 ELSE 0 END AS "Antidepressant",
-FROM prescriptions p
+FROM prescriptions p;
 -- transform into wide format to reduce the number of rows in final table
 
 
@@ -57,8 +57,8 @@ FROM prescriptions p
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-2_Medications_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-2_Medications_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-2_Medications_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-2_Medications_WITH_IDENTIFIER" AS
 SELECT "GmPseudo",
 	YEAR("MedicationDate") AS "Year",
     MONTH("MedicationDate") AS "Month",
@@ -80,7 +80,7 @@ ORDER BY
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_06_Chen";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_06_Chen" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-2_Medications_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-2_Medications_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_06_Chen";
 
@@ -106,4 +106,4 @@ DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-2_Medications";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-2_Medications" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_06_Chen("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-2_Medications_WITH_PSEUDO_IDS";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-2_Medications_WITH_IDENTIFIER";

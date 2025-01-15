@@ -21,8 +21,8 @@ set(StudyEndDate)   = to_date('2024-10-31');
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-3_AEAdmissions_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-3_AEAdmissions_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-3_AEAdmissions_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-3_AEAdmissions_WITH_IDENTIFIER" AS
 SELECT 
 E."GmPseudo", 
 TO_DATE(E."ArrivalDate") AS "ArrivalDate",
@@ -35,7 +35,7 @@ E."EmAttendanceCategoryDesc",
 E."EmAttendanceDisposalCode",
 E."EmAttendanceDisposalDesc"
 FROM PRESENTATION.NATIONAL_FLOWS_ECDS."DS707_Ecds" E
-WHERE "IsAttendance" = 1 -- advised to use this for A&E attendances
+WHERE "IsAttendance" = 1 -- advised to use this for A&E attendances -- contact Dan Young if more info needed (daniel.young1@nhs.net)
 	AND "GmPseudo" IN (select "GmPseudo" from SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_14_Whittaker")
 	AND TO_DATE(E."ArrivalDate") BETWEEN $StudyStartDate AND $StudyEndDate;
 
@@ -44,7 +44,7 @@ WHERE "IsAttendance" = 1 -- advised to use this for A&E attendances
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_14_Whittaker";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_14_Whittaker" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-3_AEAdmissions_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-3_AEAdmissions_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_14_Whittaker";
 
@@ -70,4 +70,4 @@ DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-3_AEAdmissions";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-3_AEAdmissions" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_14_Whittaker("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-3_AEAdmissions_WITH_PSEUDO_IDS";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-3_AEAdmissions_WITH_IDENTIFIER";

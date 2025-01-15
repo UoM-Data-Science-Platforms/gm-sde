@@ -87,8 +87,9 @@ from "PatsFromSUSWithGPRecord";
 -- though as it includes all the main codes.
 drop table if exists "GPPatsWithDLBCL";
 create temporary table "GPPatsWithDLBCL" as
-select distinct "FK_Patient_ID" from "GP_Events_SecondaryUses"
-where sctid in ('847741000000106','1172695008','12341000132100','1187190002','1172702009','787594004','787565006','786909001','734076008','716789004','450910000','314934003','450958009','128801005','128800006');
+select distinct "FK_Patient_ID" from INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
+left join SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_15_Radford_Adapt" cs on cs.code = e.sctid
+where cs.concept = 'diffuse-large-b-cell-lymphoma';
 
 insert into "LymphomaStats"
 select 6, 'Patients with diffuse large b-cell lymphoma from primary care record', count(*)
@@ -97,9 +98,9 @@ from "GPPatsWithDLBCL";
 -- And for Hodgkin Lymphoma
 drop table if exists "GPPatsWithHodgkinLymphoma";
 create temporary table "GPPatsWithHodgkinLymphoma" as
-select distinct "FK_Patient_ID" from "GP_Events_SecondaryUses"
-where sctid in 
-('1163005009','762691001','836277009','836276000','128799007','112687003','71109004','16893006','52248008','45572000','43985008','39086001','41529000','70600005');
+select distinct "FK_Patient_ID" from INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
+left join SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_15_Radford_Adapt" cs on cs.code = e.sctid
+where cs.concept = 'hodgkin-lymphoma';
 
 insert into "LymphomaStats"
 select 7, 'Patients with Hodgkin lymphoma from primary care record', count(*)
@@ -110,10 +111,10 @@ from "GPPatsWithHodgkinLymphoma";
 drop table if exists "PatsFromGPRecord";
 create temporary table "PatsFromGPRecord" as
 select "GmPseudo" from "GPPatsWithDLBCL" d
-inner join "DemographicsProtectedCharacteristics" dpc on dpc."FK_Patient_ID" = d."FK_Patient_ID"
+inner join presentation.gp_record."DemographicsProtectedCharacteristics_SecondaryUses" dpc on dpc."FK_Patient_ID" = d."FK_Patient_ID"
 UNION
 select "GmPseudo" from "GPPatsWithHodgkinLymphoma" h
-inner join "DemographicsProtectedCharacteristics" dpc on dpc."FK_Patient_ID" = h."FK_Patient_ID";
+inner join presentation.gp_record."DemographicsProtectedCharacteristics_SecondaryUses" dpc on dpc."FK_Patient_ID" = h."FK_Patient_ID";
 
 insert into "LymphomaStats"
 select 8, 'Patients with either lymphoma from primary care record', count(*)

@@ -7,15 +7,15 @@
 
 --------------------------------------------------
 
--- OBJECTIVE: To provide all GP events, except any sensitive codes, for the studuy cohort and matched controls
+-- OBJECTIVE: To provide all GP events, except any sensitive codes, for the study cohort and matched controls
 
 set(StudyStartDate) = to_date('2015-03-01');
 set(StudyEndDate)   = to_date('2022-03-31');
 
 -- SELECT ALL GP EVENTS 
 
-{{create-output-table::"LH015-6_OutpatientAdmissions"}}
-SELECT c."GmPseudo" 
+{{create-output-table::"LH015-6_GPEvents"}}
+SELECT c."GmPseudo",
 	"EventDate", 
 	"SCTID", 
 	"SuppliedCode", 

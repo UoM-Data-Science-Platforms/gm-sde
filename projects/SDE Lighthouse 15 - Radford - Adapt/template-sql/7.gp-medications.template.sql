@@ -14,7 +14,8 @@ set(StudyEndDate)   = to_date('2022-03-31');
 
 -- SELECT ALL GP EVENTS 
 
-SELECT c."GmPseudo" 
+{{create-output-table::"LH015-7_GPMedications"}}
+SELECT c."GmPseudo", 
 	"MedicationDate", 
 	"SCTID", 
 	"SuppliedCode", 

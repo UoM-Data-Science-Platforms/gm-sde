@@ -3,7 +3,6 @@
 --└───────────────────────────────────────────────────────────────────┘
 
 -------- RESEARCH DATA ENGINEER CHECK ------------
-
 --------------------------------------------------
 
 set(StudyStartDate) = to_date('2020-01-01');
@@ -14,6 +13,7 @@ set(StudyEndDate)   = to_date('2024-10-31');
 {{create-output-table::"LH009-6_InpatientAdmissions"}}
 SELECT 
     ap."GmPseudo"
+	, ROW_NUMBER() OVER (ORDER BY "GmPseudo","AdmissionDttm") AS "AdmissionID"	
     , TO_DATE("AdmissionDttm") AS "AdmissionDate"
     , TO_DATE("DischargeDttm") AS "DischargeDate"
 	, "AdmissionMethodCode"

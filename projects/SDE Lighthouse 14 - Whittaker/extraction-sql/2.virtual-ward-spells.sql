@@ -21,8 +21,8 @@ set(StudyEndDate)   = to_date('2024-10-31');
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards_WITH_IDENTIFIER" AS
 SELECT 
     SUBSTRING(vw."Pseudo NHS Number", 2)::INT AS "GmPseudo", 
     ROW_NUMBER() OVER(PARTITION BY "Pseudo NHS Number" ORDER BY "SnapshotDate") AS "PatientSpellNumber",
@@ -62,9 +62,9 @@ from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw
 left join (select distinct "Admission Source ID", "Admission Source Description" 
            from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.DQ_VIRTUAL_WARDS_ADMISSION_SOURCE) adm
     on adm."Admission Source ID" = vw."Admission Source ID"
--- filter to the latest snapshot for each spell (as advised by colleague at NHS GM)
+-- filter to the latest snapshot for each spell (as advised by colleague at NHS GM) -- Dan Young (daniel.young1@nhs.net)
 inner join (select  "Unique Spell ID", Max("SnapshotDate") "LatestRecord" 
-            from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY
+            from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY -- this could also be achieved by using QUALIFY at the end of the query
             group by all) a 
     on a."Unique Spell ID" = vw."Unique Spell ID" and vw."SnapshotDate" = a."LatestRecord"
 where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate
@@ -75,7 +75,7 @@ AND SUBSTRING(vw."Pseudo NHS Number", 2)::INT IN (select "GmPseudo" from SDE_REP
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_14_Whittaker";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_14_Whittaker" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_14_Whittaker";
 
@@ -101,7 +101,7 @@ DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_14_Whittaker("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards_WITH_PSEUDO_IDS"; -- extra check to ensure consistent cohort
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH014-2_VirtualWards_WITH_IDENTIFIER"; -- extra check to ensure consistent cohort (and opt-out application)
 
--- 16,107 patients
---24,608 spells
+-- 22.1k patients
+-- 36.6k spells

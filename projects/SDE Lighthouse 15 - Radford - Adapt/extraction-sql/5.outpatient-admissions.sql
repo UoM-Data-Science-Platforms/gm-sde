@@ -8,10 +8,10 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
 --------------------------------------------------
 
-set(StudyStartDate) = to_date('2015-03-01'); -- change
-set(StudyEndDate)   = to_date('2022-03-31'); -- change
+set(StudyStartDate) = to_date('2019-01-01');
+set(StudyEndDate)   = to_date('2024-10-31');
 
--- get all inpatient admissions
+-- get all outpatient admissions
 
 
 -- ... processing [[create-output-table::"LH015-5_OutpatientAdmissions"]] ... 
@@ -20,8 +20,8 @@ set(StudyEndDate)   = to_date('2022-03-31'); -- change
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH015-5_OutpatientAdmissions_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH015-5_OutpatientAdmissions_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH015-5_OutpatientAdmissions_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH015-5_OutpatientAdmissions_WITH_IDENTIFIER" AS
 SELECT 
     ROW_NUMBER() OVER (ORDER BY "Pseudo NHS Number","Appointment Date Time") AS "AppointmentID"	
 	, SUBSTRING("Pseudo NHS Number", 2)::INT AS "GmPseudo" 
@@ -46,7 +46,7 @@ WHERE "AppointmentDate" BETWEEN $StudyStartDate AND $StudyEndDate
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_15_Radford_Adapt";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_15_Radford_Adapt" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-5_OutpatientAdmissions_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-5_OutpatientAdmissions_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_15_Radford_Adapt";
 
@@ -72,5 +72,5 @@ DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH015-5_OutpatientAdmissio
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH015-5_OutpatientAdmissions" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_15_Radford_Adapt("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-5_OutpatientAdmissions_WITH_PSEUDO_IDS"; -- attended 
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-5_OutpatientAdmissions_WITH_IDENTIFIER"; -- attended 
 

@@ -21,8 +21,8 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities_WITH_IDENTIFIER" AS
 SELECT
 	"GmPseudo", "ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "Anxiety_DiagnosisDate", "Asthma_DiagnosisDate", 
 	"AtrialFibrillation_DiagnosisDate", "Autism_DiagnosisDate", "BlindnessLowVision_DiagnosisDate", "Bronchiectasis_DiagnosisDate", 
@@ -47,7 +47,7 @@ QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_03_Kontopantelis";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_03_Kontopantelis" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_03_Kontopantelis";
 
@@ -73,4 +73,4 @@ DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_03_Kontopantelis("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities_WITH_PSEUDO_IDS"; -- this brings back the values from the most recent snapshot
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH003-3_Comorbidities_WITH_IDENTIFIER"; -- this brings back the values from the most recent snapshot

@@ -3,7 +3,7 @@
 --└────────────────────────────────────┘
 
 set(StudyStartDate) = to_date('2015-03-01');
-set(StudyEndDate)   = to_date('2022-03-31');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- find all GP contacts for the adapt patients and the matched cohort
 

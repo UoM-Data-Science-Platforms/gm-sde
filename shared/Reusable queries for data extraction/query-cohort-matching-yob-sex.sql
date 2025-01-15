@@ -38,19 +38,19 @@
 
 DROP TABLE IF EXISTS Cases;
 CREATE TEMPORARY TABLE Cases AS
-SELECT "FK_Patient_ID" AS PatientId, 
+SELECT "GmPseudo" AS PatientId, 
 	YearOfBirth, 
 	Sex, 
-	Row_Number() OVER(PARTITION BY YearOfBirth, Sex ORDER BY "FK_Patient_ID") AS CaseRowNumber
+	Row_Number() OVER(PARTITION BY YearOfBirth, Sex ORDER BY "GmPseudo") AS CaseRowNumber
 FROM MainCohort;
 
 -- Then we do the same with the PotentialMatches table
 DROP TABLE IF EXISTS Matches;
 CREATE TEMPORARY TABLE Matches AS
-SELECT "FK_Patient_ID" AS PatientId, 
+SELECT "GmPseudo" AS PatientId, 
 	YearOfBirth, 
 	Sex, 
-	Row_Number() OVER(PARTITION BY YearOfBirth, Sex ORDER BY "FK_Patient_ID") AS AssignedPersonNumber
+	Row_Number() OVER(PARTITION BY YearOfBirth, Sex ORDER BY "GmPseudo") AS AssignedPersonNumber
 FROM PotentialMatches;
 
 -- Find the number of people with each characteristic in the main cohort

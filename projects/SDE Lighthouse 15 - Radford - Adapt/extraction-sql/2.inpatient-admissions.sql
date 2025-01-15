@@ -8,8 +8,10 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
 --------------------------------------------------
 
-set(StudyStartDate) = to_date('2017-01-01'); -- change
-set(StudyEndDate)   = to_date('2023-12-31'); -- change
+set(StudyStartDate) = to_date('2018-01-01'); 
+set(StudyEndDate)   = to_date('2024-10-31'); 
+
+-- NOTE : inpatient data only goes back to 2019
 
 -- get all inpatient admissions
 
@@ -20,8 +22,8 @@ set(StudyEndDate)   = to_date('2023-12-31'); -- change
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH015-2_InpatientAdmissions_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH015-2_InpatientAdmissions_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH015-2_InpatientAdmissions_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH015-2_InpatientAdmissions_WITH_IDENTIFIER" AS
 SELECT 
     ap."GmPseudo"
     , TO_DATE("AdmissionDttm") AS "AdmissionDate"
@@ -41,7 +43,7 @@ AND ap."GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Co
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_15_Radford_Adapt";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_15_Radford_Adapt" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-2_InpatientAdmissions_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-2_InpatientAdmissions_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_15_Radford_Adapt";
 
@@ -67,5 +69,5 @@ DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH015-2_InpatientAdmission
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH015-2_InpatientAdmissions" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_15_Radford_Adapt("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-2_InpatientAdmissions_WITH_PSEUDO_IDS";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-2_InpatientAdmissions_WITH_IDENTIFIER";
 

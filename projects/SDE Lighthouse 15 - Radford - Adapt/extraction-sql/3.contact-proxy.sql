@@ -5,19 +5,19 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --└────────────────────────────────────┘
 
 set(StudyStartDate) = to_date('2015-03-01');
-set(StudyEndDate)   = to_date('2022-03-31');
+set(StudyEndDate)   = to_date('2024-10-31');
 
 -- find all GP contacts for the adapt patients and the matched cohort
 
 
--- ... processing [[create-output-table::"3_ContactProxy"]] ... 
--- ... Need to create an output table called "3_ContactProxy" and replace 
+-- ... processing [[create-output-table::"LH015-3_ContactProxy"]] ... 
+-- ... Need to create an output table called "LH015-3_ContactProxy" and replace 
 -- ... the GmPseudo column with a study-specific random patient id.
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."3_ContactProxy_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."3_ContactProxy_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH015-3_ContactProxy_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH015-3_ContactProxy_WITH_IDENTIFIER" AS
 SELECT
     "GmPseudo"
     , "EventDate" as "GPProxyEncounterDate"
@@ -31,7 +31,7 @@ WHERE "Contact" = 1
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_15_Radford_Adapt";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_15_Radford_Adapt" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."3_ContactProxy_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-3_ContactProxy_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_15_Radford_Adapt";
 
@@ -53,10 +53,10 @@ FROM "AllPseudos_SDE_Lighthouse_15_Radford_Adapt";
 -- Finally, we select from the output table which includes the GmPseudos, in order
 -- to populate the table for the end users where the GmPseudo fields are redacted via a function
 -- created in the 0.code-sets.sql file
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."3_ContactProxy";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."3_ContactProxy" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH015-3_ContactProxy";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH015-3_ContactProxy" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_15_Radford_Adapt("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."3_ContactProxy_WITH_PSEUDO_IDS";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH015-3_ContactProxy_WITH_IDENTIFIER";
 
 

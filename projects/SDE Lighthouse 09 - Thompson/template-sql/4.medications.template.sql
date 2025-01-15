@@ -18,19 +18,18 @@ set(StudyEndDate)   = to_date('2024-10-31');
 DROP TABLE IF EXISTS LH009_med_codes;
 CREATE TEMPORARY TABLE LH009_med_codes AS
 SELECT DISTINCT
-    "GmPseudo",
+    c. "GmPseudo",
     CAST("MedicationDate" AS DATE) AS "Date",
     "SuppliedCode",
-	SCTID AS "SnomedCode"
-    "Dosage",
-    "Units",
+	SCTID AS "SnomedCode",
 	co.concept as "CodeSet",
 	"MedicationDescription" AS "Description"
 FROM INTERMEDIATE.GP_RECORD."GP_Medications_SecondaryUses" gp
 INNER JOIN {{cohort-table}} c ON gp."FK_Patient_ID" = c."FK_Patient_ID"
 INNER JOIN {{code-set-table}} co ON co.code = gp."SuppliedCode"
 WHERE co.concept in ('corticosteroid', 'anabolic-steroids', 'biologic-immune-modulators','disease-modifying-med',
-				'male-sex-hormones', 'female-sex-hormones', 'contraceptives-emergency-pill',
+				'male-sex-hormones', 'female-sex-hormones', 
+				'contraceptives-emergency-pill',
 				'contraceptives-tablet', 'contraceptives-iud', 'contraceptives-injection', 'contraceptives-implant');
 
 
@@ -39,15 +38,13 @@ WHERE co.concept in ('corticosteroid', 'anabolic-steroids', 'biologic-immune-mod
 DROP TABLE IF EXISTS prescriptions;
 CREATE TEMPORARY TABLE prescriptions AS
 SELECT 
-    co."GmPseudo"
-    , TO_DATE(ec."Date") AS "Date"
-    , ec."SCTID" AS "SnomedCode"
-	, ec."SuppliedCode"
-    , ec."Dosage"
-	, ec."DosageUnits" AS "Units"
-    , CASE WHEN ec."Cluster_ID" = 'ORALNSAIDDRUG_COD' THEN 'nsaid' -- oral nsaids
-           ELSE 'other' END AS "CodeSet"
-    , ec."Term" AS "Description"
+    co."GmPseudo",
+    TO_DATE(ec."Date") AS "Date",
+    ec."SCTID" AS "SnomedCode",
+	ec."SuppliedCode",
+    CASE WHEN ec."Cluster_ID" = 'ORALNSAIDDRUG_COD' THEN 'nsaid' -- oral nsaids
+			ELSE 'other' END AS "CodeSet",
+    ec."Term" AS "Description",
 FROM {{cohort-table}} co
 LEFT JOIN INTERMEDIATE.GP_RECORD."Combined_EventsMedications_Clusters_SecondaryUses" ec ON co."FK_Patient_ID" = ec."FK_Patient_ID"
 WHERE "Cluster_ID" in ('ORALNSAIDDRUG_COD')

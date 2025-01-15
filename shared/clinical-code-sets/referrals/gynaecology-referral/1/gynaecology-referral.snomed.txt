@@ -9,3 +9,4 @@
 249081000000104	Referral to urology special interest general practitioner (procedure)
 415272006	Referral to genitourinary clinic (procedure)
 785781000000101	Referral to community gynaecology service (procedure)
+900941000000107	Internal practice gynaecology referral (procedure) 

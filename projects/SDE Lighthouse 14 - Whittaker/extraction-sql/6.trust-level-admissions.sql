@@ -9,25 +9,32 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 
 -- Date range: 2018 to present
 
+-- FOR EACH TRUST: 
+-- monthly inpatient admissions
+-- monthly inpatient readmissions (unsure on definition)
+-- monthly inpatient admissions broken down by age band
+-- monthly inpatient admissions broken down by ICD10 category
+-- monthly A&E attendances total
+-- monthly A&E attendances broekn down by age band
+
 set(StudyStartDate) = to_date('2018-04-01');
 set(StudyEndDate)   = to_date('2024-10-31');
 
--- CREATE A TABLE OF ADMISSIONS FROM GM TRUSTS
+-- CREATE A TABLE OF ADMISSIONS (inpatient) FROM GM TRUSTS
 DROP TABLE IF EXISTS ManchesterTrusts;
 CREATE TEMPORARY TABLE ManchesterTrusts AS 
 SELECT *
 FROM PRESENTATION.NATIONAL_FLOWS_APC."DS708_Apcs"
 WHERE "ProviderDesc" IN    -- limit to trusts that have virtual ward data 
     ('Manchester University NHS Foundation Trust',
-     --'Pennine Acute Hospitals NHS Trust',
      'Northern Care Alliance NHS Foundation Trust',
      'Wrightington, Wigan And Leigh NHS Foundation Trust',
      'Stockport NHS Foundation Trust',
      'Bolton NHS Foundation Trust',
      'Tameside And Glossop Integrated Care NHS Foundation Trust')
 	AND TO_DATE("AdmissionDttm") between $StudyStartDate and $StudyEndDate
-	AND "HospitalSpellDuration" != '*'; -- < 10 records have missing discharge date and spell duration, so exclude
-  -- FILTER OUT ELECTIVE ??   
+	AND "HospitalSpellDuration" != '*' -- < 10 records have missing discharge date and spell duration, so exclude
+	AND "GmPseudo" IN (SELECT "GmPseudo" FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses"); -- ensure opt-out applied
   
 -- MONTHLY ADMISSION COUNTS AND AVG LENGTH OF STAY BY TRUST
 
@@ -43,12 +50,13 @@ select
     , MONTH("AdmissionDttm") AS "Month"
     ,"ProviderDesc"
     , count(*) as Admissions  
-    , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
+    , AVG("HospitalSpellDuration") as "Avg_LengthOfStayDays" 
 from ManchesterTrusts
 group by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
-   -- READMISSIONS ONLY
+   -- READMISSIONS ONLY (might be able to work out definition from snowflake)
+
 
 -- There are no patient ids ("GmPseudo") so we don't need to 
 -- obfuscate them. Instead we just create a table, readable by the analysts
@@ -60,13 +68,15 @@ select
     , MONTH("AdmissionDttm") AS "Month"
     ,"ProviderDesc"
     , count(*) as Readmissions  
-    , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
+    , AVG("HospitalSpellDuration") as "Avg_LengthOfStayDays" 
 FROM ManchesterTrusts
 WHERE "IsReadmission" = 'TRUE'
 group by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc"
 order by YEAR("AdmissionDttm"), MONTH("AdmissionDttm"), "ProviderDesc";
 
     -- GROUP BY TRUST AND ICD CATEGORY 
+
+	-- ** warn researcher about small numbers. Ensure they will aggregate before exporting.
 
 
 -- There are no patient ids ("GmPseudo") so we don't need to 
@@ -81,7 +91,7 @@ select
     , "DerPrimaryDiagnosisChapterCodeReportingEpisode" as PrimaryICDCategoryCode
     , "DerPrimaryDiagnosisChapterDescReportingEpisode" as PrimaryICDCategoryDesc
     , count(*) as Admissions  
-    , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
+    , AVG("HospitalSpellDuration") as "Avg_LengthOfStayDays" 
 FROM ManchesterTrusts
 group by   
       YEAR("AdmissionDttm") 
@@ -97,6 +107,7 @@ order by
     , "DerPrimaryDiagnosisChapterDescReportingEpisode";
 
     -- GROUP BY TRUST AND AGE BAND
+
 
 -- There are no patient ids ("GmPseudo") so we don't need to 
 -- obfuscate them. Instead we just create a table, readable by the analysts
@@ -115,7 +126,7 @@ select
          when "AgeAtStartOfSpellSus" > 90  then '6. >90'
             else NULL end as AgeBand
     , count(*) as Admissions  
-    , AVG("HospitalSpellDuration") as "Avg_LengthOfStay" 
+    , AVG("HospitalSpellDuration") as "Avg_LengthOfStayDays" 
 from ManchesterTrusts
 WHERE "AgeAtStartOfSpellSus" between 0 and 120 -- REMOVE UNREALISTIC VALUES
 group by 
@@ -141,7 +152,7 @@ order by
          when "AgeAtStartOfSpellSus" > 90  then '6. >90'
             else end NULL;
 
--- Emergency department attendances: 
+-- Emergency (A&E) department attendances: 
 	-- Total
 	-- by ICD   -- providing this is likely to have too many small numbers, as we could only do it using 'chief complaint snomed code'
 	-- by ageband 
@@ -152,13 +163,13 @@ SELECT *
 FROM PRESENTATION.NATIONAL_FLOWS_ECDS."DS707_Ecds" E
 WHERE "ProviderDesc" IN 
     ('Manchester University NHS Foundation Trust',
-     'Pennine Acute Hospitals NHS Trust',
      'Northern Care Alliance NHS Foundation Trust',
      'Wrightington, Wigan And Leigh NHS Foundation Trust',
      'Stockport NHS Foundation Trust',
      'Bolton NHS Foundation Trust',
      'Tameside And Glossop Integrated Care NHS Foundation Trust')
-AND  TO_DATE("ArrivalDate") between $StudyStartDate and $StudyEndDate;
+AND TO_DATE("ArrivalDate") between $StudyStartDate and $StudyEndDate
+AND "GmPseudo" IN (SELECT "GmPseudo" FROM PRESENTATION.GP_RECORD."DemographicsProtectedCharacteristics_SecondaryUses"); -- apply opt-out
 
     
 -- total
@@ -225,3 +236,4 @@ ORDER BY YEAR("ArrivalDate")
          when "AgeAtArrival" between 71 and 90  then '5. 71-90'
          when "AgeAtArrival" > 90  then '6. >90'
             else NULL end;
+

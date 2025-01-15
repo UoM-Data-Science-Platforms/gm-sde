@@ -5,14 +5,14 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 --└──────────────────────────────────────────────────┘
 
 
--- ... processing [[create-output-table::"4_Comorbidities"]] ... 
--- ... Need to create an output table called "4_Comorbidities" and replace 
+-- ... processing [[create-output-table::"LH001-4_Comorbidities"]] ... 
+-- ... Need to create an output table called "LH001-4_Comorbidities" and replace 
 -- ... the GmPseudo column with a study-specific random patient id.
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."4_Comorbidities_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."4_Comorbidities_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH001-4_Comorbidities_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH001-4_Comorbidities_WITH_IDENTIFIER" AS
 SELECT
 	"GmPseudo", 
 	"ADHD_DiagnosisDate", "Anorexia_DiagnosisDate", "Anxiety_DiagnosisDate", "Asthma_DiagnosisDate", 
@@ -28,10 +28,8 @@ SELECT
 	"NonDiabeticHyperglycemia_DiagnosisDate", "Obesity_DiagnosisDate", "Osteoporosis_DiagnosisDate", "PainfulCondition_DiagnosisDate",
 	"PalliativeCare_DiagnosisDate", "ParkinsonsDisease_DiagnosisDate", "PepticUlcerDisease_DiagnosisDate",
 	"PeripheralArterialDisease_DiagnosisDate", "ProstateDisorder_DiagnosisDate", "Psoriasis_DiagnosisDate",
-	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate",
-	"FirstLTC", "FirstLTC_DiagnosisDate", "SecondLTC", "SecondLTC_DiagnosisDate", "ThirdLTC",
-	"ThirdLTC_DiagnosisDate", "FourthLTC", "FourthLTC_DiagnosisDate", "FifthLTC", "FifthLTC_DiagnosisDate"
-FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_Diagnosis"
+	"RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate", "TIA_DiagnosisDate"
+FROM INTERMEDIATE.GP_RECORD."LongTermConditionRegister_SecondaryUses"
 WHERE "GmPseudo" IN (SELECT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_01_Newman")
 QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1;
 
@@ -40,7 +38,7 @@ QUALIFY row_number() OVER (PARTITION BY "GmPseudo" ORDER BY "Snapshot" DESC) = 1
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_01_Newman";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_01_Newman" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."4_Comorbidities_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH001-4_Comorbidities_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_01_Newman";
 
@@ -62,8 +60,8 @@ FROM "AllPseudos_SDE_Lighthouse_01_Newman";
 -- Finally, we select from the output table which includes the GmPseudos, in order
 -- to populate the table for the end users where the GmPseudo fields are redacted via a function
 -- created in the 0.code-sets.sql file
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."4_Comorbidities";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."4_Comorbidities" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH001-4_Comorbidities";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH001-4_Comorbidities" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_01_Newman("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."4_Comorbidities_WITH_PSEUDO_IDS"; -- this brings back the values from the most recent snapshot
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH001-4_Comorbidities_WITH_IDENTIFIER"; -- this brings back the values from the most recent snapshot

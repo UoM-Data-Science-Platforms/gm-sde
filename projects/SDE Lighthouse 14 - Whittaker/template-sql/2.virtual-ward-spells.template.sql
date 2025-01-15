@@ -8,7 +8,7 @@
 -- each provider starting providing VW data at different times, so data is incomplete for periods.
 
 set(StudyStartDate) = to_date('2018-01-01');
-set(StudyEndDate)   = to_date('2024-10-31');
+set(StudyEndDate)   = to_date('2024-11-31');
 
 ---- Use the latest snapshot for each spell and get all relevant information
 
@@ -52,13 +52,13 @@ from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY vw
 left join (select distinct "Admission Source ID", "Admission Source Description" 
            from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.DQ_VIRTUAL_WARDS_ADMISSION_SOURCE) adm
     on adm."Admission Source ID" = vw."Admission Source ID"
--- filter to the latest snapshot for each spell (as advised by colleague at NHS GM)
+-- filter to the latest snapshot for each spell (as advised by colleague at NHS GM) -- Dan Young (daniel.young1@nhs.net)
 inner join (select  "Unique Spell ID", Max("SnapshotDate") "LatestRecord" 
-            from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY
+            from PRESENTATION.LOCAL_FLOWS_VIRTUAL_WARDS.VIRTUAL_WARD_OCCUPANCY -- this could also be achieved by using QUALIFY at the end of the query
             group by all) a 
     on a."Unique Spell ID" = vw."Unique Spell ID" and vw."SnapshotDate" = a."LatestRecord"
 where TO_DATE(vw."Admission Date") BETWEEN $StudyStartDate AND $StudyEndDate
-AND SUBSTRING(vw."Pseudo NHS Number", 2)::INT IN (select "GmPseudo" from {{cohort-table}}); -- extra check to ensure consistent cohort
+AND SUBSTRING(vw."Pseudo NHS Number", 2)::INT IN (select "GmPseudo" from {{cohort-table}}); -- extra check to ensure consistent cohort (and opt-out application)
 
--- 22.1k patients (2.3k patients don't have a record in the patients file)
--- 36.6k spells
+-- 20,345 patients
+-- 33.6k spells

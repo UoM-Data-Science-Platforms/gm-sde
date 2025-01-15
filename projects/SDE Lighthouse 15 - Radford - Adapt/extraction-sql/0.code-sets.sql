@@ -26,8 +26,8 @@
 USE SDE_REPOSITORY.SHARED_UTILITIES;
 
 -- Creates the code set table for this project.
-DROP TABLE IF EXISTS "Code_Sets_SDE_Lighthouse_15_Radford_Adapt_GT"; 
-CREATE TABLE "Code_Sets_SDE_Lighthouse_15_Radford_Adapt_GT" (
+DROP TABLE IF EXISTS "Code_Sets_SDE_Lighthouse_15_Radford_Adapt";
+CREATE TABLE "Code_Sets_SDE_Lighthouse_15_Radford_Adapt" (
 	CONCEPT VARCHAR(255),
 	VERSION NUMBER(38,0),
 	TERMINOLOGY VARCHAR(20),

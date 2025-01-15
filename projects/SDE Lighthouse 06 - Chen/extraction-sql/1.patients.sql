@@ -92,7 +92,7 @@ group by dem."GmPseudo";
 drop table if exists leftGMDate;
 create temporary table leftGMDate as 
 select *,
-    case when DeathDate is null and "max" < (select max("max") from PatientSummary) then "max" else null end as leftGMDate
+    case when DeathDate is null and "max" < (select max("max") from PatientSummary) then "max" else null end as "leftGMDate"
 from PatientSummary;
 
 -- FIND ALL ADULT PATIENTS ALIVE AT STUDY START DATE
@@ -101,15 +101,16 @@ DROP TABLE IF EXISTS AlivePatientsAtStart;
 CREATE TEMPORARY TABLE AlivePatientsAtStart AS 
 SELECT  
     dem.*, 
-    Death.DeathDate,
-	l.leftGMDate
+    Death."DEATHDATE" AS "DeathDate",
+	l."leftGMDate"
 FROM LatestSnapshot dem
 LEFT JOIN Death ON Death."GmPseudo" = dem."GmPseudo"
 LEFT JOIN leftGMDate l ON l."GmPseudo" = dem."GmPseudo"
 WHERE 
-    (Death.DeathDate IS NULL OR Death.DeathDate > $StudyStartDate) -- alive on study start date
+    (Death."DEATHDATE" IS NULL OR Death."DEATHDATE" > $StudyStartDate) -- alive on study start date
 	AND 
-	(leftGMDate IS NULL OR leftGMDate > $StudyEndDate); -- if patient left GM (therefore we stop receiving their data), ensure it is after study end date
+	(l."leftGMDate" IS NULL OR l."leftGMDate" > $StudyEndDate); -- if patient left GM (therefore we stop receiving their data), ensure it is after study end date
+ 
 
 -- find patients with chronic pain
 
@@ -206,17 +207,17 @@ LEFT JOIN -- join to demographics table to get GmPseudo
 
 -- First we create a table in an area only visible to the RDEs which contains
 -- the GmPseudos. THESE CANNOT BE RELEASED TO END USERS.
-DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-1_Patients_WITH_PSEUDO_IDS";
-CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-1_Patients_WITH_PSEUDO_IDS" AS
+DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-1_Patients_WITH_IDENTIFIER";
+CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-1_Patients_WITH_IDENTIFIER" AS
 SELECT
 	 dem."GmPseudo", 
 	 dem."Sex",
-	 dem."DateOfBirth" AS "MonthOfBirth", 
+	 dem."DateOfBirth" AS "YearAndMonthOfBirth", 
 	 dem."Age",
 	 dem."IMD_Decile" AS "IMDDecile",
 	 dem."EthnicityLatest_Category",
 	 dem."PracticeCode", 
-	 dth.DeathDate AS "DeathDate",
+	 DATE_TRUNC(month, dth."DeathDate") AS "DeathYearAndMonth"
      dth."DiagnosisOriginalMentionCode" AS "ReasonForDeathCode",
      dth."DiagnosisOriginalMentionDesc" AS "ReasonForDeathDesc",
 	 co.IndexDate AS "IndexDate"
@@ -230,7 +231,7 @@ QUALIFY row_number() OVER (PARTITION BY dem."GmPseudo" ORDER BY "Snapshot" DESC)
 -- for this study are excluded
 DROP TABLE IF EXISTS "AllPseudos_SDE_Lighthouse_06_Chen";
 CREATE TEMPORARY TABLE "AllPseudos_SDE_Lighthouse_06_Chen" AS
-SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-1_Patients_WITH_PSEUDO_IDS"
+SELECT DISTINCT "GmPseudo" FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-1_Patients_WITH_IDENTIFIER"
 EXCEPT
 SELECT "GmPseudo" FROM "Patient_ID_Mapping_SDE_Lighthouse_06_Chen";
 
@@ -256,4 +257,4 @@ DROP TABLE IF EXISTS SDE_REPOSITORY.SHARED_UTILITIES."LH006-1_Patients";
 CREATE TABLE SDE_REPOSITORY.SHARED_UTILITIES."LH006-1_Patients" AS
 SELECT SDE_REPOSITORY.SHARED_UTILITIES.gm_pseudo_hash_SDE_Lighthouse_06_Chen("GmPseudo") AS "PatientID",
 	* EXCLUDE "GmPseudo"
-FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-1_Patients_WITH_PSEUDO_IDS";
+FROM SDE_REPOSITORY.SHARED_UTILITIES."LH006-1_Patients_WITH_IDENTIFIER";

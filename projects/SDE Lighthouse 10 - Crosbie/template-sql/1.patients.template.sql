@@ -3,12 +3,22 @@
 --└────────────────────────────────────┘
 
 -- Cohort: >50s in 2016
--- study team will do the cohort matching, so we provide all over 50s in 2016.
+-- study team will do the cohort matching, so we provide all over 50s in 2016 (with a flag to tell them which patients had a lung health check).
 
 set(StudyStartDate) = to_date('2016-01-01');
 set(StudyEndDate)   = to_date('2024-10-31');
 
---> EXECUTE query-get-possible-patients.sql minimum-age:18
+--> EXECUTE query-get-possible-patients.sql
+
+DROP TABLE IF EXISTS PatientsToInclude;
+CREATE TEMPORARY TABLE PatientsToInclude AS
+SELECT *
+FROM GPRegPatients 
+WHERE ("DeathDate" IS NULL OR "DeathDate" > $StudyStartDate) -- alive on study start date
+	AND 
+	("leftGMDate" IS NULL OR "leftGMDate" > $StudyEndDate) -- don't include patients who left GM mid study (as we lose their data)
+	AND DATEDIFF(YEAR, "DateOfBirth", $StudyStartDate) >= 50;   -- over 50 in 2016
+
 
 -- GET COHORT OF PATIENTS THAT HAD A LUNG HEALTH CHECK
 
@@ -16,9 +26,8 @@ DROP TABLE IF EXISTS {{cohort-table}};
 CREATE TABLE {{cohort-table}} AS 
 SELECT "GmPseudo", "FK_Patient_ID"
 	-- ,flag to identify LHC patients
-FROM AlivePatientsAtStart
+FROM PatientsToInclude
 --LEFT OUTER JOIN **LUNGHEALTHCHECKTABLE** -- left join to identify who had a lung health check, but keep all over 50s
-WHERE DATEDIFF(YEAR, "DateOfBirth",$StudyStartDate) >= 50  -- over 50 in 2016
 LIMIT 1000; --THIS IS TEMPORARY
 
 
@@ -66,7 +75,8 @@ WHERE "Field_ID" IN ('Statin')
 	AND TO_DATE(ec."Date") <=  $StudyStartDate
 GROUP BY c."GmPseudo";
 
--- reasonable adjustment flag
+-- reasonable adjustment flags https://digital.nhs.uk/services/reasonable-adjustment-flag
+-- flags 1 to 4 are already available as clusters in the GP Record, but 5 to 10 needed building as code sets
 
 --> CODESET reasonable-adjustment-category5:1 reasonable-adjustment-category6:1 reasonable-adjustment-category7:1 
 --> CODESET reasonable-adjustment-category8:1 reasonable-adjustment-category9:1 reasonable-adjustment-category10:1
@@ -89,7 +99,7 @@ SELECT
 	, to_date("EventDate") AS "Date"
 FROM INTERMEDIATE.GP_RECORD."GP_Events_SecondaryUses" e
 LEFT JOIN SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_10_Crosbie" cs ON cs.code = e."SuppliedCode"
-LEFT OUTER JOIN AlivePatientsAtStart dem ON dem."FK_Patient_ID" = e."FK_Patient_ID" -- to get GmPseudo
+LEFT OUTER JOIN PatientsToInclude dem ON dem."FK_Patient_ID" = e."FK_Patient_ID" -- to get GmPseudo
 WHERE cs.concept IN ('reasonable-adjustment-category5', 'reasonable-adjustment-category6', 'reasonable-adjustment-category7', 
 					'reasonable-adjustment-category8', 'reasonable-adjustment-category9', 'reasonable-adjustment-category10')
 	AND e."FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_10_Crosbie_GT")
@@ -132,7 +142,6 @@ SELECT
 	 dem."BMI_Date",
 	 dem."BMI_Description",
 	 CASE WHEN phc."GmPseudo" IS NOT NULL THEN 1 ELSE 0 END AS "PersonalHistoryOfCancer",
-	 -- TODO: family history of lung cancer
 	 dem."AlcoholStatus",
 	 dem."Alcohol_Date",
 	 dem."AlcoholConsumption",
