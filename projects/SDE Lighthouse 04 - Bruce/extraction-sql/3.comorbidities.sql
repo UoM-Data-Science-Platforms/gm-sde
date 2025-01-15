@@ -111,7 +111,7 @@ SELECT
 	"Psoriasis_DiagnosisDate", "RheumatoidArthritis_DiagnosisDate", "Stroke_DiagnosisDate", "ThyroidDisorder_DiagnosisDate",
 	"TIA_DiagnosisDate",	"Tuberculosis_DiagnosisDate"
 FROM LH004_HepAndTuberculosis h
-LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."LongTermConditionRegister_Diagnosis" ltc ON ltc."GmPseudo" = h."GmPseudo"
+LEFT OUTER JOIN INTERMEDIATE.GP_RECORD."LongTermConditionRegister_SecondaryUses" ltc ON ltc."GmPseudo" = h."GmPseudo"
 QUALIFY row_number() OVER (PARTITION BY ltc."GmPseudo" ORDER BY "Snapshot" DESC) = 1;
 
 -- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 

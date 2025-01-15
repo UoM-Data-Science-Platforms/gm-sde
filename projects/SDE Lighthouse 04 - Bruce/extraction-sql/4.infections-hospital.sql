@@ -37,6 +37,9 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- >>> Following code sets injected: infection-other v1/lrti v1/muscle-infection v1/neurological-infection v1/peritonitis v1
 -- >>> Following code sets injected: puerpural-infection v1/pyelonephritis v1/urti-bacterial v1/urti-viral v1/uti v2
 
+set(StudyEndDate)   = to_date('2024-12-31');
+
+
 
 -- ... processing [[create-output-table::"LH004-4_infections_hospital"]] ... 
 -- ... Need to create an output table called "LH004-4_infections_hospital" and replace 
@@ -51,7 +54,7 @@ SELECT
 	b.concept AS "Infection",
 	b.description AS "InfectionDescription",
 	"Admission_Date"
-FROM INTERMEDIATE.national_flows_apc."tbl_Data_SUS_APCS" a
+FROM INTERMEDIATE.NATIONAL_FLOWS_APC."tbl_Data_SUS_APCS" a
 LEFT OUTER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_04_Bruce" b ON CHARINDEX(UPPER(b.code), UPPER(a."Der_Diagnosis_All")) > 0
 where b.terminology='icd10'
 and b.concept != 'infections'

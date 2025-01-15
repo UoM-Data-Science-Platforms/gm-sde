@@ -33,13 +33,16 @@
 --> CODESET infection-other:1 lrti:1 muscle-infection:1 neurological-infection:1 peritonitis:1
 --> CODESET puerpural-infection:1 pyelonephritis:1 urti-bacterial:1 urti-viral:1 uti:2
 
+set(StudyEndDate)   = to_date('2024-12-31');
+
+
 {{create-output-table::"LH004-4_infections_hospital"}}
 SELECT
 	SUBSTRING("Der_Pseudo_NHS_Number", 2)::INT AS "GmPseudo",
 	b.concept AS "Infection",
 	b.description AS "InfectionDescription",
 	"Admission_Date"
-FROM INTERMEDIATE.national_flows_apc."tbl_Data_SUS_APCS" a
+FROM INTERMEDIATE.NATIONAL_FLOWS_APC."tbl_Data_SUS_APCS" a
 LEFT OUTER JOIN {{code-set-table}} b ON CHARINDEX(UPPER(b.code), UPPER(a."Der_Diagnosis_All")) > 0
 where b.terminology='icd10'
 and b.concept != 'infections'

@@ -1,5 +1,5 @@
 --┌────────────────────────────────────┐
---│ LH004 Infections file              │
+--│ LH004 Smear tests' results         │
 --└────────────────────────────────────┘
 
 -- From application:
@@ -27,17 +27,21 @@
 
 -- PI agreed to separate files for infections, vaccinations and smear tests
 
+
+set(StudyEndDate)   = to_date('2024-12-31');
+
+
 -- Create temp tables of all the vaccine codes for speeding up future queries
 DROP TABLE IF EXISTS TEMP_LH004_SMEAR_RECORDS;
 CREATE TEMPORARY TABLE TEMP_LH004_SMEAR_RECORDS AS
-SELECT "FK_Patient_ID", CAST("EventDate" AS DATE) AS "EventDate", SCTID, "SNOMED_code_description" 
-FROM INTERMEDIATE.gp_record."GP_Events_SecondaryUses" gp
-LEFT OUTER JOIN intermediate.gp_record.national_clusters_formatted ncf ON ncf."SNOMED_code" = gp.sctid
+SELECT "FK_Patient_ID", CAST("EventDate" AS DATE) AS "EventDate", SCTID, "Term"
+FROM intermediate.gp_record."Combined_EventsMedications_Clusters_SecondaryUses"
 WHERE "Field_ID" = 'SMEAR_COD'
 AND "FK_Patient_ID" IN (SELECT "FK_Patient_ID" FROM {{cohort-table}});
 
 {{create-output-table::"LH004-6_smears"}}
-SELECT DISTINCT "GmPseudo", "EventDate","SNOMED_code_description" AS "SmearDescription"
+SELECT DISTINCT "GmPseudo", "EventDate","Term" AS "SmearDescription"
 FROM TEMP_LH004_SMEAR_RECORDS smear
 INNER JOIN {{cohort-table}} c ON c."FK_Patient_ID" = smear."FK_Patient_ID"
+WHERE "EventDate" <= $StudyEndDate
 ORDER BY "GmPseudo", "EventDate";

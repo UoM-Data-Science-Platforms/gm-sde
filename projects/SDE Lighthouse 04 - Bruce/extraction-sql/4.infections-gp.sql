@@ -37,6 +37,9 @@ USE SCHEMA SDE_REPOSITORY.SHARED_UTILITIES;
 -- >>> Following code sets injected: infection-other v1/lrti v1/muscle-infection v1/neurological-infection v1/peritonitis v1
 -- >>> Following code sets injected: puerpural-infection v1/pyelonephritis v1/urti-bacterial v1/urti-viral v1/uti v2
 
+set(StudyEndDate)   = to_date('2024-12-31');
+
+
 DROP TABLE IF EXISTS LH004_InfectionCodes;
 CREATE TEMPORARY TABLE LH004_InfectionCodes AS
 SELECT "FK_Patient_ID", CAST("EventDate" AS DATE) AS "EventDate", "SuppliedCode"
@@ -77,7 +80,7 @@ SELECT "GmPseudo",
 		WHEN "SuppliedCode" IN (SELECT code FROM SDE_REPOSITORY.SHARED_UTILITIES."Code_Sets_SDE_Lighthouse_04_Bruce" WHERE concept = 'uti') THEN 'uti'
 	END AS "Infection",
 	"EventDate" AS "InfectionDate"
-FROM LH004_InfectionCodes ic
+FROM LH004_InfectionCodes ic WHERE "EventDate" <= $StudyEndDate
 LEFT OUTER JOIN SDE_REPOSITORY.SHARED_UTILITIES."Cohort_SDE_Lighthouse_04_Bruce" c ON c."FK_Patient_ID" = ic."FK_Patient_ID";
 
 -- Then we check to see if there are any new GmPseudo ids. We do this by making a temp table 
